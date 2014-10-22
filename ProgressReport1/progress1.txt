@@ -1,0 +1,26 @@
+Completed:
+1. Analyzed number of reverts for 10 open-source projects by scanning the
+commit messages for reverts. Script - logScanner.rb. Results - logAnalysis.csv
+%age varies from 0.23% to 1.46%, with 2 projects more than 1%.
+2. Analyze how to store/mine the diff for every commit, to the finest granularity.
+Tried out and experimented with multiple libraries aka gems(in Ruby) to see what
+information can be extracted out. Class structure and different attributes for
+each class are described on the project Github repo README.
+3. Stored patch/changes for every difffile for every diff, along with other
+relevant information. The diff history currently being modeled as linear-only.
+4. Fixed an issue around representating the initial state i.e. the empty tree for
+case when you perform `git revert InitialCommitID`
+5. Performed experiments with git revert, found special cases which if handled
+   should give better results.
+
+Next steps for 2 weeks:
+1. Analyze manual reverts in addition to auto-reverts
+2. Extension to the above step - Analyze partial reverts where changes in the current
+commit are reverse of changes to the file in a previous commit.
+- Will add fine-grained details as I proceed on Github
+
+Last step(after everything is complete):
+1. Store commit history as a directed graph, instead of a linear history to ensure
+proper semantics of git reverts are handled. (in reference to pt. 5 above)
+- Expect much better results after this, but can't say how much unless the above
+infrastructure is complete.
