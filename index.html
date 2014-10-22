@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Revertfinder : How often do people revert code?">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Revertfinder</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/silverSpoon/RevertFinder">View on GitHub</a>
+
+          <h1 id="project_title">Revertfinder</h1>
+          <h2 id="project_tagline">How often do people revert code?</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/silverSpoon/RevertFinder/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/silverSpoon/RevertFinder/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="revertfinder" class="anchor" href="#revertfinder"><span class="octicon octicon-link"></span></a>RevertFinder</h3>
+
+<p>UIUC - Fall 2014 - CS 527 - How often do people revert code?</p>
+
+<h4>
+<a name="jatin-ganhotra--ganhotr2illinoisedu--jatinganhotragmailcom" class="anchor" href="#jatin-ganhotra--ganhotr2illinoisedu--jatinganhotragmailcom"><span class="octicon octicon-link"></span></a>Jatin Ganhotra | <a href="mailto:ganhotr2@illinois.edu">ganhotr2@illinois.edu</a> | <a href="mailto:jatin.ganhotra@gmail.com">jatin.ganhotra@gmail.com</a>
+</h4>
+
+<p>There is a diff associated with every commit. The diff contains a lot of information such as number of files changed, statistics such as # of additions/deletions to each file, actual changes to every file.<br>
+When a programmer/developer does a <code>git revert CommitID</code>, the changes made for the CommitID are reverted back.
+e.g. If a new line was added to file.txt with value a, then that change would be reverted.  </p>
+
+<p>Reverts can be of 2 kinds: auto-revert and manual-revert. If there are no conflicts after revert, that's an auto-revert. The developer only needs to provide a commit message here. But, if there are conflicts after reverting the changes, then Git will display that there are conflicts. In this case, the developer would manually resolve the conflicts and the commit the change.  </p>
+
+<p>It's easier to find auto-reverts, because the changes in the revert commit diff would be the exact reverse of when the CommitID happened.  But, it's difficult to accurately find manual-reverts or partial reverts, because the changes could be similar, but would not be an exact match.</p>
+
+<h4>
+<a name="modeling-git-commit-history-and-diffs" class="anchor" href="#modeling-git-commit-history-and-diffs"><span class="octicon octicon-link"></span></a>Modeling Git Commit History and Diffs</h4>
+
+<h5>
+<a name="gems-used" class="anchor" href="#gems-used"><span class="octicon octicon-link"></span></a>Gems used:</h5>
+
+<p><a href="https://github.com/schacon/ruby-git">Ruby-Git</a><br>
+<a href="https://github.com/libgit2/rugged">Rugged</a>  </p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Revertfinder maintained by <a href="https://github.com/silverSpoon">silverSpoon</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
