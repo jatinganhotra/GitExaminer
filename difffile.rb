@@ -3,6 +3,8 @@ require 'logger'
 require 'rugged'
 require 'git'
 
+load 'patch.rb'
+
 class DiffFile
 
   attr_reader :patch
