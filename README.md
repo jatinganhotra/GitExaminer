@@ -1,7 +1,7 @@
 RevertFinder
 ============
 
-UIUC - Fall 2014 - How often do people revert code?
+How often do people revert code?
 ### Jatin Ganhotra | ganhotr2@illinois.edu | jatin.ganhotra@gmail.com
 
 There is a diff associated with every commit. The diff contains a lot of information such as number of files changed, statistics such as # of additions/deletions to each file, actual changes to every file.  
