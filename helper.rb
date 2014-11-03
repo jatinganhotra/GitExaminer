@@ -37,11 +37,11 @@ def CompareDiffStats( a, b)
   i = 0
   stats_dont_match = false
     a[:files].each do |a_file, a_file_stats|
-      ap a_file_stats
+      #ap a_file_stats
       a_insertions = a_file_stats[:insertions]
       a_deletions = a_file_stats[:deletions]
-      puts "Insertions are - " + a_insertions.to_s
-      puts "Deletions are - " +  a_deletions.to_s
+      #puts "Insertions are - " + a_insertions.to_s
+      #puts "Deletions are - " +  a_deletions.to_s
 
       # Find the stats for the same file in stats b
       b[:files].each do |b_file, b_file_stats|
@@ -59,4 +59,43 @@ def CompareDiffStats( a, b)
       end
     end
   return true
+end
+
+def GetCorrepondingDifffileInB(a_difffile_file_name, b)
+  puts "looking for a_difffile_file_name in diff b = " + a_difffile_file_name.to_s
+  is_present = false
+  b.difffiles.each do |b_difffile|
+    b_difffile_file_name = b_difffile.file_name
+    if a_difffile_file_name == b_difffile_file_name
+      puts "Found a match with b_difffile_file_name = " + b_difffile_file_name.to_s
+      puts "The b_difffile object is = " + b_difffile.to_s
+      is_present = true
+      return [is_present, b_difffile]
+      break
+    end
+  end
+end
+
+def CompareDiffPatch(a, b)
+  a_numfiles = a.num_difffiles
+  b_numfiles = b.num_difffiles
+
+  unless a_numfiles == b_numfiles
+    raise "Both stats must have the same number of files, \
+        as we reached here only after checking stats and num_difffiles"
+  end
+
+  a.difffiles.each do |a_difffile|
+    a_difffile_file_name = a_difffile.file_name
+
+    # Checkpoint #1 - The file_name must have a corresponding difffile in diff b
+    is_present, b_difffile = GetCorrepondingDifffileInB(a_difffile_file_name, b)
+
+    if is_present == false
+      return false
+    else
+      return true
+    end
+  end
+
 end
