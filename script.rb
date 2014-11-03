@@ -2,6 +2,7 @@ require 'rubygems'
 require 'logger'
 require 'rugged'
 require 'git'
+require 'awesome_print'
 
 # Include diff, difffile classes
 load 'diff.rb'
@@ -12,7 +13,10 @@ load 'helper.rb'
 diffs_array = []
 
 # Initialize both libraries
-working_dir = `pwd`.chomp
+v1 = ARGV[0]
+puts v1
+working_dir = v1
+#working_dir = `pwd`.chomp
 rubygit_gem_repo = Git.open(working_dir, :log => Logger.new(STDOUT))
 rugged_repo = Rugged::Repository.new(working_dir)
 
@@ -20,7 +24,7 @@ rugged_repo = Rugged::Repository.new(working_dir)
 commit_list = rubygit_gem_repo.log(nil)
 
 # Get the initial empty tree state
-empty_tree=`git hash-object -t tree /dev/null`
+empty_tree=`git hash-object -w -t tree /dev/null`
 empty_state = rugged_repo.lookup("#{empty_tree.chomp}")
 
 commit_list_array = commit_list.to_a
@@ -28,6 +32,7 @@ commit_list_array.reverse!
 commit_list_array.insert(0, empty_state)
 
 num_commits = commit_list_array.size
+# FIXME: TODO: Change this line when code is complete
 for i in 0...num_commits-1
   prev_commit = commit_list_array[i]
   next_commit = commit_list_array[i+1]
@@ -47,24 +52,57 @@ for i in 0...num_commits-1
   diffs_array << diff
 end
 
-puts commit_list_array.count
-puts diffs_array.count
+# ------------------DEBUG Messages----------------------------------
+#puts commit_list_array.count
+#puts diffs_array.count
 
-DEBUG_LOGGER(diffs_array)
-# # Find the diff between the empty tree and the first commit
-# diff = beg.diff(commit_object)
-#
-# # Get patch for the diff
-# patch = diff.patch
-#
-# # Get delta (faster, if you only need information on what files changed)
-# diff.each_delta{ |d| puts d.inspect }
-#
-# # Number of deltas i.e. count of files changed
-# diff.deltas.count
-#
-# # To easily parse the diff and store patch diff for each file
-# # use
-# #g.diff(commit1, commit2).size
-# #g.diff(commit1, commit2).stats
-# # at https://github.com/schacon/ruby-git
+#DEBUG_LOGGER(diffs_array)
+
+#puts "Jatin"
+#puts diffs_array[0].difffiles[0].patch
+puts diffs_array[0].stats
+puts diffs_array[0].stats.class
+#puts "Jatin"
+
+#additions = (diffs_array[0].difffiles[0].patch.changes).match(/^[\+][^+][^+].*/)
+#deletions = (diffs_array[0].difffiles[0].patch.changes).match(/^[\-][^-][^-].*/)
+#puts "JKJKJK"
+#puts "Additions are - \n" + additions.to_s
+
+# ------------------CHECK FOR REVERTS----------------------------------
+
+# Iterate over the array for diffs
+#diffs_array.each do ||
+#ap diffs_array
+
+num_reverts = 0
+visited = {}
+diffs_array.reverse_each do |diff|
+  # For each diff starting from the latest, start comparison with the first
+  diffs_array.each do |cmp_diff|
+    next if diff == cmp_diff #No point looking at the same diff
+
+    #next if diff
+    # Checkpoint #1 - Number of difffiles should be equal
+    next if diff.num_difffiles != cmp_diff.num_difffiles
+
+    diff_pair = [diff, cmp_diff].sort!
+    puts diff_pair
+    # If you have already visited this pair, don't work again on it
+    next if visited[diff_pair] == true
+
+    visited[diff_pair] = true
+    puts "visited[diff_pair] = " + visited[diff_pair].to_s
+    # Checkpoint #2 - Compare stats if they are same
+    stats_match = CompareDiffStats(diff.stats, cmp_diff.stats)
+    if stats_match == true
+      num_reverts = num_reverts + 1
+      puts "--- Yes the stats match !! The revert commits are - "
+      puts ">> The commit sha for this diff is - " + diff.next_commit_sha.to_s
+      puts ">> The commit message for this diff is - " + rugged_repo.lookup("#{diff.next_commit_sha}").message
+      puts ">> The reverted commit sha is - " + cmp_diff.next_commit_sha.to_s
+      puts ">> The commit message for this diff is - " + rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message
+    end
+  end
+end
+puts "The number of reverts are = " + num_reverts.to_s

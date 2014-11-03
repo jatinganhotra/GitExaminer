@@ -8,14 +8,19 @@ class Diff
   attr_reader :stats
   attr_reader :prev_commit_sha
   attr_reader :next_commit_sha
-  
+
   def initialize()
     @diff = nil
-    @difffiles = Array.new
+    @difffiles = []
     @num_difffiles = 0
     @stats = 0
     @prev_commit_sha = 0
     @next_commit_sha = 0
+  end
+
+  # So, that I can sort Diffs while calculating the diff for reverts
+  def <=>(anOther)
+    object_id <=> anOther.object_id
   end
 
   def initialize(prev_commit_sha, next_commit_sha, diff)
@@ -24,6 +29,24 @@ class Diff
     @diff = diff
     @prev_commit_sha = prev_commit_sha
     @next_commit_sha = next_commit_sha
+  end
+
+  def generate_stats
+    num_files = @stats[:total][:files]
+    #puts num_files
+    # puts @num_difffiles
+    # Not valid now, as @num_difffiles is nil
+    # TODO: Add this check as this is a correctness check
+    #raise "Num_files in stats != number of diffiles" unless num_files == @num_difffiles
+    i = 0
+    @stats[:files].each do |file, file_stats|
+      file_stats = stats[:files][file]
+      puts "STATS begin"
+      puts file
+      puts file_stats
+      puts "STATS end"
+
+    end
   end
 
   def generate_difffiles_and_stats
@@ -41,8 +64,9 @@ class Diff
     @num_difffiles = diff.size
     @num_difffiles.times do |i|
       difffile = DiffFile.new( diff[i] )
-      difffile.generate_patch
       @difffiles << difffile
     end
+
+    self.generate_stats
   end
 end
