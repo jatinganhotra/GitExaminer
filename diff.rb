@@ -41,11 +41,10 @@ class Diff
     i = 0
     @stats[:files].each do |file, file_stats|
       file_stats = stats[:files][file]
-      puts "STATS begin"
-      puts file
-      puts file_stats
-      puts "STATS end"
-
+      #puts "STATS begin"
+      #puts file
+      #puts file_stats
+      #puts "STATS end"
     end
   end
 

@@ -23,13 +23,13 @@ rugged_repo = Rugged::Repository.new(working_dir)
 # Get all the commits for the project
 commit_list = rubygit_gem_repo.log(nil)
 
-# Get the initial empty tree state
-empty_tree=`git hash-object -w -t tree /dev/null`
-empty_state = rugged_repo.lookup("#{empty_tree.chomp}")
+# FIXME: Somehow this always gives errors. Get the initial empty tree state
+#empty_tree=`git hash-object -w -t tree /dev/null`
+#empty_state = rugged_repo.lookup("#{empty_tree.chomp}")
 
 commit_list_array = commit_list.to_a
 commit_list_array.reverse!
-commit_list_array.insert(0, empty_state)
+#commit_list_array.insert(0, empty_state)
 
 num_commits = commit_list_array.size
 # FIXME: TODO: Change this line when code is complete
@@ -45,7 +45,9 @@ for i in 0...num_commits-1
   end
 
   next_sha = next_commit.sha
+  # FIXME: Using the ruby-git gem rightnow for diff between commits
   diff_bw_commits = rubygit_gem_repo.diff(prev_sha, next_sha)
+
 
   diff = Diff.new(prev_sha, next_sha, diff_bw_commits)
   diff.generate_difffiles_and_stats

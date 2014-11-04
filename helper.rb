@@ -74,6 +74,35 @@ def GetCorrepondingDifffileInB(a_difffile_file_name, b)
       break
     end
   end
+  return [false, nil]
+end
+
+
+def ComparePatchForDifffiles(a, b)
+  puts "------------------- BEGIN ComparePatchforDifffiles ----------------"
+  a_additions = a.additions
+  a_deletions = a.deletions
+
+  b_additions = b.additions
+  b_deletions = b.deletions
+
+  puts "a_additions = " + a_additions.to_s
+  puts "b_additions = " + b_additions.to_s
+  puts "a_deletions = " + a_deletions.to_s
+  puts "b_deletions = " + b_deletions.to_s
+  c1 = a_additions == b_deletions
+  c2 = a_deletions == b_additions
+
+  puts c1
+  puts c2
+  puts "------------------- END ComparePatchforDifffiles ----------------"
+
+  puts "WOW" if (c1 == true && c2 == true)
+  if (c1 == true && c2 == true)
+    return true
+  else
+    return false
+  end
 end
 
 def CompareDiffPatch(a, b)
@@ -85,17 +114,26 @@ def CompareDiffPatch(a, b)
         as we reached here only after checking stats and num_difffiles"
   end
 
+  num_diffs_correct = 0
   a.difffiles.each do |a_difffile|
     a_difffile_file_name = a_difffile.file_name
 
     # Checkpoint #1 - The file_name must have a corresponding difffile in diff b
     is_present, b_difffile = GetCorrepondingDifffileInB(a_difffile_file_name, b)
 
-    if is_present == false
+    return false if is_present == false
+    puts "is_present =" + is_present.to_s
+    puts "b_difffile found for file_name = " + a_difffile_file_name + " is = " + b_difffile.to_s
+    # Checkpoint #2 - Compare the patches for both difffiles a and b
+    a_patch = a_difffile.patch
+    b_patch = b_difffile.patch
+    do_patches_match = ComparePatchForDifffiles(a_patch, b_patch)
+    if do_patches_match == false
       return false
     else
-      return true
+      num_diffs_correct = num_diffs_correct + 1
     end
   end
 
+  return true if num_diffs_correct == a_numfiles
 end

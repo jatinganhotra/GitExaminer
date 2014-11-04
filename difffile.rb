@@ -27,8 +27,10 @@ class DiffFile
       file_name_old_version = file_name_old_version.to_s.split("/").last
       file_name_new_version = file_name_new_version.to_s.split("/").last
 
-      file_name_old_version = file_name_new_version if file_name_old_version = "null"
-      # TODOD - FIXME : Only working for cases when you have the same file_name across the 2 revisions
+      # FIXME: Need to check when these 2 lines below would actually happen
+      file_name_old_version = file_name_new_version if file_name_old_version == "null"
+      file_name_new_version = file_name_old_version if file_name_new_version == "null"
+      # TODO - FIXME : Only working for cases when you have the same file_name across the 2 revisions
       puts "file_name_new_version = " + file_name_new_version.to_s
       puts "file_name_old_version = " + file_name_old_version.to_s
       unless file_name_old_version == file_name_new_version
