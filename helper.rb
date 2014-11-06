@@ -27,6 +27,8 @@ def CompareDiffStats( a, b)
   # puts "Stats for diff b"
   # ap b
 
+  return false if a.nil? || b.nil?
+  return false if a[:total].nil? || b[:total].nil?
   a_num_files = a[:total][:files]
   b_num_files = b[:total][:files]
   unless a_num_files == b_num_files
@@ -115,9 +117,17 @@ def CompareDiffPatch(a, b)
   end
 
   num_diffs_correct = 0
+  return false if a_numfiles == 0 || b_numfiles == 0
+  # FIXME: Bloody hell. The difffiles array is nil. Why???
+  return false if a.difffiles.nil? || b.difffiles.nil?
   a.difffiles.each do |a_difffile|
     a_difffile_file_name = a_difffile.file_name
 
+    # FIXME: Another issue
+    next if a_difffile_file_name.nil?
+    puts "JATIN - > "
+    puts a_difffile_file_name
+    puts "JATIN - > "
     # Checkpoint #1 - The file_name must have a corresponding difffile in diff b
     is_present, b_difffile = GetCorrepondingDifffileInB(a_difffile_file_name, b)
 

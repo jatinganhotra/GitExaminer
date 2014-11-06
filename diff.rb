@@ -56,8 +56,16 @@ class Diff
     # diff.class => Git::Diff
     # Get the stats for the diff, before extracting individual difffiles
     @stats = @diff.stats
+
+    # FIXME: Convert the enumerbale to array. Not using the .to_a
+    # Iterating over the enumerable array to convert to array
+    diff = []
+    @diff.each do |obj|
+      diff << obj
+    end
+
     # Convert the Enumerable to Array
-    diff = @diff.to_a
+    # diff = @diff.to_a
     # diff.class => Array
 
     @num_difffiles = diff.size
