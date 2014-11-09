@@ -1,0 +1,89 @@
+# of reverts = 6
+Revert diff pair 1 is -> 
+{ 8b94ba1eaec3e6763faf5c30b84f96bd4b5bd276 -> 576bfeefcbbf74f4df6ce0ef01f95149b7feec12 } is a revert
+{ 576bfeefcbbf74f4df6ce0ef01f95149b7feec12 -> ab7b203a2bdb89f1faed668bf39ff1c080df1218 }
+Revert commits SHA are -> 
+576bfeefcbbf74f4df6ce0ef01f95149b7feec12 - revert - ab7b203a2bdb89f1faed668bf39ff1c080df1218
+The reverted commit sha is - 576bfeefcbbf74f4df6ce0ef01f95149b7feec12
+Commit message - Add repository and bug information for npm
+The original commit sha is - ab7b203a2bdb89f1faed668bf39ff1c080df1218
+Commit message - Merge pull request #1097 from nschonni/bump-nodeunit
+
+Bump nodeunit and sinon devDependencies
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 8ecb4b45e97875bd2a33da4da21492dcacdab76a -> 1a9ef359bd4bbd2f9231eefccd7b1b6952be17f0 } is a revert
+{ 1a9ef359bd4bbd2f9231eefccd7b1b6952be17f0 -> f87d46548c33a21417067f7ed25687fbdb084e20 }
+Revert commits SHA are -> 
+1a9ef359bd4bbd2f9231eefccd7b1b6952be17f0 - revert - f87d46548c33a21417067f7ed25687fbdb084e20
+The reverted commit sha is - 1a9ef359bd4bbd2f9231eefccd7b1b6952be17f0
+Commit message - report error/warning code by default, as severity for jslint
+The original commit sha is - f87d46548c33a21417067f7ed25687fbdb084e20
+Commit message - Merge pull request #968 from theoreticaLee/master
+
+Add JSHint license to package.json
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 0f116f6e612c042ac1504042fb9850fae2dc3c02 -> 815dae1f1ee8bc57d0400e98d0e2f08e63e5ad9c } is a revert
+{ d448df71c867a9640f4e4460f877fcbe2d49d2c8 -> cf711204dfb5a6775da4dd5654c52d03712efa43 }
+Revert commits SHA are -> 
+815dae1f1ee8bc57d0400e98d0e2f08e63e5ad9c - revert - cf711204dfb5a6775da4dd5654c52d03712efa43
+The reverted commit sha is - 815dae1f1ee8bc57d0400e98d0e2f08e63e5ad9c
+Commit message - Merge pull request #749 from Bonuspunkt/master
+
+Problems with piping on windows
+The original commit sha is - cf711204dfb5a6775da4dd5654c52d03712efa43
+Commit message - Revert "Merge pull request #749 from Bonuspunkt/master"
+
+This reverts commit 815dae1f1ee8bc57d0400e98d0e2f08e63e5ad9c, reversing
+changes made to 0f116f6e612c042ac1504042fb9850fae2dc3c02.
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 4a0d7c65fc27cee72753c7a14c2809cf4db33346 -> 10ab2275cf77e2ea099007941f3f666c6726f5a2 } is a revert
+{ ac45bf0f9a59c49c87e007be0e155a568be7857a -> 93cf00963d47ad2c6c6f01a46f3acb5d1264b851 }
+Revert commits SHA are -> 
+10ab2275cf77e2ea099007941f3f666c6726f5a2 - revert - 93cf00963d47ad2c6c6f01a46f3acb5d1264b851
+The reverted commit sha is - 10ab2275cf77e2ea099007941f3f666c6726f5a2
+Commit message - Fix functionparams result
+
+It should be array in all cases.
+The original commit sha is - 93cf00963d47ad2c6c6f01a46f3acb5d1264b851
+Commit message - Revert "Merge pull request #643 from medikoo/params-error"
+
+This reverts commit ac45bf0f9a59c49c87e007be0e155a568be7857a, reversing
+changes made to 4a0d7c65fc27cee72753c7a14c2809cf4db33346.
+
+Reason: no regression test submitted with a pull request.
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ b963afac09ad2101764db0eed6b242ff8e7c7f2c -> 003b4eafd54069273fa5ff07a118d99e9e56c720 } is a revert
+{ 003b4eafd54069273fa5ff07a118d99e9e56c720 -> 4453555b3cd8b72ecc6076246a784c0356cb26ff }
+Revert commits SHA are -> 
+003b4eafd54069273fa5ff07a118d99e9e56c720 - revert - 4453555b3cd8b72ecc6076246a784c0356cb26ff
+The reverted commit sha is - 003b4eafd54069273fa5ff07a118d99e9e56c720
+Commit message - update top comment to include new members in data object
+The original commit sha is - 4453555b3cd8b72ecc6076246a784c0356cb26ff
+Commit message - Merge pull request #560 from joelrbrandt/fix-unit-tests
+
+add Node and NodeFilter members to options to fix unit tests
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 6c23b2bfd043d77e8a2cccaaeb5034696758fb1c -> 8cecd6a6e352d2d25b381e04bace4860ee88c5f1 } is a revert
+{ 8cecd6a6e352d2d25b381e04bace4860ee88c5f1 -> efbb3af4f905138df9796ed1b8719bb695d1f93e }
+Revert commits SHA are -> 
+8cecd6a6e352d2d25b381e04bace4860ee88c5f1 - revert - efbb3af4f905138df9796ed1b8719bb695d1f93e
+The reverted commit sha is - 8cecd6a6e352d2d25b381e04bace4860ee88c5f1
+Commit message - Adding `MessageChannel` to browser globals.
+
+Fixes GH-446.
+The original commit sha is - efbb3af4f905138df9796ed1b8719bb695d1f93e
+Commit message - Merge pull request #436 from goatslacker/GH-435
+
+Fixes GH-435. Call/Apply outside parens now invokes correct warning
+-----------------------------------------------------------------
+

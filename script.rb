@@ -11,10 +11,9 @@ load 'helper.rb'
 load 'debug_helper.rb'
 
 # Send console output to console.out
-# FIXME: Enable these in the end
-# $stdout.reopen("console.out", "w")
-# $stdout.sync = true
-# $stderr.reopen($stdout)
+$stdout.reopen("console.out", "w")
+$stdout.sync = true
+$stderr.reopen($stdout)
 
 # Global array to store all the diffs
 diffs_array = []
@@ -150,5 +149,5 @@ revert_diffs.each do |revert_diff_pair|
   op_file.puts("Commit message - " + rugged_repo.lookup("#{diff.next_commit_sha}").message)
   op_file.puts("-----------------------------------------------------------------")
   op_file.puts "\n"
-  num.succ
+  num = num.succ
 end

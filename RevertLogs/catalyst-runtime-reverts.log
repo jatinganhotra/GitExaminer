@@ -1,0 +1,373 @@
+# of reverts = 31
+Revert diff pair 1 is -> 
+{ cae5df2cd085e4e4e2a1aca25e9842df4ea1519f -> 761bd69cc72a14d393b315f60c2a6511f09cb169 } is a revert
+{ 3df135345bddeffe439c485a021b798baea88575 -> eb0d3cdea253b57559d190821a4f11b6265661ab }
+Revert commits SHA are -> 
+761bd69cc72a14d393b315f60c2a6511f09cb169 - revert - eb0d3cdea253b57559d190821a4f11b6265661ab
+The reverted commit sha is - 761bd69cc72a14d393b315f60c2a6511f09cb169
+Commit message - Turn autoflush off via undef instead of 0 for consistency
+The original commit sha is - eb0d3cdea253b57559d190821a4f11b6265661ab
+Commit message - Back to 0/1 for true/flase setting for autoflush
+
+From IRC:
+<ilmari> I'd rather use 0 than undef for false, really
+<vanstyn> ok, then I'll change it back... the reason I changed it to
+undef was to match existing code, 'abort'
+<vanstyn> I generally prefer 0/1 as well, which is why that is what I
+started with
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ c20ce703ac8a5ae00eb19960744b5b1fe8adf78e -> cd61f3ab24b7dcc59068c35d62ddb4bb9b9162c8 } is a revert
+{ 58f86b1ae1c33c993cd311dcd04148dd0a70610c -> f831720babc4818823ec8628dcc1bd032ed8220c }
+Revert commits SHA are -> 
+cd61f3ab24b7dcc59068c35d62ddb4bb9b9162c8 - revert - f831720babc4818823ec8628dcc1bd032ed8220c
+The reverted commit sha is - cd61f3ab24b7dcc59068c35d62ddb4bb9b9162c8
+Commit message - work with MooseX::Getopt 0.48 by using the new public method for printing usage
+The original commit sha is - f831720babc4818823ec8628dcc1bd032ed8220c
+Commit message - Revert "work with MooseX::Getopt 0.48 by using the new public method for printing usage"
+
+This reverts commit cd61f3ab24b7dcc59068c35d62ddb4bb9b9162c8.
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ e3f6b891eadf91320fff9caf204ead09e54b51b0 -> f21993513cc09ce7aec7b551bec107dd192d5905 } is a revert
+{ d26d64c66308b65cb6c007f935a5a048135b10a5 -> c4a175162702fe2a2c7fa4ff2ad31219a6cf44d4 }
+Revert commits SHA are -> 
+f21993513cc09ce7aec7b551bec107dd192d5905 - revert - c4a175162702fe2a2c7fa4ff2ad31219a6cf44d4
+The reverted commit sha is - f21993513cc09ce7aec7b551bec107dd192d5905
+Commit message - And another trivial doc fix
+The original commit sha is - c4a175162702fe2a2c7fa4ff2ad31219a6cf44d4
+Commit message - Revert "And another trivial doc fix"
+
+This reverts commit f21993513cc09ce7aec7b551bec107dd192d5905.
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ f21993513cc09ce7aec7b551bec107dd192d5905 -> 102edbf4898a0bb361586ab2b691a6c8f77968fb } is a revert
+{ d0cfd993b65b424791839e8439b707a78314f4f5 -> d26d64c66308b65cb6c007f935a5a048135b10a5 }
+Revert commits SHA are -> 
+102edbf4898a0bb361586ab2b691a6c8f77968fb - revert - d26d64c66308b65cb6c007f935a5a048135b10a5
+The reverted commit sha is - 102edbf4898a0bb361586ab2b691a6c8f77968fb
+Commit message - The latter part of that doc doesn't apply in master, yet
+The original commit sha is - d26d64c66308b65cb6c007f935a5a048135b10a5
+Commit message - Revert "The latter part of that doc doesn't apply in master, yet"
+
+This reverts commit 102edbf4898a0bb361586ab2b691a6c8f77968fb.
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 824a5eb06f0e83845f000a33124482be89c2291f -> 23a34adfebeb887fb66214421cb3064f83e796cd } is a revert
+{ 13e3699abaac396381c0dc9283033223ce2e310f -> 84755bc3c6c73deaa10f3f7ba4e1a0432220c9fc }
+Revert commits SHA are -> 
+23a34adfebeb887fb66214421cb3064f83e796cd - revert - 84755bc3c6c73deaa10f3f7ba4e1a0432220c9fc
+The reverted commit sha is - 23a34adfebeb887fb66214421cb3064f83e796cd
+Commit message - Version 5.90003
+The original commit sha is - 84755bc3c6c73deaa10f3f7ba4e1a0432220c9fc
+Commit message - Revert "Version 5.90003"
+
+This reverts commit 23a34adfebeb887fb66214421cb3064f83e796cd.
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ fa325a7dd41a46365e4c706e6704069658c50785 -> 8df53bed55eff8f87a6d62e6e07be033298796a7 } is a revert
+{ 29076427c02971d7b3e65326131ff77ca5a43de7 -> f4dbb497758845c429e2861f9e4c7e0d31e00d91 }
+Revert commits SHA are -> 
+8df53bed55eff8f87a6d62e6e07be033298796a7 - revert - f4dbb497758845c429e2861f9e4c7e0d31e00d91
+The reverted commit sha is - 8df53bed55eff8f87a6d62e6e07be033298796a7
+Commit message - Fixed chained action order resolution to pass t/aggregate/live__component_controller_action_chained2.t and without break any other test.
+The original commit sha is - f4dbb497758845c429e2861f9e4c7e0d31e00d91
+Commit message - Merge revert 8df53bed
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 41b633d881de11c59411977d7c16c8805c4435ce -> ad9c323c9f20903fd13463cba8c6c975bf29f199 } is a revert
+{ 524b0e1cfa0a5722a3d8f56a2a15fb709e9e71de -> 29076427c02971d7b3e65326131ff77ca5a43de7 }
+Revert commits SHA are -> 
+ad9c323c9f20903fd13463cba8c6c975bf29f199 - revert - 29076427c02971d7b3e65326131ff77ca5a43de7
+The reverted commit sha is - ad9c323c9f20903fd13463cba8c6c975bf29f199
+Commit message - TODO out gshanks chained tests
+The original commit sha is - 29076427c02971d7b3e65326131ff77ca5a43de7
+Commit message - Un-TODO abraxxa's tests
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ b916f1886fc97523c8719b5c74a5248d5a15974d -> 6e3f9d973268bf6e117dcb0a5d775de61e22c418 } is a revert
+{ 6e3f9d973268bf6e117dcb0a5d775de61e22c418 -> af81321a6737c4a8b0c39604e69787b248514a1e }
+Revert commits SHA are -> 
+6e3f9d973268bf6e117dcb0a5d775de61e22c418 - revert - af81321a6737c4a8b0c39604e69787b248514a1e
+The reverted commit sha is - 6e3f9d973268bf6e117dcb0a5d775de61e22c418
+Commit message - Fix bug with parse_on_demand
+The original commit sha is - af81321a6737c4a8b0c39604e69787b248514a1e
+Commit message - Back out 13528, cocked that up.
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ f6b08ab6aa5ce2c7dbac35ffa7698fb3cd11c61f -> 5240c813b68a797240349df34c74a9abd13ae6e1 } is a revert
+{ 5240c813b68a797240349df34c74a9abd13ae6e1 -> fb34eb9c063c53abd061d260a30f0ca7c57a0833 }
+Revert commits SHA are -> 
+5240c813b68a797240349df34c74a9abd13ae6e1 - revert - fb34eb9c063c53abd061d260a30f0ca7c57a0833
+The reverted commit sha is - 5240c813b68a797240349df34c74a9abd13ae6e1
+Commit message - Fix test when live
+The original commit sha is - fb34eb9c063c53abd061d260a30f0ca7c57a0833
+Commit message - Remove that idiocy
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ ec0939b9f5a09cb4b1ae6986f0525376f02eaabe -> 3317f661135adb540baf551803dc16ba4bd5920b } is a revert
+{ a160c98d29bf1df03934bd68da939e0b517dbb32 -> 99d93ba8704ef47d3477c7fbf1bd05fc24fce32e }
+Revert commits SHA are -> 
+3317f661135adb540baf551803dc16ba4bd5920b - revert - 99d93ba8704ef47d3477c7fbf1bd05fc24fce32e
+The reverted commit sha is - 3317f661135adb540baf551803dc16ba4bd5920b
+Commit message - Disabled name lookup for server hostname in favour of returning IP address.  Annoyingly, I can't find any actual use of the name in this module (it's passed as SERVER_NAME in the env), but we believe it ends up in the 'Host' header.
+The original commit sha is - 99d93ba8704ef47d3477c7fbf1bd05fc24fce32e
+Commit message - Back out 13063. This changes the CGI environment we construct to just be plain wrong, SERVER_NAME is meant to be a name after all. I have a feeling that all of this crap could be simplified, but I don't want to spend a lot of tuits changing it (and possibly breaking things for people with non-obvious behaviour changes like this one) - when those tuits could be spent on Plack stuff so that all this code dies anyway (and we do a major release so breakage can be more reasonable expected / extensively tested for). This is all possibly being _too_ paranoid here, but given the original commit didn't know what was happening / what changed _at all_, I think that's fair..
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ d9669e44bfc7fb3b6e6ed662c422a60a41c74458 -> fa7a60aac97d8a9501a2cdca54f519752c12731a } is a revert
+{ d7a8260570036621e91cd9b1bfc5d559ed2efabb -> 7905feb37e16936e4acd2e21bf65815109b39620 }
+Revert commits SHA are -> 
+fa7a60aac97d8a9501a2cdca54f519752c12731a - revert - 7905feb37e16936e4acd2e21bf65815109b39620
+The reverted commit sha is - fa7a60aac97d8a9501a2cdca54f519752c12731a
+Commit message - in what case is a numeric comparison called for? I cannot think of one. Is this the best way to test?
+The original commit sha is - 7905feb37e16936e4acd2e21bf65815109b39620
+Commit message - Revert "in what case is a numeric comparison called for? I cannot think of one. Is this the best way to test?"
+
+This reverts commit 279b2f1abb0a8e056b8c905e5a4ecb66537ee194.
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ b4c3100347e009b27f62e50b8e06dde227872328 -> 86101829ab51e1537a9277557d24953e51a14d90 } is a revert
+{ 86101829ab51e1537a9277557d24953e51a14d90 -> 16918b4dbfe57d453aaf5e6d80ca92290722733a }
+Revert commits SHA are -> 
+86101829ab51e1537a9277557d24953e51a14d90 - revert - 16918b4dbfe57d453aaf5e6d80ca92290722733a
+The reverted commit sha is - 86101829ab51e1537a9277557d24953e51a14d90
+Commit message - Delete unfixable FAIL.
+
+It's unnecessary under PSGI anyway. The PSGI servers won't let get undecoded
+paths through to us.
+The original commit sha is - 16918b4dbfe57d453aaf5e6d80ca92290722733a
+Commit message - Well, apparently this *is* necessary, just the extra_env stuff isn't :/
+
+This reverts commit 87d4377bb66a6530cd2e13c4e770e7b1f0aaf7d3.
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ bd60aaeb0870fde283698d4f7ffbeb5e62d25ab4 -> 17a8b3f1832916d0139982a771d10c77ce241d5d } is a revert
+{ e6e2ba11f62eb261728729c01c77b73add5d8467 -> bedfa17f708442bb57308bf992ffcb857a6b22a8 }
+Revert commits SHA are -> 
+17a8b3f1832916d0139982a771d10c77ce241d5d - revert - bedfa17f708442bb57308bf992ffcb857a6b22a8
+The reverted commit sha is - 17a8b3f1832916d0139982a771d10c77ce241d5d
+Commit message - We also need autoclean
+The original commit sha is - bedfa17f708442bb57308bf992ffcb857a6b22a8
+Commit message - require autoclean once only
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ b42b9094c7f1a5cf0cb7750255ea6b0a1de45ddf -> 9d5277eada8c3be7c5310e56d2168cc95fabc22b } is a revert
+{ 82701bda5a3afb2fa61acd8fd0d012224265b0ad -> 4f555202ece37010077ea8ac1a2df58628c2cc36 }
+Revert commits SHA are -> 
+9d5277eada8c3be7c5310e56d2168cc95fabc22b - revert - 4f555202ece37010077ea8ac1a2df58628c2cc36
+The reverted commit sha is - 9d5277eada8c3be7c5310e56d2168cc95fabc22b
+Commit message - Skip on win32, hopefully we'll get a better answer than this, but lets stop failing
+The original commit sha is - 4f555202ece37010077ea8ac1a2df58628c2cc36
+Commit message - Win32 fix: reverting commit 12210 (after a discussion with t0m) - all tests pass on Win32/strawberry perl 5.8.9 and 5.10.1
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ dd234b2287734900ba67fcff33222ef1444f603c -> 6706de65c1d09d2b2744d0ca3bca2a4e8df06628 } is a revert
+{ 71e2948890d839ada6c067c73148b89e8a43af6c -> 1bc7640030267b021814c167a011acd2454119f3 }
+Revert commits SHA are -> 
+6706de65c1d09d2b2744d0ca3bca2a4e8df06628 - revert - 1bc7640030267b021814c167a011acd2454119f3
+The reverted commit sha is - 6706de65c1d09d2b2744d0ca3bca2a4e8df06628
+Commit message - Bump version in runtime branch
+The original commit sha is - 1bc7640030267b021814c167a011acd2454119f3
+Commit message - This is not a release.
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 17eaca1856f64e73819a58e5ae9a4e18c4db14f2 -> f2dc943b9a03a6e028048aada43e9c7dae646298 } is a revert
+{ 297ff4cef3b57249e9e2887359d09282f911f2f1 -> 46635e11b624ea371890e7b0740b68e8eaa07b1f }
+Revert commits SHA are -> 
+f2dc943b9a03a6e028048aada43e9c7dae646298 - revert - 46635e11b624ea371890e7b0740b68e8eaa07b1f
+The reverted commit sha is - f2dc943b9a03a6e028048aada43e9c7dae646298
+Commit message - Work with old and new Moose
+The original commit sha is - 46635e11b624ea371890e7b0740b68e8eaa07b1f
+Commit message - Now we depend on latest Moose we are certain to have immutable options
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ f4fba3d7cf527e80b293f46c1830f77e557bf6d2 -> 46c5cdc88d59eaaebbde6e2dfce84bebafd9fda7 } is a revert
+{ 2cc36f4415a78401dfceb07020fee718c439b993 -> 67e9673e2729bf40b87a20b2afa350be19cd7f5e }
+Revert commits SHA are -> 
+46c5cdc88d59eaaebbde6e2dfce84bebafd9fda7 - revert - 67e9673e2729bf40b87a20b2afa350be19cd7f5e
+The reverted commit sha is - 46c5cdc88d59eaaebbde6e2dfce84bebafd9fda7
+Commit message - DispatchType::Chained fix failing test of Args(0) vs Args(0) on surface
+The original commit sha is - 67e9673e2729bf40b87a20b2afa350be19cd7f5e
+Commit message - Remove r11058 - the commit message is lies, it does not fix the TODO test
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ a85294b6627a8b1b9006f478f125be7e203247fa -> 27c47255d4bd1cc7456c847327b18569ff6b46f0 } is a revert
+{ 27c47255d4bd1cc7456c847327b18569ff6b46f0 -> f913be31f216eecb9f104573e20daf96f5cdedf1 }
+Revert commits SHA are -> 
+27c47255d4bd1cc7456c847327b18569ff6b46f0 - revert - f913be31f216eecb9f104573e20daf96f5cdedf1
+The reverted commit sha is - 27c47255d4bd1cc7456c847327b18569ff6b46f0
+Commit message - Port to Module::Install::CheckConflicts.
+The original commit sha is - f913be31f216eecb9f104573e20daf96f5cdedf1
+Commit message - Merge branch 'author_requires'
+
+author_requires:
+Port to Module::Install::AuthorRequires.
+Create branch author_requires
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ aaee1a0a5c8f57a15bc1474b52add5729f65c66f -> b3679813053b5cf5cc6e8f3086d7c1cbb3c73b5a } is a revert
+{ c03aaf03806f4e78830310d0d80f024b781063a0 -> a015e9abdc3f27267be7deca045b503ef9606288 }
+Revert commits SHA are -> 
+b3679813053b5cf5cc6e8f3086d7c1cbb3c73b5a - revert - a015e9abdc3f27267be7deca045b503ef9606288
+The reverted commit sha is - b3679813053b5cf5cc6e8f3086d7c1cbb3c73b5a
+Commit message - Test demonstrating that / in a CaptureArg doesn't get url encoded
+The original commit sha is - a015e9abdc3f27267be7deca045b503ef9606288
+Commit message - Fix uri_for_action test by just reverting to as it was in 5.8003 before various lame tests were added and mismerged
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 0c913601ac4ab28c5ffc5b7adb1833b99ac07459 -> 220bf857ab697651a59738aa34c9e110f6af486a } is a revert
+{ 220bf857ab697651a59738aa34c9e110f6af486a -> 69cc9001ca889fef5bc5d4ba4d6c0f7251dc3f8f }
+Revert commits SHA are -> 
+220bf857ab697651a59738aa34c9e110f6af486a - revert - 69cc9001ca889fef5bc5d4ba4d6c0f7251dc3f8f
+The reverted commit sha is - 220bf857ab697651a59738aa34c9e110f6af486a
+Commit message - little fix for test live_engine_request_env.t
+The original commit sha is - 69cc9001ca889fef5bc5d4ba4d6c0f7251dc3f8f
+Commit message - Backing out r10230, as that won't work against a remote server, and this passes for me with it backed out
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 4e48cc96e4b7788c03a9b4268f6029a12b8039bb -> 362c4f797541e899f48034811ae7d134c746b003 } is a revert
+{ 362c4f797541e899f48034811ae7d134c746b003 -> 7f22a5aa91bd859c6e646af2ff45a17eaba7d96a }
+Revert commits SHA are -> 
+362c4f797541e899f48034811ae7d134c746b003 - revert - 7f22a5aa91bd859c6e646af2ff45a17eaba7d96a
+The reverted commit sha is - 362c4f797541e899f48034811ae7d134c746b003
+Commit message - Highlight back compat after discussion/confusion earlier. Also clean up BUILD => BUILDARGS as suggested by mst.
+The original commit sha is - 7f22a5aa91bd859c6e646af2ff45a17eaba7d96a
+Commit message - 10125 breaks t/aggregate/live_component_controller_action_private.t, don't know why, but yoink!
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 3cdcf1d9db95eb0697cb777501f5c044953ba274 -> f1d037fbba7c539858ae9bd60443fddde406978a } is a revert
+{ 81ef9afd4f446447d48b5844045b388f6d304d2b -> a6e11ab7ad8798e5d9463696c4da21b7f9589604 }
+Revert commits SHA are -> 
+f1d037fbba7c539858ae9bd60443fddde406978a - revert - a6e11ab7ad8798e5d9463696c4da21b7f9589604
+The reverted commit sha is - f1d037fbba7c539858ae9bd60443fddde406978a
+Commit message - Note C::Test issues kane is gonna fix.
+The original commit sha is - a6e11ab7ad8798e5d9463696c4da21b7f9589604
+Commit message - the ctx_request has been fixed, updating TODO to match
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 3cd3bc6ae6c0282f98f1dd65676b98be379933ce -> 3cdcf1d9db95eb0697cb777501f5c044953ba274 } is a revert
+{ f1d037fbba7c539858ae9bd60443fddde406978a -> 123c73194d1d4e630b17f211b1fbfd2edeff190b }
+Revert commits SHA are -> 
+3cdcf1d9db95eb0697cb777501f5c044953ba274 - revert - 123c73194d1d4e630b17f211b1fbfd2edeff190b
+The reverted commit sha is - 3cdcf1d9db95eb0697cb777501f5c044953ba274
+Commit message - Mad fix.
+The original commit sha is - 123c73194d1d4e630b17f211b1fbfd2edeff190b
+Commit message - Back out last change. vincent worked out it's a bug in MOP
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ c69e69d278d028e637d293e924c5d2069cdc43e5 -> 88f165ea55501d97d784c776deee28549696fcda } is a revert
+{ 2c4d213fbd83244c98b0f63a7dd6a76cfc0465af -> 10954d1da9f6c10b13cf3797caa624f92587ae7a }
+Revert commits SHA are -> 
+88f165ea55501d97d784c776deee28549696fcda - revert - 10954d1da9f6c10b13cf3797caa624f92587ae7a
+The reverted commit sha is - 88f165ea55501d97d784c776deee28549696fcda
+Commit message - silence role override warnings from moose
+The original commit sha is - 10954d1da9f6c10b13cf3797caa624f92587ae7a
+Commit message - Revert "silence role override warnings from moose"
+
+This reverts commit 2d2e3b82166040584822840d7f138a4a8277cd8d.
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ d07c427aa5de2607a39fff482b5d012f3a3ebabd -> b1860d6c8cb5b00007c6f48410fd4d2616630b27 } is a revert
+{ b1860d6c8cb5b00007c6f48410fd4d2616630b27 -> f263fa9a3be935b736f5d901316565662387c41b }
+Revert commits SHA are -> 
+b1860d6c8cb5b00007c6f48410fd4d2616630b27 - revert - f263fa9a3be935b736f5d901316565662387c41b
+The reverted commit sha is - b1860d6c8cb5b00007c6f48410fd4d2616630b27
+Commit message - Add patch from dwc to warn about c->req->user deprecation
+The original commit sha is - f263fa9a3be935b736f5d901316565662387c41b
+Commit message - EWRONGBRANCH Back out -r9378:9377.
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 236b800536e0b8c65c60326f47c53067b2aed745 -> 29817f46bdaaa28fb0c1471fc74084482ce6f3ee } is a revert
+{ 29817f46bdaaa28fb0c1471fc74084482ce6f3ee -> 0584323bbdd629bb10a51a9f7d7aa89f81c1dbb4 }
+Revert commits SHA are -> 
+29817f46bdaaa28fb0c1471fc74084482ce6f3ee - revert - 0584323bbdd629bb10a51a9f7d7aa89f81c1dbb4
+The reverted commit sha is - 29817f46bdaaa28fb0c1471fc74084482ce6f3ee
+Commit message - Apply patch for redacting parameters in the log.
+The original commit sha is - 0584323bbdd629bb10a51a9f7d7aa89f81c1dbb4
+Commit message - Back out 9138:9137 in favour of a more generic implementation
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 1e6db81d6a957f0a8a6067598d73c3134140e965 -> 4f445d82009773eaec628e6ada7bdad23ed52036 } is a revert
+{ 083ee5d9a198ffee958dd54179c7352e6dc13c11 -> fa7bd552b7b517b2e043f1e6ac1c7f71a1b27440 }
+Revert commits SHA are -> 
+4f445d82009773eaec628e6ada7bdad23ed52036 - revert - fa7bd552b7b517b2e043f1e6ac1c7f71a1b27440
+The reverted commit sha is - 4f445d82009773eaec628e6ada7bdad23ed52036
+Commit message - Silence C3::Adopt::NEXT warnings in the test suite.
+The original commit sha is - fa7bd552b7b517b2e043f1e6ac1c7f71a1b27440
+Commit message - Go away, otherwise running the tests against 5.70 doesn't work
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ a24c0135f19ff9b2fe78359c2aa10f5df3e9ab08 -> ec4f808f0d4c915e67fde14eeac5cfe58b0c9332 } is a revert
+{ ec4f808f0d4c915e67fde14eeac5cfe58b0c9332 -> cd2bff2a3e9dbed1bd6b948a0bb48af4e47da5de }
+Revert commits SHA are -> 
+ec4f808f0d4c915e67fde14eeac5cfe58b0c9332 - revert - cd2bff2a3e9dbed1bd6b948a0bb48af4e47da5de
+The reverted commit sha is - ec4f808f0d4c915e67fde14eeac5cfe58b0c9332
+Commit message - Fix warning with newer LWP that generates a duplicate Content-Length header
+The original commit sha is - cd2bff2a3e9dbed1bd6b948a0bb48af4e47da5de
+Commit message - Revert last fix, this breaks on old LWP, grrr
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ dcac0a272606616a591d345e982db88013704d0a -> 919492ab4a47d1b7d7d46223f18feb84253860e8 } is a revert
+{ 919492ab4a47d1b7d7d46223f18feb84253860e8 -> adbfc8b9bc56114c5b2725b752ccfc8a6bb4a2b7 }
+Revert commits SHA are -> 
+919492ab4a47d1b7d7d46223f18feb84253860e8 - revert - adbfc8b9bc56114c5b2725b752ccfc8a6bb4a2b7
+The reverted commit sha is - 919492ab4a47d1b7d7d46223f18feb84253860e8
+Commit message - Work in progress engine for HTTP::Engine
+The original commit sha is - adbfc8b9bc56114c5b2725b752ccfc8a6bb4a2b7
+Commit message - Remove HTTPEngine from 5.8
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ b5d7a61f822fec65860a327e43c0efc9ae734db1 -> 221cd1f58a0cdea3d91c874f1940a1c06df3fb76 } is a revert
+{ 4c9db64f2e086bc0c7bc5e94fd7e3a0754b027cb -> 51bc4dd200c2363e7d4e86670d46a31045214e8c }
+Revert commits SHA are -> 
+221cd1f58a0cdea3d91c874f1940a1c06df3fb76 - revert - 51bc4dd200c2363e7d4e86670d46a31045214e8c
+The reverted commit sha is - 221cd1f58a0cdea3d91c874f1940a1c06df3fb76
+Commit message - encode unicode to utf8 by default (in finalize)
+The original commit sha is - 51bc4dd200c2363e7d4e86670d46a31045214e8c
+Commit message - Revert "encode unicode to utf8 by default (in finalize)".  I need
+to add some tests before checking this in.
+
+This reverts commit fb951a66d9ce0be22705975f89278b99697331cd.
+-----------------------------------------------------------------
+
+Revert diff pair 1 is -> 
+{ 5c351af1ffd07ed18e8f0131748183cef14186d4 -> b7d5aed1805fb52ad8bb3709042d5c6b4f4aecef } is a revert
+{ 44c6d25a7b66041252d88ea41f26631aeca30eef -> cf736b29312f5ccb34073397083b7ac5c73a0e0d }
+Revert commits SHA are -> 
+b7d5aed1805fb52ad8bb3709042d5c6b4f4aecef - revert - cf736b29312f5ccb34073397083b7ac5c73a0e0d
+The reverted commit sha is - b7d5aed1805fb52ad8bb3709042d5c6b4f4aecef
+Commit message - module::pluggable::object patches from rolsky
+The original commit sha is - cf736b29312f5ccb34073397083b7ac5c73a0e0d
+Commit message - reversing rolskys patch so that it can be provided upstraeam to Module::Pluggable::Object
+-----------------------------------------------------------------
+
