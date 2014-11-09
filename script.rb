@@ -10,6 +10,12 @@ load 'difffile.rb'
 load 'helper.rb'
 load 'debug_helper.rb'
 
+# Send console output to console.out
+# FIXME: Enable these in the end
+# $stdout.reopen("console.out", "w")
+# $stdout.sync = true
+# $stderr.reopen($stdout)
+
 # Global array to store all the diffs
 diffs_array = []
 
@@ -34,9 +40,10 @@ commit_list_array.reverse!
 
 # FIXME: Change this line to find reverts only in a subset of commits
 num_commits = commit_list_array.size
-target_history_count = (ARGV[1].nil? == false) ? ARGV[1] : num_commits - 1
+start_target_history_count = (ARGV[1].nil? == false) ? ARGV[1].to_i : 0
+end_target_history_count = (ARGV[2].nil? == false) ? ARGV[2].to_i : num_commits - 1
 
-for i in 0...target_history_count
+for i in start_target_history_count...end_target_history_count
   prev_commit = commit_list_array[i]
   next_commit = commit_list_array[i+1]
 
@@ -48,14 +55,13 @@ for i in 0...target_history_count
   # Using the ruby-git gem for diff between commits
   diff_bw_commits = rubygit_gem_repo.diff(prev_sha, next_sha)
 
-  # FIXME: Can use Rugged gem for calculating diffs
+  # FIXME: Can use Rugged gem for calculating diffs. Remember that the Rugged Gem doesn't provide stats for each diff
   # rugged_prev_commit = rugged_repo.lookup(prev_sha)
   # rugged_next_commit = rugged_repo.lookup(next_sha)
   # rugged_prev_commit_tree = rugged_prev_commit.tree
   # rugged_next_commit_tree = rugged_next_commit.tree
   # diff_bw_commit_trees = rugged_prev_commit_tree.diff(rugged_next_commit_tree)
   # PrintDiffBWCommitsRugged(diff_bw_commit_trees)
-  # FIXME: Remember that the Rugged Gem doesn't provide stats for each diff
   # diff = Diff.new(prev_sha, next_sha, diff_bw_commit_trees.patch)
 
   # PrintDiffBWCommitsRubyGit(diff_bw_commits)
@@ -69,7 +75,6 @@ end
 # ------------------      CHECK FOR REVERTS       ----------------------------------
 # ----------------------------------------------------------------------------------
 
-stats_num_reverts = 0
 difffile_name_num_reverts = 0
 
 # The final answer - Array of diff pairs
@@ -91,7 +96,9 @@ diffs_array.reverse_each do |diff|
     next if diff == cmp_diff # No point looking at the same diff
 
     # Checkpoint #1 - Number of difffiles should be equal
-    raise "num_difffiles must not be 0" if diff.num_difffiles == 0 || cmp_diff.num_difffiles == 0
+    # FIXME: The below raise shoild be present
+    #raise "num_difffiles must not be 0" if diff.num_difffiles == 0 || cmp_diff.num_difffiles == 0
+
     next if diff.num_difffiles != cmp_diff.num_difffiles
 
     diff_pair = [diff, cmp_diff].sort!
@@ -102,43 +109,46 @@ diffs_array.reverse_each do |diff|
     visited[diff_pair] = true
 
     # Checkpoint #2 - Compare stats first before comparing content
-    # puts "diff is = " + diff.to_s
-    # puts "cmp_diff is = " + cmp_diff.to_s
-    # puts "diff stats is = " + diff.stats.to_s
-    # puts "cmp_diff stats is = " + cmp_diff.stats.to_s
-
-    # FIXME: Somehow I'm getting stats as nil for some commits.
-    raise "STATS NIL" unless diff.stats.nil? == false && cmp_diff.stats.nil? == false
-
+    # Check if stats are not nil
+    PRINT_AND_EXIT(diff, cmp_diff, {:stats => true})
     stats_match = CompareDiffStats(diff.stats, cmp_diff.stats)
-
-    if stats_match == true
-      stats_num_reverts = stats_num_reverts + 1
-      #puts "==================================   BEGIN ================================================"
-      #puts "--- STATS MATCH - Yes the stats match !! The revert commits are - "
-      #puts ">> The commit sha for this diff is - " + diff.next_commit_sha.to_s
-      #puts ">> The commit message for this diff is - " + rugged_repo.lookup("#{diff.next_commit_sha}").message
-      #puts ">> The reverted commit sha is - " + cmp_diff.next_commit_sha.to_s
-      #puts ">> The commit message for this diff is - " + rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message
-      #puts "==================================   END  ================================================"
-    end
-
     # Continue when the stats don't match
     next if stats_match == false
 
     patch_match = CompareDiffPatch(diff, cmp_diff)
     if patch_match == true
       difffile_name_num_reverts = difffile_name_num_reverts + 1
-      # puts "==================================   BEGIN ================================================"
-      # puts "--- PATCH MATCH - Yes the patches match !! The revert commits are - "
-      # puts ">> The commit sha for this diff is - " + diff.next_commit_sha.to_s
-      # puts ">> The commit message for this diff is - " + rugged_repo.lookup("#{diff.next_commit_sha}").message
-      # puts ">> The reverted commit sha is - " + cmp_diff.next_commit_sha.to_s
-      # puts ">> The commit message for this diff is - " + rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message
-      # puts "==================================   END  ================================================"
-      revert_diffs << [diff, cmp_diff].sort!
+      #puts "==================================   BEGIN ================================================"
+      #puts "--- PATCH MATCH - Yes the patches match !! The revert commits are - "
+      #puts ">> The commit sha for this diff is - " + diff.next_commit_sha.to_s
+      #puts ">> The commit message for this diff is - " + rugged_repo.lookup("#{diff.next_commit_sha}").message
+      #puts ">> The reverted commit sha is - " + cmp_diff.next_commit_sha.to_s
+      #puts ">> The commit message for this diff is - " + rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message
+      #puts "==================================   END  ================================================"
+      revert_diff_pair = {}
+      revert_diff_pair[:diff] = diff
+      revert_diff_pair[:cmp_diff] = cmp_diff
+      revert_diffs << revert_diff_pair
     end
   end
 end
-puts "The number of reverts based on stats are = " + stats_num_reverts.to_s
-puts "The number of reverts based on difffile file names are = " + difffile_name_num_reverts.to_s
+
+op_file = File.open("output", "w")
+num = 1
+op_file.puts "# of reverts = " + difffile_name_num_reverts.to_s
+revert_diffs.each do |revert_diff_pair|
+  diff = revert_diff_pair[:diff]
+  cmp_diff = revert_diff_pair[:cmp_diff]
+  op_file.puts("Revert diff pair #{num} is -> ")
+  op_file.puts("\{ #{cmp_diff.prev_commit_sha} -> #{cmp_diff.next_commit_sha} \} is a revert")
+  op_file.puts("\{ #{diff.prev_commit_sha} -> #{diff.next_commit_sha} \}")
+  op_file.puts("Revert commits SHA are -> ")
+  op_file.puts("#{cmp_diff.next_commit_sha} - revert - #{diff.next_commit_sha}")
+  op_file.puts("The reverted commit sha is - #{cmp_diff.next_commit_sha}")
+  op_file.puts("Commit message - " + rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message)
+  op_file.puts("The original commit sha is - " + diff.next_commit_sha.to_s)
+  op_file.puts("Commit message - " + rugged_repo.lookup("#{diff.next_commit_sha}").message)
+  op_file.puts("-----------------------------------------------------------------")
+  op_file.puts "\n"
+  num.succ
+end

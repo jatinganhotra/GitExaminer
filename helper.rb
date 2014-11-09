@@ -2,6 +2,20 @@
 load 'diff.rb'
 load 'difffile.rb'
 
+# Inputs a and b are diffs
+# 3rd argument is hash for specific checks
+def PRINT_AND_EXIT(a,b,h)
+  if h[:stats]
+    if (a.stats.nil? || b.stats.nil? )
+      PrintDiffInfoAndStats(a,b)
+      puts "END - STATS found nil"
+      raise "STATS NIL"
+      exit(0)
+    end
+  end
+
+end
+
 def DEBUG_LOGGER diffs_array
 diffs_array.each do |diff|
   puts "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
@@ -21,13 +35,13 @@ end
 # CompareDiffStats(diff.stats, cmp_diff.stats)
 # Compare 2 diffs by their stats
 def CompareDiffStats( a, b)
-  # puts "Stats for diff a"
-  # ap a
-  #
-  # puts "Stats for diff b"
-  # ap b
 
+  # Rudimentary as already checked before
+  raise "Error" if a.nil? || b.nil?
   return false if a.nil? || b.nil?
+
+  # FIXME :When do I get total stats as nil
+  raise "Error" if a[:total].nil? || b[:total].nil?
   return false if a[:total].nil? || b[:total].nil?
   a_num_files = a[:total][:files]
   b_num_files = b[:total][:files]
@@ -64,13 +78,13 @@ def CompareDiffStats( a, b)
 end
 
 def GetCorrepondingDifffileInB(a_difffile_file_name, b)
-  puts "looking for a_difffile_file_name in diff b = " + a_difffile_file_name.to_s
+  #puts "looking for a_difffile_file_name in diff b = " + a_difffile_file_name.to_s
   is_present = false
   b.difffiles.each do |b_difffile|
     b_difffile_file_name = b_difffile.file_name
     if a_difffile_file_name == b_difffile_file_name
-      puts "Found a match with b_difffile_file_name = " + b_difffile_file_name.to_s
-      puts "The b_difffile object is = " + b_difffile.to_s
+      # puts "Found a match with b_difffile_file_name = " + b_difffile_file_name.to_s
+      # puts "The b_difffile object is = " + b_difffile.to_s
       is_present = true
       return [is_present, b_difffile]
       break
@@ -81,25 +95,25 @@ end
 
 
 def ComparePatchForDifffiles(a, b)
-  puts "------------------- BEGIN ComparePatchforDifffiles ----------------"
+  #puts "------------------- BEGIN ComparePatchforDifffiles ----------------"
   a_additions = a.additions
   a_deletions = a.deletions
 
   b_additions = b.additions
   b_deletions = b.deletions
 
-  puts "a_additions = " + a_additions.to_s
-  puts "b_additions = " + b_additions.to_s
-  puts "a_deletions = " + a_deletions.to_s
-  puts "b_deletions = " + b_deletions.to_s
+  # puts "a_additions = " + a_additions.to_s
+  # puts "b_additions = " + b_additions.to_s
+  # puts "a_deletions = " + a_deletions.to_s
+  # puts "b_deletions = " + b_deletions.to_s
   c1 = a_additions == b_deletions
   c2 = a_deletions == b_additions
 
-  puts c1
-  puts c2
-  puts "------------------- END ComparePatchforDifffiles ----------------"
+  # puts c1
+  # puts c2
+  # puts "------------------- END ComparePatchforDifffiles ----------------"
 
-  puts "WOW" if (c1 == true && c2 == true)
+  #puts "WOW" if (c1 == true && c2 == true)
   if (c1 == true && c2 == true)
     return true
   else
@@ -111,6 +125,8 @@ def CompareDiffPatch(a, b)
   a_numfiles = a.num_difffiles
   b_numfiles = b.num_difffiles
 
+  #puts "a_numfiles = " + a_numfiles.to_s
+  #puts "b_numfiles = " + b_numfiles.to_s
   unless a_numfiles == b_numfiles
     raise "Both stats must have the same number of files, \
         as we reached here only after checking stats and num_difffiles"
@@ -125,15 +141,13 @@ def CompareDiffPatch(a, b)
 
     # FIXME: Another issue
     next if a_difffile_file_name.nil?
-    puts "JATIN - > "
-    puts a_difffile_file_name
-    puts "JATIN - > "
+    #raise "Error !!! How can the file_name be nil" if a_difffile_file_name.nil?
     # Checkpoint #1 - The file_name must have a corresponding difffile in diff b
     is_present, b_difffile = GetCorrepondingDifffileInB(a_difffile_file_name, b)
 
     return false if is_present == false
-    puts "is_present =" + is_present.to_s
-    puts "b_difffile found for file_name = " + a_difffile_file_name + " is = " + b_difffile.to_s
+    # puts "is_present =" + is_present.to_s
+    # puts "b_difffile found for file_name = " + a_difffile_file_name + " is = " + b_difffile.to_s
     # Checkpoint #2 - Compare the patches for both difffiles a and b
     a_patch = a_difffile.patch
     b_patch = b_difffile.patch
