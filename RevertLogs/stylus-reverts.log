@@ -1,0 +1,171 @@
+# of reverts = 14
+Revert diff pair 1 is -> 
+{ ea87a86a847dd9794bed4d7d29f17d5c4daf67f1 -> 6f1710b7247600c0f98a6fefa35e98b63f89bd42 } is a revert
+{ 16da6e86665f06b9bc3838ade3d5abbc1bc10713 -> eddd7e29941211bb685ea67d1db74ed9ee43fc47 }
+Revert commits SHA are -> 
+6f1710b7247600c0f98a6fefa35e98b63f89bd42 - revert - eddd7e29941211bb685ea67d1db74ed9ee43fc47
+The reverted commit sha is - 6f1710b7247600c0f98a6fefa35e98b63f89bd42
+Commit message - fix small bug
+The original commit sha is - eddd7e29941211bb685ea67d1db74ed9ee43fc47
+Commit message - Remove useless cloning of cached node
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ b7589e3efc596509297f0bbede32b86155bedd45 -> 1d6cfb26be258e6057b446dcdcbf43c7f7e51a15 } is a revert
+{ c0f8c4d492a960db6f9b455c6d6c5e49d0168d6a -> 482e2fa6f740e88e6b8f4845a91a02d2b1907dc1 }
+Revert commits SHA are -> 
+1d6cfb26be258e6057b446dcdcbf43c7f7e51a15 - revert - 482e2fa6f740e88e6b8f4845a91a02d2b1907dc1
+The reverted commit sha is - 1d6cfb26be258e6057b446dcdcbf43c7f7e51a15
+Commit message - Use 2.x version of `should`
+The original commit sha is - 482e2fa6f740e88e6b8f4845a91a02d2b1907dc1
+Commit message - Merge branch 'pr/1557' into rc-0.46
+
+* pr/1557:
+  Use 2.x version of `should`
+  Support aliases for transparent mixins. Fixes #1555
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 1b14961b0625459e3b6d05f8487f1a5c2a98e6e8 -> a43e79bc89014904fdbc92a0ac8c6a6d219eb533 } is a revert
+{ a43e79bc89014904fdbc92a0ac8c6a6d219eb533 -> b7cbfb46152c7b179095d47562d5ac1849fbad30 }
+Revert commits SHA are -> 
+a43e79bc89014904fdbc92a0ac8c6a6d219eb533 - revert - b7cbfb46152c7b179095d47562d5ac1849fbad30
+The reverted commit sha is - a43e79bc89014904fdbc92a0ac8c6a6d219eb533
+Commit message - Proper MQ parsing (without `only`). Fixes #1457
+The original commit sha is - b7cbfb46152c7b179095d47562d5ac1849fbad30
+Commit message - Merge branch 'pr/1459' into dev
+
+* pr/1459:
+  doc update
+  Fixed a typo in the docs
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ 7a196d97c82e63d8cc2f824d4d84f19870c63c36 -> 5d6eba4d0a26d3c917785624423ab183876cc6ca } is a revert
+{ 5d6eba4d0a26d3c917785624423ab183876cc6ca -> 64e01be31d429902279a1093f94ff47a9546c058 }
+Revert commits SHA are -> 
+5d6eba4d0a26d3c917785624423ab183876cc6ca - revert - 64e01be31d429902279a1093f94ff47a9546c058
+The reverted commit sha is - 5d6eba4d0a26d3c917785624423ab183876cc6ca
+Commit message - Fixes #819 Extends generate duplicate selectors
+The original commit sha is - 64e01be31d429902279a1093f94ff47a9546c058
+Commit message - Merge pull request #860 from tonistiigi/807-styl-named-dir
+
+Fixes #807 directory with `.styl` in the name and local install of stylus
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ 662df02ce77d1d74ede014566a68b945094fac61 -> 6916f8cc0b647a35b0b1b9029c958ad893a2e11f } is a revert
+{ 6916f8cc0b647a35b0b1b9029c958ad893a2e11f -> 67ce388ba6e5371a618f2e21d762cbe65d2850e7 }
+Revert commits SHA are -> 
+6916f8cc0b647a35b0b1b9029c958ad893a2e11f - revert - 67ce388ba6e5371a618f2e21d762cbe65d2850e7
+The reverted commit sha is - 6916f8cc0b647a35b0b1b9029c958ad893a2e11f
+Commit message - Fix last rule being ignored if empty indents at the end of the file
+The original commit sha is - 67ce388ba6e5371a618f2e21d762cbe65d2850e7
+Commit message - Merge pull request #704 from tonistiigi/425-hangs-no-whitespace
+
+Fixes #425: Compiler hangs when the last property isn't followed by semicolon at the end of the document
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ c5d5ef5ebfbf3ead9bebe3f9b3be66a04d020a89 -> dbf070656c1e526cfee6b68a648ec440e141da10 } is a revert
+{ dbf070656c1e526cfee6b68a648ec440e141da10 -> 5c297003365d739c3916f6e11a2a3a266e2c92fc }
+Revert commits SHA are -> 
+dbf070656c1e526cfee6b68a648ec440e141da10 - revert - 5c297003365d739c3916f6e11a2a3a266e2c92fc
+The reverted commit sha is - dbf070656c1e526cfee6b68a648ec440e141da10
+Commit message - Merge branch 'master' of github.com:LearnBoost/stylus
+The original commit sha is - 5c297003365d739c3916f6e11a2a3a266e2c92fc
+Commit message - Merge pull request #662 from jasonkuhrt/features/percent-unit-for-fade-functions
+
+Allow fade-out and fade-in to take % units; Add 2 new bifs for help in s...
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ 8381775e1cd11ac803fcee3cb8034b950d701b23 -> 6e12e5de6503b4104b04c9f1e17b4eac8cc11c94 } is a revert
+{ 6e12e5de6503b4104b04c9f1e17b4eac8cc11c94 -> 92dc9a90f345ade59d51f70dd2efee8ebf513a6a }
+Revert commits SHA are -> 
+6e12e5de6503b4104b04c9f1e17b4eac8cc11c94 - revert - 92dc9a90f345ade59d51f70dd2efee8ebf513a6a
+The reverted commit sha is - 6e12e5de6503b4104b04c9f1e17b4eac8cc11c94
+Commit message - merging from original repo
+The original commit sha is - 92dc9a90f345ade59d51f70dd2efee8ebf513a6a
+Commit message - merging from original repo
+-----------------------------------------------------------------
+
+Revert diff pair 8 is -> 
+{ ba3088deaab1ed56880c700640d9648ee5c71d39 -> cefe263fb99fccb07bfde42406f05f2dc8fef1d4 } is a revert
+{ cefe263fb99fccb07bfde42406f05f2dc8fef1d4 -> 7a71de9d70abfaa9bb7978c0ba1f65650f3bd018 }
+Revert commits SHA are -> 
+cefe263fb99fccb07bfde42406f05f2dc8fef1d4 - revert - 7a71de9d70abfaa9bb7978c0ba1f65650f3bd018
+The reverted commit sha is - cefe263fb99fccb07bfde42406f05f2dc8fef1d4
+Commit message - Merge branch 'integration'
+The original commit sha is - 7a71de9d70abfaa9bb7978c0ba1f65650f3bd018
+Commit message - Merge branch 'master' of github.com:LearnBoost/stylus
+-----------------------------------------------------------------
+
+Revert diff pair 9 is -> 
+{ 9cee6027b4bbd788ffc49a6b718af1065bc0087d -> e969dda7b768046dce2083839d6d860abda5b338 } is a revert
+{ f000739d0032d7be6523bc6a5db6c85b3c58c5c6 -> 059d7ee0e4e671930ed5572425aa60882af6e192 }
+Revert commits SHA are -> 
+e969dda7b768046dce2083839d6d860abda5b338 - revert - 059d7ee0e4e671930ed5572425aa60882af6e192
+The reverted commit sha is - e969dda7b768046dce2083839d6d860abda5b338
+Commit message - todo
+The original commit sha is - 059d7ee0e4e671930ed5572425aa60882af6e192
+Commit message - todo
+-----------------------------------------------------------------
+
+Revert diff pair 10 is -> 
+{ 94ad5725dec95066328dce45b6fd14157a83ae4e -> eb6ab25959f7cce4b68b6176840d7ac2f8a5adbe } is a revert
+{ d3b2cde94ee7e4cccf7dbb7989d446caea3a416b -> aa27dcb63790ef7ee9497d555eb8af0296be665d }
+Revert commits SHA are -> 
+eb6ab25959f7cce4b68b6176840d7ac2f8a5adbe - revert - aa27dcb63790ef7ee9497d555eb8af0296be665d
+The reverted commit sha is - eb6ab25959f7cce4b68b6176840d7ac2f8a5adbe
+Commit message - Ignore scope.complex test for now
+The original commit sha is - aa27dcb63790ef7ee9497d555eb8af0296be665d
+Commit message - testing everything
+-----------------------------------------------------------------
+
+Revert diff pair 11 is -> 
+{ e4395bb47ce307d1dafbcf8c4b324d4b44dd2d15 -> 884f3e511187d5dabba20114028a3fe4a5ace721 } is a revert
+{ f62025851df66a1d002b3d84cd99992bddfc909a -> 3f289901bfb791db6d6019faab68ea70bfbc20a2 }
+Revert commits SHA are -> 
+884f3e511187d5dabba20114028a3fe4a5ace721 - revert - 3f289901bfb791db6d6019faab68ea70bfbc20a2
+The reverted commit sha is - 884f3e511187d5dabba20114028a3fe4a5ace721
+Commit message - Parsing *ident in params
+The original commit sha is - 3f289901bfb791db6d6019faab68ea70bfbc20a2
+Commit message - Revert "Parsing *ident in params"
+
+This reverts commit 884f3e511187d5dabba20114028a3fe4a5ace721.
+-----------------------------------------------------------------
+
+Revert diff pair 12 is -> 
+{ 4773abdb8b1174358cbad68ed9fef09ae58edb7b -> 75abc4770f17dc28908af726a9a50420c690812e } is a revert
+{ 75abc4770f17dc28908af726a9a50420c690812e -> e86ca195259024e32b20b7ef9a484d24b2582199 }
+Revert commits SHA are -> 
+75abc4770f17dc28908af726a9a50420c690812e - revert - e86ca195259024e32b20b7ef9a484d24b2582199
+The reverted commit sha is - 75abc4770f17dc28908af726a9a50420c690812e
+Commit message - Visit param defaults
+The original commit sha is - e86ca195259024e32b20b7ef9a484d24b2582199
+Commit message - revert
+-----------------------------------------------------------------
+
+Revert diff pair 13 is -> 
+{ 94ad5725dec95066328dce45b6fd14157a83ae4e -> eb6ab25959f7cce4b68b6176840d7ac2f8a5adbe } is a revert
+{ 93d02590158fbe89daac1272f7fa75fd9eebcfee -> 789be9cb84f79c363c9ec8e46fe84be720bc2bf0 }
+Revert commits SHA are -> 
+eb6ab25959f7cce4b68b6176840d7ac2f8a5adbe - revert - 789be9cb84f79c363c9ec8e46fe84be720bc2bf0
+The reverted commit sha is - eb6ab25959f7cce4b68b6176840d7ac2f8a5adbe
+Commit message - Ignore scope.complex test for now
+The original commit sha is - 789be9cb84f79c363c9ec8e46fe84be720bc2bf0
+Commit message - uncommented tests
+-----------------------------------------------------------------
+
+Revert diff pair 14 is -> 
+{ 9c31d8f4f22f2fdf2b4f246f9084e6b31c75f488 -> b4e15a75ca091766a3b34d8bb45dd2fac08bb6c7 } is a revert
+{ dbac5ec31ba67d0760d25a54e7aab061dcdab253 -> fdc1422c38054f16676a9fbe76e31f0168ef98ce }
+Revert commits SHA are -> 
+b4e15a75ca091766a3b34d8bb45dd2fac08bb6c7 - revert - fdc1422c38054f16676a9fbe76e31f0168ef98ce
+The reverted commit sha is - b4e15a75ca091766a3b34d8bb45dd2fac08bb6c7
+Commit message - todo
+The original commit sha is - fdc1422c38054f16676a9fbe76e31f0168ef98ce
+Commit message - todo
+-----------------------------------------------------------------
+
