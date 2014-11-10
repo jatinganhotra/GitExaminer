@@ -40,13 +40,13 @@
 <a name="jatin-ganhotra--ganhotr2illinoisedu--jatinganhotragmailcom" class="anchor" href="#jatin-ganhotra--ganhotr2illinoisedu--jatinganhotragmailcom"><span class="octicon octicon-link"></span></a>Jatin Ganhotra | <a href="mailto:ganhotr2@illinois.edu">ganhotr2@illinois.edu</a> | <a href="mailto:jatin.ganhotra@gmail.com">jatin.ganhotra@gmail.com</a>
 </h4>
 
-<p>There is a diff associated with every commit. The diff contains a lot of information such as number of files changed, statistics such as # of additions/deletions to each file, actual changes to every file.<br>
+<p>There is a diff associated with every commit. A diff contains a lot of information such as # of files changed, statistics such as # of additions/deletions for each file and actual changes to every file.<br>
 When a programmer/developer does a <code>git revert CommitID</code>, the changes made for the CommitID are reverted back.
 e.g. If a new line was added to file.txt with value a, then that change would be reverted.  </p>
 
 <p>Reverts can be of 2 kinds: auto-revert and manual-revert. If there are no conflicts after revert, that's an auto-revert. The developer only needs to provide a commit message here. But, if there are conflicts after reverting the changes, then Git will display that there are conflicts. In this case, the developer would manually resolve the conflicts and the commit the change.  </p>
 
-<p>It's easier to find auto-reverts, because the changes in the revert commit diff would be the exact reverse of when the CommitID happened.  But, it's difficult to accurately find manual-reverts or partial reverts, because the changes could be similar, but would not be an exact match.</p>
+<p>In an auto-revert, the changes in the revert commit diff are the exact opposite of when the CommitID happened.  But, it's difficult to accurately find manual-reverts or partial reverts, because the changes could be similar, but would note an exact match.</p>
 
 <h4>
 <a name="modeling-git-commit-history-and-diffs" class="anchor" href="#modeling-git-commit-history-and-diffs"><span class="octicon octicon-link"></span></a>Modeling Git Commit History and Diffs</h4>
