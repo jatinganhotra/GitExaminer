@@ -138,7 +138,13 @@ diffs_array.reverse_each do |diff|
   end
 end
 
-op_file = File.open("output", "w")
+project_name = git_repo_path
+project_name = project_name.split('/')
+project_name = project_name.last
+reverts_log_file_name         = "RevertLogs/" + project_name + "-reverts.log"
+partial_reverts_log_file_name = "RevertLogs/" + project_name + "-partial-reverts.log"
+
+op_file = File.open(reverts_log_file_name, "w")
 num = 1
 op_file.puts "# of reverts = " + full_reverts.to_s
 revert_diffs.each do |revert_diff_pair|
@@ -159,7 +165,7 @@ revert_diffs.each do |revert_diff_pair|
 end
 
 if partial_reverts > 0
-  op_file = File.open("partial_output", "w")
+  op_file = File.open(pbrtial_reverts_log_file_name, "w")
   num = 1
   op_file.puts "# of partial reverts = " + partial_reverts.to_s
   partial_revert_diffs.each do |partial_revert_diff_pair, partial_match|
