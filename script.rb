@@ -74,10 +74,12 @@ end
 # ------------------      CHECK FOR REVERTS       ----------------------------------
 # ----------------------------------------------------------------------------------
 
-difffile_name_num_reverts = 0
+full_reverts = 0
+partial_reverts = 0
 
 # The final answer - Array of diff pairs
 revert_diffs = []
+partial_revert_diffs = []
 
 # Keep a hash for the diff_pair that you have visited so far
 # If you have 4 commits, you'll have 3 diffs say 1,2,3
@@ -98,7 +100,8 @@ diffs_array.reverse_each do |diff|
     # FIXME: The below raise shoild be present
     #raise "num_difffiles must not be 0" if diff.num_difffiles == 0 || cmp_diff.num_difffiles == 0
 
-    next if diff.num_difffiles != cmp_diff.num_difffiles
+    # TODO - Enhancement for partial reverts
+    #next if diff.num_difffiles != cmp_diff.num_difffiles
 
     diff_pair = [diff, cmp_diff].sort!
     # If you have already visited this pair, don't work again on it
@@ -109,32 +112,35 @@ diffs_array.reverse_each do |diff|
 
     # Checkpoint #2 - Compare stats first before comparing content
     # Check if stats are not nil
-    PRINT_AND_EXIT(diff, cmp_diff, {:stats => true})
-    stats_match = CompareDiffStats(diff.stats, cmp_diff.stats)
+    # PRINT_AND_EXIT(diff, cmp_diff, {:stats => true})
+    # stats_match = CompareDiffStats(diff.stats, cmp_diff.stats)
     # Continue when the stats don't match
-    next if stats_match == false
+    # TODO - Enhancement for partial reverts
+    # next if stats_match == false
 
-    patch_match = CompareDiffPatch(diff, cmp_diff)
-    if patch_match == true
-      difffile_name_num_reverts = difffile_name_num_reverts + 1
-      #puts "==================================   BEGIN ================================================"
-      #puts "--- PATCH MATCH - Yes the patches match !! The revert commits are - "
-      #puts ">> The commit sha for this diff is - " + diff.next_commit_sha.to_s
-      #puts ">> The commit message for this diff is - " + rugged_repo.lookup("#{diff.next_commit_sha}").message
-      #puts ">> The reverted commit sha is - " + cmp_diff.next_commit_sha.to_s
-      #puts ">> The commit message for this diff is - " + rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message
-      #puts "==================================   END  ================================================"
-      revert_diff_pair = {}
-      revert_diff_pair[:diff] = diff
-      revert_diff_pair[:cmp_diff] = cmp_diff
-      revert_diffs << revert_diff_pair
+    match, partial_match = CompareDiffPatch(diff, cmp_diff)
+    if match == true
+      # Case 1: Full revert
+      if partial_match.nil?
+        full_reverts = full_reverts + 1
+        revert_diff_pair = {}
+        revert_diff_pair[:diff] = diff
+        revert_diff_pair[:cmp_diff] = cmp_diff
+        revert_diffs << revert_diff_pair
+      else
+        partial_reverts = partial_reverts + 1
+        partial_revert_diff_pair = {}
+        partial_revert_diff_pair[:diff] = diff
+        partial_revert_diff_pair[:cmp_diff] = cmp_diff
+        partial_revert_diffs << [ partial_revert_diff_pair, partial_match ]
+      end
     end
   end
 end
 
 op_file = File.open("output", "w")
 num = 1
-op_file.puts "# of reverts = " + difffile_name_num_reverts.to_s
+op_file.puts "# of reverts = " + full_reverts.to_s
 revert_diffs.each do |revert_diff_pair|
   diff = revert_diff_pair[:diff]
   cmp_diff = revert_diff_pair[:cmp_diff]
@@ -150,4 +156,28 @@ revert_diffs.each do |revert_diff_pair|
   op_file.puts("-----------------------------------------------------------------")
   op_file.puts "\n"
   num = num.succ
+end
+
+if partial_reverts > 0
+  op_file = File.open("partial_output", "w")
+  num = 1
+  op_file.puts "# of partial reverts = " + partial_reverts.to_s
+  partial_revert_diffs.each do |partial_revert_diff_pair, partial_match|
+    diff = partial_revert_diff_pair[:diff]
+    cmp_diff = partial_revert_diff_pair[:cmp_diff]
+    op_file.puts("Partial Revert diff pair #{num} is -> ")
+    op_file.puts("\{ #{cmp_diff.prev_commit_sha} -> #{cmp_diff.next_commit_sha} \} is a revert")
+    op_file.puts("\{ #{diff.prev_commit_sha} -> #{diff.next_commit_sha} \}")
+    op_file.puts("Partial Revert commits SHA are -> ")
+    op_file.puts("#{cmp_diff.next_commit_sha} - revert - #{diff.next_commit_sha}")
+    op_file.puts("The reverted commit sha is - #{cmp_diff.next_commit_sha}")
+    op_file.puts("Commit message - " + rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message)
+    op_file.puts("The original commit sha is - " + diff.next_commit_sha.to_s)
+    op_file.puts("Commit message - " + rugged_repo.lookup("#{diff.next_commit_sha}").message)
+    op_file.puts("The files with partial_reverts are:-")
+    op_file.puts(partial_match)
+    op_file.puts("-----------------------------------------------------------------")
+    op_file.puts "\n"
+    num = num.succ
+  end
 end

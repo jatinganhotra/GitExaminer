@@ -32,17 +32,33 @@ diffs_array.each do |diff|
 end
 end
 
+def CompareDiffStatsFor2Difffiles( a,b, a_difffile_file_name, b_difffile_file_name)
+  astats = a.stats
+  bstats = b.stats
+  # Rudimentary as already checked before
+  raise "Error" if astats.nil? || bstats.nil?
+  raise "Error" if astats[:total].nil? || bstats[:total].nil?
+
+  a_file_stats = astats[:files][a_difffile_file_name]
+  b_file_stats = bstats[:files][b_difffile_file_name]
+  return false if a_file_stats.nil? || b_file_stats.nil?
+  a_insertions = a_file_stats[:insertions]
+  a_deletions = a_file_stats[:deletions]
+  b_insertions = b_file_stats[:insertions]
+  b_deletions  = b_file_stats[:deletions]
+  return false if a_insertions != b_deletions || a_deletions != b_insertions
+
+  true
+end
+
 # CompareDiffStats(diff.stats, cmp_diff.stats)
 # Compare 2 diffs by their stats
 def CompareDiffStats( a, b)
 
   # Rudimentary as already checked before
   raise "Error" if a.nil? || b.nil?
-  return false if a.nil? || b.nil?
-
-  # FIXME :When do I get total stats as nil
   raise "Error" if a[:total].nil? || b[:total].nil?
-  return false if a[:total].nil? || b[:total].nil?
+
   a_num_files = a[:total][:files]
   b_num_files = b[:total][:files]
   unless a_num_files == b_num_files
@@ -53,11 +69,8 @@ def CompareDiffStats( a, b)
   i = 0
   stats_dont_match = false
     a[:files].each do |a_file, a_file_stats|
-      #ap a_file_stats
       a_insertions = a_file_stats[:insertions]
       a_deletions = a_file_stats[:deletions]
-      #puts "Insertions are - " + a_insertions.to_s
-      #puts "Deletions are - " +  a_deletions.to_s
 
       # Find the stats for the same file in stats b
       b[:files].each do |b_file, b_file_stats|
@@ -78,13 +91,10 @@ def CompareDiffStats( a, b)
 end
 
 def GetCorrepondingDifffileInB(a_difffile_file_name, b)
-  #puts "looking for a_difffile_file_name in diff b = " + a_difffile_file_name.to_s
   is_present = false
   b.difffiles.each do |b_difffile|
     b_difffile_file_name = b_difffile.file_name
     if a_difffile_file_name == b_difffile_file_name
-      # puts "Found a match with b_difffile_file_name = " + b_difffile_file_name.to_s
-      # puts "The b_difffile object is = " + b_difffile.to_s
       is_present = true
       return [is_present, b_difffile]
       break
@@ -95,25 +105,14 @@ end
 
 
 def ComparePatchForDifffiles(a, b)
-  #puts "------------------- BEGIN ComparePatchforDifffiles ----------------"
   a_additions = a.additions
   a_deletions = a.deletions
-
   b_additions = b.additions
   b_deletions = b.deletions
 
-  # puts "a_additions = " + a_additions.to_s
-  # puts "b_additions = " + b_additions.to_s
-  # puts "a_deletions = " + a_deletions.to_s
-  # puts "b_deletions = " + b_deletions.to_s
   c1 = a_additions == b_deletions
   c2 = a_deletions == b_additions
 
-  # puts c1
-  # puts c2
-  # puts "------------------- END ComparePatchforDifffiles ----------------"
-
-  #puts "WOW" if (c1 == true && c2 == true)
   if (c1 == true && c2 == true)
     return true
   else
@@ -125,17 +124,19 @@ def CompareDiffPatch(a, b)
   a_numfiles = a.num_difffiles
   b_numfiles = b.num_difffiles
 
-  #puts "a_numfiles = " + a_numfiles.to_s
-  #puts "b_numfiles = " + b_numfiles.to_s
-  unless a_numfiles == b_numfiles
-    raise "Both stats must have the same number of files, \
-        as we reached here only after checking stats and num_difffiles"
-  end
+  # TODO - Enhancement for partial reverts. The below condition will be false
+  # TODO - when you are looking for partial reverts
+  # unless a_numfiles == b_numfiles
+  #   raise "Both stats must have the same number of files, \
+  #       as we reached here only after checking stats and num_difffiles"
+  # end
 
   num_diffs_correct = 0
   return false if a_numfiles == 0 || b_numfiles == 0
-  # FIXME: Bloody hell. The difffiles array is nil. Why???
+  # FIXME: In some weird corner cases, difffiles array is nil
   return false if a.difffiles.nil? || b.difffiles.nil?
+
+  partial_diff_files = []
   a.difffiles.each do |a_difffile|
     a_difffile_file_name = a_difffile.file_name
 
@@ -148,6 +149,13 @@ def CompareDiffPatch(a, b)
     return false if is_present == false
     # puts "is_present =" + is_present.to_s
     # puts "b_difffile found for file_name = " + a_difffile_file_name + " is = " + b_difffile.to_s
+
+    # TODO - Enhancement for partial reverts. Check if stats match for the given difffile
+    b_difffile_file_name = b_difffile.file_name
+    diff_stats_match = CompareDiffStatsFor2Difffiles(a,b, a_difffile_file_name, b_difffile_file_name)
+    # IMP - If I don't check the # of changes per file, then reported number would be incorrect
+    next if diff_stats_match == false
+
     # Checkpoint #2 - Compare the patches for both difffiles a and b
     a_patch = a_difffile.patch
     b_patch = b_difffile.patch
@@ -155,9 +163,14 @@ def CompareDiffPatch(a, b)
     if do_patches_match == false
       return false
     else
+      partial_diff_files << a_difffile_file_name
       num_diffs_correct = num_diffs_correct + 1
     end
   end
 
-  return true if num_diffs_correct == a_numfiles
+  return true if ( num_diffs_correct == a_numfiles && num_diffs_correct == b_numfiles )
+  # TODO - Enhancement for partial reverts
+  if num_diffs_correct > 0
+    return true, partial_diff_files
+  end
 end
