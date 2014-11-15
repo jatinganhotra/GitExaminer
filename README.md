@@ -23,9 +23,8 @@ In an auto-revert, the changes in the revert commit diff are the exact opposite 
 | 5  | https://github.com/kraih/mojo                       | 8859     | f711943f90498f16088acca28f62c40e603c2388 | 15           | 42           |
 | 6  | https://github.com/jshint/jshint                    | 1396     | 1b886447c75b3164ccef95bd9236dbeb8d58950f | 5            | 6            |
 | 7  | https://github.com/perl-catalyst/catalyst-runtime   | 2829     | f384c84887409fd343be4751b40a232ebf224b5c | 26           | 31           |
-| 8  | https://github.com/cakephp/cakephp                  | 17266    | 279d15aaa582f7b8b283b556665d05afb1393690 | 87           | 106          |
-| 9  | https://github.com/addyosmani/backbone-fundamentals | 1244     | 433b58f50650d0a44c7209ef5b3fa501f919b36a | 1            | 28           |
-| 10 | https://github.com/nikolaypavlov/MLPNeuralNet       | 75       | a70d51708cd235bebbb9c4ef70aaab68d5c02b49 | 0            | 1            |
+| 8  | https://github.com/addyosmani/backbone-fundamentals | 1244     | 433b58f50650d0a44c7209ef5b3fa501f919b36a | 1            | 28           |
+| 9  | https://github.com/nikolaypavlov/MLPNeuralNet       | 75       | a70d51708cd235bebbb9c4ef70aaab68d5c02b49 | 0            | 1            |
 
 #### Modeling Git Commit History and Diffs
 
