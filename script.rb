@@ -13,12 +13,21 @@ load 'debug_helper.rb'
 # Global array to store all the diffs
 diffs_array = []
 
-git_repo_path = ARGV[0]
-project_name = git_repo_path
-project_name = project_name.split('/')
+orig_path = Dir.pwd
+
+git_repo_url = ARGV[0]
+project_name = git_repo_url.split('/')
 project_name = project_name.last
+puts "Cloning your project repo. -> " + git_repo_url.to_s
+puts "-------------------------------------------------"
+Dir.chdir "/tmp"
+system("rm -rf #{project_name}")
+system("git clone #{git_repo_url}")
+puts "-----------------------------"
+git_repo_path = "/tmp/" + project_name.to_s
 
 # Send console output to console.out
+Dir.chdir "#{orig_path}"
 stdout_filename = "RevertLogs/" + project_name + "-console.log"
 $stdout.reopen(stdout_filename, "w")
 $stdout.sync = true
