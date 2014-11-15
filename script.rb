@@ -3,6 +3,7 @@ require 'logger'
 require 'rugged'
 require 'git'
 require 'awesome_print'
+require 'debugger'
 
 # Include diff, difffile classes
 load 'diff.rb'
@@ -10,16 +11,21 @@ load 'difffile.rb'
 load 'helper.rb'
 load 'debug_helper.rb'
 
-# Send console output to console.out
-$stdout.reopen("console.out", "w")
-$stdout.sync = true
-$stderr.reopen($stdout)
-
 # Global array to store all the diffs
 diffs_array = []
 
-# Initialize both libraries
 git_repo_path = ARGV[0]
+project_name = git_repo_path
+project_name = project_name.split('/')
+project_name = project_name.last
+
+# Send console output to console.out
+stdout_filename = "RevertLogs/" + project_name + "-console.log"
+$stdout.reopen(stdout_filename, "w")
+$stdout.sync = true
+$stderr.reopen($stdout)
+
+# Initialize both libraries
 rubygit_gem_repo = Git.open(git_repo_path, :log => Logger.new(STDOUT))
 rugged_repo = Rugged::Repository.new(git_repo_path)
 
@@ -32,7 +38,7 @@ commit_list_array.reverse!
 # ----------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------
 
-# FIXME: Somehow this always gives errors. Get the initial empty tree state
+# FIXME: Working around the initial empty tree state
 #empty_tree=`git hash-object -w -t tree /dev/null`
 #empty_state = rugged_repo.lookup("#{empty_tree.chomp}")
 #commit_list_array.insert(0, empty_state)
@@ -97,8 +103,9 @@ diffs_array.reverse_each do |diff|
     next if diff == cmp_diff # No point looking at the same diff
 
     # Checkpoint #1 - Number of difffiles should be equal
-    # FIXME: The below raise shoild be present
-    #raise "num_difffiles must not be 0" if diff.num_difffiles == 0 || cmp_diff.num_difffiles == 0
+    # FIXME: This still causes issues when running on projects
+    # raise "num_difffiles must not be 0" if diff.num_difffiles == 0 || cmp_diff.num_difffiles == 0
+    next if diff.num_difffiles == 0 || cmp_diff.num_difffiles == 0
 
     # TODO - Enhancement for partial reverts
     #next if diff.num_difffiles != cmp_diff.num_difffiles
@@ -138,9 +145,6 @@ diffs_array.reverse_each do |diff|
   end
 end
 
-project_name = git_repo_path
-project_name = project_name.split('/')
-project_name = project_name.last
 reverts_log_file_name         = "RevertLogs/" + project_name + "-reverts.log"
 partial_reverts_log_file_name = "RevertLogs/" + project_name + "-partial-reverts.log"
 
@@ -165,7 +169,7 @@ revert_diffs.each do |revert_diff_pair|
 end
 
 if partial_reverts > 0
-  op_file = File.open(pbrtial_reverts_log_file_name, "w")
+  op_file = File.open(partial_reverts_log_file_name, "w")
   num = 1
   op_file.puts "# of partial reverts = " + partial_reverts.to_s
   partial_revert_diffs.each do |partial_revert_diff_pair, partial_match|
