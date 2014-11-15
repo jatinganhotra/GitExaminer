@@ -1,5 +1,38 @@
-# of reverts = 14
+# of reverts = 40
 Revert diff pair 1 is -> 
+{ 6c46c1c0f7546f20808624ca078991fca7e1099b -> 8e7f640bbbe183d1beabcb670bed9d242e213616 } is a revert
+{ 8e7f640bbbe183d1beabcb670bed9d242e213616 -> 9cb751508a74a96317b0f6ea95d3ff3d7ef6568f }
+Revert commits SHA are -> 
+8e7f640bbbe183d1beabcb670bed9d242e213616 - revert - 9cb751508a74a96317b0f6ea95d3ff3d7ef6568f
+The reverted commit sha is - 8e7f640bbbe183d1beabcb670bed9d242e213616
+Commit message - [maven-release-plugin] prepare release ninja-4.0.0
+The original commit sha is - 9cb751508a74a96317b0f6ea95d3ff3d7ef6568f
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 56108b934b4adf85b6dda87d0f38726fb7e629cb -> 2de58bf0f692cf3e303ca11c3ced388effccbc79 } is a revert
+{ 2de58bf0f692cf3e303ca11c3ced388effccbc79 -> 33b4374ff9ffe9d1df509e2f8c473fc695f832e6 }
+Revert commits SHA are -> 
+2de58bf0f692cf3e303ca11c3ced388effccbc79 - revert - 33b4374ff9ffe9d1df509e2f8c473fc695f832e6
+The reverted commit sha is - 2de58bf0f692cf3e303ca11c3ced388effccbc79
+Commit message - [maven-release-plugin] prepare release ninja-3.0.0
+The original commit sha is - 33b4374ff9ffe9d1df509e2f8c473fc695f832e6
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ d26beb6687853613dc1096aaabeefd31794b4f9b -> 56108b934b4adf85b6dda87d0f38726fb7e629cb } is a revert
+{ 56108b934b4adf85b6dda87d0f38726fb7e629cb -> 2de58bf0f692cf3e303ca11c3ced388effccbc79 }
+Revert commits SHA are -> 
+56108b934b4adf85b6dda87d0f38726fb7e629cb - revert - 2de58bf0f692cf3e303ca11c3ced388effccbc79
+The reverted commit sha is - 56108b934b4adf85b6dda87d0f38726fb7e629cb
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 2de58bf0f692cf3e303ca11c3ced388effccbc79
+Commit message - [maven-release-plugin] prepare release ninja-3.0.0
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
 { ce2f40c13817f407efed5632d1e926a2bbb2d7a5 -> 926843ad939713dbbc3ed974e0cb350a6c249adf } is a revert
 { a6eab3ac0eedb59dc969ae48047cedbadc35a638 -> b5e0bd635ddbf296eec782f51b29fd4fd00afae3 }
 Revert commits SHA are -> 
@@ -13,7 +46,95 @@ Does not work with new releases. Maybe
 we should move archetypes to separate project.
 -----------------------------------------------------------------
 
-Revert diff pair 2 is -> 
+Revert diff pair 5 is -> 
+{ 9b9204bcdf2f2ee44c0360a5c9927330c8b7a8b0 -> e2bdc85f8d73dc87c1132321b966b35345013d57 } is a revert
+{ e2bdc85f8d73dc87c1132321b966b35345013d57 -> c668aeadc49063bd2eed08d356e387b50654b197 }
+Revert commits SHA are -> 
+e2bdc85f8d73dc87c1132321b966b35345013d57 - revert - c668aeadc49063bd2eed08d356e387b50654b197
+The reverted commit sha is - e2bdc85f8d73dc87c1132321b966b35345013d57
+Commit message - [maven-release-plugin] prepare release ninja-1.5.1
+The original commit sha is - c668aeadc49063bd2eed08d356e387b50654b197
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ c211b415634e945e023bd137f5eb582c9f30a9ca -> b3a7f564c268fbf4f1fa39e290ef7b7a7d75582f } is a revert
+{ b3a7f564c268fbf4f1fa39e290ef7b7a7d75582f -> 5055ccc58a607d06151951a04babf6b0919e0cf9 }
+Revert commits SHA are -> 
+b3a7f564c268fbf4f1fa39e290ef7b7a7d75582f - revert - 5055ccc58a607d06151951a04babf6b0919e0cf9
+The reverted commit sha is - b3a7f564c268fbf4f1fa39e290ef7b7a7d75582f
+Commit message - [maven-release-plugin] prepare release ninja-1.4.2
+The original commit sha is - 5055ccc58a607d06151951a04babf6b0919e0cf9
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ 27c183a146df350ccf66035bd3b9cc533b73fc3e -> 8b1af43cef950c6f00a0a83b3061df0efc534b01 } is a revert
+{ 52315f22214e74c14958aaa2f6f315b46cf4623a -> 3dcd9bfc3c043fa85a846d5cd64c7438bccda5eb }
+Revert commits SHA are -> 
+8b1af43cef950c6f00a0a83b3061df0efc534b01 - revert - 3dcd9bfc3c043fa85a846d5cd64c7438bccda5eb
+The reverted commit sha is - 8b1af43cef950c6f00a0a83b3061df0efc534b01
+Commit message - [maven-release-plugin] prepare release ninja-1.4.1
+The original commit sha is - 3dcd9bfc3c043fa85a846d5cd64c7438bccda5eb
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 8 is -> 
+{ 30233abbea153aa580ff500a2aa07e52c55072fe -> 52315f22214e74c14958aaa2f6f315b46cf4623a } is a revert
+{ 52315f22214e74c14958aaa2f6f315b46cf4623a -> 3dcd9bfc3c043fa85a846d5cd64c7438bccda5eb }
+Revert commits SHA are -> 
+52315f22214e74c14958aaa2f6f315b46cf4623a - revert - 3dcd9bfc3c043fa85a846d5cd64c7438bccda5eb
+The reverted commit sha is - 52315f22214e74c14958aaa2f6f315b46cf4623a
+Commit message - [maven-release-plugin] prepare release ninja-1.4.1
+The original commit sha is - 3dcd9bfc3c043fa85a846d5cd64c7438bccda5eb
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 9 is -> 
+{ 8b1af43cef950c6f00a0a83b3061df0efc534b01 -> 7716024c78d599282630a449b5b5477d8c8c465b } is a revert
+{ 30233abbea153aa580ff500a2aa07e52c55072fe -> 52315f22214e74c14958aaa2f6f315b46cf4623a }
+Revert commits SHA are -> 
+7716024c78d599282630a449b5b5477d8c8c465b - revert - 52315f22214e74c14958aaa2f6f315b46cf4623a
+The reverted commit sha is - 7716024c78d599282630a449b5b5477d8c8c465b
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 52315f22214e74c14958aaa2f6f315b46cf4623a
+Commit message - [maven-release-plugin] prepare release ninja-1.4.1
+-----------------------------------------------------------------
+
+Revert diff pair 10 is -> 
+{ 27c183a146df350ccf66035bd3b9cc533b73fc3e -> 8b1af43cef950c6f00a0a83b3061df0efc534b01 } is a revert
+{ 8b1af43cef950c6f00a0a83b3061df0efc534b01 -> 7716024c78d599282630a449b5b5477d8c8c465b }
+Revert commits SHA are -> 
+8b1af43cef950c6f00a0a83b3061df0efc534b01 - revert - 7716024c78d599282630a449b5b5477d8c8c465b
+The reverted commit sha is - 8b1af43cef950c6f00a0a83b3061df0efc534b01
+Commit message - [maven-release-plugin] prepare release ninja-1.4.1
+The original commit sha is - 7716024c78d599282630a449b5b5477d8c8c465b
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 11 is -> 
+{ cd9454c248cc44ebde6ffd7664f42be3e04ae5e3 -> 3af12c6d4fcb8e039591bb68d1721005bcab3cef } is a revert
+{ 3af12c6d4fcb8e039591bb68d1721005bcab3cef -> 5441a62ce99d07254a1d9d184048a7a59490c6d6 }
+Revert commits SHA are -> 
+3af12c6d4fcb8e039591bb68d1721005bcab3cef - revert - 5441a62ce99d07254a1d9d184048a7a59490c6d6
+The reverted commit sha is - 3af12c6d4fcb8e039591bb68d1721005bcab3cef
+Commit message - [maven-release-plugin] rollback the release of ninja-1.0.8
+The original commit sha is - 5441a62ce99d07254a1d9d184048a7a59490c6d6
+Commit message - [maven-release-plugin] prepare release ninja-1.0.8
+-----------------------------------------------------------------
+
+Revert diff pair 12 is -> 
+{ 653cedae8a4fd9bdc1ea5df2142989fb205d416a -> cd9454c248cc44ebde6ffd7664f42be3e04ae5e3 } is a revert
+{ cd9454c248cc44ebde6ffd7664f42be3e04ae5e3 -> 3af12c6d4fcb8e039591bb68d1721005bcab3cef }
+Revert commits SHA are -> 
+cd9454c248cc44ebde6ffd7664f42be3e04ae5e3 - revert - 3af12c6d4fcb8e039591bb68d1721005bcab3cef
+The reverted commit sha is - cd9454c248cc44ebde6ffd7664f42be3e04ae5e3
+Commit message - [maven-release-plugin] prepare release ninja-1.0.8
+The original commit sha is - 3af12c6d4fcb8e039591bb68d1721005bcab3cef
+Commit message - [maven-release-plugin] rollback the release of ninja-1.0.8
+-----------------------------------------------------------------
+
+Revert diff pair 13 is -> 
 { 84b726a5cdf8743d008be2f463c25d838822df48 -> b2df75dce6eb634589079c55614163274df6736c } is a revert
 { b2df75dce6eb634589079c55614163274df6736c -> ee8feb68f6f7629bb636cccd75b71fd4279f751c }
 Revert commits SHA are -> 
@@ -26,7 +147,172 @@ Commit message - Revert "wii writing tests"
 This reverts commit b2df75dce6eb634589079c55614163274df6736c.
 -----------------------------------------------------------------
 
-Revert diff pair 3 is -> 
+Revert diff pair 14 is -> 
+{ 4bedbdcd6425c38b64989ea979490188378e8f13 -> 1e504846be8545dbb8cf0eb2702c3d524139ebf9 } is a revert
+{ 94c8acf64768ec58c10bad3baa7e8cd818536291 -> 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4 }
+Revert commits SHA are -> 
+1e504846be8545dbb8cf0eb2702c3d524139ebf9 - revert - 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4
+The reverted commit sha is - 1e504846be8545dbb8cf0eb2702c3d524139ebf9
+Commit message - [maven-release-plugin] rollback the release of ninja-1.0.5
+The original commit sha is - 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+-----------------------------------------------------------------
+
+Revert diff pair 15 is -> 
+{ 4bedbdcd6425c38b64989ea979490188378e8f13 -> 1e504846be8545dbb8cf0eb2702c3d524139ebf9 } is a revert
+{ 1e504846be8545dbb8cf0eb2702c3d524139ebf9 -> 0fead9766a32bd4be94048d2cf1be3c113687aa4 }
+Revert commits SHA are -> 
+1e504846be8545dbb8cf0eb2702c3d524139ebf9 - revert - 0fead9766a32bd4be94048d2cf1be3c113687aa4
+The reverted commit sha is - 1e504846be8545dbb8cf0eb2702c3d524139ebf9
+Commit message - [maven-release-plugin] rollback the release of ninja-1.0.5
+The original commit sha is - 0fead9766a32bd4be94048d2cf1be3c113687aa4
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+-----------------------------------------------------------------
+
+Revert diff pair 16 is -> 
+{ a16d50053257fd4478f3e50a335068465ed46dec -> 8326c150b951735605b15d93172cca15ff5a6067 } is a revert
+{ 4bedbdcd6425c38b64989ea979490188378e8f13 -> 1e504846be8545dbb8cf0eb2702c3d524139ebf9 }
+Revert commits SHA are -> 
+8326c150b951735605b15d93172cca15ff5a6067 - revert - 1e504846be8545dbb8cf0eb2702c3d524139ebf9
+The reverted commit sha is - 8326c150b951735605b15d93172cca15ff5a6067
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+The original commit sha is - 1e504846be8545dbb8cf0eb2702c3d524139ebf9
+Commit message - [maven-release-plugin] rollback the release of ninja-1.0.5
+-----------------------------------------------------------------
+
+Revert diff pair 17 is -> 
+{ 31e1508ee63be1087bf0f2bd0af46d8f7bda2fa1 -> 4bedbdcd6425c38b64989ea979490188378e8f13 } is a revert
+{ 4bedbdcd6425c38b64989ea979490188378e8f13 -> 1e504846be8545dbb8cf0eb2702c3d524139ebf9 }
+Revert commits SHA are -> 
+4bedbdcd6425c38b64989ea979490188378e8f13 - revert - 1e504846be8545dbb8cf0eb2702c3d524139ebf9
+The reverted commit sha is - 4bedbdcd6425c38b64989ea979490188378e8f13
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+The original commit sha is - 1e504846be8545dbb8cf0eb2702c3d524139ebf9
+Commit message - [maven-release-plugin] rollback the release of ninja-1.0.5
+-----------------------------------------------------------------
+
+Revert diff pair 18 is -> 
+{ c2ffcd37d7a547b9fd4c7dc3cb080a567c08a21f -> cd4090003e131843c376923abd9c0b843f0891b4 } is a revert
+{ cd4090003e131843c376923abd9c0b843f0891b4 -> 1da6cc9504158c7a056bfd749b19a8b651c040fb }
+Revert commits SHA are -> 
+cd4090003e131843c376923abd9c0b843f0891b4 - revert - 1da6cc9504158c7a056bfd749b19a8b651c040fb
+The reverted commit sha is - cd4090003e131843c376923abd9c0b843f0891b4
+Commit message - [maven-release-plugin] prepare release ninja-0.5.8
+The original commit sha is - 1da6cc9504158c7a056bfd749b19a8b651c040fb
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 19 is -> 
+{ 706900d7e65f89e911a2019e5671558f64493f36 -> 32a85bd555474639b6ffc0ab4722f3251bd96874 } is a revert
+{ 32a85bd555474639b6ffc0ab4722f3251bd96874 -> a9dfdf1bd62a9d123a79f22f3b07fb0db3dbc450 }
+Revert commits SHA are -> 
+32a85bd555474639b6ffc0ab4722f3251bd96874 - revert - a9dfdf1bd62a9d123a79f22f3b07fb0db3dbc450
+The reverted commit sha is - 32a85bd555474639b6ffc0ab4722f3251bd96874
+Commit message - [maven-release-plugin] prepare release ninja-0.5.7
+The original commit sha is - a9dfdf1bd62a9d123a79f22f3b07fb0db3dbc450
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 20 is -> 
+{ 71f80db9f2b1af337bcfb4a54be7f8c0689cb820 -> 41b2cf05caa4585bb08fdc6b715323b04dff0b0a } is a revert
+{ 41b2cf05caa4585bb08fdc6b715323b04dff0b0a -> f9c1858eb1d6863c6154e2e796cd9c075619960b }
+Revert commits SHA are -> 
+41b2cf05caa4585bb08fdc6b715323b04dff0b0a - revert - f9c1858eb1d6863c6154e2e796cd9c075619960b
+The reverted commit sha is - 41b2cf05caa4585bb08fdc6b715323b04dff0b0a
+Commit message - [maven-release-plugin] prepare release ninja-0.5.6
+The original commit sha is - f9c1858eb1d6863c6154e2e796cd9c075619960b
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 21 is -> 
+{ d3ede8578493816074d5592f16426197e85d2a20 -> e53005d97d37ee711494178021ef72b1e771c86d } is a revert
+{ e53005d97d37ee711494178021ef72b1e771c86d -> 5296649db6ed0107a0eb545813de27689a095475 }
+Revert commits SHA are -> 
+e53005d97d37ee711494178021ef72b1e771c86d - revert - 5296649db6ed0107a0eb545813de27689a095475
+The reverted commit sha is - e53005d97d37ee711494178021ef72b1e771c86d
+Commit message - [maven-release-plugin] prepare release ninja-0.5.5
+The original commit sha is - 5296649db6ed0107a0eb545813de27689a095475
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 22 is -> 
+{ 6a7fa77d13fafe0f8924e9e20f8b751562a972fa -> f3b763fa73e801da2f084947da8733b670ce5915 } is a revert
+{ f3b763fa73e801da2f084947da8733b670ce5915 -> 5536b859d0302491f8aff2fadc5f1aff65c7f79b }
+Revert commits SHA are -> 
+f3b763fa73e801da2f084947da8733b670ce5915 - revert - 5536b859d0302491f8aff2fadc5f1aff65c7f79b
+The reverted commit sha is - f3b763fa73e801da2f084947da8733b670ce5915
+Commit message - [maven-release-plugin] prepare release ninja-0.5.4
+The original commit sha is - 5536b859d0302491f8aff2fadc5f1aff65c7f79b
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 23 is -> 
+{ 796280bda08e7fc312894b2867c9131dd033a371 -> fd0921258aa33f0723ebf5449828a7921d78280a } is a revert
+{ fd0921258aa33f0723ebf5449828a7921d78280a -> bdd04b9d0291e7a57483a57ece12b43820610efc }
+Revert commits SHA are -> 
+fd0921258aa33f0723ebf5449828a7921d78280a - revert - bdd04b9d0291e7a57483a57ece12b43820610efc
+The reverted commit sha is - fd0921258aa33f0723ebf5449828a7921d78280a
+Commit message - [maven-release-plugin] prepare release ninja-0.5.3
+The original commit sha is - bdd04b9d0291e7a57483a57ece12b43820610efc
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 24 is -> 
+{ 137922cbeb5ccf00805aae4c96f51c5f493d259f -> 5ed965a4591d1b43eef5402d8f1e8f9fbc53bdca } is a revert
+{ 22f29184540033fcc63f4754249bcbd98daab2fd -> 5cfcd6e8d0bdff17460f073e0a9202d9bca21913 }
+Revert commits SHA are -> 
+5ed965a4591d1b43eef5402d8f1e8f9fbc53bdca - revert - 5cfcd6e8d0bdff17460f073e0a9202d9bca21913
+The reverted commit sha is - 5ed965a4591d1b43eef5402d8f1e8f9fbc53bdca
+Commit message - [maven-release-plugin] prepare release ninja-0.5.2
+The original commit sha is - 5cfcd6e8d0bdff17460f073e0a9202d9bca21913
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 25 is -> 
+{ ff82cecf441263f7d2190dcf631c40319e2fee61 -> 22f29184540033fcc63f4754249bcbd98daab2fd } is a revert
+{ 22f29184540033fcc63f4754249bcbd98daab2fd -> 5cfcd6e8d0bdff17460f073e0a9202d9bca21913 }
+Revert commits SHA are -> 
+22f29184540033fcc63f4754249bcbd98daab2fd - revert - 5cfcd6e8d0bdff17460f073e0a9202d9bca21913
+The reverted commit sha is - 22f29184540033fcc63f4754249bcbd98daab2fd
+Commit message - [maven-release-plugin] prepare release ninja-0.5.2
+The original commit sha is - 5cfcd6e8d0bdff17460f073e0a9202d9bca21913
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 26 is -> 
+{ 5ed965a4591d1b43eef5402d8f1e8f9fbc53bdca -> ff82cecf441263f7d2190dcf631c40319e2fee61 } is a revert
+{ ff82cecf441263f7d2190dcf631c40319e2fee61 -> 22f29184540033fcc63f4754249bcbd98daab2fd }
+Revert commits SHA are -> 
+ff82cecf441263f7d2190dcf631c40319e2fee61 - revert - 22f29184540033fcc63f4754249bcbd98daab2fd
+The reverted commit sha is - ff82cecf441263f7d2190dcf631c40319e2fee61
+Commit message - [maven-release-plugin] rollback the release of ninja-0.5.2
+The original commit sha is - 22f29184540033fcc63f4754249bcbd98daab2fd
+Commit message - [maven-release-plugin] prepare release ninja-0.5.2
+-----------------------------------------------------------------
+
+Revert diff pair 27 is -> 
+{ 137922cbeb5ccf00805aae4c96f51c5f493d259f -> 5ed965a4591d1b43eef5402d8f1e8f9fbc53bdca } is a revert
+{ 5ed965a4591d1b43eef5402d8f1e8f9fbc53bdca -> ff82cecf441263f7d2190dcf631c40319e2fee61 }
+Revert commits SHA are -> 
+5ed965a4591d1b43eef5402d8f1e8f9fbc53bdca - revert - ff82cecf441263f7d2190dcf631c40319e2fee61
+The reverted commit sha is - 5ed965a4591d1b43eef5402d8f1e8f9fbc53bdca
+Commit message - [maven-release-plugin] prepare release ninja-0.5.2
+The original commit sha is - ff82cecf441263f7d2190dcf631c40319e2fee61
+Commit message - [maven-release-plugin] rollback the release of ninja-0.5.2
+-----------------------------------------------------------------
+
+Revert diff pair 28 is -> 
+{ 938cf553a05b4378b2e510b978fbbd82372abe20 -> 2ddcb759cef1720fd76ac5c4fd2279e35a5b5419 } is a revert
+{ 2ddcb759cef1720fd76ac5c4fd2279e35a5b5419 -> 55a955cc7c2d0f708d11f0c20783e45a1cbd12aa }
+Revert commits SHA are -> 
+2ddcb759cef1720fd76ac5c4fd2279e35a5b5419 - revert - 55a955cc7c2d0f708d11f0c20783e45a1cbd12aa
+The reverted commit sha is - 2ddcb759cef1720fd76ac5c4fd2279e35a5b5419
+Commit message - [maven-release-plugin] prepare release ninja-0.5.1
+The original commit sha is - 55a955cc7c2d0f708d11f0c20783e45a1cbd12aa
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Revert diff pair 29 is -> 
 { 98cd201654a5fddea299bc2c005f10ab5e51ab20 -> 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 } is a revert
 { 96d129cc36cee0e52131c3f313db958d64deee58 -> 8dd3408788d199a3edb140f997fcd49296e36928 }
 Revert commits SHA are -> 
@@ -37,7 +323,7 @@ The original commit sha is - 8dd3408788d199a3edb140f997fcd49296e36928
 Commit message - [maven-release-plugin] prepare release ninja-0.4
 -----------------------------------------------------------------
 
-Revert diff pair 4 is -> 
+Revert diff pair 30 is -> 
 { 2a343df32a0c632e045d40d8a3f039852c0d51ce -> f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d } is a revert
 { 96d129cc36cee0e52131c3f313db958d64deee58 -> 8dd3408788d199a3edb140f997fcd49296e36928 }
 Revert commits SHA are -> 
@@ -48,7 +334,7 @@ The original commit sha is - 8dd3408788d199a3edb140f997fcd49296e36928
 Commit message - [maven-release-plugin] prepare release ninja-0.4
 -----------------------------------------------------------------
 
-Revert diff pair 5 is -> 
+Revert diff pair 31 is -> 
 { 23536d8c3c32e83e82e7b8772605b519721e39b2 -> 0a965fab532f9e850c9a01f3f150a712e33ade6c } is a revert
 { 96d129cc36cee0e52131c3f313db958d64deee58 -> 8dd3408788d199a3edb140f997fcd49296e36928 }
 Revert commits SHA are -> 
@@ -59,7 +345,7 @@ The original commit sha is - 8dd3408788d199a3edb140f997fcd49296e36928
 Commit message - [maven-release-plugin] prepare release ninja-0.4
 -----------------------------------------------------------------
 
-Revert diff pair 6 is -> 
+Revert diff pair 32 is -> 
 { 7b6b741981d61a9e3dccf4671d10b56336159559 -> 0fc9a29625edd708987b63c3668ced71f8887c91 } is a revert
 { 23536d8c3c32e83e82e7b8772605b519721e39b2 -> 0a965fab532f9e850c9a01f3f150a712e33ade6c }
 Revert commits SHA are -> 
@@ -70,7 +356,7 @@ The original commit sha is - 0a965fab532f9e850c9a01f3f150a712e33ade6c
 Commit message - [maven-release-plugin] rollback the release of ninja-0.4
 -----------------------------------------------------------------
 
-Revert diff pair 7 is -> 
+Revert diff pair 33 is -> 
 { 2ceda8e990e8899804bb2bb2c68b7568b3df4eac -> 2a343df32a0c632e045d40d8a3f039852c0d51ce } is a revert
 { 23536d8c3c32e83e82e7b8772605b519721e39b2 -> 0a965fab532f9e850c9a01f3f150a712e33ade6c }
 Revert commits SHA are -> 
@@ -81,7 +367,7 @@ The original commit sha is - 0a965fab532f9e850c9a01f3f150a712e33ade6c
 Commit message - [maven-release-plugin] rollback the release of ninja-0.4
 -----------------------------------------------------------------
 
-Revert diff pair 8 is -> 
+Revert diff pair 34 is -> 
 { f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d -> b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2 } is a revert
 { 23536d8c3c32e83e82e7b8772605b519721e39b2 -> 0a965fab532f9e850c9a01f3f150a712e33ade6c }
 Revert commits SHA are -> 
@@ -92,7 +378,7 @@ The original commit sha is - 0a965fab532f9e850c9a01f3f150a712e33ade6c
 Commit message - [maven-release-plugin] rollback the release of ninja-0.4
 -----------------------------------------------------------------
 
-Revert diff pair 9 is -> 
+Revert diff pair 35 is -> 
 { 98cd201654a5fddea299bc2c005f10ab5e51ab20 -> 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 } is a revert
 { f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d -> b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2 }
 Revert commits SHA are -> 
@@ -103,7 +389,7 @@ The original commit sha is - b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2
 Commit message - [maven-release-plugin] prepare release ninja-0.4
 -----------------------------------------------------------------
 
-Revert diff pair 10 is -> 
+Revert diff pair 36 is -> 
 { 2a343df32a0c632e045d40d8a3f039852c0d51ce -> f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d } is a revert
 { f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d -> b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2 }
 Revert commits SHA are -> 
@@ -114,7 +400,7 @@ The original commit sha is - b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2
 Commit message - [maven-release-plugin] prepare release ninja-0.4
 -----------------------------------------------------------------
 
-Revert diff pair 11 is -> 
+Revert diff pair 37 is -> 
 { 7b6b741981d61a9e3dccf4671d10b56336159559 -> 0fc9a29625edd708987b63c3668ced71f8887c91 } is a revert
 { 2a343df32a0c632e045d40d8a3f039852c0d51ce -> f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d }
 Revert commits SHA are -> 
@@ -125,7 +411,7 @@ The original commit sha is - f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d
 Commit message - [maven-release-plugin] rollback the release of ninja-0.4
 -----------------------------------------------------------------
 
-Revert diff pair 12 is -> 
+Revert diff pair 38 is -> 
 { 2ceda8e990e8899804bb2bb2c68b7568b3df4eac -> 2a343df32a0c632e045d40d8a3f039852c0d51ce } is a revert
 { 2a343df32a0c632e045d40d8a3f039852c0d51ce -> f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d }
 Revert commits SHA are -> 
@@ -136,7 +422,7 @@ The original commit sha is - f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d
 Commit message - [maven-release-plugin] rollback the release of ninja-0.4
 -----------------------------------------------------------------
 
-Revert diff pair 13 is -> 
+Revert diff pair 39 is -> 
 { 98cd201654a5fddea299bc2c005f10ab5e51ab20 -> 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 } is a revert
 { 2ceda8e990e8899804bb2bb2c68b7568b3df4eac -> 2a343df32a0c632e045d40d8a3f039852c0d51ce }
 Revert commits SHA are -> 
@@ -147,7 +433,7 @@ The original commit sha is - 2a343df32a0c632e045d40d8a3f039852c0d51ce
 Commit message - [maven-release-plugin] prepare release ninja-0.4
 -----------------------------------------------------------------
 
-Revert diff pair 14 is -> 
+Revert diff pair 40 is -> 
 { 7b6b741981d61a9e3dccf4671d10b56336159559 -> 0fc9a29625edd708987b63c3668ced71f8887c91 } is a revert
 { 98cd201654a5fddea299bc2c005f10ab5e51ab20 -> 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 }
 Revert commits SHA are -> 
