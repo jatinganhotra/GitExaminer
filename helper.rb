@@ -8,9 +8,7 @@ def PRINT_AND_EXIT(a,b,h)
   if h[:stats]
     if (a.stats.nil? || b.stats.nil? )
       PrintDiffInfoAndStats(a,b)
-      puts "END - STATS found nil"
       raise "STATS NIL"
-      exit(0)
     end
   end
 
@@ -42,6 +40,7 @@ def CompareDiffStatsFor2Difffiles( a,b, a_difffile_file_name, b_difffile_file_na
   a_file_stats = astats[:files][a_difffile_file_name]
   b_file_stats = bstats[:files][b_difffile_file_name]
   return false if a_file_stats.nil? || b_file_stats.nil?
+
   a_insertions = a_file_stats[:insertions]
   a_deletions = a_file_stats[:deletions]
   b_insertions = b_file_stats[:insertions]
@@ -124,36 +123,31 @@ def CompareDiffPatch(a, b)
   a_numfiles = a.num_difffiles
   b_numfiles = b.num_difffiles
 
-  # TODO - Enhancement for partial reverts. The below condition will be false
-  # TODO - when you are looking for partial reverts
+  # TODO - Enhancement for partial reverts.
+  # The below condition will be false when you are looking for partial reverts
   # unless a_numfiles == b_numfiles
   #   raise "Both stats must have the same number of files, \
   #       as we reached here only after checking stats and num_difffiles"
   # end
 
   num_diffs_correct = 0
+  # FIXME: Investigate when would the next line be true
   return false if a_numfiles == 0 || b_numfiles == 0
-  # FIXME: In some weird corner cases, difffiles array is nil
-  return false if a.difffiles.nil? || b.difffiles.nil?
+  raise "The difffiles array can't be nil" if a.difffiles.nil? || b.difffiles.nil?
 
   partial_diff_files = []
   a.difffiles.each do |a_difffile|
     a_difffile_file_name = a_difffile.file_name
+    raise "Error !!! The file_name can't be nil" if a_difffile_file_name.nil?
 
-    # FIXME: Another issue
-    next if a_difffile_file_name.nil?
-    #raise "Error !!! How can the file_name be nil" if a_difffile_file_name.nil?
     # Checkpoint #1 - The file_name must have a corresponding difffile in diff b
     is_present, b_difffile = GetCorrepondingDifffileInB(a_difffile_file_name, b)
 
     return false if is_present == false
-    # puts "is_present =" + is_present.to_s
-    # puts "b_difffile found for file_name = " + a_difffile_file_name + " is = " + b_difffile.to_s
 
     # TODO - Enhancement for partial reverts. Check if stats match for the given difffile
     b_difffile_file_name = b_difffile.file_name
     diff_stats_match = CompareDiffStatsFor2Difffiles(a,b, a_difffile_file_name, b_difffile_file_name)
-    # IMP - If I don't check the # of changes per file, then reported number would be incorrect
     next if diff_stats_match == false
 
     # Checkpoint #2 - Compare the patches for both difffiles a and b
