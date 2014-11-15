@@ -12,42 +12,6 @@ Reverts can be of 2 kinds: auto-revert and manual-revert. If there are no confli
 
 In an auto-revert, the changes in the revert commit diff are the exact opposite of when the CommitID happened.  But, it's difficult to accurately find manual-reverts or partial reverts, because the changes could be similar, but would not be an exact match.
 
-#### Results
-i+---+-----------------------+---------------------------------------------------------+--------+------+-------+------+
-|                                                      Results                                                       |
-+---+-----------------------+---------------------------------------------------------+--------+------+-------+------+
-| # | ProjectName           | RepoURL-                                                | #      | #RV  | #RV   | #RV- |
-|   |                       | HEAD SHA                                                | Commit | -Msg | -Full | Part |
-+---+-----------------------+---------------------------------------------------------+--------+------+-------+------+
-| 1 | backbone-fundamentals | https://github.com/addyosmani/backbone-fundamentals.git | 1251   | 1    | 28    | 156  |
-|   |                       | f4dc7848c85faa31af853a9c4c2c6562310f0c02                |        |      |       |      |
-
-| 2 | catalyst-runtime      | https://github.com/perl-catalyst/catalyst-runtime.git   | 2831   | 26   | 33    | 177  |
-|   |                       | 5bec3c066856eaf822d757d6c8295276ddb9d281                |        |      |       |      |
-
-| 3 | jshint                | https://github.com/jshint/jshint.git                    | 1438   | 5    | 7     | 245  |
-|   |                       | d0b3cfd935c9445f14b37ea9694d8a172a52739a                |        |      |       |      |
-
-| 4 | MLPNeuralNet          | https://github.com/nikolaypavlov/MLPNeuralNet           | 75     | 0    | 1     | 4    |
-|   |                       | a70d51708cd235bebbb9c4ef70aaab68d5c02b49                |        |      |       |      |
-
-| 5 | mojo                  | https://github.com/kraih/mojo.git                       | 8872   | 15   | 43    | 142  |
-|   |                       | 42c388f0c2a3fb6aae1a7bcd0bdb8504fe2a53df                |        |      |       |      |
-
-| 6 | ninja                 | https://github.com/ninjaframework/ninja.git             | 1266   | 3    | 40    | 179  |
-|   |                       | c6c87f85bceadb1af8234d2478971bbc890913c6                |        |      |       |      |
-
-| 7 | sails                 | https://github.com/balderdashy/sails.git                | 4612   | 14   | 27    | 1131 |
-|   |                       | c7e122aede533716fee0c5f6fb331cf64d4aad81                |        |      |       |      |
-
-| 8 | sinatra               | https://github.com/sinatra/sinatra.git                  | 2646   | 21   | 44    | 352  |
-|   |                       | 4e92d604be5269b1d6527a6093f112d10b5b9d7f                |        |      |       |      |
-
-| 9 | stylus                | https://github.com/LearnBoost/stylus.git                | 3613   | 9    | 14    | 242  |
-|   |                       | 7bf5cae588c2d27154356909e3f58170de7e8a42                |        |      |       |      |
-
-+---+-----------------------+---------------------------------------------------------+--------+------+-------+------+
-
 #### Modeling Git Commit History and Diffs
 
 ##### Gems used:  
