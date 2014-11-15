@@ -1,5 +1,20 @@
-# of reverts = 6
+# of reverts = 7
 Revert diff pair 1 is -> 
+{ dd060c7373971cac2a965deee38d72ff5214d417 -> 249ffd1f1924433cf3d927e7ccdb186e874cfc4c } is a revert
+{ 3823399703e2db18d5abbc0fe7d861a802fcad85 -> 613a210505de4c06da65e42d9778f70574a90f39 }
+Revert commits SHA are -> 
+249ffd1f1924433cf3d927e7ccdb186e874cfc4c - revert - 613a210505de4c06da65e42d9778f70574a90f39
+The reverted commit sha is - 249ffd1f1924433cf3d927e7ccdb186e874cfc4c
+Commit message - Fixed #695: Use website defaults when used from CLI
+The original commit sha is - 613a210505de4c06da65e42d9778f70574a90f39
+Commit message - Revert "Fixed #695: Use website defaults when used from CLI"
+
+We don't break backwards compatibility without major version bump.
+
+This reverts commit 249ffd1f1924433cf3d927e7ccdb186e874cfc4c.
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
 { 8b94ba1eaec3e6763faf5c30b84f96bd4b5bd276 -> 576bfeefcbbf74f4df6ce0ef01f95149b7feec12 } is a revert
 { 576bfeefcbbf74f4df6ce0ef01f95149b7feec12 -> ab7b203a2bdb89f1faed668bf39ff1c080df1218 }
 Revert commits SHA are -> 
@@ -12,7 +27,7 @@ Commit message - Merge pull request #1097 from nschonni/bump-nodeunit
 Bump nodeunit and sinon devDependencies
 -----------------------------------------------------------------
 
-Revert diff pair 1 is -> 
+Revert diff pair 3 is -> 
 { 8ecb4b45e97875bd2a33da4da21492dcacdab76a -> 1a9ef359bd4bbd2f9231eefccd7b1b6952be17f0 } is a revert
 { 1a9ef359bd4bbd2f9231eefccd7b1b6952be17f0 -> f87d46548c33a21417067f7ed25687fbdb084e20 }
 Revert commits SHA are -> 
@@ -25,7 +40,7 @@ Commit message - Merge pull request #968 from theoreticaLee/master
 Add JSHint license to package.json
 -----------------------------------------------------------------
 
-Revert diff pair 1 is -> 
+Revert diff pair 4 is -> 
 { 0f116f6e612c042ac1504042fb9850fae2dc3c02 -> 815dae1f1ee8bc57d0400e98d0e2f08e63e5ad9c } is a revert
 { d448df71c867a9640f4e4460f877fcbe2d49d2c8 -> cf711204dfb5a6775da4dd5654c52d03712efa43 }
 Revert commits SHA are -> 
@@ -41,7 +56,7 @@ This reverts commit 815dae1f1ee8bc57d0400e98d0e2f08e63e5ad9c, reversing
 changes made to 0f116f6e612c042ac1504042fb9850fae2dc3c02.
 -----------------------------------------------------------------
 
-Revert diff pair 1 is -> 
+Revert diff pair 5 is -> 
 { 4a0d7c65fc27cee72753c7a14c2809cf4db33346 -> 10ab2275cf77e2ea099007941f3f666c6726f5a2 } is a revert
 { ac45bf0f9a59c49c87e007be0e155a568be7857a -> 93cf00963d47ad2c6c6f01a46f3acb5d1264b851 }
 Revert commits SHA are -> 
@@ -59,7 +74,7 @@ changes made to 4a0d7c65fc27cee72753c7a14c2809cf4db33346.
 Reason: no regression test submitted with a pull request.
 -----------------------------------------------------------------
 
-Revert diff pair 1 is -> 
+Revert diff pair 6 is -> 
 { b963afac09ad2101764db0eed6b242ff8e7c7f2c -> 003b4eafd54069273fa5ff07a118d99e9e56c720 } is a revert
 { 003b4eafd54069273fa5ff07a118d99e9e56c720 -> 4453555b3cd8b72ecc6076246a784c0356cb26ff }
 Revert commits SHA are -> 
@@ -72,7 +87,7 @@ Commit message - Merge pull request #560 from joelrbrandt/fix-unit-tests
 add Node and NodeFilter members to options to fix unit tests
 -----------------------------------------------------------------
 
-Revert diff pair 1 is -> 
+Revert diff pair 7 is -> 
 { 6c23b2bfd043d77e8a2cccaaeb5034696758fb1c -> 8cecd6a6e352d2d25b381e04bace4860ee88c5f1 } is a revert
 { 8cecd6a6e352d2d25b381e04bace4860ee88c5f1 -> efbb3af4f905138df9796ed1b8719bb695d1f93e }
 Revert commits SHA are -> 
