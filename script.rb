@@ -3,6 +3,7 @@ require 'logger'
 require 'rugged'
 require 'git'
 require 'awesome_print'
+require 'terminal-table'
 
 # Include diff, difffile classes
 load 'diff.rb'
@@ -18,7 +19,12 @@ orig_path = Dir.pwd
 git_repo_url = ARGV[0]
 project_name = git_repo_url.split('/')
 project_name = project_name.last
-puts "Cloning your project repo. -> " + git_repo_url.to_s
+# When you pass a repo_URL like https://github.com/jshint/jshint.git
+# You need to take away the .git part too
+project_name = project_name.split('.')
+project_name = project_name.first
+
+puts " ---> Cloning your project repo. -> " + git_repo_url.to_s
 puts "-------------------------------------------------"
 Dir.chdir "/tmp"
 system("rm -rf #{project_name}")
@@ -29,9 +35,9 @@ git_repo_path = "/tmp/" + project_name.to_s
 # Send console output to console.out
 Dir.chdir "#{orig_path}"
 stdout_filename = "RevertLogs/" + project_name + "-console.log"
+# Keep a dup of STDOUT for later use
+old_stdout = $stdout.dup
 $stdout.reopen(stdout_filename, "w")
-$stdout.sync = true
-$stderr.reopen($stdout)
 
 # Initialize both libraries
 rubygit_gem_repo = Git.open(git_repo_path, :log => Logger.new(STDOUT))
@@ -47,6 +53,18 @@ commit_list = rubygit_gem_repo.log(nil)
 commit_list_array = commit_list.to_a
 commit_list_array.reverse!
 
+# Calculate the # of total commits
+num_commits = commit_list_array.count
+
+# Calculate the number of commits which have revert in their message
+msg_revert_commits = []
+commit_list_array.each do |commit|
+  if commit.message.include? 'revert'
+    msg_revert_commits << commit
+  end
+end
+num_commits_revert_msg = msg_revert_commits.count
+
 # ----------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------
@@ -55,6 +73,16 @@ commit_list_array.reverse!
 #empty_tree=`git hash-object -w -t tree /dev/null`
 #empty_state = rugged_repo.lookup("#{empty_tree.chomp}")
 #commit_list_array.insert(0, empty_state)
+
+$stdout = old_stdout.dup
+print " ---> Gathering information about commits. Please wait."
+10.times { print "." ; sleep(1.0/10)} ; puts "."
+puts "# Commits = " + num_commits.to_s
+puts "# Commits with revert in message = " + num_commits_revert_msg.to_s
+puts "-----------------------------"
+print " ---> Looking for reverts - complete and partial ."
+5.times { print "." ; sleep(1.0/10)}
+$stdout.reopen(stdout_filename, "w")
 
 # FIXME: Change this line to find reverts only in a subset of commits
 num_commits = commit_list_array.size
@@ -92,6 +120,10 @@ end
 # ----------------------------------------------------------------------------------
 # ------------------      CHECK FOR REVERTS       ----------------------------------
 # ----------------------------------------------------------------------------------
+
+$stdout = old_stdout.dup
+5.times { print "." ; sleep(1.0/10)} ; puts "."
+$stdout.reopen(stdout_filename, "w")
 
 full_reverts = 0
 partial_reverts = 0
@@ -158,8 +190,17 @@ diffs_array.reverse_each do |diff|
   end
 end
 
+$stdout = old_stdout.dup
+puts "# Reverts - complete = " + full_reverts.to_s
+puts "# Reverts - partial  = " + partial_reverts.to_s
+puts "-----------------------------"
+$stdout.reopen(stdout_filename, "w")
+
+# ----------------------------------------------------------------------------------
+# ---------------------   Output Complete Reverts   --------------------------------
+# ----------------------------------------------------------------------------------
+
 reverts_log_file_name         = "RevertLogs/" + project_name + "-reverts.log"
-partial_reverts_log_file_name = "RevertLogs/" + project_name + "-partial-reverts.log"
 
 op_file = File.open(reverts_log_file_name, "w")
 num = 1
@@ -180,6 +221,12 @@ revert_diffs.each do |revert_diff_pair|
   op_file.puts "\n"
   num = num.succ
 end
+
+# ----------------------------------------------------------------------------------
+# ----------------------   Output Partial Reverts   --------------------------------
+# ----------------------------------------------------------------------------------
+
+partial_reverts_log_file_name = "RevertLogs/" + project_name + "-partial-reverts.log"
 
 if partial_reverts > 0
   op_file = File.open(partial_reverts_log_file_name, "w")
@@ -204,3 +251,38 @@ if partial_reverts > 0
     num = num.succ
   end
 end
+
+# ----------------------------------------------------------------------------------
+# ----------------------------   Output All Results --------------------------------
+# ----------------------------------------------------------------------------------
+
+$stdout = old_stdout.dup
+print " ---> One last touch, magic in-progress ."
+10.times { print "." ; sleep(1.0/10)} ; puts "."
+puts "-----------------------------"
+puts " ---> The results are :-"
+
+results_file_name = "RevertLogs/" + project_name + "-results.txt"
+op_file = File.open(results_file_name, "w")
+
+# The below representation might be useful when you have multiple projects
+#rows << [ project_name, git_repo_url, head_commit_sha, num_commits, num_commits_revert_msg, full_reverts, partial_reverts]
+#table = Terminal::Table.new :headings => ['ProjectName', 'RepoURL', 'SHA', '#Commits', 'RVMsg', '#RVFull', '#RVPartial'], :rows => rows
+rows = []
+rows << [ '  ProjectName', project_name ]
+rows << [ '  RepoURL', git_repo_url ]
+rows << [ '  HEAD SHA', head_commit_sha ]
+rows << [ '# Commits', num_commits ]
+rows << [ '# Reverts - Message', num_commits_revert_msg ]
+rows << [ '# Reverts - Complete', full_reverts ]
+rows << [ '# Reverts - Partial', partial_reverts ]
+table = Terminal::Table.new :title => "#{project_name}-results", :rows => rows
+puts table
+op_file.puts table
+
+# ----------------------------------------------------------------------------------
+# ----------------------------------   Cleanup -------------------------------------
+# ----------------------------------------------------------------------------------
+
+Dir.chdir "/tmp"
+system("rm -rf #{project_name}")
