@@ -33,40 +33,17 @@ class Diff
 
   def generate_stats
     num_files = @stats[:total][:files]
-    #puts num_files
-    # puts @num_difffiles
-    # Not valid now, as @num_difffiles is nil
-    # TODO: Add this check as this is a correctness check
-    #raise "Num_files in stats != number of diffiles" unless num_files == @num_difffiles
-    i = 0
-    @stats[:files].each do |file, file_stats|
-      file_stats = stats[:files][file]
-      #puts "STATS begin"
-      #puts file
-      #puts file_stats
-      #puts "STATS end"
-    end
+    raise "Num_files in stats != number of diffiles" unless num_files == @num_difffiles
   end
 
   def generate_difffiles_and_stats
-
-    # Initialize @diffiles to empty array
-    # FIXME: This has been already done in initialize, so this shouldn't go here again
     @difffiles = []
     # diff.class => Git::Diff
     # Get the stats for the diff, before extracting individual difffiles
     @stats = @diff.stats
 
-    # FIXME: Convert the enumerbale to array. Not using the .to_a
-    # Iterating over the enumerable array to convert to array
-    diff = []
-    @diff.each do |obj|
-      diff << obj
-    end
-
     # Convert the Enumerable to Array
-    # diff = @diff.to_a
-    # diff.class => Array
+    diff = @diff.to_a
 
     @num_difffiles = diff.size
     @num_difffiles.times do |i|
