@@ -1,4 +1,4 @@
-# of partial reverts = 3
+# of partial reverts = 4
 Partial Revert diff pair 1 is -> 
 { b62b5d5ef3e74e5673b49fcec7e78bd3acea2f4e -> ec6515c025b73a65212edb23f759c942eba3dce8 } is a revert
 { 1abacbb19952a08ee0495404cbc59f422af132af -> d7bddbb7a6dd87c937b75590a04f35c01339a96f }
@@ -13,6 +13,19 @@ README.md
 -----------------------------------------------------------------
 
 Partial Revert diff pair 2 is -> 
+{ 984f1fe79d5c7a5a4b1f9e65f644ea34aa3065dd -> 1dde6f2291c3e795046c1aa8846094e7350bbcc1 } is a revert
+{ 1dde6f2291c3e795046c1aa8846094e7350bbcc1 -> d05f24c3df287f1fad3221b712f6998550ee9460 }
+Partial Revert commits SHA are -> 
+1dde6f2291c3e795046c1aa8846094e7350bbcc1 - revert - d05f24c3df287f1fad3221b712f6998550ee9460
+The reverted commit sha is - 1dde6f2291c3e795046c1aa8846094e7350bbcc1
+Commit message - Podspec for v 0.0.3
+The original commit sha is - d05f24c3df287f1fad3221b712f6998550ee9460
+Commit message - Podspec for v 0.0.3
+The files with partial_reverts are:-
+MLPNeuralNet/MLPNeuralNet.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
 { eefcc5234b490945f7e55a54b9efb2d817e5f155 -> d70f26f8b638c39287995021571492bde417ff8d } is a revert
 { d70f26f8b638c39287995021571492bde417ff8d -> 40137906f607205ac90caa72cc74d432af8c4142 }
 Partial Revert commits SHA are -> 
@@ -25,7 +38,7 @@ The files with partial_reverts are:-
 README.md
 -----------------------------------------------------------------
 
-Partial Revert diff pair 3 is -> 
+Partial Revert diff pair 4 is -> 
 { b5986330a220b0540e63a6575d4779e4266449d8 -> 2d5eb4e9ba197a4e4ba106af95e1f1571533f765 } is a revert
 { 2d5eb4e9ba197a4e4ba106af95e1f1571533f765 -> e153007fc0d52c14b5c6a94bbfe8604d86886a51 }
 Partial Revert commits SHA are -> 
