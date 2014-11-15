@@ -3,21 +3,6 @@ require 'logger'
 require 'rugged'
 require 'git'
 
-# Using asserts - Approach #1
-#require 'test/unit'
-#extend Test::Unit::Assertions
-#assert_not_equal( 1, 2)
-
-# Writing own assert - Approach #2
-#class AssertionError < RuntimeError
-#end
-#def assert &block
-#    raise AssertionError unless yield
-#end
-#i = 1
-#assert {i >= 0}
-#assert { 5 == 12 }
-
 class Patch
 
   attr_reader :additions
