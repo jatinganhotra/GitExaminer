@@ -3,7 +3,6 @@ require 'logger'
 require 'rugged'
 require 'git'
 require 'awesome_print'
-require 'debugger'
 
 # Include diff, difffile classes
 load 'diff.rb'
@@ -28,6 +27,11 @@ $stderr.reopen($stdout)
 # Initialize both libraries
 rubygit_gem_repo = Git.open(git_repo_path, :log => Logger.new(STDOUT))
 rugged_repo = Rugged::Repository.new(git_repo_path)
+
+head_commit = rubygit_gem_repo.log(1)
+head_commit = head_commit.to_a
+head_commit = head_commit[0]
+head_commit_sha = head_commit.sha
 
 # Get all the commits for the project
 commit_list = rubygit_gem_repo.log(nil)
