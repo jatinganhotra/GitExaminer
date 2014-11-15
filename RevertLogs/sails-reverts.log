@@ -1,4 +1,4 @@
-# of reverts = 24
+# of reverts = 27
 Revert diff pair 1 is -> 
 { 38e69ed299735429e306cfa239b4aadf0c8bc291 -> bbb3aaa355a045d3eec64288623c9079b9d5dc90 } is a revert
 { bbb3aaa355a045d3eec64288623c9079b9d5dc90 -> 78fc26291e72c2732a779b03e867de6f51c5de75 }
@@ -92,19 +92,6 @@ This reverts commit 58bfc02363f57d148edf0ebc0c401b8d17dcf812.
 -----------------------------------------------------------------
 
 Revert diff pair 8 is -> 
-{ 3174fe0f415507b012d7d4f8bd1b06f1f87585f9 -> 4e8ec7ef0b8c09159d3fc2581fcaf91ae9513a56 } is a revert
-{ 52410e4982103e48ff4a28e4d80dd5e4f38efc5c -> a166df8e95718e7b2d6f706da825eca7000cab4e }
-Revert commits SHA are -> 
-4e8ec7ef0b8c09159d3fc2581fcaf91ae9513a56 - revert - a166df8e95718e7b2d6f706da825eca7000cab4e
-The reverted commit sha is - 4e8ec7ef0b8c09159d3fc2581fcaf91ae9513a56
-Commit message - Cleaned up unused deps.
-The original commit sha is - a166df8e95718e7b2d6f706da825eca7000cab4e
-Commit message - Merge pull request #1351 from leedm777/pubsub-lodash
-
-Add require('lodash') to pubsub/index.js.
------------------------------------------------------------------
-
-Revert diff pair 9 is -> 
 { 1aea4fb76717339d4ef1ae046a05878ac2e08615 -> d8dfe2b4f10b5737a4902ad39595790942fe3ed2 } is a revert
 { d8dfe2b4f10b5737a4902ad39595790942fe3ed2 -> 94c594f5e9fcbee3e4a2aa381078bbce0e7f2241 }
 Revert commits SHA are -> 
@@ -117,7 +104,7 @@ Commit message - Revert "Spaces/tabs"
 This reverts commit d8dfe2b4f10b5737a4902ad39595790942fe3ed2.
 -----------------------------------------------------------------
 
-Revert diff pair 10 is -> 
+Revert diff pair 9 is -> 
 { d428e2c96350ae5d235af655977fedb31e1ae6d9 -> d138ffde4ffd3a09187e420a2c2c271e5a23809e } is a revert
 { 6ff84491798cd058f37be93278a86a548d87d7d0 -> 506ff49025098d755db37dd4ccee97dde307d35c }
 Revert commits SHA are -> 
@@ -128,7 +115,53 @@ The original commit sha is - 506ff49025098d755db37dd4ccee97dde307d35c
 Commit message - Oops- reverted config/session change.
 -----------------------------------------------------------------
 
+Revert diff pair 10 is -> 
+{ 9701ccef91d076d2c6ab435ad36dc8e58e3dece3 -> ecd6f81d3abb89d50479c17c2e9e5cd3a0d6ef4b } is a revert
+{ ecd6f81d3abb89d50479c17c2e9e5cd3a0d6ef4b -> 44739651d29eda0b1a0b81d4bd75b206832d3334 }
+Revert commits SHA are -> 
+ecd6f81d3abb89d50479c17c2e9e5cd3a0d6ef4b - revert - 44739651d29eda0b1a0b81d4bd75b206832d3334
+The reverted commit sha is - ecd6f81d3abb89d50479c17c2e9e5cd3a0d6ef4b
+Commit message - Beginnings of responses
+The original commit sha is - 44739651d29eda0b1a0b81d4bd75b206832d3334
+Commit message - Revert "Beginnings of responses"
+
+This reverts commit ecd6f81d3abb89d50479c17c2e9e5cd3a0d6ef4b.
+-----------------------------------------------------------------
+
 Revert diff pair 11 is -> 
+{ 055397e846bc32d81cf59dc937a3ebf2542f1c8e -> f700948351559956e2dbac11e241b88541d922fe } is a revert
+{ f700948351559956e2dbac11e241b88541d922fe -> 7d27c7ce0fd57c515eaab516f5a128acdd38e7bb }
+Revert commits SHA are -> 
+f700948351559956e2dbac11e241b88541d922fe - revert - 7d27c7ce0fd57c515eaab516f5a128acdd38e7bb
+The reverted commit sha is - f700948351559956e2dbac11e241b88541d922fe
+Commit message - Merge branch 'development' into experiment
+The original commit sha is - 7d27c7ce0fd57c515eaab516f5a128acdd38e7bb
+Commit message - Removed stray console.log
+-----------------------------------------------------------------
+
+Revert diff pair 12 is -> 
+{ 3af59aab75bd32028123eec9e01e9806ea6c5911 -> 26c77378190d6ee1bc3c600a41c53dedbf6e15fa } is a revert
+{ f71942d451d38c4075674fee1a6629263f9c3359 -> 15a896c825d825a8f45c79fb605e0cf4ffc58349 }
+Revert commits SHA are -> 
+26c77378190d6ee1bc3c600a41c53dedbf6e15fa - revert - 15a896c825d825a8f45c79fb605e0cf4ffc58349
+The reverted commit sha is - 26c77378190d6ee1bc3c600a41c53dedbf6e15fa
+Commit message - Temporarily rename router integration view fixtures.
+The original commit sha is - 15a896c825d825a8f45c79fb605e0cf4ffc58349
+Commit message - Finish renaming router integration view fixtures. (again)
+-----------------------------------------------------------------
+
+Revert diff pair 13 is -> 
+{ 26c77378190d6ee1bc3c600a41c53dedbf6e15fa -> 047edc265a4f8c72b0d7deca786e790dbab8ca43 } is a revert
+{ b2b6a377df907d58869f012f8a8d0b5ec832c211 -> f71942d451d38c4075674fee1a6629263f9c3359 }
+Revert commits SHA are -> 
+047edc265a4f8c72b0d7deca786e790dbab8ca43 - revert - f71942d451d38c4075674fee1a6629263f9c3359
+The reverted commit sha is - 047edc265a4f8c72b0d7deca786e790dbab8ca43
+Commit message - Finish renaming router integration view fixtures.
+The original commit sha is - f71942d451d38c4075674fee1a6629263f9c3359
+Commit message - Temporarily rename router integration view fixtures. (again)
+-----------------------------------------------------------------
+
+Revert diff pair 14 is -> 
 { f06ab4f06367771aeee6ee9d9826241199147b2a -> cdd64befc4afe5fd18175e346c0cf7fdeb41810e } is a revert
 { 55c09cc28e6edd5f91ddcef51e4b19fc59e4510f -> 0d04bb55dca60842c783b29fecd2339504dc3f11 }
 Revert commits SHA are -> 
@@ -141,7 +174,7 @@ The original commit sha is - 0d04bb55dca60842c783b29fecd2339504dc3f11
 Commit message - Merge branch 'development' of github.com:balderdashy/sails into development
 -----------------------------------------------------------------
 
-Revert diff pair 12 is -> 
+Revert diff pair 15 is -> 
 { 19a45214f10469265c042d6bfa1869c861b557f1 -> e80cb7903eb850d666f9f7f91e3a2cb980d1162b } is a revert
 { e80cb7903eb850d666f9f7f91e3a2cb980d1162b -> 109773a300da53f5aed28ee23cd576d6976876ee }
 Revert commits SHA are -> 
@@ -154,7 +187,7 @@ Commit message - Merge pull request #399 from colinwren/development
 Split cli code into seperate files
 -----------------------------------------------------------------
 
-Revert diff pair 13 is -> 
+Revert diff pair 16 is -> 
 { 9e5cb7417d6bb5aae6d7be304cc6c7cfd118ba6c -> 33992306827a96fd20858c3aa81d89c8360b341e } is a revert
 { 33992306827a96fd20858c3aa81d89c8360b341e -> 2f2f6a4698c73b001e621d6819894a2ff387d479 }
 Revert commits SHA are -> 
@@ -169,7 +202,7 @@ Commit message - Merge pull request #328 from colinwren/master
 Add tests for cli generate command, fixed inaccurate comment
 -----------------------------------------------------------------
 
-Revert diff pair 14 is -> 
+Revert diff pair 17 is -> 
 { a8c25e556250bac9e4a9e6a4655f6c3f902f4316 -> 18aa003544df8ff5717aaacc92acfe5694323469 } is a revert
 { 62d5b7b1e763fa18a6b68322022495417b6c5994 -> 3dda597f45fb0acd826e11d7e51ac679dd34a9f6 }
 Revert commits SHA are -> 
@@ -180,7 +213,7 @@ The original commit sha is - 3dda597f45fb0acd826e11d7e51ac679dd34a9f6
 Commit message - 0.8.9
 -----------------------------------------------------------------
 
-Revert diff pair 15 is -> 
+Revert diff pair 18 is -> 
 { a8c25e556250bac9e4a9e6a4655f6c3f902f4316 -> 18aa003544df8ff5717aaacc92acfe5694323469 } is a revert
 { 18aa003544df8ff5717aaacc92acfe5694323469 -> 5f73f0308a59eaa3c51780221b2c4cc7a2ca08d4 }
 Revert commits SHA are -> 
@@ -191,7 +224,7 @@ The original commit sha is - 5f73f0308a59eaa3c51780221b2c4cc7a2ca08d4
 Commit message - 0.8.9
 -----------------------------------------------------------------
 
-Revert diff pair 16 is -> 
+Revert diff pair 19 is -> 
 { 1ea19cf2150cb2fea4df4e3cc579358ae08ca47b -> c21025a404e9791a60ce3385194c9ef0e2164b7c } is a revert
 { a8c25e556250bac9e4a9e6a4655f6c3f902f4316 -> 18aa003544df8ff5717aaacc92acfe5694323469 }
 Revert commits SHA are -> 
@@ -202,7 +235,7 @@ The original commit sha is - 18aa003544df8ff5717aaacc92acfe5694323469
 Commit message - rollback for purposes of using npm version patch
 -----------------------------------------------------------------
 
-Revert diff pair 17 is -> 
+Revert diff pair 20 is -> 
 { 05bf290a2c427d42fd7881361683f62eb5b1d29f -> 52ca25a42dabd4e909a9f89721676194e319e4b7 } is a revert
 { 52ca25a42dabd4e909a9f89721676194e319e4b7 -> 143e6761bf2878b167810e020fe1e6257c2c1d6f }
 Revert commits SHA are -> 
@@ -213,7 +246,7 @@ The original commit sha is - 143e6761bf2878b167810e020fe1e6257c2c1d6f
 Commit message - 0.8.893
 -----------------------------------------------------------------
 
-Revert diff pair 18 is -> 
+Revert diff pair 21 is -> 
 { 71661054fb5c16243d8bc5e900a1a86d61e8b3fa -> 8892bbbc8f342f2fa880a743d01bd0432b874938 } is a revert
 { 05bf290a2c427d42fd7881361683f62eb5b1d29f -> 52ca25a42dabd4e909a9f89721676194e319e4b7 }
 Revert commits SHA are -> 
@@ -224,7 +257,7 @@ The original commit sha is - 52ca25a42dabd4e909a9f89721676194e319e4b7
 Commit message - fallback
 -----------------------------------------------------------------
 
-Revert diff pair 19 is -> 
+Revert diff pair 22 is -> 
 { 876285647e670968c05bb7da93f7a064a813cae1 -> 955dcea3e23155a62917d75b42b56b8c1c66bc48 } is a revert
 { 4eddd7b8ca0eb08e4a571b69d78f588154784ff4 -> ec4d30d6033a0fff7cbe2d6fca7a8e8c0cec1f62 }
 Revert commits SHA are -> 
@@ -235,7 +268,7 @@ The original commit sha is - ec4d30d6033a0fff7cbe2d6fca7a8e8c0cec1f62
 Commit message - Back to 0.8.83 in preparation for deploy.
 -----------------------------------------------------------------
 
-Revert diff pair 20 is -> 
+Revert diff pair 23 is -> 
 { 59abe9d2754ebaa432324704fc32d193d553cfcb -> 7aac97639ce33bc94a0abe392772ad4c9dea486a } is a revert
 { 7aac97639ce33bc94a0abe392772ad4c9dea486a -> 369d123ec27384193f75e239b48dc487a5a27417 }
 Revert commits SHA are -> 
@@ -246,7 +279,7 @@ The original commit sha is - 369d123ec27384193f75e239b48dc487a5a27417
 Commit message - Well, apparently it is the tests fault.
 -----------------------------------------------------------------
 
-Revert diff pair 21 is -> 
+Revert diff pair 24 is -> 
 { 2fd75772db8cff1fc2757600243fb6b0e9833509 -> 30b3c308f99f35e24d220a91b904516717c8f210 } is a revert
 { 5891940268ad7d6f746fd458701593572d48b83a -> 22410ea64595a84cdcc8438cae6d5bb41d60d12a }
 Revert commits SHA are -> 
@@ -259,7 +292,7 @@ Commit message - Revert "Hand down initialized sails object in callback."
 This reverts commit 30b3c308f99f35e24d220a91b904516717c8f210.
 -----------------------------------------------------------------
 
-Revert diff pair 22 is -> 
+Revert diff pair 25 is -> 
 { bf40a3bc6abc165b1678a48926e3383549d75687 -> b14e0e9b090ae7782ce47973b2c4e80d1d85d836 } is a revert
 { b14e0e9b090ae7782ce47973b2c4e80d1d85d836 -> 5345e2001b23f503a017af059b6e71f1b0472633 }
 Revert commits SHA are -> 
@@ -270,7 +303,7 @@ The original commit sha is - 5345e2001b23f503a017af059b6e71f1b0472633
 Commit message - Merge branch 'interpreterRefactor'
 -----------------------------------------------------------------
 
-Revert diff pair 23 is -> 
+Revert diff pair 26 is -> 
 { 4c0a2f1dd82310d6cd557dcebda430e1e069e385 -> b5a7f72cf8dd0cedf75511086622c2b099188cb3 } is a revert
 { b5a7f72cf8dd0cedf75511086622c2b099188cb3 -> fc26737522600d4a0ca66c15a4d7bfd0a4d1c103 }
 Revert commits SHA are -> 
@@ -281,7 +314,7 @@ The original commit sha is - fc26737522600d4a0ca66c15a4d7bfd0a4d1c103
 Commit message - Bumped version to 12.09.17.
 -----------------------------------------------------------------
 
-Revert diff pair 24 is -> 
+Revert diff pair 27 is -> 
 { 630df15fb4f619340cd9455ad634ee2006671997 -> 0e1bef07743358818ab7aa4298e1c69d9fdbbaba } is a revert
 { 0e1bef07743358818ab7aa4298e1c69d9fdbbaba -> 9d0820a0c834b0139becf5142af6274ed63c3c5f }
 Revert commits SHA are -> 
