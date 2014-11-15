@@ -1,0 +1,2250 @@
+# of partial reverts = 142
+Partial Revert diff pair 1 is -> 
+{ 5de54e075aee6b755a98394f163c29fe6630d842 -> df0d57f4ee691058409634b7212c9fc8087deb56 } is a revert
+{ 17e2d5f794a0e86e2877ed03c1e5b114f5d50252 -> 5b37319098e124e77ccefe48db4ff0d4aca0e64c }
+Partial Revert commits SHA are -> 
+df0d57f4ee691058409634b7212c9fc8087deb56 - revert - 5b37319098e124e77ccefe48db4ff0d4aca0e64c
+The reverted commit sha is - df0d57f4ee691058409634b7212c9fc8087deb56
+Commit message - all tests should work fine with IO::Socket::IP
+The original commit sha is - 5b37319098e124e77ccefe48db4ff0d4aca0e64c
+Commit message - use IO::Socket::INET for tests again
+The files with partial_reverts are:-
+t/mojo/daemon.t
+t/mojo/delay.t
+t/mojo/hypnotoad.t
+t/mojo/ioloop.t
+t/mojo/ioloop_tls.t
+t/mojo/morbo.t
+t/mojo/prefork.t
+t/mojo/reactor_ev.t
+t/mojo/reactor_poll.t
+t/mojo/user_agent.t
+t/mojo/user_agent_socks.t
+t/mojo/user_agent_tls.t
+t/mojo/websocket.t
+t/mojo/websocket_proxy.t
+t/mojo/websocket_proxy_tls.t
+t/mojolicious/app.t
+t/mojolicious/charset_lite_app.t
+t/mojolicious/dispatcher_lite_app.t
+t/mojolicious/embedded_app.t
+t/mojolicious/embedded_lite_app.t
+t/mojolicious/exception_lite_app.t
+t/mojolicious/external_app.t
+t/mojolicious/external_lite_app.t
+t/mojolicious/group_lite_app.t
+t/mojolicious/json_config_lite_app.t
+t/mojolicious/json_config_mode_lite_app.t
+t/mojolicious/layouted_lite_app.t
+t/mojolicious/lite_app.t
+t/mojolicious/longpolling_lite_app.t
+t/mojolicious/multipath_lite_app.t
+t/mojolicious/ojo.t
+t/mojolicious/pod_renderer_lite_app.t
+t/mojolicious/production_app.t
+t/mojolicious/rebased_lite_app.t
+t/mojolicious/restful_lite_app.t
+t/mojolicious/static_lite_app.t
+t/mojolicious/tag_helper_lite_app.t
+t/mojolicious/testing_app.t
+t/mojolicious/tls_lite_app.t
+t/mojolicious/twinkle_lite_app.t
+t/mojolicious/upload_lite_app.t
+t/mojolicious/upload_stream_lite_app.t
+t/mojolicious/validation_lite_app.t
+t/mojolicious/websocket_lite_app.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ f323521f642717495446ecc50747906df2fc6d10 -> 0aaaae7c025c08b3c89af0135aa231bf7a8dba0e } is a revert
+{ 0aaaae7c025c08b3c89af0135aa231bf7a8dba0e -> fba99a9d2fbb4262f518e7dbaa0287a870eb88d0 }
+Partial Revert commits SHA are -> 
+0aaaae7c025c08b3c89af0135aa231bf7a8dba0e - revert - fba99a9d2fbb4262f518e7dbaa0287a870eb88d0
+The reverted commit sha is - 0aaaae7c025c08b3c89af0135aa231bf7a8dba0e
+Commit message - the user agent can close the connection too
+The original commit sha is - fba99a9d2fbb4262f518e7dbaa0287a870eb88d0
+Commit message - if the user agent closed the connection there would be a different error message
+The files with partial_reverts are:-
+lib/Mojolicious/Guides/FAQ.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 6a06ad6d42da0275eee3121efed885b5f9b2d06f -> d60d8f50c6b56d7d4b4a244275df1f69f3265118 } is a revert
+{ d60d8f50c6b56d7d4b4a244275df1f69f3265118 -> 6c8e9faefc23e8783fab6c6828718900df724a63 }
+Partial Revert commits SHA are -> 
+d60d8f50c6b56d7d4b4a244275df1f69f3265118 - revert - 6c8e9faefc23e8783fab6c6828718900df724a63
+The reverted commit sha is - d60d8f50c6b56d7d4b4a244275df1f69f3265118
+Commit message - fixed a few more examples
+The original commit sha is - 6c8e9faefc23e8783fab6c6828718900df724a63
+Commit message - Merge pull request #699 from kraih/less_autoload
+
+Deprecate Mojo::DOM::AUTOLOAD and Mojo::Collection::AUTOLOAD
+The files with partial_reverts are:-
+lib/Mojolicious.pm
+lib/Mojolicious/Routes/Route.pm
+lib/Mojolicious/Validator/Validation.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ fc8d2cffb2028faad25e9e139dee6ce5d6a0f221 -> 6a06ad6d42da0275eee3121efed885b5f9b2d06f } is a revert
+{ 6a06ad6d42da0275eee3121efed885b5f9b2d06f -> d60d8f50c6b56d7d4b4a244275df1f69f3265118 }
+Partial Revert commits SHA are -> 
+6a06ad6d42da0275eee3121efed885b5f9b2d06f - revert - d60d8f50c6b56d7d4b4a244275df1f69f3265118
+The reverted commit sha is - 6a06ad6d42da0275eee3121efed885b5f9b2d06f
+Commit message - use less imports in classes with AUTOLOAD methods
+The original commit sha is - d60d8f50c6b56d7d4b4a244275df1f69f3265118
+Commit message - fixed a few more examples
+The files with partial_reverts are:-
+lib/Mojo/Message.pm
+lib/Mojolicious.pm
+lib/Mojolicious/Guides/Cookbook.pod
+lib/Mojolicious/Lite.pm
+lib/Mojolicious/Plugin/PODRenderer.pm
+lib/Mojolicious/Routes/Route.pm
+lib/Mojolicious/Validator/Validation.pm
+lib/ojo.pm
+t/mojo/bytestream.t
+t/mojo/collection.t
+t/mojo/dom.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ 1bca6bb00c91789ec52cdc24004dbdf29c598bf2 -> 5facbf696bca63a6b2e6983395028ebfb0232d5e } is a revert
+{ 0845559bd68d32a995be4cab46d3d62759538238 -> 04aa323e335462d33be5cbd952d425571793f4fe }
+Partial Revert commits SHA are -> 
+5facbf696bca63a6b2e6983395028ebfb0232d5e - revert - 04aa323e335462d33be5cbd952d425571793f4fe
+The reverted commit sha is - 5facbf696bca63a6b2e6983395028ebfb0232d5e
+Commit message - improved Mojo::Asset::File to allow appending data to existing files (closes #649)
+The original commit sha is - 04aa323e335462d33be5cbd952d425571793f4fe
+Commit message - fixed read-only file system compatibility of Mojo::Asset::File
+The files with partial_reverts are:-
+t/mojo/asset.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ 687a49fcd1acb708d581718fd19c54bfb770b2c2 -> fcb8046598742fa88b69a8d4e932c619ad86a894 } is a revert
+{ 88017f34a50c2ad1e34d83911c42659d14ea281a -> a6b908ffc5f6b4ec98e2cf5113330fc21bdb6ee3 }
+Partial Revert commits SHA are -> 
+fcb8046598742fa88b69a8d4e932c619ad86a894 - revert - a6b908ffc5f6b4ec98e2cf5113330fc21bdb6ee3
+The reverted commit sha is - fcb8046598742fa88b69a8d4e932c619ad86a894
+Commit message - use more links in start method description
+The original commit sha is - a6b908ffc5f6b4ec98e2cf5113330fc21bdb6ee3
+Commit message - use more diverse examples again
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ f132af616df188f7909fe79edeac84169983ca92 -> c36588c7ab0504dece325deb96a00caf394c3c92 } is a revert
+{ 44844d9da2b2cfa45250b27dc9f164c1e0041abc -> 52eb3e397f7670255b5a051940901dd7ff6b0039 }
+Partial Revert commits SHA are -> 
+c36588c7ab0504dece325deb96a00caf394c3c92 - revert - 52eb3e397f7670255b5a051940901dd7ff6b0039
+The reverted commit sha is - c36588c7ab0504dece325deb96a00caf394c3c92
+Commit message - removed hash reference support from pluck again
+The original commit sha is - 52eb3e397f7670255b5a051940901dd7ff6b0039
+Commit message - improved pluck method in Mojo::Collection to be able to extract values from hash references
+The files with partial_reverts are:-
+t/mojo/collection.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ 3f13a8a1a8c65f3db0a53e6487c50a0d641963ab -> f132af616df188f7909fe79edeac84169983ca92 } is a revert
+{ f132af616df188f7909fe79edeac84169983ca92 -> c36588c7ab0504dece325deb96a00caf394c3c92 }
+Partial Revert commits SHA are -> 
+f132af616df188f7909fe79edeac84169983ca92 - revert - c36588c7ab0504dece325deb96a00caf394c3c92
+The reverted commit sha is - f132af616df188f7909fe79edeac84169983ca92
+Commit message - improved pluck method in Mojo::Collection to be able to extract values from hash references
+The original commit sha is - c36588c7ab0504dece325deb96a00caf394c3c92
+Commit message - removed hash reference support from pluck again
+The files with partial_reverts are:-
+lib/Mojo/Collection.pm
+t/mojo/collection.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ 538ea77aad716cbf7be8fd451b1968195cbb5489 -> b480d0658093856871a1ea477a6802d91d3d010e } is a revert
+{ b480d0658093856871a1ea477a6802d91d3d010e -> 3d50d55b0703c2758aef11a9a48a41d1db6c3204 }
+Partial Revert commits SHA are -> 
+b480d0658093856871a1ea477a6802d91d3d010e - revert - 3d50d55b0703c2758aef11a9a48a41d1db6c3204
+The reverted commit sha is - b480d0658093856871a1ea477a6802d91d3d010e
+Commit message - handle stash key shortcuts a little more elegantly
+The original commit sha is - 3d50d55b0703c2758aef11a9a48a41d1db6c3204
+Commit message - stash key shortcuts do not need to return the invocant
+The files with partial_reverts are:-
+t/mojolicious/layouted_lite_app.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ af9666c1810122e397de7be0fa5a5f0e864fd6aa -> 11f2cf5cbb3bded3940b7d3429861416b1fbea37 } is a revert
+{ bee389a9a2eef8e8d5c31291a89d2cca9e188d2c -> 79c5645275229c655afb1963ec224a722d2398ce }
+Partial Revert commits SHA are -> 
+11f2cf5cbb3bded3940b7d3429861416b1fbea37 - revert - 79c5645275229c655afb1963ec224a722d2398ce
+The reverted commit sha is - 11f2cf5cbb3bded3940b7d3429861416b1fbea37
+Commit message - better recipe for exceptions in events
+The original commit sha is - 79c5645275229c655afb1963ec224a722d2398ce
+Commit message - Merge branch 'no_safety'
+The files with partial_reverts are:-
+lib/Mojolicious/Plugins.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 524bc7382de02ee729b16a68c731f80e8661f8ce -> af9666c1810122e397de7be0fa5a5f0e864fd6aa } is a revert
+{ af9666c1810122e397de7be0fa5a5f0e864fd6aa -> 11f2cf5cbb3bded3940b7d3429861416b1fbea37 }
+Partial Revert commits SHA are -> 
+af9666c1810122e397de7be0fa5a5f0e864fd6aa - revert - 11f2cf5cbb3bded3940b7d3429861416b1fbea37
+The reverted commit sha is - af9666c1810122e397de7be0fa5a5f0e864fd6aa
+Commit message - fixed Perl 5.16 support
+The original commit sha is - 11f2cf5cbb3bded3940b7d3429861416b1fbea37
+Commit message - better recipe for exceptions in events
+The files with partial_reverts are:-
+lib/Mojo.pm
+lib/Mojo/IOLoop/Client.pm
+lib/Mojo/IOLoop/Server.pm
+lib/Mojo/IOLoop/Stream.pm
+lib/Mojolicious/Plugins.pm
+t/mojo/user_agent.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ ac59188a5a54d24e8cafcf59ffe13e735311671a -> 3d2ed744e324269a9e03920e641efa42dcc74b52 } is a revert
+{ 9b8eb03bc5f047362d992dce6ab47a2f02a60117 -> 85a45dd5d2bbd44ba407c32902482612f17d152d }
+Partial Revert commits SHA are -> 
+3d2ed744e324269a9e03920e641efa42dcc74b52 - revert - 85a45dd5d2bbd44ba407c32902482612f17d152d
+The reverted commit sha is - 3d2ed744e324269a9e03920e641efa42dcc74b52
+Commit message - optimize successive text lines in Mojo::Template
+The original commit sha is - 85a45dd5d2bbd44ba407c32902482612f17d152d
+Commit message - optimizing successive text lines does not work on older versions of Perl
+The files with partial_reverts are:-
+Changes
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ e6466aea74465f8f5d5775a591bd602ba5e22ffe -> 8b66c45d7093306cc6d040affe9bc42bf853d144 } is a revert
+{ 8b66c45d7093306cc6d040affe9bc42bf853d144 -> 29d9bc2cc37bf1e5d487b8a63cfd0ec5f982f70d }
+Partial Revert commits SHA are -> 
+8b66c45d7093306cc6d040affe9bc42bf853d144 - revert - 29d9bc2cc37bf1e5d487b8a63cfd0ec5f982f70d
+The reverted commit sha is - 8b66c45d7093306cc6d040affe9bc42bf853d144
+Commit message - let assets handle their mtime
+The original commit sha is - 29d9bc2cc37bf1e5d487b8a63cfd0ec5f982f70d
+Commit message - removed mtime handling from assets again
+The files with partial_reverts are:-
+Changes
+lib/Mojo/Asset.pm
+lib/Mojo/Asset/File.pm
+lib/Mojo/Asset/Memory.pm
+lib/Mojolicious/Static.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ ae70411796d164db00f7ece8d9d171698c6384ab -> 11b5d00c138f9ca27141e2ba6cada1ec4389aabd } is a revert
+{ 96ffc7cc654e757f4c0a0773717a7e0b42bf80dc -> 2d05439a26d494fe65900ba7755cddff6aba4b84 }
+Partial Revert commits SHA are -> 
+11b5d00c138f9ca27141e2ba6cada1ec4389aabd - revert - 2d05439a26d494fe65900ba7755cddff6aba4b84
+The reverted commit sha is - 11b5d00c138f9ca27141e2ba6cada1ec4389aabd
+Commit message - basic support for nested helpers
+The original commit sha is - 2d05439a26d494fe65900ba7755cddff6aba4b84
+Commit message - use no separate class for nested helpers
+The files with partial_reverts are:-
+lib/Mojolicious/Renderer/Helpers.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 922e957a007147ccb21d08dce999929d0a960d9a -> 206061be027a5023782445db9f32cdcecfdc45c0 } is a revert
+{ 206061be027a5023782445db9f32cdcecfdc45c0 -> baa682801e3d88fddc803f906463ae79306f5750 }
+Partial Revert commits SHA are -> 
+206061be027a5023782445db9f32cdcecfdc45c0 - revert - baa682801e3d88fddc803f906463ae79306f5750
+The reverted commit sha is - 206061be027a5023782445db9f32cdcecfdc45c0
+Commit message - failed proxy connections need to set a response error
+The original commit sha is - baa682801e3d88fddc803f906463ae79306f5750
+Commit message - simplify proxy test
+The files with partial_reverts are:-
+t/mojo/websocket_proxy_tls.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ 108daca886c6ece7effc77a57161080066753fd8 -> d644ac675277741d9d46c2995a7f92be37df4be3 } is a revert
+{ df23566a46297509fd6e4b860521c00a0f5fb8dd -> 3c18fa33363ceed27a0cee51117bcf832ff38da8 }
+Partial Revert commits SHA are -> 
+d644ac675277741d9d46c2995a7f92be37df4be3 - revert - 3c18fa33363ceed27a0cee51117bcf832ff38da8
+The reverted commit sha is - d644ac675277741d9d46c2995a7f92be37df4be3
+Commit message - removed reduce method again
+The original commit sha is - 3c18fa33363ceed27a0cee51117bcf832ff38da8
+Commit message - added reduce method to Mojo::Collection
+The files with partial_reverts are:-
+Changes
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ 55f0c53ce76dc46cea70d987ceacc1e2a8fb0cb9 -> e9d4a534c5631c9b5e4949e63b05bd084b6a0053 } is a revert
+{ e9d4a534c5631c9b5e4949e63b05bd084b6a0053 -> b03136f9e87f914549fe2360e412f8f03d9520fa }
+Partial Revert commits SHA are -> 
+e9d4a534c5631c9b5e4949e63b05bd084b6a0053 - revert - b03136f9e87f914549fe2360e412f8f03d9520fa
+The reverted commit sha is - e9d4a534c5631c9b5e4949e63b05bd084b6a0053
+Commit message - fixed format detection bug in Mojolicious::Routes::Pattern
+The original commit sha is - b03136f9e87f914549fe2360e412f8f03d9520fa
+Commit message - fixed another typo in introspection example
+The files with partial_reverts are:-
+lib/Mojolicious/Guides/Routing.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ 7547c79ab784f54d0c00b36c7a846f9a96801b19 -> 82a7d45e0bab0f5b199bdd0efd20da9f8beb4e7e } is a revert
+{ b9c6a56d819234ef9f887b1443a4ccc76fd7d1b3 -> 4ddf646ce41c908df229e1cb10bceb0005e272ff }
+Partial Revert commits SHA are -> 
+82a7d45e0bab0f5b199bdd0efd20da9f8beb4e7e - revert - 4ddf646ce41c908df229e1cb10bceb0005e272ff
+The reverted commit sha is - 82a7d45e0bab0f5b199bdd0efd20da9f8beb4e7e
+Commit message - added SOCKS5 support
+The original commit sha is - 4ddf646ce41c908df229e1cb10bceb0005e272ff
+Commit message - list proxy support as one feature
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ f3ba3e107708714144d045deb511b22a42a250e0 -> db93eb48a6996473d8b0cd7776b120e76089ee0e } is a revert
+{ b9c6a56d819234ef9f887b1443a4ccc76fd7d1b3 -> 4ddf646ce41c908df229e1cb10bceb0005e272ff }
+Partial Revert commits SHA are -> 
+db93eb48a6996473d8b0cd7776b120e76089ee0e - revert - 4ddf646ce41c908df229e1cb10bceb0005e272ff
+The reverted commit sha is - db93eb48a6996473d8b0cd7776b120e76089ee0e
+Commit message - much more comprehensive SOCKS tests
+The original commit sha is - 4ddf646ce41c908df229e1cb10bceb0005e272ff
+Commit message - list proxy support as one feature
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ 9996f80309121d22bfc4a5de962c5f20ba023291 -> 1cad9c96118fd4b61126d7ea20907bf6d38a8d3f } is a revert
+{ b9c6a56d819234ef9f887b1443a4ccc76fd7d1b3 -> 4ddf646ce41c908df229e1cb10bceb0005e272ff }
+Partial Revert commits SHA are -> 
+1cad9c96118fd4b61126d7ea20907bf6d38a8d3f - revert - 4ddf646ce41c908df229e1cb10bceb0005e272ff
+The reverted commit sha is - 1cad9c96118fd4b61126d7ea20907bf6d38a8d3f
+Commit message - the request does not need to know about SOCKS
+The original commit sha is - 4ddf646ce41c908df229e1cb10bceb0005e272ff
+Commit message - list proxy support as one feature
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ 4fe26af25089c26d5abd18881df2b98f0c6fd527 -> e11921b04cabdcd3b27f0a02ab5a3589c414c771 } is a revert
+{ cb14861819e85a6979931e788112951a2cc8e547 -> 2c415152899c6c6f15a54c44ebb8e13a2f4e9e72 }
+Partial Revert commits SHA are -> 
+e11921b04cabdcd3b27f0a02ab5a3589c414c771 - revert - 2c415152899c6c6f15a54c44ebb8e13a2f4e9e72
+The reverted commit sha is - e11921b04cabdcd3b27f0a02ab5a3589c414c771
+Commit message - improved documentation browser CSS
+The original commit sha is - 2c415152899c6c6f15a54c44ebb8e13a2f4e9e72
+Commit message - fixed font size of code examples
+The files with partial_reverts are:-
+lib/Mojolicious/templates/perldoc.html.ep
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ 9996f80309121d22bfc4a5de962c5f20ba023291 -> 1cad9c96118fd4b61126d7ea20907bf6d38a8d3f } is a revert
+{ 4cea5e3d0128578da6085b496fd74e6479b5971f -> 8ed915978543c80c562485a13654260be74c2034 }
+Partial Revert commits SHA are -> 
+1cad9c96118fd4b61126d7ea20907bf6d38a8d3f - revert - 8ed915978543c80c562485a13654260be74c2034
+The reverted commit sha is - 1cad9c96118fd4b61126d7ea20907bf6d38a8d3f
+Commit message - the request does not need to know about SOCKS
+The original commit sha is - 8ed915978543c80c562485a13654260be74c2034
+Commit message - Merge branch 'socks'
+The files with partial_reverts are:-
+.travis.yml
+Changes
+lib/Mojo/Message.pm
+lib/Mojolicious/Controller.pm
+lib/Mojolicious/Guides/Rendering.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ 8c209b4377f9f74529c9889824892d67f99bde20 -> f3ba3e107708714144d045deb511b22a42a250e0 } is a revert
+{ f3ba3e107708714144d045deb511b22a42a250e0 -> db93eb48a6996473d8b0cd7776b120e76089ee0e }
+Partial Revert commits SHA are -> 
+f3ba3e107708714144d045deb511b22a42a250e0 - revert - db93eb48a6996473d8b0cd7776b120e76089ee0e
+The reverted commit sha is - f3ba3e107708714144d045deb511b22a42a250e0
+Commit message - the multi-name form does not actually enforce scalar context
+The original commit sha is - db93eb48a6996473d8b0cd7776b120e76089ee0e
+Commit message - much more comprehensive SOCKS tests
+The files with partial_reverts are:-
+Changes
+README.md
+lib/Mojo/IOLoop.pm
+lib/Mojo/IOLoop/Client.pm
+lib/Mojo/Message/Request.pm
+lib/Mojo/Server/Daemon.pm
+lib/Mojo/Server/Hypnotoad.pm
+lib/Mojo/Server/Morbo.pm
+lib/Mojo/Server/Prefork.pm
+lib/Mojo/UserAgent.pm
+lib/Mojo/UserAgent/Transactor.pm
+lib/Mojolicious/Command/version.pm
+lib/Mojolicious/Controller.pm
+lib/Mojolicious/Guides/FAQ.pod
+t/mojo/transactor.t
+t/mojo/user_agent.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ 363e4ccaa4e8e1c8eb74555a8c9bddbca85aa177 -> fe015c6c41dde94dc041ad60017774bfeb7e38ba } is a revert
+{ 7b1497cd4a453c8116a660dc8ef8a4dd7deea423 -> d2935dd9309f38f8ce2447205edabeaea5a50730 }
+Partial Revert commits SHA are -> 
+fe015c6c41dde94dc041ad60017774bfeb7e38ba - revert - d2935dd9309f38f8ce2447205edabeaea5a50730
+The reverted commit sha is - fe015c6c41dde94dc041ad60017774bfeb7e38ba
+Commit message - ignore buttons
+The original commit sha is - d2935dd9309f38f8ce2447205edabeaea5a50730
+Commit message - remove unnecessary check again
+The files with partial_reverts are:-
+lib/Mojo/DOM.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ 906b1415464261fca8e6180f90b5e4478a72aa33 -> 4b9fc41a96aa85b7d342e2135dcc4c53fef0ca18 } is a revert
+{ 76842a46239babc4c5ec65333ab0b23d087f8199 -> 651989115f42ad02e7e8df3b35b5c88bd9db33d4 }
+Partial Revert commits SHA are -> 
+4b9fc41a96aa85b7d342e2135dcc4c53fef0ca18 - revert - 651989115f42ad02e7e8df3b35b5c88bd9db33d4
+The reverted commit sha is - 4b9fc41a96aa85b7d342e2135dcc4c53fef0ca18
+Commit message - allow routes to be rearranged at runtime
+The original commit sha is - 651989115f42ad02e7e8df3b35b5c88bd9db33d4
+Commit message - do not allow routes to be rearranged at runtime
+The files with partial_reverts are:-
+lib/Mojolicious/Routes.pm
+t/mojolicious/app.t
+t/mojolicious/lib/MojoliciousTest.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ 81262cb432f34a59b49a628165b8b56a96541311 -> 83744b29b5f61224ee9c4bac2376cc5eea88a6d8 } is a revert
+{ 83744b29b5f61224ee9c4bac2376cc5eea88a6d8 -> 7174bc3ff06a0c3d0b333048dbfc19dc2d3ca338 }
+Partial Revert commits SHA are -> 
+83744b29b5f61224ee9c4bac2376cc5eea88a6d8 - revert - 7174bc3ff06a0c3d0b333048dbfc19dc2d3ca338
+The reverted commit sha is - 83744b29b5f61224ee9c4bac2376cc5eea88a6d8
+Commit message - ALL GLORY TO THE HYPNOTOAD
+The original commit sha is - 7174bc3ff06a0c3d0b333048dbfc19dc2d3ca338
+Commit message - switch back to original logo
+The files with partial_reverts are:-
+Changes
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ 76cb552740d58228395b171eee2214fceedfc20e -> 99a49fc704b3ba1fa098dc12e7adff911959f76c } is a revert
+{ bf5778576414537d524881488107277bbabaddb2 -> 5e240457b74c39b2fca96318888d5e9758c92fe9 }
+Partial Revert commits SHA are -> 
+99a49fc704b3ba1fa098dc12e7adff911959f76c - revert - 5e240457b74c39b2fca96318888d5e9758c92fe9
+The reverted commit sha is - 99a49fc704b3ba1fa098dc12e7adff911959f76c
+Commit message - mention default cipher specification string
+The original commit sha is - 5e240457b74c39b2fca96318888d5e9758c92fe9
+Commit message - improved Mojo::IOLoop::Server to reuse cipher list from IO::Socket::SSL
+The files with partial_reverts are:-
+lib/Mojo/Server/Daemon.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ 562e2583d1ec8e9a6b5919350b0ab1c05f9b4743 -> 21f650364e326866f220271337bb2ccefbb4a64b } is a revert
+{ 21f650364e326866f220271337bb2ccefbb4a64b -> e8cdca0abac0fd9755decc2fcb10d54d46d3de0e }
+Partial Revert commits SHA are -> 
+21f650364e326866f220271337bb2ccefbb4a64b - revert - e8cdca0abac0fd9755decc2fcb10d54d46d3de0e
+The reverted commit sha is - 21f650364e326866f220271337bb2ccefbb4a64b
+Commit message - updated EV requirement to 4.15 for certain bug fixes
+The original commit sha is - e8cdca0abac0fd9755decc2fcb10d54d46d3de0e
+Commit message - recurring timers cannot be zero in EV
+The files with partial_reverts are:-
+lib/Mojo/IOLoop.pm
+lib/Mojo/Server/Daemon.pm
+lib/Mojo/Server/Hypnotoad.pm
+lib/Mojo/Server/Morbo.pm
+lib/Mojo/Server/Prefork.pm
+lib/Mojo/UserAgent.pm
+lib/Mojolicious/Command/version.pm
+t/mojo/reactor_ev.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ af606a58e39d0d7bb61bf45b7e2bc66dd0ada6b7 -> cad4da133fc3433dff50c1e68d32bcfce3f8caf0 } is a revert
+{ ea9b69cc10e4bdf36e3bd575fc85d525d41e83c8 -> 2e3222450ad382353167a63f88776133bc28ce41 }
+Partial Revert commits SHA are -> 
+cad4da133fc3433dff50c1e68d32bcfce3f8caf0 - revert - 2e3222450ad382353167a63f88776133bc28ce41
+The reverted commit sha is - cad4da133fc3433dff50c1e68d32bcfce3f8caf0
+Commit message - no need to use length in boolean context
+The original commit sha is - 2e3222450ad382353167a63f88776133bc28ce41
+Commit message - idiom switch
+The files with partial_reverts are:-
+lib/Mojo/Collection.pm
+lib/Mojo/Content.pm
+lib/Mojo/IOLoop/Server.pm
+lib/Mojo/Message.pm
+lib/Mojo/Parameters.pm
+lib/Mojo/Template.pm
+lib/Mojo/Transaction/HTTP.pm
+lib/Mojo/Transaction/WebSocket.pm
+lib/Mojo/URL.pm
+lib/Mojolicious/Command/get.pm
+lib/Mojolicious/Routes/Match.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ ab5019320d590726b32da8c895148d7b7f013c83 -> c84af51a40216c3673c91fedb540b05fe1fb1c4b } is a revert
+{ 02878e74cee2e7a53d1b0e08c0483437cbcf6caa -> 4f8ccf3f6df657f9419292ee17f5269c822282c9 }
+Partial Revert commits SHA are -> 
+c84af51a40216c3673c91fedb540b05fe1fb1c4b - revert - 4f8ccf3f6df657f9419292ee17f5269c822282c9
+The reverted commit sha is - c84af51a40216c3673c91fedb540b05fe1fb1c4b
+Commit message - fixed tests
+The original commit sha is - 4f8ccf3f6df657f9419292ee17f5269c822282c9
+Commit message - Merge pull request #582 from ravengerUA/master
+
+Html5 custom data attributes in tag helpers
+The files with partial_reverts are:-
+Changes
+lib/Mojo.pm
+lib/Mojo/Asset/Memory.pm
+lib/Mojo/Base.pm
+lib/Mojo/ByteStream.pm
+lib/Mojo/Collection.pm
+lib/Mojo/Content.pm
+lib/Mojo/Content/MultiPart.pm
+lib/Mojo/Content/Single.pm
+lib/Mojo/Cookie.pm
+lib/Mojo/Cookie/Request.pm
+lib/Mojo/Cookie/Response.pm
+lib/Mojo/DOM.pm
+lib/Mojo/DOM/CSS.pm
+lib/Mojo/DOM/HTML.pm
+lib/Mojo/DOM/Node.pm
+lib/Mojo/Date.pm
+lib/Mojo/Exception.pm
+lib/Mojo/Headers.pm
+lib/Mojo/Home.pm
+lib/Mojo/IOLoop.pm
+lib/Mojo/IOLoop/Server.pm
+lib/Mojo/IOLoop/Stream.pm
+lib/Mojo/JSON.pm
+lib/Mojo/JSON/Pointer.pm
+lib/Mojo/Log.pm
+lib/Mojo/Message.pm
+lib/Mojo/Message/Request.pm
+lib/Mojo/Message/Response.pm
+lib/Mojo/Parameters.pm
+lib/Mojo/Path.pm
+lib/Mojo/Reactor/EV.pm
+lib/Mojo/Server.pm
+lib/Mojo/Server/CGI.pm
+lib/Mojo/Server/Daemon.pm
+lib/Mojo/Server/Hypnotoad.pm
+lib/Mojo/Server/Morbo.pm
+lib/Mojo/Server/PSGI.pm
+lib/Mojo/Server/Prefork.pm
+lib/Mojo/Template.pm
+lib/Mojo/Transaction/HTTP.pm
+lib/Mojo/Transaction/WebSocket.pm
+lib/Mojo/URL.pm
+lib/Mojo/UserAgent.pm
+lib/Mojo/UserAgent/CookieJar.pm
+lib/Mojo/Util.pm
+lib/Mojolicious.pm
+lib/Mojolicious/Controller.pm
+lib/Mojolicious/Guides/Contributing.pod
+lib/Mojolicious/Guides/Cookbook.pod
+lib/Mojolicious/Guides/FAQ.pod
+lib/Mojolicious/Guides/Rendering.pod
+lib/Mojolicious/Guides/Routing.pod
+lib/Mojolicious/Lite.pm
+lib/Mojolicious/Routes/Match.pm
+lib/Mojolicious/Routes/Pattern.pm
+lib/Mojolicious/Routes/Route.pm
+lib/Mojolicious/Validator/Validation.pm
+lib/Test/Mojo.pm
+script/morbo
+t/mojo/dom.t
+t/mojo/json.t
+t/mojo/user_agent.t
+t/mojolicious/group_lite_app.t
+t/mojolicious/lite_app.t
+t/mojolicious/pattern.t
+t/mojolicious/restful_lite_app.t
+t/mojolicious/routes.t
+t/mojolicious/websocket_lite_app.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ aef22f6755f2f1d3ef2f6f542fe95242571ac535 -> 1e900f23fe57eb0fb9a3ec65ddf1bf112d5dc5a5 } is a revert
+{ 072e820c206cc975600f7164ff779095ca7fa3fe -> 02878e74cee2e7a53d1b0e08c0483437cbcf6caa }
+Partial Revert commits SHA are -> 
+1e900f23fe57eb0fb9a3ec65ddf1bf112d5dc5a5 - revert - 02878e74cee2e7a53d1b0e08c0483437cbcf6caa
+The reverted commit sha is - 1e900f23fe57eb0fb9a3ec65ddf1bf112d5dc5a5
+Commit message - added test for tag_helper
+The original commit sha is - 02878e74cee2e7a53d1b0e08c0483437cbcf6caa
+Commit message - removed redundant string
+The files with partial_reverts are:-
+lib/Mojolicious/Plugin/TagHelpers.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ cd47d8c0e098fc4abf3671bb51db3a68f5e6d88f -> 093ad62367a3afe64d20c8747a1d8e968befe295 } is a revert
+{ 093ad62367a3afe64d20c8747a1d8e968befe295 -> 7a971ca268e1453cf899943d284d62d9e5911ab8 }
+Partial Revert commits SHA are -> 
+093ad62367a3afe64d20c8747a1d8e968befe295 - revert - 7a971ca268e1453cf899943d284d62d9e5911ab8
+The reverted commit sha is - 093ad62367a3afe64d20c8747a1d8e968befe295
+Commit message - improved Mojo::Template to allow trimming of whitespace characters around tags to be limited to one side
+The original commit sha is - 7a971ca268e1453cf899943d284d62d9e5911ab8
+Commit message - removed one sided trimming of whitespace characters from Mojo::Template again
+The files with partial_reverts are:-
+Changes
+lib/Mojolicious/Guides/Rendering.pod
+t/mojo/template.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ d49eb9e7cb8729772c8083e77f768e97c4a3c21a -> 0cc2f520c5396952e7434fc88565a05157a80ee5 } is a revert
+{ 108daca886c6ece7effc77a57161080066753fd8 -> d644ac675277741d9d46c2995a7f92be37df4be3 }
+Partial Revert commits SHA are -> 
+0cc2f520c5396952e7434fc88565a05157a80ee5 - revert - d644ac675277741d9d46c2995a7f92be37df4be3
+The reverted commit sha is - 0cc2f520c5396952e7434fc88565a05157a80ee5
+Commit message - added reduce method to Mojo::Collection
+The original commit sha is - d644ac675277741d9d46c2995a7f92be37df4be3
+Commit message - removed reduce method again
+The files with partial_reverts are:-
+lib/Mojo/Collection.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ 4b3812498f5b0bed23d4e38adebd92ec807fcfe7 -> 1bf35c3817cedc38346a50ba30052cea4477a258 } is a revert
+{ d8f46b7f0030a3fd5449ebb5342667e1b0a882f7 -> 8fdf005d6174695f4b34fb15e9bd73114334bf96 }
+Partial Revert commits SHA are -> 
+1bf35c3817cedc38346a50ba30052cea4477a258 - revert - 8fdf005d6174695f4b34fb15e9bd73114334bf96
+The reverted commit sha is - 1bf35c3817cedc38346a50ba30052cea4477a258
+Commit message - deprecated Mojo::DOM::attrs in favor of Mojo::DOM::attr
+The original commit sha is - 8fdf005d6174695f4b34fb15e9bd73114334bf96
+Commit message - removed deprecated attrs method from Mojo::DOM
+The files with partial_reverts are:-
+t/pod_coverage.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ efad12766cc768299805a66667aa77878d287721 -> 579dcfd45104436c47e8ddfed2c2c3e5b054c2ee } is a revert
+{ 579dcfd45104436c47e8ddfed2c2c3e5b054c2ee -> 04c7d0c9e98c85bc3c28f4bb308ea7fe970f358d }
+Partial Revert commits SHA are -> 
+579dcfd45104436c47e8ddfed2c2c3e5b054c2ee - revert - 04c7d0c9e98c85bc3c28f4bb308ea7fe970f358d
+The reverted commit sha is - 579dcfd45104436c47e8ddfed2c2c3e5b054c2ee
+Commit message - made flatten method pass the tests on perl-5.16 or older
+The original commit sha is - 04c7d0c9e98c85bc3c28f4bb308ea7fe970f358d
+Commit message - Merge branch 'master' of git://github.com/kraih/mojo
+The files with partial_reverts are:-
+lib/Mojo/IOLoop.pm
+lib/Mojolicious/Guides/Cookbook.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ ee5a62ece4fa30e715bd5bacc301692c62126ffc -> b4571551bc7b262dc833b33d94652bc85cbbc91c } is a revert
+{ b4571551bc7b262dc833b33d94652bc85cbbc91c -> 892044d610150f7e3ba0fcb9d94d776d009013ce }
+Partial Revert commits SHA are -> 
+b4571551bc7b262dc833b33d94652bc85cbbc91c - revert - 892044d610150f7e3ba0fcb9d94d776d009013ce
+The reverted commit sha is - b4571551bc7b262dc833b33d94652bc85cbbc91c
+Commit message - order is no longer random
+The original commit sha is - 892044d610150f7e3ba0fcb9d94d776d009013ce
+Commit message - Merge pull request #506 from trinitum/replace-each-with-keys
+
+use keys instead of each to workaround bug in perl
+The files with partial_reverts are:-
+lib/Mojo/Server/Prefork.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ 587b1006bf0b072b4d77a4396596e6ba5009fdad -> 103817ece7928919e97b5b4252f798075da04429 } is a revert
+{ d844857ca3ed7901d053d8a50acaa86a737401ee -> 6c353e09bf4051e2eb01adc3544eedff91178874 }
+Partial Revert commits SHA are -> 
+103817ece7928919e97b5b4252f798075da04429 - revert - 6c353e09bf4051e2eb01adc3544eedff91178874
+The reverted commit sha is - 103817ece7928919e97b5b4252f798075da04429
+Commit message - more tests for hooks
+The original commit sha is - 6c353e09bf4051e2eb01adc3544eedff91178874
+Commit message - small optimization
+The files with partial_reverts are:-
+lib/Mojolicious/Plugins.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ 9f57b09eab28fc2bd626b44533f59f785261b07d -> 87eff0153e7adfdc3e0941acde429d95d821e0fe } is a revert
+{ 9a7013011b24458a223c092133b4a0525dcce2c5 -> b9901beba479086cbb89f01d73fabfebd1f9852e }
+Partial Revert commits SHA are -> 
+87eff0153e7adfdc3e0941acde429d95d821e0fe - revert - b9901beba479086cbb89f01d73fabfebd1f9852e
+The reverted commit sha is - 87eff0153e7adfdc3e0941acde429d95d821e0fe
+Commit message - fixed small domain detection bug in Mojo::UserAgent::CookieJar
+The original commit sha is - b9901beba479086cbb89f01d73fabfebd1f9852e
+Commit message - fixed small domain detection bug in Mojo::UserAgent::CookieJar (closes #458)
+The files with partial_reverts are:-
+lib/Mojo/UserAgent/CookieJar.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ 3322bb883495e91a856f1951f360ed4c80000559 -> 8e45606241d6268c8dd90e130020eeb86a85c2ba } is a revert
+{ a7b0e8be3e6e0fb9a5d71574bf494db42de7d474 -> 2acdad75f8b7036e64c1f93d7f7db74ca515a254 }
+Partial Revert commits SHA are -> 
+8e45606241d6268c8dd90e130020eeb86a85c2ba - revert - 2acdad75f8b7036e64c1f93d7f7db74ca515a254
+The reverted commit sha is - 8e45606241d6268c8dd90e130020eeb86a85c2ba
+Commit message - better descriptions for prefork options
+The original commit sha is - 2acdad75f8b7036e64c1f93d7f7db74ca515a254
+Commit message - Merge pull request #445 from augensalat/master
+
+Issue with huge file uploads on 32-bit Perl
+The files with partial_reverts are:-
+lib/Mojo/Content.pm
+t/mojo/content.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ ea02bb84a6e28220e4af904fbef4daa3eb5e526d -> 9632953ac48ddc46ebd93a592d16712ac835d00e } is a revert
+{ 5be2899b936cd81a3c32bc5ff0631723f624d0e9 -> 0c24468a36485ed3c2bb1b63f3701d698cd8a079 }
+Partial Revert commits SHA are -> 
+9632953ac48ddc46ebd93a592d16712ac835d00e - revert - 0c24468a36485ed3c2bb1b63f3701d698cd8a079
+The reverted commit sha is - 9632953ac48ddc46ebd93a592d16712ac835d00e
+Commit message - modernized ".travis.yml"
+The original commit sha is - 0c24468a36485ed3c2bb1b63f3701d698cd8a079
+Commit message - Merge pull request #433 from jberger/monkey_patch_hashref
+
+monkey_patch can take hashref of name => subref pairs to patch
+The files with partial_reverts are:-
+lib/Mojo/Util.pm
+lib/Mojolicious/Lite.pm
+lib/ojo.pm
+t/mojo/util.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ d2b538c37438e0ba7f0322e8a7443558975ea9dd -> 3150e6a179c25502480781e009569cee864bc814 } is a revert
+{ 75c2fee41140229bce1ced06e6ba21f7b5577c55 -> 426428e9887dd17bf5db840d93831f62ddede196 }
+Partial Revert commits SHA are -> 
+3150e6a179c25502480781e009569cee864bc814 - revert - 426428e9887dd17bf5db840d93831f62ddede196
+The reverted commit sha is - 3150e6a179c25502480781e009569cee864bc814
+Commit message - renamed accepting method to acceptor
+The original commit sha is - 426428e9887dd17bf5db840d93831f62ddede196
+Commit message - Merge pull request #421 from kraih/smooth_morbo
+
+Smooth restarting for Morbo
+The files with partial_reverts are:-
+Changes
+lib/Mojolicious.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ f86cdd2076941aeb8b430d6a18a0db4cda58c075 -> 4ca52fa3bc4ddb2a4b38daef921ab49a8eee83a7 } is a revert
+{ 06a9bf27859071503c94bd16e040ba90d9391937 -> 0a125bbad66088647270d98c50f7b89cec706757 }
+Partial Revert commits SHA are -> 
+4ca52fa3bc4ddb2a4b38daef921ab49a8eee83a7 - revert - 0a125bbad66088647270d98c50f7b89cec706757
+The reverted commit sha is - 4ca52fa3bc4ddb2a4b38daef921ab49a8eee83a7
+Commit message - added assigned_as_number and looks_like_bool functions to Mojo::Util
+The original commit sha is - 0a125bbad66088647270d98c50f7b89cec706757
+Commit message - removed assigned_as_number and looks_like_bool functions again
+The files with partial_reverts are:-
+Changes
+lib/Mojo/JSON.pm
+t/pod_coverage.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ 20a575386b402afa40f3b99c00d9bbb5a0b0b486 -> 84fea69bd9d443518c4742f14252f3f830864eb2 } is a revert
+{ 84fea69bd9d443518c4742f14252f3f830864eb2 -> 6dc78f369b612795849d97a11ed84f890e3a03b9 }
+Partial Revert commits SHA are -> 
+84fea69bd9d443518c4742f14252f3f830864eb2 - revert - 6dc78f369b612795849d97a11ed84f890e3a03b9
+The reverted commit sha is - 84fea69bd9d443518c4742f14252f3f830864eb2
+Commit message - replaced escape attribute in Mojo::Template with escape function that can be redefined
+The original commit sha is - 6dc78f369b612795849d97a11ed84f890e3a03b9
+Commit message - removed custom escape function support from Mojo::Template again
+The files with partial_reverts are:-
+lib/Mojolicious/Guides/Rendering.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ e3f284bfc525d8772ce841c2a99ba3cb838e70ad -> 8d31722165d0b25e794dfa9c47fefa509146f86b } is a revert
+{ 8d31722165d0b25e794dfa9c47fefa509146f86b -> 415623108168f6960b9bf982f3b584b526903632 }
+Partial Revert commits SHA are -> 
+8d31722165d0b25e794dfa9c47fefa509146f86b - revert - 415623108168f6960b9bf982f3b584b526903632
+The reverted commit sha is - 8d31722165d0b25e794dfa9c47fefa509146f86b
+Commit message - tweaked escaping documentation
+The original commit sha is - 415623108168f6960b9bf982f3b584b526903632
+Commit message - Merge pull request #399 from dmw397/master
+
+encode '%' in Mojo::Parameters string output
+The files with partial_reverts are:-
+lib/Mojo/Parameters.pm
+t/mojo/parameters.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ 1c5106aa71b75f91352062b239c507dd4018c877 -> 72a439723cf65ebcb6ebd4cba99df0d5aee0a4a1 } is a revert
+{ de41c7532f238c3a070aa7bd849802816d72c6b4 -> e7b97c4aabe161923203fa247a57ab82bcbb0f7b }
+Partial Revert commits SHA are -> 
+72a439723cf65ebcb6ebd4cba99df0d5aee0a4a1 - revert - e7b97c4aabe161923203fa247a57ab82bcbb0f7b
+The reverted commit sha is - 72a439723cf65ebcb6ebd4cba99df0d5aee0a4a1
+Commit message - Merge pull request #388 from weltonrodrigo/param_charset_doc
+
+Document use of charset when encoding parameters.
+The original commit sha is - e7b97c4aabe161923203fa247a57ab82bcbb0f7b
+Commit message - Merge pull request #390 from jberger/html4-comments
+
+HTML4 allows whitespace between the -- and > ending a comment
+The files with partial_reverts are:-
+lib/Mojo/DOM/HTML.pm
+t/mojo/dom.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 46 is -> 
+{ 655ef7370eb377f9aba271d544e1ee49279d34f6 -> c1c346c7b4ce5d5c5918848f1bd653db3af3dce0 } is a revert
+{ c1c346c7b4ce5d5c5918848f1bd653db3af3dce0 -> 972594985576b3e12b9c369a06f544ba35879ffa }
+Partial Revert commits SHA are -> 
+c1c346c7b4ce5d5c5918848f1bd653db3af3dce0 - revert - 972594985576b3e12b9c369a06f544ba35879ffa
+The reverted commit sha is - c1c346c7b4ce5d5c5918848f1bd653db3af3dce0
+Commit message - updated a few more session related descriptions
+The original commit sha is - 972594985576b3e12b9c369a06f544ba35879ffa
+Commit message - do not link to Mojolicious::Sessions from Mojolicious::Controller
+The files with partial_reverts are:-
+lib/Mojolicious/Controller.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 47 is -> 
+{ d036aacec78747c83bc69053ce79db2556fe17f9 -> d26a9d81d932a122eae33b0d01a201041355a231 } is a revert
+{ d26a9d81d932a122eae33b0d01a201041355a231 -> b01071c95ddb2455389f53438c8d7d193e235ff1 }
+Partial Revert commits SHA are -> 
+d26a9d81d932a122eae33b0d01a201041355a231 - revert - b01071c95ddb2455389f53438c8d7d193e235ff1
+The reverted commit sha is - d26a9d81d932a122eae33b0d01a201041355a231
+Commit message - added perl method to Mojo::Base
+The original commit sha is - b01071c95ddb2455389f53438c8d7d193e235ff1
+Commit message - removed perl method again
+The files with partial_reverts are:-
+lib/Mojo/Base.pm
+lib/Mojo/ByteStream.pm
+lib/Mojo/Collection.pm
+lib/Mojo/DOM.pm
+lib/Mojolicious/Routes.pm
+t/mojo/base.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ eab886ed93240ec9d0a5bc57d4b9b66a3f46a480 -> d92891e7923b1e4dc7331a6d0ed1a8dcb1256f0e } is a revert
+{ d92891e7923b1e4dc7331a6d0ed1a8dcb1256f0e -> f5cc3c2f7e90f362d1c4f3c6d2197adbf4029c5b }
+Partial Revert commits SHA are -> 
+d92891e7923b1e4dc7331a6d0ed1a8dcb1256f0e - revert - f5cc3c2f7e90f362d1c4f3c6d2197adbf4029c5b
+The reverted commit sha is - d92891e7923b1e4dc7331a6d0ed1a8dcb1256f0e
+Commit message - simplify Mojo::IOLoop::Steps
+The original commit sha is - f5cc3c2f7e90f362d1c4f3c6d2197adbf4029c5b
+Commit message - make Mojo::IOLoop::Steps more powerful again
+The files with partial_reverts are:-
+t/mojo/steps.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ c4f4911726376cc6a124d95e06bf4ceff2c29ec9 -> 75e3bb983f111efe8eeee31435c6e1f108337d5b } is a revert
+{ 75e3bb983f111efe8eeee31435c6e1f108337d5b -> 8193a70e10894a76837ed222902aa33c271962ed }
+Partial Revert commits SHA are -> 
+75e3bb983f111efe8eeee31435c6e1f108337d5b - revert - 8193a70e10894a76837ed222902aa33c271962ed
+The reverted commit sha is - 75e3bb983f111efe8eeee31435c6e1f108337d5b
+Commit message - improved many tests
+The original commit sha is - 8193a70e10894a76837ed222902aa33c271962ed
+Commit message - relax Mojo::IOLoop and Mojo::Reactor documentation to leave room for more reactor backends with different semantics
+The files with partial_reverts are:-
+lib/Mojo/Reactor.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ 569c10f24a19c5119c66aa9f149da6c659483469 -> c437831f9d136524e7b680e095d01de07ed383ec } is a revert
+{ c437831f9d136524e7b680e095d01de07ed383ec -> 2d5cd2d2e953bec422caf8e11c31f2a8a1eb3395 }
+Partial Revert commits SHA are -> 
+c437831f9d136524e7b680e095d01de07ed383ec - revert - 2d5cd2d2e953bec422caf8e11c31f2a8a1eb3395
+The reverted commit sha is - c437831f9d136524e7b680e095d01de07ed383ec
+Commit message - speed up tests
+The original commit sha is - 2d5cd2d2e953bec422caf8e11c31f2a8a1eb3395
+Commit message - slow down reactor test a little
+The files with partial_reverts are:-
+t/mojo/reactor_ev.t
+t/mojo/reactor_poll.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 51 is -> 
+{ 1fe6101235ebebedcfd01770daf3cc56cbbba76e -> 2111684fe5b986d00ec5e8abef405d414aa34086 } is a revert
+{ c0a2e3128f55849901e76a71a734a2cdf91fe2c3 -> d2f59fdcc6dc2c67ce2665f4fc6ca92a819ccdbe }
+Partial Revert commits SHA are -> 
+2111684fe5b986d00ec5e8abef405d414aa34086 - revert - d2f59fdcc6dc2c67ce2665f4fc6ca92a819ccdbe
+The reverted commit sha is - 2111684fe5b986d00ec5e8abef405d414aa34086
+Commit message - fixed Perl 5.17.3+ compatibility
+The original commit sha is - d2f59fdcc6dc2c67ce2665f4fc6ca92a819ccdbe
+Commit message - fixed backwards compatibility issue
+The files with partial_reverts are:-
+script/mojo
+-----------------------------------------------------------------
+
+Partial Revert diff pair 52 is -> 
+{ 1cba78760aee4904360581099653de8d044f728e -> 15bb69b85b39810b3351da0863e96c992731af6a } is a revert
+{ 9711a78f3935a183cfa99ab00720fadce0f5e93b -> f84b106838c683a5b443c179000ac2c91cf2211a }
+Partial Revert commits SHA are -> 
+15bb69b85b39810b3351da0863e96c992731af6a - revert - f84b106838c683a5b443c179000ac2c91cf2211a
+The reverted commit sha is - 15bb69b85b39810b3351da0863e96c992731af6a
+Commit message - added a few message examples
+The original commit sha is - f84b106838c683a5b443c179000ac2c91cf2211a
+Commit message - better message examples
+The files with partial_reverts are:-
+lib/Mojo/Message/Response.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 53 is -> 
+{ 84755b8a1407bcd0f3c9b327667e96058964dbaf -> 21bb7a077680fa207d901fbaad511fab0a206d63 } is a revert
+{ 21bb7a077680fa207d901fbaad511fab0a206d63 -> 2599c3738fab66775846493b11386243d4b0df4b }
+Partial Revert commits SHA are -> 
+21bb7a077680fa207d901fbaad511fab0a206d63 - revert - 2599c3738fab66775846493b11386243d4b0df4b
+The reverted commit sha is - 21bb7a077680fa207d901fbaad511fab0a206d63
+Commit message - removed json_class attributes again
+The original commit sha is - 2599c3738fab66775846493b11386243d4b0df4b
+Commit message - added json_class attribute to Mojo::UserAgent::Transactor
+The files with partial_reverts are:-
+lib/Mojo/UserAgent/Transactor.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 54 is -> 
+{ bb2661c89ce6b4aa8be82ac65ff696a6b28fb2e2 -> 22ee9faf8364bf81baebcfa578414ea66ac9608e } is a revert
+{ 4b77fcfbed777dee81b8eaaf89a2cb8dd1cb3e1c -> a860d8214d5502854923bd893b57feb07a7c2cf0 }
+Partial Revert commits SHA are -> 
+22ee9faf8364bf81baebcfa578414ea66ac9608e - revert - a860d8214d5502854923bd893b57feb07a7c2cf0
+The reverted commit sha is - 22ee9faf8364bf81baebcfa578414ea66ac9608e
+Commit message - added or method to Test::Mojo
+The original commit sha is - a860d8214d5502854923bd893b57feb07a7c2cf0
+Commit message - simplify semantics of or method
+The files with partial_reverts are:-
+t/mojolicious/lite_app.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 55 is -> 
+{ d827651ab82e682295eea5c335d0eb5db48b6864 -> 75065e0e52e0225d5c86c731857bf2b32c5614c7 } is a revert
+{ 75065e0e52e0225d5c86c731857bf2b32c5614c7 -> 78d140c32486dd0ca5c224ddae244dc5f0dbb696 }
+Partial Revert commits SHA are -> 
+75065e0e52e0225d5c86c731857bf2b32c5614c7 - revert - 78d140c32486dd0ca5c224ddae244dc5f0dbb696
+The reverted commit sha is - 75065e0e52e0225d5c86c731857bf2b32c5614c7
+Commit message - - test ssl verification mode
+The original commit sha is - 78d140c32486dd0ca5c224ddae244dc5f0dbb696
+Commit message - Merge pull request #352 from scottw/master
+
+TLS peer verification test from UserAgent
+The files with partial_reverts are:-
+Changes
+lib/Mojo/IOLoop/Server.pm
+lib/Mojo/Server/Daemon.pm
+lib/Mojolicious.pm
+t/mojo/ioloop_tls.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 56 is -> 
+{ 5f6011e56d0a0dbac5b0abcd070b33dcc289ac57 -> 7600cf5dd8293855c11dd294188f3b586a7f396c } is a revert
+{ f925dbd30785359e60c5b13d7020971331f67f84 -> c3745d244014fba84f3abf9881ed9d6bd6df7858 }
+Partial Revert commits SHA are -> 
+7600cf5dd8293855c11dd294188f3b586a7f396c - revert - c3745d244014fba84f3abf9881ed9d6bd6df7858
+The reverted commit sha is - 7600cf5dd8293855c11dd294188f3b586a7f396c
+Commit message - improved Mojolicious::Plugin::Mount to automatically synchronize secrets
+The original commit sha is - c3745d244014fba84f3abf9881ed9d6bd6df7858
+Commit message - Merge pull request #341 from spiros/master
+
+Typo correction in FAQ.
+The files with partial_reverts are:-
+lib/Mojolicious/Guides/FAQ.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 57 is -> 
+{ 72491000c6c96325603f93a85748872dc6f1981e -> ae31f33280e2518218c922f65e9c841a1236d73e } is a revert
+{ ff3d6a99c0d29789d1290112b4ed9d568de6d8e1 -> 7da957ae49147e1658d0e37ffef6d0b1bca55228 }
+Partial Revert commits SHA are -> 
+ae31f33280e2518218c922f65e9c841a1236d73e - revert - 7da957ae49147e1658d0e37ffef6d0b1bca55228
+The reverted commit sha is - ae31f33280e2518218c922f65e9c841a1236d73e
+Commit message - deprecated relaxed placeholders "/(.foo)" in favor of "/#foo"
+The original commit sha is - 7da957ae49147e1658d0e37ffef6d0b1bca55228
+Commit message - reverted deprecation for Mojocasts
+The files with partial_reverts are:-
+Changes
+lib/Mojolicious/Guides/Routing.pod
+t/mojolicious/lite_app.t
+t/mojolicious/pattern.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 58 is -> 
+{ 5abd60a9abf31b485766397d1ed92ae55c926fc4 -> b5697ec1ec0402996c06d44fa447f5d3132b6650 } is a revert
+{ 91d684a35b49ed43064a29b2d90a3fc5201f525c -> df0101a81f3311d6453c80304d3c3810ee231be1 }
+Partial Revert commits SHA are -> 
+b5697ec1ec0402996c06d44fa447f5d3132b6650 - revert - df0101a81f3311d6453c80304d3c3810ee231be1
+The reverted commit sha is - b5697ec1ec0402996c06d44fa447f5d3132b6650
+Commit message - added multiple MIME type and quality support for Ajax content negotiation with respond_to
+The original commit sha is - df0101a81f3311d6453c80304d3c3810ee231be1
+Commit message - removed support for multiple MIME types again
+The files with partial_reverts are:-
+lib/Mojolicious/Types.pm
+t/mojolicious/restful_lite_app.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 59 is -> 
+{ 971b3272a8eed54948f58190a2508f6fcd302e42 -> 7707cd85cea0bd190dc0264361602a6ed165caee } is a revert
+{ 7707cd85cea0bd190dc0264361602a6ed165caee -> fc19891c9b6d3a2263172148754ca18ff46ba1e7 }
+Partial Revert commits SHA are -> 
+7707cd85cea0bd190dc0264361602a6ed165caee - revert - fc19891c9b6d3a2263172148754ca18ff46ba1e7
+The reverted commit sha is - 7707cd85cea0bd190dc0264361602a6ed165caee
+Commit message - added base class without require support to Mojo::Base
+The original commit sha is - fc19891c9b6d3a2263172148754ca18ff46ba1e7
+Commit message - removed base class without require support from Mojo::Base again
+The files with partial_reverts are:-
+Changes
+lib/Mojolicious/Plugin/I18N.pm
+t/mojolicious/i18n_lite_app.t
+t/mojolicious/i18n_shortcut_lite_app.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 60 is -> 
+{ 759f0121218283c1b6d850f0a3e36c4834dffb26 -> de05199584645d7e5e3e1e5d931236154cace69a } is a revert
+{ aeddb36b528b2b70b25336be070760bfc194110a -> f89d0c356fb628196bd987acf888457662dd87e7 }
+Partial Revert commits SHA are -> 
+de05199584645d7e5e3e1e5d931236154cace69a - revert - f89d0c356fb628196bd987acf888457662dd87e7
+The reverted commit sha is - de05199584645d7e5e3e1e5d931236154cace69a
+Commit message - added simple log rotation support with USR1 signal to Hypnotoad
+The original commit sha is - f89d0c356fb628196bd987acf888457662dd87e7
+Commit message - removed reopen method from Mojo::Log again
+The files with partial_reverts are:-
+lib/Mojo/Server/Hypnotoad.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 61 is -> 
+{ 759f0121218283c1b6d850f0a3e36c4834dffb26 -> de05199584645d7e5e3e1e5d931236154cace69a } is a revert
+{ 12aea652e44265127135655af99765cc0cf42f2c -> 8a4f43d287185e8c0a21ecd15685f5f48f6938d7 }
+Partial Revert commits SHA are -> 
+de05199584645d7e5e3e1e5d931236154cace69a - revert - 8a4f43d287185e8c0a21ecd15685f5f48f6938d7
+The reverted commit sha is - de05199584645d7e5e3e1e5d931236154cace69a
+Commit message - added simple log rotation support with USR1 signal to Hypnotoad
+The original commit sha is - 8a4f43d287185e8c0a21ecd15685f5f48f6938d7
+Commit message - removed USR1 support from Hypnotoad again
+The files with partial_reverts are:-
+lib/Mojo/Server/Hypnotoad.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 62 is -> 
+{ 759f0121218283c1b6d850f0a3e36c4834dffb26 -> de05199584645d7e5e3e1e5d931236154cace69a } is a revert
+{ de05199584645d7e5e3e1e5d931236154cace69a -> 12aea652e44265127135655af99765cc0cf42f2c }
+Partial Revert commits SHA are -> 
+de05199584645d7e5e3e1e5d931236154cace69a - revert - 12aea652e44265127135655af99765cc0cf42f2c
+The reverted commit sha is - de05199584645d7e5e3e1e5d931236154cace69a
+Commit message - added simple log rotation support with USR1 signal to Hypnotoad
+The original commit sha is - 12aea652e44265127135655af99765cc0cf42f2c
+Commit message - removed close method from Mojo::Log again
+The files with partial_reverts are:-
+t/mojo/log.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 63 is -> 
+{ b0bf1ed16b9eee9db69525d227c7c2adfb4d2a5b -> 45232f44d6d000fd72fa5a1f69900b74f6ced066 } is a revert
+{ c80c51aebbdead80bc7455bbdc0367b811ab2784 -> 84371e541933ad7452b5ad05744a2a9584d214e9 }
+Partial Revert commits SHA are -> 
+45232f44d6d000fd72fa5a1f69900b74f6ced066 - revert - 84371e541933ad7452b5ad05744a2a9584d214e9
+The reverted commit sha is - 45232f44d6d000fd72fa5a1f69900b74f6ced066
+Commit message - fixed small condition bug
+The original commit sha is - 84371e541933ad7452b5ad05744a2a9584d214e9
+Commit message - made routes without conditions slightly faster
+The files with partial_reverts are:-
+Changes
+-----------------------------------------------------------------
+
+Partial Revert diff pair 64 is -> 
+{ 45232f44d6d000fd72fa5a1f69900b74f6ced066 -> fae16fa56e41819d9845dbdce058602f52287d87 } is a revert
+{ fae16fa56e41819d9845dbdce058602f52287d87 -> 65c33555faf2d6ad14b2b3132d6eb0332c2c7214 }
+Partial Revert commits SHA are -> 
+fae16fa56e41819d9845dbdce058602f52287d87 - revert - 65c33555faf2d6ad14b2b3132d6eb0332c2c7214
+The reverted commit sha is - fae16fa56e41819d9845dbdce058602f52287d87
+Commit message - added root method to Mojolicious::Routes::Route and deprecated dictionary in favor of conditions
+The original commit sha is - 65c33555faf2d6ad14b2b3132d6eb0332c2c7214
+Commit message - removed root method from Mojolicious::Routes::Route again
+The files with partial_reverts are:-
+Changes
+-----------------------------------------------------------------
+
+Partial Revert diff pair 65 is -> 
+{ 78b67b7863ef474a0a74706c20fe4a8d15ca4135 -> 35e8fa482adfd95caa66885349c368fa45c43134 } is a revert
+{ 35e8fa482adfd95caa66885349c368fa45c43134 -> f4cdc97d89f5b67b445a68a2c3132580a9bf61c5 }
+Partial Revert commits SHA are -> 
+35e8fa482adfd95caa66885349c368fa45c43134 - revert - f4cdc97d89f5b67b445a68a2c3132580a9bf61c5
+The reverted commit sha is - 35e8fa482adfd95caa66885349c368fa45c43134
+Commit message - deprecated Mojo::EventEmitter->unsubscribe in favor of Mojo::EventEmitter->off
+The original commit sha is - f4cdc97d89f5b67b445a68a2c3132580a9bf61c5
+Commit message - Mojo::EventEmitter->unsubscribe has won
+The files with partial_reverts are:-
+Changes
+lib/Mojo/Content.pm
+lib/Mojo/Content/Single.pm
+lib/Mojo/Log.pm
+lib/Mojo/Message.pm
+lib/Mojo/Server.pm
+lib/Mojo/Server/CGI.pm
+lib/Mojo/Server/Daemon.pm
+lib/Mojo/Server/PSGI.pm
+lib/Mojolicious/Guides/Cookbook.pod
+t/mojo/eventemitter.t
+t/mojo/response.t
+t/mojo/user_agent.t
+t/mojo/websocket.t
+t/mojo/websocket_proxy_tls.t
+t/mojolicious/upload_stream_lite_app.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 66 is -> 
+{ 49654b2c8143366c418c7167f5dbf144e2aee2a9 -> e5d214dafef2fdaf18052a515596a79593a5f9ae } is a revert
+{ ae48027d4bc46aef1627aecf2a340d844e16be8f -> 3eb7538704f85ec524b3c1af784f58041dd0e446 }
+Partial Revert commits SHA are -> 
+e5d214dafef2fdaf18052a515596a79593a5f9ae - revert - 3eb7538704f85ec524b3c1af784f58041dd0e446
+The reverted commit sha is - e5d214dafef2fdaf18052a515596a79593a5f9ae
+Commit message - improved logging of low level exceptions in Mojolicious
+The original commit sha is - 3eb7538704f85ec524b3c1af784f58041dd0e446
+Commit message - increase CGI performance slightly
+The files with partial_reverts are:-
+lib/Mojo/Server/Hypnotoad.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 67 is -> 
+{ 49654b2c8143366c418c7167f5dbf144e2aee2a9 -> e5d214dafef2fdaf18052a515596a79593a5f9ae } is a revert
+{ e5d214dafef2fdaf18052a515596a79593a5f9ae -> f8bf0703c52aa0b14f4db2a0ba330aa0e8d41c03 }
+Partial Revert commits SHA are -> 
+e5d214dafef2fdaf18052a515596a79593a5f9ae - revert - f8bf0703c52aa0b14f4db2a0ba330aa0e8d41c03
+The reverted commit sha is - e5d214dafef2fdaf18052a515596a79593a5f9ae
+Commit message - improved logging of low level exceptions in Mojolicious
+The original commit sha is - f8bf0703c52aa0b14f4db2a0ba330aa0e8d41c03
+Commit message - removed low level logging again
+The files with partial_reverts are:-
+Changes
+-----------------------------------------------------------------
+
+Partial Revert diff pair 68 is -> 
+{ 281dfc4c33e756c10dd81c235b68c73030d82cb7 -> f6768bcbf92127dc9bcbbbf3b9067531a503dfbe } is a revert
+{ f6768bcbf92127dc9bcbbbf3b9067531a503dfbe -> aab61d705fd11b67cac321c58670983e4fdcc3ea }
+Partial Revert commits SHA are -> 
+f6768bcbf92127dc9bcbbbf3b9067531a503dfbe - revert - aab61d705fd11b67cac321c58670983e4fdcc3ea
+The reverted commit sha is - f6768bcbf92127dc9bcbbbf3b9067531a503dfbe
+Commit message - modernize ojo examples
+The original commit sha is - aab61d705fd11b67cac321c58670983e4fdcc3ea
+Commit message - reflow Changes
+The files with partial_reverts are:-
+lib/Mojolicious/Guides/FAQ.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 69 is -> 
+{ f98b9c36e3644c2325b25ab99a992f778e43fe54 -> 58ffda45d4e0568bb6181b43a898a33200369b3e } is a revert
+{ 58ffda45d4e0568bb6181b43a898a33200369b3e -> 8cb0db91b20724e2b3757ac5e164f36789db056b }
+Partial Revert commits SHA are -> 
+58ffda45d4e0568bb6181b43a898a33200369b3e - revert - 8cb0db91b20724e2b3757ac5e164f36789db056b
+The reverted commit sha is - 58ffda45d4e0568bb6181b43a898a33200369b3e
+Commit message - pretty trees and boxes
+The original commit sha is - 8cb0db91b20724e2b3757ac5e164f36789db056b
+Commit message - back to ascii diagrams
+The files with partial_reverts are:-
+lib/Mojo/Server/Hypnotoad.pm
+lib/Mojolicious/Guides/Cookbook.pod
+lib/Mojolicious/Guides/Growing.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 70 is -> 
+{ ef0378f2105eebc96b4a5c109a0cc18f9c2bcbd5 -> c8fce49734cf270ab4c2a3b0ca40e766fde1cbf9 } is a revert
+{ e1889c638bd2f2ba5b4c30cd03349f0b906b46b7 -> 1cb4e0b239f87143ab8b11981eba9f8097a1b9c3 }
+Partial Revert commits SHA are -> 
+c8fce49734cf270ab4c2a3b0ca40e766fde1cbf9 - revert - 1cb4e0b239f87143ab8b11981eba9f8097a1b9c3
+The reverted commit sha is - c8fce49734cf270ab4c2a3b0ca40e766fde1cbf9
+Commit message - Add test for ( in cookie path
+The original commit sha is - 1cb4e0b239f87143ab8b11981eba9f8097a1b9c3
+Commit message - Merged in master
+The files with partial_reverts are:-
+lib/Mojo.pm
+lib/Mojo/IOLoop.pm
+lib/Mojo/IOWatcher.pm
+lib/Mojo/IOWatcher/EV.pm
+lib/Mojo/Server/PSGI.pm
+lib/Mojolicious.pm
+lib/Mojolicious/Command/psgi.pm
+t/mojo/ioloop_tls.t
+t/mojo/iowatcher.t
+t/mojo/iowatcher_ev.t
+t/mojo/psgi.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 71 is -> 
+{ 3c7b999c9041b724ededa1c87ca17e203a060c1b -> f2782f243f137832600474b1be121ee83a43f9af } is a revert
+{ f2782f243f137832600474b1be121ee83a43f9af -> d8d1fe48d4080bdd93f80428026752cc974b9a88 }
+Partial Revert commits SHA are -> 
+f2782f243f137832600474b1be121ee83a43f9af - revert - d8d1fe48d4080bdd93f80428026752cc974b9a88
+The reverted commit sha is - f2782f243f137832600474b1be121ee83a43f9af
+Commit message - fixed inconsistency between expressions and escaped expressions in Mojo::Template
+The original commit sha is - d8d1fe48d4080bdd93f80428026752cc974b9a88
+Commit message - removed Mojo::Template workaround
+The files with partial_reverts are:-
+t/mojo/template.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 72 is -> 
+{ 3214aa327fb3d3098c457c6ec77243bed796933a -> 9fa4e4508501847e6e7b4be0dbc0a555fcad2021 } is a revert
+{ 9fa4e4508501847e6e7b4be0dbc0a555fcad2021 -> 119ec725f03221b901b88630236486944fcac268 }
+Partial Revert commits SHA are -> 
+9fa4e4508501847e6e7b4be0dbc0a555fcad2021 - revert - 119ec725f03221b901b88630236486944fcac268
+The reverted commit sha is - 9fa4e4508501847e6e7b4be0dbc0a555fcad2021
+Commit message - removed gitignore and makefile commands
+The original commit sha is - 119ec725f03221b901b88630236486944fcac268
+Commit message - welcome back makefile command
+The files with partial_reverts are:-
+lib/Mojolicious/Command/generate/makefile.pm
+lib/Mojolicious/Guides/Cookbook.pod
+lib/Mojolicious/Routes/Pattern.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 73 is -> 
+{ 39fc3b096c333cf7b39da87283043321106e5189 -> 700d23809ada647b5a4f4fb5e58db4fcc5b31e3b } is a revert
+{ 16b34b851e2dff754599e975d7011d20e13991e2 -> 018f10c807948ac2ddf5aa793f79c88122256822 }
+Partial Revert commits SHA are -> 
+700d23809ada647b5a4f4fb5e58db4fcc5b31e3b - revert - 018f10c807948ac2ddf5aa793f79c88122256822
+The reverted commit sha is - 700d23809ada647b5a4f4fb5e58db4fcc5b31e3b
+Commit message - better Hypnotoad and Morbo test fix
+The original commit sha is - 018f10c807948ac2ddf5aa793f79c88122256822
+Commit message - Merge branch 'hypnoconf'
+The files with partial_reverts are:-
+Changes
+lib/Mojo.pm
+lib/Mojo/Template.pm
+lib/Mojolicious.pm
+lib/Mojolicious/Command/generate/hypnotoad.pm
+lib/Mojolicious/Commands.pm
+lib/Mojolicious/Guides/Cheatsheet.pod
+lib/Mojolicious/Plugin/Config.pm
+lib/Mojolicious/Plugin/DefaultHelpers.pm
+lib/Mojolicious/Plugin/JSONConfig.pm
+lib/Mojolicious/Plugin/PoweredBy.pm
+t/mojo/app.t
+t/mojo/hypnotoad.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 74 is -> 
+{ 4fdb70d658f30d55c2680582836dc4a63432b88b -> 16b34b851e2dff754599e975d7011d20e13991e2 } is a revert
+{ 16b34b851e2dff754599e975d7011d20e13991e2 -> 018f10c807948ac2ddf5aa793f79c88122256822 }
+Partial Revert commits SHA are -> 
+16b34b851e2dff754599e975d7011d20e13991e2 - revert - 018f10c807948ac2ddf5aa793f79c88122256822
+The reverted commit sha is - 16b34b851e2dff754599e975d7011d20e13991e2
+Commit message - fixed typos
+The original commit sha is - 018f10c807948ac2ddf5aa793f79c88122256822
+Commit message - Merge branch 'hypnoconf'
+The files with partial_reverts are:-
+Changes
+lib/Mojo.pm
+lib/Mojo/Template.pm
+lib/Mojolicious.pm
+lib/Mojolicious/Command/generate/hypnotoad.pm
+lib/Mojolicious/Commands.pm
+lib/Mojolicious/Guides/Cheatsheet.pod
+lib/Mojolicious/Guides/Cookbook.pod
+lib/Mojolicious/Plugin/Config.pm
+lib/Mojolicious/Plugin/DefaultHelpers.pm
+lib/Mojolicious/Plugin/JSONConfig.pm
+lib/Mojolicious/Plugin/PoweredBy.pm
+t/mojo/app.t
+t/mojo/hypnotoad.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 75 is -> 
+{ 292b6e7a56d8a1bbf85b52d20d5b11cac4168fdb -> 7e0ef2d35bee5117ffadfc36c88fec70b634dffc } is a revert
+{ d4dd5130af16ab9077af860fe23f7d72f85fadea -> 4075c50a1ccb844448d0ad697fb68c2b1d40d2ff }
+Partial Revert commits SHA are -> 
+7e0ef2d35bee5117ffadfc36c88fec70b634dffc - revert - 4075c50a1ccb844448d0ad697fb68c2b1d40d2ff
+The reverted commit sha is - 7e0ef2d35bee5117ffadfc36c88fec70b634dffc
+Commit message - Revert "removed experimental status from WebSocket and JSON Pointer support"
+
+This reverts commit 292b6e7a56d8a1bbf85b52d20d5b11cac4168fdb.
+The original commit sha is - 4075c50a1ccb844448d0ad697fb68c2b1d40d2ff
+Commit message - removed experimental status from JSON Pointer support
+The files with partial_reverts are:-
+lib/Mojo/JSON/Pointer.pm
+lib/Mojo/Message.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 76 is -> 
+{ 5df222d3adb9c1c17fc6cdb25fb71a103ceecc4f -> 0a694aef3b6d367017fd89135e8bca4efef3f86f } is a revert
+{ 0a694aef3b6d367017fd89135e8bca4efef3f86f -> f2f2040f4ac88501f27c2481d9cbcca861dd5a38 }
+Partial Revert commits SHA are -> 
+0a694aef3b6d367017fd89135e8bca4efef3f86f - revert - f2f2040f4ac88501f27c2481d9cbcca861dd5a38
+The reverted commit sha is - 0a694aef3b6d367017fd89135e8bca4efef3f86f
+Commit message - Added a merge method to Mojo::Collection.
+The original commit sha is - f2f2040f4ac88501f27c2481d9cbcca861dd5a38
+Commit message - Merge branch 'ifimbres-collection-merge' of git://github.com/ifimbres/mojo into collection-union
+The files with partial_reverts are:-
+lib/Mojolicious/Guides/Growing.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 77 is -> 
+{ a1d5947f738a69c3387cb44e5defcbc029e606d1 -> 508cb2ab539d32a90f6a83d2a057decbfc5d14db } is a revert
+{ 508cb2ab539d32a90f6a83d2a057decbfc5d14db -> 0ee2405f8701271132b58cc05ce4d68a1fd3ecd9 }
+Partial Revert commits SHA are -> 
+508cb2ab539d32a90f6a83d2a057decbfc5d14db - revert - 0ee2405f8701271132b58cc05ce4d68a1fd3ecd9
+The reverted commit sha is - 508cb2ab539d32a90f6a83d2a057decbfc5d14db
+Commit message - removed request_timeout attribute from Mojo::UserAgent again
+The original commit sha is - 0ee2405f8701271132b58cc05ce4d68a1fd3ecd9
+Commit message - brought back request_timeout attribute by popular demand
+The files with partial_reverts are:-
+Changes
+t/mojolicious/longpolling_lite_app.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 78 is -> 
+{ 5869d29046d6a8b37de9291da0c0ad209258139a -> 432c38af3630b53736e3ec20e7b53c9de389f27a } is a revert
+{ 9c4fec1dcf1527e7124cf2a640cb8d2689806663 -> a10eaa678672369877dee83a006e52e36cac7b07 }
+Partial Revert commits SHA are -> 
+432c38af3630b53736e3ec20e7b53c9de389f27a - revert - a10eaa678672369877dee83a006e52e36cac7b07
+The reverted commit sha is - 432c38af3630b53736e3ec20e7b53c9de389f27a
+Commit message - deprecated Test::Mojo->json_content_is in favor of Test::Mojo->json_is
+The original commit sha is - a10eaa678672369877dee83a006e52e36cac7b07
+Commit message - undeprecated Test::Mojo->json_content_is
+The files with partial_reverts are:-
+Changes
+t/mojolicious/app.t
+t/mojolicious/charset_lite_app.t
+t/mojolicious/production_app.t
+t/mojolicious/restful_lite_app.t
+t/pod_coverage.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 79 is -> 
+{ ea85cb3e58667d234bc08d93175a8519e8d351e0 -> a82bf6d6ee72f847d010406beb70a6e280f3f558 } is a revert
+{ f6d809e63e3e6750c24a94c69f99c16bab2bfea4 -> 9fd1cd2d6b8c039af58f3cfbd9ec7f64802f4751 }
+Partial Revert commits SHA are -> 
+a82bf6d6ee72f847d010406beb70a6e280f3f558 - revert - 9fd1cd2d6b8c039af58f3cfbd9ec7f64802f4751
+The reverted commit sha is - a82bf6d6ee72f847d010406beb70a6e280f3f558
+Commit message - Change live tests to not be location specific
+The original commit sha is - 9fd1cd2d6b8c039af58f3cfbd9ec7f64802f4751
+Commit message - Merge pull request #252 from kraih/fix_live_tests
+
+Fix live tests
+The files with partial_reverts are:-
+Changes
+lib/Mojo/Home.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 80 is -> 
+{ 512732df1afa0536af3915222009b610be949436 -> 7a548edd6947253b4ce1a9b2082dd32595634d6f } is a revert
+{ 7a548edd6947253b4ce1a9b2082dd32595634d6f -> 348b18fed82fdbd42f15b1ec3b6f5f8cb7ff30c5 }
+Partial Revert commits SHA are -> 
+7a548edd6947253b4ce1a9b2082dd32595634d6f - revert - 348b18fed82fdbd42f15b1ec3b6f5f8cb7ff30c5
+The reverted commit sha is - 7a548edd6947253b4ce1a9b2082dd32595634d6f
+Commit message - removed useless shebang lines
+The original commit sha is - 348b18fed82fdbd42f15b1ec3b6f5f8cb7ff30c5
+Commit message - readded two shebang lines for more realistic tests
+The files with partial_reverts are:-
+t/mojolicious/external/script/my_app
+-----------------------------------------------------------------
+
+Partial Revert diff pair 81 is -> 
+{ 6ae1534ef619b12590e1c813c139963ba9e1b378 -> 4f0d833e42a0da5a98312a818088033e1035fe47 } is a revert
+{ 4f0d833e42a0da5a98312a818088033e1035fe47 -> 7483dc8ec872793ced12548a2854728db14ea6ad }
+Partial Revert commits SHA are -> 
+4f0d833e42a0da5a98312a818088033e1035fe47 - revert - 7483dc8ec872793ced12548a2854728db14ea6ad
+The reverted commit sha is - 4f0d833e42a0da5a98312a818088033e1035fe47
+Commit message - changed default WebSocket timeout of Mojo::UserAgent from 300 to 305 seconds
+The original commit sha is - 7483dc8ec872793ced12548a2854728db14ea6ad
+Commit message - changed default WebSocket timeout of Mojo::UserAgent back to 300 seconds
+The files with partial_reverts are:-
+Changes
+lib/Mojo/UserAgent.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 82 is -> 
+{ 637db206aa00eea4371e2e364a6bf5022960d3a1 -> 04c5d6373fede77b75df1e230a46fa4cc855fd02 } is a revert
+{ 477eda308477bec5a0a0d8edc362d7e91d21e476 -> 89e3f3e796146e4c53743890ef4a5eab6fcde1c3 }
+Partial Revert commits SHA are -> 
+04c5d6373fede77b75df1e230a46fa4cc855fd02 - revert - 89e3f3e796146e4c53743890ef4a5eab6fcde1c3
+The reverted commit sha is - 04c5d6373fede77b75df1e230a46fa4cc855fd02
+Commit message - improved Mojolicious::Plugin::Mount to support after_build_tx hooks
+The original commit sha is - 89e3f3e796146e4c53743890ef4a5eab6fcde1c3
+Commit message - removed support for after_build_tx hooks from Mojolicious::Plugin::Mount again
+The files with partial_reverts are:-
+Changes
+t/mojolicious/embedded_lite_app.t
+t/mojolicious/external/myapp.pl
+-----------------------------------------------------------------
+
+Partial Revert diff pair 83 is -> 
+{ 4410778abf25cc1d10852297cd207e585c11ddab -> d5cf2a178d1484c3c5ce8d6eba2573f4299e97a2 } is a revert
+{ 5eb5d5452edb634b41098e7475efbd0b0d6832b0 -> 8cd642e637ec40809de58cb1ddde04845088dadc }
+Partial Revert commits SHA are -> 
+d5cf2a178d1484c3c5ce8d6eba2573f4299e97a2 - revert - 8cd642e637ec40809de58cb1ddde04845088dadc
+The reverted commit sha is - d5cf2a178d1484c3c5ce8d6eba2573f4299e97a2
+Commit message - disable some more tests on Windows with older Perl versions
+The original commit sha is - 8cd642e637ec40809de58cb1ddde04845088dadc
+Commit message - updated changes
+The files with partial_reverts are:-
+Changes
+-----------------------------------------------------------------
+
+Partial Revert diff pair 84 is -> 
+{ 5ed131fe626a10704666866f0e468e53601819c9 -> fe74c1a17e2fd713c61bf60a0a38a4c3471812c3 } is a revert
+{ fe74c1a17e2fd713c61bf60a0a38a4c3471812c3 -> 0a963eeacef36571efa6d66fc43bed4a966b53ad }
+Partial Revert commits SHA are -> 
+fe74c1a17e2fd713c61bf60a0a38a4c3471812c3 - revert - 0a963eeacef36571efa6d66fc43bed4a966b53ad
+The reverted commit sha is - fe74c1a17e2fd713c61bf60a0a38a4c3471812c3
+Commit message - improved DATA templates by removing a whitespace requirement
+The original commit sha is - 0a963eeacef36571efa6d66fc43bed4a966b53ad
+Commit message - better test cases
+The files with partial_reverts are:-
+t/mojolicious/lite_app.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 85 is -> 
+{ d6cb77b021abef2425c063432e287cef401ed061 -> 90eaef37c3d20dae01407460e3b0b9d84b19003f } is a revert
+{ 90eaef37c3d20dae01407460e3b0b9d84b19003f -> c089bbc76bfad843b66496192d4ce9334584060f }
+Partial Revert commits SHA are -> 
+90eaef37c3d20dae01407460e3b0b9d84b19003f - revert - c089bbc76bfad843b66496192d4ce9334584060f
+The reverted commit sha is - 90eaef37c3d20dae01407460e3b0b9d84b19003f
+Commit message - improved host condition to work in more environments
+The original commit sha is - c089bbc76bfad843b66496192d4ce9334584060f
+Commit message - Merge pull request #217 from viliampucik/master
+
+Run tests in alphabetical order to make the testing flow predictive
+The files with partial_reverts are:-
+lib/Mojolicious/Command/test.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 86 is -> 
+{ 9caa2c6d7672a6408784d030d934b772e29c3d90 -> 5bb1ee913a52462f3fe3b0ad7637d9b158919b2b } is a revert
+{ 2733ca0a7c925438e50d83347ba5324d37b7dc39 -> 37f23e29ac3a028e1d5f9eda576dbda8f563cf1f }
+Partial Revert commits SHA are -> 
+5bb1ee913a52462f3fe3b0ad7637d9b158919b2b - revert - 37f23e29ac3a028e1d5f9eda576dbda8f563cf1f
+The reverted commit sha is - 5bb1ee913a52462f3fe3b0ad7637d9b158919b2b
+Commit message - deprecated camel case command modules and lowercased all the built-in ones
+The original commit sha is - 37f23e29ac3a028e1d5f9eda576dbda8f563cf1f
+Commit message - cleaned up command loader
+The files with partial_reverts are:-
+lib/Mojolicious/Commands.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 87 is -> 
+{ 95f337a3184756f3cb80c3b3694e0a6e1e5734cf -> ff76920cd2b064f4bbf277ba16dc619ec56f24d1 } is a revert
+{ ff76920cd2b064f4bbf277ba16dc619ec56f24d1 -> 1eb6971b295741a72e111f65019e6d511d59fc17 }
+Partial Revert commits SHA are -> 
+ff76920cd2b064f4bbf277ba16dc619ec56f24d1 - revert - 1eb6971b295741a72e111f65019e6d511d59fc17
+The reverted commit sha is - ff76920cd2b064f4bbf277ba16dc619ec56f24d1
+Commit message - added experimental raw_text and all_raw_text methods to Mojo::DOM
+The original commit sha is - 1eb6971b295741a72e111f65019e6d511d59fc17
+Commit message - removed raw_text and all_raw_text methods from Mojo::DOM again until we have better names
+The files with partial_reverts are:-
+lib/Mojolicious/Guides/Cookbook.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 88 is -> 
+{ 2022573b1c6c9e68abf179ca0148d0f02f86decd -> c7b1a560d4c165c36ec082a80046d6f979e79536 } is a revert
+{ e04d769e6bcfb393218faee0d3439b731769912a -> 09073a5526e8138c30f18f4f34efa106cb1eeecf }
+Partial Revert commits SHA are -> 
+c7b1a560d4c165c36ec082a80046d6f979e79536 - revert - 09073a5526e8138c30f18f4f34efa106cb1eeecf
+The reverted commit sha is - c7b1a560d4c165c36ec082a80046d6f979e79536
+Commit message - made all warnings fatal
+The original commit sha is - 09073a5526e8138c30f18f4f34efa106cb1eeecf
+Commit message - made all warnings non-fatal again
+The files with partial_reverts are:-
+lib/Mojolicious/Lite.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 89 is -> 
+{ 5472f3c62236bd7f62bba28fe8c564ac860b231d -> 453df5301be6e02146d69164e10e79ddf8d71d94 } is a revert
+{ 6027556fcc85e9510648ddfc6fbabe58172e3ce0 -> 850d3d6334f8abc40096342fe8d16082d9a28f46 }
+Partial Revert commits SHA are -> 
+453df5301be6e02146d69164e10e79ddf8d71d94 - revert - 850d3d6334f8abc40096342fe8d16082d9a28f46
+The reverted commit sha is - 453df5301be6e02146d69164e10e79ddf8d71d94
+Commit message - Merge pull request #141 from Akron/5472f3c62236bd7f62bba28fe8c564ac860b231d
+
+Fixed a small xml flag bug
+The original commit sha is - 850d3d6334f8abc40096342fe8d16082d9a28f46
+Commit message - documentation fix
+The files with partial_reverts are:-
+lib/Mojolicious/Command/Daemon.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 90 is -> 
+{ b0df6e5611fc6e69d960c2ad41071e4deb2661df -> 077dcdab6ad6ae66ed2ec7549b9319f1f011125f } is a revert
+{ 077dcdab6ad6ae66ed2ec7549b9319f1f011125f -> e2411b5b49e425369a580d6fdf1b3da4e0359207 }
+Partial Revert commits SHA are -> 
+077dcdab6ad6ae66ed2ec7549b9319f1f011125f - revert - e2411b5b49e425369a580d6fdf1b3da4e0359207
+The reverted commit sha is - 077dcdab6ad6ae66ed2ec7549b9319f1f011125f
+Commit message - made tests more portable
+The original commit sha is - e2411b5b49e425369a580d6fdf1b3da4e0359207
+Commit message - Merge pull request #191 from Akron/doc-bug
+
+Little doc bug
+The files with partial_reverts are:-
+lib/Mojo/DOM.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 91 is -> 
+{ b74ae9f57428dc2f55e9d4c36c92830cbf348309 -> 2cc109603d72286758c386ce84d766e4407e6e49 } is a revert
+{ 2cc109603d72286758c386ce84d766e4407e6e49 -> acfd9bf84ea46f852cfaa5fd9a91f3cbd6e921f1 }
+Partial Revert commits SHA are -> 
+2cc109603d72286758c386ce84d766e4407e6e49 - revert - acfd9bf84ea46f852cfaa5fd9a91f3cbd6e921f1
+The reverted commit sha is - 2cc109603d72286758c386ce84d766e4407e6e49
+Commit message - cleanup
+The original commit sha is - acfd9bf84ea46f852cfaa5fd9a91f3cbd6e921f1
+Commit message - fixed Windows portability issue
+The files with partial_reverts are:-
+Changes
+-----------------------------------------------------------------
+
+Partial Revert diff pair 92 is -> 
+{ 394d1f0afc2a9477ff0d158002c78713701de85d -> 4ef59105183f8fc5dea135285f3378df41773a42 } is a revert
+{ 4ef59105183f8fc5dea135285f3378df41773a42 -> dc5f7166f32bda865561f6b60c50999978a52718 }
+Partial Revert commits SHA are -> 
+4ef59105183f8fc5dea135285f3378df41773a42 - revert - dc5f7166f32bda865561f6b60c50999978a52718
+The reverted commit sha is - 4ef59105183f8fc5dea135285f3378df41773a42
+Commit message - Added type declaration for xsl stylesheets
+The original commit sha is - dc5f7166f32bda865561f6b60c50999978a52718
+Commit message - Merge pull request #177 from shiftycow/master
+
+Added type declaration for XSL documents 
+The files with partial_reverts are:-
+t/mojo/parameters.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 93 is -> 
+{ 7b43a9138c6c05ebf4dd7ece550c65b3b9ddbcd8 -> 790bbf5f791dea9296b7ee46b95f9959b8668d43 } is a revert
+{ 790bbf5f791dea9296b7ee46b95f9959b8668d43 -> 9eb32b4155396c45d93353ad1edb8635e0af1982 }
+Partial Revert commits SHA are -> 
+790bbf5f791dea9296b7ee46b95f9959b8668d43 - revert - 9eb32b4155396c45d93353ad1edb8635e0af1982
+The reverted commit sha is - 790bbf5f791dea9296b7ee46b95f9959b8668d43
+Commit message - fixed small Windows line ending issue in Mojo::Template
+The original commit sha is - 9eb32b4155396c45d93353ad1edb8635e0af1982
+Commit message - improved Morbo to only attempt restarting applications after a file change has been detected
+The files with partial_reverts are:-
+lib/Mojo/Template.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 94 is -> 
+{ 1907c834e4a97f6af853d22c40b590b34b94ad99 -> 3f9449df94609166b3741c3e75d13187962d872b } is a revert
+{ 1ff54b82b9a4e9c61951c7b198408e0b2623b159 -> cccb15dac3d1ca1ec948b95633f8239d8e03cd3e }
+Partial Revert commits SHA are -> 
+3f9449df94609166b3741c3e75d13187962d872b - revert - cccb15dac3d1ca1ec948b95633f8239d8e03cd3e
+The reverted commit sha is - 3f9449df94609166b3741c3e75d13187962d872b
+Commit message - made Mojolicious::Plugin::PodRenderer a bit easier to extend
+The original commit sha is - cccb15dac3d1ca1ec948b95633f8239d8e03cd3e
+Commit message - removed unnecessary template hook
+The files with partial_reverts are:-
+lib/Mojolicious/templates/perldoc.html.ep
+-----------------------------------------------------------------
+
+Partial Revert diff pair 95 is -> 
+{ 48133a7024b78ebb0ca02c8034b0fe48c4a917ee -> 2c35c45cb4d95d5e6282f18498be9f5b46f5e31e } is a revert
+{ 2c35c45cb4d95d5e6282f18498be9f5b46f5e31e -> 93a44b4dfa0afb724f7502a6b5d6a1bed8561cad }
+Partial Revert commits SHA are -> 
+2c35c45cb4d95d5e6282f18498be9f5b46f5e31e - revert - 93a44b4dfa0afb724f7502a6b5d6a1bed8561cad
+The reverted commit sha is - 2c35c45cb4d95d5e6282f18498be9f5b46f5e31e
+Commit message - switched back from JSON to Storable serialization for Mojolicious sessions
+The original commit sha is - 93a44b4dfa0afb724f7502a6b5d6a1bed8561cad
+Commit message - switched from Storable to JSON serialization for Mojolicious sessions to increase efficiency
+The files with partial_reverts are:-
+Changes
+Makefile.PL
+lib/Mojolicious/Guides/Growing.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 96 is -> 
+{ e9f046f1306558c2697c295dece57d74708abcc3 -> 9de03e8d493433e82f58699fe878b5acf9c3fff1 } is a revert
+{ 48133a7024b78ebb0ca02c8034b0fe48c4a917ee -> 2c35c45cb4d95d5e6282f18498be9f5b46f5e31e }
+Partial Revert commits SHA are -> 
+9de03e8d493433e82f58699fe878b5acf9c3fff1 - revert - 2c35c45cb4d95d5e6282f18498be9f5b46f5e31e
+The reverted commit sha is - 9de03e8d493433e82f58699fe878b5acf9c3fff1
+Commit message - switched from Storable to JSON serialization for Mojolicious sessions
+The original commit sha is - 2c35c45cb4d95d5e6282f18498be9f5b46f5e31e
+Commit message - switched back from JSON to Storable serialization for Mojolicious sessions
+The files with partial_reverts are:-
+Changes
+Makefile.PL
+lib/Mojolicious/Guides/Growing.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 97 is -> 
+{ 50b595ba9e4383d84dc04af81e630afc3e4b0da0 -> bfcb804d681d1ea14275862e6f120fd90326fc25 } is a revert
+{ bfcb804d681d1ea14275862e6f120fd90326fc25 -> 24b30f27c812a72b8f419bc382582b7b32ecaa1e }
+Partial Revert commits SHA are -> 
+bfcb804d681d1ea14275862e6f120fd90326fc25 - revert - 24b30f27c812a72b8f419bc382582b7b32ecaa1e
+The reverted commit sha is - bfcb804d681d1ea14275862e6f120fd90326fc25
+Commit message - Fixing Typos
+The original commit sha is - 24b30f27c812a72b8f419bc382582b7b32ecaa1e
+Commit message - Merge pull request #144 from Akron/typos
+
+Fixing Typos
+The files with partial_reverts are:-
+Changes
+t/mojo/dom.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 98 is -> 
+{ c04b222f7f7cdf3162d9a9267f3ff5c82ce7a72e -> 50b595ba9e4383d84dc04af81e630afc3e4b0da0 } is a revert
+{ 50b595ba9e4383d84dc04af81e630afc3e4b0da0 -> bfcb804d681d1ea14275862e6f120fd90326fc25 }
+Partial Revert commits SHA are -> 
+50b595ba9e4383d84dc04af81e630afc3e4b0da0 - revert - bfcb804d681d1ea14275862e6f120fd90326fc25
+The reverted commit sha is - 50b595ba9e4383d84dc04af81e630afc3e4b0da0
+Commit message - fixed small XML semantics bug in Mojo::DOM
+The original commit sha is - bfcb804d681d1ea14275862e6f120fd90326fc25
+Commit message - Fixing Typos
+The files with partial_reverts are:-
+Changes
+t/mojo/dom.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 99 is -> 
+{ 792a9f95a5d80b8d7aca49b2bf484cd4661fd755 -> 5472f3c62236bd7f62bba28fe8c564ac860b231d } is a revert
+{ 5472f3c62236bd7f62bba28fe8c564ac860b231d -> 453df5301be6e02146d69164e10e79ddf8d71d94 }
+Partial Revert commits SHA are -> 
+5472f3c62236bd7f62bba28fe8c564ac860b231d - revert - 453df5301be6e02146d69164e10e79ddf8d71d94
+The reverted commit sha is - 5472f3c62236bd7f62bba28fe8c564ac860b231d
+Commit message - Fixed a small xml flag bug
+The original commit sha is - 453df5301be6e02146d69164e10e79ddf8d71d94
+Commit message - Merge pull request #141 from Akron/5472f3c62236bd7f62bba28fe8c564ac860b231d
+
+Fixed a small xml flag bug
+The files with partial_reverts are:-
+lib/Mojo/IOLoop.pm
+lib/Mojo/Server/Daemon.pm
+lib/Mojo/Server/Hypnotoad.pm
+lib/Mojo/UserAgent.pm
+lib/Mojolicious/Command/Daemon.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 100 is -> 
+{ ff05ddee9e3a6c743760cfb1096144fe3b2dec5e -> 7a99fc54a726ab004b386742023ae8ae40423711 } is a revert
+{ 68370772651671c837c8922fc16e92e3e716e157 -> 4982c1498b0d0f1ea6e38753023eb3f58968bd66 }
+Partial Revert commits SHA are -> 
+7a99fc54a726ab004b386742023ae8ae40423711 - revert - 4982c1498b0d0f1ea6e38753023eb3f58968bd66
+The reverted commit sha is - 7a99fc54a726ab004b386742023ae8ae40423711
+Commit message - improved Mojo::Template inline comment handling
+The original commit sha is - 4982c1498b0d0f1ea6e38753023eb3f58968bd66
+Commit message - switched back to old inline comment handling
+The files with partial_reverts are:-
+Changes
+t/mojo/template.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 101 is -> 
+{ c17986767a52f448b7f9e1f64aa1502b4caeef92 -> 43c415eb25b94f22ee47b5cd18609e2e864cd754 } is a revert
+{ 43c415eb25b94f22ee47b5cd18609e2e864cd754 -> 2e38a4cdf36ebcd2b366b5c52ca9e7f41c9d64a4 }
+Partial Revert commits SHA are -> 
+43c415eb25b94f22ee47b5cd18609e2e864cd754 - revert - 2e38a4cdf36ebcd2b366b5c52ca9e7f41c9d64a4
+The reverted commit sha is - 43c415eb25b94f22ee47b5cd18609e2e864cd754
+Commit message - simplified url_for behavior and added image helper
+The original commit sha is - 2e38a4cdf36ebcd2b366b5c52ca9e7f41c9d64a4
+Commit message - bypass routes for paths
+The files with partial_reverts are:-
+lib/Mojolicious/Routes/Match.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 102 is -> 
+{ 6127fffed3346d64bf1858a8ce3205fdec9aef1c -> 3c2998b8bfbf7af822db5d7306d450b89e5c9318 } is a revert
+{ 56cb82678c92e54e0b4712dd4b9c013e10c82eda -> ac2a992cced6f559979d08962b6e0f094eeef782 }
+Partial Revert commits SHA are -> 
+3c2998b8bfbf7af822db5d7306d450b89e5c9318 - revert - ac2a992cced6f559979d08962b6e0f094eeef782
+The reverted commit sha is - 3c2998b8bfbf7af822db5d7306d450b89e5c9318
+Commit message - added experimental much prettier attribute generator to Mojo::Base
+The original commit sha is - ac2a992cced6f559979d08962b6e0f094eeef782
+Commit message - fixed typo
+The files with partial_reverts are:-
+lib/Mojolicious/Guides/Cookbook.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 103 is -> 
+{ b0df2bc1927009520c4e84f7204e6b35bbfd0b8c -> b35603ce85b8f9e5554dc8184e785070e74ba150 } is a revert
+{ 2e6e74a594c5b3d25dc2093b4b0daed2b889685e -> fb38f23f58089aa3af9ad0fee710fee5ceddd97a }
+Partial Revert commits SHA are -> 
+b35603ce85b8f9e5554dc8184e785070e74ba150 - revert - fb38f23f58089aa3af9ad0fee710fee5ceddd97a
+The reverted commit sha is - b35603ce85b8f9e5554dc8184e785070e74ba150
+Commit message - fixed relative path handling
+The original commit sha is - fb38f23f58089aa3af9ad0fee710fee5ceddd97a
+Commit message - fixed nested route bug
+The files with partial_reverts are:-
+lib/Mojolicious/Routes/Pattern.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 104 is -> 
+{ b0df2bc1927009520c4e84f7204e6b35bbfd0b8c -> b35603ce85b8f9e5554dc8184e785070e74ba150 } is a revert
+{ 2ed39b9d57f0fbd7b88ca15da9c0de7fef24e79c -> 642f731624ecd56dcb5eb5b93cbd473f5da6fbbc }
+Partial Revert commits SHA are -> 
+b35603ce85b8f9e5554dc8184e785070e74ba150 - revert - 642f731624ecd56dcb5eb5b93cbd473f5da6fbbc
+The reverted commit sha is - b35603ce85b8f9e5554dc8184e785070e74ba150
+Commit message - fixed relative path handling
+The original commit sha is - 642f731624ecd56dcb5eb5b93cbd473f5da6fbbc
+Commit message - fixed relative path handling in Mojo::URL
+The files with partial_reverts are:-
+lib/Mojo/HelloWorld.pm
+t/mojolicious/dispatcher_lite_app.t
+t/mojolicious/lite_app.t
+t/mojolicious/websocket_proxy_lite_app.t
+t/mojolicious/websocket_tls_proxy_lite_app.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 105 is -> 
+{ ab3222c8fff9efa57a64f889f088a4220a5c13cb -> 8237f6ec902b63957a4246dcd61fd3dd2ba6220f } is a revert
+{ a333afd4312d92c067fe063fe20e61cfb2f3795a -> 81ec04f9c278131f2b1d2a42dcfafe8b32b5c3c8 }
+Partial Revert commits SHA are -> 
+8237f6ec902b63957a4246dcd61fd3dd2ba6220f - revert - 81ec04f9c278131f2b1d2a42dcfafe8b32b5c3c8
+The reverted commit sha is - 8237f6ec902b63957a4246dcd61fd3dd2ba6220f
+Commit message - improved perldoc support
+The original commit sha is - 81ec04f9c278131f2b1d2a42dcfafe8b32b5c3c8
+Commit message - removed tests again
+The files with partial_reverts are:-
+t/mojolicious/pod_renderer_lite_app.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 106 is -> 
+{ 8e8b87dc790ace725302bd5fb106db7aa116b363 -> 23b58ae43999f9515ac14e5c5a232d7137a00273 } is a revert
+{ 8570b7e74f8400db8c6dc894461e49b6690492c0 -> daf203923f7c943878ccb2da8564af0282661bab }
+Partial Revert commits SHA are -> 
+23b58ae43999f9515ac14e5c5a232d7137a00273 - revert - daf203923f7c943878ccb2da8564af0282661bab
+The reverted commit sha is - 23b58ae43999f9515ac14e5c5a232d7137a00273
+Commit message - added experimental built in exception template and fixed a few small bugs
+The original commit sha is - daf203923f7c943878ccb2da8564af0282661bab
+Commit message - cleanup
+The files with partial_reverts are:-
+lib/Mojolicious/Plugin/EplRenderer.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 107 is -> 
+{ 612d611ee71ae62eec12afbed319df4347ffae4c -> 3f8a86eb9167a684e08942e02b9aca4342c87fee } is a revert
+{ 402b420428fe2147151394c7094fd8c9f9199987 -> 7460fa2c586207bf82348aea5fadb111a6f4ae0d }
+Partial Revert commits SHA are -> 
+3f8a86eb9167a684e08942e02b9aca4342c87fee - revert - 7460fa2c586207bf82348aea5fadb111a6f4ae0d
+The reverted commit sha is - 3f8a86eb9167a684e08942e02b9aca4342c87fee
+Commit message - added basic http proxy support
+The original commit sha is - 7460fa2c586207bf82348aea5fadb111a6f4ae0d
+Commit message - improved reloading even more
+The files with partial_reverts are:-
+lib/Mojolicious/Plugin/EpRenderer.pm
+lib/Mojolicious/Plugin/EplRenderer.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 108 is -> 
+{ 6d58eb253c690a4f93bcd8d8a95d917d1d82c058 -> d914684f876f132eb652ebea9ae20ccb2e1142c2 } is a revert
+{ d914684f876f132eb652ebea9ae20ccb2e1142c2 -> beeeb4ceb171f6f4d8f0e30c5d6200b5cffe7f10 }
+Partial Revert commits SHA are -> 
+d914684f876f132eb652ebea9ae20ccb2e1142c2 - revert - beeeb4ceb171f6f4d8f0e30c5d6200b5cffe7f10
+The reverted commit sha is - d914684f876f132eb652ebea9ae20ccb2e1142c2
+Commit message - cleanup
+The original commit sha is - beeeb4ceb171f6f4d8f0e30c5d6200b5cffe7f10
+Commit message - cleanup
+The files with partial_reverts are:-
+script/hypnotoad
+-----------------------------------------------------------------
+
+Partial Revert diff pair 109 is -> 
+{ 4253a4d1fb9e0e6ee533d08235f26da4fe475e60 -> 9dfd4b9b2b27bfcf9a62fe6324721c58459dd1ee } is a revert
+{ 9dfd4b9b2b27bfcf9a62fe6324721c58459dd1ee -> 6967cc88a961854e2154eb0b88802c61df2f2177 }
+Partial Revert commits SHA are -> 
+9dfd4b9b2b27bfcf9a62fe6324721c58459dd1ee - revert - 6967cc88a961854e2154eb0b88802c61df2f2177
+The reverted commit sha is - 9dfd4b9b2b27bfcf9a62fe6324721c58459dd1ee
+Commit message - fixed a bug where an empty Mojo::IOLoop would never block
+The original commit sha is - 6967cc88a961854e2154eb0b88802c61df2f2177
+Commit message - fixed typo
+The files with partial_reverts are:-
+Makefile.PL
+-----------------------------------------------------------------
+
+Partial Revert diff pair 110 is -> 
+{ dfad68047d3b54527bd5d4dd87d8b87dad59c1e8 -> 7a46a4b96c6dca9d596866c29e6651b1a0334f9c } is a revert
+{ 096c6f0506817be8b1507487ce2ece696822ef0d -> e65d95ec161a4f6d6983e250fdca977c5bf65312 }
+Partial Revert commits SHA are -> 
+7a46a4b96c6dca9d596866c29e6651b1a0334f9c - revert - e65d95ec161a4f6d6983e250fdca977c5bf65312
+The reverted commit sha is - 7a46a4b96c6dca9d596866c29e6651b1a0334f9c
+Commit message - cleanup
+The original commit sha is - e65d95ec161a4f6d6983e250fdca977c5bf65312
+Commit message - cleanup
+The files with partial_reverts are:-
+lib/Mojo/Client.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 111 is -> 
+{ 2e3f2b1fa040962a1f284ed1c669445416832343 -> fae237d594df9f4607e2eee58ac38350ff0eba49 } is a revert
+{ 096c6f0506817be8b1507487ce2ece696822ef0d -> e65d95ec161a4f6d6983e250fdca977c5bf65312 }
+Partial Revert commits SHA are -> 
+fae237d594df9f4607e2eee58ac38350ff0eba49 - revert - e65d95ec161a4f6d6983e250fdca977c5bf65312
+The reverted commit sha is - fae237d594df9f4607e2eee58ac38350ff0eba49
+Commit message - reverted previous deprecation
+The original commit sha is - e65d95ec161a4f6d6983e250fdca977c5bf65312
+Commit message - cleanup
+The files with partial_reverts are:-
+lib/Mojo/Client.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 112 is -> 
+{ d4454b52e2c0f65742d7d8cccede3490a363c83f -> dfad68047d3b54527bd5d4dd87d8b87dad59c1e8 } is a revert
+{ dfad68047d3b54527bd5d4dd87d8b87dad59c1e8 -> 7a46a4b96c6dca9d596866c29e6651b1a0334f9c }
+Partial Revert commits SHA are -> 
+dfad68047d3b54527bd5d4dd87d8b87dad59c1e8 - revert - 7a46a4b96c6dca9d596866c29e6651b1a0334f9c
+The reverted commit sha is - dfad68047d3b54527bd5d4dd87d8b87dad59c1e8
+Commit message - cleanup
+The original commit sha is - 7a46a4b96c6dca9d596866c29e6651b1a0334f9c
+Commit message - cleanup
+The files with partial_reverts are:-
+lib/Mojo/Client.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 113 is -> 
+{ 19e84b9a4bb02171cb50793573b365235d734f34 -> cc451997b34a78c697dcbc9ae597d0fe5a8d4ebd } is a revert
+{ 0851ec69f8e93db3107f97e234ac85cdeb7f6536 -> 301f64ac311155ec34afb0367d551137e785982f }
+Partial Revert commits SHA are -> 
+cc451997b34a78c697dcbc9ae597d0fe5a8d4ebd - revert - 301f64ac311155ec34afb0367d551137e785982f
+The reverted commit sha is - cc451997b34a78c697dcbc9ae597d0fe5a8d4ebd
+Commit message - added application specific plugin namespace to Mojolicious
+The original commit sha is - 301f64ac311155ec34afb0367d551137e785982f
+Commit message - removed application specific plugin directory
+The files with partial_reverts are:-
+Changes
+lib/Mojolicious.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 114 is -> 
+{ 3d25ed0de74c4fa8aec4dbea0994702678c750db -> 24b3bffee884e06d37a78c1c88778ec94eebbbba } is a revert
+{ e4f1cb4342d5c1ba905b1791e9024681cc2632ca -> 022897bbe6d5b901e5680eb08dfcf13868ff3c61 }
+Partial Revert commits SHA are -> 
+24b3bffee884e06d37a78c1c88778ec94eebbbba - revert - 022897bbe6d5b901e5680eb08dfcf13868ff3c61
+The reverted commit sha is - 24b3bffee884e06d37a78c1c88778ec94eebbbba
+Commit message - added ->render(text => "") support and many lite examples
+The original commit sha is - 022897bbe6d5b901e5680eb08dfcf13868ff3c61
+Commit message - cleanup
+The files with partial_reverts are:-
+lib/Mojo.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 115 is -> 
+{ 4c6bab7944fb42850bc81569e83e5e10e360fc7c -> b3a1fb453eda447c0bb082cd9eed81bb75a7564a } is a revert
+{ 5a3cd1fd3ca44ed6907d335c818da059b511c48f -> aa7c8da54b1ebd4ccb64aa66dede7b7cdb381c44 }
+Partial Revert commits SHA are -> 
+b3a1fb453eda447c0bb082cd9eed81bb75a7564a - revert - aa7c8da54b1ebd4ccb64aa66dede7b7cdb381c44
+The reverted commit sha is - b3a1fb453eda447c0bb082cd9eed81bb75a7564a
+Commit message - fixed CGI environment detection for broken web servers
+The original commit sha is - aa7c8da54b1ebd4ccb64aa66dede7b7cdb381c44
+Commit message - made detection a little less aggressive
+The files with partial_reverts are:-
+lib/Mojo/Commands.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 116 is -> 
+{ 0462a4373940ff6ff52fd0bc826887b1857e3578 -> 51c1f78d4d3f4daf024fd60459eeb5084560dee7 } is a revert
+{ abf4990fec4a4fab6b1bb42251583b67ea0fc45f -> b99bb3dce42498f2888a6bacdbea55f29d6a8508 }
+Partial Revert commits SHA are -> 
+51c1f78d4d3f4daf024fd60459eeb5084560dee7 - revert - b99bb3dce42498f2888a6bacdbea55f29d6a8508
+The reverted commit sha is - 51c1f78d4d3f4daf024fd60459eeb5084560dee7
+Commit message - added and deprecated draft 75 WebSocket support
+The original commit sha is - b99bb3dce42498f2888a6bacdbea55f29d6a8508
+Commit message - removed another draft 75 bandaid fix
+The files with partial_reverts are:-
+lib/Mojo/Message/Response.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 117 is -> 
+{ 950398a9c02317d6580b38dd0534f84e4d5900ce -> d453882d9801cb00a748295d5ed4d275ae8c1287 } is a revert
+{ d453882d9801cb00a748295d5ed4d275ae8c1287 -> 8ddcbc1938bf9dd8195eab0405e68139dbe3d07d }
+Partial Revert commits SHA are -> 
+d453882d9801cb00a748295d5ed4d275ae8c1287 - revert - 8ddcbc1938bf9dd8195eab0405e68139dbe3d07d
+The reverted commit sha is - d453882d9801cb00a748295d5ed4d275ae8c1287
+Commit message - Revert "added XML namespace support to Mojo::DOM"
+
+This reverts commit 950398a9c02317d6580b38dd0534f84e4d5900ce.
+The original commit sha is - 8ddcbc1938bf9dd8195eab0405e68139dbe3d07d
+Commit message - added XML namespace support to Mojo::DOM with a better implementation
+The files with partial_reverts are:-
+Changes
+-----------------------------------------------------------------
+
+Partial Revert diff pair 118 is -> 
+{ b2e322970eca8ddb52fb179c0af1708741e1dbbd -> 9a3a81001e75126ce919f6806569d574831168dd } is a revert
+{ 9a3a81001e75126ce919f6806569d574831168dd -> 83ca025013e3b1732d9c876c7c73e759f51b1ad9 }
+Partial Revert commits SHA are -> 
+9a3a81001e75126ce919f6806569d574831168dd - revert - 83ca025013e3b1732d9c876c7c73e759f51b1ad9
+The reverted commit sha is - 9a3a81001e75126ce919f6806569d574831168dd
+Commit message - cleaned up reserved stash values and added a list to cheatsheet
+The original commit sha is - 83ca025013e3b1732d9c876c7c73e759f51b1ad9
+Commit message - cleanup
+The files with partial_reverts are:-
+t/mojolicious/templates/exception.html.epl
+-----------------------------------------------------------------
+
+Partial Revert diff pair 119 is -> 
+{ bc2caabb93f4b7b8c9c42f091c39e2972dfad0b5 -> 08cc992ec5d3f96101511a7b28a28ee2092e1ce7 } is a revert
+{ 4cb2b0767aee4cca61f21a3e4d86cc539141fd52 -> ff475716c6f26fe3a4163188a587467cfb0bd332 }
+Partial Revert commits SHA are -> 
+08cc992ec5d3f96101511a7b28a28ee2092e1ce7 - revert - ff475716c6f26fe3a4163188a587467cfb0bd332
+The reverted commit sha is - 08cc992ec5d3f96101511a7b28a28ee2092e1ce7
+Commit message - cleanup
+The original commit sha is - ff475716c6f26fe3a4163188a587467cfb0bd332
+Commit message - readded accept mutex for prefork daemon
+The files with partial_reverts are:-
+lib/Mojo/Command/DaemonPrefork.pm
+lib/Mojolicious/Guides/Cookbook.pod
+-----------------------------------------------------------------
+
+Partial Revert diff pair 120 is -> 
+{ c5b6415d682ca0e8263a5e41bf0407f06610b414 -> c0c0c12531bf5ceb7ebbd5259a1bf4b51549da21 } is a revert
+{ 0462a4373940ff6ff52fd0bc826887b1857e3578 -> 51c1f78d4d3f4daf024fd60459eeb5084560dee7 }
+Partial Revert commits SHA are -> 
+c0c0c12531bf5ceb7ebbd5259a1bf4b51549da21 - revert - 51c1f78d4d3f4daf024fd60459eeb5084560dee7
+The reverted commit sha is - c0c0c12531bf5ceb7ebbd5259a1bf4b51549da21
+Commit message - updated websocket implementation to draft 76, this change is not backwards compatible
+The original commit sha is - 51c1f78d4d3f4daf024fd60459eeb5084560dee7
+Commit message - added and deprecated draft 75 WebSocket support
+The files with partial_reverts are:-
+lib/Mojo/Message/Response.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 121 is -> 
+{ 8328a1248e4c2d50833554bfc2a88c337ea92bca -> 015ef86cf6619962ffb404c53bfc81415438ac8f } is a revert
+{ 015ef86cf6619962ffb404c53bfc81415438ac8f -> 5f7d0c90ee65822702331f29cb2072d87d63f02c }
+Partial Revert commits SHA are -> 
+015ef86cf6619962ffb404c53bfc81415438ac8f - revert - 5f7d0c90ee65822702331f29cb2072d87d63f02c
+The reverted commit sha is - 015ef86cf6619962ffb404c53bfc81415438ac8f
+Commit message - fixed the fix :)
+The original commit sha is - 5f7d0c90ee65822702331f29cb2072d87d63f02c
+Commit message - cleanup
+The files with partial_reverts are:-
+lib/Mojo/Server/Daemon.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 122 is -> 
+{ e7445097201832443cf0ad847fda5ce97f9e123a -> 66267f1d30d2acf477ed591b297c3bd8abd79b76 } is a revert
+{ c004370354b246b69f381fe60edb8231a2ef1665 -> 493366a97eeeffbd789bd6a34b1546264871c288 }
+Partial Revert commits SHA are -> 
+66267f1d30d2acf477ed591b297c3bd8abd79b76 - revert - 493366a97eeeffbd789bd6a34b1546264871c288
+The reverted commit sha is - 66267f1d30d2acf477ed591b297c3bd8abd79b76
+Commit message - added first draft of the routing guide
+The original commit sha is - 493366a97eeeffbd789bd6a34b1546264871c288
+Commit message - cleanup
+The files with partial_reverts are:-
+lib/Mojolicious/Plugin/AgentCondition.pm
+lib/Mojolicious/Plugin/HeaderCondition.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 123 is -> 
+{ bd18bba321fc56625039980dbc60deb65033f82c -> f6ff88808ae12a11d77209cb50d0341da6b36746 } is a revert
+{ f6ff88808ae12a11d77209cb50d0341da6b36746 -> 562091076792ba3dab71529c5f056a5427c32737 }
+Partial Revert commits SHA are -> 
+f6ff88808ae12a11d77209cb50d0341da6b36746 - revert - 562091076792ba3dab71529c5f056a5427c32737
+The reverted commit sha is - f6ff88808ae12a11d77209cb50d0341da6b36746
+Commit message - fixed Mojolicious application embedding and added recipe to routing guide
+The original commit sha is - 562091076792ba3dab71529c5f056a5427c32737
+Commit message - removed detour method again and updated routing guide
+The files with partial_reverts are:-
+t/mojolicious/embedded_lite_app.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 124 is -> 
+{ 12fcfe5202ace03d368722e76cf55b83281519e9 -> 5620869ecf1a6f6933aaad40e605c0a7e30815e3 } is a revert
+{ bd6d2b506b0346cd636503ac67231f22df4d32f9 -> aadeda805a2be01822c8804dd3a002a685db8981 }
+Partial Revert commits SHA are -> 
+5620869ecf1a6f6933aaad40e605c0a7e30815e3 - revert - aadeda805a2be01822c8804dd3a002a685db8981
+The reverted commit sha is - 5620869ecf1a6f6933aaad40e605c0a7e30815e3
+Commit message - added version requirement for all optional dependencies
+The original commit sha is - aadeda805a2be01822c8804dd3a002a685db8981
+Commit message - cleanup
+The files with partial_reverts are:-
+t/mojolicious/websocket_tls_proxy_lite_app.t
+-----------------------------------------------------------------
+
+Partial Revert diff pair 125 is -> 
+{ 41915612652f38adff1b4ee21e00d10cbdf9c924 -> 39f4c43e8ac45a69f326156bc21cf44b296bce5f } is a revert
+{ 21a6379eb4d82b2eae2e264f42191946b563c349 -> 56abdc337cf379cab9da9a08f9336a3419fc39db }
+Partial Revert commits SHA are -> 
+39f4c43e8ac45a69f326156bc21cf44b296bce5f - revert - 56abdc337cf379cab9da9a08f9336a3419fc39db
+The reverted commit sha is - 39f4c43e8ac45a69f326156bc21cf44b296bce5f
+Commit message - fixed tls support
+The original commit sha is - 56abdc337cf379cab9da9a08f9336a3419fc39db
+Commit message - fixed another unix domain socket bug
+The files with partial_reverts are:-
+lib/Mojo/Server/Daemon.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 126 is -> 
+{ 4edb4cfd6e9ce6751769f5ccf45345205af4b3ba -> 3daf57785099dde87de1d226ef223ef4b91d66c5 } is a revert
+{ 005e644ccb13a84132570836d9648b3ba76df64f -> 841eefbcb56a2bcca843a621b75e9f2914aaebab }
+Partial Revert commits SHA are -> 
+3daf57785099dde87de1d226ef223ef4b91d66c5 - revert - 841eefbcb56a2bcca843a621b75e9f2914aaebab
+The reverted commit sha is - 3daf57785099dde87de1d226ef223ef4b91d66c5
+Commit message - added transparent SSL support to client and daemons
+The original commit sha is - 841eefbcb56a2bcca843a621b75e9f2914aaebab
+Commit message - added more user friendly tls warning
+The files with partial_reverts are:-
+Makefile.PL
+-----------------------------------------------------------------
+
+Partial Revert diff pair 127 is -> 
+{ e49f8e86c9a4a2d5a26171547956000634793cc7 -> bcfc1dd1f82abab935dc0bb78d07fdd298d7ca0b } is a revert
+{ 43c07c82e30487cf98b6377a99655fb0388af108 -> 21b78f75d7cce8870ea2006d3ec386e0529df054 }
+Partial Revert commits SHA are -> 
+bcfc1dd1f82abab935dc0bb78d07fdd298d7ca0b - revert - 21b78f75d7cce8870ea2006d3ec386e0529df054
+The reverted commit sha is - bcfc1dd1f82abab935dc0bb78d07fdd298d7ca0b
+Commit message - changed default listen address to 0.0.0.0
+The original commit sha is - 21b78f75d7cce8870ea2006d3ec386e0529df054
+Commit message - reverted listen socket change
+The files with partial_reverts are:-
+Changes
+-----------------------------------------------------------------
+
+Partial Revert diff pair 128 is -> 
+{ 1b6f9285d833a79ce70d73ec1d9e31a6e9d2143c -> 9ae2634eb3c5a10aa8d5914ff52aacb2fed6ade8 } is a revert
+{ 6a8924a23b19c2f1a4bb84fbd619c6279103a71b -> c573dda7ff1bda253ef48427e01ca2bd12d2988c }
+Partial Revert commits SHA are -> 
+9ae2634eb3c5a10aa8d5914ff52aacb2fed6ade8 - revert - c573dda7ff1bda253ef48427e01ca2bd12d2988c
+The reverted commit sha is - 9ae2634eb3c5a10aa8d5914ff52aacb2fed6ade8
+Commit message - added proxy support to client
+The original commit sha is - c573dda7ff1bda253ef48427e01ca2bd12d2988c
+Commit message - cleanup
+The files with partial_reverts are:-
+Changes
+-----------------------------------------------------------------
+
+Partial Revert diff pair 129 is -> 
+{ 25aebdf5423f708f2138fac64816423983f7309b -> ae16716b60b9ab8c38807fe52a22727c2f0db14c } is a revert
+{ 6c81f61c9d00455db2d4f59ce387f878e8ffb6e0 -> 390d11f9d27d0cc19bc9fe31a979665d2b0ae1ad }
+Partial Revert commits SHA are -> 
+ae16716b60b9ab8c38807fe52a22727c2f0db14c - revert - 390d11f9d27d0cc19bc9fe31a979665d2b0ae1ad
+The reverted commit sha is - ae16716b60b9ab8c38807fe52a22727c2f0db14c
+Commit message - abort parsing on errors in all environments
+The original commit sha is - 390d11f9d27d0cc19bc9fe31a979665d2b0ae1ad
+Commit message - cleanup
+The files with partial_reverts are:-
+lib/Mojo/Server/CGI.pm
+lib/Mojo/Server/PSGI.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 130 is -> 
+{ d4b714db3bb5c5b581ca7da02a0d53b09e4a2a3e -> f61048277b0fd8f6d3829de27c8ce838784f4911 } is a revert
+{ 7bda768c1aa4c199b6df5db10c3e6a94713f5c73 -> d5efdc751834f071296086bb1c478888b376ccca }
+Partial Revert commits SHA are -> 
+f61048277b0fd8f6d3829de27c8ce838784f4911 - revert - d5efdc751834f071296086bb1c478888b376ccca
+The reverted commit sha is - f61048277b0fd8f6d3829de27c8ce838784f4911
+Commit message - close connection after errors
+The original commit sha is - d5efdc751834f071296086bb1c478888b376ccca
+Commit message - improved ioloop responsiveness
+The files with partial_reverts are:-
+lib/Mojo/IOLoop.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 131 is -> 
+{ 56e98d8ad3b1e21f94976574237db14ec2a1336c -> bdbee5abbb4d4a77914eeca39d22ea14ee61751a } is a revert
+{ bdbee5abbb4d4a77914eeca39d22ea14ee61751a -> c41136c8f28620a97368a8861219557246f2eb5c }
+Partial Revert commits SHA are -> 
+bdbee5abbb4d4a77914eeca39d22ea14ee61751a - revert - c41136c8f28620a97368a8861219557246f2eb5c
+The reverted commit sha is - bdbee5abbb4d4a77914eeca39d22ea14ee61751a
+Commit message - fixed MOJO_CHUNK_SIZE=1 with kqueue
+The original commit sha is - c41136c8f28620a97368a8861219557246f2eb5c
+Commit message - fixed kqueue to behave just like poll
+The files with partial_reverts are:-
+lib/Test/Mojo.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 132 is -> 
+{ 9cc3cf436b4aa9b9996a57d89934e0ef77461b15 -> 6bd6e100ebea338a3e0aed2a2b71edf95a0bb4ef } is a revert
+{ 6bd6e100ebea338a3e0aed2a2b71edf95a0bb4ef -> 0b569e2b80c5083d0f2b20cd9dd1abc4f9ee0805 }
+Partial Revert commits SHA are -> 
+6bd6e100ebea338a3e0aed2a2b71edf95a0bb4ef - revert - 0b569e2b80c5083d0f2b20cd9dd1abc4f9ee0805
+The reverted commit sha is - 6bd6e100ebea338a3e0aed2a2b71edf95a0bb4ef
+Commit message - fixed large file upload bug and some more
+The original commit sha is - 0b569e2b80c5083d0f2b20cd9dd1abc4f9ee0805
+Commit message - fixed typo
+The files with partial_reverts are:-
+lib/Mojo/Content.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 133 is -> 
+{ 8d6db1bcd58fd13c7beb261ca0a636bcda501843 -> 42d5636080fb8ada55821cb1bcde7bb5bd113404 } is a revert
+{ 45a9d99482dd736b8db64635e379c0422a3a2eb7 -> 287466983138e67e83e9dc24b6ac3dd999abc78b }
+Partial Revert commits SHA are -> 
+42d5636080fb8ada55821cb1bcde7bb5bd113404 - revert - 287466983138e67e83e9dc24b6ac3dd999abc78b
+The reverted commit sha is - 42d5636080fb8ada55821cb1bcde7bb5bd113404
+Commit message - fixed connection close bugs in daemon and client
+The original commit sha is - 287466983138e67e83e9dc24b6ac3dd999abc78b
+Commit message - merged finish with drop
+The files with partial_reverts are:-
+lib/Mojo/Client.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 134 is -> 
+{ a0bdede9e256261c08c49b32ce9e15cb4dc80e88 -> c69ff10d77086c84ca1d5b035db0d2422a61e764 } is a revert
+{ c69ff10d77086c84ca1d5b035db0d2422a61e764 -> 8d934bf9aac1263d5a8d80d1d55ec10282c700ec }
+Partial Revert commits SHA are -> 
+c69ff10d77086c84ca1d5b035db0d2422a61e764 - revert - 8d934bf9aac1263d5a8d80d1d55ec10282c700ec
+The reverted commit sha is - c69ff10d77086c84ca1d5b035db0d2422a61e764
+Commit message - MOJO_RELOAD=1 now works with Mojolicious::Lite, have fun!
+The original commit sha is - 8d934bf9aac1263d5a8d80d1d55ec10282c700ec
+Commit message - fixed typo
+The files with partial_reverts are:-
+lib/Mojo/Loader.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 135 is -> 
+{ a58ad0b82a56cbc80369c713eb3f41d861cf998a -> b0042e28bb9e78660c843247d12bced62a753cab } is a revert
+{ 4da2481e3ee2d7e731db09dc6f14388c4d2c7f6e -> 5993910ec176fcb9f4a8d5a7996db06457110ca8 }
+Partial Revert commits SHA are -> 
+b0042e28bb9e78660c843247d12bced62a753cab - revert - 5993910ec176fcb9f4a8d5a7996db06457110ca8
+The reverted commit sha is - b0042e28bb9e78660c843247d12bced62a753cab
+Commit message - added default_handler support to MojoX::Renderer
+The original commit sha is - 5993910ec176fcb9f4a8d5a7996db06457110ca8
+Commit message - updated tests
+The files with partial_reverts are:-
+t/mojolicious/templates/23.html.epl
+-----------------------------------------------------------------
+
+Partial Revert diff pair 136 is -> 
+{ e951602adda3e70144380486c633c01671cee0e3 -> 402af20064eeb5204fe019b5c4ba0d2db01ac2d6 } is a revert
+{ 402af20064eeb5204fe019b5c4ba0d2db01ac2d6 -> 47c2643bd693134eb1586c475512082b3fc1f38c }
+Partial Revert commits SHA are -> 
+402af20064eeb5204fe019b5c4ba0d2db01ac2d6 - revert - 47c2643bd693134eb1586c475512082b3fc1f38c
+The reverted commit sha is - 402af20064eeb5204fe019b5c4ba0d2db01ac2d6
+Commit message - cleaned up Mojo::Transaction
+The original commit sha is - 47c2643bd693134eb1586c475512082b3fc1f38c
+Commit message - and reverted
+The files with partial_reverts are:-
+lib/Mojo/Transaction.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 137 is -> 
+{ 8a668932a80aebd3197e2940b13a6a96af53305c -> d85199e4233aa3336fdb72e02ca368f325c3a776 } is a revert
+{ d85199e4233aa3336fdb72e02ca368f325c3a776 -> 40590a98f43e41e9a9f0cc6d90e21f2401846825 }
+Partial Revert commits SHA are -> 
+d85199e4233aa3336fdb72e02ca368f325c3a776 - revert - 40590a98f43e41e9a9f0cc6d90e21f2401846825
+The reverted commit sha is - d85199e4233aa3336fdb72e02ca368f325c3a776
+Commit message - updated exception handling in Mojolicious to work with exceptions in epl templates
+The original commit sha is - 40590a98f43e41e9a9f0cc6d90e21f2401846825
+Commit message - cleanup
+The files with partial_reverts are:-
+lib/Mojo/Home.pm
+lib/Mojo/Scripts.pm
+lib/Mojo/Server/Daemon/Prefork.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 138 is -> 
+{ ac7bc8dfc9c04bcdc94c8b4416ea9030ea46e2ba -> 6722355201eaa3184e8d67e83e01dcf703fe79fb } is a revert
+{ 943fd0c2548c3ded1295f063b2e79450fcc599b2 -> 550f704cb4eaee5ddbb7009b5a43e859999a29f7 }
+Partial Revert commits SHA are -> 
+6722355201eaa3184e8d67e83e01dcf703fe79fb - revert - 550f704cb4eaee5ddbb7009b5a43e859999a29f7
+The reverted commit sha is - 6722355201eaa3184e8d67e83e01dcf703fe79fb
+Commit message - updated generator scripts and added prepare/finalize methods to Mojolicious
+The original commit sha is - 550f704cb4eaee5ddbb7009b5a43e859999a29f7
+Commit message - removed prepare/finalize methods from Mojolicious
+The files with partial_reverts are:-
+lib/Mojolicious.pm
+t/mojolicious/app.t
+t/mojolicious/lib/MojoliciousTest.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 139 is -> 
+{ a58ad0b82a56cbc80369c713eb3f41d861cf998a -> b0042e28bb9e78660c843247d12bced62a753cab } is a revert
+{ b0042e28bb9e78660c843247d12bced62a753cab -> 0510a1f4d4c5f1faac6f853486174c0c38f57e74 }
+Partial Revert commits SHA are -> 
+b0042e28bb9e78660c843247d12bced62a753cab - revert - 0510a1f4d4c5f1faac6f853486174c0c38f57e74
+The reverted commit sha is - b0042e28bb9e78660c843247d12bced62a753cab
+Commit message - added default_handler support to MojoX::Renderer
+The original commit sha is - 0510a1f4d4c5f1faac6f853486174c0c38f57e74
+Commit message - added another test case for default_handler
+The files with partial_reverts are:-
+t/mojolicious/templates/layouts/default.html
+t/mojolicious/templates/layouts/default.html.epl
+-----------------------------------------------------------------
+
+Partial Revert diff pair 140 is -> 
+{ c2a74ad48f4ff7e54fc358e0b977d2ad68ebe3cc -> 4cac88b80fa6738b09a532a721e9af9e3a552957 } is a revert
+{ 4cac88b80fa6738b09a532a721e9af9e3a552957 -> ffee22fb603fc46f21ad1f39e45af5342ec0886d }
+Partial Revert commits SHA are -> 
+4cac88b80fa6738b09a532a721e9af9e3a552957 - revert - ffee22fb603fc46f21ad1f39e45af5342ec0886d
+The reverted commit sha is - 4cac88b80fa6738b09a532a721e9af9e3a552957
+Commit message - Fix bug for default format handling in MojoX::Renderer, add test for it.
+The original commit sha is - ffee22fb603fc46f21ad1f39e45af5342ec0886d
+Commit message - reformatted and fixed bugs
+The files with partial_reverts are:-
+lib/Mojo/Log.pm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 141 is -> 
+{ 822fb89f2b84df21889a69216061b805822b0149 -> cfb9d9feb5c1f4ea6fdfaf980bb12802fa00245c } is a revert
+{ 0b50bb90edc3d8095fba6307b8fb53834202edc4 -> 3196cbf1859b21035fb7878f467c6d13f29fc231 }
+Partial Revert commits SHA are -> 
+cfb9d9feb5c1f4ea6fdfaf980bb12802fa00245c - revert - 3196cbf1859b21035fb7878f467c6d13f29fc231
+The reverted commit sha is - cfb9d9feb5c1f4ea6fdfaf980bb12802fa00245c
+Commit message - added support for local app scripts
+The original commit sha is - 3196cbf1859b21035fb7878f467c6d13f29fc231
+Commit message - removed local script support to fix everything again
+The files with partial_reverts are:-
+Changes
+-----------------------------------------------------------------
+
+Partial Revert diff pair 142 is -> 
+{ be7b154c89c5267f1f98af5073b578cc3aa0b623 -> 9be2f041a20230f2f2cf1112883c7b6016cbd3f9 } is a revert
+{ 666fd8f364dd7b5c504de467bd6fd4ab01cb3531 -> 114775a0132f4fdcfe59f998b467f013256b5e5e }
+Partial Revert commits SHA are -> 
+9be2f041a20230f2f2cf1112883c7b6016cbd3f9 - revert - 114775a0132f4fdcfe59f998b467f013256b5e5e
+The reverted commit sha is - 9be2f041a20230f2f2cf1112883c7b6016cbd3f9
+Commit message - fiex win32 support in daemon (hopefully)
+The original commit sha is - 114775a0132f4fdcfe59f998b467f013256b5e5e
+Commit message - cleanup
+The files with partial_reverts are:-
+Makefile
+blib/lib/Mojo.pm
+blib/lib/Mojo/Base.pm
+blib/lib/Mojo/Buffer.pm
+blib/lib/Mojo/ByteStream.pm
+blib/lib/Mojo/Client.pm
+blib/lib/Mojo/Content.pm
+blib/lib/Mojo/Content/MultiPart.pm
+blib/lib/Mojo/Cookie.pm
+blib/lib/Mojo/Cookie/Request.pm
+blib/lib/Mojo/Cookie/Response.pm
+blib/lib/Mojo/Date.pm
+blib/lib/Mojo/File.pm
+blib/lib/Mojo/File/Memory.pm
+blib/lib/Mojo/Filter.pm
+blib/lib/Mojo/Filter/Chunked.pm
+blib/lib/Mojo/Headers.pm
+blib/lib/Mojo/HelloWorld.pm
+blib/lib/Mojo/Home.pm
+blib/lib/Mojo/Loader.pm
+blib/lib/Mojo/Manual.pod
+blib/lib/Mojo/Manual/CodingGuidelines.pod
+blib/lib/Mojo/Manual/Cookbook.pod
+blib/lib/Mojo/Manual/FrameworkBuilding.pod
+blib/lib/Mojo/Manual/GettingStarted.pod
+blib/lib/Mojo/Manual/HTTPGuide.pod
+blib/lib/Mojo/Manual/Mojolicious.pod
+blib/lib/Mojo/Message.pm
+blib/lib/Mojo/Message/Request.pm
+blib/lib/Mojo/Message/Response.pm
+blib/lib/Mojo/Parameters.pm
+blib/lib/Mojo/Path.pm
+blib/lib/Mojo/Script.pm
+blib/lib/Mojo/Script/Cgi.pm
+blib/lib/Mojo/Script/Daemon.pm
+blib/lib/Mojo/Script/DaemonPrefork.pm
+blib/lib/Mojo/Script/Fastcgi.pm
+blib/lib/Mojo/Script/Generate.pm
+blib/lib/Mojo/Script/Generate/App.pm
+blib/lib/Mojo/Script/Test.pm
+blib/lib/Mojo/Scripts.pm
+blib/lib/Mojo/Server.pm
+blib/lib/Mojo/Server/CGI.pm
+blib/lib/Mojo/Server/Daemon.pm
+blib/lib/Mojo/Server/Daemon/Prefork.pm
+blib/lib/Mojo/Server/FastCGI.pm
+blib/lib/Mojo/Stateful.pm
+blib/lib/Mojo/Template.pm
+blib/lib/Mojo/Transaction.pm
+blib/lib/Mojo/URL.pm
+blib/lib/Mojo/Upload.pm
+blib/lib/MojoX/Dispatcher/Routes.pm
+blib/lib/MojoX/Dispatcher/Routes/Context.pm
+blib/lib/MojoX/Dispatcher/Routes/Controller.pm
+blib/lib/MojoX/Dispatcher/Static.pm
+blib/lib/MojoX/Renderer.pm
+blib/lib/MojoX/Routes.pm
+blib/lib/MojoX/Routes/Match.pm
+blib/lib/MojoX/Routes/Pattern.pm
+blib/lib/MojoX/Types.pm
+blib/lib/Mojolicious.pm
+blib/lib/Mojolicious/Context.pm
+blib/lib/Mojolicious/Controller.pm
+blib/lib/Mojolicious/Dispatcher.pm
+blib/lib/Mojolicious/Renderer.pm
+blib/lib/Mojolicious/Script/Daemon.pm
+blib/lib/Mojolicious/Script/Generate.pm
+blib/lib/Mojolicious/Script/Generate/App.pm
+blib/lib/Mojolicious/Script/Mojo.pm
+blib/lib/Mojolicious/Script/Test.pm
+blib/lib/Mojolicious/Scripts.pm
+blib/lib/Test/Mojo/Server.pm
+blib/script/mojo
+blib/script/mojolicious
+-----------------------------------------------------------------
+

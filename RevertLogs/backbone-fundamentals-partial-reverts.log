@@ -1,0 +1,2837 @@
+# of partial reverts = 156
+Partial Revert diff pair 1 is -> 
+{ 3f25333b8bd96913daa1c0f2ad312f97796897c9 -> 870cd26f0ce4831ac10c0b1a0a96c5d3533ecc7c } is a revert
+{ 71e8d51c22f42ef59d4be2f4f01a8077c3e551d8 -> 1f3aec58d224355a65f9d70e9ce77dfc8b17929c }
+Partial Revert commits SHA are -> 
+870cd26f0ce4831ac10c0b1a0a96c5d3533ecc7c - revert - 1f3aec58d224355a65f9d70e9ce77dfc8b17929c
+The reverted commit sha is - 870cd26f0ce4831ac10c0b1a0a96c5d3533ecc7c
+Commit message - removed Connect
+
+removed Express previously used Middleware (Connect)
+The original commit sha is - 1f3aec58d224355a65f9d70e9ce77dfc8b17929c
+Commit message - Merge pull request #602 from rwstauner/sinonjs-fixes
+
+Fixes for example section in qunit/sinonjs section
+The files with partial_reverts are:-
+chapters/15-sinonjs.md
+practicals/qunit-koans/specrunner.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 870cd26f0ce4831ac10c0b1a0a96c5d3533ecc7c -> 60019d8a58ce350adee334e14f2b77e9b4a71f24 } is a revert
+{ 91f09111618d4b80aadecac5872412ef007ca0ad -> ec325e87e08e1d296334f8367407c4ec17e29f9f }
+Partial Revert commits SHA are -> 
+60019d8a58ce350adee334e14f2b77e9b4a71f24 - revert - ec325e87e08e1d296334f8367407c4ec17e29f9f
+The reverted commit sha is - 60019d8a58ce350adee334e14f2b77e9b4a71f24
+Commit message - change Marionette event
+
+The new version of Marionette uses before:start and start instead of initialize:after
+The original commit sha is - ec325e87e08e1d296334f8367407c4ec17e29f9f
+Commit message - Merge pull request #603 from nicolechung/patch-1
+
+removed Connect
+The files with partial_reverts are:-
+chapters/05-exercise-2.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 47750bef12f97380fa338a72c2e08e77ad9443b8 -> c5ea373bc004efb1e069b837f45e082cbb982b69 } is a revert
+{ 856126fddeddf709c5d8f73d610f1e6af2f0c526 -> 3b17d210851ccff1e1d77dc2150bc6070ddbc76a }
+Partial Revert commits SHA are -> 
+c5ea373bc004efb1e069b837f45e082cbb982b69 - revert - 3b17d210851ccff1e1d77dc2150bc6070ddbc76a
+The reverted commit sha is - c5ea373bc004efb1e069b837f45e082cbb982b69
+Commit message - Update broken link to blog post resource
+
+Blog/repo has been moved/reformatted
+The original commit sha is - 3b17d210851ccff1e1d77dc2150bc6070ddbc76a
+Commit message - Merge pull request #593 from rwstauner/patch-3
+
+Include localstorage alias in function arg list
+The files with partial_reverts are:-
+chapters/11-bbb.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 48a49a3f2d97970d6ac786d2ce4c65d529a4a100 -> 79762a97da82c027c703263809ed0176e87f2c72 } is a revert
+{ fe4e3dc84fe439e8c0edadae838a78577b8c5dc6 -> 982c21b0f2111cfcacad3806fcbaca7e54adbff4 }
+Partial Revert commits SHA are -> 
+79762a97da82c027c703263809ed0176e87f2c72 - revert - 982c21b0f2111cfcacad3806fcbaca7e54adbff4
+The reverted commit sha is - 79762a97da82c027c703263809ed0176e87f2c72
+Commit message - Taking a stab at finding words that seem a bit more appropriate:
+"allowing the user to work on other parts of a page without interaction" --> "allowing the user to interact with other parts of a page without interruption"
+The original commit sha is - 982c21b0f2111cfcacad3806fcbaca7e54adbff4
+Commit message - Merge pull request #586 from ogonkov/patch-1
+
+Remove references to `this.model`
+The files with partial_reverts are:-
+chapters/06-extensions.md
+chapters/09-exercise-3.md
+chapters/18-appendix.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ b61744ad4f035a5bbb17bfac7b4a0f8bd048952d -> df5bc8c8024092accbc470a9862644b1c33f7c1a } is a revert
+{ f7678f12df058a0f13037437f9fcc37a3be92977 -> fe4e3dc84fe439e8c0edadae838a78577b8c5dc6 }
+Partial Revert commits SHA are -> 
+df5bc8c8024092accbc470a9862644b1c33f7c1a - revert - fe4e3dc84fe439e8c0edadae838a78577b8c5dc6
+The reverted commit sha is - df5bc8c8024092accbc470a9862644b1c33f7c1a
+Commit message - Update 03-internals.md
+
+The comment was incorrect. The event is in fact triggered for the time, and afterwards the function incrA is responsible for triggering the event once more.
+The original commit sha is - fe4e3dc84fe439e8c0edadae838a78577b8c5dc6
+Commit message - Merge pull request #587 from pearcemerritt/typos-found-while-reading
+
+Typos found while reading
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+chapters/05-exercise-2.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ df5bc8c8024092accbc470a9862644b1c33f7c1a -> 9daf8300dc28ffd947ccb7101c1a7bc73d690062 } is a revert
+{ a63fab05ddabcf13330eac4f442ca27fd8d8da61 -> f7678f12df058a0f13037437f9fcc37a3be92977 }
+Partial Revert commits SHA are -> 
+9daf8300dc28ffd947ccb7101c1a7bc73d690062 - revert - f7678f12df058a0f13037437f9fcc37a3be92977
+The reverted commit sha is - 9daf8300dc28ffd947ccb7101c1a7bc73d690062
+Commit message - Insert heading between solution descriptions
+The original commit sha is - f7678f12df058a0f13037437f9fcc37a3be92977
+Commit message - Merge pull request #589 from ohvitorino/gh-pages
+
+Update 03-internals.md
+The files with partial_reverts are:-
+chapters/03-internals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ 9daf8300dc28ffd947ccb7101c1a7bc73d690062 -> f4f579272b78b8544ce9d5ea26c814bd7a89d303 } is a revert
+{ aec4e4bffc3d2d8e26f0dda825238da01a09a027 -> a63fab05ddabcf13330eac4f442ca27fd8d8da61 }
+Partial Revert commits SHA are -> 
+f4f579272b78b8544ce9d5ea26c814bd7a89d303 - revert - a63fab05ddabcf13330eac4f442ca27fd8d8da61
+The reverted commit sha is - f4f579272b78b8544ce9d5ea26c814bd7a89d303
+Commit message - Put file globs in code spans
+
+Depending on the renderer the asterisks may be interpreted as markdown characters
+and alter the style of the text (and in some cases make the asterisks disappear).
+The original commit sha is - a63fab05ddabcf13330eac4f442ca27fd8d8da61
+Commit message - Merge pull request #590 from rwstauner/patch-1
+
+Insert heading between solution descriptions
+The files with partial_reverts are:-
+chapters/07-common-problems.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ f4f579272b78b8544ce9d5ea26c814bd7a89d303 -> 47750bef12f97380fa338a72c2e08e77ad9443b8 } is a revert
+{ c7b20d5f4c05d7a7de168b2cb496ca91c00b84c8 -> aec4e4bffc3d2d8e26f0dda825238da01a09a027 }
+Partial Revert commits SHA are -> 
+47750bef12f97380fa338a72c2e08e77ad9443b8 - revert - aec4e4bffc3d2d8e26f0dda825238da01a09a027
+The reverted commit sha is - 47750bef12f97380fa338a72c2e08e77ad9443b8
+Commit message - Include localstorage alias in function arg list
+The original commit sha is - aec4e4bffc3d2d8e26f0dda825238da01a09a027
+Commit message - Merge pull request #592 from rwstauner/patch-2
+
+Put file globs in code spans
+The files with partial_reverts are:-
+chapters/09-exercise-3.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ c5ea373bc004efb1e069b837f45e082cbb982b69 -> 2231d737f10c4f5c5286d284f07114ced1b2d160 } is a revert
+{ 570b9301c24217fb7444cd6f665343b5afd7fe2e -> c7b20d5f4c05d7a7de168b2cb496ca91c00b84c8 }
+Partial Revert commits SHA are -> 
+2231d737f10c4f5c5286d284f07114ced1b2d160 - revert - c7b20d5f4c05d7a7de168b2cb496ca91c00b84c8
+The reverted commit sha is - 2231d737f10c4f5c5286d284f07114ced1b2d160
+Commit message - Remove semicolon from inside object literal
+The original commit sha is - c7b20d5f4c05d7a7de168b2cb496ca91c00b84c8
+Commit message - Merge pull request #594 from rwstauner/patch-4
+
+Update broken link to blog post resource
+The files with partial_reverts are:-
+chapters/16-resources.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ df216a5a984e16aa5c429a4cc08a6306a6cf8427 -> 039735f308cd4095082533e218fa06b0dcab82ba } is a revert
+{ 039735f308cd4095082533e218fa06b0dcab82ba -> a980f9c0250d18f3c10008fa872b5e6eedddbc10 }
+Partial Revert commits SHA are -> 
+039735f308cd4095082533e218fa06b0dcab82ba - revert - a980f9c0250d18f3c10008fa872b5e6eedddbc10
+The reverted commit sha is - 039735f308cd4095082533e218fa06b0dcab82ba
+Commit message - Fixes #448 - nested views improvement
+The original commit sha is - a980f9c0250d18f3c10008fa872b5e6eedddbc10
+Commit message - Merge branch 'gh-pages' of https://github.com/addyosmani/backbone-fundamentals into gh-pages
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ cf52b425ef31b356ed661e2ace3d568309216cb3 -> 340c9a5984ab6c3134570a0a32df4f600e6dee86 } is a revert
+{ d3287de63bc57aee4761169d585363967f0b7fa6 -> 11eb74da1de3aaba26247f0147e2d206944ed5df }
+Partial Revert commits SHA are -> 
+340c9a5984ab6c3134570a0a32df4f600e6dee86 - revert - 11eb74da1de3aaba26247f0147e2d206944ed5df
+The reverted commit sha is - 340c9a5984ab6c3134570a0a32df4f600e6dee86
+Commit message - Fix example reference at chapter 3
+
+The text was referencing to TodosView example, but actually the render method is inside TodoView.
+The original commit sha is - 11eb74da1de3aaba26247f0147e2d206944ed5df
+Commit message - Merge pull request #579 from Trott/not-a-framework
+
+framework -> library
+The files with partial_reverts are:-
+chapters/07-common-problems.md
+chapters/11-bbb.md
+chapters/18-appendix.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ 9b2f0d15ad1a3a6f0ed9daffb93313dc9666a3bf -> 460613d85cbca5810a0974cc53095e1c6dfb5cdd } is a revert
+{ 0e33ce2438b3c22323148b830266a8bddef89356 -> 37447c458b4d8ec2b1b0418a81539b0176340b4e }
+Partial Revert commits SHA are -> 
+460613d85cbca5810a0974cc53095e1c6dfb5cdd - revert - 37447c458b4d8ec2b1b0418a81539b0176340b4e
+The reverted commit sha is - 460613d85cbca5810a0974cc53095e1c6dfb5cdd
+Commit message - Update 12-mobile-applications.md
+
+ console.log(page was inserted into the DOM'); >  console.log('page was inserted into the DOM');
+The original commit sha is - 37447c458b4d8ec2b1b0418a81539b0176340b4e
+Commit message - Merge pull request #569 from dprotti/jasminedownloadbrokenlink
+
+Jasmine download area - broken link
+The files with partial_reverts are:-
+chapters/13-unit-testing.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ 7a90e01fc850a5736867d6bd772559e11cb66d19 -> 9e038430727432055137585fcf9f1b0b86535f6d } is a revert
+{ 751c24bb76d60881874f5eacc87da41513c65bad -> ee4f58292b4fbc71297194c879ebfd25cd2943b5 }
+Partial Revert commits SHA are -> 
+9e038430727432055137585fcf9f1b0b86535f6d - revert - ee4f58292b4fbc71297194c879ebfd25cd2943b5
+The reverted commit sha is - 9e038430727432055137585fcf9f1b0b86535f6d
+Commit message - Added the code from chapter 5 to the repo
+The original commit sha is - ee4f58292b4fbc71297194c879ebfd25cd2943b5
+Commit message - Retire duplicate practical 2 directory.
+The files with partial_reverts are:-
+exercise-2/package.json
+exercise-2/server.js
+exercise-2/site/css/cupertino/jquery-ui-1.10.0.custom.css
+exercise-2/site/css/cupertino/jquery-ui-1.10.0.custom.min.css
+exercise-2/site/css/screen.css
+exercise-2/site/index.html
+exercise-2/site/js/app.js
+exercise-2/site/js/collections/library.js
+exercise-2/site/js/lib/backbone.js
+exercise-2/site/js/lib/jquery-1.9.0.js
+exercise-2/site/js/lib/jquery-dateFormat-1.0.js
+exercise-2/site/js/lib/jquery-ui-1.10.0.custom.js
+exercise-2/site/js/lib/underscore.js
+exercise-2/site/js/models/book.js
+exercise-2/site/js/views/book.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ 8f5de2418def917bf2a0f54a51823b47e886bc83 -> 96563f926e7a5457940ec938d7ec6718c0e186cf } is a revert
+{ 751c24bb76d60881874f5eacc87da41513c65bad -> ee4f58292b4fbc71297194c879ebfd25cd2943b5 }
+Partial Revert commits SHA are -> 
+96563f926e7a5457940ec938d7ec6718c0e186cf - revert - ee4f58292b4fbc71297194c879ebfd25cd2943b5
+The reverted commit sha is - 96563f926e7a5457940ec938d7ec6718c0e186cf
+Commit message - Updated screenshots for chapter 5
+The original commit sha is - ee4f58292b4fbc71297194c879ebfd25cd2943b5
+Commit message - Retire duplicate practical 2 directory.
+The files with partial_reverts are:-
+exercise-2/package.json
+exercise-2/server.js
+exercise-2/site/css/cupertino/jquery-ui-1.10.0.custom.css
+exercise-2/site/css/cupertino/jquery-ui-1.10.0.custom.min.css
+exercise-2/site/css/screen.css
+exercise-2/site/index.html
+exercise-2/site/js/app.js
+exercise-2/site/js/collections/library.js
+exercise-2/site/js/lib/backbone.js
+exercise-2/site/js/lib/jquery-1.9.0.js
+exercise-2/site/js/lib/jquery-dateFormat-1.0.js
+exercise-2/site/js/lib/jquery-ui-1.10.0.custom.js
+exercise-2/site/js/lib/underscore.js
+exercise-2/site/js/models/book.js
+exercise-2/site/js/views/book.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 9d072fea636c5893a2e11369fef99b8dcee5ed66 -> d5aff1600e6f4a45174584ab4cfd82554eee0bc7 } is a revert
+{ 751c24bb76d60881874f5eacc87da41513c65bad -> ee4f58292b4fbc71297194c879ebfd25cd2943b5 }
+Partial Revert commits SHA are -> 
+d5aff1600e6f4a45174584ab4cfd82554eee0bc7 - revert - ee4f58292b4fbc71297194c879ebfd25cd2943b5
+The reverted commit sha is - d5aff1600e6f4a45174584ab4cfd82554eee0bc7
+Commit message - Merge pull request #304 from wibblymat/exercise-2
+
+Chapter 5 rewrite (#286)
+The original commit sha is - ee4f58292b4fbc71297194c879ebfd25cd2943b5
+Commit message - Retire duplicate practical 2 directory.
+The files with partial_reverts are:-
+exercise-2/package.json
+exercise-2/server.js
+exercise-2/site/css/cupertino/jquery-ui-1.10.0.custom.css
+exercise-2/site/css/cupertino/jquery-ui-1.10.0.custom.min.css
+exercise-2/site/css/screen.css
+exercise-2/site/index.html
+exercise-2/site/js/app.js
+exercise-2/site/js/collections/library.js
+exercise-2/site/js/lib/backbone.js
+exercise-2/site/js/lib/jquery-1.9.0.js
+exercise-2/site/js/lib/jquery-dateFormat-1.0.js
+exercise-2/site/js/lib/jquery-ui-1.10.0.custom.js
+exercise-2/site/js/lib/underscore.js
+exercise-2/site/js/models/book.js
+exercise-2/site/js/views/book.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ c9b0ea59347e78b92938fa7b54eccce1da228a00 -> c45f8974e52b455b68bba9384de21b02855262b0 } is a revert
+{ acb30a9597cea8d3cc3d496ab5ab349630511ab7 -> 09012771cc94c4dc32d4c4ba1d2b108e993b53f5 }
+Partial Revert commits SHA are -> 
+c45f8974e52b455b68bba9384de21b02855262b0 - revert - 09012771cc94c4dc32d4c4ba1d2b108e993b53f5
+The reverted commit sha is - c45f8974e52b455b68bba9384de21b02855262b0
+Commit message - Compiled files based on latest changes (7 Mar 2014)
+The original commit sha is - 09012771cc94c4dc32d4c4ba1d2b108e993b53f5
+Commit message - Merge pull request #561 from ichthyos/airbnb_capitalization_nit
+
+Fix Airbnb capitalization.
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ ce68ae9545a4165dbe9a5ef4bfaae5efd4f2ada3 -> 2e43d7460750c2b6a02d93f52420cf2aea385ea3 } is a revert
+{ 2e43d7460750c2b6a02d93f52420cf2aea385ea3 -> c9b0ea59347e78b92938fa7b54eccce1da228a00 }
+Partial Revert commits SHA are -> 
+2e43d7460750c2b6a02d93f52420cf2aea385ea3 - revert - c9b0ea59347e78b92938fa7b54eccce1da228a00
+The reverted commit sha is - 2e43d7460750c2b6a02d93f52420cf2aea385ea3
+Commit message - Undefined 'order' model attribute
+The original commit sha is - c9b0ea59347e78b92938fa7b54eccce1da228a00
+Commit message - Fix Airbnb capitalization.
+The files with partial_reverts are:-
+backbone-fundamentals.md
+backbone-fundamentals.rtf
+chapters/03-internals.md
+chapters/04-exercise-1.md
+chapters/07-common-problems.md
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ 18c60a130815f03ef735364254bacf7611d5a0f9 -> a07075811d221e034fe99a448713337b89e5cef9 } is a revert
+{ ce68ae9545a4165dbe9a5ef4bfaae5efd4f2ada3 -> 2e43d7460750c2b6a02d93f52420cf2aea385ea3 }
+Partial Revert commits SHA are -> 
+a07075811d221e034fe99a448713337b89e5cef9 - revert - 2e43d7460750c2b6a02d93f52420cf2aea385ea3
+The reverted commit sha is - a07075811d221e034fe99a448713337b89e5cef9
+Commit message - Fix reference to this.$el.
+The original commit sha is - 2e43d7460750c2b6a02d93f52420cf2aea385ea3
+Commit message - Undefined 'order' model attribute
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+chapters/03-internals.md
+chapters/07-common-problems.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 18c60a130815f03ef735364254bacf7611d5a0f9 -> a07075811d221e034fe99a448713337b89e5cef9 } is a revert
+{ 4e7f30447050fbc0b1247438aabb1bc002083887 -> ce68ae9545a4165dbe9a5ef4bfaae5efd4f2ada3 }
+Partial Revert commits SHA are -> 
+a07075811d221e034fe99a448713337b89e5cef9 - revert - ce68ae9545a4165dbe9a5ef4bfaae5efd4f2ada3
+The reverted commit sha is - a07075811d221e034fe99a448713337b89e5cef9
+Commit message - Fix reference to this.$el.
+The original commit sha is - ce68ae9545a4165dbe9a5ef4bfaae5efd4f2ada3
+Commit message - Merge pull request #556 from dprotti/basecssbrokenlink
+
+Fix link to base.css and bg.png
+The files with partial_reverts are:-
+backbone-fundamentals.rtf
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ 1e0ca0e23b2d6bf3101b7a81182ea5bfe4989aec -> 95a058954bbec207950e96457d03d87dd4bada88 } is a revert
+{ 6f0fe305cd3a9ec5488b068954f0833afbeb024b -> 50f324d216dae4bfd2c122cf877a3ef5e096efe1 }
+Partial Revert commits SHA are -> 
+95a058954bbec207950e96457d03d87dd4bada88 - revert - 50f324d216dae4bfd2c122cf877a3ef5e096efe1
+The reverted commit sha is - 95a058954bbec207950e96457d03d87dd4bada88
+Commit message - Merge pull request #553 from J-Hannes/lowercase-objects
+
+Use lower case notation for objects consistently
+The original commit sha is - 50f324d216dae4bfd2c122cf877a3ef5e096efe1
+Commit message - Merge pull request #554 from dprotti/extradoublequotes
+
+Extra double quotes at the end of comment
+The files with partial_reverts are:-
+backbone-fundamentals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ 1c9e4a27a6955ad910f67f6920f576de681d8a66 -> 5385c01134c5fb52919db2da1ff483e2179e9195 } is a revert
+{ 7d7607a97a1fbc49c63be3179e1e3f84e028a0d9 -> 6f0fe305cd3a9ec5488b068954f0833afbeb024b }
+Partial Revert commits SHA are -> 
+5385c01134c5fb52919db2da1ff483e2179e9195 - revert - 6f0fe305cd3a9ec5488b068954f0833afbeb024b
+The reverted commit sha is - 5385c01134c5fb52919db2da1ff483e2179e9195
+Commit message - Fix link to base.css and bg.png
+The original commit sha is - 6f0fe305cd3a9ec5488b068954f0833afbeb024b
+Commit message - Merge pull request #544 from robCrawford/gh-pages
+
+Fixed sync override example for collections
+The files with partial_reverts are:-
+chapters/03-internals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ b217fdbcb21f813ce13e3355323f709192270cd9 -> 1c9e4a27a6955ad910f67f6920f576de681d8a66 } is a revert
+{ 2ae71faac75a729ee919c55d8b5856043b423494 -> 7d7607a97a1fbc49c63be3179e1e3f84e028a0d9 }
+Partial Revert commits SHA are -> 
+1c9e4a27a6955ad910f67f6920f576de681d8a66 - revert - 7d7607a97a1fbc49c63be3179e1e3f84e028a0d9
+The reverted commit sha is - 1c9e4a27a6955ad910f67f6920f576de681d8a66
+Commit message - Fixed sync override example for collections
+The original commit sha is - 7d7607a97a1fbc49c63be3179e1e3f84e028a0d9
+Commit message - Merge pull request #543 from joeyyang/patch-common-problems
+
+inheritence -> inheritance in Building Model and View Hierarchies
+The files with partial_reverts are:-
+chapters/07-common-problems.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ 5385c01134c5fb52919db2da1ff483e2179e9195 -> e09e165f1b499861c50a8f114ec776ee9b52d8e7 } is a revert
+{ 95a058954bbec207950e96457d03d87dd4bada88 -> 2ae71faac75a729ee919c55d8b5856043b423494 }
+Partial Revert commits SHA are -> 
+e09e165f1b499861c50a8f114ec776ee9b52d8e7 - revert - 2ae71faac75a729ee919c55d8b5856043b423494
+The reverted commit sha is - e09e165f1b499861c50a8f114ec776ee9b52d8e7
+Commit message - Use lower case notation for objects consistently
+The original commit sha is - 2ae71faac75a729ee919c55d8b5856043b423494
+Commit message - Merge pull request #546 from pablopaul/fix-common-links
+
+Fix link to base.css and bg.png
+The files with partial_reverts are:-
+chapters/04-exercise-1.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ 1c9e4a27a6955ad910f67f6920f576de681d8a66 -> 5385c01134c5fb52919db2da1ff483e2179e9195 } is a revert
+{ 5385c01134c5fb52919db2da1ff483e2179e9195 -> e09e165f1b499861c50a8f114ec776ee9b52d8e7 }
+Partial Revert commits SHA are -> 
+5385c01134c5fb52919db2da1ff483e2179e9195 - revert - e09e165f1b499861c50a8f114ec776ee9b52d8e7
+The reverted commit sha is - 5385c01134c5fb52919db2da1ff483e2179e9195
+Commit message - Fix link to base.css and bg.png
+The original commit sha is - e09e165f1b499861c50a8f114ec776ee9b52d8e7
+Commit message - Use lower case notation for objects consistently
+The files with partial_reverts are:-
+chapters/04-exercise-1.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ a60d1f41aba71dffc6a93862a4d57017aadb8bc3 -> 75a8645f9cf7ef3d3acf381702ea6ac75292982c } is a revert
+{ 131636b76f233e57d29732869643e8631e9b8842 -> 3e14c3796b03cd9f4bdee69cf99009f4b5ef3d58 }
+Partial Revert commits SHA are -> 
+75a8645f9cf7ef3d3acf381702ea6ac75292982c - revert - 3e14c3796b03cd9f4bdee69cf99009f4b5ef3d58
+The reverted commit sha is - 75a8645f9cf7ef3d3acf381702ea6ac75292982c
+Commit message - Merge Debian dependencies into one line
+
+Rather than running 5 separate commands, this single line will install whichever ones are not currently installed.
+The original commit sha is - 3e14c3796b03cd9f4bdee69cf99009f4b5ef3d58
+Commit message - Merge pull request #531 from woonketwong/patch-1
+
+Fix the printing of view's html content
+The files with partial_reverts are:-
+chapters/03-internals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ cd0790fb07d45bc7e0a5e01340d09820a771fdc3 -> ba86ce208be99433b49e233b4d93d6cbfa5f4dcc } is a revert
+{ 2b8460e4ad567ef5e2ebbf63ad9473c7a1c26f91 -> 131636b76f233e57d29732869643e8631e9b8842 }
+Partial Revert commits SHA are -> 
+ba86ce208be99433b49e233b4d93d6cbfa5f4dcc - revert - 131636b76f233e57d29732869643e8631e9b8842
+The reverted commit sha is - ba86ce208be99433b49e233b4d93d6cbfa5f4dcc
+Commit message - Updated code in exercise file.
+
+The notation was different from the code in 02-fundametals.md.
+
+Fixes #525.
+The original commit sha is - 131636b76f233e57d29732869643e8631e9b8842
+Commit message - Merge pull request #538 from shuvalov-anton/patch-1
+
+re #537 larger font-size
+The files with partial_reverts are:-
+style.css
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ 75a8645f9cf7ef3d3acf381702ea6ac75292982c -> cd0790fb07d45bc7e0a5e01340d09820a771fdc3 } is a revert
+{ fb5a571dc4a99a8fbfd17a0b5c5d8f10e83dd849 -> 2b8460e4ad567ef5e2ebbf63ad9473c7a1c26f91 }
+Partial Revert commits SHA are -> 
+cd0790fb07d45bc7e0a5e01340d09820a771fdc3 - revert - 2b8460e4ad567ef5e2ebbf63ad9473c7a1c26f91
+The reverted commit sha is - cd0790fb07d45bc7e0a5e01340d09820a771fdc3
+Commit message - re #537 larger font-size
+The original commit sha is - 2b8460e4ad567ef5e2ebbf63ad9473c7a1c26f91
+Commit message - Merge pull request #536 from jj56/patch-1
+
+Merge Debian dependencies into one line in the README
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ 8dc60b77d94e684bccf274bb3ba0af7e1d42899b -> a6f41e0ece27bb43424be357a6d97ae183572164 } is a revert
+{ 1364c862230a921a32d703159f10d18e4515a509 -> fb5a571dc4a99a8fbfd17a0b5c5d8f10e83dd849 }
+Partial Revert commits SHA are -> 
+a6f41e0ece27bb43424be357a6d97ae183572164 - revert - fb5a571dc4a99a8fbfd17a0b5c5d8f10e83dd849
+The reverted commit sha is - a6f41e0ece27bb43424be357a6d97ae183572164
+Commit message - fixed double-'the' in second paragraph of ######Third-Party Objects
+The original commit sha is - fb5a571dc4a99a8fbfd17a0b5c5d8f10e83dd849
+Commit message - Merge pull request #483 from J-Hannes/patch-1
+
+Use lower case first naming convention for objects
+The files with partial_reverts are:-
+chapters/03-internals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ 981f0154d86ce8751c5d836be4739089c33fea62 -> 37d7d7e4f20294f6ac6bd9c05773fe3c938ca50e } is a revert
+{ 5c598254ed290545c9f60665a7bf1300ed9e07b5 -> 1b97b8647fbc75d384fb455e4bd0b5b5c4e76d90 }
+Partial Revert commits SHA are -> 
+37d7d7e4f20294f6ac6bd9c05773fe3c938ca50e - revert - 1b97b8647fbc75d384fb455e4bd0b5b5c4e76d90
+The reverted commit sha is - 37d7d7e4f20294f6ac6bd9c05773fe3c938ca50e
+Commit message - Moved inconsistently places comma in 03-internals.md
+The original commit sha is - 1b97b8647fbc75d384fb455e4bd0b5b5c4e76d90
+Commit message - Merge pull request #505 from SongTanmay/issue_495
+
+Fixed #495
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ bc0c700952e457e43c4ec4977232a3254a6d5fca -> 981f0154d86ce8751c5d836be4739089c33fea62 } is a revert
+{ 456a2158bdeace9d214eb6eec1d04ba8448c4dd3 -> 5c598254ed290545c9f60665a7bf1300ed9e07b5 }
+Partial Revert commits SHA are -> 
+981f0154d86ce8751c5d836be4739089c33fea62 - revert - 5c598254ed290545c9f60665a7bf1300ed9e07b5
+The reverted commit sha is - 981f0154d86ce8751c5d836be4739089c33fea62
+Commit message - Fixed #495 typo
+The original commit sha is - 5c598254ed290545c9f60665a7bf1300ed9e07b5
+Commit message - Merge pull request #513 from abobov/gh-pages
+
+Update response send on model creation.
+The files with partial_reverts are:-
+chapters/05-exercise-2.md
+exercise-2/server.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ f78c4510e5385dc6e1849559b00a1563bbc6d75c -> 19596a3fc0b782c92a662ea888252bfd18545121 } is a revert
+{ 1237bc22506aa71d067b3dd86d5de65ff356fee7 -> 68041ec3d24a7bff0e021eb3af3467bfde48a04b }
+Partial Revert commits SHA are -> 
+19596a3fc0b782c92a662ea888252bfd18545121 - revert - 68041ec3d24a7bff0e021eb3af3467bfde48a04b
+The reverted commit sha is - 19596a3fc0b782c92a662ea888252bfd18545121
+Commit message - Fixed #495
+The original commit sha is - 68041ec3d24a7bff0e021eb3af3467bfde48a04b
+Commit message - Merge pull request #504 from SongTanmay/gh-pages
+
+re-factored code for modular-todo-app 
+The files with partial_reverts are:-
+practicals/modular-todo-app/js/collections/todos.js
+practicals/modular-todo-app/js/models/todo.js
+practicals/modular-todo-app/js/views/app.js
+practicals/modular-todo-app/js/views/todo.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ addbf0315609601bd33109912802bf3ae7487324 -> fcae9cdb9ddb46c9aab1b06ea951a41c4ade57fd } is a revert
+{ f6487478b9cd09f33a6e19841ceb0badff1b183a -> 1237bc22506aa71d067b3dd86d5de65ff356fee7 }
+Partial Revert commits SHA are -> 
+fcae9cdb9ddb46c9aab1b06ea951a41c4ade57fd - revert - 1237bc22506aa71d067b3dd86d5de65ff356fee7
+The reverted commit sha is - fcae9cdb9ddb46c9aab1b06ea951a41c4ade57fd
+Commit message - Update for responsive design
+The original commit sha is - 1237bc22506aa71d067b3dd86d5de65ff356fee7
+Commit message - Merge pull request #506 from SummitPatel/gh-pages
+
+Function call changed before introduced in example.
+The files with partial_reverts are:-
+chapters/06-extensions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ 3d5b0f03bf5314f41f4484bb467ddb1b176d5d65 -> c99a1dc0093efb498b8957254f8d94bd1b458e59 } is a revert
+{ f6487478b9cd09f33a6e19841ceb0badff1b183a -> 1237bc22506aa71d067b3dd86d5de65ff356fee7 }
+Partial Revert commits SHA are -> 
+c99a1dc0093efb498b8957254f8d94bd1b458e59 - revert - 1237bc22506aa71d067b3dd86d5de65ff356fee7
+The reverted commit sha is - c99a1dc0093efb498b8957254f8d94bd1b458e59
+Commit message - Merge pull request #502 from joshuabremer/patch-1
+
+Update 02-fundamentals.md
+The original commit sha is - 1237bc22506aa71d067b3dd86d5de65ff356fee7
+Commit message - Merge pull request #506 from SummitPatel/gh-pages
+
+Function call changed before introduced in example.
+The files with partial_reverts are:-
+chapters/06-extensions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ f762d91010161e5f5d2cc44ce4179dec79e61b39 -> 665eb3652124bdc9f41f5e6bd6d823f43cf66551 } is a revert
+{ 14c837b24d127831470d3e2fc67094048dfd7263 -> f6487478b9cd09f33a6e19841ceb0badff1b183a }
+Partial Revert commits SHA are -> 
+665eb3652124bdc9f41f5e6bd6d823f43cf66551 - revert - f6487478b9cd09f33a6e19841ceb0badff1b183a
+The reverted commit sha is - 665eb3652124bdc9f41f5e6bd6d823f43cf66551
+Commit message - Consistent view reference
+
+Some things I noticed during reading.
+The original commit sha is - f6487478b9cd09f33a6e19841ceb0badff1b183a
+Commit message - Merge pull request #507 from mikesir87/gh-pages
+
+Remove usage of DOM.html( view.el ) as it's not recommended usage
+The files with partial_reverts are:-
+chapters/06-extensions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ 6f985cb802bbdd8d72c986b93de4259c5c07c759 -> e242118f2a8b4f85ef5c27e9c1fe096beeaaaabb } is a revert
+{ 7141f1c7cd565b0b7ad4c0918f273d5e18977764 -> 14c837b24d127831470d3e2fc67094048dfd7263 }
+Partial Revert commits SHA are -> 
+e242118f2a8b4f85ef5c27e9c1fe096beeaaaabb - revert - 14c837b24d127831470d3e2fc67094048dfd7263
+The reverted commit sha is - e242118f2a8b4f85ef5c27e9c1fe096beeaaaabb
+Commit message - Change name of model method.
+The original commit sha is - 14c837b24d127831470d3e2fc67094048dfd7263
+Commit message - Merge pull request #508 from J-Hannes/patch-2
+
+Consistent view reference
+The files with partial_reverts are:-
+chapters/13-unit-testing.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ ae967562d1a5528db910c53d928bcc26aa1843fe -> f78c4510e5385dc6e1849559b00a1563bbc6d75c } is a revert
+{ c99a1dc0093efb498b8957254f8d94bd1b458e59 -> 9c8b01588e4f0323ce0fe3d7b6cc040629abc279 }
+Partial Revert commits SHA are -> 
+f78c4510e5385dc6e1849559b00a1563bbc6d75c - revert - 9c8b01588e4f0323ce0fe3d7b6cc040629abc279
+The reverted commit sha is - f78c4510e5385dc6e1849559b00a1563bbc6d75c
+Commit message - 1. Replaced double quotes with single quotes
+2. Removed unused variables
+3. Removed multiple var statements
+The original commit sha is - 9c8b01588e4f0323ce0fe3d7b6cc040629abc279
+Commit message - Merge pull request #503 from joshuabremer/patch-2
+
+Updated Internals, Removed Trailing Comma
+The files with partial_reverts are:-
+chapters/03-internals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ 316fb4f5d9be2ee20a3a30bd7f9191c169766c78 -> 6102398598eb356c8eecaf673ce7fb802506f5a9 } is a revert
+{ 6b825b827a3088bbeea489a5732329b1d4762cfd -> 4a1b19c8895192dec3eb9d54642d2ae05bbd3e34 }
+Partial Revert commits SHA are -> 
+6102398598eb356c8eecaf673ce7fb802506f5a9 - revert - 4a1b19c8895192dec3eb9d54642d2ae05bbd3e34
+The reverted commit sha is - 6102398598eb356c8eecaf673ce7fb802506f5a9
+Commit message - Minor corrections for chapters 1, 2, 3
+The original commit sha is - 4a1b19c8895192dec3eb9d54642d2ae05bbd3e34
+Commit message - Merge pull request #492 from bjohnson-trulia/gh-pages
+
+Updating backbone-fundamentals.md
+The files with partial_reverts are:-
+chapters/00-prelude.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ 3e3a0441e86da9f66276976d98cf4bffdf2e0693 -> 1f7d63c7887cf495aa25ecc2a2566e14c9df7196 } is a revert
+{ dadb626d2395139147dba918b9f5860114ebde3c -> a67dd463b46669df7b22c48635cb270fde759f33 }
+Partial Revert commits SHA are -> 
+1f7d63c7887cf495aa25ecc2a2566e14c9df7196 - revert - a67dd463b46669df7b22c48635cb270fde759f33
+The reverted commit sha is - 1f7d63c7887cf495aa25ecc2a2566e14c9df7196
+Commit message - function let's you edit -> function lets you edit
+The original commit sha is - a67dd463b46669df7b22c48635cb270fde759f33
+Commit message - Merge pull request #490 from kaidez/patch-1
+
+typo in line 160 ("TodoView.render();" should be "todoView.render();"
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ d9aa42bca22b2279514dc9ebc38805cf6a0f6581 -> addbf0315609601bd33109912802bf3ae7487324 } is a revert
+{ ef440c065a946516e036522c0b1b512287a5cba7 -> 809bd56a221e2a578d7b0194287b1909188adf63 }
+Partial Revert commits SHA are -> 
+addbf0315609601bd33109912802bf3ae7487324 - revert - 809bd56a221e2a578d7b0194287b1909188adf63
+The reverted commit sha is - addbf0315609601bd33109912802bf3ae7487324
+Commit message - Fixes #447.  Minor typo in Marionette example.
+The original commit sha is - 809bd56a221e2a578d7b0194287b1909188adf63
+Commit message - Update 06-extensions.md
+
+to have zombieView's stopListening remove the listener you need to register it with listenTo
+The files with partial_reverts are:-
+chapters/06-extensions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ 2ea0302c05c507d32ffe528fa7f8e47b6de0e632 -> cc9883e52a556c767e93b97f6f832659b55178b0 } is a revert
+{ a5524ff7f4c5bf7bbf60d0b37b9fbf85cd8643a3 -> ef440c065a946516e036522c0b1b512287a5cba7 }
+Partial Revert commits SHA are -> 
+cc9883e52a556c767e93b97f6f832659b55178b0 - revert - ef440c065a946516e036522c0b1b512287a5cba7
+The reverted commit sha is - cc9883e52a556c767e93b97f6f832659b55178b0
+Commit message - Improve readme for #482
+The original commit sha is - ef440c065a946516e036522c0b1b512287a5cba7
+Commit message - Merge pull request #481 from encryptedcommerce/gh-pages
+
+defined Beatle job attribute inside defaults object
+The files with partial_reverts are:-
+chapters/03-internals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ d54064f3454b762c9ad03a48c8a905dfb1bf357e -> 647d16378a8132d8ac7077ba31c3b6736a66ec3d } is a revert
+{ f6d24e936e613b02ac789f1d84c238680f2ad0ed -> a5524ff7f4c5bf7bbf60d0b37b9fbf85cd8643a3 }
+Partial Revert commits SHA are -> 
+647d16378a8132d8ac7077ba31c3b6736a66ec3d - revert - a5524ff7f4c5bf7bbf60d0b37b9fbf85cd8643a3
+The reverted commit sha is - 647d16378a8132d8ac7077ba31c3b6736a66ec3d
+Commit message - Fixes #451 -- makes clear that Mongo server must be started.
+The original commit sha is - a5524ff7f4c5bf7bbf60d0b37b9fbf85cd8643a3
+Commit message - Merge pull request #484 from dschwertfeger/gh-pages
+
+Minor typo fixes
+The files with partial_reverts are:-
+chapters/07-common-problems.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ 647d16378a8132d8ac7077ba31c3b6736a66ec3d -> 765d689d3300a2e467f6d3ac0b48746b48f261dd } is a revert
+{ 642a820e6cd7306ece727525b9b69ee20e5c780f -> f6d24e936e613b02ac789f1d84c238680f2ad0ed }
+Partial Revert commits SHA are -> 
+765d689d3300a2e467f6d3ac0b48746b48f261dd - revert - f6d24e936e613b02ac789f1d84c238680f2ad0ed
+The reverted commit sha is - 765d689d3300a2e467f6d3ac0b48746b48f261dd
+Commit message - .js extension not needed for data-main attribute
+The original commit sha is - f6d24e936e613b02ac789f1d84c238680f2ad0ed
+Commit message - Merge pull request #485 from colemanfoley/gh-pages
+
+Fixes #451 -- makes clear that Mongo server must be started.
+The files with partial_reverts are:-
+chapters/05-exercise-2.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ 4deea1cdb67d4bf8529c6fd6ced7fcb5714a6463 -> eca8e8d41df7c41c3f785df0b517ff14c9b61fd9 } is a revert
+{ e41a60bb39cab6ad9677f7c2d47195e79622d5f5 -> 642a820e6cd7306ece727525b9b69ee20e5c780f }
+Partial Revert commits SHA are -> 
+eca8e8d41df7c41c3f785df0b517ff14c9b61fd9 - revert - 642a820e6cd7306ece727525b9b69ee20e5c780f
+The reverted commit sha is - eca8e8d41df7c41c3f785df0b517ff14c9b61fd9
+Commit message - It's responsibility is... -> its responsibility is...
+The original commit sha is - 642a820e6cd7306ece727525b9b69ee20e5c780f
+Commit message - Merge pull request #486 from odigity/gh-pages
+
+.js extension not needed for data-main attribute
+The files with partial_reverts are:-
+chapters/08-modular-development.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ 7ecab99ae9bf278b63355591e4f4aa0e6f131fc3 -> 4825637ba70a21b297484bc577f5b3ed133573c1 } is a revert
+{ d4282cf84248a167a54924a44cc3e0442cbdf178 -> 348fe3e2434e8f292fe8cdf97710ddd9b9d6d914 }
+Partial Revert commits SHA are -> 
+4825637ba70a21b297484bc577f5b3ed133573c1 - revert - 348fe3e2434e8f292fe8cdf97710ddd9b9d6d914
+The reverted commit sha is - 4825637ba70a21b297484bc577f5b3ed133573c1
+Commit message - fixed minor typo
+The original commit sha is - 348fe3e2434e8f292fe8cdf97710ddd9b9d6d914
+Commit message - Merge pull request #478 from kryger/gh-pages
+
+It's -> its
+The files with partial_reverts are:-
+backbone-fundamentals.md
+chapters/01-introduction.md
+chapters/06-extensions.md
+chapters/10-pagination.md
+chapters/17-conclusions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ 82e351c8654ba1d3ccec46551e55c6449ef321e3 -> 4569d2ec56fecab710c358d5cbed9fc98576ed93 } is a revert
+{ 99ed2c4bc91797a7af98b655aea155db8cf41b37 -> 7a09ba12064d4dbcd15db5ed1105919ca1b2b5de }
+Partial Revert commits SHA are -> 
+4569d2ec56fecab710c358d5cbed9fc98576ed93 - revert - 7a09ba12064d4dbcd15db5ed1105919ca1b2b5de
+The reverted commit sha is - 4569d2ec56fecab710c358d5cbed9fc98576ed93
+Commit message - fixed handlebars typo in example
+The original commit sha is - 7a09ba12064d4dbcd15db5ed1105919ca1b2b5de
+Commit message - Merge pull request #472 from yahuarkuntur/gh-pages
+
+[Typos] backbone-fundamentals.md
+The files with partial_reverts are:-
+backbone-fundamentals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 46 is -> 
+{ 00880a42fd8ee8020da99ef9d38fb98fd920157a -> d3e9402ad49e978be51631d725fa9790959ef7cf } is a revert
+{ eacf8bb0944651bc59794acce2071702a2676df5 -> e5738d29366ac0520f1cbc55cdd642632fc543b8 }
+Partial Revert commits SHA are -> 
+d3e9402ad49e978be51631d725fa9790959ef7cf - revert - e5738d29366ac0520f1cbc55cdd642632fc543b8
+The reverted commit sha is - d3e9402ad49e978be51631d725fa9790959ef7cf
+Commit message - Update 02-fundamentals.md
+
+Add ending "/" to close an input tag
+The original commit sha is - e5738d29366ac0520f1cbc55cdd642632fc543b8
+Commit message - Merge pull request #464 from tinne/gh-pages
+
+Things that passed my mind when reading the Basics section
+The files with partial_reverts are:-
+chapters/03-internals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 47 is -> 
+{ 2c19c15cadf42fcdd5c29b2862c66fdc4026ed8f -> 791e884daf45b803ec4601d115d0882bb0379e8b } is a revert
+{ 791e884daf45b803ec4601d115d0882bb0379e8b -> eacf8bb0944651bc59794acce2071702a2676df5 }
+Partial Revert commits SHA are -> 
+791e884daf45b803ec4601d115d0882bb0379e8b - revert - eacf8bb0944651bc59794acce2071702a2676df5
+The reverted commit sha is - 791e884daf45b803ec4601d115d0882bb0379e8b
+Commit message - Merge pull request #466 from Roland1975/gh-pages
+
+Minor change
+The original commit sha is - eacf8bb0944651bc59794acce2071702a2676df5
+Commit message - Merge pull request #468 from lucho870601/gh-pages
+
+Removed white spaces infront of colons and other minor formatting fixes in chapter 6 
+The files with partial_reverts are:-
+chapters/06-extensions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ 0a9013b993354a37bd157b1956af2aa5d1efeb40 -> 04247dd997825a4d0735f0b0fc57cc769beca554 } is a revert
+{ 32b124cc608d7bc9b96eca72b3c6dc2a8f3caf9a -> fe49be8d0091138d01be151379665311650eec67 }
+Partial Revert commits SHA are -> 
+04247dd997825a4d0735f0b0fc57cc769beca554 - revert - fe49be8d0091138d01be151379665311650eec67
+The reverted commit sha is - 04247dd997825a4d0735f0b0fc57cc769beca554
+Commit message - Fix a small typo in the Resetting/Refreshing Collections
+The original commit sha is - fe49be8d0091138d01be151379665311650eec67
+Commit message - Merge pull request #460 from benkeen/gh-pages
+
+Few more typo fixes
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+chapters/07-common-problems.md
+chapters/10-pagination.md
+chapters/11-bbb.md
+chapters/12-mobile-applications.md
+chapters/13-unit-testing.md
+chapters/18-appendix.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ 452af7f3bd1760336a43f197b9be3e9253840f2e -> 0a9013b993354a37bd157b1956af2aa5d1efeb40 } is a revert
+{ 0a9013b993354a37bd157b1956af2aa5d1efeb40 -> 04247dd997825a4d0735f0b0fc57cc769beca554 }
+Partial Revert commits SHA are -> 
+0a9013b993354a37bd157b1956af2aa5d1efeb40 - revert - 04247dd997825a4d0735f0b0fc57cc769beca554
+The reverted commit sha is - 0a9013b993354a37bd157b1956af2aa5d1efeb40
+Commit message - A few more minor typos, grammar fixes
+The original commit sha is - 04247dd997825a4d0735f0b0fc57cc769beca554
+Commit message - Fix a small typo in the Resetting/Refreshing Collections
+The files with partial_reverts are:-
+backbone-fundamentals.md
+backbone-fundamentals.rtf
+chapters/02-fundamentals.md
+chapters/03-internals.md
+chapters/06-extensions.md
+chapters/07-common-problems.md
+chapters/10-pagination.md
+chapters/11-bbb.md
+chapters/12-mobile-applications.md
+chapters/13-unit-testing.md
+chapters/18-appendix.md
+index.html
+practicals/stacks/option3/public/css/style.css
+practicals/stacks/option3/public/js/script.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ d9aa42bca22b2279514dc9ebc38805cf6a0f6581 -> addbf0315609601bd33109912802bf3ae7487324 } is a revert
+{ 2bcaf13e23d270e887b14afdf1ec265654bb2b84 -> edea1845e788dafcfce8a32bd810f4ad1f834edb }
+Partial Revert commits SHA are -> 
+addbf0315609601bd33109912802bf3ae7487324 - revert - edea1845e788dafcfce8a32bd810f4ad1f834edb
+The reverted commit sha is - addbf0315609601bd33109912802bf3ae7487324
+Commit message - Fixes #447.  Minor typo in Marionette example.
+The original commit sha is - edea1845e788dafcfce8a32bd810f4ad1f834edb
+Commit message - Merge pull request #449 from benkeen/gh-pages
+
+Typo correction
+The files with partial_reverts are:-
+chapters/01-introduction.md
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 51 is -> 
+{ addbf0315609601bd33109912802bf3ae7487324 -> fcae9cdb9ddb46c9aab1b06ea951a41c4ade57fd } is a revert
+{ d6e4e637576a55771e0122cdb7f49a394bf5f78b -> 2bcaf13e23d270e887b14afdf1ec265654bb2b84 }
+Partial Revert commits SHA are -> 
+fcae9cdb9ddb46c9aab1b06ea951a41c4ade57fd - revert - 2bcaf13e23d270e887b14afdf1ec265654bb2b84
+The reverted commit sha is - fcae9cdb9ddb46c9aab1b06ea951a41c4ade57fd
+Commit message - Update for responsive design
+The original commit sha is - 2bcaf13e23d270e887b14afdf1ec265654bb2b84
+Commit message - Merge pull request #452 from awgreenblatt/gh-pages
+
+Fix for #447.  Minor typo in Marionette example.
+The files with partial_reverts are:-
+chapters/06-extensions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 52 is -> 
+{ 26d1b91a7f8fede4b55fb12a6a50313aa703ad82 -> cc3339d808ddc0d57bccd82ec2ded9ee117cdb2e } is a revert
+{ 3ce1facc4a10ec44b5e60dec8ae56c3ab0299f3d -> 151206a2ae8d7d7548e2f7ca9ae5a6383dffa577 }
+Partial Revert commits SHA are -> 
+cc3339d808ddc0d57bccd82ec2ded9ee117cdb2e - revert - 151206a2ae8d7d7548e2f7ca9ae5a6383dffa577
+The reverted commit sha is - cc3339d808ddc0d57bccd82ec2ded9ee117cdb2e
+Commit message - Fixed: Issue #284
+
+Set latex engine to _xelatex_ to handle accented characters
+The original commit sha is - 151206a2ae8d7d7548e2f7ca9ae5a6383dffa577
+Commit message - Merge pull request #419 from ekalinin/patch-1
+
+[pdf creation fix] Added etoolbox installation into README
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 53 is -> 
+{ cc3339d808ddc0d57bccd82ec2ded9ee117cdb2e -> 9426ecfe6beda1dc91df02d645c267e0603370f5 } is a revert
+{ 135d51fa93e43d0e8b051fc259574531db181889 -> 3ce1facc4a10ec44b5e60dec8ae56c3ab0299f3d }
+Partial Revert commits SHA are -> 
+9426ecfe6beda1dc91df02d645c267e0603370f5 - revert - 3ce1facc4a10ec44b5e60dec8ae56c3ab0299f3d
+The reverted commit sha is - 9426ecfe6beda1dc91df02d645c267e0603370f5
+Commit message - Changed "It's" (contraction) to "Its" (possessive).
+The original commit sha is - 3ce1facc4a10ec44b5e60dec8ae56c3ab0299f3d
+Commit message - Merge pull request #422 from myqlarson/Issue284
+
+Fixed: Issue #284 - correcting issues with the latex build.
+The files with partial_reverts are:-
+Makefile
+-----------------------------------------------------------------
+
+Partial Revert diff pair 54 is -> 
+{ 496539ef5c11ede80cab848b776a5ba70e53a4c1 -> 4d1a70439ba562dd5fec79c532f96606e577a565 } is a revert
+{ de1fb4b2d16d247f96c73bdef80e32c147545dfc -> a070112010fdea7683bfa433ac0b3d081e85121e }
+Partial Revert commits SHA are -> 
+4d1a70439ba562dd5fec79c532f96606e577a565 - revert - a070112010fdea7683bfa433ac0b3d081e85121e
+The reverted commit sha is - 4d1a70439ba562dd5fec79c532f96606e577a565
+Commit message - fix method name 'delete' replaced with 'destroy', removed last coma in array, fixed router to work with optional items
+The original commit sha is - a070112010fdea7683bfa433ac0b3d081e85121e
+Commit message - Merge pull request #439 from dwabyick/gh-pages
+
+Changed window.app.* to app.* to match the example code in Example 1
+The files with partial_reverts are:-
+chapters/04-exercise-1.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 55 is -> 
+{ f076a30b0f561b03e334da2b877c80691d0ed5df -> 496539ef5c11ede80cab848b776a5ba70e53a4c1 } is a revert
+{ 496539ef5c11ede80cab848b776a5ba70e53a4c1 -> 4d1a70439ba562dd5fec79c532f96606e577a565 }
+Partial Revert commits SHA are -> 
+496539ef5c11ede80cab848b776a5ba70e53a4c1 - revert - 4d1a70439ba562dd5fec79c532f96606e577a565
+The reverted commit sha is - 496539ef5c11ede80cab848b776a5ba70e53a4c1
+Commit message - removed more 'window.' prefixes for consistency
+The original commit sha is - 4d1a70439ba562dd5fec79c532f96606e577a565
+Commit message - fix method name 'delete' replaced with 'destroy', removed last coma in array, fixed router to work with optional items
+The files with partial_reverts are:-
+chapters/01-introduction.md
+chapters/02-fundamentals.md
+chapters/03-internals.md
+chapters/04-exercise-1.md
+chapters/06-extensions.md
+chapters/11-unit-testing.md
+chapters/13-unit-testing.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 56 is -> 
+{ b9e2068c00e9f42d14c1ffe861316bea314a9ea8 -> 8f33895756a62dd713d1f773ce03b613b1083468 } is a revert
+{ e83ee54394a61f966e6265f61c13941b86bc0ad9 -> f076a30b0f561b03e334da2b877c80691d0ed5df }
+Partial Revert commits SHA are -> 
+8f33895756a62dd713d1f773ce03b613b1083468 - revert - f076a30b0f561b03e334da2b877c80691d0ed5df
+The reverted commit sha is - 8f33895756a62dd713d1f773ce03b613b1083468
+Commit message - No need to specify type="text/javascript" for script tag
+
+See <script> documentation https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
+The original commit sha is - f076a30b0f561b03e334da2b877c80691d0ed5df
+Commit message - Merge pull request #443 from tkrotoff/gh-pages
+
+More type="text/javascript" removed
+The files with partial_reverts are:-
+backbone-fundamentals.md
+chapters/01-introduction.md
+chapters/02-fundamentals.md
+chapters/06-extensions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 57 is -> 
+{ 6facc0861cafd5ba166f0d2572e6de075b4cb10f -> 81553416d25844ceadb892b1796fde291e865a36 } is a revert
+{ d2feddcd1a022f003e6d948597b0be09def507cb -> b9e2068c00e9f42d14c1ffe861316bea314a9ea8 }
+Partial Revert commits SHA are -> 
+81553416d25844ceadb892b1796fde291e865a36 - revert - b9e2068c00e9f42d14c1ffe861316bea314a9ea8
+The reverted commit sha is - 81553416d25844ceadb892b1796fde291e865a36
+Commit message - Merge pull request #441 from tkrotoff/patch-1
+
+Add missing space between Ajax and (Asynchronous JavaScript and XML)
+The original commit sha is - b9e2068c00e9f42d14c1ffe861316bea314a9ea8
+Commit message - Merge pull request #442 from tkrotoff/gh-pages
+
+Minor fixes
+The files with partial_reverts are:-
+chapters/03-internals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 58 is -> 
+{ e9ee29519a78eb9168001efde64e14f9c30a0c79 -> 1915460f57e5b9568b2a4cce1937f5d91fa1f7f0 } is a revert
+{ 8617d9d47dd2f1434eacc4521523b5254982e6bc -> d2feddcd1a022f003e6d948597b0be09def507cb }
+Partial Revert commits SHA are -> 
+1915460f57e5b9568b2a4cce1937f5d91fa1f7f0 - revert - d2feddcd1a022f003e6d948597b0be09def507cb
+The reverted commit sha is - 1915460f57e5b9568b2a4cce1937f5d91fa1f7f0
+Commit message - pushing new build to live site
+The original commit sha is - d2feddcd1a022f003e6d948597b0be09def507cb
+Commit message - Merge pull request #431 from ipalaus/typo-marionette
+
+Fixed Marionette's class name in TodoMVC example
+The files with partial_reverts are:-
+chapters/06-extensions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 59 is -> 
+{ 7fd51d3278a44ef8f1ffae1adb2380005b741b7f -> 8566c9af06425e70eed54ed8cea4151ab8c99cdb } is a revert
+{ 9af9d9b27a4488efc05474ab51e3a8e6e6632865 -> 8617d9d47dd2f1434eacc4521523b5254982e6bc }
+Partial Revert commits SHA are -> 
+8566c9af06425e70eed54ed8cea4151ab8c99cdb - revert - 8617d9d47dd2f1434eacc4521523b5254982e6bc
+The reverted commit sha is - 8566c9af06425e70eed54ed8cea4151ab8c99cdb
+Commit message - Fixed two typos
+The original commit sha is - 8617d9d47dd2f1434eacc4521523b5254982e6bc
+Commit message - Merge pull request #433 from yakubori/gh-pages
+
+Simple typo correction in the Introduction
+The files with partial_reverts are:-
+backbone-fundamentals.md
+chapters/01-introduction.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 60 is -> 
+{ 9d6d0afda50bd4f225165c9fc606007a276b5019 -> 0cd59d166ffa615bb488880ce2fb8e88d2436b02 } is a revert
+{ a65cf7db125decf85ef83f8b94c15d55621dc1c7 -> 9af9d9b27a4488efc05474ab51e3a8e6e6632865 }
+Partial Revert commits SHA are -> 
+0cd59d166ffa615bb488880ce2fb8e88d2436b02 - revert - 9af9d9b27a4488efc05474ab51e3a8e6e6632865
+The reverted commit sha is - 0cd59d166ffa615bb488880ce2fb8e88d2436b02
+Commit message - fixed spelling of independent
+The original commit sha is - 9af9d9b27a4488efc05474ab51e3a8e6e6632865
+Commit message - Merge pull request #435 from johanneslumpe/patch-5
+
+Corrected a wrong reference.
+The files with partial_reverts are:-
+chapters/11-unit-testing.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 61 is -> 
+{ be02a1cd03214cef76fc662a92575eacd7b1b8e7 -> f6cbc9ebe7fbe0271c99a9be290fcd270c2e315b } is a revert
+{ 5846765a4b15a2d22009f05039bf401077593a72 -> 6685acec0b191903e76de29357caf900202ba5a5 }
+Partial Revert commits SHA are -> 
+f6cbc9ebe7fbe0271c99a9be290fcd270c2e315b - revert - 6685acec0b191903e76de29357caf900202ba5a5
+The reverted commit sha is - f6cbc9ebe7fbe0271c99a9be290fcd270c2e315b
+Commit message - use the correct "its"
+The original commit sha is - 6685acec0b191903e76de29357caf900202ba5a5
+Commit message - Merge pull request #437 from garrison/patch-2
+
+s/the QUnit/QUnit/
+The files with partial_reverts are:-
+chapters/01-introduction.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 62 is -> 
+{ f6cbc9ebe7fbe0271c99a9be290fcd270c2e315b -> 350bc039504d3175b88a5270cd317d8cc7c236d2 } is a revert
+{ 81553416d25844ceadb892b1796fde291e865a36 -> 5846765a4b15a2d22009f05039bf401077593a72 }
+Partial Revert commits SHA are -> 
+350bc039504d3175b88a5270cd317d8cc7c236d2 - revert - 5846765a4b15a2d22009f05039bf401077593a72
+The reverted commit sha is - 350bc039504d3175b88a5270cd317d8cc7c236d2
+Commit message - Changed window.app.* to app.* to match the example code.
+
+Changed window.app.* to app.* to match the example code.
+The original commit sha is - 5846765a4b15a2d22009f05039bf401077593a72
+Commit message - Merge pull request #438 from garrison/patch-3
+
+use the correct "its"
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 63 is -> 
+{ 5c26df4f70f89a358c77f5f4b658121b5017bff0 -> 8c385f0f54908d04401f71f07dfcdb929b88dbbe } is a revert
+{ 6facc0861cafd5ba166f0d2572e6de075b4cb10f -> 81553416d25844ceadb892b1796fde291e865a36 }
+Partial Revert commits SHA are -> 
+8c385f0f54908d04401f71f07dfcdb929b88dbbe - revert - 81553416d25844ceadb892b1796fde291e865a36
+The reverted commit sha is - 8c385f0f54908d04401f71f07dfcdb929b88dbbe
+Commit message - No need to specify type="text/javascript" for script tag
+
+See <script> documentation https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
+The original commit sha is - 81553416d25844ceadb892b1796fde291e865a36
+Commit message - Merge pull request #441 from tkrotoff/patch-1
+
+Add missing space between Ajax and (Asynchronous JavaScript and XML)
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 64 is -> 
+{ 8f60fc850942cfbd7956fe5a48a21a72254679f3 -> 936754b50d2ce774e8419221cf9c8e329fe5516f } is a revert
+{ ab2bcdb25c5391844bc7e6a34b1c89b5d6a19b74 -> 6af80a0f171f1fa82930b0283cf87c5485377628 }
+Partial Revert commits SHA are -> 
+936754b50d2ce774e8419221cf9c8e329fe5516f - revert - 6af80a0f171f1fa82930b0283cf87c5485377628
+The reverted commit sha is - 936754b50d2ce774e8419221cf9c8e329fe5516f
+Commit message - Merge pull request #428 from KevinTCoughlin/gh-pages
+
+Fixed: Missing parentheses in Ch. 14 - QUnit Sample Code
+The original commit sha is - 6af80a0f171f1fa82930b0283cf87c5485377628
+Commit message - Merge pull request #430 from KevinTCoughlin/gh-pages
+
+Fixed Sample Code: Parenthesis on Ch 14 and "Store" variable name Ch 12 and Ch 14
+The files with partial_reverts are:-
+chapters/05-exercise-2.md
+chapters/07-common-problems.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 65 is -> 
+{ 2ede70982e15e9634a79fc78511653ff66db792c -> e7499c1e2b67c52ac1d25494b234697440c133f9 } is a revert
+{ ab2bcdb25c5391844bc7e6a34b1c89b5d6a19b74 -> 6af80a0f171f1fa82930b0283cf87c5485377628 }
+Partial Revert commits SHA are -> 
+e7499c1e2b67c52ac1d25494b234697440c133f9 - revert - 6af80a0f171f1fa82930b0283cf87c5485377628
+The reverted commit sha is - e7499c1e2b67c52ac1d25494b234697440c133f9
+Commit message - Update 12-qunit.md
+
+store not in scope, should be "Store" in QUnit sample code.
+The original commit sha is - 6af80a0f171f1fa82930b0283cf87c5485377628
+Commit message - Merge pull request #430 from KevinTCoughlin/gh-pages
+
+Fixed Sample Code: Parenthesis on Ch 14 and "Store" variable name Ch 12 and Ch 14
+The files with partial_reverts are:-
+chapters/05-exercise-2.md
+chapters/07-common-problems.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 66 is -> 
+{ 8f60fc850942cfbd7956fe5a48a21a72254679f3 -> 936754b50d2ce774e8419221cf9c8e329fe5516f } is a revert
+{ 936754b50d2ce774e8419221cf9c8e329fe5516f -> 2ede70982e15e9634a79fc78511653ff66db792c }
+Partial Revert commits SHA are -> 
+936754b50d2ce774e8419221cf9c8e329fe5516f - revert - 2ede70982e15e9634a79fc78511653ff66db792c
+The reverted commit sha is - 936754b50d2ce774e8419221cf9c8e329fe5516f
+Commit message - Merge pull request #428 from KevinTCoughlin/gh-pages
+
+Fixed: Missing parentheses in Ch. 14 - QUnit Sample Code
+The original commit sha is - 2ede70982e15e9634a79fc78511653ff66db792c
+Commit message - Merge pull request #429 from himanshusingh/gh-pages
+
+Minor fixes in the code
+The files with partial_reverts are:-
+chapters/05-exercise-2.md
+chapters/07-common-problems.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 67 is -> 
+{ c6b0b06143a297e4e8a6d9be95b236dd75546eaf -> 7fe7997cb870d52f195869baf9cb8bfa9175f264 } is a revert
+{ 7fe7997cb870d52f195869baf9cb8bfa9175f264 -> c7397cd12be069968edbec8f10d9000c54239824 }
+Partial Revert commits SHA are -> 
+7fe7997cb870d52f195869baf9cb8bfa9175f264 - revert - c7397cd12be069968edbec8f10d9000c54239824
+The reverted commit sha is - 7fe7997cb870d52f195869baf9cb8bfa9175f264
+Commit message - Merge pull request #425 from scottcheng/patch-1
+
+Update 03-internals.md
+The original commit sha is - c7397cd12be069968edbec8f10d9000c54239824
+Commit message - Merge pull request #426 from scottcheng/patch-2
+
+Update 11-bbb.md
+The files with partial_reverts are:-
+chapters/11-bbb.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 68 is -> 
+{ 87cf2e87e40f956be53ab763cb94349460c62e30 -> 83b23ac6c8a4d2d0cc3aaf781eae735171e53d1c } is a revert
+{ 83b23ac6c8a4d2d0cc3aaf781eae735171e53d1c -> 7818704c38682edea5f3d2382d8d30a27b6bb845 }
+Partial Revert commits SHA are -> 
+83b23ac6c8a4d2d0cc3aaf781eae735171e53d1c - revert - 7818704c38682edea5f3d2382d8d30a27b6bb845
+The reverted commit sha is - 83b23ac6c8a4d2d0cc3aaf781eae735171e53d1c
+Commit message - Merge pull request #414 from ErichBSchulz/patch-1
+
+typo "use" not "sure", but tighten since i'm here
+The original commit sha is - 7818704c38682edea5f3d2382d8d30a27b6bb845
+Commit message - Merge pull request #415 from Trott/framework_vs_library
+
+the Backbone framework => Backbone
+The files with partial_reverts are:-
+chapters/01-introduction.md
+chapters/02-fundamentals.md
+chapters/05-exercise-2.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 69 is -> 
+{ 3a4cb011cb732355af644ef5970c86bac887013b -> 2dcb517e9f03901ad1f9726a68012ccdd44dc386 } is a revert
+{ 2dcb517e9f03901ad1f9726a68012ccdd44dc386 -> 1e8a7e1f0c31bcbd1e254663458a76112f065a8c }
+Partial Revert commits SHA are -> 
+2dcb517e9f03901ad1f9726a68012ccdd44dc386 - revert - 1e8a7e1f0c31bcbd1e254663458a76112f065a8c
+The reverted commit sha is - 2dcb517e9f03901ad1f9726a68012ccdd44dc386
+Commit message - Fixes #399 - corrects typo
+The original commit sha is - 1e8a7e1f0c31bcbd1e254663458a76112f065a8c
+Commit message - Merge pull request #400 from oshbec/patch-1
+
+Removed jQuery selector from view's el
+The files with partial_reverts are:-
+chapters/05-exercise-2.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 70 is -> 
+{ 2a0fdb8a009c872b12f38a93be6a93de0865837d -> 9bbba9dc7cc71eef2553213160e7bb4ebb099020 } is a revert
+{ 7f850670049e3398ec7bd92f80f8b8f78ec66c5f -> aad5191b63ab69a540a1d54c098f191d230fc80e }
+Partial Revert commits SHA are -> 
+9bbba9dc7cc71eef2553213160e7bb4ebb099020 - revert - aad5191b63ab69a540a1d54c098f191d230fc80e
+The reverted commit sha is - 9bbba9dc7cc71eef2553213160e7bb4ebb099020
+Commit message - For #342 - adds a rails mvc diagram as requested
+The original commit sha is - aad5191b63ab69a540a1d54c098f191d230fc80e
+Commit message - Merge pull request #394 from dcmaf/gh-pages
+
+Minor tweaks to recent updates, added discussion to go with new diagram
+The files with partial_reverts are:-
+chapters/03-internals.md
+chapters/07-common-problems.md
+chapters/08-modular-development.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 71 is -> 
+{ dd422c814b350c066103af081fa373625d888c3b -> 7f850670049e3398ec7bd92f80f8b8f78ec66c5f } is a revert
+{ 7f850670049e3398ec7bd92f80f8b8f78ec66c5f -> aad5191b63ab69a540a1d54c098f191d230fc80e }
+Partial Revert commits SHA are -> 
+7f850670049e3398ec7bd92f80f8b8f78ec66c5f - revert - aad5191b63ab69a540a1d54c098f191d230fc80e
+The reverted commit sha is - 7f850670049e3398ec7bd92f80f8b8f78ec66c5f
+Commit message - For #378 - edits to bring in recent Backbone changes into the basics section, minor updates to appendix
+The original commit sha is - aad5191b63ab69a540a1d54c098f191d230fc80e
+Commit message - Merge pull request #394 from dcmaf/gh-pages
+
+Minor tweaks to recent updates, added discussion to go with new diagram
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+chapters/07-common-problems.md
+chapters/08-modular-development.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 72 is -> 
+{ fbed70364b2837db35d1861a570ce99211bb78cf -> 4391cad617876a32db3964388c6d3cfcc16e7399 } is a revert
+{ dd422c814b350c066103af081fa373625d888c3b -> 7f850670049e3398ec7bd92f80f8b8f78ec66c5f }
+Partial Revert commits SHA are -> 
+4391cad617876a32db3964388c6d3cfcc16e7399 - revert - 7f850670049e3398ec7bd92f80f8b8f78ec66c5f
+The reverted commit sha is - 4391cad617876a32db3964388c6d3cfcc16e7399
+Commit message - Added discussion to go with new diagram in Implementation Specifics.
+The original commit sha is - 7f850670049e3398ec7bd92f80f8b8f78ec66c5f
+Commit message - For #378 - edits to bring in recent Backbone changes into the basics section, minor updates to appendix
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+chapters/07-common-problems.md
+chapters/08-modular-development.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 73 is -> 
+{ fbed70364b2837db35d1861a570ce99211bb78cf -> 4391cad617876a32db3964388c6d3cfcc16e7399 } is a revert
+{ 4391cad617876a32db3964388c6d3cfcc16e7399 -> dd422c814b350c066103af081fa373625d888c3b }
+Partial Revert commits SHA are -> 
+4391cad617876a32db3964388c6d3cfcc16e7399 - revert - dd422c814b350c066103af081fa373625d888c3b
+The reverted commit sha is - 4391cad617876a32db3964388c6d3cfcc16e7399
+Commit message - Added discussion to go with new diagram in Implementation Specifics.
+The original commit sha is - dd422c814b350c066103af081fa373625d888c3b
+Commit message - Merge remote-tracking branch 'upstream/gh-pages' into gh-pages
+The files with partial_reverts are:-
+backbone-fundamentals.md
+backbone-fundamentals.rtf
+chapters/16-appendix.md
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 74 is -> 
+{ 2a0fdb8a009c872b12f38a93be6a93de0865837d -> 9bbba9dc7cc71eef2553213160e7bb4ebb099020 } is a revert
+{ 9bbba9dc7cc71eef2553213160e7bb4ebb099020 -> f94489e1d720cabc0abdaedae170edfe4278bcfa }
+Partial Revert commits SHA are -> 
+9bbba9dc7cc71eef2553213160e7bb4ebb099020 - revert - f94489e1d720cabc0abdaedae170edfe4278bcfa
+The reverted commit sha is - 9bbba9dc7cc71eef2553213160e7bb4ebb099020
+Commit message - For #342 - adds a rails mvc diagram as requested
+The original commit sha is - f94489e1d720cabc0abdaedae170edfe4278bcfa
+Commit message - Merge remote-tracking branch 'upstream/gh-pages' into gh-pages
+The files with partial_reverts are:-
+chapters/03-internals.md
+chapters/07-common-problems.md
+chapters/08-modular-development.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 75 is -> 
+{ 9fc43443963999529ca4a48b43371c74a50b9420 -> 87011c3a2544edf21694fe2d326aec6560f3ecca } is a revert
+{ 8a25fdda19a4317f3c442061a9cbdd9aa0b2da4f -> be68f2295b06a9500d345aab3aef2adb765d36b3 }
+Partial Revert commits SHA are -> 
+87011c3a2544edf21694fe2d326aec6560f3ecca - revert - be68f2295b06a9500d345aab3aef2adb765d36b3
+The reverted commit sha is - 87011c3a2544edf21694fe2d326aec6560f3ecca
+Commit message - For #377 - merging new mobile section with fixes, linkifying URLs, correcting image paths
+The original commit sha is - be68f2295b06a9500d345aab3aef2adb765d36b3
+Commit message - Merge branch 'gh-pages' of http://github.com/addyosmani/backbone-fundamentals into gh-pages
+
+* 'gh-pages' of http://github.com/addyosmani/backbone-fundamentals:
+  Add note about js extensions in R.js build config
+The files with partial_reverts are:-
+chapters/08-modular-development.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 76 is -> 
+{ 2c0ff2ab053281fd5ae81ceb537bfaeb74d1129c -> 8a25fdda19a4317f3c442061a9cbdd9aa0b2da4f } is a revert
+{ 8a25fdda19a4317f3c442061a9cbdd9aa0b2da4f -> be68f2295b06a9500d345aab3aef2adb765d36b3 }
+Partial Revert commits SHA are -> 
+8a25fdda19a4317f3c442061a9cbdd9aa0b2da4f - revert - be68f2295b06a9500d345aab3aef2adb765d36b3
+The reverted commit sha is - 8a25fdda19a4317f3c442061a9cbdd9aa0b2da4f
+Commit message - For #342 - adding note about Router.navigate
+The original commit sha is - be68f2295b06a9500d345aab3aef2adb765d36b3
+Commit message - Merge branch 'gh-pages' of http://github.com/addyosmani/backbone-fundamentals into gh-pages
+
+* 'gh-pages' of http://github.com/addyosmani/backbone-fundamentals:
+  Add note about js extensions in R.js build config
+The files with partial_reverts are:-
+chapters/08-modular-development.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 77 is -> 
+{ 9fc43443963999529ca4a48b43371c74a50b9420 -> 87011c3a2544edf21694fe2d326aec6560f3ecca } is a revert
+{ 92cbd3d46e7079dacf03891ae447a1c1af9d41a7 -> 2c0ff2ab053281fd5ae81ceb537bfaeb74d1129c }
+Partial Revert commits SHA are -> 
+87011c3a2544edf21694fe2d326aec6560f3ecca - revert - 2c0ff2ab053281fd5ae81ceb537bfaeb74d1129c
+The reverted commit sha is - 87011c3a2544edf21694fe2d326aec6560f3ecca
+Commit message - For #377 - merging new mobile section with fixes, linkifying URLs, correcting image paths
+The original commit sha is - 2c0ff2ab053281fd5ae81ceb537bfaeb74d1129c
+Commit message - Merge pull request #393 from jackfranklin/gh-pages
+
+RequireJS Section Tweaking
+The files with partial_reverts are:-
+chapters/08-modular-development.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 78 is -> 
+{ 59d6fbe3d22205db97316e01ebbb986101999c28 -> 9fc43443963999529ca4a48b43371c74a50b9420 } is a revert
+{ 87011c3a2544edf21694fe2d326aec6560f3ecca -> 92cbd3d46e7079dacf03891ae447a1c1af9d41a7 }
+Partial Revert commits SHA are -> 
+9fc43443963999529ca4a48b43371c74a50b9420 - revert - 92cbd3d46e7079dacf03891ae447a1c1af9d41a7
+The reverted commit sha is - 9fc43443963999529ca4a48b43371c74a50b9420
+Commit message - Add note about js extensions in R.js build config
+The original commit sha is - 92cbd3d46e7079dacf03891ae447a1c1af9d41a7
+Commit message - Merge branch 'gh-pages' of http://github.com/addyosmani/backbone-fundamentals into gh-pages
+
+* 'gh-pages' of http://github.com/addyosmani/backbone-fundamentals:
+  Fixes to the new Event Aggregator/Mediator sections
+  More cleanup.
+  Internals chapter: tweaked first paragraph of Events section.
+  More minor updates to recently changed sections.
+  Extensions: minor corrections, including removing redudantcy in Thorax Hello World section.
+  Fundamentals: minor punctuation and typo fixes
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+chapters/03-internals.md
+chapters/06-extensions.md
+chapters/07-common-problems.md
+chapters/09-bbb.md
+chapters/15-conclusions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 79 is -> 
+{ e2ea6c8a912e1e60fedb9804b75c56b4fed6f7ea -> b960e408a6e791c07c46c279469e26ae9cc10ae4 } is a revert
+{ b960e408a6e791c07c46c279469e26ae9cc10ae4 -> 04eb529c91d09b27cbf7268ccd5ad93a18b63688 }
+Partial Revert commits SHA are -> 
+b960e408a6e791c07c46c279469e26ae9cc10ae4 - revert - 04eb529c91d09b27cbf7268ccd5ad93a18b63688
+The reverted commit sha is - b960e408a6e791c07c46c279469e26ae9cc10ae4
+Commit message - Merge pull request #384 from dcmaf/gh-pages
+
+Chapter 1: Introduction - Fixed typos and punctuation
+The original commit sha is - 04eb529c91d09b27cbf7268ccd5ad93a18b63688
+Commit message - Merge pull request #388 from jan-molak/gh-pages
+
+Corrected 'complete' to 'completed' in 03-internals/listeners code example
+The files with partial_reverts are:-
+chapters/03-internals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 80 is -> 
+{ 64700e84d2cf579a41cacc04128eb917809ef611 -> 8c56247f7afe6a8a8e98ec14e731290e53302596 } is a revert
+{ 8c56247f7afe6a8a8e98ec14e731290e53302596 -> 18fa86f7e30588fcb2044d368cef6b9750cfcae1 }
+Partial Revert commits SHA are -> 
+8c56247f7afe6a8a8e98ec14e731290e53302596 - revert - 18fa86f7e30588fcb2044d368cef6b9750cfcae1
+The reverted commit sha is - 8c56247f7afe6a8a8e98ec14e731290e53302596
+Commit message - Merge pull request #380 from derickbailey/gh-pages
+
+Update Marionette section
+The original commit sha is - 18fa86f7e30588fcb2044d368cef6b9750cfcae1
+Commit message - Merge pull request #381 from dcmaf/gh-pages
+
+Chapter 3: Backbone Basics - Updated to Backbone 1.0.0
+The files with partial_reverts are:-
+chapters/01-introduction.md
+chapters/03-internals.md
+chapters/11-unit-testing.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 81 is -> 
+{ 903a60f42d04b314ee78f66cd14e5b0c1204bf69 -> 9ade898af474fd3e6caef0901cb9bd41f53be865 } is a revert
+{ 64700e84d2cf579a41cacc04128eb917809ef611 -> 8c56247f7afe6a8a8e98ec14e731290e53302596 }
+Partial Revert commits SHA are -> 
+9ade898af474fd3e6caef0901cb9bd41f53be865 - revert - 8c56247f7afe6a8a8e98ec14e731290e53302596
+The reverted commit sha is - 9ade898af474fd3e6caef0901cb9bd41f53be865
+Commit message - Updated Backbone Basics to Backbone 1.0.0
+The original commit sha is - 8c56247f7afe6a8a8e98ec14e731290e53302596
+Commit message - Merge pull request #380 from derickbailey/gh-pages
+
+Update Marionette section
+The files with partial_reverts are:-
+chapters/01-introduction.md
+chapters/03-internals.md
+chapters/06-extensions.md
+chapters/11-unit-testing.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 82 is -> 
+{ 903a60f42d04b314ee78f66cd14e5b0c1204bf69 -> 9ade898af474fd3e6caef0901cb9bd41f53be865 } is a revert
+{ 9ade898af474fd3e6caef0901cb9bd41f53be865 -> 64700e84d2cf579a41cacc04128eb917809ef611 }
+Partial Revert commits SHA are -> 
+9ade898af474fd3e6caef0901cb9bd41f53be865 - revert - 64700e84d2cf579a41cacc04128eb917809ef611
+The reverted commit sha is - 9ade898af474fd3e6caef0901cb9bd41f53be865
+Commit message - Updated Backbone Basics to Backbone 1.0.0
+The original commit sha is - 64700e84d2cf579a41cacc04128eb917809ef611
+Commit message - Merge remote-tracking branch 'upstream/gh-pages' into gh-pages
+The files with partial_reverts are:-
+backbone-fundamentals.md
+backbone-fundamentals.rtf
+chapters/04-exercise-1.md
+chapters/05-exercise-2.md
+chapters/08-modular-development.md
+chapters/14-resources.md
+chapters/15-conclusions.md
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 83 is -> 
+{ 9c7912b437802e46b6669656590e7496e0be7171 -> 2a5c66723caeb441d2dd24afc499f669960c7152 } is a revert
+{ c51cf5bf03723f3af580dbe35a041d3cc832efac -> 8d690d04848d87083e639b11c4150505f743244d }
+Partial Revert commits SHA are -> 
+2a5c66723caeb441d2dd24afc499f669960c7152 - revert - 8d690d04848d87083e639b11c4150505f743244d
+The reverted commit sha is - 2a5c66723caeb441d2dd24afc499f669960c7152
+Commit message - Small grammar sweep: lets -> let's, etc.
+The original commit sha is - 8d690d04848d87083e639b11c4150505f743244d
+Commit message - Merge pull request #376 from tkalfigo/firstExample
+
+Minor corrections
+The files with partial_reverts are:-
+chapters/04-exercise-1.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 84 is -> 
+{ 40e98c46d2d9e5f1017c28a25711898b640ada2d -> 72c29ae646af2efc2f55e5e919ce895978dc18b8 } is a revert
+{ 436385528c01b1a55010104ec26487d8eac6d42c -> 29fc0c9addec21978816bb5dae4f4db985d615da }
+Partial Revert commits SHA are -> 
+72c29ae646af2efc2f55e5e919ce895978dc18b8 - revert - 29fc0c9addec21978816bb5dae4f4db985d615da
+The reverted commit sha is - 72c29ae646af2efc2f55e5e919ce895978dc18b8
+Commit message - Correct the name of SinonJS
+The original commit sha is - 29fc0c9addec21978816bb5dae4f4db985d615da
+Commit message - Merge pull request #366 from dcmaf/gh-pages
+
+Chapter 5: "Exercise 2 - Book Library" rewording and clarifications
+The files with partial_reverts are:-
+chapters/05-exercise-2.md
+exercise-2/site/js/views/library.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 85 is -> 
+{ a41f62f603748cfbe0150ab405869b76f4f4069c -> 5cf8427e7ecfc3c36c96129f4e00bf63cba18423 } is a revert
+{ 5cf8427e7ecfc3c36c96129f4e00bf63cba18423 -> 40e98c46d2d9e5f1017c28a25711898b640ada2d }
+Partial Revert commits SHA are -> 
+5cf8427e7ecfc3c36c96129f4e00bf63cba18423 - revert - 40e98c46d2d9e5f1017c28a25711898b640ada2d
+The reverted commit sha is - 5cf8427e7ecfc3c36c96129f4e00bf63cba18423
+Commit message - Chapter 5: Exercise 2: Book Library minor updates/clarifications.
+
+Also changes LibraryView to use listenTo instead of on and to use Collection.each instead of _.each.
+The original commit sha is - 40e98c46d2d9e5f1017c28a25711898b640ada2d
+Commit message - Merge remote-tracking branch 'upstream/gh-pages' into gh-pages
+
+Conflicts:
+	chapters/05-exercise-2.md
+The files with partial_reverts are:-
+backbone-fundamentals.md
+backbone-fundamentals.rtf
+chapters/03-internals.md
+chapters/08-modular-development.md
+chapters/11-unit-testing.md
+chapters/14-resources.md
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 86 is -> 
+{ 0b49ba9a0b1feda09c2393c6cbfe574153e2f3e1 -> 2caa6cb813abb8d4db527bf198c3ae7654843ed8 } is a revert
+{ 9f0f4164032fedcce518810e4646e9916101abb9 -> a0b41b702cb77260ede53f87091d7599fbc9bc82 }
+Partial Revert commits SHA are -> 
+2caa6cb813abb8d4db527bf198c3ae7654843ed8 - revert - a0b41b702cb77260ede53f87091d7599fbc9bc82
+The reverted commit sha is - 2caa6cb813abb8d4db527bf198c3ae7654843ed8
+Commit message - Unit testing chapters (11-13)  - additional minor edits/corrections.
+The original commit sha is - a0b41b702cb77260ede53f87091d7599fbc9bc82
+Commit message - Merge pull request #360 from sgeralnik/gh-pages
+
+Fixed first example in book. Fixed minor typos.
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 87 is -> 
+{ 110abbf053547cbd2ba3f7c3d7da8943bb936d87 -> 71d004046b93982397f6df694d5ea8f4803818d0 } is a revert
+{ 8bf3aa590fdf36b009365e333b1e586413b45b8f -> 9f0f4164032fedcce518810e4646e9916101abb9 }
+Partial Revert commits SHA are -> 
+71d004046b93982397f6df694d5ea8f4803818d0 - revert - 9f0f4164032fedcce518810e4646e9916101abb9
+The reverted commit sha is - 71d004046b93982397f6df694d5ea8f4803818d0
+Commit message - A lot of small corrections for the second half of the book.
+The original commit sha is - 9f0f4164032fedcce518810e4646e9916101abb9
+Commit message - Merge pull request #345 from Florent2/gh-pages
+
+Misc code comment fix
+The files with partial_reverts are:-
+chapters/04-exercise-1.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 88 is -> 
+{ d34f4e7b485d431859ea50e1596d556f17beba70 -> be7e420dbb9e1bfd2cfda543394057770de44d83 } is a revert
+{ 63f0ba719fb1339ffff03ffb0c75f28421b5d34e -> 8bf3aa590fdf36b009365e333b1e586413b45b8f }
+Partial Revert commits SHA are -> 
+be7e420dbb9e1bfd2cfda543394057770de44d83 - revert - 8bf3aa590fdf36b009365e333b1e586413b45b8f
+The reverted commit sha is - be7e420dbb9e1bfd2cfda543394057770de44d83
+Commit message - Unit testing chapters (jasmine, qunit, sinonjs) - minor changes
+The original commit sha is - 8bf3aa590fdf36b009365e333b1e586413b45b8f
+Commit message - Merge pull request #356 from samuelclay/gh-pages
+
+Couple typos from book review
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 89 is -> 
+{ 6d0b0de870828766379d1d5d08cdd5663ca631f5 -> d34f4e7b485d431859ea50e1596d556f17beba70 } is a revert
+{ 734e07b70d3f7051dfcff7b9f77b246bdbfdf6db -> 63f0ba719fb1339ffff03ffb0c75f28421b5d34e }
+Partial Revert commits SHA are -> 
+d34f4e7b485d431859ea50e1596d556f17beba70 - revert - 63f0ba719fb1339ffff03ffb0c75f28421b5d34e
+The reverted commit sha is - d34f4e7b485d431859ea50e1596d556f17beba70
+Commit message - Small fixes for a link and reference to this.el.
+The original commit sha is - 63f0ba719fb1339ffff03ffb0c75f28421b5d34e
+Commit message - Merge pull request #351 from timhudson/gh-pages
+
+Fix typo in chapter 6
+The files with partial_reverts are:-
+chapters/06-extensions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 90 is -> 
+{ be7e420dbb9e1bfd2cfda543394057770de44d83 -> 0b49ba9a0b1feda09c2393c6cbfe574153e2f3e1 } is a revert
+{ e4da47fb2634f6624c1e65203037df9f3a653946 -> 8acef416c5ba39d58bec91e2e40fc86b5c2cfa7d }
+Partial Revert commits SHA are -> 
+0b49ba9a0b1feda09c2393c6cbfe574153e2f3e1 - revert - 8acef416c5ba39d58bec91e2e40fc86b5c2cfa7d
+The reverted commit sha is - 0b49ba9a0b1feda09c2393c6cbfe574153e2f3e1
+Commit message - Fix minor typos. 
+
+Fixed example which references non existent model "todo" instead of "todo1".
+Fixed minor typos.
+The original commit sha is - 8acef416c5ba39d58bec91e2e40fc86b5c2cfa7d
+Commit message - Merge pull request #353 from dcmaf/gh-pages
+
+Chapter 8: Modular Development - Minor corrections / rewording
+The files with partial_reverts are:-
+chapters/08-modular-development.md
+chapters/15-conclusions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 91 is -> 
+{ 2caa6cb813abb8d4db527bf198c3ae7654843ed8 -> 06f539897bdf25ed9d8be6483b90f9732f86c8ce } is a revert
+{ e4da47fb2634f6624c1e65203037df9f3a653946 -> 8acef416c5ba39d58bec91e2e40fc86b5c2cfa7d }
+Partial Revert commits SHA are -> 
+06f539897bdf25ed9d8be6483b90f9732f86c8ce - revert - 8acef416c5ba39d58bec91e2e40fc86b5c2cfa7d
+The reverted commit sha is - 06f539897bdf25ed9d8be6483b90f9732f86c8ce
+Commit message - validation errors trigger an invalid event
+The original commit sha is - 8acef416c5ba39d58bec91e2e40fc86b5c2cfa7d
+Commit message - Merge pull request #353 from dcmaf/gh-pages
+
+Chapter 8: Modular Development - Minor corrections / rewording
+The files with partial_reverts are:-
+chapters/08-modular-development.md
+chapters/12-qunit.md
+chapters/13-sinonjs.md
+chapters/15-conclusions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 92 is -> 
+{ 0b49ba9a0b1feda09c2393c6cbfe574153e2f3e1 -> 2caa6cb813abb8d4db527bf198c3ae7654843ed8 } is a revert
+{ 2caa6cb813abb8d4db527bf198c3ae7654843ed8 -> 06f539897bdf25ed9d8be6483b90f9732f86c8ce }
+Partial Revert commits SHA are -> 
+2caa6cb813abb8d4db527bf198c3ae7654843ed8 - revert - 06f539897bdf25ed9d8be6483b90f9732f86c8ce
+The reverted commit sha is - 2caa6cb813abb8d4db527bf198c3ae7654843ed8
+Commit message - Unit testing chapters (11-13)  - additional minor edits/corrections.
+The original commit sha is - 06f539897bdf25ed9d8be6483b90f9732f86c8ce
+Commit message - validation errors trigger an invalid event
+The files with partial_reverts are:-
+chapters/08-modular-development.md
+chapters/12-qunit.md
+chapters/13-sinonjs.md
+chapters/15-conclusions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 93 is -> 
+{ be7e420dbb9e1bfd2cfda543394057770de44d83 -> 0b49ba9a0b1feda09c2393c6cbfe574153e2f3e1 } is a revert
+{ 0b49ba9a0b1feda09c2393c6cbfe574153e2f3e1 -> 2caa6cb813abb8d4db527bf198c3ae7654843ed8 }
+Partial Revert commits SHA are -> 
+0b49ba9a0b1feda09c2393c6cbfe574153e2f3e1 - revert - 2caa6cb813abb8d4db527bf198c3ae7654843ed8
+The reverted commit sha is - 0b49ba9a0b1feda09c2393c6cbfe574153e2f3e1
+Commit message - Fix minor typos. 
+
+Fixed example which references non existent model "todo" instead of "todo1".
+Fixed minor typos.
+The original commit sha is - 2caa6cb813abb8d4db527bf198c3ae7654843ed8
+Commit message - Unit testing chapters (11-13)  - additional minor edits/corrections.
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+chapters/08-modular-development.md
+chapters/15-conclusions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 94 is -> 
+{ 6d0b0de870828766379d1d5d08cdd5663ca631f5 -> d34f4e7b485d431859ea50e1596d556f17beba70 } is a revert
+{ d34f4e7b485d431859ea50e1596d556f17beba70 -> be7e420dbb9e1bfd2cfda543394057770de44d83 }
+Partial Revert commits SHA are -> 
+d34f4e7b485d431859ea50e1596d556f17beba70 - revert - be7e420dbb9e1bfd2cfda543394057770de44d83
+The reverted commit sha is - d34f4e7b485d431859ea50e1596d556f17beba70
+Commit message - Small fixes for a link and reference to this.el.
+The original commit sha is - be7e420dbb9e1bfd2cfda543394057770de44d83
+Commit message - Unit testing chapters (jasmine, qunit, sinonjs) - minor changes
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+chapters/10-mobile-applications.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 95 is -> 
+{ f4fd7606ce4e9dd13175d45b56f7cf6aaca0cc30 -> 6eb349e0fd26544e42e49962f4ed313eb4ed90be } is a revert
+{ 6eb349e0fd26544e42e49962f4ed313eb4ed90be -> ec60f80bddddff10f68e9590e2217db74071cc1a }
+Partial Revert commits SHA are -> 
+6eb349e0fd26544e42e49962f4ed313eb4ed90be - revert - ec60f80bddddff10f68e9590e2217db74071cc1a
+The reverted commit sha is - 6eb349e0fd26544e42e49962f4ed313eb4ed90be
+Commit message - Chapter 8: Modular Development - minor rewording/changes
+The original commit sha is - ec60f80bddddff10f68e9590e2217db74071cc1a
+Commit message - Chapter 8: Modular Development - minor changes
+
+Merged my corrections and rewording with latest.
+The files with partial_reverts are:-
+chapters/04-exercise-1.md
+chapters/06-bbb.md
+chapters/06-extensions.md
+chapters/07-extensions.md
+chapters/08-common-problems.md
+chapters/08-extensions.md
+chapters/09-bbb.md
+chapters/10-mobile-applications.md
+chapters/11-unit-testing.md
+chapters/12-qunit.md
+chapters/13-sinonjs.md
+chapters/15-conclusions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 96 is -> 
+{ f0c3c812edf190215311a796bb91caeda9de42c2 -> bb3c9a6619a01566226d005a34a095e0edb42ed4 } is a revert
+{ bb3c9a6619a01566226d005a34a095e0edb42ed4 -> a5baca975d20f8cb13cee6caf7029170e1311444 }
+Partial Revert commits SHA are -> 
+bb3c9a6619a01566226d005a34a095e0edb42ed4 - revert - a5baca975d20f8cb13cee6caf7029170e1311444
+The reverted commit sha is - bb3c9a6619a01566226d005a34a095e0edb42ed4
+Commit message - Merge pull request #327 from dcmaf/gh-pages
+
+Updates to Chapter 7 - Common Problems & Solutions
+The original commit sha is - a5baca975d20f8cb13cee6caf7029170e1311444
+Commit message - Merge pull request #332 from wibblymat/chapter-4-nits
+
+Minor changes to chapter 4
+The files with partial_reverts are:-
+chapters/04-exercise-1.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 97 is -> 
+{ ec8440968e7de0a5dd991e1c76ea59a1fc036840 -> a85e204b8c6d103210fab25542ecac0e9f00f778 } is a revert
+{ a85e204b8c6d103210fab25542ecac0e9f00f778 -> 5d491944269875036d1dbd71c1e84bee716e6391 }
+Partial Revert commits SHA are -> 
+a85e204b8c6d103210fab25542ecac0e9f00f778 - revert - 5d491944269875036d1dbd71c1e84bee716e6391
+The reverted commit sha is - a85e204b8c6d103210fab25542ecac0e9f00f778
+Commit message - Merge pull request #329 from wibblymat/nits
+
+Wording and grammar changes
+The original commit sha is - 5d491944269875036d1dbd71c1e84bee716e6391
+Commit message - Merge pull request #331 from seanrose/patch-2
+
+Extra comma
+The files with partial_reverts are:-
+chapters/05-exercise-2.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 98 is -> 
+{ 96563f926e7a5457940ec938d7ec6718c0e186cf -> 0054ea5c183daf589c1363e224eef49281155e81 } is a revert
+{ 9d072fea636c5893a2e11369fef99b8dcee5ed66 -> d5aff1600e6f4a45174584ab4cfd82554eee0bc7 }
+Partial Revert commits SHA are -> 
+0054ea5c183daf589c1363e224eef49281155e81 - revert - d5aff1600e6f4a45174584ab4cfd82554eee0bc7
+The reverted commit sha is - 0054ea5c183daf589c1363e224eef49281155e81
+Commit message - Chapter 3: Minor corrections and clarification of one paragraph
+
+-Minor spelling, grammatical and punctuation corrections.
+-Clarified paragraph that discusses JSON.stringify and toJSON in
+"Getters & Setters" section
+The original commit sha is - d5aff1600e6f4a45174584ab4cfd82554eee0bc7
+Commit message - Merge pull request #304 from wibblymat/exercise-2
+
+Chapter 5 rewrite (#286)
+The files with partial_reverts are:-
+backbone-fundamentals.md
+chapters/00-prelude.md
+chapters/05-exercise-2.md
+exercise-2/package.json
+exercise-2/server.js
+exercise-2/site/css/cupertino/jquery-ui-1.10.0.custom.css
+exercise-2/site/css/cupertino/jquery-ui-1.10.0.custom.min.css
+exercise-2/site/css/screen.css
+exercise-2/site/index.html
+exercise-2/site/js/app.js
+exercise-2/site/js/collections/library.js
+exercise-2/site/js/lib/backbone.js
+exercise-2/site/js/lib/jquery-1.9.0.js
+exercise-2/site/js/lib/jquery-dateFormat-1.0.js
+exercise-2/site/js/lib/jquery-ui-1.10.0.custom.js
+exercise-2/site/js/lib/underscore.js
+exercise-2/site/js/models/book.js
+exercise-2/site/js/views/book.js
+exercise-2/site/js/views/library.js
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 99 is -> 
+{ 1cdd91a30032c20c6e5857745484be7e47c264f3 -> f8e386de58a68ff2f6bd3ba6afbdedbced6cb6cc } is a revert
+{ 34cd136bee099e4e2cd52d80e93ecbf59f299822 -> 9d072fea636c5893a2e11369fef99b8dcee5ed66 }
+Partial Revert commits SHA are -> 
+f8e386de58a68ff2f6bd3ba6afbdedbced6cb6cc - revert - 9d072fea636c5893a2e11369fef99b8dcee5ed66
+The reverted commit sha is - f8e386de58a68ff2f6bd3ba6afbdedbced6cb6cc
+Commit message - Merge pull request #321 from dcmaf/gh-pages
+
+Chapter 6: BBB - Minor corrections and rewording
+The original commit sha is - 9d072fea636c5893a2e11369fef99b8dcee5ed66
+Commit message - Merge pull request #325 from bschoenfeld/jasmine-download-link-correction
+
+Fixed link to download standalone Jasmine release
+The files with partial_reverts are:-
+chapters/11-unit-testing.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 100 is -> 
+{ 0054ea5c183daf589c1363e224eef49281155e81 -> 1cdd91a30032c20c6e5857745484be7e47c264f3 } is a revert
+{ f8e386de58a68ff2f6bd3ba6afbdedbced6cb6cc -> 34cd136bee099e4e2cd52d80e93ecbf59f299822 }
+Partial Revert commits SHA are -> 
+1cdd91a30032c20c6e5857745484be7e47c264f3 - revert - 34cd136bee099e4e2cd52d80e93ecbf59f299822
+The reverted commit sha is - 1cdd91a30032c20c6e5857745484be7e47c264f3
+Commit message - Fixed link to download standalone Jasmine release
+The original commit sha is - 34cd136bee099e4e2cd52d80e93ecbf59f299822
+Commit message - Merge pull request #323 from jeffjo/gh-pages
+
+Chapters 2 & 3 corrections and clarifications
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+chapters/03-internals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 101 is -> 
+{ 6961967f476fc06774893b36b4fc11b114494271 -> dd03a3997d2622f16158a8a8821f08756b483637 } is a revert
+{ 8bcd6deb10a407575be537da1498d46a95a3466b -> 380185878da82598a8287b0cdc65badc20965096 }
+Partial Revert commits SHA are -> 
+dd03a3997d2622f16158a8a8821f08756b483637 - revert - 380185878da82598a8287b0cdc65badc20965096
+The reverted commit sha is - dd03a3997d2622f16158a8a8821f08756b483637
+Commit message - Extending the introduction to the book.
+The original commit sha is - 380185878da82598a8287b0cdc65badc20965096
+Commit message - Merge pull request #301 from orizens/gh-pages
+
+update for todo app with Backbone.js 0.9.10
+The files with partial_reverts are:-
+practicals/modular-todo-app/css/todos.css
+practicals/modular-todo-app/js/collections/todos.js
+practicals/modular-todo-app/js/libs/backbone/backbone-min.js
+practicals/modular-todo-app/js/libs/backbone/backbone-optamd3-min.js
+practicals/modular-todo-app/js/libs/backbone/backbone.js
+practicals/modular-todo-app/js/libs/backbone/backbone.localStorage.js
+practicals/modular-todo-app/js/libs/require/require.js
+practicals/modular-todo-app/js/libs/require/text.js
+practicals/modular-todo-app/js/libs/underscore/underscore-min.js
+practicals/modular-todo-app/js/main.js
+practicals/modular-todo-app/js/models/todo.js
+practicals/modular-todo-app/js/templates/todos.html
+practicals/modular-todo-app/js/views/app.js
+practicals/modular-todo-app/js/views/todo.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 102 is -> 
+{ 6eebadda22a3bebdf4c1b7c4c55e8325c0e1ad0b -> 7a90e01fc850a5736867d6bd772559e11cb66d19 } is a revert
+{ 94849eacbdc9b321332221ede59aa71e21871371 -> 1095aa2bf74c74a3e3dc7f0c10db389889b31a45 }
+Partial Revert commits SHA are -> 
+7a90e01fc850a5736867d6bd772559e11cb66d19 - revert - 1095aa2bf74c74a3e3dc7f0c10db389889b31a45
+The reverted commit sha is - 7a90e01fc850a5736867d6bd772559e11cb66d19
+Commit message - Rewrote chapter 5
+The original commit sha is - 1095aa2bf74c74a3e3dc7f0c10db389889b31a45
+Commit message - Merge remote-tracking branch 'upstream/gh-pages' into gh-pages
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+chapters/03-internals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 103 is -> 
+{ a02567babe94f44f91e5c6b20cd37fe8ba3de62d -> 4b87a4194a8208a274b828903d7aebed3efc05c7 } is a revert
+{ 94849eacbdc9b321332221ede59aa71e21871371 -> 1095aa2bf74c74a3e3dc7f0c10db389889b31a45 }
+Partial Revert commits SHA are -> 
+4b87a4194a8208a274b828903d7aebed3efc05c7 - revert - 1095aa2bf74c74a3e3dc7f0c10db389889b31a45
+The reverted commit sha is - 4b87a4194a8208a274b828903d7aebed3efc05c7
+Commit message - Syntax Error "tthat" instead of "that"
+The original commit sha is - 1095aa2bf74c74a3e3dc7f0c10db389889b31a45
+Commit message - Merge remote-tracking branch 'upstream/gh-pages' into gh-pages
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+chapters/03-internals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 104 is -> 
+{ e75130beb006f3c119021df00bb7dc5599873113 -> 07b6890a0ba7abf8c68fb851838cd83a46eb68b9 } is a revert
+{ 38b887b0edfc138cb712cd4993a9a64720c368ec -> 94849eacbdc9b321332221ede59aa71e21871371 }
+Partial Revert commits SHA are -> 
+07b6890a0ba7abf8c68fb851838cd83a46eb68b9 - revert - 94849eacbdc9b321332221ede59aa71e21871371
+The reverted commit sha is - 07b6890a0ba7abf8c68fb851838cd83a46eb68b9
+Commit message - add more examples of BB + RJS
+The original commit sha is - 94849eacbdc9b321332221ede59aa71e21871371
+Commit message - Merge pull request #308 from hrbonz/MV_framework_list
+
+Add angular.js to the list of other MV*
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 105 is -> 
+{ 6eebadda22a3bebdf4c1b7c4c55e8325c0e1ad0b -> 7a90e01fc850a5736867d6bd772559e11cb66d19 } is a revert
+{ e50c0dbf5fea7652efc1c09aecc781405232ff63 -> a02567babe94f44f91e5c6b20cd37fe8ba3de62d }
+Partial Revert commits SHA are -> 
+7a90e01fc850a5736867d6bd772559e11cb66d19 - revert - a02567babe94f44f91e5c6b20cd37fe8ba3de62d
+The reverted commit sha is - 7a90e01fc850a5736867d6bd772559e11cb66d19
+Commit message - Rewrote chapter 5
+The original commit sha is - a02567babe94f44f91e5c6b20cd37fe8ba3de62d
+Commit message - Merge remote-tracking branch 'upstream/gh-pages' into gh-pages
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+chapters/03-internals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 106 is -> 
+{ 5f02f7135aabc0c4e2243ed8966c27f2e3dd078c -> 99617f57e90639d4582510bbd250d45df1cf7b2c } is a revert
+{ e86a2e2795ef1a94787db5661ab0e36d91ebaee3 -> 93b7d45779a23caab2803be5d78ca1f2c9b54575 }
+Partial Revert commits SHA are -> 
+99617f57e90639d4582510bbd250d45df1cf7b2c - revert - 93b7d45779a23caab2803be5d78ca1f2c9b54575
+The reverted commit sha is - 99617f57e90639d4582510bbd250d45df1cf7b2c
+Commit message - removed none required 'a'
+The original commit sha is - 93b7d45779a23caab2803be5d78ca1f2c9b54575
+Commit message - Merge pull request #305 from anibalsanchez/patch-2
+
+Minor edit to add a conclusion about how to get the parameters in the server
+The files with partial_reverts are:-
+chapters/05-exercise-2.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 107 is -> 
+{ ca5e8138c9e963d4766f701db156c46c885683f4 -> 288303c9fd134fe1cd0a1c0af5726bb24cda5bf3 } is a revert
+{ 72c2427b07a6823bd8f87857364bb8acdaf402af -> 1214354419497bc6cc6c6d6cf91e4dddeae7e769 }
+Partial Revert commits SHA are -> 
+288303c9fd134fe1cd0a1c0af5726bb24cda5bf3 - revert - 1214354419497bc6cc6c6d6cf91e4dddeae7e769
+The reverted commit sha is - 288303c9fd134fe1cd0a1c0af5726bb24cda5bf3
+Commit message - Fixes to TOC, further updates to prelude, new builds.
+The original commit sha is - 1214354419497bc6cc6c6d6cf91e4dddeae7e769
+Commit message - TOC fix.
+The files with partial_reverts are:-
+chapters/16-appendix.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 108 is -> 
+{ a08061161b2df1ea27bf03c8f91b38aba111e837 -> 8fb221c4f1e87106f67b1bbee129a0e555c88212 } is a revert
+{ 3c9a36a7ca2bf9fc60fda326ae43419ab9404c7d -> 037edd42eb2ed2e8c6c8f0490c9ca0a196186c91 }
+Partial Revert commits SHA are -> 
+8fb221c4f1e87106f67b1bbee129a0e555c88212 - revert - 037edd42eb2ed2e8c6c8f0490c9ca0a196186c91
+The reverted commit sha is - 8fb221c4f1e87106f67b1bbee129a0e555c88212
+Commit message - Updating conclusions.
+The original commit sha is - 037edd42eb2ed2e8c6c8f0490c9ca0a196186c91
+Commit message - Merge pull request #293 from mdb/exercise-1-edits
+
+Exercise 1 edits
+The files with partial_reverts are:-
+chapters/04-exercise-1.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 109 is -> 
+{ c5695b1298ed8aaa2f58a050d3dac4a3fb31fce6 -> 919f7c8abdc631173e574bc2aa815e2c946d9e74 } is a revert
+{ c8d4a2d838b24e517b89c6b18e4daa5196d060cc -> 3c9a36a7ca2bf9fc60fda326ae43419ab9404c7d }
+Partial Revert commits SHA are -> 
+919f7c8abdc631173e574bc2aa815e2c946d9e74 - revert - 3c9a36a7ca2bf9fc60fda326ae43419ab9404c7d
+The reverted commit sha is - 919f7c8abdc631173e574bc2aa815e2c946d9e74
+Commit message - Update chapters/03-internals.md
+The original commit sha is - 3c9a36a7ca2bf9fc60fda326ae43419ab9404c7d
+Commit message - Merge pull request #292 from dcmaf/gh-pages
+
+Wordsmithing and punctuation fixes in chapter 1 and 2
+The files with partial_reverts are:-
+backbone-fundamentals.md
+backbone-fundamentals.rtf
+chapters/01-introduction.md
+chapters/02-fundamentals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 110 is -> 
+{ 10b180cca4bc43b9b9e8a892dc720f80fd15b8a0 -> c5695b1298ed8aaa2f58a050d3dac4a3fb31fce6 } is a revert
+{ 1a6d65d33b38fa7ba3b14f011d77b67f34efa64e -> c8d4a2d838b24e517b89c6b18e4daa5196d060cc }
+Partial Revert commits SHA are -> 
+c5695b1298ed8aaa2f58a050d3dac4a3fb31fce6 - revert - c8d4a2d838b24e517b89c6b18e4daa5196d060cc
+The reverted commit sha is - c5695b1298ed8aaa2f58a050d3dac4a3fb31fce6
+Commit message - Additional minor fixes to chapter 2.
+The original commit sha is - c8d4a2d838b24e517b89c6b18e4daa5196d060cc
+Commit message - Merge pull request #291 from anibalsanchez/patch-1
+
+Update chapters/05-exercise-2.md - Third-party Url Customization in the REST API
+The files with partial_reverts are:-
+chapters/05-exercise-2.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 111 is -> 
+{ 2e4fd92842207f37060679279d1bb28694b700c5 -> 584bbb925f82cd2a03a64b7b73c3cfc137604fe9 } is a revert
+{ 6d61930c4558a6365d002a821dc17a3dbae4956c -> 8a94564161e79e565099870b492499beb9ef9b78 }
+Partial Revert commits SHA are -> 
+584bbb925f82cd2a03a64b7b73c3cfc137604fe9 - revert - 8a94564161e79e565099870b492499beb9ef9b78
+The reverted commit sha is - 584bbb925f82cd2a03a64b7b73c3cfc137604fe9
+Commit message - Corrected verb tense in bullet point
+The original commit sha is - 8a94564161e79e565099870b492499beb9ef9b78
+Commit message - Adding local copies of exercise 2 resources, updating URLs
+The files with partial_reverts are:-
+chapters/05-exercise-2.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 112 is -> 
+{ 2e4fd92842207f37060679279d1bb28694b700c5 -> 584bbb925f82cd2a03a64b7b73c3cfc137604fe9 } is a revert
+{ 14c78d0c86cfee603ce6ba4838944c9f6f05cbb0 -> 6d61930c4558a6365d002a821dc17a3dbae4956c }
+Partial Revert commits SHA are -> 
+584bbb925f82cd2a03a64b7b73c3cfc137604fe9 - revert - 6d61930c4558a6365d002a821dc17a3dbae4956c
+The reverted commit sha is - 584bbb925f82cd2a03a64b7b73c3cfc137604fe9
+Commit message - Corrected verb tense in bullet point
+The original commit sha is - 6d61930c4558a6365d002a821dc17a3dbae4956c
+Commit message - Updates/Fixes #279 with revised text
+The files with partial_reverts are:-
+chapters/02-fundamentals.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 113 is -> 
+{ 2e4fd92842207f37060679279d1bb28694b700c5 -> 584bbb925f82cd2a03a64b7b73c3cfc137604fe9 } is a revert
+{ e6bc4960331f6196ade95645411b982cc6dd398a -> 14c78d0c86cfee603ce6ba4838944c9f6f05cbb0 }
+Partial Revert commits SHA are -> 
+584bbb925f82cd2a03a64b7b73c3cfc137604fe9 - revert - 14c78d0c86cfee603ce6ba4838944c9f6f05cbb0
+The reverted commit sha is - 584bbb925f82cd2a03a64b7b73c3cfc137604fe9
+Commit message - Corrected verb tense in bullet point
+The original commit sha is - 14c78d0c86cfee603ce6ba4838944c9f6f05cbb0
+Commit message - Fixes #281 - updating recommendations for model binder
+The files with partial_reverts are:-
+chapters/14-resources.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 114 is -> 
+{ 2e4fd92842207f37060679279d1bb28694b700c5 -> 584bbb925f82cd2a03a64b7b73c3cfc137604fe9 } is a revert
+{ d4d0d218f6b6b5c5831559715d61b588cfcb2955 -> e6bc4960331f6196ade95645411b982cc6dd398a }
+Partial Revert commits SHA are -> 
+584bbb925f82cd2a03a64b7b73c3cfc137604fe9 - revert - e6bc4960331f6196ade95645411b982cc6dd398a
+The reverted commit sha is - 584bbb925f82cd2a03a64b7b73c3cfc137604fe9
+Commit message - Corrected verb tense in bullet point
+The original commit sha is - e6bc4960331f6196ade95645411b982cc6dd398a
+Commit message - Use appendTo instead of $.append
+The files with partial_reverts are:-
+chapters/08-extensions.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 115 is -> 
+{ 2e4fd92842207f37060679279d1bb28694b700c5 -> 584bbb925f82cd2a03a64b7b73c3cfc137604fe9 } is a revert
+{ 584bbb925f82cd2a03a64b7b73c3cfc137604fe9 -> d4d0d218f6b6b5c5831559715d61b588cfcb2955 }
+Partial Revert commits SHA are -> 
+584bbb925f82cd2a03a64b7b73c3cfc137604fe9 - revert - d4d0d218f6b6b5c5831559715d61b588cfcb2955
+The reverted commit sha is - 584bbb925f82cd2a03a64b7b73c3cfc137604fe9
+Commit message - Corrected verb tense in bullet point
+The original commit sha is - d4d0d218f6b6b5c5831559715d61b588cfcb2955
+Commit message - Minor edits and punctionation in chapter 01-introduction
+
+Light editing and punctuation fixes in chapter 01 (including adding serial commas,
+which is debatable - they are recommended in American style guides, but may be less
+accepted elsewhere).
+The files with partial_reverts are:-
+chapters/01-introduction.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 116 is -> 
+{ 3a547af0252a67b568c388f3b3307f821c579000 -> 74c2ca806b8d39897c2df53b3dec9f922c2b81a9 } is a revert
+{ e250318d968c342ab208714a52d587064a6da6c4 -> 661488ac170e2839b6340c5b71bd199ae67aeb49 }
+Partial Revert commits SHA are -> 
+74c2ca806b8d39897c2df53b3dec9f922c2b81a9 - revert - 661488ac170e2839b6340c5b71bd199ae67aeb49
+The reverted commit sha is - 74c2ca806b8d39897c2df53b3dec9f922c2b81a9
+Commit message - Update index.md
+
+Correction to diacritics
+The original commit sha is - 661488ac170e2839b6340c5b71bd199ae67aeb49
+Commit message - Merge pull request #273 from wibblymat/issue-260
+
+Updated links to Derick Baileys Backbone Marionette modules. Fixes #260
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 117 is -> 
+{ f7fe6b0eafcabdbf6219dfa748dcf546d0ce4f57 -> e250318d968c342ab208714a52d587064a6da6c4 } is a revert
+{ e250318d968c342ab208714a52d587064a6da6c4 -> 661488ac170e2839b6340c5b71bd199ae67aeb49 }
+Partial Revert commits SHA are -> 
+e250318d968c342ab208714a52d587064a6da6c4 - revert - 661488ac170e2839b6340c5b71bd199ae67aeb49
+The reverted commit sha is - e250318d968c342ab208714a52d587064a6da6c4
+Commit message - Undo the automatic whitespace removal
+The original commit sha is - 661488ac170e2839b6340c5b71bd199ae67aeb49
+Commit message - Merge pull request #273 from wibblymat/issue-260
+
+Updated links to Derick Baileys Backbone Marionette modules. Fixes #260
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 118 is -> 
+{ 74c2ca806b8d39897c2df53b3dec9f922c2b81a9 -> f7fe6b0eafcabdbf6219dfa748dcf546d0ce4f57 } is a revert
+{ f7fe6b0eafcabdbf6219dfa748dcf546d0ce4f57 -> e250318d968c342ab208714a52d587064a6da6c4 }
+Partial Revert commits SHA are -> 
+f7fe6b0eafcabdbf6219dfa748dcf546d0ce4f57 - revert - e250318d968c342ab208714a52d587064a6da6c4
+The reverted commit sha is - f7fe6b0eafcabdbf6219dfa748dcf546d0ce4f57
+Commit message - Merge pull request #268 from jhonnycano/patch-3
+
+Update index.md
+The original commit sha is - e250318d968c342ab208714a52d587064a6da6c4
+Commit message - Undo the automatic whitespace removal
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 119 is -> 
+{ 3a547af0252a67b568c388f3b3307f821c579000 -> 74c2ca806b8d39897c2df53b3dec9f922c2b81a9 } is a revert
+{ 74c2ca806b8d39897c2df53b3dec9f922c2b81a9 -> f7fe6b0eafcabdbf6219dfa748dcf546d0ce4f57 }
+Partial Revert commits SHA are -> 
+74c2ca806b8d39897c2df53b3dec9f922c2b81a9 - revert - f7fe6b0eafcabdbf6219dfa748dcf546d0ce4f57
+The reverted commit sha is - 74c2ca806b8d39897c2df53b3dec9f922c2b81a9
+Commit message - Update index.md
+
+Correction to diacritics
+The original commit sha is - f7fe6b0eafcabdbf6219dfa748dcf546d0ce4f57
+Commit message - Merge pull request #268 from jhonnycano/patch-3
+
+Update index.md
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 120 is -> 
+{ f26218605d5ee997841a32057fc30a5d4482aaa6 -> f999ef26110ec54e6e8ff70816633f455044b4f7 } is a revert
+{ c34fe951e060217710db2f41c33e0a72fb95f7f0 -> 8c083808e080b2e6a2381e3d692376fa470bd515 }
+Partial Revert commits SHA are -> 
+f999ef26110ec54e6e8ff70816633f455044b4f7 - revert - 8c083808e080b2e6a2381e3d692376fa470bd515
+The reverted commit sha is - f999ef26110ec54e6e8ff70816633f455044b4f7
+Commit message - Update index.md
+
+- resposne mispell
+- todos comment
+The original commit sha is - 8c083808e080b2e6a2381e3d692376fa470bd515
+Commit message - Merge branch 'gh-pages' of https://github.com/addyosmani/backbone-fundamentals into gh-pages
+
+* 'gh-pages' of https://github.com/addyosmani/backbone-fundamentals: (41 commits)
+  Fixed indentation; added missing semicolons
+  Added missing semicolon
+  Some language tweaks to the Router and Sync sections
+  Attempting to make the 'Events' section more clear.
+  Added missing apostrophe to contraction "it's"
+  Updated TodoMVC backbone link. Fixed up backbone.localStorage script reference.
+  Added space in 'withthe' to correct to 'with the'.
+  Some language tweaks to the Router and Sync sections.
+  Added missing apostrophe to the contraction "it's"
+  Further tweaks.
+  Adding a revised introduction.
+  Some fixes for the Todos app chapter
+  Update compiled HTML.
+  Adding some grammar/flow clean-up of MVC section rewrite by Dusan.
+  Use plural version of word 'thing'.
+  Remove specified language for the code block because content is just text and not javascript.
+  Include 'var' in code block.
+  Fix code example.
+  Minor cody tidy up (white space, added var, redeclaration of PanelAdvanced).
+  fixed grammar 2
+  ...
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 121 is -> 
+{ 2b3c3662ef9f418e4ce21a0515c3cc4b6f4ba31a -> c34fe951e060217710db2f41c33e0a72fb95f7f0 } is a revert
+{ c34fe951e060217710db2f41c33e0a72fb95f7f0 -> 8c083808e080b2e6a2381e3d692376fa470bd515 }
+Partial Revert commits SHA are -> 
+c34fe951e060217710db2f41c33e0a72fb95f7f0 - revert - 8c083808e080b2e6a2381e3d692376fa470bd515
+The reverted commit sha is - c34fe951e060217710db2f41c33e0a72fb95f7f0
+Commit message - Moving MVP section to the appendix. Minor edits.
+The original commit sha is - 8c083808e080b2e6a2381e3d692376fa470bd515
+Commit message - Merge branch 'gh-pages' of https://github.com/addyosmani/backbone-fundamentals into gh-pages
+
+* 'gh-pages' of https://github.com/addyosmani/backbone-fundamentals: (41 commits)
+  Fixed indentation; added missing semicolons
+  Added missing semicolon
+  Some language tweaks to the Router and Sync sections
+  Attempting to make the 'Events' section more clear.
+  Added missing apostrophe to contraction "it's"
+  Updated TodoMVC backbone link. Fixed up backbone.localStorage script reference.
+  Added space in 'withthe' to correct to 'with the'.
+  Some language tweaks to the Router and Sync sections.
+  Added missing apostrophe to the contraction "it's"
+  Further tweaks.
+  Adding a revised introduction.
+  Some fixes for the Todos app chapter
+  Update compiled HTML.
+  Adding some grammar/flow clean-up of MVC section rewrite by Dusan.
+  Use plural version of word 'thing'.
+  Remove specified language for the code block because content is just text and not javascript.
+  Include 'var' in code block.
+  Fix code example.
+  Minor cody tidy up (white space, added var, redeclaration of PanelAdvanced).
+  fixed grammar 2
+  ...
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 122 is -> 
+{ 947bb3052a8127c8691648bcd75cc0506b1c2da5 -> f26218605d5ee997841a32057fc30a5d4482aaa6 } is a revert
+{ 2b3c3662ef9f418e4ce21a0515c3cc4b6f4ba31a -> c34fe951e060217710db2f41c33e0a72fb95f7f0 }
+Partial Revert commits SHA are -> 
+f26218605d5ee997841a32057fc30a5d4482aaa6 - revert - c34fe951e060217710db2f41c33e0a72fb95f7f0
+The reverted commit sha is - f26218605d5ee997841a32057fc30a5d4482aaa6
+Commit message - Added space in 'withthe' to correct to 'with the'.
+The original commit sha is - c34fe951e060217710db2f41c33e0a72fb95f7f0
+Commit message - Moving MVP section to the appendix. Minor edits.
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 123 is -> 
+{ 79be60a5a2b04b4293189475804017b3f4ca4408 -> c01ab5fa3ec33823f3b495782cbaf664aa495174 } is a revert
+{ 2b3c3662ef9f418e4ce21a0515c3cc4b6f4ba31a -> c34fe951e060217710db2f41c33e0a72fb95f7f0 }
+Partial Revert commits SHA are -> 
+c01ab5fa3ec33823f3b495782cbaf664aa495174 - revert - c34fe951e060217710db2f41c33e0a72fb95f7f0
+The reverted commit sha is - c01ab5fa3ec33823f3b495782cbaf664aa495174
+Commit message - Merge pull request #266 from swaff/word-fix
+
+Added space in 'withthe' to correct to 'with the'.
+The original commit sha is - c34fe951e060217710db2f41c33e0a72fb95f7f0
+Commit message - Moving MVP section to the appendix. Minor edits.
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 124 is -> 
+{ f26218605d5ee997841a32057fc30a5d4482aaa6 -> f999ef26110ec54e6e8ff70816633f455044b4f7 } is a revert
+{ 79be60a5a2b04b4293189475804017b3f4ca4408 -> c01ab5fa3ec33823f3b495782cbaf664aa495174 }
+Partial Revert commits SHA are -> 
+f999ef26110ec54e6e8ff70816633f455044b4f7 - revert - c01ab5fa3ec33823f3b495782cbaf664aa495174
+The reverted commit sha is - f999ef26110ec54e6e8ff70816633f455044b4f7
+Commit message - Update index.md
+
+- resposne mispell
+- todos comment
+The original commit sha is - c01ab5fa3ec33823f3b495782cbaf664aa495174
+Commit message - Merge pull request #266 from swaff/word-fix
+
+Added space in 'withthe' to correct to 'with the'.
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 125 is -> 
+{ 947bb3052a8127c8691648bcd75cc0506b1c2da5 -> f26218605d5ee997841a32057fc30a5d4482aaa6 } is a revert
+{ f26218605d5ee997841a32057fc30a5d4482aaa6 -> f999ef26110ec54e6e8ff70816633f455044b4f7 }
+Partial Revert commits SHA are -> 
+f26218605d5ee997841a32057fc30a5d4482aaa6 - revert - f999ef26110ec54e6e8ff70816633f455044b4f7
+The reverted commit sha is - f26218605d5ee997841a32057fc30a5d4482aaa6
+Commit message - Added space in 'withthe' to correct to 'with the'.
+The original commit sha is - f999ef26110ec54e6e8ff70816633f455044b4f7
+Commit message - Update index.md
+
+- resposne mispell
+- todos comment
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 126 is -> 
+{ b95b4188072d3547cea19d3bc2276351d3dd8170 -> 39f1e4d61255fb413d23820e168fb764e8e734d2 } is a revert
+{ 39f1e4d61255fb413d23820e168fb764e8e734d2 -> faf03918c2fa0154cb876a25e6e400dee64ab8ac }
+Partial Revert commits SHA are -> 
+39f1e4d61255fb413d23820e168fb764e8e734d2 - revert - faf03918c2fa0154cb876a25e6e400dee64ab8ac
+The reverted commit sha is - 39f1e4d61255fb413d23820e168fb764e8e734d2
+Commit message - Merge pull request #262 from mrtidy/gh-pages
+
+couple minor typos
+The original commit sha is - faf03918c2fa0154cb876a25e6e400dee64ab8ac
+Commit message - Update index.md
+
+corrected spelling of Jarrod Overson
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 127 is -> 
+{ 0af37ece171184ef864838447c16b9b4d31bc274 -> 220c1d5e73b6a685914e2c09ef4eb2e8c2c0ea25 } is a revert
+{ 26fcf58ec428a6afdd59423adb32e394fe102384 -> b95b4188072d3547cea19d3bc2276351d3dd8170 }
+Partial Revert commits SHA are -> 
+220c1d5e73b6a685914e2c09ef4eb2e8c2c0ea25 - revert - b95b4188072d3547cea19d3bc2276351d3dd8170
+The reverted commit sha is - 220c1d5e73b6a685914e2c09ef4eb2e8c2c0ea25
+Commit message - Fix typo in comment url.
+The original commit sha is - b95b4188072d3547cea19d3bc2276351d3dd8170
+Commit message - Update index.html
+
+corrected spelling of Jarrod Overson
+The files with partial_reverts are:-
+style.css
+-----------------------------------------------------------------
+
+Partial Revert diff pair 128 is -> 
+{ 0af37ece171184ef864838447c16b9b4d31bc274 -> 220c1d5e73b6a685914e2c09ef4eb2e8c2c0ea25 } is a revert
+{ f172197bea9cb01bbff67cf04cef6e1a6ed78269 -> 648782fb74908ee705a717b9c65782e2cd7456eb }
+Partial Revert commits SHA are -> 
+220c1d5e73b6a685914e2c09ef4eb2e8c2c0ea25 - revert - 648782fb74908ee705a717b9c65782e2cd7456eb
+The reverted commit sha is - 220c1d5e73b6a685914e2c09ef4eb2e8c2c0ea25
+Commit message - Fix typo in comment url.
+The original commit sha is - 648782fb74908ee705a717b9c65782e2cd7456eb
+Commit message - Further tweaks.
+The files with partial_reverts are:-
+style.css
+-----------------------------------------------------------------
+
+Partial Revert diff pair 129 is -> 
+{ 849abdedf7917e29be8ac3f47c0e2b3b3ea32eea -> da50b25ac525cabd15e50b22510f7ab275887fdd } is a revert
+{ da50b25ac525cabd15e50b22510f7ab275887fdd -> 99a45ccc4a9a48fe114de1f632599a7e1a4bcdcb }
+Partial Revert commits SHA are -> 
+da50b25ac525cabd15e50b22510f7ab275887fdd - revert - 99a45ccc4a9a48fe114de1f632599a7e1a4bcdcb
+The reverted commit sha is - da50b25ac525cabd15e50b22510f7ab275887fdd
+Commit message - Some fixes for the Todos app chapter
+
+Fixed some typos and inconsistencies.
+The original commit sha is - 99a45ccc4a9a48fe114de1f632599a7e1a4bcdcb
+Commit message - Merge branch 'gh-pages' of github.com:addyosmani/backbone-fundamentals into gh-pages
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 130 is -> 
+{ fc828b30a8fe2f48c24567cf8e6e392d1283598f -> ac394185312bb578b5cd5f7af99971ba3a41fdd5 } is a revert
+{ 9f8d5dd881520d5c3c58393de388bcbb3b870b56 -> f3394a2f3d4acc826143ab2d457452af66ad52a1 }
+Partial Revert commits SHA are -> 
+ac394185312bb578b5cd5f7af99971ba3a41fdd5 - revert - f3394a2f3d4acc826143ab2d457452af66ad52a1
+The reverted commit sha is - ac394185312bb578b5cd5f7af99971ba3a41fdd5
+Commit message - Add missing 'of' word.
+The original commit sha is - f3394a2f3d4acc826143ab2d457452af66ad52a1
+Commit message - Merge branch 'gh-pages' of https://github.com/addyosmani/backbone-fundamentals into gh-pages
+
+* 'gh-pages' of https://github.com/addyosmani/backbone-fundamentals:
+  Minor cody tidy up (white space, added var, redeclaration of PanelAdvanced).
+  Placeholder image extension is .png (not .gif).
+  Add missing 'of' word.
+  minor type in comment line 1616
+  Fix code block markup.
+  Fix typo in comment url.
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 131 is -> 
+{ fc828b30a8fe2f48c24567cf8e6e392d1283598f -> ac394185312bb578b5cd5f7af99971ba3a41fdd5 } is a revert
+{ fd4e5878b2c4f8fd6815f75f2cfb4217dcaa559a -> 5e59c37bb019e8046ec6a29bbde373404f627708 }
+Partial Revert commits SHA are -> 
+ac394185312bb578b5cd5f7af99971ba3a41fdd5 - revert - 5e59c37bb019e8046ec6a29bbde373404f627708
+The reverted commit sha is - ac394185312bb578b5cd5f7af99971ba3a41fdd5
+Commit message - Add missing 'of' word.
+The original commit sha is - 5e59c37bb019e8046ec6a29bbde373404f627708
+Commit message - minor type in comment line 1616
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 132 is -> 
+{ fc828b30a8fe2f48c24567cf8e6e392d1283598f -> ac394185312bb578b5cd5f7af99971ba3a41fdd5 } is a revert
+{ 52226c3cc075bcbd6f2d0023bd8581d9e25daabb -> b3cf352726061d57589b9b828fc0f4427336b086 }
+Partial Revert commits SHA are -> 
+ac394185312bb578b5cd5f7af99971ba3a41fdd5 - revert - b3cf352726061d57589b9b828fc0f4427336b086
+The reverted commit sha is - ac394185312bb578b5cd5f7af99971ba3a41fdd5
+Commit message - Add missing 'of' word.
+The original commit sha is - b3cf352726061d57589b9b828fc0f4427336b086
+Commit message - Merge pull request #245 from jhonnycano/patch-1
+
+minor typo in comment line 1616
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 133 is -> 
+{ 6a26c0d96b740259b680283e77cb5a9be3a567c6 -> fc828b30a8fe2f48c24567cf8e6e392d1283598f } is a revert
+{ fc828b30a8fe2f48c24567cf8e6e392d1283598f -> ac394185312bb578b5cd5f7af99971ba3a41fdd5 }
+Partial Revert commits SHA are -> 
+fc828b30a8fe2f48c24567cf8e6e392d1283598f - revert - ac394185312bb578b5cd5f7af99971ba3a41fdd5
+The reverted commit sha is - fc828b30a8fe2f48c24567cf8e6e392d1283598f
+Commit message - minor type in comment line 1616
+The original commit sha is - ac394185312bb578b5cd5f7af99971ba3a41fdd5
+Commit message - Add missing 'of' word.
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 134 is -> 
+{ a6f0439e67dbdf4c3e7011cdc6073e60483100c5 -> 5e85bdbf180c9e4b8875266d68a7f0b598ae7eea } is a revert
+{ 5e85bdbf180c9e4b8875266d68a7f0b598ae7eea -> 37eb27304332ed7fb43497aa0dc984c5e062b5f2 }
+Partial Revert commits SHA are -> 
+5e85bdbf180c9e4b8875266d68a7f0b598ae7eea - revert - 37eb27304332ed7fb43497aa0dc984c5e062b5f2
+The reverted commit sha is - 5e85bdbf180c9e4b8875266d68a7f0b598ae7eea
+Commit message - Add Thorax chapter closing section.
+The original commit sha is - 37eb27304332ed7fb43497aa0dc984c5e062b5f2
+Commit message - Merge pull request #224 from eastridge/gh-pages
+
+Add Lumbar and Thorax chapters
+The files with partial_reverts are:-
+README.md
+backbone-fundamentals.rtf
+build/share.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 135 is -> 
+{ 6d3f9a45af19fc10a1fc0881b5557859585403d1 -> 23e5b1660d22e1a68c14dcc888522e2a786fd13a } is a revert
+{ a6f0439e67dbdf4c3e7011cdc6073e60483100c5 -> 5e85bdbf180c9e4b8875266d68a7f0b598ae7eea }
+Partial Revert commits SHA are -> 
+23e5b1660d22e1a68c14dcc888522e2a786fd13a - revert - 5e85bdbf180c9e4b8875266d68a7f0b598ae7eea
+The reverted commit sha is - 23e5b1660d22e1a68c14dcc888522e2a786fd13a
+Commit message - Clean-up, adding cover to index, building new binaries for formats, adding instructions to readme for build.
+The original commit sha is - 5e85bdbf180c9e4b8875266d68a7f0b598ae7eea
+Commit message - Add Thorax chapter closing section.
+The files with partial_reverts are:-
+README.md
+backbone-fundamentals.rtf
+build/share.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 136 is -> 
+{ cd87135804a44329129abc6d679a041a8649883e -> bd42f11e9a47a688adbe4e93d579f9e807bab42b } is a revert
+{ 1873885296d94086203037bd55e9088c69a3d078 -> 6c28de645709c549e226d38b9030e1c4fd7035bf }
+Partial Revert commits SHA are -> 
+bd42f11e9a47a688adbe4e93d579f9e807bab42b - revert - 6c28de645709c549e226d38b9030e1c4fd7035bf
+The reverted commit sha is - bd42f11e9a47a688adbe4e93d579f9e807bab42b
+Commit message - fixing a typo in the Backbone.marionette section
+The original commit sha is - 6c28de645709c549e226d38b9030e1c4fd7035bf
+Commit message - Merge pull request #205 from sindresorhus/toc
+
+Automatic TOC
+The files with partial_reverts are:-
+Makefile
+backbone-fundamentals.rtf
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 137 is -> 
+{ 6f695d7e756a252f1280617b0c53842dc1182554 -> da0a1df172210c548c975b4240dc766b73e02b11 } is a revert
+{ e8f9e549d8f372d4406138255b068f465d9e763e -> 6bffe080d71251ae8affe209386ab4cd787efd2f }
+Partial Revert commits SHA are -> 
+da0a1df172210c548c975b4240dc766b73e02b11 - revert - 6bffe080d71251ae8affe209386ab4cd787efd2f
+The reverted commit sha is - da0a1df172210c548c975b4240dc766b73e02b11
+Commit message - Include viewport. Fixes #87
+The original commit sha is - 6bffe080d71251ae8affe209386ab4cd787efd2f
+Commit message - Merge pull request #204 from sindresorhus/improvements
+
+Improvements
+The files with partial_reverts are:-
+index.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 138 is -> 
+{ 1535a0b19ed11a4e4cc8363dce380281c9fa5782 -> 0614b46eb2a6bdd3c87b78a454c5d7ab266242a2 } is a revert
+{ e8f9e549d8f372d4406138255b068f465d9e763e -> 6bffe080d71251ae8affe209386ab4cd787efd2f }
+Partial Revert commits SHA are -> 
+0614b46eb2a6bdd3c87b78a454c5d7ab266242a2 - revert - 6bffe080d71251ae8affe209386ab4cd787efd2f
+The reverted commit sha is - 0614b46eb2a6bdd3c87b78a454c5d7ab266242a2
+Commit message - Rewrite Makefile
+The original commit sha is - 6bffe080d71251ae8affe209386ab4cd787efd2f
+Commit message - Merge pull request #204 from sindresorhus/improvements
+
+Improvements
+The files with partial_reverts are:-
+index.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 139 is -> 
+{ 863bfa829161128af9486c7d5e7121106825a7d5 -> eacaeb2cdbe5b0a138b839397401f39408514c47 } is a revert
+{ bdb05a345c713f0b700f5a07e928c63f87ed2ad0 -> e8f9e549d8f372d4406138255b068f465d9e763e }
+Partial Revert commits SHA are -> 
+eacaeb2cdbe5b0a138b839397401f39408514c47 - revert - e8f9e549d8f372d4406138255b068f465d9e763e
+The reverted commit sha is - eacaeb2cdbe5b0a138b839397401f39408514c47
+Commit message - moving over to pandoc build setup and including exported formats
+The original commit sha is - e8f9e549d8f372d4406138255b068f465d9e763e
+Commit message - Remove .db file. Doesn't seem useful.
+The files with partial_reverts are:-
+backbone-fundamentals.db
+-----------------------------------------------------------------
+
+Partial Revert diff pair 140 is -> 
+{ da0a1df172210c548c975b4240dc766b73e02b11 -> a5f9651e7b42fecad1f73093d4f10d6229ea8371 } is a revert
+{ 1535a0b19ed11a4e4cc8363dce380281c9fa5782 -> 0614b46eb2a6bdd3c87b78a454c5d7ab266242a2 }
+Partial Revert commits SHA are -> 
+a5f9651e7b42fecad1f73093d4f10d6229ea8371 - revert - 0614b46eb2a6bdd3c87b78a454c5d7ab266242a2
+The reverted commit sha is - a5f9651e7b42fecad1f73093d4f10d6229ea8371
+Commit message - Merge pull request #201 from sindresorhus/quote
+
+Quote consistency
+The original commit sha is - 0614b46eb2a6bdd3c87b78a454c5d7ab266242a2
+Commit message - Rewrite Makefile
+The files with partial_reverts are:-
+index.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 141 is -> 
+{ da0a1df172210c548c975b4240dc766b73e02b11 -> a5f9651e7b42fecad1f73093d4f10d6229ea8371 } is a revert
+{ a5f9651e7b42fecad1f73093d4f10d6229ea8371 -> 1535a0b19ed11a4e4cc8363dce380281c9fa5782 }
+Partial Revert commits SHA are -> 
+a5f9651e7b42fecad1f73093d4f10d6229ea8371 - revert - 1535a0b19ed11a4e4cc8363dce380281c9fa5782
+The reverted commit sha is - a5f9651e7b42fecad1f73093d4f10d6229ea8371
+Commit message - Merge pull request #201 from sindresorhus/quote
+
+Quote consistency
+The original commit sha is - 1535a0b19ed11a4e4cc8363dce380281c9fa5782
+Commit message - Merge pull request #202 from sindresorhus/build-viewport
+
+Include viewport. Fixes #87
+The files with partial_reverts are:-
+Makefile
+build/build.sh
+build/head.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 142 is -> 
+{ 081020d299f33fef86175284666cfb4783aa3c7c -> ecfacbb835036dd4487e2c3741de0c165555af16 } is a revert
+{ 98e1960dd02d77b1159ef034dbd2096dfb4f84ea -> 4d194e38be0c5542cc36ff66ee1fa636aebf0929 }
+Partial Revert commits SHA are -> 
+ecfacbb835036dd4487e2c3741de0c165555af16 - revert - 4d194e38be0c5542cc36ff66ee1fa636aebf0929
+The reverted commit sha is - ecfacbb835036dd4487e2c3741de0c165555af16
+Commit message - Corrections to twitter account reference.
+The original commit sha is - 4d194e38be0c5542cc36ff66ee1fa636aebf0929
+Commit message - Merge pull request #192 from donnut/gh-pages
+
+removed express.createServer()
+The files with partial_reverts are:-
+index.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 143 is -> 
+{ d32145883329cc77ff2c81d850087e46bd14b875 -> bc3c839a02714c4d6f5dda55cf32a02abb692c8e } is a revert
+{ 311f6dc4f9fbe110537152b4a01ba129f1034bc2 -> c8c4c8cc58ebf336755a5cb2e95c1f79abbb1400 }
+Partial Revert commits SHA are -> 
+bc3c839a02714c4d6f5dda55cf32a02abb692c8e - revert - c8c4c8cc58ebf336755a5cb2e95c1f79abbb1400
+The reverted commit sha is - bc3c839a02714c4d6f5dda55cf32a02abb692c8e
+Commit message - add Makefile with support for pdf,epub and html
+The original commit sha is - c8c4c8cc58ebf336755a5cb2e95c1f79abbb1400
+Commit message - Merge pull request #188 from zugaldia/patch-1
+
+typo
+The files with partial_reverts are:-
+index.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 144 is -> 
+{ d60b6c7e68d029d84dd3ba1332f57cba4ad3af32 -> 1d3c1e30c80c683ba5ccfe2e818eed457ccb6533 } is a revert
+{ 257038b83e094fa4e474deb10d812b456cd5e4c4 -> 1de2ea22badc429cccf038b40f708eb21e422fb9 }
+Partial Revert commits SHA are -> 
+1d3c1e30c80c683ba5ccfe2e818eed457ccb6533 - revert - 1de2ea22badc429cccf038b40f708eb21e422fb9
+The reverted commit sha is - 1d3c1e30c80c683ba5ccfe2e818eed457ccb6533
+Commit message - Moved RESTful section up in TOC to align with content and changed header style for Better Model Property Validation.
+The original commit sha is - 1de2ea22badc429cccf038b40f708eb21e422fb9
+Commit message - Merge pull request #191 from 2color/gh-pages
+
+Using a jquery selector to define a view's el doesn't work.
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 145 is -> 
+{ d60b6c7e68d029d84dd3ba1332f57cba4ad3af32 -> 1d3c1e30c80c683ba5ccfe2e818eed457ccb6533 } is a revert
+{ 07854c09cebe7f5e93f09355a63821bf32fb2e1e -> 1593414fe03f46afb5465291599ddcee63fd559e }
+Partial Revert commits SHA are -> 
+1d3c1e30c80c683ba5ccfe2e818eed457ccb6533 - revert - 1593414fe03f46afb5465291599ddcee63fd559e
+The reverted commit sha is - 1d3c1e30c80c683ba5ccfe2e818eed457ccb6533
+Commit message - Moved RESTful section up in TOC to align with content and changed header style for Better Model Property Validation.
+The original commit sha is - 1593414fe03f46afb5465291599ddcee63fd559e
+Commit message - Merge pull request #184 from tdcook/gh-pages
+
+Fix typo in Backbone Boilerplate section
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 146 is -> 
+{ 3da908a618840a7d7cc2e7fd58ca2bd9cbad0c28 -> 7f4c795da95e4b5895376a0b39b0cb1d6af1c230 } is a revert
+{ aece3d4210097982daabeda8cfe1373b68889c49 -> 0e21a4d553c67abcc1a79c09fb9bbe5d00d2dac7 }
+Partial Revert commits SHA are -> 
+7f4c795da95e4b5895376a0b39b0cb1d6af1c230 - revert - 0e21a4d553c67abcc1a79c09fb9bbe5d00d2dac7
+The reverted commit sha is - 7f4c795da95e4b5895376a0b39b0cb1d6af1c230
+Commit message - Pushing latest builds with fixes from CSH, Dusan, reviews.
+The original commit sha is - 0e21a4d553c67abcc1a79c09fb9bbe5d00d2dac7
+Commit message - CSS fix.
+The files with partial_reverts are:-
+build/share.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 147 is -> 
+{ d0ce7eccee9adf6db69454dba6fe2ecde5220695 -> 552df745b8ca16c4b9bbbb6c4af21c30ed96ce32 } is a revert
+{ 5f0ac8e306b1d307b83bebe91892766feef42b44 -> fb970bd7cda80295735bd84fb9d92cacbdfcbca3 }
+Partial Revert commits SHA are -> 
+552df745b8ca16c4b9bbbb6c4af21c30ed96ce32 - revert - fb970bd7cda80295735bd84fb9d92cacbdfcbca3
+The reverted commit sha is - 552df745b8ca16c4b9bbbb6c4af21c30ed96ce32
+Commit message - fixed typo where 'on the left of' should be 'to the right of'; also made key identifier code style
+The original commit sha is - fb970bd7cda80295735bd84fb9d92cacbdfcbca3
+Commit message - Merge pull request #169 from ricogallo/patch-1
+
+FIX: calling the correct callback on 'add' on Todos
+The files with partial_reverts are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 148 is -> 
+{ d59a807c492be402b4615b10b4f9d735bf545741 -> c7756a87d6e09974ac689fc245078cb356bb1251 } is a revert
+{ 573f0a2a3edea0e0a8b4ee66a7af3062552de53f -> 953512d9562dae9faf66f85bdc021cc0ad9582ce }
+Partial Revert commits SHA are -> 
+c7756a87d6e09974ac689fc245078cb356bb1251 - revert - 953512d9562dae9faf66f85bdc021cc0ad9582ce
+The reverted commit sha is - c7756a87d6e09974ac689fc245078cb356bb1251
+Commit message - Updating src of github watch buttons.
+The original commit sha is - 953512d9562dae9faf66f85bdc021cc0ad9582ce
+Commit message - Merge pull request #157 from robflaherty/express3.x
+
+Updating Jade layouts for Express 3.x compatibility
+The files with partial_reverts are:-
+practicals/stacks/option2/views/layout.jade
+practicals/stacks/option2/views/todo.jade
+-----------------------------------------------------------------
+
+Partial Revert diff pair 149 is -> 
+{ 352b06da10fd2b1198a3d71b00f7074191bbccf3 -> 2315aef82f42b7e3c2664ca5fc2ef17dbab99f18 } is a revert
+{ 5b64efbba13b637b9ccab39c3fa8e35d6b2f2026 -> bb1ece0855a493e1cd142597a7fdea0a8a99e33e }
+Partial Revert commits SHA are -> 
+2315aef82f42b7e3c2664ca5fc2ef17dbab99f18 - revert - bb1ece0855a493e1cd142597a7fdea0a8a99e33e
+The reverted commit sha is - 2315aef82f42b7e3c2664ca5fc2ef17dbab99f18
+Commit message - Adding some initial contribs from dailyjs, to be better positioned and fleshed out later.
+The original commit sha is - bb1ece0855a493e1cd142597a7fdea0a8a99e33e
+Commit message - Merge pull request #160 from Alex-PK/master
+
+Added a specific stylesheet for epub version
+The files with partial_reverts are:-
+build/build.sh
+epub.css
+-----------------------------------------------------------------
+
+Partial Revert diff pair 150 is -> 
+{ 555a3fb92e216bc29373310b5b356b0dbb20117c -> 487f67361b51efcca82eb20bb17b814170fc1238 } is a revert
+{ 487f67361b51efcca82eb20bb17b814170fc1238 -> 4a1f4ce555c03705bb77bbc6ea4e24e7ed338b91 }
+Partial Revert commits SHA are -> 
+487f67361b51efcca82eb20bb17b814170fc1238 - revert - 4a1f4ce555c03705bb77bbc6ea4e24e7ed338b91
+The reverted commit sha is - 487f67361b51efcca82eb20bb17b814170fc1238
+Commit message - Added instruction file with pandoc howto.
+The original commit sha is - 4a1f4ce555c03705bb77bbc6ea4e24e7ed338b91
+Commit message - Merge pull request #82 from eethann/master
+
+Add metadata file for epub/mobi generation via pandoc
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 151 is -> 
+{ f93e59dbce193a08943a8b3ee2eb3c681ba2abf6 -> 54cd712ef636e9234b6d2a5b57911804e603469a } is a revert
+{ 873157c9fd3e244bfb145723963620a09570d481 -> 98e45646f338a8e61ad8a1fc72310c3c3f268da1 }
+Partial Revert commits SHA are -> 
+54cd712ef636e9234b6d2a5b57911804e603469a - revert - 98e45646f338a8e61ad8a1fc72310c3c3f268da1
+The reverted commit sha is - 54cd712ef636e9234b6d2a5b57911804e603469a
+Commit message - Fixed another grammatical error.
+The original commit sha is - 98e45646f338a8e61ad8a1fc72310c3c3f268da1
+Commit message - Merge pull request #16 from boushley/master
+
+Fixing some grammatical and wording errors
+The files with partial_reverts are:-
+practicals/modular-mobile-app/app/app-build.js
+practicals/modular-mobile-app/app/app.js
+practicals/modular-mobile-app/app/libs/AMDbackbone-0.5.3.js
+practicals/modular-mobile-app/app/libs/jQuery.ui.datepicker.js
+practicals/modular-mobile-app/app/libs/jquery-1.7.1.js
+practicals/modular-mobile-app/app/libs/jquery.mobile-1.0.js
+practicals/modular-mobile-app/app/libs/jquery.ui.datepicker.mobile.js
+practicals/modular-mobile-app/app/libs/json2.js
+practicals/modular-mobile-app/app/libs/require/require-1.0.2.min.js
+practicals/modular-mobile-app/app/libs/require/text.js
+practicals/modular-mobile-app/app/libs/underscore-1.2.2.js
+practicals/modular-mobile-app/app/main.js
+practicals/modular-mobile-app/app/models/PhotoCollection.js
+practicals/modular-mobile-app/app/models/ResultCollection.js
+practicals/modular-mobile-app/app/models/ResultEntry.js
+practicals/modular-mobile-app/app/routers/workspace.js
+practicals/modular-mobile-app/app/templates/listview.html
+practicals/modular-mobile-app/app/templates/photoview.html
+practicals/modular-mobile-app/app/ui.js
+practicals/modular-mobile-app/app/utils.js
+practicals/modular-mobile-app/app/views/appview.js
+practicals/modular-mobile-app/app/views/photoList.js
+practicals/modular-mobile-app/app/views/resultList.js
+practicals/modular-mobile-app/css/custom_mobile_theme.css
+practicals/modular-mobile-app/css/jquery.ui.datepicker.css
+practicals/modular-mobile-app/css/style.css
+practicals/modular-mobile-app/css/theme.css
+practicals/modular-mobile-app/index.html
+practicals/modular-todo-app/css/todos.css
+practicals/modular-todo-app/index.html
+practicals/modular-todo-app/js/collections/todos.js
+practicals/modular-todo-app/js/libs/backbone/backbone-optamd3-min.js
+practicals/modular-todo-app/js/libs/backbone/localstorage.js
+practicals/modular-todo-app/js/libs/jquery/jquery-min.js
+practicals/modular-todo-app/js/libs/require/require.js
+practicals/modular-todo-app/js/libs/require/text.js
+practicals/modular-todo-app/js/libs/underscore/underscore-min.js
+practicals/modular-todo-app/js/main.js
+practicals/modular-todo-app/js/models/todo.js
+practicals/modular-todo-app/js/templates/stats.html
+practicals/modular-todo-app/js/templates/todos.html
+practicals/modular-todo-app/js/views/app.js
+practicals/modular-todo-app/js/views/todos.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 152 is -> 
+{ 37ede452811d0de5d2fee0c0081da8beb69c68f5 -> f713bbf9770677e52ee0c57583ecd3286362e48d } is a revert
+{ 873157c9fd3e244bfb145723963620a09570d481 -> 98e45646f338a8e61ad8a1fc72310c3c3f268da1 }
+Partial Revert commits SHA are -> 
+f713bbf9770677e52ee0c57583ecd3286362e48d - revert - 98e45646f338a8e61ad8a1fc72310c3c3f268da1
+The reverted commit sha is - f713bbf9770677e52ee0c57583ecd3286362e48d
+Commit message - Fixing grammatical error.
+The original commit sha is - 98e45646f338a8e61ad8a1fc72310c3c3f268da1
+Commit message - Merge pull request #16 from boushley/master
+
+Fixing some grammatical and wording errors
+The files with partial_reverts are:-
+practicals/modular-mobile-app/app/app-build.js
+practicals/modular-mobile-app/app/app.js
+practicals/modular-mobile-app/app/libs/AMDbackbone-0.5.3.js
+practicals/modular-mobile-app/app/libs/jQuery.ui.datepicker.js
+practicals/modular-mobile-app/app/libs/jquery-1.7.1.js
+practicals/modular-mobile-app/app/libs/jquery.mobile-1.0.js
+practicals/modular-mobile-app/app/libs/jquery.ui.datepicker.mobile.js
+practicals/modular-mobile-app/app/libs/json2.js
+practicals/modular-mobile-app/app/libs/require/require-1.0.2.min.js
+practicals/modular-mobile-app/app/libs/require/text.js
+practicals/modular-mobile-app/app/libs/underscore-1.2.2.js
+practicals/modular-mobile-app/app/main.js
+practicals/modular-mobile-app/app/models/PhotoCollection.js
+practicals/modular-mobile-app/app/models/ResultCollection.js
+practicals/modular-mobile-app/app/models/ResultEntry.js
+practicals/modular-mobile-app/app/routers/workspace.js
+practicals/modular-mobile-app/app/templates/listview.html
+practicals/modular-mobile-app/app/templates/photoview.html
+practicals/modular-mobile-app/app/ui.js
+practicals/modular-mobile-app/app/utils.js
+practicals/modular-mobile-app/app/views/appview.js
+practicals/modular-mobile-app/app/views/photoList.js
+practicals/modular-mobile-app/app/views/resultList.js
+practicals/modular-mobile-app/css/custom_mobile_theme.css
+practicals/modular-mobile-app/css/jquery.ui.datepicker.css
+practicals/modular-mobile-app/css/style.css
+practicals/modular-mobile-app/css/theme.css
+practicals/modular-mobile-app/index.html
+practicals/modular-todo-app/css/todos.css
+practicals/modular-todo-app/index.html
+practicals/modular-todo-app/js/collections/todos.js
+practicals/modular-todo-app/js/libs/backbone/backbone-optamd3-min.js
+practicals/modular-todo-app/js/libs/backbone/localstorage.js
+practicals/modular-todo-app/js/libs/jquery/jquery-min.js
+practicals/modular-todo-app/js/libs/require/require.js
+practicals/modular-todo-app/js/libs/require/text.js
+practicals/modular-todo-app/js/libs/underscore/underscore-min.js
+practicals/modular-todo-app/js/main.js
+practicals/modular-todo-app/js/models/todo.js
+practicals/modular-todo-app/js/templates/stats.html
+practicals/modular-todo-app/js/templates/todos.html
+practicals/modular-todo-app/js/views/app.js
+practicals/modular-todo-app/js/views/todos.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 153 is -> 
+{ 83da62025887dfd7415045f3d0baea7ea42a47ec -> f93e59dbce193a08943a8b3ee2eb3c681ba2abf6 } is a revert
+{ 37ede452811d0de5d2fee0c0081da8beb69c68f5 -> f713bbf9770677e52ee0c57583ecd3286362e48d }
+Partial Revert commits SHA are -> 
+f93e59dbce193a08943a8b3ee2eb3c681ba2abf6 - revert - f713bbf9770677e52ee0c57583ecd3286362e48d
+The reverted commit sha is - f93e59dbce193a08943a8b3ee2eb3c681ba2abf6
+Commit message - fixes for issues 15 5 1-3
+The original commit sha is - f713bbf9770677e52ee0c57583ecd3286362e48d
+Commit message - Fixing grammatical error.
+The files with partial_reverts are:-
+practicals/modular-mobile-app/app/app-build.js
+practicals/modular-mobile-app/app/app.js
+practicals/modular-mobile-app/app/libs/AMDbackbone-0.5.3.js
+practicals/modular-mobile-app/app/libs/jQuery.ui.datepicker.js
+practicals/modular-mobile-app/app/libs/jquery-1.7.1.js
+practicals/modular-mobile-app/app/libs/jquery.mobile-1.0.js
+practicals/modular-mobile-app/app/libs/jquery.ui.datepicker.mobile.js
+practicals/modular-mobile-app/app/libs/json2.js
+practicals/modular-mobile-app/app/libs/require/require-1.0.2.min.js
+practicals/modular-mobile-app/app/libs/require/text.js
+practicals/modular-mobile-app/app/libs/underscore-1.2.2.js
+practicals/modular-mobile-app/app/main.js
+practicals/modular-mobile-app/app/models/PhotoCollection.js
+practicals/modular-mobile-app/app/models/ResultCollection.js
+practicals/modular-mobile-app/app/models/ResultEntry.js
+practicals/modular-mobile-app/app/routers/workspace.js
+practicals/modular-mobile-app/app/templates/listview.html
+practicals/modular-mobile-app/app/templates/photoview.html
+practicals/modular-mobile-app/app/ui.js
+practicals/modular-mobile-app/app/utils.js
+practicals/modular-mobile-app/app/views/appview.js
+practicals/modular-mobile-app/app/views/photoList.js
+practicals/modular-mobile-app/app/views/resultList.js
+practicals/modular-mobile-app/css/custom_mobile_theme.css
+practicals/modular-mobile-app/css/jquery.ui.datepicker.css
+practicals/modular-mobile-app/css/style.css
+practicals/modular-mobile-app/css/theme.css
+practicals/modular-mobile-app/index.html
+practicals/modular-todo-app/css/todos.css
+practicals/modular-todo-app/index.html
+practicals/modular-todo-app/js/collections/todos.js
+practicals/modular-todo-app/js/libs/backbone/backbone-optamd3-min.js
+practicals/modular-todo-app/js/libs/backbone/localstorage.js
+practicals/modular-todo-app/js/libs/jquery/jquery-min.js
+practicals/modular-todo-app/js/libs/require/require.js
+practicals/modular-todo-app/js/libs/require/text.js
+practicals/modular-todo-app/js/libs/underscore/underscore-min.js
+practicals/modular-todo-app/js/main.js
+practicals/modular-todo-app/js/models/todo.js
+practicals/modular-todo-app/js/templates/stats.html
+practicals/modular-todo-app/js/templates/todos.html
+practicals/modular-todo-app/js/views/app.js
+practicals/modular-todo-app/js/views/todos.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 154 is -> 
+{ f93e59dbce193a08943a8b3ee2eb3c681ba2abf6 -> 54cd712ef636e9234b6d2a5b57911804e603469a } is a revert
+{ 9d4e79e418581f79d60c79f264a0462205712825 -> 2d93cf53a7eb21894307e147107f015e26b55b2e }
+Partial Revert commits SHA are -> 
+54cd712ef636e9234b6d2a5b57911804e603469a - revert - 2d93cf53a7eb21894307e147107f015e26b55b2e
+The reverted commit sha is - 54cd712ef636e9234b6d2a5b57911804e603469a
+Commit message - Fixed another grammatical error.
+The original commit sha is - 2d93cf53a7eb21894307e147107f015e26b55b2e
+Commit message - adding practicals section for new tutorials
+The files with partial_reverts are:-
+practicals/modular-mobile-app/app/app-build.js
+practicals/modular-mobile-app/app/app.js
+practicals/modular-mobile-app/app/libs/AMDbackbone-0.5.3.js
+practicals/modular-mobile-app/app/libs/jQuery.ui.datepicker.js
+practicals/modular-mobile-app/app/libs/jquery-1.7.1.js
+practicals/modular-mobile-app/app/libs/jquery.mobile-1.0.js
+practicals/modular-mobile-app/app/libs/jquery.ui.datepicker.mobile.js
+practicals/modular-mobile-app/app/libs/json2.js
+practicals/modular-mobile-app/app/libs/require/require-1.0.2.min.js
+practicals/modular-mobile-app/app/libs/require/text.js
+practicals/modular-mobile-app/app/libs/underscore-1.2.2.js
+practicals/modular-mobile-app/app/main.js
+practicals/modular-mobile-app/app/models/PhotoCollection.js
+practicals/modular-mobile-app/app/models/ResultCollection.js
+practicals/modular-mobile-app/app/models/ResultEntry.js
+practicals/modular-mobile-app/app/routers/workspace.js
+practicals/modular-mobile-app/app/templates/listview.html
+practicals/modular-mobile-app/app/templates/photoview.html
+practicals/modular-mobile-app/app/ui.js
+practicals/modular-mobile-app/app/utils.js
+practicals/modular-mobile-app/app/views/appview.js
+practicals/modular-mobile-app/app/views/photoList.js
+practicals/modular-mobile-app/app/views/resultList.js
+practicals/modular-mobile-app/css/custom_mobile_theme.css
+practicals/modular-mobile-app/css/jquery.ui.datepicker.css
+practicals/modular-mobile-app/css/style.css
+practicals/modular-mobile-app/css/theme.css
+practicals/modular-mobile-app/index.html
+practicals/modular-todo-app/css/todos.css
+practicals/modular-todo-app/index.html
+practicals/modular-todo-app/js/collections/todos.js
+practicals/modular-todo-app/js/libs/backbone/backbone-optamd3-min.js
+practicals/modular-todo-app/js/libs/backbone/localstorage.js
+practicals/modular-todo-app/js/libs/jquery/jquery-min.js
+practicals/modular-todo-app/js/libs/require/require.js
+practicals/modular-todo-app/js/libs/require/text.js
+practicals/modular-todo-app/js/libs/underscore/underscore-min.js
+practicals/modular-todo-app/js/main.js
+practicals/modular-todo-app/js/models/todo.js
+practicals/modular-todo-app/js/templates/stats.html
+practicals/modular-todo-app/js/templates/todos.html
+practicals/modular-todo-app/js/views/app.js
+practicals/modular-todo-app/js/views/todos.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 155 is -> 
+{ f93e59dbce193a08943a8b3ee2eb3c681ba2abf6 -> 54cd712ef636e9234b6d2a5b57911804e603469a } is a revert
+{ 54cd712ef636e9234b6d2a5b57911804e603469a -> 9d4e79e418581f79d60c79f264a0462205712825 }
+Partial Revert commits SHA are -> 
+54cd712ef636e9234b6d2a5b57911804e603469a - revert - 9d4e79e418581f79d60c79f264a0462205712825
+The reverted commit sha is - 54cd712ef636e9234b6d2a5b57911804e603469a
+Commit message - Fixed another grammatical error.
+The original commit sha is - 9d4e79e418581f79d60c79f264a0462205712825
+Commit message - backing out practicals
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 156 is -> 
+{ 83da62025887dfd7415045f3d0baea7ea42a47ec -> f93e59dbce193a08943a8b3ee2eb3c681ba2abf6 } is a revert
+{ f93e59dbce193a08943a8b3ee2eb3c681ba2abf6 -> 54cd712ef636e9234b6d2a5b57911804e603469a }
+Partial Revert commits SHA are -> 
+f93e59dbce193a08943a8b3ee2eb3c681ba2abf6 - revert - 54cd712ef636e9234b6d2a5b57911804e603469a
+The reverted commit sha is - f93e59dbce193a08943a8b3ee2eb3c681ba2abf6
+Commit message - fixes for issues 15 5 1-3
+The original commit sha is - 54cd712ef636e9234b6d2a5b57911804e603469a
+Commit message - Fixed another grammatical error.
+The files with partial_reverts are:-
+practicals/modular-mobile-app/app/app-build.js
+practicals/modular-mobile-app/app/app.js
+practicals/modular-mobile-app/app/libs/AMDbackbone-0.5.3.js
+practicals/modular-mobile-app/app/libs/jQuery.ui.datepicker.js
+practicals/modular-mobile-app/app/libs/jquery-1.7.1.js
+practicals/modular-mobile-app/app/libs/jquery.mobile-1.0.js
+practicals/modular-mobile-app/app/libs/jquery.ui.datepicker.mobile.js
+practicals/modular-mobile-app/app/libs/json2.js
+practicals/modular-mobile-app/app/libs/require/require-1.0.2.min.js
+practicals/modular-mobile-app/app/libs/require/text.js
+practicals/modular-mobile-app/app/libs/underscore-1.2.2.js
+practicals/modular-mobile-app/app/main.js
+practicals/modular-mobile-app/app/models/PhotoCollection.js
+practicals/modular-mobile-app/app/models/ResultCollection.js
+practicals/modular-mobile-app/app/models/ResultEntry.js
+practicals/modular-mobile-app/app/routers/workspace.js
+practicals/modular-mobile-app/app/templates/listview.html
+practicals/modular-mobile-app/app/templates/photoview.html
+practicals/modular-mobile-app/app/ui.js
+practicals/modular-mobile-app/app/utils.js
+practicals/modular-mobile-app/app/views/appview.js
+practicals/modular-mobile-app/app/views/photoList.js
+practicals/modular-mobile-app/app/views/resultList.js
+practicals/modular-mobile-app/css/custom_mobile_theme.css
+practicals/modular-mobile-app/css/jquery.ui.datepicker.css
+practicals/modular-mobile-app/css/style.css
+practicals/modular-mobile-app/css/theme.css
+practicals/modular-mobile-app/index.html
+practicals/modular-todo-app/css/todos.css
+practicals/modular-todo-app/index.html
+practicals/modular-todo-app/js/collections/todos.js
+practicals/modular-todo-app/js/libs/backbone/backbone-optamd3-min.js
+practicals/modular-todo-app/js/libs/backbone/localstorage.js
+practicals/modular-todo-app/js/libs/jquery/jquery-min.js
+practicals/modular-todo-app/js/libs/require/require.js
+practicals/modular-todo-app/js/libs/require/text.js
+practicals/modular-todo-app/js/libs/underscore/underscore-min.js
+practicals/modular-todo-app/js/main.js
+practicals/modular-todo-app/js/models/todo.js
+practicals/modular-todo-app/js/templates/stats.html
+practicals/modular-todo-app/js/templates/todos.html
+practicals/modular-todo-app/js/views/app.js
+practicals/modular-todo-app/js/views/todos.js
+-----------------------------------------------------------------
+

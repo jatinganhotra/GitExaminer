@@ -1,0 +1,3209 @@
+# of partial reverts = 179
+Partial Revert diff pair 1 is -> 
+{ 4b2e935401019c53b7675a93ded1af65cb325b03 -> e1554d865c52b64e810b7c5e0f54d2cd21f2d64d } is a revert
+{ 6c46c1c0f7546f20808624ca078991fca7e1099b -> 8e7f640bbbe183d1beabcb670bed9d242e213616 }
+Partial Revert commits SHA are -> 
+e1554d865c52b64e810b7c5e0f54d2cd21f2d64d - revert - 8e7f640bbbe183d1beabcb670bed9d242e213616
+The reverted commit sha is - e1554d865c52b64e810b7c5e0f54d2cd21f2d64d
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 8e7f640bbbe183d1beabcb670bed9d242e213616
+Commit message - [maven-release-plugin] prepare release ninja-4.0.0
+The files with partial_reverts are:-
+ninja-async-machine-beta/pom.xml
+ninja-core/pom.xml
+ninja-jaxy-routes/pom.xml
+ninja-maven-plugin/pom.xml
+ninja-metrics-ganglia/pom.xml
+ninja-metrics-graphite/pom.xml
+ninja-metrics-influxdb/pom.xml
+ninja-metrics-librato/pom.xml
+ninja-metrics/pom.xml
+ninja-servlet-archetype-simple/pom.xml
+ninja-servlet-integration-test/pom.xml
+ninja-servlet-jpa-blog-archetype/pom.xml
+ninja-servlet-jpa-blog-integration-test/pom.xml
+ninja-servlet/pom.xml
+ninja-standalone/pom.xml
+ninja-test-utilities/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 38d291dec8327f3e546395e867fcef7b367eb341 -> 72cc1cd1cdd803d7fce710ca7cad6ad08d45fd89 } is a revert
+{ 72cc1cd1cdd803d7fce710ca7cad6ad08d45fd89 -> be5fb4132fe13d9334e2387cd1adcba621c1051e }
+Partial Revert commits SHA are -> 
+72cc1cd1cdd803d7fce710ca7cad6ad08d45fd89 - revert - be5fb4132fe13d9334e2387cd1adcba621c1051e
+The reverted commit sha is - 72cc1cd1cdd803d7fce710ca7cad6ad08d45fd89
+Commit message - updated templates
+The original commit sha is - be5fb4132fe13d9334e2387cd1adcba621c1051e
+Commit message - Merge pull request #251 from svenkubiak/develop
+
+Bumped version in archetypes
+The files with partial_reverts are:-
+ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 901771ec01be8e81bc674968602f703366dfde97 -> c96ab3285da6cff813a78e1412a62b65dd1a43a2 } is a revert
+{ 625d4090f2dacb0dd73a3484badcee3d32eca698 -> 4226a781a68883fdbd826bfb84d7e580f44ab83c }
+Partial Revert commits SHA are -> 
+c96ab3285da6cff813a78e1412a62b65dd1a43a2 - revert - 4226a781a68883fdbd826bfb84d7e580f44ab83c
+The reverted commit sha is - c96ab3285da6cff813a78e1412a62b65dd1a43a2
+Commit message - Added error message when no bodyparser for the content type was available
+The original commit sha is - 4226a781a68883fdbd826bfb84d7e580f44ab83c
+Commit message - Merge branch 'develop' of github.com:ninjaframework/ninja into issue-188
+
+Conflicts:
+	ninja-core/src/site/markdown/developer/changelog.md
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Route.java
+ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 338a3f596021e94be4a2e88d969226196416765e -> fe4bf43a4fb74bdf07e040a8f3fcc0a1b350fde8 } is a revert
+{ cf746911193d03ec7a3dc41d2afc5b6f45727b7f -> 79409545a0fc5a1f2eb24fdf3ec2c1e0f09058f8 }
+Partial Revert commits SHA are -> 
+fe4bf43a4fb74bdf07e040a8f3fcc0a1b350fde8 - revert - 79409545a0fc5a1f2eb24fdf3ec2c1e0f09058f8
+The reverted commit sha is - fe4bf43a4fb74bdf07e040a8f3fcc0a1b350fde8
+Commit message - added function to set html/text body from template
+The original commit sha is - 79409545a0fc5a1f2eb24fdf3ec2c1e0f09058f8
+Commit message - removed methods for mail templates
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/postoffice/common/MailImpl.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ 89905cb186d04fbfc64a67a4e7f8d1102ffc473a -> cf746911193d03ec7a3dc41d2afc5b6f45727b7f } is a revert
+{ cf746911193d03ec7a3dc41d2afc5b6f45727b7f -> 79409545a0fc5a1f2eb24fdf3ec2c1e0f09058f8 }
+Partial Revert commits SHA are -> 
+cf746911193d03ec7a3dc41d2afc5b6f45727b7f - revert - 79409545a0fc5a1f2eb24fdf3ec2c1e0f09058f8
+The reverted commit sha is - cf746911193d03ec7a3dc41d2afc5b6f45727b7f
+Commit message - organized imports
+The original commit sha is - 79409545a0fc5a1f2eb24fdf3ec2c1e0f09058f8
+Commit message - removed methods for mail templates
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/postoffice/common/MailImpl.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ 5e8d23468cf7c12c69518289cd602f3cbe4d7ed9 -> d46355c516294c07143c664a449af7e58035cedd } is a revert
+{ 8a36e071691f3bcd5bc3c9cb1c2b412bda8e47f1 -> 82c7a9c59d9c8879a8d5b7f9bb6d34a1130c90da }
+Partial Revert commits SHA are -> 
+d46355c516294c07143c664a449af7e58035cedd - revert - 82c7a9c59d9c8879a8d5b7f9bb6d34a1130c90da
+The reverted commit sha is - d46355c516294c07143c664a449af7e58035cedd
+Commit message - Implement a Ninja Metrics module
+
+Applications will need to be manually instrumented by:
+
+1. Adding the optional ninja-metrics dependency
+2. Installing the MetricsModule in their conf.Module class
+3. Subclassing InstrumentedNinja in their conf.Ninja class
+4. Applications may optionally instrument their NinjaCache
+
+Ninja-Metrics will collect data on controller methods annotated
+as @Metered or @Timed.  Non-annotated controller methods are
+largely ignored except for general count collection.
+
+InstrumentedNinja will monitor bad requests, internal server errors,
+and routes not found. It will also keep a real-time count of active
+requests.
+
+To try this out:
+
+1. `mvn install` in the repository root
+2. `mvn ninja:run` in the ninja-servlet-integration-test
+3. Startup VisualVM
+4. Install the MBeans plugin through the Tools->Plugins  menu
+5. Drill into the NinjaJetty instance listed in VisualVM and select the *MBeans* tab
+6. Browse the test app and click on the different available *ninja.cache* and *ninja.requests* metrics
+The original commit sha is - 82c7a9c59d9c8879a8d5b7f9bb6d34a1130c90da
+Commit message - Merge branch 'develop' of github.com:ninjaframework/ninja into develop
+
+Conflicts:
+	ninja-core/src/site/markdown/developer/changelog.md
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/template/TemplateEngineFreemarker.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ 7b3ee1cd214572f77c9c8817169d2dbb2f314089 -> 846564805a3aa41eb43e5c4b48ff86fe3ae35e97 } is a revert
+{ 846564805a3aa41eb43e5c4b48ff86fe3ae35e97 -> 0394eaca4bee0a3ddf48263d34bf6a1b0ad4fd47 }
+Partial Revert commits SHA are -> 
+846564805a3aa41eb43e5c4b48ff86fe3ae35e97 - revert - 0394eaca4bee0a3ddf48263d34bf6a1b0ad4fd47
+The reverted commit sha is - 846564805a3aa41eb43e5c4b48ff86fe3ae35e97
+Commit message - update routing docs to reflect changes in PR #236
+
+routes can have multiple regex parts
+The original commit sha is - 0394eaca4bee0a3ddf48263d34bf6a1b0ad4fd47
+Commit message - Merge pull request #240 from bazi/docs/pr-236
+
+Update routing docs to reflect changes in PR #236
+The files with partial_reverts are:-
+ninja-servlet-jpa-blog-archetype/src/main/resources/archetype-resources/src/main/java/dao/SetupDao.java
+ninja-servlet-jpa-blog-integration-test/src/main/java/dao/SetupDao.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ fe86379465eb8978d5034539813c5720705dbb6b -> d3efccb9bdfbb73196452321b85ca984d5e4af01 } is a revert
+{ fcf9118dde48db7e447bc4dd6cc4a0fd7e4f0917 -> 4a108e01106679e681755ba659a1523a037d460f }
+Partial Revert commits SHA are -> 
+d3efccb9bdfbb73196452321b85ca984d5e4af01 - revert - 4a108e01106679e681755ba659a1523a037d460f
+The reverted commit sha is - d3efccb9bdfbb73196452321b85ca984d5e4af01
+Commit message - Revise the boolean setting controlling external configuration hot-reloading
+
+The addition of the setting within the external application.conf file to control
+enabling/disabling runtime hot-reloading for #235 was hastily done.
+
+In retrospect, it would be better to control this behavior by use of a System
+property which complements the system property already used to specify the
+external configuration location.
+
+    java -Dninja.external.reload=true -Dninja.external.configuration=app.conf
+The original commit sha is - 4a108e01106679e681755ba659a1523a037d460f
+Commit message - Merge branch 'develop' into bazi-multiple-regex-route
+
+Conflicts:
+	ninja-core/src/site/markdown/developer/changelog.md
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Route.java
+ninja-core/src/site/markdown/team.md
+ninja-core/src/test/java/ninja/RouteBuilderImplTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ ec49a57cb1907da02d28bc428fabb2ad85a9971a -> 708482077e2d5241771207f08be13b9eb41866df } is a revert
+{ 708482077e2d5241771207f08be13b9eb41866df -> fcf9118dde48db7e447bc4dd6cc4a0fd7e4f0917 }
+Partial Revert commits SHA are -> 
+708482077e2d5241771207f08be13b9eb41866df - revert - fcf9118dde48db7e447bc4dd6cc4a0fd7e4f0917
+The reverted commit sha is - 708482077e2d5241771207f08be13b9eb41866df
+Commit message - Added test for NinjaCache.
+The original commit sha is - fcf9118dde48db7e447bc4dd6cc4a0fd7e4f0917
+Commit message - Merge branch 'develop' of github.com:ninjaframework/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/utils/NinjaConstant.java
+ninja-core/src/main/java/ninja/utils/NinjaProperties.java
+ninja-core/src/main/java/ninja/utils/NinjaPropertiesImpl.java
+ninja-core/src/site/markdown/documentation/configuration_and_modes.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ 3ee04b742b83761753e03c9f74e77c595ea38634 -> 948eeb44257529c03df2ef46a226565beae9fb67 } is a revert
+{ 9a5f964ae00b6f47b7e4150be9818154a741ea4f -> fb8837e92b7c761f15e2ff6bd156f779605df006 }
+Partial Revert commits SHA are -> 
+948eeb44257529c03df2ef46a226565beae9fb67 - revert - fb8837e92b7c761f15e2ff6bd156f779605df006
+The reverted commit sha is - 948eeb44257529c03df2ef46a226565beae9fb67
+Commit message - Add new Ninja logo and improve typography & styling of documentation
+
+I've created an SVG from the shape of the console ASCII logo and remixed it with a
+Ninja star.  I also created a square logo for social media accounts, favicons, and
+other purposes.
+
+I believe the css styling tweaks, font changes, and introduction of FontAwesome
+produce a better-formatted website.
+
+Obviously all of this is subjective.
+The original commit sha is - fb8837e92b7c761f15e2ff6bd156f779605df006
+Commit message - Merge branch 'develop' into multiple-regex-route
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Route.java
+ninja-core/src/test/java/ninja/RouteBuilderImplTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 5016f2e6bb2730ea8d12d1666322239508eac222 -> bd249fe6cd1d3f54cc4021ef83c6f4a2e12cb5c9 } is a revert
+{ bd249fe6cd1d3f54cc4021ef83c6f4a2e12cb5c9 -> 9a5f964ae00b6f47b7e4150be9818154a741ea4f }
+Partial Revert commits SHA are -> 
+bd249fe6cd1d3f54cc4021ef83c6f4a2e12cb5c9 - revert - 9a5f964ae00b6f47b7e4150be9818154a741ea4f
+The reverted commit sha is - bd249fe6cd1d3f54cc4021ef83c6f4a2e12cb5c9
+Commit message - Merge pull request #237 from gitblit/branding
+
+Add new Ninja logo and improve typography & styling of documentation
+The original commit sha is - 9a5f964ae00b6f47b7e4150be9818154a741ea4f
+Commit message - Merge pull request #235 from gitblit/hotreloads
+
+Add support for hot reloading of configuration files
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/i18n/MessagesImpl.java
+ninja-core/src/main/java/ninja/utils/NinjaConstant.java
+ninja-core/src/main/java/ninja/utils/NinjaPropertiesImpl.java
+ninja-core/src/site/markdown/developer/changelog.md
+ninja-core/src/site/markdown/documentation/configuration_and_modes.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ 3744dad89983ea7b868455ef56c0dd180753ec47 -> c02622e272ef1f595ace7c9a354e44d82a9abb42 } is a revert
+{ 711383e5669168fca27f9c8554d40cd237fb6d6a -> 31737c1a105967cc5fa2570accad072b6d7b6565 }
+Partial Revert commits SHA are -> 
+c02622e272ef1f595ace7c9a354e44d82a9abb42 - revert - 31737c1a105967cc5fa2570accad072b6d7b6565
+The reverted commit sha is - c02622e272ef1f595ace7c9a354e44d82a9abb42
+Commit message - Log the resolved routes on Ninja startup
+The original commit sha is - 31737c1a105967cc5fa2570accad072b6d7b6565
+Commit message - Merge pull request #225 from ninjaframework/feature/xforwardedfor-enabled-in-conf
+
+#224 Made it possible to enable and disable
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Context.java
+ninja-core/src/site/markdown/documentation/basic_concepts/routing.md
+ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java
+ninja-servlet/src/test/java/ninja/servlet/ContextImplTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ c02622e272ef1f595ace7c9a354e44d82a9abb42 -> a5b87c4c1422d0ba997ae3960ce2ce602121d648 } is a revert
+{ 9057af99bb316c3b143663337f8715717000625a -> 711383e5669168fca27f9c8554d40cd237fb6d6a }
+Partial Revert commits SHA are -> 
+a5b87c4c1422d0ba997ae3960ce2ce602121d648 - revert - 711383e5669168fca27f9c8554d40cd237fb6d6a
+The reverted commit sha is - a5b87c4c1422d0ba997ae3960ce2ce602121d648
+Commit message - Add ServletContext to ContextImpl to improve 3rd-party integration
+
+Some servlet-based integrations require access to the ServletContext. While
+this could probably be faked with a custom wrapper around Ninja's Context
+it is easier to just provide the actual context to ContextImpl for those integrations.
+
+One example integration which would benefit from exposing the ServletContext
+is the Thymeleaf template engine[1]. It features built-in servlet integration which
+can not be used without a ServletContext.
+
+- [1]: http://thymeleaf.org
+The original commit sha is - 711383e5669168fca27f9c8554d40cd237fb6d6a
+Commit message - Merge branch 'develop' of github.com:ninjaframework/ninja into develop
+
+Conflicts:
+	ninja-core/src/site/markdown/developer/changelog.md
+The files with partial_reverts are:-
+ninja-servlet/src/main/java/ninja/servlet/NinjaBootstrap.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ 388eb99c06dd0da9fe3f1b4e456bfdf338c61674 -> 9057af99bb316c3b143663337f8715717000625a } is a revert
+{ 9057af99bb316c3b143663337f8715717000625a -> 711383e5669168fca27f9c8554d40cd237fb6d6a }
+Partial Revert commits SHA are -> 
+9057af99bb316c3b143663337f8715717000625a - revert - 711383e5669168fca27f9c8554d40cd237fb6d6a
+The reverted commit sha is - 9057af99bb316c3b143663337f8715717000625a
+Commit message - Merge branch 'gitblit-servletcontext' into develop
+The original commit sha is - 711383e5669168fca27f9c8554d40cd237fb6d6a
+Commit message - Merge branch 'develop' of github.com:ninjaframework/ninja into develop
+
+Conflicts:
+	ninja-core/src/site/markdown/developer/changelog.md
+The files with partial_reverts are:-
+ninja-servlet/src/main/java/ninja/servlet/NinjaBootstrap.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ b69a7c044fe66e1e79b7261acded406b31a5ab58 -> c068c9a7ec7ff9725e83fb14b0e65866404167ea } is a revert
+{ 2ee4c73c5cfee6fb2bf054d7d33f97eeef996b03 -> 6ef2a01439ab7b3d5b31fe3ea352ff6e2e78eeb8 }
+Partial Revert commits SHA are -> 
+c068c9a7ec7ff9725e83fb14b0e65866404167ea - revert - 6ef2a01439ab7b3d5b31fe3ea352ff6e2e78eeb8
+The reverted commit sha is - c068c9a7ec7ff9725e83fb14b0e65866404167ea
+Commit message - Some final tweaking + documentation.
+The original commit sha is - 6ef2a01439ab7b3d5b31fe3ea352ff6e2e78eeb8
+Commit message - Merge branch 'develop' into tech/add-support-for-provided-content-types
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Context.java
+ninja-core/src/main/java/ninja/WrappedContext.java
+ninja-core/src/site/markdown/documentation/html_templating/rendering_objects.md
+ninja-core/src/site/markdown/documentation/working_with_relational_dbs/jpa.md
+ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java
+ninja-servlet/src/main/java/ninja/servlet/NinjaServletListener.java
+ninja-servlet/src/test/java/ninja/servlet/ContextImplTest.java
+ninja-test-utilities/src/main/java/ninja/utils/FakeContext.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ 05be1654fd29dd8be0c7291c8a0b30f7969bc01f -> 83c0b735e4415ec17c8a123dd369358d8dd51e1e } is a revert
+{ 83c0b735e4415ec17c8a123dd369358d8dd51e1e -> 0f44dc8a4d3b619ac6eb49d5cf2db8c3bd0414c3 }
+Partial Revert commits SHA are -> 
+83c0b735e4415ec17c8a123dd369358d8dd51e1e - revert - 0f44dc8a4d3b619ac6eb49d5cf2db8c3bd0414c3
+The reverted commit sha is - 83c0b735e4415ec17c8a123dd369358d8dd51e1e
+Commit message - Fixed typo.
+The original commit sha is - 0f44dc8a4d3b619ac6eb49d5cf2db8c3bd0414c3
+Commit message - Merge branch 'develop' of github.com:ninjaframework/ninja into bugfix/185-unitofwork-bug
+The files with partial_reverts are:-
+ninja-core/src/site/markdown/documentation/modules.md
+ninja-core/src/site/markdown/documentation/working_with_relational_dbs/jpa.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ d0097ad4595db6df0b2b168bec1dc8a4e84aae14 -> 66949e13eecfabcd44bf6ef9c0c7dab38b252bc3 } is a revert
+{ e394d0c9f61bb6a9a3d14d2b7c278022a1db0628 -> e1a8d7953b61a38bb2f8dd08dd665377b772aefe }
+Partial Revert commits SHA are -> 
+66949e13eecfabcd44bf6ef9c0c7dab38b252bc3 - revert - e1a8d7953b61a38bb2f8dd08dd665377b772aefe
+The reverted commit sha is - 66949e13eecfabcd44bf6ef9c0c7dab38b252bc3
+Commit message - Added more documentation to conf.Ninja.
+The original commit sha is - e1a8d7953b61a38bb2f8dd08dd665377b772aefe
+Commit message - merge with ninja4
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/RouteBuilderImpl.java
+ninja-core/src/main/java/ninja/Router.java
+ninja-core/src/main/java/ninja/RouterImpl.java
+ninja-core/src/site/markdown/documentation/modules.md
+ninja-core/src/test/java/ninja/RouteBuilderImplTest.java
+ninja-servlet-archetype-simple/src/main/resources/archetype-resources/pom.xml
+ninja-servlet-archetype-simple/src/main/resources/archetype-resources/src/main/java/views/layout/defaultLayout.ftl.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ c5f905dad5adbbbbf78def3c36b8be59ba000036 -> aca9217c8bb009216af46554661386ac03936f26 } is a revert
+{ a2fec14c313f7fd8987c01054861397be871c58d -> 4c7f47d3f4f1338cdd7c6069db0b226a481cb16f }
+Partial Revert commits SHA are -> 
+aca9217c8bb009216af46554661386ac03936f26 - revert - 4c7f47d3f4f1338cdd7c6069db0b226a481cb16f
+The reverted commit sha is - aca9217c8bb009216af46554661386ac03936f26
+Commit message - reverted changes to pom.xml in archetype
+The original commit sha is - 4c7f47d3f4f1338cdd7c6069db0b226a481cb16f
+Commit message - Merged with fixroutebilder branch of gitblit.
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/RouteBuilderImpl.java
+ninja-core/src/test/java/ninja/RouteBuilderImplTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 6946a162d022eaf5f9cc3e81d6dfa36dcd2fd020 -> c5f905dad5adbbbbf78def3c36b8be59ba000036 } is a revert
+{ a371549828257b0339767816f79fd25f3699b3fc -> a2fec14c313f7fd8987c01054861397be871c58d }
+Partial Revert commits SHA are -> 
+c5f905dad5adbbbbf78def3c36b8be59ba000036 - revert - a2fec14c313f7fd8987c01054861397be871c58d
+The reverted commit sha is - c5f905dad5adbbbbf78def3c36b8be59ba000036
+Commit message - Throw IllegalStateException when a registered controller method does not exist
+The original commit sha is - a2fec14c313f7fd8987c01054861397be871c58d
+Commit message - Merge pull request #200 from gitblit/routesaccessor
+
+Add Router.getRoutes() accessor
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Router.java
+ninja-core/src/main/java/ninja/RouterImpl.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ edebfa83513d9854ae1d1851af61d1d6ca3a23a1 -> 5e10f85368d32b7be6fc2e7fac056e78415cb0e6 } is a revert
+{ 5e10f85368d32b7be6fc2e7fac056e78415cb0e6 -> 607e45d79acf1e21f1f5a365ff95af1f9a61535e }
+Partial Revert commits SHA are -> 
+5e10f85368d32b7be6fc2e7fac056e78415cb0e6 - revert - 607e45d79acf1e21f1f5a365ff95af1f9a61535e
+The reverted commit sha is - 5e10f85368d32b7be6fc2e7fac056e78415cb0e6
+Commit message - Added support for forbidden error to Ninja default results.
+The original commit sha is - 607e45d79acf1e21f1f5a365ff95af1f9a61535e
+Commit message - Merge branch 'develop' of github.com:ninjaframework/ninja into ninja4
+The files with partial_reverts are:-
+ninja-core/src/site/markdown/index.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ cd4edbe549e20ca7d6430c25c2fd3ed1d36c7951 -> 0a6b11139ac1f16b54b370a820f033aef60c942a } is a revert
+{ 0a6b11139ac1f16b54b370a820f033aef60c942a -> 1b3f810b0e0910e7c2b3469e4b0740f8138ad268 }
+Partial Revert commits SHA are -> 
+0a6b11139ac1f16b54b370a820f033aef60c942a - revert - 1b3f810b0e0910e7c2b3469e4b0740f8138ad268
+The reverted commit sha is - 0a6b11139ac1f16b54b370a820f033aef60c942a
+Commit message - Fixed dependency problems with scope test and ninja-test-utilities
+The original commit sha is - 1b3f810b0e0910e7c2b3469e4b0740f8138ad268
+Commit message - Merge branch 'develop' of github.com:ninjaframework/ninja into develop
+The files with partial_reverts are:-
+ninja-servlet-jpa-blog-archetype/src/main/resources/archetype-resources/src/main/java/dao/UserDao.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ a9d2a7572a62a485d820e7085ceb48c725a5d9b8 -> f8c5e8e9064e57e1f291b269aaed95ee00d0c9a5 } is a revert
+{ f831233ca18a8c023648f573b7da0af4efa02988 -> ef4f8d52975c846488eceb3da32582a1a271f125 }
+Partial Revert commits SHA are -> 
+f8c5e8e9064e57e1f291b269aaed95ee00d0c9a5 - revert - ef4f8d52975c846488eceb3da32582a1a271f125
+The reverted commit sha is - f8c5e8e9064e57e1f291b269aaed95ee00d0c9a5
+Commit message - Fixed a wrong variable when logging
+The original commit sha is - ef4f8d52975c846488eceb3da32582a1a271f125
+Commit message - Fixed conflicts from pull request.
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Context.java
+ninja-core/src/main/java/ninja/WrappedContext.java
+ninja-core/src/site/markdown/developer/changelog.md
+ninja-core/src/site/markdown/team.md
+ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java
+ninja-servlet/src/test/java/ninja/servlet/ContextImplTest.java
+ninja-test-utilities/src/main/java/ninja/utils/FakeContext.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ a828f9895c70599fbf2313a0ae521777442bbd51 -> 82703638a8ebcad7fc872749eb6b638fbb022dc0 } is a revert
+{ b81f5f9f0087b7048df9b04d910fc6c6cdf9aae9 -> 6ef209887f1d16bbc4977913ef30beacf4f80ab6 }
+Partial Revert commits SHA are -> 
+82703638a8ebcad7fc872749eb6b638fbb022dc0 - revert - 6ef209887f1d16bbc4977913ef30beacf4f80ab6
+The reverted commit sha is - 82703638a8ebcad7fc872749eb6b638fbb022dc0
+Commit message - Fixed some logic and made it pretty
+The original commit sha is - 6ef209887f1d16bbc4977913ef30beacf4f80ab6
+Commit message - Merge pull request #177 from Buffer0verflow/develop
+
+Added port selection to superDevMode
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Result.java
+ninja-core/src/site/markdown/documentation/modules.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ 6641ec01fe726f020d7bfd4020093953e5524c65 -> dd2096355148b3bd960cb1bb0492ee18519d382f } is a revert
+{ a3b998bc416da00fdc9bae2de12142bc361e8810 -> a828f9895c70599fbf2313a0ae521777442bbd51 }
+Partial Revert commits SHA are -> 
+dd2096355148b3bd960cb1bb0492ee18519d382f - revert - a828f9895c70599fbf2313a0ae521777442bbd51
+The reverted commit sha is - dd2096355148b3bd960cb1bb0492ee18519d382f
+Commit message - added http status 401, organized imports
+The original commit sha is - a828f9895c70599fbf2313a0ae521777442bbd51
+Commit message - Merge pull request #178 from svenkubiak/develop
+
+Added Ninja Morphia Module
+The files with partial_reverts are:-
+ninja-core/pom.xml
+ninja-core/src/main/java/ninja/Context.java
+ninja-core/src/main/java/ninja/WrappedContext.java
+ninja-core/src/main/java/ninja/utils/NinjaConstant.java
+ninja-core/src/site/markdown/developer/changelog.md
+ninja-core/src/site/markdown/documentation/configuration_and_modes.md
+ninja-core/src/site/markdown/documentation/modules.md
+ninja-core/src/site/markdown/documentation/working_with_relational_dbs/jpa.md
+ninja-core/src/site/markdown/team.md
+ninja-maven-plugin/pom.xml
+ninja-servlet-archetype-simple/pom.xml
+ninja-servlet-integration-test/pom.xml
+ninja-servlet-jpa-blog-archetype/pom.xml
+ninja-servlet-jpa-blog-integration-test/pom.xml
+ninja-servlet/pom.xml
+ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java
+ninja-servlet/src/main/java/ninja/servlet/NinjaBootstrap.java
+ninja-servlet/src/test/java/ninja/servlet/ContextImplTest.java
+ninja-servlet/src/test/java/ninja/servlet/NinjaServletListenerTest.java
+ninja-servlet/src/test/java/ninja/servlet/conf/Module.java
+ninja-servlet/src/test/java/ninja/servlet/conf/Routes.java
+ninja-standalone/pom.xml
+ninja-standalone/src/main/java/ninja/standalone/NinjaJetty.java
+ninja-test-utilities/pom.xml
+ninja-test-utilities/src/main/java/ninja/utils/FakeContext.java
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ bc7d50be3c7b3beb3c865aac17daa9da587406ba -> abba6368bf8c3eba1f77313bba1d23f669ac24c7 } is a revert
+{ a3b998bc416da00fdc9bae2de12142bc361e8810 -> a828f9895c70599fbf2313a0ae521777442bbd51 }
+Partial Revert commits SHA are -> 
+abba6368bf8c3eba1f77313bba1d23f669ac24c7 - revert - a828f9895c70599fbf2313a0ae521777442bbd51
+The reverted commit sha is - abba6368bf8c3eba1f77313bba1d23f669ac24c7
+Commit message - added ninja morphia module
+The original commit sha is - a828f9895c70599fbf2313a0ae521777442bbd51
+Commit message - Merge pull request #178 from svenkubiak/develop
+
+Added Ninja Morphia Module
+The files with partial_reverts are:-
+ninja-core/pom.xml
+ninja-core/src/main/java/ninja/Context.java
+ninja-core/src/main/java/ninja/WrappedContext.java
+ninja-core/src/main/java/ninja/utils/NinjaConstant.java
+ninja-core/src/site/markdown/documentation/configuration_and_modes.md
+ninja-core/src/site/markdown/documentation/working_with_relational_dbs/jpa.md
+ninja-core/src/site/markdown/team.md
+ninja-maven-plugin/pom.xml
+ninja-servlet-archetype-simple/pom.xml
+ninja-servlet-integration-test/pom.xml
+ninja-servlet-jpa-blog-archetype/pom.xml
+ninja-servlet-jpa-blog-integration-test/pom.xml
+ninja-servlet/pom.xml
+ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java
+ninja-servlet/src/main/java/ninja/servlet/NinjaBootstrap.java
+ninja-servlet/src/test/java/ninja/servlet/ContextImplTest.java
+ninja-servlet/src/test/java/ninja/servlet/NinjaServletListenerTest.java
+ninja-servlet/src/test/java/ninja/servlet/conf/Module.java
+ninja-servlet/src/test/java/ninja/servlet/conf/Routes.java
+ninja-standalone/pom.xml
+ninja-standalone/src/main/java/ninja/standalone/NinjaJetty.java
+ninja-test-utilities/pom.xml
+ninja-test-utilities/src/main/java/ninja/utils/FakeContext.java
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ 04cd1099bb957bef71a476f05dab4d180a289499 -> bc7d50be3c7b3beb3c865aac17daa9da587406ba } is a revert
+{ abba6368bf8c3eba1f77313bba1d23f669ac24c7 -> a3b998bc416da00fdc9bae2de12142bc361e8810 }
+Partial Revert commits SHA are -> 
+bc7d50be3c7b3beb3c865aac17daa9da587406ba - revert - a3b998bc416da00fdc9bae2de12142bc361e8810
+The reverted commit sha is - bc7d50be3c7b3beb3c865aac17daa9da587406ba
+Commit message - Added port selection to superDevMode
+The original commit sha is - a3b998bc416da00fdc9bae2de12142bc361e8810
+Commit message - Merge branch 'develop' of github.com:svenkubiak/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Result.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ 6641ec01fe726f020d7bfd4020093953e5524c65 -> dd2096355148b3bd960cb1bb0492ee18519d382f } is a revert
+{ dd2096355148b3bd960cb1bb0492ee18519d382f -> 04cd1099bb957bef71a476f05dab4d180a289499 }
+Partial Revert commits SHA are -> 
+dd2096355148b3bd960cb1bb0492ee18519d382f - revert - 04cd1099bb957bef71a476f05dab4d180a289499
+The reverted commit sha is - dd2096355148b3bd960cb1bb0492ee18519d382f
+Commit message - added http status 401, organized imports
+The original commit sha is - 04cd1099bb957bef71a476f05dab4d180a289499
+Commit message - Merge pull request #176 from svenkubiak/develop
+
+added http status 401, organized imports
+The files with partial_reverts are:-
+ninja-core/pom.xml
+ninja-core/src/main/java/ninja/Context.java
+ninja-core/src/main/java/ninja/WrappedContext.java
+ninja-core/src/main/java/ninja/utils/NinjaConstant.java
+ninja-core/src/site/markdown/developer/changelog.md
+ninja-core/src/site/markdown/documentation/configuration_and_modes.md
+ninja-core/src/site/markdown/documentation/modules.md
+ninja-core/src/site/markdown/documentation/working_with_relational_dbs/jpa.md
+ninja-core/src/site/markdown/team.md
+ninja-maven-plugin/pom.xml
+ninja-servlet-archetype-simple/pom.xml
+ninja-servlet-integration-test/pom.xml
+ninja-servlet-jpa-blog-archetype/pom.xml
+ninja-servlet-jpa-blog-integration-test/pom.xml
+ninja-servlet/pom.xml
+ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java
+ninja-servlet/src/main/java/ninja/servlet/NinjaBootstrap.java
+ninja-servlet/src/test/java/ninja/servlet/ContextImplTest.java
+ninja-servlet/src/test/java/ninja/servlet/NinjaServletListenerTest.java
+ninja-servlet/src/test/java/ninja/servlet/conf/Module.java
+ninja-servlet/src/test/java/ninja/servlet/conf/Routes.java
+ninja-standalone/pom.xml
+ninja-standalone/src/main/java/ninja/standalone/NinjaJetty.java
+ninja-test-utilities/pom.xml
+ninja-test-utilities/src/main/java/ninja/utils/FakeContext.java
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ 634c4b572b74cc56053dfa0c4f938cd485f32b96 -> 9c08b65673968d3ba07bc906bf50ec8a441bc2ef } is a revert
+{ 461a65b1c37fade4a94e8f55743c0b9b3ac1c153 -> 908a780f011d7a08a245675b296164817b35efbf }
+Partial Revert commits SHA are -> 
+9c08b65673968d3ba07bc906bf50ec8a441bc2ef - revert - 908a780f011d7a08a245675b296164817b35efbf
+The reverted commit sha is - 9c08b65673968d3ba07bc906bf50ec8a441bc2ef
+Commit message - Documentation clarification as pointed out by
+Matthias on the mailing list.
+The original commit sha is - 908a780f011d7a08a245675b296164817b35efbf
+Commit message - Merge branch 'develop' of github.com:ninjaframework/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/site/markdown/documentation/html_templating/advanced_topics.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ 6efdc80f99cc87019af645a36d7a318beea80771 -> c3a4f2c1d415ad84bece1c17c52fbb3f06ee6a4e } is a revert
+{ c3a4f2c1d415ad84bece1c17c52fbb3f06ee6a4e -> 634c4b572b74cc56053dfa0c4f938cd485f32b96 }
+Partial Revert commits SHA are -> 
+c3a4f2c1d415ad84bece1c17c52fbb3f06ee6a4e - revert - 634c4b572b74cc56053dfa0c4f938cd485f32b96
+The reverted commit sha is - c3a4f2c1d415ad84bece1c17c52fbb3f06ee6a4e
+Commit message - fixed flash documentation
+The original commit sha is - 634c4b572b74cc56053dfa0c4f938cd485f32b96
+Commit message - Merge pull request #175 from svenkubiak/develop
+
+fixed flash documentation
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Context.java
+ninja-core/src/main/java/ninja/WrappedContext.java
+ninja-core/src/main/java/ninja/utils/NinjaConstant.java
+ninja-core/src/site/markdown/developer/changelog.md
+ninja-core/src/site/markdown/documentation/configuration_and_modes.md
+ninja-core/src/site/markdown/team.md
+ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java
+ninja-servlet/src/main/java/ninja/servlet/NinjaBootstrap.java
+ninja-servlet/src/test/java/ninja/servlet/ContextImplTest.java
+ninja-servlet/src/test/java/ninja/servlet/NinjaServletListenerTest.java
+ninja-servlet/src/test/java/ninja/servlet/conf/Module.java
+ninja-servlet/src/test/java/ninja/servlet/conf/Routes.java
+ninja-standalone/src/main/java/ninja/standalone/NinjaJetty.java
+ninja-test-utilities/src/main/java/ninja/utils/FakeContext.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ a1e30eaf3ec1bdd742f6cf8cf520b89f71f196e9 -> 5bb1647f546e604c59babceec151fae110877e5f } is a revert
+{ 5bb1647f546e604c59babceec151fae110877e5f -> 747a7e59514c06d8f1b47c4f46d7440cc50e735a }
+Partial Revert commits SHA are -> 
+5bb1647f546e604c59babceec151fae110877e5f - revert - 747a7e59514c06d8f1b47c4f46d7440cc50e735a
+The reverted commit sha is - 5bb1647f546e604c59babceec151fae110877e5f
+Commit message - Merge pull request #170 from svenkubiak/develop
+
+changed Result.NO_HTTP_CONTENT to Result.NO_HTTP_BODY in changelog.md
+The original commit sha is - 747a7e59514c06d8f1b47c4f46d7440cc50e735a
+Commit message - Merge pull request #169 from avarabyeu/develop
+
+add possibility to define custom package for application module and routes
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/utils/NinjaConstant.java
+ninja-core/src/site/markdown/documentation/configuration_and_modes.md
+ninja-core/src/site/markdown/team.md
+ninja-servlet/src/main/java/ninja/servlet/NinjaBootstrap.java
+ninja-servlet/src/test/java/ninja/servlet/NinjaServletListenerTest.java
+ninja-servlet/src/test/java/ninja/servlet/conf/Module.java
+ninja-servlet/src/test/java/ninja/servlet/conf/Routes.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ bf9e892f876a66f48e27ce59f8c6b8dcd3150dc0 -> 4b6d2e128c151ef6e57e57c20708cdfaca1d4f8d } is a revert
+{ 4b6d2e128c151ef6e57e57c20708cdfaca1d4f8d -> 12313577a057926e5be38aea4008acffba818284 }
+Partial Revert commits SHA are -> 
+4b6d2e128c151ef6e57e57c20708cdfaca1d4f8d - revert - 12313577a057926e5be38aea4008acffba818284
+The reverted commit sha is - 4b6d2e128c151ef6e57e57c20708cdfaca1d4f8d
+Commit message - changed Result.NO_HTTP_CONTENT to Result.NO_HTTP_BODY in changelog.md
+The original commit sha is - 12313577a057926e5be38aea4008acffba818284
+Commit message - added changes to changelog.md
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/utils/NinjaConstant.java
+ninja-servlet/src/main/java/ninja/servlet/NinjaBootstrap.java
+ninja-servlet/src/test/java/ninja/servlet/NinjaServletListenerTest.java
+ninja-servlet/src/test/java/ninja/servlet/conf/Module.java
+ninja-servlet/src/test/java/ninja/servlet/conf/Routes.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ 7ff901946d37c920c639558b24fa760b129d44ed -> a0ddce02b9c4b53bdfdcd48c7a49a0d451a6370e } is a revert
+{ a0ddce02b9c4b53bdfdcd48c7a49a0d451a6370e -> c1592d91854fab05338236400e21e47be37862d8 }
+Partial Revert commits SHA are -> 
+a0ddce02b9c4b53bdfdcd48c7a49a0d451a6370e - revert - c1592d91854fab05338236400e21e47be37862d8
+The reverted commit sha is - a0ddce02b9c4b53bdfdcd48c7a49a0d451a6370e
+Commit message - Fixed bug (#165) that caused that html template caching did not work properly. 
+The original commit sha is - c1592d91854fab05338236400e21e47be37862d8
+Commit message - Merge pull request #163 from svenkubiak/develop
+
+updated documentation for sending mails
+The files with partial_reverts are:-
+ninja-core/src/site/markdown/documentation/sending_mail.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ d2270cfaa236b5247b95f33f743ea842d3359235 -> c2d8e8f802cd54ecd75b7c87fc563d65b5c0c9e3 } is a revert
+{ 906e35261a66010a89372102539ce35ef32640c5 -> a7337c158acce2227d7572da7d66ef641a454a88 }
+Partial Revert commits SHA are -> 
+c2d8e8f802cd54ecd75b7c87fc563d65b5c0c9e3 - revert - a7337c158acce2227d7572da7d66ef641a454a88
+The reverted commit sha is - c2d8e8f802cd54ecd75b7c87fc563d65b5c0c9e3
+Commit message - BugFix #157. @UnitOfWork did not work when nested with @Transactional or other @UnitOfWork annotations.
+The original commit sha is - a7337c158acce2227d7572da7d66ef641a454a88
+Commit message - Merge pull request #158 from ninjaframework/bugfix-157-unitOfWork-does-not-work-sometimes
+
+Bugfix 157 unit of work does not work sometimes
+The files with partial_reverts are:-
+ninja-test-utilities/src/main/java/ninja/NinjaRunner.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ 4d5e7919741e92c249e36f203fa25343b583daa8 -> 334cb9a2bad8f9f5d66cfae43a96611e48b6d4ee } is a revert
+{ 3133c35c8debb86ed67387e99d9f0bb1b661f353 -> 7c5a472208abba320ba682ec41d97271c211f4d6 }
+Partial Revert commits SHA are -> 
+334cb9a2bad8f9f5d66cfae43a96611e48b6d4ee - revert - 7c5a472208abba320ba682ec41d97271c211f4d6
+The reverted commit sha is - 334cb9a2bad8f9f5d66cfae43a96611e48b6d4ee
+Commit message - Fixed bug where reverse routing was not properly working for routes with regex. Added reverse routing to Freemarker templates via ${reverseRoute(...)}, ${assetsAt(...)}, ${webJarsAt(...)}
+The original commit sha is - 7c5a472208abba320ba682ec41d97271c211f4d6
+Commit message - Merge pull request #150 from smallufo/develop
+
+NinjaRunner
+The files with partial_reverts are:-
+ninja-test-utilities/src/main/java/ninja/NinjaRunner.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ d2d3ec7295c45d97d6a276d35a5a773db6cc7ea9 -> ceaec8e36dc562be8c75f9257ba9d0ab11b4abf5 } is a revert
+{ 3133c35c8debb86ed67387e99d9f0bb1b661f353 -> 7c5a472208abba320ba682ec41d97271c211f4d6 }
+Partial Revert commits SHA are -> 
+ceaec8e36dc562be8c75f9257ba9d0ab11b4abf5 - revert - 7c5a472208abba320ba682ec41d97271c211f4d6
+The reverted commit sha is - ceaec8e36dc562be8c75f9257ba9d0ab11b4abf5
+Commit message - Added changelog.
+The original commit sha is - 7c5a472208abba320ba682ec41d97271c211f4d6
+Commit message - Merge pull request #150 from smallufo/develop
+
+NinjaRunner
+The files with partial_reverts are:-
+ninja-test-utilities/src/main/java/ninja/NinjaRunner.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ 1d5df98eb51530e6cd6eeabdc63f62b3b6904fe3 -> 799bae11e3674db92ea94d92cc838a9840628112 } is a revert
+{ 799bae11e3674db92ea94d92cc838a9840628112 -> 565fd7ceb1c7b97832229a231ab22649d983be57 }
+Partial Revert commits SHA are -> 
+799bae11e3674db92ea94d92cc838a9840628112 - revert - 565fd7ceb1c7b97832229a231ab22649d983be57
+The reverted commit sha is - 799bae11e3674db92ea94d92cc838a9840628112
+Commit message - Added support for contextPath to NinjaProperties. That's a better place than Context (context is only available in request)
+The original commit sha is - 565fd7ceb1c7b97832229a231ab22649d983be57
+Commit message - Merge pull request #153 from zoranzaric/respect-context-path
+
+Make RouterImpl.getReverseRoute() respect the context path
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/RouterImpl.java
+ninja-core/src/site/markdown/team.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ a58665954d718c8c5fb881674ce14b2fcc48c099 -> c1617926f5ea97d193763eb797258669eefda7f8 } is a revert
+{ 780cc4fa07e39ff005941016ea3229fee9ef6700 -> 0f28e024199abe59769434c46c312adeef2fe326 }
+Partial Revert commits SHA are -> 
+c1617926f5ea97d193763eb797258669eefda7f8 - revert - 0f28e024199abe59769434c46c312adeef2fe326
+The reverted commit sha is - c1617926f5ea97d193763eb797258669eefda7f8
+Commit message - 1) basedir path normalization 2) returning Optional.absent in getUrlForRile 3) made application.static.asset.basedir const
+The original commit sha is - 0f28e024199abe59769434c46c312adeef2fe326
+Commit message - merge
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/bodyparser/BodyParserEnginePost.java
+ninja-core/src/main/java/ninja/utils/SwissKnife.java
+ninja-core/src/test/java/ninja/bodyparser/BodyParserEnginePostTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ 0f3ad65c8d84acd8d02d975d2b5774d1adb746a6 -> a58665954d718c8c5fb881674ce14b2fcc48c099 } is a revert
+{ c1617926f5ea97d193763eb797258669eefda7f8 -> 0f3d0fe95d7f2ddb8adcbd5a38a2cc91520a2972 }
+Partial Revert commits SHA are -> 
+a58665954d718c8c5fb881674ce14b2fcc48c099 - revert - 0f3d0fe95d7f2ddb8adcbd5a38a2cc91520a2972
+The reverted commit sha is - a58665954d718c8c5fb881674ce14b2fcc48c099
+Commit message - Fixed possible glitch in the matrix: BodyParserEnginePost.invoke()
+              may set Strings to unsupported fields (amsz, ra).
+The original commit sha is - 0f3d0fe95d7f2ddb8adcbd5a38a2cc91520a2972
+Commit message - Merge branch 'develop' of https://github.com/sojin/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/site/markdown/documentation/static_assets.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ db1d913e3ce4f94f4f03026acb6eabeafeb2ff06 -> c0c30770022fad64fe42cd9d58f3a3affcc1cb29 } is a revert
+{ c0c30770022fad64fe42cd9d58f3a3affcc1cb29 -> f44ffbc7ee65a0d57b44f044751f7553a1da752d }
+Partial Revert commits SHA are -> 
+c0c30770022fad64fe42cd9d58f3a3affcc1cb29 - revert - f44ffbc7ee65a0d57b44f044751f7553a1da752d
+The reverted commit sha is - c0c30770022fad64fe42cd9d58f3a3affcc1cb29
+Commit message - Bump to slf4j 1.7.6 and logback 1.1.1 
+The original commit sha is - f44ffbc7ee65a0d57b44f044751f7553a1da752d
+Commit message - fixed conflict in changelog
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/bodyparser/BodyParserEnginePost.java
+ninja-core/src/site/markdown/documentation/html_templating/form_parsing.md
+ninja-core/src/site/markdown/team.md
+ninja-servlet-integration-test/src/main/java/conf/Routes.java
+ninja-servlet-integration-test/src/main/java/controllers/ApplicationController.java
+ninja-servlet-integration-test/src/main/java/models/FormObject.java
+ninja-servlet-integration-test/src/main/java/views/ApplicationController/contactForm.ftl.html
+ninja-servlet-integration-test/src/main/java/views/ApplicationController/directObjectTemplateRendering.ftl.html
+ninja-servlet-integration-test/src/main/java/views/ApplicationController/postContactForm.ftl.html
+ninja-servlet-integration-test/src/test/java/controllers/ApplicationControllerTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ 813f1a416103898ca4df12bcfc2b0792faaaedad -> a61df3f01c59bcae3ab6b291b1612de644ec5cf8 } is a revert
+{ f07d3d8cc7e64d607316474a62f629e26a709195 -> 75f9508e318e12c7d3c481b25f2aa7d000ccd5f1 }
+Partial Revert commits SHA are -> 
+a61df3f01c59bcae3ab6b291b1612de644ec5cf8 - revert - 75f9508e318e12c7d3c481b25f2aa7d000ccd5f1
+The reverted commit sha is - a61df3f01c59bcae3ab6b291b1612de644ec5cf8
+Commit message - Added support to serve arbitrary paths via AssetsController via serveStatic method (ra).
+The original commit sha is - 75f9508e318e12c7d3c481b25f2aa7d000ccd5f1
+Commit message - Merge branch 'feature-better-assets' into develop
+The files with partial_reverts are:-
+ninja-core/src/site/markdown/documentation/modules.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ 0caa0db7f5deb125ed7348323c67d806e53891c4 -> 30b0c2a3b84a6062c085037c1b8ec970214d6e7b } is a revert
+{ 14c91fb7c02a8debe2ead7cf67018aa5f15ab3c8 -> f3aec3d628127545bf6ba823d42e5d5a56ebb27f }
+Partial Revert commits SHA are -> 
+30b0c2a3b84a6062c085037c1b8ec970214d6e7b - revert - f3aec3d628127545bf6ba823d42e5d5a56ebb27f
+The reverted commit sha is - 30b0c2a3b84a6062c085037c1b8ec970214d6e7b
+Commit message - initial integration. some stuff missing
+The original commit sha is - f3aec3d628127545bf6ba823d42e5d5a56ebb27f
+Commit message - Merge pull request #125 from ninjaframework/FEATURE-org-doctester-integratio
+
+Feature org doctester integratio
+The files with partial_reverts are:-
+ninja-core/src/site/markdown/documentation/modules.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ 2c01f10227ed3ab7f842369afb2143f8e8249e75 -> db469aa1b640c0cebafb380169005010182d698b } is a revert
+{ db469aa1b640c0cebafb380169005010182d698b -> 0caa0db7f5deb125ed7348323c67d806e53891c4 }
+Partial Revert commits SHA are -> 
+db469aa1b640c0cebafb380169005010182d698b - revert - 0caa0db7f5deb125ed7348323c67d806e53891c4
+The reverted commit sha is - db469aa1b640c0cebafb380169005010182d698b
+Commit message - Update modules.md
+The original commit sha is - 0caa0db7f5deb125ed7348323c67d806e53891c4
+Commit message - Merge pull request #124 from kpacha/develop
+
+Update modules.md
+The files with partial_reverts are:-
+.gitignore
+changelog.md
+ninja-core/pom.xml
+ninja-core/src/site/markdown/developer/changelog.md
+ninja-core/src/site/markdown/documentation/testing.md
+ninja-core/src/site/markdown/team.md
+ninja-servlet-integration-test/pom.xml
+ninja-servlet-integration-test/src/main/java/conf/Module.java
+ninja-servlet-integration-test/src/main/java/conf/Routes.java
+ninja-servlet-integration-test/src/main/java/controllers/InjectionExampleController.java
+ninja-servlet-integration-test/src/main/java/etc/GreetingService.java
+ninja-servlet-integration-test/src/main/java/etc/GreetingServiceImpl.java
+ninja-servlet-integration-test/src/main/java/etc/GreetingServiceTestImpl.java
+ninja-servlet-integration-test/src/main/java/logback.xml
+ninja-servlet-integration-test/src/test/java/example/ExampleApiTest.java
+ninja-servlet-jpa-blog-archetype/pom.xml
+ninja-servlet-jpa-blog-archetype/src/main/resources/archetype-resources/pom.xml
+ninja-servlet-jpa-blog-archetype/src/main/resources/archetype-resources/src/main/java/logback.xml
+ninja-servlet-jpa-blog-integration-test/pom.xml
+ninja-servlet-jpa-blog-integration-test/src/main/java/dao/SetupDao.java
+ninja-servlet-jpa-blog-integration-test/src/main/java/logback.xml
+ninja-servlet-jpa-blog-integration-test/src/test/java/controllers/ApplicationControllerTest.java
+ninja-servlet/pom.xml
+ninja-servlet/src/main/java/ninja/servlet/NinjaServletListener.java
+ninja-standalone/pom.xml
+ninja-standalone/src/main/java/ninja/standalone/NinjaJetty.java
+ninja-test-utilities/pom.xml
+ninja-test-utilities/src/main/java/ninja/NinjaDaoTestBase.java
+ninja-test-utilities/src/main/java/ninja/NinjaTest.java
+ninja-test-utilities/src/main/java/ninja/utils/NinjaTestServer.java
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ 186a1dc553429e6e74dfed5ffc46700e545b3632 -> 7ba59fb005b965b8d383abb9553b960afcc5c9c3 } is a revert
+{ 7ba59fb005b965b8d383abb9553b960afcc5c9c3 -> 6ba15ad9cffd55deb0971de8975fcfcbbb6196b6 }
+Partial Revert commits SHA are -> 
+7ba59fb005b965b8d383abb9553b960afcc5c9c3 - revert - 6ba15ad9cffd55deb0971de8975fcfcbbb6196b6
+The reverted commit sha is - 7ba59fb005b965b8d383abb9553b960afcc5c9c3
+Commit message - Set general log level of archetypes and integration tests to "info"
+The original commit sha is - 6ba15ad9cffd55deb0971de8975fcfcbbb6196b6
+Commit message - merging
+The files with partial_reverts are:-
+.gitignore
+ninja-core/src/site/markdown/documentation/testing.md
+ninja-core/src/site/markdown/team.md
+ninja-test-utilities/src/main/java/ninja/NinjaDaoTestBase.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ 9230a97f6c8165bc073139658efc13ab769101d5 -> 0271a1551a4fa1d5c9aa181dc40444247129284a } is a revert
+{ f0df17430d4a6584a583dafe14888805daf33d6b -> 9059a5b2578f10f4780548d92327557bf9c7c8a4 }
+Partial Revert commits SHA are -> 
+0271a1551a4fa1d5c9aa181dc40444247129284a - revert - 9059a5b2578f10f4780548d92327557bf9c7c8a4
+The reverted commit sha is - 0271a1551a4fa1d5c9aa181dc40444247129284a
+Commit message - Adding tests for bean violations.
+The original commit sha is - 9059a5b2578f10f4780548d92327557bf9c7c8a4
+Commit message - Merge pull request #119 from nobullet/develop
+
+Added bean validations tests to ControllerMethodInvokerTest (from my previous pull request).
+The files with partial_reverts are:-
+ninja-core/pom.xml
+ninja-core/src/main/java/ninja/Result.java
+ninja-core/src/main/java/ninja/postoffice/guice/PostofficeConstant.java
+ninja-core/src/site/markdown/developer/changelog.md
+ninja-core/src/site/markdown/documentation/getting_started.md
+ninja-core/src/site/markdown/documentation/jpa.md
+ninja-servlet-integration-test/pom.xml
+ninja-servlet-jpa-blog-archetype/pom.xml
+ninja-servlet-jpa-blog-archetype/src/main/resources/archetype-resources/pom.xml
+ninja-servlet-jpa-blog-integration-test/pom.xml
+ninja-servlet/pom.xml
+ninja-standalone/pom.xml
+ninja-test-utilities/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ 43d7d2a507faf0b18a78c5dfc590b817f4850a73 -> 978b3cbee6aea440d1aab0d6b85bd27344db825c } is a revert
+{ 5ef06f5737c86b12d39ef8e0660faa2c7455482e -> 691053f2d9aece0955ebcfee07fa3d80ad00aa5a }
+Partial Revert commits SHA are -> 
+978b3cbee6aea440d1aab0d6b85bd27344db825c - revert - 691053f2d9aece0955ebcfee07fa3d80ad00aa5a
+The reverted commit sha is - 978b3cbee6aea440d1aab0d6b85bd27344db825c
+Commit message - A lot more improvements.
+The original commit sha is - 691053f2d9aece0955ebcfee07fa3d80ad00aa5a
+Commit message - Merge pull request #116 from nobullet/develop
+
+Adding consistent method for beans validation.
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/validation/Validation.java
+ninja-core/src/main/java/ninja/validation/ValidationImpl.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 46 is -> 
+{ f4fb37a1ceef3aafcda5c1662adc99ebf90ee1f4 -> 4de9d1bee42f0b26d48fa0f24dcd83cf868494b3 } is a revert
+{ 4de9d1bee42f0b26d48fa0f24dcd83cf868494b3 -> 1e1c596152cec6cc9a61c8160d2c3246c5ff4f61 }
+Partial Revert commits SHA are -> 
+4de9d1bee42f0b26d48fa0f24dcd83cf868494b3 - revert - 1e1c596152cec6cc9a61c8160d2c3246c5ff4f61
+The reverted commit sha is - 4de9d1bee42f0b26d48fa0f24dcd83cf868494b3
+Commit message - Adding JSONP support
+The original commit sha is - 1e1c596152cec6cc9a61c8160d2c3246c5ff4f61
+Commit message - Merge remote-tracking branch 'upstream/develop' into develop
+The files with partial_reverts are:-
+ninja-core/src/site/markdown/developer/changelog.md
+ninja-core/src/site/markdown/documentation/the_stack.md
+ninja-core/src/site/markdown/introduction.md
+ninja-core/src/site/site.xml
+ninja-servlet-integration-test/pom.xml
+ninja-servlet-jpa-blog-archetype/pom.xml
+ninja-servlet-jpa-blog-archetype/src/main/resources/archetype-resources/pom.xml
+ninja-servlet-jpa-blog-archetype/src/main/resources/archetype-resources/src/main/java/dao/SetupDao.java
+ninja-servlet-jpa-blog-integration-test/pom.xml
+ninja-servlet-jpa-blog-integration-test/src/main/java/dao/SetupDao.java
+ninja-servlet/pom.xml
+ninja-standalone/pom.xml
+ninja-test-utilities/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 47 is -> 
+{ 72cc6bd26366b32c5106c07718331cd81a3a200b -> d6c5285aae700c68b32da6fd444a17dcaf20c759 } is a revert
+{ 363f902824b88cf3b9da9f1e1b9a0deb66176d72 -> afdb2ace362c9e42ac13659c954d9dd36ae1e962 }
+Partial Revert commits SHA are -> 
+d6c5285aae700c68b32da6fd444a17dcaf20c759 - revert - afdb2ace362c9e42ac13659c954d9dd36ae1e962
+The reverted commit sha is - d6c5285aae700c68b32da6fd444a17dcaf20c759
+Commit message - more cleanup
+The original commit sha is - afdb2ace362c9e42ac13659c954d9dd36ae1e962
+Commit message - Multiple fixes for maven archetype.
+The files with partial_reverts are:-
+ninja-servlet-jpa-blog-archetype/src/main/resources/archetype-resources/src/main/java/models/GuestbookEntry.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ 72cc6bd26366b32c5106c07718331cd81a3a200b -> d6c5285aae700c68b32da6fd444a17dcaf20c759 } is a revert
+{ d6c5285aae700c68b32da6fd444a17dcaf20c759 -> d4e9613419481018249d77d08fc3823e2d065b33 }
+Partial Revert commits SHA are -> 
+d6c5285aae700c68b32da6fd444a17dcaf20c759 - revert - d4e9613419481018249d77d08fc3823e2d065b33
+The reverted commit sha is - d6c5285aae700c68b32da6fd444a17dcaf20c759
+Commit message - more cleanup
+The original commit sha is - d4e9613419481018249d77d08fc3823e2d065b33
+Commit message - Added migrations to integration test
+The files with partial_reverts are:-
+ninja-servlet-jpa-blog-integration-test/src/main/java/models/GuestbookEntry.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ cf02a22dc8ed5ef5a35e200d373e006eb51a6f0e -> ee07d40ddfa95318f910d4cd73f897fbf6cc5a24 } is a revert
+{ 0677a08992dc18938e089d99754da976531c5493 -> ac932714af27534ff5a910e680710d00b3ea8764 }
+Partial Revert commits SHA are -> 
+ee07d40ddfa95318f910d4cd73f897fbf6cc5a24 - revert - ac932714af27534ff5a910e680710d00b3ea8764
+The reverted commit sha is - ee07d40ddfa95318f910d4cd73f897fbf6cc5a24
+Commit message - Bugfix - static assets should not handle any flash or session scopes 
+               https://github.com/ninjaframework/ninja/issues/109 (Sojin, ra).
+The original commit sha is - ac932714af27534ff5a910e680710d00b3ea8764
+Commit message - merge
+The files with partial_reverts are:-
+ninja-core-demo/pom.xml
+ninja-core-demo/src/main/java/conf/Main.java
+ninja-core-demo/src/main/java/views/layout/defaultLayout.ftl.html
+ninja-core-demo/src/main/webapp/WEB-INF/web.xml
+ninja-core-test/pom.xml
+ninja-core-test/src/main/java/ninja/utils/NinjaTestServer.java
+ninja-core/src/main/java/ninja/Cookie.java
+ninja-core/src/main/java/ninja/Result.java
+ninja-core/src/test/java/ninja/CookieTest.java
+ninja-core/src/test/java/ninja/i18n/LangImplTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ 4ff55b7aef456ec5a90ecb3468a16a3a8c03bb12 -> 7704bd452134c0094f670d42a192d45be5a4d414 } is a revert
+{ f90f6688a4175b57c8e2384f905492c941acdb89 -> e26e5b062a5193b63c12455cc8ad6c2e6ad06639 }
+Partial Revert commits SHA are -> 
+7704bd452134c0094f670d42a192d45be5a4d414 - revert - e26e5b062a5193b63c12455cc8ad6c2e6ad06639
+The reverted commit sha is - 7704bd452134c0094f670d42a192d45be5a4d414
+Commit message - Flyway (migrations) integration.
+The original commit sha is - e26e5b062a5193b63c12455cc8ad6c2e6ad06639
+Commit message - Merge branch 'feature-jpa' into develop
+The files with partial_reverts are:-
+ninja-core/src/site/markdown/documentation/deployment.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 51 is -> 
+{ 58f92f101a4d3ad87feca99a5eca4c8b1cd5f459 -> 3973516b3b2890dd0ee3ea7d457cad9528e9de98 } is a revert
+{ 3973516b3b2890dd0ee3ea7d457cad9528e9de98 -> 8712c910be81ea987a2eff4df262eaaf8d7e523a }
+Partial Revert commits SHA are -> 
+3973516b3b2890dd0ee3ea7d457cad9528e9de98 - revert - 8712c910be81ea987a2eff4df262eaaf8d7e523a
+The reverted commit sha is - 3973516b3b2890dd0ee3ea7d457cad9528e9de98
+Commit message - added version for release
+The original commit sha is - 8712c910be81ea987a2eff4df262eaaf8d7e523a
+Commit message - commit
+The files with partial_reverts are:-
+ninja-core-demo-archetype/src/main/resources/archetype-resources/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 52 is -> 
+{ b0a8ae26c4343acceab570bfdda9ff56438ade5a -> 8fddc8162482a26c25bc5ae00f97151a662b7059 } is a revert
+{ 8fddc8162482a26c25bc5ae00f97151a662b7059 -> 061f0248c1acd201d8d52cc36bb57cd1630c7d95 }
+Partial Revert commits SHA are -> 
+8fddc8162482a26c25bc5ae00f97151a662b7059 - revert - 061f0248c1acd201d8d52cc36bb57cd1630c7d95
+The reverted commit sha is - 8fddc8162482a26c25bc5ae00f97151a662b7059
+Commit message - added the accessor "session" for the cookie, cleaned the code and added documentation
+The original commit sha is - 061f0248c1acd201d8d52cc36bb57cd1630c7d95
+Commit message - Merge pull request #93 from pthum/feature-cookie-in-templates
+
+access the session-cookie easily in templates
+The files with partial_reverts are:-
+ninja-core/src/site/markdown/documentation/servlet_bridge.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 53 is -> 
+{ 8010ae1264016c2a94687f9e8a4d1dd011fa7d40 -> 3d14fd072ce504e5aef905dc6bd5b9023099dcc4 } is a revert
+{ e5d92208a0d339801858c030afab8d16baede5c2 -> efde8984335dfe3ee6e36d9dec05d5299b36ddc0 }
+Partial Revert commits SHA are -> 
+3d14fd072ce504e5aef905dc6bd5b9023099dcc4 - revert - efde8984335dfe3ee6e36d9dec05d5299b36ddc0
+The reverted commit sha is - 3d14fd072ce504e5aef905dc6bd5b9023099dcc4
+Commit message - Better docs
+The original commit sha is - efde8984335dfe3ee6e36d9dec05d5299b36ddc0
+Commit message - merge
+The files with partial_reverts are:-
+ninja-core-test/src/main/java/ninja/utils/FakeContext.java
+ninja-core/pom.xml
+ninja-core/src/main/java/ninja/i18n/Lang.java
+ninja-core/src/main/java/ninja/i18n/LangImpl.java
+ninja-core/src/main/java/ninja/i18n/Messages.java
+ninja-core/src/main/java/ninja/i18n/MessagesImpl.java
+ninja-core/src/main/java/ninja/template/TemplateEngineFreemarker.java
+ninja-core/src/main/java/ninja/utils/HttpCacheToolkit.java
+ninja-core/src/main/java/ninja/utils/HttpCacheToolkitImpl.java
+ninja-core/src/test/java/ninja/i18n/LangImplTest.java
+ninja-core/src/test/java/ninja/i18n/MessagesImplTest.java
+ninja-core/src/test/java/ninja/utils/HttpCacheToolkitImplTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 54 is -> 
+{ 67295e6ec13f27ec10d8304779edb6a5bd24e54f -> cb2c2196f03b993d4acf39574ee226d74642eed9 } is a revert
+{ cb2c2196f03b993d4acf39574ee226d74642eed9 -> 333495a1f55347e2e2db94afc622cf14b7863e70 }
+Partial Revert commits SHA are -> 
+cb2c2196f03b993d4acf39574ee226d74642eed9 - revert - 333495a1f55347e2e2db94afc622cf14b7863e70
+The reverted commit sha is - cb2c2196f03b993d4acf39574ee226d74642eed9
+Commit message - Some docu update
+The original commit sha is - 333495a1f55347e2e2db94afc622cf14b7863e70
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core-test/src/main/java/ninja/utils/FakeContext.java
+ninja-core/src/main/java/ninja/Context.java
+ninja-core/src/main/java/ninja/WrappedContext.java
+ninja-core/src/main/java/ninja/params/ArgumentExtractors.java
+ninja-core/src/main/java/ninja/params/Attribute.java
+ninja-core/src/site/markdown/developer/changelog.md
+ninja-core/src/site/markdown/documentation/request_scope.md
+ninja-core/src/test/java/ninja/params/ControllerMethodInvokerTest.java
+ninja-servlet/src/main/java/ninja/servlet/ContextImpl.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 55 is -> 
+{ 0597858c0e209a20bd828178f89c7710c34423a1 -> eaa4e9e0c26a0eeefd6a9d6d45710ed2f3c8a36e } is a revert
+{ eaa4e9e0c26a0eeefd6a9d6d45710ed2f3c8a36e -> a647fe64e1941c891b40e0a8b8485fa4deed6a98 }
+Partial Revert commits SHA are -> 
+eaa4e9e0c26a0eeefd6a9d6d45710ed2f3c8a36e - revert - a647fe64e1941c891b40e0a8b8485fa4deed6a98
+The reverted commit sha is - eaa4e9e0c26a0eeefd6a9d6d45710ed2f3c8a36e
+Commit message - some typo fixes
+The original commit sha is - a647fe64e1941c891b40e0a8b8485fa4deed6a98
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/utils/ResultHandler.java
+ninja-core/src/site/markdown/developer/changelog.md
+ninja-core/src/test/java/ninja/utils/ResultHandlerTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 56 is -> 
+{ a09d11dd6179d523803c823d537f5eac64039343 -> f86e5d5f1a5ff89947d2b036b36f995bd9b45888 } is a revert
+{ f86e5d5f1a5ff89947d2b036b36f995bd9b45888 -> 4522256681ea896f64026f7bd3c7cb04306f11cd }
+Partial Revert commits SHA are -> 
+f86e5d5f1a5ff89947d2b036b36f995bd9b45888 - revert - 4522256681ea896f64026f7bd3c7cb04306f11cd
+The reverted commit sha is - f86e5d5f1a5ff89947d2b036b36f995bd9b45888
+Commit message - merged changes
+The original commit sha is - 4522256681ea896f64026f7bd3c7cb04306f11cd
+Commit message - Merge branch 'feature-zoza-post' into develop
+The files with partial_reverts are:-
+ninja-core-demo/src/test/java/controllers/ApplicationControllerTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 57 is -> 
+{ f92090bdbdc584d24ddb2aed52b9d99d30727af8 -> dc5bdb426908e08a6de0da64c473171c4d395e81 } is a revert
+{ ed72dba0cbc6c1e5cf6187fac1b8e3f9ac24a57c -> f59bc565c48b8b6babbe7c03ab7fc57a07872642 }
+Partial Revert commits SHA are -> 
+dc5bdb426908e08a6de0da64c473171c4d395e81 - revert - f59bc565c48b8b6babbe7c03ab7fc57a07872642
+The reverted commit sha is - dc5bdb426908e08a6de0da64c473171c4d395e81
+Commit message - Modules now as separate git projects
+The original commit sha is - f59bc565c48b8b6babbe7c03ab7fc57a07872642
+Commit message - not needed artifacts
+The files with partial_reverts are:-
+ninja-core-demo/pom.xml.versionsBackup
+ninja-core-test/pom.xml.versionsBackup
+ninja-core/pom.xml.versionsBackup
+-----------------------------------------------------------------
+
+Partial Revert diff pair 58 is -> 
+{ b1586ad7f7f30a302e70d8126677ee2fa576896c -> 32ebd35a185e3ac99bf2af4d5cbc19c2f6542fb2 } is a revert
+{ 49dfc2dee49bf05b738fd84eb35f8456156df787 -> d1157a501cd328c8ee939c2660be70a5e662e3be }
+Partial Revert commits SHA are -> 
+32ebd35a185e3ac99bf2af4d5cbc19c2f6542fb2 - revert - d1157a501cd328c8ee939c2660be70a5e662e3be
+The reverted commit sha is - 32ebd35a185e3ac99bf2af4d5cbc19c2f6542fb2
+Commit message - implemented getter for accept header
+The original commit sha is - d1157a501cd328c8ee939c2660be70a5e662e3be
+Commit message - Merge pull request #19 from reyez/feature-parameter-validation-via-JSR
+
+Feature parameter validation via jsr
+The files with partial_reverts are:-
+ninja-core/pom.xml
+ninja-core/src/main/java/ninja/params/ControllerMethodInvoker.java
+ninja-core/src/main/java/ninja/params/ValidatingArgumentExtractor.java
+ninja-core/src/main/java/ninja/validation/JSR303Validation.java
+ninja-core/src/main/java/ninja/validation/Validators.java
+ninja-core/src/site/markdown/documentation/validation.md
+ninja-core/src/site/markdown/team.md
+ninja-core/src/test/java/ninja/params/ControllerMethodInvokerTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 59 is -> 
+{ cd98ca0b32c9f6e6bb84537788fc53bf4892ce3d -> bf75af7f87e07fa2b143091a285e8f3028a3f1a4 } is a revert
+{ bf75af7f87e07fa2b143091a285e8f3028a3f1a4 -> b79592b1b4983889fef6ee8422f027aef1386088 }
+Partial Revert commits SHA are -> 
+bf75af7f87e07fa2b143091a285e8f3028a3f1a4 - revert - b79592b1b4983889fef6ee8422f027aef1386088
+The reverted commit sha is - bf75af7f87e07fa2b143091a285e8f3028a3f1a4
+Commit message - [maven-release-plugin] prepare release ninja-0.5.10
+The original commit sha is - b79592b1b4983889fef6ee8422f027aef1386088
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application-mybatis/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 60 is -> 
+{ 611ffd89bcbe6d6f38bb4a2384988a7251f5ac68 -> e02fd04e6ffbda8bac35059d33974211ebaa3578 } is a revert
+{ e02fd04e6ffbda8bac35059d33974211ebaa3578 -> 9d31b9dddb01aeaf3fc9f81596fc30601ae08497 }
+Partial Revert commits SHA are -> 
+e02fd04e6ffbda8bac35059d33974211ebaa3578 - revert - 9d31b9dddb01aeaf3fc9f81596fc30601ae08497
+The reverted commit sha is - e02fd04e6ffbda8bac35059d33974211ebaa3578
+Commit message - [maven-release-plugin] prepare release ninja-0.5.9
+The original commit sha is - 9d31b9dddb01aeaf3fc9f81596fc30601ae08497
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-core/pom.xml
+ninja-demo-application-app-engine/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 61 is -> 
+{ 28f2df92f8aa9e4b21eefd27e30f3a3083c104c9 -> dbe5d8594d9fd6e1f8367693a3242e63cb6ee4da } is a revert
+{ dbe5d8594d9fd6e1f8367693a3242e63cb6ee4da -> 3705c159c738eda1c8c1f7e0924709f4e972c1a4 }
+Partial Revert commits SHA are -> 
+dbe5d8594d9fd6e1f8367693a3242e63cb6ee4da - revert - 3705c159c738eda1c8c1f7e0924709f4e972c1a4
+The reverted commit sha is - dbe5d8594d9fd6e1f8367693a3242e63cb6ee4da
+Commit message - More documentation and cleaner support
+for retrieving decoded and encoded path
+parameters.
+The original commit sha is - 3705c159c738eda1c8c1f7e0924709f4e972c1a4
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/site/markdown/documentation/application_configuration.md
+ninja-core/src/site/markdown/documentation/getting_started.md
+ninja-core/src/site/markdown/index.md
+ninja-core/src/site/site.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 62 is -> 
+{ 5296649db6ed0107a0eb545813de27689a095475 -> 5fc67a4579c6543e0f5fa648486718c184c567d1 } is a revert
+{ 5fc67a4579c6543e0f5fa648486718c184c567d1 -> 71f80db9f2b1af337bcfb4a54be7f8c0689cb820 }
+Partial Revert commits SHA are -> 
+5fc67a4579c6543e0f5fa648486718c184c567d1 - revert - 71f80db9f2b1af337bcfb4a54be7f8c0689cb820
+The reverted commit sha is - 5fc67a4579c6543e0f5fa648486718c184c567d1
+Commit message - Improvement of request paths.
+The original commit sha is - 71f80db9f2b1af337bcfb4a54be7f8c0689cb820
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core-test/src/main/java/ninja/utils/MockNinjaProperties.java
+ninja-core/src/main/java/ninja/Cookie.java
+ninja-core/src/main/java/ninja/session/SessionCookieImpl.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 63 is -> 
+{ 98cd201654a5fddea299bc2c005f10ab5e51ab20 -> 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 } is a revert
+{ f14e9cf7bd3c6e6a1dd1ff1ca25169252a34f77a -> 47aa5095fbb31f65c095d8ee5bf80119fd9b04b9 }
+Partial Revert commits SHA are -> 
+53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 - revert - 47aa5095fbb31f65c095d8ee5bf80119fd9b04b9
+The reverted commit sha is - 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 47aa5095fbb31f65c095d8ee5bf80119fd9b04b9
+Commit message - [maven-release-plugin] prepare release ninja-0.5
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 64 is -> 
+{ 2a343df32a0c632e045d40d8a3f039852c0d51ce -> f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d } is a revert
+{ f14e9cf7bd3c6e6a1dd1ff1ca25169252a34f77a -> 47aa5095fbb31f65c095d8ee5bf80119fd9b04b9 }
+Partial Revert commits SHA are -> 
+f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d - revert - 47aa5095fbb31f65c095d8ee5bf80119fd9b04b9
+The reverted commit sha is - f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 47aa5095fbb31f65c095d8ee5bf80119fd9b04b9
+Commit message - [maven-release-plugin] prepare release ninja-0.5
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 65 is -> 
+{ 23536d8c3c32e83e82e7b8772605b519721e39b2 -> 0a965fab532f9e850c9a01f3f150a712e33ade6c } is a revert
+{ f14e9cf7bd3c6e6a1dd1ff1ca25169252a34f77a -> 47aa5095fbb31f65c095d8ee5bf80119fd9b04b9 }
+Partial Revert commits SHA are -> 
+0a965fab532f9e850c9a01f3f150a712e33ade6c - revert - 47aa5095fbb31f65c095d8ee5bf80119fd9b04b9
+The reverted commit sha is - 0a965fab532f9e850c9a01f3f150a712e33ade6c
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 47aa5095fbb31f65c095d8ee5bf80119fd9b04b9
+Commit message - [maven-release-plugin] prepare release ninja-0.5
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 66 is -> 
+{ 6fc9b6db85751c252e2fc820e234d58525349527 -> 5b06b424fae70d050edfb193e82a3d7e0738da21 } is a revert
+{ f14e9cf7bd3c6e6a1dd1ff1ca25169252a34f77a -> 47aa5095fbb31f65c095d8ee5bf80119fd9b04b9 }
+Partial Revert commits SHA are -> 
+5b06b424fae70d050edfb193e82a3d7e0738da21 - revert - 47aa5095fbb31f65c095d8ee5bf80119fd9b04b9
+The reverted commit sha is - 5b06b424fae70d050edfb193e82a3d7e0738da21
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+The original commit sha is - 47aa5095fbb31f65c095d8ee5bf80119fd9b04b9
+Commit message - [maven-release-plugin] prepare release ninja-0.5
+The files with partial_reverts are:-
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 67 is -> 
+{ b8fe08086695ed7a9738e3add324ca615f1c83ba -> b80798c83d12eeeee9b1548f3c6f7d34ed1b22c2 } is a revert
+{ d02e6b5462c22d0250354079ecfbc318cce3be94 -> a05ea2c80ae993247d7715a3ebfd493c3bb113fc }
+Partial Revert commits SHA are -> 
+b80798c83d12eeeee9b1548f3c6f7d34ed1b22c2 - revert - a05ea2c80ae993247d7715a3ebfd493c3bb113fc
+The reverted commit sha is - b80798c83d12eeeee9b1548f3c6f7d34ed1b22c2
+Commit message - removed site deploy from parent pom.
+The original commit sha is - a05ea2c80ae993247d7715a3ebfd493c3bb113fc
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-core-test/src/main/java/ninja/NinjaApiTestHelper.java
+ninja-core/src/main/java/ninja/ContextImpl.java
+ninja-core/src/main/java/ninja/async/AsyncStrategyFactoryHolder.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 68 is -> 
+{ 56e811ec7c3dc387b56f0b6d180fa153756a5b8d -> 66ef9f3c364f3d5e970b6ec03df6ff6c8db96768 } is a revert
+{ 66ef9f3c364f3d5e970b6ec03df6ff6c8db96768 -> bf441bd55be20445f0bba75439f6e256d2c69308 }
+Partial Revert commits SHA are -> 
+66ef9f3c364f3d5e970b6ec03df6ff6c8db96768 - revert - bf441bd55be20445f0bba75439f6e256d2c69308
+The reverted commit sha is - 66ef9f3c364f3d5e970b6ec03df6ff6c8db96768
+Commit message - Renamed ApiResponse.error to reasonPhrase, to line up with what it actually is
+The original commit sha is - bf441bd55be20445f0bba75439f6e256d2c69308
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+README.md
+ninja-core/src/site/markdown/developer/getting_started.md
+ninja-core/src/site/markdown/developer/roadmap.md
+ninja-core/src/site/markdown/documentation/getting_started.md
+ninja-core/src/site/markdown/index.md
+ninja-core/src/site/resources/CNAME
+ninja-core/src/site/site.xml
+ninja-demo-application/pom.xml
+ninja-demo-application/src/main/java/views/ApplicationController/index.ftl.html
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 69 is -> 
+{ 3af1fce426f921798aa8b19f10f907d7161ef001 -> 9d479d42fdfdfcf742bdd0f405828d834b153958 } is a revert
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Partial Revert commits SHA are -> 
+9d479d42fdfdfcf742bdd0f405828d834b153958 - revert - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+The reverted commit sha is - 9d479d42fdfdfcf742bdd0f405828d834b153958
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 70 is -> 
+{ 38825e3516f5ea5916b3c531bae1fe33cbc99972 -> 4f35ce67d55b734255cb7ef0fea576f24af34443 } is a revert
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Partial Revert commits SHA are -> 
+4f35ce67d55b734255cb7ef0fea576f24af34443 - revert - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+The reverted commit sha is - 4f35ce67d55b734255cb7ef0fea576f24af34443
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 71 is -> 
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a } is a revert
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Partial Revert commits SHA are -> 
+e557eb72a300b12e1dcf58670c5f0aea791ab56a - revert - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+The reverted commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 72 is -> 
+{ e0049d3e3912c77f07dd31724cc54e2397b9c24a -> 59a7b47f094b623c7c534171663091b8356bac00 } is a revert
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Partial Revert commits SHA are -> 
+59a7b47f094b623c7c534171663091b8356bac00 - revert - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+The reverted commit sha is - 59a7b47f094b623c7c534171663091b8356bac00
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 73 is -> 
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 } is a revert
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Partial Revert commits SHA are -> 
+16a0ea8b7477832836422a24bb90413eded9b525 - revert - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+The reverted commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 74 is -> 
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 } is a revert
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Partial Revert commits SHA are -> 
+a1fed849d5661e144f381d38a022cfb5191d5e11 - revert - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+The reverted commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 75 is -> 
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 } is a revert
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Partial Revert commits SHA are -> 
+5851b4eaa609832d3b63721df271fd2f485dd482 - revert - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+The reverted commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 76 is -> 
+{ 5b06b424fae70d050edfb193e82a3d7e0738da21 -> 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f } is a revert
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Partial Revert commits SHA are -> 
+32b1f1bddc60fe2bd76ef049f6ca5df889b5617f - revert - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+The reverted commit sha is - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 77 is -> 
+{ 98cd201654a5fddea299bc2c005f10ab5e51ab20 -> 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 } is a revert
+{ 5b06b424fae70d050edfb193e82a3d7e0738da21 -> 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f }
+Partial Revert commits SHA are -> 
+53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 - revert - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+The reverted commit sha is - 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 78 is -> 
+{ 2a343df32a0c632e045d40d8a3f039852c0d51ce -> f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d } is a revert
+{ 5b06b424fae70d050edfb193e82a3d7e0738da21 -> 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f }
+Partial Revert commits SHA are -> 
+f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d - revert - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+The reverted commit sha is - f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 79 is -> 
+{ 23536d8c3c32e83e82e7b8772605b519721e39b2 -> 0a965fab532f9e850c9a01f3f150a712e33ade6c } is a revert
+{ 5b06b424fae70d050edfb193e82a3d7e0738da21 -> 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f }
+Partial Revert commits SHA are -> 
+0a965fab532f9e850c9a01f3f150a712e33ade6c - revert - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+The reverted commit sha is - 0a965fab532f9e850c9a01f3f150a712e33ade6c
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 80 is -> 
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c } is a revert
+{ 5b06b424fae70d050edfb193e82a3d7e0738da21 -> 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f }
+Partial Revert commits SHA are -> 
+44a36cac2f60f21f103c32f5545227300184ab5c - revert - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+The reverted commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 81 is -> 
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 } is a revert
+{ 5b06b424fae70d050edfb193e82a3d7e0738da21 -> 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f }
+Partial Revert commits SHA are -> 
+d90c21464156a3bd71221477d6ae6bea5f3422a6 - revert - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+The reverted commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 82 is -> 
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 } is a revert
+{ 5b06b424fae70d050edfb193e82a3d7e0738da21 -> 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f }
+Partial Revert commits SHA are -> 
+9a7d320b09902b4c50cfd3ecce6b10960687e6c1 - revert - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+The reverted commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 83 is -> 
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 } is a revert
+{ 5b06b424fae70d050edfb193e82a3d7e0738da21 -> 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f }
+Partial Revert commits SHA are -> 
+eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 - revert - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+The reverted commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 84 is -> 
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 } is a revert
+{ 5b06b424fae70d050edfb193e82a3d7e0738da21 -> 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f }
+Partial Revert commits SHA are -> 
+28cd7f69a92fb5637ec773538d66c1da204f3b77 - revert - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+The reverted commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 85 is -> 
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 } is a revert
+{ 5b06b424fae70d050edfb193e82a3d7e0738da21 -> 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f }
+Partial Revert commits SHA are -> 
+63417359b140e27fda49fb8e5a00b8c9c433e9b7 - revert - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+The reverted commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 86 is -> 
+{ 7b6b741981d61a9e3dccf4671d10b56336159559 -> 0fc9a29625edd708987b63c3668ced71f8887c91 } is a revert
+{ 6fc9b6db85751c252e2fc820e234d58525349527 -> 5b06b424fae70d050edfb193e82a3d7e0738da21 }
+Partial Revert commits SHA are -> 
+0fc9a29625edd708987b63c3668ced71f8887c91 - revert - 5b06b424fae70d050edfb193e82a3d7e0738da21
+The reverted commit sha is - 0fc9a29625edd708987b63c3668ced71f8887c91
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+The original commit sha is - 5b06b424fae70d050edfb193e82a3d7e0738da21
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+The files with partial_reverts are:-
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 87 is -> 
+{ 2ceda8e990e8899804bb2bb2c68b7568b3df4eac -> 2a343df32a0c632e045d40d8a3f039852c0d51ce } is a revert
+{ 6fc9b6db85751c252e2fc820e234d58525349527 -> 5b06b424fae70d050edfb193e82a3d7e0738da21 }
+Partial Revert commits SHA are -> 
+2a343df32a0c632e045d40d8a3f039852c0d51ce - revert - 5b06b424fae70d050edfb193e82a3d7e0738da21
+The reverted commit sha is - 2a343df32a0c632e045d40d8a3f039852c0d51ce
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+The original commit sha is - 5b06b424fae70d050edfb193e82a3d7e0738da21
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+The files with partial_reverts are:-
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 88 is -> 
+{ f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d -> b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2 } is a revert
+{ 6fc9b6db85751c252e2fc820e234d58525349527 -> 5b06b424fae70d050edfb193e82a3d7e0738da21 }
+Partial Revert commits SHA are -> 
+b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2 - revert - 5b06b424fae70d050edfb193e82a3d7e0738da21
+The reverted commit sha is - b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+The original commit sha is - 5b06b424fae70d050edfb193e82a3d7e0738da21
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+The files with partial_reverts are:-
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 89 is -> 
+{ 96d129cc36cee0e52131c3f313db958d64deee58 -> 8dd3408788d199a3edb140f997fcd49296e36928 } is a revert
+{ 6fc9b6db85751c252e2fc820e234d58525349527 -> 5b06b424fae70d050edfb193e82a3d7e0738da21 }
+Partial Revert commits SHA are -> 
+8dd3408788d199a3edb140f997fcd49296e36928 - revert - 5b06b424fae70d050edfb193e82a3d7e0738da21
+The reverted commit sha is - 8dd3408788d199a3edb140f997fcd49296e36928
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+The original commit sha is - 5b06b424fae70d050edfb193e82a3d7e0738da21
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+The files with partial_reverts are:-
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 90 is -> 
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a } is a revert
+{ 6fc9b6db85751c252e2fc820e234d58525349527 -> 5b06b424fae70d050edfb193e82a3d7e0738da21 }
+Partial Revert commits SHA are -> 
+e557eb72a300b12e1dcf58670c5f0aea791ab56a - revert - 5b06b424fae70d050edfb193e82a3d7e0738da21
+The reverted commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 5b06b424fae70d050edfb193e82a3d7e0738da21
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+The files with partial_reverts are:-
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 91 is -> 
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 } is a revert
+{ 6fc9b6db85751c252e2fc820e234d58525349527 -> 5b06b424fae70d050edfb193e82a3d7e0738da21 }
+Partial Revert commits SHA are -> 
+16a0ea8b7477832836422a24bb90413eded9b525 - revert - 5b06b424fae70d050edfb193e82a3d7e0738da21
+The reverted commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 5b06b424fae70d050edfb193e82a3d7e0738da21
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+The files with partial_reverts are:-
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 92 is -> 
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 } is a revert
+{ 6fc9b6db85751c252e2fc820e234d58525349527 -> 5b06b424fae70d050edfb193e82a3d7e0738da21 }
+Partial Revert commits SHA are -> 
+a1fed849d5661e144f381d38a022cfb5191d5e11 - revert - 5b06b424fae70d050edfb193e82a3d7e0738da21
+The reverted commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 5b06b424fae70d050edfb193e82a3d7e0738da21
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+The files with partial_reverts are:-
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 93 is -> 
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 } is a revert
+{ 6fc9b6db85751c252e2fc820e234d58525349527 -> 5b06b424fae70d050edfb193e82a3d7e0738da21 }
+Partial Revert commits SHA are -> 
+5851b4eaa609832d3b63721df271fd2f485dd482 - revert - 5b06b424fae70d050edfb193e82a3d7e0738da21
+The reverted commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 5b06b424fae70d050edfb193e82a3d7e0738da21
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+The files with partial_reverts are:-
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 94 is -> 
+{ 98cd201654a5fddea299bc2c005f10ab5e51ab20 -> 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 } is a revert
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 }
+Partial Revert commits SHA are -> 
+53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 - revert - 5851b4eaa609832d3b63721df271fd2f485dd482
+The reverted commit sha is - 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 95 is -> 
+{ 2a343df32a0c632e045d40d8a3f039852c0d51ce -> f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d } is a revert
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 }
+Partial Revert commits SHA are -> 
+f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d - revert - 5851b4eaa609832d3b63721df271fd2f485dd482
+The reverted commit sha is - f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 96 is -> 
+{ 23536d8c3c32e83e82e7b8772605b519721e39b2 -> 0a965fab532f9e850c9a01f3f150a712e33ade6c } is a revert
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 }
+Partial Revert commits SHA are -> 
+0a965fab532f9e850c9a01f3f150a712e33ade6c - revert - 5851b4eaa609832d3b63721df271fd2f485dd482
+The reverted commit sha is - 0a965fab532f9e850c9a01f3f150a712e33ade6c
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 97 is -> 
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c } is a revert
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 }
+Partial Revert commits SHA are -> 
+44a36cac2f60f21f103c32f5545227300184ab5c - revert - 5851b4eaa609832d3b63721df271fd2f485dd482
+The reverted commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 98 is -> 
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 } is a revert
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 }
+Partial Revert commits SHA are -> 
+d90c21464156a3bd71221477d6ae6bea5f3422a6 - revert - 5851b4eaa609832d3b63721df271fd2f485dd482
+The reverted commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 99 is -> 
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 } is a revert
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 }
+Partial Revert commits SHA are -> 
+9a7d320b09902b4c50cfd3ecce6b10960687e6c1 - revert - 5851b4eaa609832d3b63721df271fd2f485dd482
+The reverted commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 100 is -> 
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 } is a revert
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 }
+Partial Revert commits SHA are -> 
+eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 - revert - 5851b4eaa609832d3b63721df271fd2f485dd482
+The reverted commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 101 is -> 
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 } is a revert
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 }
+Partial Revert commits SHA are -> 
+28cd7f69a92fb5637ec773538d66c1da204f3b77 - revert - 5851b4eaa609832d3b63721df271fd2f485dd482
+The reverted commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 102 is -> 
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 } is a revert
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 }
+Partial Revert commits SHA are -> 
+63417359b140e27fda49fb8e5a00b8c9c433e9b7 - revert - 5851b4eaa609832d3b63721df271fd2f485dd482
+The reverted commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 103 is -> 
+{ 2bc7ff169770db615f4c7f21e58ba15aba8c8891 -> b5f3beedc3d977c7e97a6367268eb88ed050e541 } is a revert
+{ e1ab86ed1b2a5baf87aa6330bd441ef28a3099ef -> 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 }
+Partial Revert commits SHA are -> 
+b5f3beedc3d977c7e97a6367268eb88ed050e541 - revert - 577157deff637bd29a80f8e6f06d5a37c0ea7bc4
+The reverted commit sha is - b5f3beedc3d977c7e97a6367268eb88ed050e541
+Commit message - More generic references of subprojects to parent.
+One version for all :)
+The original commit sha is - 577157deff637bd29a80f8e6f06d5a37c0ea7bc4
+Commit message - rollback to fixed versions inside pom
+The files with partial_reverts are:-
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 104 is -> 
+{ 3af1fce426f921798aa8b19f10f907d7161ef001 -> 9d479d42fdfdfcf742bdd0f405828d834b153958 } is a revert
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 }
+Partial Revert commits SHA are -> 
+9d479d42fdfdfcf742bdd0f405828d834b153958 - revert - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+The reverted commit sha is - 9d479d42fdfdfcf742bdd0f405828d834b153958
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 105 is -> 
+{ 38825e3516f5ea5916b3c531bae1fe33cbc99972 -> 4f35ce67d55b734255cb7ef0fea576f24af34443 } is a revert
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 }
+Partial Revert commits SHA are -> 
+4f35ce67d55b734255cb7ef0fea576f24af34443 - revert - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+The reverted commit sha is - 4f35ce67d55b734255cb7ef0fea576f24af34443
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 106 is -> 
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a } is a revert
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 }
+Partial Revert commits SHA are -> 
+e557eb72a300b12e1dcf58670c5f0aea791ab56a - revert - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+The reverted commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 107 is -> 
+{ e0049d3e3912c77f07dd31724cc54e2397b9c24a -> 59a7b47f094b623c7c534171663091b8356bac00 } is a revert
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 }
+Partial Revert commits SHA are -> 
+59a7b47f094b623c7c534171663091b8356bac00 - revert - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+The reverted commit sha is - 59a7b47f094b623c7c534171663091b8356bac00
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 108 is -> 
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 } is a revert
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 }
+Partial Revert commits SHA are -> 
+16a0ea8b7477832836422a24bb90413eded9b525 - revert - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+The reverted commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 109 is -> 
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 } is a revert
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 }
+Partial Revert commits SHA are -> 
+a1fed849d5661e144f381d38a022cfb5191d5e11 - revert - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+The reverted commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 110 is -> 
+{ 98cd201654a5fddea299bc2c005f10ab5e51ab20 -> 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 } is a revert
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 }
+Partial Revert commits SHA are -> 
+53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 - revert - a1fed849d5661e144f381d38a022cfb5191d5e11
+The reverted commit sha is - 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 111 is -> 
+{ 2a343df32a0c632e045d40d8a3f039852c0d51ce -> f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d } is a revert
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 }
+Partial Revert commits SHA are -> 
+f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d - revert - a1fed849d5661e144f381d38a022cfb5191d5e11
+The reverted commit sha is - f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 112 is -> 
+{ 23536d8c3c32e83e82e7b8772605b519721e39b2 -> 0a965fab532f9e850c9a01f3f150a712e33ade6c } is a revert
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 }
+Partial Revert commits SHA are -> 
+0a965fab532f9e850c9a01f3f150a712e33ade6c - revert - a1fed849d5661e144f381d38a022cfb5191d5e11
+The reverted commit sha is - 0a965fab532f9e850c9a01f3f150a712e33ade6c
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 113 is -> 
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c } is a revert
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 }
+Partial Revert commits SHA are -> 
+44a36cac2f60f21f103c32f5545227300184ab5c - revert - a1fed849d5661e144f381d38a022cfb5191d5e11
+The reverted commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 114 is -> 
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 } is a revert
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 }
+Partial Revert commits SHA are -> 
+d90c21464156a3bd71221477d6ae6bea5f3422a6 - revert - a1fed849d5661e144f381d38a022cfb5191d5e11
+The reverted commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 115 is -> 
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 } is a revert
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 }
+Partial Revert commits SHA are -> 
+9a7d320b09902b4c50cfd3ecce6b10960687e6c1 - revert - a1fed849d5661e144f381d38a022cfb5191d5e11
+The reverted commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 116 is -> 
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 } is a revert
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 }
+Partial Revert commits SHA are -> 
+eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 - revert - a1fed849d5661e144f381d38a022cfb5191d5e11
+The reverted commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 117 is -> 
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 } is a revert
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 }
+Partial Revert commits SHA are -> 
+28cd7f69a92fb5637ec773538d66c1da204f3b77 - revert - a1fed849d5661e144f381d38a022cfb5191d5e11
+The reverted commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 118 is -> 
+{ 3af1fce426f921798aa8b19f10f907d7161ef001 -> 9d479d42fdfdfcf742bdd0f405828d834b153958 } is a revert
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 }
+Partial Revert commits SHA are -> 
+9d479d42fdfdfcf742bdd0f405828d834b153958 - revert - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+The reverted commit sha is - 9d479d42fdfdfcf742bdd0f405828d834b153958
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 119 is -> 
+{ 38825e3516f5ea5916b3c531bae1fe33cbc99972 -> 4f35ce67d55b734255cb7ef0fea576f24af34443 } is a revert
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 }
+Partial Revert commits SHA are -> 
+4f35ce67d55b734255cb7ef0fea576f24af34443 - revert - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+The reverted commit sha is - 4f35ce67d55b734255cb7ef0fea576f24af34443
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 120 is -> 
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a } is a revert
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 }
+Partial Revert commits SHA are -> 
+e557eb72a300b12e1dcf58670c5f0aea791ab56a - revert - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+The reverted commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 121 is -> 
+{ e0049d3e3912c77f07dd31724cc54e2397b9c24a -> 59a7b47f094b623c7c534171663091b8356bac00 } is a revert
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 }
+Partial Revert commits SHA are -> 
+59a7b47f094b623c7c534171663091b8356bac00 - revert - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+The reverted commit sha is - 59a7b47f094b623c7c534171663091b8356bac00
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 122 is -> 
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 } is a revert
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 }
+Partial Revert commits SHA are -> 
+16a0ea8b7477832836422a24bb90413eded9b525 - revert - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+The reverted commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 123 is -> 
+{ 98cd201654a5fddea299bc2c005f10ab5e51ab20 -> 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 } is a revert
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 }
+Partial Revert commits SHA are -> 
+53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 - revert - 16a0ea8b7477832836422a24bb90413eded9b525
+The reverted commit sha is - 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 124 is -> 
+{ 2a343df32a0c632e045d40d8a3f039852c0d51ce -> f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d } is a revert
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 }
+Partial Revert commits SHA are -> 
+f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d - revert - 16a0ea8b7477832836422a24bb90413eded9b525
+The reverted commit sha is - f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 125 is -> 
+{ 23536d8c3c32e83e82e7b8772605b519721e39b2 -> 0a965fab532f9e850c9a01f3f150a712e33ade6c } is a revert
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 }
+Partial Revert commits SHA are -> 
+0a965fab532f9e850c9a01f3f150a712e33ade6c - revert - 16a0ea8b7477832836422a24bb90413eded9b525
+The reverted commit sha is - 0a965fab532f9e850c9a01f3f150a712e33ade6c
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 126 is -> 
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c } is a revert
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 }
+Partial Revert commits SHA are -> 
+44a36cac2f60f21f103c32f5545227300184ab5c - revert - 16a0ea8b7477832836422a24bb90413eded9b525
+The reverted commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 127 is -> 
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 } is a revert
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 }
+Partial Revert commits SHA are -> 
+d90c21464156a3bd71221477d6ae6bea5f3422a6 - revert - 16a0ea8b7477832836422a24bb90413eded9b525
+The reverted commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 128 is -> 
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 } is a revert
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 }
+Partial Revert commits SHA are -> 
+9a7d320b09902b4c50cfd3ecce6b10960687e6c1 - revert - 16a0ea8b7477832836422a24bb90413eded9b525
+The reverted commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 129 is -> 
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 } is a revert
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 }
+Partial Revert commits SHA are -> 
+eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 - revert - 16a0ea8b7477832836422a24bb90413eded9b525
+The reverted commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 130 is -> 
+{ 3af1fce426f921798aa8b19f10f907d7161ef001 -> 9d479d42fdfdfcf742bdd0f405828d834b153958 } is a revert
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 }
+Partial Revert commits SHA are -> 
+9d479d42fdfdfcf742bdd0f405828d834b153958 - revert - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+The reverted commit sha is - 9d479d42fdfdfcf742bdd0f405828d834b153958
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 131 is -> 
+{ 38825e3516f5ea5916b3c531bae1fe33cbc99972 -> 4f35ce67d55b734255cb7ef0fea576f24af34443 } is a revert
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 }
+Partial Revert commits SHA are -> 
+4f35ce67d55b734255cb7ef0fea576f24af34443 - revert - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+The reverted commit sha is - 4f35ce67d55b734255cb7ef0fea576f24af34443
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 132 is -> 
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a } is a revert
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 }
+Partial Revert commits SHA are -> 
+e557eb72a300b12e1dcf58670c5f0aea791ab56a - revert - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+The reverted commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 133 is -> 
+{ e0049d3e3912c77f07dd31724cc54e2397b9c24a -> 59a7b47f094b623c7c534171663091b8356bac00 } is a revert
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 }
+Partial Revert commits SHA are -> 
+59a7b47f094b623c7c534171663091b8356bac00 - revert - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+The reverted commit sha is - 59a7b47f094b623c7c534171663091b8356bac00
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 134 is -> 
+{ 98cd201654a5fddea299bc2c005f10ab5e51ab20 -> 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 } is a revert
+{ e0049d3e3912c77f07dd31724cc54e2397b9c24a -> 59a7b47f094b623c7c534171663091b8356bac00 }
+Partial Revert commits SHA are -> 
+53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 - revert - 59a7b47f094b623c7c534171663091b8356bac00
+The reverted commit sha is - 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 59a7b47f094b623c7c534171663091b8356bac00
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 135 is -> 
+{ 2a343df32a0c632e045d40d8a3f039852c0d51ce -> f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d } is a revert
+{ e0049d3e3912c77f07dd31724cc54e2397b9c24a -> 59a7b47f094b623c7c534171663091b8356bac00 }
+Partial Revert commits SHA are -> 
+f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d - revert - 59a7b47f094b623c7c534171663091b8356bac00
+The reverted commit sha is - f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 59a7b47f094b623c7c534171663091b8356bac00
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 136 is -> 
+{ 23536d8c3c32e83e82e7b8772605b519721e39b2 -> 0a965fab532f9e850c9a01f3f150a712e33ade6c } is a revert
+{ e0049d3e3912c77f07dd31724cc54e2397b9c24a -> 59a7b47f094b623c7c534171663091b8356bac00 }
+Partial Revert commits SHA are -> 
+0a965fab532f9e850c9a01f3f150a712e33ade6c - revert - 59a7b47f094b623c7c534171663091b8356bac00
+The reverted commit sha is - 0a965fab532f9e850c9a01f3f150a712e33ade6c
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - 59a7b47f094b623c7c534171663091b8356bac00
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 137 is -> 
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c } is a revert
+{ e0049d3e3912c77f07dd31724cc54e2397b9c24a -> 59a7b47f094b623c7c534171663091b8356bac00 }
+Partial Revert commits SHA are -> 
+44a36cac2f60f21f103c32f5545227300184ab5c - revert - 59a7b47f094b623c7c534171663091b8356bac00
+The reverted commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 59a7b47f094b623c7c534171663091b8356bac00
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 138 is -> 
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 } is a revert
+{ e0049d3e3912c77f07dd31724cc54e2397b9c24a -> 59a7b47f094b623c7c534171663091b8356bac00 }
+Partial Revert commits SHA are -> 
+d90c21464156a3bd71221477d6ae6bea5f3422a6 - revert - 59a7b47f094b623c7c534171663091b8356bac00
+The reverted commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 59a7b47f094b623c7c534171663091b8356bac00
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 139 is -> 
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 } is a revert
+{ e0049d3e3912c77f07dd31724cc54e2397b9c24a -> 59a7b47f094b623c7c534171663091b8356bac00 }
+Partial Revert commits SHA are -> 
+9a7d320b09902b4c50cfd3ecce6b10960687e6c1 - revert - 59a7b47f094b623c7c534171663091b8356bac00
+The reverted commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 59a7b47f094b623c7c534171663091b8356bac00
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 140 is -> 
+{ 3af1fce426f921798aa8b19f10f907d7161ef001 -> 9d479d42fdfdfcf742bdd0f405828d834b153958 } is a revert
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 }
+Partial Revert commits SHA are -> 
+9d479d42fdfdfcf742bdd0f405828d834b153958 - revert - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+The reverted commit sha is - 9d479d42fdfdfcf742bdd0f405828d834b153958
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 141 is -> 
+{ 38825e3516f5ea5916b3c531bae1fe33cbc99972 -> 4f35ce67d55b734255cb7ef0fea576f24af34443 } is a revert
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 }
+Partial Revert commits SHA are -> 
+4f35ce67d55b734255cb7ef0fea576f24af34443 - revert - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+The reverted commit sha is - 4f35ce67d55b734255cb7ef0fea576f24af34443
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 142 is -> 
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a } is a revert
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 }
+Partial Revert commits SHA are -> 
+e557eb72a300b12e1dcf58670c5f0aea791ab56a - revert - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+The reverted commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 143 is -> 
+{ 98cd201654a5fddea299bc2c005f10ab5e51ab20 -> 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 } is a revert
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a }
+Partial Revert commits SHA are -> 
+53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 - revert - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+The reverted commit sha is - 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 144 is -> 
+{ 2a343df32a0c632e045d40d8a3f039852c0d51ce -> f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d } is a revert
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a }
+Partial Revert commits SHA are -> 
+f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d - revert - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+The reverted commit sha is - f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 145 is -> 
+{ 23536d8c3c32e83e82e7b8772605b519721e39b2 -> 0a965fab532f9e850c9a01f3f150a712e33ade6c } is a revert
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a }
+Partial Revert commits SHA are -> 
+0a965fab532f9e850c9a01f3f150a712e33ade6c - revert - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+The reverted commit sha is - 0a965fab532f9e850c9a01f3f150a712e33ade6c
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+The original commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 146 is -> 
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c } is a revert
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a }
+Partial Revert commits SHA are -> 
+44a36cac2f60f21f103c32f5545227300184ab5c - revert - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+The reverted commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 147 is -> 
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 } is a revert
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a }
+Partial Revert commits SHA are -> 
+d90c21464156a3bd71221477d6ae6bea5f3422a6 - revert - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+The reverted commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 148 is -> 
+{ 3af1fce426f921798aa8b19f10f907d7161ef001 -> 9d479d42fdfdfcf742bdd0f405828d834b153958 } is a revert
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 }
+Partial Revert commits SHA are -> 
+9d479d42fdfdfcf742bdd0f405828d834b153958 - revert - d90c21464156a3bd71221477d6ae6bea5f3422a6
+The reverted commit sha is - 9d479d42fdfdfcf742bdd0f405828d834b153958
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 149 is -> 
+{ 38825e3516f5ea5916b3c531bae1fe33cbc99972 -> 4f35ce67d55b734255cb7ef0fea576f24af34443 } is a revert
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 }
+Partial Revert commits SHA are -> 
+4f35ce67d55b734255cb7ef0fea576f24af34443 - revert - d90c21464156a3bd71221477d6ae6bea5f3422a6
+The reverted commit sha is - 4f35ce67d55b734255cb7ef0fea576f24af34443
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 150 is -> 
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c } is a revert
+{ 38825e3516f5ea5916b3c531bae1fe33cbc99972 -> 4f35ce67d55b734255cb7ef0fea576f24af34443 }
+Partial Revert commits SHA are -> 
+44a36cac2f60f21f103c32f5545227300184ab5c - revert - 4f35ce67d55b734255cb7ef0fea576f24af34443
+The reverted commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+The original commit sha is - 4f35ce67d55b734255cb7ef0fea576f24af34443
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 151 is -> 
+{ 3af1fce426f921798aa8b19f10f907d7161ef001 -> 9d479d42fdfdfcf742bdd0f405828d834b153958 } is a revert
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c }
+Partial Revert commits SHA are -> 
+9d479d42fdfdfcf742bdd0f405828d834b153958 - revert - 44a36cac2f60f21f103c32f5545227300184ab5c
+The reverted commit sha is - 9d479d42fdfdfcf742bdd0f405828d834b153958
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+The original commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+The files with partial_reverts are:-
+ninja-core-test/pom.xml
+ninja-demo-application/pom.xml
+ninja-demo-module/pom.xml
+ninja-module-loginlogout/pom.xml
+pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 152 is -> 
+{ 7a640603026c22b55a3c945b465b9f8c1630c3be -> 774e5e07e734550b1b67f57d0b7e2acb901a06cf } is a revert
+{ 774e5e07e734550b1b67f57d0b7e2acb901a06cf -> b5525ce9074bc0a4c1a6fbc0a9fd7d9904e2c924 }
+Partial Revert commits SHA are -> 
+774e5e07e734550b1b67f57d0b7e2acb901a06cf - revert - b5525ce9074bc0a4c1a6fbc0a9fd7d9904e2c924
+The reverted commit sha is - 774e5e07e734550b1b67f57d0b7e2acb901a06cf
+Commit message - some more stuff for a nice site
+The original commit sha is - b5525ce9074bc0a4c1a6fbc0a9fd7d9904e2c924
+Commit message - tiny changes
+The files with partial_reverts are:-
+ninja-core/src/site/markdown/about.md
+ninja-core/src/site/markdown/changes.md
+ninja-core/src/site/markdown/level_of_done.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 153 is -> 
+{ 98c73141259976a1241d652c5e139c1b0c224e41 -> d8cea4300b355733004460a8a6f72dbc87f7c093 } is a revert
+{ d8cea4300b355733004460a8a6f72dbc87f7c093 -> 7a640603026c22b55a3c945b465b9f8c1630c3be }
+Partial Revert commits SHA are -> 
+d8cea4300b355733004460a8a6f72dbc87f7c093 - revert - 7a640603026c22b55a3c945b465b9f8c1630c3be
+The reverted commit sha is - d8cea4300b355733004460a8a6f72dbc87f7c093
+Commit message - Support and test for enforcing utf-8.
+The original commit sha is - 7a640603026c22b55a3c945b465b9f8c1630c3be
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core-test/src/main/java/ninja/NinjaApiTestHelper.java
+ninja-core/src/main/java/ninja/params/ArgumentExtractors.java
+ninja-demo-application/src/main/java/conf/Routes.java
+ninja-demo-application/src/main/java/controllers/ApplicationController.java
+ninja-demo-application/src/main/java/controllers/PersonController.java
+ninja-demo-application/src/test/java/controllers/ApplicationControllerTest.java
+ninja-demo-application/src/test/java/controllers/PersonControllerTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 154 is -> 
+{ 4850794d9f47a6bd5f0436834ecb45acf65716c7 -> 6cd6da0ad742ff5328093520814df0802ec7ea86 } is a revert
+{ 6cd6da0ad742ff5328093520814df0802ec7ea86 -> ce3218c552175f88e54ea25862b915494ac50524 }
+Partial Revert commits SHA are -> 
+6cd6da0ad742ff5328093520814df0802ec7ea86 - revert - ce3218c552175f88e54ea25862b915494ac50524
+The reverted commit sha is - 6cd6da0ad742ff5328093520814df0802ec7ea86
+Commit message - Added tests for commons properties.
+The original commit sha is - ce3218c552175f88e54ea25862b915494ac50524
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+
+Conflicts:
+	ninja-core/pom.xml
+The files with partial_reverts are:-
+ninja-core-test/src/main/java/ninja/FakeContext.java
+ninja-core/src/main/java/ninja/Context.java
+ninja-core/src/main/java/ninja/ContextImpl.java
+ninja-core/src/main/java/ninja/Validation.java
+ninja-core/src/main/java/ninja/WrappedContext.java
+ninja-core/src/main/java/ninja/i18n/Lang.java
+ninja-core/src/main/java/ninja/i18n/LangImpl.java
+ninja-core/src/main/java/ninja/params/ArgumentExtractors.java
+ninja-core/src/main/java/ninja/params/ControllerMethodInvoker.java
+ninja-core/src/main/java/ninja/params/ParamParser.java
+ninja-core/src/main/java/ninja/params/ParamParsers.java
+ninja-core/src/main/java/ninja/params/ValidatingArgumentExtractor.java
+ninja-core/src/main/java/ninja/params/Validator.java
+ninja-core/src/main/java/ninja/params/WithValidator.java
+ninja-core/src/main/java/ninja/validation/ConstraintViolation.java
+ninja-core/src/main/java/ninja/validation/IsFloat.java
+ninja-core/src/main/java/ninja/validation/IsInteger.java
+ninja-core/src/main/java/ninja/validation/Length.java
+ninja-core/src/main/java/ninja/validation/Matches.java
+ninja-core/src/main/java/ninja/validation/NumberValue.java
+ninja-core/src/main/java/ninja/validation/Required.java
+ninja-core/src/main/java/ninja/validation/Validation.java
+ninja-core/src/main/java/ninja/validation/ValidationImpl.java
+ninja-core/src/main/java/ninja/validation/Validator.java
+ninja-core/src/main/java/ninja/validation/Validators.java
+ninja-core/src/main/java/ninja/validation/WithValidator.java
+ninja-core/src/test/java/ninja/ContextImplTest.java
+ninja-core/src/test/java/ninja/params/ControllerMethodInvokerTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 155 is -> 
+{ cd7951f6573aad9a20fec93b842a9d22f8a81a17 -> c50c838ba8bd23ff4fcd73d8dd9a2f6163774a61 } is a revert
+{ fe74774d1c06c616c04c0360520e358f098eeb0f -> 86358cdc4ab5e7d18df1b52f05ce5bbe8170db61 }
+Partial Revert commits SHA are -> 
+c50c838ba8bd23ff4fcd73d8dd9a2f6163774a61 - revert - 86358cdc4ab5e7d18df1b52f05ce5bbe8170db61
+The reverted commit sha is - c50c838ba8bd23ff4fcd73d8dd9a2f6163774a61
+Commit message - changes for releasing ninja@maven central
+The original commit sha is - 86358cdc4ab5e7d18df1b52f05ce5bbe8170db61
+Commit message - changes groupId ninja to org.ninjaframework. 
+Preparation for release to maven central.
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/utils/NinjaPropertiesImpl.java
+ninja-demo-application/src/main/webapp/WEB-INF/appengine-web.xml
+ninja-website/pom.xml
+ninja-website/src/main/java/assets/css/bootstrap-responsive.css
+ninja-website/src/main/java/assets/css/bootstrap.css
+ninja-website/src/main/java/assets/css/docs.css
+ninja-website/src/main/java/assets/files/.~lock.test_for_mimetypes.dxf#
+ninja-website/src/main/java/assets/files/test_for_mimetypes.dxf
+ninja-website/src/main/java/assets/js/README.md
+ninja-website/src/main/java/assets/js/application.js
+ninja-website/src/main/java/assets/js/bootstrap-alert.js
+ninja-website/src/main/java/assets/js/bootstrap-button.js
+ninja-website/src/main/java/assets/js/bootstrap-carousel.js
+ninja-website/src/main/java/assets/js/bootstrap-collapse.js
+ninja-website/src/main/java/assets/js/bootstrap-dropdown.js
+ninja-website/src/main/java/assets/js/bootstrap-modal.js
+ninja-website/src/main/java/assets/js/bootstrap-popover.js
+ninja-website/src/main/java/assets/js/bootstrap-scrollspy.js
+ninja-website/src/main/java/assets/js/bootstrap-tab.js
+ninja-website/src/main/java/assets/js/bootstrap-tooltip.js
+ninja-website/src/main/java/assets/js/bootstrap-transition.js
+ninja-website/src/main/java/assets/js/bootstrap-typeahead.js
+ninja-website/src/main/java/assets/js/bootstrap.js
+ninja-website/src/main/java/assets/js/bootstrap.min.js
+ninja-website/src/main/java/assets/js/google-code-prettify/prettify.css
+ninja-website/src/main/java/assets/js/google-code-prettify/prettify.js
+ninja-website/src/main/java/assets/js/jquery.js
+ninja-website/src/main/java/conf/Module.java
+ninja-website/src/main/java/conf/Routes.java
+ninja-website/src/main/java/conf/application.conf
+ninja-website/src/main/java/conf/heroku.conf
+ninja-website/src/main/java/conf/messages_de_DE.properties
+ninja-website/src/main/java/conf/messages_en.properties
+ninja-website/src/main/java/controllers/ApplicationController.java
+ninja-website/src/main/java/ninja/AssetsController.java
+ninja-website/src/main/java/ninja/AsyncResult.java
+ninja-website/src/main/java/ninja/Configuration.java
+ninja-website/src/main/java/ninja/ContentTypes.java
+ninja-website/src/main/java/ninja/Context.java
+ninja-website/src/main/java/ninja/ContextImpl.java
+ninja-website/src/main/java/ninja/Cookie.java
+ninja-website/src/main/java/ninja/Filter.java
+ninja-website/src/main/java/ninja/FilterChain.java
+ninja-website/src/main/java/ninja/FilterChainEnd.java
+ninja-website/src/main/java/ninja/FilterChainImpl.java
+ninja-website/src/main/java/ninja/FilterWith.java
+ninja-website/src/main/java/ninja/Ninja.java
+ninja-website/src/main/java/ninja/NinjaBootup.java
+ninja-website/src/main/java/ninja/NinjaImpl.java
+ninja-website/src/main/java/ninja/NinjaModule.java
+ninja-website/src/main/java/ninja/NinjaModuleRegistry.java
+ninja-website/src/main/java/ninja/NinjaModuleRegistryImpl.java
+ninja-website/src/main/java/ninja/NinjaServletDispatcher.java
+ninja-website/src/main/java/ninja/Renderable.java
+ninja-website/src/main/java/ninja/Result.java
+ninja-website/src/main/java/ninja/Results.java
+ninja-website/src/main/java/ninja/Route.java
+ninja-website/src/main/java/ninja/RouteBuilder.java
+ninja-website/src/main/java/ninja/RouteBuilderImpl.java
+ninja-website/src/main/java/ninja/Router.java
+ninja-website/src/main/java/ninja/RouterImpl.java
+ninja-website/src/main/java/ninja/SecureFilter.java
+ninja-website/src/main/java/ninja/WrappedContext.java
+ninja-website/src/main/java/ninja/application/ApplicationRoutes.java
+ninja-website/src/main/java/ninja/async/AsyncStrategy.java
+ninja-website/src/main/java/ninja/async/AsyncStrategyFactory.java
+ninja-website/src/main/java/ninja/async/AsyncStrategyFactoryHolder.java
+ninja-website/src/main/java/ninja/async/BlockingAsyncStrategy.java
+ninja-website/src/main/java/ninja/async/Servlet3AsyncStrategy.java
+ninja-website/src/main/java/ninja/bodyparser/BodyParserEngine.java
+ninja-website/src/main/java/ninja/bodyparser/BodyParserEngineJson.java
+ninja-website/src/main/java/ninja/bodyparser/BodyParserEngineManager.java
+ninja-website/src/main/java/ninja/bodyparser/BodyParserEngineManagerImpl.java
+ninja-website/src/main/java/ninja/i18n/Lang.java
+ninja-website/src/main/java/ninja/i18n/LangImpl.java
+ninja-website/src/main/java/ninja/i18n/UTF8Control.java
+ninja-website/src/main/java/ninja/lifecycle/Dispose.java
+ninja-website/src/main/java/ninja/lifecycle/FailedDisposeException.java
+ninja-website/src/main/java/ninja/lifecycle/FailedStartException.java
+ninja-website/src/main/java/ninja/lifecycle/LifecycleException.java
+ninja-website/src/main/java/ninja/lifecycle/LifecycleRegister.java
+ninja-website/src/main/java/ninja/lifecycle/LifecycleService.java
+ninja-website/src/main/java/ninja/lifecycle/LifecycleServiceImpl.java
+ninja-website/src/main/java/ninja/lifecycle/LifecycleSupport.java
+ninja-website/src/main/java/ninja/lifecycle/Start.java
+ninja-website/src/main/java/ninja/lifecycle/State.java
+ninja-website/src/main/java/ninja/lifecycle/Target.java
+ninja-website/src/main/java/ninja/params/Param.java
+ninja-website/src/main/java/ninja/params/PathParam.java
+ninja-website/src/main/java/ninja/postoffice/Mail.java
+ninja-website/src/main/java/ninja/postoffice/Postoffice.java
+ninja-website/src/main/java/ninja/postoffice/common/MailImpl.java
+ninja-website/src/main/java/ninja/postoffice/common/Tuple.java
+ninja-website/src/main/java/ninja/postoffice/commonsmail/CommonsmailHelper.java
+ninja-website/src/main/java/ninja/postoffice/commonsmail/CommonsmailHelperImpl.java
+ninja-website/src/main/java/ninja/postoffice/commonsmail/PostofficeCommonsmailImpl.java
+ninja-website/src/main/java/ninja/postoffice/guice/PostofficeConstant.java
+ninja-website/src/main/java/ninja/postoffice/guice/PostofficeProvider.java
+ninja-website/src/main/java/ninja/postoffice/mock/PostofficeMockImpl.java
+ninja-website/src/main/java/ninja/scheduler/Schedule.java
+ninja-website/src/main/java/ninja/scheduler/Scheduler.java
+ninja-website/src/main/java/ninja/scheduler/SchedulerSupport.java
+ninja-website/src/main/java/ninja/session/FlashCookie.java
+ninja-website/src/main/java/ninja/session/FlashCookieImpl.java
+ninja-website/src/main/java/ninja/session/SessionCookie.java
+ninja-website/src/main/java/ninja/session/SessionCookieConfig.java
+ninja-website/src/main/java/ninja/session/SessionCookieImpl.java
+ninja-website/src/main/java/ninja/template/TemplateEngine.java
+ninja-website/src/main/java/ninja/template/TemplateEngineFreemarker.java
+ninja-website/src/main/java/ninja/template/TemplateEngineFreemarkerEscapedLoader.java
+ninja-website/src/main/java/ninja/template/TemplateEngineHelper.java
+ninja-website/src/main/java/ninja/template/TemplateEngineJsonGson.java
+ninja-website/src/main/java/ninja/template/TemplateEngineManager.java
+ninja-website/src/main/java/ninja/template/TemplateEngineManagerImpl.java
+ninja-website/src/main/java/ninja/utils/CookieHelper.java
+ninja-website/src/main/java/ninja/utils/Crypto.java
+ninja-website/src/main/java/ninja/utils/LoggerProvider.java
+ninja-website/src/main/java/ninja/utils/MimeTypes.java
+ninja-website/src/main/java/ninja/utils/NinjaConstant.java
+ninja-website/src/main/java/ninja/utils/NinjaProperties.java
+ninja-website/src/main/java/ninja/utils/NinjaPropertiesImpl.java
+ninja-website/src/main/java/ninja/utils/NoEscapeString.java
+ninja-website/src/main/java/ninja/utils/ResponseStreams.java
+ninja-website/src/main/java/ninja/utils/ResponseStreamsServlet.java
+ninja-website/src/main/java/ninja/utils/ResultHandler.java
+ninja-website/src/main/java/ninja/utils/mime-types.properties
+ninja-website/src/main/java/ninjaModuleLoginlogout/assets/demo.html
+ninja-website/src/main/java/ninjaModuleLoginlogout/conf/Configuration.java
+ninja-website/src/main/java/ninjaModuleLoginlogout/conf/NinjaModuleDemoRouter.java
+ninja-website/src/main/java/ninjaModuleLoginlogout/controllers/RegistrationController.java
+ninja-website/src/main/java/ninjaModuleLoginlogout/views/RegistrationController/confirm.ftl.html
+ninja-website/src/main/java/ninjaModuleLoginlogout/views/RegistrationController/confirmation.txt
+ninja-website/src/main/java/ninjaModuleLoginlogout/views/RegistrationController/layout.ftl.html
+ninja-website/src/main/java/ninjaModuleLoginlogout/views/RegistrationController/lostPassword.ftl.html
+ninja-website/src/main/java/ninjaModuleLoginlogout/views/RegistrationController/lostPasswordEmail.txt
+ninja-website/src/main/java/ninjaModuleLoginlogout/views/RegistrationController/lostPasswordEmailSentCheckInbox.ftl.html
+ninja-website/src/main/java/ninjaModuleLoginlogout/views/RegistrationController/lostPasswordNewPassword.ftl.html
+ninja-website/src/main/java/ninjaModuleLoginlogout/views/RegistrationController/lostPasswordNewPasswordFinish.ftl.html
+ninja-website/src/main/java/ninjaModuleLoginlogout/views/RegistrationController/pending.ftl.html
+ninja-website/src/main/java/ninjaModuleLoginlogout/views/RegistrationController/registration.ftl.html
+ninja-website/src/main/java/views/ApplicationController/index.ftl.html
+ninja-website/src/main/java/views/forbidden403.ftl.html
+ninja-website/src/main/java/views/layout/defaultLayout.ftl.html
+ninja-website/src/main/java/views/layout/footer.ftl.html
+ninja-website/src/main/java/views/layout/header.ftl.html
+ninja-website/src/main/java/views/notFound404.ftl.html
+ninja-website/src/main/webapp/WEB-INF/appengine-web.xml
+ninja-website/src/main/webapp/WEB-INF/web.xml
+ninja-website/src/test/resources/test_for_upload.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 156 is -> 
+{ b457db43ba7925b9793e440075873ca0d82ef997 -> a6b23453e2eeddac3c785c1b21bd6285f9bfd6fd } is a revert
+{ a6b23453e2eeddac3c785c1b21bd6285f9bfd6fd -> c69916d936f5725e605a86a4b81f5e74d05621b7 }
+Partial Revert commits SHA are -> 
+a6b23453e2eeddac3c785c1b21bd6285f9bfd6fd - revert - c69916d936f5725e605a86a4b81f5e74d05621b7
+The reverted commit sha is - a6b23453e2eeddac3c785c1b21bd6285f9bfd6fd
+Commit message - Fixed slightly wrong parsing of uri in servlet.
+The original commit sha is - c69916d936f5725e605a86a4b81f5e74d05621b7
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core-test/src/main/java/ninja/NinjaIntegrationTestHelper.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 157 is -> 
+{ 45bb542cb46d2913c3acff883d15690be0a867bb -> 2661fdc92b1981bace11b9763a09bc15d7a174e3 } is a revert
+{ 2661fdc92b1981bace11b9763a09bc15d7a174e3 -> 8fa18b0432a3deffbb798b29f76658e3470c4c04 }
+Partial Revert commits SHA are -> 
+2661fdc92b1981bace11b9763a09bc15d7a174e3 - revert - 8fa18b0432a3deffbb798b29f76658e3470c4c04
+The reverted commit sha is - 2661fdc92b1981bace11b9763a09bc15d7a174e3
+Commit message - integrated doctests in ninja-core-test
+The original commit sha is - 8fa18b0432a3deffbb798b29f76658e3470c4c04
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/pom.xml
+ninja-core/src/main/java/ninja/AssetsController.java
+ninja-demo-application/src/main/java/conf/application.conf
+ninja-demo-application/src/main/java/controllers/ApplicationController.java
+ninja-demo-application/src/test/java/controllers/ApplicationControllerTest.java
+ninja-demo-application/src/test/java/controllers/AssetsControllerTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 158 is -> 
+{ a5ca2c55a3d7cdfe94f3fb241af01046faee3259 -> 1b9d2992089504330f50eff96385d463d0b7350c } is a revert
+{ 1b9d2992089504330f50eff96385d463d0b7350c -> 5ef22f35591982200d3fca097513f045b2c9891e }
+Partial Revert commits SHA are -> 
+1b9d2992089504330f50eff96385d463d0b7350c - revert - 5ef22f35591982200d3fca097513f045b2c9891e
+The reverted commit sha is - 1b9d2992089504330f50eff96385d463d0b7350c
+Commit message - mode improvements
+The original commit sha is - 5ef22f35591982200d3fca097513f045b2c9891e
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Context.java
+ninja-core/src/main/java/ninja/ContextImpl.java
+ninja-core/src/main/java/ninja/FilterChainEnd.java
+ninja-core/src/main/java/ninja/NinjaImpl.java
+ninja-core/src/main/java/ninja/WrappedContext.java
+ninja-core/src/main/java/ninja/async/AsyncStrategy.java
+ninja-core/src/main/java/ninja/async/AsyncStrategyFactory.java
+ninja-core/src/main/java/ninja/async/AsyncStrategyFactoryHolder.java
+ninja-core/src/main/java/ninja/async/BlockingAsyncStrategy.java
+ninja-core/src/main/java/ninja/async/Servlet3AsyncStrategy.java
+ninja-core/src/main/java/ninja/utils/ResultHandler.java
+ninja-core/src/test/java/ninja/ContextImplTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 159 is -> 
+{ 7c7b822c5c20955434608753ea5441d3f63aa254 -> 0f964142d2374aaff0305d985198c158fd6007f0 } is a revert
+{ 0f964142d2374aaff0305d985198c158fd6007f0 -> c6d4c569f0bb6d9cfe1c6c25f3daeab980d1e017 }
+Partial Revert commits SHA are -> 
+0f964142d2374aaff0305d985198c158fd6007f0 - revert - c6d4c569f0bb6d9cfe1c6c25f3daeab980d1e017
+The reverted commit sha is - 0f964142d2374aaff0305d985198c158fd6007f0
+Commit message - added default escaping to html templates.
+The original commit sha is - c6d4c569f0bb6d9cfe1c6c25f3daeab980d1e017
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Results.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 160 is -> 
+{ d7e4b6a6a0c5e254969131d0830d413dae56b215 -> 9ff808e7dfb4262128dda50e5990b1226b0c3f1e } is a revert
+{ 9ff808e7dfb4262128dda50e5990b1226b0c3f1e -> 752174076d62f857a6d23f2e47fe0111cabc64d2 }
+Partial Revert commits SHA are -> 
+9ff808e7dfb4262128dda50e5990b1226b0c3f1e - revert - 752174076d62f857a6d23f2e47fe0111cabc64d2
+The reverted commit sha is - 9ff808e7dfb4262128dda50e5990b1226b0c3f1e
+Commit message - erge
+The original commit sha is - 752174076d62f857a6d23f2e47fe0111cabc64d2
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Route.java
+ninja-core/src/test/java/ninja/RouteBuilderImplTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 161 is -> 
+{ a3748766e28f22fa15f269f560a2d9109464a4f4 -> d7e4b6a6a0c5e254969131d0830d413dae56b215 } is a revert
+{ d7e4b6a6a0c5e254969131d0830d413dae56b215 -> 9ff808e7dfb4262128dda50e5990b1226b0c3f1e }
+Partial Revert commits SHA are -> 
+d7e4b6a6a0c5e254969131d0830d413dae56b215 - revert - 9ff808e7dfb4262128dda50e5990b1226b0c3f1e
+The reverted commit sha is - d7e4b6a6a0c5e254969131d0830d413dae56b215
+Commit message - Added test for router bug
+The original commit sha is - 9ff808e7dfb4262128dda50e5990b1226b0c3f1e
+Commit message - erge
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/NinjaImpl.java
+ninja-core/src/main/java/ninja/Route.java
+ninja-core/src/main/java/ninja/utils/ResponseStreams.java
+ninja-core/src/main/java/ninja/utils/ResponseStreamsServlet.java
+ninja-core/src/test/java/ninja/RouteBuilderImplTest.java
+ninja-demo-application/pom.xml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 162 is -> 
+{ 4430f997f68ca60244d61dcdd2e8581b3d63309f -> 2020c9568483741f5aab116c09e56809402d8fe4 } is a revert
+{ 2020c9568483741f5aab116c09e56809402d8fe4 -> 45199acb31f461c827354133438dfec4c7543ec8 }
+Partial Revert commits SHA are -> 
+2020c9568483741f5aab116c09e56809402d8fe4 - revert - 45199acb31f461c827354133438dfec4c7543ec8
+The reverted commit sha is - 2020c9568483741f5aab116c09e56809402d8fe4
+Commit message - More convenient results
+The original commit sha is - 45199acb31f461c827354133438dfec4c7543ec8
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/pom.xml
+ninja-core/src/main/java/ninja/ContextImpl.java
+ninja-core/src/main/java/ninja/Result.java
+ninja-core/src/main/java/ninja/template/TemplateEngineFreemarker.java
+ninja-core/src/main/java/ninja/utils/NoEscapeString.java
+ninja-core/src/test/java/ninja/ContextImplTest.java
+ninja-demo-application/src/test/java/controll/I18nControllerTest.java
+ninja-demo-application/src/test/java/controllers/I18nControllerTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 163 is -> 
+{ e27ef7d0de2ec32e17a01ae88e26963072bcb547 -> 9abe640dba4d3d2501b35cce322ef721bce90409 } is a revert
+{ 241ee09f326e49088fa881fbe1183d350b5779ab -> 2ca1ef61c0e35073862f013463fcb91bac1f36a2 }
+Partial Revert commits SHA are -> 
+9abe640dba4d3d2501b35cce322ef721bce90409 - revert - 2ca1ef61c0e35073862f013463fcb91bac1f36a2
+The reverted commit sha is - 9abe640dba4d3d2501b35cce322ef721bce90409
+Commit message - tiny refactorings
+The original commit sha is - 2ca1ef61c0e35073862f013463fcb91bac1f36a2
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/WrappedContext.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 164 is -> 
+{ 30db0b2103ab8a8ac8ec07063281600054c7209f -> 241ee09f326e49088fa881fbe1183d350b5779ab } is a revert
+{ 241ee09f326e49088fa881fbe1183d350b5779ab -> 2ca1ef61c0e35073862f013463fcb91bac1f36a2 }
+Partial Revert commits SHA are -> 
+241ee09f326e49088fa881fbe1183d350b5779ab - revert - 2ca1ef61c0e35073862f013463fcb91bac1f36a2
+The reverted commit sha is - 241ee09f326e49088fa881fbe1183d350b5779ab
+Commit message - fix for copying headers
+The original commit sha is - 2ca1ef61c0e35073862f013463fcb91bac1f36a2
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/WrappedContext.java
+ninja-core/src/test/java/ninja/session/SessionCookieTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 165 is -> 
+{ df78a545ae152c41666e1356cdeeb3774a305f3d -> ffd4c2cd38dfa11cbc589d316afc31f3aa2e4df6 } is a revert
+{ 30db0b2103ab8a8ac8ec07063281600054c7209f -> 241ee09f326e49088fa881fbe1183d350b5779ab }
+Partial Revert commits SHA are -> 
+ffd4c2cd38dfa11cbc589d316afc31f3aa2e4df6 - revert - 241ee09f326e49088fa881fbe1183d350b5779ab
+The reverted commit sha is - ffd4c2cd38dfa11cbc589d316afc31f3aa2e4df6
+Commit message - Fixed unit tests
+The original commit sha is - 241ee09f326e49088fa881fbe1183d350b5779ab
+Commit message - fix for copying headers
+The files with partial_reverts are:-
+ninja-core/pom.xml
+ninja-core/src/main/java/ninja/Result.java
+ninja-core/src/main/java/ninja/WrappedContext.java
+ninja-core/src/main/java/ninja/template/TemplateEngineFreemarker.java
+ninja-core/src/main/java/ninja/utils/NoEscapeString.java
+ninja-core/src/test/java/ninja/ContextImplTest.java
+ninja-core/src/test/java/ninja/session/SessionCookieTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 166 is -> 
+{ e27ef7d0de2ec32e17a01ae88e26963072bcb547 -> 9abe640dba4d3d2501b35cce322ef721bce90409 } is a revert
+{ df78a545ae152c41666e1356cdeeb3774a305f3d -> ffd4c2cd38dfa11cbc589d316afc31f3aa2e4df6 }
+Partial Revert commits SHA are -> 
+9abe640dba4d3d2501b35cce322ef721bce90409 - revert - ffd4c2cd38dfa11cbc589d316afc31f3aa2e4df6
+The reverted commit sha is - 9abe640dba4d3d2501b35cce322ef721bce90409
+Commit message - tiny refactorings
+The original commit sha is - ffd4c2cd38dfa11cbc589d316afc31f3aa2e4df6
+Commit message - Fixed unit tests
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/ContextImpl.java
+ninja-core/src/main/java/ninja/Result.java
+ninja-core/src/main/java/ninja/Results.java
+ninja-core/src/main/java/ninja/WrappedContext.java
+ninja-core/src/main/java/ninja/template/TemplateEngineFreemarker.java
+ninja-core/src/main/java/ninja/utils/NoEscapeString.java
+ninja-core/src/test/java/ninja/ContextImplTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 167 is -> 
+{ 22b2cdda7fad2c57662a1ead8f96c11718b6dd71 -> 9b00a8f25d471472dab1d6949fd5b519b86fe4d5 } is a revert
+{ 62ec64d84642e57d601a6a7caaab021e39744802 -> e27ef7d0de2ec32e17a01ae88e26963072bcb547 }
+Partial Revert commits SHA are -> 
+9b00a8f25d471472dab1d6949fd5b519b86fe4d5 - revert - e27ef7d0de2ec32e17a01ae88e26963072bcb547
+The reverted commit sha is - 9b00a8f25d471472dab1d6949fd5b519b86fe4d5
+Commit message - SessionCookie#remove(String) now returns the value it removes
+The original commit sha is - e27ef7d0de2ec32e17a01ae88e26963072bcb547
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/WrappedContext.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 168 is -> 
+{ 025909025b312e6b959d905517926e04732eafef -> 62ec64d84642e57d601a6a7caaab021e39744802 } is a revert
+{ 62ec64d84642e57d601a6a7caaab021e39744802 -> e27ef7d0de2ec32e17a01ae88e26963072bcb547 }
+Partial Revert commits SHA are -> 
+62ec64d84642e57d601a6a7caaab021e39744802 - revert - e27ef7d0de2ec32e17a01ae88e26963072bcb547
+The reverted commit sha is - 62ec64d84642e57d601a6a7caaab021e39744802
+Commit message - added HTTP 500
+The original commit sha is - e27ef7d0de2ec32e17a01ae88e26963072bcb547
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/WrappedContext.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 169 is -> 
+{ 20f472cf541e3113c0f9cc72ac46a4477a5019c5 -> ccf844e7199e96fd448b35b7102f0bde34090ffc } is a revert
+{ 025909025b312e6b959d905517926e04732eafef -> 62ec64d84642e57d601a6a7caaab021e39744802 }
+Partial Revert commits SHA are -> 
+ccf844e7199e96fd448b35b7102f0bde34090ffc - revert - 62ec64d84642e57d601a6a7caaab021e39744802
+The reverted commit sha is - ccf844e7199e96fd448b35b7102f0bde34090ffc
+Commit message - Added wrapped context
+The original commit sha is - 62ec64d84642e57d601a6a7caaab021e39744802
+Commit message - added HTTP 500
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/WrappedContext.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 170 is -> 
+{ 22b2cdda7fad2c57662a1ead8f96c11718b6dd71 -> 9b00a8f25d471472dab1d6949fd5b519b86fe4d5 } is a revert
+{ 66dde031c6f189e60f112523ee57aa39e11b87b7 -> 025909025b312e6b959d905517926e04732eafef }
+Partial Revert commits SHA are -> 
+9b00a8f25d471472dab1d6949fd5b519b86fe4d5 - revert - 025909025b312e6b959d905517926e04732eafef
+The reverted commit sha is - 9b00a8f25d471472dab1d6949fd5b519b86fe4d5
+Commit message - SessionCookie#remove(String) now returns the value it removes
+The original commit sha is - 025909025b312e6b959d905517926e04732eafef
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/WrappedContext.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 171 is -> 
+{ 20f472cf541e3113c0f9cc72ac46a4477a5019c5 -> ccf844e7199e96fd448b35b7102f0bde34090ffc } is a revert
+{ ccf844e7199e96fd448b35b7102f0bde34090ffc -> 22b2cdda7fad2c57662a1ead8f96c11718b6dd71 }
+Partial Revert commits SHA are -> 
+ccf844e7199e96fd448b35b7102f0bde34090ffc - revert - 22b2cdda7fad2c57662a1ead8f96c11718b6dd71
+The reverted commit sha is - ccf844e7199e96fd448b35b7102f0bde34090ffc
+Commit message - Added wrapped context
+The original commit sha is - 22b2cdda7fad2c57662a1ead8f96c11718b6dd71
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Result.java
+ninja-core/src/main/java/ninja/Results.java
+ninja-demo-application/src/main/java/controllers/ApplicationController.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 172 is -> 
+{ ea616a7accd6e2fc5f51c70fd023b3e166e2a433 -> 0986625576a29156e6e1aee2ae8c540025e854a2 } is a revert
+{ 0986625576a29156e6e1aee2ae8c540025e854a2 -> 20f472cf541e3113c0f9cc72ac46a4477a5019c5 }
+Partial Revert commits SHA are -> 
+0986625576a29156e6e1aee2ae8c540025e854a2 - revert - 20f472cf541e3113c0f9cc72ac46a4477a5019c5
+The reverted commit sha is - 0986625576a29156e6e1aee2ae8c540025e854a2
+Commit message - tiny changes for better contentType chaining
+The original commit sha is - 20f472cf541e3113c0f9cc72ac46a4477a5019c5
+Commit message - erge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/AsyncResult.java
+ninja-core/src/main/java/ninja/Context.java
+ninja-core/src/main/java/ninja/ContextImpl.java
+ninja-core/src/main/java/ninja/FilterChainEnd.java
+ninja-core/src/main/java/ninja/NinjaImpl.java
+ninja-core/src/main/java/ninja/async/AsyncStrategy.java
+ninja-core/src/main/java/ninja/async/BlockingAsyncStrategy.java
+ninja-core/src/main/java/ninja/async/Servlet3AsyncStrategy.java
+ninja-demo-application/src/main/java/controllers/AsyncController.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 173 is -> 
+{ 978a34d511c2c2420757a5a58badca4d548debfc -> 4c038dbdecb6136710f82b5fa6101f811bc22a1b } is a revert
+{ 4c038dbdecb6136710f82b5fa6101f811bc22a1b -> ea616a7accd6e2fc5f51c70fd023b3e166e2a433 }
+Partial Revert commits SHA are -> 
+4c038dbdecb6136710f82b5fa6101f811bc22a1b - revert - ea616a7accd6e2fc5f51c70fd023b3e166e2a433
+The reverted commit sha is - 4c038dbdecb6136710f82b5fa6101f811bc22a1b
+Commit message - Not quite fixed async stuff
+The original commit sha is - ea616a7accd6e2fc5f51c70fd023b3e166e2a433
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Result.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 174 is -> 
+{ 1d02594cdaf18afcbba9cbe26242f4f07e52fb79 -> c5e8a8b45ea25a59c8764dc68b842fb3592e2680 } is a revert
+{ 30d6301ff797d91a841d3b92321b5a1bf8cfa455 -> fa15d74235181658a90e1615cd4160442a0fa0e5 }
+Partial Revert commits SHA are -> 
+c5e8a8b45ea25a59c8764dc68b842fb3592e2680 - revert - fa15d74235181658a90e1615cd4160442a0fa0e5
+The reverted commit sha is - c5e8a8b45ea25a59c8764dc68b842fb3592e2680
+Commit message - css not needed in web-inf
+The original commit sha is - fa15d74235181658a90e1615cd4160442a0fa0e5
+Commit message - merge
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/NinjaBootup.java
+ninja-core/src/main/java/ninja/scheduler/Schedule.java
+ninja-core/src/main/java/ninja/scheduler/Scheduler.java
+ninja-core/src/main/java/ninja/scheduler/SchedulerSupport.java
+ninja-core/src/test/java/ninja/scheduler/SchedulerSupportTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 175 is -> 
+{ 663883c228f80fdd5cc1a92874ee63e127f348c5 -> d5491bc0586a768e337e48d6fa5575e115eccc4e } is a revert
+{ 30d6301ff797d91a841d3b92321b5a1bf8cfa455 -> fa15d74235181658a90e1615cd4160442a0fa0e5 }
+Partial Revert commits SHA are -> 
+d5491bc0586a768e337e48d6fa5575e115eccc4e - revert - fa15d74235181658a90e1615cd4160442a0fa0e5
+The reverted commit sha is - d5491bc0586a768e337e48d6fa5575e115eccc4e
+Commit message - a lot of changes for making controllers return results.
+The original commit sha is - fa15d74235181658a90e1615cd4160442a0fa0e5
+Commit message - merge
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/NinjaBootup.java
+ninja-core/src/main/java/ninja/scheduler/Schedule.java
+ninja-core/src/main/java/ninja/scheduler/Scheduler.java
+ninja-core/src/main/java/ninja/scheduler/SchedulerSupport.java
+ninja-core/src/main/java/ninja/utils/NinjaProperties.java
+ninja-core/src/main/java/ninja/utils/NinjaPropertiesImpl.java
+ninja-core/src/test/java/ninja/scheduler/SchedulerSupportTest.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 176 is -> 
+{ 1d02594cdaf18afcbba9cbe26242f4f07e52fb79 -> c5e8a8b45ea25a59c8764dc68b842fb3592e2680 } is a revert
+{ c5e8a8b45ea25a59c8764dc68b842fb3592e2680 -> 663883c228f80fdd5cc1a92874ee63e127f348c5 }
+Partial Revert commits SHA are -> 
+c5e8a8b45ea25a59c8764dc68b842fb3592e2680 - revert - 663883c228f80fdd5cc1a92874ee63e127f348c5
+The reverted commit sha is - c5e8a8b45ea25a59c8764dc68b842fb3592e2680
+Commit message - css not needed in web-inf
+The original commit sha is - 663883c228f80fdd5cc1a92874ee63e127f348c5
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/NinjaBootup.java
+ninja-core/src/main/java/ninja/scheduler/Schedule.java
+ninja-core/src/main/java/ninja/scheduler/Scheduler.java
+ninja-core/src/main/java/ninja/scheduler/SchedulerSupport.java
+ninja-core/src/test/java/ninja/scheduler/SchedulerSupportTest.java
+ninja-demo-application/src/main/webapp/css/main.css
+-----------------------------------------------------------------
+
+Partial Revert diff pair 177 is -> 
+{ f4d6ff026232dba136e3f1041ee178504bd65215 -> 04a7dfcf558348ffdbd4328c208c3c554d83b1c2 } is a revert
+{ 04a7dfcf558348ffdbd4328c208c3c554d83b1c2 -> 0faff1c1f4e10d9300ab1402a261e3eafec10a90 }
+Partial Revert commits SHA are -> 
+04a7dfcf558348ffdbd4328c208c3c554d83b1c2 - revert - 0faff1c1f4e10d9300ab1402a261e3eafec10a90
+The reverted commit sha is - 04a7dfcf558348ffdbd4328c208c3c554d83b1c2
+Commit message - more docs
+The original commit sha is - 0faff1c1f4e10d9300ab1402a261e3eafec10a90
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Context.java
+ninja-core/src/main/java/ninja/ContextImpl.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 178 is -> 
+{ 45fb7ae47e184f3f717bf164c8ecce3b4f245095 -> a369d0ba6124437e5d671622a65241c419b76e22 } is a revert
+{ a369d0ba6124437e5d671622a65241c419b76e22 -> e22dfb7c11da8d3ea1dff96f6534a7119292d868 }
+Partial Revert commits SHA are -> 
+a369d0ba6124437e5d671622a65241c419b76e22 - revert - e22dfb7c11da8d3ea1dff96f6534a7119292d868
+The reverted commit sha is - a369d0ba6124437e5d671622a65241c419b76e22
+Commit message - test for language i18n stuff
+The original commit sha is - e22dfb7c11da8d3ea1dff96f6534a7119292d868
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+The files with partial_reverts are:-
+ninja-core/src/main/java/ninja/Context.java
+ninja-core/src/main/java/ninja/ContextImpl.java
+ninja-core/src/main/java/ninja/Cookie.java
+ninja-core/src/main/java/ninja/Filter.java
+ninja-core/src/main/java/ninja/FilterChain.java
+ninja-core/src/main/java/ninja/FilterChainEnd.java
+ninja-core/src/main/java/ninja/FilterChainImpl.java
+ninja-core/src/main/java/ninja/NinjaImpl.java
+ninja-core/src/main/java/ninja/Route.java
+ninja-core/src/main/java/ninja/RouteBuilderImpl.java
+ninja-core/src/main/java/ninja/SecureFilter.java
+ninja-core/src/main/java/ninja/utils/CookieHelper.java
+ninja-core/src/test/java/ninja/ContextImplTest.java
+ninja-core/src/test/java/ninja/RouteBuilderImplTest.java
+ninja-core/src/test/java/ninja/SecureFilterTest.java
+ninja-demo-application/src/main/java/filters/LoggerFilter.java
+ninja-demo-application/src/main/java/filters/TeaPotFilter.java
+-----------------------------------------------------------------
+
+Partial Revert diff pair 179 is -> 
+{ 3ba0dfce56ba0fac8627e7397e6c681e79fde8a7 -> 5902c54717913fa693114dfdda6ee96193ffc129 } is a revert
+{ 5902c54717913fa693114dfdda6ee96193ffc129 -> bafe014b3997b3dbb1e591172141a145b712aa72 }
+Partial Revert commits SHA are -> 
+5902c54717913fa693114dfdda6ee96193ffc129 - revert - bafe014b3997b3dbb1e591172141a145b712aa72
+The reverted commit sha is - 5902c54717913fa693114dfdda6ee96193ffc129
+Commit message - some refactoring. preparation for demo module and
+application showcase.
+
+separation of core module.
+The original commit sha is - bafe014b3997b3dbb1e591172141a145b712aa72
+Commit message - now with parent pom to build them all.
+The files with partial_reverts are:-
+ninja-demo-application/README.md
+ninja-demo-module/README.md
+ninja-demo-module/src/main/java/ninjaModuleDemo/conf/Routes.java
+ninja-demo-module/src/main/java/ninjaModuleDemo/controllers/ApplicationController.java
+-----------------------------------------------------------------
+
