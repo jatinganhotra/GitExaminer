@@ -21,17 +21,25 @@ class DiffFile
       self.set_file_name
     end
 
+    # e.g. diff_file_name is "--- a/chapters/10-pagination.md"
+    def extract_file_name(diff_file_name)
+      file_name = diff_file_name.to_s.split("/")
+      # Remove the first part of "--- a"
+      file_name.shift
+      # Re-join the remaining parts
+      file_name = file_name.join('/')
+      return file_name
+    end
+
     def set_file_name
       file_name_old_version = (@difffile.patch).match(/^[-]{3}.*/)
       file_name_new_version = (@difffile.patch).match(/^[+]{3}.*/)
-      # Tip : Only picking the last part seems reasonable
-      # unless there are same files in different directories
-      file_name_old_version = file_name_old_version.to_s.split("/").last
-      file_name_new_version = file_name_new_version.to_s.split("/").last
+      file_name_old_version = extract_file_name(file_name_old_version)
+      file_name_new_version = extract_file_name(file_name_new_version)
 
       # The file names would be /dev/null when the file is added/ deleted
-      file_name_old_version = file_name_new_version if file_name_old_version == "null"
-      file_name_new_version = file_name_old_version if file_name_new_version == "null"
+      file_name_old_version = file_name_new_version if file_name_old_version == "dev/null"
+      file_name_new_version = file_name_old_version if file_name_new_version == "dev/null"
       raise "Both file names must be same" if file_name_old_version != file_name_new_version
 
       @file_name = file_name_new_version
