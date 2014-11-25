@@ -24,6 +24,8 @@ project_name = project_name.last
 project_name = project_name.split('.')
 project_name = project_name.first
 
+# Tip: To try on local git repo, just comment the below code
+#git_repo_path = ARGV[0]
 puts " ---> Cloning your project repo. -> " + git_repo_url.to_s
 puts "-------------------------------------------------"
 Dir.chdir "/tmp"

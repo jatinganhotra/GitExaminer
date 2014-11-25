@@ -33,6 +33,13 @@ class Diff
 
   def generate_stats
     num_files = @stats[:total][:files]
+    #puts "The files in @stats[:total] are - "
+    #@stats[:files].each do |file_name, file_stats|
+    #  puts file_name
+    #end
+    #puts " The size of @stats[:files] is = " + @stats[:files].size.to_s
+    #puts "num_files are = " + num_files.to_s
+    #puts "@num_difffiles = " + @num_difffiles.to_s
     raise "Num_files in stats != number of diffiles" unless num_files == @num_difffiles
   end
 
@@ -41,7 +48,6 @@ class Diff
     # diff.class => Git::Diff
     # Get the stats for the diff, before extracting individual difffiles
     @stats = @diff.stats
-
     # Convert the Enumerable to Array
     diff = @diff.to_a
 
