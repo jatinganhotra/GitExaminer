@@ -40,6 +40,11 @@ class DiffFile
       # The file names would be /dev/null when the file is added/ deleted
       file_name_old_version = file_name_new_version if file_name_old_version == "dev/null"
       file_name_new_version = file_name_old_version if file_name_new_version == "dev/null"
+      # The file names would be nil if the file permissions are changed
+      file_name_old_version = file_name_new_version if file_name_old_version.nil?
+      file_name_new_version = file_name_old_version if file_name_new_version.nil?
+      file_name_old_version = file_name_new_version if file_name_old_version == ""
+      file_name_new_version = file_name_old_version if file_name_new_version == ""
       raise "Both file names must be same" if file_name_old_version != file_name_new_version
 
       @file_name = file_name_new_version
