@@ -1,0 +1,1243 @@
+# of partial reverts = 67
+Partial Revert diff pair 1 is -> 
+{ a25896e902500e4049460d4e1f2b05a6a5dc149d -> b55c5a705db23a08cfd573d07f0ecf77107894d3 } is a revert
+{ abea0454a3bd12a3e576c87280887f10a2ed4a0e -> 99688371121203778cdd62c7edefe29dcf3c3bff }
+Partial Revert commits SHA are -> 
+b55c5a705db23a08cfd573d07f0ecf77107894d3 - revert - 99688371121203778cdd62c7edefe29dcf3c3bff
+The reverted commit sha is - b55c5a705db23a08cfd573d07f0ecf77107894d3
+Commit message - Improve base getting for form view
+The original commit sha is - 99688371121203778cdd62c7edefe29dcf3c3bff
+Commit message - Remove submit from form view
+The files with partial_reverts are:-
+editor/resources/templates/form.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 9c111b0a29ca593858cd6be320a5842d8edd52d6 -> dbb3ecb596e6b591167c562446bdef3c0c20d8f3 } is a revert
+{ 260050d93957beda6a9fd4b2724024b6e78d5617 -> 9e5620b5ad6c1a6b5d70ae8f2eaaaeea9ea417bd }
+Partial Revert commits SHA are -> 
+dbb3ecb596e6b591167c562446bdef3c0c20d8f3 - revert - 9e5620b5ad6c1a6b5d70ae8f2eaaaeea9ea417bd
+The reverted commit sha is - dbb3ecb596e6b591167c562446bdef3c0c20d8f3
+Commit message - Add base for context menu
+The original commit sha is - 9e5620b5ad6c1a6b5d70ae8f2eaaaeea9ea417bd
+Commit message - Remove login page, move auth on root path
+The files with partial_reverts are:-
+editor/resources/stylesheets/ui/auth.less
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ df716743da50b61cc4ac8871124026fc4b1779d6 -> ce7889668aac755ecf1bba9a303dff490239be82 } is a revert
+{ 89769cd0b78bdaa749e0e98fc9c1e63a159e549a -> 4cd5fa83351854e89d82b3f8b0a73714b4531507 }
+Partial Revert commits SHA are -> 
+ce7889668aac755ecf1bba9a303dff490239be82 - revert - 4cd5fa83351854e89d82b3f8b0a73714b4531507
+The reverted commit sha is - ce7889668aac755ecf1bba9a303dff490239be82
+Commit message - Added option to strip trailing spaces on save
+The original commit sha is - 4cd5fa83351854e89d82b3f8b0a73714b4531507
+Commit message - Merge pull request #367 from invokr/feature/stripspaces
+
+Added option to strip trailing spaces on save
+The files with partial_reverts are:-
+addons/cb.files.preview/client.js
+addons/cb.files.preview/package.json
+addons/cb.files.preview/settings.js
+addons/cb.files.preview/stylesheets/preview.less
+addons/cb.files.preview/templates/preview_html.html
+addons/cb.files.preview/templates/preview_markdown.html
+addons/cb.files.preview/views/preview_html.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 530b00a71b5d68d119992ce122fd5e193a443fe0 -> 89769cd0b78bdaa749e0e98fc9c1e63a159e549a } is a revert
+{ 89769cd0b78bdaa749e0e98fc9c1e63a159e549a -> 4cd5fa83351854e89d82b3f8b0a73714b4531507 }
+Partial Revert commits SHA are -> 
+89769cd0b78bdaa749e0e98fc9c1e63a159e549a - revert - 4cd5fa83351854e89d82b3f8b0a73714b4531507
+The reverted commit sha is - 89769cd0b78bdaa749e0e98fc9c1e63a159e549a
+Commit message - Added stripspaces function and corresponding menu entry
+The original commit sha is - 4cd5fa83351854e89d82b3f8b0a73714b4531507
+Commit message - Merge pull request #367 from invokr/feature/stripspaces
+
+Added option to strip trailing spaces on save
+The files with partial_reverts are:-
+addons/cb.files.preview/client.js
+addons/cb.files.preview/package.json
+addons/cb.files.preview/settings.js
+addons/cb.files.preview/stylesheets/preview.less
+addons/cb.files.preview/templates/preview_html.html
+addons/cb.files.preview/templates/preview_markdown.html
+addons/cb.files.preview/views/preview_html.js
+addons/cb.files.preview/views/preview_markdown.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ ce7889668aac755ecf1bba9a303dff490239be82 -> 8f9523f5bcf55e6f118e0bb77115a66e83e4d569 } is a revert
+{ 530b00a71b5d68d119992ce122fd5e193a443fe0 -> 89769cd0b78bdaa749e0e98fc9c1e63a159e549a }
+Partial Revert commits SHA are -> 
+8f9523f5bcf55e6f118e0bb77115a66e83e4d569 - revert - 89769cd0b78bdaa749e0e98fc9c1e63a159e549a
+The reverted commit sha is - 8f9523f5bcf55e6f118e0bb77115a66e83e4d569
+Commit message - Merge pull request #366 from invokr/feature--preview
+
+Added preview view for HTML files
+The original commit sha is - 89769cd0b78bdaa749e0e98fc9c1e63a159e549a
+Commit message - Added stripspaces function and corresponding menu entry
+The files with partial_reverts are:-
+addons/cb.files.editor/editor/settings.js
+addons/cb.files.preview/client.js
+addons/cb.files.preview/package.json
+addons/cb.files.preview/settings.js
+addons/cb.files.preview/stylesheets/preview.less
+addons/cb.files.preview/templates/preview_html.html
+addons/cb.files.preview/templates/preview_markdown.html
+addons/cb.files.preview/views/preview_html.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ 80f5d1944f15f84165e139676ae17cd5b7aad215 -> a83211e8263dc4bd0c4d5c3270a3f19fd38e8a2b } is a revert
+{ def5d47a25634be89ba561c07225ebcbcaf7cdf5 -> 7bf90abff4475bf4b8177b0058e481c8c314477a }
+Partial Revert commits SHA are -> 
+a83211e8263dc4bd0c4d5c3270a3f19fd38e8a2b - revert - 7bf90abff4475bf4b8177b0058e481c8c314477a
+The reverted commit sha is - a83211e8263dc4bd0c4d5c3270a3f19fd38e8a2b
+Commit message - Enable keyboard shortcuts from tabs inside ace
+The original commit sha is - 7bf90abff4475bf4b8177b0058e481c8c314477a
+Commit message - Retablish mousetrap as original 1.4.6 version
+The files with partial_reverts are:-
+client/vendors/mousetrap.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ bce63434bcbefd8b99d163d8135b6b1cb1da1462 -> 0b5a83a568369e62525db961cae67a79d89675dd } is a revert
+{ def5d47a25634be89ba561c07225ebcbcaf7cdf5 -> 7bf90abff4475bf4b8177b0058e481c8c314477a }
+Partial Revert commits SHA are -> 
+0b5a83a568369e62525db961cae67a79d89675dd - revert - 7bf90abff4475bf4b8177b0058e481c8c314477a
+The reverted commit sha is - 0b5a83a568369e62525db961cae67a79d89675dd
+Commit message - Make nextTab and prevTab works with keyboard
+The original commit sha is - 7bf90abff4475bf4b8177b0058e481c8c314477a
+Commit message - Retablish mousetrap as original 1.4.6 version
+The files with partial_reverts are:-
+client/vendors/mousetrap.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ 2c710a3c4ac2fe2c6542e4d5f6e0e1009ced0c61 -> 8cc3f5d704c93f78ba332b5d1b6a92b7b7ef359d } is a revert
+{ def5d47a25634be89ba561c07225ebcbcaf7cdf5 -> 7bf90abff4475bf4b8177b0058e481c8c314477a }
+Partial Revert commits SHA are -> 
+8cc3f5d704c93f78ba332b5d1b6a92b7b7ef359d - revert - 7bf90abff4475bf4b8177b0058e481c8c314477a
+The reverted commit sha is - 8cc3f5d704c93f78ba332b5d1b6a92b7b7ef359d
+Commit message - Fix #212: Emulate watcher in vfs backend in client
+The original commit sha is - 7bf90abff4475bf4b8177b0058e481c8c314477a
+Commit message - Retablish mousetrap as original 1.4.6 version
+The files with partial_reverts are:-
+client/vendors/mousetrap.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ b842e27f048c66df4a1927f1828905a2cb6203d4 -> cd4b9bd9d5a6e75e35737500239d9ef93557c099 } is a revert
+{ 9301c4aee185646b581721121f4d2d842596dca2 -> 912b06a978c66bb2e7497b76f3d9e0fa26b45c1f }
+Partial Revert commits SHA are -> 
+cd4b9bd9d5a6e75e35737500239d9ef93557c099 - revert - 912b06a978c66bb2e7497b76f3d9e0fa26b45c1f
+The reverted commit sha is - cd4b9bd9d5a6e75e35737500239d9ef93557c099
+Commit message - Improve support for ipad in contextmenu and drag and drop
+The original commit sha is - 912b06a978c66bb2e7497b76f3d9e0fa26b45c1f
+Commit message - Disable taphold for contextmenu on non-ipad
+The files with partial_reverts are:-
+client/utils/contextmenu.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ 1feb58f4d12f334a3cf8b02b497bacd185962e06 -> c0127369710a7687b1da714e2c5094c6500ebb1b } is a revert
+{ 165075c11c036d2f78e5b45510be9702a0f7cc0f -> 162f3c5a39ced1c3b76ecdd2ded9be5970a2cd28 }
+Partial Revert commits SHA are -> 
+c0127369710a7687b1da714e2c5094c6500ebb1b - revert - 162f3c5a39ced1c3b76ecdd2ded9be5970a2cd28
+The reverted commit sha is - c0127369710a7687b1da714e2c5094c6500ebb1b
+Commit message - Add base for code search
+
+Refactor search module
+The original commit sha is - 162f3c5a39ced1c3b76ecdd2ded9be5970a2cd28
+Commit message - Merge pull request #318 from FriendCode/feature/codesearch
+
+Feature/codesearch
+The files with partial_reverts are:-
+core/cb.project/main.js
+core/cb.project/maven/detector.sh
+core/cb.project/maven/index.js
+core/cb.project/maven/install.sh
+core/cb.project/maven/run.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 0f22ba7af37aad5967394c195469ed0849a855de -> 4a5eb825ec2dedf46c5d29902a1923495efbf13f } is a revert
+{ 4a5eb825ec2dedf46c5d29902a1923495efbf13f -> 4791c020b90194cfbd7edec6533c6efe5417ac55 }
+Partial Revert commits SHA are -> 
+4a5eb825ec2dedf46c5d29902a1923495efbf13f - revert - 4791c020b90194cfbd7edec6533c6efe5417ac55
+The reverted commit sha is - 4a5eb825ec2dedf46c5d29902a1923495efbf13f
+Commit message - Fix #281: Allow setting custom JSHint options using .jshintrc
+The original commit sha is - 4791c020b90194cfbd7edec6533c6efe5417ac55
+Commit message - Merge branch 'master' of github.com:FriendCode/codebox
+The files with partial_reverts are:-
+core/cb.project/php/run_apache.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ 817c7b9029248aad8425bbf07b6d87b735bd6b0a -> 118462b9d915931b7a9aa150473d93b5a24eced3 } is a revert
+{ 118462b9d915931b7a9aa150473d93b5a24eced3 -> af0d6b97bbb418924d6f9a63416e6b06592e3be5 }
+Partial Revert commits SHA are -> 
+118462b9d915931b7a9aa150473d93b5a24eced3 - revert - af0d6b97bbb418924d6f9a63416e6b06592e3be5
+The reverted commit sha is - 118462b9d915931b7a9aa150473d93b5a24eced3
+Commit message - Fix run state when clicking the operation
+The original commit sha is - af0d6b97bbb418924d6f9a63416e6b06592e3be5
+Commit message - Merge branch 'master' of github.com:FriendCode/codebox
+The files with partial_reverts are:-
+core/cb.project/php/run_apache.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ b842e27f048c66df4a1927f1828905a2cb6203d4 -> cd4b9bd9d5a6e75e35737500239d9ef93557c099 } is a revert
+{ 142bd20cac45d28538a8ae5504ee3f8a316230cb -> 8e7c7caadaa26a31e9596d12b0cfaf0608cf7396 }
+Partial Revert commits SHA are -> 
+cd4b9bd9d5a6e75e35737500239d9ef93557c099 - revert - 8e7c7caadaa26a31e9596d12b0cfaf0608cf7396
+The reverted commit sha is - cd4b9bd9d5a6e75e35737500239d9ef93557c099
+Commit message - Improve support for ipad in contextmenu and drag and drop
+The original commit sha is - 8e7c7caadaa26a31e9596d12b0cfaf0608cf7396
+Commit message - Merge branch 'master' of github.com:FriendCode/codebox
+The files with partial_reverts are:-
+Gruntfile.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ 35743bdc44792b450787eb80d2f5ac37b56fc870 -> 59821c189a5b15b1b15d673df72ea367111f991d } is a revert
+{ 59821c189a5b15b1b15d673df72ea367111f991d -> b842e27f048c66df4a1927f1828905a2cb6203d4 }
+Partial Revert commits SHA are -> 
+59821c189a5b15b1b15d673df72ea367111f991d - revert - b842e27f048c66df4a1927f1828905a2cb6203d4
+The reverted commit sha is - 59821c189a5b15b1b15d673df72ea367111f991d
+Commit message - Fix desktop building, set desktop's version when building
+The original commit sha is - b842e27f048c66df4a1927f1828905a2cb6203d4
+Commit message - Merge branch 'master' of https://github.com/FriendCode/codebox
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 919d5e60532fdf30057a708428134e71469701a4 -> ed15e9ccd40131bbeac0bbde81094d62d096e67e } is a revert
+{ d1a014dc8f304b9683c286614d60ba27a74fade9 -> a7ea8518243c823017191d7a03d538b2266572af }
+Partial Revert commits SHA are -> 
+ed15e9ccd40131bbeac0bbde81094d62d096e67e - revert - a7ea8518243c823017191d7a03d538b2266572af
+The reverted commit sha is - ed15e9ccd40131bbeac0bbde81094d62d096e67e
+Commit message - Improve palette results with search results
+The original commit sha is - a7ea8518243c823017191d7a03d538b2266572af
+Commit message - Merge pull request #293 from FriendCode/feature/gridview
+
+Feature/gridview
+The files with partial_reverts are:-
+core/cb.project/django/detector.sh
+core/cb.project/django/index.js
+core/cb.project/django/run.sh
+core/cb.project/main.js
+core/cb.project/php/_waitfile.sh
+core/cb.project/php/run.sh
+core/cb.project/php/run_apache.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ 3c94ae07b29a5926b589e1514ad23036c35e3bfc -> 929149e74407833d01fcc282a8a23de9db0391d3 } is a revert
+{ 0d59b423ea48ea38130320b3f2e1c00f4cb47644 -> 783b791a035b65b81443b22e55e1981e18d53f8c }
+Partial Revert commits SHA are -> 
+929149e74407833d01fcc282a8a23de9db0391d3 - revert - 783b791a035b65b81443b22e55e1981e18d53f8c
+The reverted commit sha is - 929149e74407833d01fcc282a8a23de9db0391d3
+Commit message - Add --users command line argument for custom auth
+
+Fixes #144 and fixes #277
+The original commit sha is - 783b791a035b65b81443b22e55e1981e18d53f8c
+Commit message - Merge pull request #298 from FriendCode/fix/rjs_linux
+
+Fix/rjs linux
+The files with partial_reverts are:-
+core/cb.addons/addon.js
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ 2426cbab4962f5ee3141ceaf5ee3dbf7d064e5f8 -> b1cdc642cc67ca8117ed66f393c429a74df40e50 } is a revert
+{ f7d46080f1d6b16e90fc7a567a384b84fa75ae5d -> 0aebb3e60e65dc5084192047bece5e8ecdb0ce70 }
+Partial Revert commits SHA are -> 
+b1cdc642cc67ca8117ed66f393c429a74df40e50 - revert - 0aebb3e60e65dc5084192047bece5e8ecdb0ce70
+The reverted commit sha is - b1cdc642cc67ca8117ed66f393c429a74df40e50
+Commit message - Add base for a grid system
+The original commit sha is - 0aebb3e60e65dc5084192047bece5e8ecdb0ce70
+Commit message - Merge pull request #288 from FriendCode/feature/tabs
+
+Big improvements on tabs
+The files with partial_reverts are:-
+core/cb.shells/main.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ 1bb3cfe280013f560b469bcb5ccb13022a95c357 -> 1f31190fad4482372ac4954e2e5e1f5842496b4a } is a revert
+{ 1f31190fad4482372ac4954e2e5e1f5842496b4a -> 337dd72adb3b7fd6fe7585eb293a0edd268e95e4 }
+Partial Revert commits SHA are -> 
+1f31190fad4482372ac4954e2e5e1f5842496b4a - revert - 337dd72adb3b7fd6fe7585eb293a0edd268e95e4
+The reverted commit sha is - 1f31190fad4482372ac4954e2e5e1f5842496b4a
+Commit message - Update sh.js
+The original commit sha is - 337dd72adb3b7fd6fe7585eb293a0edd268e95e4
+Commit message - Merge pull request #273 from FriendCode/improve/terminals
+
+Improve/terminals
+The files with partial_reverts are:-
+core/cb.deploy.ftp/upload.sh
+desktop/js/main.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 9d62f27baa8945a15bf4bc51fd1307fde9ce93fb -> 54d48a65ee9551349ddfb5d1b0deb18e0ae36d68 } is a revert
+{ d9c6772073b93af125da90a726142e05adc24c1e -> 134a021454a449ed8d244be3665b4ecab5065cb3 }
+Partial Revert commits SHA are -> 
+54d48a65ee9551349ddfb5d1b0deb18e0ae36d68 - revert - 134a021454a449ed8d244be3665b4ecab5065cb3
+The reverted commit sha is - 54d48a65ee9551349ddfb5d1b0deb18e0ae36d68
+Commit message - Add workspace name to local desktop window titles
+The original commit sha is - 134a021454a449ed8d244be3665b4ecab5065cb3
+Commit message - Enable all terminal themes
+The files with partial_reverts are:-
+Gruntfile.js
+addons/cb.terminal/stylesheets/tab.less
+addons/cb.terminal/themes.js
+addons/cb.terminal/vendors/sh.js
+addons/cb.terminal/vendors/term.js
+addons/cb.terminal/views/tab.js
+client/models/shell.js
+client/vendors/socket.io-stream.js
+core/cb.shells.stream/main.js
+core/cb.shells.stream/package.json
+core/cb.shells.stream/shell.js
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ 68b0301d801368fb7484e7cdcc74f5e97a631015 -> d0ccbc13c0e6ed77be810cd80081a2c184a41c55 } is a revert
+{ d0ccbc13c0e6ed77be810cd80081a2c184a41c55 -> 6eafe43c37e9090cb4ab75f5baa8aaed51d172e0 }
+Partial Revert commits SHA are -> 
+d0ccbc13c0e6ed77be810cd80081a2c184a41c55 - revert - 6eafe43c37e9090cb4ab75f5baa8aaed51d172e0
+The reverted commit sha is - d0ccbc13c0e6ed77be810cd80081a2c184a41c55
+Commit message - Merge pull request #263 from peterjosling/fix/ftp_deploy_typo
+
+Fix typo in FTP deployment description.
+The original commit sha is - 6eafe43c37e9090cb4ab75f5baa8aaed51d172e0
+Commit message - Merge pull request #264 from peterjosling/fix/login_form_submit
+
+Wrap login form in a <form> tag.
+The files with partial_reverts are:-
+client/resources/templates/main.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ c703b74f92e624691734074d79363b56afb5c244 -> 87c18dfdf9788228435390fa3706f4fc20f9d571 } is a revert
+{ f18aeae5222e4768aecb2e0a796291ef2fc7bf67 -> 1a8d5597c2036266472baf7a82fb63c4bee23749 }
+Partial Revert commits SHA are -> 
+87c18dfdf9788228435390fa3706f4fc20f9d571 - revert - 1a8d5597c2036266472baf7a82fb63c4bee23749
+The reverted commit sha is - 87c18dfdf9788228435390fa3706f4fc20f9d571
+Commit message - Upgrade hr.js to 0.6.0
+The original commit sha is - 1a8d5597c2036266472baf7a82fb63c4bee23749
+Commit message - Fix q replacement by hr/promise in term.js
+The files with partial_reverts are:-
+addons/cb.terminal/vendors/term.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ 30d14424a13d5b4cb751bc10168c0b6a9b2c2cb1 -> b6ce9ab1dfa2bfd8344fa15687438e886763f297 } is a revert
+{ 00f222ff846d2c868e91eb522163873f9545a459 -> a23b87ef3651596bfc92e06d88fa0749835748d1 }
+Partial Revert commits SHA are -> 
+b6ce9ab1dfa2bfd8344fa15687438e886763f297 - revert - a23b87ef3651596bfc92e06d88fa0749835748d1
+The reverted commit sha is - b6ce9ab1dfa2bfd8344fa15687438e886763f297
+Commit message - Remove tree level src/
+The original commit sha is - a23b87ef3651596bfc92e06d88fa0749835748d1
+Commit message - Remove useless(old) client/build file
+The files with partial_reverts are:-
+client/build.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ ac31f220c57d806728e559a0963f325c5395e63f -> b01aeb9550528dfa3f0cf181e9cd9b65c0bf0081 } is a revert
+{ 31052bcfc739456dfbad0f11e452c66cd432fca3 -> 1de533f1534ddfa69f12f07af22cedc5c002962e }
+Partial Revert commits SHA are -> 
+b01aeb9550528dfa3f0cf181e9cd9b65c0bf0081 - revert - 1de533f1534ddfa69f12f07af22cedc5c002962e
+The reverted commit sha is - b01aeb9550528dfa3f0cf181e9cd9b65c0bf0081
+Commit message - Remove removed language references from ext-modelist
+The original commit sha is - 1de533f1534ddfa69f12f07af22cedc5c002962e
+Commit message - Merge pull request #231 from FriendCode/improve/remove_unused_ace_languages
+
+Remove some unused languages from our ace build
+
+Remove ~70 empty snippet files
+
+Brining ace distrib from 209 files to 130
+The files with partial_reverts are:-
+CHANGES
+addons/cb.files.editor/addon-built.js
+addons/cb.files.editor/download_ace.sh
+core/cb.project/main.js
+core/cb.project/meteor/detector.sh
+core/cb.project/meteor/index.js
+core/cb.project/meteor/mrt_install.sh
+core/cb.project/meteor/mrt_update.sh
+core/cb.project/meteor/run.sh
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ 469d57cd9015d91c90aa995a2092113e6075b309 -> 436d198e1d8741f8965d379d0d1b0b23b233546d } is a revert
+{ f63bd89c8d932958eb480f6c858d95bb6a3944c4 -> 840c4f5f3920b64edd03f7f0602c6b5e8cbeb265 }
+Partial Revert commits SHA are -> 
+436d198e1d8741f8965d379d0d1b0b23b233546d - revert - 840c4f5f3920b64edd03f7f0602c6b5e8cbeb265
+The reverted commit sha is - 436d198e1d8741f8965d379d0d1b0b23b233546d
+Commit message - Add meteorite update command to meteor project
+The original commit sha is - 840c4f5f3920b64edd03f7f0602c6b5e8cbeb265
+Commit message - Merge pull request #230 from FriendCode/support/meteor
+
+Add Meteor project support detect/run #225
+The files with partial_reverts are:-
+addons/cb.files.editor/addon-built.js
+addons/cb.files.editor/download_ace.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ 37d1f5f074d0c68a5672642dd8a7c94d71375788 -> 48dec38a93a6cbd0e177633e4c5dad0f1bf3c219 } is a revert
+{ 33cc717cc457d49f3876ed4adf95078f07c0ecc8 -> 0ec735407b258a5cbd8d077e64e908a6dd0f765d }
+Partial Revert commits SHA are -> 
+48dec38a93a6cbd0e177633e4c5dad0f1bf3c219 - revert - 0ec735407b258a5cbd8d077e64e908a6dd0f765d
+The reverted commit sha is - 48dec38a93a6cbd0e177633e4c5dad0f1bf3c219
+Commit message - Add base for codebox.io integration into desktop app
+The original commit sha is - 0ec735407b258a5cbd8d077e64e908a6dd0f765d
+Commit message - Add reset data option and remove toolbar
+The files with partial_reverts are:-
+desktop/package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ d3979d3d4f4a5736f37600dd221ebf3a5f625ec4 -> 47bacf276b208e69c474989ca7057b678fb3f732 } is a revert
+{ 488ffb1353d4818460a7e2a2fd54b28373af9111 -> 37d1f5f074d0c68a5672642dd8a7c94d71375788 }
+Partial Revert commits SHA are -> 
+47bacf276b208e69c474989ca7057b678fb3f732 - revert - 37d1f5f074d0c68a5672642dd8a7c94d71375788
+The reverted commit sha is - 47bacf276b208e69c474989ca7057b678fb3f732
+Commit message - Optimize files filtering with ignore rules in project
+The original commit sha is - 37d1f5f074d0c68a5672642dd8a7c94d71375788
+Commit message - Merge branch 'master' of github.com:FriendCode/codebox
+The files with partial_reverts are:-
+desktop/package.json
+desktop/style.css
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ d3979d3d4f4a5736f37600dd221ebf3a5f625ec4 -> 47bacf276b208e69c474989ca7057b678fb3f732 } is a revert
+{ 47bacf276b208e69c474989ca7057b678fb3f732 -> 488ffb1353d4818460a7e2a2fd54b28373af9111 }
+Partial Revert commits SHA are -> 
+47bacf276b208e69c474989ca7057b678fb3f732 - revert - 488ffb1353d4818460a7e2a2fd54b28373af9111
+The reverted commit sha is - 47bacf276b208e69c474989ca7057b678fb3f732
+Commit message - Optimize files filtering with ignore rules in project
+The original commit sha is - 488ffb1353d4818460a7e2a2fd54b28373af9111
+Commit message - Merge pull request #216 from FriendCode/feature/project_help_service
+
+Refactor project detection and run
+The files with partial_reverts are:-
+Gruntfile.js
+nwbuild.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ 9f1d694c16cb4a0c56440b55dc20368f3b23dfbc -> 9eeaf57cd6e2a1a2a4a1366d6c896a6fb2cd73be } is a revert
+{ b409959fcb4c5368e06391be3f380278cc581054 -> 982db90a30d8211d400a6a8329d0b7d94115109e }
+Partial Revert commits SHA are -> 
+9eeaf57cd6e2a1a2a4a1366d6c896a6fb2cd73be - revert - 982db90a30d8211d400a6a8329d0b7d94115109e
+The reverted commit sha is - 9eeaf57cd6e2a1a2a4a1366d6c896a6fb2cd73be
+Commit message - Add ignored files from project for ctags indexing
+The original commit sha is - 982db90a30d8211d400a6a8329d0b7d94115109e
+Commit message - Remove fstream-ignore and reimplement ProjectType.getValidFiles
+The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ 465e1e53e2a8356eb6c67b2be9606b675e839d2a -> c147984ba82da6fb454dec9ce49ed9fead42df58 } is a revert
+{ c147984ba82da6fb454dec9ce49ed9fead42df58 -> 363a722c8e8ed7dfde7a061465720c71d89309d5 }
+Partial Revert commits SHA are -> 
+c147984ba82da6fb454dec9ce49ed9fead42df58 - revert - 363a722c8e8ed7dfde7a061465720c71d89309d5
+The reverted commit sha is - c147984ba82da6fb454dec9ce49ed9fead42df58
+Commit message - Switch download_ace to FriendCode's fork
+The original commit sha is - 363a722c8e8ed7dfde7a061465720c71d89309d5
+Commit message - Merge branches 'master' and 'master' of github.com:FriendCode/codebox
+The files with partial_reverts are:-
+addons/cb.files.editor/addon-built.js
+addons/cb.files.editor/client.js
+addons/cb.files.editor/views/file.js
+client/core/themes.js
+client/utils/filesync.js
+core/cb.server/main.js
+docs/README.md
+docs/features.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ a3d57c4c560ea42880c035439c29fdad9f207a4a -> c4501b6448e40adfedca217abdc6b1b3f03aac3c } is a revert
+{ c4501b6448e40adfedca217abdc6b1b3f03aac3c -> 44a8a501845db55fdc0a7541f2f02469dd637c37 }
+Partial Revert commits SHA are -> 
+c4501b6448e40adfedca217abdc6b1b3f03aac3c - revert - 44a8a501845db55fdc0a7541f2f02469dd637c37
+The reverted commit sha is - c4501b6448e40adfedca217abdc6b1b3f03aac3c
+Commit message - Fix: flipped condition in core/utils.js batch
+The original commit sha is - 44a8a501845db55fdc0a7541f2f02469dd637c37
+Commit message - Merge pull request #203 from FriendCode/fix/watcher_overload
+
+Batch process watcher events to avoid overloading
+The files with partial_reverts are:-
+addons/cb.files.editor/addon-built.js
+addons/cb.files.editor/client.js
+addons/cb.files.editor/codecomplete.js
+addons/cb.panel.search/addon-built.js
+addons/cb.panel.search/views/panel.js
+client/core/app.js
+client/core/files.js
+client/core/search/files.js
+client/core/search/tags.js
+client/core/settings.js
+client/models/file.js
+client/models/user.js
+core/cb.codecomplete.ctags/main.js
+core/cb.codecomplete.ctags/package.json
+core/cb.codecomplete.ctags/tags.js
+core/cb.codecomplete/codecomplete.js
+core/cb.codecomplete/main.js
+core/cb.codecomplete/package.json
+core/cb.rpc.codecomplete/main.js
+core/cb.rpc.codecomplete/package.json
+core/cb.rpc.codecomplete/service.js
+core/cb.run.file/main.js
+core/cb.run.project/project.js
+core/cb.settings/main.js
+core/codebox.js
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ fc0ff8e3c8d6e01db10486f1e7e2ba9643ccf436 -> 36d4865e4bc94870d79654f1f82da8f71972854f } is a revert
+{ 36d4865e4bc94870d79654f1f82da8f71972854f -> 186136e4d9674da8f4d125fef52d41a0e4842738 }
+Partial Revert commits SHA are -> 
+36d4865e4bc94870d79654f1f82da8f71972854f - revert - 186136e4d9674da8f4d125fef52d41a0e4842738
+The reverted commit sha is - 36d4865e4bc94870d79654f1f82da8f71972854f
+Commit message - Merge pull request #200 from YuukanOO/bug-settings
+
+Fixed a bug with saveSettings
+The original commit sha is - 186136e4d9674da8f4d125fef52d41a0e4842738
+Commit message - Merge pull request #201 from FriendCode/feature/codecomplete
+
+Feature/codecomplete
+The files with partial_reverts are:-
+addons/cb.files.editor/addon-built.js
+addons/cb.files.editor/client.js
+addons/cb.files.editor/codecomplete.js
+core/cb.codecomplete.ctags/main.js
+core/cb.codecomplete.ctags/package.json
+core/cb.codecomplete.ctags/tags.js
+core/cb.codecomplete/codecomplete.js
+core/cb.codecomplete/main.js
+core/cb.codecomplete/package.json
+core/cb.rpc.codecomplete/main.js
+core/cb.rpc.codecomplete/package.json
+core/cb.rpc.codecomplete/service.js
+core/codebox.js
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ 8e3d2f9be4d8180a68a527007c80d158d293cd58 -> 77dd2a2a51416caad74811591d8760d70d729a35 } is a revert
+{ fc0ff8e3c8d6e01db10486f1e7e2ba9643ccf436 -> 36d4865e4bc94870d79654f1f82da8f71972854f }
+Partial Revert commits SHA are -> 
+77dd2a2a51416caad74811591d8760d70d729a35 - revert - 36d4865e4bc94870d79654f1f82da8f71972854f
+The reverted commit sha is - 77dd2a2a51416caad74811591d8760d70d729a35
+Commit message - Add codecomplete backend support in code editor
+The original commit sha is - 36d4865e4bc94870d79654f1f82da8f71972854f
+Commit message - Merge pull request #200 from YuukanOO/bug-settings
+
+Fixed a bug with saveSettings
+The files with partial_reverts are:-
+addons/cb.files.editor/addon-built.js
+addons/cb.files.editor/client.js
+addons/cb.files.editor/codecomplete.js
+client/core/settings.js
+client/models/user.js
+core/cb.codecomplete.ctags/main.js
+core/cb.codecomplete.ctags/package.json
+core/cb.codecomplete.ctags/tags.js
+core/cb.codecomplete/main.js
+core/cb.codecomplete/package.json
+core/cb.rpc.codecomplete/main.js
+core/cb.rpc.codecomplete/package.json
+core/cb.rpc.codecomplete/service.js
+core/cb.rpc.run/main.js
+core/cb.settings/main.js
+core/codebox.js
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ 5a96a3706760f4c2fd6d55e494bdcfa31bf809b7 -> ec3f1cbd5a065e482eb148fcddd7ee497bc4d02f } is a revert
+{ ec3f1cbd5a065e482eb148fcddd7ee497bc4d02f -> 6bc1654f2b5f85805e5143ef1c8c2fea578f7d6d }
+Partial Revert commits SHA are -> 
+ec3f1cbd5a065e482eb148fcddd7ee497bc4d02f - revert - 6bc1654f2b5f85805e5143ef1c8c2fea578f7d6d
+The reverted commit sha is - ec3f1cbd5a065e482eb148fcddd7ee497bc4d02f
+Commit message - Add base code completion with ctags
+The original commit sha is - 6bc1654f2b5f85805e5143ef1c8c2fea578f7d6d
+Commit message - Revert "Fixed a bug with saveSettings"
+
+This reverts commit 5a96a3706760f4c2fd6d55e494bdcfa31bf809b7.
+The files with partial_reverts are:-
+core/cb.codecomplete.ctags/main.js
+core/cb.codecomplete.ctags/package.json
+core/cb.codecomplete.ctags/tags.js
+core/cb.codecomplete/codecomplete.js
+core/cb.codecomplete/main.js
+core/cb.codecomplete/package.json
+core/cb.rpc.codecomplete/main.js
+core/cb.rpc.codecomplete/package.json
+core/cb.rpc.codecomplete/service.js
+core/cb.rpc.run/main.js
+core/cb.settings/main.js
+core/codebox.js
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ 1b95bca9628d2887d6771ee15d4295a2da0b6ed7 -> 2c0a5def218dd6c84ae240cae21b543125fa1ee5 } is a revert
+{ 7b2bde23e89bad23bcf934c7dc41813c59464c05 -> beb56d2f0bf9afa8a84b57f2849e6032a7e83f64 }
+Partial Revert commits SHA are -> 
+2c0a5def218dd6c84ae240cae21b543125fa1ee5 - revert - beb56d2f0bf9afa8a84b57f2849e6032a7e83f64
+The reverted commit sha is - 2c0a5def218dd6c84ae240cae21b543125fa1ee5
+Commit message - Add autocomplete modules
+The original commit sha is - beb56d2f0bf9afa8a84b57f2849e6032a7e83f64
+Commit message - Merge pull request #199 from YuukanOO/master
+
+Fix default not being used in getSettings
+The files with partial_reverts are:-
+core/cb.rpc.run/main.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ e06121af31cd6144c212e15460a3b102a7bd99d8 -> ca4f26f1de594909ca9a179376edb3222ebfb4c0 } is a revert
+{ 7be849b1e4ff9796f891e655ad4aff973827d4f2 -> f792889c2078bbcb85acaf75510b5cba3fe3a1b2 }
+Partial Revert commits SHA are -> 
+ca4f26f1de594909ca9a179376edb3222ebfb4c0 - revert - f792889c2078bbcb85acaf75510b5cba3fe3a1b2
+The reverted commit sha is - ca4f26f1de594909ca9a179376edb3222ebfb4c0
+Commit message - Fix: getDefaultShell on linux
+The original commit sha is - f792889c2078bbcb85acaf75510b5cba3fe3a1b2
+Commit message - Merge pull request #195 from FriendCode/feature/terminals_list
+
+Feature/terminals list
+The files with partial_reverts are:-
+CHANGES
+addons/cb.settings/addon-built.js
+addons/cb.settings/stylesheets/dialog.less
+addons/cb.settings/templates/dialog.html
+addons/cb.settings/views/dialog.js
+addons/cb.terminal/addon-built.js
+addons/cb.terminal/views/tab.js
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ e365be16c4154cf5c8abc2f519ba50535382c266 -> 4930e1911fe191c93661e60b81774f360f85dfc3 } is a revert
+{ 71c551ddead2739fdff91dacc8a29b61d8a064bc -> 748bc69d311b6badab6ad6d6b1b0990a18ca387c }
+Partial Revert commits SHA are -> 
+4930e1911fe191c93661e60b81774f360f85dfc3 - revert - 748bc69d311b6badab6ad6d6b1b0990a18ca387c
+The reverted commit sha is - 4930e1911fe191c93661e60b81774f360f85dfc3
+Commit message - Add base list for terminals
+The original commit sha is - 748bc69d311b6badab6ad6d6b1b0990a18ca387c
+Commit message - Merge pull request #193 from FriendCode/feature/terminals_list
+
+Add base list for terminals
+The files with partial_reverts are:-
+addons/cb.settings/addon-built.js
+addons/cb.settings/stylesheets/dialog.less
+addons/cb.settings/templates/dialog.html
+addons/cb.settings/views/dialog.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ c1be861722a006c82334952bd85e52c1e9e91623 -> 71c551ddead2739fdff91dacc8a29b61d8a064bc } is a revert
+{ 71c551ddead2739fdff91dacc8a29b61d8a064bc -> 748bc69d311b6badab6ad6d6b1b0990a18ca387c }
+Partial Revert commits SHA are -> 
+71c551ddead2739fdff91dacc8a29b61d8a064bc - revert - 748bc69d311b6badab6ad6d6b1b0990a18ca387c
+The reverted commit sha is - 71c551ddead2739fdff91dacc8a29b61d8a064bc
+Commit message - Limit size of terminal random id
+The original commit sha is - 748bc69d311b6badab6ad6d6b1b0990a18ca387c
+Commit message - Merge pull request #193 from FriendCode/feature/terminals_list
+
+Add base list for terminals
+The files with partial_reverts are:-
+addons/cb.settings/addon-built.js
+addons/cb.settings/stylesheets/dialog.less
+addons/cb.settings/templates/dialog.html
+addons/cb.settings/views/dialog.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ 6bdd4769c0fba1af7ac1ce3f455295fb97b5fd8c -> bdc2e9109d023c043361ea3cad49a338b66f59af } is a revert
+{ 2fae986b5e10525043d878163abc4b537687bd4a -> b7da85a5eff027d68e830538d3fd6c55e7eb6eac }
+Partial Revert commits SHA are -> 
+bdc2e9109d023c043361ea3cad49a338b66f59af - revert - b7da85a5eff027d68e830538d3fd6c55e7eb6eac
+The reverted commit sha is - bdc2e9109d023c043361ea3cad49a338b66f59af
+Commit message - Improve first list of open files with new hr.js version
+The original commit sha is - b7da85a5eff027d68e830538d3fd6c55e7eb6eac
+Commit message - Merge pull request #190 from FriendCode/feature/active_files
+
+Feature/open files list
+The files with partial_reverts are:-
+core/cb.main/main.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ 066f1e18d15522695ce9b9dfa646a147e75a186d -> 85afc6ce3ba77c7805d0e9bd19ad6d11e1073e24 } is a revert
+{ a1438e25765e927786fd2512220991511b96cd9b -> b997223118aa73db806324c8008749b094d177e5 }
+Partial Revert commits SHA are -> 
+85afc6ce3ba77c7805d0e9bd19ad6d11e1073e24 - revert - b997223118aa73db806324c8008749b094d177e5
+The reverted commit sha is - 85afc6ce3ba77c7805d0e9bd19ad6d11e1073e24
+Commit message - Updated the node.js RPC docs
+The original commit sha is - b997223118aa73db806324c8008749b094d177e5
+Commit message - Merge pull request #174 from FriendCode/improve/cb.theme.dark
+
+Adapt smoother colors for cb.theme.dark
+The files with partial_reverts are:-
+addons/cb.theme.dark/ace/theme.less
+addons/cb.theme.dark/addon-built.js
+addons/cb.theme.dark/main.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ dc5764d695e61c598b75ceb607f5e0ac08b34a0b -> 42a4b8366ab3e0bb33ada45d807fedb682152322 } is a revert
+{ ffcf4510bf3760eceaf6e267b6c28b301a8d267b -> 6ca0c5ca4fcddf85201d305500cd800f274e1a84 }
+Partial Revert commits SHA are -> 
+42a4b8366ab3e0bb33ada45d807fedb682152322 - revert - 6ca0c5ca4fcddf85201d305500cd800f274e1a84
+The reverted commit sha is - 42a4b8366ab3e0bb33ada45d807fedb682152322
+Commit message - Add .tmp folder to .gitignore
+The original commit sha is - 6ca0c5ca4fcddf85201d305500cd800f274e1a84
+Commit message - Merge pull request #165 from FriendCode/fix/desktop_build
+
+Fix/desktop build
+The files with partial_reverts are:-
+CHANGES
+addons/cb.files.editor/addon-built.js
+addons/cb.files.editor/views/file.js
+client/resources/stylesheets/ui/lateralbar.less
+client/resources/stylesheets/ui/login.less
+client/resources/stylesheets/variables.less
+client/views/commands/toolbar.js
+core/cb.project.detect/detectors/procfile.sh
+core/cb.run.file/main.js
+core/cb.run.project/project.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ eaf6464224047c81ffeb9d8c8da84d1f3bb6b8c4 -> 3e7c2a79ac28d25179ea0b0806355046b2d083c2 } is a revert
+{ 3e7c2a79ac28d25179ea0b0806355046b2d083c2 -> 0171c093bba7cca961b8f68b9eed53b44c5efc79 }
+Partial Revert commits SHA are -> 
+3e7c2a79ac28d25179ea0b0806355046b2d083c2 - revert - 0171c093bba7cca961b8f68b9eed53b44c5efc79
+The reverted commit sha is - 3e7c2a79ac28d25179ea0b0806355046b2d083c2
+Commit message - Fix operations display in lateral bar
+The original commit sha is - 0171c093bba7cca961b8f68b9eed53b44c5efc79
+Commit message - Add grunt-contrib-copy@0.5.0
+The files with partial_reverts are:-
+CHANGES
+Gruntfile.js
+addons/cb.files.editor/addon-built.js
+addons/cb.files.editor/views/file.js
+client/resources/stylesheets/ui/lateralbar.less
+client/resources/stylesheets/ui/login.less
+client/resources/stylesheets/variables.less
+client/views/commands/toolbar.js
+core/cb.run.file/main.js
+core/cb.run.project/project.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ 7586790f70377495bcab7b4fb851cad70fb0f1d2 -> eaf6464224047c81ffeb9d8c8da84d1f3bb6b8c4 } is a revert
+{ eaf6464224047c81ffeb9d8c8da84d1f3bb6b8c4 -> 3e7c2a79ac28d25179ea0b0806355046b2d083c2 }
+Partial Revert commits SHA are -> 
+eaf6464224047c81ffeb9d8c8da84d1f3bb6b8c4 - revert - 3e7c2a79ac28d25179ea0b0806355046b2d083c2
+The reverted commit sha is - eaf6464224047c81ffeb9d8c8da84d1f3bb6b8c4
+Commit message - Fix node-webkit options indentation
+The original commit sha is - 3e7c2a79ac28d25179ea0b0806355046b2d083c2
+Commit message - Fix operations display in lateral bar
+The files with partial_reverts are:-
+CHANGES
+Gruntfile.js
+addons/cb.files.editor/addon-built.js
+addons/cb.files.editor/views/file.js
+client/resources/stylesheets/ui/login.less
+client/resources/stylesheets/variables.less
+client/views/commands/toolbar.js
+core/cb.run.file/main.js
+core/cb.run.project/project.js
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ 46fdb47806b345cf178047de72ab2dd42db88581 -> 85b3a50a6dd0e1657fae7c7738bc389ea0a23855 } is a revert
+{ 85b3a50a6dd0e1657fae7c7738bc389ea0a23855 -> d0c4d5acea7f23242f32cfaa9e651266db33abeb }
+Partial Revert commits SHA are -> 
+85b3a50a6dd0e1657fae7c7738bc389ea0a23855 - revert - d0c4d5acea7f23242f32cfaa9e651266db33abeb
+The reverted commit sha is - 85b3a50a6dd0e1657fae7c7738bc389ea0a23855
+Commit message - Add base runner for Procfile using shoreman
+The original commit sha is - d0c4d5acea7f23242f32cfaa9e651266db33abeb
+Commit message - Remove log
+The files with partial_reverts are:-
+core/cb.run.project/project.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ bca2d25637764c0a607d5d682e19f9fe7d32d151 -> 6c0391ffdecb3411edaf00a4d21e929de8f26223 } is a revert
+{ a6dc0121596776f28de2f9900cc61c9398320237 -> 98d056807f657f35591fb176cffe66a1936742db }
+Partial Revert commits SHA are -> 
+6c0391ffdecb3411edaf00a4d21e929de8f26223 - revert - 98d056807f657f35591fb176cffe66a1936742db
+The reverted commit sha is - 6c0391ffdecb3411edaf00a4d21e929de8f26223
+Commit message - Update vfs-local to fork with fix for symlinks #124
+The original commit sha is - 98d056807f657f35591fb176cffe66a1936742db
+Commit message - Merge pull request #155 from cmorisse/master
+
+Add parameters to improve Terminal rendering for 'ncurses' applications
+The files with partial_reverts are:-
+addons/cb.terminal/client.js
+addons/cb.terminal/views/tab.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ 09263ccd9511fd1d08eb3f35967b057d27ebe7f3 -> a0b58ae78b0c80a9783031b6a89b3853a20ae7f1 } is a revert
+{ a6dc0121596776f28de2f9900cc61c9398320237 -> 98d056807f657f35591fb176cffe66a1936742db }
+Partial Revert commits SHA are -> 
+a0b58ae78b0c80a9783031b6a89b3853a20ae7f1 - revert - 98d056807f657f35591fb176cffe66a1936742db
+The reverted commit sha is - a0b58ae78b0c80a9783031b6a89b3853a20ae7f1
+Commit message - Merge pull request #154 from FriendCode/dev
+
+New version 0.4.9
+The original commit sha is - 98d056807f657f35591fb176cffe66a1936742db
+Commit message - Merge pull request #155 from cmorisse/master
+
+Add parameters to improve Terminal rendering for 'ncurses' applications
+The files with partial_reverts are:-
+addons/cb.terminal/client.js
+addons/cb.terminal/views/tab.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 46 is -> 
+{ a6c15dd9bd1e4f88beea73950e77e871ece059e1 -> bca2d25637764c0a607d5d682e19f9fe7d32d151 } is a revert
+{ 09263ccd9511fd1d08eb3f35967b057d27ebe7f3 -> a0b58ae78b0c80a9783031b6a89b3853a20ae7f1 }
+Partial Revert commits SHA are -> 
+bca2d25637764c0a607d5d682e19f9fe7d32d151 - revert - a0b58ae78b0c80a9783031b6a89b3853a20ae7f1
+The reverted commit sha is - bca2d25637764c0a607d5d682e19f9fe7d32d151
+Commit message - Add parameters to improve Terminal rendering for 'ncurses' applications
+The original commit sha is - a0b58ae78b0c80a9783031b6a89b3853a20ae7f1
+Commit message - Merge pull request #154 from FriendCode/dev
+
+New version 0.4.9
+The files with partial_reverts are:-
+addons/cb.files.editor/addon-built.js
+addons/cb.files.editor/views/file.js
+addons/cb.terminal/client.js
+addons/cb.terminal/views/tab.js
+client/core/localfs.js
+client/models/file.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 47 is -> 
+{ 6c0391ffdecb3411edaf00a4d21e929de8f26223 -> 09263ccd9511fd1d08eb3f35967b057d27ebe7f3 } is a revert
+{ 09263ccd9511fd1d08eb3f35967b057d27ebe7f3 -> a0b58ae78b0c80a9783031b6a89b3853a20ae7f1 }
+Partial Revert commits SHA are -> 
+09263ccd9511fd1d08eb3f35967b057d27ebe7f3 - revert - a0b58ae78b0c80a9783031b6a89b3853a20ae7f1
+The reverted commit sha is - 09263ccd9511fd1d08eb3f35967b057d27ebe7f3
+Commit message - Add parameters to improve Terminal rendering for 'ncurses' applications...
+The original commit sha is - a0b58ae78b0c80a9783031b6a89b3853a20ae7f1
+Commit message - Merge pull request #154 from FriendCode/dev
+
+New version 0.4.9
+The files with partial_reverts are:-
+addons/cb.files.editor/addon-built.js
+addons/cb.files.editor/views/file.js
+addons/cb.terminal/client.js
+addons/cb.terminal/views/tab.js
+client/core/localfs.js
+client/models/file.js
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ a6c15dd9bd1e4f88beea73950e77e871ece059e1 -> bca2d25637764c0a607d5d682e19f9fe7d32d151 } is a revert
+{ bca2d25637764c0a607d5d682e19f9fe7d32d151 -> 6c0391ffdecb3411edaf00a4d21e929de8f26223 }
+Partial Revert commits SHA are -> 
+bca2d25637764c0a607d5d682e19f9fe7d32d151 - revert - 6c0391ffdecb3411edaf00a4d21e929de8f26223
+The reverted commit sha is - bca2d25637764c0a607d5d682e19f9fe7d32d151
+Commit message - Add parameters to improve Terminal rendering for 'ncurses' applications
+The original commit sha is - 6c0391ffdecb3411edaf00a4d21e929de8f26223
+Commit message - Update vfs-local to fork with fix for symlinks #124
+The files with partial_reverts are:-
+addons/cb.files.editor/addon-built.js
+addons/cb.files.editor/views/file.js
+addons/cb.terminal/client.js
+addons/cb.terminal/views/tab.js
+client/core/localfs.js
+client/models/file.js
+core/cb.project.detect/detectors/d.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ f532bf629a1c7fed12ce43439734028e7058c95b -> 8662c7eeb7791d2cdebcee26bb22ffc22f597ac9 } is a revert
+{ b3cbc47e6b79ed68a83b9c34e8d5c0f007116b22 -> 181287e4f939d4cc64b4d198ed20fb5588ae3897 }
+Partial Revert commits SHA are -> 
+8662c7eeb7791d2cdebcee26bb22ffc22f597ac9 - revert - 181287e4f939d4cc64b4d198ed20fb5588ae3897
+The reverted commit sha is - 8662c7eeb7791d2cdebcee26bb22ffc22f597ac9
+Commit message - Fix #141: Shell script syntax highlighting
+The original commit sha is - 181287e4f939d4cc64b4d198ed20fb5588ae3897
+Commit message - Merge pull request #138 from FriendCode/feature/tab-menu
+
+New version
+The files with partial_reverts are:-
+core/cb.run.file/commands.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ 30d14424a13d5b4cb751bc10168c0b6a9b2c2cb1 -> b6ce9ab1dfa2bfd8344fa15687438e886763f297 } is a revert
+{ f532bf629a1c7fed12ce43439734028e7058c95b -> 8662c7eeb7791d2cdebcee26bb22ffc22f597ac9 }
+Partial Revert commits SHA are -> 
+b6ce9ab1dfa2bfd8344fa15687438e886763f297 - revert - 8662c7eeb7791d2cdebcee26bb22ffc22f597ac9
+The reverted commit sha is - b6ce9ab1dfa2bfd8344fa15687438e886763f297
+Commit message - Remove tree level src/
+The original commit sha is - 8662c7eeb7791d2cdebcee26bb22ffc22f597ac9
+Commit message - Fix #141: Shell script syntax highlighting
+The files with partial_reverts are:-
+addons/cb.files.editor/ace/mode/c9search.js
+addons/cb.files.editor/ace/mode/c9search_highlight_rules.js
+addons/cb.files.editor/ace/snippets/c9search.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 51 is -> 
+{ 30d14424a13d5b4cb751bc10168c0b6a9b2c2cb1 -> b6ce9ab1dfa2bfd8344fa15687438e886763f297 } is a revert
+{ 156ec0923055c58437e7aff0ed07e984e5ddbebf -> 229d1ace6223692f333f75ae7bf0bdb3480a2fd7 }
+Partial Revert commits SHA are -> 
+b6ce9ab1dfa2bfd8344fa15687438e886763f297 - revert - 229d1ace6223692f333f75ae7bf0bdb3480a2fd7
+The reverted commit sha is - b6ce9ab1dfa2bfd8344fa15687438e886763f297
+Commit message - Remove tree level src/
+The original commit sha is - 229d1ace6223692f333f75ae7bf0bdb3480a2fd7
+Commit message - Remove ace mode c9search
+The files with partial_reverts are:-
+addons/cb.files.editor/ace/mode/c9search.js
+addons/cb.files.editor/ace/mode/c9search_highlight_rules.js
+addons/cb.files.editor/ace/snippets/c9search.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 52 is -> 
+{ 83912efe8e9cadbda276b1ee020400bccd6c7ede -> 6dc80b34dc491f0f199e14de0755bbbda5ce696c } is a revert
+{ cfb49a549281d90c1bf13fcbde44d8ecb7422dec -> b77e0f224fcca2542fa6e990e9c4fdef7befab83 }
+Partial Revert commits SHA are -> 
+6dc80b34dc491f0f199e14de0755bbbda5ce696c - revert - b77e0f224fcca2542fa6e990e9c4fdef7befab83
+The reverted commit sha is - 6dc80b34dc491f0f199e14de0755bbbda5ce696c
+Commit message - Update CONTRIBUTING.md
+
+Unless I'm wrong it is 4 spaces.
+The original commit sha is - b77e0f224fcca2542fa6e990e9c4fdef7befab83
+Commit message - Merge pull request #136 from geejs/editorconfig
+
+add editorconfig
+The files with partial_reverts are:-
+.editorconfig
+-----------------------------------------------------------------
+
+Partial Revert diff pair 53 is -> 
+{ cabd9477f580e55a738a58e54713f1f2676a8b1d -> bd45611b9198fe1238dc4967d995799868b3527f } is a revert
+{ d0df6737b497f9bea8aeccfc3297b642932f2058 -> 1fe39ff20c2bd8c466d436d758c01048e86e95e5 }
+Partial Revert commits SHA are -> 
+bd45611b9198fe1238dc4967d995799868b3527f - revert - 1fe39ff20c2bd8c466d436d758c01048e86e95e5
+The reverted commit sha is - bd45611b9198fe1238dc4967d995799868b3527f
+Commit message - Improve commands design
+The original commit sha is - 1fe39ff20c2bd8c466d436d758c01048e86e95e5
+Commit message - Merge pull request #129 from jancborchardt/fix-connection-typo
+
+fix typo: connexion -> connection
+The files with partial_reverts are:-
+addons/cb.offline/addon-built.js
+addons/cb.offline/menus.js
+client/core/backends/vfs.js
+client/core/session.js
+client/models/box.js
+client/resources/templates/main.html
+client/utils/filesync.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 54 is -> 
+{ f617a17a4bb5f6166bef5649a06663f47d4d7cf3 -> 2e1edf8a3d2dd4bfa8e405d95a6588f0a0adce4a } is a revert
+{ 36f04327f81f88c32c398d2bbb22e236c5be2e3b -> 56f7db2f8b1940c41fbd5daa5fad26e500a6fa03 }
+Partial Revert commits SHA are -> 
+2e1edf8a3d2dd4bfa8e405d95a6588f0a0adce4a - revert - 56f7db2f8b1940c41fbd5daa5fad26e500a6fa03
+The reverted commit sha is - 2e1edf8a3d2dd4bfa8e405d95a6588f0a0adce4a
+Commit message - Add handler for keys | and \ in terminals on mac
+The original commit sha is - 56f7db2f8b1940c41fbd5daa5fad26e500a6fa03
+Commit message - Enable syntax highlighting for D files (#119)
+The files with partial_reverts are:-
+client/utils/languages.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 55 is -> 
+{ dfdb3eeb2f289558549f7b0ab300faf23797c077 -> 46d53bbe5346c7d5b6282b1898ac003b9b04650b } is a revert
+{ aa79e232f926568b0a29f2a5b21c1e4fe01322ef -> be3d658e8c86a133ea807445ade3436a0798f1b0 }
+Partial Revert commits SHA are -> 
+46d53bbe5346c7d5b6282b1898ac003b9b04650b - revert - be3d658e8c86a133ea807445ade3436a0798f1b0
+The reverted commit sha is - 46d53bbe5346c7d5b6282b1898ac003b9b04650b
+Commit message - Improve offline menu and settings
+The original commit sha is - be3d658e8c86a133ea807445ade3436a0798f1b0
+Commit message - Merge pull request #112 from FriendCode/feature/offline_settings
+
+Feature/offline_settings
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 56 is -> 
+{ d27a3690f0dff60f36e798596ecce2fc67fbfb8d -> 0c12357527631ac02e0e4b01d96b9aa41293af4e } is a revert
+{ 0c12357527631ac02e0e4b01d96b9aa41293af4e -> 8071d06b4b129bc00069bfcfc76057495968b226 }
+Partial Revert commits SHA are -> 
+0c12357527631ac02e0e4b01d96b9aa41293af4e - revert - 8071d06b4b129bc00069bfcfc76057495968b226
+The reverted commit sha is - 0c12357527631ac02e0e4b01d96b9aa41293af4e
+Commit message - Revert fa94b5b..d27a369
+
+This rolls back to commit fa94b5bdee29cd8e4d8a85bb170e399b4ed7ecf7.
+The original commit sha is - 8071d06b4b129bc00069bfcfc76057495968b226
+Commit message - Update gittle.js and fix Addon construction
+The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 57 is -> 
+{ f617a17a4bb5f6166bef5649a06663f47d4d7cf3 -> 2e1edf8a3d2dd4bfa8e405d95a6588f0a0adce4a } is a revert
+{ c8a7bc0a6d1a1a66e4cc3ff40006ec130776b36c -> 6ba23bc437003f997ef04a224046f3a2f30c849e }
+Partial Revert commits SHA are -> 
+2e1edf8a3d2dd4bfa8e405d95a6588f0a0adce4a - revert - 6ba23bc437003f997ef04a224046f3a2f30c849e
+The reverted commit sha is - 2e1edf8a3d2dd4bfa8e405d95a6588f0a0adce4a
+Commit message - Add handler for keys | and \ in terminals on mac
+The original commit sha is - 6ba23bc437003f997ef04a224046f3a2f30c849e
+Commit message - Merge pull request #94 from FriendCode/feature/terminal-pastekeys
+
+Mac: paste with Cmd+V and special keys
+The files with partial_reverts are:-
+client/utils/languages.js
+core/cb.run.file/commands.json
+core/cb.run.file/main.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 58 is -> 
+{ f987553776bc36206b12103fc9a17664f8c735ab -> 0e14bd026a1276b16ff39fefccfb5f0d40c0ff68 } is a revert
+{ 0e14bd026a1276b16ff39fefccfb5f0d40c0ff68 -> 441f810db160281c38f0a0b5d94d350ff0fbb404 }
+Partial Revert commits SHA are -> 
+0e14bd026a1276b16ff39fefccfb5f0d40c0ff68 - revert - 441f810db160281c38f0a0b5d94d350ff0fbb404
+The reverted commit sha is - 0e14bd026a1276b16ff39fefccfb5f0d40c0ff68
+Commit message - Mixin current env variables when running a project
+The original commit sha is - 441f810db160281c38f0a0b5d94d350ff0fbb404
+Commit message - Merge branch 'master' of github.com:FriendCode/codebox
+The files with partial_reverts are:-
+src/addons/cb.panel.files/addon-built.js
+src/addons/cb.panel.files/stylesheets/files.less
+src/addons/cb.panel.files/views/tree.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 59 is -> 
+{ 0e58604a36269e3fa19de3c52cc7442484a46af4 -> 1b8291ff74871eec70ec63706425779c0047b3c8 } is a revert
+{ e202003a99563599d925824c3077676325959917 -> 7fc0a93e49139369bfaaa70eb1b7e9ea35be2644 }
+Partial Revert commits SHA are -> 
+1b8291ff74871eec70ec63706425779c0047b3c8 - revert - 7fc0a93e49139369bfaaa70eb1b7e9ea35be2644
+The reverted commit sha is - 1b8291ff74871eec70ec63706425779c0047b3c8
+Commit message - Switch to hr.js 0.4.0 and grunt
+The original commit sha is - 7fc0a93e49139369bfaaa70eb1b7e9ea35be2644
+Commit message - Merge pull request #69 from FriendCode/offline
+
+Offline Mode
+The files with partial_reverts are:-
+src/core/cb.files.sync/models/user.js
+stacks/base/Dockerfile
+-----------------------------------------------------------------
+
+Partial Revert diff pair 60 is -> 
+{ d0448807b9b65a4121ccd7dfa85b6bf2eebb2524 -> 2dad4c34f73182b9475cd88ff60235ca3d5f7219 } is a revert
+{ e4dd9e14e95b27b55b8de81cd2c1db983e965b28 -> 9e00f265930569e003290d291cb9bcadc900c6d3 }
+Partial Revert commits SHA are -> 
+2dad4c34f73182b9475cd88ff60235ca3d5f7219 - revert - 9e00f265930569e003290d291cb9bcadc900c6d3
+The reverted commit sha is - 2dad4c34f73182b9475cd88ff60235ca3d5f7219
+Commit message - Refactor structure
+The original commit sha is - 9e00f265930569e003290d291cb9bcadc900c6d3
+Commit message - Remove src/client/build directory from git
+The files with partial_reverts are:-
+src/client/build/index.html
+src/client/build/static/fonts/fontawesome/fontawesome-webfont.svg
+src/client/build/static/fonts/helvetica/normal.svg
+src/client/build/static/fonts/helvetica/ultralight.svg
+src/client/build/static/require-tools/css/.gitignore
+src/client/build/static/require-tools/css/LICENSE
+src/client/build/static/require-tools/css/README.md
+src/client/build/static/require-tools/css/bower.json
+src/client/build/static/require-tools/css/css-builder.js
+src/client/build/static/require-tools/css/css.js
+src/client/build/static/require-tools/css/example/build.js
+src/client/build/static/require-tools/css/example/setup.sh
+src/client/build/static/require-tools/css/example/test.html
+src/client/build/static/require-tools/css/example/www/app.js
+src/client/build/static/require-tools/css/example/www/components/component.css
+src/client/build/static/require-tools/css/example/www/components/component.js
+src/client/build/static/require-tools/css/example/www/components/test.css
+src/client/build/static/require-tools/css/example/www/jquery.js
+src/client/build/static/require-tools/css/example/www/popup.css
+src/client/build/static/require-tools/css/example/www/popup.js
+src/client/build/static/require-tools/css/example/www/require-css
+src/client/build/static/require-tools/css/example/www/style/style.css
+src/client/build/static/require-tools/css/example/www/test.css
+src/client/build/static/require-tools/css/example/www/test.html
+src/client/build/static/require-tools/css/example/www/text.js
+src/client/build/static/require-tools/css/normalize.js
+src/client/build/static/require-tools/css/package.json
+src/client/build/static/require-tools/css/test/test.js
+src/client/build/static/require-tools/less/.gitignore
+src/client/build/static/require-tools/less/LICENSE
+src/client/build/static/require-tools/less/README.md
+src/client/build/static/require-tools/less/bower.json
+src/client/build/static/require-tools/less/example/build.js
+src/client/build/static/require-tools/less/example/setup.sh
+src/client/build/static/require-tools/less/example/test.html
+src/client/build/static/require-tools/less/example/www/app.js
+src/client/build/static/require-tools/less/example/www/components/component.js
+src/client/build/static/require-tools/less/example/www/components/component.less
+src/client/build/static/require-tools/less/example/www/less-style/style.less
+src/client/build/static/require-tools/less/example/www/less-style/test.css
+src/client/build/static/require-tools/less/example/www/require-css
+src/client/build/static/require-tools/less/example/www/require-less
+src/client/build/static/require-tools/less/example/www/test.html
+src/client/build/static/require-tools/less/example/www/text.js
+src/client/build/static/require-tools/less/less-builder.js
+src/client/build/static/require-tools/less/less.js
+src/client/build/static/require-tools/less/lessc.js
+src/client/build/static/require-tools/less/normalize.js
+src/client/build/static/require-tools/less/package.json
+src/client/build/static/templates/command.html
+src/client/build/static/templates/dialogs/alert.html
+src/client/build/static/templates/dialogs/confirm.html
+src/client/build/static/templates/dialogs/prompt.html
+src/client/build/static/templates/dialogs/select.html
+src/client/build/static/templates/files/tree/item.html
+src/client/build/static/templates/settings/base.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 61 is -> 
+{ 42ecb9ea28d2648767897b37ebc8c308ea74134d -> 2dcc6fafcd084a7e42a2a1a3d33664a0bdffd31e } is a revert
+{ 44a8bf4410252ca507bf5a75e64be7bf86be8fd9 -> cdea8a56901e2bd940bc1359e425ed54fedcbefb }
+Partial Revert commits SHA are -> 
+2dcc6fafcd084a7e42a2a1a3d33664a0bdffd31e - revert - cdea8a56901e2bd940bc1359e425ed54fedcbefb
+The reverted commit sha is - 2dcc6fafcd084a7e42a2a1a3d33664a0bdffd31e
+Commit message - Base refactoring for new files management (instable!)
+The original commit sha is - cdea8a56901e2bd940bc1359e425ed54fedcbefb
+Commit message - Correct error with code editor settings
+The files with partial_reverts are:-
+addons/aceeditor/views/editor.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 62 is -> 
+{ 3fccefdb89d022ee3ed69ce9b15051c61cee57e3 -> 4e649e23d82bec18cba5e132294546bd2e4427fb } is a revert
+{ e75efa93b957e4ce2d5df1301336c6fed0f6a7a4 -> 72cf93dbbbc96f11b935461e0dcd4e9f86c17a41 }
+Partial Revert commits SHA are -> 
+4e649e23d82bec18cba5e132294546bd2e4427fb - revert - 72cf93dbbbc96f11b935461e0dcd4e9f86c17a41
+The reverted commit sha is - 4e649e23d82bec18cba5e132294546bd2e4427fb
+Commit message - Add first version of core addon "help"
+The original commit sha is - 72cf93dbbbc96f11b935461e0dcd4e9f86c17a41
+Commit message - Remove dependencies to child-process-promise
+
+Change status page url
+The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 63 is -> 
+{ 3f69a9b288780e67dee2f6deda66d6515e2afecc -> b1cc0d56a9805c39724374d3e2e2eaeca863a32f } is a revert
+{ b1cc0d56a9805c39724374d3e2e2eaeca863a32f -> 1dc2239082b712d00b42e2ab5e4007dd960c3d74 }
+Partial Revert commits SHA are -> 
+b1cc0d56a9805c39724374d3e2e2eaeca863a32f - revert - 1dc2239082b712d00b42e2ab5e4007dd960c3d74
+The reverted commit sha is - b1cc0d56a9805c39724374d3e2e2eaeca863a32f
+Commit message - Reove gitmodules and add new addons
+The original commit sha is - 1dc2239082b712d00b42e2ab5e4007dd960c3d74
+Commit message - Remove addon chat rom core and remove readme
+The files with partial_reverts are:-
+addons/chat/.gitignore
+addons/chat/README.md
+addons/chat/client.js
+addons/chat/collections/messages.js
+addons/chat/models/message.js
+addons/chat/node/main.js
+addons/chat/node/service.js
+addons/chat/package.json
+addons/chat/stylesheets/box.less
+addons/chat/stylesheets/messages.less
+addons/chat/templates/box.html
+addons/chat/templates/message.html
+addons/chat/views/box.js
+addons/chat/views/chat.js
+addons/chat/views/messages.js
+addons/editor/README.md
+addons/manager/README.md
+addons/monitor/README.md
+addons/settings/README.md
+addons/terminal/README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 64 is -> 
+{ 32e24d46235290c9a654d431db1cd3ea4dd24a2b -> 22e9d65ad095a269d4e0a8eff7589e2113b000af } is a revert
+{ 22e9d65ad095a269d4e0a8eff7589e2113b000af -> 66088dd890ea9cf1427762ae67772ea9c77d4cdc }
+Partial Revert commits SHA are -> 
+22e9d65ad095a269d4e0a8eff7589e2113b000af - revert - 66088dd890ea9cf1427762ae67772ea9c77d4cdc
+The reverted commit sha is - 22e9d65ad095a269d4e0a8eff7589e2113b000af
+Commit message - Refactor addons managing
+The original commit sha is - 66088dd890ea9cf1427762ae67772ea9c77d4cdc
+Commit message - Revert 005f75c..22e9d65
+
+This rolls back to commit 005f75cd16ff3a6f08d60f208b79e5649afff967.
+The files with partial_reverts are:-
+lib/cb.addons/main.js
+lib/cb.main/package.json
+lib/codebox.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 65 is -> 
+{ 1b14c83c392c68f75502013f474db951e31b5997 -> 408e6403d29e685e78be64b7f58247925533a5dd } is a revert
+{ 184ee28ab1919b4def146a8c0d84faa0083b2803 -> a28627243733aaaeedd50f07e8edf0fa16623282 }
+Partial Revert commits SHA are -> 
+408e6403d29e685e78be64b7f58247925533a5dd - revert - a28627243733aaaeedd50f07e8edf0fa16623282
+The reverted commit sha is - 408e6403d29e685e78be64b7f58247925533a5dd
+Commit message - Add new dialogs and prepare files tabs
+The original commit sha is - a28627243733aaaeedd50f07e8edf0fa16623282
+Commit message - Add old Dockerfile & init.sh
+The files with partial_reverts are:-
+Dockerfile
+init.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 66 is -> 
+{ ec369b31a836dced6e4b905c2e15163e8908aa7a -> ed6ae7bb5ebb41a6d366dae9ab136175d2f72a28 } is a revert
+{ 0c05b97565ffb738cec0cc78af151e0b1dd2c42b -> ede2b3b15fe0296fad694145491255f2911c0e67 }
+Partial Revert commits SHA are -> 
+ed6ae7bb5ebb41a6d366dae9ab136175d2f72a28 - revert - ede2b3b15fe0296fad694145491255f2911c0e67
+The reverted commit sha is - ed6ae7bb5ebb41a6d366dae9ab136175d2f72a28
+Commit message - Add base layout, codefire integration and base service for addons
+The original commit sha is - ede2b3b15fe0296fad694145491255f2911c0e67
+Commit message - Update hr version
+The files with partial_reverts are:-
+lib/cb.server/main.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 67 is -> 
+{ df526fe0b3d1a63012bdc7113e4d9de0d87889fc -> 2da1d79661fb4e2bc2e567ee3300b446b63319b8 } is a revert
+{ 2da1d79661fb4e2bc2e567ee3300b446b63319b8 -> 737611d25d37f10eddbea99a7d395ec1947948bf }
+Partial Revert commits SHA are -> 
+2da1d79661fb4e2bc2e567ee3300b446b63319b8 - revert - 737611d25d37f10eddbea99a7d395ec1947948bf
+The reverted commit sha is - 2da1d79661fb4e2bc2e567ee3300b446b63319b8
+Commit message - Add init.sh
+The original commit sha is - 737611d25d37f10eddbea99a7d395ec1947948bf
+Commit message - Merge branch 'master' of github.com:FriendCode/codebox
+The files with partial_reverts are:-
+Dockerfile
+bin/codebox.js
+lib/cb.core/main.js
+-----------------------------------------------------------------
+

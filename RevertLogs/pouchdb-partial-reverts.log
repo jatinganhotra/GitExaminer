@@ -1,0 +1,3595 @@
+# of partial reverts = 199
+Partial Revert diff pair 1 is -> 
+{ ca394dcb74e647c2614c3d0e2a0b1d5e24e215da -> dac2c56e407cb27cc4e7c5f79cde5671f4b6f35b } is a revert
+{ 30d875a8d77b06ef640b10f5c15082dd2400576f -> f96277c5fa4762d8f917c128f4d63b5fda954d08 }
+Partial Revert commits SHA are -> 
+dac2c56e407cb27cc4e7c5f79cde5671f4b6f35b - revert - f96277c5fa4762d8f917c128f4d63b5fda954d08
+The reverted commit sha is - dac2c56e407cb27cc4e7c5f79cde5671f4b6f35b
+Commit message - (#113) - Initial infrastructure for performance testing
+The original commit sha is - f96277c5fa4762d8f917c128f4d63b5fda954d08
+Commit message - (#2606) - make sure dist files are in npm
+The files with partial_reverts are:-
+dist/.gitignore
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ e3811793d26e678eb04d8b811c719633ac21a4f1 -> cb10037e6f0a21ac6154ded5627d22a8ba68c93b } is a revert
+{ 137fdb4475bbc784223a7444520fa26ecc052091 -> a52f2f4a770fbc35deb406d5897cc8f7c9f9407e }
+Partial Revert commits SHA are -> 
+cb10037e6f0a21ac6154ded5627d22a8ba68c93b - revert - a52f2f4a770fbc35deb406d5897cc8f7c9f9407e
+The reverted commit sha is - cb10037e6f0a21ac6154ded5627d22a8ba68c93b
+Commit message - (#1883) & (#1842) - split ajax up into 2 parts, also figured out how to do the version thing
+The original commit sha is - a52f2f4a770fbc35deb406d5897cc8f7c9f9407e
+Commit message - (#1830) - fix browserifiablity
+The files with partial_reverts are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ fbf42ba77eeefcbadc224b743330bed2e0ad4194 -> 9d9547e52feb1c876e4336d53a3b068af15a68ed } is a revert
+{ 9d9547e52feb1c876e4336d53a3b068af15a68ed -> e405d796633315b56d33b58deaf3f1b3ce01a35d }
+Partial Revert commits SHA are -> 
+9d9547e52feb1c876e4336d53a3b068af15a68ed - revert - e405d796633315b56d33b58deaf3f1b3ce01a35d
+The reverted commit sha is - 9d9547e52feb1c876e4336d53a3b068af15a68ed
+Commit message - (#2050) - Enable iphone testing in saucelabs
+The original commit sha is - e405d796633315b56d33b58deaf3f1b3ce01a35d
+Commit message - (#2050) - Follow up to remove decode uri
+The files with partial_reverts are:-
+tests/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 5d668f2a3d8792398747c66ae56a69a3af9bd81a -> fd2a695f4d5ca98dcc8d4f66a2eeabcd437939a6 } is a revert
+{ 720147d71cdc2f1f2e17f7abb7cbe2041b479692 -> 42b53055915c19938c6538ad3f46883458f20e4b }
+Partial Revert commits SHA are -> 
+fd2a695f4d5ca98dcc8d4f66a2eeabcd437939a6 - revert - 42b53055915c19938c6538ad3f46883458f20e4b
+The reverted commit sha is - fd2a695f4d5ca98dcc8d4f66a2eeabcd437939a6
+Commit message - (#1826) - fix level alt going forward
+The original commit sha is - 42b53055915c19938c6538ad3f46883458f20e4b
+Commit message - (#1853) - make perf tests more accurate for skip/limit
+
+This was accidentally reverted by
+fd2a695f4d5ca98dcc8d4f66a2eeabcd437939a6.
+The files with partial_reverts are:-
+tests/performance/perf.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ 203f20457be6d070e5888ba119cc32f5afa35337 -> 518228142b6e8611e8ee1774d1f6225150cab280 } is a revert
+{ 0d0105c9ae893a87ede45d19a02fa49d048e88dc -> e98b0942757d64208fd9505caa574b726773630e }
+Partial Revert commits SHA are -> 
+518228142b6e8611e8ee1774d1f6225150cab280 - revert - e98b0942757d64208fd9505caa574b726773630e
+The reverted commit sha is - 518228142b6e8611e8ee1774d1f6225150cab280
+Commit message - (#1221) - Add ES5 shims for common functions
+
+This adds the minimal shims I found were necessary
+to allow basic Pouch functionality on older
+browsers that we could still be reasonably expected
+to support (i.e. because they at least have WebSQL).
+
+The oldest browser tested was an HTC Magic running
+Android 2.1 WebView.
+The original commit sha is - e98b0942757d64208fd9505caa574b726773630e
+Commit message - (#1753) - remove es5 shims
+The files with partial_reverts are:-
+lib/index.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ b894de12bbca20e9c6ff6380c657e67eb64ef935 -> 430cbe1d0ee52e0902ea818ac72fa0380eadf26f } is a revert
+{ 7f6cda25508f32b90ee5c9650c283423341add5b -> 0f168a18e0a61bde85dc799576c893b13ffdccf1 }
+Partial Revert commits SHA are -> 
+430cbe1d0ee52e0902ea818ac72fa0380eadf26f - revert - 0f168a18e0a61bde85dc799576c893b13ffdccf1
+The reverted commit sha is - 430cbe1d0ee52e0902ea818ac72fa0380eadf26f
+Commit message - (#1539) - add blog to site
+The original commit sha is - 0f168a18e0a61bde85dc799576c893b13ffdccf1
+Commit message - (#1760) - Remove social buttons for now
+The files with partial_reverts are:-
+docs/_includes/social.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ 28bd8e9fb9b96135ecb9235c08c6a3a46223bf7e -> 5dc0bbec8809934cb793228e08740673638fa9cf } is a revert
+{ fb7acf6b9fbd5d061dff973dbe4a3060b3e2e530 -> be80260784bd50a96ffa0967e0ed5fe0ce84cb8c }
+Partial Revert commits SHA are -> 
+5dc0bbec8809934cb793228e08740673638fa9cf - revert - be80260784bd50a96ffa0967e0ed5fe0ce84cb8c
+The reverted commit sha is - 5dc0bbec8809934cb793228e08740673638fa9cf
+Commit message - (#1516) - if no uuid for server, just use host
+The original commit sha is - be80260784bd50a96ffa0967e0ed5fe0ce84cb8c
+Commit message - Merge pull request #1584 from daleharvey/1404
+
+(#1404) - Report errors writing checkpoints during replication
+The files with partial_reverts are:-
+lib/replicate.js
+tests/test.replication.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ e8d8c62d70a8e4bbd22f4fc55eebe6f72bc74335 -> 1e2601fbfefa0b2ebe8dba431983e1bcfb8aa702 } is a revert
+{ 923b2f3ca0503aa54544f4b02107e7b95200fba2 -> ed5344aa4542ffa8ed6674d9e11a616b834ce523 }
+Partial Revert commits SHA are -> 
+1e2601fbfefa0b2ebe8dba431983e1bcfb8aa702 - revert - ed5344aa4542ffa8ed6674d9e11a616b834ce523
+The reverted commit sha is - 1e2601fbfefa0b2ebe8dba431983e1bcfb8aa702
+Commit message - (#1115) - Add event emitter for DB change events
+The original commit sha is - ed5344aa4542ffa8ed6674d9e11a616b834ce523
+Commit message - (#1572) - Remove emit on destroy for WebSQL
+
+The "destroy a pouch" test is currently
+broken for WebSQL, because of this line
+added in 1e2601fbfefa0b2ebe8dba431983e1bcfb8aa702.
+The files with partial_reverts are:-
+lib/adapters/websql.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ bee0eb8015f38a684c063d16180533a72287ca56 -> d9c3cf942cd301d97861bf297656e06a445a1504 } is a revert
+{ 4ff78ddccd2f2ed111b4c7e164da53a4e6ea056e -> 884dd4c2f8d4a8aee0a3f54dc4a0b6df49430e1e }
+Partial Revert commits SHA are -> 
+d9c3cf942cd301d97861bf297656e06a445a1504 - revert - 884dd4c2f8d4a8aee0a3f54dc4a0b6df49430e1e
+The reverted commit sha is - d9c3cf942cd301d97861bf297656e06a445a1504
+Commit message - Revert "(#1449) - move uuid files into folders (backwards compatibly) also smooth out creation process to make it async and adds db.destroy"
+
+This reverts commit bee0eb8015f38a684c063d16180533a72287ca56.
+The original commit sha is - 884dd4c2f8d4a8aee0a3f54dc4a0b6df49430e1e
+Commit message - (#1464) - async leveldb creation (and db.destroy)
+The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ a4b785d9f36ddbc1f8acf262e6428696ae3e7766 -> 49d6f627ac161344d83cf405df53b0c63feb16d9 } is a revert
+{ 49d6f627ac161344d83cf405df53b0c63feb16d9 -> 8c30516b2c23c58409f5003c4b4ac73d6cc1d8be }
+Partial Revert commits SHA are -> 
+49d6f627ac161344d83cf405df53b0c63feb16d9 - revert - 8c30516b2c23c58409f5003c4b4ac73d6cc1d8be
+The reverted commit sha is - 49d6f627ac161344d83cf405df53b0c63feb16d9
+Commit message - Update CONTRIBUTING.md
+
+Remove unnecessary `
+The original commit sha is - 8c30516b2c23c58409f5003c4b4ac73d6cc1d8be
+Commit message - Merge pull request #904 from commandoline/documentation-typos
+
+Fixed two documentation links.
+The files with partial_reverts are:-
+docs/_layouts/learn.html
+docs/api.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 8d600feb8f7cde6feb78d6aebf158d8ea48d4ffc -> 5a46fc5b16d687e54848993f0fb9e2cbb2e83070 } is a revert
+{ ce6cc771008efc4bd4c9d40e26a02722f6024069 -> 46fb6b9eb5e2b9a486de7352577b6f045cd63fdd }
+Partial Revert commits SHA are -> 
+5a46fc5b16d687e54848993f0fb9e2cbb2e83070 - revert - 46fb6b9eb5e2b9a486de7352577b6f045cd63fdd
+The reverted commit sha is - 5a46fc5b16d687e54848993f0fb9e2cbb2e83070
+Commit message - (#782) - Add comment header to release artifacts
+The original commit sha is - 46fb6b9eb5e2b9a486de7352577b6f045cd63fdd
+Commit message - (#864) - Revert package name change, required lower case
+The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ ac73db83247dabcbbbdd3a1a45d68c948d61ee9c -> c95ecd8fc6a6301d9bce88d5618b8de4e5473ce1 } is a revert
+{ 50b86cb3f53e509780880cf82337a3b633e54b82 -> 583f6c6bf92e80aa11f5f8cfe30d8ae0f1a83f97 }
+Partial Revert commits SHA are -> 
+c95ecd8fc6a6301d9bce88d5618b8de4e5473ce1 - revert - 583f6c6bf92e80aa11f5f8cfe30d8ae0f1a83f97
+The reverted commit sha is - c95ecd8fc6a6301d9bce88d5618b8de4e5473ce1
+Commit message - (#663) - Support for doc_ids in replication
+The original commit sha is - 583f6c6bf92e80aa11f5f8cfe30d8ae0f1a83f97
+Commit message - Merge pull request #670 from howonlee/master
+
+(#589) fix phonegap/cordova adapter api not filling bug
+The files with partial_reverts are:-
+src/adapters/pouch.websql.js
+src/pouch.adapter.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ 861bd19c4c888ad1490310b85bafc886fa2487ba -> 8a13a7a5c4486ca8b7781ad7e470c7c6204169ba } is a revert
+{ 163e954576bef439012e2342a46ca49b03c4f7c7 -> 5e53db2c114e3e5e5624c0cfdc9093258a5920af }
+Partial Revert commits SHA are -> 
+8a13a7a5c4486ca8b7781ad7e470c7c6204169ba - revert - 5e53db2c114e3e5e5624c0cfdc9093258a5920af
+The reverted commit sha is - 8a13a7a5c4486ca8b7781ad7e470c7c6204169ba
+Commit message - Initial query_params functionality
+The original commit sha is - 5e53db2c114e3e5e5624c0cfdc9093258a5920af
+Commit message - Merge pull request #651 from benrudolph/query-params
+
+query_params functionality (#525)
+The files with partial_reverts are:-
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.basics.js
+tests/test.bulk_docs.js
+tests/test.conflicts.js
+tests/test.design_docs.js
+tests/test.gql.js
+tests/test.revs_diff.js
+tests/test.spatial.js
+tests/test.taskqueue.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ 861bd19c4c888ad1490310b85bafc886fa2487ba -> 8a13a7a5c4486ca8b7781ad7e470c7c6204169ba } is a revert
+{ 8a13a7a5c4486ca8b7781ad7e470c7c6204169ba -> 163e954576bef439012e2342a46ca49b03c4f7c7 }
+Partial Revert commits SHA are -> 
+8a13a7a5c4486ca8b7781ad7e470c7c6204169ba - revert - 163e954576bef439012e2342a46ca49b03c4f7c7
+The reverted commit sha is - 8a13a7a5c4486ca8b7781ad7e470c7c6204169ba
+Commit message - Initial query_params functionality
+The original commit sha is - 163e954576bef439012e2342a46ca49b03c4f7c7
+Commit message - Resolved chagnes
+The files with partial_reverts are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+package.json
+src/adapters/pouch.leveldb.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.adapter.js
+src/pouch.js
+src/pouch.merge.js
+src/pouch.replicate.js
+tests/test.all_dbs.js
+tests/test.merge_rev_tree.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 62887f91b824af30e2614b29c298750e88e834c2 -> 4176689b10c5c20ca299ddf71d5c27726b2f1856 } is a revert
+{ 610c615567de6751bc1ec01b42dedf49c6c18aba -> 282d433c75f3652706f3465924903e8effd6ee7a }
+Partial Revert commits SHA are -> 
+4176689b10c5c20ca299ddf71d5c27726b2f1856 - revert - 282d433c75f3652706f3465924903e8effd6ee7a
+The reverted commit sha is - 4176689b10c5c20ca299ddf71d5c27726b2f1856
+Commit message - Revert "Merge pull request #593 from neojski/583-call-compact-callback-when-done"
+
+This reverts commit 62887f91b824af30e2614b29c298750e88e834c2, reversing
+changes made to 9113aca3feefa843cbc91626b5d81f4f14d32e3d.
+The original commit sha is - 282d433c75f3652706f3465924903e8effd6ee7a
+Commit message - (#583) - add compaction documentation
+The files with partial_reverts are:-
+docs/api.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ 62887f91b824af30e2614b29c298750e88e834c2 -> 4176689b10c5c20ca299ddf71d5c27726b2f1856 } is a revert
+{ ae054071b1141ac362df9142ab2122c8c761feda -> bda36e32a25e5efd80f808e3ad7dc5a346b174ca }
+Partial Revert commits SHA are -> 
+4176689b10c5c20ca299ddf71d5c27726b2f1856 - revert - bda36e32a25e5efd80f808e3ad7dc5a346b174ca
+The reverted commit sha is - 4176689b10c5c20ca299ddf71d5c27726b2f1856
+Commit message - Revert "Merge pull request #593 from neojski/583-call-compact-callback-when-done"
+
+This reverts commit 62887f91b824af30e2614b29c298750e88e834c2, reversing
+changes made to 9113aca3feefa843cbc91626b5d81f4f14d32e3d.
+The original commit sha is - bda36e32a25e5efd80f808e3ad7dc5a346b174ca
+Commit message - (#583) - compact callback after compaction's done
+
+Now http adapter behaves like others. The code manually pings
+database to check if it's done compaction.
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ 85ee64a644461f7c20c773105a5fd696ece13b92 -> 58f2c08a5af7d178f1d426a66d3a1a463dd7b2db } is a revert
+{ 58f2c08a5af7d178f1d426a66d3a1a463dd7b2db -> 5279121a58b161718a212cce8f18c416bf8e5647 }
+Partial Revert commits SHA are -> 
+58f2c08a5af7d178f1d426a66d3a1a463dd7b2db - revert - 5279121a58b161718a212cce8f18c416bf8e5647
+The reverted commit sha is - 58f2c08a5af7d178f1d426a66d3a1a463dd7b2db
+Commit message - Merge pull request #605 from neojski/603-open_revs-with-revs
+
+(#603) - fix + test
+The original commit sha is - 5279121a58b161718a212cce8f18c416bf8e5647
+Commit message - Merge pull request #607 from daleharvey/fix-gql-tests
+
+(#606) - Ensure tests start() is called after completion
+The files with partial_reverts are:-
+tests/test.gql.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ 2100f442e0a9c2c53d6a700967cc4bf9080d0a85 -> 85ee64a644461f7c20c773105a5fd696ece13b92 } is a revert
+{ 85ee64a644461f7c20c773105a5fd696ece13b92 -> 58f2c08a5af7d178f1d426a66d3a1a463dd7b2db }
+Partial Revert commits SHA are -> 
+85ee64a644461f7c20c773105a5fd696ece13b92 - revert - 58f2c08a5af7d178f1d426a66d3a1a463dd7b2db
+The reverted commit sha is - 85ee64a644461f7c20c773105a5fd696ece13b92
+Commit message - (#606) - Ensure tests start() is called after completion
+The original commit sha is - 58f2c08a5af7d178f1d426a66d3a1a463dd7b2db
+Commit message - Merge pull request #605 from neojski/603-open_revs-with-revs
+
+(#603) - fix + test
+The files with partial_reverts are:-
+tests/test.get.js
+tests/test.gql.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 8b81cbd38bc3228ba13c26d7a8c5cda17115b7b4 -> e4f5209584aa42d67e464bdc1d1519511f82c332 } is a revert
+{ 0bb6d1915411a00eaa98168dd888e42f582f76d0 -> 7ce05227af46347925a6f15a5732e856fed67be6 }
+Partial Revert commits SHA are -> 
+e4f5209584aa42d67e464bdc1d1519511f82c332 - revert - 7ce05227af46347925a6f15a5732e856fed67be6
+The reverted commit sha is - e4f5209584aa42d67e464bdc1d1519511f82c332
+Commit message - Registered 'browser' task for browser tests
+The original commit sha is - 7ce05227af46347925a6f15a5732e856fed67be6
+Commit message - Merge pull request #602 from daleharvey/570-allDbs-protocol-prefix
+
+#570 allDbs protocol prefix
+The files with partial_reverts are:-
+docs/api.md
+src/pouch.adapter.js
+src/pouch.js
+tests/test.all_dbs.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ 92eab53843bf89db14f55dc02950fe073305f6a1 -> 6fc9ebf6ecff2e79749262c4b410af07af3e8e99 } is a revert
+{ 6fc9ebf6ecff2e79749262c4b410af07af3e8e99 -> 9113aca3feefa843cbc91626b5d81f4f14d32e3d }
+Partial Revert commits SHA are -> 
+6fc9ebf6ecff2e79749262c4b410af07af3e8e99 - revert - 9113aca3feefa843cbc91626b5d81f4f14d32e3d
+The reverted commit sha is - 6fc9ebf6ecff2e79749262c4b410af07af3e8e99
+Commit message - Merge pull request #588 from neojski/587-open_revs-nonexistent-doc
+
+587 open revs nonexistent doc
+The original commit sha is - 9113aca3feefa843cbc91626b5d81f4f14d32e3d
+Commit message - Merge pull request #590 from benrudolph/async-docs-update
+
+Update docs for new async pouch creation
+The files with partial_reverts are:-
+docs/api.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ 6a47e75959ee111cb926fee9cf26670115c4ca7a -> 4c3d0bae754a549aba7cadc9f7d698f7fc09c1e8 } is a revert
+{ 8b888d4dbcefed1794088473ec3413aacc75c762 -> 767a05817f492e4024739c9f0651d4945c9caf35 }
+Partial Revert commits SHA are -> 
+4c3d0bae754a549aba7cadc9f7d698f7fc09c1e8 - revert - 767a05817f492e4024739c9f0651d4945c9caf35
+The reverted commit sha is - 4c3d0bae754a549aba7cadc9f7d698f7fc09c1e8
+Commit message - (#509) add pouch error code back in
+The original commit sha is - 767a05817f492e4024739c9f0651d4945c9caf35
+Commit message - Merge pull request #580 from howonlee/master
+
+(#552) rudimentary app testing, took more localstorage out
+The files with partial_reverts are:-
+chromeappbackground.js
+manifest.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ 16eb0a28fb74a522135ee4f79dd94d5a71596992 -> 013bb77bba76fad14e506b94473c222449d481e7 } is a revert
+{ 8b888d4dbcefed1794088473ec3413aacc75c762 -> 767a05817f492e4024739c9f0651d4945c9caf35 }
+Partial Revert commits SHA are -> 
+013bb77bba76fad14e506b94473c222449d481e7 - revert - 767a05817f492e4024739c9f0651d4945c9caf35
+The reverted commit sha is - 013bb77bba76fad14e506b94473c222449d481e7
+Commit message - (#576) - move common logic into generic adapter
+
+common logic:
+* revs
+* revs_info
+* conflicts
+The original commit sha is - 767a05817f492e4024739c9f0651d4945c9caf35
+Commit message - Merge pull request #580 from howonlee/master
+
+(#552) rudimentary app testing, took more localstorage out
+The files with partial_reverts are:-
+chromeappbackground.js
+manifest.json
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ 62c90c6e6939951dcb39263f539842dac52daf02 -> 9ca32527f5db90994b0f65b8296d6609f106fda1 } is a revert
+{ 9ca32527f5db90994b0f65b8296d6609f106fda1 -> d5870282c88c4ea293eba56c7ee2f12914e4b390 }
+Partial Revert commits SHA are -> 
+9ca32527f5db90994b0f65b8296d6609f106fda1 - revert - d5870282c88c4ea293eba56c7ee2f12914e4b390
+The reverted commit sha is - 9ca32527f5db90994b0f65b8296d6609f106fda1
+Commit message - Merge pull request #555 from neojski/114-implement-compaction
+
+(#114) - implement compaction
+The original commit sha is - d5870282c88c4ea293eba56c7ee2f12914e4b390
+Commit message - Merge pull request #574 from benrudolph/async-callback
+
+Handle undefined callback function
+The files with partial_reverts are:-
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ 9b8611005fe8dc686f2fd40c3849d532f186e1ee -> e5ae8df4c2494b01bbbbaa1064ec82f29662967f } is a revert
+{ 62c90c6e6939951dcb39263f539842dac52daf02 -> 9ca32527f5db90994b0f65b8296d6609f106fda1 }
+Partial Revert commits SHA are -> 
+e5ae8df4c2494b01bbbbaa1064ec82f29662967f - revert - 9ca32527f5db90994b0f65b8296d6609f106fda1
+The reverted commit sha is - e5ae8df4c2494b01bbbbaa1064ec82f29662967f
+Commit message - Fix #559 in WebSQL
+The original commit sha is - 9ca32527f5db90994b0f65b8296d6609f106fda1
+Commit message - Merge pull request #555 from neojski/114-implement-compaction
+
+(#114) - implement compaction
+The files with partial_reverts are:-
+src/adapters/pouch.leveldb.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ 5d48b9b0dc53720674f941a892aa6cf275cf4111 -> 1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43 } is a revert
+{ 62c90c6e6939951dcb39263f539842dac52daf02 -> 9ca32527f5db90994b0f65b8296d6609f106fda1 }
+Partial Revert commits SHA are -> 
+1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43 - revert - 9ca32527f5db90994b0f65b8296d6609f106fda1
+The reverted commit sha is - 1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43
+Commit message - (#377) - Remove filesystem warning and check, idb works from fs now
+The original commit sha is - 9ca32527f5db90994b0f65b8296d6609f106fda1
+Commit message - Merge pull request #555 from neojski/114-implement-compaction
+
+(#114) - implement compaction
+The files with partial_reverts are:-
+src/adapters/pouch.leveldb.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ 32ff418266bbe7e600b64cf5907b301b7c223069 -> 62c90c6e6939951dcb39263f539842dac52daf02 } is a revert
+{ 62c90c6e6939951dcb39263f539842dac52daf02 -> 9ca32527f5db90994b0f65b8296d6609f106fda1 }
+Partial Revert commits SHA are -> 
+62c90c6e6939951dcb39263f539842dac52daf02 - revert - 9ca32527f5db90994b0f65b8296d6609f106fda1
+The reverted commit sha is - 62c90c6e6939951dcb39263f539842dac52daf02
+Commit message - Handle undefined callback function
+The original commit sha is - 9ca32527f5db90994b0f65b8296d6609f106fda1
+Commit message - Merge pull request #555 from neojski/114-implement-compaction
+
+(#114) - implement compaction
+The files with partial_reverts are:-
+src/adapters/pouch.leveldb.js
+tests/test.basics.js
+tests/test.compaction.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ 6f973d5ee45235aebe389697f8c981f184bc0b77 -> 981da9f711912ad63037ed155921fb8334ccd52c } is a revert
+{ 32ff418266bbe7e600b64cf5907b301b7c223069 -> 62c90c6e6939951dcb39263f539842dac52daf02 }
+Partial Revert commits SHA are -> 
+981da9f711912ad63037ed155921fb8334ccd52c - revert - 62c90c6e6939951dcb39263f539842dac52daf02
+The reverted commit sha is - 981da9f711912ad63037ed155921fb8334ccd52c
+Commit message - (#114) - fix constraint error in tests
+
+Our test generate tree inserting whole branches. As they had
+common root is got inserted multiple times. It produced constraint
+error in firefox (also described in:
+https://github.com/daleharvey/pouchdb/pull/555#issuecomment-14904407)
+The original commit sha is - 62c90c6e6939951dcb39263f539842dac52daf02
+Commit message - Handle undefined callback function
+The files with partial_reverts are:-
+.gitignore
+CONTRIBUTING.md
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.adapter.js
+src/pouch.utils.js
+tests/test.all_dbs.js
+tests/test.basics.js
+tests/test.changes.js
+tests/test.taskqueue.js
+tests/test.utils.js
+tests/test.views.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ e2d60c3ea9a4ae0bf20677009aace7f53854fd8f -> 32ff418266bbe7e600b64cf5907b301b7c223069 } is a revert
+{ 32ff418266bbe7e600b64cf5907b301b7c223069 -> 62c90c6e6939951dcb39263f539842dac52daf02 }
+Partial Revert commits SHA are -> 
+32ff418266bbe7e600b64cf5907b301b7c223069 - revert - 62c90c6e6939951dcb39263f539842dac52daf02
+The reverted commit sha is - 32ff418266bbe7e600b64cf5907b301b7c223069
+Commit message - (#114) - fix globals conflict
+
+In this file we introduced global variable `adapter` which overrode
+variable in test.http.js
+The original commit sha is - 62c90c6e6939951dcb39263f539842dac52daf02
+Commit message - Handle undefined callback function
+The files with partial_reverts are:-
+.gitignore
+CONTRIBUTING.md
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.adapter.js
+src/pouch.utils.js
+tests/test.all_dbs.js
+tests/test.basics.js
+tests/test.changes.js
+tests/test.compaction.js
+tests/test.taskqueue.js
+tests/test.utils.js
+tests/test.views.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ 9b8611005fe8dc686f2fd40c3849d532f186e1ee -> e5ae8df4c2494b01bbbbaa1064ec82f29662967f } is a revert
+{ e2d60c3ea9a4ae0bf20677009aace7f53854fd8f -> 32ff418266bbe7e600b64cf5907b301b7c223069 }
+Partial Revert commits SHA are -> 
+e5ae8df4c2494b01bbbbaa1064ec82f29662967f - revert - 32ff418266bbe7e600b64cf5907b301b7c223069
+The reverted commit sha is - e5ae8df4c2494b01bbbbaa1064ec82f29662967f
+Commit message - Fix #559 in WebSQL
+The original commit sha is - 32ff418266bbe7e600b64cf5907b301b7c223069
+Commit message - (#114) - fix globals conflict
+
+In this file we introduced global variable `adapter` which overrode
+variable in test.http.js
+The files with partial_reverts are:-
+.gitignore
+CONTRIBUTING.md
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.adapter.js
+src/pouch.js
+src/pouch.utils.js
+tests/test.all_dbs.js
+tests/test.basics.js
+tests/test.changes.js
+tests/test.taskqueue.js
+tests/test.utils.js
+tests/test.views.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ 5d48b9b0dc53720674f941a892aa6cf275cf4111 -> 1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43 } is a revert
+{ e2d60c3ea9a4ae0bf20677009aace7f53854fd8f -> 32ff418266bbe7e600b64cf5907b301b7c223069 }
+Partial Revert commits SHA are -> 
+1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43 - revert - 32ff418266bbe7e600b64cf5907b301b7c223069
+The reverted commit sha is - 1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43
+Commit message - (#377) - Remove filesystem warning and check, idb works from fs now
+The original commit sha is - 32ff418266bbe7e600b64cf5907b301b7c223069
+Commit message - (#114) - fix globals conflict
+
+In this file we introduced global variable `adapter` which overrode
+variable in test.http.js
+The files with partial_reverts are:-
+.gitignore
+CONTRIBUTING.md
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.adapter.js
+src/pouch.js
+src/pouch.utils.js
+tests/test.all_dbs.js
+tests/test.basics.js
+tests/test.changes.js
+tests/test.taskqueue.js
+tests/test.utils.js
+tests/test.views.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ 6f973d5ee45235aebe389697f8c981f184bc0b77 -> 981da9f711912ad63037ed155921fb8334ccd52c } is a revert
+{ 5d48b9b0dc53720674f941a892aa6cf275cf4111 -> 1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43 }
+Partial Revert commits SHA are -> 
+981da9f711912ad63037ed155921fb8334ccd52c - revert - 1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43
+The reverted commit sha is - 981da9f711912ad63037ed155921fb8334ccd52c
+Commit message - (#114) - fix constraint error in tests
+
+Our test generate tree inserting whole branches. As they had
+common root is got inserted multiple times. It produced constraint
+error in firefox (also described in:
+https://github.com/daleharvey/pouchdb/pull/555#issuecomment-14904407)
+The original commit sha is - 1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43
+Commit message - (#377) - Remove filesystem warning and check, idb works from fs now
+The files with partial_reverts are:-
+.gitignore
+CONTRIBUTING.md
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.adapter.js
+src/pouch.js
+src/pouch.utils.js
+tests/test.all_dbs.js
+tests/test.basics.js
+tests/test.changes.js
+tests/test.compaction.js
+tests/test.taskqueue.js
+tests/test.utils.js
+tests/test.views.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ 9b8611005fe8dc686f2fd40c3849d532f186e1ee -> e5ae8df4c2494b01bbbbaa1064ec82f29662967f } is a revert
+{ 6f973d5ee45235aebe389697f8c981f184bc0b77 -> 981da9f711912ad63037ed155921fb8334ccd52c }
+Partial Revert commits SHA are -> 
+e5ae8df4c2494b01bbbbaa1064ec82f29662967f - revert - 981da9f711912ad63037ed155921fb8334ccd52c
+The reverted commit sha is - e5ae8df4c2494b01bbbbaa1064ec82f29662967f
+Commit message - Fix #559 in WebSQL
+The original commit sha is - 981da9f711912ad63037ed155921fb8334ccd52c
+Commit message - (#114) - fix constraint error in tests
+
+Our test generate tree inserting whole branches. As they had
+common root is got inserted multiple times. It produced constraint
+error in firefox (also described in:
+https://github.com/daleharvey/pouchdb/pull/555#issuecomment-14904407)
+The files with partial_reverts are:-
+.gitignore
+CONTRIBUTING.md
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.adapter.js
+src/pouch.js
+src/pouch.utils.js
+tests/test.all_dbs.js
+tests/test.basics.js
+tests/test.changes.js
+tests/test.taskqueue.js
+tests/test.utils.js
+tests/test.views.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ dab14d0acf31a53dd7174cd85ba75c27b1743823 -> a6fca8506185df3e21a6a2154a18a2dce79cd575 } is a revert
+{ 64857d2357d9e5b44da65a9b7c2e41380a0b4e24 -> 141d078a747d1f2976af195d40fc2ad1c529d95e }
+Partial Revert commits SHA are -> 
+a6fca8506185df3e21a6a2154a18a2dce79cd575 - revert - 141d078a747d1f2976af195d40fc2ad1c529d95e
+The reverted commit sha is - a6fca8506185df3e21a6a2154a18a2dce79cd575
+Commit message - Merge pull request #540 from daleharvey/513-closure
+
+(#513) correctly add closure (again).
+The original commit sha is - 141d078a747d1f2976af195d40fc2ad1c529d95e
+Commit message - added docs/_site to gitignore
+The files with partial_reverts are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ f8195d7ce9c7a87dcd8ae8e1257c01cd0a10d930 -> 8cad8059f7f3fa5c7dfa56c345bfcf248c9de45c } is a revert
+{ 64857d2357d9e5b44da65a9b7c2e41380a0b4e24 -> 141d078a747d1f2976af195d40fc2ad1c529d95e }
+Partial Revert commits SHA are -> 
+8cad8059f7f3fa5c7dfa56c345bfcf248c9de45c - revert - 141d078a747d1f2976af195d40fc2ad1c529d95e
+The reverted commit sha is - 8cad8059f7f3fa5c7dfa56c345bfcf248c9de45c
+Commit message - (#535) - add pouch.adapter.js
+
+Forgotten that modified guy
+The original commit sha is - 141d078a747d1f2976af195d40fc2ad1c529d95e
+Commit message - added docs/_site to gitignore
+The files with partial_reverts are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c -> 2904b8745c7ccf3b54069a8eeff80388b3f9fccc } is a revert
+{ 7493920cdfe9cfe8ea5b4482ff5fa6dc65f8c647 -> 219f2bdd54ba95f7f5d5e34824dd72d4a2bc180a }
+Partial Revert commits SHA are -> 
+2904b8745c7ccf3b54069a8eeff80388b3f9fccc - revert - 219f2bdd54ba95f7f5d5e34824dd72d4a2bc180a
+The reverted commit sha is - 2904b8745c7ccf3b54069a8eeff80388b3f9fccc
+Commit message - Merge pull request #521 from jlaxson/improve-error-handling
+
+Improve error handling
+The original commit sha is - 219f2bdd54ba95f7f5d5e34824dd72d4a2bc180a
+Commit message - Merge pull request #561 from benrudolph/taskqueue-revised
+
+Taskqueue revised
+The files with partial_reverts are:-
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ 3b2d08037387191c1f3e587d20011569d43a0c8a -> fdf828922414c57834fbe4d9a303242f1cba0bbc } is a revert
+{ 7493920cdfe9cfe8ea5b4482ff5fa6dc65f8c647 -> 219f2bdd54ba95f7f5d5e34824dd72d4a2bc180a }
+Partial Revert commits SHA are -> 
+fdf828922414c57834fbe4d9a303242f1cba0bbc - revert - 219f2bdd54ba95f7f5d5e34824dd72d4a2bc180a
+The reverted commit sha is - fdf828922414c57834fbe4d9a303242f1cba0bbc
+Commit message - Revert "Merge pull request #528 from benrudolph/task-queue"
+
+This reverts commit e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426, reversing
+changes made to 2904b8745c7ccf3b54069a8eeff80388b3f9fccc.
+The original commit sha is - 219f2bdd54ba95f7f5d5e34824dd72d4a2bc180a
+Commit message - Merge pull request #561 from benrudolph/taskqueue-revised
+
+Taskqueue revised
+The files with partial_reverts are:-
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ f57f8c9de03502d44108b628f52292749b32fd13 -> 5edb40bfa64ce7ce7775a40f6ce400fa440540e1 } is a revert
+{ 7493920cdfe9cfe8ea5b4482ff5fa6dc65f8c647 -> 219f2bdd54ba95f7f5d5e34824dd72d4a2bc180a }
+Partial Revert commits SHA are -> 
+5edb40bfa64ce7ce7775a40f6ce400fa440540e1 - revert - 219f2bdd54ba95f7f5d5e34824dd72d4a2bc180a
+The reverted commit sha is - 5edb40bfa64ce7ce7775a40f6ce400fa440540e1
+Commit message - (#19) - Added dbname to _all_docs documents
+The original commit sha is - 219f2bdd54ba95f7f5d5e34824dd72d4a2bc180a
+Commit message - Merge pull request #561 from benrudolph/taskqueue-revised
+
+Taskqueue revised
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+src/pouch.adapter.js
+tests/test.taskqueue.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ 00916101affa82657d77c56907d449ee6102c96b -> 423cade2096257fb69f9be665984d293e69ad5b0 } is a revert
+{ 8fe3349abded947d3365012677787510b85e41a7 -> 7493920cdfe9cfe8ea5b4482ff5fa6dc65f8c647 }
+Partial Revert commits SHA are -> 
+423cade2096257fb69f9be665984d293e69ad5b0 - revert - 7493920cdfe9cfe8ea5b4482ff5fa6dc65f8c647
+The reverted commit sha is - 423cade2096257fb69f9be665984d293e69ad5b0
+Commit message - Resolved first commit
+The original commit sha is - 7493920cdfe9cfe8ea5b4482ff5fa6dc65f8c647
+Commit message - Merge pull request #560 from natevw/issue-559
+
+Fix multiple continuous change watchers
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+tests/test.changes.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ 2904b8745c7ccf3b54069a8eeff80388b3f9fccc -> e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426 } is a revert
+{ f57f8c9de03502d44108b628f52292749b32fd13 -> 5edb40bfa64ce7ce7775a40f6ce400fa440540e1 }
+Partial Revert commits SHA are -> 
+e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426 - revert - 5edb40bfa64ce7ce7775a40f6ce400fa440540e1
+The reverted commit sha is - e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426
+Commit message - Merge pull request #528 from benrudolph/task-queue
+
+Task queuing
+The original commit sha is - 5edb40bfa64ce7ce7775a40f6ce400fa440540e1
+Commit message - (#19) - Added dbname to _all_docs documents
+The files with partial_reverts are:-
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ 3567a4187150ecae70f05657df14eaca3bd841c0 -> e6daee8b8427091ce6dc733b05bdb6d522240f30 } is a revert
+{ 54d999870ea370e59dfa8d83cc8823b7758f99db -> d71e619e01ae8f42490475824261bff9cadedcff }
+Partial Revert commits SHA are -> 
+e6daee8b8427091ce6dc733b05bdb6d522240f30 - revert - d71e619e01ae8f42490475824261bff9cadedcff
+The reverted commit sha is - e6daee8b8427091ce6dc733b05bdb6d522240f30
+Commit message - Fixed db.query test for taskqueue
+The original commit sha is - d71e619e01ae8f42490475824261bff9cadedcff
+Commit message - Re-add whitespace to files that I didn't modify
+The files with partial_reverts are:-
+src/plugins/pouchdb.mapreduce.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ 87226aa7827a77ecdfa39e73cdb591cb3ef48a72 -> b5195153f5f3eac269719f593a0f9e0eca512d14 } is a revert
+{ 261995372add4fd2712983788a3c0152d0adc194 -> 1913da95e2a3f28b6b941303c9007bf1ef59752d }
+Partial Revert commits SHA are -> 
+b5195153f5f3eac269719f593a0f9e0eca512d14 - revert - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+The reverted commit sha is - b5195153f5f3eac269719f593a0f9e0eca512d14
+Commit message - (#514) - Add grunt-cli to build instructions
+
+In grunt 0.4 the cli tools are in a separate package
+called grunt-cli. You need to install it instead.
+The original commit sha is - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+Commit message - Merge pull request #466 from daleharvey/19-all_dbs-method
+
+WIP - 19 all dbs method
+The files with partial_reverts are:-
+.gitignore
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ f946de651418137f1dd12d8bea95a82462fed6a6 -> f8195d7ce9c7a87dcd8ae8e1257c01cd0a10d930 } is a revert
+{ 261995372add4fd2712983788a3c0152d0adc194 -> 1913da95e2a3f28b6b941303c9007bf1ef59752d }
+Partial Revert commits SHA are -> 
+f8195d7ce9c7a87dcd8ae8e1257c01cd0a10d930 - revert - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+The reverted commit sha is - f8195d7ce9c7a87dcd8ae8e1257c01cd0a10d930
+Commit message - all of gql in one nice commit.  changes to gruntfile and webrunner.
+The original commit sha is - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+Commit message - Merge pull request #466 from daleharvey/19-all_dbs-method
+
+WIP - 19 all dbs method
+The files with partial_reverts are:-
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ 4f1001aaad2d9757486121a815b40fd09549c069 -> 547081a9ffe1c319ccb0a4896965fb2a2be467df } is a revert
+{ 261995372add4fd2712983788a3c0152d0adc194 -> 1913da95e2a3f28b6b941303c9007bf1ef59752d }
+Partial Revert commits SHA are -> 
+547081a9ffe1c319ccb0a4896965fb2a2be467df - revert - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+The reverted commit sha is - 547081a9ffe1c319ccb0a4896965fb2a2be467df
+Commit message - Revert "clean up indentation in gruntfile"
+
+This reverts commit a10858c74ff29b6fbf1bbf3982af91f4c62bb909.
+The original commit sha is - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+Commit message - Merge pull request #466 from daleharvey/19-all_dbs-method
+
+WIP - 19 all dbs method
+The files with partial_reverts are:-
+.gitignore
+tests/test.all_dbs.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ f67dad1845fde232ca7cd4f040df41add6e04f5e -> 261995372add4fd2712983788a3c0152d0adc194 } is a revert
+{ 261995372add4fd2712983788a3c0152d0adc194 -> 1913da95e2a3f28b6b941303c9007bf1ef59752d }
+Partial Revert commits SHA are -> 
+261995372add4fd2712983788a3c0152d0adc194 - revert - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+The reverted commit sha is - 261995372add4fd2712983788a3c0152d0adc194
+Commit message - Merge pull request #549 from ymichael/gruntfile_changes
+
+Gruntfile changes
+The original commit sha is - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+Commit message - Merge pull request #466 from daleharvey/19-all_dbs-method
+
+WIP - 19 all dbs method
+The files with partial_reverts are:-
+.gitignore
+src/pouch.js
+tests/test.all_dbs.js
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ e252cde8b8d8d423dadb827cac7c95bf822e98ec -> 86ffd2009de404a8aeb9a91c24a9b86827caba8e } is a revert
+{ f67dad1845fde232ca7cd4f040df41add6e04f5e -> 261995372add4fd2712983788a3c0152d0adc194 }
+Partial Revert commits SHA are -> 
+86ffd2009de404a8aeb9a91c24a9b86827caba8e - revert - 261995372add4fd2712983788a3c0152d0adc194
+The reverted commit sha is - 86ffd2009de404a8aeb9a91c24a9b86827caba8e
+Commit message - fixed various bugs in tests. tests pass.
+The original commit sha is - 261995372add4fd2712983788a3c0152d0adc194
+Commit message - Merge pull request #549 from ymichael/gruntfile_changes
+
+Gruntfile changes
+The files with partial_reverts are:-
+.gitignore
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.adapter.js
+src/pouch.replicate.js
+src/pouch.utils.js
+tests/test.bulk_docs.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 46 is -> 
+{ 4f1001aaad2d9757486121a815b40fd09549c069 -> 547081a9ffe1c319ccb0a4896965fb2a2be467df } is a revert
+{ 33adba60d1b90e24dd4e23040b737d3a998e2a6a -> f67dad1845fde232ca7cd4f040df41add6e04f5e }
+Partial Revert commits SHA are -> 
+547081a9ffe1c319ccb0a4896965fb2a2be467df - revert - f67dad1845fde232ca7cd4f040df41add6e04f5e
+The reverted commit sha is - 547081a9ffe1c319ccb0a4896965fb2a2be467df
+Commit message - Revert "clean up indentation in gruntfile"
+
+This reverts commit a10858c74ff29b6fbf1bbf3982af91f4c62bb909.
+The original commit sha is - f67dad1845fde232ca7cd4f040df41add6e04f5e
+Commit message - remove console.log from Pouch.destroy method
+The files with partial_reverts are:-
+.gitignore
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.adapter.js
+tests/test.all_dbs.js
+tests/test.bulk_docs.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 47 is -> 
+{ e252cde8b8d8d423dadb827cac7c95bf822e98ec -> 86ffd2009de404a8aeb9a91c24a9b86827caba8e } is a revert
+{ 4f1001aaad2d9757486121a815b40fd09549c069 -> 547081a9ffe1c319ccb0a4896965fb2a2be467df }
+Partial Revert commits SHA are -> 
+86ffd2009de404a8aeb9a91c24a9b86827caba8e - revert - 547081a9ffe1c319ccb0a4896965fb2a2be467df
+The reverted commit sha is - 86ffd2009de404a8aeb9a91c24a9b86827caba8e
+Commit message - fixed various bugs in tests. tests pass.
+The original commit sha is - 547081a9ffe1c319ccb0a4896965fb2a2be467df
+Commit message - Revert "clean up indentation in gruntfile"
+
+This reverts commit a10858c74ff29b6fbf1bbf3982af91f4c62bb909.
+The files with partial_reverts are:-
+.gitignore
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.adapter.js
+tests/test.bulk_docs.js
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ f8195d7ce9c7a87dcd8ae8e1257c01cd0a10d930 -> 8cad8059f7f3fa5c7dfa56c345bfcf248c9de45c } is a revert
+{ 8cad8059f7f3fa5c7dfa56c345bfcf248c9de45c -> 9737d77554d87db2648214b15e8d5b9f1f2fdb13 }
+Partial Revert commits SHA are -> 
+8cad8059f7f3fa5c7dfa56c345bfcf248c9de45c - revert - 9737d77554d87db2648214b15e8d5b9f1f2fdb13
+The reverted commit sha is - 8cad8059f7f3fa5c7dfa56c345bfcf248c9de45c
+Commit message - (#535) - add pouch.adapter.js
+
+Forgotten that modified guy
+The original commit sha is - 9737d77554d87db2648214b15e8d5b9f1f2fdb13
+Commit message - Merge pull request #544 from neojski/535-bulk_docs-conflicts
+
+(#535) - bulk docs conflicts
+The files with partial_reverts are:-
+CONTRIBUTING.md
+src/deps/ajax.js
+src/pouch.utils.js
+tests/test.http.js
+tests/test.issue221.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ dab14d0acf31a53dd7174cd85ba75c27b1743823 -> a6fca8506185df3e21a6a2154a18a2dce79cd575 } is a revert
+{ a6fca8506185df3e21a6a2154a18a2dce79cd575 -> 870e548435d9ed5e7e59dd04adcb3fe0ac3ce015 }
+Partial Revert commits SHA are -> 
+a6fca8506185df3e21a6a2154a18a2dce79cd575 - revert - 870e548435d9ed5e7e59dd04adcb3fe0ac3ce015
+The reverted commit sha is - a6fca8506185df3e21a6a2154a18a2dce79cd575
+Commit message - Merge pull request #540 from daleharvey/513-closure
+
+(#513) correctly add closure (again).
+The original commit sha is - 870e548435d9ed5e7e59dd04adcb3fe0ac3ce015
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb
+The files with partial_reverts are:-
+.gitignore
+src/plugins/pouchdb.mapreduce.js
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ b5195153f5f3eac269719f593a0f9e0eca512d14 -> b5acbb97e51610865ba7214a1d1dc5a11dce3c1a } is a revert
+{ 309d9519e74144522d6ebcfbe0533b4145556fbd -> d8ad4763ef5ccd6be43fa270f1627d99b9f95b5b }
+Partial Revert commits SHA are -> 
+b5acbb97e51610865ba7214a1d1dc5a11dce3c1a - revert - d8ad4763ef5ccd6be43fa270f1627d99b9f95b5b
+The reverted commit sha is - b5acbb97e51610865ba7214a1d1dc5a11dce3c1a
+Commit message - Merge pull request #499 from nick-thompson/499-adapt-test-suite
+
+Adapt the test suite to suit pouchdb-server
+The original commit sha is - d8ad4763ef5ccd6be43fa270f1627d99b9f95b5b
+Commit message - Merge pull request #539 from vmx/add-grunt-cli
+
+(#514) - Add grunt-cli to build instructions
+The files with partial_reverts are:-
+CONTRIBUTING.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 51 is -> 
+{ 69bfa977f74d70ff70a22f7293e4dfeaeffb40c4 -> bac3f32ab49d5d94112c1c55e9d93299de52e187 } is a revert
+{ bac3f32ab49d5d94112c1c55e9d93299de52e187 -> 34bd597ce8e1d72e7926fd6513f25851207d7478 }
+Partial Revert commits SHA are -> 
+bac3f32ab49d5d94112c1c55e9d93299de52e187 - revert - 34bd597ce8e1d72e7926fd6513f25851207d7478
+The reverted commit sha is - bac3f32ab49d5d94112c1c55e9d93299de52e187
+Commit message - (#543) - Encode empty attachment buffers
+The original commit sha is - 34bd597ce8e1d72e7926fd6513f25851207d7478
+Commit message - (#535) - can't return [] when bulkDocs with new_edits=false
+
+It's due to the fact that put uses bulkDocs. Don't know how to
+implement it properly right now
+The files with partial_reverts are:-
+src/adapters/pouch.leveldb.js
+tests/test.bulk_docs.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 52 is -> 
+{ 3579f2e32b61777a47991a64daa91d31785f558e -> 55ac1205bce5556462cdcc6cd8795ba565f958e2 } is a revert
+{ 2c4f7923014227ae23b6968d45de34b9c8af7d1b -> d8a55bc255a47c616845b90670a015f1df4cd0bd }
+Partial Revert commits SHA are -> 
+55ac1205bce5556462cdcc6cd8795ba565f958e2 - revert - d8a55bc255a47c616845b90670a015f1df4cd0bd
+The reverted commit sha is - 55ac1205bce5556462cdcc6cd8795ba565f958e2
+Commit message - (#533) - Lock levelup version
+The original commit sha is - d8a55bc255a47c616845b90670a015f1df4cd0bd
+Commit message - Merge branch 'master' into 19-all_dbs-method
+The files with partial_reverts are:-
+tests/test.all_dbs.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 53 is -> 
+{ bf32ee7ee7d7fab9af63e4e427d62eb94edc88c0 -> 2c4f7923014227ae23b6968d45de34b9c8af7d1b } is a revert
+{ 2c4f7923014227ae23b6968d45de34b9c8af7d1b -> d8a55bc255a47c616845b90670a015f1df4cd0bd }
+Partial Revert commits SHA are -> 
+2c4f7923014227ae23b6968d45de34b9c8af7d1b - revert - d8a55bc255a47c616845b90670a015f1df4cd0bd
+The reverted commit sha is - 2c4f7923014227ae23b6968d45de34b9c8af7d1b
+Commit message - Merge pull request #536 from nick-thompson/536-fix-extend-bug
+
+`extend` missing in Pouch.utils.js
+The original commit sha is - d8a55bc255a47c616845b90670a015f1df4cd0bd
+Commit message - Merge branch 'master' into 19-all_dbs-method
+The files with partial_reverts are:-
+src/pouch.js
+tests/test.all_dbs.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 54 is -> 
+{ 47715406d73109dafb74ca12dc9dce9fa59288d4 -> a75269b66fbaea75d58c8c161f0f67573d0ff9cf } is a revert
+{ 2904b8745c7ccf3b54069a8eeff80388b3f9fccc -> e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426 }
+Partial Revert commits SHA are -> 
+a75269b66fbaea75d58c8c161f0f67573d0ff9cf - revert - e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426
+The reverted commit sha is - a75269b66fbaea75d58c8c161f0f67573d0ff9cf
+Commit message - Merge pull request #479 from neojski/visualize-rev-tree
+
+Visualize rev tree
+The original commit sha is - e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426
+Commit message - Merge pull request #528 from benrudolph/task-queue
+
+Task queuing
+The files with partial_reverts are:-
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 55 is -> 
+{ 8de007fc6757dcde3e961b24abc2f63ee8dddfd6 -> 3567a4187150ecae70f05657df14eaca3bd841c0 } is a revert
+{ 2904b8745c7ccf3b54069a8eeff80388b3f9fccc -> e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426 }
+Partial Revert commits SHA are -> 
+3567a4187150ecae70f05657df14eaca3bd841c0 - revert - e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426
+The reverted commit sha is - 3567a4187150ecae70f05657df14eaca3bd841c0
+Commit message - Merge pull request #519 from natevw/adapter_tweaks
+
+Adapter tweaks
+The original commit sha is - e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426
+Commit message - Merge pull request #528 from benrudolph/task-queue
+
+Task queuing
+The files with partial_reverts are:-
+src/plugins/pouchdb.mapreduce.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 56 is -> 
+{ 0502a4f2268b1bf84ad219f7878404f5fd0cf1e3 -> 2a06ee733b0abea65e09e4654725c74a6390a744 } is a revert
+{ 6c171c7c45784b9f4ba7e263830beea775706c8a -> cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c }
+Partial Revert commits SHA are -> 
+2a06ee733b0abea65e09e4654725c74a6390a744 - revert - cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c
+The reverted commit sha is - 2a06ee733b0abea65e09e4654725c74a6390a744
+Commit message - Add 'add new row' button
+The original commit sha is - cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c
+Commit message - Resolved merge conflict
+The files with partial_reverts are:-
+CONTRIBUTING.md
+Gruntfile.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/pouch.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 57 is -> 
+{ 0cf3e14cc0b90b93d0c711f3f4cfe223b23709c9 -> a13383712f4e6e0adac2b600c5cdfa75ee2f1ab9 } is a revert
+{ 6c171c7c45784b9f4ba7e263830beea775706c8a -> cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c }
+Partial Revert commits SHA are -> 
+a13383712f4e6e0adac2b600c5cdfa75ee2f1ab9 - revert - cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c
+The reverted commit sha is - a13383712f4e6e0adac2b600c5cdfa75ee2f1ab9
+Commit message - Mostly working except for 2 tests
+The original commit sha is - cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c
+Commit message - Resolved merge conflict
+The files with partial_reverts are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/plugins/pouchdb.visualizeRevTree.js
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.replication.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 58 is -> 
+{ 3567a4187150ecae70f05657df14eaca3bd841c0 -> e6daee8b8427091ce6dc733b05bdb6d522240f30 } is a revert
+{ 6c171c7c45784b9f4ba7e263830beea775706c8a -> cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c }
+Partial Revert commits SHA are -> 
+e6daee8b8427091ce6dc733b05bdb6d522240f30 - revert - cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c
+The reverted commit sha is - e6daee8b8427091ce6dc733b05bdb6d522240f30
+Commit message - Fixed db.query test for taskqueue
+The original commit sha is - cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c
+Commit message - Resolved merge conflict
+The files with partial_reverts are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/plugins/pouchdb.visualizeRevTree.js
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.replication.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 59 is -> 
+{ 0cf3e14cc0b90b93d0c711f3f4cfe223b23709c9 -> a13383712f4e6e0adac2b600c5cdfa75ee2f1ab9 } is a revert
+{ 8de007fc6757dcde3e961b24abc2f63ee8dddfd6 -> 3567a4187150ecae70f05657df14eaca3bd841c0 }
+Partial Revert commits SHA are -> 
+a13383712f4e6e0adac2b600c5cdfa75ee2f1ab9 - revert - 3567a4187150ecae70f05657df14eaca3bd841c0
+The reverted commit sha is - a13383712f4e6e0adac2b600c5cdfa75ee2f1ab9
+Commit message - Mostly working except for 2 tests
+The original commit sha is - 3567a4187150ecae70f05657df14eaca3bd841c0
+Commit message - Merge pull request #519 from natevw/adapter_tweaks
+
+Adapter tweaks
+The files with partial_reverts are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/plugins/pouchdb.visualizeRevTree.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.replication.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 60 is -> 
+{ 0502a4f2268b1bf84ad219f7878404f5fd0cf1e3 -> 2a06ee733b0abea65e09e4654725c74a6390a744 } is a revert
+{ 876872d7d073e6868d544e29d0508156c2d498fe -> 0cf3e14cc0b90b93d0c711f3f4cfe223b23709c9 }
+Partial Revert commits SHA are -> 
+2a06ee733b0abea65e09e4654725c74a6390a744 - revert - 0cf3e14cc0b90b93d0c711f3f4cfe223b23709c9
+The reverted commit sha is - 2a06ee733b0abea65e09e4654725c74a6390a744
+Commit message - Add 'add new row' button
+The original commit sha is - 0cf3e14cc0b90b93d0c711f3f4cfe223b23709c9
+Commit message - Merge pull request #526 from neojski/visualize-rev-tree
+
+Fix positioning problem
+The files with partial_reverts are:-
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 61 is -> 
+{ 083604dc06ffd0c3bf106b73dcd51a93ba19a0b1 -> e1b60b620c60f072880002b3f2f8acf7bd8fe1a6 } is a revert
+{ 876872d7d073e6868d544e29d0508156c2d498fe -> 0cf3e14cc0b90b93d0c711f3f4cfe223b23709c9 }
+Partial Revert commits SHA are -> 
+e1b60b620c60f072880002b3f2f8acf7bd8fe1a6 - revert - 0cf3e14cc0b90b93d0c711f3f4cfe223b23709c9
+The reverted commit sha is - e1b60b620c60f072880002b3f2f8acf7bd8fe1a6
+Commit message - Switch from input to input using tab
+The original commit sha is - 0cf3e14cc0b90b93d0c711f3f4cfe223b23709c9
+Commit message - Merge pull request #526 from neojski/visualize-rev-tree
+
+Fix positioning problem
+The files with partial_reverts are:-
+docs/api.md
+src/adapters/pouch.http.js
+src/pouch.adapter.js
+src/pouch.js
+tests/test.attachments.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 62 is -> 
+{ 086d8b5f4d2d67e93c1bfec87cd4130e439d5df8 -> 876872d7d073e6868d544e29d0508156c2d498fe } is a revert
+{ 876872d7d073e6868d544e29d0508156c2d498fe -> 0cf3e14cc0b90b93d0c711f3f4cfe223b23709c9 }
+Partial Revert commits SHA are -> 
+876872d7d073e6868d544e29d0508156c2d498fe - revert - 0cf3e14cc0b90b93d0c711f3f4cfe223b23709c9
+The reverted commit sha is - 876872d7d073e6868d544e29d0508156c2d498fe
+Commit message - Fix positioning problem
+
+Forgotten to add position: relative to our main container so
+that our elements are absolutely positioned relatively to it.
+
+Small improvement of focus
+The original commit sha is - 0cf3e14cc0b90b93d0c711f3f4cfe223b23709c9
+Commit message - Merge pull request #526 from neojski/visualize-rev-tree
+
+Fix positioning problem
+The files with partial_reverts are:-
+docs/api.md
+src/adapters/pouch.http.js
+src/pouch.adapter.js
+src/pouch.js
+tests/test.attachments.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 63 is -> 
+{ 0502a4f2268b1bf84ad219f7878404f5fd0cf1e3 -> 2a06ee733b0abea65e09e4654725c74a6390a744 } is a revert
+{ e1b60b620c60f072880002b3f2f8acf7bd8fe1a6 -> 086d8b5f4d2d67e93c1bfec87cd4130e439d5df8 }
+Partial Revert commits SHA are -> 
+2a06ee733b0abea65e09e4654725c74a6390a744 - revert - 086d8b5f4d2d67e93c1bfec87cd4130e439d5df8
+The reverted commit sha is - 2a06ee733b0abea65e09e4654725c74a6390a744
+Commit message - Add 'add new row' button
+The original commit sha is - 086d8b5f4d2d67e93c1bfec87cd4130e439d5df8
+Commit message - Merge pull request #518 from neojski/visualize-rev-tree
+
+Visualize rev tree
+The files with partial_reverts are:-
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 64 is -> 
+{ 083604dc06ffd0c3bf106b73dcd51a93ba19a0b1 -> e1b60b620c60f072880002b3f2f8acf7bd8fe1a6 } is a revert
+{ e1b60b620c60f072880002b3f2f8acf7bd8fe1a6 -> 086d8b5f4d2d67e93c1bfec87cd4130e439d5df8 }
+Partial Revert commits SHA are -> 
+e1b60b620c60f072880002b3f2f8acf7bd8fe1a6 - revert - 086d8b5f4d2d67e93c1bfec87cd4130e439d5df8
+The reverted commit sha is - e1b60b620c60f072880002b3f2f8acf7bd8fe1a6
+Commit message - Switch from input to input using tab
+The original commit sha is - 086d8b5f4d2d67e93c1bfec87cd4130e439d5df8
+Commit message - Merge pull request #518 from neojski/visualize-rev-tree
+
+Visualize rev tree
+The files with partial_reverts are:-
+docs/api.md
+src/adapters/pouch.http.js
+src/pouch.adapter.js
+src/pouch.js
+tests/test.attachments.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 65 is -> 
+{ 16b484a0699db955e5db7e6003c5ec7d0da65262 -> f487fd2326c934c038d8aa41656457bff0d68fa0 } is a revert
+{ 9c93c2643ad9eee3c312c156d34954ab024cc441 -> 083604dc06ffd0c3bf106b73dcd51a93ba19a0b1 }
+Partial Revert commits SHA are -> 
+f487fd2326c934c038d8aa41656457bff0d68fa0 - revert - 083604dc06ffd0c3bf106b73dcd51a93ba19a0b1
+The reverted commit sha is - f487fd2326c934c038d8aa41656457bff0d68fa0
+Commit message - (#469) - api docs: removeAttachment, getAttachment
+The original commit sha is - 083604dc06ffd0c3bf106b73dcd51a93ba19a0b1
+Commit message - Merge pull request #517 from adampolak/490-491-no-auto-fallback-to-http
+
+490 491 no auto fallback to http
+The files with partial_reverts are:-
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 66 is -> 
+{ 0502a4f2268b1bf84ad219f7878404f5fd0cf1e3 -> 2a06ee733b0abea65e09e4654725c74a6390a744 } is a revert
+{ 9c93c2643ad9eee3c312c156d34954ab024cc441 -> 083604dc06ffd0c3bf106b73dcd51a93ba19a0b1 }
+Partial Revert commits SHA are -> 
+2a06ee733b0abea65e09e4654725c74a6390a744 - revert - 083604dc06ffd0c3bf106b73dcd51a93ba19a0b1
+The reverted commit sha is - 2a06ee733b0abea65e09e4654725c74a6390a744
+Commit message - Add 'add new row' button
+The original commit sha is - 083604dc06ffd0c3bf106b73dcd51a93ba19a0b1
+Commit message - Merge pull request #517 from adampolak/490-491-no-auto-fallback-to-http
+
+490 491 no auto fallback to http
+The files with partial_reverts are:-
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 67 is -> 
+{ ac7cdd5701e5092f1135b2e6715cad7d654025fa -> 16b484a0699db955e5db7e6003c5ec7d0da65262 } is a revert
+{ 6dda09865d72f86caf8d13c1781bdb0532bf4f41 -> 9c93c2643ad9eee3c312c156d34954ab024cc441 }
+Partial Revert commits SHA are -> 
+16b484a0699db955e5db7e6003c5ec7d0da65262 - revert - 9c93c2643ad9eee3c312c156d34954ab024cc441
+The reverted commit sha is - 16b484a0699db955e5db7e6003c5ec7d0da65262
+Commit message - (#490) - Remove automagic fallback to http adapter
+The original commit sha is - 9c93c2643ad9eee3c312c156d34954ab024cc441
+Commit message - Merge pull request #515 from daleharvey/510-putAttachment-create-doc
+
+putAttachment should create doc if it does not exist
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+src/pouch.adapter.js
+tests/test.attachments.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 68 is -> 
+{ fbdb49121eb8f5879b751e0c4e05c95bf7318ce4 -> d57bf3d871f9138b2c442ae6bc7a49da7af0d8d9 } is a revert
+{ ad435cc117c2b86843b208ae7c8ce5e5d3d78f9e -> 032fefe5d2e73ea98059efe5a6ddc15dfd052efd }
+Partial Revert commits SHA are -> 
+d57bf3d871f9138b2c442ae6bc7a49da7af0d8d9 - revert - 032fefe5d2e73ea98059efe5a6ddc15dfd052efd
+The reverted commit sha is - d57bf3d871f9138b2c442ae6bc7a49da7af0d8d9
+Commit message - Fix rev when getting doc
+The original commit sha is - 032fefe5d2e73ea98059efe5a6ddc15dfd052efd
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into visualize-rev-tree
+The files with partial_reverts are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 69 is -> 
+{ 9fbb425862eb5f7f2bc5bfcb54952fa5080be69f -> d6c78a19bcf6b354c3efd4ffa2735102cf4f3473 } is a revert
+{ ad435cc117c2b86843b208ae7c8ce5e5d3d78f9e -> 032fefe5d2e73ea98059efe5a6ddc15dfd052efd }
+Partial Revert commits SHA are -> 
+d6c78a19bcf6b354c3efd4ffa2735102cf4f3473 - revert - 032fefe5d2e73ea98059efe5a6ddc15dfd052efd
+The reverted commit sha is - d6c78a19bcf6b354c3efd4ffa2735102cf4f3473
+Commit message - Cleanup
+The original commit sha is - 032fefe5d2e73ea98059efe5a6ddc15dfd052efd
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into visualize-rev-tree
+The files with partial_reverts are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 70 is -> 
+{ 0502a4f2268b1bf84ad219f7878404f5fd0cf1e3 -> 2a06ee733b0abea65e09e4654725c74a6390a744 } is a revert
+{ ad435cc117c2b86843b208ae7c8ce5e5d3d78f9e -> 032fefe5d2e73ea98059efe5a6ddc15dfd052efd }
+Partial Revert commits SHA are -> 
+2a06ee733b0abea65e09e4654725c74a6390a744 - revert - 032fefe5d2e73ea98059efe5a6ddc15dfd052efd
+The reverted commit sha is - 2a06ee733b0abea65e09e4654725c74a6390a744
+Commit message - Add 'add new row' button
+The original commit sha is - 032fefe5d2e73ea98059efe5a6ddc15dfd052efd
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into visualize-rev-tree
+The files with partial_reverts are:-
+CONTRIBUTING.md
+Gruntfile.js
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/pouch.adapter.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 71 is -> 
+{ 16b484a0699db955e5db7e6003c5ec7d0da65262 -> f487fd2326c934c038d8aa41656457bff0d68fa0 } is a revert
+{ f487fd2326c934c038d8aa41656457bff0d68fa0 -> 0502a4f2268b1bf84ad219f7878404f5fd0cf1e3 }
+Partial Revert commits SHA are -> 
+f487fd2326c934c038d8aa41656457bff0d68fa0 - revert - 0502a4f2268b1bf84ad219f7878404f5fd0cf1e3
+The reverted commit sha is - f487fd2326c934c038d8aa41656457bff0d68fa0
+Commit message - (#469) - api docs: removeAttachment, getAttachment
+The original commit sha is - 0502a4f2268b1bf84ad219f7878404f5fd0cf1e3
+Commit message - (#491) - Document automagic adapter choosing
+The files with partial_reverts are:-
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 72 is -> 
+{ fbdb49121eb8f5879b751e0c4e05c95bf7318ce4 -> d57bf3d871f9138b2c442ae6bc7a49da7af0d8d9 } is a revert
+{ d6c78a19bcf6b354c3efd4ffa2735102cf4f3473 -> 0bc708e7669aefaa2d058ab30faf8b484fbed49e }
+Partial Revert commits SHA are -> 
+d57bf3d871f9138b2c442ae6bc7a49da7af0d8d9 - revert - 0bc708e7669aefaa2d058ab30faf8b484fbed49e
+The reverted commit sha is - d57bf3d871f9138b2c442ae6bc7a49da7af0d8d9
+Commit message - Fix rev when getting doc
+The original commit sha is - 0bc708e7669aefaa2d058ab30faf8b484fbed49e
+Commit message - Merge pull request #507 from daleharvey/506-putAttachment-not-respect-rev-parameter
+
+(#506) - putAttachment don't respect rev parameter
+The files with partial_reverts are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 73 is -> 
+{ 9fbb425862eb5f7f2bc5bfcb54952fa5080be69f -> d6c78a19bcf6b354c3efd4ffa2735102cf4f3473 } is a revert
+{ d6c78a19bcf6b354c3efd4ffa2735102cf4f3473 -> 0bc708e7669aefaa2d058ab30faf8b484fbed49e }
+Partial Revert commits SHA are -> 
+d6c78a19bcf6b354c3efd4ffa2735102cf4f3473 - revert - 0bc708e7669aefaa2d058ab30faf8b484fbed49e
+The reverted commit sha is - d6c78a19bcf6b354c3efd4ffa2735102cf4f3473
+Commit message - Cleanup
+The original commit sha is - 0bc708e7669aefaa2d058ab30faf8b484fbed49e
+Commit message - Merge pull request #507 from daleharvey/506-putAttachment-not-respect-rev-parameter
+
+(#506) - putAttachment don't respect rev parameter
+The files with partial_reverts are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/plugins/pouchdb.visualizeRevTree.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 74 is -> 
+{ f28c1995f72eda23a3874859515f7c07c99f2c4f -> fbdb49121eb8f5879b751e0c4e05c95bf7318ce4 } is a revert
+{ 9fbb425862eb5f7f2bc5bfcb54952fa5080be69f -> d6c78a19bcf6b354c3efd4ffa2735102cf4f3473 }
+Partial Revert commits SHA are -> 
+fbdb49121eb8f5879b751e0c4e05c95bf7318ce4 - revert - d6c78a19bcf6b354c3efd4ffa2735102cf4f3473
+The reverted commit sha is - fbdb49121eb8f5879b751e0c4e05c95bf7318ce4
+Commit message - (#100) - Blobs: fix typo
+The original commit sha is - d6c78a19bcf6b354c3efd4ffa2735102cf4f3473
+Commit message - Cleanup
+The files with partial_reverts are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/pouch.adapter.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 75 is -> 
+{ d57bf3d871f9138b2c442ae6bc7a49da7af0d8d9 -> e051a9abf2334f4c3b67faa4655001fddf30fcce } is a revert
+{ 9fbb425862eb5f7f2bc5bfcb54952fa5080be69f -> d6c78a19bcf6b354c3efd4ffa2735102cf4f3473 }
+Partial Revert commits SHA are -> 
+e051a9abf2334f4c3b67faa4655001fddf30fcce - revert - d6c78a19bcf6b354c3efd4ffa2735102cf4f3473
+The reverted commit sha is - e051a9abf2334f4c3b67faa4655001fddf30fcce
+Commit message - Merge pull request #502 from daleharvey/100-use-blobs-for-attachments
+
+100 use blobs for attachments
+The original commit sha is - d6c78a19bcf6b354c3efd4ffa2735102cf4f3473
+Commit message - Cleanup
+The files with partial_reverts are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/pouch.adapter.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 76 is -> 
+{ 04b68f0eb4cfd1eccfe969b497602965c1bab9bf -> 7bcb5deb31d8e84a076f327ee036d4e6cfe1ff2d } is a revert
+{ add87dc39647631a6a19fedd2be4b36fff070ece -> 05835666322a98c15ebb95a331484273ede0a9ad }
+Partial Revert commits SHA are -> 
+7bcb5deb31d8e84a076f327ee036d4e6cfe1ff2d - revert - 05835666322a98c15ebb95a331484273ede0a9ad
+The reverted commit sha is - 7bcb5deb31d8e84a076f327ee036d4e6cfe1ff2d
+Commit message - Show full labels on mouseover
+The original commit sha is - 05835666322a98c15ebb95a331484273ede0a9ad
+Commit message - Merge pull request #501 from neojski/grunt-upgrade-server-missing
+
+server got renamed to connect
+The files with partial_reverts are:-
+CONTRIBUTING.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 77 is -> 
+{ 4274cd59a7459b4405cc18a90440372f3b79863f -> 09e8c0b5996ec1c4cb456d4697d46cc5935f4f8c } is a revert
+{ 09e8c0b5996ec1c4cb456d4697d46cc5935f4f8c -> f73dc5e66fcbff0582f915a041c9458f23307f91 }
+Partial Revert commits SHA are -> 
+09e8c0b5996ec1c4cb456d4697d46cc5935f4f8c - revert - f73dc5e66fcbff0582f915a041c9458f23307f91
+The reverted commit sha is - 09e8c0b5996ec1c4cb456d4697d46cc5935f4f8c
+Commit message - (#488) - Implicit reduce:false when no reduce specified
+The original commit sha is - f73dc5e66fcbff0582f915a041c9458f23307f91
+Commit message - Merge pull request #489 from adampolak/488-implicit-reduce-false
+
+(#488) - Implicit reduce:false when no reduce specified
+The files with partial_reverts are:-
+.travis.yml
+Gruntfile.js
+grunt.js
+package.json
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.spatial.js
+src/pouch.adapter.js
+tests/test.spatial.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 78 is -> 
+{ 2e9e32ae59b18a72b9275cf10d00d69df7cc675a -> cb37c4eae5f4b4b2e33117686a5011c60d23cbca } is a revert
+{ cad5551d36268db7f5379b9df281c58c61be8f5e -> 7f39b27223a06bb35497c65b76b1452f199e2b93 }
+Partial Revert commits SHA are -> 
+cb37c4eae5f4b4b2e33117686a5011c60d23cbca - revert - 7f39b27223a06bb35497c65b76b1452f199e2b93
+The reverted commit sha is - cb37c4eae5f4b4b2e33117686a5011c60d23cbca
+Commit message - (#402) - Fix wonky bounding box calculations
+
+The bounding box calculations of geometries wasn't really working.
+This is fixed now. Thanks Calvin Metcalf for bringing it up and
+doing the initial fixes.
+The original commit sha is - 7f39b27223a06bb35497c65b76b1452f199e2b93
+Commit message - Merge pull request #482 from daleharvey/454-grunt-upgrade
+
+Upgrade to grunt 0.4
+The files with partial_reverts are:-
+.travis.yml
+Gruntfile.js
+grunt.js
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 79 is -> 
+{ 7513bf85132edc6f9af98ecf174098f9808f94b0 -> 2e9e32ae59b18a72b9275cf10d00d69df7cc675a } is a revert
+{ fbd8bd728fa2085a0badcff97b478a6bf68a44ac -> cad5551d36268db7f5379b9df281c58c61be8f5e }
+Partial Revert commits SHA are -> 
+2e9e32ae59b18a72b9275cf10d00d69df7cc675a - revert - cad5551d36268db7f5379b9df281c58c61be8f5e
+The reverted commit sha is - 2e9e32ae59b18a72b9275cf10d00d69df7cc675a
+Commit message - Upgrade to grunt 0.4
+The original commit sha is - cad5551d36268db7f5379b9df281c58c61be8f5e
+Commit message - Merge pull request #481 from benrudolph/api-abstraction2
+
+Api abstraction2
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.adapter.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 80 is -> 
+{ 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 -> 570d80453f765b49f2e687cffe18242f1377bdf6 } is a revert
+{ 6af6672b5b1183b73a72bed5e414447111cd3fe1 -> 8da3aeda256116852c12238aab94857230b6538c }
+Partial Revert commits SHA are -> 
+570d80453f765b49f2e687cffe18242f1377bdf6 - revert - 8da3aeda256116852c12238aab94857230b6538c
+The reverted commit sha is - 570d80453f765b49f2e687cffe18242f1377bdf6
+Commit message - create and update _all_dbs database for idb
+The original commit sha is - 8da3aeda256116852c12238aab94857230b6538c
+Commit message - Revert pouch.alpha.js deletion
+
+It needs to be deleted as it's quite old but it will get deleted
+when I finish improving todo-list.
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 81 is -> 
+{ 2ed54d0f3424a0b40a7305dc714a4edb8468888b -> 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b } is a revert
+{ 6af6672b5b1183b73a72bed5e414447111cd3fe1 -> 8da3aeda256116852c12238aab94857230b6538c }
+Partial Revert commits SHA are -> 
+82ab1c722a13cbfe4ce0214434c6e5e8a65b366b - revert - 8da3aeda256116852c12238aab94857230b6538c
+The reverted commit sha is - 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b
+Commit message - added check in map function
+The original commit sha is - 8da3aeda256116852c12238aab94857230b6538c
+Commit message - Revert pouch.alpha.js deletion
+
+It needs to be deleted as it's quite old but it will get deleted
+when I finish improving todo-list.
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 82 is -> 
+{ 17c6b581439970d46139f964a34a1a6715175feb -> 7d64ae34a8f11f6b5d437212ce9c2adbfff04225 } is a revert
+{ 6af6672b5b1183b73a72bed5e414447111cd3fe1 -> 8da3aeda256116852c12238aab94857230b6538c }
+Partial Revert commits SHA are -> 
+7d64ae34a8f11f6b5d437212ce9c2adbfff04225 - revert - 8da3aeda256116852c12238aab94857230b6538c
+The reverted commit sha is - 7d64ae34a8f11f6b5d437212ce9c2adbfff04225
+Commit message - Add labels
+
+* labels display their shortest prefix which defines each rev
+The original commit sha is - 8da3aeda256116852c12238aab94857230b6538c
+Commit message - Revert pouch.alpha.js deletion
+
+It needs to be deleted as it's quite old but it will get deleted
+when I finish improving todo-list.
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 83 is -> 
+{ def657f53df29c0b360c2fa03b577eaf35cb3135 -> 6993025b8150acef0854b1b14287c71abef018df } is a revert
+{ 6af6672b5b1183b73a72bed5e414447111cd3fe1 -> 8da3aeda256116852c12238aab94857230b6538c }
+Partial Revert commits SHA are -> 
+6993025b8150acef0854b1b14287c71abef018df - revert - 8da3aeda256116852c12238aab94857230b6538c
+The reverted commit sha is - 6993025b8150acef0854b1b14287c71abef018df
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into 468-allDocs-uses-seq
+The original commit sha is - 8da3aeda256116852c12238aab94857230b6538c
+Commit message - Revert pouch.alpha.js deletion
+
+It needs to be deleted as it's quite old but it will get deleted
+when I finish improving todo-list.
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 84 is -> 
+{ 9d65e34d86559ddf956569fecc9daddfc5c0904f -> bc050fe502cfadb8423780f834704cb9eb20a372 } is a revert
+{ 6af6672b5b1183b73a72bed5e414447111cd3fe1 -> 8da3aeda256116852c12238aab94857230b6538c }
+Partial Revert commits SHA are -> 
+bc050fe502cfadb8423780f834704cb9eb20a372 - revert - 8da3aeda256116852c12238aab94857230b6538c
+The reverted commit sha is - bc050fe502cfadb8423780f834704cb9eb20a372
+Commit message - Fix leveldb adapter (#468)
+The original commit sha is - 8da3aeda256116852c12238aab94857230b6538c
+Commit message - Revert pouch.alpha.js deletion
+
+It needs to be deleted as it's quite old but it will get deleted
+when I finish improving todo-list.
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 85 is -> 
+{ f1b618718a51faff3191f1808c4b85fbaa3bb72c -> 6af6672b5b1183b73a72bed5e414447111cd3fe1 } is a revert
+{ 6af6672b5b1183b73a72bed5e414447111cd3fe1 -> 8da3aeda256116852c12238aab94857230b6538c }
+Partial Revert commits SHA are -> 
+6af6672b5b1183b73a72bed5e414447111cd3fe1 - revert - 8da3aeda256116852c12238aab94857230b6538c
+The reverted commit sha is - 6af6672b5b1183b73a72bed5e414447111cd3fe1
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into visualize-rev-tree
+The original commit sha is - 8da3aeda256116852c12238aab94857230b6538c
+Commit message - Revert pouch.alpha.js deletion
+
+It needs to be deleted as it's quite old but it will get deleted
+when I finish improving todo-list.
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 86 is -> 
+{ 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b -> ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 } is a revert
+{ f1b618718a51faff3191f1808c4b85fbaa3bb72c -> 6af6672b5b1183b73a72bed5e414447111cd3fe1 }
+Partial Revert commits SHA are -> 
+ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 - revert - 6af6672b5b1183b73a72bed5e414447111cd3fe1
+The reverted commit sha is - ec8835c13d0959cfdbda2f6c7cec4ce79fae8884
+Commit message - Removed code duplication in idv, leveled and websql adapters.
+The original commit sha is - 6af6672b5b1183b73a72bed5e414447111cd3fe1
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into visualize-rev-tree
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 87 is -> 
+{ 1b389e9107ac1a661419d0fe789818ca877a2755 -> 97a1605298146a619b3f0561dd05cdefe2e05e35 } is a revert
+{ c16988e47d3234ac764a0b50f2b1f5d2f45edc12 -> f1b618718a51faff3191f1808c4b85fbaa3bb72c }
+Partial Revert commits SHA are -> 
+97a1605298146a619b3f0561dd05cdefe2e05e35 - revert - f1b618718a51faff3191f1808c4b85fbaa3bb72c
+The reverted commit sha is - 97a1605298146a619b3f0561dd05cdefe2e05e35
+Commit message - (#471) - bulkDocs errors inconsistency
+
+Return with the first error when some documents have invalid ids.
+The original commit sha is - f1b618718a51faff3191f1808c4b85fbaa3bb72c
+Commit message - Fix lint again
+
+Globals got to the wrong file
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+tests/test.all_docs.js
+tests/test.bulk_docs.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 88 is -> 
+{ 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 -> 570d80453f765b49f2e687cffe18242f1377bdf6 } is a revert
+{ 2c41c1de305165a8b96480f631957efe12a79343 -> fb079e2737c8f957764ad9ee86d2872ea79f5f52 }
+Partial Revert commits SHA are -> 
+570d80453f765b49f2e687cffe18242f1377bdf6 - revert - fb079e2737c8f957764ad9ee86d2872ea79f5f52
+The reverted commit sha is - 570d80453f765b49f2e687cffe18242f1377bdf6
+Commit message - create and update _all_dbs database for idb
+The original commit sha is - fb079e2737c8f957764ad9ee86d2872ea79f5f52
+Commit message - (#471) - Test bulkDocs multiple errors
+
+When there are many docs with invalid ids, only the first error should
+be reported.
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 89 is -> 
+{ 2ed54d0f3424a0b40a7305dc714a4edb8468888b -> 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b } is a revert
+{ 2c41c1de305165a8b96480f631957efe12a79343 -> fb079e2737c8f957764ad9ee86d2872ea79f5f52 }
+Partial Revert commits SHA are -> 
+82ab1c722a13cbfe4ce0214434c6e5e8a65b366b - revert - fb079e2737c8f957764ad9ee86d2872ea79f5f52
+The reverted commit sha is - 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b
+Commit message - added check in map function
+The original commit sha is - fb079e2737c8f957764ad9ee86d2872ea79f5f52
+Commit message - (#471) - Test bulkDocs multiple errors
+
+When there are many docs with invalid ids, only the first error should
+be reported.
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 90 is -> 
+{ 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b -> ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 } is a revert
+{ 9d65e34d86559ddf956569fecc9daddfc5c0904f -> bc050fe502cfadb8423780f834704cb9eb20a372 }
+Partial Revert commits SHA are -> 
+ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 - revert - bc050fe502cfadb8423780f834704cb9eb20a372
+The reverted commit sha is - ec8835c13d0959cfdbda2f6c7cec4ce79fae8884
+Commit message - Removed code duplication in idv, leveled and websql adapters.
+The original commit sha is - bc050fe502cfadb8423780f834704cb9eb20a372
+Commit message - Fix leveldb adapter (#468)
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 91 is -> 
+{ 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 -> 570d80453f765b49f2e687cffe18242f1377bdf6 } is a revert
+{ 4437ecf03f3dd1abe9ab74e103de4ae4099bb2a4 -> 9d65e34d86559ddf956569fecc9daddfc5c0904f }
+Partial Revert commits SHA are -> 
+570d80453f765b49f2e687cffe18242f1377bdf6 - revert - 9d65e34d86559ddf956569fecc9daddfc5c0904f
+The reverted commit sha is - 570d80453f765b49f2e687cffe18242f1377bdf6
+Commit message - create and update _all_dbs database for idb
+The original commit sha is - 9d65e34d86559ddf956569fecc9daddfc5c0904f
+Commit message - (#471) - Test bulkDocs errors
+
+Add a test for the bulk docs error inconsitency.
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 92 is -> 
+{ 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b -> ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 } is a revert
+{ def657f53df29c0b360c2fa03b577eaf35cb3135 -> 6993025b8150acef0854b1b14287c71abef018df }
+Partial Revert commits SHA are -> 
+ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 - revert - 6993025b8150acef0854b1b14287c71abef018df
+The reverted commit sha is - ec8835c13d0959cfdbda2f6c7cec4ce79fae8884
+Commit message - Removed code duplication in idv, leveled and websql adapters.
+The original commit sha is - 6993025b8150acef0854b1b14287c71abef018df
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into 468-allDocs-uses-seq
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 93 is -> 
+{ 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 -> 570d80453f765b49f2e687cffe18242f1377bdf6 } is a revert
+{ 9da0c21c6af59a52c38d6e634c12c4771c83e5d1 -> e4be4d0adcd32255f3d16a409cf9e2b2f3283090 }
+Partial Revert commits SHA are -> 
+570d80453f765b49f2e687cffe18242f1377bdf6 - revert - e4be4d0adcd32255f3d16a409cf9e2b2f3283090
+The reverted commit sha is - 570d80453f765b49f2e687cffe18242f1377bdf6
+Commit message - create and update _all_dbs database for idb
+The original commit sha is - e4be4d0adcd32255f3d16a409cf9e2b2f3283090
+Commit message - Merge branch '312-persist-deletions-fix' of git://github.com/chunmun/pouchdb into chunmun-312-persist-deletions-fix
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 94 is -> 
+{ 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b -> ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 } is a revert
+{ 17c6b581439970d46139f964a34a1a6715175feb -> 7d64ae34a8f11f6b5d437212ce9c2adbfff04225 }
+Partial Revert commits SHA are -> 
+ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 - revert - 7d64ae34a8f11f6b5d437212ce9c2adbfff04225
+The reverted commit sha is - ec8835c13d0959cfdbda2f6c7cec4ce79fae8884
+Commit message - Removed code duplication in idv, leveled and websql adapters.
+The original commit sha is - 7d64ae34a8f11f6b5d437212ce9c2adbfff04225
+Commit message - Add labels
+
+* labels display their shortest prefix which defines each rev
+The files with partial_reverts are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 95 is -> 
+{ fe6ec128abaf33203988972218bcb134554e2846 -> 770c8f0946169998716eb49c028d5219f5cdad02 } is a revert
+{ d00f71cca531c32298b653479a3e44d1780ea837 -> 79f0b513d86745b45b431bea94f7ef502677d67e }
+Partial Revert commits SHA are -> 
+770c8f0946169998716eb49c028d5219f5cdad02 - revert - 79f0b513d86745b45b431bea94f7ef502677d67e
+The reverted commit sha is - 770c8f0946169998716eb49c028d5219f5cdad02
+Commit message - Merge branch 'master' of github.com:daleharvey/pouchdb into replication-abstraction
+The original commit sha is - 79f0b513d86745b45b431bea94f7ef502677d67e
+Commit message - Merge pull request #450 from neojski/visualize-rev-tree
+
+Visualize rev tree
+The files with partial_reverts are:-
+src/pouch.merge.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 96 is -> 
+{ 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 -> 570d80453f765b49f2e687cffe18242f1377bdf6 } is a revert
+{ d00f71cca531c32298b653479a3e44d1780ea837 -> 79f0b513d86745b45b431bea94f7ef502677d67e }
+Partial Revert commits SHA are -> 
+570d80453f765b49f2e687cffe18242f1377bdf6 - revert - 79f0b513d86745b45b431bea94f7ef502677d67e
+The reverted commit sha is - 570d80453f765b49f2e687cffe18242f1377bdf6
+Commit message - create and update _all_dbs database for idb
+The original commit sha is - 79f0b513d86745b45b431bea94f7ef502677d67e
+Commit message - Merge pull request #450 from neojski/visualize-rev-tree
+
+Visualize rev tree
+The files with partial_reverts are:-
+src/plugins/pouchdb.visualizeRevTree.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 97 is -> 
+{ ed3b581c185972c1fda26b32dde6a5a4436eb10f -> 1fbc360929efb683e382b2983dc6557e2652d514 } is a revert
+{ d00f71cca531c32298b653479a3e44d1780ea837 -> 79f0b513d86745b45b431bea94f7ef502677d67e }
+Partial Revert commits SHA are -> 
+1fbc360929efb683e382b2983dc6557e2652d514 - revert - 79f0b513d86745b45b431bea94f7ef502677d67e
+The reverted commit sha is - 1fbc360929efb683e382b2983dc6557e2652d514
+Commit message - Lock grunt version
+The original commit sha is - 79f0b513d86745b45b431bea94f7ef502677d67e
+Commit message - Merge pull request #450 from neojski/visualize-rev-tree
+
+Visualize rev tree
+The files with partial_reverts are:-
+src/plugins/pouchdb.visualizeRevTree.js
+src/pouch.merge.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 98 is -> 
+{ fe6ec128abaf33203988972218bcb134554e2846 -> 770c8f0946169998716eb49c028d5219f5cdad02 } is a revert
+{ 6d2c4fe922bb7fcc5b9d0dbbe146cd60cc92ab94 -> ed3b581c185972c1fda26b32dde6a5a4436eb10f }
+Partial Revert commits SHA are -> 
+770c8f0946169998716eb49c028d5219f5cdad02 - revert - ed3b581c185972c1fda26b32dde6a5a4436eb10f
+The reverted commit sha is - 770c8f0946169998716eb49c028d5219f5cdad02
+Commit message - Merge branch 'master' of github.com:daleharvey/pouchdb into replication-abstraction
+The original commit sha is - ed3b581c185972c1fda26b32dde6a5a4436eb10f
+Commit message - Fix basic lint problems
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.merge.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.basics.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 99 is -> 
+{ 557a7b99fa92ec8b74fac260d8e03e8c3f269030 -> 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 } is a revert
+{ 166cade80a0bb8df8b61307319bc7e5c532719de -> 6d2c4fe922bb7fcc5b9d0dbbe146cd60cc92ab94 }
+Partial Revert commits SHA are -> 
+8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 - revert - 6d2c4fe922bb7fcc5b9d0dbbe146cd60cc92ab94
+The reverted commit sha is - 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2
+Commit message - Make visualizeRevTree standalone plugin
+The original commit sha is - 6d2c4fe922bb7fcc5b9d0dbbe146cd60cc92ab94
+Commit message - Merge pull request #449 from benrudolph/replication-abstraction
+
+Replication abstraction
+The files with partial_reverts are:-
+src/pouch.adapter.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 100 is -> 
+{ fe6ec128abaf33203988972218bcb134554e2846 -> 770c8f0946169998716eb49c028d5219f5cdad02 } is a revert
+{ 557a7b99fa92ec8b74fac260d8e03e8c3f269030 -> 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 }
+Partial Revert commits SHA are -> 
+770c8f0946169998716eb49c028d5219f5cdad02 - revert - 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2
+The reverted commit sha is - 770c8f0946169998716eb49c028d5219f5cdad02
+Commit message - Merge branch 'master' of github.com:daleharvey/pouchdb into replication-abstraction
+The original commit sha is - 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2
+Commit message - Make visualizeRevTree standalone plugin
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.merge.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.basics.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 101 is -> 
+{ bc93c94f5ba4ee02460abb965f6758cbe184be9c -> d1d5b541044479a448e96098c90332ea12726a44 } is a revert
+{ d1d5b541044479a448e96098c90332ea12726a44 -> 4d904daee66b6ee493fe9b27520fbf56bbef518f }
+Partial Revert commits SHA are -> 
+d1d5b541044479a448e96098c90332ea12726a44 - revert - 4d904daee66b6ee493fe9b27520fbf56bbef518f
+The reverted commit sha is - d1d5b541044479a448e96098c90332ea12726a44
+Commit message - Merge pull request #429 from neojski/410-allDocs-keys-option
+
+410 all docs keys option
+The original commit sha is - 4d904daee66b6ee493fe9b27520fbf56bbef518f
+Commit message - Merge pull request #431 from daleharvey/reset-package-version
+
+Reset version field in package.json
+The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 102 is -> 
+{ cb4ead7c11ace6bba59f79d3c8fa51b6ff7f6a17 -> 78ad1a296da67db70d264e7acfb5c6b39b8797e1 } is a revert
+{ c24d09376d0018f11f8132e95057a0ad2f9ee305 -> 0b0d3559eb24daa01b926730e66dd62f20e87620 }
+Partial Revert commits SHA are -> 
+78ad1a296da67db70d264e7acfb5c6b39b8797e1 - revert - 0b0d3559eb24daa01b926730e66dd62f20e87620
+The reverted commit sha is - 78ad1a296da67db70d264e7acfb5c6b39b8797e1
+Commit message - Use more generic error messages
+
+Don't create lots of error messages in pouch.js, just extend generic errors
+The original commit sha is - 0b0d3559eb24daa01b926730e66dd62f20e87620
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into 410-allDocs-keys-option
+The files with partial_reverts are:-
+package.json
+tests/test.http.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 103 is -> 
+{ 1f922fb79ea8232e122ef70c71db9691c31e327a -> 98bb760c807d4bc7210a43a9bcdc730b76cb8c01 } is a revert
+{ 9bed2e10a02200ef02682453d0ba50b00b7ed9f8 -> cb4ead7c11ace6bba59f79d3c8fa51b6ff7f6a17 }
+Partial Revert commits SHA are -> 
+98bb760c807d4bc7210a43a9bcdc730b76cb8c01 - revert - cb4ead7c11ace6bba59f79d3c8fa51b6ff7f6a17
+The reverted commit sha is - 98bb760c807d4bc7210a43a9bcdc730b76cb8c01
+Commit message - Implement opts.keys for allDocs for LevelDB adapter
+The original commit sha is - cb4ead7c11ace6bba59f79d3c8fa51b6ff7f6a17
+Commit message - Merge pull request #428 from daleharvey/version-0.0.9
+
+bump package.json to 0.0.9
+The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 104 is -> 
+{ 8928916d998b1cdee0b4f2b6f54bef9ccd9abbde -> 76b803f1d0641aca351329de5d611bcfe9865a1c } is a revert
+{ 627b9a6bbbc5d9bbea11b5c3d9a9070bc286e0a3 -> 9bed2e10a02200ef02682453d0ba50b00b7ed9f8 }
+Partial Revert commits SHA are -> 
+76b803f1d0641aca351329de5d611bcfe9865a1c - revert - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+The reverted commit sha is - 76b803f1d0641aca351329de5d611bcfe9865a1c
+Commit message - Merge pull request #420 from calvinmetcalf/build-edge
+
+grunt to optionally add spatial
+The original commit sha is - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+Commit message - Merge pull request #425 from benrudolph/skip_setup
+
+Test for skip setup flag
+The files with partial_reverts are:-
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 105 is -> 
+{ 28e02c898dd0222edcd1763e6ef1f88c971ebd8b -> 9c42bafa17ff88c5578ede460ad0c106a7e53d48 } is a revert
+{ 627b9a6bbbc5d9bbea11b5c3d9a9070bc286e0a3 -> 9bed2e10a02200ef02682453d0ba50b00b7ed9f8 }
+Partial Revert commits SHA are -> 
+9c42bafa17ff88c5578ede460ad0c106a7e53d48 - revert - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+The reverted commit sha is - 9c42bafa17ff88c5578ede460ad0c106a7e53d48
+Commit message - Updated test and funtionality
+The original commit sha is - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+Commit message - Merge pull request #425 from benrudolph/skip_setup
+
+Test for skip setup flag
+The files with partial_reverts are:-
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 106 is -> 
+{ f14bdbf9d0b64a47ea69d88dac94c98d2395c7a1 -> 44075f3719c63468d8432c88246269188ba9a0e8 } is a revert
+{ 627b9a6bbbc5d9bbea11b5c3d9a9070bc286e0a3 -> 9bed2e10a02200ef02682453d0ba50b00b7ed9f8 }
+Partial Revert commits SHA are -> 
+44075f3719c63468d8432c88246269188ba9a0e8 - revert - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+The reverted commit sha is - 44075f3719c63468d8432c88246269188ba9a0e8
+Commit message - Fix allDocs startkey with indexeddb
+
+* fix lower_bound iterator
+* improve test for startkey
+The original commit sha is - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+Commit message - Merge pull request #425 from benrudolph/skip_setup
+
+Test for skip setup flag
+The files with partial_reverts are:-
+grunt.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 107 is -> 
+{ 0dd9aa0548a65b13dea1e880d3fd631eebf8c09b -> 627b9a6bbbc5d9bbea11b5c3d9a9070bc286e0a3 } is a revert
+{ 627b9a6bbbc5d9bbea11b5c3d9a9070bc286e0a3 -> 9bed2e10a02200ef02682453d0ba50b00b7ed9f8 }
+Partial Revert commits SHA are -> 
+627b9a6bbbc5d9bbea11b5c3d9a9070bc286e0a3 - revert - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+The reverted commit sha is - 627b9a6bbbc5d9bbea11b5c3d9a9070bc286e0a3
+Commit message - Initial attempt at queuing tasks
+The original commit sha is - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+Commit message - Merge pull request #425 from benrudolph/skip_setup
+
+Test for skip setup flag
+The files with partial_reverts are:-
+grunt.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 108 is -> 
+{ 8928916d998b1cdee0b4f2b6f54bef9ccd9abbde -> 76b803f1d0641aca351329de5d611bcfe9865a1c } is a revert
+{ 44075f3719c63468d8432c88246269188ba9a0e8 -> 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb }
+Partial Revert commits SHA are -> 
+76b803f1d0641aca351329de5d611bcfe9865a1c - revert - 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb
+The reverted commit sha is - 76b803f1d0641aca351329de5d611bcfe9865a1c
+Commit message - Merge pull request #420 from calvinmetcalf/build-edge
+
+grunt to optionally add spatial
+The original commit sha is - 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into 410-allDocs-keys-option
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 109 is -> 
+{ 28e02c898dd0222edcd1763e6ef1f88c971ebd8b -> 9c42bafa17ff88c5578ede460ad0c106a7e53d48 } is a revert
+{ 44075f3719c63468d8432c88246269188ba9a0e8 -> 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb }
+Partial Revert commits SHA are -> 
+9c42bafa17ff88c5578ede460ad0c106a7e53d48 - revert - 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb
+The reverted commit sha is - 9c42bafa17ff88c5578ede460ad0c106a7e53d48
+Commit message - Updated test and funtionality
+The original commit sha is - 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into 410-allDocs-keys-option
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 110 is -> 
+{ f14bdbf9d0b64a47ea69d88dac94c98d2395c7a1 -> 44075f3719c63468d8432c88246269188ba9a0e8 } is a revert
+{ 44075f3719c63468d8432c88246269188ba9a0e8 -> 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb }
+Partial Revert commits SHA are -> 
+44075f3719c63468d8432c88246269188ba9a0e8 - revert - 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb
+The reverted commit sha is - 44075f3719c63468d8432c88246269188ba9a0e8
+Commit message - Fix allDocs startkey with indexeddb
+
+* fix lower_bound iterator
+* improve test for startkey
+The original commit sha is - 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into 410-allDocs-keys-option
+The files with partial_reverts are:-
+grunt.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 111 is -> 
+{ 744533867e5597b2189327b2407094021e35cccf -> 8928916d998b1cdee0b4f2b6f54bef9ccd9abbde } is a revert
+{ f14bdbf9d0b64a47ea69d88dac94c98d2395c7a1 -> 44075f3719c63468d8432c88246269188ba9a0e8 }
+Partial Revert commits SHA are -> 
+8928916d998b1cdee0b4f2b6f54bef9ccd9abbde - revert - 44075f3719c63468d8432c88246269188ba9a0e8
+The reverted commit sha is - 8928916d998b1cdee0b4f2b6f54bef9ccd9abbde
+Commit message - Fix _local checks - introduce isLocalId into utils
+
+Edit all adapters to use isLocalId
+The original commit sha is - 44075f3719c63468d8432c88246269188ba9a0e8
+Commit message - Fix allDocs startkey with indexeddb
+
+* fix lower_bound iterator
+* improve test for startkey
+The files with partial_reverts are:-
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 112 is -> 
+{ 9c42bafa17ff88c5578ede460ad0c106a7e53d48 -> 611ecc0607d64d3a105a860ea1bcb0e6ae947ebc } is a revert
+{ f14bdbf9d0b64a47ea69d88dac94c98d2395c7a1 -> 44075f3719c63468d8432c88246269188ba9a0e8 }
+Partial Revert commits SHA are -> 
+611ecc0607d64d3a105a860ea1bcb0e6ae947ebc - revert - 44075f3719c63468d8432c88246269188ba9a0e8
+The reverted commit sha is - 611ecc0607d64d3a105a860ea1bcb0e6ae947ebc
+Commit message - Remove spatial and auth replication tests from CI
+The original commit sha is - 44075f3719c63468d8432c88246269188ba9a0e8
+Commit message - Fix allDocs startkey with indexeddb
+
+* fix lower_bound iterator
+* improve test for startkey
+The files with partial_reverts are:-
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 113 is -> 
+{ 28e02c898dd0222edcd1763e6ef1f88c971ebd8b -> 9c42bafa17ff88c5578ede460ad0c106a7e53d48 } is a revert
+{ 9c42bafa17ff88c5578ede460ad0c106a7e53d48 -> 611ecc0607d64d3a105a860ea1bcb0e6ae947ebc }
+Partial Revert commits SHA are -> 
+9c42bafa17ff88c5578ede460ad0c106a7e53d48 - revert - 611ecc0607d64d3a105a860ea1bcb0e6ae947ebc
+The reverted commit sha is - 9c42bafa17ff88c5578ede460ad0c106a7e53d48
+Commit message - Updated test and funtionality
+The original commit sha is - 611ecc0607d64d3a105a860ea1bcb0e6ae947ebc
+Commit message - Remove spatial and auth replication tests from CI
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+tests/test.http.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 114 is -> 
+{ 8928916d998b1cdee0b4f2b6f54bef9ccd9abbde -> 76b803f1d0641aca351329de5d611bcfe9865a1c } is a revert
+{ 76b803f1d0641aca351329de5d611bcfe9865a1c -> 28e02c898dd0222edcd1763e6ef1f88c971ebd8b }
+Partial Revert commits SHA are -> 
+76b803f1d0641aca351329de5d611bcfe9865a1c - revert - 28e02c898dd0222edcd1763e6ef1f88c971ebd8b
+The reverted commit sha is - 76b803f1d0641aca351329de5d611bcfe9865a1c
+Commit message - Merge pull request #420 from calvinmetcalf/build-edge
+
+grunt to optionally add spatial
+The original commit sha is - 28e02c898dd0222edcd1763e6ef1f88c971ebd8b
+Commit message - Merge pull request #426 from neojski/fix-testing-for-_local
+
+Fix _local checks - introduce isLocalId into utils
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 115 is -> 
+{ 18b283823872fcafb735caf4dc8098b3180b20c4 -> 685c9e7e42e062dbb2b74119a682ae26f9a916c8 } is a revert
+{ 591865c9b2ed4a908fca64c568623dd87aa9a069 -> 3df7a60c9021a6d90dc4ef4eba16119acdd09352 }
+Partial Revert commits SHA are -> 
+685c9e7e42e062dbb2b74119a682ae26f9a916c8 - revert - 3df7a60c9021a6d90dc4ef4eba16119acdd09352
+The reverted commit sha is - 685c9e7e42e062dbb2b74119a682ae26f9a916c8
+Commit message - Clean up and add additional check
+The original commit sha is - 3df7a60c9021a6d90dc4ef4eba16119acdd09352
+Commit message - Merge remote branch 'upstream/master' into build-edge
+The files with partial_reverts are:-
+docs/api.md
+grunt.js
+package.json
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 116 is -> 
+{ da8d07445550e07329094490425fe8de5541d7ff -> fcb9efdc647fd5b101d6450d422f39501bda8641 } is a revert
+{ 591865c9b2ed4a908fca64c568623dd87aa9a069 -> 3df7a60c9021a6d90dc4ef4eba16119acdd09352 }
+Partial Revert commits SHA are -> 
+fcb9efdc647fd5b101d6450d422f39501bda8641 - revert - 3df7a60c9021a6d90dc4ef4eba16119acdd09352
+The reverted commit sha is - fcb9efdc647fd5b101d6450d422f39501bda8641
+Commit message - Test for creating a database using skipSetup.
+The original commit sha is - 3df7a60c9021a6d90dc4ef4eba16119acdd09352
+Commit message - Merge remote branch 'upstream/master' into build-edge
+The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 117 is -> 
+{ 6f9e8fdaae4f7c8fb1f10c4072810bbccc85b9f4 -> 591865c9b2ed4a908fca64c568623dd87aa9a069 } is a revert
+{ 591865c9b2ed4a908fca64c568623dd87aa9a069 -> 3df7a60c9021a6d90dc4ef4eba16119acdd09352 }
+Partial Revert commits SHA are -> 
+591865c9b2ed4a908fca64c568623dd87aa9a069 - revert - 3df7a60c9021a6d90dc4ef4eba16119acdd09352
+The reverted commit sha is - 591865c9b2ed4a908fca64c568623dd87aa9a069
+Commit message - grunt -> spatial
+The original commit sha is - 3df7a60c9021a6d90dc4ef4eba16119acdd09352
+Commit message - Merge remote branch 'upstream/master' into build-edge
+The files with partial_reverts are:-
+docs/api.md
+package.json
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+tests/test.changes.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 118 is -> 
+{ 18b283823872fcafb735caf4dc8098b3180b20c4 -> 685c9e7e42e062dbb2b74119a682ae26f9a916c8 } is a revert
+{ 6f9e8fdaae4f7c8fb1f10c4072810bbccc85b9f4 -> 591865c9b2ed4a908fca64c568623dd87aa9a069 }
+Partial Revert commits SHA are -> 
+685c9e7e42e062dbb2b74119a682ae26f9a916c8 - revert - 591865c9b2ed4a908fca64c568623dd87aa9a069
+The reverted commit sha is - 685c9e7e42e062dbb2b74119a682ae26f9a916c8
+Commit message - Clean up and add additional check
+The original commit sha is - 591865c9b2ed4a908fca64c568623dd87aa9a069
+Commit message - grunt -> spatial
+The files with partial_reverts are:-
+tests/test.changes.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 119 is -> 
+{ fcb9efdc647fd5b101d6450d422f39501bda8641 -> 0acd975cd402b68e942a2aa45bf3bb100c975d68 } is a revert
+{ 6f9e8fdaae4f7c8fb1f10c4072810bbccc85b9f4 -> 591865c9b2ed4a908fca64c568623dd87aa9a069 }
+Partial Revert commits SHA are -> 
+0acd975cd402b68e942a2aa45bf3bb100c975d68 - revert - 591865c9b2ed4a908fca64c568623dd87aa9a069
+The reverted commit sha is - 0acd975cd402b68e942a2aa45bf3bb100c975d68
+Commit message - Merge branch 'master' of github.com:daleharvey/pouchdb into skip_setup
+The original commit sha is - 591865c9b2ed4a908fca64c568623dd87aa9a069
+Commit message - grunt -> spatial
+The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 120 is -> 
+{ da8d07445550e07329094490425fe8de5541d7ff -> fcb9efdc647fd5b101d6450d422f39501bda8641 } is a revert
+{ fcb9efdc647fd5b101d6450d422f39501bda8641 -> 0acd975cd402b68e942a2aa45bf3bb100c975d68 }
+Partial Revert commits SHA are -> 
+fcb9efdc647fd5b101d6450d422f39501bda8641 - revert - 0acd975cd402b68e942a2aa45bf3bb100c975d68
+The reverted commit sha is - fcb9efdc647fd5b101d6450d422f39501bda8641
+Commit message - Test for creating a database using skipSetup.
+The original commit sha is - 0acd975cd402b68e942a2aa45bf3bb100c975d68
+Commit message - Merge branch 'master' of github.com:daleharvey/pouchdb into skip_setup
+The files with partial_reverts are:-
+CONTRIBUTING.md
+README.md
+docs/api.md
+grunt.js
+package.json
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.amd.js
+src/pouch.merge.js
+src/pouch.utils.js
+src/pouch.window.js
+tests/perf.html
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.auth_replication.js
+tests/test.bulk_docs.js
+tests/test.changes.js
+tests/test.conflicts.js
+tests/test.design_docs.js
+tests/test.issue221.js
+tests/test.replication.js
+tests/test.revs_diff.js
+tests/test.spatial.js
+tests/test.utils.js
+tests/test.views.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 121 is -> 
+{ 18b283823872fcafb735caf4dc8098b3180b20c4 -> 685c9e7e42e062dbb2b74119a682ae26f9a916c8 } is a revert
+{ ba014c22430840b324156cd6bf0dfe6e12f3de97 -> da8d07445550e07329094490425fe8de5541d7ff }
+Partial Revert commits SHA are -> 
+685c9e7e42e062dbb2b74119a682ae26f9a916c8 - revert - da8d07445550e07329094490425fe8de5541d7ff
+The reverted commit sha is - 685c9e7e42e062dbb2b74119a682ae26f9a916c8
+Commit message - Clean up and add additional check
+The original commit sha is - da8d07445550e07329094490425fe8de5541d7ff
+Commit message - Merge pull request #403 from nick-thompson/403-leveldb-adapter-changes-bug
+
+LevelDB adapter api.changes bug
+The files with partial_reverts are:-
+docs/api.md
+grunt.js
+package.json
+src/adapters/pouch.idb.js
+src/adapters/pouch.websql.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 122 is -> 
+{ c67e246e0c226c97711907c0f9a93f895c8fcd9d -> 2298c34d7b2905f81fa3b140c89f80bcec7c9389 } is a revert
+{ 57176a873638b4054438444744fa5d65df81a10b -> bc0cefb4b3e662265cfab1d9f7110a7f44df15d3 }
+Partial Revert commits SHA are -> 
+2298c34d7b2905f81fa3b140c89f80bcec7c9389 - revert - bc0cefb4b3e662265cfab1d9f7110a7f44df15d3
+The reverted commit sha is - 2298c34d7b2905f81fa3b140c89f80bcec7c9389
+Commit message - fixing the jam section, and removing the unused jquery from the AMD section
+The original commit sha is - bc0cefb4b3e662265cfab1d9f7110a7f44df15d3
+Commit message - Merge pull request #412 from neojski/remove-with-no-options
+
+Remove with no options
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 123 is -> 
+{ b967328f47b13fb53c377bcee13a73e60116b9e9 -> 654dba036733ef24c1c1eb0aa59143f64deaf70b } is a revert
+{ 57176a873638b4054438444744fa5d65df81a10b -> bc0cefb4b3e662265cfab1d9f7110a7f44df15d3 }
+Partial Revert commits SHA are -> 
+654dba036733ef24c1c1eb0aa59143f64deaf70b - revert - bc0cefb4b3e662265cfab1d9f7110a7f44df15d3
+The reverted commit sha is - 654dba036733ef24c1c1eb0aa59143f64deaf70b
+Commit message - #403 - force leveldb api.changes to react the same as CouchDB
+The original commit sha is - bc0cefb4b3e662265cfab1d9f7110a7f44df15d3
+Commit message - Merge pull request #412 from neojski/remove-with-no-options
+
+Remove with no options
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.websql.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 124 is -> 
+{ 3be0fa994bfe18d03fdca6eaf12ba36160c2e565 -> 33f1fe65c3548cc64ada5421861f8a886b5b0f8c } is a revert
+{ 57176a873638b4054438444744fa5d65df81a10b -> bc0cefb4b3e662265cfab1d9f7110a7f44df15d3 }
+Partial Revert commits SHA are -> 
+33f1fe65c3548cc64ada5421861f8a886b5b0f8c - revert - bc0cefb4b3e662265cfab1d9f7110a7f44df15d3
+The reverted commit sha is - 33f1fe65c3548cc64ada5421861f8a886b5b0f8c
+Commit message - Improvements of changes api
+
+* example of continuous usage
+* document .cancel()
+The original commit sha is - bc0cefb4b3e662265cfab1d9f7110a7f44df15d3
+Commit message - Merge pull request #412 from neojski/remove-with-no-options
+
+Remove with no options
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 125 is -> 
+{ 2298c34d7b2905f81fa3b140c89f80bcec7c9389 -> 105ed5e4d66c4b4be3cd47b786fa20920b4862d4 } is a revert
+{ d9dd3b0999b660a6760e344c914100d480810528 -> 57176a873638b4054438444744fa5d65df81a10b }
+Partial Revert commits SHA are -> 
+105ed5e4d66c4b4be3cd47b786fa20920b4862d4 - revert - 57176a873638b4054438444744fa5d65df81a10b
+The reverted commit sha is - 105ed5e4d66c4b4be3cd47b786fa20920b4862d4
+Commit message - Basic descending order test
+The original commit sha is - 57176a873638b4054438444744fa5d65df81a10b
+Commit message - Merge pull request #421 from daleharvey/jam-fix
+
+fixing the jam section, and removing the unused jquery from the AMD section
+The files with partial_reverts are:-
+grunt.js
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 126 is -> 
+{ b967328f47b13fb53c377bcee13a73e60116b9e9 -> 654dba036733ef24c1c1eb0aa59143f64deaf70b } is a revert
+{ 654dba036733ef24c1c1eb0aa59143f64deaf70b -> 3be0fa994bfe18d03fdca6eaf12ba36160c2e565 }
+Partial Revert commits SHA are -> 
+654dba036733ef24c1c1eb0aa59143f64deaf70b - revert - 3be0fa994bfe18d03fdca6eaf12ba36160c2e565
+The reverted commit sha is - 654dba036733ef24c1c1eb0aa59143f64deaf70b
+Commit message - #403 - force leveldb api.changes to react the same as CouchDB
+The original commit sha is - 3be0fa994bfe18d03fdca6eaf12ba36160c2e565
+Commit message - Start listening to changes before doing them.
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+tests/test.changes.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 127 is -> 
+{ cc7a1dd2304a3e46b1607768c133bd2bc4034f59 -> b967328f47b13fb53c377bcee13a73e60116b9e9 } is a revert
+{ b967328f47b13fb53c377bcee13a73e60116b9e9 -> 654dba036733ef24c1c1eb0aa59143f64deaf70b }
+Partial Revert commits SHA are -> 
+b967328f47b13fb53c377bcee13a73e60116b9e9 - revert - 654dba036733ef24c1c1eb0aa59143f64deaf70b
+The reverted commit sha is - b967328f47b13fb53c377bcee13a73e60116b9e9
+Commit message - Cancel watching changes after we are done
+The original commit sha is - 654dba036733ef24c1c1eb0aa59143f64deaf70b
+Commit message - #403 - force leveldb api.changes to react the same as CouchDB
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.websql.js
+tests/test.basics.js
+tests/test.changes.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 128 is -> 
+{ 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629 -> 2060eb32a2931abff66d780d06eb821f41204c60 } is a revert
+{ e27e23eedd3e31ba823b522869a3a1bb3e901cff -> dd88ee5b0f18f94802806c7bf23c9b45b808f476 }
+Partial Revert commits SHA are -> 
+2060eb32a2931abff66d780d06eb821f41204c60 - revert - dd88ee5b0f18f94802806c7bf23c9b45b808f476
+The reverted commit sha is - 2060eb32a2931abff66d780d06eb821f41204c60
+Commit message - #407 Corrected path requirement for grunt-node-qunit
+The original commit sha is - dd88ee5b0f18f94802806c7bf23c9b45b808f476
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into remove-with-no-options
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 129 is -> 
+{ e338c0b467599f241342f469d18a63fa074cbb4b -> 1c9eb88c25f14fecf289de28f8266c67bf463fe1 } is a revert
+{ e27e23eedd3e31ba823b522869a3a1bb3e901cff -> dd88ee5b0f18f94802806c7bf23c9b45b808f476 }
+Partial Revert commits SHA are -> 
+1c9eb88c25f14fecf289de28f8266c67bf463fe1 - revert - dd88ee5b0f18f94802806c7bf23c9b45b808f476
+The reverted commit sha is - 1c9eb88c25f14fecf289de28f8266c67bf463fe1
+Commit message - Merge pull request #417 from daleharvey/416-linting-to-tests
+
+#416 Added Linting to grunt
+The original commit sha is - dd88ee5b0f18f94802806c7bf23c9b45b808f476
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into remove-with-no-options
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 130 is -> 
+{ 9191a3158c751eadeac54162c0b2d119e3b470c5 -> ee28ae1d8ef967e36813073883e0b1c9f813a5ac } is a revert
+{ 79bd4032e292d7666a246a134602c2f01f75fe1e -> 28ac681869cbd46324edbec0a5ea0563f9d1849b }
+Partial Revert commits SHA are -> 
+ee28ae1d8ef967e36813073883e0b1c9f813a5ac - revert - 28ac681869cbd46324edbec0a5ea0563f9d1849b
+The reverted commit sha is - ee28ae1d8ef967e36813073883e0b1c9f813a5ac
+Commit message - Seems to be working in Jam
+The original commit sha is - 28ac681869cbd46324edbec0a5ea0563f9d1849b
+Commit message - Removed unused source file
+The files with partial_reverts are:-
+src/pouch.window.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 131 is -> 
+{ a64c5f81674ceaec40480adbcfac658add2b34db -> 558f3e2bc9472a1c2c2d7383ef50291dd248d795 } is a revert
+{ e338c0b467599f241342f469d18a63fa074cbb4b -> 1c9eb88c25f14fecf289de28f8266c67bf463fe1 }
+Partial Revert commits SHA are -> 
+558f3e2bc9472a1c2c2d7383ef50291dd248d795 - revert - 1c9eb88c25f14fecf289de28f8266c67bf463fe1
+The reverted commit sha is - 558f3e2bc9472a1c2c2d7383ef50291dd248d795
+Commit message - Fix no callback remove test.
+The original commit sha is - 1c9eb88c25f14fecf289de28f8266c67bf463fe1
+Commit message - Merge pull request #417 from daleharvey/416-linting-to-tests
+
+#416 Added Linting to grunt
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 132 is -> 
+{ 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629 -> 2060eb32a2931abff66d780d06eb821f41204c60 } is a revert
+{ d29f34085feb697ae984b3717ed573aaaabd8c6a -> e338c0b467599f241342f469d18a63fa074cbb4b }
+Partial Revert commits SHA are -> 
+2060eb32a2931abff66d780d06eb821f41204c60 - revert - e338c0b467599f241342f469d18a63fa074cbb4b
+The reverted commit sha is - 2060eb32a2931abff66d780d06eb821f41204c60
+Commit message - #407 Corrected path requirement for grunt-node-qunit
+The original commit sha is - e338c0b467599f241342f469d18a63fa074cbb4b
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into remove-with-no-options
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 133 is -> 
+{ dd7a99a65108478c1549b3a85981a24ed3746471 -> 01bc025ce0460c16bd460369175a2de19a69264e } is a revert
+{ 1b1d0e1ae083c49df4b6eda77e6575d8e5a5ee5f -> ef2bae45856e33205ee5f0092595da087e8dccae }
+Partial Revert commits SHA are -> 
+01bc025ce0460c16bd460369175a2de19a69264e - revert - ef2bae45856e33205ee5f0092595da087e8dccae
+The reverted commit sha is - 01bc025ce0460c16bd460369175a2de19a69264e
+Commit message - Better naming
+The original commit sha is - ef2bae45856e33205ee5f0092595da087e8dccae
+Commit message - Merge pull request #414 from daleharvey/fix-node-tests
+
+Fix node tests
+The files with partial_reverts are:-
+grunt.js
+src/adapters/pouch.leveldb.js
+src/pouch.merge.js
+src/pouch.utils.js
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 134 is -> 
+{ a64c5f81674ceaec40480adbcfac658add2b34db -> 558f3e2bc9472a1c2c2d7383ef50291dd248d795 } is a revert
+{ 558f3e2bc9472a1c2c2d7383ef50291dd248d795 -> cd62feced5baf1f771bcea4899c171e855e2fee0 }
+Partial Revert commits SHA are -> 
+558f3e2bc9472a1c2c2d7383ef50291dd248d795 - revert - cd62feced5baf1f771bcea4899c171e855e2fee0
+The reverted commit sha is - 558f3e2bc9472a1c2c2d7383ef50291dd248d795
+Commit message - Fix no callback remove test.
+The original commit sha is - cd62feced5baf1f771bcea4899c171e855e2fee0
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into remove-with-no-options
+The files with partial_reverts are:-
+grunt.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 135 is -> 
+{ 2df025223fd17f94bfe789ae30ddcf20780fa879 -> 16a27720d58544d40a6b4308079b94e763ae9054 } is a revert
+{ 6e03027ab804de2da4be776e9f96e34361cff82c -> 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629 }
+Partial Revert commits SHA are -> 
+16a27720d58544d40a6b4308079b94e763ae9054 - revert - 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629
+The reverted commit sha is - 16a27720d58544d40a6b4308079b94e763ae9054
+Commit message - Uses iframes instead of popup windows in "Continous changes across tabs" test.
+The original commit sha is - 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into remove-with-no-options
+The files with partial_reverts are:-
+docs/api.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 136 is -> 
+{ 297df97a8535127ac2b325bec248fa1d5cb17f67 -> 6e03027ab804de2da4be776e9f96e34361cff82c } is a revert
+{ 6e03027ab804de2da4be776e9f96e34361cff82c -> 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629 }
+Partial Revert commits SHA are -> 
+6e03027ab804de2da4be776e9f96e34361cff82c - revert - 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629
+The reverted commit sha is - 6e03027ab804de2da4be776e9f96e34361cff82c
+Commit message - db.remove(doc) is now possible (as documented)
+The original commit sha is - 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into remove-with-no-options
+The files with partial_reverts are:-
+docs/api.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 137 is -> 
+{ e5f7f5d26f5be6ea05e49e4d07f95ca01849d4b6 -> 2df025223fd17f94bfe789ae30ddcf20780fa879 } is a revert
+{ 2df025223fd17f94bfe789ae30ddcf20780fa879 -> 16a27720d58544d40a6b4308079b94e763ae9054 }
+Partial Revert commits SHA are -> 
+2df025223fd17f94bfe789ae30ddcf20780fa879 - revert - 16a27720d58544d40a6b4308079b94e763ae9054
+The reverted commit sha is - 2df025223fd17f94bfe789ae30ddcf20780fa879
+Commit message - Fix changes documentation
+The original commit sha is - 16a27720d58544d40a6b4308079b94e763ae9054
+Commit message - Uses iframes instead of popup windows in "Continous changes across tabs" test.
+The files with partial_reverts are:-
+docs/api.md
+src/adapters/pouch.idb.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 138 is -> 
+{ 885cc751dcb908d4c36f8818246d9139be82ade2 -> 17d7fa8ffd702a8ba1f8b961241c12ae4db62e24 } is a revert
+{ 7fa327676716746ca3a54ca28ab9ae3e6b0b9995 -> 4ebdb55acd4d94730652f5e70f09c06059fa02d9 }
+Partial Revert commits SHA are -> 
+17d7fa8ffd702a8ba1f8b961241c12ae4db62e24 - revert - 4ebdb55acd4d94730652f5e70f09c06059fa02d9
+The reverted commit sha is - 17d7fa8ffd702a8ba1f8b961241c12ae4db62e24
+Commit message - Allow multiple keys for query to http
+
+POSTing multiple keys allows for large specific queries to CouchDB
+Sorry for coding style (again)
+The original commit sha is - 4ebdb55acd4d94730652f5e70f09c06059fa02d9
+Commit message - Merge pull request #390 from daleharvey/374-redux
+
+374 redux
+The files with partial_reverts are:-
+grunt.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+tests/test.merge_rev_tree.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 139 is -> 
+{ 17d7fa8ffd702a8ba1f8b961241c12ae4db62e24 -> 0fda5975a0a5d4b3cc9b008fc56a177a62254589 } is a revert
+{ 308ea21e1c61681a87f5144bdffb213625e86635 -> 6949cec8b6e98586efcf7421c3d5ca739e1f113c }
+Partial Revert commits SHA are -> 
+0fda5975a0a5d4b3cc9b008fc56a177a62254589 - revert - 6949cec8b6e98586efcf7421c3d5ca739e1f113c
+The reverted commit sha is - 0fda5975a0a5d4b3cc9b008fc56a177a62254589
+Commit message - Merge branch 'spatial' of git://github.com/vmx/pouchdb into vmx-spatial
+
+Conflicts:
+	tests/webrunner.js
+The original commit sha is - 6949cec8b6e98586efcf7421c3d5ca739e1f113c
+Commit message - Allow multiple keys for query to http
+
+POSTing multiple keys allows for large specific queries to CouchDB
+Sorry for coding style (again)
+The files with partial_reverts are:-
+src/plugins/pouchdb.mapreduce.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 140 is -> 
+{ ec86391fe79e7dad45f3ba7033e2eba5bf258949 -> 047c2576507ea1fdf3cdd201098f68cdec02dd30 } is a revert
+{ 17d7fa8ffd702a8ba1f8b961241c12ae4db62e24 -> 0fda5975a0a5d4b3cc9b008fc56a177a62254589 }
+Partial Revert commits SHA are -> 
+047c2576507ea1fdf3cdd201098f68cdec02dd30 - revert - 0fda5975a0a5d4b3cc9b008fc56a177a62254589
+The reverted commit sha is - 047c2576507ea1fdf3cdd201098f68cdec02dd30
+Commit message - Version lock levelup while its broken
+The original commit sha is - 0fda5975a0a5d4b3cc9b008fc56a177a62254589
+Commit message - Merge branch 'spatial' of git://github.com/vmx/pouchdb into vmx-spatial
+
+Conflicts:
+	tests/webrunner.js
+The files with partial_reverts are:-
+src/plugins/pouchdb.spatial.js
+src/pouch.js
+tests/test.spatial.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 141 is -> 
+{ 4aaf8513a1b15bad74a3b8ce6f90c9408f961854 -> 81894f732c79c9b54b63c18ad14b02ee3e57b378 } is a revert
+{ 8280c85613bfc59d8c7c4796d1bb27c2ecc1ef35 -> 534394c86179043d11e3825cc6267ddbb05681f9 }
+Partial Revert commits SHA are -> 
+81894f732c79c9b54b63c18ad14b02ee3e57b378 - revert - 534394c86179043d11e3825cc6267ddbb05681f9
+The reverted commit sha is - 81894f732c79c9b54b63c18ad14b02ee3e57b378
+Commit message - Merge pull request #379 from nick-thompson/379-transaction-mode
+
+IDB Transaction Mode Chrome Canary
+The original commit sha is - 534394c86179043d11e3825cc6267ddbb05681f9
+Commit message - Merge pull request #382 from jo/view-tests
+
+Test view result row has id, key and value
+The files with partial_reverts are:-
+src/plugins/pouchdb.mapreduce.js
+tests/test.views.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 142 is -> 
+{ a9a9cb61d4f3ed24de7605f97d38a49ca4fb37a6 -> 7f677bb0cd580c5e3d23048191526725f9ae801d } is a revert
+{ 7459e9f5ec113b3cf2032a131421593838cfc45f -> 14df932d0885ebdd0fa09c2adbc47715a1a212c6 }
+Partial Revert commits SHA are -> 
+7f677bb0cd580c5e3d23048191526725f9ae801d - revert - 14df932d0885ebdd0fa09c2adbc47715a1a212c6
+The reverted commit sha is - 7f677bb0cd580c5e3d23048191526725f9ae801d
+Commit message - Merge pull request #329 from calvinmetcalf/89-remove-jquery
+
+replace jquery with zepto
+The original commit sha is - 14df932d0885ebdd0fa09c2adbc47715a1a212c6
+Commit message - removed zepto
+The files with partial_reverts are:-
+src/deps/zepto.min.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 143 is -> 
+{ 7a524645f3d3f7f9a08531bd537f85dcd2d96320 -> b1939391dd067defd24e435ae4ed3bb7e706c8be } is a revert
+{ a9a9cb61d4f3ed24de7605f97d38a49ca4fb37a6 -> 7f677bb0cd580c5e3d23048191526725f9ae801d }
+Partial Revert commits SHA are -> 
+b1939391dd067defd24e435ae4ed3bb7e706c8be - revert - 7f677bb0cd580c5e3d23048191526725f9ae801d
+The reverted commit sha is - b1939391dd067defd24e435ae4ed3bb7e706c8be
+Commit message - Clean up test databases once tests are complete
+The original commit sha is - 7f677bb0cd580c5e3d23048191526725f9ae801d
+Commit message - Merge pull request #329 from calvinmetcalf/89-remove-jquery
+
+replace jquery with zepto
+The files with partial_reverts are:-
+grunt.js
+src/deps/jquery-1.7.1.min.js
+src/deps/zepto.min.js
+tests/perf.html
+tests/test.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 144 is -> 
+{ 450fa6410735f4c5014c7f9e0ded645989af201a -> b838290b32941e73cdbb36c961a14e966b053bef } is a revert
+{ b838290b32941e73cdbb36c961a14e966b053bef -> d2717da727db74b5a309a105360c67844c4f9025 }
+Partial Revert commits SHA are -> 
+b838290b32941e73cdbb36c961a14e966b053bef - revert - d2717da727db74b5a309a105360c67844c4f9025
+The reverted commit sha is - b838290b32941e73cdbb36c961a14e966b053bef
+Commit message - Merge pull request #356 from adampolak/232-changes-api-confusion
+
+232 changes api confusion
+The original commit sha is - d2717da727db74b5a309a105360c67844c4f9025
+Commit message - Merge pull request #357 from chunmun/master
+
+#308  Add filter into replication identifier with 2 tests
+The files with partial_reverts are:-
+src/pouch.replicate.js
+src/pouch.utils.js
+tests/test.replication.js
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 145 is -> 
+{ 3b78518660d6460a777bac7ce811f8effcfb1bd7 -> 7318f9e6a3e13f8dac18bab3caa23f88069ebc95 } is a revert
+{ d35631cb3f1cc94237202d43f61350795d068708 -> 10c4570a01dcd09c0002ce202c8405f307ccaddd }
+Partial Revert commits SHA are -> 
+7318f9e6a3e13f8dac18bab3caa23f88069ebc95 - revert - 10c4570a01dcd09c0002ce202c8405f307ccaddd
+The reverted commit sha is - 7318f9e6a3e13f8dac18bab3caa23f88069ebc95
+Commit message - made conflicts optional when called with db.query
+The original commit sha is - 10c4570a01dcd09c0002ce202c8405f307ccaddd
+Commit message - Merge branch 'master' of github.com:daleharvey/pouchdb
+The files with partial_reverts are:-
+src/pouch.replicate.js
+src/pouch.utils.js
+tests/test.replication.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 146 is -> 
+{ f33a54bba19cbd1b1806402899be3e095de56f9c -> f2eee7cbeadb3426086257323fe0c6a2c63d34fd } is a revert
+{ 00e7aed552aab07e87ed738de6f70c107b2f88a1 -> abbeebd8577ee101e58e24277faa1f1c9ca380e2 }
+Partial Revert commits SHA are -> 
+f2eee7cbeadb3426086257323fe0c6a2c63d34fd - revert - abbeebd8577ee101e58e24277faa1f1c9ca380e2
+The reverted commit sha is - f2eee7cbeadb3426086257323fe0c6a2c63d34fd
+Commit message - Merge pull request #347 from ssured/patch-1
+
+Read config from supplied opts, if specified
+The original commit sha is - abbeebd8577ee101e58e24277faa1f1c9ca380e2
+Commit message - Merge branch 'master' into 337-extend-method
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.merge.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 147 is -> 
+{ f517bc9f6e2b1548536ed48a362d64b72d732fca -> f33a54bba19cbd1b1806402899be3e095de56f9c } is a revert
+{ cc3a96a2cee35573da1191dd3361ddd544854261 -> 4041b526662f0f5e334e685d3f02a59fd4c04051 }
+Partial Revert commits SHA are -> 
+f33a54bba19cbd1b1806402899be3e095de56f9c - revert - 4041b526662f0f5e334e685d3f02a59fd4c04051
+The reverted commit sha is - f33a54bba19cbd1b1806402899be3e095de56f9c
+Commit message - replaced JSON.parse(JSON.stringify( with jQuery's extend method
+The original commit sha is - 4041b526662f0f5e334e685d3f02a59fd4c04051
+Commit message - Merge pull request #353 from ymichael/fixed-pouch.merge-tests
+
+fixed pouch.merge tests
+The files with partial_reverts are:-
+tests/test.merge_rev_tree.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 148 is -> 
+{ e106a538211632921a4901d61beee52a2865b2bb -> 01018951c18de8d9985774e88bc29f2e6cc87e95 } is a revert
+{ 43c8a91f1d62e56406ed785c7be14825f0502131 -> cc3a96a2cee35573da1191dd3361ddd544854261 }
+Partial Revert commits SHA are -> 
+01018951c18de8d9985774e88bc29f2e6cc87e95 - revert - cc3a96a2cee35573da1191dd3361ddd544854261
+The reverted commit sha is - 01018951c18de8d9985774e88bc29f2e6cc87e95
+Commit message - added jQuery's extend method into Pouch.utils
+The original commit sha is - cc3a96a2cee35573da1191dd3361ddd544854261
+Commit message - Merge pull request #349 from ssured/patch-3
+
+Implement find many in allDocs
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 149 is -> 
+{ 83cbbbe42fd593d004b916859adbeb9b60df6813 -> 24e84df9b052aff63ade3efd4f133bf57aefe1c9 } is a revert
+{ 24e84df9b052aff63ade3efd4f133bf57aefe1c9 -> c2f4b74fb58e1bbf8a93723061928eabe2a1128a }
+Partial Revert commits SHA are -> 
+24e84df9b052aff63ade3efd4f133bf57aefe1c9 - revert - c2f4b74fb58e1bbf8a93723061928eabe2a1128a
+The reverted commit sha is - 24e84df9b052aff63ade3efd4f133bf57aefe1c9
+Commit message - Read config from supplied opts, if specified
+The original commit sha is - c2f4b74fb58e1bbf8a93723061928eabe2a1128a
+Commit message - Allow to specify auth data in options
+The files with partial_reverts are:-
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 150 is -> 
+{ 518f71da462eb06452244cdd9f2659ccef9ff584 -> 072b00608ba38eb1ebee6acb02e3bbf2d0ed0940 } is a revert
+{ d04366f3fa881053b57774c99ae31179291b8bca -> 55fe842287f726c8948a1c9d044898e4e9368b5e }
+Partial Revert commits SHA are -> 
+072b00608ba38eb1ebee6acb02e3bbf2d0ed0940 - revert - 55fe842287f726c8948a1c9d044898e4e9368b5e
+The reverted commit sha is - 072b00608ba38eb1ebee6acb02e3bbf2d0ed0940
+Commit message - prepare replication tests
+The original commit sha is - 55fe842287f726c8948a1c9d044898e4e9368b5e
+Commit message - wait thats not the issue
+The files with partial_reverts are:-
+tests/jquery-1.7.1.min.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 151 is -> 
+{ 5155acd3a0b4adef52570170465c928db31e5a1b -> 867e5524a2220540566e9bb44e813f1ac136e6f8 } is a revert
+{ a76555527b0aa55916125ae2287dd4132b08c3a6 -> d04366f3fa881053b57774c99ae31179291b8bca }
+Partial Revert commits SHA are -> 
+867e5524a2220540566e9bb44e813f1ac136e6f8 - revert - d04366f3fa881053b57774c99ae31179291b8bca
+The reverted commit sha is - 867e5524a2220540566e9bb44e813f1ac136e6f8
+Commit message - moved jquery into main source
+The original commit sha is - d04366f3fa881053b57774c99ae31179291b8bca
+Commit message - tests need jquery
+The files with partial_reverts are:-
+tests/jquery-1.7.1.min.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 152 is -> 
+{ df22d9317b519cc9e373f875cce919b4bbc5e190 -> a9d5e8c1a99c2d9e48b44aa83d8c1de3f12d3ab8 } is a revert
+{ 77ecf782929b25142c4147bfddea3b16255af9df -> 6422b09425fa6fb5908fd3559e4353891ab5b113 }
+Partial Revert commits SHA are -> 
+a9d5e8c1a99c2d9e48b44aa83d8c1de3f12d3ab8 - revert - 6422b09425fa6fb5908fd3559e4353891ab5b113
+The reverted commit sha is - a9d5e8c1a99c2d9e48b44aa83d8c1de3f12d3ab8
+Commit message - Seperate dependancies
+The original commit sha is - 6422b09425fa6fb5908fd3559e4353891ab5b113
+Commit message - and removed jquery
+The files with partial_reverts are:-
+src/deps/jquery-1.7.1.min.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 153 is -> 
+{ 1e8ed15a5e9637671746ac0a157bb89389f11fcb -> 2f621c15448b17a63bcc6d1c954a2c77be624e7e } is a revert
+{ d5c4a19eb05d43479ac6c22f2fabaafffcfc6175 -> 1683d484e7c195be48694de8d2cecd69fb0bdb99 }
+Partial Revert commits SHA are -> 
+2f621c15448b17a63bcc6d1c954a2c77be624e7e - revert - 1683d484e7c195be48694de8d2cecd69fb0bdb99
+The reverted commit sha is - 2f621c15448b17a63bcc6d1c954a2c77be624e7e
+Commit message - Fix winningRev sort to return ints instead of booleans
+The original commit sha is - 1683d484e7c195be48694de8d2cecd69fb0bdb99
+Commit message - Merge pull request #326 from calvinmetcalf/325-IE-8-Support-for-HTTP-adapter
+
+#325 polyfills for ie8 support
+The files with partial_reverts are:-
+grunt.js
+src/deps/polyfill.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 154 is -> 
+{ 1a9b9391692345d0e6dbbe340f0dfa7e23c29fcc -> 9ef9dd6d7063706eb3b8f0c91d9881a1cee0df7a } is a revert
+{ 9ef9dd6d7063706eb3b8f0c91d9881a1cee0df7a -> 7d30fa1157ec24883521b672ba0838ef55bd39e7 }
+Partial Revert commits SHA are -> 
+9ef9dd6d7063706eb3b8f0c91d9881a1cee0df7a - revert - 7d30fa1157ec24883521b672ba0838ef55bd39e7
+The reverted commit sha is - 9ef9dd6d7063706eb3b8f0c91d9881a1cee0df7a
+Commit message - add maximumWait option to continuous replication per pull request discussion (used during error handling)
+The original commit sha is - 7d30fa1157ec24883521b672ba0838ef55bd39e7
+Commit message - Make logging configurable - #265
+The files with partial_reverts are:-
+grunt.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.replicate.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.basics.js
+tests/test.bulk_docs.js
+tests/test.changes.js
+tests/test.conflicts.js
+tests/test.design_docs.js
+tests/test.issue221.js
+tests/test.replication.js
+tests/test.revs_diff.js
+tests/test.utils.js
+tests/test.views.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 155 is -> 
+{ 3a45cadeb34ad808c4bc0cb7a9a8465ae78947df -> e085ac14c1cd0c93adf9a89a157a4106256e2d4f } is a revert
+{ e085ac14c1cd0c93adf9a89a157a4106256e2d4f -> 1a9b9391692345d0e6dbbe340f0dfa7e23c29fcc }
+Partial Revert commits SHA are -> 
+e085ac14c1cd0c93adf9a89a157a4106256e2d4f - revert - 1a9b9391692345d0e6dbbe340f0dfa7e23c29fcc
+The reverted commit sha is - e085ac14c1cd0c93adf9a89a157a4106256e2d4f
+Commit message - Merge pull request #316 from jlaxson/315-support-view-filters
+
+Support opts.{key, startkey, endkey} in view queries.  Issue #315
+The original commit sha is - 1a9b9391692345d0e6dbbe340f0dfa7e23c29fcc
+Commit message - Merge pull request #318 from jlaxson/catch-failed-replication
+
+Catch errors retrieving revisions during replication
+The files with partial_reverts are:-
+src/pouch.replicate.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 156 is -> 
+{ 1a9ab1896ad45b00d29af18a65d8a0bac0941c1f -> 216f957520da35a638eb9759168b3f446a297f67 } is a revert
+{ bb488ccd453435862b36b57c628d3fdc9ebee687 -> be49a756c8320795c0506560090d6a93e13602ce }
+Partial Revert commits SHA are -> 
+216f957520da35a638eb9759168b3f446a297f67 - revert - be49a756c8320795c0506560090d6a93e13602ce
+The reverted commit sha is - 216f957520da35a638eb9759168b3f446a297f67
+Commit message - Merge pull request #306 from natevw/305-android-chrome-rw-flag
+
+Support older integer constant for 'readwrite' transaction
+The original commit sha is - be49a756c8320795c0506560090d6a93e13602ce
+Commit message - Merge pull request #307 from natevw/303-patient-replication
+
+Disable client-level request timeout for _changes
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 157 is -> 
+{ f50566010c5be375edeaffbdffeea319c7de9c0b -> e54916aba7870d7417c5264a169266c7a193ba8f } is a revert
+{ e54916aba7870d7417c5264a169266c7a193ba8f -> 1a9ab1896ad45b00d29af18a65d8a0bac0941c1f }
+Partial Revert commits SHA are -> 
+e54916aba7870d7417c5264a169266c7a193ba8f - revert - 1a9ab1896ad45b00d29af18a65d8a0bac0941c1f
+The reverted commit sha is - e54916aba7870d7417c5264a169266c7a193ba8f
+Commit message - support older integer constant for r/w transactions, fixes #305
+The original commit sha is - 1a9ab1896ad45b00d29af18a65d8a0bac0941c1f
+Commit message - disable client-level request timeout for _changes, fixes #303
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 158 is -> 
+{ 6b9d911760b1a307fcb0c9dc51a849c1a8a712b6 -> 99c34c981465860f4a891cf1085c8cdc23a62421 } is a revert
+{ 660b89159f6961438252d5a9a44884ae9f5b32cc -> ccd6022f8f9d01882a4ef4c2215d2bda027042bc }
+Partial Revert commits SHA are -> 
+99c34c981465860f4a891cf1085c8cdc23a62421 - revert - ccd6022f8f9d01882a4ef4c2215d2bda027042bc
+The reverted commit sha is - 99c34c981465860f4a891cf1085c8cdc23a62421
+Commit message - Extract viewQuery into new plugin system
+The original commit sha is - ccd6022f8f9d01882a4ef4c2215d2bda027042bc
+Commit message - Merge pull request #299 from daleharvey/extract-viewquery
+
+Extract viewQuery into new plugin system
+The files with partial_reverts are:-
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 159 is -> 
+{ 6fcc0f1d101660ae3f9d853fbefe95fbd6aba2a0 -> 5f688ca48d5fe8388ffe333ff160b8494d660f9d } is a revert
+{ 5f688ca48d5fe8388ffe333ff160b8494d660f9d -> a66bb73fb67c3147ddbe9972e4b1dc95b7da2711 }
+Partial Revert commits SHA are -> 
+5f688ca48d5fe8388ffe333ff160b8494d660f9d - revert - a66bb73fb67c3147ddbe9972e4b1dc95b7da2711
+The reverted commit sha is - 5f688ca48d5fe8388ffe333ff160b8494d660f9d
+Commit message - Cors preflight should only return with 200 status
+
+http://www.w3.org/TR/cors/#preflight-request
+The original commit sha is - a66bb73fb67c3147ddbe9972e4b1dc95b7da2711
+Commit message - Merge pull request #297 from daleharvey/fix-cors
+
+Cors preflight should only return with 200 status
+The files with partial_reverts are:-
+.gitignore
+Makefile
+pouch
+-----------------------------------------------------------------
+
+Partial Revert diff pair 160 is -> 
+{ 21e471910b557a18abc9a7d64fd9b957f2958434 -> ee8f2302d87f68dce629f2fb0321e28e8f9707c1 } is a revert
+{ 04c25576f1ca8380e6fc02d69127f5b3b42862bc -> 3a10c02802444af40e8769e2585d32c7e50be81b }
+Partial Revert commits SHA are -> 
+ee8f2302d87f68dce629f2fb0321e28e8f9707c1 - revert - 3a10c02802444af40e8769e2585d32c7e50be81b
+The reverted commit sha is - ee8f2302d87f68dce629f2fb0321e28e8f9707c1
+Commit message - Refactor grunt.js to fit in with existing code style
+The original commit sha is - 3a10c02802444af40e8769e2585d32c7e50be81b
+Commit message - Merge pull request #286 from daleharvey/grunt-refactor
+
+Refactor grunt.js to fit in with existing code style
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+src/adapters/pouch.leveldb.js
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 161 is -> 
+{ ebf93c6c70af8968bf0fec589e827191fffb874c -> 04c25576f1ca8380e6fc02d69127f5b3b42862bc } is a revert
+{ 04c25576f1ca8380e6fc02d69127f5b3b42862bc -> 3a10c02802444af40e8769e2585d32c7e50be81b }
+Partial Revert commits SHA are -> 
+04c25576f1ca8380e6fc02d69127f5b3b42862bc - revert - 3a10c02802444af40e8769e2585d32c7e50be81b
+The reverted commit sha is - 04c25576f1ca8380e6fc02d69127f5b3b42862bc
+Commit message - Revert a few changes, doesnt love use strict
+The original commit sha is - 3a10c02802444af40e8769e2585d32c7e50be81b
+Commit message - Merge pull request #286 from daleharvey/grunt-refactor
+
+Refactor grunt.js to fit in with existing code style
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 162 is -> 
+{ 363b86b74c84abdc2c4df93be128d1fc1f1d8aa6 -> 21e471910b557a18abc9a7d64fd9b957f2958434 } is a revert
+{ ebf93c6c70af8968bf0fec589e827191fffb874c -> 04c25576f1ca8380e6fc02d69127f5b3b42862bc }
+Partial Revert commits SHA are -> 
+21e471910b557a18abc9a7d64fd9b957f2958434 - revert - 04c25576f1ca8380e6fc02d69127f5b3b42862bc
+The reverted commit sha is - 21e471910b557a18abc9a7d64fd9b957f2958434
+Commit message - Add api.close
+http adapter does nothing on close
+idb adapter calls close on the database
+leveldb adapter closes the 3 databases comprising a Pouch db
+The original commit sha is - 04c25576f1ca8380e6fc02d69127f5b3b42862bc
+Commit message - Revert a few changes, doesnt love use strict
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+src/adapters/pouch.leveldb.js
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 163 is -> 
+{ ee8f2302d87f68dce629f2fb0321e28e8f9707c1 -> ad1082814debe6c89fab55ee9842b7662d0b9cbe } is a revert
+{ ebf93c6c70af8968bf0fec589e827191fffb874c -> 04c25576f1ca8380e6fc02d69127f5b3b42862bc }
+Partial Revert commits SHA are -> 
+ad1082814debe6c89fab55ee9842b7662d0b9cbe - revert - 04c25576f1ca8380e6fc02d69127f5b3b42862bc
+The reverted commit sha is - ad1082814debe6c89fab55ee9842b7662d0b9cbe
+Commit message - Use status 412 for db not open
+The original commit sha is - 04c25576f1ca8380e6fc02d69127f5b3b42862bc
+Commit message - Revert a few changes, doesnt love use strict
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+src/adapters/pouch.leveldb.js
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 164 is -> 
+{ 363b86b74c84abdc2c4df93be128d1fc1f1d8aa6 -> 21e471910b557a18abc9a7d64fd9b957f2958434 } is a revert
+{ ad1082814debe6c89fab55ee9842b7662d0b9cbe -> ebf93c6c70af8968bf0fec589e827191fffb874c }
+Partial Revert commits SHA are -> 
+21e471910b557a18abc9a7d64fd9b957f2958434 - revert - ebf93c6c70af8968bf0fec589e827191fffb874c
+The reverted commit sha is - 21e471910b557a18abc9a7d64fd9b957f2958434
+Commit message - Add api.close
+http adapter does nothing on close
+idb adapter calls close on the database
+leveldb adapter closes the 3 databases comprising a Pouch db
+The original commit sha is - ebf93c6c70af8968bf0fec589e827191fffb874c
+Commit message - Merge pull request #285 from davedoesdev/add-close
+
+Add api.close
+The files with partial_reverts are:-
+grunt.js
+tests/test.issue221.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 165 is -> 
+{ ee8f2302d87f68dce629f2fb0321e28e8f9707c1 -> ad1082814debe6c89fab55ee9842b7662d0b9cbe } is a revert
+{ ad1082814debe6c89fab55ee9842b7662d0b9cbe -> ebf93c6c70af8968bf0fec589e827191fffb874c }
+Partial Revert commits SHA are -> 
+ad1082814debe6c89fab55ee9842b7662d0b9cbe - revert - ebf93c6c70af8968bf0fec589e827191fffb874c
+The reverted commit sha is - ad1082814debe6c89fab55ee9842b7662d0b9cbe
+Commit message - Use status 412 for db not open
+The original commit sha is - ebf93c6c70af8968bf0fec589e827191fffb874c
+Commit message - Merge pull request #285 from davedoesdev/add-close
+
+Add api.close
+The files with partial_reverts are:-
+tests/test.issue221.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 166 is -> 
+{ 363b86b74c84abdc2c4df93be128d1fc1f1d8aa6 -> 21e471910b557a18abc9a7d64fd9b957f2958434 } is a revert
+{ 21e471910b557a18abc9a7d64fd9b957f2958434 -> ee8f2302d87f68dce629f2fb0321e28e8f9707c1 }
+Partial Revert commits SHA are -> 
+21e471910b557a18abc9a7d64fd9b957f2958434 - revert - ee8f2302d87f68dce629f2fb0321e28e8f9707c1
+The reverted commit sha is - 21e471910b557a18abc9a7d64fd9b957f2958434
+Commit message - Add api.close
+http adapter does nothing on close
+idb adapter calls close on the database
+leveldb adapter closes the 3 databases comprising a Pouch db
+The original commit sha is - ee8f2302d87f68dce629f2fb0321e28e8f9707c1
+Commit message - Refactor grunt.js to fit in with existing code style
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/pouch.js
+tests/test.issue221.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 167 is -> 
+{ bf99f43ce0b6871dc10381e9cc06fe174e9ffab7 -> f1ce1e4b1131d826da85674abbbfacc12e2325ac } is a revert
+{ 978f75a232bd84fe71c85c5adb2cb8c00dffa0e4 -> a9c3c532f5718767672053065b152d7c4d3f98ac }
+Partial Revert commits SHA are -> 
+f1ce1e4b1131d826da85674abbbfacc12e2325ac - revert - a9c3c532f5718767672053065b152d7c4d3f98ac
+The reverted commit sha is - f1ce1e4b1131d826da85674abbbfacc12e2325ac
+Commit message - #227 Updated version of grunt-saucelabs, added testInterval
+The original commit sha is - a9c3c532f5718767672053065b152d7c4d3f98ac
+Commit message - Revert qunit upgrade till it passes tests
+The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 168 is -> 
+{ 79a3e0cbb029f354f289c84cbfa4bcff42e9923e -> 978f75a232bd84fe71c85c5adb2cb8c00dffa0e4 } is a revert
+{ 978f75a232bd84fe71c85c5adb2cb8c00dffa0e4 -> a9c3c532f5718767672053065b152d7c4d3f98ac }
+Partial Revert commits SHA are -> 
+978f75a232bd84fe71c85c5adb2cb8c00dffa0e4 - revert - a9c3c532f5718767672053065b152d7c4d3f98ac
+The reverted commit sha is - 978f75a232bd84fe71c85c5adb2cb8c00dffa0e4
+Commit message - Merge pull request #281 from daleharvey/227-Reduce-polling-interval-for-tests-completed
+
+#227 Updated version of grunt-saucelabs, added testInterval
+The original commit sha is - a9c3c532f5718767672053065b152d7c4d3f98ac
+Commit message - Revert qunit upgrade till it passes tests
+The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 169 is -> 
+{ f1ce1e4b1131d826da85674abbbfacc12e2325ac -> 79a3e0cbb029f354f289c84cbfa4bcff42e9923e } is a revert
+{ 79a3e0cbb029f354f289c84cbfa4bcff42e9923e -> 978f75a232bd84fe71c85c5adb2cb8c00dffa0e4 }
+Partial Revert commits SHA are -> 
+79a3e0cbb029f354f289c84cbfa4bcff42e9923e - revert - 978f75a232bd84fe71c85c5adb2cb8c00dffa0e4
+The reverted commit sha is - 79a3e0cbb029f354f289c84cbfa4bcff42e9923e
+Commit message - Merge pull request #280 from daleharvey/test-races-retry
+
+Fix race condition in issue221 tests
+The original commit sha is - 978f75a232bd84fe71c85c5adb2cb8c00dffa0e4
+Commit message - Merge pull request #281 from daleharvey/227-Reduce-polling-interval-for-tests-completed
+
+#227 Updated version of grunt-saucelabs, added testInterval
+The files with partial_reverts are:-
+grunt.js
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 170 is -> 
+{ 2286c9994dc156c80ab2f2dc687ec7052601f2cc -> 837b77339c665926924e958308fbc209e58ac682 } is a revert
+{ 837b77339c665926924e958308fbc209e58ac682 -> 68b268c936a8252c614b596d7a895e861f6a8cd9 }
+Partial Revert commits SHA are -> 
+837b77339c665926924e958308fbc209e58ac682 - revert - 68b268c936a8252c614b596d7a895e861f6a8cd9
+The reverted commit sha is - 837b77339c665926924e958308fbc209e58ac682
+Commit message - Fix uuid code to generate correct urls
+The original commit sha is - 68b268c936a8252c614b596d7a895e861f6a8cd9
+Commit message - Merge pull request #272 from daleharvey/271-fix-uud
+
+Fix uuid code to generate correct urls
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 171 is -> 
+{ 210322a63846c1a5aa33a7ee5fd2c429fc7563ed -> e89533f6186f6a7061cc1e91cc6794fdf0b6bb1a } is a revert
+{ 941f19afa6819294689e8309dd2598c645270751 -> 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4 }
+Partial Revert commits SHA are -> 
+e89533f6186f6a7061cc1e91cc6794fdf0b6bb1a - revert - 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4
+The reverted commit sha is - e89533f6186f6a7061cc1e91cc6794fdf0b6bb1a
+Commit message - #260 Added disable-file-cache flag for Chrome browser config
+The original commit sha is - 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4
+Commit message - Merge pull request #267 from daleharvey/253-Chrome-results-are-not-reported
+
+#253 Browser test results now read only using grunt, not in webrunner
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 172 is -> 
+{ e89533f6186f6a7061cc1e91cc6794fdf0b6bb1a -> 9ccddde7492b022bea00c297778ef1413e2d3aa7 } is a revert
+{ 941f19afa6819294689e8309dd2598c645270751 -> 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4 }
+Partial Revert commits SHA are -> 
+9ccddde7492b022bea00c297778ef1413e2d3aa7 - revert - 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4
+The reverted commit sha is - 9ccddde7492b022bea00c297778ef1413e2d3aa7
+Commit message - Merge pull request #266 from calvinmetcalf/uuids
+
+Fetch uuids from remote http for use in POST requests
+The original commit sha is - 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4
+Commit message - Merge pull request #267 from daleharvey/253-Chrome-results-are-not-reported
+
+#253 Browser test results now read only using grunt, not in webrunner
+The files with partial_reverts are:-
+grunt.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 173 is -> 
+{ 3848e057f8535bd36a1592c65b2788dffdb31d41 -> 941f19afa6819294689e8309dd2598c645270751 } is a revert
+{ 941f19afa6819294689e8309dd2598c645270751 -> 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4 }
+Partial Revert commits SHA are -> 
+941f19afa6819294689e8309dd2598c645270751 - revert - 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4
+The reverted commit sha is - 941f19afa6819294689e8309dd2598c645270751
+Commit message - #253 Browser test results now read only using grunt, not in webrunner
+The original commit sha is - 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4
+Commit message - Merge pull request #267 from daleharvey/253-Chrome-results-are-not-reported
+
+#253 Browser test results now read only using grunt, not in webrunner
+The files with partial_reverts are:-
+src/adapters/pouch.http.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 174 is -> 
+{ e89533f6186f6a7061cc1e91cc6794fdf0b6bb1a -> 9ccddde7492b022bea00c297778ef1413e2d3aa7 } is a revert
+{ 9ccddde7492b022bea00c297778ef1413e2d3aa7 -> 3848e057f8535bd36a1592c65b2788dffdb31d41 }
+Partial Revert commits SHA are -> 
+9ccddde7492b022bea00c297778ef1413e2d3aa7 - revert - 3848e057f8535bd36a1592c65b2788dffdb31d41
+The reverted commit sha is - 9ccddde7492b022bea00c297778ef1413e2d3aa7
+Commit message - Merge pull request #266 from calvinmetcalf/uuids
+
+Fetch uuids from remote http for use in POST requests
+The original commit sha is - 3848e057f8535bd36a1592c65b2788dffdb31d41
+Commit message - Merge pull request #268 from daleharvey/260-Dont-run-attachment-tests-in-chrome-on-CI
+
+#260 Added disable-file-cache flag for Chrome browser config
+The files with partial_reverts are:-
+grunt.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 175 is -> 
+{ 03e70c7130c1ebc28433648a1687b81df4153d0f -> 636df71c9a772ecbec340d5bcdfe82c6ac290436 } is a revert
+{ 636df71c9a772ecbec340d5bcdfe82c6ac290436 -> 17270d9c543fbd370a7f0ab4131a92724fc41d4e }
+Partial Revert commits SHA are -> 
+636df71c9a772ecbec340d5bcdfe82c6ac290436 - revert - 17270d9c543fbd370a7f0ab4131a92724fc41d4e
+The reverted commit sha is - 636df71c9a772ecbec340d5bcdfe82c6ac290436
+Commit message - Run replication + view test in leveldb
+The original commit sha is - 17270d9c543fbd370a7f0ab4131a92724fc41d4e
+Commit message - Merge pull request #216 from daleharvey/viewtests-leveldb
+
+Run replication + view test in leveldb
+The files with partial_reverts are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Revert diff pair 176 is -> 
+{ 0a90dd94cfb1cb2750d68710dd3d8b59dc6f0ddb -> 7bbd5843d465f87fd9562c98c4fa7d5899dfa849 } is a revert
+{ 17b3491a196397c53dcb578e9e468d2285172b26 -> 7429eac86fc473916b01995a74a6ab5c60263b59 }
+Partial Revert commits SHA are -> 
+7bbd5843d465f87fd9562c98c4fa7d5899dfa849 - revert - 7429eac86fc473916b01995a74a6ab5c60263b59
+The reverted commit sha is - 7bbd5843d465f87fd9562c98c4fa7d5899dfa849
+Commit message - Implement proper winning revisions algorithm
+The original commit sha is - 7429eac86fc473916b01995a74a6ab5c60263b59
+Commit message - Merge pull request #209 from chesles/206-fix-replicate-options
+
+check for missing/optional arguments
+The files with partial_reverts are:-
+src/pouch.replicate.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 177 is -> 
+{ 15b483bedd10dcd863c13705b581216ce95fb0d6 -> b532a0289a03fb87b657877f5f1fbe9006ce5468 } is a revert
+{ 7387fd108f5dc83e0d53094102a8a92782e344d5 -> a6384a77b06d7cec6f39eb4fefa259e99f7b828f }
+Partial Revert commits SHA are -> 
+b532a0289a03fb87b657877f5f1fbe9006ce5468 - revert - a6384a77b06d7cec6f39eb4fefa259e99f7b828f
+The reverted commit sha is - b532a0289a03fb87b657877f5f1fbe9006ce5468
+Commit message - Add test for joins in map reduce views
+The original commit sha is - a6384a77b06d7cec6f39eb4fefa259e99f7b828f
+Commit message - Merge branch 'RemoveTest' of git://github.com/chendricks/pouchdb into chendricks-RemoveTest
+The files with partial_reverts are:-
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 178 is -> 
+{ 7fc06c8a15a99d266bce87c3dda9bdf34949669c -> 3a80bad53d7f2967330deb7e7b4362af33b613b3 } is a revert
+{ 561cf75e53d3e54e7c4b84d519fd7b4a9a095d47 -> 5dee088b0191df7870f3c03c9b379dc4acbb306b }
+Partial Revert commits SHA are -> 
+3a80bad53d7f2967330deb7e7b4362af33b613b3 - revert - 5dee088b0191df7870f3c03c9b379dc4acbb306b
+The reverted commit sha is - 3a80bad53d7f2967330deb7e7b4362af33b613b3
+Commit message - set Basic Authorization header for requests made through request
+The original commit sha is - 5dee088b0191df7870f3c03c9b379dc4acbb306b
+Commit message - Merge pull request #203 from chesles/master
+
+Disallow adding docs with leading underscore in id
+The files with partial_reverts are:-
+src/pouch.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 179 is -> 
+{ d6f0bf52c82a33ac7b03cf944eccff6012a2b359 -> 7fc06c8a15a99d266bce87c3dda9bdf34949669c } is a revert
+{ 7fc06c8a15a99d266bce87c3dda9bdf34949669c -> 3a80bad53d7f2967330deb7e7b4362af33b613b3 }
+Partial Revert commits SHA are -> 
+7fc06c8a15a99d266bce87c3dda9bdf34949669c - revert - 3a80bad53d7f2967330deb7e7b4362af33b613b3
+The reverted commit sha is - 7fc06c8a15a99d266bce87c3dda9bdf34949669c
+Commit message - disallow adding docs with leading underscore in id
+The original commit sha is - 3a80bad53d7f2967330deb7e7b4362af33b613b3
+Commit message - set Basic Authorization header for requests made through request
+The files with partial_reverts are:-
+src/pouch.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 180 is -> 
+{ a65edaeed470738c6edf8665d6405270058f9487 -> 52fef28f97e231b2daf88f3d3c694faeb10f666c } is a revert
+{ 52fef28f97e231b2daf88f3d3c694faeb10f666c -> 4a4af0d56cfaf53b2cb4a8e268fd576a23e507cb }
+Partial Revert commits SHA are -> 
+52fef28f97e231b2daf88f3d3c694faeb10f666c - revert - 4a4af0d56cfaf53b2cb4a8e268fd576a23e507cb
+The reverted commit sha is - 52fef28f97e231b2daf88f3d3c694faeb10f666c
+Commit message - Merge pull request #178 from ryanramage/master
+
+Update package.json to include jam information used for publishing
+The original commit sha is - 4a4af0d56cfaf53b2cb4a8e268fd576a23e507cb
+Commit message - Merge remote-tracking branch 'upstream/master'
+The files with partial_reverts are:-
+src/adapters/pouch.leveldb.js
+tests/test.attachments.js
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 181 is -> 
+{ 944389db99e48cd0af5a599a658fbfde1b5b1742 -> 9191a3158c751eadeac54162c0b2d119e3b470c5 } is a revert
+{ 5b60d5f03e5e8e8e05e187ae6b6c80a90da8583b -> 19481c34833123f4b0386a99511b4787ce0490ae }
+Partial Revert commits SHA are -> 
+9191a3158c751eadeac54162c0b2d119e3b470c5 - revert - 19481c34833123f4b0386a99511b4787ce0490ae
+The reverted commit sha is - 9191a3158c751eadeac54162c0b2d119e3b470c5
+Commit message - Preparing AMD support
+The original commit sha is - 19481c34833123f4b0386a99511b4787ce0490ae
+Commit message - Update package.json to include jam information used for publishing to jamjs.org
+The files with partial_reverts are:-
+.jamignore
+-----------------------------------------------------------------
+
+Partial Revert diff pair 182 is -> 
+{ d49e5e470080bd649ddbe65d43c810c75a45894c -> 173de0796dc933df256b671fead9f2badf947e81 } is a revert
+{ 36ea1e4c7c0a3805d6eecee215517b9387e7778b -> eb23e5381b3227fee5f2b861820026a60dda8f9f }
+Partial Revert commits SHA are -> 
+173de0796dc933df256b671fead9f2badf947e81 - revert - eb23e5381b3227fee5f2b861820026a60dda8f9f
+The reverted commit sha is - 173de0796dc933df256b671fead9f2badf947e81
+Commit message - Exit with a 1 if the tests fail, or on uncaught exceptions. Add some console messages with urls.
+The original commit sha is - eb23e5381b3227fee5f2b861820026a60dda8f9f
+Commit message - Merge pull request #140 from ryanramage/master
+
+Actually fail the tests if tests dont pass. It feels wrong to merge an failing test, but in this case it is ohh so right.
+The files with partial_reverts are:-
+src/pouch.replicate.js
+tests/test.replication.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 183 is -> 
+{ c49aa7f2f6bd622eb2d2ba8d5ea30f135aaccb87 -> dce072385bf142b86689a576a487a49937e9804c } is a revert
+{ dce072385bf142b86689a576a487a49937e9804c -> 15b483bedd10dcd863c13705b581216ce95fb0d6 }
+Partial Revert commits SHA are -> 
+dce072385bf142b86689a576a487a49937e9804c - revert - 15b483bedd10dcd863c13705b581216ce95fb0d6
+The reverted commit sha is - dce072385bf142b86689a576a487a49937e9804c
+Commit message - Merge remote-tracking branch 'daleharvey/master'
+The original commit sha is - 15b483bedd10dcd863c13705b581216ce95fb0d6
+Commit message - New test to show bug that occurs when trying to remove a document that was put with a specifiedId.
+The files with partial_reverts are:-
+src/adapters/pouch.idb.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 184 is -> 
+{ a56816d122721da4a9d3d2031ead1d4e356e3fb5 -> fb069d042e97fd62f46ffbb3a842ca16a3031ac4 } is a revert
+{ f6155502fdad15ed48051c9663152d9db87b6f1f -> 70d463f873a55393ab2b15e5868df78d28a8bb74 }
+Partial Revert commits SHA are -> 
+fb069d042e97fd62f46ffbb3a842ca16a3031ac4 - revert - 70d463f873a55393ab2b15e5868df78d28a8bb74
+The reverted commit sha is - fb069d042e97fd62f46ffbb3a842ca16a3031ac4
+Commit message - storing stuff in couch
+The original commit sha is - 70d463f873a55393ab2b15e5868df78d28a8bb74
+Commit message - Added delete of database id from localStorage when idb_destroy is called.
+The files with partial_reverts are:-
+tests/System.js
+tests/qunit/junitlogger.js
+tests/qunit/qunit.css
+tests/qunit/qunit.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 185 is -> 
+{ a56816d122721da4a9d3d2031ead1d4e356e3fb5 -> fb069d042e97fd62f46ffbb3a842ca16a3031ac4 } is a revert
+{ fb069d042e97fd62f46ffbb3a842ca16a3031ac4 -> edd9dc9f5e0cea5a0d28e32f35daaacd5f6b7f77 }
+Partial Revert commits SHA are -> 
+fb069d042e97fd62f46ffbb3a842ca16a3031ac4 - revert - edd9dc9f5e0cea5a0d28e32f35daaacd5f6b7f77
+The reverted commit sha is - fb069d042e97fd62f46ffbb3a842ca16a3031ac4
+Commit message - storing stuff in couch
+The original commit sha is - edd9dc9f5e0cea5a0d28e32f35daaacd5f6b7f77
+Commit message - Merge changes from trunk
+The files with partial_reverts are:-
+Makefile
+README.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/pouch.js
+src/pouch.replicate.js
+tests/perf.attachments.js
+tests/test.attachments.js
+tests/test.bulk_docs.js
+tests/test.conflicts.js
+tests/test.replication.js
+tests/test.views.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 186 is -> 
+{ e13d5348378227f55e0ef429fd618f71256b8a3f -> bc24d133221266993a8773b4b6e14cf54192f4b3 } is a revert
+{ 659134ef5eeca7d9b8be78fe50e01ba76f579d73 -> 809a0c27213df018169df4a1ce338c3f045bafd7 }
+Partial Revert commits SHA are -> 
+bc24d133221266993a8773b4b6e14cf54192f4b3 - revert - 809a0c27213df018169df4a1ce338c3f045bafd7
+The reverted commit sha is - bc24d133221266993a8773b4b6e14cf54192f4b3
+Commit message - Added tests for removing a doc with attachments and for performance of large attachments
+The original commit sha is - 809a0c27213df018169df4a1ce338c3f045bafd7
+Commit message - Replaced with Dale's cleaned up version
+The files with partial_reverts are:-
+tests/test.attachments.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 187 is -> 
+{ 99d5a6305a03b334ff142e7b5d3633733944247c -> dc2c320c6d98cd9d7202914828194a1893692068 } is a revert
+{ dc2c320c6d98cd9d7202914828194a1893692068 -> 77808e734577f5f6ddd2ceae341bd63996db1116 }
+Partial Revert commits SHA are -> 
+dc2c320c6d98cd9d7202914828194a1893692068 - revert - 77808e734577f5f6ddd2ceae341bd63996db1116
+The reverted commit sha is - dc2c320c6d98cd9d7202914828194a1893692068
+Commit message - Cleaned up tabs, code style, removed unnecessary comments
+The original commit sha is - 77808e734577f5f6ddd2ceae341bd63996db1116
+Commit message - Merge remote-tracking branch 'daleharvey/master'
+The files with partial_reverts are:-
+README.md
+src/adapters/pouch.idb.js
+tests/perf.attachments.js
+tests/test.html
+tests/test.replication.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 188 is -> 
+{ c51ced169ed9a9cd306d17247dbbe2ebc9c0dea4 -> 6e6ff5eab24ed54a1467d6f1300e3dd7af874891 } is a revert
+{ e9060c3999d9ceecadb328a558ba9c282adf3bd6 -> d98b9ca223c0f651656fc40591af4f792a96f995 }
+Partial Revert commits SHA are -> 
+6e6ff5eab24ed54a1467d6f1300e3dd7af874891 - revert - d98b9ca223c0f651656fc40591af4f792a96f995
+The reverted commit sha is - 6e6ff5eab24ed54a1467d6f1300e3dd7af874891
+Commit message - Ok, most the tests working running on saucelabs
+The original commit sha is - d98b9ca223c0f651656fc40591af4f792a96f995
+Commit message - Allow easier switching between what build to test
+The files with partial_reverts are:-
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 189 is -> 
+{ 7ab6e19afefe31ecf8db08aa8aeb3d7605cb24eb -> 5b4e7d804b1ffd47d2bd8dbff80759c623dd49df } is a revert
+{ e9060c3999d9ceecadb328a558ba9c282adf3bd6 -> d98b9ca223c0f651656fc40591af4f792a96f995 }
+Partial Revert commits SHA are -> 
+5b4e7d804b1ffd47d2bd8dbff80759c623dd49df - revert - d98b9ca223c0f651656fc40591af4f792a96f995
+The reverted commit sha is - 5b4e7d804b1ffd47d2bd8dbff80759c623dd49df
+Commit message - Remove sauce_connect log files.
+The original commit sha is - d98b9ca223c0f651656fc40591af4f792a96f995
+Commit message - Allow easier switching between what build to test
+The files with partial_reverts are:-
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 190 is -> 
+{ 6a62dd535f588a97bdd031c1f50dc53a88744cc3 -> 7ab6e19afefe31ecf8db08aa8aeb3d7605cb24eb } is a revert
+{ 7ab6e19afefe31ecf8db08aa8aeb3d7605cb24eb -> 5b4e7d804b1ffd47d2bd8dbff80759c623dd49df }
+Partial Revert commits SHA are -> 
+7ab6e19afefe31ecf8db08aa8aeb3d7605cb24eb - revert - 5b4e7d804b1ffd47d2bd8dbff80759c623dd49df
+The reverted commit sha is - 7ab6e19afefe31ecf8db08aa8aeb3d7605cb24eb
+Commit message - Merge pull request #91 from ryanramage/ee28ae
+
+Only AMD commits
+The original commit sha is - 5b4e7d804b1ffd47d2bd8dbff80759c623dd49df
+Commit message - Remove sauce_connect log files.
+The files with partial_reverts are:-
+.gitignore
+.travis.yml
+tests/run_saucelabs.js
+tests/run_tests.sh
+tests/test.html
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 191 is -> 
+{ c5da983ffe4c566bf376a7ea7365e6b58ff249d7 -> e3affb3cf3c8dfb1e3b919e4f2347589bcac95be } is a revert
+{ e3affb3cf3c8dfb1e3b919e4f2347589bcac95be -> 0e14d01ff3f1588ebf080d2b65182008a3a64585 }
+Partial Revert commits SHA are -> 
+e3affb3cf3c8dfb1e3b919e4f2347589bcac95be - revert - 0e14d01ff3f1588ebf080d2b65182008a3a64585
+The reverted commit sha is - e3affb3cf3c8dfb1e3b919e4f2347589bcac95be
+Commit message - fail tests faster and more debug logs
+The original commit sha is - 0e14d01ff3f1588ebf080d2b65182008a3a64585
+Commit message - Merge pull request #74 from molnarg/callee-deprecation
+
+Replace deprecated arguments.callee with simple self-references.
+The files with partial_reverts are:-
+src/pouch.js
+tests/qunit/qunit.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 192 is -> 
+{ ce21c69137153722b5dbee8aa887ef409d80885d -> 5135cad0f862849eba831443894f13d313508e31 } is a revert
+{ 6e7b4ba827a3a48cbd959fcfb0189a855e76c0c3 -> 06f38caf6f52ea6c6c123f20423760edd5e60f53 }
+Partial Revert commits SHA are -> 
+5135cad0f862849eba831443894f13d313508e31 - revert - 06f38caf6f52ea6c6c123f20423760edd5e60f53
+The reverted commit sha is - 5135cad0f862849eba831443894f13d313508e31
+Commit message - Cancel changes feed
+The original commit sha is - 06f38caf6f52ea6c6c123f20423760edd5e60f53
+Commit message - Merge branch 'master' of github.com:daleharvey/pouchdb
+The files with partial_reverts are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Revert diff pair 193 is -> 
+{ 4a3b00ecc03cee5929a37230d5c6c6c9aa039b2f -> c69b7d99cf41996404355d060995328e9fa004f7 } is a revert
+{ 5130ddafced0e823582e06ce727960d3d83be707 -> da72aebb605840cc7809d099f2c1f0d06be394f9 }
+Partial Revert commits SHA are -> 
+c69b7d99cf41996404355d060995328e9fa004f7 - revert - da72aebb605840cc7809d099f2c1f0d06be394f9
+The reverted commit sha is - c69b7d99cf41996404355d060995328e9fa004f7
+Commit message - Moved tests to /tests
+The original commit sha is - da72aebb605840cc7809d099f2c1f0d06be394f9
+Commit message - remove outdated test suite
+The files with partial_reverts are:-
+tests/test.extended.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 194 is -> 
+{ 0017844c4c6b80b6671b906181c26506e2cf2b64 -> 1d5be03562bef6ac60f17312cefc0d986603bcde } is a revert
+{ 1d5be03562bef6ac60f17312cefc0d986603bcde -> 56a3200eae8e27795be6e827589eaf17532ad8e7 }
+Partial Revert commits SHA are -> 
+1d5be03562bef6ac60f17312cefc0d986603bcde - revert - 56a3200eae8e27795be6e827589eaf17532ad8e7
+The reverted commit sha is - 1d5be03562bef6ac60f17312cefc0d986603bcde
+Commit message - refactor out the storage so we can swap http / idb backends
+The original commit sha is - 56a3200eae8e27795be6e827589eaf17532ad8e7
+Commit message - removed temporary file
+The files with partial_reverts are:-
+src/adapters/.#pouch.http.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 195 is -> 
+{ 518f71da462eb06452244cdd9f2659ccef9ff584 -> 072b00608ba38eb1ebee6acb02e3bbf2d0ed0940 } is a revert
+{ a82853455e5277ab5a81d365e2b7acec15178424 -> df643903a15073bdc2763df6fcf5d638a6612abe }
+Partial Revert commits SHA are -> 
+072b00608ba38eb1ebee6acb02e3bbf2d0ed0940 - revert - df643903a15073bdc2763df6fcf5d638a6612abe
+The reverted commit sha is - 072b00608ba38eb1ebee6acb02e3bbf2d0ed0940
+Commit message - prepare replication tests
+The original commit sha is - df643903a15073bdc2763df6fcf5d638a6612abe
+Commit message - removed unused jquery.couch
+The files with partial_reverts are:-
+tests/jquery.couch.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 196 is -> 
+{ 60dd22969dcc2d6a05995d904fd67dd22b5b0f85 -> 4a3b00ecc03cee5929a37230d5c6c6c9aa039b2f } is a revert
+{ 19b422f8ee21a528a0e6fab49873cfd0eb540617 -> 8ed55149a629d4931ff7815381463cf8ba7ee2c1 }
+Partial Revert commits SHA are -> 
+4a3b00ecc03cee5929a37230d5c6c6c9aa039b2f - revert - 8ed55149a629d4931ff7815381463cf8ba7ee2c1
+The reverted commit sha is - 4a3b00ecc03cee5929a37230d5c6c6c9aa039b2f
+Commit message - Moved source files to src
+The original commit sha is - 8ed55149a629d4931ff7815381463cf8ba7ee2c1
+Commit message - Remove unused jquery
+The files with partial_reverts are:-
+src/jquery-1.6.2.min.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 197 is -> 
+{ 07320c3e86b771a1f1b54dc05d59ab2add789f6d -> 46879ac36a98c7e8089248ee05498c388134c4fb } is a revert
+{ ab08ee66a9ce310fd97cb1d10fab2e013f36c8bb -> a175c2433a6a9eb8267b57240520739c67a88c36 }
+Partial Revert commits SHA are -> 
+46879ac36a98c7e8089248ee05498c388134c4fb - revert - a175c2433a6a9eb8267b57240520739c67a88c36
+The reverted commit sha is - 46879ac36a98c7e8089248ee05498c388134c4fb
+Commit message - Merge pull request #4 from maxogden/patch-1
+
+fixing typo
+The original commit sha is - a175c2433a6a9eb8267b57240520739c67a88c36
+Commit message - remove unused file
+The files with partial_reverts are:-
+fileserver.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 198 is -> 
+{ 07320c3e86b771a1f1b54dc05d59ab2add789f6d -> 46879ac36a98c7e8089248ee05498c388134c4fb } is a revert
+{ 62ab11f5f2a38c7dc22d54b0eaac578080816cb2 -> 9fe617fda86a51a6cc07cd56748824199cae2612 }
+Partial Revert commits SHA are -> 
+46879ac36a98c7e8089248ee05498c388134c4fb - revert - 9fe617fda86a51a6cc07cd56748824199cae2612
+The reverted commit sha is - 46879ac36a98c7e8089248ee05498c388134c4fb
+Commit message - Merge pull request #4 from maxogden/patch-1
+
+fixing typo
+The original commit sha is - 9fe617fda86a51a6cc07cd56748824199cae2612
+Commit message - Merge remote-tracking branch 'maxogden/master'
+
+I left in fileserver.js because FF doesn't let us use IDB from file:///
+
+Conflicts:
+	test.html
+The files with partial_reverts are:-
+jquery-1.6.2.min.js
+perf.html
+test.html
+testapp/app.js
+testapp/attachments/index.html
+testapp/attachments/jquery-1.4.4.min.js
+testapp/attachments/sammy/plugins/sammy.cache.js
+testapp/attachments/sammy/plugins/sammy.data_location_proxy.js
+testapp/attachments/sammy/plugins/sammy.ejs.js
+testapp/attachments/sammy/plugins/sammy.form.js
+testapp/attachments/sammy/plugins/sammy.haml.js
+testapp/attachments/sammy/plugins/sammy.json.js
+testapp/attachments/sammy/plugins/sammy.meld.js
+testapp/attachments/sammy/plugins/sammy.mustache.js
+testapp/attachments/sammy/plugins/sammy.nested_params.js
+testapp/attachments/sammy/plugins/sammy.path_location_proxy.js
+testapp/attachments/sammy/plugins/sammy.pure.js
+testapp/attachments/sammy/plugins/sammy.storage.js
+testapp/attachments/sammy/plugins/sammy.template.js
+testapp/attachments/sammy/plugins/sammy.title.js
+testapp/attachments/sammy/sammy.js
+testapp/attachments/site.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 199 is -> 
+{ d0bbd73622207650207924fee08b434fa5cafa23 -> 07320c3e86b771a1f1b54dc05d59ab2add789f6d } is a revert
+{ 07320c3e86b771a1f1b54dc05d59ab2add789f6d -> 46879ac36a98c7e8089248ee05498c388134c4fb }
+Partial Revert commits SHA are -> 
+07320c3e86b771a1f1b54dc05d59ab2add789f6d - revert - 46879ac36a98c7e8089248ee05498c388134c4fb
+The reverted commit sha is - 07320c3e86b771a1f1b54dc05d59ab2add789f6d
+Commit message - cleaning up unused files and typos
+The original commit sha is - 46879ac36a98c7e8089248ee05498c388134c4fb
+Commit message - Merge pull request #4 from maxogden/patch-1
+
+fixing typo
+The files with partial_reverts are:-
+fileserver.js
+idb.js
+jquery-1.6.2.min.js
+perf.html
+pouch.js
+test.html
+testapp/app.js
+testapp/attachments/index.html
+testapp/attachments/jquery-1.4.4.min.js
+testapp/attachments/sammy/plugins/sammy.cache.js
+testapp/attachments/sammy/plugins/sammy.data_location_proxy.js
+testapp/attachments/sammy/plugins/sammy.ejs.js
+testapp/attachments/sammy/plugins/sammy.form.js
+testapp/attachments/sammy/plugins/sammy.haml.js
+testapp/attachments/sammy/plugins/sammy.json.js
+testapp/attachments/sammy/plugins/sammy.meld.js
+testapp/attachments/sammy/plugins/sammy.mustache.js
+testapp/attachments/sammy/plugins/sammy.nested_params.js
+testapp/attachments/sammy/plugins/sammy.path_location_proxy.js
+testapp/attachments/sammy/plugins/sammy.pure.js
+testapp/attachments/sammy/plugins/sammy.storage.js
+testapp/attachments/sammy/plugins/sammy.template.js
+testapp/attachments/sammy/plugins/sammy.title.js
+testapp/attachments/sammy/sammy.js
+testapp/attachments/site.js
+-----------------------------------------------------------------
+

@@ -1,0 +1,145 @@
+# of reverts = 9
+Revert diff pair 1 is -> 
+{ 92aba9e942909a4373674a12915db1d29b223443 -> 2b887ec66ba28f6d6fcbfdd121522fd7093bcc65 } is a revert
+{ 2b887ec66ba28f6d6fcbfdd121522fd7093bcc65 -> c347d9226a00d1ff8015fcdab1fb414e2c3e4c0a }
+Revert commits SHA are -> 
+2b887ec66ba28f6d6fcbfdd121522fd7093bcc65 - revert - c347d9226a00d1ff8015fcdab1fb414e2c3e4c0a
+The reverted commit sha is - 2b887ec66ba28f6d6fcbfdd121522fd7093bcc65
+Commit message - Use cmake --build instead of Make
+
+- If possble try to abstract away from Make, and use cmake --build
+- third-party still needs to find Make to build some components
+- Removed search for Make from CMakeLists.txt
+* for CMake < 3.0 --build has no color output
+The original commit sha is - c347d9226a00d1ff8015fcdab1fb414e2c3e4c0a
+Commit message - Merge pull request #1473 from alexgenco/patch-1
+
+Fix api metadata function name in docs
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 871e353fa851ef58e0918d93929b2ec7c9607470 -> 90658982644b76a9e8e4abfbcd16450df26b0a32 } is a revert
+{ 847d5ffa7c21321765df1021465a20a96de8bfef -> 5d0f8b63e344c13ae32d43389e22537aa8e3da4d }
+Revert commits SHA are -> 
+90658982644b76a9e8e4abfbcd16450df26b0a32 - revert - 5d0f8b63e344c13ae32d43389e22537aa8e3da4d
+The reverted commit sha is - 90658982644b76a9e8e4abfbcd16450df26b0a32
+Commit message - build: don't download and extract tarball if source is already present
+
+When building under Homebrew, we want to let Homebrew manage downloading and
+extracting the tarballs.
+The original commit sha is - 5d0f8b63e344c13ae32d43389e22537aa8e3da4d
+Commit message - Revert "build: don't download and extract tarball if source is already present"
+
+This reverts commit 90658982644b76a9e8e4abfbcd16450df26b0a32.
+
+It failed to work correctly on a fresh clone.  See #1433.
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 5a52bcfa22f83278928d18898cb1df0b3d1a00d9 -> 973fc5c66ba47a348be2314588c933f93f216415 } is a revert
+{ 62ede403f02c873177c9043718cecf3941f8a17e -> 37be21fdee3eaadd10cd4048c5dc62a590af7217 }
+Revert commits SHA are -> 
+973fc5c66ba47a348be2314588c933f93f216415 - revert - 37be21fdee3eaadd10cd4048c5dc62a590af7217
+The reverted commit sha is - 973fc5c66ba47a348be2314588c933f93f216415
+Commit message - GenerateHelptags: check whether DESTDIR exists
+The original commit sha is - 37be21fdee3eaadd10cd4048c5dc62a590af7217
+Commit message - GenerateHelptags: Use ${PREFIX} variable
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ 1fb80d24eba04eb4a129ce41651e9de11fa332a1 -> 60371bb1bbde7377a270413d62a00ae5271b3ff7 } is a revert
+{ 60371bb1bbde7377a270413d62a00ae5271b3ff7 -> 867bdae5c2399040af9a6885c279ec1838fc756a }
+Revert commits SHA are -> 
+60371bb1bbde7377a270413d62a00ae5271b3ff7 - revert - 867bdae5c2399040af9a6885c279ec1838fc756a
+The reverted commit sha is - 60371bb1bbde7377a270413d62a00ae5271b3ff7
+Commit message - vim-patch:7.4.345
+
+Problem:    Indent is not updated when deleting indent.
+Solution:   Remember changedtick.
+
+https://code.google.com/p/vim/source/detail?r=v7-4-345
+The original commit sha is - 867bdae5c2399040af9a6885c279ec1838fc756a
+Commit message - Merge pull request #1158 from atwupack/vp-7.4.337
+
+vim-patch:7.4.337
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ 0cced2ea815f97e3e830c4c18eb1571dcfc4f31a -> a1582a841b2864ad20c22cc18b04010f9a813128 } is a revert
+{ a1582a841b2864ad20c22cc18b04010f9a813128 -> 3623a028263fa321f0790fe1132ac2934d6d5dc7 }
+Revert commits SHA are -> 
+a1582a841b2864ad20c22cc18b04010f9a813128 - revert - 3623a028263fa321f0790fe1132ac2934d6d5dc7
+The reverted commit sha is - a1582a841b2864ad20c22cc18b04010f9a813128
+Commit message - Spelling fixes
+The original commit sha is - 3623a028263fa321f0790fe1132ac2934d6d5dc7
+Commit message - Merge pull request #1093 from paulburlumi/coverity-62620
+
+coverity/62620: fix uninitialized scalar variable
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ 24f585a68c38fba4993006706023bf1fcd87ef80 -> fc2020a1403203ec7817c62cff0cfe0e7b93d9b7 } is a revert
+{ fc2020a1403203ec7817c62cff0cfe0e7b93d9b7 -> 057f26f0a6278845d5a295cdae1b6e92617d41f9 }
+Revert commits SHA are -> 
+fc2020a1403203ec7817c62cff0cfe0e7b93d9b7 - revert - 057f26f0a6278845d5a295cdae1b6e92617d41f9
+The reverted commit sha is - fc2020a1403203ec7817c62cff0cfe0e7b93d9b7
+Commit message - vim-patch:7.4.220
+
+Problem:    Test 105 does not work in a shadow dir. (James McCoy)
+Solution:   Omit "src/" from the checked path.
+
+https://code.google.com/p/vim/source/detail?r=v7-4-220
+The original commit sha is - 057f26f0a6278845d5a295cdae1b6e92617d41f9
+Commit message - Merge pull request #1103 from Hinidu/na-patches
+
+Mark patches 176, 185 and 189 as NA
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ 01d6898638851d01f6cb5812f1d6f64cda0ddc83 -> fc93536a901b4037f76a223c03d3650afb371f0b } is a revert
+{ fc93536a901b4037f76a223c03d3650afb371f0b -> 6675a71fe4adb0ea21c842c6bba5e950d05a5f2c }
+Revert commits SHA are -> 
+fc93536a901b4037f76a223c03d3650afb371f0b - revert - 6675a71fe4adb0ea21c842c6bba5e950d05a5f2c
+The reverted commit sha is - fc93536a901b4037f76a223c03d3650afb371f0b
+Commit message - vim-patch:7.4.314
+
+Problem:    Completion messages can get in the way of a plugin.
+Solution:   Add 'c' flag to 'shortmess' option. (Shougo Matsu)
+
+https://code.google.com/p/vim/source/detail?r=4d7af1962d6ce61df65fdc5c86544a61951f9517
+The original commit sha is - 6675a71fe4adb0ea21c842c6bba5e950d05a5f2c
+Commit message - Merge pull request #972 from munshkr/p7.4.293
+
+vim-patch:7.4.293, vim-patch:7.4.294
+-----------------------------------------------------------------
+
+Revert diff pair 8 is -> 
+{ e10290c3eaab56a5822e214508b531cfc19357da -> 8aa1d8c71a0437ff09872877107dab30ee0c44f0 } is a revert
+{ 2e4613aecc712eb5e893d341da5f571f932376d5 -> c79d27ee0709b6a66cfcaf5ef1192009b504d2d6 }
+Revert commits SHA are -> 
+8aa1d8c71a0437ff09872877107dab30ee0c44f0 - revert - c79d27ee0709b6a66cfcaf5ef1192009b504d2d6
+The reverted commit sha is - 8aa1d8c71a0437ff09872877107dab30ee0c44f0
+Commit message - Makefile: add .deps/ to CMake prefix path
+
+The CMake prefix path is the set of directories CMake searches for
+libraries, header files, etc. Use the .deps directory we create when
+building libuv as one of those locations.
+The original commit sha is - c79d27ee0709b6a66cfcaf5ef1192009b504d2d6
+Commit message - build: remove unnecessary flag from CMAKE_FLAGS
+
+We now append the deps install area into CMAKE_PREFIX_PATH.
+-----------------------------------------------------------------
+
+Revert diff pair 9 is -> 
+{ b4a1237f2a37ddc80f6a9fa8f108460c9f491f17 -> 2d32735bd9a120e0c429406d5281fd49df9c9379 } is a revert
+{ 2d32735bd9a120e0c429406d5281fd49df9c9379 -> 6e430eb63490659658cbec8ef164edc375300ce6 }
+Revert commits SHA are -> 
+2d32735bd9a120e0c429406d5281fd49df9c9379 - revert - 6e430eb63490659658cbec8ef164edc375300ce6
+The reverted commit sha is - 2d32735bd9a120e0c429406d5281fd49df9c9379
+Commit message - Added automake as a dependency when building on OS X. Otherwise build complaints of missing aclocal.
+The original commit sha is - 6e430eb63490659658cbec8ef164edc375300ce6
+Commit message - Merge pull request #47 from Coornail/ignore-test-vimrcs
+
+Remove trailing spaces from gitignore
+-----------------------------------------------------------------
+

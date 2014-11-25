@@ -1,0 +1,42 @@
+# of reverts = 3
+Revert diff pair 1 is -> 
+{ 90fdbf568164317a6a856d205ac9823345119284 -> 20866189abcb0f314e5d72a4322304630255c92f } is a revert
+{ 072a45d8539db1b92f4a057b02d6ce329b7c6493 -> 119ed217ad8b199c80b38098b392552a43054f73 }
+Revert commits SHA are -> 
+20866189abcb0f314e5d72a4322304630255c92f - revert - 119ed217ad8b199c80b38098b392552a43054f73
+The reverted commit sha is - 20866189abcb0f314e5d72a4322304630255c92f
+Commit message - Update settings.development.coffee.example
+The original commit sha is - 119ed217ad8b199c80b38098b392552a43054f73
+Commit message - Revert "Update settings.development.coffee.example"
+
+This reverts commit 20866189abcb0f314e5d72a4322304630255c92f.
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ b1eaa975301eb8b9a753332a63a5e93921c812c1 -> dec7347f0821bbca01c849f8a25d58f241cefede } is a revert
+{ 072a45d8539db1b92f4a057b02d6ce329b7c6493 -> 119ed217ad8b199c80b38098b392552a43054f73 }
+Revert commits SHA are -> 
+dec7347f0821bbca01c849f8a25d58f241cefede - revert - 119ed217ad8b199c80b38098b392552a43054f73
+The reverted commit sha is - dec7347f0821bbca01c849f8a25d58f241cefede
+Commit message - Merge pull request #46 from kbasten/patch-1
+
+Update settings.development.coffee.example
+The original commit sha is - 119ed217ad8b199c80b38098b392552a43054f73
+Commit message - Revert "Update settings.development.coffee.example"
+
+This reverts commit 20866189abcb0f314e5d72a4322304630255c92f.
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 0a707f9b05c2cfef8ae9fece2a47482b415b2f99 -> c3d6d6704c4376f7dcfaf215b9c7fbfbc476911a } is a revert
+{ 5840e8f88d95bc37d7fec1f5a5e5fe8ed84f621a -> 84dfc633bd6d382db26e9bec266754ae5f192e1b }
+Revert commits SHA are -> 
+c3d6d6704c4376f7dcfaf215b9c7fbfbc476911a - revert - 84dfc633bd6d382db26e9bec266754ae5f192e1b
+The reverted commit sha is - c3d6d6704c4376f7dcfaf215b9c7fbfbc476911a
+Commit message - Update README.md
+The original commit sha is - 84dfc633bd6d382db26e9bec266754ae5f192e1b
+Commit message - Remove Github ssh keys message
+
+This is now redundant since everything uses https.
+-----------------------------------------------------------------
+

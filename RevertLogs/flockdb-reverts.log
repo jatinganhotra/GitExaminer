@@ -1,0 +1,52 @@
+# of reverts = 4
+Revert diff pair 1 is -> 
+{ e1fb576d0b6da9b066b97990d4b3e48d86fc8d89 -> 3eb554901b2dee52b15783e0185afb324f2e509e } is a revert
+{ 3eb554901b2dee52b15783e0185afb324f2e509e -> 48fcca1b6ed2d329ba05b22ae3639e25108985e1 }
+Revert commits SHA are -> 
+3eb554901b2dee52b15783e0185afb324f2e509e - revert - 48fcca1b6ed2d329ba05b22ae3639e25108985e1
+The reverted commit sha is - 3eb554901b2dee52b15783e0185afb324f2e509e
+Commit message - Fix the select-single Stat which was broken in finagle-ized flockdb
+The original commit sha is - 48fcca1b6ed2d329ba05b22ae3639e25108985e1
+Commit message - Merge pull request #86 from twitter/fix_difference_query
+
+Make DifferenceQuery obey page size
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 5dbba4558ea20476d6c48702067df42d59df48c0 -> 8b01c301c3ba2004f9f724becabc80ce0edff047 } is a revert
+{ fd126b65142dae0f60debfe09d9032a1abe3154b -> b7668b25978ea240e41fcdaf818e11c156e5bb83 }
+Revert commits SHA are -> 
+8b01c301c3ba2004f9f724becabc80ce0edff047 - revert - b7668b25978ea240e41fcdaf818e11c156e5bb83
+The reverted commit sha is - 8b01c301c3ba2004f9f724becabc80ce0edff047
+Commit message - get rid of "optimization" that was breaking 2nd order intersections
+The original commit sha is - b7668b25978ea240e41fcdaf818e11c156e5bb83
+Commit message - Merge branch 'improved_stats' into gizzard_3
+
+Conflicts:
+	project/build.properties
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 5dbba4558ea20476d6c48702067df42d59df48c0 -> 8b01c301c3ba2004f9f724becabc80ce0edff047 } is a revert
+{ ef762a0b45612bd88740eb7e1624a2adc104775c -> 6c62d62285f55011751b2eb61e55d741ffd16c32 }
+Revert commits SHA are -> 
+8b01c301c3ba2004f9f724becabc80ce0edff047 - revert - 6c62d62285f55011751b2eb61e55d741ffd16c32
+The reverted commit sha is - 8b01c301c3ba2004f9f724becabc80ce0edff047
+Commit message - get rid of "optimization" that was breaking 2nd order intersections
+The original commit sha is - 6c62d62285f55011751b2eb61e55d741ffd16c32
+Commit message - Revert "get rid of "optimization" that was breaking 2nd order intersections"
+
+This reverts commit 8b01c301c3ba2004f9f724becabc80ce0edff047.
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ e1af211e7a0c5e1f3c52b74993c67b20432a2659 -> 9bc83912bc98130df1a882e44f990f735f037720 } is a revert
+{ f70aa0832f11f10b85c67df495630719eed2f00e -> b1fd3c4689683276a2cf0f891695c6b3d3b96739 }
+Revert commits SHA are -> 
+9bc83912bc98130df1a882e44f990f735f037720 - revert - b1fd3c4689683276a2cf0f891695c6b3d3b96739
+The reverted commit sha is - 9bc83912bc98130df1a882e44f990f735f037720
+Commit message - keep up with the schema changes in gizzard.
+The original commit sha is - b1fd3c4689683276a2cf0f891695c6b3d3b96739
+Commit message - make exceptions go to logs, ostrich, thrift appropriately
+-----------------------------------------------------------------
+

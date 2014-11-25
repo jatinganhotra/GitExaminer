@@ -1,0 +1,2221 @@
+# of partial reverts = 103
+Partial Revert diff pair 1 is -> 
+{ 3421682ec2b5025cba53afed1526b2c74e7173fa -> aad9842f61253c5b5e5208dec139bd12a536b26c } is a revert
+{ e19ff40c202c278a8e61f18bb8e42fc62c907bfa -> 9580d77f01ce656ee74088c0b2706952b8a0746b }
+Partial Revert commits SHA are -> 
+aad9842f61253c5b5e5208dec139bd12a536b26c - revert - 9580d77f01ce656ee74088c0b2706952b8a0746b
+The reverted commit sha is - aad9842f61253c5b5e5208dec139bd12a536b26c
+Commit message - Moved packages from 3rdparty/bundles to packages/
+The original commit sha is - 9580d77f01ce656ee74088c0b2706952b8a0746b
+Commit message - Merge branch 'master' into buffer_observer
+
+Conflicts:
+	frontend/html/main.go
+	packages/Diff.tmbundle
+	packages/ini.tmbundle
+	packages/monokai.tmbundle
+The files with partial_reverts are:-
+frontend/html/main.go
+frontend/qml/main.go
+frontend/termbox/main.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 334a4fbfd594deb811e3ec30f440f382e5f7e6c8 -> 907fa0fbe92014e79179b2276d2e23a3ef591a44 } is a revert
+{ 042e93dd17637de23a2e9e72dd6d011494250bb0 -> 87a5429263334a846b3f1360c7c0b18b50e5d480 }
+Partial Revert commits SHA are -> 
+907fa0fbe92014e79179b2276d2e23a3ef591a44 - revert - 87a5429263334a846b3f1360c7c0b18b50e5d480
+The reverted commit sha is - 907fa0fbe92014e79179b2276d2e23a3ef591a44
+Commit message - Trying to fix datarace #440
+The original commit sha is - 87a5429263334a846b3f1360c7c0b18b50e5d480
+Commit message - Merge pull request #441 from mmstick/patch-3
+
+Fix line number on new line
+The files with partial_reverts are:-
+frontend/termbox/main.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 334a4fbfd594deb811e3ec30f440f382e5f7e6c8 -> 907fa0fbe92014e79179b2276d2e23a3ef591a44 } is a revert
+{ 907fa0fbe92014e79179b2276d2e23a3ef591a44 -> c2dd608f78a5f42cfe5196d4698c5d09136b3424 }
+Partial Revert commits SHA are -> 
+907fa0fbe92014e79179b2276d2e23a3ef591a44 - revert - c2dd608f78a5f42cfe5196d4698c5d09136b3424
+The reverted commit sha is - 907fa0fbe92014e79179b2276d2e23a3ef591a44
+Commit message - Trying to fix datarace #440
+The original commit sha is - c2dd608f78a5f42cfe5196d4698c5d09136b3424
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  Add bountysource badge
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ f039028ee8ce5b7604aa5a7df06d41d07c85ce38 -> db01c850e7c6a13be5b5b8d014f92e2c30d0c0d7 } is a revert
+{ db01c850e7c6a13be5b5b8d014f92e2c30d0c0d7 -> 43e660c2352b6e81dc43785afa3e58615e6ba7c5 }
+Partial Revert commits SHA are -> 
+db01c850e7c6a13be5b5b8d014f92e2c30d0c0d7 - revert - 43e660c2352b6e81dc43785afa3e58615e6ba7c5
+The reverted commit sha is - db01c850e7c6a13be5b5b8d014f92e2c30d0c0d7
+Commit message - Changed watch package regarding to the discussion in #433
+The original commit sha is - 43e660c2352b6e81dc43785afa3e58615e6ba7c5
+Commit message - Merge branch 'master' of github.com:limetext/lime into watcher
+
+* 'master' of github.com:limetext/lime:
+  Benchmarking + some profile entries for #425.
+  Not for the cover tool.
+  Use golang.org/x/* over code.google.com/p/go.*.
+  Rewrite new transpose code.
+  Fix formatting of transpose sources (gofmt)
+  Add tests for the transpose command.
+  Implement transpose command (Issue #47)
+The files with partial_reverts are:-
+backend/commands/transpose.go
+backend/commands/transpose_test.go
+backend/render/renderer.go
+backend/render/view.go
+backend/textmate/theme.go
+backend/view_test.go
+frontend/html/main.go
+packages/Default/Default.sublime-keymap
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ 270a677da3f0dffe5df1ae25e9faaa741475161f -> 93b6b23182ca1114ecac5fbdda3266f7ab8416f7 } is a revert
+{ 87e864c0b5a00f54d23511a9f11f1c4dc3633cdb -> 30a6f29a404980181125b2bcdd0291a4550ea850 }
+Partial Revert commits SHA are -> 
+93b6b23182ca1114ecac5fbdda3266f7ab8416f7 - revert - 30a6f29a404980181125b2bcdd0291a4550ea850
+The reverted commit sha is - 93b6b23182ca1114ecac5fbdda3266f7ab8416f7
+Commit message - Use golang.org/x/* over code.google.com/p/go.*.
+The original commit sha is - 30a6f29a404980181125b2bcdd0291a4550ea850
+Commit message - Not for the cover tool.
+The files with partial_reverts are:-
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ e5b67a05e9e581e7ea3ab98e6757d12e1380c471 -> a35cc7efd65fe8a7fc6ed92c6224be8e543fd129 } is a revert
+{ 93b6b23182ca1114ecac5fbdda3266f7ab8416f7 -> 87e864c0b5a00f54d23511a9f11f1c4dc3633cdb }
+Partial Revert commits SHA are -> 
+a35cc7efd65fe8a7fc6ed92c6224be8e543fd129 - revert - 87e864c0b5a00f54d23511a9f11f1c4dc3633cdb
+The reverted commit sha is - a35cc7efd65fe8a7fc6ed92c6224be8e543fd129
+Commit message - Sublime package tests are passing
+When we watch all events on a plugin it causes errors like
+unexpected signal during runtime execution in reload_plugin function
+located in sublime_plugin.py after watching just for MODIFY event this
+issue resolves
+The original commit sha is - 87e864c0b5a00f54d23511a9f11f1c4dc3633cdb
+Commit message - Merge branch 'master' of github.com:limetext/lime
+The files with partial_reverts are:-
+packages/Default/Default.sublime-keymap
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ 270a677da3f0dffe5df1ae25e9faaa741475161f -> 93b6b23182ca1114ecac5fbdda3266f7ab8416f7 } is a revert
+{ 93b6b23182ca1114ecac5fbdda3266f7ab8416f7 -> 87e864c0b5a00f54d23511a9f11f1c4dc3633cdb }
+Partial Revert commits SHA are -> 
+93b6b23182ca1114ecac5fbdda3266f7ab8416f7 - revert - 87e864c0b5a00f54d23511a9f11f1c4dc3633cdb
+The reverted commit sha is - 93b6b23182ca1114ecac5fbdda3266f7ab8416f7
+Commit message - Use golang.org/x/* over code.google.com/p/go.*.
+The original commit sha is - 87e864c0b5a00f54d23511a9f11f1c4dc3633cdb
+Commit message - Merge branch 'master' of github.com:limetext/lime
+The files with partial_reverts are:-
+backend/commands/transpose.go
+backend/commands/transpose_test.go
+packages/Default/Default.sublime-keymap
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ e5b67a05e9e581e7ea3ab98e6757d12e1380c471 -> a35cc7efd65fe8a7fc6ed92c6224be8e543fd129 } is a revert
+{ c27687afc588855092088bfe5d0933049f853415 -> 83ce8119fa6238f95a935310badfeaeada38c244 }
+Partial Revert commits SHA are -> 
+a35cc7efd65fe8a7fc6ed92c6224be8e543fd129 - revert - 83ce8119fa6238f95a935310badfeaeada38c244
+The reverted commit sha is - a35cc7efd65fe8a7fc6ed92c6224be8e543fd129
+Commit message - Sublime package tests are passing
+When we watch all events on a plugin it causes errors like
+unexpected signal during runtime execution in reload_plugin function
+located in sublime_plugin.py after watching just for MODIFY event this
+issue resolves
+The original commit sha is - 83ce8119fa6238f95a935310badfeaeada38c244
+Commit message - Rewrite new transpose code.
+
+Rewrite the transpose function to more completely mimic ST3's behavior. Also
+add more tests.
+The files with partial_reverts are:-
+backend/editor.go
+backend/editor_test.go
+backend/events.go
+backend/events_test.go
+backend/log/global.go
+backend/sublime/sublime_manual.go
+backend/sublime/sublime_test.go
+backend/sublime/testdata/reload_test.py
+backend/sublime/view_buffer_generated.go
+backend/view.go
+backend/watch/action.go
+backend/watch/action_test.go
+backend/watch/util.go
+backend/watch/util_test.go
+backend/watch/watch.go
+backend/watch/watch_test.go
+backend/watched.go
+backend/watched_test.go
+packages/Default/Default.sublime-keymap
+tasks/build/gen_python_api.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ f418df209e48d76e20205b3359c581d1b31cc6a1 -> 3df2a386c478a8fdc64fe9c5d27914fbac163276 } is a revert
+{ 3df2a386c478a8fdc64fe9c5d27914fbac163276 -> 4c3bbe253a7ad3d1d993cdabbfa1d423650e7d4f }
+Partial Revert commits SHA are -> 
+3df2a386c478a8fdc64fe9c5d27914fbac163276 - revert - 4c3bbe253a7ad3d1d993cdabbfa1d423650e7d4f
+The reverted commit sha is - 3df2a386c478a8fdc64fe9c5d27914fbac163276
+Commit message - Add a Gitter badge.
+The original commit sha is - 4c3bbe253a7ad3d1d993cdabbfa1d423650e7d4f
+Commit message - Return error from Watch && UnWatch
+The files with partial_reverts are:-
+README.md
+backend/editor_test.go
+backend/events.go
+backend/view.go
+backend/watched.go
+backend/watched_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ f11ba50518fbf76acb6ab8c1aa2d8532423ea59b -> 75b9e80104fb20e0391451aa58a3804941d76e28 } is a revert
+{ 75b9e80104fb20e0391451aa58a3804941d76e28 -> 4ec7f5412db80b62801f12271e413de889c1fee6 }
+Partial Revert commits SHA are -> 
+75b9e80104fb20e0391451aa58a3804941d76e28 - revert - 4ec7f5412db80b62801f12271e413de889c1fee6
+The reverted commit sha is - 75b9e80104fb20e0391451aa58a3804941d76e28
+Commit message - [frontend/qml] Add a .pro to enable translations.
+The original commit sha is - 4ec7f5412db80b62801f12271e413de889c1fee6
+Commit message - Added type watcher and moved watch functions under created type
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commands/register.go
+backend/editor.go
+backend/events.go
+backend/keys/keypress.go
+backend/log/consolelogwriter.go
+backend/log/filelogwriter.go
+backend/log/global.go
+backend/log/level.go
+backend/log/logger.go
+backend/log/logger_test.go
+backend/log/logwriter.go
+backend/logger/logger.go
+backend/logger/logger_test.go
+backend/packages/packet.go
+backend/packages/packet_test.go
+backend/packages/plugin.go
+backend/sublime/commands_manual.go
+backend/sublime/events_manual.go
+backend/sublime/sublime_manual.go
+backend/sublime/sublime_test.go
+backend/sublime/view_manual.go
+backend/textmate/language.go
+backend/textmate/theme.go
+backend/view.go
+backend/watched.go
+backend/watched_test.go
+backend/window.go
+frontend/html/index.html
+frontend/html/main.go
+frontend/qml/LimeView.qml
+frontend/qml/lime.pro
+frontend/qml/main.go
+frontend/termbox/main.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 5599c2777938cc93bb49e0e86330448f15a82b0d -> 6397a39773ee527e3156058240613d1160d4e65a } is a revert
+{ 6397a39773ee527e3156058240613d1160d4e65a -> 4b0da2f8ec43f07cc84025d9f8a13ad96976e5d0 }
+Partial Revert commits SHA are -> 
+6397a39773ee527e3156058240613d1160d4e65a - revert - 4b0da2f8ec43f07cc84025d9f8a13ad96976e5d0
+The reverted commit sha is - 6397a39773ee527e3156058240613d1160d4e65a
+Commit message - Wrap log4go in the backend/log package.
+The original commit sha is - 4b0da2f8ec43f07cc84025d9f8a13ad96976e5d0
+Commit message - Providing view instead of selection to GetSelectionMessage()
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commands/register.go
+backend/editor.go
+backend/events.go
+backend/keys/keypress.go
+backend/log/consolelogwriter.go
+backend/log/filelogwriter.go
+backend/log/level.go
+backend/log/logger.go
+backend/log/logger_test.go
+backend/log/logwriter.go
+backend/logger/logger.go
+backend/logger/logger_test.go
+backend/packages/packet.go
+backend/packages/plugin.go
+backend/sublime/commands_manual.go
+backend/sublime/events_manual.go
+backend/sublime/sublime_manual.go
+backend/sublime/sublime_test.go
+backend/sublime/view_manual.go
+backend/textmate/language.go
+backend/textmate/theme.go
+backend/view.go
+backend/watched.go
+backend/window.go
+frontend/qml/main.go
+frontend/termbox/main.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ 7e21811bc0de3288325aab15fddd80d5e3ba1a7e -> f12b169165053d16f4971444cf01b66079a5004c } is a revert
+{ 941d29d1441a553c293dbd9f76450d6b7ba0c5cf -> cea940d241c495733296a33e449645e9a90fb8d9 }
+Partial Revert commits SHA are -> 
+f12b169165053d16f4971444cf01b66079a5004c - revert - cea940d241c495733296a33e449645e9a90fb8d9
+The reverted commit sha is - f12b169165053d16f4971444cf01b66079a5004c
+Commit message - Adds a separate HTML file, bug fixes in html frontend
+The original commit sha is - cea940d241c495733296a33e449645e9a90fb8d9
+Commit message - Merge pull request #423 from emersion/master
+
+frontend/html: status bar, compatibility fixes
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb -> 7eb4ee04e22c080b6730e61567412d26cf5d425b } is a revert
+{ 941d29d1441a553c293dbd9f76450d6b7ba0c5cf -> cea940d241c495733296a33e449645e9a90fb8d9 }
+Partial Revert commits SHA are -> 
+7eb4ee04e22c080b6730e61567412d26cf5d425b - revert - cea940d241c495733296a33e449645e9a90fb8d9
+The reverted commit sha is - 7eb4ee04e22c080b6730e61567412d26cf5d425b
+Commit message - Fixes keyboard support
+The original commit sha is - cea940d241c495733296a33e449645e9a90fb8d9
+Commit message - Merge pull request #423 from emersion/master
+
+frontend/html: status bar, compatibility fixes
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ d671f3b181c88f17b53ffe396226294586e60f50 -> 885206641f36532f1118140190ef6a01ba7bcce7 } is a revert
+{ 941d29d1441a553c293dbd9f76450d6b7ba0c5cf -> cea940d241c495733296a33e449645e9a90fb8d9 }
+Partial Revert commits SHA are -> 
+885206641f36532f1118140190ef6a01ba7bcce7 - revert - cea940d241c495733296a33e449645e9a90fb8d9
+The reverted commit sha is - 885206641f36532f1118140190ef6a01ba7bcce7
+Commit message - Adds status bar. Restored old code for browsers that don't support event.key.
+The original commit sha is - cea940d241c495733296a33e449645e9a90fb8d9
+Commit message - Merge pull request #423 from emersion/master
+
+frontend/html: status bar, compatibility fixes
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ f88b4d5db018c76cc04b5a61235beb00f43af976 -> efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb } is a revert
+{ d671f3b181c88f17b53ffe396226294586e60f50 -> 885206641f36532f1118140190ef6a01ba7bcce7 }
+Partial Revert commits SHA are -> 
+efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb - revert - 885206641f36532f1118140190ef6a01ba7bcce7
+The reverted commit sha is - efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb
+Commit message - Merge pull request #420 from emersion/master
+
+[frontend][html] Adds HTML file, dialogs, bug fixes
+The original commit sha is - 885206641f36532f1118140190ef6a01ba7bcce7
+Commit message - Adds status bar. Restored old code for browsers that don't support event.key.
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ 7e21811bc0de3288325aab15fddd80d5e3ba1a7e -> f12b169165053d16f4971444cf01b66079a5004c } is a revert
+{ b5c46f9cd8efa42c890bdd72cbc28c91200b792f -> d671f3b181c88f17b53ffe396226294586e60f50 }
+Partial Revert commits SHA are -> 
+f12b169165053d16f4971444cf01b66079a5004c - revert - d671f3b181c88f17b53ffe396226294586e60f50
+The reverted commit sha is - f12b169165053d16f4971444cf01b66079a5004c
+Commit message - Adds a separate HTML file, bug fixes in html frontend
+The original commit sha is - d671f3b181c88f17b53ffe396226294586e60f50
+Commit message - Merge pull request #421 from emersion/master
+
+[frontend][html] Fixes keyboard support
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb -> 7eb4ee04e22c080b6730e61567412d26cf5d425b } is a revert
+{ b5c46f9cd8efa42c890bdd72cbc28c91200b792f -> d671f3b181c88f17b53ffe396226294586e60f50 }
+Partial Revert commits SHA are -> 
+7eb4ee04e22c080b6730e61567412d26cf5d425b - revert - d671f3b181c88f17b53ffe396226294586e60f50
+The reverted commit sha is - 7eb4ee04e22c080b6730e61567412d26cf5d425b
+Commit message - Fixes keyboard support
+The original commit sha is - d671f3b181c88f17b53ffe396226294586e60f50
+Commit message - Merge pull request #421 from emersion/master
+
+[frontend][html] Fixes keyboard support
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ f88b4d5db018c76cc04b5a61235beb00f43af976 -> efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb } is a revert
+{ efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb -> 7eb4ee04e22c080b6730e61567412d26cf5d425b }
+Partial Revert commits SHA are -> 
+efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb - revert - 7eb4ee04e22c080b6730e61567412d26cf5d425b
+The reverted commit sha is - efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb
+Commit message - Merge pull request #420 from emersion/master
+
+[frontend][html] Adds HTML file, dialogs, bug fixes
+The original commit sha is - 7eb4ee04e22c080b6730e61567412d26cf5d425b
+Commit message - Fixes keyboard support
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 7e21811bc0de3288325aab15fddd80d5e3ba1a7e -> f12b169165053d16f4971444cf01b66079a5004c } is a revert
+{ f88b4d5db018c76cc04b5a61235beb00f43af976 -> efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb }
+Partial Revert commits SHA are -> 
+f12b169165053d16f4971444cf01b66079a5004c - revert - efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb
+The reverted commit sha is - f12b169165053d16f4971444cf01b66079a5004c
+Commit message - Adds a separate HTML file, bug fixes in html frontend
+The original commit sha is - efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb
+Commit message - Merge pull request #420 from emersion/master
+
+[frontend][html] Adds HTML file, dialogs, bug fixes
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ 5ef72d79f9b434f89526cd71ebbf32b46b1da95a -> f1f04bdd7984c3a6fbfdc9ed06e5ab1c236d56d5 } is a revert
+{ f1f04bdd7984c3a6fbfdc9ed06e5ab1c236d56d5 -> 35369dddeaafa0583e88d1d00266d1f9953bd869 }
+Partial Revert commits SHA are -> 
+f1f04bdd7984c3a6fbfdc9ed06e5ab1c236d56d5 - revert - 35369dddeaafa0583e88d1d00266d1f9953bd869
+The reverted commit sha is - f1f04bdd7984c3a6fbfdc9ed06e5ab1c236d56d5
+Commit message - Expand selection on double click, added copy cut paste command to default keybindings
+The original commit sha is - 35369dddeaafa0583e88d1d00266d1f9953bd869
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  Make sure the test checks that all the views are closed.
+  Merge pull request #401 from snowiow/master
+  added an window title to the ApplicationWindow
+The files with partial_reverts are:-
+backend/commands/window.go
+backend/commands/window_test.go
+backend/window.go
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ 5bf6b6cd9e02099258404ed2a6b9301958d73439 -> 09373811cd69a2041e2e79dda66ab06f1c697c3a } is a revert
+{ 09373811cd69a2041e2e79dda66ab06f1c697c3a -> 597cb842e0a9e2396888658e8bb63c955b3a90f1 }
+Partial Revert commits SHA are -> 
+09373811cd69a2041e2e79dda66ab06f1c697c3a - revert - 597cb842e0a9e2396888658e8bb63c955b3a90f1
+The reverted commit sha is - 09373811cd69a2041e2e79dda66ab06f1c697c3a
+Commit message - Fix unittest race
+The original commit sha is - 597cb842e0a9e2396888658e8bb63c955b3a90f1
+Commit message - Merge pull request #399 from Joushou/separation2
+
+First move in isolating logic
+The files with partial_reverts are:-
+frontend/html/main.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ b67e2df246a40ec285eae62b193466e1faea13f2 -> c1bbcdd99dfa046aa450003ca4af43f5e83d969e } is a revert
+{ 6a96e564171340ef02e6b3970eb6b6b366b7eb75 -> 3ac9ae093f46e20310810bcb6f43777c7280cf29 }
+Partial Revert commits SHA are -> 
+c1bbcdd99dfa046aa450003ca4af43f5e83d969e - revert - 3ac9ae093f46e20310810bcb6f43777c7280cf29
+The reverted commit sha is - c1bbcdd99dfa046aa450003ca4af43f5e83d969e
+Commit message - Don't generate a python api for View.ExpandByClass.
+
+We have a manually written one already.
+The original commit sha is - 3ac9ae093f46e20310810bcb6f43777c7280cf29
+Commit message - Merge pull request #392 from snowiow/master
+
+resolve #390, added close_view command and link to qml
+The files with partial_reverts are:-
+backend/commands/close_view.go
+backend/commands/close_view_test.go
+backend/window.go
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ 48fa57e4a0d1b860ff9966dfca14713638c1e7fd -> d7c6497e7c7c0081b23d4e4c554b79d709be765d } is a revert
+{ dc2e1824d5561ede1358619889052f0589f70511 -> d0e10accc84ff96c35b35b2df4b611532d4ccf31 }
+Partial Revert commits SHA are -> 
+d7c6497e7c7c0081b23d4e4c554b79d709be765d - revert - d0e10accc84ff96c35b35b2df4b611532d4ccf31
+The reverted commit sha is - d7c6497e7c7c0081b23d4e4c554b79d709be765d
+Commit message - Run the tests on all the frontends.
+The original commit sha is - d0e10accc84ff96c35b35b2df4b611532d4ccf31
+Commit message - Don't break the docs.
+The files with partial_reverts are:-
+backend/editor.go
+backend/events.go
+backend/key.go
+backend/key_test.go
+backend/keys/key.go
+backend/keys/keybinding.go
+backend/keys/keybinding_test.go
+backend/keys/keycontext.go
+backend/keys/keypress.go
+backend/keys/testdata/Default.sublime-keymap
+backend/packages.go
+backend/packages/Default/Default.sublime-keymap
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Default/history_list.py
+backend/packages/Python/Python.sublime-settings
+backend/packages/package.go
+backend/packages/packet.go
+backend/packages/packet_test.go
+backend/packages/plugin.go
+backend/packages/plugin_test.go
+backend/packages/testdata/Closetag/closetag.vim
+backend/packages/testdata/Default.sublime-keymap
+backend/packages/testdata/Vintage/Default.sublime-commands
+backend/packages/testdata/Vintage/Default.sublime-keymap
+backend/packages/testdata/Vintage/Vintageous.sublime-settings
+backend/packages/testdata/Vintage/action_cmds.py
+backend/packages/testdata/Vintage/state.py
+backend/packages/testdata/Vintage/transformers.py
+backend/packages_test.go
+backend/sublime/events_manual.go
+backend/sublime/sublime_manual.go
+backend/sublime/sublime_test.go
+backend/testdata/Vintageous.sublime-keymap
+backend/util/op.go
+backend/view.go
+backend/view_test.go
+backend/watched.go
+frontend/html/main.go
+frontend/qml/main.go
+frontend/termbox/main.go
+packages/Default/Default.sublime-keymap
+packages/Default/Preferences.sublime-settings
+packages/Default/history_list.py
+packages/Python/Python.sublime-settings
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ 48fa57e4a0d1b860ff9966dfca14713638c1e7fd -> d7c6497e7c7c0081b23d4e4c554b79d709be765d } is a revert
+{ 3e6a0eefff8c566a322ef63f41de189f8dee3f15 -> 31a05db0c40f020bf8df653fc206d4f4c0258992 }
+Partial Revert commits SHA are -> 
+d7c6497e7c7c0081b23d4e4c554b79d709be765d - revert - 31a05db0c40f020bf8df653fc206d4f4c0258992
+The reverted commit sha is - d7c6497e7c7c0081b23d4e4c554b79d709be765d
+Commit message - Run the tests on all the frontends.
+The original commit sha is - 31a05db0c40f020bf8df653fc206d4f4c0258992
+Commit message - Revert "Run the tests on all the frontends."
+
+This reverts commit d7c6497e7c7c0081b23d4e4c554b79d709be765d.
+The files with partial_reverts are:-
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ 858ae43719ae6592f3ef8f17aeeef01efe78290e -> 48f37e4cffd6b68656b0975017ae405519dec8d4 } is a revert
+{ ceaa7552d9312223ac76308d19045eb4871605c9 -> c9117290e9737856d5655fb73c9620f1b2a93924 }
+Partial Revert commits SHA are -> 
+48f37e4cffd6b68656b0975017ae405519dec8d4 - revert - c9117290e9737856d5655fb73c9620f1b2a93924
+The reverted commit sha is - 48f37e4cffd6b68656b0975017ae405519dec8d4
+Commit message - Make sure that that termbox is set up before renderThread starts. Also, misc cleanup
+The original commit sha is - c9117290e9737856d5655fb73c9620f1b2a93924
+Commit message - Merge branch 'master' of https://github.com/limetext/lime
+merge master
+The files with partial_reverts are:-
+backend/commands/open_file.go
+backend/commands/open_file_test.go
+frontend/qml/dialogs/OpenDialog.qml
+frontend/qml/dialogs/qmldir
+frontend/qml/main.go
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ e31606e08ee037cc7c4b7d155dadd1c3b81bc282 -> 7366decc77fbed27bf9603577f2e8e18080e08c0 } is a revert
+{ 7366decc77fbed27bf9603577f2e8e18080e08c0 -> 0e095d862658145b67130319174f297a4a3e5ad3 }
+Partial Revert commits SHA are -> 
+7366decc77fbed27bf9603577f2e8e18080e08c0 - revert - 0e095d862658145b67130319174f297a4a3e5ad3
+The reverted commit sha is - 7366decc77fbed27bf9603577f2e8e18080e08c0
+Commit message - Handle termbox.EventResize
+The original commit sha is - 0e095d862658145b67130319174f297a4a3e5ad3
+Commit message - Merge pull request #369 from Joushou/glitchytermbox
+
+Fix some glitchy output in termbox frontend
+The files with partial_reverts are:-
+frontend/qml/LimeView.qml
+frontend/qml/main.go
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ 7eac1498b7237dbd2ca0d594b0ec7578a6cfb603 -> e31606e08ee037cc7c4b7d155dadd1c3b81bc282 } is a revert
+{ e31606e08ee037cc7c4b7d155dadd1c3b81bc282 -> 7366decc77fbed27bf9603577f2e8e18080e08c0 }
+Partial Revert commits SHA are -> 
+e31606e08ee037cc7c4b7d155dadd1c3b81bc282 - revert - 7366decc77fbed27bf9603577f2e8e18080e08c0
+The reverted commit sha is - e31606e08ee037cc7c4b7d155dadd1c3b81bc282
+Commit message - Show file name on tabs
+The original commit sha is - 7366decc77fbed27bf9603577f2e8e18080e08c0
+Commit message - Handle termbox.EventResize
+The files with partial_reverts are:-
+frontend/qml/LimeView.qml
+frontend/qml/main.go
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ 954b0a2d874a3bdeb0abab6b5990ce16ac319c8b -> 0acf4ded46d6226e5de7364504bbca9931b13637 } is a revert
+{ f8675cee9d902656a24d2efd414edc58c17fdc9d -> 7ec702487314c558e5e392b6533691a3244a9ad8 }
+Partial Revert commits SHA are -> 
+0acf4ded46d6226e5de7364504bbca9931b13637 - revert - 7ec702487314c558e5e392b6533691a3244a9ad8
+The reverted commit sha is - 0acf4ded46d6226e5de7364504bbca9931b13637
+Commit message - Specify how the sublime generated files were built.
+
+Realted to #360.
+The original commit sha is - 7ec702487314c558e5e392b6533691a3244a9ad8
+Commit message - Merge pull request #359 from erbridge/improve_ci
+
+Improve the Travis CI script
+The files with partial_reverts are:-
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ 1f4321b9ea20593d634d5a84ac3e187c5606d7fc -> ecc2b8d68bcd25d79d70bbae9b658ed0c3226e6e } is a revert
+{ f8675cee9d902656a24d2efd414edc58c17fdc9d -> 7ec702487314c558e5e392b6533691a3244a9ad8 }
+Partial Revert commits SHA are -> 
+ecc2b8d68bcd25d79d70bbae9b658ed0c3226e6e - revert - 7ec702487314c558e5e392b6533691a3244a9ad8
+The reverted commit sha is - ecc2b8d68bcd25d79d70bbae9b658ed0c3226e6e
+Commit message - clear the view on open file
+The original commit sha is - 7ec702487314c558e5e392b6533691a3244a9ad8
+Commit message - Merge pull request #359 from erbridge/improve_ci
+
+Improve the Travis CI script
+The files with partial_reverts are:-
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ 0acf4ded46d6226e5de7364504bbca9931b13637 -> 1f4321b9ea20593d634d5a84ac3e187c5606d7fc } is a revert
+{ ecc2b8d68bcd25d79d70bbae9b658ed0c3226e6e -> f478d51ec3cec68fbf137421aa456c1aacf44d97 }
+Partial Revert commits SHA are -> 
+1f4321b9ea20593d634d5a84ac3e187c5606d7fc - revert - f478d51ec3cec68fbf137421aa456c1aacf44d97
+The reverted commit sha is - 1f4321b9ea20593d634d5a84ac3e187c5606d7fc
+Commit message - Fix the return codes in lime.sh.
+The original commit sha is - f478d51ec3cec68fbf137421aa456c1aacf44d97
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  Specify how the sublime generated files were built.
+  Add next_view and prev_view commands.
+The files with partial_reverts are:-
+backend/commands/view.go
+backend/commands/view_test.go
+backend/sublime/commands_generated.go
+backend/sublime/edit_generated.go
+backend/sublime/frontend_generated.go
+backend/sublime/region_generated.go
+backend/sublime/regionset_generated.go
+backend/sublime/settings_generated.go
+backend/sublime/sublime_api_generated.go
+backend/sublime/view_buffer_generated.go
+backend/sublime/view_generated.go
+backend/sublime/window_generated.go
+tasks/build/gen_python_api.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ 954b0a2d874a3bdeb0abab6b5990ce16ac319c8b -> 0acf4ded46d6226e5de7364504bbca9931b13637 } is a revert
+{ 0acf4ded46d6226e5de7364504bbca9931b13637 -> 1f4321b9ea20593d634d5a84ac3e187c5606d7fc }
+Partial Revert commits SHA are -> 
+0acf4ded46d6226e5de7364504bbca9931b13637 - revert - 1f4321b9ea20593d634d5a84ac3e187c5606d7fc
+The reverted commit sha is - 0acf4ded46d6226e5de7364504bbca9931b13637
+Commit message - Specify how the sublime generated files were built.
+
+Realted to #360.
+The original commit sha is - 1f4321b9ea20593d634d5a84ac3e187c5606d7fc
+Commit message - Fix the return codes in lime.sh.
+The files with partial_reverts are:-
+backend/commands/view.go
+backend/commands/view_test.go
+backend/editor.go
+backend/editor_test.go
+backend/packages.go
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/sublime/commands_generated.go
+backend/sublime/edit_generated.go
+backend/sublime/frontend_generated.go
+backend/sublime/region_generated.go
+backend/sublime/regionset_generated.go
+backend/sublime/settings_generated.go
+backend/sublime/sublime_api_generated.go
+backend/sublime/sublime_manual.go
+backend/sublime/view_buffer_generated.go
+backend/sublime/view_generated.go
+backend/sublime/window_generated.go
+backend/view.go
+backend/view_test.go
+tasks/build/gen_python_api.go
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ a89287b046055b826c5990ef015a4b9fa775364d -> d1504521dd5cfff07b3b77043cc2fd83713ddb80 } is a revert
+{ d1504521dd5cfff07b3b77043cc2fd83713ddb80 -> 954b0a2d874a3bdeb0abab6b5990ce16ac319c8b }
+Partial Revert commits SHA are -> 
+d1504521dd5cfff07b3b77043cc2fd83713ddb80 - revert - 954b0a2d874a3bdeb0abab6b5990ce16ac319c8b
+The reverted commit sha is - d1504521dd5cfff07b3b77043cc2fd83713ddb80
+Commit message - Merge pull request #358 from erbridge/next_prev_view
+
+Add next_view and prev_view commands
+The original commit sha is - 954b0a2d874a3bdeb0abab6b5990ce16ac319c8b
+Commit message - Mark the build as failed if goveralls fails too.
+The files with partial_reverts are:-
+backend/commands/view.go
+backend/commands/view_test.go
+backend/editor.go
+backend/editor_test.go
+backend/packages.go
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/sublime/sublime_manual.go
+backend/view.go
+backend/view_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ bfb2484468185c1d94f41b821f1b9fe617440a55 -> 98c35cbb9604b5ade8edd28795d77db3e34f62a6 } is a revert
+{ 32a2d30f0ca139dc53293daf853721fb30ac7bd4 -> 468d19fed4bd8229f0b64735de45ab086a13579b }
+Partial Revert commits SHA are -> 
+98c35cbb9604b5ade8edd28795d77db3e34f62a6 - revert - 468d19fed4bd8229f0b64735de45ab086a13579b
+The reverted commit sha is - 98c35cbb9604b5ade8edd28795d77db3e34f62a6
+Commit message - Wrote settings by myself
+The original commit sha is - 468d19fed4bd8229f0b64735de45ab086a13579b
+Commit message - Merge pull request #353 from zidoms/master
+
+Settings parent child hierarchy
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/loaders/json_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view_test.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ 1d1060fadcdd33a33b8e4ed805152470138fd48c -> bbcec6af6acaf3cc34e33d98b6527468adeeac7e } is a revert
+{ 32a2d30f0ca139dc53293daf853721fb30ac7bd4 -> 468d19fed4bd8229f0b64735de45ab086a13579b }
+Partial Revert commits SHA are -> 
+bbcec6af6acaf3cc34e33d98b6527468adeeac7e - revert - 468d19fed4bd8229f0b64735de45ab086a13579b
+The reverted commit sha is - bbcec6af6acaf3cc34e33d98b6527468adeeac7e
+Commit message - Use json.Unmarshaler type instead of marshalTo
+The original commit sha is - 468d19fed4bd8229f0b64735de45ab086a13579b
+Commit message - Merge pull request #353 from zidoms/master
+
+Settings parent child hierarchy
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/loaders/json_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view.go
+backend/render/view_test.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ 6a15a4a39eb538304deb4e477aec20bd534bbd9a -> 32a2d30f0ca139dc53293daf853721fb30ac7bd4 } is a revert
+{ 32a2d30f0ca139dc53293daf853721fb30ac7bd4 -> 468d19fed4bd8229f0b64735de45ab086a13579b }
+Partial Revert commits SHA are -> 
+32a2d30f0ca139dc53293daf853721fb30ac7bd4 - revert - 468d19fed4bd8229f0b64735de45ab086a13579b
+The reverted commit sha is - 32a2d30f0ca139dc53293daf853721fb30ac7bd4
+Commit message - Minor fix for plugin settings
+The original commit sha is - 468d19fed4bd8229f0b64735de45ab086a13579b
+Commit message - Merge pull request #353 from zidoms/master
+
+Settings parent child hierarchy
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/loaders/json_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view.go
+backend/render/view_test.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ 8e7ae62391597db8078fe37557928e6da5711f1b -> 1d1060fadcdd33a33b8e4ed805152470138fd48c } is a revert
+{ 6a15a4a39eb538304deb4e477aec20bd534bbd9a -> 32a2d30f0ca139dc53293daf853721fb30ac7bd4 }
+Partial Revert commits SHA are -> 
+1d1060fadcdd33a33b8e4ed805152470138fd48c - revert - 32a2d30f0ca139dc53293daf853721fb30ac7bd4
+The reverted commit sha is - 1d1060fadcdd33a33b8e4ed805152470138fd48c
+Commit message - backend/render: document view.go
+The original commit sha is - 32a2d30f0ca139dc53293daf853721fb30ac7bd4
+Commit message - Minor fix for plugin settings
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/editor.go
+backend/editor_test.go
+backend/loaders/json_test.go
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view.go
+backend/render/view_test.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+backend/view_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ bbcec6af6acaf3cc34e33d98b6527468adeeac7e -> 6a15a4a39eb538304deb4e477aec20bd534bbd9a } is a revert
+{ 6a15a4a39eb538304deb4e477aec20bd534bbd9a -> 32a2d30f0ca139dc53293daf853721fb30ac7bd4 }
+Partial Revert commits SHA are -> 
+6a15a4a39eb538304deb4e477aec20bd534bbd9a - revert - 32a2d30f0ca139dc53293daf853721fb30ac7bd4
+The reverted commit sha is - 6a15a4a39eb538304deb4e477aec20bd534bbd9a
+Commit message - Fix formatting.
+The original commit sha is - 32a2d30f0ca139dc53293daf853721fb30ac7bd4
+Commit message - Minor fix for plugin settings
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/editor.go
+backend/editor_test.go
+backend/loaders/json_test.go
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view.go
+backend/render/view_test.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+backend/view.go
+backend/view_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ bfb2484468185c1d94f41b821f1b9fe617440a55 -> 98c35cbb9604b5ade8edd28795d77db3e34f62a6 } is a revert
+{ bbcec6af6acaf3cc34e33d98b6527468adeeac7e -> 6a15a4a39eb538304deb4e477aec20bd534bbd9a }
+Partial Revert commits SHA are -> 
+98c35cbb9604b5ade8edd28795d77db3e34f62a6 - revert - 6a15a4a39eb538304deb4e477aec20bd534bbd9a
+The reverted commit sha is - 98c35cbb9604b5ade8edd28795d77db3e34f62a6
+Commit message - Wrote settings by myself
+The original commit sha is - 6a15a4a39eb538304deb4e477aec20bd534bbd9a
+Commit message - Fix formatting.
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/editor.go
+backend/editor_test.go
+backend/loaders/json_test.go
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view_test.go
+backend/sublime/sublime_manual.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+backend/view_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ 1d1060fadcdd33a33b8e4ed805152470138fd48c -> bbcec6af6acaf3cc34e33d98b6527468adeeac7e } is a revert
+{ bbcec6af6acaf3cc34e33d98b6527468adeeac7e -> 6a15a4a39eb538304deb4e477aec20bd534bbd9a }
+Partial Revert commits SHA are -> 
+bbcec6af6acaf3cc34e33d98b6527468adeeac7e - revert - 6a15a4a39eb538304deb4e477aec20bd534bbd9a
+The reverted commit sha is - bbcec6af6acaf3cc34e33d98b6527468adeeac7e
+Commit message - Use json.Unmarshaler type instead of marshalTo
+The original commit sha is - 6a15a4a39eb538304deb4e477aec20bd534bbd9a
+Commit message - Fix formatting.
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/editor.go
+backend/editor_test.go
+backend/loaders/json_test.go
+backend/packages.go
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view.go
+backend/render/view_test.go
+backend/sublime/sublime_manual.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+backend/view.go
+backend/view_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ 8e7ae62391597db8078fe37557928e6da5711f1b -> 1d1060fadcdd33a33b8e4ed805152470138fd48c } is a revert
+{ 1d1060fadcdd33a33b8e4ed805152470138fd48c -> bbcec6af6acaf3cc34e33d98b6527468adeeac7e }
+Partial Revert commits SHA are -> 
+1d1060fadcdd33a33b8e4ed805152470138fd48c - revert - bbcec6af6acaf3cc34e33d98b6527468adeeac7e
+The reverted commit sha is - 1d1060fadcdd33a33b8e4ed805152470138fd48c
+Commit message - backend/render: document view.go
+The original commit sha is - bbcec6af6acaf3cc34e33d98b6527468adeeac7e
+Commit message - Use json.Unmarshaler type instead of marshalTo
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/editor.go
+backend/editor_test.go
+backend/loaders/json_test.go
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view.go
+backend/render/view_test.go
+backend/sublime/sublime_manual.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+backend/view_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ bfb2484468185c1d94f41b821f1b9fe617440a55 -> 98c35cbb9604b5ade8edd28795d77db3e34f62a6 } is a revert
+{ 8e7ae62391597db8078fe37557928e6da5711f1b -> 1d1060fadcdd33a33b8e4ed805152470138fd48c }
+Partial Revert commits SHA are -> 
+98c35cbb9604b5ade8edd28795d77db3e34f62a6 - revert - 1d1060fadcdd33a33b8e4ed805152470138fd48c
+The reverted commit sha is - 98c35cbb9604b5ade8edd28795d77db3e34f62a6
+Commit message - Wrote settings by myself
+The original commit sha is - 1d1060fadcdd33a33b8e4ed805152470138fd48c
+Commit message - backend/render: document view.go
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/editor.go
+backend/editor_test.go
+backend/loaders/json_test.go
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view_test.go
+backend/sublime/sublime_manual.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+backend/view_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ 12c097c25a34a203c8c304f84ea074cc49f10e88 -> 46442448739046bd4f424dd34453046a65bd87e9 } is a revert
+{ f6e0bcde2e9b77da3b33bae2c275fa5c3ca05def -> bfb2484468185c1d94f41b821f1b9fe617440a55 }
+Partial Revert commits SHA are -> 
+46442448739046bd4f424dd34453046a65bd87e9 - revert - bfb2484468185c1d94f41b821f1b9fe617440a55
+The reverted commit sha is - 46442448739046bd4f424dd34453046a65bd87e9
+Commit message - Merge pull request #354 from erbridge/util_case
+
+Pull PascalCaseToSnakeCase into the util package
+The original commit sha is - bfb2484468185c1d94f41b821f1b9fe617440a55
+Commit message - Merge pull request #356 from erbridge/render_view_test
+
+Add some tests for render/view
+The files with partial_reverts are:-
+backend/util/diff.go
+backend/util/diff_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ 0c0cba294a58f1ef669e89df8a008afb73d300a2 -> 421911fbdd065fa09ac3da13e86e36ade0a0368a } is a revert
+{ f6e0bcde2e9b77da3b33bae2c275fa5c3ca05def -> bfb2484468185c1d94f41b821f1b9fe617440a55 }
+Partial Revert commits SHA are -> 
+421911fbdd065fa09ac3da13e86e36ade0a0368a - revert - bfb2484468185c1d94f41b821f1b9fe617440a55
+The reverted commit sha is - 421911fbdd065fa09ac3da13e86e36ade0a0368a
+Commit message - Change the render/view tests.
+
+0 size regions should be excluded when culling.
+The original commit sha is - bfb2484468185c1d94f41b821f1b9fe617440a55
+Commit message - Merge pull request #356 from erbridge/render_view_test
+
+Add some tests for render/view
+The files with partial_reverts are:-
+backend/util/diff.go
+backend/util/diff_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ a163b8beca0ae8bd26973ed7ba48ae37324d87c4 -> 93626341e58f54e249273069b0533a1d2f1dd1b4 } is a revert
+{ 93626341e58f54e249273069b0533a1d2f1dd1b4 -> 4865e615883dd8d23242aa1e50507f393d7bf2f6 }
+Partial Revert commits SHA are -> 
+93626341e58f54e249273069b0533a1d2f1dd1b4 - revert - 4865e615883dd8d23242aa1e50507f393d7bf2f6
+The reverted commit sha is - 93626341e58f54e249273069b0533a1d2f1dd1b4
+Commit message - Only replace \r if it's followed by \n when creating a diff.
+The original commit sha is - 4865e615883dd8d23242aa1e50507f393d7bf2f6
+Commit message - Merge upstream
+The files with partial_reverts are:-
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/sublime/sublime_manual.go
+backend/util/diff.go
+backend/view.go
+backend/view_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ f570ae619b01df626e932592fcab012ed8401b23 -> e65c326e50e7fb9a9e97b2df8d24c72aa52e26a7 } is a revert
+{ e65c326e50e7fb9a9e97b2df8d24c72aa52e26a7 -> cf67b3ba5c1eed06e2d09e31c91918305aac224c }
+Partial Revert commits SHA are -> 
+e65c326e50e7fb9a9e97b2df8d24c72aa52e26a7 - revert - cf67b3ba5c1eed06e2d09e31c91918305aac224c
+The reverted commit sha is - e65c326e50e7fb9a9e97b2df8d24c72aa52e26a7
+Commit message - Keep packet data owner in packet type
+The original commit sha is - cf67b3ba5c1eed06e2d09e31c91918305aac224c
+Commit message - Add a test for Editor.HandleInput.
+The files with partial_reverts are:-
+backend/command_test.go
+backend/editor.go
+backend/key_test.go
+backend/packages.go
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/view.go
+backend/view_test.go
+tasks/build/gen_python_api.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 46 is -> 
+{ 43a781c3b1d9fd54eee1a0658a759462516cb167 -> 8eca6ce36cde44709eb1a7c309768142970269d7 } is a revert
+{ b27e43915bef3c419f8c92a25e71a4caac6b4173 -> f1a03c77600d4364ed82087890cc98a7c9b7b818 }
+Partial Revert commits SHA are -> 
+8eca6ce36cde44709eb1a7c309768142970269d7 - revert - f1a03c77600d4364ed82087890cc98a7c9b7b818
+The reverted commit sha is - 8eca6ce36cde44709eb1a7c309768142970269d7
+Commit message - Merge pull request #348 from erbridge/fix_formatting
+
+Fix formatting in insdel_test
+The original commit sha is - f1a03c77600d4364ed82087890cc98a7c9b7b818
+Commit message - Merge pull request #350 from erbridge/theme_test
+
+Add LoadTheme tests
+The files with partial_reverts are:-
+backend/textmate/theme_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 47 is -> 
+{ 4ee952800e8bf3f2924d1307f8ed87f6fe23b392 -> 3c728a097b8c25f71a1c062c4b0ac7f46f7f977b } is a revert
+{ e64e6549f0f2c418bee4aad3903e3b712734e44c -> b27e43915bef3c419f8c92a25e71a4caac6b4173 }
+Partial Revert commits SHA are -> 
+3c728a097b8c25f71a1c062c4b0ac7f46f7f977b - revert - b27e43915bef3c419f8c92a25e71a4caac6b4173
+The reverted commit sha is - 3c728a097b8c25f71a1c062c4b0ac7f46f7f977b
+Commit message - found a typo in a comment
+
+an “e” was missing from “the” in a comment. (My first git change)
+The original commit sha is - b27e43915bef3c419f8c92a25e71a4caac6b4173
+Commit message - Merge pull request #341 from erbridge/move_test
+
+Multiregion move to tests
+The files with partial_reverts are:-
+backend/commands/move_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ 89fe7cb0710b145e93b28b9c2f75937a2f87ed73 -> 82e334b2aed6e3ffc41f11480b02d0da26bf674e } is a revert
+{ e64e6549f0f2c418bee4aad3903e3b712734e44c -> b27e43915bef3c419f8c92a25e71a4caac6b4173 }
+Partial Revert commits SHA are -> 
+82e334b2aed6e3ffc41f11480b02d0da26bf674e - revert - b27e43915bef3c419f8c92a25e71a4caac6b4173
+The reverted commit sha is - 82e334b2aed6e3ffc41f11480b02d0da26bf674e
+Commit message - Fix formatting in insdel_test.
+The original commit sha is - b27e43915bef3c419f8c92a25e71a4caac6b4173
+Commit message - Merge pull request #341 from erbridge/move_test
+
+Multiregion move to tests
+The files with partial_reverts are:-
+backend/commands/move_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ f3d1453d764c5f0a7b23073a979aa49972545155 -> 9c4400e660333259ebd61fc53e8f61f3f5c7289e } is a revert
+{ 9c4400e660333259ebd61fc53e8f61f3f5c7289e -> e64e6549f0f2c418bee4aad3903e3b712734e44c }
+Partial Revert commits SHA are -> 
+9c4400e660333259ebd61fc53e8f61f3f5c7289e - revert - e64e6549f0f2c418bee4aad3903e3b712734e44c
+The reverted commit sha is - 9c4400e660333259ebd61fc53e8f61f3f5c7289e
+Commit message - Merge pull request #349 from bmathews/screenshot
+
+updates readme with correct screenshot date alt-text
+The original commit sha is - e64e6549f0f2c418bee4aad3903e3b712734e44c
+Commit message - Merge pull request #351 from erbridge/editor_test
+
+More editor tests
+The files with partial_reverts are:-
+backend/editor.go
+backend/editor_test.go
+tasks/build/gen_python_api.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ 22a1b5549fc3ab2671a3629563392d06294e785b -> 89fe7cb0710b145e93b28b9c2f75937a2f87ed73 } is a revert
+{ 8eca6ce36cde44709eb1a7c309768142970269d7 -> 425a11671d5ed2c3840dcaf31265f7f088e76555 }
+Partial Revert commits SHA are -> 
+89fe7cb0710b145e93b28b9c2f75937a2f87ed73 - revert - 425a11671d5ed2c3840dcaf31265f7f088e76555
+The reverted commit sha is - 89fe7cb0710b145e93b28b9c2f75937a2f87ed73
+Commit message - Fix the formatting.
+The original commit sha is - 425a11671d5ed2c3840dcaf31265f7f088e76555
+Commit message - Merge pull request #347 from Joushou/filefromcli
+
+Add support for file parameter in termbox
+The files with partial_reverts are:-
+frontend/termbox/main.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 51 is -> 
+{ f67bb7995112a402a171a9fa929a79b43f2e46f5 -> d1fbd3e923aa5566e446836401053b33ea7c30cb } is a revert
+{ 2357f3964fdc8cba579fda11d330ec00782a7476 -> 7c30bdf4d2b187acbc4e557460424fab1e3fb766 }
+Partial Revert commits SHA are -> 
+d1fbd3e923aa5566e446836401053b33ea7c30cb - revert - 7c30bdf4d2b187acbc4e557460424fab1e3fb766
+The reverted commit sha is - d1fbd3e923aa5566e446836401053b33ea7c30cb
+Commit message - Add FindUnderExpand tests.
+
+Close limetext#109.
+The original commit sha is - 7c30bdf4d2b187acbc4e557460424fab1e3fb766
+Commit message - Merge pull request #339 from erbridge/default_name
+
+Default command name
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/case.go
+backend/commands/case_test.go
+backend/commands/file.go
+backend/commands/find.go
+backend/commands/glue.go
+backend/commands/indent.go
+backend/commands/insdel.go
+backend/commands/line.go
+backend/commands/move.go
+backend/commands/save.go
+backend/commands/settings.go
+backend/commands/sort.go
+backend/commands/undoredo.go
+backend/commands/window.go
+tasks/build/gen_python_api.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 52 is -> 
+{ 2287e93cfb79f54ac021cf6b71176be2970454ae -> 10da6eb9c6c35dab97b6a35027e059f7934c0f2e } is a revert
+{ b70a60a750f7efdb8fad62034e6dd18c0d62f695 -> fccde1f224bdf17494cd61c9238cf2dc303bbb2a }
+Partial Revert commits SHA are -> 
+10da6eb9c6c35dab97b6a35027e059f7934c0f2e - revert - fccde1f224bdf17494cd61c9238cf2dc303bbb2a
+The reverted commit sha is - 10da6eb9c6c35dab97b6a35027e059f7934c0f2e
+Commit message - Merge pull request #324 from erbridge/report_coverage_on_success
+
+Report coverage on success
+The original commit sha is - fccde1f224bdf17494cd61c9238cf2dc303bbb2a
+Commit message - Merge pull request #327 from erbridge/commandhandler_unregister
+
+Reorganize Unregister to be more readable
+The files with partial_reverts are:-
+backend/commandhandler.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 53 is -> 
+{ 841850766d21642187b670beb712c30a6103d3eb -> 2287e93cfb79f54ac021cf6b71176be2970454ae } is a revert
+{ 026df701539e4b16cf1f2bcbde881468388ac0b3 -> b70a60a750f7efdb8fad62034e6dd18c0d62f695 }
+Partial Revert commits SHA are -> 
+2287e93cfb79f54ac021cf6b71176be2970454ae - revert - b70a60a750f7efdb8fad62034e6dd18c0d62f695
+The reverted commit sha is - 2287e93cfb79f54ac021cf6b71176be2970454ae
+Commit message - Reorganize Unregister to be more readable.
+The original commit sha is - b70a60a750f7efdb8fad62034e6dd18c0d62f695
+Commit message - Merge pull request #326 from erbridge/sort_test
+
+Sort tests
+The files with partial_reverts are:-
+backend/commands/sort_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 54 is -> 
+{ ef0527be6c23bfa4303a92a29d32ef1370650dbc -> 63c97189d50754a8582cb5a066a8c1f4ff7b7ca1 } is a revert
+{ 10da6eb9c6c35dab97b6a35027e059f7934c0f2e -> 026df701539e4b16cf1f2bcbde881468388ac0b3 }
+Partial Revert commits SHA are -> 
+63c97189d50754a8582cb5a066a8c1f4ff7b7ca1 - revert - 026df701539e4b16cf1f2bcbde881468388ac0b3
+The reverted commit sha is - 63c97189d50754a8582cb5a066a8c1f4ff7b7ca1
+Commit message - Add test to remove duplicates when case insensitive.
+The original commit sha is - 026df701539e4b16cf1f2bcbde881468388ac0b3
+Commit message - Merge pull request #325 from erbridge/improve_ci_script
+
+Improve tasks/ci/lime.sh
+The files with partial_reverts are:-
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 55 is -> 
+{ 27dc7ac5b9d631070b668bc976325ad01cba7746 -> 737205ae8935bb0e479668011f93e7710061066f } is a revert
+{ 8df088a000c181a4870d30bcbb5d82cde596fe9a -> d1ab307143aa4319622beb2a17de185ba594bc14 }
+Partial Revert commits SHA are -> 
+737205ae8935bb0e479668011f93e7710061066f - revert - d1ab307143aa4319622beb2a17de185ba594bc14
+The reverted commit sha is - 737205ae8935bb0e479668011f93e7710061066f
+Commit message - Merge pull request #314 from erbridge/shellcheck
+
+Fix most shellcheck warnings in lime.sh
+The original commit sha is - d1ab307143aa4319622beb2a17de185ba594bc14
+Commit message - Merge pull request #321 from erbridge/readme_update
+
+Tidy up README.md
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 56 is -> 
+{ 838270ab86c53188f7b51ad394c524e3cd06b5ab -> 27dc7ac5b9d631070b668bc976325ad01cba7746 } is a revert
+{ 737205ae8935bb0e479668011f93e7710061066f -> 8df088a000c181a4870d30bcbb5d82cde596fe9a }
+Partial Revert commits SHA are -> 
+27dc7ac5b9d631070b668bc976325ad01cba7746 - revert - 8df088a000c181a4870d30bcbb5d82cde596fe9a
+The reverted commit sha is - 27dc7ac5b9d631070b668bc976325ad01cba7746
+Commit message - Tidy up README.
+
+Make README more uniformly formatted.
+Add a link directly to the easy fix issues.
+The original commit sha is - 8df088a000c181a4870d30bcbb5d82cde596fe9a
+Commit message - Merge pull request #320 from erbridge/travis_build
+
+Allow forks to build on travis
+The files with partial_reverts are:-
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 57 is -> 
+{ 74a2273c0713c485964fe46838a0ba789f64806d -> c139d47c2da3b0d8b50ff3629df76e99d897dae5 } is a revert
+{ 4c385a100fa83e485421e22c70fc617d5eb0589e -> a5ad640d8ab0191b9d121756cf2b9b31139099e8 }
+Partial Revert commits SHA are -> 
+c139d47c2da3b0d8b50ff3629df76e99d897dae5 - revert - a5ad640d8ab0191b9d121756cf2b9b31139099e8
+The reverted commit sha is - c139d47c2da3b0d8b50ff3629df76e99d897dae5
+Commit message - Fix most shellcheck warnings in lime.sh.
+The original commit sha is - a5ad640d8ab0191b9d121756cf2b9b31139099e8
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  Fix typo.
+  Add tests for unregistering the commands.
+  Rename the tests to better represent what they do.
+  Add a TextCommand registration test.
+  Add an WindowCommand registration test.
+  Add an ApplicationCommand registration test.
+  Add tests for PascalCaseToSnakeCase.
+  Move the close window test to window_test.go.
+  Add a test for window close.
+  Tidy up a comment
+The files with partial_reverts are:-
+frontend/qml/main.go
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 58 is -> 
+{ c92b26d5ba3511fa9497a13d9bf54b20d4e10de1 -> 913a24b3619a1ddaa979f6ad22042f21b803a960 } is a revert
+{ 4c385a100fa83e485421e22c70fc617d5eb0589e -> a5ad640d8ab0191b9d121756cf2b9b31139099e8 }
+Partial Revert commits SHA are -> 
+913a24b3619a1ddaa979f6ad22042f21b803a960 - revert - a5ad640d8ab0191b9d121756cf2b9b31139099e8
+The reverted commit sha is - 913a24b3619a1ddaa979f6ad22042f21b803a960
+Commit message - Merge pull request #318 from erbridge/commandhandler_test
+
+Commandhandler tests
+The original commit sha is - a5ad640d8ab0191b9d121756cf2b9b31139099e8
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  Fix typo.
+  Add tests for unregistering the commands.
+  Rename the tests to better represent what they do.
+  Add a TextCommand registration test.
+  Add an WindowCommand registration test.
+  Add an ApplicationCommand registration test.
+  Add tests for PascalCaseToSnakeCase.
+  Move the close window test to window_test.go.
+  Add a test for window close.
+  Tidy up a comment
+The files with partial_reverts are:-
+frontend/qml/main.go
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 59 is -> 
+{ 74a2273c0713c485964fe46838a0ba789f64806d -> c139d47c2da3b0d8b50ff3629df76e99d897dae5 } is a revert
+{ d58d4233a4596e34768c462a5d8dd5032ee703ca -> c92b26d5ba3511fa9497a13d9bf54b20d4e10de1 }
+Partial Revert commits SHA are -> 
+c139d47c2da3b0d8b50ff3629df76e99d897dae5 - revert - c92b26d5ba3511fa9497a13d9bf54b20d4e10de1
+The reverted commit sha is - c139d47c2da3b0d8b50ff3629df76e99d897dae5
+Commit message - Fix most shellcheck warnings in lime.sh.
+The original commit sha is - c92b26d5ba3511fa9497a13d9bf54b20d4e10de1
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  Add a new_file command.
+  Fix the clipboard test.
+  Test closing a view.
+  Test IsDirty.
+  Test SetOverwriteStatus.
+  Test SetScratch.
+  Add a test for a view's window.
+  Move the benchmarks to the bottom of view_test.go.
+  Test setBuffer.
+  Add a clipboard test.
+  Add a test for remove.
+  Add a test for SetFrontend.
+The files with partial_reverts are:-
+frontend/qml/main.go
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 60 is -> 
+{ af79c0201f6a27d33b21d1750d496cd7edcc2bcb -> 421b1a671fc3234b847ba44ef1a2479d1188acda } is a revert
+{ 421b1a671fc3234b847ba44ef1a2479d1188acda -> 35d21792cadcb997fa80c12add1f22f810954d7b }
+Partial Revert commits SHA are -> 
+421b1a671fc3234b847ba44ef1a2479d1188acda - revert - 35d21792cadcb997fa80c12add1f22f810954d7b
+The reverted commit sha is - 421b1a671fc3234b847ba44ef1a2479d1188acda
+Commit message - Python 3.4 support
+The original commit sha is - 35d21792cadcb997fa80c12add1f22f810954d7b
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  Fix unindent for the same reason
+  Fix: indent blocks that selected reversely
+The files with partial_reverts are:-
+backend/commands/indent.go
+backend/commands/indent_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 61 is -> 
+{ 3cbcb01e8440369ba4e1d15830e7a141b31e80a1 -> ae5afe14ab462991816e6a4ef9985f1183494ba3 } is a revert
+{ b48a54f8535240121126a438d0a2ecbfb808acb5 -> cfb75583738d7379b63bbba10a536bac1b7f2b77 }
+Partial Revert commits SHA are -> 
+ae5afe14ab462991816e6a4ef9985f1183494ba3 - revert - cfb75583738d7379b63bbba10a536bac1b7f2b77
+The reverted commit sha is - ae5afe14ab462991816e6a4ef9985f1183494ba3
+Commit message - View: Implemented Classify method
+The original commit sha is - cfb75583738d7379b63bbba10a536bac1b7f2b77
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  frontend/qml: Disable text selection MouseArea for minimap
+The files with partial_reverts are:-
+frontend/qml/LimeView.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 62 is -> 
+{ a68baec03780934fad9f387fee1aca23fde6cebb -> b48a54f8535240121126a438d0a2ecbfb808acb5 } is a revert
+{ b48a54f8535240121126a438d0a2ecbfb808acb5 -> cfb75583738d7379b63bbba10a536bac1b7f2b77 }
+Partial Revert commits SHA are -> 
+b48a54f8535240121126a438d0a2ecbfb808acb5 - revert - cfb75583738d7379b63bbba10a536bac1b7f2b77
+The reverted commit sha is - b48a54f8535240121126a438d0a2ecbfb808acb5
+Commit message - added delete_word command closes #71
+The original commit sha is - cfb75583738d7379b63bbba10a536bac1b7f2b77
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  frontend/qml: Disable text selection MouseArea for minimap
+The files with partial_reverts are:-
+frontend/qml/LimeView.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 63 is -> 
+{ 3cbcb01e8440369ba4e1d15830e7a141b31e80a1 -> ae5afe14ab462991816e6a4ef9985f1183494ba3 } is a revert
+{ e46e44d8e9cbbfce9a5ba7d12850416faf81bb70 -> a68baec03780934fad9f387fee1aca23fde6cebb }
+Partial Revert commits SHA are -> 
+ae5afe14ab462991816e6a4ef9985f1183494ba3 - revert - a68baec03780934fad9f387fee1aca23fde6cebb
+The reverted commit sha is - ae5afe14ab462991816e6a4ef9985f1183494ba3
+Commit message - View: Implemented Classify method
+The original commit sha is - a68baec03780934fad9f387fee1aca23fde6cebb
+Commit message - Merge pull request #305 from zidoms/master
+
+View: Implemented Classify method
+The files with partial_reverts are:-
+frontend/qml/LimeView.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 64 is -> 
+{ 7a9959c2f73d19690a55e01d2fde13e996b075c8 -> bf1f0245ac797990699733b2c9d0dccbdfcc6880 } is a revert
+{ 47177d35f660288b7be78e979c6b08572f693b1e -> 17cdd637c931626adf96c70435553434fa5b08e5 }
+Partial Revert commits SHA are -> 
+bf1f0245ac797990699733b2c9d0dccbdfcc6880 - revert - 17cdd637c931626adf96c70435553434fa5b08e5
+The reverted commit sha is - bf1f0245ac797990699733b2c9d0dccbdfcc6880
+Commit message - Extract functions for reuse by the unindent command
+The original commit sha is - 17cdd637c931626adf96c70435553434fa5b08e5
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  Add unindent command and tests
+  Extract functions for reuse by the unindent command
+  CommandHandler: make Run*Command return the logged errors
+  Add toggle_setting and set_setting commands
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commands/settings.go
+backend/commands/settings_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 65 is -> 
+{ c1ccc1cc8ec871c9c0b97cfe3d9b5a443f66e7ab -> 4dda5e0018918c190d824fe05a7624308ba0492d } is a revert
+{ 47177d35f660288b7be78e979c6b08572f693b1e -> 17cdd637c931626adf96c70435553434fa5b08e5 }
+Partial Revert commits SHA are -> 
+4dda5e0018918c190d824fe05a7624308ba0492d - revert - 17cdd637c931626adf96c70435553434fa5b08e5
+The reverted commit sha is - 4dda5e0018918c190d824fe05a7624308ba0492d
+Commit message - Merge pull request #297 from PotatoesMaster/settings-commands
+
+Settings commands + return errors in CommandHandler
+The original commit sha is - 17cdd637c931626adf96c70435553434fa5b08e5
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  Add unindent command and tests
+  Extract functions for reuse by the unindent command
+  CommandHandler: make Run*Command return the logged errors
+  Add toggle_setting and set_setting commands
+The files with partial_reverts are:-
+backend/commands/indent.go
+backend/commands/indent_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 66 is -> 
+{ 7bcb15fd18e2d3d9c7de0733f5e2889f0e4a675b -> 47177d35f660288b7be78e979c6b08572f693b1e } is a revert
+{ 47177d35f660288b7be78e979c6b08572f693b1e -> 17cdd637c931626adf96c70435553434fa5b08e5 }
+Partial Revert commits SHA are -> 
+47177d35f660288b7be78e979c6b08572f693b1e - revert - 17cdd637c931626adf96c70435553434fa5b08e5
+The reverted commit sha is - 47177d35f660288b7be78e979c6b08572f693b1e
+Commit message - Selection works in one line
+The original commit sha is - 17cdd637c931626adf96c70435553434fa5b08e5
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  Add unindent command and tests
+  Extract functions for reuse by the unindent command
+  CommandHandler: make Run*Command return the logged errors
+  Add toggle_setting and set_setting commands
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commands/indent.go
+backend/commands/indent_test.go
+backend/commands/settings.go
+backend/commands/settings_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 67 is -> 
+{ c1ccc1cc8ec871c9c0b97cfe3d9b5a443f66e7ab -> 4dda5e0018918c190d824fe05a7624308ba0492d } is a revert
+{ 7bcb15fd18e2d3d9c7de0733f5e2889f0e4a675b -> 47177d35f660288b7be78e979c6b08572f693b1e }
+Partial Revert commits SHA are -> 
+4dda5e0018918c190d824fe05a7624308ba0492d - revert - 47177d35f660288b7be78e979c6b08572f693b1e
+The reverted commit sha is - 4dda5e0018918c190d824fe05a7624308ba0492d
+Commit message - Merge pull request #297 from PotatoesMaster/settings-commands
+
+Settings commands + return errors in CommandHandler
+The original commit sha is - 47177d35f660288b7be78e979c6b08572f693b1e
+Commit message - Selection works in one line
+The files with partial_reverts are:-
+backend/commandhandler.go
+backend/commands/settings.go
+backend/commands/settings_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 68 is -> 
+{ c1ccc1cc8ec871c9c0b97cfe3d9b5a443f66e7ab -> 4dda5e0018918c190d824fe05a7624308ba0492d } is a revert
+{ 4dda5e0018918c190d824fe05a7624308ba0492d -> 7bcb15fd18e2d3d9c7de0733f5e2889f0e4a675b }
+Partial Revert commits SHA are -> 
+4dda5e0018918c190d824fe05a7624308ba0492d - revert - 7bcb15fd18e2d3d9c7de0733f5e2889f0e4a675b
+The reverted commit sha is - 4dda5e0018918c190d824fe05a7624308ba0492d
+Commit message - Merge pull request #297 from PotatoesMaster/settings-commands
+
+Settings commands + return errors in CommandHandler
+The original commit sha is - 7bcb15fd18e2d3d9c7de0733f5e2889f0e4a675b
+Commit message - Merge pull request #298 from PotatoesMaster/unindent
+
+Unindent command, fixes #62
+The files with partial_reverts are:-
+backend/commands/indent.go
+backend/commands/indent_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 69 is -> 
+{ 0c4b45b73ac9154869007b4986d8d684878f57e5 -> 770dc77b89a2a54d210a5595eacf04f024eba153 } is a revert
+{ 770dc77b89a2a54d210a5595eacf04f024eba153 -> 128614b7ad8707186b92312df67570d04739ffd6 }
+Partial Revert commits SHA are -> 
+770dc77b89a2a54d210a5595eacf04f024eba153 - revert - 128614b7ad8707186b92312df67570d04739ffd6
+The reverted commit sha is - 770dc77b89a2a54d210a5595eacf04f024eba153
+Commit message - Reloading packages
+The original commit sha is - 128614b7ad8707186b92312df67570d04739ffd6
+Commit message - frontend/qml: draw caret(s)
+The files with partial_reverts are:-
+backend/editor.go
+backend/editor_test.go
+backend/packages.go
+backend/packages_test.go
+backend/sublime/sublime_manual.go
+backend/view.go
+backend/watched.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 70 is -> 
+{ a96d1487e2de840ea7eeb16e142c88198dfc1bad -> 736dfa16c1802495323737972681dcd5bd05b04c } is a revert
+{ 736dfa16c1802495323737972681dcd5bd05b04c -> 87130781e4466c239a3c3e154aa42fc6214cc6cc }
+Partial Revert commits SHA are -> 
+736dfa16c1802495323737972681dcd5bd05b04c - revert - 87130781e4466c239a3c3e154aa42fc6214cc6cc
+The reverted commit sha is - 736dfa16c1802495323737972681dcd5bd05b04c
+Commit message - fixed merging
+The original commit sha is - 87130781e4466c239a3c3e154aa42fc6214cc6cc
+Commit message - Merge branch 'feature/save' into develop
+
+* feature/save:
+  Fixed watching on save as problem
+  Showing some info about the error
+  Watching the new save as files
+  Completed save_all command
+  Finished Save & SaveAs command
+  Adding save and save_as command but there is a problem with view SaveAs method
+  Fixed watching on save as problem
+The files with partial_reverts are:-
+backend/view.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 71 is -> 
+{ 3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb -> 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 } is a revert
+{ a96d1487e2de840ea7eeb16e142c88198dfc1bad -> 736dfa16c1802495323737972681dcd5bd05b04c }
+Partial Revert commits SHA are -> 
+10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 - revert - 736dfa16c1802495323737972681dcd5bd05b04c
+The reverted commit sha is - 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91
+Commit message - Adding save and save_as command but there is a problem with view SaveAs method
+The original commit sha is - 736dfa16c1802495323737972681dcd5bd05b04c
+Commit message - fixed merging
+The files with partial_reverts are:-
+backend/editor_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 72 is -> 
+{ beed614772b96869c908afd93aa4da89758c841c -> 3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb } is a revert
+{ 34f4b181f473f2e5470ce98009d9f5efc9c46899 -> a96d1487e2de840ea7eeb16e142c88198dfc1bad }
+Partial Revert commits SHA are -> 
+3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb - revert - a96d1487e2de840ea7eeb16e142c88198dfc1bad
+The reverted commit sha is - 3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb
+Commit message - Fixed watching on save as problem
+The original commit sha is - a96d1487e2de840ea7eeb16e142c88198dfc1bad
+Commit message - Separated non atomic and atomic save
+The files with partial_reverts are:-
+backend/editor_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 73 is -> 
+{ beed614772b96869c908afd93aa4da89758c841c -> 3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb } is a revert
+{ dd741def65b765dffaa15488103b6f488d62b859 -> 34f4b181f473f2e5470ce98009d9f5efc9c46899 }
+Partial Revert commits SHA are -> 
+3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb - revert - 34f4b181f473f2e5470ce98009d9f5efc9c46899
+The reverted commit sha is - 3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb
+Commit message - Fixed watching on save as problem
+The original commit sha is - 34f4b181f473f2e5470ce98009d9f5efc9c46899
+Commit message - Fixing conflicts
+The files with partial_reverts are:-
+backend/editor.go
+backend/events.go
+backend/view.go
+backend/watched.go
+backend/watched_test.go
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 74 is -> 
+{ 3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb -> 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 } is a revert
+{ 03fd4343b1314cb25b7996aeb258ae4419e06496 -> dd741def65b765dffaa15488103b6f488d62b859 }
+Partial Revert commits SHA are -> 
+10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 - revert - dd741def65b765dffaa15488103b6f488d62b859
+The reverted commit sha is - 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91
+Commit message - Adding save and save_as command but there is a problem with view SaveAs method
+The original commit sha is - dd741def65b765dffaa15488103b6f488d62b859
+Commit message - Fixed watching on save as problem
+The files with partial_reverts are:-
+backend/editor_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 75 is -> 
+{ 3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb -> 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 } is a revert
+{ 59f7cde236cec2d0b0063c06b0153f10a12ede31 -> 6569b7fa766b5c4a196f9d25c3bb2501087878c4 }
+Partial Revert commits SHA are -> 
+10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 - revert - 6569b7fa766b5c4a196f9d25c3bb2501087878c4
+The reverted commit sha is - 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91
+Commit message - Adding save and save_as command but there is a problem with view SaveAs method
+The original commit sha is - 6569b7fa766b5c4a196f9d25c3bb2501087878c4
+Commit message - Watching the new save as files
+The files with partial_reverts are:-
+backend/editor.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 76 is -> 
+{ 5cc3c495506e3af24dcc2d49acb559d874685f9c -> b5b6724bb3d56a0f0c0e21c34f5753f3b0cf3331 } is a revert
+{ 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 -> de9c77a0c920ded16697918e8e2bdaec600bf69e }
+Partial Revert commits SHA are -> 
+b5b6724bb3d56a0f0c0e21c34f5753f3b0cf3331 - revert - de9c77a0c920ded16697918e8e2bdaec600bf69e
+The reverted commit sha is - b5b6724bb3d56a0f0c0e21c34f5753f3b0cf3331
+Commit message - Adding save and save_as command but there is a problem with view SaveAs method
+The original commit sha is - de9c77a0c920ded16697918e8e2bdaec600bf69e
+Commit message - Finished Save & SaveAs command
+The files with partial_reverts are:-
+backend/testdata/save_test.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 77 is -> 
+{ 4248bf09e2ba97c4b7f4441b2e1efb73c02b024d -> 5933c8145976d56ff6fbe7ab25757a8bf5e0418b } is a revert
+{ 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 -> de9c77a0c920ded16697918e8e2bdaec600bf69e }
+Partial Revert commits SHA are -> 
+5933c8145976d56ff6fbe7ab25757a8bf5e0418b - revert - de9c77a0c920ded16697918e8e2bdaec600bf69e
+The reverted commit sha is - 5933c8145976d56ff6fbe7ab25757a8bf5e0418b
+Commit message - Merge branch 'develop' into feature/save
+
+* develop:
+  Fixed atomic save problem, added tests for pre and post save events
+  Documentation
+  atomic save not working
+The original commit sha is - de9c77a0c920ded16697918e8e2bdaec600bf69e
+Commit message - Finished Save & SaveAs command
+The files with partial_reverts are:-
+backend/testdata/save_test.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 78 is -> 
+{ 3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb -> 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 } is a revert
+{ 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 -> de9c77a0c920ded16697918e8e2bdaec600bf69e }
+Partial Revert commits SHA are -> 
+10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 - revert - de9c77a0c920ded16697918e8e2bdaec600bf69e
+The reverted commit sha is - 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91
+Commit message - Adding save and save_as command but there is a problem with view SaveAs method
+The original commit sha is - de9c77a0c920ded16697918e8e2bdaec600bf69e
+Commit message - Finished Save & SaveAs command
+The files with partial_reverts are:-
+backend/testdata/save_test.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 79 is -> 
+{ b5b6724bb3d56a0f0c0e21c34f5753f3b0cf3331 -> 8dca0dba9f026d0646c50287714e797aef5c41c9 } is a revert
+{ 338302f5a5c0af5d626131e03be13a7b99adc469 -> 2eeb0f434c7824588ac21df762ba955ee0d26b35 }
+Partial Revert commits SHA are -> 
+8dca0dba9f026d0646c50287714e797aef5c41c9 - revert - 2eeb0f434c7824588ac21df762ba955ee0d26b35
+The reverted commit sha is - 8dca0dba9f026d0646c50287714e797aef5c41c9
+Commit message - atomic save not working
+The original commit sha is - 2eeb0f434c7824588ac21df762ba955ee0d26b35
+Commit message - Merge branch 'develop' into feature/save
+
+* develop:
+  Fixed window.Views() bug
+The files with partial_reverts are:-
+backend/commands/save.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 80 is -> 
+{ 7a97088c7683419c6132468c751f0e7632a16c00 -> 4c936ef4af133bfa23dd4b94f87a48daac69e803 } is a revert
+{ 338302f5a5c0af5d626131e03be13a7b99adc469 -> 2eeb0f434c7824588ac21df762ba955ee0d26b35 }
+Partial Revert commits SHA are -> 
+4c936ef4af133bfa23dd4b94f87a48daac69e803 - revert - 2eeb0f434c7824588ac21df762ba955ee0d26b35
+The reverted commit sha is - 4c936ef4af133bfa23dd4b94f87a48daac69e803
+Commit message - Fixed window.Views() bug
+The original commit sha is - 2eeb0f434c7824588ac21df762ba955ee0d26b35
+Commit message - Merge branch 'develop' into feature/save
+
+* develop:
+  Fixed window.Views() bug
+The files with partial_reverts are:-
+backend/commands/save.go
+backend/commands/save_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 81 is -> 
+{ 5cc3c495506e3af24dcc2d49acb559d874685f9c -> b5b6724bb3d56a0f0c0e21c34f5753f3b0cf3331 } is a revert
+{ 5933c8145976d56ff6fbe7ab25757a8bf5e0418b -> 7a97088c7683419c6132468c751f0e7632a16c00 }
+Partial Revert commits SHA are -> 
+b5b6724bb3d56a0f0c0e21c34f5753f3b0cf3331 - revert - 7a97088c7683419c6132468c751f0e7632a16c00
+The reverted commit sha is - b5b6724bb3d56a0f0c0e21c34f5753f3b0cf3331
+Commit message - Adding save and save_as command but there is a problem with view SaveAs method
+The original commit sha is - 7a97088c7683419c6132468c751f0e7632a16c00
+Commit message - Finished Save & SaveAs command
+The files with partial_reverts are:-
+backend/testdata/save_test.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 82 is -> 
+{ 4248bf09e2ba97c4b7f4441b2e1efb73c02b024d -> 5933c8145976d56ff6fbe7ab25757a8bf5e0418b } is a revert
+{ 5933c8145976d56ff6fbe7ab25757a8bf5e0418b -> 7a97088c7683419c6132468c751f0e7632a16c00 }
+Partial Revert commits SHA are -> 
+5933c8145976d56ff6fbe7ab25757a8bf5e0418b - revert - 7a97088c7683419c6132468c751f0e7632a16c00
+The reverted commit sha is - 5933c8145976d56ff6fbe7ab25757a8bf5e0418b
+Commit message - Merge branch 'develop' into feature/save
+
+* develop:
+  Fixed atomic save problem, added tests for pre and post save events
+  Documentation
+  atomic save not working
+The original commit sha is - 7a97088c7683419c6132468c751f0e7632a16c00
+Commit message - Finished Save & SaveAs command
+The files with partial_reverts are:-
+backend/testdata/save_test.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 83 is -> 
+{ b5b6724bb3d56a0f0c0e21c34f5753f3b0cf3331 -> 8dca0dba9f026d0646c50287714e797aef5c41c9 } is a revert
+{ 4248bf09e2ba97c4b7f4441b2e1efb73c02b024d -> 5933c8145976d56ff6fbe7ab25757a8bf5e0418b }
+Partial Revert commits SHA are -> 
+8dca0dba9f026d0646c50287714e797aef5c41c9 - revert - 5933c8145976d56ff6fbe7ab25757a8bf5e0418b
+The reverted commit sha is - 8dca0dba9f026d0646c50287714e797aef5c41c9
+Commit message - atomic save not working
+The original commit sha is - 5933c8145976d56ff6fbe7ab25757a8bf5e0418b
+Commit message - Merge branch 'develop' into feature/save
+
+* develop:
+  Fixed atomic save problem, added tests for pre and post save events
+  Documentation
+  atomic save not working
+The files with partial_reverts are:-
+backend/commands/save.go
+backend/commands/save_test.go
+backend/testdata/save_test.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 84 is -> 
+{ 1b03c6f3e34133d45859776780c4750188c5f329 -> 339ee9ff99158d64a8b1fed83a22714877811f2b } is a revert
+{ 339ee9ff99158d64a8b1fed83a22714877811f2b -> 4248bf09e2ba97c4b7f4441b2e1efb73c02b024d }
+Partial Revert commits SHA are -> 
+339ee9ff99158d64a8b1fed83a22714877811f2b - revert - 4248bf09e2ba97c4b7f4441b2e1efb73c02b024d
+The reverted commit sha is - 339ee9ff99158d64a8b1fed83a22714877811f2b
+Commit message - Fixed atomic save problem, added tests for pre and post save events
+The original commit sha is - 4248bf09e2ba97c4b7f4441b2e1efb73c02b024d
+Commit message - Merge pull request #275 from ZiDoMs/develop
+
+atomic save not working
+The files with partial_reverts are:-
+backend/command.go
+backend/commands/doc.go
+backend/doc.go
+backend/render/doc.go
+backend/render/textmate/syntax.go
+backend/sublime/commands_generated.go
+backend/sublime/doc.go
+backend/sublime/edit_generated.go
+backend/sublime/frontend_generated.go
+backend/sublime/region_generated.go
+backend/sublime/regionset_generated.go
+backend/sublime/settings_generated.go
+backend/sublime/sublime_api_generated.go
+backend/sublime/view_buffer_generated.go
+backend/sublime/view_generated.go
+backend/sublime/window_generated.go
+backend/textmate/doc.go
+backend/util/doc.go
+tasks/build/gen_python_api.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 85 is -> 
+{ 416579c61dc62be20febc0ba8aef81cbe1cb7da1 -> 5a5dd908e291d6c502b6d5cbb72ce7401b4a9277 } is a revert
+{ 5a5dd908e291d6c502b6d5cbb72ce7401b4a9277 -> a6a6294ac1625af3df5fed617a12a2de88f6bad4 }
+Partial Revert commits SHA are -> 
+5a5dd908e291d6c502b6d5cbb72ce7401b4a9277 - revert - a6a6294ac1625af3df5fed617a12a2de88f6bad4
+The reverted commit sha is - 5a5dd908e291d6c502b6d5cbb72ce7401b4a9277
+Commit message - Merge branch 'feature/LineCommands' into develop
+
+* feature/LineCommands:
+  Added split_selection_into_lines command iss #91
+  Added select_lines command iss #92
+  Added swap_line_up iss #64 and swap_line_down iss #65 command
+  added basic tests for line commands
+The original commit sha is - a6a6294ac1625af3df5fed617a12a2de88f6bad4
+Commit message - Merge branch 'master' of https://github.com/limetext/lime into develop
+
+* 'master' of https://github.com/limetext/lime:
+  bundle galore
+  backend/commands/line*: remove executable mode bits
+  Add python.tmbundle subproject
+  Add gofmt script for testing
+  gofmt fixes
+  travis: Add rubex directory to PKG_CONFIG_PATH search directory.
+  backend/textmate: Fixes for go1.3-ish map changes.
+  Fixed formatting on import statements
+  fixed qml import line to new version
+  Refresh qml when the file name changed
+The files with partial_reverts are:-
+.gitmodules
+.travis.yml
+3rdparty/bundles/Diff.tmbundle
+3rdparty/bundles/cmake.tmbundle
+3rdparty/bundles/css.tmbundle
+3rdparty/bundles/d.tmbundle
+3rdparty/bundles/haskell.tmbundle
+3rdparty/bundles/html.tmbundle
+3rdparty/bundles/ini.tmbundle
+3rdparty/bundles/java.tmbundle
+3rdparty/bundles/javascript.tmbundle
+3rdparty/bundles/json.tmbundle
+3rdparty/bundles/lua.tmbundle
+3rdparty/bundles/make.tmbundle
+3rdparty/bundles/markdown.tmbundle
+3rdparty/bundles/perl.tmbundle
+3rdparty/bundles/php.tmbundle
+3rdparty/bundles/python.tmbundle
+3rdparty/bundles/ruby.tmbundle
+3rdparty/bundles/shellscript.tmbundle
+3rdparty/bundles/sql.tmbundle
+3rdparty/bundles/yaml.tmbundle
+backend/commands/indent_test.go
+backend/textmate/language.go
+backend/textmate/testdata/Monokai.tmTheme.res
+backend/textmate/testdata/go2.go
+backend/textmate/testdata/go2.go.res
+backend/textmate/theme.go
+frontend/qml/main.go
+frontend/qml/main.qml
+tasks/ci/gofmt.sh
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 86 is -> 
+{ 4df3065b2cec2bb485b3ec5800f43c5db816be51 -> ff4f83de367ae9e9f15faede2e78ebbfcfa16a13 } is a revert
+{ 7ff7803516135517bf98d4e76dd115529497e647 -> 92613f6ec2fc243b3fb5e23a8facafe224df0b41 }
+Partial Revert commits SHA are -> 
+ff4f83de367ae9e9f15faede2e78ebbfcfa16a13 - revert - 92613f6ec2fc243b3fb5e23a8facafe224df0b41
+The reverted commit sha is - ff4f83de367ae9e9f15faede2e78ebbfcfa16a13
+Commit message - Added select_lines command iss #92
+The original commit sha is - 92613f6ec2fc243b3fb5e23a8facafe224df0b41
+Commit message - Merge pull request #267 from ZiDoMs/feature/LineCommands
+
+Line Commands
+The files with partial_reverts are:-
+.travis.yml
+backend/commands/indent_test.go
+backend/textmate/language.go
+backend/textmate/testdata/Monokai.tmTheme.res
+backend/textmate/testdata/go2.go
+backend/textmate/testdata/go2.go.res
+backend/textmate/theme.go
+frontend/qml/main.go
+frontend/qml/main.qml
+tasks/ci/gofmt.sh
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 87 is -> 
+{ b4412d955e20b49a67074c2746c943a9eb6b9b6e -> d53aeb4ff0c85195e0b65f1937ab163ae45c0105 } is a revert
+{ 4df3065b2cec2bb485b3ec5800f43c5db816be51 -> ff4f83de367ae9e9f15faede2e78ebbfcfa16a13 }
+Partial Revert commits SHA are -> 
+d53aeb4ff0c85195e0b65f1937ab163ae45c0105 - revert - ff4f83de367ae9e9f15faede2e78ebbfcfa16a13
+The reverted commit sha is - d53aeb4ff0c85195e0b65f1937ab163ae45c0105
+Commit message - Add gofmt script for testing
+
+If Go source code is checked into the repository but not properly
+formatted using gofmt, this new script will print the aberrant files and
+exit 1 to fail Travis tests.
+
+It's listed as a new script in .travis.yml. All scripts are run (even if
+any of them exit nonzero), so regular tests still occur if the gofmt
+check fails.
+
+The script also ignores the 3rdparty directory, since that contains git
+submodules (some of which have unformatted Go code in them). Since those
+repositories are not under our control, we don't want to check them for
+formatting.
+The original commit sha is - ff4f83de367ae9e9f15faede2e78ebbfcfa16a13
+Commit message - Added select_lines command iss #92
+The files with partial_reverts are:-
+.travis.yml
+backend/commands/indent_test.go
+backend/textmate/language.go
+backend/textmate/testdata/Monokai.tmTheme.res
+backend/textmate/testdata/go2.go
+backend/textmate/testdata/go2.go.res
+backend/textmate/theme.go
+frontend/qml/main.go
+frontend/qml/main.qml
+tasks/ci/gofmt.sh
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 88 is -> 
+{ 3329de4ac7ca6c7c66eabd7919c22dceedc6a4e1 -> 3cce642d87ffd56f976bc0c0417db37656382890 } is a revert
+{ 3cce642d87ffd56f976bc0c0417db37656382890 -> 097f014aa8136c5180c235c2c5ac8aad8bf41da9 }
+Partial Revert commits SHA are -> 
+3cce642d87ffd56f976bc0c0417db37656382890 - revert - 097f014aa8136c5180c235c2c5ac8aad8bf41da9
+The reverted commit sha is - 3cce642d87ffd56f976bc0c0417db37656382890
+Commit message - Merge pull request #249 from irachex/indent
+
+Implement indent command and add tests
+The original commit sha is - 097f014aa8136c5180c235c2c5ac8aad8bf41da9
+Commit message - Merge pull request #251 from zguangyu0000/master
+
+Add "New" and "Open" function to the qml frontend
+The files with partial_reverts are:-
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 89 is -> 
+{ bed21b20ee03dedfb19f9fc041cf640b5c8895ff -> f8115a283fde476fe25c4261f3e3145677c9d572 } is a revert
+{ 2f1eeb987d24d8239849dd000563d55c3fcbe605 -> 38cf3d6156956a9db36a1927b85072265ce1b009 }
+Partial Revert commits SHA are -> 
+f8115a283fde476fe25c4261f3e3145677c9d572 - revert - 38cf3d6156956a9db36a1927b85072265ce1b009
+The reverted commit sha is - f8115a283fde476fe25c4261f3e3145677c9d572
+Commit message - Refactor termbox frontend
+
+Decompose large functions into smaller descriptive functions. Also, add
+a test around a particularly involved options parsing.
+The original commit sha is - 38cf3d6156956a9db36a1927b85072265ce1b009
+Commit message - Merge branch 'qml_hookup_keyboard' of https://github.com/EdVanDance/lime into EdVanDance-qml_hookup_keyboard
+
+Conflicts:
+	frontend/qml/main.go
+The files with partial_reverts are:-
+frontend/qml/main.go
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 90 is -> 
+{ 9761d721004a10dec0fb776eb2acfc06db29e732 -> dcdfc905e3fc3db7d8d9c4fb6e4d815b2b3ff971 } is a revert
+{ 4c04683262137b8de7676ff32c168ac36ca35bb4 -> a7855d42ca4e6e980dff860158f29c98b66e10f0 }
+Partial Revert commits SHA are -> 
+dcdfc905e3fc3db7d8d9c4fb6e4d815b2b3ff971 - revert - a7855d42ca4e6e980dff860158f29c98b66e10f0
+The reverted commit sha is - dcdfc905e3fc3db7d8d9c4fb6e4d815b2b3ff971
+Commit message - Use https over git to clone submodules.
+The original commit sha is - a7855d42ca4e6e980dff860158f29c98b66e10f0
+Commit message - Merge pull request #235 from Dparker1990/update_visible_with_delta
+
+Update visible region with insert/erase delta
+The files with partial_reverts are:-
+frontend/termbox/main.go
+frontend/termbox/main_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 91 is -> 
+{ dfb649b3f40351eef81036774b458eee1e620a47 -> d9f448371c33283fac09f2794d11bc3bb510ebff } is a revert
+{ ca7a3da0cbb04994b5b774b900a0625248313426 -> 9b6992f235c1cff6bda6f0ca4acfbda0f4e5bfeb }
+Partial Revert commits SHA are -> 
+d9f448371c33283fac09f2794d11bc3bb510ebff - revert - 9b6992f235c1cff6bda6f0ca4acfbda0f4e5bfeb
+The reverted commit sha is - d9f448371c33283fac09f2794d11bc3bb510ebff
+Commit message - Update copyright year in fix task and refactor
+
+The default copyright header now reflects the current year. Copyright
+headers on existing files will not be affected by this change, only newly
+created files. Also, a slight refactor to eliminate unnecessary
+branching.
+The original commit sha is - 9b6992f235c1cff6bda6f0ca4acfbda0f4e5bfeb
+Commit message - Merge pull request #223 from Dparker1990/remove_commented_code
+
+Remove commented code from termbox frontend
+The files with partial_reverts are:-
+frontend/termbox/main.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 92 is -> 
+{ 6cbbff8aaaeba6b72409bd6d2a578acfdd9a77d3 -> 1a13208aa92b241860fafef61b66cf133714028b } is a revert
+{ 1a13208aa92b241860fafef61b66cf133714028b -> c2560bb01c2e7076e4918270015094e6578f1d10 }
+Partial Revert commits SHA are -> 
+1a13208aa92b241860fafef61b66cf133714028b - revert - c2560bb01c2e7076e4918270015094e6578f1d10
+The reverted commit sha is - 1a13208aa92b241860fafef61b66cf133714028b
+Commit message - Detect change of file and reload
+
+Detect any change to a file currently being edited and reload it
+automatically. The work gone into implementing this will also go towards
+watching and reloading of any settings, plugins, as in issue #195.
+
+This does not currently implement any sort of asking of permission to
+reload the file if it has been edited and not saved.
+The original commit sha is - c2560bb01c2e7076e4918270015094e6578f1d10
+Commit message - Merge pull request #214 from Dparker1990/detect_file_changes
+
+Detect change of file and reload
+The files with partial_reverts are:-
+README.md
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 93 is -> 
+{ 0cfb558c583e8588440f1e5a495ea05da3f775b1 -> 04da3d5c62b6aa4fe27d8c8cb6553164d255fa39 } is a revert
+{ e98c4414f48046aaf026031d3755184cb4883565 -> 0330d51d5f5486ba3fe12e5665378c68dfbf3e2c }
+Partial Revert commits SHA are -> 
+04da3d5c62b6aa4fe27d8c8cb6553164d255fa39 - revert - 0330d51d5f5486ba3fe12e5665378c68dfbf3e2c
+The reverted commit sha is - 04da3d5c62b6aa4fe27d8c8cb6553164d255fa39
+Commit message - Updated README
+The original commit sha is - 0330d51d5f5486ba3fe12e5665378c68dfbf3e2c
+Commit message - Merge pull request #213 from sieben07/readme
+
+Added links to the Webpage, IRC and Documentation
+The files with partial_reverts are:-
+backend/events.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 94 is -> 
+{ 23d9a1d5ba7ba370d2446243418ff14d0e313900 -> 0cfb558c583e8588440f1e5a495ea05da3f775b1 } is a revert
+{ 0cfb558c583e8588440f1e5a495ea05da3f775b1 -> 04da3d5c62b6aa4fe27d8c8cb6553164d255fa39 }
+Partial Revert commits SHA are -> 
+0cfb558c583e8588440f1e5a495ea05da3f775b1 - revert - 04da3d5c62b6aa4fe27d8c8cb6553164d255fa39
+The reverted commit sha is - 0cfb558c583e8588440f1e5a495ea05da3f775b1
+Commit message - Fix typo in events Call documentation
+The original commit sha is - 04da3d5c62b6aa4fe27d8c8cb6553164d255fa39
+Commit message - Updated README
+The files with partial_reverts are:-
+backend/events.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 95 is -> 
+{ 4ea8b66a8998ee15744505b133351e2f66c93d24 -> 2a0ec8a84d1b26bcbb9447cf6a614ce35bae2ba5 } is a revert
+{ 0296214ce90323c28c8b037f574c6f4044a0ecfe -> 640066281f00a3ae0d371227fb87fab01a329dad }
+Partial Revert commits SHA are -> 
+2a0ec8a84d1b26bcbb9447cf6a614ce35bae2ba5 - revert - 640066281f00a3ae0d371227fb87fab01a329dad
+The reverted commit sha is - 2a0ec8a84d1b26bcbb9447cf6a614ce35bae2ba5
+Commit message - Add tests for the SingleSelection command
+The original commit sha is - 640066281f00a3ae0d371227fb87fab01a329dad
+Commit message - Merge pull request #181 from RoelVanNyen/112-moveto_test
+
+Add tests for the MoveTo command
+The files with partial_reverts are:-
+backend/commands/move_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 96 is -> 
+{ 2a0ec8a84d1b26bcbb9447cf6a614ce35bae2ba5 -> 78007b5661ecfd81709fbfbb51a57cc820c41b98 } is a revert
+{ 84832a5d6dd05623672684e8eeff1d54036a488d -> 0296214ce90323c28c8b037f574c6f4044a0ecfe }
+Partial Revert commits SHA are -> 
+78007b5661ecfd81709fbfbb51a57cc820c41b98 - revert - 0296214ce90323c28c8b037f574c6f4044a0ecfe
+The reverted commit sha is - 78007b5661ecfd81709fbfbb51a57cc820c41b98
+Commit message - Refactor the title and swap case tests.
+The original commit sha is - 0296214ce90323c28c8b037f574c6f4044a0ecfe
+Commit message - Merge pull request #182 from RoelVanNyen/110-singleselection_test
+
+Add tests for the SingleSelection command
+The files with partial_reverts are:-
+backend/commands/find_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 97 is -> 
+{ 7006bbdb95e991c5404e3454df5be3254ada743e -> 4ea8b66a8998ee15744505b133351e2f66c93d24 } is a revert
+{ 78007b5661ecfd81709fbfbb51a57cc820c41b98 -> 84832a5d6dd05623672684e8eeff1d54036a488d }
+Partial Revert commits SHA are -> 
+4ea8b66a8998ee15744505b133351e2f66c93d24 - revert - 84832a5d6dd05623672684e8eeff1d54036a488d
+The reverted commit sha is - 4ea8b66a8998ee15744505b133351e2f66c93d24
+Commit message - Add tests for the MoveTo command
+The original commit sha is - 84832a5d6dd05623672684e8eeff1d54036a488d
+Commit message - Merge pull request #183 from RoelVanNyen/refactor_case_test
+
+Refactor the title and swap case tests.
+The files with partial_reverts are:-
+frontend/termbox/main.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 98 is -> 
+{ 990749854cca15209c3e5eceead987b0e1fd81c8 -> 7f198f34182ff59b32b80ea8d0c7710956068858 } is a revert
+{ 7f198f34182ff59b32b80ea8d0c7710956068858 -> 7006bbdb95e991c5404e3454df5be3254ada743e }
+Partial Revert commits SHA are -> 
+7f198f34182ff59b32b80ea8d0c7710956068858 - revert - 7006bbdb95e991c5404e3454df5be3254ada743e
+The reverted commit sha is - 7f198f34182ff59b32b80ea8d0c7710956068858
+Commit message - Set blink to false so cursor seems more responsive
+
+Setting blink to false here makes the cursor seem much more responsive.
+With blink set to true, the cursor disappears immediately following a
+motion command and only reappears during the next `blink_phase` timeout.
+
+This small change just makes the cursor not disappear, thus providing a
+better editing experience with more immediate movement feedback.
+The original commit sha is - 7006bbdb95e991c5404e3454df5be3254ada743e
+Commit message - Merge pull request #178 from Dparker1990/responsive_cursor
+
+Set blink to false so cursor seems more responsive
+The files with partial_reverts are:-
+backend/view.go
+frontend/html/main.go
+frontend/qml/main.go
+tasks/build/gen_python_api.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 99 is -> 
+{ 03667a6224ee5502b6fca0845eabd6399912a2c6 -> 990749854cca15209c3e5eceead987b0e1fd81c8 } is a revert
+{ 990749854cca15209c3e5eceead987b0e1fd81c8 -> 7f198f34182ff59b32b80ea8d0c7710956068858 }
+Partial Revert commits SHA are -> 
+990749854cca15209c3e5eceead987b0e1fd81c8 - revert - 7f198f34182ff59b32b80ea8d0c7710956068858
+The reverted commit sha is - 990749854cca15209c3e5eceead987b0e1fd81c8
+Commit message - Updated for the OnChangeCallback signature change.
+The original commit sha is - 7f198f34182ff59b32b80ea8d0c7710956068858
+Commit message - Set blink to false so cursor seems more responsive
+
+Setting blink to false here makes the cursor seem much more responsive.
+With blink set to true, the cursor disappears immediately following a
+motion command and only reappears during the next `blink_phase` timeout.
+
+This small change just makes the cursor not disappear, thus providing a
+better editing experience with more immediate movement feedback.
+The files with partial_reverts are:-
+backend/view.go
+frontend/html/main.go
+frontend/qml/main.go
+tasks/build/gen_python_api.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 100 is -> 
+{ 19913bc6b90627472b150b4ee7fc99c74634da8d -> a083744c407ffb076869a6508e6c4efc53614c93 } is a revert
+{ a083744c407ffb076869a6508e6c4efc53614c93 -> 30723364f6a25954adf15147b3e7cce079125825 }
+Partial Revert commits SHA are -> 
+a083744c407ffb076869a6508e6c4efc53614c93 - revert - 30723364f6a25954adf15147b3e7cce079125825
+The reverted commit sha is - a083744c407ffb076869a6508e6c4efc53614c93
+Commit message - Add line numbers to termbox frontend
+
+This is a first pass implementation at adding line number rendering to
+the termbox frontend. There is some refactoring I would like to do to
+that entire part of the render loop as well as the line number
+rendering,
+but I feel that would be best saved for another commit.
+
+This PR addresses issue #164
+The original commit sha is - 30723364f6a25954adf15147b3e7cce079125825
+Commit message - Merge pull request #171 from Dparker1990/add_line_numbers_to_termbox_frontend
+
+Add line numbers to termbox frontend
+The files with partial_reverts are:-
+backend/editor_test.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 101 is -> 
+{ 163bb1029eb53c4743d7033742a27884071c7a09 -> 1586a37906f3b18a5b9ad1f716ef7c56a8183c70 } is a revert
+{ b75c9b78d13530dfb0770be41956a9354efe98b1 -> 87abdb926bbeb4ee9f46baf1e000518aaf91867b }
+Partial Revert commits SHA are -> 
+1586a37906f3b18a5b9ad1f716ef7c56a8183c70 - revert - 87abdb926bbeb4ee9f46baf1e000518aaf91867b
+The reverted commit sha is - 1586a37906f3b18a5b9ad1f716ef7c56a8183c70
+Commit message - Modify EndEdit to use a more descriptive var name
+
+This also makes this function more in line with similar functions in
+this file, which prefer the more descriptive `edit` over simply `e`.
+The original commit sha is - 87abdb926bbeb4ee9f46baf1e000518aaf91867b
+Commit message - Merge pull request #162 from Dparker1990/remove_unused_const_assignment
+
+Remove unused const assignment
+The files with partial_reverts are:-
+frontend/termbox/main.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 102 is -> 
+{ 21671e69cd113c0b220d787e8f77eec2a03d297c -> 5ec15fd7805757d178c037c973935d58ec9e4dc6 } is a revert
+{ 5ec15fd7805757d178c037c973935d58ec9e4dc6 -> bf4fcab69bb1646fe2cf7fad8ff32e26e00b9bee }
+Partial Revert commits SHA are -> 
+5ec15fd7805757d178c037c973935d58ec9e4dc6 - revert - bf4fcab69bb1646fe2cf7fad8ff32e26e00b9bee
+The reverted commit sha is - 5ec15fd7805757d178c037c973935d58ec9e4dc6
+Commit message - Build system wip. #107
+The original commit sha is - bf4fcab69bb1646fe2cf7fad8ff32e26e00b9bee
+Commit message - Merge branch 'master' of github.com:quarnster/lime
+The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 103 is -> 
+{ 5751360e9cc570781d63d70cb999a8e109fdb475 -> f87582c89e5366bbf5ea0b695efa74d68ed7232d } is a revert
+{ f87582c89e5366bbf5ea0b695efa74d68ed7232d -> 6e9583a5d911cb9997da64408228dc9a5bef5784 }
+Partial Revert commits SHA are -> 
+f87582c89e5366bbf5ea0b695efa74d68ed7232d - revert - 6e9583a5d911cb9997da64408228dc9a5bef5784
+The reverted commit sha is - f87582c89e5366bbf5ea0b695efa74d68ed7232d
+Commit message - Make Command implementations more idiomatic Go. Fixes #108
+
+Also document the command interface more. Fixes #11. Lets add to the
+source code documentation if further documentation is needed, that
+way the Api documentation, the user documentation and the actual
+code implementation is in the same spot and will hopefully not
+suffer from too much bit rot.
+The original commit sha is - 6e9583a5d911cb9997da64408228dc9a5bef5784
+Commit message - Merge branch 'master' of github.com:quarnster/lime
+The files with partial_reverts are:-
+.travis.yml
+README.md
+build/build.go
+scripts/ci/completion.sh
+scripts/ci/gopy.sh
+scripts/ci/lime.sh
+scripts/ci/python3.sh
+-----------------------------------------------------------------
+

@@ -1,0 +1,484 @@
+# of reverts = 32
+Revert diff pair 1 is -> 
+{ f1c9a203b2eda46c2980582d3bdb12b6e66f4aaf -> 8dea2029a4ec3382b7d80de82d793ef2ba2773e5 } is a revert
+{ 8dea2029a4ec3382b7d80de82d793ef2ba2773e5 -> 68d6d1597f3c346d8a011314c1e255cc296d1c90 }
+Revert commits SHA are -> 
+8dea2029a4ec3382b7d80de82d793ef2ba2773e5 - revert - 68d6d1597f3c346d8a011314c1e255cc296d1c90
+The reverted commit sha is - 8dea2029a4ec3382b7d80de82d793ef2ba2773e5
+Commit message - Fix configEpoch assignment when a cluster slot gets "closed".
+
+This is still code to rework in order to use agreement to obtain a new
+configEpoch when a slot is migrated, however this commit handles the
+special case that happens when the nodes are just started and everybody
+has a configEpoch of 0. In this special condition to have the maximum
+configEpoch is not enough as the special epoch 0 is not unique (all the
+others are).
+
+This does not fixes the intrinsic race condition of a failover happening
+while we are resharding, that will be addressed later.
+The original commit sha is - 68d6d1597f3c346d8a011314c1e255cc296d1c90
+Commit message - Merge pull request #1572 from mattsta/consistent-max-memory-info
+
+Force INFO used_memory_peak to match peak memory
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 8bdde086ac393a22ba80b74f317f882ab6f5e63e -> 9bd0e097aa19b697757cdb73dd447e2c6f4960c6 } is a revert
+{ 8c254415f7caa392b750131e3f37ccf123e03cd3 -> b1c1386374aabd085a6d2c9659cc8d50bc0b866a }
+Revert commits SHA are -> 
+9bd0e097aa19b697757cdb73dd447e2c6f4960c6 - revert - b1c1386374aabd085a6d2c9659cc8d50bc0b866a
+The reverted commit sha is - 9bd0e097aa19b697757cdb73dd447e2c6f4960c6
+Commit message - Sentinel: reply -IDONTKNOW to get-master-addr-by-name on lack of info.
+
+If we don't have any clue about a master since it never replied to INFO
+so far, reply with an -IDONTKNOW error to SENTINEL
+get-master-addr-by-name requests.
+The original commit sha is - b1c1386374aabd085a6d2c9659cc8d50bc0b866a
+Commit message - Sentinel: IDONTKNOW error removed.
+
+This error was conceived for the older version of Sentinel that worked
+via master redirection and that was not able to get configuration
+updates from other Sentinels via the Pub/Sub channel of masters or
+slaves.
+
+This reply does not make sense today, every Sentinel should reply with
+the best information it has currently. The error will make even more
+sense in the future since the plan is to allow Sentinels to update the
+configuration of other Sentinels via gossip with a direct chat without
+the prerequisite that they have at least a monitored instance in common.
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 9c88ace9274d3291119204c98a1dc31384abcb56 -> 43fdf3b404413f6e3b2c39ac491238c70ecee81c } is a revert
+{ a25fe0b28d72b715300d96dcd9fa687e31030da2 -> df13adb037cfdd590ec5a833c1b22b043fe6affb }
+Revert commits SHA are -> 
+43fdf3b404413f6e3b2c39ac491238c70ecee81c - revert - df13adb037cfdd590ec5a833c1b22b043fe6affb
+The reverted commit sha is - 43fdf3b404413f6e3b2c39ac491238c70ecee81c
+Commit message - Fixed typo in SCAN comment. iff -> if.
+The original commit sha is - df13adb037cfdd590ec5a833c1b22b043fe6affb
+Commit message - Revert "Fixed typo in SCAN comment. iff -> if."
+
+Probably here Pieter means "if and only if".
+
+This reverts commit 43fdf3b404413f6e3b2c39ac491238c70ecee81c.
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ 1c75408457841d94b2e9f6730861516555796341 -> 6253180abd9fd11a385c644fe1dee932ef83d86f } is a revert
+{ 6253180abd9fd11a385c644fe1dee932ef83d86f -> 00ddc3500c2679e473c3a7769470887a38489fb0 }
+Revert commits SHA are -> 
+6253180abd9fd11a385c644fe1dee932ef83d86f - revert - 00ddc3500c2679e473c3a7769470887a38489fb0
+The reverted commit sha is - 6253180abd9fd11a385c644fe1dee932ef83d86f
+Commit message - Fixed type in dict.c comment: 265 -> 256.
+The original commit sha is - 00ddc3500c2679e473c3a7769470887a38489fb0
+Commit message - Revert "Fixed type in dict.c comment: 265 -> 256."
+
+This reverts commit 6253180abd9fd11a385c644fe1dee932ef83d86f.
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ 56df82719879cdec95507d0f06365156310c09a7 -> 93570e179e96dc096b85aa0fcd5021b05208594a } is a revert
+{ e04fdf26fe929b4f80312f29ead449cf1295c17b -> c76df730109f770793403cd9fb9b68b945c210f6 }
+Revert commits SHA are -> 
+93570e179e96dc096b85aa0fcd5021b05208594a - revert - c76df730109f770793403cd9fb9b68b945c210f6
+The reverted commit sha is - 93570e179e96dc096b85aa0fcd5021b05208594a
+Commit message - Document port6 and bind6 config options.
+
+Add commented port6 and bind6 options to default redis.conf file.
+The original commit sha is - c76df730109f770793403cd9fb9b68b945c210f6
+Commit message - Revert "Document port6 and bind6 config options."
+
+IPv6 support is not going to use IPv6 specific options, just it will be
+possible to specify all the ipv4 / ipv6 addresses of the interfaces to
+bind, otherwise connections will be accepted from all the interfaces in
+both IPv4 and IPv6 addresses.
+
+This reverts commit 93570e179e96dc096b85aa0fcd5021b05208594a.
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ bd234d62bbfe9feb735fd6d1cdb8f5ce811f54b4 -> 016ac38a216d1b701991a451e637ca584f804f93 } is a revert
+{ c978b864f74a86dcffc54d66873f7eae6c2c7121 -> 2160effc78463d6602082302486beb51eb6a999d }
+Revert commits SHA are -> 
+016ac38a216d1b701991a451e637ca584f804f93 - revert - 2160effc78463d6602082302486beb51eb6a999d
+The reverted commit sha is - 016ac38a216d1b701991a451e637ca584f804f93
+Commit message - Cluster: use new anet.c listening socket creation API.
+The original commit sha is - 2160effc78463d6602082302486beb51eb6a999d
+Commit message - Revert "Cluster: use new anet.c listening socket creation API."
+
+This reverts commit 016ac38a216d1b701991a451e637ca584f804f93.
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ 585b0a61ce0cc7ddf136c1c4e462a0d4ad2a8fc7 -> bd234d62bbfe9feb735fd6d1cdb8f5ce811f54b4 } is a revert
+{ 90b0d66cce97aaac3a6437ac77b5dad9064136d1 -> c978b864f74a86dcffc54d66873f7eae6c2c7121 }
+Revert commits SHA are -> 
+bd234d62bbfe9feb735fd6d1cdb8f5ce811f54b4 - revert - c978b864f74a86dcffc54d66873f7eae6c2c7121
+The reverted commit sha is - bd234d62bbfe9feb735fd6d1cdb8f5ce811f54b4
+Commit message - anet.c: Allow creation of TCP listening sockets bound to N addresses.
+The original commit sha is - c978b864f74a86dcffc54d66873f7eae6c2c7121
+Commit message - Revert "anet.c: Allow creation of TCP listening sockets bound to N addresses."
+
+Bind() can't be called multiple times against the same socket, multiple
+sockets are required to bind multiple interfaces, silly me.
+
+This reverts commit bd234d62bbfe9feb735fd6d1cdb8f5ce811f54b4.
+-----------------------------------------------------------------
+
+Revert diff pair 8 is -> 
+{ e3ed78d43ba1329b9f736d3141b1e90ef071d5fa -> 2c75f2cf1aa0d9cc8256517bd6f3d8a82088ee1a } is a revert
+{ c1ae7d2377d716bec7d064fff71ea37a66293f48 -> 0ae1b5b0a197154167a895f1188f1822a78732e4 }
+Revert commits SHA are -> 
+2c75f2cf1aa0d9cc8256517bd6f3d8a82088ee1a - revert - 0ae1b5b0a197154167a895f1188f1822a78732e4
+The reverted commit sha is - 2c75f2cf1aa0d9cc8256517bd6f3d8a82088ee1a
+Commit message - use long long instead of size_t make it more safe
+The original commit sha is - 0ae1b5b0a197154167a895f1188f1822a78732e4
+Commit message - Revert "use long long instead of size_t make it more safe"
+
+This reverts commit 2c75f2cf1aa0d9cc8256517bd6f3d8a82088ee1a.
+
+After further analysis, it is very unlikely that we'll raise the
+string size limit to > 512MB, and at the same time such big strings
+will be used in 32 bit systems.
+
+Better to revert to size_t so that 32 bit processors will not be
+forced to use a 64 bit counter in normal operations, that is currently
+completely useless.
+-----------------------------------------------------------------
+
+Revert diff pair 9 is -> 
+{ 91d3b487e7d27454a0562e4131f9ab79c8288074 -> 215bfaea164350762ce5917acfb10269f63bfa68 } is a revert
+{ 4178a80282ac917a48771da2c2d1ee65bc562161 -> 9925c7c670067684db883876fd6cb0b3dc78ba61 }
+Revert commits SHA are -> 
+215bfaea164350762ce5917acfb10269f63bfa68 - revert - 9925c7c670067684db883876fd6cb0b3dc78ba61
+The reverted commit sha is - 215bfaea164350762ce5917acfb10269f63bfa68
+Commit message - Set default for stop_writes_on_bgsave_err in initServerConfig().
+
+It was placed for error in initServer() that's called after the
+configuation is already loaded, causing issue #1000.
+The original commit sha is - 9925c7c670067684db883876fd6cb0b3dc78ba61
+Commit message - Merge pull request #1001 from djanowski/fatal-errors-rdb-load
+
+Abort when opening the RDB file results in an error other than ENOENT.
+-----------------------------------------------------------------
+
+Revert diff pair 10 is -> 
+{ 57be47758e3203fe5e01c15895c4351206415024 -> ca2344f9916f048667304bfa1e476fc52d1bc15d } is a revert
+{ e50cdbe461263db87f910ce963c3e6a222c91835 -> cd892d015d3c870f0fb4e8449cfceeacc1191966 }
+Revert commits SHA are -> 
+ca2344f9916f048667304bfa1e476fc52d1bc15d - revert - cd892d015d3c870f0fb4e8449cfceeacc1191966
+The reverted commit sha is - ca2344f9916f048667304bfa1e476fc52d1bc15d
+Commit message - Solaris has backtrace(3)
+The original commit sha is - cd892d015d3c870f0fb4e8449cfceeacc1191966
+Commit message - Not every __sun has backtrace().
+
+I don't know how to test for Open Solaris that has support for
+backtrace() so for now removing the #ifdef that breaks compilation under
+other Solaris flavors.
+-----------------------------------------------------------------
+
+Revert diff pair 11 is -> 
+{ 1920cab3bc6b003367634d5583cd2e389d52fe4a -> 59046a7373215cd535cba7b7864ded34301c2357 } is a revert
+{ 59046a7373215cd535cba7b7864ded34301c2357 -> 21b3ff9ba0f182f1f25e419b5c84f0833d746255 }
+Revert commits SHA are -> 
+59046a7373215cd535cba7b7864ded34301c2357 - revert - 21b3ff9ba0f182f1f25e419b5c84f0833d746255
+The reverted commit sha is - 59046a7373215cd535cba7b7864ded34301c2357
+Commit message - Always exit if connection fails.
+
+This avoids unnecessary core dumps. Fixes antirez/redis#894
+The original commit sha is - 21b3ff9ba0f182f1f25e419b5c84f0833d746255
+Commit message - Merge pull request #893 from nparry/fix-redis-cli-rdb
+
+redis-cli --rdb fails if server sends a ping
+-----------------------------------------------------------------
+
+Revert diff pair 12 is -> 
+{ db100c4671c9576710c762f3fa36ab58757236a6 -> 6dd1693c0e4bfae0ca0983b2a0bf70ae234a6bcb } is a revert
+{ 9c21b72bb9b7844b22b60f63af37aa30dd78f898 -> ece77037e9601f9f5d2321cc5a779aef10a4c563 }
+Revert commits SHA are -> 
+6dd1693c0e4bfae0ca0983b2a0bf70ae234a6bcb - revert - ece77037e9601f9f5d2321cc5a779aef10a4c563
+The reverted commit sha is - 6dd1693c0e4bfae0ca0983b2a0bf70ae234a6bcb
+Commit message - Scripting: redis.NIL to return nil bulk replies.
+
+Lua arrays can't contain nil elements (see
+http://www.lua.org/pil/19.1.html for more information), so Lua scripts
+were not able to return a multi-bulk reply containing nil bulk
+elements inside.
+
+This commit introduces a special conversion: a table with just
+a "nilbulk" field set to a boolean value is converted by Redis as a nil
+bulk reply, but at the same time for Lua this type is not a "nil" so can
+be used inside Lua arrays.
+
+This type is also assigned to redis.NIL, so the following two forms
+are equivalent and will be able to return a nil bulk reply as second
+element of a three elements array:
+
+    EVAL "return {1,redis.NIL,3}" 0
+    EVAL "return {1,{nilbulk=true},3}" 0
+
+The result in redis-cli will be:
+
+    1) (integer) 1
+    2) (nil)
+    3) (integer) 3
+The original commit sha is - ece77037e9601f9f5d2321cc5a779aef10a4c563
+Commit message - Revert "Scripting: redis.NIL to return nil bulk replies."
+
+This reverts commit e061d797d739f2beeb22b9e8ac519d1df070e3a8.
+
+Conflicts:
+
+	src/scripting.c
+-----------------------------------------------------------------
+
+Revert diff pair 13 is -> 
+{ 93b0075d33292bb74bccb60d205da2c2f2041f1d -> 9edfe63553314fc2258392db94bfce8a4144b303 } is a revert
+{ 9edfe63553314fc2258392db94bfce8a4144b303 -> a2db8e4801968c5a5a163390aec17027810bae38 }
+Revert commits SHA are -> 
+9edfe63553314fc2258392db94bfce8a4144b303 - revert - a2db8e4801968c5a5a163390aec17027810bae38
+The reverted commit sha is - 9edfe63553314fc2258392db94bfce8a4144b303
+Commit message - Bug fix: slaves being pinged every second
+
+REDIS_REPL_PING_SLAVE_PERIOD controls how often the master should
+transmit a heartbeat (PING) to its slaves.  This period, which defaults
+to 10, is measured in seconds.
+
+Redis 2.4 masters used to ping their slaves every ten seconds, just like
+it says on the tin.
+
+The Redis 2.6 masters I have been experimenting with, on the other hand,
+ping their slaves *every second*.  (master_last_io_seconds_ago never
+approaches 10.)  I think the ping period was inadvertently slashed to
+one-tenth of its nominal value around the time REDIS_HZ was introduced.
+This commit reintroduces correct ping schedule behaviour.
+The original commit sha is - a2db8e4801968c5a5a163390aec17027810bae38
+Commit message - Merge pull request #569 from jokea/unstable
+
+mark fd as writable when EPOLLERR or EPOLLHUP is returned by epoll_wait.
+-----------------------------------------------------------------
+
+Revert diff pair 14 is -> 
+{ d329031fad1ac8c5d2d0c58a17d08a2de98b7b15 -> 4e97c2c71a3c511165c966769f51d2255d7a7b33 } is a revert
+{ 4e97c2c71a3c511165c966769f51d2255d7a7b33 -> a30a8ae7ba55cd7912dbfb78eef1d3963215ff6c }
+Revert commits SHA are -> 
+4e97c2c71a3c511165c966769f51d2255d7a7b33 - revert - a30a8ae7ba55cd7912dbfb78eef1d3963215ff6c
+The reverted commit sha is - 4e97c2c71a3c511165c966769f51d2255d7a7b33
+Commit message - Fixed another possible bug in cluster.c found by clang --analyze.
+The original commit sha is - a30a8ae7ba55cd7912dbfb78eef1d3963215ff6c
+Commit message - Merge branch 'unstable' into limits
+-----------------------------------------------------------------
+
+Revert diff pair 15 is -> 
+{ ecc57021451d1c625fd36c9ba88c60f201f5c098 -> c69ad1f24e379e9708c562cc8cda12691a000595 } is a revert
+{ d329031fad1ac8c5d2d0c58a17d08a2de98b7b15 -> 4e97c2c71a3c511165c966769f51d2255d7a7b33 }
+Revert commits SHA are -> 
+c69ad1f24e379e9708c562cc8cda12691a000595 - revert - 4e97c2c71a3c511165c966769f51d2255d7a7b33
+The reverted commit sha is - c69ad1f24e379e9708c562cc8cda12691a000595
+Commit message - Merge branch 'unstable' into limits
+The original commit sha is - 4e97c2c71a3c511165c966769f51d2255d7a7b33
+Commit message - Fixed another possible bug in cluster.c found by clang --analyze.
+-----------------------------------------------------------------
+
+Revert diff pair 16 is -> 
+{ 6710ff24d067d56b6b8d768532a6a7d3c4bc7a80 -> 9b810f1cde23485ca435bd90754d9a5c1ecfafe7 } is a revert
+{ d329031fad1ac8c5d2d0c58a17d08a2de98b7b15 -> 4e97c2c71a3c511165c966769f51d2255d7a7b33 }
+Revert commits SHA are -> 
+9b810f1cde23485ca435bd90754d9a5c1ecfafe7 - revert - 4e97c2c71a3c511165c966769f51d2255d7a7b33
+The reverted commit sha is - 9b810f1cde23485ca435bd90754d9a5c1ecfafe7
+Commit message - Merge branch 'unstable' into limits
+The original commit sha is - 4e97c2c71a3c511165c966769f51d2255d7a7b33
+Commit message - Fixed another possible bug in cluster.c found by clang --analyze.
+-----------------------------------------------------------------
+
+Revert diff pair 17 is -> 
+{ 7112580cb3368d08f0672360b856e8a0d9892051 -> 66c146592a0c0ff39570633811008cee8773233e } is a revert
+{ dbf6bca4315db7cf03ae0d33a25c515b0b0849c8 -> 9465d83efd8afa5f6c99486e0b9a232b6f25d31b }
+Revert commits SHA are -> 
+66c146592a0c0ff39570633811008cee8773233e - revert - 9465d83efd8afa5f6c99486e0b9a232b6f25d31b
+The reverted commit sha is - 66c146592a0c0ff39570633811008cee8773233e
+Commit message - when processing gossip packets make sure to also update the node bitmap when associating slots to nodes. Fixed simply using the appropriate helper function to add a slot.
+The original commit sha is - 9465d83efd8afa5f6c99486e0b9a232b6f25d31b
+Commit message - A node can populate a slot if a message from a trusted slot is received claiming ownership of this slot, that is currently empty or served by a node in FAIL state. However this feature was broken since calling clusterAddSlot() was not enough as the slot bit is already set in the node that pong us. We need to directly alter the table. This commit fixes the issue.
+-----------------------------------------------------------------
+
+Revert diff pair 18 is -> 
+{ 78f56a5aeed01022912b117864b8acf4e6411c58 -> f1e60d75309990b25a1763e004d7044c77c53834 } is a revert
+{ 37d650032a47bbc75356bdb09215eb6e59e363f4 -> 0bb5160cb08ad8f16ce241e55a1ed6c3042bf2aa }
+Revert commits SHA are -> 
+f1e60d75309990b25a1763e004d7044c77c53834 - revert - 0bb5160cb08ad8f16ce241e55a1ed6c3042bf2aa
+The reverted commit sha is - f1e60d75309990b25a1763e004d7044c77c53834
+Commit message - Use the new install script as make install target. Message about install script requiring root changed a bit to make it more evident.
+The original commit sha is - 0bb5160cb08ad8f16ce241e55a1ed6c3042bf2aa
+Commit message - Revert "Use the new install script as make install target. Message about install script requiring root changed a bit to make it more evident."
+After talking with Pieter he changed my mind about this, it is better to
+have a simpler install script that works everywhere, and the complex one
+can be always executed if needed by hand. We'll make possibly a new
+target for the full featured installation script, and even suggest it
+after a Make install.
+
+This reverts commit f1e60d75309990b25a1763e004d7044c77c53834.
+-----------------------------------------------------------------
+
+Revert diff pair 19 is -> 
+{ f89c3a3500e0f62688ab3ee649002601844b1592 -> 9155ea9c710f9ba481ac2c65a6a354a90eac8442 } is a revert
+{ 06e09c9b586d0e2c5d91dc596f871be56c6e0971 -> 5daa1f060a048a9f57e8e5441438d3ba03510bdb }
+Revert commits SHA are -> 
+9155ea9c710f9ba481ac2c65a6a354a90eac8442 - revert - 5daa1f060a048a9f57e8e5441438d3ba03510bdb
+The reverted commit sha is - 9155ea9c710f9ba481ac2c65a6a354a90eac8442
+Commit message - client-libraries directory readded
+The original commit sha is - 5daa1f060a048a9f57e8e5441438d3ba03510bdb
+Commit message - no more client-libraries directory
+-----------------------------------------------------------------
+
+Revert diff pair 20 is -> 
+{ 7d47ecd543ed41db70396bc3866eac872a31774d -> a3e60027e7d4419971406c6da7d6e8accbcaf9b0 } is a revert
+{ a3e60027e7d4419971406c6da7d6e8accbcaf9b0 -> ca734d17ad9b7ea97a87bd048ad1c1e253ef67a6 }
+Revert commits SHA are -> 
+a3e60027e7d4419971406c6da7d6e8accbcaf9b0 - revert - ca734d17ad9b7ea97a87bd048ad1c1e253ef67a6
+The reverted commit sha is - a3e60027e7d4419971406c6da7d6e8accbcaf9b0
+Commit message - Now maxmemory, VM, and everything else uses the fast RSS memory used estimation instead of raw memory reported by zmalloc(). This means that setting maxmemory to 2GB will really have the effect of using up to 2GB of memory.
+The original commit sha is - ca734d17ad9b7ea97a87bd048ad1c1e253ef67a6
+Commit message - Revert "Now maxmemory, VM, and everything else uses the fast RSS memory used estimation instead of raw memory reported by zmalloc(). This means that setting maxmemory to 2GB will really have the effect of using up to 2GB of memory."
+
+This reverts commit a3e60027e7d4419971406c6da7d6e8accbcaf9b0.
+-----------------------------------------------------------------
+
+Revert diff pair 21 is -> 
+{ 5171777bf112a6a930c4750949037ce741f3bf28 -> 5ca2f0c49894878be47161f667ae0daf70bb6fd3 } is a revert
+{ b882056c93f3e3afe5fde9d62fb569ce30a76a76 -> beb7756dcbb44099352abcb3368fcd3d23b55782 }
+Revert commits SHA are -> 
+5ca2f0c49894878be47161f667ae0daf70bb6fd3 - revert - beb7756dcbb44099352abcb3368fcd3d23b55782
+The reverted commit sha is - 5ca2f0c49894878be47161f667ae0daf70bb6fd3
+Commit message - preventive conflict resolution to merge pietern/zset-mem
+The original commit sha is - beb7756dcbb44099352abcb3368fcd3d23b55782
+Commit message - error generation format reverted to the new style after merge
+-----------------------------------------------------------------
+
+Revert diff pair 22 is -> 
+{ b785b2bf668b955f6b4a87813ae230e288b2cc78 -> 056c19c6f21e3729212924f76956e4bbb2d3a04c } is a revert
+{ d52e5888694cb65918f2b0d00691c198deb5643f -> d5096a28d79bc8e0c015816d1b359a4d197cb3bb }
+Revert commits SHA are -> 
+056c19c6f21e3729212924f76956e4bbb2d3a04c - revert - d5096a28d79bc8e0c015816d1b359a4d197cb3bb
+The reverted commit sha is - 056c19c6f21e3729212924f76956e4bbb2d3a04c
+Commit message - TODO updated
+The original commit sha is - d5096a28d79bc8e0c015816d1b359a4d197cb3bb
+Commit message - TODO updated
+-----------------------------------------------------------------
+
+Revert diff pair 23 is -> 
+{ dda20542abcccac04a7f630695e6a30304f7dcf8 -> 4dc1218c585e5c81674382c8091cb2b9e9807891 } is a revert
+{ 4dc1218c585e5c81674382c8091cb2b9e9807891 -> 422cf21f15a13f52a6e87d83076857d5483c6f49 }
+Revert commits SHA are -> 
+4dc1218c585e5c81674382c8091cb2b9e9807891 - revert - 422cf21f15a13f52a6e87d83076857d5483c6f49
+The reverted commit sha is - 4dc1218c585e5c81674382c8091cb2b9e9807891
+Commit message - Merge branch 'smallkeys'
+The original commit sha is - 422cf21f15a13f52a6e87d83076857d5483c6f49
+Commit message - Merge branch 'lists' of git://github.com/pietern/redis
+-----------------------------------------------------------------
+
+Revert diff pair 24 is -> 
+{ a89b7013ff5aa27fae4d1f7d45615349c3ab7300 -> 1edbae86782835359dc0ce7250df627b41d147eb } is a revert
+{ a7159fe817b163d17ff64fae0d459bbe786280ef -> 9fcfd6b6512dd975ba3eadf476b7d5670c9dbb79 }
+Revert commits SHA are -> 
+1edbae86782835359dc0ce7250df627b41d147eb - revert - 9fcfd6b6512dd975ba3eadf476b7d5670c9dbb79
+The reverted commit sha is - 1edbae86782835359dc0ce7250df627b41d147eb
+Commit message - Merge branch 'master' into smallkeys
+The original commit sha is - 9fcfd6b6512dd975ba3eadf476b7d5670c9dbb79
+Commit message - Merge branch 'testsuite' of git://github.com/pietern/redis
+-----------------------------------------------------------------
+
+Revert diff pair 25 is -> 
+{ 8063b99da677afc470342a3f75552950b6a487db -> 4132ad8d49e9a26425497048404f32b151362fe1 } is a revert
+{ 585af7e21c864652a15248b85c34808e16604c9e -> 45ae650129bf7b665ade56e0dc6bd880f1e4ad07 }
+Revert commits SHA are -> 
+4132ad8d49e9a26425497048404f32b151362fe1 - revert - 45ae650129bf7b665ade56e0dc6bd880f1e4ad07
+The reverted commit sha is - 4132ad8d49e9a26425497048404f32b151362fe1
+Commit message - log error and quit when the AOF contains an unfinished MULTI
+The original commit sha is - 45ae650129bf7b665ade56e0dc6bd880f1e4ad07
+Commit message - Merge branch 'check-aof' of git://github.com/pietern/redis
+-----------------------------------------------------------------
+
+Revert diff pair 26 is -> 
+{ 946342c19019c5cf81b965cac3dbea5007d74049 -> 98d2e23be23f9af02653672081896747baf985f7 } is a revert
+{ 8063b99da677afc470342a3f75552950b6a487db -> 4132ad8d49e9a26425497048404f32b151362fe1 }
+Revert commits SHA are -> 
+98d2e23be23f9af02653672081896747baf985f7 - revert - 4132ad8d49e9a26425497048404f32b151362fe1
+The reverted commit sha is - 98d2e23be23f9af02653672081896747baf985f7
+Commit message - Merge branch 'master' into check-aof
+The original commit sha is - 4132ad8d49e9a26425497048404f32b151362fe1
+Commit message - log error and quit when the AOF contains an unfinished MULTI
+-----------------------------------------------------------------
+
+Revert diff pair 27 is -> 
+{ 188714211af246b96f46a2e598c66fee95c52375 -> a08bb01d6740f0d4baf970ad9499859383219c22 } is a revert
+{ 3bb225d66be633c88ba01c6e7a0cebf91837cd13 -> 24df76987e85f7ba5314495e50dc5cc9ff623823 }
+Revert commits SHA are -> 
+a08bb01d6740f0d4baf970ad9499859383219c22 - revert - 24df76987e85f7ba5314495e50dc5cc9ff623823
+The reverted commit sha is - a08bb01d6740f0d4baf970ad9499859383219c22
+Commit message - Revert "version 1.3.10"
+
+This reverts commit 188714211af246b96f46a2e598c66fee95c52375.
+The original commit sha is - 24df76987e85f7ba5314495e50dc5cc9ff623823
+Commit message - Now that's the right 1.3.10
+-----------------------------------------------------------------
+
+Revert diff pair 28 is -> 
+{ d3277ecd92352db11e9f4ce4c45a63c3a225fc29 -> 566c3c7a22c0ec217c40f7a95db2bb83c8cc16c7 } is a revert
+{ d6fb4d5396a8822435e50843b4ddc4522cfec070 -> 3bb225d66be633c88ba01c6e7a0cebf91837cd13 }
+Revert commits SHA are -> 
+566c3c7a22c0ec217c40f7a95db2bb83c8cc16c7 - revert - 3bb225d66be633c88ba01c6e7a0cebf91837cd13
+The reverted commit sha is - 566c3c7a22c0ec217c40f7a95db2bb83c8cc16c7
+Commit message - fsync always now uses O_DIRECT on Linux
+The original commit sha is - 3bb225d66be633c88ba01c6e7a0cebf91837cd13
+Commit message - Revert "fsync always now uses O_DIRECT on Linux"
+
+This reverts commit 566c3c7a22c0ec217c40f7a95db2bb83c8cc16c7.
+-----------------------------------------------------------------
+
+Revert diff pair 29 is -> 
+{ 566c3c7a22c0ec217c40f7a95db2bb83c8cc16c7 -> 122c04983400a076423811740f2b87163ea95c00 } is a revert
+{ 0040fa253fdfeca20d540609aa17a796856744eb -> d6fb4d5396a8822435e50843b4ddc4522cfec070 }
+Revert commits SHA are -> 
+122c04983400a076423811740f2b87163ea95c00 - revert - d6fb4d5396a8822435e50843b4ddc4522cfec070
+The reverted commit sha is - 122c04983400a076423811740f2b87163ea95c00
+Commit message - define __USE_GNU to get O_DIRECT
+The original commit sha is - d6fb4d5396a8822435e50843b4ddc4522cfec070
+Commit message - Revert "define __USE_GNU to get O_DIRECT"
+
+This reverts commit 122c04983400a076423811740f2b87163ea95c00.
+-----------------------------------------------------------------
+
+Revert diff pair 30 is -> 
+{ 1064ef8764eaa95b21c6abeaa7f626b389327999 -> b04a5df979ef9237a5114899e9a454c4e52fb5ac } is a revert
+{ a9158272c69ff283fbedf68dd3cb4855e69159fc -> 76a41fb163b6e38845323e2b6a1269a31552c260 }
+Revert commits SHA are -> 
+b04a5df979ef9237a5114899e9a454c4e52fb5ac - revert - 76a41fb163b6e38845323e2b6a1269a31552c260
+The reverted commit sha is - b04a5df979ef9237a5114899e9a454c4e52fb5ac
+Commit message - A define to make Redis more helgrind friendly
+The original commit sha is - 76a41fb163b6e38845323e2b6a1269a31552c260
+Commit message - removed support for REDIS_HELGRIND_FRIENDLY since Helgrind 3.5.0 is friendly enough even with many threads created and destroyed
+-----------------------------------------------------------------
+
+Revert diff pair 31 is -> 
+{ 7c8163b85bce72a789e2c80becd6f1596d371863 -> 279e33bee7ababb69e614b3d862ddd0a3e44d0cf } is a revert
+{ 279e33bee7ababb69e614b3d862ddd0a3e44d0cf -> 436b423e18efd213d835f83efd909de87e9fb8c6 }
+Revert commits SHA are -> 
+279e33bee7ababb69e614b3d862ddd0a3e44d0cf - revert - 436b423e18efd213d835f83efd909de87e9fb8c6
+The reverted commit sha is - 279e33bee7ababb69e614b3d862ddd0a3e44d0cf
+Commit message - AOFSYNC command implemented
+The original commit sha is - 436b423e18efd213d835f83efd909de87e9fb8c6
+Commit message - AOFSYNC removed, got a better idea...
+-----------------------------------------------------------------
+
+Revert diff pair 32 is -> 
+{ a51dcb8b7f63637f83e48f55c327e46ae6ac9269 -> fb6a19677819cb2e35723bb5565a603cb069f461 } is a revert
+{ 64f36a5836c8c375247ca0623712a35f80c6cfb2 -> 7785121a503438cf6d72f16ba0149cad8ae26e42 }
+Revert commits SHA are -> 
+fb6a19677819cb2e35723bb5565a603cb069f461 - revert - 7785121a503438cf6d72f16ba0149cad8ae26e42
+The reverted commit sha is - fb6a19677819cb2e35723bb5565a603cb069f461
+Commit message - commented the HAVE_EPOLL test in config.h to allow compilation under Linux now that the epoll module is still missing
+The original commit sha is - 7785121a503438cf6d72f16ba0149cad8ae26e42
+Commit message - epoll support enabled by default for Linux builds
+-----------------------------------------------------------------
+

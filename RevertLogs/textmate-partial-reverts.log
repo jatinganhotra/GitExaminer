@@ -1,0 +1,184 @@
+# of partial reverts = 11
+Partial Revert diff pair 1 is -> 
+{ 6fa92db26529c1c06ae1f0e201213b99bb1174c2 -> 4e9d9414f15650d88cdb75886b09604aaca583de } is a revert
+{ b526201cbdcd7013691a7ae2066d7595ab8d08b3 -> 6aa23aeb0af503962895b32b36865fc4d7c4f435 }
+Partial Revert commits SHA are -> 
+4e9d9414f15650d88cdb75886b09604aaca583de - revert - 6aa23aeb0af503962895b32b36865fc4d7c4f435
+The reverted commit sha is - 4e9d9414f15650d88cdb75886b09604aaca583de
+Commit message - Add encoding options to save dialogs
+
+A minor caveat is that if there are encoding or newline (folder specific) settings in effect for the chosen path, these trump what’s selected in the save dialog.
+
+If we wish to solve this, the best would be to update the options (shown in the save panel) based on selected folder/filename (and the settings in effect for that).
+
+This closes issue #163.
+The original commit sha is - 6aa23aeb0af503962895b32b36865fc4d7c4f435
+Commit message - Create save dialog’s encoding options in code (using auto-layout)
+The files with partial_reverts are:-
+Frameworks/OakAppKit/resources/English.lproj/EncodingSaveOptions.xib
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 645c83726269d6cdff2076c45d504cf18b2a74aa -> 201f247b2fc7fd5281ac07ca2006ad2c24410a0a } is a revert
+{ 986b9f54af09581e8abfbea48b68d3b29c1b1c3f -> 844f24eb63dc294e774b0d5d1407988b9b8a9b09 }
+Partial Revert commits SHA are -> 
+201f247b2fc7fd5281ac07ca2006ad2c24410a0a - revert - 844f24eb63dc294e774b0d5d1407988b9b8a9b09
+The reverted commit sha is - 201f247b2fc7fd5281ac07ca2006ad2c24410a0a
+Commit message - New (native) commit window
+
+This is based on the previous commit window code base. It replaces the NSTextView with a OakTextView for entering the commit messages. This allows us to take advantage of some of the git grammar features, e.g., fixup!.
+
+If other SCM bundles are updated in the future to include any specific grammars, these can be used in the commit window by setting the bundle grammar to "text.SCM-commit", where SCM could be hg or svn for example.
+
+Changes to note:
+
+	*  The Modify row button for the "--action-cmd" commands are now implemented in the action menu and the table context menu.
+
+	*  The shortcut for committing is ⌘↩ (but fn-return seems to (still) work).
+The original commit sha is - 844f24eb63dc294e774b0d5d1407988b9b8a9b09
+Commit message - Remove the commit window framework’s Info.plist
+
+This is only required when we have resources (and need to build the target as a framework bundle).
+The files with partial_reverts are:-
+Frameworks/CommitWindow/resources/Info.plist
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 50d3a584c9f71fe35fac62cdd19b306153e38f6d -> 63f8400cc49b0d53b3ca1aa925c7f1a2f8886c26 } is a revert
+{ 1404d251450f6aa6ac5a2ddf7892a382f3c51fb4 -> 07b7200a73e0fc38b8349e21835cdcc71a71688b }
+Partial Revert commits SHA are -> 
+63f8400cc49b0d53b3ca1aa925c7f1a2f8886c26 - revert - 07b7200a73e0fc38b8349e21835cdcc71a71688b
+The reverted commit sha is - 63f8400cc49b0d53b3ca1aa925c7f1a2f8886c26
+Commit message - Allow specifying an NSTextField subclass when creating labels
+The original commit sha is - 07b7200a73e0fc38b8349e21835cdcc71a71688b
+Commit message - When creating a label, don’t allow providing what class to use
+
+Also change return type from NSImage* to NSView* when creating divider image.
+The files with partial_reverts are:-
+Frameworks/OakAppKit/src/OakUIConstructionFunctions.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 6e864a917d77eaf060ee6ed96891fa1a5048c4f4 -> afbc364fc3e0c8ac07b09ea7167b3416d3046215 } is a revert
+{ 11de15ac5423c2b9fcee29a74150dc338a5ad5c7 -> 6e5adcdc31b4310bced21d1c18620885862e5f59 }
+Partial Revert commits SHA are -> 
+afbc364fc3e0c8ac07b09ea7167b3416d3046215 - revert - 6e5adcdc31b4310bced21d1c18620885862e5f59
+The reverted commit sha is - afbc364fc3e0c8ac07b09ea7167b3416d3046215
+Commit message - Move highlight_ranges.h to ui subfolder
+
+Only sources in the ui folder use this code and was previously including it from a parent folder, which breaks the hierarchical ordering of sources: you can include child folders, not ancestors.
+The original commit sha is - 6e5adcdc31b4310bced21d1c18620885862e5f59
+Commit message - Remove unused code
+The files with partial_reverts are:-
+Frameworks/OakFilterList/src/ui/highlight_ranges.h
+Frameworks/OakFilterList/src/ui/highlight_ranges.mm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ ffb900deb1841cfbfb6b8967e77126d53bea0df6 -> eb6b0541b28e03b398c961ee6b327fca7f5b40b7 } is a revert
+{ 45b297a1509153584af758a20fb73ede0fcc137f -> ccac862602624889566dbf9dab4212ad12853427 }
+Partial Revert commits SHA are -> 
+eb6b0541b28e03b398c961ee6b327fca7f5b40b7 - revert - ccac862602624889566dbf9dab4212ad12853427
+The reverted commit sha is - eb6b0541b28e03b398c961ee6b327fca7f5b40b7
+Commit message - Move reader_t and process_t to command framework
+
+These are now only used by the command framework and should soon be retired.
+The original commit sha is - ccac862602624889566dbf9dab4212ad12853427
+Commit message - Remove process_t
+The files with partial_reverts are:-
+Frameworks/command/src/process.cc
+Frameworks/command/src/process.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ 2f4370dc9bcfb6c6d4fcc9a6cf4a18cb9ecc3b33 -> 17e822896e3a31a74e405576fb502f787f10f674 } is a revert
+{ 7350192d51289484c4614640ad1ae21c9b22e061 -> 7a12fd1c41c2596906355fb13e3278d3d8f0311e }
+Partial Revert commits SHA are -> 
+17e822896e3a31a74e405576fb502f787f10f674 - revert - 7a12fd1c41c2596906355fb13e3278d3d8f0311e
+The reverted commit sha is - 17e822896e3a31a74e405576fb502f787f10f674
+Commit message - Add Quick Look generator
+
+Closes #1062
+The original commit sha is - 7a12fd1c41c2596906355fb13e3278d3d8f0311e
+Commit message - Don’t define global macros that are only used in QuickLook target
+The files with partial_reverts are:-
+Shared/include/oak/misc.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ dc37506831ef3e6d9a22c52610b49bf5454db177 -> 485bdde0f732a33c7a54b24d74114d92c2c5ed9d } is a revert
+{ 97ad8294a6279fbacd0ced0f233b287f5a8c8cca -> 1d4358fac6f33329683ef6a43f317a7cd65728b8 }
+Partial Revert commits SHA are -> 
+485bdde0f732a33c7a54b24d74114d92c2c5ed9d - revert - 1d4358fac6f33329683ef6a43f317a7cd65728b8
+The reverted commit sha is - 485bdde0f732a33c7a54b24d74114d92c2c5ed9d
+Commit message - Move oak::c_array to oak/datatypes.h
+
+This simple wrapper is useful in a few places so we shouldn’t need to depend on the OakSystem framework in order to use it.
+The original commit sha is - 1d4358fac6f33329683ef6a43f317a7cd65728b8
+Commit message - Remove unused include
+The files with partial_reverts are:-
+Frameworks/network/src/tbz.cc
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ 45763d4afc4fc3d68e04f982f0d217b333407454 -> 5e453d1172e05e1d42e3ece8320fda50f3a02206 } is a revert
+{ 5a7bd6c91423f6b15fa0448a8a80b4607ce3c0b0 -> 1ff981ea7776adc925cb07be99feea28c7856328 }
+Partial Revert commits SHA are -> 
+5e453d1172e05e1d42e3ece8320fda50f3a02206 - revert - 1ff981ea7776adc925cb07be99feea28c7856328
+The reverted commit sha is - 5e453d1172e05e1d42e3ece8320fda50f3a02206
+Commit message - Accept directory in file::path_attributes
+
+This is so that we can get SCM system, build system, and similar.
+The original commit sha is - 1ff981ea7776adc925cb07be99feea28c7856328
+Commit message - Remove unused argument for file::path_attributes
+The files with partial_reverts are:-
+Frameworks/file/src/path_info.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ da3a91a7bb224900d9cca6530ebbc6dfedd5d381 -> 342152ea71b3ec1349d60a58bf447a1a738b88a8 } is a revert
+{ 2200df74fdf2007ff86649be492a9405b005e95a -> a9d80f5a0dbb4776d8ceecf376027c759f4ac0c1 }
+Partial Revert commits SHA are -> 
+342152ea71b3ec1349d60a58bf447a1a738b88a8 - revert - a9d80f5a0dbb4776d8ceecf376027c759f4ac0c1
+The reverted commit sha is - 342152ea71b3ec1349d60a58bf447a1a738b88a8
+Commit message - Remove light gray line above tabs
+The original commit sha is - a9d80f5a0dbb4776d8ceecf376027c759f4ac0c1
+Commit message - Increase tab bar size one pixel
+
+This is to match the minimum allowed size for the sidebar header when the tabs above document is enabled, also matches the height of the forthcoming tab redesign.
+The files with partial_reverts are:-
+Frameworks/OakAppKit/src/OakTabBarView.mm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ 2beac7080b810ad9442b4e182e63f7eab6fcbedb -> db294ba346871959720677ec59b704a64b2e3035 } is a revert
+{ a166ad481c294207d0e4fc35efa45546bcfb1a3c -> 879cb2e777a050a006d0bc0f6605273fea9c3d11 }
+Partial Revert commits SHA are -> 
+db294ba346871959720677ec59b704a64b2e3035 - revert - 879cb2e777a050a006d0bc0f6605273fea9c3d11
+The reverted commit sha is - db294ba346871959720677ec59b704a64b2e3035
+Commit message - If opening an already open folder, bring window to front
+
+This is mainly for calling ‘mate «directory»’. Reference http://lists.macromates.com/textmate/2012-August/035164.html
+The original commit sha is - 879cb2e777a050a006d0bc0f6605273fea9c3d11
+Commit message - Remove unused method
+The files with partial_reverts are:-
+Frameworks/DocumentWindow/src/DocumentController.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 4ae46a534927b663ecf127eed97d65b732f39684 -> 707b45b2cd4e93e4d44ea1c72a6638af0e7df48b } is a revert
+{ 707b45b2cd4e93e4d44ea1c72a6638af0e7df48b -> 86999c7c41ad2ac14ec58ba82c2f7a5ce8599d61 }
+Partial Revert commits SHA are -> 
+707b45b2cd4e93e4d44ea1c72a6638af0e7df48b - revert - 86999c7c41ad2ac14ec58ba82c2f7a5ce8599d61
+The reverted commit sha is - 707b45b2cd4e93e4d44ea1c72a6638af0e7df48b
+Commit message - ninja now back in trunk of brew 
+
+https://github.com/mxcl/homebrew/commit/ff13af6fb37b378c9edb3a91fe3d6016c36661b5
+The original commit sha is - 86999c7c41ad2ac14ec58ba82c2f7a5ce8599d61
+Commit message - Merge pull request #57 from shadowbq/patch-1
+
+ninja now back in trunk of brew 
+The files with partial_reverts are:-
+configure
+-----------------------------------------------------------------
+
