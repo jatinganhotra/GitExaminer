@@ -60,7 +60,12 @@ results_file_name = "results.txt"
 op_file = File.open(results_file_name, "w")
 rows = []
 num = 0
-Dir.foreach("RevertLogs")  do |file|
+
+# Compiling results in a specific order to easily identify any changes
+#Dir.foreach("RevertLogs")  do |file|
+projects = ["backbone-fundamentals", "catalyst-runtime", "jshint", "MLPNeuralNet", "mojo", "ninja", "sails", "sinatra", "stylus", "MapDB", "codebox", "flockdb", "lime", "neovim", "pouchdb", "redis", "sharelatex", "slap", "textmate", "zed"]
+projects.each do |file|
+  file = file + "-results.txt"
   next if file.match(/.*-results.txt$/).nil?
 
   complete_file_name = "RevertLogs/" + file.to_s
