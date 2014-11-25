@@ -33,3 +33,129 @@ ruby script.rb https://github.com/sinatra/sinatra.git
 echo ======================================================
 echo Running stylus
 ruby script.rb https://github.com/LearnBoost/stylus.git
+
+echo ======================================================
+echo ==== Running all text editors now ====================
+echo ======================================================
+echo Running vim.js
+ruby script.rb https://github.com/coolwanglu/vim.js.git
+
+echo ======================================================
+echo Running lime
+ruby script.rb https://github.com/limetext/lime.git
+
+echo ======================================================
+echo Running CodeBox
+ruby script.rb https://github.com/CodeboxIDE/codebox.git
+
+echo ======================================================
+echo Running textmate
+ruby script.rb https://github.com/textmate/textmate.git
+
+echo ======================================================
+echo Running neovim
+ruby script.rb https://github.com/neovim/neovim.git
+
+echo ======================================================
+echo Running sharelatex
+ruby script.rb https://github.com/sharelatex/sharelatex.git
+
+echo ======================================================
+echo Running zed
+ruby script.rb https://github.com/zedapp/zed.git
+
+echo ======================================================
+echo Running slap
+ruby script.rb https://github.com/slap-editor/slap.git
+
+echo ======================================================
+echo ==== Running all NoSQL editors now ====================
+echo ======================================================
+echo Running redis
+ruby script.rb https://github.com/antirez/redis.git
+
+echo ======================================================
+echo Running pouchdb
+ruby script.rb https://github.com/pouchdb/pouchdb.git
+
+echo ======================================================
+echo Running flockdb
+ruby script.rb https://github.com/twitter/flockdb.git
+
+echo ======================================================
+echo Running MapDB
+ruby script.rb https://github.com/jankotek/MapDB.git
+
+echo ======================================================
+echo Running orientdb
+ruby script.rb https://github.com/orientechnologies/orientdb.git
+
+echo ======================================================
+echo Running couchdb
+ruby script.rb https://github.com/apache/couchdb.git
+
+
+# ======================================================
+# ======================================================
+# Big repositories
+# ======================================================
+# commits - 17936
+#echo ======================================================
+#echo Running ArangoDB
+#ruby script.rb https://github.com/triAGENS/ArangoDB.git
+
+# commits - 29850
+#echo ======================================================
+#echo Running neo4j
+#ruby script.rb https://github.com/neo4j/neo4j.git
+
+# commits - 26712
+#echo ======================================================
+#echo Running ravendb
+#ruby script.rb https://github.com/ravendb/ravendb.git
+
+# commits - 27794
+#echo ======================================================
+#echo Running rethinkdb
+#ruby script.rb https://github.com/rethinkdb/rethinkdb.git 
+
+# commits - 28033
+#echo ======================================================
+#echo Running mongo
+#ruby script.rb https://github.com/mongodb/mongo.git 
+
+
+# ======================================================
+# ======================================================
+# Issues
+# ======================================================
+# ======================================================
+# Issue with the ruby-git API
+# Somehow the size of diff & num_files in diff.stats are different
+# Did a thorough analysis but can't find why it's happening
+#echo ======================================================
+#echo Running LightTable
+#ruby script.rb https://github.com/LightTable/LightTable.git
+
+# Same issue as LightTable
+# `generate_stats': Num_files in stats != number of diffiles (RuntimeError)
+#echo Running atom
+#ruby script.rb https://github.com/atom/atom.git
+
+# Crashes in the API
+# /Users/jatinganhotra/.rvm/gems/ruby-2.1.3@527project/gems/git-1.2.8/lib/git/diff.rb:140:in
+# `block in process_full_diff': undefined method `[]' for nil:NilClass (NoMethodError)
+#echo ======================================================
+#echo Running brackets
+#ruby script.rb https://github.com/adobe/brackets.git
+
+#echo ======================================================
+# diff.rb:43:in `generate_stats': Num_files in stats != number of diffiles (RuntimeError)
+#echo Running riak
+#ruby script.rb https://github.com/basho/riak.git
+
+# diff.rb:43:in `generate_stats': Num_files in stats != number of diffiles (RuntimeError)
+#echo ======================================================
+#echo Running titan
+#ruby script.rb https://github.com/thinkaurelius/titan.git
+
