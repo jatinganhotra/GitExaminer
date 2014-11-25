@@ -22,7 +22,12 @@ project_name = project_name.last
 # When you pass a repo_URL like https://github.com/jshint/jshint.git
 # You need to take away the .git part too
 project_name = project_name.split('.')
-project_name = project_name.first
+if project_name.size > 2
+  project_name.pop
+  project_name = project_name.join('.')
+else
+  project_name = project_name.first
+end
 
 # Tip: To try on local git repo, just comment the below code
 #git_repo_path = ARGV[0]
