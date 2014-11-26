@@ -4,9 +4,9 @@ Revert diff pair 1 is ->
 { a43ba2c65a79bf58adc1291b0079ea889310e072 -> 28af01e6af721c102b9d6d8abb39f4708a97d808 }
 Revert commits SHA are -> 
 db751b059b4bb14842ad71cb67a1f1c91200c5fe - revert - 28af01e6af721c102b9d6d8abb39f4708a97d808
-The reverted commit sha is - db751b059b4bb14842ad71cb67a1f1c91200c5fe
+---> The reverted commit sha is - db751b059b4bb14842ad71cb67a1f1c91200c5fe
 Commit message - Added PROPFIND verb support
-The original commit sha is - 28af01e6af721c102b9d6d8abb39f4708a97d808
+---> The original commit sha is - 28af01e6af721c102b9d6d8abb39f4708a97d808
 Commit message - Revert "Added PROPFIND verb support"
 -----------------------------------------------------------------
 
@@ -15,11 +15,11 @@ Revert diff pair 2 is ->
 { a43ba2c65a79bf58adc1291b0079ea889310e072 -> 28af01e6af721c102b9d6d8abb39f4708a97d808 }
 Revert commits SHA are -> 
 68c237d0c89077d0ae0f74942b7838cbbe898a9a - revert - 28af01e6af721c102b9d6d8abb39f4708a97d808
-The reverted commit sha is - 68c237d0c89077d0ae0f74942b7838cbbe898a9a
+---> The reverted commit sha is - 68c237d0c89077d0ae0f74942b7838cbbe898a9a
 Commit message - Merge pull request #897 from markbates/master
 
 Added PROPFIND verb support
-The original commit sha is - 28af01e6af721c102b9d6d8abb39f4708a97d808
+---> The original commit sha is - 28af01e6af721c102b9d6d8abb39f4708a97d808
 Commit message - Revert "Added PROPFIND verb support"
 -----------------------------------------------------------------
 
@@ -28,9 +28,9 @@ Revert diff pair 3 is ->
 { af1b33433f7c8b6f3eecc594f6ddda73f9aa8a09 -> 26871e18e647da5e0ffc972e90a6707e29c83d66 }
 Revert commits SHA are -> 
 af1b33433f7c8b6f3eecc594f6ddda73f9aa8a09 - revert - 26871e18e647da5e0ffc972e90a6707e29c83d66
-The reverted commit sha is - af1b33433f7c8b6f3eecc594f6ddda73f9aa8a09
+---> The reverted commit sha is - af1b33433f7c8b6f3eecc594f6ddda73f9aa8a09
 Commit message - Update Korean README to c5bbb94
-The original commit sha is - 26871e18e647da5e0ffc972e90a6707e29c83d66
+---> The original commit sha is - 26871e18e647da5e0ffc972e90a6707e29c83d66
 Commit message - Merge pull request #898 from jeremyevans/encoded-colon
 
 Correctly handle encoded colons in routes (Fixes #776)
@@ -41,13 +41,13 @@ Revert diff pair 4 is ->
 { 26cb21542b4986492467d324fbbb4de3a744e9e2 -> 34cf2da63c5779712d0cc08f87aa4cd31b2003af }
 Revert commits SHA are -> 
 26cb21542b4986492467d324fbbb4de3a744e9e2 - revert - 34cf2da63c5779712d0cc08f87aa4cd31b2003af
-The reverted commit sha is - 26cb21542b4986492467d324fbbb4de3a744e9e2
+---> The reverted commit sha is - 26cb21542b4986492467d324fbbb4de3a744e9e2
 Commit message - Escape HTML in the 404 page.
 
 There is a reflected XSS in the development mode 404 page for clients
 that don't URL-encode the request path. (I'm not aware of any major
 browsers that do this, but you can see the idea with cURL.)
-The original commit sha is - 34cf2da63c5779712d0cc08f87aa4cd31b2003af
+---> The original commit sha is - 34cf2da63c5779712d0cc08f87aa4cd31b2003af
 Commit message - Merge pull request #882 from marocchino/ko-readme
 
 Update README.ko.md
@@ -58,9 +58,9 @@ Revert diff pair 5 is ->
 { 746e17f2ac92f2fb4ab266df82bcdbc03206fa94 -> 301ec5a9209b5f6f8c5972c932eaf97c0666f7e5 }
 Revert commits SHA are -> 
 746e17f2ac92f2fb4ab266df82bcdbc03206fa94 - revert - 301ec5a9209b5f6f8c5972c932eaf97c0666f7e5
-The reverted commit sha is - 746e17f2ac92f2fb4ab266df82bcdbc03206fa94
+---> The reverted commit sha is - 746e17f2ac92f2fb4ab266df82bcdbc03206fa94
 Commit message - update item of route
-The original commit sha is - 301ec5a9209b5f6f8c5972c932eaf97c0666f7e5
+---> The original commit sha is - 301ec5a9209b5f6f8c5972c932eaf97c0666f7e5
 Commit message - Merge pull request #777 from patriciomacadden/uri_const
 
 Renamed URI constant to URI_INSTANCE
@@ -71,9 +71,9 @@ Revert diff pair 6 is ->
 { ff6bbfe7d934455e74e758c134b5f0eece369760 -> d5b8de47a7fbc32830d51d4210d3acb77f897553 }
 Revert commits SHA are -> 
 ff6bbfe7d934455e74e758c134b5f0eece369760 - revert - d5b8de47a7fbc32830d51d4210d3acb77f897553
-The reverted commit sha is - ff6bbfe7d934455e74e758c134b5f0eece369760
+---> The reverted commit sha is - ff6bbfe7d934455e74e758c134b5f0eece369760
 Commit message - Merge branch 'master' of github.com:sinatra/sinatra
-The original commit sha is - d5b8de47a7fbc32830d51d4210d3acb77f897553
+---> The original commit sha is - d5b8de47a7fbc32830d51d4210d3acb77f897553
 Commit message - Merge pull request #1 from scudelletti/self-hosted_server
 
 Simplify and Improve readability on some conditions
@@ -84,9 +84,9 @@ Revert diff pair 7 is ->
 { a913b6d7b36905a30cf3e80faa71e686cf4c803b -> bc6037326fb145407a4fbfea6b39552c11ec4353 }
 Revert commits SHA are -> 
 a913b6d7b36905a30cf3e80faa71e686cf4c803b - revert - bc6037326fb145407a4fbfea6b39552c11ec4353
-The reverted commit sha is - a913b6d7b36905a30cf3e80faa71e686cf4c803b
+---> The reverted commit sha is - a913b6d7b36905a30cf3e80faa71e686cf4c803b
 Commit message - Reorder Sinatra::Base.
-The original commit sha is - bc6037326fb145407a4fbfea6b39552c11ec4353
+---> The original commit sha is - bc6037326fb145407a4fbfea6b39552c11ec4353
 Commit message - Merge pull request #703 from viliampucik/master
 
 Fix for NameError: uninitialized constant HelpersTest::JSON
@@ -97,11 +97,11 @@ Revert diff pair 8 is ->
 { bfabbe7861f4db317b675873f38cc5e97e84655a -> 22056c54cf73025df001721ab2a15dd1b9438d83 }
 Revert commits SHA are -> 
 bfabbe7861f4db317b675873f38cc5e97e84655a - revert - 22056c54cf73025df001721ab2a15dd1b9438d83
-The reverted commit sha is - bfabbe7861f4db317b675873f38cc5e97e84655a
+---> The reverted commit sha is - bfabbe7861f4db317b675873f38cc5e97e84655a
 Commit message - move the form tag before script tag
 
 currently this demo is not working, this is because when $("form") bind "submit" event, the form tag is not in DOM yet. Need to move form before the binding.
-The original commit sha is - 22056c54cf73025df001721ab2a15dd1b9438d83
+---> The original commit sha is - 22056c54cf73025df001721ab2a15dd1b9438d83
 Commit message - Merge pull request #662 from patriciomacadden/gemfile-source
 
 Fix Gemfile source
@@ -112,9 +112,9 @@ Revert diff pair 9 is ->
 { 9f1cdabc88885adcc1c3f49710d4eb138958d1a8 -> aac16b714e8e89333e6877ec946ec0d58f3ba2b3 }
 Revert commits SHA are -> 
 9f1cdabc88885adcc1c3f49710d4eb138958d1a8 - revert - aac16b714e8e89333e6877ec946ec0d58f3ba2b3
-The reverted commit sha is - 9f1cdabc88885adcc1c3f49710d4eb138958d1a8
+---> The reverted commit sha is - 9f1cdabc88885adcc1c3f49710d4eb138958d1a8
 Commit message - test pass with rdoc 4 now
-The original commit sha is - aac16b714e8e89333e6877ec946ec0d58f3ba2b3
+---> The original commit sha is - aac16b714e8e89333e6877ec946ec0d58f3ba2b3
 Commit message - Revert "test pass with rdoc 4 now"
 
 This reverts commit 9f1cdabc88885adcc1c3f49710d4eb138958d1a8.
@@ -125,9 +125,9 @@ Revert diff pair 10 is ->
 { 11f90fd2957cf5a2b3d5c3421f28b910e58b3fd9 -> 08effab5d2f280318da2cf92603079b51c038d1a }
 Revert commits SHA are -> 
 11f90fd2957cf5a2b3d5c3421f28b910e58b3fd9 - revert - 08effab5d2f280318da2cf92603079b51c038d1a
-The reverted commit sha is - 11f90fd2957cf5a2b3d5c3421f28b910e58b3fd9
+---> The reverted commit sha is - 11f90fd2957cf5a2b3d5c3421f28b910e58b3fd9
 Commit message - Fix test failures with RDoc 4 broken by commit rdoc/rdoc@7f0033d
-The original commit sha is - 08effab5d2f280318da2cf92603079b51c038d1a
+---> The original commit sha is - 08effab5d2f280318da2cf92603079b51c038d1a
 Commit message - Merge pull request #659 from patriciomacadden/header-headers
 
 Use `headers` method instead of `header` method in `Sinatra::Response`
@@ -138,9 +138,9 @@ Revert diff pair 11 is ->
 { 80b79c89eba182e59e7e3700871a41dda4e625ea -> 17743444a8cb80b2c40f3cb9161f34c75a15d3bb }
 Revert commits SHA are -> 
 80b79c89eba182e59e7e3700871a41dda4e625ea - revert - 17743444a8cb80b2c40f3cb9161f34c75a15d3bb
-The reverted commit sha is - 80b79c89eba182e59e7e3700871a41dda4e625ea
+---> The reverted commit sha is - 80b79c89eba182e59e7e3700871a41dda4e625ea
 Commit message - stylus is not available yet in latest tilt
-The original commit sha is - 17743444a8cb80b2c40f3cb9161f34c75a15d3bb
+---> The original commit sha is - 17743444a8cb80b2c40f3cb9161f34c75a15d3bb
 Commit message - Revert "stylus is not available yet in latest tilt"
 
 This reverts commit 80b79c89eba182e59e7e3700871a41dda4e625ea.
@@ -151,9 +151,9 @@ Revert diff pair 12 is ->
 { b94089182382553c5a411e9e4a38c79d54ff188d -> 41c3f4066f9bf4c70233c7c332200155c9f5ad6c }
 Revert commits SHA are -> 
 b94089182382553c5a411e9e4a38c79d54ff188d - revert - 41c3f4066f9bf4c70233c7c332200155c9f5ad6c
-The reverted commit sha is - b94089182382553c5a411e9e4a38c79d54ff188d
+---> The reverted commit sha is - b94089182382553c5a411e9e4a38c79d54ff188d
 Commit message - typos in README.ru.md
-The original commit sha is - 41c3f4066f9bf4c70233c7c332200155c9f5ad6c
+---> The original commit sha is - 41c3f4066f9bf4c70233c7c332200155c9f5ad6c
 Commit message - Merge pull request #635 from akicho8/patch-1
 
 Update README.jp.rdoc
@@ -164,11 +164,11 @@ Revert diff pair 13 is ->
 { eed4f71f4ff5a70f43c803fa6787920e9d01218b -> d983c724b1f674e42ed9dc38b0e92f29e29c1309 }
 Revert commits SHA are -> 
 eed4f71f4ff5a70f43c803fa6787920e9d01218b - revert - d983c724b1f674e42ed9dc38b0e92f29e29c1309
-The reverted commit sha is - eed4f71f4ff5a70f43c803fa6787920e9d01218b
+---> The reverted commit sha is - eed4f71f4ff5a70f43c803fa6787920e9d01218b
 Commit message - Merge pull request #613 from sonots/no_destructive_halt
 
 Fix halt(invoke) breaks its argument
-The original commit sha is - d983c724b1f674e42ed9dc38b0e92f29e29c1309
+---> The original commit sha is - d983c724b1f674e42ed9dc38b0e92f29e29c1309
 Commit message - [FIX] Support ruby 1.8 in routing regex
 -----------------------------------------------------------------
 
@@ -177,12 +177,12 @@ Revert diff pair 14 is ->
 { f079ce18fe023ae0d2c3734429da4677c2cdd4df -> eed4f71f4ff5a70f43c803fa6787920e9d01218b }
 Revert commits SHA are -> 
 f079ce18fe023ae0d2c3734429da4677c2cdd4df - revert - eed4f71f4ff5a70f43c803fa6787920e9d01218b
-The reverted commit sha is - f079ce18fe023ae0d2c3734429da4677c2cdd4df
+---> The reverted commit sha is - f079ce18fe023ae0d2c3734429da4677c2cdd4df
 Commit message - [FIX] Make route parsing regex more robust
 
 - fixes sinatra/sinatra/#611
 - adds support for case-insensitive URL encoding
-The original commit sha is - eed4f71f4ff5a70f43c803fa6787920e9d01218b
+---> The original commit sha is - eed4f71f4ff5a70f43c803fa6787920e9d01218b
 Commit message - Merge pull request #613 from sonots/no_destructive_halt
 
 Fix halt(invoke) breaks its argument
@@ -193,11 +193,11 @@ Revert diff pair 15 is ->
 { 6a023ab3537e91556106c6cff3cada25f1c5ab42 -> 048af1dd4da5b99778c3bbb2873f2fe7a7d0a487 }
 Revert commits SHA are -> 
 6a023ab3537e91556106c6cff3cada25f1c5ab42 - revert - 048af1dd4da5b99778c3bbb2873f2fe7a7d0a487
-The reverted commit sha is - 6a023ab3537e91556106c6cff3cada25f1c5ab42
+---> The reverted commit sha is - 6a023ab3537e91556106c6cff3cada25f1c5ab42
 Commit message - added rdoc option in gemspec
 which will force utf-8 encoding irrespective of the locale
 settings of the user.
-The original commit sha is - 048af1dd4da5b99778c3bbb2873f2fe7a7d0a487
+---> The original commit sha is - 048af1dd4da5b99778c3bbb2873f2fe7a7d0a487
 Commit message - Merge pull request #547 from matschaffer/doc/after-handler
 
 Include information about :after_handler exception setting
@@ -208,9 +208,9 @@ Revert diff pair 16 is ->
 { c4529384f6c3085440f0d3b36f43128d3150addd -> c68153c991b6cc76b6e7151ac2e50e8d596f8c0d }
 Revert commits SHA are -> 
 c4529384f6c3085440f0d3b36f43128d3150addd - revert - c68153c991b6cc76b6e7151ac2e50e8d596f8c0d
-The reverted commit sha is - c4529384f6c3085440f0d3b36f43128d3150addd
+---> The reverted commit sha is - c4529384f6c3085440f0d3b36f43128d3150addd
 Commit message - Add note about disabling protection to readme.fr
-The original commit sha is - c68153c991b6cc76b6e7151ac2e50e8d596f8c0d
+---> The original commit sha is - c68153c991b6cc76b6e7151ac2e50e8d596f8c0d
 Commit message - Merge pull request #506 from snaggled/master
 
 Issue #467 Make #pass Behave as Expected in Error Blocks
@@ -221,9 +221,9 @@ Revert diff pair 17 is ->
 { 0150c0f0878a10c78ebffb3319dfb077a6b0478b -> 41365d2bd403cdd4d32f5281aea9a9f3ed5f3269 }
 Revert commits SHA are -> 
 0150c0f0878a10c78ebffb3319dfb077a6b0478b - revert - 41365d2bd403cdd4d32f5281aea9a9f3ed5f3269
-The reverted commit sha is - 0150c0f0878a10c78ebffb3319dfb077a6b0478b
+---> The reverted commit sha is - 0150c0f0878a10c78ebffb3319dfb077a6b0478b
 Commit message - allow 1.9.2 to fail with rack master on travis
-The original commit sha is - 41365d2bd403cdd4d32f5281aea9a9f3ed5f3269
+---> The original commit sha is - 41365d2bd403cdd4d32f5281aea9a9f3ed5f3269
 Commit message - Revert "allow 1.9.2 to fail with rack master on travis"
 
 This reverts commit 0150c0f0878a10c78ebffb3319dfb077a6b0478b.
@@ -234,9 +234,9 @@ Revert diff pair 18 is ->
 { d308b5797a54dbf6cf043dcdbeabf38ea0157f20 -> 80b98a22a89c4df8b83f2fc85de1b63740781157 }
 Revert commits SHA are -> 
 d308b5797a54dbf6cf043dcdbeabf38ea0157f20 - revert - 80b98a22a89c4df8b83f2fc85de1b63740781157
-The reverted commit sha is - d308b5797a54dbf6cf043dcdbeabf38ea0157f20
+---> The reverted commit sha is - d308b5797a54dbf6cf043dcdbeabf38ea0157f20
 Commit message - Merge remote-tracking branch 'upstream/master'
-The original commit sha is - 80b98a22a89c4df8b83f2fc85de1b63740781157
+---> The original commit sha is - 80b98a22a89c4df8b83f2fc85de1b63740781157
 Commit message - Merge pull request #460 from vast/ru-readme-sync-2-judgement-day
 
 README.ru.rdoc sync
@@ -247,14 +247,14 @@ Revert diff pair 19 is ->
 { 7abe19cc59d3dc6b6be160df5af7585e2c0038fc -> b3a36cfce0ec824a913f082a3efe7dae90851913 }
 Revert commits SHA are -> 
 7abe19cc59d3dc6b6be160df5af7585e2c0038fc - revert - b3a36cfce0ec824a913f082a3efe7dae90851913
-The reverted commit sha is - 7abe19cc59d3dc6b6be160df5af7585e2c0038fc
+---> The reverted commit sha is - 7abe19cc59d3dc6b6be160df5af7585e2c0038fc
 Commit message - README: show how to define helper functions in a separate `module`
 
 Developers might prefer to define helpers in a separate `module`, particularly
 for modular apps, so let's provide an example in the docs.
 
 Signed-off-by: Anurag Priyam <anurag08priyam@gmail.com>
-The original commit sha is - b3a36cfce0ec824a913f082a3efe7dae90851913
+---> The original commit sha is - b3a36cfce0ec824a913f082a3efe7dae90851913
 Commit message - Merge pull request #439 from ohhgabriel/readme-es
 
 Spanish readme updates
@@ -265,9 +265,9 @@ Revert diff pair 20 is ->
 { 0c69c7ef97b4401f92066a30bd956d6ede0b733e -> 13f619d19624a53b118e2b0c462659d5cfb478a7 }
 Revert commits SHA are -> 
 0c69c7ef97b4401f92066a30bd956d6ede0b733e - revert - 13f619d19624a53b118e2b0c462659d5cfb478a7
-The reverted commit sha is - 0c69c7ef97b4401f92066a30bd956d6ede0b733e
+---> The reverted commit sha is - 0c69c7ef97b4401f92066a30bd956d6ede0b733e
 Commit message - fix typo in readme
-The original commit sha is - 13f619d19624a53b118e2b0c462659d5cfb478a7
+---> The original commit sha is - 13f619d19624a53b118e2b0c462659d5cfb478a7
 Commit message - Merge pull request #356 from ohhgabriel/readme-es
 
 doc If-Match and If-None-Match in Spanish readme
@@ -278,9 +278,9 @@ Revert diff pair 21 is ->
 { b7b289053bde6c6193db4db26821d69edf565315 -> d03d1d994bc43a41ed2ac4e56a31f865704c00b4 }
 Revert commits SHA are -> 
 b7b289053bde6c6193db4db26821d69edf565315 - revert - d03d1d994bc43a41ed2ac4e56a31f865704c00b4
-The reverted commit sha is - b7b289053bde6c6193db4db26821d69edf565315
+---> The reverted commit sha is - b7b289053bde6c6193db4db26821d69edf565315
 Commit message - change the stream API while we still can
-The original commit sha is - d03d1d994bc43a41ed2ac4e56a31f865704c00b4
+---> The original commit sha is - d03d1d994bc43a41ed2ac4e56a31f865704c00b4
 Commit message - Merge pull request #347 from michelc/master
 
 README.fr.rdoc up to date
@@ -291,9 +291,9 @@ Revert diff pair 22 is ->
 { 962d3f549ec6b7a2adbbee8438f03b28cdf80d6f -> d17d01376d34e4fbcd292dd586567d722ba663e4 }
 Revert commits SHA are -> 
 962d3f549ec6b7a2adbbee8438f03b28cdf80d6f - revert - d17d01376d34e4fbcd292dd586567d722ba663e4
-The reverted commit sha is - 962d3f549ec6b7a2adbbee8438f03b28cdf80d6f
+---> The reverted commit sha is - 962d3f549ec6b7a2adbbee8438f03b28cdf80d6f
 Commit message - make extending Stream with mixins easier
-The original commit sha is - d17d01376d34e4fbcd292dd586567d722ba663e4
+---> The original commit sha is - d17d01376d34e4fbcd292dd586567d722ba663e4
 Commit message - Revert "make extending Stream with mixins easier"
 
 This reverts commit 962d3f549ec6b7a2adbbee8438f03b28cdf80d6f.
@@ -304,9 +304,9 @@ Revert diff pair 23 is ->
 { 0b8ac5237f75141d27adfc155e25cfcebe124a5f -> 43c06252bd7db6554eec1da26369dbc621407969 }
 Revert commits SHA are -> 
 d24946a214c7d2a8b8f59bd8d2bd9db5569e9b21 - revert - 43c06252bd7db6554eec1da26369dbc621407969
-The reverted commit sha is - d24946a214c7d2a8b8f59bd8d2bd9db5569e9b21
+---> The reverted commit sha is - d24946a214c7d2a8b8f59bd8d2bd9db5569e9b21
 Commit message - dont run c exts on jruby on travis
-The original commit sha is - 43c06252bd7db6554eec1da26369dbc621407969
+---> The original commit sha is - 43c06252bd7db6554eec1da26369dbc621407969
 Commit message - Revert "dont run c exts on jruby on travis"
 
 This reverts commit d24946a214c7d2a8b8f59bd8d2bd9db5569e9b21.
@@ -317,9 +317,9 @@ Revert diff pair 24 is ->
 { 2ca798a1946976ee786be6baf7d6ea4ad320a72a -> f52bf463e594d6668e48da3f12ee49134dd6db10 }
 Revert commits SHA are -> 
 2ca798a1946976ee786be6baf7d6ea4ad320a72a - revert - f52bf463e594d6668e48da3f12ee49134dd6db10
-The reverted commit sha is - 2ca798a1946976ee786be6baf7d6ea4ad320a72a
+---> The reverted commit sha is - 2ca798a1946976ee786be6baf7d6ea4ad320a72a
 Commit message - remove unused argument
-The original commit sha is - f52bf463e594d6668e48da3f12ee49134dd6db10
+---> The original commit sha is - f52bf463e594d6668e48da3f12ee49134dd6db10
 Commit message - Merge remote-tracking branch 'upstream/master'
 -----------------------------------------------------------------
 
@@ -328,9 +328,9 @@ Revert diff pair 25 is ->
 { 7ce7dc9fce8f6b00009cc3c561c6aa6bf8b15c4d -> 48cfb81fdb52ef554023dad016537bc98ef3d8b8 }
 Revert commits SHA are -> 
 7ce7dc9fce8f6b00009cc3c561c6aa6bf8b15c4d - revert - 48cfb81fdb52ef554023dad016537bc98ef3d8b8
-The reverted commit sha is - 7ce7dc9fce8f6b00009cc3c561c6aa6bf8b15c4d
+---> The reverted commit sha is - 7ce7dc9fce8f6b00009cc3c561c6aa6bf8b15c4d
 Commit message - Use a 'real' bogus number string for the Time parsing error test. mktime() on different OSs disagree about the invalidity of "1000" as a time
-The original commit sha is - 48cfb81fdb52ef554023dad016537bc98ef3d8b8
+---> The original commit sha is - 48cfb81fdb52ef554023dad016537bc98ef3d8b8
 Commit message - Merge pull request #290 from burningTyger/readme_de
 
 update German README
@@ -341,9 +341,9 @@ Revert diff pair 26 is ->
 { f4efd432c0ac8174ffc736f60c1ba07e2d2716ec -> aed0132a908fc39d0853e1353c1447683e6ccbc2 }
 Revert commits SHA are -> 
 f4efd432c0ac8174ffc736f60c1ba07e2d2716ec - revert - aed0132a908fc39d0853e1353c1447683e6ccbc2
-The reverted commit sha is - f4efd432c0ac8174ffc736f60c1ba07e2d2716ec
+---> The reverted commit sha is - f4efd432c0ac8174ffc736f60c1ba07e2d2716ec
 Commit message - fix copy/paste error in readme
-The original commit sha is - aed0132a908fc39d0853e1353c1447683e6ccbc2
+---> The original commit sha is - aed0132a908fc39d0853e1353c1447683e6ccbc2
 Commit message - Merge pull request #278 from ohhgabriel/es-readme
 
 Spanish readme sync
@@ -354,9 +354,9 @@ Revert diff pair 27 is ->
 { def6fb5a34cbd5ab24fdceb2b9a5cdecfaa473c3 -> e9a8163ed231cf6cadf297ec6aefffb78c9246c0 }
 Revert commits SHA are -> 
 782f7df63ccff7ed02ec1569001dfb1ddf0ce19f - revert - e9a8163ed231cf6cadf297ec6aefffb78c9246c0
-The reverted commit sha is - 782f7df63ccff7ed02ec1569001dfb1ddf0ce19f
+---> The reverted commit sha is - 782f7df63ccff7ed02ec1569001dfb1ddf0ce19f
 Commit message - make 1.8.6 drop appear less dramatic in CHANGES
-The original commit sha is - e9a8163ed231cf6cadf297ec6aefffb78c9246c0
+---> The original commit sha is - e9a8163ed231cf6cadf297ec6aefffb78c9246c0
 Commit message - update changes
 -----------------------------------------------------------------
 
@@ -365,9 +365,9 @@ Revert diff pair 28 is ->
 { 6f33e1b41eb82be3f5f53b221d9ccdeeaa5bffaa -> def6fb5a34cbd5ab24fdceb2b9a5cdecfaa473c3 }
 Revert commits SHA are -> 
 d0df5fb4ad0a13d6a06b418388a4f5059c22103c - revert - def6fb5a34cbd5ab24fdceb2b9a5cdecfaa473c3
-The reverted commit sha is - d0df5fb4ad0a13d6a06b418388a4f5059c22103c
+---> The reverted commit sha is - d0df5fb4ad0a13d6a06b418388a4f5059c22103c
 Commit message - rack.sessions.options no longer contains :secret in 1.3
-The original commit sha is - def6fb5a34cbd5ab24fdceb2b9a5cdecfaa473c3
+---> The original commit sha is - def6fb5a34cbd5ab24fdceb2b9a5cdecfaa473c3
 Commit message - Revert "rack.sessions.options no longer contains :secret in 1.3"
 This issue has been fixed in Rack
 
@@ -379,9 +379,9 @@ Revert diff pair 29 is ->
 { d44bfa496eeb65cc786bb4cc9c2da12c0ef1137c -> 871a73ae62500e242769345019a9b34709427913 }
 Revert commits SHA are -> 
 a84d3aa8e6a1cf75bab8d8602288ef90c3091858 - revert - 871a73ae62500e242769345019a9b34709427913
-The reverted commit sha is - a84d3aa8e6a1cf75bab8d8602288ef90c3091858
+---> The reverted commit sha is - a84d3aa8e6a1cf75bab8d8602288ef90c3091858
 Commit message - add hint on how to run on 1.8.6
-The original commit sha is - 871a73ae62500e242769345019a9b34709427913
+---> The original commit sha is - 871a73ae62500e242769345019a9b34709427913
 Commit message - don't recommend using 1.8.6 with backports
 -----------------------------------------------------------------
 
@@ -390,9 +390,9 @@ Revert diff pair 30 is ->
 { 6d9d28215ca0b67f35dd2dfca5c8e9dd9d433331 -> da5e3333be6a29169e97633d19eb9a3689ca1156 }
 Revert commits SHA are -> 
 c0eb84faa60671074871e3e7241465738ac9bcb0 - revert - da5e3333be6a29169e97633d19eb9a3689ca1156
-The reverted commit sha is - c0eb84faa60671074871e3e7241465738ac9bcb0
+---> The reverted commit sha is - c0eb84faa60671074871e3e7241465738ac9bcb0
 Commit message - use status code 303 for redirects
-The original commit sha is - da5e3333be6a29169e97633d19eb9a3689ca1156
+---> The original commit sha is - da5e3333be6a29169e97633d19eb9a3689ca1156
 Commit message - Revert "use status code 303 for redirects"
 
 This reverts commit c0eb84faa60671074871e3e7241465738ac9bcb0.
@@ -403,9 +403,9 @@ Revert diff pair 31 is ->
 { 398d7c38d39d854aceaa3160b71d12c5966532e9 -> e801b5aab5227a887175b5d4431223bd3e3c5b6c }
 Revert commits SHA are -> 
 0dd5749d8ef4144b5f779a1a197b6bfe300acdc4 - revert - e801b5aab5227a887175b5d4431223bd3e3c5b6c
-The reverted commit sha is - 0dd5749d8ef4144b5f779a1a197b6bfe300acdc4
+---> The reverted commit sha is - 0dd5749d8ef4144b5f779a1a197b6bfe300acdc4
 Commit message - Avoid segfault on 1.9.2p0 when running all tests together. Fixes GH #52.
-The original commit sha is - e801b5aab5227a887175b5d4431223bd3e3c5b6c
+---> The original commit sha is - e801b5aab5227a887175b5d4431223bd3e3c5b6c
 Commit message - remove special treatment for 1.9.2-p0 from Rakefile
 -----------------------------------------------------------------
 
@@ -414,9 +414,9 @@ Revert diff pair 32 is ->
 { 78bb1d9c6a97efb63e10c02bd756f05e34bf1199 -> 753d4b31c899d9114c0510e0a7f9fe0c73c66888 }
 Revert commits SHA are -> 
 95e7e885bffa398393ccbd41156cdceeced6e531 - revert - 753d4b31c899d9114c0510e0a7f9fe0c73c66888
-The reverted commit sha is - 95e7e885bffa398393ccbd41156cdceeced6e531
+---> The reverted commit sha is - 95e7e885bffa398393ccbd41156cdceeced6e531
 Commit message - enable compiled templates (ERB, Erubis, Builder, and Haml)
-The original commit sha is - 753d4b31c899d9114c0510e0a7f9fe0c73c66888
+---> The original commit sha is - 753d4b31c899d9114c0510e0a7f9fe0c73c66888
 Commit message - Tilt::CompileSite is deprecated, no longer use it.
 
 Warning: This means current master will render slower with Tilt 1.1. Please use Tilt master or wait for the next Tilt release.
@@ -430,9 +430,9 @@ Revert diff pair 33 is ->
 { 799a956fcd4e7df7bba77ba6d852293b08a787ff -> 4d7d3636afe2689d8ed5e7ea8f976441cf99d2e3 }
 Revert commits SHA are -> 
 3ac8cb76da7f91dc93eb533c1b063592cb80f2b9 - revert - 4d7d3636afe2689d8ed5e7ea8f976441cf99d2e3
-The reverted commit sha is - 3ac8cb76da7f91dc93eb533c1b063592cb80f2b9
+---> The reverted commit sha is - 3ac8cb76da7f91dc93eb533c1b063592cb80f2b9
 Commit message - remove erubis test (let tilt handle this)
-The original commit sha is - 4d7d3636afe2689d8ed5e7ea8f976441cf99d2e3
+---> The original commit sha is - 4d7d3636afe2689d8ed5e7ea8f976441cf99d2e3
 Commit message - Revert "remove erubis test (let tilt handle this)"
 
 This reverts commit 3ac8cb76da7f91dc93eb533c1b063592cb80f2b9.
@@ -448,9 +448,9 @@ Revert diff pair 34 is ->
 { 01b5f659698f776a4cb8fe483bc6926bc65feef9 -> 0067232e1f75c02b9ea51bba2ca5e5fb3b7ae070 }
 Revert commits SHA are -> 
 056bd7bb770884d064c4a94e23cd16d38b11c474 - revert - 0067232e1f75c02b9ea51bba2ca5e5fb3b7ae070
-The reverted commit sha is - 056bd7bb770884d064c4a94e23cd16d38b11c474
+---> The reverted commit sha is - 056bd7bb770884d064c4a94e23cd16d38b11c474
 Commit message - closes #308 - Depricate use_in_file_templates! in favor of slurp_file_templates
-The original commit sha is - 0067232e1f75c02b9ea51bba2ca5e5fb3b7ae070
+---> The original commit sha is - 0067232e1f75c02b9ea51bba2ca5e5fb3b7ae070
 Commit message - Revert "closes #308 - Depricate use_in_file_templates! in favor of slurp_file_templates"
 
 This reverts commit 056bd7bb770884d064c4a94e23cd16d38b11c474.
@@ -461,9 +461,9 @@ Revert diff pair 35 is ->
 { df804c7bf41c4a74fa8d6ca69b7e505ce107062c -> a9329421f9f1b07e94ce2d71fe4ad211396b67d2 }
 Revert commits SHA are -> 
 df804c7bf41c4a74fa8d6ca69b7e505ce107062c - revert - a9329421f9f1b07e94ce2d71fe4ad211396b67d2
-The reverted commit sha is - df804c7bf41c4a74fa8d6ca69b7e505ce107062c
+---> The reverted commit sha is - df804c7bf41c4a74fa8d6ca69b7e505ce107062c
 Commit message - Attempting CNAME support for sinatrarb.com
-The original commit sha is - a9329421f9f1b07e94ce2d71fe4ad211396b67d2
+---> The original commit sha is - a9329421f9f1b07e94ce2d71fe4ad211396b67d2
 Commit message - Opps.  Wrong repo.  Reverting.
 -----------------------------------------------------------------
 
@@ -472,13 +472,13 @@ Revert diff pair 36 is ->
 { 47428988795c895bc0bf21eff16c21d59f1ab065 -> 88afbb4ea99972d6771a682a2f9d0027301e2773 }
 Revert commits SHA are -> 
 b26df9ae95cacb6fb84842bd8ee5895809330ca2 - revert - 88afbb4ea99972d6771a682a2f9d0027301e2773
-The reverted commit sha is - b26df9ae95cacb6fb84842bd8ee5895809330ca2
+---> The reverted commit sha is - b26df9ae95cacb6fb84842bd8ee5895809330ca2
 Commit message - Use the default layout when calling :layout => true
 
 This helps to write things like:
 
   haml :template, :layout => !request.xhr?
-The original commit sha is - 88afbb4ea99972d6771a682a2f9d0027301e2773
+---> The original commit sha is - 88afbb4ea99972d6771a682a2f9d0027301e2773
 Commit message - Merge with bmizerany/master ...
 
 We need to get a canonical repo. We both applied the same set of
@@ -490,9 +490,9 @@ Revert diff pair 37 is ->
 { 703462304c01868b1c80018a2d60b5e83a099c17 -> 91d453f33b241cc160231e499c482bacbfffa131 }
 Revert commits SHA are -> 
 703462304c01868b1c80018a2d60b5e83a099c17 - revert - 91d453f33b241cc160231e499c482bacbfffa131
-The reverted commit sha is - 703462304c01868b1c80018a2d60b5e83a099c17
+---> The reverted commit sha is - 703462304c01868b1c80018a2d60b5e83a099c17
 Commit message - FIX:  use_in_file_templates should split on __END__
-The original commit sha is - 91d453f33b241cc160231e499c482bacbfffa131
+---> The original commit sha is - 91d453f33b241cc160231e499c482bacbfffa131
 Commit message - merge bmizerany/master
 -----------------------------------------------------------------
 
@@ -501,9 +501,9 @@ Revert diff pair 38 is ->
 { dc6e32a5cea29e9055463f6eff84f2b829a19c1c -> ea3239c88f8a85f82cc891589bc6ad1c339719e8 }
 Revert commits SHA are -> 
 f2733e8785b8b943f4114d4a8ff25b5ef632a1ff - revert - ea3239c88f8a85f82cc891589bc6ad1c339719e8
-The reverted commit sha is - f2733e8785b8b943f4114d4a8ff25b5ef632a1ff
+---> The reverted commit sha is - f2733e8785b8b943f4114d4a8ff25b5ef632a1ff
 Commit message - Add :locals option for erb.  General approach and some of the code was borrowed from rails (compilable.rb)
-The original commit sha is - ea3239c88f8a85f82cc891589bc6ad1c339719e8
+---> The original commit sha is - ea3239c88f8a85f82cc891589bc6ad1c339719e8
 Commit message - Merge branch 'erb_locals' of git://github.com/cschneid/sinatra into cschneid/erb_locals
 -----------------------------------------------------------------
 
@@ -512,9 +512,9 @@ Revert diff pair 39 is ->
 { dc6e32a5cea29e9055463f6eff84f2b829a19c1c -> ea3239c88f8a85f82cc891589bc6ad1c339719e8 }
 Revert commits SHA are -> 
 dc6e32a5cea29e9055463f6eff84f2b829a19c1c - revert - ea3239c88f8a85f82cc891589bc6ad1c339719e8
-The reverted commit sha is - dc6e32a5cea29e9055463f6eff84f2b829a19c1c
+---> The reverted commit sha is - dc6e32a5cea29e9055463f6eff84f2b829a19c1c
 Commit message - Add :locals option for erb.  General approach and some of the code was borrowed from rails (compilable.rb)
-The original commit sha is - ea3239c88f8a85f82cc891589bc6ad1c339719e8
+---> The original commit sha is - ea3239c88f8a85f82cc891589bc6ad1c339719e8
 Commit message - Merge branch 'erb_locals' of git://github.com/cschneid/sinatra into cschneid/erb_locals
 -----------------------------------------------------------------
 
@@ -523,9 +523,9 @@ Revert diff pair 40 is ->
 { 6785a05d5388052981863246756711ba447b3485 -> dc6e32a5cea29e9055463f6eff84f2b829a19c1c }
 Revert commits SHA are -> 
 6785a05d5388052981863246756711ba447b3485 - revert - dc6e32a5cea29e9055463f6eff84f2b829a19c1c
-The reverted commit sha is - 6785a05d5388052981863246756711ba447b3485
+---> The reverted commit sha is - 6785a05d5388052981863246756711ba447b3485
 Commit message - Merge branch 'master' of git://github.com/cschneid/sinatra into cschneid/master
-The original commit sha is - dc6e32a5cea29e9055463f6eff84f2b829a19c1c
+---> The original commit sha is - dc6e32a5cea29e9055463f6eff84f2b829a19c1c
 Commit message - Add :locals option for erb.  General approach and some of the code was borrowed from rails (compilable.rb)
 -----------------------------------------------------------------
 
@@ -534,9 +534,9 @@ Revert diff pair 41 is ->
 { f2733e8785b8b943f4114d4a8ff25b5ef632a1ff -> 6785a05d5388052981863246756711ba447b3485 }
 Revert commits SHA are -> 
 f2733e8785b8b943f4114d4a8ff25b5ef632a1ff - revert - 6785a05d5388052981863246756711ba447b3485
-The reverted commit sha is - f2733e8785b8b943f4114d4a8ff25b5ef632a1ff
+---> The reverted commit sha is - f2733e8785b8b943f4114d4a8ff25b5ef632a1ff
 Commit message - Add :locals option for erb.  General approach and some of the code was borrowed from rails (compilable.rb)
-The original commit sha is - 6785a05d5388052981863246756711ba447b3485
+---> The original commit sha is - 6785a05d5388052981863246756711ba447b3485
 Commit message - Merge branch 'master' of git://github.com/cschneid/sinatra into cschneid/master
 -----------------------------------------------------------------
 
@@ -545,9 +545,9 @@ Revert diff pair 42 is ->
 { f71330e6598bba00bb26735a6077cda00f3f7ef4 -> 08b1452a3762a1e7f443352c78f6e3d373cea1d4 }
 Revert commits SHA are -> 
 5e56613a3256ed8485e7063280ec9410e7151197 - revert - 08b1452a3762a1e7f443352c78f6e3d373cea1d4
-The reverted commit sha is - 5e56613a3256ed8485e7063280ec9410e7151197
+---> The reverted commit sha is - 5e56613a3256ed8485e7063280ec9410e7151197
 Commit message - Merge commit 'source/master'
-The original commit sha is - 08b1452a3762a1e7f443352c78f6e3d373cea1d4
+---> The original commit sha is - 08b1452a3762a1e7f443352c78f6e3d373cea1d4
 Commit message - getting ready for 0.2.3
 -----------------------------------------------------------------
 
@@ -556,9 +556,9 @@ Revert diff pair 43 is ->
 { d2e256a957c6f3ddb65a004c5759f54e74240272 -> 5e56613a3256ed8485e7063280ec9410e7151197 }
 Revert commits SHA are -> 
 d2e256a957c6f3ddb65a004c5759f54e74240272 - revert - 5e56613a3256ed8485e7063280ec9410e7151197
-The reverted commit sha is - d2e256a957c6f3ddb65a004c5759f54e74240272
+---> The reverted commit sha is - d2e256a957c6f3ddb65a004c5759f54e74240272
 Commit message - getting ready for 0.2.3
-The original commit sha is - 5e56613a3256ed8485e7063280ec9410e7151197
+---> The original commit sha is - 5e56613a3256ed8485e7063280ec9410e7151197
 Commit message - Merge commit 'source/master'
 -----------------------------------------------------------------
 
@@ -567,9 +567,9 @@ Revert diff pair 44 is ->
 { f9e6b88504aa30d4aecb80f7ac8e300afeffd6da -> 540aa5faed8d9918f2056092a4b6466c6dffcc74 }
 Revert commits SHA are -> 
 f9e6b88504aa30d4aecb80f7ac8e300afeffd6da - revert - 540aa5faed8d9918f2056092a4b6466c6dffcc74
-The reverted commit sha is - f9e6b88504aa30d4aecb80f7ac8e300afeffd6da
+---> The reverted commit sha is - f9e6b88504aa30d4aecb80f7ac8e300afeffd6da
 Commit message - refactored content_type to use to_params
-The original commit sha is - 540aa5faed8d9918f2056092a4b6466c6dffcc74
+---> The original commit sha is - 540aa5faed8d9918f2056092a4b6466c6dffcc74
 Commit message - Revert "refactored content_type to use to_params"
 
 This reverts commit f9e6b88504aa30d4aecb80f7ac8e300afeffd6da.

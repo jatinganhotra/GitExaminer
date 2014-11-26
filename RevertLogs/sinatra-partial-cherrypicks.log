@@ -1,0 +1,2557 @@
+# of partial cherrypicks = 151
+Partial Cherry-pick diff pair 1 is -> 
+{ 0948ef2bb85d746f8d5d2aa2e8bcd627115e738e -> 26cb21542b4986492467d324fbbb4de3a744e9e2 } is a cherrypick
+{ f7cda5d47e7a6c499315a32489b762f6151b6100 -> 4e92d604be5269b1d6527a6093f112d10b5b9d7f }
+Partial Cherry-pick commits SHA are -> 
+26cb21542b4986492467d324fbbb4de3a744e9e2 - cherrypick - 4e92d604be5269b1d6527a6093f112d10b5b9d7f
+---> The cherrypicked commit sha is - 26cb21542b4986492467d324fbbb4de3a744e9e2
+Commit message - Escape HTML in the 404 page.
+
+There is a reflected XSS in the development mode 404 page for clients
+that don't URL-encode the request path. (I'm not aware of any major
+browsers that do this, but you can see the idea with cURL.)
+---> The original commit sha is - 4e92d604be5269b1d6527a6093f112d10b5b9d7f
+Commit message - Merge pull request #883 from ab/404-xss
+
+Potential for reflected XSS in development mode 404 page
+---> The files with partial_cherrypicks are:-
+lib/sinatra/base.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ db751b059b4bb14842ad71cb67a1f1c91200c5fe -> bd8e07fe26fa3c9c83169b7e7ff28d21308d0f2d } is a cherrypick
+{ a43ba2c65a79bf58adc1291b0079ea889310e072 -> 28af01e6af721c102b9d6d8abb39f4708a97d808 }
+Partial Cherry-pick commits SHA are -> 
+bd8e07fe26fa3c9c83169b7e7ff28d21308d0f2d - cherrypick - 28af01e6af721c102b9d6d8abb39f4708a97d808
+---> The cherrypicked commit sha is - bd8e07fe26fa3c9c83169b7e7ff28d21308d0f2d
+Commit message - Correctly handle encoded colons in routes (Fixes #776)
+
+This uses a negative lookahead assertion to ensure the colon is
+not followed by a character that will make it a key.  In that
+case, it should be treated as a literal colon, and handled similar
+to other literal special characters.
+---> The original commit sha is - 28af01e6af721c102b9d6d8abb39f4708a97d808
+Commit message - Revert "Added PROPFIND verb support"
+---> The files with partial_cherrypicks are:-
+test/delegator_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 268de1cf998bad8e852cac394178ea10091a8c70 -> b39d72d2a5b824b5f607b7825c4b076f527461a1 } is a cherrypick
+{ 68c237d0c89077d0ae0f74942b7838cbbe898a9a -> a43ba2c65a79bf58adc1291b0079ea889310e072 }
+Partial Cherry-pick commits SHA are -> 
+b39d72d2a5b824b5f607b7825c4b076f527461a1 - cherrypick - a43ba2c65a79bf58adc1291b0079ea889310e072
+---> The cherrypicked commit sha is - b39d72d2a5b824b5f607b7825c4b076f527461a1
+Commit message - Update ShowExceptions to suit latest rack master
+
+* Post 893a2c50 in rack/rack, the #pretty method used while generating
+  the HTML error markup, implemented in Rack::ShowExceptions, returns a
+  String instead of an Array. This change uses Array() to
+  convert the exception string in both plain text and HTML modes
+  to an array.
+---> The original commit sha is - a43ba2c65a79bf58adc1291b0079ea889310e072
+Commit message - Merge pull request #907 from kgrz/fix-error-with-rack-master
+
+Update ShowExceptions to suit latest rack master
+---> The files with partial_cherrypicks are:-
+lib/sinatra/show_exceptions.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ bd8e07fe26fa3c9c83169b7e7ff28d21308d0f2d -> af1b33433f7c8b6f3eecc594f6ddda73f9aa8a09 } is a cherrypick
+{ 26871e18e647da5e0ffc972e90a6707e29c83d66 -> cba429127ede7723b042d119df15651d4edfefd2 }
+Partial Cherry-pick commits SHA are -> 
+af1b33433f7c8b6f3eecc594f6ddda73f9aa8a09 - cherrypick - cba429127ede7723b042d119df15651d4edfefd2
+---> The cherrypicked commit sha is - af1b33433f7c8b6f3eecc594f6ddda73f9aa8a09
+Commit message - Update Korean README to c5bbb94
+---> The original commit sha is - cba429127ede7723b042d119df15651d4edfefd2
+Commit message - Merge pull request #899 from marocchino/ko-update
+
+Update Korean README
+---> The files with partial_cherrypicks are:-
+README.ko.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ d9993a1fd66541d19b83c7a87f676da1014093df -> 052d91d909b8ea6ea80c6d4e58e8336777e91398 } is a cherrypick
+{ 94f3645f9bc5250638159c706271c9b3df7d9006 -> a78eae18f9af30a0b91690ccb479045d5d773641 }
+Partial Cherry-pick commits SHA are -> 
+052d91d909b8ea6ea80c6d4e58e8336777e91398 - cherrypick - a78eae18f9af30a0b91690ccb479045d5d773641
+---> The cherrypicked commit sha is - 052d91d909b8ea6ea80c6d4e58e8336777e91398
+Commit message - Fix korean markdown
+---> The original commit sha is - a78eae18f9af30a0b91690ccb479045d5d773641
+Commit message - Merge pull request #842 from marocchino/fix-ko-md
+
+Fix formatting in README.ko.md
+---> The files with partial_cherrypicks are:-
+README.ko.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 2ebae3bc88aa981f4ace175817599024ad8b03df -> 954d813f94cdeaccbb229e5c1cb7f9ec0912e8bc } is a cherrypick
+{ 74b9e91ea60e08747acaf95edbe5fc9f9b5f30ed -> 94f3645f9bc5250638159c706271c9b3df7d9006 }
+Partial Cherry-pick commits SHA are -> 
+954d813f94cdeaccbb229e5c1cb7f9ec0912e8bc - cherrypick - 94f3645f9bc5250638159c706271c9b3df7d9006
+---> The cherrypicked commit sha is - 954d813f94cdeaccbb229e5c1cb7f9ec0912e8bc
+Commit message - Quelch all warnings from static test.
+---> The original commit sha is - 94f3645f9bc5250638159c706271c9b3df7d9006
+Commit message - Merge pull request #855 from vipulnsward/static-test-warnings
+
+Quelch all warnings from static test.
+---> The files with partial_cherrypicks are:-
+test/static_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ 8fb79acb99e11a0ff316bab6a4a7b8e4f3d44117 -> d941e0dd99c2eaa0f613fcd9d210fcb9422503ee } is a cherrypick
+{ a350162309ede56094773c3fdf2525f4c891c36f -> 525319baa385768c27486b3f5411f6ca908ba04f }
+Partial Cherry-pick commits SHA are -> 
+d941e0dd99c2eaa0f613fcd9d210fcb9422503ee - cherrypick - 525319baa385768c27486b3f5411f6ca908ba04f
+---> The cherrypicked commit sha is - d941e0dd99c2eaa0f613fcd9d210fcb9422503ee
+Commit message - :traps option described in README
+---> The original commit sha is - 525319baa385768c27486b3f5411f6ca908ba04f
+Commit message - Merge pull request #791 from somu/readme-traps
+
+:traps option in README
+---> The files with partial_cherrypicks are:-
+README.md
+README.ru.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ b09f70f66a0b3451ccf081a574d72450c9107b21 -> 7be39a7a52872e8c59584a5b98e4f2951353d0b8 } is a cherrypick
+{ 18b836181093b064d903e22cdc91626a14271979 -> baae68142026a6e963c9e4a66be73d767bcb88d0 }
+Partial Cherry-pick commits SHA are -> 
+7be39a7a52872e8c59584a5b98e4f2951353d0b8 - cherrypick - baae68142026a6e963c9e4a66be73d767bcb88d0
+---> The cherrypicked commit sha is - 7be39a7a52872e8c59584a5b98e4f2951353d0b8
+Commit message - MediaWiki template support via WikiCloth
+---> The original commit sha is - baae68142026a6e963c9e4a66be73d767bcb88d0
+Commit message - Merge branch 'mediawiki-support' of https://github.com/somu/sinatra
+
+Conflicts:
+	Gemfile
+---> The files with partial_cherrypicks are:-
+test/views/hello.mediawiki
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ f175d8f3f48062806b6e1388592e5bc0c5e661b5 -> 6e14dd0a5b4c857670a8736bc075073cd396c60b } is a cherrypick
+{ b8dc75d7609e162f42c0033fddae227ef27fd7da -> 18b836181093b064d903e22cdc91626a14271979 }
+Partial Cherry-pick commits SHA are -> 
+6e14dd0a5b4c857670a8736bc075073cd396c60b - cherrypick - 18b836181093b064d903e22cdc91626a14271979
+---> The cherrypicked commit sha is - 6e14dd0a5b4c857670a8736bc075073cd396c60b
+Commit message - Added link|unlink & fixed typo in README.ru.md
+---> The original commit sha is - 18b836181093b064d903e22cdc91626a14271979
+Commit message - Merge pull request #828 from Wolg/patch-3
+
+Added link|unlink & fixed typo in README.ru.md
+---> The files with partial_cherrypicks are:-
+README.ru.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ cdfb70ee9f12d82b96941cb85e64140806cd8dfb -> d9993a1fd66541d19b83c7a87f676da1014093df } is a cherrypick
+{ e2c5f6ee2e183b73216fef52701b91df2ca62388 -> 17665fb897bcfc84bd85cff4f5b1d643514a2e8d }
+Partial Cherry-pick commits SHA are -> 
+d9993a1fd66541d19b83c7a87f676da1014093df - cherrypick - 17665fb897bcfc84bd85cff4f5b1d643514a2e8d
+---> The cherrypicked commit sha is - d9993a1fd66541d19b83c7a87f676da1014093df
+Commit message - fix translation
+---> The original commit sha is - 17665fb897bcfc84bd85cff4f5b1d643514a2e8d
+Commit message - Merge pull request #837 from melborne/fix-readme-ja
+
+fix translation
+---> The files with partial_cherrypicks are:-
+README.ja.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 31d640a5b302e5632035781ee831ff980790daa3 -> 280bbdc1492223b5398cbac58a4d638b505dab86 } is a cherrypick
+{ 504bdad5caeaee9058ea6a59ff5932b959aff4e2 -> e2c5f6ee2e183b73216fef52701b91df2ca62388 }
+Partial Cherry-pick commits SHA are -> 
+280bbdc1492223b5398cbac58a4d638b505dab86 - cherrypick - e2c5f6ee2e183b73216fef52701b91df2ca62388
+---> The cherrypicked commit sha is - 280bbdc1492223b5398cbac58a4d638b505dab86
+Commit message - add README.ko.rdoc for Korean translation
+---> The original commit sha is - e2c5f6ee2e183b73216fef52701b91df2ca62388
+Commit message - Merge pull request #845 from vipulnsward/sass-2-1
+
+Sass works on ruby 2.1. Enable back tests against it.
+---> The files with partial_cherrypicks are:-
+test/sass_test.rb
+test/scss_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 045ba4e1f6fbaf41ca0e8f38b12ad4453c750e65 -> 0d0a01c590a5ed4a2fbf63bc24358d8851c259de } is a cherrypick
+{ 504bdad5caeaee9058ea6a59ff5932b959aff4e2 -> e2c5f6ee2e183b73216fef52701b91df2ca62388 }
+Partial Cherry-pick commits SHA are -> 
+0d0a01c590a5ed4a2fbf63bc24358d8851c259de - cherrypick - e2c5f6ee2e183b73216fef52701b91df2ca62388
+---> The cherrypicked commit sha is - 0d0a01c590a5ed4a2fbf63bc24358d8851c259de
+Commit message - Modified showexceptions.rb to obey HTTP ACCEPT handlers
+---> The original commit sha is - e2c5f6ee2e183b73216fef52701b91df2ca62388
+Commit message - Merge pull request #845 from vipulnsward/sass-2-1
+
+Sass works on ruby 2.1. Enable back tests against it.
+---> The files with partial_cherrypicks are:-
+test/sass_test.rb
+test/scss_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 30942e4dd8f01a38435e089997845a05adb13624 -> bf9c3a5155271fe67240f278b4fd2fe68b7ccf57 } is a cherrypick
+{ 504bdad5caeaee9058ea6a59ff5932b959aff4e2 -> e2c5f6ee2e183b73216fef52701b91df2ca62388 }
+Partial Cherry-pick commits SHA are -> 
+bf9c3a5155271fe67240f278b4fd2fe68b7ccf57 - cherrypick - e2c5f6ee2e183b73216fef52701b91df2ca62388
+---> The cherrypicked commit sha is - bf9c3a5155271fe67240f278b4fd2fe68b7ccf57
+Commit message - adding version mismatch attention message
+---> The original commit sha is - e2c5f6ee2e183b73216fef52701b91df2ca62388
+Commit message - Merge pull request #845 from vipulnsward/sass-2-1
+
+Sass works on ruby 2.1. Enable back tests against it.
+---> The files with partial_cherrypicks are:-
+test/sass_test.rb
+test/scss_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 31d640a5b302e5632035781ee831ff980790daa3 -> 280bbdc1492223b5398cbac58a4d638b505dab86 } is a cherrypick
+{ 980244651b40627b587e8189ea44c2e183529f01 -> 46743ffcabc283377470cbb5fa8cce5d313f0332 }
+Partial Cherry-pick commits SHA are -> 
+280bbdc1492223b5398cbac58a4d638b505dab86 - cherrypick - 46743ffcabc283377470cbb5fa8cce5d313f0332
+---> The cherrypicked commit sha is - 280bbdc1492223b5398cbac58a4d638b505dab86
+Commit message - add README.ko.rdoc for Korean translation
+---> The original commit sha is - 46743ffcabc283377470cbb5fa8cce5d313f0332
+Commit message - Sass works on ruby 2.1. Enable back tests against it.
+---> The files with partial_cherrypicks are:-
+test/sass_test.rb
+test/scss_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ 045ba4e1f6fbaf41ca0e8f38b12ad4453c750e65 -> 0d0a01c590a5ed4a2fbf63bc24358d8851c259de } is a cherrypick
+{ 980244651b40627b587e8189ea44c2e183529f01 -> 46743ffcabc283377470cbb5fa8cce5d313f0332 }
+Partial Cherry-pick commits SHA are -> 
+0d0a01c590a5ed4a2fbf63bc24358d8851c259de - cherrypick - 46743ffcabc283377470cbb5fa8cce5d313f0332
+---> The cherrypicked commit sha is - 0d0a01c590a5ed4a2fbf63bc24358d8851c259de
+Commit message - Modified showexceptions.rb to obey HTTP ACCEPT handlers
+---> The original commit sha is - 46743ffcabc283377470cbb5fa8cce5d313f0332
+Commit message - Sass works on ruby 2.1. Enable back tests against it.
+---> The files with partial_cherrypicks are:-
+test/sass_test.rb
+test/scss_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ 30942e4dd8f01a38435e089997845a05adb13624 -> bf9c3a5155271fe67240f278b4fd2fe68b7ccf57 } is a cherrypick
+{ 980244651b40627b587e8189ea44c2e183529f01 -> 46743ffcabc283377470cbb5fa8cce5d313f0332 }
+Partial Cherry-pick commits SHA are -> 
+bf9c3a5155271fe67240f278b4fd2fe68b7ccf57 - cherrypick - 46743ffcabc283377470cbb5fa8cce5d313f0332
+---> The cherrypicked commit sha is - bf9c3a5155271fe67240f278b4fd2fe68b7ccf57
+Commit message - adding version mismatch attention message
+---> The original commit sha is - 46743ffcabc283377470cbb5fa8cce5d313f0332
+Commit message - Sass works on ruby 2.1. Enable back tests against it.
+---> The files with partial_cherrypicks are:-
+test/sass_test.rb
+test/scss_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ 8b01c934c0cad648719d3cb6c4dda6d588671a0a -> 681a57747604100b6c44be9385cfdd74fae48786 } is a cherrypick
+{ 94626e1f7c5e2899c0c3fec2a2c9c44b23b454b2 -> 184fe58ca5879d04fce82fcb190c10f72e1f63bc }
+Partial Cherry-pick commits SHA are -> 
+681a57747604100b6c44be9385cfdd74fae48786 - cherrypick - 184fe58ca5879d04fce82fcb190c10f72e1f63bc
+---> The cherrypicked commit sha is - 681a57747604100b6c44be9385cfdd74fae48786
+Commit message - Update Translation (ko)
+
+- New translations
+  - Table of contents
+  - link, unlink in routes
+  - Stylus Templates
+  - WLang Templates
+
+- Style
+  - Replace colon`:` to dot`.` (more natural in korean)
+  - Honorific expressions
+  - Adjust indent
+
+- Update all contents to 0b462a0
+---> The original commit sha is - 184fe58ca5879d04fce82fcb190c10f72e1f63bc
+Commit message - Merge pull request #834 from marocchino/ko-readme
+
+Update Translation (ko)
+---> The files with partial_cherrypicks are:-
+README.ko.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 22bfc1c829a22c3b089a0546abe94a6f8df54417 -> 36232f1620111381915bb4bfda4db11dbdafe94d } is a cherrypick
+{ be30d9f613145f0a9b4db908248e281b8f0fa2e4 -> ff88ec46e870dff604b2208ba97efec54b1a6b24 }
+Partial Cherry-pick commits SHA are -> 
+36232f1620111381915bb4bfda4db11dbdafe94d - cherrypick - ff88ec46e870dff604b2208ba97efec54b1a6b24
+---> The cherrypicked commit sha is - 36232f1620111381915bb4bfda4db11dbdafe94d
+Commit message - Mention use of `:public_folder` in warning message
+---> The original commit sha is - ff88ec46e870dff604b2208ba97efec54b1a6b24
+Commit message - Merge pull request #789 from vipulnsward/change_warning_message
+
+Mention use of `:public_folder` in warning message
+---> The files with partial_cherrypicks are:-
+lib/sinatra/base.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ 29a62dc7a29be6f3a82dca0b009beaabeb5746bc -> 89886a27fe1bdba213546da55b4003782f0c698a } is a cherrypick
+{ 89c074173d0cd3fd858b48e7fd2aa6ff5b752e30 -> 7948494fdf72cb128c3e7d4fa8e209b76b57fbea }
+Partial Cherry-pick commits SHA are -> 
+89886a27fe1bdba213546da55b4003782f0c698a - cherrypick - 7948494fdf72cb128c3e7d4fa8e209b76b57fbea
+---> The cherrypicked commit sha is - 89886a27fe1bdba213546da55b4003782f0c698a
+Commit message - Merge pull request #786 from somu/streaming-content-length-fix
+
+Don’t delete Content-Length if streaming
+---> The original commit sha is - 7948494fdf72cb128c3e7d4fa8e209b76b57fbea
+Commit message - Merge pull request #787 from somu/static-send-file-fix
+
+#send_file indifferent :status option
+---> The files with partial_cherrypicks are:-
+README.es.md
+test/integration/app.rb
+test/integration_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ e4a47060264033803ae2789b430187f86dcccc7e -> 32ad7500361a13487367b06aca24c6f1ab612047 } is a cherrypick
+{ e54dc0213823379b5da0e927da7af2ec97bd7e15 -> 56848e4ef544c0e20f134be68887f59a553a3c54 }
+Partial Cherry-pick commits SHA are -> 
+32ad7500361a13487367b06aca24c6f1ab612047 - cherrypick - 56848e4ef544c0e20f134be68887f59a553a3c54
+---> The cherrypicked commit sha is - 32ad7500361a13487367b06aca24c6f1ab612047
+Commit message - :traps setting (on by default)
+---> The original commit sha is - 56848e4ef544c0e20f134be68887f59a553a3c54
+Commit message - Don’t delete Content-Length if streaming
+---> The files with partial_cherrypicks are:-
+README.es.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ fe826e171a36b226e5ecd6ffaefaea9a4909f757 -> 746e17f2ac92f2fb4ab266df82bcdbc03206fa94 } is a cherrypick
+{ 1313c488e83ead64d3689e5a3850a6a903d46a13 -> 29822237178ffae25449b878406216033d3ae3b0 }
+Partial Cherry-pick commits SHA are -> 
+746e17f2ac92f2fb4ab266df82bcdbc03206fa94 - cherrypick - 29822237178ffae25449b878406216033d3ae3b0
+---> The cherrypicked commit sha is - 746e17f2ac92f2fb4ab266df82bcdbc03206fa94
+Commit message - update item of route
+---> The original commit sha is - 29822237178ffae25449b878406216033d3ae3b0
+Commit message - Merge pull request #778 from utenmiki/translation
+
+update item of route
+---> The files with partial_cherrypicks are:-
+README.jp.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ 1879a2e4add7ffce82f8e6256d5ae7be5ecb1d4e -> 86a94f631e618370030ac5221150f2dfccc3b4b1 } is a cherrypick
+{ 1313c488e83ead64d3689e5a3850a6a903d46a13 -> 29822237178ffae25449b878406216033d3ae3b0 }
+Partial Cherry-pick commits SHA are -> 
+86a94f631e618370030ac5221150f2dfccc3b4b1 - cherrypick - 29822237178ffae25449b878406216033d3ae3b0
+---> The cherrypicked commit sha is - 86a94f631e618370030ac5221150f2dfccc3b4b1
+Commit message - Translate for addition
+---> The original commit sha is - 29822237178ffae25449b878406216033d3ae3b0
+Commit message - Merge pull request #778 from utenmiki/translation
+
+update item of route
+---> The files with partial_cherrypicks are:-
+README.jp.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ 746e17f2ac92f2fb4ab266df82bcdbc03206fa94 -> 301ec5a9209b5f6f8c5972c932eaf97c0666f7e5 } is a cherrypick
+{ e5f86e44475414068bfe0496412be92ebd4a4718 -> 1313c488e83ead64d3689e5a3850a6a903d46a13 }
+Partial Cherry-pick commits SHA are -> 
+301ec5a9209b5f6f8c5972c932eaf97c0666f7e5 - cherrypick - 1313c488e83ead64d3689e5a3850a6a903d46a13
+---> The cherrypicked commit sha is - 301ec5a9209b5f6f8c5972c932eaf97c0666f7e5
+Commit message - Merge pull request #777 from patriciomacadden/uri_const
+
+Renamed URI constant to URI_INSTANCE
+---> The original commit sha is - 1313c488e83ead64d3689e5a3850a6a903d46a13
+Commit message - Changed `map` to `map!` at various places to avoid extra array creation.
+---> The files with partial_cherrypicks are:-
+README.jp.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ 4283e16622290d72b594d6375f02bc5c39154d97 -> c7ad89c906b380a57781c844b7b5f87be64221b2 } is a cherrypick
+{ 758b4be104a80c00c347e46b0352ec577756754e -> 80d367cff9f67a7c34fb6acb22b190a96eee83e5 }
+Partial Cherry-pick commits SHA are -> 
+c7ad89c906b380a57781c844b7b5f87be64221b2 - cherrypick - 80d367cff9f67a7c34fb6acb22b190a96eee83e5
+---> The cherrypicked commit sha is - c7ad89c906b380a57781c844b7b5f87be64221b2
+Commit message - Add integration tests for sending files (Content-Length response header related tests)
+---> The original commit sha is - 80d367cff9f67a7c34fb6acb22b190a96eee83e5
+Commit message - Merge pull request #770 from patriciomacadden/send_file
+
+Don't delete Content-Length header if it's a head request or if the body is a Rack::File
+---> The files with partial_cherrypicks are:-
+test/integration/app.rb
+test/integration_helper.rb
+test/integration_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ 4762e4a92bab58d1973c5b3500a3db2e01149e38 -> c0eb49ea4e0a533f38add1eefae006f9e3f86da1 } is a cherrypick
+{ 154859f1553b8bacea97af21776cc3559bebf1c0 -> 9c9dde78883bd1f950de5a495d9353c1ae068dfb }
+Partial Cherry-pick commits SHA are -> 
+c0eb49ea4e0a533f38add1eefae006f9e3f86da1 - cherrypick - 9c9dde78883bd1f950de5a495d9353c1ae068dfb
+---> The cherrypicked commit sha is - c0eb49ea4e0a533f38add1eefae006f9e3f86da1
+Commit message - According to https://github.com/slim-template/slim/blob/master/CHANGES
+`attr_wrapper` has been renamed to `attr_quote`
+
+Fix slim tests to handle this change
+---> The original commit sha is - 9c9dde78883bd1f950de5a495d9353c1ae068dfb
+Commit message - Merge pull request #767 from vipulnsward/change_attr_wrapper
+
+`attr_wrapper` => `attr_quote`
+---> The files with partial_cherrypicks are:-
+test/slim_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 46baabffda9e92cdddaa7bd28d23df3d37851ad0 -> a42b15fa4daba1cbb742ae4aeb2a00eca12817d1 } is a cherrypick
+{ d5b8de47a7fbc32830d51d4210d3acb77f897553 -> 94a086a46c392795f8a58110865080e2f4ee3849 }
+Partial Cherry-pick commits SHA are -> 
+a42b15fa4daba1cbb742ae4aeb2a00eca12817d1 - cherrypick - 94a086a46c392795f8a58110865080e2f4ee3849
+---> The cherrypicked commit sha is - a42b15fa4daba1cbb742ae4aeb2a00eca12817d1
+Commit message - loosen dependency for rack, so it runs with Rails 3.2
+---> The original commit sha is - 94a086a46c392795f8a58110865080e2f4ee3849
+Commit message - Update .travis.yml
+---> The files with partial_cherrypicks are:-
+sinatra.gemspec
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ ba2f94d55f38ccb24c4925379c2ed9471a6b9ba2 -> ff6bbfe7d934455e74e758c134b5f0eece369760 } is a cherrypick
+{ d5b8de47a7fbc32830d51d4210d3acb77f897553 -> 94a086a46c392795f8a58110865080e2f4ee3849 }
+Partial Cherry-pick commits SHA are -> 
+ff6bbfe7d934455e74e758c134b5f0eece369760 - cherrypick - 94a086a46c392795f8a58110865080e2f4ee3849
+---> The cherrypicked commit sha is - ff6bbfe7d934455e74e758c134b5f0eece369760
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The original commit sha is - 94a086a46c392795f8a58110865080e2f4ee3849
+Commit message - Update .travis.yml
+---> The files with partial_cherrypicks are:-
+lib/sinatra/base.rb
+sinatra.gemspec
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ 46baabffda9e92cdddaa7bd28d23df3d37851ad0 -> a42b15fa4daba1cbb742ae4aeb2a00eca12817d1 } is a cherrypick
+{ ba2f94d55f38ccb24c4925379c2ed9471a6b9ba2 -> ff6bbfe7d934455e74e758c134b5f0eece369760 }
+Partial Cherry-pick commits SHA are -> 
+a42b15fa4daba1cbb742ae4aeb2a00eca12817d1 - cherrypick - ff6bbfe7d934455e74e758c134b5f0eece369760
+---> The cherrypicked commit sha is - a42b15fa4daba1cbb742ae4aeb2a00eca12817d1
+Commit message - loosen dependency for rack, so it runs with Rails 3.2
+---> The original commit sha is - ff6bbfe7d934455e74e758c134b5f0eece369760
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+.travis.yml
+sinatra.gemspec
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ dca6b3f0b9db64074474e69050b9355b4c20b1db -> a913b6d7b36905a30cf3e80faa71e686cf4c803b } is a cherrypick
+{ bc6037326fb145407a4fbfea6b39552c11ec4353 -> e8e0704a3561c63b9a02dbbbc7cae0c1bf96b6c3 }
+Partial Cherry-pick commits SHA are -> 
+a913b6d7b36905a30cf3e80faa71e686cf4c803b - cherrypick - e8e0704a3561c63b9a02dbbbc7cae0c1bf96b6c3
+---> The cherrypicked commit sha is - a913b6d7b36905a30cf3e80faa71e686cf4c803b
+Commit message - Reorder Sinatra::Base.
+---> The original commit sha is - e8e0704a3561c63b9a02dbbbc7cae0c1bf96b6c3
+Commit message - Merge pull request #704 from patriciomacadden/reorder
+
+Reorder Sinatra::Base's metaclass
+---> The files with partial_cherrypicks are:-
+lib/sinatra/base.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ 88746661297d1605a079c34519b0c516bfc9d935 -> ef2c38955ec86cdbd14eff821de23c7e9a03a88e } is a cherrypick
+{ 2963213fde30f96a1cf9a9009276282fa638378f -> 652d340fe6ca141b2380f9e00868a5e44ee30f27 }
+Partial Cherry-pick commits SHA are -> 
+ef2c38955ec86cdbd14eff821de23c7e9a03a88e - cherrypick - 652d340fe6ca141b2380f9e00868a5e44ee30f27
+---> The cherrypicked commit sha is - ef2c38955ec86cdbd14eff821de23c7e9a03a88e
+Commit message - Cleanup unused variables
+---> The original commit sha is - 652d340fe6ca141b2380f9e00868a5e44ee30f27
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+test/integration_helper.rb
+test/request_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ d0a5ad372484819b465420e375850513c41a018b -> ce4ad87480fd246cea6dd8b5ef6f00e5d0ec7042 } is a cherrypick
+{ 2963213fde30f96a1cf9a9009276282fa638378f -> 652d340fe6ca141b2380f9e00868a5e44ee30f27 }
+Partial Cherry-pick commits SHA are -> 
+ce4ad87480fd246cea6dd8b5ef6f00e5d0ec7042 - cherrypick - 652d340fe6ca141b2380f9e00868a5e44ee30f27
+---> The cherrypicked commit sha is - ce4ad87480fd246cea6dd8b5ef6f00e5d0ec7042
+Commit message - Use |_| instead of vars; fix typo
+---> The original commit sha is - 652d340fe6ca141b2380f9e00868a5e44ee30f27
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+test/request_test.rb
+test/streaming_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ ead974db7a21d4a7ad4b5e47cb099301142cc844 -> 271d204463fbdcca132ca985e82399b9987bd147 } is a cherrypick
+{ dbfa50769eeff0dae633b8879753c37217f3292d -> 9fbb92fea747e7b8743eb03857ef7cd6263de560 }
+Partial Cherry-pick commits SHA are -> 
+271d204463fbdcca132ca985e82399b9987bd147 - cherrypick - 9fbb92fea747e7b8743eb03857ef7cd6263de560
+---> The cherrypicked commit sha is - 271d204463fbdcca132ca985e82399b9987bd147
+Commit message - correcting spelling
+
+s/plus sing/plus sign/
+---> The original commit sha is - 9fbb92fea747e7b8743eb03857ef7cd6263de560
+Commit message - Merge pull request #671 from patriciomacadden/fix-integration-tests
+
+Fix integration tests for Net HTTP Server.
+---> The files with partial_cherrypicks are:-
+CHANGES
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ 8f1910489a915ae421bd1f035cf3df358f98e14d -> bfabbe7861f4db317b675873f38cc5e97e84655a } is a cherrypick
+{ 22056c54cf73025df001721ab2a15dd1b9438d83 -> 60179737be3784a56df675b8fbdaf8c933614cc5 }
+Partial Cherry-pick commits SHA are -> 
+bfabbe7861f4db317b675873f38cc5e97e84655a - cherrypick - 60179737be3784a56df675b8fbdaf8c933614cc5
+---> The cherrypicked commit sha is - bfabbe7861f4db317b675873f38cc5e97e84655a
+Commit message - move the form tag before script tag
+
+currently this demo is not working, this is because when $("form") bind "submit" event, the form tag is not in DOM yet. Need to move form before the binding.
+---> The original commit sha is - 60179737be3784a56df675b8fbdaf8c933614cc5
+Commit message - Merge pull request #663 from loveky/master
+
+examples/chat.rb is not working
+---> The files with partial_cherrypicks are:-
+examples/chat.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ bfabbe7861f4db317b675873f38cc5e97e84655a -> 22056c54cf73025df001721ab2a15dd1b9438d83 } is a cherrypick
+{ 22056c54cf73025df001721ab2a15dd1b9438d83 -> 60179737be3784a56df675b8fbdaf8c933614cc5 }
+Partial Cherry-pick commits SHA are -> 
+22056c54cf73025df001721ab2a15dd1b9438d83 - cherrypick - 60179737be3784a56df675b8fbdaf8c933614cc5
+---> The cherrypicked commit sha is - 22056c54cf73025df001721ab2a15dd1b9438d83
+Commit message - Merge pull request #662 from patriciomacadden/gemfile-source
+
+Fix Gemfile source
+---> The original commit sha is - 60179737be3784a56df675b8fbdaf8c933614cc5
+Commit message - Merge pull request #663 from loveky/master
+
+examples/chat.rb is not working
+---> The files with partial_cherrypicks are:-
+examples/chat.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ 9ce004f1ccdbe9f65c1ffb42c8b843e47ad5df08 -> 11f90fd2957cf5a2b3d5c3421f28b910e58b3fd9 } is a cherrypick
+{ 2b9cf93fd5fb2e164bd3139a362f3da35ff49834 -> 5540c8091eaba85dfd1d9f0d655201b6cb63045c }
+Partial Cherry-pick commits SHA are -> 
+11f90fd2957cf5a2b3d5c3421f28b910e58b3fd9 - cherrypick - 5540c8091eaba85dfd1d9f0d655201b6cb63045c
+---> The cherrypicked commit sha is - 11f90fd2957cf5a2b3d5c3421f28b910e58b3fd9
+Commit message - Fix test failures with RDoc 4 broken by commit rdoc/rdoc@7f0033d
+---> The original commit sha is - 5540c8091eaba85dfd1d9f0d655201b6cb63045c
+Commit message - Merge pull request #660 from bkabrda/master
+
+Fix tests with RDoc 4
+---> The files with partial_cherrypicks are:-
+test/rdoc_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ 3756e1088f919707f6c2a905867ce76d5dfa0718 -> 4e73e010506a7cc1ba8ddcbc232a18cee7956577 } is a cherrypick
+{ d866259863d0962fca498e8ebc382195c8cb8113 -> 2934b65d684ffc385dc08a716ad02e457d20cf0e }
+Partial Cherry-pick commits SHA are -> 
+4e73e010506a7cc1ba8ddcbc232a18cee7956577 - cherrypick - 2934b65d684ffc385dc08a716ad02e457d20cf0e
+---> The cherrypicked commit sha is - 4e73e010506a7cc1ba8ddcbc232a18cee7956577
+Commit message - Convert spanish README to Markdown
+---> The original commit sha is - 2934b65d684ffc385dc08a716ad02e457d20cf0e
+Commit message - Merge pull request #651 from gcapizzi/spanish_readme_md
+
+Convert spanish README to Markdown
+---> The files with partial_cherrypicks are:-
+README.es.md
+README.es.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ 61e4a87b3eca162ae21fc4aaff8aae253aedc06f -> acf57eb6d1c31513bf7861617c5655a781ffb0be } is a cherrypick
+{ e4f7b9ef6df938f9c7887a7c87966cf12588deaa -> 2fc53acf88e950c47e4f3f3bdb7acc745e4dcab7 }
+Partial Cherry-pick commits SHA are -> 
+acf57eb6d1c31513bf7861617c5655a781ffb0be - cherrypick - 2fc53acf88e950c47e4f3f3bdb7acc745e4dcab7
+---> The cherrypicked commit sha is - acf57eb6d1c31513bf7861617c5655a781ffb0be
+Commit message - Explicitly set falsy values for :template should not render a template
+---> The original commit sha is - 2fc53acf88e950c47e4f3f3bdb7acc745e4dcab7
+Commit message - Merge pull request #628 from richo/bugs/falsy_layouts
+
+Explicitly set falsy values for :template should not render a template
+---> The files with partial_cherrypicks are:-
+test/templates_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ 6dc49e3c7b78bfd50289bc31430243e799e44818 -> ca5cd68ab5aaf26dc18198803fe9dbb217b99f81 } is a cherrypick
+{ 5238e909462614ded3bed07329c799a336d8f04c -> a5588e92b74c289a805156e29cff8787608affae }
+Partial Cherry-pick commits SHA are -> 
+ca5cd68ab5aaf26dc18198803fe9dbb217b99f81 - cherrypick - a5588e92b74c289a805156e29cff8787608affae
+---> The cherrypicked commit sha is - ca5cd68ab5aaf26dc18198803fe9dbb217b99f81
+Commit message - chat example: use .on instead of submit
+---> The original commit sha is - a5588e92b74c289a805156e29cff8787608affae
+Commit message - Merge pull request #632 from mcfiredrill/chat-example-fix
+
+chat example: .live is removed in latest jquery, use .submit
+---> The files with partial_cherrypicks are:-
+examples/chat.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ 75c1378ad2bc4a8977128c8157c05fa4bca6a8a1 -> 0f9a959253bdf0c39422ffb9b60278df46ef0248 } is a cherrypick
+{ 4718bc9e092c6f4e19fe37c55c211f2dd5261fb3 -> 7f86162c7e48c260f49475682f6a086083a3eb3f }
+Partial Cherry-pick commits SHA are -> 
+0f9a959253bdf0c39422ffb9b60278df46ef0248 - cherrypick - 7f86162c7e48c260f49475682f6a086083a3eb3f
+---> The cherrypicked commit sha is - 0f9a959253bdf0c39422ffb9b60278df46ef0248
+Commit message - Default host to localhost when in development mode.
+
+* Running Rack apps on 0.0.0.0 in development mode will allow malicious
+  users on the local network (ex: Coffee Shop) to abuse or potentially
+  exploit the app. Safer to default host to localhost when in development
+  mode.
+---> The original commit sha is - 7f86162c7e48c260f49475682f6a086083a3eb3f
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+lib/sinatra/base.rb
+lib/sinatra/main.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ ca5cd68ab5aaf26dc18198803fe9dbb217b99f81 -> b6399be62c95b9e01b6a45896f581f774d771098 } is a cherrypick
+{ 4718bc9e092c6f4e19fe37c55c211f2dd5261fb3 -> 7f86162c7e48c260f49475682f6a086083a3eb3f }
+Partial Cherry-pick commits SHA are -> 
+b6399be62c95b9e01b6a45896f581f774d771098 - cherrypick - 7f86162c7e48c260f49475682f6a086083a3eb3f
+---> The cherrypicked commit sha is - b6399be62c95b9e01b6a45896f581f774d771098
+Commit message - Merge pull request #634 from postmodern/localhost_development
+
+Default host to localhost when in development mode.
+---> The original commit sha is - 7f86162c7e48c260f49475682f6a086083a3eb3f
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+lib/sinatra/base.rb
+lib/sinatra/main.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ 74b301268babe9ac5e48d3714650ce2fc5e8560c -> 7182ea3a267ae5c9d2e5d6ccffb2d8cbc0548564 } is a cherrypick
+{ 41c3f4066f9bf4c70233c7c332200155c9f5ad6c -> cafaf901ddb3d3adbb84c43c3736912469d6aefc }
+Partial Cherry-pick commits SHA are -> 
+7182ea3a267ae5c9d2e5d6ccffb2d8cbc0548564 - cherrypick - cafaf901ddb3d3adbb84c43c3736912469d6aefc
+---> The cherrypicked commit sha is - 7182ea3a267ae5c9d2e5d6ccffb2d8cbc0548564
+Commit message - convert README.ru.rdoc to README.ru.md
+---> The original commit sha is - cafaf901ddb3d3adbb84c43c3736912469d6aefc
+Commit message - Merge pull request #636 from vast/readme-ru-md
+
+Convert README.ru.rdoc to markdown
+---> The files with partial_cherrypicks are:-
+README.ru.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ c8c640146d89ffb0f905f5777510712d5bb0b704 -> b94089182382553c5a411e9e4a38c79d54ff188d } is a cherrypick
+{ 41c3f4066f9bf4c70233c7c332200155c9f5ad6c -> cafaf901ddb3d3adbb84c43c3736912469d6aefc }
+Partial Cherry-pick commits SHA are -> 
+b94089182382553c5a411e9e4a38c79d54ff188d - cherrypick - cafaf901ddb3d3adbb84c43c3736912469d6aefc
+---> The cherrypicked commit sha is - b94089182382553c5a411e9e4a38c79d54ff188d
+Commit message - typos in README.ru.md
+---> The original commit sha is - cafaf901ddb3d3adbb84c43c3736912469d6aefc
+Commit message - Merge pull request #636 from vast/readme-ru-md
+
+Convert README.ru.rdoc to markdown
+---> The files with partial_cherrypicks are:-
+README.ru.md
+README.ru.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ 6cbff567b46ea37c628955e7271ac276e86af1a1 -> f079ce18fe023ae0d2c3734429da4677c2cdd4df } is a cherrypick
+{ 8a5895cbfeab4c4da7b137204014461ae3ad9878 -> 590a90b71d27e7201ab1c576ef3c9593a04d23d4 }
+Partial Cherry-pick commits SHA are -> 
+f079ce18fe023ae0d2c3734429da4677c2cdd4df - cherrypick - 590a90b71d27e7201ab1c576ef3c9593a04d23d4
+---> The cherrypicked commit sha is - f079ce18fe023ae0d2c3734429da4677c2cdd4df
+Commit message - [FIX] Make route parsing regex more robust
+
+- fixes sinatra/sinatra/#611
+- adds support for case-insensitive URL encoding
+---> The original commit sha is - 590a90b71d27e7201ab1c576ef3c9593a04d23d4
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+test/compile_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ eed4f71f4ff5a70f43c803fa6787920e9d01218b -> d983c724b1f674e42ed9dc38b0e92f29e29c1309 } is a cherrypick
+{ 8a5895cbfeab4c4da7b137204014461ae3ad9878 -> 590a90b71d27e7201ab1c576ef3c9593a04d23d4 }
+Partial Cherry-pick commits SHA are -> 
+d983c724b1f674e42ed9dc38b0e92f29e29c1309 - cherrypick - 590a90b71d27e7201ab1c576ef3c9593a04d23d4
+---> The cherrypicked commit sha is - d983c724b1f674e42ed9dc38b0e92f29e29c1309
+Commit message - [FIX] Support ruby 1.8 in routing regex
+---> The original commit sha is - 590a90b71d27e7201ab1c576ef3c9593a04d23d4
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+test/compile_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ f079ce18fe023ae0d2c3734429da4677c2cdd4df -> eed4f71f4ff5a70f43c803fa6787920e9d01218b } is a cherrypick
+{ 5a346b7cabe1628f2ba295c023262e8f3feca373 -> 8a5895cbfeab4c4da7b137204014461ae3ad9878 }
+Partial Cherry-pick commits SHA are -> 
+eed4f71f4ff5a70f43c803fa6787920e9d01218b - cherrypick - 8a5895cbfeab4c4da7b137204014461ae3ad9878
+---> The cherrypicked commit sha is - eed4f71f4ff5a70f43c803fa6787920e9d01218b
+Commit message - Merge pull request #613 from sonots/no_destructive_halt
+
+Fix halt(invoke) breaks its argument
+---> The original commit sha is - 8a5895cbfeab4c4da7b137204014461ae3ad9878
+Commit message - default response content type to html even with newest rack
+---> The files with partial_cherrypicks are:-
+test/compile_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ d983c724b1f674e42ed9dc38b0e92f29e29c1309 -> 459369eb66224836f72e21bbece58c007f3422fa } is a cherrypick
+{ 5a346b7cabe1628f2ba295c023262e8f3feca373 -> 8a5895cbfeab4c4da7b137204014461ae3ad9878 }
+Partial Cherry-pick commits SHA are -> 
+459369eb66224836f72e21bbece58c007f3422fa - cherrypick - 8a5895cbfeab4c4da7b137204014461ae3ad9878
+---> The cherrypicked commit sha is - 459369eb66224836f72e21bbece58c007f3422fa
+Commit message - Changed the README from .rdoc to .md
+
+Did this manually so I think I got most of the conversion right.
+
+Fixes #607
+
+Squashed commit of the following:
+
+commit e0cbf22b35e08aba053d19674ed6295bd6b71ced
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Sun Jan 20 06:16:26 2013 +0530
+
+    Removed the <li> tag for the markdown template list
+
+commit f999620eac07b0b970b7b2ea42d4386f1dc83097
+Merge: 95ab367 eed4f71
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Sun Jan 20 06:06:39 2013 +0530
+
+    Merge branch 'master' of git://github.com/sinatra/sinatra
+
+commit 95ab3673ece8996991fef505e3a3556f8c06e49f
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Fri Jan 11 07:53:31 2013 +0530
+
+    Fixed a typo
+
+commit 90a335049b711ee7fc1915616cf13bd926539ee6
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Fri Jan 11 07:44:22 2013 +0530
+
+    <pre> tags break the whole layout. Replacing them with <tt> tags
+
+commit e47cfff420c8e07b8b04c1ac4cab85ba9b78ca53
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Fri Jan 11 07:18:10 2013 +0530
+
+    <pre> tags break the whole layout. Testing out <tt> tags
+
+commit 40f59da1f4d52fda5018bf91a9a317f52113a116
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Fri Jan 11 06:59:02 2013 +0530
+
+    Added the html definition lists
+
+commit 63a18c478c61d3c88ecd67a42fcca001deff8ea2
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Fri Jan 11 03:39:57 2013 +0530
+
+    Testing out some HTML in Markdown
+
+commit 8d9442be525e909acd1f5b5c1bd4972c8bf810b2
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Thu Jan 10 01:14:16 2013 +0530
+
+    Trying out code blocks instead of Rdoc tables
+
+commit 766c80f1af854e03161192fadec3edf6e5093eaa
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Thu Jan 10 00:40:48 2013 +0530
+
+    Fixed some more errors.
+
+commit 2e9dc82a5a246007a4976db95b4608212c50841b
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Thu Jan 10 00:39:25 2013 +0530
+
+    Fixed some more errors.
+
+commit f12333bcd3515f63b3c998da98cf1e8b68bc01f9
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Thu Jan 10 00:33:47 2013 +0530
+
+    Fixed a typo and finished the conversion.
+
+commit 72830645c0dc235f62ccf1f1ffc8d8deaf39519d
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Thu Jan 10 00:31:52 2013 +0530
+
+    First walkthrough done.
+
+commit a43f41fab945ac9dece1f7ee95a29526c6d7c25d
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Wed Jan 9 22:32:34 2013 +0530
+
+    First walkthrough done.
+
+commit eb73fe095f191dc7c7bae2acdbfce436ba21f1e3
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Wed Jan 9 22:24:59 2013 +0530
+
+    testing blockquote
+
+commit 3cb91c48286f308de144b763e51aebdb02f034ad
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Wed Jan 9 22:19:21 2013 +0530
+
+    testing blockquote
+
+commit ae9119393e7d463c2916074ff47e5af0b316ec82
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Wed Jan 9 21:49:19 2013 +0530
+
+    testing blockquote
+
+commit 64a659c731036474435eb57349afe17bfde7a801
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Wed Jan 9 21:48:02 2013 +0530
+
+    testing blockquote
+
+commit 8d718ef1aa1b558cf052768b0ced13cf102d0639
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Wed Jan 9 21:42:17 2013 +0530
+
+    testing blockquote
+
+commit 0b16fc50d868f77f0ecaeeed9177dcf412d7d5d3
+Author: Kashyap <kashyap.kmbc@gmail.com>
+Date:   Wed Jan 9 21:37:55 2013 +0530
+
+    rdoc to md conversion in progress
+
+Signed-off-by: Konstantin Haase <konstantin.mailinglists@googlemail.com>
+---> The original commit sha is - 8a5895cbfeab4c4da7b137204014461ae3ad9878
+Commit message - default response content type to html even with newest rack
+---> The files with partial_cherrypicks are:-
+test/compile_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ 6cbff567b46ea37c628955e7271ac276e86af1a1 -> f079ce18fe023ae0d2c3734429da4677c2cdd4df } is a cherrypick
+{ 3f9741638b52ce29020b25e1f3c047a10b651571 -> 5a346b7cabe1628f2ba295c023262e8f3feca373 }
+Partial Cherry-pick commits SHA are -> 
+f079ce18fe023ae0d2c3734429da4677c2cdd4df - cherrypick - 5a346b7cabe1628f2ba295c023262e8f3feca373
+---> The cherrypicked commit sha is - f079ce18fe023ae0d2c3734429da4677c2cdd4df
+Commit message - [FIX] Make route parsing regex more robust
+
+- fixes sinatra/sinatra/#611
+- adds support for case-insensitive URL encoding
+---> The original commit sha is - 5a346b7cabe1628f2ba295c023262e8f3feca373
+Commit message - Merge pull request #614 from zaki/fix-routing-regex
+
+Fix routing regex
+---> The files with partial_cherrypicks are:-
+test/compile_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ eed4f71f4ff5a70f43c803fa6787920e9d01218b -> d983c724b1f674e42ed9dc38b0e92f29e29c1309 } is a cherrypick
+{ 3f9741638b52ce29020b25e1f3c047a10b651571 -> 5a346b7cabe1628f2ba295c023262e8f3feca373 }
+Partial Cherry-pick commits SHA are -> 
+d983c724b1f674e42ed9dc38b0e92f29e29c1309 - cherrypick - 5a346b7cabe1628f2ba295c023262e8f3feca373
+---> The cherrypicked commit sha is - d983c724b1f674e42ed9dc38b0e92f29e29c1309
+Commit message - [FIX] Support ruby 1.8 in routing regex
+---> The original commit sha is - 5a346b7cabe1628f2ba295c023262e8f3feca373
+Commit message - Merge pull request #614 from zaki/fix-routing-regex
+
+Fix routing regex
+---> The files with partial_cherrypicks are:-
+test/compile_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 49 is -> 
+{ 1d5f8bdf71424e86c6446f675b218711aa8f7040 -> 02025573d9e7c9fc8f5065eb7620e5c42e00b829 } is a cherrypick
+{ d2e8563f8b96c237ec8d6e2fdace09a6738e4e8c -> a71b0448c5d86878ebb3634f84f979b9a2fa69fa }
+Partial Cherry-pick commits SHA are -> 
+02025573d9e7c9fc8f5065eb7620e5c42e00b829 - cherrypick - a71b0448c5d86878ebb3634f84f979b9a2fa69fa
+---> The cherrypicked commit sha is - 02025573d9e7c9fc8f5065eb7620e5c42e00b829
+Commit message - Adding link to wikipedia DSL article.
+
+Signed-off-by: Dan Buch <d.buch@modcloth.com>
+---> The original commit sha is - a71b0448c5d86878ebb3634f84f979b9a2fa69fa
+Commit message - Merge pull request #592 from modclothpair/intro-dsl-link
+
+Adding link to wikipedia DSL article.
+---> The files with partial_cherrypicks are:-
+README.hu.rdoc
+README.jp.rdoc
+README.pt-br.rdoc
+README.pt-pt.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 50 is -> 
+{ f7d2b43ed978aeb2782a3c07dc448057c8b55f4b -> 6a023ab3537e91556106c6cff3cada25f1c5ab42 } is a cherrypick
+{ 048af1dd4da5b99778c3bbb2873f2fe7a7d0a487 -> 88d61a23eefcc154da2211500a1ffa5e57a06d8d }
+Partial Cherry-pick commits SHA are -> 
+6a023ab3537e91556106c6cff3cada25f1c5ab42 - cherrypick - 88d61a23eefcc154da2211500a1ffa5e57a06d8d
+---> The cherrypicked commit sha is - 6a023ab3537e91556106c6cff3cada25f1c5ab42
+Commit message - added rdoc option in gemspec
+which will force utf-8 encoding irrespective of the locale
+settings of the user.
+---> The original commit sha is - 88d61a23eefcc154da2211500a1ffa5e57a06d8d
+Commit message - Merge pull request #548 from kgrz/issue-504
+
+Added a default encoding for RDoc parsing in gemspec file
+---> The files with partial_cherrypicks are:-
+sinatra.gemspec
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 51 is -> 
+{ 4f5a2fda1f78ae4c7696a39f3216edc26ea7b77c -> 15998bea78a2bc4a196de16e42fa0b620bd33eee } is a cherrypick
+{ 7623662c8fe422585ca72507f99b060f8131e30c -> 9e8677a6c3e5e3f262141bb5713fd3f0a81c94e5 }
+Partial Cherry-pick commits SHA are -> 
+15998bea78a2bc4a196de16e42fa0b620bd33eee - cherrypick - 9e8677a6c3e5e3f262141bb5713fd3f0a81c94e5
+---> The cherrypicked commit sha is - 15998bea78a2bc4a196de16e42fa0b620bd33eee
+Commit message - Don't install RABL on JRuby
+
+JRuby is throwing a LocalJumpError in a RABL test, so disable for now.
+Issue has been filed https://github.com/jruby/jruby/issues/200
+---> The original commit sha is - 9e8677a6c3e5e3f262141bb5713fd3f0a81c94e5
+Commit message - Merge branch 'rabl' of https://github.com/jc00ke/sinatra into jc00ke-rabl
+
+Conflicts:
+	Gemfile
+---> The files with partial_cherrypicks are:-
+Gemfile
+README.de.rdoc
+README.es.rdoc
+README.jp.rdoc
+README.ko.rdoc
+README.rdoc
+README.ru.rdoc
+lib/sinatra/base.rb
+test/rabl_test.rb
+test/views/hello.rabl
+test/views/layout2.rabl
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 52 is -> 
+{ 15998bea78a2bc4a196de16e42fa0b620bd33eee -> 46f2547cf44a4ae92a7a63fe1afb5444d7c8f5c5 } is a cherrypick
+{ a8c8ac070b1b23af58974d1d590faf04480802db -> 31e7834cf073d10605e34a0ccbfe3a69f0e12932 }
+Partial Cherry-pick commits SHA are -> 
+46f2547cf44a4ae92a7a63fe1afb5444d7c8f5c5 - cherrypick - 31e7834cf073d10605e34a0ccbfe3a69f0e12932
+---> The cherrypicked commit sha is - 46f2547cf44a4ae92a7a63fe1afb5444d7c8f5c5
+Commit message - Add support for wlang templating engine.
+---> The original commit sha is - 31e7834cf073d10605e34a0ccbfe3a69f0e12932
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+test/views/hello.wlang
+test/views/layout2.wlang
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 53 is -> 
+{ 4f0e1d4ef37158c85ac38b64d8930af172ce1be0 -> c4529384f6c3085440f0d3b36f43128d3150addd } is a cherrypick
+{ c68153c991b6cc76b6e7151ac2e50e8d596f8c0d -> da77d8f31e0c57b44aed110fe5b7ebc68d4a964b }
+Partial Cherry-pick commits SHA are -> 
+c4529384f6c3085440f0d3b36f43128d3150addd - cherrypick - da77d8f31e0c57b44aed110fe5b7ebc68d4a964b
+---> The cherrypicked commit sha is - c4529384f6c3085440f0d3b36f43128d3150addd
+Commit message - Add note about disabling protection to readme.fr
+---> The original commit sha is - da77d8f31e0c57b44aed110fe5b7ebc68d4a964b
+Commit message - Merge pull request #507 from GordonDiggs/master
+
+Update French README to include latest changes
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 54 is -> 
+{ 22cb80c70141fde41abff698d4d399d3241fcb5c -> 4562b0279890f01f524dcab13def8d65b0468fa3 } is a cherrypick
+{ a74e8a45a57b8d876a4e2491a17fb38d42cd8245 -> 30d2d4deafedd9ee29a8fb085f9fb5454bf0b497 }
+Partial Cherry-pick commits SHA are -> 
+4562b0279890f01f524dcab13def8d65b0468fa3 - cherrypick - 30d2d4deafedd9ee29a8fb085f9fb5454bf0b497
+---> The cherrypicked commit sha is - 4562b0279890f01f524dcab13def8d65b0468fa3
+Commit message - Add public_dir alias in readme.fr
+---> The original commit sha is - 30d2d4deafedd9ee29a8fb085f9fb5454bf0b497
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 55 is -> 
+{ 4562b0279890f01f524dcab13def8d65b0468fa3 -> 9542b5a69281248d4bb9400bf4a6d3b644be2d57 } is a cherrypick
+{ 4ef3ae1609b6411cd3879774948e439883d33779 -> 298ea5bfe2936b5075f58e8850abc564dde3102a }
+Partial Cherry-pick commits SHA are -> 
+9542b5a69281248d4bb9400bf4a6d3b644be2d57 - cherrypick - 298ea5bfe2936b5075f58e8850abc564dde3102a
+---> The cherrypicked commit sha is - 9542b5a69281248d4bb9400bf4a6d3b644be2d57
+Commit message - skip liquid on rbx in 1.9 mode for now
+---> The original commit sha is - 298ea5bfe2936b5075f58e8850abc564dde3102a
+Commit message - prevent streaming issue with Rack::Lint and friends, fixes #473
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 56 is -> 
+{ 22cb80c70141fde41abff698d4d399d3241fcb5c -> 4562b0279890f01f524dcab13def8d65b0468fa3 } is a cherrypick
+{ b5d8dbca1c2304b1d6894f107df5e09e727fa693 -> 4ef3ae1609b6411cd3879774948e439883d33779 }
+Partial Cherry-pick commits SHA are -> 
+4562b0279890f01f524dcab13def8d65b0468fa3 - cherrypick - 4ef3ae1609b6411cd3879774948e439883d33779
+---> The cherrypicked commit sha is - 4562b0279890f01f524dcab13def8d65b0468fa3
+Commit message - Add public_dir alias in readme.fr
+---> The original commit sha is - 4ef3ae1609b6411cd3879774948e439883d33779
+Commit message - Merge pull request #488 from michelc/master
+
+Added public_dir alias in readme.fr
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 57 is -> 
+{ de02cb427bbfd2a22451a70002de94a1783ec887 -> b7cd853c30acca3a614dbd87865229fc7b538b99 } is a cherrypick
+{ 202f6b2118455d8187174590c5f4f821f97df516 -> 559376f549dade934e0ab76d5acac37312cd67ec }
+Partial Cherry-pick commits SHA are -> 
+b7cd853c30acca3a614dbd87865229fc7b538b99 - cherrypick - 559376f549dade934e0ab76d5acac37312cd67ec
+---> The cherrypicked commit sha is - b7cd853c30acca3a614dbd87865229fc7b538b99
+Commit message - Update requirements section in readme.fr
+---> The original commit sha is - 559376f549dade934e0ab76d5acac37312cd67ec
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 58 is -> 
+{ 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f -> be1f01fd33c182457ca1e777662bd8a52730eb41 } is a cherrypick
+{ dc4a2dfbef1df3c7dd62ef3178e15b8fab796ba8 -> ed397dcbcfdd6a22645e5156853d68afbfe047db }
+Partial Cherry-pick commits SHA are -> 
+be1f01fd33c182457ca1e777662bd8a52730eb41 - cherrypick - ed397dcbcfdd6a22645e5156853d68afbfe047db
+---> The cherrypicked commit sha is - be1f01fd33c182457ca1e777662bd8a52730eb41
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - ed397dcbcfdd6a22645e5156853d68afbfe047db
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 59 is -> 
+{ 6ded73e8be1c018a772d9f8eb7fd4ce4e234ffb1 -> d308b5797a54dbf6cf043dcdbeabf38ea0157f20 } is a cherrypick
+{ dc4a2dfbef1df3c7dd62ef3178e15b8fab796ba8 -> ed397dcbcfdd6a22645e5156853d68afbfe047db }
+Partial Cherry-pick commits SHA are -> 
+d308b5797a54dbf6cf043dcdbeabf38ea0157f20 - cherrypick - ed397dcbcfdd6a22645e5156853d68afbfe047db
+---> The cherrypicked commit sha is - d308b5797a54dbf6cf043dcdbeabf38ea0157f20
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - ed397dcbcfdd6a22645e5156853d68afbfe047db
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 60 is -> 
+{ acc0f20b189d5549fcb5f004b762b203c5b96ea2 -> 3f480092f1f45a26374a10692de82d6c561ceee8 } is a cherrypick
+{ d4d2770baf0251666ce34006bf3ddcbce594ad2e -> 311aa4264600b324978d36e01c82755bf17246e0 }
+Partial Cherry-pick commits SHA are -> 
+3f480092f1f45a26374a10692de82d6c561ceee8 - cherrypick - 311aa4264600b324978d36e01c82755bf17246e0
+---> The cherrypicked commit sha is - 3f480092f1f45a26374a10692de82d6c561ceee8
+Commit message - Extend indifferent_params to support hashes nested within arrays.
+---> The original commit sha is - 311aa4264600b324978d36e01c82755bf17246e0
+Commit message - Plus symbols in the URL should be converted to spaces when considered as param values.
+Closes #463.
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 61 is -> 
+{ 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f -> be1f01fd33c182457ca1e777662bd8a52730eb41 } is a cherrypick
+{ 94707f5f424254098559609e88c088038d91dde7 -> d4d2770baf0251666ce34006bf3ddcbce594ad2e }
+Partial Cherry-pick commits SHA are -> 
+be1f01fd33c182457ca1e777662bd8a52730eb41 - cherrypick - d4d2770baf0251666ce34006bf3ddcbce594ad2e
+---> The cherrypicked commit sha is - be1f01fd33c182457ca1e777662bd8a52730eb41
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - d4d2770baf0251666ce34006bf3ddcbce594ad2e
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 62 is -> 
+{ 6ded73e8be1c018a772d9f8eb7fd4ce4e234ffb1 -> d308b5797a54dbf6cf043dcdbeabf38ea0157f20 } is a cherrypick
+{ 94707f5f424254098559609e88c088038d91dde7 -> d4d2770baf0251666ce34006bf3ddcbce594ad2e }
+Partial Cherry-pick commits SHA are -> 
+d308b5797a54dbf6cf043dcdbeabf38ea0157f20 - cherrypick - d4d2770baf0251666ce34006bf3ddcbce594ad2e
+---> The cherrypicked commit sha is - d308b5797a54dbf6cf043dcdbeabf38ea0157f20
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - d4d2770baf0251666ce34006bf3ddcbce594ad2e
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 63 is -> 
+{ 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f -> be1f01fd33c182457ca1e777662bd8a52730eb41 } is a cherrypick
+{ 80b98a22a89c4df8b83f2fc85de1b63740781157 -> acc0f20b189d5549fcb5f004b762b203c5b96ea2 }
+Partial Cherry-pick commits SHA are -> 
+be1f01fd33c182457ca1e777662bd8a52730eb41 - cherrypick - acc0f20b189d5549fcb5f004b762b203c5b96ea2
+---> The cherrypicked commit sha is - be1f01fd33c182457ca1e777662bd8a52730eb41
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - acc0f20b189d5549fcb5f004b762b203c5b96ea2
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 64 is -> 
+{ 6ded73e8be1c018a772d9f8eb7fd4ce4e234ffb1 -> d308b5797a54dbf6cf043dcdbeabf38ea0157f20 } is a cherrypick
+{ 80b98a22a89c4df8b83f2fc85de1b63740781157 -> acc0f20b189d5549fcb5f004b762b203c5b96ea2 }
+Partial Cherry-pick commits SHA are -> 
+d308b5797a54dbf6cf043dcdbeabf38ea0157f20 - cherrypick - acc0f20b189d5549fcb5f004b762b203c5b96ea2
+---> The cherrypicked commit sha is - d308b5797a54dbf6cf043dcdbeabf38ea0157f20
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - acc0f20b189d5549fcb5f004b762b203c5b96ea2
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 65 is -> 
+{ 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f -> be1f01fd33c182457ca1e777662bd8a52730eb41 } is a cherrypick
+{ 6ded73e8be1c018a772d9f8eb7fd4ce4e234ffb1 -> d308b5797a54dbf6cf043dcdbeabf38ea0157f20 }
+Partial Cherry-pick commits SHA are -> 
+be1f01fd33c182457ca1e777662bd8a52730eb41 - cherrypick - d308b5797a54dbf6cf043dcdbeabf38ea0157f20
+---> The cherrypicked commit sha is - be1f01fd33c182457ca1e777662bd8a52730eb41
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - d308b5797a54dbf6cf043dcdbeabf38ea0157f20
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 66 is -> 
+{ 45949dcd425802e68d2adfe8881319ab71536d7d -> 302da22e198c0c915416c9e47570896b40a0a444 } is a cherrypick
+{ 917606b25d0fd38cf4a33e33895b5772f9cbcc04 -> dfe5928a28ec7ca41a79e0654e719a0d553e091b }
+Partial Cherry-pick commits SHA are -> 
+302da22e198c0c915416c9e47570896b40a0a444 - cherrypick - dfe5928a28ec7ca41a79e0654e719a0d553e091b
+---> The cherrypicked commit sha is - 302da22e198c0c915416c9e47570896b40a0a444
+Commit message - improve settings description in README.es
+---> The original commit sha is - dfe5928a28ec7ca41a79e0654e719a0d553e091b
+Commit message - doc yajl templates in README.es
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 67 is -> 
+{ 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f -> be1f01fd33c182457ca1e777662bd8a52730eb41 } is a cherrypick
+{ b75e696ec8c10946b4cbf5c62c27abde23efac2d -> 917606b25d0fd38cf4a33e33895b5772f9cbcc04 }
+Partial Cherry-pick commits SHA are -> 
+be1f01fd33c182457ca1e777662bd8a52730eb41 - cherrypick - 917606b25d0fd38cf4a33e33895b5772f9cbcc04
+---> The cherrypicked commit sha is - be1f01fd33c182457ca1e777662bd8a52730eb41
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - 917606b25d0fd38cf4a33e33895b5772f9cbcc04
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 68 is -> 
+{ 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f -> be1f01fd33c182457ca1e777662bd8a52730eb41 } is a cherrypick
+{ 1ac4f2a13f6629835aa584f1823974cbf0e35c43 -> e70d0915ddc0e7abb9a339b1de903b3022789743 }
+Partial Cherry-pick commits SHA are -> 
+be1f01fd33c182457ca1e777662bd8a52730eb41 - cherrypick - e70d0915ddc0e7abb9a339b1de903b3022789743
+---> The cherrypicked commit sha is - be1f01fd33c182457ca1e777662bd8a52730eb41
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - e70d0915ddc0e7abb9a339b1de903b3022789743
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 69 is -> 
+{ 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f -> be1f01fd33c182457ca1e777662bd8a52730eb41 } is a cherrypick
+{ 4490a7638063bf3707fc4c7c8b16ab039cf91909 -> 06421e4f591ca1bbd0671dfd2632dac973b5f7f0 }
+Partial Cherry-pick commits SHA are -> 
+be1f01fd33c182457ca1e777662bd8a52730eb41 - cherrypick - 06421e4f591ca1bbd0671dfd2632dac973b5f7f0
+---> The cherrypicked commit sha is - be1f01fd33c182457ca1e777662bd8a52730eb41
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - 06421e4f591ca1bbd0671dfd2632dac973b5f7f0
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 70 is -> 
+{ 393640ef7730ef481c9663af11502d0a08d6ca20 -> 48e167317ea9d15c957af8e0e600cc837e46c0a4 } is a cherrypick
+{ 7081ad7d0e193c0140cccfc902ee7d505f940602 -> 1306029ce16c6619d7c9014b034df3670ca0dcab }
+Partial Cherry-pick commits SHA are -> 
+48e167317ea9d15c957af8e0e600cc837e46c0a4 - cherrypick - 1306029ce16c6619d7c9014b034df3670ca0dcab
+---> The cherrypicked commit sha is - 48e167317ea9d15c957af8e0e600cc837e46c0a4
+Commit message - properly implement If-Matches and If-None-Matches handling according to RFC 2616, fixes #355
+---> The original commit sha is - 1306029ce16c6619d7c9014b034df3670ca0dcab
+Commit message - update delegator links
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 71 is -> 
+{ cf27ad4196a230b9babf14f0b819ee351aba6f7b -> 470d5cd6cd50437f5b9d83eed462b36094a1a3a7 } is a cherrypick
+{ 7081ad7d0e193c0140cccfc902ee7d505f940602 -> 1306029ce16c6619d7c9014b034df3670ca0dcab }
+Partial Cherry-pick commits SHA are -> 
+470d5cd6cd50437f5b9d83eed462b36094a1a3a7 - cherrypick - 1306029ce16c6619d7c9014b034df3670ca0dcab
+---> The cherrypicked commit sha is - 470d5cd6cd50437f5b9d83eed462b36094a1a3a7
+Commit message - add note about shotgun
+---> The original commit sha is - 1306029ce16c6619d7c9014b034df3670ca0dcab
+Commit message - update delegator links
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 72 is -> 
+{ 78bc4449f2742c340e75b9cdf0ec5be9f335d6ac -> eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f } is a cherrypick
+{ 7081ad7d0e193c0140cccfc902ee7d505f940602 -> 1306029ce16c6619d7c9014b034df3670ca0dcab }
+Partial Cherry-pick commits SHA are -> 
+eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f - cherrypick - 1306029ce16c6619d7c9014b034df3670ca0dcab
+---> The cherrypicked commit sha is - eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f
+Commit message - Improve settings descriptions in README
+---> The original commit sha is - 1306029ce16c6619d7c9014b034df3670ca0dcab
+Commit message - update delegator links
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 73 is -> 
+{ be1f01fd33c182457ca1e777662bd8a52730eb41 -> 775d460df120f60c4a68374c4b477f3ae157f0a7 } is a cherrypick
+{ 7081ad7d0e193c0140cccfc902ee7d505f940602 -> 1306029ce16c6619d7c9014b034df3670ca0dcab }
+Partial Cherry-pick commits SHA are -> 
+775d460df120f60c4a68374c4b477f3ae157f0a7 - cherrypick - 1306029ce16c6619d7c9014b034df3670ca0dcab
+---> The cherrypicked commit sha is - 775d460df120f60c4a68374c4b477f3ae157f0a7
+Commit message - fix typo in readme about protection
+---> The original commit sha is - 1306029ce16c6619d7c9014b034df3670ca0dcab
+Commit message - update delegator links
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 74 is -> 
+{ fb44fe06778353dff97faf16e33245d1708d16ea -> cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c } is a cherrypick
+{ 7081ad7d0e193c0140cccfc902ee7d505f940602 -> 1306029ce16c6619d7c9014b034df3670ca0dcab }
+Partial Cherry-pick commits SHA are -> 
+cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c - cherrypick - 1306029ce16c6619d7c9014b034df3670ca0dcab
+---> The cherrypicked commit sha is - cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c
+Commit message - enviroments description added to Readme
+---> The original commit sha is - 1306029ce16c6619d7c9014b034df3670ca0dcab
+Commit message - update delegator links
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 75 is -> 
+{ e694690fa74e79fc95c87e86955c59c7664f9cc0 -> 1f1455008d7e4e57b52fda2d8c8d0836a8a20a6b } is a cherrypick
+{ 7081ad7d0e193c0140cccfc902ee7d505f940602 -> 1306029ce16c6619d7c9014b034df3670ca0dcab }
+Partial Cherry-pick commits SHA are -> 
+1f1455008d7e4e57b52fda2d8c8d0836a8a20a6b - cherrypick - 1306029ce16c6619d7c9014b034df3670ca0dcab
+---> The cherrypicked commit sha is - 1f1455008d7e4e57b52fda2d8c8d0836a8a20a6b
+Commit message - Merge branch 'extend-main'
+---> The original commit sha is - 1306029ce16c6619d7c9014b034df3670ca0dcab
+Commit message - update delegator links
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 76 is -> 
+{ 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f -> be1f01fd33c182457ca1e777662bd8a52730eb41 } is a cherrypick
+{ ca0636444b7071985b256987409649561f5eb4f4 -> 7081ad7d0e193c0140cccfc902ee7d505f940602 }
+Partial Cherry-pick commits SHA are -> 
+be1f01fd33c182457ca1e777662bd8a52730eb41 - cherrypick - 7081ad7d0e193c0140cccfc902ee7d505f940602
+---> The cherrypicked commit sha is - be1f01fd33c182457ca1e777662bd8a52730eb41
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - 7081ad7d0e193c0140cccfc902ee7d505f940602
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 77 is -> 
+{ 6fab02c6d381648da473431050aa632afb2e32c4 -> 7abe19cc59d3dc6b6be160df5af7585e2c0038fc } is a cherrypick
+{ e5d511fbe0ace00df64493be313b31871447a6fb -> 4ff6a8c65f963944272f265bdbdc4ca720a71ae0 }
+Partial Cherry-pick commits SHA are -> 
+7abe19cc59d3dc6b6be160df5af7585e2c0038fc - cherrypick - 4ff6a8c65f963944272f265bdbdc4ca720a71ae0
+---> The cherrypicked commit sha is - 7abe19cc59d3dc6b6be160df5af7585e2c0038fc
+Commit message - README: show how to define helper functions in a separate `module`
+
+Developers might prefer to define helpers in a separate `module`, particularly
+for modular apps, so let's provide an example in the docs.
+
+Signed-off-by: Anurag Priyam <anurag08priyam@gmail.com>
+---> The original commit sha is - 4ff6a8c65f963944272f265bdbdc4ca720a71ae0
+Commit message - Merge pull request #440 from yeban/readme
+
+README: show how to define helper functions in a separate `module`
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 78 is -> 
+{ 7abe19cc59d3dc6b6be160df5af7585e2c0038fc -> b3a36cfce0ec824a913f082a3efe7dae90851913 } is a cherrypick
+{ df195cdd22f9c8f4d1fbc6e82c23d396e3c2adb8 -> d9c0828de60cdebf712b8c8453e51f1ddf1280eb }
+Partial Cherry-pick commits SHA are -> 
+b3a36cfce0ec824a913f082a3efe7dae90851913 - cherrypick - d9c0828de60cdebf712b8c8453e51f1ddf1280eb
+---> The cherrypicked commit sha is - b3a36cfce0ec824a913f082a3efe7dae90851913
+Commit message - Merge pull request #439 from ohhgabriel/readme-es
+
+Spanish readme updates
+---> The original commit sha is - d9c0828de60cdebf712b8c8453e51f1ddf1280eb
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+README.es.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 79 is -> 
+{ 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f -> be1f01fd33c182457ca1e777662bd8a52730eb41 } is a cherrypick
+{ e111243e813ede1f0f4c6918d9a8cc029e776fc3 -> e694690fa74e79fc95c87e86955c59c7664f9cc0 }
+Partial Cherry-pick commits SHA are -> 
+be1f01fd33c182457ca1e777662bd8a52730eb41 - cherrypick - e694690fa74e79fc95c87e86955c59c7664f9cc0
+---> The cherrypicked commit sha is - be1f01fd33c182457ca1e777662bd8a52730eb41
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - e694690fa74e79fc95c87e86955c59c7664f9cc0
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 80 is -> 
+{ 393640ef7730ef481c9663af11502d0a08d6ca20 -> 48e167317ea9d15c957af8e0e600cc837e46c0a4 } is a cherrypick
+{ fb44fe06778353dff97faf16e33245d1708d16ea -> cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c }
+Partial Cherry-pick commits SHA are -> 
+48e167317ea9d15c957af8e0e600cc837e46c0a4 - cherrypick - cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c
+---> The cherrypicked commit sha is - 48e167317ea9d15c957af8e0e600cc837e46c0a4
+Commit message - properly implement If-Matches and If-None-Matches handling according to RFC 2616, fixes #355
+---> The original commit sha is - cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c
+Commit message - enviroments description added to Readme
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 81 is -> 
+{ cf27ad4196a230b9babf14f0b819ee351aba6f7b -> 470d5cd6cd50437f5b9d83eed462b36094a1a3a7 } is a cherrypick
+{ fb44fe06778353dff97faf16e33245d1708d16ea -> cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c }
+Partial Cherry-pick commits SHA are -> 
+470d5cd6cd50437f5b9d83eed462b36094a1a3a7 - cherrypick - cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c
+---> The cherrypicked commit sha is - 470d5cd6cd50437f5b9d83eed462b36094a1a3a7
+Commit message - add note about shotgun
+---> The original commit sha is - cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c
+Commit message - enviroments description added to Readme
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 82 is -> 
+{ 78bc4449f2742c340e75b9cdf0ec5be9f335d6ac -> eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f } is a cherrypick
+{ fb44fe06778353dff97faf16e33245d1708d16ea -> cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c }
+Partial Cherry-pick commits SHA are -> 
+eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f - cherrypick - cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c
+---> The cherrypicked commit sha is - eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f
+Commit message - Improve settings descriptions in README
+---> The original commit sha is - cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c
+Commit message - enviroments description added to Readme
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 83 is -> 
+{ be1f01fd33c182457ca1e777662bd8a52730eb41 -> 775d460df120f60c4a68374c4b477f3ae157f0a7 } is a cherrypick
+{ fb44fe06778353dff97faf16e33245d1708d16ea -> cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c }
+Partial Cherry-pick commits SHA are -> 
+775d460df120f60c4a68374c4b477f3ae157f0a7 - cherrypick - cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c
+---> The cherrypicked commit sha is - 775d460df120f60c4a68374c4b477f3ae157f0a7
+Commit message - fix typo in readme about protection
+---> The original commit sha is - cbfe4d8b097a25255cc6d782eb67f4b4d3af4d8c
+Commit message - enviroments description added to Readme
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 84 is -> 
+{ 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f -> be1f01fd33c182457ca1e777662bd8a52730eb41 } is a cherrypick
+{ 48fdb6de17e9c74e044302b7cbf06e940ede6f26 -> fb44fe06778353dff97faf16e33245d1708d16ea }
+Partial Cherry-pick commits SHA are -> 
+be1f01fd33c182457ca1e777662bd8a52730eb41 - cherrypick - fb44fe06778353dff97faf16e33245d1708d16ea
+---> The cherrypicked commit sha is - be1f01fd33c182457ca1e777662bd8a52730eb41
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - fb44fe06778353dff97faf16e33245d1708d16ea
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 85 is -> 
+{ 393640ef7730ef481c9663af11502d0a08d6ca20 -> 48e167317ea9d15c957af8e0e600cc837e46c0a4 } is a cherrypick
+{ 52b6a5c6d2ef292b1b33de9f1808764bc1ff2ecb -> 2d604ccfe84da7595d2de4befa7bbe38f9d4629c }
+Partial Cherry-pick commits SHA are -> 
+48e167317ea9d15c957af8e0e600cc837e46c0a4 - cherrypick - 2d604ccfe84da7595d2de4befa7bbe38f9d4629c
+---> The cherrypicked commit sha is - 48e167317ea9d15c957af8e0e600cc837e46c0a4
+Commit message - properly implement If-Matches and If-None-Matches handling according to RFC 2616, fixes #355
+---> The original commit sha is - 2d604ccfe84da7595d2de4befa7bbe38f9d4629c
+Commit message - fix a typo in a comment
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 86 is -> 
+{ 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f -> be1f01fd33c182457ca1e777662bd8a52730eb41 } is a cherrypick
+{ 5304467e1350257c368f4990a801572604a3b519 -> 52b6a5c6d2ef292b1b33de9f1808764bc1ff2ecb }
+Partial Cherry-pick commits SHA are -> 
+be1f01fd33c182457ca1e777662bd8a52730eb41 - cherrypick - 52b6a5c6d2ef292b1b33de9f1808764bc1ff2ecb
+---> The cherrypicked commit sha is - be1f01fd33c182457ca1e777662bd8a52730eb41
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - 52b6a5c6d2ef292b1b33de9f1808764bc1ff2ecb
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 87 is -> 
+{ 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f -> be1f01fd33c182457ca1e777662bd8a52730eb41 } is a cherrypick
+{ fac10a794099bd7d20bce3932aab6237170debfd -> 45949dcd425802e68d2adfe8881319ab71536d7d }
+Partial Cherry-pick commits SHA are -> 
+be1f01fd33c182457ca1e777662bd8a52730eb41 - cherrypick - 45949dcd425802e68d2adfe8881319ab71536d7d
+---> The cherrypicked commit sha is - be1f01fd33c182457ca1e777662bd8a52730eb41
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - 45949dcd425802e68d2adfe8881319ab71536d7d
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 88 is -> 
+{ 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f -> be1f01fd33c182457ca1e777662bd8a52730eb41 } is a cherrypick
+{ ab3fcd9c18e2ed82fa0b48eb779566c653391764 -> afef2dbedf2dbe1d5cde64b9e7b026e5582be790 }
+Partial Cherry-pick commits SHA are -> 
+be1f01fd33c182457ca1e777662bd8a52730eb41 - cherrypick - afef2dbedf2dbe1d5cde64b9e7b026e5582be790
+---> The cherrypicked commit sha is - be1f01fd33c182457ca1e777662bd8a52730eb41
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - afef2dbedf2dbe1d5cde64b9e7b026e5582be790
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 89 is -> 
+{ c70777dfe32a5e8dbf9adf70c6b72627ea9c3133 -> 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f } is a cherrypick
+{ 7447d692b89ce0de24bd099e1c6d75ee6a4cbadd -> ab3fcd9c18e2ed82fa0b48eb779566c653391764 }
+Partial Cherry-pick commits SHA are -> 
+179981df7b44bc3d0bf82a10bbe09d8dc2735f3f - cherrypick - ab3fcd9c18e2ed82fa0b48eb779566c653391764
+---> The cherrypicked commit sha is - 179981df7b44bc3d0bf82a10bbe09d8dc2735f3f
+Commit message - add description to command line options, reorder them as in readme
+---> The original commit sha is - ab3fcd9c18e2ed82fa0b48eb779566c653391764
+Commit message - Merge pull request #416 from lest/command-line-options-help
+
+add description to command line options, reorder them as in readme
+---> The files with partial_cherrypicks are:-
+lib/sinatra/main.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 90 is -> 
+{ 393640ef7730ef481c9663af11502d0a08d6ca20 -> 48e167317ea9d15c957af8e0e600cc837e46c0a4 } is a cherrypick
+{ be1f01fd33c182457ca1e777662bd8a52730eb41 -> 775d460df120f60c4a68374c4b477f3ae157f0a7 }
+Partial Cherry-pick commits SHA are -> 
+48e167317ea9d15c957af8e0e600cc837e46c0a4 - cherrypick - 775d460df120f60c4a68374c4b477f3ae157f0a7
+---> The cherrypicked commit sha is - 48e167317ea9d15c957af8e0e600cc837e46c0a4
+Commit message - properly implement If-Matches and If-None-Matches handling according to RFC 2616, fixes #355
+---> The original commit sha is - 775d460df120f60c4a68374c4b477f3ae157f0a7
+Commit message - fix typo in readme about protection
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 91 is -> 
+{ 78bc4449f2742c340e75b9cdf0ec5be9f335d6ac -> eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f } is a cherrypick
+{ be1f01fd33c182457ca1e777662bd8a52730eb41 -> 775d460df120f60c4a68374c4b477f3ae157f0a7 }
+Partial Cherry-pick commits SHA are -> 
+eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f - cherrypick - 775d460df120f60c4a68374c4b477f3ae157f0a7
+---> The cherrypicked commit sha is - eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f
+Commit message - Improve settings descriptions in README
+---> The original commit sha is - 775d460df120f60c4a68374c4b477f3ae157f0a7
+Commit message - fix typo in readme about protection
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 92 is -> 
+{ 393640ef7730ef481c9663af11502d0a08d6ca20 -> 48e167317ea9d15c957af8e0e600cc837e46c0a4 } is a cherrypick
+{ 78bc4449f2742c340e75b9cdf0ec5be9f335d6ac -> eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f }
+Partial Cherry-pick commits SHA are -> 
+48e167317ea9d15c957af8e0e600cc837e46c0a4 - cherrypick - eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f
+---> The cherrypicked commit sha is - 48e167317ea9d15c957af8e0e600cc837e46c0a4
+Commit message - properly implement If-Matches and If-None-Matches handling according to RFC 2616, fixes #355
+---> The original commit sha is - eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f
+Commit message - Improve settings descriptions in README
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 93 is -> 
+{ cf27ad4196a230b9babf14f0b819ee351aba6f7b -> 470d5cd6cd50437f5b9d83eed462b36094a1a3a7 } is a cherrypick
+{ 78bc4449f2742c340e75b9cdf0ec5be9f335d6ac -> eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f }
+Partial Cherry-pick commits SHA are -> 
+470d5cd6cd50437f5b9d83eed462b36094a1a3a7 - cherrypick - eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f
+---> The cherrypicked commit sha is - 470d5cd6cd50437f5b9d83eed462b36094a1a3a7
+Commit message - add note about shotgun
+---> The original commit sha is - eb0b5c30e6ac2cf9845929a4c55c4fb70f88208f
+Commit message - Improve settings descriptions in README
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 94 is -> 
+{ 393640ef7730ef481c9663af11502d0a08d6ca20 -> 48e167317ea9d15c957af8e0e600cc837e46c0a4 } is a cherrypick
+{ cf27ad4196a230b9babf14f0b819ee351aba6f7b -> 470d5cd6cd50437f5b9d83eed462b36094a1a3a7 }
+Partial Cherry-pick commits SHA are -> 
+48e167317ea9d15c957af8e0e600cc837e46c0a4 - cherrypick - 470d5cd6cd50437f5b9d83eed462b36094a1a3a7
+---> The cherrypicked commit sha is - 48e167317ea9d15c957af8e0e600cc837e46c0a4
+Commit message - properly implement If-Matches and If-None-Matches handling according to RFC 2616, fixes #355
+---> The original commit sha is - 470d5cd6cd50437f5b9d83eed462b36094a1a3a7
+Commit message - add note about shotgun
+---> The files with partial_cherrypicks are:-
+README.fr.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 95 is -> 
+{ 855e5671adc37b023f553a812c502bd6c7ee3b1e -> 25e8aec3335b0808b9ce822186b00e79122a9ad1 } is a cherrypick
+{ 678fdfb8c6bcea5f29000939304a4071f08538f5 -> c7a7376874428fd26b6dc3db293f1079d60b80d7 }
+Partial Cherry-pick commits SHA are -> 
+25e8aec3335b0808b9ce822186b00e79122a9ad1 - cherrypick - c7a7376874428fd26b6dc3db293f1079d60b80d7
+---> The cherrypicked commit sha is - 25e8aec3335b0808b9ce822186b00e79122a9ad1
+Commit message - book-contrib is now recipes
+---> The original commit sha is - c7a7376874428fd26b6dc3db293f1079d60b80d7
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+README.de.rdoc
+README.es.rdoc
+README.fr.rdoc
+README.ru.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 96 is -> 
+{ f602a162b79eafd6a725d02753886e512e363c48 -> 0c69c7ef97b4401f92066a30bd956d6ede0b733e } is a cherrypick
+{ 13f619d19624a53b118e2b0c462659d5cfb478a7 -> 2d85b04ad01df49766de47438f79db47498f26ce }
+Partial Cherry-pick commits SHA are -> 
+0c69c7ef97b4401f92066a30bd956d6ede0b733e - cherrypick - 2d85b04ad01df49766de47438f79db47498f26ce
+---> The cherrypicked commit sha is - 0c69c7ef97b4401f92066a30bd956d6ede0b733e
+Commit message - fix typo in readme
+---> The original commit sha is - 2d85b04ad01df49766de47438f79db47498f26ce
+Commit message - Merge pull request #357 from ohhgabriel/readme-typo
+
+fix typo in readme
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 97 is -> 
+{ 5a23b3694a0fa2ab4c17be2cec093dec37b34d73 -> b7b289053bde6c6193db4db26821d69edf565315 } is a cherrypick
+{ d03d1d994bc43a41ed2ac4e56a31f865704c00b4 -> a37e6f7f62fca69520ce717eadb78a1179f7c80f }
+Partial Cherry-pick commits SHA are -> 
+b7b289053bde6c6193db4db26821d69edf565315 - cherrypick - a37e6f7f62fca69520ce717eadb78a1179f7c80f
+---> The cherrypicked commit sha is - b7b289053bde6c6193db4db26821d69edf565315
+Commit message - change the stream API while we still can
+---> The original commit sha is - a37e6f7f62fca69520ce717eadb78a1179f7c80f
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+lib/sinatra/base.rb
+test/streaming_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 98 is -> 
+{ 7ce7dc9fce8f6b00009cc3c561c6aa6bf8b15c4d -> 48cfb81fdb52ef554023dad016537bc98ef3d8b8 } is a cherrypick
+{ e187ec85eeefc3283ae340b509875ea39a7a9fc0 -> 148f1acd838f8b45d3e81451ab247bb78acfd1ab }
+Partial Cherry-pick commits SHA are -> 
+48cfb81fdb52ef554023dad016537bc98ef3d8b8 - cherrypick - 148f1acd838f8b45d3e81451ab247bb78acfd1ab
+---> The cherrypicked commit sha is - 48cfb81fdb52ef554023dad016537bc98ef3d8b8
+Commit message - Merge pull request #290 from burningTyger/readme_de
+
+update German README
+---> The original commit sha is - 148f1acd838f8b45d3e81451ab247bb78acfd1ab
+Commit message - Merge pull request #292 from timfel/maglev
+
+Add ci_reporter, so you may have nice junit reports on the CI
+---> The files with partial_cherrypicks are:-
+README.de.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 99 is -> 
+{ 604e7477edd8ab68a2b970fe05920dc3c45aa332 -> 7ce7dc9fce8f6b00009cc3c561c6aa6bf8b15c4d } is a cherrypick
+{ 48cfb81fdb52ef554023dad016537bc98ef3d8b8 -> c885b629cf695f2e7b7af744ad4c2067a83e5abb }
+Partial Cherry-pick commits SHA are -> 
+7ce7dc9fce8f6b00009cc3c561c6aa6bf8b15c4d - cherrypick - c885b629cf695f2e7b7af744ad4c2067a83e5abb
+---> The cherrypicked commit sha is - 7ce7dc9fce8f6b00009cc3c561c6aa6bf8b15c4d
+Commit message - Use a 'real' bogus number string for the Time parsing error test. mktime() on different OSs disagree about the invalidity of "1000" as a time
+---> The original commit sha is - c885b629cf695f2e7b7af744ad4c2067a83e5abb
+Commit message - Merge pull request #291 from timfel/maglev
+
+Fix for Time.parse test in test_helper.rb
+---> The files with partial_cherrypicks are:-
+test/helpers_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 100 is -> 
+{ 3c57794d01662433e0dccb45acf92c8a1d8621a8 -> f4efd432c0ac8174ffc736f60c1ba07e2d2716ec } is a cherrypick
+{ aed0132a908fc39d0853e1353c1447683e6ccbc2 -> 5aeb338eb1f725108777a880a8e3d17efae3049a }
+Partial Cherry-pick commits SHA are -> 
+f4efd432c0ac8174ffc736f60c1ba07e2d2716ec - cherrypick - 5aeb338eb1f725108777a880a8e3d17efae3049a
+---> The cherrypicked commit sha is - f4efd432c0ac8174ffc736f60c1ba07e2d2716ec
+Commit message - fix copy/paste error in readme
+---> The original commit sha is - 5aeb338eb1f725108777a880a8e3d17efae3049a
+Commit message - Merge pull request #279 from ohhgabriel/readme-fix
+
+fix copy/paste error in readme
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 101 is -> 
+{ 63030b7f1dbc4a91bf027490de05e539f2dafb83 -> c52cf64c15e7daf9fba595fada52b7d82167501e } is a cherrypick
+{ 010965dc295d3db087e67f8f87a5d11c5501891d -> 968dce35d7168887a7658d2ba237be426e5bbd41 }
+Partial Cherry-pick commits SHA are -> 
+c52cf64c15e7daf9fba595fada52b7d82167501e - cherrypick - 968dce35d7168887a7658d2ba237be426e5bbd41
+---> The cherrypicked commit sha is - c52cf64c15e7daf9fba595fada52b7d82167501e
+Commit message - language and formatting in README
+---> The original commit sha is - 968dce35d7168887a7658d2ba237be426e5bbd41
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 102 is -> 
+{ d59748c13ef1c6f14070acb388bd0b587db5b2e4 -> 26703870b0d4104d87efa412b2f4c440d6bd13d4 } is a cherrypick
+{ 6c720945925b4c90fcf37f15cceef11193055161 -> e9f7e8d5e7fcdcb3a705c09db7f057d27aeb0ec2 }
+Partial Cherry-pick commits SHA are -> 
+26703870b0d4104d87efa412b2f4c440d6bd13d4 - cherrypick - e9f7e8d5e7fcdcb3a705c09db7f057d27aeb0ec2
+---> The cherrypicked commit sha is - 26703870b0d4104d87efa412b2f4c440d6bd13d4
+Commit message - start working on README tests
+---> The original commit sha is - e9f7e8d5e7fcdcb3a705c09db7f057d27aeb0ec2
+Commit message - Merge pull request #262 from baldowl/readme_tweaks.
+
+Readme tweaks
+---> The files with partial_cherrypicks are:-
+sinatra.gemspec
+test/helper.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 103 is -> 
+{ a7bf182e08d79704c75994d91350a6d64be15870 -> b904d287bc7b47c62a2af4d49ba23f6701860bdc } is a cherrypick
+{ cb5276707dcc064b47319a3f85211507dedb3750 -> 19a59ea4401109b47cfe539e1b0b6ff3b4819e3b }
+Partial Cherry-pick commits SHA are -> 
+b904d287bc7b47c62a2af4d49ba23f6701860bdc - cherrypick - 19a59ea4401109b47cfe539e1b0b6ff3b4819e3b
+---> The cherrypicked commit sha is - b904d287bc7b47c62a2af4d49ba23f6701860bdc
+Commit message - Updated year to 2011
+---> The original commit sha is - 19a59ea4401109b47cfe539e1b0b6ff3b4819e3b
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+LICENSE
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 104 is -> 
+{ 039675f4b41176f56bcd167715714c95f338b050 -> 397708b197b455d709680bac19237b0d4e72d72c } is a cherrypick
+{ 250968080e4de575e1effb54ff3175e9051c7038 -> a7bf182e08d79704c75994d91350a6d64be15870 }
+Partial Cherry-pick commits SHA are -> 
+397708b197b455d709680bac19237b0d4e72d72c - cherrypick - a7bf182e08d79704c75994d91350a6d64be15870
+---> The cherrypicked commit sha is - 397708b197b455d709680bac19237b0d4e72d72c
+Commit message - fix typo
+
+Signed-off-by: Konstantin Haase <konstantin.mailinglists@googlemail.com>
+---> The original commit sha is - a7bf182e08d79704c75994d91350a6d64be15870
+Commit message - sass 3.1 has been released
+---> The files with partial_cherrypicks are:-
+sinatra.gemspec
+test/creole_test.rb
+test/erb_test.rb
+test/erubis_test.rb
+test/helper.rb
+test/helpers_test.rb
+test/markdown_test.rb
+test/radius_test.rb
+test/rdoc_test.rb
+test/textile_test.rb
+test/views/error.erubis
+test/views/hello.creole
+test/views/hello.erubis
+test/views/layout2.erubis
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 105 is -> 
+{ 59e869821e8c42f5f7fc5f68e0ed3eb4d5f5085c -> 6ad90f55e566eafd4aa7e9d40a02b087df5a3b08 } is a cherrypick
+{ 250968080e4de575e1effb54ff3175e9051c7038 -> a7bf182e08d79704c75994d91350a6d64be15870 }
+Partial Cherry-pick commits SHA are -> 
+6ad90f55e566eafd4aa7e9d40a02b087df5a3b08 - cherrypick - a7bf182e08d79704c75994d91350a6d64be15870
+---> The cherrypicked commit sha is - 6ad90f55e566eafd4aa7e9d40a02b087df5a3b08
+Commit message - Merge branch 'master' into tilt-1.3
+---> The original commit sha is - a7bf182e08d79704c75994d91350a6d64be15870
+Commit message - sass 3.1 has been released
+---> The files with partial_cherrypicks are:-
+CHANGES
+README.fr.rdoc
+README.jp.rdoc
+README.ru.rdoc
+README.zh.rdoc
+sinatra.gemspec
+test/creole_test.rb
+test/erb_test.rb
+test/erubis_test.rb
+test/helper.rb
+test/helpers_test.rb
+test/markdown_test.rb
+test/radius_test.rb
+test/rdoc_test.rb
+test/textile_test.rb
+test/views/error.erubis
+test/views/hello.creole
+test/views/hello.erubis
+test/views/layout2.erubis
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 106 is -> 
+{ 763952490ec311bac5ef92ea2c38349cda8f4d9d -> 0e5d705636cbe81e3fd755e07c4165e8250695e7 } is a cherrypick
+{ 250968080e4de575e1effb54ff3175e9051c7038 -> a7bf182e08d79704c75994d91350a6d64be15870 }
+Partial Cherry-pick commits SHA are -> 
+0e5d705636cbe81e3fd755e07c4165e8250695e7 - cherrypick - a7bf182e08d79704c75994d91350a6d64be15870
+---> The cherrypicked commit sha is - 0e5d705636cbe81e3fd755e07c4165e8250695e7
+Commit message - add book and book-contrib to 'further reading'
+
+Signed-off-by: Konstantin Haase <konstantin.mailinglists@googlemail.com>
+---> The original commit sha is - a7bf182e08d79704c75994d91350a6d64be15870
+Commit message - sass 3.1 has been released
+---> The files with partial_cherrypicks are:-
+CHANGES
+README.fr.rdoc
+README.jp.rdoc
+README.ru.rdoc
+README.zh.rdoc
+sinatra.gemspec
+test/creole_test.rb
+test/erb_test.rb
+test/erubis_test.rb
+test/helper.rb
+test/helpers_test.rb
+test/markdown_test.rb
+test/radius_test.rb
+test/rdoc_test.rb
+test/textile_test.rb
+test/views/error.erubis
+test/views/hello.creole
+test/views/hello.erubis
+test/views/layout2.erubis
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 107 is -> 
+{ 9ce9e543e03e5e56e1b9d12a3adb98dc1f31a963 -> 1632f24b7d15e846d676dfd93d2cfeeafbaf03fb } is a cherrypick
+{ 0e5d705636cbe81e3fd755e07c4165e8250695e7 -> aabf7b79efa11bfcea1980ad893dacd6cfc66163 }
+Partial Cherry-pick commits SHA are -> 
+1632f24b7d15e846d676dfd93d2cfeeafbaf03fb - cherrypick - aabf7b79efa11bfcea1980ad893dacd6cfc66163
+---> The cherrypicked commit sha is - 1632f24b7d15e846d676dfd93d2cfeeafbaf03fb
+Commit message - detect whether a second argument was passed to #set correctly
+---> The original commit sha is - aabf7b79efa11bfcea1980ad893dacd6cfc66163
+Commit message - German Readme - rubydoc link for API
+
+Signed-off-by: Konstantin Haase <konstantin.mailinglists@googlemail.com>
+---> The files with partial_cherrypicks are:-
+CHANGES
+Gemfile
+README.es.rdoc
+README.fr.rdoc
+README.jp.rdoc
+README.ru.rdoc
+README.zh.rdoc
+sinatra.gemspec
+test/creole_test.rb
+test/erb_test.rb
+test/erubis_test.rb
+test/helper.rb
+test/helpers_test.rb
+test/markdown_test.rb
+test/radius_test.rb
+test/rdoc_test.rb
+test/textile_test.rb
+test/views/error.erubis
+test/views/hello.creole
+test/views/hello.erubis
+test/views/layout2.erubis
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 108 is -> 
+{ 397708b197b455d709680bac19237b0d4e72d72c -> 170cc940556aa2b98168f726ec9120eb3d56bcea } is a cherrypick
+{ 0e5d705636cbe81e3fd755e07c4165e8250695e7 -> aabf7b79efa11bfcea1980ad893dacd6cfc66163 }
+Partial Cherry-pick commits SHA are -> 
+170cc940556aa2b98168f726ec9120eb3d56bcea - cherrypick - aabf7b79efa11bfcea1980ad893dacd6cfc66163
+---> The cherrypicked commit sha is - 170cc940556aa2b98168f726ec9120eb3d56bcea
+Commit message - set encoding for yard, fixes #244
+---> The original commit sha is - aabf7b79efa11bfcea1980ad893dacd6cfc66163
+Commit message - German Readme - rubydoc link for API
+
+Signed-off-by: Konstantin Haase <konstantin.mailinglists@googlemail.com>
+---> The files with partial_cherrypicks are:-
+Gemfile
+sinatra.gemspec
+test/creole_test.rb
+test/erb_test.rb
+test/erubis_test.rb
+test/helper.rb
+test/helpers_test.rb
+test/markdown_test.rb
+test/radius_test.rb
+test/rdoc_test.rb
+test/textile_test.rb
+test/views/error.erubis
+test/views/hello.creole
+test/views/hello.erubis
+test/views/layout2.erubis
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 109 is -> 
+{ 0f0fa46e392fc74bcebcf998558c1e9c30d301b7 -> 763952490ec311bac5ef92ea2c38349cda8f4d9d } is a cherrypick
+{ 0e5d705636cbe81e3fd755e07c4165e8250695e7 -> aabf7b79efa11bfcea1980ad893dacd6cfc66163 }
+Partial Cherry-pick commits SHA are -> 
+763952490ec311bac5ef92ea2c38349cda8f4d9d - cherrypick - aabf7b79efa11bfcea1980ad893dacd6cfc66163
+---> The cherrypicked commit sha is - 763952490ec311bac5ef92ea2c38349cda8f4d9d
+Commit message - document static in Sinatra::Base vs. Sinatra::Application
+---> The original commit sha is - aabf7b79efa11bfcea1980ad893dacd6cfc66163
+Commit message - German Readme - rubydoc link for API
+
+Signed-off-by: Konstantin Haase <konstantin.mailinglists@googlemail.com>
+---> The files with partial_cherrypicks are:-
+CHANGES
+Gemfile
+README.es.rdoc
+README.fr.rdoc
+README.jp.rdoc
+README.ru.rdoc
+README.zh.rdoc
+lib/sinatra/base.rb
+sinatra.gemspec
+test/creole_test.rb
+test/erb_test.rb
+test/erubis_test.rb
+test/helper.rb
+test/helpers_test.rb
+test/markdown_test.rb
+test/radius_test.rb
+test/rdoc_test.rb
+test/textile_test.rb
+test/views/error.erubis
+test/views/hello.creole
+test/views/hello.erubis
+test/views/layout2.erubis
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 110 is -> 
+{ 039675f4b41176f56bcd167715714c95f338b050 -> 397708b197b455d709680bac19237b0d4e72d72c } is a cherrypick
+{ 763952490ec311bac5ef92ea2c38349cda8f4d9d -> 0e5d705636cbe81e3fd755e07c4165e8250695e7 }
+Partial Cherry-pick commits SHA are -> 
+397708b197b455d709680bac19237b0d4e72d72c - cherrypick - 0e5d705636cbe81e3fd755e07c4165e8250695e7
+---> The cherrypicked commit sha is - 397708b197b455d709680bac19237b0d4e72d72c
+Commit message - fix typo
+
+Signed-off-by: Konstantin Haase <konstantin.mailinglists@googlemail.com>
+---> The original commit sha is - 0e5d705636cbe81e3fd755e07c4165e8250695e7
+Commit message - add book and book-contrib to 'further reading'
+
+Signed-off-by: Konstantin Haase <konstantin.mailinglists@googlemail.com>
+---> The files with partial_cherrypicks are:-
+Gemfile
+sinatra.gemspec
+test/creole_test.rb
+test/erb_test.rb
+test/erubis_test.rb
+test/helper.rb
+test/helpers_test.rb
+test/markdown_test.rb
+test/radius_test.rb
+test/rdoc_test.rb
+test/textile_test.rb
+test/views/error.erubis
+test/views/hello.creole
+test/views/hello.erubis
+test/views/layout2.erubis
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 111 is -> 
+{ 59e869821e8c42f5f7fc5f68e0ed3eb4d5f5085c -> 6ad90f55e566eafd4aa7e9d40a02b087df5a3b08 } is a cherrypick
+{ 763952490ec311bac5ef92ea2c38349cda8f4d9d -> 0e5d705636cbe81e3fd755e07c4165e8250695e7 }
+Partial Cherry-pick commits SHA are -> 
+6ad90f55e566eafd4aa7e9d40a02b087df5a3b08 - cherrypick - 0e5d705636cbe81e3fd755e07c4165e8250695e7
+---> The cherrypicked commit sha is - 6ad90f55e566eafd4aa7e9d40a02b087df5a3b08
+Commit message - Merge branch 'master' into tilt-1.3
+---> The original commit sha is - 0e5d705636cbe81e3fd755e07c4165e8250695e7
+Commit message - add book and book-contrib to 'further reading'
+
+Signed-off-by: Konstantin Haase <konstantin.mailinglists@googlemail.com>
+---> The files with partial_cherrypicks are:-
+CHANGES
+Gemfile
+README.de.rdoc
+README.es.rdoc
+README.fr.rdoc
+README.jp.rdoc
+README.ru.rdoc
+README.zh.rdoc
+lib/sinatra/base.rb
+sinatra.gemspec
+test/creole_test.rb
+test/erb_test.rb
+test/erubis_test.rb
+test/helper.rb
+test/helpers_test.rb
+test/markdown_test.rb
+test/radius_test.rb
+test/rdoc_test.rb
+test/textile_test.rb
+test/views/error.erubis
+test/views/hello.creole
+test/views/hello.erubis
+test/views/layout2.erubis
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 112 is -> 
+{ 9ce9e543e03e5e56e1b9d12a3adb98dc1f31a963 -> 1632f24b7d15e846d676dfd93d2cfeeafbaf03fb } is a cherrypick
+{ 0f0fa46e392fc74bcebcf998558c1e9c30d301b7 -> 763952490ec311bac5ef92ea2c38349cda8f4d9d }
+Partial Cherry-pick commits SHA are -> 
+1632f24b7d15e846d676dfd93d2cfeeafbaf03fb - cherrypick - 763952490ec311bac5ef92ea2c38349cda8f4d9d
+---> The cherrypicked commit sha is - 1632f24b7d15e846d676dfd93d2cfeeafbaf03fb
+Commit message - detect whether a second argument was passed to #set correctly
+---> The original commit sha is - 763952490ec311bac5ef92ea2c38349cda8f4d9d
+Commit message - document static in Sinatra::Base vs. Sinatra::Application
+---> The files with partial_cherrypicks are:-
+CHANGES
+Gemfile
+README.de.rdoc
+README.es.rdoc
+README.fr.rdoc
+README.jp.rdoc
+README.ru.rdoc
+README.zh.rdoc
+sinatra.gemspec
+test/creole_test.rb
+test/erb_test.rb
+test/erubis_test.rb
+test/helper.rb
+test/helpers_test.rb
+test/markdown_test.rb
+test/radius_test.rb
+test/rdoc_test.rb
+test/textile_test.rb
+test/views/error.erubis
+test/views/hello.creole
+test/views/hello.erubis
+test/views/layout2.erubis
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 113 is -> 
+{ 397708b197b455d709680bac19237b0d4e72d72c -> 170cc940556aa2b98168f726ec9120eb3d56bcea } is a cherrypick
+{ 0f0fa46e392fc74bcebcf998558c1e9c30d301b7 -> 763952490ec311bac5ef92ea2c38349cda8f4d9d }
+Partial Cherry-pick commits SHA are -> 
+170cc940556aa2b98168f726ec9120eb3d56bcea - cherrypick - 763952490ec311bac5ef92ea2c38349cda8f4d9d
+---> The cherrypicked commit sha is - 170cc940556aa2b98168f726ec9120eb3d56bcea
+Commit message - set encoding for yard, fixes #244
+---> The original commit sha is - 763952490ec311bac5ef92ea2c38349cda8f4d9d
+Commit message - document static in Sinatra::Base vs. Sinatra::Application
+---> The files with partial_cherrypicks are:-
+Gemfile
+sinatra.gemspec
+test/creole_test.rb
+test/erb_test.rb
+test/erubis_test.rb
+test/helper.rb
+test/helpers_test.rb
+test/markdown_test.rb
+test/radius_test.rb
+test/rdoc_test.rb
+test/textile_test.rb
+test/views/error.erubis
+test/views/hello.creole
+test/views/hello.erubis
+test/views/layout2.erubis
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 114 is -> 
+{ 039675f4b41176f56bcd167715714c95f338b050 -> 397708b197b455d709680bac19237b0d4e72d72c } is a cherrypick
+{ 59e869821e8c42f5f7fc5f68e0ed3eb4d5f5085c -> 6ad90f55e566eafd4aa7e9d40a02b087df5a3b08 }
+Partial Cherry-pick commits SHA are -> 
+397708b197b455d709680bac19237b0d4e72d72c - cherrypick - 6ad90f55e566eafd4aa7e9d40a02b087df5a3b08
+---> The cherrypicked commit sha is - 397708b197b455d709680bac19237b0d4e72d72c
+Commit message - fix typo
+
+Signed-off-by: Konstantin Haase <konstantin.mailinglists@googlemail.com>
+---> The original commit sha is - 6ad90f55e566eafd4aa7e9d40a02b087df5a3b08
+Commit message - Merge branch 'master' into tilt-1.3
+---> The files with partial_cherrypicks are:-
+Gemfile
+sinatra.gemspec
+test/creole_test.rb
+test/erb_test.rb
+test/erubis_test.rb
+test/helper.rb
+test/helpers_test.rb
+test/markdown_test.rb
+test/radius_test.rb
+test/rdoc_test.rb
+test/textile_test.rb
+test/views/error.erubis
+test/views/hello.creole
+test/views/hello.erubis
+test/views/layout2.erubis
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 115 is -> 
+{ 9b94ee6550dea87086f363f290fb6bf64a86c2d4 -> 3e641dbf667a8a717b209ec70eb938ba3962a27c } is a cherrypick
+{ afe9ddf7f37aba20e19f0822a8f2bac2baa4f07d -> dcd4d12b132c3addbf5808d06de3d54bc81023b9 }
+Partial Cherry-pick commits SHA are -> 
+3e641dbf667a8a717b209ec70eb938ba3962a27c - cherrypick - dcd4d12b132c3addbf5808d06de3d54bc81023b9
+---> The cherrypicked commit sha is - 3e641dbf667a8a717b209ec70eb938ba3962a27c
+Commit message - deprecate #erubis
+---> The original commit sha is - dcd4d12b132c3addbf5808d06de3d54bc81023b9
+Commit message - Merge branch 'master' into tilt-1.3
+---> The files with partial_cherrypicks are:-
+README.rdoc
+test/erubis_test.rb
+test/views/error.erubis
+test/views/hello.erubis
+test/views/layout2.erubis
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 116 is -> 
+{ 87bdb85ff16f37f0ea75303b77a61f2c48b385aa -> 893235ed9472eefee792f946ac08486d5fe9ad39 } is a cherrypick
+{ d0557f57c7de3dddb97dfe878a4037b4e9133e8f -> 7d3b99ecfe5b07b766320ebcfc844ed6d8e19cc1 }
+Partial Cherry-pick commits SHA are -> 
+893235ed9472eefee792f946ac08486d5fe9ad39 - cherrypick - 7d3b99ecfe5b07b766320ebcfc844ed6d8e19cc1
+---> The cherrypicked commit sha is - 893235ed9472eefee792f946ac08486d5fe9ad39
+Commit message - document logging
+---> The original commit sha is - 7d3b99ecfe5b07b766320ebcfc844ed6d8e19cc1
+Commit message - Merge branch 'better_logging'
+
+Conflicts:
+	CHANGES
+---> The files with partial_cherrypicks are:-
+lib/sinatra/base.rb
+test/helpers_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 117 is -> 
+{ 78bd56cc999f92325581c8456f51d2d17e52ef43 -> 66a7db6c9e56465906ae7ae1d281a1b193064184 } is a cherrypick
+{ e6788069e0502320d77ecf6fa4f2d63184a10843 -> ee2e348f5d14e82d5beb28d06826b46d3cc81aee }
+Partial Cherry-pick commits SHA are -> 
+66a7db6c9e56465906ae7ae1d281a1b193064184 - cherrypick - ee2e348f5d14e82d5beb28d06826b46d3cc81aee
+---> The cherrypicked commit sha is - 66a7db6c9e56465906ae7ae1d281a1b193064184
+Commit message - drop 1.8.6 support
+---> The original commit sha is - ee2e348f5d14e82d5beb28d06826b46d3cc81aee
+Commit message - Merge branch 'drop-1.8.6'
+
+Conflicts:
+	Gemfile
+	README.rdoc
+---> The files with partial_cherrypicks are:-
+README.rdoc
+lib/sinatra/base.rb
+sinatra.gemspec
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 118 is -> 
+{ 8adf3cab8053ab9ec4e6a39535167a78b7c6fda8 -> 87bdb85ff16f37f0ea75303b77a61f2c48b385aa } is a cherrypick
+{ 893235ed9472eefee792f946ac08486d5fe9ad39 -> fe3cf84e1406d1db8bc1b2fd543cc14a35d99d33 }
+Partial Cherry-pick commits SHA are -> 
+87bdb85ff16f37f0ea75303b77a61f2c48b385aa - cherrypick - fe3cf84e1406d1db8bc1b2fd543cc14a35d99d33
+---> The cherrypicked commit sha is - 87bdb85ff16f37f0ea75303b77a61f2c48b385aa
+Commit message - document session_secret
+---> The original commit sha is - fe3cf84e1406d1db8bc1b2fd543cc14a35d99d33
+Commit message - Merge branch 'master' into better_logging
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 119 is -> 
+{ 1d9034ff8086fc5e9c5ed61658cef4c950d32e4f -> 85a80e0152b26c0b31ccb189ec7e93821f10a26e } is a cherrypick
+{ 654eebb0548320ae7ae9f72977957fe4ad87ca3a -> 02cd96797d61a035e22b356eea27e4f189899ec3 }
+Partial Cherry-pick commits SHA are -> 
+85a80e0152b26c0b31ccb189ec7e93821f10a26e - cherrypick - 02cd96797d61a035e22b356eea27e4f189899ec3
+---> The cherrypicked commit sha is - 85a80e0152b26c0b31ccb189ec7e93821f10a26e
+Commit message - setup and expose logger
+---> The original commit sha is - 02cd96797d61a035e22b356eea27e4f189899ec3
+Commit message - Merge branch 'master' into better_logging
+
+Conflicts:
+	lib/sinatra/base.rb
+---> The files with partial_cherrypicks are:-
+test/helpers_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 120 is -> 
+{ 06ebbd97c0bec3443e7dda073bd0bfbf84d8d27e -> 9c0371165e58576736960568d5cdec3723689d28 } is a cherrypick
+{ 95924e30ea59d51b3373b70e06cced4e223c2d63 -> c326b1e1707b5427deb299f6df60b1b63a86b625 }
+Partial Cherry-pick commits SHA are -> 
+9c0371165e58576736960568d5cdec3723689d28 - cherrypick - c326b1e1707b5427deb299f6df60b1b63a86b625
+---> The cherrypicked commit sha is - 9c0371165e58576736960568d5cdec3723689d28
+Commit message - typo
+---> The original commit sha is - c326b1e1707b5427deb299f6df60b1b63a86b625
+Commit message - Merge branch 'master' of github.com:sinatra/sinatra
+---> The files with partial_cherrypicks are:-
+README.zh.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 121 is -> 
+{ 498812662465f2271b2a5c49c87dc1c8d500f724 -> 495cb350112fe435c9ebd8b280f0ec7316c3d2e1 } is a cherrypick
+{ 8753c6046b9f2ea39a0d3fedc35562dd5595e0f2 -> df18706ba6f61d73d29c92e189320c951cdd8561 }
+Partial Cherry-pick commits SHA are -> 
+495cb350112fe435c9ebd8b280f0ec7316c3d2e1 - cherrypick - df18706ba6f61d73d29c92e189320c951cdd8561
+---> The cherrypicked commit sha is - 495cb350112fe435c9ebd8b280f0ec7316c3d2e1
+Commit message - Update slim tests
+
+Signed-off-by: Konstantin Haase <konstantin.mailinglists@googlemail.com>
+---> The original commit sha is - df18706ba6f61d73d29c92e189320c951cdd8561
+Commit message - Merge branch 'slim'
+---> The files with partial_cherrypicks are:-
+sinatra.gemspec
+test/slim_test.rb
+test/views/hello.slim
+test/views/layout2.slim
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 122 is -> 
+{ 5c6332c358d95832fcf52adc86a7a9094c650bcc -> 1b2ab3a269b020024bb3854b93247f8f76f171e1 } is a cherrypick
+{ 799a956fcd4e7df7bba77ba6d852293b08a787ff -> 4d7d3636afe2689d8ed5e7ea8f976441cf99d2e3 }
+Partial Cherry-pick commits SHA are -> 
+1b2ab3a269b020024bb3854b93247f8f76f171e1 - cherrypick - 4d7d3636afe2689d8ed5e7ea8f976441cf99d2e3
+---> The cherrypicked commit sha is - 1b2ab3a269b020024bb3854b93247f8f76f171e1
+Commit message - ERubis support in to sinatra. With tests!
+
+Signed-off-by: Simon Rozet <simon@rozet.name>
+---> The original commit sha is - 4d7d3636afe2689d8ed5e7ea8f976441cf99d2e3
+Commit message - Revert "remove erubis test (let tilt handle this)"
+
+This reverts commit 3ac8cb76da7f91dc93eb533c1b063592cb80f2b9.
+
+Oops. I meant to take this out after adding the development
+dependencies. I still don't think it would be a bad idea to remove
+the template-engine specific tests from Sinatra, but I think
+we should do it across all engines, not just erubis.
+---> The files with partial_cherrypicks are:-
+test/erubis_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 123 is -> 
+{ dbdc13bf1fecfbbd426a49c6fe30943d74ff189c -> 4aefc7d024837e4a947fa978d621b4f019aeda1d } is a cherrypick
+{ f9a792396ca6172e983b7eb4d7fa2b30b3e3ccef -> 8d45055ac6a6440473844b6dbdbc09d59d1e3486 }
+Partial Cherry-pick commits SHA are -> 
+4aefc7d024837e4a947fa978d621b4f019aeda1d - cherrypick - 8d45055ac6a6440473844b6dbdbc09d59d1e3486
+---> The cherrypicked commit sha is - 4aefc7d024837e4a947fa978d621b4f019aeda1d
+Commit message - 0.3.3 release (pinned to rack ~> 0.4.0)
+---> The original commit sha is - 8d45055ac6a6440473844b6dbdbc09d59d1e3486
+Commit message - Get ride of unused fixture
+---> The files with partial_cherrypicks are:-
+test/data/reload_app_file.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 124 is -> 
+{ 68d76aa504a629e112caef13526951696e615ad4 -> 703462304c01868b1c80018a2d60b5e83a099c17 } is a cherrypick
+{ 971a18525a01101a28218ebd08b183f9a15f60e6 -> 7b20242aca9ae62d1eb79479727484e6401d4f7d }
+Partial Cherry-pick commits SHA are -> 
+703462304c01868b1c80018a2d60b5e83a099c17 - cherrypick - 7b20242aca9ae62d1eb79479727484e6401d4f7d
+---> The cherrypicked commit sha is - 703462304c01868b1c80018a2d60b5e83a099c17
+Commit message - FIX:  use_in_file_templates should split on __END__
+---> The original commit sha is - 7b20242aca9ae62d1eb79479727484e6401d4f7d
+Commit message - Logging exceptions to env['rack.errors']
+---> The files with partial_cherrypicks are:-
+ChangeLog
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 125 is -> 
+{ 52bb38b83cf5326a4300348e29cf4a6ad5a84016 -> cb0165ff383c9c6c85b1396252bf513c611163b3 } is a cherrypick
+{ 1ce747bdec9eef1f02f8a554e7cfcc40c959796d -> b6d05bc6cd382c2a9e0daa495b7374af6f62395c }
+Partial Cherry-pick commits SHA are -> 
+cb0165ff383c9c6c85b1396252bf513c611163b3 - cherrypick - b6d05bc6cd382c2a9e0daa495b7374af6f62395c
+---> The cherrypicked commit sha is - cb0165ff383c9c6c85b1396252bf513c611163b3
+Commit message - Merge commit 'bmizerany/master'
+---> The original commit sha is - b6d05bc6cd382c2a9e0daa495b7374af6f62395c
+Commit message - remove custom rack mongrel handler
+
+This is the same (byte-for-byte) handler that's included with Rack
+0.4 which we've required since 0.3.
+---> The files with partial_cherrypicks are:-
+lib/sinatra/rack/handler/mongrel.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 126 is -> 
+{ d22de907a286489e34fca81fc5340897357588f9 -> 52bb38b83cf5326a4300348e29cf4a6ad5a84016 } is a cherrypick
+{ f5ed47240f9434788da4c8a6124b943bea15d7e6 -> 1884c0451119cb6072ea153c57caca64dd99978f }
+Partial Cherry-pick commits SHA are -> 
+52bb38b83cf5326a4300348e29cf4a6ad5a84016 - cherrypick - 1884c0451119cb6072ea153c57caca64dd99978f
+---> The cherrypicked commit sha is - 52bb38b83cf5326a4300348e29cf4a6ad5a84016
+Commit message - streaming with Mongrel
+
+WARNING: Don't get attached to this commit.  I may not keep this here.
+---> The original commit sha is - 1884c0451119cb6072ea153c57caca64dd99978f
+Commit message - merge bmizerany/next at 52bb38
+---> The files with partial_cherrypicks are:-
+lib/sinatra/rack/handler/mongrel.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 127 is -> 
+{ 9ddc905cefcec3e39c96b7c9d9e5916d9cfc923b -> 9022ab566bb20659ddf91b457f93459c9f9da15b } is a cherrypick
+{ dc6e32a5cea29e9055463f6eff84f2b829a19c1c -> ea3239c88f8a85f82cc891589bc6ad1c339719e8 }
+Partial Cherry-pick commits SHA are -> 
+9022ab566bb20659ddf91b457f93459c9f9da15b - cherrypick - ea3239c88f8a85f82cc891589bc6ad1c339719e8
+---> The cherrypicked commit sha is - 9022ab566bb20659ddf91b457f93459c9f9da15b
+Commit message - Merge commit 'rtomayko/master'
+---> The original commit sha is - ea3239c88f8a85f82cc891589bc6ad1c339719e8
+Commit message - Merge branch 'erb_locals' of git://github.com/cschneid/sinatra into cschneid/erb_locals
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 128 is -> 
+{ 47a48df6dff8a2c8c40b6b641d23b8dd6e0f3a9a -> bda21f1fbcb0f9d77a5abb1f7310f4ee93cc7b27 } is a cherrypick
+{ dc6e32a5cea29e9055463f6eff84f2b829a19c1c -> ea3239c88f8a85f82cc891589bc6ad1c339719e8 }
+Partial Cherry-pick commits SHA are -> 
+bda21f1fbcb0f9d77a5abb1f7310f4ee93cc7b27 - cherrypick - ea3239c88f8a85f82cc891589bc6ad1c339719e8
+---> The cherrypicked commit sha is - bda21f1fbcb0f9d77a5abb1f7310f4ee93cc7b27
+Commit message - add doc on using Rack middleware to README
+---> The original commit sha is - ea3239c88f8a85f82cc891589bc6ad1c339719e8
+Commit message - Merge branch 'erb_locals' of git://github.com/cschneid/sinatra into cschneid/erb_locals
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 129 is -> 
+{ 418db1ed7cecab3c8f07270c419cef89dc942cde -> 7526dacf33d4411d7f0e98bceeadc91b46dc56bb } is a cherrypick
+{ 6785a05d5388052981863246756711ba447b3485 -> dc6e32a5cea29e9055463f6eff84f2b829a19c1c }
+Partial Cherry-pick commits SHA are -> 
+7526dacf33d4411d7f0e98bceeadc91b46dc56bb - cherrypick - dc6e32a5cea29e9055463f6eff84f2b829a19c1c
+---> The cherrypicked commit sha is - 7526dacf33d4411d7f0e98bceeadc91b46dc56bb
+Commit message - Simplify the Sinatra.server method
+
+Removes the case from Sinatra.server, since we can rely on eval anyway, if we properly convert the handler name.
+Also, eval might be evil, but the non-eval version is longer, unglier, and harder to understand.
+---> The original commit sha is - dc6e32a5cea29e9055463f6eff84f2b829a19c1c
+Commit message - Add :locals option for erb.  General approach and some of the code was borrowed from rails (compilable.rb)
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 130 is -> 
+{ 9022ab566bb20659ddf91b457f93459c9f9da15b -> bcdf496da28b048ad2229285f73da6b8dc410caa } is a cherrypick
+{ 6785a05d5388052981863246756711ba447b3485 -> dc6e32a5cea29e9055463f6eff84f2b829a19c1c }
+Partial Cherry-pick commits SHA are -> 
+bcdf496da28b048ad2229285f73da6b8dc410caa - cherrypick - dc6e32a5cea29e9055463f6eff84f2b829a19c1c
+---> The cherrypicked commit sha is - bcdf496da28b048ad2229285f73da6b8dc410caa
+Commit message - added 'set' to FORWARD_METHODS
+---> The original commit sha is - dc6e32a5cea29e9055463f6eff84f2b829a19c1c
+Commit message - Add :locals option for erb.  General approach and some of the code was borrowed from rails (compilable.rb)
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 131 is -> 
+{ 9ddc905cefcec3e39c96b7c9d9e5916d9cfc923b -> 9022ab566bb20659ddf91b457f93459c9f9da15b } is a cherrypick
+{ f2733e8785b8b943f4114d4a8ff25b5ef632a1ff -> 6785a05d5388052981863246756711ba447b3485 }
+Partial Cherry-pick commits SHA are -> 
+9022ab566bb20659ddf91b457f93459c9f9da15b - cherrypick - 6785a05d5388052981863246756711ba447b3485
+---> The cherrypicked commit sha is - 9022ab566bb20659ddf91b457f93459c9f9da15b
+Commit message - Merge commit 'rtomayko/master'
+---> The original commit sha is - 6785a05d5388052981863246756711ba447b3485
+Commit message - Merge branch 'master' of git://github.com/cschneid/sinatra into cschneid/master
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 132 is -> 
+{ 47a48df6dff8a2c8c40b6b641d23b8dd6e0f3a9a -> bda21f1fbcb0f9d77a5abb1f7310f4ee93cc7b27 } is a cherrypick
+{ f2733e8785b8b943f4114d4a8ff25b5ef632a1ff -> 6785a05d5388052981863246756711ba447b3485 }
+Partial Cherry-pick commits SHA are -> 
+bda21f1fbcb0f9d77a5abb1f7310f4ee93cc7b27 - cherrypick - 6785a05d5388052981863246756711ba447b3485
+---> The cherrypicked commit sha is - bda21f1fbcb0f9d77a5abb1f7310f4ee93cc7b27
+Commit message - add doc on using Rack middleware to README
+---> The original commit sha is - 6785a05d5388052981863246756711ba447b3485
+Commit message - Merge branch 'master' of git://github.com/cschneid/sinatra into cschneid/master
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 133 is -> 
+{ 418db1ed7cecab3c8f07270c419cef89dc942cde -> 7526dacf33d4411d7f0e98bceeadc91b46dc56bb } is a cherrypick
+{ c2827e3331dd08d890e52a9431810d43d8ad03d2 -> f2733e8785b8b943f4114d4a8ff25b5ef632a1ff }
+Partial Cherry-pick commits SHA are -> 
+7526dacf33d4411d7f0e98bceeadc91b46dc56bb - cherrypick - f2733e8785b8b943f4114d4a8ff25b5ef632a1ff
+---> The cherrypicked commit sha is - 7526dacf33d4411d7f0e98bceeadc91b46dc56bb
+Commit message - Simplify the Sinatra.server method
+
+Removes the case from Sinatra.server, since we can rely on eval anyway, if we properly convert the handler name.
+Also, eval might be evil, but the non-eval version is longer, unglier, and harder to understand.
+---> The original commit sha is - f2733e8785b8b943f4114d4a8ff25b5ef632a1ff
+Commit message - Add :locals option for erb.  General approach and some of the code was borrowed from rails (compilable.rb)
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 134 is -> 
+{ 9022ab566bb20659ddf91b457f93459c9f9da15b -> bcdf496da28b048ad2229285f73da6b8dc410caa } is a cherrypick
+{ c2827e3331dd08d890e52a9431810d43d8ad03d2 -> f2733e8785b8b943f4114d4a8ff25b5ef632a1ff }
+Partial Cherry-pick commits SHA are -> 
+bcdf496da28b048ad2229285f73da6b8dc410caa - cherrypick - f2733e8785b8b943f4114d4a8ff25b5ef632a1ff
+---> The cherrypicked commit sha is - bcdf496da28b048ad2229285f73da6b8dc410caa
+Commit message - added 'set' to FORWARD_METHODS
+---> The original commit sha is - f2733e8785b8b943f4114d4a8ff25b5ef632a1ff
+Commit message - Add :locals option for erb.  General approach and some of the code was borrowed from rails (compilable.rb)
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 135 is -> 
+{ 9ddc905cefcec3e39c96b7c9d9e5916d9cfc923b -> 9022ab566bb20659ddf91b457f93459c9f9da15b } is a cherrypick
+{ bda21f1fbcb0f9d77a5abb1f7310f4ee93cc7b27 -> f5ec72d542784237a67a2e317e7f377ce003af80 }
+Partial Cherry-pick commits SHA are -> 
+9022ab566bb20659ddf91b457f93459c9f9da15b - cherrypick - f5ec72d542784237a67a2e317e7f377ce003af80
+---> The cherrypicked commit sha is - 9022ab566bb20659ddf91b457f93459c9f9da15b
+Commit message - Merge commit 'rtomayko/master'
+---> The original commit sha is - f5ec72d542784237a67a2e317e7f377ce003af80
+Commit message - minor rdoc formatting fixes
+---> The files with partial_cherrypicks are:-
+lib/sinatra.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 136 is -> 
+{ 9ddc905cefcec3e39c96b7c9d9e5916d9cfc923b -> 9022ab566bb20659ddf91b457f93459c9f9da15b } is a cherrypick
+{ 47a48df6dff8a2c8c40b6b641d23b8dd6e0f3a9a -> bda21f1fbcb0f9d77a5abb1f7310f4ee93cc7b27 }
+Partial Cherry-pick commits SHA are -> 
+9022ab566bb20659ddf91b457f93459c9f9da15b - cherrypick - bda21f1fbcb0f9d77a5abb1f7310f4ee93cc7b27
+---> The cherrypicked commit sha is - 9022ab566bb20659ddf91b457f93459c9f9da15b
+Commit message - Merge commit 'rtomayko/master'
+---> The original commit sha is - bda21f1fbcb0f9d77a5abb1f7310f4ee93cc7b27
+Commit message - add doc on using Rack middleware to README
+---> The files with partial_cherrypicks are:-
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 137 is -> 
+{ 418db1ed7cecab3c8f07270c419cef89dc942cde -> 7526dacf33d4411d7f0e98bceeadc91b46dc56bb } is a cherrypick
+{ bcdf496da28b048ad2229285f73da6b8dc410caa -> 07f254733192d114d59143b997ee51a4ca003a48 }
+Partial Cherry-pick commits SHA are -> 
+7526dacf33d4411d7f0e98bceeadc91b46dc56bb - cherrypick - 07f254733192d114d59143b997ee51a4ca003a48
+---> The cherrypicked commit sha is - 7526dacf33d4411d7f0e98bceeadc91b46dc56bb
+Commit message - Simplify the Sinatra.server method
+
+Removes the case from Sinatra.server, since we can rely on eval anyway, if we properly convert the handler name.
+Also, eval might be evil, but the non-eval version is longer, unglier, and harder to understand.
+---> The original commit sha is - 07f254733192d114d59143b997ee51a4ca003a48
+Commit message - Merge branch 'master' of git://github.com/cypher/sinatra into cypher/master
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 138 is -> 
+{ 7526dacf33d4411d7f0e98bceeadc91b46dc56bb -> 1753aa97606e267634f550f6bc9e11ff0d80044d } is a cherrypick
+{ bcdf496da28b048ad2229285f73da6b8dc410caa -> 07f254733192d114d59143b997ee51a4ca003a48 }
+Partial Cherry-pick commits SHA are -> 
+1753aa97606e267634f550f6bc9e11ff0d80044d - cherrypick - 07f254733192d114d59143b997ee51a4ca003a48
+---> The cherrypicked commit sha is - 1753aa97606e267634f550f6bc9e11ff0d80044d
+Commit message - Merge from bmizerany
+---> The original commit sha is - 07f254733192d114d59143b997ee51a4ca003a48
+Commit message - Merge branch 'master' of git://github.com/cypher/sinatra into cypher/master
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 139 is -> 
+{ 9022ab566bb20659ddf91b457f93459c9f9da15b -> bcdf496da28b048ad2229285f73da6b8dc410caa } is a cherrypick
+{ bcdf496da28b048ad2229285f73da6b8dc410caa -> 07f254733192d114d59143b997ee51a4ca003a48 }
+Partial Cherry-pick commits SHA are -> 
+bcdf496da28b048ad2229285f73da6b8dc410caa - cherrypick - 07f254733192d114d59143b997ee51a4ca003a48
+---> The cherrypicked commit sha is - bcdf496da28b048ad2229285f73da6b8dc410caa
+Commit message - added 'set' to FORWARD_METHODS
+---> The original commit sha is - 07f254733192d114d59143b997ee51a4ca003a48
+Commit message - Merge branch 'master' of git://github.com/cypher/sinatra into cypher/master
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 140 is -> 
+{ 418db1ed7cecab3c8f07270c419cef89dc942cde -> 7526dacf33d4411d7f0e98bceeadc91b46dc56bb } is a cherrypick
+{ 9022ab566bb20659ddf91b457f93459c9f9da15b -> bcdf496da28b048ad2229285f73da6b8dc410caa }
+Partial Cherry-pick commits SHA are -> 
+7526dacf33d4411d7f0e98bceeadc91b46dc56bb - cherrypick - bcdf496da28b048ad2229285f73da6b8dc410caa
+---> The cherrypicked commit sha is - 7526dacf33d4411d7f0e98bceeadc91b46dc56bb
+Commit message - Simplify the Sinatra.server method
+
+Removes the case from Sinatra.server, since we can rely on eval anyway, if we properly convert the handler name.
+Also, eval might be evil, but the non-eval version is longer, unglier, and harder to understand.
+---> The original commit sha is - bcdf496da28b048ad2229285f73da6b8dc410caa
+Commit message - added 'set' to FORWARD_METHODS
+---> The files with partial_cherrypicks are:-
+.gitignore
+README.rdoc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 141 is -> 
+{ 418db1ed7cecab3c8f07270c419cef89dc942cde -> 7526dacf33d4411d7f0e98bceeadc91b46dc56bb } is a cherrypick
+{ 1753aa97606e267634f550f6bc9e11ff0d80044d -> 9ddc905cefcec3e39c96b7c9d9e5916d9cfc923b }
+Partial Cherry-pick commits SHA are -> 
+7526dacf33d4411d7f0e98bceeadc91b46dc56bb - cherrypick - 9ddc905cefcec3e39c96b7c9d9e5916d9cfc923b
+---> The cherrypicked commit sha is - 7526dacf33d4411d7f0e98bceeadc91b46dc56bb
+Commit message - Simplify the Sinatra.server method
+
+Removes the case from Sinatra.server, since we can rely on eval anyway, if we properly convert the handler name.
+Also, eval might be evil, but the non-eval version is longer, unglier, and harder to understand.
+---> The original commit sha is - 9ddc905cefcec3e39c96b7c9d9e5916d9cfc923b
+Commit message - Merge commit 'cypher/master'
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 142 is -> 
+{ 7526dacf33d4411d7f0e98bceeadc91b46dc56bb -> 1753aa97606e267634f550f6bc9e11ff0d80044d } is a cherrypick
+{ 1753aa97606e267634f550f6bc9e11ff0d80044d -> 9ddc905cefcec3e39c96b7c9d9e5916d9cfc923b }
+Partial Cherry-pick commits SHA are -> 
+1753aa97606e267634f550f6bc9e11ff0d80044d - cherrypick - 9ddc905cefcec3e39c96b7c9d9e5916d9cfc923b
+---> The cherrypicked commit sha is - 1753aa97606e267634f550f6bc9e11ff0d80044d
+Commit message - Merge from bmizerany
+---> The original commit sha is - 9ddc905cefcec3e39c96b7c9d9e5916d9cfc923b
+Commit message - Merge commit 'cypher/master'
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 143 is -> 
+{ 418db1ed7cecab3c8f07270c419cef89dc942cde -> 7526dacf33d4411d7f0e98bceeadc91b46dc56bb } is a cherrypick
+{ 7526dacf33d4411d7f0e98bceeadc91b46dc56bb -> 1753aa97606e267634f550f6bc9e11ff0d80044d }
+Partial Cherry-pick commits SHA are -> 
+7526dacf33d4411d7f0e98bceeadc91b46dc56bb - cherrypick - 1753aa97606e267634f550f6bc9e11ff0d80044d
+---> The cherrypicked commit sha is - 7526dacf33d4411d7f0e98bceeadc91b46dc56bb
+Commit message - Simplify the Sinatra.server method
+
+Removes the case from Sinatra.server, since we can rely on eval anyway, if we properly convert the handler name.
+Also, eval might be evil, but the non-eval version is longer, unglier, and harder to understand.
+---> The original commit sha is - 1753aa97606e267634f550f6bc9e11ff0d80044d
+Commit message - Merge from bmizerany
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 144 is -> 
+{ 174d9c8a25b80eef9b92dd4054579ed5788e81e1 -> b6cf6f7e2f3478eee266f7f5eca8bfccd224977a } is a cherrypick
+{ f71330e6598bba00bb26735a6077cda00f3f7ef4 -> 08b1452a3762a1e7f443352c78f6e3d373cea1d4 }
+Partial Cherry-pick commits SHA are -> 
+b6cf6f7e2f3478eee266f7f5eca8bfccd224977a - cherrypick - 08b1452a3762a1e7f443352c78f6e3d373cea1d4
+---> The cherrypicked commit sha is - b6cf6f7e2f3478eee266f7f5eca8bfccd224977a
+Commit message - Fixes problem in development where reloading overrides custom errors
+---> The original commit sha is - 08b1452a3762a1e7f443352c78f6e3d373cea1d4
+Commit message - getting ready for 0.2.3
+---> The files with partial_cherrypicks are:-
+.gitignore
+Manifest
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 145 is -> 
+{ 3588b55bc17f1e8ab359241aa5a532dd25cc869b -> d2e256a957c6f3ddb65a004c5759f54e74240272 } is a cherrypick
+{ 174d9c8a25b80eef9b92dd4054579ed5788e81e1 -> b6cf6f7e2f3478eee266f7f5eca8bfccd224977a }
+Partial Cherry-pick commits SHA are -> 
+d2e256a957c6f3ddb65a004c5759f54e74240272 - cherrypick - b6cf6f7e2f3478eee266f7f5eca8bfccd224977a
+---> The cherrypicked commit sha is - d2e256a957c6f3ddb65a004c5759f54e74240272
+Commit message - getting ready for 0.2.3
+---> The original commit sha is - b6cf6f7e2f3478eee266f7f5eca8bfccd224977a
+Commit message - Fixes problem in development where reloading overrides custom errors
+---> The files with partial_cherrypicks are:-
+.gitignore
+Manifest
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 146 is -> 
+{ f747bfe403bcc964cd32157c9563aad93a73f325 -> e7e0e5581533d6e8a3ded8049d509664402221db } is a cherrypick
+{ 5b3440e251a66abf6776a4d5259b579d828a3b4a -> 40acdeebb74a3af34a73b8deb4c7b4ae830d1681 }
+Partial Cherry-pick commits SHA are -> 
+e7e0e5581533d6e8a3ded8049d509664402221db - cherrypick - 40acdeebb74a3af34a73b8deb4c7b4ae830d1681
+---> The cherrypicked commit sha is - e7e0e5581533d6e8a3ded8049d509664402221db
+Commit message - Minor docfixes in README.rdoc
+---> The original commit sha is - 40acdeebb74a3af34a73b8deb4c7b4ae830d1681
+Commit message - don't ignore rack
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 147 is -> 
+{ 2860f2215f95eb942ee0a7d3f9d1c4ba357154b3 -> 2baa78d95ef6d69c5c62bca2d47af2ae658e5bd5 } is a cherrypick
+{ d7032a0c91ca962aee6f25dbf5d5c3228658a9f1 -> d2ff40a7de0aa18b31e555ef5bc176046907d408 }
+Partial Cherry-pick commits SHA are -> 
+2baa78d95ef6d69c5c62bca2d47af2ae658e5bd5 - cherrypick - d2ff40a7de0aa18b31e555ef5bc176046907d408
+---> The cherrypicked commit sha is - 2baa78d95ef6d69c5c62bca2d47af2ae658e5bd5
+Commit message - Added Sass module and 'sass' method for rendering Sass stylesheets.
+---> The original commit sha is - d2ff40a7de0aa18b31e555ef5bc176046907d408
+Commit message - remove index.html
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 148 is -> 
+{ cacf0848854e3066e40917e7b0037e0dee696d0f -> 95ca3f0c6939be54b2c48ae65626447b2684e60d } is a cherrypick
+{ d7032a0c91ca962aee6f25dbf5d5c3228658a9f1 -> d2ff40a7de0aa18b31e555ef5bc176046907d408 }
+Partial Cherry-pick commits SHA are -> 
+95ca3f0c6939be54b2c48ae65626447b2684e60d - cherrypick - d2ff40a7de0aa18b31e555ef5bc176046907d408
+---> The cherrypicked commit sha is - 95ca3f0c6939be54b2c48ae65626447b2684e60d
+Commit message - Modified sass method to allow :views_directory option and disable rendering of layouts.
+---> The original commit sha is - d2ff40a7de0aa18b31e555ef5bc176046907d408
+Commit message - remove index.html
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 149 is -> 
+{ 4144ac1a8b9d34625bf28f93a68720a1d326f83f -> 98572b4d0d406c7f1e7a1d9100887c4b2fb07f9e } is a cherrypick
+{ 41b7a3181e4bb8d09799c5c00caef1690d0c65bf -> 22ae5da2f93536126855818186f891efee6c8e82 }
+Partial Cherry-pick commits SHA are -> 
+98572b4d0d406c7f1e7a1d9100887c4b2fb07f9e - cherrypick - 22ae5da2f93536126855818186f891efee6c8e82
+---> The cherrypicked commit sha is - 98572b4d0d406c7f1e7a1d9100887c4b2fb07f9e
+Commit message - Symbol params back in thanks to Jeremy Evans
+---> The original commit sha is - 22ae5da2f93536126855818186f891efee6c8e82
+Commit message - Merge branch 'master' of git://github.com/nmeans/sinatra into nmeans/master
+---> The files with partial_cherrypicks are:-
+index.html
+test/sym_params_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 150 is -> 
+{ 1caa1c62ad851d15c8143ab6960671f766f5b5e7 -> 1a02907a2b103488c9e47cac5039a01dc6c7c27e } is a cherrypick
+{ 13d13b218f209e2b6143ee4789a3543e4dfad1a2 -> a203474d47370b4c8ed5f81637f41f7af060122d }
+Partial Cherry-pick commits SHA are -> 
+1a02907a2b103488c9e47cac5039a01dc6c7c27e - cherrypick - a203474d47370b4c8ed5f81637f41f7af060122d
+---> The cherrypicked commit sha is - 1a02907a2b103488c9e47cac5039a01dc6c7c27e
+Commit message - static files
+---> The original commit sha is - a203474d47370b4c8ed5f81637f41f7af060122d
+Commit message - tests
+---> The files with partial_cherrypicks are:-
+test/public/foo.xml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 151 is -> 
+{ b215850cbdc6a11553a059ba8e314cb6b61850c0 -> 49da7fc4c7f8ea904c502a4909a379554c121285 } is a cherrypick
+{ 0cfd1b78ae729d20d5287055aa1ee4e95e3d5cf2 -> 33fea0f5ac5f727ef9cbe7b4e7621c55a18ab600 }
+Partial Cherry-pick commits SHA are -> 
+49da7fc4c7f8ea904c502a4909a379554c121285 - cherrypick - 33fea0f5ac5f727ef9cbe7b4e7621c55a18ab600
+---> The cherrypicked commit sha is - 49da7fc4c7f8ea904c502a4909a379554c121285
+Commit message - * silence warnings or reload
+* simple responder
+* update examples
+
+
+---> The original commit sha is - 33fea0f5ac5f727ef9cbe7b4e7621c55a18ab600
+Commit message - respond_to
+
+
+---> The files with partial_cherrypicks are:-
+vendor/responder/init.rb
+-----------------------------------------------------------------
+
