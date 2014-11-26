@@ -1,0 +1,1357 @@
+# of cherry-picks = 98
+Cherry-pick diff pair 1 is -> 
+{ 8a09e129060435034d75d487e796ef6be8f6e246 -> 606437108570db1b74850a0ba2ea1e722055083c } is a cherrypick
+{ a8f9a989a78601339c6ab7a72ebd925143f3cf22 -> 231c8c2ecf9e1a28238251abf3af9d2ec72cdaa8 }
+Cherrypick commits SHA are -> 
+606437108570db1b74850a0ba2ea1e722055083c - cherrypick - 231c8c2ecf9e1a28238251abf3af9d2ec72cdaa8
+---> The cherrypicked commit sha is - 606437108570db1b74850a0ba2ea1e722055083c
+Commit message - Fix lua-cmsgpack 64 bit integer on 32 bit platform
+
+This syncs lua-cmsgpack with the mattsta/lua-cmsgpack upstream.
+
+Fixes #2161
+---> The original commit sha is - 231c8c2ecf9e1a28238251abf3af9d2ec72cdaa8
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ 8f2af26c2c8ddcb78a801f04ac1a29a7411b5bb4 -> 34296ae890178926347f0b8b47f66d96a541f1c3 } is a cherrypick
+{ 620906693ee2e80f5b8ff835b7fa109b1ff22b63 -> 0ed2c601185eb04b3b791b218e2a48c5f0609493 }
+Cherrypick commits SHA are -> 
+34296ae890178926347f0b8b47f66d96a541f1c3 - cherrypick - 0ed2c601185eb04b3b791b218e2a48c5f0609493
+---> The cherrypicked commit sha is - 34296ae890178926347f0b8b47f66d96a541f1c3
+Commit message - Lua cjson include paths now use the local includes.
+---> The original commit sha is - 0ed2c601185eb04b3b791b218e2a48c5f0609493
+Commit message - lua_cjson.c Lua includes: angled -> quoted.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ 5ba47b50ae6ea5e0ed56598d0ef33dc43c6a7abf -> 3fecb96122e35cb0c5809699c26eb093efda19e8 } is a cherrypick
+{ ace628c7922221c0156f5469c85a938ebe4f6c4f -> 8a75ec0fca824f789f578bffdfc897c4df1b5d2b }
+Cherrypick commits SHA are -> 
+3fecb96122e35cb0c5809699c26eb093efda19e8 - cherrypick - 8a75ec0fca824f789f578bffdfc897c4df1b5d2b
+---> The cherrypicked commit sha is - 3fecb96122e35cb0c5809699c26eb093efda19e8
+Commit message - Lua: Add bitop
+
+A few people have written custom C commands because bit
+manipulation isn't exposed through Lua.  Let's give
+them Mike Pall's bitop.
+
+This adds bitop 1.0.2 (2012-05-08) from http://bitop.luajit.org/
+
+bitop is imported as "bit" into the global namespace.
+
+New Lua commands: bit.tobit, bit.tohex, bit.bnot, bit.band, bit.bor, bit.bxor,
+bit.lshift, bit.rshift, bit.arshift, bit.rol, bit.ror, bit.bswap
+
+Verification of working (the asserts would abort on error, so (nil) is correct):
+127.0.0.1:6379> eval "assert(bit.tobit(1) == 1); assert(bit.band(1) == 1); assert(bit.bxor(1,2) == 3); assert(bit.bor(1,2,4,8,16,32,64,128) == 255)" 0
+(nil)
+127.0.0.1:6379> eval 'assert(0x7fffffff == 2147483647, "broken hex literals"); assert(0xffffffff == -1 or 0xffffffff == 2^32-1, "broken hex literals"); assert(tostring(-1) == "-1", "broken tostring()"); assert(tostring(0xffffffff) == "-1" or tostring(0xffffffff) == "4294967295", "broken tostring()")' 0
+(nil)
+
+Tests also integrated into the scripting tests and can be run with:
+./runtest --single unit/scripting
+
+Tests are excerpted from `bittest.lua` included in the bitop distribution.
+---> The original commit sha is - 8a75ec0fca824f789f578bffdfc897c4df1b5d2b
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ 7ea331d60162d5469ccc2f3682f07738a480538f -> a2f929ab1095bae3812712a7ac63c8fa69ea15d5 } is a cherrypick
+{ ace628c7922221c0156f5469c85a938ebe4f6c4f -> 8a75ec0fca824f789f578bffdfc897c4df1b5d2b }
+Cherrypick commits SHA are -> 
+a2f929ab1095bae3812712a7ac63c8fa69ea15d5 - cherrypick - 8a75ec0fca824f789f578bffdfc897c4df1b5d2b
+---> The cherrypicked commit sha is - a2f929ab1095bae3812712a7ac63c8fa69ea15d5
+Commit message - Merge pull request #1662 from mattsta/lua-add-bitops
+
+Lua: Add bitop
+---> The original commit sha is - 8a75ec0fca824f789f578bffdfc897c4df1b5d2b
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ 5ba47b50ae6ea5e0ed56598d0ef33dc43c6a7abf -> 3fecb96122e35cb0c5809699c26eb093efda19e8 } is a cherrypick
+{ 7ea331d60162d5469ccc2f3682f07738a480538f -> a2f929ab1095bae3812712a7ac63c8fa69ea15d5 }
+Cherrypick commits SHA are -> 
+3fecb96122e35cb0c5809699c26eb093efda19e8 - cherrypick - a2f929ab1095bae3812712a7ac63c8fa69ea15d5
+---> The cherrypicked commit sha is - 3fecb96122e35cb0c5809699c26eb093efda19e8
+Commit message - Lua: Add bitop
+
+A few people have written custom C commands because bit
+manipulation isn't exposed through Lua.  Let's give
+them Mike Pall's bitop.
+
+This adds bitop 1.0.2 (2012-05-08) from http://bitop.luajit.org/
+
+bitop is imported as "bit" into the global namespace.
+
+New Lua commands: bit.tobit, bit.tohex, bit.bnot, bit.band, bit.bor, bit.bxor,
+bit.lshift, bit.rshift, bit.arshift, bit.rol, bit.ror, bit.bswap
+
+Verification of working (the asserts would abort on error, so (nil) is correct):
+127.0.0.1:6379> eval "assert(bit.tobit(1) == 1); assert(bit.band(1) == 1); assert(bit.bxor(1,2) == 3); assert(bit.bor(1,2,4,8,16,32,64,128) == 255)" 0
+(nil)
+127.0.0.1:6379> eval 'assert(0x7fffffff == 2147483647, "broken hex literals"); assert(0xffffffff == -1 or 0xffffffff == 2^32-1, "broken hex literals"); assert(tostring(-1) == "-1", "broken tostring()"); assert(tostring(0xffffffff) == "-1" or tostring(0xffffffff) == "4294967295", "broken tostring()")' 0
+(nil)
+
+Tests also integrated into the scripting tests and can be run with:
+./runtest --single unit/scripting
+
+Tests are excerpted from `bittest.lua` included in the bitop distribution.
+---> The original commit sha is - a2f929ab1095bae3812712a7ac63c8fa69ea15d5
+Commit message - Merge pull request #1662 from mattsta/lua-add-bitops
+
+Lua: Add bitop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ 5f6950caa893921e7cfe3d5b26109f880e060f8f -> 591b69c745f8d8a9cff7a43083c3b0d0ac333362 } is a cherrypick
+{ da838544ae5f5e914cad85c1d6766ba79d71b32b -> 5ba47b50ae6ea5e0ed56598d0ef33dc43c6a7abf }
+Cherrypick commits SHA are -> 
+591b69c745f8d8a9cff7a43083c3b0d0ac333362 - cherrypick - 5ba47b50ae6ea5e0ed56598d0ef33dc43c6a7abf
+---> The cherrypicked commit sha is - 591b69c745f8d8a9cff7a43083c3b0d0ac333362
+Commit message - Fix DEBUG POPULATE warning for lack of casting.
+---> The original commit sha is - 5ba47b50ae6ea5e0ed56598d0ef33dc43c6a7abf
+Commit message - Merge branch 'unstable' of github.com:/antirez/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ 351ad518b3744b22ef2a219c5bd67a234c63a003 -> 0f8df3df417a22ce8f34e4c21b09f8ff5eb60320 } is a cherrypick
+{ ddd9fd417eb77db3ed25a4fde690d0d642d20938 -> f231edc672830143324bfffa70b176883e43fe2d }
+Cherrypick commits SHA are -> 
+0f8df3df417a22ce8f34e4c21b09f8ff5eb60320 - cherrypick - f231edc672830143324bfffa70b176883e43fe2d
+---> The cherrypicked commit sha is - 0f8df3df417a22ce8f34e4c21b09f8ff5eb60320
+Commit message - Fix spelling of "stand alone" in ascii art
+
+Also unified the logic to match `genRedisInfoString`
+---> The original commit sha is - f231edc672830143324bfffa70b176883e43fe2d
+Commit message - Merge branch 'unstable' of github.com:/antirez/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ fb2f637c4a48521e4ea4191f9e101d09130ccac9 -> 72980c7005f0c7ee1ea97a25229af3a7bc6edd96 } is a cherrypick
+{ 1206bdf13f3afbc242a52ee1ce190ef48432fa90 -> af7647b20d42f0544944ca83492d5353617bb2b8 }
+Cherrypick commits SHA are -> 
+72980c7005f0c7ee1ea97a25229af3a7bc6edd96 - cherrypick - af7647b20d42f0544944ca83492d5353617bb2b8
+---> The cherrypicked commit sha is - 72980c7005f0c7ee1ea97a25229af3a7bc6edd96
+Commit message - Cancel SHUTDOWN if initial AOF is being written
+
+Fixes #1826 (and many other reports of the same problem)
+---> The original commit sha is - af7647b20d42f0544944ca83492d5353617bb2b8
+Commit message - Merge pull request #1829 from mattsta/stop-aof-dataloss
+
+Cancel SHUTDOWN if initial AOF is being written
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ 56161ca0a444ff6653f884561ab95bd09ecbc1af -> 33f943b4cddb0bf90b436ccd47d12363e13d0fce } is a cherrypick
+{ 6a13193d8f3110216a8ed3982d1109b84d0ac65c -> c7f93143f6678ac1b0d6e008ab9f4ecf3f1dedef }
+Cherrypick commits SHA are -> 
+33f943b4cddb0bf90b436ccd47d12363e13d0fce - cherrypick - c7f93143f6678ac1b0d6e008ab9f4ecf3f1dedef
+---> The cherrypicked commit sha is - 33f943b4cddb0bf90b436ccd47d12363e13d0fce
+Commit message - Fix blocking operations from missing new lists
+
+Behrad Zari discovered [1] and Josiah reported [2]: if you block
+and wait for a list to exist, but the list creates from
+a non-push command, the blocked client never gets notified.
+
+This commit adds notification of blocked clients into
+the DB layer and away from individual commands.
+
+Lists can be created by [LR]PUSH, SORT..STORE, RENAME, MOVE,
+and RESTORE.  Previously, blocked client notifications were
+only triggered by [LR]PUSH.  Your client would never get
+notified if a list were created by SORT..STORE or RENAME or
+a RESTORE, etc.
+
+Blocked client notification now happens in one unified place:
+  - dbAdd() triggers notification when adding a list to the DB
+
+Two new tests are added that fail prior to this commit.
+
+All test pass.
+
+Fixes #1668
+
+[1]: https://groups.google.com/forum/#!topic/redis-db/k4oWfMkN1NU
+[2]: #1668
+---> The original commit sha is - c7f93143f6678ac1b0d6e008ab9f4ecf3f1dedef
+Commit message - Merge pull request #1669 from mattsta/blpop-internally-added-keys
+
+Fix blocking operations from missing new lists
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ b239a32aaee896fbff704b1aefffa18980b2e22d -> 94e3bb568ac2cb7763a1caab299337ed72149e4c } is a cherrypick
+{ 113be48221ad07706a15f253657cc805acb8047a -> a2403227c7b164e546e53bf329c70caaadef2c14 }
+Cherrypick commits SHA are -> 
+94e3bb568ac2cb7763a1caab299337ed72149e4c - cherrypick - a2403227c7b164e546e53bf329c70caaadef2c14
+---> The cherrypicked commit sha is - 94e3bb568ac2cb7763a1caab299337ed72149e4c
+Commit message - Fixed typo in word avarege in result message of --intrinsic-latency analyzer
+---> The original commit sha is - a2403227c7b164e546e53bf329c70caaadef2c14
+Commit message - Merge pull request #1772 from andygrunwald/typo-avarege-average
+
+Fixed typo in word avarege in result message of --intrinsic-latency analyzer
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ efbe17396248082bb9a9b1f30c6b2774c22422df -> b187c591e39e072fa169bf60a1a46bebc855973b } is a cherrypick
+{ e8ebd7d0e05b72d3ab749093493ee3c1cf7023d0 -> 113be48221ad07706a15f253657cc805acb8047a }
+Cherrypick commits SHA are -> 
+b187c591e39e072fa169bf60a1a46bebc855973b - cherrypick - 113be48221ad07706a15f253657cc805acb8047a
+---> The cherrypicked commit sha is - b187c591e39e072fa169bf60a1a46bebc855973b
+Commit message - Small typo fixed
+---> The original commit sha is - 113be48221ad07706a15f253657cc805acb8047a
+Commit message - Merge pull request #1780 from badboy/patch-8
+
+Small typo fixed
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ 3a6a1e42f11bfee780eda6661865e59d2e747b59 -> 4930d903fc341faf4c5dce7197f4f81af941dfa5 } is a cherrypick
+{ 1e221d101cd834c8f13fe570ce4ee2c69bffa109 -> e8ebd7d0e05b72d3ab749093493ee3c1cf7023d0 }
+Cherrypick commits SHA are -> 
+4930d903fc341faf4c5dce7197f4f81af941dfa5 - cherrypick - e8ebd7d0e05b72d3ab749093493ee3c1cf7023d0
+---> The cherrypicked commit sha is - 4930d903fc341faf4c5dce7197f4f81af941dfa5
+Commit message - Fix eval usage in tests to conform with eval semantics
+---> The original commit sha is - e8ebd7d0e05b72d3ab749093493ee3c1cf7023d0
+Commit message - Merge pull request #1789 from yoav-steinberg/fix_eval_in_tests
+
+Fix eval usage in tests to conform with eval semantics
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ 9caa1ae96aa6ff7dcb5058d2ff0b132abcb205f7 -> fdaab0234787d1bb835680825ea919d7cba3723e } is a cherrypick
+{ 1e221d101cd834c8f13fe570ce4ee2c69bffa109 -> e8ebd7d0e05b72d3ab749093493ee3c1cf7023d0 }
+Cherrypick commits SHA are -> 
+fdaab0234787d1bb835680825ea919d7cba3723e - cherrypick - e8ebd7d0e05b72d3ab749093493ee3c1cf7023d0
+---> The cherrypicked commit sha is - fdaab0234787d1bb835680825ea919d7cba3723e
+Commit message - Merge remote-tracking branch 'upstream/unstable' into unstable
+---> The original commit sha is - e8ebd7d0e05b72d3ab749093493ee3c1cf7023d0
+Commit message - Merge pull request #1789 from yoav-steinberg/fix_eval_in_tests
+
+Fix eval usage in tests to conform with eval semantics
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 14 is -> 
+{ d0566daeaf656353e1ec759c7b9c876c9ce9f801 -> 6c16ecaaaab0d933249aaaef49fe50afd373df83 } is a cherrypick
+{ 7a0c5fdf12d9cd035e41734f518aa4568dc48c9d -> 3e0aef1e2e7e9cf9ef3bc3a0d63c57499295cf14 }
+Cherrypick commits SHA are -> 
+6c16ecaaaab0d933249aaaef49fe50afd373df83 - cherrypick - 3e0aef1e2e7e9cf9ef3bc3a0d63c57499295cf14
+---> The cherrypicked commit sha is - 6c16ecaaaab0d933249aaaef49fe50afd373df83
+Commit message - Fix test framework to detect proper server PID
+
+Previously the PID format was:
+[PID] Timestamp
+
+But it recently changed to:
+PID:X Timestamp
+
+The tcl testing framework was grabbing the PID from \[\d+\], but
+that's not valid anymore.
+
+Now we grab the pid from "PID: <PID>" in the part of Redis startup
+output to the right of the ASCII logo.
+---> The original commit sha is - 3e0aef1e2e7e9cf9ef3bc3a0d63c57499295cf14
+Commit message - Merge pull request #1775 from mattsta/fix-test-against-new-PID-format
+
+Fix test framework to detect proper server PID
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 15 is -> 
+{ 01e3f9ba1d42a4113a24d8d37fa55400bca2fb5d -> 4ddc77041f6de5b47b88e54e790a51bfcad0d197 } is a cherrypick
+{ ce7c47265bfd133e0205152820f89a04b16333ef -> ce2b2f22d9858eeb31ed7159d9e33b620da10c24 }
+Cherrypick commits SHA are -> 
+4ddc77041f6de5b47b88e54e790a51bfcad0d197 - cherrypick - ce2b2f22d9858eeb31ed7159d9e33b620da10c24
+---> The cherrypicked commit sha is - 4ddc77041f6de5b47b88e54e790a51bfcad0d197
+Commit message - Remove trailing spaces from scripting.c
+---> The original commit sha is - ce2b2f22d9858eeb31ed7159d9e33b620da10c24
+Commit message - Merge branch 'unstable' of github.com:/antirez/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 16 is -> 
+{ 67133d2f4882da652fd3e78ba15220bce2488d05 -> ba52cd06c87383964a44451f10310f0ea015277e } is a cherrypick
+{ 194b78050e16431aa6b756b06476f458de540acc -> 04d901aed5e93c91f6642797f400bdc7f010086a }
+Cherrypick commits SHA are -> 
+ba52cd06c87383964a44451f10310f0ea015277e - cherrypick - 04d901aed5e93c91f6642797f400bdc7f010086a
+---> The cherrypicked commit sha is - ba52cd06c87383964a44451f10310f0ea015277e
+Commit message - Correct the HyperLogLog stale cache flag to prevent unnecessary computations.
+
+Set the MSB as documented.
+---> The original commit sha is - 04d901aed5e93c91f6642797f400bdc7f010086a
+Commit message - Merge pull request #1762 from trink/unstable
+
+Correct the HyperLogLog stale cache flag to prevent unnecessary computat...
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 17 is -> 
+{ 3a6a1e42f11bfee780eda6661865e59d2e747b59 -> 4930d903fc341faf4c5dce7197f4f81af941dfa5 } is a cherrypick
+{ 9caa1ae96aa6ff7dcb5058d2ff0b132abcb205f7 -> fdaab0234787d1bb835680825ea919d7cba3723e }
+Cherrypick commits SHA are -> 
+4930d903fc341faf4c5dce7197f4f81af941dfa5 - cherrypick - fdaab0234787d1bb835680825ea919d7cba3723e
+---> The cherrypicked commit sha is - 4930d903fc341faf4c5dce7197f4f81af941dfa5
+Commit message - Fix eval usage in tests to conform with eval semantics
+---> The original commit sha is - fdaab0234787d1bb835680825ea919d7cba3723e
+Commit message - Merge remote-tracking branch 'upstream/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 18 is -> 
+{ a98369929e250e94240f719abcf1d6e1255202a9 -> 4fdd7a05463fee21e9d19d64c8505de09e0de8a1 } is a cherrypick
+{ 68a3af5f9c17217287d9abcb3552d87b68ac0b2f -> 896e15f3e3632fb368af8fc8657e2e553844d390 }
+Cherrypick commits SHA are -> 
+4fdd7a05463fee21e9d19d64c8505de09e0de8a1 - cherrypick - 896e15f3e3632fb368af8fc8657e2e553844d390
+---> The cherrypicked commit sha is - 4fdd7a05463fee21e9d19d64c8505de09e0de8a1
+Commit message - Fixed a few typos.
+---> The original commit sha is - 896e15f3e3632fb368af8fc8657e2e553844d390
+Commit message - Merge pull request #1627 from badboy/lru-fix
+
+Fixed a few typos.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 19 is -> 
+{ 0f2597092fdcd17547282bd434e46d3dc8412e23 -> f0782a6e8633988a935097c195899773da2c2ad1 } is a cherrypick
+{ c1a7d3e61f84344393f47924777c89d9cd78b775 -> aca6cb529bf27b29e7bec4050371a852fb3e8222 }
+Cherrypick commits SHA are -> 
+f0782a6e8633988a935097c195899773da2c2ad1 - cherrypick - aca6cb529bf27b29e7bec4050371a852fb3e8222
+---> The cherrypicked commit sha is - f0782a6e8633988a935097c195899773da2c2ad1
+Commit message - Fix key extraction for z{union,inter}store
+
+The previous implementation wasn't taking into account
+the storage key in position 1 being a requirement (it
+was only counting the source keys in positions 3 to N).
+
+Fixes antirez/redis#1581
+---> The original commit sha is - aca6cb529bf27b29e7bec4050371a852fb3e8222
+Commit message - Merge pull request #1586 from mattsta/fix-zunioninterstorekeys
+
+Fix key extraction for z{union,inter}store
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 20 is -> 
+{ 8d011492a0802c45114bab63c41b7311648632be -> e5b1e7be64d82b0360af3bed0eaa22ca942be4f4 } is a cherrypick
+{ 0f1f25784f6440f3476609065edfb524e3bbbcf4 -> 3b0edb80ecf0f8702b484fed9cb3aaccc63f60ed }
+Cherrypick commits SHA are -> 
+e5b1e7be64d82b0360af3bed0eaa22ca942be4f4 - cherrypick - 3b0edb80ecf0f8702b484fed9cb3aaccc63f60ed
+---> The cherrypicked commit sha is - e5b1e7be64d82b0360af3bed0eaa22ca942be4f4
+Commit message - Bind source address for cluster communication
+
+The first address specified as a bind parameter
+(server.bindaddr[0]) gets used as the source IP
+for cluster communication.
+
+If no bind address is specified by the user, the
+behavior is unchanged.
+
+This patch allows multiple Redis Cluster instances
+to communicate when running on the same interface
+of the same host.
+---> The original commit sha is - 3b0edb80ecf0f8702b484fed9cb3aaccc63f60ed
+Commit message - Merge pull request #1567 from mattsta/fix-cluster-join
+
+Bind source address for cluster communication
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 21 is -> 
+{ 9b401819c009c85f285c5b4890fb91a6a2a91f7f -> 54e99fb2266f12070b905ad1e8f9638625126056 } is a cherrypick
+{ e8bae92e5479bc64a82d92c73e9360438cf9f6f5 -> b74c899da39dc52ce38801a447ef15459ae02466 }
+Cherrypick commits SHA are -> 
+54e99fb2266f12070b905ad1e8f9638625126056 - cherrypick - b74c899da39dc52ce38801a447ef15459ae02466
+---> The cherrypicked commit sha is - 54e99fb2266f12070b905ad1e8f9638625126056
+Commit message - Merge pull request #1578 from badboy/patch-5
+
+Small typo fixed
+---> The original commit sha is - b74c899da39dc52ce38801a447ef15459ae02466
+Commit message - Merge branch 'unstable' of github.com:/antirez/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 22 is -> 
+{ 8b8c1cd4c2a40a4a11dce3d072e3e53d8d89a1b1 -> 806788d009f3d95b3f48c624253c80165b6ed04d } is a cherrypick
+{ 12a88d575d2cdd1fb36c8eef043f1f7e6fdd5246 -> e41a3edfab107acf9241cfc1db5ddece8e9fc9ff }
+Cherrypick commits SHA are -> 
+806788d009f3d95b3f48c624253c80165b6ed04d - cherrypick - e41a3edfab107acf9241cfc1db5ddece8e9fc9ff
+---> The cherrypicked commit sha is - 806788d009f3d95b3f48c624253c80165b6ed04d
+Commit message - Improved bigkeys with progress, pipelining and summary
+
+This commit reworks the redis-cli --bigkeys command to provide more
+information about our progress as well as output summary information
+when we're done.
+
+ - We now show an approximate percentage completion as we go
+ - Hiredis pipelining is used for TYPE and SIZE retreival
+ - A summary of keyspace distribution and overall breakout at the end
+---> The original commit sha is - e41a3edfab107acf9241cfc1db5ddece8e9fc9ff
+Commit message - Merge branch 'cli_improved_bigkeys' of git://github.com/michael-grunder/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 23 is -> 
+{ 55c059e27078e86cd097707be67faf6280f5321b -> d769cad4bf37ac913bf41d3b555b2b3d765dc829 } is a cherrypick
+{ 8d95a47408e5b1accc8e51d182684e8c83cd133d -> addd4de9c1886f683b9f5220b5ada15ea3312d3b }
+Cherrypick commits SHA are -> 
+d769cad4bf37ac913bf41d3b555b2b3d765dc829 - cherrypick - addd4de9c1886f683b9f5220b5ada15ea3312d3b
+---> The cherrypicked commit sha is - d769cad4bf37ac913bf41d3b555b2b3d765dc829
+Commit message - Fix IP representation in clusterMsgDataGossip
+---> The original commit sha is - addd4de9c1886f683b9f5220b5ada15ea3312d3b
+Commit message - Merge branch 'unstable' of github.com:/antirez/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 24 is -> 
+{ 11120689c4c59b0fdde5446ea40f6abdc215d7c9 -> 6d5fa2e06ce8b35a85715b9960ff5a5e14bc1bdd } is a cherrypick
+{ a99c751d6c136f3ada83c1c8fd2b0d3c2c6cf297 -> 62e4956936717aaf192e2ca8b42d6eed464edba5 }
+Cherrypick commits SHA are -> 
+6d5fa2e06ce8b35a85715b9960ff5a5e14bc1bdd - cherrypick - 62e4956936717aaf192e2ca8b42d6eed464edba5
+---> The cherrypicked commit sha is - 6d5fa2e06ce8b35a85715b9960ff5a5e14bc1bdd
+Commit message - fix typo in redis.conf and sentinel.conf
+---> The original commit sha is - 62e4956936717aaf192e2ca8b42d6eed464edba5
+Commit message - Merge pull request #1415 from Dieken/fix-typo
+
+fix typo in redis.conf and sentinel.conf
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 25 is -> 
+{ c590549e40e9a38bc052d68073d6ba9a995599b0 -> 6e70c011484018ca9946cc536b7ab4531580b8de } is a cherrypick
+{ 88a5cede882ee4268685acae5ef6c8660f7f4e44 -> 0a89d9a0b1abcbd91e7c8a83d6fa9e3aaefbb556 }
+Cherrypick commits SHA are -> 
+6e70c011484018ca9946cc536b7ab4531580b8de - cherrypick - 0a89d9a0b1abcbd91e7c8a83d6fa9e3aaefbb556
+---> The cherrypicked commit sha is - 6e70c011484018ca9946cc536b7ab4531580b8de
+Commit message - Return proper error on requests with an unbalanced number of quotes.
+---> The original commit sha is - 0a89d9a0b1abcbd91e7c8a83d6fa9e3aaefbb556
+Commit message - Merge pull request #1451 from yossigo/unbalanced-quotes-fix
+
+Return proper error on requests with an unbalanced number of quotes.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 26 is -> 
+{ 5fd6dee0e633cc3c2f4cb6f33741e6cb1eed9653 -> ae8642fb79867ef7a6a672567e66a43dab94fcbc } is a cherrypick
+{ 80da056c291108e13ab96ec281e8f541e6a21c68 -> e1a1d904dec30ccec2ee17d634d97b72f1b23fb0 }
+Cherrypick commits SHA are -> 
+ae8642fb79867ef7a6a672567e66a43dab94fcbc - cherrypick - e1a1d904dec30ccec2ee17d634d97b72f1b23fb0
+---> The cherrypicked commit sha is - ae8642fb79867ef7a6a672567e66a43dab94fcbc
+Commit message - Deprecate utils/redis-copy.rb in favor of redis-copy gem
+---> The original commit sha is - e1a1d904dec30ccec2ee17d634d97b72f1b23fb0
+Commit message - Merge branch 'unstable' of github.com:/antirez/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 27 is -> 
+{ b41570f7193b3c3bd81a420cfa234512725a0700 -> 6d8c2a484840b625353bb1252b35a61d5782f409 } is a cherrypick
+{ 1461422ce66056eb79231e8240dde01db2260fa0 -> 0150c70b2bc50ab4d29680619115bd1629801f5d }
+Cherrypick commits SHA are -> 
+6d8c2a484840b625353bb1252b35a61d5782f409 - cherrypick - 0150c70b2bc50ab4d29680619115bd1629801f5d
+---> The cherrypicked commit sha is - 6d8c2a484840b625353bb1252b35a61d5782f409
+Commit message - Replication: fix master timeout.
+
+Since we started sending REPLCONF ACK from slaves to masters, the
+lastinteraction field of the client structure is always refreshed as
+soon as there is room in the socket output buffer, so masters in timeout
+are detected with too much delay (the socket buffer takes a lot of time
+to be filled by small REPLCONF ACK <number> entries).
+
+This commit only counts data received as interactions with a master,
+solving the issue.
+---> The original commit sha is - 0150c70b2bc50ab4d29680619115bd1629801f5d
+Commit message - Replication: install the write handler when reusing a cached master.
+
+Sometimes when we resurrect a cached master after a successful partial
+resynchronization attempt, there is pending data in the output buffers
+of the client structure representing the master (likely REPLCONF ACK
+commands).
+
+If we don't reinstall the write handler, it will never be installed
+again by addReply*() family functions as they'll assume that if there is
+already data pending, the write handler is already installed.
+
+This bug caused some slaves after a successful partial sync to never
+send REPLCONF ACK, and continuously being detected as timing out by the
+master, with a disconnection / reconnection loop.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 28 is -> 
+{ 7afc0dd59a7ac0a76b35d6589f83f4fce1f69a0f -> 37e06bd95262f69144aae7c85401a9e7d9411b3f } is a cherrypick
+{ 4f9a69399bc2751f8fc658f998f895ddd280cf45 -> d62ae1ec059942a39060a3dcb18fd171372a6100 }
+Cherrypick commits SHA are -> 
+37e06bd95262f69144aae7c85401a9e7d9411b3f - cherrypick - d62ae1ec059942a39060a3dcb18fd171372a6100
+---> The cherrypicked commit sha is - 37e06bd95262f69144aae7c85401a9e7d9411b3f
+Commit message - PSYNC: safer handling of PSYNC requests.
+
+There was a bug that over-esteemed the amount of backlog available,
+however this could only happen when a slave was asking for an offset
+that was in the "future" compared to the master replication backlog.
+
+Now this case is handled well and logged as an incident in the master
+log file.
+---> The original commit sha is - d62ae1ec059942a39060a3dcb18fd171372a6100
+Commit message - PSYNC: safer handling of PSYNC requests.
+
+There was a bug that over-esteemed the amount of backlog available,
+however this could only happen when a slave was asking for an offset
+that was in the "future" compared to the master replication backlog.
+
+Now this case is handled well and logged as an incident in the master
+log file.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 29 is -> 
+{ 49b645235100fc214468b608c1ba6cdbc320fa88 -> 52b52a350818f88c543a224375fbe308bb17cd12 } is a cherrypick
+{ 1b10522a08284d563b2876e9deb827dbc6697742 -> 7d626d49753672147792070bf290d8ff470b14cf }
+Cherrypick commits SHA are -> 
+52b52a350818f88c543a224375fbe308bb17cd12 - cherrypick - 7d626d49753672147792070bf290d8ff470b14cf
+---> The cherrypicked commit sha is - 52b52a350818f88c543a224375fbe308bb17cd12
+Commit message - fix randstring bug
+---> The original commit sha is - 7d626d49753672147792070bf290d8ff470b14cf
+Commit message - Merge pull request #776 from charsyam/ziplist-bug
+
+fix randstring bug in ziplist.c
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 30 is -> 
+{ 5d0f408d429d4ef0eedcff66bba1464ff0e5a01a -> c3229c33b1cd6cf21180c9a44ddd67a5ecd39503 } is a cherrypick
+{ 82d782d3b56b19f4969b045b3195ea6853290d1e -> b96ba52cfabc97496cf9485394ab5cec5d2162c0 }
+Cherrypick commits SHA are -> 
+c3229c33b1cd6cf21180c9a44ddd67a5ecd39503 - cherrypick - b96ba52cfabc97496cf9485394ab5cec5d2162c0
+---> The cherrypicked commit sha is - c3229c33b1cd6cf21180c9a44ddd67a5ecd39503
+Commit message - Try to report source of bad Lua API calls
+---> The original commit sha is - b96ba52cfabc97496cf9485394ab5cec5d2162c0
+Commit message - Merge pull request #1124 from ioddly/fix-issue-1121
+
+Try to report source of bad Lua API calls
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 31 is -> 
+{ f59ff6fe61dacf79be3200ec3fd1628711df2438 -> 79a13b46fbad91418a223ee1a2846dad8bd9117e } is a cherrypick
+{ c39e34d007491dbb5be8f6c1fe48934c6aaebf49 -> afce0106391213721775d6c0888dba26db7793fa }
+Cherrypick commits SHA are -> 
+79a13b46fbad91418a223ee1a2846dad8bd9117e - cherrypick - afce0106391213721775d6c0888dba26db7793fa
+---> The cherrypicked commit sha is - 79a13b46fbad91418a223ee1a2846dad8bd9117e
+Commit message - Update config.c
+
+Fix bug in configGetCommand function: get correct masterauth value.
+---> The original commit sha is - afce0106391213721775d6c0888dba26db7793fa
+Commit message - Merge pull request #1003 from NanXiao/patch-3
+
+Update config.c
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 32 is -> 
+{ 91d3b487e7d27454a0562e4131f9ab79c8288074 -> 215bfaea164350762ce5917acfb10269f63bfa68 } is a cherrypick
+{ 4178a80282ac917a48771da2c2d1ee65bc562161 -> 9925c7c670067684db883876fd6cb0b3dc78ba61 }
+Cherrypick commits SHA are -> 
+215bfaea164350762ce5917acfb10269f63bfa68 - cherrypick - 9925c7c670067684db883876fd6cb0b3dc78ba61
+---> The cherrypicked commit sha is - 215bfaea164350762ce5917acfb10269f63bfa68
+Commit message - Set default for stop_writes_on_bgsave_err in initServerConfig().
+
+It was placed for error in initServer() that's called after the
+configuation is already loaded, causing issue #1000.
+---> The original commit sha is - 9925c7c670067684db883876fd6cb0b3dc78ba61
+Commit message - Merge pull request #1001 from djanowski/fatal-errors-rdb-load
+
+Abort when opening the RDB file results in an error other than ENOENT.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 33 is -> 
+{ 825e07f2fd8949cffabcc0d5800ea46778dddafd -> 977035b7b509310497cad25e0256d6d3bdafbc63 } is a cherrypick
+{ d783860457f30d54a8c207b8ea952b14d19ca509 -> 174e51cb75323f2d81e71af16f961a3679d1a0ad }
+Cherrypick commits SHA are -> 
+977035b7b509310497cad25e0256d6d3bdafbc63 - cherrypick - 174e51cb75323f2d81e71af16f961a3679d1a0ad
+---> The cherrypicked commit sha is - 977035b7b509310497cad25e0256d6d3bdafbc63
+Commit message - suppress external diff program when using git diff.
+---> The original commit sha is - 174e51cb75323f2d81e71af16f961a3679d1a0ad
+Commit message - Merge pull request #967 from 0x20h/fix-git-diff
+
+suppress external diff program when using git diff.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 34 is -> 
+{ 6b9c6618384ef9fe8ea8054ec82c094ba1f69369 -> 8853698a6fededba4db8b8c2dc1bc94f425db823 } is a cherrypick
+{ 02796ba7a78fbc9b98926dbbdc981266780dc297 -> 522c3255db7642d97ed823ec1b3bab66771f5167 }
+Cherrypick commits SHA are -> 
+8853698a6fededba4db8b8c2dc1bc94f425db823 - cherrypick - 522c3255db7642d97ed823ec1b3bab66771f5167
+---> The cherrypicked commit sha is - 8853698a6fededba4db8b8c2dc1bc94f425db823
+Commit message - Removed useless newlines from hashTypeCurrentObject().
+---> The original commit sha is - 522c3255db7642d97ed823ec1b3bab66771f5167
+Commit message - Merge branch 'unstable' of github.com:antirez/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 35 is -> 
+{ 76a5b21c3a319ae1ba4ef8f4f12207a813e43b51 -> 3244d8bc0cd37b0d68c191ed35dafa26596f9e7e } is a cherrypick
+{ 04bdb3a2a4483ee58d17403bb5387c34c3d3cbf6 -> 7f9bc42f1717ba2b6f8cabf2d196b0d906859dca }
+Cherrypick commits SHA are -> 
+3244d8bc0cd37b0d68c191ed35dafa26596f9e7e - cherrypick - 7f9bc42f1717ba2b6f8cabf2d196b0d906859dca
+---> The cherrypicked commit sha is - 3244d8bc0cd37b0d68c191ed35dafa26596f9e7e
+Commit message - Format to fit 80 columns
+
+This makes it readable on GitHub and editors without auto wrapping.
+---> The original commit sha is - 7f9bc42f1717ba2b6f8cabf2d196b0d906859dca
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 36 is -> 
+{ 1a27d411563767ba94a940c56cfc044debeb7539 -> 3043f890a5581d0847cb03f12d3e85039a15cd95 } is a cherrypick
+{ 04bdb3a2a4483ee58d17403bb5387c34c3d3cbf6 -> 7f9bc42f1717ba2b6f8cabf2d196b0d906859dca }
+Cherrypick commits SHA are -> 
+3043f890a5581d0847cb03f12d3e85039a15cd95 - cherrypick - 7f9bc42f1717ba2b6f8cabf2d196b0d906859dca
+---> The cherrypicked commit sha is - 3043f890a5581d0847cb03f12d3e85039a15cd95
+Commit message - Merge pull request #941 from svnpenn/patch-1
+
+Format to fit 80 columns
+---> The original commit sha is - 7f9bc42f1717ba2b6f8cabf2d196b0d906859dca
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 37 is -> 
+{ 76a5b21c3a319ae1ba4ef8f4f12207a813e43b51 -> 3244d8bc0cd37b0d68c191ed35dafa26596f9e7e } is a cherrypick
+{ 1a27d411563767ba94a940c56cfc044debeb7539 -> 3043f890a5581d0847cb03f12d3e85039a15cd95 }
+Cherrypick commits SHA are -> 
+3244d8bc0cd37b0d68c191ed35dafa26596f9e7e - cherrypick - 3043f890a5581d0847cb03f12d3e85039a15cd95
+---> The cherrypicked commit sha is - 3244d8bc0cd37b0d68c191ed35dafa26596f9e7e
+Commit message - Format to fit 80 columns
+
+This makes it readable on GitHub and editors without auto wrapping.
+---> The original commit sha is - 3043f890a5581d0847cb03f12d3e85039a15cd95
+Commit message - Merge pull request #941 from svnpenn/patch-1
+
+Format to fit 80 columns
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 38 is -> 
+{ 089cbe643f3922aec26d483548e14c8d10f74e0c -> 81144645b478bcc04cb79b6651df72c148ba3c53 } is a cherrypick
+{ 74f4f29880b4a41e01554c7d5119c5ad50aa3f5b -> f95b393603acb9a19ceb1814bded19c417e07c9d }
+Cherrypick commits SHA are -> 
+81144645b478bcc04cb79b6651df72c148ba3c53 - cherrypick - f95b393603acb9a19ceb1814bded19c417e07c9d
+---> The cherrypicked commit sha is - 81144645b478bcc04cb79b6651df72c148ba3c53
+Commit message - Fix a few typos and improve grammar of redis.conf
+
+Make several edits to the example redis.conf configuration file for
+improved flow and grammar.
+
+Signed-off-by: David Celis <me@davidcel.is>
+---> The original commit sha is - f95b393603acb9a19ceb1814bded19c417e07c9d
+Commit message - Merge pull request #928 from davidcelis/unstable
+
+Fix a few typos and improve grammar of redis.conf
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 39 is -> 
+{ d7740fc8f350f6332fee27299c1152ba6c5dc9d0 -> 717e5ffb45acc4e976e44d19d816e320cd2d0662 } is a cherrypick
+{ 6db93e6740936f6ee6f8bf90d04a30f77dbf265d -> 442235fe40162632f3ac27b575b3fd11fc59a560 }
+Cherrypick commits SHA are -> 
+717e5ffb45acc4e976e44d19d816e320cd2d0662 - cherrypick - 442235fe40162632f3ac27b575b3fd11fc59a560
+---> The cherrypicked commit sha is - 717e5ffb45acc4e976e44d19d816e320cd2d0662
+Commit message - s/adiacent/adjacent/
+
+fixed typo in a comment (step 2 memcheck)
+---> The original commit sha is - 442235fe40162632f3ac27b575b3fd11fc59a560
+Commit message - Merge pull request #869 from bilalhusain/patch-2
+
+s/adiacent/adjacent/
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 40 is -> 
+{ bf0852e5ed56dfbe32e19d926f8d5cc76f750cc8 -> 705874e31db0196d8e1b23a28e8265dbdd2dc136 } is a cherrypick
+{ 289942b6259670fe3dcfaffdd0135c27f14c61c0 -> a4d68dc5419121660bd8f992d58e1e46075a371a }
+Cherrypick commits SHA are -> 
+705874e31db0196d8e1b23a28e8265dbdd2dc136 - cherrypick - a4d68dc5419121660bd8f992d58e1e46075a371a
+---> The cherrypicked commit sha is - 705874e31db0196d8e1b23a28e8265dbdd2dc136
+Commit message - Fix config.h endianess detection to work on Linux / PPC64.
+
+Config.h performs endianess detection including OS-specific headers to
+define the endianess macros, or when this is not possible, checking the
+processor type via ifdefs.
+
+Sometimes when the OS-specific macro is included, only __BYTE_ORDER is
+defined, while BYTE_ORDER remains undefined. There is code at the end of
+config.h endianess detection in order to define the macros without the
+underscore, but it was not working correctly.
+
+This commit fixes endianess detection fixing Redis on Linux / PPC64 and
+possibly other systems.
+---> The original commit sha is - a4d68dc5419121660bd8f992d58e1e46075a371a
+Commit message - Merge pull request #824 from ptjm/unstable
+
+Define _XOPEN_SOURCE appropriately on NetBSD.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 41 is -> 
+{ 95f68f7b0fc4ffc700361484b6c792a8e03f3a13 -> d7c7ac4a57dba2169934611c8473816996a5a507 } is a cherrypick
+{ 504e5072eb06ee2e1035bc03fa85f46f51ef6f4c -> c87a40897c82c4936563dee24bac481d970dc510 }
+Cherrypick commits SHA are -> 
+d7c7ac4a57dba2169934611c8473816996a5a507 - cherrypick - c87a40897c82c4936563dee24bac481d970dc510
+---> The cherrypicked commit sha is - d7c7ac4a57dba2169934611c8473816996a5a507
+Commit message - remove compile warning bioKillThreads
+---> The original commit sha is - c87a40897c82c4936563dee24bac481d970dc510
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 42 is -> 
+{ 021d16b6430b39f7709a70466007df1ca16867e5 -> c23c657cdd8696c66295962947b85c793c5d7b93 } is a cherrypick
+{ 05d8e2c938e3b06efe3573deb97adb767550becc -> 06851a93de54c4d9bb0a6c52234ef5bb3db07d96 }
+Cherrypick commits SHA are -> 
+c23c657cdd8696c66295962947b85c793c5d7b93 - cherrypick - 06851a93de54c4d9bb0a6c52234ef5bb3db07d96
+---> The cherrypicked commit sha is - c23c657cdd8696c66295962947b85c793c5d7b93
+Commit message - fix a typo in redis.h line 595 comment
+---> The original commit sha is - 06851a93de54c4d9bb0a6c52234ef5bb3db07d96
+Commit message - Merge pull request #741 from Run/typo
+
+fix a typo in redis.h line 595 comment
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 43 is -> 
+{ 89e74abfb6475bace3db518724ecee1fcae9c79e -> 164d57c60d254d02d816c27f4e80cf33c5061fef } is a cherrypick
+{ 973cb21a0152642ec904cf8f8ab238a31e6ebaa9 -> 021d16b6430b39f7709a70466007df1ca16867e5 }
+Cherrypick commits SHA are -> 
+164d57c60d254d02d816c27f4e80cf33c5061fef - cherrypick - 021d16b6430b39f7709a70466007df1ca16867e5
+---> The cherrypicked commit sha is - 164d57c60d254d02d816c27f4e80cf33c5061fef
+Commit message - fix a typo in a comment
+---> The original commit sha is - 021d16b6430b39f7709a70466007df1ca16867e5
+Commit message - Merge pull request #726 from yamt/typo
+
+fix a typo in a comment
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 44 is -> 
+{ ece77037e9601f9f5d2321cc5a779aef10a4c563 -> 4b1f6ad3e7a5c7c28618e43e7539c9a937bf8521 } is a cherrypick
+{ e5f794ff3abd844a08c0b01faa15550fd7014d7c -> ecd82f59fe5296de2733154bfcf1a4b95d4547aa }
+Cherrypick commits SHA are -> 
+4b1f6ad3e7a5c7c28618e43e7539c9a937bf8521 - cherrypick - ecd82f59fe5296de2733154bfcf1a4b95d4547aa
+---> The cherrypicked commit sha is - 4b1f6ad3e7a5c7c28618e43e7539c9a937bf8521
+Commit message - Fix (cosmetic) typos in dict.h
+---> The original commit sha is - ecd82f59fe5296de2733154bfcf1a4b95d4547aa
+Commit message - Merge pull request #693 from ghurrell/dict-h-typos
+
+Fix (cosmetic) typos in dict.h
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 45 is -> 
+{ b62bdf1c643ee8ace697621464ee201300ee2f0e -> cddf5946fcdf5f9860d0e2a1b90135d8c25b5841 } is a cherrypick
+{ 5d73073f6eaa391fe01ce202d1de95c27da5ec0b -> 03f412ddef44726ac32fa2f33a40037adb1b1b13 }
+Cherrypick commits SHA are -> 
+cddf5946fcdf5f9860d0e2a1b90135d8c25b5841 - cherrypick - 03f412ddef44726ac32fa2f33a40037adb1b1b13
+---> The cherrypicked commit sha is - cddf5946fcdf5f9860d0e2a1b90135d8c25b5841
+Commit message - Merge pull request #593 from steevel/unstable
+
+Check that we have connection before enabling pipe mode
+---> The original commit sha is - 03f412ddef44726ac32fa2f33a40037adb1b1b13
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 46 is -> 
+{ d9237055baddbc41d6832ef5e6a516feb738eb95 -> 31788f50b7dfde5755c9964489277449092f9f4b } is a cherrypick
+{ 5080e625d31e5132f952c5132e69aa65c6c2b383 -> 57356b80cddd203086e932a09a8916a925cb8cf6 }
+Cherrypick commits SHA are -> 
+31788f50b7dfde5755c9964489277449092f9f4b - cherrypick - 57356b80cddd203086e932a09a8916a925cb8cf6
+---> The cherrypicked commit sha is - 31788f50b7dfde5755c9964489277449092f9f4b
+Commit message - Spelling: s/synchrnonization/synchronization
+---> The original commit sha is - 57356b80cddd203086e932a09a8916a925cb8cf6
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 47 is -> 
+{ c2672a06cdf411d882c6d2a58a6c84fcbc57b4c7 -> 0a2ff52eaecb8040e105ee9fa87d82c0b0394e2e } is a cherrypick
+{ c22e0eecd5624d498ec6ee10f6b449ec5ff28c8e -> d344228734dccb1dc67a1fe7e80825c5e49a8199 }
+Cherrypick commits SHA are -> 
+0a2ff52eaecb8040e105ee9fa87d82c0b0394e2e - cherrypick - d344228734dccb1dc67a1fe7e80825c5e49a8199
+---> The cherrypicked commit sha is - 0a2ff52eaecb8040e105ee9fa87d82c0b0394e2e
+Commit message - Added consts keyword where possible
+---> The original commit sha is - d344228734dccb1dc67a1fe7e80825c5e49a8199
+Commit message - Merge pull request #421 from ErikDubbelboer/sds-const
+
+Added consts keyword where possible
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 48 is -> 
+{ 6a3f0ac68a0d649b85575dd61ef4bd26efb3ac81 -> 875944a23f37916a419bcf4b69e3b255ef093cde } is a cherrypick
+{ 4e7cc35f1a1537661b4fc70edf44f760ee3e8674 -> c22e0eecd5624d498ec6ee10f6b449ec5ff28c8e }
+Cherrypick commits SHA are -> 
+875944a23f37916a419bcf4b69e3b255ef093cde - cherrypick - c22e0eecd5624d498ec6ee10f6b449ec5ff28c8e
+---> The cherrypicked commit sha is - 875944a23f37916a419bcf4b69e3b255ef093cde
+Commit message - Replace unnecessary calls to echo and cat
+
+Tcl's exec can send data to stdout itself, no need to call cat/echo for
+that usually.
+---> The original commit sha is - c22e0eecd5624d498ec6ee10f6b449ec5ff28c8e
+Commit message - Merge pull request #461 from schlenk/unstable
+
+Replace some unnecessary calls to echo and cat in tests
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 49 is -> 
+{ 609ea08445569e5d3e50d37c515d88e6a76c6974 -> d0ace5a3149808d6d3f8fd5c626510756bba3cc7 } is a cherrypick
+{ a7138a4cf8301c1eab82d5881aa831ed38d4028c -> 2281f90c9b9d9274119493ca7b72daec8a509b95 }
+Cherrypick commits SHA are -> 
+d0ace5a3149808d6d3f8fd5c626510756bba3cc7 - cherrypick - 2281f90c9b9d9274119493ca7b72daec8a509b95
+---> The cherrypicked commit sha is - d0ace5a3149808d6d3f8fd5c626510756bba3cc7
+Commit message - Write RDB magic using a REDIS_RDB_VERSION define that is defined inside rdb.h
+---> The original commit sha is - 2281f90c9b9d9274119493ca7b72daec8a509b95
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 50 is -> 
+{ ae22bf1ef6dbfa07a485f61c119eb2e275a7916f -> 9448ddb0c63b8a00cd3cc9638a1bf5567e07bf78 } is a cherrypick
+{ 44f26aea0cf05635b3402b82e6d0b8ffd4fe1340 -> e4669c045d5bc0f7420814cb66f13f03ac29e29a }
+Cherrypick commits SHA are -> 
+9448ddb0c63b8a00cd3cc9638a1bf5567e07bf78 - cherrypick - e4669c045d5bc0f7420814cb66f13f03ac29e29a
+---> The cherrypicked commit sha is - 9448ddb0c63b8a00cd3cc9638a1bf5567e07bf78
+Commit message - fix typo
+---> The original commit sha is - e4669c045d5bc0f7420814cb66f13f03ac29e29a
+Commit message - Merge pull request #389 from huangz1990/patch-1
+
+fix typo
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 51 is -> 
+{ 824ea0177f19218d925feefbfe836718c46351d5 -> 89f6f6abcf882a1eed882a0d97b1e50c034c9530 } is a cherrypick
+{ eb7d19ed69c438b102ef7cb35195281c13a850ee -> d1c4c94ebf918b908691ab7f58f872b04d93f3f9 }
+Cherrypick commits SHA are -> 
+89f6f6abcf882a1eed882a0d97b1e50c034c9530 - cherrypick - d1c4c94ebf918b908691ab7f58f872b04d93f3f9
+---> The cherrypicked commit sha is - 89f6f6abcf882a1eed882a0d97b1e50c034c9530
+Commit message - setKey(): call the higher level wrapper setModifiedKey() instead of touchWatchedKey() even if currently they are exactly the same.
+---> The original commit sha is - d1c4c94ebf918b908691ab7f58f872b04d93f3f9
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 52 is -> 
+{ ecc57021451d1c625fd36c9ba88c60f201f5c098 -> c69ad1f24e379e9708c562cc8cda12691a000595 } is a cherrypick
+{ 4e97c2c71a3c511165c966769f51d2255d7a7b33 -> a30a8ae7ba55cd7912dbfb78eef1d3963215ff6c }
+Cherrypick commits SHA are -> 
+c69ad1f24e379e9708c562cc8cda12691a000595 - cherrypick - a30a8ae7ba55cd7912dbfb78eef1d3963215ff6c
+---> The cherrypicked commit sha is - c69ad1f24e379e9708c562cc8cda12691a000595
+Commit message - Merge branch 'unstable' into limits
+---> The original commit sha is - a30a8ae7ba55cd7912dbfb78eef1d3963215ff6c
+Commit message - Merge branch 'unstable' into limits
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 53 is -> 
+{ 6710ff24d067d56b6b8d768532a6a7d3c4bc7a80 -> 9b810f1cde23485ca435bd90754d9a5c1ecfafe7 } is a cherrypick
+{ 4e97c2c71a3c511165c966769f51d2255d7a7b33 -> a30a8ae7ba55cd7912dbfb78eef1d3963215ff6c }
+Cherrypick commits SHA are -> 
+9b810f1cde23485ca435bd90754d9a5c1ecfafe7 - cherrypick - a30a8ae7ba55cd7912dbfb78eef1d3963215ff6c
+---> The cherrypicked commit sha is - 9b810f1cde23485ca435bd90754d9a5c1ecfafe7
+Commit message - Merge branch 'unstable' into limits
+---> The original commit sha is - a30a8ae7ba55cd7912dbfb78eef1d3963215ff6c
+Commit message - Merge branch 'unstable' into limits
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 54 is -> 
+{ ecc57021451d1c625fd36c9ba88c60f201f5c098 -> c69ad1f24e379e9708c562cc8cda12691a000595 } is a cherrypick
+{ 6710ff24d067d56b6b8d768532a6a7d3c4bc7a80 -> 9b810f1cde23485ca435bd90754d9a5c1ecfafe7 }
+Cherrypick commits SHA are -> 
+c69ad1f24e379e9708c562cc8cda12691a000595 - cherrypick - 9b810f1cde23485ca435bd90754d9a5c1ecfafe7
+---> The cherrypicked commit sha is - c69ad1f24e379e9708c562cc8cda12691a000595
+Commit message - Merge branch 'unstable' into limits
+---> The original commit sha is - 9b810f1cde23485ca435bd90754d9a5c1ecfafe7
+Commit message - Merge branch 'unstable' into limits
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 55 is -> 
+{ 2ebd2720b37dcca3b6e0c18377bd69e9eaf541fc -> 57c0cf8b8571128152ca785f664ee369c5a433a7 } is a cherrypick
+{ 4aac3ff2473b4e70dd503ff5c65891146dac30fc -> f7ccc4830bfd9345452027020c12c100d01090ef }
+Cherrypick commits SHA are -> 
+57c0cf8b8571128152ca785f664ee369c5a433a7 - cherrypick - f7ccc4830bfd9345452027020c12c100d01090ef
+---> The cherrypicked commit sha is - 57c0cf8b8571128152ca785f664ee369c5a433a7
+Commit message - Fixed some typos in redis.conf.
+---> The original commit sha is - f7ccc4830bfd9345452027020c12c100d01090ef
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 56 is -> 
+{ ebdfad69dce1b3a1a48960328e5f6c3ed8fafa41 -> a11c87477754322863a51c22cb6a7614ba8ebaf0 } is a cherrypick
+{ 4aac3ff2473b4e70dd503ff5c65891146dac30fc -> f7ccc4830bfd9345452027020c12c100d01090ef }
+Cherrypick commits SHA are -> 
+a11c87477754322863a51c22cb6a7614ba8ebaf0 - cherrypick - f7ccc4830bfd9345452027020c12c100d01090ef
+---> The cherrypicked commit sha is - a11c87477754322863a51c22cb6a7614ba8ebaf0
+Commit message - Merge pull request #279 from kashif/patch-1
+
+Fixed some typos in redis.conf.
+---> The original commit sha is - f7ccc4830bfd9345452027020c12c100d01090ef
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 57 is -> 
+{ 2ebd2720b37dcca3b6e0c18377bd69e9eaf541fc -> 57c0cf8b8571128152ca785f664ee369c5a433a7 } is a cherrypick
+{ ebdfad69dce1b3a1a48960328e5f6c3ed8fafa41 -> a11c87477754322863a51c22cb6a7614ba8ebaf0 }
+Cherrypick commits SHA are -> 
+57c0cf8b8571128152ca785f664ee369c5a433a7 - cherrypick - a11c87477754322863a51c22cb6a7614ba8ebaf0
+---> The cherrypicked commit sha is - 57c0cf8b8571128152ca785f664ee369c5a433a7
+Commit message - Fixed some typos in redis.conf.
+---> The original commit sha is - a11c87477754322863a51c22cb6a7614ba8ebaf0
+Commit message - Merge pull request #279 from kashif/patch-1
+
+Fixed some typos in redis.conf.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 58 is -> 
+{ d334281c802bc94e99475557ed341d356af0ab54 -> ce6628dae7f1daae774e23302ee755341195e777 } is a cherrypick
+{ 9678c37577facb441f3c636c0453eb7a651b2d7d -> 2ebd2720b37dcca3b6e0c18377bd69e9eaf541fc }
+Cherrypick commits SHA are -> 
+ce6628dae7f1daae774e23302ee755341195e777 - cherrypick - 2ebd2720b37dcca3b6e0c18377bd69e9eaf541fc
+---> The cherrypicked commit sha is - ce6628dae7f1daae774e23302ee755341195e777
+Commit message - Fixed a config docs typo.
+---> The original commit sha is - 2ebd2720b37dcca3b6e0c18377bd69e9eaf541fc
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 59 is -> 
+{ e074416be49947c7bab5e237fab7210441bd99e5 -> 36dda9554a826104653765ec8782e055384c39f1 } is a cherrypick
+{ 18d0ef4bf010282832e9f4c697a86218fc70f393 -> 24accab2aa62f6ed1b87c6178f2003e37f0adbfd }
+Cherrypick commits SHA are -> 
+36dda9554a826104653765ec8782e055384c39f1 - cherrypick - 24accab2aa62f6ed1b87c6178f2003e37f0adbfd
+---> The cherrypicked commit sha is - 36dda9554a826104653765ec8782e055384c39f1
+Commit message - ae_epoll.c typo introduced in the previous commit fixed.
+---> The original commit sha is - 24accab2aa62f6ed1b87c6178f2003e37f0adbfd
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 60 is -> 
+{ 43093dff2d23ab0c9b3429f224e49d18839b8ec6 -> 954cc9d0f635ff85b23a6bbc03fdfb09bad13cf0 } is a cherrypick
+{ 54ecc0e777cb13b5281619f41384a95d837737ee -> da33edbc58282eed2d48ccb62babf39d0cb748e7 }
+Cherrypick commits SHA are -> 
+954cc9d0f635ff85b23a6bbc03fdfb09bad13cf0 - cherrypick - da33edbc58282eed2d48ccb62babf39d0cb748e7
+---> The cherrypicked commit sha is - 954cc9d0f635ff85b23a6bbc03fdfb09bad13cf0
+Commit message - Redis test: vaoid two false positives while running under valgrind.
+---> The original commit sha is - da33edbc58282eed2d48ccb62babf39d0cb748e7
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 61 is -> 
+{ 3c95e7212ef5f0afb12fbd102c48bf4319af2f84 -> 1d03c1c98a45ec569e017e4c0b8957c4ce00850b } is a cherrypick
+{ 3e0a975e07089609036daf70c319eea0599ce944 -> 2753acf1d642628d01de0d2a477c5d905fb761bc }
+Cherrypick commits SHA are -> 
+1d03c1c98a45ec569e017e4c0b8957c4ce00850b - cherrypick - 2753acf1d642628d01de0d2a477c5d905fb761bc
+---> The cherrypicked commit sha is - 1d03c1c98a45ec569e017e4c0b8957c4ce00850b
+Commit message - Update to jemalloc 2.2.5
+---> The original commit sha is - 2753acf1d642628d01de0d2a477c5d905fb761bc
+Commit message - Merge pull request #208 from jbergstroem/jemalloc-2.2.5
+
+Update to jemalloc 2.2.5
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 62 is -> 
+{ 40f3ff21b7366defa4ae84ba93f4833a468669a1 -> 92a157eae5553553b4259d984e47b99ab82a03d0 } is a cherrypick
+{ 1bcfa0f643d53e700d7398985ef236babf18d9bf -> 1b2962c61fd47730924489b689a39ffda6b88a80 }
+Cherrypick commits SHA are -> 
+92a157eae5553553b4259d984e47b99ab82a03d0 - cherrypick - 1b2962c61fd47730924489b689a39ffda6b88a80
+---> The cherrypicked commit sha is - 92a157eae5553553b4259d984e47b99ab82a03d0
+Commit message - Fixed a typo in comments.
+---> The original commit sha is - 1b2962c61fd47730924489b689a39ffda6b88a80
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 63 is -> 
+{ 39da5d1f2183eb6e7440bf742b558f974a5a4172 -> 4e5f63a60c36f58bdecedc43262e7f89e28656d7 } is a cherrypick
+{ 1bcfa0f643d53e700d7398985ef236babf18d9bf -> 1b2962c61fd47730924489b689a39ffda6b88a80 }
+Cherrypick commits SHA are -> 
+4e5f63a60c36f58bdecedc43262e7f89e28656d7 - cherrypick - 1b2962c61fd47730924489b689a39ffda6b88a80
+---> The cherrypicked commit sha is - 4e5f63a60c36f58bdecedc43262e7f89e28656d7
+Commit message - Merge pull request #199 from jerem/patch-1
+
+Fixed a typo in comments.
+---> The original commit sha is - 1b2962c61fd47730924489b689a39ffda6b88a80
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 64 is -> 
+{ 40f3ff21b7366defa4ae84ba93f4833a468669a1 -> 92a157eae5553553b4259d984e47b99ab82a03d0 } is a cherrypick
+{ 39da5d1f2183eb6e7440bf742b558f974a5a4172 -> 4e5f63a60c36f58bdecedc43262e7f89e28656d7 }
+Cherrypick commits SHA are -> 
+92a157eae5553553b4259d984e47b99ab82a03d0 - cherrypick - 4e5f63a60c36f58bdecedc43262e7f89e28656d7
+---> The cherrypicked commit sha is - 92a157eae5553553b4259d984e47b99ab82a03d0
+Commit message - Fixed a typo in comments.
+---> The original commit sha is - 4e5f63a60c36f58bdecedc43262e7f89e28656d7
+Commit message - Merge pull request #199 from jerem/patch-1
+
+Fixed a typo in comments.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 65 is -> 
+{ ef23f3ac920c4cc1f403a2765455e455b03101bd -> b91cbf66bb527fbc7eef8079e9153fa5357186e2 } is a cherrypick
+{ 0b14e44118bf80e2e724081fcf2f3071788068d5 -> 40f3ff21b7366defa4ae84ba93f4833a468669a1 }
+Cherrypick commits SHA are -> 
+b91cbf66bb527fbc7eef8079e9153fa5357186e2 - cherrypick - 40f3ff21b7366defa4ae84ba93f4833a468669a1
+---> The cherrypicked commit sha is - b91cbf66bb527fbc7eef8079e9153fa5357186e2
+Commit message - Fix minor typos.
+---> The original commit sha is - 40f3ff21b7366defa4ae84ba93f4833a468669a1
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 66 is -> 
+{ e41677b4cf1452c276e5a02e791585a25e02f8f2 -> 794e6ce14ff85f00b0d3e86365e9cc45a90d3bcf } is a cherrypick
+{ 0b14e44118bf80e2e724081fcf2f3071788068d5 -> 40f3ff21b7366defa4ae84ba93f4833a468669a1 }
+Cherrypick commits SHA are -> 
+794e6ce14ff85f00b0d3e86365e9cc45a90d3bcf - cherrypick - 40f3ff21b7366defa4ae84ba93f4833a468669a1
+---> The cherrypicked commit sha is - 794e6ce14ff85f00b0d3e86365e9cc45a90d3bcf
+Commit message - Merge pull request #173 from jasondavies/typo
+
+Fix some minor typos.
+---> The original commit sha is - 40f3ff21b7366defa4ae84ba93f4833a468669a1
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 67 is -> 
+{ ef23f3ac920c4cc1f403a2765455e455b03101bd -> b91cbf66bb527fbc7eef8079e9153fa5357186e2 } is a cherrypick
+{ e41677b4cf1452c276e5a02e791585a25e02f8f2 -> 794e6ce14ff85f00b0d3e86365e9cc45a90d3bcf }
+Cherrypick commits SHA are -> 
+b91cbf66bb527fbc7eef8079e9153fa5357186e2 - cherrypick - 794e6ce14ff85f00b0d3e86365e9cc45a90d3bcf
+---> The cherrypicked commit sha is - b91cbf66bb527fbc7eef8079e9153fa5357186e2
+Commit message - Fix minor typos.
+---> The original commit sha is - 794e6ce14ff85f00b0d3e86365e9cc45a90d3bcf
+Commit message - Merge pull request #173 from jasondavies/typo
+
+Fix some minor typos.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 68 is -> 
+{ db6a2e7f78f99503eaa2fcc0574a16eea570637a -> b83e95830f45eb5e3b4e7c0a997d611f75f758b8 } is a cherrypick
+{ 85ccd576328355462a030392951fa9256589b7f6 -> 404cd6450d8b7cd8fe905df831cd2755030f7aec }
+Cherrypick commits SHA are -> 
+b83e95830f45eb5e3b4e7c0a997d611f75f758b8 - cherrypick - 404cd6450d8b7cd8fe905df831cd2755030f7aec
+---> The cherrypicked commit sha is - b83e95830f45eb5e3b4e7c0a997d611f75f758b8
+Commit message - build: fix sunos build, compile lua with __C99FEATURES__=1
+---> The original commit sha is - 404cd6450d8b7cd8fe905df831cd2755030f7aec
+Commit message - Merge pull request #170 from bnoordhuis/fix-sunos-build
+
+build: fix sunos build, compile lua with __C99FEATURES__=1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 69 is -> 
+{ 34296ae890178926347f0b8b47f66d96a541f1c3 -> 3a02bd96e757f2bb5659adfda1d57ea542ec49cf } is a cherrypick
+{ 73fac227a0dd3a7d25e29b4718f8588f55db07d6 -> 2f5abbfeb7fa928399d86889c14ebf8064706869 }
+Cherrypick commits SHA are -> 
+3a02bd96e757f2bb5659adfda1d57ea542ec49cf - cherrypick - 2f5abbfeb7fa928399d86889c14ebf8064706869
+---> The cherrypicked commit sha is - 3a02bd96e757f2bb5659adfda1d57ea542ec49cf
+Commit message - Merge pull request #147 from janoberst/unstable
+
+Cleaned up redis root directory a tiny bit and changed links to github issues
+---> The original commit sha is - 2f5abbfeb7fa928399d86889c14ebf8064706869
+Commit message - Merge branch 'unstable' of github.com:/antirez/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 70 is -> 
+{ 76e772f39a971e14e9c8cd077b68ad8ed8cc7f97 -> 046f70f758a263052a044f78e808a5ebf2bc24ca } is a cherrypick
+{ 15108778d5dde69edd61dfe11372b071339ad108 -> 8f2af26c2c8ddcb78a801f04ac1a29a7411b5bb4 }
+Cherrypick commits SHA are -> 
+046f70f758a263052a044f78e808a5ebf2bc24ca - cherrypick - 8f2af26c2c8ddcb78a801f04ac1a29a7411b5bb4
+---> The cherrypicked commit sha is - 046f70f758a263052a044f78e808a5ebf2bc24ca
+Commit message - Fixed a small memory leak I found with valgrind
+---> The original commit sha is - 8f2af26c2c8ddcb78a801f04ac1a29a7411b5bb4
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 71 is -> 
+{ 909aee2c6cc6c35394a3dc212126c7f6034b3d63 -> 9a01957f6830da6f46a758e29b5dcd583e098208 } is a cherrypick
+{ 2aa26d2a636efd68b58c1ca1f972da6b03ef0226 -> dbf6bca4315db7cf03ae0d33a25c515b0b0849c8 }
+Cherrypick commits SHA are -> 
+9a01957f6830da6f46a758e29b5dcd583e098208 - cherrypick - dbf6bca4315db7cf03ae0d33a25c515b0b0849c8
+---> The cherrypicked commit sha is - 9a01957f6830da6f46a758e29b5dcd583e098208
+Commit message - fixes to install script
+---> The original commit sha is - dbf6bca4315db7cf03ae0d33a25c515b0b0849c8
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 72 is -> 
+{ eab0e26e03fa3c27a4e1172659cea32e1b83699e -> 093433c16ddf432e5005a6b45825febf448fc6a9 } is a cherrypick
+{ 2aa26d2a636efd68b58c1ca1f972da6b03ef0226 -> dbf6bca4315db7cf03ae0d33a25c515b0b0849c8 }
+Cherrypick commits SHA are -> 
+093433c16ddf432e5005a6b45825febf448fc6a9 - cherrypick - dbf6bca4315db7cf03ae0d33a25c515b0b0849c8
+---> The cherrypicked commit sha is - 093433c16ddf432e5005a6b45825febf448fc6a9
+Commit message - Merge pull request #118 from dvirsky/unstable
+
+fixes to install scripts
+---> The original commit sha is - dbf6bca4315db7cf03ae0d33a25c515b0b0849c8
+Commit message - Merge remote-tracking branch 'origin/unstable' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 73 is -> 
+{ 909aee2c6cc6c35394a3dc212126c7f6034b3d63 -> 9a01957f6830da6f46a758e29b5dcd583e098208 } is a cherrypick
+{ eab0e26e03fa3c27a4e1172659cea32e1b83699e -> 093433c16ddf432e5005a6b45825febf448fc6a9 }
+Cherrypick commits SHA are -> 
+9a01957f6830da6f46a758e29b5dcd583e098208 - cherrypick - 093433c16ddf432e5005a6b45825febf448fc6a9
+---> The cherrypicked commit sha is - 9a01957f6830da6f46a758e29b5dcd583e098208
+Commit message - fixes to install script
+---> The original commit sha is - 093433c16ddf432e5005a6b45825febf448fc6a9
+Commit message - Merge pull request #118 from dvirsky/unstable
+
+fixes to install scripts
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 74 is -> 
+{ 80e87a461a7d2ee54430127bdb6ac014778c54c5 -> 5215ab1418479ba7820ddfcf0f342305be4b7e24 } is a cherrypick
+{ ac1f6fd07a15ac7a14f27b8a5f4b5fb3dc6cf8ac -> 0ace6ce463695df1ff4c7ba848554f4c9b822f36 }
+Cherrypick commits SHA are -> 
+5215ab1418479ba7820ddfcf0f342305be4b7e24 - cherrypick - 0ace6ce463695df1ff4c7ba848554f4c9b822f36
+---> The cherrypicked commit sha is - 5215ab1418479ba7820ddfcf0f342305be4b7e24
+Commit message - Spelling fixes.
+---> The original commit sha is - 0ace6ce463695df1ff4c7ba848554f4c9b822f36
+Commit message - Merge pull request #72 from datafueled/spelling
+
+Spelling fixes.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 75 is -> 
+{ b56567017dfc44b8e5071423423a48601cc4657e -> 08c4b019b73323726da8215ed2d86b0adf844efd } is a cherrypick
+{ 7cfeb8cccf945e5de7210d8bd5a398acfd0959d8 -> e0ba14557e2b24d21e92be01afd2307f1cc57aac }
+Cherrypick commits SHA are -> 
+08c4b019b73323726da8215ed2d86b0adf844efd - cherrypick - e0ba14557e2b24d21e92be01afd2307f1cc57aac
+---> The cherrypicked commit sha is - 08c4b019b73323726da8215ed2d86b0adf844efd
+Commit message - Added note about Tcl
+---> The original commit sha is - e0ba14557e2b24d21e92be01afd2307f1cc57aac
+Commit message - Merge pull request #77 from Poincare/patch-1
+
+Added note about Tcl
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 76 is -> 
+{ 331bf3292f249fac99226c591b40fd64a8d7106a -> c984d42fb14c72aa8a97e971f0f3d3df189f82d0 } is a cherrypick
+{ 4dd444bb4aabc3d6be68f90b67ad8a3a185fd40b -> 5cb4850708d7ad9c035e7ee9534b05bb1b0e9d94 }
+Cherrypick commits SHA are -> 
+c984d42fb14c72aa8a97e971f0f3d3df189f82d0 - cherrypick - 5cb4850708d7ad9c035e7ee9534b05bb1b0e9d94
+---> The cherrypicked commit sha is - c984d42fb14c72aa8a97e971f0f3d3df189f82d0
+Commit message - Minor spelling fixes
+---> The original commit sha is - 5cb4850708d7ad9c035e7ee9534b05bb1b0e9d94
+Commit message - Merge branch 'unstable' of github.com:antirez/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 77 is -> 
+{ 6b91a11e3e224fdc506bd8f47a9e90bee2b9b05d -> e6fcb5b30db56e29c393cf7375085ab6fe12fb4d } is a cherrypick
+{ 0717e3aa16fc81ff0e5a9dfacc93655edbdaec6f -> 4bab6312239f4d77b7cc25ab7eec80fc3ba19506 }
+Cherrypick commits SHA are -> 
+e6fcb5b30db56e29c393cf7375085ab6fe12fb4d - cherrypick - 4bab6312239f4d77b7cc25ab7eec80fc3ba19506
+---> The cherrypicked commit sha is - e6fcb5b30db56e29c393cf7375085ab6fe12fb4d
+Commit message - make test depends on redis-check-aof as well.
+---> The original commit sha is - 4bab6312239f4d77b7cc25ab7eec80fc3ba19506
+Commit message - Merge branch 'unstable' of github.com:antirez/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 78 is -> 
+{ 19e84589304256f0581b056133c9cae6ea1e011b -> 330c90b01848f0f7b945aafd0f36c1703adbfd7f } is a cherrypick
+{ 38a154a9a6244826a8cb536347a60749cef2ee4a -> 521ddcce1483d1b8760a108fd5d7df0ae663799a }
+Cherrypick commits SHA are -> 
+330c90b01848f0f7b945aafd0f36c1703adbfd7f - cherrypick - 521ddcce1483d1b8760a108fd5d7df0ae663799a
+---> The cherrypicked commit sha is - 330c90b01848f0f7b945aafd0f36c1703adbfd7f
+Commit message - fmacros in utils.c to avoid warning about strcasecmp()
+---> The original commit sha is - 521ddcce1483d1b8760a108fd5d7df0ae663799a
+Commit message - Fix for ZUNIONSTORE bug when there is an empty set among input sets. Regression test added.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 79 is -> 
+{ bfe85f7ca97259256e8089349e1a462b6c7dbd00 -> defb5f66a090c614aa70aee9e1923ec571e0e911 } is a cherrypick
+{ af9aed25e44cf6e0c38cee2d289c7c31f03fc01f -> 06d22a8a8ac309be1c553e307afbf46d22020410 }
+Cherrypick commits SHA are -> 
+defb5f66a090c614aa70aee9e1923ec571e0e911 - cherrypick - 06d22a8a8ac309be1c553e307afbf46d22020410
+---> The cherrypicked commit sha is - defb5f66a090c614aa70aee9e1923ec571e0e911
+Commit message - removed assert causing an illegal memory access. This was responsible of crashes during BLPOP and other list blocking operations.
+---> The original commit sha is - 06d22a8a8ac309be1c553e307afbf46d22020410
+Commit message - Merge branch 'unstable' of github.com:antirez/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 80 is -> 
+{ fd7a584f7ab9a796338e3bd6cacf01ce5476bb91 -> 8d727af8c4d309463cd463689b50ffb299b61964 } is a cherrypick
+{ e9ee513b6a940ecd3e30a152d6ad2e8fb25147a5 -> d415f9ff41ed5b87de9baa7a9521431ed7d78d3c }
+Cherrypick commits SHA are -> 
+8d727af8c4d309463cd463689b50ffb299b61964 - cherrypick - d415f9ff41ed5b87de9baa7a9521431ed7d78d3c
+---> The cherrypicked commit sha is - 8d727af8c4d309463cd463689b50ffb299b61964
+Commit message - update state when FAIL is cleared from a node
+---> The original commit sha is - d415f9ff41ed5b87de9baa7a9521431ed7d78d3c
+Commit message - Merge branch 'unstable' of github.com:antirez/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 81 is -> 
+{ d9fac6c07a08c577d70f529a612ae87e101ebbdb -> 633a941028ad60bfad1bdeee95edaeba6109304f } is a cherrypick
+{ 3f4eef215b321a4e7c4f968cfc614ff51a5a576e -> c2f816b4233355b6b8426572bd6e2c024fa24193 }
+Cherrypick commits SHA are -> 
+633a941028ad60bfad1bdeee95edaeba6109304f - cherrypick - c2f816b4233355b6b8426572bd6e2c024fa24193
+---> The cherrypicked commit sha is - 633a941028ad60bfad1bdeee95edaeba6109304f
+Commit message - Save RDB on SIGTERM (see issue #471)
+---> The original commit sha is - c2f816b4233355b6b8426572bd6e2c024fa24193
+Commit message - Merge remote branch 'pietern/unstable-sigs' into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 82 is -> 
+{ 3bcffcbe5bc0acde311d0fb311f893400cd52e0e -> a4fdc3c021108438cb651c517aa5efc7358e7eec } is a cherrypick
+{ c4df22afb6756446d35bb7ed3fc4a0bc42086056 -> f25d5b5c9c536bb4bb9febe6fa4fd57d7c7de581 }
+Cherrypick commits SHA are -> 
+a4fdc3c021108438cb651c517aa5efc7358e7eec - cherrypick - f25d5b5c9c536bb4bb9febe6fa4fd57d7c7de581
+---> The cherrypicked commit sha is - a4fdc3c021108438cb651c517aa5efc7358e7eec
+Commit message - a better release note for Redis unstable provided
+---> The original commit sha is - f25d5b5c9c536bb4bb9febe6fa4fd57d7c7de581
+Commit message - Merge branch 'unstable' of github.com:antirez/redis into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 83 is -> 
+{ 59aee5513d27fdf2d24499f35611093fa0fab3fb -> 6418b4c790adc1373cea9e4e3342982e9a209505 } is a cherrypick
+{ f21779ff36947fe22e6fc3f00d4bd73185557190 -> 180596766bb48698fda28069ae5028554caac74c }
+Cherrypick commits SHA are -> 
+6418b4c790adc1373cea9e4e3342982e9a209505 - cherrypick - 180596766bb48698fda28069ae5028554caac74c
+---> The cherrypicked commit sha is - 6418b4c790adc1373cea9e4e3342982e9a209505
+Commit message - help.h updated
+---> The original commit sha is - 180596766bb48698fda28069ae5028554caac74c
+Commit message - help.h updated
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 84 is -> 
+{ 2b00385d51cb75c30b47073a74f8edd0c53b942b -> 192fc3376a0712e69e638b087c82c7e34f698f4d } is a cherrypick
+{ 5ca2f0c49894878be47161f667ae0daf70bb6fd3 -> b882056c93f3e3afe5fde9d62fb569ce30a76a76 }
+Cherrypick commits SHA are -> 
+192fc3376a0712e69e638b087c82c7e34f698f4d - cherrypick - b882056c93f3e3afe5fde9d62fb569ce30a76a76
+---> The cherrypicked commit sha is - 192fc3376a0712e69e638b087c82c7e34f698f4d
+Commit message - Merge branch 'zset-mem' into zrevrangebyscore
+---> The original commit sha is - b882056c93f3e3afe5fde9d62fb569ce30a76a76
+Commit message - Merge remote branch 'pietern/zset-mem'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 85 is -> 
+{ 556bdfbab9062d472e19d882ae045fece36a25ab -> 9e83ac06ef1c978c65fefc1fbf5af1e95f31fe15 } is a cherrypick
+{ 3856f1475936e58d3caebbb3df317421b263f2e6 -> 89f9f83769a2ad0b4aeb8907b82b453ace6ebe9d }
+Cherrypick commits SHA are -> 
+9e83ac06ef1c978c65fefc1fbf5af1e95f31fe15 - cherrypick - 89f9f83769a2ad0b4aeb8907b82b453ace6ebe9d
+---> The cherrypicked commit sha is - 9e83ac06ef1c978c65fefc1fbf5af1e95f31fe15
+Commit message - Merge branch 'master' into networking-perf
+
+Resolved conflict in src/db.c and changed adding an error to the reply
+in blockingPopGenericCommand to use the new API.
+---> The original commit sha is - 89f9f83769a2ad0b4aeb8907b82b453ace6ebe9d
+Commit message - Merge remote branch 'pietern/networking-perf'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 86 is -> 
+{ 0c7a9dec651aa15857da30b95cca7079490725ab -> 68254919284ec958225e1bc5fb2951ef096c92d1 } is a cherrypick
+{ 2c572622fb99f32328de58f815953f17d4ad0e4d -> 23d7298b1594cf673f04f2f8561d4f85b8457c6f }
+Cherrypick commits SHA are -> 
+68254919284ec958225e1bc5fb2951ef096c92d1 - cherrypick - 23d7298b1594cf673f04f2f8561d4f85b8457c6f
+---> The cherrypicked commit sha is - 68254919284ec958225e1bc5fb2951ef096c92d1
+Commit message - Fix assertion function on value encoding
+---> The original commit sha is - 23d7298b1594cf673f04f2f8561d4f85b8457c6f
+Commit message - Merge remote branch 'pietern/test-encoding-fix' into writeonexpire
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 87 is -> 
+{ bc000c1db00dafaba9aae9620b246b63e4130238 -> 6531c94d28c8314c934847d421a79ddb31298aeb } is a cherrypick
+{ 1ad4d31631315d0c1e140b0a831e30fa90163fec -> 90fdc82697823a4e8228ae7e5c5ada0f56d160d7 }
+Cherrypick commits SHA are -> 
+6531c94d28c8314c934847d421a79ddb31298aeb - cherrypick - 90fdc82697823a4e8228ae7e5c5ada0f56d160d7
+---> The cherrypicked commit sha is - 6531c94d28c8314c934847d421a79ddb31298aeb
+Commit message - raise error on nested MULTI and WATCH inside multi
+---> The original commit sha is - 90fdc82697823a4e8228ae7e5c5ada0f56d160d7
+Commit message - Merge branch 'master' into nested-multi
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 88 is -> 
+{ fd80abda0888564f26437834739ae456276771ff -> 4993adbaaf4d5303549adef619883d87d16db46b } is a cherrypick
+{ 7fc98533392f455974d546c88bd4d41c85e6fe6d -> 329cdba00afd2f97ca828134cb5c24316d516fce }
+Cherrypick commits SHA are -> 
+4993adbaaf4d5303549adef619883d87d16db46b - cherrypick - 329cdba00afd2f97ca828134cb5c24316d516fce
+---> The cherrypicked commit sha is - 4993adbaaf4d5303549adef619883d87d16db46b
+Commit message - include solaris fixes in sha1.c
+---> The original commit sha is - 329cdba00afd2f97ca828134cb5c24316d516fce
+Commit message - Merge branch 'solaris' of git://github.com/pietern/redis
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 89 is -> 
+{ fab43727b43de73add99dfc3f25a69ac0777fd67 -> 8513a757abb1edf9e85f368df9072b22218defe3 } is a cherrypick
+{ f166bb1d500dcecb14bff13312a4e7d2a76356c7 -> 6185fd3532704ef28012194d18ceda40096e332b }
+Cherrypick commits SHA are -> 
+8513a757abb1edf9e85f368df9072b22218defe3 - cherrypick - 6185fd3532704ef28012194d18ceda40096e332b
+---> The cherrypicked commit sha is - 8513a757abb1edf9e85f368df9072b22218defe3
+Commit message - minor change to shutdown
+---> The original commit sha is - 6185fd3532704ef28012194d18ceda40096e332b
+Commit message - Merge branch 'test_vm' of git://github.com/pietern/redis
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 90 is -> 
+{ 7a121e60f2c079a9d6556971d05c06da2383b66a -> b58ba10526f5894fa74821bd37d6e0324de69aba } is a cherrypick
+{ 9b8834158bb173bc7e28413f0d6883b089230b58 -> c14753cea16cc963363b0d3002dc94b33c1f2075 }
+Cherrypick commits SHA are -> 
+b58ba10526f5894fa74821bd37d6e0324de69aba - cherrypick - c14753cea16cc963363b0d3002dc94b33c1f2075
+---> The cherrypicked commit sha is - b58ba10526f5894fa74821bd37d6e0324de69aba
+Commit message - Add SIGTERM shutdown handling.
+---> The original commit sha is - c14753cea16cc963363b0d3002dc94b33c1f2075
+Commit message - Merge http://github.com/ngmoco/redis
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 91 is -> 
+{ a57d9cc437ced3d3fd7fce64d1f698052651824d -> 36e5db6d24f361b96eb6e1f51ac117c0c9fdaaab } is a cherrypick
+{ 76a224700d2745b7b292177f6b8eb0c2f122b73b -> 0f3010ab0d076d01b31019d902bfc94ca1e310d3 }
+Cherrypick commits SHA are -> 
+36e5db6d24f361b96eb6e1f51ac117c0c9fdaaab - cherrypick - 0f3010ab0d076d01b31019d902bfc94ca1e310d3
+---> The cherrypicked commit sha is - 36e5db6d24f361b96eb6e1f51ac117c0c9fdaaab
+Commit message - Don't rely on cliReadReply being able to return on shutdown
+---> The original commit sha is - 0f3010ab0d076d01b31019d902bfc94ca1e310d3
+Commit message - Merge branch 'redis-cli-fix' of http://github.com/tizoc/redis
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 92 is -> 
+{ 946342c19019c5cf81b965cac3dbea5007d74049 -> 98d2e23be23f9af02653672081896747baf985f7 } is a cherrypick
+{ 585af7e21c864652a15248b85c34808e16604c9e -> 45ae650129bf7b665ade56e0dc6bd880f1e4ad07 }
+Cherrypick commits SHA are -> 
+98d2e23be23f9af02653672081896747baf985f7 - cherrypick - 45ae650129bf7b665ade56e0dc6bd880f1e4ad07
+---> The cherrypicked commit sha is - 98d2e23be23f9af02653672081896747baf985f7
+Commit message - Merge branch 'master' into check-aof
+---> The original commit sha is - 45ae650129bf7b665ade56e0dc6bd880f1e4ad07
+Commit message - Merge branch 'check-aof' of git://github.com/pietern/redis
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 93 is -> 
+{ 029245feac6b481545de6810c554a2d5d50c39c6 -> 28ed1f33eedad20fc441b2552b3d7149b2832295 } is a cherrypick
+{ 4132ad8d49e9a26425497048404f32b151362fe1 -> f424d5f398dde0679ae2afd5063c80d845641a00 }
+Cherrypick commits SHA are -> 
+28ed1f33eedad20fc441b2552b3d7149b2832295 - cherrypick - f424d5f398dde0679ae2afd5063c80d845641a00
+---> The cherrypicked commit sha is - 28ed1f33eedad20fc441b2552b3d7149b2832295
+Commit message - AOF writes are now accumulated into a buffer and flushed into disk just before re-entering the event loop. A lot less writes but still this guarantees that AOF is written before the client gets a positive reply about a write operation, as no reply is trasnmitted before re-entering into the event loop.
+---> The original commit sha is - f424d5f398dde0679ae2afd5063c80d845641a00
+Commit message - Merge branch 'master' into aof-speedup
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 94 is -> 
+{ fc46bb71aeeeafa24793dae49f3b63ae84a96e83 -> de450ee9e5383a78bc0bea8e5c7c120b9160eb10 } is a cherrypick
+{ af090ffa5279a9faca4ea974d908d58d0fc77844 -> 2cf5e5136b20bff5775c3824185e7462a97bc110 }
+Cherrypick commits SHA are -> 
+de450ee9e5383a78bc0bea8e5c7c120b9160eb10 - cherrypick - 2cf5e5136b20bff5775c3824185e7462a97bc110
+---> The cherrypicked commit sha is - de450ee9e5383a78bc0bea8e5c7c120b9160eb10
+Commit message - fmacros added to linenoise, avoiding all the nice warnings...
+---> The original commit sha is - 2cf5e5136b20bff5775c3824185e7462a97bc110
+Commit message - included fmacros.h in linenose.c to avoid compilation warnings on Linux
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 95 is -> 
+{ d33278d1601bda80987a6f4ad4b2319fb2f7e972 -> 09aeb5790fa09e1a5fb7545f669780efe1eb4632 } is a cherrypick
+{ bbe025e04bca8c1631152aada1ed7db5a6aa625c -> b60bace9f945d30029596a6bd91412d2e1053c69 }
+Cherrypick commits SHA are -> 
+09aeb5790fa09e1a5fb7545f669780efe1eb4632 - cherrypick - b60bace9f945d30029596a6bd91412d2e1053c69
+---> The cherrypicked commit sha is - 09aeb5790fa09e1a5fb7545f669780efe1eb4632
+Commit message - implemented HMGET
+---> The original commit sha is - b60bace9f945d30029596a6bd91412d2e1053c69
+Commit message - Merge branch 'hmget' of git://github.com/pietern/redis
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 96 is -> 
+{ c77169b7e992697d364e886555b613ba8ca27f83 -> 6bccf64a5e0cf2050da4809a5304bdf797c9d5cf } is a cherrypick
+{ 5e2022bb484791b1b3099b7ce304f02b1f4a3212 -> 7bf90179a32eeb7754c1a3244f6612ce780e7de4 }
+Cherrypick commits SHA are -> 
+6bccf64a5e0cf2050da4809a5304bdf797c9d5cf - cherrypick - 7bf90179a32eeb7754c1a3244f6612ce780e7de4
+---> The cherrypicked commit sha is - 6bccf64a5e0cf2050da4809a5304bdf797c9d5cf
+Commit message - Fixing issue 193
+---> The original commit sha is - 7bf90179a32eeb7754c1a3244f6612ce780e7de4
+Commit message - Merge branch 'issue_193' of git://github.com/gnrfan/redis
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 97 is -> 
+{ 164ee595644b711b2fbd2248898667d8ce287c58 -> d2764cd6926fb4368ccf55f381aad7386afd5154 } is a cherrypick
+{ fdfdae0f3abdbe44905d2de1b89ea839717c2a65 -> 17d68f9c99cd629591527d4c385ed0b1244726c5 }
+Cherrypick commits SHA are -> 
+d2764cd6926fb4368ccf55f381aad7386afd5154 - cherrypick - 17d68f9c99cd629591527d4c385ed0b1244726c5
+---> The cherrypicked commit sha is - d2764cd6926fb4368ccf55f381aad7386afd5154
+Commit message - added explicit AGGREGATE [SUM|MIN|MAX] option to ZUNION/ZINTER
+---> The original commit sha is - 17d68f9c99cd629591527d4c385ed0b1244726c5
+Commit message - Merge branch 'aggregates' of git://github.com/pietern/redis
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 98 is -> 
+{ 405b0a6aa5aab15c50fee38459d354a0fe27a47b -> 62e920df9a338e76a5c1dfae4d2a528e8abb9de6 } is a cherrypick
+{ 96d8b4eeba2503c9f679e41963220a72ee5baeda -> 51e01d9b39127eb278957f0c7f122e43a8f830e0 }
+Cherrypick commits SHA are -> 
+62e920df9a338e76a5c1dfae4d2a528e8abb9de6 - cherrypick - 51e01d9b39127eb278957f0c7f122e43a8f830e0
+---> The cherrypicked commit sha is - 62e920df9a338e76a5c1dfae4d2a528e8abb9de6
+Commit message - can select db num
+---> The original commit sha is - 51e01d9b39127eb278957f0c7f122e43a8f830e0
+Commit message - Merge git://github.com/ianxm/redis
+-----------------------------------------------------------------
+
