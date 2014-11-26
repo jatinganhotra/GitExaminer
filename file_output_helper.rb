@@ -14,9 +14,9 @@ def OutputCompleteReverts( reverts_log_file_name, full_reverts, revert_diffs)
       op_file.puts("\{ #{diff.prev_commit_sha} -> #{diff.next_commit_sha} \}")
       op_file.puts("Revert commits SHA are -> ")
       op_file.puts("#{cmp_diff.next_commit_sha} - revert - #{diff.next_commit_sha}")
-      op_file.puts("The reverted commit sha is - #{cmp_diff.next_commit_sha}")
+      op_file.puts("---> The reverted commit sha is - #{cmp_diff.next_commit_sha}")
       op_file.puts("Commit message - " + $rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message)
-      op_file.puts("The original commit sha is - " + diff.next_commit_sha.to_s)
+      op_file.puts("---> The original commit sha is - " + diff.next_commit_sha.to_s)
       op_file.puts("Commit message - " + $rugged_repo.lookup("#{diff.next_commit_sha}").message)
       op_file.puts("-----------------------------------------------------------------")
       op_file.puts "\n"
@@ -41,11 +41,11 @@ def OutputPartialReverts( partial_reverts_log_file_name, partial_reverts, partia
       op_file.puts("\{ #{diff.prev_commit_sha} -> #{diff.next_commit_sha} \}")
       op_file.puts("Partial Revert commits SHA are -> ")
       op_file.puts("#{cmp_diff.next_commit_sha} - revert - #{diff.next_commit_sha}")
-      op_file.puts("The reverted commit sha is - #{cmp_diff.next_commit_sha}")
+      op_file.puts("---> The reverted commit sha is - #{cmp_diff.next_commit_sha}")
       op_file.puts("Commit message - " + $rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message)
-      op_file.puts("The original commit sha is - " + diff.next_commit_sha.to_s)
+      op_file.puts("---> The original commit sha is - " + diff.next_commit_sha.to_s)
       op_file.puts("Commit message - " + $rugged_repo.lookup("#{diff.next_commit_sha}").message)
-      op_file.puts("The files with partial_reverts are:-")
+      op_file.puts("---> The files with partial_reverts are:-")
       op_file.puts(partial_match)
       op_file.puts("-----------------------------------------------------------------")
       op_file.puts "\n"
@@ -70,9 +70,9 @@ def OutputCompleteCherryPicks( full_cps_log_file_name, full_cps, cp_diffs)
       op_file.puts("\{ #{diff.prev_commit_sha} -> #{diff.next_commit_sha} \}")
       op_file.puts("Cherrypick commits SHA are -> ")
       op_file.puts("#{cmp_diff.next_commit_sha} - cherrypick - #{diff.next_commit_sha}")
-      op_file.puts("The cherrypicked commit sha is - #{cmp_diff.next_commit_sha}")
+      op_file.puts("---> The cherrypicked commit sha is - #{cmp_diff.next_commit_sha}")
       op_file.puts("Commit message - " + $rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message)
-      op_file.puts("The original commit sha is - " + diff.next_commit_sha.to_s)
+      op_file.puts("---> The original commit sha is - " + diff.next_commit_sha.to_s)
       op_file.puts("Commit message - " + $rugged_repo.lookup("#{diff.next_commit_sha}").message)
       op_file.puts("-----------------------------------------------------------------")
       op_file.puts "\n"
@@ -88,7 +88,7 @@ def OutputPartialCherryPicks( partial_cherrypicks_log_file_name, partial_cps, pa
   if partial_cps > 0
     op_file = File.open(partial_cherrypicks_log_file_name, "w")
     num = 1
-    op_file.puts "# of partial cherrypicks = " + partial_cherrypicks.to_s
+    op_file.puts "# of partial cherrypicks = " + partial_cps.to_s
     partial_cp_diffs.each do |partial_cherrypick_diff_pair, partial_match|
       diff = partial_cherrypick_diff_pair[:diff]
       cmp_diff = partial_cherrypick_diff_pair[:cmp_diff]
@@ -97,12 +97,31 @@ def OutputPartialCherryPicks( partial_cherrypicks_log_file_name, partial_cps, pa
       op_file.puts("\{ #{diff.prev_commit_sha} -> #{diff.next_commit_sha} \}")
       op_file.puts("Partial Cherry-pick commits SHA are -> ")
       op_file.puts("#{cmp_diff.next_commit_sha} - cherrypick - #{diff.next_commit_sha}")
-      op_file.puts("The cherrypicked commit sha is - #{cmp_diff.next_commit_sha}")
+      op_file.puts("---> The cherrypicked commit sha is - #{cmp_diff.next_commit_sha}")
       op_file.puts("Commit message - " + $rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message)
-      op_file.puts("The original commit sha is - " + diff.next_commit_sha.to_s)
+      op_file.puts("---> The original commit sha is - " + diff.next_commit_sha.to_s)
       op_file.puts("Commit message - " + $rugged_repo.lookup("#{diff.next_commit_sha}").message)
-      op_file.puts("The files with partial_cherrypicks are:-")
+      op_file.puts("---> The files with partial_cherrypicks are:-")
       op_file.puts(partial_match)
+      op_file.puts("-----------------------------------------------------------------")
+      op_file.puts "\n"
+      num = num.succ
+    end
+  end
+end
+
+# ----------------------------------------------------------------------------------
+# ---------------------------   Output Merges   ------------------------------------
+# ----------------------------------------------------------------------------------
+def OutputMerges( merges_log_file_name, merge_commits)
+  if merge_commits.size > 0
+    op_file = File.open(merges_log_file_name, "w")
+    num = 1
+    op_file.puts "# of merges = " + merge_commits.size.to_s
+    merge_commits.each do |merge_commit|
+      op_file.puts("Merge commit #{num} is -> ")
+      op_file.puts("\{ #{merge_commit.sha} is a merge commit")
+      op_file.puts("---> Commit message - " + $rugged_repo.lookup("#{merge_commit.sha}").message)
       op_file.puts("-----------------------------------------------------------------")
       op_file.puts "\n"
       num = num.succ
