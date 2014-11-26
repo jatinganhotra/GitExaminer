@@ -1,76 +1,100 @@
-+----+-----------------------+---------------------------------------------------------+--------+--------+------+-------+------+-------+------+
-|                                                                   Results                                                                   |
-+----+-----------------------+---------------------------------------------------------+--------+--------+------+-------+------+-------+------+
-| #  | ProjectName           | RepoURL-                                                | #      | #      | #RV  | #RV   | #RV- | #CP   | #CP- |
-|    |                       | HEAD SHA                                                | Commit | Merges | -Msg | -Full | Part | -Full | Part |
-+----+-----------------------+---------------------------------------------------------+--------+--------+------+-------+------+-------+------+
-| 1  | backbone-fundamentals | https://github.com/addyosmani/backbone-fundamentals.git | 1253   | 381    | 1    | 28    | 156  | 75    | 91   |
-|    |                       | 2ffeffdbc6196dd628fbf6305b8a4d609012ca4e                |        |        |      |       |      |       |      |
++----+---------------------------------------------------------+--------+--------+------+------+------+------+------+
+|                                                      Results                                                      |
++----+---------------------------------------------------------+--------+--------+------+------+------+------+------+
+| #  | ProjectName-                                            | #      | #      | #RV- | #RV- | #RV- | #CP- | #CP- |
+|    | RepoURL-                                                | Commit | Merges | Msg  | Full | Part | Full | Part |
+|    | HEAD SHA                                                |        |        |      |      |      |      |      |
++----+---------------------------------------------------------+--------+--------+------+------+------+------+------+
+| 1  | backbone-fundamentals                                   | 1253   | 381    | 1    | 28   | 156  | 75   | 91   |
+|    | https://github.com/addyosmani/backbone-fundamentals.git |        |        |      |      |      |      |      |
+|    | 2ffeffdbc6196dd628fbf6305b8a4d609012ca4e                |        |        |      |      |      |      |      |
 
-| 2  | catalyst-runtime      | https://github.com/perl-catalyst/catalyst-runtime.git   | 2832   | 114    | 26   | 33    | 177  | 42    | 198  |
-|    |                       | ee2c12fdbfa4662604cf07fa488b5c43c1e25b80                |        |        |      |       |      |       |      |
+| 2  | catalyst-runtime                                        | 2832   | 114    | 26   | 33   | 177  | 42   | 198  |
+|    | https://github.com/perl-catalyst/catalyst-runtime.git   |        |        |      |      |      |      |      |
+|    | ee2c12fdbfa4662604cf07fa488b5c43c1e25b80                |        |        |      |      |      |      |      |
 
-| 3  | jshint                | https://github.com/jshint/jshint.git                    | 1454   | 245    | 5    | 7     | 247  | 43    | 174  |
-|    |                       | a643f3fec0632249dcd78d0cf5f200d9166b587d                |        |        |      |       |      |       |      |
+| 3  | jshint                                                  | 1454   | 245    | 5    | 7    | 247  | 43   | 174  |
+|    | https://github.com/jshint/jshint.git                    |        |        |      |      |      |      |      |
+|    | a643f3fec0632249dcd78d0cf5f200d9166b587d                |        |        |      |      |      |      |      |
 
-| 4  | MLPNeuralNet          | https://github.com/nikolaypavlov/MLPNeuralNet           | 75     | 7      | 0    | 1     | 4    | 2     | 0    |
-|    |                       | a70d51708cd235bebbb9c4ef70aaab68d5c02b49                |        |        |      |       |      |       |      |
+| 4  | MLPNeuralNet                                            | 75     | 7      | 0    | 1    | 4    | 2    | 0    |
+|    | https://github.com/nikolaypavlov/MLPNeuralNet           |        |        |      |      |      |      |      |
+|    | a70d51708cd235bebbb9c4ef70aaab68d5c02b49                |        |        |      |      |      |      |      |
 
-| 5  | mojo                  | https://github.com/kraih/mojo.git                       | 8924   | 88     | 16   | 44    | 143  | 13    | 67   |
-|    |                       | 24f5aafc27b0563253b3003d18b4ee3fe540b0ba                |        |        |      |       |      |       |      |
+| 5  | mojo                                                    | 8924   | 88     | 16   | 44   | 143  | 13   | 67   |
+|    | https://github.com/kraih/mojo.git                       |        |        |      |      |      |      |      |
+|    | 24f5aafc27b0563253b3003d18b4ee3fe540b0ba                |        |        |      |      |      |      |      |
 
-| 6  | ninja                 | https://github.com/ninjaframework/ninja.git             | 1266   | 227    | 3    | 40    | 179  | 85    | 119  |
-|    |                       | c6c87f85bceadb1af8234d2478971bbc890913c6                |        |        |      |       |      |       |      |
+| 6  | ninja                                                   | 1266   | 227    | 3    | 40   | 179  | 85   | 119  |
+|    | https://github.com/ninjaframework/ninja.git             |        |        |      |      |      |      |      |
+|    | c6c87f85bceadb1af8234d2478971bbc890913c6                |        |        |      |      |      |      |      |
 
-| 7  | sails                 | https://github.com/balderdashy/sails.git                | 4623   | 610    | 14   | 27    | 1132 | 163   | 962  |
-|    |                       | d433e3f39393fa15290f563385e1242317739578                |        |        |      |       |      |       |      |
+| 7  | sails                                                   | 4623   | 610    | 14   | 27   | 1132 | 163  | 962  |
+|    | https://github.com/balderdashy/sails.git                |        |        |      |      |      |      |      |
+|    | d433e3f39393fa15290f563385e1242317739578                |        |        |      |      |      |      |      |
 
-| 8  | sinatra               | https://github.com/sinatra/sinatra.git                  | 2648   | 441    | 21   | 44    | 352  | 175   | 151  |
-|    |                       | eb1acf2d8ecb365508f5d570c46893b2e97a460c                |        |        |      |       |      |       |      |
+| 8  | sinatra                                                 | 2648   | 441    | 21   | 44   | 352  | 175  | 151  |
+|    | https://github.com/sinatra/sinatra.git                  |        |        |      |      |      |      |      |
+|    | eb1acf2d8ecb365508f5d570c46893b2e97a460c                |        |        |      |      |      |      |      |
 
-| 9  | stylus                | https://github.com/LearnBoost/stylus.git                | 3613   | 481    | 9    | 14    | 242  | 295   | 923  |
-|    |                       | 7bf5cae588c2d27154356909e3f58170de7e8a42                |        |        |      |       |      |       |      |
+| 9  | stylus                                                  | 3613   | 481    | 9    | 14   | 242  | 295  | 923  |
+|    | https://github.com/LearnBoost/stylus.git                |        |        |      |      |      |      |      |
+|    | 7bf5cae588c2d27154356909e3f58170de7e8a42                |        |        |      |      |      |      |      |
 
-| 10 | MapDB                 | https://github.com/jankotek/MapDB.git                   | 1079   | 41     | 6    | 9     | 34   | 17    | 13   |
-|    |                       | 1e3b272b31fbffcda393aa93f9666fac18c1dada                |        |        |      |       |      |       |      |
+| 10 | MapDB                                                   | 1079   | 41     | 6    | 9    | 34   | 17   | 13   |
+|    | https://github.com/jankotek/MapDB.git                   |        |        |      |      |      |      |      |
+|    | 1e3b272b31fbffcda393aa93f9666fac18c1dada                |        |        |      |      |      |      |      |
 
-| 11 | codebox               | https://github.com/CodeboxIDE/codebox.git               | 1913   | 93     | 4    | 6     | 67   | 10    | 38   |
-|    |                       | 8d1a79c07ea28626718e0c3a58a9fc3cc539a01c                |        |        |      |       |      |       |      |
+| 11 | codebox                                                 | 1913   | 93     | 4    | 6    | 67   | 10   | 38   |
+|    | https://github.com/CodeboxIDE/codebox.git               |        |        |      |      |      |      |      |
+|    | 8d1a79c07ea28626718e0c3a58a9fc3cc539a01c                |        |        |      |      |      |      |      |
 
-| 12 | flockdb               | https://github.com/twitter/flockdb.git                  | 739    | 92     | 3    | 4     | 44   | 11    | 15   |
-|    |                       | 3e35184203117eee28f7c0c147057cdea8969e5c                |        |        |      |       |      |       |      |
+| 12 | flockdb                                                 | 739    | 92     | 3    | 4    | 44   | 11   | 15   |
+|    | https://github.com/twitter/flockdb.git                  |        |        |      |      |      |      |      |
+|    | 3e35184203117eee28f7c0c147057cdea8969e5c                |        |        |      |      |      |      |      |
 
-| 13 | lime                  | https://github.com/limetext/lime.git                    | 858    | 156    | 3    | 7     | 104  | 27    | 56   |
-|    |                       | 414943ddb105812b29e331af4ecb5c1422816d77                |        |        |      |       |      |       |      |
+| 13 | lime                                                    | 858    | 156    | 3    | 7    | 104  | 27   | 56   |
+|    | https://github.com/limetext/lime.git                    |        |        |      |      |      |      |      |
+|    | 414943ddb105812b29e331af4ecb5c1422816d77                |        |        |      |      |      |      |      |
 
-| 14 | neovim                | https://github.com/neovim/neovim.git                    | 2237   | 327    | 6    | 9     | 141  | 36    | 68   |
-|    |                       | 68fcd8b696dae33897303c9f8265629a31afbf17                |        |        |      |       |      |       |      |
+| 14 | neovim                                                  | 2237   | 327    | 6    | 9    | 141  | 36   | 68   |
+|    | https://github.com/neovim/neovim.git                    |        |        |      |      |      |      |      |
+|    | 68fcd8b696dae33897303c9f8265629a31afbf17                |        |        |      |      |      |      |      |
 
-| 15 | pouchdb               | https://github.com/pouchdb/pouchdb.git                  | 2367   | 281    | 24   | 27    | 199  | 23    | 149  |
-|    |                       | 02a37eca0741cd6b6eba8f19c608166f656b90f3                |        |        |      |       |      |       |      |
+| 15 | pouchdb                                                 | 2367   | 281    | 24   | 27   | 199  | 23   | 149  |
+|    | https://github.com/pouchdb/pouchdb.git                  |        |        |      |      |      |      |      |
+|    | 02a37eca0741cd6b6eba8f19c608166f656b90f3                |        |        |      |      |      |      |      |
 
-| 16 | redis                 | https://github.com/antirez/redis.git                    | 4721   | 336    | 24   | 32    | 302  | 98    | 128  |
-|    |                       | e039791e394fef936bf3582de80344e2eebf587b                |        |        |      |       |      |       |      |
+| 16 | redis                                                   | 4721   | 336    | 24   | 32   | 302  | 98   | 128  |
+|    | https://github.com/antirez/redis.git                    |        |        |      |      |      |      |      |
+|    | e039791e394fef936bf3582de80344e2eebf587b                |        |        |      |      |      |      |      |
 
-| 17 | sharelatex            | https://github.com/sharelatex/sharelatex.git            | 136    | 15     | 1    | 3     | 5    | 3     | 4    |
-|    |                       | a4e5a5b713185b8d14122b6c1054cedeae0be33c                |        |        |      |       |      |       |      |
+| 17 | sharelatex                                              | 136    | 15     | 1    | 3    | 5    | 3    | 4    |
+|    | https://github.com/sharelatex/sharelatex.git            |        |        |      |      |      |      |      |
+|    | a4e5a5b713185b8d14122b6c1054cedeae0be33c                |        |        |      |      |      |      |      |
 
-| 18 | slap                  | https://github.com/slap-editor/slap.git                 | 296    | 0      | 0    | 0     | 0    | 1     | 0    |
-|    |                       | 4fc4ba2dff6f2422c11407b35c653fcc2813a26f                |        |        |      |       |      |       |      |
+| 18 | slap                                                    | 296    | 0      | 0    | 0    | 0    | 1    | 0    |
+|    | https://github.com/slap-editor/slap.git                 |        |        |      |      |      |      |      |
+|    | 4fc4ba2dff6f2422c11407b35c653fcc2813a26f                |        |        |      |      |      |      |      |
 
-| 19 | textmate              | https://github.com/textmate/textmate.git                | 3262   | 4      | 21   | 13    | 11   | 1     | 2    |
-|    |                       | 334b869639541501bdd87c4dac07d173adc7190b                |        |        |      |       |      |       |      |
+| 19 | textmate                                                | 3262   | 4      | 21   | 13   | 11   | 1    | 2    |
+|    | https://github.com/textmate/textmate.git                |        |        |      |      |      |      |      |
+|    | 334b869639541501bdd87c4dac07d173adc7190b                |        |        |      |      |      |      |      |
 
-| 20 | zed                   | https://github.com/zedapp/zed.git                       | 1100   | 186    | 7    | 11    | 151  | 39    | 105  |
-|    |                       | 2ef64f70d71aa8e377d2b843605700f77d973bd5                |        |        |      |       |      |       |      |
+| 20 | zed                                                     | 1100   | 186    | 7    | 11   | 151  | 39   | 105  |
+|    | https://github.com/zedapp/zed.git                       |        |        |      |      |      |      |      |
+|    | 2ef64f70d71aa8e377d2b843605700f77d973bd5                |        |        |      |      |      |      |      |
 
-| 21 | couchdb               | https://github.com/apache/couchdb.git                   | 5599   | 187    | 53   | 38    | 2442 | 32    | 3097 |
-|    |                       | 126ec7682020ad3c08966e4aef03ce02e9b14f7f                |        |        |      |       |      |       |      |
+| 21 | couchdb                                                 | 5599   | 187    | 53   | 38   | 2442 | 32   | 3097 |
+|    | https://github.com/apache/couchdb.git                   |        |        |      |      |      |      |      |
+|    | 126ec7682020ad3c08966e4aef03ce02e9b14f7f                |        |        |      |      |      |      |      |
 
-| 22 | orientdb              | https://github.com/orientechnologies/orientdb.git       | 6773   | 893    | 50   | 59    | 1020 | 234   | 602  |
-|    |                       | 0faf3c9c27febb4ed3469bec4fa309ca9e068f4b                |        |        |      |       |      |       |      |
+| 22 | orientdb                                                | 6773   | 893    | 50   | 59   | 1020 | 234  | 602  |
+|    | https://github.com/orientechnologies/orientdb.git       |        |        |      |      |      |      |      |
+|    | 0faf3c9c27febb4ed3469bec4fa309ca9e068f4b                |        |        |      |      |      |      |      |
 
-| 23 | vim.js                | https://github.com/coolwanglu/vim.js.git                | 198    | 15     | 0    | 0     | 22   | 2     | 16   |
-|    |                       | 45a2c231b1b38a34760b58ec2f0e20425605b5bd                |        |        |      |       |      |       |      |
+| 23 | vim.js                                                  | 198    | 15     | 0    | 0    | 22   | 2    | 16   |
+|    | https://github.com/coolwanglu/vim.js.git                |        |        |      |      |      |      |      |
+|    | 45a2c231b1b38a34760b58ec2f0e20425605b5bd                |        |        |      |      |      |      |      |
 
-+----+-----------------------+---------------------------------------------------------+--------+--------+------+-------+------+-------+------+
++----+---------------------------------------------------------+--------+--------+------+------+------+------+------+

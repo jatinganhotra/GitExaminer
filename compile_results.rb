@@ -65,8 +65,8 @@ cps_partial = data.first
 cps_partial = cps_partial.gsub(/\s+/, "")
 data = data.drop(2)
 
-repo_url_head_sha_combined = repo_url + "\n" + head_sha
-return [project_name, repo_url_head_sha_combined, num_commits, num_merges, reverts_msg, reverts_complete, reverts_partial, cps_complete, cps_partial]
+project_name_repo_url_head_sha_combined = project_name + "\n" + repo_url + "\n" + head_sha
+return [project_name_repo_url_head_sha_combined, num_commits, num_merges, reverts_msg, reverts_complete, reverts_partial, cps_complete, cps_partial]
 
 end
 
@@ -89,9 +89,9 @@ projects.each do |file|
 
   info.insert(0, num)
   rows << info
-  rows << ["","","","","","","","","",""]
+  rows << ["","","","","","","","",""]
 end
 
-table = Terminal::Table.new :title => "Results", :headings => ['#', 'ProjectName', "RepoURL-\nHEAD SHA", "#\nCommit", "#\nMerges", "#RV\n-Msg" , "#RV\n-Full", "#RV-\nPart", "#CP\n-Full", "#CP-\nPart"], :rows => rows
+table = Terminal::Table.new :title => "Results", :headings => ['#', "ProjectName-\nRepoURL-\nHEAD SHA", "#\nCommit", "#\nMerges", "#RV-\nMsg" , "#RV-\nFull", "#RV-\nPart", "#CP-\nFull", "#CP-\nPart"], :rows => rows
 puts table
 op_file.puts table
