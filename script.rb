@@ -42,7 +42,7 @@ git_repo_path = "/tmp/" + project_name.to_s
 
 # Send console output to console.out
 Dir.chdir "#{orig_path}"
-stdout_filename = "RevertLogs/" + project_name + "-console.log"
+stdout_filename = "Logs/" + project_name + "-console.log"
 # Keep a dup of STDOUT for later use
 old_stdout = $stdout.dup
 $stdout.reopen(stdout_filename, "w")
@@ -245,31 +245,31 @@ $stdout.reopen(stdout_filename, "w")
 # ----------------------------------------------------------------------------------
 # ---------------------   Output Complete Reverts   --------------------------------
 # ----------------------------------------------------------------------------------
-reverts_log_file_name         = "RevertLogs/" + project_name + "-reverts.log"
+reverts_log_file_name         = "Logs/" + project_name + "-reverts.log"
 OutputCompleteReverts( reverts_log_file_name, full_reverts, revert_diffs)
 
 # ----------------------------------------------------------------------------------
 # ----------------------   Output Partial Reverts   --------------------------------
 # ----------------------------------------------------------------------------------
-partial_reverts_log_file_name = "RevertLogs/" + project_name + "-partial-reverts.log"
+partial_reverts_log_file_name = "Logs/" + project_name + "-partial-reverts.log"
 OutputPartialReverts( partial_reverts_log_file_name, partial_reverts, partial_revert_diffs)
 
 # ----------------------------------------------------------------------------------
 # ---------------------   Output Complete Cherry-picks   ---------------------------
 # ----------------------------------------------------------------------------------
-full_cps_log_file_name         = "RevertLogs/" + project_name + "-cherry-picks.log"
+full_cps_log_file_name         = "Logs/" + project_name + "-cherry-picks.log"
 OutputCompleteCherryPicks( full_cps_log_file_name, full_cps, cp_diffs)
 
 # ----------------------------------------------------------------------------------
 # ----------------------   Output Partial Cherry-picks   ---------------------------
 # ----------------------------------------------------------------------------------
-partial_cherrypicks_log_file_name = "RevertLogs/" + project_name + "-partial-cherrypicks.log"
+partial_cherrypicks_log_file_name = "Logs/" + project_name + "-partial-cherrypicks.log"
 OutputPartialCherryPicks( partial_cherrypicks_log_file_name, partial_cps, partial_cp_diffs)
 
 # ----------------------------------------------------------------------------------
 # ---------------------------   Output Merges   ------------------------------------
 # ----------------------------------------------------------------------------------
-merges_log_file_name = "RevertLogs/" + project_name + "-merges.log"
+merges_log_file_name = "Logs/" + project_name + "-merges.log"
 OutputMerges( merges_log_file_name, merge_commits)
 
 # ----------------------------------------------------------------------------------
@@ -282,7 +282,7 @@ print " ---> One last touch, magic in-progress ."
 puts "-----------------------------"
 puts " ---> The results are :-"
 
-results_file_name = "RevertLogs/" + project_name + "-results.txt"
+results_file_name = "Logs/" + project_name + "-results.txt"
 op_file = File.open(results_file_name, "w")
 
 # The below representation might be useful when you have multiple projects

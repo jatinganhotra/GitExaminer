@@ -76,13 +76,13 @@ rows = []
 num = 0
 
 # Compiling results in a specific order to easily identify any changes
-#Dir.foreach("RevertLogs")  do |file|
+#Dir.foreach("Logs")  do |file|
 projects = ["backbone-fundamentals", "catalyst-runtime", "jshint", "MLPNeuralNet", "mojo", "ninja", "sails", "sinatra", "stylus", "MapDB", "codebox", "flockdb", "lime", "neovim", "pouchdb", "redis", "sharelatex", "slap", "textmate", "zed", "couchdb", "orientdb", "vim.js"]
 projects.each do |file|
   file = file + "-results.txt"
   next if file.match(/.*-results.txt$/).nil?
 
-  complete_file_name = "RevertLogs/" + file.to_s
+  complete_file_name = "Logs/" + file.to_s
   f = File.open("#{complete_file_name}", "r")
   info = ExtractInfoFromFileContents(f.read)
   num = num.succ
