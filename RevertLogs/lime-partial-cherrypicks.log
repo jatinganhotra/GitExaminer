@@ -1,0 +1,1103 @@
+# of partial cherrypicks = 56
+Partial Cherry-pick diff pair 1 is -> 
+{ 6deebb9271ec094ca673d9be0195f07211d225c6 -> 8960f839d9acbc5bb666ea583d94d35de7d1a145 } is a cherrypick
+{ 2d226f24b5dc220e625f5bde088f83062ca54f42 -> 414943ddb105812b29e331af4ecb5c1422816d77 }
+Partial Cherry-pick commits SHA are -> 
+8960f839d9acbc5bb666ea583d94d35de7d1a145 - cherrypick - 414943ddb105812b29e331af4ecb5c1422816d77
+---> The cherrypicked commit sha is - 8960f839d9acbc5bb666ea583d94d35de7d1a145
+Commit message - Resolve #25: Implement the find_next command
+---> The original commit sha is - 414943ddb105812b29e331af4ecb5c1422816d77
+Commit message - Merge pull request #448 from trapgate/master
+
+Resolve #25: Implement the find_next command
+---> The files with partial_cherrypicks are:-
+backend/commands/find.go
+backend/commands/find_test.go
+packages/Default/Default.sublime-keymap
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ 8960f839d9acbc5bb666ea583d94d35de7d1a145 -> 3421682ec2b5025cba53afed1526b2c74e7173fa } is a cherrypick
+{ e19ff40c202c278a8e61f18bb8e42fc62c907bfa -> 9580d77f01ce656ee74088c0b2706952b8a0746b }
+Partial Cherry-pick commits SHA are -> 
+3421682ec2b5025cba53afed1526b2c74e7173fa - cherrypick - 9580d77f01ce656ee74088c0b2706952b8a0746b
+---> The cherrypicked commit sha is - 3421682ec2b5025cba53afed1526b2c74e7173fa
+Commit message - Replace BufferChangedCallbacks to BufferObservers in frontend code (#427)
+---> The original commit sha is - 9580d77f01ce656ee74088c0b2706952b8a0746b
+Commit message - Merge branch 'master' into buffer_observer
+
+Conflicts:
+	frontend/html/main.go
+	packages/Diff.tmbundle
+	packages/ini.tmbundle
+	packages/monokai.tmbundle
+---> The files with partial_cherrypicks are:-
+frontend/html/main.go
+frontend/qml/main.go
+frontend/termbox/main.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ c27687afc588855092088bfe5d0933049f853415 -> 83ce8119fa6238f95a935310badfeaeada38c244 } is a cherrypick
+{ 93b6b23182ca1114ecac5fbdda3266f7ab8416f7 -> 87e864c0b5a00f54d23511a9f11f1c4dc3633cdb }
+Partial Cherry-pick commits SHA are -> 
+83ce8119fa6238f95a935310badfeaeada38c244 - cherrypick - 87e864c0b5a00f54d23511a9f11f1c4dc3633cdb
+---> The cherrypicked commit sha is - 83ce8119fa6238f95a935310badfeaeada38c244
+Commit message - Rewrite new transpose code.
+
+Rewrite the transpose function to more completely mimic ST3's behavior. Also
+add more tests.
+---> The original commit sha is - 87e864c0b5a00f54d23511a9f11f1c4dc3633cdb
+Commit message - Merge branch 'master' of github.com:limetext/lime
+---> The files with partial_cherrypicks are:-
+backend/commands/transpose.go
+backend/commands/transpose_test.go
+packages/Default/Default.sublime-keymap
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ d191480aeda5d730264c5cccd6aeb8397a97b7e6 -> 987ecd64fa8668a939804a6bcaa402a0afc274fb } is a cherrypick
+{ d3dfae0f917b6af5f21cb4a08d7dadf295cef14b -> e54b0e7e089a5bbc967f39a7c3bbed4bf0da61c3 }
+Partial Cherry-pick commits SHA are -> 
+987ecd64fa8668a939804a6bcaa402a0afc274fb - cherrypick - e54b0e7e089a5bbc967f39a7c3bbed4bf0da61c3
+---> The cherrypicked commit sha is - 987ecd64fa8668a939804a6bcaa402a0afc274fb
+Commit message - Mock the clipboard for most of the tests.
+
+Avoid concurrency issues.
+---> The original commit sha is - e54b0e7e089a5bbc967f39a7c3bbed4bf0da61c3
+Commit message - Merge pull request #426 from emersion/master
+
+frontend/html: text cursor
+---> The files with partial_cherrypicks are:-
+.travis.yml
+tasks/build/gen_python_api.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ d191480aeda5d730264c5cccd6aeb8397a97b7e6 -> 987ecd64fa8668a939804a6bcaa402a0afc274fb } is a cherrypick
+{ cea940d241c495733296a33e449645e9a90fb8d9 -> 9cd2fecc4946b21b14f891097356aa9c2c4cdbc1 }
+Partial Cherry-pick commits SHA are -> 
+987ecd64fa8668a939804a6bcaa402a0afc274fb - cherrypick - 9cd2fecc4946b21b14f891097356aa9c2c4cdbc1
+---> The cherrypicked commit sha is - 987ecd64fa8668a939804a6bcaa402a0afc274fb
+Commit message - Mock the clipboard for most of the tests.
+
+Avoid concurrency issues.
+---> The original commit sha is - 9cd2fecc4946b21b14f891097356aa9c2c4cdbc1
+Commit message - Merge pull request #417 from erbridge/system_clipboard
+
+Use the system clipboard
+---> The files with partial_cherrypicks are:-
+.travis.yml
+tasks/build/gen_python_api.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ f88b4d5db018c76cc04b5a61235beb00f43af976 -> efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb } is a cherrypick
+{ 941d29d1441a553c293dbd9f76450d6b7ba0c5cf -> cea940d241c495733296a33e449645e9a90fb8d9 }
+Partial Cherry-pick commits SHA are -> 
+efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb - cherrypick - cea940d241c495733296a33e449645e9a90fb8d9
+---> The cherrypicked commit sha is - efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb
+Commit message - Merge pull request #420 from emersion/master
+
+[frontend][html] Adds HTML file, dialogs, bug fixes
+---> The original commit sha is - cea940d241c495733296a33e449645e9a90fb8d9
+Commit message - Merge pull request #423 from emersion/master
+
+frontend/html: status bar, compatibility fixes
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ 7e21811bc0de3288325aab15fddd80d5e3ba1a7e -> f12b169165053d16f4971444cf01b66079a5004c } is a cherrypick
+{ d671f3b181c88f17b53ffe396226294586e60f50 -> 885206641f36532f1118140190ef6a01ba7bcce7 }
+Partial Cherry-pick commits SHA are -> 
+f12b169165053d16f4971444cf01b66079a5004c - cherrypick - 885206641f36532f1118140190ef6a01ba7bcce7
+---> The cherrypicked commit sha is - f12b169165053d16f4971444cf01b66079a5004c
+Commit message - Adds a separate HTML file, bug fixes in html frontend
+---> The original commit sha is - 885206641f36532f1118140190ef6a01ba7bcce7
+Commit message - Adds status bar. Restored old code for browsers that don't support event.key.
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb -> 7eb4ee04e22c080b6730e61567412d26cf5d425b } is a cherrypick
+{ d671f3b181c88f17b53ffe396226294586e60f50 -> 885206641f36532f1118140190ef6a01ba7bcce7 }
+Partial Cherry-pick commits SHA are -> 
+7eb4ee04e22c080b6730e61567412d26cf5d425b - cherrypick - 885206641f36532f1118140190ef6a01ba7bcce7
+---> The cherrypicked commit sha is - 7eb4ee04e22c080b6730e61567412d26cf5d425b
+Commit message - Fixes keyboard support
+---> The original commit sha is - 885206641f36532f1118140190ef6a01ba7bcce7
+Commit message - Adds status bar. Restored old code for browsers that don't support event.key.
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ f88b4d5db018c76cc04b5a61235beb00f43af976 -> efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb } is a cherrypick
+{ b5c46f9cd8efa42c890bdd72cbc28c91200b792f -> d671f3b181c88f17b53ffe396226294586e60f50 }
+Partial Cherry-pick commits SHA are -> 
+efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb - cherrypick - d671f3b181c88f17b53ffe396226294586e60f50
+---> The cherrypicked commit sha is - efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb
+Commit message - Merge pull request #420 from emersion/master
+
+[frontend][html] Adds HTML file, dialogs, bug fixes
+---> The original commit sha is - d671f3b181c88f17b53ffe396226294586e60f50
+Commit message - Merge pull request #421 from emersion/master
+
+[frontend][html] Fixes keyboard support
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 7e21811bc0de3288325aab15fddd80d5e3ba1a7e -> f12b169165053d16f4971444cf01b66079a5004c } is a cherrypick
+{ efd10c8cc193c9ea93cb93ad9d9c408f75d27aeb -> 7eb4ee04e22c080b6730e61567412d26cf5d425b }
+Partial Cherry-pick commits SHA are -> 
+f12b169165053d16f4971444cf01b66079a5004c - cherrypick - 7eb4ee04e22c080b6730e61567412d26cf5d425b
+---> The cherrypicked commit sha is - f12b169165053d16f4971444cf01b66079a5004c
+Commit message - Adds a separate HTML file, bug fixes in html frontend
+---> The original commit sha is - 7eb4ee04e22c080b6730e61567412d26cf5d425b
+Commit message - Fixes keyboard support
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 33280fa604f0630c9a098402fd4a58b89d793436 -> 6d2b1bf34786164a6c9f29d75f58a1a55654d84b } is a cherrypick
+{ f1f04bdd7984c3a6fbfdc9ed06e5ab1c236d56d5 -> 35369dddeaafa0583e88d1d00266d1f9953bd869 }
+Partial Cherry-pick commits SHA are -> 
+6d2b1bf34786164a6c9f29d75f58a1a55654d84b - cherrypick - 35369dddeaafa0583e88d1d00266d1f9953bd869
+---> The cherrypicked commit sha is - 6d2b1bf34786164a6c9f29d75f58a1a55654d84b
+Commit message - Merge pull request #401 from snowiow/master
+
+close_all command + bugfix
+---> The original commit sha is - 35369dddeaafa0583e88d1d00266d1f9953bd869
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  Make sure the test checks that all the views are closed.
+  Merge pull request #401 from snowiow/master
+  added an window title to the ApplicationWindow
+---> The files with partial_cherrypicks are:-
+backend/commands/window.go
+backend/window.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 9571baf4676fb04309f7093ce568ff2e9c59df1f -> d21a998b5cedac991265c56c3111afd50635c2d2 } is a cherrypick
+{ 09373811cd69a2041e2e79dda66ab06f1c697c3a -> 597cb842e0a9e2396888658e8bb63c955b3a90f1 }
+Partial Cherry-pick commits SHA are -> 
+d21a998b5cedac991265c56c3111afd50635c2d2 - cherrypick - 597cb842e0a9e2396888658e8bb63c955b3a90f1
+---> The cherrypicked commit sha is - d21a998b5cedac991265c56c3111afd50635c2d2
+Commit message - fmt fix
+---> The original commit sha is - 597cb842e0a9e2396888658e8bb63c955b3a90f1
+Commit message - Merge pull request #399 from Joushou/separation2
+
+First move in isolating logic
+---> The files with partial_cherrypicks are:-
+frontend/html/main.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ ecfd4e1fe22b79b47e6eb93a3d241f74b2b02fef -> 62b80c91c48d9be4588f0590bbf9b1a298158313 } is a cherrypick
+{ ceaa7552d9312223ac76308d19045eb4871605c9 -> c9117290e9737856d5655fb73c9620f1b2a93924 }
+Partial Cherry-pick commits SHA are -> 
+62b80c91c48d9be4588f0590bbf9b1a298158313 - cherrypick - c9117290e9737856d5655fb73c9620f1b2a93924
+---> The cherrypicked commit sha is - 62b80c91c48d9be4588f0590bbf9b1a298158313
+Commit message - resolve #85 and added open file dialog functionality to qml frontend
+---> The original commit sha is - c9117290e9737856d5655fb73c9620f1b2a93924
+Commit message - Merge branch 'master' of https://github.com/limetext/lime
+merge master
+---> The files with partial_cherrypicks are:-
+backend/commands/open_file.go
+frontend/qml/dialogs/qmldir
+frontend/qml/main.go
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ e31606e08ee037cc7c4b7d155dadd1c3b81bc282 -> 7366decc77fbed27bf9603577f2e8e18080e08c0 } is a cherrypick
+{ 0e095d862658145b67130319174f297a4a3e5ad3 -> 1e2aca4f650a2e4f8903cdfa6b310d0fdc20e622 }
+Partial Cherry-pick commits SHA are -> 
+7366decc77fbed27bf9603577f2e8e18080e08c0 - cherrypick - 1e2aca4f650a2e4f8903cdfa6b310d0fdc20e622
+---> The cherrypicked commit sha is - 7366decc77fbed27bf9603577f2e8e18080e08c0
+Commit message - Handle termbox.EventResize
+---> The original commit sha is - 1e2aca4f650a2e4f8903cdfa6b310d0fdc20e622
+Commit message - Merge pull request #370 from Joushou/resizesupport
+
+Handle termbox.EventResize
+---> The files with partial_cherrypicks are:-
+frontend/termbox/main.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ 7eac1498b7237dbd2ca0d594b0ec7578a6cfb603 -> e31606e08ee037cc7c4b7d155dadd1c3b81bc282 } is a cherrypick
+{ 7366decc77fbed27bf9603577f2e8e18080e08c0 -> 0e095d862658145b67130319174f297a4a3e5ad3 }
+Partial Cherry-pick commits SHA are -> 
+e31606e08ee037cc7c4b7d155dadd1c3b81bc282 - cherrypick - 0e095d862658145b67130319174f297a4a3e5ad3
+---> The cherrypicked commit sha is - e31606e08ee037cc7c4b7d155dadd1c3b81bc282
+Commit message - Show file name on tabs
+---> The original commit sha is - 0e095d862658145b67130319174f297a4a3e5ad3
+Commit message - Merge pull request #369 from Joushou/glitchytermbox
+
+Fix some glitchy output in termbox frontend
+---> The files with partial_cherrypicks are:-
+frontend/qml/LimeView.qml
+frontend/qml/main.go
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ d1504521dd5cfff07b3b77043cc2fd83713ddb80 -> 954b0a2d874a3bdeb0abab6b5990ce16ac319c8b } is a cherrypick
+{ f8675cee9d902656a24d2efd414edc58c17fdc9d -> 7ec702487314c558e5e392b6533691a3244a9ad8 }
+Partial Cherry-pick commits SHA are -> 
+954b0a2d874a3bdeb0abab6b5990ce16ac319c8b - cherrypick - 7ec702487314c558e5e392b6533691a3244a9ad8
+---> The cherrypicked commit sha is - 954b0a2d874a3bdeb0abab6b5990ce16ac319c8b
+Commit message - Mark the build as failed if goveralls fails too.
+---> The original commit sha is - 7ec702487314c558e5e392b6533691a3244a9ad8
+Commit message - Merge pull request #359 from erbridge/improve_ci
+
+Improve the Travis CI script
+---> The files with partial_cherrypicks are:-
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ 0acf4ded46d6226e5de7364504bbca9931b13637 -> 1f4321b9ea20593d634d5a84ac3e187c5606d7fc } is a cherrypick
+{ f8675cee9d902656a24d2efd414edc58c17fdc9d -> 7ec702487314c558e5e392b6533691a3244a9ad8 }
+Partial Cherry-pick commits SHA are -> 
+1f4321b9ea20593d634d5a84ac3e187c5606d7fc - cherrypick - 7ec702487314c558e5e392b6533691a3244a9ad8
+---> The cherrypicked commit sha is - 1f4321b9ea20593d634d5a84ac3e187c5606d7fc
+Commit message - Fix the return codes in lime.sh.
+---> The original commit sha is - 7ec702487314c558e5e392b6533691a3244a9ad8
+Commit message - Merge pull request #359 from erbridge/improve_ci
+
+Improve the Travis CI script
+---> The files with partial_cherrypicks are:-
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 954b0a2d874a3bdeb0abab6b5990ce16ac319c8b -> 0acf4ded46d6226e5de7364504bbca9931b13637 } is a cherrypick
+{ ecc2b8d68bcd25d79d70bbae9b658ed0c3226e6e -> f478d51ec3cec68fbf137421aa456c1aacf44d97 }
+Partial Cherry-pick commits SHA are -> 
+0acf4ded46d6226e5de7364504bbca9931b13637 - cherrypick - f478d51ec3cec68fbf137421aa456c1aacf44d97
+---> The cherrypicked commit sha is - 0acf4ded46d6226e5de7364504bbca9931b13637
+Commit message - Specify how the sublime generated files were built.
+
+Realted to #360.
+---> The original commit sha is - f478d51ec3cec68fbf137421aa456c1aacf44d97
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  Specify how the sublime generated files were built.
+  Add next_view and prev_view commands.
+---> The files with partial_cherrypicks are:-
+backend/commands/view.go
+backend/commands/view_test.go
+backend/sublime/commands_generated.go
+backend/sublime/edit_generated.go
+backend/sublime/frontend_generated.go
+backend/sublime/region_generated.go
+backend/sublime/regionset_generated.go
+backend/sublime/settings_generated.go
+backend/sublime/sublime_api_generated.go
+backend/sublime/view_buffer_generated.go
+backend/sublime/view_generated.go
+backend/sublime/window_generated.go
+tasks/build/gen_python_api.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ 8e7ae62391597db8078fe37557928e6da5711f1b -> 1d1060fadcdd33a33b8e4ed805152470138fd48c } is a cherrypick
+{ 32a2d30f0ca139dc53293daf853721fb30ac7bd4 -> 468d19fed4bd8229f0b64735de45ab086a13579b }
+Partial Cherry-pick commits SHA are -> 
+1d1060fadcdd33a33b8e4ed805152470138fd48c - cherrypick - 468d19fed4bd8229f0b64735de45ab086a13579b
+---> The cherrypicked commit sha is - 1d1060fadcdd33a33b8e4ed805152470138fd48c
+Commit message - backend/render: document view.go
+---> The original commit sha is - 468d19fed4bd8229f0b64735de45ab086a13579b
+Commit message - Merge pull request #353 from zidoms/master
+
+Settings parent child hierarchy
+---> The files with partial_cherrypicks are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/loaders/json_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view.go
+backend/render/view_test.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ bbcec6af6acaf3cc34e33d98b6527468adeeac7e -> 6a15a4a39eb538304deb4e477aec20bd534bbd9a } is a cherrypick
+{ 32a2d30f0ca139dc53293daf853721fb30ac7bd4 -> 468d19fed4bd8229f0b64735de45ab086a13579b }
+Partial Cherry-pick commits SHA are -> 
+6a15a4a39eb538304deb4e477aec20bd534bbd9a - cherrypick - 468d19fed4bd8229f0b64735de45ab086a13579b
+---> The cherrypicked commit sha is - 6a15a4a39eb538304deb4e477aec20bd534bbd9a
+Commit message - Fix formatting.
+---> The original commit sha is - 468d19fed4bd8229f0b64735de45ab086a13579b
+Commit message - Merge pull request #353 from zidoms/master
+
+Settings parent child hierarchy
+---> The files with partial_cherrypicks are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/loaders/json_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view.go
+backend/render/view_test.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ bfb2484468185c1d94f41b821f1b9fe617440a55 -> 98c35cbb9604b5ade8edd28795d77db3e34f62a6 } is a cherrypick
+{ 6a15a4a39eb538304deb4e477aec20bd534bbd9a -> 32a2d30f0ca139dc53293daf853721fb30ac7bd4 }
+Partial Cherry-pick commits SHA are -> 
+98c35cbb9604b5ade8edd28795d77db3e34f62a6 - cherrypick - 32a2d30f0ca139dc53293daf853721fb30ac7bd4
+---> The cherrypicked commit sha is - 98c35cbb9604b5ade8edd28795d77db3e34f62a6
+Commit message - Wrote settings by myself
+---> The original commit sha is - 32a2d30f0ca139dc53293daf853721fb30ac7bd4
+Commit message - Minor fix for plugin settings
+---> The files with partial_cherrypicks are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/editor.go
+backend/editor_test.go
+backend/loaders/json_test.go
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view_test.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+backend/view_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ 1d1060fadcdd33a33b8e4ed805152470138fd48c -> bbcec6af6acaf3cc34e33d98b6527468adeeac7e } is a cherrypick
+{ 6a15a4a39eb538304deb4e477aec20bd534bbd9a -> 32a2d30f0ca139dc53293daf853721fb30ac7bd4 }
+Partial Cherry-pick commits SHA are -> 
+bbcec6af6acaf3cc34e33d98b6527468adeeac7e - cherrypick - 32a2d30f0ca139dc53293daf853721fb30ac7bd4
+---> The cherrypicked commit sha is - bbcec6af6acaf3cc34e33d98b6527468adeeac7e
+Commit message - Use json.Unmarshaler type instead of marshalTo
+---> The original commit sha is - 32a2d30f0ca139dc53293daf853721fb30ac7bd4
+Commit message - Minor fix for plugin settings
+---> The files with partial_cherrypicks are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/editor.go
+backend/editor_test.go
+backend/loaders/json_test.go
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view.go
+backend/render/view_test.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+backend/view.go
+backend/view_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ 8e7ae62391597db8078fe37557928e6da5711f1b -> 1d1060fadcdd33a33b8e4ed805152470138fd48c } is a cherrypick
+{ bbcec6af6acaf3cc34e33d98b6527468adeeac7e -> 6a15a4a39eb538304deb4e477aec20bd534bbd9a }
+Partial Cherry-pick commits SHA are -> 
+1d1060fadcdd33a33b8e4ed805152470138fd48c - cherrypick - 6a15a4a39eb538304deb4e477aec20bd534bbd9a
+---> The cherrypicked commit sha is - 1d1060fadcdd33a33b8e4ed805152470138fd48c
+Commit message - backend/render: document view.go
+---> The original commit sha is - 6a15a4a39eb538304deb4e477aec20bd534bbd9a
+Commit message - Fix formatting.
+---> The files with partial_cherrypicks are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/editor.go
+backend/editor_test.go
+backend/loaders/json_test.go
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view.go
+backend/render/view_test.go
+backend/sublime/sublime_manual.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+backend/view_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ bfb2484468185c1d94f41b821f1b9fe617440a55 -> 98c35cbb9604b5ade8edd28795d77db3e34f62a6 } is a cherrypick
+{ 1d1060fadcdd33a33b8e4ed805152470138fd48c -> bbcec6af6acaf3cc34e33d98b6527468adeeac7e }
+Partial Cherry-pick commits SHA are -> 
+98c35cbb9604b5ade8edd28795d77db3e34f62a6 - cherrypick - bbcec6af6acaf3cc34e33d98b6527468adeeac7e
+---> The cherrypicked commit sha is - 98c35cbb9604b5ade8edd28795d77db3e34f62a6
+Commit message - Wrote settings by myself
+---> The original commit sha is - bbcec6af6acaf3cc34e33d98b6527468adeeac7e
+Commit message - Use json.Unmarshaler type instead of marshalTo
+---> The files with partial_cherrypicks are:-
+backend/commandhandler.go
+backend/commandhandler_test.go
+backend/commands/indent_test.go
+backend/editor.go
+backend/editor_test.go
+backend/loaders/json_test.go
+backend/packages/Default/Default.sublime-settings
+backend/packages/Default/Preferences.sublime-settings
+backend/packages/Python/Python.sublime-settings
+backend/packages_test.go
+backend/parser/parser.go
+backend/parser/parser_test.go
+backend/render/textmate/syntax_test.go
+backend/render/view_test.go
+backend/sublime/sublime_manual.go
+backend/textmate/language_test.go
+backend/util/case.go
+backend/util/case_test.go
+backend/util/diff.go
+backend/util/diff_test.go
+backend/view_test.go
+frontend/html/main.go
+frontend/html/main_test.go
+frontend/qml/main_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ b7815a8e71439c0d16855bfc90dbdfe2f0ef44e8 -> 0c0cba294a58f1ef669e89df8a008afb73d300a2 } is a cherrypick
+{ f6e0bcde2e9b77da3b33bae2c275fa5c3ca05def -> bfb2484468185c1d94f41b821f1b9fe617440a55 }
+Partial Cherry-pick commits SHA are -> 
+0c0cba294a58f1ef669e89df8a008afb73d300a2 - cherrypick - bfb2484468185c1d94f41b821f1b9fe617440a55
+---> The cherrypicked commit sha is - 0c0cba294a58f1ef669e89df8a008afb73d300a2
+Commit message - Merge pull request #355 from erbridge/diff_test
+
+Make a util.Diff add context before and after the diff
+---> The original commit sha is - bfb2484468185c1d94f41b821f1b9fe617440a55
+Commit message - Merge pull request #356 from erbridge/render_view_test
+
+Add some tests for render/view
+---> The files with partial_cherrypicks are:-
+backend/util/diff.go
+backend/util/diff_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 83afd130a0d979943c8c7145f74cc0f268bca62c -> 43a781c3b1d9fd54eee1a0658a759462516cb167 } is a cherrypick
+{ b27e43915bef3c419f8c92a25e71a4caac6b4173 -> f1a03c77600d4364ed82087890cc98a7c9b7b818 }
+Partial Cherry-pick commits SHA are -> 
+43a781c3b1d9fd54eee1a0658a759462516cb167 - cherrypick - f1a03c77600d4364ed82087890cc98a7c9b7b818
+---> The cherrypicked commit sha is - 43a781c3b1d9fd54eee1a0658a759462516cb167
+Commit message - Add LoadTheme tests.
+---> The original commit sha is - f1a03c77600d4364ed82087890cc98a7c9b7b818
+Commit message - Merge pull request #350 from erbridge/theme_test
+
+Add LoadTheme tests
+---> The files with partial_cherrypicks are:-
+backend/textmate/theme_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ 22a1b5549fc3ab2671a3629563392d06294e785b -> 89fe7cb0710b145e93b28b9c2f75937a2f87ed73 } is a cherrypick
+{ e64e6549f0f2c418bee4aad3903e3b712734e44c -> b27e43915bef3c419f8c92a25e71a4caac6b4173 }
+Partial Cherry-pick commits SHA are -> 
+89fe7cb0710b145e93b28b9c2f75937a2f87ed73 - cherrypick - b27e43915bef3c419f8c92a25e71a4caac6b4173
+---> The cherrypicked commit sha is - 89fe7cb0710b145e93b28b9c2f75937a2f87ed73
+Commit message - Fix the formatting.
+---> The original commit sha is - b27e43915bef3c419f8c92a25e71a4caac6b4173
+Commit message - Merge pull request #341 from erbridge/move_test
+
+Multiregion move to tests
+---> The files with partial_cherrypicks are:-
+backend/commands/move_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ 65573158a34861703739feac8ad92b6ea0e0f281 -> 22a1b5549fc3ab2671a3629563392d06294e785b } is a cherrypick
+{ 8eca6ce36cde44709eb1a7c309768142970269d7 -> 425a11671d5ed2c3840dcaf31265f7f088e76555 }
+Partial Cherry-pick commits SHA are -> 
+22a1b5549fc3ab2671a3629563392d06294e785b - cherrypick - 425a11671d5ed2c3840dcaf31265f7f088e76555
+---> The cherrypicked commit sha is - 22a1b5549fc3ab2671a3629563392d06294e785b
+Commit message - Add support for file parameter in termbox
+---> The original commit sha is - 425a11671d5ed2c3840dcaf31265f7f088e76555
+Commit message - Merge pull request #347 from Joushou/filefromcli
+
+Add support for file parameter in termbox
+---> The files with partial_cherrypicks are:-
+frontend/termbox/main.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ c4d03c5d45523a2a6494d8b628d9037df23c91d6 -> 86b140bc4c0ae220f43d09b1014b00233b29f8fe } is a cherrypick
+{ 7c30bdf4d2b187acbc4e557460424fab1e3fb766 -> 898a4811c7cca6ce970fb2ea64ef72512da3d27e }
+Partial Cherry-pick commits SHA are -> 
+86b140bc4c0ae220f43d09b1014b00233b29f8fe - cherrypick - 898a4811c7cca6ce970fb2ea64ef72512da3d27e
+---> The cherrypicked commit sha is - 86b140bc4c0ae220f43d09b1014b00233b29f8fe
+Commit message - Change to use Preferences (OS).sublime-settings, not Default.
+---> The original commit sha is - 898a4811c7cca6ce970fb2ea64ef72512da3d27e
+Commit message - Merge pull request #342 from erbridge/default_font
+
+Set the default fonts on different OSes
+---> The files with partial_cherrypicks are:-
+backend/packages/Default/Default.sublime-settings
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ 841850766d21642187b670beb712c30a6103d3eb -> 2287e93cfb79f54ac021cf6b71176be2970454ae } is a cherrypick
+{ b70a60a750f7efdb8fad62034e6dd18c0d62f695 -> fccde1f224bdf17494cd61c9238cf2dc303bbb2a }
+Partial Cherry-pick commits SHA are -> 
+2287e93cfb79f54ac021cf6b71176be2970454ae - cherrypick - fccde1f224bdf17494cd61c9238cf2dc303bbb2a
+---> The cherrypicked commit sha is - 2287e93cfb79f54ac021cf6b71176be2970454ae
+Commit message - Reorganize Unregister to be more readable.
+---> The original commit sha is - fccde1f224bdf17494cd61c9238cf2dc303bbb2a
+Commit message - Merge pull request #327 from erbridge/commandhandler_unregister
+
+Reorganize Unregister to be more readable
+---> The files with partial_cherrypicks are:-
+backend/commandhandler.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ 838270ab86c53188f7b51ad394c524e3cd06b5ab -> 27dc7ac5b9d631070b668bc976325ad01cba7746 } is a cherrypick
+{ 8df088a000c181a4870d30bcbb5d82cde596fe9a -> d1ab307143aa4319622beb2a17de185ba594bc14 }
+Partial Cherry-pick commits SHA are -> 
+27dc7ac5b9d631070b668bc976325ad01cba7746 - cherrypick - d1ab307143aa4319622beb2a17de185ba594bc14
+---> The cherrypicked commit sha is - 27dc7ac5b9d631070b668bc976325ad01cba7746
+Commit message - Tidy up README.
+
+Make README more uniformly formatted.
+Add a link directly to the easy fix issues.
+---> The original commit sha is - d1ab307143aa4319622beb2a17de185ba594bc14
+Commit message - Merge pull request #321 from erbridge/readme_update
+
+Tidy up README.md
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ 05734eca27fbfdc27579d9b51dd6bb4059ab5c90 -> 838270ab86c53188f7b51ad394c524e3cd06b5ab } is a cherrypick
+{ 737205ae8935bb0e479668011f93e7710061066f -> 8df088a000c181a4870d30bcbb5d82cde596fe9a }
+Partial Cherry-pick commits SHA are -> 
+838270ab86c53188f7b51ad394c524e3cd06b5ab - cherrypick - 8df088a000c181a4870d30bcbb5d82cde596fe9a
+---> The cherrypicked commit sha is - 838270ab86c53188f7b51ad394c524e3cd06b5ab
+Commit message - Allow forks to build on travis.
+---> The original commit sha is - 8df088a000c181a4870d30bcbb5d82cde596fe9a
+Commit message - Merge pull request #320 from erbridge/travis_build
+
+Allow forks to build on travis
+---> The files with partial_cherrypicks are:-
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ 0e1da1e7addcbade3e71c25a49a42c7a2a5fff26 -> d6acf7d8a4350a0423be2007c1a273e9d87c8ba0 } is a cherrypick
+{ 913a24b3619a1ddaa979f6ad22042f21b803a960 -> 4c385a100fa83e485421e22c70fc617d5eb0589e }
+Partial Cherry-pick commits SHA are -> 
+d6acf7d8a4350a0423be2007c1a273e9d87c8ba0 - cherrypick - 4c385a100fa83e485421e22c70fc617d5eb0589e
+---> The cherrypicked commit sha is - d6acf7d8a4350a0423be2007c1a273e9d87c8ba0
+Commit message - Move the close window test to window_test.go.
+---> The original commit sha is - 4c385a100fa83e485421e22c70fc617d5eb0589e
+Commit message - Merge pull request #315 from erbridge/editor_tests
+
+Close Window Test
+---> The files with partial_cherrypicks are:-
+backend/window_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ 66ba7f898aa682405fe610666b0112313bc50bf5 -> cdc53fad08005cb6ac3ec682385d65efa6436307 } is a cherrypick
+{ 20f2d4cbe637f496c29d8b973f37a9b002a8c03c -> e7e06aadcdda0251ea05b127333927f9b7027c1e }
+Partial Cherry-pick commits SHA are -> 
+cdc53fad08005cb6ac3ec682385d65efa6436307 - cherrypick - e7e06aadcdda0251ea05b127333927f9b7027c1e
+---> The cherrypicked commit sha is - cdc53fad08005cb6ac3ec682385d65efa6436307
+Commit message - Fix the clipboard test.
+---> The original commit sha is - e7e06aadcdda0251ea05b127333927f9b7027c1e
+Commit message - Merge pull request #316 from erbridge/editor_test
+
+Editor tests clipboard, remove and SetFrontend.
+---> The files with partial_cherrypicks are:-
+backend/editor_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ baa62732743606e11ca8cf2c440c02f14e0df321 -> 61638794854ea90a5c98b7ae6ed174794361ba90 } is a cherrypick
+{ 61638794854ea90a5c98b7ae6ed174794361ba90 -> c8f4b7fce259b6b6a86c8ead72fa4c83f01b71b1 }
+Partial Cherry-pick commits SHA are -> 
+61638794854ea90a5c98b7ae6ed174794361ba90 - cherrypick - c8f4b7fce259b6b6a86c8ead72fa4c83f01b71b1
+---> The cherrypicked commit sha is - 61638794854ea90a5c98b7ae6ed174794361ba90
+Commit message - Fix the bug about remove_duplicates.
+---> The original commit sha is - c8f4b7fce259b6b6a86c8ead72fa4c83f01b71b1
+Commit message - Test case for sort_lines
+---> The files with partial_cherrypicks are:-
+backend/commands/sort_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ c1ccc1cc8ec871c9c0b97cfe3d9b5a443f66e7ab -> 4dda5e0018918c190d824fe05a7624308ba0492d } is a cherrypick
+{ 47177d35f660288b7be78e979c6b08572f693b1e -> 17cdd637c931626adf96c70435553434fa5b08e5 }
+Partial Cherry-pick commits SHA are -> 
+4dda5e0018918c190d824fe05a7624308ba0492d - cherrypick - 17cdd637c931626adf96c70435553434fa5b08e5
+---> The cherrypicked commit sha is - 4dda5e0018918c190d824fe05a7624308ba0492d
+Commit message - Merge pull request #297 from PotatoesMaster/settings-commands
+
+Settings commands + return errors in CommandHandler
+---> The original commit sha is - 17cdd637c931626adf96c70435553434fa5b08e5
+Commit message - Merge branch 'master' of github.com:limetext/lime
+
+* 'master' of github.com:limetext/lime:
+  Add unindent command and tests
+  Extract functions for reuse by the unindent command
+  CommandHandler: make Run*Command return the logged errors
+  Add toggle_setting and set_setting commands
+---> The files with partial_cherrypicks are:-
+backend/commandhandler.go
+backend/commands/settings.go
+backend/commands/settings_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ c1ccc1cc8ec871c9c0b97cfe3d9b5a443f66e7ab -> 4dda5e0018918c190d824fe05a7624308ba0492d } is a cherrypick
+{ 7bcb15fd18e2d3d9c7de0733f5e2889f0e4a675b -> 47177d35f660288b7be78e979c6b08572f693b1e }
+Partial Cherry-pick commits SHA are -> 
+4dda5e0018918c190d824fe05a7624308ba0492d - cherrypick - 47177d35f660288b7be78e979c6b08572f693b1e
+---> The cherrypicked commit sha is - 4dda5e0018918c190d824fe05a7624308ba0492d
+Commit message - Merge pull request #297 from PotatoesMaster/settings-commands
+
+Settings commands + return errors in CommandHandler
+---> The original commit sha is - 47177d35f660288b7be78e979c6b08572f693b1e
+Commit message - Selection works in one line
+---> The files with partial_cherrypicks are:-
+backend/commands/indent.go
+backend/commands/indent_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ 0369183e0398e6687c75d1563e29b1788745fb32 -> fd7cee04a526738319e0c8ec5cf6d61eb727ade5 } is a cherrypick
+{ 0374537c75b5b2fda1f555fce4f7325eaf7a3b36 -> 2ab5cd064a052637809e7ef6e20dc961acf599d9 }
+Partial Cherry-pick commits SHA are -> 
+fd7cee04a526738319e0c8ec5cf6d61eb727ade5 - cherrypick - 2ab5cd064a052637809e7ef6e20dc961acf599d9
+---> The cherrypicked commit sha is - fd7cee04a526738319e0c8ec5cf6d61eb727ade5
+Commit message - frontend/qml: Add status bar w/ placeholder text
+---> The original commit sha is - 2ab5cd064a052637809e7ef6e20dc961acf599d9
+Commit message - Merge remote-tracking branch 'fork/feature/lime-packages' into feature/lime-packages
+
+* fork/feature/lime-packages:
+  Bugfixes in packages.go specialy the Pckts type and loading plugin Packets
+  replacing os.PathSeparator whith path.Join
+  Scaning for settings menus commands closes #198
+  Implemented reloading plugins closes #221, changed WhatchedFile interface name to Watched
+  Merging keymap and setting to Packet now all packages with one file will be a packet
+  bug fixes, testing and logging for packages
+  Reloading packages
+  Loading settings and keybyingings from packages
+  Added some comments, plugins will now accept multiple settings and keymaps
+  Added access for plugin settings and keymap also some comments on Package interface methods
+  Using the new approach for adding plugins
+  Complete Plugin ,Setting and KeyMap type
+---> The files with partial_cherrypicks are:-
+frontend/qml/LimeView.qml
+frontend/qml/main.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ 34f4b181f473f2e5470ce98009d9f5efc9c46899 -> a96d1487e2de840ea7eeb16e142c88198dfc1bad } is a cherrypick
+{ 736dfa16c1802495323737972681dcd5bd05b04c -> 87130781e4466c239a3c3e154aa42fc6214cc6cc }
+Partial Cherry-pick commits SHA are -> 
+a96d1487e2de840ea7eeb16e142c88198dfc1bad - cherrypick - 87130781e4466c239a3c3e154aa42fc6214cc6cc
+---> The cherrypicked commit sha is - a96d1487e2de840ea7eeb16e142c88198dfc1bad
+Commit message - Separated non atomic and atomic save
+---> The original commit sha is - 87130781e4466c239a3c3e154aa42fc6214cc6cc
+Commit message - Merge branch 'feature/save' into develop
+
+* feature/save:
+  Fixed watching on save as problem
+  Showing some info about the error
+  Watching the new save as files
+  Completed save_all command
+  Finished Save & SaveAs command
+  Adding save and save_as command but there is a problem with view SaveAs method
+  Fixed watching on save as problem
+---> The files with partial_cherrypicks are:-
+backend/view.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ beed614772b96869c908afd93aa4da89758c841c -> 3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb } is a cherrypick
+{ a96d1487e2de840ea7eeb16e142c88198dfc1bad -> 736dfa16c1802495323737972681dcd5bd05b04c }
+Partial Cherry-pick commits SHA are -> 
+3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb - cherrypick - 736dfa16c1802495323737972681dcd5bd05b04c
+---> The cherrypicked commit sha is - 3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb
+Commit message - Fixed watching on save as problem
+---> The original commit sha is - 736dfa16c1802495323737972681dcd5bd05b04c
+Commit message - fixed merging
+---> The files with partial_cherrypicks are:-
+backend/editor_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ 3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb -> 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 } is a cherrypick
+{ 34f4b181f473f2e5470ce98009d9f5efc9c46899 -> a96d1487e2de840ea7eeb16e142c88198dfc1bad }
+Partial Cherry-pick commits SHA are -> 
+10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 - cherrypick - a96d1487e2de840ea7eeb16e142c88198dfc1bad
+---> The cherrypicked commit sha is - 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91
+Commit message - Adding save and save_as command but there is a problem with view SaveAs method
+---> The original commit sha is - a96d1487e2de840ea7eeb16e142c88198dfc1bad
+Commit message - Separated non atomic and atomic save
+---> The files with partial_cherrypicks are:-
+backend/editor_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ beed614772b96869c908afd93aa4da89758c841c -> 3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb } is a cherrypick
+{ 03fd4343b1314cb25b7996aeb258ae4419e06496 -> dd741def65b765dffaa15488103b6f488d62b859 }
+Partial Cherry-pick commits SHA are -> 
+3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb - cherrypick - dd741def65b765dffaa15488103b6f488d62b859
+---> The cherrypicked commit sha is - 3dd987f29ad0a2a7441a2450a2b1dd99d682e5eb
+Commit message - Fixed watching on save as problem
+---> The original commit sha is - dd741def65b765dffaa15488103b6f488d62b859
+Commit message - Fixed watching on save as problem
+---> The files with partial_cherrypicks are:-
+backend/editor_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ b5b6724bb3d56a0f0c0e21c34f5753f3b0cf3331 -> 8dca0dba9f026d0646c50287714e797aef5c41c9 } is a cherrypick
+{ 10f6dc33d0e7c21f4332ce2ed91e51e166a4dd91 -> de9c77a0c920ded16697918e8e2bdaec600bf69e }
+Partial Cherry-pick commits SHA are -> 
+8dca0dba9f026d0646c50287714e797aef5c41c9 - cherrypick - de9c77a0c920ded16697918e8e2bdaec600bf69e
+---> The cherrypicked commit sha is - 8dca0dba9f026d0646c50287714e797aef5c41c9
+Commit message - atomic save not working
+---> The original commit sha is - de9c77a0c920ded16697918e8e2bdaec600bf69e
+Commit message - Finished Save & SaveAs command
+---> The files with partial_cherrypicks are:-
+backend/testdata/save_test.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ 5cc3c495506e3af24dcc2d49acb559d874685f9c -> b5b6724bb3d56a0f0c0e21c34f5753f3b0cf3331 } is a cherrypick
+{ 338302f5a5c0af5d626131e03be13a7b99adc469 -> 2eeb0f434c7824588ac21df762ba955ee0d26b35 }
+Partial Cherry-pick commits SHA are -> 
+b5b6724bb3d56a0f0c0e21c34f5753f3b0cf3331 - cherrypick - 2eeb0f434c7824588ac21df762ba955ee0d26b35
+---> The cherrypicked commit sha is - b5b6724bb3d56a0f0c0e21c34f5753f3b0cf3331
+Commit message - Adding save and save_as command but there is a problem with view SaveAs method
+---> The original commit sha is - 2eeb0f434c7824588ac21df762ba955ee0d26b35
+Commit message - Merge branch 'develop' into feature/save
+
+* develop:
+  Fixed window.Views() bug
+---> The files with partial_cherrypicks are:-
+backend/commands/save.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ 4248bf09e2ba97c4b7f4441b2e1efb73c02b024d -> 5933c8145976d56ff6fbe7ab25757a8bf5e0418b } is a cherrypick
+{ 338302f5a5c0af5d626131e03be13a7b99adc469 -> 2eeb0f434c7824588ac21df762ba955ee0d26b35 }
+Partial Cherry-pick commits SHA are -> 
+5933c8145976d56ff6fbe7ab25757a8bf5e0418b - cherrypick - 2eeb0f434c7824588ac21df762ba955ee0d26b35
+---> The cherrypicked commit sha is - 5933c8145976d56ff6fbe7ab25757a8bf5e0418b
+Commit message - Merge branch 'develop' into feature/save
+
+* develop:
+  Fixed atomic save problem, added tests for pre and post save events
+  Documentation
+  atomic save not working
+---> The original commit sha is - 2eeb0f434c7824588ac21df762ba955ee0d26b35
+Commit message - Merge branch 'develop' into feature/save
+
+* develop:
+  Fixed window.Views() bug
+---> The files with partial_cherrypicks are:-
+backend/commands/save.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ b5b6724bb3d56a0f0c0e21c34f5753f3b0cf3331 -> 8dca0dba9f026d0646c50287714e797aef5c41c9 } is a cherrypick
+{ 5933c8145976d56ff6fbe7ab25757a8bf5e0418b -> 7a97088c7683419c6132468c751f0e7632a16c00 }
+Partial Cherry-pick commits SHA are -> 
+8dca0dba9f026d0646c50287714e797aef5c41c9 - cherrypick - 7a97088c7683419c6132468c751f0e7632a16c00
+---> The cherrypicked commit sha is - 8dca0dba9f026d0646c50287714e797aef5c41c9
+Commit message - atomic save not working
+---> The original commit sha is - 7a97088c7683419c6132468c751f0e7632a16c00
+Commit message - Finished Save & SaveAs command
+---> The files with partial_cherrypicks are:-
+backend/testdata/save_test.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ 8dca0dba9f026d0646c50287714e797aef5c41c9 -> 1b03c6f3e34133d45859776780c4750188c5f329 } is a cherrypick
+{ 339ee9ff99158d64a8b1fed83a22714877811f2b -> 4248bf09e2ba97c4b7f4441b2e1efb73c02b024d }
+Partial Cherry-pick commits SHA are -> 
+1b03c6f3e34133d45859776780c4750188c5f329 - cherrypick - 4248bf09e2ba97c4b7f4441b2e1efb73c02b024d
+---> The cherrypicked commit sha is - 1b03c6f3e34133d45859776780c4750188c5f329
+Commit message - Documentation
+---> The original commit sha is - 4248bf09e2ba97c4b7f4441b2e1efb73c02b024d
+Commit message - Merge pull request #275 from ZiDoMs/develop
+
+atomic save not working
+---> The files with partial_cherrypicks are:-
+backend/command.go
+backend/commands/doc.go
+backend/doc.go
+backend/render/doc.go
+backend/render/textmate/syntax.go
+backend/sublime/commands_generated.go
+backend/sublime/doc.go
+backend/sublime/edit_generated.go
+backend/sublime/frontend_generated.go
+backend/sublime/region_generated.go
+backend/sublime/regionset_generated.go
+backend/sublime/settings_generated.go
+backend/sublime/sublime_api_generated.go
+backend/sublime/view_buffer_generated.go
+backend/sublime/view_generated.go
+backend/sublime/window_generated.go
+backend/textmate/doc.go
+backend/util/doc.go
+tasks/build/gen_python_api.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ aa2d97b23b8564d551214e64d72505c5997b750b -> 44390061f58e3e6da35ff5da351156e29a6cba4a } is a cherrypick
+{ b2614cd8faa44d463798e12252ddbbe9b25fac8c -> 1160a520217f431702dbf3fe1381ab0cc06423cb }
+Partial Cherry-pick commits SHA are -> 
+44390061f58e3e6da35ff5da351156e29a6cba4a - cherrypick - 1160a520217f431702dbf3fe1381ab0cc06423cb
+---> The cherrypicked commit sha is - 44390061f58e3e6da35ff5da351156e29a6cba4a
+Commit message - Detecting changes in settings and reloading them closes #220
+---> The original commit sha is - 1160a520217f431702dbf3fe1381ab0cc06423cb
+Commit message - Merge pull request #271 from BenedictEggers/master
+
+Minor comment cleanups
+---> The files with partial_cherrypicks are:-
+backend/editor_test.go
+backend/watched.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 49 is -> 
+{ a6a6294ac1625af3df5fed617a12a2de88f6bad4 -> 4968c9264b81a81d475291c835fd46fa08c1d57c } is a cherrypick
+{ 44390061f58e3e6da35ff5da351156e29a6cba4a -> 42f118b4742e445499d9f0a5af95dd1ed965375e }
+Partial Cherry-pick commits SHA are -> 
+4968c9264b81a81d475291c835fd46fa08c1d57c - cherrypick - 42f118b4742e445499d9f0a5af95dd1ed965375e
+---> The cherrypicked commit sha is - 4968c9264b81a81d475291c835fd46fa08c1d57c
+Commit message - Lots of random small changes everywhere.
+
+- Documentation
+- OkCancelDialog now returns bool
+- Added OnPreClose event
+- Export more view events to the python api
+- Made the travis build script invoke the python api generation
+- Added methods Save, SaveAs, Close and IsDirty to View
+---> The original commit sha is - 42f118b4742e445499d9f0a5af95dd1ed965375e
+Commit message - Merge pull request #272 from ZiDoMs/feature/ReloadSettings
+
+Feature/reload settings
+---> The files with partial_cherrypicks are:-
+.travis.yml
+backend/editor.go
+backend/events.go
+backend/sublime/commands_generated.go
+backend/sublime/edit_generated.go
+backend/sublime/events_manual.go
+backend/sublime/frontend_generated.go
+backend/sublime/region_generated.go
+backend/sublime/regionset_generated.go
+backend/sublime/settings_generated.go
+backend/sublime/sublime_api_generated.go
+backend/sublime/testdata/api.txt
+backend/sublime/view_buffer_generated.go
+backend/sublime/view_generated.go
+backend/sublime/window_generated.go
+backend/view.go
+backend/window.go
+frontend/html/main.go
+frontend/qml/main.go
+frontend/termbox/main.go
+tasks/build/fix.go
+tasks/build/gen_python_api.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 50 is -> 
+{ b4412d955e20b49a67074c2746c943a9eb6b9b6e -> d53aeb4ff0c85195e0b65f1937ab163ae45c0105 } is a cherrypick
+{ 7ff7803516135517bf98d4e76dd115529497e647 -> 92613f6ec2fc243b3fb5e23a8facafe224df0b41 }
+Partial Cherry-pick commits SHA are -> 
+d53aeb4ff0c85195e0b65f1937ab163ae45c0105 - cherrypick - 92613f6ec2fc243b3fb5e23a8facafe224df0b41
+---> The cherrypicked commit sha is - d53aeb4ff0c85195e0b65f1937ab163ae45c0105
+Commit message - Add gofmt script for testing
+
+If Go source code is checked into the repository but not properly
+formatted using gofmt, this new script will print the aberrant files and
+exit 1 to fail Travis tests.
+
+It's listed as a new script in .travis.yml. All scripts are run (even if
+any of them exit nonzero), so regular tests still occur if the gofmt
+check fails.
+
+The script also ignores the 3rdparty directory, since that contains git
+submodules (some of which have unformatted Go code in them). Since those
+repositories are not under our control, we don't want to check them for
+formatting.
+---> The original commit sha is - 92613f6ec2fc243b3fb5e23a8facafe224df0b41
+Commit message - Merge pull request #267 from ZiDoMs/feature/LineCommands
+
+Line Commands
+---> The files with partial_cherrypicks are:-
+.travis.yml
+backend/commands/indent_test.go
+backend/textmate/language.go
+backend/textmate/testdata/Monokai.tmTheme.res
+backend/textmate/testdata/go2.go
+backend/textmate/testdata/go2.go.res
+backend/textmate/theme.go
+frontend/qml/main.go
+frontend/qml/main.qml
+tasks/ci/gofmt.sh
+tasks/ci/lime.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 51 is -> 
+{ 76bee16ebb73cfcd558532b4d08fce8b91b09b14 -> 3329de4ac7ca6c7c66eabd7919c22dceedc6a4e1 } is a cherrypick
+{ 3cce642d87ffd56f976bc0c0417db37656382890 -> 097f014aa8136c5180c235c2c5ac8aad8bf41da9 }
+Partial Cherry-pick commits SHA are -> 
+3329de4ac7ca6c7c66eabd7919c22dceedc6a4e1 - cherrypick - 097f014aa8136c5180c235c2c5ac8aad8bf41da9
+---> The cherrypicked commit sha is - 3329de4ac7ca6c7c66eabd7919c22dceedc6a4e1
+Commit message - Add "New" and "Open" function to the qml frontend
+---> The original commit sha is - 097f014aa8136c5180c235c2c5ac8aad8bf41da9
+Commit message - Merge pull request #251 from zguangyu0000/master
+
+Add "New" and "Open" function to the qml frontend
+---> The files with partial_cherrypicks are:-
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 52 is -> 
+{ 7c832a0aed1ce1f300b9eb0ec4827e28942203f3 -> bed21b20ee03dedfb19f9fc041cf640b5c8895ff } is a cherrypick
+{ 2f1eeb987d24d8239849dd000563d55c3fcbe605 -> 38cf3d6156956a9db36a1927b85072265ce1b009 }
+Partial Cherry-pick commits SHA are -> 
+bed21b20ee03dedfb19f9fc041cf640b5c8895ff - cherrypick - 38cf3d6156956a9db36a1927b85072265ce1b009
+---> The cherrypicked commit sha is - bed21b20ee03dedfb19f9fc041cf640b5c8895ff
+Commit message - qml: hookup keyboard, fixes #200
+
+* Special modifier handling for darwin required. See
+  http://qt-project.org/doc/qt-5.1/qtcore/qt.html#KeyboardModifier-enum.
+---> The original commit sha is - 38cf3d6156956a9db36a1927b85072265ce1b009
+Commit message - Merge branch 'qml_hookup_keyboard' of https://github.com/EdVanDance/lime into EdVanDance-qml_hookup_keyboard
+
+Conflicts:
+	frontend/qml/main.go
+---> The files with partial_cherrypicks are:-
+frontend/qml/main.qml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 53 is -> 
+{ 23d9a1d5ba7ba370d2446243418ff14d0e313900 -> 0cfb558c583e8588440f1e5a495ea05da3f775b1 } is a cherrypick
+{ e98c4414f48046aaf026031d3755184cb4883565 -> 0330d51d5f5486ba3fe12e5665378c68dfbf3e2c }
+Partial Cherry-pick commits SHA are -> 
+0cfb558c583e8588440f1e5a495ea05da3f775b1 - cherrypick - 0330d51d5f5486ba3fe12e5665378c68dfbf3e2c
+---> The cherrypicked commit sha is - 0cfb558c583e8588440f1e5a495ea05da3f775b1
+Commit message - Fix typo in events Call documentation
+---> The original commit sha is - 0330d51d5f5486ba3fe12e5665378c68dfbf3e2c
+Commit message - Merge pull request #213 from sieben07/readme
+
+Added links to the Webpage, IRC and Documentation
+---> The files with partial_cherrypicks are:-
+backend/events.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 54 is -> 
+{ 640066281f00a3ae0d371227fb87fab01a329dad -> 7a0be0ed255ac8520a89e96245ec7e4a2343fcbd } is a cherrypick
+{ 53b87f1c6af13962503ca445104c93883c3da6d6 -> 9b9fa3d38938e3042f6ccd0df29a42bfd168b987 }
+Partial Cherry-pick commits SHA are -> 
+7a0be0ed255ac8520a89e96245ec7e4a2343fcbd - cherrypick - 9b9fa3d38938e3042f6ccd0df29a42bfd168b987
+---> The cherrypicked commit sha is - 7a0be0ed255ac8520a89e96245ec7e4a2343fcbd
+Commit message - Implement the select_all command and add tests
+---> The original commit sha is - 9b9fa3d38938e3042f6ccd0df29a42bfd168b987
+Commit message - Merge pull request #189 from RoelVanNyen/silence_tests
+
+Tests should not print to the output for no reason. 
+---> The files with partial_cherrypicks are:-
+backend/commands/find.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 55 is -> 
+{ 7006bbdb95e991c5404e3454df5be3254ada743e -> 4ea8b66a8998ee15744505b133351e2f66c93d24 } is a cherrypick
+{ 0296214ce90323c28c8b037f574c6f4044a0ecfe -> 640066281f00a3ae0d371227fb87fab01a329dad }
+Partial Cherry-pick commits SHA are -> 
+4ea8b66a8998ee15744505b133351e2f66c93d24 - cherrypick - 640066281f00a3ae0d371227fb87fab01a329dad
+---> The cherrypicked commit sha is - 4ea8b66a8998ee15744505b133351e2f66c93d24
+Commit message - Add tests for the MoveTo command
+---> The original commit sha is - 640066281f00a3ae0d371227fb87fab01a329dad
+Commit message - Merge pull request #181 from RoelVanNyen/112-moveto_test
+
+Add tests for the MoveTo command
+---> The files with partial_cherrypicks are:-
+backend/commands/move_test.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 56 is -> 
+{ 4ea8b66a8998ee15744505b133351e2f66c93d24 -> 2a0ec8a84d1b26bcbb9447cf6a614ce35bae2ba5 } is a cherrypick
+{ 84832a5d6dd05623672684e8eeff1d54036a488d -> 0296214ce90323c28c8b037f574c6f4044a0ecfe }
+Partial Cherry-pick commits SHA are -> 
+2a0ec8a84d1b26bcbb9447cf6a614ce35bae2ba5 - cherrypick - 0296214ce90323c28c8b037f574c6f4044a0ecfe
+---> The cherrypicked commit sha is - 2a0ec8a84d1b26bcbb9447cf6a614ce35bae2ba5
+Commit message - Add tests for the SingleSelection command
+---> The original commit sha is - 0296214ce90323c28c8b037f574c6f4044a0ecfe
+Commit message - Merge pull request #182 from RoelVanNyen/110-singleselection_test
+
+Add tests for the SingleSelection command
+---> The files with partial_cherrypicks are:-
+backend/commands/find_test.go
+-----------------------------------------------------------------
+

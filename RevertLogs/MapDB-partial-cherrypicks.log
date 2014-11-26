@@ -1,0 +1,191 @@
+# of partial cherrypicks = 13
+Partial Cherry-pick diff pair 1 is -> 
+{ 8a132991336ca18cb7e736ba0be728ca2bba7947 -> a49dd42b9c116c20fff3b6f945786b27c3b84b07 } is a cherrypick
+{ 18edb2bfdb4dfae3ec7084de9d7caf3124e2f651 -> 73385f1a80c0b7d6687efb86ace160a5c2d1b925 }
+Partial Cherry-pick commits SHA are -> 
+a49dd42b9c116c20fff3b6f945786b27c3b84b07 - cherrypick - 73385f1a80c0b7d6687efb86ace160a5c2d1b925
+---> The cherrypicked commit sha is - a49dd42b9c116c20fff3b6f945786b27c3b84b07
+Commit message - Fun: add todo
+---> The original commit sha is - 73385f1a80c0b7d6687efb86ace160a5c2d1b925
+Commit message - Merge remote-tracking branch 'origin/master'
+---> The files with partial_cherrypicks are:-
+src/main/java/org/mapdb/Fun.java
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ c849d6a4def438ac132dda688a570d9e864b7c03 -> 1a6820289d564413cfb19c3a032ac27475c7e05b } is a cherrypick
+{ 4036a163c0a6ef50ad5bceef3ea269cde05ba21d -> 998fa551f1c775e480ba194bf4b019dbcaf93761 }
+Partial Cherry-pick commits SHA are -> 
+1a6820289d564413cfb19c3a032ac27475c7e05b - cherrypick - 998fa551f1c775e480ba194bf4b019dbcaf93761
+---> The cherrypicked commit sha is - 1a6820289d564413cfb19c3a032ac27475c7e05b
+Commit message - Volume: Workaround for Windows and FileChannel truncate. Fix #326.
+---> The original commit sha is - 998fa551f1c775e480ba194bf4b019dbcaf93761
+Commit message - Merge pull request #327 from Toilal/windows_filechannel
+
+Volume: Workaround for Windows and FileChannel truncate. Fix #326.
+---> The files with partial_cherrypicks are:-
+src/main/java/org/mapdb/StoreWAL.java
+src/main/java/org/mapdb/Volume.java
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 358b52e2bb6a0b5fcd60f17c7104a611c2996c05 -> 0ae1507c41b26cfd8322c593d03f7cd61c234f92 } is a cherrypick
+{ a8247e801fc585c9f4d365bd804bca5d11bb7ac3 -> ab576c7b572f75906e260d31686cf373aec65f68 }
+Partial Cherry-pick commits SHA are -> 
+0ae1507c41b26cfd8322c593d03f7cd61c234f92 - cherrypick - ab576c7b572f75906e260d31686cf373aec65f68
+---> The cherrypicked commit sha is - 0ae1507c41b26cfd8322c593d03f7cd61c234f92
+Commit message - Site: add news about MapDB 0.9.11 release
+---> The original commit sha is - ab576c7b572f75906e260d31686cf373aec65f68
+Commit message - Site: add news about 1.0.3 release
+---> The files with partial_cherrypicks are:-
+src/site/resources/news.xml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ 1a6820289d564413cfb19c3a032ac27475c7e05b -> 35a1cb6f6cbf7963d99306369f63322b1c7bf2de } is a cherrypick
+{ a085578ea43fb6143e2e6a5f07f2b09d33fd6ea4 -> 07fd286351ccded68292420a8c15543000f98e53 }
+Partial Cherry-pick commits SHA are -> 
+35a1cb6f6cbf7963d99306369f63322b1c7bf2de - cherrypick - 07fd286351ccded68292420a8c15543000f98e53
+---> The cherrypicked commit sha is - 35a1cb6f6cbf7963d99306369f63322b1c7bf2de
+Commit message - Merge pull request #325 from linkerlin/patch-1
+
+Create .travis.yml
+---> The original commit sha is - 07fd286351ccded68292420a8c15543000f98e53
+Commit message - Merge branch 'master' of https://www.github.com/jankotek/MapDB
+---> The files with partial_cherrypicks are:-
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ 36f81838321fc1ad95ce4e96e3ab2f8b7de551ed -> 3303504c2b5de3e4df462696bf208838d88ba296 } is a cherrypick
+{ 620dd6655cf7f63d4e9242fd7532af8cd9986f77 -> 3ace7a206aaf788eafe7080bece1996184dfe80b }
+Partial Cherry-pick commits SHA are -> 
+3303504c2b5de3e4df462696bf208838d88ba296 - cherrypick - 3ace7a206aaf788eafe7080bece1996184dfe80b
+---> The cherrypicked commit sha is - 3303504c2b5de3e4df462696bf208838d88ba296
+Commit message - Engine: remove dependency on SerializerPojo, move `default serializer` to DB
+---> The original commit sha is - 3ace7a206aaf788eafe7080bece1996184dfe80b
+Commit message - Engine: rename some public methods, deprecate SerializerPojo
+---> The files with partial_cherrypicks are:-
+src/main/java/org/mapdb/HTreeMap.java
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 709d2254c8d194db50984713a3560a5e3bfc8b94 -> b17bad9160259410a7c74f97beddf790f2a8731c } is a cherrypick
+{ 03b4800fc519cc2bd1c1d5a585cf094d5e10d96a -> 780c1e590dbcf0a564112a308a682e93bb6c7b98 }
+Partial Cherry-pick commits SHA are -> 
+b17bad9160259410a7c74f97beddf790f2a8731c - cherrypick - 780c1e590dbcf0a564112a308a682e93bb6c7b98
+---> The cherrypicked commit sha is - b17bad9160259410a7c74f97beddf790f2a8731c
+Commit message - Unit test BTreeMapContainsKeyTest. Asserts that dedeserialise is not
+called during containsKey.
+---> The original commit sha is - 780c1e590dbcf0a564112a308a682e93bb6c7b98
+Commit message - Merge pull request #289 from ajermakovics/master
+
+Issue 284 - skip value deserialization during containsKey when values stored outside nodes
+---> The files with partial_cherrypicks are:-
+src/main/java/org/mapdb/BTreeMap.java
+src/test/java/org/mapdb/BTreeMapContainsKeyTest.java
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ f21ae81cb143a62b3a74cbe6cda35dbe3d32090f -> 40c9888e2378c848fa455844ddde7be0a8ba8605 } is a cherrypick
+{ 9ed156f316ad08f432f089f4e797d70b56ba23be -> 0fd8dadcfb186fc4d3bf8037c8fcd578a59da67b }
+Partial Cherry-pick commits SHA are -> 
+40c9888e2378c848fa455844ddde7be0a8ba8605 - cherrypick - 0fd8dadcfb186fc4d3bf8037c8fcd578a59da67b
+---> The cherrypicked commit sha is - 40c9888e2378c848fa455844ddde7be0a8ba8605
+Commit message - fixed Queue.clear() method
+---> The original commit sha is - 0fd8dadcfb186fc4d3bf8037c8fcd578a59da67b
+Commit message - Merge pull request #83 from bonifaido/master
+
+Fixing Queue.clear() method
+---> The files with partial_cherrypicks are:-
+src/main/java/org/mapdb/Queues.java
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ 543daa3db5d58cb43d98a6882dbd966b57d65308 -> 80e98a40cb7ae8109d5158872448c08f5b0bff48 } is a cherrypick
+{ 614bc22569e2ef92eff668833ae00de2375efffc -> 6cbecf06fff6e5b31923b81637b43d7f3e471864 }
+Partial Cherry-pick commits SHA are -> 
+80e98a40cb7ae8109d5158872448c08f5b0bff48 - cherrypick - 6cbecf06fff6e5b31923b81637b43d7f3e471864
+---> The cherrypicked commit sha is - 80e98a40cb7ae8109d5158872448c08f5b0bff48
+Commit message - Added test case for EntrySet iterator that catches in case hasNext() and
+next() doesn't behave correctly after last item.
+---> The original commit sha is - 6cbecf06fff6e5b31923b81637b43d7f3e471864
+Commit message - Rename StorageWriteAheadLog back t oStorageJournaled
+---> The files with partial_cherrypicks are:-
+src/test/java/org/mapdb/StorageTransTest2.java
+src/test/java/org/mapdb/StorageWriteAheadTest.java
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ 7c24a33cf167b6a04245ffc8a80aa4aac55bb808 -> 56a34b3678a60df2a035f2c77d20a41b97d59d6c } is a cherrypick
+{ 389afa31e207b55fe84255b493f4caa79af8c746 -> b35b875e3c5b9e9b108ca2c6bfa5aa50ce4f9e47 }
+Partial Cherry-pick commits SHA are -> 
+56a34b3678a60df2a035f2c77d20a41b97d59d6c - cherrypick - b35b875e3c5b9e9b108ca2c6bfa5aa50ce4f9e47
+---> The cherrypicked commit sha is - 56a34b3678a60df2a035f2c77d20a41b97d59d6c
+Commit message - Minor improvement to README
+---> The original commit sha is - b35b875e3c5b9e9b108ca2c6bfa5aa50ce4f9e47
+Commit message - Merge branch 'master' of github.com:jankotek/MapDB
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 7c24a33cf167b6a04245ffc8a80aa4aac55bb808 -> 56a34b3678a60df2a035f2c77d20a41b97d59d6c } is a cherrypick
+{ 166324881d7b88cca09649a74abf59a3d09d54f2 -> dd754cb7a711e6e97ddfaa857a84e2ddd8e01b2d }
+Partial Cherry-pick commits SHA are -> 
+56a34b3678a60df2a035f2c77d20a41b97d59d6c - cherrypick - dd754cb7a711e6e97ddfaa857a84e2ddd8e01b2d
+---> The cherrypicked commit sha is - 56a34b3678a60df2a035f2c77d20a41b97d59d6c
+Commit message - Minor improvement to README
+---> The original commit sha is - dd754cb7a711e6e97ddfaa857a84e2ddd8e01b2d
+Commit message - Merge pull request #55 from lpellegr/master
+
+Minor improvement to README
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 97d73671867b262f477802d46084e8bff59063bf -> 760c812e3f5b8686b936167b11fda4b1c983daaa } is a cherrypick
+{ 151f856bdfd4d74e464459994ceb84e1daa61aba -> c29fd46db04bd25174a7f25fada596194004b114 }
+Partial Cherry-pick commits SHA are -> 
+760c812e3f5b8686b936167b11fda4b1c983daaa - cherrypick - c29fd46db04bd25174a7f25fada596194004b114
+---> The cherrypicked commit sha is - 760c812e3f5b8686b936167b11fda4b1c983daaa
+Commit message - New example added.
+---> The original commit sha is - c29fd46db04bd25174a7f25fada596194004b114
+Commit message - Merge branch 'master' of github.com:jankotek/MapDB
+---> The files with partial_cherrypicks are:-
+src/test/java/examples/Custom_Value.java
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 554f41e14b8768c59d0da8a0cebbd1cb9ab19aa4 -> ec93d1a572e35937bd688384ae093d06175b9ad5 } is a cherrypick
+{ 394d406e2b940e89c350290bf90d99e49b544496 -> 435c832ffba93ae6b399a57daa222d3a9123487a }
+Partial Cherry-pick commits SHA are -> 
+ec93d1a572e35937bd688384ae093d06175b9ad5 - cherrypick - 435c832ffba93ae6b399a57daa222d3a9123487a
+---> The cherrypicked commit sha is - ec93d1a572e35937bd688384ae093d06175b9ad5
+Commit message - Fix google group url and issue urls
+
+The issue URLs pointed to JMDB4 instead of MapDB, and the google group link suffered from the same problem :-(
+---> The original commit sha is - 435c832ffba93ae6b399a57daa222d3a9123487a
+Commit message - Merge branch 'master' of github.com:jankotek/MapDB
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 554f41e14b8768c59d0da8a0cebbd1cb9ab19aa4 -> ec93d1a572e35937bd688384ae093d06175b9ad5 } is a cherrypick
+{ 0a513ebf228782e050830564735e06fc87707d2c -> 7b86b1db9e2c0658b7e82e9cf558ac6c11114e05 }
+Partial Cherry-pick commits SHA are -> 
+ec93d1a572e35937bd688384ae093d06175b9ad5 - cherrypick - 7b86b1db9e2c0658b7e82e9cf558ac6c11114e05
+---> The cherrypicked commit sha is - ec93d1a572e35937bd688384ae093d06175b9ad5
+Commit message - Fix google group url and issue urls
+
+The issue URLs pointed to JMDB4 instead of MapDB, and the google group link suffered from the same problem :-(
+---> The original commit sha is - 7b86b1db9e2c0658b7e82e9cf558ac6c11114e05
+Commit message - Merge pull request #14 from rtreffer/master
+
+Fix dead links in Readme.md
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
