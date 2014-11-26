@@ -30,7 +30,7 @@ diffs_array.each do |diff|
 end
 end
 
-def CompareDiffStatsFor2Difffiles( a,b, a_difffile_file_name, b_difffile_file_name)
+def CompareDiffStatsFor2Difffiles( a,b, a_difffile_file_name, b_difffile_file_name, options)
   astats = a.stats
   bstats = b.stats
   # Rudimentary as already checked before
@@ -45,7 +45,9 @@ def CompareDiffStatsFor2Difffiles( a,b, a_difffile_file_name, b_difffile_file_na
   a_deletions = a_file_stats[:deletions]
   b_insertions = b_file_stats[:insertions]
   b_deletions  = b_file_stats[:deletions]
-  return false if a_insertions != b_deletions || a_deletions != b_insertions
+
+  return false if ( ((a_insertions != b_deletions) || (a_deletions != b_insertions)) && options["revert"])
+  return false if ( ((a_insertions != b_insertions) || (a_deletions != b_deletions)) && options["cp"])
 
   true
 end
@@ -103,23 +105,25 @@ def GetCorrepondingDifffileInB(a_difffile_file_name, b)
 end
 
 
-def ComparePatchForDifffiles(a, b)
+def ComparePatchForDifffiles(a, b, options)
   a_additions = a.additions
   a_deletions = a.deletions
   b_additions = b.additions
   b_deletions = b.deletions
 
-  c1 = a_additions == b_deletions
-  c2 = a_deletions == b_additions
-
-  if (c1 == true && c2 == true)
-    return true
-  else
-    return false
+  if options["revert"] == true
+    return true if ( (a_additions == b_deletions) && (a_deletions == b_additions) )
   end
+  if options["cp"] == true
+    return true if ( (a_additions == b_additions) && (a_deletions == b_deletions) )
+  end
+
+  return false
 end
 
-def CompareDiffPatch(a, b)
+def CompareDiffPatch(a, b, options)
+
+  #PrintDiffInfoAndStats(a,b)
   a_numfiles = a.num_difffiles
   b_numfiles = b.num_difffiles
 
@@ -147,13 +151,13 @@ def CompareDiffPatch(a, b)
 
     # TODO - Enhancement for partial reverts. Check if stats match for the given difffile
     b_difffile_file_name = b_difffile.file_name
-    diff_stats_match = CompareDiffStatsFor2Difffiles(a,b, a_difffile_file_name, b_difffile_file_name)
+    diff_stats_match = CompareDiffStatsFor2Difffiles(a,b, a_difffile_file_name, b_difffile_file_name, options)
     next if diff_stats_match == false
 
     # Checkpoint #2 - Compare the patches for both difffiles a and b
     a_patch = a_difffile.patch
     b_patch = b_difffile.patch
-    do_patches_match = ComparePatchForDifffiles(a_patch, b_patch)
+    do_patches_match = ComparePatchForDifffiles(a_patch, b_patch, options)
     if do_patches_match == false
       return false
     else

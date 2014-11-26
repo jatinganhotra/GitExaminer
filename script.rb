@@ -47,16 +47,16 @@ old_stdout = $stdout.dup
 $stdout.reopen(stdout_filename, "w")
 
 # Initialize both libraries
-rubygit_gem_repo = Git.open(git_repo_path, :log => Logger.new(STDOUT))
-rugged_repo = Rugged::Repository.new(git_repo_path)
+$rubygit_gem_repo = Git.open(git_repo_path, :log => Logger.new(STDOUT))
+$rugged_repo = Rugged::Repository.new(git_repo_path)
 
-head_commit = rubygit_gem_repo.log(1)
+head_commit = $rubygit_gem_repo.log(1)
 head_commit = head_commit.to_a
 head_commit = head_commit[0]
 head_commit_sha = head_commit.sha
 
 # Get all the commits for the project
-commit_list = rubygit_gem_repo.log(nil)
+commit_list = $rubygit_gem_repo.log(nil)
 commit_list_array = commit_list.to_a
 commit_list_array.reverse!
 
@@ -87,7 +87,7 @@ print " ---> Gathering information about commits. Please wait."
 puts "# Commits = " + num_commits.to_s
 puts "# Commits with revert in message = " + num_commits_revert_msg.to_s
 puts "-----------------------------"
-print " ---> Looking for reverts - complete and partial ."
+print " ---> Looking for reverts - complete and partial & cherry-picks."
 5.times { print "." ; sleep(1.0/10)}
 puts "\nLooked at # commits so far = "
 $stdout.reopen(stdout_filename, "w")
@@ -117,7 +117,7 @@ for i in start_target_history_count...end_target_history_count
   next_sha = next_commit.sha
 
   # Using the ruby-git gem for diff between commits
-  diff_bw_commits = rubygit_gem_repo.diff(prev_sha, next_sha)
+  diff_bw_commits = $rubygit_gem_repo.diff(prev_sha, next_sha)
 
   # FIXME: Can use Rugged gem for calculating diffs. Remember that the Rugged Gem doesn't provide stats for each diff
   # rugged_prev_commit = rugged_repo.lookup(prev_sha)
@@ -137,6 +137,7 @@ end
 
 # ----------------------------------------------------------------------------------
 # ------------------      CHECK FOR REVERTS       ----------------------------------
+# --------------------  & Find cherry picks  ---------------------------------------
 # ----------------------------------------------------------------------------------
 
 $stdout = old_stdout.dup
@@ -145,8 +146,12 @@ $stdout.reopen(stdout_filename, "w")
 
 full_reverts = 0
 partial_reverts = 0
+full_cps = 0
+partial_cps = 0
 
 # The final answer - Array of diff pairs
+cp_diffs = []
+partial_cp_diffs = []
 revert_diffs = []
 partial_revert_diffs = []
 
@@ -188,7 +193,7 @@ diffs_array.reverse_each do |diff|
     # TODO - Enhancement for partial reverts
     # next if stats_match == false
 
-    match, partial_match = CompareDiffPatch(diff, cmp_diff)
+    match, partial_match = CompareDiffPatch(diff, cmp_diff, {"cp"=>false, "revert"=>true})
     if match == true
       # Case 1: Full revert
       if partial_match.nil?
@@ -205,12 +210,33 @@ diffs_array.reverse_each do |diff|
         partial_revert_diffs << [ partial_revert_diff_pair, partial_match ]
       end
     end
+
+    match, partial_match = CompareDiffPatch(diff, cmp_diff, {"cp"=>true, "revert"=>false})
+    if match == true
+      # Case 1: Full cp
+      if partial_match.nil?
+        full_cps = full_cps + 1
+        cp_diff_pair = {}
+        cp_diff_pair[:diff] = diff
+        cp_diff_pair[:cmp_diff] = cmp_diff
+        cp_diffs << cp_diff_pair
+      else
+        partial_cps = partial_cps + 1
+        partial_cp_diff_pair = {}
+        partial_cp_diff_pair[:diff] = diff
+        partial_cp_diff_pair[:cmp_diff] = cmp_diff
+        partial_cp_diffs << [ partial_cp_diff_pair, partial_match ]
+      end
+    end
   end
 end
 
 $stdout = old_stdout.dup
 puts "# Reverts - complete = " + full_reverts.to_s
 puts "# Reverts - partial  = " + partial_reverts.to_s
+puts "-----------------------------"
+puts "# Cherry-picks - complete = " + full_cps.to_s
+puts "# Cherry-picks - partial  = " + partial_cps.to_s
 puts "-----------------------------"
 $stdout.reopen(stdout_filename, "w")
 
@@ -220,24 +246,26 @@ $stdout.reopen(stdout_filename, "w")
 
 reverts_log_file_name         = "RevertLogs/" + project_name + "-reverts.log"
 
-op_file = File.open(reverts_log_file_name, "w")
-num = 1
-op_file.puts "# of reverts = " + full_reverts.to_s
-revert_diffs.each do |revert_diff_pair|
-  diff = revert_diff_pair[:diff]
-  cmp_diff = revert_diff_pair[:cmp_diff]
-  op_file.puts("Revert diff pair #{num} is -> ")
-  op_file.puts("\{ #{cmp_diff.prev_commit_sha} -> #{cmp_diff.next_commit_sha} \} is a revert")
-  op_file.puts("\{ #{diff.prev_commit_sha} -> #{diff.next_commit_sha} \}")
-  op_file.puts("Revert commits SHA are -> ")
-  op_file.puts("#{cmp_diff.next_commit_sha} - revert - #{diff.next_commit_sha}")
-  op_file.puts("The reverted commit sha is - #{cmp_diff.next_commit_sha}")
-  op_file.puts("Commit message - " + rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message)
-  op_file.puts("The original commit sha is - " + diff.next_commit_sha.to_s)
-  op_file.puts("Commit message - " + rugged_repo.lookup("#{diff.next_commit_sha}").message)
-  op_file.puts("-----------------------------------------------------------------")
-  op_file.puts "\n"
-  num = num.succ
+if full_reverts > 0
+  op_file = File.open(reverts_log_file_name, "w")
+  num = 1
+  op_file.puts "# of reverts = " + full_reverts.to_s
+  revert_diffs.each do |revert_diff_pair|
+    diff = revert_diff_pair[:diff]
+    cmp_diff = revert_diff_pair[:cmp_diff]
+    op_file.puts("Revert diff pair #{num} is -> ")
+    op_file.puts("\{ #{cmp_diff.prev_commit_sha} -> #{cmp_diff.next_commit_sha} \} is a revert")
+    op_file.puts("\{ #{diff.prev_commit_sha} -> #{diff.next_commit_sha} \}")
+    op_file.puts("Revert commits SHA are -> ")
+    op_file.puts("#{cmp_diff.next_commit_sha} - revert - #{diff.next_commit_sha}")
+    op_file.puts("The reverted commit sha is - #{cmp_diff.next_commit_sha}")
+    op_file.puts("Commit message - " + $rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message)
+    op_file.puts("The original commit sha is - " + diff.next_commit_sha.to_s)
+    op_file.puts("Commit message - " + $rugged_repo.lookup("#{diff.next_commit_sha}").message)
+    op_file.puts("-----------------------------------------------------------------")
+    op_file.puts "\n"
+    num = num.succ
+  end
 end
 
 # ----------------------------------------------------------------------------------
@@ -259,10 +287,67 @@ if partial_reverts > 0
     op_file.puts("Partial Revert commits SHA are -> ")
     op_file.puts("#{cmp_diff.next_commit_sha} - revert - #{diff.next_commit_sha}")
     op_file.puts("The reverted commit sha is - #{cmp_diff.next_commit_sha}")
-    op_file.puts("Commit message - " + rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message)
+    op_file.puts("Commit message - " + $rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message)
     op_file.puts("The original commit sha is - " + diff.next_commit_sha.to_s)
-    op_file.puts("Commit message - " + rugged_repo.lookup("#{diff.next_commit_sha}").message)
+    op_file.puts("Commit message - " + $rugged_repo.lookup("#{diff.next_commit_sha}").message)
     op_file.puts("The files with partial_reverts are:-")
+    op_file.puts(partial_match)
+    op_file.puts("-----------------------------------------------------------------")
+    op_file.puts "\n"
+    num = num.succ
+  end
+end
+
+# ----------------------------------------------------------------------------------
+# ---------------------   Output Complete Cherry-picks   ---------------------------
+# ----------------------------------------------------------------------------------
+
+full_cps_log_file_name         = "RevertLogs/" + project_name + "-cherry-picks.log"
+
+if full_cps > 0
+  op_file = File.open(full_cps_log_file_name, "w")
+  num = 1
+  op_file.puts "# of cherry-picks = " + full_cps.to_s
+  cp_diffs.each do |cherrypick_diff_pair|
+    diff = cherrypick_diff_pair[:diff]
+    cmp_diff = cherrypick_diff_pair[:cmp_diff]
+    op_file.puts("Cherry-pick diff pair #{num} is -> ")
+    op_file.puts("\{ #{cmp_diff.prev_commit_sha} -> #{cmp_diff.next_commit_sha} \} is a cherrypick")
+    op_file.puts("\{ #{diff.prev_commit_sha} -> #{diff.next_commit_sha} \}")
+    op_file.puts("Cherrypick commits SHA are -> ")
+    op_file.puts("#{cmp_diff.next_commit_sha} - cherrypick - #{diff.next_commit_sha}")
+    op_file.puts("The cherrypicked commit sha is - #{cmp_diff.next_commit_sha}")
+    op_file.puts("Commit message - " + $rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message)
+    op_file.puts("The original commit sha is - " + diff.next_commit_sha.to_s)
+    op_file.puts("Commit message - " + $rugged_repo.lookup("#{diff.next_commit_sha}").message)
+    op_file.puts("-----------------------------------------------------------------")
+    op_file.puts "\n"
+    num = num.succ
+  end
+end
+# ----------------------------------------------------------------------------------
+# ----------------------   Output Partial Reverts   --------------------------------
+# ----------------------------------------------------------------------------------
+
+partial_cherrypicks_log_file_name = "RevertLogs/" + project_name + "-partial-cherrypicks.log"
+
+if partial_cps > 0
+  op_file = File.open(partial_cherrypicks_log_file_name, "w")
+  num = 1
+  op_file.puts "# of partial cherrypicks = " + partial_cherrypicks.to_s
+  partial_cp_diffs.each do |partial_cherrypick_diff_pair, partial_match|
+    diff = partial_cherrypick_diff_pair[:diff]
+    cmp_diff = partial_cherrypick_diff_pair[:cmp_diff]
+    op_file.puts("Partial Cherry-pick diff pair #{num} is -> ")
+    op_file.puts("\{ #{cmp_diff.prev_commit_sha} -> #{cmp_diff.next_commit_sha} \} is a cherrypick")
+    op_file.puts("\{ #{diff.prev_commit_sha} -> #{diff.next_commit_sha} \}")
+    op_file.puts("Partial Cherry-pick commits SHA are -> ")
+    op_file.puts("#{cmp_diff.next_commit_sha} - cherrypick - #{diff.next_commit_sha}")
+    op_file.puts("The cherrypicked commit sha is - #{cmp_diff.next_commit_sha}")
+    op_file.puts("Commit message - " + $rugged_repo.lookup("#{cmp_diff.next_commit_sha}").message)
+    op_file.puts("The original commit sha is - " + diff.next_commit_sha.to_s)
+    op_file.puts("Commit message - " + $rugged_repo.lookup("#{diff.next_commit_sha}").message)
+    op_file.puts("The files with partial_cherrypicks are:-")
     op_file.puts(partial_match)
     op_file.puts("-----------------------------------------------------------------")
     op_file.puts "\n"
