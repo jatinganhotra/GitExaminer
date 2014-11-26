@@ -4,11 +4,11 @@ Revert diff pair 1 is ->
 { 8760e970db76930d6656c74d29345c428813a08d -> 26dfefc7d54d2b14fdb8320f6e6e69f2cebb08eb }
 Revert commits SHA are -> 
 9a85ff2d5722b68ef7ed1f36910119d538da86bc - revert - 26dfefc7d54d2b14fdb8320f6e6e69f2cebb08eb
-The reverted commit sha is - 9a85ff2d5722b68ef7ed1f36910119d538da86bc
+---> The reverted commit sha is - 9a85ff2d5722b68ef7ed1f36910119d538da86bc
 Commit message - Simplify constraints used to layout document window
 
 We now do the core layout with priorities that allow optional elements to insert themselves between existing elements.
-The original commit sha is - 26dfefc7d54d2b14fdb8320f6e6e69f2cebb08eb
+---> The original commit sha is - 26dfefc7d54d2b14fdb8320f6e6e69f2cebb08eb
 Commit message - Revert "Simplify constraints used to layout document window"
 
 This reverts commit 9a85ff2d5722b68ef7ed1f36910119d538da86bc.
@@ -21,11 +21,11 @@ Revert diff pair 2 is ->
 { 2b2a20b9b7136180429db37386a936a6bb62b809 -> f05f77909e2639b8c585ec8627407317859af3f6 }
 Revert commits SHA are -> 
 adb27416898f68f45421e9a718b9a41767452192 - revert - f05f77909e2639b8c585ec8627407317859af3f6
-The reverted commit sha is - adb27416898f68f45421e9a718b9a41767452192
+---> The reverted commit sha is - adb27416898f68f45421e9a718b9a41767452192
 Commit message - Remove non-UTF-8 from clipboard data
 
 It should be safe to assume that clipboard data is valid UTF-8, but I’m seeing crashes related to creating a CFString (from buffer content) after a paste operation, so the assumption might not be valid.
-The original commit sha is - f05f77909e2639b8c585ec8627407317859af3f6
+---> The original commit sha is - f05f77909e2639b8c585ec8627407317859af3f6
 Commit message - No need to sanitize UTF-8 data in editor_t::paste
 
 We now have the clipboard_t::entry_t ensure that the data is UTF-8.
@@ -36,13 +36,13 @@ Revert diff pair 3 is ->
 { 69c83e56df2ce542238f1bb1f25ea618f4d2fe70 -> afdebfa57633a323f0cde177358f8160ca7a7c7b }
 Revert commits SHA are -> 
 3a25a99d6d5a31cb05ec97ab98615aa0ca98cb2f - revert - afdebfa57633a323f0cde177358f8160ca7a7c7b
-The reverted commit sha is - 3a25a99d6d5a31cb05ec97ab98615aa0ca98cb2f
+---> The reverted commit sha is - 3a25a99d6d5a31cb05ec97ab98615aa0ca98cb2f
 Commit message - Variables set via requiredCommands are now shell escaped
 
 Additionally we expect that any variable the user has set is properly shell escaped. Though this is only relevant if the value contains spaces or escape characters.
 
 Currently bundle commands has not been updated to assume that the variables are already shell escaped, so this commit can cause issues with existing bundles.
-The original commit sha is - afdebfa57633a323f0cde177358f8160ca7a7c7b
+---> The original commit sha is - afdebfa57633a323f0cde177358f8160ca7a7c7b
 Commit message - Revert "Variables set via requiredCommands are now shell escaped"
 
 This reverts commit 3a25a99d6d5a31cb05ec97ab98615aa0ca98cb2f.
@@ -53,9 +53,9 @@ Revert diff pair 4 is ->
 { 7f11230655c8f7be44cbed98aaa7115eeb09c285 -> fb036b840c404adaf874254e94f7309be9b30034 }
 Revert commits SHA are -> 
 f96cc63c1c116e79b45f22e21c57f5c94794e384 - revert - fb036b840c404adaf874254e94f7309be9b30034
-The reverted commit sha is - f96cc63c1c116e79b45f22e21c57f5c94794e384
+---> The reverted commit sha is - f96cc63c1c116e79b45f22e21c57f5c94794e384
 Commit message - Add a Bitdeli badge to README
-The original commit sha is - fb036b840c404adaf874254e94f7309be9b30034
+---> The original commit sha is - fb036b840c404adaf874254e94f7309be9b30034
 Commit message - Remove bitdeli badge
 
 This no longer works, and GitHub offers traffic analysis under “Graphs”.
@@ -66,13 +66,13 @@ Revert diff pair 5 is ->
 { e197c48382c2ce4c6e8f1a9d8c0a797fd4f28f1b -> 8ff36f3402d4b28372d8d265b8b4ccfb1f87ccf4 }
 Revert commits SHA are -> 
 434917b1e968072ae4f16c5b58f3d27ab08fd961 - revert - 8ff36f3402d4b28372d8d265b8b4ccfb1f87ccf4
-The reverted commit sha is - 434917b1e968072ae4f16c5b58f3d27ab08fd961
+---> The reverted commit sha is - 434917b1e968072ae4f16c5b58f3d27ab08fd961
 Commit message - Use custom script to simulate “codesign --deep”
 
 The problem is that with a bad internet connection there is a very high probability that “codesign --deep” will fail due to having to contact the timestamp server for each embedded executable object.
 
 Long-term we probably want to sign the sub-targets as they are produced and/or link the entire thing together so that there is only a single sign target (plus embedded plug-ins).
-The original commit sha is - 8ff36f3402d4b28372d8d265b8b4ccfb1f87ccf4
+---> The original commit sha is - 8ff36f3402d4b28372d8d265b8b4ccfb1f87ccf4
 Commit message - Revert "Use custom script to simulate “codesign --deep”"
 
 This reverts commit 434917b1e968072ae4f16c5b58f3d27ab08fd961.
@@ -83,9 +83,9 @@ Revert diff pair 6 is ->
 { d94a4b648469d3ba53a30380baf149fcf87fd1f9 -> 8c1dd5fc062a6837434c820324603597da284231 }
 Revert commits SHA are -> 
 ee43777c3a3dcfc2cfc435f2ff415f2abc2c573a - revert - 8c1dd5fc062a6837434c820324603597da284231
-The reverted commit sha is - ee43777c3a3dcfc2cfc435f2ff415f2abc2c573a
+---> The reverted commit sha is - ee43777c3a3dcfc2cfc435f2ff415f2abc2c573a
 Commit message - Use GCD to perform concurrent rule matching
-The original commit sha is - 8c1dd5fc062a6837434c820324603597da284231
+---> The original commit sha is - 8c1dd5fc062a6837434c820324603597da284231
 Commit message - Don’t use GCD for regexp matching
 
 Using GCD actually makes the code slower — it might have to do with locking overhead from std::shared_ptr and onig_region_new/region_free.
@@ -98,9 +98,9 @@ Revert diff pair 7 is ->
 { 00c5f8531ef06340cad157b003e0277bfb20245b -> 5e5bbc468fcc70d4bf4d787f3d9ca83a9f33f1c7 }
 Revert commits SHA are -> 
 5e6cfe8e1ef990d24100c4859c25948d37c8ee04 - revert - 5e5bbc468fcc70d4bf4d787f3d9ca83a9f33f1c7
-The reverted commit sha is - 5e6cfe8e1ef990d24100c4859c25948d37c8ee04
+---> The reverted commit sha is - 5e6cfe8e1ef990d24100c4859c25948d37c8ee04
 Commit message - The 10th tab now get ⌘0 as key equivalent
-The original commit sha is - 5e5bbc468fcc70d4bf4d787f3d9ca83a9f33f1c7
+---> The original commit sha is - 5e5bbc468fcc70d4bf4d787f3d9ca83a9f33f1c7
 Commit message - Revert "The 10th tab now get ⌘0 as key equivalent"
 
 This commit made the 11th tab get ⌘1 as key equivalent. Fixes #1078.
@@ -113,11 +113,11 @@ Revert diff pair 8 is ->
 { 63b86c522111354de13f19132522da7dc061f40f -> 49a424438c75d3bd436005a452cdbc3384f53c5d }
 Revert commits SHA are -> 
 fc419f5332a25e3b4249684446f0c66270d1075b - revert - 49a424438c75d3bd436005a452cdbc3384f53c5d
-The reverted commit sha is - fc419f5332a25e3b4249684446f0c66270d1075b
+---> The reverted commit sha is - fc419f5332a25e3b4249684446f0c66270d1075b
 Commit message - Apply injections from child rules without match pattern
 
 This is useful when including a grammar and its injections needs to be applied.
-The original commit sha is - 49a424438c75d3bd436005a452cdbc3384f53c5d
+---> The original commit sha is - 49a424438c75d3bd436005a452cdbc3384f53c5d
 Commit message - Revert "Apply injections from child rules without match pattern"
 
 This reverts commit fc419f5332a25e3b4249684446f0c66270d1075b.
@@ -128,13 +128,13 @@ Revert diff pair 9 is ->
 { 9af77ef3ab6248084d91647bb1b9cf96681c2871 -> 17bdfd0ad721ac8598089eab0acc915c163badf3 }
 Revert commits SHA are -> 
 619c19e8ed348ad9386dd2c54c9aad19d08fdc4f - revert - 17bdfd0ad721ac8598089eab0acc915c163badf3
-The reverted commit sha is - 619c19e8ed348ad9386dd2c54c9aad19d08fdc4f
+---> The reverted commit sha is - 619c19e8ed348ad9386dd2c54c9aad19d08fdc4f
 Commit message - Space can be used instead of slash in file chooser (⌘T)
 
 This enables full path search.
 
 Closes #893.
-The original commit sha is - 17bdfd0ad721ac8598089eab0acc915c163badf3
+---> The original commit sha is - 17bdfd0ad721ac8598089eab0acc915c163badf3
 Commit message - Revert "Space can be used instead of slash in file chooser (⌘T)"
 
 Several people dislike the change (see issue #893) and the commit didn’t introduce new functionality per se: full path searching is still available when explicitly typing a slash.
@@ -147,11 +147,11 @@ Revert diff pair 10 is ->
 { 18998cba53fafb8353ba3cd1a432f4e595e524e3 -> 2df0f7aa51e203543a9411ceb04b00d1b6e2597f }
 Revert commits SHA are -> 
 1c164e3ce02465fd197463c0a72dfd804dd4b83e - revert - 2df0f7aa51e203543a9411ceb04b00d1b6e2597f
-The reverted commit sha is - 1c164e3ce02465fd197463c0a72dfd804dd4b83e
+---> The reverted commit sha is - 1c164e3ce02465fd197463c0a72dfd804dd4b83e
 Commit message - Do not timestamp our code signing
 
 This means that the signature will be invalid when the certificate expires, though it also means that codesign runs faster, and as my certificate is valid for another 4 years, people shouldn’t be using the builds released today when the certificate expires.
-The original commit sha is - 2df0f7aa51e203543a9411ceb04b00d1b6e2597f
+---> The original commit sha is - 2df0f7aa51e203543a9411ceb04b00d1b6e2597f
 Commit message - Revert "Do not timestamp our code signing"
 
 Some users have reported issues opening TextMate: Finder tells them the program is corrupt and should be moved to trash. If the user adds his own (ah hoc) signature, then no such dialog is shown.
@@ -164,11 +164,11 @@ Revert diff pair 11 is ->
 { 54bf2be75fe841de57cc63d421775eb7599ad06b -> 2ef3d52a3db11108493821fa2454687ebedda462 }
 Revert commits SHA are -> 
 709882fa5314b8628a7e013d4d1ae0b13ab9fdeb - revert - 2ef3d52a3db11108493821fa2454687ebedda462
-The reverted commit sha is - 709882fa5314b8628a7e013d4d1ae0b13ab9fdeb
+---> The reverted commit sha is - 709882fa5314b8628a7e013d4d1ae0b13ab9fdeb
 Commit message - Drag-selecting beyond visible document lacked refresh
 
 This closes issue #297.
-The original commit sha is - 2ef3d52a3db11108493821fa2454687ebedda462
+---> The original commit sha is - 2ef3d52a3db11108493821fa2454687ebedda462
 Commit message - Remove unnecessary refresh from performKeyEquivalent:
 -----------------------------------------------------------------
 
@@ -177,11 +177,11 @@ Revert diff pair 12 is ->
 { 6eca51ab33e3d707fb8f7b22b3ec5f15111b2495 -> 6c6ba400ffb1809d77cacdf01bf30ecc208dd9cb }
 Revert commits SHA are -> 
 4e2ae3c50879b44568b4d7a6371ae604290856e0 - revert - 6c6ba400ffb1809d77cacdf01bf30ecc208dd9cb
-The reverted commit sha is - 4e2ae3c50879b44568b4d7a6371ae604290856e0
+---> The reverted commit sha is - 4e2ae3c50879b44568b4d7a6371ae604290856e0
 Commit message - Don’t refresh gutter from OakTextView
 
 I suspect that this was added because some operations were not properly detected, though the only thing I can find, that doesn’t properly update the gutter, is when deleting folded code in a way that doesn’t change the bounds of the text view. This code however does not address that issue.
-The original commit sha is - 6c6ba400ffb1809d77cacdf01bf30ecc208dd9cb
+---> The original commit sha is - 6c6ba400ffb1809d77cacdf01bf30ecc208dd9cb
 Commit message - Revert "Don’t refresh gutter from OakTextView"
 
 Turns out this is required in the situation where the document occupy less space than the visible document rect.
@@ -198,13 +198,13 @@ Revert diff pair 13 is ->
 { f370ee13e4185472ac9351e02ff9b3dbddac2e5e -> 236c608e867effeceacddea5c82632cb78c22601 }
 Revert commits SHA are -> 
 c98bc92b5d935ce07ec8a87df626e92df711ec38 - revert - 236c608e867effeceacddea5c82632cb78c22601
-The reverted commit sha is - c98bc92b5d935ce07ec8a87df626e92df711ec38
+---> The reverted commit sha is - c98bc92b5d935ce07ec8a87df626e92df711ec38
 Commit message - Accept HTTP/1.1 response in network tests
 
 GlimmerBlocker (http://GlimmerBlocker.org) and other proxies may intercept the web data and replace the HTTP/1.0 response with a HTTP/1.1 response.
 
 Modified test to accept either.
-The original commit sha is - 236c608e867effeceacddea5c82632cb78c22601
+---> The original commit sha is - 236c608e867effeceacddea5c82632cb78c22601
 Commit message - Revert "Accept HTTP/1.1 response in network tests"
 
 Since we bypass the system’s proxy for localhost, no-one should modify our test server’s response.

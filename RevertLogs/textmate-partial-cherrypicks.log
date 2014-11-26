@@ -1,0 +1,31 @@
+# of partial cherrypicks = 2
+Partial Cherry-pick diff pair 1 is -> 
+{ 5aaebb9e25e3294b7daedd9777ff1b653b5e9190 -> e5c2daa05a9e6fa739816ff26281f7e2f48f602e } is a cherrypick
+{ d082f38813fffd236fc624e353c89a113b86f3c2 -> 5b9685fafa34807960593a424464d4bc80105166 }
+Partial Cherry-pick commits SHA are -> 
+e5c2daa05a9e6fa739816ff26281f7e2f48f602e - cherrypick - 5b9685fafa34807960593a424464d4bc80105166
+---> The cherrypicked commit sha is - e5c2daa05a9e6fa739816ff26281f7e2f48f602e
+Commit message - Revert "Use current document when no URL given in txmt URL"
+
+Pending improved implementation which also handle the case where frontmost document is untitled.
+
+This reverts commit 2beac7080b810ad9442b4e182e63f7eab6fcbedb.
+---> The original commit sha is - 5b9685fafa34807960593a424464d4bc80105166
+Commit message - Remove unused method
+---> The files with partial_cherrypicks are:-
+Frameworks/DocumentWindow/src/DocumentController.mm
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ a166ad481c294207d0e4fc35efa45546bcfb1a3c -> 879cb2e777a050a006d0bc0f6605273fea9c3d11 } is a cherrypick
+{ d082f38813fffd236fc624e353c89a113b86f3c2 -> 5b9685fafa34807960593a424464d4bc80105166 }
+Partial Cherry-pick commits SHA are -> 
+879cb2e777a050a006d0bc0f6605273fea9c3d11 - cherrypick - 5b9685fafa34807960593a424464d4bc80105166
+---> The cherrypicked commit sha is - 879cb2e777a050a006d0bc0f6605273fea9c3d11
+Commit message - Remove unused method
+---> The original commit sha is - 5b9685fafa34807960593a424464d4bc80105166
+Commit message - Remove unused method
+---> The files with partial_cherrypicks are:-
+Frameworks/DocumentWindow/src/DocumentController.mm
+-----------------------------------------------------------------
+

@@ -1,0 +1,2184 @@
+# of partial cherrypicks = 105
+Partial Cherry-pick diff pair 1 is -> 
+{ 069504306aba026748d76ac2ba45b412047e977c -> f98def332cc96fd52d2e99349fc967c04544ecc3 } is a cherrypick
+{ 1adadfb83cef01156784030cfc4c87723a691680 -> 2ff006a07fe9c3c3428b374feb136978103cc9ea }
+Partial Cherry-pick commits SHA are -> 
+f98def332cc96fd52d2e99349fc967c04544ecc3 - cherrypick - 2ff006a07fe9c3c3428b374feb136978103cc9ea
+---> The cherrypicked commit sha is - f98def332cc96fd52d2e99349fc967c04544ecc3
+Commit message - Project picker is back, (Command-Shift-O/Ctrl-Shift-O) and focuses a project when it's already open (effectively functioning as a fast window switcher, partial fix for #449.
+---> The original commit sha is - 2ff006a07fe9c3c3428b374feb136978103cc9ea
+Commit message - Merge pull request #452 from lalomartins/all-ace-modules
+
+All ace modules
+---> The files with partial_cherrypicks are:-
+app/background.chrome.js
+app/background.nw.js
+app/config/default/keys.json
+app/js/auto_update.nw.js
+app/js/boot.js
+app/js/command.js
+app/js/config.js
+app/js/editor.js
+app/js/lib/filter_list.js
+app/js/open_ui.js
+app/js/project.js
+app/js/window.chrome.js
+app/js/window.nw.js
+app/js/window_commands.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ 069504306aba026748d76ac2ba45b412047e977c -> f98def332cc96fd52d2e99349fc967c04544ecc3 } is a cherrypick
+{ 4ae22f27f47c6a542d3846aaf409dc9a74216374 -> 4e67034eb45c7f5dda1f849761a3bf47625075f4 }
+Partial Cherry-pick commits SHA are -> 
+f98def332cc96fd52d2e99349fc967c04544ecc3 - cherrypick - 4e67034eb45c7f5dda1f849761a3bf47625075f4
+---> The cherrypicked commit sha is - f98def332cc96fd52d2e99349fc967c04544ecc3
+Commit message - Project picker is back, (Command-Shift-O/Ctrl-Shift-O) and focuses a project when it's already open (effectively functioning as a fast window switcher, partial fix for #449.
+---> The original commit sha is - 4e67034eb45c7f5dda1f849761a3bf47625075f4
+Commit message - removing redundant modes
+---> The files with partial_cherrypicks are:-
+app/config/default/mode/c9search.json
+app/config/default/mode/jsx.json
+app/config/default/mode/php.json
+app/config/default/mode/snippets.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 77ca2541251e25e75981590c13eb3dbe5b13e177 -> 1b5c78589b3a0e41746a4c54525ac480973086af } is a cherrypick
+{ 233c4102fda2e7fd1311fa81f273cd63cee163bd -> 74f1efca89ab098f5f1ef5c803e8ef58a7f78300 }
+Partial Cherry-pick commits SHA are -> 
+1b5c78589b3a0e41746a4c54525ac480973086af - cherrypick - 74f1efca89ab098f5f1ef5c803e8ef58a7f78300
+---> The cherrypicked commit sha is - 1b5c78589b3a0e41746a4c54525ac480973086af
+Commit message - Exclude git and DS_Store when not in project root
+
+Make git and DS_Store files excluded by default, even when they are not at the root of the project.
+---> The original commit sha is - 74f1efca89ab098f5f1ef5c803e8ef58a7f78300
+Commit message - Applied #430 by knitatoms
+---> The files with partial_cherrypicks are:-
+app/config/default/preferences.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ cbd507595033690cf4c4f8395d9dfcce323a1775 -> c208ffc698a1887aafef74db11e772ac693ed279 } is a cherrypick
+{ b52f8fc5324aa2fd09086b0c3f8120c209f343f9 -> 352fc23930b0dac7962c2f011ae98565dcefc74f }
+Partial Cherry-pick commits SHA are -> 
+c208ffc698a1887aafef74db11e772ac693ed279 - cherrypick - 352fc23930b0dac7962c2f011ae98565dcefc74f
+---> The cherrypicked commit sha is - c208ffc698a1887aafef74db11e772ac693ed279
+Commit message - Improved Github set token window
+---> The original commit sha is - 352fc23930b0dac7962c2f011ae98565dcefc74f
+Commit message - Improved Github set token window
+---> The files with partial_cherrypicks are:-
+app/github/set_token.html
+app/github/set_token.js
+app/js/lib/filter_list.js
+app/js/open.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ d56b39d2ef3afe075338d34bd2e91678713f2e61 -> 29965533b3f27f50b26f59c93da97dbd1f50f130 } is a cherrypick
+{ 31bcdcdde6be9bfc24897bb207350d69ec4216e6 -> b52f8fc5324aa2fd09086b0c3f8120c209f343f9 }
+Partial Cherry-pick commits SHA are -> 
+29965533b3f27f50b26f59c93da97dbd1f50f130 - cherrypick - b52f8fc5324aa2fd09086b0c3f8120c209f343f9
+---> The cherrypicked commit sha is - 29965533b3f27f50b26f59c93da97dbd1f50f130
+Commit message - Fix base64 decode with newline
+---> The original commit sha is - b52f8fc5324aa2fd09086b0c3f8120c209f343f9
+Commit message - Moved the zedrem user key into the token store so it's not visible in
+your user preferences.
+Important:
+* The "zedrem"/* preferences will now be ignored (you can remove it)
+* A new user key will be generated, retrieve it with the
+  "Configuration:Zedrem:Get User Key" command
+* To change the zedrem server to connect to, override the "zedremServer"
+  preference.
+---> The files with partial_cherrypicks are:-
+app/css/open.css
+app/js/config.js
+app/open.chrome.html
+app/open.nw.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 8222b6e04572965b11cbb8b81e4627655467e78b -> 0bd047fd24753cd53519963ef4cd5e06933de485 } is a cherrypick
+{ 310c36a7309e77fbfca4814b631486ee166ff104 -> 31bcdcdde6be9bfc24897bb207350d69ec4216e6 }
+Partial Cherry-pick commits SHA are -> 
+0bd047fd24753cd53519963ef4cd5e06933de485 - cherrypick - 31bcdcdde6be9bfc24897bb207350d69ec4216e6
+---> The cherrypicked commit sha is - 0bd047fd24753cd53519963ef4cd5e06933de485
+Commit message - Better UI for Github
+---> The original commit sha is - 31bcdcdde6be9bfc24897bb207350d69ec4216e6
+Commit message - Better UI for Github
+---> The files with partial_cherrypicks are:-
+app/github/nw_init.js
+app/github/nw_init2.js
+app/github/open.html
+app/github/open.js
+app/github/set_token.html
+app/github/set_token.js
+app/js/lib/filter_list.js
+app/js/lib/icons.js
+app/js/lib/url_extractor.js
+app/js/open.boot.js
+app/js/open.js
+app/js/token_store.nw.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ d56b39d2ef3afe075338d34bd2e91678713f2e61 -> 29965533b3f27f50b26f59c93da97dbd1f50f130 } is a cherrypick
+{ 310c36a7309e77fbfca4814b631486ee166ff104 -> 31bcdcdde6be9bfc24897bb207350d69ec4216e6 }
+Partial Cherry-pick commits SHA are -> 
+29965533b3f27f50b26f59c93da97dbd1f50f130 - cherrypick - 31bcdcdde6be9bfc24897bb207350d69ec4216e6
+---> The cherrypicked commit sha is - 29965533b3f27f50b26f59c93da97dbd1f50f130
+Commit message - Fix base64 decode with newline
+---> The original commit sha is - 31bcdcdde6be9bfc24897bb207350d69ec4216e6
+Commit message - Better UI for Github
+---> The files with partial_cherrypicks are:-
+app/github/nw_init.js
+app/github/nw_init2.js
+app/github/open.html
+app/js/lib/icons.js
+app/js/lib/url_extractor.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ 1b5c78589b3a0e41746a4c54525ac480973086af -> 8222b6e04572965b11cbb8b81e4627655467e78b } is a cherrypick
+{ 1079402bb36afb5340fab99c6c1f9eab08359829 -> 310c36a7309e77fbfca4814b631486ee166ff104 }
+Partial Cherry-pick commits SHA are -> 
+8222b6e04572965b11cbb8b81e4627655467e78b - cherrypick - 310c36a7309e77fbfca4814b631486ee166ff104
+---> The cherrypicked commit sha is - 8222b6e04572965b11cbb8b81e4627655467e78b
+Commit message - Github fs, new token store (for storing secret-ish credentials).
+---> The original commit sha is - 310c36a7309e77fbfca4814b631486ee166ff104
+Commit message - Github fs, new token store (for storing secret-ish credentials).
+---> The files with partial_cherrypicks are:-
+app/config/api/zed/ui.js
+app/js/fs/github.js
+app/js/fs/poll_watcher.js
+app/js/fs_picker.js
+app/js/menu.js
+app/js/open.boot.js
+app/js/sandbox.chrome.js
+app/js/sandbox.nw.js
+app/js/sandbox/zed/ui.js
+app/js/token_store.chrome.js
+app/js/token_store.nw.js
+app/js/version_control.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ d56b39d2ef3afe075338d34bd2e91678713f2e61 -> 29965533b3f27f50b26f59c93da97dbd1f50f130 } is a cherrypick
+{ 1079402bb36afb5340fab99c6c1f9eab08359829 -> 310c36a7309e77fbfca4814b631486ee166ff104 }
+Partial Cherry-pick commits SHA are -> 
+29965533b3f27f50b26f59c93da97dbd1f50f130 - cherrypick - 310c36a7309e77fbfca4814b631486ee166ff104
+---> The cherrypicked commit sha is - 29965533b3f27f50b26f59c93da97dbd1f50f130
+Commit message - Fix base64 decode with newline
+---> The original commit sha is - 310c36a7309e77fbfca4814b631486ee166ff104
+Commit message - Github fs, new token store (for storing secret-ish credentials).
+---> The files with partial_cherrypicks are:-
+app/config/api/zed/ui.js
+app/js/fs/poll_watcher.js
+app/js/fs_picker.js
+app/js/menu.js
+app/js/sandbox.chrome.js
+app/js/sandbox.nw.js
+app/js/sandbox/zed/ui.js
+app/js/token_store.chrome.js
+app/js/version_control.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 1b5c78589b3a0e41746a4c54525ac480973086af -> 8222b6e04572965b11cbb8b81e4627655467e78b } is a cherrypick
+{ bb2aa179d0db0fb08cf2e2186a97df450a14aa93 -> 1079402bb36afb5340fab99c6c1f9eab08359829 }
+Partial Cherry-pick commits SHA are -> 
+8222b6e04572965b11cbb8b81e4627655467e78b - cherrypick - 1079402bb36afb5340fab99c6c1f9eab08359829
+---> The cherrypicked commit sha is - 8222b6e04572965b11cbb8b81e4627655467e78b
+Commit message - Github fs, new token store (for storing secret-ish credentials).
+---> The original commit sha is - 1079402bb36afb5340fab99c6c1f9eab08359829
+Commit message - Exposed web server functionality via sandbox API and node-webkit support
+(via express).
+---> The files with partial_cherrypicks are:-
+app/config/api/zed/http.js
+app/package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ d56b39d2ef3afe075338d34bd2e91678713f2e61 -> 29965533b3f27f50b26f59c93da97dbd1f50f130 } is a cherrypick
+{ bb2aa179d0db0fb08cf2e2186a97df450a14aa93 -> 1079402bb36afb5340fab99c6c1f9eab08359829 }
+Partial Cherry-pick commits SHA are -> 
+29965533b3f27f50b26f59c93da97dbd1f50f130 - cherrypick - 1079402bb36afb5340fab99c6c1f9eab08359829
+---> The cherrypicked commit sha is - 29965533b3f27f50b26f59c93da97dbd1f50f130
+Commit message - Fix base64 decode with newline
+---> The original commit sha is - 1079402bb36afb5340fab99c6c1f9eab08359829
+Commit message - Exposed web server functionality via sandbox API and node-webkit support
+(via express).
+---> The files with partial_cherrypicks are:-
+app/config/api/zed/http.js
+app/package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 7db127d4eaba650f325dd8895031f78db81fb956 -> d56b39d2ef3afe075338d34bd2e91678713f2e61 } is a cherrypick
+{ 29965533b3f27f50b26f59c93da97dbd1f50f130 -> bb2aa179d0db0fb08cf2e2186a97df450a14aa93 }
+Partial Cherry-pick commits SHA are -> 
+d56b39d2ef3afe075338d34bd2e91678713f2e61 - cherrypick - bb2aa179d0db0fb08cf2e2186a97df450a14aa93
+---> The cherrypicked commit sha is - d56b39d2ef3afe075338d34bd2e91678713f2e61
+Commit message - Added underscore.js to README
+---> The original commit sha is - bb2aa179d0db0fb08cf2e2186a97df450a14aa93
+Commit message - Initial work on embedded webserver (Chrome only).
+---> The files with partial_cherrypicks are:-
+README.md
+app/config/api/zed/http.js
+app/config/api/zed/ui.js
+app/css/open.css
+app/github/nw_init.js
+app/github/nw_init2.js
+app/github/open.html
+app/github/open.js
+app/github/set_token.html
+app/github/set_token.js
+app/js/boot.js
+app/js/config.js
+app/js/fs/poll_watcher.js
+app/js/fs_picker.js
+app/js/lib/filter_list.js
+app/js/lib/icons.js
+app/js/lib/url_extractor.js
+app/js/menu.js
+app/js/open.boot.js
+app/js/open.js
+app/js/sandbox.chrome.js
+app/js/sandbox.nw.js
+app/js/sandbox/zed/http.js
+app/js/sandbox/zed/ui.js
+app/js/token_store.chrome.js
+app/js/token_store.nw.js
+app/js/version_control.js
+app/js/webserver.nw.js
+app/js/webservers.js
+app/open.chrome.html
+app/open.nw.html
+app/package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ da5595b0a09d9dc17c87a2b4c1164cc35909f73b -> dcba37f752207cbd5e4d02b13b4dcb1931169897 } is a cherrypick
+{ 20160c8c73b45ee1a13c0c071307c9282a925a8b -> 0bfdabe5d86a8990c7ca8668505bef2e10c68be3 }
+Partial Cherry-pick commits SHA are -> 
+dcba37f752207cbd5e4d02b13b4dcb1931169897 - cherrypick - 0bfdabe5d86a8990c7ca8668505bef2e10c68be3
+---> The cherrypicked commit sha is - dcba37f752207cbd5e4d02b13b4dcb1931169897
+Commit message - Fixed first slew of obvious bugs.
+---> The original commit sha is - 0bfdabe5d86a8990c7ca8668505bef2e10c68be3
+Commit message - Fixed first slew of obvious bugs.
+---> The files with partial_cherrypicks are:-
+app/config/all
+app/js/open.boot.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 6c6f334f5702310658fd5be6ba395d5c09f56d63 -> 9426db867e7cfd88a7609d89c763594dc8fefcbf } is a cherrypick
+{ 20160c8c73b45ee1a13c0c071307c9282a925a8b -> 0bfdabe5d86a8990c7ca8668505bef2e10c68be3 }
+Partial Cherry-pick commits SHA are -> 
+9426db867e7cfd88a7609d89c763594dc8fefcbf - cherrypick - 0bfdabe5d86a8990c7ca8668505bef2e10c68be3
+---> The cherrypicked commit sha is - 9426db867e7cfd88a7609d89c763594dc8fefcbf
+Commit message - Ready to dogfood
+---> The original commit sha is - 0bfdabe5d86a8990c7ca8668505bef2e10c68be3
+Commit message - Fixed first slew of obvious bugs.
+---> The files with partial_cherrypicks are:-
+app/js/open.boot.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ da5595b0a09d9dc17c87a2b4c1164cc35909f73b -> dcba37f752207cbd5e4d02b13b4dcb1931169897 } is a cherrypick
+{ a0de08f1ca53688c1dffd59009327831cc27ee38 -> 20160c8c73b45ee1a13c0c071307c9282a925a8b }
+Partial Cherry-pick commits SHA are -> 
+dcba37f752207cbd5e4d02b13b4dcb1931169897 - cherrypick - 20160c8c73b45ee1a13c0c071307c9282a925a8b
+---> The cherrypicked commit sha is - dcba37f752207cbd5e4d02b13b4dcb1931169897
+Commit message - Fixed first slew of obvious bugs.
+---> The original commit sha is - 20160c8c73b45ee1a13c0c071307c9282a925a8b
+Commit message - Hypothetically all code rewritten to use promises (100% untested).
+---> The files with partial_cherrypicks are:-
+app/js/action.js
+app/js/auto_update.nw.js
+app/js/boot.js
+app/js/command.js
+app/js/complete.js
+app/js/config.js
+app/js/configfs.chrome.js
+app/js/configfs.nw.js
+app/js/dnd.js
+app/js/editor.js
+app/js/file.js
+app/js/goto.js
+app/js/history.nw.js
+app/js/lib/string.js
+app/js/modes.js
+app/js/sandbox.nw.js
+app/js/sandbox/zed/config.js
+app/js/sandbox/zed/configfs.js
+app/js/sandbox/zed/db.js
+app/js/sandbox/zed/fs.js
+app/js/sandbox/zed/http.js
+app/js/sandbox/zed/log.js
+app/js/sandbox/zed/preview.js
+app/js/sandbox/zed/session.js
+app/js/sandbox/zed/symbol.js
+app/js/sandbox/zed/ui.js
+app/js/state.js
+app/js/ui.js
+app/js/window.chrome.js
+app/js/window.nw.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ 6c6f334f5702310658fd5be6ba395d5c09f56d63 -> 9426db867e7cfd88a7609d89c763594dc8fefcbf } is a cherrypick
+{ a0de08f1ca53688c1dffd59009327831cc27ee38 -> 20160c8c73b45ee1a13c0c071307c9282a925a8b }
+Partial Cherry-pick commits SHA are -> 
+9426db867e7cfd88a7609d89c763594dc8fefcbf - cherrypick - 20160c8c73b45ee1a13c0c071307c9282a925a8b
+---> The cherrypicked commit sha is - 9426db867e7cfd88a7609d89c763594dc8fefcbf
+Commit message - Ready to dogfood
+---> The original commit sha is - 20160c8c73b45ee1a13c0c071307c9282a925a8b
+Commit message - Hypothetically all code rewritten to use promises (100% untested).
+---> The files with partial_cherrypicks are:-
+app/js/action.js
+app/js/auto_update.nw.js
+app/js/boot.js
+app/js/config.js
+app/js/configfs.chrome.js
+app/js/configfs.nw.js
+app/js/dnd.js
+app/js/editor.js
+app/js/file.js
+app/js/goto.js
+app/js/history.nw.js
+app/js/lib/string.js
+app/js/modes.js
+app/js/sandbox.nw.js
+app/js/sandbox/zed/config.js
+app/js/sandbox/zed/configfs.js
+app/js/sandbox/zed/db.js
+app/js/sandbox/zed/fs.js
+app/js/sandbox/zed/http.js
+app/js/sandbox/zed/log.js
+app/js/sandbox/zed/preview.js
+app/js/sandbox/zed/symbol.js
+app/js/sandbox/zed/ui.js
+app/js/state.js
+app/js/ui.js
+app/js/window.chrome.js
+app/js/window.nw.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ 455c28cf9baf8061eeda1ff4e95456acd2e1a320 -> b28316cf2ed3df8adb39ec013dc28d3af522c825 } is a cherrypick
+{ 44212a730cf4bf7d7fe229a52353750157ddc149 -> 01870508d5795aefb64bc12d3297831e10bc5895 }
+Partial Cherry-pick commits SHA are -> 
+b28316cf2ed3df8adb39ec013dc28d3af522c825 - cherrypick - 01870508d5795aefb64bc12d3297831e10bc5895
+---> The cherrypicked commit sha is - b28316cf2ed3df8adb39ec013dc28d3af522c825
+Commit message - Implemented check if the result.error is not undefined nor null.
+---> The original commit sha is - 01870508d5795aefb64bc12d3297831e10bc5895
+Commit message - Extended the HTTP API for performing PUT and DELETE requests.
+---> The files with partial_cherrypicks are:-
+app/js/config.js
+app/js/session_manager.js
+app/js/state.js
+app/manual/split.md
+app/package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 9ba38fe4e62d9f529e07ad2f5c9814008d2568bb -> 59ce9db625692a63ec07578729474f9d427f0386 } is a cherrypick
+{ fafd38a3f56c9957b26279dd9bcf1f7d2d04e467 -> 238e5331c2ba71adea4f378d28b21cccdafb66ed }
+Partial Cherry-pick commits SHA are -> 
+59ce9db625692a63ec07578729474f9d427f0386 - cherrypick - 238e5331c2ba71adea4f378d28b21cccdafb66ed
+---> The cherrypicked commit sha is - 59ce9db625692a63ec07578729474f9d427f0386
+Commit message - Added syntax highlighting for Matlab.
+---> The original commit sha is - 238e5331c2ba71adea4f378d28b21cccdafb66ed
+Commit message - Added syntax highlighting for Matlab.
+---> The files with partial_cherrypicks are:-
+app/config/default/mode/matlab.json
+app/config/default/modes.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ f7461a3948045d196da3c189787c77e0fc2eb7c5 -> 22180f5dcedff2253eb9a1bcbe52d6060cafda2e } is a cherrypick
+{ 287e38e8b159118da4f9d4f596d86540a1a7c2fb -> 619f94cc3fef780373559e9d727c54dfdc8b516f }
+Partial Cherry-pick commits SHA are -> 
+22180f5dcedff2253eb9a1bcbe52d6060cafda2e - cherrypick - 619f94cc3fef780373559e9d727c54dfdc8b516f
+---> The cherrypicked commit sha is - 22180f5dcedff2253eb9a1bcbe52d6060cafda2e
+Commit message - Perl more concise than python for date logic.
+---> The original commit sha is - 619f94cc3fef780373559e9d727c54dfdc8b516f
+Commit message - Merge pull request #312 from robru/periodically-update-ace
+
+Automatically re-fetch app/ace when it is more than one month old.
+---> The files with partial_cherrypicks are:-
+Makefile
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ 87f78cbeb745bb6c56a005fd91cfe7ea0586b120 -> f25b23559b5baebf2f3e7bde36031cfd2c5e3020 } is a cherrypick
+{ bf50212d18cee51c8796eba29c17e272887f1c53 -> 287e38e8b159118da4f9d4f596d86540a1a7c2fb }
+Partial Cherry-pick commits SHA are -> 
+f25b23559b5baebf2f3e7bde36031cfd2c5e3020 - cherrypick - 287e38e8b159118da4f9d4f596d86540a1a7c2fb
+---> The cherrypicked commit sha is - f25b23559b5baebf2f3e7bde36031cfd2c5e3020
+Commit message - Fix ZPM urls to use githubusercontent.com and remove trailing slash
+---> The original commit sha is - 287e38e8b159118da4f9d4f596d86540a1a7c2fb
+Commit message - Merge pull request #320 from conradz/zpm-urls
+
+Fix ZPM urls to use githubusercontent.com and remove trailing slash
+---> The files with partial_cherrypicks are:-
+app/config/default/zpm/zpm.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ 7c4379133310ae9b798bf789e5759fda2097c961 -> 83d815fe9eef702115418f735f135997650264d7 } is a cherrypick
+{ 594b92e4b39cea89100d56db7b4c85a9731f5b8f -> b526d9066e4f0638bfb5cd5b6ddce00fd414b4a0 }
+Partial Cherry-pick commits SHA are -> 
+83d815fe9eef702115418f735f135997650264d7 - cherrypick - b526d9066e4f0638bfb5cd5b6ddce00fd414b4a0
+---> The cherrypicked commit sha is - 83d815fe9eef702115418f735f135997650264d7
+Commit message - Focus the tree when nothing is open and allow the zed::start and zed::log to be opened from the tree
+---> The original commit sha is - b526d9066e4f0638bfb5cd5b6ddce00fd414b4a0
+Commit message - Merge pull request #252 from eltuerto/master
+
+Fixes #176
+---> The files with partial_cherrypicks are:-
+app/js/tree.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ a4d660584acdb1b1b7e0c6964df421680800c5ba -> e613840ff0a1aaff62bb5bf5bcbf1b41088d652e } is a cherrypick
+{ 394c428c60a734b9f4feba469010181738472406 -> d90142dd7b4a742247df20a9e66797b1c641cffd }
+Partial Cherry-pick commits SHA are -> 
+e613840ff0a1aaff62bb5bf5bcbf1b41088d652e - cherrypick - d90142dd7b4a742247df20a9e66797b1c641cffd
+---> The cherrypicked commit sha is - e613840ff0a1aaff62bb5bf5bcbf1b41088d652e
+Commit message - Possible fix for css diff
+---> The original commit sha is - d90142dd7b4a742247df20a9e66797b1c641cffd
+Commit message - Merge pull request #282 from robru/show-fold-widgets
+
+Command to toggle Fold Widgets.
+---> The files with partial_cherrypicks are:-
+app/preview.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ a4d660584acdb1b1b7e0c6964df421680800c5ba -> e613840ff0a1aaff62bb5bf5bcbf1b41088d652e } is a cherrypick
+{ 424ec0502443d5764c2d61c7984f69168a8d2a54 -> 1ad52cf877a5791bf14d8023c06b92e196a2d6fe }
+Partial Cherry-pick commits SHA are -> 
+e613840ff0a1aaff62bb5bf5bcbf1b41088d652e - cherrypick - 1ad52cf877a5791bf14d8023c06b92e196a2d6fe
+---> The cherrypicked commit sha is - e613840ff0a1aaff62bb5bf5bcbf1b41088d652e
+Commit message - Possible fix for css diff
+---> The original commit sha is - 1ad52cf877a5791bf14d8023c06b92e196a2d6fe
+Commit message - Merge pull request #280 from gholtsla/master
+
+Styling Markdown (and other) previews with Twitter's Bootstrap
+---> The files with partial_cherrypicks are:-
+app/preview.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ 116c2107a4894ed82999923f3ee05b3d0a2d762a -> 127335839c00ca3e2267664c3961ea107f0bad5f } is a cherrypick
+{ e613840ff0a1aaff62bb5bf5bcbf1b41088d652e -> 9998f9492b112af2176108bad5af9202f7631576 }
+Partial Cherry-pick commits SHA are -> 
+127335839c00ca3e2267664c3961ea107f0bad5f - cherrypick - 9998f9492b112af2176108bad5af9202f7631576
+---> The cherrypicked commit sha is - 127335839c00ca3e2267664c3961ea107f0bad5f
+Commit message - Add newline when saving user prefs.
+
+Editing `user.json` by hand results in the whitespace stripper ensuring a newline at the end of the file. But if you use a command to change a setting and zed writes out a JSON dump of `user.json` for you, it lacks the trailing newline. This annoying inconsistency makes it difficult to keep `user.json` in version control, because sometimes it has the trailing newline and sometimes it doesn't.
+
+This change ensures the `user.json` will always have the trailing newline.
+---> The original commit sha is - 9998f9492b112af2176108bad5af9202f7631576
+Commit message - Removing some unneeded changes
+---> The files with partial_cherrypicks are:-
+app/config/default/mode/markdown/pagedown.js
+app/js/preview.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ 83d815fe9eef702115418f735f135997650264d7 -> 64b634e4ec951716796b492047518806a2da2393 } is a cherrypick
+{ c6d66d4198230d10cf8e4903fb010802f685c352 -> fc2fd1ab79502090a038721b3384f57490abdfd8 }
+Partial Cherry-pick commits SHA are -> 
+64b634e4ec951716796b492047518806a2da2393 - cherrypick - fc2fd1ab79502090a038721b3384f57490abdfd8
+---> The cherrypicked commit sha is - 64b634e4ec951716796b492047518806a2da2393
+Commit message - Fixing regex
+---> The original commit sha is - fc2fd1ab79502090a038721b3384f57490abdfd8
+Commit message - Merge pull request #259 from gholtsla/master
+
+Added ctag indexing support for Python
+---> The files with partial_cherrypicks are:-
+app/config/default/mode/python.json
+app/config/default/mode/python/ctags.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 64b634e4ec951716796b492047518806a2da2393 -> 5b35f27e1158f205b98ec619de36b1075c80a827 } is a cherrypick
+{ 3bb3eb970c65c9b25113773600f61821b1380764 -> c6d66d4198230d10cf8e4903fb010802f685c352 }
+Partial Cherry-pick commits SHA are -> 
+5b35f27e1158f205b98ec619de36b1075c80a827 - cherrypick - c6d66d4198230d10cf8e4903fb010802f685c352
+---> The cherrypicked commit sha is - 5b35f27e1158f205b98ec619de36b1075c80a827
+Commit message - add gittip badge
+---> The original commit sha is - c6d66d4198230d10cf8e4903fb010802f685c352
+Commit message - Merge pull request #262 from maninalift/gittip-badge
+
+add gittip badge
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ d3aa5810ab6c57973af5f87f72275a49e2459330 -> 260e7db0030b9e0113bab96b51d85c8b96066b73 } is a cherrypick
+{ 08f9b8f06899bf3671767898dc5dc7e361687b97 -> 18b73dc387d1152dd2f0bbe5d741dfd4f6103ef7 }
+Partial Cherry-pick commits SHA are -> 
+260e7db0030b9e0113bab96b51d85c8b96066b73 - cherrypick - 18b73dc387d1152dd2f0bbe5d741dfd4f6103ef7
+---> The cherrypicked commit sha is - 260e7db0030b9e0113bab96b51d85c8b96066b73
+Commit message - Add option to turn off specific CSSLint rules
+---> The original commit sha is - 18b73dc387d1152dd2f0bbe5d741dfd4f6103ef7
+Commit message - Merge pull request #255 from conradz/csslint-options
+
+Add option to turn off specific CSSLint rules
+---> The files with partial_cherrypicks are:-
+app/config/default/mode/css.json
+app/config/default/mode/css/check.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ 387d951c1a745e8e3c7179d80cff36500d34493c -> 8252e14c505bd49c033de4a1a5cbfd05414b6634 } is a cherrypick
+{ 79c6d7dcd9efcd5bae00346ee8c952d92f805c02 -> 9fe07c777468ce243356cc3468f0870e3241a9d0 }
+Partial Cherry-pick commits SHA are -> 
+8252e14c505bd49c033de4a1a5cbfd05414b6634 - cherrypick - 9fe07c777468ce243356cc3468f0870e3241a9d0
+---> The cherrypicked commit sha is - 8252e14c505bd49c033de4a1a5cbfd05414b6634
+Commit message - Adding default support for .scss files using SCSS ACE mode
+---> The original commit sha is - 9fe07c777468ce243356cc3468f0870e3241a9d0
+Commit message - Merge pull request #249 from gholtsla/master
+
+Adding default support for .scss files using SCSS ACE mode
+---> The files with partial_cherrypicks are:-
+app/config/default/modes.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ 46221016573471a5cf904dc5c11addaaad367998 -> d9f06494e453979d6f71fc098ce0b438925c2334 } is a cherrypick
+{ 210c0e4607d36f70bfd8d4c8f1e6150ea0cee42d -> 62d64bd093b4d2c28a143ba5e62f99cbd7775925 }
+Partial Cherry-pick commits SHA are -> 
+d9f06494e453979d6f71fc098ce0b438925c2334 - cherrypick - 62d64bd093b4d2c28a143ba5e62f99cbd7775925
+---> The cherrypicked commit sha is - d9f06494e453979d6f71fc098ce0b438925c2334
+Commit message - Add fold and unfold buttons at the top of the command reference.
+---> The original commit sha is - 62d64bd093b4d2c28a143ba5e62f99cbd7775925
+Commit message - Revert "Change heading display in zed dark theme."
+
+This reverts commit 46221016573471a5cf904dc5c11addaaad367998.
+---> The files with partial_cherrypicks are:-
+app/config/default/theme/zed_dark.css
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ 9cac63b5ef8464cce0d1ea4b207a392cb7662186 -> 873a65e4e273c44691c8b9df40c3e593d2cdeb55 } is a cherrypick
+{ 210c0e4607d36f70bfd8d4c8f1e6150ea0cee42d -> 62d64bd093b4d2c28a143ba5e62f99cbd7775925 }
+Partial Cherry-pick commits SHA are -> 
+873a65e4e273c44691c8b9df40c3e593d2cdeb55 - cherrypick - 62d64bd093b4d2c28a143ba5e62f99cbd7775925
+---> The cherrypicked commit sha is - 873a65e4e273c44691c8b9df40c3e593d2cdeb55
+Commit message - Fixes #178 to some extent by updating the manual.
+---> The original commit sha is - 62d64bd093b4d2c28a143ba5e62f99cbd7775925
+Commit message - Revert "Change heading display in zed dark theme."
+
+This reverts commit 46221016573471a5cf904dc5c11addaaad367998.
+---> The files with partial_cherrypicks are:-
+app/config/default/theme/zed_dark.css
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ e50a29281e679a3906de0fc37d2b213b75d040ee -> d1bb22dede31beb7fd288ff1b84cdf998aeffb10 } is a cherrypick
+{ 20ff99ff6b4ce33c6cef452abe3e1088d6953051 -> 8ea5631945d526385f338eea461b2a344a013871 }
+Partial Cherry-pick commits SHA are -> 
+d1bb22dede31beb7fd288ff1b84cdf998aeffb10 - cherrypick - 8ea5631945d526385f338eea461b2a344a013871
+---> The cherrypicked commit sha is - d1bb22dede31beb7fd288ff1b84cdf998aeffb10
+Commit message - Fixes #227 by continuing when user.json contains parse errors
+---> The original commit sha is - 8ea5631945d526385f338eea461b2a344a013871
+Commit message - Revert "Don't split string just for counting "\n""
+
+This reverts commit e50a29281e679a3906de0fc37d2b213b75d040ee.
+---> The files with partial_cherrypicks are:-
+app/config/default/command/search.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ d9f06494e453979d6f71fc098ce0b438925c2334 -> 9b16878fecb68ca4c78e2294a7e3b864a588cb15 } is a cherrypick
+{ e5b88e768907f659a402ff6b630d3ef1368ed5ce -> a400c0360b781b5ae3153d8f9309d5d2a967df65 }
+Partial Cherry-pick commits SHA are -> 
+9b16878fecb68ca4c78e2294a7e3b864a588cb15 - cherrypick - a400c0360b781b5ae3153d8f9309d5d2a967df65
+---> The cherrypicked commit sha is - 9b16878fecb68ca4c78e2294a7e3b864a588cb15
+Commit message - Add a basic goto extension in the sandbox.
+---> The original commit sha is - a400c0360b781b5ae3153d8f9309d5d2a967df65
+Commit message - Merge pull request #223 from robru/sandbox-goto-commands
+
+Add a basic goto extension in the sandbox.
+---> The files with partial_cherrypicks are:-
+app/config/default/command/goto.js
+app/config/default/commands.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ 46221016573471a5cf904dc5c11addaaad367998 -> d9f06494e453979d6f71fc098ce0b438925c2334 } is a cherrypick
+{ 13c53f7097c1c37424d665413c2318ae1faa30b2 -> e5b88e768907f659a402ff6b630d3ef1368ed5ce }
+Partial Cherry-pick commits SHA are -> 
+d9f06494e453979d6f71fc098ce0b438925c2334 - cherrypick - e5b88e768907f659a402ff6b630d3ef1368ed5ce
+---> The cherrypicked commit sha is - d9f06494e453979d6f71fc098ce0b438925c2334
+Commit message - Add fold and unfold buttons at the top of the command reference.
+---> The original commit sha is - e5b88e768907f659a402ff6b630d3ef1368ed5ce
+Commit message - Merge pull request #222 from robru/command-reference-fold-helpers
+
+Add fold and unfold buttons at the top of the command reference.
+---> The files with partial_cherrypicks are:-
+app/js/command.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ 9b16878fecb68ca4c78e2294a7e3b864a588cb15 -> e50a29281e679a3906de0fc37d2b213b75d040ee } is a cherrypick
+{ 356f50b32bd7c565839720bc3ac7fe2ebdfa141f -> 13c53f7097c1c37424d665413c2318ae1faa30b2 }
+Partial Cherry-pick commits SHA are -> 
+e50a29281e679a3906de0fc37d2b213b75d040ee - cherrypick - 13c53f7097c1c37424d665413c2318ae1faa30b2
+---> The cherrypicked commit sha is - e50a29281e679a3906de0fc37d2b213b75d040ee
+Commit message - Don't split string just for counting "\n"
+---> The original commit sha is - 13c53f7097c1c37424d665413c2318ae1faa30b2
+Commit message - Merge pull request #226 from themalkolm/patch-2
+
+Don't split string just for counting "\n"
+---> The files with partial_cherrypicks are:-
+app/config/default/command/search.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ 1fbccabf91a782d7734e32c797a541f9fcb6f332 -> 8309c6d3552e5364662e8c004849b3b68ea8ca8e } is a cherrypick
+{ aa12eeb5ab8467cc0cce0c4b68d42c2444cb34f7 -> 72581826ab420a994a358746049cbd3d93eb4b03 }
+Partial Cherry-pick commits SHA are -> 
+8309c6d3552e5364662e8c004849b3b68ea8ca8e - cherrypick - 72581826ab420a994a358746049cbd3d93eb4b03
+---> The cherrypicked commit sha is - 8309c6d3552e5364662e8c004849b3b68ea8ca8e
+Commit message - Rebase on upstream master.
+---> The original commit sha is - 72581826ab420a994a358746049cbd3d93eb4b03
+Commit message - Merge pull request #207 from robru/describe-commands
+
+Inline documentation for Zed commands.
+---> The files with partial_cherrypicks are:-
+app/config/default/commands.json
+app/config/default/modes.json
+app/config/default/zpm/zpm.json
+app/js/action.js
+app/js/complete.js
+app/js/config.js
+app/js/configfs.chrome.js
+app/js/configfs.nw.js
+app/js/editor.js
+app/js/file.js
+app/js/goto.js
+app/js/modes.js
+app/js/preview.js
+app/js/project.js
+app/js/sandbox.chrome.js
+app/js/sandbox.nw.js
+app/js/session_manager.js
+app/js/split.js
+app/js/theme.js
+app/js/tree.js
+app/js/window.nw.js
+app/js/window_commands.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ 69e3061825d42da506b39517583f941e2fba79af -> 18ace86fd1fba7e67cea2dde7c60fd58e5340fad } is a cherrypick
+{ 3ef912de90096a6b20cd69b893c7ca1bff6ae286 -> 8db9f8fd648d5e883612d623bdc1c62af24e908f }
+Partial Cherry-pick commits SHA are -> 
+18ace86fd1fba7e67cea2dde7c60fd58e5340fad - cherrypick - 8db9f8fd648d5e883612d623bdc1c62af24e908f
+---> The cherrypicked commit sha is - 18ace86fd1fba7e67cea2dde7c60fd58e5340fad
+Commit message - Fix for autoIndentOnPaste when pasting a block with leading whitespace on the first line to the same column
+---> The original commit sha is - 8db9f8fd648d5e883612d623bdc1c62af24e908f
+Commit message - Merge pull request #212 from TheKiteEatingTree/indentFix
+
+Bug Fix for autoIndentOnPaste
+---> The files with partial_cherrypicks are:-
+app/js/editor.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ 7f25bf4ff5ed800a633c03a5f7b550d3cd084ece -> 69e3061825d42da506b39517583f941e2fba79af } is a cherrypick
+{ 85160e7d77725b70080f688996cc76b49eeb4cc6 -> 3ef912de90096a6b20cd69b893c7ca1bff6ae286 }
+Partial Cherry-pick commits SHA are -> 
+69e3061825d42da506b39517583f941e2fba79af - cherrypick - 3ef912de90096a6b20cd69b893c7ca1bff6ae286
+---> The cherrypicked commit sha is - 69e3061825d42da506b39517583f941e2fba79af
+Commit message - Added SCSS as a separate mode
+
+Ace supports SCSS separately from Sass, so they should be in separate
+configs.
+---> The original commit sha is - 3ef912de90096a6b20cd69b893c7ca1bff6ae286
+Commit message - Merge pull request #210 from wpapper/master
+
+Added SCSS as a separate mode
+---> The files with partial_cherrypicks are:-
+app/config/default/mode/sass.json
+app/config/default/mode/scss.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ c0732f9f34de7218c5833558657e20e992d07ef1 -> 08cc7ee5de920591f706dc1a09a2f689f977c403 } is a cherrypick
+{ 6c476343b4b9d492e8a8c33e3c73b414217a4c79 -> 5a3aa287d2391964ede17da1aa11ebc6c13a0e9a }
+Partial Cherry-pick commits SHA are -> 
+08cc7ee5de920591f706dc1a09a2f689f977c403 - cherrypick - 5a3aa287d2391964ede17da1aa11ebc6c13a0e9a
+---> The cherrypicked commit sha is - 08cc7ee5de920591f706dc1a09a2f689f977c403
+Commit message - Fix spelling mistake
+---> The original commit sha is - 5a3aa287d2391964ede17da1aa11ebc6c13a0e9a
+Commit message - Merge branch 'master' into describe-commands
+---> The files with partial_cherrypicks are:-
+Makefile
+app/config/all
+app/config/api/zed/session.js
+app/config/default/command/search.js
+app/config/default/command/stripper.js
+app/config/default/keys.json
+app/config/default/mode/sass.json
+app/config/default/mode/scala.json
+app/config/default/modes.json
+app/config/zedconfig.json
+app/css/editor.css
+app/js/boot.js
+app/js/cli.nw.js
+app/js/config.js
+app/js/configfs.chrome.js
+app/js/configfs.nw.js
+app/js/copy_paste.nw.js
+app/js/fs/config.nw.js
+app/js/fs/local.js
+app/js/fs/node.js
+app/js/fs_picker.js
+app/js/history.chrome.js
+app/js/history.nw.js
+app/js/lib/copy_paste_context.nw.js
+app/js/lib/folderpicker.nw.js
+app/js/lib/icons.js
+app/js/lib/key_code.js
+app/js/log.js
+app/js/modes.js
+app/js/open.boot.js
+app/js/open.js
+app/js/sandbox/zed/session.js
+app/js/state.js
+app/js/window.nw.js
+app/manual/cursors.md
+app/open.nw.html
+app/package.json
+nw/Info.plist
+nw/zed-linux
+release/install-local-mac.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ 28bcad0ef3550a9a868d5c6f6d4358699ba2054d -> e549135a748ade8e04f56f54492d03f92462c02a } is a cherrypick
+{ 6c476343b4b9d492e8a8c33e3c73b414217a4c79 -> 5a3aa287d2391964ede17da1aa11ebc6c13a0e9a }
+Partial Cherry-pick commits SHA are -> 
+e549135a748ade8e04f56f54492d03f92462c02a - cherrypick - 5a3aa287d2391964ede17da1aa11ebc6c13a0e9a
+---> The cherrypicked commit sha is - e549135a748ade8e04f56f54492d03f92462c02a
+Commit message - Merge pull request #203 from ismail-s/patch-1
+
+Fix spelling mistake
+---> The original commit sha is - 5a3aa287d2391964ede17da1aa11ebc6c13a0e9a
+Commit message - Merge branch 'master' into describe-commands
+---> The files with partial_cherrypicks are:-
+Makefile
+app/config/all
+app/config/api/zed/session.js
+app/config/default/command/search.js
+app/config/default/command/stripper.js
+app/config/default/keys.json
+app/config/default/mode/sass.json
+app/config/default/mode/scala.json
+app/config/default/modes.json
+app/config/zedconfig.json
+app/css/editor.css
+app/js/boot.js
+app/js/cli.nw.js
+app/js/config.js
+app/js/configfs.chrome.js
+app/js/configfs.nw.js
+app/js/copy_paste.nw.js
+app/js/fs/config.nw.js
+app/js/fs/local.js
+app/js/fs/node.js
+app/js/fs_picker.js
+app/js/history.chrome.js
+app/js/history.nw.js
+app/js/lib/copy_paste_context.nw.js
+app/js/lib/folderpicker.nw.js
+app/js/lib/icons.js
+app/js/lib/key_code.js
+app/js/log.js
+app/js/modes.js
+app/js/open.boot.js
+app/js/open.js
+app/js/sandbox/zed/session.js
+app/js/state.js
+app/js/window.nw.js
+app/manual/cursors.md
+app/open.nw.html
+app/package.json
+nw/Info.plist
+nw/zed-linux
+release/install-local-mac.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ 08cc7ee5de920591f706dc1a09a2f689f977c403 -> 28bcad0ef3550a9a868d5c6f6d4358699ba2054d } is a cherrypick
+{ e549135a748ade8e04f56f54492d03f92462c02a -> 6c476343b4b9d492e8a8c33e3c73b414217a4c79 }
+Partial Cherry-pick commits SHA are -> 
+28bcad0ef3550a9a868d5c6f6d4358699ba2054d - cherrypick - 6c476343b4b9d492e8a8c33e3c73b414217a4c79
+---> The cherrypicked commit sha is - 28bcad0ef3550a9a868d5c6f6d4358699ba2054d
+Commit message - Add section titles.
+---> The original commit sha is - 6c476343b4b9d492e8a8c33e3c73b414217a4c79
+Commit message - Fold all by default.
+---> The files with partial_cherrypicks are:-
+Makefile
+app/config/all
+app/config/api/zed/session.js
+app/config/default/command/search.js
+app/config/default/command/stripper.js
+app/config/default/keys.json
+app/config/default/mode/sass.json
+app/config/default/mode/scala.json
+app/config/default/modes.json
+app/config/zedconfig.json
+app/css/editor.css
+app/js/boot.js
+app/js/cli.nw.js
+app/js/config.js
+app/js/configfs.chrome.js
+app/js/configfs.nw.js
+app/js/copy_paste.nw.js
+app/js/fs/config.nw.js
+app/js/fs/local.js
+app/js/fs/node.js
+app/js/fs_picker.js
+app/js/history.chrome.js
+app/js/history.nw.js
+app/js/lib/copy_paste_context.nw.js
+app/js/lib/folderpicker.nw.js
+app/js/lib/icons.js
+app/js/lib/key_code.js
+app/js/log.js
+app/js/modes.js
+app/js/open.boot.js
+app/js/open.js
+app/js/sandbox/zed/session.js
+app/js/state.js
+app/js/window.nw.js
+app/js/window_commands.js
+app/manual/cursors.md
+app/open.nw.html
+app/package.json
+nw/Info.plist
+nw/zed-linux
+release/install-local-mac.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ c0732f9f34de7218c5833558657e20e992d07ef1 -> 08cc7ee5de920591f706dc1a09a2f689f977c403 } is a cherrypick
+{ 28bcad0ef3550a9a868d5c6f6d4358699ba2054d -> e549135a748ade8e04f56f54492d03f92462c02a }
+Partial Cherry-pick commits SHA are -> 
+08cc7ee5de920591f706dc1a09a2f689f977c403 - cherrypick - e549135a748ade8e04f56f54492d03f92462c02a
+---> The cherrypicked commit sha is - 08cc7ee5de920591f706dc1a09a2f689f977c403
+Commit message - Fix spelling mistake
+---> The original commit sha is - e549135a748ade8e04f56f54492d03f92462c02a
+Commit message - Merge pull request #203 from ismail-s/patch-1
+
+Fix spelling mistake
+---> The files with partial_cherrypicks are:-
+Makefile
+app/config/all
+app/config/api/zed/session.js
+app/config/default/command/search.js
+app/config/default/command/stripper.js
+app/config/default/keys.json
+app/config/default/mode/sass.json
+app/config/default/mode/scala.json
+app/config/default/modes.json
+app/config/zedconfig.json
+app/css/editor.css
+app/js/boot.js
+app/js/cli.nw.js
+app/js/config.js
+app/js/configfs.chrome.js
+app/js/configfs.nw.js
+app/js/copy_paste.nw.js
+app/js/fs/config.nw.js
+app/js/fs/local.js
+app/js/fs/node.js
+app/js/fs_picker.js
+app/js/history.chrome.js
+app/js/history.nw.js
+app/js/lib/copy_paste_context.nw.js
+app/js/lib/folderpicker.nw.js
+app/js/lib/icons.js
+app/js/lib/key_code.js
+app/js/log.js
+app/js/modes.js
+app/js/open.boot.js
+app/js/open.js
+app/js/sandbox/zed/session.js
+app/js/state.js
+app/js/window.nw.js
+app/js/window_commands.js
+app/manual/cursors.md
+app/open.nw.html
+app/package.json
+nw/Info.plist
+nw/zed-linux
+release/install-local-mac.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ 0edeecc4bbe7616bee1d84ce844870b2583dc2ab -> 7f40e0bcdb357a37c5b1b3464579448c8cef8d38 } is a cherrypick
+{ 737b17da42bd98aae85bc9d5c9f24b3e4e434aa5 -> 1fe43887f2b5e22473f241a308971928afe1258b }
+Partial Cherry-pick commits SHA are -> 
+7f40e0bcdb357a37c5b1b3464579448c8cef8d38 - cherrypick - 1fe43887f2b5e22473f241a308971928afe1258b
+---> The cherrypicked commit sha is - 7f40e0bcdb357a37c5b1b3464579448c8cef8d38
+Commit message - Add basic command list and keybinding.
+---> The original commit sha is - 1fe43887f2b5e22473f241a308971928afe1258b
+Commit message - Merge pull request #200 from robru/describe-commands
+
+Describe commands
+---> The files with partial_cherrypicks are:-
+app/config/default/keys.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ 493619bde4c98bc018e5e503030322c96b6b1d50 -> 47f9a09ecf81b1bb9fd8db6a21f76264c5e77d7d } is a cherrypick
+{ 4ae06150c314a4481cf0134c034335c1d3ccfd82 -> 737b17da42bd98aae85bc9d5c9f24b3e4e434aa5 }
+Partial Cherry-pick commits SHA are -> 
+47f9a09ecf81b1bb9fd8db6a21f76264c5e77d7d - cherrypick - 737b17da42bd98aae85bc9d5c9f24b3e4e434aa5
+---> The cherrypicked commit sha is - 47f9a09ecf81b1bb9fd8db6a21f76264c5e77d7d
+Commit message - Allow sandbox plugins to call commands. Closes #186.
+---> The original commit sha is - 737b17da42bd98aae85bc9d5c9f24b3e4e434aa5
+Commit message - Merge pull request #195 from robru/fix-newline-appendage
+
+Allow sandbox plugins to call commands. Closes #186.
+---> The files with partial_cherrypicks are:-
+app/config/api/zed/session.js
+app/config/default/command/stripper.js
+app/js/sandbox/zed/session.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ 65da0e5a03c5b7aa9cc87a7874404dea7fe9aa53 -> 39d76265a86fa46f7d2c15d3cce6234f6ba14013 } is a cherrypick
+{ d371a95e9dff15232209c64e78b6fec14ab9582e -> 4ae06150c314a4481cf0134c034335c1d3ccfd82 }
+Partial Cherry-pick commits SHA are -> 
+39d76265a86fa46f7d2c15d3cce6234f6ba14013 - cherrypick - 4ae06150c314a4481cf0134c034335c1d3ccfd82
+---> The cherrypicked commit sha is - 39d76265a86fa46f7d2c15d3cce6234f6ba14013
+Commit message - Check extensions longest-first but only if filename has a period.
+---> The original commit sha is - 4ae06150c314a4481cf0134c034335c1d3ccfd82
+Commit message - Merge pull request #168 from robru/extension-mode-performance
+
+Performance enhancements for getModeForSession.
+---> The files with partial_cherrypicks are:-
+app/js/modes.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ d7d81681036515f9b1d612a863ed808fdec05255 -> f02638125215ba249f4353934bb2c217ea63bd1e } is a cherrypick
+{ c148836350212597de6b4a1b7493a7cc90fca962 -> d371a95e9dff15232209c64e78b6fec14ab9582e }
+Partial Cherry-pick commits SHA are -> 
+f02638125215ba249f4353934bb2c217ea63bd1e - cherrypick - d371a95e9dff15232209c64e78b6fec14ab9582e
+---> The cherrypicked commit sha is - f02638125215ba249f4353934bb2c217ea63bd1e
+Commit message - Support Scala syntax highlighting
+---> The original commit sha is - d371a95e9dff15232209c64e78b6fec14ab9582e
+Commit message - Merge pull request #198 from netzwerg/master
+
+Support Scala syntax highlighting
+---> The files with partial_cherrypicks are:-
+app/config/all
+app/config/default/mode/scala.json
+app/config/default/modes.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ 47f9a09ecf81b1bb9fd8db6a21f76264c5e77d7d -> d7d81681036515f9b1d612a863ed808fdec05255 } is a cherrypick
+{ 5546b1099dcf6fb75fd41f06db021bcaab337030 -> c148836350212597de6b4a1b7493a7cc90fca962 }
+Partial Cherry-pick commits SHA are -> 
+d7d81681036515f9b1d612a863ed808fdec05255 - cherrypick - c148836350212597de6b4a1b7493a7cc90fca962
+---> The cherrypicked commit sha is - d7d81681036515f9b1d612a863ed808fdec05255
+Commit message - Include "scss" as an extension for Sass
+
+While some syntax highlighting might be slightly off due to the
+differences between Sass and SCSS, it is certainly better than no
+syntax highlighting at all.
+
+I have tested the highlighting on a few .scss files, and the syntax
+highlighting works quite well.
+---> The original commit sha is - c148836350212597de6b4a1b7493a7cc90fca962
+Commit message - Merge pull request #197 from wpapper/master
+
+Include "scss" as an extension for Sass
+---> The files with partial_cherrypicks are:-
+app/config/default/mode/sass.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ 39d76265a86fa46f7d2c15d3cce6234f6ba14013 -> 493619bde4c98bc018e5e503030322c96b6b1d50 } is a cherrypick
+{ 16105b77ffb2d2d57293fc6d5fe117dfc61a44cd -> 5546b1099dcf6fb75fd41f06db021bcaab337030 }
+Partial Cherry-pick commits SHA are -> 
+493619bde4c98bc018e5e503030322c96b6b1d50 - cherrypick - 5546b1099dcf6fb75fd41f06db021bcaab337030
+---> The cherrypicked commit sha is - 493619bde4c98bc018e5e503030322c96b6b1d50
+Commit message - Merge upstream master.
+---> The original commit sha is - 5546b1099dcf6fb75fd41f06db021bcaab337030
+Commit message - Merge branch 'master' of github.com:zedapp/zed
+---> The files with partial_cherrypicks are:-
+app/manual/configuration.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ 82f9d027a50ac517405179ed84b8b4cd6af24997 -> bcc81c4db1cc4e769f1fade11b17adb672cd2fda } is a cherrypick
+{ 1d1c337fbbc77cfbca703aafdded7cfe85c987d1 -> de1d75358d7bc7e7c039820233c2be9a748f4f18 }
+Partial Cherry-pick commits SHA are -> 
+bcc81c4db1cc4e769f1fade11b17adb672cd2fda - cherrypick - de1d75358d7bc7e7c039820233c2be9a748f4f18
+---> The cherrypicked commit sha is - bcc81c4db1cc4e769f1fade11b17adb672cd2fda
+Commit message - Updated changelog and bumped version number
+---> The original commit sha is - de1d75358d7bc7e7c039820233c2be9a748f4f18
+Commit message - Merge remote-tracking branch 'origin/master' into architect
+
+Conflicts:
+	app/config/all
+	app/js/editor.js
+---> The files with partial_cherrypicks are:-
+Makefile
+app/config/all
+app/manifest.json
+app/manual/changelog.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 49 is -> 
+{ 1e6d8cad216f25d6aeb05ec7b63ed9d4e3bf0d53 -> f9d0b4eee5c01fd92c00d40d7be121dccd96b3e6 } is a cherrypick
+{ e5ce62b9c0f756374d28358d402370d99e54b7ff -> c90988867522d5fe5e6348f04f7244ee059786a5 }
+Partial Cherry-pick commits SHA are -> 
+f9d0b4eee5c01fd92c00d40d7be121dccd96b3e6 - cherrypick - c90988867522d5fe5e6348f04f7244ee059786a5
+---> The cherrypicked commit sha is - f9d0b4eee5c01fd92c00d40d7be121dccd96b3e6
+Commit message - Added hint for case insensitive find
+---> The original commit sha is - c90988867522d5fe5e6348f04f7244ee059786a5
+Commit message - Merge pull request #162 from TheKiteEatingTree/findCaseInsensitive
+
+Added command to do a case insensitive find
+---> The files with partial_cherrypicks are:-
+app/js/goto.js
+app/js/lib/locator.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 50 is -> 
+{ aeb8e61b09d9ae0cc31155cfe4134553a3d1539c -> b24a96acef9693c81c576cbd3460643720936290 } is a cherrypick
+{ 5e830f2176efcf1b80744047ee018ee2fd0e7052 -> 6564c4ca47438d9b6c67cb9765268ef5a797739e }
+Partial Cherry-pick commits SHA are -> 
+b24a96acef9693c81c576cbd3460643720936290 - cherrypick - 6564c4ca47438d9b6c67cb9765268ef5a797739e
+---> The cherrypicked commit sha is - b24a96acef9693c81c576cbd3460643720936290
+Commit message - #156.  Added option to auto indent on paste
+---> The original commit sha is - 6564c4ca47438d9b6c67cb9765268ef5a797739e
+Commit message - Merge pull request #158 from TheKiteEatingTree/autoIndent
+
+Added option to auto indent on paste
+---> The files with partial_cherrypicks are:-
+app/config/default/commands.json
+app/config/default/preferences.json
+app/js/editor.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 51 is -> 
+{ e0e9642fbc09b4ee711dfc093a7bd6f8e8afe1fe -> 20045ac10302ef4ed6097a762798ff9887f8f016 } is a cherrypick
+{ fde9bc2d9864231d0292522c5c8ec6f4f0b1488a -> 5e830f2176efcf1b80744047ee018ee2fd0e7052 }
+Partial Cherry-pick commits SHA are -> 
+20045ac10302ef4ed6097a762798ff9887f8f016 - cherrypick - 5e830f2176efcf1b80744047ee018ee2fd0e7052
+---> The cherrypicked commit sha is - 20045ac10302ef4ed6097a762798ff9887f8f016
+Commit message - allowed relative filepaths for css files in themes.  Also removed some unnecessary code
+---> The original commit sha is - 5e830f2176efcf1b80744047ee018ee2fd0e7052
+Commit message - Merge pull request #154 from TheKiteEatingTree/liveReloadTheme
+
+Live reload theme CSS
+---> The files with partial_cherrypicks are:-
+app/js/config.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 52 is -> 
+{ 61e6503accd3ab0daeb30ba4a093ef1dc5156623 -> 69cfc727eb13812e21c84aff6f145ed911dc1040 } is a cherrypick
+{ 8ef67abf644f9d7ee739fcce0bb38345f81ab34f -> 7d120820e53c7551cc4c9909b0ae8ed43db44f68 }
+Partial Cherry-pick commits SHA are -> 
+69cfc727eb13812e21c84aff6f145ed911dc1040 - cherrypick - 7d120820e53c7551cc4c9909b0ae8ed43db44f68
+---> The cherrypicked commit sha is - 69cfc727eb13812e21c84aff6f145ed911dc1040
+Commit message - Merge branch 'master' of github.com:zedapp/zed
+---> The original commit sha is - 7d120820e53c7551cc4c9909b0ae8ed43db44f68
+Commit message - Merge branch 'master' into factor-out-packages
+
+Conflicts:
+	app/config/default/mode/javascript.json
+	app/config/default/mode/javascript/beautify.js
+	app/config/default/mode/javascript/check.js
+	app/config/default/mode/javascript/ctags.js
+	app/config/default/mode/json.json
+	app/config/default/mode/json/check.js
+---> The files with partial_cherrypicks are:-
+app/config/default/zpm/zpm.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 53 is -> 
+{ 69cfc727eb13812e21c84aff6f145ed911dc1040 -> 95c150140b965aac46afb61f00762d4186fee406 } is a cherrypick
+{ 8ef67abf644f9d7ee739fcce0bb38345f81ab34f -> 7d120820e53c7551cc4c9909b0ae8ed43db44f68 }
+Partial Cherry-pick commits SHA are -> 
+95c150140b965aac46afb61f00762d4186fee406 - cherrypick - 7d120820e53c7551cc4c9909b0ae8ed43db44f68
+---> The cherrypicked commit sha is - 95c150140b965aac46afb61f00762d4186fee406
+Commit message - Merge branch 'master' into factor-out-packages
+---> The original commit sha is - 7d120820e53c7551cc4c9909b0ae8ed43db44f68
+Commit message - Merge branch 'master' into factor-out-packages
+
+Conflicts:
+	app/config/default/mode/javascript.json
+	app/config/default/mode/javascript/beautify.js
+	app/config/default/mode/javascript/check.js
+	app/config/default/mode/javascript/ctags.js
+	app/config/default/mode/json.json
+	app/config/default/mode/json/check.js
+---> The files with partial_cherrypicks are:-
+.gitignore
+Makefile
+app/config/api/zed/config_fs.js
+app/config/default.json
+app/config/default/command/update_package.js
+app/config/default/mode/javascript/beautify-js.js
+app/config/default/mode/javascript/jshint.js
+app/config/default/mode/json/json_parse.js
+app/config/default/spellcheck/change.js
+app/config/default/spellcheck/check.js
+app/config/default/spellcheck/dict.js
+app/config/default/spellcheck/en_US/README.md
+app/config/default/spellcheck/en_US/en_US.aff
+app/config/default/spellcheck/en_US/en_US.dic
+app/config/default/spellcheck/fix.js
+app/config/default/spellcheck/typo.js
+app/config/default/zpm/install_config.js
+app/config/default/zpm/installed_packages.js
+app/config/default/zpm/installed_packages/execute.js
+app/config/default/zpm/zpm.js
+app/config/default/zpm/zpm.json
+app/config/packages/installed.json
+app/config/zedconfig.json
+app/js/sandbox/zed/configfs.js
+release/get.sh
+zedconfig.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 54 is -> 
+{ 95c150140b965aac46afb61f00762d4186fee406 -> a3531ac2196e53022ee4b5365a31d2805d72219d } is a cherrypick
+{ 8ef67abf644f9d7ee739fcce0bb38345f81ab34f -> 7d120820e53c7551cc4c9909b0ae8ed43db44f68 }
+Partial Cherry-pick commits SHA are -> 
+a3531ac2196e53022ee4b5365a31d2805d72219d - cherrypick - 7d120820e53c7551cc4c9909b0ae8ed43db44f68
+---> The cherrypicked commit sha is - a3531ac2196e53022ee4b5365a31d2805d72219d
+Commit message - 0.10 changelog
+---> The original commit sha is - 7d120820e53c7551cc4c9909b0ae8ed43db44f68
+Commit message - Merge branch 'master' into factor-out-packages
+
+Conflicts:
+	app/config/default/mode/javascript.json
+	app/config/default/mode/javascript/beautify.js
+	app/config/default/mode/javascript/check.js
+	app/config/default/mode/javascript/ctags.js
+	app/config/default/mode/json.json
+	app/config/default/mode/json/check.js
+---> The files with partial_cherrypicks are:-
+app/config/default/zpm/zpm.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 55 is -> 
+{ b74089ea1eee89a3bf2f6944fa180f60279aafb9 -> 4e4ef51785996c20fad3e41ea19f76ff356e349b } is a cherrypick
+{ a6dc5dd9291488dac6c8efb6ef61968663c8cae1 -> 8ef67abf644f9d7ee739fcce0bb38345f81ab34f }
+Partial Cherry-pick commits SHA are -> 
+4e4ef51785996c20fad3e41ea19f76ff356e349b - cherrypick - 8ef67abf644f9d7ee739fcce0bb38345f81ab34f
+---> The cherrypicked commit sha is - 4e4ef51785996c20fad3e41ea19f76ff356e349b
+Commit message - Call the existing inputable instead of defining how to get the cursorIndex twice.
+---> The original commit sha is - 8ef67abf644f9d7ee739fcce0bb38345f81ab34f
+Commit message - Merge branch 'master' of github.com:zedapp/zed
+---> The files with partial_cherrypicks are:-
+app/js/sandbox.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 56 is -> 
+{ 70400b9a7c4c0dfdedd779f058c8d4a669b29953 -> 8ef0006f7bc62f709e46ace9bf60c53a01c38265 } is a cherrypick
+{ a3531ac2196e53022ee4b5365a31d2805d72219d -> acbc89e20383bbe6fcbcdf61b00a0f367e7f0809 }
+Partial Cherry-pick commits SHA are -> 
+8ef0006f7bc62f709e46ace9bf60c53a01c38265 - cherrypick - acbc89e20383bbe6fcbcdf61b00a0f367e7f0809
+---> The cherrypicked commit sha is - 8ef0006f7bc62f709e46ace9bf60c53a01c38265
+Commit message - Expose preferences to extensions as well.
+---> The original commit sha is - acbc89e20383bbe6fcbcdf61b00a0f367e7f0809
+Commit message - Merge branch 'master' into expanded_extension_info
+---> The files with partial_cherrypicks are:-
+app/js/sandbox.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 57 is -> 
+{ 61e6503accd3ab0daeb30ba4a093ef1dc5156623 -> 69cfc727eb13812e21c84aff6f145ed911dc1040 } is a cherrypick
+{ 69cfc727eb13812e21c84aff6f145ed911dc1040 -> 95c150140b965aac46afb61f00762d4186fee406 }
+Partial Cherry-pick commits SHA are -> 
+69cfc727eb13812e21c84aff6f145ed911dc1040 - cherrypick - 95c150140b965aac46afb61f00762d4186fee406
+---> The cherrypicked commit sha is - 69cfc727eb13812e21c84aff6f145ed911dc1040
+Commit message - Merge branch 'master' of github.com:zedapp/zed
+---> The original commit sha is - 95c150140b965aac46afb61f00762d4186fee406
+Commit message - Merge branch 'master' into factor-out-packages
+---> The files with partial_cherrypicks are:-
+app/config/default/zpm/zpm.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 58 is -> 
+{ 08dc6231e91fd262d54c4ad98a73cdcfd685feb1 -> 0ee58b1abf6c98100f38c7dc4606596adaf1806c } is a cherrypick
+{ 24d55b4fb01635a1957e84bfaf88f9d47cb125ad -> d5602069387ef8c5e93a0df8c85764ee2abb4c98 }
+Partial Cherry-pick commits SHA are -> 
+0ee58b1abf6c98100f38c7dc4606596adaf1806c - cherrypick - d5602069387ef8c5e93a0df8c85764ee2abb4c98
+---> The cherrypicked commit sha is - 0ee58b1abf6c98100f38c7dc4606596adaf1806c
+Commit message - Compilation scripts
+---> The original commit sha is - d5602069387ef8c5e93a0df8c85764ee2abb4c98
+Commit message - get.sh back
+---> The files with partial_cherrypicks are:-
+release/get.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 59 is -> 
+{ 7dfda24877040fb0186dbdd32b650bcb8e263b4f -> 69576d2f0b6d6203b217e8e7e7ab640348c2121f } is a cherrypick
+{ 24d55b4fb01635a1957e84bfaf88f9d47cb125ad -> d5602069387ef8c5e93a0df8c85764ee2abb4c98 }
+Partial Cherry-pick commits SHA are -> 
+69576d2f0b6d6203b217e8e7e7ab640348c2121f - cherrypick - d5602069387ef8c5e93a0df8c85764ee2abb4c98
+---> The cherrypicked commit sha is - 69576d2f0b6d6203b217e8e7e7ab640348c2121f
+Commit message - More windowing commands.
+---> The original commit sha is - d5602069387ef8c5e93a0df8c85764ee2abb4c98
+Commit message - get.sh back
+---> The files with partial_cherrypicks are:-
+release/get.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 60 is -> 
+{ 55998a3acaf3d04b71c7089d4ff8e771561f3cfd -> fdd848830899371b2a6c592e584ce5366c8180f3 } is a cherrypick
+{ 24d55b4fb01635a1957e84bfaf88f9d47cb125ad -> d5602069387ef8c5e93a0df8c85764ee2abb4c98 }
+Partial Cherry-pick commits SHA are -> 
+fdd848830899371b2a6c592e584ce5366c8180f3 - cherrypick - d5602069387ef8c5e93a0df8c85764ee2abb4c98
+---> The cherrypicked commit sha is - fdd848830899371b2a6c592e584ce5366c8180f3
+Commit message - Whoa.
+---> The original commit sha is - d5602069387ef8c5e93a0df8c85764ee2abb4c98
+Commit message - get.sh back
+---> The files with partial_cherrypicks are:-
+release/get.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 61 is -> 
+{ 9dfc7fa862e87cc9a89b5cd0f458c06afbc808e7 -> 9ef52a48ce025199b9c00465536f15996fb22388 } is a cherrypick
+{ 24d55b4fb01635a1957e84bfaf88f9d47cb125ad -> d5602069387ef8c5e93a0df8c85764ee2abb4c98 }
+Partial Cherry-pick commits SHA are -> 
+9ef52a48ce025199b9c00465536f15996fb22388 - cherrypick - d5602069387ef8c5e93a0df8c85764ee2abb4c98
+---> The cherrypicked commit sha is - 9ef52a48ce025199b9c00465536f15996fb22388
+Commit message - Dark window buttons on blur, more spacing
+---> The original commit sha is - d5602069387ef8c5e93a0df8c85764ee2abb4c98
+Commit message - get.sh back
+---> The files with partial_cherrypicks are:-
+release/get.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 62 is -> 
+{ b995825d2db97b4258d64b03e56547417c31f834 -> b4ca903e99feb565d0880463f50ffe81322f7ef3 } is a cherrypick
+{ 70400b9a7c4c0dfdedd779f058c8d4a669b29953 -> 8ef0006f7bc62f709e46ace9bf60c53a01c38265 }
+Partial Cherry-pick commits SHA are -> 
+b4ca903e99feb565d0880463f50ffe81322f7ef3 - cherrypick - 8ef0006f7bc62f709e46ace9bf60c53a01c38265
+---> The cherrypicked commit sha is - b4ca903e99feb565d0880463f50ffe81322f7ef3
+Commit message - Pre-emptively pass more info to the sandbox modules.
+---> The original commit sha is - 8ef0006f7bc62f709e46ace9bf60c53a01c38265
+Commit message - Expose preferences to extensions as well.
+---> The files with partial_cherrypicks are:-
+app/js/command.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 63 is -> 
+{ 58fe0973335ae0c3c70e78ba3f988d892acdf889 -> bccaa111978cd48f88359d3d3b18a303cbe913bb } is a cherrypick
+{ 9ef52a48ce025199b9c00465536f15996fb22388 -> 8fe11de1d969ba5614680589645c469490b1f331 }
+Partial Cherry-pick commits SHA are -> 
+bccaa111978cd48f88359d3d3b18a303cbe913bb - cherrypick - 8fe11de1d969ba5614680589645c469490b1f331
+---> The cherrypicked commit sha is - bccaa111978cd48f88359d3d3b18a303cbe913bb
+Commit message - Set up a user.css file to allow easy theme customization.  Also allowed themes to have more than one css file
+---> The original commit sha is - 8fe11de1d969ba5614680589645c469490b1f331
+Commit message - Merge branch 'new-ui' of github.com:zedapp/zed into new-ui
+---> The files with partial_cherrypicks are:-
+app/editor.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 64 is -> 
+{ ad398c52987f2f912905d6d11392a3dc5180b4cd -> d4c16d3bb191f97ec0604cf8e54f680a13cb81e7 } is a cherrypick
+{ 9ef52a48ce025199b9c00465536f15996fb22388 -> 8fe11de1d969ba5614680589645c469490b1f331 }
+Partial Cherry-pick commits SHA are -> 
+d4c16d3bb191f97ec0604cf8e54f680a13cb81e7 - cherrypick - 8fe11de1d969ba5614680589645c469490b1f331
+---> The cherrypicked commit sha is - d4c16d3bb191f97ec0604cf8e54f680a13cb81e7
+Commit message - renamed cssFile to cssFiles since its mostly an array
+---> The original commit sha is - 8fe11de1d969ba5614680589645c469490b1f331
+Commit message - Merge branch 'new-ui' of github.com:zedapp/zed into new-ui
+---> The files with partial_cherrypicks are:-
+app/editor.html
+app/js/theme.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 65 is -> 
+{ 112d0312a57b56cfcfb71b257f99bd2939d94b6d -> ad398c52987f2f912905d6d11392a3dc5180b4cd } is a cherrypick
+{ c093bca4f6f243c9142932e0c705a5836e5aa064 -> 9dfc7fa862e87cc9a89b5cd0f458c06afbc808e7 }
+Partial Cherry-pick commits SHA are -> 
+ad398c52987f2f912905d6d11392a3dc5180b4cd - cherrypick - 9dfc7fa862e87cc9a89b5cd0f458c06afbc808e7
+---> The cherrypicked commit sha is - ad398c52987f2f912905d6d11392a3dc5180b4cd
+Commit message - Implement Global Auto Revert Mode.
+---> The original commit sha is - 9dfc7fa862e87cc9a89b5cd0f458c06afbc808e7
+Commit message - Merge pull request #138 from robru/global_auto_revert
+
+Global auto revert mode, fixes #125
+---> The files with partial_cherrypicks are:-
+app/config/default/commands.json
+app/js/session_manager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 66 is -> 
+{ 55998a3acaf3d04b71c7089d4ff8e771561f3cfd -> fdd848830899371b2a6c592e584ce5366c8180f3 } is a cherrypick
+{ 26cd67049bbc8cbd3ce91af0f06c2cab4201b1c9 -> c093bca4f6f243c9142932e0c705a5836e5aa064 }
+Partial Cherry-pick commits SHA are -> 
+fdd848830899371b2a6c592e584ce5366c8180f3 - cherrypick - c093bca4f6f243c9142932e0c705a5836e5aa064
+---> The cherrypicked commit sha is - fdd848830899371b2a6c592e584ce5366c8180f3
+Commit message - Whoa.
+---> The original commit sha is - c093bca4f6f243c9142932e0c705a5836e5aa064
+Commit message - Merge pull request #129 from robru/sandbox_togglers
+
+Push all the preference togglers into the sandbox.
+---> The files with partial_cherrypicks are:-
+app/config/default/command/toggle.js
+app/config/default/command/toggle_whitespace_empty_lines.js
+app/config/default/command/toggle_whitespace_save.js
+app/config/default/commands.json
+app/js/command.js
+app/js/contextbar.js
+app/js/editor.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 67 is -> 
+{ bccaa111978cd48f88359d3d3b18a303cbe913bb -> 112d0312a57b56cfcfb71b257f99bd2939d94b6d } is a cherrypick
+{ 26cd67049bbc8cbd3ce91af0f06c2cab4201b1c9 -> c093bca4f6f243c9142932e0c705a5836e5aa064 }
+Partial Cherry-pick commits SHA are -> 
+112d0312a57b56cfcfb71b257f99bd2939d94b6d - cherrypick - c093bca4f6f243c9142932e0c705a5836e5aa064
+---> The cherrypicked commit sha is - 112d0312a57b56cfcfb71b257f99bd2939d94b6d
+Commit message - Sort default preferences ;-)
+---> The original commit sha is - c093bca4f6f243c9142932e0c705a5836e5aa064
+Commit message - Merge pull request #129 from robru/sandbox_togglers
+
+Push all the preference togglers into the sandbox.
+---> The files with partial_cherrypicks are:-
+app/config/default/command/toggle.js
+app/config/default/command/toggle_whitespace_empty_lines.js
+app/config/default/command/toggle_whitespace_save.js
+app/config/default/commands.json
+app/js/command.js
+app/js/editor.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 68 is -> 
+{ baee228820706da2f0041f8be903313418e991ca -> ee553609d99db71d2cc564e6f8030020b008b01c } is a cherrypick
+{ c70d47baf9b65d35083102d29d709575c47d543a -> f7eca9fac695f478fd8b597d8220666bd66c1b84 }
+Partial Cherry-pick commits SHA are -> 
+ee553609d99db71d2cc564e6f8030020b008b01c - cherrypick - f7eca9fac695f478fd8b597d8220666bd66c1b84
+---> The cherrypicked commit sha is - ee553609d99db71d2cc564e6f8030020b008b01c
+Commit message - Streamline the sandbox toggler.
+---> The original commit sha is - f7eca9fac695f478fd8b597d8220666bd66c1b84
+Commit message - Merge pull request #116 from robru/trim_whitespace
+
+Add "Trim Whitespace" to the sandbox.
+---> The files with partial_cherrypicks are:-
+app/config/api/zed/config.js
+app/config/default/command/autostripper.js
+app/config/default/command/stripper.js
+app/config/default/command/toggle_whitespace_empty_lines.js
+app/config/default/command/toggle_whitespace_save.js
+app/config/default/commands.json
+app/config/default/handlers.json
+app/config/default/preferences.json
+app/js/command.js
+app/js/config.js
+app/js/contextbar.js
+app/js/editor.js
+app/js/handlers.js
+app/js/sandbox/zed/config.js
+app/js/session_manager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 69 is -> 
+{ 5475242d01c77672b11f51b2b108776181c59371 -> baee228820706da2f0041f8be903313418e991ca } is a cherrypick
+{ ee553609d99db71d2cc564e6f8030020b008b01c -> c70d47baf9b65d35083102d29d709575c47d543a }
+Partial Cherry-pick commits SHA are -> 
+baee228820706da2f0041f8be903313418e991ca - cherrypick - c70d47baf9b65d35083102d29d709575c47d543a
+---> The cherrypicked commit sha is - baee228820706da2f0041f8be903313418e991ca
+Commit message - Implement getCursorIndex and setCursorIndex for the sandbox.
+---> The original commit sha is - c70d47baf9b65d35083102d29d709575c47d543a
+Commit message - Merge pull request #126 from robru/cursor_index
+
+Implement getCursorIndex and setCursorIndex for the sandbox.
+---> The files with partial_cherrypicks are:-
+app/config/api/zed/config.js
+app/config/api/zed/session.js
+app/config/default/command/autostripper.js
+app/config/default/command/stripper.js
+app/config/default/command/toggle_whitespace_empty_lines.js
+app/config/default/command/toggle_whitespace_save.js
+app/config/default/commands.json
+app/config/default/handlers.json
+app/config/default/keys.json
+app/config/default/preferences.json
+app/js/command.js
+app/js/config.js
+app/js/contextbar.js
+app/js/editor.js
+app/js/handlers.js
+app/js/sandbox/zed/session.js
+app/js/session_manager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 70 is -> 
+{ 3d8eef6040b464b365f82dd06a579a549d8747c6 -> c3f86b824bc85390d50bcae61201531e735dc3ee } is a cherrypick
+{ cbd14a7157809cc1a9f5823be8c4657d4414b4f8 -> 8aa860857b07f9ce1acf2e20507edfe008e6eeed }
+Partial Cherry-pick commits SHA are -> 
+c3f86b824bc85390d50bcae61201531e735dc3ee - cherrypick - 8aa860857b07f9ce1acf2e20507edfe008e6eeed
+---> The cherrypicked commit sha is - c3f86b824bc85390d50bcae61201531e735dc3ee
+Commit message - Work
+---> The original commit sha is - 8aa860857b07f9ce1acf2e20507edfe008e6eeed
+Commit message - Merge branch 'master' into new-ui
+---> The files with partial_cherrypicks are:-
+app/config/default/zpm/auto_update.js
+app/config/default/zpm/zpm.js
+app/js/lib/ui.js
+app/js/open.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 71 is -> 
+{ e33f8c68b265cccd8ddf6014d464e378cab01860 -> d05471f3bab368cd04ff275cc0111fec8f4667af } is a cherrypick
+{ cbd14a7157809cc1a9f5823be8c4657d4414b4f8 -> 8aa860857b07f9ce1acf2e20507edfe008e6eeed }
+Partial Cherry-pick commits SHA are -> 
+d05471f3bab368cd04ff275cc0111fec8f4667af - cherrypick - 8aa860857b07f9ce1acf2e20507edfe008e6eeed
+---> The cherrypicked commit sha is - d05471f3bab368cd04ff275cc0111fec8f4667af
+Commit message - Merge branch 'master' into new-ui
+---> The original commit sha is - 8aa860857b07f9ce1acf2e20507edfe008e6eeed
+Commit message - Merge branch 'master' into new-ui
+---> The files with partial_cherrypicks are:-
+app/config/default/zpm/auto_update.js
+app/config/default/zpm/zpm.js
+app/js/lib/ui.js
+app/js/open.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 72 is -> 
+{ 4408edd27e5af8791c306039579c90d41207eaca -> ca1952562fd6e24c9fbe410de7e03191ebeaf8b3 } is a cherrypick
+{ cbd14a7157809cc1a9f5823be8c4657d4414b4f8 -> 8aa860857b07f9ce1acf2e20507edfe008e6eeed }
+Partial Cherry-pick commits SHA are -> 
+ca1952562fd6e24c9fbe410de7e03191ebeaf8b3 - cherrypick - 8aa860857b07f9ce1acf2e20507edfe008e6eeed
+---> The cherrypicked commit sha is - ca1952562fd6e24c9fbe410de7e03191ebeaf8b3
+Commit message - More layout tweaks
+---> The original commit sha is - 8aa860857b07f9ce1acf2e20507edfe008e6eeed
+Commit message - Merge branch 'master' into new-ui
+---> The files with partial_cherrypicks are:-
+app/config/default/zpm/auto_update.js
+app/config/default/zpm/zpm.js
+app/css/editor.css
+app/js/contextbar.js
+app/js/lib/ui.js
+app/js/open.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 73 is -> 
+{ 0e1a506fecef9d052477486dfb1796a735a4869e -> 979318a412c6ca6dbd2f9545d23e2cbd49715b1f } is a cherrypick
+{ cbd14a7157809cc1a9f5823be8c4657d4414b4f8 -> 8aa860857b07f9ce1acf2e20507edfe008e6eeed }
+Partial Cherry-pick commits SHA are -> 
+979318a412c6ca6dbd2f9545d23e2cbd49715b1f - cherrypick - 8aa860857b07f9ce1acf2e20507edfe008e6eeed
+---> The cherrypicked commit sha is - 979318a412c6ca6dbd2f9545d23e2cbd49715b1f
+Commit message - Added close window command
+---> The original commit sha is - 8aa860857b07f9ce1acf2e20507edfe008e6eeed
+Commit message - Merge branch 'master' into new-ui
+---> The files with partial_cherrypicks are:-
+app/config/default/zpm/auto_update.js
+app/config/default/zpm/zpm.js
+app/css/editor.css
+app/js/contextbar.js
+app/js/lib/ui.js
+app/js/open.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 74 is -> 
+{ e8b64ebafb478cb9c38179c92da78ff3c01d38b5 -> e33f8c68b265cccd8ddf6014d464e378cab01860 } is a cherrypick
+{ e6422d6dce76eae6044fd7a5e726e1b3c563653e -> 756cc419f0fd290a53caa7f72b36e8c3c876c862 }
+Partial Cherry-pick commits SHA are -> 
+e33f8c68b265cccd8ddf6014d464e378cab01860 - cherrypick - 756cc419f0fd290a53caa7f72b36e8c3c876c862
+---> The cherrypicked commit sha is - e33f8c68b265cccd8ddf6014d464e378cab01860
+Commit message - Update indexes
+---> The original commit sha is - 756cc419f0fd290a53caa7f72b36e8c3c876c862
+Commit message - Merge branch 'master' into trim_whitespace
+---> The files with partial_cherrypicks are:-
+app/config/all
+app/config/default/command/sort_selection.js
+app/config/default/keys.json
+app/js/config.js
+app/js/fs/config.js
+app/manifest.json
+app/manual/changelog.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 75 is -> 
+{ 3d8eef6040b464b365f82dd06a579a549d8747c6 -> c3f86b824bc85390d50bcae61201531e735dc3ee } is a cherrypick
+{ e33f8c68b265cccd8ddf6014d464e378cab01860 -> d05471f3bab368cd04ff275cc0111fec8f4667af }
+Partial Cherry-pick commits SHA are -> 
+c3f86b824bc85390d50bcae61201531e735dc3ee - cherrypick - d05471f3bab368cd04ff275cc0111fec8f4667af
+---> The cherrypicked commit sha is - c3f86b824bc85390d50bcae61201531e735dc3ee
+Commit message - Work
+---> The original commit sha is - d05471f3bab368cd04ff275cc0111fec8f4667af
+Commit message - Merge branch 'master' into new-ui
+---> The files with partial_cherrypicks are:-
+app/config/default/zpm/auto_update.js
+app/config/default/zpm/zpm.js
+app/css/editor.css
+app/js/boot.js
+app/js/contextbar.js
+app/js/lib/ui.js
+app/js/open.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 76 is -> 
+{ 86df4f81f10d934fdc24729b5eb9db206052dd28 -> 1a5b08c8323f96019b17e6f16fe6ea4262819159 } is a cherrypick
+{ 323f285d95150cd6473bcec19d76013c0f820906 -> 049d11728cc04ab7a0c3e566a41c895eb7600361 }
+Partial Cherry-pick commits SHA are -> 
+1a5b08c8323f96019b17e6f16fe6ea4262819159 - cherrypick - 049d11728cc04ab7a0c3e566a41c895eb7600361
+---> The cherrypicked commit sha is - 1a5b08c8323f96019b17e6f16fe6ea4262819159
+Commit message - Clean up sort_selection.js
+---> The original commit sha is - 049d11728cc04ab7a0c3e566a41c895eb7600361
+Commit message - Merge pull request #117 from robru/cleanup_sort_selection
+
+Clean up sort_selection.js
+---> The files with partial_cherrypicks are:-
+app/config/default/command/sort_selection.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 77 is -> 
+{ b1d17ff44f66f117a8041430b27d0f984fa694cc -> 57926cb45da1ddea1e897dc0f4d32aaa6581e660 } is a cherrypick
+{ c15fec809d2c37c760d65e94d8f7fad37e1e9f92 -> 323f285d95150cd6473bcec19d76013c0f820906 }
+Partial Cherry-pick commits SHA are -> 
+57926cb45da1ddea1e897dc0f4d32aaa6581e660 - cherrypick - 323f285d95150cd6473bcec19d76013c0f820906
+---> The cherrypicked commit sha is - 57926cb45da1ddea1e897dc0f4d32aaa6581e660
+Commit message - Nest callbacks to avoid race condition.
+---> The original commit sha is - 323f285d95150cd6473bcec19d76013c0f820906
+Commit message - Merge branch 'master' of github.com:zedapp/zed
+---> The files with partial_cherrypicks are:-
+app/config/default/command/sort_selection.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 78 is -> 
+{ 9c6a309b5d36e23c3b2978ef0c11504cc8a55578 -> aa4696ef4daac7717502d1646f67983f75361253 } is a cherrypick
+{ c15fec809d2c37c760d65e94d8f7fad37e1e9f92 -> 323f285d95150cd6473bcec19d76013c0f820906 }
+Partial Cherry-pick commits SHA are -> 
+aa4696ef4daac7717502d1646f67983f75361253 - cherrypick - 323f285d95150cd6473bcec19d76013c0f820906
+---> The cherrypicked commit sha is - aa4696ef4daac7717502d1646f67983f75361253
+Commit message - Drop default keybinding.
+---> The original commit sha is - 323f285d95150cd6473bcec19d76013c0f820906
+Commit message - Merge branch 'master' of github.com:zedapp/zed
+---> The files with partial_cherrypicks are:-
+app/config/default/command/sort_selection.js
+app/config/default/keys.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 79 is -> 
+{ ce3c72fba0cacdf04800ca0e62428dc9974ecb3a -> 6c4d9ee4b0c1265316d7befd6f53d18330a2305a } is a cherrypick
+{ c15fec809d2c37c760d65e94d8f7fad37e1e9f92 -> 323f285d95150cd6473bcec19d76013c0f820906 }
+Partial Cherry-pick commits SHA are -> 
+6c4d9ee4b0c1265316d7befd6f53d18330a2305a - cherrypick - 323f285d95150cd6473bcec19d76013c0f820906
+---> The cherrypicked commit sha is - 6c4d9ee4b0c1265316d7befd6f53d18330a2305a
+Commit message - Work on UI
+---> The original commit sha is - 323f285d95150cd6473bcec19d76013c0f820906
+Commit message - Merge branch 'master' of github.com:zedapp/zed
+---> The files with partial_cherrypicks are:-
+app/config/default/keys.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 80 is -> 
+{ b20b3aba29e2f7d3e05805a8f09fd2f33b0865fe -> 86df4f81f10d934fdc24729b5eb9db206052dd28 } is a cherrypick
+{ c15fec809d2c37c760d65e94d8f7fad37e1e9f92 -> 323f285d95150cd6473bcec19d76013c0f820906 }
+Partial Cherry-pick commits SHA are -> 
+86df4f81f10d934fdc24729b5eb9db206052dd28 - cherrypick - 323f285d95150cd6473bcec19d76013c0f820906
+---> The cherrypicked commit sha is - 86df4f81f10d934fdc24729b5eb9db206052dd28
+Commit message - Add "Trim Whitespace" to the sandbox.
+---> The original commit sha is - 323f285d95150cd6473bcec19d76013c0f820906
+Commit message - Merge branch 'master' of github.com:zedapp/zed
+---> The files with partial_cherrypicks are:-
+app/config/default/command/sort_selection.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 81 is -> 
+{ 3d8eef6040b464b365f82dd06a579a549d8747c6 -> c3f86b824bc85390d50bcae61201531e735dc3ee } is a cherrypick
+{ c15fec809d2c37c760d65e94d8f7fad37e1e9f92 -> 323f285d95150cd6473bcec19d76013c0f820906 }
+Partial Cherry-pick commits SHA are -> 
+c3f86b824bc85390d50bcae61201531e735dc3ee - cherrypick - 323f285d95150cd6473bcec19d76013c0f820906
+---> The cherrypicked commit sha is - c3f86b824bc85390d50bcae61201531e735dc3ee
+Commit message - Work
+---> The original commit sha is - 323f285d95150cd6473bcec19d76013c0f820906
+Commit message - Merge branch 'master' of github.com:zedapp/zed
+---> The files with partial_cherrypicks are:-
+app/config/default/keys.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 82 is -> 
+{ 9c6a309b5d36e23c3b2978ef0c11504cc8a55578 -> aa4696ef4daac7717502d1646f67983f75361253 } is a cherrypick
+{ 6c4d9ee4b0c1265316d7befd6f53d18330a2305a -> b20b3aba29e2f7d3e05805a8f09fd2f33b0865fe }
+Partial Cherry-pick commits SHA are -> 
+aa4696ef4daac7717502d1646f67983f75361253 - cherrypick - b20b3aba29e2f7d3e05805a8f09fd2f33b0865fe
+---> The cherrypicked commit sha is - aa4696ef4daac7717502d1646f67983f75361253
+Commit message - Drop default keybinding.
+---> The original commit sha is - b20b3aba29e2f7d3e05805a8f09fd2f33b0865fe
+Commit message - Keep Alt-D for macs.
+---> The files with partial_cherrypicks are:-
+app/js/open.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 83 is -> 
+{ 9c6a309b5d36e23c3b2978ef0c11504cc8a55578 -> aa4696ef4daac7717502d1646f67983f75361253 } is a cherrypick
+{ ce3c72fba0cacdf04800ca0e62428dc9974ecb3a -> 6c4d9ee4b0c1265316d7befd6f53d18330a2305a }
+Partial Cherry-pick commits SHA are -> 
+aa4696ef4daac7717502d1646f67983f75361253 - cherrypick - 6c4d9ee4b0c1265316d7befd6f53d18330a2305a
+---> The cherrypicked commit sha is - aa4696ef4daac7717502d1646f67983f75361253
+Commit message - Drop default keybinding.
+---> The original commit sha is - 6c4d9ee4b0c1265316d7befd6f53d18330a2305a
+Commit message - Work on UI
+---> The files with partial_cherrypicks are:-
+app/config/default/keys.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 84 is -> 
+{ 00efdfb39de7b19eb56083c17f16b484b6bbda44 -> 637bbc346ddfe3bb5d96fed0d62eaa1872dc6895 } is a cherrypick
+{ aa4696ef4daac7717502d1646f67983f75361253 -> ce3c72fba0cacdf04800ca0e62428dc9974ecb3a }
+Partial Cherry-pick commits SHA are -> 
+637bbc346ddfe3bb5d96fed0d62eaa1872dc6895 - cherrypick - ce3c72fba0cacdf04800ca0e62428dc9974ecb3a
+---> The cherrypicked commit sha is - 637bbc346ddfe3bb5d96fed0d62eaa1872dc6895
+Commit message - Support relative `scriptUrl`s and `import`s.
+---> The original commit sha is - ce3c72fba0cacdf04800ca0e62428dc9974ecb3a
+Commit message - Merge pull request #108 from robru/sort_selection
+
+Add a selected line sorter to the sandbox.
+---> The files with partial_cherrypicks are:-
+app/config/all
+app/config/api/zed/config.js
+app/config/api/zed/config_fs.js
+app/config/api/zed/http.js
+app/config/api/zed/project.js
+app/config/default.json
+app/config/default/commands.json
+app/config/default/mode/javascript.json
+app/config/default/mode/markdown.json
+app/config/default/mode/text.json
+app/config/default/modes.json
+app/config/default/zpm/auto_update.js
+app/config/default/zpm/install.js
+app/config/default/zpm/install_config.js
+app/config/default/zpm/installed_packages.js
+app/config/default/zpm/installed_packages/execute.js
+app/config/default/zpm/zpm.js
+app/config/default/zpm/zpm.json
+app/config/packages/installed.json
+app/config/user.json
+app/js/boot.js
+app/js/config.js
+app/js/file.js
+app/js/fs/sync.js
+app/js/handlers.js
+app/js/lib/ui.js
+app/js/log.js
+app/js/sandbox.js
+app/js/sandbox/rjs_loader.js
+app/js/sandbox/zed/config.js
+app/js/sandbox/zed/configfs.js
+app/js/sandbox/zed/http.js
+app/js/sandbox/zed/project.js
+app/js/sandbox_webview.js
+app/js/session_manager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 85 is -> 
+{ 57926cb45da1ddea1e897dc0f4d32aaa6581e660 -> 01e4e58cf07d41fca36d6f53c7308425a48857eb } is a cherrypick
+{ aa4696ef4daac7717502d1646f67983f75361253 -> ce3c72fba0cacdf04800ca0e62428dc9974ecb3a }
+Partial Cherry-pick commits SHA are -> 
+01e4e58cf07d41fca36d6f53c7308425a48857eb - cherrypick - ce3c72fba0cacdf04800ca0e62428dc9974ecb3a
+---> The cherrypicked commit sha is - 01e4e58cf07d41fca36d6f53c7308425a48857eb
+Commit message - Better default keybinding for Remove Word Right
+
+So the default for `Remove Word Left` was `Ctrl-Backspace`, which makes a lot of sense: `Backspace`, `Left`, and `Right` keys all operate one letter at a time, and `Ctrl` makes them operate one word at a time. But the default for `Remove Word Right` was `Alt+D`, which didn't make any sense to me, because it seemed highly inconsistent, and also my window manager (Ubuntu Unity) gets confused by the alt key from time to time. 
+
+So, I propose that `Ctrl-Delete` is a much better shortcut, because it makes the `Ctrl` key consistently delete forward by words just like it makes the `Backspace` key delete backwards by words.
+
+If you disagree, I guess I'll just keep this to my personal config, but I felt strongly about this consistency so I wanted to share ;-)
+---> The original commit sha is - ce3c72fba0cacdf04800ca0e62428dc9974ecb3a
+Commit message - Merge pull request #108 from robru/sort_selection
+
+Add a selected line sorter to the sandbox.
+---> The files with partial_cherrypicks are:-
+app/config/all
+app/config/api/zed/config.js
+app/config/api/zed/config_fs.js
+app/config/api/zed/http.js
+app/config/api/zed/project.js
+app/config/default.json
+app/config/default/mode/javascript.json
+app/config/default/mode/markdown.json
+app/config/default/mode/python.json
+app/config/default/mode/text.json
+app/config/default/modes.json
+app/config/default/theme/zed_dark.css
+app/config/default/zpm/auto_update.js
+app/config/default/zpm/install.js
+app/config/default/zpm/install_config.js
+app/config/default/zpm/installed_packages.js
+app/config/default/zpm/installed_packages/execute.js
+app/config/default/zpm/zpm.js
+app/config/default/zpm/zpm.json
+app/config/packages/installed.json
+app/config/user.json
+app/js/boot.js
+app/js/config.js
+app/js/file.js
+app/js/fs/sync.js
+app/js/handlers.js
+app/js/lib/ui.js
+app/js/log.js
+app/js/sandbox.js
+app/js/sandbox/rjs_loader.js
+app/js/sandbox/zed/config.js
+app/js/sandbox/zed/configfs.js
+app/js/sandbox/zed/http.js
+app/js/sandbox/zed/project.js
+app/js/sandbox_webview.js
+app/js/session_manager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 86 is -> 
+{ 00efdfb39de7b19eb56083c17f16b484b6bbda44 -> 637bbc346ddfe3bb5d96fed0d62eaa1872dc6895 } is a cherrypick
+{ 0dbe1900cbbfd87c03c1ff5634579429af48bd96 -> 63e001e2d805d9bcc898c21c1fc34210ed4b6bbb }
+Partial Cherry-pick commits SHA are -> 
+637bbc346ddfe3bb5d96fed0d62eaa1872dc6895 - cherrypick - 63e001e2d805d9bcc898c21c1fc34210ed4b6bbb
+---> The cherrypicked commit sha is - 637bbc346ddfe3bb5d96fed0d62eaa1872dc6895
+Commit message - Support relative `scriptUrl`s and `import`s.
+---> The original commit sha is - 63e001e2d805d9bcc898c21c1fc34210ed4b6bbb
+Commit message - Merge branch 'zpm'
+---> The files with partial_cherrypicks are:-
+app/config/default/mode/javascript.json
+app/config/default/modes.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 87 is -> 
+{ a4c644c4d46b77cc5177b8640337738a0cd4e341 -> 00efdfb39de7b19eb56083c17f16b484b6bbda44 } is a cherrypick
+{ 637bbc346ddfe3bb5d96fed0d62eaa1872dc6895 -> 2b494e399a3c1954388bad885e116e052582060d }
+Partial Cherry-pick commits SHA are -> 
+00efdfb39de7b19eb56083c17f16b484b6bbda44 - cherrypick - 2b494e399a3c1954388bad885e116e052582060d
+---> The cherrypicked commit sha is - 00efdfb39de7b19eb56083c17f16b484b6bbda44
+Commit message - Merge pull request #107 from robru/master
+
+Add some basic snippets for Python.
+---> The original commit sha is - 2b494e399a3c1954388bad885e116e052582060d
+Commit message - Merge branch 'master' into zpm
+---> The files with partial_cherrypicks are:-
+app/config/default/mode/python.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 88 is -> 
+{ 83c0f424cd6ee67f5b3a3b76d209e20b583653a4 -> 773be95cab273583a6b88f74508ea9a9aca4b273 } is a cherrypick
+{ 9698b6ecfad6856ce024f9d6cfe381fbd1769bd3 -> 7b24163cd22d8eab70ff85f3be1ba4636c941eb6 }
+Partial Cherry-pick commits SHA are -> 
+773be95cab273583a6b88f74508ea9a9aca4b273 - cherrypick - 7b24163cd22d8eab70ff85f3be1ba4636c941eb6
+---> The cherrypicked commit sha is - 773be95cab273583a6b88f74508ea9a9aca4b273
+Commit message - Fixes #102: adds a Perl mode
+---> The original commit sha is - 7b24163cd22d8eab70ff85f3be1ba4636c941eb6
+Commit message - Added some comment about the #101 fix
+---> The files with partial_cherrypicks are:-
+app/config/api/zed/config.js
+app/config/api/zed/config_fs.js
+app/config/api/zed/http.js
+app/config/api/zed/project.js
+app/config/default.json
+app/config/default/commands.json
+app/config/default/mode/markdown.json
+app/config/default/mode/text.json
+app/config/default/theme/zed_dark.css
+app/config/default/zpm/auto_update.js
+app/config/default/zpm/install_config.js
+app/config/default/zpm/installed_packages.js
+app/config/default/zpm/zpm.json
+app/config/packages/installed.json
+app/config/user.json
+app/js/boot.js
+app/js/config.js
+app/js/fs/sync.js
+app/js/log.js
+app/js/sandbox.js
+app/js/sandbox/rjs_loader.js
+app/js/sandbox/zed/config.js
+app/js/sandbox/zed/configfs.js
+app/js/sandbox/zed/http.js
+app/js/sandbox/zed/project.js
+app/js/sandbox_webview.js
+app/js/session_manager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 89 is -> 
+{ 356d8cd5d0193f47f3bc3459093ac633ecb24b52 -> 83c0f424cd6ee67f5b3a3b76d209e20b583653a4 } is a cherrypick
+{ 773be95cab273583a6b88f74508ea9a9aca4b273 -> 5098d240f52630eecf3dd955acab623cdc9af625 }
+Partial Cherry-pick commits SHA are -> 
+83c0f424cd6ee67f5b3a3b76d209e20b583653a4 - cherrypick - 5098d240f52630eecf3dd955acab623cdc9af625
+---> The cherrypicked commit sha is - 83c0f424cd6ee67f5b3a3b76d209e20b583653a4
+Commit message - Remove log
+---> The original commit sha is - 5098d240f52630eecf3dd955acab623cdc9af625
+Commit message - Merge branch 'master' into zpm
+---> The files with partial_cherrypicks are:-
+app/config/api/zed/config.js
+app/config/api/zed/config_fs.js
+app/config/api/zed/http.js
+app/config/api/zed/project.js
+app/config/default.json
+app/config/default/commands.json
+app/config/default/mode/markdown.json
+app/config/default/mode/text.json
+app/config/default/theme/zed_dark.css
+app/config/default/zpm/auto_update.js
+app/config/default/zpm/install.js
+app/config/default/zpm/install_config.js
+app/config/default/zpm/installed_packages.js
+app/config/default/zpm/installed_packages/execute.js
+app/config/default/zpm/zpm.js
+app/config/default/zpm/zpm.json
+app/config/packages/installed.json
+app/config/user.json
+app/js/boot.js
+app/js/config.js
+app/js/file.js
+app/js/fs/sync.js
+app/js/handlers.js
+app/js/lib/ui.js
+app/js/log.js
+app/js/sandbox.js
+app/js/sandbox/rjs_loader.js
+app/js/sandbox/zed/config.js
+app/js/sandbox/zed/configfs.js
+app/js/sandbox/zed/http.js
+app/js/sandbox/zed/project.js
+app/js/sandbox_webview.js
+app/js/session_manager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 90 is -> 
+{ bc39ff74dd630c2085248ffaa8e7f612b34d4988 -> 2deb056252816b9747511866baf4af2547094e0c } is a cherrypick
+{ 17bf8079b8b272f4909b53e0a80a0701dea51080 -> 356d8cd5d0193f47f3bc3459093ac633ecb24b52 }
+Partial Cherry-pick commits SHA are -> 
+2deb056252816b9747511866baf4af2547094e0c - cherrypick - 356d8cd5d0193f47f3bc3459093ac633ecb24b52
+---> The cherrypicked commit sha is - 2deb056252816b9747511866baf4af2547094e0c
+Commit message - quick and dirty fix for wrong word being underlined when using tabs instead of spaces:
+---> The original commit sha is - 356d8cd5d0193f47f3bc3459093ac633ecb24b52
+Commit message - Merge pull request #104 from TheKiteEatingTree/underline
+
+quick fix for incorrectly underlined identifiers when using tabs
+---> The files with partial_cherrypicks are:-
+app/config/default/mode/javascript/check.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 91 is -> 
+{ 6a260b59a4bf764b0c53492db36f3de3b6d875ea -> 942a6e821fb3746cd48ae02c7871b1349763928c } is a cherrypick
+{ 6d73227b0354fa07f0fd42bc307c540a71cba818 -> 83e290a356dcafd4549271f3580d305c9c6b6eb7 }
+Partial Cherry-pick commits SHA are -> 
+942a6e821fb3746cd48ae02c7871b1349763928c - cherrypick - 83e290a356dcafd4549271f3580d305c9c6b6eb7
+---> The cherrypicked commit sha is - 942a6e821fb3746cd48ae02c7871b1349763928c
+Commit message - Added brackets around commands on installed extensions page.  Added install extension command to installed extensions page.  Changed how updating works to try to make it less likely that an extension breaks during a failed update.  If you're in the configuration project when installing, updating or uninstalling an extension the filelist now reloads
+---> The original commit sha is - 83e290a356dcafd4549271f3580d305c9c6b6eb7
+Commit message - Merge branch 'master' into zpm
+
+Conflicts:
+	app/config/api/zed/config_fs.js
+	app/config/api/zed/http.js
+	app/config/api/zed/project.js
+	app/js/sandbox.js
+---> The files with partial_cherrypicks are:-
+app/config/all
+app/config/ext/org.zedapp.ext.zpm/auto_update.js
+app/config/ext/org.zedapp.ext.zpm/data/installed.json
+app/config/ext/org.zedapp.ext.zpm/install.js
+app/config/ext/org.zedapp.ext.zpm/installed_extensions.js
+app/config/ext/org.zedapp.ext.zpm/installed_extensions/execute.js
+app/config/ext/org.zedapp.ext.zpm/zpm.js
+app/config/ext/org.zedapp.ext.zpm/zpm.json
+app/config/user.json
+app/js/handlers.js
+app/js/sandbox/zed/config.js
+app/js/sandbox/zed/configfs.js
+app/js/sandbox/zed/http.js
+app/js/sandbox/zed/project.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 92 is -> 
+{ 179033756bac3c71e97c29f8a75aa56ab454895b -> 236be013c6e123d7cef8a358bc7ff34a850d9892 } is a cherrypick
+{ 6d73227b0354fa07f0fd42bc307c540a71cba818 -> 83e290a356dcafd4549271f3580d305c9c6b6eb7 }
+Partial Cherry-pick commits SHA are -> 
+236be013c6e123d7cef8a358bc7ff34a850d9892 - cherrypick - 83e290a356dcafd4549271f3580d305c9c6b6eb7
+---> The cherrypicked commit sha is - 236be013c6e123d7cef8a358bc7ff34a850d9892
+Commit message - Merge remote-tracking branch 'refs/remotes/TheKiteEathingTree/zpm' into zpm
+---> The original commit sha is - 83e290a356dcafd4549271f3580d305c9c6b6eb7
+Commit message - Merge branch 'master' into zpm
+
+Conflicts:
+	app/config/api/zed/config_fs.js
+	app/config/api/zed/http.js
+	app/config/api/zed/project.js
+	app/js/sandbox.js
+---> The files with partial_cherrypicks are:-
+app/config/all
+app/config/ext/org.zedapp.ext.zpm/auto_update.js
+app/config/ext/org.zedapp.ext.zpm/data/installed.json
+app/config/ext/org.zedapp.ext.zpm/install.js
+app/config/ext/org.zedapp.ext.zpm/installed_extensions.js
+app/config/ext/org.zedapp.ext.zpm/installed_extensions/execute.js
+app/config/ext/org.zedapp.ext.zpm/zpm.js
+app/config/ext/org.zedapp.ext.zpm/zpm.json
+app/config/user.json
+app/js/handlers.js
+app/js/sandbox/zed/config.js
+app/js/sandbox/zed/configfs.js
+app/js/sandbox/zed/http.js
+app/js/sandbox/zed/project.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 93 is -> 
+{ 6a260b59a4bf764b0c53492db36f3de3b6d875ea -> 942a6e821fb3746cd48ae02c7871b1349763928c } is a cherrypick
+{ 179033756bac3c71e97c29f8a75aa56ab454895b -> 236be013c6e123d7cef8a358bc7ff34a850d9892 }
+Partial Cherry-pick commits SHA are -> 
+942a6e821fb3746cd48ae02c7871b1349763928c - cherrypick - 236be013c6e123d7cef8a358bc7ff34a850d9892
+---> The cherrypicked commit sha is - 942a6e821fb3746cd48ae02c7871b1349763928c
+Commit message - Added brackets around commands on installed extensions page.  Added install extension command to installed extensions page.  Changed how updating works to try to make it less likely that an extension breaks during a failed update.  If you're in the configuration project when installing, updating or uninstalling an extension the filelist now reloads
+---> The original commit sha is - 236be013c6e123d7cef8a358bc7ff34a850d9892
+Commit message - Merge remote-tracking branch 'refs/remotes/TheKiteEathingTree/zpm' into zpm
+---> The files with partial_cherrypicks are:-
+app/config/all
+app/config/api/zed/config_fs.js
+app/config/api/zed/http.js
+app/config/api/zed/project.js
+app/config/ext/org.zedapp.ext.zpm/auto_update.js
+app/config/ext/org.zedapp.ext.zpm/data/installed.json
+app/config/ext/org.zedapp.ext.zpm/install.js
+app/config/ext/org.zedapp.ext.zpm/installed_extensions.js
+app/config/ext/org.zedapp.ext.zpm/installed_extensions/execute.js
+app/config/ext/org.zedapp.ext.zpm/zpm.js
+app/config/ext/org.zedapp.ext.zpm/zpm.json
+app/config/user.json
+app/js/handlers.js
+app/js/sandbox.js
+app/js/sandbox/zed/config.js
+app/js/sandbox/zed/configfs.js
+app/js/sandbox/zed/http.js
+app/js/sandbox/zed/project.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 94 is -> 
+{ 83114aec90a899e4068b7ae0858f2670ada0d4d4 -> 3ec6e4a2412abef583c67944f49290daafdc0da8 } is a cherrypick
+{ f917a9cebc62f6c13573e0cfce01decb0228d224 -> 14510572936f8b462952f292af3895176f0f4b22 }
+Partial Cherry-pick commits SHA are -> 
+3ec6e4a2412abef583c67944f49290daafdc0da8 - cherrypick - 14510572936f8b462952f292af3895176f0f4b22
+---> The cherrypicked commit sha is - 3ec6e4a2412abef583c67944f49290daafdc0da8
+Commit message - moved zpm entirely into the configuration project.  Created apis to write and delete configfs files.  Created api to download files.  Added a handler that fires once after configuration loads.
+---> The original commit sha is - 14510572936f8b462952f292af3895176f0f4b22
+Commit message - Merge remote-tracking branch 'upstream/master' into zpm
+---> The files with partial_cherrypicks are:-
+app/config/api/zed/config_fs.js
+app/config/api/zed/http.js
+app/config/ext/org.zedapp.ext.zpm/auto_update.js
+app/config/ext/org.zedapp.ext.zpm/data/installed.json
+app/config/ext/org.zedapp.ext.zpm/install.js
+app/config/ext/org.zedapp.ext.zpm/installed_extensions.js
+app/config/ext/org.zedapp.ext.zpm/installed_extensions/execute.js
+app/config/ext/org.zedapp.ext.zpm/zpm.js
+app/config/ext/org.zedapp.ext.zpm/zpm.json
+app/config/user.json
+app/js/handlers.js
+app/js/sandbox.js
+app/js/sandbox/zed/configfs.js
+app/js/sandbox/zed/http.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 95 is -> 
+{ d64ad2aef3942a782e8190dbf29d4c2917899b9c -> 09e9b92c165c1c5fb79388e4520bfabb42b70565 } is a cherrypick
+{ bc483975f1d1576ce1244fe120d757001eff3c82 -> 41742c80df55c2a83223d2c4193af8c0581d0b10 }
+Partial Cherry-pick commits SHA are -> 
+09e9b92c165c1c5fb79388e4520bfabb42b70565 - cherrypick - 41742c80df55c2a83223d2c4193af8c0581d0b10
+---> The cherrypicked commit sha is - 09e9b92c165c1c5fb79388e4520bfabb42b70565
+Commit message - Reindexed. Fixed RHTML mode config
+---> The original commit sha is - 41742c80df55c2a83223d2c4193af8c0581d0b10
+Commit message - Merge pull request #93 from dsrw/rhtml
+
+Reindexed. Fixed RHTML mode config
+---> The files with partial_cherrypicks are:-
+app/config/default/mode/rhtml.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 96 is -> 
+{ d0debd8e7ffb5afe4af0866d0c6b953fc29bb977 -> e7b40a62981b4961dd42b8cf8faa42fababe19dd } is a cherrypick
+{ 3c6fded01b612b8c6157e0f7c71b9f82b0bb7600 -> e3bf5b2917044f0255050dea3bb09c3e16d51fb4 }
+Partial Cherry-pick commits SHA are -> 
+e7b40a62981b4961dd42b8cf8faa42fababe19dd - cherrypick - e3bf5b2917044f0255050dea3bb09c3e16d51fb4
+---> The cherrypicked commit sha is - e7b40a62981b4961dd42b8cf8faa42fababe19dd
+Commit message - Update changelog, change key for Find:All, bump version
+---> The original commit sha is - e3bf5b2917044f0255050dea3bb09c3e16d51fb4
+Commit message - Merge branch 'master' of github.com:zedapp/zed
+---> The files with partial_cherrypicks are:-
+app/config/default/keys.json
+app/manifest.json
+app/manual/changelog.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 97 is -> 
+{ e5dc861ed65c6fba8f6da620c67f7c59705c9bc2 -> 7b43f7a008dca0110458dcd00ccbba9dd43c13ef } is a cherrypick
+{ 750f210e310b9f42ae3c85b0a7c0dde8bc27d317 -> 7c6581988fb7ab9306f397f8627e0861886b3464 }
+Partial Cherry-pick commits SHA are -> 
+7b43f7a008dca0110458dcd00ccbba9dd43c13ef - cherrypick - 7c6581988fb7ab9306f397f8627e0861886b3464
+---> The cherrypicked commit sha is - 7b43f7a008dca0110458dcd00ccbba9dd43c13ef
+Commit message - More clear intro screen (no longer a cheatsheet) which hopefully
+prevents people from running into #87.
+---> The original commit sha is - 7c6581988fb7ab9306f397f8627e0861886b3464
+Commit message - Improve manual, add search and replace howto
+---> The files with partial_cherrypicks are:-
+app/config/zpm/installed.json
+app/js/sandbox.js
+app/js/session_manager.js
+app/js/zpm.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 98 is -> 
+{ b628be0f624616e0c56f6bf46ea3b0cf84e86e42 -> e5dc861ed65c6fba8f6da620c67f7c59705c9bc2 } is a cherrypick
+{ 784a995eab69a1ea0f75c0acf91aed33cdc0b0d4 -> 750f210e310b9f42ae3c85b0a7c0dde8bc27d317 }
+Partial Cherry-pick commits SHA are -> 
+e5dc861ed65c6fba8f6da620c67f7c59705c9bc2 - cherrypick - 750f210e310b9f42ae3c85b0a7c0dde8bc27d317
+---> The cherrypicked commit sha is - e5dc861ed65c6fba8f6da620c67f7c59705c9bc2
+Commit message - Rough version that can install and uninstall extensions
+---> The original commit sha is - 750f210e310b9f42ae3c85b0a7c0dde8bc27d317
+Commit message - Merge remote-tracking branch 'upstream/master' into zpm
+---> The files with partial_cherrypicks are:-
+app/config/zpm/installed.json
+app/js/boot.js
+app/js/sandbox.js
+app/js/session_manager.js
+app/js/zpm.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 99 is -> 
+{ 96583051285049a2f57e52ce3de4d7c48da6e344 -> 3e106e3ff7edcb97c045df846f3a33c6494d6ed7 } is a cherrypick
+{ 67d938764af20459d1efa46c70451e6bf733105a -> c8293680f9d45af278890f0e46bc328dc994dc91 }
+Partial Cherry-pick commits SHA are -> 
+3e106e3ff7edcb97c045df846f3a33c6494d6ed7 - cherrypick - c8293680f9d45af278890f0e46bc328dc994dc91
+---> The cherrypicked commit sha is - 3e106e3ff7edcb97c045df846f3a33c6494d6ed7
+Commit message - fix for file tree closing immediately after opening
+---> The original commit sha is - c8293680f9d45af278890f0e46bc328dc994dc91
+Commit message - Merge pull request #70 from TheKiteEatingTree/master
+
+Fix for file tree closing immediately after opening
+---> The files with partial_cherrypicks are:-
+app/config/all
+app/config/default.json
+app/config/default/events.json
+app/config/default/handlers.json
+app/config/default/mode/coffee.json
+app/config/default/mode/coffee/check.js
+app/config/default/mode/css.json
+app/config/default/mode/css/check.js
+app/config/default/mode/go.json
+app/config/default/mode/html.json
+app/config/default/mode/javascript.json
+app/config/default/mode/javascript/check.js
+app/config/default/mode/json.json
+app/config/default/mode/json/check.js
+app/config/default/mode/logiql.json
+app/config/default/mode/lua.json
+app/config/default/mode/lua/check.js
+app/config/default/mode/markdown.json
+app/config/default/mode/nix.json
+app/config/user.json
+app/js/boot.js
+app/js/complete.js
+app/js/config.js
+app/js/events.js
+app/manual/configuration.md
+app/manual/dev/index.md
+app/manual/split.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 100 is -> 
+{ 96583051285049a2f57e52ce3de4d7c48da6e344 -> 3e106e3ff7edcb97c045df846f3a33c6494d6ed7 } is a cherrypick
+{ 9966cda4bebd9a6c37fa86ca45199e9d352ac6e1 -> 67d938764af20459d1efa46c70451e6bf733105a }
+Partial Cherry-pick commits SHA are -> 
+3e106e3ff7edcb97c045df846f3a33c6494d6ed7 - cherrypick - 67d938764af20459d1efa46c70451e6bf733105a
+---> The cherrypicked commit sha is - 3e106e3ff7edcb97c045df846f3a33c6494d6ed7
+Commit message - fix for file tree closing immediately after opening
+---> The original commit sha is - 67d938764af20459d1efa46c70451e6bf733105a
+Commit message - Merge remote-tracking branch 'TheKiteEathingTree/master' into events-to-handlers
+---> The files with partial_cherrypicks are:-
+app/js/tree.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 101 is -> 
+{ 6ea66c25847bc7b515f7f91a9ce511f7b248c99c -> b4dd07281e0bc345d379d342626d157a96863a11 } is a cherrypick
+{ 635e4fac49d3994dfa9ef8f2c86cab57f25854df -> de181379866a48d3d6ebcb48d06be94cd866a30e }
+Partial Cherry-pick commits SHA are -> 
+b4dd07281e0bc345d379d342626d157a96863a11 - cherrypick - de181379866a48d3d6ebcb48d06be94cd866a30e
+---> The cherrypicked commit sha is - b4dd07281e0bc345d379d342626d157a96863a11
+Commit message - Forgot to commit the protips file
+---> The original commit sha is - de181379866a48d3d6ebcb48d06be94cd866a30e
+Commit message - Merge branch 'master' of github.com:zedapp/zed
+---> The files with partial_cherrypicks are:-
+app/manual/protips.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 102 is -> 
+{ dbf5fe55ffc8698da7e519a963ba0c07c35b9a5c -> c3d0baa3c392a218984812fe81c3c49be16a59c0 } is a cherrypick
+{ 9b4329d46623e6b709542614e902f3b89542173c -> 10f46cc68342bff51e165f402a8c804a1d26a768 }
+Partial Cherry-pick commits SHA are -> 
+c3d0baa3c392a218984812fe81c3c49be16a59c0 - cherrypick - 10f46cc68342bff51e165f402a8c804a1d26a768
+---> The cherrypicked commit sha is - c3d0baa3c392a218984812fe81c3c49be16a59c0
+Commit message - install-local-mac.sh made more readable
+---> The original commit sha is - 10f46cc68342bff51e165f402a8c804a1d26a768
+Commit message - Merge branch 'master' of github.com:zedapp/zed
+---> The files with partial_cherrypicks are:-
+release/install-local-mac.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 103 is -> 
+{ ad5a361a751be06d4502145535b530fffe109452 -> 713790f4dbff0492abf780fd8508c1462f010ee6 } is a cherrypick
+{ 66777ac02df01a3a41cae807cc812ecd50d49819 -> 0df53e5a9fd22c8cb595ff6f638e3e0e535ba866 }
+Partial Cherry-pick commits SHA are -> 
+713790f4dbff0492abf780fd8508c1462f010ee6 - cherrypick - 0df53e5a9fd22c8cb595ff6f638e3e0e535ba866
+---> The cherrypicked commit sha is - 713790f4dbff0492abf780fd8508c1462f010ee6
+Commit message - Add lua support
+---> The original commit sha is - 0df53e5a9fd22c8cb595ff6f638e3e0e535ba866
+Commit message - Merge branch 'master' of github.com:zedapp/zed
+---> The files with partial_cherrypicks are:-
+app/settings/all
+app/settings/mode/lua.default.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 104 is -> 
+{ b7fe16cdaaaf9f156c2d4cffaa632df4e02a1c9d -> a87a33b58e7257010589e540960f8e1e371c798d } is a cherrypick
+{ 0ee58b1abf6c98100f38c7dc4606596adaf1806c -> bbba9d7dda4c6245833c2f849b3f5633547c7444 }
+Partial Cherry-pick commits SHA are -> 
+a87a33b58e7257010589e540960f8e1e371c798d - cherrypick - bbba9d7dda4c6245833c2f849b3f5633547c7444
+---> The cherrypicked commit sha is - a87a33b58e7257010589e540960f8e1e371c798d
+Commit message - Now it's a chrome app again
+---> The original commit sha is - bbba9d7dda4c6245833c2f849b3f5633547c7444
+Commit message - Restored Caelum's own code completion UI again
+---> The files with partial_cherrypicks are:-
+app/js/complete/local_word.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 105 is -> 
+{ 03867b2cb5639fadb61c322a429c434552db4918 -> 2b142e31d83ff8abbad6923cca5cb4e608354f0a } is a cherrypick
+{ a07ff5ed51612830929cafb2a0e1d3333f77d58c -> dc95f01076a14ab041ac7b9ef0681a8d2c497d51 }
+Partial Cherry-pick commits SHA are -> 
+2b142e31d83ff8abbad6923cca5cb4e608354f0a - cherrypick - dc95f01076a14ab041ac7b9ef0681a8d2c497d51
+---> The cherrypicked commit sha is - 2b142e31d83ff8abbad6923cca5cb4e608354f0a
+Commit message - autodetect indentation from file contents
+---> The original commit sha is - dc95f01076a14ab041ac7b9ef0681a8d2c497d51
+Commit message - Merge remote-tracking branch 'remotes/origin/master'
+
+Conflicts:
+	app/js/editor.js
+---> The files with partial_cherrypicks are:-
+app/editor.html
+-----------------------------------------------------------------
+
