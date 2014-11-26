@@ -4,15 +4,15 @@ Partial Revert diff pair 1 is ->
 { 48fcca1b6ed2d329ba05b22ae3639e25108985e1 -> 47ff42435c29690310409fb61f4cc0c5958ad409 }
 Partial Revert commits SHA are -> 
 48fcca1b6ed2d329ba05b22ae3639e25108985e1 - revert - 47ff42435c29690310409fb61f4cc0c5958ad409
-The reverted commit sha is - 48fcca1b6ed2d329ba05b22ae3639e25108985e1
+---> The reverted commit sha is - 48fcca1b6ed2d329ba05b22ae3639e25108985e1
 Commit message - Merge pull request #86 from twitter/fix_difference_query
 
 Make DifferenceQuery obey page size
-The original commit sha is - 47ff42435c29690310409fb61f4cc0c5958ad409
+---> The original commit sha is - 47ff42435c29690310409fb61f4cc0c5958ad409
 Commit message - Merge pull request #88 from twitter/fix_select_single_counter
 
 Fix the select-single Stat which was broken in finagle-ized flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/queries/SelectCompiler.scala
 -----------------------------------------------------------------
 
@@ -21,11 +21,11 @@ Partial Revert diff pair 2 is ->
 { be69af8bebc9db72760da1481cdc38b9ef125bd0 -> e1fb576d0b6da9b066b97990d4b3e48d86fc8d89 }
 Partial Revert commits SHA are -> 
 00a57daa4b74a5445f16a3b3f3d04ec97c30b47a - revert - e1fb576d0b6da9b066b97990d4b3e48d86fc8d89
-The reverted commit sha is - 00a57daa4b74a5445f16a3b3f3d04ec97c30b47a
+---> The reverted commit sha is - 00a57daa4b74a5445f16a3b3f3d04ec97c30b47a
 Commit message - version bump
-The original commit sha is - e1fb576d0b6da9b066b97990d4b3e48d86fc8d89
+---> The original commit sha is - e1fb576d0b6da9b066b97990d4b3e48d86fc8d89
 Commit message - Merge branch 'master' into fix_difference_query
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/ResultWindow.scala
 src/main/scala/com/twitter/flockdb/queries/DifferenceQuery.scala
 src/test/scala/com/twitter/flockdb/unit/IntersectionQuerySpec.scala
@@ -36,11 +36,11 @@ Partial Revert diff pair 3 is ->
 { ab7057cbe2e155eb7e5879ccba66afaea6862e4a -> 89702db0ea1b6fbf426b97dda27cd1e3f42a1ea6 }
 Partial Revert commits SHA are -> 
 ab7057cbe2e155eb7e5879ccba66afaea6862e4a - revert - 89702db0ea1b6fbf426b97dda27cd1e3f42a1ea6
-The reverted commit sha is - ab7057cbe2e155eb7e5879ccba66afaea6862e4a
+---> The reverted commit sha is - ab7057cbe2e155eb7e5879ccba66afaea6862e4a
 Commit message - Cleanup
-The original commit sha is - 89702db0ea1b6fbf426b97dda27cd1e3f42a1ea6
+---> The original commit sha is - 89702db0ea1b6fbf426b97dda27cd1e3f42a1ea6
 Commit message - Merge
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 config/test.scala
 project/build.properties
 -----------------------------------------------------------------
@@ -50,11 +50,11 @@ Partial Revert diff pair 4 is ->
 { 0b0cae6c60a1a6c64e8326d2c43fc38ea995658b -> 72e5bf21204c96d7007760b20e459b71cfa7f7e2 }
 Partial Revert commits SHA are -> 
 0b0cae6c60a1a6c64e8326d2c43fc38ea995658b - revert - 72e5bf21204c96d7007760b20e459b71cfa7f7e2
-The reverted commit sha is - 0b0cae6c60a1a6c64e8326d2c43fc38ea995658b
+---> The reverted commit sha is - 0b0cae6c60a1a6c64e8326d2c43fc38ea995658b
 Commit message - new gizzard
-The original commit sha is - 72e5bf21204c96d7007760b20e459b71cfa7f7e2
+---> The original commit sha is - 72e5bf21204c96d7007760b20e459b71cfa7f7e2
 Commit message - no more kc release name
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 project/build.properties
 -----------------------------------------------------------------
 
@@ -63,15 +63,15 @@ Partial Revert diff pair 5 is ->
 { 0f4ec077b0ce8b0cdfccc60e60b4e67cfae8ad0e -> 684ef53a0cc757dfc95a89a7eacb05ee65678e5b }
 Partial Revert commits SHA are -> 
 0f4ec077b0ce8b0cdfccc60e60b4e67cfae8ad0e - revert - 684ef53a0cc757dfc95a89a7eacb05ee65678e5b
-The reverted commit sha is - 0f4ec077b0ce8b0cdfccc60e60b4e67cfae8ad0e
+---> The reverted commit sha is - 0f4ec077b0ce8b0cdfccc60e60b4e67cfae8ad0e
 Commit message - Demo uses gizzmo topology instead of forwardings. Deprecation warning on mkshards script
-The original commit sha is - 684ef53a0cc757dfc95a89a7eacb05ee65678e5b
+---> The original commit sha is - 684ef53a0cc757dfc95a89a7eacb05ee65678e5b
 Commit message - Merge pull request #67 from twitter/boaz_demofix
 
 Update demo to work as intended
 
 Update documentation for current versions and command usage, update mkshards script to use correct commands and be deprecated and dev config for consistency.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/shards/SqlShard.scala
 src/test/scala/com/twitter/flockdb/ConfiguredSpecification.scala
 src/test/scala/com/twitter/flockdb/unit/JobSpec.scala
@@ -82,11 +82,11 @@ Partial Revert diff pair 6 is ->
 { e4af1eeafd49404d7df23d4e9c44e19a3655b943 -> b6cd936af2dac84d5392dc740ad3a3b1cfb59838 }
 Partial Revert commits SHA are -> 
 e4af1eeafd49404d7df23d4e9c44e19a3655b943 - revert - b6cd936af2dac84d5392dc740ad3a3b1cfb59838
-The reverted commit sha is - e4af1eeafd49404d7df23d4e9c44e19a3655b943
+---> The reverted commit sha is - e4af1eeafd49404d7df23d4e9c44e19a3655b943
 Commit message - refactor atomically to not use exceptions for control flow. should also avoid rollbacks.
-The original commit sha is - b6cd936af2dac84d5392dc740ad3a3b1cfb59838
+---> The original commit sha is - b6cd936af2dac84d5392dc740ad3a3b1cfb59838
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 doc/demo.markdown
 project/build.properties
 project/build/FlockDBProject.scala
@@ -97,11 +97,11 @@ Partial Revert diff pair 7 is ->
 { 33198e4d24203594a7a93d9188d7bed84de8246f -> 79254197373b5b0bbfc695d69c370245287f9870 }
 Partial Revert commits SHA are -> 
 d3d4188189f71377091da7643ffe446d36ef39dc - revert - 79254197373b5b0bbfc695d69c370245287f9870
-The reverted commit sha is - d3d4188189f71377091da7643ffe446d36ef39dc
+---> The reverted commit sha is - d3d4188189f71377091da7643ffe446d36ef39dc
 Commit message - new gizzard version
-The original commit sha is - 79254197373b5b0bbfc695d69c370245287f9870
+---> The original commit sha is - 79254197373b5b0bbfc695d69c370245287f9870
 Commit message - Merge remote-tracking branch 'origin/memoize_writes'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/Edge.scala
 src/main/scala/com/twitter/flockdb/FlockDB.scala
 src/main/scala/com/twitter/flockdb/ForwardingManager.scala
@@ -129,11 +129,11 @@ Partial Revert diff pair 8 is ->
 { 96b825df26283e5eacb6715b209cdb8261972d36 -> 30624f3826bdf389d618abfb5f3fc5e4086466c2 }
 Partial Revert commits SHA are -> 
 16cba0597cdbbb468f4bb7ca33044c0228b26de8 - revert - 30624f3826bdf389d618abfb5f3fc5e4086466c2
-The reverted commit sha is - 16cba0597cdbbb468f4bb7ca33044c0228b26de8
+---> The reverted commit sha is - 16cba0597cdbbb468f4bb7ca33044c0228b26de8
 Commit message - remove state-specific job types with Single and Multi
-The original commit sha is - 30624f3826bdf389d618abfb5f3fc5e4086466c2
+---> The original commit sha is - 30624f3826bdf389d618abfb5f3fc5e4086466c2
 Commit message - Merge branch 'master' into consolidated_jobs
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .gitignore
 project/build.properties
 project/build/FlockDBProject.scala
@@ -144,18 +144,18 @@ Partial Revert diff pair 9 is ->
 { fd126b65142dae0f60debfe09d9032a1abe3154b -> b7668b25978ea240e41fcdaf818e11c156e5bb83 }
 Partial Revert commits SHA are -> 
 fd126b65142dae0f60debfe09d9032a1abe3154b - revert - b7668b25978ea240e41fcdaf818e11c156e5bb83
-The reverted commit sha is - fd126b65142dae0f60debfe09d9032a1abe3154b
+---> The reverted commit sha is - fd126b65142dae0f60debfe09d9032a1abe3154b
 Commit message - Merge branch 'improved_stats' into gizzard_3
 
 Conflicts:
 	project/build.properties
 	src/test/scala/com/twitter/flockdb/unit/JobSpec.scala
-The original commit sha is - b7668b25978ea240e41fcdaf818e11c156e5bb83
+---> The original commit sha is - b7668b25978ea240e41fcdaf818e11c156e5bb83
 Commit message - Merge branch 'improved_stats' into gizzard_3
 
 Conflicts:
 	project/build.properties
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/queries/IntersectionQuery.scala
 -----------------------------------------------------------------
 
@@ -164,9 +164,9 @@ Partial Revert diff pair 10 is ->
 { 43d68b2996de872dbead3c667f036bb8f9126a00 -> bb0df957d4d9761cc2cc743a44a4bb4c590686a0 }
 Partial Revert commits SHA are -> 
 e2f578f46ecace2b7eba672db22f6e510791a8aa - revert - bb0df957d4d9761cc2cc743a44a4bb4c590686a0
-The reverted commit sha is - e2f578f46ecace2b7eba672db22f6e510791a8aa
+---> The reverted commit sha is - e2f578f46ecace2b7eba672db22f6e510791a8aa
 Commit message - new flockdb
-The original commit sha is - bb0df957d4d9761cc2cc743a44a4bb4c590686a0
+---> The original commit sha is - bb0df957d4d9761cc2cc743a44a4bb4c590686a0
 Commit message - Merge remote-tracking branch 'origin/improved_stats' into gizzard_3
 
 Conflicts:
@@ -174,7 +174,7 @@ Conflicts:
 	project/build/FlockDBProject.scala
 	src/main/scala/com/twitter/flockdb/shards/SqlShard.scala
 	src/test/scala/com/twitter/flockdb/unit/JobSpec.scala
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 config/production.scala
 config/test.scala
 project/build.properties
@@ -214,15 +214,15 @@ Partial Revert diff pair 11 is ->
 { 6db5f3d772eedfa1a8221aa235ba7a3427953e83 -> 114dcd30a0f09daf7b16c7e5ce5da55e3fa8b0a8 }
 Partial Revert commits SHA are -> 
 6db5f3d772eedfa1a8221aa235ba7a3427953e83 - revert - 114dcd30a0f09daf7b16c7e5ce5da55e3fa8b0a8
-The reverted commit sha is - 6db5f3d772eedfa1a8221aa235ba7a3427953e83
+---> The reverted commit sha is - 6db5f3d772eedfa1a8221aa235ba7a3427953e83
 Commit message - wip
-The original commit sha is - 114dcd30a0f09daf7b16c7e5ce5da55e3fa8b0a8
+---> The original commit sha is - 114dcd30a0f09daf7b16c7e5ce5da55e3fa8b0a8
 Commit message - Merge branch 'master' into improved_stats
 
 Conflicts:
 	project/build.properties
 	project/build/FlockDBProject.scala
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 project/build.properties
 project/build/FlockDBProject.scala
 project/plugins/Plugins.scala
@@ -234,14 +234,14 @@ Partial Revert diff pair 12 is ->
 { 745707cc5f879538711b4712ec5523d76b85ec9d -> 6c32c01eb0daea96e9867ef68e8e4969371279de }
 Partial Revert commits SHA are -> 
 d97e7c3769bdb0b272ec9e64323e5e9060df80d6 - revert - 6c32c01eb0daea96e9867ef68e8e4969371279de
-The reverted commit sha is - d97e7c3769bdb0b272ec9e64323e5e9060df80d6
+---> The reverted commit sha is - d97e7c3769bdb0b272ec9e64323e5e9060df80d6
 Commit message - Merge branch 'master' into improved_stats
 
 Conflicts:
 	project/build.properties
-The original commit sha is - 6c32c01eb0daea96e9867ef68e8e4969371279de
+---> The original commit sha is - 6c32c01eb0daea96e9867ef68e8e4969371279de
 Commit message - use two separate queries instead of a union.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 config/development.scala
 config/test.scala
 project/build.properties
@@ -264,11 +264,11 @@ Partial Revert diff pair 13 is ->
 { cbfcd88b82c346043970d387f2ea61ed7bf99a60 -> 7a94c796504ec9521e69155f87f5db8b822509f1 }
 Partial Revert commits SHA are -> 
 cbfcd88b82c346043970d387f2ea61ed7bf99a60 - revert - 7a94c796504ec9521e69155f87f5db8b822509f1
-The reverted commit sha is - cbfcd88b82c346043970d387f2ea61ed7bf99a60
+---> The reverted commit sha is - cbfcd88b82c346043970d387f2ea61ed7bf99a60
 Commit message - Merge branch 'fast-repair'
-The original commit sha is - 7a94c796504ec9521e69155f87f5db8b822509f1
+---> The original commit sha is - 7a94c796504ec9521e69155f87f5db8b822509f1
 Commit message - Merge branch 'busy-repair'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/jobs/Diff.scala
 -----------------------------------------------------------------
 
@@ -277,11 +277,11 @@ Partial Revert diff pair 14 is ->
 { 69624f93660b41a0208aa6c1686fbb2784c09dce -> 362e387f18e6c6e397ff9893918299253a96b338 }
 Partial Revert commits SHA are -> 
 9b096be9b97ba863197cb0bff8ec2d2fd750011d - revert - 362e387f18e6c6e397ff9893918299253a96b338
-The reverted commit sha is - 9b096be9b97ba863197cb0bff8ec2d2fd750011d
+---> The reverted commit sha is - 9b096be9b97ba863197cb0bff8ec2d2fd750011d
 Commit message - use new interface
-The original commit sha is - 362e387f18e6c6e397ff9893918299253a96b338
+---> The original commit sha is - 362e387f18e6c6e397ff9893918299253a96b338
 Commit message - Merge branch 'intrashard_repair_multi'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 project/build.properties
 -----------------------------------------------------------------
 
@@ -290,15 +290,15 @@ Partial Revert diff pair 15 is ->
 { cbd0fa54bd69bbcd4bb50139d6541df6cbed19d0 -> 040c5d4cac0fd1aaaa5b364db3c07ce96b11f87d }
 Partial Revert commits SHA are -> 
 8fcfc4739c81ac6b2d1e7fd16d50762226eb8987 - revert - 040c5d4cac0fd1aaaa5b364db3c07ce96b11f87d
-The reverted commit sha is - 8fcfc4739c81ac6b2d1e7fd16d50762226eb8987
+---> The reverted commit sha is - 8fcfc4739c81ac6b2d1e7fd16d50762226eb8987
 Commit message - new interface, use lowest cursor
-The original commit sha is - 040c5d4cac0fd1aaaa5b364db3c07ce96b11f87d
+---> The original commit sha is - 040c5d4cac0fd1aaaa5b364db3c07ce96b11f87d
 Commit message - Merge branch 'diff_shards'
 
 Conflicts:
 	project/build/FlockDBProject.scala
 	src/main/scala/com/twitter/flockdb/jobs/Diff.scala
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 project/build.properties
 -----------------------------------------------------------------
 
@@ -307,11 +307,11 @@ Partial Revert diff pair 16 is ->
 { 8fcfc4739c81ac6b2d1e7fd16d50762226eb8987 -> ae5d21ab8fbd6cfb9d94120e7948c9355bbd4877 }
 Partial Revert commits SHA are -> 
 8fcfc4739c81ac6b2d1e7fd16d50762226eb8987 - revert - ae5d21ab8fbd6cfb9d94120e7948c9355bbd4877
-The reverted commit sha is - 8fcfc4739c81ac6b2d1e7fd16d50762226eb8987
+---> The reverted commit sha is - 8fcfc4739c81ac6b2d1e7fd16d50762226eb8987
 Commit message - new interface, use lowest cursor
-The original commit sha is - ae5d21ab8fbd6cfb9d94120e7948c9355bbd4877
+---> The original commit sha is - ae5d21ab8fbd6cfb9d94120e7948c9355bbd4877
 Commit message - use new interface, less sensitive to edge, metadata changes
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/test/scala/com/twitter/flockdb/unit/EdgesSpec.scala
 -----------------------------------------------------------------
 
@@ -320,9 +320,9 @@ Partial Revert diff pair 17 is ->
 { 0b9440a8b789716a45b89a6b533db2e98e3b4f39 -> 181ea24e5292e1524fd66d0b87982760d5f70d97 }
 Partial Revert commits SHA are -> 
 0b9440a8b789716a45b89a6b533db2e98e3b4f39 - revert - 181ea24e5292e1524fd66d0b87982760d5f70d97
-The reverted commit sha is - 0b9440a8b789716a45b89a6b533db2e98e3b4f39
+---> The reverted commit sha is - 0b9440a8b789716a45b89a6b533db2e98e3b4f39
 Commit message - moved multishard repair to gizzard
-The original commit sha is - 181ea24e5292e1524fd66d0b87982760d5f70d97
+---> The original commit sha is - 181ea24e5292e1524fd66d0b87982760d5f70d97
 Commit message - Merge branch 'intrashard_repair_multi'
 
 Conflicts:
@@ -333,7 +333,7 @@ Conflicts:
 	src/main/scala/com/twitter/flockdb/jobs/multi/Multi.scala
 	src/main/scala/com/twitter/flockdb/shards/Shard.scala
 	src/test/scala/com/twitter/flockdb/ConfiguredSpecification.scala
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 config/development.conf
 config/development.scala
 config/production.conf
@@ -368,11 +368,11 @@ Partial Revert diff pair 18 is ->
 { a402d182017e5251c18ee6200acfbb960097f61b -> e822bd5b4c98c1b54f07a3a501466ed1978fe87f }
 Partial Revert commits SHA are -> 
 4ebf99acf732cd01553dcd6debf392b2be9e2cb2 - revert - e822bd5b4c98c1b54f07a3a501466ed1978fe87f
-The reverted commit sha is - 4ebf99acf732cd01553dcd6debf392b2be9e2cb2
+---> The reverted commit sha is - 4ebf99acf732cd01553dcd6debf392b2be9e2cb2
 Commit message - fix optimistic locking
-The original commit sha is - e822bd5b4c98c1b54f07a3a501466ed1978fe87f
+---> The original commit sha is - e822bd5b4c98c1b54f07a3a501466ed1978fe87f
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/jobs/single/Single.scala
 src/test/scala/com/twitter/flockdb/integration/BlackHoleLockingRegressionSpec.scala
 -----------------------------------------------------------------
@@ -382,11 +382,11 @@ Partial Revert diff pair 19 is ->
 { 7adbaf723855d156339d089b305bae44f844da00 -> 3f639a2297ecfb47818e357bc244c9c5a40456f9 }
 Partial Revert commits SHA are -> 
 7adbaf723855d156339d089b305bae44f844da00 - revert - 3f639a2297ecfb47818e357bc244c9c5a40456f9
-The reverted commit sha is - 7adbaf723855d156339d089b305bae44f844da00
+---> The reverted commit sha is - 7adbaf723855d156339d089b305bae44f844da00
 Commit message - fix black hole regression
-The original commit sha is - 3f639a2297ecfb47818e357bc244c9c5a40456f9
+---> The original commit sha is - 3f639a2297ecfb47818e357bc244c9c5a40456f9
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 config/development.conf
 config/production.conf
 config/test.conf
@@ -399,11 +399,11 @@ Partial Revert diff pair 20 is ->
 { 1e57540156297e1ee7a78f7364de012aff220a6b -> 1ff2e3799660390244f40d9bae1a2310c7c90755 }
 Partial Revert commits SHA are -> 
 8e8d63348764eb333336d512423d03fcb4b86670 - revert - 1ff2e3799660390244f40d9bae1a2310c7c90755
-The reverted commit sha is - 8e8d63348764eb333336d512423d03fcb4b86670
+---> The reverted commit sha is - 8e8d63348764eb333336d512423d03fcb4b86670
 Commit message - set log level of optimism to debug
-The original commit sha is - 1ff2e3799660390244f40d9bae1a2310c7c90755
+---> The original commit sha is - 1ff2e3799660390244f40d9bae1a2310c7c90755
 Commit message - move repair to gizzard
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 config/development.scala
 config/test.scala
 project/build.properties
@@ -441,11 +441,11 @@ Partial Revert diff pair 21 is ->
 { bf67fd70e0213edaed17b29f92b1828ba5792153 -> f7e94a57972a610bfd314bc373d9b08af342a194 }
 Partial Revert commits SHA are -> 
 0a9ae9ba9167adf9e3cfe2416e4e4d3325bc367f - revert - f7e94a57972a610bfd314bc373d9b08af342a194
-The reverted commit sha is - 0a9ae9ba9167adf9e3cfe2416e4e4d3325bc367f
+---> The reverted commit sha is - 0a9ae9ba9167adf9e3cfe2416e4e4d3325bc367f
 Commit message - first stab at repair
-The original commit sha is - f7e94a57972a610bfd314bc373d9b08af342a194
+---> The original commit sha is - f7e94a57972a610bfd314bc373d9b08af342a194
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 config/test.scala
 -----------------------------------------------------------------
 
@@ -454,11 +454,11 @@ Partial Revert diff pair 22 is ->
 { d9330933dfecdd03c4a055402e961093614460e7 -> 09f016518cb5bb227dfb5eef6ac71d5dd4fbd8f4 }
 Partial Revert commits SHA are -> 
 50ee6479789abd4f90f8e2d41c8320ce5914161d - revert - 09f016518cb5bb227dfb5eef6ac71d5dd4fbd8f4
-The reverted commit sha is - 50ee6479789abd4f90f8e2d41c8320ce5914161d
+---> The reverted commit sha is - 50ee6479789abd4f90f8e2d41c8320ce5914161d
 Commit message - fix config
-The original commit sha is - 09f016518cb5bb227dfb5eef6ac71d5dd4fbd8f4
+---> The original commit sha is - 09f016518cb5bb227dfb5eef6ac71d5dd4fbd8f4
 Commit message - merged from master
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/jobs/multi/Multi.scala
 src/main/scala/com/twitter/flockdb/shards/SqlShard.scala
 src/scripts/setup-env.sh
@@ -470,11 +470,11 @@ Partial Revert diff pair 23 is ->
 { 6e632dd6c42f0dfe1908db4b19e9e017c70f5ab3 -> da1ac7a4c3484e8cca13dfa6ad8187463d250946 }
 Partial Revert commits SHA are -> 
 4fe5a9a8b28c59dc323f0d7b364a097b0de1f1a3 - revert - da1ac7a4c3484e8cca13dfa6ad8187463d250946
-The reverted commit sha is - 4fe5a9a8b28c59dc323f0d7b364a097b0de1f1a3
+---> The reverted commit sha is - 4fe5a9a8b28c59dc323f0d7b364a097b0de1f1a3
 Commit message - workaround for ostrich bug
-The original commit sha is - da1ac7a4c3484e8cca13dfa6ad8187463d250946
+---> The original commit sha is - da1ac7a4c3484e8cca13dfa6ad8187463d250946
 Commit message - Merge branch 'multi_cluster' of github.com:twitter/flockdb into multi_cluster
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/shards/SqlShard.scala
 src/test/scala/com/twitter/flockdb/unit/SqlShardSpec.scala
 -----------------------------------------------------------------
@@ -484,11 +484,11 @@ Partial Revert diff pair 24 is ->
 { 6e632dd6c42f0dfe1908db4b19e9e017c70f5ab3 -> da1ac7a4c3484e8cca13dfa6ad8187463d250946 }
 Partial Revert commits SHA are -> 
 6e632dd6c42f0dfe1908db4b19e9e017c70f5ab3 - revert - da1ac7a4c3484e8cca13dfa6ad8187463d250946
-The reverted commit sha is - 6e632dd6c42f0dfe1908db4b19e9e017c70f5ab3
+---> The reverted commit sha is - 6e632dd6c42f0dfe1908db4b19e9e017c70f5ab3
 Commit message - remove JsonJob paramaterization
-The original commit sha is - da1ac7a4c3484e8cca13dfa6ad8187463d250946
+---> The original commit sha is - da1ac7a4c3484e8cca13dfa6ad8187463d250946
 Commit message - Merge branch 'multi_cluster' of github.com:twitter/flockdb into multi_cluster
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/shards/SqlShard.scala
 src/test/scala/com/twitter/flockdb/unit/SqlShardSpec.scala
 -----------------------------------------------------------------
@@ -498,11 +498,11 @@ Partial Revert diff pair 25 is ->
 { 4fe5a9a8b28c59dc323f0d7b364a097b0de1f1a3 -> db9158fdc62e48618a5083f5244db807d03b48a9 }
 Partial Revert commits SHA are -> 
 4fe5a9a8b28c59dc323f0d7b364a097b0de1f1a3 - revert - db9158fdc62e48618a5083f5244db807d03b48a9
-The reverted commit sha is - 4fe5a9a8b28c59dc323f0d7b364a097b0de1f1a3
+---> The reverted commit sha is - 4fe5a9a8b28c59dc323f0d7b364a097b0de1f1a3
 Commit message - workaround for ostrich bug
-The original commit sha is - db9158fdc62e48618a5083f5244db807d03b48a9
+---> The original commit sha is - db9158fdc62e48618a5083f5244db807d03b48a9
 Commit message - Merge branch 'multi_cluster' of github.com:twitter/flockdb into multi_cluster
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/shards/SqlShard.scala
 src/test/scala/com/twitter/flockdb/unit/SqlShardSpec.scala
 -----------------------------------------------------------------
@@ -512,11 +512,11 @@ Partial Revert diff pair 26 is ->
 { 87ae5664b173283c0b12d8e9baabc1ceec040b17 -> bf18ba990ed947ae32d1806fe6eaa7aaeb395a1c }
 Partial Revert commits SHA are -> 
 87ae5664b173283c0b12d8e9baabc1ceec040b17 - revert - bf18ba990ed947ae32d1806fe6eaa7aaeb395a1c
-The reverted commit sha is - 87ae5664b173283c0b12d8e9baabc1ceec040b17
+---> The reverted commit sha is - 87ae5664b173283c0b12d8e9baabc1ceec040b17
 Commit message - fix exception catching/logging.
-The original commit sha is - bf18ba990ed947ae32d1806fe6eaa7aaeb395a1c
+---> The original commit sha is - bf18ba990ed947ae32d1806fe6eaa7aaeb395a1c
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 project/build/FlockDBProject.scala
 project/plugins/Plugins.scala
 -----------------------------------------------------------------
@@ -526,11 +526,11 @@ Partial Revert diff pair 27 is ->
 { 20fb5f98014341f85963b8b61250191cdcb0fcf1 -> ebf0e0ecfe01a37ba8beafc3f234176554193bdc }
 Partial Revert commits SHA are -> 
 e9f79164fbdadd7dc376a87bcb76c60a91de76ae - revert - ebf0e0ecfe01a37ba8beafc3f234176554193bdc
-The reverted commit sha is - e9f79164fbdadd7dc376a87bcb76c60a91de76ae
+---> The reverted commit sha is - e9f79164fbdadd7dc376a87bcb76c60a91de76ae
 Commit message - allow shutdown() to work.
-The original commit sha is - ebf0e0ecfe01a37ba8beafc3f234176554193bdc
+---> The original commit sha is - ebf0e0ecfe01a37ba8beafc3f234176554193bdc
 Commit message - try not using any replication future.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/test/scala/com/twitter/flockdb/unit/EdgesSpec.scala
 -----------------------------------------------------------------
 
@@ -539,14 +539,14 @@ Partial Revert diff pair 28 is ->
 { 20fb5f98014341f85963b8b61250191cdcb0fcf1 -> ebf0e0ecfe01a37ba8beafc3f234176554193bdc }
 Partial Revert commits SHA are -> 
 41cd499b8aa1420b965c38bfefc4351db3a4973e - revert - ebf0e0ecfe01a37ba8beafc3f234176554193bdc
-The reverted commit sha is - 41cd499b8aa1420b965c38bfefc4351db3a4973e
+---> The reverted commit sha is - 41cd499b8aa1420b965c38bfefc4351db3a4973e
 Commit message - Merge branch 'master' into test11
 
 Conflicts:
 	project/build/FlockDBProject.scala
-The original commit sha is - ebf0e0ecfe01a37ba8beafc3f234176554193bdc
+---> The original commit sha is - ebf0e0ecfe01a37ba8beafc3f234176554193bdc
 Commit message - try not using any replication future.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/test/scala/com/twitter/flockdb/unit/EdgesSpec.scala
 -----------------------------------------------------------------
 
@@ -555,11 +555,11 @@ Partial Revert diff pair 29 is ->
 { afede20e2544920a2d95ba7f17d208d3ebfa39f6 -> 60c511255ef7faac7ae463a6aa26ed31d850d604 }
 Partial Revert commits SHA are -> 
 194468e4079ccc8a60ec5275284d949fd846d8cc - revert - 60c511255ef7faac7ae463a6aa26ed31d850d604
-The reverted commit sha is - 194468e4079ccc8a60ec5275284d949fd846d8cc
+---> The reverted commit sha is - 194468e4079ccc8a60ec5275284d949fd846d8cc
 Commit message - Handle empty lists of edges in bulkUnsafe* operations.
-The original commit sha is - 60c511255ef7faac7ae463a6aa26ed31d850d604
+---> The original commit sha is - 60c511255ef7faac7ae463a6aa26ed31d850d604
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 project/build.properties
 -----------------------------------------------------------------
 
@@ -568,11 +568,11 @@ Partial Revert diff pair 30 is ->
 { 6ba75910a864394c63a864a683457371b15374fc -> d3517fd0274f66747d0166d696cadbcfb9150ce5 }
 Partial Revert commits SHA are -> 
 6ba75910a864394c63a864a683457371b15374fc - revert - d3517fd0274f66747d0166d696cadbcfb9150ce5
-The reverted commit sha is - 6ba75910a864394c63a864a683457371b15374fc
+---> The reverted commit sha is - 6ba75910a864394c63a864a683457371b15374fc
 Commit message - call this a newer version
-The original commit sha is - d3517fd0274f66747d0166d696cadbcfb9150ce5
+---> The original commit sha is - d3517fd0274f66747d0166d696cadbcfb9150ce5
 Commit message - enabling cross compilation breaks my build
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 config/production.conf
 project/build.properties
 src/main/scala/com/twitter/flockdb/EdgesService.scala
@@ -595,11 +595,11 @@ Partial Revert diff pair 31 is ->
 { 5319dfb1b7085de74fcf09a070bd389247024e47 -> 0863c1e1da57328d077ce2143023e614d817e939 }
 Partial Revert commits SHA are -> 
 5319dfb1b7085de74fcf09a070bd389247024e47 - revert - 0863c1e1da57328d077ce2143023e614d817e939
-The reverted commit sha is - 5319dfb1b7085de74fcf09a070bd389247024e47
+---> The reverted commit sha is - 5319dfb1b7085de74fcf09a070bd389247024e47
 Commit message - add counter for multijobs.
-The original commit sha is - 0863c1e1da57328d077ce2143023e614d817e939
+---> The original commit sha is - 0863c1e1da57328d077ce2143023e614d817e939
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 project/build.properties
 -----------------------------------------------------------------
 
@@ -608,11 +608,11 @@ Partial Revert diff pair 32 is ->
 { 157eb3437edd83c98e7fa14241095c9190d01228 -> 69466729830331dc8979440e85395494a2c08e25 }
 Partial Revert commits SHA are -> 
 157eb3437edd83c98e7fa14241095c9190d01228 - revert - 69466729830331dc8979440e85395494a2c08e25
-The reverted commit sha is - 157eb3437edd83c98e7fa14241095c9190d01228
+---> The reverted commit sha is - 157eb3437edd83c98e7fa14241095c9190d01228
 Commit message - this is a silly number of threads to devote to gizzard services.
-The original commit sha is - 69466729830331dc8979440e85395494a2c08e25
+---> The original commit sha is - 69466729830331dc8979440e85395494a2c08e25
 Commit message - Merge branch 'blackhole'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 config/development.conf
 project/build/FlockDBProject.scala
 project/plugins/Plugins.scala
@@ -633,11 +633,11 @@ Partial Revert diff pair 33 is ->
 { 166901349bfe772358c4135bde6d4cd1e2da6b1d -> c5dad44a8556ddbe81552c601994e8137102a9c8 }
 Partial Revert commits SHA are -> 
 166901349bfe772358c4135bde6d4cd1e2da6b1d - revert - c5dad44a8556ddbe81552c601994e8137102a9c8
-The reverted commit sha is - 166901349bfe772358c4135bde6d4cd1e2da6b1d
+---> The reverted commit sha is - 166901349bfe772358c4135bde6d4cd1e2da6b1d
 Commit message - timeout the difference query
-The original commit sha is - c5dad44a8556ddbe81552c601994e8137102a9c8
+---> The original commit sha is - c5dad44a8556ddbe81552c601994e8137102a9c8
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 config/development.conf
 project/build/FlockDBProject.scala
 project/plugins/Plugins.scala
@@ -650,11 +650,11 @@ Partial Revert diff pair 34 is ->
 { 627fc32a60e1758c0b791f54709d32d5d0db9fad -> 20136a79b6c49e540351e22d60384cab6705c337 }
 Partial Revert commits SHA are -> 
 627fc32a60e1758c0b791f54709d32d5d0db9fad - revert - 20136a79b6c49e540351e22d60384cab6705c337
-The reverted commit sha is - 627fc32a60e1758c0b791f54709d32d5d0db9fad
+---> The reverted commit sha is - 627fc32a60e1758c0b791f54709d32d5d0db9fad
 Commit message - set a much higher idle timeout for development mode.
-The original commit sha is - 20136a79b6c49e540351e22d60384cab6705c337
+---> The original commit sha is - 20136a79b6c49e540351e22d60384cab6705c337
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/thrift/Flockdb.thrift
 -----------------------------------------------------------------
 
@@ -663,11 +663,11 @@ Partial Revert diff pair 35 is ->
 { 740a4f027785b62a80712854e8354619b97f328b -> 49b9c1946de783782380fa8f01f92bbfb0aa69ef }
 Partial Revert commits SHA are -> 
 740a4f027785b62a80712854e8354619b97f328b - revert - 49b9c1946de783782380fa8f01f92bbfb0aa69ef
-The reverted commit sha is - 740a4f027785b62a80712854e8354619b97f328b
+---> The reverted commit sha is - 740a4f027785b62a80712854e8354619b97f328b
 Commit message - fix cursor positioning was negative, reviewed by Ross
-The original commit sha is - 49b9c1946de783782380fa8f01f92bbfb0aa69ef
+---> The original commit sha is - 49b9c1946de783782380fa8f01f92bbfb0aa69ef
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/test/scala/com/twitter/flockdb/unit/CopySpec.scala
 src/test/scala/com/twitter/flockdb/unit/JobSpec.scala
 -----------------------------------------------------------------
@@ -677,11 +677,11 @@ Partial Revert diff pair 36 is ->
 { 95af94705f376e854b56fd1a1ca438f8c1b23e3e -> 4e70bb9b1714da1556b6aae7e67447daed635857 }
 Partial Revert commits SHA are -> 
 55b696fb7ff62bcdc35e9bc2c2e14adc1cc9f5af - revert - 4e70bb9b1714da1556b6aae7e67447daed635857
-The reverted commit sha is - 55b696fb7ff62bcdc35e9bc2c2e14adc1cc9f5af
+---> The reverted commit sha is - 55b696fb7ff62bcdc35e9bc2c2e14adc1cc9f5af
 Commit message - work with gizzard 1.3
-The original commit sha is - 4e70bb9b1714da1556b6aae7e67447daed635857
+---> The original commit sha is - 4e70bb9b1714da1556b6aae7e67447daed635857
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/scripts/setup-env.sh
 src/test/scala/com/twitter/flockdb/unit/CopySpec.scala
 -----------------------------------------------------------------
@@ -691,11 +691,11 @@ Partial Revert diff pair 37 is ->
 { fb8a88b416ebfdac595848f9468d56a945ff78aa -> a3235e82481ad8a291c079208a462dfc7fc012fa }
 Partial Revert commits SHA are -> 
 fb8a88b416ebfdac595848f9468d56a945ff78aa - revert - a3235e82481ad8a291c079208a462dfc7fc012fa
-The reverted commit sha is - fb8a88b416ebfdac595848f9468d56a945ff78aa
+---> The reverted commit sha is - fb8a88b416ebfdac595848f9468d56a945ff78aa
 Commit message - require gizzard 1.2.0
-The original commit sha is - a3235e82481ad8a291c079208a462dfc7fc012fa
+---> The original commit sha is - a3235e82481ad8a291c079208a462dfc7fc012fa
 Commit message - merge upstream
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 README.markdown
 ant/bootstrap.xml
 ant/clean.xml
@@ -724,14 +724,14 @@ Partial Revert diff pair 38 is ->
 { 41cd499b8aa1420b965c38bfefc4351db3a4973e -> d1d5a72c5ca2003bfebf820b3b30b807f0bb1841 }
 Partial Revert commits SHA are -> 
 41cd499b8aa1420b965c38bfefc4351db3a4973e - revert - d1d5a72c5ca2003bfebf820b3b30b807f0bb1841
-The reverted commit sha is - 41cd499b8aa1420b965c38bfefc4351db3a4973e
+---> The reverted commit sha is - 41cd499b8aa1420b965c38bfefc4351db3a4973e
 Commit message - Merge branch 'master' into test11
 
 Conflicts:
 	project/build/FlockDBProject.scala
-The original commit sha is - d1d5a72c5ca2003bfebf820b3b30b807f0bb1841
+---> The original commit sha is - d1d5a72c5ca2003bfebf820b3b30b807f0bb1841
 Commit message - oops, guess these are needed for now.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 project/build/FlockDBProject.scala
 -----------------------------------------------------------------
 
@@ -740,11 +740,11 @@ Partial Revert diff pair 39 is ->
 { a4558ad78cd2fb97e1fb88db2f7a706ee0ea89ea -> 865160878bc9439913a46fc61bd99e6deb9ec319 }
 Partial Revert commits SHA are -> 
 b90a9a6b614d4233d75c609b654436c48be8dffe - revert - 865160878bc9439913a46fc61bd99e6deb9ec319
-The reverted commit sha is - b90a9a6b614d4233d75c609b654436c48be8dffe
+---> The reverted commit sha is - b90a9a6b614d4233d75c609b654436c48be8dffe
 Commit message - check that DB_USERNAME/DB_PASSWORD is set
-The original commit sha is - 865160878bc9439913a46fc61bd99e6deb9ec319
+---> The original commit sha is - 865160878bc9439913a46fc61bd99e6deb9ec319
 Commit message - Merge remote branch 'stevej/master'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/scripts/flocker.rb
 src/scripts/simple.rb
 src/scripts/simple_thrift.rb
@@ -755,11 +755,11 @@ Partial Revert diff pair 40 is ->
 { 6f72e64861c09c56d09d2505ccd8f56bd1b78da2 -> 94d143b5a42acf18c07516a44526ddb6845d8ba7 }
 Partial Revert commits SHA are -> 
 051b245d67248bd1786278d529983457098a8cef - revert - 94d143b5a42acf18c07516a44526ddb6845d8ba7
-The reverted commit sha is - 051b245d67248bd1786278d529983457098a8cef
+---> The reverted commit sha is - 051b245d67248bd1786278d529983457098a8cef
 Commit message - versions were bumped.
-The original commit sha is - 94d143b5a42acf18c07516a44526ddb6845d8ba7
+---> The original commit sha is - 94d143b5a42acf18c07516a44526ddb6845d8ba7
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/test/EdgesDatabase.scala
 src/main/scala/com/twitter/flockdb/test/EdgesReset.scala
 src/main/scala/com/twitter/flockdb/test/StaticEdges.scala
@@ -775,11 +775,11 @@ Partial Revert diff pair 41 is ->
 { 9deb20a22e734e85f04d7fb79649dcf277f3fe7a -> b49476c050ec3125752cdacb359115142e186350 }
 Partial Revert commits SHA are -> 
 9deb20a22e734e85f04d7fb79649dcf277f3fe7a - revert - b49476c050ec3125752cdacb359115142e186350
-The reverted commit sha is - 9deb20a22e734e85f04d7fb79649dcf277f3fe7a
+---> The reverted commit sha is - 9deb20a22e734e85f04d7fb79649dcf277f3fe7a
 Commit message - fix production.conf to match previous version.
-The original commit sha is - b49476c050ec3125752cdacb359115142e186350
+---> The original commit sha is - b49476c050ec3125752cdacb359115142e186350
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/Edges.scala
 -----------------------------------------------------------------
 
@@ -788,11 +788,11 @@ Partial Revert diff pair 42 is ->
 { 3059ae78f0cdeab569fc58f84c93f574a9359428 -> 3fa9101a0f8c60d21df21e6b6da489d883c0aa9c }
 Partial Revert commits SHA are -> 
 3059ae78f0cdeab569fc58f84c93f574a9359428 - revert - 3fa9101a0f8c60d21df21e6b6da489d883c0aa9c
-The reverted commit sha is - 3059ae78f0cdeab569fc58f84c93f574a9359428
+---> The reverted commit sha is - 3059ae78f0cdeab569fc58f84c93f574a9359428
 Commit message - fix for same-second edge and metadata collision.
-The original commit sha is - 3fa9101a0f8c60d21df21e6b6da489d883c0aa9c
+---> The original commit sha is - 3fa9101a0f8c60d21df21e6b6da489d883c0aa9c
 Commit message - Merge branch 'master' into shard_times
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 config/test.conf
 src/main/scala/com/twitter/flockdb/Edges.scala
 src/main/scala/com/twitter/flockdb/shards/BlockedShard.scala
@@ -812,11 +812,11 @@ Partial Revert diff pair 43 is ->
 { ab08b3f63b8ec84082ac7d857c3b79bea99bf14f -> 2c055a07aa953c9289e7914c0b0446ef64edd1e0 }
 Partial Revert commits SHA are -> 
 ab08b3f63b8ec84082ac7d857c3b79bea99bf14f - revert - 2c055a07aa953c9289e7914c0b0446ef64edd1e0
-The reverted commit sha is - ab08b3f63b8ec84082ac7d857c3b79bea99bf14f
+---> The reverted commit sha is - ab08b3f63b8ec84082ac7d857c3b79bea99bf14f
 Commit message - generate shard id inside flockdb.
-The original commit sha is - 2c055a07aa953c9289e7914c0b0446ef64edd1e0
+---> The original commit sha is - 2c055a07aa953c9289e7914c0b0446ef64edd1e0
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main/scala/com/twitter/flockdb/Edge.scala
 src/main/scala/com/twitter/flockdb/QueryTerm.scala
 src/main/scala/com/twitter/flockdb/Select.scala
@@ -851,13 +851,13 @@ Partial Revert diff pair 44 is ->
 { 25c0dc6eb3f4af45b302df75e3d225ad6d1e4c15 -> 8e082e1d0db6130270ff7994c8f5e96e0ebebe68 }
 Partial Revert commits SHA are -> 
 25c0dc6eb3f4af45b302df75e3d225ad6d1e4c15 - revert - 8e082e1d0db6130270ff7994c8f5e96e0ebebe68
-The reverted commit sha is - 25c0dc6eb3f4af45b302df75e3d225ad6d1e4c15
+---> The reverted commit sha is - 25c0dc6eb3f4af45b302df75e3d225ad6d1e4c15
 Commit message - Get rid of Flock.thrift
 
 Rename Edges.thrift to Flockdb.thrift
-The original commit sha is - 8e082e1d0db6130270ff7994c8f5e96e0ebebe68
+---> The original commit sha is - 8e082e1d0db6130270ff7994c8f5e96e0ebebe68
 Commit message - Merge branch 'master' of github.com:twitter/flockdb
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 README.markdown
 -----------------------------------------------------------------
 

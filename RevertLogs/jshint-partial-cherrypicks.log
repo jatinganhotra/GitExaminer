@@ -1,0 +1,3280 @@
+# of partial cherrypicks = 174
+Partial Cherry-pick diff pair 1 is -> 
+{ 61d9b82473da84bdcbefd3411be674edbf7b7d9f -> 9d245f3d7e910e0a2b9c3d00eafb9596e16104c9 } is a cherrypick
+{ ef87c661d79bf33493a55359a7a4799b2bb0bbc9 -> a7df1e32633408b01d5afcf44f4112fd32771187 }
+Partial Cherry-pick commits SHA are -> 
+9d245f3d7e910e0a2b9c3d00eafb9596e16104c9 - cherrypick - a7df1e32633408b01d5afcf44f4112fd32771187
+---> The cherrypicked commit sha is - 9d245f3d7e910e0a2b9c3d00eafb9596e16104c9
+Commit message - Add test for W025
+
+This warning was not previously covered by the test suite.
+---> The original commit sha is - a7df1e32633408b01d5afcf44f4112fd32771187
+Commit message - Merge pull request #1907 from jugglinmike/refactor-unnamed-fn-test
+
+Refactor W025 Generation
+---> The files with partial_cherrypicks are:-
+tests/unit/core.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ 1b886447c75b3164ccef95bd9236dbeb8d58950f -> 61d9b82473da84bdcbefd3411be674edbf7b7d9f } is a cherrypick
+{ 63b2b67bb974d37f35ad3590d324dcd7708bd656 -> ef87c661d79bf33493a55359a7a4799b2bb0bbc9 }
+Partial Cherry-pick commits SHA are -> 
+61d9b82473da84bdcbefd3411be674edbf7b7d9f - cherrypick - ef87c661d79bf33493a55359a7a4799b2bb0bbc9
+---> The cherrypicked commit sha is - 61d9b82473da84bdcbefd3411be674edbf7b7d9f
+Commit message - Merge similar code paths
+
+The paths for ES5 "getter" and "setter" attributes share enough code to
+warrant combination.
+---> The original commit sha is - ef87c661d79bf33493a55359a7a4799b2bb0bbc9
+Commit message - Merge pull request #1903 from jugglinmike/get-set-paths
+
+Merge similar code paths
+---> The files with partial_cherrypicks are:-
+src/jshint.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 72a61b4374bbd5b490cdbea5c5f0e8b8bbde630d -> f80cf59081f684324c624ec3dcb556dc3a3ad6fb } is a cherrypick
+{ 2bf61510436e56c9d2f512f7e88887992a314917 -> cf0f2702f9eec54b42c2814dec738b319bf23d1a }
+Partial Cherry-pick commits SHA are -> 
+f80cf59081f684324c624ec3dcb556dc3a3ad6fb - cherrypick - cf0f2702f9eec54b42c2814dec738b319bf23d1a
+---> The cherrypicked commit sha is - f80cf59081f684324c624ec3dcb556dc3a3ad6fb
+Commit message - Fix bug for vars declared via list comprehensions
+
+This logic already exists for undefined identifiers in the global scope,
+but it must be copied to the branch reserved for identifiers in function
+scopes.
+---> The original commit sha is - cf0f2702f9eec54b42c2814dec738b319bf23d1a
+Commit message - Merge branch 'dry-undef' of https://github.com/jugglinmike/jshint into dry-undef
+
+* 'dry-undef' of https://github.com/jugglinmike/jshint:
+  Consolidate branches
+  Fix bug for vars declared via list comprehensions
+  Remove tautological condition
+---> The files with partial_cherrypicks are:-
+tests/unit/parser.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ 53b06a65334ef045cd8f52aed67a3cbf6f05b564 -> d11e621e6e8bde1c152bdd36518aa770ee56760e } is a cherrypick
+{ 434ebe597e47b28e8d663024a8eecd877fca883b -> 69c1dfba470fcf93ab80c8291b36734824b65b7e }
+Partial Cherry-pick commits SHA are -> 
+d11e621e6e8bde1c152bdd36518aa770ee56760e - cherrypick - 69c1dfba470fcf93ab80c8291b36734824b65b7e
+---> The cherrypicked commit sha is - d11e621e6e8bde1c152bdd36518aa770ee56760e
+Commit message - Allow paren-wrapped function literals with `immed`
+
+Function literals must be wrapped in parenthesis if their properties are
+to be accessed. Ensure that this syntax does not trigger warnings when
+the `immed` option is set.
+
+The native Function prototype may be extended with any arbitrary
+property, making the current property whitelisting approach
+inappropriate.
+
+Closes gh-1737
+---> The original commit sha is - 69c1dfba470fcf93ab80c8291b36734824b65b7e
+Commit message - Merge pull request #1843 from jugglinmike/1737-immed-expr
+
+Allow paren-wrapped function literals with `immed`
+---> The files with partial_cherrypicks are:-
+tests/unit/fixtures/immed.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ 2876eed48894098a8414e609801965c2f906fbb3 -> 8c41fbc1376ebc3d8f2cad43e9a285d660177aab } is a cherrypick
+{ 00f14e2ba6bac4c171e2c545f6f6fc6fb0ca218e -> 3a514ade96dac479ede19e0321d8a25ae3bafa39 }
+Partial Cherry-pick commits SHA are -> 
+8c41fbc1376ebc3d8f2cad43e9a285d660177aab - cherrypick - 3a514ade96dac479ede19e0321d8a25ae3bafa39
+---> The cherrypicked commit sha is - 8c41fbc1376ebc3d8f2cad43e9a285d660177aab
+Commit message - add XDomainRequest to browser env
+---> The original commit sha is - 3a514ade96dac479ede19e0321d8a25ae3bafa39
+Commit message - Merge pull request #1835 from m90/master
+
+Add XDomainRequest to browser env too
+---> The files with partial_cherrypicks are:-
+src/vars.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 07316f717847d81cba8a44e83db868f745b7bf2f -> 8babea75a4ba1daa814971e6ab410618776ee7b7 } is a cherrypick
+{ 076807b63a52f117a2506210ed9c422e2f9f8ae6 -> 00f14e2ba6bac4c171e2c545f6f6fc6fb0ca218e }
+Partial Cherry-pick commits SHA are -> 
+8babea75a4ba1daa814971e6ab410618776ee7b7 - cherrypick - 00f14e2ba6bac4c171e2c545f6f6fc6fb0ca218e
+---> The cherrypicked commit sha is - 8babea75a4ba1daa814971e6ab410618776ee7b7
+Commit message - finally fixed indentation issues
+---> The original commit sha is - 00f14e2ba6bac4c171e2c545f6f6fc6fb0ca218e
+Commit message - Merge pull request #1815 from TPei/master
+
+changed static "error" severity to actual severity level (info, warning, error)
+---> The files with partial_cherrypicks are:-
+src/reporters/checkstyle.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ d304170ead2e997bc0147897a72ecdf864712097 -> bb10e778fa2edd778631eecd2fb4db9b9457b677 } is a cherrypick
+{ 07316f717847d81cba8a44e83db868f745b7bf2f -> 8babea75a4ba1daa814971e6ab410618776ee7b7 }
+Partial Cherry-pick commits SHA are -> 
+bb10e778fa2edd778631eecd2fb4db9b9457b677 - cherrypick - 8babea75a4ba1daa814971e6ab410618776ee7b7
+---> The cherrypicked commit sha is - bb10e778fa2edd778631eecd2fb4db9b9457b677
+Commit message - fixed indentation
+---> The original commit sha is - 8babea75a4ba1daa814971e6ab410618776ee7b7
+Commit message - finally fixed indentation issues
+---> The files with partial_cherrypicks are:-
+dist/jshint-rhino.js
+dist/jshint.js
+src/jshint.js
+tests/unit/parser.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ 90afb1feeac18680f2e7f04a03256b3f0d268a1f -> 252da2c809c6a37b28c70e797dc0fc01df704674 } is a cherrypick
+{ fe12c4c2befab65ad898c984c6fbd20d6d3162f4 -> f83670dc8cd4d5418d15d6a3ea09ebe5eb1f0d01 }
+Partial Cherry-pick commits SHA are -> 
+252da2c809c6a37b28c70e797dc0fc01df704674 - cherrypick - f83670dc8cd4d5418d15d6a3ea09ebe5eb1f0d01
+---> The cherrypicked commit sha is - 252da2c809c6a37b28c70e797dc0fc01df704674
+Commit message - Fixes #1729. Added browserify flag to subset browser-safe node globals.
+---> The original commit sha is - f83670dc8cd4d5418d15d6a3ea09ebe5eb1f0d01
+Commit message - Merge pull request #1767 from pluma/browserify-flag
+
+Fixes #1729. Added browserify flag to subset browser-safe node globals
+---> The files with partial_cherrypicks are:-
+examples/.jshintrc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ a28b3fe35258912386daaff439fe80bf79f02496 -> 6ca9e4152becc2c6f24e9f52a19af9943b9c7aa1 } is a cherrypick
+{ 6558c1e1eb5ba8f7ee371f5cf7dd824dab4b54d3 -> 681b406918e96044be3375e389ddbe931740a804 }
+Partial Cherry-pick commits SHA are -> 
+6ca9e4152becc2c6f24e9f52a19af9943b9c7aa1 - cherrypick - 681b406918e96044be3375e389ddbe931740a804
+---> The cherrypicked commit sha is - 6ca9e4152becc2c6f24e9f52a19af9943b9c7aa1
+Commit message - Lint expressions within ES6 Template Literals
+
+Previously, expressions within ES6 template literals were not parsed, resulting in lint errors
+caused by these expressions to be ignored. This CL corrects this by ensuring that template
+expressions are parsed and checked.
+
+Closes #1705
+---> The original commit sha is - 681b406918e96044be3375e389ddbe931740a804
+Commit message - Merge branch 'issue-1705' of https://github.com/caitp/jshint into issue-1705
+
+* 'issue-1705' of https://github.com/caitp/jshint:
+  Lint expressions within ES6 Template Literals
+---> The files with partial_cherrypicks are:-
+src/jshint.js
+tests/unit/core.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 29a2c55db10b52b081e1678fbf145bbcdf5a3fd2 -> 4de9ac64802208fe8263f655b83515f5d945e608 } is a cherrypick
+{ 99d65afa501c4e1e08294b8cb7ffd4429e4a2684 -> 6a9f721f85021a66db29ad39f70ef09c1fd63450 }
+Partial Cherry-pick commits SHA are -> 
+4de9ac64802208fe8263f655b83515f5d945e608 - cherrypick - 6a9f721f85021a66db29ad39f70ef09c1fd63450
+---> The cherrypicked commit sha is - 4de9ac64802208fe8263f655b83515f5d945e608
+Commit message - renaming defaulthard to enforceall
+---> The original commit sha is - 6a9f721f85021a66db29ad39f70ef09c1fd63450
+Commit message - Merge pull request #1696 from paul-wade/master
+
+#1348 - implementing defaulthard option to turn on all enforce options
+---> The files with partial_cherrypicks are:-
+tests/unit/fixtures/enforceall.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ a59b0f11b6f1fc6d9336e5012ae645fd8c4e147f -> 2468548df9537411f5bc9fc8427f5d4c75473f32 } is a cherrypick
+{ 9b783ad98df0c73f77357913c5a9617b131433c1 -> 99d65afa501c4e1e08294b8cb7ffd4429e4a2684 }
+Partial Cherry-pick commits SHA are -> 
+2468548df9537411f5bc9fc8427f5d4c75473f32 - cherrypick - 99d65afa501c4e1e08294b8cb7ffd4429e4a2684
+---> The cherrypicked commit sha is - 2468548df9537411f5bc9fc8427f5d4c75473f32
+Commit message - Special comment should have space after initial word (fixes #1632)
+---> The original commit sha is - 99d65afa501c4e1e08294b8cb7ffd4429e4a2684
+Commit message - Merge pull request #1694 from victor-homyakov/master
+
+Special comment should have space after initial word (fixes #1632)
+---> The files with partial_cherrypicks are:-
+.gitignore
+src/lex.js
+tests/unit/fixtures/gh1632-1.js
+tests/unit/fixtures/gh1632-2.js
+tests/unit/fixtures/gh1632-3.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 98962811e8d0711b4456c6b788000babfc02003a -> b8764ef10ee2d7c3c73698568cc5d014e8279e9e } is a cherrypick
+{ 3839924917c61b1e3a784c0677e786b9fa419655 -> baa06551d564a8ede15d049254011c95331c1b5a }
+Partial Cherry-pick commits SHA are -> 
+b8764ef10ee2d7c3c73698568cc5d014e8279e9e - cherrypick - baa06551d564a8ede15d049254011c95331c1b5a
+---> The cherrypicked commit sha is - b8764ef10ee2d7c3c73698568cc5d014e8279e9e
+Commit message - Merge pull request #1703 from paul-wade/issue1701
+
+Point to the beginning of the woken when warning about unused variables. Fixes #1701.
+---> The original commit sha is - baa06551d564a8ede15d049254011c95331c1b5a
+Commit message - Merge pull request #1713 from RReverser/patch-1
+
+Add FileReaderSync to Worker globals
+---> The files with partial_cherrypicks are:-
+src/jshint.js
+tests/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 083cd534f844d993eaba4ecd43cbfe30091d876e -> 98962811e8d0711b4456c6b788000babfc02003a } is a cherrypick
+{ b8764ef10ee2d7c3c73698568cc5d014e8279e9e -> 3839924917c61b1e3a784c0677e786b9fa419655 }
+Partial Cherry-pick commits SHA are -> 
+98962811e8d0711b4456c6b788000babfc02003a - cherrypick - 3839924917c61b1e3a784c0677e786b9fa419655
+---> The cherrypicked commit sha is - 98962811e8d0711b4456c6b788000babfc02003a
+Commit message - Add FileReaderSync to Worker globals
+
+https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync
+---> The original commit sha is - 3839924917c61b1e3a784c0677e786b9fa419655
+Commit message - Update envs.js
+---> The files with partial_cherrypicks are:-
+src/jshint.js
+tests/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 99037925339bbb68cdd2184de76fd9788ea64e1f -> cee41b316ad9b674060d1c0fd1c2a44395fd8d57 } is a cherrypick
+{ 083cd534f844d993eaba4ecd43cbfe30091d876e -> 98962811e8d0711b4456c6b788000babfc02003a }
+Partial Cherry-pick commits SHA are -> 
+cee41b316ad9b674060d1c0fd1c2a44395fd8d57 - cherrypick - 98962811e8d0711b4456c6b788000babfc02003a
+---> The cherrypicked commit sha is - cee41b316ad9b674060d1c0fd1c2a44395fd8d57
+Commit message - Merge pull request #1695 from mzgol/rAF
+
+Add requestAnimationFrame & cancelAnimationFrame to browser globals
+---> The original commit sha is - 98962811e8d0711b4456c6b788000babfc02003a
+Commit message - Add FileReaderSync to Worker globals
+
+https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync
+---> The files with partial_cherrypicks are:-
+tests/unit/envs.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ 99037925339bbb68cdd2184de76fd9788ea64e1f -> cee41b316ad9b674060d1c0fd1c2a44395fd8d57 } is a cherrypick
+{ 049c6e60c97e981c1ae06316e1409ebba5c8d0e2 -> 3ade46d3e1c55a5b7baa4c1a2766723c6f71b4a8 }
+Partial Cherry-pick commits SHA are -> 
+cee41b316ad9b674060d1c0fd1c2a44395fd8d57 - cherrypick - 3ade46d3e1c55a5b7baa4c1a2766723c6f71b4a8
+---> The cherrypicked commit sha is - cee41b316ad9b674060d1c0fd1c2a44395fd8d57
+Commit message - Merge pull request #1695 from mzgol/rAF
+
+Add requestAnimationFrame & cancelAnimationFrame to browser globals
+---> The original commit sha is - 3ade46d3e1c55a5b7baa4c1a2766723c6f71b4a8
+Commit message - #1348 This file wasn't meant to be changed/committed removed my changes
+---> The files with partial_cherrypicks are:-
+src/cli.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ 0050e434bf33261777ecce79ca23652c9af73033 -> c0ba711bcbaa846ee22bf6468c5db6b860bff119 } is a cherrypick
+{ cee41b316ad9b674060d1c0fd1c2a44395fd8d57 -> 049c6e60c97e981c1ae06316e1409ebba5c8d0e2 }
+Partial Cherry-pick commits SHA are -> 
+c0ba711bcbaa846ee22bf6468c5db6b860bff119 - cherrypick - 049c6e60c97e981c1ae06316e1409ebba5c8d0e2
+---> The cherrypicked commit sha is - c0ba711bcbaa846ee22bf6468c5db6b860bff119
+Commit message - #1348 adding some basic tests
+---> The original commit sha is - 049c6e60c97e981c1ae06316e1409ebba5c8d0e2
+Commit message - #1348 clean up code, fixing tabs, shortened comments on defaulthard option
+---> The files with partial_cherrypicks are:-
+src/cli.js
+src/vars.js
+tests/unit/envs.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ 837acf82856012caa219956be5023ca2712ec400 -> 110a5b124495c8e626c10a2388015b08bd221d1c } is a cherrypick
+{ 29741278a62194c86bfb368dc833eb30829307f4 -> 54371e6c1bf532db10073cf4ad30bd94ea2f9d76 }
+Partial Cherry-pick commits SHA are -> 
+110a5b124495c8e626c10a2388015b08bd221d1c - cherrypick - 54371e6c1bf532db10073cf4ad30bd94ea2f9d76
+---> The cherrypicked commit sha is - 110a5b124495c8e626c10a2388015b08bd221d1c
+Commit message - Extend "globals" configuration deeply
+
+Allow for extension of the "globals" configuration option. Users may
+override any or all "globals" values by explicitly specifying them in
+the extending configuration.
+---> The original commit sha is - 54371e6c1bf532db10073cf4ad30bd94ea2f9d76
+Commit message - Merge pull request #1675 from jugglinmike/extend-globals
+
+Extend "globals" configuration deeply
+---> The files with partial_cherrypicks are:-
+src/cli.js
+tests/cli.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 7ce41caef06ee92937157047dfa4133cd6e0ceb4 -> 837acf82856012caa219956be5023ca2712ec400 } is a cherrypick
+{ 9871e809a6611b3cbc0034477b7d5b761b360c50 -> 29741278a62194c86bfb368dc833eb30829307f4 }
+Partial Cherry-pick commits SHA are -> 
+837acf82856012caa219956be5023ca2712ec400 - cherrypick - 29741278a62194c86bfb368dc833eb30829307f4
+---> The cherrypicked commit sha is - 837acf82856012caa219956be5023ca2712ec400
+Commit message - JSHint can be run using Rhino in interpreter mode only
+Fixes gh-1333
+---> The original commit sha is - 29741278a62194c86bfb368dc833eb30829307f4
+Commit message - Merge pull request #1663 from thomas658/2.x
+
+gh-1333: JSHint can be run using Rhino in interpreter mode only
+---> The files with partial_cherrypicks are:-
+scripts/generate-identifier-data.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ 4244feadcacad2e6b995f71081b318ee67e375d6 -> 994c4be4621a357b239d832098838f25c9d7caad } is a cherrypick
+{ 81df14b814446f0df1aa8b4d03555aa77f3fa3a6 -> 441855aee003d3a6b009ce16741dd7a5cfc38f78 }
+Partial Cherry-pick commits SHA are -> 
+994c4be4621a357b239d832098838f25c9d7caad - cherrypick - 441855aee003d3a6b009ce16741dd7a5cfc38f78
+---> The cherrypicked commit sha is - 994c4be4621a357b239d832098838f25c9d7caad
+Commit message - Use minimatch library to match patterns in overrides config property
+---> The original commit sha is - 441855aee003d3a6b009ce16741dd7a5cfc38f78
+Commit message - Merge pull request #1623 from arikon/feature/minimatch
+
+Use minimatch library to match patterns in overrides config property
+---> The files with partial_cherrypicks are:-
+src/cli.js
+tests/cli.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ 706b9b7b81b4fb42d812cd5f3315a27c9819e6bd -> 10e391c56fcdcf8d0e6ea460c97121834983cb85 } is a cherrypick
+{ a4644aa10290fc09097cbbe71a1e0fce7c9dd6a5 -> 13352442689766dc23cc2fdd8a1e4b7de251fb8c }
+Partial Cherry-pick commits SHA are -> 
+10e391c56fcdcf8d0e6ea460c97121834983cb85 - cherrypick - 13352442689766dc23cc2fdd8a1e4b7de251fb8c
+---> The cherrypicked commit sha is - 10e391c56fcdcf8d0e6ea460c97121834983cb85
+Commit message - Implemented 'safeasi' option
+
+When using Automatic Semicolon Insertion there are
+certain edge-cases that you need to keep in mind.
+Namely new lines starting with either `(`, `[` or
+`/` because those may mistakenly be interpreted as
+continuations of the previous line.
+
+If you enable the 'safeasi' option jshint will
+watch out for all the potentially unsafe
+edge-cases, so you don't have to.
+---> The original commit sha is - 13352442689766dc23cc2fdd8a1e4b7de251fb8c
+Commit message - Merge pull request #1428 from Wizek/2.x
+
+Extended `asi` option to be safer
+---> The files with partial_cherrypicks are:-
+tests/unit/fixtures/safeasi.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ f9409a0afc83f2835dd518f874087618ecad890f -> 4afb93db777cd0aa91a0e80027dd0944ee267d13 } is a cherrypick
+{ e3aa71840be46fa4b2ed4505dd097d042b4c9957 -> 83935fd560fe49cbbe3db1a82b3b092760600349 }
+Partial Cherry-pick commits SHA are -> 
+4afb93db777cd0aa91a0e80027dd0944ee267d13 - cherrypick - 83935fd560fe49cbbe3db1a82b3b092760600349
+---> The cherrypicked commit sha is - 4afb93db777cd0aa91a0e80027dd0944ee267d13
+Commit message - Glob documentation for example .jshintignore
+
+I had some difficulty figuring out the glob syntax for JSHint, since the original documentation referenced in https://groups.google.com/forum/#!topic/jshint/62N12QUhBCs no longer exists on the current JSHint. Adding it to this example in the hopes that it will be helpful.
+---> The original commit sha is - 83935fd560fe49cbbe3db1a82b3b092760600349
+Commit message - Merge pull request #1553 from christopherliu/patch-1
+
+Glob documentation for example .jshintignore
+---> The files with partial_cherrypicks are:-
+examples/.jshintignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ 79343e3e857b18c86ddf47ed49d1e74732ee00cc -> 5765c1bb9bce050311b3db3a470c97a523ecb2cd } is a cherrypick
+{ 164d0effbe1db69e3e8cce5f87bfb35c80045e37 -> 14284c001afd0cee6ac006ee30f0dcf78006ff58 }
+Partial Cherry-pick commits SHA are -> 
+5765c1bb9bce050311b3db3a470c97a523ecb2cd - cherrypick - 14284c001afd0cee6ac006ee30f0dcf78006ff58
+---> The cherrypicked commit sha is - 5765c1bb9bce050311b3db3a470c97a523ecb2cd
+Commit message - Strip comments in JSON by parsing instead of regex
+
+Using regex for this is just too fragile.
+
+I've changed it out to use the strip-json-comments module instead: https://github.com/sindresorhus/strip-json-comments
+
+Example of where the existing one will fail:
+
+    console.log(removeComments('{"a":"b//c"}'));
+    //=> {"a":"b
+---> The original commit sha is - 14284c001afd0cee6ac006ee30f0dcf78006ff58
+Commit message - Merge pull request #1567 from sindresorhus/strip-json-comments
+
+Strip comments in JSON by parsing instead of regex
+---> The files with partial_cherrypicks are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ f2843c52940392c1e493f6fdfb768e5dbd22ac83 -> e940141eb746a78ae89e7b20e5754a2240ff486f } is a cherrypick
+{ c83caf33a3c867e557039433b25bb57a5be6ae5f -> cd69f1390bd40d02b6d8dc06abddc4d744310981 }
+Partial Cherry-pick commits SHA are -> 
+e940141eb746a78ae89e7b20e5754a2240ff486f - cherrypick - cd69f1390bd40d02b6d8dc06abddc4d744310981
+---> The cherrypicked commit sha is - e940141eb746a78ae89e7b20e5754a2240ff486f
+Commit message - Added support for disabling all numeric options by setting to false (see #988). Updated tests accordingly.
+---> The original commit sha is - cd69f1390bd40d02b6d8dc06abddc4d744310981
+Commit message - Fixed #1187: Explicitly define contents of our NPM package
+
+Signed-off-by: Anton Kovalyov <anton@kovalyov.net>
+---> The files with partial_cherrypicks are:-
+.npmignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ 0bedbd023342fe20ad040056364acf162fd72e04 -> f2a6c638c84c7e1460c8bbf3da671d5e5b3d2018 } is a cherrypick
+{ c83caf33a3c867e557039433b25bb57a5be6ae5f -> cd69f1390bd40d02b6d8dc06abddc4d744310981 }
+Partial Cherry-pick commits SHA are -> 
+f2a6c638c84c7e1460c8bbf3da671d5e5b3d2018 - cherrypick - cd69f1390bd40d02b6d8dc06abddc4d744310981
+---> The cherrypicked commit sha is - f2a6c638c84c7e1460c8bbf3da671d5e5b3d2018
+Commit message - REVERT reporting error/warning code by default
+
+command line option --verbose already supports that
+---> The original commit sha is - cd69f1390bd40d02b6d8dc06abddc4d744310981
+Commit message - Fixed #1187: Explicitly define contents of our NPM package
+
+Signed-off-by: Anton Kovalyov <anton@kovalyov.net>
+---> The files with partial_cherrypicks are:-
+.npmignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ 38d14b4089a248910f78fce11cf5d9c3a3f4b008 -> c001e7c6d7ab8bf6fdd940935d14360896121eea } is a cherrypick
+{ 45815ac5f188043b3783bd11868cad173146d85b -> f6edc5b33a06088df6a6c93c55b5dea077fe626f }
+Partial Cherry-pick commits SHA are -> 
+c001e7c6d7ab8bf6fdd940935d14360896121eea - cherrypick - f6edc5b33a06088df6a6c93c55b5dea077fe626f
+---> The cherrypicked commit sha is - c001e7c6d7ab8bf6fdd940935d14360896121eea
+Commit message - added es3 config option and updated tests to match es3 ;
+made es5 the default and updated tests to remove es5 ;
+added info message to tell about es5 being default ;
+added functions to encapsulate management of current version state
+
+Signed-off-by: Bernard `Guyzmo` Pratz <guyzmo+github@m0g.net>
+---> The original commit sha is - f6edc5b33a06088df6a6c93c55b5dea077fe626f
+Commit message - Remote obsolete ES5 option from our config
+---> The files with partial_cherrypicks are:-
+jshint.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 776f7409f02f7502194aa9e39dd5013a656b54ae -> 556b9d1dab7c79d0d78b11a6b55f84c509b3e663 } is a cherrypick
+{ 08bd3ffb8c14a23e16f2ea8f2ab4aba1108375e7 -> 7d679be889b60a0ea2b69df9f73f9df6eb3241f6 }
+Partial Cherry-pick commits SHA are -> 
+556b9d1dab7c79d0d78b11a6b55f84c509b3e663 - cherrypick - 7d679be889b60a0ea2b69df9f73f9df6eb3241f6
+---> The cherrypicked commit sha is - 556b9d1dab7c79d0d78b11a6b55f84c509b3e663
+Commit message - Prefixing the source warning message with 'jshint.' so Jenkins categorizes things properly
+---> The original commit sha is - 7d679be889b60a0ea2b69df9f73f9df6eb3241f6
+Commit message - Merge pull request #1094 from usrbincc/function-closure-expressions-comma
+
+Don't try to parse expression closure bodies as comma expressions.
+---> The files with partial_cherrypicks are:-
+src/reporters/checkstyle.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ b6dd05b0db83518e466f8c2cd9092c485a0284e6 -> dde554915b494cc5fc16eb5494d06996985ce78b } is a cherrypick
+{ f1c04738ff30855a33a9b3e7378dd8891f72e72a -> a3fa99c9f6eec9c46c4c8c2d4b60e57627e01e29 }
+Partial Cherry-pick commits SHA are -> 
+dde554915b494cc5fc16eb5494d06996985ce78b - cherrypick - a3fa99c9f6eec9c46c4c8c2d4b60e57627e01e29
+---> The cherrypicked commit sha is - dde554915b494cc5fc16eb5494d06996985ce78b
+Commit message - Fixes #977 - Adding the error code to the checkstyle message when --verbose is specified, and changing the source to just provide the error code.  The old way of using the raw message was useless, and breaks the categorization in Jenkins
+---> The original commit sha is - a3fa99c9f6eec9c46c4c8c2d4b60e57627e01e29
+Commit message - Merge branch 'master' of github.com:jshint/jshint
+---> The files with partial_cherrypicks are:-
+src/reporters/checkstyle.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ dde554915b494cc5fc16eb5494d06996985ce78b -> 9acccd2cf7c4e893893ca22b82a0144b1eb9bc43 } is a cherrypick
+{ 050cf19f1f6b8b7f9247ecf2905306603c30370c -> f1c04738ff30855a33a9b3e7378dd8891f72e72a }
+Partial Cherry-pick commits SHA are -> 
+9acccd2cf7c4e893893ca22b82a0144b1eb9bc43 - cherrypick - f1c04738ff30855a33a9b3e7378dd8891f72e72a
+---> The cherrypicked commit sha is - 9acccd2cf7c4e893893ca22b82a0144b1eb9bc43
+Commit message - Adding guyzmo to the README
+---> The original commit sha is - f1c04738ff30855a33a9b3e7378dd8891f72e72a
+Commit message - ES6 and Moz modes should imply ES5.
+
+Closes GH-1068
+---> The files with partial_cherrypicks are:-
+src/reporters/checkstyle.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ b6dd05b0db83518e466f8c2cd9092c485a0284e6 -> dde554915b494cc5fc16eb5494d06996985ce78b } is a cherrypick
+{ 56d10bf0bb2365347a0a183922cea5d8c0def977 -> 050cf19f1f6b8b7f9247ecf2905306603c30370c }
+Partial Cherry-pick commits SHA are -> 
+dde554915b494cc5fc16eb5494d06996985ce78b - cherrypick - 050cf19f1f6b8b7f9247ecf2905306603c30370c
+---> The cherrypicked commit sha is - dde554915b494cc5fc16eb5494d06996985ce78b
+Commit message - Fixes #977 - Adding the error code to the checkstyle message when --verbose is specified, and changing the source to just provide the error code.  The old way of using the raw message was useless, and breaks the categorization in Jenkins
+---> The original commit sha is - 050cf19f1f6b8b7f9247ecf2905306603c30370c
+Commit message - Merge pull request #1088 from jklein/master
+
+Updating Checkstyle reporter to provide error codes
+---> The files with partial_cherrypicks are:-
+src/reporters/checkstyle.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ cd11096cd2d6723c7f54c4ac23c0a201ca977e08 -> 1aab59ea3274df215b145cad765d40fca187e73d } is a cherrypick
+{ 50483b9bcb3a9c0ac8339e4d8d8373af01193691 -> b6dd05b0db83518e466f8c2cd9092c485a0284e6 }
+Partial Cherry-pick commits SHA are -> 
+1aab59ea3274df215b145cad765d40fca187e73d - cherrypick - b6dd05b0db83518e466f8c2cd9092c485a0284e6
+---> The cherrypicked commit sha is - 1aab59ea3274df215b145cad765d40fca187e73d
+Commit message - Fix problem finding .jshintrc in windows and node 0.10
+
+With node 0.10.x and Windows 8 the env variable must be `process.env.USERPROFILE` instead of the previous one.
+---> The original commit sha is - b6dd05b0db83518e466f8c2cd9092c485a0284e6
+Commit message - Merge pull request #1065 from irae/patch-1
+
+Fix problem finding .jshintrc in windows and node 0.10
+---> The files with partial_cherrypicks are:-
+src/cli/cli.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ d4f0e897f8c2acda9a4c2405da9c05faea7cea25 -> cd11096cd2d6723c7f54c4ac23c0a201ca977e08 } is a cherrypick
+{ b63d3e414b2732bde8bfa97e466dd3e22cb5e1aa -> 50483b9bcb3a9c0ac8339e4d8d8373af01193691 }
+Partial Cherry-pick commits SHA are -> 
+cd11096cd2d6723c7f54c4ac23c0a201ca977e08 - cherrypick - 50483b9bcb3a9c0ac8339e4d8d8373af01193691
+---> The cherrypicked commit sha is - cd11096cd2d6723c7f54c4ac23c0a201ca977e08
+Commit message - Added support for do statement bodies that are not block statements, in the same way that we can already do with e.g. if or while statements.
+
+The new functionality will obey the `curly` option and allows the statement body to appear on the same line or the following line (in which case existing indentation rules will apply)
+---> The original commit sha is - 50483b9bcb3a9c0ac8339e4d8d8373af01193691
+Commit message - Merge pull request #1062 from jamesallardice/non-curly-do
+
+Add support for `do` statement bodies that are not block statements
+---> The files with partial_cherrypicks are:-
+tests/stable/regression/thirdparty.js
+tests/stable/unit/fixtures/curly.js
+tests/stable/unit/fixtures/curly2.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ bbfa15d1224fa0bee1f9e97e7e0f6fade1140d05 -> b6190c8e0463cd55d327ddcddd6709d5a5c46ad2 } is a cherrypick
+{ 01fc53fef753a021baddc4fce05ef4cc570aa188 -> 614dd067122b60e049064b08762139b68695f44b }
+Partial Cherry-pick commits SHA are -> 
+b6190c8e0463cd55d327ddcddd6709d5a5c46ad2 - cherrypick - 614dd067122b60e049064b08762139b68695f44b
+---> The cherrypicked commit sha is - b6190c8e0463cd55d327ddcddd6709d5a5c46ad2
+Commit message - Use function param 'isclassdef', not function 'classdef' in conditional.
+---> The original commit sha is - 614dd067122b60e049064b08762139b68695f44b
+Commit message - Merge pull request #1048 from usrbincc/class
+
+Support for ES6 class syntax.
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+src/stable/lex.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ 70a7893617a1dd305f683f2de642c8f9d88eb501 -> 5ac92c2f810255070b86dc34f85508b4951b572b } is a cherrypick
+{ 077a6f29209d93def7427a57d066d19a4c4a2140 -> cd03a564cd08fd5053c8903fccd0b62c68d18223 }
+Partial Cherry-pick commits SHA are -> 
+5ac92c2f810255070b86dc34f85508b4951b572b - cherrypick - cd03a564cd08fd5053c8903fccd0b62c68d18223
+---> The cherrypicked commit sha is - 5ac92c2f810255070b86dc34f85508b4951b572b
+Commit message - Recognize unused 'let' at the global scope.
+---> The original commit sha is - cd03a564cd08fd5053c8903fccd0b62c68d18223
+Commit message - Always do the 'unstack', and after the last 'advance', for good measure.
+
+This fixes the case where:
+
+```js
+// jshint esnext: true, unused: true
+[a,b] = [1,2];
+let c = 42;
+```
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+src/stable/lex.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ 8dfa1b64e0fe5863d2c862c4d4c6efb5a9af3aae -> dea5f5963213e9609b1f1da966ee31e288fc7cfd } is a cherrypick
+{ e24ae9928dd62ed8c29ba8b7aafaa68ec4a7dd35 -> 51b4c4f3e7772d933563b6313d8dc45fe569e133 }
+Partial Cherry-pick commits SHA are -> 
+dea5f5963213e9609b1f1da966ee31e288fc7cfd - cherrypick - 51b4c4f3e7772d933563b6313d8dc45fe569e133
+---> The cherrypicked commit sha is - dea5f5963213e9609b1f1da966ee31e288fc7cfd
+Commit message - Remove next/ from the source tree
+---> The original commit sha is - 51b4c4f3e7772d933563b6313d8dc45fe569e133
+Commit message - Merge branch 'master' into class
+
+Conflicts:
+	tests/stable/unit/parser.js
+
+Fixed by keeping both tests.
+---> The files with partial_cherrypicks are:-
+make.js
+package.json
+src/next/constants.js
+src/next/jshint.js
+src/next/reason.js
+src/next/regexp.js
+src/next/utils.js
+src/reporters/jslint_xml.js
+src/shared/messages.js
+src/shared/vars.js
+src/stable/state.js
+tests/next/fixtures/parser/comments.js
+tests/next/fixtures/parser/simple_file.js
+tests/next/fixtures/parser/tokens.json
+tests/next/fixtures/reason/arguments.js
+tests/next/fixtures/reason/asi.js
+tests/next/fixtures/reason/bitwise.js
+tests/next/fixtures/reason/comparison.js
+tests/next/fixtures/reason/debugger.js
+tests/next/fixtures/reason/esprima.js
+tests/next/fixtures/reason/expr_in_test.js
+tests/next/fixtures/reason/fifty.js
+tests/next/fixtures/reason/iterator.js
+tests/next/fixtures/reason/native.js
+tests/next/fixtures/reason/proto.js
+tests/next/fixtures/reason/shadow.js
+tests/next/fixtures/reason/trailing.js
+tests/next/fixtures/reason/undef.js
+tests/next/fixtures/regexp/dashes.js
+tests/next/fixtures/utils/simple_file.js
+tests/next/lib/helpers.js
+tests/next/unit/parser.js
+tests/next/unit/reason.js
+tests/next/unit/regexp.js
+tests/next/unit/utils.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/browser.js
+tests/stable/unit/fixtures/gh988.js
+tests/stable/unit/fixtures/ignored.js
+tests/stable/unit/options.js
+tests/stable/unit/parser.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ f2843c52940392c1e493f6fdfb768e5dbd22ac83 -> e940141eb746a78ae89e7b20e5754a2240ff486f } is a cherrypick
+{ 059feadb042512ab4e40d9fff8b0ad4443492583 -> db5e65ad07df3563290d6caeb7cea8b73e52059f }
+Partial Cherry-pick commits SHA are -> 
+e940141eb746a78ae89e7b20e5754a2240ff486f - cherrypick - db5e65ad07df3563290d6caeb7cea8b73e52059f
+---> The cherrypicked commit sha is - e940141eb746a78ae89e7b20e5754a2240ff486f
+Commit message - Added support for disabling all numeric options by setting to false (see #988). Updated tests accordingly.
+---> The original commit sha is - db5e65ad07df3563290d6caeb7cea8b73e52059f
+Commit message - Merge branch 'override-indent' of git://github.com/jamesallardice/jshint into jamesallardice-override-indent
+
+Conflicts:
+	tests/stable/unit/parser.js
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+src/stable/jshint.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/gh988.js
+tests/stable/unit/parser.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ 8ecb4b45e97875bd2a33da4da21492dcacdab76a -> 1a9ef359bd4bbd2f9231eefccd7b1b6952be17f0 } is a cherrypick
+{ 3a67c902d4fd03e6c42ba34005fa3e9ab7a321dc -> af189ec468091ace6294d8f802d92a5fbc200a2b }
+Partial Cherry-pick commits SHA are -> 
+1a9ef359bd4bbd2f9231eefccd7b1b6952be17f0 - cherrypick - af189ec468091ace6294d8f802d92a5fbc200a2b
+---> The cherrypicked commit sha is - 1a9ef359bd4bbd2f9231eefccd7b1b6952be17f0
+Commit message - report error/warning code by default, as severity for jslint
+---> The original commit sha is - af189ec468091ace6294d8f802d92a5fbc200a2b
+Commit message - Merge pull request #1025 from croensch/master
+
+Include error codes in jslint_xml report
+---> The files with partial_cherrypicks are:-
+src/reporters/jslint_xml.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ 0bedbd023342fe20ad040056364acf162fd72e04 -> f2a6c638c84c7e1460c8bbf3da671d5e5b3d2018 } is a cherrypick
+{ 3a67c902d4fd03e6c42ba34005fa3e9ab7a321dc -> af189ec468091ace6294d8f802d92a5fbc200a2b }
+Partial Cherry-pick commits SHA are -> 
+f2a6c638c84c7e1460c8bbf3da671d5e5b3d2018 - cherrypick - af189ec468091ace6294d8f802d92a5fbc200a2b
+---> The cherrypicked commit sha is - f2a6c638c84c7e1460c8bbf3da671d5e5b3d2018
+Commit message - REVERT reporting error/warning code by default
+
+command line option --verbose already supports that
+---> The original commit sha is - af189ec468091ace6294d8f802d92a5fbc200a2b
+Commit message - Merge pull request #1025 from croensch/master
+
+Include error codes in jslint_xml report
+---> The files with partial_cherrypicks are:-
+src/reporters/jslint_xml.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ 05500650bb145ad52cede5b683b79f245355af61 -> 5c843b02c80df9acbddbfeefa5263123a13e0b72 } is a cherrypick
+{ 20f4146483ca91c9417868c1b07c42de99e535d9 -> 3a67c902d4fd03e6c42ba34005fa3e9ab7a321dc }
+Partial Cherry-pick commits SHA are -> 
+5c843b02c80df9acbddbfeefa5263123a13e0b72 - cherrypick - 3a67c902d4fd03e6c42ba34005fa3e9ab7a321dc
+---> The cherrypicked commit sha is - 5c843b02c80df9acbddbfeefa5263123a13e0b72
+Commit message - Ignore unrecognized JSLint options
+
+Currently JSHint reports an error when it encounters an option in a
+/*jslint */ comment which is not either a jshint option or a renamed
+jslint option.  This has the unfortunate side-effect that source files
+which specify valid options to JSLint which aren't recognized by JSHint
+produce errors in JSHint (e.g. the "continue" option or the new
+"closure" option).
+
+We could fix this by whitelisting all valid JSLint options, but this
+would require updates to JSHint every time JSLint added an option and I
+doubt JSHint really wants to waste resources validating options to
+JSLint (since, presumably, people using the /*jslint */ syntax would run
+JSLint, which would warn them anyway).
+
+Instead, ignore unrecognized options in /*jslint */ option comments.
+
+Signed-off-by: Kevin Locke <kevin@kevinlocke.name>
+---> The original commit sha is - 3a67c902d4fd03e6c42ba34005fa3e9ab7a321dc
+Commit message - Merge pull request #1009 from kevinoid/ignore-unrecognized-jslint-options
+
+Ignore unrecognized JSLint options
+---> The files with partial_cherrypicks are:-
+src/stable/jshint.js
+tests/stable/unit/core.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ 5c843b02c80df9acbddbfeefa5263123a13e0b72 -> 3a4e61edeca4a99e3dc07e304c92cdebb724c839 } is a cherrypick
+{ b44f24f68d34febf0bc5d73cb40e7162799a286f -> a2fc845247f232b18930aac854516fa4eaadcb51 }
+Partial Cherry-pick commits SHA are -> 
+3a4e61edeca4a99e3dc07e304c92cdebb724c839 - cherrypick - a2fc845247f232b18930aac854516fa4eaadcb51
+---> The cherrypicked commit sha is - 3a4e61edeca4a99e3dc07e304c92cdebb724c839
+Commit message - Removed W029 (related to label identifiers that look like JavaScript URLs). See #1013.
+---> The original commit sha is - a2fc845247f232b18930aac854516fa4eaadcb51
+Commit message - Merge pull request #1014 from jamesallardice/remove-w029
+
+Removed W029. See #1013
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ 3a4e61edeca4a99e3dc07e304c92cdebb724c839 -> 23627ffac413472985d328650a41c0c99cbbabe7 } is a cherrypick
+{ 421cf9407a7104233088aacc67357a64eedf2bc6 -> b44f24f68d34febf0bc5d73cb40e7162799a286f }
+Partial Cherry-pick commits SHA are -> 
+23627ffac413472985d328650a41c0c99cbbabe7 - cherrypick - b44f24f68d34febf0bc5d73cb40e7162799a286f
+---> The cherrypicked commit sha is - 23627ffac413472985d328650a41c0c99cbbabe7
+Commit message - Fixed issue #1010 that allows statements with commas.
+
+Signed-off-by: Bernard `Guyzmo` Pratz <guyzmo+github@m0g.net>
+---> The original commit sha is - b44f24f68d34febf0bc5d73cb40e7162799a286f
+Commit message - Merge pull request #1015 from guyzmo/1010
+
+Fixed issue #1010 that allows statements with commas.
+---> The files with partial_cherrypicks are:-
+tests/stable/unit/parser.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ 1d7942d00f0d9e6f2849a35383ab1f38b49e253c -> 22c8fe02d736750f54949e40acd04542f1b0b84a } is a cherrypick
+{ b216fd7b357bff3b8dc74867271d0b7fb9dfa37f -> af28e2e96925f4db9be708d08109d379c072e345 }
+Partial Cherry-pick commits SHA are -> 
+22c8fe02d736750f54949e40acd04542f1b0b84a - cherrypick - af28e2e96925f4db9be708d08109d379c072e345
+---> The cherrypicked commit sha is - 22c8fe02d736750f54949e40acd04542f1b0b84a
+Commit message - npmignore unneeded files
+---> The original commit sha is - af28e2e96925f4db9be708d08109d379c072e345
+Commit message - Merge pull request #993 from sindresorhus/patch-1
+
+npmignore unneeded files
+---> The files with partial_cherrypicks are:-
+.npmignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ f5582ad990111d8b88fd99aa1a44120a473fdbdb -> 571ba1772b750d97088a90910796778d3cf16fdd } is a cherrypick
+{ 0f7b0b3a9db1b087a0e28cbdd82c5d34cd10825f -> 522ad4bdf3433b2068cc95c3c954b080f626c5d5 }
+Partial Cherry-pick commits SHA are -> 
+571ba1772b750d97088a90910796778d3cf16fdd - cherrypick - 522ad4bdf3433b2068cc95c3c954b080f626c5d5
+---> The cherrypicked commit sha is - 571ba1772b750d97088a90910796778d3cf16fdd
+Commit message - Search for .jshintrc relative to the file being linted.
+
+This patch updates the logic that looks for a .jshintrc file to
+use to search relative to the file being linted rather than the
+current working directory. If no file is found, config still
+falls back to ~/.jshintrc.
+
+This behavior should better reflect user intent when linting
+files, regardless of where jshint (or the editor leveraging
+it for checks) is run from. Since config lookup is now per-file
+instead of per-run, the internal findFile method has been
+memoized to avoid redundant searching.
+
+References:
+  Fixes GH-833
+---> The original commit sha is - 522ad4bdf3433b2068cc95c3c954b080f626c5d5
+Commit message - Merge branch 'relative-rc' of git://github.com/mcheely/jshint into mcheely-relative-rc
+
+Conflicts:
+	src/cli/cli.js
+---> The files with partial_cherrypicks are:-
+src/cli/cli.js
+tests/cli.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ a929f773fa4bd960796f64f84151151c57b833a7 -> 266a6d2c2f2b8ab1c9885575e47bd06ceb894030 } is a cherrypick
+{ 227fb0a4ac037a0931eaa53728eeb7b39a3b0a92 -> 53b772154bff25d1d2acaf8ad991c516f49496de }
+Partial Cherry-pick commits SHA are -> 
+266a6d2c2f2b8ab1c9885575e47bd06ceb894030 - cherrypick - 53b772154bff25d1d2acaf8ad991c516f49496de
+---> The cherrypicked commit sha is - 266a6d2c2f2b8ab1c9885575e47bd06ceb894030
+Commit message - Added unit tests for falls through comment without an 's'
+---> The original commit sha is - 53b772154bff25d1d2acaf8ad991c516f49496de
+Commit message - Merge pull request #925 from spudly/patch-1
+
+Make the s optional on the falls through comment
+---> The files with partial_cherrypicks are:-
+src/stable/reg.js
+tests/stable/unit/fixtures/switchFallThrough.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ 339ad7209435d559b3d52333f9344aac7f5e9c05 -> 80313536c907a4e6664855a3fb35a9ac06a634c0 } is a cherrypick
+{ 9e2f64d38bea7a6c6a614435a250615dd30ff1d6 -> 3dc9982d97d555c55f5c57a2b46e327f8b3e1943 }
+Partial Cherry-pick commits SHA are -> 
+80313536c907a4e6664855a3fb35a9ac06a634c0 - cherrypick - 3dc9982d97d555c55f5c57a2b46e327f8b3e1943
+---> The cherrypicked commit sha is - 80313536c907a4e6664855a3fb35a9ac06a634c0
+Commit message - Update to include test for buffer output problem
+---> The original commit sha is - 3dc9982d97d555c55f5c57a2b46e327f8b3e1943
+Commit message - Merge branch 'master' of git://github.com/smozely/jshint into smozely-master
+---> The files with partial_cherrypicks are:-
+src/cli/cli.js
+tests/cli.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ cc612594757c3d4448c3cc674affd6e35eb7f4a2 -> 5cb35a0605ba68e20e2a2f9444e0612844da4eb2 } is a cherrypick
+{ 6aa433d64bef98ad75fc3f20a71c23cdd98a2285 -> 59d59dd6bb4c29fa720f891d3db8066568234da7 }
+Partial Cherry-pick commits SHA are -> 
+5cb35a0605ba68e20e2a2f9444e0612844da4eb2 - cherrypick - 59d59dd6bb4c29fa720f891d3db8066568234da7
+---> The cherrypicked commit sha is - 5cb35a0605ba68e20e2a2f9444e0612844da4eb2
+Commit message - Add a test to make sure jshint does not crash if it happens to parse an html file
+---> The original commit sha is - 59d59dd6bb4c29fa720f891d3db8066568234da7
+Commit message - Merge pull request #944 from hmalphettes/master
+
+Test to verify that jshint survives parsing some html
+---> The files with partial_cherrypicks are:-
+tests/stable/unit/parser.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ 475548d87717547f5637383aa45fa2e53bc104c8 -> cc612594757c3d4448c3cc674affd6e35eb7f4a2 } is a cherrypick
+{ 5cb35a0605ba68e20e2a2f9444e0612844da4eb2 -> f1685250440d942d9811d4f4635c79daccbc28d2 }
+Partial Cherry-pick commits SHA are -> 
+cc612594757c3d4448c3cc674affd6e35eb7f4a2 - cherrypick - f1685250440d942d9811d4f4635c79daccbc28d2
+---> The cherrypicked commit sha is - cc612594757c3d4448c3cc674affd6e35eb7f4a2
+Commit message - fixed indentation
+---> The original commit sha is - f1685250440d942d9811d4f4635c79daccbc28d2
+Commit message - Merge branch 'function_generator_support'
+---> The files with partial_cherrypicks are:-
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ 47b28389deff91b4364f8bc40cfae2cfdc4aa7fb -> ab98371d1cdc5b1380457d63679dfd4feaacc24d } is a cherrypick
+{ cc612594757c3d4448c3cc674affd6e35eb7f4a2 -> 5cb35a0605ba68e20e2a2f9444e0612844da4eb2 }
+Partial Cherry-pick commits SHA are -> 
+ab98371d1cdc5b1380457d63679dfd4feaacc24d - cherrypick - 5cb35a0605ba68e20e2a2f9444e0612844da4eb2
+---> The cherrypicked commit sha is - ab98371d1cdc5b1380457d63679dfd4feaacc24d
+Commit message - added function* support with esnext option, and errors on function* with moz option
+
+Signed-off-by: Bernard `Guyzmo` Pratz <guyzmo+github@m0g.net>
+---> The original commit sha is - 5cb35a0605ba68e20e2a2f9444e0612844da4eb2
+Commit message - Add a test to make sure jshint does not crash if it happens to parse an html file
+---> The files with partial_cherrypicks are:-
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ a929f773fa4bd960796f64f84151151c57b833a7 -> 266a6d2c2f2b8ab1c9885575e47bd06ceb894030 } is a cherrypick
+{ e71f6bf8f48cec07517f78a23359adabfce025a7 -> 04eb2a27ee64c20c9cc29c8bee2ccb9fb4c150bc }
+Partial Cherry-pick commits SHA are -> 
+266a6d2c2f2b8ab1c9885575e47bd06ceb894030 - cherrypick - 04eb2a27ee64c20c9cc29c8bee2ccb9fb4c150bc
+---> The cherrypicked commit sha is - 266a6d2c2f2b8ab1c9885575e47bd06ceb894030
+Commit message - Added unit tests for falls through comment without an 's'
+---> The original commit sha is - 04eb2a27ee64c20c9cc29c8bee2ccb9fb4c150bc
+Commit message - Merge branch 'master' of git://github.com/guyzmo/jshint into guyzmo-master
+
+Conflicts:
+	tests/stable/unit/parser.js
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 49 is -> 
+{ 571ba1772b750d97088a90910796778d3cf16fdd -> 69d3eff612d9db8d7766d1f3bc6a950a24c106cb } is a cherrypick
+{ 80313536c907a4e6664855a3fb35a9ac06a634c0 -> d1f1c2845c289dbd156f7a29978ba3ed6d595845 }
+Partial Cherry-pick commits SHA are -> 
+69d3eff612d9db8d7766d1f3bc6a950a24c106cb - cherrypick - d1f1c2845c289dbd156f7a29978ba3ed6d595845
+---> The cherrypicked commit sha is - 69d3eff612d9db8d7766d1f3bc6a950a24c106cb
+Commit message - removed let and yield statements as future reserved words ; added letstatement function to warn against uses without esnext option defined ; removed stale printout points. ; updated core test.
+---> The original commit sha is - d1f1c2845c289dbd156f7a29978ba3ed6d595845
+Commit message - added moz config option
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+tests/stable/unit/core.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 50 is -> 
+{ ffe4a9c2d4a68633d88872826a46701211ccd84f -> 30326260bc79ef769f16cc2f832c1f2391b4d901 } is a cherrypick
+{ 7af3179a052e2e81b14d8577504a2b25343ebad1 -> 7ef13b3d819f9972eb3e9803712aa3d23caaa36b }
+Partial Cherry-pick commits SHA are -> 
+30326260bc79ef769f16cc2f832c1f2391b4d901 - cherrypick - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+---> The cherrypicked commit sha is - 30326260bc79ef769f16cc2f832c1f2391b4d901
+Commit message - Merge pull request #897 from Buritica/fix-es5-reserved
+
+Allow reserved words as property names in objects followed by commas
+---> The original commit sha is - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 51 is -> 
+{ 8014b64dabf0919e202911ef0d01a2c9716b25b0 -> 3005b64451da363f15476b7d94f8183ecdb3ac39 } is a cherrypick
+{ 7af3179a052e2e81b14d8577504a2b25343ebad1 -> 7ef13b3d819f9972eb3e9803712aa3d23caaa36b }
+Partial Cherry-pick commits SHA are -> 
+3005b64451da363f15476b7d94f8183ecdb3ac39 - cherrypick - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+---> The cherrypicked commit sha is - 3005b64451da363f15476b7d94f8183ecdb3ac39
+Commit message - Merge pull request #896 from mattflaschen/badOrUnnecessary
+
+Add 'unnecessary' to escaping message to make it clearer.
+---> The original commit sha is - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 52 is -> 
+{ 899ac9a941875c62e546d4e3c609ba382bf9ceef -> 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 } is a cherrypick
+{ 7af3179a052e2e81b14d8577504a2b25343ebad1 -> 7ef13b3d819f9972eb3e9803712aa3d23caaa36b }
+Partial Cherry-pick commits SHA are -> 
+46d0faae4cd28e8666fb75d61e9e0283e8f1e413 - cherrypick - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+---> The cherrypicked commit sha is - 46d0faae4cd28e8666fb75d61e9e0283e8f1e413
+Commit message - Make sure the right side of a paren exists before checking its ID.
+
+Closes GH-900.
+---> The original commit sha is - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 53 is -> 
+{ 021e348121b270bd39a47843d58e34f03dcaef14 -> f5582ad990111d8b88fd99aa1a44120a473fdbdb } is a cherrypick
+{ 7af3179a052e2e81b14d8577504a2b25343ebad1 -> 7ef13b3d819f9972eb3e9803712aa3d23caaa36b }
+Partial Cherry-pick commits SHA are -> 
+f5582ad990111d8b88fd99aa1a44120a473fdbdb - cherrypick - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+---> The cherrypicked commit sha is - f5582ad990111d8b88fd99aa1a44120a473fdbdb
+Commit message - Merge remote branch 'origin/master'
+---> The original commit sha is - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 54 is -> 
+{ 4507bbee5bbeeac2ef9c132d4087dd1d1483c494 -> 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3 } is a cherrypick
+{ 7af3179a052e2e81b14d8577504a2b25343ebad1 -> 7ef13b3d819f9972eb3e9803712aa3d23caaa36b }
+Partial Cherry-pick commits SHA are -> 
+07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3 - cherrypick - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+---> The cherrypicked commit sha is - 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3
+Commit message - Merge branch 'let_stmt'
+---> The original commit sha is - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 55 is -> 
+{ 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 -> 8b1567d1ee32070c828ba32bcffee712b34c2b41 } is a cherrypick
+{ 7af3179a052e2e81b14d8577504a2b25343ebad1 -> 7ef13b3d819f9972eb3e9803712aa3d23caaa36b }
+Partial Cherry-pick commits SHA are -> 
+8b1567d1ee32070c828ba32bcffee712b34c2b41 - cherrypick - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+---> The cherrypicked commit sha is - 8b1567d1ee32070c828ba32bcffee712b34c2b41
+Commit message - Merge branch 'foreach_support'
+---> The original commit sha is - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 56 is -> 
+{ cfeff166a14420117e30e927862394c870fe0f3f -> c10702aa7d17f997be8123bf4d946e4131afabc4 } is a cherrypick
+{ 7af3179a052e2e81b14d8577504a2b25343ebad1 -> 7ef13b3d819f9972eb3e9803712aa3d23caaa36b }
+Partial Cherry-pick commits SHA are -> 
+c10702aa7d17f997be8123bf4d946e4131afabc4 - cherrypick - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+---> The cherrypicked commit sha is - c10702aa7d17f997be8123bf4d946e4131afabc4
+Commit message - Merge branch 'let_stmt'
+---> The original commit sha is - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 57 is -> 
+{ d02401a80e1228d5e1de06867f48345ceb4dbaf5 -> 4c61b9d63e04124cc499cb39a521ee3e77abfa3f } is a cherrypick
+{ 7af3179a052e2e81b14d8577504a2b25343ebad1 -> 7ef13b3d819f9972eb3e9803712aa3d23caaa36b }
+Partial Cherry-pick commits SHA are -> 
+4c61b9d63e04124cc499cb39a521ee3e77abfa3f - cherrypick - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+---> The cherrypicked commit sha is - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+Commit message - Merged let_stmt
+---> The original commit sha is - 7ef13b3d819f9972eb3e9803712aa3d23caaa36b
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 58 is -> 
+{ a1006ce54fbc28021390667706c826eec23a6d68 -> 47296215491599e67fa8de288776f97db5de26bd } is a cherrypick
+{ 08ecce5f8875d41e0275b5298f2ac662cc115c04 -> 7af3179a052e2e81b14d8577504a2b25343ebad1 }
+Partial Cherry-pick commits SHA are -> 
+47296215491599e67fa8de288776f97db5de26bd - cherrypick - 7af3179a052e2e81b14d8577504a2b25343ebad1
+---> The cherrypicked commit sha is - 47296215491599e67fa8de288776f97db5de26bd
+Commit message - added error for double definition of a let variable, cf #883
+---> The original commit sha is - 7af3179a052e2e81b14d8577504a2b25343ebad1
+Commit message - fixed double let statements scoping bug
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 59 is -> 
+{ 30326260bc79ef769f16cc2f832c1f2391b4d901 -> 30f860e8bda965aec9ce1500b7715a3521ba58de } is a cherrypick
+{ 08ecce5f8875d41e0275b5298f2ac662cc115c04 -> 7af3179a052e2e81b14d8577504a2b25343ebad1 }
+Partial Cherry-pick commits SHA are -> 
+30f860e8bda965aec9ce1500b7715a3521ba58de - cherrypick - 7af3179a052e2e81b14d8577504a2b25343ebad1
+---> The cherrypicked commit sha is - 30f860e8bda965aec9ce1500b7715a3521ba58de
+Commit message - added support of for loops with let and destructuring assignments.
+---> The original commit sha is - 7af3179a052e2e81b14d8577504a2b25343ebad1
+Commit message - fixed double let statements scoping bug
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 60 is -> 
+{ d5f6699a0269e2892629d22cf8e2941bd3374f74 -> 03ded6a83adc932463c93476024372410b06af3b } is a cherrypick
+{ 08ecce5f8875d41e0275b5298f2ac662cc115c04 -> 7af3179a052e2e81b14d8577504a2b25343ebad1 }
+Partial Cherry-pick commits SHA are -> 
+03ded6a83adc932463c93476024372410b06af3b - cherrypick - 7af3179a052e2e81b14d8577504a2b25343ebad1
+---> The cherrypicked commit sha is - 03ded6a83adc932463c93476024372410b06af3b
+Commit message - Merge branch 'destructured_assign' into foreach_support
+---> The original commit sha is - 7af3179a052e2e81b14d8577504a2b25343ebad1
+Commit message - fixed double let statements scoping bug
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 61 is -> 
+{ 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 -> 29c6eeb15a0c4b862d88ae89efbffe7374a90085 } is a cherrypick
+{ 08ecce5f8875d41e0275b5298f2ac662cc115c04 -> 7af3179a052e2e81b14d8577504a2b25343ebad1 }
+Partial Cherry-pick commits SHA are -> 
+29c6eeb15a0c4b862d88ae89efbffe7374a90085 - cherrypick - 7af3179a052e2e81b14d8577504a2b25343ebad1
+---> The cherrypicked commit sha is - 29c6eeb15a0c4b862d88ae89efbffe7374a90085
+Commit message - Merged destructured assign
+---> The original commit sha is - 7af3179a052e2e81b14d8577504a2b25343ebad1
+Commit message - fixed double let statements scoping bug
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 62 is -> 
+{ 3fa260110259bc651bafcf5f949d92eb7a524c1d -> 5249b9da8f1ffd5074365ce5ada80a60e3015c85 } is a cherrypick
+{ 08ecce5f8875d41e0275b5298f2ac662cc115c04 -> 7af3179a052e2e81b14d8577504a2b25343ebad1 }
+Partial Cherry-pick commits SHA are -> 
+5249b9da8f1ffd5074365ce5ada80a60e3015c85 - cherrypick - 7af3179a052e2e81b14d8577504a2b25343ebad1
+---> The cherrypicked commit sha is - 5249b9da8f1ffd5074365ce5ada80a60e3015c85
+Commit message - removed for each test from let stmt branch
+---> The original commit sha is - 7af3179a052e2e81b14d8577504a2b25343ebad1
+Commit message - fixed double let statements scoping bug
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 63 is -> 
+{ f8952b8ae2b543c64c84168e13e944cf7fa09f56 -> 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 } is a cherrypick
+{ 08ecce5f8875d41e0275b5298f2ac662cc115c04 -> 7af3179a052e2e81b14d8577504a2b25343ebad1 }
+Partial Cherry-pick commits SHA are -> 
+78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 - cherrypick - 7af3179a052e2e81b14d8577504a2b25343ebad1
+---> The cherrypicked commit sha is - 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4
+Commit message - fixed indentation
+---> The original commit sha is - 7af3179a052e2e81b14d8577504a2b25343ebad1
+Commit message - fixed double let statements scoping bug
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 64 is -> 
+{ 8b1567d1ee32070c828ba32bcffee712b34c2b41 -> cfeff166a14420117e30e927862394c870fe0f3f } is a cherrypick
+{ 08ecce5f8875d41e0275b5298f2ac662cc115c04 -> 7af3179a052e2e81b14d8577504a2b25343ebad1 }
+Partial Cherry-pick commits SHA are -> 
+cfeff166a14420117e30e927862394c870fe0f3f - cherrypick - 7af3179a052e2e81b14d8577504a2b25343ebad1
+---> The cherrypicked commit sha is - cfeff166a14420117e30e927862394c870fe0f3f
+Commit message - refactored blockscope handling into a blockscope singleton
+---> The original commit sha is - 7af3179a052e2e81b14d8577504a2b25343ebad1
+Commit message - fixed double let statements scoping bug
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 65 is -> 
+{ 82d8e879feee4ee427591643432e22fa45f929b4 -> d02401a80e1228d5e1de06867f48345ceb4dbaf5 } is a cherrypick
+{ 08ecce5f8875d41e0275b5298f2ac662cc115c04 -> 7af3179a052e2e81b14d8577504a2b25343ebad1 }
+Partial Cherry-pick commits SHA are -> 
+d02401a80e1228d5e1de06867f48345ceb4dbaf5 - cherrypick - 7af3179a052e2e81b14d8577504a2b25343ebad1
+---> The cherrypicked commit sha is - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+Commit message - fixed block `let() {}` versus expression `let()` determination ; added tests
+---> The original commit sha is - 7af3179a052e2e81b14d8577504a2b25343ebad1
+Commit message - fixed double let statements scoping bug
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 66 is -> 
+{ 5c2f1a049940f327f9d17912491a4217eac0ad9d -> 269f24e78331ede6f2e28eb67f2e6da8e755a98b } is a cherrypick
+{ 0b0381c3eb8a80135b89e7535ea84a592521518b -> 08ecce5f8875d41e0275b5298f2ac662cc115c04 }
+Partial Cherry-pick commits SHA are -> 
+269f24e78331ede6f2e28eb67f2e6da8e755a98b - cherrypick - 08ecce5f8875d41e0275b5298f2ac662cc115c04
+---> The cherrypicked commit sha is - 269f24e78331ede6f2e28eb67f2e6da8e755a98b
+Commit message - merged list_comp_support
+---> The original commit sha is - 08ecce5f8875d41e0275b5298f2ac662cc115c04
+Commit message - Merge branch 'list_comp_support'
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+src/stable/jshint.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 67 is -> 
+{ 0be040d2cf4bde751032af581c158aeaa4e74ef7 -> e6124344385bb7fec594c688c8d730a565ff2f7c } is a cherrypick
+{ 0b0381c3eb8a80135b89e7535ea84a592521518b -> 08ecce5f8875d41e0275b5298f2ac662cc115c04 }
+Partial Cherry-pick commits SHA are -> 
+e6124344385bb7fec594c688c8d730a565ff2f7c - cherrypick - 08ecce5f8875d41e0275b5298f2ac662cc115c04
+---> The cherrypicked commit sha is - e6124344385bb7fec594c688c8d730a565ff2f7c
+Commit message - merged list_comp_support
+---> The original commit sha is - 08ecce5f8875d41e0275b5298f2ac662cc115c04
+Commit message - Merge branch 'list_comp_support'
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 68 is -> 
+{ 4c61b9d63e04124cc499cb39a521ee3e77abfa3f -> 5c2f1a049940f327f9d17912491a4217eac0ad9d } is a cherrypick
+{ 2466fbd8763ef8dc548900e0f20da26410068a98 -> 0b0381c3eb8a80135b89e7535ea84a592521518b }
+Partial Cherry-pick commits SHA are -> 
+5c2f1a049940f327f9d17912491a4217eac0ad9d - cherrypick - 0b0381c3eb8a80135b89e7535ea84a592521518b
+---> The cherrypicked commit sha is - 5c2f1a049940f327f9d17912491a4217eac0ad9d
+Commit message - fixed bug in comp array detection ; added test
+---> The original commit sha is - 0b0381c3eb8a80135b89e7535ea84a592521518b
+Commit message - fixed minor bug due to typo
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 69 is -> 
+{ 269f24e78331ede6f2e28eb67f2e6da8e755a98b -> 0be040d2cf4bde751032af581c158aeaa4e74ef7 } is a cherrypick
+{ 2466fbd8763ef8dc548900e0f20da26410068a98 -> 0b0381c3eb8a80135b89e7535ea84a592521518b }
+Partial Cherry-pick commits SHA are -> 
+0be040d2cf4bde751032af581c158aeaa4e74ef7 - cherrypick - 0b0381c3eb8a80135b89e7535ea84a592521518b
+---> The cherrypicked commit sha is - 0be040d2cf4bde751032af581c158aeaa4e74ef7
+Commit message - fixed var redeclaration behaviour ; updated tests
+---> The original commit sha is - 0b0381c3eb8a80135b89e7535ea84a592521518b
+Commit message - fixed minor bug due to typo
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 70 is -> 
+{ 5c2f1a049940f327f9d17912491a4217eac0ad9d -> 269f24e78331ede6f2e28eb67f2e6da8e755a98b } is a cherrypick
+{ 0be040d2cf4bde751032af581c158aeaa4e74ef7 -> e6124344385bb7fec594c688c8d730a565ff2f7c }
+Partial Cherry-pick commits SHA are -> 
+269f24e78331ede6f2e28eb67f2e6da8e755a98b - cherrypick - e6124344385bb7fec594c688c8d730a565ff2f7c
+---> The cherrypicked commit sha is - 269f24e78331ede6f2e28eb67f2e6da8e755a98b
+Commit message - merged list_comp_support
+---> The original commit sha is - e6124344385bb7fec594c688c8d730a565ff2f7c
+Commit message - merged list_comp_support
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+tests/stable/unit/parser.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 71 is -> 
+{ 4c61b9d63e04124cc499cb39a521ee3e77abfa3f -> 5c2f1a049940f327f9d17912491a4217eac0ad9d } is a cherrypick
+{ 269f24e78331ede6f2e28eb67f2e6da8e755a98b -> 0be040d2cf4bde751032af581c158aeaa4e74ef7 }
+Partial Cherry-pick commits SHA are -> 
+5c2f1a049940f327f9d17912491a4217eac0ad9d - cherrypick - 0be040d2cf4bde751032af581c158aeaa4e74ef7
+---> The cherrypicked commit sha is - 5c2f1a049940f327f9d17912491a4217eac0ad9d
+Commit message - fixed bug in comp array detection ; added test
+---> The original commit sha is - 0be040d2cf4bde751032af581c158aeaa4e74ef7
+Commit message - fixed var redeclaration behaviour ; updated tests
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 72 is -> 
+{ ffe4a9c2d4a68633d88872826a46701211ccd84f -> 30326260bc79ef769f16cc2f832c1f2391b4d901 } is a cherrypick
+{ d02401a80e1228d5e1de06867f48345ceb4dbaf5 -> 4c61b9d63e04124cc499cb39a521ee3e77abfa3f }
+Partial Cherry-pick commits SHA are -> 
+30326260bc79ef769f16cc2f832c1f2391b4d901 - cherrypick - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+---> The cherrypicked commit sha is - 30326260bc79ef769f16cc2f832c1f2391b4d901
+Commit message - Merge pull request #897 from Buritica/fix-es5-reserved
+
+Allow reserved words as property names in objects followed by commas
+---> The original commit sha is - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+Commit message - Merged let_stmt
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 73 is -> 
+{ 8014b64dabf0919e202911ef0d01a2c9716b25b0 -> 3005b64451da363f15476b7d94f8183ecdb3ac39 } is a cherrypick
+{ d02401a80e1228d5e1de06867f48345ceb4dbaf5 -> 4c61b9d63e04124cc499cb39a521ee3e77abfa3f }
+Partial Cherry-pick commits SHA are -> 
+3005b64451da363f15476b7d94f8183ecdb3ac39 - cherrypick - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+---> The cherrypicked commit sha is - 3005b64451da363f15476b7d94f8183ecdb3ac39
+Commit message - Merge pull request #896 from mattflaschen/badOrUnnecessary
+
+Add 'unnecessary' to escaping message to make it clearer.
+---> The original commit sha is - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+Commit message - Merged let_stmt
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 74 is -> 
+{ 899ac9a941875c62e546d4e3c609ba382bf9ceef -> 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 } is a cherrypick
+{ d02401a80e1228d5e1de06867f48345ceb4dbaf5 -> 4c61b9d63e04124cc499cb39a521ee3e77abfa3f }
+Partial Cherry-pick commits SHA are -> 
+46d0faae4cd28e8666fb75d61e9e0283e8f1e413 - cherrypick - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+---> The cherrypicked commit sha is - 46d0faae4cd28e8666fb75d61e9e0283e8f1e413
+Commit message - Make sure the right side of a paren exists before checking its ID.
+
+Closes GH-900.
+---> The original commit sha is - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+Commit message - Merged let_stmt
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 75 is -> 
+{ 021e348121b270bd39a47843d58e34f03dcaef14 -> f5582ad990111d8b88fd99aa1a44120a473fdbdb } is a cherrypick
+{ d02401a80e1228d5e1de06867f48345ceb4dbaf5 -> 4c61b9d63e04124cc499cb39a521ee3e77abfa3f }
+Partial Cherry-pick commits SHA are -> 
+f5582ad990111d8b88fd99aa1a44120a473fdbdb - cherrypick - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+---> The cherrypicked commit sha is - f5582ad990111d8b88fd99aa1a44120a473fdbdb
+Commit message - Merge remote branch 'origin/master'
+---> The original commit sha is - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+Commit message - Merged let_stmt
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 76 is -> 
+{ 4507bbee5bbeeac2ef9c132d4087dd1d1483c494 -> 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3 } is a cherrypick
+{ d02401a80e1228d5e1de06867f48345ceb4dbaf5 -> 4c61b9d63e04124cc499cb39a521ee3e77abfa3f }
+Partial Cherry-pick commits SHA are -> 
+07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3 - cherrypick - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+---> The cherrypicked commit sha is - 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3
+Commit message - Merge branch 'let_stmt'
+---> The original commit sha is - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+Commit message - Merged let_stmt
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 77 is -> 
+{ 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 -> 8b1567d1ee32070c828ba32bcffee712b34c2b41 } is a cherrypick
+{ d02401a80e1228d5e1de06867f48345ceb4dbaf5 -> 4c61b9d63e04124cc499cb39a521ee3e77abfa3f }
+Partial Cherry-pick commits SHA are -> 
+8b1567d1ee32070c828ba32bcffee712b34c2b41 - cherrypick - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+---> The cherrypicked commit sha is - 8b1567d1ee32070c828ba32bcffee712b34c2b41
+Commit message - Merge branch 'foreach_support'
+---> The original commit sha is - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+Commit message - Merged let_stmt
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 78 is -> 
+{ cfeff166a14420117e30e927862394c870fe0f3f -> c10702aa7d17f997be8123bf4d946e4131afabc4 } is a cherrypick
+{ d02401a80e1228d5e1de06867f48345ceb4dbaf5 -> 4c61b9d63e04124cc499cb39a521ee3e77abfa3f }
+Partial Cherry-pick commits SHA are -> 
+c10702aa7d17f997be8123bf4d946e4131afabc4 - cherrypick - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+---> The cherrypicked commit sha is - c10702aa7d17f997be8123bf4d946e4131afabc4
+Commit message - Merge branch 'let_stmt'
+---> The original commit sha is - 4c61b9d63e04124cc499cb39a521ee3e77abfa3f
+Commit message - Merged let_stmt
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 79 is -> 
+{ a1006ce54fbc28021390667706c826eec23a6d68 -> 47296215491599e67fa8de288776f97db5de26bd } is a cherrypick
+{ 82d8e879feee4ee427591643432e22fa45f929b4 -> d02401a80e1228d5e1de06867f48345ceb4dbaf5 }
+Partial Cherry-pick commits SHA are -> 
+47296215491599e67fa8de288776f97db5de26bd - cherrypick - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+---> The cherrypicked commit sha is - 47296215491599e67fa8de288776f97db5de26bd
+Commit message - added error for double definition of a let variable, cf #883
+---> The original commit sha is - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+Commit message - fixed block `let() {}` versus expression `let()` determination ; added tests
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 80 is -> 
+{ 30326260bc79ef769f16cc2f832c1f2391b4d901 -> 30f860e8bda965aec9ce1500b7715a3521ba58de } is a cherrypick
+{ 82d8e879feee4ee427591643432e22fa45f929b4 -> d02401a80e1228d5e1de06867f48345ceb4dbaf5 }
+Partial Cherry-pick commits SHA are -> 
+30f860e8bda965aec9ce1500b7715a3521ba58de - cherrypick - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+---> The cherrypicked commit sha is - 30f860e8bda965aec9ce1500b7715a3521ba58de
+Commit message - added support of for loops with let and destructuring assignments.
+---> The original commit sha is - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+Commit message - fixed block `let() {}` versus expression `let()` determination ; added tests
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 81 is -> 
+{ d5f6699a0269e2892629d22cf8e2941bd3374f74 -> 03ded6a83adc932463c93476024372410b06af3b } is a cherrypick
+{ 82d8e879feee4ee427591643432e22fa45f929b4 -> d02401a80e1228d5e1de06867f48345ceb4dbaf5 }
+Partial Cherry-pick commits SHA are -> 
+03ded6a83adc932463c93476024372410b06af3b - cherrypick - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+---> The cherrypicked commit sha is - 03ded6a83adc932463c93476024372410b06af3b
+Commit message - Merge branch 'destructured_assign' into foreach_support
+---> The original commit sha is - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+Commit message - fixed block `let() {}` versus expression `let()` determination ; added tests
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 82 is -> 
+{ 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 -> 29c6eeb15a0c4b862d88ae89efbffe7374a90085 } is a cherrypick
+{ 82d8e879feee4ee427591643432e22fa45f929b4 -> d02401a80e1228d5e1de06867f48345ceb4dbaf5 }
+Partial Cherry-pick commits SHA are -> 
+29c6eeb15a0c4b862d88ae89efbffe7374a90085 - cherrypick - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+---> The cherrypicked commit sha is - 29c6eeb15a0c4b862d88ae89efbffe7374a90085
+Commit message - Merged destructured assign
+---> The original commit sha is - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+Commit message - fixed block `let() {}` versus expression `let()` determination ; added tests
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 83 is -> 
+{ 3fa260110259bc651bafcf5f949d92eb7a524c1d -> 5249b9da8f1ffd5074365ce5ada80a60e3015c85 } is a cherrypick
+{ 82d8e879feee4ee427591643432e22fa45f929b4 -> d02401a80e1228d5e1de06867f48345ceb4dbaf5 }
+Partial Cherry-pick commits SHA are -> 
+5249b9da8f1ffd5074365ce5ada80a60e3015c85 - cherrypick - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+---> The cherrypicked commit sha is - 5249b9da8f1ffd5074365ce5ada80a60e3015c85
+Commit message - removed for each test from let stmt branch
+---> The original commit sha is - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+Commit message - fixed block `let() {}` versus expression `let()` determination ; added tests
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 84 is -> 
+{ f8952b8ae2b543c64c84168e13e944cf7fa09f56 -> 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 } is a cherrypick
+{ 82d8e879feee4ee427591643432e22fa45f929b4 -> d02401a80e1228d5e1de06867f48345ceb4dbaf5 }
+Partial Cherry-pick commits SHA are -> 
+78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 - cherrypick - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+---> The cherrypicked commit sha is - 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4
+Commit message - fixed indentation
+---> The original commit sha is - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+Commit message - fixed block `let() {}` versus expression `let()` determination ; added tests
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 85 is -> 
+{ 8b1567d1ee32070c828ba32bcffee712b34c2b41 -> cfeff166a14420117e30e927862394c870fe0f3f } is a cherrypick
+{ 82d8e879feee4ee427591643432e22fa45f929b4 -> d02401a80e1228d5e1de06867f48345ceb4dbaf5 }
+Partial Cherry-pick commits SHA are -> 
+cfeff166a14420117e30e927862394c870fe0f3f - cherrypick - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+---> The cherrypicked commit sha is - cfeff166a14420117e30e927862394c870fe0f3f
+Commit message - refactored blockscope handling into a blockscope singleton
+---> The original commit sha is - d02401a80e1228d5e1de06867f48345ceb4dbaf5
+Commit message - fixed block `let() {}` versus expression `let()` determination ; added tests
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 86 is -> 
+{ ffe4a9c2d4a68633d88872826a46701211ccd84f -> 30326260bc79ef769f16cc2f832c1f2391b4d901 } is a cherrypick
+{ cfeff166a14420117e30e927862394c870fe0f3f -> c10702aa7d17f997be8123bf4d946e4131afabc4 }
+Partial Cherry-pick commits SHA are -> 
+30326260bc79ef769f16cc2f832c1f2391b4d901 - cherrypick - c10702aa7d17f997be8123bf4d946e4131afabc4
+---> The cherrypicked commit sha is - 30326260bc79ef769f16cc2f832c1f2391b4d901
+Commit message - Merge pull request #897 from Buritica/fix-es5-reserved
+
+Allow reserved words as property names in objects followed by commas
+---> The original commit sha is - c10702aa7d17f997be8123bf4d946e4131afabc4
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 87 is -> 
+{ 8014b64dabf0919e202911ef0d01a2c9716b25b0 -> 3005b64451da363f15476b7d94f8183ecdb3ac39 } is a cherrypick
+{ cfeff166a14420117e30e927862394c870fe0f3f -> c10702aa7d17f997be8123bf4d946e4131afabc4 }
+Partial Cherry-pick commits SHA are -> 
+3005b64451da363f15476b7d94f8183ecdb3ac39 - cherrypick - c10702aa7d17f997be8123bf4d946e4131afabc4
+---> The cherrypicked commit sha is - 3005b64451da363f15476b7d94f8183ecdb3ac39
+Commit message - Merge pull request #896 from mattflaschen/badOrUnnecessary
+
+Add 'unnecessary' to escaping message to make it clearer.
+---> The original commit sha is - c10702aa7d17f997be8123bf4d946e4131afabc4
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 88 is -> 
+{ 899ac9a941875c62e546d4e3c609ba382bf9ceef -> 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 } is a cherrypick
+{ cfeff166a14420117e30e927862394c870fe0f3f -> c10702aa7d17f997be8123bf4d946e4131afabc4 }
+Partial Cherry-pick commits SHA are -> 
+46d0faae4cd28e8666fb75d61e9e0283e8f1e413 - cherrypick - c10702aa7d17f997be8123bf4d946e4131afabc4
+---> The cherrypicked commit sha is - 46d0faae4cd28e8666fb75d61e9e0283e8f1e413
+Commit message - Make sure the right side of a paren exists before checking its ID.
+
+Closes GH-900.
+---> The original commit sha is - c10702aa7d17f997be8123bf4d946e4131afabc4
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 89 is -> 
+{ 021e348121b270bd39a47843d58e34f03dcaef14 -> f5582ad990111d8b88fd99aa1a44120a473fdbdb } is a cherrypick
+{ cfeff166a14420117e30e927862394c870fe0f3f -> c10702aa7d17f997be8123bf4d946e4131afabc4 }
+Partial Cherry-pick commits SHA are -> 
+f5582ad990111d8b88fd99aa1a44120a473fdbdb - cherrypick - c10702aa7d17f997be8123bf4d946e4131afabc4
+---> The cherrypicked commit sha is - f5582ad990111d8b88fd99aa1a44120a473fdbdb
+Commit message - Merge remote branch 'origin/master'
+---> The original commit sha is - c10702aa7d17f997be8123bf4d946e4131afabc4
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 90 is -> 
+{ 4507bbee5bbeeac2ef9c132d4087dd1d1483c494 -> 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3 } is a cherrypick
+{ cfeff166a14420117e30e927862394c870fe0f3f -> c10702aa7d17f997be8123bf4d946e4131afabc4 }
+Partial Cherry-pick commits SHA are -> 
+07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3 - cherrypick - c10702aa7d17f997be8123bf4d946e4131afabc4
+---> The cherrypicked commit sha is - 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3
+Commit message - Merge branch 'let_stmt'
+---> The original commit sha is - c10702aa7d17f997be8123bf4d946e4131afabc4
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 91 is -> 
+{ 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 -> 8b1567d1ee32070c828ba32bcffee712b34c2b41 } is a cherrypick
+{ cfeff166a14420117e30e927862394c870fe0f3f -> c10702aa7d17f997be8123bf4d946e4131afabc4 }
+Partial Cherry-pick commits SHA are -> 
+8b1567d1ee32070c828ba32bcffee712b34c2b41 - cherrypick - c10702aa7d17f997be8123bf4d946e4131afabc4
+---> The cherrypicked commit sha is - 8b1567d1ee32070c828ba32bcffee712b34c2b41
+Commit message - Merge branch 'foreach_support'
+---> The original commit sha is - c10702aa7d17f997be8123bf4d946e4131afabc4
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 92 is -> 
+{ a1006ce54fbc28021390667706c826eec23a6d68 -> 47296215491599e67fa8de288776f97db5de26bd } is a cherrypick
+{ 8b1567d1ee32070c828ba32bcffee712b34c2b41 -> cfeff166a14420117e30e927862394c870fe0f3f }
+Partial Cherry-pick commits SHA are -> 
+47296215491599e67fa8de288776f97db5de26bd - cherrypick - cfeff166a14420117e30e927862394c870fe0f3f
+---> The cherrypicked commit sha is - 47296215491599e67fa8de288776f97db5de26bd
+Commit message - added error for double definition of a let variable, cf #883
+---> The original commit sha is - cfeff166a14420117e30e927862394c870fe0f3f
+Commit message - refactored blockscope handling into a blockscope singleton
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 93 is -> 
+{ 30326260bc79ef769f16cc2f832c1f2391b4d901 -> 30f860e8bda965aec9ce1500b7715a3521ba58de } is a cherrypick
+{ 8b1567d1ee32070c828ba32bcffee712b34c2b41 -> cfeff166a14420117e30e927862394c870fe0f3f }
+Partial Cherry-pick commits SHA are -> 
+30f860e8bda965aec9ce1500b7715a3521ba58de - cherrypick - cfeff166a14420117e30e927862394c870fe0f3f
+---> The cherrypicked commit sha is - 30f860e8bda965aec9ce1500b7715a3521ba58de
+Commit message - added support of for loops with let and destructuring assignments.
+---> The original commit sha is - cfeff166a14420117e30e927862394c870fe0f3f
+Commit message - refactored blockscope handling into a blockscope singleton
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 94 is -> 
+{ d5f6699a0269e2892629d22cf8e2941bd3374f74 -> 03ded6a83adc932463c93476024372410b06af3b } is a cherrypick
+{ 8b1567d1ee32070c828ba32bcffee712b34c2b41 -> cfeff166a14420117e30e927862394c870fe0f3f }
+Partial Cherry-pick commits SHA are -> 
+03ded6a83adc932463c93476024372410b06af3b - cherrypick - cfeff166a14420117e30e927862394c870fe0f3f
+---> The cherrypicked commit sha is - 03ded6a83adc932463c93476024372410b06af3b
+Commit message - Merge branch 'destructured_assign' into foreach_support
+---> The original commit sha is - cfeff166a14420117e30e927862394c870fe0f3f
+Commit message - refactored blockscope handling into a blockscope singleton
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 95 is -> 
+{ 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 -> 29c6eeb15a0c4b862d88ae89efbffe7374a90085 } is a cherrypick
+{ 8b1567d1ee32070c828ba32bcffee712b34c2b41 -> cfeff166a14420117e30e927862394c870fe0f3f }
+Partial Cherry-pick commits SHA are -> 
+29c6eeb15a0c4b862d88ae89efbffe7374a90085 - cherrypick - cfeff166a14420117e30e927862394c870fe0f3f
+---> The cherrypicked commit sha is - 29c6eeb15a0c4b862d88ae89efbffe7374a90085
+Commit message - Merged destructured assign
+---> The original commit sha is - cfeff166a14420117e30e927862394c870fe0f3f
+Commit message - refactored blockscope handling into a blockscope singleton
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 96 is -> 
+{ 3fa260110259bc651bafcf5f949d92eb7a524c1d -> 5249b9da8f1ffd5074365ce5ada80a60e3015c85 } is a cherrypick
+{ 8b1567d1ee32070c828ba32bcffee712b34c2b41 -> cfeff166a14420117e30e927862394c870fe0f3f }
+Partial Cherry-pick commits SHA are -> 
+5249b9da8f1ffd5074365ce5ada80a60e3015c85 - cherrypick - cfeff166a14420117e30e927862394c870fe0f3f
+---> The cherrypicked commit sha is - 5249b9da8f1ffd5074365ce5ada80a60e3015c85
+Commit message - removed for each test from let stmt branch
+---> The original commit sha is - cfeff166a14420117e30e927862394c870fe0f3f
+Commit message - refactored blockscope handling into a blockscope singleton
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 97 is -> 
+{ f8952b8ae2b543c64c84168e13e944cf7fa09f56 -> 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 } is a cherrypick
+{ 8b1567d1ee32070c828ba32bcffee712b34c2b41 -> cfeff166a14420117e30e927862394c870fe0f3f }
+Partial Cherry-pick commits SHA are -> 
+78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 - cherrypick - cfeff166a14420117e30e927862394c870fe0f3f
+---> The cherrypicked commit sha is - 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4
+Commit message - fixed indentation
+---> The original commit sha is - cfeff166a14420117e30e927862394c870fe0f3f
+Commit message - refactored blockscope handling into a blockscope singleton
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 98 is -> 
+{ ffe4a9c2d4a68633d88872826a46701211ccd84f -> 30326260bc79ef769f16cc2f832c1f2391b4d901 } is a cherrypick
+{ 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 -> 8b1567d1ee32070c828ba32bcffee712b34c2b41 }
+Partial Cherry-pick commits SHA are -> 
+30326260bc79ef769f16cc2f832c1f2391b4d901 - cherrypick - 8b1567d1ee32070c828ba32bcffee712b34c2b41
+---> The cherrypicked commit sha is - 30326260bc79ef769f16cc2f832c1f2391b4d901
+Commit message - Merge pull request #897 from Buritica/fix-es5-reserved
+
+Allow reserved words as property names in objects followed by commas
+---> The original commit sha is - 8b1567d1ee32070c828ba32bcffee712b34c2b41
+Commit message - Merge branch 'foreach_support'
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 99 is -> 
+{ 8014b64dabf0919e202911ef0d01a2c9716b25b0 -> 3005b64451da363f15476b7d94f8183ecdb3ac39 } is a cherrypick
+{ 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 -> 8b1567d1ee32070c828ba32bcffee712b34c2b41 }
+Partial Cherry-pick commits SHA are -> 
+3005b64451da363f15476b7d94f8183ecdb3ac39 - cherrypick - 8b1567d1ee32070c828ba32bcffee712b34c2b41
+---> The cherrypicked commit sha is - 3005b64451da363f15476b7d94f8183ecdb3ac39
+Commit message - Merge pull request #896 from mattflaschen/badOrUnnecessary
+
+Add 'unnecessary' to escaping message to make it clearer.
+---> The original commit sha is - 8b1567d1ee32070c828ba32bcffee712b34c2b41
+Commit message - Merge branch 'foreach_support'
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 100 is -> 
+{ 899ac9a941875c62e546d4e3c609ba382bf9ceef -> 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 } is a cherrypick
+{ 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 -> 8b1567d1ee32070c828ba32bcffee712b34c2b41 }
+Partial Cherry-pick commits SHA are -> 
+46d0faae4cd28e8666fb75d61e9e0283e8f1e413 - cherrypick - 8b1567d1ee32070c828ba32bcffee712b34c2b41
+---> The cherrypicked commit sha is - 46d0faae4cd28e8666fb75d61e9e0283e8f1e413
+Commit message - Make sure the right side of a paren exists before checking its ID.
+
+Closes GH-900.
+---> The original commit sha is - 8b1567d1ee32070c828ba32bcffee712b34c2b41
+Commit message - Merge branch 'foreach_support'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 101 is -> 
+{ 021e348121b270bd39a47843d58e34f03dcaef14 -> f5582ad990111d8b88fd99aa1a44120a473fdbdb } is a cherrypick
+{ 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 -> 8b1567d1ee32070c828ba32bcffee712b34c2b41 }
+Partial Cherry-pick commits SHA are -> 
+f5582ad990111d8b88fd99aa1a44120a473fdbdb - cherrypick - 8b1567d1ee32070c828ba32bcffee712b34c2b41
+---> The cherrypicked commit sha is - f5582ad990111d8b88fd99aa1a44120a473fdbdb
+Commit message - Merge remote branch 'origin/master'
+---> The original commit sha is - 8b1567d1ee32070c828ba32bcffee712b34c2b41
+Commit message - Merge branch 'foreach_support'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 102 is -> 
+{ 4507bbee5bbeeac2ef9c132d4087dd1d1483c494 -> 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3 } is a cherrypick
+{ 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 -> 8b1567d1ee32070c828ba32bcffee712b34c2b41 }
+Partial Cherry-pick commits SHA are -> 
+07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3 - cherrypick - 8b1567d1ee32070c828ba32bcffee712b34c2b41
+---> The cherrypicked commit sha is - 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3
+Commit message - Merge branch 'let_stmt'
+---> The original commit sha is - 8b1567d1ee32070c828ba32bcffee712b34c2b41
+Commit message - Merge branch 'foreach_support'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 103 is -> 
+{ a1006ce54fbc28021390667706c826eec23a6d68 -> 47296215491599e67fa8de288776f97db5de26bd } is a cherrypick
+{ f8952b8ae2b543c64c84168e13e944cf7fa09f56 -> 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 }
+Partial Cherry-pick commits SHA are -> 
+47296215491599e67fa8de288776f97db5de26bd - cherrypick - 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4
+---> The cherrypicked commit sha is - 47296215491599e67fa8de288776f97db5de26bd
+Commit message - added error for double definition of a let variable, cf #883
+---> The original commit sha is - 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4
+Commit message - fixed indentation
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 104 is -> 
+{ 30326260bc79ef769f16cc2f832c1f2391b4d901 -> 30f860e8bda965aec9ce1500b7715a3521ba58de } is a cherrypick
+{ f8952b8ae2b543c64c84168e13e944cf7fa09f56 -> 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 }
+Partial Cherry-pick commits SHA are -> 
+30f860e8bda965aec9ce1500b7715a3521ba58de - cherrypick - 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4
+---> The cherrypicked commit sha is - 30f860e8bda965aec9ce1500b7715a3521ba58de
+Commit message - added support of for loops with let and destructuring assignments.
+---> The original commit sha is - 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4
+Commit message - fixed indentation
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 105 is -> 
+{ d5f6699a0269e2892629d22cf8e2941bd3374f74 -> 03ded6a83adc932463c93476024372410b06af3b } is a cherrypick
+{ f8952b8ae2b543c64c84168e13e944cf7fa09f56 -> 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 }
+Partial Cherry-pick commits SHA are -> 
+03ded6a83adc932463c93476024372410b06af3b - cherrypick - 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4
+---> The cherrypicked commit sha is - 03ded6a83adc932463c93476024372410b06af3b
+Commit message - Merge branch 'destructured_assign' into foreach_support
+---> The original commit sha is - 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4
+Commit message - fixed indentation
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 106 is -> 
+{ 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 -> 29c6eeb15a0c4b862d88ae89efbffe7374a90085 } is a cherrypick
+{ f8952b8ae2b543c64c84168e13e944cf7fa09f56 -> 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 }
+Partial Cherry-pick commits SHA are -> 
+29c6eeb15a0c4b862d88ae89efbffe7374a90085 - cherrypick - 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4
+---> The cherrypicked commit sha is - 29c6eeb15a0c4b862d88ae89efbffe7374a90085
+Commit message - Merged destructured assign
+---> The original commit sha is - 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4
+Commit message - fixed indentation
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 107 is -> 
+{ 3fa260110259bc651bafcf5f949d92eb7a524c1d -> 5249b9da8f1ffd5074365ce5ada80a60e3015c85 } is a cherrypick
+{ f8952b8ae2b543c64c84168e13e944cf7fa09f56 -> 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4 }
+Partial Cherry-pick commits SHA are -> 
+5249b9da8f1ffd5074365ce5ada80a60e3015c85 - cherrypick - 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4
+---> The cherrypicked commit sha is - 5249b9da8f1ffd5074365ce5ada80a60e3015c85
+Commit message - removed for each test from let stmt branch
+---> The original commit sha is - 78383d13ebf7d595fd07e4f8159cd6b1b8d727d4
+Commit message - fixed indentation
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 108 is -> 
+{ ffe4a9c2d4a68633d88872826a46701211ccd84f -> 30326260bc79ef769f16cc2f832c1f2391b4d901 } is a cherrypick
+{ 4507bbee5bbeeac2ef9c132d4087dd1d1483c494 -> 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3 }
+Partial Cherry-pick commits SHA are -> 
+30326260bc79ef769f16cc2f832c1f2391b4d901 - cherrypick - 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3
+---> The cherrypicked commit sha is - 30326260bc79ef769f16cc2f832c1f2391b4d901
+Commit message - Merge pull request #897 from Buritica/fix-es5-reserved
+
+Allow reserved words as property names in objects followed by commas
+---> The original commit sha is - 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 109 is -> 
+{ 8014b64dabf0919e202911ef0d01a2c9716b25b0 -> 3005b64451da363f15476b7d94f8183ecdb3ac39 } is a cherrypick
+{ 4507bbee5bbeeac2ef9c132d4087dd1d1483c494 -> 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3 }
+Partial Cherry-pick commits SHA are -> 
+3005b64451da363f15476b7d94f8183ecdb3ac39 - cherrypick - 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3
+---> The cherrypicked commit sha is - 3005b64451da363f15476b7d94f8183ecdb3ac39
+Commit message - Merge pull request #896 from mattflaschen/badOrUnnecessary
+
+Add 'unnecessary' to escaping message to make it clearer.
+---> The original commit sha is - 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 110 is -> 
+{ 899ac9a941875c62e546d4e3c609ba382bf9ceef -> 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 } is a cherrypick
+{ 4507bbee5bbeeac2ef9c132d4087dd1d1483c494 -> 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3 }
+Partial Cherry-pick commits SHA are -> 
+46d0faae4cd28e8666fb75d61e9e0283e8f1e413 - cherrypick - 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3
+---> The cherrypicked commit sha is - 46d0faae4cd28e8666fb75d61e9e0283e8f1e413
+Commit message - Make sure the right side of a paren exists before checking its ID.
+
+Closes GH-900.
+---> The original commit sha is - 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 111 is -> 
+{ 021e348121b270bd39a47843d58e34f03dcaef14 -> f5582ad990111d8b88fd99aa1a44120a473fdbdb } is a cherrypick
+{ 4507bbee5bbeeac2ef9c132d4087dd1d1483c494 -> 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3 }
+Partial Cherry-pick commits SHA are -> 
+f5582ad990111d8b88fd99aa1a44120a473fdbdb - cherrypick - 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3
+---> The cherrypicked commit sha is - f5582ad990111d8b88fd99aa1a44120a473fdbdb
+Commit message - Merge remote branch 'origin/master'
+---> The original commit sha is - 07c1046e949ecf5fb8100c2ccae7a7daa5a1f0c3
+Commit message - Merge branch 'let_stmt'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 112 is -> 
+{ a1006ce54fbc28021390667706c826eec23a6d68 -> 47296215491599e67fa8de288776f97db5de26bd } is a cherrypick
+{ 3fa260110259bc651bafcf5f949d92eb7a524c1d -> 5249b9da8f1ffd5074365ce5ada80a60e3015c85 }
+Partial Cherry-pick commits SHA are -> 
+47296215491599e67fa8de288776f97db5de26bd - cherrypick - 5249b9da8f1ffd5074365ce5ada80a60e3015c85
+---> The cherrypicked commit sha is - 47296215491599e67fa8de288776f97db5de26bd
+Commit message - added error for double definition of a let variable, cf #883
+---> The original commit sha is - 5249b9da8f1ffd5074365ce5ada80a60e3015c85
+Commit message - removed for each test from let stmt branch
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 113 is -> 
+{ 30326260bc79ef769f16cc2f832c1f2391b4d901 -> 30f860e8bda965aec9ce1500b7715a3521ba58de } is a cherrypick
+{ 3fa260110259bc651bafcf5f949d92eb7a524c1d -> 5249b9da8f1ffd5074365ce5ada80a60e3015c85 }
+Partial Cherry-pick commits SHA are -> 
+30f860e8bda965aec9ce1500b7715a3521ba58de - cherrypick - 5249b9da8f1ffd5074365ce5ada80a60e3015c85
+---> The cherrypicked commit sha is - 30f860e8bda965aec9ce1500b7715a3521ba58de
+Commit message - added support of for loops with let and destructuring assignments.
+---> The original commit sha is - 5249b9da8f1ffd5074365ce5ada80a60e3015c85
+Commit message - removed for each test from let stmt branch
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 114 is -> 
+{ d5f6699a0269e2892629d22cf8e2941bd3374f74 -> 03ded6a83adc932463c93476024372410b06af3b } is a cherrypick
+{ 3fa260110259bc651bafcf5f949d92eb7a524c1d -> 5249b9da8f1ffd5074365ce5ada80a60e3015c85 }
+Partial Cherry-pick commits SHA are -> 
+03ded6a83adc932463c93476024372410b06af3b - cherrypick - 5249b9da8f1ffd5074365ce5ada80a60e3015c85
+---> The cherrypicked commit sha is - 03ded6a83adc932463c93476024372410b06af3b
+Commit message - Merge branch 'destructured_assign' into foreach_support
+---> The original commit sha is - 5249b9da8f1ffd5074365ce5ada80a60e3015c85
+Commit message - removed for each test from let stmt branch
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 115 is -> 
+{ 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 -> 29c6eeb15a0c4b862d88ae89efbffe7374a90085 } is a cherrypick
+{ 3fa260110259bc651bafcf5f949d92eb7a524c1d -> 5249b9da8f1ffd5074365ce5ada80a60e3015c85 }
+Partial Cherry-pick commits SHA are -> 
+29c6eeb15a0c4b862d88ae89efbffe7374a90085 - cherrypick - 5249b9da8f1ffd5074365ce5ada80a60e3015c85
+---> The cherrypicked commit sha is - 29c6eeb15a0c4b862d88ae89efbffe7374a90085
+Commit message - Merged destructured assign
+---> The original commit sha is - 5249b9da8f1ffd5074365ce5ada80a60e3015c85
+Commit message - removed for each test from let stmt branch
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 116 is -> 
+{ ffe4a9c2d4a68633d88872826a46701211ccd84f -> 30326260bc79ef769f16cc2f832c1f2391b4d901 } is a cherrypick
+{ 021e348121b270bd39a47843d58e34f03dcaef14 -> f5582ad990111d8b88fd99aa1a44120a473fdbdb }
+Partial Cherry-pick commits SHA are -> 
+30326260bc79ef769f16cc2f832c1f2391b4d901 - cherrypick - f5582ad990111d8b88fd99aa1a44120a473fdbdb
+---> The cherrypicked commit sha is - 30326260bc79ef769f16cc2f832c1f2391b4d901
+Commit message - Merge pull request #897 from Buritica/fix-es5-reserved
+
+Allow reserved words as property names in objects followed by commas
+---> The original commit sha is - f5582ad990111d8b88fd99aa1a44120a473fdbdb
+Commit message - Merge remote branch 'origin/master'
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 117 is -> 
+{ 8014b64dabf0919e202911ef0d01a2c9716b25b0 -> 3005b64451da363f15476b7d94f8183ecdb3ac39 } is a cherrypick
+{ 021e348121b270bd39a47843d58e34f03dcaef14 -> f5582ad990111d8b88fd99aa1a44120a473fdbdb }
+Partial Cherry-pick commits SHA are -> 
+3005b64451da363f15476b7d94f8183ecdb3ac39 - cherrypick - f5582ad990111d8b88fd99aa1a44120a473fdbdb
+---> The cherrypicked commit sha is - 3005b64451da363f15476b7d94f8183ecdb3ac39
+Commit message - Merge pull request #896 from mattflaschen/badOrUnnecessary
+
+Add 'unnecessary' to escaping message to make it clearer.
+---> The original commit sha is - f5582ad990111d8b88fd99aa1a44120a473fdbdb
+Commit message - Merge remote branch 'origin/master'
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 118 is -> 
+{ 899ac9a941875c62e546d4e3c609ba382bf9ceef -> 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 } is a cherrypick
+{ 021e348121b270bd39a47843d58e34f03dcaef14 -> f5582ad990111d8b88fd99aa1a44120a473fdbdb }
+Partial Cherry-pick commits SHA are -> 
+46d0faae4cd28e8666fb75d61e9e0283e8f1e413 - cherrypick - f5582ad990111d8b88fd99aa1a44120a473fdbdb
+---> The cherrypicked commit sha is - 46d0faae4cd28e8666fb75d61e9e0283e8f1e413
+Commit message - Make sure the right side of a paren exists before checking its ID.
+
+Closes GH-900.
+---> The original commit sha is - f5582ad990111d8b88fd99aa1a44120a473fdbdb
+Commit message - Merge remote branch 'origin/master'
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 119 is -> 
+{ a1006ce54fbc28021390667706c826eec23a6d68 -> 47296215491599e67fa8de288776f97db5de26bd } is a cherrypick
+{ 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 -> 29c6eeb15a0c4b862d88ae89efbffe7374a90085 }
+Partial Cherry-pick commits SHA are -> 
+47296215491599e67fa8de288776f97db5de26bd - cherrypick - 29c6eeb15a0c4b862d88ae89efbffe7374a90085
+---> The cherrypicked commit sha is - 47296215491599e67fa8de288776f97db5de26bd
+Commit message - added error for double definition of a let variable, cf #883
+---> The original commit sha is - 29c6eeb15a0c4b862d88ae89efbffe7374a90085
+Commit message - Merged destructured assign
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 120 is -> 
+{ 30326260bc79ef769f16cc2f832c1f2391b4d901 -> 30f860e8bda965aec9ce1500b7715a3521ba58de } is a cherrypick
+{ 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 -> 29c6eeb15a0c4b862d88ae89efbffe7374a90085 }
+Partial Cherry-pick commits SHA are -> 
+30f860e8bda965aec9ce1500b7715a3521ba58de - cherrypick - 29c6eeb15a0c4b862d88ae89efbffe7374a90085
+---> The cherrypicked commit sha is - 30f860e8bda965aec9ce1500b7715a3521ba58de
+Commit message - added support of for loops with let and destructuring assignments.
+---> The original commit sha is - 29c6eeb15a0c4b862d88ae89efbffe7374a90085
+Commit message - Merged destructured assign
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 121 is -> 
+{ d5f6699a0269e2892629d22cf8e2941bd3374f74 -> 03ded6a83adc932463c93476024372410b06af3b } is a cherrypick
+{ 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 -> 29c6eeb15a0c4b862d88ae89efbffe7374a90085 }
+Partial Cherry-pick commits SHA are -> 
+03ded6a83adc932463c93476024372410b06af3b - cherrypick - 29c6eeb15a0c4b862d88ae89efbffe7374a90085
+---> The cherrypicked commit sha is - 03ded6a83adc932463c93476024372410b06af3b
+Commit message - Merge branch 'destructured_assign' into foreach_support
+---> The original commit sha is - 29c6eeb15a0c4b862d88ae89efbffe7374a90085
+Commit message - Merged destructured assign
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 122 is -> 
+{ ffe4a9c2d4a68633d88872826a46701211ccd84f -> 30326260bc79ef769f16cc2f832c1f2391b4d901 } is a cherrypick
+{ 899ac9a941875c62e546d4e3c609ba382bf9ceef -> 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 }
+Partial Cherry-pick commits SHA are -> 
+30326260bc79ef769f16cc2f832c1f2391b4d901 - cherrypick - 46d0faae4cd28e8666fb75d61e9e0283e8f1e413
+---> The cherrypicked commit sha is - 30326260bc79ef769f16cc2f832c1f2391b4d901
+Commit message - Merge pull request #897 from Buritica/fix-es5-reserved
+
+Allow reserved words as property names in objects followed by commas
+---> The original commit sha is - 46d0faae4cd28e8666fb75d61e9e0283e8f1e413
+Commit message - Make sure the right side of a paren exists before checking its ID.
+
+Closes GH-900.
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 123 is -> 
+{ 8014b64dabf0919e202911ef0d01a2c9716b25b0 -> 3005b64451da363f15476b7d94f8183ecdb3ac39 } is a cherrypick
+{ 899ac9a941875c62e546d4e3c609ba382bf9ceef -> 46d0faae4cd28e8666fb75d61e9e0283e8f1e413 }
+Partial Cherry-pick commits SHA are -> 
+3005b64451da363f15476b7d94f8183ecdb3ac39 - cherrypick - 46d0faae4cd28e8666fb75d61e9e0283e8f1e413
+---> The cherrypicked commit sha is - 3005b64451da363f15476b7d94f8183ecdb3ac39
+Commit message - Merge pull request #896 from mattflaschen/badOrUnnecessary
+
+Add 'unnecessary' to escaping message to make it clearer.
+---> The original commit sha is - 46d0faae4cd28e8666fb75d61e9e0283e8f1e413
+Commit message - Make sure the right side of a paren exists before checking its ID.
+
+Closes GH-900.
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 124 is -> 
+{ a1006ce54fbc28021390667706c826eec23a6d68 -> 47296215491599e67fa8de288776f97db5de26bd } is a cherrypick
+{ d5f6699a0269e2892629d22cf8e2941bd3374f74 -> 03ded6a83adc932463c93476024372410b06af3b }
+Partial Cherry-pick commits SHA are -> 
+47296215491599e67fa8de288776f97db5de26bd - cherrypick - 03ded6a83adc932463c93476024372410b06af3b
+---> The cherrypicked commit sha is - 47296215491599e67fa8de288776f97db5de26bd
+Commit message - added error for double definition of a let variable, cf #883
+---> The original commit sha is - 03ded6a83adc932463c93476024372410b06af3b
+Commit message - Merge branch 'destructured_assign' into foreach_support
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 125 is -> 
+{ 30326260bc79ef769f16cc2f832c1f2391b4d901 -> 30f860e8bda965aec9ce1500b7715a3521ba58de } is a cherrypick
+{ d5f6699a0269e2892629d22cf8e2941bd3374f74 -> 03ded6a83adc932463c93476024372410b06af3b }
+Partial Cherry-pick commits SHA are -> 
+30f860e8bda965aec9ce1500b7715a3521ba58de - cherrypick - 03ded6a83adc932463c93476024372410b06af3b
+---> The cherrypicked commit sha is - 30f860e8bda965aec9ce1500b7715a3521ba58de
+Commit message - added support of for loops with let and destructuring assignments.
+---> The original commit sha is - 03ded6a83adc932463c93476024372410b06af3b
+Commit message - Merge branch 'destructured_assign' into foreach_support
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+src/stable/jshint.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 126 is -> 
+{ ffe4a9c2d4a68633d88872826a46701211ccd84f -> 30326260bc79ef769f16cc2f832c1f2391b4d901 } is a cherrypick
+{ 8014b64dabf0919e202911ef0d01a2c9716b25b0 -> 3005b64451da363f15476b7d94f8183ecdb3ac39 }
+Partial Cherry-pick commits SHA are -> 
+30326260bc79ef769f16cc2f832c1f2391b4d901 - cherrypick - 3005b64451da363f15476b7d94f8183ecdb3ac39
+---> The cherrypicked commit sha is - 30326260bc79ef769f16cc2f832c1f2391b4d901
+Commit message - Merge pull request #897 from Buritica/fix-es5-reserved
+
+Allow reserved words as property names in objects followed by commas
+---> The original commit sha is - 3005b64451da363f15476b7d94f8183ecdb3ac39
+Commit message - Merge pull request #896 from mattflaschen/badOrUnnecessary
+
+Add 'unnecessary' to escaping message to make it clearer.
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 127 is -> 
+{ b3b7018a64b0ddebba4eb7ac42c26af618f95164 -> fbf34a576f965aba3affda21e4e4507800162f57 } is a cherrypick
+{ 30f860e8bda965aec9ce1500b7715a3521ba58de -> 8014b64dabf0919e202911ef0d01a2c9716b25b0 }
+Partial Cherry-pick commits SHA are -> 
+fbf34a576f965aba3affda21e4e4507800162f57 - cherrypick - 8014b64dabf0919e202911ef0d01a2c9716b25b0
+---> The cherrypicked commit sha is - fbf34a576f965aba3affda21e4e4507800162f57
+Commit message - fixed destructuring assign in global context. Updated tests. cf #883
+---> The original commit sha is - 8014b64dabf0919e202911ef0d01a2c9716b25b0
+Commit message - added support for imbricated destructuring object assignments. cf #883
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 128 is -> 
+{ ffe4a9c2d4a68633d88872826a46701211ccd84f -> 30326260bc79ef769f16cc2f832c1f2391b4d901 } is a cherrypick
+{ 30f860e8bda965aec9ce1500b7715a3521ba58de -> 8014b64dabf0919e202911ef0d01a2c9716b25b0 }
+Partial Cherry-pick commits SHA are -> 
+30326260bc79ef769f16cc2f832c1f2391b4d901 - cherrypick - 8014b64dabf0919e202911ef0d01a2c9716b25b0
+---> The cherrypicked commit sha is - 30326260bc79ef769f16cc2f832c1f2391b4d901
+Commit message - Merge pull request #897 from Buritica/fix-es5-reserved
+
+Allow reserved words as property names in objects followed by commas
+---> The original commit sha is - 8014b64dabf0919e202911ef0d01a2c9716b25b0
+Commit message - added support for imbricated destructuring object assignments. cf #883
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 129 is -> 
+{ a1006ce54fbc28021390667706c826eec23a6d68 -> 47296215491599e67fa8de288776f97db5de26bd } is a cherrypick
+{ 30326260bc79ef769f16cc2f832c1f2391b4d901 -> 30f860e8bda965aec9ce1500b7715a3521ba58de }
+Partial Cherry-pick commits SHA are -> 
+47296215491599e67fa8de288776f97db5de26bd - cherrypick - 30f860e8bda965aec9ce1500b7715a3521ba58de
+---> The cherrypicked commit sha is - 47296215491599e67fa8de288776f97db5de26bd
+Commit message - added error for double definition of a let variable, cf #883
+---> The original commit sha is - 30f860e8bda965aec9ce1500b7715a3521ba58de
+Commit message - added support of for loops with let and destructuring assignments.
+---> The files with partial_cherrypicks are:-
+package.json
+src/shared/messages.js
+src/shared/vars.js
+src/stable/lex.js
+tests/stable/unit/fixtures/es5Reserved.js
+tests/stable/unit/fixtures/strings.js
+tests/stable/unit/fixtures/unused.js
+tests/stable/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 130 is -> 
+{ a1006ce54fbc28021390667706c826eec23a6d68 -> 47296215491599e67fa8de288776f97db5de26bd } is a cherrypick
+{ f3a9eee31dc151b2f445bd71180dd30487f8f839 -> ffe4a9c2d4a68633d88872826a46701211ccd84f }
+Partial Cherry-pick commits SHA are -> 
+47296215491599e67fa8de288776f97db5de26bd - cherrypick - ffe4a9c2d4a68633d88872826a46701211ccd84f
+---> The cherrypicked commit sha is - 47296215491599e67fa8de288776f97db5de26bd
+Commit message - added error for double definition of a let variable, cf #883
+---> The original commit sha is - ffe4a9c2d4a68633d88872826a46701211ccd84f
+Commit message - Merge branch 'destructured_assign' into let_stmt
+---> The files with partial_cherrypicks are:-
+src/shared/messages.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 131 is -> 
+{ 8f8096c9680c869860c02078cdf48c501b089490 -> 66a3528764871d1ea70648b0e8739687ba9e28d9 } is a cherrypick
+{ fbf34a576f965aba3affda21e4e4507800162f57 -> f3a9eee31dc151b2f445bd71180dd30487f8f839 }
+Partial Cherry-pick commits SHA are -> 
+66a3528764871d1ea70648b0e8739687ba9e28d9 - cherrypick - f3a9eee31dc151b2f445bd71180dd30487f8f839
+---> The cherrypicked commit sha is - 66a3528764871d1ea70648b0e8739687ba9e28d9
+Commit message - Don't warn about octals in strings on \0
+---> The original commit sha is - f3a9eee31dc151b2f445bd71180dd30487f8f839
+Commit message - merge with upstream's master
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+README.md
+examples/.jshintrc
+make.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/gh878.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 132 is -> 
+{ 5623f08b7a024b9ca7a8995e0e5150f3989c3a84 -> 56a1341af2930a2edf8fd18f4fd9b81b2819ccee } is a cherrypick
+{ d6d0c4e81ed72fd1c1b7754e4d9e2bcc7932fb12 -> ea235eec09ebee8289a7139b88e10bcd52aead53 }
+Partial Cherry-pick commits SHA are -> 
+56a1341af2930a2edf8fd18f4fd9b81b2819ccee - cherrypick - ea235eec09ebee8289a7139b88e10bcd52aead53
+---> The cherrypicked commit sha is - 56a1341af2930a2edf8fd18f4fd9b81b2819ccee
+Commit message - Adding an example .jshintrc that is complete with all defaults and comments for each option
+
+This file is designed to be dropped into place with any project, as it uses all the default options.
+In addition, the comments clearly indicate what each possible value will mean practically.
+---> The original commit sha is - ea235eec09ebee8289a7139b88e10bcd52aead53
+Commit message - Merge branch 'master' of github.com:jshint/jshint
+---> The files with partial_cherrypicks are:-
+examples/.jshintrc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 133 is -> 
+{ 5623f08b7a024b9ca7a8995e0e5150f3989c3a84 -> 56a1341af2930a2edf8fd18f4fd9b81b2819ccee } is a cherrypick
+{ ce7da77f81412c13aea19e857bc6fdf9069804d5 -> 71dcf8db53e76364467410f9aacf2805195a2516 }
+Partial Cherry-pick commits SHA are -> 
+56a1341af2930a2edf8fd18f4fd9b81b2819ccee - cherrypick - 71dcf8db53e76364467410f9aacf2805195a2516
+---> The cherrypicked commit sha is - 56a1341af2930a2edf8fd18f4fd9b81b2819ccee
+Commit message - Adding an example .jshintrc that is complete with all defaults and comments for each option
+
+This file is designed to be dropped into place with any project, as it uses all the default options.
+In addition, the comments clearly indicate what each possible value will mean practically.
+---> The original commit sha is - 71dcf8db53e76364467410f9aacf2805195a2516
+Commit message - Merge pull request #882 from dominicbarnes/complete-config
+
+Complete Sample .jshintrc
+---> The files with partial_cherrypicks are:-
+examples/.jshintrc
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 134 is -> 
+{ dd8a2dd273bb6167624048619264a8d4d57acdfe -> 87619b6edb89484d832af51ea4749c64f8576648 } is a cherrypick
+{ 34dede601faf8a73448e6f5cde682c6fbdcbd59b -> 59c566ef5020839ed19f92e9bcfc3bd34e4c3da6 }
+Partial Cherry-pick commits SHA are -> 
+87619b6edb89484d832af51ea4749c64f8576648 - cherrypick - 59c566ef5020839ed19f92e9bcfc3bd34e4c3da6
+---> The cherrypicked commit sha is - 87619b6edb89484d832af51ea4749c64f8576648
+Commit message - adds PhantomJS support to JSHint
+---> The original commit sha is - 59c566ef5020839ed19f92e9bcfc3bd34e4c3da6
+Commit message - Merge pull request #814 from DealerDotCom/feature/phantomjs-support
+
+adds PhantomJS support to JSHint
+---> The files with partial_cherrypicks are:-
+src/shared/vars.js
+tests/stable/unit/envs.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 135 is -> 
+{ 82ba4cd50f7bc615b1616fb2346f6db1fe0b635b -> dd8a2dd273bb6167624048619264a8d4d57acdfe } is a cherrypick
+{ 07a167ac56dc44b1899ac5fd8d4dc92d23335acd -> b7171e6596bb4252d652a9611d9f51cfe8103a18 }
+Partial Cherry-pick commits SHA are -> 
+dd8a2dd273bb6167624048619264a8d4d57acdfe - cherrypick - b7171e6596bb4252d652a9611d9f51cfe8103a18
+---> The cherrypicked commit sha is - dd8a2dd273bb6167624048619264a8d4d57acdfe
+Commit message - Allow reserved words as property names under es5
+
+This fixes the es5 mode to properly allow reserved words to be used
+as property names. The issue was that the function emitting this
+warning was not being told it was checking a property in most cases.
+---> The original commit sha is - b7171e6596bb4252d652a9611d9f51cfe8103a18
+Commit message - Merge pull request #801 from dougwilson/fix/es5-reserved-properties
+
+Allow reserved words as property names under ES5. Closes GH-768.
+---> The files with partial_cherrypicks are:-
+src/stable/jshint.js
+tests/stable/unit/core.js
+tests/stable/unit/fixtures/es5Reserved.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 136 is -> 
+{ d4f788b07ef8a6526736dcf2a42c997995398f45 -> a6afeb9a4dae13e7f6672b484a32d1b7ba02302c } is a cherrypick
+{ d448df71c867a9640f4e4460f877fcbe2d49d2c8 -> cf711204dfb5a6775da4dd5654c52d03712efa43 }
+Partial Cherry-pick commits SHA are -> 
+a6afeb9a4dae13e7f6672b484a32d1b7ba02302c - cherrypick - cf711204dfb5a6775da4dd5654c52d03712efa43
+---> The cherrypicked commit sha is - a6afeb9a4dae13e7f6672b484a32d1b7ba02302c
+Commit message - Respect the unused option when outputting.
+---> The original commit sha is - cf711204dfb5a6775da4dd5654c52d03712efa43
+Commit message - Revert "Merge pull request #749 from Bonuspunkt/master"
+
+This reverts commit 815dae1f1ee8bc57d0400e98d0e2f08e63e5ad9c, reversing
+changes made to 0f116f6e612c042ac1504042fb9850fae2dc3c02.
+---> The files with partial_cherrypicks are:-
+src/cli/cli.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 137 is -> 
+{ 2a0e270b694e007eba45547805f89c05fea873e9 -> d4f788b07ef8a6526736dcf2a42c997995398f45 } is a cherrypick
+{ 0f116f6e612c042ac1504042fb9850fae2dc3c02 -> 815dae1f1ee8bc57d0400e98d0e2f08e63e5ad9c }
+Partial Cherry-pick commits SHA are -> 
+d4f788b07ef8a6526736dcf2a42c997995398f45 - cherrypick - 815dae1f1ee8bc57d0400e98d0e2f08e63e5ad9c
+---> The cherrypicked commit sha is - d4f788b07ef8a6526736dcf2a42c997995398f45
+Commit message - changed the exit handling
+---> The original commit sha is - 815dae1f1ee8bc57d0400e98d0e2f08e63e5ad9c
+Commit message - Merge pull request #749 from Bonuspunkt/master
+
+Problems with piping on windows
+---> The files with partial_cherrypicks are:-
+src/cli/cli.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 138 is -> 
+{ 0f541a41bd6f8d8aaa4b578a79d2683b30723a9b -> 0add048ab8d80bbf6f39b6df33fc3d1d16eb7324 } is a cherrypick
+{ 35b306e330d09a7b37e94053b3eaf5fefec8cda5 -> 73df5ae329edcbf93765a675feaeb9738b0a6b98 }
+Partial Cherry-pick commits SHA are -> 
+0add048ab8d80bbf6f39b6df33fc3d1d16eb7324 - cherrypick - 73df5ae329edcbf93765a675feaeb9738b0a6b98
+---> The cherrypicked commit sha is - 0add048ab8d80bbf6f39b6df33fc3d1d16eb7324
+Commit message - Fix README formatting
+---> The original commit sha is - 73df5ae329edcbf93765a675feaeb9738b0a6b98
+Commit message - Merge pull request #796 from nschonni/patch-1
+
+Fix README formatting
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 139 is -> 
+{ d4f788b07ef8a6526736dcf2a42c997995398f45 -> a6afeb9a4dae13e7f6672b484a32d1b7ba02302c } is a cherrypick
+{ 4501a647d581d4fbb2206565dff41ef61e0be68f -> 9c4639cb8e308dd9be29cdb25d72c4e359df0803 }
+Partial Cherry-pick commits SHA are -> 
+a6afeb9a4dae13e7f6672b484a32d1b7ba02302c - cherrypick - 9c4639cb8e308dd9be29cdb25d72c4e359df0803
+---> The cherrypicked commit sha is - a6afeb9a4dae13e7f6672b484a32d1b7ba02302c
+Commit message - Respect the unused option when outputting.
+---> The original commit sha is - 9c4639cb8e308dd9be29cdb25d72c4e359df0803
+Commit message - Merge branch 'master' of github.com:jshint/jshint
+---> The files with partial_cherrypicks are:-
+src/platforms/wsh.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 140 is -> 
+{ a6afeb9a4dae13e7f6672b484a32d1b7ba02302c -> 6761d937a618b81e395b5b1d03f0f6839fe8bc25 } is a cherrypick
+{ 69989d65ba0efd23a85d634f44e30b6bbc469345 -> 2a2e2adc9329207d75acb4545f4e1e0273d6f53f }
+Partial Cherry-pick commits SHA are -> 
+6761d937a618b81e395b5b1d03f0f6839fe8bc25 - cherrypick - 2a2e2adc9329207d75acb4545f4e1e0273d6f53f
+---> The cherrypicked commit sha is - 6761d937a618b81e395b5b1d03f0f6839fe8bc25
+Commit message - New comment tokenizer.
+
+Rewrote comment tokenizer to return comments in whole so that
+we don't have to iterate symbol-by-symbol from the doOption
+function in jshint.js.
+
+Changes:
+ * We now recognize space between /* and jshint/global/etc.
+ * We now understand both /*globals and /*global
+ * All special comments _must_ be separated by commas. This
+   is a potentially breaking change because some people were
+	 omitting commas by mistake.
+---> The original commit sha is - 2a2e2adc9329207d75acb4545f4e1e0273d6f53f
+Commit message - Merge branch 'es5-disallow-reserved-words' of git://github.com/jamesallardice/jshint into jamesallardice-es5-disallow-reserved-words
+---> The files with partial_cherrypicks are:-
+src/platforms/wsh.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 141 is -> 
+{ d4f788b07ef8a6526736dcf2a42c997995398f45 -> a6afeb9a4dae13e7f6672b484a32d1b7ba02302c } is a cherrypick
+{ c8f0ccfd40f6fa52a8860b36bfcf1621341fd385 -> 69989d65ba0efd23a85d634f44e30b6bbc469345 }
+Partial Cherry-pick commits SHA are -> 
+a6afeb9a4dae13e7f6672b484a32d1b7ba02302c - cherrypick - 69989d65ba0efd23a85d634f44e30b6bbc469345
+---> The cherrypicked commit sha is - a6afeb9a4dae13e7f6672b484a32d1b7ba02302c
+Commit message - Respect the unused option when outputting.
+---> The original commit sha is - 69989d65ba0efd23a85d634f44e30b6bbc469345
+Commit message - Merge pull request #746 from Pennine-View-Harrogate/wsh-unused-bug
+
+Respect the unused option when outputting.
+---> The files with partial_cherrypicks are:-
+src/platforms/wsh.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 142 is -> 
+{ 0552ba24273fe7f4e83a4e67a5aa7220fc8afa34 -> 6d8fa1b40c330bfc4568b2fea5087bf465bf7d1b } is a cherrypick
+{ 3148362196109078edec5d31e6c6677760d5b105 -> 4ad295fc849018b17e9f85752eb80a0c37ce3e8f }
+Partial Cherry-pick commits SHA are -> 
+6d8fa1b40c330bfc4568b2fea5087bf465bf7d1b - cherrypick - 4ad295fc849018b17e9f85752eb80a0c37ce3e8f
+---> The cherrypicked commit sha is - 6d8fa1b40c330bfc4568b2fea5087bf465bf7d1b
+Commit message - add "main" section to package.json to enable require in npm
+---> The original commit sha is - 4ad295fc849018b17e9f85752eb80a0c37ce3e8f
+Commit message - Merge pull request #724 from bkw/npmFix2
+
+This patch makes it possible to require JSHint as an NPM module.
+---> The files with partial_cherrypicks are:-
+tests/stable/regression/npm.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 143 is -> 
+{ de218d82e659b3994ea0e62b9be6625e699c08fc -> 99999fea6c9d9aa166c5c37698c761ee43b2fb84 } is a cherrypick
+{ df6c4a2211e4936f19696e75121372f3f8fbea6d -> 13f22a4e8802f658c2029c743b767adf9bc16ebc }
+Partial Cherry-pick commits SHA are -> 
+99999fea6c9d9aa166c5c37698c761ee43b2fb84 - cherrypick - 13f22a4e8802f658c2029c743b767adf9bc16ebc
+---> The cherrypicked commit sha is - 99999fea6c9d9aa166c5c37698c761ee43b2fb84
+Commit message - Comment for window.setTimeout check
+---> The original commit sha is - 13f22a4e8802f658c2029c743b767adf9bc16ebc
+Commit message - Merge branch 'master' of git://github.com/TheJosh/jshint into internal
+
+Merging this patch with one change (aside from conflict resolution): no
+more formal parameter to define a scope. The scope is now defined with
+a value option 'scope'. This option is undocumented and will possibly go
+away in Next. Still better than another formal parameter that we can't
+easily take away.
+
+Conflicts:
+	jshint.js
+---> The files with partial_cherrypicks are:-
+tests/unit/fixtures/insideEval.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 144 is -> 
+{ a207fc38050cb19269358b083c8d7b7f88c6dbf8 -> 8cef419cec51e3a227c6ab79db68d87290e5ca02 } is a cherrypick
+{ 2e4c516ca25623bef48c581fcbf632d48114188d -> cbe1314b5d2c341ad10e419bf9c0a5154961c012 }
+Partial Cherry-pick commits SHA are -> 
+8cef419cec51e3a227c6ab79db68d87290e5ca02 - cherrypick - cbe1314b5d2c341ad10e419bf9c0a5154961c012
+---> The cherrypicked commit sha is - 8cef419cec51e3a227c6ab79db68d87290e5ca02
+Commit message - Made the option names maxstatementsperfunction, maxnestedblockdepthperfunction, maxparametersperfunction and maxcyclomaticcomplexityperfunction shorter by removing the suffix 'perfunction'
+---> The original commit sha is - cbe1314b5d2c341ad10e419bf9c0a5154961c012
+Commit message - Merge branch 'master' of git://github.com/shybyte/jshint into shybyte-master
+
+Resolved conflicts, fixed a typo in the complexity warning, removed
+word 'cyclomatic' from functions and variables (I thought it was
+redundant) and made some minor styling changes.
+
+Conflicts:
+	jshint.js
+	tests/unit/options.js
+---> The files with partial_cherrypicks are:-
+tests/unit/fixtures/max-cyclomatic-complexity-per-function.js
+tests/unit/fixtures/max-nested-block-depth-per-function.js
+tests/unit/fixtures/max-parameters-per-function.js
+tests/unit/fixtures/max-statements-per-function.js
+tests/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 145 is -> 
+{ 485f5209f618ea9326ead1645d39b33cd16528a0 -> c63e566f2fa457fa67899cb6081e7a398fbdfa4a } is a cherrypick
+{ 2e4c516ca25623bef48c581fcbf632d48114188d -> cbe1314b5d2c341ad10e419bf9c0a5154961c012 }
+Partial Cherry-pick commits SHA are -> 
+c63e566f2fa457fa67899cb6081e7a398fbdfa4a - cherrypick - cbe1314b5d2c341ad10e419bf9c0a5154961c012
+---> The cherrypicked commit sha is - c63e566f2fa457fa67899cb6081e7a398fbdfa4a
+Commit message - Renamed options: maxparameters -> maxparams, maxnestedblockdepth -> maxdepth and maxcyclomaticcomplexity -> maxcomplexity
+---> The original commit sha is - cbe1314b5d2c341ad10e419bf9c0a5154961c012
+Commit message - Merge branch 'master' of git://github.com/shybyte/jshint into shybyte-master
+
+Resolved conflicts, fixed a typo in the complexity warning, removed
+word 'cyclomatic' from functions and variables (I thought it was
+redundant) and made some minor styling changes.
+
+Conflicts:
+	jshint.js
+	tests/unit/options.js
+---> The files with partial_cherrypicks are:-
+tests/unit/fixtures/max-cyclomatic-complexity-per-function.js
+tests/unit/fixtures/max-nested-block-depth-per-function.js
+tests/unit/fixtures/max-parameters-per-function.js
+tests/unit/fixtures/max-statements-per-function.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 146 is -> 
+{ f74fc3292e8960010fd7240df8986a6719ea7ef7 -> bcff546e21c6d66db55074ee92aec3c83761031b } is a cherrypick
+{ c581b43b410bf6dfc2feb38f946ad1ac578feb2f -> 1100b59340682925cb523883b26cd5313246ffa5 }
+Partial Cherry-pick commits SHA are -> 
+bcff546e21c6d66db55074ee92aec3c83761031b - cherrypick - 1100b59340682925cb523883b26cd5313246ffa5
+---> The cherrypicked commit sha is - bcff546e21c6d66db55074ee92aec3c83761031b
+Commit message - Bug fix, give proper character count for supernew and return identifier
+---> The original commit sha is - 1100b59340682925cb523883b26cd5313246ffa5
+Commit message - Merge pull request #598 from goatslacker/gh-xxx-2
+
+Bug fix, give proper character count for supernew and return identifier
+---> The files with partial_cherrypicks are:-
+tests/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 147 is -> 
+{ 88869de18ed2389ce3bd75724e3feb20dc03dcd2 -> 7ceb8d0868cbec4c3de3fb8c3ea1b7a5e6daa3ad } is a cherrypick
+{ 7792d0ec8cb749b33d1a6381c40001ba2145b77d -> 47accba56e1f4bc0e1cf30d7094ba7d5d7c3d8c5 }
+Partial Cherry-pick commits SHA are -> 
+7ceb8d0868cbec4c3de3fb8c3ea1b7a5e6daa3ad - cherrypick - 47accba56e1f4bc0e1cf30d7094ba7d5d7c3d8c5
+---> The cherrypicked commit sha is - 7ceb8d0868cbec4c3de3fb8c3ea1b7a5e6daa3ad
+Commit message - Add MutationObserver support
+---> The original commit sha is - 47accba56e1f4bc0e1cf30d7094ba7d5d7c3d8c5
+Commit message - Merge branch 'master' of github.com:jshint/jshint
+---> The files with partial_cherrypicks are:-
+tests/unit/envs.js
+tests/unit/fixtures/browser.js
+tests/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 148 is -> 
+{ b963afac09ad2101764db0eed6b242ff8e7c7f2c -> 003b4eafd54069273fa5ff07a118d99e9e56c720 } is a cherrypick
+{ 4453555b3cd8b72ecc6076246a784c0356cb26ff -> 75691d44c4c0d72e6729ab2599464309e1a5c360 }
+Partial Cherry-pick commits SHA are -> 
+003b4eafd54069273fa5ff07a118d99e9e56c720 - cherrypick - 75691d44c4c0d72e6729ab2599464309e1a5c360
+---> The cherrypicked commit sha is - 003b4eafd54069273fa5ff07a118d99e9e56c720
+Commit message - update top comment to include new members in data object
+---> The original commit sha is - 75691d44c4c0d72e6729ab2599464309e1a5c360
+Commit message - Merge pull request #558 from joelrbrandt/master
+
+Add reporting of starting/ending character for functions
+---> The files with partial_cherrypicks are:-
+tests/unit/fixtures/nestedFunctions-locations.js
+tests/unit/fixtures/nestedFunctions.js
+tests/unit/parser.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 149 is -> 
+{ 4b162066befe33a5bf3c69ce4f0bf427634f2efa -> b963afac09ad2101764db0eed6b242ff8e7c7f2c } is a cherrypick
+{ 003b4eafd54069273fa5ff07a118d99e9e56c720 -> 4453555b3cd8b72ecc6076246a784c0356cb26ff }
+Partial Cherry-pick commits SHA are -> 
+b963afac09ad2101764db0eed6b242ff8e7c7f2c - cherrypick - 4453555b3cd8b72ecc6076246a784c0356cb26ff
+---> The cherrypicked commit sha is - b963afac09ad2101764db0eed6b242ff8e7c7f2c
+Commit message - add Node and NodeFilter members to options to fix unit tests
+---> The original commit sha is - 4453555b3cd8b72ecc6076246a784c0356cb26ff
+Commit message - Merge pull request #560 from joelrbrandt/fix-unit-tests
+
+add Node and NodeFilter members to options to fix unit tests
+---> The files with partial_cherrypicks are:-
+tests/unit/fixtures/nestedFunctions-locations.js
+tests/unit/fixtures/nestedFunctions.js
+tests/unit/parser.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 150 is -> 
+{ 26fd3842e2acd4285de327bbe2a32984a75e613e -> b0f3198bf62efb06ec807f29c6c7c8d7b1c949e5 } is a cherrypick
+{ 2750b3ba002f16b889245ecf821c5dc7e59d50fb -> de218d82e659b3994ea0e62b9be6625e699c08fc }
+Partial Cherry-pick commits SHA are -> 
+b0f3198bf62efb06ec807f29c6c7c8d7b1c949e5 - cherrypick - de218d82e659b3994ea0e62b9be6625e699c08fc
+---> The cherrypicked commit sha is - b0f3198bf62efb06ec807f29c6c7c8d7b1c949e5
+Commit message - Added broken test for Node and NodeFilter
+
+There are at least 2 DOM level 2 types that jshint is failing on
+http://www.w3.org/TR/DOM-Level-2-Traversal-Range/traversal.html
+---> The original commit sha is - de218d82e659b3994ea0e62b9be6625e699c08fc
+Commit message - Merge pull request #530 from JasonMore/master
+
+Dom Level 2 items are failing: Node and NodeFilter
+---> The files with partial_cherrypicks are:-
+tests/unit/envs.js
+tests/unit/fixtures/browser.js
+tests/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 151 is -> 
+{ 05fa24da99b1a119786be8045043958e4a7a4cdc -> 1618a320bd7a4e29b81af14b6b902b04769ebbe2 } is a cherrypick
+{ 4496d28bf7a05f8ce45e91d0f80efbf6229fe900 -> 2750b3ba002f16b889245ecf821c5dc7e59d50fb }
+Partial Cherry-pick commits SHA are -> 
+1618a320bd7a4e29b81af14b6b902b04769ebbe2 - cherrypick - 2750b3ba002f16b889245ecf821c5dc7e59d50fb
+---> The cherrypicked commit sha is - 1618a320bd7a4e29b81af14b6b902b04769ebbe2
+Commit message - Adds option quotmark [closes #306]
+ - {quotmark: true} // ensures consistency of quotation marks
+ - {quotmark: "single"} // requires single quotes as quotation marks
+ - {quotmark: "double"} // requires double quotes as quotation marks
+---> The original commit sha is - 2750b3ba002f16b889245ecf821c5dc7e59d50fb
+Commit message - Merge pull request #523 from pracj3am/Single_double_quotes_consistency
+
+Adds option quotmark [closes #306]
+---> The files with partial_cherrypicks are:-
+tests/unit/fixtures/quotes.js
+tests/unit/fixtures/quotes2.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 152 is -> 
+{ 9c25df6aa7d3ac8b0a519106675f6d9158fe7da5 -> 05fa24da99b1a119786be8045043958e4a7a4cdc } is a cherrypick
+{ 729cee4d02b4874a308dde6443a19e0249e293d3 -> 4496d28bf7a05f8ce45e91d0f80efbf6229fe900 }
+Partial Cherry-pick commits SHA are -> 
+05fa24da99b1a119786be8045043958e4a7a4cdc - cherrypick - 4496d28bf7a05f8ce45e91d0f80efbf6229fe900
+---> The cherrypicked commit sha is - 05fa24da99b1a119786be8045043958e4a7a4cdc
+Commit message - Adds option camelcase
+
+If option camelcase is true, all identifiers are required
+in camel case or in upper case with underscores.
+---> The original commit sha is - 4496d28bf7a05f8ce45e91d0f80efbf6229fe900
+Commit message - Merge pull request #524 from pracj3am/Option_camelcase
+
+Adds option camelcase
+---> The files with partial_cherrypicks are:-
+tests/unit/fixtures/camelcase.js
+tests/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 153 is -> 
+{ a4c2e8424e089c22679db96de3f702b8aa0ce2fb -> 9c25df6aa7d3ac8b0a519106675f6d9158fe7da5 } is a cherrypick
+{ 42f4b4a094fe5a2da39cc9fa8848cad2cbfdc201 -> 729cee4d02b4874a308dde6443a19e0249e293d3 }
+Partial Cherry-pick commits SHA are -> 
+9c25df6aa7d3ac8b0a519106675f6d9158fe7da5 - cherrypick - 729cee4d02b4874a308dde6443a19e0249e293d3
+---> The cherrypicked commit sha is - 9c25df6aa7d3ac8b0a519106675f6d9158fe7da5
+Commit message - Allow space afters tabs and before a block comment [closes #503].
+---> The original commit sha is - 729cee4d02b4874a308dde6443a19e0249e293d3
+Commit message - Merge pull request #522 from pracj3am/Allow_space_before_block_comment
+
+Allow space afters tabs and before a block comment [closes #503].
+---> The files with partial_cherrypicks are:-
+tests/unit/fixtures/smarttabs.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 154 is -> 
+{ b4e0bda906602896311d6b5e1e7edf8c1a4fdc5d -> 1996c125ba6ee251c31147969d3d5a1213b709af } is a cherrypick
+{ c8369906ccc65184881eb2302980b0d9d46df2fb -> 5e574951c050c4fe9d806342fd68c8b0798a6b17 }
+Partial Cherry-pick commits SHA are -> 
+1996c125ba6ee251c31147969d3d5a1213b709af - cherrypick - 5e574951c050c4fe9d806342fd68c8b0798a6b17
+---> The cherrypicked commit sha is - 1996c125ba6ee251c31147969d3d5a1213b709af
+Commit message - Reformatted some lines that were over 100 characters long
+---> The original commit sha is - 5e574951c050c4fe9d806342fd68c8b0798a6b17
+Commit message - Patch from J-Griffin
+
+Added recursive directory support to WSH wrapper.
+
+The WSH env now has support for passing in a directory name.
+
+The only functional change that was made for single files is that the
+passed script name is spit out in the output just like when running
+against a directory. Let me know if that is a problem and I can make a
+change.
+
++ Fixes GH-471
+
+* (merged manually)
+---> The files with partial_cherrypicks are:-
+env/wsh.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 155 is -> 
+{ 3443f34bf39dd041e7551dd5ae75ad25580d545d -> c7d36f28d7ad6cf97e6ba540adaeedcfd2de17ef } is a cherrypick
+{ 6c6fe9437983679e4dff2673938b3f7f38b6eed5 -> 4a6bd8527d25ee2accb050ba561c5489e5f3983d }
+Partial Cherry-pick commits SHA are -> 
+c7d36f28d7ad6cf97e6ba540adaeedcfd2de17ef - cherrypick - 4a6bd8527d25ee2accb050ba561c5489e5f3983d
+---> The cherrypicked commit sha is - c7d36f28d7ad6cf97e6ba540adaeedcfd2de17ef
+Commit message - Allow Object() to be called as a function - Fixes #392
+---> The original commit sha is - 4a6bd8527d25ee2accb050ba561c5489e5f3983d
+Commit message - Merge pull request #476 from wagenet/object-function
+
+Allows Object() to be called as a function
+---> The files with partial_cherrypicks are:-
+tests/unit/core.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 156 is -> 
+{ 65153fd3c69c29fb26199ad8871a4614b092240d -> 1f7e3ab60f9ba3f0eafd4c6b31abe4d8a8a549e7 } is a cherrypick
+{ ef3fb59ab14184894e35a89808698e0911ac5989 -> 46143c1ceaa6b99b54642fae5b22448c3caf1619 }
+Partial Cherry-pick commits SHA are -> 
+1f7e3ab60f9ba3f0eafd4c6b31abe4d8a8a549e7 - cherrypick - 46143c1ceaa6b99b54642fae5b22448c3caf1619
+---> The cherrypicked commit sha is - 1f7e3ab60f9ba3f0eafd4c6b31abe4d8a8a549e7
+Commit message - Assume globalstrict in the node environment.
+
+Fixes GH-377. Since there're no problems with using module level
+"use strict" in Node programs we don't need to display a warning
+about it.
+
+Test plan: `make test`.
+---> The original commit sha is - 46143c1ceaa6b99b54642fae5b22448c3caf1619
+Commit message - Merge branch 'master' of github.com:jshint/jshint
+---> The files with partial_cherrypicks are:-
+tests/unit/envs.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 157 is -> 
+{ 8cecd6a6e352d2d25b381e04bace4860ee88c5f1 -> efbb3af4f905138df9796ed1b8719bb695d1f93e } is a cherrypick
+{ baffbf873112d8a0b3fa3dd282187dafc218a9e1 -> e82c83b48f3b22141ea1b440645ede0d170d9b39 }
+Partial Cherry-pick commits SHA are -> 
+efbb3af4f905138df9796ed1b8719bb695d1f93e - cherrypick - e82c83b48f3b22141ea1b440645ede0d170d9b39
+---> The cherrypicked commit sha is - efbb3af4f905138df9796ed1b8719bb695d1f93e
+Commit message - Merge pull request #436 from goatslacker/GH-435
+
+Fixes GH-435. Call/Apply outside parens now invokes correct warning
+---> The original commit sha is - e82c83b48f3b22141ea1b440645ede0d170d9b39
+Commit message - Add DOMParser global to browser
+---> The files with partial_cherrypicks are:-
+tests/unit/fixtures/immed.js
+tests/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 158 is -> 
+{ 861230843e430bef39c0356fce454354633bd207 -> dc736226f2ceb0e56102ba7be039faccd01477c4 } is a cherrypick
+{ 1eed5447815862e47a75d50fc8d74de5233c48d2 -> 00f01501368d21ad72f5ccb6b88f450705a87768 }
+Partial Cherry-pick commits SHA are -> 
+dc736226f2ceb0e56102ba7be039faccd01477c4 - cherrypick - 00f01501368d21ad72f5ccb6b88f450705a87768
+---> The cherrypicked commit sha is - dc736226f2ceb0e56102ba7be039faccd01477c4
+Commit message - Fixed incorrect comment in jsc.sh and jsc.js
+
+Fixes GH-399.
+---> The original commit sha is - 00f01501368d21ad72f5ccb6b88f450705a87768
+Commit message - Merge branch 'master' into gh-340
+---> The files with partial_cherrypicks are:-
+env/jsc.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 159 is -> 
+{ aa807a544b8d59134374753861db209800ad400f -> a06c81bfa5d57134dfdd852919713649d8947cea } is a cherrypick
+{ 35de65502cb0d8f0ab315f794a7a430abb73aa9a -> d17ce8d983a6f002757dd6367584d9022108673f }
+Partial Cherry-pick commits SHA are -> 
+a06c81bfa5d57134dfdd852919713649d8947cea - cherrypick - d17ce8d983a6f002757dd6367584d9022108673f
+---> The cherrypicked commit sha is - a06c81bfa5d57134dfdd852919713649d8947cea
+Commit message - Merge branch 'master' into GH-161
+---> The original commit sha is - d17ce8d983a6f002757dd6367584d9022108673f
+Commit message - Merge branch 'GH-161' of https://github.com/goatslacker/jshint into 161
+---> The files with partial_cherrypicks are:-
+tests/unit/fixtures/latedef.js
+tests/unit/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 160 is -> 
+{ ab9534b8340f5b312a43508e9e3b3c2ac24bcd61 -> c2788926fa0757b3529904c625696ff8e0181a41 } is a cherrypick
+{ b65e7bba221336cfa582fd739a2bd66b02748fdd -> e07459f2be404142e505d72a4036d0c24a0890cd }
+Partial Cherry-pick commits SHA are -> 
+c2788926fa0757b3529904c625696ff8e0181a41 - cherrypick - e07459f2be404142e505d72a4036d0c24a0890cd
+---> The cherrypicked commit sha is - c2788926fa0757b3529904c625696ff8e0181a41
+Commit message - Structure test files
+
+Move test files in different folders (unit, regression, helpers) and
+change appropriate make and readme entries.
+---> The original commit sha is - e07459f2be404142e505d72a4036d0c24a0890cd
+Commit message - Merge remote-tracking branch 'wolfgang/coverage' into coveraje
+---> The files with partial_cherrypicks are:-
+Makefile
+README.markdown
+tests/core.js
+tests/fixtures/asi.js
+tests/fixtures/backbone.js
+tests/fixtures/boss.js
+tests/fixtures/caseExpressions.js
+tests/fixtures/const.js
+tests/fixtures/curly.js
+tests/fixtures/curly2.js
+tests/fixtures/emptystmt.js
+tests/fixtures/eqeqeq.js
+tests/fixtures/es5.funcexpr.js
+tests/fixtures/forin.js
+tests/fixtures/functionScopedOptions.js
+tests/fixtures/immed.js
+tests/fixtures/indent.js
+tests/fixtures/jquery-1.7.js
+tests/fixtures/jslintOptions.js
+tests/fixtures/lastsemic.js
+tests/fixtures/latedefundef.js
+tests/fixtures/laxbreak.js
+tests/fixtures/loopfunc.js
+tests/fixtures/maxlen.js
+tests/fixtures/missingspaces.js
+tests/fixtures/newcap.js
+tests/fixtures/noarg.js
+tests/fixtures/onevar.js
+tests/fixtures/protoiterator.js
+tests/fixtures/prototype-17.js
+tests/fixtures/redef.js
+tests/fixtures/return.js
+tests/fixtures/scope.js
+tests/fixtures/scripturl.js
+tests/fixtures/smarttabs.js
+tests/fixtures/strict_incorrect.js
+tests/fixtures/strict_this.js
+tests/fixtures/strict_this2.js
+tests/fixtures/strict_violations.js
+tests/fixtures/strings.js
+tests/fixtures/supernew.js
+tests/fixtures/switchFallThrough.js
+tests/fixtures/trycatch.js
+tests/fixtures/undefstrict.js
+tests/fixtures/white.js
+tests/helpers/coveraje.js
+tests/helpers/testhelper.js
+tests/parser.js
+tests/regression/jquery.js
+tests/regression/libs/jquery-1.7.js
+tests/regression/libs/prototype-17.js
+tests/regression/prototype.js
+tests/testhelper
+tests/unit/core.js
+tests/unit/fixtures/asi.js
+tests/unit/fixtures/backbone.js
+tests/unit/fixtures/boss.js
+tests/unit/fixtures/caseExpressions.js
+tests/unit/fixtures/const.js
+tests/unit/fixtures/curly.js
+tests/unit/fixtures/curly2.js
+tests/unit/fixtures/emptystmt.js
+tests/unit/fixtures/eqeqeq.js
+tests/unit/fixtures/es5.funcexpr.js
+tests/unit/fixtures/forin.js
+tests/unit/fixtures/functionScopedOptions.js
+tests/unit/fixtures/immed.js
+tests/unit/fixtures/indent.js
+tests/unit/fixtures/jslintOptions.js
+tests/unit/fixtures/lastsemic.js
+tests/unit/fixtures/latedef.js
+tests/unit/fixtures/latedefundef.js
+tests/unit/fixtures/laxbreak.js
+tests/unit/fixtures/loopfunc.js
+tests/unit/fixtures/maxlen.js
+tests/unit/fixtures/missingspaces.js
+tests/unit/fixtures/newcap.js
+tests/unit/fixtures/noarg.js
+tests/unit/fixtures/onevar.js
+tests/unit/fixtures/protoiterator.js
+tests/unit/fixtures/redef.js
+tests/unit/fixtures/return.js
+tests/unit/fixtures/scope.js
+tests/unit/fixtures/scripturl.js
+tests/unit/fixtures/smarttabs.js
+tests/unit/fixtures/strict_incorrect.js
+tests/unit/fixtures/strict_this.js
+tests/unit/fixtures/strict_this2.js
+tests/unit/fixtures/strict_violations.js
+tests/unit/fixtures/strings.js
+tests/unit/fixtures/supernew.js
+tests/unit/fixtures/switchFallThrough.js
+tests/unit/fixtures/trycatch.js
+tests/unit/fixtures/undefstrict.js
+tests/unit/fixtures/white.js
+tests/unit/parser.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 161 is -> 
+{ 4ba8e8d714bdff5cb37a4050735f2380caab06c7 -> 343cd426c789ed26bba90cfd9f9565306ed0a2c5 } is a cherrypick
+{ 63382c7fcc17d5bfe86441f0ec5d8ef651138eff -> 90771d5ebd52e26de9ca37323731861ffb7daf5c }
+Partial Cherry-pick commits SHA are -> 
+343cd426c789ed26bba90cfd9f9565306ed0a2c5 - cherrypick - 90771d5ebd52e26de9ca37323731861ffb7daf5c
+---> The cherrypicked commit sha is - 343cd426c789ed26bba90cfd9f9565306ed0a2c5
+Commit message - Fix for #383 (option regexdash)
+---> The original commit sha is - 90771d5ebd52e26de9ca37323731861ffb7daf5c
+Commit message - Revert "Merge pull request #382 from fmate14/getset" because tests were breaking.
+
+This reverts commit 63382c7fcc17d5bfe86441f0ec5d8ef651138eff, reversing
+changes made to 5aa015ea8c68e904df674fc49ccb1a9dacf0c5ef.
+---> The files with partial_cherrypicks are:-
+tests/envs.js
+tests/fixtures/es5.getset.js
+tests/fixtures/es5.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 162 is -> 
+{ a994b8e0128ad634d5d612321aced14de19b9ee7 -> 4ba8e8d714bdff5cb37a4050735f2380caab06c7 } is a cherrypick
+{ 5aa015ea8c68e904df674fc49ccb1a9dacf0c5ef -> 63382c7fcc17d5bfe86441f0ec5d8ef651138eff }
+Partial Cherry-pick commits SHA are -> 
+4ba8e8d714bdff5cb37a4050735f2380caab06c7 - cherrypick - 63382c7fcc17d5bfe86441f0ec5d8ef651138eff
+---> The cherrypicked commit sha is - 4ba8e8d714bdff5cb37a4050735f2380caab06c7
+Commit message - Do not allow to duplicate a setter.
+---> The original commit sha is - 63382c7fcc17d5bfe86441f0ec5d8ef651138eff
+Commit message - Merge pull request #382 from fmate14/getset
+
+Do not allow to duplicate a setter.
+---> The files with partial_cherrypicks are:-
+jshint.js
+tests/envs.js
+tests/fixtures/es5.getset.js
+tests/fixtures/es5.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 163 is -> 
+{ 4ba8e8d714bdff5cb37a4050735f2380caab06c7 -> 343cd426c789ed26bba90cfd9f9565306ed0a2c5 } is a cherrypick
+{ f4324ac3be533babcd23ae2f7392daee2016de27 -> 5aa015ea8c68e904df674fc49ccb1a9dacf0c5ef }
+Partial Cherry-pick commits SHA are -> 
+343cd426c789ed26bba90cfd9f9565306ed0a2c5 - cherrypick - 5aa015ea8c68e904df674fc49ccb1a9dacf0c5ef
+---> The cherrypicked commit sha is - 343cd426c789ed26bba90cfd9f9565306ed0a2c5
+Commit message - Fix for #383 (option regexdash)
+---> The original commit sha is - 5aa015ea8c68e904df674fc49ccb1a9dacf0c5ef
+Commit message - Merge pull request #385 from WolfgangKluge/383-regexdash
+
+Fix for #383 (option regexdash)
+---> The files with partial_cherrypicks are:-
+tests/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 164 is -> 
+{ fc83cf97bc6e4166bb2f8dfb8594fba7b245172c -> e2dc30a69e13c15c1112a3393ab0f6a319f1a5d8 } is a cherrypick
+{ 4274cb179ff1b3b211e32b2b5d65437c6240f830 -> c7a2dfa7c16e020358222989da083cf03f0d706d }
+Partial Cherry-pick commits SHA are -> 
+e2dc30a69e13c15c1112a3393ab0f6a319f1a5d8 - cherrypick - c7a2dfa7c16e020358222989da083cf03f0d706d
+---> The cherrypicked commit sha is - e2dc30a69e13c15c1112a3393ab0f6a319f1a5d8
+Commit message - adding 'provides' to 'couch' env
+---> The original commit sha is - c7a2dfa7c16e020358222989da083cf03f0d706d
+Commit message - Merge branch 'master' of github.com:jshint/jshint
+---> The files with partial_cherrypicks are:-
+tests/envs.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 165 is -> 
+{ fc83cf97bc6e4166bb2f8dfb8594fba7b245172c -> e2dc30a69e13c15c1112a3393ab0f6a319f1a5d8 } is a cherrypick
+{ 96ea5c5d910e012ec6071c209135a851ceebec54 -> 508e18aadfa5b165c1259aa9da7b92ab4e540997 }
+Partial Cherry-pick commits SHA are -> 
+e2dc30a69e13c15c1112a3393ab0f6a319f1a5d8 - cherrypick - 508e18aadfa5b165c1259aa9da7b92ab4e540997
+---> The cherrypicked commit sha is - e2dc30a69e13c15c1112a3393ab0f6a319f1a5d8
+Commit message - adding 'provides' to 'couch' env
+---> The original commit sha is - 508e18aadfa5b165c1259aa9da7b92ab4e540997
+Commit message - Merge pull request #378 from dominicbarnes/master
+
+Adding "provides" as a global member of the CouchDB environment
+---> The files with partial_cherrypicks are:-
+tests/envs.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 166 is -> 
+{ 2df6f6a45f1578d5af1e2da913b142b01f41b0cf -> 2375ece58aad9aa8b340073e53894e9b1124b249 } is a cherrypick
+{ 0aa31067e9e7b07fc473cdea2ea923670dec4ec0 -> a05c4dd31e5192c058c45da2ba2a6a84880ccabd }
+Partial Cherry-pick commits SHA are -> 
+2375ece58aad9aa8b340073e53894e9b1124b249 - cherrypick - a05c4dd31e5192c058c45da2ba2a6a84880ccabd
+---> The cherrypicked commit sha is - 2375ece58aad9aa8b340073e53894e9b1124b249
+Commit message - Adds support for `const` to JSHINT
+
+Change-Id: I7e196086b91a63ff1061aacc1aad7ee6ef9406cd
+---> The original commit sha is - a05c4dd31e5192c058c45da2ba2a6a84880ccabd
+Commit message - Merge branch 'master' into goatslacker-const
+---> The files with partial_cherrypicks are:-
+tests/fixtures/const.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 167 is -> 
+{ 7c9aa146ebf77b9d293322f6c7d003d4b6101f43 -> 41da13bfa190a143828cdabd6c9778dafeb8c223 } is a cherrypick
+{ 7923cf0c8dab1f8c9036b1a1757b1fdc7d8292d4 -> 0bd0107aa16911cd93676f85118370422fcbefd0 }
+Partial Cherry-pick commits SHA are -> 
+41da13bfa190a143828cdabd6c9778dafeb8c223 - cherrypick - 0bd0107aa16911cd93676f85118370422fcbefd0
+---> The cherrypicked commit sha is - 41da13bfa190a143828cdabd6c9778dafeb8c223
+Commit message - Ignore newline on parsing return statement
+
+Statements like
+
+    return
+    var x = 2;
+
+currently raises many errors because it's interpreted as
+
+    return var;
+    x = 2
+
+and therefore a valid var statement is missing (which results in "undefined x")
+This commit fixes this.
+---> The original commit sha is - 0bd0107aa16911cd93676f85118370422fcbefd0
+Commit message - Merge pull request #298 from WolfgangKluge/parse-return
+
+Ignore newline on parsing return statement
+---> The files with partial_cherrypicks are:-
+tests/fixtures/asi.js
+tests/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 168 is -> 
+{ 41da13bfa190a143828cdabd6c9778dafeb8c223 -> d96cc9251bbcf37d5ae361c5ba99efc646053d4f } is a cherrypick
+{ 10a5777af766142f360ad978c89e4c7385ca9487 -> 7923cf0c8dab1f8c9036b1a1757b1fdc7d8292d4 }
+Partial Cherry-pick commits SHA are -> 
+d96cc9251bbcf37d5ae361c5ba99efc646053d4f - cherrypick - 7923cf0c8dab1f8c9036b1a1757b1fdc7d8292d4
+---> The cherrypicked commit sha is - d96cc9251bbcf37d5ae361c5ba99efc646053d4f
+Commit message - Fix filter function that detect "unthrown errors"
+---> The original commit sha is - 7923cf0c8dab1f8c9036b1a1757b1fdc7d8292d4
+Commit message - Merge pull request #299 from WolfgangKluge/test-helper-fix
+
+Fix filter function that detect "unthrown errors"
+---> The files with partial_cherrypicks are:-
+tests/testhelper
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 169 is -> 
+{ 6dd6052f291bb09f404839572b3047a457119b57 -> 73552fc01ac39e56464b0e711a048e13c94a31a7 } is a cherrypick
+{ 24cf2de137798edb737bf92d270e238028b0123c -> 5dfca02d52ba6289e547c038eda013cd6aac1f41 }
+Partial Cherry-pick commits SHA are -> 
+73552fc01ac39e56464b0e711a048e13c94a31a7 - cherrypick - 5dfca02d52ba6289e547c038eda013cd6aac1f41
+---> The cherrypicked commit sha is - 73552fc01ac39e56464b0e711a048e13c94a31a7
+Commit message - Merge pull request #230 from facerip/master
+
+Bash wrapper did not allow spaces in paths
+---> The original commit sha is - 5dfca02d52ba6289e547c038eda013cd6aac1f41
+Commit message - Merge pull request #238 from kamibu/master
+
+Added browser-defined tag object types
+---> The files with partial_cherrypicks are:-
+env/jsc.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 170 is -> 
+{ 5d284b02a5ca41ea67e9867ab988001835e95ebf -> 1f2cf9a32f4ab9081b6dd0e03d2072e030dd5643 } is a cherrypick
+{ 2aea9c45c29fb7a75a41be016e6b7a35babd8703 -> a25fe52ec5af6b4446d6aaf14c8f4e9c4efafa54 }
+Partial Cherry-pick commits SHA are -> 
+1f2cf9a32f4ab9081b6dd0e03d2072e030dd5643 - cherrypick - a25fe52ec5af6b4446d6aaf14c8f4e9c4efafa54
+---> The cherrypicked commit sha is - 1f2cf9a32f4ab9081b6dd0e03d2072e030dd5643
+Commit message - added 'lastsemic' option
+
+- allows skipping semicolons in one-line blocks
+---> The original commit sha is - a25fe52ec5af6b4446d6aaf14c8f4e9c4efafa54
+Commit message - Merge pull request #150 from psionides/master
+
+'lastsemic' option to allow skipping semicolons in one-line blocks
+---> The files with partial_cherrypicks are:-
+tests/fixtures/lastsemic.js
+tests/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 171 is -> 
+{ 1f2cf9a32f4ab9081b6dd0e03d2072e030dd5643 -> b30bfa893eee0cb6bf1b4479fbc6314f7e5f0a30 } is a cherrypick
+{ bb94598086df6a102db3f843062f4934bfa1df11 -> 2aea9c45c29fb7a75a41be016e6b7a35babd8703 }
+Partial Cherry-pick commits SHA are -> 
+b30bfa893eee0cb6bf1b4479fbc6314f7e5f0a30 - cherrypick - 2aea9c45c29fb7a75a41be016e6b7a35babd8703
+---> The cherrypicked commit sha is - b30bfa893eee0cb6bf1b4479fbc6314f7e5f0a30
+Commit message - Separate check for trailing whitespace in to its own function, along with tests.
+Added trailing space to whitespace fixture to ensure white: true doesn't complain about it.
+---> The original commit sha is - 2aea9c45c29fb7a75a41be016e6b7a35babd8703
+Commit message - Merge pull request #147 from fgnass/patch-1
+
+globalstrict should not assume strict
+---> The files with partial_cherrypicks are:-
+tests/fixtures/white.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 172 is -> 
+{ e62afedc09798abb328cb958fed1d46de7571f3f -> 707d5a578e9e58b0bcf9379c29bd0ed2d96dbd4b } is a cherrypick
+{ 3d3f5151e83a3cd735fbc54e9b8e0a8176315da0 -> bb0d916f42b74cf280209b23c2fc324daf7d32be }
+Partial Cherry-pick commits SHA are -> 
+707d5a578e9e58b0bcf9379c29bd0ed2d96dbd4b - cherrypick - bb0d916f42b74cf280209b23c2fc324daf7d32be
+---> The cherrypicked commit sha is - 707d5a578e9e58b0bcf9379c29bd0ed2d96dbd4b
+Commit message - Ported tests for option undef
+---> The original commit sha is - bb0d916f42b74cf280209b23c2fc324daf7d32be
+Commit message - Test case for option strict
+---> The files with partial_cherrypicks are:-
+tests/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 173 is -> 
+{ 9027ec6243da0d0d30d0f613b33ba08150e99513 -> c6b0b05f21b95c60c77c4eccda0236e5de4a853f } is a cherrypick
+{ ade6211c9b880da3013b8ec48fbbb79958bf8c28 -> 44861c0ca6c485b5bd9466d99136372799317be3 }
+Partial Cherry-pick commits SHA are -> 
+c6b0b05f21b95c60c77c4eccda0236e5de4a853f - cherrypick - 44861c0ca6c485b5bd9466d99136372799317be3
+---> The cherrypicked commit sha is - c6b0b05f21b95c60c77c4eccda0236e5de4a853f
+Commit message - Ported tests for option
+---> The original commit sha is - 44861c0ca6c485b5bd9466d99136372799317be3
+Commit message - Test case for option plusplus
+---> The files with partial_cherrypicks are:-
+tests/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 174 is -> 
+{ e62afedc09798abb328cb958fed1d46de7571f3f -> 707d5a578e9e58b0bcf9379c29bd0ed2d96dbd4b } is a cherrypick
+{ 089d22641f55cf252d1087d01cb7d2356707f8cf -> f45642f19f86ce2f8bd3d48204004774122b45a1 }
+Partial Cherry-pick commits SHA are -> 
+707d5a578e9e58b0bcf9379c29bd0ed2d96dbd4b - cherrypick - f45642f19f86ce2f8bd3d48204004774122b45a1
+---> The cherrypicked commit sha is - 707d5a578e9e58b0bcf9379c29bd0ed2d96dbd4b
+Commit message - Ported tests for option undef
+---> The original commit sha is - f45642f19f86ce2f8bd3d48204004774122b45a1
+Commit message - Test case for option passfail
+---> The files with partial_cherrypicks are:-
+tests/options.js
+-----------------------------------------------------------------
+

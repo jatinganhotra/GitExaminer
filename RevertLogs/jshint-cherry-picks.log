@@ -1,0 +1,610 @@
+# of cherry-picks = 43
+Cherry-pick diff pair 1 is -> 
+{ d0b3cfd935c9445f14b37ea9694d8a172a52739a -> 5b3a280dd5c5096d90a5da0c70a7ddc449142182 } is a cherrypick
+{ a71e04c97a1f5edf27ffdde9d2262d22165970d0 -> 8747c2a5062bde3859252bdd8da0db827eb9e756 }
+Cherrypick commits SHA are -> 
+5b3a280dd5c5096d90a5da0c70a7ddc449142182 - cherrypick - 8747c2a5062bde3859252bdd8da0db827eb9e756
+---> The cherrypicked commit sha is - 5b3a280dd5c5096d90a5da0c70a7ddc449142182
+Commit message - Intl global in ECMAScript Internationalization API 1.0 (ECMA-402)
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl
+---> The original commit sha is - 8747c2a5062bde3859252bdd8da0db827eb9e756
+Commit message - Merge branch 'patch-1' of https://github.com/turadg/jshint into turadg-patch-1
+
+* 'patch-1' of https://github.com/turadg/jshint:
+  Intl global in ECMAScript Internationalization API 1.0 (ECMA-402)
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ 3a71ce850c57be8c03599462f42245708387a5f6 -> bc2fdb7e1d09f2b76b73cff9fcf3441b8d72c576 } is a cherrypick
+{ 5c9556d2938289982a09005c225bf892de8923df -> a71e04c97a1f5edf27ffdde9d2262d22165970d0 }
+Cherrypick commits SHA are -> 
+bc2fdb7e1d09f2b76b73cff9fcf3441b8d72c576 - cherrypick - a71e04c97a1f5edf27ffdde9d2262d22165970d0
+---> The cherrypicked commit sha is - bc2fdb7e1d09f2b76b73cff9fcf3441b8d72c576
+Commit message - Fix bug in "ignore" option behavior
+
+Ensure source code between JSHint "ignore" directives even in the
+following cases:
+
+- the line ends in a character sequence that superficially appears to
+  be an "end multiline comment" token
+- the line ends with a comment that is defined with the multiline
+  comment tokens but only spans a single line
+
+Resolves GH-1396
+Resolves GH-1691
+---> The original commit sha is - a71e04c97a1f5edf27ffdde9d2262d22165970d0
+Commit message - Merge branch 'gh-1691-fix-ignore' of https://github.com/jugglinmike/jshint
+
+* 'gh-1691-fix-ignore' of https://github.com/jugglinmike/jshint:
+  Fix bug in "ignore" option behavior
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ b5dd259283f8dad4eb8fbad4ef3f22756cc57e40 -> 97a81d499004ed09d8f50a2e204472133f6957d4 } is a cherrypick
+{ 754b2b80403ef7a56fdb2bdf44c71a4c4199e8e9 -> 445d657d0221ec150632a7edaa97a2c29cf94e60 }
+Cherrypick commits SHA are -> 
+97a81d499004ed09d8f50a2e204472133f6957d4 - cherrypick - 445d657d0221ec150632a7edaa97a2c29cf94e60
+---> The cherrypicked commit sha is - 97a81d499004ed09d8f50a2e204472133f6957d4
+Commit message - Parse/lint NameSpaceImport module declaration.
+
+Closes gh-1936
+---> The original commit sha is - 445d657d0221ec150632a7edaa97a2c29cf94e60
+Commit message - Merge pull request #1945 from caitp/issue-1936
+
+Parse/lint NameSpaceImport module declaration.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ 199606ba6f48fa1a93b3ee7f312221d5c9e948aa -> b8593c5fece777f4bffa745d6dfd908f30142870 } is a cherrypick
+{ a7df1e32633408b01d5afcf44f4112fd32771187 -> 7a468ef68c69915959c123b8aad9d6874a4c1a30 }
+Cherrypick commits SHA are -> 
+b8593c5fece777f4bffa745d6dfd908f30142870 - cherrypick - 7a468ef68c69915959c123b8aad9d6874a4c1a30
+---> The cherrypicked commit sha is - b8593c5fece777f4bffa745d6dfd908f30142870
+Commit message - Fix ASI rules for directives. Fixes gh-1906
+---> The original commit sha is - 7a468ef68c69915959c123b8aad9d6874a4c1a30
+Commit message - Merge pull request #1912 from caitp/issue-1906
+
+Fix ASI rules for directives. Fixes gh-1906
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ cf0f2702f9eec54b42c2814dec738b319bf23d1a -> adf98fdf377bd8d0587f95b615f55f04945bbb35 } is a cherrypick
+{ cd73e2299cc56388f0d6e75e2117fd9f4d6cf10d -> 63b2b67bb974d37f35ad3590d324dcd7708bd656 }
+Cherrypick commits SHA are -> 
+adf98fdf377bd8d0587f95b615f55f04945bbb35 - cherrypick - 63b2b67bb974d37f35ad3590d324dcd7708bd656
+---> The cherrypicked commit sha is - adf98fdf377bd8d0587f95b615f55f04945bbb35
+Commit message - Relax restriction on parens around function exprs
+
+Parenthesis are required to dereference anonymous function expressions
+with bracket notation.
+---> The original commit sha is - 63b2b67bb974d37f35ad3590d324dcd7708bd656
+Commit message - Merge pull request #1898 from jugglinmike/allow-immed-with-brackets
+
+Relax restriction on parens around function exprs
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ bc6e97ebc3baff09eda34a3f4bd0ed86ccf84dbd -> 2876eed48894098a8414e609801965c2f906fbb3 } is a cherrypick
+{ 3a514ade96dac479ede19e0321d8a25ae3bafa39 -> cfbc819e407d6624440f6886c01847091d04ea6a }
+Cherrypick commits SHA are -> 
+2876eed48894098a8414e609801965c2f906fbb3 - cherrypick - cfbc819e407d6624440f6886c01847091d04ea6a
+---> The cherrypicked commit sha is - 2876eed48894098a8414e609801965c2f906fbb3
+Commit message - Add missing config options
+---> The original commit sha is - cfbc819e407d6624440f6886c01847091d04ea6a
+Commit message - Merge pull request #1833 from baer/add-missing-defaults-to-jshintrc-example
+
+Add missing config options
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ c14094a7a46ad459d7b771be5a3f9697e2d0ba18 -> 64417517101399c03d78173a2c90e3f24e81de58 } is a cherrypick
+{ 7b1e1aa15bf9f6b61eeae634970ed8aebaf9e3a4 -> e99e69c504e22a34840c916ce8dd45f9391a50e7 }
+Cherrypick commits SHA are -> 
+64417517101399c03d78173a2c90e3f24e81de58 - cherrypick - e99e69c504e22a34840c916ce8dd45f9391a50e7
+---> The cherrypicked commit sha is - 64417517101399c03d78173a2c90e3f24e81de58
+Commit message - Config: Prioritize userprofile for HOME search.
+In Windows, it turns out if the current user is
+not the default user, `environment.HOME`
+returns drive root instead of the user-profile
+directory.
+
+This PR change the priority. This change will
+not break the current usage / implementations.
+---> The original commit sha is - e99e69c504e22a34840c916ce8dd45f9391a50e7
+Commit message - Merge pull request #1772 from am11/home-dir
+
+Config: Prioritize userprofile for HOME search
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ 681b406918e96044be3375e389ddbe931740a804 -> 65c3f169db9c11d2c0c9ec1a52531c6ce7cc60c3 } is a cherrypick
+{ f83670dc8cd4d5418d15d6a3ea09ebe5eb1f0d01 -> c14094a7a46ad459d7b771be5a3f9697e2d0ba18 }
+Cherrypick commits SHA are -> 
+65c3f169db9c11d2c0c9ec1a52531c6ce7cc60c3 - cherrypick - c14094a7a46ad459d7b771be5a3f9697e2d0ba18
+---> The cherrypicked commit sha is - 65c3f169db9c11d2c0c9ec1a52531c6ce7cc60c3
+Commit message - Remove unmatched quotation mark
+---> The original commit sha is - c14094a7a46ad459d7b771be5a3f9697e2d0ba18
+Commit message - Merge pull request #1759 from ChuntaoLu/patch-1
+
+Remove unmatched quotation mark
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ baa06551d564a8ede15d049254011c95331c1b5a -> be5c5c73576551490d787aea730baf35a0a96c60 } is a cherrypick
+{ 31c9bd57cd39258f7f7df4e46d5305bc8003e64a -> 0e601efd82de30f9fbaa3494a2738591c6d7925e }
+Cherrypick commits SHA are -> 
+be5c5c73576551490d787aea730baf35a0a96c60 - cherrypick - 0e601efd82de30f9fbaa3494a2738591c6d7925e
+---> The cherrypicked commit sha is - be5c5c73576551490d787aea730baf35a0a96c60
+Commit message - Support ES6 `export * from ...` syntax
+
+Closes #1717
+---> The original commit sha is - 0e601efd82de30f9fbaa3494a2738591c6d7925e
+Commit message - Merge pull request #1718 from caitp/issue-1717
+
+Support ES6 `export * from ...` syntax
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ 441855aee003d3a6b009ce16741dd7a5cfc38f78 -> 931971c5d4e664d742d1b8ae9806d666a9bd2e05 } is a cherrypick
+{ c108b3176f7e51c2bee1ef653eda524501c6eb4e -> 9d29cea4e624ab802808c9af9ce173a8a427e367 }
+Cherrypick commits SHA are -> 
+931971c5d4e664d742d1b8ae9806d666a9bd2e05 - cherrypick - 9d29cea4e624ab802808c9af9ce173a8a427e367
+---> The cherrypicked commit sha is - 931971c5d4e664d742d1b8ae9806d666a9bd2e05
+Commit message - Config: Discoverability from other drives (#1574)
+---> The original commit sha is - 9d29cea4e624ab802808c9af9ce173a8a427e367
+Commit message - Merge pull request #1642 from am11/2.x
+
+Config: Discoverability from other drives (#1574)
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ 8efbb54ca8882ef82fa62003bce1e7750acd8f65 -> 98f2cc706d4278cd67bfcd0437be5c3e96404e54 } is a cherrypick
+{ ed8307e0e213e03c471d2eb3d9b0475ad6389cb9 -> c108b3176f7e51c2bee1ef653eda524501c6eb4e }
+Cherrypick commits SHA are -> 
+98f2cc706d4278cd67bfcd0437be5c3e96404e54 - cherrypick - c108b3176f7e51c2bee1ef653eda524501c6eb4e
+---> The cherrypicked commit sha is - 98f2cc706d4278cd67bfcd0437be5c3e96404e54
+Commit message - Adding `dist` to `files` in package.json
+---> The original commit sha is - c108b3176f7e51c2bee1ef653eda524501c6eb4e
+Commit message - Merge pull request #1629 from bollwyvl/patch-1
+
+Adding `dist` to `files` in package.json
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ d3aa252f8f7f1a1ae5d83e0f519910003d819f5b -> f05e2c66286ede52695ad7fcd567021f5223a909 } is a cherrypick
+{ 34e81f08171f8295ffc13efe052e3f8788213fd9 -> 81df14b814446f0df1aa8b4d03555aa77f3fa3a6 }
+Cherrypick commits SHA are -> 
+f05e2c66286ede52695ad7fcd567021f5223a909 - cherrypick - 81df14b814446f0df1aa8b4d03555aa77f3fa3a6
+---> The cherrypicked commit sha is - f05e2c66286ede52695ad7fcd567021f5223a909
+Commit message - Add QUnit predefined globals.
+---> The original commit sha is - 81df14b814446f0df1aa8b4d03555aa77f3fa3a6
+Commit message - Merge pull request #1616 from XhmikosR/qunit
+
+Add QUnit predefined globals.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ 693dd40a25165a596f79bcec187b40c6a2beaa0b -> 85795c258c292ec88b4be4202df0d220ccd52756 } is a cherrypick
+{ 6d11704128ffe7c58badaf2a2d81f44b924705ba -> e3aa71840be46fa4b2ed4505dd097d042b4c9957 }
+Cherrypick commits SHA are -> 
+85795c258c292ec88b4be4202df0d220ccd52756 - cherrypick - e3aa71840be46fa4b2ed4505dd097d042b4c9957
+---> The cherrypicked commit sha is - 85795c258c292ec88b4be4202df0d220ccd52756
+Commit message - Don't throw an error when yield statement used within a catch block inside a generator function.
+
+See jshint/jshint#1505
+---> The original commit sha is - e3aa71840be46fa4b2ed4505dd097d042b4c9957
+Commit message - Merge pull request #1543 from hiddentao/yield_catch
+
+Don't throw an error when yield statement used within a catch block inside a generator function
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 14 is -> 
+{ 56d10bf0bb2365347a0a183922cea5d8c0def977 -> 050cf19f1f6b8b7f9247ecf2905306603c30370c } is a cherrypick
+{ f1c04738ff30855a33a9b3e7378dd8891f72e72a -> a3fa99c9f6eec9c46c4c8c2d4b60e57627e01e29 }
+Cherrypick commits SHA are -> 
+050cf19f1f6b8b7f9247ecf2905306603c30370c - cherrypick - a3fa99c9f6eec9c46c4c8c2d4b60e57627e01e29
+---> The cherrypicked commit sha is - 050cf19f1f6b8b7f9247ecf2905306603c30370c
+Commit message - Merge pull request #1088 from jklein/master
+
+Updating Checkstyle reporter to provide error codes
+---> The original commit sha is - a3fa99c9f6eec9c46c4c8c2d4b60e57627e01e29
+Commit message - Merge branch 'master' of github.com:jshint/jshint
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 15 is -> 
+{ 5ada33fc4a7df2715fbfdb700ad187cdc36a23f7 -> ac3f923b66fd1cf02fb2a6df4ff629b5d4428f2f } is a cherrypick
+{ af803d4ea0f99008606786a3861636defdaed794 -> 6b6a6931b8119b4fbe622c1020e692d6c3049953 }
+Cherrypick commits SHA are -> 
+ac3f923b66fd1cf02fb2a6df4ff629b5d4428f2f - cherrypick - 6b6a6931b8119b4fbe622c1020e692d6c3049953
+---> The cherrypicked commit sha is - ac3f923b66fd1cf02fb2a6df4ff629b5d4428f2f
+Commit message - Add `npm run-script build`
+---> The original commit sha is - 6b6a6931b8119b4fbe622c1020e692d6c3049953
+Commit message - Merge pull request #997 from ljharb/add_npm_build
+
+Add `npm run-script build`
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 16 is -> 
+{ 3784e71948dba3394fec8408f1a0f009b8afaa52 -> f081218d46133ddd8f35ee2663aa601d6fbe1458 } is a cherrypick
+{ 53b772154bff25d1d2acaf8ad991c516f49496de -> 575810804e10a3115e1c1669dad7357fcdf9c848 }
+Cherrypick commits SHA are -> 
+f081218d46133ddd8f35ee2663aa601d6fbe1458 - cherrypick - 575810804e10a3115e1c1669dad7357fcdf9c848
+---> The cherrypicked commit sha is - f081218d46133ddd8f35ee2663aa601d6fbe1458
+Commit message - Fixed accessing left.immed without check if left is object
+---> The original commit sha is - 575810804e10a3115e1c1669dad7357fcdf9c848
+Commit message - Merge pull request #874 from ypresto/fix_missing_undefined_check_on_immed
+
+Fix for trivial, referencing undefined object error
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 17 is -> 
+{ 6b616455db1895bb3e6374b56894018aa5c1f7cd -> b189b1b0c98941fdd4a7feb135a881a14c563f38 } is a cherrypick
+{ 3e8518c96981ec724a422a4d6b8dd359d82fef34 -> 227fb0a4ac037a0931eaa53728eeb7b39a3b0a92 }
+Cherrypick commits SHA are -> 
+b189b1b0c98941fdd4a7feb135a881a14c563f38 - cherrypick - 227fb0a4ac037a0931eaa53728eeb7b39a3b0a92
+---> The cherrypicked commit sha is - b189b1b0c98941fdd4a7feb135a881a14c563f38
+Commit message - Update cli.js
+
+Fix for issue #934 - Process.env.HOME is not cross-platform compatible, Windows equivalent of this is process.env.HOMEPATH.
+---> The original commit sha is - 227fb0a4ac037a0931eaa53728eeb7b39a3b0a92
+Commit message - Merge pull request #956 from jefft666/patch-1
+
+Update cli.js
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 18 is -> 
+{ fcd02c86686f0e0c7537176701db75269deda75e -> e9104bb6257fe4610ee0c78672151a4b4c876f6d } is a cherrypick
+{ 27a955a3f988065487612b83e1604b19d38fda64 -> 84aae8847bceda84f802a02a4c8948cd14638d28 }
+Cherrypick commits SHA are -> 
+e9104bb6257fe4610ee0c78672151a4b4c876f6d - cherrypick - 84aae8847bceda84f802a02a4c8948cd14638d28
+---> The cherrypicked commit sha is - e9104bb6257fe4610ee0c78672151a4b4c876f6d
+Commit message - added yield support
+---> The original commit sha is - 84aae8847bceda84f802a02a4c8948cd14638d28
+Commit message - Merge branch 'yield_support'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 19 is -> 
+{ 2e3101e4bad50169b82a6e73741e16ee3d9a2f66 -> 49f76aaebfb9eea057f4ec01078836a98017525a } is a cherrypick
+{ ae58db3438e37b1f48c6852b4907126ca3833695 -> 5eaff78a128748e52a5c4cddbceb2b61cece0fa3 }
+Cherrypick commits SHA are -> 
+49f76aaebfb9eea057f4ec01078836a98017525a - cherrypick - 5eaff78a128748e52a5c4cddbceb2b61cece0fa3
+---> The cherrypicked commit sha is - 49f76aaebfb9eea057f4ec01078836a98017525a
+Commit message - added tests for let statement support
+---> The original commit sha is - 5eaff78a128748e52a5c4cddbceb2b61cece0fa3
+Commit message - added tests for let statement support
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 20 is -> 
+{ 256315ca0118ffe84298ff72ddf81061b2c7fb8b -> 2e3101e4bad50169b82a6e73741e16ee3d9a2f66 } is a cherrypick
+{ b923f9daf1e929e4f0d7ae110da4135cbfeaafdc -> ae58db3438e37b1f48c6852b4907126ca3833695 }
+Cherrypick commits SHA are -> 
+2e3101e4bad50169b82a6e73741e16ee3d9a2f66 - cherrypick - ae58db3438e37b1f48c6852b4907126ca3833695
+---> The cherrypicked commit sha is - 2e3101e4bad50169b82a6e73741e16ee3d9a2f66
+Commit message - added block of statements support without prefix token, cf #883
+---> The original commit sha is - ae58db3438e37b1f48c6852b4907126ca3833695
+Commit message - added block of statements support without prefix token, cf #883
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 21 is -> 
+{ ca7c2278c199bf540ceae72a9ed204ef5279af39 -> 256315ca0118ffe84298ff72ddf81061b2c7fb8b } is a cherrypick
+{ 0d97abf63761c84142e3b820050c1d1e9cbdbe90 -> b923f9daf1e929e4f0d7ae110da4135cbfeaafdc }
+Cherrypick commits SHA are -> 
+256315ca0118ffe84298ff72ddf81061b2c7fb8b - cherrypick - b923f9daf1e929e4f0d7ae110da4135cbfeaafdc
+---> The cherrypicked commit sha is - 256315ca0118ffe84298ff72ddf81061b2c7fb8b
+Commit message - refactored block scope handling, cf #883
+---> The original commit sha is - b923f9daf1e929e4f0d7ae110da4135cbfeaafdc
+Commit message - refactored block scope handling, cf #883
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 22 is -> 
+{ 87eea9fa35dc6dfa53a18aa53b2d4bef3f32400c -> ca7c2278c199bf540ceae72a9ed204ef5279af39 } is a cherrypick
+{ 9ac059277dd7c6307b15e3d6847ac1565ad24572 -> 0d97abf63761c84142e3b820050c1d1e9cbdbe90 }
+Cherrypick commits SHA are -> 
+ca7c2278c199bf540ceae72a9ed204ef5279af39 - cherrypick - 0d97abf63761c84142e3b820050c1d1e9cbdbe90
+---> The cherrypicked commit sha is - ca7c2278c199bf540ceae72a9ed204ef5279af39
+Commit message - minor cosmetic changes
+---> The original commit sha is - 0d97abf63761c84142e3b820050c1d1e9cbdbe90
+Commit message - minor cosmetic changes
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 23 is -> 
+{ e20ce2329424fdceade9453d60184d6125d3635d -> 87eea9fa35dc6dfa53a18aa53b2d4bef3f32400c } is a cherrypick
+{ 0fcf774b86f5df322c85660d78be8bfe7a0dedea -> 9ac059277dd7c6307b15e3d6847ac1565ad24572 }
+Cherrypick commits SHA are -> 
+87eea9fa35dc6dfa53a18aa53b2d4bef3f32400c - cherrypick - 9ac059277dd7c6307b15e3d6847ac1565ad24572
+---> The cherrypicked commit sha is - 87eea9fa35dc6dfa53a18aa53b2d4bef3f32400c
+Commit message - Added real block scoping support for let statements, cf #883
+---> The original commit sha is - 9ac059277dd7c6307b15e3d6847ac1565ad24572
+Commit message - Added real block scoping support for let statements, cf #883
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 24 is -> 
+{ 12a23fc11a162c339a09ad561efdef10047e8192 -> 1cca4c2848fb9745fd333819d57b844bb8145d97 } is a cherrypick
+{ c06a515a3c71dba8334a7bbb4132713e6f35e9d3 -> bb4e2a54d183296d8b306c8b7ad68787babfa750 }
+Cherrypick commits SHA are -> 
+1cca4c2848fb9745fd333819d57b844bb8145d97 - cherrypick - bb4e2a54d183296d8b306c8b7ad68787babfa750
+---> The cherrypicked commit sha is - 1cca4c2848fb9745fd333819d57b844bb8145d97
+Commit message - Expand on the configurability of "unused"
+
+This allows users to control what level of check to do for unused variables.  The options are:
+* false: No checking is done
+* true: "vars" + last function param only
+* "vars": Variables and functions are checked, but not function params
+* "strict": "vars" + function params
+
+Example:
+
+    function foo(a, b) {
+		return b;
+	}
+
+If 'unused' === true, no warnings will be thrown, since 'b' is used.
+
+If 'unused' === 'strict', then a warning will be thrown, since 'a' is not used.
+
+References:
+* Makes GH-607 the default, but optional, rather than mandatory
+* Closes GH-778
+---> The original commit sha is - bb4e2a54d183296d8b306c8b7ad68787babfa750
+Commit message - Merge branch 'master' of git://github.com/mbulman/jshint into mbulman-master
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 25 is -> 
+{ 6679b68d2047031c6cb025993def1e4169a89f1f -> aaaef10eb299498e0ce2cb06135f3f54d917d6a6 } is a cherrypick
+{ 2fafa9248f317c17217fc0efda301cb413fe3556 -> 12a23fc11a162c339a09ad561efdef10047e8192 }
+Cherrypick commits SHA are -> 
+aaaef10eb299498e0ce2cb06135f3f54d917d6a6 - cherrypick - 12a23fc11a162c339a09ad561efdef10047e8192
+---> The cherrypicked commit sha is - aaaef10eb299498e0ce2cb06135f3f54d917d6a6
+Commit message - Add Travis build status image
+---> The original commit sha is - 12a23fc11a162c339a09ad561efdef10047e8192
+Commit message - Merge pull request #888 from nschonni/patch-1
+
+Add Travis build status image
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 26 is -> 
+{ 5bf69ebacd700900a97b795b29df4fe961e1b361 -> 93d71b0410ab76700e7b469f67cddf72a8de99e1 } is a cherrypick
+{ 7b0b0f39028d0abb7b4b1ec271d83424b651d1eb -> ba50ac8c0e577c93cc17bc9a80ee8c29c3c28dea }
+Cherrypick commits SHA are -> 
+93d71b0410ab76700e7b469f67cddf72a8de99e1 - cherrypick - ba50ac8c0e577c93cc17bc9a80ee8c29c3c28dea
+---> The cherrypicked commit sha is - 93d71b0410ab76700e7b469f67cddf72a8de99e1
+Commit message - added destructuring expression tests
+---> The original commit sha is - ba50ac8c0e577c93cc17bc9a80ee8c29c3c28dea
+Commit message - added destructuring expression tests
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 27 is -> 
+{ 35783564c66d38dd69c2f3aabbf91448b5e3be27 -> 5bf69ebacd700900a97b795b29df4fe961e1b361 } is a cherrypick
+{ 18f4d6553366b370ce04597365d244612f1b1485 -> 7b0b0f39028d0abb7b4b1ec271d83424b651d1eb }
+Cherrypick commits SHA are -> 
+5bf69ebacd700900a97b795b29df4fe961e1b361 - cherrypick - 7b0b0f39028d0abb7b4b1ec271d83424b651d1eb
+---> The cherrypicked commit sha is - 5bf69ebacd700900a97b795b29df4fe961e1b361
+Commit message - minor refactoring for JSON parsing
+---> The original commit sha is - 7b0b0f39028d0abb7b4b1ec271d83424b651d1eb
+Commit message - minor refactoring for JSON parsing
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 28 is -> 
+{ 0d4775a428f3c3d06ea1ced13d816e6464da11e2 -> 35783564c66d38dd69c2f3aabbf91448b5e3be27 } is a cherrypick
+{ 46265dc28fd148d7d67593b4f8ae8c760e20b6ef -> 18f4d6553366b370ce04597365d244612f1b1485 }
+Cherrypick commits SHA are -> 
+35783564c66d38dd69c2f3aabbf91448b5e3be27 - cherrypick - 18f4d6553366b370ce04597365d244612f1b1485
+---> The cherrypicked commit sha is - 35783564c66d38dd69c2f3aabbf91448b5e3be27
+Commit message - fixed the use of extracted identifiers to match/support destructuring arrays with empty values.
+---> The original commit sha is - 18f4d6553366b370ce04597365d244612f1b1485
+Commit message - fixed the use of extracted identifiers to match/support destructuring arrays with empty values.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 29 is -> 
+{ ce7da77f81412c13aea19e857bc6fdf9069804d5 -> 71dcf8db53e76364467410f9aacf2805195a2516 } is a cherrypick
+{ d6d0c4e81ed72fd1c1b7754e4d9e2bcc7932fb12 -> ea235eec09ebee8289a7139b88e10bcd52aead53 }
+Cherrypick commits SHA are -> 
+71dcf8db53e76364467410f9aacf2805195a2516 - cherrypick - ea235eec09ebee8289a7139b88e10bcd52aead53
+---> The cherrypicked commit sha is - 71dcf8db53e76364467410f9aacf2805195a2516
+Commit message - Merge pull request #882 from dominicbarnes/complete-config
+
+Complete Sample .jshintrc
+---> The original commit sha is - ea235eec09ebee8289a7139b88e10bcd52aead53
+Commit message - Merge branch 'master' of github.com:jshint/jshint
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 30 is -> 
+{ 42ace75af50335e83e7ea8ab5d50b470489051e0 -> 9c884342beebb1300ecc0de94b36379d2399c4e3 } is a cherrypick
+{ 59c566ef5020839ed19f92e9bcfc3bd34e4c3da6 -> 2df672e75353e6777c4f6c4bec07ada61b8a7dff }
+Cherrypick commits SHA are -> 
+9c884342beebb1300ecc0de94b36379d2399c4e3 - cherrypick - 2df672e75353e6777c4f6c4bec07ada61b8a7dff
+---> The cherrypicked commit sha is - 9c884342beebb1300ecc0de94b36379d2399c4e3
+Commit message - Don't skip directories when searching for .jshintrc.
+
+Instead of moving on to the parent directory when a .jshintrc
+file was not found, the cli script was checking the
+'grandparent' directory. A test was added to demonstrate the
+issue / prevent regressions.
+
+References:
+    Fixes GH-850
+---> The original commit sha is - 2df672e75353e6777c4f6c4bec07ada61b8a7dff
+Commit message - Merge pull request #855 from mcheely/jshint-tweaks
+
+Don't skip directories when searching for .jshintrc.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 31 is -> 
+{ c8f0ccfd40f6fa52a8860b36bfcf1621341fd385 -> 69989d65ba0efd23a85d634f44e30b6bbc469345 } is a cherrypick
+{ 4501a647d581d4fbb2206565dff41ef61e0be68f -> 9c4639cb8e308dd9be29cdb25d72c4e359df0803 }
+Cherrypick commits SHA are -> 
+69989d65ba0efd23a85d634f44e30b6bbc469345 - cherrypick - 9c4639cb8e308dd9be29cdb25d72c4e359df0803
+---> The cherrypicked commit sha is - 69989d65ba0efd23a85d634f44e30b6bbc469345
+Commit message - Merge pull request #746 from Pennine-View-Harrogate/wsh-unused-bug
+
+Respect the unused option when outputting.
+---> The original commit sha is - 9c4639cb8e308dd9be29cdb25d72c4e359df0803
+Commit message - Merge branch 'master' of github.com:jshint/jshint
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 32 is -> 
+{ 3dc83467e7573621803f731362a6bf80e4c28fe0 -> 88869de18ed2389ce3bd75724e3feb20dc03dcd2 } is a cherrypick
+{ 861d5124e42dc2eb591dfcf00acd484fec127fae -> abda02c2bfd41e0a966d4ad4ccc6754378a74519 }
+Cherrypick commits SHA are -> 
+88869de18ed2389ce3bd75724e3feb20dc03dcd2 - cherrypick - abda02c2bfd41e0a966d4ad4ccc6754378a74519
+---> The cherrypicked commit sha is - 88869de18ed2389ce3bd75724e3feb20dc03dcd2
+Commit message - Added braces to the if conditions at line 4555. Every if statement must have braces. 
+---> The original commit sha is - abda02c2bfd41e0a966d4ad4ccc6754378a74519
+Commit message - Merge pull request #577 from akshar100/patch-1
+
+Added braces to the if conditions at line 4555
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 33 is -> 
+{ 96ea5c5d910e012ec6071c209135a851ceebec54 -> 508e18aadfa5b165c1259aa9da7b92ab4e540997 } is a cherrypick
+{ 4274cb179ff1b3b211e32b2b5d65437c6240f830 -> c7a2dfa7c16e020358222989da083cf03f0d706d }
+Cherrypick commits SHA are -> 
+508e18aadfa5b165c1259aa9da7b92ab4e540997 - cherrypick - c7a2dfa7c16e020358222989da083cf03f0d706d
+---> The cherrypicked commit sha is - 508e18aadfa5b165c1259aa9da7b92ab4e540997
+Commit message - Merge pull request #378 from dominicbarnes/master
+
+Adding "provides" as a global member of the CouchDB environment
+---> The original commit sha is - c7a2dfa7c16e020358222989da083cf03f0d706d
+Commit message - Merge branch 'master' of github.com:jshint/jshint
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 34 is -> 
+{ 533e4b4c086a6b927049d4be17398288a534e6e7 -> 55099657fa848ff6a91f035df39a463da09e2e8c } is a cherrypick
+{ 4278a6c0b537f879ecbfa25486041a5cbbdd5d4f -> 3c37587bda31d97f5ab48a2c872956cf2df316ca }
+Cherrypick commits SHA are -> 
+55099657fa848ff6a91f035df39a463da09e2e8c - cherrypick - 3c37587bda31d97f5ab48a2c872956cf2df316ca
+---> The cherrypicked commit sha is - 55099657fa848ff6a91f035df39a463da09e2e8c
+Commit message - Allow multiple filenames to be passed in to Rhino CLI
+---> The original commit sha is - 3c37587bda31d97f5ab48a2c872956cf2df316ca
+Commit message - Merge pull request #313 from nzakas/master
+
+Allow multiple filenames to be passed to Rhino CLI
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 35 is -> 
+{ ed2ee322e8b7a0c539b3b7b87d6a1429548e4042 -> a68007229f0de2f30c2ee135b07bb7f539add8a0 } is a cherrypick
+{ 76ade0f7e06a6f2bf7c91d197eed67dfeb8cef31 -> 54b231808d6add24b2923a869ff8ee994455d181 }
+Cherrypick commits SHA are -> 
+a68007229f0de2f30c2ee135b07bb7f539add8a0 - cherrypick - 54b231808d6add24b2923a869ff8ee994455d181
+---> The cherrypicked commit sha is - a68007229f0de2f30c2ee135b07bb7f539add8a0
+Commit message - Output filename on error and use stricter self-tests
+
+Update tests and according files to pass all tests with option
+
+    bitwise
+    eqeqeqe
+    forin
+    immed
+    latedef,
+    newcap (partially)
+    noarg
+    noempty
+    nonew
+    plusplus
+    regexp
+    undef
+    strict (partially)
+    trailing
+    white
+on.
+---> The original commit sha is - 54b231808d6add24b2923a869ff8ee994455d181
+Commit message - Merge pull request #304 from WolfgangKluge/self-test
+
+Output filename on error and use stricter self-tests
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 36 is -> 
+{ 92ee83c049c1ddd997ece96989ab26aebf43c458 -> f6af9eca4de5d507c6656277e705039abf7e8352 } is a cherrypick
+{ 05693970fdf491fda0bc832d117af34c7b24d1a8 -> 091bcb72cb8b3ac51df2f60d5a82d11bb871fdea }
+Cherrypick commits SHA are -> 
+f6af9eca4de5d507c6656277e705039abf7e8352 - cherrypick - 091bcb72cb8b3ac51df2f60d5a82d11bb871fdea
+---> The cherrypicked commit sha is - f6af9eca4de5d507c6656277e705039abf7e8352
+Commit message - Add XDomainRequest variable to Windows Script Host Option
+---> The original commit sha is - 091bcb72cb8b3ac51df2f60d5a82d11bb871fdea
+Commit message - Merge pull request #264 from yhwh/wsh
+
+Add XDomainRequest variable to Windows Script Host Option
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 37 is -> 
+{ 0215828c8250233d8e056e207dc914204c0b77e9 -> c0460e919e2b73fb418f63e915d3027992dd0840 } is a cherrypick
+{ 24cf2de137798edb737bf92d270e238028b0123c -> 5dfca02d52ba6289e547c038eda013cd6aac1f41 }
+Cherrypick commits SHA are -> 
+c0460e919e2b73fb418f63e915d3027992dd0840 - cherrypick - 5dfca02d52ba6289e547c038eda013cd6aac1f41
+---> The cherrypicked commit sha is - c0460e919e2b73fb418f63e915d3027992dd0840
+Commit message - Bash wrapper did not allow spaces in paths
+---> The original commit sha is - 5dfca02d52ba6289e547c038eda013cd6aac1f41
+Commit message - Merge pull request #238 from kamibu/master
+
+Added browser-defined tag object types
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 38 is -> 
+{ 089d22641f55cf252d1087d01cb7d2356707f8cf -> f45642f19f86ce2f8bd3d48204004774122b45a1 } is a cherrypick
+{ 3d3f5151e83a3cd735fbc54e9b8e0a8176315da0 -> bb0d916f42b74cf280209b23c2fc324daf7d32be }
+Cherrypick commits SHA are -> 
+f45642f19f86ce2f8bd3d48204004774122b45a1 - cherrypick - bb0d916f42b74cf280209b23c2fc324daf7d32be
+---> The cherrypicked commit sha is - f45642f19f86ce2f8bd3d48204004774122b45a1
+Commit message - Test case for option passfail
+---> The original commit sha is - bb0d916f42b74cf280209b23c2fc324daf7d32be
+Commit message - Test case for option strict
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 39 is -> 
+{ 9df725ede034ca5d865d7a571bc5e5ba3f42c8b3 -> 13be914875da56ebb01885441f80344125067f21 } is a cherrypick
+{ 2ba8dfec6dc5eb1ca66b803c90a9e94a3dec90a1 -> 30a2bf2783669b1ce8be2623f67678d74c61527c }
+Cherrypick commits SHA are -> 
+13be914875da56ebb01885441f80344125067f21 - cherrypick - 30a2bf2783669b1ce8be2623f67678d74c61527c
+---> The cherrypicked commit sha is - 13be914875da56ebb01885441f80344125067f21
+Commit message - Ported test for option asi
+---> The original commit sha is - 30a2bf2783669b1ce8be2623f67678d74c61527c
+Commit message - Test case for option evil
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 40 is -> 
+{ 12b9f7ba0ecabeb81724872ea5622a0281b44a37 -> 238e23f68dd1ba79f34f5ea8bccbefa3bd4b9baf } is a cherrypick
+{ 49781ebd5e68a4cf67ead79990686e9036f7d1a9 -> e62afedc09798abb328cb958fed1d46de7571f3f }
+Cherrypick commits SHA are -> 
+238e23f68dd1ba79f34f5ea8bccbefa3bd4b9baf - cherrypick - e62afedc09798abb328cb958fed1d46de7571f3f
+---> The cherrypicked commit sha is - 238e23f68dd1ba79f34f5ea8bccbefa3bd4b9baf
+Commit message - Ported  test
+---> The original commit sha is - e62afedc09798abb328cb958fed1d46de7571f3f
+Commit message - Ported delete related tests
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 41 is -> 
+{ f8586fc7bfd99b697af62a1011bd14386ae3027c -> 14fb1cbf9b5f2124de8d645aaf60e521f30eb22b } is a cherrypick
+{ a91f23bdc9fd811ef4868f632cccfba99fa9ea6d -> deb73da1fab52ceb65a9917b84c3e59b1b83a8fd }
+Cherrypick commits SHA are -> 
+14fb1cbf9b5f2124de8d645aaf60e521f30eb22b - cherrypick - deb73da1fab52ceb65a9917b84c3e59b1b83a8fd
+---> The cherrypicked commit sha is - 14fb1cbf9b5f2124de8d645aaf60e521f30eb22b
+Commit message - fixing jshint options arg for rhino
+	- rhino reads the args as strings off the command line
+	- thus `white=false` rhino sees `false` as a (truthy) string
+---> The original commit sha is - deb73da1fab52ceb65a9917b84c3e59b1b83a8fd
+Commit message - Merge branch 'fix-rhino-args' of https://github.com/founddrama/jshint into founddrama-fix-rhino-args
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 42 is -> 
+{ d193b1c1252cc618a50b8b3a488daccb66537841 -> 6c238084377214308588a59611647baba5e84074 } is a cherrypick
+{ 3b018b1e454d3917e33cd34d745dbc0ef80792e9 -> 5d6adfb6e397395f3509adbb662a9845815de2e0 }
+Cherrypick commits SHA are -> 
+6c238084377214308588a59611647baba5e84074 - cherrypick - 5d6adfb6e397395f3509adbb662a9845815de2e0
+---> The cherrypicked commit sha is - 6c238084377214308588a59611647baba5e84074
+Commit message - new Array(#expression#) is valid
+---> The original commit sha is - 5d6adfb6e397395f3509adbb662a9845815de2e0
+Commit message - Merge branch 'sky_array' of https://github.com/schuyler1d/jshint into schuyler1d-sky_array
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 43 is -> 
+{ afc94f255d7a3036dbd46c9dae3dde6027d2c94a -> 9991adff54f1134b6c8ffc5ef2343feb92ad3e2b } is a cherrypick
+{ 521230dae2c9ca94b6c6e8047497b2f34dbe5b90 -> fa273cbe4e38602800be10fa4dbfe98daa85ea2b }
+Cherrypick commits SHA are -> 
+9991adff54f1134b6c8ffc5ef2343feb92ad3e2b - cherrypick - fa273cbe4e38602800be10fa4dbfe98daa85ea2b
+---> The cherrypicked commit sha is - 9991adff54f1134b6c8ffc5ef2343feb92ad3e2b
+Commit message - Allow specifying options via rhino command line
+---> The original commit sha is - fa273cbe4e38602800be10fa4dbfe98daa85ea2b
+Commit message - Merge branch 'master' of https://github.com/mbulman/jshint into mbulman-master
+-----------------------------------------------------------------
+

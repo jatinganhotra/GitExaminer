@@ -1,0 +1,438 @@
+# of partial cherrypicks = 15
+Partial Cherry-pick diff pair 1 is -> 
+{ e1fb576d0b6da9b066b97990d4b3e48d86fc8d89 -> 3eb554901b2dee52b15783e0185afb324f2e509e } is a cherrypick
+{ 48fcca1b6ed2d329ba05b22ae3639e25108985e1 -> 47ff42435c29690310409fb61f4cc0c5958ad409 }
+Partial Cherry-pick commits SHA are -> 
+3eb554901b2dee52b15783e0185afb324f2e509e - cherrypick - 47ff42435c29690310409fb61f4cc0c5958ad409
+---> The cherrypicked commit sha is - 3eb554901b2dee52b15783e0185afb324f2e509e
+Commit message - Fix the select-single Stat which was broken in finagle-ized flockdb
+---> The original commit sha is - 47ff42435c29690310409fb61f4cc0c5958ad409
+Commit message - Merge pull request #88 from twitter/fix_select_single_counter
+
+Fix the select-single Stat which was broken in finagle-ized flockdb
+---> The files with partial_cherrypicks are:-
+src/main/scala/com/twitter/flockdb/queries/SelectCompiler.scala
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ 90e8dd9422567054f698b3c655c47075bd7cf5a8 -> b1616df76e5fda0fb9539ab423ab8b789f3c8ca1 } is a cherrypick
+{ a3ceff21ed576085501dadddf7122e7813c41db1 -> 788b4ea56be0ebd4d61cb59a6ee0f91528f06c46 }
+Partial Cherry-pick commits SHA are -> 
+b1616df76e5fda0fb9539ab423ab8b789f3c8ca1 - cherrypick - 788b4ea56be0ebd4d61cb59a6ee0f91528f06c46
+---> The cherrypicked commit sha is - b1616df76e5fda0fb9539ab423ab8b789f3c8ca1
+Commit message - org=com.twitter,name=flockdb,version=1.8.1-alpha19-SNAPSHOT
+---> The original commit sha is - 788b4ea56be0ebd4d61cb59a6ee0f91528f06c46
+Commit message - Merge remote branch 'origin/scrooge'
+---> The files with partial_cherrypicks are:-
+project/build.properties
+project/release.properties
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 31fa822a50129b00f01fcdd16ada3875c7594a65 -> 8106aa02274849c3973d71560a65efed0401a3d2 } is a cherrypick
+{ 7f9a623e3409858c0623bdb2b2f2e65398652756 -> e83f167833ac191f4d248fc694d7ee3c8274340e }
+Partial Cherry-pick commits SHA are -> 
+8106aa02274849c3973d71560a65efed0401a3d2 - cherrypick - e83f167833ac191f4d248fc694d7ee3c8274340e
+---> The cherrypicked commit sha is - 8106aa02274849c3973d71560a65efed0401a3d2
+Commit message - Get test code to all compile
+---> The original commit sha is - e83f167833ac191f4d248fc694d7ee3c8274340e
+Commit message - Merge from master
+---> The files with partial_cherrypicks are:-
+project/build/FlockDBProject.scala
+project/plugins/Plugins.scala
+src/main/scala/com/twitter/flockdb/FlockDB.scala
+src/main/scala/com/twitter/flockdb/ResultWindow.scala
+src/main/scala/com/twitter/flockdb/Select.scala
+src/main/scala/com/twitter/flockdb/config/FlockDB.scala
+src/main/scala/com/twitter/flockdb/conversions/Edge.scala
+src/main/scala/com/twitter/flockdb/conversions/EdgeQuery.scala
+src/main/scala/com/twitter/flockdb/conversions/EdgeResults.scala
+src/main/scala/com/twitter/flockdb/conversions/ExecuteOperation.scala
+src/main/scala/com/twitter/flockdb/conversions/ExecuteOperations.scala
+src/main/scala/com/twitter/flockdb/conversions/Metadata.scala
+src/main/scala/com/twitter/flockdb/conversions/Page.scala
+src/main/scala/com/twitter/flockdb/conversions/Priority.scala
+src/main/scala/com/twitter/flockdb/conversions/QueryTerm.scala
+src/main/scala/com/twitter/flockdb/conversions/Results.scala
+src/main/scala/com/twitter/flockdb/conversions/SelectOperation.scala
+src/main/scala/com/twitter/flockdb/conversions/SelectQuery.scala
+src/main/scala/com/twitter/flockdb/jobs/Copy.scala
+src/main/scala/com/twitter/flockdb/jobs/multi/Multi.scala
+src/main/scala/com/twitter/flockdb/queries/DifferenceQuery.scala
+src/main/scala/com/twitter/flockdb/queries/IntersectionQuery.scala
+src/main/scala/com/twitter/flockdb/queries/Query.scala
+src/main/scala/com/twitter/flockdb/queries/UnionQuery.scala
+src/main/scala/com/twitter/flockdb/queries/WhereInQuery.scala
+src/main/scala/com/twitter/flockdb/shards/Optimism.scala
+src/main/scala/com/twitter/flockdb/shards/ReadWriteShardAdapter.scala
+src/main/scala/com/twitter/flockdb/shards/Shard.scala
+src/main/scala/com/twitter/flockdb/shards/SqlShard.scala
+src/test/scala/com/twitter/flockdb/ConfiguredSpecification.scala
+src/test/scala/com/twitter/flockdb/integration/BlackHoleLockingRegressionSpec.scala
+src/test/scala/com/twitter/flockdb/integration/CopySpec.scala
+src/test/scala/com/twitter/flockdb/integration/EdgesSpec.scala
+src/test/scala/com/twitter/flockdb/integration/FlockFixRegressionSpec.scala
+src/test/scala/com/twitter/flockdb/integration/IntersectionSpec.scala
+src/test/scala/com/twitter/flockdb/integration/OptimisticLockRegressionSpec.scala
+src/test/scala/com/twitter/flockdb/integration/SelectCompilerSpec.scala
+src/test/scala/com/twitter/flockdb/unit/DifferenceQuerySpec.scala
+src/test/scala/com/twitter/flockdb/unit/EdgesSpec.scala
+src/test/scala/com/twitter/flockdb/unit/IntersectionQuerySpec.scala
+src/test/scala/com/twitter/flockdb/unit/JobSpec.scala
+src/test/scala/com/twitter/flockdb/unit/SelectCompilerSpec.scala
+src/test/scala/com/twitter/flockdb/unit/SeqQuery.scala
+src/test/scala/com/twitter/flockdb/unit/SimpleQuerySpec.scala
+src/test/scala/com/twitter/flockdb/unit/SqlShardSpec.scala
+src/test/scala/com/twitter/flockdb/unit/UnionQuerySpec.scala
+src/test/scala/com/twitter/flockdb/unit/WhereInQuerySpec.scala
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ ed8ddd861caf38f9894c778b02228055aae3aac9 -> f4aafaf45dda92141fb411de83ef9279bf797375 } is a cherrypick
+{ 303db1ac26dc04df08ae99f94ddb2c7e6ad1c643 -> 483cea61ae14718cbe0c060240efee4e5dbbf13f }
+Partial Cherry-pick commits SHA are -> 
+f4aafaf45dda92141fb411de83ef9279bf797375 - cherrypick - 483cea61ae14718cbe0c060240efee4e5dbbf13f
+---> The cherrypicked commit sha is - f4aafaf45dda92141fb411de83ef9279bf797375
+Commit message - SqlShard go Future go!
+---> The original commit sha is - 483cea61ae14718cbe0c060240efee4e5dbbf13f
+Commit message - Merge from master
+---> The files with partial_cherrypicks are:-
+project/build/FlockDBProject.scala
+project/plugins/Plugins.scala
+src/main/scala/com/twitter/flockdb/EdgesService.scala
+src/main/scala/com/twitter/flockdb/FlockDB.scala
+src/main/scala/com/twitter/flockdb/ResultWindow.scala
+src/main/scala/com/twitter/flockdb/Select.scala
+src/main/scala/com/twitter/flockdb/config/FlockDB.scala
+src/main/scala/com/twitter/flockdb/conversions/Edge.scala
+src/main/scala/com/twitter/flockdb/conversions/EdgeQuery.scala
+src/main/scala/com/twitter/flockdb/conversions/EdgeResults.scala
+src/main/scala/com/twitter/flockdb/conversions/ExecuteOperation.scala
+src/main/scala/com/twitter/flockdb/conversions/ExecuteOperations.scala
+src/main/scala/com/twitter/flockdb/conversions/Metadata.scala
+src/main/scala/com/twitter/flockdb/conversions/Page.scala
+src/main/scala/com/twitter/flockdb/conversions/Priority.scala
+src/main/scala/com/twitter/flockdb/conversions/QueryTerm.scala
+src/main/scala/com/twitter/flockdb/conversions/Results.scala
+src/main/scala/com/twitter/flockdb/conversions/SelectOperation.scala
+src/main/scala/com/twitter/flockdb/conversions/SelectQuery.scala
+src/main/scala/com/twitter/flockdb/jobs/multi/Multi.scala
+src/main/scala/com/twitter/flockdb/queries/DifferenceQuery.scala
+src/main/scala/com/twitter/flockdb/queries/IntersectionQuery.scala
+src/main/scala/com/twitter/flockdb/queries/Query.scala
+src/main/scala/com/twitter/flockdb/queries/UnionQuery.scala
+src/main/scala/com/twitter/flockdb/queries/WhereInQuery.scala
+src/main/scala/com/twitter/flockdb/shards/ReadWriteShardAdapter.scala
+src/main/scala/com/twitter/flockdb/shards/Shard.scala
+src/main/scala/com/twitter/flockdb/shards/SqlShard.scala
+src/test/scala/com/twitter/flockdb/ConfiguredSpecification.scala
+src/test/scala/com/twitter/flockdb/integration/BlackHoleLockingRegressionSpec.scala
+src/test/scala/com/twitter/flockdb/integration/EdgesSpec.scala
+src/test/scala/com/twitter/flockdb/integration/FlockFixRegressionSpec.scala
+src/test/scala/com/twitter/flockdb/integration/IntersectionSpec.scala
+src/test/scala/com/twitter/flockdb/integration/OptimisticLockRegressionSpec.scala
+src/test/scala/com/twitter/flockdb/integration/SelectCompilerSpec.scala
+src/test/scala/com/twitter/flockdb/unit/DifferenceQuerySpec.scala
+src/test/scala/com/twitter/flockdb/unit/EdgesSpec.scala
+src/test/scala/com/twitter/flockdb/unit/IntersectionQuerySpec.scala
+src/test/scala/com/twitter/flockdb/unit/SimpleQuerySpec.scala
+src/test/scala/com/twitter/flockdb/unit/SqlShardSpec.scala
+src/test/scala/com/twitter/flockdb/unit/UnionQuerySpec.scala
+src/test/scala/com/twitter/flockdb/unit/WhereInQuerySpec.scala
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ ed8ddd861caf38f9894c778b02228055aae3aac9 -> f4aafaf45dda92141fb411de83ef9279bf797375 } is a cherrypick
+{ 0b0cae6c60a1a6c64e8326d2c43fc38ea995658b -> 72e5bf21204c96d7007760b20e459b71cfa7f7e2 }
+Partial Cherry-pick commits SHA are -> 
+f4aafaf45dda92141fb411de83ef9279bf797375 - cherrypick - 72e5bf21204c96d7007760b20e459b71cfa7f7e2
+---> The cherrypicked commit sha is - f4aafaf45dda92141fb411de83ef9279bf797375
+Commit message - SqlShard go Future go!
+---> The original commit sha is - 72e5bf21204c96d7007760b20e459b71cfa7f7e2
+Commit message - no more kc release name
+---> The files with partial_cherrypicks are:-
+project/build.properties
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 31a1bf877c36062fd9173fc3cff6bc4a55a46bb9 -> ad3112ce5d6482ff2d2e3c6158243f5eda4614a4 } is a cherrypick
+{ 0f4ec077b0ce8b0cdfccc60e60b4e67cfae8ad0e -> 684ef53a0cc757dfc95a89a7eacb05ee65678e5b }
+Partial Cherry-pick commits SHA are -> 
+ad3112ce5d6482ff2d2e3c6158243f5eda4614a4 - cherrypick - 684ef53a0cc757dfc95a89a7eacb05ee65678e5b
+---> The cherrypicked commit sha is - ad3112ce5d6482ff2d2e3c6158243f5eda4614a4
+Commit message - make some test configs lazy
+---> The original commit sha is - 684ef53a0cc757dfc95a89a7eacb05ee65678e5b
+Commit message - Merge pull request #67 from twitter/boaz_demofix
+
+Update demo to work as intended
+
+Update documentation for current versions and command usage, update mkshards script to use correct commands and be deprecated and dev config for consistency.
+---> The files with partial_cherrypicks are:-
+src/main/scala/com/twitter/flockdb/shards/SqlShard.scala
+src/test/scala/com/twitter/flockdb/ConfiguredSpecification.scala
+src/test/scala/com/twitter/flockdb/unit/JobSpec.scala
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ 6fd8d35fd4ce327878bff2515d167fee62c291d9 -> 46778b8550ba8b289c8486692693b13ab4d2790c } is a cherrypick
+{ 96b825df26283e5eacb6715b209cdb8261972d36 -> 30624f3826bdf389d618abfb5f3fc5e4086466c2 }
+Partial Cherry-pick commits SHA are -> 
+46778b8550ba8b289c8486692693b13ab4d2790c - cherrypick - 30624f3826bdf389d618abfb5f3fc5e4086466c2
+---> The cherrypicked commit sha is - 46778b8550ba8b289c8486692693b13ab4d2790c
+Commit message - upgrade to gizzard 3.0.0-beta6, plug in gauges for throttled connection pool, and bump up the version to 1.8.0-alpha6
+---> The original commit sha is - 30624f3826bdf389d618abfb5f3fc5e4086466c2
+Commit message - Merge branch 'master' into consolidated_jobs
+---> The files with partial_cherrypicks are:-
+.gitignore
+project/build.properties
+project/build/FlockDBProject.scala
+src/main/scala/com/twitter/flockdb/FlockDB.scala
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ 7858265ef186f3431ef20f53737f73ca22597360 -> d1612f62b8b225fe4fdf704ef697c899384e8f52 } is a cherrypick
+{ cbfcd88b82c346043970d387f2ea61ed7bf99a60 -> 7a94c796504ec9521e69155f87f5db8b822509f1 }
+Partial Cherry-pick commits SHA are -> 
+d1612f62b8b225fe4fdf704ef697c899384e8f52 - cherrypick - 7a94c796504ec9521e69155f87f5db8b822509f1
+---> The cherrypicked commit sha is - d1612f62b8b225fe4fdf704ef697c899384e8f52
+Commit message - use new interface
+---> The original commit sha is - 7a94c796504ec9521e69155f87f5db8b822509f1
+Commit message - Merge branch 'busy-repair'
+---> The files with partial_cherrypicks are:-
+src/main/scala/com/twitter/flockdb/jobs/Diff.scala
+src/main/scala/com/twitter/flockdb/jobs/Repair.scala
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ b33f992ee3c01ce3507188dc50c386ea78710721 -> 094b782ac40f9ccc0af6d553166224f387e7c5e3 } is a cherrypick
+{ 5a3c13cea2ce37043fc38eb084db41a653bd4d6c -> d6020bec003b540778c3557bbf8f50af5727e169 }
+Partial Cherry-pick commits SHA are -> 
+094b782ac40f9ccc0af6d553166224f387e7c5e3 - cherrypick - d6020bec003b540778c3557bbf8f50af5727e169
+---> The cherrypicked commit sha is - 094b782ac40f9ccc0af6d553166224f387e7c5e3
+Commit message - support multi-shard repair
+---> The original commit sha is - d6020bec003b540778c3557bbf8f50af5727e169
+Commit message - compare sizes
+---> The files with partial_cherrypicks are:-
+config/development.conf
+config/development.scala
+config/production.conf
+config/test.conf
+config/test.scala
+project/build.properties
+project/build/FlockDBProject.scala
+src/main/scala/com/twitter/flockdb/Edge.scala
+src/main/scala/com/twitter/flockdb/EdgesService.scala
+src/main/scala/com/twitter/flockdb/FlockDB.scala
+src/main/scala/com/twitter/flockdb/ForwardingManager.scala
+src/main/scala/com/twitter/flockdb/JobSchedulable.scala
+src/main/scala/com/twitter/flockdb/Main.scala
+src/main/scala/com/twitter/flockdb/Metadata.scala
+src/main/scala/com/twitter/flockdb/State.scala
+src/main/scala/com/twitter/flockdb/conversions/Metadata.scala
+src/main/scala/com/twitter/flockdb/jobs/multi/Multi.scala
+src/main/scala/com/twitter/flockdb/shards/Optimism.scala
+src/main/scala/com/twitter/flockdb/shards/ReadWriteShardAdapter.scala
+src/main/scala/com/twitter/flockdb/shards/Shard.scala
+src/main/scala/com/twitter/flockdb/shards/SqlShard.scala
+src/main/thrift/Flockdb.thrift
+src/scripts/setup-env.sh
+src/scripts/start.sh
+src/test/scala/com/twitter/flockdb/ConfiguredSpecification.scala
+src/test/scala/com/twitter/flockdb/integration/EdgesSpec.scala
+src/test/scala/com/twitter/flockdb/integration/FlockFixRegressionSpec.scala
+src/test/scala/com/twitter/flockdb/integration/IntersectionSpec.scala
+src/test/scala/com/twitter/flockdb/integration/OptimisticLockRegressionSpec.scala
+src/test/scala/com/twitter/flockdb/integration/SelectCompilerSpec.scala
+src/test/scala/com/twitter/flockdb/unit/CopySpec.scala
+src/test/scala/com/twitter/flockdb/unit/EdgeSpec.scala
+src/test/scala/com/twitter/flockdb/unit/EdgesSpec.scala
+src/test/scala/com/twitter/flockdb/unit/JobSpec.scala
+src/test/scala/com/twitter/flockdb/unit/ReadWriteShardAdapterSpec.scala
+src/test/scala/com/twitter/flockdb/unit/SqlShardSpec.scala
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 74610f2f4d591c8260220b023d39464ff605ef87 -> 18e74b2a02292d90fb237f2b97f8c0cb3de17007 } is a cherrypick
+{ d433e07a100077413e69a732f968571658789ffb -> 82531acfffbdad815b2e58f2c6d854578c95711e }
+Partial Cherry-pick commits SHA are -> 
+18e74b2a02292d90fb237f2b97f8c0cb3de17007 - cherrypick - 82531acfffbdad815b2e58f2c6d854578c95711e
+---> The cherrypicked commit sha is - 18e74b2a02292d90fb237f2b97f8c0cb3de17007
+Commit message - get configs to build
+---> The original commit sha is - 82531acfffbdad815b2e58f2c6d854578c95711e
+Commit message - Burst insert changes ala Robey.
+---> The files with partial_cherrypicks are:-
+config/development.scala
+config/production.scala
+config/test.scala
+project/build.properties
+project/build/FlockDBProject.scala
+src/main/scala/com/twitter/flockdb/Edge.scala
+src/main/scala/com/twitter/flockdb/EdgesService.scala
+src/main/scala/com/twitter/flockdb/FlockDB.scala
+src/main/scala/com/twitter/flockdb/Main.scala
+src/main/scala/com/twitter/flockdb/ResultWindow.scala
+src/main/scala/com/twitter/flockdb/Select.scala
+src/main/scala/com/twitter/flockdb/UuidGenerator.scala
+src/main/scala/com/twitter/flockdb/config/FlockDB.scala
+src/main/scala/com/twitter/flockdb/conversions/Edge.scala
+src/main/scala/com/twitter/flockdb/conversions/Numeric.scala
+src/main/scala/com/twitter/flockdb/jobs/Copy.scala
+src/main/scala/com/twitter/flockdb/jobs/UnsafeCopy.scala
+src/main/scala/com/twitter/flockdb/jobs/multi/Multi.scala
+src/main/scala/com/twitter/flockdb/jobs/single/Single.scala
+src/main/scala/com/twitter/flockdb/queries/DifferenceQuery.scala
+src/main/scala/com/twitter/flockdb/queries/ExecuteCompiler.scala
+src/main/scala/com/twitter/flockdb/queries/IntersectionQuery.scala
+src/main/scala/com/twitter/flockdb/queries/SelectCompiler.scala
+src/main/scala/com/twitter/flockdb/shards/ReadWriteShardAdapter.scala
+src/main/scala/com/twitter/flockdb/shards/Shard.scala
+src/main/scala/com/twitter/flockdb/shards/SqlShard.scala
+src/main/scala/com/twitter/flockdb/test/EdgesDatabase.scala
+src/main/scala/com/twitter/flockdb/test/StaticEdges.scala
+src/test/scala/com/twitter/flockdb/ConfigValidationSpec.scala
+src/test/scala/com/twitter/flockdb/ConfiguredSpecification.scala
+src/test/scala/com/twitter/flockdb/integration/EdgesSpec.scala
+src/test/scala/com/twitter/flockdb/integration/IntersectionSpec.scala
+src/test/scala/com/twitter/flockdb/integration/SelectCompilerSpec.scala
+src/test/scala/com/twitter/flockdb/unit/CopySpec.scala
+src/test/scala/com/twitter/flockdb/unit/DifferenceQuerySpec.scala
+src/test/scala/com/twitter/flockdb/unit/EdgesSpec.scala
+src/test/scala/com/twitter/flockdb/unit/ExecuteCompilerSpec.scala
+src/test/scala/com/twitter/flockdb/unit/IntersectionQuerySpec.scala
+src/test/scala/com/twitter/flockdb/unit/JobSpec.scala
+src/test/scala/com/twitter/flockdb/unit/ReadWriteShardAdapterSpec.scala
+src/test/scala/com/twitter/flockdb/unit/SelectCompilerSpec.scala
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 9292e98c5dba82a834f76dd42e62551b03d87888 -> 88d46a60ca838bd5f3cbe177b93ee3ff316c5ebc } is a cherrypick
+{ 87ae5664b173283c0b12d8e9baabc1ceec040b17 -> bf18ba990ed947ae32d1806fe6eaa7aaeb395a1c }
+Partial Cherry-pick commits SHA are -> 
+88d46a60ca838bd5f3cbe177b93ee3ff316c5ebc - cherrypick - bf18ba990ed947ae32d1806fe6eaa7aaeb395a1c
+---> The cherrypicked commit sha is - 88d46a60ca838bd5f3cbe177b93ee3ff316c5ebc
+Commit message - inline
+---> The original commit sha is - bf18ba990ed947ae32d1806fe6eaa7aaeb395a1c
+Commit message - Merge branch 'master' of github.com:twitter/flockdb
+---> The files with partial_cherrypicks are:-
+project/plugins/Plugins.scala
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 836bfd3006d47ec87946d98903ec15201f18b324 -> 5319dfb1b7085de74fcf09a070bd389247024e47 } is a cherrypick
+{ d3517fd0274f66747d0166d696cadbcfb9150ce5 -> 4d252ada82669902708d6014523f1f9d7e8fc2a7 }
+Partial Cherry-pick commits SHA are -> 
+5319dfb1b7085de74fcf09a070bd389247024e47 - cherrypick - 4d252ada82669902708d6014523f1f9d7e8fc2a7
+---> The cherrypicked commit sha is - 5319dfb1b7085de74fcf09a070bd389247024e47
+Commit message - add counter for multijobs.
+---> The original commit sha is - 4d252ada82669902708d6014523f1f9d7e8fc2a7
+Commit message - Merge branch 'master' of github.com:twitter/flockdb
+---> The files with partial_cherrypicks are:-
+src/main/scala/com/twitter/flockdb/jobs/multi/Multi.scala
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 3ef1e3c050a07b00efda4568e3291302cde53e8f -> 8638e7ca6f40ccbfbc001f5ac6297253bf4d7537 } is a cherrypick
+{ 99cfdb0154b561312ef0df164413d4f895a9429e -> 30abe91447014d2472659918169aaff371e50e3d }
+Partial Cherry-pick commits SHA are -> 
+8638e7ca6f40ccbfbc001f5ac6297253bf4d7537 - cherrypick - 30abe91447014d2472659918169aaff371e50e3d
+---> The cherrypicked commit sha is - 8638e7ca6f40ccbfbc001f5ac6297253bf4d7537
+Commit message - fix tests for the new gizzard.
+---> The original commit sha is - 30abe91447014d2472659918169aaff371e50e3d
+Commit message - fix merge.
+---> The files with partial_cherrypicks are:-
+src/test/scala/com/twitter/flockdb/integration/EdgesSpec.scala
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 2726e53d143f35b7a9419a2b174fff0eddca84eb -> 256e5c4cb8aad490ef1f9e613689b7e0dcada3bd } is a cherrypick
+{ 5ad60ba406976d94d10eb98a5ebe0419293f84ba -> 28dbb62a52fb605b67f3648422afd4b5ffdb6062 }
+Partial Cherry-pick commits SHA are -> 
+256e5c4cb8aad490ef1f9e613689b7e0dcada3bd - cherrypick - 28dbb62a52fb605b67f3648422afd4b5ffdb6062
+---> The cherrypicked commit sha is - 256e5c4cb8aad490ef1f9e613689b7e0dcada3bd
+Commit message - version 1.0.17.
+---> The original commit sha is - 28dbb62a52fb605b67f3648422afd4b5ffdb6062
+Commit message - Merge commit '3541e1dc' into test8
+
+Conflicts:
+	project/build/Flockdb.scala
+	src/main/scala/com/twitter/flockdb/jobs/Copy.scala
+	src/main/scala/com/twitter/flockdb/test/EdgesDatabase.scala
+	src/test/scala/com/twitter/flockdb/ConfiguredSpecification.scala
+---> The files with partial_cherrypicks are:-
+doc/blog.md
+doc/demo.markdown
+src/main/scala/com/twitter/flockdb/Direction.scala
+src/main/scala/com/twitter/flockdb/Edge.scala
+src/main/scala/com/twitter/flockdb/EdgeQuery.scala
+src/main/scala/com/twitter/flockdb/ForwardingManager.scala
+src/main/scala/com/twitter/flockdb/Priority.scala
+src/main/scala/com/twitter/flockdb/QueryTerm.scala
+src/main/scala/com/twitter/flockdb/Select.scala
+src/main/scala/com/twitter/flockdb/SelectQuery.scala
+src/main/scala/com/twitter/flockdb/State.scala
+src/main/scala/com/twitter/flockdb/UuidGenerator.scala
+src/main/scala/com/twitter/flockdb/conversions/Edge.scala
+src/main/scala/com/twitter/flockdb/conversions/EdgeQuery.scala
+src/main/scala/com/twitter/flockdb/conversions/EdgeResults.scala
+src/main/scala/com/twitter/flockdb/conversions/ExecuteOperation.scala
+src/main/scala/com/twitter/flockdb/conversions/Page.scala
+src/main/scala/com/twitter/flockdb/conversions/Priority.scala
+src/main/scala/com/twitter/flockdb/conversions/QueryTerm.scala
+src/main/scala/com/twitter/flockdb/conversions/Results.scala
+src/main/scala/com/twitter/flockdb/conversions/SelectOperation.scala
+src/main/scala/com/twitter/flockdb/conversions/SelectQuery.scala
+src/main/scala/com/twitter/flockdb/jobs/multi/Multi.scala
+src/main/scala/com/twitter/flockdb/jobs/single/Single.scala
+src/main/scala/com/twitter/flockdb/operations/ExecuteOperation.scala
+src/main/scala/com/twitter/flockdb/operations/ExecuteOperationType.scala
+src/main/scala/com/twitter/flockdb/operations/ExecuteOperations.scala
+src/main/scala/com/twitter/flockdb/operations/SelectOperation.scala
+src/main/scala/com/twitter/flockdb/operations/SelectOperationType.scala
+src/main/scala/com/twitter/flockdb/queries/DifferenceQuery.scala
+src/main/scala/com/twitter/flockdb/queries/ExecuteCompiler.scala
+src/main/scala/com/twitter/flockdb/queries/IntersectionQuery.scala
+src/main/scala/com/twitter/flockdb/queries/Query.scala
+src/main/scala/com/twitter/flockdb/queries/SelectCompiler.scala
+src/main/scala/com/twitter/flockdb/queries/SeqQuery.scala
+src/main/scala/com/twitter/flockdb/queries/SimpleQuery.scala
+src/main/scala/com/twitter/flockdb/queries/UnionQuery.scala
+src/main/scala/com/twitter/flockdb/queries/WhereInQuery.scala
+src/main/scala/com/twitter/flockdb/shards/BlackHoleShard.scala
+src/main/scala/com/twitter/flockdb/shards/MultiShard.scala
+src/main/scala/com/twitter/flockdb/shards/ReadWriteShardAdapter.scala
+src/main/scala/com/twitter/flockdb/shards/Shard.scala
+src/main/scala/com/twitter/flockdb/shards/SqlShard.scala
+src/main/thrift/Flockdb.thrift
+src/scripts/flocker.rb
+src/test/scala/com/twitter/TestRunner.scala
+src/test/scala/com/twitter/flockdb/unit/EdgesSpec.scala
+src/test/scala/com/twitter/flockdb/unit/ExecuteCompilerSpec.scala
+src/test/scala/com/twitter/flockdb/unit/IntersectionQuerySpec.scala
+src/test/scala/com/twitter/flockdb/unit/JobSpec.scala
+src/test/scala/com/twitter/flockdb/unit/ReadWriteShardAdapterSpec.scala
+src/test/scala/com/twitter/flockdb/unit/SelectCompilerSpec.scala
+src/test/scala/com/twitter/flockdb/unit/SimpleQuerySpec.scala
+src/test/scala/com/twitter/flockdb/unit/UnionQuerySpec.scala
+src/test/scala/com/twitter/flockdb/unit/WhereInQuerySpec.scala
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ b49476c050ec3125752cdacb359115142e186350 -> 42129e401bde9c5c41ff243ea3201720dd0f6659 } is a cherrypick
+{ 6f72e64861c09c56d09d2505ccd8f56bd1b78da2 -> 94d143b5a42acf18c07516a44526ddb6845d8ba7 }
+Partial Cherry-pick commits SHA are -> 
+42129e401bde9c5c41ff243ea3201720dd0f6659 - cherrypick - 94d143b5a42acf18c07516a44526ddb6845d8ba7
+---> The cherrypicked commit sha is - 42129e401bde9c5c41ff243ea3201720dd0f6659
+Commit message - Export StaticEdges externally
+---> The original commit sha is - 94d143b5a42acf18c07516a44526ddb6845d8ba7
+Commit message - Merge branch 'master' of github.com:twitter/flockdb
+---> The files with partial_cherrypicks are:-
+src/main/scala/com/twitter/flockdb/test/EdgesDatabase.scala
+src/main/scala/com/twitter/flockdb/test/EdgesReset.scala
+src/main/scala/com/twitter/flockdb/test/StaticEdges.scala
+src/test/scala/com/twitter/flockdb/StaticEdges.scala
+src/test/scala/com/twitter/flockdb/integration/EdgesSpec.scala
+src/test/scala/com/twitter/flockdb/integration/IntersectionSpec.scala
+src/test/scala/com/twitter/flockdb/integration/SelectCompilerSpec.scala
+src/test/scala/com/twitter/flockdb/unit/SqlShardSpec.scala
+-----------------------------------------------------------------
+
