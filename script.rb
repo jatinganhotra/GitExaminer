@@ -64,14 +64,14 @@ commit_list_array.reverse!
 # Calculate the # of total commits
 num_commits = commit_list_array.count
 
-# Calculate the number of commits which have revert in their message
-msg_revert_commits = []
+msg_revert_commits = [] # Calculate the number of commits which have revert in their message
+merge_commits = []      # Calculating # of merges
 commit_list_array.each do |commit|
-  if commit.message.include? 'revert'
-    msg_revert_commits << commit
-  end
+  msg_revert_commits << commit if commit.message.include? 'revert'
+  merge_commits << commit      if commit.parents.size > 1
 end
 num_commits_revert_msg = msg_revert_commits.count
+num_merges = merge_commits.count
 
 # ----------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------
@@ -87,6 +87,7 @@ print " ---> Gathering information about commits. Please wait."
 10.times { print "." ; sleep(1.0/10)} ; puts "."
 puts "# Commits = " + num_commits.to_s
 puts "# Commits with revert in message = " + num_commits_revert_msg.to_s
+puts "# of Merge Commits = " + num_merges.to_s
 puts "-----------------------------"
 print " ---> Looking for reverts - complete and partial & cherry-picks."
 5.times { print "." ; sleep(1.0/10)}
@@ -266,6 +267,12 @@ partial_cherrypicks_log_file_name = "RevertLogs/" + project_name + "-partial-che
 OutputPartialCherryPicks( partial_cherrypicks_log_file_name, partial_cps, partial_cp_diffs)
 
 # ----------------------------------------------------------------------------------
+# ---------------------------   Output Merges   ------------------------------------
+# ----------------------------------------------------------------------------------
+merges_log_file_name = "RevertLogs/" + project_name + "-merges.log"
+OutputMerges( merges_log_file_name, merge_commits)
+
+# ----------------------------------------------------------------------------------
 # ----------------------------   Output All Results --------------------------------
 # ----------------------------------------------------------------------------------
 
@@ -286,9 +293,12 @@ rows << [ '  ProjectName', project_name ]
 rows << [ '  RepoURL', git_repo_url ]
 rows << [ '  HEAD SHA', head_commit_sha ]
 rows << [ '# Commits', num_commits ]
+rows << [ '# Merges', num_merges]
 rows << [ '# Reverts - Message', num_commits_revert_msg ]
 rows << [ '# Reverts - Complete', full_reverts ]
 rows << [ '# Reverts - Partial', partial_reverts ]
+rows << [ '# Cherrypicks - Complete', full_cps ]
+rows << [ '# Cherrypicks - Partial', partial_cps ]
 table = Terminal::Table.new :title => "#{project_name}-results", :rows => rows
 puts table
 op_file.puts table
