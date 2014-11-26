@@ -45,6 +45,17 @@ How often do people revert code?
   <a href="https://github.com/silverSpoon/RevertFinder/blob/master/results.txt">
     Results on 23 open-source projects
   </a>
+  The results are also provided below for a quick look.
+
+<h6> Credits: </h6>
+
+<p> This project was developed for CS 527 - Fall 2014 - University of Illinois at Urbana Champaign.
+  Thanks to
+  <a href="http://mir.cs.illinois.edu/marinov/">Darko Marinov</a>,
+  <a href="http://mir.cs.illinois.edu/~eloussi2/">Lamyaa Eloussi</a> and
+  <a href="http://mir.cs.illinois.edu/gliga/">Milos Gligoric</a>
+  for providing feedback.
+</p>
 
   <pre>
   
@@ -150,16 +161,6 @@ How often do people revert code?
 +----+---------------------------------------------------------+--------+--------+------+------+------+------+------+
 
   </pre>
-
-<h6> Credits: </h6>
-
-<p> This project was developed for CS 527 - Fall 2014 - University of Illinois at Urbana Champaign.
-  Thanks to
-  <a href="http://mir.cs.illinois.edu/marinov/">Darko Marinov</a>,
-  <a href="http://mir.cs.illinois.edu/~eloussi2/">Lamyaa Eloussi</a> and
-  <a href="http://mir.cs.illinois.edu/gliga/">Milos Gligoric</a>
-  for providing feedback.
-</p>
 
 <!--
 <p>Reverts can be of 2 kinds: auto-revert and manual-revert.
