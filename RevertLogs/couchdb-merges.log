@@ -1,0 +1,1376 @@
+# of merges = 187
+Merge commit 1 is -> 
+{ 7ee5e50622a531e245bac32b9fc2351b632d6482 is a merge commit
+---> Commit message - resolved fabric_delete conflict
+
+-----------------------------------------------------------------
+
+Merge commit 2 is -> 
+{ 1eeb6a261f068236a0a235007aeec37e9018dce1 is a merge commit
+---> Commit message - Merge branch 'mem3'
+
+Conflicts:
+	apps/couch/src/couch_btree.erl
+	apps/couch/src/couch_changes.erl
+	apps/couch/src/couch_db.erl
+	apps/couch/src/couch_db.hrl
+	apps/couch/src/couch_httpd_db.erl
+	apps/couch/src/couch_util.erl
+	apps/dynomite/ebin/dynomite.app
+	apps/dynomite/src/dynomite_couch_api.erl
+	apps/rexi/ebin/rexi.app
+	apps/rexi/src/rexi.erl
+	apps/rexi/src/rexi_server.erl
+	apps/showroom/src/showroom_db.erl
+	apps/showroom/src/showroom_sup.erl
+	apps/showroom/src/showroom_view_updater.erl
+-----------------------------------------------------------------
+
+Merge commit 3 is -> 
+{ e0bc269e1a9c5c3527a7916bdca04998fb8b5116 is a merge commit
+---> Commit message - Merge remote branch 'origin/11819'
+-----------------------------------------------------------------
+
+Merge commit 4 is -> 
+{ 94e2d5a496d58c2ccbdda7abebf3546e1bae0fce is a merge commit
+---> Commit message - Merge branch 'backport_zones'
+-----------------------------------------------------------------
+
+Merge commit 5 is -> 
+{ a77d8e6833928d1faefafcc012cbec86a5f6e5bc is a merge commit
+---> Commit message - Merge remote branch 'origin/12059-simple-majority'
+-----------------------------------------------------------------
+
+Merge commit 6 is -> 
+{ 58e576899311d5164d11a8869e2caedf94fe6e10 is a merge commit
+---> Commit message - Merge remote branch 'origin/12059-simple-majority'
+-----------------------------------------------------------------
+
+Merge commit 7 is -> 
+{ 3be99e6ec05ccd4eeef8379baa8676863bd70974 is a merge commit
+---> Commit message - Merge remote branch 'origin/12534-respect-reader-lists'
+-----------------------------------------------------------------
+
+Merge commit 8 is -> 
+{ d47bb2534e539b463ed481419a0deb758630a8ab is a merge commit
+---> Commit message - Merge pull request #8 from cloudant/10986-improve-update-seq
+-----------------------------------------------------------------
+
+Merge commit 9 is -> 
+{ 42a8c84d66c26c29ab5924b002dafeb7d5a811a4 is a merge commit
+---> Commit message - Merge pull request #5 from cloudant/12003-blocking-read-repair
+-----------------------------------------------------------------
+
+Merge commit 10 is -> 
+{ e0391bad43679f5a83f8b094e6c4a06cda10af80 is a merge commit
+---> Commit message - Merge pull request #4 from cloudant/12533-quorum-202
+-----------------------------------------------------------------
+
+Merge commit 11 is -> 
+{ c1c9e25338f52f7c15cf2f403ceb2ee3738e35e6 is a merge commit
+---> Commit message - Merge pull request #5 from cloudant/12568_is_old_couch
+-----------------------------------------------------------------
+
+Merge commit 12 is -> 
+{ 7639b3a40e3f71d6c5a085e5f31c586dd0edd2d0 is a merge commit
+---> Commit message - Merge pull request #6 from cloudant/12576-crash-deleted-nodes
+-----------------------------------------------------------------
+
+Merge commit 13 is -> 
+{ 8ab35f8a21282aeaa1e1a7238fdbfcb83478f5b6 is a merge commit
+---> Commit message - Merge pull request #5 from cloudant/12058-improve-ushards
+-----------------------------------------------------------------
+
+Merge commit 14 is -> 
+{ c4d57b8d335e510998ba3fd8647711a9922b3e59 is a merge commit
+---> Commit message - Merge pull request #6 from cloudant/12220-improve-nodedown-handling
+
+Handle 202 response on db create/delete
+-----------------------------------------------------------------
+
+Merge commit 15 is -> 
+{ 1358a777eeadf116da0460e518cceaf251efa34a is a merge commit
+---> Commit message - Merge pull request #7 from cloudant/12569_refactor_delayed_responses
+-----------------------------------------------------------------
+
+Merge commit 16 is -> 
+{ 63e6019452cd6bbbcdb6f3ba7866fa5c58a4ee39 is a merge commit
+---> Commit message - Merge pull request #16 from benoitc/changes_start_seq
+-----------------------------------------------------------------
+
+Merge commit 17 is -> 
+{ 28c0cad392da6102e7e1fddcceaa0dd272ee7bda is a merge commit
+---> Commit message - Merge pull request #10 from mikewallace1979/post-w-parameter-fix-amend-commit-message
+-----------------------------------------------------------------
+
+Merge commit 18 is -> 
+{ d333ac5ab70614434b2ea2084aa5ae1fbf03234f is a merge commit
+---> Commit message - Merge pull request #7 from cloudant/12220-improve-nodedown-handling
+
+Conflicts:
+	src/fabric_doc_open.erl
+	src/fabric_doc_update.erl
+-----------------------------------------------------------------
+
+Merge commit 19 is -> 
+{ 217c6d06b40987b0a424edc318a5d00d30782b42 is a merge commit
+---> Commit message - Merge pull request #7 from cloudant/12220-nodedown-handling-db
+
+Catch real conflict when writing shard_db docs
+-----------------------------------------------------------------
+
+Merge commit 20 is -> 
+{ d1933d429ee474370feb4867137da10dd671f245 is a merge commit
+---> Commit message - Merge pull request #12 from cloudant/12533-quorum-202
+
+Handle accepted tag in update response
+-----------------------------------------------------------------
+
+Merge commit 21 is -> 
+{ 0f4b3a228f7fcd3bc8f4821117665d9a9eafed96 is a merge commit
+---> Commit message - Merge pull request #19 from cloudant/12003-fix-read-repair-tests
+
+Fix read repair tests
+-----------------------------------------------------------------
+
+Merge commit 22 is -> 
+{ 92d9f8fe50e17b8216581311332cbc988dbf165e is a merge commit
+---> Commit message - Merge branch '12533-quorum-202', close #11
+
+Conflicts:
+	src/fabric_doc_update.erl
+-----------------------------------------------------------------
+
+Merge commit 23 is -> 
+{ 2c76e3230eda2a9bee5915c7880f647b34922e66 is a merge commit
+---> Commit message - Merge pull request #20 from cloudant/12605-continuous-changes-timeouts
+
+Do not skip heartbeats when DB is updated
+-----------------------------------------------------------------
+
+Merge commit 24 is -> 
+{ 3a1b0dc0e8d9d52ce4597cd833b6fafb26e242bd is a merge commit
+---> Commit message - Merge branch '12220-improve-shard-doc-ops', close #9
+
+Conflicts:
+	src/mem3_util.erl
+
+BugzID: 12220
+-----------------------------------------------------------------
+
+Merge commit 25 is -> 
+{ 17644b6b7fdb9204f5649802b2adba058be4ee0d is a merge commit
+---> Commit message - Merge branch '12220-nodedown-handling-db', close #18
+
+Conflicts:
+	src/fabric_util.erl
+
+BugzID: 12220
+-----------------------------------------------------------------
+
+Merge commit 26 is -> 
+{ b295575611e6f22315879b4bc64c143be2ccee65 is a merge commit
+---> Commit message - Merge pull request #21 from cloudant/12645_1.1.x_compatibility
+-----------------------------------------------------------------
+
+Merge commit 27 is -> 
+{ 72c5863d4ce0f7493769be4088a76a1d683cc379 is a merge commit
+---> Commit message - Merge pull request #13 from cloudant/12692-port-1.1.x-patches
+-----------------------------------------------------------------
+
+Merge commit 28 is -> 
+{ 7b058af7b8ec1435c527f86f4df10ac353237809 is a merge commit
+---> Commit message - Merge pull request #22 from cloudant/stuck-continuous-replications
+
+Preserve state during timeouts in the _changes feed
+-----------------------------------------------------------------
+
+Merge commit 29 is -> 
+{ 18d0f83778a4534d967f5b2fd4543cc91cceb01b is a merge commit
+---> Commit message - Merge pull request #10 from cloudant/12710-ignore-missing-dbs-on-sync
+-----------------------------------------------------------------
+
+Merge commit 30 is -> 
+{ 99679e7078876a1e9adfcc91306bb8b7b9e92027 is a merge commit
+---> Commit message - Merge pull request #2 from cloudant/12713-fail-rexi_DOWN-faster
+
+BugzID: 12713
+-----------------------------------------------------------------
+
+Merge commit 31 is -> 
+{ 1b441727e0027438ccccf23ce632b87b369e3697 is a merge commit
+---> Commit message - Merge pull request #23 from cloudant/12634-update-type-specs
+
+Update -specs to reflect new realities
+-----------------------------------------------------------------
+
+Merge commit 32 is -> 
+{ c6a7fd80b50a93ab49fecefb3fdb0cc64882b6bf is a merge commit
+---> Commit message - Merge pull request #12 from cloudant/11596-fix-mem3-rep-hangs
+-----------------------------------------------------------------
+
+Merge commit 33 is -> 
+{ 9d71c091e325a65a668d694e91e38d0aef48ffd4 is a merge commit
+---> Commit message - Merge pull request #24 from cloudant/12725-include_docs_conflicts
+-----------------------------------------------------------------
+
+Merge commit 34 is -> 
+{ 13145fe8dda251d73d6be05bb1b1551f236b5197 is a merge commit
+---> Commit message - Merge pull request #15 from cloudant/12726-custom-http-options
+-----------------------------------------------------------------
+
+Merge commit 35 is -> 
+{ 212eb1cded7e49dd7ed78da4ba8ea0ec4dcfee64 is a merge commit
+---> Commit message - Merge pull request #14 from cloudant/12725-include_docs_conflicts
+-----------------------------------------------------------------
+
+Merge commit 36 is -> 
+{ 24137bb723119886407d51e68174e22dad17e57f is a merge commit
+---> Commit message - Merge pull request #13 from cloudant/12728-blacklistable_zones
+-----------------------------------------------------------------
+
+Merge commit 37 is -> 
+{ 465059148ccbc2db2254be02a7035e4865f0b3e9 is a merge commit
+---> Commit message - Merge remote branch 'origin/stuck-continuous-replications' into 1.6.x
+-----------------------------------------------------------------
+
+Merge commit 38 is -> 
+{ a0aaf5d5420011dfc2efc653c8d320cd5f1042c7 is a merge commit
+---> Commit message - Merge pull request #26 from cloudant/12833-fix_unpack_seqs
+-----------------------------------------------------------------
+
+Merge commit 39 is -> 
+{ 910cac9bc6e068a548a057247c692c9f17219fb9 is a merge commit
+---> Commit message - Merge pull request #27 from cloudant/13003-bad-read-repair
+
+BugzID: 13003
+-----------------------------------------------------------------
+
+Merge commit 40 is -> 
+{ c8e8a27661c8cecc63ed1b1b8b4f2d39292eca7d is a merge commit
+---> Commit message - Merge pull request #16 from cloudant/fix-delayed-error-error
+
+Fix error handling with delayed responses
+-----------------------------------------------------------------
+
+Merge commit 41 is -> 
+{ 4ff33e0191d3c907ac2840a1bb37ac6381b9d068 is a merge commit
+---> Commit message - Merge pull request #17 from cloudant/13133-attachment-replication
+
+Call fabric out of process to avoid hangup
+
+BugzID: 13133
+-----------------------------------------------------------------
+
+Merge commit 42 is -> 
+{ 7f7c92af45cfeaccd23ac82d8da0575c220950ed is a merge commit
+---> Commit message - Merge pull request #33 from cloudant/3131-missing-commas-in-changes
+
+BugzID: 3131
+-----------------------------------------------------------------
+
+Merge commit 43 is -> 
+{ 7286ecd8631c0b413cc558ffd8c1734380632965 is a merge commit
+---> Commit message - Merge pull request #14 from cloudant/13044-mem3_sync_security
+
+BugzID: 13044
+-----------------------------------------------------------------
+
+Merge commit 44 is -> 
+{ e6fc5e17a6290d1f6ac314e745047ad8b726e25c is a merge commit
+---> Commit message - Merge pull request #18 from cloudant/13156-check-exceptions
+
+Handle uncaught exceptions from spawned process
+-----------------------------------------------------------------
+
+Merge commit 45 is -> 
+{ f72cfab88d398be7c49c45414923d9e896bbbbd1 is a merge commit
+---> Commit message - Merge pull request #29 from cloudant/13065-design-docs-node-down
+
+Fix callback error handling in fabric:design_docs
+-----------------------------------------------------------------
+
+Merge commit 46 is -> 
+{ 75c407df2fbad5aee5f6b4ed2224f019aede2e8b is a merge commit
+---> Commit message - Merge pull request #31 from cloudant/13080-fabric-doc-update-missing-case
+
+fix missed error case in doc update
+-----------------------------------------------------------------
+
+Merge commit 47 is -> 
+{ 3ebe71052e8566a04349ac4d51be3933e33cad46 is a merge commit
+---> Commit message - Merge pull request #15 from cloudant/13044-1.3.x-mem3_sync_security
+
+BugzID: 13044
+-----------------------------------------------------------------
+
+Merge commit 48 is -> 
+{ 7e1f18cb6a583ced7d12b6b73df88fc8c467edd5 is a merge commit
+---> Commit message - Merge pull request #35 from cloudant/13178-deploy-fabric2-views
+
+BugzID: 13178
+-----------------------------------------------------------------
+
+Merge commit 49 is -> 
+{ 42df8e4bb4b0757258b733b6e53e4b3a342f9897 is a merge commit
+---> Commit message - Merge pull request #3 from cloudant/13298-remove-blocking-send
+-----------------------------------------------------------------
+
+Merge commit 50 is -> 
+{ bf4e3274bc007acd21495bb62b96992440711e2d is a merge commit
+---> Commit message - Merge pull request #36 from cloudant/13351-couchdb-1.2-compatibility
+
+13351 couchdb 1.2 compatibility
+-----------------------------------------------------------------
+
+Merge commit 51 is -> 
+{ be98bdb55edccff59ddc94c55b8aacf2d9a20f52 is a merge commit
+---> Commit message - Merge pull request #38 from cloudant/13461-inconsistent-reduce-hang
+
+BugzID: 13461
+-----------------------------------------------------------------
+
+Merge commit 52 is -> 
+{ e97f50730614a153dea09a78b123a3a84e3c1321 is a merge commit
+---> Commit message - Merge pull request #17 from cloudant/13470-make-ushards-zone-aware
+
+13470 make ushards zone aware
+-----------------------------------------------------------------
+
+Merge commit 53 is -> 
+{ 8a6e6feaa73caf137872b308a9ded44924fb6595 is a merge commit
+---> Commit message - Merge pull request #39 from cloudant/13470-make-get_dbs-zone-aware
+
+13470 make get dbs zone aware
+-----------------------------------------------------------------
+
+Merge commit 54 is -> 
+{ c8ca502d2bf922e6b41d74a973c1b0827a65ec4b is a merge commit
+---> Commit message - Merge pull request #18 from cloudant/13475-mem3-sync-waiting-queue
+
+BugzID: 13475
+-----------------------------------------------------------------
+
+Merge commit 55 is -> 
+{ 32e901672ce4e69bf76cbc5a7bd8b4be147279f6 is a merge commit
+---> Commit message - Merge pull request #43 from cloudant/13480-chunked-attachment-timeouts
+
+BugzID: 13480
+-----------------------------------------------------------------
+
+Merge commit 56 is -> 
+{ 9ec1ac95f12501bb8dd4398083ae142970c5eff4 is a merge commit
+---> Commit message - Merge pull request #44 from cloudant/13480-length-attachment-timeouts
+
+BugzID: 13480
+-----------------------------------------------------------------
+
+Merge commit 57 is -> 
+{ b61a310e91ca82ea85f004a7d148cdee8e4e2ceb is a merge commit
+---> Commit message - Merge pull request #21 from cloudant/13486-fix-zone-shuffle_master
+
+BugzID: 13486
+-----------------------------------------------------------------
+
+Merge commit 58 is -> 
+{ fa58367d5267be504c66f22bf48b72e96f5ef6d2 is a merge commit
+---> Commit message - Merge pull request #22 from cloudant/13486-fix-zone-shuffle_1.3.x
+
+BugzID: 13486
+-----------------------------------------------------------------
+
+Merge commit 59 is -> 
+{ 1ac7528f588e779990fae4203d3062181a27106a is a merge commit
+---> Commit message - Merge pull request #19 from cloudant/13414-mem3-cache-lru
+
+BugzID: 13414
+-----------------------------------------------------------------
+
+Merge commit 60 is -> 
+{ 4785a6b04f0fa82d5fadcc2913a20de75850d041 is a merge commit
+---> Commit message - Merge pull request #41 from cloudant/13414-mem3-cache-lru
+
+BugzID: 13414
+-----------------------------------------------------------------
+
+Merge commit 61 is -> 
+{ aea2c36a85b6d96f7f11a8ffd50cb13a8f520f46 is a merge commit
+---> Commit message - Merge remote-tracking branch 'origin/13469-internal-rep-fix' into 1.3.x
+-----------------------------------------------------------------
+
+Merge commit 62 is -> 
+{ 5043832e00a92d4cbf86e9f244ba839a6cf0fa4e is a merge commit
+---> Commit message - Merge pull request #23 from cloudant/13475-mem3-sync-waiting-queue-13x
+
+Backport use of queue in mem3_sync to 1.3.x
+
+BugzID: 13475
+-----------------------------------------------------------------
+
+Merge commit 63 is -> 
+{ f8f15790250f994b646c2c8b01e04aa91ca7b4aa is a merge commit
+---> Commit message - Merge pull request #24 from cloudant/13504-mem3-sync-large-tables
+
+Optimize mem3 synchronization for large partition tables
+
+BugzID: 13504
+-----------------------------------------------------------------
+
+Merge commit 64 is -> 
+{ 25c6e4b4f8b1e4f13a24276e5257c8217c25701e is a merge commit
+---> Commit message - Merge pull request #26 from cloudant/13504-mem3-sync-large-tables-master
+
+Optimize mem3 synchronization for large partition tables (master)
+
+BugzID: 13504
+-----------------------------------------------------------------
+
+Merge commit 65 is -> 
+{ 0ee896912e5f9dacadf373d2dd7111df2a98a834 is a merge commit
+---> Commit message - Merge pull request #27 from cloudant/fix-initial-sync
+
+Add a manager for node syncrhonization
+-----------------------------------------------------------------
+
+Merge commit 66 is -> 
+{ 87cbec9fe4d8d4b247d189251ca29ccd4d94b344 is a merge commit
+---> Commit message - Merge pull request #20 from cloudant/13470-make-ushards-zone-aware_master
+
+Reimplement mem3:ushards to honor all 5 properties
+
+BugzID: 13470
+-----------------------------------------------------------------
+
+Merge commit 67 is -> 
+{ 6670f05500c1a9eeb83587a01ae485e312cc29bb is a merge commit
+---> Commit message - Merge pull request #42 from cloudant/13470-make-get_dbs-zone-aware_master
+
+Merge pull request #39 from cloudant/13470-make-get_dbs-zone-aware
+
+BugzID: 13470
+-----------------------------------------------------------------
+
+Merge commit 68 is -> 
+{ f25f60e36a7f4aa93616be27ba9400861df01fd5 is a merge commit
+---> Commit message - Merge pull request #28 from cloudant/13529-reconfigure-ring-on-nodeup
+
+Reconfigure ring on nodeup events
+
+BugzID: 13529
+-----------------------------------------------------------------
+
+Merge commit 69 is -> 
+{ 2ca9fa7f017157b0b771370faaf45a6bdbd656b1 is a merge commit
+---> Commit message - Merge pull request #29 from cloudant/13511-1.3.x-improve-internal-replicator
+
+Improve internal replicator configuration
+
+BugzID: 13511
+-----------------------------------------------------------------
+
+Merge commit 70 is -> 
+{ 14d144e30bcb9ab2b5b5da9452261c15a967d001 is a merge commit
+---> Commit message - Merge pull request #45 from cloudant/13525-use-live-nodes-shard-replacement
+
+Use only shards on live nodes in send_changes
+
+BugzID: 13525
+-----------------------------------------------------------------
+
+Merge commit 71 is -> 
+{ d9ce500836f8149a873d742fc329a0dd52af2bfc is a merge commit
+---> Commit message - Merge pull request #46 from cloudant/13125-bubble-not-found-errors
+
+Bubble db not found errors
+
+BugzID: 13125
+-----------------------------------------------------------------
+
+Merge commit 72 is -> 
+{ 1537f77ea26d7291516d01acd3c9250cbc5110ef is a merge commit
+---> Commit message - Merge pull request #49 from cloudant/dreyfus
+
+Dreyfus
+-----------------------------------------------------------------
+
+Merge commit 73 is -> 
+{ 3ac57c7fa4a5be84404c185ea4ad56406c293756 is a merge commit
+---> Commit message - Merge pull request #48 from cloudant/13586-chunked-encoded-data
+
+Handle nulls that occur in embedded ids
+
+BugzID: 13586
+-----------------------------------------------------------------
+
+Merge commit 74 is -> 
+{ 4704323acf066edd95a9b3be33ada9cb0d903e56 is a merge commit
+---> Commit message - Merge pull request #30 from cloudant/13606-node-info-ets
+
+Publish node metadata in a protected ets table
+
+BugzID: 13606
+-----------------------------------------------------------------
+
+Merge commit 75 is -> 
+{ ec95dd3a88f6812bbcdea4addf008060fa4b34a2 is a merge commit
+---> Commit message - Merge branch '1.6.x'
+
+Conflicts:
+	rebar.config
+	src/fabric_db_doc_count.erl
+	src/fabric_db_info.erl
+	src/fabric_group_info.erl
+	src/fabric_rpc.erl
+	src/fabric_util.erl
+	src/fabric_view_changes.erl
+
+BugzID: 13177
+-----------------------------------------------------------------
+
+Merge commit 76 is -> 
+{ d39a79156950a2993ac988da84c59f79caadf572 is a merge commit
+---> Commit message - Merge branch '1.3.x'
+
+Conflicts:
+	src/mem3.erl
+	src/mem3_cache.erl
+	src/mem3_nodes.erl
+	src/mem3_rep.erl
+	src/mem3_sup.erl
+	src/mem3_sync.erl
+	src/mem3_sync_event.erl
+
+BugzID: 13780
+-----------------------------------------------------------------
+
+Merge commit 77 is -> 
+{ e54ae8d527b69332b85747d2315c7d857c1b9604 is a merge commit
+---> Commit message - Merge 'origin/replicator', closes #16
+
+Conflicts:
+	src/mem3_rep_manager.erl
+	src/mem3_sup.erl
+	src/mem3_util.erl
+
+Case 13884
+-----------------------------------------------------------------
+
+Merge commit 78 is -> 
+{ 1090cde76e26ddad7efff72b03803cad31f4bf65 is a merge commit
+---> Commit message - Merge pull request #50 from cloudant/13932-open-revs-rexi-down
+
+Fix handling of choose_winner when DOWN is first message
+
+BugzID: 13932
+-----------------------------------------------------------------
+
+Merge commit 79 is -> 
+{ 4f3f1f95698f56fc5babc09fb20136705c33e5f4 is a merge commit
+---> Commit message - Merge pull request #51 from cloudant/13485-attachment-latency
+
+Improve intermittent attachment latency
+
+BugzID: 13485
+-----------------------------------------------------------------
+
+Merge commit 80 is -> 
+{ ab8d4f19e4d7853e408c39e810d532825337cfe7 is a merge commit
+---> Commit message - Merge pull request #40 from cloudant/13421-changes-decays2
+
+Use a separate mailbox for 'db_updated' messages
+
+BugzID: 13421
+-----------------------------------------------------------------
+
+Merge commit 81 is -> 
+{ 4ff8e698c0b5e9fb7454e08cd7c2e697c53a2f33 is a merge commit
+---> Commit message - Merge pull request #52 from cloudant/14007-fix-fabric-reduce
+
+Fix unnecessary OS process acquisition
+
+BugzID: 14007
+-----------------------------------------------------------------
+
+Merge commit 82 is -> 
+{ 8055f14304bc5505a7b49bfd6142ea53fcc00a17 is a merge commit
+---> Commit message - Merge pull request #4 from cloudant/13311-improve-view-back-pressure
+
+Implement message stream interface
+
+BugzID: 13311
+BugzID: 14075
+-----------------------------------------------------------------
+
+Merge commit 83 is -> 
+{ bfa46eb2037d3d4af10ecb0fa40728254440d45e is a merge commit
+---> Commit message - Merge pull request #53 from cloudant/14075-stream-view-rows-internally
+
+Deploy worker side of new view coordination algorithm
+
+BugzID: 14075
+-----------------------------------------------------------------
+
+Merge commit 84 is -> 
+{ 15d00e7e82c3faccfd0a7baf6ad3985fe6676acf is a merge commit
+---> Commit message - Merge pull request #54 from cloudant/14082-cleanup-db-update-listeners
+
+BugzID: 14082
+-----------------------------------------------------------------
+
+Merge commit 85 is -> 
+{ e5ef479e9d34300e502072ab27b388f209b3a263 is a merge commit
+---> Commit message - Merge pull request #31 from cloudant/14348-node-redirects
+
+Configurable redirect of mem3 push jobs
+
+BugzID: 14348
+-----------------------------------------------------------------
+
+Merge commit 86 is -> 
+{ 86ce90c476b239df560f2432c96e8623047fdd41 is a merge commit
+---> Commit message - Merge pull request #58 from cloudant/14636-use-endkey-for-design-docs
+
+Set an endkey when pulling design docs
+
+BugzID: 14636
+-----------------------------------------------------------------
+
+Merge commit 87 is -> 
+{ 187c798465de9b4190e9fe06ab727c16cf53c726 is a merge commit
+---> Commit message - Merge pull request #32 from cloudant/14654-mem3-sync-stuck-replications
+
+Fix stuck internal replications after node down
+
+BugzID: 14654
+-----------------------------------------------------------------
+
+Merge commit 88 is -> 
+{ b239d17fe3ecd4786f37f5f4de50b1d0f477a356 is a merge commit
+---> Commit message - Merge pull request #34 from cloudant/explicit_zone_placement
+
+Explicit zone placement
+
+BugzID: 14920
+-----------------------------------------------------------------
+
+Merge commit 89 is -> 
+{ 13f256c807d02cbcca1da2fbcda85c29c119518a is a merge commit
+---> Commit message - Merge pull request #61 from cloudant/14833-spurious-conflict
+
+BugzID: 14953
+-----------------------------------------------------------------
+
+Merge commit 90 is -> 
+{ bd4b89717315f6550b56a141fb771b147440a0d5 is a merge commit
+---> Commit message - Merge pull request #33 from cloudant/11602-sync-security
+
+BugzID: 11602
+-----------------------------------------------------------------
+
+Merge commit 91 is -> 
+{ 4fc04da7b1e740f3fb9d852f1590b51027315406 is a merge commit
+---> Commit message - Merge pull request #60 from cloudant/11602-sync-security
+
+BugzID: 11602
+-----------------------------------------------------------------
+
+Merge commit 92 is -> 
+{ e65b6376f560fa523b4cab97d271437251db9932 is a merge commit
+---> Commit message - Merge pull request #62 from cloudant/14953-spurious-conflict
+
+Fix spurious conflicts by only considering 'ok' responses in quorum check
+
+BugzID: 14953
+-----------------------------------------------------------------
+
+Merge commit 93 is -> 
+{ 9ae7dd0d56249339afaf2588cdd92c69abefd08b is a merge commit
+---> Commit message - Merge pull request #56 from cloudant/13600-optimize-update-notifications
+
+Optimize db update notifications
+
+BugzID: 13575
+BugzID: 13600
+-----------------------------------------------------------------
+
+Merge commit 94 is -> 
+{ 08f73ee194324466d16816507dab73977061b13e is a merge commit
+---> Commit message - Merge pull request #1 from garrensmith/fauxton-couchapp
+
+Add support to install as a Couchapp - thanks Garren!
+-----------------------------------------------------------------
+
+Merge commit 95 is -> 
+{ afa6b256cddf8e66ca64a5ffac01676352fd75e4 is a merge commit
+---> Commit message - Merge pull request #2 from garrensmith/fauxton_logs
+
+Add logs module to display couchdb logs in Fauxton
+-----------------------------------------------------------------
+
+Merge commit 96 is -> 
+{ 9265a5c44a810c9d675ad667559dcbdfd914304e is a merge commit
+---> Commit message - Merge pull request #63 from cloudant/15358-replicator-writes-quorum-regression
+
+Consider 'noreply' as a success for quorum check
+
+BugzID: 15358
+-----------------------------------------------------------------
+
+Merge commit 97 is -> 
+{ b6c5ecae46aada465258a400da0f7e06096b2155 is a merge commit
+---> Commit message - Merge pull request #3 from vmx/patch-1
+
+Changing "Install as Couchapp" instructions
+-----------------------------------------------------------------
+
+Merge commit 98 is -> 
+{ 5856f5c402579bddd1e6f7f51df95ebe9a67f4b7 is a merge commit
+---> Commit message - Merge pull request #4 from garrensmith/router_clean_up
+
+Router remove(), log clean up and fix couchapp grunt tasks
+-----------------------------------------------------------------
+
+Merge commit 99 is -> 
+{ f7c8c6cf1b2b787a17b8aaad55babe385fec81f9 is a merge commit
+---> Commit message - Merge pull request #5 from garrensmith/router_changes
+
+comments and changes to the router
+-----------------------------------------------------------------
+
+Merge commit 100 is -> 
+{ abec0b5ac9a6cd1bcc7df56f93ae0bc52da1c2e4 is a merge commit
+---> Commit message - Merge pull request #6 from garrensmith/config_view
+
+Configuration view for Fauxton
+-----------------------------------------------------------------
+
+Merge commit 101 is -> 
+{ 1cb21afe9d3ad048cbf2fe1ee23507bc72dbf179 is a merge commit
+---> Commit message - Merge branch 'fauxton' of https://github.com/cloudant-labs/couchdb into fauxton
+-----------------------------------------------------------------
+
+Merge commit 102 is -> 
+{ 2bdfbbe732199701541d25476e77a7524d2a9616 is a merge commit
+---> Commit message - Merge pull request #7 from garrensmith/filter_logs
+
+Added a filter sidebar to logs
+-----------------------------------------------------------------
+
+Merge commit 103 is -> 
+{ 37b66d3595c63e3cb805d61d89ec65ef3298c86d is a merge commit
+---> Commit message - Merge pull request #64 from cloudant/15562-monitor-mp-parser
+
+Monitor the multipart parser process
+
+BugzID: 15562
+-----------------------------------------------------------------
+
+Merge commit 104 is -> 
+{ b73311b880d010d19e8a6bf92980c5391db64de8 is a merge commit
+---> Commit message - Merge pull request #65 from cloudant/13311-improve-view-back-pressure
+
+Use rexi:stream/1 for view backpressure
+
+BugzID: 13311
+-----------------------------------------------------------------
+
+Merge commit 105 is -> 
+{ ed385ea4be9e18a4d372bb5243c3d50ee85dab8a is a merge commit
+---> Commit message - Merge pull request #66 from cloudant/13311-fix-reduce-views
+
+Fix reduce views with new rexi:stream
+
+BugzID: 13311
+-----------------------------------------------------------------
+
+Merge commit 106 is -> 
+{ f785dc994f86acc05f10a89999d1ec52617531f5 is a merge commit
+---> Commit message - Merge commit '73a5864' from 15676-use-stream-in-fabric-rpc
+
+BugzID: 15676
+-----------------------------------------------------------------
+
+Merge commit 107 is -> 
+{ f38514e1fc49fd02d3e31f4eac3d2501f00896ab is a merge commit
+---> Commit message - Merge pull request #67 from cloudant/13088-throttle-all-docs
+
+Throttle parallel doc lookup requests
+
+BugzID: 13088
+-----------------------------------------------------------------
+
+Merge commit 108 is -> 
+{ 3d14661c8903a46b7a4f7c2e477b1e78a4cf95ab is a merge commit
+---> Commit message - Merge pull request #68 from cloudant/15492-fix-showroom-users-cache
+
+BugzID: 15492
+-----------------------------------------------------------------
+
+Merge commit 109 is -> 
+{ 40bceecc2977bcc0e6f420248c269289b82106e3 is a merge commit
+---> Commit message - Merge branch 'fauxton' of https://github.com/cloudant-labs/couchdb into fauxton
+-----------------------------------------------------------------
+
+Merge commit 110 is -> 
+{ 788515b2dce5c96ada20498550c1b41109aeb782 is a merge commit
+---> Commit message - Merge branch 'fauxton' of https://github.com/cloudant-labs/couchdb into fauxton
+-----------------------------------------------------------------
+
+Merge commit 111 is -> 
+{ 895eea4e6d4117870e05449f29bbf3d5a1b993f4 is a merge commit
+---> Commit message - Merge pull request #70 from cloudant/14957-replace-read-repair
+
+Refactor read repair to rely on winning revisions
+
+BugzID: 14957
+-----------------------------------------------------------------
+
+Merge commit 112 is -> 
+{ c0b430302f72c72e590ebb0f2ad11c03fce2adaf is a merge commit
+---> Commit message - Merge pull request #35 from cloudant/15924-dont-resurrect-on-delete
+
+Don't resurrect shards on deletion
+-----------------------------------------------------------------
+
+Merge commit 113 is -> 
+{ 755759e6a63b5354647a9286de8fe25f59f931a3 is a merge commit
+---> Commit message - Merge pull request #36 from cloudant/13605-fix-shards-badmatch
+
+Protect against cache_hits on non-existant entries
+
+BugzID: 13605
+-----------------------------------------------------------------
+
+Merge commit 114 is -> 
+{ 66edcfe3ee1d32a8ab7b4074e01aa5ae5c09f9db is a merge commit
+---> Commit message - Merge branch 'fauxton-plugins' into fauxton
+
+Conflicts:
+	src/fauxton/app/modules/databases/views.js
+-----------------------------------------------------------------
+
+Merge commit 115 is -> 
+{ 52b0d0debe375f43fd404a296f3133c7fcabbbd7 is a merge commit
+---> Commit message - Merge pull request #71 from cloudant/16118-dont-timeout-during-upload
+
+dont timeout during upload
+-----------------------------------------------------------------
+
+Merge commit 116 is -> 
+{ 0158038b21925b37e6c3367d38e2ccba17f4d9c5 is a merge commit
+---> Commit message - Merge remote-tracking branch 'origin/15676-use-stream-in-fabric-rpc'
+-----------------------------------------------------------------
+
+Merge commit 117 is -> 
+{ 24ec3e98913eccda2415517f9790ba6f69720e44 is a merge commit
+---> Commit message - Merge pull request #11 from cloudant-labs/fauxton-notifications-savedoc-createdb
+
+Fauxton notifications savedoc createdb
+-----------------------------------------------------------------
+
+Merge commit 118 is -> 
+{ 37761acc101d0385686a0c407b148e840756342e is a merge commit
+---> Commit message - Merge pull request #12 from garrensmith/log_fix
+
+Fix namespace issue that was causing filters not be able to be cleared
+-----------------------------------------------------------------
+
+Merge commit 119 is -> 
+{ d239e0c48b8833597028f0cc50996b5ccee58969 is a merge commit
+---> Commit message - Merge pull request #6 from cloudant/16883-smaller-send-buffer
+
+Reduce stream message limit
+-----------------------------------------------------------------
+
+Merge commit 120 is -> 
+{ 9dfa09a0968c4719982f97f1a959bd976d25c2a8 is a merge commit
+---> Commit message - Merge pull request #14 from garrensmith/small-fixes
+
+Changes + log date formating + delete database
+-----------------------------------------------------------------
+
+Merge commit 121 is -> 
+{ 78f305449837143ffe52cffb8807cc876c7aa1ff is a merge commit
+---> Commit message - Merge branch '1675-fix-roles-validation'
+-----------------------------------------------------------------
+
+Merge commit 122 is -> 
+{ 3da27d54d62f5c09aab3760dfb3c298d78adbe76 is a merge commit
+---> Commit message - Merge pull request #7 from cloudant/15608-too-much-spawning2
+
+Install a governor to limit the amount of spawning we'll do to send messages to an unresponsive node.
+
+BugzID: 15608
+-----------------------------------------------------------------
+
+Merge commit 123 is -> 
+{ ff4140f045e0896392d8a11a539ed53cc670d0e5 is a merge commit
+---> Commit message - Merge pull request #15 from cloudant-labs/fauxton-assets-for-addons
+
+Assets for addons
+-----------------------------------------------------------------
+
+Merge commit 124 is -> 
+{ 0de819bfa66c80351254c5f9418adc294732abae is a merge commit
+---> Commit message - Merge pull request #72 from cloudant/17371-disconnect-changes-eventually
+
+Limit the duration of a continuous _changes feed
+
+BugzID: 17371
+-----------------------------------------------------------------
+
+Merge commit 125 is -> 
+{ 5e24a8901b1a4cd328b011b60c586390e4b4c88d is a merge commit
+---> Commit message - Merge pull request #39 from cloudant/15754-mem3-sync-backlog
+
+Add an API for mem3_sync queue lengths
+
+BugzID: 15754
+-----------------------------------------------------------------
+
+Merge commit 126 is -> 
+{ 2e9b66bc3fb5d4267530d54c894917d5718ff0e0 is a merge commit
+---> Commit message - Merge pull request #38 from cloudant/17185-reduce-log-spam
+
+Replace cache miss log with metrics
+
+BugzID: 17185
+-----------------------------------------------------------------
+
+Merge commit 127 is -> 
+{ 501569386f4914fbf4f26bcca20b5987994d6dd1 is a merge commit
+---> Commit message - Merge pull request #73 from cloudant/17240-16415-replication-checkpoints
+
+Prevent permanent holes in replication checkpoints
+
+BugzID: 16415
+BugzID: 17240
+-----------------------------------------------------------------
+
+Merge commit 128 is -> 
+{ c09e3cc76f0e19ef1c2da624b57d67ec09a52b16 is a merge commit
+---> Commit message - Merge branch 'pr/44' into fauxton
+
+Fauxton addons
+-----------------------------------------------------------------
+
+Merge commit 129 is -> 
+{ 68d36d33819c09af30daabea98e093f2b1622e2c is a merge commit
+---> Commit message - Merge pull request #16 from garden20/fauxton-couchapp-rewrites
+
+Adding support for fauxton behind a rewrite in a couchapp
+-----------------------------------------------------------------
+
+Merge commit 130 is -> 
+{ d34ff6764ebae4a600a8669522e7e9b53d570fdb is a merge commit
+---> Commit message - Merge pull request #75 from cloudant/13487-view-group-interface
+
+Use interface instead of direct #group access, prepare to not send #groups between nodes
+
+BugzID: 13487
+-----------------------------------------------------------------
+
+Merge commit 131 is -> 
+{ 914901ed86568a9d52607f9f155cca603dc04b2b is a merge commit
+---> Commit message - Merge pull request #74 from cloudant/17527-local-docs-leak
+
+Omit local docs from read repair operation
+
+BugzID: 17527
+-----------------------------------------------------------------
+
+Merge commit 132 is -> 
+{ 35b8b2dd3ecf5024b247a77a5af6450cdbe522db is a merge commit
+---> Commit message - Merge pull request #1 from cloudant/13179-config-refactor
+
+Allow multiple listeners per callback module
+-----------------------------------------------------------------
+
+Merge commit 133 is -> 
+{ 76ba13c6a9c1fb343d852c54472a2c36d87ef0a2 is a merge commit
+---> Commit message - Merge pull request #76 from cloudant/13179-config-refactor
+
+Use config app instead of couch_config
+-----------------------------------------------------------------
+
+Merge commit 134 is -> 
+{ 8740fb465cdb51b1637d6da541c0ae2546769dc0 is a merge commit
+---> Commit message - Merge pull request #40 from cloudant/13179-refactor-config-registration
+
+Use config app instead of couch_config
+-----------------------------------------------------------------
+
+Merge commit 135 is -> 
+{ 88b2474371fb786567c4e372fa7a4240fcd1c5ea is a merge commit
+---> Commit message - Merge pull request #77 from cloudant/17682-disable-changes-termination
+
+Disable _changes feed termination by default
+
+BugzID: 17682
+-----------------------------------------------------------------
+
+Merge commit 136 is -> 
+{ 7d73a824acb6053b501a7f6dbd887168bad2fdb0 is a merge commit
+---> Commit message - Merge pull request #17 from cloudant-labs/fauxton-pouch-mr
+
+Advanced _view options and editor
+-----------------------------------------------------------------
+
+Merge commit 137 is -> 
+{ cfbb28072fee3ae3b4ebf9a576f26c8ae021b956 is a merge commit
+---> Commit message - Merge pull request #42 from cloudant/17801-spread-the-pain
+
+BugzID: 17801
+-----------------------------------------------------------------
+
+Merge commit 138 is -> 
+{ 432061b3e93508e48ed23c108e8a91d3b3883a86 is a merge commit
+---> Commit message - Merge pull request #79 from cloudant/13487-send-ddoc-not-group
+
+Send #doc{} instead of #group{} to remote nodes
+
+BugzID: 13487
+-----------------------------------------------------------------
+
+Merge commit 139 is -> 
+{ d46915a6dfa996ec22608d91472923943d2d2ec6 is a merge commit
+---> Commit message - Merge pull request #43 from cloudant/guard-against-empty-list
+
+Guard against empty list
+-----------------------------------------------------------------
+
+Merge commit 140 is -> 
+{ 5b898571b4feb8e830c1c2df3533cc90c5ebffe1 is a merge commit
+---> Commit message - Merge pull request #2 from cloudant/log-config-changes
+
+Log all config changes
+-----------------------------------------------------------------
+
+Merge commit 141 is -> 
+{ 283e25a23147883c497203fa03e38ea552b40225 is a merge commit
+---> Commit message - Merge pull request #19 from cloudant-labs/1690-template-settings-from-config
+
+1690 template settings from config
+-----------------------------------------------------------------
+
+Merge commit 142 is -> 
+{ b18aa31b75f09e31028a97a74dffd81fc0b5667a is a merge commit
+---> Commit message - Merge pull request #20 from cloudant-labs/fauxton-fix-pouchdb-import
+
+Fix import of pouchdb
+-----------------------------------------------------------------
+
+Merge commit 143 is -> 
+{ 25881bb138b9341c1b31f573efe094f26ce66de9 is a merge commit
+---> Commit message - Merge remote-tracking branch 'upstream/fauxton' into fauxton
+
+Conflicts:
+	src/fauxton/app/templates/databases/sidebar.html
+	src/fauxton/app/templates/fauxton/api_bar.html
+-----------------------------------------------------------------
+
+Merge commit 144 is -> 
+{ c26433204577d52d1148bb9d5f9d7ca960423f68 is a merge commit
+---> Commit message - Merge remote-tracking branch 'github/pr/52' into fauxton
+-----------------------------------------------------------------
+
+Merge commit 145 is -> 
+{ 4e3d67456c60e456bcb267e765e7df7d3429913c is a merge commit
+---> Commit message - Merge branch 'fauxton'
+
+Conflicts:
+	.gitignore
+	NOTICE
+	configure.ac
+	license.skip
+-----------------------------------------------------------------
+
+Merge commit 146 is -> 
+{ 5a4ed86c8dc02c9d350984a7d8382674b969a784 is a merge commit
+---> Commit message - Import config app
+-----------------------------------------------------------------
+
+Merge commit 147 is -> 
+{ 388b04e77f37a59e4cba840611ef9632f9f90315 is a merge commit
+---> Commit message - Import twig app
+-----------------------------------------------------------------
+
+Merge commit 148 is -> 
+{ 051af47c09862d2e781ac798ff4f808c55f716a3 is a merge commit
+---> Commit message - Import rexi app
+-----------------------------------------------------------------
+
+Merge commit 149 is -> 
+{ 16f6c3322568d2c768dea98d41daa5d44adbc8ae is a merge commit
+---> Commit message - Import mem3 app
+-----------------------------------------------------------------
+
+Merge commit 150 is -> 
+{ e5b8a4259a32c6e3b77fb5a273c51f82eca03207 is a merge commit
+---> Commit message - Import fabric app
+-----------------------------------------------------------------
+
+Merge commit 151 is -> 
+{ 6c4a789610ea45076cd8b5b78ed6f1b785ef9f1d is a merge commit
+---> Commit message - Import ets_lru app
+-----------------------------------------------------------------
+
+Merge commit 152 is -> 
+{ 2b2d0b94424f5744332ae812eada145ea2693a80 is a merge commit
+---> Commit message - Import ddoc_cache app
+-----------------------------------------------------------------
+
+Merge commit 153 is -> 
+{ bedcd1fa67d953e7770505b02d72507a1649ba57 is a merge commit
+---> Commit message - Import chttpd app
+-----------------------------------------------------------------
+
+Merge commit 154 is -> 
+{ 97505126c90469e7588272d0eec451b93159cd9a is a merge commit
+---> Commit message - Merge branch 'various-tests' of https://github.com/jo/couchdb
+
+* 'various-tests' of https://github.com/jo/couchdb:
+  Test form-urlencoded doc update
+  Test attachment upload via multipart/form-data
+
+Closes PR #55
+-----------------------------------------------------------------
+
+Merge commit 155 is -> 
+{ 3a678cebf98c856f521e97280ffaae48a84ae4f6 is a merge commit
+---> Commit message - COUCHDB-1755 notifications should take templates
+
+Added the option to pass a template for custom notifications as well as
+data. Data is serialized so it can be accessed in the custom template.
+-----------------------------------------------------------------
+
+Merge commit 156 is -> 
+{ 4abe8cd97f1dfe15c414989af67703952cb607fa is a merge commit
+---> Commit message - Merge remote-tracking branch 'ocasta/1799-rewrite-session-cookie-fix'
+
+Fixes COUCHDB-1799
+-----------------------------------------------------------------
+
+Merge commit 157 is -> 
+{ 917d89884e3dc9317eba1728ec1702f88d2ba670 is a merge commit
+---> Commit message - Merge branch '1684-feature-db-updates'
+
+* 1684-feature-db-updates:
+  Import couch_dbupdates from rcouch.
+-----------------------------------------------------------------
+
+Merge commit 158 is -> 
+{ b45574065b7a7eebc8d017d789b64807fdd05fa7 is a merge commit
+---> Commit message - Merge branch '1697-fix-if-non-match-cors'
+-----------------------------------------------------------------
+
+Merge commit 159 is -> 
+{ 05401801cc3e795cf41f889c00e90e7742320eba is a merge commit
+---> Commit message - Merge remote-tracking branch 'origin/1334-revert-feature-view-server-pipelining'
+-----------------------------------------------------------------
+
+Merge commit 160 is -> 
+{ c843cef7e90036bb91c3e066d32143d46e80e322 is a merge commit
+---> Commit message - Merge remote-tracking branch 'adamlofts/1493-fix-zerobyte-json-parsing'
+-----------------------------------------------------------------
+
+Merge commit 161 is -> 
+{ 5bdd87e669adeaacca8eac3e398836d5fd1b160a is a merge commit
+---> Commit message - Merge branch 'vagrantfile_fix' of https://github.com/nvdev/couchdb
+
+* 'vagrantfile_fix' of https://github.com/nvdev/couchdb:
+  Fixed typos in Vagrantfile
+-----------------------------------------------------------------
+
+Merge commit 162 is -> 
+{ 17e0b7c6e103b81d9abca39cedfd5378a467bdfc is a merge commit
+---> Commit message - Merge branch '1781-reorganize-and-improve-docs'
+-----------------------------------------------------------------
+
+Merge commit 163 is -> 
+{ 073f9e2528b68a94bdaa114bc6dc19d978740847 is a merge commit
+---> Commit message - Merge branch '1425-fix-graceful-surrogate-handling'
+
+* 1425-fix-graceful-surrogate-handling:
+  Handle invalid UTF-8 byte sequences gracefully by replacing them with 0xFFFD
+-----------------------------------------------------------------
+
+Merge commit 164 is -> 
+{ cf84c3e85a597d8e9df55e7a6d91a660ccecc095 is a merge commit
+---> Commit message - Merge branch '1888-fix-user-fields-disabled-for-admins'
+
+* 1888-fix-user-fields-disabled-for-admins:
+  admins can always read all doc fields, regardless of public_fields
+-----------------------------------------------------------------
+
+Merge commit 165 is -> 
+{ 4ca2ceccfb360c76f4e6033d93fa9fedd34d9ce7 is a merge commit
+---> Commit message - Merge branch '1901-atomic-multipart-retries' of https://github.com/apache/couchdb
+
+Merged after r+ from rnewson on IRC, general trustworthiness of process.
+-----------------------------------------------------------------
+
+Merge commit 166 is -> 
+{ 659699def483c4cd59e273bfe130fe1bde067245 is a merge commit
+---> Commit message - Merge branch 'build-system-fixes-1.5.x'
+
+* build-system-fixes-1.5.x: (22 commits)
+  the last line is intentionally left blank to appease POSIX gods
+  [my-first-couchdb-plugin] remove note about ex-Makefile.dist
+  move build system edits for my-first-couchdb-plugin to src/
+  [my-first-couchdb-plugin] use Apache 2 License
+  move erlang-version.escript to EXTRA_DIST
+  add erlang-version.escript to bin_SCRIPTS
+  update license.skip with generated files
+  fix fauxton adds
+  fix typo
+  add my-first-couchdb-plugin .gitignore
+  remove more accidental edits
+  remove accidental edit
+  advise renaming the Makefile
+  custom Makefile for my-first-couchdb-plugin
+  add src/couchjs-node/Makedile to configure.ac
+  trailing spaces
+  set up my-first-couchdb-plugin with EXTRA_DIST
+  set up couchjs-node with EXTRA_DIST
+  add fauxton dist to Makefile
+  add plugins.html & pagination.rst to Makefiles
+  ...
+-----------------------------------------------------------------
+
+Merge commit 167 is -> 
+{ 01925664dc3c9d793746a8bb649331726662a8f1 is a merge commit
+---> Commit message - Merge branch 'remove-e4x-tests'
+
+* remove-e4x-tests:
+  remove E4X tests
+-----------------------------------------------------------------
+
+Merge commit 168 is -> 
+{ c5f51b5da0170777b7c8de4c1c6a648c84d1dc3d is a merge commit
+---> Commit message - Merge branch '1930-fix-futon-save-document-with-_id' of https://github.com/benru/couchdb
+-----------------------------------------------------------------
+
+Merge commit 169 is -> 
+{ 818ef4f9a263a6d9b8555521478327bc69fc9e2e is a merge commit
+---> Commit message - Merge branch '1795-fix-pidfile-race'
+
+Patch via Dileep Bapat
+https://github.com/dileepbapat/couchdb/commit/f90476074504058c81a6e73814266a5a0724fc55.patch
+-----------------------------------------------------------------
+
+Merge commit 170 is -> 
+{ 0bf1856ba94f092022804d8c42e8a074befe87c6 is a merge commit
+---> Commit message - Merge branch '2007-fix-docs-under-ci'
+
+* 2007-fix-docs-under-ci:
+  Docs: Fix doc building under CI
+-----------------------------------------------------------------
+
+Merge commit 171 is -> 
+{ 1c0fe36523c54d752aad49c8af3cceb745f3661f is a merge commit
+---> Commit message - Merge branch '2025-feature-socks5'
+-----------------------------------------------------------------
+
+Merge commit 172 is -> 
+{ 37c8459693dbf55cd4683c7e288dcc9ca8899e97 is a merge commit
+---> Commit message - Merge branch '2031-fix-qs-rewrite'
+
+Closes COUCHDB-2031
+-----------------------------------------------------------------
+
+Merge commit 173 is -> 
+{ 6fd38404137e2c61f9eb915c52caaea8c9a643e6 is a merge commit
+---> Commit message - Merge branch '1953-fix-mime-multipart-parsing'
+-----------------------------------------------------------------
+
+Merge commit 174 is -> 
+{ 918563154d5f93a7f979b0b344c031be761a89b2 is a merge commit
+---> Commit message - Merge branch 'added-documentation-fixes' of https://github.com/andywenk/couchdb
+-----------------------------------------------------------------
+
+Merge commit 175 is -> 
+{ 14a38b783f11d11fd63fcf89686431279ad91da5 is a merge commit
+---> Commit message - Merge branch 'key-vs-keys'
+-----------------------------------------------------------------
+
+Merge commit 176 is -> 
+{ c6c37945920983d0c2dec01e1cf85398bad58a52 is a merge commit
+---> Commit message - Merge branch '2059-feature-url-len'
+-----------------------------------------------------------------
+
+Merge commit 177 is -> 
+{ 3ad1f6a76e10ccf4f9608fd6d8de06da7491c548 is a merge commit
+---> Commit message - Merge branch '2059-feature-uri-len-negotiation'
+-----------------------------------------------------------------
+
+Merge commit 178 is -> 
+{ 8c867577cea2de7410eec33aa6358d1f20b5486d is a merge commit
+---> Commit message - Merge branch '1780-upgrade-password-hashes-on-authentication'
+-----------------------------------------------------------------
+
+Merge commit 179 is -> 
+{ e07cc8291bf5338ea7a86094ad43b2878e72b265 is a merge commit
+---> Commit message - Merge branch 'my-first-couch-plugin-readme-typos' of https://github.com/marianoguerra/couchdb
+
+* 'my-first-couch-plugin-readme-typos' of https://github.com/marianoguerra/couchdb:
+  spell checking my-first-couchdb-plugin's README
+
+This closes #185
+-----------------------------------------------------------------
+
+Merge commit 180 is -> 
+{ 304c144606594d16b74bfac9e6d9c61fdfbc4264 is a merge commit
+---> Commit message - Merge branch 'my-first-couch-plugin-readme-typos'
+
+'my-first-couch-plugin-readme-typos' of https://github.com/marianoguerra/couchdb
+
+* update opening note 868e171
+* update clone command to clone from github repo
+
+This closes #186
+-----------------------------------------------------------------
+
+Merge commit 181 is -> 
+{ a7a6d2eec4d79dc12afed7cffbc5e4dc4c45e42f is a merge commit
+---> Commit message - Merge branch 'fix/build2' of https://github.com/robertkowalski/couchdb
+
+This closes #190
+-----------------------------------------------------------------
+
+Merge commit 182 is -> 
+{ 631d033e37ce4116ad3f1f64a4796472c90f39ac is a merge commit
+---> Commit message - Merge branch '2221-bug-validate-auth-params'
+-----------------------------------------------------------------
+
+Merge commit 183 is -> 
+{ 74238d0b1ddc5ad51d4cebf5eabde4f3e5340949 is a merge commit
+---> Commit message - Merge branch 'master' of https://github.com/pegli/couchdb (closes #211)
+-----------------------------------------------------------------
+
+Merge commit 184 is -> 
+{ 296de8b1fe69e66d649294fd0445449b18c49194 is a merge commit
+---> Commit message - Merge branch 'refs/heads/2200-feature-support-erlang-17.0'
+
+- closes COUCHDB-2200
+
+* refs/heads/2200-feature-support-erlang-17.0:
+  docs: update supported Erlang/OTP and SpiderMonkey versions
+  build: detect new erlang version format correctly
+-----------------------------------------------------------------
+
+Merge commit 185 is -> 
+{ 65260510eff0479ac9d1cb8e68e9aa8619f39d1b is a merge commit
+---> Commit message - Merge branch '1843-feature-bigcouch'
+-----------------------------------------------------------------
+
+Merge commit 186 is -> 
+{ aa9f32d8f38b5e366e546843d1fe73bf317bb93c is a merge commit
+---> Commit message - Merge branch 'windsor-merge'
+-----------------------------------------------------------------
+
+Merge commit 187 is -> 
+{ 63d6d6409e8a721961c632075d6e2e80ff34c113 is a merge commit
+---> Commit message - Merge remote-tracking branch 'origin/1963-eunit-bigcouch'
+-----------------------------------------------------------------
+

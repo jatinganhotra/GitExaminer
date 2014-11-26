@@ -4,9 +4,9 @@ Revert diff pair 1 is ->
 { b43d9e47325bec0f3e1a0d612beaf56bd8d9ba01 -> 6c64ea3ba07823be79f4b61a1a2757da770895c8 }
 Revert commits SHA are -> 
 b43d9e47325bec0f3e1a0d612beaf56bd8d9ba01 - revert - 6c64ea3ba07823be79f4b61a1a2757da770895c8
-The reverted commit sha is - b43d9e47325bec0f3e1a0d612beaf56bd8d9ba01
+---> The reverted commit sha is - b43d9e47325bec0f3e1a0d612beaf56bd8d9ba01
 Commit message - test 17.{2,3}
-The original commit sha is - 6c64ea3ba07823be79f4b61a1a2757da770895c8
+---> The original commit sha is - 6c64ea3ba07823be79f4b61a1a2757da770895c8
 Commit message - Revert "test 17.{2,3}"
 
 This reverts commit b43d9e47325bec0f3e1a0d612beaf56bd8d9ba01.
@@ -17,9 +17,9 @@ Revert diff pair 2 is ->
 { a02de954760e456a0ce85dca0b67fee17f27042e -> d3094366b6775e7a545fd882864ed3a1a4a0f68d }
 Revert commits SHA are -> 
 a02de954760e456a0ce85dca0b67fee17f27042e - revert - d3094366b6775e7a545fd882864ed3a1a4a0f68d
-The reverted commit sha is - a02de954760e456a0ce85dca0b67fee17f27042e
+---> The reverted commit sha is - a02de954760e456a0ce85dca0b67fee17f27042e
 Commit message - Move lager to a top level dependency
-The original commit sha is - d3094366b6775e7a545fd882864ed3a1a4a0f68d
+---> The original commit sha is - d3094366b6775e7a545fd882864ed3a1a4a0f68d
 Commit message - Revert "Move lager to a top level dependency"
 
 This reverts commit a02de954760e456a0ce85dca0b67fee17f27042e.
@@ -30,9 +30,9 @@ Revert diff pair 3 is ->
 { a5ceb62af6ee81e6cbd48cb24abd84a52575edbd -> f8a6765fd15ef288782f373dc72b366defaeb8c6 }
 Revert commits SHA are -> 
 c7cf437e1845ceecde9eb0652963e0c145ad67e3 - revert - f8a6765fd15ef288782f373dc72b366defaeb8c6
-The reverted commit sha is - c7cf437e1845ceecde9eb0652963e0c145ad67e3
+---> The reverted commit sha is - c7cf437e1845ceecde9eb0652963e0c145ad67e3
 Commit message - TMP: use 1963-eunit-bigcouch branches
-The original commit sha is - f8a6765fd15ef288782f373dc72b366defaeb8c6
+---> The original commit sha is - f8a6765fd15ef288782f373dc72b366defaeb8c6
 Commit message - Revert "TMP: use 1963-eunit-bigcouch branches"
 
 This reverts commit c7cf437e1845ceecde9eb0652963e0c145ad67e3.
@@ -43,11 +43,11 @@ Revert diff pair 4 is ->
 { a7a6d2eec4d79dc12afed7cffbc5e4dc4c45e42f -> ebbee3c58390430b5095ba9977720f7f409bab3f }
 Revert commits SHA are -> 
 08cf09fc0ae828e05c3ab01b11d561b4e717e0c4 - revert - ebbee3c58390430b5095ba9977720f7f409bab3f
-The reverted commit sha is - 08cf09fc0ae828e05c3ab01b11d561b4e717e0c4
+---> The reverted commit sha is - 08cf09fc0ae828e05c3ab01b11d561b4e717e0c4
 Commit message - Fix documentation wording
 
 The warning regarding the Response Object was unclear.
-The original commit sha is - ebbee3c58390430b5095ba9977720f7f409bab3f
+---> The original commit sha is - ebbee3c58390430b5095ba9977720f7f409bab3f
 Commit message - fix wording in json-structure
 -----------------------------------------------------------------
 
@@ -56,9 +56,9 @@ Revert diff pair 5 is ->
 { cf4f3c931edc3a14863f6fc0aa4ba4d1588389ec -> f35c03f78a4b8ef90d47aab04fa776175ffbb03a }
 Revert commits SHA are -> 
 703d3912cad28666af1c82edae6775d7107de3fe - revert - f35c03f78a4b8ef90d47aab04fa776175ffbb03a
-The reverted commit sha is - 703d3912cad28666af1c82edae6775d7107de3fe
+---> The reverted commit sha is - 703d3912cad28666af1c82edae6775d7107de3fe
 Commit message - advise renaming the Makefile
-The original commit sha is - f35c03f78a4b8ef90d47aab04fa776175ffbb03a
+---> The original commit sha is - f35c03f78a4b8ef90d47aab04fa776175ffbb03a
 Commit message - [my-first-couchdb-plugin] remove note about ex-Makefile.dist
 -----------------------------------------------------------------
 
@@ -67,9 +67,9 @@ Revert diff pair 6 is ->
 { 4a0044fa3ad225ccd19b0bbba16eacc5ca7981f3 -> db743ae66957294d4eb1e6d3b972463da00c1501 }
 Revert commits SHA are -> 
 4a0044fa3ad225ccd19b0bbba16eacc5ca7981f3 - revert - db743ae66957294d4eb1e6d3b972463da00c1501
-The reverted commit sha is - 4a0044fa3ad225ccd19b0bbba16eacc5ca7981f3
+---> The reverted commit sha is - 4a0044fa3ad225ccd19b0bbba16eacc5ca7981f3
 Commit message - add erlang-version.escript to bin_SCRIPTS
-The original commit sha is - db743ae66957294d4eb1e6d3b972463da00c1501
+---> The original commit sha is - db743ae66957294d4eb1e6d3b972463da00c1501
 Commit message - move erlang-version.escript to EXTRA_DIST
 -----------------------------------------------------------------
 
@@ -78,9 +78,9 @@ Revert diff pair 7 is ->
 { 9cf9b53d2cee9976a5b215af52672838abec0d6b -> 5b7e4bd0a5dc19f1adafb555ed712e8892fad965 }
 Revert commits SHA are -> 
 9cf9b53d2cee9976a5b215af52672838abec0d6b - revert - 5b7e4bd0a5dc19f1adafb555ed712e8892fad965
-The reverted commit sha is - 9cf9b53d2cee9976a5b215af52672838abec0d6b
+---> The reverted commit sha is - 9cf9b53d2cee9976a5b215af52672838abec0d6b
 Commit message - fix perms on install instructions
-The original commit sha is - 5b7e4bd0a5dc19f1adafb555ed712e8892fad965
+---> The original commit sha is - 5b7e4bd0a5dc19f1adafb555ed712e8892fad965
 Commit message - Revert "fix perms on install instructions"
 
 This reverts commit 9cf9b53d2cee9976a5b215af52672838abec0d6b.
@@ -91,9 +91,9 @@ Revert diff pair 8 is ->
 { 06b9aa50abdb572a98e44cfff4b7e89bf01e2fbc -> fed33028605a7803c9d94a9f60c6e875297cd890 }
 Revert commits SHA are -> 
 e1e70f1c5754272d1e2bdd6fd7d114a920d5622c - revert - fed33028605a7803c9d94a9f60c6e875297cd890
-The reverted commit sha is - e1e70f1c5754272d1e2bdd6fd7d114a920d5622c
+---> The reverted commit sha is - e1e70f1c5754272d1e2bdd6fd7d114a920d5622c
 Commit message - Add 1.2.3 section to NEWS and CHANGES
-The original commit sha is - fed33028605a7803c9d94a9f60c6e875297cd890
+---> The original commit sha is - fed33028605a7803c9d94a9f60c6e875297cd890
 Commit message - Remove 1.2.3 sections
 -----------------------------------------------------------------
 
@@ -102,9 +102,9 @@ Revert diff pair 9 is ->
 { d3f5f0b7be3dd8cedd03e9930d7c235cece1ddcb -> 660a4c4665829b40b3e20c42372a775cb14c7f69 }
 Revert commits SHA are -> 
 b6295d319bbf1909449a125008d9cb478949215f - revert - 660a4c4665829b40b3e20c42372a775cb14c7f69
-The reverted commit sha is - b6295d319bbf1909449a125008d9cb478949215f
+---> The reverted commit sha is - b6295d319bbf1909449a125008d9cb478949215f
 Commit message - remove some logging
-The original commit sha is - 660a4c4665829b40b3e20c42372a775cb14c7f69
+---> The original commit sha is - 660a4c4665829b40b3e20c42372a775cb14c7f69
 Commit message - Restore some useful logging re: opening new DBs
 -----------------------------------------------------------------
 
@@ -113,9 +113,9 @@ Revert diff pair 10 is ->
 { 901885fdc6b05e7f9fcf985cf89ef73f771a5d54 -> 8485787fd95482e2f2796fea4949c35b9a3c0c7c }
 Revert commits SHA are -> 
 752ec274aab3d4e2ddc933a60cbeb11dc73105ce - revert - 8485787fd95482e2f2796fea4949c35b9a3c0c7c
-The reverted commit sha is - 752ec274aab3d4e2ddc933a60cbeb11dc73105ce
+---> The reverted commit sha is - 752ec274aab3d4e2ddc933a60cbeb11dc73105ce
 Commit message - update CHANGES with COUCHDB-1689 note
-The original commit sha is - 8485787fd95482e2f2796fea4949c35b9a3c0c7c
+---> The original commit sha is - 8485787fd95482e2f2796fea4949c35b9a3c0c7c
 Commit message - this will be in 1.3.0
 -----------------------------------------------------------------
 
@@ -124,11 +124,11 @@ Revert diff pair 11 is ->
 { 52b0d0debe375f43fd404a296f3133c7fcabbbd7 -> 0158038b21925b37e6c3367d38e2ccba17f4d9c5 }
 Revert commits SHA are -> 
 f785dc994f86acc05f10a89999d1ec52617531f5 - revert - 0158038b21925b37e6c3367d38e2ccba17f4d9c5
-The reverted commit sha is - f785dc994f86acc05f10a89999d1ec52617531f5
+---> The reverted commit sha is - f785dc994f86acc05f10a89999d1ec52617531f5
 Commit message - Merge commit '73a5864' from 15676-use-stream-in-fabric-rpc
 
 BugzID: 15676
-The original commit sha is - 0158038b21925b37e6c3367d38e2ccba17f4d9c5
+---> The original commit sha is - 0158038b21925b37e6c3367d38e2ccba17f4d9c5
 Commit message - Merge remote-tracking branch 'origin/15676-use-stream-in-fabric-rpc'
 -----------------------------------------------------------------
 
@@ -137,14 +137,14 @@ Revert diff pair 12 is ->
 { dbb7113adc5aec1a5206c07d89b8222b4da72456 -> f785dc994f86acc05f10a89999d1ec52617531f5 }
 Revert commits SHA are -> 
 dbb7113adc5aec1a5206c07d89b8222b4da72456 - revert - f785dc994f86acc05f10a89999d1ec52617531f5
-The reverted commit sha is - dbb7113adc5aec1a5206c07d89b8222b4da72456
+---> The reverted commit sha is - dbb7113adc5aec1a5206c07d89b8222b4da72456
 Commit message - Resume spawning jobs using fabric_rpc
 
 Finishing off the update dance for BugzID: 14075. This just repoints our
 fabric RPC jobs to spawn using the fabric_rpc module instead of the
 temporary fabric_rpc2 module we used to avoid breaking internode
 communication.
-The original commit sha is - f785dc994f86acc05f10a89999d1ec52617531f5
+---> The original commit sha is - f785dc994f86acc05f10a89999d1ec52617531f5
 Commit message - Merge commit '73a5864' from 15676-use-stream-in-fabric-rpc
 
 BugzID: 15676
@@ -155,9 +155,9 @@ Revert diff pair 13 is ->
 { 5da40eef7e8b33a99de957085ddf1c3b09062935 -> 38b4cc5c7bf2ff4f59bf547e51061f768b919425 }
 Revert commits SHA are -> 
 12fc5eabea4399a12966d50d1ffa8760161dc4ae - revert - 38b4cc5c7bf2ff4f59bf547e51061f768b919425
-The reverted commit sha is - 12fc5eabea4399a12966d50d1ffa8760161dc4ae
+---> The reverted commit sha is - 12fc5eabea4399a12966d50d1ffa8760161dc4ae
 Commit message - Add Anthony S Baker to THANKS
-The original commit sha is - 38b4cc5c7bf2ff4f59bf547e51061f768b919425
+---> The original commit sha is - 38b4cc5c7bf2ff4f59bf547e51061f768b919425
 Commit message - remove duplicate THANKS entry
 -----------------------------------------------------------------
 
@@ -166,9 +166,9 @@ Revert diff pair 14 is ->
 { bdcfcca1ec92f379e5376741e5ab103630573ac4 -> 9acc34ed9ed4315f7cd6f5b8ac45e47f2c0b8cb6 }
 Revert commits SHA are -> 
 591c973b3ec1df2c5294e5fdaea66bc66e21f9b7 - revert - 9acc34ed9ed4315f7cd6f5b8ac45e47f2c0b8cb6
-The reverted commit sha is - 591c973b3ec1df2c5294e5fdaea66bc66e21f9b7
+---> The reverted commit sha is - 591c973b3ec1df2c5294e5fdaea66bc66e21f9b7
 Commit message - Make sure that local_dev.ini is writable
-The original commit sha is - 9acc34ed9ed4315f7cd6f5b8ac45e47f2c0b8cb6
+---> The original commit sha is - 9acc34ed9ed4315f7cd6f5b8ac45e47f2c0b8cb6
 Commit message - Revert "Revert "Revert "Make sure that local_dev.ini is writable"""
 
 Revert. Git <3.
@@ -181,14 +181,14 @@ Revert diff pair 15 is ->
 { bdcfcca1ec92f379e5376741e5ab103630573ac4 -> 9acc34ed9ed4315f7cd6f5b8ac45e47f2c0b8cb6 }
 Revert commits SHA are -> 
 bdcfcca1ec92f379e5376741e5ab103630573ac4 - revert - 9acc34ed9ed4315f7cd6f5b8ac45e47f2c0b8cb6
-The reverted commit sha is - bdcfcca1ec92f379e5376741e5ab103630573ac4
+---> The reverted commit sha is - bdcfcca1ec92f379e5376741e5ab103630573ac4
 Commit message - Revert "Revert "Make sure that local_dev.ini is writable""
 
 This breaks builds that expect a read-only install media
 like CD/DVDs.
 
 This reverts commit b1799cdcd554260eafe0e8d29bddd7e664dc7a03.
-The original commit sha is - 9acc34ed9ed4315f7cd6f5b8ac45e47f2c0b8cb6
+---> The original commit sha is - 9acc34ed9ed4315f7cd6f5b8ac45e47f2c0b8cb6
 Commit message - Revert "Revert "Revert "Make sure that local_dev.ini is writable"""
 
 Revert. Git <3.
@@ -201,11 +201,11 @@ Revert diff pair 16 is ->
 { bf7c74edb0f645154412fa8df9f092e052ee6f61 -> 5c2c11f269704608c1b1b24db8557335370d593a }
 Revert commits SHA are -> 
 2d90a1249dea1d02d46266d52a0d269f0a33dbb0 - revert - 5c2c11f269704608c1b1b24db8557335370d593a
-The reverted commit sha is - 2d90a1249dea1d02d46266d52a0d269f0a33dbb0
+---> The reverted commit sha is - 2d90a1249dea1d02d46266d52a0d269f0a33dbb0
 Commit message - Add ICU_CPPFLAGS to ICU_C|_CXXFLAGS
 
 Reported to fix homebrew builds under jenkins (cc daleharvey)
-The original commit sha is - 5c2c11f269704608c1b1b24db8557335370d593a
+---> The original commit sha is - 5c2c11f269704608c1b1b24db8557335370d593a
 Commit message - Revert "Add ICU_CPPFLAGS to ICU_C|_CXXFLAGS"
 
 As of 32fb9f8e0416910a2431227b5fbdeef93ccd94bc this should no longer be
@@ -219,7 +219,7 @@ Revert diff pair 17 is ->
 { 63e6019452cd6bbbcdb6f3ba7866fa5c58a4ee39 -> 602d9fc887aa87c47fff6d92144f8f074261d01c }
 Revert commits SHA are -> 
 8e8a8863dd2b5ef67989621301a04c717934a198 - revert - 602d9fc887aa87c47fff6d92144f8f074261d01c
-The reverted commit sha is - 8e8a8863dd2b5ef67989621301a04c717934a198
+---> The reverted commit sha is - 8e8a8863dd2b5ef67989621301a04c717934a198
 Commit message - Fix issue #15 .
 
 Add support for internal `[integer(), binary()]` form of the sequence in
@@ -227,7 +227,7 @@ fabric_view_changes:unpack_seqs/2 .
 
 Passing the internal form to since in fabric:changes/4 was causing the
 error for some values. This patch fix it.
-The original commit sha is - 602d9fc887aa87c47fff6d92144f8f074261d01c
+---> The original commit sha is - 602d9fc887aa87c47fff6d92144f8f074261d01c
 Commit message - Revert "Encode last_seq correctly for non-continuous _changes."
 
 This reverts commit d07ad516fb94843c9080ce3931e18f7252576015.
@@ -238,9 +238,9 @@ Revert diff pair 18 is ->
 { 704b60d40442424fae07f4b2b6e8ac55b1465e7d -> ab2fec0ab60deebedc778a26f72d82dd82cb1ab0 }
 Revert commits SHA are -> 
 3bd283f4b129a804d049fd73fb55c1efe75d9c61 - revert - ab2fec0ab60deebedc778a26f72d82dd82cb1ab0
-The reverted commit sha is - 3bd283f4b129a804d049fd73fb55c1efe75d9c61
+---> The reverted commit sha is - 3bd283f4b129a804d049fd73fb55c1efe75d9c61
 Commit message - include message_queue_len of couch_server process in _system output.
-The original commit sha is - ab2fec0ab60deebedc778a26f72d82dd82cb1ab0
+---> The original commit sha is - ab2fec0ab60deebedc778a26f72d82dd82cb1ab0
 Commit message - Fix function_clause error on _revs_diff endpoint
 
 The _revs_diff implementation in chttpd called get_missing_revs
@@ -260,7 +260,7 @@ Revert diff pair 19 is ->
 { 3c1504c05aa817731d76124a13ef06c06abd6aa7 -> 1dd284c7de12a2bf3229ff90a4b26ce305958dd7 }
 Revert commits SHA are -> 
 42c66936ffc16e887398ec28ab198e7a6592f277 - revert - 1dd284c7de12a2bf3229ff90a4b26ce305958dd7
-The reverted commit sha is - 42c66936ffc16e887398ec28ab198e7a6592f277
+---> The reverted commit sha is - 42c66936ffc16e887398ec28ab198e7a6592f277
 Commit message - Fix a bug in the couch.app generation.
 
 The couch.app module list was using '*.erl' to list the modules. This
@@ -276,7 +276,7 @@ The fix is to make the module list use "couch*.erl" instead.
 
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@825268 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 1dd284c7de12a2bf3229ff90a4b26ce305958dd7
+---> The original commit sha is - 1dd284c7de12a2bf3229ff90a4b26ce305958dd7
 Commit message - fix glob on windows missing json_stream_parse.erl
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@1146998 13f79535-47bb-0310-9956-ffa450edef68
@@ -287,11 +287,11 @@ Revert diff pair 20 is ->
 { ef24b1d1f422ba5c6fe22df7b803f5af7cdb2a8f -> 92afd7dd49444a2b91c75ac29a2928b754f41cbf }
 Revert commits SHA are -> 
 7c832ed49cf55878c8582cb368d4dc5ce70a1f6a - revert - 92afd7dd49444a2b91c75ac29a2928b754f41cbf
-The reverted commit sha is - 7c832ed49cf55878c8582cb368d4dc5ce70a1f6a
+---> The reverted commit sha is - 7c832ed49cf55878c8582cb368d4dc5ce70a1f6a
 Commit message - raise the default session timeout to 12 hours
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@996199 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 92afd7dd49444a2b91c75ac29a2928b754f41cbf
+---> The original commit sha is - 92afd7dd49444a2b91c75ac29a2928b754f41cbf
 Commit message - Revert r996199. Lowering default auth timeout back to 600 seconds.
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@1040506 13f79535-47bb-0310-9956-ffa450edef68
@@ -302,14 +302,14 @@ Revert diff pair 21 is ->
 { 4baf4e1f22e2fbca2130756dc97e9801913f5b5c -> 36e90f00705aa520efc5b4ad95559582bf3b6965 }
 Revert commits SHA are -> 
 4baf4e1f22e2fbca2130756dc97e9801913f5b5c - revert - 36e90f00705aa520efc5b4ad95559582bf3b6965
-The reverted commit sha is - 4baf4e1f22e2fbca2130756dc97e9801913f5b5c
+---> The reverted commit sha is - 4baf4e1f22e2fbca2130756dc97e9801913f5b5c
 Commit message - Merged revision 1036865 from branch 1.1.x:
 
 Updated CHANGES for release 1.1.0.
 
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@1036867 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 36e90f00705aa520efc5b4ad95559582bf3b6965
+---> The original commit sha is - 36e90f00705aa520efc5b4ad95559582bf3b6965
 Commit message - Reverted changed added in revision 1036867. We only update CHANGES file once per branch.
 
 
@@ -321,13 +321,13 @@ Revert diff pair 22 is ->
 { 5d918e616119e308ca38dc847dd8165e089557dc -> f64b4a4bd7ac4c833271591f62010288270bfb93 }
 Revert commits SHA are -> 
 5d918e616119e308ca38dc847dd8165e089557dc - revert - f64b4a4bd7ac4c833271591f62010288270bfb93
-The reverted commit sha is - 5d918e616119e308ca38dc847dd8165e089557dc
+---> The reverted commit sha is - 5d918e616119e308ca38dc847dd8165e089557dc
 Commit message - COUCHDB-903 - add {ok, true} to COPY result.
 
 Thanks to Bob Dionne for original patch. I've modified it to fix the badmatch error if you do COPY without a Destination header. It now yields a 400 (Bad Request) error without spewing a stack trace.
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@1003035 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - f64b4a4bd7ac4c833271591f62010288270bfb93
+---> The original commit sha is - f64b4a4bd7ac4c833271591f62010288270bfb93
 Commit message - Revert "COUCHDB-903 - add {ok, true} to COPY result."
 
 This reverts commit 5d918e616119e308ca38dc847dd8165e089557dc.
@@ -340,10 +340,10 @@ Revert diff pair 23 is ->
 { 8c6adc2f3e904865e996ce1edd364fc8e2043432 -> 53c43dd933758ec195faa593aa013eb0f135fa84 }
 Revert commits SHA are -> 
 8c6adc2f3e904865e996ce1edd364fc8e2043432 - revert - 53c43dd933758ec195faa593aa013eb0f135fa84
-The reverted commit sha is - 8c6adc2f3e904865e996ce1edd364fc8e2043432
+---> The reverted commit sha is - 8c6adc2f3e904865e996ce1edd364fc8e2043432
 Commit message - support for _view_cleanup via HTTP
 
-The original commit sha is - 53c43dd933758ec195faa593aa013eb0f135fa84
+---> The original commit sha is - 53c43dd933758ec195faa593aa013eb0f135fa84
 Commit message - support for filtered _changes on multi-node clusters, closes #5
 
 -----------------------------------------------------------------
@@ -353,11 +353,11 @@ Revert diff pair 24 is ->
 { 850d4e412da80d6f6a2c23f71a40a85329561a34 -> db9eca521fc4d739c87b72fdc62e702176bea618 }
 Revert commits SHA are -> 
 7223697dafa234a9123e6f72b826ba11dc58e88f - revert - db9eca521fc4d739c87b72fdc62e702176bea618
-The reverted commit sha is - 7223697dafa234a9123e6f72b826ba11dc58e88f
+---> The reverted commit sha is - 7223697dafa234a9123e6f72b826ba11dc58e88f
 Commit message - replicator was getting stuck on push replication to design docs by non-admins. this fix is a bit hackish but makes replication work. once the new_replicator is in place this hackish fix will not matter, so for now it is a good solution.
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@979907 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - db9eca521fc4d739c87b72fdc62e702176bea618
+---> The original commit sha is - db9eca521fc4d739c87b72fdc62e702176bea618
 Commit message - Revert "replicator was getting stuck on push replication to design docs by non-admins. this fix is a bit hackish but makes replication work. once the new_replicator is in place this hackish fix will not matter, so for now it is a good solution."
 
 This was too much of a hack.
@@ -372,11 +372,11 @@ Revert diff pair 25 is ->
 { 761c3cf2dbbf72313c25790550d340eb1f9dfa06 -> 68d0f4da12adf8435743e8e890c4e079a4f0f40b }
 Revert commits SHA are -> 
 be39860688e01e0d0749fdbefdd226d790133219 - revert - 68d0f4da12adf8435743e8e890c4e079a4f0f40b
-The reverted commit sha is - be39860688e01e0d0749fdbefdd226d790133219
+---> The reverted commit sha is - be39860688e01e0d0749fdbefdd226d790133219
 Commit message - click to edit config in Futon instead of double click. thanks Aaron Miller
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@959788 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 68d0f4da12adf8435743e8e890c4e079a4f0f40b
+---> The original commit sha is - 68d0f4da12adf8435743e8e890c4e079a4f0f40b
 Commit message - Revert "click to edit config in Futon instead of double click. thanks Aaron Miller"
 Turns out this has some issues. Getting Futon to work nicely on tap-style mobile browsers will require a deeper look.
 
@@ -390,11 +390,11 @@ Revert diff pair 26 is ->
 { ead517e9c72a264e048f086999b16d4cfd801da2 -> 5e852ddcb85429fbaf8003328104744aa00a98b0 }
 Revert commits SHA are -> 
 3c7ed52bc634c05f476fce11b2f7a758ba30fe57 - revert - 5e852ddcb85429fbaf8003328104744aa00a98b0
-The reverted commit sha is - 3c7ed52bc634c05f476fce11b2f7a758ba30fe57
+---> The reverted commit sha is - 3c7ed52bc634c05f476fce11b2f7a758ba30fe57
 Commit message - allow help2man to work with commands that send help output to stderr
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@957605 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 5e852ddcb85429fbaf8003328104744aa00a98b0
+---> The original commit sha is - 5e852ddcb85429fbaf8003328104744aa00a98b0
 Commit message - Revert "allow help2man to work with commands that send help output to stderr"
 
 Requires too new a version of help2man.
@@ -407,10 +407,10 @@ Revert diff pair 27 is ->
 { b28ba2dbc731832eb4b7b22e552fc173c1b6ca95 -> 800941fb3b397c7f90204c58177d245acd5a5833 }
 Revert commits SHA are -> 
 b28ba2dbc731832eb4b7b22e552fc173c1b6ca95 - revert - 800941fb3b397c7f90204c58177d245acd5a5833
-The reverted commit sha is - b28ba2dbc731832eb4b7b22e552fc173c1b6ca95
+---> The reverted commit sha is - b28ba2dbc731832eb4b7b22e552fc173c1b6ca95
 Commit message - change cluster_ops:all_parts to accept the list of NodeParts
 
-The original commit sha is - 800941fb3b397c7f90204c58177d245acd5a5833
+---> The original commit sha is - 800941fb3b397c7f90204c58177d245acd5a5833
 Commit message - undo last commit, let's leave cluster_ops alone, make a new showroom module
 
 -----------------------------------------------------------------
@@ -420,13 +420,13 @@ Revert diff pair 28 is ->
 { 12417e6faecc72fe53d858390f9c84c379b8baed -> 7be616679cefe6850e9ba7ab0d46b5a9880e5fae }
 Revert commits SHA are -> 
 879e8a5add3502a826726fcf884cce0a61e03694 - revert - 7be616679cefe6850e9ba7ab0d46b5a9880e5fae
-The reverted commit sha is - 879e8a5add3502a826726fcf884cce0a61e03694
+---> The reverted commit sha is - 879e8a5add3502a826726fcf884cce0a61e03694
 Commit message - Revert "Avoid replication task crashes by imporoving timeout handling."
 
 Needs more testing.
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@917103 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 7be616679cefe6850e9ba7ab0d46b5a9880e5fae
+---> The original commit sha is - 7be616679cefe6850e9ba7ab0d46b5a9880e5fae
 Commit message - Undo accidental revert. Sorry for the mess SVN acted weird on me. Probably due to the LDAP infra issues.
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@917411 13f79535-47bb-0310-9956-ffa450edef68
@@ -437,7 +437,7 @@ Revert diff pair 29 is ->
 { 1be99a1ef26c3d9233483cd7d0e0ff3f96ca8514 -> 89bc74477df2cb0b123d1b7e0d4a9b8cda0a6c9f }
 Revert commits SHA are -> 
 1be99a1ef26c3d9233483cd7d0e0ff3f96ca8514 - revert - 89bc74477df2cb0b123d1b7e0d4a9b8cda0a6c9f
-The reverted commit sha is - 1be99a1ef26c3d9233483cd7d0e0ff3f96ca8514
+---> The reverted commit sha is - 1be99a1ef26c3d9233483cd7d0e0ff3f96ca8514
 Commit message - Merge branch 'show-deleted-docs' into trunk
 
 * show-deleted-docs:
@@ -445,7 +445,7 @@ Commit message - Merge branch 'show-deleted-docs' into trunk
   Revert "Avoid replication task crashes by imporoving timeout handling."
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@917098 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 89bc74477df2cb0b123d1b7e0d4a9b8cda0a6c9f
+---> The original commit sha is - 89bc74477df2cb0b123d1b7e0d4a9b8cda0a6c9f
 Commit message - revert accidental commit
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@917102 13f79535-47bb-0310-9956-ffa450edef68
@@ -456,7 +456,7 @@ Revert diff pair 30 is ->
 { 60b0bd5cd6d97e34f5fa2434b648fb71dcbeaf22 -> d3745d1ecfa39b2b53c67f56d3fcba80ccbd2dc1 }
 Revert commits SHA are -> 
 60b0bd5cd6d97e34f5fa2434b648fb71dcbeaf22 - revert - d3745d1ecfa39b2b53c67f56d3fcba80ccbd2dc1
-The reverted commit sha is - 60b0bd5cd6d97e34f5fa2434b648fb71dcbeaf22
+---> The reverted commit sha is - 60b0bd5cd6d97e34f5fa2434b648fb71dcbeaf22
 Commit message - Forcing a build failure to check buildbot emails.
 
 Blame Gavin.
@@ -464,7 +464,7 @@ Blame Gavin.
 
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@890186 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - d3745d1ecfa39b2b53c67f56d3fcba80ccbd2dc1
+---> The original commit sha is - d3745d1ecfa39b2b53c67f56d3fcba80ccbd2dc1
 Commit message - Email notification test failed. Undoing.
 
 
@@ -477,13 +477,13 @@ Revert diff pair 31 is ->
 { f0f21e1f5b3d0bd9c7a32529dc45cc461c189a3c -> 698f34752af9472751fc994065282f629667d034 }
 Revert commits SHA are -> 
 f0f21e1f5b3d0bd9c7a32529dc45cc461c189a3c - revert - 698f34752af9472751fc994065282f629667d034
-The reverted commit sha is - f0f21e1f5b3d0bd9c7a32529dc45cc461c189a3c
+---> The reverted commit sha is - f0f21e1f5b3d0bd9c7a32529dc45cc461c189a3c
 Commit message - Turn on verbose tests to diagnose buildbot
 
 
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@833966 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 698f34752af9472751fc994065282f629667d034
+---> The original commit sha is - 698f34752af9472751fc994065282f629667d034
 Commit message - Unverbosifiying after the last successful build.
 
 Adding -v to the prove command made things work. How awesome is that?
@@ -498,11 +498,11 @@ Revert diff pair 32 is ->
 { 3b72fa64172fcf930e996a533b89acbabd306c0b -> 89fc389a328c54efbc03c4cbf56dc363db7e97f7 }
 Revert commits SHA are -> 
 3b72fa64172fcf930e996a533b89acbabd306c0b - revert - 89fc389a328c54efbc03c4cbf56dc363db7e97f7
-The reverted commit sha is - 3b72fa64172fcf930e996a533b89acbabd306c0b
+---> The reverted commit sha is - 3b72fa64172fcf930e996a533b89acbabd306c0b
 Commit message - support for deletions in changes feed
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@814787 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 89fc389a328c54efbc03c4cbf56dc363db7e97f7
+---> The original commit sha is - 89fc389a328c54efbc03c4cbf56dc363db7e97f7
 Commit message - rollback mixed up commit, builds now
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@814803 13f79535-47bb-0310-9956-ffa450edef68
@@ -513,11 +513,11 @@ Revert diff pair 33 is ->
 { e10858cd53e9b2a1cf769d7d71e4c1adcf30b4f3 -> 2ceb29752aa4cf638d947ffab3eb5759d306afa4 }
 Revert commits SHA are -> 
 d6cb0bc17d834675a69620940036490b909a4b0d - revert - 2ceb29752aa4cf638d947ffab3eb5759d306afa4
-The reverted commit sha is - d6cb0bc17d834675a69620940036490b909a4b0d
+---> The reverted commit sha is - d6cb0bc17d834675a69620940036490b909a4b0d
 Commit message - add native /db/_conflicts view, patch by Adam Kocolosk, closes COUCHDB-462
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@803663 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 2ceb29752aa4cf638d947ffab3eb5759d306afa4
+---> The original commit sha is - 2ceb29752aa4cf638d947ffab3eb5759d306afa4
 Commit message - rollback _conflicts view patch
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@803690 13f79535-47bb-0310-9956-ffa450edef68
@@ -528,11 +528,11 @@ Revert diff pair 34 is ->
 { d6946dc120a7eaf0897e2149317a2ead477af297 -> 7fa9f2473a57008000597935a42893771ab156a8 }
 Revert commits SHA are -> 
 90bb857c20442aff5098fa2e1fd2289d863be912 - revert - 7fa9f2473a57008000597935a42893771ab156a8
-The reverted commit sha is - 90bb857c20442aff5098fa2e1fd2289d863be912
+---> The reverted commit sha is - 90bb857c20442aff5098fa2e1fd2289d863be912
 Commit message - add main.js to install files. Noah, can you double check?
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@766506 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 7fa9f2473a57008000597935a42893771ab156a8
+---> The original commit sha is - 7fa9f2473a57008000597935a42893771ab156a8
 Commit message - removed redundant line
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@783129 13f79535-47bb-0310-9956-ffa450edef68
@@ -543,11 +543,11 @@ Revert diff pair 35 is ->
 { 951a5a3dca2c850bc60c05796b450d67a364cfd4 -> 083b26df25ea661c6c67b66d62b777ffc3f48b55 }
 Revert commits SHA are -> 
 71371d67e9ebbfdca5caf206552412e621ede612 - revert - 083b26df25ea661c6c67b66d62b777ffc3f48b55
-The reverted commit sha is - 71371d67e9ebbfdca5caf206552412e621ede612
+---> The reverted commit sha is - 71371d67e9ebbfdca5caf206552412e621ede612
 Commit message - made default/couchdb a dist_ target
 
 git-svn-id: https://svn.apache.org/repos/asf/incubator/couchdb/trunk@707854 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 083b26df25ea661c6c67b66d62b777ffc3f48b55
+---> The original commit sha is - 083b26df25ea661c6c67b66d62b777ffc3f48b55
 Commit message - corrected variable name, fixed COUCHDB-178
 
 git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@756618 13f79535-47bb-0310-9956-ffa450edef68
@@ -558,11 +558,11 @@ Revert diff pair 36 is ->
 { 9f7381dade1d8a8d1e3209a7c46faea305632d14 -> 78690fe90f1a3035112905513ecc1f33d5f1daf4 }
 Revert commits SHA are -> 
 22f822cb8252d87fc19ec62108b566fd5057f9d9 - revert - 78690fe90f1a3035112905513ecc1f33d5f1daf4
-The reverted commit sha is - 22f822cb8252d87fc19ec62108b566fd5057f9d9
+---> The reverted commit sha is - 22f822cb8252d87fc19ec62108b566fd5057f9d9
 Commit message - added $(EXEEXT) to target per automakes advice
 
 git-svn-id: https://svn.apache.org/repos/asf/incubator/couchdb/trunk@696354 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 78690fe90f1a3035112905513ecc1f33d5f1daf4
+---> The original commit sha is - 78690fe90f1a3035112905513ecc1f33d5f1daf4
 Commit message - remove EXEEXT
 
 git-svn-id: https://svn.apache.org/repos/asf/incubator/couchdb/trunk@698609 13f79535-47bb-0310-9956-ffa450edef68
@@ -573,11 +573,11 @@ Revert diff pair 37 is ->
 { 2e7a88aeb6c8e8962a873194984ba52a67406665 -> cf41cad09ef74e770990907505912600083c8449 }
 Revert commits SHA are -> 
 dccd1c2644293690cce506e660e50d432ec03412 - revert - cf41cad09ef74e770990907505912600083c8449
-The reverted commit sha is - dccd1c2644293690cce506e660e50d432ec03412
+---> The reverted commit sha is - dccd1c2644293690cce506e660e50d432ec03412
 Commit message - aesthetic improvements to NOTICE
 
 git-svn-id: https://svn.apache.org/repos/asf/incubator/couchdb/trunk@686773 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - cf41cad09ef74e770990907505912600083c8449
+---> The original commit sha is - cf41cad09ef74e770990907505912600083c8449
 Commit message - reverted aesthetic changes
 
 git-svn-id: https://svn.apache.org/repos/asf/incubator/couchdb/trunk@686781 13f79535-47bb-0310-9956-ffa450edef68
@@ -588,11 +588,11 @@ Revert diff pair 38 is ->
 { 6fe2707d20e96453acf9e99813d786ff5cf7ad65 -> 2178d96a2f5d2103676d0319c07d1f6bb904b97c }
 Revert commits SHA are -> 
 6fe2707d20e96453acf9e99813d786ff5cf7ad65 - revert - 2178d96a2f5d2103676d0319c07d1f6bb904b97c
-The reverted commit sha is - 6fe2707d20e96453acf9e99813d786ff5cf7ad65
+---> The reverted commit sha is - 6fe2707d20e96453acf9e99813d786ff5cf7ad65
 Commit message - - off by (n)one
 
 git-svn-id: https://svn.apache.org/repos/asf/incubator/couchdb/trunk@657963 13f79535-47bb-0310-9956-ffa450edef68
-The original commit sha is - 2178d96a2f5d2103676d0319c07d1f6bb904b97c
+---> The original commit sha is - 2178d96a2f5d2103676d0319c07d1f6bb904b97c
 Commit message - revert.
 
 git-svn-id: https://svn.apache.org/repos/asf/incubator/couchdb/trunk@657964 13f79535-47bb-0310-9956-ffa450edef68

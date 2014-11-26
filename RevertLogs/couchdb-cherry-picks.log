@@ -1,0 +1,546 @@
+# of cherry-picks = 32
+Cherry-pick diff pair 1 is -> 
+{ 08cf09fc0ae828e05c3ab01b11d561b4e717e0c4 -> 45e17e5fbb3c5364e7f8d0e6bb4d79e2e291ecfa } is a cherrypick
+{ 5d194bc9bf18630ef5f0f104f4236f168ae1656c -> a05ec6d2a679ab342e138ba4b9bce13c74a1543a }
+Cherrypick commits SHA are -> 
+45e17e5fbb3c5364e7f8d0e6bb4d79e2e291ecfa - cherrypick - a05ec6d2a679ab342e138ba4b9bce13c74a1543a
+---> The cherrypicked commit sha is - 45e17e5fbb3c5364e7f8d0e6bb4d79e2e291ecfa
+Commit message - Remove client-side password crypto from JS tests
+
+This removes client-side password crypto from the JavaScript tests.
+
+In some JavaScript tests, it has been assumed that SHA-1 is used for the
+password hash in user docs.  Those tests should, however, not rely on
+implementation details of the user authentication hash function, as it
+isn't the goal of those tests to check these.  Furthermore, this causes
+problems when a password scheme is changed, or a new one is introduced.
+---> The original commit sha is - a05ec6d2a679ab342e138ba4b9bce13c74a1543a
+Commit message - Remove client-side password crypto from JS tests
+
+This removes client-side password crypto from the JavaScript tests.
+
+In some JavaScript tests, it has been assumed that SHA-1 is used for the
+password hash in user docs.  Those tests should, however, not rely on
+implementation details of the user authentication hash function, as it
+isn't the goal of those tests to check these.  Furthermore, this causes
+problems when a password scheme is changed, or a new one is introduced.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ d25fce62f74af57fdcfc9e05b8774b5d7e8b7d79 -> 1aa9d3b72122105db6e926e7f019d5e9f0fea276 } is a cherrypick
+{ 1aa9d3b72122105db6e926e7f019d5e9f0fea276 -> 079fb84bd6ee716d3831519febfa6631cf6a06b4 }
+Cherrypick commits SHA are -> 
+1aa9d3b72122105db6e926e7f019d5e9f0fea276 - cherrypick - 079fb84bd6ee716d3831519febfa6631cf6a06b4
+---> The cherrypicked commit sha is - 1aa9d3b72122105db6e926e7f019d5e9f0fea276
+Commit message - Remove "details" query parameter from show functions API
+---> The original commit sha is - 079fb84bd6ee716d3831519febfa6631cf6a06b4
+Commit message - Remove "details" query parameter from show functions API. One more time
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ 6941276424cf9994d9f3735ff3c9e9a98a8c59cd -> 319c48994aaff07b3273b489b4b82495c3def7c5 } is a cherrypick
+{ b378c7e901535c7b7fd805defec6e4eab285983a -> 74238d0b1ddc5ad51d4cebf5eabde4f3e5340949 }
+Cherrypick commits SHA are -> 
+319c48994aaff07b3273b489b4b82495c3def7c5 - cherrypick - 74238d0b1ddc5ad51d4cebf5eabde4f3e5340949
+---> The cherrypicked commit sha is - 319c48994aaff07b3273b489b4b82495c3def7c5
+Commit message - Primary Nav update
+---> The original commit sha is - 74238d0b1ddc5ad51d4cebf5eabde4f3e5340949
+Commit message - Merge branch 'master' of https://github.com/pegli/couchdb (closes #211)
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ 9f6a9190f04a23690277888b5ae2413f7cef7a96 -> dbe769c604e5f1e000594336f8c4546bf9e3fd5a } is a cherrypick
+{ 9c5e4379ffc4fa2e935317ee4024ca5e4d574402 -> 631d033e37ce4116ad3f1f64a4796472c90f39ac }
+Cherrypick commits SHA are -> 
+dbe769c604e5f1e000594336f8c4546bf9e3fd5a - cherrypick - 631d033e37ce4116ad3f1f64a4796472c90f39ac
+---> The cherrypicked commit sha is - dbe769c604e5f1e000594336f8c4546bf9e3fd5a
+Commit message - Verify that auth-related properties are well-formed
+
+Passing unexpected values to auth fields can result in server
+issues. Notably, setting "iterations" to a string will cause an
+infinite loop as the comparison 'when Iteration > Iterations' will
+never evaluate to true.
+
+The latest validate_doc_update prevents user docs with this problem
+and administrators can deploy that check themselves (and only
+administrators can edit design documents).
+
+A server administrator can also insist on lower and upper bounds for
+iteration count to reject weakly protected passwords and
+resource-hungry passwords respectively.
+
+COUCHDB-2221
+---> The original commit sha is - 631d033e37ce4116ad3f1f64a4796472c90f39ac
+Commit message - Merge branch '2221-bug-validate-auth-params'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ 13010ed264582f235825a26a1907952479156163 -> 585ddafb509da20966ceea41102e940643de7586 } is a cherrypick
+{ 266020fe541e46150f0fecd9df0ef3ab629be341 -> 304c144606594d16b74bfac9e6d9c61fdfbc4264 }
+Cherrypick commits SHA are -> 
+585ddafb509da20966ceea41102e940643de7586 - cherrypick - 304c144606594d16b74bfac9e6d9c61fdfbc4264
+---> The cherrypicked commit sha is - 585ddafb509da20966ceea41102e940643de7586
+Commit message - encoded attachment name
+---> The original commit sha is - 304c144606594d16b74bfac9e6d9c61fdfbc4264
+Commit message - Merge branch 'my-first-couch-plugin-readme-typos'
+
+'my-first-couch-plugin-readme-typos' of https://github.com/marianoguerra/couchdb
+
+* update opening note 868e171
+* update clone command to clone from github repo
+
+This closes #186
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ 1db70b8c8037deb3ab64a4e43e4a7c5f80f7038e -> e07cc8291bf5338ea7a86094ad43b2878e72b265 } is a cherrypick
+{ 266020fe541e46150f0fecd9df0ef3ab629be341 -> 304c144606594d16b74bfac9e6d9c61fdfbc4264 }
+Cherrypick commits SHA are -> 
+e07cc8291bf5338ea7a86094ad43b2878e72b265 - cherrypick - 304c144606594d16b74bfac9e6d9c61fdfbc4264
+---> The cherrypicked commit sha is - e07cc8291bf5338ea7a86094ad43b2878e72b265
+Commit message - Merge branch 'my-first-couch-plugin-readme-typos' of https://github.com/marianoguerra/couchdb
+
+* 'my-first-couch-plugin-readme-typos' of https://github.com/marianoguerra/couchdb:
+  spell checking my-first-couchdb-plugin's README
+
+This closes #185
+---> The original commit sha is - 304c144606594d16b74bfac9e6d9c61fdfbc4264
+Commit message - Merge branch 'my-first-couch-plugin-readme-typos'
+
+'my-first-couch-plugin-readme-typos' of https://github.com/marianoguerra/couchdb
+
+* update opening note 868e171
+* update clone command to clone from github repo
+
+This closes #186
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ 13010ed264582f235825a26a1907952479156163 -> 585ddafb509da20966ceea41102e940643de7586 } is a cherrypick
+{ 1db70b8c8037deb3ab64a4e43e4a7c5f80f7038e -> e07cc8291bf5338ea7a86094ad43b2878e72b265 }
+Cherrypick commits SHA are -> 
+585ddafb509da20966ceea41102e940643de7586 - cherrypick - e07cc8291bf5338ea7a86094ad43b2878e72b265
+---> The cherrypicked commit sha is - 585ddafb509da20966ceea41102e940643de7586
+Commit message - encoded attachment name
+---> The original commit sha is - e07cc8291bf5338ea7a86094ad43b2878e72b265
+Commit message - Merge branch 'my-first-couch-plugin-readme-typos' of https://github.com/marianoguerra/couchdb
+
+* 'my-first-couch-plugin-readme-typos' of https://github.com/marianoguerra/couchdb:
+  spell checking my-first-couchdb-plugin's README
+
+This closes #185
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ e65d7b733cb31f59a5aac0d92ad23ebc21140593 -> c43b84dcc426dad888852eea078bbd96d796f928 } is a cherrypick
+{ bf75f472973189e1cabfea7b417dfcfa9683a265 -> 35342c4857f47436125b46f962b0401c82d98e7a }
+Cherrypick commits SHA are -> 
+c43b84dcc426dad888852eea078bbd96d796f928 - cherrypick - 35342c4857f47436125b46f962b0401c82d98e7a
+---> The cherrypicked commit sha is - c43b84dcc426dad888852eea078bbd96d796f928
+Commit message - Ensure that waitForSuccess calls have return values.
+---> The original commit sha is - 35342c4857f47436125b46f962b0401c82d98e7a
+Commit message - Ensure that waitForSuccess calls have return values.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ 847e68a4ff251db29312b11ff28833611e68baea -> e579c033e1fe8b06cd2e7a1e8c2d97d149dd7854 } is a cherrypick
+{ 6cd153de4d44f9aa0612570ad62ad7b770ca83e8 -> 1d5fe2aa22cf5c947224d587108ec8bd47270e07 }
+Cherrypick commits SHA are -> 
+e579c033e1fe8b06cd2e7a1e8c2d97d149dd7854 - cherrypick - 1d5fe2aa22cf5c947224d587108ec8bd47270e07
+---> The cherrypicked commit sha is - e579c033e1fe8b06cd2e7a1e8c2d97d149dd7854
+Commit message - Allow the use of checkpoint to be optional
+
+A new parameter use_checkpoints which defaults to be true can be either used in the replicator section of
+ini files and/or used in the replication command or doc added to the replicator db. When this option is set
+to false no checkpoints are taken. It should be used with caution and only for small dbs.
+
+BugzID:14327
+---> The original commit sha is - 1d5fe2aa22cf5c947224d587108ec8bd47270e07
+Commit message - Allow the use of checkpoint to be optional
+
+A new parameter use_checkpoints which defaults to be true can be either used in the replicator section of
+ini files and/or used in the replication command or doc added to the replicator db. When this option is set
+to false no checkpoints are taken. It should be used with caution and only for small dbs.
+
+BugzID:14327
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ 4c324fc8a08b1fa5bb0c30870ad085edb4ec34d3 -> 311e25d66470313bfc35de106b7ed54c74a6399d } is a cherrypick
+{ 4906b591bb7f1955fc55b68696841b189a7fbfc2 -> c5f51b5da0170777b7c8de4c1c6a648c84d1dc3d }
+Cherrypick commits SHA are -> 
+311e25d66470313bfc35de106b7ed54c74a6399d - cherrypick - c5f51b5da0170777b7c8de4c1c6a648c84d1dc3d
+---> The cherrypicked commit sha is - 311e25d66470313bfc35de106b7ed54c74a6399d
+Commit message - Wrap lines in the ace editor for Fauxton
+---> The original commit sha is - c5f51b5da0170777b7c8de4c1c6a648c84d1dc3d
+Commit message - Merge branch '1930-fix-futon-save-document-with-_id' of https://github.com/benru/couchdb
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ b14405041b87867878cd1088bfcca41f3b72f3c6 -> 6e7e18cc067b293027a2ee64dcd6e84e6fa1c917 } is a cherrypick
+{ 659699def483c4cd59e273bfe130fe1bde067245 -> 01925664dc3c9d793746a8bb649331726662a8f1 }
+Cherrypick commits SHA are -> 
+6e7e18cc067b293027a2ee64dcd6e84e6fa1c917 - cherrypick - 01925664dc3c9d793746a8bb649331726662a8f1
+---> The cherrypicked commit sha is - 6e7e18cc067b293027a2ee64dcd6e84e6fa1c917
+Commit message - remove E4X tests
+---> The original commit sha is - 01925664dc3c9d793746a8bb649331726662a8f1
+Commit message - Merge branch 'remove-e4x-tests'
+
+* remove-e4x-tests:
+  remove E4X tests
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ 54813a7c19222556c588233f61d8e596d8756967 -> 9195223b12f6aae993010eea338446d28ab63f54 } is a cherrypick
+{ 532100c101387a3314a870264e58e7761c787c67 -> 073f9e2528b68a94bdaa114bc6dc19d978740847 }
+Cherrypick commits SHA are -> 
+9195223b12f6aae993010eea338446d28ab63f54 - cherrypick - 073f9e2528b68a94bdaa114bc6dc19d978740847
+---> The cherrypicked commit sha is - 9195223b12f6aae993010eea338446d28ab63f54
+Commit message - Handle invalid UTF-8 byte sequences gracefully by replacing them with 0xFFFD
+
+CouchDB's Erlang JSON parser allows storing of invalid UTF-8 byte sequences.
+The Query Server inside CouchDB fails upon encountering these byte sequences.
+The view process fails for the current batch of document updates. The result
+is that the view is invariably broken. Only removing the document in question
+solves this otherwise, but finding that is hard as the `log()` inside the
+Query Server dies with the invalid byte sequence because our protocol is
+synchronous and map results an `log()` messages generated therein are
+submitted together.
+
+This patch replaces invalid bytes with the the surrogate chacracter 0xFFFD.
+
+Closes COUCHDB-1425.
+
+Patch by Sam Rijs <recv@awesan.de> and Paul Davis.
+
+Eventually, this should be fixed at the HTTP level, so that no documents
+with invalid byte sequences can be written to CouchDB. The jiffy encoder
+we'll get with BigCouch will do that for us. This is a fix for the releases
+until then.
+---> The original commit sha is - 073f9e2528b68a94bdaa114bc6dc19d978740847
+Commit message - Merge branch '1425-fix-graceful-surrogate-handling'
+
+* 1425-fix-graceful-surrogate-handling:
+  Handle invalid UTF-8 byte sequences gracefully by replacing them with 0xFFFD
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ 8dbddc9a40d6653a37ba211068b2170afb5764b5 -> 8b769390bc33aa45e3f6efb4c0065e23f31d8d28 } is a cherrypick
+{ 962ce087bfac80e2d721b679fee4fe1568a4d362 -> fa982654b10a8d79ea934c5d9b5cb91ff7998e45 }
+Cherrypick commits SHA are -> 
+8b769390bc33aa45e3f6efb4c0065e23f31d8d28 - cherrypick - fa982654b10a8d79ea934c5d9b5cb91ff7998e45
+---> The cherrypicked commit sha is - 8b769390bc33aa45e3f6efb4c0065e23f31d8d28
+Commit message - Avoid deadlocking the httpc pool
+
+The multipart mime parsing code was getting into a state where it would
+orphan parsers that held onto pool connections. This just adds a monitor
+to make sure that the parser process dies when the parent dies normally
+without finishing reading the rest of the parser.
+
+BugzID: 16751
+---> The original commit sha is - fa982654b10a8d79ea934c5d9b5cb91ff7998e45
+Commit message - Avoid deadlocking the httpc pool
+
+The multipart mime parsing code was getting into a state where it would
+orphan parsers that held onto pool connections. This just adds a monitor
+to make sure that the parser process dies when the parent dies normally
+without finishing reading the rest of the parser.
+
+BugzID: 16751
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 14 is -> 
+{ c86db0779f7b51f696aaf8082fe7c7795a1ed677 -> b0711edebf544e53fc0a588825e4c6a765a484ac } is a cherrypick
+{ 82a103ba71e8ccc9efb24d97b763517978e63c22 -> 962ce087bfac80e2d721b679fee4fe1568a4d362 }
+Cherrypick commits SHA are -> 
+b0711edebf544e53fc0a588825e4c6a765a484ac - cherrypick - 962ce087bfac80e2d721b679fee4fe1568a4d362
+---> The cherrypicked commit sha is - b0711edebf544e53fc0a588825e4c6a765a484ac
+Commit message - Use latest=true when retrieving revisions
+
+This allows the replicator to keep up with revisions that may have
+occured after missing_revs was called.
+
+BugzID: 14241
+---> The original commit sha is - 962ce087bfac80e2d721b679fee4fe1568a4d362
+Commit message - Use latest=true when retrieving revisions
+
+This allows the replicator to keep up with revisions that may have
+occured after missing_revs was called.
+
+BugzID: 14241
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 15 is -> 
+{ c40b25dfc69c23e63441af579b7cb9972820038f -> dfd2199a4c6f67b76018eccfdd00b4fd4190e392 } is a cherrypick
+{ ea18ecdf69290a179570f539f8d0bc8c9529f5a9 -> 917d89884e3dc9317eba1728ec1702f88d2ba670 }
+Cherrypick commits SHA are -> 
+dfd2199a4c6f67b76018eccfdd00b4fd4190e392 - cherrypick - 917d89884e3dc9317eba1728ec1702f88d2ba670
+---> The cherrypicked commit sha is - dfd2199a4c6f67b76018eccfdd00b4fd4190e392
+Commit message - Support Last-Event-ID header for eventsource changes feeds
+
+COUCHDB-1852
+---> The original commit sha is - 917d89884e3dc9317eba1728ec1702f88d2ba670
+Commit message - Merge branch '1684-feature-db-updates'
+
+* 1684-feature-db-updates:
+  Import couch_dbupdates from rcouch.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 16 is -> 
+{ 7a939451eb78c52ecba8df06da60a04cb8a45562 -> 1122401b76d9c039f4cbc10a6a43bdca7edea3e8 } is a cherrypick
+{ a9a1657a2c132590b8df57e2cc0230b5a860524a -> 4abe8cd97f1dfe15c414989af67703952cb607fa }
+Cherrypick commits SHA are -> 
+1122401b76d9c039f4cbc10a6a43bdca7edea3e8 - cherrypick - 4abe8cd97f1dfe15c414989af67703952cb607fa
+---> The cherrypicked commit sha is - 1122401b76d9c039f4cbc10a6a43bdca7edea3e8
+Commit message - Save the auth values so if the AuthSession cookie has passed the Time left threshold it gets updated
+---> The original commit sha is - 4abe8cd97f1dfe15c414989af67703952cb607fa
+Commit message - Merge remote-tracking branch 'ocasta/1799-rewrite-session-cookie-fix'
+
+Fixes COUCHDB-1799
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 17 is -> 
+{ 445e9190fc25e64d7f9d121cb2d2945743a02843 -> b141e2c173d041d42bcfab2b3a7a471ccbd47f96 } is a cherrypick
+{ cbb8a55082a19897e8d1350db5351bf41689185d -> b67b03efc90f080e44fe3a3331e42f2de3e64070 }
+Cherrypick commits SHA are -> 
+b141e2c173d041d42bcfab2b3a7a471ccbd47f96 - cherrypick - b67b03efc90f080e44fe3a3331e42f2de3e64070
+---> The cherrypicked commit sha is - b141e2c173d041d42bcfab2b3a7a471ccbd47f96
+Commit message - Fix Mochiweb acceptor blocked in ssl handshake
+
+Acceptor cannot be recycled until ssl handshake is done,
+so it's possible and easy for all acceptors be blocked between the point
+where the new socket's connected and the ssl handshake is done.
+---> The original commit sha is - b67b03efc90f080e44fe3a3331e42f2de3e64070
+Commit message - COUCHDB-1696 fix Mochiweb acceptor blocked in ssl handshake
+
+Acceptor cannot be recycled until ssl handshake is done,
+so it's possible and easy for all acceptors be blocked between the point
+where the new socket's connected and the ssl handshake is done.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 18 is -> 
+{ 77d613c637a72d2f4dc3c67f3074f9aaa2e7310d -> be6724493448e8a2868eb1f19137757796504d99 } is a cherrypick
+{ 7d178e52fdd6311a26e2696fc16a1b8b86dcd4c4 -> 5dd18b3f2723a7ff42e10a56fa59e65d3cad469e }
+Cherrypick commits SHA are -> 
+be6724493448e8a2868eb1f19137757796504d99 - cherrypick - 5dd18b3f2723a7ff42e10a56fa59e65d3cad469e
+---> The cherrypicked commit sha is - be6724493448e8a2868eb1f19137757796504d99
+Commit message - Removing not released notice from 1.2.0
+---> The original commit sha is - 5dd18b3f2723a7ff42e10a56fa59e65d3cad469e
+Commit message - Correcting NEWS and CHANGES discrepancies
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 19 is -> 
+{ 73a5864600c9c5dedb268dcd7f24067e01583ee5 -> dbb7113adc5aec1a5206c07d89b8222b4da72456 } is a cherrypick
+{ 52b0d0debe375f43fd404a296f3133c7fcabbbd7 -> 0158038b21925b37e6c3367d38e2ccba17f4d9c5 }
+Cherrypick commits SHA are -> 
+dbb7113adc5aec1a5206c07d89b8222b4da72456 - cherrypick - 0158038b21925b37e6c3367d38e2ccba17f4d9c5
+---> The cherrypicked commit sha is - dbb7113adc5aec1a5206c07d89b8222b4da72456
+Commit message - Resume spawning jobs using fabric_rpc
+
+Finishing off the update dance for BugzID: 14075. This just repoints our
+fabric RPC jobs to spawn using the fabric_rpc module instead of the
+temporary fabric_rpc2 module we used to avoid breaking internode
+communication.
+---> The original commit sha is - 0158038b21925b37e6c3367d38e2ccba17f4d9c5
+Commit message - Merge remote-tracking branch 'origin/15676-use-stream-in-fabric-rpc'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 20 is -> 
+{ 4a355c52be3d27b3c45b3997b686f49a069e9270 -> 79afe0c235983ca997c2ece4f6a585079345d45d } is a cherrypick
+{ 2cebc5026ca074f43ba331f692364a0d5b408449 -> 40bceecc2977bcc0e6f420248c269289b82106e3 }
+Cherrypick commits SHA are -> 
+79afe0c235983ca997c2ece4f6a585079345d45d - cherrypick - 40bceecc2977bcc0e6f420248c269289b82106e3
+---> The cherrypicked commit sha is - 79afe0c235983ca997c2ece4f6a585079345d45d
+Commit message - add in user nav-bar item
+---> The original commit sha is - 40bceecc2977bcc0e6f420248c269289b82106e3
+Commit message - Merge branch 'fauxton' of https://github.com/cloudant-labs/couchdb into fauxton
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 21 is -> 
+{ abec0b5ac9a6cd1bcc7df56f93ae0bc52da1c2e4 -> 9f4d8f17c488c107b5efff2aecf6a09fd30ecbca } is a cherrypick
+{ 541aa9e3c9a4cdb6f087ec008941422c3f4f7f90 -> 1cb21afe9d3ad048cbf2fe1ee23507bc72dbf179 }
+Cherrypick commits SHA are -> 
+9f4d8f17c488c107b5efff2aecf6a09fd30ecbca - cherrypick - 1cb21afe9d3ad048cbf2fe1ee23507bc72dbf179
+---> The cherrypicked commit sha is - 9f4d8f17c488c107b5efff2aecf6a09fd30ecbca
+Commit message - Need the couchapp npm module
+---> The original commit sha is - 1cb21afe9d3ad048cbf2fe1ee23507bc72dbf179
+Commit message - Merge branch 'fauxton' of https://github.com/cloudant-labs/couchdb into fauxton
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 22 is -> 
+{ e94cad87ad2a3320ee18b34331d26d355c76ca64 -> f7f0e00d9212841243a2c3ff1b3a9b74b5fc7463 } is a cherrypick
+{ 7adee91d9a03918fa7f19a8f3d56f72f725baa07 -> e9cde0ffd463897ba904093fe627a730edd626a0 }
+Cherrypick commits SHA are -> 
+f7f0e00d9212841243a2c3ff1b3a9b74b5fc7463 - cherrypick - e9cde0ffd463897ba904093fe627a730edd626a0
+---> The cherrypicked commit sha is - f7f0e00d9212841243a2c3ff1b3a9b74b5fc7463
+Commit message - Make initial_sync block for each replication
+
+It's low priority, and we don't want to overrun the server.  The
+implementation is kinda hacky, it sticks the From into #job.pid while
+the job is in the waiting queue.
+---> The original commit sha is - e9cde0ffd463897ba904093fe627a730edd626a0
+Commit message - Make initial_sync block for each replication
+
+It's low priority, and we don't want to overrun the server.  The
+implementation is kinda hacky, it sticks the From into #job.pid while
+the job is in the waiting queue.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 23 is -> 
+{ 7d6405f4bed093e865669c23326402c3182f5901 -> 54dcf9c924352566912269cfa57bd865779fd641 } is a cherrypick
+{ f475429ff16c38c780e85b48a8edf1aaf7803a36 -> f86eea13531659138b5ce399b20a89ecbaebebce }
+Cherrypick commits SHA are -> 
+54dcf9c924352566912269cfa57bd865779fd641 - cherrypick - f86eea13531659138b5ce399b20a89ecbaebebce
+---> The cherrypicked commit sha is - 54dcf9c924352566912269cfa57bd865779fd641
+Commit message - Give up on mem3_rep if DB was deleted
+
+Previously we would retry an infinite number of times when this
+happened
+---> The original commit sha is - f86eea13531659138b5ce399b20a89ecbaebebce
+Commit message - Give up on mem3_rep if DB was deleted
+
+Previously we would retry an infinite number of times when this
+happened
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 24 is -> 
+{ 423bfde7d859d6d468696669a165238927fbc225 -> 7d6405f4bed093e865669c23326402c3182f5901 } is a cherrypick
+{ f9963578a937a50d940c887698ec92fa53648168 -> f475429ff16c38c780e85b48a8edf1aaf7803a36 }
+Cherrypick commits SHA are -> 
+7d6405f4bed093e865669c23326402c3182f5901 - cherrypick - f475429ff16c38c780e85b48a8edf1aaf7803a36
+---> The cherrypicked commit sha is - 7d6405f4bed093e865669c23326402c3182f5901
+Commit message - Sync "dbs" and "_users" with the next live node
+
+The load induced by fully-connected mesh replication increases
+quadratically with node count.  For large clusters with high rates of
+database creation this ends up being significant.
+
+This patch switches the topology to a ring.  Each node pushes to the
+next live node in the ring.  Will deal with the correct action on
+'nodeup' events in a separate commit.
+---> The original commit sha is - f475429ff16c38c780e85b48a8edf1aaf7803a36
+Commit message - Sync "dbs" and "_users" with the next live node
+
+The load induced by fully-connected mesh replication increases
+quadratically with node count.  For large clusters with high rates of
+database creation this ends up being significant.
+
+This patch switches the topology to a ring.  Each node pushes to the
+next live node in the ring.  Will deal with the correct action on
+'nodeup' events in a separate commit.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 25 is -> 
+{ eb3d5d8b4e973b8766a17055b1cf7258a6b8df89 -> 591c973b3ec1df2c5294e5fdaea66bc66e21f9b7 } is a cherrypick
+{ b1799cdcd554260eafe0e8d29bddd7e664dc7a03 -> bdcfcca1ec92f379e5376741e5ab103630573ac4 }
+Cherrypick commits SHA are -> 
+591c973b3ec1df2c5294e5fdaea66bc66e21f9b7 - cherrypick - bdcfcca1ec92f379e5376741e5ab103630573ac4
+---> The cherrypicked commit sha is - 591c973b3ec1df2c5294e5fdaea66bc66e21f9b7
+Commit message - Make sure that local_dev.ini is writable
+---> The original commit sha is - bdcfcca1ec92f379e5376741e5ab103630573ac4
+Commit message - Revert "Revert "Make sure that local_dev.ini is writable""
+
+This breaks builds that expect a read-only install media
+like CD/DVDs.
+
+This reverts commit b1799cdcd554260eafe0e8d29bddd7e664dc7a03.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 26 is -> 
+{ 72ef8be46f4476aea9051542041a26d59ee38d71 -> 46a78c086680e70d196a46bb5e8fc20352841742 } is a cherrypick
+{ b61a310e91ca82ea85f004a7d148cdee8e4e2ceb -> fa58367d5267be504c66f22bf48b72e96f5ef6d2 }
+Cherrypick commits SHA are -> 
+46a78c086680e70d196a46bb5e8fc20352841742 - cherrypick - fa58367d5267be504c66f22bf48b72e96f5ef6d2
+---> The cherrypicked commit sha is - 46a78c086680e70d196a46bb5e8fc20352841742
+Commit message - Use rand_uniform to fix deterministic zone placement
+
+BugzID: 13486
+---> The original commit sha is - fa58367d5267be504c66f22bf48b72e96f5ef6d2
+Commit message - Merge pull request #22 from cloudant/13486-fix-zone-shuffle_1.3.x
+
+BugzID: 13486
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 27 is -> 
+{ 3a1b0dc0e8d9d52ce4597cd833b6fafb26e242bd -> 17644b6b7fdb9204f5649802b2adba058be4ee0d } is a cherrypick
+{ 8d84e3cb78eff6773b11a14c1ebd2778c121f013 -> 7dac19df4d382cff826a4604185951308372e407 }
+Cherrypick commits SHA are -> 
+17644b6b7fdb9204f5649802b2adba058be4ee0d - cherrypick - 7dac19df4d382cff826a4604185951308372e407
+---> The cherrypicked commit sha is - 17644b6b7fdb9204f5649802b2adba058be4ee0d
+Commit message - Merge branch '12220-nodedown-handling-db', close #18
+
+Conflicts:
+	src/fabric_util.erl
+
+BugzID: 12220
+---> The original commit sha is - 7dac19df4d382cff826a4604185951308372e407
+Commit message - Fix invocation of lists:filter
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 28 is -> 
+{ c3bd0abc3ee33a8c6829a7ae8096d3f5866dc221 -> a25c7f0825a20ff852d56a435246716caada33fa } is a cherrypick
+{ 452e7c9f94b63b9141d5a174de639c0fe317de7c -> 2347ccf1b418d5061759889a22aab7f22876f006 }
+Cherrypick commits SHA are -> 
+a25c7f0825a20ff852d56a435246716caada33fa - cherrypick - 2347ccf1b418d5061759889a22aab7f22876f006
+---> The cherrypicked commit sha is - a25c7f0825a20ff852d56a435246716caada33fa
+Commit message - Remove old appup
+---> The original commit sha is - 2347ccf1b418d5061759889a22aab7f22876f006
+Commit message - Use twig for logging
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 29 is -> 
+{ a506fba77d648b90fcfabf8fbbbe04f5d55de43b -> 8f787c0c7d36a7eb0794f620ebd480638f627d64 } is a cherrypick
+{ 7ffac4f63407af0b2cc19582a02b89914e856d93 -> 7530b5c3dcbfa83b67a2d9148c0e21fecd11d399 }
+Cherrypick commits SHA are -> 
+8f787c0c7d36a7eb0794f620ebd480638f627d64 - cherrypick - 7530b5c3dcbfa83b67a2d9148c0e21fecd11d399
+---> The cherrypicked commit sha is - 8f787c0c7d36a7eb0794f620ebd480638f627d64
+Commit message - let rebar manage the module lists
+
+---> The original commit sha is - 7530b5c3dcbfa83b67a2d9148c0e21fecd11d399
+Commit message - use erlang:send_after/3 instead of timer version
+
+http://www.erlang.org/doc/efficiency_guide/commoncaveats.html#id52228
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 30 is -> 
+{ 9a93b44ef02014a6e269b70d8c29362a3e4b3afb -> 3cbb3a00d50acc3fabd597f9486a85713afe3c3a } is a cherrypick
+{ 88caaddccbe40a148ffd83aab6fdd78b68442ecf -> 1448ec8c3d9ea004061100f1042840e14ba16769 }
+Cherrypick commits SHA are -> 
+3cbb3a00d50acc3fabd597f9486a85713afe3c3a - cherrypick - 1448ec8c3d9ea004061100f1042840e14ba16769
+---> The cherrypicked commit sha is - 3cbb3a00d50acc3fabd597f9486a85713afe3c3a
+Commit message - change integer handling in mochijson2 to fix JSON regression COUCHDB-118
+
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/couchdb/trunk@697512 13f79535-47bb-0310-9956-ffa450edef68
+---> The original commit sha is - 1448ec8c3d9ea004061100f1042840e14ba16769
+Commit message - patch mochijson2 to allow output of big integers not in float form (it stores them just fine)
+
+git-svn-id: https://svn.apache.org/repos/asf/couchdb/trunk@957656 13f79535-47bb-0310-9956-ffa450edef68
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 31 is -> 
+{ c30010994b78818b758e6bb9da2017984a14fb63 -> 6b1b19e24eb77b67a52fed0a9f8237efd8d7847b } is a cherrypick
+{ ca12b1656e39afd117880526a34e5320fb3bc976 -> a7bdc595544d23457b2ffdea4514d6a9ef4634eb }
+Cherrypick commits SHA are -> 
+6b1b19e24eb77b67a52fed0a9f8237efd8d7847b - cherrypick - a7bdc595544d23457b2ffdea4514d6a9ef4634eb
+---> The cherrypicked commit sha is - 6b1b19e24eb77b67a52fed0a9f8237efd8d7847b
+Commit message - oops, sloppy initial commit of non-blocking call
+
+---> The original commit sha is - a7bdc595544d23457b2ffdea4514d6a9ef4634eb
+Commit message - oops, sloppy initial commit of non-blocking call (cherry picked from commit 34a36f3414615524d737fc38140eec660bbcd81f)
+
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 32 is -> 
+{ 50cef5b4882ebe8f85ca0513f073f3cf6dc68502 -> c30010994b78818b758e6bb9da2017984a14fb63 } is a cherrypick
+{ cadb7ffad91c9a79f454fc215fa135ceef0910c5 -> ca12b1656e39afd117880526a34e5320fb3bc976 }
+Cherrypick commits SHA are -> 
+c30010994b78818b758e6bb9da2017984a14fb63 - cherrypick - ca12b1656e39afd117880526a34e5320fb3bc976
+---> The cherrypicked commit sha is - c30010994b78818b758e6bb9da2017984a14fb63
+Commit message - drop ok tag from cast() responses, update docs
+
+---> The original commit sha is - ca12b1656e39afd117880526a34e5320fb3bc976
+Commit message - drop ok tag from cast() responses, update docs (cherry picked from commit 23bc964bdd8b89be9af53cdd4da53603fe2edb3f)
+
+-----------------------------------------------------------------
+
