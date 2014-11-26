@@ -1,0 +1,1652 @@
+# of partial cherrypicks = 68
+Partial Cherry-pick diff pair 1 is -> 
+{ 2c29b20af767bd7ebebeb41da14df4d66a19d5a0 -> b27eadbcf20970983d7dc70a8a9531bb48c41991 } is a cherrypick
+{ 1f2c197ebe40076fad2f5abecad4e73291fe0a9b -> 699a19ab302da2f08ab9f9a377b0910b2c233e6d }
+Partial Cherry-pick commits SHA are -> 
+b27eadbcf20970983d7dc70a8a9531bb48c41991 - cherrypick - 699a19ab302da2f08ab9f9a377b0910b2c233e6d
+---> The cherrypicked commit sha is - b27eadbcf20970983d7dc70a8a9531bb48c41991
+Commit message - Add helper script for porting vim patches.
+---> The original commit sha is - 699a19ab302da2f08ab9f9a377b0910b2c233e6d
+Commit message - Merge pull request #1513 from fwalch/vimpatch-script
+
+Add helper script for porting vim patches.
+---> The files with partial_cherrypicks are:-
+scripts/vim-patch.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ 48847fbafc41d93bbc42d7bf5711a47c4982e08c -> 87ab0416100b5f6a6ca09806cebbfa0ad6e2d535 } is a cherrypick
+{ 9b8ca92a0125520c9926ea88e88b0cc26823b6ff -> f3b4033572bb42be31ad2f0f1388faf90ecaecab }
+Partial Cherry-pick commits SHA are -> 
+87ab0416100b5f6a6ca09806cebbfa0ad6e2d535 - cherrypick - f3b4033572bb42be31ad2f0f1388faf90ecaecab
+---> The cherrypicked commit sha is - 87ab0416100b5f6a6ca09806cebbfa0ad6e2d535
+Commit message - Homebrew: Compile as release build.
+---> The original commit sha is - f3b4033572bb42be31ad2f0f1388faf90ecaecab
+Commit message - runtime: Remove 'python_setup.vim'
+---> The files with partial_cherrypicks are:-
+runtime/python_setup.vim
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 92aba9e942909a4373674a12915db1d29b223443 -> 2b887ec66ba28f6d6fcbfdd121522fd7093bcc65 } is a cherrypick
+{ cdf85dcc12bf227b5f4831b2b58c0b11f743aedf -> 3b8661745b2c5ed8b4b9a7bfe4fa75935eb1afeb }
+Partial Cherry-pick commits SHA are -> 
+2b887ec66ba28f6d6fcbfdd121522fd7093bcc65 - cherrypick - 3b8661745b2c5ed8b4b9a7bfe4fa75935eb1afeb
+---> The cherrypicked commit sha is - 2b887ec66ba28f6d6fcbfdd121522fd7093bcc65
+Commit message - Use cmake --build instead of Make
+
+- If possble try to abstract away from Make, and use cmake --build
+- third-party still needs to find Make to build some components
+- Removed search for Make from CMakeLists.txt
+* for CMake < 3.0 --build has no color output
+---> The original commit sha is - 3b8661745b2c5ed8b4b9a7bfe4fa75935eb1afeb
+Commit message - Merge pull request #1485 from equalsraf/tb-no-make-prg
+
+Use cmake --build inside CMake scripts instead of calling Make directly
+---> The files with partial_cherrypicks are:-
+CMakeLists.txt
+third-party/CMakeLists.txt
+third-party/cmake/InstallMsgpack.cmake
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ 640bced2f8bf64098d52841947a3145554d41041 -> 888a31ba454cf9c054527a26459c112593efa54b } is a cherrypick
+{ 75f4451d570deef2127913d554de0d6e1a9c8f47 -> cdf85dcc12bf227b5f4831b2b58c0b11f743aedf }
+Partial Cherry-pick commits SHA are -> 
+888a31ba454cf9c054527a26459c112593efa54b - cherrypick - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
+---> The cherrypicked commit sha is - 888a31ba454cf9c054527a26459c112593efa54b
+Commit message - FOR_ALL_BUFFERS use locally declared buffer pointer
+---> The original commit sha is - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
+Commit message - Merge pull request #1157 from fwalch/remove-coverity
+
+Travis: Remove Coverity build.
+---> The files with partial_cherrypicks are:-
+.ci/coverity.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ e1757513649c016ff7d2e03f11ec8017fe290597 -> 75335f01a065c55c3b07f849bf231a3805cb708d } is a cherrypick
+{ 75f4451d570deef2127913d554de0d6e1a9c8f47 -> cdf85dcc12bf227b5f4831b2b58c0b11f743aedf }
+Partial Cherry-pick commits SHA are -> 
+75335f01a065c55c3b07f849bf231a3805cb708d - cherrypick - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
+---> The cherrypicked commit sha is - 75335f01a065c55c3b07f849bf231a3805cb708d
+Commit message - Travis: Remove Coverity build.
+
+Coverity is now handled by neovim/bot-ci.
+---> The original commit sha is - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
+Commit message - Merge pull request #1157 from fwalch/remove-coverity
+
+Travis: Remove Coverity build.
+---> The files with partial_cherrypicks are:-
+.ci/coverity.sh
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ e5a08e783796c25b15653e5b3b4d540d3268dfcd -> e1757513649c016ff7d2e03f11ec8017fe290597 } is a cherrypick
+{ 0fcb867981463372675f3dd31d5753123f1bfa54 -> 75f4451d570deef2127913d554de0d6e1a9c8f47 }
+Partial Cherry-pick commits SHA are -> 
+e1757513649c016ff7d2e03f11ec8017fe290597 - cherrypick - 75f4451d570deef2127913d554de0d6e1a9c8f47
+---> The cherrypicked commit sha is - e1757513649c016ff7d2e03f11ec8017fe290597
+Commit message - coverity/13765,13766,13767,13768: Fix memory leaks in hardcopy.c
+
+The function mch_print_begin() returns early in case of an
+error, but without freeing allocated memory.
+To fix this, use stack allocation instead of heap allocation
+for the variables res_prolog, res_encoding, res_cidfont and
+res_cmap.
+---> The original commit sha is - 75f4451d570deef2127913d554de0d6e1a9c8f47
+Commit message - Merge pull request #1483 from oni-link/fix.mch_print_begin.memory.leak.stackversion
+
+coverity/13765,13766,13767,13768: Fix memory leaks in hardcopy.c
+---> The files with partial_cherrypicks are:-
+src/nvim/hardcopy.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ 640bced2f8bf64098d52841947a3145554d41041 -> 888a31ba454cf9c054527a26459c112593efa54b } is a cherrypick
+{ e1757513649c016ff7d2e03f11ec8017fe290597 -> 75335f01a065c55c3b07f849bf231a3805cb708d }
+Partial Cherry-pick commits SHA are -> 
+888a31ba454cf9c054527a26459c112593efa54b - cherrypick - 75335f01a065c55c3b07f849bf231a3805cb708d
+---> The cherrypicked commit sha is - 888a31ba454cf9c054527a26459c112593efa54b
+Commit message - FOR_ALL_BUFFERS use locally declared buffer pointer
+---> The original commit sha is - 75335f01a065c55c3b07f849bf231a3805cb708d
+Commit message - Travis: Remove Coverity build.
+
+Coverity is now handled by neovim/bot-ci.
+---> The files with partial_cherrypicks are:-
+.ci/coverity.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ 2513c5f648ee71bd0648d979f3eb69e8c5c7b603 -> 9376b3db4b2d819aa053c4c9dc334d337050197a } is a cherrypick
+{ 911c5518a5ff6c621f9e681b66920107c2bcbe72 -> 20b895e624489903fc79f956234039eaaecb6e46 }
+Partial Cherry-pick commits SHA are -> 
+9376b3db4b2d819aa053c4c9dc334d337050197a - cherrypick - 20b895e624489903fc79f956234039eaaecb6e46
+---> The cherrypicked commit sha is - 9376b3db4b2d819aa053c4c9dc334d337050197a
+Commit message - Improve legacy2luatest script.
+---> The original commit sha is - 20b895e624489903fc79f956234039eaaecb6e46
+Commit message - Merge pull request #1442 from fwalch/improve-legacy2luatest
+
+Improve legacy2luatest script.
+---> The files with partial_cherrypicks are:-
+scripts/legacy2luatest.pl
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ 9376b3db4b2d819aa053c4c9dc334d337050197a -> 176930fa56bff3668d434779972ceb29d41d9bc7 } is a cherrypick
+{ e9ac693bcde8e09e943b1e4a0e8a534c813501b8 -> 8a0074d9b8da6112bb5e0f200f4bd17ef192bf9d }
+Partial Cherry-pick commits SHA are -> 
+176930fa56bff3668d434779972ceb29d41d9bc7 - cherrypick - 8a0074d9b8da6112bb5e0f200f4bd17ef192bf9d
+---> The cherrypicked commit sha is - 176930fa56bff3668d434779972ceb29d41d9bc7
+Commit message - version: Add compilation info.
+---> The original commit sha is - 8a0074d9b8da6112bb5e0f200f4bd17ef192bf9d
+Commit message - Merge pull request #1403 from fwalch/version-flags
+
+version: Add compilation info.
+---> The files with partial_cherrypicks are:-
+cmake/GetCompileFlags.cmake
+config/config.h.in
+src/nvim/version.c
+src/nvim/version_defs.h
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 203a5166a06cccc8b9bf0b190b9278634381b3be -> 9344a40e741557948215dfeb4ae32b7c0d6d7b6b } is a cherrypick
+{ c744bb8144b5dd14c014817b9250aa5325d53cfe -> dcccc1a50de3caea62ab12f9e15fc6f3e242b5c4 }
+Partial Cherry-pick commits SHA are -> 
+9344a40e741557948215dfeb4ae32b7c0d6d7b6b - cherrypick - dcccc1a50de3caea62ab12f9e15fc6f3e242b5c4
+---> The cherrypicked commit sha is - 9344a40e741557948215dfeb4ae32b7c0d6d7b6b
+Commit message - build: pull iconv detection into its own FindIconv.cmake file
+
+This will provide better control for those who may want to alter which
+one gets used.
+---> The original commit sha is - dcccc1a50de3caea62ab12f9e15fc6f3e242b5c4
+Commit message - Merge pull request #1437 from jszakmeister/build-search-fixes
+
+A few fixes for some build-related issues.
+---> The files with partial_cherrypicks are:-
+cmake/FindIconv.cmake
+config/CMakeLists.txt
+src/nvim/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 05c1394fcd77f111b8edf11e96356c457d2b5c3a -> d51c0a94719381e51c8ffd11b759fd9e7f44c92d } is a cherrypick
+{ 66f16619e4a8ccd42bc0811f73924482a6207292 -> c744bb8144b5dd14c014817b9250aa5325d53cfe }
+Partial Cherry-pick commits SHA are -> 
+d51c0a94719381e51c8ffd11b759fd9e7f44c92d - cherrypick - c744bb8144b5dd14c014817b9250aa5325d53cfe
+---> The cherrypicked commit sha is - d51c0a94719381e51c8ffd11b759fd9e7f44c92d
+Commit message - build: only attempt to use -Og if it's supported
+
+Commit a1d411f9c991c03488c74c6266eb37cc2bab970e just assumes that gcc
+will support the `-Og` option, but gcc that comes with Ubuntu 12.04 does
+not.  Let's check to see if the flag is supported, and then decide
+whether to enable it or not.
+---> The original commit sha is - c744bb8144b5dd14c014817b9250aa5325d53cfe
+Commit message - Merge pull request #1440 from jszakmeister/fix-og-flag-usage
+
+build: only attempt to use -Og if it's supported
+---> The files with partial_cherrypicks are:-
+CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 938faf5e2d49a5ea7458eefbc0e0df0532d01d32 -> c9df7ba308434be02365a35458d67840fcba4c7e } is a cherrypick
+{ 0bc347d85d37f94d0a899a035d5a0eb3680db2f6 -> 66f16619e4a8ccd42bc0811f73924482a6207292 }
+Partial Cherry-pick commits SHA are -> 
+c9df7ba308434be02365a35458d67840fcba4c7e - cherrypick - 66f16619e4a8ccd42bc0811f73924482a6207292
+---> The cherrypicked commit sha is - c9df7ba308434be02365a35458d67840fcba4c7e
+Commit message - Merge pull request #1383 from fwalch/nvim-buildtype
+
+CMake: Set custom RelWithDebInfo compile flags.
+---> The original commit sha is - 66f16619e4a8ccd42bc0811f73924482a6207292
+Commit message - Merge pull request #1428 from xu-cheng/relocate-formula
+
+Homebrew: move formula to neovim/homebrew-neovim
+---> The files with partial_cherrypicks are:-
+CMakeLists.txt
+runtime/doc/eval.txt
+runtime/doc/job_control.txt
+src/nvim/memory.c
+src/nvim/msgpack_rpc/helpers.c
+src/nvim/os/rstream.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 9344a40e741557948215dfeb4ae32b7c0d6d7b6b -> 938faf5e2d49a5ea7458eefbc0e0df0532d01d32 } is a cherrypick
+{ d51c0a94719381e51c8ffd11b759fd9e7f44c92d -> 0bc347d85d37f94d0a899a035d5a0eb3680db2f6 }
+Partial Cherry-pick commits SHA are -> 
+938faf5e2d49a5ea7458eefbc0e0df0532d01d32 - cherrypick - 0bc347d85d37f94d0a899a035d5a0eb3680db2f6
+---> The cherrypicked commit sha is - 938faf5e2d49a5ea7458eefbc0e0df0532d01d32
+Commit message - build: fix the usage of DESTDIR in InstallHelpers.cmake
+
+It turns out that `file(INSTALL ...)` already accounts for `DESTDIR`, so
+this wasn't creating the directory structure in the correct location.
+Instead, we need to do our existence check with `DESTDIR`, but leave it
+off when doing the install step.
+
+While we're at it, add a check to make sure `ENV{DESTDIR}` is not being
+used with a relative path, as that construct doesn't make much sense.
+
+This fixes issue #1387 discovered while trying to make helptag
+generation work correctly in #1381.
+---> The original commit sha is - 0bc347d85d37f94d0a899a035d5a0eb3680db2f6
+Commit message - Homebrew: move formula to neovim/homebrew-neovim
+---> The files with partial_cherrypicks are:-
+runtime/doc/eval.txt
+runtime/doc/job_control.txt
+src/nvim/memory.c
+src/nvim/msgpack_rpc/helpers.c
+src/nvim/os/rstream.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ d3f81424e5a8de5d184f3ab3e14b632fa70f857d -> 871e353fa851ef58e0918d93929b2ec7c9607470 } is a cherrypick
+{ 6f8c916d8408a89996ce8fbd86e48194b5a46b3e -> 07775c07c0c269fe70effa0489f65fb98143c12c }
+Partial Cherry-pick commits SHA are -> 
+871e353fa851ef58e0918d93929b2ec7c9607470 - cherrypick - 07775c07c0c269fe70effa0489f65fb98143c12c
+---> The cherrypicked commit sha is - 871e353fa851ef58e0918d93929b2ec7c9607470
+Commit message - Homebrew: let Homebrew handle external resources download
+---> The original commit sha is - 07775c07c0c269fe70effa0489f65fb98143c12c
+Commit message - Merge pull request #1411 from xu-cheng/homebrew-formula
+
+Let homebrew handle external resources download
+---> The files with partial_cherrypicks are:-
+neovim.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ 5e5525a78bcf186a3315c22416bcb7dbab0c2ae0 -> 8c5efd62ac97b0a44fb5a68e4fd91997fcede000 } is a cherrypick
+{ 724a53306f21e6acfb22d28829ec9c6857e9cf8f -> 7c7874d11b07167e3ed2b5a2fc21484ff1c6be34 }
+Partial Cherry-pick commits SHA are -> 
+8c5efd62ac97b0a44fb5a68e4fd91997fcede000 - cherrypick - 7c7874d11b07167e3ed2b5a2fc21484ff1c6be34
+---> The cherrypicked commit sha is - 8c5efd62ac97b0a44fb5a68e4fd91997fcede000
+Commit message - iconv: re-enable
+
+This seems to have been disabled in the transition from vim to neovim,
+re-enable it.
+---> The original commit sha is - 7c7874d11b07167e3ed2b5a2fc21484ff1c6be34
+Commit message - Merge pull request #1412 from fwalch/startup-help
+
+version: Refer to nvim help on startup screen.
+---> The files with partial_cherrypicks are:-
+config/CMakeLists.txt
+src/nvim/CMakeLists.txt
+src/nvim/buffer_defs.h
+src/nvim/eval.c
+src/nvim/fileio.c
+src/nvim/globals.h
+src/nvim/iconv.h
+src/nvim/main.c
+src/nvim/mbyte.c
+src/nvim/version.c
+src/nvim/vim.h
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ 74817b546e6fd4c6ec6e201c1b461e6cfbf5a3be -> 37d608b8c179dd7a68bdf6edf985e4df453231cc } is a cherrypick
+{ 724a53306f21e6acfb22d28829ec9c6857e9cf8f -> 7c7874d11b07167e3ed2b5a2fc21484ff1c6be34 }
+Partial Cherry-pick commits SHA are -> 
+37d608b8c179dd7a68bdf6edf985e4df453231cc - cherrypick - 7c7874d11b07167e3ed2b5a2fc21484ff1c6be34
+---> The cherrypicked commit sha is - 37d608b8c179dd7a68bdf6edf985e4df453231cc
+Commit message - Merge pull request #1370 from aktau/enable-iconv
+
+re-enable iconv
+---> The original commit sha is - 7c7874d11b07167e3ed2b5a2fc21484ff1c6be34
+Commit message - Merge pull request #1412 from fwalch/startup-help
+
+version: Refer to nvim help on startup screen.
+---> The files with partial_cherrypicks are:-
+config/CMakeLists.txt
+src/nvim/CMakeLists.txt
+src/nvim/buffer_defs.h
+src/nvim/eval.c
+src/nvim/fileio.c
+src/nvim/globals.h
+src/nvim/iconv.h
+src/nvim/main.c
+src/nvim/mbyte.c
+src/nvim/version.c
+src/nvim/vim.h
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ c002ffe2f3b76419ff5d16356d5e57fa518ac68b -> baaf24aceab851c6db75a5f497e64d1ae0f85c6b } is a cherrypick
+{ c9cc2aa53d3adcef813d56107058d4b261488f66 -> 7cff10a6c56c662104cb1f9145ab45c94da4862d }
+Partial Cherry-pick commits SHA are -> 
+baaf24aceab851c6db75a5f497e64d1ae0f85c6b - cherrypick - 7cff10a6c56c662104cb1f9145ab45c94da4862d
+---> The cherrypicked commit sha is - baaf24aceab851c6db75a5f497e64d1ae0f85c6b
+Commit message - Add valgrind suppression file
+---> The original commit sha is - 7cff10a6c56c662104cb1f9145ab45c94da4862d
+Commit message - test: Add valgrind suppression for libuv memory leak
+
+A memory leak happens in uv_spawn when stdio is set to UV_IGNORE and the child
+process fails to start. This only happens when libuv is compiled with gcc and
+optimizations enabled(the default).
+
+Compiling with '-O0' removes the leak, but all that can be done right now is
+ignore the leak by adding a valgrind suppression.
+---> The files with partial_cherrypicks are:-
+.valgrind.supp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef -> b43224e06c525ee27f636bde1a17e9b79f05893c } is a cherrypick
+{ c9cc2aa53d3adcef813d56107058d4b261488f66 -> 7cff10a6c56c662104cb1f9145ab45c94da4862d }
+Partial Cherry-pick commits SHA are -> 
+b43224e06c525ee27f636bde1a17e9b79f05893c - cherrypick - 7cff10a6c56c662104cb1f9145ab45c94da4862d
+---> The cherrypicked commit sha is - b43224e06c525ee27f636bde1a17e9b79f05893c
+Commit message - Merge branch 'pr36'
+
+Conflicts:
+	README.md
+---> The original commit sha is - 7cff10a6c56c662104cb1f9145ab45c94da4862d
+Commit message - test: Add valgrind suppression for libuv memory leak
+
+A memory leak happens in uv_spawn when stdio is set to UV_IGNORE and the child
+process fails to start. This only happens when libuv is compiled with gcc and
+optimizations enabled(the default).
+
+Compiling with '-O0' removes the leak, but all that can be done right now is
+ignore the leak by adding a valgrind suppression.
+---> The files with partial_cherrypicks are:-
+.valgrind.supp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ ade0c127e56ff248039c60c3b29abcac24be1949 -> cb9afe0dc0c9bb19ad6755df5677351e1e7fbb22 } is a cherrypick
+{ c9cc2aa53d3adcef813d56107058d4b261488f66 -> 7cff10a6c56c662104cb1f9145ab45c94da4862d }
+Partial Cherry-pick commits SHA are -> 
+cb9afe0dc0c9bb19ad6755df5677351e1e7fbb22 - cherrypick - 7cff10a6c56c662104cb1f9145ab45c94da4862d
+---> The cherrypicked commit sha is - cb9afe0dc0c9bb19ad6755df5677351e1e7fbb22
+Commit message - Add helpers for debugging with valgrind
+
+The environment variable USE_VALGRIND can be set to run tests with valgrind. If
+VALGRIND_GDB is set, valgrind will start it's own gdbserver for remote
+debugging with `target remote | vgdb`. USE_GDB can still be used, but it will
+be ignored if USE_VALGRIND is set.
+---> The original commit sha is - 7cff10a6c56c662104cb1f9145ab45c94da4862d
+Commit message - test: Add valgrind suppression for libuv memory leak
+
+A memory leak happens in uv_spawn when stdio is set to UV_IGNORE and the child
+process fails to start. This only happens when libuv is compiled with gcc and
+optimizations enabled(the default).
+
+Compiling with '-O0' removes the leak, but all that can be done right now is
+ignore the leak by adding a valgrind suppression.
+---> The files with partial_cherrypicks are:-
+.valgrind.supp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ 48847fbafc41d93bbc42d7bf5711a47c4982e08c -> 87ab0416100b5f6a6ca09806cebbfa0ad6e2d535 } is a cherrypick
+{ 50590ba54ecbbf8b57019215bcb82fd9905b8790 -> 33d3a7c83b2f1d2cda22b53bf82d68267154cdfd }
+Partial Cherry-pick commits SHA are -> 
+87ab0416100b5f6a6ca09806cebbfa0ad6e2d535 - cherrypick - 33d3a7c83b2f1d2cda22b53bf82d68267154cdfd
+---> The cherrypicked commit sha is - 87ab0416100b5f6a6ca09806cebbfa0ad6e2d535
+Commit message - Homebrew: Compile as release build.
+---> The original commit sha is - 33d3a7c83b2f1d2cda22b53bf82d68267154cdfd
+Commit message - Merge pull request #1366 from fwalch/homebrew-release
+
+Homebrew: Compile as release build.
+---> The files with partial_cherrypicks are:-
+neovim.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ 65942d3a8d84510fcee2dd1c6306a5af13296c84 -> d14c12484767429b7e8906a41a77c9c103d50283 } is a cherrypick
+{ 72c54db443aad66dd5f71ce25d7ec8896715e233 -> 3fc542b45bc6b3b826f7c2eabffe1ede3cb7afbf }
+Partial Cherry-pick commits SHA are -> 
+d14c12484767429b7e8906a41a77c9c103d50283 - cherrypick - 3fc542b45bc6b3b826f7c2eabffe1ede3cb7afbf
+---> The cherrypicked commit sha is - d14c12484767429b7e8906a41a77c9c103d50283
+Commit message - vim-patch:7.4.433
+
+Problem:    Test 75 fails on MS-Windows.
+Solution:   Use ":normal" instead of feedkeys(). (Michael Soyka)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-433
+---> The original commit sha is - 3fc542b45bc6b3b826f7c2eabffe1ede3cb7afbf
+Commit message - Merge pull request #1347 from splinterofchaos/433
+
+vim-patch:7.4.433
+---> The files with partial_cherrypicks are:-
+src/nvim/testdir/test75.in
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ d11fd1950fc6425da72185ee67278496db987eae -> 46c610c9fe57912ae5605d06b04aa6a122794a0d } is a cherrypick
+{ 87cf661af621f2bcc9314ad7ae2c65df82974f8a -> d1e063a8af57661c37da31954346b2b9f73dd9b5 }
+Partial Cherry-pick commits SHA are -> 
+46c610c9fe57912ae5605d06b04aa6a122794a0d - cherrypick - d1e063a8af57661c37da31954346b2b9f73dd9b5
+---> The cherrypicked commit sha is - 46c610c9fe57912ae5605d06b04aa6a122794a0d
+Commit message - vim-patch:7.4.406
+
+Problem:    Test 72 and 100 fail on MS-Windows.
+Solution:   Set fileformat to unix in the tests. (Taro Muraoka)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-406
+---> The original commit sha is - d1e063a8af57661c37da31954346b2b9f73dd9b5
+Commit message - Merge pull request #1332 from splinterofchaos/listbr
+
+vim-patch:7.4.422
+---> The files with partial_cherrypicks are:-
+src/nvim/testdir/test100.in
+src/nvim/testdir/test72.in
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ 1be1964f343fc3e5c161d00ca36e5c3b90688703 -> 0b775e3513098cc3ba9d7d75a93cc65f4e8a43f9 } is a cherrypick
+{ 56339036a741cb5ae8681bf73aec8f8d24cb1786 -> 7e1b285c575aefc6120c1444f8d781f956d3cac8 }
+Partial Cherry-pick commits SHA are -> 
+0b775e3513098cc3ba9d7d75a93cc65f4e8a43f9 - cherrypick - 7e1b285c575aefc6120c1444f8d781f956d3cac8
+---> The cherrypicked commit sha is - 0b775e3513098cc3ba9d7d75a93cc65f4e8a43f9
+Commit message - CMake: Set execute permissions during installation.
+---> The original commit sha is - 7e1b285c575aefc6120c1444f8d781f956d3cac8
+Commit message - Merge pull request #1313 from fwalch/runtime-programs
+
+CMake: Set execute permissions during installation.
+---> The files with partial_cherrypicks are:-
+cmake/InstallHelpers.cmake
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ 0b775e3513098cc3ba9d7d75a93cc65f4e8a43f9 -> 6c78fd1a641bd8e15645f42a97512a0a128377e1 } is a cherrypick
+{ 9097b69088d250ddb62ae47ec96b68eaef6090cd -> 56339036a741cb5ae8681bf73aec8f8d24cb1786 }
+Partial Cherry-pick commits SHA are -> 
+6c78fd1a641bd8e15645f42a97512a0a128377e1 - cherrypick - 56339036a741cb5ae8681bf73aec8f8d24cb1786
+---> The cherrypicked commit sha is - 6c78fd1a641bd8e15645f42a97512a0a128377e1
+Commit message - version: remove "Running in Vi compatible mode" message #1309
+---> The original commit sha is - 56339036a741cb5ae8681bf73aec8f8d24cb1786
+Commit message - Merge pull request #1311 from GokuITA/issue1295
+
+Fixed sign column redraw
+---> The files with partial_cherrypicks are:-
+src/nvim/version.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ 78d17e1f78ed46f611b4ce448a786305ead7c36c -> 9b6f192693b02e2e5547baf7885d91e61eaa7735 } is a cherrypick
+{ 60e5d8d1ccd5a07038138f18752620edebeb8a3d -> 5e65e3eae079d4765124ce791ce79649444ca403 }
+Partial Cherry-pick commits SHA are -> 
+9b6f192693b02e2e5547baf7885d91e61eaa7735 - cherrypick - 5e65e3eae079d4765124ce791ce79649444ca403
+---> The cherrypicked commit sha is - 9b6f192693b02e2e5547baf7885d91e61eaa7735
+Commit message - Replace FOR_ALL_WINDOWS with FOR_ALL_WINDOWS_IN_TAB(curtab)
+---> The original commit sha is - 5e65e3eae079d4765124ce791ce79649444ca403
+Commit message - Merge pull request #1208 from war1025/dev/remove_for_all_windows
+
+Remove FOR_ALL_WINDOWS and replace with FOR_ALL_WINDOWS_IN_TAB(curtab)
+---> The files with partial_cherrypicks are:-
+src/nvim/buffer.c
+src/nvim/diff.c
+src/nvim/eval.c
+src/nvim/ex_cmds.c
+src/nvim/ex_cmds2.c
+src/nvim/fileio.c
+src/nvim/fold.c
+src/nvim/main.c
+src/nvim/mark.c
+src/nvim/misc1.c
+src/nvim/normal.c
+src/nvim/ops.c
+src/nvim/option.c
+src/nvim/quickfix.c
+src/nvim/spell.c
+src/nvim/syntax.c
+src/nvim/undo.c
+src/nvim/window.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 7e330496a78e04dd7551b2b27954b6757c62ea87 -> 4afd8f92ae865edc0d48181bbe774731a42da473 } is a cherrypick
+{ d97a8e312e506b710284ca3495ed1eb4ea172f73 -> 4b0f524915ee0e94bf9ca24fb1c1014921e610d5 }
+Partial Cherry-pick commits SHA are -> 
+4afd8f92ae865edc0d48181bbe774731a42da473 - cherrypick - 4b0f524915ee0e94bf9ca24fb1c1014921e610d5
+---> The cherrypicked commit sha is - 4afd8f92ae865edc0d48181bbe774731a42da473
+Commit message - vim-patch:7.4.454
+
+Problem:  When using a Visual selection of multiple words and doing
+          CTRL-W_] it jumps to the tag matching the word under the
+          cursor, not the selected text.  (Patrick hemmer)
+
+Solution: Do not reset Visual mode. (idea by Christian Brabandt)
+
+https://code.google.com/p/vim/source/detail?r=0cdff7c268559f8f34eae073a013ece71b62b9e3
+---> The original commit sha is - 4b0f524915ee0e94bf9ca24fb1c1014921e610d5
+Commit message - Merge pull request #1225 from mhinz/p7.4.454
+
+vim-patch:7.4.454
+---> The files with partial_cherrypicks are:-
+src/nvim/window.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ e1517d4f53ddd4e23bb13acbfdf0f7ff2bfe2309 -> 2b937fe00d8b0b308cce87aee9f70699f8474c1e } is a cherrypick
+{ f7bb349848de3be4013e30e8a5f603aa7db5a4a8 -> d97a8e312e506b710284ca3495ed1eb4ea172f73 }
+Partial Cherry-pick commits SHA are -> 
+2b937fe00d8b0b308cce87aee9f70699f8474c1e - cherrypick - d97a8e312e506b710284ca3495ed1eb4ea172f73
+---> The cherrypicked commit sha is - 2b937fe00d8b0b308cce87aee9f70699f8474c1e
+Commit message - vim-patch:7.4.320
+
+Problem:    Possible crash when an BufLeave autocommand deletes the buffer.
+Solution:   Check for the window pointer being valid.  Postpone freeing the
+            window until autocommands are done. (Yasuhiro Matsumoto)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-320
+---> The original commit sha is - d97a8e312e506b710284ca3495ed1eb4ea172f73
+Commit message - Merge pull request #1209 from atwupack/vp-7.4.320
+
+vim-patch:7.4.320
+---> The files with partial_cherrypicks are:-
+src/nvim/buffer.c
+src/nvim/fileio.c
+src/nvim/globals.h
+src/nvim/window.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ 57d497c51b1159052cb53c9e4db0388626b35903 -> 1a7c83d77d5bf7030c7609916d0cd8ddfa7cc53f } is a cherrypick
+{ 176f16066b52f437b098d3d4d8dee5c5bf2e8865 -> f7bb349848de3be4013e30e8a5f603aa7db5a4a8 }
+Partial Cherry-pick commits SHA are -> 
+1a7c83d77d5bf7030c7609916d0cd8ddfa7cc53f - cherrypick - f7bb349848de3be4013e30e8a5f603aa7db5a4a8
+---> The cherrypicked commit sha is - 1a7c83d77d5bf7030c7609916d0cd8ddfa7cc53f
+Commit message - vim-patch:7.4.411
+
+Problem:    "foo bar" sorts before "foo" with sort(). (John Little)
+Solution:   Avoid putting quotes around strings before comparing them.
+
+https://code.google.com/p/vim/source/detail?r=v7-4-411
+---> The original commit sha is - f7bb349848de3be4013e30e8a5f603aa7db5a4a8
+Commit message - Merge pull request #1220 from atwupack/vp-7.4.411
+
+vim-patch:7.4.411
+---> The files with partial_cherrypicks are:-
+src/nvim/eval.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ bd1ecad4f13c75bd10daf0b542fdc95aaa347dc4 -> 78d17e1f78ed46f611b4ce448a786305ead7c36c } is a cherrypick
+{ ea26283cf6fc594d0de4ae4cc3dcd5018f55dd4d -> d41eb83019ccaf78fe172da3477a07aaf645ba3d }
+Partial Cherry-pick commits SHA are -> 
+78d17e1f78ed46f611b4ce448a786305ead7c36c - cherrypick - d41eb83019ccaf78fe172da3477a07aaf645ba3d
+---> The cherrypicked commit sha is - 78d17e1f78ed46f611b4ce448a786305ead7c36c
+Commit message - vim-patch:7.4.391
+
+Problem:    No 'cursorline' highlighting when the cursor is on a line with
+            diff highlighting. (Benjamin Fritz)
+Solution:   Combine the highlight attributes. (Christian Brabandt)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-391
+---> The original commit sha is - d41eb83019ccaf78fe172da3477a07aaf645ba3d
+Commit message - Merge pull request #1236 from atwupack/vp-7.4.391
+
+vim-patch:7.4.391
+---> The files with partial_cherrypicks are:-
+src/nvim/screen.c
+src/nvim/version.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ 6cc6b0ff9eb5bba50d125199b984cb1a374e4f77 -> ea492696cfbb5912b9b42112159a028e24f9e2fc } is a cherrypick
+{ 3b0437916424cde16ce4c4dd13faa70b68a84a7d -> 21f1802b8af60878c5c83032732cb1b4e1ef7f34 }
+Partial Cherry-pick commits SHA are -> 
+ea492696cfbb5912b9b42112159a028e24f9e2fc - cherrypick - 21f1802b8af60878c5c83032732cb1b4e1ef7f34
+---> The cherrypicked commit sha is - ea492696cfbb5912b9b42112159a028e24f9e2fc
+Commit message - vim-patch:7.4.407
+
+Problem:    Inserting text for Visual block mode, with cursor movement,
+            repeats the wrong text. (Aleksandar Ivanov)
+Solution:   Reset the update_Insstart_orig flag. (Christian Brabandt)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-407
+---> The original commit sha is - 21f1802b8af60878c5c83032732cb1b4e1ef7f34
+Commit message - Merge pull request #1207 from atwupack/vp-7.4.407
+
+vim-patch:7.4.407
+---> The files with partial_cherrypicks are:-
+src/nvim/edit.c
+src/nvim/testdir/test39.in
+src/nvim/version.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ 693bf89f2a13c9a8ed58655bbe7b0ee3536ac98c -> b57d6ef09a86d3cf26a3ebc0fa03a5af21bd2e27 } is a cherrypick
+{ bb176f4a7e6422cf3c66d2beee6ce984b7795f66 -> 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908 }
+Partial Cherry-pick commits SHA are -> 
+b57d6ef09a86d3cf26a3ebc0fa03a5af21bd2e27 - cherrypick - 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908
+---> The cherrypicked commit sha is - b57d6ef09a86d3cf26a3ebc0fa03a5af21bd2e27
+Commit message - vim-patch:7.4.392
+
+Problem:    Not easy to detect type of command line window.
+Solution:   Add the getcmdwintype() function. (Jacob Niehus)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-392
+---> The original commit sha is - 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908
+Commit message - Merge pull request #1011 from stefan991/cleanup-docs
+
+Cleanup user documentation build
+---> The files with partial_cherrypicks are:-
+src/nvim/eval.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ 9d4e8fffa11f1794a385165a14a9a84e69ac26ec -> 0ed9f3ec8338783466b0a6ab2661d9a061a436fa } is a cherrypick
+{ bb176f4a7e6422cf3c66d2beee6ce984b7795f66 -> 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908 }
+Partial Cherry-pick commits SHA are -> 
+0ed9f3ec8338783466b0a6ab2661d9a061a436fa - cherrypick - 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908
+---> The cherrypicked commit sha is - 0ed9f3ec8338783466b0a6ab2661d9a061a436fa
+Commit message - Merge pull request #1197 from Shougo/vim-patch-7.4.392
+
+vim-patch:7.4.392
+---> The original commit sha is - 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908
+Commit message - Merge pull request #1011 from stefan991/cleanup-docs
+
+Cleanup user documentation build
+---> The files with partial_cherrypicks are:-
+src/nvim/eval.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ 693bf89f2a13c9a8ed58655bbe7b0ee3536ac98c -> b57d6ef09a86d3cf26a3ebc0fa03a5af21bd2e27 } is a cherrypick
+{ 9d4e8fffa11f1794a385165a14a9a84e69ac26ec -> 0ed9f3ec8338783466b0a6ab2661d9a061a436fa }
+Partial Cherry-pick commits SHA are -> 
+b57d6ef09a86d3cf26a3ebc0fa03a5af21bd2e27 - cherrypick - 0ed9f3ec8338783466b0a6ab2661d9a061a436fa
+---> The cherrypicked commit sha is - b57d6ef09a86d3cf26a3ebc0fa03a5af21bd2e27
+Commit message - vim-patch:7.4.392
+
+Problem:    Not easy to detect type of command line window.
+Solution:   Add the getcmdwintype() function. (Jacob Niehus)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-392
+---> The original commit sha is - 0ed9f3ec8338783466b0a6ab2661d9a061a436fa
+Commit message - Merge pull request #1197 from Shougo/vim-patch-7.4.392
+
+vim-patch:7.4.392
+---> The files with partial_cherrypicks are:-
+src/nvim/eval.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ 1fe6dc03aa924110cca27fd993c584ed1b3c7c83 -> 102af4f82303e1bada777769df0c88c5637c9129 } is a cherrypick
+{ a85f7d35d805f05b6b432d167c129448ffc83fa4 -> dc6db20febf1ce1848e87f8950c48a78aaffd8f6 }
+Partial Cherry-pick commits SHA are -> 
+102af4f82303e1bada777769df0c88c5637c9129 - cherrypick - dc6db20febf1ce1848e87f8950c48a78aaffd8f6
+---> The cherrypicked commit sha is - 102af4f82303e1bada777769df0c88c5637c9129
+Commit message - vim-patch:7.4.410
+
+Problem:    Fold does not open after search when there is a CmdwinLeave
+            autocommand.
+Solution:   Restore KeyTyped. (Jacob Niehus)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-410
+---> The original commit sha is - dc6db20febf1ce1848e87f8950c48a78aaffd8f6
+Commit message - Merge pull request #1194 from Shougo/vim-patch-7.4.410
+
+vim-patch:7.4.410
+---> The files with partial_cherrypicks are:-
+src/nvim/ex_getln.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ 9829febebcd9165c3913c7a6995b2e5ef4eacc1c -> 1fe6dc03aa924110cca27fd993c584ed1b3c7c83 } is a cherrypick
+{ 1fdfe3a484bf8f1c452023439ce2c9e61b856299 -> a85f7d35d805f05b6b432d167c129448ffc83fa4 }
+Partial Cherry-pick commits SHA are -> 
+1fe6dc03aa924110cca27fd993c584ed1b3c7c83 - cherrypick - a85f7d35d805f05b6b432d167c129448ffc83fa4
+---> The cherrypicked commit sha is - 1fe6dc03aa924110cca27fd993c584ed1b3c7c83
+Commit message - vim-patch:7.4.374
+
+Problem:    Character after "fb" command not mapped if it might be a composing
+            character.
+Solution:   Don't disable mapping when looking for a composing character.
+            (Jacob Niehus)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-374
+---> The original commit sha is - a85f7d35d805f05b6b432d167c129448ffc83fa4
+Commit message - Merge pull request #1189 from Shougo/vim-patch-7.4.374
+
+vim-patch:7.4.374
+---> The files with partial_cherrypicks are:-
+src/nvim/normal.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ 3654cce0bf1ca0a2e015326c1c2ed2e97f3c9692 -> 9829febebcd9165c3913c7a6995b2e5ef4eacc1c } is a cherrypick
+{ 8eef40deafdb373c271edf2d8ac6be22b7451523 -> 1fdfe3a484bf8f1c452023439ce2c9e61b856299 }
+Partial Cherry-pick commits SHA are -> 
+9829febebcd9165c3913c7a6995b2e5ef4eacc1c - cherrypick - 1fdfe3a484bf8f1c452023439ce2c9e61b856299
+---> The cherrypicked commit sha is - 9829febebcd9165c3913c7a6995b2e5ef4eacc1c
+Commit message - vim-patch:7.4.364
+
+Problem:    When the viminfo file can't be renamed there is no error message.
+            (Vladimir Berezhnoy)
+Solution:   Check for the rename to fail.
+
+https://code.google.com/p/vim/source/detail?r=v7-4-364
+---> The original commit sha is - 1fdfe3a484bf8f1c452023439ce2c9e61b856299
+Commit message - Merge pull request #1188 from Shougo/vim-patch-7.4.364
+
+vim-patch:7.4.364
+---> The files with partial_cherrypicks are:-
+src/nvim/ex_cmds.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ 3b9a44fbeaef504e28120f0fdd07f438be00aec3 -> 693bf89f2a13c9a8ed58655bbe7b0ee3536ac98c } is a cherrypick
+{ fe446c86cf752961fab84f92aa4956aaa4dc3f6f -> 67a16384a46c5eb51ba43d9150e95a1742cffbde }
+Partial Cherry-pick commits SHA are -> 
+693bf89f2a13c9a8ed58655bbe7b0ee3536ac98c - cherrypick - 67a16384a46c5eb51ba43d9150e95a1742cffbde
+---> The cherrypicked commit sha is - 693bf89f2a13c9a8ed58655bbe7b0ee3536ac98c
+Commit message - vim-patch:7.4.383
+
+Problem:    Bad interaction between preview window and omnifunc.
+Solution:   Avoid redrawing the status line. (Hirohito Higashi)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-383
+---> The original commit sha is - 67a16384a46c5eb51ba43d9150e95a1742cffbde
+Commit message - Merge pull request #1193 from Shougo/vim-patch-7.4.383
+
+vim-patch:7.4.383
+---> The files with partial_cherrypicks are:-
+src/nvim/popupmnu.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ 1a2338bbad3f3832d739195b8375a491e0560dd3 -> 3b9a44fbeaef504e28120f0fdd07f438be00aec3 } is a cherrypick
+{ e2c111384b97532d7601519e3501f480e932c0cd -> fe446c86cf752961fab84f92aa4956aaa4dc3f6f }
+Partial Cherry-pick commits SHA are -> 
+3b9a44fbeaef504e28120f0fdd07f438be00aec3 - cherrypick - fe446c86cf752961fab84f92aa4956aaa4dc3f6f
+---> The cherrypicked commit sha is - 3b9a44fbeaef504e28120f0fdd07f438be00aec3
+Commit message - vim-patch: 7.4.381
+
+Problem:    Get u_undo error when backspacing in Insert mode deletes more than
+            one line break. (Ayberk Ozgur)
+Solution:   Also decrement Insstart.lnum.
+
+https://code.google.com/p/vim/source/detail?r=v7-4-381
+---> The original commit sha is - fe446c86cf752961fab84f92aa4956aaa4dc3f6f
+Commit message - Merge pull request #1196 from Shougo/vim-patch-7.4.381
+
+vim-patch: 7.4.381
+---> The files with partial_cherrypicks are:-
+src/nvim/edit.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ 5d35484203cb950a7ba0ed0d9428cb58b37212ff -> 4f3d49d92104b871975f963d3f7cb1df111c577b } is a cherrypick
+{ 3ec4e18cd00700abdffb564835dd4cd7e68a0093 -> 874296331b70f233e0fbd292e459b84d81d8349c }
+Partial Cherry-pick commits SHA are -> 
+4f3d49d92104b871975f963d3f7cb1df111c577b - cherrypick - 874296331b70f233e0fbd292e459b84d81d8349c
+---> The cherrypicked commit sha is - 4f3d49d92104b871975f963d3f7cb1df111c577b
+Commit message - vim-patch:7.4.387
+
+Problem:    "4gro" replaces one character then executes "ooo". (Urtica
+Dioica)
+Solution:   Write the ESC in the second stuff buffer.
+
+https://code.google.com/p/vim/source/detail?r=v7-4-387
+---> The original commit sha is - 874296331b70f233e0fbd292e459b84d81d8349c
+Commit message - Merge pull request #1177 from NOLFXceptMe/vp-7.4.387
+
+vim-patch:7.4.387
+---> The files with partial_cherrypicks are:-
+src/nvim/edit.c
+src/nvim/getchar.c
+src/nvim/testdir/Makefile
+src/nvim/testdir/test_insertcount.in
+src/nvim/testdir/test_insertcount.ok
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ 5778c25c019f01c3e0249da18398abdca3f9b002 -> def28adfdd7a9ee643224e36f3f601f9f7222f46 } is a cherrypick
+{ 53ef7038d84ead3094b828ac0fc540d10e99c1fe -> 5d35484203cb950a7ba0ed0d9428cb58b37212ff }
+Partial Cherry-pick commits SHA are -> 
+def28adfdd7a9ee643224e36f3f601f9f7222f46 - cherrypick - 5d35484203cb950a7ba0ed0d9428cb58b37212ff
+---> The cherrypicked commit sha is - def28adfdd7a9ee643224e36f3f601f9f7222f46
+Commit message - vim-patch:7.4.312
+
+Problem:    Cannot figure out what argument list is being used for a window.
+Solution:   Add the arglistid() function. (Marcin Szamotulski)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-312
+---> The original commit sha is - 5d35484203cb950a7ba0ed0d9428cb58b37212ff
+Commit message - Merge pull request #1169 from splinterofchaos/arglistid
+
+vim-patch:7.4.312
+---> The files with partial_cherrypicks are:-
+src/nvim/buffer_defs.h
+src/nvim/eval.c
+src/nvim/ex_docmd.c
+src/nvim/globals.h
+src/nvim/main.c
+src/nvim/version.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ 579e0baba03482e3b1f9a83cdb54c1b8871eb5e2 -> 0a01b3052e02b5ee94d4e7537278163639317bd8 } is a cherrypick
+{ 5ca1f974620fd8922aba4bde2a318ad8bf3a9d51 -> 042aca6eb4d0fe9e6ddf3bcfb96a39838b2633d1 }
+Partial Cherry-pick commits SHA are -> 
+0a01b3052e02b5ee94d4e7537278163639317bd8 - cherrypick - 042aca6eb4d0fe9e6ddf3bcfb96a39838b2633d1
+---> The cherrypicked commit sha is - 0a01b3052e02b5ee94d4e7537278163639317bd8
+Commit message - Update busted to 2.0.rc3.
+
+Default to verbose output to show more information in case of errors.
+Fix #1031.
+---> The original commit sha is - 042aca6eb4d0fe9e6ddf3bcfb96a39838b2633d1
+Commit message - Merge pull request #1098 from fwalch/update-busted
+
+Update busted to version 2.
+---> The files with partial_cherrypicks are:-
+.ci/gcc-ia32.sh
+CMakeLists.txt
+cmake/RunUnittests.cmake
+third-party/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ 1fb80d24eba04eb4a129ce41651e9de11fa332a1 -> 60371bb1bbde7377a270413d62a00ae5271b3ff7 } is a cherrypick
+{ 867bdae5c2399040af9a6885c279ec1838fc756a -> c54baaa319c95fa5fb7544ce7282ffb14a976902 }
+Partial Cherry-pick commits SHA are -> 
+60371bb1bbde7377a270413d62a00ae5271b3ff7 - cherrypick - c54baaa319c95fa5fb7544ce7282ffb14a976902
+---> The cherrypicked commit sha is - 60371bb1bbde7377a270413d62a00ae5271b3ff7
+Commit message - vim-patch:7.4.345
+
+Problem:    Indent is not updated when deleting indent.
+Solution:   Remember changedtick.
+
+https://code.google.com/p/vim/source/detail?r=v7-4-345
+---> The original commit sha is - c54baaa319c95fa5fb7544ce7282ffb14a976902
+Commit message - Merge pull request #1159 from atwupack/vp-7.4.345
+
+vim-patch:7.4.345
+---> The files with partial_cherrypicks are:-
+src/nvim/indent.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ 9fa467a9b227243c9c534ae0df1bdaf8235551a0 -> f85053ccf755f6b4ddf4c68af01a81dbe81504ae } is a cherrypick
+{ 68b9b4360765860a1ab68d63325dff0b50d8fd6f -> 34c418fceb457bb21bf365311ce558d2d616b24a }
+Partial Cherry-pick commits SHA are -> 
+f85053ccf755f6b4ddf4c68af01a81dbe81504ae - cherrypick - 34c418fceb457bb21bf365311ce558d2d616b24a
+---> The cherrypicked commit sha is - f85053ccf755f6b4ddf4c68af01a81dbe81504ae
+Commit message - vim-patch:7.4.278
+
+Problem:    list_remove() conflicts with function defined in Sun header file.
+Solution:   Rename the function. (Richard Palo)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-278
+---> The original commit sha is - 34c418fceb457bb21bf365311ce558d2d616b24a
+Commit message - Merge pull request #1154 from Shougo/fix-NAs
+
+Fix #1147 version numbers
+---> The files with partial_cherrypicks are:-
+src/nvim/version.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ 7ac191ab1085875319e139b044ec1f98498b87ce -> bf3d9457981c372bb33155045b070facffd01f65 } is a cherrypick
+{ d66cd61b79d6d592436c4552dbdddb904dd1c22e -> 3f5482d3251b3bbdc7c4df8a8e64eb3af7e5922c }
+Partial Cherry-pick commits SHA are -> 
+bf3d9457981c372bb33155045b070facffd01f65 - cherrypick - 3f5482d3251b3bbdc7c4df8a8e64eb3af7e5922c
+---> The cherrypicked commit sha is - bf3d9457981c372bb33155045b070facffd01f65
+Commit message - vim-patch: 7.4.330
+
+Problem:    Using a regexp pattern to highlight a specific position can
+be slow.
+Solution:   Add matchaddpos() to highlight specific positions
+efficiently.
+(Alexey Radkov.)
+
+https://code.google.com/p/vim/source/detail?r=f9fa2e506b9f07549cd91074835c5c553db7b3a7
+---> The original commit sha is - 3f5482d3251b3bbdc7c4df8a8e64eb3af7e5922c
+Commit message - Merge pull request #1107 from fmoralesc/matchaddpos
+
+Add matchaddpos()-related vim patches. [vim-patch: 7.4.330, 7.4.334, 7.4.343, 7.4.344, 7.4.362]
+---> The files with partial_cherrypicks are:-
+src/nvim/ex_docmd.c
+src/nvim/testdir/test63.in
+src/nvim/testdir/test63.ok
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ 75f164c43ff32de93ac3ed2c32a1ccf8e6cb4c0a -> de025425fb32970a0d8eea520b66b7921d6c23fb } is a cherrypick
+{ db598c5790eefac9ce414f4348d2bae2c6d25484 -> 7f9ec6c04f3949e6d666c1586efc20a4a79be257 }
+Partial Cherry-pick commits SHA are -> 
+de025425fb32970a0d8eea520b66b7921d6c23fb - cherrypick - 7f9ec6c04f3949e6d666c1586efc20a4a79be257
+---> The cherrypicked commit sha is - de025425fb32970a0d8eea520b66b7921d6c23fb
+Commit message - upgrade luarocks
+
+ref #822
+---> The original commit sha is - 7f9ec6c04f3949e6d666c1586efc20a4a79be257
+Commit message - Merge pull request #1088 from justinmk/upgradeluarocks
+
+upgrade luarocks
+---> The files with partial_cherrypicks are:-
+third-party/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ 5f3e677e21c08008074c3d6929695ffb34827cb7 -> 75f164c43ff32de93ac3ed2c32a1ccf8e6cb4c0a } is a cherrypick
+{ e11b23e357ca797211c4e11f3f87ddb0dac98a99 -> c2a8f06bbaa5a8a187b1b9ca80676c20dc7a0a49 }
+Partial Cherry-pick commits SHA are -> 
+75f164c43ff32de93ac3ed2c32a1ccf8e6cb4c0a - cherrypick - c2a8f06bbaa5a8a187b1b9ca80676c20dc7a0a49
+---> The cherrypicked commit sha is - 75f164c43ff32de93ac3ed2c32a1ccf8e6cb4c0a
+Commit message - Runtime: Support Arch Linux/Pacman file types.
+---> The original commit sha is - c2a8f06bbaa5a8a187b1b9ca80676c20dc7a0a49
+Commit message - Merge pull request #1087 from fwalch/archlinux-filetypes
+
+Runtime: Support Arch Linux/Pacman file types.
+---> The files with partial_cherrypicks are:-
+runtime/filetype.vim
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ 24f585a68c38fba4993006706023bf1fcd87ef80 -> fc2020a1403203ec7817c62cff0cfe0e7b93d9b7 } is a cherrypick
+{ 92d27b7290914585f11d3a07e9bbbc504b8c9ca1 -> 665c3cc3345ed766bf085a841806d6f0606ee12a }
+Partial Cherry-pick commits SHA are -> 
+fc2020a1403203ec7817c62cff0cfe0e7b93d9b7 - cherrypick - 665c3cc3345ed766bf085a841806d6f0606ee12a
+---> The cherrypicked commit sha is - fc2020a1403203ec7817c62cff0cfe0e7b93d9b7
+Commit message - vim-patch:7.4.220
+
+Problem:    Test 105 does not work in a shadow dir. (James McCoy)
+Solution:   Omit "src/" from the checked path.
+
+https://code.google.com/p/vim/source/detail?r=v7-4-220
+---> The original commit sha is - 665c3cc3345ed766bf085a841806d6f0606ee12a
+Commit message - Merge pull request #1104 from Hinidu/vim-patch-7.4.220
+
+vim-patch:7.4.220
+---> The files with partial_cherrypicks are:-
+src/nvim/testdir/test105.in
+src/nvim/testdir/test105.ok
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ 75f164c43ff32de93ac3ed2c32a1ccf8e6cb4c0a -> de025425fb32970a0d8eea520b66b7921d6c23fb } is a cherrypick
+{ 3623a028263fa321f0790fe1132ac2934d6d5dc7 -> 92d27b7290914585f11d3a07e9bbbc504b8c9ca1 }
+Partial Cherry-pick commits SHA are -> 
+de025425fb32970a0d8eea520b66b7921d6c23fb - cherrypick - 92d27b7290914585f11d3a07e9bbbc504b8c9ca1
+---> The cherrypicked commit sha is - de025425fb32970a0d8eea520b66b7921d6c23fb
+Commit message - upgrade luarocks
+
+ref #822
+---> The original commit sha is - 92d27b7290914585f11d3a07e9bbbc504b8c9ca1
+Commit message - Merge pull request #1111 from epmatsw/spellcheck2
+
+More Typo Fixes
+---> The files with partial_cherrypicks are:-
+runtime/autoload/ada.vim
+runtime/autoload/sqlcomplete.vim
+runtime/autoload/syntaxcomplete.vim
+runtime/compiler/checkstyle.vim
+runtime/doc/os_win32.txt
+runtime/indent/ada.vim
+runtime/syntax/asm68k.vim
+runtime/syntax/aspvbs.vim
+runtime/syntax/chill.vim
+runtime/syntax/clipper.vim
+runtime/syntax/d.vim
+runtime/syntax/dtrace.vim
+runtime/syntax/ia64.vim
+runtime/syntax/kix.vim
+runtime/syntax/mel.vim
+runtime/syntax/php.vim
+runtime/syntax/postscr.vim
+runtime/syntax/redif.vim
+runtime/syntax/samba.vim
+runtime/syntax/sather.vim
+runtime/syntax/specman.vim
+runtime/syntax/spup.vim
+runtime/syntax/tcl.vim
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 49 is -> 
+{ 0cced2ea815f97e3e830c4c18eb1571dcfc4f31a -> a1582a841b2864ad20c22cc18b04010f9a813128 } is a cherrypick
+{ 3623a028263fa321f0790fe1132ac2934d6d5dc7 -> 92d27b7290914585f11d3a07e9bbbc504b8c9ca1 }
+Partial Cherry-pick commits SHA are -> 
+a1582a841b2864ad20c22cc18b04010f9a813128 - cherrypick - 92d27b7290914585f11d3a07e9bbbc504b8c9ca1
+---> The cherrypicked commit sha is - a1582a841b2864ad20c22cc18b04010f9a813128
+Commit message - Spelling fixes
+---> The original commit sha is - 92d27b7290914585f11d3a07e9bbbc504b8c9ca1
+Commit message - Merge pull request #1111 from epmatsw/spellcheck2
+
+More Typo Fixes
+---> The files with partial_cherrypicks are:-
+runtime/autoload/ada.vim
+runtime/autoload/sqlcomplete.vim
+runtime/autoload/syntaxcomplete.vim
+runtime/compiler/checkstyle.vim
+runtime/doc/os_win32.txt
+runtime/indent/ada.vim
+runtime/syntax/asm68k.vim
+runtime/syntax/aspvbs.vim
+runtime/syntax/chill.vim
+runtime/syntax/clipper.vim
+runtime/syntax/d.vim
+runtime/syntax/dtrace.vim
+runtime/syntax/ia64.vim
+runtime/syntax/kix.vim
+runtime/syntax/mel.vim
+runtime/syntax/php.vim
+runtime/syntax/postscr.vim
+runtime/syntax/redif.vim
+runtime/syntax/samba.vim
+runtime/syntax/sather.vim
+runtime/syntax/specman.vim
+runtime/syntax/spup.vim
+runtime/syntax/tcl.vim
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 50 is -> 
+{ 75f164c43ff32de93ac3ed2c32a1ccf8e6cb4c0a -> de025425fb32970a0d8eea520b66b7921d6c23fb } is a cherrypick
+{ ae1788d55d5f465891e1b72f7d49101b96e8b013 -> 0cced2ea815f97e3e830c4c18eb1571dcfc4f31a }
+Partial Cherry-pick commits SHA are -> 
+de025425fb32970a0d8eea520b66b7921d6c23fb - cherrypick - 0cced2ea815f97e3e830c4c18eb1571dcfc4f31a
+---> The cherrypicked commit sha is - de025425fb32970a0d8eea520b66b7921d6c23fb
+Commit message - upgrade luarocks
+
+ref #822
+---> The original commit sha is - 0cced2ea815f97e3e830c4c18eb1571dcfc4f31a
+Commit message - coverity/62620: fix uninitialized scalar variable
+---> The files with partial_cherrypicks are:-
+src/nvim/api/window.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 51 is -> 
+{ bc56d3a988767d6ea67f18c1c86311220dfae5e0 -> 5f3e677e21c08008074c3d6929695ffb34827cb7 } is a cherrypick
+{ 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82 -> fd46f22d019035cb8166a78cb92ade66f5c6ebf8 }
+Partial Cherry-pick commits SHA are -> 
+5f3e677e21c08008074c3d6929695ffb34827cb7 - cherrypick - fd46f22d019035cb8166a78cb92ade66f5c6ebf8
+---> The cherrypicked commit sha is - 5f3e677e21c08008074c3d6929695ffb34827cb7
+Commit message - vim-patch:7.4.339
+
+Problem:    Local function is available globally.
+Solution:   Add "static".
+
+https://code.google.com/p/vim/source/detail?r=v7-4-339
+---> The original commit sha is - fd46f22d019035cb8166a78cb92ade66f5c6ebf8
+Commit message - Merge pull request #1101 from atwupack/vp-7.4.339
+
+vim-patch:7.4.339
+---> The files with partial_cherrypicks are:-
+src/nvim/option.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 52 is -> 
+{ 75f164c43ff32de93ac3ed2c32a1ccf8e6cb4c0a -> de025425fb32970a0d8eea520b66b7921d6c23fb } is a cherrypick
+{ 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82 -> fd46f22d019035cb8166a78cb92ade66f5c6ebf8 }
+Partial Cherry-pick commits SHA are -> 
+de025425fb32970a0d8eea520b66b7921d6c23fb - cherrypick - fd46f22d019035cb8166a78cb92ade66f5c6ebf8
+---> The cherrypicked commit sha is - de025425fb32970a0d8eea520b66b7921d6c23fb
+Commit message - upgrade luarocks
+
+ref #822
+---> The original commit sha is - fd46f22d019035cb8166a78cb92ade66f5c6ebf8
+Commit message - Merge pull request #1101 from atwupack/vp-7.4.339
+
+vim-patch:7.4.339
+---> The files with partial_cherrypicks are:-
+src/nvim/option.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 53 is -> 
+{ 3b0f7fe59392138c886063b09e3cf41b25d53056 -> 3becb5fd21c45bb58e27768ce900da8abc4dbc73 } is a cherrypick
+{ fe706a9d1b368ae141a18949349c3382f0070ba9 -> 51ae9c643744995c2d3b6a466b6ad2333e1cba8c }
+Partial Cherry-pick commits SHA are -> 
+3becb5fd21c45bb58e27768ce900da8abc4dbc73 - cherrypick - 51ae9c643744995c2d3b6a466b6ad2333e1cba8c
+---> The cherrypicked commit sha is - 3becb5fd21c45bb58e27768ce900da8abc4dbc73
+Commit message - Use lua generator in place of ex_cmds_defs header trick
+
+Closes #788
+Fixes #379
+Ref #549
+---> The original commit sha is - 51ae9c643744995c2d3b6a466b6ad2333e1cba8c
+Commit message - Merge pull request #840 from ZyX-I/generate-ex_cmds
+
+Use lua generator in place of ex_cmds_defs header trick
+---> The files with partial_cherrypicks are:-
+scripts/genex_cmds.lua
+src/nvim/CMakeLists.txt
+src/nvim/ex_docmd.c
+src/nvim/ex_docmd.h
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 54 is -> 
+{ 8b72ae7c7875f47b7d775038700ee17ce71a2510 -> 8cf45786b11c4c96444962227a960a3683d9f2b1 } is a cherrypick
+{ 0b7bff5bb71ddc2e9c41863ec41b9aea74d0fe75 -> e1c330a486c184152cb48d637c6d04caba5290bd }
+Partial Cherry-pick commits SHA are -> 
+8cf45786b11c4c96444962227a960a3683d9f2b1 - cherrypick - e1c330a486c184152cb48d637c6d04caba5290bd
+---> The cherrypicked commit sha is - 8cf45786b11c4c96444962227a960a3683d9f2b1
+Commit message - Add FOR_ALL_BUFFERS helper
+---> The original commit sha is - e1c330a486c184152cb48d637c6d04caba5290bd
+Commit message - Merge pull request #1024 from war1025/dev/for_all_buffers
+
+Add FOR_ALL_BUFFERS helper
+---> The files with partial_cherrypicks are:-
+src/nvim/globals.h
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 55 is -> 
+{ 640bced2f8bf64098d52841947a3145554d41041 -> 888a31ba454cf9c054527a26459c112593efa54b } is a cherrypick
+{ 0b7bff5bb71ddc2e9c41863ec41b9aea74d0fe75 -> e1c330a486c184152cb48d637c6d04caba5290bd }
+Partial Cherry-pick commits SHA are -> 
+888a31ba454cf9c054527a26459c112593efa54b - cherrypick - e1c330a486c184152cb48d637c6d04caba5290bd
+---> The cherrypicked commit sha is - 888a31ba454cf9c054527a26459c112593efa54b
+Commit message - FOR_ALL_BUFFERS use locally declared buffer pointer
+---> The original commit sha is - e1c330a486c184152cb48d637c6d04caba5290bd
+Commit message - Merge pull request #1024 from war1025/dev/for_all_buffers
+
+Add FOR_ALL_BUFFERS helper
+---> The files with partial_cherrypicks are:-
+src/nvim/ex_cmds2.c
+src/nvim/ex_docmd.c
+src/nvim/main.c
+src/nvim/mark.c
+src/nvim/memfile.c
+src/nvim/memline.c
+src/nvim/misc1.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 56 is -> 
+{ 01d6898638851d01f6cb5812f1d6f64cda0ddc83 -> fc93536a901b4037f76a223c03d3650afb371f0b } is a cherrypick
+{ 6675a71fe4adb0ea21c842c6bba5e950d05a5f2c -> 933602b1882c6596f06125fc621825c357409899 }
+Partial Cherry-pick commits SHA are -> 
+fc93536a901b4037f76a223c03d3650afb371f0b - cherrypick - 933602b1882c6596f06125fc621825c357409899
+---> The cherrypicked commit sha is - fc93536a901b4037f76a223c03d3650afb371f0b
+Commit message - vim-patch:7.4.314
+
+Problem:    Completion messages can get in the way of a plugin.
+Solution:   Add 'c' flag to 'shortmess' option. (Shougo Matsu)
+
+https://code.google.com/p/vim/source/detail?r=4d7af1962d6ce61df65fdc5c86544a61951f9517
+---> The original commit sha is - 933602b1882c6596f06125fc621825c357409899
+Commit message - Merge pull request #971 from munshkr/p7.4.314
+
+vim-patch:7.4.314
+---> The files with partial_cherrypicks are:-
+src/nvim/edit.c
+src/nvim/option_defs.h
+src/nvim/screen.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 57 is -> 
+{ 9550beda61ea74a2a9738e9c10423fa817b7b897 -> 0761142246b9fcc69a52b4597e454adf79f1d789 } is a cherrypick
+{ 4f26b647223748647e2ec6127f1e13e331b7ef74 -> 4bebbaa57245c9bdb78c02a97622b4efc5899dbb }
+Partial Cherry-pick commits SHA are -> 
+0761142246b9fcc69a52b4597e454adf79f1d789 - cherrypick - 4bebbaa57245c9bdb78c02a97622b4efc5899dbb
+---> The cherrypicked commit sha is - 0761142246b9fcc69a52b4597e454adf79f1d789
+Commit message - Minor buffer.c style cleanups
+---> The original commit sha is - 4bebbaa57245c9bdb78c02a97622b4efc5899dbb
+Commit message - Merge pull request #998 from war1025/dev/buffer_cleanup
+
+Minor buffer.c style cleanups
+---> The files with partial_cherrypicks are:-
+src/nvim/buffer.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 58 is -> 
+{ 1bcbc42330d651f06b8a842e16fe36475afde05d -> a302c65dc65896776d6cb9e2c89a6ccc77ada530 } is a cherrypick
+{ 9f1b9726fb28f78fba7c50efa5316c4bf2413cf8 -> b17d9691a24099c9210289f16afb1a498a89d803 }
+Partial Cherry-pick commits SHA are -> 
+a302c65dc65896776d6cb9e2c89a6ccc77ada530 - cherrypick - b17d9691a24099c9210289f16afb1a498a89d803
+---> The cherrypicked commit sha is - a302c65dc65896776d6cb9e2c89a6ccc77ada530
+Commit message - Squashed 'third-party/libuv/' content from commit 3c40224
+
+git-subtree-dir: third-party/libuv
+git-subtree-split: 3c4022464acd92607f21c6eef69330fb071d0400
+---> The original commit sha is - b17d9691a24099c9210289f16afb1a498a89d803
+Commit message - Add LICENSE. fix #878. PR #883
+
+- change to Apache 2.0
+- include Vim license in LICENSE
+- upate README
+---> The files with partial_cherrypicks are:-
+vim-license.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 59 is -> 
+{ c57c3633d4c1667aa2c61a3b086041a989fd480c -> c2de243ce1652912a518b052fb1887ae05640d74 } is a cherrypick
+{ 7df7d6bb5baff62942af94f41de142159657569e -> 277554a9ebaaa34bea1862802254db9b9c0f92d1 }
+Partial Cherry-pick commits SHA are -> 
+c2de243ce1652912a518b052fb1887ae05640d74 - cherrypick - 277554a9ebaaa34bea1862802254db9b9c0f92d1
+---> The cherrypicked commit sha is - c2de243ce1652912a518b052fb1887ae05640d74
+Commit message - vim-patch:7.4.285
+
+Problem:    When 'relativenumber' is set and deleting lines or undoing that,
+            line numbers are not always updated. (Robert Arkwright)
+Solution:   (Christian Brabandt)
+
+https://code.google.com/p/vim/source/detail?r=5cb1828fd0056de3c166e71fbafc67a74c57d7b1
+---> The original commit sha is - 277554a9ebaaa34bea1862802254db9b9c0f92d1
+Commit message - Merge pull request #749 from oni-link/vim-patch-7-4-285
+
+vim-patch:7.4.285
+---> The files with partial_cherrypicks are:-
+src/nvim/misc1.c
+src/nvim/version.c
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 60 is -> 
+{ c002ffe2f3b76419ff5d16356d5e57fa518ac68b -> baaf24aceab851c6db75a5f497e64d1ae0f85c6b } is a cherrypick
+{ ade0c127e56ff248039c60c3b29abcac24be1949 -> cb9afe0dc0c9bb19ad6755df5677351e1e7fbb22 }
+Partial Cherry-pick commits SHA are -> 
+baaf24aceab851c6db75a5f497e64d1ae0f85c6b - cherrypick - cb9afe0dc0c9bb19ad6755df5677351e1e7fbb22
+---> The cherrypicked commit sha is - baaf24aceab851c6db75a5f497e64d1ae0f85c6b
+Commit message - Add valgrind suppression file
+---> The original commit sha is - cb9afe0dc0c9bb19ad6755df5677351e1e7fbb22
+Commit message - Add helpers for debugging with valgrind
+
+The environment variable USE_VALGRIND can be set to run tests with valgrind. If
+VALGRIND_GDB is set, valgrind will start it's own gdbserver for remote
+debugging with `target remote | vgdb`. USE_GDB can still be used, but it will
+be ignored if USE_VALGRIND is set.
+---> The files with partial_cherrypicks are:-
+.valgrind.supp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 61 is -> 
+{ 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef -> b43224e06c525ee27f636bde1a17e9b79f05893c } is a cherrypick
+{ ade0c127e56ff248039c60c3b29abcac24be1949 -> cb9afe0dc0c9bb19ad6755df5677351e1e7fbb22 }
+Partial Cherry-pick commits SHA are -> 
+b43224e06c525ee27f636bde1a17e9b79f05893c - cherrypick - cb9afe0dc0c9bb19ad6755df5677351e1e7fbb22
+---> The cherrypicked commit sha is - b43224e06c525ee27f636bde1a17e9b79f05893c
+Commit message - Merge branch 'pr36'
+
+Conflicts:
+	README.md
+---> The original commit sha is - cb9afe0dc0c9bb19ad6755df5677351e1e7fbb22
+Commit message - Add helpers for debugging with valgrind
+
+The environment variable USE_VALGRIND can be set to run tests with valgrind. If
+VALGRIND_GDB is set, valgrind will start it's own gdbserver for remote
+debugging with `target remote | vgdb`. USE_GDB can still be used, but it will
+be ignored if USE_VALGRIND is set.
+---> The files with partial_cherrypicks are:-
+.valgrind.supp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 62 is -> 
+{ 740296415d2c6bc25fe6aba10fabace68c4fb0c5 -> 82b724af4b996eb226c663cbdebf640331107dc5 } is a cherrypick
+{ 2bb9487b68db6cbb93e00c39fde8f5208893edc6 -> 97e635e8b6fba11ed1237cda3986139d2e6a2170 }
+Partial Cherry-pick commits SHA are -> 
+82b724af4b996eb226c663cbdebf640331107dc5 - cherrypick - 97e635e8b6fba11ed1237cda3986139d2e6a2170
+---> The cherrypicked commit sha is - 82b724af4b996eb226c663cbdebf640331107dc5
+Commit message - Use FindCurses to find curses libraries
+
+- Some systems have the FindCurses.cmake module to find
+  the curses/ncurses libraries using find_package(). And
+  in some CheckLibraries is not very reliable, so as
+  fallback FindCurses is now used if no other option
+  works.
+---> The original commit sha is - 97e635e8b6fba11ed1237cda3986139d2e6a2170
+Commit message - Merge pull request #184 from equalsraf/tb-curses
+
+Use FindCurses.cmake as fallback to find curses libraries
+---> The files with partial_cherrypicks are:-
+src/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 63 is -> 
+{ 60280ffa1095cf62e9c4892177c1ccc47db4f8f8 -> b7d5edd5aa1c7e8958e35caf302451be3d3d931e } is a cherrypick
+{ e51427b9a8c46b8ebd58c1dc156c28dc5afa04ad -> eb489326772c477a8c86113dd86a351129e3170c }
+Partial Cherry-pick commits SHA are -> 
+b7d5edd5aa1c7e8958e35caf302451be3d3d931e - cherrypick - eb489326772c477a8c86113dd86a351129e3170c
+---> The cherrypicked commit sha is - b7d5edd5aa1c7e8958e35caf302451be3d3d931e
+Commit message - Rebased the following three commits onto one another:
+
+1. Following GitHub convention by adding a CONTRIBUTING.md file.
+
+2. Linking to the wiki page for communicating.
+
+3. Referencing the waffle.io page for Neovim.
+---> The original commit sha is - eb489326772c477a8c86113dd86a351129e3170c
+Commit message - Merge pull request #123 from jbranchaud/adding-contributing-doc
+
+Following GitHub convention by adding a CONTRIBUTING.md file.
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 64 is -> 
+{ 72c6523da58b25bcb68791d539a18bb81c5f70eb -> 322255ede6df3e9f14f40fc35695a393a7e915c1 } is a cherrypick
+{ 11aac0db88eaba07da2c13f1e0eafecf13b371c5 -> e51427b9a8c46b8ebd58c1dc156c28dc5afa04ad }
+Partial Cherry-pick commits SHA are -> 
+322255ede6df3e9f14f40fc35695a393a7e915c1 - cherrypick - e51427b9a8c46b8ebd58c1dc156c28dc5afa04ad
+---> The cherrypicked commit sha is - 322255ede6df3e9f14f40fc35695a393a7e915c1
+Commit message - Fix Markdown syntax.
+---> The original commit sha is - e51427b9a8c46b8ebd58c1dc156c28dc5afa04ad
+Commit message - Merge pull request #157 from Hywan/readme
+
+Fix Markdown syntax
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 65 is -> 
+{ 31cb3e09d47f2022c457a0f54a4dcb51cd4a79f4 -> b3467a66198d08bc5d3d6a2c24983bd1616e33e2 } is a cherrypick
+{ 72c6523da58b25bcb68791d539a18bb81c5f70eb -> 322255ede6df3e9f14f40fc35695a393a7e915c1 }
+Partial Cherry-pick commits SHA are -> 
+b3467a66198d08bc5d3d6a2c24983bd1616e33e2 - cherrypick - 322255ede6df3e9f14f40fc35695a393a7e915c1
+---> The cherrypicked commit sha is - b3467a66198d08bc5d3d6a2c24983bd1616e33e2
+Commit message - Fix anchors
+---> The original commit sha is - 322255ede6df3e9f14f40fc35695a393a7e915c1
+Commit message - Fix Markdown syntax.
+---> The files with partial_cherrypicks are:-
+Makefile
+scripts/compile-libuv.sh
+scripts/get-libuv.sh
+third-party/README.md
+third-party/libuv/.gitignore
+third-party/libuv/.mailmap
+third-party/libuv/AUTHORS
+third-party/libuv/CONTRIBUTING.md
+third-party/libuv/ChangeLog
+third-party/libuv/LICENSE
+third-party/libuv/Makefile.am
+third-party/libuv/Makefile.mingw
+third-party/libuv/README.md
+third-party/libuv/android-configure
+third-party/libuv/autogen.sh
+third-party/libuv/checksparse.sh
+third-party/libuv/common.gypi
+third-party/libuv/configure.ac
+third-party/libuv/gyp_uv.py
+third-party/libuv/include/pthread-fixes.h
+third-party/libuv/include/stdint-msvc2008.h
+third-party/libuv/include/tree.h
+third-party/libuv/include/uv-bsd.h
+third-party/libuv/include/uv-darwin.h
+third-party/libuv/include/uv-errno.h
+third-party/libuv/include/uv-linux.h
+third-party/libuv/include/uv-sunos.h
+third-party/libuv/include/uv-unix.h
+third-party/libuv/include/uv-win.h
+third-party/libuv/include/uv.h
+third-party/libuv/libuv.pc.in
+third-party/libuv/m4/.gitignore
+third-party/libuv/m4/dtrace.m4
+third-party/libuv/samples/.gitignore
+third-party/libuv/samples/socks5-proxy/.gitignore
+third-party/libuv/samples/socks5-proxy/LICENSE
+third-party/libuv/samples/socks5-proxy/Makefile
+third-party/libuv/samples/socks5-proxy/build.gyp
+third-party/libuv/samples/socks5-proxy/client.c
+third-party/libuv/samples/socks5-proxy/defs.h
+third-party/libuv/samples/socks5-proxy/getopt.c
+third-party/libuv/samples/socks5-proxy/main.c
+third-party/libuv/samples/socks5-proxy/s5.c
+third-party/libuv/samples/socks5-proxy/s5.h
+third-party/libuv/samples/socks5-proxy/server.c
+third-party/libuv/samples/socks5-proxy/util.c
+third-party/libuv/src/fs-poll.c
+third-party/libuv/src/inet.c
+third-party/libuv/src/queue.h
+third-party/libuv/src/unix/aix.c
+third-party/libuv/src/unix/async.c
+third-party/libuv/src/unix/atomic-ops.h
+third-party/libuv/src/unix/core.c
+third-party/libuv/src/unix/darwin-proctitle.c
+third-party/libuv/src/unix/darwin.c
+third-party/libuv/src/unix/dl.c
+third-party/libuv/src/unix/freebsd.c
+third-party/libuv/src/unix/fs.c
+third-party/libuv/src/unix/fsevents.c
+third-party/libuv/src/unix/getaddrinfo.c
+third-party/libuv/src/unix/internal.h
+third-party/libuv/src/unix/kqueue.c
+third-party/libuv/src/unix/linux-core.c
+third-party/libuv/src/unix/linux-inotify.c
+third-party/libuv/src/unix/linux-syscalls.c
+third-party/libuv/src/unix/linux-syscalls.h
+third-party/libuv/src/unix/loop-watcher.c
+third-party/libuv/src/unix/loop.c
+third-party/libuv/src/unix/netbsd.c
+third-party/libuv/src/unix/openbsd.c
+third-party/libuv/src/unix/pipe.c
+third-party/libuv/src/unix/poll.c
+third-party/libuv/src/unix/process.c
+third-party/libuv/src/unix/proctitle.c
+third-party/libuv/src/unix/pthread-fixes.c
+third-party/libuv/src/unix/signal.c
+third-party/libuv/src/unix/spinlock.h
+third-party/libuv/src/unix/stream.c
+third-party/libuv/src/unix/sunos.c
+third-party/libuv/src/unix/tcp.c
+third-party/libuv/src/unix/thread.c
+third-party/libuv/src/unix/threadpool.c
+third-party/libuv/src/unix/timer.c
+third-party/libuv/src/unix/tty.c
+third-party/libuv/src/unix/udp.c
+third-party/libuv/src/unix/uv-dtrace.d
+third-party/libuv/src/uv-common.c
+third-party/libuv/src/uv-common.h
+third-party/libuv/src/version.c
+third-party/libuv/src/win/async.c
+third-party/libuv/src/win/atomicops-inl.h
+third-party/libuv/src/win/core.c
+third-party/libuv/src/win/dl.c
+third-party/libuv/src/win/error.c
+third-party/libuv/src/win/fs-event.c
+third-party/libuv/src/win/fs.c
+third-party/libuv/src/win/getaddrinfo.c
+third-party/libuv/src/win/handle-inl.h
+third-party/libuv/src/win/handle.c
+third-party/libuv/src/win/internal.h
+third-party/libuv/src/win/loop-watcher.c
+third-party/libuv/src/win/pipe.c
+third-party/libuv/src/win/poll.c
+third-party/libuv/src/win/process-stdio.c
+third-party/libuv/src/win/process.c
+third-party/libuv/src/win/req-inl.h
+third-party/libuv/src/win/req.c
+third-party/libuv/src/win/signal.c
+third-party/libuv/src/win/stream-inl.h
+third-party/libuv/src/win/stream.c
+third-party/libuv/src/win/tcp.c
+third-party/libuv/src/win/thread.c
+third-party/libuv/src/win/threadpool.c
+third-party/libuv/src/win/timer.c
+third-party/libuv/src/win/tty.c
+third-party/libuv/src/win/udp.c
+third-party/libuv/src/win/util.c
+third-party/libuv/src/win/winapi.c
+third-party/libuv/src/win/winapi.h
+third-party/libuv/src/win/winsock.c
+third-party/libuv/src/win/winsock.h
+third-party/libuv/test/benchmark-async-pummel.c
+third-party/libuv/test/benchmark-async.c
+third-party/libuv/test/benchmark-fs-stat.c
+third-party/libuv/test/benchmark-getaddrinfo.c
+third-party/libuv/test/benchmark-list.h
+third-party/libuv/test/benchmark-loop-count.c
+third-party/libuv/test/benchmark-million-async.c
+third-party/libuv/test/benchmark-million-timers.c
+third-party/libuv/test/benchmark-multi-accept.c
+third-party/libuv/test/benchmark-ping-pongs.c
+third-party/libuv/test/benchmark-pound.c
+third-party/libuv/test/benchmark-pump.c
+third-party/libuv/test/benchmark-sizes.c
+third-party/libuv/test/benchmark-spawn.c
+third-party/libuv/test/benchmark-tcp-write-batch.c
+third-party/libuv/test/benchmark-thread.c
+third-party/libuv/test/benchmark-udp-pummel.c
+third-party/libuv/test/blackhole-server.c
+third-party/libuv/test/dns-server.c
+third-party/libuv/test/echo-server.c
+third-party/libuv/test/fixtures/load_error.node
+third-party/libuv/test/run-benchmarks.c
+third-party/libuv/test/run-tests.c
+third-party/libuv/test/runner-unix.c
+third-party/libuv/test/runner-unix.h
+third-party/libuv/test/runner-win.c
+third-party/libuv/test/runner-win.h
+third-party/libuv/test/runner.c
+third-party/libuv/test/runner.h
+third-party/libuv/test/task.h
+third-party/libuv/test/test-active.c
+third-party/libuv/test/test-async-null-cb.c
+third-party/libuv/test/test-async.c
+third-party/libuv/test/test-barrier.c
+third-party/libuv/test/test-callback-order.c
+third-party/libuv/test/test-callback-stack.c
+third-party/libuv/test/test-close-fd.c
+third-party/libuv/test/test-close-order.c
+third-party/libuv/test/test-condvar.c
+third-party/libuv/test/test-connection-fail.c
+third-party/libuv/test/test-cwd-and-chdir.c
+third-party/libuv/test/test-delayed-accept.c
+third-party/libuv/test/test-dlerror.c
+third-party/libuv/test/test-embed.c
+third-party/libuv/test/test-emfile.c
+third-party/libuv/test/test-error.c
+third-party/libuv/test/test-fail-always.c
+third-party/libuv/test/test-fs-event.c
+third-party/libuv/test/test-fs-poll.c
+third-party/libuv/test/test-fs.c
+third-party/libuv/test/test-get-currentexe.c
+third-party/libuv/test/test-get-loadavg.c
+third-party/libuv/test/test-get-memory.c
+third-party/libuv/test/test-getaddrinfo.c
+third-party/libuv/test/test-getsockname.c
+third-party/libuv/test/test-hrtime.c
+third-party/libuv/test/test-idle.c
+third-party/libuv/test/test-ip4-addr.c
+third-party/libuv/test/test-ip6-addr.c
+third-party/libuv/test/test-ipc-send-recv.c
+third-party/libuv/test/test-ipc.c
+third-party/libuv/test/test-list.h
+third-party/libuv/test/test-loop-alive.c
+third-party/libuv/test/test-loop-handles.c
+third-party/libuv/test/test-loop-stop.c
+third-party/libuv/test/test-loop-time.c
+third-party/libuv/test/test-multiple-listen.c
+third-party/libuv/test/test-mutexes.c
+third-party/libuv/test/test-osx-select.c
+third-party/libuv/test/test-pass-always.c
+third-party/libuv/test/test-ping-pong.c
+third-party/libuv/test/test-pipe-bind-error.c
+third-party/libuv/test/test-pipe-connect-error.c
+third-party/libuv/test/test-pipe-server-close.c
+third-party/libuv/test/test-platform-output.c
+third-party/libuv/test/test-poll-close.c
+third-party/libuv/test/test-poll.c
+third-party/libuv/test/test-process-title.c
+third-party/libuv/test/test-ref.c
+third-party/libuv/test/test-run-nowait.c
+third-party/libuv/test/test-run-once.c
+third-party/libuv/test/test-semaphore.c
+third-party/libuv/test/test-shutdown-close.c
+third-party/libuv/test/test-shutdown-eof.c
+third-party/libuv/test/test-signal-multiple-loops.c
+third-party/libuv/test/test-signal.c
+third-party/libuv/test/test-spawn.c
+third-party/libuv/test/test-stdio-over-pipes.c
+third-party/libuv/test/test-tcp-bind-error.c
+third-party/libuv/test/test-tcp-bind6-error.c
+third-party/libuv/test/test-tcp-close-accept.c
+third-party/libuv/test/test-tcp-close-while-connecting.c
+third-party/libuv/test/test-tcp-close.c
+third-party/libuv/test/test-tcp-connect-error-after-write.c
+third-party/libuv/test/test-tcp-connect-error.c
+third-party/libuv/test/test-tcp-connect-timeout.c
+third-party/libuv/test/test-tcp-connect6-error.c
+third-party/libuv/test/test-tcp-flags.c
+third-party/libuv/test/test-tcp-open.c
+third-party/libuv/test/test-tcp-read-stop.c
+third-party/libuv/test/test-tcp-shutdown-after-write.c
+third-party/libuv/test/test-tcp-try-write.c
+third-party/libuv/test/test-tcp-unexpected-read.c
+third-party/libuv/test/test-tcp-write-to-half-open-connection.c
+third-party/libuv/test/test-tcp-writealot.c
+third-party/libuv/test/test-thread.c
+third-party/libuv/test/test-threadpool-cancel.c
+third-party/libuv/test/test-threadpool.c
+third-party/libuv/test/test-timer-again.c
+third-party/libuv/test/test-timer-from-check.c
+third-party/libuv/test/test-timer.c
+third-party/libuv/test/test-tty.c
+third-party/libuv/test/test-udp-dgram-too-big.c
+third-party/libuv/test/test-udp-ipv6.c
+third-party/libuv/test/test-udp-multicast-join.c
+third-party/libuv/test/test-udp-multicast-ttl.c
+third-party/libuv/test/test-udp-open.c
+third-party/libuv/test/test-udp-options.c
+third-party/libuv/test/test-udp-send-and-recv.c
+third-party/libuv/test/test-walk-handles.c
+third-party/libuv/test/test-watcher-cross-stop.c
+third-party/libuv/uv.gyp
+third-party/libuv/vcbuild.bat
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 66 is -> 
+{ da2906f28e1f5ee4cbff5fa2e0c0ec88777b838a -> 6241a499431ce56b012facd1971a380b73a15dab } is a cherrypick
+{ eedb6a3ad7c2fcb72ef60893478a11e3a390e152 -> a8cda69a73f11ef1905de988c1530e54ba2f40b9 }
+Partial Cherry-pick commits SHA are -> 
+6241a499431ce56b012facd1971a380b73a15dab - cherrypick - a8cda69a73f11ef1905de988c1530e54ba2f40b9
+---> The cherrypicked commit sha is - 6241a499431ce56b012facd1971a380b73a15dab
+Commit message - scripts/common.sh: remove a couple bashisms
+
+This allows the scripts to work on systems that don't have /bin/bash as
+/bin/sh--such as Debian.
+---> The original commit sha is - a8cda69a73f11ef1905de988c1530e54ba2f40b9
+Commit message - Merge pull request #85 from jszakmeister/remove-bashisms
+
+scripts/common.sh: remove a couple bashisms
+---> The files with partial_cherrypicks are:-
+scripts/common.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 67 is -> 
+{ a302c65dc65896776d6cb9e2c89a6ccc77ada530 -> f78d5aa87b8f58a19364c93aed313214054e72af } is a cherrypick
+{ 14cbd618ec4930878afc6f9073d9ebb9e514fd75 -> b76c358f3de9106a4bdbf853b4c4371f6f7a62c2 }
+Partial Cherry-pick commits SHA are -> 
+f78d5aa87b8f58a19364c93aed313214054e72af - cherrypick - b76c358f3de9106a4bdbf853b4c4371f6f7a62c2
+---> The cherrypicked commit sha is - f78d5aa87b8f58a19364c93aed313214054e72af
+Commit message - Merge commit 'a302c65dc65896776d6cb9e2c89a6ccc77ada530' as 'third-party/libuv'
+---> The original commit sha is - b76c358f3de9106a4bdbf853b4c4371f6f7a62c2
+Commit message - Convert function declarations from K&R to ANSI style.
+
+cproto (http://invisible-island.net/cproto/) was used to do the bulk of
+the work in batch; even the most recent version had some issues with
+typedef'd parameters; a quick "patch" was to modify `lex.l` to
+explicitly include all vim typedefs as known types. One example from
+`vim.h` is
+
+    typedef unsigned char char_u;
+
+which was added in `lex.l` as
+
+    <INITIAL>char_u    { save_text_offset(); return T_CHAR; }
+
+Even with these changes there were some problems:
+
+* Two files (`mbyte.c` and `os_unix.c`) were not cleanly converted.
+* Any function with the `UNUSED` macro in its parameter list was not converted.
+
+Rather than spend more time fixing the automated approach, the two files
+`mbyte.c` and `os_unix.c` were converted by hand.
+
+The `UNUSED` macros were compiler specific, and the alternative, generic
+version would require a different syntax, so in order to simplify the
+conversion all uses of `UNUSED` were stripped, and then the sources were
+run back through cproto. It is planned to reconsider each use of
+`UNUSED` manually using a new macro definition.
+---> The files with partial_cherrypicks are:-
+.travis.yml
+vim-license.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 68 is -> 
+{ b4a1237f2a37ddc80f6a9fa8f108460c9f491f17 -> 2d32735bd9a120e0c429406d5281fd49df9c9379 } is a cherrypick
+{ 8d2fb5f8557c1dfe0f3fa398ca58bdb9441fa107 -> eaf942c5a6ce6aca0bc217063f112a177e82f417 }
+Partial Cherry-pick commits SHA are -> 
+2d32735bd9a120e0c429406d5281fd49df9c9379 - cherrypick - eaf942c5a6ce6aca0bc217063f112a177e82f417
+---> The cherrypicked commit sha is - 2d32735bd9a120e0c429406d5281fd49df9c9379
+Commit message - Added automake as a dependency when building on OS X. Otherwise build complaints of missing aclocal.
+---> The original commit sha is - eaf942c5a6ce6aca0bc217063f112a177e82f417
+Commit message - Merge pull request #22 from cmrosenberg/osx-automake
+
+Added automake as build dependency on OS X
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+

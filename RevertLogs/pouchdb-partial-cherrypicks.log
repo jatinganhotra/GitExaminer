@@ -1,0 +1,2726 @@
+# of partial cherrypicks = 149
+Partial Cherry-pick diff pair 1 is -> 
+{ ea9cd3da6a99a3a4760c5a9b03e988a6080ec01a -> 6e06d427299be12d34c6d4a55cc2e665d7a6d4a0 } is a cherrypick
+{ c5db6c1c74d0e24cc03827a01b3e15d76f724bce -> e8a764e9a58da8e8f26a069df5d75cc6f2acd8a7 }
+Partial Cherry-pick commits SHA are -> 
+6e06d427299be12d34c6d4a55cc2e665d7a6d4a0 - cherrypick - e8a764e9a58da8e8f26a069df5d75cc6f2acd8a7
+---> The cherrypicked commit sha is - 6e06d427299be12d34c6d4a55cc2e665d7a6d4a0
+Commit message - (#2008) - use es3ify
+---> The original commit sha is - e8a764e9a58da8e8f26a069df5d75cc6f2acd8a7
+Commit message - (#2008) - use es3ify without changes to alt build
+---> The files with partial_cherrypicks are:-
+lib/adapters/idb.js
+lib/constructor.js
+lib/deps/upsert.js
+lib/replicate.js
+package.json
+tests/performance/index.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ 4fbc69b8582bf0c8448a747570cecf71c109171f -> bee0eb8015f38a684c063d16180533a72287ca56 } is a cherrypick
+{ 4ff78ddccd2f2ed111b4c7e164da53a4e6ea056e -> 884dd4c2f8d4a8aee0a3f54dc4a0b6df49430e1e }
+Partial Cherry-pick commits SHA are -> 
+bee0eb8015f38a684c063d16180533a72287ca56 - cherrypick - 884dd4c2f8d4a8aee0a3f54dc4a0b6df49430e1e
+---> The cherrypicked commit sha is - bee0eb8015f38a684c063d16180533a72287ca56
+Commit message - (#1449) - move uuid files into folders (backwards compatibly) also smooth out creation process to make it async and adds db.destroy
+---> The original commit sha is - 884dd4c2f8d4a8aee0a3f54dc4a0b6df49430e1e
+Commit message - (#1464) - async leveldb creation (and db.destroy)
+---> The files with partial_cherrypicks are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 4ce33b5ee2ef6de78345d7e3f0ebc44e53b5b202 -> f6889de72fae1fa7d63d44cd39e87213fcf36d1d } is a cherrypick
+{ c8dbcb8ebf8946a3a715899f36d1611924c460c3 -> 99db5c2fc88a9bd168e87513b027eaaccfd8443a }
+Partial Cherry-pick commits SHA are -> 
+f6889de72fae1fa7d63d44cd39e87213fcf36d1d - cherrypick - 99db5c2fc88a9bd168e87513b027eaaccfd8443a
+---> The cherrypicked commit sha is - f6889de72fae1fa7d63d44cd39e87213fcf36d1d
+Commit message - (#1224) - don't mutate options object
+---> The original commit sha is - 99db5c2fc88a9bd168e87513b027eaaccfd8443a
+Commit message - (#1224) - unreverts and fixes don't mutate options object
+---> The files with partial_cherrypicks are:-
+lib/adapters/http.js
+lib/adapters/idb.js
+lib/adapters/leveldb.js
+lib/adapters/websql.js
+lib/constructor.js
+lib/deps/ajax.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ c7806f358fd6f0d4adef6cd588cdd57c1f6bbf82 -> 1f0ebf811100127be6c94cb3f98d79deb0e749a1 } is a cherrypick
+{ a60f132cb9f4efe0ccbb9b8ea99b28e69c6c9dab -> 8351e2420a67c6e0bb8645d03ee2cbbaf9a24457 }
+Partial Cherry-pick commits SHA are -> 
+1f0ebf811100127be6c94cb3f98d79deb0e749a1 - cherrypick - 8351e2420a67c6e0bb8645d03ee2cbbaf9a24457
+---> The cherrypicked commit sha is - 1f0ebf811100127be6c94cb3f98d79deb0e749a1
+Commit message - get uuids
+---> The original commit sha is - 8351e2420a67c6e0bb8645d03ee2cbbaf9a24457
+Commit message - (#879) - Remove unused files
+---> The files with partial_cherrypicks are:-
+docs/static/js/highlight.pack.js
+docs/static/js/pouchdb.website.js
+tests/buildstatus/_ddoc/views/by_fail/map.js
+tests/buildstatus/_ddoc/views/by_started/map.js
+tests/buildstatus/css/buildstatus.css
+tests/buildstatus/index.html
+tests/buildstatus/js/pouch.alpha.min.js
+tests/buildstatus/js/pouchdb.buildstatus.js
+tests/flashcards/benchmark.js
+tests/flashcards/index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ b3921468b7ae4184d500ea1b81d67525c6c32bfd -> 172b0bb46fc5cd9a1ddc46a00feb74b37bf5cce2 } is a cherrypick
+{ a60f132cb9f4efe0ccbb9b8ea99b28e69c6c9dab -> 8351e2420a67c6e0bb8645d03ee2cbbaf9a24457 }
+Partial Cherry-pick commits SHA are -> 
+172b0bb46fc5cd9a1ddc46a00feb74b37bf5cce2 - cherrypick - 8351e2420a67c6e0bb8645d03ee2cbbaf9a24457
+---> The cherrypicked commit sha is - 172b0bb46fc5cd9a1ddc46a00feb74b37bf5cce2
+Commit message - post as pull now
+---> The original commit sha is - 8351e2420a67c6e0bb8645d03ee2cbbaf9a24457
+Commit message - (#879) - Remove unused files
+---> The files with partial_cherrypicks are:-
+docs/static/js/highlight.pack.js
+docs/static/js/pouchdb.website.js
+tests/buildstatus/_ddoc/views/by_fail/map.js
+tests/buildstatus/_ddoc/views/by_started/map.js
+tests/buildstatus/css/buildstatus.css
+tests/buildstatus/index.html
+tests/buildstatus/js/pouch.alpha.min.js
+tests/buildstatus/js/pouchdb.buildstatus.js
+tests/flashcards/benchmark.js
+tests/flashcards/index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 2100f442e0a9c2c53d6a700967cc4bf9080d0a85 -> 85ee64a644461f7c20c773105a5fd696ece13b92 } is a cherrypick
+{ 58f2c08a5af7d178f1d426a66d3a1a463dd7b2db -> 5279121a58b161718a212cce8f18c416bf8e5647 }
+Partial Cherry-pick commits SHA are -> 
+85ee64a644461f7c20c773105a5fd696ece13b92 - cherrypick - 5279121a58b161718a212cce8f18c416bf8e5647
+---> The cherrypicked commit sha is - 85ee64a644461f7c20c773105a5fd696ece13b92
+Commit message - (#606) - Ensure tests start() is called after completion
+---> The original commit sha is - 5279121a58b161718a212cce8f18c416bf8e5647
+Commit message - Merge pull request #607 from daleharvey/fix-gql-tests
+
+(#606) - Ensure tests start() is called after completion
+---> The files with partial_cherrypicks are:-
+tests/test.gql.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ c1410f3f412e58f7a3dbe766d7a0cc14bd351197 -> 92eab53843bf89db14f55dc02950fe073305f6a1 } is a cherrypick
+{ 6fc9ebf6ecff2e79749262c4b410af07af3e8e99 -> 9113aca3feefa843cbc91626b5d81f4f14d32e3d }
+Partial Cherry-pick commits SHA are -> 
+92eab53843bf89db14f55dc02950fe073305f6a1 - cherrypick - 9113aca3feefa843cbc91626b5d81f4f14d32e3d
+---> The cherrypicked commit sha is - 92eab53843bf89db14f55dc02950fe073305f6a1
+Commit message - Update docs for new async pouch creation
+---> The original commit sha is - 9113aca3feefa843cbc91626b5d81f4f14d32e3d
+Commit message - Merge pull request #590 from benrudolph/async-docs-update
+
+Update docs for new async pouch creation
+---> The files with partial_cherrypicks are:-
+docs/api.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ d5870282c88c4ea293eba56c7ee2f12914e4b390 -> 510cd5fde4f4e1faca7014640c8784fbc2242682 } is a cherrypick
+{ 8b888d4dbcefed1794088473ec3413aacc75c762 -> 767a05817f492e4024739c9f0651d4945c9caf35 }
+Partial Cherry-pick commits SHA are -> 
+510cd5fde4f4e1faca7014640c8784fbc2242682 - cherrypick - 767a05817f492e4024739c9f0651d4945c9caf35
+---> The cherrypicked commit sha is - 510cd5fde4f4e1faca7014640c8784fbc2242682
+Commit message - rudimentary app testing, took more localstorage out
+---> The original commit sha is - 767a05817f492e4024739c9f0651d4945c9caf35
+Commit message - Merge pull request #580 from howonlee/master
+
+(#552) rudimentary app testing, took more localstorage out
+---> The files with partial_cherrypicks are:-
+chromeappbackground.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ 484925641295366b9960fa4b6ff66c58db6c0969 -> 3ea312ed38c23d291a645314b63f4a450ecaf953 } is a cherrypick
+{ 8b888d4dbcefed1794088473ec3413aacc75c762 -> 767a05817f492e4024739c9f0651d4945c9caf35 }
+Partial Cherry-pick commits SHA are -> 
+3ea312ed38c23d291a645314b63f4a450ecaf953 - cherrypick - 767a05817f492e4024739c9f0651d4945c9caf35
+---> The cherrypicked commit sha is - 3ea312ed38c23d291a645314b63f4a450ecaf953
+Commit message - made localstorage listener business more understandable
+---> The original commit sha is - 767a05817f492e4024739c9f0651d4945c9caf35
+Commit message - Merge pull request #580 from howonlee/master
+
+(#552) rudimentary app testing, took more localstorage out
+---> The files with partial_cherrypicks are:-
+chromeappbackground.js
+manifest.json
+src/adapters/pouch.idb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 6f973d5ee45235aebe389697f8c981f184bc0b77 -> 981da9f711912ad63037ed155921fb8334ccd52c } is a cherrypick
+{ 62c90c6e6939951dcb39263f539842dac52daf02 -> 9ca32527f5db90994b0f65b8296d6609f106fda1 }
+Partial Cherry-pick commits SHA are -> 
+981da9f711912ad63037ed155921fb8334ccd52c - cherrypick - 9ca32527f5db90994b0f65b8296d6609f106fda1
+---> The cherrypicked commit sha is - 981da9f711912ad63037ed155921fb8334ccd52c
+Commit message - (#114) - fix constraint error in tests
+
+Our test generate tree inserting whole branches. As they had
+common root is got inserted multiple times. It produced constraint
+error in firefox (also described in:
+https://github.com/daleharvey/pouchdb/pull/555#issuecomment-14904407)
+---> The original commit sha is - 9ca32527f5db90994b0f65b8296d6609f106fda1
+Commit message - Merge pull request #555 from neojski/114-implement-compaction
+
+(#114) - implement compaction
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.leveldb.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ e2d60c3ea9a4ae0bf20677009aace7f53854fd8f -> 32ff418266bbe7e600b64cf5907b301b7c223069 } is a cherrypick
+{ 62c90c6e6939951dcb39263f539842dac52daf02 -> 9ca32527f5db90994b0f65b8296d6609f106fda1 }
+Partial Cherry-pick commits SHA are -> 
+32ff418266bbe7e600b64cf5907b301b7c223069 - cherrypick - 9ca32527f5db90994b0f65b8296d6609f106fda1
+---> The cherrypicked commit sha is - 32ff418266bbe7e600b64cf5907b301b7c223069
+Commit message - (#114) - fix globals conflict
+
+In this file we introduced global variable `adapter` which overrode
+variable in test.http.js
+---> The original commit sha is - 9ca32527f5db90994b0f65b8296d6609f106fda1
+Commit message - Merge pull request #555 from neojski/114-implement-compaction
+
+(#114) - implement compaction
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.leveldb.js
+tests/test.basics.js
+tests/test.compaction.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 9b8611005fe8dc686f2fd40c3849d532f186e1ee -> e5ae8df4c2494b01bbbbaa1064ec82f29662967f } is a cherrypick
+{ 32ff418266bbe7e600b64cf5907b301b7c223069 -> 62c90c6e6939951dcb39263f539842dac52daf02 }
+Partial Cherry-pick commits SHA are -> 
+e5ae8df4c2494b01bbbbaa1064ec82f29662967f - cherrypick - 62c90c6e6939951dcb39263f539842dac52daf02
+---> The cherrypicked commit sha is - e5ae8df4c2494b01bbbbaa1064ec82f29662967f
+Commit message - Fix #559 in WebSQL
+---> The original commit sha is - 62c90c6e6939951dcb39263f539842dac52daf02
+Commit message - Handle undefined callback function
+---> The files with partial_cherrypicks are:-
+.gitignore
+CONTRIBUTING.md
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.adapter.js
+src/pouch.utils.js
+tests/test.all_dbs.js
+tests/test.basics.js
+tests/test.changes.js
+tests/test.taskqueue.js
+tests/test.utils.js
+tests/test.views.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 5d48b9b0dc53720674f941a892aa6cf275cf4111 -> 1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43 } is a cherrypick
+{ 32ff418266bbe7e600b64cf5907b301b7c223069 -> 62c90c6e6939951dcb39263f539842dac52daf02 }
+Partial Cherry-pick commits SHA are -> 
+1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43 - cherrypick - 62c90c6e6939951dcb39263f539842dac52daf02
+---> The cherrypicked commit sha is - 1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43
+Commit message - (#377) - Remove filesystem warning and check, idb works from fs now
+---> The original commit sha is - 62c90c6e6939951dcb39263f539842dac52daf02
+Commit message - Handle undefined callback function
+---> The files with partial_cherrypicks are:-
+.gitignore
+CONTRIBUTING.md
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.adapter.js
+src/pouch.utils.js
+tests/test.all_dbs.js
+tests/test.basics.js
+tests/test.changes.js
+tests/test.taskqueue.js
+tests/test.utils.js
+tests/test.views.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 6f973d5ee45235aebe389697f8c981f184bc0b77 -> 981da9f711912ad63037ed155921fb8334ccd52c } is a cherrypick
+{ e2d60c3ea9a4ae0bf20677009aace7f53854fd8f -> 32ff418266bbe7e600b64cf5907b301b7c223069 }
+Partial Cherry-pick commits SHA are -> 
+981da9f711912ad63037ed155921fb8334ccd52c - cherrypick - 32ff418266bbe7e600b64cf5907b301b7c223069
+---> The cherrypicked commit sha is - 981da9f711912ad63037ed155921fb8334ccd52c
+Commit message - (#114) - fix constraint error in tests
+
+Our test generate tree inserting whole branches. As they had
+common root is got inserted multiple times. It produced constraint
+error in firefox (also described in:
+https://github.com/daleharvey/pouchdb/pull/555#issuecomment-14904407)
+---> The original commit sha is - 32ff418266bbe7e600b64cf5907b301b7c223069
+Commit message - (#114) - fix globals conflict
+
+In this file we introduced global variable `adapter` which overrode
+variable in test.http.js
+---> The files with partial_cherrypicks are:-
+.gitignore
+CONTRIBUTING.md
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.adapter.js
+src/pouch.js
+src/pouch.utils.js
+tests/test.all_dbs.js
+tests/test.basics.js
+tests/test.changes.js
+tests/test.taskqueue.js
+tests/test.utils.js
+tests/test.views.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ 9b8611005fe8dc686f2fd40c3849d532f186e1ee -> e5ae8df4c2494b01bbbbaa1064ec82f29662967f } is a cherrypick
+{ 5d48b9b0dc53720674f941a892aa6cf275cf4111 -> 1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43 }
+Partial Cherry-pick commits SHA are -> 
+e5ae8df4c2494b01bbbbaa1064ec82f29662967f - cherrypick - 1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43
+---> The cherrypicked commit sha is - e5ae8df4c2494b01bbbbaa1064ec82f29662967f
+Commit message - Fix #559 in WebSQL
+---> The original commit sha is - 1acba6dcac556a8d069cf3bf5b6ad05aa2a2ac43
+Commit message - (#377) - Remove filesystem warning and check, idb works from fs now
+---> The files with partial_cherrypicks are:-
+.gitignore
+CONTRIBUTING.md
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.adapter.js
+src/pouch.js
+src/pouch.utils.js
+tests/test.all_dbs.js
+tests/test.basics.js
+tests/test.changes.js
+tests/test.taskqueue.js
+tests/test.utils.js
+tests/test.views.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ a6fca8506185df3e21a6a2154a18a2dce79cd575 -> 870e548435d9ed5e7e59dd04adcb3fe0ac3ce015 } is a cherrypick
+{ 64857d2357d9e5b44da65a9b7c2e41380a0b4e24 -> 141d078a747d1f2976af195d40fc2ad1c529d95e }
+Partial Cherry-pick commits SHA are -> 
+870e548435d9ed5e7e59dd04adcb3fe0ac3ce015 - cherrypick - 141d078a747d1f2976af195d40fc2ad1c529d95e
+---> The cherrypicked commit sha is - 870e548435d9ed5e7e59dd04adcb3fe0ac3ce015
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb
+---> The original commit sha is - 141d078a747d1f2976af195d40fc2ad1c529d95e
+Commit message - added docs/_site to gitignore
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ 2904b8745c7ccf3b54069a8eeff80388b3f9fccc -> e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426 } is a cherrypick
+{ 7493920cdfe9cfe8ea5b4482ff5fa6dc65f8c647 -> 219f2bdd54ba95f7f5d5e34824dd72d4a2bc180a }
+Partial Cherry-pick commits SHA are -> 
+e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426 - cherrypick - 219f2bdd54ba95f7f5d5e34824dd72d4a2bc180a
+---> The cherrypicked commit sha is - e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426
+Commit message - Merge pull request #528 from benrudolph/task-queue
+
+Task queuing
+---> The original commit sha is - 219f2bdd54ba95f7f5d5e34824dd72d4a2bc180a
+Commit message - Merge pull request #561 from benrudolph/taskqueue-revised
+
+Taskqueue revised
+---> The files with partial_cherrypicks are:-
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c -> 2904b8745c7ccf3b54069a8eeff80388b3f9fccc } is a cherrypick
+{ f57f8c9de03502d44108b628f52292749b32fd13 -> 5edb40bfa64ce7ce7775a40f6ce400fa440540e1 }
+Partial Cherry-pick commits SHA are -> 
+2904b8745c7ccf3b54069a8eeff80388b3f9fccc - cherrypick - 5edb40bfa64ce7ce7775a40f6ce400fa440540e1
+---> The cherrypicked commit sha is - 2904b8745c7ccf3b54069a8eeff80388b3f9fccc
+Commit message - Merge pull request #521 from jlaxson/improve-error-handling
+
+Improve error handling
+---> The original commit sha is - 5edb40bfa64ce7ce7775a40f6ce400fa440540e1
+Commit message - (#19) - Added dbname to _all_docs documents
+---> The files with partial_cherrypicks are:-
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ 3b2d08037387191c1f3e587d20011569d43a0c8a -> fdf828922414c57834fbe4d9a303242f1cba0bbc } is a cherrypick
+{ f57f8c9de03502d44108b628f52292749b32fd13 -> 5edb40bfa64ce7ce7775a40f6ce400fa440540e1 }
+Partial Cherry-pick commits SHA are -> 
+fdf828922414c57834fbe4d9a303242f1cba0bbc - cherrypick - 5edb40bfa64ce7ce7775a40f6ce400fa440540e1
+---> The cherrypicked commit sha is - fdf828922414c57834fbe4d9a303242f1cba0bbc
+Commit message - Revert "Merge pull request #528 from benrudolph/task-queue"
+
+This reverts commit e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426, reversing
+changes made to 2904b8745c7ccf3b54069a8eeff80388b3f9fccc.
+---> The original commit sha is - 5edb40bfa64ce7ce7775a40f6ce400fa440540e1
+Commit message - (#19) - Added dbname to _all_docs documents
+---> The files with partial_cherrypicks are:-
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ 8de007fc6757dcde3e961b24abc2f63ee8dddfd6 -> 3567a4187150ecae70f05657df14eaca3bd841c0 } is a cherrypick
+{ 54d999870ea370e59dfa8d83cc8823b7758f99db -> d71e619e01ae8f42490475824261bff9cadedcff }
+Partial Cherry-pick commits SHA are -> 
+3567a4187150ecae70f05657df14eaca3bd841c0 - cherrypick - d71e619e01ae8f42490475824261bff9cadedcff
+---> The cherrypicked commit sha is - 3567a4187150ecae70f05657df14eaca3bd841c0
+Commit message - Merge pull request #519 from natevw/adapter_tweaks
+
+Adapter tweaks
+---> The original commit sha is - d71e619e01ae8f42490475824261bff9cadedcff
+Commit message - Re-add whitespace to files that I didn't modify
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.mapreduce.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ fcb62a72744c12474d37a30e2f0e891a7893f390 -> d9ecb47bb4b248b62d0e874cbc3b0412d82d6360 } is a cherrypick
+{ 6081bdd999a2ef147c64691200b88e37c0842347 -> 43caaa28e3275407111b22599267c31f16b39aea }
+Partial Cherry-pick commits SHA are -> 
+d9ecb47bb4b248b62d0e874cbc3b0412d82d6360 - cherrypick - 43caaa28e3275407111b22599267c31f16b39aea
+---> The cherrypicked commit sha is - d9ecb47bb4b248b62d0e874cbc3b0412d82d6360
+Commit message - Cleaned up code and removed cruft
+---> The original commit sha is - 43caaa28e3275407111b22599267c31f16b39aea
+Commit message - Resolved another commit
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.mapreduce.js
+src/pouch.adapter.js
+tests/test.taskqueue.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ a13383712f4e6e0adac2b600c5cdfa75ee2f1ab9 -> fcb62a72744c12474d37a30e2f0e891a7893f390 } is a cherrypick
+{ dfd3595e97bc19483310b9c6cb65797233aa8f09 -> 6081bdd999a2ef147c64691200b88e37c0842347 }
+Partial Cherry-pick commits SHA are -> 
+fcb62a72744c12474d37a30e2f0e891a7893f390 - cherrypick - 6081bdd999a2ef147c64691200b88e37c0842347
+---> The cherrypicked commit sha is - fcb62a72744c12474d37a30e2f0e891a7893f390
+Commit message - All tests but changes filter work
+---> The original commit sha is - 6081bdd999a2ef147c64691200b88e37c0842347
+Commit message - All tests but changes filter work
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.http.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ 6cefcf030225007bf058dcf4204a0303c1134734 -> f33f8c8f3c453ea6b3195e5b13cea440a723c536 } is a cherrypick
+{ 493627ff5be91ee3a9922bfc1c4766accbd6573e -> dfd3595e97bc19483310b9c6cb65797233aa8f09 }
+Partial Cherry-pick commits SHA are -> 
+f33f8c8f3c453ea6b3195e5b13cea440a723c536 - cherrypick - dfd3595e97bc19483310b9c6cb65797233aa8f09
+---> The cherrypicked commit sha is - f33f8c8f3c453ea6b3195e5b13cea440a723c536
+Commit message - Fix extend leaking global
+
+* extend is no longer global
+* add extend to all tests
+---> The original commit sha is - dfd3595e97bc19483310b9c6cb65797233aa8f09
+Commit message - Resolved next commit
+---> The files with partial_cherrypicks are:-
+src/pouch.taskqueue.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ 47715406d73109dafb74ca12dc9dce9fa59288d4 -> a75269b66fbaea75d58c8c161f0f67573d0ff9cf } is a cherrypick
+{ 493627ff5be91ee3a9922bfc1c4766accbd6573e -> dfd3595e97bc19483310b9c6cb65797233aa8f09 }
+Partial Cherry-pick commits SHA are -> 
+a75269b66fbaea75d58c8c161f0f67573d0ff9cf - cherrypick - dfd3595e97bc19483310b9c6cb65797233aa8f09
+---> The cherrypicked commit sha is - a75269b66fbaea75d58c8c161f0f67573d0ff9cf
+Commit message - Merge pull request #479 from neojski/visualize-rev-tree
+
+Visualize rev tree
+---> The original commit sha is - dfd3595e97bc19483310b9c6cb65797233aa8f09
+Commit message - Resolved next commit
+---> The files with partial_cherrypicks are:-
+src/pouch.taskqueue.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ f946de651418137f1dd12d8bea95a82462fed6a6 -> f8195d7ce9c7a87dcd8ae8e1257c01cd0a10d930 } is a cherrypick
+{ 59c9491ecd5aec330a0e501e9242b3cdecb2b784 -> 482a55e16d292fb706049f12e9dbad86884f9a0e }
+Partial Cherry-pick commits SHA are -> 
+f8195d7ce9c7a87dcd8ae8e1257c01cd0a10d930 - cherrypick - 482a55e16d292fb706049f12e9dbad86884f9a0e
+---> The cherrypicked commit sha is - f8195d7ce9c7a87dcd8ae8e1257c01cd0a10d930
+Commit message - all of gql in one nice commit.  changes to gruntfile and webrunner.
+---> The original commit sha is - 482a55e16d292fb706049f12e9dbad86884f9a0e
+Commit message - Merge pull request #551 from daleharvey/unlock-leveldb
+
+(#533) - Revert version lock on levelup
+---> The files with partial_cherrypicks are:-
+docs/gql.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 3a64926faa9c02ea77bceb968795abc46db40c6f -> 77e131d3d2dc24049ec7a3ff48d4842b7d5040ab } is a cherrypick
+{ 59c9491ecd5aec330a0e501e9242b3cdecb2b784 -> 482a55e16d292fb706049f12e9dbad86884f9a0e }
+Partial Cherry-pick commits SHA are -> 
+77e131d3d2dc24049ec7a3ff48d4842b7d5040ab - cherrypick - 482a55e16d292fb706049f12e9dbad86884f9a0e
+---> The cherrypicked commit sha is - 77e131d3d2dc24049ec7a3ff48d4842b7d5040ab
+Commit message - took out some unnecessary comments, put mapreduce default back
+---> The original commit sha is - 482a55e16d292fb706049f12e9dbad86884f9a0e
+Commit message - Merge pull request #551 from daleharvey/unlock-leveldb
+
+(#533) - Revert version lock on levelup
+---> The files with partial_cherrypicks are:-
+docs/gql.md
+src/plugins/pouchdb.gql.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ f946de651418137f1dd12d8bea95a82462fed6a6 -> f8195d7ce9c7a87dcd8ae8e1257c01cd0a10d930 } is a cherrypick
+{ 3a64926faa9c02ea77bceb968795abc46db40c6f -> 77e131d3d2dc24049ec7a3ff48d4842b7d5040ab }
+Partial Cherry-pick commits SHA are -> 
+f8195d7ce9c7a87dcd8ae8e1257c01cd0a10d930 - cherrypick - 77e131d3d2dc24049ec7a3ff48d4842b7d5040ab
+---> The cherrypicked commit sha is - f8195d7ce9c7a87dcd8ae8e1257c01cd0a10d930
+Commit message - all of gql in one nice commit.  changes to gruntfile and webrunner.
+---> The original commit sha is - 77e131d3d2dc24049ec7a3ff48d4842b7d5040ab
+Commit message - took out some unnecessary comments, put mapreduce default back
+---> The files with partial_cherrypicks are:-
+Gruntfile.js
+docs/gql.md
+tests/test.gql.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ 870e548435d9ed5e7e59dd04adcb3fe0ac3ce015 -> f946de651418137f1dd12d8bea95a82462fed6a6 } is a cherrypick
+{ 261995372add4fd2712983788a3c0152d0adc194 -> 1913da95e2a3f28b6b941303c9007bf1ef59752d }
+Partial Cherry-pick commits SHA are -> 
+f946de651418137f1dd12d8bea95a82462fed6a6 - cherrypick - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+---> The cherrypicked commit sha is - f946de651418137f1dd12d8bea95a82462fed6a6
+Commit message - Merge branch 'master' into 19-all_dbs-method
+---> The original commit sha is - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+Commit message - Merge pull request #466 from daleharvey/19-all_dbs-method
+
+WIP - 19 all dbs method
+---> The files with partial_cherrypicks are:-
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ e252cde8b8d8d423dadb827cac7c95bf822e98ec -> 86ffd2009de404a8aeb9a91c24a9b86827caba8e } is a cherrypick
+{ 261995372add4fd2712983788a3c0152d0adc194 -> 1913da95e2a3f28b6b941303c9007bf1ef59752d }
+Partial Cherry-pick commits SHA are -> 
+86ffd2009de404a8aeb9a91c24a9b86827caba8e - cherrypick - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+---> The cherrypicked commit sha is - 86ffd2009de404a8aeb9a91c24a9b86827caba8e
+Commit message - fixed various bugs in tests. tests pass.
+---> The original commit sha is - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+Commit message - Merge pull request #466 from daleharvey/19-all_dbs-method
+
+WIP - 19 all dbs method
+---> The files with partial_cherrypicks are:-
+.gitignore
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ 33adba60d1b90e24dd4e23040b737d3a998e2a6a -> f67dad1845fde232ca7cd4f040df41add6e04f5e } is a cherrypick
+{ 261995372add4fd2712983788a3c0152d0adc194 -> 1913da95e2a3f28b6b941303c9007bf1ef59752d }
+Partial Cherry-pick commits SHA are -> 
+f67dad1845fde232ca7cd4f040df41add6e04f5e - cherrypick - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+---> The cherrypicked commit sha is - f67dad1845fde232ca7cd4f040df41add6e04f5e
+Commit message - remove console.log from Pouch.destroy method
+---> The original commit sha is - 1913da95e2a3f28b6b941303c9007bf1ef59752d
+Commit message - Merge pull request #466 from daleharvey/19-all_dbs-method
+
+WIP - 19 all dbs method
+---> The files with partial_cherrypicks are:-
+.gitignore
+src/pouch.js
+tests/test.all_dbs.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ e252cde8b8d8d423dadb827cac7c95bf822e98ec -> 86ffd2009de404a8aeb9a91c24a9b86827caba8e } is a cherrypick
+{ 33adba60d1b90e24dd4e23040b737d3a998e2a6a -> f67dad1845fde232ca7cd4f040df41add6e04f5e }
+Partial Cherry-pick commits SHA are -> 
+86ffd2009de404a8aeb9a91c24a9b86827caba8e - cherrypick - f67dad1845fde232ca7cd4f040df41add6e04f5e
+---> The cherrypicked commit sha is - 86ffd2009de404a8aeb9a91c24a9b86827caba8e
+Commit message - fixed various bugs in tests. tests pass.
+---> The original commit sha is - f67dad1845fde232ca7cd4f040df41add6e04f5e
+Commit message - remove console.log from Pouch.destroy method
+---> The files with partial_cherrypicks are:-
+.gitignore
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.adapter.js
+tests/test.bulk_docs.js
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ 87226aa7827a77ecdfa39e73cdb591cb3ef48a72 -> b5195153f5f3eac269719f593a0f9e0eca512d14 } is a cherrypick
+{ 309d9519e74144522d6ebcfbe0533b4145556fbd -> d8ad4763ef5ccd6be43fa270f1627d99b9f95b5b }
+Partial Cherry-pick commits SHA are -> 
+b5195153f5f3eac269719f593a0f9e0eca512d14 - cherrypick - d8ad4763ef5ccd6be43fa270f1627d99b9f95b5b
+---> The cherrypicked commit sha is - b5195153f5f3eac269719f593a0f9e0eca512d14
+Commit message - (#514) - Add grunt-cli to build instructions
+
+In grunt 0.4 the cli tools are in a separate package
+called grunt-cli. You need to install it instead.
+---> The original commit sha is - d8ad4763ef5ccd6be43fa270f1627d99b9f95b5b
+Commit message - Merge pull request #539 from vmx/add-grunt-cli
+
+(#514) - Add grunt-cli to build instructions
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ 0684ae88feb1e762b436f339bee15a03189bff48 -> 3579f2e32b61777a47991a64daa91d31785f558e } is a cherrypick
+{ 2c4f7923014227ae23b6968d45de34b9c8af7d1b -> d8a55bc255a47c616845b90670a015f1df4cd0bd }
+Partial Cherry-pick commits SHA are -> 
+3579f2e32b61777a47991a64daa91d31785f558e - cherrypick - d8a55bc255a47c616845b90670a015f1df4cd0bd
+---> The cherrypicked commit sha is - 3579f2e32b61777a47991a64daa91d31785f558e
+Commit message - added basic test cases for _all_dbs
+---> The original commit sha is - d8a55bc255a47c616845b90670a015f1df4cd0bd
+Commit message - Merge branch 'master' into 19-all_dbs-method
+---> The files with partial_cherrypicks are:-
+tests/test.all_dbs.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ b5007d79724ef4e4b828054f598d421dc19d546a -> bf32ee7ee7d7fab9af63e4e427d62eb94edc88c0 } is a cherrypick
+{ 2c4f7923014227ae23b6968d45de34b9c8af7d1b -> d8a55bc255a47c616845b90670a015f1df4cd0bd }
+Partial Cherry-pick commits SHA are -> 
+bf32ee7ee7d7fab9af63e4e427d62eb94edc88c0 - cherrypick - d8a55bc255a47c616845b90670a015f1df4cd0bd
+---> The cherrypicked commit sha is - bf32ee7ee7d7fab9af63e4e427d62eb94edc88c0
+Commit message - Revert changes to pouch.js by task queue
+Merge branch 'master' into 19-all_dbs-method
+
+Conflicts:
+	src/pouch.js
+---> The original commit sha is - d8a55bc255a47c616845b90670a015f1df4cd0bd
+Commit message - Merge branch 'master' into 19-all_dbs-method
+---> The files with partial_cherrypicks are:-
+src/pouch.js
+tests/test.all_dbs.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ 8de007fc6757dcde3e961b24abc2f63ee8dddfd6 -> 3567a4187150ecae70f05657df14eaca3bd841c0 } is a cherrypick
+{ 3b2d08037387191c1f3e587d20011569d43a0c8a -> fdf828922414c57834fbe4d9a303242f1cba0bbc }
+Partial Cherry-pick commits SHA are -> 
+3567a4187150ecae70f05657df14eaca3bd841c0 - cherrypick - fdf828922414c57834fbe4d9a303242f1cba0bbc
+---> The cherrypicked commit sha is - 3567a4187150ecae70f05657df14eaca3bd841c0
+Commit message - Merge pull request #519 from natevw/adapter_tweaks
+
+Adapter tweaks
+---> The original commit sha is - fdf828922414c57834fbe4d9a303242f1cba0bbc
+Commit message - Revert "Merge pull request #528 from benrudolph/task-queue"
+
+This reverts commit e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426, reversing
+changes made to 2904b8745c7ccf3b54069a8eeff80388b3f9fccc.
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.mapreduce.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ 3567a4187150ecae70f05657df14eaca3bd841c0 -> e6daee8b8427091ce6dc733b05bdb6d522240f30 } is a cherrypick
+{ 2904b8745c7ccf3b54069a8eeff80388b3f9fccc -> e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426 }
+Partial Cherry-pick commits SHA are -> 
+e6daee8b8427091ce6dc733b05bdb6d522240f30 - cherrypick - e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426
+---> The cherrypicked commit sha is - e6daee8b8427091ce6dc733b05bdb6d522240f30
+Commit message - Fixed db.query test for taskqueue
+---> The original commit sha is - e0a0b37a8224f49cd9c1c8598ed8d8ab90d21426
+Commit message - Merge pull request #528 from benrudolph/task-queue
+
+Task queuing
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.mapreduce.js
+tests/test.taskqueue.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ 8de007fc6757dcde3e961b24abc2f63ee8dddfd6 -> 3567a4187150ecae70f05657df14eaca3bd841c0 } is a cherrypick
+{ 6c171c7c45784b9f4ba7e263830beea775706c8a -> cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c }
+Partial Cherry-pick commits SHA are -> 
+3567a4187150ecae70f05657df14eaca3bd841c0 - cherrypick - cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c
+---> The cherrypicked commit sha is - 3567a4187150ecae70f05657df14eaca3bd841c0
+Commit message - Merge pull request #519 from natevw/adapter_tweaks
+
+Adapter tweaks
+---> The original commit sha is - cbbc5d6558685cb2104a4ba210c2bfdbb6c1276c
+Commit message - Resolved merge conflict
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/plugins/pouchdb.visualizeRevTree.js
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.replication.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ 0cf3e14cc0b90b93d0c711f3f4cfe223b23709c9 -> a13383712f4e6e0adac2b600c5cdfa75ee2f1ab9 } is a cherrypick
+{ 3567a4187150ecae70f05657df14eaca3bd841c0 -> e6daee8b8427091ce6dc733b05bdb6d522240f30 }
+Partial Cherry-pick commits SHA are -> 
+a13383712f4e6e0adac2b600c5cdfa75ee2f1ab9 - cherrypick - e6daee8b8427091ce6dc733b05bdb6d522240f30
+---> The cherrypicked commit sha is - a13383712f4e6e0adac2b600c5cdfa75ee2f1ab9
+Commit message - Mostly working except for 2 tests
+---> The original commit sha is - e6daee8b8427091ce6dc733b05bdb6d522240f30
+Commit message - Fixed db.query test for taskqueue
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/plugins/pouchdb.visualizeRevTree.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.replication.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ 0502a4f2268b1bf84ad219f7878404f5fd0cf1e3 -> 2a06ee733b0abea65e09e4654725c74a6390a744 } is a cherrypick
+{ 086d8b5f4d2d67e93c1bfec87cd4130e439d5df8 -> 876872d7d073e6868d544e29d0508156c2d498fe }
+Partial Cherry-pick commits SHA are -> 
+2a06ee733b0abea65e09e4654725c74a6390a744 - cherrypick - 876872d7d073e6868d544e29d0508156c2d498fe
+---> The cherrypicked commit sha is - 2a06ee733b0abea65e09e4654725c74a6390a744
+Commit message - Add 'add new row' button
+---> The original commit sha is - 876872d7d073e6868d544e29d0508156c2d498fe
+Commit message - Fix positioning problem
+
+Forgotten to add position: relative to our main container so
+that our elements are absolutely positioned relatively to it.
+
+Small improvement of focus
+---> The files with partial_cherrypicks are:-
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ 083604dc06ffd0c3bf106b73dcd51a93ba19a0b1 -> e1b60b620c60f072880002b3f2f8acf7bd8fe1a6 } is a cherrypick
+{ 086d8b5f4d2d67e93c1bfec87cd4130e439d5df8 -> 876872d7d073e6868d544e29d0508156c2d498fe }
+Partial Cherry-pick commits SHA are -> 
+e1b60b620c60f072880002b3f2f8acf7bd8fe1a6 - cherrypick - 876872d7d073e6868d544e29d0508156c2d498fe
+---> The cherrypicked commit sha is - e1b60b620c60f072880002b3f2f8acf7bd8fe1a6
+Commit message - Switch from input to input using tab
+---> The original commit sha is - 876872d7d073e6868d544e29d0508156c2d498fe
+Commit message - Fix positioning problem
+
+Forgotten to add position: relative to our main container so
+that our elements are absolutely positioned relatively to it.
+
+Small improvement of focus
+---> The files with partial_cherrypicks are:-
+docs/api.md
+src/adapters/pouch.http.js
+src/pouch.adapter.js
+src/pouch.js
+tests/test.attachments.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ 0502a4f2268b1bf84ad219f7878404f5fd0cf1e3 -> 2a06ee733b0abea65e09e4654725c74a6390a744 } is a cherrypick
+{ 083604dc06ffd0c3bf106b73dcd51a93ba19a0b1 -> e1b60b620c60f072880002b3f2f8acf7bd8fe1a6 }
+Partial Cherry-pick commits SHA are -> 
+2a06ee733b0abea65e09e4654725c74a6390a744 - cherrypick - e1b60b620c60f072880002b3f2f8acf7bd8fe1a6
+---> The cherrypicked commit sha is - 2a06ee733b0abea65e09e4654725c74a6390a744
+Commit message - Add 'add new row' button
+---> The original commit sha is - e1b60b620c60f072880002b3f2f8acf7bd8fe1a6
+Commit message - Switch from input to input using tab
+---> The files with partial_cherrypicks are:-
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ f487fd2326c934c038d8aa41656457bff0d68fa0 -> 0502a4f2268b1bf84ad219f7878404f5fd0cf1e3 } is a cherrypick
+{ 9c93c2643ad9eee3c312c156d34954ab024cc441 -> 083604dc06ffd0c3bf106b73dcd51a93ba19a0b1 }
+Partial Cherry-pick commits SHA are -> 
+0502a4f2268b1bf84ad219f7878404f5fd0cf1e3 - cherrypick - 083604dc06ffd0c3bf106b73dcd51a93ba19a0b1
+---> The cherrypicked commit sha is - 0502a4f2268b1bf84ad219f7878404f5fd0cf1e3
+Commit message - (#491) - Document automagic adapter choosing
+---> The original commit sha is - 083604dc06ffd0c3bf106b73dcd51a93ba19a0b1
+Commit message - Merge pull request #517 from adampolak/490-491-no-auto-fallback-to-http
+
+490 491 no auto fallback to http
+---> The files with partial_cherrypicks are:-
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ f28c1995f72eda23a3874859515f7c07c99f2c4f -> fbdb49121eb8f5879b751e0c4e05c95bf7318ce4 } is a cherrypick
+{ ad435cc117c2b86843b208ae7c8ce5e5d3d78f9e -> 032fefe5d2e73ea98059efe5a6ddc15dfd052efd }
+Partial Cherry-pick commits SHA are -> 
+fbdb49121eb8f5879b751e0c4e05c95bf7318ce4 - cherrypick - 032fefe5d2e73ea98059efe5a6ddc15dfd052efd
+---> The cherrypicked commit sha is - fbdb49121eb8f5879b751e0c4e05c95bf7318ce4
+Commit message - (#100) - Blobs: fix typo
+---> The original commit sha is - 032fefe5d2e73ea98059efe5a6ddc15dfd052efd
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into visualize-rev-tree
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ d57bf3d871f9138b2c442ae6bc7a49da7af0d8d9 -> e051a9abf2334f4c3b67faa4655001fddf30fcce } is a cherrypick
+{ ad435cc117c2b86843b208ae7c8ce5e5d3d78f9e -> 032fefe5d2e73ea98059efe5a6ddc15dfd052efd }
+Partial Cherry-pick commits SHA are -> 
+e051a9abf2334f4c3b67faa4655001fddf30fcce - cherrypick - 032fefe5d2e73ea98059efe5a6ddc15dfd052efd
+---> The cherrypicked commit sha is - e051a9abf2334f4c3b67faa4655001fddf30fcce
+Commit message - Merge pull request #502 from daleharvey/100-use-blobs-for-attachments
+
+100 use blobs for attachments
+---> The original commit sha is - 032fefe5d2e73ea98059efe5a6ddc15dfd052efd
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into visualize-rev-tree
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ d6c78a19bcf6b354c3efd4ffa2735102cf4f3473 -> 0bc708e7669aefaa2d058ab30faf8b484fbed49e } is a cherrypick
+{ ad435cc117c2b86843b208ae7c8ce5e5d3d78f9e -> 032fefe5d2e73ea98059efe5a6ddc15dfd052efd }
+Partial Cherry-pick commits SHA are -> 
+0bc708e7669aefaa2d058ab30faf8b484fbed49e - cherrypick - 032fefe5d2e73ea98059efe5a6ddc15dfd052efd
+---> The cherrypicked commit sha is - 0bc708e7669aefaa2d058ab30faf8b484fbed49e
+Commit message - Merge pull request #507 from daleharvey/506-putAttachment-not-respect-rev-parameter
+
+(#506) - putAttachment don't respect rev parameter
+---> The original commit sha is - 032fefe5d2e73ea98059efe5a6ddc15dfd052efd
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into visualize-rev-tree
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/pouch.adapter.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ f28c1995f72eda23a3874859515f7c07c99f2c4f -> fbdb49121eb8f5879b751e0c4e05c95bf7318ce4 } is a cherrypick
+{ d6c78a19bcf6b354c3efd4ffa2735102cf4f3473 -> 0bc708e7669aefaa2d058ab30faf8b484fbed49e }
+Partial Cherry-pick commits SHA are -> 
+fbdb49121eb8f5879b751e0c4e05c95bf7318ce4 - cherrypick - 0bc708e7669aefaa2d058ab30faf8b484fbed49e
+---> The cherrypicked commit sha is - fbdb49121eb8f5879b751e0c4e05c95bf7318ce4
+Commit message - (#100) - Blobs: fix typo
+---> The original commit sha is - 0bc708e7669aefaa2d058ab30faf8b484fbed49e
+Commit message - Merge pull request #507 from daleharvey/506-putAttachment-not-respect-rev-parameter
+
+(#506) - putAttachment don't respect rev parameter
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ d57bf3d871f9138b2c442ae6bc7a49da7af0d8d9 -> e051a9abf2334f4c3b67faa4655001fddf30fcce } is a cherrypick
+{ d6c78a19bcf6b354c3efd4ffa2735102cf4f3473 -> 0bc708e7669aefaa2d058ab30faf8b484fbed49e }
+Partial Cherry-pick commits SHA are -> 
+e051a9abf2334f4c3b67faa4655001fddf30fcce - cherrypick - 0bc708e7669aefaa2d058ab30faf8b484fbed49e
+---> The cherrypicked commit sha is - e051a9abf2334f4c3b67faa4655001fddf30fcce
+Commit message - Merge pull request #502 from daleharvey/100-use-blobs-for-attachments
+
+100 use blobs for attachments
+---> The original commit sha is - 0bc708e7669aefaa2d058ab30faf8b484fbed49e
+Commit message - Merge pull request #507 from daleharvey/506-putAttachment-not-respect-rev-parameter
+
+(#506) - putAttachment don't respect rev parameter
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ fbdb49121eb8f5879b751e0c4e05c95bf7318ce4 -> d57bf3d871f9138b2c442ae6bc7a49da7af0d8d9 } is a cherrypick
+{ 9fbb425862eb5f7f2bc5bfcb54952fa5080be69f -> d6c78a19bcf6b354c3efd4ffa2735102cf4f3473 }
+Partial Cherry-pick commits SHA are -> 
+d57bf3d871f9138b2c442ae6bc7a49da7af0d8d9 - cherrypick - d6c78a19bcf6b354c3efd4ffa2735102cf4f3473
+---> The cherrypicked commit sha is - d57bf3d871f9138b2c442ae6bc7a49da7af0d8d9
+Commit message - Fix rev when getting doc
+---> The original commit sha is - d6c78a19bcf6b354c3efd4ffa2735102cf4f3473
+Commit message - Cleanup
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+Gruntfile.js
+docs/api.md
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/deps/extend.js
+src/plugins/pouchdb.spatial.js
+src/pouch.adapter.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.replication.js
+tests/test.utils.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 49 is -> 
+{ def657f53df29c0b360c2fa03b577eaf35cb3135 -> 6993025b8150acef0854b1b14287c71abef018df } is a cherrypick
+{ 3d2283be4d74213a4cc3c0ff5bd578a649992462 -> dbaa7d2330deed4fbd1ca0ff32466ff01a87e6c1 }
+Partial Cherry-pick commits SHA are -> 
+6993025b8150acef0854b1b14287c71abef018df - cherrypick - dbaa7d2330deed4fbd1ca0ff32466ff01a87e6c1
+---> The cherrypicked commit sha is - 6993025b8150acef0854b1b14287c71abef018df
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into 468-allDocs-uses-seq
+---> The original commit sha is - dbaa7d2330deed4fbd1ca0ff32466ff01a87e6c1
+Commit message - Revert "Revert visualizeRevTree (wrong branch)"
+
+This reverts commit 2c41c1de305165a8b96480f631957efe12a79343.
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.visualizeRevTree.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 50 is -> 
+{ 9d65e34d86559ddf956569fecc9daddfc5c0904f -> bc050fe502cfadb8423780f834704cb9eb20a372 } is a cherrypick
+{ 3d2283be4d74213a4cc3c0ff5bd578a649992462 -> dbaa7d2330deed4fbd1ca0ff32466ff01a87e6c1 }
+Partial Cherry-pick commits SHA are -> 
+bc050fe502cfadb8423780f834704cb9eb20a372 - cherrypick - dbaa7d2330deed4fbd1ca0ff32466ff01a87e6c1
+---> The cherrypicked commit sha is - bc050fe502cfadb8423780f834704cb9eb20a372
+Commit message - Fix leveldb adapter (#468)
+---> The original commit sha is - dbaa7d2330deed4fbd1ca0ff32466ff01a87e6c1
+Commit message - Revert "Revert visualizeRevTree (wrong branch)"
+
+This reverts commit 2c41c1de305165a8b96480f631957efe12a79343.
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.visualizeRevTree.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 51 is -> 
+{ f1b618718a51faff3191f1808c4b85fbaa3bb72c -> 6af6672b5b1183b73a72bed5e414447111cd3fe1 } is a cherrypick
+{ 3d2283be4d74213a4cc3c0ff5bd578a649992462 -> dbaa7d2330deed4fbd1ca0ff32466ff01a87e6c1 }
+Partial Cherry-pick commits SHA are -> 
+6af6672b5b1183b73a72bed5e414447111cd3fe1 - cherrypick - dbaa7d2330deed4fbd1ca0ff32466ff01a87e6c1
+---> The cherrypicked commit sha is - 6af6672b5b1183b73a72bed5e414447111cd3fe1
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into visualize-rev-tree
+---> The original commit sha is - dbaa7d2330deed4fbd1ca0ff32466ff01a87e6c1
+Commit message - Revert "Revert visualizeRevTree (wrong branch)"
+
+This reverts commit 2c41c1de305165a8b96480f631957efe12a79343.
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.visualizeRevTree.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 52 is -> 
+{ 47715406d73109dafb74ca12dc9dce9fa59288d4 -> a75269b66fbaea75d58c8c161f0f67573d0ff9cf } is a cherrypick
+{ 3d2283be4d74213a4cc3c0ff5bd578a649992462 -> dbaa7d2330deed4fbd1ca0ff32466ff01a87e6c1 }
+Partial Cherry-pick commits SHA are -> 
+a75269b66fbaea75d58c8c161f0f67573d0ff9cf - cherrypick - dbaa7d2330deed4fbd1ca0ff32466ff01a87e6c1
+---> The cherrypicked commit sha is - a75269b66fbaea75d58c8c161f0f67573d0ff9cf
+Commit message - Merge pull request #479 from neojski/visualize-rev-tree
+
+Visualize rev tree
+---> The original commit sha is - dbaa7d2330deed4fbd1ca0ff32466ff01a87e6c1
+Commit message - Revert "Revert visualizeRevTree (wrong branch)"
+
+This reverts commit 2c41c1de305165a8b96480f631957efe12a79343.
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.visualizeRevTree.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 53 is -> 
+{ 680c51f601998691d1b4e24273a7241ef5b449e0 -> 6cefcf030225007bf058dcf4204a0303c1134734 } is a cherrypick
+{ ca51b5a22d247a635b2fd874b035748af4c378b5 -> 47715406d73109dafb74ca12dc9dce9fa59288d4 }
+Partial Cherry-pick commits SHA are -> 
+6cefcf030225007bf058dcf4204a0303c1134734 - cherrypick - 47715406d73109dafb74ca12dc9dce9fa59288d4
+---> The cherrypicked commit sha is - 6cefcf030225007bf058dcf4204a0303c1134734
+Commit message - Initial version of task queue implementation
+---> The original commit sha is - 47715406d73109dafb74ca12dc9dce9fa59288d4
+Commit message - More tests for task queue
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.http.js
+src/pouch.js
+src/pouch.taskqueue.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.replication.js
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 54 is -> 
+{ 680c51f601998691d1b4e24273a7241ef5b449e0 -> 6cefcf030225007bf058dcf4204a0303c1134734 } is a cherrypick
+{ f33f8c8f3c453ea6b3195e5b13cea440a723c536 -> ca51b5a22d247a635b2fd874b035748af4c378b5 }
+Partial Cherry-pick commits SHA are -> 
+6cefcf030225007bf058dcf4204a0303c1134734 - cherrypick - ca51b5a22d247a635b2fd874b035748af4c378b5
+---> The cherrypicked commit sha is - 6cefcf030225007bf058dcf4204a0303c1134734
+Commit message - Initial version of task queue implementation
+---> The original commit sha is - ca51b5a22d247a635b2fd874b035748af4c378b5
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into 468-allDocs-uses-seq
+---> The files with partial_cherrypicks are:-
+.travis.yml
+grunt.js
+package.json
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.spatial.js
+tests/test.bulk_docs.js
+tests/test.spatial.js
+tests/test.views.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 55 is -> 
+{ 7513bf85132edc6f9af98ecf174098f9808f94b0 -> 2e9e32ae59b18a72b9275cf10d00d69df7cc675a } is a cherrypick
+{ cad5551d36268db7f5379b9df281c58c61be8f5e -> 7f39b27223a06bb35497c65b76b1452f199e2b93 }
+Partial Cherry-pick commits SHA are -> 
+2e9e32ae59b18a72b9275cf10d00d69df7cc675a - cherrypick - 7f39b27223a06bb35497c65b76b1452f199e2b93
+---> The cherrypicked commit sha is - 2e9e32ae59b18a72b9275cf10d00d69df7cc675a
+Commit message - Upgrade to grunt 0.4
+---> The original commit sha is - 7f39b27223a06bb35497c65b76b1452f199e2b93
+Commit message - Merge pull request #482 from daleharvey/454-grunt-upgrade
+
+Upgrade to grunt 0.4
+---> The files with partial_cherrypicks are:-
+.travis.yml
+Gruntfile.js
+grunt.js
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 56 is -> 
+{ 8da3aeda256116852c12238aab94857230b6538c -> e64370613531caf268773c6e9564964db0aa2528 } is a cherrypick
+{ fbd8bd728fa2085a0badcff97b478a6bf68a44ac -> cad5551d36268db7f5379b9df281c58c61be8f5e }
+Partial Cherry-pick commits SHA are -> 
+e64370613531caf268773c6e9564964db0aa2528 - cherrypick - cad5551d36268db7f5379b9df281c58c61be8f5e
+---> The cherrypicked commit sha is - e64370613531caf268773c6e9564964db0aa2528
+Commit message - All api calls that involve storage specific operations have been abstracted
+---> The original commit sha is - cad5551d36268db7f5379b9df281c58c61be8f5e
+Commit message - Merge pull request #481 from benrudolph/api-abstraction2
+
+Api abstraction2
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 57 is -> 
+{ cc9adea65c44e740774c2022e51d48d83bf17eaa -> f82502f83e94d71a7a673d408d10ac9bcafcbd53 } is a cherrypick
+{ 6af6672b5b1183b73a72bed5e414447111cd3fe1 -> 8da3aeda256116852c12238aab94857230b6538c }
+Partial Cherry-pick commits SHA are -> 
+f82502f83e94d71a7a673d408d10ac9bcafcbd53 - cherrypick - 8da3aeda256116852c12238aab94857230b6538c
+---> The cherrypicked commit sha is - f82502f83e94d71a7a673d408d10ac9bcafcbd53
+Commit message - Added todo-list tutorial
+
+Fix localhost link
+---> The original commit sha is - 8da3aeda256116852c12238aab94857230b6538c
+Commit message - Revert pouch.alpha.js deletion
+
+It needs to be deleted as it's quite old but it will get deleted
+when I finish improving todo-list.
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 58 is -> 
+{ b08e0f2ac7dcf337c9b698ad380a7fd2c606e46c -> f67f54c8a6859055ea54b296a63489702bc8be61 } is a cherrypick
+{ 6af6672b5b1183b73a72bed5e414447111cd3fe1 -> 8da3aeda256116852c12238aab94857230b6538c }
+Partial Cherry-pick commits SHA are -> 
+f67f54c8a6859055ea54b296a63489702bc8be61 - cherrypick - 8da3aeda256116852c12238aab94857230b6538c
+---> The cherrypicked commit sha is - f67f54c8a6859055ea54b296a63489702bc8be61
+Commit message - Have a test to ensure we dont forget about deletions
+---> The original commit sha is - 8da3aeda256116852c12238aab94857230b6538c
+Commit message - Revert pouch.alpha.js deletion
+
+It needs to be deleted as it's quite old but it will get deleted
+when I finish improving todo-list.
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 59 is -> 
+{ 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b -> ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 } is a cherrypick
+{ 6af6672b5b1183b73a72bed5e414447111cd3fe1 -> 8da3aeda256116852c12238aab94857230b6538c }
+Partial Cherry-pick commits SHA are -> 
+ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 - cherrypick - 8da3aeda256116852c12238aab94857230b6538c
+---> The cherrypicked commit sha is - ec8835c13d0959cfdbda2f6c7cec4ce79fae8884
+Commit message - Removed code duplication in idv, leveled and websql adapters.
+---> The original commit sha is - 8da3aeda256116852c12238aab94857230b6538c
+Commit message - Revert pouch.alpha.js deletion
+
+It needs to be deleted as it's quite old but it will get deleted
+when I finish improving todo-list.
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 60 is -> 
+{ 9da0c21c6af59a52c38d6e634c12c4771c83e5d1 -> e4be4d0adcd32255f3d16a409cf9e2b2f3283090 } is a cherrypick
+{ 6af6672b5b1183b73a72bed5e414447111cd3fe1 -> 8da3aeda256116852c12238aab94857230b6538c }
+Partial Cherry-pick commits SHA are -> 
+e4be4d0adcd32255f3d16a409cf9e2b2f3283090 - cherrypick - 8da3aeda256116852c12238aab94857230b6538c
+---> The cherrypicked commit sha is - e4be4d0adcd32255f3d16a409cf9e2b2f3283090
+Commit message - Merge branch '312-persist-deletions-fix' of git://github.com/chunmun/pouchdb into chunmun-312-persist-deletions-fix
+---> The original commit sha is - 8da3aeda256116852c12238aab94857230b6538c
+Commit message - Revert pouch.alpha.js deletion
+
+It needs to be deleted as it's quite old but it will get deleted
+when I finish improving todo-list.
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 61 is -> 
+{ 4437ecf03f3dd1abe9ab74e103de4ae4099bb2a4 -> 9d65e34d86559ddf956569fecc9daddfc5c0904f } is a cherrypick
+{ 6af6672b5b1183b73a72bed5e414447111cd3fe1 -> 8da3aeda256116852c12238aab94857230b6538c }
+Partial Cherry-pick commits SHA are -> 
+9d65e34d86559ddf956569fecc9daddfc5c0904f - cherrypick - 8da3aeda256116852c12238aab94857230b6538c
+---> The cherrypicked commit sha is - 9d65e34d86559ddf956569fecc9daddfc5c0904f
+Commit message - (#471) - Test bulkDocs errors
+
+Add a test for the bulk docs error inconsitency.
+---> The original commit sha is - 8da3aeda256116852c12238aab94857230b6538c
+Commit message - Revert pouch.alpha.js deletion
+
+It needs to be deleted as it's quite old but it will get deleted
+when I finish improving todo-list.
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 62 is -> 
+{ 2c41c1de305165a8b96480f631957efe12a79343 -> fb079e2737c8f957764ad9ee86d2872ea79f5f52 } is a cherrypick
+{ 6af6672b5b1183b73a72bed5e414447111cd3fe1 -> 8da3aeda256116852c12238aab94857230b6538c }
+Partial Cherry-pick commits SHA are -> 
+fb079e2737c8f957764ad9ee86d2872ea79f5f52 - cherrypick - 8da3aeda256116852c12238aab94857230b6538c
+---> The cherrypicked commit sha is - fb079e2737c8f957764ad9ee86d2872ea79f5f52
+Commit message - (#471) - Test bulkDocs multiple errors
+
+When there are many docs with invalid ids, only the first error should
+be reported.
+---> The original commit sha is - 8da3aeda256116852c12238aab94857230b6538c
+Commit message - Revert pouch.alpha.js deletion
+
+It needs to be deleted as it's quite old but it will get deleted
+when I finish improving todo-list.
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 63 is -> 
+{ 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 -> 570d80453f765b49f2e687cffe18242f1377bdf6 } is a cherrypick
+{ f1b618718a51faff3191f1808c4b85fbaa3bb72c -> 6af6672b5b1183b73a72bed5e414447111cd3fe1 }
+Partial Cherry-pick commits SHA are -> 
+570d80453f765b49f2e687cffe18242f1377bdf6 - cherrypick - 6af6672b5b1183b73a72bed5e414447111cd3fe1
+---> The cherrypicked commit sha is - 570d80453f765b49f2e687cffe18242f1377bdf6
+Commit message - create and update _all_dbs database for idb
+---> The original commit sha is - 6af6672b5b1183b73a72bed5e414447111cd3fe1
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into visualize-rev-tree
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 64 is -> 
+{ 1b389e9107ac1a661419d0fe789818ca877a2755 -> 97a1605298146a619b3f0561dd05cdefe2e05e35 } is a cherrypick
+{ 0513a7cf8c19eb59ce07e879c0628b2cf19e0ff0 -> c16988e47d3234ac764a0b50f2b1f5d2f45edc12 }
+Partial Cherry-pick commits SHA are -> 
+97a1605298146a619b3f0561dd05cdefe2e05e35 - cherrypick - c16988e47d3234ac764a0b50f2b1f5d2f45edc12
+---> The cherrypicked commit sha is - 97a1605298146a619b3f0561dd05cdefe2e05e35
+Commit message - (#471) - bulkDocs errors inconsistency
+
+Return with the first error when some documents have invalid ids.
+---> The original commit sha is - c16988e47d3234ac764a0b50f2b1f5d2f45edc12
+Commit message - Merge pull request #473 from daleharvey/471-bulkDocs-errors
+
+471 bulk docs errors
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+tests/test.all_docs.js
+tests/test.bulk_docs.js
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 65 is -> 
+{ 9d65e34d86559ddf956569fecc9daddfc5c0904f -> bc050fe502cfadb8423780f834704cb9eb20a372 } is a cherrypick
+{ fb079e2737c8f957764ad9ee86d2872ea79f5f52 -> 1b389e9107ac1a661419d0fe789818ca877a2755 }
+Partial Cherry-pick commits SHA are -> 
+bc050fe502cfadb8423780f834704cb9eb20a372 - cherrypick - 1b389e9107ac1a661419d0fe789818ca877a2755
+---> The cherrypicked commit sha is - bc050fe502cfadb8423780f834704cb9eb20a372
+Commit message - Fix leveldb adapter (#468)
+---> The original commit sha is - 1b389e9107ac1a661419d0fe789818ca877a2755
+Commit message - Revert deleted pouch.alpha.js
+
+It got deleted as it's not a good idea to have it there. Will fix that
+in a new branch
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+tests/test.all_docs.js
+tests/test.replication.js
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 66 is -> 
+{ b08e0f2ac7dcf337c9b698ad380a7fd2c606e46c -> f67f54c8a6859055ea54b296a63489702bc8be61 } is a cherrypick
+{ 2c41c1de305165a8b96480f631957efe12a79343 -> fb079e2737c8f957764ad9ee86d2872ea79f5f52 }
+Partial Cherry-pick commits SHA are -> 
+f67f54c8a6859055ea54b296a63489702bc8be61 - cherrypick - fb079e2737c8f957764ad9ee86d2872ea79f5f52
+---> The cherrypicked commit sha is - f67f54c8a6859055ea54b296a63489702bc8be61
+Commit message - Have a test to ensure we dont forget about deletions
+---> The original commit sha is - fb079e2737c8f957764ad9ee86d2872ea79f5f52
+Commit message - (#471) - Test bulkDocs multiple errors
+
+When there are many docs with invalid ids, only the first error should
+be reported.
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 67 is -> 
+{ 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b -> ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 } is a cherrypick
+{ 2c41c1de305165a8b96480f631957efe12a79343 -> fb079e2737c8f957764ad9ee86d2872ea79f5f52 }
+Partial Cherry-pick commits SHA are -> 
+ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 - cherrypick - fb079e2737c8f957764ad9ee86d2872ea79f5f52
+---> The cherrypicked commit sha is - ec8835c13d0959cfdbda2f6c7cec4ce79fae8884
+Commit message - Removed code duplication in idv, leveled and websql adapters.
+---> The original commit sha is - fb079e2737c8f957764ad9ee86d2872ea79f5f52
+Commit message - (#471) - Test bulkDocs multiple errors
+
+When there are many docs with invalid ids, only the first error should
+be reported.
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 68 is -> 
+{ 4437ecf03f3dd1abe9ab74e103de4ae4099bb2a4 -> 9d65e34d86559ddf956569fecc9daddfc5c0904f } is a cherrypick
+{ 2c41c1de305165a8b96480f631957efe12a79343 -> fb079e2737c8f957764ad9ee86d2872ea79f5f52 }
+Partial Cherry-pick commits SHA are -> 
+9d65e34d86559ddf956569fecc9daddfc5c0904f - cherrypick - fb079e2737c8f957764ad9ee86d2872ea79f5f52
+---> The cherrypicked commit sha is - 9d65e34d86559ddf956569fecc9daddfc5c0904f
+Commit message - (#471) - Test bulkDocs errors
+
+Add a test for the bulk docs error inconsitency.
+---> The original commit sha is - fb079e2737c8f957764ad9ee86d2872ea79f5f52
+Commit message - (#471) - Test bulkDocs multiple errors
+
+When there are many docs with invalid ids, only the first error should
+be reported.
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+src/adapters/pouch.idb.js
+tests/test.all_docs.js
+tests/test.replication.js
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 69 is -> 
+{ 9da0c21c6af59a52c38d6e634c12c4771c83e5d1 -> e4be4d0adcd32255f3d16a409cf9e2b2f3283090 } is a cherrypick
+{ bc050fe502cfadb8423780f834704cb9eb20a372 -> 2c41c1de305165a8b96480f631957efe12a79343 }
+Partial Cherry-pick commits SHA are -> 
+e4be4d0adcd32255f3d16a409cf9e2b2f3283090 - cherrypick - 2c41c1de305165a8b96480f631957efe12a79343
+---> The cherrypicked commit sha is - e4be4d0adcd32255f3d16a409cf9e2b2f3283090
+Commit message - Merge branch '312-persist-deletions-fix' of git://github.com/chunmun/pouchdb into chunmun-312-persist-deletions-fix
+---> The original commit sha is - 2c41c1de305165a8b96480f631957efe12a79343
+Commit message - Revert visualizeRevTree (wrong branch)
+
+VisualizeRevTree got modified here but it shouldn't. It does not belong
+to 468
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.visualizeRevTree.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 70 is -> 
+{ 4437ecf03f3dd1abe9ab74e103de4ae4099bb2a4 -> 9d65e34d86559ddf956569fecc9daddfc5c0904f } is a cherrypick
+{ bc050fe502cfadb8423780f834704cb9eb20a372 -> 2c41c1de305165a8b96480f631957efe12a79343 }
+Partial Cherry-pick commits SHA are -> 
+9d65e34d86559ddf956569fecc9daddfc5c0904f - cherrypick - 2c41c1de305165a8b96480f631957efe12a79343
+---> The cherrypicked commit sha is - 9d65e34d86559ddf956569fecc9daddfc5c0904f
+Commit message - (#471) - Test bulkDocs errors
+
+Add a test for the bulk docs error inconsitency.
+---> The original commit sha is - 2c41c1de305165a8b96480f631957efe12a79343
+Commit message - Revert visualizeRevTree (wrong branch)
+
+VisualizeRevTree got modified here but it shouldn't. It does not belong
+to 468
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.visualizeRevTree.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 71 is -> 
+{ 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 -> 570d80453f765b49f2e687cffe18242f1377bdf6 } is a cherrypick
+{ 9d65e34d86559ddf956569fecc9daddfc5c0904f -> bc050fe502cfadb8423780f834704cb9eb20a372 }
+Partial Cherry-pick commits SHA are -> 
+570d80453f765b49f2e687cffe18242f1377bdf6 - cherrypick - bc050fe502cfadb8423780f834704cb9eb20a372
+---> The cherrypicked commit sha is - 570d80453f765b49f2e687cffe18242f1377bdf6
+Commit message - create and update _all_dbs database for idb
+---> The original commit sha is - bc050fe502cfadb8423780f834704cb9eb20a372
+Commit message - Fix leveldb adapter (#468)
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 72 is -> 
+{ 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b -> ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 } is a cherrypick
+{ 4437ecf03f3dd1abe9ab74e103de4ae4099bb2a4 -> 9d65e34d86559ddf956569fecc9daddfc5c0904f }
+Partial Cherry-pick commits SHA are -> 
+ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 - cherrypick - 9d65e34d86559ddf956569fecc9daddfc5c0904f
+---> The cherrypicked commit sha is - ec8835c13d0959cfdbda2f6c7cec4ce79fae8884
+Commit message - Removed code duplication in idv, leveled and websql adapters.
+---> The original commit sha is - 9d65e34d86559ddf956569fecc9daddfc5c0904f
+Commit message - (#471) - Test bulkDocs errors
+
+Add a test for the bulk docs error inconsitency.
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 73 is -> 
+{ 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 -> 570d80453f765b49f2e687cffe18242f1377bdf6 } is a cherrypick
+{ def657f53df29c0b360c2fa03b577eaf35cb3135 -> 6993025b8150acef0854b1b14287c71abef018df }
+Partial Cherry-pick commits SHA are -> 
+570d80453f765b49f2e687cffe18242f1377bdf6 - cherrypick - 6993025b8150acef0854b1b14287c71abef018df
+---> The cherrypicked commit sha is - 570d80453f765b49f2e687cffe18242f1377bdf6
+Commit message - create and update _all_dbs database for idb
+---> The original commit sha is - 6993025b8150acef0854b1b14287c71abef018df
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into 468-allDocs-uses-seq
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 74 is -> 
+{ 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b -> ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 } is a cherrypick
+{ 9da0c21c6af59a52c38d6e634c12c4771c83e5d1 -> e4be4d0adcd32255f3d16a409cf9e2b2f3283090 }
+Partial Cherry-pick commits SHA are -> 
+ec8835c13d0959cfdbda2f6c7cec4ce79fae8884 - cherrypick - e4be4d0adcd32255f3d16a409cf9e2b2f3283090
+---> The cherrypicked commit sha is - ec8835c13d0959cfdbda2f6c7cec4ce79fae8884
+Commit message - Removed code duplication in idv, leveled and websql adapters.
+---> The original commit sha is - e4be4d0adcd32255f3d16a409cf9e2b2f3283090
+Commit message - Merge branch '312-persist-deletions-fix' of git://github.com/chunmun/pouchdb into chunmun-312-persist-deletions-fix
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 75 is -> 
+{ 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 -> 570d80453f765b49f2e687cffe18242f1377bdf6 } is a cherrypick
+{ 17c6b581439970d46139f964a34a1a6715175feb -> 7d64ae34a8f11f6b5d437212ce9c2adbfff04225 }
+Partial Cherry-pick commits SHA are -> 
+570d80453f765b49f2e687cffe18242f1377bdf6 - cherrypick - 7d64ae34a8f11f6b5d437212ce9c2adbfff04225
+---> The cherrypicked commit sha is - 570d80453f765b49f2e687cffe18242f1377bdf6
+Commit message - create and update _all_dbs database for idb
+---> The original commit sha is - 7d64ae34a8f11f6b5d437212ce9c2adbfff04225
+Commit message - Add labels
+
+* labels display their shortest prefix which defines each rev
+---> The files with partial_cherrypicks are:-
+docs/tutorials/todo-list/js/pouch.alpha.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 76 is -> 
+{ 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 -> 570d80453f765b49f2e687cffe18242f1377bdf6 } is a cherrypick
+{ 2ed54d0f3424a0b40a7305dc714a4edb8468888b -> 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b }
+Partial Cherry-pick commits SHA are -> 
+570d80453f765b49f2e687cffe18242f1377bdf6 - cherrypick - 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b
+---> The cherrypicked commit sha is - 570d80453f765b49f2e687cffe18242f1377bdf6
+Commit message - create and update _all_dbs database for idb
+---> The original commit sha is - 82ab1c722a13cbfe4ce0214434c6e5e8a65b366b
+Commit message - added check in map function
+---> The files with partial_cherrypicks are:-
+.gitignore
+.travis.yml
+CONTRIBUTING.md
+README.md
+docs/api.md
+docs/index.md
+docs/static/js/pouchdb.website.js
+docs/todo-list-tutorial.md
+docs/tutorials/todo-list/base.css
+docs/tutorials/todo-list/index.html
+docs/tutorials/todo-list/js/app.js
+docs/tutorials/todo-list/js/pouch.alpha.js
+package.json
+src/deps/jquery-1.7.1.min.js
+src/plugins/pouchdb.mapreduce.js
+src/plugins/pouchdb.spatial.js
+src/pouch.amd.js
+src/pouch.window.js
+tests/CORS-Proxy/README
+tests/CORS-Proxy/server.js
+tests/perf.html
+tests/test.attachments.js
+tests/test.auth_replication.js
+tests/test.bulk_docs.js
+tests/test.changes.js
+tests/test.conflicts.js
+tests/test.design_docs.js
+tests/test.html
+tests/test.http.js
+tests/test.issue221.js
+tests/test.merge_rev_tree.js
+tests/test.replication.js
+tests/test.revs_diff.js
+tests/test.spatial.js
+tests/test.utils.js
+tests/test.views.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 77 is -> 
+{ 557a7b99fa92ec8b74fac260d8e03e8c3f269030 -> 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 } is a cherrypick
+{ d00f71cca531c32298b653479a3e44d1780ea837 -> 79f0b513d86745b45b431bea94f7ef502677d67e }
+Partial Cherry-pick commits SHA are -> 
+8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2 - cherrypick - 79f0b513d86745b45b431bea94f7ef502677d67e
+---> The cherrypicked commit sha is - 8a2885883b7d8e299e2e6cb761c8a3bccb2b9fd2
+Commit message - Make visualizeRevTree standalone plugin
+---> The original commit sha is - 79f0b513d86745b45b431bea94f7ef502677d67e
+Commit message - Merge pull request #450 from neojski/visualize-rev-tree
+
+Visualize rev tree
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.visualizeRevTree.js
+src/pouch.merge.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 78 is -> 
+{ 6d2c4fe922bb7fcc5b9d0dbbe146cd60cc92ab94 -> ed3b581c185972c1fda26b32dde6a5a4436eb10f } is a cherrypick
+{ d00f71cca531c32298b653479a3e44d1780ea837 -> 79f0b513d86745b45b431bea94f7ef502677d67e }
+Partial Cherry-pick commits SHA are -> 
+ed3b581c185972c1fda26b32dde6a5a4436eb10f - cherrypick - 79f0b513d86745b45b431bea94f7ef502677d67e
+---> The cherrypicked commit sha is - ed3b581c185972c1fda26b32dde6a5a4436eb10f
+Commit message - Fix basic lint problems
+---> The original commit sha is - 79f0b513d86745b45b431bea94f7ef502677d67e
+Commit message - Merge pull request #450 from neojski/visualize-rev-tree
+
+Visualize rev tree
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.visualizeRevTree.js
+src/pouch.merge.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 79 is -> 
+{ fe6ec128abaf33203988972218bcb134554e2846 -> 770c8f0946169998716eb49c028d5219f5cdad02 } is a cherrypick
+{ 166cade80a0bb8df8b61307319bc7e5c532719de -> 6d2c4fe922bb7fcc5b9d0dbbe146cd60cc92ab94 }
+Partial Cherry-pick commits SHA are -> 
+770c8f0946169998716eb49c028d5219f5cdad02 - cherrypick - 6d2c4fe922bb7fcc5b9d0dbbe146cd60cc92ab94
+---> The cherrypicked commit sha is - 770c8f0946169998716eb49c028d5219f5cdad02
+Commit message - Merge branch 'master' of github.com:daleharvey/pouchdb into replication-abstraction
+---> The original commit sha is - 6d2c4fe922bb7fcc5b9d0dbbe146cd60cc92ab94
+Commit message - Merge pull request #449 from benrudolph/replication-abstraction
+
+Replication abstraction
+---> The files with partial_cherrypicks are:-
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 80 is -> 
+{ 9d59ef02e6f7841c522acb87cf62f61c991233f6 -> bc93c94f5ba4ee02460abb965f6758cbe184be9c } is a cherrypick
+{ d1d5b541044479a448e96098c90332ea12726a44 -> 4d904daee66b6ee493fe9b27520fbf56bbef518f }
+Partial Cherry-pick commits SHA are -> 
+bc93c94f5ba4ee02460abb965f6758cbe184be9c - cherrypick - 4d904daee66b6ee493fe9b27520fbf56bbef518f
+---> The cherrypicked commit sha is - bc93c94f5ba4ee02460abb965f6758cbe184be9c
+Commit message - Reset version field in package.json
+---> The original commit sha is - 4d904daee66b6ee493fe9b27520fbf56bbef518f
+Commit message - Merge pull request #431 from daleharvey/reset-package-version
+
+Reset version field in package.json
+---> The files with partial_cherrypicks are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 81 is -> 
+{ 049da6d20f8bcc2e4cc0a0408f9b4f0af4724584 -> 1f922fb79ea8232e122ef70c71db9691c31e327a } is a cherrypick
+{ 9bed2e10a02200ef02682453d0ba50b00b7ed9f8 -> cb4ead7c11ace6bba59f79d3c8fa51b6ff7f6a17 }
+Partial Cherry-pick commits SHA are -> 
+1f922fb79ea8232e122ef70c71db9691c31e327a - cherrypick - cb4ead7c11ace6bba59f79d3c8fa51b6ff7f6a17
+---> The cherrypicked commit sha is - 1f922fb79ea8232e122ef70c71db9691c31e327a
+Commit message - bump package.json to 0.0.9
+---> The original commit sha is - cb4ead7c11ace6bba59f79d3c8fa51b6ff7f6a17
+Commit message - Merge pull request #428 from daleharvey/version-0.0.9
+
+bump package.json to 0.0.9
+---> The files with partial_cherrypicks are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 82 is -> 
+{ 744533867e5597b2189327b2407094021e35cccf -> 8928916d998b1cdee0b4f2b6f54bef9ccd9abbde } is a cherrypick
+{ 627b9a6bbbc5d9bbea11b5c3d9a9070bc286e0a3 -> 9bed2e10a02200ef02682453d0ba50b00b7ed9f8 }
+Partial Cherry-pick commits SHA are -> 
+8928916d998b1cdee0b4f2b6f54bef9ccd9abbde - cherrypick - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+---> The cherrypicked commit sha is - 8928916d998b1cdee0b4f2b6f54bef9ccd9abbde
+Commit message - Fix _local checks - introduce isLocalId into utils
+
+Edit all adapters to use isLocalId
+---> The original commit sha is - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+Commit message - Merge pull request #425 from benrudolph/skip_setup
+
+Test for skip setup flag
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 83 is -> 
+{ 9c42bafa17ff88c5578ede460ad0c106a7e53d48 -> 611ecc0607d64d3a105a860ea1bcb0e6ae947ebc } is a cherrypick
+{ 627b9a6bbbc5d9bbea11b5c3d9a9070bc286e0a3 -> 9bed2e10a02200ef02682453d0ba50b00b7ed9f8 }
+Partial Cherry-pick commits SHA are -> 
+611ecc0607d64d3a105a860ea1bcb0e6ae947ebc - cherrypick - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+---> The cherrypicked commit sha is - 611ecc0607d64d3a105a860ea1bcb0e6ae947ebc
+Commit message - Remove spatial and auth replication tests from CI
+---> The original commit sha is - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+Commit message - Merge pull request #425 from benrudolph/skip_setup
+
+Test for skip setup flag
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 84 is -> 
+{ 44075f3719c63468d8432c88246269188ba9a0e8 -> 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb } is a cherrypick
+{ 627b9a6bbbc5d9bbea11b5c3d9a9070bc286e0a3 -> 9bed2e10a02200ef02682453d0ba50b00b7ed9f8 }
+Partial Cherry-pick commits SHA are -> 
+9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb - cherrypick - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+---> The cherrypicked commit sha is - 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into 410-allDocs-keys-option
+---> The original commit sha is - 9bed2e10a02200ef02682453d0ba50b00b7ed9f8
+Commit message - Merge pull request #425 from benrudolph/skip_setup
+
+Test for skip setup flag
+---> The files with partial_cherrypicks are:-
+grunt.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 85 is -> 
+{ 744533867e5597b2189327b2407094021e35cccf -> 8928916d998b1cdee0b4f2b6f54bef9ccd9abbde } is a cherrypick
+{ 44075f3719c63468d8432c88246269188ba9a0e8 -> 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb }
+Partial Cherry-pick commits SHA are -> 
+8928916d998b1cdee0b4f2b6f54bef9ccd9abbde - cherrypick - 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb
+---> The cherrypicked commit sha is - 8928916d998b1cdee0b4f2b6f54bef9ccd9abbde
+Commit message - Fix _local checks - introduce isLocalId into utils
+
+Edit all adapters to use isLocalId
+---> The original commit sha is - 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into 410-allDocs-keys-option
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 86 is -> 
+{ 9c42bafa17ff88c5578ede460ad0c106a7e53d48 -> 611ecc0607d64d3a105a860ea1bcb0e6ae947ebc } is a cherrypick
+{ 44075f3719c63468d8432c88246269188ba9a0e8 -> 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb }
+Partial Cherry-pick commits SHA are -> 
+611ecc0607d64d3a105a860ea1bcb0e6ae947ebc - cherrypick - 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb
+---> The cherrypicked commit sha is - 611ecc0607d64d3a105a860ea1bcb0e6ae947ebc
+Commit message - Remove spatial and auth replication tests from CI
+---> The original commit sha is - 9bed45c2785eecfe4b3c68fd9c9e2ba881a7d9eb
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into 410-allDocs-keys-option
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 87 is -> 
+{ 8928916d998b1cdee0b4f2b6f54bef9ccd9abbde -> 76b803f1d0641aca351329de5d611bcfe9865a1c } is a cherrypick
+{ f14bdbf9d0b64a47ea69d88dac94c98d2395c7a1 -> 44075f3719c63468d8432c88246269188ba9a0e8 }
+Partial Cherry-pick commits SHA are -> 
+76b803f1d0641aca351329de5d611bcfe9865a1c - cherrypick - 44075f3719c63468d8432c88246269188ba9a0e8
+---> The cherrypicked commit sha is - 76b803f1d0641aca351329de5d611bcfe9865a1c
+Commit message - Merge pull request #420 from calvinmetcalf/build-edge
+
+grunt to optionally add spatial
+---> The original commit sha is - 44075f3719c63468d8432c88246269188ba9a0e8
+Commit message - Fix allDocs startkey with indexeddb
+
+* fix lower_bound iterator
+* improve test for startkey
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 88 is -> 
+{ 28e02c898dd0222edcd1763e6ef1f88c971ebd8b -> 9c42bafa17ff88c5578ede460ad0c106a7e53d48 } is a cherrypick
+{ f14bdbf9d0b64a47ea69d88dac94c98d2395c7a1 -> 44075f3719c63468d8432c88246269188ba9a0e8 }
+Partial Cherry-pick commits SHA are -> 
+9c42bafa17ff88c5578ede460ad0c106a7e53d48 - cherrypick - 44075f3719c63468d8432c88246269188ba9a0e8
+---> The cherrypicked commit sha is - 9c42bafa17ff88c5578ede460ad0c106a7e53d48
+Commit message - Updated test and funtionality
+---> The original commit sha is - 44075f3719c63468d8432c88246269188ba9a0e8
+Commit message - Fix allDocs startkey with indexeddb
+
+* fix lower_bound iterator
+* improve test for startkey
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 89 is -> 
+{ 744533867e5597b2189327b2407094021e35cccf -> 8928916d998b1cdee0b4f2b6f54bef9ccd9abbde } is a cherrypick
+{ 76b803f1d0641aca351329de5d611bcfe9865a1c -> 28e02c898dd0222edcd1763e6ef1f88c971ebd8b }
+Partial Cherry-pick commits SHA are -> 
+8928916d998b1cdee0b4f2b6f54bef9ccd9abbde - cherrypick - 28e02c898dd0222edcd1763e6ef1f88c971ebd8b
+---> The cherrypicked commit sha is - 8928916d998b1cdee0b4f2b6f54bef9ccd9abbde
+Commit message - Fix _local checks - introduce isLocalId into utils
+
+Edit all adapters to use isLocalId
+---> The original commit sha is - 28e02c898dd0222edcd1763e6ef1f88c971ebd8b
+Commit message - Merge pull request #426 from neojski/fix-testing-for-_local
+
+Fix _local checks - introduce isLocalId into utils
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 90 is -> 
+{ 18b283823872fcafb735caf4dc8098b3180b20c4 -> 685c9e7e42e062dbb2b74119a682ae26f9a916c8 } is a cherrypick
+{ 591865c9b2ed4a908fca64c568623dd87aa9a069 -> 3df7a60c9021a6d90dc4ef4eba16119acdd09352 }
+Partial Cherry-pick commits SHA are -> 
+685c9e7e42e062dbb2b74119a682ae26f9a916c8 - cherrypick - 3df7a60c9021a6d90dc4ef4eba16119acdd09352
+---> The cherrypicked commit sha is - 685c9e7e42e062dbb2b74119a682ae26f9a916c8
+Commit message - Clean up and add additional check
+---> The original commit sha is - 3df7a60c9021a6d90dc4ef4eba16119acdd09352
+Commit message - Merge remote branch 'upstream/master' into build-edge
+---> The files with partial_cherrypicks are:-
+tests/test.changes.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 91 is -> 
+{ fcb9efdc647fd5b101d6450d422f39501bda8641 -> 0acd975cd402b68e942a2aa45bf3bb100c975d68 } is a cherrypick
+{ 591865c9b2ed4a908fca64c568623dd87aa9a069 -> 3df7a60c9021a6d90dc4ef4eba16119acdd09352 }
+Partial Cherry-pick commits SHA are -> 
+0acd975cd402b68e942a2aa45bf3bb100c975d68 - cherrypick - 3df7a60c9021a6d90dc4ef4eba16119acdd09352
+---> The cherrypicked commit sha is - 0acd975cd402b68e942a2aa45bf3bb100c975d68
+Commit message - Merge branch 'master' of github.com:daleharvey/pouchdb into skip_setup
+---> The original commit sha is - 3df7a60c9021a6d90dc4ef4eba16119acdd09352
+Commit message - Merge remote branch 'upstream/master' into build-edge
+---> The files with partial_cherrypicks are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 92 is -> 
+{ 18b283823872fcafb735caf4dc8098b3180b20c4 -> 685c9e7e42e062dbb2b74119a682ae26f9a916c8 } is a cherrypick
+{ 6f9e8fdaae4f7c8fb1f10c4072810bbccc85b9f4 -> 591865c9b2ed4a908fca64c568623dd87aa9a069 }
+Partial Cherry-pick commits SHA are -> 
+685c9e7e42e062dbb2b74119a682ae26f9a916c8 - cherrypick - 591865c9b2ed4a908fca64c568623dd87aa9a069
+---> The cherrypicked commit sha is - 685c9e7e42e062dbb2b74119a682ae26f9a916c8
+Commit message - Clean up and add additional check
+---> The original commit sha is - 591865c9b2ed4a908fca64c568623dd87aa9a069
+Commit message - grunt -> spatial
+---> The files with partial_cherrypicks are:-
+docs/api.md
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 93 is -> 
+{ da8d07445550e07329094490425fe8de5541d7ff -> fcb9efdc647fd5b101d6450d422f39501bda8641 } is a cherrypick
+{ 6f9e8fdaae4f7c8fb1f10c4072810bbccc85b9f4 -> 591865c9b2ed4a908fca64c568623dd87aa9a069 }
+Partial Cherry-pick commits SHA are -> 
+fcb9efdc647fd5b101d6450d422f39501bda8641 - cherrypick - 591865c9b2ed4a908fca64c568623dd87aa9a069
+---> The cherrypicked commit sha is - fcb9efdc647fd5b101d6450d422f39501bda8641
+Commit message - Test for creating a database using skipSetup.
+---> The original commit sha is - 591865c9b2ed4a908fca64c568623dd87aa9a069
+Commit message - grunt -> spatial
+---> The files with partial_cherrypicks are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 94 is -> 
+{ cc7a1dd2304a3e46b1607768c133bd2bc4034f59 -> b967328f47b13fb53c377bcee13a73e60116b9e9 } is a cherrypick
+{ 57176a873638b4054438444744fa5d65df81a10b -> bc0cefb4b3e662265cfab1d9f7110a7f44df15d3 }
+Partial Cherry-pick commits SHA are -> 
+b967328f47b13fb53c377bcee13a73e60116b9e9 - cherrypick - bc0cefb4b3e662265cfab1d9f7110a7f44df15d3
+---> The cherrypicked commit sha is - b967328f47b13fb53c377bcee13a73e60116b9e9
+Commit message - Cancel watching changes after we are done
+---> The original commit sha is - bc0cefb4b3e662265cfab1d9f7110a7f44df15d3
+Commit message - Merge pull request #412 from neojski/remove-with-no-options
+
+Remove with no options
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 95 is -> 
+{ 654dba036733ef24c1c1eb0aa59143f64deaf70b -> 3be0fa994bfe18d03fdca6eaf12ba36160c2e565 } is a cherrypick
+{ 57176a873638b4054438444744fa5d65df81a10b -> bc0cefb4b3e662265cfab1d9f7110a7f44df15d3 }
+Partial Cherry-pick commits SHA are -> 
+3be0fa994bfe18d03fdca6eaf12ba36160c2e565 - cherrypick - bc0cefb4b3e662265cfab1d9f7110a7f44df15d3
+---> The cherrypicked commit sha is - 3be0fa994bfe18d03fdca6eaf12ba36160c2e565
+Commit message - Start listening to changes before doing them.
+---> The original commit sha is - bc0cefb4b3e662265cfab1d9f7110a7f44df15d3
+Commit message - Merge pull request #412 from neojski/remove-with-no-options
+
+Remove with no options
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.websql.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 96 is -> 
+{ c67e246e0c226c97711907c0f9a93f895c8fcd9d -> 2298c34d7b2905f81fa3b140c89f80bcec7c9389 } is a cherrypick
+{ d9dd3b0999b660a6760e344c914100d480810528 -> 57176a873638b4054438444744fa5d65df81a10b }
+Partial Cherry-pick commits SHA are -> 
+2298c34d7b2905f81fa3b140c89f80bcec7c9389 - cherrypick - 57176a873638b4054438444744fa5d65df81a10b
+---> The cherrypicked commit sha is - 2298c34d7b2905f81fa3b140c89f80bcec7c9389
+Commit message - fixing the jam section, and removing the unused jquery from the AMD section
+---> The original commit sha is - 57176a873638b4054438444744fa5d65df81a10b
+Commit message - Merge pull request #421 from daleharvey/jam-fix
+
+fixing the jam section, and removing the unused jquery from the AMD section
+---> The files with partial_cherrypicks are:-
+grunt.js
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 97 is -> 
+{ cc7a1dd2304a3e46b1607768c133bd2bc4034f59 -> b967328f47b13fb53c377bcee13a73e60116b9e9 } is a cherrypick
+{ 654dba036733ef24c1c1eb0aa59143f64deaf70b -> 3be0fa994bfe18d03fdca6eaf12ba36160c2e565 }
+Partial Cherry-pick commits SHA are -> 
+b967328f47b13fb53c377bcee13a73e60116b9e9 - cherrypick - 3be0fa994bfe18d03fdca6eaf12ba36160c2e565
+---> The cherrypicked commit sha is - b967328f47b13fb53c377bcee13a73e60116b9e9
+Commit message - Cancel watching changes after we are done
+---> The original commit sha is - 3be0fa994bfe18d03fdca6eaf12ba36160c2e565
+Commit message - Start listening to changes before doing them.
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.websql.js
+tests/test.changes.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 98 is -> 
+{ a64c5f81674ceaec40480adbcfac658add2b34db -> 558f3e2bc9472a1c2c2d7383ef50291dd248d795 } is a cherrypick
+{ e27e23eedd3e31ba823b522869a3a1bb3e901cff -> dd88ee5b0f18f94802806c7bf23c9b45b808f476 }
+Partial Cherry-pick commits SHA are -> 
+558f3e2bc9472a1c2c2d7383ef50291dd248d795 - cherrypick - dd88ee5b0f18f94802806c7bf23c9b45b808f476
+---> The cherrypicked commit sha is - 558f3e2bc9472a1c2c2d7383ef50291dd248d795
+Commit message - Fix no callback remove test.
+---> The original commit sha is - dd88ee5b0f18f94802806c7bf23c9b45b808f476
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into remove-with-no-options
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 99 is -> 
+{ d29f34085feb697ae984b3717ed573aaaabd8c6a -> e338c0b467599f241342f469d18a63fa074cbb4b } is a cherrypick
+{ e27e23eedd3e31ba823b522869a3a1bb3e901cff -> dd88ee5b0f18f94802806c7bf23c9b45b808f476 }
+Partial Cherry-pick commits SHA are -> 
+e338c0b467599f241342f469d18a63fa074cbb4b - cherrypick - dd88ee5b0f18f94802806c7bf23c9b45b808f476
+---> The cherrypicked commit sha is - e338c0b467599f241342f469d18a63fa074cbb4b
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into remove-with-no-options
+---> The original commit sha is - dd88ee5b0f18f94802806c7bf23c9b45b808f476
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into remove-with-no-options
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 100 is -> 
+{ 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629 -> 2060eb32a2931abff66d780d06eb821f41204c60 } is a cherrypick
+{ e338c0b467599f241342f469d18a63fa074cbb4b -> 1c9eb88c25f14fecf289de28f8266c67bf463fe1 }
+Partial Cherry-pick commits SHA are -> 
+2060eb32a2931abff66d780d06eb821f41204c60 - cherrypick - 1c9eb88c25f14fecf289de28f8266c67bf463fe1
+---> The cherrypicked commit sha is - 2060eb32a2931abff66d780d06eb821f41204c60
+Commit message - #407 Corrected path requirement for grunt-node-qunit
+---> The original commit sha is - 1c9eb88c25f14fecf289de28f8266c67bf463fe1
+Commit message - Merge pull request #417 from daleharvey/416-linting-to-tests
+
+#416 Added Linting to grunt
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 101 is -> 
+{ a64c5f81674ceaec40480adbcfac658add2b34db -> 558f3e2bc9472a1c2c2d7383ef50291dd248d795 } is a cherrypick
+{ d29f34085feb697ae984b3717ed573aaaabd8c6a -> e338c0b467599f241342f469d18a63fa074cbb4b }
+Partial Cherry-pick commits SHA are -> 
+558f3e2bc9472a1c2c2d7383ef50291dd248d795 - cherrypick - e338c0b467599f241342f469d18a63fa074cbb4b
+---> The cherrypicked commit sha is - 558f3e2bc9472a1c2c2d7383ef50291dd248d795
+Commit message - Fix no callback remove test.
+---> The original commit sha is - e338c0b467599f241342f469d18a63fa074cbb4b
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into remove-with-no-options
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 102 is -> 
+{ 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629 -> 2060eb32a2931abff66d780d06eb821f41204c60 } is a cherrypick
+{ 558f3e2bc9472a1c2c2d7383ef50291dd248d795 -> cd62feced5baf1f771bcea4899c171e855e2fee0 }
+Partial Cherry-pick commits SHA are -> 
+2060eb32a2931abff66d780d06eb821f41204c60 - cherrypick - cd62feced5baf1f771bcea4899c171e855e2fee0
+---> The cherrypicked commit sha is - 2060eb32a2931abff66d780d06eb821f41204c60
+Commit message - #407 Corrected path requirement for grunt-node-qunit
+---> The original commit sha is - cd62feced5baf1f771bcea4899c171e855e2fee0
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into remove-with-no-options
+---> The files with partial_cherrypicks are:-
+grunt.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 103 is -> 
+{ e5f7f5d26f5be6ea05e49e4d07f95ca01849d4b6 -> 2df025223fd17f94bfe789ae30ddcf20780fa879 } is a cherrypick
+{ 6e03027ab804de2da4be776e9f96e34361cff82c -> 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629 }
+Partial Cherry-pick commits SHA are -> 
+2df025223fd17f94bfe789ae30ddcf20780fa879 - cherrypick - 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629
+---> The cherrypicked commit sha is - 2df025223fd17f94bfe789ae30ddcf20780fa879
+Commit message - Fix changes documentation
+---> The original commit sha is - 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into remove-with-no-options
+---> The files with partial_cherrypicks are:-
+docs/api.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 104 is -> 
+{ 6585e22af5c1182f1fb55a849b2a25b1a85dc317 -> 297df97a8535127ac2b325bec248fa1d5cb17f67 } is a cherrypick
+{ 6e03027ab804de2da4be776e9f96e34361cff82c -> 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629 }
+Partial Cherry-pick commits SHA are -> 
+297df97a8535127ac2b325bec248fa1d5cb17f67 - cherrypick - 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629
+---> The cherrypicked commit sha is - 297df97a8535127ac2b325bec248fa1d5cb17f67
+Commit message - Merge pull request #411 from neojski/documentation-changes-fix
+
+Fix changes documentation
+---> The original commit sha is - 4bd4478fd9a20e5051ee5204a4b9f338fe0b7629
+Commit message - Merge branch 'master' of https://github.com/daleharvey/pouchdb into remove-with-no-options
+---> The files with partial_cherrypicks are:-
+docs/api.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 105 is -> 
+{ 885cc751dcb908d4c36f8818246d9139be82ade2 -> 17d7fa8ffd702a8ba1f8b961241c12ae4db62e24 } is a cherrypick
+{ 308ea21e1c61681a87f5144bdffb213625e86635 -> 6949cec8b6e98586efcf7421c3d5ca739e1f113c }
+Partial Cherry-pick commits SHA are -> 
+17d7fa8ffd702a8ba1f8b961241c12ae4db62e24 - cherrypick - 6949cec8b6e98586efcf7421c3d5ca739e1f113c
+---> The cherrypicked commit sha is - 17d7fa8ffd702a8ba1f8b961241c12ae4db62e24
+Commit message - Allow multiple keys for query to http
+
+POSTing multiple keys allows for large specific queries to CouchDB
+Sorry for coding style (again)
+---> The original commit sha is - 6949cec8b6e98586efcf7421c3d5ca739e1f113c
+Commit message - Allow multiple keys for query to http
+
+POSTing multiple keys allows for large specific queries to CouchDB
+Sorry for coding style (again)
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.mapreduce.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 106 is -> 
+{ 81894f732c79c9b54b63c18ad14b02ee3e57b378 -> 31b91f43ad94092c47fccb61602bad676d7a57e9 } is a cherrypick
+{ 17d7fa8ffd702a8ba1f8b961241c12ae4db62e24 -> 0fda5975a0a5d4b3cc9b008fc56a177a62254589 }
+Partial Cherry-pick commits SHA are -> 
+31b91f43ad94092c47fccb61602bad676d7a57e9 - cherrypick - 0fda5975a0a5d4b3cc9b008fc56a177a62254589
+---> The cherrypicked commit sha is - 31b91f43ad94092c47fccb61602bad676d7a57e9
+Commit message - Initial support for Spatial Views
+
+Spatial Views (like GeoCouch) are not support via the HTTP
+and local adapter. Multidimensional queries are supported.
+
+The key of the `emit()` function can be used in three different
+ways.
+
+ 1. A GeoJSON geometry, the bounding box (ranges) will automatically
+    calculated. For the queries, it is then a 2-dimensional index.
+ 2. An array with values. Every value corresponds to one dimension.
+    The value can either be a single number, or an array, which
+    represends the bounds of a range
+ 3. An array with values (just like 2.), but the first value
+    is a GeoJSON geometry. In this case the bounding box of it
+    will be automatically calculated (just like 1.). This means
+    that the first two dimensions represent the bounding box of
+    that geometry.
+
+The possible query parameters are:
+
+ - `start_range`: An array which contains the lower bound value
+   for every dimension
+ - `end_range`: An array which contains the upport bound value
+   for every dimension
+---> The original commit sha is - 0fda5975a0a5d4b3cc9b008fc56a177a62254589
+Commit message - Merge branch 'spatial' of git://github.com/vmx/pouchdb into vmx-spatial
+
+Conflicts:
+	tests/webrunner.js
+---> The files with partial_cherrypicks are:-
+src/pouch.js
+tests/webrunner.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 107 is -> 
+{ 7a524645f3d3f7f9a08531bd537f85dcd2d96320 -> b1939391dd067defd24e435ae4ed3bb7e706c8be } is a cherrypick
+{ 7459e9f5ec113b3cf2032a131421593838cfc45f -> 14df932d0885ebdd0fa09c2adbc47715a1a212c6 }
+Partial Cherry-pick commits SHA are -> 
+b1939391dd067defd24e435ae4ed3bb7e706c8be - cherrypick - 14df932d0885ebdd0fa09c2adbc47715a1a212c6
+---> The cherrypicked commit sha is - b1939391dd067defd24e435ae4ed3bb7e706c8be
+Commit message - Clean up test databases once tests are complete
+---> The original commit sha is - 14df932d0885ebdd0fa09c2adbc47715a1a212c6
+Commit message - removed zepto
+---> The files with partial_cherrypicks are:-
+src/deps/zepto.min.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 108 is -> 
+{ af775389b388dac5030ef7cf64e52540bab2bc61 -> 3401138a1b9993403af52b6d1551bd2ccc296f4a } is a cherrypick
+{ bef9269693d7dff2df2b51094cd6af70f5c1758b -> 559505b845e9ecb0e8dddfdf5dd38e0469ff6c12 }
+Partial Cherry-pick commits SHA are -> 
+3401138a1b9993403af52b6d1551bd2ccc296f4a - cherrypick - 559505b845e9ecb0e8dddfdf5dd38e0469ff6c12
+---> The cherrypicked commit sha is - 3401138a1b9993403af52b6d1551bd2ccc296f4a
+Commit message - Merge pull request #364 from briantoth/106-map-reduce-join
+
+#106 - Map reduce join implemented. Test uncommented
+---> The original commit sha is - 559505b845e9ecb0e8dddfdf5dd38e0469ff6c12
+Commit message - Merge pull request #365 from benrudolph/apicompact
+
+Added api.compact to HttpPouch
+---> The files with partial_cherrypicks are:-
+.travis.yml
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.merge.js
+src/pouch.replicate.js
+src/pouch.utils.js
+tests/CORS-Proxy/server.js
+tests/test.all_docs.js
+tests/test.changes.js
+tests/test.conflicts.js
+tests/test.replication.js
+tests/test.utils.js
+tests/test.views.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 109 is -> 
+{ e08b29093f22869f61d95bd1fc880285b0608cf4 -> 4e5019d2096fc28880ea38166892b67224959979 } is a cherrypick
+{ 368f1a55689a319ce7f158c17e42d0b4473126d5 -> 6fb123bbabe9986b4f94e122beb9d58178c069c2 }
+Partial Cherry-pick commits SHA are -> 
+4e5019d2096fc28880ea38166892b67224959979 - cherrypick - 6fb123bbabe9986b4f94e122beb9d58178c069c2
+---> The cherrypicked commit sha is - 4e5019d2096fc28880ea38166892b67224959979
+Commit message - Merge pull request #352 from zichun/111-_conflicts-omitted
+
+#111 api.query for idb omits _conflicts
+---> The original commit sha is - 6fb123bbabe9986b4f94e122beb9d58178c069c2
+Commit message - Merge pull request #363 from dscape/travis
+
+Make .travis.yml use node 0.8
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/plugins/pouchdb.mapreduce.js
+src/pouch.merge.js
+src/pouch.replicate.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.changes.js
+tests/test.conflicts.js
+tests/test.replication.js
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 110 is -> 
+{ 4d7bd372fb472d85f608e0c4887c02639f53c5c7 -> e08b29093f22869f61d95bd1fc880285b0608cf4 } is a cherrypick
+{ 2549c6812d106d805150524c6339b2e455f9bd4f -> 93589dbd29dd3966c6b52eae80bbf5f03c2e2c51 }
+Partial Cherry-pick commits SHA are -> 
+e08b29093f22869f61d95bd1fc880285b0608cf4 - cherrypick - 93589dbd29dd3966c6b52eae80bbf5f03c2e2c51
+---> The cherrypicked commit sha is - e08b29093f22869f61d95bd1fc880285b0608cf4
+Commit message - get around issue 346 by giving a content-length header to non-post and non-post requests
+---> The original commit sha is - 93589dbd29dd3966c6b52eae80bbf5f03c2e2c51
+Commit message - Merge pull request #361 from howonlee/nginx-reverse-proxy-error
+
+did issue 346, added content-length to request headers
+---> The files with partial_cherrypicks are:-
+tests/CORS-Proxy/server.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 111 is -> 
+{ 3b78518660d6460a777bac7ce811f8effcfb1bd7 -> 7318f9e6a3e13f8dac18bab3caa23f88069ebc95 } is a cherrypick
+{ 8460d3ee5409674eec9109fb52f6106a2af018b4 -> 5bfcc1a807e1b325b88a2f55b2d060d1cf1be2c3 }
+Partial Cherry-pick commits SHA are -> 
+7318f9e6a3e13f8dac18bab3caa23f88069ebc95 - cherrypick - 5bfcc1a807e1b325b88a2f55b2d060d1cf1be2c3
+---> The cherrypicked commit sha is - 7318f9e6a3e13f8dac18bab3caa23f88069ebc95
+Commit message - made conflicts optional when called with db.query
+---> The original commit sha is - 5bfcc1a807e1b325b88a2f55b2d060d1cf1be2c3
+Commit message - Merge branch 'master' of github.com:daleharvey/pouchdb into 111-_conflicts-omitted
+---> The files with partial_cherrypicks are:-
+src/plugins/pouchdb.mapreduce.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 112 is -> 
+{ f517bc9f6e2b1548536ed48a362d64b72d732fca -> f33a54bba19cbd1b1806402899be3e095de56f9c } is a cherrypick
+{ 00e7aed552aab07e87ed738de6f70c107b2f88a1 -> abbeebd8577ee101e58e24277faa1f1c9ca380e2 }
+Partial Cherry-pick commits SHA are -> 
+f33a54bba19cbd1b1806402899be3e095de56f9c - cherrypick - abbeebd8577ee101e58e24277faa1f1c9ca380e2
+---> The cherrypicked commit sha is - f33a54bba19cbd1b1806402899be3e095de56f9c
+Commit message - replaced JSON.parse(JSON.stringify( with jQuery's extend method
+---> The original commit sha is - abbeebd8577ee101e58e24277faa1f1c9ca380e2
+Commit message - Merge branch 'master' into 337-extend-method
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/adapters/pouch.websql.js
+src/pouch.merge.js
+src/pouch.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 113 is -> 
+{ ce3162fe24053b3ada6665ccf4f1e6f0b05de24c -> f517bc9f6e2b1548536ed48a362d64b72d732fca } is a cherrypick
+{ cc3a96a2cee35573da1191dd3361ddd544854261 -> 4041b526662f0f5e334e685d3f02a59fd4c04051 }
+Partial Cherry-pick commits SHA are -> 
+f517bc9f6e2b1548536ed48a362d64b72d732fca - cherrypick - 4041b526662f0f5e334e685d3f02a59fd4c04051
+---> The cherrypicked commit sha is - f517bc9f6e2b1548536ed48a362d64b72d732fca
+Commit message - fixed pouch.merge tests
+---> The original commit sha is - 4041b526662f0f5e334e685d3f02a59fd4c04051
+Commit message - Merge pull request #353 from ymichael/fixed-pouch.merge-tests
+
+fixed pouch.merge tests
+---> The files with partial_cherrypicks are:-
+tests/test.merge_rev_tree.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 114 is -> 
+{ 5155acd3a0b4adef52570170465c928db31e5a1b -> 867e5524a2220540566e9bb44e813f1ac136e6f8 } is a cherrypick
+{ d04366f3fa881053b57774c99ae31179291b8bca -> 55fe842287f726c8948a1c9d044898e4e9368b5e }
+Partial Cherry-pick commits SHA are -> 
+867e5524a2220540566e9bb44e813f1ac136e6f8 - cherrypick - 55fe842287f726c8948a1c9d044898e4e9368b5e
+---> The cherrypicked commit sha is - 867e5524a2220540566e9bb44e813f1ac136e6f8
+Commit message - moved jquery into main source
+---> The original commit sha is - 55fe842287f726c8948a1c9d044898e4e9368b5e
+Commit message - wait thats not the issue
+---> The files with partial_cherrypicks are:-
+tests/jquery-1.7.1.min.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 115 is -> 
+{ 518f71da462eb06452244cdd9f2659ccef9ff584 -> 072b00608ba38eb1ebee6acb02e3bbf2d0ed0940 } is a cherrypick
+{ a76555527b0aa55916125ae2287dd4132b08c3a6 -> d04366f3fa881053b57774c99ae31179291b8bca }
+Partial Cherry-pick commits SHA are -> 
+072b00608ba38eb1ebee6acb02e3bbf2d0ed0940 - cherrypick - d04366f3fa881053b57774c99ae31179291b8bca
+---> The cherrypicked commit sha is - 072b00608ba38eb1ebee6acb02e3bbf2d0ed0940
+Commit message - prepare replication tests
+---> The original commit sha is - d04366f3fa881053b57774c99ae31179291b8bca
+Commit message - tests need jquery
+---> The files with partial_cherrypicks are:-
+tests/jquery-1.7.1.min.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 116 is -> 
+{ b95e5fae73bb00628b3a6540da8967534ee8dfed -> 7cebf05b5e15e9a4a6e0340979b4d8a7b7df42e0 } is a cherrypick
+{ 27a82910267a9aacafdfe0b28df71acc7ca90309 -> 56283a39cd53903420fa568ff6b16d0c55fc90f2 }
+Partial Cherry-pick commits SHA are -> 
+7cebf05b5e15e9a4a6e0340979b4d8a7b7df42e0 - cherrypick - 56283a39cd53903420fa568ff6b16d0c55fc90f2
+---> The cherrypicked commit sha is - 7cebf05b5e15e9a4a6e0340979b4d8a7b7df42e0
+Commit message - Merge branch 'fixed-revtree' of git://github.com/jlaxson/pouchdb into jlaxson-fixed-revtree
+---> The original commit sha is - 56283a39cd53903420fa568ff6b16d0c55fc90f2
+Commit message - Merge remote branch 'upstream/master' into 325-IE-8-Support-for-HTTP-adapter
+---> The files with partial_cherrypicks are:-
+src/pouch.merge.js
+tests/test.all_docs.js
+tests/test.replication.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 117 is -> 
+{ 1e8ed15a5e9637671746ac0a157bb89389f11fcb -> 2f621c15448b17a63bcc6d1c954a2c77be624e7e } is a cherrypick
+{ 27a82910267a9aacafdfe0b28df71acc7ca90309 -> 56283a39cd53903420fa568ff6b16d0c55fc90f2 }
+Partial Cherry-pick commits SHA are -> 
+2f621c15448b17a63bcc6d1c954a2c77be624e7e - cherrypick - 56283a39cd53903420fa568ff6b16d0c55fc90f2
+---> The cherrypicked commit sha is - 2f621c15448b17a63bcc6d1c954a2c77be624e7e
+Commit message - Fix winningRev sort to return ints instead of booleans
+---> The original commit sha is - 56283a39cd53903420fa568ff6b16d0c55fc90f2
+Commit message - Merge remote branch 'upstream/master' into 325-IE-8-Support-for-HTTP-adapter
+---> The files with partial_cherrypicks are:-
+src/pouch.merge.js
+src/pouch.utils.js
+tests/test.all_docs.js
+tests/test.merge_rev_tree.js
+tests/test.replication.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 118 is -> 
+{ 7cebf05b5e15e9a4a6e0340979b4d8a7b7df42e0 -> 1e8ed15a5e9637671746ac0a157bb89389f11fcb } is a cherrypick
+{ 1683d484e7c195be48694de8d2cecd69fb0bdb99 -> 27a82910267a9aacafdfe0b28df71acc7ca90309 }
+Partial Cherry-pick commits SHA are -> 
+1e8ed15a5e9637671746ac0a157bb89389f11fcb - cherrypick - 27a82910267a9aacafdfe0b28df71acc7ca90309
+---> The cherrypicked commit sha is - 1e8ed15a5e9637671746ac0a157bb89389f11fcb
+Commit message - #325 polyfills for ie8 support
+---> The original commit sha is - 27a82910267a9aacafdfe0b28df71acc7ca90309
+Commit message - forgot the atrribution
+---> The files with partial_cherrypicks are:-
+src/pouch.merge.js
+tests/test.all_docs.js
+tests/test.replication.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 119 is -> 
+{ 7cebf05b5e15e9a4a6e0340979b4d8a7b7df42e0 -> 1e8ed15a5e9637671746ac0a157bb89389f11fcb } is a cherrypick
+{ d5c4a19eb05d43479ac6c22f2fabaafffcfc6175 -> 1683d484e7c195be48694de8d2cecd69fb0bdb99 }
+Partial Cherry-pick commits SHA are -> 
+1e8ed15a5e9637671746ac0a157bb89389f11fcb - cherrypick - 1683d484e7c195be48694de8d2cecd69fb0bdb99
+---> The cherrypicked commit sha is - 1e8ed15a5e9637671746ac0a157bb89389f11fcb
+Commit message - #325 polyfills for ie8 support
+---> The original commit sha is - 1683d484e7c195be48694de8d2cecd69fb0bdb99
+Commit message - Merge pull request #326 from calvinmetcalf/325-IE-8-Support-for-HTTP-adapter
+
+#325 polyfills for ie8 support
+---> The files with partial_cherrypicks are:-
+grunt.js
+src/deps/polyfill.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 120 is -> 
+{ 7d30fa1157ec24883521b672ba0838ef55bd39e7 -> 8218c957fd1cbdf4c2928a076486425416c4551d } is a cherrypick
+{ 2f621c15448b17a63bcc6d1c954a2c77be624e7e -> d5c4a19eb05d43479ac6c22f2fabaafffcfc6175 }
+Partial Cherry-pick commits SHA are -> 
+8218c957fd1cbdf4c2928a076486425416c4551d - cherrypick - d5c4a19eb05d43479ac6c22f2fabaafffcfc6175
+---> The cherrypicked commit sha is - 8218c957fd1cbdf4c2928a076486425416c4551d
+Commit message - Make websql persist update_seq
+---> The original commit sha is - d5c4a19eb05d43479ac6c22f2fabaafffcfc6175
+Commit message - Merge pull request #327 from daleharvey/jlaxson-fixed-revtree
+
+Jlaxson fixed revtree
+---> The files with partial_cherrypicks are:-
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 121 is -> 
+{ 7cebf05b5e15e9a4a6e0340979b4d8a7b7df42e0 -> 1e8ed15a5e9637671746ac0a157bb89389f11fcb } is a cherrypick
+{ 2f621c15448b17a63bcc6d1c954a2c77be624e7e -> d5c4a19eb05d43479ac6c22f2fabaafffcfc6175 }
+Partial Cherry-pick commits SHA are -> 
+1e8ed15a5e9637671746ac0a157bb89389f11fcb - cherrypick - d5c4a19eb05d43479ac6c22f2fabaafffcfc6175
+---> The cherrypicked commit sha is - 1e8ed15a5e9637671746ac0a157bb89389f11fcb
+Commit message - #325 polyfills for ie8 support
+---> The original commit sha is - d5c4a19eb05d43479ac6c22f2fabaafffcfc6175
+Commit message - Merge pull request #327 from daleharvey/jlaxson-fixed-revtree
+
+Jlaxson fixed revtree
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.http.js
+src/adapters/pouch.websql.js
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 122 is -> 
+{ 7d30fa1157ec24883521b672ba0838ef55bd39e7 -> 8218c957fd1cbdf4c2928a076486425416c4551d } is a cherrypick
+{ 36b45cc7c50175a28bdb687103d20839a7b209b1 -> b95e5fae73bb00628b3a6540da8967534ee8dfed }
+Partial Cherry-pick commits SHA are -> 
+8218c957fd1cbdf4c2928a076486425416c4551d - cherrypick - b95e5fae73bb00628b3a6540da8967534ee8dfed
+---> The cherrypicked commit sha is - 8218c957fd1cbdf4c2928a076486425416c4551d
+Commit message - Make websql persist update_seq
+---> The original commit sha is - b95e5fae73bb00628b3a6540da8967534ee8dfed
+Commit message - Merge pull request #321 from daleharvey/update_seq
+
+Make websql persist update_seq
+---> The files with partial_cherrypicks are:-
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 123 is -> 
+{ 1e7cc2161307a1762d0a72b020064e529c9d420e -> 3a45cadeb34ad808c4bc0cb7a9a8465ae78947df } is a cherrypick
+{ e085ac14c1cd0c93adf9a89a157a4106256e2d4f -> 1a9b9391692345d0e6dbbe340f0dfa7e23c29fcc }
+Partial Cherry-pick commits SHA are -> 
+3a45cadeb34ad808c4bc0cb7a9a8465ae78947df - cherrypick - 1a9b9391692345d0e6dbbe340f0dfa7e23c29fcc
+---> The cherrypicked commit sha is - 3a45cadeb34ad808c4bc0cb7a9a8465ae78947df
+Commit message - Catch errors retrieving revisions during replication
+---> The original commit sha is - 1a9b9391692345d0e6dbbe340f0dfa7e23c29fcc
+Commit message - Merge pull request #318 from jlaxson/catch-failed-replication
+
+Catch errors retrieving revisions during replication
+---> The files with partial_cherrypicks are:-
+src/pouch.replicate.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 124 is -> 
+{ e54916aba7870d7417c5264a169266c7a193ba8f -> 1a9ab1896ad45b00d29af18a65d8a0bac0941c1f } is a cherrypick
+{ bb488ccd453435862b36b57c628d3fdc9ebee687 -> be49a756c8320795c0506560090d6a93e13602ce }
+Partial Cherry-pick commits SHA are -> 
+1a9ab1896ad45b00d29af18a65d8a0bac0941c1f - cherrypick - be49a756c8320795c0506560090d6a93e13602ce
+---> The cherrypicked commit sha is - 1a9ab1896ad45b00d29af18a65d8a0bac0941c1f
+Commit message - disable client-level request timeout for _changes, fixes #303
+---> The original commit sha is - be49a756c8320795c0506560090d6a93e13602ce
+Commit message - Merge pull request #307 from natevw/303-patient-replication
+
+Disable client-level request timeout for _changes
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.http.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 125 is -> 
+{ f50566010c5be375edeaffbdffeea319c7de9c0b -> e54916aba7870d7417c5264a169266c7a193ba8f } is a cherrypick
+{ 1a9ab1896ad45b00d29af18a65d8a0bac0941c1f -> 216f957520da35a638eb9759168b3f446a297f67 }
+Partial Cherry-pick commits SHA are -> 
+e54916aba7870d7417c5264a169266c7a193ba8f - cherrypick - 216f957520da35a638eb9759168b3f446a297f67
+---> The cherrypicked commit sha is - e54916aba7870d7417c5264a169266c7a193ba8f
+Commit message - support older integer constant for r/w transactions, fixes #305
+---> The original commit sha is - 216f957520da35a638eb9759168b3f446a297f67
+Commit message - Merge pull request #306 from natevw/305-android-chrome-rw-flag
+
+Support older integer constant for 'readwrite' transaction
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 126 is -> 
+{ f7b779e657529eabfa012dd98b4f608bb52790ff -> 587bebb7b533dc01c81e93d47101a9d33c1e32a8 } is a cherrypick
+{ 5f688ca48d5fe8388ffe333ff160b8494d660f9d -> a66bb73fb67c3147ddbe9972e4b1dc95b7da2711 }
+Partial Cherry-pick commits SHA are -> 
+587bebb7b533dc01c81e93d47101a9d33c1e32a8 - cherrypick - a66bb73fb67c3147ddbe9972e4b1dc95b7da2711
+---> The cherrypicked commit sha is - 587bebb7b533dc01c81e93d47101a9d33c1e32a8
+Commit message - #262-Remove-unused-build-files
+---> The original commit sha is - a66bb73fb67c3147ddbe9972e4b1dc95b7da2711
+Commit message - Merge pull request #297 from daleharvey/fix-cors
+
+Cors preflight should only return with 200 status
+---> The files with partial_cherrypicks are:-
+.gitignore
+Makefile
+pouch
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 127 is -> 
+{ 363b86b74c84abdc2c4df93be128d1fc1f1d8aa6 -> 21e471910b557a18abc9a7d64fd9b957f2958434 } is a cherrypick
+{ 04c25576f1ca8380e6fc02d69127f5b3b42862bc -> 3a10c02802444af40e8769e2585d32c7e50be81b }
+Partial Cherry-pick commits SHA are -> 
+21e471910b557a18abc9a7d64fd9b957f2958434 - cherrypick - 3a10c02802444af40e8769e2585d32c7e50be81b
+---> The cherrypicked commit sha is - 21e471910b557a18abc9a7d64fd9b957f2958434
+Commit message - Add api.close
+http adapter does nothing on close
+idb adapter calls close on the database
+leveldb adapter closes the 3 databases comprising a Pouch db
+---> The original commit sha is - 3a10c02802444af40e8769e2585d32c7e50be81b
+Commit message - Merge pull request #286 from daleharvey/grunt-refactor
+
+Refactor grunt.js to fit in with existing code style
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.http.js
+src/adapters/pouch.leveldb.js
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 128 is -> 
+{ ee8f2302d87f68dce629f2fb0321e28e8f9707c1 -> ad1082814debe6c89fab55ee9842b7662d0b9cbe } is a cherrypick
+{ 04c25576f1ca8380e6fc02d69127f5b3b42862bc -> 3a10c02802444af40e8769e2585d32c7e50be81b }
+Partial Cherry-pick commits SHA are -> 
+ad1082814debe6c89fab55ee9842b7662d0b9cbe - cherrypick - 3a10c02802444af40e8769e2585d32c7e50be81b
+---> The cherrypicked commit sha is - ad1082814debe6c89fab55ee9842b7662d0b9cbe
+Commit message - Use status 412 for db not open
+---> The original commit sha is - 3a10c02802444af40e8769e2585d32c7e50be81b
+Commit message - Merge pull request #286 from daleharvey/grunt-refactor
+
+Refactor grunt.js to fit in with existing code style
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.http.js
+src/adapters/pouch.leveldb.js
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 129 is -> 
+{ 21e471910b557a18abc9a7d64fd9b957f2958434 -> ee8f2302d87f68dce629f2fb0321e28e8f9707c1 } is a cherrypick
+{ ebf93c6c70af8968bf0fec589e827191fffb874c -> 04c25576f1ca8380e6fc02d69127f5b3b42862bc }
+Partial Cherry-pick commits SHA are -> 
+ee8f2302d87f68dce629f2fb0321e28e8f9707c1 - cherrypick - 04c25576f1ca8380e6fc02d69127f5b3b42862bc
+---> The cherrypicked commit sha is - ee8f2302d87f68dce629f2fb0321e28e8f9707c1
+Commit message - Refactor grunt.js to fit in with existing code style
+---> The original commit sha is - 04c25576f1ca8380e6fc02d69127f5b3b42862bc
+Commit message - Revert a few changes, doesnt love use strict
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.http.js
+src/adapters/pouch.leveldb.js
+src/pouch.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 130 is -> 
+{ 21e471910b557a18abc9a7d64fd9b957f2958434 -> ee8f2302d87f68dce629f2fb0321e28e8f9707c1 } is a cherrypick
+{ ad1082814debe6c89fab55ee9842b7662d0b9cbe -> ebf93c6c70af8968bf0fec589e827191fffb874c }
+Partial Cherry-pick commits SHA are -> 
+ee8f2302d87f68dce629f2fb0321e28e8f9707c1 - cherrypick - ebf93c6c70af8968bf0fec589e827191fffb874c
+---> The cherrypicked commit sha is - ee8f2302d87f68dce629f2fb0321e28e8f9707c1
+Commit message - Refactor grunt.js to fit in with existing code style
+---> The original commit sha is - ebf93c6c70af8968bf0fec589e827191fffb874c
+Commit message - Merge pull request #285 from davedoesdev/add-close
+
+Add api.close
+---> The files with partial_cherrypicks are:-
+tests/test.issue221.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 131 is -> 
+{ 363b86b74c84abdc2c4df93be128d1fc1f1d8aa6 -> 21e471910b557a18abc9a7d64fd9b957f2958434 } is a cherrypick
+{ ee8f2302d87f68dce629f2fb0321e28e8f9707c1 -> ad1082814debe6c89fab55ee9842b7662d0b9cbe }
+Partial Cherry-pick commits SHA are -> 
+21e471910b557a18abc9a7d64fd9b957f2958434 - cherrypick - ad1082814debe6c89fab55ee9842b7662d0b9cbe
+---> The cherrypicked commit sha is - 21e471910b557a18abc9a7d64fd9b957f2958434
+Commit message - Add api.close
+http adapter does nothing on close
+idb adapter calls close on the database
+leveldb adapter closes the 3 databases comprising a Pouch db
+---> The original commit sha is - ad1082814debe6c89fab55ee9842b7662d0b9cbe
+Commit message - Use status 412 for db not open
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/pouch.js
+tests/test.issue221.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 132 is -> 
+{ f1ce1e4b1131d826da85674abbbfacc12e2325ac -> 79a3e0cbb029f354f289c84cbfa4bcff42e9923e } is a cherrypick
+{ 978f75a232bd84fe71c85c5adb2cb8c00dffa0e4 -> a9c3c532f5718767672053065b152d7c4d3f98ac }
+Partial Cherry-pick commits SHA are -> 
+79a3e0cbb029f354f289c84cbfa4bcff42e9923e - cherrypick - a9c3c532f5718767672053065b152d7c4d3f98ac
+---> The cherrypicked commit sha is - 79a3e0cbb029f354f289c84cbfa4bcff42e9923e
+Commit message - Merge pull request #280 from daleharvey/test-races-retry
+
+Fix race condition in issue221 tests
+---> The original commit sha is - a9c3c532f5718767672053065b152d7c4d3f98ac
+Commit message - Revert qunit upgrade till it passes tests
+---> The files with partial_cherrypicks are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 133 is -> 
+{ bf99f43ce0b6871dc10381e9cc06fe174e9ffab7 -> f1ce1e4b1131d826da85674abbbfacc12e2325ac } is a cherrypick
+{ 79a3e0cbb029f354f289c84cbfa4bcff42e9923e -> 978f75a232bd84fe71c85c5adb2cb8c00dffa0e4 }
+Partial Cherry-pick commits SHA are -> 
+f1ce1e4b1131d826da85674abbbfacc12e2325ac - cherrypick - 978f75a232bd84fe71c85c5adb2cb8c00dffa0e4
+---> The cherrypicked commit sha is - f1ce1e4b1131d826da85674abbbfacc12e2325ac
+Commit message - #227 Updated version of grunt-saucelabs, added testInterval
+---> The original commit sha is - 978f75a232bd84fe71c85c5adb2cb8c00dffa0e4
+Commit message - Merge pull request #281 from daleharvey/227-Reduce-polling-interval-for-tests-completed
+
+#227 Updated version of grunt-saucelabs, added testInterval
+---> The files with partial_cherrypicks are:-
+grunt.js
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 134 is -> 
+{ 210322a63846c1a5aa33a7ee5fd2c429fc7563ed -> e89533f6186f6a7061cc1e91cc6794fdf0b6bb1a } is a cherrypick
+{ 941f19afa6819294689e8309dd2598c645270751 -> 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4 }
+Partial Cherry-pick commits SHA are -> 
+e89533f6186f6a7061cc1e91cc6794fdf0b6bb1a - cherrypick - 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4
+---> The cherrypicked commit sha is - e89533f6186f6a7061cc1e91cc6794fdf0b6bb1a
+Commit message - #260 Added disable-file-cache flag for Chrome browser config
+---> The original commit sha is - 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4
+Commit message - Merge pull request #267 from daleharvey/253-Chrome-results-are-not-reported
+
+#253 Browser test results now read only using grunt, not in webrunner
+---> The files with partial_cherrypicks are:-
+grunt.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 135 is -> 
+{ e89533f6186f6a7061cc1e91cc6794fdf0b6bb1a -> 9ccddde7492b022bea00c297778ef1413e2d3aa7 } is a cherrypick
+{ 941f19afa6819294689e8309dd2598c645270751 -> 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4 }
+Partial Cherry-pick commits SHA are -> 
+9ccddde7492b022bea00c297778ef1413e2d3aa7 - cherrypick - 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4
+---> The cherrypicked commit sha is - 9ccddde7492b022bea00c297778ef1413e2d3aa7
+Commit message - Merge pull request #266 from calvinmetcalf/uuids
+
+Fetch uuids from remote http for use in POST requests
+---> The original commit sha is - 76db13d3be8febd7dc94d56f24bd0b2d7c4e43f4
+Commit message - Merge pull request #267 from daleharvey/253-Chrome-results-are-not-reported
+
+#253 Browser test results now read only using grunt, not in webrunner
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.http.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 136 is -> 
+{ 210322a63846c1a5aa33a7ee5fd2c429fc7563ed -> e89533f6186f6a7061cc1e91cc6794fdf0b6bb1a } is a cherrypick
+{ 9ccddde7492b022bea00c297778ef1413e2d3aa7 -> 3848e057f8535bd36a1592c65b2788dffdb31d41 }
+Partial Cherry-pick commits SHA are -> 
+e89533f6186f6a7061cc1e91cc6794fdf0b6bb1a - cherrypick - 3848e057f8535bd36a1592c65b2788dffdb31d41
+---> The cherrypicked commit sha is - e89533f6186f6a7061cc1e91cc6794fdf0b6bb1a
+Commit message - #260 Added disable-file-cache flag for Chrome browser config
+---> The original commit sha is - 3848e057f8535bd36a1592c65b2788dffdb31d41
+Commit message - Merge pull request #268 from daleharvey/260-Dont-run-attachment-tests-in-chrome-on-CI
+
+#260 Added disable-file-cache flag for Chrome browser config
+---> The files with partial_cherrypicks are:-
+grunt.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 137 is -> 
+{ c7806f358fd6f0d4adef6cd588cdd57c1f6bbf82 -> 1f0ebf811100127be6c94cb3f98d79deb0e749a1 } is a cherrypick
+{ b3921468b7ae4184d500ea1b81d67525c6c32bfd -> 172b0bb46fc5cd9a1ddc46a00feb74b37bf5cce2 }
+Partial Cherry-pick commits SHA are -> 
+1f0ebf811100127be6c94cb3f98d79deb0e749a1 - cherrypick - 172b0bb46fc5cd9a1ddc46a00feb74b37bf5cce2
+---> The cherrypicked commit sha is - 1f0ebf811100127be6c94cb3f98d79deb0e749a1
+Commit message - get uuids
+---> The original commit sha is - 172b0bb46fc5cd9a1ddc46a00feb74b37bf5cce2
+Commit message - post as pull now
+---> The files with partial_cherrypicks are:-
+README.md
+docs/_layouts/default.html
+docs/api.md
+docs/index.md
+docs/static/js/highlight.pack.js
+docs/static/js/pouchdb.website.js
+docs/static/style/noun_project_5618.svg
+docs/static/style/pouchdb.css
+docs/static/style/solarized_dark.min.css
+pouch
+src/adapters/pouch.idb.js
+src/adapters/pouch.leveldb.js
+src/pouch.replicate.js
+src/pouch.utils.js
+tests/buildstatus/_ddoc/views/by_fail/map.js
+tests/buildstatus/_ddoc/views/by_started/map.js
+tests/buildstatus/css/buildstatus.css
+tests/buildstatus/index.html
+tests/buildstatus/js/pouch.alpha.min.js
+tests/buildstatus/js/pouchdb.buildstatus.js
+tests/flashcards/benchmark.js
+tests/flashcards/flashcards.js
+tests/flashcards/index.html
+tests/result_viewer/README.md
+tests/result_viewer/app.js
+tests/result_viewer/kanso.json
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.auth_replication.js
+tests/test.basics.js
+tests/test.bulk_docs.js
+tests/test.changes.js
+tests/test.conflicts.js
+tests/test.design_docs.js
+tests/test.replication.js
+tests/test.revs_diff.js
+tests/test.utils.js
+tests/test.views.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 138 is -> 
+{ a6384a77b06d7cec6f39eb4fefa259e99f7b828f -> 0a90dd94cfb1cb2750d68710dd3d8b59dc6f0ddb } is a cherrypick
+{ 17b3491a196397c53dcb578e9e468d2285172b26 -> 7429eac86fc473916b01995a74a6ab5c60263b59 }
+Partial Cherry-pick commits SHA are -> 
+0a90dd94cfb1cb2750d68710dd3d8b59dc6f0ddb - cherrypick - 7429eac86fc473916b01995a74a6ab5c60263b59
+---> The cherrypicked commit sha is - 0a90dd94cfb1cb2750d68710dd3d8b59dc6f0ddb
+Commit message - check for missing/optional arguments
+---> The original commit sha is - 7429eac86fc473916b01995a74a6ab5c60263b59
+Commit message - Merge pull request #209 from chesles/206-fix-replicate-options
+
+check for missing/optional arguments
+---> The files with partial_cherrypicks are:-
+src/pouch.replicate.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 139 is -> 
+{ dce072385bf142b86689a576a487a49937e9804c -> 15b483bedd10dcd863c13705b581216ce95fb0d6 } is a cherrypick
+{ 7387fd108f5dc83e0d53094102a8a92782e344d5 -> a6384a77b06d7cec6f39eb4fefa259e99f7b828f }
+Partial Cherry-pick commits SHA are -> 
+15b483bedd10dcd863c13705b581216ce95fb0d6 - cherrypick - a6384a77b06d7cec6f39eb4fefa259e99f7b828f
+---> The cherrypicked commit sha is - 15b483bedd10dcd863c13705b581216ce95fb0d6
+Commit message - New test to show bug that occurs when trying to remove a document that was put with a specifiedId.
+---> The original commit sha is - a6384a77b06d7cec6f39eb4fefa259e99f7b828f
+Commit message - Merge branch 'RemoveTest' of git://github.com/chendricks/pouchdb into chendricks-RemoveTest
+---> The files with partial_cherrypicks are:-
+tests/test.basics.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 140 is -> 
+{ 19481c34833123f4b0386a99511b4787ce0490ae -> a65edaeed470738c6edf8665d6405270058f9487 } is a cherrypick
+{ 52fef28f97e231b2daf88f3d3c694faeb10f666c -> 4a4af0d56cfaf53b2cb4a8e268fd576a23e507cb }
+Partial Cherry-pick commits SHA are -> 
+a65edaeed470738c6edf8665d6405270058f9487 - cherrypick - 4a4af0d56cfaf53b2cb4a8e268fd576a23e507cb
+---> The cherrypicked commit sha is - a65edaeed470738c6edf8665d6405270058f9487
+Commit message - don't try to btoa attachments that are Buffer objects
+
+also, a couple of typo fixes in attachment tests and test utils
+---> The original commit sha is - 4a4af0d56cfaf53b2cb4a8e268fd576a23e507cb
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.leveldb.js
+tests/test.attachments.js
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 141 is -> 
+{ 02a3e5199a233ada1e25d5e2dc27026920ceb538 -> ff98d0a8601030980f8a57c270a36d66bd5e68bf } is a cherrypick
+{ 1e5d321e4c39c60dd8117ac7cd0c86bfd846a7af -> 451b9e02e8a0c7bb355b73d56fdb142d0b19c749 }
+Partial Cherry-pick commits SHA are -> 
+ff98d0a8601030980f8a57c270a36d66bd5e68bf - cherrypick - 451b9e02e8a0c7bb355b73d56fdb142d0b19c749
+---> The cherrypicked commit sha is - ff98d0a8601030980f8a57c270a36d66bd5e68bf
+Commit message - Merge pull request #162 from jo/master
+
+Improve cross window changes test
+---> The original commit sha is - 451b9e02e8a0c7bb355b73d56fdb142d0b19c749
+Commit message - Initial merge
+---> The files with partial_cherrypicks are:-
+docs/tutorials/index.html
+docs/tutorials/todo-list-tutorial.js
+tests/run_saucelabs.js
+tests/run_tests.sh
+tests/test.html
+tests/test.post.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 142 is -> 
+{ bb2f44a4dc8800219b373dee4371644c764c3642 -> 07a1ec16d6162ddf3990982bffa24e226b894ae4 } is a cherrypick
+{ ff98d0a8601030980f8a57c270a36d66bd5e68bf -> 7782af4e35878d55cb8679a4bf6a2ecd13ca5a62 }
+Partial Cherry-pick commits SHA are -> 
+07a1ec16d6162ddf3990982bffa24e226b894ae4 - cherrypick - 7782af4e35878d55cb8679a4bf6a2ecd13ca5a62
+---> The cherrypicked commit sha is - 07a1ec16d6162ddf3990982bffa24e226b894ae4
+Commit message - added adapter-level db connection cache
+---> The original commit sha is - 7782af4e35878d55cb8679a4bf6a2ecd13ca5a62
+Commit message - fix some typos and style things
+
+- s/pouch/Pouch/
+- s/console.err/console.error/
+---> The files with partial_cherrypicks are:-
+docs/tutorials/index.html
+docs/tutorials/todo-list-tutorial.js
+package.json
+src/adapters/pouch.http.js
+src/adapters/pouch.idb.js
+src/pouch.collate.js
+src/pouch.js
+src/pouch.merge.js
+src/pouch.replicate.js
+src/pouch.utils.js
+tests/run_saucelabs.js
+tests/run_tests.sh
+tests/test.all_docs.js
+tests/test.attachments.js
+tests/test.basics.js
+tests/test.bulk_docs.js
+tests/test.changes.js
+tests/test.conflicts.js
+tests/test.design_docs.js
+tests/test.html
+tests/test.merge_rev_tree.js
+tests/test.post.js
+tests/test.replication.js
+tests/test.revs_diff.js
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 143 is -> 
+{ 50be7d75b6dd958dadaae6869ef0f668325eb033 -> f5ae8e02a72a03865b9719bd77429b83c09b069d } is a cherrypick
+{ dce072385bf142b86689a576a487a49937e9804c -> 15b483bedd10dcd863c13705b581216ce95fb0d6 }
+Partial Cherry-pick commits SHA are -> 
+f5ae8e02a72a03865b9719bd77429b83c09b069d - cherrypick - 15b483bedd10dcd863c13705b581216ce95fb0d6
+---> The cherrypicked commit sha is - f5ae8e02a72a03865b9719bd77429b83c09b069d
+Commit message - add node module
+---> The original commit sha is - 15b483bedd10dcd863c13705b581216ce95fb0d6
+Commit message - New test to show bug that occurs when trying to remove a document that was put with a specifiedId.
+---> The files with partial_cherrypicks are:-
+src/adapters/pouch.idb.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 144 is -> 
+{ 3e66861b6715ad6630ddea7905c78a0f2f754980 -> 6bc71463dba04eb5a9f735c8c96279a4b3a0d672 } is a cherrypick
+{ 659134ef5eeca7d9b8be78fe50e01ba76f579d73 -> 809a0c27213df018169df4a1ce338c3f045bafd7 }
+Partial Cherry-pick commits SHA are -> 
+6bc71463dba04eb5a9f735c8c96279a4b3a0d672 - cherrypick - 809a0c27213df018169df4a1ce338c3f045bafd7
+---> The cherrypicked commit sha is - 6bc71463dba04eb5a9f735c8c96279a4b3a0d672
+Commit message - Merge branch 'replication-conflict-tests' of git://github.com/jamesmayes/pouchdb into jamesmayes-replication-conflict-tests
+---> The original commit sha is - 809a0c27213df018169df4a1ce338c3f045bafd7
+Commit message - Replaced with Dale's cleaned up version
+---> The files with partial_cherrypicks are:-
+tests/test.attachments.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 145 is -> 
+{ 6a62dd535f588a97bdd031c1f50dc53a88744cc3 -> 7ab6e19afefe31ecf8db08aa8aeb3d7605cb24eb } is a cherrypick
+{ e9060c3999d9ceecadb328a558ba9c282adf3bd6 -> d98b9ca223c0f651656fc40591af4f792a96f995 }
+Partial Cherry-pick commits SHA are -> 
+7ab6e19afefe31ecf8db08aa8aeb3d7605cb24eb - cherrypick - d98b9ca223c0f651656fc40591af4f792a96f995
+---> The cherrypicked commit sha is - 7ab6e19afefe31ecf8db08aa8aeb3d7605cb24eb
+Commit message - Merge pull request #91 from ryanramage/ee28ae
+
+Only AMD commits
+---> The original commit sha is - d98b9ca223c0f651656fc40591af4f792a96f995
+Commit message - Allow easier switching between what build to test
+---> The files with partial_cherrypicks are:-
+tests/test.utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 146 is -> 
+{ e51f76eda44607e905ddab8f8708b1a9415ea381 -> c5da983ffe4c566bf376a7ea7365e6b58ff249d7 } is a cherrypick
+{ e3affb3cf3c8dfb1e3b919e4f2347589bcac95be -> 0e14d01ff3f1588ebf080d2b65182008a3a64585 }
+Partial Cherry-pick commits SHA are -> 
+c5da983ffe4c566bf376a7ea7365e6b58ff249d7 - cherrypick - 0e14d01ff3f1588ebf080d2b65182008a3a64585
+---> The cherrypicked commit sha is - c5da983ffe4c566bf376a7ea7365e6b58ff249d7
+Commit message - Replace deprecated arguments.callee with simple self-references.
+---> The original commit sha is - 0e14d01ff3f1588ebf080d2b65182008a3a64585
+Commit message - Merge pull request #74 from molnarg/callee-deprecation
+
+Replace deprecated arguments.callee with simple self-references.
+---> The files with partial_cherrypicks are:-
+src/pouch.js
+tests/qunit/qunit.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 147 is -> 
+{ d5cb52985c5a09c550ee966fb6a632438777ebf9 -> df890c2f75d6c66ee71802ecce65275f7ede6fd2 } is a cherrypick
+{ da72aebb605840cc7809d099f2c1f0d06be394f9 -> 3b2366e342f874e694ff9ba11da9368f6c5f4484 }
+Partial Cherry-pick commits SHA are -> 
+df890c2f75d6c66ee71802ecce65275f7ede6fd2 - cherrypick - 3b2366e342f874e694ff9ba11da9368f6c5f4484
+---> The cherrypicked commit sha is - df890c2f75d6c66ee71802ecce65275f7ede6fd2
+Commit message - started test for replicating as non-admin user
+---> The original commit sha is - 3b2366e342f874e694ff9ba11da9368f6c5f4484
+Commit message - Updated replication test
+---> The files with partial_cherrypicks are:-
+tests/test.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 148 is -> 
+{ d0bbd73622207650207924fee08b434fa5cafa23 -> 07320c3e86b771a1f1b54dc05d59ab2add789f6d } is a cherrypick
+{ ab08ee66a9ce310fd97cb1d10fab2e013f36c8bb -> a175c2433a6a9eb8267b57240520739c67a88c36 }
+Partial Cherry-pick commits SHA are -> 
+07320c3e86b771a1f1b54dc05d59ab2add789f6d - cherrypick - a175c2433a6a9eb8267b57240520739c67a88c36
+---> The cherrypicked commit sha is - 07320c3e86b771a1f1b54dc05d59ab2add789f6d
+Commit message - cleaning up unused files and typos
+---> The original commit sha is - a175c2433a6a9eb8267b57240520739c67a88c36
+Commit message - remove unused file
+---> The files with partial_cherrypicks are:-
+fileserver.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 149 is -> 
+{ d0bbd73622207650207924fee08b434fa5cafa23 -> 07320c3e86b771a1f1b54dc05d59ab2add789f6d } is a cherrypick
+{ 62ab11f5f2a38c7dc22d54b0eaac578080816cb2 -> 9fe617fda86a51a6cc07cd56748824199cae2612 }
+Partial Cherry-pick commits SHA are -> 
+07320c3e86b771a1f1b54dc05d59ab2add789f6d - cherrypick - 9fe617fda86a51a6cc07cd56748824199cae2612
+---> The cherrypicked commit sha is - 07320c3e86b771a1f1b54dc05d59ab2add789f6d
+Commit message - cleaning up unused files and typos
+---> The original commit sha is - 9fe617fda86a51a6cc07cd56748824199cae2612
+Commit message - Merge remote-tracking branch 'maxogden/master'
+
+I left in fileserver.js because FF doesn't let us use IDB from file:///
+
+Conflicts:
+	test.html
+---> The files with partial_cherrypicks are:-
+jquery-1.6.2.min.js
+perf.html
+test.html
+testapp/app.js
+testapp/attachments/index.html
+testapp/attachments/jquery-1.4.4.min.js
+testapp/attachments/sammy/plugins/sammy.cache.js
+testapp/attachments/sammy/plugins/sammy.data_location_proxy.js
+testapp/attachments/sammy/plugins/sammy.ejs.js
+testapp/attachments/sammy/plugins/sammy.form.js
+testapp/attachments/sammy/plugins/sammy.haml.js
+testapp/attachments/sammy/plugins/sammy.json.js
+testapp/attachments/sammy/plugins/sammy.meld.js
+testapp/attachments/sammy/plugins/sammy.mustache.js
+testapp/attachments/sammy/plugins/sammy.nested_params.js
+testapp/attachments/sammy/plugins/sammy.path_location_proxy.js
+testapp/attachments/sammy/plugins/sammy.pure.js
+testapp/attachments/sammy/plugins/sammy.storage.js
+testapp/attachments/sammy/plugins/sammy.template.js
+testapp/attachments/sammy/plugins/sammy.title.js
+testapp/attachments/sammy/sammy.js
+testapp/attachments/site.js
+-----------------------------------------------------------------
+

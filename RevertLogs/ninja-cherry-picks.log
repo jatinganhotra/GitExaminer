@@ -1,0 +1,960 @@
+# of cherry-picks = 85
+Cherry-pick diff pair 1 is -> 
+{ 716309a02cd7512e1f0e181e2a10bf4e8572081f -> 7b3ee1cd214572f77c9c8817169d2dbb2f314089 } is a cherrypick
+{ 846564805a3aa41eb43e5c4b48ff86fe3ae35e97 -> 0394eaca4bee0a3ddf48263d34bf6a1b0ad4fd47 }
+Cherrypick commits SHA are -> 
+7b3ee1cd214572f77c9c8817169d2dbb2f314089 - cherrypick - 0394eaca4bee0a3ddf48263d34bf6a1b0ad4fd47
+---> The cherrypicked commit sha is - 7b3ee1cd214572f77c9c8817169d2dbb2f314089
+Commit message - Stability improvement for Jpa blog archetype - setup works now in a predictable manner for testcases (ra)
+---> The original commit sha is - 0394eaca4bee0a3ddf48263d34bf6a1b0ad4fd47
+Commit message - Merge pull request #240 from bazi/docs/pr-236
+
+Update routing docs to reflect changes in PR #236
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ c02622e272ef1f595ace7c9a354e44d82a9abb42 -> a5b87c4c1422d0ba997ae3960ce2ce602121d648 } is a cherrypick
+{ 388eb99c06dd0da9fe3f1b4e456bfdf338c61674 -> 9057af99bb316c3b143663337f8715717000625a }
+Cherrypick commits SHA are -> 
+a5b87c4c1422d0ba997ae3960ce2ce602121d648 - cherrypick - 9057af99bb316c3b143663337f8715717000625a
+---> The cherrypicked commit sha is - a5b87c4c1422d0ba997ae3960ce2ce602121d648
+Commit message - Add ServletContext to ContextImpl to improve 3rd-party integration
+
+Some servlet-based integrations require access to the ServletContext. While
+this could probably be faked with a custom wrapper around Ninja's Context
+it is easier to just provide the actual context to ContextImpl for those integrations.
+
+One example integration which would benefit from exposing the ServletContext
+is the Thymeleaf template engine[1]. It features built-in servlet integration which
+can not be used without a ServletContext.
+
+- [1]: http://thymeleaf.org
+---> The original commit sha is - 9057af99bb316c3b143663337f8715717000625a
+Commit message - Merge branch 'gitblit-servletcontext' into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ 11865231f074835833bf8f6a7f2641f4cc62cdd2 -> 379a8269a95bad44296d245bf9266ab2bd121db3 } is a cherrypick
+{ 82d74c1f316c424c84cd3f740edfb63778f24382 -> 7ca56b0a4c503702ed124187ce239f69d5c444e0 }
+Cherrypick commits SHA are -> 
+379a8269a95bad44296d245bf9266ab2bd121db3 - cherrypick - 7ca56b0a4c503702ed124187ce239f69d5c444e0
+---> The cherrypicked commit sha is - 379a8269a95bad44296d245bf9266ab2bd121db3
+Commit message - first preps for ninja4 with yoda and annotationrouter.
+---> The original commit sha is - 7ca56b0a4c503702ed124187ce239f69d5c444e0
+Commit message - Merge branch 'develop' into ninja4
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ 13dafafeadb7b8ad8eb8327d1ea50d64a54890b5 -> 378042131f0437c6b8f49c7424550c8ed915c971 } is a cherrypick
+{ 0a6b11139ac1f16b54b370a820f033aef60c942a -> 1b3f810b0e0910e7c2b3469e4b0740f8138ad268 }
+Cherrypick commits SHA are -> 
+378042131f0437c6b8f49c7424550c8ed915c971 - cherrypick - 1b3f810b0e0910e7c2b3469e4b0740f8138ad268
+---> The cherrypicked commit sha is - 378042131f0437c6b8f49c7424550c8ed915c971
+Commit message - Catch Exception when not found any user
+
+When submit not existing user, line 27 will get an exception:
+javax.persistence.NoResultException: No entity found for query
+I just wrap block code into try{}catch block.
+---> The original commit sha is - 1b3f810b0e0910e7c2b3469e4b0740f8138ad268
+Commit message - Merge branch 'develop' of github.com:ninjaframework/ninja into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ dd2096355148b3bd960cb1bb0492ee18519d382f -> 04cd1099bb957bef71a476f05dab4d180a289499 } is a cherrypick
+{ a3b998bc416da00fdc9bae2de12142bc361e8810 -> a828f9895c70599fbf2313a0ae521777442bbd51 }
+Cherrypick commits SHA are -> 
+04cd1099bb957bef71a476f05dab4d180a289499 - cherrypick - a828f9895c70599fbf2313a0ae521777442bbd51
+---> The cherrypicked commit sha is - 04cd1099bb957bef71a476f05dab4d180a289499
+Commit message - Merge pull request #176 from svenkubiak/develop
+
+added http status 401, organized imports
+---> The original commit sha is - a828f9895c70599fbf2313a0ae521777442bbd51
+Commit message - Merge pull request #178 from svenkubiak/develop
+
+Added Ninja Morphia Module
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ 39d15e73d0d7756ee881a38b2caa39fb461c3ce4 -> 4040db286b711e39ed447887918c628e2a3b38e6 } is a cherrypick
+{ a0ddce02b9c4b53bdfdcd48c7a49a0d451a6370e -> c1592d91854fab05338236400e21e47be37862d8 }
+Cherrypick commits SHA are -> 
+4040db286b711e39ed447887918c628e2a3b38e6 - cherrypick - c1592d91854fab05338236400e21e47be37862d8
+---> The cherrypicked commit sha is - 4040db286b711e39ed447887918c628e2a3b38e6
+Commit message - updated documentation for sending mails
+---> The original commit sha is - c1592d91854fab05338236400e21e47be37862d8
+Commit message - Merge pull request #163 from svenkubiak/develop
+
+updated documentation for sending mails
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ 914d10848306d64f11ee8adf85f33bf5a90863a3 -> 71fe25594ba987bf086e7a89ed5ed29014bbae34 } is a cherrypick
+{ 906e35261a66010a89372102539ce35ef32640c5 -> a7337c158acce2227d7572da7d66ef641a454a88 }
+Cherrypick commits SHA are -> 
+71fe25594ba987bf086e7a89ed5ed29014bbae34 - cherrypick - a7337c158acce2227d7572da7d66ef641a454a88
+---> The cherrypicked commit sha is - 71fe25594ba987bf086e7a89ed5ed29014bbae34
+Commit message - Modify NinjaRunner to make use of injector's built-in injectMembers(obj)
+---> The original commit sha is - a7337c158acce2227d7572da7d66ef641a454a88
+Commit message - Merge pull request #158 from ninjaframework/bugfix-157-unitOfWork-does-not-work-sometimes
+
+Bugfix 157 unit of work does not work sometimes
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ 44a78d4ea8c46e08a67d9cec8bf8106011cabbf6 -> 0f3ad65c8d84acd8d02d975d2b5774d1adb746a6 } is a cherrypick
+{ c1617926f5ea97d193763eb797258669eefda7f8 -> 0f3d0fe95d7f2ddb8adcbd5a38a2cc91520a2972 }
+Cherrypick commits SHA are -> 
+0f3ad65c8d84acd8d02d975d2b5774d1adb746a6 - cherrypick - 0f3d0fe95d7f2ddb8adcbd5a38a2cc91520a2972
+---> The cherrypicked commit sha is - 0f3ad65c8d84acd8d02d975d2b5774d1adb746a6
+Commit message - Update static_assets.md
+---> The original commit sha is - 0f3d0fe95d7f2ddb8adcbd5a38a2cc91520a2972
+Commit message - Merge branch 'develop' of https://github.com/sojin/ninja into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ d26beb6687853613dc1096aaabeefd31794b4f9b -> 56108b934b4adf85b6dda87d0f38726fb7e629cb } is a cherrypick
+{ 2de58bf0f692cf3e303ca11c3ced388effccbc79 -> 33b4374ff9ffe9d1df509e2f8c473fc695f832e6 }
+Cherrypick commits SHA are -> 
+56108b934b4adf85b6dda87d0f38726fb7e629cb - cherrypick - 33b4374ff9ffe9d1df509e2f8c473fc695f832e6
+---> The cherrypicked commit sha is - 56108b934b4adf85b6dda87d0f38726fb7e629cb
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 33b4374ff9ffe9d1df509e2f8c473fc695f832e6
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ 8b1af43cef950c6f00a0a83b3061df0efc534b01 -> 7716024c78d599282630a449b5b5477d8c8c465b } is a cherrypick
+{ 52315f22214e74c14958aaa2f6f315b46cf4623a -> 3dcd9bfc3c043fa85a846d5cd64c7438bccda5eb }
+Cherrypick commits SHA are -> 
+7716024c78d599282630a449b5b5477d8c8c465b - cherrypick - 3dcd9bfc3c043fa85a846d5cd64c7438bccda5eb
+---> The cherrypicked commit sha is - 7716024c78d599282630a449b5b5477d8c8c465b
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 3dcd9bfc3c043fa85a846d5cd64c7438bccda5eb
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ 27c183a146df350ccf66035bd3b9cc533b73fc3e -> 8b1af43cef950c6f00a0a83b3061df0efc534b01 } is a cherrypick
+{ 30233abbea153aa580ff500a2aa07e52c55072fe -> 52315f22214e74c14958aaa2f6f315b46cf4623a }
+Cherrypick commits SHA are -> 
+8b1af43cef950c6f00a0a83b3061df0efc534b01 - cherrypick - 52315f22214e74c14958aaa2f6f315b46cf4623a
+---> The cherrypicked commit sha is - 8b1af43cef950c6f00a0a83b3061df0efc534b01
+Commit message - [maven-release-plugin] prepare release ninja-1.4.1
+---> The original commit sha is - 52315f22214e74c14958aaa2f6f315b46cf4623a
+Commit message - [maven-release-plugin] prepare release ninja-1.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ 653cedae8a4fd9bdc1ea5df2142989fb205d416a -> cd9454c248cc44ebde6ffd7664f42be3e04ae5e3 } is a cherrypick
+{ 3af12c6d4fcb8e039591bb68d1721005bcab3cef -> 5441a62ce99d07254a1d9d184048a7a59490c6d6 }
+Cherrypick commits SHA are -> 
+cd9454c248cc44ebde6ffd7664f42be3e04ae5e3 - cherrypick - 5441a62ce99d07254a1d9d184048a7a59490c6d6
+---> The cherrypicked commit sha is - cd9454c248cc44ebde6ffd7664f42be3e04ae5e3
+Commit message - [maven-release-plugin] prepare release ninja-1.0.8
+---> The original commit sha is - 5441a62ce99d07254a1d9d184048a7a59490c6d6
+Commit message - [maven-release-plugin] prepare release ninja-1.0.8
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ f59bc565c48b8b6babbe7c03ab7fc57a07872642 -> 66f7b8788998c2bd96e8dd02639722a4b24e61be } is a cherrypick
+{ e82a7d28ec5a2e55c26020e00988531488ef9506 -> 1cfdb4d8f391286a41a12d96b949067c14d337a5 }
+Cherrypick commits SHA are -> 
+66f7b8788998c2bd96e8dd02639722a4b24e61be - cherrypick - 1cfdb4d8f391286a41a12d96b949067c14d337a5
+---> The cherrypicked commit sha is - 66f7b8788998c2bd96e8dd02639722a4b24e61be
+Commit message - Bugfix flash session handling: https://github.com/reyez/ninja/issues/70
+---> The original commit sha is - 1cfdb4d8f391286a41a12d96b949067c14d337a5
+Commit message - from upstream
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 14 is -> 
+{ 8326c150b951735605b15d93172cca15ff5a6067 -> 615f67844dc59fbb931b4aaaaad5c63be70086b7 } is a cherrypick
+{ 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4 -> 24e091998d6d2139c6f79ab341fbe32234970e66 }
+Cherrypick commits SHA are -> 
+615f67844dc59fbb931b4aaaaad5c63be70086b7 - cherrypick - 24e091998d6d2139c6f79ab341fbe32234970e66
+---> The cherrypicked commit sha is - 615f67844dc59fbb931b4aaaaad5c63be70086b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 24e091998d6d2139c6f79ab341fbe32234970e66
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 15 is -> 
+{ 0fead9766a32bd4be94048d2cf1be3c113687aa4 -> 90968b1bc69bdd3fcadccc0703174a2d09c122ce } is a cherrypick
+{ 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4 -> 24e091998d6d2139c6f79ab341fbe32234970e66 }
+Cherrypick commits SHA are -> 
+90968b1bc69bdd3fcadccc0703174a2d09c122ce - cherrypick - 24e091998d6d2139c6f79ab341fbe32234970e66
+---> The cherrypicked commit sha is - 90968b1bc69bdd3fcadccc0703174a2d09c122ce
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 24e091998d6d2139c6f79ab341fbe32234970e66
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 16 is -> 
+{ a16d50053257fd4478f3e50a335068465ed46dec -> 8326c150b951735605b15d93172cca15ff5a6067 } is a cherrypick
+{ 94c8acf64768ec58c10bad3baa7e8cd818536291 -> 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4 }
+Cherrypick commits SHA are -> 
+8326c150b951735605b15d93172cca15ff5a6067 - cherrypick - 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4
+---> The cherrypicked commit sha is - 8326c150b951735605b15d93172cca15ff5a6067
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+---> The original commit sha is - 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 17 is -> 
+{ 31e1508ee63be1087bf0f2bd0af46d8f7bda2fa1 -> 4bedbdcd6425c38b64989ea979490188378e8f13 } is a cherrypick
+{ 94c8acf64768ec58c10bad3baa7e8cd818536291 -> 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4 }
+Cherrypick commits SHA are -> 
+4bedbdcd6425c38b64989ea979490188378e8f13 - cherrypick - 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4
+---> The cherrypicked commit sha is - 4bedbdcd6425c38b64989ea979490188378e8f13
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+---> The original commit sha is - 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 18 is -> 
+{ 1e504846be8545dbb8cf0eb2702c3d524139ebf9 -> 0fead9766a32bd4be94048d2cf1be3c113687aa4 } is a cherrypick
+{ 94c8acf64768ec58c10bad3baa7e8cd818536291 -> 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4 }
+Cherrypick commits SHA are -> 
+0fead9766a32bd4be94048d2cf1be3c113687aa4 - cherrypick - 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4
+---> The cherrypicked commit sha is - 0fead9766a32bd4be94048d2cf1be3c113687aa4
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+---> The original commit sha is - 640a6ddada55876d0e5b73e0c425bd3b1ea9bbd4
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 19 is -> 
+{ 615f67844dc59fbb931b4aaaaad5c63be70086b7 -> 31e1508ee63be1087bf0f2bd0af46d8f7bda2fa1 } is a cherrypick
+{ 90968b1bc69bdd3fcadccc0703174a2d09c122ce -> 94c8acf64768ec58c10bad3baa7e8cd818536291 }
+Cherrypick commits SHA are -> 
+31e1508ee63be1087bf0f2bd0af46d8f7bda2fa1 - cherrypick - 94c8acf64768ec58c10bad3baa7e8cd818536291
+---> The cherrypicked commit sha is - 31e1508ee63be1087bf0f2bd0af46d8f7bda2fa1
+Commit message - [maven-release-plugin] rollback the release of ninja-1.0.5
+---> The original commit sha is - 94c8acf64768ec58c10bad3baa7e8cd818536291
+Commit message - [maven-release-plugin] rollback the release of ninja-1.0.5
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 20 is -> 
+{ 8326c150b951735605b15d93172cca15ff5a6067 -> 615f67844dc59fbb931b4aaaaad5c63be70086b7 } is a cherrypick
+{ 0fead9766a32bd4be94048d2cf1be3c113687aa4 -> 90968b1bc69bdd3fcadccc0703174a2d09c122ce }
+Cherrypick commits SHA are -> 
+615f67844dc59fbb931b4aaaaad5c63be70086b7 - cherrypick - 90968b1bc69bdd3fcadccc0703174a2d09c122ce
+---> The cherrypicked commit sha is - 615f67844dc59fbb931b4aaaaad5c63be70086b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 90968b1bc69bdd3fcadccc0703174a2d09c122ce
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 21 is -> 
+{ a16d50053257fd4478f3e50a335068465ed46dec -> 8326c150b951735605b15d93172cca15ff5a6067 } is a cherrypick
+{ 1e504846be8545dbb8cf0eb2702c3d524139ebf9 -> 0fead9766a32bd4be94048d2cf1be3c113687aa4 }
+Cherrypick commits SHA are -> 
+8326c150b951735605b15d93172cca15ff5a6067 - cherrypick - 0fead9766a32bd4be94048d2cf1be3c113687aa4
+---> The cherrypicked commit sha is - 8326c150b951735605b15d93172cca15ff5a6067
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+---> The original commit sha is - 0fead9766a32bd4be94048d2cf1be3c113687aa4
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 22 is -> 
+{ 31e1508ee63be1087bf0f2bd0af46d8f7bda2fa1 -> 4bedbdcd6425c38b64989ea979490188378e8f13 } is a cherrypick
+{ 1e504846be8545dbb8cf0eb2702c3d524139ebf9 -> 0fead9766a32bd4be94048d2cf1be3c113687aa4 }
+Cherrypick commits SHA are -> 
+4bedbdcd6425c38b64989ea979490188378e8f13 - cherrypick - 0fead9766a32bd4be94048d2cf1be3c113687aa4
+---> The cherrypicked commit sha is - 4bedbdcd6425c38b64989ea979490188378e8f13
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+---> The original commit sha is - 0fead9766a32bd4be94048d2cf1be3c113687aa4
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 23 is -> 
+{ a16d50053257fd4478f3e50a335068465ed46dec -> 8326c150b951735605b15d93172cca15ff5a6067 } is a cherrypick
+{ 31e1508ee63be1087bf0f2bd0af46d8f7bda2fa1 -> 4bedbdcd6425c38b64989ea979490188378e8f13 }
+Cherrypick commits SHA are -> 
+8326c150b951735605b15d93172cca15ff5a6067 - cherrypick - 4bedbdcd6425c38b64989ea979490188378e8f13
+---> The cherrypicked commit sha is - 8326c150b951735605b15d93172cca15ff5a6067
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+---> The original commit sha is - 4bedbdcd6425c38b64989ea979490188378e8f13
+Commit message - [maven-release-plugin] prepare release ninja-1.0.5
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 24 is -> 
+{ 5536b859d0302491f8aff2fadc5f1aff65c7f79b -> d3ede8578493816074d5592f16426197e85d2a20 } is a cherrypick
+{ 5fc67a4579c6543e0f5fa648486718c184c567d1 -> 71f80db9f2b1af337bcfb4a54be7f8c0689cb820 }
+Cherrypick commits SHA are -> 
+d3ede8578493816074d5592f16426197e85d2a20 - cherrypick - 71f80db9f2b1af337bcfb4a54be7f8c0689cb820
+---> The cherrypicked commit sha is - d3ede8578493816074d5592f16426197e85d2a20
+Commit message - Ensured session cookie has a path of /, and that cookies have a path of / by default
+---> The original commit sha is - 71f80db9f2b1af337bcfb4a54be7f8c0689cb820
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 25 is -> 
+{ 5ed965a4591d1b43eef5402d8f1e8f9fbc53bdca -> ff82cecf441263f7d2190dcf631c40319e2fee61 } is a cherrypick
+{ 22f29184540033fcc63f4754249bcbd98daab2fd -> 5cfcd6e8d0bdff17460f073e0a9202d9bca21913 }
+Cherrypick commits SHA are -> 
+ff82cecf441263f7d2190dcf631c40319e2fee61 - cherrypick - 5cfcd6e8d0bdff17460f073e0a9202d9bca21913
+---> The cherrypicked commit sha is - ff82cecf441263f7d2190dcf631c40319e2fee61
+Commit message - [maven-release-plugin] rollback the release of ninja-0.5.2
+---> The original commit sha is - 5cfcd6e8d0bdff17460f073e0a9202d9bca21913
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 26 is -> 
+{ 137922cbeb5ccf00805aae4c96f51c5f493d259f -> 5ed965a4591d1b43eef5402d8f1e8f9fbc53bdca } is a cherrypick
+{ ff82cecf441263f7d2190dcf631c40319e2fee61 -> 22f29184540033fcc63f4754249bcbd98daab2fd }
+Cherrypick commits SHA are -> 
+5ed965a4591d1b43eef5402d8f1e8f9fbc53bdca - cherrypick - 22f29184540033fcc63f4754249bcbd98daab2fd
+---> The cherrypicked commit sha is - 5ed965a4591d1b43eef5402d8f1e8f9fbc53bdca
+Commit message - [maven-release-plugin] prepare release ninja-0.5.2
+---> The original commit sha is - 22f29184540033fcc63f4754249bcbd98daab2fd
+Commit message - [maven-release-plugin] prepare release ninja-0.5.2
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 27 is -> 
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c } is a cherrypick
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Cherrypick commits SHA are -> 
+44a36cac2f60f21f103c32f5545227300184ab5c - cherrypick - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+---> The cherrypicked commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 28 is -> 
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 } is a cherrypick
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Cherrypick commits SHA are -> 
+d90c21464156a3bd71221477d6ae6bea5f3422a6 - cherrypick - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+---> The cherrypicked commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 29 is -> 
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 } is a cherrypick
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Cherrypick commits SHA are -> 
+9a7d320b09902b4c50cfd3ecce6b10960687e6c1 - cherrypick - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+---> The cherrypicked commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 30 is -> 
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 } is a cherrypick
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Cherrypick commits SHA are -> 
+eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 - cherrypick - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+---> The cherrypicked commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 31 is -> 
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 } is a cherrypick
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Cherrypick commits SHA are -> 
+28cd7f69a92fb5637ec773538d66c1da204f3b77 - cherrypick - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+---> The cherrypicked commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 32 is -> 
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 } is a cherrypick
+{ 32b1f1bddc60fe2bd76ef049f6ca5df889b5617f -> 82d141fead9ea734c781764a1e7d07f3fd5a0595 }
+Cherrypick commits SHA are -> 
+63417359b140e27fda49fb8e5a00b8c9c433e9b7 - cherrypick - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+---> The cherrypicked commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 82d141fead9ea734c781764a1e7d07f3fd5a0595
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 33 is -> 
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a } is a cherrypick
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 }
+Cherrypick commits SHA are -> 
+e557eb72a300b12e1dcf58670c5f0aea791ab56a - cherrypick - 5851b4eaa609832d3b63721df271fd2f485dd482
+---> The cherrypicked commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+---> The original commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 34 is -> 
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 } is a cherrypick
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 }
+Cherrypick commits SHA are -> 
+16a0ea8b7477832836422a24bb90413eded9b525 - cherrypick - 5851b4eaa609832d3b63721df271fd2f485dd482
+---> The cherrypicked commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+---> The original commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 35 is -> 
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 } is a cherrypick
+{ 577157deff637bd29a80f8e6f06d5a37c0ea7bc4 -> 5851b4eaa609832d3b63721df271fd2f485dd482 }
+Cherrypick commits SHA are -> 
+a1fed849d5661e144f381d38a022cfb5191d5e11 - cherrypick - 5851b4eaa609832d3b63721df271fd2f485dd482
+---> The cherrypicked commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+---> The original commit sha is - 5851b4eaa609832d3b63721df271fd2f485dd482
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 36 is -> 
+{ d90c21464156a3bd71221477d6ae6bea5f3422a6 -> b248980b1466555fe8f79ab92e687401ad14a29c } is a cherrypick
+{ 63417359b140e27fda49fb8e5a00b8c9c433e9b7 -> 2bc7ff169770db615f4c7f21e58ba15aba8c8891 }
+Cherrypick commits SHA are -> 
+b248980b1466555fe8f79ab92e687401ad14a29c - cherrypick - 2bc7ff169770db615f4c7f21e58ba15aba8c8891
+---> The cherrypicked commit sha is - b248980b1466555fe8f79ab92e687401ad14a29c
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+---> The original commit sha is - 2bc7ff169770db615f4c7f21e58ba15aba8c8891
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 37 is -> 
+{ 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 -> e0049d3e3912c77f07dd31724cc54e2397b9c24a } is a cherrypick
+{ 63417359b140e27fda49fb8e5a00b8c9c433e9b7 -> 2bc7ff169770db615f4c7f21e58ba15aba8c8891 }
+Cherrypick commits SHA are -> 
+e0049d3e3912c77f07dd31724cc54e2397b9c24a - cherrypick - 2bc7ff169770db615f4c7f21e58ba15aba8c8891
+---> The cherrypicked commit sha is - e0049d3e3912c77f07dd31724cc54e2397b9c24a
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+---> The original commit sha is - 2bc7ff169770db615f4c7f21e58ba15aba8c8891
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 38 is -> 
+{ eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 -> 79977f33ebb8aca00eeb428da9ceba3a9d670f17 } is a cherrypick
+{ 63417359b140e27fda49fb8e5a00b8c9c433e9b7 -> 2bc7ff169770db615f4c7f21e58ba15aba8c8891 }
+Cherrypick commits SHA are -> 
+79977f33ebb8aca00eeb428da9ceba3a9d670f17 - cherrypick - 2bc7ff169770db615f4c7f21e58ba15aba8c8891
+---> The cherrypicked commit sha is - 79977f33ebb8aca00eeb428da9ceba3a9d670f17
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+---> The original commit sha is - 2bc7ff169770db615f4c7f21e58ba15aba8c8891
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 39 is -> 
+{ 28cd7f69a92fb5637ec773538d66c1da204f3b77 -> 03e27979f4f00e737253e44ce602bea572e2be36 } is a cherrypick
+{ 63417359b140e27fda49fb8e5a00b8c9c433e9b7 -> 2bc7ff169770db615f4c7f21e58ba15aba8c8891 }
+Cherrypick commits SHA are -> 
+03e27979f4f00e737253e44ce602bea572e2be36 - cherrypick - 2bc7ff169770db615f4c7f21e58ba15aba8c8891
+---> The cherrypicked commit sha is - 03e27979f4f00e737253e44ce602bea572e2be36
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+---> The original commit sha is - 2bc7ff169770db615f4c7f21e58ba15aba8c8891
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 40 is -> 
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c } is a cherrypick
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 }
+Cherrypick commits SHA are -> 
+44a36cac2f60f21f103c32f5545227300184ab5c - cherrypick - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+---> The cherrypicked commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 41 is -> 
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 } is a cherrypick
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 }
+Cherrypick commits SHA are -> 
+d90c21464156a3bd71221477d6ae6bea5f3422a6 - cherrypick - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+---> The cherrypicked commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 42 is -> 
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 } is a cherrypick
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 }
+Cherrypick commits SHA are -> 
+9a7d320b09902b4c50cfd3ecce6b10960687e6c1 - cherrypick - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+---> The cherrypicked commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 43 is -> 
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 } is a cherrypick
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 }
+Cherrypick commits SHA are -> 
+eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 - cherrypick - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+---> The cherrypicked commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 44 is -> 
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 } is a cherrypick
+{ a1fed849d5661e144f381d38a022cfb5191d5e11 -> 63417359b140e27fda49fb8e5a00b8c9c433e9b7 }
+Cherrypick commits SHA are -> 
+28cd7f69a92fb5637ec773538d66c1da204f3b77 - cherrypick - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+---> The cherrypicked commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 63417359b140e27fda49fb8e5a00b8c9c433e9b7
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 45 is -> 
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a } is a cherrypick
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 }
+Cherrypick commits SHA are -> 
+e557eb72a300b12e1dcf58670c5f0aea791ab56a - cherrypick - a1fed849d5661e144f381d38a022cfb5191d5e11
+---> The cherrypicked commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+---> The original commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 46 is -> 
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 } is a cherrypick
+{ 03e27979f4f00e737253e44ce602bea572e2be36 -> a1fed849d5661e144f381d38a022cfb5191d5e11 }
+Cherrypick commits SHA are -> 
+16a0ea8b7477832836422a24bb90413eded9b525 - cherrypick - a1fed849d5661e144f381d38a022cfb5191d5e11
+---> The cherrypicked commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+---> The original commit sha is - a1fed849d5661e144f381d38a022cfb5191d5e11
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 47 is -> 
+{ d90c21464156a3bd71221477d6ae6bea5f3422a6 -> b248980b1466555fe8f79ab92e687401ad14a29c } is a cherrypick
+{ 28cd7f69a92fb5637ec773538d66c1da204f3b77 -> 03e27979f4f00e737253e44ce602bea572e2be36 }
+Cherrypick commits SHA are -> 
+b248980b1466555fe8f79ab92e687401ad14a29c - cherrypick - 03e27979f4f00e737253e44ce602bea572e2be36
+---> The cherrypicked commit sha is - b248980b1466555fe8f79ab92e687401ad14a29c
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+---> The original commit sha is - 03e27979f4f00e737253e44ce602bea572e2be36
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 48 is -> 
+{ 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 -> e0049d3e3912c77f07dd31724cc54e2397b9c24a } is a cherrypick
+{ 28cd7f69a92fb5637ec773538d66c1da204f3b77 -> 03e27979f4f00e737253e44ce602bea572e2be36 }
+Cherrypick commits SHA are -> 
+e0049d3e3912c77f07dd31724cc54e2397b9c24a - cherrypick - 03e27979f4f00e737253e44ce602bea572e2be36
+---> The cherrypicked commit sha is - e0049d3e3912c77f07dd31724cc54e2397b9c24a
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+---> The original commit sha is - 03e27979f4f00e737253e44ce602bea572e2be36
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 49 is -> 
+{ eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 -> 79977f33ebb8aca00eeb428da9ceba3a9d670f17 } is a cherrypick
+{ 28cd7f69a92fb5637ec773538d66c1da204f3b77 -> 03e27979f4f00e737253e44ce602bea572e2be36 }
+Cherrypick commits SHA are -> 
+79977f33ebb8aca00eeb428da9ceba3a9d670f17 - cherrypick - 03e27979f4f00e737253e44ce602bea572e2be36
+---> The cherrypicked commit sha is - 79977f33ebb8aca00eeb428da9ceba3a9d670f17
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+---> The original commit sha is - 03e27979f4f00e737253e44ce602bea572e2be36
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 50 is -> 
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c } is a cherrypick
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 }
+Cherrypick commits SHA are -> 
+44a36cac2f60f21f103c32f5545227300184ab5c - cherrypick - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+---> The cherrypicked commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 51 is -> 
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 } is a cherrypick
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 }
+Cherrypick commits SHA are -> 
+d90c21464156a3bd71221477d6ae6bea5f3422a6 - cherrypick - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+---> The cherrypicked commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 52 is -> 
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 } is a cherrypick
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 }
+Cherrypick commits SHA are -> 
+9a7d320b09902b4c50cfd3ecce6b10960687e6c1 - cherrypick - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+---> The cherrypicked commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 53 is -> 
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 } is a cherrypick
+{ 16a0ea8b7477832836422a24bb90413eded9b525 -> 28cd7f69a92fb5637ec773538d66c1da204f3b77 }
+Cherrypick commits SHA are -> 
+eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 - cherrypick - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+---> The cherrypicked commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 28cd7f69a92fb5637ec773538d66c1da204f3b77
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 54 is -> 
+{ b248980b1466555fe8f79ab92e687401ad14a29c -> e557eb72a300b12e1dcf58670c5f0aea791ab56a } is a cherrypick
+{ 79977f33ebb8aca00eeb428da9ceba3a9d670f17 -> 16a0ea8b7477832836422a24bb90413eded9b525 }
+Cherrypick commits SHA are -> 
+e557eb72a300b12e1dcf58670c5f0aea791ab56a - cherrypick - 16a0ea8b7477832836422a24bb90413eded9b525
+---> The cherrypicked commit sha is - e557eb72a300b12e1dcf58670c5f0aea791ab56a
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+---> The original commit sha is - 16a0ea8b7477832836422a24bb90413eded9b525
+Commit message - [maven-release-plugin] prepare release ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 55 is -> 
+{ d90c21464156a3bd71221477d6ae6bea5f3422a6 -> b248980b1466555fe8f79ab92e687401ad14a29c } is a cherrypick
+{ eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 -> 79977f33ebb8aca00eeb428da9ceba3a9d670f17 }
+Cherrypick commits SHA are -> 
+b248980b1466555fe8f79ab92e687401ad14a29c - cherrypick - 79977f33ebb8aca00eeb428da9ceba3a9d670f17
+---> The cherrypicked commit sha is - b248980b1466555fe8f79ab92e687401ad14a29c
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+---> The original commit sha is - 79977f33ebb8aca00eeb428da9ceba3a9d670f17
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 56 is -> 
+{ 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 -> e0049d3e3912c77f07dd31724cc54e2397b9c24a } is a cherrypick
+{ eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 -> 79977f33ebb8aca00eeb428da9ceba3a9d670f17 }
+Cherrypick commits SHA are -> 
+e0049d3e3912c77f07dd31724cc54e2397b9c24a - cherrypick - 79977f33ebb8aca00eeb428da9ceba3a9d670f17
+---> The cherrypicked commit sha is - e0049d3e3912c77f07dd31724cc54e2397b9c24a
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+---> The original commit sha is - 79977f33ebb8aca00eeb428da9ceba3a9d670f17
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 57 is -> 
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c } is a cherrypick
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 }
+Cherrypick commits SHA are -> 
+44a36cac2f60f21f103c32f5545227300184ab5c - cherrypick - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+---> The cherrypicked commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 58 is -> 
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 } is a cherrypick
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 }
+Cherrypick commits SHA are -> 
+d90c21464156a3bd71221477d6ae6bea5f3422a6 - cherrypick - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+---> The cherrypicked commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 59 is -> 
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 } is a cherrypick
+{ 59a7b47f094b623c7c534171663091b8356bac00 -> eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8 }
+Cherrypick commits SHA are -> 
+9a7d320b09902b4c50cfd3ecce6b10960687e6c1 - cherrypick - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+---> The cherrypicked commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - eaeb5c88d7ac94b33821e86a3a0e87e3d84f62a8
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 60 is -> 
+{ d90c21464156a3bd71221477d6ae6bea5f3422a6 -> b248980b1466555fe8f79ab92e687401ad14a29c } is a cherrypick
+{ 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 -> e0049d3e3912c77f07dd31724cc54e2397b9c24a }
+Cherrypick commits SHA are -> 
+b248980b1466555fe8f79ab92e687401ad14a29c - cherrypick - e0049d3e3912c77f07dd31724cc54e2397b9c24a
+---> The cherrypicked commit sha is - b248980b1466555fe8f79ab92e687401ad14a29c
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+---> The original commit sha is - e0049d3e3912c77f07dd31724cc54e2397b9c24a
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4.1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 61 is -> 
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c } is a cherrypick
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 }
+Cherrypick commits SHA are -> 
+44a36cac2f60f21f103c32f5545227300184ab5c - cherrypick - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+---> The cherrypicked commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 62 is -> 
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 } is a cherrypick
+{ e557eb72a300b12e1dcf58670c5f0aea791ab56a -> 9a7d320b09902b4c50cfd3ecce6b10960687e6c1 }
+Cherrypick commits SHA are -> 
+d90c21464156a3bd71221477d6ae6bea5f3422a6 - cherrypick - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+---> The cherrypicked commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 9a7d320b09902b4c50cfd3ecce6b10960687e6c1
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 63 is -> 
+{ 9d479d42fdfdfcf742bdd0f405828d834b153958 -> 44a36cac2f60f21f103c32f5545227300184ab5c } is a cherrypick
+{ 4f35ce67d55b734255cb7ef0fea576f24af34443 -> d90c21464156a3bd71221477d6ae6bea5f3422a6 }
+Cherrypick commits SHA are -> 
+44a36cac2f60f21f103c32f5545227300184ab5c - cherrypick - d90c21464156a3bd71221477d6ae6bea5f3422a6
+---> The cherrypicked commit sha is - 44a36cac2f60f21f103c32f5545227300184ab5c
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - d90c21464156a3bd71221477d6ae6bea5f3422a6
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 64 is -> 
+{ 0fc9a29625edd708987b63c3668ced71f8887c91 -> 98cd201654a5fddea299bc2c005f10ab5e51ab20 } is a cherrypick
+{ 8dd3408788d199a3edb140f997fcd49296e36928 -> a6ee09930c0a39147c2ac299bd48fa10bd128ae2 }
+Cherrypick commits SHA are -> 
+98cd201654a5fddea299bc2c005f10ab5e51ab20 - cherrypick - a6ee09930c0a39147c2ac299bd48fa10bd128ae2
+---> The cherrypicked commit sha is - 98cd201654a5fddea299bc2c005f10ab5e51ab20
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - a6ee09930c0a39147c2ac299bd48fa10bd128ae2
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 65 is -> 
+{ b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2 -> 23536d8c3c32e83e82e7b8772605b519721e39b2 } is a cherrypick
+{ 8dd3408788d199a3edb140f997fcd49296e36928 -> a6ee09930c0a39147c2ac299bd48fa10bd128ae2 }
+Cherrypick commits SHA are -> 
+23536d8c3c32e83e82e7b8772605b519721e39b2 - cherrypick - a6ee09930c0a39147c2ac299bd48fa10bd128ae2
+---> The cherrypicked commit sha is - 23536d8c3c32e83e82e7b8772605b519721e39b2
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - a6ee09930c0a39147c2ac299bd48fa10bd128ae2
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 66 is -> 
+{ 7b6b741981d61a9e3dccf4671d10b56336159559 -> 0fc9a29625edd708987b63c3668ced71f8887c91 } is a cherrypick
+{ 96d129cc36cee0e52131c3f313db958d64deee58 -> 8dd3408788d199a3edb140f997fcd49296e36928 }
+Cherrypick commits SHA are -> 
+0fc9a29625edd708987b63c3668ced71f8887c91 - cherrypick - 8dd3408788d199a3edb140f997fcd49296e36928
+---> The cherrypicked commit sha is - 0fc9a29625edd708987b63c3668ced71f8887c91
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+---> The original commit sha is - 8dd3408788d199a3edb140f997fcd49296e36928
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 67 is -> 
+{ 2ceda8e990e8899804bb2bb2c68b7568b3df4eac -> 2a343df32a0c632e045d40d8a3f039852c0d51ce } is a cherrypick
+{ 96d129cc36cee0e52131c3f313db958d64deee58 -> 8dd3408788d199a3edb140f997fcd49296e36928 }
+Cherrypick commits SHA are -> 
+2a343df32a0c632e045d40d8a3f039852c0d51ce - cherrypick - 8dd3408788d199a3edb140f997fcd49296e36928
+---> The cherrypicked commit sha is - 2a343df32a0c632e045d40d8a3f039852c0d51ce
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+---> The original commit sha is - 8dd3408788d199a3edb140f997fcd49296e36928
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 68 is -> 
+{ f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d -> b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2 } is a cherrypick
+{ 96d129cc36cee0e52131c3f313db958d64deee58 -> 8dd3408788d199a3edb140f997fcd49296e36928 }
+Cherrypick commits SHA are -> 
+b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2 - cherrypick - 8dd3408788d199a3edb140f997fcd49296e36928
+---> The cherrypicked commit sha is - b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+---> The original commit sha is - 8dd3408788d199a3edb140f997fcd49296e36928
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 69 is -> 
+{ 98cd201654a5fddea299bc2c005f10ab5e51ab20 -> 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 } is a cherrypick
+{ 23536d8c3c32e83e82e7b8772605b519721e39b2 -> 0a965fab532f9e850c9a01f3f150a712e33ade6c }
+Cherrypick commits SHA are -> 
+53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 - cherrypick - 0a965fab532f9e850c9a01f3f150a712e33ade6c
+---> The cherrypicked commit sha is - 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+---> The original commit sha is - 0a965fab532f9e850c9a01f3f150a712e33ade6c
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 70 is -> 
+{ 2a343df32a0c632e045d40d8a3f039852c0d51ce -> f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d } is a cherrypick
+{ 23536d8c3c32e83e82e7b8772605b519721e39b2 -> 0a965fab532f9e850c9a01f3f150a712e33ade6c }
+Cherrypick commits SHA are -> 
+f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d - cherrypick - 0a965fab532f9e850c9a01f3f150a712e33ade6c
+---> The cherrypicked commit sha is - f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+---> The original commit sha is - 0a965fab532f9e850c9a01f3f150a712e33ade6c
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 71 is -> 
+{ 0fc9a29625edd708987b63c3668ced71f8887c91 -> 98cd201654a5fddea299bc2c005f10ab5e51ab20 } is a cherrypick
+{ b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2 -> 23536d8c3c32e83e82e7b8772605b519721e39b2 }
+Cherrypick commits SHA are -> 
+98cd201654a5fddea299bc2c005f10ab5e51ab20 - cherrypick - 23536d8c3c32e83e82e7b8772605b519721e39b2
+---> The cherrypicked commit sha is - 98cd201654a5fddea299bc2c005f10ab5e51ab20
+Commit message - [maven-release-plugin] prepare for next development iteration
+---> The original commit sha is - 23536d8c3c32e83e82e7b8772605b519721e39b2
+Commit message - [maven-release-plugin] prepare for next development iteration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 72 is -> 
+{ 7b6b741981d61a9e3dccf4671d10b56336159559 -> 0fc9a29625edd708987b63c3668ced71f8887c91 } is a cherrypick
+{ f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d -> b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2 }
+Cherrypick commits SHA are -> 
+0fc9a29625edd708987b63c3668ced71f8887c91 - cherrypick - b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2
+---> The cherrypicked commit sha is - 0fc9a29625edd708987b63c3668ced71f8887c91
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+---> The original commit sha is - b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 73 is -> 
+{ 2ceda8e990e8899804bb2bb2c68b7568b3df4eac -> 2a343df32a0c632e045d40d8a3f039852c0d51ce } is a cherrypick
+{ f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d -> b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2 }
+Cherrypick commits SHA are -> 
+2a343df32a0c632e045d40d8a3f039852c0d51ce - cherrypick - b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2
+---> The cherrypicked commit sha is - 2a343df32a0c632e045d40d8a3f039852c0d51ce
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+---> The original commit sha is - b3b2fa9e80ff4c042b7c0a67834145fbc93ea5e2
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 74 is -> 
+{ 98cd201654a5fddea299bc2c005f10ab5e51ab20 -> 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 } is a cherrypick
+{ 2a343df32a0c632e045d40d8a3f039852c0d51ce -> f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d }
+Cherrypick commits SHA are -> 
+53dc36058b7a1509c490a0c73a2c8b87b8f0aa95 - cherrypick - f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d
+---> The cherrypicked commit sha is - 53dc36058b7a1509c490a0c73a2c8b87b8f0aa95
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+---> The original commit sha is - f65f7629c1cc5f5a7f8a5ca2f652254edfc1454d
+Commit message - [maven-release-plugin] rollback the release of ninja-0.4
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 75 is -> 
+{ 7b6b741981d61a9e3dccf4671d10b56336159559 -> 0fc9a29625edd708987b63c3668ced71f8887c91 } is a cherrypick
+{ 2ceda8e990e8899804bb2bb2c68b7568b3df4eac -> 2a343df32a0c632e045d40d8a3f039852c0d51ce }
+Cherrypick commits SHA are -> 
+0fc9a29625edd708987b63c3668ced71f8887c91 - cherrypick - 2a343df32a0c632e045d40d8a3f039852c0d51ce
+---> The cherrypicked commit sha is - 0fc9a29625edd708987b63c3668ced71f8887c91
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+---> The original commit sha is - 2a343df32a0c632e045d40d8a3f039852c0d51ce
+Commit message - [maven-release-plugin] prepare release ninja-0.4
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 76 is -> 
+{ ce3218c552175f88e54ea25862b915494ac50524 -> 98c73141259976a1241d652c5e139c1b0c224e41 } is a cherrypick
+{ d8cea4300b355733004460a8a6f72dbc87f7c093 -> 7a640603026c22b55a3c945b465b9f8c1630c3be }
+Cherrypick commits SHA are -> 
+98c73141259976a1241d652c5e139c1b0c224e41 - cherrypick - 7a640603026c22b55a3c945b465b9f8c1630c3be
+---> The cherrypicked commit sha is - 98c73141259976a1241d652c5e139c1b0c224e41
+Commit message - Integration tests for validation and body handling
+---> The original commit sha is - 7a640603026c22b55a3c945b465b9f8c1630c3be
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 77 is -> 
+{ d08da28267ed24b62cc9bb6fe42b02ca02db7099 -> cd7951f6573aad9a20fec93b842a9d22f8a81a17 } is a cherrypick
+{ c50c838ba8bd23ff4fcd73d8dd9a2f6163774a61 -> fe74774d1c06c616c04c0360520e358f098eeb0f }
+Cherrypick commits SHA are -> 
+cd7951f6573aad9a20fec93b842a9d22f8a81a17 - cherrypick - fe74774d1c06c616c04c0360520e358f098eeb0f
+---> The cherrypicked commit sha is - cd7951f6573aad9a20fec93b842a9d22f8a81a17
+Commit message - Implemented param extractors, param parsers etc
+---> The original commit sha is - fe74774d1c06c616c04c0360520e358f098eeb0f
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 78 is -> 
+{ 8deec1d99ecc236bfdeba4e323466df2b805f9bc -> b457db43ba7925b9793e440075873ca0d82ef997 } is a cherrypick
+{ a6b23453e2eeddac3c785c1b21bd6285f9bfd6fd -> c69916d936f5725e605a86a4b81f5e74d05621b7 }
+Cherrypick commits SHA are -> 
+b457db43ba7925b9793e440075873ca0d82ef997 - cherrypick - c69916d936f5725e605a86a4b81f5e74d05621b7
+---> The cherrypicked commit sha is - b457db43ba7925b9793e440075873ca0d82ef997
+Commit message - injecting custom servername into NinjaServlerDispatcher in testmode
+---> The original commit sha is - c69916d936f5725e605a86a4b81f5e74d05621b7
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 79 is -> 
+{ 170e84cdb9b38fb215a0aff94b2e39d504d36cc5 -> 45bb542cb46d2913c3acff883d15690be0a867bb } is a cherrypick
+{ 2661fdc92b1981bace11b9763a09bc15d7a174e3 -> 8fa18b0432a3deffbb798b29f76658e3470c4c04 }
+Cherrypick commits SHA are -> 
+45bb542cb46d2913c3acff883d15690be0a867bb - cherrypick - 8fa18b0432a3deffbb798b29f76658e3470c4c04
+---> The cherrypicked commit sha is - 45bb542cb46d2913c3acff883d15690be0a867bb
+Commit message - merge
+---> The original commit sha is - 8fa18b0432a3deffbb798b29f76658e3470c4c04
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 80 is -> 
+{ b038baba4f501c3fcf31c42e5b1107d8f541e2c4 -> f60b32ac104b0a91c3e8c4398cbc09ca0529db68 } is a cherrypick
+{ 8859a5cba936cada3a506ea2e5916181f0d21e24 -> bc8b195bd8f314550e3a62c58b2d05abb6a14dc7 }
+Cherrypick commits SHA are -> 
+f60b32ac104b0a91c3e8c4398cbc09ca0529db68 - cherrypick - bc8b195bd8f314550e3a62c58b2d05abb6a14dc7
+---> The cherrypicked commit sha is - f60b32ac104b0a91c3e8c4398cbc09ca0529db68
+Commit message - Fixed session cookie handling
+---> The original commit sha is - bc8b195bd8f314550e3a62c58b2d05abb6a14dc7
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 81 is -> 
+{ c6d4c569f0bb6d9cfe1c6c25f3daeab980d1e017 -> a5ca2c55a3d7cdfe94f3fb241af01046faee3259 } is a cherrypick
+{ 1b9d2992089504330f50eff96385d463d0b7350c -> 5ef22f35591982200d3fca097513f045b2c9891e }
+Cherrypick commits SHA are -> 
+a5ca2c55a3d7cdfe94f3fb241af01046faee3259 - cherrypick - 5ef22f35591982200d3fca097513f045b2c9891e
+---> The cherrypicked commit sha is - a5ca2c55a3d7cdfe94f3fb241af01046faee3259
+Commit message - Got async working
+---> The original commit sha is - 5ef22f35591982200d3fca097513f045b2c9891e
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 82 is -> 
+{ 752174076d62f857a6d23f2e47fe0111cabc64d2 -> 864baa6fe7ed83c53ffec353e13e746965711b80 } is a cherrypick
+{ 0f964142d2374aaff0305d985198c158fd6007f0 -> c6d4c569f0bb6d9cfe1c6c25f3daeab980d1e017 }
+Cherrypick commits SHA are -> 
+864baa6fe7ed83c53ffec353e13e746965711b80 - cherrypick - c6d4c569f0bb6d9cfe1c6c25f3daeab980d1e017
+---> The cherrypicked commit sha is - 864baa6fe7ed83c53ffec353e13e746965711b80
+Commit message - A few more results
+---> The original commit sha is - c6d4c569f0bb6d9cfe1c6c25f3daeab980d1e017
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 83 is -> 
+{ 66dde031c6f189e60f112523ee57aa39e11b87b7 -> 025909025b312e6b959d905517926e04732eafef } is a cherrypick
+{ 62ec64d84642e57d601a6a7caaab021e39744802 -> e27ef7d0de2ec32e17a01ae88e26963072bcb547 }
+Cherrypick commits SHA are -> 
+025909025b312e6b959d905517926e04732eafef - cherrypick - e27ef7d0de2ec32e17a01ae88e26963072bcb547
+---> The cherrypicked commit sha is - 025909025b312e6b959d905517926e04732eafef
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+---> The original commit sha is - e27ef7d0de2ec32e17a01ae88e26963072bcb547
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 84 is -> 
+{ 010d64c249998b8cca6366e87d251eab425741f9 -> e986808cdbb2b0804787075d13de39a4db5c0337 } is a cherrypick
+{ d318406d88aedf344562eb22c4e341d622b9236e -> cd3d0d8b56760edf71bddc2c6b1b4f00aa3a3b30 }
+Cherrypick commits SHA are -> 
+e986808cdbb2b0804787075d13de39a4db5c0337 - cherrypick - cd3d0d8b56760edf71bddc2c6b1b4f00aa3a3b30
+---> The cherrypicked commit sha is - e986808cdbb2b0804787075d13de39a4db5c0337
+Commit message - added Context#getParameter(key, defaultValue) and #getParameterNumeric(key, defaultValue)
+---> The original commit sha is - cd3d0d8b56760edf71bddc2c6b1b4f00aa3a3b30
+Commit message - Merge branch 'develop' of github.com:reyez/ninja into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 85 is -> 
+{ 50e71cc2ccaab691d5b7c78abe0ca26c0015eaa2 -> d6fae2b62243c8cc2554fe8794276a27c3ee91b6 } is a cherrypick
+{ dd840b5bfd24d59158c5e26a389b0fa600df8f5b -> 682892d53947944cd33294170b6bf08e29fb6a38 }
+Cherrypick commits SHA are -> 
+d6fae2b62243c8cc2554fe8794276a27c3ee91b6 - cherrypick - 682892d53947944cd33294170b6bf08e29fb6a38
+---> The cherrypicked commit sha is - d6fae2b62243c8cc2554fe8794276a27c3ee91b6
+Commit message - Tiny fix.
+---> The original commit sha is - 682892d53947944cd33294170b6bf08e29fb6a38
+Commit message - Merge branch 'develop' of https://github.com/reyez/ninja into develop
+-----------------------------------------------------------------
+

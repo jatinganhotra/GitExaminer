@@ -1,10 +1,69 @@
-# of partial reverts = 138
+# of partial reverts = 141
 Partial Revert diff pair 1 is -> 
+{ c83dfa20bd275ad7f5ea92a4aac2686f9111e602 -> 80cda3f2fbafb984bc33b27abe9ef0168d4ba78c } is a revert
+{ 80cda3f2fbafb984bc33b27abe9ef0168d4ba78c -> 68fcd8b696dae33897303c9f8265629a31afbf17 }
+Partial Revert commits SHA are -> 
+80cda3f2fbafb984bc33b27abe9ef0168d4ba78c - revert - 68fcd8b696dae33897303c9f8265629a31afbf17
+---> The reverted commit sha is - 80cda3f2fbafb984bc33b27abe9ef0168d4ba78c
+Commit message - build: add failure message along with number in GenerateHelptags.cmake
+---> The original commit sha is - 68fcd8b696dae33897303c9f8265629a31afbf17
+Commit message - Merge pull request #1544 from jszakmeister/run-tests-error-code
+
+build: print the error result when the tests fail
+---> The files with partial_reverts are:-
+src/nvim/eval.c
+test/functional/api/window_spec.lua
+test/functional/helpers.lua
+third-party/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ db914e8b6139e111ed0a744f78a704f35e1774ba -> 346e07e8da48b47e734948eb69d7e4ee315abc11 } is a revert
+{ 3bbbeaf2c9658222f31c29bc0ab27b9f125fb27c -> c83dfa20bd275ad7f5ea92a4aac2686f9111e602 }
+Partial Revert commits SHA are -> 
+346e07e8da48b47e734948eb69d7e4ee315abc11 - revert - c83dfa20bd275ad7f5ea92a4aac2686f9111e602
+---> The reverted commit sha is - 346e07e8da48b47e734948eb69d7e4ee315abc11
+Commit message - build: print the error result when the tests fail
+
+Any diagnostic information is useful when things fail.  In my case, it
+printed out the fact that the tests were segfaulting.
+---> The original commit sha is - c83dfa20bd275ad7f5ea92a4aac2686f9111e602
+Commit message - Merge pull request #1543 from jszakmeister/fix-broken-functional-tests
+
+Fix broken functional test.
+---> The files with partial_reverts are:-
+test/functional/api/window_spec.lua
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ c2479a1e63b047d89d3cec9d1d45885d8c669d79 -> ea8cc88e6ab4a6c7288d2364d9eba6417a7de6cd } is a revert
+{ ea8cc88e6ab4a6c7288d2364d9eba6417a7de6cd -> 3bbbeaf2c9658222f31c29bc0ab27b9f125fb27c }
+Partial Revert commits SHA are -> 
+ea8cc88e6ab4a6c7288d2364d9eba6417a7de6cd - revert - 3bbbeaf2c9658222f31c29bc0ab27b9f125fb27c
+---> The reverted commit sha is - ea8cc88e6ab4a6c7288d2364d9eba6417a7de6cd
+Commit message - Add missing refcount increment for systemlist()
+
+- get_system_output_as_rettv() was missing a refcount increment when
+  returning an empty list, i.e. when there was no output
+- we now use rettv_list_aloc() instead of list_alloc()
+- issue #1530
+---> The original commit sha is - 3bbbeaf2c9658222f31c29bc0ab27b9f125fb27c
+Commit message - Merge pull request #1552 from equalsraf/tb-fix-1530
+
+add missing refcount increment for systemlist()
+---> The files with partial_reverts are:-
+runtime/autoload/remote/host.vim
+src/nvim/memory.c
+test/functional/helpers.lua
+third-party/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
 { f4e125de2dd92e149510e300c139568fc5e83f9d -> c10f7e1c624f2e1b2b1aced74ab782b588e49672 } is a revert
 { c10f7e1c624f2e1b2b1aced74ab782b588e49672 -> 1c25f1d9475ad763138c67f538aee37ef9ab5aee }
 Partial Revert commits SHA are -> 
 c10f7e1c624f2e1b2b1aced74ab782b588e49672 - revert - 1c25f1d9475ad763138c67f538aee37ef9ab5aee
-The reverted commit sha is - c10f7e1c624f2e1b2b1aced74ab782b588e49672
+---> The reverted commit sha is - c10f7e1c624f2e1b2b1aced74ab782b588e49672
 Commit message - clipboard: check for X on every invocation
 
 xsel and xcopy may be available even if a valid X display is not. Also,
@@ -12,207 +71,207 @@ the availability of X may change at any time, so check on each
 invocation.
 
 Closes #1509.
-The original commit sha is - 1c25f1d9475ad763138c67f538aee37ef9ab5aee
+---> The original commit sha is - 1c25f1d9475ad763138c67f538aee37ef9ab5aee
 Commit message - Merge pull request #1525 from justinmk/clipboardX
 
 clipboard: check for X on every invocation
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 test/functional/helpers.lua
 test/functional/legacy/105_filename_modifiers_spec.lua
 -----------------------------------------------------------------
 
-Partial Revert diff pair 2 is -> 
+Partial Revert diff pair 5 is -> 
 { 1f2c197ebe40076fad2f5abecad4e73291fe0a9b -> 699a19ab302da2f08ab9f9a377b0910b2c233e6d } is a revert
 { 412c71444876a887cfef74a031e8d1df3a05e9ee -> 4b89903a22894c8f0847ed6c206f2dfcae60b4d1 }
 Partial Revert commits SHA are -> 
 699a19ab302da2f08ab9f9a377b0910b2c233e6d - revert - 4b89903a22894c8f0847ed6c206f2dfcae60b4d1
-The reverted commit sha is - 699a19ab302da2f08ab9f9a377b0910b2c233e6d
+---> The reverted commit sha is - 699a19ab302da2f08ab9f9a377b0910b2c233e6d
 Commit message - Merge pull request #1513 from fwalch/vimpatch-script
 
 Add helper script for porting vim patches.
-The original commit sha is - 4b89903a22894c8f0847ed6c206f2dfcae60b4d1
+---> The original commit sha is - 4b89903a22894c8f0847ed6c206f2dfcae60b4d1
 Commit message - Merge pull request #1520 from elmart/fix-func-tests
 
 Fix functional tests failing on OSX.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 test/functional/legacy/105_filename_modifiers_spec.lua
 -----------------------------------------------------------------
 
-Partial Revert diff pair 3 is -> 
+Partial Revert diff pair 6 is -> 
 { b27eadbcf20970983d7dc70a8a9531bb48c41991 -> e15485c5d659977d0a8f20f7f7f319dac2423a0e } is a revert
 { 1f2c197ebe40076fad2f5abecad4e73291fe0a9b -> 699a19ab302da2f08ab9f9a377b0910b2c233e6d }
 Partial Revert commits SHA are -> 
 e15485c5d659977d0a8f20f7f7f319dac2423a0e - revert - 699a19ab302da2f08ab9f9a377b0910b2c233e6d
-The reverted commit sha is - e15485c5d659977d0a8f20f7f7f319dac2423a0e
+---> The reverted commit sha is - e15485c5d659977d0a8f20f7f7f319dac2423a0e
 Commit message - input: Refactor to ensure user input has higher priority
-The original commit sha is - 699a19ab302da2f08ab9f9a377b0910b2c233e6d
+---> The original commit sha is - 699a19ab302da2f08ab9f9a377b0910b2c233e6d
 Commit message - Merge pull request #1513 from fwalch/vimpatch-script
 
 Add helper script for porting vim patches.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 scripts/vim-patch.sh
 -----------------------------------------------------------------
 
-Partial Revert diff pair 4 is -> 
+Partial Revert diff pair 7 is -> 
 { ffe61e5ba1721340ca51d56bae3ddaca415fb5bc -> da51dc9cf202772f60bd2da975dbef257bd9237c } is a revert
 { c152cdd0f34c10b3d3a8007838561556578685c6 -> 1732615290573d98e8e0221a2f8d600d44c14d10 }
 Partial Revert commits SHA are -> 
 da51dc9cf202772f60bd2da975dbef257bd9237c - revert - 1732615290573d98e8e0221a2f8d600d44c14d10
-The reverted commit sha is - da51dc9cf202772f60bd2da975dbef257bd9237c
+---> The reverted commit sha is - da51dc9cf202772f60bd2da975dbef257bd9237c
 Commit message - Introduce nvim namespace: Move files.
 
 Move files from src/ to src/nvim/.
 - src/nvim/ becomes the new root dir for nvim executable sources.
 - src/libnvim/ is planned to become root dir of the neovim library.
-The original commit sha is - 1732615290573d98e8e0221a2f8d600d44c14d10
+---> The original commit sha is - 1732615290573d98e8e0221a2f8d600d44c14d10
 Commit message - legacy tests: remove test21 files
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/testdir/test21.in
 src/nvim/testdir/test21.ok
 -----------------------------------------------------------------
 
-Partial Revert diff pair 5 is -> 
+Partial Revert diff pair 8 is -> 
 { 1b9e4d77310cd5e85d2fb9f2bd56b13550f9d2d7 -> cdaa417e8c24ca8d59bde11b27ff7c6859d71088 } is a revert
 { 9b8ca92a0125520c9926ea88e88b0cc26823b6ff -> f3b4033572bb42be31ad2f0f1388faf90ecaecab }
 Partial Revert commits SHA are -> 
 cdaa417e8c24ca8d59bde11b27ff7c6859d71088 - revert - f3b4033572bb42be31ad2f0f1388faf90ecaecab
-The reverted commit sha is - cdaa417e8c24ca8d59bde11b27ff7c6859d71088
+---> The reverted commit sha is - cdaa417e8c24ca8d59bde11b27ff7c6859d71088
 Commit message - Fix python setup: Fix issue for users not using python.
-The original commit sha is - f3b4033572bb42be31ad2f0f1388faf90ecaecab
+---> The original commit sha is - f3b4033572bb42be31ad2f0f1388faf90ecaecab
 Commit message - runtime: Remove 'python_setup.vim'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/python_setup.vim
 -----------------------------------------------------------------
 
-Partial Revert diff pair 6 is -> 
+Partial Revert diff pair 9 is -> 
 { 87ab0416100b5f6a6ca09806cebbfa0ad6e2d535 -> 0ffeb140a46d6b1a6ecd8853b4eba7302ed99b3f } is a revert
 { 9b8ca92a0125520c9926ea88e88b0cc26823b6ff -> f3b4033572bb42be31ad2f0f1388faf90ecaecab }
 Partial Revert commits SHA are -> 
 0ffeb140a46d6b1a6ecd8853b4eba7302ed99b3f - revert - f3b4033572bb42be31ad2f0f1388faf90ecaecab
-The reverted commit sha is - 0ffeb140a46d6b1a6ecd8853b4eba7302ed99b3f
+---> The reverted commit sha is - 0ffeb140a46d6b1a6ecd8853b4eba7302ed99b3f
 Commit message - job: Simplify job_teardown function
 
 Remove the current teardown logic and reuse the job top timers with
 event_poll_until all jobs exit or are killed.
-The original commit sha is - f3b4033572bb42be31ad2f0f1388faf90ecaecab
+---> The original commit sha is - f3b4033572bb42be31ad2f0f1388faf90ecaecab
 Commit message - runtime: Remove 'python_setup.vim'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/python_setup.vim
 -----------------------------------------------------------------
 
-Partial Revert diff pair 7 is -> 
+Partial Revert diff pair 10 is -> 
 { 2b887ec66ba28f6d6fcbfdd121522fd7093bcc65 -> c347d9226a00d1ff8015fcdab1fb414e2c3e4c0a } is a revert
 { cdf85dcc12bf227b5f4831b2b58c0b11f743aedf -> 3b8661745b2c5ed8b4b9a7bfe4fa75935eb1afeb }
 Partial Revert commits SHA are -> 
 c347d9226a00d1ff8015fcdab1fb414e2c3e4c0a - revert - 3b8661745b2c5ed8b4b9a7bfe4fa75935eb1afeb
-The reverted commit sha is - c347d9226a00d1ff8015fcdab1fb414e2c3e4c0a
+---> The reverted commit sha is - c347d9226a00d1ff8015fcdab1fb414e2c3e4c0a
 Commit message - Merge pull request #1473 from alexgenco/patch-1
 
 Fix api metadata function name in docs
-The original commit sha is - 3b8661745b2c5ed8b4b9a7bfe4fa75935eb1afeb
+---> The original commit sha is - 3b8661745b2c5ed8b4b9a7bfe4fa75935eb1afeb
 Commit message - Merge pull request #1485 from equalsraf/tb-no-make-prg
 
 Use cmake --build inside CMake scripts instead of calling Make directly
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 CMakeLists.txt
 third-party/CMakeLists.txt
 third-party/cmake/InstallMsgpack.cmake
 -----------------------------------------------------------------
 
-Partial Revert diff pair 8 is -> 
+Partial Revert diff pair 11 is -> 
 { cb809069a83223d4faf5cd627b8292273dece2f8 -> 6483a198e4bee1e80683ba12e061616c3e6c4090 } is a revert
 { 75f4451d570deef2127913d554de0d6e1a9c8f47 -> cdf85dcc12bf227b5f4831b2b58c0b11f743aedf }
 Partial Revert commits SHA are -> 
 6483a198e4bee1e80683ba12e061616c3e6c4090 - revert - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
-The reverted commit sha is - 6483a198e4bee1e80683ba12e061616c3e6c4090
+---> The reverted commit sha is - 6483a198e4bee1e80683ba12e061616c3e6c4090
 Commit message - Travis CI: Refactor travis script
 
 To simplify modification/inclusion of continuous integration targets, this
 removes travis.sh which contains a big if statement in favor of multiple scripts
 under the new '.ci' directory.
-The original commit sha is - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
+---> The original commit sha is - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
 Commit message - Merge pull request #1157 from fwalch/remove-coverity
 
 Travis: Remove Coverity build.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .ci/coverity.sh
------------------------------------------------------------------
-
-Partial Revert diff pair 9 is -> 
-{ 888a31ba454cf9c054527a26459c112593efa54b -> b6da1ac33956e40e1ca250b9dc8d6f3e7864576d } is a revert
-{ 75f4451d570deef2127913d554de0d6e1a9c8f47 -> cdf85dcc12bf227b5f4831b2b58c0b11f743aedf }
-Partial Revert commits SHA are -> 
-b6da1ac33956e40e1ca250b9dc8d6f3e7864576d - revert - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
-The reverted commit sha is - b6da1ac33956e40e1ca250b9dc8d6f3e7864576d
-Commit message - version.c: mark irrelevant patches with "NA" #1074
-
-uncomment some patch numbers that were satisfied by #938
-The original commit sha is - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
-Commit message - Merge pull request #1157 from fwalch/remove-coverity
-
-Travis: Remove Coverity build.
-The files with partial_reverts are:-
-.ci/coverity.sh
------------------------------------------------------------------
-
-Partial Revert diff pair 10 is -> 
-{ 75335f01a065c55c3b07f849bf231a3805cb708d -> 0fcb867981463372675f3dd31d5753123f1bfa54 } is a revert
-{ 75f4451d570deef2127913d554de0d6e1a9c8f47 -> cdf85dcc12bf227b5f4831b2b58c0b11f743aedf }
-Partial Revert commits SHA are -> 
-0fcb867981463372675f3dd31d5753123f1bfa54 - revert - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
-The reverted commit sha is - 0fcb867981463372675f3dd31d5753123f1bfa54
-Commit message - Merge pull request #1479 from Pyrohh/fix_comments_and_use_stdbool
-
-{farsi.c,arabic.c}: Fix comments and use stdbool
-The original commit sha is - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
-Commit message - Merge pull request #1157 from fwalch/remove-coverity
-
-Travis: Remove Coverity build.
-The files with partial_reverts are:-
-.ci/coverity.sh
-.travis.yml
------------------------------------------------------------------
-
-Partial Revert diff pair 11 is -> 
-{ e1757513649c016ff7d2e03f11ec8017fe290597 -> 75335f01a065c55c3b07f849bf231a3805cb708d } is a revert
-{ 0fcb867981463372675f3dd31d5753123f1bfa54 -> 75f4451d570deef2127913d554de0d6e1a9c8f47 }
-Partial Revert commits SHA are -> 
-75335f01a065c55c3b07f849bf231a3805cb708d - revert - 75f4451d570deef2127913d554de0d6e1a9c8f47
-The reverted commit sha is - 75335f01a065c55c3b07f849bf231a3805cb708d
-Commit message - Travis: Remove Coverity build.
-
-Coverity is now handled by neovim/bot-ci.
-The original commit sha is - 75f4451d570deef2127913d554de0d6e1a9c8f47
-Commit message - Merge pull request #1483 from oni-link/fix.mch_print_begin.memory.leak.stackversion
-
-coverity/13765,13766,13767,13768: Fix memory leaks in hardcopy.c
-The files with partial_reverts are:-
-src/nvim/hardcopy.c
 -----------------------------------------------------------------
 
 Partial Revert diff pair 12 is -> 
 { 888a31ba454cf9c054527a26459c112593efa54b -> b6da1ac33956e40e1ca250b9dc8d6f3e7864576d } is a revert
-{ e1757513649c016ff7d2e03f11ec8017fe290597 -> 75335f01a065c55c3b07f849bf231a3805cb708d }
+{ 75f4451d570deef2127913d554de0d6e1a9c8f47 -> cdf85dcc12bf227b5f4831b2b58c0b11f743aedf }
 Partial Revert commits SHA are -> 
-b6da1ac33956e40e1ca250b9dc8d6f3e7864576d - revert - 75335f01a065c55c3b07f849bf231a3805cb708d
-The reverted commit sha is - b6da1ac33956e40e1ca250b9dc8d6f3e7864576d
+b6da1ac33956e40e1ca250b9dc8d6f3e7864576d - revert - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
+---> The reverted commit sha is - b6da1ac33956e40e1ca250b9dc8d6f3e7864576d
 Commit message - version.c: mark irrelevant patches with "NA" #1074
 
 uncomment some patch numbers that were satisfied by #938
-The original commit sha is - 75335f01a065c55c3b07f849bf231a3805cb708d
-Commit message - Travis: Remove Coverity build.
+---> The original commit sha is - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
+Commit message - Merge pull request #1157 from fwalch/remove-coverity
 
-Coverity is now handled by neovim/bot-ci.
-The files with partial_reverts are:-
+Travis: Remove Coverity build.
+---> The files with partial_reverts are:-
 .ci/coverity.sh
 -----------------------------------------------------------------
 
 Partial Revert diff pair 13 is -> 
+{ 75335f01a065c55c3b07f849bf231a3805cb708d -> 0fcb867981463372675f3dd31d5753123f1bfa54 } is a revert
+{ 75f4451d570deef2127913d554de0d6e1a9c8f47 -> cdf85dcc12bf227b5f4831b2b58c0b11f743aedf }
+Partial Revert commits SHA are -> 
+0fcb867981463372675f3dd31d5753123f1bfa54 - revert - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
+---> The reverted commit sha is - 0fcb867981463372675f3dd31d5753123f1bfa54
+Commit message - Merge pull request #1479 from Pyrohh/fix_comments_and_use_stdbool
+
+{farsi.c,arabic.c}: Fix comments and use stdbool
+---> The original commit sha is - cdf85dcc12bf227b5f4831b2b58c0b11f743aedf
+Commit message - Merge pull request #1157 from fwalch/remove-coverity
+
+Travis: Remove Coverity build.
+---> The files with partial_reverts are:-
+.ci/coverity.sh
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ e1757513649c016ff7d2e03f11ec8017fe290597 -> 75335f01a065c55c3b07f849bf231a3805cb708d } is a revert
+{ 0fcb867981463372675f3dd31d5753123f1bfa54 -> 75f4451d570deef2127913d554de0d6e1a9c8f47 }
+Partial Revert commits SHA are -> 
+75335f01a065c55c3b07f849bf231a3805cb708d - revert - 75f4451d570deef2127913d554de0d6e1a9c8f47
+---> The reverted commit sha is - 75335f01a065c55c3b07f849bf231a3805cb708d
+Commit message - Travis: Remove Coverity build.
+
+Coverity is now handled by neovim/bot-ci.
+---> The original commit sha is - 75f4451d570deef2127913d554de0d6e1a9c8f47
+Commit message - Merge pull request #1483 from oni-link/fix.mch_print_begin.memory.leak.stackversion
+
+coverity/13765,13766,13767,13768: Fix memory leaks in hardcopy.c
+---> The files with partial_reverts are:-
+src/nvim/hardcopy.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 888a31ba454cf9c054527a26459c112593efa54b -> b6da1ac33956e40e1ca250b9dc8d6f3e7864576d } is a revert
+{ e1757513649c016ff7d2e03f11ec8017fe290597 -> 75335f01a065c55c3b07f849bf231a3805cb708d }
+Partial Revert commits SHA are -> 
+b6da1ac33956e40e1ca250b9dc8d6f3e7864576d - revert - 75335f01a065c55c3b07f849bf231a3805cb708d
+---> The reverted commit sha is - b6da1ac33956e40e1ca250b9dc8d6f3e7864576d
+Commit message - version.c: mark irrelevant patches with "NA" #1074
+
+uncomment some patch numbers that were satisfied by #938
+---> The original commit sha is - 75335f01a065c55c3b07f849bf231a3805cb708d
+Commit message - Travis: Remove Coverity build.
+
+Coverity is now handled by neovim/bot-ci.
+---> The files with partial_reverts are:-
+.ci/coverity.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
 { 205ac8d176f67514e3bc8fa069c8e7d92be69094 -> c92e649a1ef9846ec86b09acc8d92f30b1c1d5db } is a revert
 { c92e649a1ef9846ec86b09acc8d92f30b1c1d5db -> c5d7d75bb10a3d41bd2c502b010f2148c5e7b796 }
 Partial Revert commits SHA are -> 
 c92e649a1ef9846ec86b09acc8d92f30b1c1d5db - revert - c5d7d75bb10a3d41bd2c502b010f2148c5e7b796
-The reverted commit sha is - c92e649a1ef9846ec86b09acc8d92f30b1c1d5db
+---> The reverted commit sha is - c92e649a1ef9846ec86b09acc8d92f30b1c1d5db
 Commit message - vim-patch:7.4.417
 
 Problem:    After splitting a window and setting 'breakindent' the default
@@ -220,11 +279,11 @@ Problem:    After splitting a window and setting 'breakindent' the default
 Solution:   Call briopt_check() when copying options to a new window.
 
 https://code.google.com/p/vim/source/detail?r=v7-4-417
-The original commit sha is - c5d7d75bb10a3d41bd2c502b010f2148c5e7b796
+---> The original commit sha is - c5d7d75bb10a3d41bd2c502b010f2148c5e7b796
 Commit message - Merge pull request #1283 from splinterofchaos/breakindent-tab
 
 vim-patch:7.4.416 + vim-patch:7.4.417
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/buffer.c
 src/nvim/buffer_defs.h
 src/nvim/diff.c
@@ -246,12 +305,12 @@ src/nvim/undo.c
 src/nvim/window.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 14 is -> 
+Partial Revert diff pair 17 is -> 
 { bffea01c89bfe2c93169f65b50653d63dcb8e035 -> 96be11f609fbdfff64472dc0bf8a4f4528cf4f95 } is a revert
 { b027e1ed0c92ed49961ecbd24228967d916c2bbd -> b1e06c6d60f4947794851982eb73db6ef3b64fbf }
 Partial Revert commits SHA are -> 
 96be11f609fbdfff64472dc0bf8a4f4528cf4f95 - revert - b1e06c6d60f4947794851982eb73db6ef3b64fbf
-The reverted commit sha is - 96be11f609fbdfff64472dc0bf8a4f4528cf4f95
+---> The reverted commit sha is - 96be11f609fbdfff64472dc0bf8a4f4528cf4f95
 Commit message - vim-patch:7.4.419
 
 Problem:    Whan part of a list is locked it's possible to make changes.
@@ -259,43 +318,43 @@ Solution:   Check if any of the list items is locked before make a change.
             (ZyX)
 
 https://code.google.com/p/vim/source/detail?r=v7-4-419
-The original commit sha is - b1e06c6d60f4947794851982eb73db6ef3b64fbf
+---> The original commit sha is - b1e06c6d60f4947794851982eb73db6ef3b64fbf
 Commit message - Merge pull request #1282 from splinterofchaos/cmd-undef
 
 vim-patch:7.4.414 + vim-patch:7.4.415
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/autocmd.txt
 src/nvim/ex_docmd.c
 src/nvim/fileio.c
 src/nvim/fileio.h
 -----------------------------------------------------------------
 
-Partial Revert diff pair 15 is -> 
+Partial Revert diff pair 18 is -> 
 { 05c1394fcd77f111b8edf11e96356c457d2b5c3a -> d51c0a94719381e51c8ffd11b759fd9e7f44c92d } is a revert
 { 85842b29eb9f525ee78c153713e9f55e503d82b7 -> e450c541ddfe1266d3d56b594f83ab197e747584 }
 Partial Revert commits SHA are -> 
 d51c0a94719381e51c8ffd11b759fd9e7f44c92d - revert - e450c541ddfe1266d3d56b594f83ab197e747584
-The reverted commit sha is - d51c0a94719381e51c8ffd11b759fd9e7f44c92d
+---> The reverted commit sha is - d51c0a94719381e51c8ffd11b759fd9e7f44c92d
 Commit message - build: only attempt to use -Og if it's supported
 
 Commit a1d411f9c991c03488c74c6266eb37cc2bab970e just assumes that gcc
 will support the `-Og` option, but gcc that comes with Ubuntu 12.04 does
 not.  Let's check to see if the flag is supported, and then decide
 whether to enable it or not.
-The original commit sha is - e450c541ddfe1266d3d56b594f83ab197e747584
+---> The original commit sha is - e450c541ddfe1266d3d56b594f83ab197e747584
 Commit message - Merge pull request #1439 from jszakmeister/shuffle-some-includes
 
 Move many includes down to the EXITFREE block.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/memory.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 16 is -> 
+Partial Revert diff pair 19 is -> 
 { 2540155591034610bd5550bd0a4e63b425907395 -> 9c3a3e13814c6601271288f4550d5c723ce8b4c3 } is a revert
 { fc19f0c4c6773ff8b10c14492da2acf3601d8cbc -> 85842b29eb9f525ee78c153713e9f55e503d82b7 }
 Partial Revert commits SHA are -> 
 9c3a3e13814c6601271288f4550d5c723ce8b4c3 - revert - 85842b29eb9f525ee78c153713e9f55e503d82b7
-The reverted commit sha is - 9c3a3e13814c6601271288f4550d5c723ce8b4c3
+---> The reverted commit sha is - 9c3a3e13814c6601271288f4550d5c723ce8b4c3
 Commit message - Fix warnings: ex_cmds.c: do_ascii(): Garbage value (2): MI.
 
 Problems   : Assigned value is garbage or undefined @ 127.
@@ -304,98 +363,98 @@ Diagnostic : Multithreading issues.
 Rationale  : Error could only occurr if global `enc_utf8` changed while
              the function is executing.
 Resolution : Use local copy of global var.
-The original commit sha is - 85842b29eb9f525ee78c153713e9f55e503d82b7
+---> The original commit sha is - 85842b29eb9f525ee78c153713e9f55e503d82b7
 Commit message - Merge pull request #1449 from jszakmeister/fix-cmake-module-path-usage
 
 build: fix CMAKE_MODULE_PATH usage
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 CMakeLists.txt
 src/nvim/po/CMakeLists.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 17 is -> 
+Partial Revert diff pair 20 is -> 
 { b384252d52aadfe0699d636125a103f4bad5ad17 -> e7a863e12c58011bb1c32b21ab34eb33722664c4 } is a revert
 { 20b895e624489903fc79f956234039eaaecb6e46 -> b0cd397a43ae18942e12b1c76f838aac135b18cf }
 Partial Revert commits SHA are -> 
 e7a863e12c58011bb1c32b21ab34eb33722664c4 - revert - b0cd397a43ae18942e12b1c76f838aac135b18cf
-The reverted commit sha is - e7a863e12c58011bb1c32b21ab34eb33722664c4
+---> The reverted commit sha is - e7a863e12c58011bb1c32b21ab34eb33722664c4
 Commit message - Remove long_u: eval: Replace with size_t.
 
 Note: No effort is done on refactoring anything in eval module, as it
       will be eventually dropped.
-The original commit sha is - b0cd397a43ae18942e12b1c76f838aac135b18cf
+---> The original commit sha is - b0cd397a43ae18942e12b1c76f838aac135b18cf
 Commit message - Merge pull request #1416 from jondkinney/master
 
 Fix the nvim-clipboard help instructions
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/nvim_clipboard.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 18 is -> 
+Partial Revert diff pair 21 is -> 
 { 6e87557c0816e1237e0cb0dc6eba96a154bc88cc -> 8e281b3f70f92535925332207061385f4d1935bc } is a revert
 { 8e281b3f70f92535925332207061385f4d1935bc -> 911c5518a5ff6c621f9e681b66920107c2bcbe72 }
 Partial Revert commits SHA are -> 
 8e281b3f70f92535925332207061385f4d1935bc - revert - 911c5518a5ff6c621f9e681b66920107c2bcbe72
-The reverted commit sha is - 8e281b3f70f92535925332207061385f4d1935bc
+---> The reverted commit sha is - 8e281b3f70f92535925332207061385f4d1935bc
 Commit message - Merge pull request #1429 from oni-link/fix.job_start.leak
 
 Fix memory leak in job_start().
-The original commit sha is - 911c5518a5ff6c621f9e681b66920107c2bcbe72
+---> The original commit sha is - 911c5518a5ff6c621f9e681b66920107c2bcbe72
 Commit message - Merge pull request #1443 from jszakmeister/allow-root-dir-installs
 
 build: allow installing into the root directory (/)
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 cmake/InstallHelpers.cmake
 -----------------------------------------------------------------
 
-Partial Revert diff pair 19 is -> 
+Partial Revert diff pair 22 is -> 
 { dba8433723f1cb5dbfc7e09fde73219aba646f60 -> 1ea90f697113cc5a98e63df3f89552f0837561b1 } is a revert
 { 6e87557c0816e1237e0cb0dc6eba96a154bc88cc -> 8e281b3f70f92535925332207061385f4d1935bc }
 Partial Revert commits SHA are -> 
 1ea90f697113cc5a98e63df3f89552f0837561b1 - revert - 8e281b3f70f92535925332207061385f4d1935bc
-The reverted commit sha is - 1ea90f697113cc5a98e63df3f89552f0837561b1
+---> The reverted commit sha is - 1ea90f697113cc5a98e63df3f89552f0837561b1
 Commit message - Merge pull request #1400 from jszakmeister/install-helpers-destdir
 
 build: fix the usage of DESTDIR in InstallHelpers.cmake
-The original commit sha is - 8e281b3f70f92535925332207061385f4d1935bc
+---> The original commit sha is - 8e281b3f70f92535925332207061385f4d1935bc
 Commit message - Merge pull request #1429 from oni-link/fix.job_start.leak
 
 Fix memory leak in job_start().
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/msgpack_rpc/channel.c
 src/nvim/os/job.c
 src/nvim/os/wstream.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 20 is -> 
+Partial Revert diff pair 23 is -> 
 { 2513c5f648ee71bd0648d979f3eb69e8c5c7b603 -> 9376b3db4b2d819aa053c4c9dc334d337050197a } is a revert
 { 8a0074d9b8da6112bb5e0f200f4bd17ef192bf9d -> 57140446174a1e547b4799d75d6182a24ad78b44 }
 Partial Revert commits SHA are -> 
 9376b3db4b2d819aa053c4c9dc334d337050197a - revert - 57140446174a1e547b4799d75d6182a24ad78b44
-The reverted commit sha is - 9376b3db4b2d819aa053c4c9dc334d337050197a
+---> The reverted commit sha is - 9376b3db4b2d819aa053c4c9dc334d337050197a
 Commit message - Improve legacy2luatest script.
-The original commit sha is - 57140446174a1e547b4799d75d6182a24ad78b44
+---> The original commit sha is - 57140446174a1e547b4799d75d6182a24ad78b44
 Commit message - Merge pull request #1441 from jszakmeister/remove-redundant-define
 
 Remove redundant USE_ICONV define from config.h.in.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 config/config.h.in
 -----------------------------------------------------------------
 
-Partial Revert diff pair 21 is -> 
+Partial Revert diff pair 24 is -> 
 { 176930fa56bff3668d434779972ceb29d41d9bc7 -> e9ac693bcde8e09e943b1e4a0e8a534c813501b8 } is a revert
 { e9ac693bcde8e09e943b1e4a0e8a534c813501b8 -> 8a0074d9b8da6112bb5e0f200f4bd17ef192bf9d }
 Partial Revert commits SHA are -> 
 e9ac693bcde8e09e943b1e4a0e8a534c813501b8 - revert - 8a0074d9b8da6112bb5e0f200f4bd17ef192bf9d
-The reverted commit sha is - e9ac693bcde8e09e943b1e4a0e8a534c813501b8
+---> The reverted commit sha is - e9ac693bcde8e09e943b1e4a0e8a534c813501b8
 Commit message - Merge pull request #1389 from elmart/clang-analysis-fixes
 
 Fix clang analysis warnings.
-The original commit sha is - 8a0074d9b8da6112bb5e0f200f4bd17ef192bf9d
+---> The original commit sha is - 8a0074d9b8da6112bb5e0f200f4bd17ef192bf9d
 Commit message - Merge pull request #1403 from fwalch/version-flags
 
 version: Add compilation info.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 CMakeLists.txt
 cmake/GetCompileFlags.cmake
 config/config.h.in
@@ -404,12 +463,12 @@ src/nvim/version.c
 src/nvim/version_defs.h
 -----------------------------------------------------------------
 
-Partial Revert diff pair 22 is -> 
+Partial Revert diff pair 25 is -> 
 { 9344a40e741557948215dfeb4ae32b7c0d6d7b6b -> 938faf5e2d49a5ea7458eefbc0e0df0532d01d32 } is a revert
 { c744bb8144b5dd14c014817b9250aa5325d53cfe -> dcccc1a50de3caea62ab12f9e15fc6f3e242b5c4 }
 Partial Revert commits SHA are -> 
 938faf5e2d49a5ea7458eefbc0e0df0532d01d32 - revert - dcccc1a50de3caea62ab12f9e15fc6f3e242b5c4
-The reverted commit sha is - 938faf5e2d49a5ea7458eefbc0e0df0532d01d32
+---> The reverted commit sha is - 938faf5e2d49a5ea7458eefbc0e0df0532d01d32
 Commit message - build: fix the usage of DESTDIR in InstallHelpers.cmake
 
 It turns out that `file(INSTALL ...)` already accounts for `DESTDIR`, so
@@ -422,20 +481,20 @@ used with a relative path, as that construct doesn't make much sense.
 
 This fixes issue #1387 discovered while trying to make helptag
 generation work correctly in #1381.
-The original commit sha is - dcccc1a50de3caea62ab12f9e15fc6f3e242b5c4
+---> The original commit sha is - dcccc1a50de3caea62ab12f9e15fc6f3e242b5c4
 Commit message - Merge pull request #1437 from jszakmeister/build-search-fixes
 
 A few fixes for some build-related issues.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 cmake/FindIconv.cmake
 -----------------------------------------------------------------
 
-Partial Revert diff pair 23 is -> 
+Partial Revert diff pair 26 is -> 
 { 9344a40e741557948215dfeb4ae32b7c0d6d7b6b -> 938faf5e2d49a5ea7458eefbc0e0df0532d01d32 } is a revert
 { 0bc347d85d37f94d0a899a035d5a0eb3680db2f6 -> 66f16619e4a8ccd42bc0811f73924482a6207292 }
 Partial Revert commits SHA are -> 
 938faf5e2d49a5ea7458eefbc0e0df0532d01d32 - revert - 66f16619e4a8ccd42bc0811f73924482a6207292
-The reverted commit sha is - 938faf5e2d49a5ea7458eefbc0e0df0532d01d32
+---> The reverted commit sha is - 938faf5e2d49a5ea7458eefbc0e0df0532d01d32
 Commit message - build: fix the usage of DESTDIR in InstallHelpers.cmake
 
 It turns out that `file(INSTALL ...)` already accounts for `DESTDIR`, so
@@ -448,11 +507,11 @@ used with a relative path, as that construct doesn't make much sense.
 
 This fixes issue #1387 discovered while trying to make helptag
 generation work correctly in #1381.
-The original commit sha is - 66f16619e4a8ccd42bc0811f73924482a6207292
+---> The original commit sha is - 66f16619e4a8ccd42bc0811f73924482a6207292
 Commit message - Merge pull request #1428 from xu-cheng/relocate-formula
 
 Homebrew: move formula to neovim/homebrew-neovim
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/eval.txt
 runtime/doc/job_control.txt
 src/nvim/memory.c
@@ -460,18 +519,18 @@ src/nvim/msgpack_rpc/helpers.c
 src/nvim/os/rstream.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 24 is -> 
+Partial Revert diff pair 27 is -> 
 { d51c0a94719381e51c8ffd11b759fd9e7f44c92d -> 0bc347d85d37f94d0a899a035d5a0eb3680db2f6 } is a revert
 { 0bc347d85d37f94d0a899a035d5a0eb3680db2f6 -> 66f16619e4a8ccd42bc0811f73924482a6207292 }
 Partial Revert commits SHA are -> 
 0bc347d85d37f94d0a899a035d5a0eb3680db2f6 - revert - 66f16619e4a8ccd42bc0811f73924482a6207292
-The reverted commit sha is - 0bc347d85d37f94d0a899a035d5a0eb3680db2f6
+---> The reverted commit sha is - 0bc347d85d37f94d0a899a035d5a0eb3680db2f6
 Commit message - Homebrew: move formula to neovim/homebrew-neovim
-The original commit sha is - 66f16619e4a8ccd42bc0811f73924482a6207292
+---> The original commit sha is - 66f16619e4a8ccd42bc0811f73924482a6207292
 Commit message - Merge pull request #1428 from xu-cheng/relocate-formula
 
 Homebrew: move formula to neovim/homebrew-neovim
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 cmake/InstallHelpers.cmake
 runtime/doc/eval.txt
 runtime/doc/job_control.txt
@@ -484,18 +543,18 @@ test/functional/job/job_spec.lua
 third-party/cmake/DownloadAndExtractFile.cmake
 -----------------------------------------------------------------
 
-Partial Revert diff pair 25 is -> 
+Partial Revert diff pair 28 is -> 
 { 938faf5e2d49a5ea7458eefbc0e0df0532d01d32 -> c9df7ba308434be02365a35458d67840fcba4c7e } is a revert
 { d51c0a94719381e51c8ffd11b759fd9e7f44c92d -> 0bc347d85d37f94d0a899a035d5a0eb3680db2f6 }
 Partial Revert commits SHA are -> 
 c9df7ba308434be02365a35458d67840fcba4c7e - revert - 0bc347d85d37f94d0a899a035d5a0eb3680db2f6
-The reverted commit sha is - c9df7ba308434be02365a35458d67840fcba4c7e
+---> The reverted commit sha is - c9df7ba308434be02365a35458d67840fcba4c7e
 Commit message - Merge pull request #1383 from fwalch/nvim-buildtype
 
 CMake: Set custom RelWithDebInfo compile flags.
-The original commit sha is - 0bc347d85d37f94d0a899a035d5a0eb3680db2f6
+---> The original commit sha is - 0bc347d85d37f94d0a899a035d5a0eb3680db2f6
 Commit message - Homebrew: move formula to neovim/homebrew-neovim
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/eval.txt
 runtime/doc/job_control.txt
 src/nvim/memory.c
@@ -503,101 +562,101 @@ src/nvim/msgpack_rpc/helpers.c
 src/nvim/os/rstream.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 26 is -> 
+Partial Revert diff pair 29 is -> 
 { 2aeda4ba6f033707dd96daabd2084d239ac82b3d -> a1d411f9c991c03488c74c6266eb37cc2bab970e } is a revert
 { a1d411f9c991c03488c74c6266eb37cc2bab970e -> 05f78d30ac5eb4c4df712d78d1366f3cee896417 }
 Partial Revert commits SHA are -> 
 a1d411f9c991c03488c74c6266eb37cc2bab970e - revert - 05f78d30ac5eb4c4df712d78d1366f3cee896417
-The reverted commit sha is - a1d411f9c991c03488c74c6266eb37cc2bab970e
+---> The reverted commit sha is - a1d411f9c991c03488c74c6266eb37cc2bab970e
 Commit message - CMake: Set custom RelWithDebInfo compile flags.
-The original commit sha is - 05f78d30ac5eb4c4df712d78d1366f3cee896417
+---> The original commit sha is - 05f78d30ac5eb4c4df712d78d1366f3cee896417
 Commit message - build: use the proper libintl include variable
 
 What was there worked, but it wasn't meant to be the variable that you
 use for inclusion.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 third-party/cmake/DownloadAndExtractFile.cmake
 -----------------------------------------------------------------
 
-Partial Revert diff pair 27 is -> 
+Partial Revert diff pair 30 is -> 
 { 5d97f3fc2c259613db7065f249e073a7994fab29 -> d3f81424e5a8de5d184f3ab3e14b632fa70f857d } is a revert
 { 7d0a689476fdffc1e027ff0205fa404ba9d81602 -> 2aeda4ba6f033707dd96daabd2084d239ac82b3d }
 Partial Revert commits SHA are -> 
 d3f81424e5a8de5d184f3ab3e14b632fa70f857d - revert - 2aeda4ba6f033707dd96daabd2084d239ac82b3d
-The reverted commit sha is - d3f81424e5a8de5d184f3ab3e14b632fa70f857d
+---> The reverted commit sha is - d3f81424e5a8de5d184f3ab3e14b632fa70f857d
 Commit message - job: Only force-close stdout/stderr when the job exits
 
 stdout/stderr should only be closed after the job truly exits, or else we can
 lose data sent by it.
-The original commit sha is - 2aeda4ba6f033707dd96daabd2084d239ac82b3d
+---> The original commit sha is - 2aeda4ba6f033707dd96daabd2084d239ac82b3d
 Commit message - Merge pull request #1426 from jszakmeister/change-release-opt-default
 
 build: default to using -O2 for release builds
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 CMakeLists.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 28 is -> 
+Partial Revert diff pair 31 is -> 
 { 6f8c916d8408a89996ce8fbd86e48194b5a46b3e -> 07775c07c0c269fe70effa0489f65fb98143c12c } is a revert
 { 847d5ffa7c21321765df1021465a20a96de8bfef -> 5d0f8b63e344c13ae32d43389e22537aa8e3da4d }
 Partial Revert commits SHA are -> 
 07775c07c0c269fe70effa0489f65fb98143c12c - revert - 5d0f8b63e344c13ae32d43389e22537aa8e3da4d
-The reverted commit sha is - 07775c07c0c269fe70effa0489f65fb98143c12c
+---> The reverted commit sha is - 07775c07c0c269fe70effa0489f65fb98143c12c
 Commit message - Merge pull request #1411 from xu-cheng/homebrew-formula
 
 Let homebrew handle external resources download
-The original commit sha is - 5d0f8b63e344c13ae32d43389e22537aa8e3da4d
+---> The original commit sha is - 5d0f8b63e344c13ae32d43389e22537aa8e3da4d
 Commit message - Revert "build: don't download and extract tarball if source is already present"
 
 This reverts commit 90658982644b76a9e8e4abfbcd16450df26b0a32.
 
 It failed to work correctly on a fresh clone.  See #1433.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 third-party/cmake/DownloadAndExtractFile.cmake
 -----------------------------------------------------------------
 
-Partial Revert diff pair 29 is -> 
+Partial Revert diff pair 32 is -> 
 { 90658982644b76a9e8e4abfbcd16450df26b0a32 -> 6f8c916d8408a89996ce8fbd86e48194b5a46b3e } is a revert
 { 6f8c916d8408a89996ce8fbd86e48194b5a46b3e -> 07775c07c0c269fe70effa0489f65fb98143c12c }
 Partial Revert commits SHA are -> 
 6f8c916d8408a89996ce8fbd86e48194b5a46b3e - revert - 07775c07c0c269fe70effa0489f65fb98143c12c
-The reverted commit sha is - 6f8c916d8408a89996ce8fbd86e48194b5a46b3e
+---> The reverted commit sha is - 6f8c916d8408a89996ce8fbd86e48194b5a46b3e
 Commit message - Merge PR #1424 'Only force-close stdout/stderr when the job exits'
-The original commit sha is - 07775c07c0c269fe70effa0489f65fb98143c12c
+---> The original commit sha is - 07775c07c0c269fe70effa0489f65fb98143c12c
 Commit message - Merge pull request #1411 from xu-cheng/homebrew-formula
 
 Let homebrew handle external resources download
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 neovim.rb
 -----------------------------------------------------------------
 
-Partial Revert diff pair 30 is -> 
+Partial Revert diff pair 33 is -> 
 { d3f81424e5a8de5d184f3ab3e14b632fa70f857d -> 871e353fa851ef58e0918d93929b2ec7c9607470 } is a revert
 { 90658982644b76a9e8e4abfbcd16450df26b0a32 -> 6f8c916d8408a89996ce8fbd86e48194b5a46b3e }
 Partial Revert commits SHA are -> 
 871e353fa851ef58e0918d93929b2ec7c9607470 - revert - 6f8c916d8408a89996ce8fbd86e48194b5a46b3e
-The reverted commit sha is - 871e353fa851ef58e0918d93929b2ec7c9607470
+---> The reverted commit sha is - 871e353fa851ef58e0918d93929b2ec7c9607470
 Commit message - Homebrew: let Homebrew handle external resources download
-The original commit sha is - 6f8c916d8408a89996ce8fbd86e48194b5a46b3e
+---> The original commit sha is - 6f8c916d8408a89996ce8fbd86e48194b5a46b3e
 Commit message - Merge PR #1424 'Only force-close stdout/stderr when the job exits'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 neovim.rb
 src/nvim/os/job.c
 test/functional/job/job_spec.lua
 third-party/CMakeLists.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 31 is -> 
+Partial Revert diff pair 34 is -> 
 { baaf24aceab851c6db75a5f497e64d1ae0f85c6b -> 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef } is a revert
 { c9cc2aa53d3adcef813d56107058d4b261488f66 -> 7cff10a6c56c662104cb1f9145ab45c94da4862d }
 Partial Revert commits SHA are -> 
 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef - revert - 7cff10a6c56c662104cb1f9145ab45c94da4862d
-The reverted commit sha is - 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef
+---> The reverted commit sha is - 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef
 Commit message - Merge branch 'master' into pr36
 
 Conflicts:
 	README.md
-The original commit sha is - 7cff10a6c56c662104cb1f9145ab45c94da4862d
+---> The original commit sha is - 7cff10a6c56c662104cb1f9145ab45c94da4862d
 Commit message - test: Add valgrind suppression for libuv memory leak
 
 A memory leak happens in uv_spawn when stdio is set to UV_IGNORE and the child
@@ -606,16 +665,16 @@ optimizations enabled(the default).
 
 Compiling with '-O0' removes the leak, but all that can be done right now is
 ignore the leak by adding a valgrind suppression.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .valgrind.supp
 -----------------------------------------------------------------
 
-Partial Revert diff pair 32 is -> 
+Partial Revert diff pair 35 is -> 
 { 3cac32e49c7fae9cf5963d35f3fd3052c061b2fa -> f6ace9962d95eb12236083871154c1501f02c556 } is a revert
 { c9cc2aa53d3adcef813d56107058d4b261488f66 -> 7cff10a6c56c662104cb1f9145ab45c94da4862d }
 Partial Revert commits SHA are -> 
 f6ace9962d95eb12236083871154c1501f02c556 - revert - 7cff10a6c56c662104cb1f9145ab45c94da4862d
-The reverted commit sha is - f6ace9962d95eb12236083871154c1501f02c556
+---> The reverted commit sha is - f6ace9962d95eb12236083871154c1501f02c556
 Commit message - Refactor travis build to use clang's sanitizers
 
 - Valgrind configuration removed
@@ -626,7 +685,7 @@ Commit message - Refactor travis build to use clang's sanitizers
 
 After these changes travis will run much faster, while providing valgrind-like
 error detection.
-The original commit sha is - 7cff10a6c56c662104cb1f9145ab45c94da4862d
+---> The original commit sha is - 7cff10a6c56c662104cb1f9145ab45c94da4862d
 Commit message - test: Add valgrind suppression for libuv memory leak
 
 A memory leak happens in uv_spawn when stdio is set to UV_IGNORE and the child
@@ -635,41 +694,41 @@ optimizations enabled(the default).
 
 Compiling with '-O0' removes the leak, but all that can be done right now is
 ignore the leak by adding a valgrind suppression.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .valgrind.supp
 -----------------------------------------------------------------
 
-Partial Revert diff pair 33 is -> 
+Partial Revert diff pair 36 is -> 
 { 87ab0416100b5f6a6ca09806cebbfa0ad6e2d535 -> 0ffeb140a46d6b1a6ecd8853b4eba7302ed99b3f } is a revert
 { 50590ba54ecbbf8b57019215bcb82fd9905b8790 -> 33d3a7c83b2f1d2cda22b53bf82d68267154cdfd }
 Partial Revert commits SHA are -> 
 0ffeb140a46d6b1a6ecd8853b4eba7302ed99b3f - revert - 33d3a7c83b2f1d2cda22b53bf82d68267154cdfd
-The reverted commit sha is - 0ffeb140a46d6b1a6ecd8853b4eba7302ed99b3f
+---> The reverted commit sha is - 0ffeb140a46d6b1a6ecd8853b4eba7302ed99b3f
 Commit message - job: Simplify job_teardown function
 
 Remove the current teardown logic and reuse the job top timers with
 event_poll_until all jobs exit or are killed.
-The original commit sha is - 33d3a7c83b2f1d2cda22b53bf82d68267154cdfd
+---> The original commit sha is - 33d3a7c83b2f1d2cda22b53bf82d68267154cdfd
 Commit message - Merge pull request #1366 from fwalch/homebrew-release
 
 Homebrew: Compile as release build.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 neovim.rb
 -----------------------------------------------------------------
 
-Partial Revert diff pair 34 is -> 
+Partial Revert diff pair 37 is -> 
 { 48847fbafc41d93bbc42d7bf5711a47c4982e08c -> 87ab0416100b5f6a6ca09806cebbfa0ad6e2d535 } is a revert
 { 87ab0416100b5f6a6ca09806cebbfa0ad6e2d535 -> 0ffeb140a46d6b1a6ecd8853b4eba7302ed99b3f }
 Partial Revert commits SHA are -> 
 87ab0416100b5f6a6ca09806cebbfa0ad6e2d535 - revert - 0ffeb140a46d6b1a6ecd8853b4eba7302ed99b3f
-The reverted commit sha is - 87ab0416100b5f6a6ca09806cebbfa0ad6e2d535
+---> The reverted commit sha is - 87ab0416100b5f6a6ca09806cebbfa0ad6e2d535
 Commit message - Homebrew: Compile as release build.
-The original commit sha is - 0ffeb140a46d6b1a6ecd8853b4eba7302ed99b3f
+---> The original commit sha is - 0ffeb140a46d6b1a6ecd8853b4eba7302ed99b3f
 Commit message - job: Simplify job_teardown function
 
 Remove the current teardown logic and reuse the job top timers with
 event_poll_until all jobs exit or are killed.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 neovim.rb
 runtime/doc/nvim_python.txt
 runtime/plugin/python_setup.vim
@@ -683,60 +742,60 @@ src/nvim/os/shell.c
 test/functional/api/window_spec.lua
 -----------------------------------------------------------------
 
-Partial Revert diff pair 35 is -> 
+Partial Revert diff pair 38 is -> 
 { d6da42475888bae48104d1de98fcc9640b619de3 -> 235287810ea168aa0624f8bb2e072319e2c91bd9 } is a revert
 { 92173edbc0d35420056034d5139a71575e370538 -> 48847fbafc41d93bbc42d7bf5711a47c4982e08c }
 Partial Revert commits SHA are -> 
 235287810ea168aa0624f8bb2e072319e2c91bd9 - revert - 48847fbafc41d93bbc42d7bf5711a47c4982e08c
-The reverted commit sha is - 235287810ea168aa0624f8bb2e072319e2c91bd9
+---> The reverted commit sha is - 235287810ea168aa0624f8bb2e072319e2c91bd9
 Commit message - coverity/74362: Initialized Array using ARRAY_DICT_INIT
-The original commit sha is - 48847fbafc41d93bbc42d7bf5711a47c4982e08c
+---> The original commit sha is - 48847fbafc41d93bbc42d7bf5711a47c4982e08c
 Commit message - Merge pull request #951 from bfredl/curfix
 
 api: window_set_cursor doesn't always update position.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/api/window.c
 src/nvim/move.c
 test/functional/api/window_spec.lua
 -----------------------------------------------------------------
 
-Partial Revert diff pair 36 is -> 
+Partial Revert diff pair 39 is -> 
 { 1be1964f343fc3e5c161d00ca36e5c3b90688703 -> 0b775e3513098cc3ba9d7d75a93cc65f4e8a43f9 } is a revert
 { a62998ea08e01c38c96d40ee4bd4f59c9bd65ad2 -> 181e652ee152d90aaff17a1985b05a98d6b69515 }
 Partial Revert commits SHA are -> 
 0b775e3513098cc3ba9d7d75a93cc65f4e8a43f9 - revert - 181e652ee152d90aaff17a1985b05a98d6b69515
-The reverted commit sha is - 0b775e3513098cc3ba9d7d75a93cc65f4e8a43f9
+---> The reverted commit sha is - 0b775e3513098cc3ba9d7d75a93cc65f4e8a43f9
 Commit message - CMake: Set execute permissions during installation.
-The original commit sha is - 181e652ee152d90aaff17a1985b05a98d6b69515
+---> The original commit sha is - 181e652ee152d90aaff17a1985b05a98d6b69515
 Commit message - Merge pull request #1312 from GokuITA/coverity1289
 
 coverity/71507: Unchecked return value (CHECKED_RETURN)
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/eval.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 37 is -> 
+Partial Revert diff pair 40 is -> 
 { ba527b6f349146eb3612c6f9c8c85187fef2f2f6 -> 3cacdae04443d4ad5cb5cfc2de112d4f6ea40385 } is a revert
 { 72c54db443aad66dd5f71ce25d7ec8896715e233 -> 3fc542b45bc6b3b826f7c2eabffe1ede3cb7afbf }
 Partial Revert commits SHA are -> 
 3cacdae04443d4ad5cb5cfc2de112d4f6ea40385 - revert - 3fc542b45bc6b3b826f7c2eabffe1ede3cb7afbf
-The reverted commit sha is - 3cacdae04443d4ad5cb5cfc2de112d4f6ea40385
+---> The reverted commit sha is - 3cacdae04443d4ad5cb5cfc2de112d4f6ea40385
 Commit message - channel: fix `REQ` definition for msgpack-rpc logging
-The original commit sha is - 3fc542b45bc6b3b826f7c2eabffe1ede3cb7afbf
+---> The original commit sha is - 3fc542b45bc6b3b826f7c2eabffe1ede3cb7afbf
 Commit message - Merge pull request #1347 from splinterofchaos/433
 
 vim-patch:7.4.433
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/testdir/test75.in
 src/nvim/version.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 38 is -> 
+Partial Revert diff pair 41 is -> 
 { b8401550a739b6007c0e6fe3ace583dde3001379 -> 87cf661af621f2bcc9314ad7ae2c65df82974f8a } is a revert
 { 87cf661af621f2bcc9314ad7ae2c65df82974f8a -> d1e063a8af57661c37da31954346b2b9f73dd9b5 }
 Partial Revert commits SHA are -> 
 87cf661af621f2bcc9314ad7ae2c65df82974f8a - revert - d1e063a8af57661c37da31954346b2b9f73dd9b5
-The reverted commit sha is - 87cf661af621f2bcc9314ad7ae2c65df82974f8a
+---> The reverted commit sha is - 87cf661af621f2bcc9314ad7ae2c65df82974f8a
 Commit message - vim-patch:7.4.422
 
 Problem:    When using conceal with linebreak some text is not displayed
@@ -744,75 +803,75 @@ Problem:    When using conceal with linebreak some text is not displayed
 Solution:   Check for conceal mode when using linebreak. (Christian Brabandt)
 
 https://code.google.com/p/vim/source/detail?r=v7-4-422
-The original commit sha is - d1e063a8af57661c37da31954346b2b9f73dd9b5
+---> The original commit sha is - d1e063a8af57661c37da31954346b2b9f73dd9b5
 Commit message - Merge pull request #1332 from splinterofchaos/listbr
 
 vim-patch:7.4.422
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/testdir/test100.in
 src/nvim/testdir/test72.in
 src/nvim/version.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 39 is -> 
+Partial Revert diff pair 42 is -> 
 { 0b775e3513098cc3ba9d7d75a93cc65f4e8a43f9 -> 6c78fd1a641bd8e15645f42a97512a0a128377e1 } is a revert
 { 56339036a741cb5ae8681bf73aec8f8d24cb1786 -> 7e1b285c575aefc6120c1444f8d781f956d3cac8 }
 Partial Revert commits SHA are -> 
 6c78fd1a641bd8e15645f42a97512a0a128377e1 - revert - 7e1b285c575aefc6120c1444f8d781f956d3cac8
-The reverted commit sha is - 6c78fd1a641bd8e15645f42a97512a0a128377e1
+---> The reverted commit sha is - 6c78fd1a641bd8e15645f42a97512a0a128377e1
 Commit message - version: remove "Running in Vi compatible mode" message #1309
-The original commit sha is - 7e1b285c575aefc6120c1444f8d781f956d3cac8
+---> The original commit sha is - 7e1b285c575aefc6120c1444f8d781f956d3cac8
 Commit message - Merge pull request #1313 from fwalch/runtime-programs
 
 CMake: Set execute permissions during installation.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 cmake/InstallHelpers.cmake
 -----------------------------------------------------------------
 
-Partial Revert diff pair 40 is -> 
+Partial Revert diff pair 43 is -> 
 { 6c78fd1a641bd8e15645f42a97512a0a128377e1 -> 9097b69088d250ddb62ae47ec96b68eaef6090cd } is a revert
 { 9097b69088d250ddb62ae47ec96b68eaef6090cd -> 56339036a741cb5ae8681bf73aec8f8d24cb1786 }
 Partial Revert commits SHA are -> 
 9097b69088d250ddb62ae47ec96b68eaef6090cd - revert - 56339036a741cb5ae8681bf73aec8f8d24cb1786
-The reverted commit sha is - 9097b69088d250ddb62ae47ec96b68eaef6090cd
+---> The reverted commit sha is - 9097b69088d250ddb62ae47ec96b68eaef6090cd
 Commit message - Fix sign column redraw
 
 Fixed a bug introduced in SHA:aa66f2487edde49b9a5ba10cd70d706d06a94e25,
 due to a misapplied patch. buf_del_sign should redraw the window if the
 sign deleted was the last one in the buffer.
 Also moved the curwin verification to the correct function.
-The original commit sha is - 56339036a741cb5ae8681bf73aec8f8d24cb1786
+---> The original commit sha is - 56339036a741cb5ae8681bf73aec8f8d24cb1786
 Commit message - Merge pull request #1311 from GokuITA/issue1295
 
 Fixed sign column redraw
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/version.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 41 is -> 
+Partial Revert diff pair 44 is -> 
 { c5f9540ccbb89ef46f733d8fbe63824cb6d364a6 -> ae743f87661dba80d89f45a63b998af05ef89935 } is a revert
 { 867aff3d2d59e84caa914c84063862b07d306f4c -> f68e7aba2c6ac3fe90a5f550e4b16e385882d16a }
 Partial Revert commits SHA are -> 
 ae743f87661dba80d89f45a63b998af05ef89935 - revert - f68e7aba2c6ac3fe90a5f550e4b16e385882d16a
-The reverted commit sha is - ae743f87661dba80d89f45a63b998af05ef89935
+---> The reverted commit sha is - ae743f87661dba80d89f45a63b998af05ef89935
 Commit message - Removes shelltype option and all revelant doc. #1249
 
 Fixes #1240
-The original commit sha is - f68e7aba2c6ac3fe90a5f550e4b16e385882d16a
+---> The original commit sha is - f68e7aba2c6ac3fe90a5f550e4b16e385882d16a
 Commit message - Merge pull request #1265 from dkns/vp-7.4.444
 
 vim-patch:7.4.444
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/mbyte.c
 src/nvim/version.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 42 is -> 
+Partial Revert diff pair 45 is -> 
 { 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
 { 2947a311e0491d65e5df428a8406a371b624545b -> 52c6727db6b2eb804188ab7cb9161c2b86b2b54b }
 Partial Revert commits SHA are -> 
 a98a6996c291b3e300d27b791eded9eed333d677 - revert - 52c6727db6b2eb804188ab7cb9161c2b86b2b54b
-The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
+---> The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
 Commit message - re-integrate runtime/  vim-patch:0  #938
 
 Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
@@ -835,120 +894,18 @@ Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
 Helped-by: drasill <github@tof2k.com>
 Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
 Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
-The original commit sha is - 52c6727db6b2eb804188ab7cb9161c2b86b2b54b
+---> The original commit sha is - 52c6727db6b2eb804188ab7cb9161c2b86b2b54b
 Commit message - doc: remove netbeans.txt
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/netbeans.txt
------------------------------------------------------------------
-
-Partial Revert diff pair 43 is -> 
-{ 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
-{ fdfa6d507d77f6620700a17351dc49737d8f344f -> 2947a311e0491d65e5df428a8406a371b624545b }
-Partial Revert commits SHA are -> 
-a98a6996c291b3e300d27b791eded9eed333d677 - revert - 2947a311e0491d65e5df428a8406a371b624545b
-The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
-Commit message - re-integrate runtime/  vim-patch:0  #938
-
-Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
-
-Excluding:
-  Amiga icons (*.info, icons/)
-  doc/hangulin.txt
-  tutor/
-  spell/
-  lang/ (only used for menu translations)
-  macros/maze/, macros/hanoi/, macros/life/, macros/urm/
-      These were used to test vi compatibility.
-  termcap
-      "Demonstration of a termcap file (for the Amiga and Archimedes)"
-
-Helped-by: Rich Wareham <rjw57@cam.ac.uk>
-Helped-by: John <john.schmidt.h@gmail.com>
-Helped-by: Yann <yann@yann-salaun.com>
-Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
-Helped-by: drasill <github@tof2k.com>
-Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
-Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
-The original commit sha is - 2947a311e0491d65e5df428a8406a371b624545b
-Commit message - doc: remove workshop.txt
-The files with partial_reverts are:-
-runtime/doc/workshop.txt
------------------------------------------------------------------
-
-Partial Revert diff pair 44 is -> 
-{ 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
-{ 83152918e12dd82ef2bbb7b7bc646250fdc1ac69 -> fdfa6d507d77f6620700a17351dc49737d8f344f }
-Partial Revert commits SHA are -> 
-a98a6996c291b3e300d27b791eded9eed333d677 - revert - fdfa6d507d77f6620700a17351dc49737d8f344f
-The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
-Commit message - re-integrate runtime/  vim-patch:0  #938
-
-Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
-
-Excluding:
-  Amiga icons (*.info, icons/)
-  doc/hangulin.txt
-  tutor/
-  spell/
-  lang/ (only used for menu translations)
-  macros/maze/, macros/hanoi/, macros/life/, macros/urm/
-      These were used to test vi compatibility.
-  termcap
-      "Demonstration of a termcap file (for the Amiga and Archimedes)"
-
-Helped-by: Rich Wareham <rjw57@cam.ac.uk>
-Helped-by: John <john.schmidt.h@gmail.com>
-Helped-by: Yann <yann@yann-salaun.com>
-Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
-Helped-by: drasill <github@tof2k.com>
-Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
-Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
-The original commit sha is - fdfa6d507d77f6620700a17351dc49737d8f344f
-Commit message - doc: remove if_ole.txt
-The files with partial_reverts are:-
-runtime/doc/if_ole.txt
------------------------------------------------------------------
-
-Partial Revert diff pair 45 is -> 
-{ 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
-{ 0c8aae645da301d5c347dd1ec24fb7f015a566d7 -> 83152918e12dd82ef2bbb7b7bc646250fdc1ac69 }
-Partial Revert commits SHA are -> 
-a98a6996c291b3e300d27b791eded9eed333d677 - revert - 83152918e12dd82ef2bbb7b7bc646250fdc1ac69
-The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
-Commit message - re-integrate runtime/  vim-patch:0  #938
-
-Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
-
-Excluding:
-  Amiga icons (*.info, icons/)
-  doc/hangulin.txt
-  tutor/
-  spell/
-  lang/ (only used for menu translations)
-  macros/maze/, macros/hanoi/, macros/life/, macros/urm/
-      These were used to test vi compatibility.
-  termcap
-      "Demonstration of a termcap file (for the Amiga and Archimedes)"
-
-Helped-by: Rich Wareham <rjw57@cam.ac.uk>
-Helped-by: John <john.schmidt.h@gmail.com>
-Helped-by: Yann <yann@yann-salaun.com>
-Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
-Helped-by: drasill <github@tof2k.com>
-Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
-Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
-The original commit sha is - 83152918e12dd82ef2bbb7b7bc646250fdc1ac69
-Commit message - doc: remove if_sniff.txt
-The files with partial_reverts are:-
-runtime/doc/if_sniff.txt
 -----------------------------------------------------------------
 
 Partial Revert diff pair 46 is -> 
 { 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
-{ f4e13150db7447b7968f8b99113d7b05418fbe3c -> 0c8aae645da301d5c347dd1ec24fb7f015a566d7 }
+{ fdfa6d507d77f6620700a17351dc49737d8f344f -> 2947a311e0491d65e5df428a8406a371b624545b }
 Partial Revert commits SHA are -> 
-a98a6996c291b3e300d27b791eded9eed333d677 - revert - 0c8aae645da301d5c347dd1ec24fb7f015a566d7
-The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
+a98a6996c291b3e300d27b791eded9eed333d677 - revert - 2947a311e0491d65e5df428a8406a371b624545b
+---> The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
 Commit message - re-integrate runtime/  vim-patch:0  #938
 
 Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
@@ -971,18 +928,18 @@ Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
 Helped-by: drasill <github@tof2k.com>
 Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
 Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
-The original commit sha is - 0c8aae645da301d5c347dd1ec24fb7f015a566d7
-Commit message - doc: remove gui_w16.txt
-The files with partial_reverts are:-
-runtime/doc/gui_w16.txt
+---> The original commit sha is - 2947a311e0491d65e5df428a8406a371b624545b
+Commit message - doc: remove workshop.txt
+---> The files with partial_reverts are:-
+runtime/doc/workshop.txt
 -----------------------------------------------------------------
 
 Partial Revert diff pair 47 is -> 
 { 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
-{ ae743f87661dba80d89f45a63b998af05ef89935 -> f4e13150db7447b7968f8b99113d7b05418fbe3c }
+{ 83152918e12dd82ef2bbb7b7bc646250fdc1ac69 -> fdfa6d507d77f6620700a17351dc49737d8f344f }
 Partial Revert commits SHA are -> 
-a98a6996c291b3e300d27b791eded9eed333d677 - revert - f4e13150db7447b7968f8b99113d7b05418fbe3c
-The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
+a98a6996c291b3e300d27b791eded9eed333d677 - revert - fdfa6d507d77f6620700a17351dc49737d8f344f
+---> The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
 Commit message - re-integrate runtime/  vim-patch:0  #938
 
 Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
@@ -1005,11 +962,113 @@ Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
 Helped-by: drasill <github@tof2k.com>
 Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
 Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
-The original commit sha is - f4e13150db7447b7968f8b99113d7b05418fbe3c
+---> The original commit sha is - fdfa6d507d77f6620700a17351dc49737d8f344f
+Commit message - doc: remove if_ole.txt
+---> The files with partial_reverts are:-
+runtime/doc/if_ole.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
+{ 0c8aae645da301d5c347dd1ec24fb7f015a566d7 -> 83152918e12dd82ef2bbb7b7bc646250fdc1ac69 }
+Partial Revert commits SHA are -> 
+a98a6996c291b3e300d27b791eded9eed333d677 - revert - 83152918e12dd82ef2bbb7b7bc646250fdc1ac69
+---> The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
+Commit message - re-integrate runtime/  vim-patch:0  #938
+
+Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
+
+Excluding:
+  Amiga icons (*.info, icons/)
+  doc/hangulin.txt
+  tutor/
+  spell/
+  lang/ (only used for menu translations)
+  macros/maze/, macros/hanoi/, macros/life/, macros/urm/
+      These were used to test vi compatibility.
+  termcap
+      "Demonstration of a termcap file (for the Amiga and Archimedes)"
+
+Helped-by: Rich Wareham <rjw57@cam.ac.uk>
+Helped-by: John <john.schmidt.h@gmail.com>
+Helped-by: Yann <yann@yann-salaun.com>
+Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
+Helped-by: drasill <github@tof2k.com>
+Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
+Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
+---> The original commit sha is - 83152918e12dd82ef2bbb7b7bc646250fdc1ac69
+Commit message - doc: remove if_sniff.txt
+---> The files with partial_reverts are:-
+runtime/doc/if_sniff.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
+{ f4e13150db7447b7968f8b99113d7b05418fbe3c -> 0c8aae645da301d5c347dd1ec24fb7f015a566d7 }
+Partial Revert commits SHA are -> 
+a98a6996c291b3e300d27b791eded9eed333d677 - revert - 0c8aae645da301d5c347dd1ec24fb7f015a566d7
+---> The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
+Commit message - re-integrate runtime/  vim-patch:0  #938
+
+Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
+
+Excluding:
+  Amiga icons (*.info, icons/)
+  doc/hangulin.txt
+  tutor/
+  spell/
+  lang/ (only used for menu translations)
+  macros/maze/, macros/hanoi/, macros/life/, macros/urm/
+      These were used to test vi compatibility.
+  termcap
+      "Demonstration of a termcap file (for the Amiga and Archimedes)"
+
+Helped-by: Rich Wareham <rjw57@cam.ac.uk>
+Helped-by: John <john.schmidt.h@gmail.com>
+Helped-by: Yann <yann@yann-salaun.com>
+Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
+Helped-by: drasill <github@tof2k.com>
+Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
+Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
+---> The original commit sha is - 0c8aae645da301d5c347dd1ec24fb7f015a566d7
+Commit message - doc: remove gui_w16.txt
+---> The files with partial_reverts are:-
+runtime/doc/gui_w16.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
+{ ae743f87661dba80d89f45a63b998af05ef89935 -> f4e13150db7447b7968f8b99113d7b05418fbe3c }
+Partial Revert commits SHA are -> 
+a98a6996c291b3e300d27b791eded9eed333d677 - revert - f4e13150db7447b7968f8b99113d7b05418fbe3c
+---> The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
+Commit message - re-integrate runtime/  vim-patch:0  #938
+
+Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
+
+Excluding:
+  Amiga icons (*.info, icons/)
+  doc/hangulin.txt
+  tutor/
+  spell/
+  lang/ (only used for menu translations)
+  macros/maze/, macros/hanoi/, macros/life/, macros/urm/
+      These were used to test vi compatibility.
+  termcap
+      "Demonstration of a termcap file (for the Amiga and Archimedes)"
+
+Helped-by: Rich Wareham <rjw57@cam.ac.uk>
+Helped-by: John <john.schmidt.h@gmail.com>
+Helped-by: Yann <yann@yann-salaun.com>
+Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
+Helped-by: drasill <github@tof2k.com>
+Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
+Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
+---> The original commit sha is - f4e13150db7447b7968f8b99113d7b05418fbe3c
 Commit message - doc: remove legacy os_*.txt
 
 keeping os_dos.txt, see #1115
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/os_amiga.txt
 runtime/doc/os_beos.txt
 runtime/doc/os_mint.txt
@@ -1018,18 +1077,18 @@ runtime/doc/os_qnx.txt
 runtime/doc/os_risc.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 48 is -> 
+Partial Revert diff pair 51 is -> 
 { 7aca07b0a74f882e59d6462597cb5d981ed2cc1f -> 5b54f3fd5e7d80ef801f16ddc958ad5ec8e5122b } is a revert
 { 60e5d8d1ccd5a07038138f18752620edebeb8a3d -> 5e65e3eae079d4765124ce791ce79649444ca403 }
 Partial Revert commits SHA are -> 
 5b54f3fd5e7d80ef801f16ddc958ad5ec8e5122b - revert - 5e65e3eae079d4765124ce791ce79649444ca403
-The reverted commit sha is - 5b54f3fd5e7d80ef801f16ddc958ad5ec8e5122b
+---> The reverted commit sha is - 5b54f3fd5e7d80ef801f16ddc958ad5ec8e5122b
 Commit message - clang: Division by zero
-The original commit sha is - 5e65e3eae079d4765124ce791ce79649444ca403
+---> The original commit sha is - 5e65e3eae079d4765124ce791ce79649444ca403
 Commit message - Merge pull request #1208 from war1025/dev/remove_for_all_windows
 
 Remove FOR_ALL_WINDOWS and replace with FOR_ALL_WINDOWS_IN_TAB(curtab)
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/buffer.c
 src/nvim/diff.c
 src/nvim/eval.c
@@ -1052,104 +1111,104 @@ src/nvim/undo.c
 src/nvim/window.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 49 is -> 
+Partial Revert diff pair 52 is -> 
 { 28429ffbf0184a79ed0b0f8e94269bbb812bfd8e -> c24dad3e59a0a332843fe262dcbe9c06e281a089 } is a revert
 { d97a8e312e506b710284ca3495ed1eb4ea172f73 -> 4b0f524915ee0e94bf9ca24fb1c1014921e610d5 }
 Partial Revert commits SHA are -> 
 c24dad3e59a0a332843fe262dcbe9c06e281a089 - revert - 4b0f524915ee0e94bf9ca24fb1c1014921e610d5
-The reverted commit sha is - c24dad3e59a0a332843fe262dcbe9c06e281a089
+---> The reverted commit sha is - c24dad3e59a0a332843fe262dcbe9c06e281a089
 Commit message - Only use CMAKE_C_COMPILER_ARG1 if it is set
-The original commit sha is - 4b0f524915ee0e94bf9ca24fb1c1014921e610d5
+---> The original commit sha is - 4b0f524915ee0e94bf9ca24fb1c1014921e610d5
 Commit message - Merge pull request #1225 from mhinz/p7.4.454
 
 vim-patch:7.4.454
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/window.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 50 is -> 
+Partial Revert diff pair 53 is -> 
 { 2b937fe00d8b0b308cce87aee9f70699f8474c1e -> bb176f4a7e6422cf3c66d2beee6ce984b7795f66 } is a revert
 { f7bb349848de3be4013e30e8a5f603aa7db5a4a8 -> d97a8e312e506b710284ca3495ed1eb4ea172f73 }
 Partial Revert commits SHA are -> 
 bb176f4a7e6422cf3c66d2beee6ce984b7795f66 - revert - d97a8e312e506b710284ca3495ed1eb4ea172f73
-The reverted commit sha is - bb176f4a7e6422cf3c66d2beee6ce984b7795f66
+---> The reverted commit sha is - bb176f4a7e6422cf3c66d2beee6ce984b7795f66
 Commit message - doc: fix links to index.html and vimindex.html
-The original commit sha is - d97a8e312e506b710284ca3495ed1eb4ea172f73
+---> The original commit sha is - d97a8e312e506b710284ca3495ed1eb4ea172f73
 Commit message - Merge pull request #1209 from atwupack/vp-7.4.320
 
 vim-patch:7.4.320
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/buffer.c
 src/nvim/fileio.c
 src/nvim/globals.h
 src/nvim/window.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 51 is -> 
+Partial Revert diff pair 54 is -> 
 { 1a7c83d77d5bf7030c7609916d0cd8ddfa7cc53f -> 3b0437916424cde16ce4c4dd13faa70b68a84a7d } is a revert
 { 176f16066b52f437b098d3d4d8dee5c5bf2e8865 -> f7bb349848de3be4013e30e8a5f603aa7db5a4a8 }
 Partial Revert commits SHA are -> 
 3b0437916424cde16ce4c4dd13faa70b68a84a7d - revert - f7bb349848de3be4013e30e8a5f603aa7db5a4a8
-The reverted commit sha is - 3b0437916424cde16ce4c4dd13faa70b68a84a7d
+---> The reverted commit sha is - 3b0437916424cde16ce4c4dd13faa70b68a84a7d
 Commit message - Merge pull request #1210 from atwupack/vp-7.4.360
 
 vim-patch:7.4.360
-The original commit sha is - f7bb349848de3be4013e30e8a5f603aa7db5a4a8
+---> The original commit sha is - f7bb349848de3be4013e30e8a5f603aa7db5a4a8
 Commit message - Merge pull request #1220 from atwupack/vp-7.4.411
 
 vim-patch:7.4.411
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/eval.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 52 is -> 
+Partial Revert diff pair 55 is -> 
 { 57d497c51b1159052cb53c9e4db0388626b35903 -> 1a7c83d77d5bf7030c7609916d0cd8ddfa7cc53f } is a revert
 { d41eb83019ccaf78fe172da3477a07aaf645ba3d -> 176f16066b52f437b098d3d4d8dee5c5bf2e8865 }
 Partial Revert commits SHA are -> 
 1a7c83d77d5bf7030c7609916d0cd8ddfa7cc53f - revert - 176f16066b52f437b098d3d4d8dee5c5bf2e8865
-The reverted commit sha is - 1a7c83d77d5bf7030c7609916d0cd8ddfa7cc53f
+---> The reverted commit sha is - 1a7c83d77d5bf7030c7609916d0cd8ddfa7cc53f
 Commit message - vim-patch:7.4.411
 
 Problem:    "foo bar" sorts before "foo" with sort(). (John Little)
 Solution:   Avoid putting quotes around strings before comparing them.
 
 https://code.google.com/p/vim/source/detail?r=v7-4-411
-The original commit sha is - 176f16066b52f437b098d3d4d8dee5c5bf2e8865
+---> The original commit sha is - 176f16066b52f437b098d3d4d8dee5c5bf2e8865
 Commit message - Merge pull request #1219 from atwupack/vp-7.4.386
 
 vim-patch:7.4.386
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/testdir/Makefile
 src/nvim/testdir/test_changelist.in
 src/nvim/testdir/test_changelist.ok
 src/nvim/window.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 53 is -> 
+Partial Revert diff pair 56 is -> 
 { 78d17e1f78ed46f611b4ce448a786305ead7c36c -> 9b6f192693b02e2e5547baf7885d91e61eaa7735 } is a revert
 { ea26283cf6fc594d0de4ae4cc3dcd5018f55dd4d -> d41eb83019ccaf78fe172da3477a07aaf645ba3d }
 Partial Revert commits SHA are -> 
 9b6f192693b02e2e5547baf7885d91e61eaa7735 - revert - d41eb83019ccaf78fe172da3477a07aaf645ba3d
-The reverted commit sha is - 9b6f192693b02e2e5547baf7885d91e61eaa7735
+---> The reverted commit sha is - 9b6f192693b02e2e5547baf7885d91e61eaa7735
 Commit message - Replace FOR_ALL_WINDOWS with FOR_ALL_WINDOWS_IN_TAB(curtab)
-The original commit sha is - d41eb83019ccaf78fe172da3477a07aaf645ba3d
+---> The original commit sha is - d41eb83019ccaf78fe172da3477a07aaf645ba3d
 Commit message - Merge pull request #1236 from atwupack/vp-7.4.391
 
 vim-patch:7.4.391
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/version.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 54 is -> 
+Partial Revert diff pair 57 is -> 
 { 78d17e1f78ed46f611b4ce448a786305ead7c36c -> 9b6f192693b02e2e5547baf7885d91e61eaa7735 } is a revert
 { 7aca07b0a74f882e59d6462597cb5d981ed2cc1f -> 5b54f3fd5e7d80ef801f16ddc958ad5ec8e5122b }
 Partial Revert commits SHA are -> 
 9b6f192693b02e2e5547baf7885d91e61eaa7735 - revert - 5b54f3fd5e7d80ef801f16ddc958ad5ec8e5122b
-The reverted commit sha is - 9b6f192693b02e2e5547baf7885d91e61eaa7735
+---> The reverted commit sha is - 9b6f192693b02e2e5547baf7885d91e61eaa7735
 Commit message - Replace FOR_ALL_WINDOWS with FOR_ALL_WINDOWS_IN_TAB(curtab)
-The original commit sha is - 5b54f3fd5e7d80ef801f16ddc958ad5ec8e5122b
+---> The original commit sha is - 5b54f3fd5e7d80ef801f16ddc958ad5ec8e5122b
 Commit message - clang: Division by zero
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/buffer.c
 src/nvim/diff.c
 src/nvim/eval.c
@@ -1170,14 +1229,14 @@ src/nvim/undo.c
 src/nvim/window.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 55 is -> 
+Partial Revert diff pair 58 is -> 
 { 28429ffbf0184a79ed0b0f8e94269bbb812bfd8e -> c24dad3e59a0a332843fe262dcbe9c06e281a089 } is a revert
 { bd1ecad4f13c75bd10daf0b542fdc95aaa347dc4 -> 78d17e1f78ed46f611b4ce448a786305ead7c36c }
 Partial Revert commits SHA are -> 
 c24dad3e59a0a332843fe262dcbe9c06e281a089 - revert - 78d17e1f78ed46f611b4ce448a786305ead7c36c
-The reverted commit sha is - c24dad3e59a0a332843fe262dcbe9c06e281a089
+---> The reverted commit sha is - c24dad3e59a0a332843fe262dcbe9c06e281a089
 Commit message - Only use CMAKE_C_COMPILER_ARG1 if it is set
-The original commit sha is - 78d17e1f78ed46f611b4ce448a786305ead7c36c
+---> The original commit sha is - 78d17e1f78ed46f611b4ce448a786305ead7c36c
 Commit message - vim-patch:7.4.391
 
 Problem:    No 'cursorline' highlighting when the cursor is on a line with
@@ -1185,89 +1244,89 @@ Problem:    No 'cursorline' highlighting when the cursor is on a line with
 Solution:   Combine the highlight attributes. (Christian Brabandt)
 
 https://code.google.com/p/vim/source/detail?r=v7-4-391
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 third-party/CMakeLists.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 56 is -> 
+Partial Revert diff pair 59 is -> 
 { ea492696cfbb5912b9b42112159a028e24f9e2fc -> 8eef40deafdb373c271edf2d8ac6be22b7451523 } is a revert
 { 3b0437916424cde16ce4c4dd13faa70b68a84a7d -> 21f1802b8af60878c5c83032732cb1b4e1ef7f34 }
 Partial Revert commits SHA are -> 
 8eef40deafdb373c271edf2d8ac6be22b7451523 - revert - 21f1802b8af60878c5c83032732cb1b4e1ef7f34
-The reverted commit sha is - 8eef40deafdb373c271edf2d8ac6be22b7451523
+---> The reverted commit sha is - 8eef40deafdb373c271edf2d8ac6be22b7451523
 Commit message - Merge pull request #1187 from Shougo/vim-patch-7.4.361
 
 vim-patch:7.4.361
-The original commit sha is - 21f1802b8af60878c5c83032732cb1b4e1ef7f34
+---> The original commit sha is - 21f1802b8af60878c5c83032732cb1b4e1ef7f34
 Commit message - Merge pull request #1207 from atwupack/vp-7.4.407
 
 vim-patch:7.4.407
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/edit.c
 src/nvim/testdir/test39.in
 -----------------------------------------------------------------
 
-Partial Revert diff pair 57 is -> 
+Partial Revert diff pair 60 is -> 
 { b57d6ef09a86d3cf26a3ebc0fa03a5af21bd2e27 -> 16fb7fa960ad7ed794a1105d164e1f9d3c6abb87 } is a revert
 { bb176f4a7e6422cf3c66d2beee6ce984b7795f66 -> 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908 }
 Partial Revert commits SHA are -> 
 16fb7fa960ad7ed794a1105d164e1f9d3c6abb87 - revert - 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908
-The reverted commit sha is - 16fb7fa960ad7ed794a1105d164e1f9d3c6abb87
+---> The reverted commit sha is - 16fb7fa960ad7ed794a1105d164e1f9d3c6abb87
 Commit message - vim-patch:7.4.365
 
 Problem:    Crash when using ":botright split" when there isn't much space.
 Solution:   Add a check for the minimum width/height. (Yukihiro Nakadaira)
 
 https://code.google.com/p/vim/source/detail?r=v7-4-365
-The original commit sha is - 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908
+---> The original commit sha is - 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908
 Commit message - Merge pull request #1011 from stefan991/cleanup-docs
 
 Cleanup user documentation build
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/eval.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 58 is -> 
+Partial Revert diff pair 61 is -> 
 { 2b937fe00d8b0b308cce87aee9f70699f8474c1e -> bb176f4a7e6422cf3c66d2beee6ce984b7795f66 } is a revert
 { bb176f4a7e6422cf3c66d2beee6ce984b7795f66 -> 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908 }
 Partial Revert commits SHA are -> 
 bb176f4a7e6422cf3c66d2beee6ce984b7795f66 - revert - 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908
-The reverted commit sha is - bb176f4a7e6422cf3c66d2beee6ce984b7795f66
+---> The reverted commit sha is - bb176f4a7e6422cf3c66d2beee6ce984b7795f66
 Commit message - doc: fix links to index.html and vimindex.html
-The original commit sha is - 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908
+---> The original commit sha is - 2f212ca2ebec9a735c3ae4904fc1a1adbeb5d908
 Commit message - Merge pull request #1011 from stefan991/cleanup-docs
 
 Cleanup user documentation build
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/eval.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 59 is -> 
+Partial Revert diff pair 62 is -> 
 { b57d6ef09a86d3cf26a3ebc0fa03a5af21bd2e27 -> 16fb7fa960ad7ed794a1105d164e1f9d3c6abb87 } is a revert
 { 9d4e8fffa11f1794a385165a14a9a84e69ac26ec -> 0ed9f3ec8338783466b0a6ab2661d9a061a436fa }
 Partial Revert commits SHA are -> 
 16fb7fa960ad7ed794a1105d164e1f9d3c6abb87 - revert - 0ed9f3ec8338783466b0a6ab2661d9a061a436fa
-The reverted commit sha is - 16fb7fa960ad7ed794a1105d164e1f9d3c6abb87
+---> The reverted commit sha is - 16fb7fa960ad7ed794a1105d164e1f9d3c6abb87
 Commit message - vim-patch:7.4.365
 
 Problem:    Crash when using ":botright split" when there isn't much space.
 Solution:   Add a check for the minimum width/height. (Yukihiro Nakadaira)
 
 https://code.google.com/p/vim/source/detail?r=v7-4-365
-The original commit sha is - 0ed9f3ec8338783466b0a6ab2661d9a061a436fa
+---> The original commit sha is - 0ed9f3ec8338783466b0a6ab2661d9a061a436fa
 Commit message - Merge pull request #1197 from Shougo/vim-patch-7.4.392
 
 vim-patch:7.4.392
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/eval.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 60 is -> 
+Partial Revert diff pair 63 is -> 
 { 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
 { 1f7289b4076e35535698f17cf638a7941b2e5a0e -> 7860b09f659efbcb0259657cf16e9eb7bc15be79 }
 Partial Revert commits SHA are -> 
 a98a6996c291b3e300d27b791eded9eed333d677 - revert - 7860b09f659efbcb0259657cf16e9eb7bc15be79
-The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
+---> The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
 Commit message - re-integrate runtime/  vim-patch:0  #938
 
 Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
@@ -1290,12 +1349,12 @@ Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
 Helped-by: drasill <github@tof2k.com>
 Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
 Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
-The original commit sha is - 7860b09f659efbcb0259657cf16e9eb7bc15be79
+---> The original commit sha is - 7860b09f659efbcb0259657cf16e9eb7bc15be79
 Commit message - doc: remove encoding conversion targets
 
 this deletes the source files wich have an utf-8 generated file.
 in the next step the generated *UTF-8.1* files will be renamed.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/evim-fr.1
 runtime/doc/evim-it.1
 runtime/doc/evim-pl.1
@@ -1319,12 +1378,12 @@ runtime/doc/xxd-pl.1
 runtime/doc/xxd-ru.1
 -----------------------------------------------------------------
 
-Partial Revert diff pair 61 is -> 
+Partial Revert diff pair 64 is -> 
 { 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
 { 178bafc290892c5038b7041dc24e783d0ce229d5 -> 787f879b835a3882d76b9fb1bce5e15bfb7e8910 }
 Partial Revert commits SHA are -> 
 a98a6996c291b3e300d27b791eded9eed333d677 - revert - 787f879b835a3882d76b9fb1bce5e15bfb7e8910
-The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
+---> The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
 Commit message - re-integrate runtime/  vim-patch:0  #938
 
 Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
@@ -1347,41 +1406,41 @@ Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
 Helped-by: drasill <github@tof2k.com>
 Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
 Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
-The original commit sha is - 787f879b835a3882d76b9fb1bce5e15bfb7e8910
+---> The original commit sha is - 787f879b835a3882d76b9fb1bce5e15bfb7e8910
 Commit message - doc: remove generated manpages
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/vim.man
 runtime/doc/vimdiff.man
 runtime/doc/vimtutor.man
 runtime/doc/xxd.man
 -----------------------------------------------------------------
 
-Partial Revert diff pair 62 is -> 
+Partial Revert diff pair 65 is -> 
 { 102af4f82303e1bada777769df0c88c5637c9129 -> c5c506666c20c371ba17a626de0bb913080663dc } is a revert
 { a85f7d35d805f05b6b432d167c129448ffc83fa4 -> dc6db20febf1ce1848e87f8950c48a78aaffd8f6 }
 Partial Revert commits SHA are -> 
 c5c506666c20c371ba17a626de0bb913080663dc - revert - dc6db20febf1ce1848e87f8950c48a78aaffd8f6
-The reverted commit sha is - c5c506666c20c371ba17a626de0bb913080663dc
+---> The reverted commit sha is - c5c506666c20c371ba17a626de0bb913080663dc
 Commit message - vim-patch:7.4.382
 
 Problem:    Mapping characters may not work after typing Esc in Insert mode.
 Solution:   Fix the noremap flags for inserted characters. (Jacob Niehus)
 
 https://code.google.com/p/vim/source/detail?r=v7-4-382
-The original commit sha is - dc6db20febf1ce1848e87f8950c48a78aaffd8f6
+---> The original commit sha is - dc6db20febf1ce1848e87f8950c48a78aaffd8f6
 Commit message - Merge pull request #1194 from Shougo/vim-patch-7.4.410
 
 vim-patch:7.4.410
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/ex_getln.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 63 is -> 
+Partial Revert diff pair 66 is -> 
 { 1fe6dc03aa924110cca27fd993c584ed1b3c7c83 -> 102af4f82303e1bada777769df0c88c5637c9129 } is a revert
 { 1fdfe3a484bf8f1c452023439ce2c9e61b856299 -> a85f7d35d805f05b6b432d167c129448ffc83fa4 }
 Partial Revert commits SHA are -> 
 102af4f82303e1bada777769df0c88c5637c9129 - revert - a85f7d35d805f05b6b432d167c129448ffc83fa4
-The reverted commit sha is - 102af4f82303e1bada777769df0c88c5637c9129
+---> The reverted commit sha is - 102af4f82303e1bada777769df0c88c5637c9129
 Commit message - vim-patch:7.4.410
 
 Problem:    Fold does not open after search when there is a CmdwinLeave
@@ -1389,20 +1448,20 @@ Problem:    Fold does not open after search when there is a CmdwinLeave
 Solution:   Restore KeyTyped. (Jacob Niehus)
 
 https://code.google.com/p/vim/source/detail?r=v7-4-410
-The original commit sha is - a85f7d35d805f05b6b432d167c129448ffc83fa4
+---> The original commit sha is - a85f7d35d805f05b6b432d167c129448ffc83fa4
 Commit message - Merge pull request #1189 from Shougo/vim-patch-7.4.374
 
 vim-patch:7.4.374
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/normal.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 64 is -> 
+Partial Revert diff pair 67 is -> 
 { 9829febebcd9165c3913c7a6995b2e5ef4eacc1c -> 1fe6dc03aa924110cca27fd993c584ed1b3c7c83 } is a revert
 { 8eef40deafdb373c271edf2d8ac6be22b7451523 -> 1fdfe3a484bf8f1c452023439ce2c9e61b856299 }
 Partial Revert commits SHA are -> 
 1fe6dc03aa924110cca27fd993c584ed1b3c7c83 - revert - 1fdfe3a484bf8f1c452023439ce2c9e61b856299
-The reverted commit sha is - 1fe6dc03aa924110cca27fd993c584ed1b3c7c83
+---> The reverted commit sha is - 1fe6dc03aa924110cca27fd993c584ed1b3c7c83
 Commit message - vim-patch:7.4.374
 
 Problem:    Character after "fb" command not mapped if it might be a composing
@@ -1411,60 +1470,60 @@ Solution:   Don't disable mapping when looking for a composing character.
             (Jacob Niehus)
 
 https://code.google.com/p/vim/source/detail?r=v7-4-374
-The original commit sha is - 1fdfe3a484bf8f1c452023439ce2c9e61b856299
+---> The original commit sha is - 1fdfe3a484bf8f1c452023439ce2c9e61b856299
 Commit message - Merge pull request #1188 from Shougo/vim-patch-7.4.364
 
 vim-patch:7.4.364
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/ex_cmds.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 65 is -> 
+Partial Revert diff pair 68 is -> 
 { 693bf89f2a13c9a8ed58655bbe7b0ee3536ac98c -> b57d6ef09a86d3cf26a3ebc0fa03a5af21bd2e27 } is a revert
 { fe446c86cf752961fab84f92aa4956aaa4dc3f6f -> 67a16384a46c5eb51ba43d9150e95a1742cffbde }
 Partial Revert commits SHA are -> 
 b57d6ef09a86d3cf26a3ebc0fa03a5af21bd2e27 - revert - 67a16384a46c5eb51ba43d9150e95a1742cffbde
-The reverted commit sha is - b57d6ef09a86d3cf26a3ebc0fa03a5af21bd2e27
+---> The reverted commit sha is - b57d6ef09a86d3cf26a3ebc0fa03a5af21bd2e27
 Commit message - vim-patch:7.4.392
 
 Problem:    Not easy to detect type of command line window.
 Solution:   Add the getcmdwintype() function. (Jacob Niehus)
 
 https://code.google.com/p/vim/source/detail?r=v7-4-392
-The original commit sha is - 67a16384a46c5eb51ba43d9150e95a1742cffbde
+---> The original commit sha is - 67a16384a46c5eb51ba43d9150e95a1742cffbde
 Commit message - Merge pull request #1193 from Shougo/vim-patch-7.4.383
 
 vim-patch:7.4.383
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/popupmnu.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 66 is -> 
+Partial Revert diff pair 69 is -> 
 { 3b9a44fbeaef504e28120f0fdd07f438be00aec3 -> 693bf89f2a13c9a8ed58655bbe7b0ee3536ac98c } is a revert
 { e2c111384b97532d7601519e3501f480e932c0cd -> fe446c86cf752961fab84f92aa4956aaa4dc3f6f }
 Partial Revert commits SHA are -> 
 693bf89f2a13c9a8ed58655bbe7b0ee3536ac98c - revert - fe446c86cf752961fab84f92aa4956aaa4dc3f6f
-The reverted commit sha is - 693bf89f2a13c9a8ed58655bbe7b0ee3536ac98c
+---> The reverted commit sha is - 693bf89f2a13c9a8ed58655bbe7b0ee3536ac98c
 Commit message - vim-patch:7.4.383
 
 Problem:    Bad interaction between preview window and omnifunc.
 Solution:   Avoid redrawing the status line. (Hirohito Higashi)
 
 https://code.google.com/p/vim/source/detail?r=v7-4-383
-The original commit sha is - fe446c86cf752961fab84f92aa4956aaa4dc3f6f
+---> The original commit sha is - fe446c86cf752961fab84f92aa4956aaa4dc3f6f
 Commit message - Merge pull request #1196 from Shougo/vim-patch-7.4.381
 
 vim-patch: 7.4.381
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/edit.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 67 is -> 
+Partial Revert diff pair 70 is -> 
 { 1a2338bbad3f3832d739195b8375a491e0560dd3 -> 3b9a44fbeaef504e28120f0fdd07f438be00aec3 } is a revert
 { 39882b85b6e32b0250f4188f165669a6ac37849c -> e2c111384b97532d7601519e3501f480e932c0cd }
 Partial Revert commits SHA are -> 
 3b9a44fbeaef504e28120f0fdd07f438be00aec3 - revert - e2c111384b97532d7601519e3501f480e932c0cd
-The reverted commit sha is - 3b9a44fbeaef504e28120f0fdd07f438be00aec3
+---> The reverted commit sha is - 3b9a44fbeaef504e28120f0fdd07f438be00aec3
 Commit message - vim-patch: 7.4.381
 
 Problem:    Get u_undo error when backspacing in Insert mode deletes more than
@@ -1472,85 +1531,85 @@ Problem:    Get u_undo error when backspacing in Insert mode deletes more than
 Solution:   Also decrement Insstart.lnum.
 
 https://code.google.com/p/vim/source/detail?r=v7-4-381
-The original commit sha is - e2c111384b97532d7601519e3501f480e932c0cd
+---> The original commit sha is - e2c111384b97532d7601519e3501f480e932c0cd
 Commit message - Merge pull request #1195 from Shougo/vim-patch-7.4.379
 
 vim-patch:7.4.379
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/quickfix.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 68 is -> 
+Partial Revert diff pair 71 is -> 
 { 9ede170e7ebe6571191b79a0e8c2c66ca620c41d -> 51438d8e142303456bf4ba52c4b9dde4df00aa3d } is a revert
 { 7fcc504fa689c7cfdd27d7bed10cc46cc81d16d0 -> 8d6540f8764c4a691e22890258599d74b43b52e6 }
 Partial Revert commits SHA are -> 
 51438d8e142303456bf4ba52c4b9dde4df00aa3d - revert - 8d6540f8764c4a691e22890258599d74b43b52e6
-The reverted commit sha is - 51438d8e142303456bf4ba52c4b9dde4df00aa3d
+---> The reverted commit sha is - 51438d8e142303456bf4ba52c4b9dde4df00aa3d
 Commit message - channel: Remove code for automatically closing in channel_send_call
 
 This was causing a segfault(reported in #1125) because channels are already
 closed by `parse_msgpack` when the connection ends. Also fix the RPC stack
 overflow error message
-The original commit sha is - 8d6540f8764c4a691e22890258599d74b43b52e6
+---> The original commit sha is - 8d6540f8764c4a691e22890258599d74b43b52e6
 Commit message - Merge pull request #1129 from justinmk/clang
 
 clang: Null pointer passed as an argument to a 'nonnull' parameter
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/misc1.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 69 is -> 
+Partial Revert diff pair 72 is -> 
 { f5320f645b325546f13289a708ba2efce3204c87 -> aab5f1a898ad7110bd9ed3baf6735618ff2f616e } is a revert
 { 36d3a7dc78181cd865f9e5a592efc77978bd1cb8 -> fd60b8ee7e2496d08e3aa1166d171e87cb3314b9 }
 Partial Revert commits SHA are -> 
 aab5f1a898ad7110bd9ed3baf6735618ff2f616e - revert - fd60b8ee7e2496d08e3aa1166d171e87cb3314b9
-The reverted commit sha is - aab5f1a898ad7110bd9ed3baf6735618ff2f616e
+---> The reverted commit sha is - aab5f1a898ad7110bd9ed3baf6735618ff2f616e
 Commit message - deps: Update msgpack
 
 The new version fixes serialization/deserialization of EXT 8/16/32
-The original commit sha is - fd60b8ee7e2496d08e3aa1166d171e87cb3314b9
+---> The original commit sha is - fd60b8ee7e2496d08e3aa1166d171e87cb3314b9
 Commit message - Merge pull request #1183 from Shougo/vim-patch-7.4.368
 
 vim-patch:7.4.368
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/version.c
 src/nvim/window.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 70 is -> 
+Partial Revert diff pair 73 is -> 
 { eeef120c86bca2dd69a8392f6aee73ba438bf392 -> 5778c25c019f01c3e0249da18398abdca3f9b002 } is a revert
 { 874296331b70f233e0fbd292e459b84d81d8349c -> 3b7b79e37d3479633701ad1d2ea4912d5c17c93b }
 Partial Revert commits SHA are -> 
 5778c25c019f01c3e0249da18398abdca3f9b002 - revert - 3b7b79e37d3479633701ad1d2ea4912d5c17c93b
-The reverted commit sha is - 5778c25c019f01c3e0249da18398abdca3f9b002
+---> The reverted commit sha is - 5778c25c019f01c3e0249da18398abdca3f9b002
 Commit message - Merge pull request #1167 from atwupack/fix-issue-1164
 
 ex_cmds2.c:fix for issue #1164
-The original commit sha is - 3b7b79e37d3479633701ad1d2ea4912d5c17c93b
+---> The original commit sha is - 3b7b79e37d3479633701ad1d2ea4912d5c17c93b
 Commit message - Merge pull request #1140 from atwupack/vp-7.4.341
 
 vim-patch:7.4.341, 7.4.347, 7.4.351, 7.4.358
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/eval.c
 src/nvim/testdir/test55.in
 src/nvim/testdir/test55.ok
 src/nvim/version.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 71 is -> 
+Partial Revert diff pair 74 is -> 
 { 4f3d49d92104b871975f963d3f7cb1df111c577b -> 037ca796a0782fc03409dd7f9500113937ed32b7 } is a revert
 { 3ec4e18cd00700abdffb564835dd4cd7e68a0093 -> 874296331b70f233e0fbd292e459b84d81d8349c }
 Partial Revert commits SHA are -> 
 037ca796a0782fc03409dd7f9500113937ed32b7 - revert - 874296331b70f233e0fbd292e459b84d81d8349c
-The reverted commit sha is - 037ca796a0782fc03409dd7f9500113937ed32b7
+---> The reverted commit sha is - 037ca796a0782fc03409dd7f9500113937ed32b7
 Commit message - eval.c: Rename has('neovim') feature to has('nvim')
 
 To follow the convention of 'nvim' for technical references
-The original commit sha is - 874296331b70f233e0fbd292e459b84d81d8349c
+---> The original commit sha is - 874296331b70f233e0fbd292e459b84d81d8349c
 Commit message - Merge pull request #1177 from NOLFXceptMe/vp-7.4.387
 
 vim-patch:7.4.387
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/edit.c
 src/nvim/getchar.c
 src/nvim/testdir/Makefile
@@ -1558,21 +1617,21 @@ src/nvim/testdir/test_insertcount.in
 src/nvim/testdir/test_insertcount.ok
 -----------------------------------------------------------------
 
-Partial Revert diff pair 72 is -> 
+Partial Revert diff pair 75 is -> 
 { def28adfdd7a9ee643224e36f3f601f9f7222f46 -> 2d1b5589e850ac7e35574790539cff6430bfa14f } is a revert
 { 53ef7038d84ead3094b828ac0fc540d10e99c1fe -> 5d35484203cb950a7ba0ed0d9428cb58b37212ff }
 Partial Revert commits SHA are -> 
 2d1b5589e850ac7e35574790539cff6430bfa14f - revert - 5d35484203cb950a7ba0ed0d9428cb58b37212ff
-The reverted commit sha is - 2d1b5589e850ac7e35574790539cff6430bfa14f
+---> The reverted commit sha is - 2d1b5589e850ac7e35574790539cff6430bfa14f
 Commit message - server: Rename address environment variable
 
 To follow the pattern of using NVIM for technical descriptions, it was renamed
 to NVIM_LISTEN_ADDRESS
-The original commit sha is - 5d35484203cb950a7ba0ed0d9428cb58b37212ff
+---> The original commit sha is - 5d35484203cb950a7ba0ed0d9428cb58b37212ff
 Commit message - Merge pull request #1169 from splinterofchaos/arglistid
 
 vim-patch:7.4.312
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/buffer_defs.h
 src/nvim/eval.c
 src/nvim/ex_docmd.c
@@ -1581,18 +1640,18 @@ src/nvim/main.c
 src/nvim/version.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 73 is -> 
+Partial Revert diff pair 76 is -> 
 { 06390208f3480f108591988602c46d4926a2e9ae -> 959ebfd5c27e19be93cf86722e2c370da06d1152 } is a revert
 { 959ebfd5c27e19be93cf86722e2c370da06d1152 -> 0838b9773958d06b87e4b290b2716f19f904fa95 }
 Partial Revert commits SHA are -> 
 959ebfd5c27e19be93cf86722e2c370da06d1152 - revert - 0838b9773958d06b87e4b290b2716f19f904fa95
-The reverted commit sha is - 959ebfd5c27e19be93cf86722e2c370da06d1152
+---> The reverted commit sha is - 959ebfd5c27e19be93cf86722e2c370da06d1152
 Commit message - 7.4.371
-The original commit sha is - 0838b9773958d06b87e4b290b2716f19f904fa95
+---> The original commit sha is - 0838b9773958d06b87e4b290b2716f19f904fa95
 Commit message - Merge pull request #1165 from splinterofchaos/fix-patch-371
 
 7.4.371.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/autocmd.txt
 runtime/doc/eval.txt
 runtime/doc/job_control.txt
@@ -1610,23 +1669,23 @@ src/nvim/ex_cmds2.c
 src/nvim/os/server.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 74 is -> 
+Partial Revert diff pair 77 is -> 
 { 0a01b3052e02b5ee94d4e7537278163639317bd8 -> f4f9e7eaf34d9a91c4a280aa01f865a5e30634e5 } is a revert
 { 5ca1f974620fd8922aba4bde2a318ad8bf3a9d51 -> 042aca6eb4d0fe9e6ddf3bcfb96a39838b2633d1 }
 Partial Revert commits SHA are -> 
 f4f9e7eaf34d9a91c4a280aa01f865a5e30634e5 - revert - 042aca6eb4d0fe9e6ddf3bcfb96a39838b2633d1
-The reverted commit sha is - f4f9e7eaf34d9a91c4a280aa01f865a5e30634e5
+---> The reverted commit sha is - f4f9e7eaf34d9a91c4a280aa01f865a5e30634e5
 Commit message - vim-patch:7.4.348
 
 Problem:    When using "J1" in 'cinoptions' a line below a continuation line gets too much indent.
 Solution:   Fix parenthesis in condition.
 
 https://code.google.com/p/vim/source/detail?r=v7-4-348
-The original commit sha is - 042aca6eb4d0fe9e6ddf3bcfb96a39838b2633d1
+---> The original commit sha is - 042aca6eb4d0fe9e6ddf3bcfb96a39838b2633d1
 Commit message - Merge pull request #1098 from fwalch/update-busted
 
 Update busted to version 2.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .ci/gcc-ia32.sh
 .ci/gcc-unittest.sh
 CMakeLists.txt
@@ -1634,75 +1693,75 @@ cmake/RunUnittests.cmake
 third-party/CMakeLists.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 75 is -> 
+Partial Revert diff pair 78 is -> 
 { 579e0baba03482e3b1f9a83cdb54c1b8871eb5e2 -> 0a01b3052e02b5ee94d4e7537278163639317bd8 } is a revert
 { 32543726026e245dd2a6238c6730c646945e2a48 -> 5ca1f974620fd8922aba4bde2a318ad8bf3a9d51 }
 Partial Revert commits SHA are -> 
 0a01b3052e02b5ee94d4e7537278163639317bd8 - revert - 5ca1f974620fd8922aba4bde2a318ad8bf3a9d51
-The reverted commit sha is - 0a01b3052e02b5ee94d4e7537278163639317bd8
+---> The reverted commit sha is - 0a01b3052e02b5ee94d4e7537278163639317bd8
 Commit message - Update busted to 2.0.rc3.
 
 Default to verbose output to show more information in case of errors.
 Fix #1031.
-The original commit sha is - 5ca1f974620fd8922aba4bde2a318ad8bf3a9d51
+---> The original commit sha is - 5ca1f974620fd8922aba4bde2a318ad8bf3a9d51
 Commit message - Merge pull request #1037 from fwalch/automatic-deps-paths
 
 Travis: Add subdirectories to dependency paths.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .ci/api-python.sh
 .ci/clang-asan.sh
 .ci/common.sh
 -----------------------------------------------------------------
 
-Partial Revert diff pair 76 is -> 
+Partial Revert diff pair 79 is -> 
 { 60371bb1bbde7377a270413d62a00ae5271b3ff7 -> 867bdae5c2399040af9a6885c279ec1838fc756a } is a revert
 { 867bdae5c2399040af9a6885c279ec1838fc756a -> c54baaa319c95fa5fb7544ce7282ffb14a976902 }
 Partial Revert commits SHA are -> 
 867bdae5c2399040af9a6885c279ec1838fc756a - revert - c54baaa319c95fa5fb7544ce7282ffb14a976902
-The reverted commit sha is - 867bdae5c2399040af9a6885c279ec1838fc756a
+---> The reverted commit sha is - 867bdae5c2399040af9a6885c279ec1838fc756a
 Commit message - Merge pull request #1158 from atwupack/vp-7.4.337
 
 vim-patch:7.4.337
-The original commit sha is - c54baaa319c95fa5fb7544ce7282ffb14a976902
+---> The original commit sha is - c54baaa319c95fa5fb7544ce7282ffb14a976902
 Commit message - Merge pull request #1159 from atwupack/vp-7.4.345
 
 vim-patch:7.4.345
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/indent.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 77 is -> 
+Partial Revert diff pair 80 is -> 
 { 7738e723e98b53ee6694bba454f43770850a6125 -> 68b9b4360765860a1ab68d63325dff0b50d8fd6f } is a revert
 { 68b9b4360765860a1ab68d63325dff0b50d8fd6f -> 34c418fceb457bb21bf365311ce558d2d616b24a }
 Partial Revert commits SHA are -> 
 68b9b4360765860a1ab68d63325dff0b50d8fd6f - revert - 34c418fceb457bb21bf365311ce558d2d616b24a
-The reverted commit sha is - 68b9b4360765860a1ab68d63325dff0b50d8fd6f
+---> The reverted commit sha is - 68b9b4360765860a1ab68d63325dff0b50d8fd6f
 Commit message - Fix version numbers
-The original commit sha is - 34c418fceb457bb21bf365311ce558d2d616b24a
+---> The original commit sha is - 34c418fceb457bb21bf365311ce558d2d616b24a
 Commit message - Merge pull request #1154 from Shougo/fix-NAs
 
 Fix #1147 version numbers
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/eval.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 78 is -> 
+Partial Revert diff pair 81 is -> 
 { 9fa467a9b227243c9c534ae0df1bdaf8235551a0 -> f85053ccf755f6b4ddf4c68af01a81dbe81504ae } is a revert
 { f85053ccf755f6b4ddf4c68af01a81dbe81504ae -> 7738e723e98b53ee6694bba454f43770850a6125 }
 Partial Revert commits SHA are -> 
 f85053ccf755f6b4ddf4c68af01a81dbe81504ae - revert - 7738e723e98b53ee6694bba454f43770850a6125
-The reverted commit sha is - f85053ccf755f6b4ddf4c68af01a81dbe81504ae
+---> The reverted commit sha is - f85053ccf755f6b4ddf4c68af01a81dbe81504ae
 Commit message - vim-patch:7.4.278
 
 Problem:    list_remove() conflicts with function defined in Sun header file.
 Solution:   Rename the function. (Richard Palo)
 
 https://code.google.com/p/vim/source/detail?r=v7-4-278
-The original commit sha is - 7738e723e98b53ee6694bba454f43770850a6125
+---> The original commit sha is - 7738e723e98b53ee6694bba454f43770850a6125
 Commit message - Merge pull request #1149 from splinterofchaos/vim-patch-7.4.278
 
 vim-patch:7.4.278
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/buffer.c
 src/nvim/diff.c
 src/nvim/ex_cmds.c
@@ -1725,20 +1784,20 @@ src/nvim/undo.c
 src/nvim/window.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 79 is -> 
+Partial Revert diff pair 82 is -> 
 { d860ba45e25231ae54c6fd12ecd00dc936780184 -> d66cd61b79d6d592436c4552dbdddb904dd1c22e } is a revert
 { d66cd61b79d6d592436c4552dbdddb904dd1c22e -> 3f5482d3251b3bbdc7c4df8a8e64eb3af7e5922c }
 Partial Revert commits SHA are -> 
 d66cd61b79d6d592436c4552dbdddb904dd1c22e - revert - 3f5482d3251b3bbdc7c4df8a8e64eb3af7e5922c
-The reverted commit sha is - d66cd61b79d6d592436c4552dbdddb904dd1c22e
+---> The reverted commit sha is - d66cd61b79d6d592436c4552dbdddb904dd1c22e
 Commit message - Merge pull request #1054 from stefan991/fileinfo-getter
 
 FileInfo getters for `filesize`, `hardlinks` and `blocksize`
-The original commit sha is - 3f5482d3251b3bbdc7c4df8a8e64eb3af7e5922c
+---> The original commit sha is - 3f5482d3251b3bbdc7c4df8a8e64eb3af7e5922c
 Commit message - Merge pull request #1107 from fmoralesc/matchaddpos
 
 Add matchaddpos()-related vim patches. [vim-patch: 7.4.330, 7.4.334, 7.4.343, 7.4.344, 7.4.362]
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/ex_docmd.c
 src/nvim/screen.c
 src/nvim/testdir/test63.in
@@ -1746,29 +1805,29 @@ src/nvim/testdir/test63.ok
 src/nvim/window.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 80 is -> 
+Partial Revert diff pair 83 is -> 
 { de025425fb32970a0d8eea520b66b7921d6c23fb -> 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82 } is a revert
 { db598c5790eefac9ce414f4348d2bae2c6d25484 -> 7f9ec6c04f3949e6d666c1586efc20a4a79be257 }
 Partial Revert commits SHA are -> 
 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82 - revert - 7f9ec6c04f3949e6d666c1586efc20a4a79be257
-The reverted commit sha is - 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82
+---> The reverted commit sha is - 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82
 Commit message - Merge pull request #1100 from atwupack/vp-7.4.296
 
 vim-patch:7.4.296
-The original commit sha is - 7f9ec6c04f3949e6d666c1586efc20a4a79be257
+---> The original commit sha is - 7f9ec6c04f3949e6d666c1586efc20a4a79be257
 Commit message - Merge pull request #1088 from justinmk/upgradeluarocks
 
 upgrade luarocks
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 third-party/CMakeLists.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 81 is -> 
+Partial Revert diff pair 84 is -> 
 { 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
 { 062402fb645544e79d0b5b90684f96aead446436 -> db598c5790eefac9ce414f4348d2bae2c6d25484 }
 Partial Revert commits SHA are -> 
 a98a6996c291b3e300d27b791eded9eed333d677 - revert - db598c5790eefac9ce414f4348d2bae2c6d25484
-The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
+---> The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
 Commit message - re-integrate runtime/  vim-patch:0  #938
 
 Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
@@ -1791,31 +1850,31 @@ Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
 Helped-by: drasill <github@tof2k.com>
 Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
 Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
-The original commit sha is - db598c5790eefac9ce414f4348d2bae2c6d25484
+---> The original commit sha is - db598c5790eefac9ce414f4348d2bae2c6d25484
 Commit message - Merge pull request #1116 from fornwall/remove-versions-txt
 
 Remove version{4,5,6,7}.txt
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/version4.txt
 runtime/doc/version5.txt
 runtime/doc/version6.txt
 runtime/doc/version7.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 82 is -> 
+Partial Revert diff pair 85 is -> 
 { 5a6d7a59ddb30a88dbd94f76d5d9f4e5de75b296 -> 062402fb645544e79d0b5b90684f96aead446436 } is a revert
 { 062402fb645544e79d0b5b90684f96aead446436 -> db598c5790eefac9ce414f4348d2bae2c6d25484 }
 Partial Revert commits SHA are -> 
 062402fb645544e79d0b5b90684f96aead446436 - revert - db598c5790eefac9ce414f4348d2bae2c6d25484
-The reverted commit sha is - 062402fb645544e79d0b5b90684f96aead446436
+---> The reverted commit sha is - 062402fb645544e79d0b5b90684f96aead446436
 Commit message - Update CONTRIBUTING.md and README.md #740
 
 - recommend task/subtask convention for commit messages
-The original commit sha is - db598c5790eefac9ce414f4348d2bae2c6d25484
+---> The original commit sha is - db598c5790eefac9ce414f4348d2bae2c6d25484
 Commit message - Merge pull request #1116 from fornwall/remove-versions-txt
 
 Remove version{4,5,6,7}.txt
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/Makefile
 runtime/doc/help.txt
 runtime/doc/version4.txt
@@ -1824,12 +1883,12 @@ runtime/doc/version6.txt
 runtime/doc/version7.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 83 is -> 
+Partial Revert diff pair 86 is -> 
 { 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
 { c2a8f06bbaa5a8a187b1b9ca80676c20dc7a0a49 -> 5a6d7a59ddb30a88dbd94f76d5d9f4e5de75b296 }
 Partial Revert commits SHA are -> 
 a98a6996c291b3e300d27b791eded9eed333d677 - revert - 5a6d7a59ddb30a88dbd94f76d5d9f4e5de75b296
-The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
+---> The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
 Commit message - re-integrate runtime/  vim-patch:0  #938
 
 Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
@@ -1852,38 +1911,38 @@ Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
 Helped-by: drasill <github@tof2k.com>
 Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
 Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
-The original commit sha is - 5a6d7a59ddb30a88dbd94f76d5d9f4e5de75b296
+---> The original commit sha is - 5a6d7a59ddb30a88dbd94f76d5d9f4e5de75b296
 Commit message - Remove version{4,5,6,7}.txt
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/version4.txt
 runtime/doc/version5.txt
 runtime/doc/version6.txt
 runtime/doc/version7.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 84 is -> 
+Partial Revert diff pair 87 is -> 
 { 75f164c43ff32de93ac3ed2c32a1ccf8e6cb4c0a -> de025425fb32970a0d8eea520b66b7921d6c23fb } is a revert
 { e11b23e357ca797211c4e11f3f87ddb0dac98a99 -> c2a8f06bbaa5a8a187b1b9ca80676c20dc7a0a49 }
 Partial Revert commits SHA are -> 
 de025425fb32970a0d8eea520b66b7921d6c23fb - revert - c2a8f06bbaa5a8a187b1b9ca80676c20dc7a0a49
-The reverted commit sha is - de025425fb32970a0d8eea520b66b7921d6c23fb
+---> The reverted commit sha is - de025425fb32970a0d8eea520b66b7921d6c23fb
 Commit message - upgrade luarocks
 
 ref #822
-The original commit sha is - c2a8f06bbaa5a8a187b1b9ca80676c20dc7a0a49
+---> The original commit sha is - c2a8f06bbaa5a8a187b1b9ca80676c20dc7a0a49
 Commit message - Merge pull request #1087 from fwalch/archlinux-filetypes
 
 Runtime: Support Arch Linux/Pacman file types.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/filetype.vim
 -----------------------------------------------------------------
 
-Partial Revert diff pair 85 is -> 
+Partial Revert diff pair 88 is -> 
 { 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
 { 665c3cc3345ed766bf085a841806d6f0606ee12a -> e11b23e357ca797211c4e11f3f87ddb0dac98a99 }
 Partial Revert commits SHA are -> 
 a98a6996c291b3e300d27b791eded9eed333d677 - revert - e11b23e357ca797211c4e11f3f87ddb0dac98a99
-The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
+---> The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
 Commit message - re-integrate runtime/  vim-patch:0  #938
 
 Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
@@ -1906,20 +1965,20 @@ Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
 Helped-by: drasill <github@tof2k.com>
 Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
 Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
-The original commit sha is - e11b23e357ca797211c4e11f3f87ddb0dac98a99
+---> The original commit sha is - e11b23e357ca797211c4e11f3f87ddb0dac98a99
 Commit message - Merge pull request #1082 from fornwall/remove-os-msdos-txt
 
 Remove os_msdos.txt due to dropped MS-DOS support
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/os_msdos.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 86 is -> 
+Partial Revert diff pair 89 is -> 
 { 22860647a71d8cafd699ff4987ea39c4deb5a7f6 -> 8ae492bb5af3e1b086f8fa48946c07aa2660da59 } is a revert
 { 665c3cc3345ed766bf085a841806d6f0606ee12a -> e11b23e357ca797211c4e11f3f87ddb0dac98a99 }
 Partial Revert commits SHA are -> 
 8ae492bb5af3e1b086f8fa48946c07aa2660da59 - revert - e11b23e357ca797211c4e11f3f87ddb0dac98a99
-The reverted commit sha is - 8ae492bb5af3e1b086f8fa48946c07aa2660da59
+---> The reverted commit sha is - 8ae492bb5af3e1b086f8fa48946c07aa2660da59
 Commit message - vim-patch:7.4.325 #1078
 
 Problem:    When starting the gui and changing the window size the status line
@@ -1928,48 +1987,48 @@ Solution:   Catch new_win_height() being called recursively. (Christian
             Brabandt)
 
 https://code.google.com/p/vim/source/detail?r=1f288d247548
-The original commit sha is - e11b23e357ca797211c4e11f3f87ddb0dac98a99
+---> The original commit sha is - e11b23e357ca797211c4e11f3f87ddb0dac98a99
 Commit message - Merge pull request #1082 from fornwall/remove-os-msdos-txt
 
 Remove os_msdos.txt due to dropped MS-DOS support
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/Makefile
 runtime/doc/os_dos.txt
 runtime/doc/os_msdos.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 87 is -> 
+Partial Revert diff pair 90 is -> 
 { fc2020a1403203ec7817c62cff0cfe0e7b93d9b7 -> 057f26f0a6278845d5a295cdae1b6e92617d41f9 } is a revert
 { 92d27b7290914585f11d3a07e9bbbc504b8c9ca1 -> 665c3cc3345ed766bf085a841806d6f0606ee12a }
 Partial Revert commits SHA are -> 
 057f26f0a6278845d5a295cdae1b6e92617d41f9 - revert - 665c3cc3345ed766bf085a841806d6f0606ee12a
-The reverted commit sha is - 057f26f0a6278845d5a295cdae1b6e92617d41f9
+---> The reverted commit sha is - 057f26f0a6278845d5a295cdae1b6e92617d41f9
 Commit message - Merge pull request #1103 from Hinidu/na-patches
 
 Mark patches 176, 185 and 189 as NA
-The original commit sha is - 665c3cc3345ed766bf085a841806d6f0606ee12a
+---> The original commit sha is - 665c3cc3345ed766bf085a841806d6f0606ee12a
 Commit message - Merge pull request #1104 from Hinidu/vim-patch-7.4.220
 
 vim-patch:7.4.220
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/testdir/test105.in
 src/nvim/testdir/test105.ok
 -----------------------------------------------------------------
 
-Partial Revert diff pair 88 is -> 
+Partial Revert diff pair 91 is -> 
 { de025425fb32970a0d8eea520b66b7921d6c23fb -> 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82 } is a revert
 { 3623a028263fa321f0790fe1132ac2934d6d5dc7 -> 92d27b7290914585f11d3a07e9bbbc504b8c9ca1 }
 Partial Revert commits SHA are -> 
 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82 - revert - 92d27b7290914585f11d3a07e9bbbc504b8c9ca1
-The reverted commit sha is - 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82
+---> The reverted commit sha is - 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82
 Commit message - Merge pull request #1100 from atwupack/vp-7.4.296
 
 vim-patch:7.4.296
-The original commit sha is - 92d27b7290914585f11d3a07e9bbbc504b8c9ca1
+---> The original commit sha is - 92d27b7290914585f11d3a07e9bbbc504b8c9ca1
 Commit message - Merge pull request #1111 from epmatsw/spellcheck2
 
 More Typo Fixes
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/autoload/ada.vim
 runtime/autoload/sqlcomplete.vim
 runtime/autoload/syntaxcomplete.vim
@@ -1995,20 +2054,20 @@ runtime/syntax/spup.vim
 runtime/syntax/tcl.vim
 -----------------------------------------------------------------
 
-Partial Revert diff pair 89 is -> 
+Partial Revert diff pair 92 is -> 
 { a1582a841b2864ad20c22cc18b04010f9a813128 -> 3623a028263fa321f0790fe1132ac2934d6d5dc7 } is a revert
 { 3623a028263fa321f0790fe1132ac2934d6d5dc7 -> 92d27b7290914585f11d3a07e9bbbc504b8c9ca1 }
 Partial Revert commits SHA are -> 
 3623a028263fa321f0790fe1132ac2934d6d5dc7 - revert - 92d27b7290914585f11d3a07e9bbbc504b8c9ca1
-The reverted commit sha is - 3623a028263fa321f0790fe1132ac2934d6d5dc7
+---> The reverted commit sha is - 3623a028263fa321f0790fe1132ac2934d6d5dc7
 Commit message - Merge pull request #1093 from paulburlumi/coverity-62620
 
 coverity/62620: fix uninitialized scalar variable
-The original commit sha is - 92d27b7290914585f11d3a07e9bbbc504b8c9ca1
+---> The original commit sha is - 92d27b7290914585f11d3a07e9bbbc504b8c9ca1
 Commit message - Merge pull request #1111 from epmatsw/spellcheck2
 
 More Typo Fixes
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/autoload/ada.vim
 runtime/autoload/sqlcomplete.vim
 runtime/autoload/syntaxcomplete.vim
@@ -2034,126 +2093,126 @@ runtime/syntax/spup.vim
 runtime/syntax/tcl.vim
 -----------------------------------------------------------------
 
-Partial Revert diff pair 90 is -> 
+Partial Revert diff pair 93 is -> 
 { de025425fb32970a0d8eea520b66b7921d6c23fb -> 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82 } is a revert
 { ae1788d55d5f465891e1b72f7d49101b96e8b013 -> 0cced2ea815f97e3e830c4c18eb1571dcfc4f31a }
 Partial Revert commits SHA are -> 
 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82 - revert - 0cced2ea815f97e3e830c4c18eb1571dcfc4f31a
-The reverted commit sha is - 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82
+---> The reverted commit sha is - 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82
 Commit message - Merge pull request #1100 from atwupack/vp-7.4.296
 
 vim-patch:7.4.296
-The original commit sha is - 0cced2ea815f97e3e830c4c18eb1571dcfc4f31a
+---> The original commit sha is - 0cced2ea815f97e3e830c4c18eb1571dcfc4f31a
 Commit message - coverity/62620: fix uninitialized scalar variable
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/api/window.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 91 is -> 
+Partial Revert diff pair 94 is -> 
 { 5f3e677e21c08008074c3d6929695ffb34827cb7 -> 75f164c43ff32de93ac3ed2c32a1ccf8e6cb4c0a } is a revert
 { 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82 -> fd46f22d019035cb8166a78cb92ade66f5c6ebf8 }
 Partial Revert commits SHA are -> 
 75f164c43ff32de93ac3ed2c32a1ccf8e6cb4c0a - revert - fd46f22d019035cb8166a78cb92ade66f5c6ebf8
-The reverted commit sha is - 75f164c43ff32de93ac3ed2c32a1ccf8e6cb4c0a
+---> The reverted commit sha is - 75f164c43ff32de93ac3ed2c32a1ccf8e6cb4c0a
 Commit message - Runtime: Support Arch Linux/Pacman file types.
-The original commit sha is - fd46f22d019035cb8166a78cb92ade66f5c6ebf8
+---> The original commit sha is - fd46f22d019035cb8166a78cb92ade66f5c6ebf8
 Commit message - Merge pull request #1101 from atwupack/vp-7.4.339
 
 vim-patch:7.4.339
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/option.c
 src/nvim/version.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 92 is -> 
+Partial Revert diff pair 95 is -> 
 { de025425fb32970a0d8eea520b66b7921d6c23fb -> 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82 } is a revert
 { 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82 -> fd46f22d019035cb8166a78cb92ade66f5c6ebf8 }
 Partial Revert commits SHA are -> 
 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82 - revert - fd46f22d019035cb8166a78cb92ade66f5c6ebf8
-The reverted commit sha is - 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82
+---> The reverted commit sha is - 7df4ed3a5b8779ca7fa9f42e0f0455b033461b82
 Commit message - Merge pull request #1100 from atwupack/vp-7.4.296
 
 vim-patch:7.4.296
-The original commit sha is - fd46f22d019035cb8166a78cb92ade66f5c6ebf8
+---> The original commit sha is - fd46f22d019035cb8166a78cb92ade66f5c6ebf8
 Commit message - Merge pull request #1101 from atwupack/vp-7.4.339
 
 vim-patch:7.4.339
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/option.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 93 is -> 
+Partial Revert diff pair 96 is -> 
 { 3b0f7fe59392138c886063b09e3cf41b25d53056 -> 3becb5fd21c45bb58e27768ce900da8abc4dbc73 } is a revert
 { b8a32b66033335a27eb928ccf73caecccfacea2a -> 1e11de538578897bf19478caf1a4c667ce3d6b75 }
 Partial Revert commits SHA are -> 
 3becb5fd21c45bb58e27768ce900da8abc4dbc73 - revert - 1e11de538578897bf19478caf1a4c667ce3d6b75
-The reverted commit sha is - 3becb5fd21c45bb58e27768ce900da8abc4dbc73
+---> The reverted commit sha is - 3becb5fd21c45bb58e27768ce900da8abc4dbc73
 Commit message - Use lua generator in place of ex_cmds_defs header trick
 
 Closes #788
 Fixes #379
 Ref #549
-The original commit sha is - 1e11de538578897bf19478caf1a4c667ce3d6b75
+---> The original commit sha is - 1e11de538578897bf19478caf1a4c667ce3d6b75
 Commit message - Fix problem with test47: addition is not bitwise OR
 
 :diffsplit command used to include some flag value twice. If I was using bitwise
 OR it would be OK, but I had addition here. Changed to use bitwise OR.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 scripts/transform_ex_cmds_defs.pl
 -----------------------------------------------------------------
 
-Partial Revert diff pair 94 is -> 
+Partial Revert diff pair 97 is -> 
 { 41634af0e5cdaa70884ba27c21e624b83b7dc94c -> aca6dc50016bb6ebfe53b72dafca369ebcc99d29 } is a revert
 { 95efb3624b321cdbe5b958e3dfab0045d6de5439 -> bbefc73c553d681f78f40df9d97ec89ae9b06520 }
 Partial Revert commits SHA are -> 
 aca6dc50016bb6ebfe53b72dafca369ebcc99d29 - revert - bbefc73c553d681f78f40df9d97ec89ae9b06520
-The reverted commit sha is - aca6dc50016bb6ebfe53b72dafca369ebcc99d29
+---> The reverted commit sha is - aca6dc50016bb6ebfe53b72dafca369ebcc99d29
 Commit message - coverity/13749: fix negative array index read in unset_global_local_option
-The original commit sha is - bbefc73c553d681f78f40df9d97ec89ae9b06520
+---> The original commit sha is - bbefc73c553d681f78f40df9d97ec89ae9b06520
 Commit message - Merge pull request #1062 from atwupack/vp-7.4.230+231
 
 vim-patch:7.4.231
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/testdir/Makefile
 src/nvim/testdir/test_options.in
 src/nvim/testdir/test_options.ok
 src/nvim/version.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 95 is -> 
+Partial Revert diff pair 98 is -> 
 { 8cf45786b11c4c96444962227a960a3683d9f2b1 -> b53034d423f055bbcca8b5a030dd51fcf458d182 } is a revert
 { 0b7bff5bb71ddc2e9c41863ec41b9aea74d0fe75 -> e1c330a486c184152cb48d637c6d04caba5290bd }
 Partial Revert commits SHA are -> 
 b53034d423f055bbcca8b5a030dd51fcf458d182 - revert - e1c330a486c184152cb48d637c6d04caba5290bd
-The reverted commit sha is - b53034d423f055bbcca8b5a030dd51fcf458d182
+---> The reverted commit sha is - b53034d423f055bbcca8b5a030dd51fcf458d182
 Commit message - vim-patch:7.4.315 #1021
 
 Problem:    Fixes for computation of topline not tested.
 Solution:   Add test. (Hirohito Higashi)
 
 https://code.google.com/p/vim/source/detail?r=646616b6ff4defcc7bef0b198b540f6d965a8126
-The original commit sha is - e1c330a486c184152cb48d637c6d04caba5290bd
+---> The original commit sha is - e1c330a486c184152cb48d637c6d04caba5290bd
 Commit message - Merge pull request #1024 from war1025/dev/for_all_buffers
 
 Add FOR_ALL_BUFFERS helper
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/globals.h
 -----------------------------------------------------------------
 
-Partial Revert diff pair 96 is -> 
+Partial Revert diff pair 99 is -> 
 { 888a31ba454cf9c054527a26459c112593efa54b -> b6da1ac33956e40e1ca250b9dc8d6f3e7864576d } is a revert
 { 0b7bff5bb71ddc2e9c41863ec41b9aea74d0fe75 -> e1c330a486c184152cb48d637c6d04caba5290bd }
 Partial Revert commits SHA are -> 
 b6da1ac33956e40e1ca250b9dc8d6f3e7864576d - revert - e1c330a486c184152cb48d637c6d04caba5290bd
-The reverted commit sha is - b6da1ac33956e40e1ca250b9dc8d6f3e7864576d
+---> The reverted commit sha is - b6da1ac33956e40e1ca250b9dc8d6f3e7864576d
 Commit message - version.c: mark irrelevant patches with "NA" #1074
 
 uncomment some patch numbers that were satisfied by #938
-The original commit sha is - e1c330a486c184152cb48d637c6d04caba5290bd
+---> The original commit sha is - e1c330a486c184152cb48d637c6d04caba5290bd
 Commit message - Merge pull request #1024 from war1025/dev/for_all_buffers
 
 Add FOR_ALL_BUFFERS helper
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/ex_cmds2.c
 src/nvim/ex_docmd.c
 src/nvim/main.c
@@ -2163,12 +2222,12 @@ src/nvim/memline.c
 src/nvim/misc1.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 97 is -> 
+Partial Revert diff pair 100 is -> 
 { 66bc13163398786c88e20b7cdd61c66978b4d3fb -> a98a6996c291b3e300d27b791eded9eed333d677 } is a revert
 { a0e593e26163c730e75a362dcc9e34a645021aff -> 22860647a71d8cafd699ff4987ea39c4deb5a7f6 }
 Partial Revert commits SHA are -> 
 a98a6996c291b3e300d27b791eded9eed333d677 - revert - 22860647a71d8cafd699ff4987ea39c4deb5a7f6
-The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
+---> The reverted commit sha is - a98a6996c291b3e300d27b791eded9eed333d677
 Commit message - re-integrate runtime/  vim-patch:0  #938
 
 Vim runtime files based on 7.4.384 / hg changeset 7090d7f160f7
@@ -2191,26 +2250,26 @@ Helped-by: Christophe Badoit <c.badoit@lesiteimmo.com>
 Helped-by: drasill <github@tof2k.com>
 Helped-by: Tae Sandoval Murgan <taecilla@gmail.com>
 Helped-by: Lowe Thiderman <lowe.thiderman@gmail.com>
-The original commit sha is - 22860647a71d8cafd699ff4987ea39c4deb5a7f6
+---> The original commit sha is - 22860647a71d8cafd699ff4987ea39c4deb5a7f6
 Commit message - Remove os_msdos.txt due to dropped MS-DOS support
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 runtime/doc/os_msdos.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 98 is -> 
+Partial Revert diff pair 101 is -> 
 { 5617ee8f352a2ddb61f52e5e0ae7347957d95991 -> 5f42ba693b8d540516beb083226af69dc5bba86b } is a revert
 { 6dcd629ed6e61fbebcf715cd1b362773f1f209ec -> a0e593e26163c730e75a362dcc9e34a645021aff }
 Partial Revert commits SHA are -> 
 5f42ba693b8d540516beb083226af69dc5bba86b - revert - a0e593e26163c730e75a362dcc9e34a645021aff
-The reverted commit sha is - 5f42ba693b8d540516beb083226af69dc5bba86b
+---> The reverted commit sha is - 5f42ba693b8d540516beb083226af69dc5bba86b
 Commit message - Update README.md
 
 sweet clang analysis badge thanks to @Hinidu!
-The original commit sha is - a0e593e26163c730e75a362dcc9e34a645021aff
+---> The original commit sha is - a0e593e26163c730e75a362dcc9e34a645021aff
 Commit message - Merge pull request #1019 from splinterofchaos/globpath
 
 vim-patch:7.4.279
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/eval.c
 src/nvim/ex_getln.c
 src/nvim/garray.c
@@ -2220,57 +2279,57 @@ src/nvim/testdir/test97.ok
 src/nvim/version.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 99 is -> 
+Partial Revert diff pair 102 is -> 
 { fc93536a901b4037f76a223c03d3650afb371f0b -> 6675a71fe4adb0ea21c842c6bba5e950d05a5f2c } is a revert
 { 6675a71fe4adb0ea21c842c6bba5e950d05a5f2c -> 933602b1882c6596f06125fc621825c357409899 }
 Partial Revert commits SHA are -> 
 6675a71fe4adb0ea21c842c6bba5e950d05a5f2c - revert - 933602b1882c6596f06125fc621825c357409899
-The reverted commit sha is - 6675a71fe4adb0ea21c842c6bba5e950d05a5f2c
+---> The reverted commit sha is - 6675a71fe4adb0ea21c842c6bba5e950d05a5f2c
 Commit message - Merge pull request #972 from munshkr/p7.4.293
 
 vim-patch:7.4.293, vim-patch:7.4.294
-The original commit sha is - 933602b1882c6596f06125fc621825c357409899
+---> The original commit sha is - 933602b1882c6596f06125fc621825c357409899
 Commit message - Merge pull request #971 from munshkr/p7.4.314
 
 vim-patch:7.4.314
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/edit.c
 src/nvim/option_defs.h
 src/nvim/screen.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 100 is -> 
+Partial Revert diff pair 103 is -> 
 { 53231d5e0fb410dde098dc67e9a831638f744319 -> 9fb0026fccf337a4c671bfa4f553c08da1e8722d } is a revert
 { 9fb0026fccf337a4c671bfa4f553c08da1e8722d -> 5c9db00e9e8b2361a57dfdc1ca2c0e3e9ee01efc }
 Partial Revert commits SHA are -> 
 9fb0026fccf337a4c671bfa4f553c08da1e8722d - revert - 5c9db00e9e8b2361a57dfdc1ca2c0e3e9ee01efc
-The reverted commit sha is - 9fb0026fccf337a4c671bfa4f553c08da1e8722d
+---> The reverted commit sha is - 9fb0026fccf337a4c671bfa4f553c08da1e8722d
 Commit message - vim-patch:7.4.335 #1061
 
 Problem:    No digraph for the new rouble sign.
 Solution:   Add the digraphs =R and =P.
 
 https://code.google.com/p/vim/source/detail?r=8ad2ecd116021ad5c945426e8bb80d741392b780
-The original commit sha is - 5c9db00e9e8b2361a57dfdc1ca2c0e3e9ee01efc
+---> The original commit sha is - 5c9db00e9e8b2361a57dfdc1ca2c0e3e9ee01efc
 Commit message - Merge pull request #1064 from mraghavan/coverity-22-07
 
 coverity/71508: Fix potential null dereference.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/os/provider.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 101 is -> 
+Partial Revert diff pair 104 is -> 
 { bdd82b0da729b77381219927eb174b8e4d2054f8 -> 8c37f9b4ffa7fba02598bfd3c0f5709b43dd625d } is a revert
 { 54d49931255090ebf33c342aed6fbe9f9ca308e6 -> 19f44fda8bc74abdcd13deca47be99b151f69239 }
 Partial Revert commits SHA are -> 
 8c37f9b4ffa7fba02598bfd3c0f5709b43dd625d - revert - 19f44fda8bc74abdcd13deca47be99b151f69239
-The reverted commit sha is - 8c37f9b4ffa7fba02598bfd3c0f5709b43dd625d
+---> The reverted commit sha is - 8c37f9b4ffa7fba02598bfd3c0f5709b43dd625d
 Commit message - dependencies: Update to libuv 0.11.28
-The original commit sha is - 19f44fda8bc74abdcd13deca47be99b151f69239
+---> The original commit sha is - 19f44fda8bc74abdcd13deca47be99b151f69239
 Commit message - Merge pull request #985 from fwalch/clang-analyzer-dead-assignments
 
 Clang analyzer: fix dead stores / reduce scope
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/arabic.c
 src/nvim/garray.c
 src/nvim/screen.c
@@ -2280,16 +2339,16 @@ src/nvim/syntax.c
 src/nvim/window.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 102 is -> 
+Partial Revert diff pair 105 is -> 
 { 8b72ae7c7875f47b7d775038700ee17ce71a2510 -> 8cf45786b11c4c96444962227a960a3683d9f2b1 } is a revert
 { 1fa3a7d70a99127e5dde3fdb9aa19684febb2ac7 -> ad5ae68acd3b0edae564064dfdc2b5b950d0b4e4 }
 Partial Revert commits SHA are -> 
 8cf45786b11c4c96444962227a960a3683d9f2b1 - revert - ad5ae68acd3b0edae564064dfdc2b5b950d0b4e4
-The reverted commit sha is - 8cf45786b11c4c96444962227a960a3683d9f2b1
+---> The reverted commit sha is - 8cf45786b11c4c96444962227a960a3683d9f2b1
 Commit message - Add FOR_ALL_BUFFERS helper
-The original commit sha is - ad5ae68acd3b0edae564064dfdc2b5b950d0b4e4
+---> The original commit sha is - ad5ae68acd3b0edae564064dfdc2b5b950d0b4e4
 Commit message - Merge #814 'Remove dead #ifdefed code'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/ascii.h
 src/nvim/charset.c
 src/nvim/file_search.c
@@ -2306,35 +2365,35 @@ src/nvim/tag.c
 src/nvim/version.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 103 is -> 
+Partial Revert diff pair 106 is -> 
 { 0761142246b9fcc69a52b4597e454adf79f1d789 -> 6af15f706ad330ca0cd4bcadb76b064372b60d87 } is a revert
 { 4f26b647223748647e2ec6127f1e13e331b7ef74 -> 4bebbaa57245c9bdb78c02a97622b4efc5899dbb }
 Partial Revert commits SHA are -> 
 6af15f706ad330ca0cd4bcadb76b064372b60d87 - revert - 4bebbaa57245c9bdb78c02a97622b4efc5899dbb
-The reverted commit sha is - 6af15f706ad330ca0cd4bcadb76b064372b60d87
+---> The reverted commit sha is - 6af15f706ad330ca0cd4bcadb76b064372b60d87
 Commit message - os/shell: constify arguments
 
 Minor fixes
-The original commit sha is - 4bebbaa57245c9bdb78c02a97622b4efc5899dbb
+---> The original commit sha is - 4bebbaa57245c9bdb78c02a97622b4efc5899dbb
 Commit message - Merge pull request #998 from war1025/dev/buffer_cleanup
 
 Minor buffer.c style cleanups
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/buffer.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 104 is -> 
+Partial Revert diff pair 107 is -> 
 { 7b1d46f39d9a21b77931b857d28a2a2fe7b284d0 -> 9453b7230b68eef6a13403a124a288e9f95591cd } is a revert
 { 4dadadd0015b6efb31869cca52d6bae36762c36e -> 9550beda61ea74a2a9738e9c10423fa817b7b897 }
 Partial Revert commits SHA are -> 
 9453b7230b68eef6a13403a124a288e9f95591cd - revert - 9550beda61ea74a2a9738e9c10423fa817b7b897
-The reverted commit sha is - 9453b7230b68eef6a13403a124a288e9f95591cd
+---> The reverted commit sha is - 9453b7230b68eef6a13403a124a288e9f95591cd
 Commit message - Statically allocate NameBuff
-The original commit sha is - 9550beda61ea74a2a9738e9c10423fa817b7b897
+---> The original commit sha is - 9550beda61ea74a2a9738e9c10423fa817b7b897
 Commit message - Merge pull request #975 from aktau/remove-gettimeofday
 
 remove gettimeofday() usage
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 config/CMakeLists.txt
 config/config.h.in
 src/nvim/eval.c
@@ -2343,35 +2402,35 @@ src/nvim/term.c
 src/nvim/term.h
 -----------------------------------------------------------------
 
-Partial Revert diff pair 105 is -> 
+Partial Revert diff pair 108 is -> 
 { f430ec5c50fbe7707343136cc4f3dde72b62d950 -> bb1f08f6e8a017c4a1361ed838b0a54e742385c2 } is a revert
 { cbe1864ab421d4fe71c19ed592318f87272af577 -> d5a7947e8b3fc9b8f45ad1a0f0380e22e67fe6d1 }
 Partial Revert commits SHA are -> 
 bb1f08f6e8a017c4a1361ed838b0a54e742385c2 - revert - d5a7947e8b3fc9b8f45ad1a0f0380e22e67fe6d1
-The reverted commit sha is - bb1f08f6e8a017c4a1361ed838b0a54e742385c2
+---> The reverted commit sha is - bb1f08f6e8a017c4a1361ed838b0a54e742385c2
 Commit message - Fix memory leak in provider_call.
 
 If no channel can be found for a method, free argument arg before
 returning.
-The original commit sha is - d5a7947e8b3fc9b8f45ad1a0f0380e22e67fe6d1
+---> The original commit sha is - d5a7947e8b3fc9b8f45ad1a0f0380e22e67fe6d1
 Commit message - Merge pull request #986 from aktau/func-attr-enable-more-clang
 
 func_attr: clang/icc support NONNULL_* attr
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/func_attr.h
 -----------------------------------------------------------------
 
-Partial Revert diff pair 106 is -> 
+Partial Revert diff pair 109 is -> 
 { 53fba180c32724809d8ab35238eea68440b7ac97 -> c261b351ed40365a88d78f23c609a290ac0c8456 } is a revert
 { 1f3fb5ffea303c9ec337a702618568576b23f817 -> 531ded7865188294ba005442fbbebf93cc2cb3ef }
 Partial Revert commits SHA are -> 
 c261b351ed40365a88d78f23c609a290ac0c8456 - revert - 531ded7865188294ba005442fbbebf93cc2cb3ef
-The reverted commit sha is - c261b351ed40365a88d78f23c609a290ac0c8456
+---> The reverted commit sha is - c261b351ed40365a88d78f23c609a290ac0c8456
 Commit message - Revert "Merge #928 'Move po gen to cmake'"
 
 This reverts commit 53fba180c32724809d8ab35238eea68440b7ac97, reversing
 changes made to a3b3db8256c259d10957d45666cf4179e328f3f4.
-The original commit sha is - 531ded7865188294ba005442fbbebf93cc2cb3ef
+---> The original commit sha is - 531ded7865188294ba005442fbbebf93cc2cb3ef
 Commit message - Move po generation from Make to CMake.
 
 Fixes #902: localization build: `install`, `uninstall`, `prefixcheck
@@ -2398,7 +2457,7 @@ Changes include:
     translation" line like other .po files to make the generation of the
     "Generate from ..." comments consistent.  Updated ko.po with the new
     text.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 cmake/ConvertPo.cmake
 cmake/RunMsgfmt.cmake
 cmake/RunMsgmerge.cmake
@@ -2410,32 +2469,32 @@ src/nvim/po/ko.UTF-8.po
 src/nvim/po/ko.po
 -----------------------------------------------------------------
 
-Partial Revert diff pair 107 is -> 
+Partial Revert diff pair 110 is -> 
 { 53fba180c32724809d8ab35238eea68440b7ac97 -> c261b351ed40365a88d78f23c609a290ac0c8456 } is a revert
 { c261b351ed40365a88d78f23c609a290ac0c8456 -> 1f3fb5ffea303c9ec337a702618568576b23f817 }
 Partial Revert commits SHA are -> 
 c261b351ed40365a88d78f23c609a290ac0c8456 - revert - 1f3fb5ffea303c9ec337a702618568576b23f817
-The reverted commit sha is - c261b351ed40365a88d78f23c609a290ac0c8456
+---> The reverted commit sha is - c261b351ed40365a88d78f23c609a290ac0c8456
 Commit message - Revert "Merge #928 'Move po gen to cmake'"
 
 This reverts commit 53fba180c32724809d8ab35238eea68440b7ac97, reversing
 changes made to a3b3db8256c259d10957d45666cf4179e328f3f4.
-The original commit sha is - 1f3fb5ffea303c9ec337a702618568576b23f817
+---> The original commit sha is - 1f3fb5ffea303c9ec337a702618568576b23f817
 Commit message - Customize the log file for the check targets based on the input file.
 
 The idea being that it's better to segregate feedback, just in case
 someone is working on several translations.  Now the check log will
 appear in `./build/src/nvim/po/check-${LANG}.log`.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/po/check.vim
 -----------------------------------------------------------------
 
-Partial Revert diff pair 108 is -> 
+Partial Revert diff pair 111 is -> 
 { e1075ffff94fe0ddc9eb90980ad798e68c090fc6 -> 095b4479c039f9907ade4e7319cbb6a990a13438 } is a revert
 { 6d0f9417ec2e9dec9666fa9c7a9b5b890f25d36a -> 0412c17a6566a3cc5d324773abcf6e8a1ad40bc6 }
 Partial Revert commits SHA are -> 
 095b4479c039f9907ade4e7319cbb6a990a13438 - revert - 0412c17a6566a3cc5d324773abcf6e8a1ad40bc6
-The reverted commit sha is - 095b4479c039f9907ade4e7319cbb6a990a13438
+---> The reverted commit sha is - 095b4479c039f9907ade4e7319cbb6a990a13438
 Commit message - assert: add STATIC_ASSERT macro
 
 Can be quite handy, attempt to provide fallbacks for compilers that don't
@@ -2444,20 +2503,20 @@ warnings as best we can (Clang and GCC warn that we're using a C11 feature
 while in C99 mode).
 
 Needs to be tested for MSVC still.
-The original commit sha is - 0412c17a6566a3cc5d324773abcf6e8a1ad40bc6
+---> The original commit sha is - 0412c17a6566a3cc5d324773abcf6e8a1ad40bc6
 Commit message - Merge pull request #839 from aktau/platform-abstract-time-fn
 
 viml: impl profiling on top of uv_hrtime()
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 scripts/travis.sh
 -----------------------------------------------------------------
 
-Partial Revert diff pair 109 is -> 
+Partial Revert diff pair 112 is -> 
 { a57030d28cf8e6f3e792ebfdc9d52e1c1ac17562 -> 9f7426ca168e5296c22e589a6694f6a902bdf8d8 } is a revert
 { b17d9691a24099c9210289f16afb1a498a89d803 -> b235793dac131673abeb07393b49475e4f8a4393 }
 Partial Revert commits SHA are -> 
 9f7426ca168e5296c22e589a6694f6a902bdf8d8 - revert - b235793dac131673abeb07393b49475e4f8a4393
-The reverted commit sha is - 9f7426ca168e5296c22e589a6694f6a902bdf8d8
+---> The reverted commit sha is - 9f7426ca168e5296c22e589a6694f6a902bdf8d8
 Commit message - Configure travis to perform a 32-bit build
 
 - Build targeting 32-bit with travis
@@ -2465,87 +2524,87 @@ Commit message - Configure travis to perform a 32-bit build
   provides greater flexibility for detecting the build matrix environment. This
   improves the build speed since we now install only what's necessary.
 - Now clint has a dedicated travis worker
-The original commit sha is - b235793dac131673abeb07393b49475e4f8a4393
+---> The original commit sha is - b235793dac131673abeb07393b49475e4f8a4393
 Commit message - Fix #838: build with "USE_BUNDLED=OFF" fails to find dependencies
 
 Stop forcing some platform setting that are really intended to be used
 for Travis CI.  Under other systems, like Arch Linux, it prevents
 dependencies from being correctly located.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 CMakeLists.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 110 is -> 
+Partial Revert diff pair 113 is -> 
 { a302c65dc65896776d6cb9e2c89a6ccc77ada530 -> f78d5aa87b8f58a19364c93aed313214054e72af } is a revert
 { 9f1b9726fb28f78fba7c50efa5316c4bf2413cf8 -> b17d9691a24099c9210289f16afb1a498a89d803 }
 Partial Revert commits SHA are -> 
 f78d5aa87b8f58a19364c93aed313214054e72af - revert - b17d9691a24099c9210289f16afb1a498a89d803
-The reverted commit sha is - f78d5aa87b8f58a19364c93aed313214054e72af
+---> The reverted commit sha is - f78d5aa87b8f58a19364c93aed313214054e72af
 Commit message - Merge commit 'a302c65dc65896776d6cb9e2c89a6ccc77ada530' as 'third-party/libuv'
-The original commit sha is - b17d9691a24099c9210289f16afb1a498a89d803
+---> The original commit sha is - b17d9691a24099c9210289f16afb1a498a89d803
 Commit message - Add LICENSE. fix #878. PR #883
 
 - change to Apache 2.0
 - include Vim license in LICENSE
 - upate README
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 vim-license.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 111 is -> 
+Partial Revert diff pair 114 is -> 
 { 7cdbca77899b8bb09c7a0a4c874c06021543c986 -> 7f21665673686c653389ff4e86a2ce8e17804178 } is a revert
 { 7f21665673686c653389ff4e86a2ce8e17804178 -> 18b64c99cc0fc04ecb7e36e324b48ebaef56b813 }
 Partial Revert commits SHA are -> 
 7f21665673686c653389ff4e86a2ce8e17804178 - revert - 18b64c99cc0fc04ecb7e36e324b48ebaef56b813
-The reverted commit sha is - 7f21665673686c653389ff4e86a2ce8e17804178
+---> The reverted commit sha is - 7f21665673686c653389ff4e86a2ce8e17804178
 Commit message - move/remove W_* macros
 
 move W_ENDCOL to screen.c
 remove the rest of the W_* macros
-The original commit sha is - 18b64c99cc0fc04ecb7e36e324b48ebaef56b813
+---> The original commit sha is - 18b64c99cc0fc04ecb7e36e324b48ebaef56b813
 Commit message - Remove unnecessary (int) casts and fix style
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/misc2.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 112 is -> 
+Partial Revert diff pair 115 is -> 
 { 8c0ca573e5cc6811d14b6789732926719c5a2585 -> 7dd0d9d2ab401034516bd3bd344a71d819a88ef0 } is a revert
 { a7e3c4f6f666a208d0e74f34058b755c6f1e64ea -> d906708a439687c7476083b883d29b8e99dd15e3 }
 Partial Revert commits SHA are -> 
 7dd0d9d2ab401034516bd3bd344a71d819a88ef0 - revert - d906708a439687c7476083b883d29b8e99dd15e3
-The reverted commit sha is - 7dd0d9d2ab401034516bd3bd344a71d819a88ef0
+---> The reverted commit sha is - 7dd0d9d2ab401034516bd3bd344a71d819a88ef0
 Commit message - Make nvim/lib/k*.h headers be the last one in the list
 
 So that they do the last nvim/func_attr.h include
-The original commit sha is - d906708a439687c7476083b883d29b8e99dd15e3
+---> The original commit sha is - d906708a439687c7476083b883d29b8e99dd15e3
 Commit message - Remove unneeded klist include in channel.c
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/os/channel.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 113 is -> 
+Partial Revert diff pair 116 is -> 
 { c2de243ce1652912a518b052fb1887ae05640d74 -> e2e47803bdfd5fb40e3dbc9cdf798bb27d306c72 } is a revert
 { 7df7d6bb5baff62942af94f41de142159657569e -> 277554a9ebaaa34bea1862802254db9b9c0f92d1 }
 Partial Revert commits SHA are -> 
 e2e47803bdfd5fb40e3dbc9cdf798bb27d306c72 - revert - 277554a9ebaaa34bea1862802254db9b9c0f92d1
-The reverted commit sha is - e2e47803bdfd5fb40e3dbc9cdf798bb27d306c72
+---> The reverted commit sha is - e2e47803bdfd5fb40e3dbc9cdf798bb27d306c72
 Commit message - Merge #708 'Remove NULL/non-NULL tests after vim_str(n)save'
 
 - replace alloc with xmalloc
-The original commit sha is - 277554a9ebaaa34bea1862802254db9b9c0f92d1
+---> The original commit sha is - 277554a9ebaaa34bea1862802254db9b9c0f92d1
 Commit message - Merge pull request #749 from oni-link/vim-patch-7-4-285
 
 vim-patch:7.4.285
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/version.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 114 is -> 
+Partial Revert diff pair 117 is -> 
 { c57c3633d4c1667aa2c61a3b086041a989fd480c -> c2de243ce1652912a518b052fb1887ae05640d74 } is a revert
 { e2e47803bdfd5fb40e3dbc9cdf798bb27d306c72 -> f1e52c496ddb89f830cdbc4f23d756131106b97f }
 Partial Revert commits SHA are -> 
 c2de243ce1652912a518b052fb1887ae05640d74 - revert - f1e52c496ddb89f830cdbc4f23d756131106b97f
-The reverted commit sha is - c2de243ce1652912a518b052fb1887ae05640d74
+---> The reverted commit sha is - c2de243ce1652912a518b052fb1887ae05640d74
 Commit message - vim-patch:7.4.285
 
 Problem:    When 'relativenumber' is set and deleting lines or undoing that,
@@ -2553,27 +2612,27 @@ Problem:    When 'relativenumber' is set and deleting lines or undoing that,
 Solution:   (Christian Brabandt)
 
 https://code.google.com/p/vim/source/detail?r=5cb1828fd0056de3c166e71fbafc67a74c57d7b1
-The original commit sha is - f1e52c496ddb89f830cdbc4f23d756131106b97f
+---> The original commit sha is - f1e52c496ddb89f830cdbc4f23d756131106b97f
 Commit message - Merge #739 'Remove OOM error handling in khash.h'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/nvim/lib/khash.h
 -----------------------------------------------------------------
 
-Partial Revert diff pair 115 is -> 
+Partial Revert diff pair 118 is -> 
 { 046debb9359c85e2f2bc5c6d9481dac0025c6a80 -> 2e4613aecc712eb5e893d341da5f571f932376d5 } is a revert
 { 3b77a62a77970a1c1aff5d50df396171ce24b464 -> 1b5217687abf8e1aeabaf4e5a64073177d56e593 }
 Partial Revert commits SHA are -> 
 2e4613aecc712eb5e893d341da5f571f932376d5 - revert - 1b5217687abf8e1aeabaf4e5a64073177d56e593
-The reverted commit sha is - 2e4613aecc712eb5e893d341da5f571f932376d5
+---> The reverted commit sha is - 2e4613aecc712eb5e893d341da5f571f932376d5
 Commit message - Remove NUL macro
-The original commit sha is - 1b5217687abf8e1aeabaf4e5a64073177d56e593
+---> The original commit sha is - 1b5217687abf8e1aeabaf4e5a64073177d56e593
 Commit message - revert #652
 
 reverting broad cosmetic/style change because:
 - increases merge-conflicts
 - increases overhead of merging upstream Vim patches
 - reasons for change are ambiguous, so default to no change
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/arabic.c
 src/ascii.h
 src/blowfish.c
@@ -2641,37 +2700,37 @@ src/version.c
 src/window.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 116 is -> 
+Partial Revert diff pair 119 is -> 
 { baaf24aceab851c6db75a5f497e64d1ae0f85c6b -> 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef } is a revert
 { ade0c127e56ff248039c60c3b29abcac24be1949 -> cb9afe0dc0c9bb19ad6755df5677351e1e7fbb22 }
 Partial Revert commits SHA are -> 
 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef - revert - cb9afe0dc0c9bb19ad6755df5677351e1e7fbb22
-The reverted commit sha is - 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef
+---> The reverted commit sha is - 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef
 Commit message - Merge branch 'master' into pr36
 
 Conflicts:
 	README.md
-The original commit sha is - cb9afe0dc0c9bb19ad6755df5677351e1e7fbb22
+---> The original commit sha is - cb9afe0dc0c9bb19ad6755df5677351e1e7fbb22
 Commit message - Add helpers for debugging with valgrind
 
 The environment variable USE_VALGRIND can be set to run tests with valgrind. If
 VALGRIND_GDB is set, valgrind will start it's own gdbserver for remote
 debugging with `target remote | vgdb`. USE_GDB can still be used, but it will
 be ignored if USE_VALGRIND is set.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .valgrind.supp
 -----------------------------------------------------------------
 
-Partial Revert diff pair 117 is -> 
+Partial Revert diff pair 120 is -> 
 { 86b6f1ccff1ac0face3a0be4ae3e57bf608f8ea9 -> a3ff83ce7efa54f65a6815aefa178fde6504a6e7 } is a revert
 { a3ff83ce7efa54f65a6815aefa178fde6504a6e7 -> b83600f5a3e6be2a8123a74595fe297759a57736 }
 Partial Revert commits SHA are -> 
 a3ff83ce7efa54f65a6815aefa178fde6504a6e7 - revert - b83600f5a3e6be2a8123a74595fe297759a57736
-The reverted commit sha is - a3ff83ce7efa54f65a6815aefa178fde6504a6e7
+---> The reverted commit sha is - a3ff83ce7efa54f65a6815aefa178fde6504a6e7
 Commit message - Replace mch_rename and vim_rename with libuv
-The original commit sha is - b83600f5a3e6be2a8123a74595fe297759a57736
+---> The original commit sha is - b83600f5a3e6be2a8123a74595fe297759a57736
 Commit message - Restore vim_rename
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/eval.c
 src/ex_cmds.c
 src/fileio.c
@@ -2679,25 +2738,25 @@ src/fileio.h
 src/memline.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 118 is -> 
+Partial Revert diff pair 121 is -> 
 { 7bd4d68d9316e13c6a8b3ff805daaf6b4c35e18c -> fd6fd35eef766d4ad80f8c0dd77e3b2dea026bcf } is a revert
 { 5c66dfea3c5f332784f4c67ce4d4644e20c92b4c -> ed42c808b61dd745e76d19c6ffb2612496a779a1 }
 Partial Revert commits SHA are -> 
 fd6fd35eef766d4ad80f8c0dd77e3b2dea026bcf - revert - ed42c808b61dd745e76d19c6ffb2612496a779a1
-The reverted commit sha is - fd6fd35eef766d4ad80f8c0dd77e3b2dea026bcf
+---> The reverted commit sha is - fd6fd35eef766d4ad80f8c0dd77e3b2dea026bcf
 Commit message - Turn ARABIC_CHAR into a function
-The original commit sha is - ed42c808b61dd745e76d19c6ffb2612496a779a1
+---> The original commit sha is - ed42c808b61dd745e76d19c6ffb2612496a779a1
 Commit message - inline arabic_char()
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/arabic.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 119 is -> 
+Partial Revert diff pair 122 is -> 
 { 82e0636e788f131d46451805f6c46e2d4f8496a9 -> 0ef90c13b72b74928bfb3c183c7a5bd7240b51ad } is a revert
 { 477031c03b2c525b117fae8a9b61c98245a06908 -> 998541eb043b3effe28a238dd583fe845ce1ba1d }
 Partial Revert commits SHA are -> 
 0ef90c13b72b74928bfb3c183c7a5bd7240b51ad - revert - 998541eb043b3effe28a238dd583fe845ce1ba1d
-The reverted commit sha is - 0ef90c13b72b74928bfb3c183c7a5bd7240b51ad
+---> The reverted commit sha is - 0ef90c13b72b74928bfb3c183c7a5bd7240b51ad
 Commit message - Removes 'proto' dir
 
 See #137 for the issue.
@@ -2758,7 +2817,7 @@ Each list of required headers was added by hand in the following format:
     /* All other includes in same module here, in alphabetical order. */
     /* All includes from other modules (e.g. "os/*.h") here in alphabetical
      * order. */
-The original commit sha is - 998541eb043b3effe28a238dd583fe845ce1ba1d
+---> The original commit sha is - 998541eb043b3effe28a238dd583fe845ce1ba1d
 Commit message - Remove hangul input support
 
 Vim [documentation](http://vimdoc.sourceforge.net/htmldoc/hangulin.html), says
@@ -2771,106 +2830,106 @@ used.
 Before doing the initial import to neovim's repository, I had to tweak this
 module to make it compile for terminal. It was a mistake that is now being
 corrected.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/hangulin.h
 -----------------------------------------------------------------
 
-Partial Revert diff pair 120 is -> 
+Partial Revert diff pair 123 is -> 
 { fd448123aa747dae519f03cc6625f331746718bc -> 7637c2b664cb9ed7955bfa54b8470eb0e9396364 } is a revert
 { ba7e4f0c0cde3263653f06f962e0b5f7c497780d -> 4600b9c0359b531affefd1ba11d82f7493a6f8c2 }
 Partial Revert commits SHA are -> 
 7637c2b664cb9ed7955bfa54b8470eb0e9396364 - revert - 4600b9c0359b531affefd1ba11d82f7493a6f8c2
-The reverted commit sha is - 7637c2b664cb9ed7955bfa54b8470eb0e9396364
+---> The reverted commit sha is - 7637c2b664cb9ed7955bfa54b8470eb0e9396364
 Commit message - Disable unit tests until fixed for travis
-The original commit sha is - 4600b9c0359b531affefd1ba11d82f7493a6f8c2
+---> The original commit sha is - 4600b9c0359b531affefd1ba11d82f7493a6f8c2
 Commit message - Add unit test running to travis again
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/CMakeLists.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 121 is -> 
+Partial Revert diff pair 124 is -> 
 { 1f827beff0ddc3aa10189aac5e756a70c3eec270 -> de77dddc0b1d93402368acea5d2f37daaf5b4e44 } is a revert
 { 20b799a6f2dac747c6d0c324a7295689d001930d -> f26b0aa88cee6c3d1aababd81e3d8de20f4af283 }
 Partial Revert commits SHA are -> 
 de77dddc0b1d93402368acea5d2f37daaf5b4e44 - revert - f26b0aa88cee6c3d1aababd81e3d8de20f4af283
-The reverted commit sha is - de77dddc0b1d93402368acea5d2f37daaf5b4e44
+---> The reverted commit sha is - de77dddc0b1d93402368acea5d2f37daaf5b4e44
 Commit message - README: add note on RHEL/CentOS 6
 
 Add note on autoconf >2.69 being required for compilation under
 RHEL/CentOS.
 
 Closes #178.
-The original commit sha is - f26b0aa88cee6c3d1aababd81e3d8de20f4af283
+---> The original commit sha is - f26b0aa88cee6c3d1aababd81e3d8de20f4af283
 Commit message - Merge pull request #187 from rjw57/issue-179
 
 Use CMAKE_C_FLAGS variable to set compiler flags.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 CMakeLists.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 122 is -> 
+Partial Revert diff pair 125 is -> 
 { 1f827beff0ddc3aa10189aac5e756a70c3eec270 -> de77dddc0b1d93402368acea5d2f37daaf5b4e44 } is a revert
 { de77dddc0b1d93402368acea5d2f37daaf5b4e44 -> 4d4a706352aaa54ca90a3748aad964c40121cf56 }
 Partial Revert commits SHA are -> 
 de77dddc0b1d93402368acea5d2f37daaf5b4e44 - revert - 4d4a706352aaa54ca90a3748aad964c40121cf56
-The reverted commit sha is - de77dddc0b1d93402368acea5d2f37daaf5b4e44
+---> The reverted commit sha is - de77dddc0b1d93402368acea5d2f37daaf5b4e44
 Commit message - README: add note on RHEL/CentOS 6
 
 Add note on autoconf >2.69 being required for compilation under
 RHEL/CentOS.
 
 Closes #178.
-The original commit sha is - 4d4a706352aaa54ca90a3748aad964c40121cf56
+---> The original commit sha is - 4d4a706352aaa54ca90a3748aad964c40121cf56
 Commit message - README.md: fix anchor tags for CentOS/RHEL section
 
 MAke the use of anchor tags consistent for the change introduced in
 5cd3cbe.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 README.md
 -----------------------------------------------------------------
 
-Partial Revert diff pair 123 is -> 
+Partial Revert diff pair 126 is -> 
 { 2bb9487b68db6cbb93e00c39fde8f5208893edc6 -> 97e635e8b6fba11ed1237cda3986139d2e6a2170 } is a revert
 { 97e635e8b6fba11ed1237cda3986139d2e6a2170 -> 29f4e8ebc4f45ba65589bb1a3748f3560a1f6a6d }
 Partial Revert commits SHA are -> 
 97e635e8b6fba11ed1237cda3986139d2e6a2170 - revert - 29f4e8ebc4f45ba65589bb1a3748f3560a1f6a6d
-The reverted commit sha is - 97e635e8b6fba11ed1237cda3986139d2e6a2170
+---> The reverted commit sha is - 97e635e8b6fba11ed1237cda3986139d2e6a2170
 Commit message - Merge pull request #184 from equalsraf/tb-curses
 
 Use FindCurses.cmake as fallback to find curses libraries
-The original commit sha is - 29f4e8ebc4f45ba65589bb1a3748f3560a1f6a6d
+---> The original commit sha is - 29f4e8ebc4f45ba65589bb1a3748f3560a1f6a6d
 Commit message - Merge pull request #183 from rjw57/issue-178
 
 README: add note on RHEL/CentOS 6
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 README.md
 -----------------------------------------------------------------
 
-Partial Revert diff pair 124 is -> 
+Partial Revert diff pair 127 is -> 
 { 82b724af4b996eb226c663cbdebf640331107dc5 -> 40faad4be42646876a592230d8f44219756864d1 } is a revert
 { 2bb9487b68db6cbb93e00c39fde8f5208893edc6 -> 97e635e8b6fba11ed1237cda3986139d2e6a2170 }
 Partial Revert commits SHA are -> 
 40faad4be42646876a592230d8f44219756864d1 - revert - 97e635e8b6fba11ed1237cda3986139d2e6a2170
-The reverted commit sha is - 40faad4be42646876a592230d8f44219756864d1
+---> The reverted commit sha is - 40faad4be42646876a592230d8f44219756864d1
 Commit message - Anchors and reorder in dependency lists of README.md
 
 Dependency headers for OSes needed anchors to work with links from
 content list. Reordered OSes in content list to match headers
 (all Linuxes first, Mac OS X last)
-The original commit sha is - 97e635e8b6fba11ed1237cda3986139d2e6a2170
+---> The original commit sha is - 97e635e8b6fba11ed1237cda3986139d2e6a2170
 Commit message - Merge pull request #184 from equalsraf/tb-curses
 
 Use FindCurses.cmake as fallback to find curses libraries
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/CMakeLists.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 125 is -> 
+Partial Revert diff pair 128 is -> 
 { 740296415d2c6bc25fe6aba10fabace68c4fb0c5 -> 82b724af4b996eb226c663cbdebf640331107dc5 } is a revert
 { 82b724af4b996eb226c663cbdebf640331107dc5 -> 40faad4be42646876a592230d8f44219756864d1 }
 Partial Revert commits SHA are -> 
 82b724af4b996eb226c663cbdebf640331107dc5 - revert - 40faad4be42646876a592230d8f44219756864d1
-The reverted commit sha is - 82b724af4b996eb226c663cbdebf640331107dc5
+---> The reverted commit sha is - 82b724af4b996eb226c663cbdebf640331107dc5
 Commit message - Use FindCurses to find curses libraries
 
 - Some systems have the FindCurses.cmake module to find
@@ -2878,32 +2937,32 @@ Commit message - Use FindCurses to find curses libraries
   in some CheckLibraries is not very reliable, so as
   fallback FindCurses is now used if no other option
   works.
-The original commit sha is - 40faad4be42646876a592230d8f44219756864d1
+---> The original commit sha is - 40faad4be42646876a592230d8f44219756864d1
 Commit message - Anchors and reorder in dependency lists of README.md
 
 Dependency headers for OSes needed anchors to work with links from
 content list. Reordered OSes in content list to match headers
 (all Linuxes first, Mac OS X last)
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/CMakeLists.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 126 is -> 
+Partial Revert diff pair 129 is -> 
 { baaf24aceab851c6db75a5f497e64d1ae0f85c6b -> 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef } is a revert
 { 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef -> b43224e06c525ee27f636bde1a17e9b79f05893c }
 Partial Revert commits SHA are -> 
 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef - revert - b43224e06c525ee27f636bde1a17e9b79f05893c
-The reverted commit sha is - 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef
+---> The reverted commit sha is - 00ba300d3941d5e9d59ffffcb760eb0f9d1079ef
 Commit message - Merge branch 'master' into pr36
 
 Conflicts:
 	README.md
-The original commit sha is - b43224e06c525ee27f636bde1a17e9b79f05893c
+---> The original commit sha is - b43224e06c525ee27f636bde1a17e9b79f05893c
 Commit message - Merge branch 'pr36'
 
 Conflicts:
 	README.md
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .gitignore
 .travis.yml
 .valgrind.supp
@@ -2915,77 +2974,77 @@ scripts/travis.sh
 src/testdir/Makefile
 -----------------------------------------------------------------
 
-Partial Revert diff pair 127 is -> 
+Partial Revert diff pair 130 is -> 
 { 8b94f34cedb85fac0d058e7e678b623a8aac3cd8 -> cb9a3684450714945fd2d77a63d687237fdfff24 } is a revert
 { cb9a3684450714945fd2d77a63d687237fdfff24 -> c002ffe2f3b76419ff5d16356d5e57fa518ac68b }
 Partial Revert commits SHA are -> 
 cb9a3684450714945fd2d77a63d687237fdfff24 - revert - c002ffe2f3b76419ff5d16356d5e57fa518ac68b
-The reverted commit sha is - cb9a3684450714945fd2d77a63d687237fdfff24
+---> The reverted commit sha is - cb9a3684450714945fd2d77a63d687237fdfff24
 Commit message - Add configuration to help debug memory leaks
-The original commit sha is - c002ffe2f3b76419ff5d16356d5e57fa518ac68b
+---> The original commit sha is - c002ffe2f3b76419ff5d16356d5e57fa518ac68b
 Commit message - Temporarily remove valgrind check in travis build
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 128 is -> 
+Partial Revert diff pair 131 is -> 
 { ab94b36f3dd4684b5dc43765d9b5913d192e3989 -> 4961654a2ab5c746920d4f9c40eda662dfe19cc3 } is a revert
 { eb489326772c477a8c86113dd86a351129e3170c -> badf94eb330bdc72e4b4e6481b86b8fea2e9fa23 }
 Partial Revert commits SHA are -> 
 4961654a2ab5c746920d4f9c40eda662dfe19cc3 - revert - badf94eb330bdc72e4b4e6481b86b8fea2e9fa23
-The reverted commit sha is - 4961654a2ab5c746920d4f9c40eda662dfe19cc3
+---> The reverted commit sha is - 4961654a2ab5c746920d4f9c40eda662dfe19cc3
 Commit message - CMakeLists: add install target for nvim
-The original commit sha is - badf94eb330bdc72e4b4e6481b86b8fea2e9fa23
+---> The original commit sha is - badf94eb330bdc72e4b4e6481b86b8fea2e9fa23
 Commit message - Merge pull request #134 from HungMingWu/master
 
 add required dependency on Debian/Ubuntu system
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 README.md
 -----------------------------------------------------------------
 
-Partial Revert diff pair 129 is -> 
+Partial Revert diff pair 132 is -> 
 { b7d5edd5aa1c7e8958e35caf302451be3d3d931e -> 8437a4c9724f17824c9043afc27288013d096649 } is a revert
 { e51427b9a8c46b8ebd58c1dc156c28dc5afa04ad -> eb489326772c477a8c86113dd86a351129e3170c }
 Partial Revert commits SHA are -> 
 8437a4c9724f17824c9043afc27288013d096649 - revert - eb489326772c477a8c86113dd86a351129e3170c
-The reverted commit sha is - 8437a4c9724f17824c9043afc27288013d096649
+---> The reverted commit sha is - 8437a4c9724f17824c9043afc27288013d096649
 Commit message - os_unix: Port mch_FullName and mch_isFullName to libuv.
 
 Basically just delete conditional use of fchdir, since the other called
 mch_* functions are already ported to libuv.
-The original commit sha is - eb489326772c477a8c86113dd86a351129e3170c
+---> The original commit sha is - eb489326772c477a8c86113dd86a351129e3170c
 Commit message - Merge pull request #123 from jbranchaud/adding-contributing-doc
 
 Following GitHub convention by adding a CONTRIBUTING.md file.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 CONTRIBUTING.md
 -----------------------------------------------------------------
 
-Partial Revert diff pair 130 is -> 
+Partial Revert diff pair 133 is -> 
 { 322255ede6df3e9f14f40fc35695a393a7e915c1 -> a74c059a3e322f1abc0e98b76e16a7b92d499654 } is a revert
 { 11aac0db88eaba07da2c13f1e0eafecf13b371c5 -> e51427b9a8c46b8ebd58c1dc156c28dc5afa04ad }
 Partial Revert commits SHA are -> 
 a74c059a3e322f1abc0e98b76e16a7b92d499654 - revert - e51427b9a8c46b8ebd58c1dc156c28dc5afa04ad
-The reverted commit sha is - a74c059a3e322f1abc0e98b76e16a7b92d499654
+---> The reverted commit sha is - a74c059a3e322f1abc0e98b76e16a7b92d499654
 Commit message - Remove implicit declaration of vim_strrchr and vim_strncpy
-The original commit sha is - e51427b9a8c46b8ebd58c1dc156c28dc5afa04ad
+---> The original commit sha is - e51427b9a8c46b8ebd58c1dc156c28dc5afa04ad
 Commit message - Merge pull request #157 from Hywan/readme
 
 Fix Markdown syntax
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 README.md
 -----------------------------------------------------------------
 
-Partial Revert diff pair 131 is -> 
+Partial Revert diff pair 134 is -> 
 { 31cb3e09d47f2022c457a0f54a4dcb51cd4a79f4 -> b3467a66198d08bc5d3d6a2c24983bd1616e33e2 } is a revert
 { 0ef90c13b72b74928bfb3c183c7a5bd7240b51ad -> 72c6523da58b25bcb68791d539a18bb81c5f70eb }
 Partial Revert commits SHA are -> 
 b3467a66198d08bc5d3d6a2c24983bd1616e33e2 - revert - 72c6523da58b25bcb68791d539a18bb81c5f70eb
-The reverted commit sha is - b3467a66198d08bc5d3d6a2c24983bd1616e33e2
+---> The reverted commit sha is - b3467a66198d08bc5d3d6a2c24983bd1616e33e2
 Commit message - Fix anchors
-The original commit sha is - 72c6523da58b25bcb68791d539a18bb81c5f70eb
+---> The original commit sha is - 72c6523da58b25bcb68791d539a18bb81c5f70eb
 Commit message - Merge branch 'bundle-libuv' of github.com:rjw57/neovim into rjw57-bundle-libuv
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Makefile
 scripts/compile-libuv.sh
 scripts/get-libuv.sh
@@ -3232,66 +3291,66 @@ third-party/libuv/uv.gyp
 third-party/libuv/vcbuild.bat
 -----------------------------------------------------------------
 
-Partial Revert diff pair 132 is -> 
+Partial Revert diff pair 135 is -> 
 { 6241a499431ce56b012facd1971a380b73a15dab -> eaa4f2b9ce99eeddef0b21c7ba3f913d36d038eb } is a revert
 { eedb6a3ad7c2fcb72ef60893478a11e3a390e152 -> a8cda69a73f11ef1905de988c1530e54ba2f40b9 }
 Partial Revert commits SHA are -> 
 eaa4f2b9ce99eeddef0b21c7ba3f913d36d038eb - revert - a8cda69a73f11ef1905de988c1530e54ba2f40b9
-The reverted commit sha is - eaa4f2b9ce99eeddef0b21c7ba3f913d36d038eb
+---> The reverted commit sha is - eaa4f2b9ce99eeddef0b21c7ba3f913d36d038eb
 Commit message - Adding neovim formula for Homebrew
-The original commit sha is - a8cda69a73f11ef1905de988c1530e54ba2f40b9
+---> The original commit sha is - a8cda69a73f11ef1905de988c1530e54ba2f40b9
 Commit message - Merge pull request #85 from jszakmeister/remove-bashisms
 
 scripts/common.sh: remove a couple bashisms
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 scripts/common.sh
 -----------------------------------------------------------------
 
-Partial Revert diff pair 133 is -> 
+Partial Revert diff pair 136 is -> 
 { da2906f28e1f5ee4cbff5fa2e0c0ec88777b838a -> 6241a499431ce56b012facd1971a380b73a15dab } is a revert
 { 0ad500de588a9f95bfa673a83751c5e472e7eded -> eedb6a3ad7c2fcb72ef60893478a11e3a390e152 }
 Partial Revert commits SHA are -> 
 6241a499431ce56b012facd1971a380b73a15dab - revert - eedb6a3ad7c2fcb72ef60893478a11e3a390e152
-The reverted commit sha is - 6241a499431ce56b012facd1971a380b73a15dab
+---> The reverted commit sha is - 6241a499431ce56b012facd1971a380b73a15dab
 Commit message - scripts/common.sh: remove a couple bashisms
 
 This allows the scripts to work on systems that don't have /bin/bash as
 /bin/sh--such as Debian.
-The original commit sha is - eedb6a3ad7c2fcb72ef60893478a11e3a390e152
+---> The original commit sha is - eedb6a3ad7c2fcb72ef60893478a11e3a390e152
 Commit message - Merge pull request #79 from jdiez17/has_neovim
 
 Added 'neovim' to the feature list, following discussion on #44
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/eval.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 134 is -> 
+Partial Revert diff pair 137 is -> 
 { 8614983e4ede98195db1586ef6ef3acb83310f3e -> d0f2cbeceb4d83e768731d8126571dbbd46e43c8 } is a revert
 { be3ce617c718cee0cbd418cd1b014f9e9480a0b9 -> 68847d78255039b8866d98140a26c183925f735d }
 Partial Revert commits SHA are -> 
 d0f2cbeceb4d83e768731d8126571dbbd46e43c8 - revert - 68847d78255039b8866d98140a26c183925f735d
-The reverted commit sha is - d0f2cbeceb4d83e768731d8126571dbbd46e43c8
+---> The reverted commit sha is - d0f2cbeceb4d83e768731d8126571dbbd46e43c8
 Commit message - Issue #97 - Add documentation on installing root SSL certificates on OS X, which is required for retrieving the libuv archive before building.
-The original commit sha is - 68847d78255039b8866d98140a26c183925f735d
+---> The original commit sha is - 68847d78255039b8866d98140a26c183925f735d
 Commit message - Merge branch 'master' of github.com:cweagans/neovim into cweagans-master
 
 Conflicts:
 	README.md
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 neovim.rb
 -----------------------------------------------------------------
 
-Partial Revert diff pair 135 is -> 
+Partial Revert diff pair 138 is -> 
 { 1bcbc42330d651f06b8a842e16fe36475afde05d -> a302c65dc65896776d6cb9e2c89a6ccc77ada530 } is a revert
 { 14cbd618ec4930878afc6f9073d9ebb9e514fd75 -> b76c358f3de9106a4bdbf853b4c4371f6f7a62c2 }
 Partial Revert commits SHA are -> 
 a302c65dc65896776d6cb9e2c89a6ccc77ada530 - revert - b76c358f3de9106a4bdbf853b4c4371f6f7a62c2
-The reverted commit sha is - a302c65dc65896776d6cb9e2c89a6ccc77ada530
+---> The reverted commit sha is - a302c65dc65896776d6cb9e2c89a6ccc77ada530
 Commit message - Squashed 'third-party/libuv/' content from commit 3c40224
 
 git-subtree-dir: third-party/libuv
 git-subtree-split: 3c4022464acd92607f21c6eef69330fb071d0400
-The original commit sha is - b76c358f3de9106a4bdbf853b4c4371f6f7a62c2
+---> The original commit sha is - b76c358f3de9106a4bdbf853b4c4371f6f7a62c2
 Commit message - Convert function declarations from K&R to ANSI style.
 
 cproto (http://invisible-island.net/cproto/) was used to do the bulk of
@@ -3319,53 +3378,53 @@ version would require a different syntax, so in order to simplify the
 conversion all uses of `UNUSED` were stripped, and then the sources were
 run back through cproto. It is planned to reconsider each use of
 `UNUSED` manually using a new macro definition.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .travis.yml
 vim-license.txt
 -----------------------------------------------------------------
 
-Partial Revert diff pair 136 is -> 
+Partial Revert diff pair 139 is -> 
 { 19296296dbdbbb23538cb58b3ec0b0c6f5036bb1 -> f32a091f0aa41ef4fcc1803e7af0633f081c6871 } is a revert
 { cebac0fc59cda330b8e26a2bab2bd2c1fb09df13 -> b0abcda487d4f1bc7eb3f6a1edc878e576124451 }
 Partial Revert commits SHA are -> 
 f32a091f0aa41ef4fcc1803e7af0633f081c6871 - revert - b0abcda487d4f1bc7eb3f6a1edc878e576124451
-The reverted commit sha is - f32a091f0aa41ef4fcc1803e7af0633f081c6871
+---> The reverted commit sha is - f32a091f0aa41ef4fcc1803e7af0633f081c6871
 Commit message - Fixed travis image
-The original commit sha is - b0abcda487d4f1bc7eb3f6a1edc878e576124451
+---> The original commit sha is - b0abcda487d4f1bc7eb3f6a1edc878e576124451
 Commit message - Merge pull request #54 from mitchellwrosen/master
 
 Clean up main.c:parse_command_name
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 src/main.c
 -----------------------------------------------------------------
 
-Partial Revert diff pair 137 is -> 
+Partial Revert diff pair 140 is -> 
 { 2d32735bd9a120e0c429406d5281fd49df9c9379 -> 6e430eb63490659658cbec8ef164edc375300ce6 } is a revert
 { 8d2fb5f8557c1dfe0f3fa398ca58bdb9441fa107 -> eaf942c5a6ce6aca0bc217063f112a177e82f417 }
 Partial Revert commits SHA are -> 
 6e430eb63490659658cbec8ef164edc375300ce6 - revert - eaf942c5a6ce6aca0bc217063f112a177e82f417
-The reverted commit sha is - 6e430eb63490659658cbec8ef164edc375300ce6
+---> The reverted commit sha is - 6e430eb63490659658cbec8ef164edc375300ce6
 Commit message - Merge pull request #47 from Coornail/ignore-test-vimrcs
 
 Remove trailing spaces from gitignore
-The original commit sha is - eaf942c5a6ce6aca0bc217063f112a177e82f417
+---> The original commit sha is - eaf942c5a6ce6aca0bc217063f112a177e82f417
 Commit message - Merge pull request #22 from cmrosenberg/osx-automake
 
 Added automake as build dependency on OS X
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 README.md
 -----------------------------------------------------------------
 
-Partial Revert diff pair 138 is -> 
+Partial Revert diff pair 141 is -> 
 { 9a4564a0ab52de2d08a9607b666341af49c175a9 -> 7cadf15eee1f377e9a7bb147180b86cf9637b2c6 } is a revert
 { b17e52a9e48618f0a1153d2451ed1b92318667e1 -> f604544598bb73c6d7cdb074cc3582d31663e5a3 }
 Partial Revert commits SHA are -> 
 7cadf15eee1f377e9a7bb147180b86cf9637b2c6 - revert - f604544598bb73c6d7cdb074cc3582d31663e5a3
-The reverted commit sha is - 7cadf15eee1f377e9a7bb147180b86cf9637b2c6
+---> The reverted commit sha is - 7cadf15eee1f377e9a7bb147180b86cf9637b2c6
 Commit message - include a copy of the Vim License
-The original commit sha is - f604544598bb73c6d7cdb074cc3582d31663e5a3
+---> The original commit sha is - f604544598bb73c6d7cdb074cc3582d31663e5a3
 Commit message - Add modeline with tw per @ashleyh's suggestion
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 vim-license.txt
 -----------------------------------------------------------------
 

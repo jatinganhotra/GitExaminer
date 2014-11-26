@@ -1,0 +1,639 @@
+# of cherry-picks = 36
+Cherry-pick diff pair 1 is -> 
+{ bcab2905d83c4b6c0def50462752b1beb5548f10 -> db914e8b6139e111ed0a744f78a704f35e1774ba } is a cherrypick
+{ 3bbbeaf2c9658222f31c29bc0ab27b9f125fb27c -> c83dfa20bd275ad7f5ea92a4aac2686f9111e602 }
+Cherrypick commits SHA are -> 
+db914e8b6139e111ed0a744f78a704f35e1774ba - cherrypick - c83dfa20bd275ad7f5ea92a4aac2686f9111e602
+---> The cherrypicked commit sha is - db914e8b6139e111ed0a744f78a704f35e1774ba
+Commit message - Fix broken functional test.
+
+In Lua, all math is floating point.  We need to coerce the result of a
+division into a integer with the `{get,set}_height` and
+`{get,set}_width` window_spec functional tests.
+---> The original commit sha is - c83dfa20bd275ad7f5ea92a4aac2686f9111e602
+Commit message - Merge pull request #1543 from jszakmeister/fix-broken-functional-tests
+
+Fix broken functional test.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ af5eaf22c529205ea75665df4a917b9294419f12 -> 1f2c197ebe40076fad2f5abecad4e73291fe0a9b } is a cherrypick
+{ 412c71444876a887cfef74a031e8d1df3a05e9ee -> 4b89903a22894c8f0847ed6c206f2dfcae60b4d1 }
+Cherrypick commits SHA are -> 
+1f2c197ebe40076fad2f5abecad4e73291fe0a9b - cherrypick - 4b89903a22894c8f0847ed6c206f2dfcae60b4d1
+---> The cherrypicked commit sha is - 1f2c197ebe40076fad2f5abecad4e73291fe0a9b
+Commit message - Fix functional-test-105 failure in OSX.
+
+See https://github.com/neovim/neovim/issues/1519 for failure report.
+
+Cause    : In OSX, /tmp is a symbolic link to /private/tmp, which causes
+           expected and got results different because of implicit
+           resolution.
+Solution : Resolve path before setting expected value.
+---> The original commit sha is - 4b89903a22894c8f0847ed6c206f2dfcae60b4d1
+Commit message - Merge pull request #1520 from elmart/fix-func-tests
+
+Fix functional tests failing on OSX.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ d3f413ba6a4e9fc36712f787bc120eb028f39cae -> be90cdf4f9891ebd6cdf6b2ec6c34f3bcf465643 } is a cherrypick
+{ 3bf32fe43f86a2c966c77b130f7ea7c71b6ac099 -> 97be8d45f4e52aa33d37a831c26e24235ec55220 }
+Cherrypick commits SHA are -> 
+be90cdf4f9891ebd6cdf6b2ec6c34f3bcf465643 - cherrypick - 97be8d45f4e52aa33d37a831c26e24235ec55220
+---> The cherrypicked commit sha is - be90cdf4f9891ebd6cdf6b2ec6c34f3bcf465643
+Commit message - Fix warnings: eval.c: dictitem_alloc(): Out-of-bounds access: FP.
+
+Problem    : Out-of-bound array access @ 5737.
+Diagnostic : False positive.
+Rationale  : Situation is intentional. `dictitem_T` is a prefix all dict
+             items whill share, but actual size of each item will be
+             different depending on its key length. `di_key` array field
+             is declared of size 1 just to have a field name, but real
+             size will vary for each item.
+Resolution : Make analyzer ignore it.
+             This could be refactored to use C99-allowed variable length
+             arrays, but eval.c is bound to dissappear, so no effort is
+             done in that sense.
+---> The original commit sha is - 97be8d45f4e52aa33d37a831c26e24235ec55220
+Commit message - Fix warnings: eval.c: add_nr_var(): Out of bounds: FP.
+
+Problem    : Out-of-bound array access @ 18737.
+Diagnostic : False positive.
+Rationale  : Situation is intentional. `dictitem_T` is a prefix all dict
+             items whill share, but actual size of each item will be
+             different depending on its key length. `di_key` array field
+             is declared of size 1 just to have a field name, but real
+             size will vary for each item.
+Resolution : Make analyzer ignore it.
+             This could be refactored to use C99-allowed variable length
+             arrays, but eval.c is bound to dissappear, so no effort is
+             done in that sense.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ 1ea90f697113cc5a98e63df3f89552f0837561b1 -> 05c1394fcd77f111b8edf11e96356c457d2b5c3a } is a cherrypick
+{ 85842b29eb9f525ee78c153713e9f55e503d82b7 -> e450c541ddfe1266d3d56b594f83ab197e747584 }
+Cherrypick commits SHA are -> 
+05c1394fcd77f111b8edf11e96356c457d2b5c3a - cherrypick - e450c541ddfe1266d3d56b594f83ab197e747584
+---> The cherrypicked commit sha is - 05c1394fcd77f111b8edf11e96356c457d2b5c3a
+Commit message - Move many includes down to the EXITFREE block.
+
+They're unnecessary for the rest of the file, and they're only there at
+all to help implement `free_all_mem` for use with Clang's Address
+Sanitizer.  So let's move them to avoid any confusion about why they are
+there.
+---> The original commit sha is - e450c541ddfe1266d3d56b594f83ab197e747584
+Commit message - Merge pull request #1439 from jszakmeister/shuffle-some-includes
+
+Move many includes down to the EXITFREE block.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ 3080672650b1a6583684edfdafef7e07c0c7cf56 -> 2540155591034610bd5550bd0a4e63b425907395 } is a cherrypick
+{ fc19f0c4c6773ff8b10c14492da2acf3601d8cbc -> 85842b29eb9f525ee78c153713e9f55e503d82b7 }
+Cherrypick commits SHA are -> 
+2540155591034610bd5550bd0a4e63b425907395 - cherrypick - 85842b29eb9f525ee78c153713e9f55e503d82b7
+---> The cherrypicked commit sha is - 2540155591034610bd5550bd0a4e63b425907395
+Commit message - build: fix CMAKE_MODULE_PATH usage
+
+Fixes #1447.  `CMAKE_MODULE_PATH` is meant to be a list of directories,
+and as such, is not the proper way to launch our scripts.  Let's use
+`${PROJECT_SOURCE_DIR}/cmake` instead.  Also, let's not outright set
+`CMAKE_MODULE_PATH`, but instead append our location to the list.
+---> The original commit sha is - 85842b29eb9f525ee78c153713e9f55e503d82b7
+Commit message - Merge pull request #1449 from jszakmeister/fix-cmake-module-path-usage
+
+build: fix CMAKE_MODULE_PATH usage
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ 7c7874d11b07167e3ed2b5a2fc21484ff1c6be34 -> b384252d52aadfe0699d636125a103f4bad5ad17 } is a cherrypick
+{ 20b895e624489903fc79f956234039eaaecb6e46 -> b0cd397a43ae18942e12b1c76f838aac135b18cf }
+Cherrypick commits SHA are -> 
+b384252d52aadfe0699d636125a103f4bad5ad17 - cherrypick - b0cd397a43ae18942e12b1c76f838aac135b18cf
+---> The cherrypicked commit sha is - b384252d52aadfe0699d636125a103f4bad5ad17
+Commit message - Fix the nvim-clipboard help instructions
+
+Fixes #1407
+---> The original commit sha is - b0cd397a43ae18942e12b1c76f838aac135b18cf
+Commit message - Merge pull request #1416 from jondkinney/master
+
+Fix the nvim-clipboard help instructions
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ 57140446174a1e547b4799d75d6182a24ad78b44 -> 6e87557c0816e1237e0cb0dc6eba96a154bc88cc } is a cherrypick
+{ 8e281b3f70f92535925332207061385f4d1935bc -> 911c5518a5ff6c621f9e681b66920107c2bcbe72 }
+Cherrypick commits SHA are -> 
+6e87557c0816e1237e0cb0dc6eba96a154bc88cc - cherrypick - 911c5518a5ff6c621f9e681b66920107c2bcbe72
+---> The cherrypicked commit sha is - 6e87557c0816e1237e0cb0dc6eba96a154bc88cc
+Commit message - build: allow installing into the root directory (/)
+
+It turns out that CMake always canonicalizes `CMAKE_INSTALL_PREFIX` to
+an absolute path--if it's a relative path, it canonicalizes it relative
+to the build directory.  As a result, the only thing the DESTDIR and
+relative directory check prevents is an installation into the root
+directory since CMake strips the trailing slash, turning "/" into an
+empty string.  Let's just remove the check all together, since it cannot
+accomplish what we intended.
+---> The original commit sha is - 911c5518a5ff6c621f9e681b66920107c2bcbe72
+Commit message - Merge pull request #1443 from jszakmeister/allow-root-dir-installs
+
+build: allow installing into the root directory (/)
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ dcccc1a50de3caea62ab12f9e15fc6f3e242b5c4 -> 2513c5f648ee71bd0648d979f3eb69e8c5c7b603 } is a cherrypick
+{ 8a0074d9b8da6112bb5e0f200f4bd17ef192bf9d -> 57140446174a1e547b4799d75d6182a24ad78b44 }
+Cherrypick commits SHA are -> 
+2513c5f648ee71bd0648d979f3eb69e8c5c7b603 - cherrypick - 57140446174a1e547b4799d75d6182a24ad78b44
+---> The cherrypicked commit sha is - 2513c5f648ee71bd0648d979f3eb69e8c5c7b603
+Commit message - Remove redundant USE_ICONV define from config.h.in.
+
+This was noticed during a review of #1437.
+---> The original commit sha is - 57140446174a1e547b4799d75d6182a24ad78b44
+Commit message - Merge pull request #1441 from jszakmeister/remove-redundant-define
+
+Remove redundant USE_ICONV define from config.h.in.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ f7a468c1e76a1b2fb4ccf436fc9d50174b88b412 -> 5d97f3fc2c259613db7065f249e073a7994fab29 } is a cherrypick
+{ 7d0a689476fdffc1e027ff0205fa404ba9d81602 -> 2aeda4ba6f033707dd96daabd2084d239ac82b3d }
+Cherrypick commits SHA are -> 
+5d97f3fc2c259613db7065f249e073a7994fab29 - cherrypick - 2aeda4ba6f033707dd96daabd2084d239ac82b3d
+---> The cherrypicked commit sha is - 5d97f3fc2c259613db7065f249e073a7994fab29
+Commit message - build: default to using -O2 for release builds
+
+The -O3 optimization level can often lead to dangerous (and sometimes
+incorrect) optimizations being performed.  So let's use a level that's
+more stable.
+---> The original commit sha is - 2aeda4ba6f033707dd96daabd2084d239ac82b3d
+Commit message - Merge pull request #1426 from jszakmeister/change-release-opt-default
+
+build: default to using -O2 for release builds
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ 4b0f8f2a4d8f1f1db1900079061cad2098bf0ac0 -> 89cccf2826ec6a5ce0db083d0c48d700326cc3c5 } is a cherrypick
+{ 822d813575e53ac16bdc93a656a509adcbaadb2a -> 1b9e4d77310cd5e85d2fb9f2bd56b13550f9d2d7 }
+Cherrypick commits SHA are -> 
+89cccf2826ec6a5ce0db083d0c48d700326cc3c5 - cherrypick - 1b9e4d77310cd5e85d2fb9f2bd56b13550f9d2d7
+---> The cherrypicked commit sha is - 89cccf2826ec6a5ce0db083d0c48d700326cc3c5
+Commit message - CONTRIBUTING.md: Add link to CLA.
+---> The original commit sha is - 1b9e4d77310cd5e85d2fb9f2bd56b13550f9d2d7
+Commit message - Merge pull request #1364 from fwalch/cla
+
+CONTRIBUTING.md: Add link to CLA.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ 1eb3dae04a8fd703dcbc6257a3cf22a460e0d967 -> 1be1964f343fc3e5c161d00ca36e5c3b90688703 } is a cherrypick
+{ a62998ea08e01c38c96d40ee4bd4f59c9bd65ad2 -> 181e652ee152d90aaff17a1985b05a98d6b69515 }
+Cherrypick commits SHA are -> 
+1be1964f343fc3e5c161d00ca36e5c3b90688703 - cherrypick - 181e652ee152d90aaff17a1985b05a98d6b69515
+---> The cherrypicked commit sha is - 1be1964f343fc3e5c161d00ca36e5c3b90688703
+Commit message - coverity/71507: Unchecked return value (CHECKED_RETURN)
+
+Don't check for err->set since object_to_vim always return false when error is set
+---> The original commit sha is - 181e652ee152d90aaff17a1985b05a98d6b69515
+Commit message - Merge pull request #1312 from GokuITA/coverity1289
+
+coverity/71507: Unchecked return value (CHECKED_RETURN)
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ 5e65e3eae079d4765124ce791ce79649444ca403 -> c5f9540ccbb89ef46f733d8fbe63824cb6d364a6 } is a cherrypick
+{ 867aff3d2d59e84caa914c84063862b07d306f4c -> f68e7aba2c6ac3fe90a5f550e4b16e385882d16a }
+Cherrypick commits SHA are -> 
+c5f9540ccbb89ef46f733d8fbe63824cb6d364a6 - cherrypick - f68e7aba2c6ac3fe90a5f550e4b16e385882d16a
+---> The cherrypicked commit sha is - c5f9540ccbb89ef46f733d8fbe63824cb6d364a6
+Commit message - vim-patch:7.4.444
+
+Problem: Reversed question mark not recognized as punctuation. ( Issue 258 )
+Solution: Add the Supplemental Punctuation range.
+
+https://code.google.com/p/vim/source/detail?r=v7-4-444
+---> The original commit sha is - f68e7aba2c6ac3fe90a5f550e4b16e385882d16a
+Commit message - Merge pull request #1265 from dkns/vp-7.4.444
+
+vim-patch:7.4.444
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ 1c84a0e09093d728408024a6baa9967df596be54 -> 57d497c51b1159052cb53c9e4db0388626b35903 } is a cherrypick
+{ d41eb83019ccaf78fe172da3477a07aaf645ba3d -> 176f16066b52f437b098d3d4d8dee5c5bf2e8865 }
+Cherrypick commits SHA are -> 
+57d497c51b1159052cb53c9e4db0388626b35903 - cherrypick - 176f16066b52f437b098d3d4d8dee5c5bf2e8865
+---> The cherrypicked commit sha is - 57d497c51b1159052cb53c9e4db0388626b35903
+Commit message - vim-patch:7.4.386
+
+Problem:    When splitting a window the changelist position is wrong.
+Solution:   Copy the changelist position. (Jacob Niehus)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-386
+---> The original commit sha is - 176f16066b52f437b098d3d4d8dee5c5bf2e8865
+Commit message - Merge pull request #1219 from atwupack/vp-7.4.386
+
+vim-patch:7.4.386
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 14 is -> 
+{ a447160a6ca43181158bce8117f2af37f4e9fc85 -> 1a2338bbad3f3832d739195b8375a491e0560dd3 } is a cherrypick
+{ 39882b85b6e32b0250f4188f165669a6ac37849c -> e2c111384b97532d7601519e3501f480e932c0cd }
+Cherrypick commits SHA are -> 
+1a2338bbad3f3832d739195b8375a491e0560dd3 - cherrypick - e2c111384b97532d7601519e3501f480e932c0cd
+---> The cherrypicked commit sha is - 1a2338bbad3f3832d739195b8375a491e0560dd3
+Commit message - vim-patch:7.4.379
+
+Problem:    Accessing freed memory after using setqflist(list, 'r'). (Lcd)
+Solution:   Reset qf_index.
+
+https://code.google.com/p/vim/source/detail?r=v7-4-379
+---> The original commit sha is - e2c111384b97532d7601519e3501f480e932c0cd
+Commit message - Merge pull request #1195 from Shougo/vim-patch-7.4.379
+
+vim-patch:7.4.379
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 15 is -> 
+{ df64c0f932c8c9d4cfbec8b54aefb6c5cc7c359e -> 9ede170e7ebe6571191b79a0e8c2c66ca620c41d } is a cherrypick
+{ 7fcc504fa689c7cfdd27d7bed10cc46cc81d16d0 -> 8d6540f8764c4a691e22890258599d74b43b52e6 }
+Cherrypick commits SHA are -> 
+9ede170e7ebe6571191b79a0e8c2c66ca620c41d - cherrypick - 8d6540f8764c4a691e22890258599d74b43b52e6
+---> The cherrypicked commit sha is - 9ede170e7ebe6571191b79a0e8c2c66ca620c41d
+Commit message - clang: Null pointer passed as an argument to a 'nonnull' parameter
+---> The original commit sha is - 8d6540f8764c4a691e22890258599d74b43b52e6
+Commit message - Merge pull request #1129 from justinmk/clang
+
+clang: Null pointer passed as an argument to a 'nonnull' parameter
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 16 is -> 
+{ 3b7b79e37d3479633701ad1d2ea4912d5c17c93b -> f5320f645b325546f13289a708ba2efce3204c87 } is a cherrypick
+{ 36d3a7dc78181cd865f9e5a592efc77978bd1cb8 -> fd60b8ee7e2496d08e3aa1166d171e87cb3314b9 }
+Cherrypick commits SHA are -> 
+f5320f645b325546f13289a708ba2efce3204c87 - cherrypick - fd60b8ee7e2496d08e3aa1166d171e87cb3314b9
+---> The cherrypicked commit sha is - f5320f645b325546f13289a708ba2efce3204c87
+Commit message - vim-patch:7.4.368
+
+Problem:    Restoring the window sizes after closing the command line window
+            doesn't work properly if there are nested splits.
+Solution:   Restore the sizes twice. (Hirohito Higashi)
+
+https://code.google.com/p/vim/source/detail?r=v7-4-368
+---> The original commit sha is - fd60b8ee7e2496d08e3aa1166d171e87cb3314b9
+Commit message - Merge pull request #1183 from Shougo/vim-patch-7.4.368
+
+vim-patch:7.4.368
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 17 is -> 
+{ 053a13d2a4ee0188c851ed58539c0fa5cb2c71b8 -> 579e0baba03482e3b1f9a83cdb54c1b8871eb5e2 } is a cherrypick
+{ 32543726026e245dd2a6238c6730c646945e2a48 -> 5ca1f974620fd8922aba4bde2a318ad8bf3a9d51 }
+Cherrypick commits SHA are -> 
+579e0baba03482e3b1f9a83cdb54c1b8871eb5e2 - cherrypick - 5ca1f974620fd8922aba4bde2a318ad8bf3a9d51
+---> The cherrypicked commit sha is - 579e0baba03482e3b1f9a83cdb54c1b8871eb5e2
+Commit message - Travis: Add subdirectories to dependency paths.
+---> The original commit sha is - 5ca1f974620fd8922aba4bde2a318ad8bf3a9d51
+Commit message - Merge pull request #1037 from fwalch/automatic-deps-paths
+
+Travis: Add subdirectories to dependency paths.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 18 is -> 
+{ 3f5482d3251b3bbdc7c4df8a8e64eb3af7e5922c -> 213cbdd4e4134622757197feebe9249c27ed93de } is a cherrypick
+{ c54baaa319c95fa5fb7544ce7282ffb14a976902 -> 7577c31ed08b0f4e1426f9e6a1da7d5fd55440bb }
+Cherrypick commits SHA are -> 
+213cbdd4e4134622757197feebe9249c27ed93de - cherrypick - 7577c31ed08b0f4e1426f9e6a1da7d5fd55440bb
+---> The cherrypicked commit sha is - 213cbdd4e4134622757197feebe9249c27ed93de
+Commit message - README.md: link to libuv
+Reference to libuv was made a link
+---> The original commit sha is - 7577c31ed08b0f4e1426f9e6a1da7d5fd55440bb
+Commit message - Merge pull request #1143 from mkwork/readme
+
+README.md: link to libuv
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 19 is -> 
+{ c2a8f06bbaa5a8a187b1b9ca80676c20dc7a0a49 -> 5a6d7a59ddb30a88dbd94f76d5d9f4e5de75b296 } is a cherrypick
+{ 062402fb645544e79d0b5b90684f96aead446436 -> db598c5790eefac9ce414f4348d2bae2c6d25484 }
+Cherrypick commits SHA are -> 
+5a6d7a59ddb30a88dbd94f76d5d9f4e5de75b296 - cherrypick - db598c5790eefac9ce414f4348d2bae2c6d25484
+---> The cherrypicked commit sha is - 5a6d7a59ddb30a88dbd94f76d5d9f4e5de75b296
+Commit message - Remove version{4,5,6,7}.txt
+---> The original commit sha is - db598c5790eefac9ce414f4348d2bae2c6d25484
+Commit message - Merge pull request #1116 from fornwall/remove-versions-txt
+
+Remove version{4,5,6,7}.txt
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 20 is -> 
+{ a0e593e26163c730e75a362dcc9e34a645021aff -> 22860647a71d8cafd699ff4987ea39c4deb5a7f6 } is a cherrypick
+{ 665c3cc3345ed766bf085a841806d6f0606ee12a -> e11b23e357ca797211c4e11f3f87ddb0dac98a99 }
+Cherrypick commits SHA are -> 
+22860647a71d8cafd699ff4987ea39c4deb5a7f6 - cherrypick - e11b23e357ca797211c4e11f3f87ddb0dac98a99
+---> The cherrypicked commit sha is - 22860647a71d8cafd699ff4987ea39c4deb5a7f6
+Commit message - Remove os_msdos.txt due to dropped MS-DOS support
+---> The original commit sha is - e11b23e357ca797211c4e11f3f87ddb0dac98a99
+Commit message - Merge pull request #1082 from fornwall/remove-os-msdos-txt
+
+Remove os_msdos.txt due to dropped MS-DOS support
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 21 is -> 
+{ a40a7cf24f5a57963388cef5c5472ab4047d568f -> 41634af0e5cdaa70884ba27c21e624b83b7dc94c } is a cherrypick
+{ 95efb3624b321cdbe5b958e3dfab0045d6de5439 -> bbefc73c553d681f78f40df9d97ec89ae9b06520 }
+Cherrypick commits SHA are -> 
+41634af0e5cdaa70884ba27c21e624b83b7dc94c - cherrypick - bbefc73c553d681f78f40df9d97ec89ae9b06520
+---> The cherrypicked commit sha is - 41634af0e5cdaa70884ba27c21e624b83b7dc94c
+Commit message - vim-patch:7.4.231
+
+Problem:    An error in ":options" is not caught by the tests.
+Solution:   Add a test for ":options".  Set $VIMRUNTIME for the tests so that
+            it uses the current runtime files instead of the installed ones.
+
+https://code.google.com/p/vim/source/detail?r=0a295a3c9e473512ad3b006a0fb752ad43d19094
+---> The original commit sha is - bbefc73c553d681f78f40df9d97ec89ae9b06520
+Commit message - Merge pull request #1062 from atwupack/vp-7.4.230+231
+
+vim-patch:7.4.231
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 22 is -> 
+{ b53034d423f055bbcca8b5a030dd51fcf458d182 -> 5617ee8f352a2ddb61f52e5e0ae7347957d95991 } is a cherrypick
+{ 6dcd629ed6e61fbebcf715cd1b362773f1f209ec -> a0e593e26163c730e75a362dcc9e34a645021aff }
+Cherrypick commits SHA are -> 
+5617ee8f352a2ddb61f52e5e0ae7347957d95991 - cherrypick - a0e593e26163c730e75a362dcc9e34a645021aff
+---> The cherrypicked commit sha is - 5617ee8f352a2ddb61f52e5e0ae7347957d95991
+Commit message - vim-patch:7.4.279
+
+Problem:    globpath() returns a string, making it difficult to get a
+            list of matches.  (Greg Novack)
+Solution:   Add an optional argument like with glob().  (Adnan Zafar)
+
+https://code.google.com/p/vim/source/detail?r=8e9db1f27a0063df023cc05a760fce73255dad24
+---> The original commit sha is - a0e593e26163c730e75a362dcc9e34a645021aff
+Commit message - Merge pull request #1019 from splinterofchaos/globpath
+
+vim-patch:7.4.279
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 23 is -> 
+{ fde390133e4cd176a693b1d01c013e03e4606e8a -> 53231d5e0fb410dde098dc67e9a831638f744319 } is a cherrypick
+{ 9fb0026fccf337a4c671bfa4f553c08da1e8722d -> 5c9db00e9e8b2361a57dfdc1ca2c0e3e9ee01efc }
+Cherrypick commits SHA are -> 
+53231d5e0fb410dde098dc67e9a831638f744319 - cherrypick - 5c9db00e9e8b2361a57dfdc1ca2c0e3e9ee01efc
+---> The cherrypicked commit sha is - 53231d5e0fb410dde098dc67e9a831638f744319
+Commit message - coverity/71508: Fix potential null dereference.
+
+Make sure feature pointer is not null before dereferencing.
+---> The original commit sha is - 5c9db00e9e8b2361a57dfdc1ca2c0e3e9ee01efc
+Commit message - Merge pull request #1064 from mraghavan/coverity-22-07
+
+coverity/71508: Fix potential null dereference.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 24 is -> 
+{ ba04a1c30674523fb7880b3003d8087ed7852cd9 -> f430ec5c50fbe7707343136cc4f3dde72b62d950 } is a cherrypick
+{ cbe1864ab421d4fe71c19ed592318f87272af577 -> d5a7947e8b3fc9b8f45ad1a0f0380e22e67fe6d1 }
+Cherrypick commits SHA are -> 
+f430ec5c50fbe7707343136cc4f3dde72b62d950 - cherrypick - d5a7947e8b3fc9b8f45ad1a0f0380e22e67fe6d1
+---> The cherrypicked commit sha is - f430ec5c50fbe7707343136cc4f3dde72b62d950
+Commit message - func_attr: clang/icc support NONNULL_* attr
+
+Both clang and (apparently) icc support the nonnull attribute. So I'm not
+sure why it wasn't enabled in the first place.
+
+- clang: http://clang-analyzer.llvm.org/annotations.html#attr_nonnull
+- icc: https://software.intel.com/en-us/forums/topic/280290 (not conclusive
+  evidence, but the best I could find, lacking docs)
+---> The original commit sha is - d5a7947e8b3fc9b8f45ad1a0f0380e22e67fe6d1
+Commit message - Merge pull request #986 from aktau/func-attr-enable-more-clang
+
+func_attr: clang/icc support NONNULL_* attr
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 25 is -> 
+{ a3b3db8256c259d10957d45666cf4179e328f3f4 -> 67533e09489d6d1bc689d4816776307988471efd } is a cherrypick
+{ 1f3fb5ffea303c9ec337a702618568576b23f817 -> 531ded7865188294ba005442fbbebf93cc2cb3ef }
+Cherrypick commits SHA are -> 
+67533e09489d6d1bc689d4816776307988471efd - cherrypick - 531ded7865188294ba005442fbbebf93cc2cb3ef
+---> The cherrypicked commit sha is - 67533e09489d6d1bc689d4816776307988471efd
+Commit message - Move po generation from Make to CMake.
+
+Fixes #902: localization build: `install`, `uninstall`, `prefixcheck
+targets.  All the language-related bits will now build under CMake.
+Changes include:
+
+  * Moving all non-generated sources into the NEOVIM_SOURCES variable
+    to aid in generating the .pot file.
+  * Moving a couple generated sources from NEOVIM_SOURCES and into
+    NEOVIM_GENERATED_SOURCES.
+  * Added NEOVIM_HEADERS to the executable and the library for folks who
+    are using something other than Ninja or makefiles (that way the
+    headers will show up in the IDE files).
+  * Now uses gettext's `--update` switch to update the .po files, rather
+    than doing a fragile `mv` dance that could leave you with a broken
+    working tree if you press CTRL-C at the right time.
+  * Creates `update-po-${LANG}` targets for updating individual
+    languages, just like the original Makefile.
+  * Also adds the `update-po` target for updating all the languages.
+  * Ported the `check-${LANG}` style targets.  They're
+    `check-po-${LANG}` under CMake.
+  * Handles all the one-off instances that were in the original
+    Makefile.  Fixed up ko.UTF-8.po to include the "Original
+    translation" line like other .po files to make the generation of the
+    "Generate from ..." comments consistent.  Updated ko.po with the new
+    text.
+---> The original commit sha is - 531ded7865188294ba005442fbbebf93cc2cb3ef
+Commit message - Move po generation from Make to CMake.
+
+Fixes #902: localization build: `install`, `uninstall`, `prefixcheck
+targets.  All the language-related bits will now build under CMake.
+Changes include:
+
+  * Moving all non-generated sources into the NEOVIM_SOURCES variable
+    to aid in generating the .pot file.
+  * Moving a couple generated sources from NEOVIM_SOURCES and into
+    NEOVIM_GENERATED_SOURCES.
+  * Added NEOVIM_HEADERS to the executable and the library for folks who
+    are using something other than Ninja or makefiles (that way the
+    headers will show up in the IDE files).
+  * Now uses gettext's `--update` switch to update the .po files, rather
+    than doing a fragile `mv` dance that could leave you with a broken
+    working tree if you press CTRL-C at the right time.
+  * Creates `update-po-${LANG}` targets for updating individual
+    languages, just like the original Makefile.
+  * Also adds the `update-po` target for updating all the languages.
+  * Ported the `check-${LANG}` style targets.  They're
+    `check-po-${LANG}` under CMake.
+  * Handles all the one-off instances that were in the original
+    Makefile.  Fixed up ko.UTF-8.po to include the "Original
+    translation" line like other .po files to make the generation of the
+    "Generate from ..." comments consistent.  Updated ko.po with the new
+    text.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 26 is -> 
+{ 67533e09489d6d1bc689d4816776307988471efd -> 0edb95fa0cbdbae8b01e5409177c06270116409b } is a cherrypick
+{ c261b351ed40365a88d78f23c609a290ac0c8456 -> 1f3fb5ffea303c9ec337a702618568576b23f817 }
+Cherrypick commits SHA are -> 
+0edb95fa0cbdbae8b01e5409177c06270116409b - cherrypick - 1f3fb5ffea303c9ec337a702618568576b23f817
+---> The cherrypicked commit sha is - 0edb95fa0cbdbae8b01e5409177c06270116409b
+Commit message - Customize the log file for the check targets based on the input file.
+
+The idea being that it's better to segregate feedback, just in case
+someone is working on several translations.  Now the check log will
+appear in `./build/src/nvim/po/check-${LANG}.log`.
+---> The original commit sha is - 1f3fb5ffea303c9ec337a702618568576b23f817
+Commit message - Customize the log file for the check targets based on the input file.
+
+The idea being that it's better to segregate feedback, just in case
+someone is working on several translations.  Now the check log will
+appear in `./build/src/nvim/po/check-${LANG}.log`.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 27 is -> 
+{ 0aa8b5828cc0674894681841f40c3c05bfd2f07b -> c57c3633d4c1667aa2c61a3b086041a989fd480c } is a cherrypick
+{ e2e47803bdfd5fb40e3dbc9cdf798bb27d306c72 -> f1e52c496ddb89f830cdbc4f23d756131106b97f }
+Cherrypick commits SHA are -> 
+c57c3633d4c1667aa2c61a3b086041a989fd480c - cherrypick - f1e52c496ddb89f830cdbc4f23d756131106b97f
+---> The cherrypicked commit sha is - c57c3633d4c1667aa2c61a3b086041a989fd480c
+Commit message - Remove OOM error handling in khash.h
+---> The original commit sha is - f1e52c496ddb89f830cdbc4f23d756131106b97f
+Commit message - Merge #739 'Remove OOM error handling in khash.h'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 28 is -> 
+{ 29f4e8ebc4f45ba65589bb1a3748f3560a1f6a6d -> 1f827beff0ddc3aa10189aac5e756a70c3eec270 } is a cherrypick
+{ 20b799a6f2dac747c6d0c324a7295689d001930d -> f26b0aa88cee6c3d1aababd81e3d8de20f4af283 }
+Cherrypick commits SHA are -> 
+1f827beff0ddc3aa10189aac5e756a70c3eec270 - cherrypick - f26b0aa88cee6c3d1aababd81e3d8de20f4af283
+---> The cherrypicked commit sha is - 1f827beff0ddc3aa10189aac5e756a70c3eec270
+Commit message - Use CMAKE_C_FLAGS variable to set compiler flags.
+
+If the compiler is some GNU-alike variant, set the compiler flags to use
+the gnu99 dialect of C and enable all warnings.
+
+Non-GNU compilers may have to have their own magic added to set dialect
+and enable warnings.
+
+Closes #179.
+---> The original commit sha is - f26b0aa88cee6c3d1aababd81e3d8de20f4af283
+Commit message - Merge pull request #187 from rjw57/issue-179
+
+Use CMAKE_C_FLAGS variable to set compiler flags.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 29 is -> 
+{ 5cd3cbe5176accdb5f1629d71b74f63a8e0e08bf -> 2bb9487b68db6cbb93e00c39fde8f5208893edc6 } is a cherrypick
+{ de77dddc0b1d93402368acea5d2f37daaf5b4e44 -> 4d4a706352aaa54ca90a3748aad964c40121cf56 }
+Cherrypick commits SHA are -> 
+2bb9487b68db6cbb93e00c39fde8f5208893edc6 - cherrypick - 4d4a706352aaa54ca90a3748aad964c40121cf56
+---> The cherrypicked commit sha is - 2bb9487b68db6cbb93e00c39fde8f5208893edc6
+Commit message - README.md: fix anchor tags for CentOS/RHEL section
+
+MAke the use of anchor tags consistent for the change introduced in
+5cd3cbe.
+---> The original commit sha is - 4d4a706352aaa54ca90a3748aad964c40121cf56
+Commit message - README.md: fix anchor tags for CentOS/RHEL section
+
+MAke the use of anchor tags consistent for the change introduced in
+5cd3cbe.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 30 is -> 
+{ de7d5cec8ed450b06efadf2151db43c378f9d5db -> ab94b36f3dd4684b5dc43765d9b5913d192e3989 } is a cherrypick
+{ eb489326772c477a8c86113dd86a351129e3170c -> badf94eb330bdc72e4b4e6481b86b8fea2e9fa23 }
+Cherrypick commits SHA are -> 
+ab94b36f3dd4684b5dc43765d9b5913d192e3989 - cherrypick - badf94eb330bdc72e4b4e6481b86b8fea2e9fa23
+---> The cherrypicked commit sha is - ab94b36f3dd4684b5dc43765d9b5913d192e3989
+Commit message - add required dependency on Debian/Ubuntu system
+---> The original commit sha is - badf94eb330bdc72e4b4e6481b86b8fea2e9fa23
+Commit message - Merge pull request #134 from HungMingWu/master
+
+add required dependency on Debian/Ubuntu system
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 31 is -> 
+{ b0abcda487d4f1bc7eb3f6a1edc878e576124451 -> da2906f28e1f5ee4cbff5fa2e0c0ec88777b838a } is a cherrypick
+{ 0ad500de588a9f95bfa673a83751c5e472e7eded -> eedb6a3ad7c2fcb72ef60893478a11e3a390e152 }
+Cherrypick commits SHA are -> 
+da2906f28e1f5ee4cbff5fa2e0c0ec88777b838a - cherrypick - eedb6a3ad7c2fcb72ef60893478a11e3a390e152
+---> The cherrypicked commit sha is - da2906f28e1f5ee4cbff5fa2e0c0ec88777b838a
+Commit message - Added 'neovim' to the feature list, following discussion on #44
+---> The original commit sha is - eedb6a3ad7c2fcb72ef60893478a11e3a390e152
+Commit message - Merge pull request #79 from jdiez17/has_neovim
+
+Added 'neovim' to the feature list, following discussion on #44
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 32 is -> 
+{ 87fdb40a03063b09811d4e3f303432f62b12e25d -> 19296296dbdbbb23538cb58b3ec0b0c6f5036bb1 } is a cherrypick
+{ cebac0fc59cda330b8e26a2bab2bd2c1fb09df13 -> b0abcda487d4f1bc7eb3f6a1edc878e576124451 }
+Cherrypick commits SHA are -> 
+19296296dbdbbb23538cb58b3ec0b0c6f5036bb1 - cherrypick - b0abcda487d4f1bc7eb3f6a1edc878e576124451
+---> The cherrypicked commit sha is - 19296296dbdbbb23538cb58b3ec0b0c6f5036bb1
+Commit message - Clean up main.c:parse_command_name
+---> The original commit sha is - b0abcda487d4f1bc7eb3f6a1edc878e576124451
+Commit message - Merge pull request #54 from mitchellwrosen/master
+
+Clean up main.c:parse_command_name
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 33 is -> 
+{ 31d5ae42c3f910bb1fff53890157e621cc8c5f1c -> b5672b9c43112b2a808727f9e88c0f5fd24a6d73 } is a cherrypick
+{ 7cadf15eee1f377e9a7bb147180b86cf9637b2c6 -> b17e52a9e48618f0a1153d2451ed1b92318667e1 }
+Cherrypick commits SHA are -> 
+b5672b9c43112b2a808727f9e88c0f5fd24a6d73 - cherrypick - b17e52a9e48618f0a1153d2451ed1b92318667e1
+---> The cherrypicked commit sha is - b5672b9c43112b2a808727f9e88c0f5fd24a6d73
+Commit message - Add Arch dependency instructions to README.md
+
+Also accidentally clear trailing whitespace in README. vim autocommands ftw.
+---> The original commit sha is - b17e52a9e48618f0a1153d2451ed1b92318667e1
+Commit message - Merge pull request #35 from thiderman/master
+
+Add Arch dependency instructions to README.md.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 34 is -> 
+{ e519a991d6e02a7a5e59cbd6d95881416bbf11cf -> 359a69d869a532442b62ba1c798f9e8d09028dfe } is a cherrypick
+{ f29c1ffa5a3e0752a48fbca861be6d75d5c4a9ba -> fcc982b6b08663b88bdc3888e41b6c664309ce70 }
+Cherrypick commits SHA are -> 
+359a69d869a532442b62ba1c798f9e8d09028dfe - cherrypick - fcc982b6b08663b88bdc3888e41b6c664309ce70
+---> The cherrypicked commit sha is - 359a69d869a532442b62ba1c798f9e8d09028dfe
+Commit message - Fix spelling mistakes in README.md
+---> The original commit sha is - fcc982b6b08663b88bdc3888e41b6c664309ce70
+Commit message - Merge pull request #8 from mmcdole/patch-1
+
+Fix spelling mistakes in README.md
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 35 is -> 
+{ 3ecece8f67b722f5c561a3008dbe68291e75dc1d -> 940f95680dc52358e02b62ba24bff389f62ca5f2 } is a cherrypick
+{ 6307bf23fb1fa7e738c1047b8f68de5b9dbc3ef2 -> e519a991d6e02a7a5e59cbd6d95881416bbf11cf }
+Cherrypick commits SHA are -> 
+940f95680dc52358e02b62ba24bff389f62ca5f2 - cherrypick - e519a991d6e02a7a5e59cbd6d95881416bbf11cf
+---> The cherrypicked commit sha is - 940f95680dc52358e02b62ba24bff389f62ca5f2
+Commit message - Fix misspellings/grammar in README
+---> The original commit sha is - e519a991d6e02a7a5e59cbd6d95881416bbf11cf
+Commit message - Merge pull request #6 from davertron/master
+
+Fix misspellings/grammar in README
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 36 is -> 
+{ d1dc9221178f8140db2cb0042d1bbca2af125720 -> d250a8f15eb7f6be01c1a4de6f47d35fecdfe47b } is a cherrypick
+{ 13a71ea09231517605196167f16dc92c9c7f6c57 -> 6307bf23fb1fa7e738c1047b8f68de5b9dbc3ef2 }
+Cherrypick commits SHA are -> 
+d250a8f15eb7f6be01c1a4de6f47d35fecdfe47b - cherrypick - 6307bf23fb1fa7e738c1047b8f68de5b9dbc3ef2
+---> The cherrypicked commit sha is - d250a8f15eb7f6be01c1a4de6f47d35fecdfe47b
+Commit message - Fix spelling
+---> The original commit sha is - 6307bf23fb1fa7e738c1047b8f68de5b9dbc3ef2
+Commit message - Merge pull request #7 from Coornail/osx-build-instructions
+
+Add dependency install instructions for OsX
+-----------------------------------------------------------------
+
