@@ -4,9 +4,9 @@ Revert diff pair 1 is ->
 { 1e0ca0e23b2d6bf3101b7a81182ea5bfe4989aec -> 95a058954bbec207950e96457d03d87dd4bada88 }
 Revert commits SHA are -> 
 1e0ca0e23b2d6bf3101b7a81182ea5bfe4989aec - revert - 95a058954bbec207950e96457d03d87dd4bada88
-The reverted commit sha is - 1e0ca0e23b2d6bf3101b7a81182ea5bfe4989aec
+---> The reverted commit sha is - 1e0ca0e23b2d6bf3101b7a81182ea5bfe4989aec
 Commit message - Extra double quotes at the end of comment
-The original commit sha is - 95a058954bbec207950e96457d03d87dd4bada88
+---> The original commit sha is - 95a058954bbec207950e96457d03d87dd4bada88
 Commit message - Merge pull request #553 from J-Hannes/lowercase-objects
 
 Use lower case notation for objects consistently
@@ -17,9 +17,9 @@ Revert diff pair 2 is ->
 { c27aad716d4f378ea5342477ea93ee9a486120dc -> 1364c862230a921a32d703159f10d18e4515a509 }
 Revert commits SHA are -> 
 43c1e4241723b32691966ccb56efde4d246d891e - revert - 1364c862230a921a32d703159f10d18e4515a509
-The reverted commit sha is - 43c1e4241723b32691966ccb56efde4d246d891e
+---> The reverted commit sha is - 43c1e4241723b32691966ccb56efde4d246d891e
 Commit message - reordered logs to match code sample
-The original commit sha is - 1364c862230a921a32d703159f10d18e4515a509
+---> The original commit sha is - 1364c862230a921a32d703159f10d18e4515a509
 Commit message - Merge pull request #530 from stankud/gh-pages
 
 reordered logs to match code sample
@@ -30,11 +30,11 @@ Revert diff pair 3 is ->
 { f6487478b9cd09f33a6e19841ceb0badff1b183a -> 1237bc22506aa71d067b3dd86d5de65ff356fee7 }
 Revert commits SHA are -> 
 809bd56a221e2a578d7b0194287b1909188adf63 - revert - 1237bc22506aa71d067b3dd86d5de65ff356fee7
-The reverted commit sha is - 809bd56a221e2a578d7b0194287b1909188adf63
+---> The reverted commit sha is - 809bd56a221e2a578d7b0194287b1909188adf63
 Commit message - Update 06-extensions.md
 
 to have zombieView's stopListening remove the listener you need to register it with listenTo
-The original commit sha is - 1237bc22506aa71d067b3dd86d5de65ff356fee7
+---> The original commit sha is - 1237bc22506aa71d067b3dd86d5de65ff356fee7
 Commit message - Merge pull request #506 from SummitPatel/gh-pages
 
 Function call changed before introduced in example.
@@ -45,9 +45,9 @@ Revert diff pair 4 is ->
 { ef440c065a946516e036522c0b1b512287a5cba7 -> 809bd56a221e2a578d7b0194287b1909188adf63 }
 Revert commits SHA are -> 
 aefeac0f5d9bcd23c981fe746fb6a5ef11ee12f8 - revert - 809bd56a221e2a578d7b0194287b1909188adf63
-The reverted commit sha is - aefeac0f5d9bcd23c981fe746fb6a5ef11ee12f8
+---> The reverted commit sha is - aefeac0f5d9bcd23c981fe746fb6a5ef11ee12f8
 Commit message - Changed first view in memory management example to use on rather than listenTo to make it consistent with discussion text.
-The original commit sha is - 809bd56a221e2a578d7b0194287b1909188adf63
+---> The original commit sha is - 809bd56a221e2a578d7b0194287b1909188adf63
 Commit message - Update 06-extensions.md
 
 to have zombieView's stopListening remove the listener you need to register it with listenTo
@@ -58,11 +58,11 @@ Revert diff pair 5 is ->
 { ef440c065a946516e036522c0b1b512287a5cba7 -> 809bd56a221e2a578d7b0194287b1909188adf63 }
 Revert commits SHA are -> 
 2bcaf13e23d270e887b14afdf1ec265654bb2b84 - revert - 809bd56a221e2a578d7b0194287b1909188adf63
-The reverted commit sha is - 2bcaf13e23d270e887b14afdf1ec265654bb2b84
+---> The reverted commit sha is - 2bcaf13e23d270e887b14afdf1ec265654bb2b84
 Commit message - Merge pull request #452 from awgreenblatt/gh-pages
 
 Fix for #447.  Minor typo in Marionette example.
-The original commit sha is - 809bd56a221e2a578d7b0194287b1909188adf63
+---> The original commit sha is - 809bd56a221e2a578d7b0194287b1909188adf63
 Commit message - Update 06-extensions.md
 
 to have zombieView's stopListening remove the listener you need to register it with listenTo
@@ -73,7 +73,7 @@ Revert diff pair 6 is ->
 { 7ecab99ae9bf278b63355591e4f4aa0e6f131fc3 -> 4825637ba70a21b297484bc577f5b3ed133573c1 }
 Revert commits SHA are -> 
 7ecab99ae9bf278b63355591e4f4aa0e6f131fc3 - revert - 4825637ba70a21b297484bc577f5b3ed133573c1
-The reverted commit sha is - 7ecab99ae9bf278b63355591e4f4aa0e6f131fc3
+---> The reverted commit sha is - 7ecab99ae9bf278b63355591e4f4aa0e6f131fc3
 Commit message - It's -> its
 
 Corrected instances of "it's" used incorrectly where "its" is needed.
@@ -81,7 +81,7 @@ Looked through all the .md files, I hope I didn't miss anything.
 
 Changed both individual chapters and the merged complete book one, not
 sure how "backbone-fundamentals.md" is generated.
-The original commit sha is - 4825637ba70a21b297484bc577f5b3ed133573c1
+---> The original commit sha is - 4825637ba70a21b297484bc577f5b3ed133573c1
 Commit message - fixed minor typo
 -----------------------------------------------------------------
 
@@ -90,11 +90,11 @@ Revert diff pair 7 is ->
 { 09fa1e29e2476ce26575061ab291c0fb29adc2a4 -> 99ed2c4bc91797a7af98b655aea155db8cf41b37 }
 Revert commits SHA are -> 
 09fa1e29e2476ce26575061ab291c0fb29adc2a4 - revert - 99ed2c4bc91797a7af98b655aea155db8cf41b37
-The reverted commit sha is - 09fa1e29e2476ce26575061ab291c0fb29adc2a4
+---> The reverted commit sha is - 09fa1e29e2476ce26575061ab291c0fb29adc2a4
 Commit message - changed 'trigger method' to 'trigger view event'
 
 button helpers can have both a method="" and trigger="". Method calls a method on the corresponding view, trigger triggers an event on the corresponding view.
-The original commit sha is - 99ed2c4bc91797a7af98b655aea155db8cf41b37
+---> The original commit sha is - 99ed2c4bc91797a7af98b655aea155db8cf41b37
 Commit message - Merge pull request #474 from colinmegill/patch-1
 
 fixed handlebars typo in example
@@ -105,9 +105,9 @@ Revert diff pair 8 is ->
 { 2c19c15cadf42fcdd5c29b2862c66fdc4026ed8f -> 791e884daf45b803ec4601d115d0882bb0379e8b }
 Revert commits SHA are -> 
 2c19c15cadf42fcdd5c29b2862c66fdc4026ed8f - revert - 791e884daf45b803ec4601d115d0882bb0379e8b
-The reverted commit sha is - 2c19c15cadf42fcdd5c29b2862c66fdc4026ed8f
+---> The reverted commit sha is - 2c19c15cadf42fcdd5c29b2862c66fdc4026ed8f
 Commit message - Removed whitespaces infront of colons, added space after function's braces and before the opening curly brace, other formatting changes.
-The original commit sha is - 791e884daf45b803ec4601d115d0882bb0379e8b
+---> The original commit sha is - 791e884daf45b803ec4601d115d0882bb0379e8b
 Commit message - Merge pull request #466 from Roland1975/gh-pages
 
 Minor change
@@ -118,11 +118,11 @@ Revert diff pair 9 is ->
 { c6b0b06143a297e4e8a6d9be95b236dd75546eaf -> 7fe7997cb870d52f195869baf9cb8bfa9175f264 }
 Revert commits SHA are -> 
 c6b0b06143a297e4e8a6d9be95b236dd75546eaf - revert - 7fe7997cb870d52f195869baf9cb8bfa9175f264
-The reverted commit sha is - c6b0b06143a297e4e8a6d9be95b236dd75546eaf
+---> The reverted commit sha is - c6b0b06143a297e4e8a6d9be95b236dd75546eaf
 Commit message - Update 11-bbb.md
 
 Add space after period.
-The original commit sha is - 7fe7997cb870d52f195869baf9cb8bfa9175f264
+---> The original commit sha is - 7fe7997cb870d52f195869baf9cb8bfa9175f264
 Commit message - Merge pull request #425 from scottcheng/patch-1
 
 Update 03-internals.md
@@ -133,9 +133,9 @@ Revert diff pair 10 is ->
 { 87cf2e87e40f956be53ab763cb94349460c62e30 -> 83b23ac6c8a4d2d0cc3aaf781eae735171e53d1c }
 Revert commits SHA are -> 
 87cf2e87e40f956be53ab763cb94349460c62e30 - revert - 83b23ac6c8a4d2d0cc3aaf781eae735171e53d1c
-The reverted commit sha is - 87cf2e87e40f956be53ab763cb94349460c62e30
+---> The reverted commit sha is - 87cf2e87e40f956be53ab763cb94349460c62e30
 Commit message - the Backbone framework => Backbone
-The original commit sha is - 83b23ac6c8a4d2d0cc3aaf781eae735171e53d1c
+---> The original commit sha is - 83b23ac6c8a4d2d0cc3aaf781eae735171e53d1c
 Commit message - Merge pull request #414 from ErichBSchulz/patch-1
 
 typo "use" not "sure", but tighten since i'm here
@@ -146,9 +146,9 @@ Revert diff pair 11 is ->
 { e2ea6c8a912e1e60fedb9804b75c56b4fed6f7ea -> b960e408a6e791c07c46c279469e26ae9cc10ae4 }
 Revert commits SHA are -> 
 e2ea6c8a912e1e60fedb9804b75c56b4fed6f7ea - revert - b960e408a6e791c07c46c279469e26ae9cc10ae4
-The reverted commit sha is - e2ea6c8a912e1e60fedb9804b75c56b4fed6f7ea
+---> The reverted commit sha is - e2ea6c8a912e1e60fedb9804b75c56b4fed6f7ea
 Commit message - 03-internals.md listeners example no longer refers to nonexistent 'complete' attribute.
-The original commit sha is - b960e408a6e791c07c46c279469e26ae9cc10ae4
+---> The original commit sha is - b960e408a6e791c07c46c279469e26ae9cc10ae4
 Commit message - Merge pull request #384 from dcmaf/gh-pages
 
 Chapter 1: Introduction - Fixed typos and punctuation
@@ -159,9 +159,9 @@ Revert diff pair 12 is ->
 { ec8440968e7de0a5dd991e1c76ea59a1fc036840 -> a85e204b8c6d103210fab25542ecac0e9f00f778 }
 Revert commits SHA are -> 
 ec8440968e7de0a5dd991e1c76ea59a1fc036840 - revert - a85e204b8c6d103210fab25542ecac0e9f00f778
-The reverted commit sha is - ec8440968e7de0a5dd991e1c76ea59a1fc036840
+---> The reverted commit sha is - ec8440968e7de0a5dd991e1c76ea59a1fc036840
 Commit message - Extra comma
-The original commit sha is - a85e204b8c6d103210fab25542ecac0e9f00f778
+---> The original commit sha is - a85e204b8c6d103210fab25542ecac0e9f00f778
 Commit message - Merge pull request #329 from wibblymat/nits
 
 Wording and grammar changes
@@ -172,9 +172,9 @@ Revert diff pair 13 is ->
 { a1cc9fc489d59ecfca17d68d9a21e7e3dc0e601f -> 9b2c61dd26e247d2b850a3de245abcb36360f3da }
 Revert commits SHA are -> 
 a1cc9fc489d59ecfca17d68d9a21e7e3dc0e601f - revert - 9b2c61dd26e247d2b850a3de245abcb36360f3da
-The reverted commit sha is - a1cc9fc489d59ecfca17d68d9a21e7e3dc0e601f
+---> The reverted commit sha is - a1cc9fc489d59ecfca17d68d9a21e7e3dc0e601f
 Commit message - Fixed some typos and spacing.
-The original commit sha is - 9b2c61dd26e247d2b850a3de245abcb36360f3da
+---> The original commit sha is - 9b2c61dd26e247d2b850a3de245abcb36360f3da
 Commit message - Merge pull request #258 from ugisozols/fix_typo
 
 Fix typo. Closes #241.
@@ -185,9 +185,9 @@ Revert diff pair 14 is ->
 { 2f3b1773b61d5d385d29bbf0569aa4a4a5824324 -> 4852ede9c02558db46affab1c32bd279254499a8 }
 Revert commits SHA are -> 
 ce369dbf4afba50575e84369a9b09784feb61070 - revert - 4852ede9c02558db46affab1c32bd279254499a8
-The reverted commit sha is - ce369dbf4afba50575e84369a9b09784feb61070
+---> The reverted commit sha is - ce369dbf4afba50575e84369a9b09784feb61070
 Commit message - Internals chapter - Inheritance and Mixins section done
-The original commit sha is - 4852ede9c02558db46affab1c32bd279254499a8
+---> The original commit sha is - 4852ede9c02558db46affab1c32bd279254499a8
 Commit message - Remove specified language for the code block because content is just text and not javascript.
 -----------------------------------------------------------------
 
@@ -196,9 +196,9 @@ Revert diff pair 15 is ->
 { 53063d7a9ef302e7e59b99f00e260fc115c3a0ee -> f6e85d33d14defbfc8887d12e7e90a21b5f787dc }
 Revert commits SHA are -> 
 ce369dbf4afba50575e84369a9b09784feb61070 - revert - f6e85d33d14defbfc8887d12e7e90a21b5f787dc
-The reverted commit sha is - ce369dbf4afba50575e84369a9b09784feb61070
+---> The reverted commit sha is - ce369dbf4afba50575e84369a9b09784feb61070
 Commit message - Internals chapter - Inheritance and Mixins section done
-The original commit sha is - f6e85d33d14defbfc8887d12e7e90a21b5f787dc
+---> The original commit sha is - f6e85d33d14defbfc8887d12e7e90a21b5f787dc
 Commit message - Merge pull request #253 from ugisozols/remove_language_from_code_block
 
 Remove specified language for the code block because content is just text and not javascript.
@@ -209,9 +209,9 @@ Revert diff pair 16 is ->
 { 542e5a96dce07c62a6672c239c6f6bed952a6d0b -> cdbd9bb1cd1e2a34eea7b835cebc8108a4a49a3a }
 Revert commits SHA are -> 
 542e5a96dce07c62a6672c239c6f6bed952a6d0b - revert - cdbd9bb1cd1e2a34eea7b835cebc8108a4a49a3a
-The reverted commit sha is - 542e5a96dce07c62a6672c239c6f6bed952a6d0b
+---> The reverted commit sha is - 542e5a96dce07c62a6672c239c6f6bed952a6d0b
 Commit message - Talk about 'router' instead of 'controller'.
-The original commit sha is - cdbd9bb1cd1e2a34eea7b835cebc8108a4a49a3a
+---> The original commit sha is - cdbd9bb1cd1e2a34eea7b835cebc8108a4a49a3a
 Commit message - Merge pull request #240 from ugisozols/capital_letter
 
 Start sentence with capital letter.
@@ -222,9 +222,9 @@ Revert diff pair 17 is ->
 { da0a1df172210c548c975b4240dc766b73e02b11 -> a5f9651e7b42fecad1f73093d4f10d6229ea8371 }
 Revert commits SHA are -> 
 da0a1df172210c548c975b4240dc766b73e02b11 - revert - a5f9651e7b42fecad1f73093d4f10d6229ea8371
-The reverted commit sha is - da0a1df172210c548c975b4240dc766b73e02b11
+---> The reverted commit sha is - da0a1df172210c548c975b4240dc766b73e02b11
 Commit message - Include viewport. Fixes #87
-The original commit sha is - a5f9651e7b42fecad1f73093d4f10d6229ea8371
+---> The original commit sha is - a5f9651e7b42fecad1f73093d4f10d6229ea8371
 Commit message - Merge pull request #201 from sindresorhus/quote
 
 Quote consistency
@@ -235,9 +235,9 @@ Revert diff pair 18 is ->
 { 257038b83e094fa4e474deb10d812b456cd5e4c4 -> 1de2ea22badc429cccf038b40f708eb21e422fb9 }
 Revert commits SHA are -> 
 257038b83e094fa4e474deb10d812b456cd5e4c4 - revert - 1de2ea22badc429cccf038b40f708eb21e422fb9
-The reverted commit sha is - 257038b83e094fa4e474deb10d812b456cd5e4c4
+---> The reverted commit sha is - 257038b83e094fa4e474deb10d812b456cd5e4c4
 Commit message - add lumbar chapter
-The original commit sha is - 1de2ea22badc429cccf038b40f708eb21e422fb9
+---> The original commit sha is - 1de2ea22badc429cccf038b40f708eb21e422fb9
 Commit message - Merge pull request #191 from 2color/gh-pages
 
 Using a jquery selector to define a view's el doesn't work.
@@ -248,9 +248,9 @@ Revert diff pair 19 is ->
 { 31c19f7e4ff485a51c9d6900f298bff9ed640f70 -> 6e41d015e831d742cfe42ca577c45f54fc3a795a }
 Revert commits SHA are -> 
 31c19f7e4ff485a51c9d6900f298bff9ed640f70 - revert - 6e41d015e831d742cfe42ca577c45f54fc3a795a
-The reverted commit sha is - 31c19f7e4ff485a51c9d6900f298bff9ed640f70
+---> The reverted commit sha is - 31c19f7e4ff485a51c9d6900f298bff9ed640f70
 Commit message - Fix syntax highlighting in index.
-The original commit sha is - 6e41d015e831d742cfe42ca577c45f54fc3a795a
+---> The original commit sha is - 6e41d015e831d742cfe42ca577c45f54fc3a795a
 Commit message - Merge pull request #129 from rishabhsrao/master
 
 Added a link to Underscorejs.org
@@ -261,9 +261,9 @@ Revert diff pair 20 is ->
 { e0145bbb8f819e963624fd871ba2b963352a89ce -> 726826c3da41c9660fe052e8698cf5791687759e }
 Revert commits SHA are -> 
 7b66dd36fee610ae911345fc6ab92ac0984f5682 - revert - 726826c3da41c9660fe052e8698cf5791687759e
-The reverted commit sha is - 7b66dd36fee610ae911345fc6ab92ac0984f5682
+---> The reverted commit sha is - 7b66dd36fee610ae911345fc6ab92ac0984f5682
 Commit message - bad practice: undeclared global variable
-The original commit sha is - 726826c3da41c9660fe052e8698cf5791687759e
+---> The original commit sha is - 726826c3da41c9660fe052e8698cf5791687759e
 Commit message - Merge pull request #110 from ealize/master
 
 Fix: bad check-in
@@ -274,9 +274,9 @@ Revert diff pair 21 is ->
 { 69261000e3fe44e02311a5cc3f9f58e72e0fe0ba -> fe22b6c4a8deaafe13d6f97f20bbab1a504b353a }
 Revert commits SHA are -> 
 7b66dd36fee610ae911345fc6ab92ac0984f5682 - revert - fe22b6c4a8deaafe13d6f97f20bbab1a504b353a
-The reverted commit sha is - 7b66dd36fee610ae911345fc6ab92ac0984f5682
+---> The reverted commit sha is - 7b66dd36fee610ae911345fc6ab92ac0984f5682
 Commit message - bad practice: undeclared global variable
-The original commit sha is - fe22b6c4a8deaafe13d6f97f20bbab1a504b353a
+---> The original commit sha is - fe22b6c4a8deaafe13d6f97f20bbab1a504b353a
 Commit message - fix bad checkin. comma seperated vars.
 -----------------------------------------------------------------
 
@@ -285,9 +285,9 @@ Revert diff pair 22 is ->
 { 8c007bc2d52aa6632d6301559d20a205b5ca9c7c -> 507c7d41ad5da1a4209db3405f8d9b86d72807f7 }
 Revert commits SHA are -> 
 8c007bc2d52aa6632d6301559d20a205b5ca9c7c - revert - 507c7d41ad5da1a4209db3405f8d9b86d72807f7
-The reverted commit sha is - 8c007bc2d52aa6632d6301559d20a205b5ca9c7c
+---> The reverted commit sha is - 8c007bc2d52aa6632d6301559d20a205b5ca9c7c
 Commit message - Use cached version of the el jQuery object
-The original commit sha is - 507c7d41ad5da1a4209db3405f8d9b86d72807f7
+---> The original commit sha is - 507c7d41ad5da1a4209db3405f8d9b86d72807f7
 Commit message - Merge pull request #97 from vitorbal/master
 
 Fix searchPhotos handler on GalleryRouter example
@@ -298,7 +298,7 @@ Revert diff pair 23 is ->
 { 160a8ea620ea40906c3d0f03573e975fea1c3617 -> 4b8135dc0197c2b5d30d14b54340914a3707cab2 }
 Revert commits SHA are -> 
 160a8ea620ea40906c3d0f03573e975fea1c3617 - revert - 4b8135dc0197c2b5d30d14b54340914a3707cab2
-The reverted commit sha is - 160a8ea620ea40906c3d0f03573e975fea1c3617
+---> The reverted commit sha is - 160a8ea620ea40906c3d0f03573e975fea1c3617
 Commit message - Added metadata.xml file for epub/mobi.
 
 Kindlegen requires title and author metadata.  To generate a mobi file from
@@ -316,7 +316,7 @@ as a separate file.  Ebooks w/ metadata can then be created via the command
 ```
 pandoc -f markdown -t epub --epub-metadata=metadata.xml -o backbone-fundamnetals.epub README.md
 ```
-The original commit sha is - 4b8135dc0197c2b5d30d14b54340914a3707cab2
+---> The original commit sha is - 4b8135dc0197c2b5d30d14b54340914a3707cab2
 Commit message - Merge pull request #81 from eethann/master
 
 Remove extra backticks in some fenced code blocks.
@@ -327,9 +327,9 @@ Revert diff pair 24 is ->
 { 3f0e184be938abcc49540973eed6d5ecf5fe9f8a -> 3880a0410164cfd7f49cab285f6047ce6a3b718a }
 Revert commits SHA are -> 
 3f0e184be938abcc49540973eed6d5ecf5fe9f8a - revert - 3880a0410164cfd7f49cab285f6047ce6a3b718a
-The reverted commit sha is - 3f0e184be938abcc49540973eed6d5ecf5fe9f8a
+---> The reverted commit sha is - 3f0e184be938abcc49540973eed6d5ecf5fe9f8a
 Commit message - Small clarifications about Routes and Controllers
-The original commit sha is - 3880a0410164cfd7f49cab285f6047ce6a3b718a
+---> The original commit sha is - 3880a0410164cfd7f49cab285f6047ce6a3b718a
 Commit message - Merge pull request #49 from mutewinter/patch-2
 
 Added link to Brunch
@@ -340,10 +340,10 @@ Revert diff pair 25 is ->
 { 18271924a74b0af5d50c2f0d210d86d1c5ebcf58 -> 4a997a43e2de042682630c74593d4c7f6a6e4fe3 }
 Revert commits SHA are -> 
 18271924a74b0af5d50c2f0d210d86d1c5ebcf58 - revert - 4a997a43e2de042682630c74593d4c7f6a6e4fe3
-The reverted commit sha is - 18271924a74b0af5d50c2f0d210d86d1c5ebcf58
+---> The reverted commit sha is - 18271924a74b0af5d50c2f0d210d86d1c5ebcf58
 Commit message - Corrected log for change example
 Added log for validation example
-The original commit sha is - 4a997a43e2de042682630c74593d4c7f6a6e4fe3
+---> The original commit sha is - 4a997a43e2de042682630c74593d4c7f6a6e4fe3
 Commit message - Merge pull request #45 from bnmrrs/patch-1
 
 Corrected return value for the title getter example
@@ -354,9 +354,9 @@ Revert diff pair 26 is ->
 { 62f9645d8a8fbb295bd50347916429826b5d4434 -> 33650bb1e8fe097079a5127e1892826634ceb1f4 }
 Revert commits SHA are -> 
 fb3a1529990739504288d7812785550e5e1994df - revert - 33650bb1e8fe097079a5127e1892826634ceb1f4
-The reverted commit sha is - fb3a1529990739504288d7812785550e5e1994df
+---> The reverted commit sha is - fb3a1529990739504288d7812785550e5e1994df
 Commit message - removes double listing of namespace pattern
-The original commit sha is - 33650bb1e8fe097079a5127e1892826634ceb1f4
+---> The original commit sha is - 33650bb1e8fe097079a5127e1892826634ceb1f4
 Commit message - Merge branch 'aligning-equal-signs' of github.com:caillou/backbone-fundamentals into aligning-equal-signs
 -----------------------------------------------------------------
 
@@ -365,9 +365,9 @@ Revert diff pair 27 is ->
 { 62f9645d8a8fbb295bd50347916429826b5d4434 -> 33650bb1e8fe097079a5127e1892826634ceb1f4 }
 Revert commits SHA are -> 
 ea7996fc201f2e7035b504fd477a72a6eb3c9c53 - revert - 33650bb1e8fe097079a5127e1892826634ceb1f4
-The reverted commit sha is - ea7996fc201f2e7035b504fd477a72a6eb3c9c53
+---> The reverted commit sha is - ea7996fc201f2e7035b504fd477a72a6eb3c9c53
 Commit message - removes double listing of namespace pattern
-The original commit sha is - 33650bb1e8fe097079a5127e1892826634ceb1f4
+---> The original commit sha is - 33650bb1e8fe097079a5127e1892826634ceb1f4
 Commit message - Merge branch 'aligning-equal-signs' of github.com:caillou/backbone-fundamentals into aligning-equal-signs
 -----------------------------------------------------------------
 
@@ -376,9 +376,9 @@ Revert diff pair 28 is ->
 { a33662d1d6bd661d8ee99695310cce093af489e0 -> 94c3857e1d7858ffa3ef11afd17e97adcf1dd99a }
 Revert commits SHA are -> 
 46003db83c68e85879c7a7d27ec883b588c4c148 - revert - 94c3857e1d7858ffa3ef11afd17e97adcf1dd99a
-The reverted commit sha is - 46003db83c68e85879c7a7d27ec883b588c4c148
+---> The reverted commit sha is - 46003db83c68e85879c7a7d27ec883b588c4c148
 Commit message - adds missing parenthesis to constructor function
-The original commit sha is - 94c3857e1d7858ffa3ef11afd17e97adcf1dd99a
+---> The original commit sha is - 94c3857e1d7858ffa3ef11afd17e97adcf1dd99a
 Commit message - Merge branch 'double-namespace-pattern-listing' of github.com:caillou/backbone-fundamentals into double-namespace-pattern-listing
 -----------------------------------------------------------------
 

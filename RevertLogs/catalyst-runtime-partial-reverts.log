@@ -4,11 +4,11 @@ Partial Revert diff pair 1 is ->
 { 9c86666a0171945d0b543cfb81510621fc42d6af -> 5bec3c066856eaf822d757d6c8295276ddb9d281 }
 Partial Revert commits SHA are -> 
 9c86666a0171945d0b543cfb81510621fc42d6af - revert - 5bec3c066856eaf822d757d6c8295276ddb9d281
-The reverted commit sha is - 9c86666a0171945d0b543cfb81510621fc42d6af
+---> The reverted commit sha is - 9c86666a0171945d0b543cfb81510621fc42d6af
 Commit message - make the httpexception filter more choosey
-The original commit sha is - 5bec3c066856eaf822d757d6c8295276ddb9d281
+---> The original commit sha is - 5bec3c066856eaf822d757d6c8295276ddb9d281
 Commit message - remove mistaken file
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/utf_incoming.t
 -----------------------------------------------------------------
 
@@ -17,11 +17,11 @@ Partial Revert diff pair 2 is ->
 { 2be363b788ddce447f2b557fb7f59a81477a90a8 -> b4429ab4789a7b2c3060bbe584edc9185d77c765 }
 Partial Revert commits SHA are -> 
 4f96d61ccf40febbf2f80a376cd3ec7b456c699c - revert - b4429ab4789a7b2c3060bbe584edc9185d77c765
-The reverted commit sha is - 4f96d61ccf40febbf2f80a376cd3ec7b456c699c
+---> The reverted commit sha is - 4f96d61ccf40febbf2f80a376cd3ec7b456c699c
 Commit message - better warnings when code is stupid and calls ->params(undef)
-The original commit sha is - b4429ab4789a7b2c3060bbe584edc9185d77c765
+---> The original commit sha is - b4429ab4789a7b2c3060bbe584edc9185d77c765
 Commit message - merged conflicts
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Utils.pm
 -----------------------------------------------------------------
 
@@ -30,9 +30,9 @@ Partial Revert diff pair 3 is ->
 { 2aa2f26a0358597acc55fff7c8e79547ce3da26a -> 3be475284bdafe0ac795fb0c1f4dd41eabba9235 }
 Partial Revert commits SHA are -> 
 310c2a39c86dc3f8a1dd0bb80c2543e809e2cb3c - revert - 3be475284bdafe0ac795fb0c1f4dd41eabba9235
-The reverted commit sha is - 310c2a39c86dc3f8a1dd0bb80c2543e809e2cb3c
+---> The reverted commit sha is - 310c2a39c86dc3f8a1dd0bb80c2543e809e2cb3c
 Commit message - change default log level to info
-The original commit sha is - 3be475284bdafe0ac795fb0c1f4dd41eabba9235
+---> The original commit sha is - 3be475284bdafe0ac795fb0c1f4dd41eabba9235
 Commit message - undo 310c2a3 ('change default log level to info') - fixes S::S
 
 In 310c2a39c the Catalyst::Log conststructor was modified to strip
@@ -56,7 +56,7 @@ Other files changed in 310c2a39c but *not* reverted in this commit:
  Changes
  t/lib/TestApp/Controller/Log.pm
  t/psgi-log.t
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Log.pm
 t/aggregate/unit_core_setup.t
 t/aggregate/unit_core_setup_log.t
@@ -67,11 +67,11 @@ Partial Revert diff pair 4 is ->
 { 00eba41560d2ae20621631e9dab82dba4e760d55 -> 41bf18c572895adbf3ef300b6e54c1d5c1f096a5 }
 Partial Revert commits SHA are -> 
 30e84ba12e66e1487b8150cc97382489e52713ca - revert - 41bf18c572895adbf3ef300b6e54c1d5c1f096a5
-The reverted commit sha is - 30e84ba12e66e1487b8150cc97382489e52713ca
+---> The reverted commit sha is - 30e84ba12e66e1487b8150cc97382489e52713ca
 Commit message - make sure when http exceptions donot abort exising log or error stack
-The original commit sha is - 41bf18c572895adbf3ef300b6e54c1d5c1f096a5
+---> The original commit sha is - 41bf18c572895adbf3ef300b6e54c1d5c1f096a5
 Commit message - fixed merge issues from master
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Delta.pod
 -----------------------------------------------------------------
 
@@ -80,14 +80,14 @@ Partial Revert diff pair 5 is ->
 { 2d6d24356b60aee54cfc81afafdaaccdc3c016db -> 3df135345bddeffe439c485a021b798baea88575 }
 Partial Revert commits SHA are -> 
 2d6d24356b60aee54cfc81afafdaaccdc3c016db - revert - 3df135345bddeffe439c485a021b798baea88575
-The reverted commit sha is - 2d6d24356b60aee54cfc81afafdaaccdc3c016db
+---> The reverted commit sha is - 2d6d24356b60aee54cfc81afafdaaccdc3c016db
 Commit message - Use a fixed body in response header tests
 
 This lets us stop munging the expected length betwen HEAD and GET, and
 lets us test Content-Length when using an external sever too.
-The original commit sha is - 3df135345bddeffe439c485a021b798baea88575
+---> The original commit sha is - 3df135345bddeffe439c485a021b798baea88575
 Commit message - Merge remote-tracking branch 'upstream/master'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst.pm
 lib/Catalyst/Log.pm
 -----------------------------------------------------------------
@@ -97,11 +97,11 @@ Partial Revert diff pair 6 is ->
 { 9d8d0ab94e468c7399f6efdff4735d8b3a54307a -> 522ac42318d9db17b8e4cf85ad7260895a6711de }
 Partial Revert commits SHA are -> 
 568942951f418af5fbd97e4a94400adbb6aa19ff - revert - 522ac42318d9db17b8e4cf85ad7260895a6711de
-The reverted commit sha is - 568942951f418af5fbd97e4a94400adbb6aa19ff
+---> The reverted commit sha is - 568942951f418af5fbd97e4a94400adbb6aa19ff
 Commit message - set body io-handle as the PSGI spec requires, and handle the backcompat case
-The original commit sha is - 522ac42318d9db17b8e4cf85ad7260895a6711de
+---> The original commit sha is - 522ac42318d9db17b8e4cf85ad7260895a6711de
 Commit message - Merge branch 'master' into runner
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .travis.yml
 -----------------------------------------------------------------
 
@@ -110,11 +110,11 @@ Partial Revert diff pair 7 is ->
 { 55119d7b4e28704945b29ce56434de196f77bb75 -> c396cfc71169fc01ede2b891c197be02791ee2aa }
 Partial Revert commits SHA are -> 
 3efd4eb3c8b9b735b4671fcf6f0bced1f6e81a85 - revert - c396cfc71169fc01ede2b891c197be02791ee2aa
-The reverted commit sha is - 3efd4eb3c8b9b735b4671fcf6f0bced1f6e81a85
+---> The reverted commit sha is - 3efd4eb3c8b9b735b4671fcf6f0bced1f6e81a85
 Commit message - use more popular json parsers
-The original commit sha is - c396cfc71169fc01ede2b891c197be02791ee2aa
+---> The original commit sha is - c396cfc71169fc01ede2b891c197be02791ee2aa
 Commit message - Merge branch 'hamburg'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Controller.pm
 lib/Catalyst/Plugin/Unicode/Encoding.pm
 -----------------------------------------------------------------
@@ -124,11 +124,11 @@ Partial Revert diff pair 8 is ->
 { 974733c0febbddd53145ec82031b4ad6abcc0985 -> 35b3434762d426e0cd5e04eb735291f8ca7ea08e }
 Partial Revert commits SHA are -> 
 974733c0febbddd53145ec82031b4ad6abcc0985 - revert - 35b3434762d426e0cd5e04eb735291f8ca7ea08e
-The reverted commit sha is - 974733c0febbddd53145ec82031b4ad6abcc0985
+---> The reverted commit sha is - 974733c0febbddd53145ec82031b4ad6abcc0985
 Commit message - actually document the new request body_data method
-The original commit sha is - 35b3434762d426e0cd5e04eb735291f8ca7ea08e
+---> The original commit sha is - 35b3434762d426e0cd5e04eb735291f8ca7ea08e
 Commit message - merged conflicts
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .gitignore
 cpanfile
 lib/Catalyst/Component.pm
@@ -252,11 +252,11 @@ Partial Revert diff pair 9 is ->
 { 689bb5c08ebd9db4d8452ff0d2c0fef030e4a472 -> 52c77837f218d6e2af65da09910f684bdbede08b }
 Partial Revert commits SHA are -> 
 689bb5c08ebd9db4d8452ff0d2c0fef030e4a472 - revert - 52c77837f218d6e2af65da09910f684bdbede08b
-The reverted commit sha is - 689bb5c08ebd9db4d8452ff0d2c0fef030e4a472
+---> The reverted commit sha is - 689bb5c08ebd9db4d8452ff0d2c0fef030e4a472
 Commit message - make JSON::MaybeXS only load if it is asked for
-The original commit sha is - 52c77837f218d6e2af65da09910f684bdbede08b
+---> The original commit sha is - 52c77837f218d6e2af65da09910f684bdbede08b
 Commit message - some doc on alternatives to 'forward'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .gitignore
 Changes
 MANIFEST.SKIP
@@ -389,11 +389,11 @@ Partial Revert diff pair 10 is ->
 { 11d52bbdb4fccbe1678d869494acb9d43ae83c99 -> 5ac4489bfa64abef6f956b7228e813ef9b6ba055 }
 Partial Revert commits SHA are -> 
 b631e90e8ecd38bf2f6041e8fc9eae2447ad87c3 - revert - 5ac4489bfa64abef6f956b7228e813ef9b6ba055
-The reverted commit sha is - b631e90e8ecd38bf2f6041e8fc9eae2447ad87c3
+---> The reverted commit sha is - b631e90e8ecd38bf2f6041e8fc9eae2447ad87c3
 Commit message - add description for removed module (RT#87719)
-The original commit sha is - 5ac4489bfa64abef6f956b7228e813ef9b6ba055
+---> The original commit sha is - 5ac4489bfa64abef6f956b7228e813ef9b6ba055
 Commit message - fixed author side test becase Test::TCP changed its interface
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/author/http-server.t
 -----------------------------------------------------------------
 
@@ -402,16 +402,16 @@ Partial Revert diff pair 11 is ->
 { c287088e5ca1df568e066f98efcd2788207c7192 -> 019653190481e1228a35a18b7041a0bb2bdd8b67 }
 Partial Revert commits SHA are -> 
 dcca952ec445baeee3aa3c887ec41582991870da - revert - 019653190481e1228a35a18b7041a0bb2bdd8b67
-The reverted commit sha is - dcca952ec445baeee3aa3c887ec41582991870da
+---> The reverted commit sha is - dcca952ec445baeee3aa3c887ec41582991870da
 Commit message - Fix dependecy loop
 
 The C::P::Params::Nested requires Catalyst, so lets move this as an
 author dep and test.
 
 Signed-off-by: John Napiorkowski <jjnapiork@cpan.org>
-The original commit sha is - 019653190481e1228a35a18b7041a0bb2bdd8b67
+---> The original commit sha is - 019653190481e1228a35a18b7041a0bb2bdd8b67
 Commit message - move test
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/author/unicode_plugin_nested_params.t
 t/unicode_plugin_nested_params.t
 -----------------------------------------------------------------
@@ -421,11 +421,11 @@ Partial Revert diff pair 12 is ->
 { 8275d3b9bc376e0449ad1716b64c6cd4b9ada0b7 -> 409d48fb495802db8eb6e02a927dd2915d8643b4 }
 Partial Revert commits SHA are -> 
 c59b922bd1240c3ac989df940b2a38e6e0631f31 - revert - 409d48fb495802db8eb6e02a927dd2915d8643b4
-The reverted commit sha is - c59b922bd1240c3ac989df940b2a38e6e0631f31
+---> The reverted commit sha is - c59b922bd1240c3ac989df940b2a38e6e0631f31
 Commit message - Fix typo in Path dispatch example
-The original commit sha is - 409d48fb495802db8eb6e02a927dd2915d8643b4
+---> The original commit sha is - 409d48fb495802db8eb6e02a927dd2915d8643b4
 Commit message - merged after conflict resolution
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine/HTTP.pm
 lib/Catalyst/Plugin/Unicode/Encoding.pm
 t/aggregate/live_plugin_loaded.t
@@ -461,14 +461,14 @@ Partial Revert diff pair 13 is ->
 { c5e1a737bed7d73caf37c5aa3c49cb8c47daa287 -> cc66256716f67b2866a800fd6c99b126f379422d }
 Partial Revert commits SHA are -> 
 1d4df70b12006c9803f80e46d435a1f2610b75f1 - revert - cc66256716f67b2866a800fd6c99b126f379422d
-The reverted commit sha is - 1d4df70b12006c9803f80e46d435a1f2610b75f1
+---> The reverted commit sha is - 1d4df70b12006c9803f80e46d435a1f2610b75f1
 Commit message - Unicode plugin - move docs to main
 
 Just a basic copy/paste from plugin docs. Requires some
 polishments later.
-The original commit sha is - cc66256716f67b2866a800fd6c99b126f379422d
+---> The original commit sha is - cc66256716f67b2866a800fd6c99b126f379422d
 Commit message - Merge branch 'stricter-chained-arg-attrs' into SicilianButtercup
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Request.pm
 t/author/spelling.t
 -----------------------------------------------------------------
@@ -478,11 +478,11 @@ Partial Revert diff pair 14 is ->
 { 58d58feac4a7b9608f797287d3c6849651711119 -> aafe1d30a7dc94844ed6d6dc75e2603b9d4fb06e }
 Partial Revert commits SHA are -> 
 d7f189232be6991bad0861a3d847d224475677df - revert - aafe1d30a7dc94844ed6d6dc75e2603b9d4fb06e
-The reverted commit sha is - d7f189232be6991bad0861a3d847d224475677df
+---> The reverted commit sha is - d7f189232be6991bad0861a3d847d224475677df
 Commit message - Updated docs for $req->secure to reflect what modern Cat does
-The original commit sha is - aafe1d30a7dc94844ed6d6dc75e2603b9d4fb06e
+---> The original commit sha is - aafe1d30a7dc94844ed6d6dc75e2603b9d4fb06e
 Commit message - merged in
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 lib/Catalyst/DispatchType/Chained.pm
 -----------------------------------------------------------------
@@ -492,11 +492,11 @@ Partial Revert diff pair 15 is ->
 { 4e6e0ab2246dc09edb7e2731547931fa28021829 -> 58d58feac4a7b9608f797287d3c6849651711119 }
 Partial Revert commits SHA are -> 
 4e6e0ab2246dc09edb7e2731547931fa28021829 - revert - 58d58feac4a7b9608f797287d3c6849651711119
-The reverted commit sha is - 4e6e0ab2246dc09edb7e2731547931fa28021829
+---> The reverted commit sha is - 4e6e0ab2246dc09edb7e2731547931fa28021829
 Commit message - finished first go at better control over closing writer
-The original commit sha is - 58d58feac4a7b9608f797287d3c6849651711119
+---> The original commit sha is - 58d58feac4a7b9608f797287d3c6849651711119
 Commit message - Merge branch 'master' of git.shadowcat.co.uk:Catalyst-Runtime into SicilianButtercup
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Request.pm
 -----------------------------------------------------------------
 
@@ -505,11 +505,11 @@ Partial Revert diff pair 16 is ->
 { fa33a3ea47380bd1fad2f27f3b46ae7867532f55 -> 95a53efc43e32c47d30039cf5d8398e93d219ca1 }
 Partial Revert commits SHA are -> 
 fa33a3ea47380bd1fad2f27f3b46ae7867532f55 - revert - 95a53efc43e32c47d30039cf5d8398e93d219ca1
-The reverted commit sha is - fa33a3ea47380bd1fad2f27f3b46ae7867532f55
+---> The reverted commit sha is - fa33a3ea47380bd1fad2f27f3b46ae7867532f55
 Commit message - Fix metadata
-The original commit sha is - 95a53efc43e32c47d30039cf5d8398e93d219ca1
+---> The original commit sha is - 95a53efc43e32c47d30039cf5d8398e93d219ca1
 Commit message - merged
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .travis.yml
 Makefile.PL
 lib/Catalyst/Controller.pm
@@ -538,13 +538,13 @@ Partial Revert diff pair 17 is ->
 { e6968720453a63b5d43f77c17bc147ef560957e2 -> 9c1fc6d6a8c4701fa842fa5229c99d103aee1afa }
 Partial Revert commits SHA are -> 
 e6968720453a63b5d43f77c17bc147ef560957e2 - revert - 9c1fc6d6a8c4701fa842fa5229c99d103aee1afa
-The reverted commit sha is - e6968720453a63b5d43f77c17bc147ef560957e2
+---> The reverted commit sha is - e6968720453a63b5d43f77c17bc147ef560957e2
 Commit message - fixed typo in recent checkin
-The original commit sha is - 9c1fc6d6a8c4701fa842fa5229c99d103aee1afa
+---> The original commit sha is - 9c1fc6d6a8c4701fa842fa5229c99d103aee1afa
 Commit message - Remove Regex/LocalRegex code and tests from core
 
 Signed-off-by: John Napiorkowski <jjnapiork@cpan.org>
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/DispatchType/Regex.pm
 t/aggregate/live_component_controller_action_regexp.t
 t/aggregate/live_priorities.t
@@ -560,9 +560,9 @@ Partial Revert diff pair 18 is ->
 { a273dd589895d687efd358d65f2cc4e623350e97 -> 64111aca12ab4c4b405737d9fc67aea47354c6d7 }
 Partial Revert commits SHA are -> 
 f9451270ac09ec79f7185213288c927501010d1f - revert - 64111aca12ab4c4b405737d9fc67aea47354c6d7
-The reverted commit sha is - f9451270ac09ec79f7185213288c927501010d1f
+---> The reverted commit sha is - f9451270ac09ec79f7185213288c927501010d1f
 Commit message - do something rational in the case where you call $app->uri_for
-The original commit sha is - 64111aca12ab4c4b405737d9fc67aea47354c6d7
+---> The original commit sha is - 64111aca12ab4c4b405737d9fc67aea47354c6d7
 Commit message - appease t/author/spelling.t
 
  * README.pod: maillist => mailing list
@@ -570,7 +570,7 @@ Commit message - appease t/author/spelling.t
  * lib/Catalyst/DispatchType/Chained: ie => i.e.
 
 Signed-off-by: John Napiorkowski <jjnapiork@cpan.org>
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 README.pod
 -----------------------------------------------------------------
 
@@ -579,11 +579,11 @@ Partial Revert diff pair 19 is ->
 { 535322057bb32e8fab47e7e6aaaba97cc01e007f -> 5d16179bed95c8dd3928ff6bb2cadb3edf4334ba }
 Partial Revert commits SHA are -> 
 535322057bb32e8fab47e7e6aaaba97cc01e007f - revert - 5d16179bed95c8dd3928ff6bb2cadb3edf4334ba
-The reverted commit sha is - 535322057bb32e8fab47e7e6aaaba97cc01e007f
+---> The reverted commit sha is - 535322057bb32e8fab47e7e6aaaba97cc01e007f
 Commit message - added change item from PR
-The original commit sha is - 5d16179bed95c8dd3928ff6bb2cadb3edf4334ba
+---> The original commit sha is - 5d16179bed95c8dd3928ff6bb2cadb3edf4334ba
 Commit message - fixed psig loggers
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine.pm
 lib/Catalyst/Log.pm
 t/lib/TestApp/Controller/Log.pm
@@ -596,11 +596,11 @@ Partial Revert diff pair 20 is ->
 { 6a61d5b76357261fef77fc2151899491f2ec4695 -> 02459769c2a00053a6dd3869ea741de61294deca }
 Partial Revert commits SHA are -> 
 ffca3e960f527321fa30c5ffdfe6ffd2a984af59 - revert - 02459769c2a00053a6dd3869ea741de61294deca
-The reverted commit sha is - ffca3e960f527321fa30c5ffdfe6ffd2a984af59
+---> The reverted commit sha is - ffca3e960f527321fa30c5ffdfe6ffd2a984af59
 Commit message - tweaked the "list_extra_info" debugging method and converted old action info to use this, to serve as an example for new ones
-The original commit sha is - 02459769c2a00053a6dd3869ea741de61294deca
+---> The original commit sha is - 02459769c2a00053a6dd3869ea741de61294deca
 Commit message - removed code I should not have checkedin
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/ActionRole/BodyParser.pm
 -----------------------------------------------------------------
 
@@ -609,9 +609,9 @@ Partial Revert diff pair 21 is ->
 { e1e5366da72b22ecbf8a9e03fa0d790b99f3fb4f -> d42e2887f057321d1e65aaffb7ee822d9c1525f3 }
 Partial Revert commits SHA are -> 
 e3f6b891eadf91320fff9caf204ead09e54b51b0 - revert - d42e2887f057321d1e65aaffb7ee822d9c1525f3
-The reverted commit sha is - e3f6b891eadf91320fff9caf204ead09e54b51b0
+---> The reverted commit sha is - e3f6b891eadf91320fff9caf204ead09e54b51b0
 Commit message - Trivial doc fix
-The original commit sha is - d42e2887f057321d1e65aaffb7ee822d9c1525f3
+---> The original commit sha is - d42e2887f057321d1e65aaffb7ee822d9c1525f3
 Commit message - Merge remote branch 'origin/no_state_in_engine'
 
 * origin/no_state_in_engine: (22 commits)
@@ -636,7 +636,7 @@ Commit message - Merge remote branch 'origin/no_state_in_engine'
   Move read_chunk to the request
   Similarly, we don't need finalize_read
   ...
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine/HTTP.pm
 lib/Catalyst/Request.pm
 lib/Catalyst/Response.pm
@@ -663,11 +663,11 @@ Partial Revert diff pair 22 is ->
 { 102edbf4898a0bb361586ab2b691a6c8f77968fb -> 87b12a6e6eeadabd32a4bc7417f7c6e7012cd8b2 }
 Partial Revert commits SHA are -> 
 e3f6b891eadf91320fff9caf204ead09e54b51b0 - revert - 87b12a6e6eeadabd32a4bc7417f7c6e7012cd8b2
-The reverted commit sha is - e3f6b891eadf91320fff9caf204ead09e54b51b0
+---> The reverted commit sha is - e3f6b891eadf91320fff9caf204ead09e54b51b0
 Commit message - Trivial doc fix
-The original commit sha is - 87b12a6e6eeadabd32a4bc7417f7c6e7012cd8b2
+---> The original commit sha is - 87b12a6e6eeadabd32a4bc7417f7c6e7012cd8b2
 Commit message - Spelling skips
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/author/spelling.t
 -----------------------------------------------------------------
 
@@ -676,15 +676,15 @@ Partial Revert diff pair 23 is ->
 { f59eeb0935f448916be56fb8b21d5f011fc6e9d5 -> 42caa325b64b8b2f6ff316450ea9aeaece086fa9 }
 Partial Revert commits SHA are -> 
 41aaa5d65dfd130dd0376d3fa41a3f2ab78c066a - revert - 42caa325b64b8b2f6ff316450ea9aeaece086fa9
-The reverted commit sha is - 41aaa5d65dfd130dd0376d3fa41a3f2ab78c066a
+---> The reverted commit sha is - 41aaa5d65dfd130dd0376d3fa41a3f2ab78c066a
 Commit message - Fix removed methods that plugins are likely to be hooking
-The original commit sha is - 42caa325b64b8b2f6ff316450ea9aeaece086fa9
+---> The original commit sha is - 42caa325b64b8b2f6ff316450ea9aeaece086fa9
 Commit message - Merge remote branch 'origin/topic/prepare_action_in_try'
 
 * origin/topic/prepare_action_in_try:
   Explain the logic here, as it's crazy. But I think this works.
   Move prepare_action call into try block
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 lib/Catalyst/Engine.pm
 lib/Catalyst/Request.pm
@@ -711,11 +711,11 @@ Partial Revert diff pair 24 is ->
 { 1ce9c7f6a57e3d3ce511d87eb68c6a66ce9d96be -> 41aaa5d65dfd130dd0376d3fa41a3f2ab78c066a }
 Partial Revert commits SHA are -> 
 1ce9c7f6a57e3d3ce511d87eb68c6a66ce9d96be - revert - 41aaa5d65dfd130dd0376d3fa41a3f2ab78c066a
-The reverted commit sha is - 1ce9c7f6a57e3d3ce511d87eb68c6a66ce9d96be
+---> The reverted commit sha is - 1ce9c7f6a57e3d3ce511d87eb68c6a66ce9d96be
 Commit message - Only apply the lighttpd middleware if needed
-The original commit sha is - 41aaa5d65dfd130dd0376d3fa41a3f2ab78c066a
+---> The original commit sha is - 41aaa5d65dfd130dd0376d3fa41a3f2ab78c066a
 Commit message - Fix removed methods that plugins are likely to be hooking
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 lib/Catalyst/Engine.pm
 lib/Catalyst/Request.pm
@@ -742,11 +742,11 @@ Partial Revert diff pair 25 is ->
 { aee7cdcc0b2b3b7dc672b4b4a31b8c3b7ef3f1f7 -> 27b0a43637499f7e32fa68630d5300d44268f461 }
 Partial Revert commits SHA are -> 
 a24a5860184938cc4dd38535aeca06d98bc56fb1 - revert - 27b0a43637499f7e32fa68630d5300d44268f461
-The reverted commit sha is - a24a5860184938cc4dd38535aeca06d98bc56fb1
+---> The reverted commit sha is - a24a5860184938cc4dd38535aeca06d98bc56fb1
 Commit message - added dev_server test, poked Catalyst::Script::Create
-The original commit sha is - 27b0a43637499f7e32fa68630d5300d44268f461
+---> The original commit sha is - 27b0a43637499f7e32fa68630d5300d44268f461
 Commit message - Changelog run_options
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 -----------------------------------------------------------------
 
@@ -755,12 +755,12 @@ Partial Revert diff pair 26 is ->
 { aee7cdcc0b2b3b7dc672b4b4a31b8c3b7ef3f1f7 -> 27b0a43637499f7e32fa68630d5300d44268f461 }
 Partial Revert commits SHA are -> 
 accb06402d3587ada5117e80ca2f9b3722b2f1df - revert - 27b0a43637499f7e32fa68630d5300d44268f461
-The reverted commit sha is - accb06402d3587ada5117e80ca2f9b3722b2f1df
+---> The reverted commit sha is - accb06402d3587ada5117e80ca2f9b3722b2f1df
 Commit message - updated testapp_cgi.pl
 updated CGI
-The original commit sha is - 27b0a43637499f7e32fa68630d5300d44268f461
+---> The original commit sha is - 27b0a43637499f7e32fa68630d5300d44268f461
 Commit message - Changelog run_options
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 -----------------------------------------------------------------
 
@@ -769,11 +769,11 @@ Partial Revert diff pair 27 is ->
 { aee7cdcc0b2b3b7dc672b4b4a31b8c3b7ef3f1f7 -> 27b0a43637499f7e32fa68630d5300d44268f461 }
 Partial Revert commits SHA are -> 
 3fcc9f353cd9e9d05b82649cbd1d8fd9554c38a8 - revert - 27b0a43637499f7e32fa68630d5300d44268f461
-The reverted commit sha is - 3fcc9f353cd9e9d05b82649cbd1d8fd9554c38a8
+---> The reverted commit sha is - 3fcc9f353cd9e9d05b82649cbd1d8fd9554c38a8
 Commit message - updated Makefil.PL
-The original commit sha is - 27b0a43637499f7e32fa68630d5300d44268f461
+---> The original commit sha is - 27b0a43637499f7e32fa68630d5300d44268f461
 Commit message - Changelog run_options
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 -----------------------------------------------------------------
 
@@ -782,11 +782,11 @@ Partial Revert diff pair 28 is ->
 { aee7cdcc0b2b3b7dc672b4b4a31b8c3b7ef3f1f7 -> 27b0a43637499f7e32fa68630d5300d44268f461 }
 Partial Revert commits SHA are -> 
 d24d92d9ed09f3cbd48356058429849e7c66ed73 - revert - 27b0a43637499f7e32fa68630d5300d44268f461
-The reverted commit sha is - d24d92d9ed09f3cbd48356058429849e7c66ed73
+---> The reverted commit sha is - d24d92d9ed09f3cbd48356058429849e7c66ed73
 Commit message - updated so that if their class doesn't load, we use ours.
-The original commit sha is - 27b0a43637499f7e32fa68630d5300d44268f461
+---> The original commit sha is - 27b0a43637499f7e32fa68630d5300d44268f461
 Commit message - Changelog run_options
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 -----------------------------------------------------------------
 
@@ -795,11 +795,11 @@ Partial Revert diff pair 29 is ->
 { 469852bc3a36245f4d63100b10ef62db05e6b100 -> a96b11c290b395aca951964512c41052cea4de9f }
 Partial Revert commits SHA are -> 
 0cff119a540a3c8961750bd499f4c470771ac342 - revert - a96b11c290b395aca951964512c41052cea4de9f
-The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
+---> The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
 Commit message - allow uri_for_action to be called with captures and args in a single arrayref
-The original commit sha is - a96b11c290b395aca951964512c41052cea4de9f
+---> The original commit sha is - a96b11c290b395aca951964512c41052cea4de9f
 Commit message - Merge branch script_roles
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Script/CGI.pm
 lib/Catalyst/Script/Create.pm
 lib/Catalyst/Script/FastCGI.pm
@@ -816,11 +816,11 @@ Partial Revert diff pair 30 is ->
 { 178dca5f50ddbee5adbfdbc7c6311f83da9efd50 -> ab6c6d3d02a45825f971a5482c81bc2880ff6138 }
 Partial Revert commits SHA are -> 
 0cff119a540a3c8961750bd499f4c470771ac342 - revert - ab6c6d3d02a45825f971a5482c81bc2880ff6138
-The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
+---> The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
 Commit message - allow uri_for_action to be called with captures and args in a single arrayref
-The original commit sha is - ab6c6d3d02a45825f971a5482c81bc2880ff6138
+---> The original commit sha is - ab6c6d3d02a45825f971a5482c81bc2880ff6138
 Commit message - Update changelog
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 -----------------------------------------------------------------
 
@@ -829,11 +829,11 @@ Partial Revert diff pair 31 is ->
 { 1d85cbb36bf233f539a393b827ab66a31419994b -> cf8eab35bae767daf240ec91a97b1809fda012ea }
 Partial Revert commits SHA are -> 
 0cff119a540a3c8961750bd499f4c470771ac342 - revert - cf8eab35bae767daf240ec91a97b1809fda012ea
-The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
+---> The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
 Commit message - allow uri_for_action to be called with captures and args in a single arrayref
-The original commit sha is - cf8eab35bae767daf240ec91a97b1809fda012ea
+---> The original commit sha is - cf8eab35bae767daf240ec91a97b1809fda012ea
 Commit message - More spelling stopwords and small fixes till we pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Component.pm
 -----------------------------------------------------------------
 
@@ -842,11 +842,11 @@ Partial Revert diff pair 32 is ->
 { 8ad6fd584ff18d88abf31629d4593ba94eeb7647 -> 9310b818c83f77236e011b34da5506a8dbe0d119 }
 Partial Revert commits SHA are -> 
 b36cf3bb1a0ce0749ea274573707566c462604a3 - revert - 9310b818c83f77236e011b34da5506a8dbe0d119
-The reverted commit sha is - b36cf3bb1a0ce0749ea274573707566c462604a3
+---> The reverted commit sha is - b36cf3bb1a0ce0749ea274573707566c462604a3
 Commit message - Remove fixed things from TODO list
-The original commit sha is - 9310b818c83f77236e011b34da5506a8dbe0d119
+---> The original commit sha is - 9310b818c83f77236e011b34da5506a8dbe0d119
 Commit message - Suppressing Data::Dumper warnings in test t/aggregate/live_component_controller_action_action.t
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestApp/View/Dump.pm
 t/lib/TestApp/View/Dump/Action.pm
 -----------------------------------------------------------------
@@ -856,11 +856,11 @@ Partial Revert diff pair 33 is ->
 { 8ad6fd584ff18d88abf31629d4593ba94eeb7647 -> 9310b818c83f77236e011b34da5506a8dbe0d119 }
 Partial Revert commits SHA are -> 
 0cff119a540a3c8961750bd499f4c470771ac342 - revert - 9310b818c83f77236e011b34da5506a8dbe0d119
-The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
+---> The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
 Commit message - allow uri_for_action to be called with captures and args in a single arrayref
-The original commit sha is - 9310b818c83f77236e011b34da5506a8dbe0d119
+---> The original commit sha is - 9310b818c83f77236e011b34da5506a8dbe0d119
 Commit message - Suppressing Data::Dumper warnings in test t/aggregate/live_component_controller_action_action.t
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestApp/View/Dump.pm
 t/lib/TestApp/View/Dump/Action.pm
 -----------------------------------------------------------------
@@ -870,11 +870,11 @@ Partial Revert diff pair 34 is ->
 { 9977ef947d161654267b5648628fb270a0d5334c -> 8ad6fd584ff18d88abf31629d4593ba94eeb7647 }
 Partial Revert commits SHA are -> 
 5dcb0779b5afffe20477dcdae373394e5f94af06 - revert - 8ad6fd584ff18d88abf31629d4593ba94eeb7647
-The reverted commit sha is - 5dcb0779b5afffe20477dcdae373394e5f94af06
+---> The reverted commit sha is - 5dcb0779b5afffe20477dcdae373394e5f94af06
 Commit message - updated TODO for psgi
-The original commit sha is - 8ad6fd584ff18d88abf31629d4593ba94eeb7647
+---> The original commit sha is - 8ad6fd584ff18d88abf31629d4593ba94eeb7647
 Commit message - fixed the remaining spelling errors + improved some wording in the process
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/ClassData.pm
 lib/Catalyst/Component/ContextClosure.pm
 -----------------------------------------------------------------
@@ -884,11 +884,11 @@ Partial Revert diff pair 35 is ->
 { 9977ef947d161654267b5648628fb270a0d5334c -> 8ad6fd584ff18d88abf31629d4593ba94eeb7647 }
 Partial Revert commits SHA are -> 
 0cff119a540a3c8961750bd499f4c470771ac342 - revert - 8ad6fd584ff18d88abf31629d4593ba94eeb7647
-The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
+---> The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
 Commit message - allow uri_for_action to be called with captures and args in a single arrayref
-The original commit sha is - 8ad6fd584ff18d88abf31629d4593ba94eeb7647
+---> The original commit sha is - 8ad6fd584ff18d88abf31629d4593ba94eeb7647
 Commit message - fixed the remaining spelling errors + improved some wording in the process
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/ClassData.pm
 lib/Catalyst/Component/ContextClosure.pm
 -----------------------------------------------------------------
@@ -898,11 +898,11 @@ Partial Revert diff pair 36 is ->
 { f4dda4a8e24ec328419c0bef366f1cd294d42474 -> 965f3e35b1f8287990aeb8f102ebc0bc107e11e8 }
 Partial Revert commits SHA are -> 
 5dcb0779b5afffe20477dcdae373394e5f94af06 - revert - 965f3e35b1f8287990aeb8f102ebc0bc107e11e8
-The reverted commit sha is - 5dcb0779b5afffe20477dcdae373394e5f94af06
+---> The reverted commit sha is - 5dcb0779b5afffe20477dcdae373394e5f94af06
 Commit message - updated TODO for psgi
-The original commit sha is - 965f3e35b1f8287990aeb8f102ebc0bc107e11e8
+---> The original commit sha is - 965f3e35b1f8287990aeb8f102ebc0bc107e11e8
 Commit message - more spelling fixes
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Request/Upload.pm
 lib/Catalyst/Test.pm
 -----------------------------------------------------------------
@@ -912,11 +912,11 @@ Partial Revert diff pair 37 is ->
 { f4dda4a8e24ec328419c0bef366f1cd294d42474 -> 965f3e35b1f8287990aeb8f102ebc0bc107e11e8 }
 Partial Revert commits SHA are -> 
 0cff119a540a3c8961750bd499f4c470771ac342 - revert - 965f3e35b1f8287990aeb8f102ebc0bc107e11e8
-The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
+---> The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
 Commit message - allow uri_for_action to be called with captures and args in a single arrayref
-The original commit sha is - 965f3e35b1f8287990aeb8f102ebc0bc107e11e8
+---> The original commit sha is - 965f3e35b1f8287990aeb8f102ebc0bc107e11e8
 Commit message - more spelling fixes
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Dispatcher.pm
 lib/Catalyst/Request/Upload.pm
 lib/Catalyst/Test.pm
@@ -927,11 +927,11 @@ Partial Revert diff pair 38 is ->
 { 59e2fe94743666b9f079545e45252a93839c6398 -> f4dda4a8e24ec328419c0bef366f1cd294d42474 }
 Partial Revert commits SHA are -> 
 5dcb0779b5afffe20477dcdae373394e5f94af06 - revert - f4dda4a8e24ec328419c0bef366f1cd294d42474
-The reverted commit sha is - 5dcb0779b5afffe20477dcdae373394e5f94af06
+---> The reverted commit sha is - 5dcb0779b5afffe20477dcdae373394e5f94af06
 Commit message - updated TODO for psgi
-The original commit sha is - f4dda4a8e24ec328419c0bef366f1cd294d42474
+---> The original commit sha is - f4dda4a8e24ec328419c0bef366f1cd294d42474
 Commit message - fixed spelling errors
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Controller.pm
 lib/Catalyst/ScriptRunner.pm
 lib/Catalyst/Stats.pm
@@ -942,11 +942,11 @@ Partial Revert diff pair 39 is ->
 { 59e2fe94743666b9f079545e45252a93839c6398 -> f4dda4a8e24ec328419c0bef366f1cd294d42474 }
 Partial Revert commits SHA are -> 
 0cff119a540a3c8961750bd499f4c470771ac342 - revert - f4dda4a8e24ec328419c0bef366f1cd294d42474
-The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
+---> The reverted commit sha is - 0cff119a540a3c8961750bd499f4c470771ac342
 Commit message - allow uri_for_action to be called with captures and args in a single arrayref
-The original commit sha is - f4dda4a8e24ec328419c0bef366f1cd294d42474
+---> The original commit sha is - f4dda4a8e24ec328419c0bef366f1cd294d42474
 Commit message - fixed spelling errors
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Controller.pm
 lib/Catalyst/Stats.pm
 -----------------------------------------------------------------
@@ -956,11 +956,11 @@ Partial Revert diff pair 40 is ->
 { 0cff119a540a3c8961750bd499f4c470771ac342 -> c0a8a4b8210a04defa3875f4a483cdd19396df7b }
 Partial Revert commits SHA are -> 
 5dcb0779b5afffe20477dcdae373394e5f94af06 - revert - c0a8a4b8210a04defa3875f4a483cdd19396df7b
-The reverted commit sha is - 5dcb0779b5afffe20477dcdae373394e5f94af06
+---> The reverted commit sha is - 5dcb0779b5afffe20477dcdae373394e5f94af06
 Commit message - updated TODO for psgi
-The original commit sha is - c0a8a4b8210a04defa3875f4a483cdd19396df7b
+---> The original commit sha is - c0a8a4b8210a04defa3875f4a483cdd19396df7b
 Commit message - added spelling author test
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Makefile.PL
 t/author/spelling.t
 -----------------------------------------------------------------
@@ -970,11 +970,11 @@ Partial Revert diff pair 41 is ->
 { 4dcdaae144e5787f9efd4c72dce35cd97cc69288 -> 2ebbf7b954a7c5bf5024a9788728386b37e61e55 }
 Partial Revert commits SHA are -> 
 6356febf43d63d59631124c80b39f89308d92f55 - revert - 2ebbf7b954a7c5bf5024a9788728386b37e61e55
-The reverted commit sha is - 6356febf43d63d59631124c80b39f89308d92f55
+---> The reverted commit sha is - 6356febf43d63d59631124c80b39f89308d92f55
 Commit message - Fix spelling errors - RT#54335
-The original commit sha is - 2ebbf7b954a7c5bf5024a9788728386b37e61e55
+---> The original commit sha is - 2ebbf7b954a7c5bf5024a9788728386b37e61e55
 Commit message - Merge branch captures_and_args_combined
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst.pm
 lib/Catalyst/Action.pm
 lib/Catalyst/ActionChain.pm
@@ -985,15 +985,15 @@ Partial Revert diff pair 42 is ->
 { b072862879588eb79a8ccdc47b80b5193866c057 -> e83233606b2177b31ff3ad0cfb9012b6d42f85a5 }
 Partial Revert commits SHA are -> 
 b36cf3bb1a0ce0749ea274573707566c462604a3 - revert - e83233606b2177b31ff3ad0cfb9012b6d42f85a5
-The reverted commit sha is - b36cf3bb1a0ce0749ea274573707566c462604a3
+---> The reverted commit sha is - b36cf3bb1a0ce0749ea274573707566c462604a3
 Commit message - Remove fixed things from TODO list
-The original commit sha is - e83233606b2177b31ff3ad0cfb9012b6d42f85a5
+---> The original commit sha is - e83233606b2177b31ff3ad0cfb9012b6d42f85a5
 Commit message - Merge remote branch 'origin/suppress_data_dumper_warnings'
 
 * origin/suppress_data_dumper_warnings:
   fixing to work with perl 5.8
   Suppressing Data::Dumper warnings in test t/aggregate/live_component_controller_action_action.t
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestApp/View/Dump.pm
 t/lib/TestApp/View/Dump/Action.pm
 -----------------------------------------------------------------
@@ -1003,11 +1003,11 @@ Partial Revert diff pair 43 is ->
 { 724e8b30fb7cc9f62ed4932412f81cd4e40068c6 -> 949f330d1f0f7d5fc868ddeb6f338733a2dfa39f }
 Partial Revert commits SHA are -> 
 5dcb0779b5afffe20477dcdae373394e5f94af06 - revert - 949f330d1f0f7d5fc868ddeb6f338733a2dfa39f
-The reverted commit sha is - 5dcb0779b5afffe20477dcdae373394e5f94af06
+---> The reverted commit sha is - 5dcb0779b5afffe20477dcdae373394e5f94af06
 Commit message - updated TODO for psgi
-The original commit sha is - 949f330d1f0f7d5fc868ddeb6f338733a2dfa39f
+---> The original commit sha is - 949f330d1f0f7d5fc868ddeb6f338733a2dfa39f
 Commit message - Merge spelling test
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Makefile.PL
 lib/Catalyst/ClassData.pm
 lib/Catalyst/Component/ContextClosure.pm
@@ -1025,13 +1025,13 @@ Partial Revert diff pair 44 is ->
 { 84755bc3c6c73deaa10f3f7ba4e1a0432220c9fc -> a253d52742575eabcdaf703729024d2ed3db496a }
 Partial Revert commits SHA are -> 
 84755bc3c6c73deaa10f3f7ba4e1a0432220c9fc - revert - a253d52742575eabcdaf703729024d2ed3db496a
-The reverted commit sha is - 84755bc3c6c73deaa10f3f7ba4e1a0432220c9fc
+---> The reverted commit sha is - 84755bc3c6c73deaa10f3f7ba4e1a0432220c9fc
 Commit message - Revert "Version 5.90003"
 
 This reverts commit 23a34adfebeb887fb66214421cb3064f83e796cd.
-The original commit sha is - a253d52742575eabcdaf703729024d2ed3db496a
+---> The original commit sha is - a253d52742575eabcdaf703729024d2ed3db496a
 Commit message - Version 5.90003
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst.pm
 lib/Catalyst/Runtime.pm
 -----------------------------------------------------------------
@@ -1041,9 +1041,9 @@ Partial Revert diff pair 45 is ->
 { da9eab5aa66d2a418d084460d8df95a8b48351cd -> be5cf2d55e39edd87d8ef84d2fc534e38699642c }
 Partial Revert commits SHA are -> 
 b9f72120e78ad2b0bb2e2fe8dee3732b4496b99c - revert - be5cf2d55e39edd87d8ef84d2fc534e38699642c
-The reverted commit sha is - b9f72120e78ad2b0bb2e2fe8dee3732b4496b99c
+---> The reverted commit sha is - b9f72120e78ad2b0bb2e2fe8dee3732b4496b99c
 Commit message - Put old version of TWMC in conflicts, update TODO
-The original commit sha is - be5cf2d55e39edd87d8ef84d2fc534e38699642c
+---> The original commit sha is - be5cf2d55e39edd87d8ef84d2fc534e38699642c
 Commit message - Merge branch 'psgi'
 
 * psgi: (219 commits)
@@ -1068,7 +1068,7 @@ Commit message - Merge branch 'psgi'
   Fix display on search.cpan
   Remove fixed things from TODO list
   ...
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 .gitignore
 MANIFEST.SKIP
 -----------------------------------------------------------------
@@ -1078,11 +1078,11 @@ Partial Revert diff pair 46 is ->
 { d109165a971e7f1a57239d66907fef80a551833e -> c96a2af8e9ac07970f0e2e6672d98843e0b85796 }
 Partial Revert commits SHA are -> 
 d109165a971e7f1a57239d66907fef80a551833e - revert - c96a2af8e9ac07970f0e2e6672d98843e0b85796
-The reverted commit sha is - d109165a971e7f1a57239d66907fef80a551833e
+---> The reverted commit sha is - d109165a971e7f1a57239d66907fef80a551833e
 Commit message - Lion is like Snow Leopard when it comes to tar issues
-The original commit sha is - c96a2af8e9ac07970f0e2e6672d98843e0b85796
+---> The original commit sha is - c96a2af8e9ac07970f0e2e6672d98843e0b85796
 Commit message - Merge branch 'psgi' of git.shadowcat.co.uk:Catalyst-Runtime into psgi
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/unit_core_script_server-without_modules.t
 -----------------------------------------------------------------
 
@@ -1091,13 +1091,13 @@ Partial Revert diff pair 47 is ->
 { f723794a21b143f495fc00a4584efcfee4c14fa7 -> 38a55e0cf0b70133b1a8369c04e3bc0ee444c4b7 }
 Partial Revert commits SHA are -> 
 f723794a21b143f495fc00a4584efcfee4c14fa7 - revert - 38a55e0cf0b70133b1a8369c04e3bc0ee444c4b7
-The reverted commit sha is - f723794a21b143f495fc00a4584efcfee4c14fa7
+---> The reverted commit sha is - f723794a21b143f495fc00a4584efcfee4c14fa7
 Commit message - removed component resolution regex fallback
-The original commit sha is - 38a55e0cf0b70133b1a8369c04e3bc0ee444c4b7
+---> The original commit sha is - 38a55e0cf0b70133b1a8369c04e3bc0ee444c4b7
 Commit message - Revert "removed component resolution regex fallback"
 
 This reverts commit f723794a21b143f495fc00a4584efcfee4c14fa7.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/unit_core_component.t
 t/aggregate/unit_core_mvc.t
 -----------------------------------------------------------------
@@ -1107,13 +1107,13 @@ Partial Revert diff pair 48 is ->
 { 54c824bd5bd84579de75e830b202e08a628d82ec -> b09bbdcbefa4f36ad9903dc033f157736557ddf0 }
 Partial Revert commits SHA are -> 
 fe3083a8f05a03e6da5f5b72ef1a2e105a83b4b8 - revert - b09bbdcbefa4f36ad9903dc033f157736557ddf0
-The reverted commit sha is - fe3083a8f05a03e6da5f5b72ef1a2e105a83b4b8
+---> The reverted commit sha is - fe3083a8f05a03e6da5f5b72ef1a2e105a83b4b8
 Commit message - Append $\ in Catalyst::Response->print
 
 This more closely matches IO::Handle's behaviour.
-The original commit sha is - b09bbdcbefa4f36ad9903dc033f157736557ddf0
+---> The original commit sha is - b09bbdcbefa4f36ad9903dc033f157736557ddf0
 Commit message - Unbreak remote server tests
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/live_component_controller_action_action.t
 -----------------------------------------------------------------
 
@@ -1122,11 +1122,11 @@ Partial Revert diff pair 49 is ->
 { d5024dd8827cc99ae0b2c28e3fbcf50957722112 -> bad031b8949494062bf54f93cc2d78de1fcda052 }
 Partial Revert commits SHA are -> 
 ae908e7e03307c90b941d8ada68be61f66b10bab - revert - bad031b8949494062bf54f93cc2d78de1fcda052
-The reverted commit sha is - ae908e7e03307c90b941d8ada68be61f66b10bab
+---> The reverted commit sha is - ae908e7e03307c90b941d8ada68be61f66b10bab
 Commit message - First stab documenting writing a .psgi file
-The original commit sha is - bad031b8949494062bf54f93cc2d78de1fcda052
+---> The original commit sha is - bad031b8949494062bf54f93cc2d78de1fcda052
 Commit message - We already have a warning for this
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 TODO
 -----------------------------------------------------------------
 
@@ -1135,7 +1135,7 @@ Partial Revert diff pair 50 is ->
 { ce616b55dfe42513400a5881614da857a7d6d767 -> 99dabb12e4a28209766f7d06d976ec265a06f905 }
 Partial Revert commits SHA are -> 
 ce616b55dfe42513400a5881614da857a7d6d767 - revert - 99dabb12e4a28209766f7d06d976ec265a06f905
-The reverted commit sha is - ce616b55dfe42513400a5881614da857a7d6d767
+---> The reverted commit sha is - ce616b55dfe42513400a5881614da857a7d6d767
 Commit message - Properly skip known broken tests
 
 Faked passing tests are not cool, and nor are __END__ sections, as those will
@@ -1144,7 +1144,7 @@ break aggregation.
 If we actually want to prevent the body of the tests from being compiled,
 putting the C<< plan skip_all => ... >> in a BEGIN block is the right thing to
 do.
-The original commit sha is - 99dabb12e4a28209766f7d06d976ec265a06f905
+---> The original commit sha is - 99dabb12e4a28209766f7d06d976ec265a06f905
 Commit message - Merge branch 'master' into psgi
 
 * master: (22 commits)
@@ -1176,7 +1176,7 @@ Conflicts:
 	lib/Catalyst.pm
 	lib/Catalyst/Engine/FastCGI.pm
 	lib/Catalyst/Runtime.pm
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/DispatchType/Chained.pm
 lib/Catalyst/Request/Upload.pm
 lib/Catalyst/Response.pm
@@ -1194,11 +1194,11 @@ Partial Revert diff pair 51 is ->
 { ef41ea15458d2d2beddee792deea598249df2852 -> d877f8685ec6e22ec4b07aad67ccc4a384b8e448 }
 Partial Revert commits SHA are -> 
 ef41ea15458d2d2beddee792deea598249df2852 - revert - d877f8685ec6e22ec4b07aad67ccc4a384b8e448
-The reverted commit sha is - ef41ea15458d2d2beddee792deea598249df2852
+---> The reverted commit sha is - ef41ea15458d2d2beddee792deea598249df2852
 Commit message - Small docs and fixes
-The original commit sha is - d877f8685ec6e22ec4b07aad67ccc4a384b8e448
+---> The original commit sha is - d877f8685ec6e22ec4b07aad67ccc4a384b8e448
 Commit message - Don't be dumb, auth breaks on new cat, not other way round
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Makefile.PL
 -----------------------------------------------------------------
 
@@ -1207,9 +1207,9 @@ Partial Revert diff pair 52 is ->
 { 040835f08bfca3531f595fd29cd306aeb64f67da -> 681086e7279935c38cae4b84264dc73b02b63df1 }
 Partial Revert commits SHA are -> 
 acbecf084395e9b46e607a3fe244faa3c1bd3abb - revert - 681086e7279935c38cae4b84264dc73b02b63df1
-The reverted commit sha is - acbecf084395e9b46e607a3fe244faa3c1bd3abb
+---> The reverted commit sha is - acbecf084395e9b46e607a3fe244faa3c1bd3abb
 Commit message - Additional notes and cleanup
-The original commit sha is - 681086e7279935c38cae4b84264dc73b02b63df1
+---> The original commit sha is - 681086e7279935c38cae4b84264dc73b02b63df1
 Commit message - Merge branch 'master' into psgi
 
 master:
@@ -1229,7 +1229,7 @@ Found a another fault in chained action dispatcher.
 
 Conflicts:
 lib/Catalyst/Engine/CGI.pm
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 lib/Catalyst/Component.pm
 lib/Catalyst/Response.pm
@@ -1247,13 +1247,13 @@ Partial Revert diff pair 53 is ->
 { 182f8b1e3c426d62337e186c2409c555794152d7 -> 913c51dcda37794ec2753f05abb90336c5b4dd46 }
 Partial Revert commits SHA are -> 
 a09d4dfda91fff7f029de6ff4bc6daaa10f5f0d4 - revert - 913c51dcda37794ec2753f05abb90336c5b4dd46
-The reverted commit sha is - a09d4dfda91fff7f029de6ff4bc6daaa10f5f0d4
+---> The reverted commit sha is - a09d4dfda91fff7f029de6ff4bc6daaa10f5f0d4
 Commit message - Make the no-tabs test happy again
-The original commit sha is - 913c51dcda37794ec2753f05abb90336c5b4dd46
+---> The original commit sha is - 913c51dcda37794ec2753f05abb90336c5b4dd46
 Commit message - Fix merging mistake made in r13761
 
 Engine::FastCGI is dead.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine/FastCGI.pm
 -----------------------------------------------------------------
 
@@ -1262,13 +1262,13 @@ Partial Revert diff pair 54 is ->
 { 182f8b1e3c426d62337e186c2409c555794152d7 -> 913c51dcda37794ec2753f05abb90336c5b4dd46 }
 Partial Revert commits SHA are -> 
 641b01310aa293dd3dcb8c366ffab6a0e38fcacf - revert - 913c51dcda37794ec2753f05abb90336c5b4dd46
-The reverted commit sha is - 641b01310aa293dd3dcb8c366ffab6a0e38fcacf
+---> The reverted commit sha is - 641b01310aa293dd3dcb8c366ffab6a0e38fcacf
 Commit message - Use the harness instead of all of prove
-The original commit sha is - 913c51dcda37794ec2753f05abb90336c5b4dd46
+---> The original commit sha is - 913c51dcda37794ec2753f05abb90336c5b4dd46
 Commit message - Fix merging mistake made in r13761
 
 Engine::FastCGI is dead.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine/FastCGI.pm
 -----------------------------------------------------------------
 
@@ -1277,13 +1277,13 @@ Partial Revert diff pair 55 is ->
 { 182f8b1e3c426d62337e186c2409c555794152d7 -> 913c51dcda37794ec2753f05abb90336c5b4dd46 }
 Partial Revert commits SHA are -> 
 c046f5195e3173a6f023c0fe1591a813889de2ea - revert - 913c51dcda37794ec2753f05abb90336c5b4dd46
-The reverted commit sha is - c046f5195e3173a6f023c0fe1591a813889de2ea
+---> The reverted commit sha is - c046f5195e3173a6f023c0fe1591a813889de2ea
 Commit message - Update changelog
-The original commit sha is - 913c51dcda37794ec2753f05abb90336c5b4dd46
+---> The original commit sha is - 913c51dcda37794ec2753f05abb90336c5b4dd46
 Commit message - Fix merging mistake made in r13761
 
 Engine::FastCGI is dead.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine/FastCGI.pm
 -----------------------------------------------------------------
 
@@ -1292,11 +1292,11 @@ Partial Revert diff pair 56 is ->
 { af81321a6737c4a8b0c39604e69787b248514a1e -> 2afd1ea3d10e4d0343d3f09a9aa02e4b701b8bfc }
 Partial Revert commits SHA are -> 
 af81321a6737c4a8b0c39604e69787b248514a1e - revert - 2afd1ea3d10e4d0343d3f09a9aa02e4b701b8bfc
-The reverted commit sha is - af81321a6737c4a8b0c39604e69787b248514a1e
+---> The reverted commit sha is - af81321a6737c4a8b0c39604e69787b248514a1e
 Commit message - Back out 13528, cocked that up.
-The original commit sha is - 2afd1ea3d10e4d0343d3f09a9aa02e4b701b8bfc
+---> The original commit sha is - 2afd1ea3d10e4d0343d3f09a9aa02e4b701b8bfc
 Commit message - Fix bug with parse_on_demand (take 2)
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 lib/Catalyst.pm
 -----------------------------------------------------------------
@@ -1306,7 +1306,7 @@ Partial Revert diff pair 57 is ->
 { 5142a07dd1a7b89ff5e997e487e1b80f76c71d3b -> a84683240a2c46b54f93e15b23b479f5f652f92f }
 Partial Revert commits SHA are -> 
 5142a07dd1a7b89ff5e997e487e1b80f76c71d3b - revert - a84683240a2c46b54f93e15b23b479f5f652f92f
-The reverted commit sha is - 5142a07dd1a7b89ff5e997e487e1b80f76c71d3b
+---> The reverted commit sha is - 5142a07dd1a7b89ff5e997e487e1b80f76c71d3b
 Commit message - Merge 'trunk' into 'rt58057'
 
 r15672@spaceinvaders (orig r13363):  jester | 2010-06-22 21:47:45 +0100
@@ -1329,9 +1329,9 @@ r15750@spaceinvaders (orig r13441):  t0m | 2010-07-28 22:39:41 +0100
 
 
 
-The original commit sha is - a84683240a2c46b54f93e15b23b479f5f652f92f
+---> The original commit sha is - a84683240a2c46b54f93e15b23b479f5f652f92f
 Commit message - Entirely the wrong branch, idiot. Remove r13417
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine.pm
 -----------------------------------------------------------------
 
@@ -1340,7 +1340,7 @@ Partial Revert diff pair 58 is ->
 { 13c565fe4cd2b9cac4ef810d6fe45875b537c7d9 -> 5142a07dd1a7b89ff5e997e487e1b80f76c71d3b }
 Partial Revert commits SHA are -> 
 43ba8e043bf9360893c89d92e1b54c033e8b33a0 - revert - 5142a07dd1a7b89ff5e997e487e1b80f76c71d3b
-The reverted commit sha is - 43ba8e043bf9360893c89d92e1b54c033e8b33a0
+---> The reverted commit sha is - 43ba8e043bf9360893c89d92e1b54c033e8b33a0
 Commit message - Merge 'trunk' into 'tweak_controller_action_creation'
 
 r15672@spaceinvaders (orig r13363):  jester | 2010-06-22 21:47:45 +0100
@@ -1355,7 +1355,7 @@ Try harder to make finalize_error encoding-safe.
 
 
 
-The original commit sha is - 5142a07dd1a7b89ff5e997e487e1b80f76c71d3b
+---> The original commit sha is - 5142a07dd1a7b89ff5e997e487e1b80f76c71d3b
 Commit message - Merge 'trunk' into 'rt58057'
 
 r15672@spaceinvaders (orig r13363):  jester | 2010-06-22 21:47:45 +0100
@@ -1378,7 +1378,7 @@ r15750@spaceinvaders (orig r13441):  t0m | 2010-07-28 22:39:41 +0100
 
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestApp/Controller/Moose/NoAttributes.pm
 t/unit_core_methodattributes_method_metaclass_on_subclasses.t
 -----------------------------------------------------------------
@@ -1388,9 +1388,9 @@ Partial Revert diff pair 59 is ->
 { d2278086877372c00bcefc607a4713d0fded4d53 -> 43ba8e043bf9360893c89d92e1b54c033e8b33a0 }
 Partial Revert commits SHA are -> 
 d2278086877372c00bcefc607a4713d0fded4d53 - revert - 43ba8e043bf9360893c89d92e1b54c033e8b33a0
-The reverted commit sha is - d2278086877372c00bcefc607a4713d0fded4d53
+---> The reverted commit sha is - d2278086877372c00bcefc607a4713d0fded4d53
 Commit message - I know hobbs has a patch to add a load of these, but we should at least add (es)
-The original commit sha is - 43ba8e043bf9360893c89d92e1b54c033e8b33a0
+---> The original commit sha is - 43ba8e043bf9360893c89d92e1b54c033e8b33a0
 Commit message - Merge 'trunk' into 'tweak_controller_action_creation'
 
 r15672@spaceinvaders (orig r13363):  jester | 2010-06-22 21:47:45 +0100
@@ -1405,7 +1405,7 @@ Try harder to make finalize_error encoding-safe.
 
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestApp/Controller/Moose/NoAttributes.pm
 t/unit_core_methodattributes_method_metaclass_on_subclasses.t
 -----------------------------------------------------------------
@@ -1415,11 +1415,11 @@ Partial Revert diff pair 60 is ->
 { 10e970e4efdf69f9cd023b93016514f7668b54f7 -> f0a9b791be61994ae43bd67398fb7eb4d34ea01d }
 Partial Revert commits SHA are -> 
 10e970e4efdf69f9cd023b93016514f7668b54f7 - revert - f0a9b791be61994ae43bd67398fb7eb4d34ea01d
-The reverted commit sha is - 10e970e4efdf69f9cd023b93016514f7668b54f7
+---> The reverted commit sha is - 10e970e4efdf69f9cd023b93016514f7668b54f7
 Commit message - Commit standalone test, test which makes the TestApp blow up and the nasty workaround
-The original commit sha is - f0a9b791be61994ae43bd67398fb7eb4d34ea01d
+---> The original commit sha is - f0a9b791be61994ae43bd67398fb7eb4d34ea01d
 Commit message - broke out and documented action_class method
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestApp/Controller/Moose/NoAttributes.pm
 t/unit_core_methodattributes_method_metaclass_on_subclasses.t
 -----------------------------------------------------------------
@@ -1429,11 +1429,11 @@ Partial Revert diff pair 61 is ->
 { 7b41db700fa469f9bf1f4aae68db378c99e30e95 -> 135e449aa80fa05441190a7fc3445bb549469832 }
 Partial Revert commits SHA are -> 
 e9ba5c119a81f59f8339cd5c749709f5bc56b6d6 - revert - 135e449aa80fa05441190a7fc3445bb549469832
-The reverted commit sha is - e9ba5c119a81f59f8339cd5c749709f5bc56b6d6
+---> The reverted commit sha is - e9ba5c119a81f59f8339cd5c749709f5bc56b6d6
 Commit message - Changelog and dep bump for more_metaclass_compat branch merge
-The original commit sha is - 135e449aa80fa05441190a7fc3445bb549469832
+---> The original commit sha is - 135e449aa80fa05441190a7fc3445bb549469832
 Commit message - Changelog, bump Moose dep
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 Makefile.PL
 -----------------------------------------------------------------
@@ -1443,16 +1443,16 @@ Partial Revert diff pair 62 is ->
 { 01c5eab062ebbebf3ad21decd56e00fa105570a7 -> 7d5f2f479c34e59829582e0c2a1af3223af90ae0 }
 Partial Revert commits SHA are -> 
 01c5eab062ebbebf3ad21decd56e00fa105570a7 - revert - 7d5f2f479c34e59829582e0c2a1af3223af90ae0
-The reverted commit sha is - 01c5eab062ebbebf3ad21decd56e00fa105570a7
+---> The reverted commit sha is - 01c5eab062ebbebf3ad21decd56e00fa105570a7
 Commit message - Better stats API explanation (SpiceMan)
-The original commit sha is - 7d5f2f479c34e59829582e0c2a1af3223af90ae0
+---> The original commit sha is - 7d5f2f479c34e59829582e0c2a1af3223af90ae0
 Commit message - Merge 'trunk' into 'fix_request_uri'
 
 r15535@spaceinvaders (orig r13239):  ribasushi | 2010-05-12 13:48:40 +0200
 Better stats API explanation (SpiceMan)
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine/CGI.pm
 t/aggregate/live_component_controller_args.t
 t/aggregate/unit_core_engine_cgi-prepare_path.t
@@ -1464,9 +1464,9 @@ Partial Revert diff pair 63 is ->
 { e3a7414d1bc32e165376493f1db5ea13967facbf -> 01f1f1a577243ba05c993714559f8a2713376d54 }
 Partial Revert commits SHA are -> 
 62b6b631cf9141ffd9ae02e4b87c182b080b335a - revert - 01f1f1a577243ba05c993714559f8a2713376d54
-The reverted commit sha is - 62b6b631cf9141ffd9ae02e4b87c182b080b335a
+---> The reverted commit sha is - 62b6b631cf9141ffd9ae02e4b87c182b080b335a
 Commit message - Allow parameterized roles to be applied as plugins.
-The original commit sha is - 01f1f1a577243ba05c993714559f8a2713376d54
+---> The original commit sha is - 01f1f1a577243ba05c993714559f8a2713376d54
 Commit message - Merge 'trunk' into 'fix_request_uri'
 
 r15494@tomas-dorans-macbook-pro (orig r13198):  rafl | 2010-05-03 01:51:43 +0100
@@ -1483,7 +1483,7 @@ r15519@tomas-dorans-macbook-pro (orig r13223):  rafl | 2010-05-07 23:06:26 +0100
 Version 5.80023.
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/live_component_controller_args.t
 t/aggregate/unit_core_engine_cgi-prepare_path.t
 t/lib/TestApp.pm
@@ -1494,9 +1494,9 @@ Partial Revert diff pair 64 is ->
 { e3a7414d1bc32e165376493f1db5ea13967facbf -> 01f1f1a577243ba05c993714559f8a2713376d54 }
 Partial Revert commits SHA are -> 
 58541c41f8a186f0ede06ffb2e048639041f7f60 - revert - 01f1f1a577243ba05c993714559f8a2713376d54
-The reverted commit sha is - 58541c41f8a186f0ede06ffb2e048639041f7f60
+---> The reverted commit sha is - 58541c41f8a186f0ede06ffb2e048639041f7f60
 Commit message - Unbreak tests by actually adding the module they're supposed to test.
-The original commit sha is - 01f1f1a577243ba05c993714559f8a2713376d54
+---> The original commit sha is - 01f1f1a577243ba05c993714559f8a2713376d54
 Commit message - Merge 'trunk' into 'fix_request_uri'
 
 r15494@tomas-dorans-macbook-pro (orig r13198):  rafl | 2010-05-03 01:51:43 +0100
@@ -1513,7 +1513,7 @@ r15519@tomas-dorans-macbook-pro (orig r13223):  rafl | 2010-05-07 23:06:26 +0100
 Version 5.80023.
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine/CGI.pm
 t/aggregate/live_component_controller_args.t
 t/aggregate/unit_core_engine_cgi-prepare_path.t
@@ -1525,9 +1525,9 @@ Partial Revert diff pair 65 is ->
 { e3a7414d1bc32e165376493f1db5ea13967facbf -> 01f1f1a577243ba05c993714559f8a2713376d54 }
 Partial Revert commits SHA are -> 
 7a1a325a72e9a197866000cfab091a4f660ce348 - revert - 01f1f1a577243ba05c993714559f8a2713376d54
-The reverted commit sha is - 7a1a325a72e9a197866000cfab091a4f660ce348
+---> The reverted commit sha is - 7a1a325a72e9a197866000cfab091a4f660ce348
 Commit message - Remove useless conditional.
-The original commit sha is - 01f1f1a577243ba05c993714559f8a2713376d54
+---> The original commit sha is - 01f1f1a577243ba05c993714559f8a2713376d54
 Commit message - Merge 'trunk' into 'fix_request_uri'
 
 r15494@tomas-dorans-macbook-pro (orig r13198):  rafl | 2010-05-03 01:51:43 +0100
@@ -1544,7 +1544,7 @@ r15519@tomas-dorans-macbook-pro (orig r13223):  rafl | 2010-05-07 23:06:26 +0100
 Version 5.80023.
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine/CGI.pm
 t/aggregate/live_component_controller_args.t
 t/aggregate/unit_core_engine_cgi-prepare_path.t
@@ -1556,16 +1556,16 @@ Partial Revert diff pair 66 is ->
 { 58541c41f8a186f0ede06ffb2e048639041f7f60 -> b8a0490e86b085c13b2ef727a6be45d075bdb044 }
 Partial Revert commits SHA are -> 
 62b6b631cf9141ffd9ae02e4b87c182b080b335a - revert - b8a0490e86b085c13b2ef727a6be45d075bdb044
-The reverted commit sha is - 62b6b631cf9141ffd9ae02e4b87c182b080b335a
+---> The reverted commit sha is - 62b6b631cf9141ffd9ae02e4b87c182b080b335a
 Commit message - Allow parameterized roles to be applied as plugins.
-The original commit sha is - b8a0490e86b085c13b2ef727a6be45d075bdb044
+---> The original commit sha is - b8a0490e86b085c13b2ef727a6be45d075bdb044
 Commit message - Merge 'trunk' into 'fix_request_uri'
 
 r15492@tomas-dorans-macbook-pro (orig r13196):  rafl | 2010-05-02 23:44:30 +0000
 Unbreak tests by actually adding the module they're supposed to test.
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/live_component_controller_args.t
 t/aggregate/unit_core_engine_cgi-prepare_path.t
 t/lib/TestApp.pm
@@ -1576,16 +1576,16 @@ Partial Revert diff pair 67 is ->
 { 58541c41f8a186f0ede06ffb2e048639041f7f60 -> b8a0490e86b085c13b2ef727a6be45d075bdb044 }
 Partial Revert commits SHA are -> 
 58541c41f8a186f0ede06ffb2e048639041f7f60 - revert - b8a0490e86b085c13b2ef727a6be45d075bdb044
-The reverted commit sha is - 58541c41f8a186f0ede06ffb2e048639041f7f60
+---> The reverted commit sha is - 58541c41f8a186f0ede06ffb2e048639041f7f60
 Commit message - Unbreak tests by actually adding the module they're supposed to test.
-The original commit sha is - b8a0490e86b085c13b2ef727a6be45d075bdb044
+---> The original commit sha is - b8a0490e86b085c13b2ef727a6be45d075bdb044
 Commit message - Merge 'trunk' into 'fix_request_uri'
 
 r15492@tomas-dorans-macbook-pro (orig r13196):  rafl | 2010-05-02 23:44:30 +0000
 Unbreak tests by actually adding the module they're supposed to test.
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine/CGI.pm
 t/aggregate/live_component_controller_args.t
 t/aggregate/unit_core_engine_cgi-prepare_path.t
@@ -1597,9 +1597,9 @@ Partial Revert diff pair 68 is ->
 { 4903b59cd946a9dfd39a95d4e8b921676ea42098 -> d827e95c0b05a17a62d4cb911b70621708c8753e }
 Partial Revert commits SHA are -> 
 62b6b631cf9141ffd9ae02e4b87c182b080b335a - revert - d827e95c0b05a17a62d4cb911b70621708c8753e
-The reverted commit sha is - 62b6b631cf9141ffd9ae02e4b87c182b080b335a
+---> The reverted commit sha is - 62b6b631cf9141ffd9ae02e4b87c182b080b335a
 Commit message - Allow parameterized roles to be applied as plugins.
-The original commit sha is - d827e95c0b05a17a62d4cb911b70621708c8753e
+---> The original commit sha is - d827e95c0b05a17a62d4cb911b70621708c8753e
 Commit message - Merge 'trunk' into 'fix_request_uri'
 
 r13213@tomas-dorans-macbook-pro (orig r13177):  ajgb | 2010-04-21 11:10:51 +0000
@@ -1614,7 +1614,7 @@ r15490@tomas-dorans-macbook-pro (orig r13194):  t0m | 2010-05-02 23:27:43 +0000
 Back out crazy heuristics
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/live_component_controller_args.t
 t/aggregate/unit_core_engine_cgi-prepare_path.t
 t/lib/TestApp.pm
@@ -1625,11 +1625,11 @@ Partial Revert diff pair 69 is ->
 { 62b6b631cf9141ffd9ae02e4b87c182b080b335a -> 4903b59cd946a9dfd39a95d4e8b921676ea42098 }
 Partial Revert commits SHA are -> 
 46b58c90d2cae855b523a375d56f874fd28665d3 - revert - 4903b59cd946a9dfd39a95d4e8b921676ea42098
-The reverted commit sha is - 46b58c90d2cae855b523a375d56f874fd28665d3
+---> The reverted commit sha is - 46b58c90d2cae855b523a375d56f874fd28665d3
 Commit message - Fix dsadinoff's mod_rewrite bug I hope
-The original commit sha is - 4903b59cd946a9dfd39a95d4e8b921676ea42098
+---> The original commit sha is - 4903b59cd946a9dfd39a95d4e8b921676ea42098
 Commit message - Back out crazy heuristics
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine/CGI.pm
 -----------------------------------------------------------------
 
@@ -1638,11 +1638,11 @@ Partial Revert diff pair 70 is ->
 { 3c642151bed1634a426c282c02c934b1962cb1f5 -> 72f6a252862f736bc6b766438722fc7b409d8417 }
 Partial Revert commits SHA are -> 
 76cd735d8ebdc1896bd3d7c95e2bd842baaebb73 - revert - 72f6a252862f736bc6b766438722fc7b409d8417
-The reverted commit sha is - 76cd735d8ebdc1896bd3d7c95e2bd842baaebb73
+---> The reverted commit sha is - 76cd735d8ebdc1896bd3d7c95e2bd842baaebb73
 Commit message - fix Index uri_for_action bug
-The original commit sha is - 72f6a252862f736bc6b766438722fc7b409d8417
+---> The original commit sha is - 72f6a252862f736bc6b766438722fc7b409d8417
 Commit message - Go away useless warning
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/unit_core_uri_for_action.t
 -----------------------------------------------------------------
 
@@ -1651,11 +1651,11 @@ Partial Revert diff pair 71 is ->
 { 3c642151bed1634a426c282c02c934b1962cb1f5 -> 72f6a252862f736bc6b766438722fc7b409d8417 }
 Partial Revert commits SHA are -> 
 13311c16a8aebc88a393baed64f3344e4c9a4229 - revert - 72f6a252862f736bc6b766438722fc7b409d8417
-The reverted commit sha is - 13311c16a8aebc88a393baed64f3344e4c9a4229
+---> The reverted commit sha is - 13311c16a8aebc88a393baed64f3344e4c9a4229
 Commit message - Optimizing component lookup for the simple, common case and falling back on regexps otherwise. Noting the optimization in Changes. Also, adding myself to contributors.
-The original commit sha is - 72f6a252862f736bc6b766438722fc7b409d8417
+---> The original commit sha is - 72f6a252862f736bc6b766438722fc7b409d8417
 Commit message - Go away useless warning
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/unit_core_uri_for_action.t
 -----------------------------------------------------------------
 
@@ -1664,11 +1664,11 @@ Partial Revert diff pair 72 is ->
 { 46b58c90d2cae855b523a375d56f874fd28665d3 -> 78c52f878db144bc0a5f3e3488f6e354c54533e8 }
 Partial Revert commits SHA are -> 
 46b58c90d2cae855b523a375d56f874fd28665d3 - revert - 78c52f878db144bc0a5f3e3488f6e354c54533e8
-The reverted commit sha is - 46b58c90d2cae855b523a375d56f874fd28665d3
+---> The reverted commit sha is - 46b58c90d2cae855b523a375d56f874fd28665d3
 Commit message - Fix dsadinoff's mod_rewrite bug I hope
-The original commit sha is - 78c52f878db144bc0a5f3e3488f6e354c54533e8
+---> The original commit sha is - 78c52f878db144bc0a5f3e3488f6e354c54533e8
 Commit message - Revert unintentional change in r13151
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst.pm
 -----------------------------------------------------------------
 
@@ -1677,11 +1677,11 @@ Partial Revert diff pair 73 is ->
 { 99d30e963fc085fb4461b921cfafadb57086751f -> 0319ec68410b15319cfd3c3270917ee18e9635f3 }
 Partial Revert commits SHA are -> 
 a24a5860184938cc4dd38535aeca06d98bc56fb1 - revert - 0319ec68410b15319cfd3c3270917ee18e9635f3
-The reverted commit sha is - a24a5860184938cc4dd38535aeca06d98bc56fb1
+---> The reverted commit sha is - a24a5860184938cc4dd38535aeca06d98bc56fb1
 Commit message - added dev_server test, poked Catalyst::Script::Create
-The original commit sha is - 0319ec68410b15319cfd3c3270917ee18e9635f3
+---> The original commit sha is - 0319ec68410b15319cfd3c3270917ee18e9635f3
 Commit message - Require new CGI::Simple::Cookie, changelog
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 -----------------------------------------------------------------
 
@@ -1690,12 +1690,12 @@ Partial Revert diff pair 74 is ->
 { 99d30e963fc085fb4461b921cfafadb57086751f -> 0319ec68410b15319cfd3c3270917ee18e9635f3 }
 Partial Revert commits SHA are -> 
 accb06402d3587ada5117e80ca2f9b3722b2f1df - revert - 0319ec68410b15319cfd3c3270917ee18e9635f3
-The reverted commit sha is - accb06402d3587ada5117e80ca2f9b3722b2f1df
+---> The reverted commit sha is - accb06402d3587ada5117e80ca2f9b3722b2f1df
 Commit message - updated testapp_cgi.pl
 updated CGI
-The original commit sha is - 0319ec68410b15319cfd3c3270917ee18e9635f3
+---> The original commit sha is - 0319ec68410b15319cfd3c3270917ee18e9635f3
 Commit message - Require new CGI::Simple::Cookie, changelog
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 -----------------------------------------------------------------
 
@@ -1704,11 +1704,11 @@ Partial Revert diff pair 75 is ->
 { 99d30e963fc085fb4461b921cfafadb57086751f -> 0319ec68410b15319cfd3c3270917ee18e9635f3 }
 Partial Revert commits SHA are -> 
 d24d92d9ed09f3cbd48356058429849e7c66ed73 - revert - 0319ec68410b15319cfd3c3270917ee18e9635f3
-The reverted commit sha is - d24d92d9ed09f3cbd48356058429849e7c66ed73
+---> The reverted commit sha is - d24d92d9ed09f3cbd48356058429849e7c66ed73
 Commit message - updated so that if their class doesn't load, we use ours.
-The original commit sha is - 0319ec68410b15319cfd3c3270917ee18e9635f3
+---> The original commit sha is - 0319ec68410b15319cfd3c3270917ee18e9635f3
 Commit message - Require new CGI::Simple::Cookie, changelog
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 -----------------------------------------------------------------
 
@@ -1717,11 +1717,11 @@ Partial Revert diff pair 76 is ->
 { 3677a4ddb3053561fa232f93fbdf1201b063ba64 -> e7cbe1bf2a4776f14e0d281a441520d6e6b77fc5 }
 Partial Revert commits SHA are -> 
 10f204e1c4a0d7758d726fd8737df066ddebb46c - revert - e7cbe1bf2a4776f14e0d281a441520d6e6b77fc5
-The reverted commit sha is - 10f204e1c4a0d7758d726fd8737df066ddebb46c
+---> The reverted commit sha is - 10f204e1c4a0d7758d726fd8737df066ddebb46c
 Commit message - refactored request/response logging with configurable filters
-The original commit sha is - e7cbe1bf2a4776f14e0d281a441520d6e6b77fc5
+---> The original commit sha is - e7cbe1bf2a4776f14e0d281a441520d6e6b77fc5
 Commit message - remove filtering, get request/response logging from $c->dump_these instead
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/unit_core_debug_filtering.t
 -----------------------------------------------------------------
 
@@ -1730,7 +1730,7 @@ Partial Revert diff pair 77 is ->
 { 3677a4ddb3053561fa232f93fbdf1201b063ba64 -> e7cbe1bf2a4776f14e0d281a441520d6e6b77fc5 }
 Partial Revert commits SHA are -> 
 cc8a4eb9a08483f5fe80f674d19c612acc12a94d - revert - e7cbe1bf2a4776f14e0d281a441520d6e6b77fc5
-The reverted commit sha is - cc8a4eb9a08483f5fe80f674d19c612acc12a94d
+---> The reverted commit sha is - cc8a4eb9a08483f5fe80f674d19c612acc12a94d
 Commit message - Merge 'trunk' into 'param_filtering'
 
 r10824@t0mlaptop (orig r10823):  autarch | 2009-07-07 21:58:31 +0100
@@ -2617,9 +2617,9 @@ r12128@t0mlaptop (orig r12093):  t0m | 2009-12-01 00:54:23 +0000
 Bump deps and changelog for another dev release with new scripts and scary path resolving changes so I can have another call to test.
 
 
-The original commit sha is - e7cbe1bf2a4776f14e0d281a441520d6e6b77fc5
+---> The original commit sha is - e7cbe1bf2a4776f14e0d281a441520d6e6b77fc5
 Commit message - remove filtering, get request/response logging from $c->dump_these instead
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/unit_core_debug_filtering.t
 -----------------------------------------------------------------
 
@@ -2628,7 +2628,7 @@ Partial Revert diff pair 78 is ->
 { 3677a4ddb3053561fa232f93fbdf1201b063ba64 -> e7cbe1bf2a4776f14e0d281a441520d6e6b77fc5 }
 Partial Revert commits SHA are -> 
 3677a4ddb3053561fa232f93fbdf1201b063ba64 - revert - e7cbe1bf2a4776f14e0d281a441520d6e6b77fc5
-The reverted commit sha is - 3677a4ddb3053561fa232f93fbdf1201b063ba64
+---> The reverted commit sha is - 3677a4ddb3053561fa232f93fbdf1201b063ba64
 Commit message - Merge 'trunk' into 'param_filtering'
 
 r12135@t0mlaptop (orig r12100):  t0m | 2009-12-01 02:16:08 +0000
@@ -2830,9 +2830,9 @@ r13014@t0mlaptop (orig r12978):  rafl | 2010-02-23 17:52:30 +0000
 fix doc typo.
 
 
-The original commit sha is - e7cbe1bf2a4776f14e0d281a441520d6e6b77fc5
+---> The original commit sha is - e7cbe1bf2a4776f14e0d281a441520d6e6b77fc5
 Commit message - remove filtering, get request/response logging from $c->dump_these instead
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/unit_core_debug_filtering.t
 -----------------------------------------------------------------
 
@@ -2841,9 +2841,9 @@ Partial Revert diff pair 79 is ->
 { e6c5b5486f448333cb47c4174804c72637b900db -> 3677a4ddb3053561fa232f93fbdf1201b063ba64 }
 Partial Revert commits SHA are -> 
 a134d05c2425e693917a005843552d29c1d327f5 - revert - 3677a4ddb3053561fa232f93fbdf1201b063ba64
-The reverted commit sha is - a134d05c2425e693917a005843552d29c1d327f5
+---> The reverted commit sha is - a134d05c2425e693917a005843552d29c1d327f5
 Commit message - Depend on Module::Pluggable 3.9 to resolve a bug with inner packages in tests.
-The original commit sha is - 3677a4ddb3053561fa232f93fbdf1201b063ba64
+---> The original commit sha is - 3677a4ddb3053561fa232f93fbdf1201b063ba64
 Commit message - Merge 'trunk' into 'param_filtering'
 
 r12135@t0mlaptop (orig r12100):  t0m | 2009-12-01 02:16:08 +0000
@@ -3045,7 +3045,7 @@ r13014@t0mlaptop (orig r12978):  rafl | 2010-02-23 17:52:30 +0000
 fix doc typo.
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/unit_core_debug_filtering.t
 -----------------------------------------------------------------
 
@@ -3054,9 +3054,9 @@ Partial Revert diff pair 80 is ->
 { e6c5b5486f448333cb47c4174804c72637b900db -> 3677a4ddb3053561fa232f93fbdf1201b063ba64 }
 Partial Revert commits SHA are -> 
 ea72fece19fee2a788a7e9cab6076392fdd674a0 - revert - 3677a4ddb3053561fa232f93fbdf1201b063ba64
-The reverted commit sha is - ea72fece19fee2a788a7e9cab6076392fdd674a0
+---> The reverted commit sha is - ea72fece19fee2a788a7e9cab6076392fdd674a0
 Commit message - Fix bug in Catalyst::Engine which could cause it to all go wrong if read returned '0' as per thread on mailing list re 'Wrong Content-Length value' and clarify docs about read and read_chunk methods in Catalyst::Engine
-The original commit sha is - 3677a4ddb3053561fa232f93fbdf1201b063ba64
+---> The original commit sha is - 3677a4ddb3053561fa232f93fbdf1201b063ba64
 Commit message - Merge 'trunk' into 'param_filtering'
 
 r12135@t0mlaptop (orig r12100):  t0m | 2009-12-01 02:16:08 +0000
@@ -3258,7 +3258,7 @@ r13014@t0mlaptop (orig r12978):  rafl | 2010-02-23 17:52:30 +0000
 fix doc typo.
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst.pm
 t/unit_core_debug_filtering.t
 -----------------------------------------------------------------
@@ -3268,9 +3268,9 @@ Partial Revert diff pair 81 is ->
 { 1bebcac61bb8a8decc34b48cf823b5004c32fd9c -> ec0b45423682578553b8b7ed1c87a34ba0fe17f6 }
 Partial Revert commits SHA are -> 
 7388bcae74af60fe1d75dd5f1aea0af3f0605b2a - revert - ec0b45423682578553b8b7ed1c87a34ba0fe17f6
-The reverted commit sha is - 7388bcae74af60fe1d75dd5f1aea0af3f0605b2a
+---> The reverted commit sha is - 7388bcae74af60fe1d75dd5f1aea0af3f0605b2a
 Commit message - Don't screw over people using --detach, <sigh>
-The original commit sha is - ec0b45423682578553b8b7ed1c87a34ba0fe17f6
+---> The original commit sha is - ec0b45423682578553b8b7ed1c87a34ba0fe17f6
 Commit message - Merge 'trunk' into 'uri_for_utf8'
 
 r12570@t0mlaptop (orig r12535):  rafl | 2010-01-06 15:59:41 +0000
@@ -3375,7 +3375,7 @@ r12846@t0mlaptop (orig r12811):  rafl | 2010-02-04 06:18:46 +0000
 Version 5.80020.
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/unit_core_uri_for_multibytechar.t
 -----------------------------------------------------------------
 
@@ -3384,15 +3384,15 @@ Partial Revert diff pair 82 is ->
 { f0bb41afeb618a7abcaa5816b4cb9aa419be5066 -> 83e69a6b03e61e29f918144cff0b0562e2a92ec4 }
 Partial Revert commits SHA are -> 
 d7a8260570036621e91cd9b1bfc5d559ed2efabb - revert - 83e69a6b03e61e29f918144cff0b0562e2a92ec4
-The reverted commit sha is - d7a8260570036621e91cd9b1bfc5d559ed2efabb
+---> The reverted commit sha is - d7a8260570036621e91cd9b1bfc5d559ed2efabb
 Commit message - Improve the documentation about -Home and how Catalyst finds the home path for apps
-The original commit sha is - 83e69a6b03e61e29f918144cff0b0562e2a92ec4
+---> The original commit sha is - 83e69a6b03e61e29f918144cff0b0562e2a92ec4
 Commit message - Merge branch 'expand_modules'
 
 expand_modules:
 Allow models and components to specify the names of any components they generate
 Branching to allow components to specify any modules they may have created
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Component.pm
 t/aggregate/unit_core_component_generating.t
 t/lib/TestApp/Model/Generating.pm
@@ -3403,13 +3403,13 @@ Partial Revert diff pair 83 is ->
 { d7a8260570036621e91cd9b1bfc5d559ed2efabb -> 7905feb37e16936e4acd2e21bf65815109b39620 }
 Partial Revert commits SHA are -> 
 98716d56481b10b9e5f4eb1e5bb15e8a56f48bb7 - revert - 7905feb37e16936e4acd2e21bf65815109b39620
-The reverted commit sha is - 98716d56481b10b9e5f4eb1e5bb15e8a56f48bb7
+---> The reverted commit sha is - 98716d56481b10b9e5f4eb1e5bb15e8a56f48bb7
 Commit message - Depend on a namespace::clean that isn't broken on <= 5.8.8.
-The original commit sha is - 7905feb37e16936e4acd2e21bf65815109b39620
+---> The original commit sha is - 7905feb37e16936e4acd2e21bf65815109b39620
 Commit message - Revert "in what case is a numeric comparison called for? I cannot think of one. Is this the best way to test?"
 
 This reverts commit 279b2f1abb0a8e056b8c905e5a4ecb66537ee194.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/unit_core_component.t
 -----------------------------------------------------------------
 
@@ -3418,7 +3418,7 @@ Partial Revert diff pair 84 is ->
 { d7a8260570036621e91cd9b1bfc5d559ed2efabb -> 7905feb37e16936e4acd2e21bf65815109b39620 }
 Partial Revert commits SHA are -> 
 fe80b10d804f3c2e3508e144c0e4371e2b43f483 - revert - 7905feb37e16936e4acd2e21bf65815109b39620
-The reverted commit sha is - fe80b10d804f3c2e3508e144c0e4371e2b43f483
+---> The reverted commit sha is - fe80b10d804f3c2e3508e144c0e4371e2b43f483
 Commit message - Merge branch 'action_args'
 
 action_args:
@@ -3429,11 +3429,11 @@ added documentation for the configuration option "action_args".
 Allow passing extra args to action constructors using action_args config.
 Add tests for passing extra arguments to action constructors.
 Create branch action_args
-The original commit sha is - 7905feb37e16936e4acd2e21bf65815109b39620
+---> The original commit sha is - 7905feb37e16936e4acd2e21bf65815109b39620
 Commit message - Revert "in what case is a numeric comparison called for? I cannot think of one. Is this the best way to test?"
 
 This reverts commit 279b2f1abb0a8e056b8c905e5a4ecb66537ee194.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/unit_core_component.t
 -----------------------------------------------------------------
 
@@ -3442,13 +3442,13 @@ Partial Revert diff pair 85 is ->
 { d7a8260570036621e91cd9b1bfc5d559ed2efabb -> 7905feb37e16936e4acd2e21bf65815109b39620 }
 Partial Revert commits SHA are -> 
 5d02e7902fb093a28deeea34bd4bd8a729e78be4 - revert - 7905feb37e16936e4acd2e21bf65815109b39620
-The reverted commit sha is - 5d02e7902fb093a28deeea34bd4bd8a729e78be4
+---> The reverted commit sha is - 5d02e7902fb093a28deeea34bd4bd8a729e78be4
 Commit message - Allow models and components to specify the names of any components they generate
-The original commit sha is - 7905feb37e16936e4acd2e21bf65815109b39620
+---> The original commit sha is - 7905feb37e16936e4acd2e21bf65815109b39620
 Commit message - Revert "in what case is a numeric comparison called for? I cannot think of one. Is this the best way to test?"
 
 This reverts commit 279b2f1abb0a8e056b8c905e5a4ecb66537ee194.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/unit_core_component.t
 -----------------------------------------------------------------
 
@@ -3457,11 +3457,11 @@ Partial Revert diff pair 86 is ->
 { 5d02e7902fb093a28deeea34bd4bd8a729e78be4 -> d7a8260570036621e91cd9b1bfc5d559ed2efabb }
 Partial Revert commits SHA are -> 
 5d02e7902fb093a28deeea34bd4bd8a729e78be4 - revert - d7a8260570036621e91cd9b1bfc5d559ed2efabb
-The reverted commit sha is - 5d02e7902fb093a28deeea34bd4bd8a729e78be4
+---> The reverted commit sha is - 5d02e7902fb093a28deeea34bd4bd8a729e78be4
 Commit message - Allow models and components to specify the names of any components they generate
-The original commit sha is - d7a8260570036621e91cd9b1bfc5d559ed2efabb
+---> The original commit sha is - d7a8260570036621e91cd9b1bfc5d559ed2efabb
 Commit message - Improve the documentation about -Home and how Catalyst finds the home path for apps
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/unit_core_component_generating.t
 t/lib/TestApp/Model/Generating.pm
 -----------------------------------------------------------------
@@ -3471,9 +3471,9 @@ Partial Revert diff pair 87 is ->
 { 22a5833d436649391dc95877ca33f549308c6c3c -> d5c1270360c155009fa138b6f0630044304f3c86 }
 Partial Revert commits SHA are -> 
 6db8aa1d6fcd8b008971db965bf8e3190216b77b - revert - d5c1270360c155009fa138b6f0630044304f3c86
-The reverted commit sha is - 6db8aa1d6fcd8b008971db965bf8e3190216b77b
+---> The reverted commit sha is - 6db8aa1d6fcd8b008971db965bf8e3190216b77b
 Commit message - Depend on a ReverseProxy middleware that spits out secure envs for requests forwarded to secure ports.
-The original commit sha is - d5c1270360c155009fa138b6f0630044304f3c86
+---> The original commit sha is - d5c1270360c155009fa138b6f0630044304f3c86
 Commit message - Merge branch 'master' into psgi
 
 master:
@@ -3499,7 +3499,7 @@ Conflicts:
 lib/Catalyst/Engine/CGI.pm
 lib/Catalyst/Engine/HTTP.pm
 t/aggregate/unit_core_script_server.t
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 lib/Catalyst/Runtime.pm
 t/aggregate/deprecated_test_import.t
@@ -3510,9 +3510,9 @@ Partial Revert diff pair 88 is ->
 { 22a5833d436649391dc95877ca33f549308c6c3c -> d5c1270360c155009fa138b6f0630044304f3c86 }
 Partial Revert commits SHA are -> 
 22a5833d436649391dc95877ca33f549308c6c3c - revert - d5c1270360c155009fa138b6f0630044304f3c86
-The reverted commit sha is - 22a5833d436649391dc95877ca33f549308c6c3c
+---> The reverted commit sha is - 22a5833d436649391dc95877ca33f549308c6c3c
 Commit message - Make build_psgi_app public and add MyApp->psgi_app.
-The original commit sha is - d5c1270360c155009fa138b6f0630044304f3c86
+---> The original commit sha is - d5c1270360c155009fa138b6f0630044304f3c86
 Commit message - Merge branch 'master' into psgi
 
 master:
@@ -3538,7 +3538,7 @@ Conflicts:
 lib/Catalyst/Engine/CGI.pm
 lib/Catalyst/Engine/HTTP.pm
 t/aggregate/unit_core_script_server.t
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 lib/Catalyst/Runtime.pm
 t/aggregate/deprecated_test_import.t
@@ -3549,11 +3549,11 @@ Partial Revert diff pair 89 is ->
 { c9ec25f80489f039512982f9e02527d537412f6e -> d87ef823aab719b5e2cdd08f24e4db84c6cabf1b }
 Partial Revert commits SHA are -> 
 c9ec25f80489f039512982f9e02527d537412f6e - revert - d87ef823aab719b5e2cdd08f24e4db84c6cabf1b
-The reverted commit sha is - c9ec25f80489f039512982f9e02527d537412f6e
+---> The reverted commit sha is - c9ec25f80489f039512982f9e02527d537412f6e
 Commit message - Apply patch to clarify uri_for action from Octavian Rasnita on list
-The original commit sha is - d87ef823aab719b5e2cdd08f24e4db84c6cabf1b
+---> The original commit sha is - d87ef823aab719b5e2cdd08f24e4db84c6cabf1b
 Commit message - Inline the OverrideEnv middleware into Catalyst::Test.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 Makefile.PL
 lib/Catalyst.pm
@@ -3579,11 +3579,11 @@ Partial Revert diff pair 90 is ->
 { bedfa17f708442bb57308bf992ffcb857a6b22a8 -> 72361561e9030f97a21269a0f4eaf97c109b045c }
 Partial Revert commits SHA are -> 
 e6e2ba11f62eb261728729c01c77b73add5d8467 - revert - 72361561e9030f97a21269a0f4eaf97c109b045c
-The reverted commit sha is - e6e2ba11f62eb261728729c01c77b73add5d8467
+---> The reverted commit sha is - e6e2ba11f62eb261728729c01c77b73add5d8467
 Commit message - Bump version of ::Role::WithOverloading
-The original commit sha is - 72361561e9030f97a21269a0f4eaf97c109b045c
+---> The original commit sha is - 72361561e9030f97a21269a0f4eaf97c109b045c
 Commit message - Require Plack..
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 lib/Catalyst.pm
 lib/Catalyst/Engine.pm
@@ -3603,11 +3603,11 @@ Partial Revert diff pair 91 is ->
 { 0ab4f753f6ceb070d2e27ab35c46cd4a89b1f108 -> 30079544087f5626ed47bafcc25a3211ad8745c4 }
 Partial Revert commits SHA are -> 
 1beae7ed73fa0e91a39ab4b1b8b181aee4039535 - revert - 30079544087f5626ed47bafcc25a3211ad8745c4
-The reverted commit sha is - 1beae7ed73fa0e91a39ab4b1b8b181aee4039535
+---> The reverted commit sha is - 1beae7ed73fa0e91a39ab4b1b8b181aee4039535
 Commit message - Fix warnings from ScriptRunner
-The original commit sha is - 30079544087f5626ed47bafcc25a3211ad8745c4
+---> The original commit sha is - 30079544087f5626ed47bafcc25a3211ad8745c4
 Commit message - Pod nits, rt#52370
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 -----------------------------------------------------------------
 
@@ -3616,9 +3616,9 @@ Partial Revert diff pair 92 is ->
 { ef546d1e28aa0fe685c4ddf41572e56c8d384101 -> cc8a4eb9a08483f5fe80f674d19c612acc12a94d }
 Partial Revert commits SHA are -> 
 a134d05c2425e693917a005843552d29c1d327f5 - revert - cc8a4eb9a08483f5fe80f674d19c612acc12a94d
-The reverted commit sha is - a134d05c2425e693917a005843552d29c1d327f5
+---> The reverted commit sha is - a134d05c2425e693917a005843552d29c1d327f5
 Commit message - Depend on Module::Pluggable 3.9 to resolve a bug with inner packages in tests.
-The original commit sha is - cc8a4eb9a08483f5fe80f674d19c612acc12a94d
+---> The original commit sha is - cc8a4eb9a08483f5fe80f674d19c612acc12a94d
 Commit message - Merge 'trunk' into 'param_filtering'
 
 r10824@t0mlaptop (orig r10823):  autarch | 2009-07-07 21:58:31 +0100
@@ -4505,7 +4505,7 @@ r12128@t0mlaptop (orig r12093):  t0m | 2009-12-01 00:54:23 +0000
 Bump deps and changelog for another dev release with new scripts and scary path resolving changes so I can have another call to test.
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/unit_core_debug_filtering.t
 -----------------------------------------------------------------
 
@@ -4514,11 +4514,11 @@ Partial Revert diff pair 93 is ->
 { bf32c83f1c0b4ff4f69472d88c2c6995f31485f0 -> 6cc3be547afa371706f958f6c2a50b34ba09de07 }
 Partial Revert commits SHA are -> 
 bf32c83f1c0b4ff4f69472d88c2c6995f31485f0 - revert - 6cc3be547afa371706f958f6c2a50b34ba09de07
-The reverted commit sha is - bf32c83f1c0b4ff4f69472d88c2c6995f31485f0
+---> The reverted commit sha is - bf32c83f1c0b4ff4f69472d88c2c6995f31485f0
 Commit message - Require new M::I
-The original commit sha is - 6cc3be547afa371706f958f6c2a50b34ba09de07
+---> The original commit sha is - 6cc3be547afa371706f958f6c2a50b34ba09de07
 Commit message - Require new HTTP::Request::AsCGI
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine/CGI.pm
 lib/Catalyst/Engine/FastCGI.pm
 t/aggregate/live_engine_request_escaped_path.t
@@ -4529,16 +4529,16 @@ Partial Revert diff pair 94 is ->
 { ec9984c8fe0961937d77ee8369e041dd1737feec -> 255f7ab3eb8d3840ff7115519ab4311f85e2eed7 }
 Partial Revert commits SHA are -> 
 ec9984c8fe0961937d77ee8369e041dd1737feec - revert - 255f7ab3eb8d3840ff7115519ab4311f85e2eed7
-The reverted commit sha is - ec9984c8fe0961937d77ee8369e041dd1737feec
+---> The reverted commit sha is - ec9984c8fe0961937d77ee8369e041dd1737feec
 Commit message - Depend on a recent leakchecker to stop everything from crapping over itself if PadWalker is too old.
-The original commit sha is - 255f7ab3eb8d3840ff7115519ab4311f85e2eed7
+---> The original commit sha is - 255f7ab3eb8d3840ff7115519ab4311f85e2eed7
 Commit message - Merge 'trunk' into 'better_scripts'
 
 r13204@nc10 (orig r12073):  rafl | 2009-11-29 16:43:17 +0000
 Depend on a recent leakchecker to stop everything from crapping over itself if PadWalker is too old.
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst.pm
 lib/Catalyst/ROADMAP.pod
 lib/Catalyst/Script/CGI.pm
@@ -4571,9 +4571,9 @@ Partial Revert diff pair 95 is ->
 { ad8b4c91d55aed722e199001632029005eeca60d -> 725e2d52e47ef15c883fd80ccfd54a57aed4e846 }
 Partial Revert commits SHA are -> 
 f264b24aa346faa7193464cc626e3d9b953fcb18 - revert - 725e2d52e47ef15c883fd80ccfd54a57aed4e846
-The reverted commit sha is - f264b24aa346faa7193464cc626e3d9b953fcb18
+---> The reverted commit sha is - f264b24aa346faa7193464cc626e3d9b953fcb18
 Commit message - Adding the files you need for the tests you've committed helps them pass, idiot :)
-The original commit sha is - 725e2d52e47ef15c883fd80ccfd54a57aed4e846
+---> The original commit sha is - 725e2d52e47ef15c883fd80ccfd54a57aed4e846
 Commit message - Merge 'trunk' into 'better_scripts'
 
 r13191@nc10 (orig r12060):  gshank | 2009-11-27 22:43:11 +0000
@@ -4581,7 +4581,7 @@ testcase for Chained bug - dispatches to wrong action
 
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/live_component_controller_action_chained.t
 t/lib/TestApp/Controller/Action/Chained/CaptureArgs.pm
 -----------------------------------------------------------------
@@ -4591,11 +4591,11 @@ Partial Revert diff pair 96 is ->
 { 71e2948890d839ada6c067c73148b89e8a43af6c -> 1bc7640030267b021814c167a011acd2454119f3 }
 Partial Revert commits SHA are -> 
 f264b24aa346faa7193464cc626e3d9b953fcb18 - revert - 1bc7640030267b021814c167a011acd2454119f3
-The reverted commit sha is - f264b24aa346faa7193464cc626e3d9b953fcb18
+---> The reverted commit sha is - f264b24aa346faa7193464cc626e3d9b953fcb18
 Commit message - Adding the files you need for the tests you've committed helps them pass, idiot :)
-The original commit sha is - 1bc7640030267b021814c167a011acd2454119f3
+---> The original commit sha is - 1bc7640030267b021814c167a011acd2454119f3
 Commit message - This is not a release.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Runtime.pm
 -----------------------------------------------------------------
 
@@ -4604,9 +4604,9 @@ Partial Revert diff pair 97 is ->
 { ab95b8e30f63584e5854e4240da1f4bc29a5f803 -> 4cb211411c158181d7506fd45d94017bd81c7b73 }
 Partial Revert commits SHA are -> 
 ab95b8e30f63584e5854e4240da1f4bc29a5f803 - revert - 4cb211411c158181d7506fd45d94017bd81c7b73
-The reverted commit sha is - ab95b8e30f63584e5854e4240da1f4bc29a5f803
+---> The reverted commit sha is - ab95b8e30f63584e5854e4240da1f4bc29a5f803
 Commit message - Fix test on bleadperl RT#52100
-The original commit sha is - 4cb211411c158181d7506fd45d94017bd81c7b73
+---> The original commit sha is - 4cb211411c158181d7506fd45d94017bd81c7b73
 Commit message - Merge 'trunk' into 'better_scripts'
 
 r12057@t0mlaptop (orig r12022):  t0m | 2009-11-26 01:21:22 +0000
@@ -4615,7 +4615,7 @@ r12070@t0mlaptop (orig r12035):  t0m | 2009-11-26 21:29:32 +0000
 Fix test on bleadperl RT#52100
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Makefile.PL
 lib/Catalyst.pm
 lib/Catalyst/ROADMAP.pod
@@ -4646,9 +4646,9 @@ Partial Revert diff pair 98 is ->
 { be5fd858fdd2f1776bd389e89fdb65788a651a3a -> 337a4d170a56e1a1c0a795797bb9c2b2fa3bf087 }
 Partial Revert commits SHA are -> 
 ee24f3a811ffe5b55e2645cfcb060b0fc4800cfb - revert - 337a4d170a56e1a1c0a795797bb9c2b2fa3bf087
-The reverted commit sha is - ee24f3a811ffe5b55e2645cfcb060b0fc4800cfb
+---> The reverted commit sha is - ee24f3a811ffe5b55e2645cfcb060b0fc4800cfb
 Commit message - Trivial Pod fixes
-The original commit sha is - 337a4d170a56e1a1c0a795797bb9c2b2fa3bf087
+---> The original commit sha is - 337a4d170a56e1a1c0a795797bb9c2b2fa3bf087
 Commit message - Merge 'trunk' into 'better_scripts'
 
 r12035@t0mlaptop (orig r12000):  t0m | 2009-11-24 09:50:07 +0000
@@ -4657,7 +4657,7 @@ r12055@t0mlaptop (orig r12020):  t0m | 2009-11-26 01:07:08 +0000
 Remove test spraff
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Makefile.PL
 lib/Catalyst.pm
 lib/Catalyst/ROADMAP.pod
@@ -4677,9 +4677,9 @@ Partial Revert diff pair 99 is ->
 { be5fd858fdd2f1776bd389e89fdb65788a651a3a -> 337a4d170a56e1a1c0a795797bb9c2b2fa3bf087 }
 Partial Revert commits SHA are -> 
 be5fd858fdd2f1776bd389e89fdb65788a651a3a - revert - 337a4d170a56e1a1c0a795797bb9c2b2fa3bf087
-The reverted commit sha is - be5fd858fdd2f1776bd389e89fdb65788a651a3a
+---> The reverted commit sha is - be5fd858fdd2f1776bd389e89fdb65788a651a3a
 Commit message - Remove test spraff
-The original commit sha is - 337a4d170a56e1a1c0a795797bb9c2b2fa3bf087
+---> The original commit sha is - 337a4d170a56e1a1c0a795797bb9c2b2fa3bf087
 Commit message - Merge 'trunk' into 'better_scripts'
 
 r12035@t0mlaptop (orig r12000):  t0m | 2009-11-24 09:50:07 +0000
@@ -4688,7 +4688,7 @@ r12055@t0mlaptop (orig r12020):  t0m | 2009-11-26 01:07:08 +0000
 Remove test spraff
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Makefile.PL
 lib/Catalyst.pm
 lib/Catalyst/ROADMAP.pod
@@ -4718,11 +4718,11 @@ Partial Revert diff pair 100 is ->
 { ee24f3a811ffe5b55e2645cfcb060b0fc4800cfb -> 1beae7ed73fa0e91a39ab4b1b8b181aee4039535 }
 Partial Revert commits SHA are -> 
 ee24f3a811ffe5b55e2645cfcb060b0fc4800cfb - revert - 1beae7ed73fa0e91a39ab4b1b8b181aee4039535
-The reverted commit sha is - ee24f3a811ffe5b55e2645cfcb060b0fc4800cfb
+---> The reverted commit sha is - ee24f3a811ffe5b55e2645cfcb060b0fc4800cfb
 Commit message - Trivial Pod fixes
-The original commit sha is - 1beae7ed73fa0e91a39ab4b1b8b181aee4039535
+---> The original commit sha is - 1beae7ed73fa0e91a39ab4b1b8b181aee4039535
 Commit message - Fix warnings from ScriptRunner
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 Makefile.PL
 lib/Catalyst.pm
@@ -4752,11 +4752,11 @@ Partial Revert diff pair 101 is ->
 { 69db240eb72e649e5bad28e9e1cc7656c3fcf9e8 -> 49fe75ffc9bab4595f2644c192b120f1506b7035 }
 Partial Revert commits SHA are -> 
 a62b43cd084495c7d73cd666e51d70598f63f540 - revert - 49fe75ffc9bab4595f2644c192b120f1506b7035
-The reverted commit sha is - a62b43cd084495c7d73cd666e51d70598f63f540
+---> The reverted commit sha is - a62b43cd084495c7d73cd666e51d70598f63f540
 Commit message - Fix a doc typo.
 
 Also trim some trailing whitespace.
-The original commit sha is - 49fe75ffc9bab4595f2644c192b120f1506b7035
+---> The original commit sha is - 49fe75ffc9bab4595f2644c192b120f1506b7035
 Commit message - Merge 'trunk' into 'better_scripts'
 
 r11978@t0mlaptop (orig r11943):  rafl | 2009-11-20 06:22:44 +0000
@@ -4813,7 +4813,7 @@ r12021@t0mlaptop (orig r11986):  t0m | 2009-11-23 22:57:40 +0000
 Have a new conflict statement
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Makefile.PL
 TODO.scripts
 lib/Catalyst.pm
@@ -4843,16 +4843,16 @@ Partial Revert diff pair 102 is ->
 { 7d7519a4bbd079da53bf50f4822cabb0e3af74a1 -> bb3504780353c63757b5d30ea81e649f32833e7e }
 Partial Revert commits SHA are -> 
 29d32d06b8f8f139486d51d8d751d68eb5bb888f - revert - bb3504780353c63757b5d30ea81e649f32833e7e
-The reverted commit sha is - 29d32d06b8f8f139486d51d8d751d68eb5bb888f
+---> The reverted commit sha is - 29d32d06b8f8f139486d51d8d751d68eb5bb888f
 Commit message - Remove what is now lies from Changes. Bump all the deps which need to be bumped to not crap warnings everywhere
-The original commit sha is - bb3504780353c63757b5d30ea81e649f32833e7e
+---> The original commit sha is - bb3504780353c63757b5d30ea81e649f32833e7e
 Commit message - Merge branch 'exception_interface'
 
 exception_interface:
 Use MooseX::Role::WithOverloading.
 Add Exception::Interface and Exception::Basic. Make ::Base, ::Go and ::Detach use them.
 Create branch exception_interface
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Exception.pm
 lib/Catalyst/Exception/Basic.pm
 lib/Catalyst/Exception/Detach.pm
@@ -4866,11 +4866,11 @@ Partial Revert diff pair 103 is ->
 { 3c9a702f521c1635602320cf62f056d362a45c2d -> 582cd214c503e4df1a6ad58e5bccb1c0ac2852a1 }
 Partial Revert commits SHA are -> 
 3c9a702f521c1635602320cf62f056d362a45c2d - revert - 582cd214c503e4df1a6ad58e5bccb1c0ac2852a1
-The reverted commit sha is - 3c9a702f521c1635602320cf62f056d362a45c2d
+---> The reverted commit sha is - 3c9a702f521c1635602320cf62f056d362a45c2d
 Commit message - Needed for authors to run optional http test
-The original commit sha is - 582cd214c503e4df1a6ad58e5bccb1c0ac2852a1
+---> The original commit sha is - 582cd214c503e4df1a6ad58e5bccb1c0ac2852a1
 Commit message - Need newer LWP for tests to pass as suggested on list by Jose Luis Martinez
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst.pm
 lib/Catalyst/Request.pm
 lib/Catalyst/Upgrading.pod
@@ -4884,11 +4884,11 @@ Partial Revert diff pair 104 is ->
 { 40db8b6a6ff1e7edaa0cf09588882e4db88ea4ee -> 69e76a394e4fe34eccadd665a278a633280639c8 }
 Partial Revert commits SHA are -> 
 371c6f1a20aa6e41a85958eaab9fc4faacf9ceab - revert - 69e76a394e4fe34eccadd665a278a633280639c8
-The reverted commit sha is - 371c6f1a20aa6e41a85958eaab9fc4faacf9ceab
+---> The reverted commit sha is - 371c6f1a20aa6e41a85958eaab9fc4faacf9ceab
 Commit message - Deleted the old Restarter and associated code.
 
 Also removed the dep on File::Modified
-The original commit sha is - 69e76a394e4fe34eccadd665a278a633280639c8
+---> The original commit sha is - 69e76a394e4fe34eccadd665a278a633280639c8
 Commit message - Merge branch 'master' into exception_interface
 
 master: (112 commits)
@@ -4913,7 +4913,7 @@ Changes tweaks
 Bump versions back to 5.8.4
 Changelog
 ...
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Exception.pm
 lib/Catalyst/Exception/Basic.pm
 lib/Catalyst/Exception/Detach.pm
@@ -4926,11 +4926,11 @@ Partial Revert diff pair 105 is ->
 { 0da2dc3044ed62182fd3cf515b26c852edaa11b4 -> be38a59bd128d369353ef13972251bc379afae57 }
 Partial Revert commits SHA are -> 
 c77865585f68f34422f7a6eacf2fa901531f05d9 - revert - be38a59bd128d369353ef13972251bc379afae57
-The reverted commit sha is - c77865585f68f34422f7a6eacf2fa901531f05d9
+---> The reverted commit sha is - c77865585f68f34422f7a6eacf2fa901531f05d9
 Commit message - Fix hash key name back to what it used to be for compat, keeping renamed accessor where it was. Tests for this breakage to follow
-The original commit sha is - be38a59bd128d369353ef13972251bc379afae57
+---> The original commit sha is - be38a59bd128d369353ef13972251bc379afae57
 Commit message - I'm an idiot, that totally doesn't work. remove.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Controller.pm
 -----------------------------------------------------------------
 
@@ -4939,11 +4939,11 @@ Partial Revert diff pair 106 is ->
 { 76391998dd567625c9199fb4d51d9180572827a6 -> f3ece744e2b4089999e37edb3a30ef82699d9325 }
 Partial Revert commits SHA are -> 
 1efc6c6b51bccdfb5574b79abfa6904d2c6869d7 - revert - f3ece744e2b4089999e37edb3a30ef82699d9325
-The reverted commit sha is - 1efc6c6b51bccdfb5574b79abfa6904d2c6869d7
+---> The reverted commit sha is - 1efc6c6b51bccdfb5574b79abfa6904d2c6869d7
 Commit message - added Deploy prototype
-The original commit sha is - f3ece744e2b4089999e37edb3a30ef82699d9325
+---> The original commit sha is - f3ece744e2b4089999e37edb3a30ef82699d9325
 Commit message - Remove DBIC deploy script, this should not be in core runtime
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Script/Deploy.pm
 -----------------------------------------------------------------
 
@@ -4952,11 +4952,11 @@ Partial Revert diff pair 107 is ->
 { 76391998dd567625c9199fb4d51d9180572827a6 -> f3ece744e2b4089999e37edb3a30ef82699d9325 }
 Partial Revert commits SHA are -> 
 8a289b5f348fedc6761768e8c91b34b5ca05afeb - revert - f3ece744e2b4089999e37edb3a30ef82699d9325
-The reverted commit sha is - 8a289b5f348fedc6761768e8c91b34b5ca05afeb
+---> The reverted commit sha is - 8a289b5f348fedc6761768e8c91b34b5ca05afeb
 Commit message - untarded and added documentation
-The original commit sha is - f3ece744e2b4089999e37edb3a30ef82699d9325
+---> The original commit sha is - f3ece744e2b4089999e37edb3a30ef82699d9325
 Commit message - Remove DBIC deploy script, this should not be in core runtime
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Script/Deploy.pm
 -----------------------------------------------------------------
 
@@ -4965,11 +4965,11 @@ Partial Revert diff pair 108 is ->
 { 76391998dd567625c9199fb4d51d9180572827a6 -> f3ece744e2b4089999e37edb3a30ef82699d9325 }
 Partial Revert commits SHA are -> 
 410d96eb61df4f4c5beecb9bf7a6757e7e19ce24 - revert - f3ece744e2b4089999e37edb3a30ef82699d9325
-The reverted commit sha is - 410d96eb61df4f4c5beecb9bf7a6757e7e19ce24
+---> The reverted commit sha is - 410d96eb61df4f4c5beecb9bf7a6757e7e19ce24
 Commit message - removed MooseX::Command::* stuff for now
-The original commit sha is - f3ece744e2b4089999e37edb3a30ef82699d9325
+---> The original commit sha is - f3ece744e2b4089999e37edb3a30ef82699d9325
 Commit message - Remove DBIC deploy script, this should not be in core runtime
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Script/Deploy.pm
 -----------------------------------------------------------------
 
@@ -4978,11 +4978,11 @@ Partial Revert diff pair 109 is ->
 { 76391998dd567625c9199fb4d51d9180572827a6 -> f3ece744e2b4089999e37edb3a30ef82699d9325 }
 Partial Revert commits SHA are -> 
 9fb12b36f35749a1f5ef603562f1a3aee70db5f0 - revert - f3ece744e2b4089999e37edb3a30ef82699d9325
-The reverted commit sha is - 9fb12b36f35749a1f5ef603562f1a3aee70db5f0
+---> The reverted commit sha is - 9fb12b36f35749a1f5ef603562f1a3aee70db5f0
 Commit message - had this stuff in the wrong branch, blech
-The original commit sha is - f3ece744e2b4089999e37edb3a30ef82699d9325
+---> The original commit sha is - f3ece744e2b4089999e37edb3a30ef82699d9325
 Commit message - Remove DBIC deploy script, this should not be in core runtime
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Script/Deploy.pm
 -----------------------------------------------------------------
 
@@ -4991,11 +4991,11 @@ Partial Revert diff pair 110 is ->
 { 76391998dd567625c9199fb4d51d9180572827a6 -> f3ece744e2b4089999e37edb3a30ef82699d9325 }
 Partial Revert commits SHA are -> 
 573a513538078c7107d79878bd03512d0d292704 - revert - f3ece744e2b4089999e37edb3a30ef82699d9325
-The reverted commit sha is - 573a513538078c7107d79878bd03512d0d292704
+---> The reverted commit sha is - 573a513538078c7107d79878bd03512d0d292704
 Commit message - Remove non-working tests
-The original commit sha is - f3ece744e2b4089999e37edb3a30ef82699d9325
+---> The original commit sha is - f3ece744e2b4089999e37edb3a30ef82699d9325
 Commit message - Remove DBIC deploy script, this should not be in core runtime
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Script/Deploy.pm
 -----------------------------------------------------------------
 
@@ -5004,14 +5004,14 @@ Partial Revert diff pair 111 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 cc999ce24cf699811485469692101bd6ad1ab27d - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - cc999ce24cf699811485469692101bd6ad1ab27d
+---> The reverted commit sha is - cc999ce24cf699811485469692101bd6ad1ab27d
 Commit message - added a test application to get the new scripts working
 created Catalyst::ScriptRunner, Catalyst::Script::*
 got Catalyst::Script::FastCGI running
 wrote a test for Catalyst::Script::FastCGI, but it fails for some reason
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5028,11 +5028,11 @@ Partial Revert diff pair 112 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 a24a5860184938cc4dd38535aeca06d98bc56fb1 - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - a24a5860184938cc4dd38535aeca06d98bc56fb1
+---> The reverted commit sha is - a24a5860184938cc4dd38535aeca06d98bc56fb1
 Commit message - added dev_server test, poked Catalyst::Script::Create
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5049,12 +5049,12 @@ Partial Revert diff pair 113 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 accb06402d3587ada5117e80ca2f9b3722b2f1df - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - accb06402d3587ada5117e80ca2f9b3722b2f1df
+---> The reverted commit sha is - accb06402d3587ada5117e80ca2f9b3722b2f1df
 Commit message - updated testapp_cgi.pl
 updated CGI
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5072,11 +5072,11 @@ Partial Revert diff pair 114 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 3fcc9f353cd9e9d05b82649cbd1d8fd9554c38a8 - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - 3fcc9f353cd9e9d05b82649cbd1d8fd9554c38a8
+---> The reverted commit sha is - 3fcc9f353cd9e9d05b82649cbd1d8fd9554c38a8
 Commit message - updated Makefil.PL
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5095,11 +5095,11 @@ Partial Revert diff pair 115 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 d24d92d9ed09f3cbd48356058429849e7c66ed73 - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - d24d92d9ed09f3cbd48356058429849e7c66ed73
+---> The reverted commit sha is - d24d92d9ed09f3cbd48356058429849e7c66ed73
 Commit message - updated so that if their class doesn't load, we use ours.
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5118,11 +5118,11 @@ Partial Revert diff pair 116 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 382433a4f3f0ba084bd67f49834b7f4be754a849 - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - 382433a4f3f0ba084bd67f49834b7f4be754a849
+---> The reverted commit sha is - 382433a4f3f0ba084bd67f49834b7f4be754a849
 Commit message - added name to contributors list
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5141,11 +5141,11 @@ Partial Revert diff pair 117 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 53b08cf9ba9f77af1619f4a7672bf8add6ee1dd5 - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - 53b08cf9ba9f77af1619f4a7672bf8add6ee1dd5
+---> The reverted commit sha is - 53b08cf9ba9f77af1619f4a7672bf8add6ee1dd5
 Commit message - fixed Server
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5164,11 +5164,11 @@ Partial Revert diff pair 118 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 e46bf32c7f30afde5b9c4a1bc874454b861cc4df - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - e46bf32c7f30afde5b9c4a1bc874454b861cc4df
+---> The reverted commit sha is - e46bf32c7f30afde5b9c4a1bc874454b861cc4df
 Commit message - help option now has a short option
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5187,11 +5187,11 @@ Partial Revert diff pair 119 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 5980417626228b7526dc3f56a8678f052f7e051f - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - 5980417626228b7526dc3f56a8678f052f7e051f
+---> The reverted commit sha is - 5980417626228b7526dc3f56a8678f052f7e051f
 Commit message - removed except meta stuff since we're using autoclean
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5211,11 +5211,11 @@ Partial Revert diff pair 120 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 57dc50b07c8e492f4eb4a0e946b38725fbdb5eb8 - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - 57dc50b07c8e492f4eb4a0e946b38725fbdb5eb8
+---> The reverted commit sha is - 57dc50b07c8e492f4eb4a0e946b38725fbdb5eb8
 Commit message - Strip trailing spaces
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5236,11 +5236,11 @@ Partial Revert diff pair 121 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 2824ec8ddc74ffe46554fa224fed19cf459c7d35 - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - 2824ec8ddc74ffe46554fa224fed19cf459c7d35
+---> The reverted commit sha is - 2824ec8ddc74ffe46554fa224fed19cf459c7d35
 Commit message - Too slow
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5261,11 +5261,11 @@ Partial Revert diff pair 122 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 d10145401a3bd87700c13e71b0f791b473951b2c - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - d10145401a3bd87700c13e71b0f791b473951b2c
+---> The reverted commit sha is - d10145401a3bd87700c13e71b0f791b473951b2c
 Commit message - -d and --debug work for me
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5287,11 +5287,11 @@ Partial Revert diff pair 123 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 1efc6c6b51bccdfb5574b79abfa6904d2c6869d7 - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - 1efc6c6b51bccdfb5574b79abfa6904d2c6869d7
+---> The reverted commit sha is - 1efc6c6b51bccdfb5574b79abfa6904d2c6869d7
 Commit message - added Deploy prototype
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5313,11 +5313,11 @@ Partial Revert diff pair 124 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 8a289b5f348fedc6761768e8c91b34b5ca05afeb - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - 8a289b5f348fedc6761768e8c91b34b5ca05afeb
+---> The reverted commit sha is - 8a289b5f348fedc6761768e8c91b34b5ca05afeb
 Commit message - untarded and added documentation
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5339,11 +5339,11 @@ Partial Revert diff pair 125 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 410d96eb61df4f4c5beecb9bf7a6757e7e19ce24 - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - 410d96eb61df4f4c5beecb9bf7a6757e7e19ce24
+---> The reverted commit sha is - 410d96eb61df4f4c5beecb9bf7a6757e7e19ce24
 Commit message - removed MooseX::Command::* stuff for now
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5365,11 +5365,11 @@ Partial Revert diff pair 126 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 9fb12b36f35749a1f5ef603562f1a3aee70db5f0 - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - 9fb12b36f35749a1f5ef603562f1a3aee70db5f0
+---> The reverted commit sha is - 9fb12b36f35749a1f5ef603562f1a3aee70db5f0
 Commit message - had this stuff in the wrong branch, blech
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5391,11 +5391,11 @@ Partial Revert diff pair 127 is ->
 { 573a513538078c7107d79878bd03512d0d292704 -> 76391998dd567625c9199fb4d51d9180572827a6 }
 Partial Revert commits SHA are -> 
 573a513538078c7107d79878bd03512d0d292704 - revert - 76391998dd567625c9199fb4d51d9180572827a6
-The reverted commit sha is - 573a513538078c7107d79878bd03512d0d292704
+---> The reverted commit sha is - 573a513538078c7107d79878bd03512d0d292704
 Commit message - Remove non-working tests
-The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
+---> The original commit sha is - 76391998dd567625c9199fb4d51d9180572827a6
 Commit message - Remove unused TestApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/TestApp/Changes
 t/TestApp/Makefile.PL
 t/TestApp/README
@@ -5417,11 +5417,11 @@ Partial Revert diff pair 128 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 44f879d3cd1c4a2152a0d95ee4ead9ed4814a55d - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - 44f879d3cd1c4a2152a0d95ee4ead9ed4814a55d
+---> The reverted commit sha is - 44f879d3cd1c4a2152a0d95ee4ead9ed4814a55d
 Commit message - Update TODO after latest round of repos smoke tests
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5430,11 +5430,11 @@ Partial Revert diff pair 129 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 04a48104b87288a52abbaee32bfd7396925fb5d9 - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - 04a48104b87288a52abbaee32bfd7396925fb5d9
+---> The reverted commit sha is - 04a48104b87288a52abbaee32bfd7396925fb5d9
 Commit message - added doc bit about anon subrefs in the symbol table
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5443,11 +5443,11 @@ Partial Revert diff pair 130 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 6f8be3183027447424338ee740035c25b1d1a3aa - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - 6f8be3183027447424338ee740035c25b1d1a3aa
+---> The reverted commit sha is - 6f8be3183027447424338ee740035c25b1d1a3aa
 Commit message - Fix test failure
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5456,14 +5456,14 @@ Partial Revert diff pair 131 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 5570595e7b39de90818336cfd2b35885531044d6 - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - 5570595e7b39de90818336cfd2b35885531044d6
+---> The reverted commit sha is - 5570595e7b39de90818336cfd2b35885531044d6
 Commit message - Merge up from 5.70 trunk:
 r9021 | andyg | 2009-01-06 19:42:41 +0000 (Tue, 06 Jan 2009) | 1 line
 
 Handle leading CRLF in HTTP requests sometimes sent by IE6 in keep-alive requests
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5472,11 +5472,11 @@ Partial Revert diff pair 132 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 d74245931ad3cae714ae65dbdbc39dcabe2099cd - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - d74245931ad3cae714ae65dbdbc39dcabe2099cd
+---> The reverted commit sha is - d74245931ad3cae714ae65dbdbc39dcabe2099cd
 Commit message - Remove a workaround for C3 warnings that are now fixed in Class::C3 itself.
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5485,11 +5485,11 @@ Partial Revert diff pair 133 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 23c63a175ede6c6e335987707a6358f47549bdbc - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - 23c63a175ede6c6e335987707a6358f47549bdbc
+---> The reverted commit sha is - 23c63a175ede6c6e335987707a6358f47549bdbc
 Commit message - Apply doc patch from dhoss
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5498,11 +5498,11 @@ Partial Revert diff pair 134 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 33455c7efee402cf37036546c14625a3df20a0fd - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - 33455c7efee402cf37036546c14625a3df20a0fd
+---> The reverted commit sha is - 33455c7efee402cf37036546c14625a3df20a0fd
 Commit message - documentation improvement
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5511,11 +5511,11 @@ Partial Revert diff pair 135 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 2b83c9959cc2e0cb0b945ff6cf407194cd9128c3 - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - 2b83c9959cc2e0cb0b945ff6cf407194cd9128c3
+---> The reverted commit sha is - 2b83c9959cc2e0cb0b945ff6cf407194cd9128c3
 Commit message - Remove uneccesary code i accidentially copied from another test.
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5524,11 +5524,11 @@ Partial Revert diff pair 136 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 ae29b412955743885e80350085167b54b69672da - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - ae29b412955743885e80350085167b54b69672da
+---> The reverted commit sha is - ae29b412955743885e80350085167b54b69672da
 Commit message - Create branch register_actions.
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5537,11 +5537,11 @@ Partial Revert diff pair 137 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 bcc773b9c774feaa79ca29e9b6d5fb52178a5363 - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - bcc773b9c774feaa79ca29e9b6d5fb52178a5363
+---> The reverted commit sha is - bcc773b9c774feaa79ca29e9b6d5fb52178a5363
 Commit message - And cover the rest of Upgrading.pod
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5550,13 +5550,13 @@ Partial Revert diff pair 138 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 626053191a3ba8c5f4ac8bd831009e962842c469 - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - 626053191a3ba8c5f4ac8bd831009e962842c469
+---> The reverted commit sha is - 626053191a3ba8c5f4ac8bd831009e962842c469
 Commit message - Add failing test for passing arguments to visited chained actions.
 
 Courtesy of Radoslaw Zielinski.
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5565,11 +5565,11 @@ Partial Revert diff pair 139 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 61a6f6b337bb994b017948ccf40af28b83fc514b - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - 61a6f6b337bb994b017948ccf40af28b83fc514b
+---> The reverted commit sha is - 61a6f6b337bb994b017948ccf40af28b83fc514b
 Commit message - Update TODO
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5578,11 +5578,11 @@ Partial Revert diff pair 140 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 269194b4f9de3905430a2d1f21f68da13b2b9ed9 - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - 269194b4f9de3905430a2d1f21f68da13b2b9ed9
+---> The reverted commit sha is - 269194b4f9de3905430a2d1f21f68da13b2b9ed9
 Commit message - Port kanes r9520 up to 5.80 trunk
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5591,11 +5591,11 @@ Partial Revert diff pair 141 is ->
 { 843871cfbe3ee5c1a29239b9eb79009c3aefe622 -> 79f7ee9672bbb14e900ada192aa567d542e37052 }
 Partial Revert commits SHA are -> 
 7033c56c02869e4c4950f4861c7ae3cf118b42c1 - revert - 79f7ee9672bbb14e900ada192aa567d542e37052
-The reverted commit sha is - 7033c56c02869e4c4950f4861c7ae3cf118b42c1
+---> The reverted commit sha is - 7033c56c02869e4c4950f4861c7ae3cf118b42c1
 Commit message - Merge up ashs r9505 from 5.70
-The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
+---> The original commit sha is - 79f7ee9672bbb14e900ada192aa567d542e37052
 Commit message - Nuke skipped test which will never pass
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/cdi_backcompat_plugin_accessor_override.t
 -----------------------------------------------------------------
 
@@ -5604,11 +5604,11 @@ Partial Revert diff pair 142 is ->
 { f1abcb4a7a3374b2e400b33b9cf5c0c6a5d49734 -> 2cc36f4415a78401dfceb07020fee718c439b993 }
 Partial Revert commits SHA are -> 
 f1abcb4a7a3374b2e400b33b9cf5c0c6a5d49734 - revert - 2cc36f4415a78401dfceb07020fee718c439b993
-The reverted commit sha is - f1abcb4a7a3374b2e400b33b9cf5c0c6a5d49734
+---> The reverted commit sha is - f1abcb4a7a3374b2e400b33b9cf5c0c6a5d49734
 Commit message - Move test to make more sense in my idea of the naming scheme - t/dead_ is for tests which check the app pukes, which this shouldn't
-The original commit sha is - 2cc36f4415a78401dfceb07020fee718c439b993
+---> The original commit sha is - 2cc36f4415a78401dfceb07020fee718c439b993
 Commit message - Fail commit was fail. Back out the part I didn't want
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestAppStats.pm
 t/lib/TestAppStats/Controller/Root.pm
 -----------------------------------------------------------------
@@ -5618,13 +5618,13 @@ Partial Revert diff pair 143 is ->
 { 829b22f766b0b1d1a09a6ce152abe48ad9bde5ec -> d2598ac82e8508f4d6da90ec60a1ed60840c2016 }
 Partial Revert commits SHA are -> 
 829b22f766b0b1d1a09a6ce152abe48ad9bde5ec - revert - d2598ac82e8508f4d6da90ec60a1ed60840c2016
-The reverted commit sha is - 829b22f766b0b1d1a09a6ce152abe48ad9bde5ec
+---> The reverted commit sha is - 829b22f766b0b1d1a09a6ce152abe48ad9bde5ec
 Commit message - Merge branch pass_component_names:
 
 svn merge -r  10899:10927  http://dev.catalyst.perl.org/repos/Catalyst/Catalyst-Runtime/5.80/branches/pass_component_names
-The original commit sha is - d2598ac82e8508f4d6da90ec60a1ed60840c2016
+---> The original commit sha is - d2598ac82e8508f4d6da90ec60a1ed60840c2016
 Commit message - Aww, crap, fail. merge 10927:HEAD from pass_component_names
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Component.pm
 lib/Catalyst/Controller.pm
 -----------------------------------------------------------------
@@ -5634,13 +5634,13 @@ Partial Revert diff pair 144 is ->
 { 88fbc3be375826767516ba3a8e65f50cf768e52f -> 829b22f766b0b1d1a09a6ce152abe48ad9bde5ec }
 Partial Revert commits SHA are -> 
 88fbc3be375826767516ba3a8e65f50cf768e52f - revert - 829b22f766b0b1d1a09a6ce152abe48ad9bde5ec
-The reverted commit sha is - 88fbc3be375826767516ba3a8e65f50cf768e52f
+---> The reverted commit sha is - 88fbc3be375826767516ba3a8e65f50cf768e52f
 Commit message - Clean up branch. I'm happy with this (bar the eww, as commented) and intend to merge pre 0008, please review
-The original commit sha is - 829b22f766b0b1d1a09a6ce152abe48ad9bde5ec
+---> The original commit sha is - 829b22f766b0b1d1a09a6ce152abe48ad9bde5ec
 Commit message - Merge branch pass_component_names:
 
 svn merge -r  10899:10927  http://dev.catalyst.perl.org/repos/Catalyst/Catalyst-Runtime/5.80/branches/pass_component_names
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 Changes
 TODO
 lib/Catalyst/Engine/FastCGI.pm
@@ -5655,11 +5655,11 @@ Partial Revert diff pair 145 is ->
 { edcc548380c4e180327fb8f89919d69e11a589e8 -> b98574b2c8672db41be5b9a8e76de95a15dc284c }
 Partial Revert commits SHA are -> 
 edcc548380c4e180327fb8f89919d69e11a589e8 - revert - b98574b2c8672db41be5b9a8e76de95a15dc284c
-The reverted commit sha is - edcc548380c4e180327fb8f89919d69e11a589e8
+---> The reverted commit sha is - edcc548380c4e180327fb8f89919d69e11a589e8
 Commit message - created proof of working app
-The original commit sha is - b98574b2c8672db41be5b9a8e76de95a15dc284c
+---> The original commit sha is - b98574b2c8672db41be5b9a8e76de95a15dc284c
 Commit message - removed proof of working tests
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/Test/Changes
 t/Test/Makefile.PL
 t/Test/README
@@ -5687,11 +5687,11 @@ Partial Revert diff pair 146 is ->
 { c057ae860545285e5812b5ba86ea992e203be773 -> 0d94342b981573e7d6443ba711c162cd797a345b }
 Partial Revert commits SHA are -> 
 4556c26ffaed4e01208c6ba8d636b033ecf90389 - revert - 0d94342b981573e7d6443ba711c162cd797a345b
-The reverted commit sha is - 4556c26ffaed4e01208c6ba8d636b033ecf90389
+---> The reverted commit sha is - 4556c26ffaed4e01208c6ba8d636b033ecf90389
 Commit message - Metaclass compatibility fail. This needs to be reduced to a test for Moose..
-The original commit sha is - 0d94342b981573e7d6443ba711c162cd797a345b
+---> The original commit sha is - 0d94342b981573e7d6443ba711c162cd797a345b
 Commit message - Make the test not use FormBuilder. Test in register_actions now fails due to new moose, but this is ok.. Tested it fails if ClassData calls ->Class::MOP::Class::meta which was the bug I fixed. Remove unused action..
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestAppMetaCompat/Action/UsesCAF.pm
 -----------------------------------------------------------------
 
@@ -5700,11 +5700,11 @@ Partial Revert diff pair 147 is ->
 { c057ae860545285e5812b5ba86ea992e203be773 -> 0d94342b981573e7d6443ba711c162cd797a345b }
 Partial Revert commits SHA are -> 
 a3b809d386860bf44ead451f94f3ca3411edd8fa - revert - 0d94342b981573e7d6443ba711c162cd797a345b
-The reverted commit sha is - a3b809d386860bf44ead451f94f3ca3411edd8fa
+---> The reverted commit sha is - a3b809d386860bf44ead451f94f3ca3411edd8fa
 Commit message - Bump MX::MethodAttributes::Inheritable dep
-The original commit sha is - 0d94342b981573e7d6443ba711c162cd797a345b
+---> The original commit sha is - 0d94342b981573e7d6443ba711c162cd797a345b
 Commit message - Make the test not use FormBuilder. Test in register_actions now fails due to new moose, but this is ok.. Tested it fails if ClassData calls ->Class::MOP::Class::meta which was the bug I fixed. Remove unused action..
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestAppMetaCompat/Action/UsesCAF.pm
 -----------------------------------------------------------------
 
@@ -5713,11 +5713,11 @@ Partial Revert diff pair 148 is ->
 { c057ae860545285e5812b5ba86ea992e203be773 -> 0d94342b981573e7d6443ba711c162cd797a345b }
 Partial Revert commits SHA are -> 
 9ab7d83d1c7106860b01e3c17c334a2794d9bd0a - revert - 0d94342b981573e7d6443ba711c162cd797a345b
-The reverted commit sha is - 9ab7d83d1c7106860b01e3c17c334a2794d9bd0a
+---> The reverted commit sha is - 9ab7d83d1c7106860b01e3c17c334a2794d9bd0a
 Commit message - split out methods to show rafl what I mean
-The original commit sha is - 0d94342b981573e7d6443ba711c162cd797a345b
+---> The original commit sha is - 0d94342b981573e7d6443ba711c162cd797a345b
 Commit message - Make the test not use FormBuilder. Test in register_actions now fails due to new moose, but this is ok.. Tested it fails if ClassData calls ->Class::MOP::Class::meta which was the bug I fixed. Remove unused action..
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestAppMetaCompat/Action/UsesCAF.pm
 -----------------------------------------------------------------
 
@@ -5726,7 +5726,7 @@ Partial Revert diff pair 149 is ->
 { c057ae860545285e5812b5ba86ea992e203be773 -> 0d94342b981573e7d6443ba711c162cd797a345b }
 Partial Revert commits SHA are -> 
 bafb7fb41dd4cbc70fc18a173841cebf850f5b35 - revert - 0d94342b981573e7d6443ba711c162cd797a345b
-The reverted commit sha is - bafb7fb41dd4cbc70fc18a173841cebf850f5b35
+---> The reverted commit sha is - bafb7fb41dd4cbc70fc18a173841cebf850f5b35
 Commit message - Merge branch 'register_actions'
 
 register_actions:
@@ -5751,9 +5751,9 @@ Create branch register_actions.
 Conflicts:
 Changes
 Makefile.PL
-The original commit sha is - 0d94342b981573e7d6443ba711c162cd797a345b
+---> The original commit sha is - 0d94342b981573e7d6443ba711c162cd797a345b
 Commit message - Make the test not use FormBuilder. Test in register_actions now fails due to new moose, but this is ok.. Tested it fails if ClassData calls ->Class::MOP::Class::meta which was the bug I fixed. Remove unused action..
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestAppMetaCompat/Action/UsesCAF.pm
 -----------------------------------------------------------------
 
@@ -5762,11 +5762,11 @@ Partial Revert diff pair 150 is ->
 { e7924bb5e2a5c7ccbaefb74dc3aebc9f41407a3d -> bb52b364e4dde1504e8a3c4db4bedf19d39b8027 }
 Partial Revert commits SHA are -> 
 a3b809d386860bf44ead451f94f3ca3411edd8fa - revert - bb52b364e4dde1504e8a3c4db4bedf19d39b8027
-The reverted commit sha is - a3b809d386860bf44ead451f94f3ca3411edd8fa
+---> The reverted commit sha is - a3b809d386860bf44ead451f94f3ca3411edd8fa
 Commit message - Bump MX::MethodAttributes::Inheritable dep
-The original commit sha is - bb52b364e4dde1504e8a3c4db4bedf19d39b8027
+---> The original commit sha is - bb52b364e4dde1504e8a3c4db4bedf19d39b8027
 Commit message - Remove TODO, still breaks CX::Imports, but don't care..
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 TODO.register_actions
 -----------------------------------------------------------------
 
@@ -5775,11 +5775,11 @@ Partial Revert diff pair 151 is ->
 { e7924bb5e2a5c7ccbaefb74dc3aebc9f41407a3d -> bb52b364e4dde1504e8a3c4db4bedf19d39b8027 }
 Partial Revert commits SHA are -> 
 9ab7d83d1c7106860b01e3c17c334a2794d9bd0a - revert - bb52b364e4dde1504e8a3c4db4bedf19d39b8027
-The reverted commit sha is - 9ab7d83d1c7106860b01e3c17c334a2794d9bd0a
+---> The reverted commit sha is - 9ab7d83d1c7106860b01e3c17c334a2794d9bd0a
 Commit message - split out methods to show rafl what I mean
-The original commit sha is - bb52b364e4dde1504e8a3c4db4bedf19d39b8027
+---> The original commit sha is - bb52b364e4dde1504e8a3c4db4bedf19d39b8027
 Commit message - Remove TODO, still breaks CX::Imports, but don't care..
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 TODO.register_actions
 -----------------------------------------------------------------
 
@@ -5788,7 +5788,7 @@ Partial Revert diff pair 152 is ->
 { e7924bb5e2a5c7ccbaefb74dc3aebc9f41407a3d -> bb52b364e4dde1504e8a3c4db4bedf19d39b8027 }
 Partial Revert commits SHA are -> 
 bafb7fb41dd4cbc70fc18a173841cebf850f5b35 - revert - bb52b364e4dde1504e8a3c4db4bedf19d39b8027
-The reverted commit sha is - bafb7fb41dd4cbc70fc18a173841cebf850f5b35
+---> The reverted commit sha is - bafb7fb41dd4cbc70fc18a173841cebf850f5b35
 Commit message - Merge branch 'register_actions'
 
 register_actions:
@@ -5813,9 +5813,9 @@ Create branch register_actions.
 Conflicts:
 Changes
 Makefile.PL
-The original commit sha is - bb52b364e4dde1504e8a3c4db4bedf19d39b8027
+---> The original commit sha is - bb52b364e4dde1504e8a3c4db4bedf19d39b8027
 Commit message - Remove TODO, still breaks CX::Imports, but don't care..
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 TODO.register_actions
 -----------------------------------------------------------------
 
@@ -5824,9 +5824,9 @@ Partial Revert diff pair 153 is ->
 { 0a0c74aae1b56a3d4c60c92bfbeeb6cc649418fc -> bafb7fb41dd4cbc70fc18a173841cebf850f5b35 }
 Partial Revert commits SHA are -> 
 68dae239deb07247c9ace71eab5a7a993b50a617 - revert - bafb7fb41dd4cbc70fc18a173841cebf850f5b35
-The reverted commit sha is - 68dae239deb07247c9ace71eab5a7a993b50a617
+---> The reverted commit sha is - 68dae239deb07247c9ace71eab5a7a993b50a617
 Commit message - remove trailing whitespace
-The original commit sha is - bafb7fb41dd4cbc70fc18a173841cebf850f5b35
+---> The original commit sha is - bafb7fb41dd4cbc70fc18a173841cebf850f5b35
 Commit message - Merge branch 'register_actions'
 
 register_actions:
@@ -5851,7 +5851,7 @@ Create branch register_actions.
 Conflicts:
 Changes
 Makefile.PL
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 TODO.register_actions
 lib/Catalyst/AttrContainer.pm
 t/lib/TestAppMetaCompat.pm
@@ -5866,9 +5866,9 @@ Partial Revert diff pair 154 is ->
 { 0a0c74aae1b56a3d4c60c92bfbeeb6cc649418fc -> bafb7fb41dd4cbc70fc18a173841cebf850f5b35 }
 Partial Revert commits SHA are -> 
 0a0c74aae1b56a3d4c60c92bfbeeb6cc649418fc - revert - bafb7fb41dd4cbc70fc18a173841cebf850f5b35
-The reverted commit sha is - 0a0c74aae1b56a3d4c60c92bfbeeb6cc649418fc
+---> The reverted commit sha is - 0a0c74aae1b56a3d4c60c92bfbeeb6cc649418fc
 Commit message - Depend on latest MX::E::CAF to work with new Moose versions.
-The original commit sha is - bafb7fb41dd4cbc70fc18a173841cebf850f5b35
+---> The original commit sha is - bafb7fb41dd4cbc70fc18a173841cebf850f5b35
 Commit message - Merge branch 'register_actions'
 
 register_actions:
@@ -5893,7 +5893,7 @@ Create branch register_actions.
 Conflicts:
 Changes
 Makefile.PL
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 TODO.register_actions
 lib/Catalyst/AttrContainer.pm
 lib/Catalyst/Controller.pm
@@ -5909,11 +5909,11 @@ Partial Revert diff pair 155 is ->
 { 68dae239deb07247c9ace71eab5a7a993b50a617 -> 7dd4473626477af7c48bbe7ed126dc99ae1ac3dd }
 Partial Revert commits SHA are -> 
 a3b809d386860bf44ead451f94f3ca3411edd8fa - revert - 7dd4473626477af7c48bbe7ed126dc99ae1ac3dd
-The reverted commit sha is - a3b809d386860bf44ead451f94f3ca3411edd8fa
+---> The reverted commit sha is - a3b809d386860bf44ead451f94f3ca3411edd8fa
 Commit message - Bump MX::MethodAttributes::Inheritable dep
-The original commit sha is - 7dd4473626477af7c48bbe7ed126dc99ae1ac3dd
+---> The original commit sha is - 7dd4473626477af7c48bbe7ed126dc99ae1ac3dd
 Commit message - Merge branch 'uri_for_action'
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 MANIFEST.SKIP
 -----------------------------------------------------------------
 
@@ -5922,11 +5922,11 @@ Partial Revert diff pair 156 is ->
 { 7033c56c02869e4c4950f4861c7ae3cf118b42c1 -> 7ffc9d9d18843e5acb36e05bab693b9a35631f00 }
 Partial Revert commits SHA are -> 
 269194b4f9de3905430a2d1f21f68da13b2b9ed9 - revert - 7ffc9d9d18843e5acb36e05bab693b9a35631f00
-The reverted commit sha is - 269194b4f9de3905430a2d1f21f68da13b2b9ed9
+---> The reverted commit sha is - 269194b4f9de3905430a2d1f21f68da13b2b9ed9
 Commit message - Port kanes r9520 up to 5.80 trunk
-The original commit sha is - 7ffc9d9d18843e5acb36e05bab693b9a35631f00
+---> The original commit sha is - 7ffc9d9d18843e5acb36e05bab693b9a35631f00
 Commit message - Add the test from r9505, move the new method out of the POD where patch put it, and change to use _dispatch_types to suppress warning
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/unit_core_action_chained.t
 -----------------------------------------------------------------
 
@@ -5935,11 +5935,11 @@ Partial Revert diff pair 157 is ->
 { 7033c56c02869e4c4950f4861c7ae3cf118b42c1 -> 7ffc9d9d18843e5acb36e05bab693b9a35631f00 }
 Partial Revert commits SHA are -> 
 7033c56c02869e4c4950f4861c7ae3cf118b42c1 - revert - 7ffc9d9d18843e5acb36e05bab693b9a35631f00
-The reverted commit sha is - 7033c56c02869e4c4950f4861c7ae3cf118b42c1
+---> The reverted commit sha is - 7033c56c02869e4c4950f4861c7ae3cf118b42c1
 Commit message - Merge up ashs r9505 from 5.70
-The original commit sha is - 7ffc9d9d18843e5acb36e05bab693b9a35631f00
+---> The original commit sha is - 7ffc9d9d18843e5acb36e05bab693b9a35631f00
 Commit message - Add the test from r9505, move the new method out of the POD where patch put it, and change to use _dispatch_types to suppress warning
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/unit_core_action_chained.t
 -----------------------------------------------------------------
 
@@ -5948,11 +5948,11 @@ Partial Revert diff pair 158 is ->
 { f04fdedae056296d0fa97fbdcaa85b9811ca6a5b -> 63b6bc2ae4f28f60fb0a9f3f731a1f3f24cf18e2 }
 Partial Revert commits SHA are -> 
 f04fdedae056296d0fa97fbdcaa85b9811ca6a5b - revert - 63b6bc2ae4f28f60fb0a9f3f731a1f3f24cf18e2
-The reverted commit sha is - f04fdedae056296d0fa97fbdcaa85b9811ca6a5b
+---> The reverted commit sha is - f04fdedae056296d0fa97fbdcaa85b9811ca6a5b
 Commit message - Make Moose components collaberate with non-Moose Catalyst
-The original commit sha is - 63b6bc2ae4f28f60fb0a9f3f731a1f3f24cf18e2
+---> The original commit sha is - 63b6bc2ae4f28f60fb0a9f3f731a1f3f24cf18e2
 Commit message - Backport failing test into 5.70 trunk
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestApp/Controller/Action/Visit.pm
 -----------------------------------------------------------------
 
@@ -5961,11 +5961,11 @@ Partial Revert diff pair 159 is ->
 { a127b1987f6a2a69e0128fd51b7e989e7438c313 -> f2572e6343dd360c954925bce0c01c03f0adf365 }
 Partial Revert commits SHA are -> 
 a127b1987f6a2a69e0128fd51b7e989e7438c313 - revert - f2572e6343dd360c954925bce0c01c03f0adf365
-The reverted commit sha is - a127b1987f6a2a69e0128fd51b7e989e7438c313
+---> The reverted commit sha is - a127b1987f6a2a69e0128fd51b7e989e7438c313
 Commit message - From #catalyst-dev before
-The original commit sha is - f2572e6343dd360c954925bce0c01c03f0adf365
+---> The original commit sha is - f2572e6343dd360c954925bce0c01c03f0adf365
 Commit message - FAILCAKE, I only meant to TODO
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/aggregate/live_component_controller_action_inheritance.t
 t/lib/TestApp/Controller/Action/Inheritance.pm
 t/lib/TestApp/ControllerBase/Middle.pm
@@ -5979,11 +5979,11 @@ Partial Revert diff pair 160 is ->
 { c102399cd3f36939b1b865246c6814ee0bea975b -> 8e4b5fe784b9ee5c07cb35e53007a612c46a00c5 }
 Partial Revert commits SHA are -> 
 2b83c9959cc2e0cb0b945ff6cf407194cd9128c3 - revert - 8e4b5fe784b9ee5c07cb35e53007a612c46a00c5
-The reverted commit sha is - 2b83c9959cc2e0cb0b945ff6cf407194cd9128c3
+---> The reverted commit sha is - 2b83c9959cc2e0cb0b945ff6cf407194cd9128c3
 Commit message - Remove uneccesary code i accidentially copied from another test.
-The original commit sha is - 8e4b5fe784b9ee5c07cb35e53007a612c46a00c5
+---> The original commit sha is - 8e4b5fe784b9ee5c07cb35e53007a612c46a00c5
 Commit message - Actually, remove this as I have covered it all. We later need to be able to warn about versions of things which are disrecommended, rather than being in total conflict, but thats trivial..
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 IDEAS
 -----------------------------------------------------------------
 
@@ -5992,11 +5992,11 @@ Partial Revert diff pair 161 is ->
 { c102399cd3f36939b1b865246c6814ee0bea975b -> 8e4b5fe784b9ee5c07cb35e53007a612c46a00c5 }
 Partial Revert commits SHA are -> 
 ae29b412955743885e80350085167b54b69672da - revert - 8e4b5fe784b9ee5c07cb35e53007a612c46a00c5
-The reverted commit sha is - ae29b412955743885e80350085167b54b69672da
+---> The reverted commit sha is - ae29b412955743885e80350085167b54b69672da
 Commit message - Create branch register_actions.
-The original commit sha is - 8e4b5fe784b9ee5c07cb35e53007a612c46a00c5
+---> The original commit sha is - 8e4b5fe784b9ee5c07cb35e53007a612c46a00c5
 Commit message - Actually, remove this as I have covered it all. We later need to be able to warn about versions of things which are disrecommended, rather than being in total conflict, but thats trivial..
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 IDEAS
 -----------------------------------------------------------------
 
@@ -6005,11 +6005,11 @@ Partial Revert diff pair 162 is ->
 { c102399cd3f36939b1b865246c6814ee0bea975b -> 8e4b5fe784b9ee5c07cb35e53007a612c46a00c5 }
 Partial Revert commits SHA are -> 
 bcc773b9c774feaa79ca29e9b6d5fb52178a5363 - revert - 8e4b5fe784b9ee5c07cb35e53007a612c46a00c5
-The reverted commit sha is - bcc773b9c774feaa79ca29e9b6d5fb52178a5363
+---> The reverted commit sha is - bcc773b9c774feaa79ca29e9b6d5fb52178a5363
 Commit message - And cover the rest of Upgrading.pod
-The original commit sha is - 8e4b5fe784b9ee5c07cb35e53007a612c46a00c5
+---> The original commit sha is - 8e4b5fe784b9ee5c07cb35e53007a612c46a00c5
 Commit message - Actually, remove this as I have covered it all. We later need to be able to warn about versions of things which are disrecommended, rather than being in total conflict, but thats trivial..
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 IDEAS
 -----------------------------------------------------------------
 
@@ -6018,11 +6018,11 @@ Partial Revert diff pair 163 is ->
 { 6f8be3183027447424338ee740035c25b1d1a3aa -> c46dd4e827ae611b4e5047d236507a4470bf43a5 }
 Partial Revert commits SHA are -> 
 04a48104b87288a52abbaee32bfd7396925fb5d9 - revert - c46dd4e827ae611b4e5047d236507a4470bf43a5
-The reverted commit sha is - 04a48104b87288a52abbaee32bfd7396925fb5d9
+---> The reverted commit sha is - 04a48104b87288a52abbaee32bfd7396925fb5d9
 Commit message - added doc bit about anon subrefs in the symbol table
-The original commit sha is - c46dd4e827ae611b4e5047d236507a4470bf43a5
+---> The original commit sha is - c46dd4e827ae611b4e5047d236507a4470bf43a5
 Commit message - IIS 6.0 FastCGI env patch from janus
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/unit_core_engine_fixenv-iis6.t
 t/unit_core_engine_fixenv-lighttpd.t
 -----------------------------------------------------------------
@@ -6032,11 +6032,11 @@ Partial Revert diff pair 164 is ->
 { 6f8be3183027447424338ee740035c25b1d1a3aa -> c46dd4e827ae611b4e5047d236507a4470bf43a5 }
 Partial Revert commits SHA are -> 
 6f8be3183027447424338ee740035c25b1d1a3aa - revert - c46dd4e827ae611b4e5047d236507a4470bf43a5
-The reverted commit sha is - 6f8be3183027447424338ee740035c25b1d1a3aa
+---> The reverted commit sha is - 6f8be3183027447424338ee740035c25b1d1a3aa
 Commit message - Fix test failure
-The original commit sha is - c46dd4e827ae611b4e5047d236507a4470bf43a5
+---> The original commit sha is - c46dd4e827ae611b4e5047d236507a4470bf43a5
 Commit message - IIS 6.0 FastCGI env patch from janus
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/unit_core_engine_fixenv-iis6.t
 t/unit_core_engine_fixenv-lighttpd.t
 -----------------------------------------------------------------
@@ -6046,11 +6046,11 @@ Partial Revert diff pair 165 is ->
 { 5687c7f983df10f5402d274a5e4d828415a227c3 -> 57bf5a34ada2c150521492f92435e5490afe67a9 }
 Partial Revert commits SHA are -> 
 5687c7f983df10f5402d274a5e4d828415a227c3 - revert - 57bf5a34ada2c150521492f92435e5490afe67a9
-The reverted commit sha is - 5687c7f983df10f5402d274a5e4d828415a227c3
+---> The reverted commit sha is - 5687c7f983df10f5402d274a5e4d828415a227c3
 Commit message - Finish a first pass of all the text in Catalyst/Upgrading.pod. Add Plugin::Cache back to the TODO
-The original commit sha is - 57bf5a34ada2c150521492f92435e5490afe67a9
+---> The original commit sha is - 57bf5a34ada2c150521492f92435e5490afe67a9
 Commit message - That was fixed by removing Adopt::NEXT. Still.
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 TODO
 -----------------------------------------------------------------
 
@@ -6059,11 +6059,11 @@ Partial Revert diff pair 166 is ->
 { dd3ae38d77520ecf67839041097590a5afc669ed -> 8c25d85b1c79a9671c0e81e65c5ff5c112e8399f }
 Partial Revert commits SHA are -> 
 451553f5656ce322f5509f6ab5de853106656917 - revert - 8c25d85b1c79a9671c0e81e65c5ff5c112e8399f
-The reverted commit sha is - 451553f5656ce322f5509f6ab5de853106656917
+---> The reverted commit sha is - 451553f5656ce322f5509f6ab5de853106656917
 Commit message - Backport several fixes from 5.8 needed to get remote tests passing again on 5.7
-The original commit sha is - 8c25d85b1c79a9671c0e81e65c5ff5c112e8399f
+---> The original commit sha is - 8c25d85b1c79a9671c0e81e65c5ff5c112e8399f
 Commit message - Memleak test needs to use resident size
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/optional_memleak.t
 -----------------------------------------------------------------
 
@@ -6072,11 +6072,11 @@ Partial Revert diff pair 167 is ->
 { 420453e3f2bd4f6420e98221d12407b6020f5129 -> edb20ed3aaf578b6784f7e0a52ed8c00f05f2718 }
 Partial Revert commits SHA are -> 
 0e15512313990a146ffdbae11647ff5c0554fd66 - revert - edb20ed3aaf578b6784f7e0a52ed8c00f05f2718
-The reverted commit sha is - 0e15512313990a146ffdbae11647ff5c0554fd66
+---> The reverted commit sha is - 0e15512313990a146ffdbae11647ff5c0554fd66
 Commit message - Change what we stream to make test sync for engines easier
-The original commit sha is - edb20ed3aaf578b6784f7e0a52ed8c00f05f2718
+---> The original commit sha is - edb20ed3aaf578b6784f7e0a52ed8c00f05f2718
 Commit message - plugin new method test as-per various other plugins tests - shows issue with Hooks::EndOfScope, so switch to Scope::Upper on msts suggestion
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestAppPluginWithNewMethod.pm
 -----------------------------------------------------------------
 
@@ -6085,11 +6085,11 @@ Partial Revert diff pair 168 is ->
 { 01ce70757e2be0d27df667a7b0e898b0d91476ec -> eb7d1369a13ed9a451972f256d1ded95966753aa }
 Partial Revert commits SHA are -> 
 01ce70757e2be0d27df667a7b0e898b0d91476ec - revert - eb7d1369a13ed9a451972f256d1ded95966753aa
-The reverted commit sha is - 01ce70757e2be0d27df667a7b0e898b0d91476ec
+---> The reverted commit sha is - 01ce70757e2be0d27df667a7b0e898b0d91476ec
 Commit message - Fix stringification of dispatcher and engine in debug output
-The original commit sha is - eb7d1369a13ed9a451972f256d1ded95966753aa
+---> The original commit sha is - eb7d1369a13ed9a451972f256d1ded95966753aa
 Commit message - Balls, that wasn't meant to be committed
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/plugin_new_method_backcompat.t
 -----------------------------------------------------------------
 
@@ -6098,11 +6098,11 @@ Partial Revert diff pair 169 is ->
 { 3fc0073c71b2590168ab0503100b475cb201a524 -> 8abaac85ce28cc1e3fa5d8f56c7b1f71213ac5b3 }
 Partial Revert commits SHA are -> 
 42da66a91b0a87ebb81d8552bcd0b05d3557c83e - revert - 8abaac85ce28cc1e3fa5d8f56c7b1f71213ac5b3
-The reverted commit sha is - 42da66a91b0a87ebb81d8552bcd0b05d3557c83e
+---> The reverted commit sha is - 42da66a91b0a87ebb81d8552bcd0b05d3557c83e
 Commit message - Move aggregatable tests using TestApp to t/aggregate.
-The original commit sha is - 8abaac85ce28cc1e3fa5d8f56c7b1f71213ac5b3
+---> The original commit sha is - 8abaac85ce28cc1e3fa5d8f56c7b1f71213ac5b3
 Commit message - Fix ACCEPT_CONTEXT on MyApp
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst.pm
 -----------------------------------------------------------------
 
@@ -6111,12 +6111,12 @@ Partial Revert diff pair 170 is ->
 { 55424863eb3c285a31f47e0acedab864ccb1f335 -> b7ded0bd3c5af4971584ee2196d1137fc0b58c77 }
 Partial Revert commits SHA are -> 
 55424863eb3c285a31f47e0acedab864ccb1f335 - revert - b7ded0bd3c5af4971584ee2196d1137fc0b58c77
-The reverted commit sha is - 55424863eb3c285a31f47e0acedab864ccb1f335
+---> The reverted commit sha is - 55424863eb3c285a31f47e0acedab864ccb1f335
 Commit message - fixup merge from GO removal in 5.70 trunk
-The original commit sha is - b7ded0bd3c5af4971584ee2196d1137fc0b58c77
+---> The original commit sha is - b7ded0bd3c5af4971584ee2196d1137fc0b58c77
 Commit message - Workaround change in LWP that broke a cookie test (RT #40037)
 r24853@agaton (orig r8533):  andyg | 2008-10-15 20:23:04 +0100
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/lib/TestApp/Controller/Engine/Response/Cookies.pm
 -----------------------------------------------------------------
 
@@ -6125,9 +6125,9 @@ Partial Revert diff pair 171 is ->
 { 8e9cc26fe8e0cdd2c91b11c2cf251cce33852729 -> 686a890ee17264e0595954f450e625b11eb79ae5 }
 Partial Revert commits SHA are -> 
 87eab0143602ccd99d8737b78970e476c0196b82 - revert - 686a890ee17264e0595954f450e625b11eb79ae5
-The reverted commit sha is - 87eab0143602ccd99d8737b78970e476c0196b82
+---> The reverted commit sha is - 87eab0143602ccd99d8737b78970e476c0196b82
 Commit message - remove a confusing and duplicate bit of documentation
-The original commit sha is - 686a890ee17264e0595954f450e625b11eb79ae5
+---> The original commit sha is - 686a890ee17264e0595954f450e625b11eb79ae5
 Commit message - Merge 'trunk' into 'compres'
 
 r20038@Command-Central (orig r7857):  bricas | 2008-05-29 15:01:03 +0200
@@ -6142,7 +6142,7 @@ r21419@Command-Central (orig r7996):  bricas | 2008-06-24 02:14:21 +0200
 remove 0-length query string components so warnings aren't thrown (RT #36428)
 
 
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst.pm
 t/unit_core_component.t
 t/unit_core_mvc.t
@@ -6153,13 +6153,13 @@ Partial Revert diff pair 172 is ->
 { 96d8d513f11c4fc078b4956a779a68f411cfbee6 -> 4090e3bb3fea1a73ac369250e31584d61428b808 }
 Partial Revert commits SHA are -> 
 6f1f968a6bc42bf4a4b50a1ee22d3aaecd801876 - revert - 4090e3bb3fea1a73ac369250e31584d61428b808
-The reverted commit sha is - 6f1f968a6bc42bf4a4b50a1ee22d3aaecd801876
+---> The reverted commit sha is - 6f1f968a6bc42bf4a4b50a1ee22d3aaecd801876
 Commit message - mro compat stuff
 r17838@martha (orig r7769):  groditi | 2008-05-21 11:23:23 -0400
-The original commit sha is - 4090e3bb3fea1a73ac369250e31584d61428b808
+---> The original commit sha is - 4090e3bb3fea1a73ac369250e31584d61428b808
 Commit message - bye bye Class::C3. for good.
 r18299@martha (orig r7827):  groditi | 2008-05-27 22:42:31 -0400
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Dispatcher.pm
 lib/Catalyst/Model.pm
 lib/Catalyst/View.pm
@@ -6170,13 +6170,13 @@ Partial Revert diff pair 173 is ->
 { e7dc25cd71e0b09ba2a457b240d5d922e0279507 -> 3cdcf968aa321182c36f5fe4f499d581f59bdeac }
 Partial Revert commits SHA are -> 
 e8b9f2a92084b3b9dab6b2b879900481b8548b3b - revert - 3cdcf968aa321182c36f5fe4f499d581f59bdeac
-The reverted commit sha is - e8b9f2a92084b3b9dab6b2b879900481b8548b3b
+---> The reverted commit sha is - e8b9f2a92084b3b9dab6b2b879900481b8548b3b
 Commit message - reverting back to when tests pass. applying changes one by one to find what failed
 r16978@martha (orig r7501):  groditi | 2008-03-15 00:42:23 -0400
-The original commit sha is - 3cdcf968aa321182c36f5fe4f499d581f59bdeac
+---> The original commit sha is - 3cdcf968aa321182c36f5fe4f499d581f59bdeac
 Commit message - reapplying changes by konobi that I accidentally undid earlier. sorry about that
 r16983@martha (orig r7506):  groditi | 2008-03-15 01:21:42 -0400
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Exception.pm
 lib/Catalyst/Log.pm
 -----------------------------------------------------------------
@@ -6186,11 +6186,11 @@ Partial Revert diff pair 174 is ->
 { 3391bea6a642e1e6204f3a4c4ffc1898b96e0a2d -> 6a5aa41cfee356f6d9cab2e041cec6f6f6dc8dec }
 Partial Revert commits SHA are -> 
 41593b496f3f55861439312779a9465f6a2c6600 - revert - 6a5aa41cfee356f6d9cab2e041cec6f6f6dc8dec
-The reverted commit sha is - 41593b496f3f55861439312779a9465f6a2c6600
+---> The reverted commit sha is - 41593b496f3f55861439312779a9465f6a2c6600
 Commit message - Patch from Jon Schutz to add a proper SIGCHLD repear to Engine::HTTP to fix issue with system() returning -1 instead of the correct value
-The original commit sha is - 6a5aa41cfee356f6d9cab2e041cec6f6f6dc8dec
+---> The original commit sha is - 6a5aa41cfee356f6d9cab2e041cec6f6f6dc8dec
 Commit message - Revert SIGCHLD patch pending a test
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine/HTTP.pm
 -----------------------------------------------------------------
 
@@ -6199,11 +6199,11 @@ Partial Revert diff pair 175 is ->
 { e2b0ddd34989844e13aa57483888973068d62dbe -> d04b2ffda419ac7f9c7ea1d3acab77e9fa9bc532 }
 Partial Revert commits SHA are -> 
 e2b0ddd34989844e13aa57483888973068d62dbe - revert - d04b2ffda419ac7f9c7ea1d3acab77e9fa9bc532
-The reverted commit sha is - e2b0ddd34989844e13aa57483888973068d62dbe
+---> The reverted commit sha is - e2b0ddd34989844e13aa57483888973068d62dbe
 Commit message - Change Engine::write() to use IO::Select instead of worrying about EWOULDBLOCK
-The original commit sha is - d04b2ffda419ac7f9c7ea1d3acab77e9fa9bc532
+---> The original commit sha is - d04b2ffda419ac7f9c7ea1d3acab77e9fa9bc532
 Commit message - Revert Engine.pm change from yesterday
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Engine.pm
 -----------------------------------------------------------------
 
@@ -6212,11 +6212,11 @@ Partial Revert diff pair 176 is ->
 { 5884ba38ab9f8931d211df9d718dc7f31227ff1f -> 3fe3499686b81aea750bfabc669996a838d1c6f7 }
 Partial Revert commits SHA are -> 
 5884ba38ab9f8931d211df9d718dc7f31227ff1f - revert - 3fe3499686b81aea750bfabc669996a838d1c6f7
-The reverted commit sha is - 5884ba38ab9f8931d211df9d718dc7f31227ff1f
+---> The reverted commit sha is - 5884ba38ab9f8931d211df9d718dc7f31227ff1f
 Commit message - Skip local %2F tests on remote servers
-The original commit sha is - 3fe3499686b81aea750bfabc669996a838d1c6f7
+---> The original commit sha is - 3fe3499686b81aea750bfabc669996a838d1c6f7
 Commit message - Revert accidental change
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 t/optional_lighttpd-fastcgi.t
 -----------------------------------------------------------------
 
@@ -6225,12 +6225,12 @@ Partial Revert diff pair 177 is ->
 { a74c2d1a1e12c43e5dbb4caef23f7cc25e57bd1f -> 769c3b8f01ef3a794bbc6928be9da49b99417dca }
 Partial Revert commits SHA are -> 
 4d583dd846a0ffa9bd224014f89df39db957c35f - revert - 769c3b8f01ef3a794bbc6928be9da49b99417dca
-The reverted commit sha is - 4d583dd846a0ffa9bd224014f89df39db957c35f
+---> The reverted commit sha is - 4d583dd846a0ffa9bd224014f89df39db957c35f
 Commit message - initial import of new Tutorial stuff from hkclark
 r8780@cain (orig r4166):  jester | 2006-05-20 03:40:06 +0000
-The original commit sha is - 769c3b8f01ef3a794bbc6928be9da49b99417dca
+---> The original commit sha is - 769c3b8f01ef3a794bbc6928be9da49b99417dca
 Commit message - nuked old Tutorial
-The files with partial_reverts are:-
+---> The files with partial_reverts are:-
 lib/Catalyst/Manual/Tutorial-orig.pod
 -----------------------------------------------------------------
 

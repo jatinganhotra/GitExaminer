@@ -1,0 +1,2045 @@
+# of cherry-picks = 42
+Cherry-pick diff pair 1 is -> 
+{ de9bcba0ca9757cfc5ce79b13e3e38fc316dfb52 -> d12acbe6bbfc0fbdfe8193dbb895e1ffb7995c9b } is a cherrypick
+{ c13f6e7ecb789a860ee01f163a5e4b66a4854186 -> 0104ba44ac3abe1c816d673334eca9d46305a8f0 }
+Cherrypick commits SHA are -> 
+d12acbe6bbfc0fbdfe8193dbb895e1ffb7995c9b - cherrypick - 0104ba44ac3abe1c816d673334eca9d46305a8f0
+---> The cherrypicked commit sha is - d12acbe6bbfc0fbdfe8193dbb895e1ffb7995c9b
+Commit message - testing behavior of URI_FOR when running as an embedded catalyt application
+---> The original commit sha is - 0104ba44ac3abe1c816d673334eca9d46305a8f0
+Commit message - Merge remote-tracking branch 'origin/master' into ancona
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ 551068cfd29b252658de18655ac4bc193ccd5b56 -> 310e2c0b68a06d484fb469c6fc35c5afd2d54f2b } is a cherrypick
+{ 11d52bbdb4fccbe1678d869494acb9d43ae83c99 -> 5ac4489bfa64abef6f956b7228e813ef9b6ba055 }
+Cherrypick commits SHA are -> 
+310e2c0b68a06d484fb469c6fc35c5afd2d54f2b - cherrypick - 5ac4489bfa64abef6f956b7228e813ef9b6ba055
+---> The cherrypicked commit sha is - 310e2c0b68a06d484fb469c6fc35c5afd2d54f2b
+Commit message - fixed author side test becase Test::TCP changed its interface
+---> The original commit sha is - 5ac4489bfa64abef6f956b7228e813ef9b6ba055
+Commit message - fixed author side test becase Test::TCP changed its interface
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ bd719c379873ab2d857c54227f7c8f36b8303a1e -> 8605f3afde2df9cac31410d6f904c0929f3cba67 } is a cherrypick
+{ 8503ab9bfcaceca9dd416760687b4a3a12929d16 -> 2805461281c4edec814fc9ece1b90e9d77a56afc }
+Cherrypick commits SHA are -> 
+8605f3afde2df9cac31410d6f904c0929f3cba67 - cherrypick - 2805461281c4edec814fc9ece1b90e9d77a56afc
+---> The cherrypicked commit sha is - 8605f3afde2df9cac31410d6f904c0929f3cba67
+Commit message - Fixes version comparison to work with developer release numbers
+---> The original commit sha is - 2805461281c4edec814fc9ece1b90e9d77a56afc
+Commit message - Fixes version comparison to work with developer release numbers
+
+Signed-off-by: John Napiorkowski <jjnapiork@cpan.org>
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ 4eaaffbe34447c54ae060895076598b9ee2c58b9 -> bd719c379873ab2d857c54227f7c8f36b8303a1e } is a cherrypick
+{ 1cc1daddba7f95b39511329606761cd2ba7c4ed6 -> 8503ab9bfcaceca9dd416760687b4a3a12929d16 }
+Cherrypick commits SHA are -> 
+bd719c379873ab2d857c54227f7c8f36b8303a1e - cherrypick - 8503ab9bfcaceca9dd416760687b4a3a12929d16
+---> The cherrypicked commit sha is - bd719c379873ab2d857c54227f7c8f36b8303a1e
+Commit message - Fixes bug in the DispatchType::Regex depreciation warning
+---> The original commit sha is - 8503ab9bfcaceca9dd416760687b4a3a12929d16
+Commit message - Fixes bug in the DispatchType::Regex depreciation warning
+
+Signed-off-by: John Napiorkowski <jjnapiork@cpan.org>
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ f294a3c9b2c3390b7c3b4cec10161e8b355f9520 -> 4eaaffbe34447c54ae060895076598b9ee2c58b9 } is a cherrypick
+{ 5070f11132a769d1468a5be045003c0f70fe8ba0 -> 1cc1daddba7f95b39511329606761cd2ba7c4ed6 }
+Cherrypick commits SHA are -> 
+4eaaffbe34447c54ae060895076598b9ee2c58b9 - cherrypick - 1cc1daddba7f95b39511329606761cd2ba7c4ed6
+---> The cherrypicked commit sha is - 4eaaffbe34447c54ae060895076598b9ee2c58b9
+Commit message - Adds mgrimes to the Authors list
+
+If not for the glory, then why!
+---> The original commit sha is - 1cc1daddba7f95b39511329606761cd2ba7c4ed6
+Commit message - Adds mgrimes to the Authors list
+
+If not for the glory, then why!
+
+Signed-off-by: John Napiorkowski <jjnapiork@cpan.org>
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ f73d6ce28bc1c50abc27b50d52a965bdc002a748 -> f294a3c9b2c3390b7c3b4cec10161e8b355f9520 } is a cherrypick
+{ 4ba7161b972209ab0e923862485624cc651c65f2 -> 5070f11132a769d1468a5be045003c0f70fe8ba0 }
+Cherrypick commits SHA are -> 
+f294a3c9b2c3390b7c3b4cec10161e8b355f9520 - cherrypick - 5070f11132a769d1468a5be045003c0f70fe8ba0
+---> The cherrypicked commit sha is - f294a3c9b2c3390b7c3b4cec10161e8b355f9520
+Commit message - Limits the special case code for DT::Regex to 1 sub and improves warnings
+
+- Moves the complexity into the standalone Catalyst::Dispatch::Regex
+  distribution.
+- Issues warning if an old version of the core Catalyst::Dispatch::Regex
+  is loaded.
+---> The original commit sha is - 5070f11132a769d1468a5be045003c0f70fe8ba0
+Commit message - Limits the special case code for DT::Regex to 1 sub and improves warnings
+
+- Moves the complexity into the standalone Catalyst::Dispatch::Regex
+  distribution.
+- Issues warning if an old version of the core Catalyst::Dispatch::Regex
+  is loaded.
+
+Signed-off-by: John Napiorkowski <jjnapiork@cpan.org>
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ 1b666f0f00e409a24119e175633892a9fa2484f2 -> f73d6ce28bc1c50abc27b50d52a965bdc002a748 } is a cherrypick
+{ 9c1fc6d6a8c4701fa842fa5229c99d103aee1afa -> 4ba7161b972209ab0e923862485624cc651c65f2 }
+Cherrypick commits SHA are -> 
+f73d6ce28bc1c50abc27b50d52a965bdc002a748 - cherrypick - 4ba7161b972209ab0e923862485624cc651c65f2
+---> The cherrypicked commit sha is - f73d6ce28bc1c50abc27b50d52a965bdc002a748
+Commit message - Note DispatchType::Regex depreciation in docs and add warning if used.
+---> The original commit sha is - 4ba7161b972209ab0e923862485624cc651c65f2
+Commit message - Note DispatchType::Regex depreciation in docs and add warning if used.
+
+Signed-off-by: John Napiorkowski <jjnapiork@cpan.org>
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ 209210df84f791b1e5bdcd1531cce6bcc6499168 -> 1b666f0f00e409a24119e175633892a9fa2484f2 } is a cherrypick
+{ e6968720453a63b5d43f77c17bc147ef560957e2 -> 9c1fc6d6a8c4701fa842fa5229c99d103aee1afa }
+Cherrypick commits SHA are -> 
+1b666f0f00e409a24119e175633892a9fa2484f2 - cherrypick - 9c1fc6d6a8c4701fa842fa5229c99d103aee1afa
+---> The cherrypicked commit sha is - 1b666f0f00e409a24119e175633892a9fa2484f2
+Commit message - Remove Regex/LocalRegex code and tests from core
+---> The original commit sha is - 9c1fc6d6a8c4701fa842fa5229c99d103aee1afa
+Commit message - Remove Regex/LocalRegex code and tests from core
+
+Signed-off-by: John Napiorkowski <jjnapiork@cpan.org>
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ 3453aef8adb75e439e4c05e89b6e2d193f148cd9 -> adf9b0f8d40595ceca4933111fe66d732eca5038 } is a cherrypick
+{ 102edbf4898a0bb361586ab2b691a6c8f77968fb -> 87b12a6e6eeadabd32a4bc7417f7c6e7012cd8b2 }
+Cherrypick commits SHA are -> 
+adf9b0f8d40595ceca4933111fe66d732eca5038 - cherrypick - 87b12a6e6eeadabd32a4bc7417f7c6e7012cd8b2
+---> The cherrypicked commit sha is - adf9b0f8d40595ceca4933111fe66d732eca5038
+Commit message - Spelling skips
+---> The original commit sha is - 87b12a6e6eeadabd32a4bc7417f7c6e7012cd8b2
+Commit message - Spelling skips
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ 58889ece5ffe267a42384e206168edf52cceaa07 -> fb897b361eec8544ac999ce96d812828818c0652 } is a cherrypick
+{ 178dca5f50ddbee5adbfdbc7c6311f83da9efd50 -> ab6c6d3d02a45825f971a5482c81bc2880ff6138 }
+Cherrypick commits SHA are -> 
+fb897b361eec8544ac999ce96d812828818c0652 - cherrypick - ab6c6d3d02a45825f971a5482c81bc2880ff6138
+---> The cherrypicked commit sha is - fb897b361eec8544ac999ce96d812828818c0652
+Commit message - Update changelog
+---> The original commit sha is - ab6c6d3d02a45825f971a5482c81bc2880ff6138
+Commit message - Update changelog
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ c29dcdc3ea9c95069e3a4e451aa9803d9eee9a94 -> 58889ece5ffe267a42384e206168edf52cceaa07 } is a cherrypick
+{ 25d61080a7e2ed2bdeac82055fcbeb632bf75b0c -> 178dca5f50ddbee5adbfdbc7c6311f83da9efd50 }
+Cherrypick commits SHA are -> 
+58889ece5ffe267a42384e206168edf52cceaa07 - cherrypick - 178dca5f50ddbee5adbfdbc7c6311f83da9efd50
+---> The cherrypicked commit sha is - 58889ece5ffe267a42384e206168edf52cceaa07
+Commit message - Make method call be italic in docs
+---> The original commit sha is - 178dca5f50ddbee5adbfdbc7c6311f83da9efd50
+Commit message - Make method call be italic in docs
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ 2ebbf7b954a7c5bf5024a9788728386b37e61e55 -> c29dcdc3ea9c95069e3a4e451aa9803d9eee9a94 } is a cherrypick
+{ cf7ace24958c9c26ff5cc8b19e2c8e20e8316dcf -> 25d61080a7e2ed2bdeac82055fcbeb632bf75b0c }
+Cherrypick commits SHA are -> 
+c29dcdc3ea9c95069e3a4e451aa9803d9eee9a94 - cherrypick - 25d61080a7e2ed2bdeac82055fcbeb632bf75b0c
+---> The cherrypicked commit sha is - c29dcdc3ea9c95069e3a4e451aa9803d9eee9a94
+Commit message - And fix up the documentation some
+---> The original commit sha is - 25d61080a7e2ed2bdeac82055fcbeb632bf75b0c
+Commit message - And fix up the documentation some
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ e83233606b2177b31ff3ad0cfb9012b6d42f85a5 -> 4dcdaae144e5787f9efd4c72dce35cd97cc69288 } is a cherrypick
+{ cf8eab35bae767daf240ec91a97b1809fda012ea -> cf7ace24958c9c26ff5cc8b19e2c8e20e8316dcf }
+Cherrypick commits SHA are -> 
+4dcdaae144e5787f9efd4c72dce35cd97cc69288 - cherrypick - cf7ace24958c9c26ff5cc8b19e2c8e20e8316dcf
+---> The cherrypicked commit sha is - 4dcdaae144e5787f9efd4c72dce35cd97cc69288
+Commit message - Note that wrapping the setup method will cause you pain
+---> The original commit sha is - cf7ace24958c9c26ff5cc8b19e2c8e20e8316dcf
+Commit message - Note that wrapping the setup method will cause you pain
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 14 is -> 
+{ 949f330d1f0f7d5fc868ddeb6f338733a2dfa39f -> b072862879588eb79a8ccdc47b80b5193866c057 } is a cherrypick
+{ 1d85cbb36bf233f539a393b827ab66a31419994b -> cf8eab35bae767daf240ec91a97b1809fda012ea }
+Cherrypick commits SHA are -> 
+b072862879588eb79a8ccdc47b80b5193866c057 - cherrypick - cf8eab35bae767daf240ec91a97b1809fda012ea
+---> The cherrypicked commit sha is - b072862879588eb79a8ccdc47b80b5193866c057
+Commit message - More spelling stopwords and small fixes till we pass
+---> The original commit sha is - cf8eab35bae767daf240ec91a97b1809fda012ea
+Commit message - More spelling stopwords and small fixes till we pass
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 15 is -> 
+{ 3d16b0d0091aca9d146f0bad2ffe04744e83dd17 -> 724e8b30fb7cc9f62ed4932412f81cd4e40068c6 } is a cherrypick
+{ 3bdf9e57313a7f80bd4091d8acaecd3ec348b766 -> 1d85cbb36bf233f539a393b827ab66a31419994b }
+Cherrypick commits SHA are -> 
+724e8b30fb7cc9f62ed4932412f81cd4e40068c6 - cherrypick - 1d85cbb36bf233f539a393b827ab66a31419994b
+---> The cherrypicked commit sha is - 724e8b30fb7cc9f62ed4932412f81cd4e40068c6
+Commit message - Remove another ref to MyApp->plugin
+---> The original commit sha is - 1d85cbb36bf233f539a393b827ab66a31419994b
+Commit message - Remove another ref to MyApp->plugin
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 16 is -> 
+{ 4340d28e493613411c3cab41e5daa8a794a25d84 -> 3d16b0d0091aca9d146f0bad2ffe04744e83dd17 } is a cherrypick
+{ 5853fd49ee89334ccc4a4859c6c5c346e82293cb -> 3bdf9e57313a7f80bd4091d8acaecd3ec348b766 }
+Cherrypick commits SHA are -> 
+3d16b0d0091aca9d146f0bad2ffe04744e83dd17 - cherrypick - 3bdf9e57313a7f80bd4091d8acaecd3ec348b766
+---> The cherrypicked commit sha is - 3d16b0d0091aca9d146f0bad2ffe04744e83dd17
+Commit message - Un-document MyApp->plugin method
+---> The original commit sha is - 3bdf9e57313a7f80bd4091d8acaecd3ec348b766
+Commit message - Un-document MyApp->plugin method
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 17 is -> 
+{ f192523d2abee3ad9c5f4119472945b70d05bd09 -> 4340d28e493613411c3cab41e5daa8a794a25d84 } is a cherrypick
+{ 20f0d47be97996df44638d9f9d20f8221aa1ed32 -> 5853fd49ee89334ccc4a4859c6c5c346e82293cb }
+Cherrypick commits SHA are -> 
+4340d28e493613411c3cab41e5daa8a794a25d84 - cherrypick - 5853fd49ee89334ccc4a4859c6c5c346e82293cb
+---> The cherrypicked commit sha is - 4340d28e493613411c3cab41e5daa8a794a25d84
+Commit message - Remove references to the -Engine flag from docs
+---> The original commit sha is - 5853fd49ee89334ccc4a4859c6c5c346e82293cb
+Commit message - Remove references to the -Engine flag from docs
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 18 is -> 
+{ cfb8879d62b804cb574bf5608dd41cfb87d3559a -> f192523d2abee3ad9c5f4119472945b70d05bd09 } is a cherrypick
+{ 6721fe5a8b96245412a26f17488d8be6116a2d7d -> 20f0d47be97996df44638d9f9d20f8221aa1ed32 }
+Cherrypick commits SHA are -> 
+f192523d2abee3ad9c5f4119472945b70d05bd09 - cherrypick - 20f0d47be97996df44638d9f9d20f8221aa1ed32
+---> The cherrypicked commit sha is - f192523d2abee3ad9c5f4119472945b70d05bd09
+Commit message - Remove documentation showing Global / Regex / Private actions from Catalyst.pm
+
+All of these are deprecated in some way, so they shouldn't be shown
+from the top level Pod
+---> The original commit sha is - 20f0d47be97996df44638d9f9d20f8221aa1ed32
+Commit message - Remove documentation showing Global / Regex / Private actions from Catalyst.pm
+
+All of these are deprecated in some way, so they shouldn't be shown
+from the top level Pod
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 19 is -> 
+{ 143cf217a4cb0172c6766c8e6ea1b3afaf43c285 -> 3a57f0b7e5e076972687e0087ecfef2624513c91 } is a cherrypick
+{ 9310b818c83f77236e011b34da5506a8dbe0d119 -> 6721fe5a8b96245412a26f17488d8be6116a2d7d }
+Cherrypick commits SHA are -> 
+3a57f0b7e5e076972687e0087ecfef2624513c91 - cherrypick - 6721fe5a8b96245412a26f17488d8be6116a2d7d
+---> The cherrypicked commit sha is - 3a57f0b7e5e076972687e0087ecfef2624513c91
+Commit message - fixing to work with perl 5.8
+---> The original commit sha is - 6721fe5a8b96245412a26f17488d8be6116a2d7d
+Commit message - fixing to work with perl 5.8
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 20 is -> 
+{ b072862879588eb79a8ccdc47b80b5193866c057 -> e83233606b2177b31ff3ad0cfb9012b6d42f85a5 } is a cherrypick
+{ 8ad6fd584ff18d88abf31629d4593ba94eeb7647 -> 9310b818c83f77236e011b34da5506a8dbe0d119 }
+Cherrypick commits SHA are -> 
+e83233606b2177b31ff3ad0cfb9012b6d42f85a5 - cherrypick - 9310b818c83f77236e011b34da5506a8dbe0d119
+---> The cherrypicked commit sha is - e83233606b2177b31ff3ad0cfb9012b6d42f85a5
+Commit message - Merge remote branch 'origin/suppress_data_dumper_warnings'
+
+* origin/suppress_data_dumper_warnings:
+  fixing to work with perl 5.8
+  Suppressing Data::Dumper warnings in test t/aggregate/live_component_controller_action_action.t
+---> The original commit sha is - 9310b818c83f77236e011b34da5506a8dbe0d119
+Commit message - Suppressing Data::Dumper warnings in test t/aggregate/live_component_controller_action_action.t
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 21 is -> 
+{ f8db2ed7cc69853222729adfdbb48e5e4bea9bd2 -> 5cb3390d7974420a06173cf84ba5a1301471b2e7 } is a cherrypick
+{ 965f3e35b1f8287990aeb8f102ebc0bc107e11e8 -> 9977ef947d161654267b5648628fb270a0d5334c }
+Cherrypick commits SHA are -> 
+5cb3390d7974420a06173cf84ba5a1301471b2e7 - cherrypick - 9977ef947d161654267b5648628fb270a0d5334c
+---> The cherrypicked commit sha is - 5cb3390d7974420a06173cf84ba5a1301471b2e7
+Commit message - we agreed on neither enforcing en_US nor en_GB
+---> The original commit sha is - 9977ef947d161654267b5648628fb270a0d5334c
+Commit message - we agreed on neither enforcing en_US nor en_GB
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 22 is -> 
+{ bb48c5566ee0170fd913574d2393f381d214f86c -> f8db2ed7cc69853222729adfdbb48e5e4bea9bd2 } is a cherrypick
+{ f4dda4a8e24ec328419c0bef366f1cd294d42474 -> 965f3e35b1f8287990aeb8f102ebc0bc107e11e8 }
+Cherrypick commits SHA are -> 
+f8db2ed7cc69853222729adfdbb48e5e4bea9bd2 - cherrypick - 965f3e35b1f8287990aeb8f102ebc0bc107e11e8
+---> The cherrypicked commit sha is - f8db2ed7cc69853222729adfdbb48e5e4bea9bd2
+Commit message - more spelling fixes
+---> The original commit sha is - 965f3e35b1f8287990aeb8f102ebc0bc107e11e8
+Commit message - more spelling fixes
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 23 is -> 
+{ 576de1063fbf94e8233c4794c4b0728101c50952 -> c4cf315897fcf494e8bb9c70e1914ab0fe39b2c8 } is a cherrypick
+{ c0a8a4b8210a04defa3875f4a483cdd19396df7b -> 59e2fe94743666b9f079545e45252a93839c6398 }
+Cherrypick commits SHA are -> 
+c4cf315897fcf494e8bb9c70e1914ab0fe39b2c8 - cherrypick - 59e2fe94743666b9f079545e45252a93839c6398
+---> The cherrypicked commit sha is - c4cf315897fcf494e8bb9c70e1914ab0fe39b2c8
+Commit message - added some more stopwords to spelling test
+---> The original commit sha is - 59e2fe94743666b9f079545e45252a93839c6398
+Commit message - added some more stopwords to spelling test
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 24 is -> 
+{ 062085371f2717e240b907ea9a7bf89f5f4c6a81 -> 1b4b5aa5c77c42e7609089ea97d06779c2c22770 } is a cherrypick
+{ d109165a971e7f1a57239d66907fef80a551833e -> c96a2af8e9ac07970f0e2e6672d98843e0b85796 }
+Cherrypick commits SHA are -> 
+1b4b5aa5c77c42e7609089ea97d06779c2c22770 - cherrypick - c96a2af8e9ac07970f0e2e6672d98843e0b85796
+---> The cherrypicked commit sha is - 1b4b5aa5c77c42e7609089ea97d06779c2c22770
+Commit message - Make optional, and unfo effects as run in aggregate
+---> The original commit sha is - c96a2af8e9ac07970f0e2e6672d98843e0b85796
+Commit message - Merge branch 'psgi' of git.shadowcat.co.uk:Catalyst-Runtime into psgi
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 25 is -> 
+{ ae7da8f5d10d2d8b4ada389cd260b4bb9d7b07d5 -> 27dad9301094f25bcedc66c476ec8b9d61521fb7 } is a cherrypick
+{ f899107d00c9414a83e8a48386e298ba6e270af3 -> 97c67a13934ab0285169d7c652b408640430b1e4 }
+Cherrypick commits SHA are -> 
+27dad9301094f25bcedc66c476ec8b9d61521fb7 - cherrypick - 97c67a13934ab0285169d7c652b408640430b1e4
+---> The cherrypicked commit sha is - 27dad9301094f25bcedc66c476ec8b9d61521fb7
+Commit message - Merge branch 'master' into psgi
+
+* master:
+  fix some typos
+  Fixed situation where a detach($action) from a forward within auto was not breaking out correctly
+  Add a test to make sure that a die in a Controller's end sub is propogated as a 500 error
+  Unbreak the pod-coverage tests
+  Yes, it is
+  Remove special-casing of '*' for get_action_methods
+  Pull a bunch of gross hacks to get actions => { '*' => ... } working again
+  Add a test for configuring attributes for all actions
+  Add a test view for dumping actions
+  Make this error message more readable
+  Make this error message more readable
+  Agreed
+---> The original commit sha is - 97c67a13934ab0285169d7c652b408640430b1e4
+Commit message - Merge branch 'master' into psgi
+
+* master:
+  More disable_component_resolution_regex_fallback
+  give an example for $c->request->path
+  fix typo
+
+Conflicts:
+	Changes
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 26 is -> 
+{ b09bbdcbefa4f36ad9903dc033f157736557ddf0 -> 1126710650625d97b4fba9965ea55092bcc46095 } is a cherrypick
+{ f899107d00c9414a83e8a48386e298ba6e270af3 -> 97c67a13934ab0285169d7c652b408640430b1e4 }
+Cherrypick commits SHA are -> 
+1126710650625d97b4fba9965ea55092bcc46095 - cherrypick - 97c67a13934ab0285169d7c652b408640430b1e4
+---> The cherrypicked commit sha is - 1126710650625d97b4fba9965ea55092bcc46095
+Commit message - Merge branch 'master' into psgi
+
+* master:
+  Unbreak remote server tests
+  Add MYMETA.yml to .gitignore
+  Add missing Catalyst::Devel author dep
+  Append $\ in Catalyst::Response->print
+---> The original commit sha is - 97c67a13934ab0285169d7c652b408640430b1e4
+Commit message - Merge branch 'master' into psgi
+
+* master:
+  More disable_component_resolution_regex_fallback
+  give an example for $c->request->path
+  fix typo
+
+Conflicts:
+	Changes
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 27 is -> 
+{ ae7da8f5d10d2d8b4ada389cd260b4bb9d7b07d5 -> 27dad9301094f25bcedc66c476ec8b9d61521fb7 } is a cherrypick
+{ b09bbdcbefa4f36ad9903dc033f157736557ddf0 -> 1126710650625d97b4fba9965ea55092bcc46095 }
+Cherrypick commits SHA are -> 
+27dad9301094f25bcedc66c476ec8b9d61521fb7 - cherrypick - 1126710650625d97b4fba9965ea55092bcc46095
+---> The cherrypicked commit sha is - 27dad9301094f25bcedc66c476ec8b9d61521fb7
+Commit message - Merge branch 'master' into psgi
+
+* master:
+  fix some typos
+  Fixed situation where a detach($action) from a forward within auto was not breaking out correctly
+  Add a test to make sure that a die in a Controller's end sub is propogated as a 500 error
+  Unbreak the pod-coverage tests
+  Yes, it is
+  Remove special-casing of '*' for get_action_methods
+  Pull a bunch of gross hacks to get actions => { '*' => ... } working again
+  Add a test for configuring attributes for all actions
+  Add a test view for dumping actions
+  Make this error message more readable
+  Make this error message more readable
+  Agreed
+---> The original commit sha is - 1126710650625d97b4fba9965ea55092bcc46095
+Commit message - Merge branch 'master' into psgi
+
+* master:
+  Unbreak remote server tests
+  Add MYMETA.yml to .gitignore
+  Add missing Catalyst::Devel author dep
+  Append $\ in Catalyst::Response->print
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 28 is -> 
+{ 27dad9301094f25bcedc66c476ec8b9d61521fb7 -> 990899d8c82b60748d5b4efa0d9ef3c9480104de } is a cherrypick
+{ 54c824bd5bd84579de75e830b202e08a628d82ec -> b09bbdcbefa4f36ad9903dc033f157736557ddf0 }
+Cherrypick commits SHA are -> 
+990899d8c82b60748d5b4efa0d9ef3c9480104de - cherrypick - b09bbdcbefa4f36ad9903dc033f157736557ddf0
+---> The cherrypicked commit sha is - 990899d8c82b60748d5b4efa0d9ef3c9480104de
+Commit message - Unbreak remote server tests
+---> The original commit sha is - b09bbdcbefa4f36ad9903dc033f157736557ddf0
+Commit message - Unbreak remote server tests
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 29 is -> 
+{ a06394ac403562d4dc9912459582f4d2eab4c973 -> c41956b0b05a9062149d05801f76b26c2db77c5b } is a cherrypick
+{ fb495632d15d5aa112371bb5c3c39a6189ddb9a0 -> 3e312006d244d0123b22e59ad89583b72210c661 }
+Cherrypick commits SHA are -> 
+c41956b0b05a9062149d05801f76b26c2db77c5b - cherrypick - 3e312006d244d0123b22e59ad89583b72210c661
+---> The cherrypicked commit sha is - c41956b0b05a9062149d05801f76b26c2db77c5b
+Commit message - Merge branch 'master' into psgi
+
+* master:
+  Avoid super long command lines when not aggregating
+  Improve the documentation for various functions in Catalyst::Test
+---> The original commit sha is - 3e312006d244d0123b22e59ad89583b72210c661
+Commit message - Merge branch 'master' into psgi
+
+* master:
+  Fix Path actions debug screen to display number of arguments
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 30 is -> 
+{ 901991e63957ab5361ea13e867532d8d8ef2cf7a -> db522412c578a200f448706e80284ebcf942e53b } is a cherrypick
+{ fb495632d15d5aa112371bb5c3c39a6189ddb9a0 -> 3e312006d244d0123b22e59ad89583b72210c661 }
+Cherrypick commits SHA are -> 
+db522412c578a200f448706e80284ebcf942e53b - cherrypick - 3e312006d244d0123b22e59ad89583b72210c661
+---> The cherrypicked commit sha is - db522412c578a200f448706e80284ebcf942e53b
+Commit message - Merge branch 'master' into psgi
+
+* master:
+  Make default test names reflect reality more and fix a buglet, rafl++
+  Give action_ok, action_redirect and action_notfound default test names
+---> The original commit sha is - 3e312006d244d0123b22e59ad89583b72210c661
+Commit message - Merge branch 'master' into psgi
+
+* master:
+  Fix Path actions debug screen to display number of arguments
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 31 is -> 
+{ a06394ac403562d4dc9912459582f4d2eab4c973 -> c41956b0b05a9062149d05801f76b26c2db77c5b } is a cherrypick
+{ 901991e63957ab5361ea13e867532d8d8ef2cf7a -> db522412c578a200f448706e80284ebcf942e53b }
+Cherrypick commits SHA are -> 
+c41956b0b05a9062149d05801f76b26c2db77c5b - cherrypick - db522412c578a200f448706e80284ebcf942e53b
+---> The cherrypicked commit sha is - c41956b0b05a9062149d05801f76b26c2db77c5b
+Commit message - Merge branch 'master' into psgi
+
+* master:
+  Avoid super long command lines when not aggregating
+  Improve the documentation for various functions in Catalyst::Test
+---> The original commit sha is - db522412c578a200f448706e80284ebcf942e53b
+Commit message - Merge branch 'master' into psgi
+
+* master:
+  Make default test names reflect reality more and fix a buglet, rafl++
+  Give action_ok, action_redirect and action_notfound default test names
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 32 is -> 
+{ a09d4dfda91fff7f029de6ff4bc6daaa10f5f0d4 -> 518576166dfa8607e2a0384ac46fa061dd931884 } is a cherrypick
+{ 529d5abc240ed8f626afd119417838274b8501f2 -> 3245a7701a8e15f08a6a881c58055dfd95c6cf33 }
+Cherrypick commits SHA are -> 
+518576166dfa8607e2a0384ac46fa061dd931884 - cherrypick - 3245a7701a8e15f08a6a881c58055dfd95c6cf33
+---> The cherrypicked commit sha is - 518576166dfa8607e2a0384ac46fa061dd931884
+Commit message - Don't build the psgi app twice
+---> The original commit sha is - 3245a7701a8e15f08a6a881c58055dfd95c6cf33
+Commit message - Merge branch 'master' into psgi
+
+master:
+Stop passing along @INC
+Use the proper way of setting @INC for tests
+Aggregate http-server.t tests
+Allow aggregating specific tests only
+Use the harness instead of all of prove
+Make the no-tabs test happy again
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 33 is -> 
+{ 92981fc38b97febba44b43eacbfbb481f1014d08 -> f23f16344c6e965eb8b0f31032711b2c205f1751 } is a cherrypick
+{ 34ff7cb5029ba62ab821542c67b8e9b33153abe3 -> 0de7c4a458cb3d2420f20481ed5cddd20eb5d800 }
+Cherrypick commits SHA are -> 
+f23f16344c6e965eb8b0f31032711b2c205f1751 - cherrypick - 0de7c4a458cb3d2420f20481ed5cddd20eb5d800
+---> The cherrypicked commit sha is - f23f16344c6e965eb8b0f31032711b2c205f1751
+Commit message - Make Catalyst::Test::local_request() set response base from base href (requires HTML::HeadParser)
+---> The original commit sha is - 0de7c4a458cb3d2420f20481ed5cddd20eb5d800
+Commit message - Merge 'trunk' into 'Catalyst-Test-base-href'
+
+r15777@t0mlaptop (orig r13468):  lukes | 2010-08-04 15:25:18 +0100
+moved component name sort that happens in setup_components to locate_components to allow methods to wrap around locate_components
+r15779@t0mlaptop (orig r13470):  rbuels | 2010-08-04 21:04:14 +0100
+don't load Catalyst::Exception in Utils.pm BEGIN, because some Scripts::* load Utils before MyApp.pm, meaning that ::Exception::CATALYST_EXCEPTION_CLASS in MyApp.pm will not be respected
+r15823@t0mlaptop (orig r13513):  dduncan | 2010-08-22 04:25:42 +0100
+C-R-5-8 : Makefile.PL : remove bogus comment
+r15824@t0mlaptop (orig r13514):  ferz | 2010-08-22 15:03:36 +0100
+Discovered some inconsistency in precedence behavior of chained actions.
+
+r15825@t0mlaptop (orig r13515):  ferz | 2010-08-22 16:04:58 +0100
+Checks for any action now.
+
+r15826@t0mlaptop (orig r13516):  bricas | 2010-08-23 18:55:43 +0100
+Fix two warnings:
+ - Fix warning about "excludes" during role application
+ - Fix warning from MooseX::Getopt regarding duplicate "help" aliases
+
+r15830@t0mlaptop (orig r13520):  hobbs | 2010-08-25 02:31:50 +0100
+Add the app for ChainedActionsApp test. It's still failing, but differently now...
+
+r15838@t0mlaptop (orig r13528):  t0m | 2010-08-25 14:46:22 +0100
+Fix bug with parse_on_demand
+r15839@t0mlaptop (orig r13529):  t0m | 2010-08-25 14:47:01 +0100
+Back out 13528, cocked that up.
+r15840@t0mlaptop (orig r13530):  t0m | 2010-08-25 14:47:23 +0100
+Fix bug with parse_on_demand (take 2)
+r15844@t0mlaptop (orig r13534):  t0m | 2010-08-25 23:53:20 +0100
+Fix RT#59738, show_internal_actions produces warnings in debug mode
+r15845@t0mlaptop (orig r13535):  t0m | 2010-08-26 00:07:21 +0100
+Fix test output, as per RT#56590
+r15846@t0mlaptop (orig r13536):  t0m | 2010-08-26 00:14:42 +0100
+Update changelog
+r15847@t0mlaptop (orig r13537):  t0m | 2010-08-26 00:17:50 +0100
+Test::Aggregate does not like __END__
+r15848@t0mlaptop (orig r13538):  t0m | 2010-08-26 00:26:14 +0100
+No passing TODOs
+r15849@t0mlaptop (orig r13539):  t0m | 2010-08-26 00:31:03 +0100
+Omit the run method for scripts which new Pod::Coverage finds
+r15850@t0mlaptop (orig r13540):  t0m | 2010-08-26 00:39:56 +0100
+No idea why but lack of this causes a void context warning when run under the test harness
+r15851@t0mlaptop (orig r13541):  t0m | 2010-08-26 01:01:20 +0100
+Unify options, get rid of -h which only worked on the CGI script anyway (-h is host in ::Server). This technically breaks back-compat slightly, but for the command line options for help in the script you never run from command line anyway, I don't care
+r15852@t0mlaptop (orig r13542):  t0m | 2010-08-26 01:08:24 +0100
+Rename test, to merge
+
+
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 34 is -> 
+{ 4dfe7bde3aca93267c77e8537eff7535a31a7159 -> 85a351e52f553c6fa5129c773863ab69e8b3f213 } is a cherrypick
+{ 56d230bf5c1c0dbec57564a741c0f9d1f968783e -> 9cdb85d28dad6a60a5b5d3241c0073567d6983b8 }
+Cherrypick commits SHA are -> 
+85a351e52f553c6fa5129c773863ab69e8b3f213 - cherrypick - 9cdb85d28dad6a60a5b5d3241c0073567d6983b8
+---> The cherrypicked commit sha is - 85a351e52f553c6fa5129c773863ab69e8b3f213
+Commit message - Remove the fugly hack to avoid metaclass compat issues now that Moose is fixed
+---> The original commit sha is - 9cdb85d28dad6a60a5b5d3241c0073567d6983b8
+Commit message - Merge 'trunk' into 'more_metaclass_compat'
+
+r13205@t0mlaptop (orig r13169):  t0m | 2010-04-19 03:40:24 +0100
+Document the action config here, as people don't seem to find it and this may help..
+r13206@t0mlaptop (orig r13170):  t0m | 2010-04-19 03:41:57 +0100
+Bah, accidentally removed..
+r13207@t0mlaptop (orig r13171):  t0m | 2010-04-19 08:22:49 +0100
+Go away useless warning
+r13213@t0mlaptop (orig r13177):  ajgb | 2010-04-21 12:10:51 +0100
+Fix not stripping backslashes in DispatchType::Regex::uri_for_action
+r15483@t0mlaptop (orig r13190):  rafl | 2010-04-28 23:54:04 +0100
+Make sure path_to returns an instance of the right Path::Class class.
+r15484@t0mlaptop (orig r13191):  edenc | 2010-04-29 00:29:02 +0100
+minor documentation fix for handle_request
+r15489@t0mlaptop (orig r13193):  rafl | 2010-05-03 00:16:25 +0100
+Allow parameterized roles to be applied as plugins.
+r15490@t0mlaptop (orig r13194):  t0m | 2010-05-03 00:27:43 +0100
+Back out crazy heuristics
+r15492@t0mlaptop (orig r13196):  rafl | 2010-05-03 00:44:30 +0100
+Unbreak tests by actually adding the module they're supposed to test.
+r15494@t0mlaptop (orig r13198):  rafl | 2010-05-03 01:51:43 +0100
+Remove useless conditional.
+r15515@t0mlaptop (orig r13219):  wreis | 2010-05-06 13:34:10 +0100
+make uri_for a bit cleaner
+r15516@t0mlaptop (orig r13220):  wreis | 2010-05-06 14:30:19 +0100
+minor fix for Changes file | add me as a contributor
+r15517@t0mlaptop (orig r13221):  rafl | 2010-05-07 22:11:10 +0100
+Pass along options to load_class for plugins.
+r15518@t0mlaptop (orig r13222):  rafl | 2010-05-07 22:48:51 +0100
+Changelogging.
+r15519@t0mlaptop (orig r13223):  rafl | 2010-05-07 23:06:26 +0100
+Version 5.80023.
+r15535@t0mlaptop (orig r13239):  ribasushi | 2010-05-12 12:48:40 +0100
+Better stats API explanation (SpiceMan)
+r15559@t0mlaptop (orig r13263):  t0m | 2010-05-15 10:42:58 +0100
+ r13208@spaceinvaders (orig r13172):  t0m | 2010-04-19 09:54:56 +0200
+ Branch to try and fix the request uri stuff.
+ 
+ r13209@spaceinvaders (orig r13173):  t0m | 2010-04-19 09:58:37 +0200
+ Just add comments to tests, no functional changes
+ r13210@spaceinvaders (orig r13174):  t0m | 2010-04-19 09:59:14 +0200
+ Get it mostly working, except uri_for is still buggered
+ r15488@spaceinvaders (orig r13192):  t0m | 2010-05-03 00:26:22 +0200
+ Revert to old behaviour, allow config for new behaviour. Config option name is rubbish, needs fixing
+ r15532@spaceinvaders (orig r13236):  t0m | 2010-05-09 01:09:01 +0200
+ I hate this name less. Others may feel differently
+ r15556@spaceinvaders (orig r13260):  t0m | 2010-05-15 10:52:16 +0200
+ Simplify madness some more, back to how it looked in the original fix_path_info_decoding branch so that we aren't using dodgy heuristics to determine the path. Alter the prepare_path tests so that they're testing the appropriate config option so that we now have tests for both code paths
+ r15557@spaceinvaders (orig r13261):  t0m | 2010-05-15 11:20:16 +0200
+ Add a pile of docs for the new use_request_uri_for_path setting
+ r15558@spaceinvaders (orig r13262):  t0m | 2010-05-15 11:38:06 +0200
+ Add recommendation
+
+r15560@t0mlaptop (orig r13264):  t0m | 2010-05-15 10:55:07 +0100
+Changelog, bump versions, add new contributor :)
+r15567@t0mlaptop (orig r13271):  jhannah | 2010-05-19 23:36:21 +0100
+We appear to have a bug where if lazy => 1 isn't set an exception
+occurs.
+
+r15575@t0mlaptop (orig r13279):  jhannah | 2010-05-20 20:46:31 +0100
+Oops. I should have TODO'd this one.  rafl++
+
+
+
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 35 is -> 
+{ 4903b59cd946a9dfd39a95d4e8b921676ea42098 -> d827e95c0b05a17a62d4cb911b70621708c8753e } is a cherrypick
+{ e3a7414d1bc32e165376493f1db5ea13967facbf -> 01f1f1a577243ba05c993714559f8a2713376d54 }
+Cherrypick commits SHA are -> 
+d827e95c0b05a17a62d4cb911b70621708c8753e - cherrypick - 01f1f1a577243ba05c993714559f8a2713376d54
+---> The cherrypicked commit sha is - d827e95c0b05a17a62d4cb911b70621708c8753e
+Commit message - Merge 'trunk' into 'fix_request_uri'
+
+r13213@tomas-dorans-macbook-pro (orig r13177):  ajgb | 2010-04-21 11:10:51 +0000
+Fix not stripping backslashes in DispatchType::Regex::uri_for_action
+r15483@tomas-dorans-macbook-pro (orig r13190):  rafl | 2010-04-28 22:54:04 +0000
+Make sure path_to returns an instance of the right Path::Class class.
+r15484@tomas-dorans-macbook-pro (orig r13191):  edenc | 2010-04-28 23:29:02 +0000
+minor documentation fix for handle_request
+r15489@tomas-dorans-macbook-pro (orig r13193):  rafl | 2010-05-02 23:16:25 +0000
+Allow parameterized roles to be applied as plugins.
+r15490@tomas-dorans-macbook-pro (orig r13194):  t0m | 2010-05-02 23:27:43 +0000
+Back out crazy heuristics
+
+
+---> The original commit sha is - 01f1f1a577243ba05c993714559f8a2713376d54
+Commit message - Merge 'trunk' into 'fix_request_uri'
+
+r15494@tomas-dorans-macbook-pro (orig r13198):  rafl | 2010-05-03 01:51:43 +0100
+Remove useless conditional.
+r15515@tomas-dorans-macbook-pro (orig r13219):  wreis | 2010-05-06 13:34:10 +0100
+make uri_for a bit cleaner
+r15516@tomas-dorans-macbook-pro (orig r13220):  wreis | 2010-05-06 14:30:19 +0100
+minor fix for Changes file | add me as a contributor
+r15517@tomas-dorans-macbook-pro (orig r13221):  rafl | 2010-05-07 22:11:10 +0100
+Pass along options to load_class for plugins.
+r15518@tomas-dorans-macbook-pro (orig r13222):  rafl | 2010-05-07 22:48:51 +0100
+Changelogging.
+r15519@tomas-dorans-macbook-pro (orig r13223):  rafl | 2010-05-07 23:06:26 +0100
+Version 5.80023.
+
+
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 36 is -> 
+{ 58541c41f8a186f0ede06ffb2e048639041f7f60 -> b8a0490e86b085c13b2ef727a6be45d075bdb044 } is a cherrypick
+{ e3a7414d1bc32e165376493f1db5ea13967facbf -> 01f1f1a577243ba05c993714559f8a2713376d54 }
+Cherrypick commits SHA are -> 
+b8a0490e86b085c13b2ef727a6be45d075bdb044 - cherrypick - 01f1f1a577243ba05c993714559f8a2713376d54
+---> The cherrypicked commit sha is - b8a0490e86b085c13b2ef727a6be45d075bdb044
+Commit message - Merge 'trunk' into 'fix_request_uri'
+
+r15492@tomas-dorans-macbook-pro (orig r13196):  rafl | 2010-05-02 23:44:30 +0000
+Unbreak tests by actually adding the module they're supposed to test.
+
+
+---> The original commit sha is - 01f1f1a577243ba05c993714559f8a2713376d54
+Commit message - Merge 'trunk' into 'fix_request_uri'
+
+r15494@tomas-dorans-macbook-pro (orig r13198):  rafl | 2010-05-03 01:51:43 +0100
+Remove useless conditional.
+r15515@tomas-dorans-macbook-pro (orig r13219):  wreis | 2010-05-06 13:34:10 +0100
+make uri_for a bit cleaner
+r15516@tomas-dorans-macbook-pro (orig r13220):  wreis | 2010-05-06 14:30:19 +0100
+minor fix for Changes file | add me as a contributor
+r15517@tomas-dorans-macbook-pro (orig r13221):  rafl | 2010-05-07 22:11:10 +0100
+Pass along options to load_class for plugins.
+r15518@tomas-dorans-macbook-pro (orig r13222):  rafl | 2010-05-07 22:48:51 +0100
+Changelogging.
+r15519@tomas-dorans-macbook-pro (orig r13223):  rafl | 2010-05-07 23:06:26 +0100
+Version 5.80023.
+
+
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 37 is -> 
+{ 4903b59cd946a9dfd39a95d4e8b921676ea42098 -> d827e95c0b05a17a62d4cb911b70621708c8753e } is a cherrypick
+{ 58541c41f8a186f0ede06ffb2e048639041f7f60 -> b8a0490e86b085c13b2ef727a6be45d075bdb044 }
+Cherrypick commits SHA are -> 
+d827e95c0b05a17a62d4cb911b70621708c8753e - cherrypick - b8a0490e86b085c13b2ef727a6be45d075bdb044
+---> The cherrypicked commit sha is - d827e95c0b05a17a62d4cb911b70621708c8753e
+Commit message - Merge 'trunk' into 'fix_request_uri'
+
+r13213@tomas-dorans-macbook-pro (orig r13177):  ajgb | 2010-04-21 11:10:51 +0000
+Fix not stripping backslashes in DispatchType::Regex::uri_for_action
+r15483@tomas-dorans-macbook-pro (orig r13190):  rafl | 2010-04-28 22:54:04 +0000
+Make sure path_to returns an instance of the right Path::Class class.
+r15484@tomas-dorans-macbook-pro (orig r13191):  edenc | 2010-04-28 23:29:02 +0000
+minor documentation fix for handle_request
+r15489@tomas-dorans-macbook-pro (orig r13193):  rafl | 2010-05-02 23:16:25 +0000
+Allow parameterized roles to be applied as plugins.
+r15490@tomas-dorans-macbook-pro (orig r13194):  t0m | 2010-05-02 23:27:43 +0000
+Back out crazy heuristics
+
+
+---> The original commit sha is - b8a0490e86b085c13b2ef727a6be45d075bdb044
+Commit message - Merge 'trunk' into 'fix_request_uri'
+
+r15492@tomas-dorans-macbook-pro (orig r13196):  rafl | 2010-05-02 23:44:30 +0000
+Unbreak tests by actually adding the module they're supposed to test.
+
+
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 38 is -> 
+{ ef546d1e28aa0fe685c4ddf41572e56c8d384101 -> cc8a4eb9a08483f5fe80f674d19c612acc12a94d } is a cherrypick
+{ e6c5b5486f448333cb47c4174804c72637b900db -> 3677a4ddb3053561fa232f93fbdf1201b063ba64 }
+Cherrypick commits SHA are -> 
+cc8a4eb9a08483f5fe80f674d19c612acc12a94d - cherrypick - 3677a4ddb3053561fa232f93fbdf1201b063ba64
+---> The cherrypicked commit sha is - cc8a4eb9a08483f5fe80f674d19c612acc12a94d
+Commit message - Merge 'trunk' into 'param_filtering'
+
+r10824@t0mlaptop (orig r10823):  autarch | 2009-07-07 21:58:31 +0100
+Deleted the old Restarter and associated code.
+
+Also removed the dep on File::Modified
+r10831@t0mlaptop (orig r10830):  t0m | 2009-07-08 21:11:57 +0100
+U R DOIN IT WRONG.
+r10836@t0mlaptop (orig r10835):  t0m | 2009-07-08 23:12:29 +0100
+More ->config fixes + Changelog
+r10852@t0mlaptop (orig r10851):  t0m | 2009-07-11 13:51:07 +0100
+Less lies in the deprecated block comment in Dispatcher.pm as it's throwing people off
+r10862@t0mlaptop (orig r10861):  groditi | 2009-07-11 23:07:47 +0100
+private_path method for actions that returns a string suitable for use in forward and unit tests for the rest of catalyst::Action
+r10865@t0mlaptop (orig r10864):  t0m | 2009-07-12 01:56:51 +0100
+Fix test
+r10866@t0mlaptop (orig r10865):  t0m | 2009-07-12 01:57:19 +0100
+Refactor to remove warning
+r10885@t0mlaptop (orig r10884):  t0m | 2009-07-14 21:25:03 +0100
+Fix Makefile.PL to actually do the right thing on Lepoard (alledgedly), and encourage someone to contribute to maintaining our protection against Apple :)
+r10892@t0mlaptop (orig r10891):  dandv | 2009-07-16 02:12:59 +0100
+Fixed POD links to get and request
+r10893@t0mlaptop (orig r10892):  dandv | 2009-07-16 06:24:10 +0100
+Could not have made a more insignificant patch
+r10898@t0mlaptop (orig r10897):  t0m | 2009-07-16 22:05:25 +0100
+Special move for CX::Component::Traits. No tests, please don't look.
+r10899@t0mlaptop (orig r10898):  t0m | 2009-07-16 22:12:49 +0100
+Remove 10897, this hack kinda works, but then leads to more issues. Gonna branch
+r10900@t0mlaptop (orig r10899):  t0m | 2009-07-16 22:24:11 +0100
+Write that down
+r10915@t0mlaptop (orig r10914):  dandv | 2009-07-17 06:18:22 +0100
+Hyperlinked POD entry for Catalysy::Request->args
+r10941@t0mlaptop (orig r10940):  jester | 2009-07-22 13:46:29 +0100
+Changed link from C::Base to C::Controller; fixed my alias
+r10962@t0mlaptop (orig r10961):  hobbs | 2009-07-23 05:46:43 +0100
+Depend on Module::Pluggable 3.9 to resolve a bug with inner packages in tests.
+
+r10963@t0mlaptop (orig r10962):  hobbs | 2009-07-23 10:32:08 +0100
+Test and Changelog entry for r10961.
+
+r10981@t0mlaptop (orig r10980):  t0m | 2009-07-25 22:05:19 +0100
+Remove dead and unused method
+r10985@t0mlaptop (orig r10984):  autarch | 2009-07-26 03:14:23 +0100
+fix spelling of attributes in the test name
+r10986@t0mlaptop (orig r10985):  dandv | 2009-07-26 08:13:19 +0100
+Fixed a bunch of POD hyperlinks in Catalyst.pm and minor punctuation in Catalyst::Action
+r10994@t0mlaptop (orig r10993):  kmx | 2009-07-28 16:26:44 +0100
+C::Engine::FastCGI (_fix_env) - Microsoft IIS on Windows 2008 R2 has version string "IIS/7.5" that was not supported; this patch makes test condition more general, accepting versions from IIS/6.0 to IIS/9.9 (should be enough for a while)
+r10995@t0mlaptop (orig r10994):  hobbs | 2009-07-29 01:33:25 +0100
+Rewrite the POD for $c->uri_for().
+
+Reintroduce some bits of information that were lost in 5.7->5.8, and remove
+a misleading statement about $c->action. Recommend the use of uri_for_action
+with a private action path.
+
+
+r10996@t0mlaptop (orig r10995):  hobbs | 2009-07-29 01:59:19 +0100
+Update Changes and add me to Contributors
+r10997@t0mlaptop (orig r10996):  hobbs | 2009-07-29 02:06:09 +0100
+Add konobi to contributors
+r10998@t0mlaptop (orig r10997):  hobbs | 2009-07-29 02:35:11 +0100
+Changes entry for r10993
+r11009@t0mlaptop (orig r11008):  t0m | 2009-07-30 15:31:26 +0100
+Add to TODO so I don't have to grep backlog later when I have tuits
+r11013@t0mlaptop (orig r11012):  t0m | 2009-07-31 02:46:00 +0100
+Large TODO update
+r11019@t0mlaptop (orig r11018):  t0m | 2009-08-01 01:39:39 +0100
+Merge branch pass_component_names:
+
+svn merge -r  10899:10927  http://dev.catalyst.perl.org/repos/Catalyst/Catalyst-Runtime/5.80/branches/pass_component_names
+r11021@t0mlaptop (orig r11020):  t0m | 2009-08-01 03:00:23 +0100
+Aww, crap, fail. merge 10927:HEAD from pass_component_names
+r11024@t0mlaptop (orig r11023):  caelum | 2009-08-01 20:04:08 +0100
+allow uri_for($controller_instance)
+r11035@t0mlaptop (orig r11034):  t0m | 2009-08-05 20:39:01 +0100
+Require perl 5.8.6
+r11038@t0mlaptop (orig r11037):  hobbs | 2009-08-06 10:57:02 +0100
+Add a method to the stats object to get the request start time.
+
+r11048@t0mlaptop (orig r11047):  t0m | 2009-08-07 01:15:04 +0100
+Fix the perl version required there also
+r11049@t0mlaptop (orig r11048):  t0m | 2009-08-07 01:24:17 +0100
+Blow up if we're in author mode and don't have the right M::I extensions
+r11050@t0mlaptop (orig r11049):  t0m | 2009-08-07 01:57:21 +0100
+Bump MX::MA dep for anon class tests
+r11058@t0mlaptop (orig r11057):  gbjk | 2009-08-07 17:45:03 +0100
+DispatchType::Chained fix for default args attribute to handle Args(0) vs Args() at depth.
+
+r11059@t0mlaptop (orig r11058):  gbjk | 2009-08-07 18:17:15 +0100
+DispatchType::Chained fix failing test of Args(0) vs Args(0) on surface
+
+r11062@t0mlaptop (orig r11061):  gbjk | 2009-08-07 22:17:22 +0100
+Engine::HTTP - Fix paths for HTTP requests with scheme and domain in URI.
+
+r11064@t0mlaptop (orig r11063):  groditi | 2009-08-08 22:54:04 +0100
+make debug output prettier with large widths
+r11065@t0mlaptop (orig r11064):  groditi | 2009-08-08 22:54:46 +0100
+oops debug output got leaked in
+r11069@t0mlaptop (orig r11068):  t0m | 2009-08-09 13:36:20 +0100
+Fix RT#48555
+r11070@t0mlaptop (orig r11069):  t0m | 2009-08-09 13:36:55 +0100
+Updates changelog
+r11071@t0mlaptop (orig r11070):  t0m | 2009-08-09 15:22:21 +0100
+Rewrite fixes for RT#48555
+r11123@t0mlaptop (orig r11122):  t0m | 2009-08-11 22:49:37 +0100
+Unfuck Catalyst::View::JSON
+r11125@t0mlaptop (orig r11124):  t0m | 2009-08-11 23:32:47 +0100
+Apply patch from RT#48623 to fix headers in Engine::HTTP
+r11127@t0mlaptop (orig r11126):  rjbs | 2009-08-12 00:33:18 +0100
+svn merge -r 11123:11125 branches/locate_components/ trunk/
+r11128@t0mlaptop (orig r11127):  rjbs | 2009-08-12 00:34:12 +0100
+add changelog entry for merged locate_components branch
+r11130@t0mlaptop (orig r11129):  t0m | 2009-08-12 01:15:51 +0100
+Tiny change to make the error make more sense
+r11132@t0mlaptop (orig r11131):  t0m | 2009-08-12 02:09:09 +0100
+Split test out into a more proper app, so that the test no longer relies on the metaclass initialization hacking occurring in ->setup_component, as I want to move it
+r11133@t0mlaptop (orig r11132):  t0m | 2009-08-12 02:11:07 +0100
+Blow up rather than failing to call ->can if everything is totally screwed
+r11134@t0mlaptop (orig r11133):  rafl | 2009-08-12 03:54:52 +0100
+Fix POD refering to CGI::Cookie. We're using CGI::Simple::Cookie.
+
+Courtesy of Forrest Cahoon.
+r11135@t0mlaptop (orig r11134):  t0m | 2009-08-12 12:03:06 +0100
+Make the code much clearer about what is going on, and remove the horrible map and grep which I hated.
+r11140@t0mlaptop (orig r11139):  rafl | 2009-08-16 10:19:58 +0100
+Do at least one (possibly empty) write when reading the response body from a filehandle.
+r11145@t0mlaptop (orig r11144):  jshirley | 2009-08-17 22:33:17 +0100
+Adding and documented X-Forwarded-Port
+r11146@t0mlaptop (orig r11145):  t0m | 2009-08-17 23:08:19 +0100
+Capitalisation fixes in Changelog
+r11147@t0mlaptop (orig r11146):  t0m | 2009-08-17 23:11:34 +0100
+Add _component_name stuff to Changes
+r11148@t0mlaptop (orig r11147):  jshirley | 2009-08-17 23:13:05 +0100
+Conflict resolution
+r11149@t0mlaptop (orig r11148):  hobbs | 2009-08-17 23:24:46 +0100
+Changelog for r11037
+
+r11150@t0mlaptop (orig r11149):  t0m | 2009-08-18 00:14:38 +0100
+Switch to catalyst_component_name
+r11154@t0mlaptop (orig r11153):  ferz | 2009-08-18 07:55:14 +0100
+Test case using Exception::Class
+
+r11155@t0mlaptop (orig r11154):  ferz | 2009-08-18 12:19:40 +0100
+drop POD comments.
+
+r11166@t0mlaptop (orig r11165):  t0m | 2009-08-19 20:03:01 +0100
+Move test to make more sense in my idea of the naming scheme - t/dead_ is for tests which check the app pukes, which this shouldn't
+r11167@t0mlaptop (orig r11166):  t0m | 2009-08-19 20:04:59 +0100
+Fail commit was fail. Back out the part I didn't want
+r11168@t0mlaptop (orig r11167):  t0m | 2009-08-19 20:10:06 +0100
+Remove r11058 - the commit message is lies, it does not fix the TODO test
+r11169@t0mlaptop (orig r11168):  t0m | 2009-08-19 21:21:44 +0100
+Back out r11057 which breaks one of the chained tests, whilst not fixing the bug in question
+r11170@t0mlaptop (orig r11169):  t0m | 2009-08-19 21:29:16 +0100
+Clean up test app for the exception test, as we don't want to depend on Test::Class thanks
+r11171@t0mlaptop (orig r11170):  rafl | 2009-08-19 21:45:45 +0100
+Changelog Engine::finalize_body changes.
+r11181@t0mlaptop (orig r11180):  gbjk | 2009-08-21 14:07:54 +0100
+Changelog update for previous Catalyst::Engine::HTTP fix.
+
+r11182@t0mlaptop (orig r11181):  rafl | 2009-08-21 16:51:26 +0100
+Now we don't have the broken restarter engine anymore, we conflict with old Catalyst::Devel versions, that don't have the new restarter yet.
+r11183@t0mlaptop (orig r11182):  rafl | 2009-08-21 17:12:57 +0100
+Conflict with the latest mason view, which blows up because of the new component_name constructor arg.
+r11184@t0mlaptop (orig r11183):  rafl | 2009-08-21 17:13:05 +0100
+Version 5.80008.
+r11190@t0mlaptop (orig r11189):  t0m | 2009-08-21 20:54:58 +0100
+Fix and tests for big issue in 5.80008
+r11191@t0mlaptop (orig r11190):  rafl | 2009-08-21 21:28:30 +0100
+Version 5.80009.
+r11193@t0mlaptop (orig r11192):  rafl | 2009-08-21 21:55:25 +0100
+DOH! do more than one read, if necessary.
+r11194@t0mlaptop (orig r11193):  rafl | 2009-08-21 22:22:36 +0100
+Do what we want instead of exiting a sub via last.
+r11195@t0mlaptop (orig r11194):  rafl | 2009-08-21 22:22:45 +0100
+Add test for sending the body from a filehandle with more data than the default chunksize of 64k.
+r11196@t0mlaptop (orig r11195):  rafl | 2009-08-21 22:31:38 +0100
+Changelogging.
+r11197@t0mlaptop (orig r11196):  rafl | 2009-08-21 22:41:05 +0100
+Version 5.80010.
+r11215@t0mlaptop (orig r11214):  rafl | 2009-08-22 20:56:53 +0100
+Remove leftovers of the restarter engine.
+
+The removed code caused test failures, which weren't apparent due to installed
+copies still being available in everyone's @INC.
+r11218@t0mlaptop (orig r11217):  rafl | 2009-08-23 12:46:42 +0100
+Changelogging.
+r11219@t0mlaptop (orig r11218):  rafl | 2009-08-23 12:55:48 +0100
+Version 5.80011.
+r11221@t0mlaptop (orig r11220):  rafl | 2009-08-23 19:42:17 +0100
+Failing test for component loading
+r11233@t0mlaptop (orig r11232):  t0m | 2009-08-24 13:51:03 +0100
+Test fixes for if CATALYST_DEBUG is set to 1.
+r11239@t0mlaptop (orig r11238):  t0m | 2009-08-25 12:25:54 +0100
+0003-Remove-diag-message.patch (marcus)
+r11240@t0mlaptop (orig r11239):  t0m | 2009-08-25 12:26:15 +0100
+Fix duplicate components
+r11252@t0mlaptop (orig r11251):  frew | 2009-08-26 20:00:01 +0100
+Look!  I'm famous!  (See Catalyst-Devel)
+r11254@t0mlaptop (orig r11253):  dandv | 2009-08-27 01:56:26 +0100
+POD addition: $c->req->body returns a string or a File::Temp object
+r11278@t0mlaptop (orig r11277):  t0m | 2009-09-01 02:07:23 +0100
+Nuke skipped test which will never pass
+r11279@t0mlaptop (orig r11278):  t0m | 2009-09-01 02:07:47 +0100
+Author tests
+r11280@t0mlaptop (orig r11279):  t0m | 2009-09-01 02:09:29 +0100
+t/author in MANFEST
+r11281@t0mlaptop (orig r11280):  t0m | 2009-09-01 02:10:46 +0100
+Stop remote tests breaking everything, and force authors to run some remote tests.
+r11282@t0mlaptop (orig r11281):  t0m | 2009-09-01 02:11:33 +0100
+Stop calling class data methods on instances + commented out warning
+r11283@t0mlaptop (orig r11282):  t0m | 2009-09-01 02:11:45 +0100
+Changelog
+r11300@t0mlaptop (orig r11292):  t0m | 2009-09-01 15:11:05 +0100
+Bump versions back to 5.8.4
+r11301@t0mlaptop (orig r11293):  t0m | 2009-09-01 15:32:46 +0100
+Changes tweaks
+r11307@t0mlaptop (orig r11299):  t0m | 2009-09-02 03:03:58 +0100
+Changelogging
+r11361@t0mlaptop (orig r11331):  t0m | 2009-09-07 15:45:01 +0100
+Fix hash key name back to what it used to be for compat, keeping renamed accessor where it was. Tests for this breakage to follow
+r11363@t0mlaptop (orig r11333):  t0m | 2009-09-07 21:19:40 +0100
+Test for r11331 + fix to only report each action name once from get_action_methods
+r11364@t0mlaptop (orig r11334):  t0m | 2009-09-07 21:21:52 +0100
+I'm an idiot, that totally doesn't work. remove.
+r11365@t0mlaptop (orig r11335):  t0m | 2009-09-07 21:25:53 +0100
+AGH. Too tired to be doing this, fucked it up again
+r11366@t0mlaptop (orig r11336):  t0m | 2009-09-07 21:33:31 +0100
+Fix duplicate results from get_action_methods. Q. Why didn't I just do that first time round? A: Am idiot.
+r11369@t0mlaptop (orig r11339):  marcus | 2009-09-09 18:05:32 +0100
+un-TODO passing TODO tests
+r11370@t0mlaptop (orig r11340):  marcus | 2009-09-09 18:08:03 +0100
+Prepare for release
+r11374@t0mlaptop (orig r11344):  groditi | 2009-09-09 22:06:59 +0100
+add myself to contributors
+r11375@t0mlaptop (orig r11345):  t0m | 2009-09-10 01:13:56 +0100
+Fix warnings in upcoming moose
+r11377@t0mlaptop (orig r11347):  t0m | 2009-09-10 02:14:13 +0100
+ r11046@t0mlaptop (orig r11045):  yousef | 2009-08-07 00:07:07 +0100
+ Moved action methods from t/lib/TestApp.pm to t/lib/Test/Controller/Root.pm. Uncommented the if statement in lib/Catalyst/Controller.pm that checks for actions in the appclass.
+ 
+
+r11378@t0mlaptop (orig r11348):  t0m | 2009-09-10 02:20:55 +0100
+Eat the merge mark, svk hates me.
+r11379@t0mlaptop (orig r11349):  t0m | 2009-09-10 03:13:04 +0100
+Blargh. Merge branch deprecate_appclass_actions manually, with svn merge http://dev.catalyst.perl.org/repos/Catalyst/Catalyst-Runtime/5.80/trunk http://dev.catalyst.perl.org/repos/Catalyst/Catalyst-Runtime/5.80/branches/deprecate_appclass_actions . after I forgot -l on svk push, but ctrl-C after the first rev meant svk had already committed a merge mark and re-merging did nothing, and removing it didn't do the right thing. Fail cake..
+r11380@t0mlaptop (orig r11350):  hobbs | 2009-09-10 08:20:31 +0100
+Rework the C<< $c->go >> documentation a little, hopefully it's more clear.
+
+r11382@t0mlaptop (orig r11352):  autarch | 2009-09-11 03:48:29 +0100
+Preserve immutable_options when temporarily making a class mutable
+
+r11383@t0mlaptop (orig r11353):  t0m | 2009-09-11 09:18:09 +0100
+Work with old and new Moose
+r11393@t0mlaptop (orig r11363):  autarch | 2009-09-14 19:37:25 +0100
+The warning about a class having mutable ancestors has been removed (and was never in a non-dev Moose release)
+
+r11396@t0mlaptop (orig r11366):  t0m | 2009-09-15 21:48:19 +0100
+Remove what is now lies from Changes. Bump all the deps which need to be bumped to not crap warnings everywhere
+r11399@t0mlaptop (orig r11369):  t0m | 2009-09-16 18:14:29 +0100
+Changelog
+r11400@t0mlaptop (orig r11370):  t0m | 2009-09-16 18:15:52 +0100
+Now we depend on latest Moose we are certain to have immutable options
+r11401@t0mlaptop (orig r11371):  t0m | 2009-09-17 09:52:34 +0100
+-short is dead, RT#49771
+r11402@t0mlaptop (orig r11372):  t0m | 2009-09-17 09:52:52 +0100
+Add note about actions in appclass being deprecated
+r11403@t0mlaptop (orig r11373):  t0m | 2009-09-17 09:54:45 +0100
+Add note about ::[MVC]:: warnings
+r11404@t0mlaptop (orig r11374):  t0m | 2009-09-17 09:58:15 +0100
+Re-space current release changelog to align with the rest. Move -short changelog to the right place.
+r11405@t0mlaptop (orig r11375):  rafl | 2009-09-17 10:33:28 +0100
+Version 5.80013.
+r11407@t0mlaptop (orig r11377):  t0m | 2009-09-17 14:32:16 +0100
+Well, that got forgotten, oops
+r11426@t0mlaptop (orig r11396):  rafl | 2009-09-20 15:01:45 +0100
+Fix a syntax error in the ContextClosure pod.
+r11427@t0mlaptop (orig r11397):  rafl | 2009-09-20 15:01:51 +0100
+Use clean instead of autoclean in the ContextClosure synopsis until we've fixed the issues with that and MXMA.
+r11428@t0mlaptop (orig r11398):  gbjk | 2009-09-21 15:05:17 +0100
+- Fix go / visit expecting captures and arguments in reverse order.
+
+r11429@t0mlaptop (orig r11399):  mateu | 2009-09-21 19:57:14 +0100
+Update $c->forward and $c->state documentation to address scalar context.
+r11430@t0mlaptop (orig r11400):  t0m | 2009-09-23 15:48:06 +0100
+Dep bump
+r11452@t0mlaptop (orig r11422):  t0m | 2009-09-25 13:03:50 +0100
+Remove warnings for using Catalyst::Dispatcher->dispatch_types
+r11459@t0mlaptop (orig r11429):  t0m | 2009-09-27 13:27:41 +0100
+Optional test not optional for authors
+r11460@t0mlaptop (orig r11430):  t0m | 2009-09-27 13:33:05 +0100
+Make r11422 not break stuff - idiot :(
+r11487@t0mlaptop (orig r11457):  t0m | 2009-10-05 22:59:47 +0100
+ r11483@t0mlaptop (orig r11453):  abraxxa | 2009-10-05 12:57:34 +0100
+ Improved the suggested fix warning when component resolution uses regex fallback for fully qualified component names.
+ Added disable_component_resolution_regex_fallback config option to switch off regex fallback for component resolution.
+ 
+
+r11488@t0mlaptop (orig r11458):  t0m | 2009-10-05 22:59:52 +0100
+ r11486@t0mlaptop (orig r11456):  t0m | 2009-10-05 22:59:01 +0100
+ Tidy up changelog/attribution
+
+r11503@t0mlaptop (orig r11468):  ilmari | 2009-10-06 16:30:41 +0100
+Set ->request on the response object i Catalyst::Test::local_request--This line, and those below, will be ignored--
+
+M    t/unit_load_catalyst_test.t
+M    lib/Catalyst/Test.pm
+M    Changes
+
+r11519@t0mlaptop (orig r11484):  phaylon | 2009-10-07 18:21:47 +0100
+added stub config section (incl TODO) to Cat.pm for things like 'current_view'
+r11548@t0mlaptop (orig r11513):  caelum | 2009-10-12 17:18:22 +0100
+fix uninitialized warning in ACL
+r11549@t0mlaptop (orig r11514):  caelum | 2009-10-12 17:22:08 +0100
+better fix for uninitialized warning
+r11550@t0mlaptop (orig r11515):  t0m | 2009-10-12 18:10:32 +0100
+Less cargo cult madness
+r11554@t0mlaptop (orig r11519):  caelum | 2009-10-13 15:37:02 +0100
+more correct fix for uninitialized warning from ACL
+r11556@t0mlaptop (orig r11521):  dhoss | 2009-10-14 01:14:42 +0100
+Snow Leopard uses COPYFILE_DISABLE
+r11557@t0mlaptop (orig r11522):  dhoss | 2009-10-14 01:20:06 +0100
+fixed regex for next mac codename/version, will have to actually figure out what the 10.7 codename is when it arrives
+r11558@t0mlaptop (orig r11523):  dhoss | 2009-10-14 01:23:45 +0100
+Attempted to make the error message more obvious
+r11561@t0mlaptop (orig r11526):  dhoss | 2009-10-14 01:50:26 +0100
+fixed error message for mac osx 10.7
+r11568@t0mlaptop (orig r11533):  hobbs | 2009-10-15 03:32:28 +0100
+Give people a pointer to chase if they're looking for info on $c->req->user
+
+r11574@t0mlaptop (orig r11539):  t0m | 2009-10-15 22:19:26 +0100
+Add docs I promised for  r11484
+r11622@t0mlaptop (orig r11587):  jshirley | 2009-10-16 21:06:19 +0100
+The longawaited nginx patch to support non-root apps, and some pod
+r11623@t0mlaptop (orig r11588):  jshirley | 2009-10-16 21:07:29 +0100
+Changes for nginx patches
+r11624@t0mlaptop (orig r11589):  jshirley | 2009-10-16 21:08:55 +0100
+My favorite color is clear and I like to eat rocks
+r11670@t0mlaptop (orig r11635):  t0m | 2009-10-19 18:02:59 +0100
+Remove warnings from duplicate action declerations
+r11675@t0mlaptop (orig r11640):  poisonbit | 2009-10-20 21:12:46 +0100
+Example added to #Actions_in_your_application_class
+
+
+r11676@t0mlaptop (orig r11641):  poisonbit | 2009-10-20 21:32:41 +0100
+Formating (a lost space and line break)
+
+
+r11677@t0mlaptop (orig r11642):  poisonbit | 2009-10-20 21:34:45 +0100
+More regresion from 11640, correcting parentheses and endpoint.
+
+
+r11678@t0mlaptop (orig r11643):  poisonbit | 2009-10-20 22:08:47 +0100
+Change in actions inside roles.
+http://bobtfish.livejournal.com/264317.html
+
+
+r11679@t0mlaptop (orig r11644):  poisonbit | 2009-10-20 23:16:03 +0100
+Fixes to pass podchecker OK
+
+
+r11714@t0mlaptop (orig r11679):  rafl | 2009-10-28 23:54:56 +0000
+Enable Catalyst::Utils::home() to find home within Dist::Zilla built dists.
+
+Courtesy of nperez.
+r11716@t0mlaptop (orig r11681):  t0m | 2009-10-29 00:43:07 +0000
+Make URI a link to make it super obvious
+r11796@t0mlaptop (orig r11761):  t0m | 2009-11-05 00:11:15 +0000
+Need newer LWP for tests to pass as suggested on list by Jose Luis Martinez
+r11811@t0mlaptop (orig r11776):  altreus | 2009-11-06 17:09:51 +0000
+Add doc for no-args call to ->uri_for
+r11813@t0mlaptop (orig r11778):  dhoss | 2009-11-06 17:13:27 +0000
+fixed options passed to devel server so that author tests pass
+r11814@t0mlaptop (orig r11779):  altreus | 2009-11-06 17:14:49 +0000
+Amend doc to not mention using undef in ->uri_for
+r11816@t0mlaptop (orig r11781):  t0m | 2009-11-07 16:50:59 +0000
+Back out change from -port to -l - svn merge -r 11778:11777
+r11823@t0mlaptop (orig r11788):  rafl | 2009-11-09 22:21:19 +0000
+Make request->body fail when used as a writer.
+r11824@t0mlaptop (orig r11789):  t0m | 2009-11-10 19:51:33 +0000
+Fix changelog, me--
+r11825@t0mlaptop (orig r11790):  t0m | 2009-11-10 19:56:09 +0000
+Warn on case_sensitive being set, remove documentation
+r11827@t0mlaptop (orig r11792):  t0m | 2009-11-10 21:36:06 +0000
+Return 1, only currently works by chance
+r11828@t0mlaptop (orig r11793):  t0m | 2009-11-10 21:37:26 +0000
+Also retarded
+r11829@t0mlaptop (orig r11794):  t0m | 2009-11-10 21:41:27 +0000
+And lets not change behaviour with the log flush change..
+r11836@t0mlaptop (orig r11801):  t0m | 2009-11-12 01:12:05 +0000
+Bring the changelog up to date.
+r11839@t0mlaptop (orig r11804):  t0m | 2009-11-12 01:44:46 +0000
+ r11462@t0mlaptop (orig r11432):  rafl | 2009-09-27 16:06:26 +0100
+ More aggregated tests.
+ r11463@t0mlaptop (orig r11433):  rafl | 2009-09-27 16:06:36 +0100
+ Fix a couple of aggregation warnings.
+ r11464@t0mlaptop (orig r11434):  rafl | 2009-09-27 16:06:51 +0100
+ More aggregation.
+ r11465@t0mlaptop (orig r11435):  rafl | 2009-09-27 16:28:04 +0100
+ Make things run again with aggregation disabled.
+ r11838@t0mlaptop (orig r11803):  t0m | 2009-11-12 01:39:56 +0000
+ Patch up changes to tests into new location. This merges parts of the following commits which were missed by svk:
+ 
+ -r11456:11457 http://dev.catalyst.perl.org/repos/Catalyst/Catalyst-Runtime/5.80/trunk
+ -r11467:11468 http://dev.catalyst.perl.org/repos/Catalyst/Catalyst-Runtime/5.80/trunk
+ 
+
+r11841@t0mlaptop (orig r11806):  bricas | 2009-11-12 17:58:02 +0000
+remove duplicate changelog entry
+r11847@t0mlaptop (orig r11812):  t0m | 2009-11-12 23:57:15 +0000
+ r11668@t0mlaptop (orig r11633):  t0m | 2009-10-19 17:53:27 +0100
+ Branch for uri encoding things in uri_for in some way that means you can round trip path parts like '24/7', but without totally breaking backward compatibility this time hopefully.
+ 
+ r11669@t0mlaptop (orig r11634):  t0m | 2009-10-19 17:54:08 +0100
+ Well, this fixes my current issue, and doesn't seem to break any tests.. This likely means that the tests are still shit
+ r11769@t0mlaptop (orig r11734):  t0m | 2009-11-04 19:17:33 +0000
+ Needed for authors to run optional http test
+ r11833@t0mlaptop (orig r11798):  t0m | 2009-11-12 00:22:06 +0000
+ Tests, fix args as well as captureargs and be less violent - only encode /
+ r11840@t0mlaptop (orig r11805):  rafl | 2009-11-12 16:08:57 +0000
+ trailing whitespace
+ r11843@t0mlaptop (orig r11808):  t0m | 2009-11-12 23:41:17 +0000
+ Tidy up a bit
+ r11845@t0mlaptop (orig r11810):  t0m | 2009-11-12 23:46:28 +0000
+ Changelog
+ r11846@t0mlaptop (orig r11811):  t0m | 2009-11-12 23:56:36 +0000
+ Don't fail the live tests by only looking for http://localhost/etc..
+
+r11858@t0mlaptop (orig r11823):  t0m | 2009-11-14 17:26:04 +0000
+Pod patch
+r11860@t0mlaptop (orig r11825):  t0m | 2009-11-14 17:30:26 +0000
+Pod fixes re RT#51489
+r11914@t0mlaptop (orig r11879):  rafl | 2009-11-17 23:00:32 +0000
+Merge branch 'exception_interface'
+
+* exception_interface:
+  Use MooseX::Role::WithOverloading.
+  Add Exception::Interface and Exception::Basic. Make ::Base, ::Go and ::Detach use them.
+  Create branch exception_interface
+r11953@t0mlaptop (orig r11918):  t0m | 2009-11-19 21:58:59 +0000
+Add Pod for all the new exception classes
+r11954@t0mlaptop (orig r11919):  t0m | 2009-11-19 22:00:27 +0000
+Rename http server test as it is not optional for authors
+r11978@t0mlaptop (orig r11943):  rafl | 2009-11-20 06:22:44 +0000
+Fix a doc typo.
+
+Also trim some trailing whitespace.
+r11979@t0mlaptop (orig r11944):  rafl | 2009-11-20 06:22:51 +0000
+Remove some docs for Exception::Go and ::Detach.
+
+Users really shouldn't care.
+r11980@t0mlaptop (orig r11945):  rafl | 2009-11-20 07:05:08 +0000
+Depend on MX::Role::WithOverloading 0.03 to make sure things work out on 5.8.8 and older.
+r11986@t0mlaptop (orig r11951):  rafl | 2009-11-21 01:30:07 +0000
+Remove duplicate changelog entry.
+r11987@t0mlaptop (orig r11952):  rafl | 2009-11-21 01:43:12 +0000
+Improve Exception::Interface docs.
+r11988@t0mlaptop (orig r11953):  rafl | 2009-11-21 01:43:28 +0000
+More changelogging.
+r11989@t0mlaptop (orig r11954):  rafl | 2009-11-21 01:43:57 +0000
+Refer to the right ticket in Changes.
+r11990@t0mlaptop (orig r11955):  rafl | 2009-11-21 02:31:02 +0000
+Version 5.80014.
+r11996@t0mlaptop (orig r11961):  zby | 2009-11-21 13:03:43 +0000
+warning for plugins inheriting from Catayst::Component
+r11998@t0mlaptop (orig r11963):  t0m | 2009-11-22 12:57:30 +0000
+Chop out that crap, not needed
+r11999@t0mlaptop (orig r11964):  t0m | 2009-11-22 13:01:09 +0000
+Do not be @ISA Controller, that's hideous dumb and now warns
+r12000@t0mlaptop (orig r11965):  t0m | 2009-11-22 13:01:48 +0000
+Do not use NEXT, like it says in the comments
+r12001@t0mlaptop (orig r11966):  t0m | 2009-11-22 13:04:50 +0000
+Fix unicode issues in CGI and FastCGI engines
+r12002@t0mlaptop (orig r11967):  t0m | 2009-11-22 13:08:47 +0000
+Changelog, adjust warning text, bump versions for a dev release. The 'we do get Class::C3::Adopt::NEXT warnings test is now broken, no idea why, will look later.
+r12003@t0mlaptop (orig r11968):  t0m | 2009-11-22 19:42:30 +0000
+Different phrasing for different versions
+r12004@t0mlaptop (orig r11969):  t0m | 2009-11-22 19:53:00 +0000
+Whoops, fix typo
+r12005@t0mlaptop (orig r11970):  t0m | 2009-11-22 19:58:31 +0000
+It actually wants 'true', make that more explicit
+r12006@t0mlaptop (orig r11971):  t0m | 2009-11-22 19:59:04 +0000
+release 5.80014_01
+r12008@t0mlaptop (orig r11973):  t0m | 2009-11-22 20:08:28 +0000
+Notabs is author only
+r12009@t0mlaptop (orig r11974):  t0m | 2009-11-22 20:11:17 +0000
+Pod tests are also author only
+r12010@t0mlaptop (orig r11975):  t0m | 2009-11-22 20:13:06 +0000
+Changelog
+r12013@t0mlaptop (orig r11978):  t0m | 2009-11-23 21:25:19 +0000
+Don't do bytes::length, just use length, tests to demonstrate the issue
+r12014@t0mlaptop (orig r11979):  t0m | 2009-11-23 21:45:55 +0000
+Nasty hack for fastcgi, fixes gitalist
+r12021@t0mlaptop (orig r11986):  t0m | 2009-11-23 22:57:40 +0000
+Have a new conflict statement
+r12035@t0mlaptop (orig r12000):  t0m | 2009-11-24 09:50:07 +0000
+Trivial Pod fixes
+r12055@t0mlaptop (orig r12020):  t0m | 2009-11-26 01:07:08 +0000
+Remove test spraff
+r12057@t0mlaptop (orig r12022):  t0m | 2009-11-26 01:21:22 +0000
+Back out 11979 until I work out why IPC::Run is getting hold of the FCGI file handle
+r12070@t0mlaptop (orig r12035):  t0m | 2009-11-26 21:29:32 +0000
+Fix test on bleadperl RT#52100
+r12095@t0mlaptop (orig r12060):  gshank | 2009-11-27 22:43:11 +0000
+testcase for Chained bug - dispatches to wrong action
+
+r12108@t0mlaptop (orig r12073):  rafl | 2009-11-29 16:43:17 +0000
+Depend on a recent leakchecker to stop everything from crapping over itself if PadWalker is too old.
+r12110@t0mlaptop (orig r12075):  t0m | 2009-11-29 17:16:40 +0000
+ r11583@nc10 (orig r10642):  dhoss | 2009-06-24 22:18:13 +0100
+ created better scripts branch
+ 
+ r11584@nc10 (orig r10643):  dhoss | 2009-06-24 22:21:03 +0100
+ initial script commit
+ 
+ r11585@nc10 (orig r10644):  dhoss | 2009-06-24 23:56:42 +0100
+ initial ScriptRunner checkin
+ 
+ r11588@nc10 (orig r10647):  dhoss | 2009-06-25 01:54:12 +0100
+ added a test application to get the new scripts working
+ created Catalyst::ScriptRunner, Catalyst::Script::*
+ got Catalyst::Script::FastCGI running
+ wrote a test for Catalyst::Script::FastCGI, but it fails for some reason
+ 
+ r11590@nc10 (orig r10649):  dhoss | 2009-06-25 02:10:57 +0100
+ added dev_server test, poked Catalyst::Script::Create
+ 
+ r11591@nc10 (orig r10650):  dhoss | 2009-06-25 02:21:18 +0100
+ fixed test server, blech
+ 
+ r11592@nc10 (orig r10651):  dhoss | 2009-06-25 02:28:41 +0100
+ pulled crap out of testapp_server
+ 
+ r11593@nc10 (orig r10652):  dhoss | 2009-06-25 02:41:39 +0100
+ fixed server start
+ 
+ r11594@nc10 (orig r10653):  dhoss | 2009-06-25 03:03:00 +0100
+ fixed Server and testapp_server.pl. Test still wonky
+ 
+ r11595@nc10 (orig r10654):  dhoss | 2009-06-25 03:15:18 +0100
+ poked at t/start_dev_server.t
+ corrected Server to start with HTTP not CGI
+ 
+ r11597@nc10 (orig r10656):  dhoss | 2009-06-25 03:30:41 +0100
+ updated testapp_cgi.pl
+ updated CGI
+ 
+ r11598@nc10 (orig r10657):  dhoss | 2009-06-25 04:11:14 +0100
+ added more to Test, added testapp_test, and worked on start_fcgi
+ 
+ r11604@nc10 (orig r10663):  dhoss | 2009-06-25 11:37:12 +0100
+ updated Makefil.PL
+ 
+ r11624@nc10 (orig r10683):  dhoss | 2009-06-26 20:46:17 +0100
+ updated so that if their class doesn't load, we use ours.
+ 
+ r11650@nc10 (orig r10709):  dhoss | 2009-06-28 21:33:41 +0100
+ added name to contributors list
+ 
+ r11660@nc10 (orig r10719):  t0m | 2009-06-29 00:12:11 +0100
+ Kind of, sort of make the server work, except it doesn't
+ r11685@nc10 (orig r10744):  dhoss | 2009-06-30 19:28:47 +0100
+ fixed Server
+ 
+ r11726@nc10 (orig r10785):  dhoss | 2009-07-04 01:41:40 +0100
+ help option now has a short option
+ 
+ r11727@nc10 (orig r10786):  dhoss | 2009-07-04 01:44:15 +0100
+ fork now has a short option
+ 
+ r11728@nc10 (orig r10787):  dhoss | 2009-07-04 01:45:19 +0100
+ listen now has a short option
+ 
+ r11729@nc10 (orig r10788):  dhoss | 2009-07-04 01:49:39 +0100
+ doez haz pidfile short opt
+ 
+ r11730@nc10 (orig r10789):  dhoss | 2009-07-04 01:51:12 +0100
+ doez haz keepalive short opt
+ 
+ r11731@nc10 (orig r10790):  dhoss | 2009-07-04 01:51:35 +0100
+ changed pf => pid
+ 
+ r11732@nc10 (orig r10791):  dhoss | 2009-07-04 01:53:16 +0100
+ background now has a short opshun
+ 
+ r11733@nc10 (orig r10792):  dhoss | 2009-07-04 01:54:29 +0100
+ restart has short option
+ 
+ r11734@nc10 (orig r10793):  dhoss | 2009-07-04 01:56:16 +0100
+ restart_delay HAZ OPSHUN
+ 
+ r11735@nc10 (orig r10794):  dhoss | 2009-07-04 01:57:11 +0100
+ restart regex has a short option
+ 
+ r11736@nc10 (orig r10795):  dhoss | 2009-07-04 01:58:02 +0100
+ follow_symlinks has short option
+ 
+ r11737@nc10 (orig r10796):  dhoss | 2009-07-04 03:01:44 +0100
+ Updated testapp_server
+ broke Script::Server, why?!
+ 
+ r11738@nc10 (orig r10797):  dhoss | 2009-07-04 03:57:13 +0100
+ added namespace::autoclean to all the helper classes
+ removed a redundant use Catalyst::Engine::HTTP
+ 
+ r11739@nc10 (orig r10798):  dhoss | 2009-07-04 04:25:25 +0100
+ added warn to setup. sigh. doesn't appear it's getting called, unless 
+ i'm way off.
+ 
+ r11740@nc10 (orig r10799):  dhoss | 2009-07-04 04:27:41 +0100
+ untarded!
+ 
+ r11741@nc10 (orig r10800):  dhoss | 2009-07-04 04:28:15 +0100
+ really untarded
+ 
+ r11778@nc10 (orig r10837):  dhoss | 2009-07-11 00:27:12 +0100
+ removed except meta stuff since we're using autoclean
+ 
+ r11779@nc10 (orig r10838):  dhoss | 2009-07-11 01:06:53 +0100
+ fixed Catalyst::Script::Server so app doesn't have to be a cmd line opt
+ 
+ r11780@nc10 (orig r10839):  dhoss | 2009-07-11 01:14:43 +0100
+ removed all required => 0
+ 
+ r11781@nc10 (orig r10840):  dhoss | 2009-07-11 01:18:23 +0100
+ removed "broken" commetn
+ 
+ r11782@nc10 (orig r10841):  dhoss | 2009-07-11 01:19:41 +0100
+ removed debug warn
+ 
+ r11783@nc10 (orig r10842):  dhoss | 2009-07-11 01:31:58 +0100
+ removed default => 0s
+ 
+ r11784@nc10 (orig r10843):  dhoss | 2009-07-11 01:34:54 +0100
+ added debug option
+ 
+ r11785@nc10 (orig r10844):  dhoss | 2009-07-11 02:50:11 +0100
+ fasterized
+ 
+ r11786@nc10 (orig r10845):  dhoss | 2009-07-11 03:21:41 +0100
+ added restarter code
+ 
+ r11787@nc10 (orig r10846):  dhoss | 2009-07-11 03:24:02 +0100
+ fixed follow_symlinks option in restarter code
+ 
+ r11788@nc10 (orig r10847):  dhoss | 2009-07-11 03:33:44 +0100
+ cleaned up sub runner
+ 
+ r11793@nc10 (orig r10852):  t0m | 2009-07-11 19:10:02 +0100
+ Strip trailing spaces
+ r11801@nc10 (orig r10860):  autarch | 2009-07-11 20:32:11 +0100
+ Get the restarter running
+ r11809@nc10 (orig r10868):  t0m | 2009-07-12 18:15:09 +0100
+ Too slow
+ r11810@nc10 (orig r10869):  t0m | 2009-07-12 18:27:36 +0100
+ And unfuck so the app name is passed properly
+ r11831@nc10 (orig r10890):  dhoss | 2009-07-15 22:41:11 +0100
+ -d and --debug work for me
+ 
+ r11834@nc10 (orig r10893):  dhoss | 2009-07-16 10:25:47 +0100
+ added Deploy prototype
+ 
+ r11843@nc10 (orig r10902):  dhoss | 2009-07-17 01:52:56 +0100
+ untarded and added documentation
+ 
+ r11844@nc10 (orig r10903):  dhoss | 2009-07-17 01:53:38 +0100
+ don't need  -except => [ qw(meta) ] with autoclean
+ 
+ r11845@nc10 (orig r10904):  dhoss | 2009-07-17 02:00:54 +0100
+ added documentation, surely needs refining
+ 
+ r11846@nc10 (orig r10905):  dhoss | 2009-07-17 02:01:25 +0100
+ removed -except => qw[meta]
+ 
+ r11847@nc10 (orig r10906):  dhoss | 2009-07-17 02:04:12 +0100
+ cleaned up
+ 
+ r11848@nc10 (orig r10907):  dhoss | 2009-07-17 02:12:07 +0100
+ added documentation
+ 
+ r11849@nc10 (orig r10908):  dhoss | 2009-07-17 02:13:28 +0100
+ fasterized
+ 
+ r11850@nc10 (orig r10909):  dhoss | 2009-07-17 02:15:04 +0100
+ added MX::Types::Moose
+ 
+ r11851@nc10 (orig r10910):  dhoss | 2009-07-17 02:24:44 +0100
+ added MX::Types::Moose, cleaned up moar
+ 
+ r11852@nc10 (orig r10911):  dhoss | 2009-07-17 02:43:29 +0100
+ created proof of working app
+ 
+ r11853@nc10 (orig r10912):  dhoss | 2009-07-17 02:44:07 +0100
+ removed proof of working tests
+ 
+ r11966@nc10 (orig r11025):  dhoss | 2009-08-04 01:00:57 +0100
+ removed MooseX::Command::* stuff for now
+ 
+ r11967@nc10 (orig r11026):  dhoss | 2009-08-04 01:01:43 +0100
+ removed MooseX::App::CMD* stuff from ScriptRunner
+ 
+ r11968@nc10 (orig r11027):  dhoss | 2009-08-04 01:22:27 +0100
+ split helper into app generation helper and component generation helper (initial split, at least)
+ 
+ r11976@nc10 (orig r11035):  dhoss | 2009-08-05 21:07:12 +0100
+ had this stuff in the wrong branch, blech
+ 
+ r12162@nc10 (orig r11221):  dhoss | 2009-08-23 21:32:34 +0100
+ added command directory structure for MooseX::App::Cmd
+ 
+ r12236@nc10 (orig r11295):  t0m | 2009-09-02 01:48:38 +0100
+  r11288@t0mlaptop:  t0m | 2009-09-02 00:26:10 +0100
+  Remove unused TestApp
+ 
+ r12237@nc10 (orig r11296):  t0m | 2009-09-02 01:48:43 +0100
+  r11289@t0mlaptop:  t0m | 2009-09-02 00:33:55 +0100
+  Remove DBIC deploy script, this should not be in core runtime
+ 
+ r12238@nc10 (orig r11297):  t0m | 2009-09-02 01:48:47 +0100
+  r11290@t0mlaptop:  t0m | 2009-09-02 01:09:31 +0100
+  Remove empty directories
+ 
+ r12239@nc10 (orig r11298):  t0m | 2009-09-02 01:48:54 +0100
+  r11291@t0mlaptop:  t0m | 2009-09-02 01:14:00 +0100
+  Factor stuff out into a script role, clean up all the script code
+ 
+ r12254@nc10 (orig r11313):  t0m | 2009-09-05 16:16:00 +0100
+  r11320@tomas-dorans-macbook-pro:  t0m | 2009-09-05 12:38:54 +0100
+  Fix passing correct key, re-add getopt trait as this is needed, my bad
+ 
+ r12255@nc10 (orig r11314):  t0m | 2009-09-05 16:16:04 +0100
+  r11321@tomas-dorans-macbook-pro:  t0m | 2009-09-05 12:42:20 +0100
+  Make ScriptRunner include the lib path.
+ 
+ r12256@nc10 (orig r11315):  t0m | 2009-09-05 16:16:08 +0100
+  r11322@tomas-dorans-macbook-pro:  t0m | 2009-09-05 12:47:39 +0100
+  Fix FastCGI script
+ 
+ r12257@nc10 (orig r11316):  t0m | 2009-09-05 16:16:13 +0100
+  r11323@tomas-dorans-macbook-pro:  t0m | 2009-09-05 12:48:58 +0100
+  Fix CGI script
+ 
+ r12258@nc10 (orig r11317):  t0m | 2009-09-05 16:16:15 +0100
+  r11324@tomas-dorans-macbook-pro:  t0m | 2009-09-05 12:56:01 +0100
+  Add a short TODO list to complete before this branch is merged
+ 
+ r12259@nc10 (orig r11318):  t0m | 2009-09-05 16:16:20 +0100
+  r11325@tomas-dorans-macbook-pro:  t0m | 2009-09-05 12:57:21 +0100
+  Default run methods not required, can be provided by the role
+ 
+ r12260@nc10 (orig r11319):  t0m | 2009-09-05 16:16:25 +0100
+  r11326@tomas-dorans-macbook-pro:  t0m | 2009-09-05 13:00:17 +0100
+  Documentation dinks
+ 
+ r12261@nc10 (orig r11320):  t0m | 2009-09-05 16:16:30 +0100
+  r11327@tomas-dorans-macbook-pro:  t0m | 2009-09-05 13:01:00 +0100
+  Gawd, that is out of date
+ 
+ r12262@nc10 (orig r11321):  t0m | 2009-09-05 16:16:33 +0100
+  r11328@tomas-dorans-macbook-pro:  t0m | 2009-09-05 13:06:34 +0100
+  More POD
+ 
+ r12263@nc10 (orig r11322):  t0m | 2009-09-05 16:16:37 +0100
+  r11329@tomas-dorans-macbook-pro:  t0m | 2009-09-05 13:08:41 +0100
+  We need to depend on MX::Types, and ::StashChange not needed any more
+ 
+ r12264@nc10 (orig r11323):  t0m | 2009-09-05 16:16:41 +0100
+  r11330@tomas-dorans-macbook-pro:  t0m | 2009-09-05 13:09:11 +0100
+  We also need autoclean
+ 
+ r12265@nc10 (orig r11324):  t0m | 2009-09-05 16:16:48 +0100
+  r11331@tomas-dorans-macbook-pro:  t0m | 2009-09-05 13:43:25 +0100
+  Basic tests for ScriptRunner, more needed
+ 
+ r12320@nc10 (orig r11379):  t0m | 2009-09-17 22:47:22 +0100
+ Skeleton testapp for testing the args thrown to the run method by scripts
+ r12321@nc10 (orig r11380):  t0m | 2009-09-17 23:10:46 +0100
+ Meh, that shows what I mean. This can be done waaaay more elegantly by abstracting the testing logic..
+ r12377@nc10 (orig r11436):  zts | 2009-09-27 20:12:39 +0100
+ Further tests for Server script option parsing.
+ Also, first pass at abstracting the test logic.  Currently very ugly.
+ 
+ r12402@nc10 (orig r11461):  t0m | 2009-10-05 23:17:11 +0100
+ And start the app correctly(ish) under the restarter - really not sure args are perserved correctly?
+ r12908@nc10 (orig r11777):  dhoss | 2009-11-06 17:12:25 +0000
+ fixed dev server options so that test now passes
+ r12911@nc10 (orig r11780):  dhoss | 2009-11-06 17:25:35 +0000
+ unfucked test server options and made test pass f'real this time
+ r13011@nc10 (orig r11880):  t0m | 2009-11-18 00:51:29 +0000
+ Beat somewhat into shape by comparing the old and new docs. Need to write basic tests for the other scripts.
+ r13052@nc10 (orig r11921):  t0m | 2009-11-19 22:23:58 +0000
+ Move to aggregate
+ r13053@nc10 (orig r11922):  t0m | 2009-11-19 23:32:24 +0000
+ Unified help display, at the cost of having lost the info about what you fucked up. Neither of these are particularly helpful, but this is at least uniform
+ r13054@nc10 (orig r11923):  t0m | 2009-11-19 23:48:42 +0000
+ Cleanup and some moar tests
+ r13055@nc10 (orig r11924):  t0m | 2009-11-20 00:00:02 +0000
+ More tests for help, proving it's still bork
+ r13056@nc10 (orig r11925):  t0m | 2009-11-20 00:13:53 +0000
+ Basic tests for fcgi script
+ r13057@nc10 (orig r11926):  t0m | 2009-11-20 00:44:35 +0000
+ Fix script_test.pl
+ r13058@nc10 (orig r11927):  t0m | 2009-11-20 00:45:13 +0000
+ Pass Pod coverage
+ r13059@nc10 (orig r11928):  t0m | 2009-11-20 01:00:24 +0000
+ Nested TAP and Test::Aggregate don't play nice together. It was cute, but screw it, sorry zts
+ r13060@nc10 (orig r11929):  t0m | 2009-11-20 01:01:47 +0000
+ Fugly test for myapp_test.pl. If someone fancies rewriting the IO redirection to be less gross then I loveyoulongtime
+ r13061@nc10 (orig r11930):  t0m | 2009-11-20 01:07:04 +0000
+ Update todo on this branch
+ r13123@nc10 (orig r11992):  t0m | 2009-11-23 23:40:57 +0000
+ Fix duplicate short options issue
+ r13124@nc10 (orig r11993):  t0m | 2009-11-23 23:43:32 +0000
+ Chomp trailing space
+ r13125@nc10 (orig r11994):  t0m | 2009-11-23 23:49:10 +0000
+ And do that in a way which actually works
+ r13126@nc10 (orig r11995):  t0m | 2009-11-23 23:56:49 +0000
+ Fix test
+ r13127@nc10 (orig r11996):  t0m | 2009-11-24 00:15:45 +0000
+ Add tests for the create script and fix the bugs that this shows up
+ r13146@nc10 (orig r12015):  t0m | 2009-11-25 22:32:11 +0000
+ Fix warnings from ScriptRunner
+ r13147@nc10 (orig r12016):  t0m | 2009-11-25 22:51:28 +0000
+ Fix big bug in test
+ r13148@nc10 (orig r12017):  t0m | 2009-11-26 00:25:01 +0000
+ Get useful help about which option you fucked up back
+ r13149@nc10 (orig r12018):  t0m | 2009-11-26 00:35:31 +0000
+ Remove most of the horrible
+ r13150@nc10 (orig r12019):  t0m | 2009-11-26 01:02:52 +0000
+ Tidy up help and TODO tests
+ r13161@nc10 (orig r12030):  t0m | 2009-11-26 01:53:20 +0000
+ Fix up docs
+ r13162@nc10 (orig r12031):  t0m | 2009-11-26 02:23:00 +0000
+ Factor restarter arg assembly out into it's own routine for ease of testing. Use $self->ARGV instead of $ARGV
+ r13165@nc10 (orig r12034):  t0m | 2009-11-26 21:02:57 +0000
+ Fix typo, bricas++, add simple test for restarter arguments
+ r13175@nc10 (orig r12044):  t0m | 2009-11-26 23:40:27 +0000
+ Pass app name into constructor
+ r13185@nc10 (orig r12054):  t0m | 2009-11-27 02:08:33 +0000
+ Bump version in runtime branch
+ r13192@nc10 (orig r12061):  t0m | 2009-11-28 12:38:12 +0000
+ Adding the files you need for the tests you've committed helps them pass, idiot :)
+ r13194@nc10 (orig r12063):  rafl | 2009-11-29 14:00:12 +0000
+ Depend on a new CMOP because we rely on its new load_class error messages.
+ r13195@nc10 (orig r12064):  rafl | 2009-11-29 14:00:19 +0000
+ Make follow_symlinks more consistent with the other restarter args.
+ r13196@nc10 (orig r12065):  rafl | 2009-11-29 14:00:25 +0000
+ Properly validate restart regexen.
+ r13197@nc10 (orig r12066):  rafl | 2009-11-29 14:00:31 +0000
+ Tidy up some attr definitions.
+ r13198@nc10 (orig r12067):  rafl | 2009-11-29 14:00:38 +0000
+ Port numbers need to be > 0.
+ r13199@nc10 (orig r12068):  rafl | 2009-11-29 14:00:43 +0000
+ Remove useless lexical.
+ r13200@nc10 (orig r12069):  rafl | 2009-11-29 14:00:51 +0000
+ Less trailing whitespace.
+ r13201@nc10 (orig r12070):  rafl | 2009-11-29 15:33:48 +0000
+ This is not a release.
+ r13202@nc10 (orig r12071):  rafl | 2009-11-29 15:33:55 +0000
+ Tidy things up a little and fix pod usage.
+
+r12121@t0mlaptop (orig r12086):  t0m | 2009-11-30 22:59:15 +0000
+Require new M::I
+r12126@t0mlaptop (orig r12091):  t0m | 2009-12-01 00:09:19 +0000
+ r12113@t0mlaptop (orig r12078):  t0m | 2009-11-30 18:25:57 +0000
+ Branch for path_info fixes. This may be short lived, but worth doing..
+ 
+ r12114@t0mlaptop (orig r12079):  t0m | 2009-11-30 18:26:34 +0000
+ Commit miyagawa's fix for PATH_INFO decoding. I think that this also implies changes / fixes in the fcgi _fix_env stuff
+ r12116@t0mlaptop (orig r12081):  t0m | 2009-11-30 20:44:16 +0000
+ And yea, these test cases now pass
+ r12118@t0mlaptop (orig r12083):  t0m | 2009-11-30 21:02:14 +0000
+ I think the nginx hackery can just die with the new code in ::Engine::CGI
+ r12119@t0mlaptop (orig r12084):  t0m | 2009-11-30 22:05:41 +0000
+ Back out r12083, also clarify the docs - like this works for me now, and the bottom para seems the wrong way round...?
+ r12122@t0mlaptop (orig r12087):  t0m | 2009-11-30 23:17:33 +0000
+ Require new HTTP::Request::AsCGI
+ r12124@t0mlaptop (orig r12089):  t0m | 2009-11-30 23:23:38 +0000
+ Rewrite changelog entry to be more complete
+
+r12127@t0mlaptop (orig r12092):  t0m | 2009-12-01 00:52:57 +0000
+TODO out gshanks chained tests
+r12128@t0mlaptop (orig r12093):  t0m | 2009-12-01 00:54:23 +0000
+Bump deps and changelog for another dev release with new scripts and scary path resolving changes so I can have another call to test.
+
+
+---> The original commit sha is - 3677a4ddb3053561fa232f93fbdf1201b063ba64
+Commit message - Merge 'trunk' into 'param_filtering'
+
+r12135@t0mlaptop (orig r12100):  t0m | 2009-12-01 02:16:08 +0000
+Fix bug in Catalyst::Engine which could cause it to all go wrong if read returned '0' as per thread on mailing list re 'Wrong Content-Length value' and clarify docs about read and read_chunk methods in Catalyst::Engine
+r12149@t0mlaptop (orig r12114):  t0m | 2009-12-01 04:19:44 +0000
+The documentation example had the variables the opposite way round to my working nginx config. CLEARLY this meant the documentation needed the variables (but not their values) transposing. Yes, yes - I really am _that_ dumb.
+r12181@t0mlaptop (orig r12146):  t0m | 2009-12-02 15:10:52 +0000
+Changes, bump version
+r12184@t0mlaptop (orig r12149):  t0m | 2009-12-02 18:58:14 +0000
+Pod nits, rt#52370
+r12185@t0mlaptop (orig r12150):  t0m | 2009-12-02 19:13:19 +0000
+And that's what I get for not really applying the patch and doing it manually. Fail..
+r12186@t0mlaptop (orig r12151):  gshank | 2009-12-02 21:52:21 +0000
+add another failing test for Chained CaptureArgs preference
+
+r12203@t0mlaptop (orig r12168):  t0m | 2009-12-03 17:15:17 +0000
+I can't stand the over-long debug screens any more. Suggestions on how to do this in a less gross way?
+r12244@t0mlaptop (orig r12209):  t0m | 2009-12-06 12:47:59 +0000
+Win32 fix, kmx++
+r12245@t0mlaptop (orig r12210):  t0m | 2009-12-06 13:04:50 +0000
+Skip on win32, hopefully we'll get a better answer than this, but lets stop failing
+r12253@t0mlaptop (orig r12218):  rafl | 2009-12-06 16:31:52 +0000
+Undocument $request->user.
+r12254@t0mlaptop (orig r12219):  autarch | 2009-12-06 18:44:36 +0000
+Add restartdirectory as alias for restart_directory, for backcompat
+
+r12255@t0mlaptop (orig r12220):  autarch | 2009-12-06 18:48:34 +0000
+fix pod for Server script so options match actual attr name
+r12257@t0mlaptop (orig r12222):  autarch | 2009-12-06 18:50:57 +0000
+Doc change for --restartdirectory
+
+r12260@t0mlaptop (orig r12225):  kmx | 2009-12-06 20:11:43 +0000
+Win32 fix: reverting commit 12210 (after a discussion with t0m) - all tests pass on Win32/strawberry perl 5.8.9 and 5.10.1
+r12287@t0mlaptop (orig r12252):  autarch | 2009-12-08 05:38:40 +0000
+Don't default to localhost for --host
+
+Tweak docs for --host to say it accepts a name or IP
+
+r12288@t0mlaptop (orig r12253):  autarch | 2009-12-08 05:39:25 +0000
+Doc --host change
+
+r12291@t0mlaptop (orig r12256):  t0m | 2009-12-08 11:16:44 +0000
+Fix tests from r12252, add comments to make the behavior explicit
+r12306@t0mlaptop (orig r12271):  t0m | 2009-12-09 18:30:53 +0000
+Regression for 5.80015 when rewriting an app, nanonyme++, Khisanth++
+r12311@t0mlaptop (orig r12276):  t0m | 2009-12-09 20:21:13 +0000
+Fixes port environment, RT#52604
+r12312@t0mlaptop (orig r12277):  t0m | 2009-12-09 20:35:13 +0000
+And more tests and fixing for the same thing
+r12313@t0mlaptop (orig r12278):  t0m | 2009-12-09 20:50:18 +0000
+Changelog
+r12314@t0mlaptop (orig r12279):  t0m | 2009-12-09 20:54:53 +0000
+More tests for the prepare_path thing, fix said tests, changelog
+r12316@t0mlaptop (orig r12281):  t0m | 2009-12-09 21:36:13 +0000
+Additional test
+r12325@t0mlaptop (orig r12290):  t0m | 2009-12-10 09:46:10 +0000
+Fix RT#52630
+r12342@t0mlaptop (orig r12307):  t0m | 2009-12-11 12:44:55 +0000
+Unfuck that as well
+r12350@t0mlaptop (orig r12315):  t0m | 2009-12-11 23:25:35 +0000
+Remove warning when running tests aggregated
+r12351@t0mlaptop (orig r12316):  t0m | 2009-12-11 23:26:08 +0000
+Changelog, bump version
+r12352@t0mlaptop (orig r12317):  rafl | 2009-12-11 23:28:09 +0000
+moar better warnings fix.
+r12422@t0mlaptop (orig r12387):  t0m | 2009-12-15 10:21:32 +0000
+Bug fix for issue reported on the mailing list by Toby Corkindale
+r12466@t0mlaptop (orig r12431):  t0m | 2009-12-18 19:55:03 +0000
+Fix RT#52898, __MOP__ removal breaking debug screen with C::P::Session
+r12497@t0mlaptop (orig r12462):  t0m | 2009-12-22 14:19:36 +0000
+Someone think of a less fugly way of doing this please? Fixes using rewrite rules to ask for a sub-path in your app with apache in some combinations..
+r12528@t0mlaptop (orig r12493):  t0m | 2009-12-30 15:55:43 +0000
+Fix regex special characters screwing things up by not using regexes
+r12559@t0mlaptop (orig r12524):  t0m | 2010-01-04 20:52:10 +0000
+Doc fix
+r12560@t0mlaptop (orig r12525):  t0m | 2010-01-04 20:55:25 +0000
+Clarify comment
+r12564@t0mlaptop (orig r12529):  rafl | 2010-01-05 00:28:35 +0000
+Stop supressing Adopt::NEXT warnings.
+r12570@t0mlaptop (orig r12535):  rafl | 2010-01-06 15:59:41 +0000
+Clarify comment.
+r12589@t0mlaptop (orig r12554):  t0m | 2010-01-09 15:37:00 +0000
+Don't screw over people using --detach, <sigh>
+r12590@t0mlaptop (orig r12555):  t0m | 2010-01-09 15:57:27 +0000
+Back out r12493, use \Q instead
+r12591@t0mlaptop (orig r12556):  t0m | 2010-01-09 15:58:18 +0000
+Changelog Adopt::NEXT warnings
+r12592@t0mlaptop (orig r12557):  t0m | 2010-01-09 16:43:25 +0000
+Correctly pass argv option into Catalyst::Engine::HTTP
+r12593@t0mlaptop (orig r12558):  t0m | 2010-01-09 16:54:08 +0000
+Un stupid
+r12594@t0mlaptop (orig r12559):  t0m | 2010-01-09 17:38:59 +0000
+Bump dep
+r12608@t0mlaptop (orig r12573):  t0m | 2010-01-09 18:22:02 +0000
+Bump version of ::Role::WithOverloading
+r12610@t0mlaptop (orig r12575):  t0m | 2010-01-09 19:01:59 +0000
+require autoclean once only
+r12622@t0mlaptop (orig r12587):  rafl | 2010-01-10 02:00:03 +0000
+Version 5.80017.
+r12631@t0mlaptop (orig r12596):  t0m | 2010-01-10 14:22:15 +0000
+Apply patch to clarify uri_for action from Octavian Rasnita on list
+r12640@t0mlaptop (orig r12605):  t0m | 2010-01-11 21:11:05 +0000
+Deprecate bare imports of Catalyst::Test - either use an app name or don't run the import method. As-per r12564
+r12648@t0mlaptop (orig r12613):  t0m | 2010-01-11 23:18:08 +0000
+Fix URI bug masked by HTTP::Request::AsCGI
+r12652@t0mlaptop (orig r12617):  rafl | 2010-01-12 21:37:31 +0000
+Fix a deprecation warning in the tests.
+r12653@t0mlaptop (orig r12618):  rafl | 2010-01-12 21:37:39 +0000
+canonical() is a no-op for the base uri.
+r12654@t0mlaptop (orig r12619):  rafl | 2010-01-12 21:37:46 +0000
+Version 5.80018.
+r12669@t0mlaptop (orig r12634):  rafl | 2010-01-14 02:26:03 +0000
+Depend on n:c 0.12 to work on perl >= 5.11.2.
+r12673@t0mlaptop (orig r12638):  rafl | 2010-01-14 05:21:24 +0000
+Exception stuff is fixed for a while now.
+r12674@t0mlaptop (orig r12639):  rafl | 2010-01-14 05:45:09 +0000
+Only set up the leakchecker for the tests that need it.
+
+That way we avoid the useless Devel::Cycle glob warnings.
+r12676@t0mlaptop (orig r12641):  dandv | 2010-01-14 08:15:10 +0000
+Typo fix
+r12678@t0mlaptop (orig r12643):  dandv | 2010-01-14 09:23:50 +0000
+Cosmetic: wrapped long code line
+r12690@t0mlaptop (orig r12655):  dandv | 2010-01-14 23:52:44 +0000
+Passing test case for RT #53678 - Catalyst::Test::get currently doesn't decode the response body octets
+
+r12691@t0mlaptop (orig r12656):  karpet | 2010-01-15 06:35:30 +0000
+in what case is a numeric comparison called for? I cannot think of one. Is this the best way to test?
+r12698@t0mlaptop (orig r12663):  t0m | 2010-01-15 16:39:55 +0000
+Clarify that it's an app, not a ctx here
+r12713@t0mlaptop (orig r12678):  rafl | 2010-01-18 09:00:20 +0000
+Depend on a namespace::clean that isn't broken on <= 5.8.8.
+r12725@t0mlaptop (orig r12690):  rafl | 2010-01-19 16:07:45 +0000
+Merge branch 'action_args'
+
+* action_args:
+  And another minor tweak.
+  Some more doc tweaking.
+  tweaked docs based on IRC suggestions
+  added documentation for the configuration option "action_args".
+  Allow passing extra args to action constructors using action_args config.
+  Add tests for passing extra arguments to action constructors.
+  Create branch action_args
+r12726@t0mlaptop (orig r12691):  rafl | 2010-01-19 16:08:22 +0000
+Changelog action_args.
+r12728@t0mlaptop (orig r12693):  aristotle | 2010-01-19 21:41:23 +0000
+fix $c->error doc in Catalyst.pm POD
+r12761@t0mlaptop (orig r12726):  aCiD2 | 2010-01-25 01:03:52 +0000
+Improve the documentation about -Home and how Catalyst finds the home path for apps
+r12762@t0mlaptop (orig r12727):  rafl | 2010-01-25 18:59:52 +0000
+Revert "in what case is a numeric comparison called for? I cannot think of one. Is this the best way to test?"
+
+This reverts commit 279b2f1abb0a8e056b8c905e5a4ecb66537ee194.
+r12763@t0mlaptop (orig r12728):  rafl | 2010-01-25 19:00:17 +0000
+Remove apparently useless Component::BUILDARGS conditional.
+r12778@t0mlaptop (orig r12743):  t0m | 2010-01-27 20:12:46 +0000
+Clarrify debug documentation
+r12779@t0mlaptop (orig r12744):  t0m | 2010-01-27 20:15:52 +0000
+Fix failing test related to missing g in regex
+r12781@t0mlaptop (orig r12746):  t0m | 2010-01-27 21:04:17 +0000
+Fix / => %2F in uri_for so that it only works for action objects as previously advertised as this has been screwing people. Also fix multiple / => %2F conversion in the same arg/capture
+r12793@t0mlaptop (orig r12758):  t0m | 2010-01-28 15:47:31 +0000
+Fix paths with URI encoding as the first path part
+r12794@t0mlaptop (orig r12759):  t0m | 2010-01-28 18:15:10 +0000
+And test the non root app case
+r12804@t0mlaptop (orig r12769):  t0m | 2010-01-28 23:28:15 +0000
+Changelog up to date
+r12805@t0mlaptop (orig r12770):  rafl | 2010-01-29 00:16:42 +0000
+Changelog tweaking.
+r12806@t0mlaptop (orig r12771):  rafl | 2010-01-29 00:16:48 +0000
+Version 5.80019.
+r12845@t0mlaptop (orig r12810):  rafl | 2010-02-04 05:50:05 +0000
+Merge branch 'expand_modules'
+
+* expand_modules:
+  Allow models and components to specify the names of any components they generate
+  Branching to allow components to specify any modules they may have created
+r12846@t0mlaptop (orig r12811):  rafl | 2010-02-04 06:18:46 +0000
+Version 5.80020.
+r12870@t0mlaptop (orig r12835):  t0m | 2010-02-08 21:46:15 +0000
+ r12572@t0mlaptop (orig r12537):  caelum | 2010-01-06 22:33:51 +0000
+ branch to utf8-decode captures and args
+ r12573@t0mlaptop (orig r12538):  caelum | 2010-01-06 22:56:59 +0000
+ utf8::decode captures and args, and uri-escape captures
+ r12574@t0mlaptop (orig r12539):  caelum | 2010-01-07 00:04:45 +0000
+ add a test for the uri_for utf8 stuff
+ r12869@t0mlaptop (orig r12834):  t0m | 2010-02-08 21:20:05 +0000
+ Unfuck
+
+r12889@t0mlaptop (orig r12853):  caelum | 2010-02-09 22:26:23 +0000
+update Changes, put comment back in
+r12890@t0mlaptop (orig r12854):  t0m | 2010-02-11 20:06:15 +0000
+Fix typo
+r12891@t0mlaptop (orig r12855):  t0m | 2010-02-11 20:36:22 +0000
+First attempt to make this make more sense.
+r12897@t0mlaptop (orig r12861):  rafl | 2010-02-14 11:30:23 +0000
+Make the debug log say the cat version with all its digits.
+r13014@t0mlaptop (orig r12978):  rafl | 2010-02-23 17:52:30 +0000
+fix doc typo.
+
+
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 39 is -> 
+{ f3bf297698a51092213b2339aa1d1271cda0a28c -> ab86b4807e99ae29a843e42cdc01f068c2cae734 } is a cherrypick
+{ 60bfba3ff3546d7e646699b944a75a4b01e50fae -> 9427c0579e74d599eb45a062b10a36ef60d2aed0 }
+Cherrypick commits SHA are -> 
+ab86b4807e99ae29a843e42cdc01f068c2cae734 - cherrypick - 9427c0579e74d599eb45a062b10a36ef60d2aed0
+---> The cherrypicked commit sha is - ab86b4807e99ae29a843e42cdc01f068c2cae734
+Commit message - Improved the suggested fix warning when component resolution uses regex fallback for fully qualified component names.
+Added disable_component_resolution_regex_fallback config option to switch off regex fallback for component resolution.
+---> The original commit sha is - 9427c0579e74d599eb45a062b10a36ef60d2aed0
+Commit message - Improved the suggested fix warning when component resolution uses regex fallback for fully qualified component names.
+Added disable_component_resolution_regex_fallback config option to switch off regex fallback for component resolution.
+r11483@t0mlaptop (orig r11453): abraxxa | 2009-10-05 12:57:34 +0100
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 40 is -> 
+{ 4ffa3785756fc4df4b834f936f1f3acfcf7116f0 -> ede5238fd84cf5c03515d8b51792613a61c78f60 } is a cherrypick
+{ 40db8b6a6ff1e7edaa0cf09588882e4db88ea4ee -> 69e76a394e4fe34eccadd665a278a633280639c8 }
+Cherrypick commits SHA are -> 
+ede5238fd84cf5c03515d8b51792613a61c78f60 - cherrypick - 69e76a394e4fe34eccadd665a278a633280639c8
+---> The cherrypicked commit sha is - ede5238fd84cf5c03515d8b51792613a61c78f60
+Commit message - Add Exception::Interface and Exception::Basic. Make ::Base, ::Go and ::Detach use them.
+
+Failing tests due to issues when composing overloading methods from roles.
+---> The original commit sha is - 69e76a394e4fe34eccadd665a278a633280639c8
+Commit message - Merge branch 'master' into exception_interface
+
+master: (112 commits)
+The warning about a class having mutable ancestors has been removed (and was never in a non-dev Moose release)
+Work with old and new Moose
+Preserve immutable_options when temporarily making a class mutable
+Rework the C<< $c->go >> documentation a little, hopefully it's more clear.
+Blargh. Merge branch deprecate_appclass_actions manually, with svn merge http://dev.catalyst.perl.org/repos/Catalyst/Catalyst-Runtime/5.80/trunk http://dev.catalyst.perl.org/repos/Catalyst/Catalyst-Runtime/5.80/branches/deprecate_appclass_actions . after I forgot -l on svk push, but ctrl-C after the first rev meant svk had already committed a merge mark and re-merging did nothing, and removing it didn't do the right thing. Fail cake..
+Eat the merge mark, svk hates me.
+
+Fix warnings in upcoming moose
+add myself to contributors
+Prepare for release
+un-TODO passing TODO tests
+Fix duplicate results from get_action_methods. Q. Why didn't I just do that first time round? A: Am idiot.
+AGH. Too tired to be doing this, fucked it up again
+I'm an idiot, that totally doesn't work. remove.
+Test for r11331 + fix to only report each action name once from get_action_methods
+Fix hash key name back to what it used to be for compat, keeping renamed accessor where it was. Tests for this breakage to follow
+Changelogging
+Changes tweaks
+Bump versions back to 5.8.4
+Changelog
+...
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 41 is -> 
+{ 4f4ab5b4e0f1cf9a41e019f52067e968764ee7f4 -> 9563d3701ebb2e6a4ac4760ab84af6eb3ab7adc2 } is a cherrypick
+{ 83b8cda15c8813eb706987fbc9345a4cf79a8b44 -> c17413c0177fc6dc72e5e0f9bf41ad8579822f09 }
+Cherrypick commits SHA are -> 
+9563d3701ebb2e6a4ac4760ab84af6eb3ab7adc2 - cherrypick - c17413c0177fc6dc72e5e0f9bf41ad8579822f09
+---> The cherrypicked commit sha is - 9563d3701ebb2e6a4ac4760ab84af6eb3ab7adc2
+Commit message - Merge 'trunk' into 'deprecate_appclass_actions'
+
+r11024@t0mlaptop (orig r11023):  caelum | 2009-08-01 20:04:08 +0100
+allow uri_for($controller_instance)
+r11035@t0mlaptop (orig r11034):  t0m | 2009-08-05 20:39:01 +0100
+Require perl 5.8.6
+r11038@t0mlaptop (orig r11037):  hobbs | 2009-08-06 10:57:02 +0100
+Add a method to the stats object to get the request start time.
+
+r11048@t0mlaptop (orig r11047):  t0m | 2009-08-07 01:15:04 +0100
+Fix the perl version required there also
+r11049@t0mlaptop (orig r11048):  t0m | 2009-08-07 01:24:17 +0100
+Blow up if we're in author mode and don't have the right M::I extensions
+r11050@t0mlaptop (orig r11049):  t0m | 2009-08-07 01:57:21 +0100
+Bump MX::MA dep for anon class tests
+r11058@t0mlaptop (orig r11057):  gbjk | 2009-08-07 17:45:03 +0100
+DispatchType::Chained fix for default args attribute to handle Args(0) vs Args() at depth.
+
+r11059@t0mlaptop (orig r11058):  gbjk | 2009-08-07 18:17:15 +0100
+DispatchType::Chained fix failing test of Args(0) vs Args(0) on surface
+
+r11062@t0mlaptop (orig r11061):  gbjk | 2009-08-07 22:17:22 +0100
+Engine::HTTP - Fix paths for HTTP requests with scheme and domain in URI.
+
+r11064@t0mlaptop (orig r11063):  groditi | 2009-08-08 22:54:04 +0100
+make debug output prettier with large widths
+r11065@t0mlaptop (orig r11064):  groditi | 2009-08-08 22:54:46 +0100
+oops debug output got leaked in
+r11069@t0mlaptop (orig r11068):  t0m | 2009-08-09 13:36:20 +0100
+Fix RT#48555
+r11070@t0mlaptop (orig r11069):  t0m | 2009-08-09 13:36:55 +0100
+Updates changelog
+r11071@t0mlaptop (orig r11070):  t0m | 2009-08-09 15:22:21 +0100
+Rewrite fixes for RT#48555
+r11123@t0mlaptop (orig r11122):  t0m | 2009-08-11 22:49:37 +0100
+Unfuck Catalyst::View::JSON
+r11125@t0mlaptop (orig r11124):  t0m | 2009-08-11 23:32:47 +0100
+Apply patch from RT#48623 to fix headers in Engine::HTTP
+r11127@t0mlaptop (orig r11126):  rjbs | 2009-08-12 00:33:18 +0100
+svn merge -r 11123:11125 branches/locate_components/ trunk/
+r11128@t0mlaptop (orig r11127):  rjbs | 2009-08-12 00:34:12 +0100
+add changelog entry for merged locate_components branch
+r11130@t0mlaptop (orig r11129):  t0m | 2009-08-12 01:15:51 +0100
+Tiny change to make the error make more sense
+r11132@t0mlaptop (orig r11131):  t0m | 2009-08-12 02:09:09 +0100
+Split test out into a more proper app, so that the test no longer relies on the metaclass initialization hacking occurring in ->setup_component, as I want to move it
+r11133@t0mlaptop (orig r11132):  t0m | 2009-08-12 02:11:07 +0100
+Blow up rather than failing to call ->can if everything is totally screwed
+r11134@t0mlaptop (orig r11133):  rafl | 2009-08-12 03:54:52 +0100
+Fix POD refering to CGI::Cookie. We're using CGI::Simple::Cookie.
+
+Courtesy of Forrest Cahoon.
+r11135@t0mlaptop (orig r11134):  t0m | 2009-08-12 12:03:06 +0100
+Make the code much clearer about what is going on, and remove the horrible map and grep which I hated.
+r11140@t0mlaptop (orig r11139):  rafl | 2009-08-16 10:19:58 +0100
+Do at least one (possibly empty) write when reading the response body from a filehandle.
+r11145@t0mlaptop (orig r11144):  jshirley | 2009-08-17 22:33:17 +0100
+Adding and documented X-Forwarded-Port
+r11146@t0mlaptop (orig r11145):  t0m | 2009-08-17 23:08:19 +0100
+Capitalisation fixes in Changelog
+r11147@t0mlaptop (orig r11146):  t0m | 2009-08-17 23:11:34 +0100
+Add _component_name stuff to Changes
+r11148@t0mlaptop (orig r11147):  jshirley | 2009-08-17 23:13:05 +0100
+Conflict resolution
+r11149@t0mlaptop (orig r11148):  hobbs | 2009-08-17 23:24:46 +0100
+Changelog for r11037
+
+r11150@t0mlaptop (orig r11149):  t0m | 2009-08-18 00:14:38 +0100
+Switch to catalyst_component_name
+r11154@t0mlaptop (orig r11153):  ferz | 2009-08-18 07:55:14 +0100
+Test case using Exception::Class
+
+r11155@t0mlaptop (orig r11154):  ferz | 2009-08-18 12:19:40 +0100
+drop POD comments.
+
+r11166@t0mlaptop (orig r11165):  t0m | 2009-08-19 20:03:01 +0100
+Move test to make more sense in my idea of the naming scheme - t/dead_ is for tests which check the app pukes, which this shouldn't
+r11167@t0mlaptop (orig r11166):  t0m | 2009-08-19 20:04:59 +0100
+Fail commit was fail. Back out the part I didn't want
+r11168@t0mlaptop (orig r11167):  t0m | 2009-08-19 20:10:06 +0100
+Remove r11058 - the commit message is lies, it does not fix the TODO test
+r11169@t0mlaptop (orig r11168):  t0m | 2009-08-19 21:21:44 +0100
+Back out r11057 which breaks one of the chained tests, whilst not fixing the bug in question
+r11170@t0mlaptop (orig r11169):  t0m | 2009-08-19 21:29:16 +0100
+Clean up test app for the exception test, as we don't want to depend on Test::Class thanks
+r11171@t0mlaptop (orig r11170):  rafl | 2009-08-19 21:45:45 +0100
+Changelog Engine::finalize_body changes.
+r11181@t0mlaptop (orig r11180):  gbjk | 2009-08-21 14:07:54 +0100
+Changelog update for previous Catalyst::Engine::HTTP fix.
+
+r11182@t0mlaptop (orig r11181):  rafl | 2009-08-21 16:51:26 +0100
+Now we don't have the broken restarter engine anymore, we conflict with old Catalyst::Devel versions, that don't have the new restarter yet.
+r11183@t0mlaptop (orig r11182):  rafl | 2009-08-21 17:12:57 +0100
+Conflict with the latest mason view, which blows up because of the new component_name constructor arg.
+r11184@t0mlaptop (orig r11183):  rafl | 2009-08-21 17:13:05 +0100
+Version 5.80008.
+r11190@t0mlaptop (orig r11189):  t0m | 2009-08-21 20:54:58 +0100
+Fix and tests for big issue in 5.80008
+r11191@t0mlaptop (orig r11190):  rafl | 2009-08-21 21:28:30 +0100
+Version 5.80009.
+r11193@t0mlaptop (orig r11192):  rafl | 2009-08-21 21:55:25 +0100
+DOH! do more than one read, if necessary.
+r11194@t0mlaptop (orig r11193):  rafl | 2009-08-21 22:22:36 +0100
+Do what we want instead of exiting a sub via last.
+r11195@t0mlaptop (orig r11194):  rafl | 2009-08-21 22:22:45 +0100
+Add test for sending the body from a filehandle with more data than the default chunksize of 64k.
+r11196@t0mlaptop (orig r11195):  rafl | 2009-08-21 22:31:38 +0100
+Changelogging.
+r11197@t0mlaptop (orig r11196):  rafl | 2009-08-21 22:41:05 +0100
+Version 5.80010.
+r11215@t0mlaptop (orig r11214):  rafl | 2009-08-22 20:56:53 +0100
+Remove leftovers of the restarter engine.
+
+The removed code caused test failures, which weren't apparent due to installed
+copies still being available in everyone's @INC.
+r11218@t0mlaptop (orig r11217):  rafl | 2009-08-23 12:46:42 +0100
+Changelogging.
+r11219@t0mlaptop (orig r11218):  rafl | 2009-08-23 12:55:48 +0100
+Version 5.80011.
+r11221@t0mlaptop (orig r11220):  rafl | 2009-08-23 19:42:17 +0100
+Failing test for component loading
+r11233@t0mlaptop (orig r11232):  t0m | 2009-08-24 13:51:03 +0100
+Test fixes for if CATALYST_DEBUG is set to 1.
+r11239@t0mlaptop (orig r11238):  t0m | 2009-08-25 12:25:54 +0100
+0003-Remove-diag-message.patch (marcus)
+r11240@t0mlaptop (orig r11239):  t0m | 2009-08-25 12:26:15 +0100
+Fix duplicate components
+r11252@t0mlaptop (orig r11251):  frew | 2009-08-26 20:00:01 +0100
+Look!  I'm famous!  (See Catalyst-Devel)
+r11254@t0mlaptop (orig r11253):  dandv | 2009-08-27 01:56:26 +0100
+POD addition: $c->req->body returns a string or a File::Temp object
+r11278@t0mlaptop (orig r11277):  t0m | 2009-09-01 02:07:23 +0100
+Nuke skipped test which will never pass
+r11279@t0mlaptop (orig r11278):  t0m | 2009-09-01 02:07:47 +0100
+Author tests
+r11280@t0mlaptop (orig r11279):  t0m | 2009-09-01 02:09:29 +0100
+t/author in MANFEST
+r11281@t0mlaptop (orig r11280):  t0m | 2009-09-01 02:10:46 +0100
+Stop remote tests breaking everything, and force authors to run some remote tests.
+r11282@t0mlaptop (orig r11281):  t0m | 2009-09-01 02:11:33 +0100
+Stop calling class data methods on instances + commented out warning
+r11283@t0mlaptop (orig r11282):  t0m | 2009-09-01 02:11:45 +0100
+Changelog
+r11300@t0mlaptop (orig r11292):  t0m | 2009-09-01 15:11:05 +0100
+Bump versions back to 5.8.4
+r11301@t0mlaptop (orig r11293):  t0m | 2009-09-01 15:32:46 +0100
+Changes tweaks
+r11307@t0mlaptop (orig r11299):  t0m | 2009-09-02 03:03:58 +0100
+Changelogging
+r11361@t0mlaptop (orig r11331):  t0m | 2009-09-07 15:45:01 +0100
+Fix hash key name back to what it used to be for compat, keeping renamed accessor where it was. Tests for this breakage to follow
+r11363@t0mlaptop (orig r11333):  t0m | 2009-09-07 21:19:40 +0100
+Test for r11331 + fix to only report each action name once from get_action_methods
+r11364@t0mlaptop (orig r11334):  t0m | 2009-09-07 21:21:52 +0100
+I'm an idiot, that totally doesn't work. remove.
+r11365@t0mlaptop (orig r11335):  t0m | 2009-09-07 21:25:53 +0100
+AGH. Too tired to be doing this, fucked it up again
+r11366@t0mlaptop (orig r11336):  t0m | 2009-09-07 21:33:31 +0100
+Fix duplicate results from get_action_methods. Q. Why didn't I just do that first time round? A: Am idiot.
+
+
+---> The original commit sha is - c17413c0177fc6dc72e5e0f9bf41ad8579822f09
+Commit message - Merge 'trunk' into 'deprecate_appclass_actions'
+
+r11369@t0mlaptop (orig r11339):  marcus | 2009-09-09 18:05:32 +0100
+un-TODO passing TODO tests
+r11370@t0mlaptop (orig r11340):  marcus | 2009-09-09 18:08:03 +0100
+Prepare for release
+r11374@t0mlaptop (orig r11344):  groditi | 2009-09-09 22:06:59 +0100
+add myself to contributors
+r11375@t0mlaptop (orig r11345):  t0m | 2009-09-10 01:13:56 +0100
+Fix warnings in upcoming moose
+
+
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 42 is -> 
+{ 76b3b58612f33b9e30d982d7c412027b429f976e -> fe7960931099de2d6e5e3b05a575d94ed2b57761 } is a cherrypick
+{ dd3ae38d77520ecf67839041097590a5afc669ed -> 8c25d85b1c79a9671c0e81e65c5ff5c112e8399f }
+Cherrypick commits SHA are -> 
+fe7960931099de2d6e5e3b05a575d94ed2b57761 - cherrypick - 8c25d85b1c79a9671c0e81e65c5ff5c112e8399f
+---> The cherrypicked commit sha is - fe7960931099de2d6e5e3b05a575d94ed2b57761
+Commit message - Change memleak test to use rss instead of total size
+---> The original commit sha is - 8c25d85b1c79a9671c0e81e65c5ff5c112e8399f
+Commit message - Memleak test needs to use resident size
+-----------------------------------------------------------------
+
