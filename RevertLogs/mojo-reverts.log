@@ -1,490 +1,501 @@
-# of reverts = 43
+# of reverts = 44
 Revert diff pair 1 is -> 
+{ 25e63adad8ce5d721a69c4b08f4c7c871cf64205 -> cb3b509e3df7ec22a78748dc70d2563ba3d18463 } is a revert
+{ 10bb4246087caf5d4c6e91edc57bb6ba964bd6ce -> 24f5aafc27b0563253b3003d18b4ee3fe540b0ba }
+Revert commits SHA are -> 
+cb3b509e3df7ec22a78748dc70d2563ba3d18463 - revert - 24f5aafc27b0563253b3003d18b4ee3fe540b0ba
+---> The reverted commit sha is - cb3b509e3df7ec22a78748dc70d2563ba3d18463
+Commit message - test dependencies
+---> The original commit sha is - 24f5aafc27b0563253b3003d18b4ee3fe540b0ba
+Commit message - no need for testing optional dependencies anymore
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
 { 075a97d050f47579c5ab2f2acdc1063f2ad42aff -> f7c286c2b8febe67152d416b62de2251e14699da } is a revert
 { f7c286c2b8febe67152d416b62de2251e14699da -> 71c6d8500bc9c1041428dceccfb4c6ecc20d73c9 }
 Revert commits SHA are -> 
 f7c286c2b8febe67152d416b62de2251e14699da - revert - 71c6d8500bc9c1041428dceccfb4c6ecc20d73c9
-The reverted commit sha is - f7c286c2b8febe67152d416b62de2251e14699da
+---> The reverted commit sha is - f7c286c2b8febe67152d416b62de2251e14699da
 Commit message - test without Net::DNS::Native for now, since it fails to install too often
-The original commit sha is - 71c6d8500bc9c1041428dceccfb4c6ecc20d73c9
+---> The original commit sha is - 71c6d8500bc9c1041428dceccfb4c6ecc20d73c9
 Commit message - try running tests with Net::DNS::Native again
 -----------------------------------------------------------------
 
-Revert diff pair 2 is -> 
+Revert diff pair 3 is -> 
 { 107a516b6e6fc9143dcb1c22a1aa0d8920c874ff -> 6f31800b0d4382b326c52330f012829b2ed8df98 } is a revert
 { 51695db30b5028eb61f75297455d69141c04826d -> 7df037f0258348d4382e000e8ccfcf17c739b451 }
 Revert commits SHA are -> 
 6f31800b0d4382b326c52330f012829b2ed8df98 - revert - 7df037f0258348d4382e000e8ccfcf17c739b451
-The reverted commit sha is - 6f31800b0d4382b326c52330f012829b2ed8df98
+---> The reverted commit sha is - 6f31800b0d4382b326c52330f012829b2ed8df98
 Commit message - use more future proof examples
-The original commit sha is - 7df037f0258348d4382e000e8ccfcf17c739b451
+---> The original commit sha is - 7df037f0258348d4382e000e8ccfcf17c739b451
 Commit message - Mojo::Collection still stringifies
 -----------------------------------------------------------------
 
-Revert diff pair 3 is -> 
+Revert diff pair 4 is -> 
 { 638a3a67be928092a62222725fba5498e7dcf618 -> ff47d9c5a5ff53d5ef6b319746f7f88aa376f9ca } is a revert
 { ff47d9c5a5ff53d5ef6b319746f7f88aa376f9ca -> aec221f2b611b1e397b532818a225a68ae8aecd6 }
 Revert commits SHA are -> 
 ff47d9c5a5ff53d5ef6b319746f7f88aa376f9ca - revert - aec221f2b611b1e397b532818a225a68ae8aecd6
-The reverted commit sha is - ff47d9c5a5ff53d5ef6b319746f7f88aa376f9ca
+---> The reverted commit sha is - ff47d9c5a5ff53d5ef6b319746f7f88aa376f9ca
 Commit message - no need to use a checksum for caching
-The original commit sha is - aec221f2b611b1e397b532818a225a68ae8aecd6
+---> The original commit sha is - aec221f2b611b1e397b532818a225a68ae8aecd6
 Commit message - caching inline templates requires too much memory
 -----------------------------------------------------------------
 
-Revert diff pair 4 is -> 
+Revert diff pair 5 is -> 
 { 70398285c98d3df2a25450a44b45fc6bf2d1d5c9 -> 122f3803e998bd17426936fab280587105c68252 } is a revert
 { 122f3803e998bd17426936fab280587105c68252 -> fadc41e948a183f9bb6bc58c520ff9eaf9fd307b }
 Revert commits SHA are -> 
 122f3803e998bd17426936fab280587105c68252 - revert - fadc41e948a183f9bb6bc58c520ff9eaf9fd307b
-The reverted commit sha is - 122f3803e998bd17426936fab280587105c68252
+---> The reverted commit sha is - 122f3803e998bd17426936fab280587105c68252
 Commit message - improved Mojo::JSON to generate canonical JSON objects (closes #665)
-The original commit sha is - fadc41e948a183f9bb6bc58c520ff9eaf9fd307b
+---> The original commit sha is - fadc41e948a183f9bb6bc58c520ff9eaf9fd307b
 Commit message - do not generate canonical JSON documents with Mojo::JSON
 -----------------------------------------------------------------
 
-Revert diff pair 5 is -> 
+Revert diff pair 6 is -> 
 { 4108087957afb8e3d36be1ef5a0cd7d08fdc6f6e -> a6070d2195d47ab894b58cacb181b14830b147b7 } is a revert
 { 27348b155be89eb1efcb0251acf7e89fc733d856 -> 4d16029e5aac753212fbda16ebe41a875b68caa3 }
 Revert commits SHA are -> 
 a6070d2195d47ab894b58cacb181b14830b147b7 - revert - 4d16029e5aac753212fbda16ebe41a875b68caa3
-The reverted commit sha is - a6070d2195d47ab894b58cacb181b14830b147b7
+---> The reverted commit sha is - a6070d2195d47ab894b58cacb181b14830b147b7
 Commit message - Update changelog
-The original commit sha is - 4d16029e5aac753212fbda16ebe41a875b68caa3
+---> The original commit sha is - 4d16029e5aac753212fbda16ebe41a875b68caa3
 Commit message - removed incomplete line from Changes file
 -----------------------------------------------------------------
 
-Revert diff pair 6 is -> 
+Revert diff pair 7 is -> 
 { 5c597e3bc1a4e0d91c925838c3ec42b69582bba1 -> cb517a08d842fba482d05c34a44b62edb9c57d8c } is a revert
 { cb517a08d842fba482d05c34a44b62edb9c57d8c -> 2dea0e7772b83139a32e3781c4310836a9668678 }
 Revert commits SHA are -> 
 cb517a08d842fba482d05c34a44b62edb9c57d8c - revert - 2dea0e7772b83139a32e3781c4310836a9668678
-The reverted commit sha is - cb517a08d842fba482d05c34a44b62edb9c57d8c
+---> The reverted commit sha is - cb517a08d842fba482d05c34a44b62edb9c57d8c
 Commit message - more unobtrusive links
-The original commit sha is - 2dea0e7772b83139a32e3781c4310836a9668678
+---> The original commit sha is - 2dea0e7772b83139a32e3781c4310836a9668678
 Commit message - made hash sign darker again
 -----------------------------------------------------------------
 
-Revert diff pair 7 is -> 
+Revert diff pair 8 is -> 
 { dc4e1f581c3f8da195398e77cb2ca31ee7e25b2c -> d50aa8fd538bc3f317d5a11912eb9bd035d50107 } is a revert
 { d50aa8fd538bc3f317d5a11912eb9bd035d50107 -> e2fe11a7fd9580e90947f5459e2493a579925b44 }
 Revert commits SHA are -> 
 d50aa8fd538bc3f317d5a11912eb9bd035d50107 - revert - e2fe11a7fd9580e90947f5459e2493a579925b44
-The reverted commit sha is - d50aa8fd538bc3f317d5a11912eb9bd035d50107
+---> The reverted commit sha is - d50aa8fd538bc3f317d5a11912eb9bd035d50107
 Commit message - improved routes command to show which routes are WebSockets and/or have conditions
-The original commit sha is - e2fe11a7fd9580e90947f5459e2493a579925b44
+---> The original commit sha is - e2fe11a7fd9580e90947f5459e2493a579925b44
 Commit message - removed WebSocket and condition support from routes command again
 -----------------------------------------------------------------
 
-Revert diff pair 8 is -> 
+Revert diff pair 9 is -> 
 { 1e900f23fe57eb0fb9a3ec65ddf1bf112d5dc5a5 -> 072e820c206cc975600f7164ff779095ca7fa3fe } is a revert
 { 072e820c206cc975600f7164ff779095ca7fa3fe -> 02878e74cee2e7a53d1b0e08c0483437cbcf6caa }
 Revert commits SHA are -> 
 072e820c206cc975600f7164ff779095ca7fa3fe - revert - 02878e74cee2e7a53d1b0e08c0483437cbcf6caa
-The reverted commit sha is - 072e820c206cc975600f7164ff779095ca7fa3fe
+---> The reverted commit sha is - 072e820c206cc975600f7164ff779095ca7fa3fe
 Commit message - returned missed help string
-The original commit sha is - 02878e74cee2e7a53d1b0e08c0483437cbcf6caa
+---> The original commit sha is - 02878e74cee2e7a53d1b0e08c0483437cbcf6caa
 Commit message - removed redundant string
 -----------------------------------------------------------------
 
-Revert diff pair 9 is -> 
+Revert diff pair 10 is -> 
 { af380c024e231847e5ce0a1c9a1dfb45bffeeb82 -> 140a2739f3f5146a22db1c103a9688ed77cfa4d9 } is a revert
 { 140a2739f3f5146a22db1c103a9688ed77cfa4d9 -> 3fa296319e1ce2b08e40a3d69190280d62d1661d }
 Revert commits SHA are -> 
 140a2739f3f5146a22db1c103a9688ed77cfa4d9 - revert - 3fa296319e1ce2b08e40a3d69190280d62d1661d
-The reverted commit sha is - 140a2739f3f5146a22db1c103a9688ed77cfa4d9
+---> The reverted commit sha is - 140a2739f3f5146a22db1c103a9688ed77cfa4d9
 Commit message - smaller methods
-The original commit sha is - 3fa296319e1ce2b08e40a3d69190280d62d1661d
+---> The original commit sha is - 3fa296319e1ce2b08e40a3d69190280d62d1661d
 Commit message - fixed memory leak again
 -----------------------------------------------------------------
 
-Revert diff pair 10 is -> 
+Revert diff pair 11 is -> 
 { 24af3a521d538537f2c53bc82803ce2844638ced -> 7e84891af2453ac4d675db5c0a799a76d22148f5 } is a revert
 { 7e84891af2453ac4d675db5c0a799a76d22148f5 -> 994be43c5e7436f9781543467e8eb5d8f6e7bd40 }
 Revert commits SHA are -> 
 7e84891af2453ac4d675db5c0a799a76d22148f5 - revert - 994be43c5e7436f9781543467e8eb5d8f6e7bd40
-The reverted commit sha is - 7e84891af2453ac4d675db5c0a799a76d22148f5
+---> The reverted commit sha is - 7e84891af2453ac4d675db5c0a799a76d22148f5
 Commit message - clear search field after submit
-The original commit sha is - 994be43c5e7436f9781543467e8eb5d8f6e7bd40
+---> The original commit sha is - 994be43c5e7436f9781543467e8eb5d8f6e7bd40
 Commit message - do not clear search field after submit
 -----------------------------------------------------------------
 
-Revert diff pair 11 is -> 
+Revert diff pair 12 is -> 
 { 4b0cf05ef2dcd8e84c9b8961c12ff0fabfd21f75 -> 5d7cfbdb1db4706c8c0edff610e0cc3a72ad03d1 } is a revert
 { c97acb86738ab3f2f1be5de0943db4224a830254 -> 14136ef6c95ade5bdf750e73bd877879500324a3 }
 Revert commits SHA are -> 
 5d7cfbdb1db4706c8c0edff610e0cc3a72ad03d1 - revert - 14136ef6c95ade5bdf750e73bd877879500324a3
-The reverted commit sha is - 5d7cfbdb1db4706c8c0edff610e0cc3a72ad03d1
+---> The reverted commit sha is - 5d7cfbdb1db4706c8c0edff610e0cc3a72ad03d1
 Commit message - link to Mojocasts from documentation overview
-The original commit sha is - 14136ef6c95ade5bdf750e73bd877879500324a3
+---> The original commit sha is - 14136ef6c95ade5bdf750e73bd877879500324a3
 Commit message - remove Mojocasts link from guides for now
 -----------------------------------------------------------------
 
-Revert diff pair 12 is -> 
+Revert diff pair 13 is -> 
 { 9202173287b5118101609e710ecbd36863f78036 -> b7900998da3917b16d222a775a8b436117af33be } is a revert
 { b7900998da3917b16d222a775a8b436117af33be -> 1027e3b86c39afc717ad547b62a51b02a2a877de }
 Revert commits SHA are -> 
 b7900998da3917b16d222a775a8b436117af33be - revert - 1027e3b86c39afc717ad547b62a51b02a2a877de
-The reverted commit sha is - b7900998da3917b16d222a775a8b436117af33be
+---> The reverted commit sha is - b7900998da3917b16d222a775a8b436117af33be
 Commit message - no need to copy the stack
-The original commit sha is - 1027e3b86c39afc717ad547b62a51b02a2a877de
+---> The original commit sha is - 1027e3b86c39afc717ad547b62a51b02a2a877de
 Commit message - copy the stack again
 -----------------------------------------------------------------
 
-Revert diff pair 13 is -> 
+Revert diff pair 14 is -> 
 { 8de12757c7c1f431b9c197738d3c670d81ab1dff -> 30863d7f34d85ee16df84589bc9e0d0ee06d554b } is a revert
 { ff953369b806650e77f624c563725ab72f7b6fc1 -> b998b5bc273e0c1957ef1bdb7157c39c6efc1168 }
 Revert commits SHA are -> 
 30863d7f34d85ee16df84589bc9e0d0ee06d554b - revert - b998b5bc273e0c1957ef1bdb7157c39c6efc1168
-The reverted commit sha is - 30863d7f34d85ee16df84589bc9e0d0ee06d554b
+---> The reverted commit sha is - 30863d7f34d85ee16df84589bc9e0d0ee06d554b
 Commit message - test EV too
-The original commit sha is - b998b5bc273e0c1957ef1bdb7157c39c6efc1168
+---> The original commit sha is - b998b5bc273e0c1957ef1bdb7157c39c6efc1168
 Commit message - test without EV
 -----------------------------------------------------------------
 
-Revert diff pair 14 is -> 
+Revert diff pair 15 is -> 
 { 9ffa4414429cc898e5484a26c26e0f67c9be195c -> 84b683aea5ea06b9bb078629992b367a4ff645bb } is a revert
 { 92915e2f5ee637f20faa86c26eec531a59f69ee4 -> 6527cc680465e35faec19a510f062eb7969950e2 }
 Revert commits SHA are -> 
 84b683aea5ea06b9bb078629992b367a4ff645bb - revert - 6527cc680465e35faec19a510f062eb7969950e2
-The reverted commit sha is - 84b683aea5ea06b9bb078629992b367a4ff645bb
+---> The reverted commit sha is - 84b683aea5ea06b9bb078629992b367a4ff645bb
 Commit message - bring back IO::Async recipe
-The original commit sha is - 6527cc680465e35faec19a510f062eb7969950e2
+---> The original commit sha is - 6527cc680465e35faec19a510f062eb7969950e2
 Commit message - simplify event loop recipe in cookbook a little
 -----------------------------------------------------------------
 
-Revert diff pair 15 is -> 
+Revert diff pair 16 is -> 
 { a4aa65455935f4bbe7e1df4dfd26ea215f0bfc20 -> 1b6ae7c485fe6031a149555c947dccded229a4c9 } is a revert
 { 1b6ae7c485fe6031a149555c947dccded229a4c9 -> 17e4b2fa5357a831e1d275892da7a462502d4282 }
 Revert commits SHA are -> 
 1b6ae7c485fe6031a149555c947dccded229a4c9 - revert - 17e4b2fa5357a831e1d275892da7a462502d4282
-The reverted commit sha is - 1b6ae7c485fe6031a149555c947dccded229a4c9
+---> The reverted commit sha is - 1b6ae7c485fe6031a149555c947dccded229a4c9
 Commit message - fixed small portability bugs in slurp and spurt functions of Mojo::Util
-The original commit sha is - 17e4b2fa5357a831e1d275892da7a462502d4282
+---> The original commit sha is - 17e4b2fa5357a831e1d275892da7a462502d4282
 Commit message - removed portability fix again
 -----------------------------------------------------------------
 
-Revert diff pair 16 is -> 
+Revert diff pair 17 is -> 
 { d0383ed6668ea3d71b9b8247c484e8d6167c959c -> 7d798399d21deeb0ee52019479a41ae68f76179a } is a revert
 { 7d798399d21deeb0ee52019479a41ae68f76179a -> 7baf50faa896055a144888f5483b206141c537fd }
 Revert commits SHA are -> 
 7d798399d21deeb0ee52019479a41ae68f76179a - revert - 7baf50faa896055a144888f5483b206141c537fd
-The reverted commit sha is - 7d798399d21deeb0ee52019479a41ae68f76179a
+---> The reverted commit sha is - 7d798399d21deeb0ee52019479a41ae68f76179a
 Commit message - added args attribute to Mojolicious::Routes::Match
-The original commit sha is - 7baf50faa896055a144888f5483b206141c537fd
+---> The original commit sha is - 7baf50faa896055a144888f5483b206141c537fd
 Commit message - removed args attribute again
 -----------------------------------------------------------------
 
-Revert diff pair 17 is -> 
+Revert diff pair 18 is -> 
 { c24e99b8faa3a30935592b2f42ccf7cc06173cb4 -> 8087b2b6aea0e2abf4111333677690f3665966d8 } is a revert
 { 9ad1a0973b4075321e9b6ab303f0409343f40267 -> c2a89b72e0613de399d6c25996196ab5b801a3e9 }
 Revert commits SHA are -> 
 8087b2b6aea0e2abf4111333677690f3665966d8 - revert - c2a89b72e0613de399d6c25996196ab5b801a3e9
-The reverted commit sha is - 8087b2b6aea0e2abf4111333677690f3665966d8
+---> The reverted commit sha is - 8087b2b6aea0e2abf4111333677690f3665966d8
 Commit message - added recipe for custom Mojolicious::Lite keywords
-The original commit sha is - c2a89b72e0613de399d6c25996196ab5b801a3e9
+---> The original commit sha is - c2a89b72e0613de399d6c25996196ab5b801a3e9
 Commit message - removed Mojolicious::Lite keyword recipe again
 -----------------------------------------------------------------
 
-Revert diff pair 18 is -> 
+Revert diff pair 19 is -> 
 { abfe90ac1d2dc34d6e7e90b4e73e73a0e60df8b0 -> 1c5106aa71b75f91352062b239c507dd4018c877 } is a revert
 { 1c5106aa71b75f91352062b239c507dd4018c877 -> 72a439723cf65ebcb6ebd4cba99df0d5aee0a4a1 }
 Revert commits SHA are -> 
 1c5106aa71b75f91352062b239c507dd4018c877 - revert - 72a439723cf65ebcb6ebd4cba99df0d5aee0a4a1
-The reverted commit sha is - 1c5106aa71b75f91352062b239c507dd4018c877
+---> The reverted commit sha is - 1c5106aa71b75f91352062b239c507dd4018c877
 Commit message - HTML4 allows whitespace between the -- and > ending a comment
-The original commit sha is - 72a439723cf65ebcb6ebd4cba99df0d5aee0a4a1
+---> The original commit sha is - 72a439723cf65ebcb6ebd4cba99df0d5aee0a4a1
 Commit message - Merge pull request #388 from weltonrodrigo/param_charset_doc
 
 Document use of charset when encoding parameters.
 -----------------------------------------------------------------
 
-Revert diff pair 19 is -> 
+Revert diff pair 20 is -> 
 { 04d808f6d0a92cc3bd21e26bfdec44f5c20e5d2a -> e5834eb31c8784ede248c0bc1bb4c78edd5bb318 } is a revert
 { 894c98b3d0f9a80893f7b0b9c74ca45fd10e12bb -> 76a6249e5d8832f703a0b0bae0342ecf7fa8e887 }
 Revert commits SHA are -> 
 e5834eb31c8784ede248c0bc1bb4c78edd5bb318 - revert - 76a6249e5d8832f703a0b0bae0342ecf7fa8e887
-The reverted commit sha is - e5834eb31c8784ede248c0bc1bb4c78edd5bb318
+---> The reverted commit sha is - e5834eb31c8784ede248c0bc1bb4c78edd5bb318
 Commit message - fixed Mojo::Reactor::EV to work with Morbo on Windows
-The original commit sha is - 76a6249e5d8832f703a0b0bae0342ecf7fa8e887
+---> The original commit sha is - 76a6249e5d8832f703a0b0bae0342ecf7fa8e887
 Commit message - die again if EV is used with ithreads
 -----------------------------------------------------------------
 
-Revert diff pair 20 is -> 
+Revert diff pair 21 is -> 
 { ff3d6a99c0d29789d1290112b4ed9d568de6d8e1 -> 7da957ae49147e1658d0e37ffef6d0b1bca55228 } is a revert
 { 7da957ae49147e1658d0e37ffef6d0b1bca55228 -> 43895379d7cc5f9910a23f2a696b6d279ff24e8f }
 Revert commits SHA are -> 
 7da957ae49147e1658d0e37ffef6d0b1bca55228 - revert - 43895379d7cc5f9910a23f2a696b6d279ff24e8f
-The reverted commit sha is - 7da957ae49147e1658d0e37ffef6d0b1bca55228
+---> The reverted commit sha is - 7da957ae49147e1658d0e37ffef6d0b1bca55228
 Commit message - reverted deprecation for Mojocasts
-The original commit sha is - 43895379d7cc5f9910a23f2a696b6d279ff24e8f
+---> The original commit sha is - 43895379d7cc5f9910a23f2a696b6d279ff24e8f
 Commit message - Revert "reverted deprecation for Mojocasts"
 
 This reverts commit 7da957ae49147e1658d0e37ffef6d0b1bca55228.
 -----------------------------------------------------------------
 
-Revert diff pair 21 is -> 
+Revert diff pair 22 is -> 
 { 042f0913534a80f1e425e65e8669c36cb64a0e7e -> b06943b52253164629b29b1827cb6a2c08d013ff } is a revert
 { bbc6af09225101a8a9fee73c24788e6fec0340ab -> b4eb64a7ec3a230ed2520eb42d4d1cf6f8756892 }
 Revert commits SHA are -> 
 b06943b52253164629b29b1827cb6a2c08d013ff - revert - b4eb64a7ec3a230ed2520eb42d4d1cf6f8756892
-The reverted commit sha is - b06943b52253164629b29b1827cb6a2c08d013ff
+---> The reverted commit sha is - b06943b52253164629b29b1827cb6a2c08d013ff
 Commit message - added new FAQ answer
-The original commit sha is - b4eb64a7ec3a230ed2520eb42d4d1cf6f8756892
+---> The original commit sha is - b4eb64a7ec3a230ed2520eb42d4d1cf6f8756892
 Commit message - removed namespace FAQ answer
 -----------------------------------------------------------------
 
-Revert diff pair 22 is -> 
+Revert diff pair 23 is -> 
 { 2cd1771cc3e579db7d26b1ec053e34f4aa53ca1d -> ee250e73c2d869709726d87bc59cde57f7ddc365 } is a revert
 { ee250e73c2d869709726d87bc59cde57f7ddc365 -> 55586acfc8b8a5518629126c6417570383e46e8f }
 Revert commits SHA are -> 
 ee250e73c2d869709726d87bc59cde57f7ddc365 - revert - 55586acfc8b8a5518629126c6417570383e46e8f
-The reverted commit sha is - ee250e73c2d869709726d87bc59cde57f7ddc365
+---> The reverted commit sha is - ee250e73c2d869709726d87bc59cde57f7ddc365
 Commit message - improved Mojo::Reactor and Mojo::IOLoop to pass timer id as argument to recurring timers
-The original commit sha is - 55586acfc8b8a5518629126c6417570383e46e8f
+---> The original commit sha is - 55586acfc8b8a5518629126c6417570383e46e8f
 Commit message - Removed timer id argument from recurring timers again
 -----------------------------------------------------------------
 
-Revert diff pair 23 is -> 
+Revert diff pair 24 is -> 
 { f0852de8236746c6cb805b0fbf6acd5967dad012 -> 292b6e7a56d8a1bbf85b52d20d5b11cac4168fdb } is a revert
 { 292b6e7a56d8a1bbf85b52d20d5b11cac4168fdb -> 7e0ef2d35bee5117ffadfc36c88fec70b634dffc }
 Revert commits SHA are -> 
 292b6e7a56d8a1bbf85b52d20d5b11cac4168fdb - revert - 7e0ef2d35bee5117ffadfc36c88fec70b634dffc
-The reverted commit sha is - 292b6e7a56d8a1bbf85b52d20d5b11cac4168fdb
+---> The reverted commit sha is - 292b6e7a56d8a1bbf85b52d20d5b11cac4168fdb
 Commit message - removed experimental status from WebSocket and JSON Pointer support
-The original commit sha is - 7e0ef2d35bee5117ffadfc36c88fec70b634dffc
+---> The original commit sha is - 7e0ef2d35bee5117ffadfc36c88fec70b634dffc
 Commit message - Revert "removed experimental status from WebSocket and JSON Pointer support"
 
 This reverts commit 292b6e7a56d8a1bbf85b52d20d5b11cac4168fdb.
 -----------------------------------------------------------------
 
-Revert diff pair 24 is -> 
+Revert diff pair 25 is -> 
 { 6c1c5a3e1c44192f4b59d3945ff3195c55ceb04a -> af879616aaacd1589ced1520a1f03c5a7ce763aa } is a revert
 { af879616aaacd1589ced1520a1f03c5a7ce763aa -> d5e4d95c9ffcba89b17c82190d4804c23b67e2db }
 Revert commits SHA are -> 
 af879616aaacd1589ced1520a1f03c5a7ce763aa - revert - d5e4d95c9ffcba89b17c82190d4804c23b67e2db
-The reverted commit sha is - af879616aaacd1589ced1520a1f03c5a7ce763aa
+---> The reverted commit sha is - af879616aaacd1589ced1520a1f03c5a7ce763aa
 Commit message - improved inactivity timeouts by allowing them to be disabled
-The original commit sha is - d5e4d95c9ffcba89b17c82190d4804c23b67e2db
+---> The original commit sha is - d5e4d95c9ffcba89b17c82190d4804c23b67e2db
 Commit message - removed ability to disable inactivity timeouts again
 -----------------------------------------------------------------
 
-Revert diff pair 25 is -> 
+Revert diff pair 26 is -> 
 { 3d2d8805491b9e9fd821ae0252ff985e6aac166f -> c829562478c96728ab5c578cbc359ad86bcc1ed8 } is a revert
 { c829562478c96728ab5c578cbc359ad86bcc1ed8 -> bf5631e4a2e015c6061db232337fc86cb2187b86 }
 Revert commits SHA are -> 
 c829562478c96728ab5c578cbc359ad86bcc1ed8 - revert - bf5631e4a2e015c6061db232337fc86cb2187b86
-The reverted commit sha is - c829562478c96728ab5c578cbc359ad86bcc1ed8
+---> The reverted commit sha is - c829562478c96728ab5c578cbc359ad86bcc1ed8
 Commit message - more documentation tweaks
-The original commit sha is - bf5631e4a2e015c6061db232337fc86cb2187b86
+---> The original commit sha is - bf5631e4a2e015c6061db232337fc86cb2187b86
 Commit message - pod cleanup
------------------------------------------------------------------
-
-Revert diff pair 26 is -> 
-{ 9ac8458637ef6238e3e80dacfa632a3649d5d046 -> d7d5faa93568d846d819cd68618e4c139ac197d0 } is a revert
-{ e549346f456d9bf925aef9b144984e0f2ded7f6d -> 0952cf1836a79c3902fd8ea4110063f4e4a69e06 }
-Revert commits SHA are -> 
-d7d5faa93568d846d819cd68618e4c139ac197d0 - revert - 0952cf1836a79c3902fd8ea4110063f4e4a69e06
-The reverted commit sha is - d7d5faa93568d846d819cd68618e4c139ac197d0
-Commit message - cleanup
-The original commit sha is - 0952cf1836a79c3902fd8ea4110063f4e4a69e06
-Commit message - fixed another small test portability bug
 -----------------------------------------------------------------
 
 Revert diff pair 27 is -> 
 { 9ac8458637ef6238e3e80dacfa632a3649d5d046 -> d7d5faa93568d846d819cd68618e4c139ac197d0 } is a revert
-{ d7d5faa93568d846d819cd68618e4c139ac197d0 -> cd2ec7e5e2323d097bc5b40dabc74ef5edbbf7c1 }
+{ e549346f456d9bf925aef9b144984e0f2ded7f6d -> 0952cf1836a79c3902fd8ea4110063f4e4a69e06 }
 Revert commits SHA are -> 
-d7d5faa93568d846d819cd68618e4c139ac197d0 - revert - cd2ec7e5e2323d097bc5b40dabc74ef5edbbf7c1
-The reverted commit sha is - d7d5faa93568d846d819cd68618e4c139ac197d0
+d7d5faa93568d846d819cd68618e4c139ac197d0 - revert - 0952cf1836a79c3902fd8ea4110063f4e4a69e06
+---> The reverted commit sha is - d7d5faa93568d846d819cd68618e4c139ac197d0
 Commit message - cleanup
-The original commit sha is - cd2ec7e5e2323d097bc5b40dabc74ef5edbbf7c1
-Commit message - fixed small test portability problem
+---> The original commit sha is - 0952cf1836a79c3902fd8ea4110063f4e4a69e06
+Commit message - fixed another small test portability bug
 -----------------------------------------------------------------
 
 Revert diff pair 28 is -> 
+{ 9ac8458637ef6238e3e80dacfa632a3649d5d046 -> d7d5faa93568d846d819cd68618e4c139ac197d0 } is a revert
+{ d7d5faa93568d846d819cd68618e4c139ac197d0 -> cd2ec7e5e2323d097bc5b40dabc74ef5edbbf7c1 }
+Revert commits SHA are -> 
+d7d5faa93568d846d819cd68618e4c139ac197d0 - revert - cd2ec7e5e2323d097bc5b40dabc74ef5edbbf7c1
+---> The reverted commit sha is - d7d5faa93568d846d819cd68618e4c139ac197d0
+Commit message - cleanup
+---> The original commit sha is - cd2ec7e5e2323d097bc5b40dabc74ef5edbbf7c1
+Commit message - fixed small test portability problem
+-----------------------------------------------------------------
+
+Revert diff pair 29 is -> 
 { bcf9f724e5e8af7fa0a636039de38a1626ccc1bf -> 792a9f95a5d80b8d7aca49b2bf484cd4661fd755 } is a revert
 { 6027556fcc85e9510648ddfc6fbabe58172e3ce0 -> 850d3d6334f8abc40096342fe8d16082d9a28f46 }
 Revert commits SHA are -> 
 792a9f95a5d80b8d7aca49b2bf484cd4661fd755 - revert - 850d3d6334f8abc40096342fe8d16082d9a28f46
-The reverted commit sha is - 792a9f95a5d80b8d7aca49b2bf484cd4661fd755
+---> The reverted commit sha is - 792a9f95a5d80b8d7aca49b2bf484cd4661fd755
 Commit message - fixed typo
-The original commit sha is - 850d3d6334f8abc40096342fe8d16082d9a28f46
+---> The original commit sha is - 850d3d6334f8abc40096342fe8d16082d9a28f46
 Commit message - documentation fix
 -----------------------------------------------------------------
 
-Revert diff pair 29 is -> 
+Revert diff pair 30 is -> 
 { dc885a8a88f9adc573b97e708ac5f8de5241fc5d -> b74ae9f57428dc2f55e9d4c36c92830cbf348309 } is a revert
 { b74ae9f57428dc2f55e9d4c36c92830cbf348309 -> 2cc109603d72286758c386ce84d766e4407e6e49 }
 Revert commits SHA are -> 
 b74ae9f57428dc2f55e9d4c36c92830cbf348309 - revert - 2cc109603d72286758c386ce84d766e4407e6e49
-The reverted commit sha is - b74ae9f57428dc2f55e9d4c36c92830cbf348309
+---> The reverted commit sha is - b74ae9f57428dc2f55e9d4c36c92830cbf348309
 Commit message - fixed Windows portability issue
-The original commit sha is - 2cc109603d72286758c386ce84d766e4407e6e49
+---> The original commit sha is - 2cc109603d72286758c386ce84d766e4407e6e49
 Commit message - cleanup
 -----------------------------------------------------------------
 
-Revert diff pair 30 is -> 
+Revert diff pair 31 is -> 
 { 7225f2bbecff12d131ad34e103a6506905fa951b -> a40233ed8365e4e6f4aee0c70a3f85edcf1c56b5 } is a revert
 { a40233ed8365e4e6f4aee0c70a3f85edcf1c56b5 -> 31766112d191244902440f8cd0585980ec073874 }
 Revert commits SHA are -> 
 a40233ed8365e4e6f4aee0c70a3f85edcf1c56b5 - revert - 31766112d191244902440f8cd0585980ec073874
-The reverted commit sha is - a40233ed8365e4e6f4aee0c70a3f85edcf1c56b5
+---> The reverted commit sha is - a40233ed8365e4e6f4aee0c70a3f85edcf1c56b5
 Commit message - removed dummy listen socket
-The original commit sha is - 31766112d191244902440f8cd0585980ec073874
+---> The original commit sha is - 31766112d191244902440f8cd0585980ec073874
 Commit message - add dummy listen socket again
 -----------------------------------------------------------------
 
-Revert diff pair 31 is -> 
+Revert diff pair 32 is -> 
 { 928931f88ff238bc5252bdec18a400774e9b3c9e -> 18f34bb1b817e2f9792f7a9708f10ecfb0c9e198 } is a revert
 { 2fb4ccecbaa4ad04ec24a2021b187e4b2b545a83 -> d91a64a4baa1307bda80bc6ab0921e785bc345ec }
 Revert commits SHA are -> 
 18f34bb1b817e2f9792f7a9708f10ecfb0c9e198 - revert - d91a64a4baa1307bda80bc6ab0921e785bc345ec
-The reverted commit sha is - 18f34bb1b817e2f9792f7a9708f10ecfb0c9e198
+---> The reverted commit sha is - 18f34bb1b817e2f9792f7a9708f10ecfb0c9e198
 Commit message - removed link
-The original commit sha is - d91a64a4baa1307bda80bc6ab0921e785bc345ec
+---> The original commit sha is - d91a64a4baa1307bda80bc6ab0921e785bc345ec
 Commit message - link to fanshop again
 -----------------------------------------------------------------
 
-Revert diff pair 32 is -> 
+Revert diff pair 33 is -> 
 { d407496aa43f0bbfe39a8d202207699c1bba044a -> d0dc228be9d79c8dca5b71d2a4be2b85444f1fb9 } is a revert
 { 928931f88ff238bc5252bdec18a400774e9b3c9e -> 18f34bb1b817e2f9792f7a9708f10ecfb0c9e198 }
 Revert commits SHA are -> 
 d0dc228be9d79c8dca5b71d2a4be2b85444f1fb9 - revert - 18f34bb1b817e2f9792f7a9708f10ecfb0c9e198
-The reverted commit sha is - d0dc228be9d79c8dca5b71d2a4be2b85444f1fb9
+---> The reverted commit sha is - d0dc228be9d79c8dca5b71d2a4be2b85444f1fb9
 Commit message - added link
-The original commit sha is - 18f34bb1b817e2f9792f7a9708f10ecfb0c9e198
+---> The original commit sha is - 18f34bb1b817e2f9792f7a9708f10ecfb0c9e198
 Commit message - removed link
 -----------------------------------------------------------------
 
-Revert diff pair 33 is -> 
+Revert diff pair 34 is -> 
 { 343d0e6d2bd5895fc4f4865a415505520af07f4f -> aa8ddc25597b385569824f1e332caac063b5a5a9 } is a revert
 { aa8ddc25597b385569824f1e332caac063b5a5a9 -> f72ba1384959ac8b145e14de03bbbba21933721a }
 Revert commits SHA are -> 
 aa8ddc25597b385569824f1e332caac063b5a5a9 - revert - f72ba1384959ac8b145e14de03bbbba21933721a
-The reverted commit sha is - aa8ddc25597b385569824f1e332caac063b5a5a9
+---> The reverted commit sha is - aa8ddc25597b385569824f1e332caac063b5a5a9
 Commit message - fixed home detection on windows
-The original commit sha is - f72ba1384959ac8b145e14de03bbbba21933721a
+---> The original commit sha is - f72ba1384959ac8b145e14de03bbbba21933721a
 Commit message - reverted previous fix
 -----------------------------------------------------------------
 
-Revert diff pair 34 is -> 
+Revert diff pair 35 is -> 
 { a917dc11734123c34ee074cc7b6218b7698560cd -> 34c04b9d3ae955617bf51c5d03c7432644097e6e } is a revert
 { 34c04b9d3ae955617bf51c5d03c7432644097e6e -> 8849aed2dd8da6b0bb30e17334a3dee517d96cec }
 Revert commits SHA are -> 
 34c04b9d3ae955617bf51c5d03c7432644097e6e - revert - 8849aed2dd8da6b0bb30e17334a3dee517d96cec
-The reverted commit sha is - 34c04b9d3ae955617bf51c5d03c7432644097e6e
+---> The reverted commit sha is - 34c04b9d3ae955617bf51c5d03c7432644097e6e
 Commit message - cleanup
-The original commit sha is - 8849aed2dd8da6b0bb30e17334a3dee517d96cec
+---> The original commit sha is - 8849aed2dd8da6b0bb30e17334a3dee517d96cec
 Commit message - cleanup
 -----------------------------------------------------------------
 
-Revert diff pair 35 is -> 
+Revert diff pair 36 is -> 
 { 797784fc3c4816f2904ec356856427191f8f55eb -> 950398a9c02317d6580b38dd0534f84e4d5900ce } is a revert
 { 950398a9c02317d6580b38dd0534f84e4d5900ce -> d453882d9801cb00a748295d5ed4d275ae8c1287 }
 Revert commits SHA are -> 
 950398a9c02317d6580b38dd0534f84e4d5900ce - revert - d453882d9801cb00a748295d5ed4d275ae8c1287
-The reverted commit sha is - 950398a9c02317d6580b38dd0534f84e4d5900ce
+---> The reverted commit sha is - 950398a9c02317d6580b38dd0534f84e4d5900ce
 Commit message - added XML namespace support to Mojo::DOM
-The original commit sha is - d453882d9801cb00a748295d5ed4d275ae8c1287
+---> The original commit sha is - d453882d9801cb00a748295d5ed4d275ae8c1287
 Commit message - Revert "added XML namespace support to Mojo::DOM"
 
 This reverts commit 950398a9c02317d6580b38dd0534f84e4d5900ce.
 -----------------------------------------------------------------
 
-Revert diff pair 36 is -> 
+Revert diff pair 37 is -> 
 { be8f8c37586028e60c128f523abe2adfbed28712 -> 1cdaeb32513949164ea25710bcfdb4ec2be75ea0 } is a revert
 { 31d13aabd9b736f84ce9af7190afefa43a8544de -> 2e91b4297f9efaae6bb0553bcbb1de7e14998a34 }
 Revert commits SHA are -> 
 1cdaeb32513949164ea25710bcfdb4ec2be75ea0 - revert - 2e91b4297f9efaae6bb0553bcbb1de7e14998a34
-The reverted commit sha is - 1cdaeb32513949164ea25710bcfdb4ec2be75ea0
+---> The reverted commit sha is - 1cdaeb32513949164ea25710bcfdb4ec2be75ea0
 Commit message - added relaxed mode to Mojo::Client
-The original commit sha is - 2e91b4297f9efaae6bb0553bcbb1de7e14998a34
+---> The original commit sha is - 2e91b4297f9efaae6bb0553bcbb1de7e14998a34
 Commit message - removed relaxed mode from Mojo::Client again
 -----------------------------------------------------------------
 
-Revert diff pair 37 is -> 
+Revert diff pair 38 is -> 
 { 71709754008065910e08186a01948b1584b2cfab -> f383c737e2b3ccc71c65d84d0a6eb8303f67ccba } is a revert
 { f383c737e2b3ccc71c65d84d0a6eb8303f67ccba -> d89ebeb1f1cd00bfa085a589799829aedbf2a64e }
 Revert commits SHA are -> 
 f383c737e2b3ccc71c65d84d0a6eb8303f67ccba - revert - d89ebeb1f1cd00bfa085a589799829aedbf2a64e
-The reverted commit sha is - f383c737e2b3ccc71c65d84d0a6eb8303f67ccba
+---> The reverted commit sha is - f383c737e2b3ccc71c65d84d0a6eb8303f67ccba
 Commit message - cleanup
-The original commit sha is - d89ebeb1f1cd00bfa085a589799829aedbf2a64e
+---> The original commit sha is - d89ebeb1f1cd00bfa085a589799829aedbf2a64e
 Commit message - Revert "cleanup"
 
 This reverts commit f383c737e2b3ccc71c65d84d0a6eb8303f67ccba.
 -----------------------------------------------------------------
 
-Revert diff pair 38 is -> 
+Revert diff pair 39 is -> 
 { 6a317f3474cb42f64424327ada8997087b2e75b8 -> 0823a7f225f019cbbd20932ecfe4183614fda09f } is a revert
 { 0823a7f225f019cbbd20932ecfe4183614fda09f -> 98fb5c97fe470444d7f714ffa36b4fb8dfc8c23b }
 Revert commits SHA are -> 
 0823a7f225f019cbbd20932ecfe4183614fda09f - revert - 98fb5c97fe470444d7f714ffa36b4fb8dfc8c23b
-The reverted commit sha is - 0823a7f225f019cbbd20932ecfe4183614fda09f
+---> The reverted commit sha is - 0823a7f225f019cbbd20932ecfe4183614fda09f
 Commit message - make readme look better on github
-The original commit sha is - 98fb5c97fe470444d7f714ffa36b4fb8dfc8c23b
+---> The original commit sha is - 98fb5c97fe470444d7f714ffa36b4fb8dfc8c23b
 Commit message - Revert "make readme look better on github"
 
 This reverts commit 0823a7f225f019cbbd20932ecfe4183614fda09f.
 -----------------------------------------------------------------
 
-Revert diff pair 39 is -> 
+Revert diff pair 40 is -> 
 { 2ab0e36e7dad675fb925967ed448030430ebf1c2 -> 11c6a084e00bcc3936f7691efabd82438c5cc1c7 } is a revert
 { 11c6a084e00bcc3936f7691efabd82438c5cc1c7 -> bb86352cd61c13f884da2b7233f9d8abfa160830 }
 Revert commits SHA are -> 
 11c6a084e00bcc3936f7691efabd82438c5cc1c7 - revert - bb86352cd61c13f884da2b7233f9d8abfa160830
-The reverted commit sha is - 11c6a084e00bcc3936f7691efabd82438c5cc1c7
+---> The reverted commit sha is - 11c6a084e00bcc3936f7691efabd82438c5cc1c7
 Commit message - fixed typo
-The original commit sha is - bb86352cd61c13f884da2b7233f9d8abfa160830
+---> The original commit sha is - bb86352cd61c13f884da2b7233f9d8abfa160830
 Commit message - Revert "fixed typo"
 
 This reverts commit 11c6a084e00bcc3936f7691efabd82438c5cc1c7.
 -----------------------------------------------------------------
 
-Revert diff pair 40 is -> 
+Revert diff pair 41 is -> 
 { b0abeda14b02605607aeb8fe40496847c65b5faa -> 5083b78f12c8dec4a7db7221d496fcf22f809c56 } is a revert
 { 5083b78f12c8dec4a7db7221d496fcf22f809c56 -> 6594b5282268fbd55a7f67a96de6a7642f56fa45 }
 Revert commits SHA are -> 
 5083b78f12c8dec4a7db7221d496fcf22f809c56 - revert - 6594b5282268fbd55a7f67a96de6a7642f56fa45
-The reverted commit sha is - 5083b78f12c8dec4a7db7221d496fcf22f809c56
+---> The reverted commit sha is - 5083b78f12c8dec4a7db7221d496fcf22f809c56
 Commit message - added --mode flag to all server bindings as an alternative to MOJO_MODE=production
-The original commit sha is - 6594b5282268fbd55a7f67a96de6a7642f56fa45
+---> The original commit sha is - 6594b5282268fbd55a7f67a96de6a7642f56fa45
 Commit message - Revert "added --mode flag to all server bindings as an alternative to MOJO_MODE=production"
 
 This reverts commit 5083b78f12c8dec4a7db7221d496fcf22f809c56.
 -----------------------------------------------------------------
 
-Revert diff pair 41 is -> 
+Revert diff pair 42 is -> 
 { a0709a7c68b6274aeba4926931edbbb73fa2249e -> 991af138c361be60a9dd1ea6d3a4cfd80546296d } is a revert
 { 991af138c361be60a9dd1ea6d3a4cfd80546296d -> b1b9cd9f7854d38bb3b4fb238851bdf20b673171 }
 Revert commits SHA are -> 
 991af138c361be60a9dd1ea6d3a4cfd80546296d - revert - b1b9cd9f7854d38bb3b4fb238851bdf20b673171
-The reverted commit sha is - 991af138c361be60a9dd1ea6d3a4cfd80546296d
+---> The reverted commit sha is - 991af138c361be60a9dd1ea6d3a4cfd80546296d
 Commit message - made memory leak prevention a bit easier
-The original commit sha is - b1b9cd9f7854d38bb3b4fb238851bdf20b673171
+---> The original commit sha is - b1b9cd9f7854d38bb3b4fb238851bdf20b673171
 Commit message - cleanup
 -----------------------------------------------------------------
 
-Revert diff pair 42 is -> 
+Revert diff pair 43 is -> 
 { 703291f4e5152c0dfd349ac1098fc518d6abe66d -> 65d2134946df1e9f8c0ff433d5161946b355a9be } is a revert
 { 65d94cf34af28273a1c2ba2d4e513b6ddaab4de1 -> 51f31219229895182cb98ea32ac339ca2a9c8a38 }
 Revert commits SHA are -> 
 65d2134946df1e9f8c0ff433d5161946b355a9be - revert - 51f31219229895182cb98ea32ac339ca2a9c8a38
-The reverted commit sha is - 65d2134946df1e9f8c0ff433d5161946b355a9be
+---> The reverted commit sha is - 65d2134946df1e9f8c0ff433d5161946b355a9be
 Commit message - dispatcher search path defaults to / now
-The original commit sha is - 51f31219229895182cb98ea32ac339ca2a9c8a38
+---> The original commit sha is - 51f31219229895182cb98ea32ac339ca2a9c8a38
 Commit message - undo dispatcher fix
 -----------------------------------------------------------------
 
-Revert diff pair 43 is -> 
+Revert diff pair 44 is -> 
 { 9be2f041a20230f2f2cf1112883c7b6016cbd3f9 -> 666fd8f364dd7b5c504de467bd6fd4ab01cb3531 } is a revert
 { 114775a0132f4fdcfe59f998b467f013256b5e5e -> e7c5b57429beab5e162b13ddf900893bad779814 }
 Revert commits SHA are -> 
 666fd8f364dd7b5c504de467bd6fd4ab01cb3531 - revert - e7c5b57429beab5e162b13ddf900893bad779814
-The reverted commit sha is - 666fd8f364dd7b5c504de467bd6fd4ab01cb3531
+---> The reverted commit sha is - 666fd8f364dd7b5c504de467bd6fd4ab01cb3531
 Commit message - cleanup
-The original commit sha is - e7c5b57429beab5e162b13ddf900893bad779814
+---> The original commit sha is - e7c5b57429beab5e162b13ddf900893bad779814
 Commit message - cleanup
 -----------------------------------------------------------------
 

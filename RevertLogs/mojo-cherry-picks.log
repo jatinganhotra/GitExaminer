@@ -1,0 +1,167 @@
+# of cherry-picks = 13
+Cherry-pick diff pair 1 is -> 
+{ 6be09e70fa69238f28ba1fb9c8eebd62cd9b6d09 -> efad12766cc768299805a66667aa77878d287721 } is a cherrypick
+{ 579dcfd45104436c47e8ddfed2c2c3e5b054c2ee -> 04c7d0c9e98c85bc3c28f4bb308ea7fe970f358d }
+Cherrypick commits SHA are -> 
+efad12766cc768299805a66667aa77878d287721 - cherrypick - 04c7d0c9e98c85bc3c28f4bb308ea7fe970f358d
+---> The cherrypicked commit sha is - efad12766cc768299805a66667aa77878d287721
+Commit message - more links in cookbook
+---> The original commit sha is - 04c7d0c9e98c85bc3c28f4bb308ea7fe970f358d
+Commit message - Merge branch 'master' of git://github.com/kraih/mojo
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ 94f74dabc505aeb3de120c9cf3966cdef7c92bda -> ee5a62ece4fa30e715bd5bacc301692c62126ffc } is a cherrypick
+{ b4571551bc7b262dc833b33d94652bc85cbbc91c -> 892044d610150f7e3ba0fcb9d94d776d009013ce }
+Cherrypick commits SHA are -> 
+ee5a62ece4fa30e715bd5bacc301692c62126ffc - cherrypick - 892044d610150f7e3ba0fcb9d94d776d009013ce
+---> The cherrypicked commit sha is - ee5a62ece4fa30e715bd5bacc301692c62126ffc
+Commit message - use keys instead of each to workaround perl bug
+
+in perl before 5.14 each may panic with: attempt to copy freed scalar
+---> The original commit sha is - 892044d610150f7e3ba0fcb9d94d776d009013ce
+Commit message - Merge pull request #506 from trinitum/replace-each-with-keys
+
+use keys instead of each to workaround bug in perl
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ a85f2bf530b677402cf2dcf3fb191f442019eac5 -> 3322bb883495e91a856f1951f360ed4c80000559 } is a cherrypick
+{ a7b0e8be3e6e0fb9a5d71574bf494db42de7d474 -> 2acdad75f8b7036e64c1f93d7f7db74ca515a254 }
+Cherrypick commits SHA are -> 
+3322bb883495e91a856f1951f360ed4c80000559 - cherrypick - 2acdad75f8b7036e64c1f93d7f7db74ca515a254
+---> The cherrypicked commit sha is - 3322bb883495e91a856f1951f360ed4c80000559
+Commit message - fixed memory problem with uploads > 2G on 32-bit Perls
+---> The original commit sha is - 2acdad75f8b7036e64c1f93d7f7db74ca515a254
+Commit message - Merge pull request #445 from augensalat/master
+
+Issue with huge file uploads on 32-bit Perl
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ 43a8a5ac481ad2d0e8e42a4f92c1ddd5628add9b -> e3f284bfc525d8772ce841c2a99ba3cb838e70ad } is a cherrypick
+{ 8d31722165d0b25e794dfa9c47fefa509146f86b -> 415623108168f6960b9bf982f3b584b526903632 }
+Cherrypick commits SHA are -> 
+e3f284bfc525d8772ce841c2a99ba3cb838e70ad - cherrypick - 415623108168f6960b9bf982f3b584b526903632
+---> The cherrypicked commit sha is - e3f284bfc525d8772ce841c2a99ba3cb838e70ad
+Commit message - encode '%' in Mojo::Parameters string output
+
+According to section 2.4 of RFC 3986,  the '%' character must be encoded
+in URIs.
+---> The original commit sha is - 415623108168f6960b9bf982f3b584b526903632
+Commit message - Merge pull request #399 from dmw397/master
+
+encode '%' in Mojo::Parameters string output
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ c4dae0c921c2b64ad54dfef52d2e3218a4b41a9b -> d827651ab82e682295eea5c335d0eb5db48b6864 } is a cherrypick
+{ 75065e0e52e0225d5c86c731857bf2b32c5614c7 -> 78d140c32486dd0ca5c224ddae244dc5f0dbb696 }
+Cherrypick commits SHA are -> 
+d827651ab82e682295eea5c335d0eb5db48b6864 - cherrypick - 78d140c32486dd0ca5c224ddae244dc5f0dbb696
+---> The cherrypicked commit sha is - d827651ab82e682295eea5c335d0eb5db48b6864
+Commit message - updated Changes file
+---> The original commit sha is - 78d140c32486dd0ca5c224ddae244dc5f0dbb696
+Commit message - Merge pull request #352 from scottw/master
+
+TLS peer verification test from UserAgent
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ 5ed596e60b61583ff49e589e5e5488f323aa8d4b -> 5f6011e56d0a0dbac5b0abcd070b33dcc289ac57 } is a cherrypick
+{ f925dbd30785359e60c5b13d7020971331f67f84 -> c3745d244014fba84f3abf9881ed9d6bd6df7858 }
+Cherrypick commits SHA are -> 
+5f6011e56d0a0dbac5b0abcd070b33dcc289ac57 - cherrypick - c3745d244014fba84f3abf9881ed9d6bd6df7858
+---> The cherrypicked commit sha is - 5f6011e56d0a0dbac5b0abcd070b33dcc289ac57
+Commit message - Corrected typo in FAQ.
+---> The original commit sha is - c3745d244014fba84f3abf9881ed9d6bd6df7858
+Commit message - Merge pull request #341 from spiros/master
+
+Typo correction in FAQ.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ 1f36f5e2daf4f7b776f23e837e7291d77c037c5b -> 5df222d3adb9c1c17fc6cdb25fb71a103ceecc4f } is a cherrypick
+{ 0a694aef3b6d367017fd89135e8bca4efef3f86f -> f2f2040f4ac88501f27c2481d9cbcca861dd5a38 }
+Cherrypick commits SHA are -> 
+5df222d3adb9c1c17fc6cdb25fb71a103ceecc4f - cherrypick - f2f2040f4ac88501f27c2481d9cbcca861dd5a38
+---> The cherrypicked commit sha is - 5df222d3adb9c1c17fc6cdb25fb71a103ceecc4f
+Commit message - Fix example (closes #274)
+---> The original commit sha is - f2f2040f4ac88501f27c2481d9cbcca861dd5a38
+Commit message - Merge branch 'ifimbres-collection-merge' of git://github.com/ifimbres/mojo into collection-union
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ c7280476f79b54836d674a4522532517fe6894dc -> ea85cb3e58667d234bc08d93175a8519e8d351e0 } is a cherrypick
+{ f6d809e63e3e6750c24a94c69f99c16bab2bfea4 -> 9fd1cd2d6b8c039af58f3cfbd9ec7f64802f4751 }
+Cherrypick commits SHA are -> 
+ea85cb3e58667d234bc08d93175a8519e8d351e0 - cherrypick - 9fd1cd2d6b8c039af58f3cfbd9ec7f64802f4751
+---> The cherrypicked commit sha is - ea85cb3e58667d234bc08d93175a8519e8d351e0
+Commit message - fixed Morbo to ignore hidden directories
+---> The original commit sha is - 9fd1cd2d6b8c039af58f3cfbd9ec7f64802f4751
+Commit message - Merge pull request #252 from kraih/fix_live_tests
+
+Fix live tests
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ 9654e5210ed7f76291978ef68e25194ed3b14f2b -> d6cb77b021abef2425c063432e287cef401ed061 } is a cherrypick
+{ 90eaef37c3d20dae01407460e3b0b9d84b19003f -> c089bbc76bfad843b66496192d4ce9334584060f }
+Cherrypick commits SHA are -> 
+d6cb77b021abef2425c063432e287cef401ed061 - cherrypick - c089bbc76bfad843b66496192d4ce9334584060f
+---> The cherrypicked commit sha is - d6cb77b021abef2425c063432e287cef401ed061
+Commit message - run tests in alphabetical order to make the testing flow predictive
+---> The original commit sha is - c089bbc76bfad843b66496192d4ce9334584060f
+Commit message - Merge pull request #217 from viliampucik/master
+
+Run tests in alphabetical order to make the testing flow predictive
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ d7d5faa93568d846d819cd68618e4c139ac197d0 -> cd2ec7e5e2323d097bc5b40dabc74ef5edbbf7c1 } is a cherrypick
+{ e549346f456d9bf925aef9b144984e0f2ded7f6d -> 0952cf1836a79c3902fd8ea4110063f4e4a69e06 }
+Cherrypick commits SHA are -> 
+cd2ec7e5e2323d097bc5b40dabc74ef5edbbf7c1 - cherrypick - 0952cf1836a79c3902fd8ea4110063f4e4a69e06
+---> The cherrypicked commit sha is - cd2ec7e5e2323d097bc5b40dabc74ef5edbbf7c1
+Commit message - fixed small test portability problem
+---> The original commit sha is - 0952cf1836a79c3902fd8ea4110063f4e4a69e06
+Commit message - fixed another small test portability bug
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ c28ee701b87306f0a40e6e1296b15f9e1ea32baf -> 394d1f0afc2a9477ff0d158002c78713701de85d } is a cherrypick
+{ 4ef59105183f8fc5dea135285f3378df41773a42 -> dc5f7166f32bda865561f6b60c50999978a52718 }
+Cherrypick commits SHA are -> 
+394d1f0afc2a9477ff0d158002c78713701de85d - cherrypick - dc5f7166f32bda865561f6b60c50999978a52718
+---> The cherrypicked commit sha is - 394d1f0afc2a9477ff0d158002c78713701de85d
+Commit message - added a few more parameter tests
+---> The original commit sha is - dc5f7166f32bda865561f6b60c50999978a52718
+Commit message - Merge pull request #177 from shiftycow/master
+
+Added type declaration for XSL documents 
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ c04b222f7f7cdf3162d9a9267f3ff5c82ce7a72e -> 50b595ba9e4383d84dc04af81e630afc3e4b0da0 } is a cherrypick
+{ bfcb804d681d1ea14275862e6f120fd90326fc25 -> 24b30f27c812a72b8f419bc382582b7b32ecaa1e }
+Cherrypick commits SHA are -> 
+50b595ba9e4383d84dc04af81e630afc3e4b0da0 - cherrypick - 24b30f27c812a72b8f419bc382582b7b32ecaa1e
+---> The cherrypicked commit sha is - 50b595ba9e4383d84dc04af81e630afc3e4b0da0
+Commit message - fixed small XML semantics bug in Mojo::DOM
+---> The original commit sha is - 24b30f27c812a72b8f419bc382582b7b32ecaa1e
+Commit message - Merge pull request #144 from Akron/typos
+
+Fixing Typos
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ d407496aa43f0bbfe39a8d202207699c1bba044a -> d0dc228be9d79c8dca5b71d2a4be2b85444f1fb9 } is a cherrypick
+{ 2fb4ccecbaa4ad04ec24a2021b187e4b2b545a83 -> d91a64a4baa1307bda80bc6ab0921e785bc345ec }
+Cherrypick commits SHA are -> 
+d0dc228be9d79c8dca5b71d2a4be2b85444f1fb9 - cherrypick - d91a64a4baa1307bda80bc6ab0921e785bc345ec
+---> The cherrypicked commit sha is - d0dc228be9d79c8dca5b71d2a4be2b85444f1fb9
+Commit message - added link
+---> The original commit sha is - d91a64a4baa1307bda80bc6ab0921e785bc345ec
+Commit message - link to fanshop again
+-----------------------------------------------------------------
+
