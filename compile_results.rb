@@ -1,18 +1,20 @@
 require 'terminal-table'
 
 # The results file looks like -
-# +----------------------+-----------------------------------------------+
-# |                         MLPNeuralNet-results                         |
-# +----------------------+-----------------------------------------------+
-# |   ProjectName        | MLPNeuralNet                                  |
-# |   RepoURL            | https://github.com/nikolaypavlov/MLPNeuralNet |
-# |   HEAD SHA           | a70d51708cd235bebbb9c4ef70aaab68d5c02b49      |
-# | # Commits            | 75                                            |
-# | # Reverts - Message  | 0                                             |
-# | # Reverts - Complete | 1                                             |
-# | # Reverts - Partial  | 4                                             |
-# +----------------------+-----------------------------------------------+
-
+# +--------------------------+-----------------------------------------------+
+# |                           MLPNeuralNet-results                           |
+# +--------------------------+-----------------------------------------------+
+# |   ProjectName            | MLPNeuralNet                                  |
+# |   RepoURL                | https://github.com/nikolaypavlov/MLPNeuralNet |
+# |   HEAD SHA               | a70d51708cd235bebbb9c4ef70aaab68d5c02b49      |
+# | # Commits                | 75                                            |
+# | # Merges                 | 7                                             |
+# | # Reverts - Message      | 0                                             |
+# | # Reverts - Complete     | 1                                             |
+# | # Reverts - Partial      | 4                                             |
+# | # Cherrypicks - Complete | 2                                             |
+# | # Cherrypicks - Partial  | 0                                             |
+# +--------------------------+-----------------------------------------------+
 
 def ExtractInfoFromFileContents file_contents
 data = file_contents.split('|')
@@ -39,6 +41,10 @@ num_commits = data.first
 num_commits = num_commits.gsub(/\s+/, "")
 data = data.drop(3)
 
+num_merges = data.first
+num_merges = num_merges.gsub(/\s+/, "")
+data = data.drop(3)
+
 reverts_msg = data.first
 reverts_msg = reverts_msg.gsub(/\s+/, "")
 data = data.drop(3)
@@ -49,10 +55,18 @@ data = data.drop(3)
 
 reverts_partial = data.first
 reverts_partial = reverts_partial.gsub(/\s+/, "")
+data = data.drop(3)
+
+cps_complete = data.first
+cps_complete = cps_complete.gsub(/\s+/, "")
+data = data.drop(3)
+
+cps_partial = data.first
+cps_partial = cps_partial.gsub(/\s+/, "")
 data = data.drop(2)
 
 repo_url_head_sha_combined = repo_url + "\n" + head_sha
-return [project_name, repo_url_head_sha_combined, num_commits, reverts_msg, reverts_complete, reverts_partial]
+return [project_name, repo_url_head_sha_combined, num_commits, num_merges, reverts_msg, reverts_complete, reverts_partial, cps_complete, cps_partial]
 
 end
 
@@ -75,9 +89,9 @@ projects.each do |file|
 
   info.insert(0, num)
   rows << info
-  rows << ["","","","","","",""]
+  rows << ["","","","","","","","","",""]
 end
 
-table = Terminal::Table.new :title => "Results", :headings => ['#', 'ProjectName', "RepoURL-\nHEAD SHA", "#\nCommit", "#RV\n-Msg" , "#RV\n-Full", "#RV-\nPart"], :rows => rows
+table = Terminal::Table.new :title => "Results", :headings => ['#', 'ProjectName', "RepoURL-\nHEAD SHA", "#\nCommit", "#\nMerges", "#RV\n-Msg" , "#RV\n-Full", "#RV-\nPart", "#CP\n-Full", "#CP-\nPart"], :rows => rows
 puts table
 op_file.puts table
