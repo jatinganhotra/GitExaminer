@@ -158,6 +158,76 @@ echo ======================================================
 echo Running brick
 ruby script.rb https://github.com/mozbrick/brick.git
 
+echo ======================================================
+echo === Running Clean code linters =========
+echo ======================================================
+echo Running rubocop
+ruby script.rb https://github.com/bbatsov/rubocop.git
+
+echo ======================================================
+echo Running hlint
+ruby script.rb https://github.com/ndmitchell/hlint.git
+
+echo ======================================================
+echo Running coffeelint
+ruby script.rb https://github.com/clutchski/coffeelint.git
+
+echo ======================================================
+echo Running csslint
+ruby script.rb https://github.com/CSSLint/csslint.git
+
+echo ======================================================
+echo Running scss-lint
+ruby script.rb https://github.com/causes/scss-lint.git
+
+echo ======================================================
+echo Running shellcheck
+ruby script.rb https://github.com/koalaman/shellcheck.git
+
+echo ======================================================
+echo Running puppet-lint
+ruby script.rb https://github.com/rodjek/puppet-lint.git
+
+echo ======================================================
+echo Running eslint
+ruby script.rb https://github.com/eslint/eslint.git
+
+echo ======================================================
+echo Running oclint
+ruby script.rb https://github.com/oclint/oclint.git
+
+echo ======================================================
+echo ===== Running open-source operating systems ==========
+echo ======================================================
+echo Running toaruos
+ruby script.rb https://github.com/klange/toaruos.git
+
+echo ======================================================
+echo ======= Running Javascript game engines ==============
+echo ======================================================
+echo Running phaser
+ruby script.rb https://github.com/photonstorm/phaser.git
+
+echo ======================================================
+echo Running melonJS
+ruby script.rb https://github.com/melonjs/melonJS.git
+
+echo ======================================================
+echo Running Crafty
+ruby script.rb https://github.com/craftyjs/Crafty.git
+
+echo ======================================================
+echo Running cocos2d-html5
+ruby script.rb https://github.com/cocos2d/cocos2d-html5.git
+
+echo ======================================================
+echo Running engine
+ruby script.rb https://github.com/playcanvas/engine.git
+
+echo ======================================================
+echo Running panda.js
+ruby script.rb https://github.com/ekelokorpi/panda.js.git
+
 # ======================================================
 # ======================================================
 # Big repositories
