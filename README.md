@@ -10,11 +10,10 @@ How often do people revert/merge/cherry-pick?
 
 <h5> Motivation: </h5>
 
-<p> As developers, we come across different situations, such as:
-    <ul>
-    * when we realise a previous change was incorrect, or
-    * when we need to cherry-pick a commit from one branch and apply it on another, or
-    * merge changes from one branch to another
+<p> As developers, we come across different situations, such as:  
+    * when we realise a previous change was incorrect, or  
+    * when we need to cherry-pick a commit from one branch and apply it on another, or  
+    * merge changes from one branch to another  
 
 
   Thanks to modern version control systems, such as <a href="http://git-scm.com">Git</a>,
