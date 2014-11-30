@@ -1,0 +1,1131 @@
+# of cherry-picks = 79
+Cherry-pick diff pair 1 is -> 
+{ a479d58f0fa3ebd5cf7c0dbefc07be52372aa0b9 -> 251ef6ed95d3c3ffd599c048e0833ae94a49737b } is a cherrypick
+{ d57350f902e438efc0c64ad61bf36e85f52e6303 -> 3853c7824cc5488ce64405d53abbc7bd17eca4f8 }
+Cherrypick commits SHA are -> 
+251ef6ed95d3c3ffd599c048e0833ae94a49737b - cherrypick - 3853c7824cc5488ce64405d53abbc7bd17eca4f8
+---> The cherrypicked commit sha is - 251ef6ed95d3c3ffd599c048e0833ae94a49737b
+Commit message - Improve the EmptyLiteral messages
+---> The original commit sha is - 3853c7824cc5488ce64405d53abbc7bd17eca4f8
+Commit message - Merge pull request #1414 from jonas054/1401_dot_dirs
+
+[Fix #1401] Enable including hidden directories in config
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ b2a1d461b8a073c2263f7ba0719c904759e27231 -> e38f5551db287ec3f39bb86b6c3509cc1670229a } is a cherrypick
+{ a28e34e94367ad9dd8b87a1d8c00f60c515dbd6b -> 00e476151a7f3fadae4ec54ee9a8d8d6685c5819 }
+Cherrypick commits SHA are -> 
+e38f5551db287ec3f39bb86b6c3509cc1670229a - cherrypick - 00e476151a7f3fadae4ec54ee9a8d8d6685c5819
+---> The cherrypicked commit sha is - e38f5551db287ec3f39bb86b6c3509cc1670229a
+Commit message - Show decimals for Metrics/AbcSize:Max if given in config
+
+The reporting of the offense should include a decimal
+if set like that in a configuration file.
+
+And increase the number of significant digits reported
+for the size. Otherwise we get output such as [44/44]
+when the size is just above 44.
+
+Allowing a little bit of duplication makes the specs
+more readable than with the method registers_offense.
+---> The original commit sha is - 00e476151a7f3fadae4ec54ee9a8d8d6685c5819
+Commit message - Merge pull request #1392 from jonas054/fix_abc_size_decimal
+
+Show decimals for Metrics/AbcSize:Max if given in config
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ b152eac0620104f5d9ffbe99c7c6cff9d95334b6 -> 6e4507e4112f9bba54fc4d02116d7b560ff36a58 } is a cherrypick
+{ ecd75e51501b04094dc15a91845542fe8bd25169 -> f7da5fe01abdda90540dc03b9b7fa9bbdf76e93e }
+Cherrypick commits SHA are -> 
+6e4507e4112f9bba54fc4d02116d7b560ff36a58 - cherrypick - f7da5fe01abdda90540dc03b9b7fa9bbdf76e93e
+---> The cherrypicked commit sha is - 6e4507e4112f9bba54fc4d02116d7b560ff36a58
+Commit message - [Fix #1374] Always auto-correct one cop at a time
+
+The only way to guarantee that two cops don't destroy
+the code by doing simultaneous changes, is to save
+the file after letting one cop to its corrections, and
+then parse it again before doing any more corrections.
+---> The original commit sha is - f7da5fe01abdda90540dc03b9b7fa9bbdf76e93e
+Commit message - Merge pull request #1371 from bquorning/wordarray-recognize-email-addresses
+
+WordArray allows all characters except spaces
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ daf2331f662b0c0e680cd19d2d79a24d815c3ada -> 5027e5ac8425e2a828d72a8e8c89774628d7dae6 } is a cherrypick
+{ b9135881dee82e4042d9d7d0bcc77e3388d37e1b -> b152eac0620104f5d9ffbe99c7c6cff9d95334b6 }
+Cherrypick commits SHA are -> 
+5027e5ac8425e2a828d72a8e8c89774628d7dae6 - cherrypick - b152eac0620104f5d9ffbe99c7c6cff9d95334b6
+---> The cherrypicked commit sha is - 5027e5ac8425e2a828d72a8e8c89774628d7dae6
+Commit message - [Fix #1350] Check that Blocks cop doesn't create syntax errors
+
+The cops AndOr and Not share the same logic, but it looks like
+their autocorrect methods are not capable of introducing syntax
+errors.
+---> The original commit sha is - b152eac0620104f5d9ffbe99c7c6cff9d95334b6
+Commit message - Merge pull request #1377 from jonas054/1350_autocorrect_blocks
+
+[Fix #1350] Check that Blocks cop doesn't create syntax errors
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ 0c06c7194c92ab09bd680ce1610bb5f10c0288a6 -> b6b49842c08e323c4649d0ec53e9e6fbfa83df86 } is a cherrypick
+{ 70da152cf5ecd81e95f06df3e6c0697582d39075 -> 33b0fc57867dedfade8c2e7ace39f74ca1959404 }
+Cherrypick commits SHA are -> 
+b6b49842c08e323c4649d0ec53e9e6fbfa83df86 - cherrypick - 33b0fc57867dedfade8c2e7ace39f74ca1959404
+---> The cherrypicked commit sha is - b6b49842c08e323c4649d0ec53e9e6fbfa83df86
+Commit message - Allow Rubinius build failures
+
+Something seems to be wrong with Rubinius over at TravisCI, so
+let's allow failures there for the time being.
+---> The original commit sha is - 33b0fc57867dedfade8c2e7ace39f74ca1959404
+Commit message - Revert "Don't allow failures on Rubinius"
+
+This reverts commit 70da152cf5ecd81e95f06df3e6c0697582d39075.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ fa610e825821ab65fc1f62021b00e25528a1792a -> 62f3ae55fe7aac7d1efcec7c0e869ed1eb670a11 } is a cherrypick
+{ 6e22cbd68facf453032d327b15a99c2788ea61fb -> 59434c1cf4b6373c9be4221c61c70ce80efc8398 }
+Cherrypick commits SHA are -> 
+62f3ae55fe7aac7d1efcec7c0e869ed1eb670a11 - cherrypick - 59434c1cf4b6373c9be4221c61c70ce80efc8398
+---> The cherrypicked commit sha is - 62f3ae55fe7aac7d1efcec7c0e869ed1eb670a11
+Commit message - [Fix #1340] Handle call with no receiver correctly
+
+For blocks with an unused argument which call a method with no explicit
+receiver, the Style/SymbolProc would attempt to check 'receiver.type'
+and crash because receiver is nil.
+---> The original commit sha is - 59434c1cf4b6373c9be4221c61c70ce80efc8398
+Commit message - Merge pull request #1341 from smangelsdorf/symbol-proc-crash
+
+[Fix #1340] Handle call with no receiver correctly in Style/SymbolProc cop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ a929a75118cc881d934c1d494775bc5862ef0346 -> e321d12a2d8e9a795885a243509e1faa8e6087a0 } is a cherrypick
+{ c10771f6ef27e82d759a8f184911df12ad2c005c -> 4f1ee23c368ed5ef346dbbdd39a747cd2185646b }
+Cherrypick commits SHA are -> 
+e321d12a2d8e9a795885a243509e1faa8e6087a0 - cherrypick - 4f1ee23c368ed5ef346dbbdd39a747cd2185646b
+---> The cherrypicked commit sha is - e321d12a2d8e9a795885a243509e1faa8e6087a0
+Commit message - Add more style guide references to cops
+
+Related to #824.
+---> The original commit sha is - 4f1ee23c368ed5ef346dbbdd39a747cd2185646b
+Commit message - Merge pull request #1333 from yous/patch-rspec
+
+Fix spec pattern for RSpec 3.1.0
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ 71069b3c1beff7e219e93ef3ddf39faf97ab7251 -> 8f429c598d2348e1d3c8297ee9c8ee65e1549ae7 } is a cherrypick
+{ 0f11aa8a3aa69fd09965355efeee5b8491fe7148 -> ff65412c8ae951eeff7ea367bca0b918e1a3b765 }
+Cherrypick commits SHA are -> 
+8f429c598d2348e1d3c8297ee9c8ee65e1549ae7 - cherrypick - ff65412c8ae951eeff7ea367bca0b918e1a3b765
+---> The cherrypicked commit sha is - 8f429c598d2348e1d3c8297ee9c8ee65e1549ae7
+Commit message - [Fix #1316] Ignore lambdas in SymbolProc cop
+---> The original commit sha is - ff65412c8ae951eeff7ea367bca0b918e1a3b765
+Commit message - Merge pull request #1315 from CO2Management/fix/correct-whitespace-braces-around-hash-parameters
+
+Correct whitespace braces around hash parameters
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ 7fc3ed6d4eeb8adc9977cf889b4fa9b4d28384c7 -> 7d9e95e99423af5be203113ac472d1288598da79 } is a cherrypick
+{ a9aefe4d1f448fc8b16f4ba0530430efd10e65ef -> d254826b2e942217b5df013d20a18f9d650f2813 }
+Cherrypick commits SHA are -> 
+7d9e95e99423af5be203113ac472d1288598da79 - cherrypick - d254826b2e942217b5df013d20a18f9d650f2813
+---> The cherrypicked commit sha is - 7d9e95e99423af5be203113ac472d1288598da79
+Commit message - Fix auto-correction `RedundantBegin` cop
+
+Auto-correction of `Style/RedundantBegin` cop have treated new line as
+indentation and deleted them.
+
+Fix #1307.
+---> The original commit sha is - d254826b2e942217b5df013d20a18f9d650f2813
+Commit message - Merge pull request #1308 from yous/patch-redundant-begin
+
+Fix auto-correction `RedundantBegin` cop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ be11c5a3e1d89e0779b1a3ed86dc4801770d9730 -> 6f185a0866334f69d2d9d03b5b76dd47db1f58b5 } is a cherrypick
+{ 3c44b4f16dd7d22f32d9ad48bad3ec608e8df859 -> 20426602bb0abb647b1e021a5c31ab18191c4206 }
+Cherrypick commits SHA are -> 
+6f185a0866334f69d2d9d03b5b76dd47db1f58b5 - cherrypick - 20426602bb0abb647b1e021a5c31ab18191c4206
+---> The cherrypicked commit sha is - 6f185a0866334f69d2d9d03b5b76dd47db1f58b5
+Commit message - Force to use array join for `\n` in string
+---> The original commit sha is - 20426602bb0abb647b1e021a5c31ab18191c4206
+Commit message - Merge pull request #1302 from yous/patch-new-line
+
+Force to use array join for `\n` in string
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ 4f660a21de7599835ca0c1deabc7bdc828c9c5aa -> 5a5215ba005e36101831cb80a0951647b6f7b34b } is a cherrypick
+{ 1db0a0ab4be3d74259807e85efb65eb19a659b22 -> 5d1bf0ff64d8254b33cf0a10ad7a4b19c4de6b1e }
+Cherrypick commits SHA are -> 
+5a5215ba005e36101831cb80a0951647b6f7b34b - cherrypick - 5d1bf0ff64d8254b33cf0a10ad7a4b19c4de6b1e
+---> The cherrypicked commit sha is - 5a5215ba005e36101831cb80a0951647b6f7b34b
+Commit message - [Fix #1254] Update parser to 2.2.0.pre.4
+---> The original commit sha is - 5d1bf0ff64d8254b33cf0a10ad7a4b19c4de6b1e
+Commit message - Merge pull request #1256 from tamird/trailing-commas-block
+
+Ignore block-pass in `TrailingComma`
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ 091d124726b541f8852e0d1699f8383d652fea71 -> 06959abcfd291694f16b305e6b0f74dd6d6f2216 } is a cherrypick
+{ d12dcd86161d83bfa40712284f9421aa0e2dd2ba -> 1da68775b22d4020534e75571aa8cb6d2075dd1f }
+Cherrypick commits SHA are -> 
+06959abcfd291694f16b305e6b0f74dd6d6f2216 - cherrypick - 1da68775b22d4020534e75571aa8cb6d2075dd1f
+---> The cherrypicked commit sha is - 06959abcfd291694f16b305e6b0f74dd6d6f2216
+Commit message - [Fix #1232] make the behavior of AndOr cop configurable
+
+Currently, the AndOr cop bans the use of keywords 'and' and 'or'
+completely. This patch adds a configuration option `OnlyCheckConditionals`
+which when set, restricts the AndOr cop to only conditionals.
+---> The original commit sha is - 1da68775b22d4020534e75571aa8cb6d2075dd1f
+Commit message - Merge pull request #1236 from vrthra/fix/1232/configurable_andor
+
+[Fix #1232] make the behavior of AndOr cop configurable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ d6bae5b9dea54eeaba71b007df11bd13ac8252a9 -> fd2c26fbbd1998aee6851e89fc7043056f0fa831 } is a cherrypick
+{ 9548befeec193d16d39a576d7744bb3bc3c831ec -> 3161d58f03195257f6e409b273cc4180c3ee97c4 }
+Cherrypick commits SHA are -> 
+fd2c26fbbd1998aee6851e89fc7043056f0fa831 - cherrypick - 3161d58f03195257f6e409b273cc4180c3ee97c4
+---> The cherrypicked commit sha is - fd2c26fbbd1998aee6851e89fc7043056f0fa831
+Commit message - Make Debugger cop also check for `binding.pry_remote`
+
+Because `pry_remote` is an alias for `remote_pry`.
+https://github.com/Mon-Ouie/pry-remote/blob/2557d39e003450a7fc11d4c3e48cc3eb5b01302d/lib/pry-remote.rb#L349
+---> The original commit sha is - 3161d58f03195257f6e409b273cc4180c3ee97c4
+Commit message - Merge pull request #1237 from yous/patch-pry-remote
+
+Make Debugger cop also check for `binding.pry_remote`
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 14 is -> 
+{ e2ca489e87d6252b727b07a4e0cb5413376e6f55 -> ea0278e2df0e309932705f67d8f040bcae76887b } is a cherrypick
+{ f9fb02a4423e6f5690dd0ed585600c44ddac3f01 -> e7590078f290ec4d4ea93c6aefbeee9a50f4569b }
+Cherrypick commits SHA are -> 
+ea0278e2df0e309932705f67d8f040bcae76887b - cherrypick - e7590078f290ec4d4ea93c6aefbeee9a50f4569b
+---> The cherrypicked commit sha is - ea0278e2df0e309932705f67d8f040bcae76887b
+Commit message - [Fix #1219] Avoid reporting }/end sharing line with something
+
+For block ends that follow something else on the same line,
+there's no correct or incorrect alignment.
+---> The original commit sha is - e7590078f290ec4d4ea93c6aefbeee9a50f4569b
+Commit message - Merge pull request #1221 from jonas054/1219_block_end_align
+
+[Fix #1219] Avoid reporting }/end sharing line with something
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 15 is -> 
+{ bc2e15768782233ff51b5104ba24d1550f3e065e -> ccb943d71d0cfded96979fed66118be1b8030030 } is a cherrypick
+{ 862a3c9984414b47b9eb73934083eeaafe48f70f -> bb0875686a1d61ed075159dd0cac55f8b0dbc2eb }
+Cherrypick commits SHA are -> 
+ccb943d71d0cfded96979fed66118be1b8030030 - cherrypick - bb0875686a1d61ed075159dd0cac55f8b0dbc2eb
+---> The cherrypicked commit sha is - ccb943d71d0cfded96979fed66118be1b8030030
+Commit message - [Fix #1157] Validate --only arguments later
+
+Whether cop names given to --only are valid or not can not be
+determined until configuration has been loaded. So we can't do
+validation during option parsing.
+---> The original commit sha is - bb0875686a1d61ed075159dd0cac55f8b0dbc2eb
+Commit message - Merge pull request #1182 from jonas054/1157_only_vs_require
+
+[Fix #1157] Validate --only arguments later
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 16 is -> 
+{ e946cf1269973df17bb276ca996ab42c9b7a9871 -> 5b2820b020adf0b8fee3ef075516fb0f2773bc47 } is a cherrypick
+{ 32f58361d4adb837e8331a6e1f4261fe2ea3f493 -> 6555bfa6da5d72181992dcc8cbcf4cec875d2941 }
+Cherrypick commits SHA are -> 
+5b2820b020adf0b8fee3ef075516fb0f2773bc47 - cherrypick - 6555bfa6da5d72181992dcc8cbcf4cec875d2941
+---> The cherrypicked commit sha is - 5b2820b020adf0b8fee3ef075516fb0f2773bc47
+Commit message - Fix most cases of offense being spelled as offence
+---> The original commit sha is - 6555bfa6da5d72181992dcc8cbcf4cec875d2941
+Commit message - Merge pull request #1161 from agrimm/space_before_punctuation
+
+New cops SpaceBeforeComma and SpaceBeforeSemicolon
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 17 is -> 
+{ 88d37dddccb4d46c2ad4578e02dc771e8eaf6735 -> b05c98968385c433ca2d87683789f1b27798f367 } is a cherrypick
+{ 40a1c7e44efda1b0d893cb38a9996e0ade333e8e -> 596531b76e7c5977c19e6298c7fad9e763825f82 }
+Cherrypick commits SHA are -> 
+b05c98968385c433ca2d87683789f1b27798f367 - cherrypick - 596531b76e7c5977c19e6298c7fad9e763825f82
+---> The cherrypicked commit sha is - b05c98968385c433ca2d87683789f1b27798f367
+Commit message - Remove Parser fallback code
+
+Parser 2.1.9 features similar fallback code, so ours is redundant.
+---> The original commit sha is - 596531b76e7c5977c19e6298c7fad9e763825f82
+Commit message - Merge pull request #1150 from jonas054/1141_clarify_trailing_comma
+
+[Fix #1141] Clarify why trailing comma is not allowed
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 18 is -> 
+{ cfc2a31741b0f32d03907d8d9b5169290f7b8f29 -> 5bbcad5aee6ec621c83638ea714289e2e55f406b } is a cherrypick
+{ 40a1c7e44efda1b0d893cb38a9996e0ade333e8e -> 596531b76e7c5977c19e6298c7fad9e763825f82 }
+Cherrypick commits SHA are -> 
+5bbcad5aee6ec621c83638ea714289e2e55f406b - cherrypick - 596531b76e7c5977c19e6298c7fad9e763825f82
+---> The cherrypicked commit sha is - 5bbcad5aee6ec621c83638ea714289e2e55f406b
+Commit message - Revert "Revert "Remove Parser fallback code""
+
+This reverts commit fcfcfe178cb7579e3a4ede1523c6ee982efcb928.
+---> The original commit sha is - 596531b76e7c5977c19e6298c7fad9e763825f82
+Commit message - Merge pull request #1150 from jonas054/1141_clarify_trailing_comma
+
+[Fix #1141] Clarify why trailing comma is not allowed
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 19 is -> 
+{ 88d37dddccb4d46c2ad4578e02dc771e8eaf6735 -> b05c98968385c433ca2d87683789f1b27798f367 } is a cherrypick
+{ cfc2a31741b0f32d03907d8d9b5169290f7b8f29 -> 5bbcad5aee6ec621c83638ea714289e2e55f406b }
+Cherrypick commits SHA are -> 
+b05c98968385c433ca2d87683789f1b27798f367 - cherrypick - 5bbcad5aee6ec621c83638ea714289e2e55f406b
+---> The cherrypicked commit sha is - b05c98968385c433ca2d87683789f1b27798f367
+Commit message - Remove Parser fallback code
+
+Parser 2.1.9 features similar fallback code, so ours is redundant.
+---> The original commit sha is - 5bbcad5aee6ec621c83638ea714289e2e55f406b
+Commit message - Revert "Revert "Remove Parser fallback code""
+
+This reverts commit fcfcfe178cb7579e3a4ede1523c6ee982efcb928.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 20 is -> 
+{ 02aa71e5768f2337edea30832fe6407e96705c76 -> 72b0da5123bdf6dd2fcb690d6d69913b60566c59 } is a cherrypick
+{ b66fb66b6e4682f8492c35e6bc0bdc55738f05b5 -> cbbaae10b1be8055464f4edab2af41b4d040824c }
+Cherrypick commits SHA are -> 
+72b0da5123bdf6dd2fcb690d6d69913b60566c59 - cherrypick - cbbaae10b1be8055464f4edab2af41b4d040824c
+---> The cherrypicked commit sha is - 72b0da5123bdf6dd2fcb690d6d69913b60566c59
+Commit message - [Fix #1090] Correct handling of documentation vs annotation comment
+
+Regard comment as valid documentation comment if at least one line
+is not an annotation comment.
+---> The original commit sha is - cbbaae10b1be8055464f4edab2af41b4d040824c
+Commit message - Merge pull request #1127 from jonas054/1090_doc_with_annotation
+
+[Fix #1090] Correct handling of documentation vs annotation comment
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 21 is -> 
+{ 92a675ea20a97b2dcc91c1803c9ea52637d36099 -> e0cd9b6d9aa2d9d4eb78bea73e805f111ffa9f54 } is a cherrypick
+{ 51f80961d06c6ae1afa24b6806b3b0ebd9992cc9 -> 0fb3e60f595c0489d3db3f701808884e16d8b217 }
+Cherrypick commits SHA are -> 
+e0cd9b6d9aa2d9d4eb78bea73e805f111ffa9f54 - cherrypick - 0fb3e60f595c0489d3db3f701808884e16d8b217
+---> The cherrypicked commit sha is - e0cd9b6d9aa2d9d4eb78bea73e805f111ffa9f54
+Commit message - Remove unnecessary hash merge in TargetFinder
+
+The typo fail_level instead of fail_fast didn't affect function, so
+that whole thing is unnecessary. Let values default to nil instead of
+false. Works the same.
+---> The original commit sha is - 0fb3e60f595c0489d3db3f701808884e16d8b217
+Commit message - Merge pull request #1107 from jonas054/fix_fail_fast
+
+Remove unnecessary hash merge in TargetFinder
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 22 is -> 
+{ e6b491831870e89740430605ce9955f10ba96942 -> 657d6b5c2045f39c45df9475287c7b8080c28cf8 } is a cherrypick
+{ 840ff7c3ab2d84e8b6b62ffa430b4baa9441cda6 -> 8117fa26500fe45721f8d494b63cce808629f2ef }
+Cherrypick commits SHA are -> 
+657d6b5c2045f39c45df9475287c7b8080c28cf8 - cherrypick - 8117fa26500fe45721f8d494b63cce808629f2ef
+---> The cherrypicked commit sha is - 657d6b5c2045f39c45df9475287c7b8080c28cf8
+Commit message - Minor refactoring of SelfAssignment cop
+
+unify offense message
+tests should not use the same code its testing
+---> The original commit sha is - 8117fa26500fe45721f8d494b63cce808629f2ef
+Commit message - Merge pull request #1076 from wndhydrnt/b-windows-exclude
+
+Fix Exclude configuration not working on Windows
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 23 is -> 
+{ be3e5525a6d7003091ca192aafe0d904b16a24ea -> 623a886862f15083672057e4fe7a0665a9f7c912 } is a cherrypick
+{ 4f7ef166cab6dc98bda8baab8f885e4f83d98efc -> 392f9c67e40ce4f3ca5814276d6fb7be8c86d24e }
+Cherrypick commits SHA are -> 
+623a886862f15083672057e4fe7a0665a9f7c912 - cherrypick - 392f9c67e40ce4f3ca5814276d6fb7be8c86d24e
+---> The cherrypicked commit sha is - 623a886862f15083672057e4fe7a0665a9f7c912
+Commit message - [Fix #919] Remove auto-correct avoidance in HashSyntax
+
+We have an auto-correct loop that deals with clobbering errors now, so
+instead of avoiding a correction we just make the correction range a
+bit larger.
+---> The original commit sha is - 392f9c67e40ce4f3ca5814276d6fb7be8c86d24e
+Commit message - Merge pull request #920 from jonas054/fix_only_hash_syntax_autocorrect
+
+[Fix #919] Remove auto-correct avoidance in HashSyntax
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 24 is -> 
+{ b5f3e806183926bd31ccf972b3f645de126c6927 -> 30cca761d1f19c0cde12ad4fee6265e63864eb43 } is a cherrypick
+{ d95fcf51aa61f107bbf1d5485fb284237f1b13f4 -> d685e267bf61eaaa039ef38d2b9fadd3af85fb39 }
+Cherrypick commits SHA are -> 
+30cca761d1f19c0cde12ad4fee6265e63864eb43 - cherrypick - d685e267bf61eaaa039ef38d2b9fadd3af85fb39
+---> The cherrypicked commit sha is - 30cca761d1f19c0cde12ad4fee6265e63864eb43
+Commit message - [Fix #884] Correct OBO bug in offense correction reporting
+---> The original commit sha is - d685e267bf61eaaa039ef38d2b9fadd3af85fb39
+Commit message - Merge pull request #887 from tmorris-fiksu/numeric_literals_auto-gen_config_off_by_one_884
+
+[#884] Fix --auto-gen-config for `NumericLiterals` so MinDigits is correct.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 25 is -> 
+{ 6d18223f4d8fb2c85c6e363bd9c21d45f10b2c72 -> 1f96ade0583b2c5664b11e830f2214b31e0e2032 } is a cherrypick
+{ af39546186424f55a39a7fb1352d7a5b6e68c108 -> 6af896830edfeda2bc74e26665cba95b55bc90ee }
+Cherrypick commits SHA are -> 
+1f96ade0583b2c5664b11e830f2214b31e0e2032 - cherrypick - 6af896830edfeda2bc74e26665cba95b55bc90ee
+---> The cherrypicked commit sha is - 1f96ade0583b2c5664b11e830f2214b31e0e2032
+Commit message - [Fix #875] Handle separator style hashes in IndentHash
+
+The separator style in AlignHash does not have a straight left
+margin, so in these hashes it's the longest key that shall be
+indented and the other ones shall follow.
+---> The original commit sha is - 6af896830edfeda2bc74e26665cba95b55bc90ee
+Commit message - Merge pull request #885 from jonas054/fix_align_indent_hash
+
+[Fix #875] Handle separator style hashes in IndentHash
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 26 is -> 
+{ fbe3ed902749bb4a9b9775a4d4b97828c5f982ef -> a17e52b238ecbf79a8d23a59b40c5ca0ee60f484 } is a cherrypick
+{ 2c0b48a8a1f54b7052beff24cccc270f132d5544 -> 65c2390b82bdc8b973fc92963571ee73c43bcb12 }
+Cherrypick commits SHA are -> 
+a17e52b238ecbf79a8d23a59b40c5ca0ee60f484 - cherrypick - 65c2390b82bdc8b973fc92963571ee73c43bcb12
+---> The cherrypicked commit sha is - a17e52b238ecbf79a8d23a59b40c5ca0ee60f484
+Commit message - Add option to ignore last argument hashes
+---> The original commit sha is - 65c2390b82bdc8b973fc92963571ee73c43bcb12
+Commit message - Merge pull request #864 from hannestyden/ignore-last-argument-hash
+
+Add configuration option to AlignHash cop making it ignore last argument hashes
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 27 is -> 
+{ e528ebf9d334d731007bdb91546276e2aaed05be -> 5e7d351f5675ec1a7a730c7fa139f69f2d032a70 } is a cherrypick
+{ f591c0f23a2874331c4a3ccd76e065616c9c874c -> c7fb491f6419ade5ceff0a49f9dcbeb1ecdedfe0 }
+Cherrypick commits SHA are -> 
+5e7d351f5675ec1a7a730c7fa139f69f2d032a70 - cherrypick - c7fb491f6419ade5ceff0a49f9dcbeb1ecdedfe0
+---> The cherrypicked commit sha is - 5e7d351f5675ec1a7a730c7fa139f69f2d032a70
+Commit message - Add docs badge to README
+---> The original commit sha is - c7fb491f6419ade5ceff0a49f9dcbeb1ecdedfe0
+Commit message - Merge pull request #853 from rrrene/patch-1
+
+Add docs badge to README
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 28 is -> 
+{ b44c6fa6e32854a067cee1b2c11eca80127f7385 -> c34fd77f03a8d9dd617cf25c659d0f1f3b3fdea4 } is a cherrypick
+{ 983bc86eca1bba41352e2e96bbdbf836d24915dc -> ca93e0c0b9706a9f921d8ab46b4c00a04c2420dd }
+Cherrypick commits SHA are -> 
+c34fd77f03a8d9dd617cf25c659d0f1f3b3fdea4 - cherrypick - ca93e0c0b9706a9f921d8ab46b4c00a04c2420dd
+---> The cherrypicked commit sha is - c34fd77f03a8d9dd617cf25c659d0f1f3b3fdea4
+Commit message - Fix `%`-literals multiline autocorrect
+---> The original commit sha is - ca93e0c0b9706a9f921d8ab46b4c00a04c2420dd
+Commit message - Merge pull request #842 from hannestyden/fix-percent-literal-delimiter-multiline-autocorrect
+
+Fix percent literal delimiter multiline autocorrect
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 29 is -> 
+{ abea551afc84f1063fb231aaecf5667362d84775 -> 198e93951e81545c66de97cf35a50efe34a274fd } is a cherrypick
+{ 8b5b67083a09da7d40149ac22718b86dd7b85e37 -> 8b43bbd882ab1d3d76170512e97c73e759cc0e50 }
+Cherrypick commits SHA are -> 
+198e93951e81545c66de97cf35a50efe34a274fd - cherrypick - 8b43bbd882ab1d3d76170512e97c73e759cc0e50
+---> The cherrypicked commit sha is - 198e93951e81545c66de97cf35a50efe34a274fd
+Commit message - [Fix #815] Don't register an offense for blank lines in heredocs
+---> The original commit sha is - 8b43bbd882ab1d3d76170512e97c73e759cc0e50
+Commit message - Merge pull request #816 from Silex/patch-1
+
+Correct emacs/sublime text anchor links
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 30 is -> 
+{ a0e3572144fea77aec6e590cdd7e40301bd001dd -> d103d831c5b9740d6368eeaa6eff8f9017d065ac } is a cherrypick
+{ 4de987dc26b05948802517e81b58df3a82db862d -> 3a831e6617197bd3b8cc721deab7d76dc7a566c0 }
+Cherrypick commits SHA are -> 
+d103d831c5b9740d6368eeaa6eff8f9017d065ac - cherrypick - 3a831e6617197bd3b8cc721deab7d76dc7a566c0
+---> The cherrypicked commit sha is - d103d831c5b9740d6368eeaa6eff8f9017d065ac
+Commit message - Fix typo in CHANGELOG.md
+
+Fix spelling of ParenthesesAroundCondition
+---> The original commit sha is - 3a831e6617197bd3b8cc721deab7d76dc7a566c0
+Commit message - Merge pull request #792 from jonas054/fix_autocorrect_interference
+
+[Fix #790] Make smaller replace in MethodDefParentheses autocorrect
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 31 is -> 
+{ 5880cae0a61752f33fc3ca6bf0e8409d0e258d82 -> 4ef259967e0b0938ea2732c250c3ee8346f0f4b7 } is a cherrypick
+{ 330e02834681572d8d02568db717e23c6f3a0224 -> bfdada4bbb252113a5b9c1a96e1375dbae94ecb9 }
+Cherrypick commits SHA are -> 
+4ef259967e0b0938ea2732c250c3ee8346f0f4b7 - cherrypick - bfdada4bbb252113a5b9c1a96e1375dbae94ecb9
+---> The cherrypicked commit sha is - 4ef259967e0b0938ea2732c250c3ee8346f0f4b7
+Commit message - Support Rainbow gem both 1.99.x and 2.x
+
+This fixes #762.
+---> The original commit sha is - bfdada4bbb252113a5b9c1a96e1375dbae94ecb9
+Commit message - Merge pull request #763 from yujinakayama/support-rainbow-2
+
+Support Rainbow gem both 1.99.x and 2.x
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 32 is -> 
+{ c419de3a769e814234b6efde64aacd849275c210 -> 3bea44e015e076836c5fa6f98a51b7940a3b4df6 } is a cherrypick
+{ dee5d85d2ad0a86189b51e6e0d2632f37c4fd57e -> ee16071ac21f4e1962ca0cb477a2442b1463b429 }
+Cherrypick commits SHA are -> 
+3bea44e015e076836c5fa6f98a51b7940a3b4df6 - cherrypick - ee16071ac21f4e1962ca0cb477a2442b1463b429
+---> The cherrypicked commit sha is - 3bea44e015e076836c5fa6f98a51b7940a3b4df6
+Commit message - Fix crash on ternary if in ParenthesesAroundCondition.
+---> The original commit sha is - ee16071ac21f4e1962ca0cb477a2442b1463b429
+Commit message - Merge pull request #750 from pmenglund/rakefile
+
+removed duplicated require
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 33 is -> 
+{ 38caeb1c9305eb6a924f295e50f2ccfd297ad334 -> 17219e32777c22561662e65d4594b6c5fdf3a454 } is a cherrypick
+{ 6d15d9441e3cdd2315f883756f92e19538f0cdab -> 82743d3dc99b78969ee3782dd6ffa4d58513687c }
+Cherrypick commits SHA are -> 
+17219e32777c22561662e65d4594b6c5fdf3a454 - cherrypick - 82743d3dc99b78969ee3782dd6ffa4d58513687c
+---> The cherrypicked commit sha is - 17219e32777c22561662e65d4594b6c5fdf3a454
+Commit message - Updating README to indicate general ST support
+---> The original commit sha is - 82743d3dc99b78969ee3782dd6ffa4d58513687c
+Commit message - Merge pull request #746 from jonas054/fix_multiple_autocorrect
+
+Read, inspect, and write file repeatedly in --auto-correct.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 34 is -> 
+{ d8eb9569c3408ebcbad7c88b7197b81722ff9025 -> 6bc856b443367b26b16ea9fe8f863a7144b1878e } is a cherrypick
+{ d98c188174f936252731d56a700c4c1d02c30616 -> 5fb62c86b622d29c204ae66a33fa7f7abee02263 }
+Cherrypick commits SHA are -> 
+6bc856b443367b26b16ea9fe8f863a7144b1878e - cherrypick - 5fb62c86b622d29c204ae66a33fa7f7abee02263
+---> The cherrypicked commit sha is - 6bc856b443367b26b16ea9fe8f863a7144b1878e
+Commit message - [Fix #667] Handle public/protected/private in IndentationWidth.
+
+Correction for an unreleased feature.
+---> The original commit sha is - 5fb62c86b622d29c204ae66a33fa7f7abee02263
+Commit message - Merge pull request #675 from jonas054/fix_inconsistent_ind_when_outdent
+
+[Fix #667] Handle public/protected/private in IndentationWidth.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 35 is -> 
+{ 19f14fd49039785577aa396befbab021692e35c9 -> d2c11d8ae8bc7437a528330f85fcade2b7bfbcc6 } is a cherrypick
+{ 203a5e4f5e2b10e61f3a03d89cdc6ae49db02903 -> e4b7f673ae1920804b138b171611fa9f15463f1b }
+Cherrypick commits SHA are -> 
+d2c11d8ae8bc7437a528330f85fcade2b7bfbcc6 - cherrypick - e4b7f673ae1920804b138b171611fa9f15463f1b
+---> The cherrypicked commit sha is - d2c11d8ae8bc7437a528330f85fcade2b7bfbcc6
+Commit message - Get rid of some duplication in SpaceAroundBlockBraces.
+
+The rewritten SpaceAroundBlockBraces got a C in Code Climate. Try to improve matters.
+---> The original commit sha is - e4b7f673ae1920804b138b171611fa9f15463f1b
+Commit message - Merge pull request #642 from jonas054/fix_code_climate_complaints
+
+Get rid of some duplication in SpaceAroundBlockBraces.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 36 is -> 
+{ 415e648fdabf20c5245c3c306a6609a4e9f4b776 -> e4c8a22f637349c1b43f732d6e04ed071075b9fb } is a cherrypick
+{ 30fcdb9e9ae2ae5dd2f18ae394580f38fe45a6d0 -> b62e1866680578254dd5e1bc760ef2b02eb8f6ea }
+Cherrypick commits SHA are -> 
+e4c8a22f637349c1b43f732d6e04ed071075b9fb - cherrypick - b62e1866680578254dd5e1bc760ef2b02eb8f6ea
+---> The cherrypicked commit sha is - e4c8a22f637349c1b43f732d6e04ed071075b9fb
+Commit message - Fix cop comment
+---> The original commit sha is - b62e1866680578254dd5e1bc760ef2b02eb8f6ea
+Commit message - Merge pull request #612 from dblock/autocorrect-braces-around-hash-parameters
+
+Autocorrect BracesAroundHashParameters cop.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 37 is -> 
+{ 9c8dace752928c32f65ec79c677caa7c0dc29e8e -> 396e5cec12da1bfa7fd99fe6f596becb76cd49ac } is a cherrypick
+{ c0cbc149f80d502712a584b32c7ee5c2ee3a27bc -> fcd35d62a36ba4ae3197d1ed77ee509cefd26e2d }
+Cherrypick commits SHA are -> 
+396e5cec12da1bfa7fd99fe6f596becb76cd49ac - cherrypick - fcd35d62a36ba4ae3197d1ed77ee509cefd26e2d
+---> The cherrypicked commit sha is - 396e5cec12da1bfa7fd99fe6f596becb76cd49ac
+Commit message - Add brackets-rubocop to the editor integration section.
+---> The original commit sha is - fcd35d62a36ba4ae3197d1ed77ee509cefd26e2d
+Commit message - Merge pull request #590 from jonas054/complexity_cop
+
+Add CyclomaticComplexity cop.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 38 is -> 
+{ 503478cf9c07affaebd4c66d04dd4fd7b0449314 -> 0cee1f2706ed88894596ccb7bb8020719500c67e } is a cherrypick
+{ e167d69b7ec4e752e6803655af1a69ae8c2a3b78 -> fb01a6665e29cbf9184f8d2caeb4a75275f248e9 }
+Cherrypick commits SHA are -> 
+0cee1f2706ed88894596ccb7bb8020719500c67e - cherrypick - fb01a6665e29cbf9184f8d2caeb4a75275f248e9
+---> The cherrypicked commit sha is - 0cee1f2706ed88894596ccb7bb8020719500c67e
+Commit message - Fix autocorrect for SpecialGlobalVars
+---> The original commit sha is - fb01a6665e29cbf9184f8d2caeb4a75275f248e9
+Commit message - Merge pull request #571 from nevir/always-check-style
+
+Run RuboCop over its self for the default rake task
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 39 is -> 
+{ fe30bb65c2dfffafc8b5f74eadbbb62ccace340c -> b029a09431b778dbb9251fa8055fcc8555d05acc } is a cherrypick
+{ a3fc31ea904901604035eba80dd49b951afb9048 -> 7266ee312a40f6a702aca76968b883a2b59e5a6d }
+Cherrypick commits SHA are -> 
+b029a09431b778dbb9251fa8055fcc8555d05acc - cherrypick - 7266ee312a40f6a702aca76968b883a2b59e5a6d
+---> The cherrypicked commit sha is - b029a09431b778dbb9251fa8055fcc8555d05acc
+Commit message - New cop BracesAroundHashParameters checks for braces in function calls with hash parameters.
+---> The original commit sha is - 7266ee312a40f6a702aca76968b883a2b59e5a6d
+Commit message - Merge pull request #549 from seanwalbran/fix-clang-formatter-column-range-error
+
+avoid range error in clang formatter when source spans multiple lines
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 40 is -> 
+{ 623c22227f4b5ecfd417c7913ae42d9ac0ea51cb -> cd10575b4cd0cad14191ec50eeb093743aec5942 } is a cherrypick
+{ 66379270d6015da65beb8b93a8c7a1917e0c34d4 -> 9d631e3af34daeb3726f36ed1d5435e77f8fad14 }
+Cherrypick commits SHA are -> 
+cd10575b4cd0cad14191ec50eeb093743aec5942 - cherrypick - 9d631e3af34daeb3726f36ed1d5435e77f8fad14
+---> The cherrypicked commit sha is - cd10575b4cd0cad14191ec50eeb093743aec5942
+Commit message - Improve description of configuration in README.md.
+
+This is for #536, but we may want to keep the issue open for discussion a while longer.
+
+Move the sentence about what the configuration file is for, to the first paragraph.
+
+Make the example .rubocop.yml file more realistic by setting parameter values that are different from the default ones.
+
+Clarify the note about AllCops/Excludes.
+
+Make first paragraph under "Including/Excluding files" more clear and simple.
+
+Make "Inheritance" a subchapter, and try to use the word "inherit" rather than "include" when describing inherit_from.
+
+Replace the word folder with directory so we use the same nomenclature throughout the README.
+
+Make "Disabling Cops within Source Code" its own subchapter, not under "Configuration", since it has nothing to do with .rubocop.yml.
+---> The original commit sha is - 9d631e3af34daeb3726f36ed1d5435e77f8fad14
+Commit message - Merge pull request #541 from jonas054/fix_autocorrect_do_end
+
+[Fix #538] Fix bug in `Blocks` auto-correction.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 41 is -> 
+{ 83fed70256c57841212677a5ccc32e480b8ef933 -> de4710edbe5218ed63f2225495d688795d41b894 } is a cherrypick
+{ c42ba2e071bd4e89a8998f35f13e648d59db5dd9 -> 569d224817ab1adf3380ec9b19c1cc49f18aa6c9 }
+Cherrypick commits SHA are -> 
+de4710edbe5218ed63f2225495d688795d41b894 - cherrypick - 569d224817ab1adf3380ec9b19c1cc49f18aa6c9
+---> The cherrypicked commit sha is - de4710edbe5218ed63f2225495d688795d41b894
+Commit message - Added whitelist for TrivialAccessors cop
+---> The original commit sha is - 569d224817ab1adf3380ec9b19c1cc49f18aa6c9
+Commit message - Merge pull request #422 from markijbema/trivial-accessors-whitelist
+
+Trivial accessors whitelist
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 42 is -> 
+{ b7904005e88bd5beabe4016bc53846753cdb5c41 -> 3289a2750ecda056fd49da7840f2bce625362d58 } is a cherrypick
+{ 2600c782fd942aa7c4a1b2bbe2320acd910b004c -> 01067c9d380f5bbc8d0b3f1dd94be6c415f8adea }
+Cherrypick commits SHA are -> 
+3289a2750ecda056fd49da7840f2bce625362d58 - cherrypick - 01067c9d380f5bbc8d0b3f1dd94be6c415f8adea
+---> The cherrypicked commit sha is - 3289a2750ecda056fd49da7840f2bce625362d58
+Commit message - Do autocorrect in AndOr only if it doesn't change meaning of code.
+
+Fixes #387.
+---> The original commit sha is - 01067c9d380f5bbc8d0b3f1dd94be6c415f8adea
+Commit message - Merge pull request #417 from jonas054/debug_print_config_files
+
+Print configuration file names with --debug option.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 43 is -> 
+{ 13e062ddcc9d6e49d8e8e81d3b3a2b4e5784510b -> 39e267d59a76ba7e3b083d3c426d22544fd0e765 } is a cherrypick
+{ 115de6c6f16c9437b1131200cf13bd03a7b4e00c -> 7e527bfddd84547e5e203b4ce232f1b2554faf80 }
+Cherrypick commits SHA are -> 
+39e267d59a76ba7e3b083d3c426d22544fd0e765 - cherrypick - 7e527bfddd84547e5e203b4ce232f1b2554faf80
+---> The cherrypicked commit sha is - 39e267d59a76ba7e3b083d3c426d22544fd0e765
+Commit message - Retract support for multiline chaining of blocks.
+
+Fixes #393 by removing the solution for #346.
+---> The original commit sha is - 7e527bfddd84547e5e203b4ce232f1b2554faf80
+Commit message - Merge pull request #412 from rom-rb/upgrade-parser-dependency
+
+Upgrade parser gem dependency to 2.0.0.pre6
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 44 is -> 
+{ 49c80f59bd576f4945b87480634d8927a159b9d6 -> 66afdce5a2f06dddeef56bb0407958d8a227bc68 } is a cherrypick
+{ 3193be805464b5e311db893a0d7992dc392e777f -> c5bebd4aca686f1467a054e157a96d6cc6008896 }
+Cherrypick commits SHA are -> 
+66afdce5a2f06dddeef56bb0407958d8a227bc68 - cherrypick - c5bebd4aca686f1467a054e157a96d6cc6008896
+---> The cherrypicked commit sha is - 66afdce5a2f06dddeef56bb0407958d8a227bc68
+Commit message - Also check for usage of 'validates_uniqueness_of' when using '--rails'
+---> The original commit sha is - c5bebd4aca686f1467a054e157a96d6cc6008896
+Commit message - Merge pull request #371 from jawwad/add-validates_uniqueness_of
+
+Also check for usage of 'validates_uniqueness_of' when using '--rails'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 45 is -> 
+{ 8ac289ee0d25635d8434f41e74c758e1c59adb99 -> 980a34ee61a849fde66817ffa37da5f241bee63d } is a cherrypick
+{ ac15050422afffe238bfbf9b2c9255c1ffd6d631 -> af4ecce9aa84c1fb73093aaf3431ec538f365308 }
+Cherrypick commits SHA are -> 
+980a34ee61a849fde66817ffa37da5f241bee63d - cherrypick - af4ecce9aa84c1fb73093aaf3431ec538f365308
+---> The cherrypicked commit sha is - 980a34ee61a849fde66817ffa37da5f241bee63d
+Commit message - Update changelog for #88
+---> The original commit sha is - af4ecce9aa84c1fb73093aaf3431ec538f365308
+Commit message - Update changelog
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 46 is -> 
+{ bdeebef418620a397865d23879b3e93d57b7cdc2 -> 77207efa22701595be84ad34b6a4530a128dfc61 } is a cherrypick
+{ 1f12f8d32fbc719dc81fa089971147404280d5e9 -> 646e8e65f80fd18e15551bfaaac567dab2c37135 }
+Cherrypick commits SHA are -> 
+77207efa22701595be84ad34b6a4530a128dfc61 - cherrypick - 646e8e65f80fd18e15551bfaaac567dab2c37135
+---> The cherrypicked commit sha is - 77207efa22701595be84ad34b6a4530a128dfc61
+Commit message - Change ConfigStore state handling from module to instance
+---> The original commit sha is - 646e8e65f80fd18e15551bfaaac567dab2c37135
+Commit message - Merge pull request #342 from yujinakayama/instantiate-config-store
+
+Change ConfigStore state handling from module to instance
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 47 is -> 
+{ 4d568157e6f35d3d168c6c8af2a9066822c226db -> 5dcddc377910a033f3443d996ddd21d7ed2938d6 } is a cherrypick
+{ 704e51958c67e352c446aefe3eca666db4f8e2bd -> b9e413fd5d7d8cd217bb8e52be8c72a1cb10e69c }
+Cherrypick commits SHA are -> 
+5dcddc377910a033f3443d996ddd21d7ed2938d6 - cherrypick - b9e413fd5d7d8cd217bb8e52be8c72a1cb10e69c
+---> The cherrypicked commit sha is - 5dcddc377910a033f3443d996ddd21d7ed2938d6
+Commit message - Fix exception at location.real_column in the JSON formatter
+
+We have defined Rubocop::Cop::Location#real_column, but most cases the
+location attribute value of Offence is actually Parser::Source::Range
+and it does not respond to #real_column.
+---> The original commit sha is - b9e413fd5d7d8cd217bb8e52be8c72a1cb10e69c
+Commit message - Merge pull request #311 from yujinakayama/fix-json-formatter
+
+Fix exception at location.real_column in the JSON formatter
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 48 is -> 
+{ 6b457c102f9601ee1ec6b1085ee8293bbc43167b -> 4cdc500098ba7f1d8fc18d4b5269f2889913654e } is a cherrypick
+{ 8124d00fd6e3d07c0b5646f1b8a3cfb4bfd2e032 -> 6cb1978e9b9f842143438e24849443da28666f07 }
+Cherrypick commits SHA are -> 
+4cdc500098ba7f1d8fc18d4b5269f2889913654e - cherrypick - 6cb1978e9b9f842143438e24849443da28666f07
+---> The cherrypicked commit sha is - 4cdc500098ba7f1d8fc18d4b5269f2889913654e
+Commit message - Handle arrays with character literals in WordArray.
+
+For example [?\r, ?\n] caused a crash. Now treated as an offence.
+---> The original commit sha is - 6cb1978e9b9f842143438e24849443da28666f07
+Commit message - Merge pull request #301 from jonas054/fix_word_array
+
+Handle arrays with character literals in WordArray.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 49 is -> 
+{ 36316e0b38590c33d12be264074525964edd96c3 -> 2db58c8a209efe7962bcd08c5fc2083c2e1611cd } is a cherrypick
+{ 804a833e4cd64670cc3a06e59815fa16c6df93e6 -> 50363c515622161ac613a553259615e0afcc0d5b }
+Cherrypick commits SHA are -> 
+2db58c8a209efe7962bcd08c5fc2083c2e1611cd - cherrypick - 50363c515622161ac613a553259615e0afcc0d5b
+---> The cherrypicked commit sha is - 2db58c8a209efe7962bcd08c5fc2083c2e1611cd
+Commit message - Do not read excluded files for ruby shebang lines
+---> The original commit sha is - 50363c515622161ac613a553259615e0afcc0d5b
+Commit message - Merge pull request #268 from chulkilee/do-not-read-excluded
+
+Do not read excluded files for ruby shebang lines
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 50 is -> 
+{ 2dd9bff710b8f579a86f8aec499d0f977b4ec304 -> 223a7e21e5e54fe1db6b238d0501664385f534a6 } is a cherrypick
+{ 5cf58f1c3cc7948b25362f73a699a321ef9d0e5e -> 8fd30007000906e9a99c1c0185215efa20ad1231 }
+Cherrypick commits SHA are -> 
+223a7e21e5e54fe1db6b238d0501664385f534a6 - cherrypick - 8fd30007000906e9a99c1c0185215efa20ad1231
+---> The cherrypicked commit sha is - 223a7e21e5e54fe1db6b238d0501664385f534a6
+Commit message - Fix bugs in calls to add_offence.
+
+There are a number of places where the location argument to add_offence
+is still the line number. It's supposed to be a location object that
+responds to line and column. The way to catch these errors in our unit
+tests is to access line and column in the Offence constructor.
+---> The original commit sha is - 8fd30007000906e9a99c1c0185215efa20ad1231
+Commit message - Merge pull request #261 from jonas054/fix_location_bug
+
+Fix bugs in calls to add_offence.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 51 is -> 
+{ 033fe8840918b9dd7e85d0ab58397f392b2cf00f -> 384226e3bec357475732521ca5e0436e006a89cd } is a cherrypick
+{ 05c5c4967ea1319d07029adba9b1d870bfb6aba9 -> 3bd91cffe40689e02e5814c2f4aedc40f362c35e }
+Cherrypick commits SHA are -> 
+384226e3bec357475732521ca5e0436e006a89cd - cherrypick - 3bd91cffe40689e02e5814c2f4aedc40f362c35e
+---> The cherrypicked commit sha is - 384226e3bec357475732521ca5e0436e006a89cd
+Commit message - Correct handling of unicode escapes within double quotes.
+
+The problem with unpacking a str node was that unicode escape sequences
+are translated to unicode code points in the text value. We must look
+at the original source code, which we can get from the node too.
+---> The original commit sha is - 3bd91cffe40689e02e5814c2f4aedc40f362c35e
+Commit message - Merge pull request #248 from jonas054/fix_double_quoted_unicode
+
+Correct handling of unicode escapes within double quotes.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 52 is -> 
+{ f29dd90a1d8acb1a1a39065a94e2fd45067de5c6 -> ba4a5f2aea412067dfb1455f07366ec380462dc8 } is a cherrypick
+{ c2dd13f64185af75a4c0cc4b91b92620d8a36c3d -> faeb7be583974fb2990ed7196c97b12a23efe8ed }
+Cherrypick commits SHA are -> 
+ba4a5f2aea412067dfb1455f07366ec380462dc8 - cherrypick - faeb7be583974fb2990ed7196c97b12a23efe8ed
+---> The cherrypicked commit sha is - ba4a5f2aea412067dfb1455f07366ec380462dc8
+Commit message - New cop `CaseEquality` checks for explicit use of `===`
+---> The original commit sha is - faeb7be583974fb2990ed7196c97b12a23efe8ed
+Commit message - Merge pull request #230 from jonas054/fix_multiline_if_then
+
+Fix an error in MultilineIfThen cop that occurs in some special cases.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 53 is -> 
+{ 5dfb26b5c7c507e97bb5774530eb6c5501181273 -> 7260e8792a78cf64b5b076798a8d7a39b4ab937f } is a cherrypick
+{ 1cdf6850b0ca0d497d0059cd94e639dda360635b -> 073f86816369c5838b13223bae3bcfa00060edcf }
+Cherrypick commits SHA are -> 
+7260e8792a78cf64b5b076798a8d7a39b4ab937f - cherrypick - 073f86816369c5838b13223bae3bcfa00060edcf
+---> The cherrypicked commit sha is - 7260e8792a78cf64b5b076798a8d7a39b4ab937f
+Commit message - Port SpaceAfterControlKeyword to Parser.
+---> The original commit sha is - 073f86816369c5838b13223bae3bcfa00060edcf
+Commit message - Merge pull request #194 from jonas054/fix_only_option
+
+Fix --only option.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 54 is -> 
+{ f7ab7c5a91e67a43607a3d00dfc526a0f8002ec2 -> 354771f5903409fd34988ac8ddd89b43b6f49a64 } is a cherrypick
+{ 8a774ca2f19d9c1d648fa91eda36382aad01a3ba -> aebfa3a34039a0ac62a58d194e5e33950afc9b86 }
+Cherrypick commits SHA are -> 
+354771f5903409fd34988ac8ddd89b43b6f49a64 - cherrypick - aebfa3a34039a0ac62a58d194e5e33950afc9b86
+---> The cherrypicked commit sha is - 354771f5903409fd34988ac8ddd89b43b6f49a64
+Commit message - Port FavorUnlessOverNegatedIf and FavorUntilOverNegatedWhile to Parser.
+---> The original commit sha is - aebfa3a34039a0ac62a58d194e5e33950afc9b86
+Commit message - Merge pull request #188 from jonas054/port_favor_unless_over_negated_if
+
+Port FavorUnlessOverNegatedIf and FavorUntilOverNegatedWhile to Parser.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 55 is -> 
+{ 755ce8cbcd1746374cbe2597c18ebd0edbc59260 -> 94f44e25957a945fd9b310c51741d321b30650c4 } is a cherrypick
+{ 7d665043602b5c6aee8fcaa0eaa3ca3312dbd5df -> e57a5a5e9a23bd7c1a28604388ebc1db568c0f85 }
+Cherrypick commits SHA are -> 
+94f44e25957a945fd9b310c51741d321b30650c4 - cherrypick - e57a5a5e9a23bd7c1a28604388ebc1db568c0f85
+---> The cherrypicked commit sha is - 94f44e25957a945fd9b310c51741d321b30650c4
+Commit message - Port FavorSprintf cop to Parser.
+---> The original commit sha is - e57a5a5e9a23bd7c1a28604388ebc1db568c0f85
+Commit message - Merge pull request #183 from jonas054/port_favor_sprintf
+
+Port FavorSprintf cop to Parser.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 56 is -> 
+{ 4e0a6867060d9e2b48cb498ca64da185e481868b -> 1a1dd13829aa70d0490b07485080ad6d75924cc0 } is a cherrypick
+{ 1efef03f5edfbd53e614d5cac6138b79cefa383d -> 378ec64dd3ee1438399573a124fb614b7093009a }
+Cherrypick commits SHA are -> 
+1a1dd13829aa70d0490b07485080ad6d75924cc0 - cherrypick - 378ec64dd3ee1438399573a124fb614b7093009a
+---> The cherrypicked commit sha is - 1a1dd13829aa70d0490b07485080ad6d75924cc0
+Commit message - `OpMethod` now handles definition of unary operators without crashing.
+---> The original commit sha is - 378ec64dd3ee1438399573a124fb614b7093009a
+Commit message - Merge pull request #157 from jonas054/op_method_error
+
+`OpMethod` now handles definition of unary operators without crashing.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 57 is -> 
+{ e7efe96c16d080b3f228c5497242cfe3016ca5d7 -> a2916085d6d988a5e79f45abea6b8581bf7d7823 } is a cherrypick
+{ 4b33e3b1dd2088c39a988e456ab57fa0e60a3c72 -> 7edf31718bdf041e0da5f63c2d27df0d7bc562de }
+Cherrypick commits SHA are -> 
+a2916085d6d988a5e79f45abea6b8581bf7d7823 - cherrypick - 7edf31718bdf041e0da5f63c2d27df0d7bc562de
+---> The cherrypicked commit sha is - a2916085d6d988a5e79f45abea6b8581bf7d7823
+Commit message - Do more caching to avoid printing same warning many times.
+
+With the addition of support for `inherit_from`, the configuration file
+loading became more complicated. A side effect was that the warning
+about unrecognized cop would be printed many time per `.rubycop.yml` file.
+
+I've changed the config caching machanism so that one cache holds
+config file paths and another holds config objects. The API of the
+`Config` class was changed and big changes in specs were necessary.
+
+Fixes #151.
+---> The original commit sha is - 7edf31718bdf041e0da5f63c2d27df0d7bc562de
+Commit message - Merge pull request #153 from jonas054/print_unrecognized_cop_once
+
+Do more caching to avoid printing same warning many times.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 58 is -> 
+{ b14313ed41de3936cc2cf29cf76eca5ef219d317 -> 0617a5aba97b16f16119bd0d9f9c56ebc287bfd5 } is a cherrypick
+{ 642b4fb61cf32b681eea5b9c5ba3a64968fb3378 -> 3208726b5368f1614405d267c59f55eaa59ac888 }
+Cherrypick commits SHA are -> 
+0617a5aba97b16f16119bd0d9f9c56ebc287bfd5 - cherrypick - 3208726b5368f1614405d267c59f55eaa59ac888
+---> The cherrypicked commit sha is - 0617a5aba97b16f16119bd0d9f9c56ebc287bfd5
+Commit message - Fix #136
+---> The original commit sha is - 3208726b5368f1614405d267c59f55eaa59ac888
+Commit message - Merge pull request #145 from zeroed/master
+
+Fix #136
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 59 is -> 
+{ 3851baa0520ee18f5280f363a3ef5f44585496b0 -> b5d8ddea13ba346f13b9c5822170482dec08e2f3 } is a cherrypick
+{ 86a1f9e8c8775087287e9073c213526d44c308e7 -> 7fd2f96e5192b21713d84160d0a045fbb0ce4c1c }
+Cherrypick commits SHA are -> 
+b5d8ddea13ba346f13b9c5822170482dec08e2f3 - cherrypick - 7fd2f96e5192b21713d84160d0a045fbb0ce4c1c
+---> The cherrypicked commit sha is - b5d8ddea13ba346f13b9c5822170482dec08e2f3
+Commit message - Merge pull request #140 from jonas054/only_option
+
+Add --only option for running a single cop.
+---> The original commit sha is - 7fd2f96e5192b21713d84160d0a045fbb0ce4c1c
+Commit message - Add --only option for running a single cop.
+
+This is very useful for debugging, and probably good for end users
+as well.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 60 is -> 
+{ 3e8c5723649c60ebc42ed267de1a0a523548ab9d -> f71a2eedb81488769a1ab100808070d63d32b165 } is a cherrypick
+{ bb2e84356bbe0d2a1d930e3316e2719588f33028 -> 86a1f9e8c8775087287e9073c213526d44c308e7 }
+Cherrypick commits SHA are -> 
+f71a2eedb81488769a1ab100808070d63d32b165 - cherrypick - 86a1f9e8c8775087287e9073c213526d44c308e7
+---> The cherrypicked commit sha is - f71a2eedb81488769a1ab100808070d63d32b165
+Commit message - replaced if array.find {} with if array.any? {}
+---> The original commit sha is - 86a1f9e8c8775087287e9073c213526d44c308e7
+Commit message - replaced if array.find {} with if array.any? {}
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 61 is -> 
+{ 82c54ab3e9bc47b041c0b7d754e6e9a7e2df77fe -> 889118c1a45c7f1cf4ececf842c3a4e2d9acb1ed } is a cherrypick
+{ 0925be5ca5f8f3f8d0361f98ee30415d4dd442bb -> f4656935a89fe75c85e9dcb2a3eafe077b10a846 }
+Cherrypick commits SHA are -> 
+889118c1a45c7f1cf4ececf842c3a4e2d9acb1ed - cherrypick - f4656935a89fe75c85e9dcb2a3eafe077b10a846
+---> The cherrypicked commit sha is - 889118c1a45c7f1cf4ececf842c3a4e2d9acb1ed
+Commit message - Fix SymbolArray cop is not properly disabled by default
+
+This fixes #137.
+---> The original commit sha is - f4656935a89fe75c85e9dcb2a3eafe077b10a846
+Commit message - Fix SymbolArray cop is not properly disabled by default
+
+This fixes #137.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 62 is -> 
+{ 5103c98fb27736d880a5df9b529ac84eac19599a -> 82c54ab3e9bc47b041c0b7d754e6e9a7e2df77fe } is a cherrypick
+{ 46827ae3b0f452c96a8296174746f5cf832e69b8 -> 0925be5ca5f8f3f8d0361f98ee30415d4dd442bb }
+Cherrypick commits SHA are -> 
+82c54ab3e9bc47b041c0b7d754e6e9a7e2df77fe - cherrypick - 0925be5ca5f8f3f8d0361f98ee30415d4dd442bb
+---> The cherrypicked commit sha is - 82c54ab3e9bc47b041c0b7d754e6e9a7e2df77fe
+Commit message - Fix broken specs caused by calling #for_cop for Hash instance
+---> The original commit sha is - 0925be5ca5f8f3f8d0361f98ee30415d4dd442bb
+Commit message - Fix broken specs caused by calling #for_cop for Hash instance
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 63 is -> 
+{ 7a27b9ffa32b2aafc403ff75282d714508d240c1 -> 5103c98fb27736d880a5df9b529ac84eac19599a } is a cherrypick
+{ 1b3e9ce40dd32b9be4daa0973455197e906d40ef -> 46827ae3b0f452c96a8296174746f5cf832e69b8 }
+Cherrypick commits SHA are -> 
+5103c98fb27736d880a5df9b529ac84eac19599a - cherrypick - 46827ae3b0f452c96a8296174746f5cf832e69b8
+---> The cherrypicked commit sha is - 5103c98fb27736d880a5df9b529ac84eac19599a
+Commit message - Revert "Use sensible default configuration"
+
+This reverts commit 25398336579b48c17cd8e812cacf71f7461b668c.
+---> The original commit sha is - 46827ae3b0f452c96a8296174746f5cf832e69b8
+Commit message - Revert "Use sensible default configuration"
+
+This reverts commit 25398336579b48c17cd8e812cacf71f7461b668c.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 64 is -> 
+{ 1cad3891bb0544839b81007bd15257d635c2a6b1 -> 7a27b9ffa32b2aafc403ff75282d714508d240c1 } is a cherrypick
+{ 191566814dc01fa408841a78ac9e337b9d5d0854 -> 1b3e9ce40dd32b9be4daa0973455197e906d40ef }
+Cherrypick commits SHA are -> 
+7a27b9ffa32b2aafc403ff75282d714508d240c1 - cherrypick - 1b3e9ce40dd32b9be4daa0973455197e906d40ef
+---> The cherrypicked commit sha is - 7a27b9ffa32b2aafc403ff75282d714508d240c1
+Commit message - Add new cop Eval
+---> The original commit sha is - 1b3e9ce40dd32b9be4daa0973455197e906d40ef
+Commit message - Add new cop Eval
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 65 is -> 
+{ 2ff104c1e658d8e0544e6cea4a404a4f5a1aa4ab -> 1cad3891bb0544839b81007bd15257d635c2a6b1 } is a cherrypick
+{ ebad22cc0620c66f3ec29eac276d355fc1fdf851 -> 191566814dc01fa408841a78ac9e337b9d5d0854 }
+Cherrypick commits SHA are -> 
+1cad3891bb0544839b81007bd15257d635c2a6b1 - cherrypick - 191566814dc01fa408841a78ac9e337b9d5d0854
+---> The cherrypicked commit sha is - 1cad3891bb0544839b81007bd15257d635c2a6b1
+Commit message - Simplify a bit the ClassMethods cop
+---> The original commit sha is - 191566814dc01fa408841a78ac9e337b9d5d0854
+Commit message - Simplify a bit the ClassMethods cop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 66 is -> 
+{ df7f5a2fbde854ebf6362c52bda200f206b10df2 -> 2ff104c1e658d8e0544e6cea4a404a4f5a1aa4ab } is a cherrypick
+{ bc296a86a46bea13de4ea8686e5c6449a68c7a6f -> ebad22cc0620c66f3ec29eac276d355fc1fdf851 }
+Cherrypick commits SHA are -> 
+2ff104c1e658d8e0544e6cea4a404a4f5a1aa4ab - cherrypick - ebad22cc0620c66f3ec29eac276d355fc1fdf851
+---> The cherrypicked commit sha is - 2ff104c1e658d8e0544e6cea4a404a4f5a1aa4ab
+Commit message - Add new cop Not
+---> The original commit sha is - ebad22cc0620c66f3ec29eac276d355fc1fdf851
+Commit message - Add new cop Not
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 67 is -> 
+{ c3a843a92ba254b6aa8bd1962b7aadec0df13e0b -> df7f5a2fbde854ebf6362c52bda200f206b10df2 } is a cherrypick
+{ 20d378b3465ff1702cf85c93bbc3a257713a7803 -> bc296a86a46bea13de4ea8686e5c6449a68c7a6f }
+Cherrypick commits SHA are -> 
+df7f5a2fbde854ebf6362c52bda200f206b10df2 - cherrypick - bc296a86a46bea13de4ea8686e5c6449a68c7a6f
+---> The cherrypicked commit sha is - df7f5a2fbde854ebf6362c52bda200f206b10df2
+Commit message - Refactor Alias cop
+---> The original commit sha is - bc296a86a46bea13de4ea8686e5c6449a68c7a6f
+Commit message - Refactor Alias cop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 68 is -> 
+{ ae2c960cfb489d75c9424921fba504d565802a64 -> 934876a4e44142acb914f0126a57209a91c69763 } is a cherrypick
+{ acfe286ed1d29a15e74ec87b20f2fe45a6a09dc4 -> 3b07b69ec59e508fb24ec334a75b83b77113b68f }
+Cherrypick commits SHA are -> 
+934876a4e44142acb914f0126a57209a91c69763 - cherrypick - 3b07b69ec59e508fb24ec334a75b83b77113b68f
+---> The cherrypicked commit sha is - 934876a4e44142acb914f0126a57209a91c69763
+Commit message - Change FileHelper#create_file to add line feed to end of file
+---> The original commit sha is - 3b07b69ec59e508fb24ec334a75b83b77113b68f
+Commit message - Change FileHelper#create_file to add line feed to end of file
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 69 is -> 
+{ 1b2fca60fbb8fb7087415db1ab75461f0079155e -> ae2c960cfb489d75c9424921fba504d565802a64 } is a cherrypick
+{ 8c7f25aa1cf31044b321f9d76c0217f7c36709b1 -> acfe286ed1d29a15e74ec87b20f2fe45a6a09dc4 }
+Cherrypick commits SHA are -> 
+ae2c960cfb489d75c9424921fba504d565802a64 - cherrypick - acfe286ed1d29a15e74ec87b20f2fe45a6a09dc4
+---> The cherrypicked commit sha is - ae2c960cfb489d75c9424921fba504d565802a64
+Commit message - Remove unnecessary test directory creation
+---> The original commit sha is - acfe286ed1d29a15e74ec87b20f2fe45a6a09dc4
+Commit message - Remove unnecessary test directory creation
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 70 is -> 
+{ b8910c7402ad182517a33e7c8a4b620ca06c2408 -> 1b2fca60fbb8fb7087415db1ab75461f0079155e } is a cherrypick
+{ f598eba06ae60913312910f7eacd47efb502e234 -> 8c7f25aa1cf31044b321f9d76c0217f7c36709b1 }
+Cherrypick commits SHA are -> 
+1b2fca60fbb8fb7087415db1ab75461f0079155e - cherrypick - 8c7f25aa1cf31044b321f9d76c0217f7c36709b1
+---> The cherrypicked commit sha is - 1b2fca60fbb8fb7087415db1ab75461f0079155e
+Commit message - Fix odd indentations
+---> The original commit sha is - 8c7f25aa1cf31044b321f9d76c0217f7c36709b1
+Commit message - Fix odd indentations
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 71 is -> 
+{ a74812df67a16a049473555a6cde8794e1cea24d -> b8910c7402ad182517a33e7c8a4b620ca06c2408 } is a cherrypick
+{ 2136fa429a4021050125faa8fdd39c904274a84b -> f598eba06ae60913312910f7eacd47efb502e234 }
+Cherrypick commits SHA are -> 
+b8910c7402ad182517a33e7c8a4b620ca06c2408 - cherrypick - f598eba06ae60913312910f7eacd47efb502e234
+---> The cherrypicked commit sha is - b8910c7402ad182517a33e7c8a4b620ca06c2408
+Commit message - Run CLI specs in isolated environment
+
+Previously, the specs were run in the project directory.
+This fixes #119.
+---> The original commit sha is - f598eba06ae60913312910f7eacd47efb502e234
+Commit message - Run CLI specs in isolated environment
+
+Previously, the specs were run in the project directory.
+This fixes #119.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 72 is -> 
+{ a271286baa421b65be3920450d27f35cd3cdcc28 -> eb72037948c3e48823c512ea80043fae7d9cb88a } is a cherrypick
+{ 2e7d2e8f4f969383119de872ac72ea03279b5d2e -> 66cd4a1bb209ba035e754b11b4efa176dcf42089 }
+Cherrypick commits SHA are -> 
+eb72037948c3e48823c512ea80043fae7d9cb88a - cherrypick - 66cd4a1bb209ba035e754b11b4efa176dcf42089
+---> The cherrypicked commit sha is - eb72037948c3e48823c512ea80043fae7d9cb88a
+Commit message - update include exclude docs
+---> The original commit sha is - 66cd4a1bb209ba035e754b11b4efa176dcf42089
+Commit message - Merge pull request #124 from bolandrm/patch-1
+
+update include/exclude docs
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 73 is -> 
+{ 7cb7329e6ef2b9ef504897e36ddb21166b904932 -> d1db8e6be560a1c54eb358b1213e362ea450673f } is a cherrypick
+{ 6ca36b573e9c8318855301f1737c841322b9a2e9 -> 91eb1a94b54dce36839fa0fee6059d9de7e653c1 }
+Cherrypick commits SHA are -> 
+d1db8e6be560a1c54eb358b1213e362ea450673f - cherrypick - 91eb1a94b54dce36839fa0fee6059d9de7e653c1
+---> The cherrypicked commit sha is - d1db8e6be560a1c54eb358b1213e362ea450673f
+Commit message - Regenerate gemspec for version 0.4.1
+---> The original commit sha is - 91eb1a94b54dce36839fa0fee6059d9de7e653c1
+Commit message - Regenerate gemspec for version 0.5.0
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 74 is -> 
+{ 5eb73c4a1e7df24d8b6c4d041dd8c917c5a3d23b -> 2be67bc4a6711d214ee8a4fc1bf9c7f21e6b677e } is a cherrypick
+{ 6ca36b573e9c8318855301f1737c841322b9a2e9 -> 91eb1a94b54dce36839fa0fee6059d9de7e653c1 }
+Cherrypick commits SHA are -> 
+2be67bc4a6711d214ee8a4fc1bf9c7f21e6b677e - cherrypick - 91eb1a94b54dce36839fa0fee6059d9de7e653c1
+---> The cherrypicked commit sha is - 2be67bc4a6711d214ee8a4fc1bf9c7f21e6b677e
+Commit message - Regenerate gemspec for version 0.4.4
+---> The original commit sha is - 91eb1a94b54dce36839fa0fee6059d9de7e653c1
+Commit message - Regenerate gemspec for version 0.5.0
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 75 is -> 
+{ 7cb7329e6ef2b9ef504897e36ddb21166b904932 -> d1db8e6be560a1c54eb358b1213e362ea450673f } is a cherrypick
+{ 5eb73c4a1e7df24d8b6c4d041dd8c917c5a3d23b -> 2be67bc4a6711d214ee8a4fc1bf9c7f21e6b677e }
+Cherrypick commits SHA are -> 
+d1db8e6be560a1c54eb358b1213e362ea450673f - cherrypick - 2be67bc4a6711d214ee8a4fc1bf9c7f21e6b677e
+---> The cherrypicked commit sha is - d1db8e6be560a1c54eb358b1213e362ea450673f
+Commit message - Regenerate gemspec for version 0.4.1
+---> The original commit sha is - 2be67bc4a6711d214ee8a4fc1bf9c7f21e6b677e
+Commit message - Regenerate gemspec for version 0.4.4
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 76 is -> 
+{ 30708be324107dc845850ec61f00e3e136483342 -> 0789d5bfb036bffbab900321b81a36b9d42b190e } is a cherrypick
+{ 020be65045f58daaac2aa7b64447d5a94253fe84 -> 9dc69650cd47dd6e95c0920a403cec28ab398505 }
+Cherrypick commits SHA are -> 
+0789d5bfb036bffbab900321b81a36b9d42b190e - cherrypick - 9dc69650cd47dd6e95c0920a403cec28ab398505
+---> The cherrypicked commit sha is - 0789d5bfb036bffbab900321b81a36b9d42b190e
+Commit message - Handle interpreter messages more flexibly #50
+---> The original commit sha is - 9dc69650cd47dd6e95c0920a403cec28ab398505
+Commit message - Merge pull request #53 from jonas054/bugfix2
+
+Bail out if we can't find a "when ... ;" due to lack of tokens.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 77 is -> 
+{ cf06121e73fcc01932a097783982b9e8a3ac410a -> bbc1f41dd5025a7fc36108bee79727370a620a0d } is a cherrypick
+{ 20b949a34c1f966c4e319f87975a241eeef6113e -> 7ba02c06ddb645fd53564b124a09b590406111c0 }
+Cherrypick commits SHA are -> 
+bbc1f41dd5025a7fc36108bee79727370a620a0d - cherrypick - 7ba02c06ddb645fd53564b124a09b590406111c0
+---> The cherrypicked commit sha is - bbc1f41dd5025a7fc36108bee79727370a620a0d
+Commit message - add --silent parameter to silence summary output
+---> The original commit sha is - 7ba02c06ddb645fd53564b124a09b590406111c0
+Commit message - Merge branch 'master' into more_rules
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 78 is -> 
+{ 618625f99fe59e7b86a4519df4b5853b09d9a08e -> 071976914d534b601a0fae1c66426ea5ca6ac0cc } is a cherrypick
+{ 97ceac19edaf6b7fef05fcfe2cec937676dbf27c -> 76cad836ae5dafd4a2785aac0fbd12b60c3dd668 }
+Cherrypick commits SHA are -> 
+071976914d534b601a0fae1c66426ea5ca6ac0cc - cherrypick - 76cad836ae5dafd4a2785aac0fbd12b60c3dd668
+---> The cherrypicked commit sha is - 071976914d534b601a0fae1c66426ea5ca6ac0cc
+Commit message - Added coverage task, which runs simplecov.
+---> The original commit sha is - 76cad836ae5dafd4a2785aac0fbd12b60c3dd668
+Commit message - Merge branch 'master' into optimization
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 79 is -> 
+{ d664d550935c9d61293da6335f02112163541ead -> 675a20e812aefd7f22e24ecb566a8082c372b20d } is a cherrypick
+{ 3b78c5f07eaae20f3503f347dfbb233f63d8f790 -> 54f4370495e538ad2467bbd7ffd9c4d37ea48b8b }
+Cherrypick commits SHA are -> 
+675a20e812aefd7f22e24ecb566a8082c372b20d - cherrypick - 54f4370495e538ad2467bbd7ffd9c4d37ea48b8b
+---> The cherrypicked commit sha is - 675a20e812aefd7f22e24ecb566a8082c372b20d
+Commit message - Removed require 'awesome_print', left there by mistake earlier.
+---> The original commit sha is - 54f4370495e538ad2467bbd7ffd9c4d37ea48b8b
+Commit message - Merge branch 'more_rules' of github.com:jonas054/rubocop into more_rules
+-----------------------------------------------------------------
+

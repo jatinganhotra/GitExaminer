@@ -1,0 +1,1090 @@
+# of partial cherrypicks = 32
+Partial Cherry-pick diff pair 1 is -> 
+{ 2dbf6c7f16052907a645028b1e83ba46364454eb -> 31fa18e7be03c5c67c4a360c4a35c4deb3500845 } is a cherrypick
+{ 52d615fcc38876303f1536185d7222aca81e383a -> 8357d7d60f09e2c3e10736676b4f9117b63b9f72 }
+Partial Cherry-pick commits SHA are -> 
+31fa18e7be03c5c67c4a360c4a35c4deb3500845 - cherrypick - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+---> The cherrypicked commit sha is - 31fa18e7be03c5c67c4a360c4a35c4deb3500845
+Commit message - Fix Shorthand linter false positives
+
+For properties with names beginning with a shorthandable property (like
+`border-color` or `margin`) followed by interpolation, the `Shorthand`
+linter would report a lint if that property had values that were not in
+the most condensed form.
+
+These lints were erroneous because since the lint was basically being
+triggered due to the prefix of the property name. Since the
+interpolation cannot be determined statically, it's possible that it
+would resolve to a property that did not support shorthand values.
+
+Fix the bug by checking the entire property name, not just the prefix.
+
+In the process the code was cleaned up a bit, since Code Climate
+indicated that the `visit_prop` method had a high cyclomatic complexity
+due to the nesting in the case statement.
+
+Change-Id: Ia15b0f9feb1ad050300f243548907a957341e302
+Reviewed-on: https://gerrit.causes.com/29017
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+Commit message - Update changelog
+
+Change-Id: I8f988581f5aaee4e79e884325655d4252ff30f9d
+Reviewed-on: http://gerrit.causes.com/41278
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ a0c14472218659d23aec10d424d2efb8b64cfaba -> a3a674cdde24f1a2591d6d70ee061c19d4faf8cf } is a cherrypick
+{ 52d615fcc38876303f1536185d7222aca81e383a -> 8357d7d60f09e2c3e10736676b4f9117b63b9f72 }
+Partial Cherry-pick commits SHA are -> 
+a3a674cdde24f1a2591d6d70ee061c19d4faf8cf - cherrypick - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+---> The cherrypicked commit sha is - a3a674cdde24f1a2591d6d70ee061c19d4faf8cf
+Commit message - Split PropertyFormat into separate linters
+
+The `PropertyFormat` linter suffered from bugs due to the brittle regex
+it employed to check the format of the property declaration. This regex
+also attempted to test too much, making the error message in the event
+of a lint being discovered not terribly useful.
+
+Split out the `PropertyFormat` linter into three separate linters:
+
+  * `SpaceAfterPropertyColon`
+    Prefers `margin: 0;` instead of `margin:0;`
+
+  * `SpaceAfterPropertyName`
+    Prefers `margin: 0;` instead of `margin : 0;`
+
+  * `TrailingSemiColonAfterProperty`
+    Ensures the final property in a rule set has a trailing semi-colon
+
+These linters are simpler thanks to the support for being able to query
+source ranges on all Sass parse tree nodes, and no longer require the
+use of a brittle regex.
+
+Change-Id: I4cb1bbccca1457b65ac3d66f578d15937735a37c
+Reviewed-on: https://gerrit.causes.com/30680
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+Commit message - Update changelog
+
+Change-Id: I8f988581f5aaee4e79e884325655d4252ff30f9d
+Reviewed-on: http://gerrit.causes.com/41278
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 7bc4cff397ec0d6b21b4b373c310d37e91f3198d -> 5d2ee86b2717b9f068e704e67223311612f8bbad } is a cherrypick
+{ 52d615fcc38876303f1536185d7222aca81e383a -> 8357d7d60f09e2c3e10736676b4f9117b63b9f72 }
+Partial Cherry-pick commits SHA are -> 
+5d2ee86b2717b9f068e704e67223311612f8bbad - cherrypick - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+---> The cherrypicked commit sha is - 5d2ee86b2717b9f068e704e67223311612f8bbad
+Commit message - Add extra_properties option to PropertySpelling
+
+There are a lot of CSS properties, and the lack of a definitive list (as
+well as the constant introduction of new experimental properties) makes
+it impractical to ensure our list is up-to-date at any given time.
+
+To address this, add an `extra_properties` config option to the
+`PropertySpelling` linter so that developers can add additional
+properties to the whitelist without needing to submit a pull request.
+
+Change-Id: I60f250cb704f2245e66885caada8929c37485076
+Reviewed-on: https://gerrit.causes.com/32423
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+Commit message - Update changelog
+
+Change-Id: I8f988581f5aaee4e79e884325655d4252ff30f9d
+Reviewed-on: http://gerrit.causes.com/41278
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ 7e8353d34618ff2bf61aa67a5a692837bd2ebb1c -> ae9362de8e198e68a414a8fa3744c5e75d3dbe64 } is a cherrypick
+{ 52d615fcc38876303f1536185d7222aca81e383a -> 8357d7d60f09e2c3e10736676b4f9117b63b9f72 }
+Partial Cherry-pick commits SHA are -> 
+ae9362de8e198e68a414a8fa3744c5e75d3dbe64 - cherrypick - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+---> The cherrypicked commit sha is - ae9362de8e198e68a414a8fa3744c5e75d3dbe64
+Commit message - Ignore interpolation in SingleLinePerSelector
+
+The `SingleLinePerSelector` linter would incorrectly report lints when
+selector contained interpolation with a comma in it, e.g.
+
+    .my-#{function(1, 2)}-selector .item {
+    }
+
+The solution is to ignore the content of any interpolation, as it has no
+bearing on what the linter is trying to check.
+
+In the process I also updated the linter to not define a `description`
+method, as this style of linter declaration should go away in favour of
+explicitly passing messages to `add_lint`.
+
+Fixes #67
+
+Change-Id: Ice0191e0133bbe2490882c1dd4237fce12b41282
+Reviewed-on: https://gerrit.causes.com/32594
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+Commit message - Update changelog
+
+Change-Id: I8f988581f5aaee4e79e884325655d4252ff30f9d
+Reviewed-on: http://gerrit.causes.com/41278
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ f4cebeb1f1bee2b2204a3701211fea4efe28a048 -> ca74f02446d1034844a016383bf13b794a110f2a } is a cherrypick
+{ 52d615fcc38876303f1536185d7222aca81e383a -> 8357d7d60f09e2c3e10736676b4f9117b63b9f72 }
+Partial Cherry-pick commits SHA are -> 
+ca74f02446d1034844a016383bf13b794a110f2a - cherrypick - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+---> The cherrypicked commit sha is - ca74f02446d1034844a016383bf13b794a110f2a
+Commit message - Ignore names of Compass translation mixins
+
+The `NameFormat` linter was erroneously reporting an error for
+translation-related mixin names. Include them in the whitelist of
+ignored names.
+
+Closes #99
+
+Change-Id: I2d3b22b4c3973f6d6f7996bc52b2f07dbe8ab97a
+Reviewed-on: http://gerrit.causes.com/36646
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+Commit message - Update changelog
+
+Change-Id: I8f988581f5aaee4e79e884325655d4252ff30f9d
+Reviewed-on: http://gerrit.causes.com/41278
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 124311c74320d23f28807aa455ad2e9939163439 -> 89113fed562c0e152d541d5406d011c2a9ccac21 } is a cherrypick
+{ 52d615fcc38876303f1536185d7222aca81e383a -> 8357d7d60f09e2c3e10736676b4f9117b63b9f72 }
+Partial Cherry-pick commits SHA are -> 
+89113fed562c0e152d541d5406d011c2a9ccac21 - cherrypick - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+---> The cherrypicked commit sha is - 89113fed562c0e152d541d5406d011c2a9ccac21
+Commit message - Detect duplicate property values in placeholders/mixins
+
+Add support to the `DuplicateProperty` linter to detect duplicate
+property values in placeholder and mixin declarations.
+
+Also cleaned up some Rubocop violations.
+
+Change-Id: I6ed7b5daace7ebf453b4f56460a1eab58f3a84de
+Reviewed-on: http://gerrit.causes.com/36672
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+Commit message - Update changelog
+
+Change-Id: I8f988581f5aaee4e79e884325655d4252ff30f9d
+Reviewed-on: http://gerrit.causes.com/41278
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ 08a6d415f3fff7525532505077259e4c04659fce -> 6bd8ef7dd78a5cad80d26c9f091f221288d19620 } is a cherrypick
+{ 52d615fcc38876303f1536185d7222aca81e383a -> 8357d7d60f09e2c3e10736676b4f9117b63b9f72 }
+Partial Cherry-pick commits SHA are -> 
+6bd8ef7dd78a5cad80d26c9f091f221288d19620 - cherrypick - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+---> The cherrypicked commit sha is - 6bd8ef7dd78a5cad80d26c9f091f221288d19620
+Commit message - Fix SpaceAfterPropertyColon for semicolon-less properties
+
+Change-Id: Ife115f7c00dcaf515793e48ade28010f6affeb8f
+Reviewed-on: http://gerrit.causes.com/37457
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+Commit message - Update changelog
+
+Change-Id: I8f988581f5aaee4e79e884325655d4252ff30f9d
+Reviewed-on: http://gerrit.causes.com/41278
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ 3546d9fb65112754b36c3fa69d88053c16df3d03 -> b947d7a91362dc6a844b6784462ab47fee8b1151 } is a cherrypick
+{ 52d615fcc38876303f1536185d7222aca81e383a -> 8357d7d60f09e2c3e10736676b4f9117b63b9f72 }
+Partial Cherry-pick commits SHA are -> 
+b947d7a91362dc6a844b6784462ab47fee8b1151 - cherrypick - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+---> The cherrypicked commit sha is - b947d7a91362dc6a844b6784462ab47fee8b1151
+Commit message - Extend DuplicateRoot to MergeableSelector
+
+Extends the behavior to check nested rule sets in addition to root-level
+ones.
+
+Change-Id: I251dd13ef6d9d2a3ef504be3e699ead5ce81b929
+Reviewed-on: http://gerrit.causes.com/37604
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+Commit message - Update changelog
+
+Change-Id: I8f988581f5aaee4e79e884325655d4252ff30f9d
+Reviewed-on: http://gerrit.causes.com/41278
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ a65f547e06dcb085f092432d4de6b3d20b960ee2 -> e02ab7bc592ed92b0d526eefc1edb51bf8bf5ed1 } is a cherrypick
+{ 52d615fcc38876303f1536185d7222aca81e383a -> 8357d7d60f09e2c3e10736676b4f9117b63b9f72 }
+Partial Cherry-pick commits SHA are -> 
+e02ab7bc592ed92b0d526eefc1edb51bf8bf5ed1 - cherrypick - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+---> The cherrypicked commit sha is - e02ab7bc592ed92b0d526eefc1edb51bf8bf5ed1
+Commit message - Fix Indentation linter with at-root inline selectors
+
+Due to the way the Sass parser creates the parse tree for `@at-root`
+directives, the following two pieces of code produce the same parse
+tree:
+
+    @at-root {
+      .something {
+        ...
+      }
+    }
+
+    @at-root .something {
+      ...
+    }
+
+This was resulting in erroneous lints being reported in the
+`Indentation` linter, since it couldn't tell which case was which given
+the parse tree.
+
+We can use a nasty hack of checking if the end position of the
+`@at-root` node matches the start position of its first child, in which
+case we know the child is inline instead of being properly nested.
+
+Change-Id: Iaba01f67c5c3f4ac65b95b48e1c950a662eb227c
+Reviewed-on: http://gerrit.causes.com/38085
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+Commit message - Update changelog
+
+Change-Id: I8f988581f5aaee4e79e884325655d4252ff30f9d
+Reviewed-on: http://gerrit.causes.com/41278
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 4b9c9b2f15337c51b4a956c08eb1877a0347c009 -> e3ccc96cb42616cb1aec985320623bbb6608696e } is a cherrypick
+{ 52d615fcc38876303f1536185d7222aca81e383a -> 8357d7d60f09e2c3e10736676b4f9117b63b9f72 }
+Partial Cherry-pick commits SHA are -> 
+e3ccc96cb42616cb1aec985320623bbb6608696e - cherrypick - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+---> The cherrypicked commit sha is - e3ccc96cb42616cb1aec985320623bbb6608696e
+Commit message - Fix Indentation linter handling of comments
+
+The `Indentation` linter would error on SCSS where a comment preceded
+another line of code, e.g.
+
+    // A comment
+    $var: 1;
+
+This was caused by the code not checking if the `source_range` was set
+for that node, which is the case for comment nodes (they only return a
+value for `line`).
+
+Change-Id: I7afd16b2b6823902db6c81b9ea5da1c07527b4b3
+Reviewed-on: http://gerrit.causes.com/39181
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The original commit sha is - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+Commit message - Update changelog
+
+Change-Id: I8f988581f5aaee4e79e884325655d4252ff30f9d
+Reviewed-on: http://gerrit.causes.com/41278
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ f41199605175237c2b7c360d2fb97157e786c909 -> 90132c14ddb09c07ca8917e3849a84c3617021a5 } is a cherrypick
+{ 52d615fcc38876303f1536185d7222aca81e383a -> 8357d7d60f09e2c3e10736676b4f9117b63b9f72 }
+Partial Cherry-pick commits SHA are -> 
+90132c14ddb09c07ca8917e3849a84c3617021a5 - cherrypick - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+---> The cherrypicked commit sha is - 90132c14ddb09c07ca8917e3849a84c3617021a5
+Commit message - Fix SpaceBeforeBrace linter with lonesome curly
+
+If a curly brace were placed on its own line with no indentation, the
+`SpaceBeforeBrace` linter would incorrectly report a lint.
+
+Fix it by checking if the character before the brace is a space _or_ a
+newline.
+
+Change-Id: I404b4b1d128a8dbc592bbf8772e9eeed50077e2c
+Reviewed-on: http://gerrit.causes.com/40448
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The original commit sha is - 8357d7d60f09e2c3e10736676b4f9117b63b9f72
+Commit message - Update changelog
+
+Change-Id: I8f988581f5aaee4e79e884325655d4252ff30f9d
+Reviewed-on: http://gerrit.causes.com/41278
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ a65f547e06dcb085f092432d4de6b3d20b960ee2 -> e02ab7bc592ed92b0d526eefc1edb51bf8bf5ed1 } is a cherrypick
+{ 4b9c9b2f15337c51b4a956c08eb1877a0347c009 -> e3ccc96cb42616cb1aec985320623bbb6608696e }
+Partial Cherry-pick commits SHA are -> 
+e02ab7bc592ed92b0d526eefc1edb51bf8bf5ed1 - cherrypick - e3ccc96cb42616cb1aec985320623bbb6608696e
+---> The cherrypicked commit sha is - e02ab7bc592ed92b0d526eefc1edb51bf8bf5ed1
+Commit message - Fix Indentation linter with at-root inline selectors
+
+Due to the way the Sass parser creates the parse tree for `@at-root`
+directives, the following two pieces of code produce the same parse
+tree:
+
+    @at-root {
+      .something {
+        ...
+      }
+    }
+
+    @at-root .something {
+      ...
+    }
+
+This was resulting in erroneous lints being reported in the
+`Indentation` linter, since it couldn't tell which case was which given
+the parse tree.
+
+We can use a nasty hack of checking if the end position of the
+`@at-root` node matches the start position of its first child, in which
+case we know the child is inline instead of being properly nested.
+
+Change-Id: Iaba01f67c5c3f4ac65b95b48e1c950a662eb227c
+Reviewed-on: http://gerrit.causes.com/38085
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - e3ccc96cb42616cb1aec985320623bbb6608696e
+Commit message - Fix Indentation linter handling of comments
+
+The `Indentation` linter would error on SCSS where a comment preceded
+another line of code, e.g.
+
+    // A comment
+    $var: 1;
+
+This was caused by the code not checking if the `source_range` was set
+for that node, which is the case for comment nodes (they only return a
+value for `line`).
+
+Change-Id: I7afd16b2b6823902db6c81b9ea5da1c07527b4b3
+Reviewed-on: http://gerrit.causes.com/39181
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane.dasilva@brigade.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 2dbf6c7f16052907a645028b1e83ba46364454eb -> 31fa18e7be03c5c67c4a360c4a35c4deb3500845 } is a cherrypick
+{ 7f69c9543368d0cad7d910a4c0851f5e1a18d10e -> bb6fcea64073c99c0cf49af958fb158b1de4e0ce }
+Partial Cherry-pick commits SHA are -> 
+31fa18e7be03c5c67c4a360c4a35c4deb3500845 - cherrypick - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+---> The cherrypicked commit sha is - 31fa18e7be03c5c67c4a360c4a35c4deb3500845
+Commit message - Fix Shorthand linter false positives
+
+For properties with names beginning with a shorthandable property (like
+`border-color` or `margin`) followed by interpolation, the `Shorthand`
+linter would report a lint if that property had values that were not in
+the most condensed form.
+
+These lints were erroneous because since the lint was basically being
+triggered due to the prefix of the property name. Since the
+interpolation cannot be determined statically, it's possible that it
+would resolve to a property that did not support shorthand values.
+
+Fix the bug by checking the entire property name, not just the prefix.
+
+In the process the code was cleaned up a bit, since Code Climate
+indicated that the `visit_prop` method had a high cyclomatic complexity
+due to the nesting in the case statement.
+
+Change-Id: Ia15b0f9feb1ad050300f243548907a957341e302
+Reviewed-on: https://gerrit.causes.com/29017
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+Commit message - Update changelog with TrailingSemicolonAfterPropertyValue fix
+
+Change-Id: Ie7421b80b49c1b89bff433d35efaa78a8da88b35
+Reviewed-on: http://gerrit.causes.com/37992
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ a0c14472218659d23aec10d424d2efb8b64cfaba -> a3a674cdde24f1a2591d6d70ee061c19d4faf8cf } is a cherrypick
+{ 7f69c9543368d0cad7d910a4c0851f5e1a18d10e -> bb6fcea64073c99c0cf49af958fb158b1de4e0ce }
+Partial Cherry-pick commits SHA are -> 
+a3a674cdde24f1a2591d6d70ee061c19d4faf8cf - cherrypick - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+---> The cherrypicked commit sha is - a3a674cdde24f1a2591d6d70ee061c19d4faf8cf
+Commit message - Split PropertyFormat into separate linters
+
+The `PropertyFormat` linter suffered from bugs due to the brittle regex
+it employed to check the format of the property declaration. This regex
+also attempted to test too much, making the error message in the event
+of a lint being discovered not terribly useful.
+
+Split out the `PropertyFormat` linter into three separate linters:
+
+  * `SpaceAfterPropertyColon`
+    Prefers `margin: 0;` instead of `margin:0;`
+
+  * `SpaceAfterPropertyName`
+    Prefers `margin: 0;` instead of `margin : 0;`
+
+  * `TrailingSemiColonAfterProperty`
+    Ensures the final property in a rule set has a trailing semi-colon
+
+These linters are simpler thanks to the support for being able to query
+source ranges on all Sass parse tree nodes, and no longer require the
+use of a brittle regex.
+
+Change-Id: I4cb1bbccca1457b65ac3d66f578d15937735a37c
+Reviewed-on: https://gerrit.causes.com/30680
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+Commit message - Update changelog with TrailingSemicolonAfterPropertyValue fix
+
+Change-Id: Ie7421b80b49c1b89bff433d35efaa78a8da88b35
+Reviewed-on: http://gerrit.causes.com/37992
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ 7bc4cff397ec0d6b21b4b373c310d37e91f3198d -> 5d2ee86b2717b9f068e704e67223311612f8bbad } is a cherrypick
+{ 7f69c9543368d0cad7d910a4c0851f5e1a18d10e -> bb6fcea64073c99c0cf49af958fb158b1de4e0ce }
+Partial Cherry-pick commits SHA are -> 
+5d2ee86b2717b9f068e704e67223311612f8bbad - cherrypick - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+---> The cherrypicked commit sha is - 5d2ee86b2717b9f068e704e67223311612f8bbad
+Commit message - Add extra_properties option to PropertySpelling
+
+There are a lot of CSS properties, and the lack of a definitive list (as
+well as the constant introduction of new experimental properties) makes
+it impractical to ensure our list is up-to-date at any given time.
+
+To address this, add an `extra_properties` config option to the
+`PropertySpelling` linter so that developers can add additional
+properties to the whitelist without needing to submit a pull request.
+
+Change-Id: I60f250cb704f2245e66885caada8929c37485076
+Reviewed-on: https://gerrit.causes.com/32423
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+Commit message - Update changelog with TrailingSemicolonAfterPropertyValue fix
+
+Change-Id: Ie7421b80b49c1b89bff433d35efaa78a8da88b35
+Reviewed-on: http://gerrit.causes.com/37992
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ 7e8353d34618ff2bf61aa67a5a692837bd2ebb1c -> ae9362de8e198e68a414a8fa3744c5e75d3dbe64 } is a cherrypick
+{ 7f69c9543368d0cad7d910a4c0851f5e1a18d10e -> bb6fcea64073c99c0cf49af958fb158b1de4e0ce }
+Partial Cherry-pick commits SHA are -> 
+ae9362de8e198e68a414a8fa3744c5e75d3dbe64 - cherrypick - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+---> The cherrypicked commit sha is - ae9362de8e198e68a414a8fa3744c5e75d3dbe64
+Commit message - Ignore interpolation in SingleLinePerSelector
+
+The `SingleLinePerSelector` linter would incorrectly report lints when
+selector contained interpolation with a comma in it, e.g.
+
+    .my-#{function(1, 2)}-selector .item {
+    }
+
+The solution is to ignore the content of any interpolation, as it has no
+bearing on what the linter is trying to check.
+
+In the process I also updated the linter to not define a `description`
+method, as this style of linter declaration should go away in favour of
+explicitly passing messages to `add_lint`.
+
+Fixes #67
+
+Change-Id: Ice0191e0133bbe2490882c1dd4237fce12b41282
+Reviewed-on: https://gerrit.causes.com/32594
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+Commit message - Update changelog with TrailingSemicolonAfterPropertyValue fix
+
+Change-Id: Ie7421b80b49c1b89bff433d35efaa78a8da88b35
+Reviewed-on: http://gerrit.causes.com/37992
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ f4cebeb1f1bee2b2204a3701211fea4efe28a048 -> ca74f02446d1034844a016383bf13b794a110f2a } is a cherrypick
+{ 7f69c9543368d0cad7d910a4c0851f5e1a18d10e -> bb6fcea64073c99c0cf49af958fb158b1de4e0ce }
+Partial Cherry-pick commits SHA are -> 
+ca74f02446d1034844a016383bf13b794a110f2a - cherrypick - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+---> The cherrypicked commit sha is - ca74f02446d1034844a016383bf13b794a110f2a
+Commit message - Ignore names of Compass translation mixins
+
+The `NameFormat` linter was erroneously reporting an error for
+translation-related mixin names. Include them in the whitelist of
+ignored names.
+
+Closes #99
+
+Change-Id: I2d3b22b4c3973f6d6f7996bc52b2f07dbe8ab97a
+Reviewed-on: http://gerrit.causes.com/36646
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+Commit message - Update changelog with TrailingSemicolonAfterPropertyValue fix
+
+Change-Id: Ie7421b80b49c1b89bff433d35efaa78a8da88b35
+Reviewed-on: http://gerrit.causes.com/37992
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 124311c74320d23f28807aa455ad2e9939163439 -> 89113fed562c0e152d541d5406d011c2a9ccac21 } is a cherrypick
+{ 7f69c9543368d0cad7d910a4c0851f5e1a18d10e -> bb6fcea64073c99c0cf49af958fb158b1de4e0ce }
+Partial Cherry-pick commits SHA are -> 
+89113fed562c0e152d541d5406d011c2a9ccac21 - cherrypick - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+---> The cherrypicked commit sha is - 89113fed562c0e152d541d5406d011c2a9ccac21
+Commit message - Detect duplicate property values in placeholders/mixins
+
+Add support to the `DuplicateProperty` linter to detect duplicate
+property values in placeholder and mixin declarations.
+
+Also cleaned up some Rubocop violations.
+
+Change-Id: I6ed7b5daace7ebf453b4f56460a1eab58f3a84de
+Reviewed-on: http://gerrit.causes.com/36672
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+Commit message - Update changelog with TrailingSemicolonAfterPropertyValue fix
+
+Change-Id: Ie7421b80b49c1b89bff433d35efaa78a8da88b35
+Reviewed-on: http://gerrit.causes.com/37992
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ 08a6d415f3fff7525532505077259e4c04659fce -> 6bd8ef7dd78a5cad80d26c9f091f221288d19620 } is a cherrypick
+{ 7f69c9543368d0cad7d910a4c0851f5e1a18d10e -> bb6fcea64073c99c0cf49af958fb158b1de4e0ce }
+Partial Cherry-pick commits SHA are -> 
+6bd8ef7dd78a5cad80d26c9f091f221288d19620 - cherrypick - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+---> The cherrypicked commit sha is - 6bd8ef7dd78a5cad80d26c9f091f221288d19620
+Commit message - Fix SpaceAfterPropertyColon for semicolon-less properties
+
+Change-Id: Ife115f7c00dcaf515793e48ade28010f6affeb8f
+Reviewed-on: http://gerrit.causes.com/37457
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+Commit message - Update changelog with TrailingSemicolonAfterPropertyValue fix
+
+Change-Id: Ie7421b80b49c1b89bff433d35efaa78a8da88b35
+Reviewed-on: http://gerrit.causes.com/37992
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ 3546d9fb65112754b36c3fa69d88053c16df3d03 -> b947d7a91362dc6a844b6784462ab47fee8b1151 } is a cherrypick
+{ 7f69c9543368d0cad7d910a4c0851f5e1a18d10e -> bb6fcea64073c99c0cf49af958fb158b1de4e0ce }
+Partial Cherry-pick commits SHA are -> 
+b947d7a91362dc6a844b6784462ab47fee8b1151 - cherrypick - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+---> The cherrypicked commit sha is - b947d7a91362dc6a844b6784462ab47fee8b1151
+Commit message - Extend DuplicateRoot to MergeableSelector
+
+Extends the behavior to check nested rule sets in addition to root-level
+ones.
+
+Change-Id: I251dd13ef6d9d2a3ef504be3e699ead5ce81b929
+Reviewed-on: http://gerrit.causes.com/37604
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - bb6fcea64073c99c0cf49af958fb158b1de4e0ce
+Commit message - Update changelog with TrailingSemicolonAfterPropertyValue fix
+
+Change-Id: Ie7421b80b49c1b89bff433d35efaa78a8da88b35
+Reviewed-on: http://gerrit.causes.com/37992
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ 79b0216cf43ea7d35d3b44804505dd0e910a4c61 -> 0875e3e94b55c1ad30a73f8a37fb76d8cc6fb3b3 } is a cherrypick
+{ fdb183766a67f11f84d0e942ec7dc5861b40063c -> 345e779728994c50a103727bb7ec8f73647e5554 }
+Partial Cherry-pick commits SHA are -> 
+0875e3e94b55c1ad30a73f8a37fb76d8cc6fb3b3 - cherrypick - 345e779728994c50a103727bb7ec8f73647e5554
+---> The cherrypicked commit sha is - 0875e3e94b55c1ad30a73f8a37fb76d8cc6fb3b3
+Commit message - Ignore color keywords in HexFormat linter
+
+The `HexFormat` linter would fail on CSS color keywords, e.g. `gold` or
+`orange`. This was due to the fact that the `original` value of the
+`Color` object would not be set for colors specified via keyword. This
+would only happen for color keywords that appear in Sass script however
+(not color keywords that appear as normal property values, as those
+don't get created as `Color` objects by the parser).
+
+The solution was to check that `original` was defined before attempting
+to run the lint.
+
+Change-Id: I10d87e497d60eee642c4ed9cd6347a3453138147
+Reviewed-on: https://gerrit.causes.com/29013
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 345e779728994c50a103727bb7ec8f73647e5554
+Commit message - Update changelog with XMLReporter bug fix
+
+Change-Id: I34f752fbcb019ec246b1d5ba7005c5d5451a90be
+Reviewed-on: http://gerrit.causes.com/37218
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ 090e528cc282ff528667d2b5c23102118fcbe011 -> 446b07399eedd1879f8dd2e4d0984a9acd03038c } is a cherrypick
+{ fdb183766a67f11f84d0e942ec7dc5861b40063c -> 345e779728994c50a103727bb7ec8f73647e5554 }
+Partial Cherry-pick commits SHA are -> 
+446b07399eedd1879f8dd2e4d0984a9acd03038c - cherrypick - 345e779728994c50a103727bb7ec8f73647e5554
+---> The cherrypicked commit sha is - 446b07399eedd1879f8dd2e4d0984a9acd03038c
+Commit message - Upgrade sass from 3.2.10 -> 3.3.0.rc.1
+
+This is an important change that adds a lot of extra plumbing for
+accessing the start and ending lines/columns (source range) of a parsed
+node. It also sets us up for continuing to support the latest version of
+Sass going forward.
+
+Unfortunately, this resulted in a lot of the class hierarchy being
+shuffled around, and a change in the behavior of some interfaces.
+
+At a high level:
+
+ * `Sass::Script::Node` -> `Sass::Script::Tree::Node`
+
+ * `Sass::Script::Literal` -> `Sass::Script::Tree::Literal`, and now
+   wraps `Sass::Script::Value::Base` objects
+
+ * We no longer need the hack to return the original name of the
+   variable in keyword arg lists (see 8b1f5909)
+
+ * Nodes that span multiple lines now report the first line as their
+   `line` rather than the last line. This also means the
+   `node_start_line` hack is no longer needed, and was removed (see
+   6a5d338a).
+
+ * A bunch of specs were updated as the lines being reported for
+   multiline nodes are now the first line instead of the last
+
+ * `EachNode` now has `vars` attribute instead of just a single `var`
+
+There's still some fallout that will need to be figured out (ideally,
+we'll try to remove some of the `original_string` hacks), but those will
+come later.
+
+This change was brought to you by specs, because without them it would
+have been virtually impossible.
+
+Change-Id: Ie80f3bc369828ed6dec1789a29c0cea9fa81a587
+Reviewed-on: https://gerrit.causes.com/30177
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 345e779728994c50a103727bb7ec8f73647e5554
+Commit message - Update changelog with XMLReporter bug fix
+
+Change-Id: I34f752fbcb019ec246b1d5ba7005c5d5451a90be
+Reviewed-on: http://gerrit.causes.com/37218
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ e8d5edad60b2615d496287c1cbc1af86a3b3f247 -> 5bd34a1a8a278c6e5735c5fa6a03e0546f822f96 } is a cherrypick
+{ fdb183766a67f11f84d0e942ec7dc5861b40063c -> 345e779728994c50a103727bb7ec8f73647e5554 }
+Partial Cherry-pick commits SHA are -> 
+5bd34a1a8a278c6e5735c5fa6a03e0546f822f96 - cherrypick - 345e779728994c50a103727bb7ec8f73647e5554
+---> The cherrypicked commit sha is - 5bd34a1a8a278c6e5735c5fa6a03e0546f822f96
+Commit message - Add PropertyWithMixin Compass linter
+
+Add the first Compass-specific linter, `PropertyWithMixin` which checks
+for properties which have corresponding Compass mixins whose use is
+preferred over the property.
+
+Change-Id: I967bf51a748d543e45c38762d7342c34529b0155
+Reviewed-on: https://gerrit.causes.com/30810
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Hao Su <hao.su@causes.com>
+---> The original commit sha is - 345e779728994c50a103727bb7ec8f73647e5554
+Commit message - Update changelog with XMLReporter bug fix
+
+Change-Id: I34f752fbcb019ec246b1d5ba7005c5d5451a90be
+Reviewed-on: http://gerrit.causes.com/37218
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ c4404673727a9f827c341ea28b839850c5e65239 -> 900d0f9334857c02d91a440a3be4359460193d32 } is a cherrypick
+{ fdb183766a67f11f84d0e942ec7dc5861b40063c -> 345e779728994c50a103727bb7ec8f73647e5554 }
+Partial Cherry-pick commits SHA are -> 
+900d0f9334857c02d91a440a3be4359460193d32 - cherrypick - 345e779728994c50a103727bb7ec8f73647e5554
+---> The cherrypicked commit sha is - 900d0f9334857c02d91a440a3be4359460193d32
+Commit message - Include data directory in gemspec files
+
+This was missed by 7bc4cff, which resulted in version 0.16.0 of
+`scss-lint` being broken.
+
+Change-Id: I0cd42492b433ba0033889f722af2eaba7b7de0e4
+Reviewed-on: https://gerrit.causes.com/32499
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 345e779728994c50a103727bb7ec8f73647e5554
+Commit message - Update changelog with XMLReporter bug fix
+
+Change-Id: I34f752fbcb019ec246b1d5ba7005c5d5451a90be
+Reviewed-on: http://gerrit.causes.com/37218
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ 4756e491898cb0db9d6658604adc15cf2aa3f28d -> d14927d30747b4e2a5fc92d3fac7fedb03ea76c1 } is a cherrypick
+{ fdb183766a67f11f84d0e942ec7dc5861b40063c -> 345e779728994c50a103727bb7ec8f73647e5554 }
+Partial Cherry-pick commits SHA are -> 
+d14927d30747b4e2a5fc92d3fac7fedb03ea76c1 - cherrypick - 345e779728994c50a103727bb7ec8f73647e5554
+---> The cherrypicked commit sha is - d14927d30747b4e2a5fc92d3fac7fedb03ea76c1
+Commit message - Downgrade colorize from 0.6.0 -> 0.5.8
+
+This dependency was upgraded in 431ce29 with the thought that there were
+no breaking changes.
+
+It turns out that it actually removed the automatic disabling of
+colorization when the terminal was not a TTY. This resulted in
+`scss-lint` printing color escape sequences even when it was being
+output to a file.
+
+This is obviously not ideal. Since there are no significant reasons to
+upgrade to 0.6.0, downgrade back down to 0.5.8.
+
+Change-Id: If92d7b9ae9c3a11697c1ae833ddc31cfcc328e62
+Reviewed-on: https://gerrit.causes.com/33122
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 345e779728994c50a103727bb7ec8f73647e5554
+Commit message - Update changelog with XMLReporter bug fix
+
+Change-Id: I34f752fbcb019ec246b1d5ba7005c5d5451a90be
+Reviewed-on: http://gerrit.causes.com/37218
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 4965cd3ac27647a71dad3c685561ef241e3239d7 -> 38d2e7fc208e41b39503d59ab8e4d90854e5f2fe } is a cherrypick
+{ fdb183766a67f11f84d0e942ec7dc5861b40063c -> 345e779728994c50a103727bb7ec8f73647e5554 }
+Partial Cherry-pick commits SHA are -> 
+38d2e7fc208e41b39503d59ab8e4d90854e5f2fe - cherrypick - 345e779728994c50a103727bb7ec8f73647e5554
+---> The cherrypicked commit sha is - 38d2e7fc208e41b39503d59ab8e4d90854e5f2fe
+Commit message - Combine DeclaredName and UsageName linters
+
+It was mentioned in #75 that there was some confusion around when
+`DeclaredName` would report a lint versus `UsageName`. Since these
+checks go hand-in-hand, combine them.
+
+Change-Id: Ic5574aeb1a7349ffdeafd0a4b865704126437e08
+Reviewed-on: https://gerrit.causes.com/33671
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 345e779728994c50a103727bb7ec8f73647e5554
+Commit message - Update changelog with XMLReporter bug fix
+
+Change-Id: I34f752fbcb019ec246b1d5ba7005c5d5451a90be
+Reviewed-on: http://gerrit.causes.com/37218
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ 2dbf6c7f16052907a645028b1e83ba46364454eb -> 31fa18e7be03c5c67c4a360c4a35c4deb3500845 } is a cherrypick
+{ 4c8bf4b4d2914fdff8fb2ca3ee4bdf88c191ddca -> 446761f8d47c271dba61835587bd3e0c9ff48c24 }
+Partial Cherry-pick commits SHA are -> 
+31fa18e7be03c5c67c4a360c4a35c4deb3500845 - cherrypick - 446761f8d47c271dba61835587bd3e0c9ff48c24
+---> The cherrypicked commit sha is - 31fa18e7be03c5c67c4a360c4a35c4deb3500845
+Commit message - Fix Shorthand linter false positives
+
+For properties with names beginning with a shorthandable property (like
+`border-color` or `margin`) followed by interpolation, the `Shorthand`
+linter would report a lint if that property had values that were not in
+the most condensed form.
+
+These lints were erroneous because since the lint was basically being
+triggered due to the prefix of the property name. Since the
+interpolation cannot be determined statically, it's possible that it
+would resolve to a property that did not support shorthand values.
+
+Fix the bug by checking the entire property name, not just the prefix.
+
+In the process the code was cleaned up a bit, since Code Climate
+indicated that the `visit_prop` method had a high cyclomatic complexity
+due to the nesting in the case statement.
+
+Change-Id: Ia15b0f9feb1ad050300f243548907a957341e302
+Reviewed-on: https://gerrit.causes.com/29017
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 446761f8d47c271dba61835587bd3e0c9ff48c24
+Commit message - Add changelog entry for allow_single_line_padding
+
+Change-Id: Iff15ec96f45f97f86c3289561bbf2a3cff7cbe6d
+Reviewed-on: http://gerrit.causes.com/36831
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ a0c14472218659d23aec10d424d2efb8b64cfaba -> a3a674cdde24f1a2591d6d70ee061c19d4faf8cf } is a cherrypick
+{ 4c8bf4b4d2914fdff8fb2ca3ee4bdf88c191ddca -> 446761f8d47c271dba61835587bd3e0c9ff48c24 }
+Partial Cherry-pick commits SHA are -> 
+a3a674cdde24f1a2591d6d70ee061c19d4faf8cf - cherrypick - 446761f8d47c271dba61835587bd3e0c9ff48c24
+---> The cherrypicked commit sha is - a3a674cdde24f1a2591d6d70ee061c19d4faf8cf
+Commit message - Split PropertyFormat into separate linters
+
+The `PropertyFormat` linter suffered from bugs due to the brittle regex
+it employed to check the format of the property declaration. This regex
+also attempted to test too much, making the error message in the event
+of a lint being discovered not terribly useful.
+
+Split out the `PropertyFormat` linter into three separate linters:
+
+  * `SpaceAfterPropertyColon`
+    Prefers `margin: 0;` instead of `margin:0;`
+
+  * `SpaceAfterPropertyName`
+    Prefers `margin: 0;` instead of `margin : 0;`
+
+  * `TrailingSemiColonAfterProperty`
+    Ensures the final property in a rule set has a trailing semi-colon
+
+These linters are simpler thanks to the support for being able to query
+source ranges on all Sass parse tree nodes, and no longer require the
+use of a brittle regex.
+
+Change-Id: I4cb1bbccca1457b65ac3d66f578d15937735a37c
+Reviewed-on: https://gerrit.causes.com/30680
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 446761f8d47c271dba61835587bd3e0c9ff48c24
+Commit message - Add changelog entry for allow_single_line_padding
+
+Change-Id: Iff15ec96f45f97f86c3289561bbf2a3cff7cbe6d
+Reviewed-on: http://gerrit.causes.com/36831
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ 7bc4cff397ec0d6b21b4b373c310d37e91f3198d -> 5d2ee86b2717b9f068e704e67223311612f8bbad } is a cherrypick
+{ 4c8bf4b4d2914fdff8fb2ca3ee4bdf88c191ddca -> 446761f8d47c271dba61835587bd3e0c9ff48c24 }
+Partial Cherry-pick commits SHA are -> 
+5d2ee86b2717b9f068e704e67223311612f8bbad - cherrypick - 446761f8d47c271dba61835587bd3e0c9ff48c24
+---> The cherrypicked commit sha is - 5d2ee86b2717b9f068e704e67223311612f8bbad
+Commit message - Add extra_properties option to PropertySpelling
+
+There are a lot of CSS properties, and the lack of a definitive list (as
+well as the constant introduction of new experimental properties) makes
+it impractical to ensure our list is up-to-date at any given time.
+
+To address this, add an `extra_properties` config option to the
+`PropertySpelling` linter so that developers can add additional
+properties to the whitelist without needing to submit a pull request.
+
+Change-Id: I60f250cb704f2245e66885caada8929c37485076
+Reviewed-on: https://gerrit.causes.com/32423
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 446761f8d47c271dba61835587bd3e0c9ff48c24
+Commit message - Add changelog entry for allow_single_line_padding
+
+Change-Id: Iff15ec96f45f97f86c3289561bbf2a3cff7cbe6d
+Reviewed-on: http://gerrit.causes.com/36831
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ 7e8353d34618ff2bf61aa67a5a692837bd2ebb1c -> ae9362de8e198e68a414a8fa3744c5e75d3dbe64 } is a cherrypick
+{ 4c8bf4b4d2914fdff8fb2ca3ee4bdf88c191ddca -> 446761f8d47c271dba61835587bd3e0c9ff48c24 }
+Partial Cherry-pick commits SHA are -> 
+ae9362de8e198e68a414a8fa3744c5e75d3dbe64 - cherrypick - 446761f8d47c271dba61835587bd3e0c9ff48c24
+---> The cherrypicked commit sha is - ae9362de8e198e68a414a8fa3744c5e75d3dbe64
+Commit message - Ignore interpolation in SingleLinePerSelector
+
+The `SingleLinePerSelector` linter would incorrectly report lints when
+selector contained interpolation with a comma in it, e.g.
+
+    .my-#{function(1, 2)}-selector .item {
+    }
+
+The solution is to ignore the content of any interpolation, as it has no
+bearing on what the linter is trying to check.
+
+In the process I also updated the linter to not define a `description`
+method, as this style of linter declaration should go away in favour of
+explicitly passing messages to `add_lint`.
+
+Fixes #67
+
+Change-Id: Ice0191e0133bbe2490882c1dd4237fce12b41282
+Reviewed-on: https://gerrit.causes.com/32594
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 446761f8d47c271dba61835587bd3e0c9ff48c24
+Commit message - Add changelog entry for allow_single_line_padding
+
+Change-Id: Iff15ec96f45f97f86c3289561bbf2a3cff7cbe6d
+Reviewed-on: http://gerrit.causes.com/36831
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ f4cebeb1f1bee2b2204a3701211fea4efe28a048 -> ca74f02446d1034844a016383bf13b794a110f2a } is a cherrypick
+{ 4c8bf4b4d2914fdff8fb2ca3ee4bdf88c191ddca -> 446761f8d47c271dba61835587bd3e0c9ff48c24 }
+Partial Cherry-pick commits SHA are -> 
+ca74f02446d1034844a016383bf13b794a110f2a - cherrypick - 446761f8d47c271dba61835587bd3e0c9ff48c24
+---> The cherrypicked commit sha is - ca74f02446d1034844a016383bf13b794a110f2a
+Commit message - Ignore names of Compass translation mixins
+
+The `NameFormat` linter was erroneously reporting an error for
+translation-related mixin names. Include them in the whitelist of
+ignored names.
+
+Closes #99
+
+Change-Id: I2d3b22b4c3973f6d6f7996bc52b2f07dbe8ab97a
+Reviewed-on: http://gerrit.causes.com/36646
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 446761f8d47c271dba61835587bd3e0c9ff48c24
+Commit message - Add changelog entry for allow_single_line_padding
+
+Change-Id: Iff15ec96f45f97f86c3289561bbf2a3cff7cbe6d
+Reviewed-on: http://gerrit.causes.com/36831
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ 124311c74320d23f28807aa455ad2e9939163439 -> 89113fed562c0e152d541d5406d011c2a9ccac21 } is a cherrypick
+{ 4c8bf4b4d2914fdff8fb2ca3ee4bdf88c191ddca -> 446761f8d47c271dba61835587bd3e0c9ff48c24 }
+Partial Cherry-pick commits SHA are -> 
+89113fed562c0e152d541d5406d011c2a9ccac21 - cherrypick - 446761f8d47c271dba61835587bd3e0c9ff48c24
+---> The cherrypicked commit sha is - 89113fed562c0e152d541d5406d011c2a9ccac21
+Commit message - Detect duplicate property values in placeholders/mixins
+
+Add support to the `DuplicateProperty` linter to detect duplicate
+property values in placeholder and mixin declarations.
+
+Also cleaned up some Rubocop violations.
+
+Change-Id: I6ed7b5daace7ebf453b4f56460a1eab58f3a84de
+Reviewed-on: http://gerrit.causes.com/36672
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The original commit sha is - 446761f8d47c271dba61835587bd3e0c9ff48c24
+Commit message - Add changelog entry for allow_single_line_padding
+
+Change-Id: Iff15ec96f45f97f86c3289561bbf2a3cff7cbe6d
+Reviewed-on: http://gerrit.causes.com/36831
+Tested-by: jenkins <jenkins@causes.com>
+Reviewed-by: Shane da Silva <shane@causes.com>
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+

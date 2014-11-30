@@ -1,0 +1,568 @@
+# of cherry-picks = 45
+Cherry-pick diff pair 1 is -> 
+{ bee0e737484aeb1fc78d24a2120707fc1a9808d0 -> f5db1b070eba15a1b6d28140a295e9380422a26d } is a cherrypick
+{ db68dd2780872f4d46ad0c4fbd2a54684a8d6595 -> 33ebc10570411ca382b5e9e62dc4ab3f76679b11 }
+Cherrypick commits SHA are -> 
+f5db1b070eba15a1b6d28140a295e9380422a26d - cherrypick - 33ebc10570411ca382b5e9e62dc4ab3f76679b11
+---> The cherrypicked commit sha is - f5db1b070eba15a1b6d28140a295e9380422a26d
+Commit message - Phaser.Sound.fadeTo Method
+---> The original commit sha is - 33ebc10570411ca382b5e9e62dc4ab3f76679b11
+Commit message - Merge pull request #1225 from nickryall/dev
+
+Phaser.Sound.fadeTo Method
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ 173786c60dd21bceba07a0cf379e4fe11e2ea210 -> eeeb6c3733f07e64e1d01a179450dece28ac3176 } is a cherrypick
+{ d8e07db9d0ef89d22db4e24f045b7c9343751d58 -> 498b564f05421d1fe6da40f1cd1edd5f6f53942c }
+Cherrypick commits SHA are -> 
+eeeb6c3733f07e64e1d01a179450dece28ac3176 - cherrypick - 498b564f05421d1fe6da40f1cd1edd5f6f53942c
+---> The cherrypicked commit sha is - eeeb6c3733f07e64e1d01a179450dece28ac3176
+Commit message - This stops Phaser progressing with file loads when an audio file file
+failed in IE.
+
+The problem was that it was calling fileComplete everytime instead of
+setting it as a callback.
+---> The original commit sha is - 498b564f05421d1fe6da40f1cd1edd5f6f53942c
+Commit message - Merge pull request #1217 from spayton/dev
+
+Fixes issue #1212 (again), this time properly built and tested
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ 60888f675c751fb589bf43d0099fbbcf639d91e3 -> 29dd09fdf677307dc9618cdd89ab233a373a450b } is a cherrypick
+{ 01fd3df4345e44ae1ca5f253fa5adefa5039bf67 -> d7d69947fb0ff02e5f93b610c74e7dcf9f7beff5 }
+Cherrypick commits SHA are -> 
+29dd09fdf677307dc9618cdd89ab233a373a450b - cherrypick - d7d69947fb0ff02e5f93b610c74e7dcf9f7beff5
+---> The cherrypicked commit sha is - 29dd09fdf677307dc9618cdd89ab233a373a450b
+Commit message - added: Phaser.Point.parse
+
+static method that will take an object of any kind and return a new point based on the x & y properties of that object.
+
+optional x & y property names can also be supplied
+---> The original commit sha is - d7d69947fb0ff02e5f93b610c74e7dcf9f7beff5
+Commit message - Merge pull request #1198 from codevinsky/feature/point-parse
+
+Phaser.Point.parse
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ 5a58d6be381a0c8f72cc2f5fc6bb0f1d37eb6c59 -> ab9da1099920d4fb1246e7e5cee67a8267b54f52 } is a cherrypick
+{ 5980a3bdc6d7974abcb4ec634a6f3603d14cad82 -> 49ddf46ef373aac46b903e34b77a0d988bb65256 }
+Cherrypick commits SHA are -> 
+ab9da1099920d4fb1246e7e5cee67a8267b54f52 - cherrypick - 49ddf46ef373aac46b903e34b77a0d988bb65256
+---> The cherrypicked commit sha is - ab9da1099920d4fb1246e7e5cee67a8267b54f52
+Commit message - added: Rectangle.aabb
+
+* Calculates the Axis Aligned Bounding Box (or aabb) from an array of points.
+*
+* @method Phaser.Rectangle#aabb
+* @param {Phaser.Point[]} points - The array of one or more points.
+* @param {Phaser.Rectangle} [out] - Optional Rectangle to store the value in, if not supplied a new Rectangle object will be created.
+* @return {Phaser.Rectangle} The new Rectangle object.
+* @static
+---> The original commit sha is - 49ddf46ef373aac46b903e34b77a0d988bb65256
+Commit message - Merge pull request #1199 from codevinsky/feature/rectangle-aabb
+
+Rectangle.aabb
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ 5d5c8870f9cac849fa343622cb344af4935dfb8a -> 4b311944d7e4b1109b8390eddf8e81511124c8c8 } is a cherrypick
+{ e5cac96302943f91329c69b289daef45d454728f -> bb8da110b1b34c00c8fd859c8c82e3916538e8bb }
+Cherrypick commits SHA are -> 
+4b311944d7e4b1109b8390eddf8e81511124c8c8 - cherrypick - bb8da110b1b34c00c8fd859c8c82e3916538e8bb
+---> The cherrypicked commit sha is - 4b311944d7e4b1109b8390eddf8e81511124c8c8
+Commit message - Should bring phaser upto date with master, P2 has been added as it is cool to have access to the p2 data.
+---> The original commit sha is - bb8da110b1b34c00c8fd859c8c82e3916538e8bb
+Commit message - Merge pull request #1184 from clark-stevenson/dev
+
+Should bring phaser upto date with master, P2 has been added as it is co...
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ a869939bc30a35062bb2d7ab1a14011a9de0f910 -> 94f9c0906fb0c719d4b74016f6d8098e687c514b } is a cherrypick
+{ d72117ab8dfef2cae7ef52cc2ac1d202942741ff -> 3102ad534d106452fcdaae4cc47aadd128ec01ac }
+Cherrypick commits SHA are -> 
+94f9c0906fb0c719d4b74016f6d8098e687c514b - cherrypick - 3102ad534d106452fcdaae4cc47aadd128ec01ac
+---> The cherrypicked commit sha is - 94f9c0906fb0c719d4b74016f6d8098e687c514b
+Commit message - this fixes the camera judders when following with float values.
+---> The original commit sha is - 3102ad534d106452fcdaae4cc47aadd128ec01ac
+Commit message - Swapped the order of the Camera.view floor to avoid the 1px jitter effect on the right of maps.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ 72c0f50b6bb4e82e0b46a49030eea418f0040523 -> fdf00b1b4939d0b944f72fa40e7fe4892767c59a } is a cherrypick
+{ 7c02358eedabe881607b26cb308cc28abb66c4e6 -> 199016b0a8c66767551604d8123f0dd8a2660bba }
+Cherrypick commits SHA are -> 
+fdf00b1b4939d0b944f72fa40e7fe4892767c59a - cherrypick - 199016b0a8c66767551604d8123f0dd8a2660bba
+---> The cherrypicked commit sha is - fdf00b1b4939d0b944f72fa40e7fe4892767c59a
+Commit message - A new custom build with no physics added.
+---> The original commit sha is - 199016b0a8c66767551604d8123f0dd8a2660bba
+Commit message - Merge pull request #1172 from eguneys/dev
+
+A new custom build with no physics added.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ 52ea95d9ce5a4db63919a3e79ade6afbdf6265ec -> dd160f004b4f63df86e74aabc8e0caf5c5c1d404 } is a cherrypick
+{ 5a3eeb8a9c5a14a8fc2c7af523809fc7f83da470 -> 32989094f493ace302cdd244f91bdc7fc60936c7 }
+Cherrypick commits SHA are -> 
+dd160f004b4f63df86e74aabc8e0caf5c5c1d404 - cherrypick - 32989094f493ace302cdd244f91bdc7fc60936c7
+---> The cherrypicked commit sha is - dd160f004b4f63df86e74aabc8e0caf5c5c1d404
+Commit message - jsdocs update for collideWorldBounds #1010
+---> The original commit sha is - 32989094f493ace302cdd244f91bdc7fc60936c7
+Commit message - Merge pull request #1147 from pyromanfo/dev
+
+Fix for group vs group within group collision (fixes #877)
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ 118ea6f84a7f6c14ce4159fbbe54f1bf8143ee1d -> a435191fd0fd1bcfbf427cdd5df9b56dd1b05c6e } is a cherrypick
+{ ec6259558ec26f9fd88ac149b08ab24ec688b95c -> cc1c7948f34a3f6ca44f79d4b00943ea4101298d }
+Cherrypick commits SHA are -> 
+a435191fd0fd1bcfbf427cdd5df9b56dd1b05c6e - cherrypick - cc1c7948f34a3f6ca44f79d4b00943ea4101298d
+---> The cherrypicked commit sha is - a435191fd0fd1bcfbf427cdd5df9b56dd1b05c6e
+Commit message - swapped argument order of Rectangle.containsRect - fixes #1095
+---> The original commit sha is - cc1c7948f34a3f6ca44f79d4b00943ea4101298d
+Commit message - Merge pull request #1125 from beeglebug/fix/#1095-rectangle-contains-rect
+
+swapped argument order of Rectangle.containsRect - fixes #1095
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ 36ecd81f2973144e0f228d5454e1768764453605 -> 3b69c7ede12fab2486354d1b6c1ee5c908bfc78d } is a cherrypick
+{ 31c142394760beefcd36357c2b0c5f1a194c9039 -> b3d08ea53511036680e8ae7e27551180b24930be }
+Cherrypick commits SHA are -> 
+3b69c7ede12fab2486354d1b6c1ee5c908bfc78d - cherrypick - b3d08ea53511036680e8ae7e27551180b24930be
+---> The cherrypicked commit sha is - 3b69c7ede12fab2486354d1b6c1ee5c908bfc78d
+Commit message - group swap fix
+---> The original commit sha is - b3d08ea53511036680e8ae7e27551180b24930be
+Commit message - Merge pull request #1090 from Blank101/swapfix
+
+Group.swap() fix
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ 74b11898906d9dd25af0b11f78d6f9e416080b86 -> b952884d9d13763dc608feb052c62bc3597aeb32 } is a cherrypick
+{ acceb692c390822f56da180cbe7a1ddc06e18428 -> 48869776f2c2a8a0ea999e1eb18fa9d7dbec3b24 }
+Cherrypick commits SHA are -> 
+b952884d9d13763dc608feb052c62bc3597aeb32 - cherrypick - 48869776f2c2a8a0ea999e1eb18fa9d7dbec3b24
+---> The cherrypicked commit sha is - b952884d9d13763dc608feb052c62bc3597aeb32
+Commit message - Fix for scale issues in CocoonJS using webgl renderer and screencanvas
+---> The original commit sha is - 48869776f2c2a8a0ea999e1eb18fa9d7dbec3b24
+Commit message - Merge pull request #1064 from txusinho/dev
+
+Fix for scale issues in CocoonJS using webgl renderer and screencanvas
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ ff5dda7e82a3d986331d148aabdc3aa973a02860 -> aad74ff4d599ece461cefc689bcdee20a490ecd9 } is a cherrypick
+{ 491d7c2eecb67a9b5e946545bed8ac05d3e9e298 -> 3da788bd1d69e11a2d2b99bc02465d0f34cac499 }
+Cherrypick commits SHA are -> 
+aad74ff4d599ece461cefc689bcdee20a490ecd9 - cherrypick - 3da788bd1d69e11a2d2b99bc02465d0f34cac499
+---> The cherrypicked commit sha is - aad74ff4d599ece461cefc689bcdee20a490ecd9
+Commit message - added: Phaser.Utils.getProperty / Phaser.Utils.setProperty; added: Phaser.Group.checkAll
+
+Added deep-property getting and setting via strings:
+
+Phaser.Util.getProperty(someObj, 'foo.bar.baz');
+
+Phaser.Util.setProperty(someObj, 'foo.bar.baz', 'lol');
+
+Added a "checkAll" method to Phaser.Group that returns true/false if all of the children's given properties match the value passed in.
+
+this.someGroup.checkAll('foo.bar.baz', 'lol'); // will return true if child[n].foo.bar.baz === 'lol'
+
+Comes with standard 'force' ability.
+---> The original commit sha is - 3da788bd1d69e11a2d2b99bc02465d0f34cac499
+Commit message - Merge pull request #1013 from codevinsky/group-checkall
+
+added: Phaser.Utils.getProperty / Phaser.Utils.setProperty; added: Phase...
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ fc047c58709b4f92d25836353635bd0891e469b1 -> ccd4b502d792f592724d4a165b57f6caae50d583 } is a cherrypick
+{ 1491d0ba0f90726377d9769451d6d808d68bc7a8 -> 91eb2ff8422759f8739bf3f4aded4d215d96ddd0 }
+Cherrypick commits SHA are -> 
+ccd4b502d792f592724d4a165b57f6caae50d583 - cherrypick - 91eb2ff8422759f8739bf3f4aded4d215d96ddd0
+---> The cherrypicked commit sha is - ccd4b502d792f592724d4a165b57f6caae50d583
+Commit message - Fram data guards
+
+Sometimes, this._frameData is null. Guard agains it.
+Sometimes, we transfer to an animation that contains lesser frames.
+Guard against it.
+---> The original commit sha is - 91eb2ff8422759f8739bf3f4aded4d215d96ddd0
+Commit message - Merge pull request #1033 from lucbloom/updateFrameData-fix
+
+Frame data guards
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 14 is -> 
+{ 0b903bf7923606128af8efe9bd9948bba4aec7e3 -> 78771d875b60ea72e90b5c0bc3ae05fab97f8fca } is a cherrypick
+{ 35a8c70f45ff82838dc46156a7423a005525d36c -> fe960b79d7b28c2311eb3eb10899cddb42d24c9a }
+Cherrypick commits SHA are -> 
+78771d875b60ea72e90b5c0bc3ae05fab97f8fca - cherrypick - fe960b79d7b28c2311eb3eb10899cddb42d24c9a
+---> The cherrypicked commit sha is - 78771d875b60ea72e90b5c0bc3ae05fab97f8fca
+Commit message - Fix issue #883
+
+Check if points is an Array before parsing arguments.
+---> The original commit sha is - fe960b79d7b28c2311eb3eb10899cddb42d24c9a
+Commit message - Merge pull request #1002 from petarov/bugfix_883
+
+Fix issue #883
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 15 is -> 
+{ b9497737357c08ceef1b974f2391e49762341e0f -> a4fd4e30bf788fc07bd00d56f6a925d9ccafe5b3 } is a cherrypick
+{ 321acd16763d685bef620e8e603fedcce64e36e6 -> 0ec4fefbc47c35b21f67f9675062fe64b78f8038 }
+Cherrypick commits SHA are -> 
+a4fd4e30bf788fc07bd00d56f6a925d9ccafe5b3 - cherrypick - 0ec4fefbc47c35b21f67f9675062fe64b78f8038
+---> The cherrypicked commit sha is - a4fd4e30bf788fc07bd00d56f6a925d9ccafe5b3
+Commit message - Updated Phaser.d.ts to dev
+Fixes #1008
+---> The original commit sha is - 0ec4fefbc47c35b21f67f9675062fe64b78f8038
+Commit message - Updated Phaser.d.ts to dev
+Fixes #1008
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 16 is -> 
+{ bc9e5804b2244f567de91e9bf8458fd1efdc3c5d -> 0b903bf7923606128af8efe9bd9948bba4aec7e3 } is a cherrypick
+{ b30ac258f54ed7220c0f0102ebec41e92702a325 -> 321acd16763d685bef620e8e603fedcce64e36e6 }
+Cherrypick commits SHA are -> 
+0b903bf7923606128af8efe9bd9948bba4aec7e3 - cherrypick - 321acd16763d685bef620e8e603fedcce64e36e6
+---> The cherrypicked commit sha is - 0b903bf7923606128af8efe9bd9948bba4aec7e3
+Commit message - New build files.
+---> The original commit sha is - 321acd16763d685bef620e8e603fedcce64e36e6
+Commit message - New build files.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 17 is -> 
+{ be54d0f9ca4c6ba15fb8af13b1e5d6ce799d962f -> b9497737357c08ceef1b974f2391e49762341e0f } is a cherrypick
+{ b30ac258f54ed7220c0f0102ebec41e92702a325 -> 321acd16763d685bef620e8e603fedcce64e36e6 }
+Cherrypick commits SHA are -> 
+b9497737357c08ceef1b974f2391e49762341e0f - cherrypick - 321acd16763d685bef620e8e603fedcce64e36e6
+---> The cherrypicked commit sha is - b9497737357c08ceef1b974f2391e49762341e0f
+Commit message - New build files.
+---> The original commit sha is - 321acd16763d685bef620e8e603fedcce64e36e6
+Commit message - New build files.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 18 is -> 
+{ 22462566b40b0557a6c09d40cf47ee9ea7eadb20 -> bc9e5804b2244f567de91e9bf8458fd1efdc3c5d } is a cherrypick
+{ 0cc24d0966b5f95a0ce47e78bd8942847cd6a567 -> b30ac258f54ed7220c0f0102ebec41e92702a325 }
+Cherrypick commits SHA are -> 
+bc9e5804b2244f567de91e9bf8458fd1efdc3c5d - cherrypick - b30ac258f54ed7220c0f0102ebec41e92702a325
+---> The cherrypicked commit sha is - bc9e5804b2244f567de91e9bf8458fd1efdc3c5d
+Commit message - Updated docs.
+---> The original commit sha is - b30ac258f54ed7220c0f0102ebec41e92702a325
+Commit message - Updated docs.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 19 is -> 
+{ b4633852caae581f901aeb5e380ca0f14d4a3304 -> be54d0f9ca4c6ba15fb8af13b1e5d6ce799d962f } is a cherrypick
+{ 0cc24d0966b5f95a0ce47e78bd8942847cd6a567 -> b30ac258f54ed7220c0f0102ebec41e92702a325 }
+Cherrypick commits SHA are -> 
+be54d0f9ca4c6ba15fb8af13b1e5d6ce799d962f - cherrypick - b30ac258f54ed7220c0f0102ebec41e92702a325
+---> The cherrypicked commit sha is - be54d0f9ca4c6ba15fb8af13b1e5d6ce799d962f
+Commit message - Updated docs.
+---> The original commit sha is - b30ac258f54ed7220c0f0102ebec41e92702a325
+Commit message - Updated docs.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 20 is -> 
+{ 79c554486908bf6f55b3c9fc61c55988ec269016 -> 22462566b40b0557a6c09d40cf47ee9ea7eadb20 } is a cherrypick
+{ 0632e87ebce4c3174b7601d893795637b565288a -> 0cc24d0966b5f95a0ce47e78bd8942847cd6a567 }
+Cherrypick commits SHA are -> 
+22462566b40b0557a6c09d40cf47ee9ea7eadb20 - cherrypick - 0cc24d0966b5f95a0ce47e78bd8942847cd6a567
+---> The cherrypicked commit sha is - 22462566b40b0557a6c09d40cf47ee9ea7eadb20
+Commit message - Restored old Image object.
+---> The original commit sha is - 0cc24d0966b5f95a0ce47e78bd8942847cd6a567
+Commit message - Restored old Image object.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 21 is -> 
+{ 84f0d5bfe1b6a6ce98aeb3a5fe5e205479c1ae15 -> b4633852caae581f901aeb5e380ca0f14d4a3304 } is a cherrypick
+{ 0632e87ebce4c3174b7601d893795637b565288a -> 0cc24d0966b5f95a0ce47e78bd8942847cd6a567 }
+Cherrypick commits SHA are -> 
+b4633852caae581f901aeb5e380ca0f14d4a3304 - cherrypick - 0cc24d0966b5f95a0ce47e78bd8942847cd6a567
+---> The cherrypicked commit sha is - b4633852caae581f901aeb5e380ca0f14d4a3304
+Commit message - Restored old Image object.
+---> The original commit sha is - 0cc24d0966b5f95a0ce47e78bd8942847cd6a567
+Commit message - Restored old Image object.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 22 is -> 
+{ 0353ee12beb31c4d5e60242b67d16a43980deb76 -> 79c554486908bf6f55b3c9fc61c55988ec269016 } is a cherrypick
+{ 0f5c07e4a0868e8f2ed2779b6a220a192689d149 -> 0632e87ebce4c3174b7601d893795637b565288a }
+Cherrypick commits SHA are -> 
+79c554486908bf6f55b3c9fc61c55988ec269016 - cherrypick - 0632e87ebce4c3174b7601d893795637b565288a
+---> The cherrypicked commit sha is - 79c554486908bf6f55b3c9fc61c55988ec269016
+Commit message - Pixi 1.6 patches for RenderTextures and IE9 Float32 calls.
+---> The original commit sha is - 0632e87ebce4c3174b7601d893795637b565288a
+Commit message - Pixi 1.6 patches for RenderTextures and IE9 Float32 calls.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 23 is -> 
+{ 81b88aef27e2845941637de17c32b02045c41542 -> 84f0d5bfe1b6a6ce98aeb3a5fe5e205479c1ae15 } is a cherrypick
+{ 0f5c07e4a0868e8f2ed2779b6a220a192689d149 -> 0632e87ebce4c3174b7601d893795637b565288a }
+Cherrypick commits SHA are -> 
+84f0d5bfe1b6a6ce98aeb3a5fe5e205479c1ae15 - cherrypick - 0632e87ebce4c3174b7601d893795637b565288a
+---> The cherrypicked commit sha is - 84f0d5bfe1b6a6ce98aeb3a5fe5e205479c1ae15
+Commit message - Pixi 1.6 patches for RenderTextures and IE9 Float32 calls.
+---> The original commit sha is - 0632e87ebce4c3174b7601d893795637b565288a
+Commit message - Pixi 1.6 patches for RenderTextures and IE9 Float32 calls.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 24 is -> 
+{ ed0a228c9082bd0a8ea069277218384eff1c631a -> 0353ee12beb31c4d5e60242b67d16a43980deb76 } is a cherrypick
+{ aa8384a7385c7c95178543c1a91b73b2073a47fd -> 0f5c07e4a0868e8f2ed2779b6a220a192689d149 }
+Cherrypick commits SHA are -> 
+0353ee12beb31c4d5e60242b67d16a43980deb76 - cherrypick - 0f5c07e4a0868e8f2ed2779b6a220a192689d149
+---> The cherrypicked commit sha is - 0353ee12beb31c4d5e60242b67d16a43980deb76
+Commit message - Reverting to a 2.0.7 release to fix the issues with Image / RetroText / Buttons.
+---> The original commit sha is - 0f5c07e4a0868e8f2ed2779b6a220a192689d149
+Commit message - Reverting to a 2.0.7 release to fix the issues with Image / RetroText / Buttons.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 25 is -> 
+{ ef76d9bd6c7f0f76c6ed356bb99d8064fca3572a -> 81b88aef27e2845941637de17c32b02045c41542 } is a cherrypick
+{ aa8384a7385c7c95178543c1a91b73b2073a47fd -> 0f5c07e4a0868e8f2ed2779b6a220a192689d149 }
+Cherrypick commits SHA are -> 
+81b88aef27e2845941637de17c32b02045c41542 - cherrypick - 0f5c07e4a0868e8f2ed2779b6a220a192689d149
+---> The cherrypicked commit sha is - 81b88aef27e2845941637de17c32b02045c41542
+Commit message - Reverting to a 2.0.7 release to fix the issues with Image / RetroText / Buttons.
+---> The original commit sha is - 0f5c07e4a0868e8f2ed2779b6a220a192689d149
+Commit message - Reverting to a 2.0.7 release to fix the issues with Image / RetroText / Buttons.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 26 is -> 
+{ 2bf1ee305cf5ea6468f10a2c078ca9f048741871 -> ef76d9bd6c7f0f76c6ed356bb99d8064fca3572a } is a cherrypick
+{ 9e9cf1ab23d15df830fc7c42aa87f1de165b343b -> aa8384a7385c7c95178543c1a91b73b2073a47fd }
+Cherrypick commits SHA are -> 
+ef76d9bd6c7f0f76c6ed356bb99d8064fca3572a - cherrypick - aa8384a7385c7c95178543c1a91b73b2073a47fd
+---> The cherrypicked commit sha is - ef76d9bd6c7f0f76c6ed356bb99d8064fca3572a
+Commit message - Temporary fix for #997
+---> The original commit sha is - aa8384a7385c7c95178543c1a91b73b2073a47fd
+Commit message - Temporary fix for #997
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 27 is -> 
+{ 810b397a4662e66356b97a1900b65c794a70006d -> 4b45d488bc533a4a9b6ae726cb74447545472c1c } is a cherrypick
+{ 938fd51ac3e38b11fb18945959dff43f3486726a -> 9e9cf1ab23d15df830fc7c42aa87f1de165b343b }
+Cherrypick commits SHA are -> 
+4b45d488bc533a4a9b6ae726cb74447545472c1c - cherrypick - 9e9cf1ab23d15df830fc7c42aa87f1de165b343b
+---> The cherrypicked commit sha is - 4b45d488bc533a4a9b6ae726cb74447545472c1c
+Commit message - Added game.add.plugin to the definitions file
+---> The original commit sha is - 9e9cf1ab23d15df830fc7c42aa87f1de165b343b
+Commit message - Added game.add.plugin to the definitions file
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 28 is -> 
+{ 26fb6cb866ed9927784b9b91fcc76ae067c6a268 -> ed0a228c9082bd0a8ea069277218384eff1c631a } is a cherrypick
+{ 938fd51ac3e38b11fb18945959dff43f3486726a -> 9e9cf1ab23d15df830fc7c42aa87f1de165b343b }
+Cherrypick commits SHA are -> 
+ed0a228c9082bd0a8ea069277218384eff1c631a - cherrypick - 9e9cf1ab23d15df830fc7c42aa87f1de165b343b
+---> The cherrypicked commit sha is - ed0a228c9082bd0a8ea069277218384eff1c631a
+Commit message - Merge pull request #998 from alvinsight/dev
+
+Added game.add.plugin to the definitions file
+---> The original commit sha is - 9e9cf1ab23d15df830fc7c42aa87f1de165b343b
+Commit message - Added game.add.plugin to the definitions file
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 29 is -> 
+{ aa62026abc6d3b809f248185bae90cedc7f1f977 -> 2bf1ee305cf5ea6468f10a2c078ca9f048741871 } is a cherrypick
+{ 938fd51ac3e38b11fb18945959dff43f3486726a -> 9e9cf1ab23d15df830fc7c42aa87f1de165b343b }
+Cherrypick commits SHA are -> 
+2bf1ee305cf5ea6468f10a2c078ca9f048741871 - cherrypick - 9e9cf1ab23d15df830fc7c42aa87f1de165b343b
+---> The cherrypicked commit sha is - 2bf1ee305cf5ea6468f10a2c078ca9f048741871
+Commit message - Added game.add.plugin to the definitions file
+---> The original commit sha is - 9e9cf1ab23d15df830fc7c42aa87f1de165b343b
+Commit message - Added game.add.plugin to the definitions file
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 30 is -> 
+{ 74679922d167ab646ede67f1ba5025fbd69ed7a6 -> ded5eac8c78c09d762d11a02411e3c21dc460b07 } is a cherrypick
+{ a0113ed231a5b424591334ac09c3381a8cd6cbd6 -> d08c6ba7c9d19dd544e0312cc269e0107c3ea252 }
+Cherrypick commits SHA are -> 
+ded5eac8c78c09d762d11a02411e3c21dc460b07 - cherrypick - d08c6ba7c9d19dd544e0312cc269e0107c3ea252
+---> The cherrypicked commit sha is - ded5eac8c78c09d762d11a02411e3c21dc460b07
+Commit message - Updated build files with patched Pixi UMD statement.
+---> The original commit sha is - d08c6ba7c9d19dd544e0312cc269e0107c3ea252
+Commit message - Updated build files with patched Pixi UMD statement.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 31 is -> 
+{ e0dce4902418810c40f02ead67e3237f07b5ddac -> 0d3b80176832ca2d60b9837ac90cfb0453726e95 } is a cherrypick
+{ a0113ed231a5b424591334ac09c3381a8cd6cbd6 -> d08c6ba7c9d19dd544e0312cc269e0107c3ea252 }
+Cherrypick commits SHA are -> 
+0d3b80176832ca2d60b9837ac90cfb0453726e95 - cherrypick - d08c6ba7c9d19dd544e0312cc269e0107c3ea252
+---> The cherrypicked commit sha is - 0d3b80176832ca2d60b9837ac90cfb0453726e95
+Commit message - Updated build files with patched Pixi UMD statement.
+---> The original commit sha is - d08c6ba7c9d19dd544e0312cc269e0107c3ea252
+Commit message - Updated build files with patched Pixi UMD statement.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 32 is -> 
+{ 8c486f5c1811cc1536437c1499ec60c762296652 -> 74679922d167ab646ede67f1ba5025fbd69ed7a6 } is a cherrypick
+{ 43845c2c34d0f44a4e8520ad5d2e6740c635ce3b -> a0113ed231a5b424591334ac09c3381a8cd6cbd6 }
+Cherrypick commits SHA are -> 
+74679922d167ab646ede67f1ba5025fbd69ed7a6 - cherrypick - a0113ed231a5b424591334ac09c3381a8cd6cbd6
+---> The cherrypicked commit sha is - 74679922d167ab646ede67f1ba5025fbd69ed7a6
+Commit message - Debug.preUpdate was still being called in the Game Loop even if enableDebug was set to false (thanks @qdrj, #995)
+---> The original commit sha is - a0113ed231a5b424591334ac09c3381a8cd6cbd6
+Commit message - Debug.preUpdate was still being called in the Game Loop even if enableDebug was set to false (thanks @qdrj, #995)
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 33 is -> 
+{ 8a1c1db8d999be0ea9622b2789b3e58cebc782fc -> e0dce4902418810c40f02ead67e3237f07b5ddac } is a cherrypick
+{ 43845c2c34d0f44a4e8520ad5d2e6740c635ce3b -> a0113ed231a5b424591334ac09c3381a8cd6cbd6 }
+Cherrypick commits SHA are -> 
+e0dce4902418810c40f02ead67e3237f07b5ddac - cherrypick - a0113ed231a5b424591334ac09c3381a8cd6cbd6
+---> The cherrypicked commit sha is - e0dce4902418810c40f02ead67e3237f07b5ddac
+Commit message - Debug.preUpdate was still being called in the Game Loop even if enableDebug was set to false (thanks @qdrj, #995)
+---> The original commit sha is - a0113ed231a5b424591334ac09c3381a8cd6cbd6
+Commit message - Debug.preUpdate was still being called in the Game Loop even if enableDebug was set to false (thanks @qdrj, #995)
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 34 is -> 
+{ d7bed24a27db3b83fce24390502e93327b02b282 -> 01a761b77f9c4c54037444c773f504a31ad4bdd2 } is a cherrypick
+{ 0d04eefd038e1400203b7a66c03b328e248400cc -> 43845c2c34d0f44a4e8520ad5d2e6740c635ce3b }
+Cherrypick commits SHA are -> 
+01a761b77f9c4c54037444c773f504a31ad4bdd2 - cherrypick - 43845c2c34d0f44a4e8520ad5d2e6740c635ce3b
+---> The cherrypicked commit sha is - 01a761b77f9c4c54037444c773f504a31ad4bdd2
+Commit message - Fixed pixel perfect dragging, this was still using the old property 'pixelPerfect' instead of the new 'pixelPerfectClick'
+---> The original commit sha is - 43845c2c34d0f44a4e8520ad5d2e6740c635ce3b
+Commit message - Fixed pixel perfect dragging, this was still using the old property 'pixelPerfect' instead of the new 'pixelPerfectClick'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 35 is -> 
+{ bc9e5804b2244f567de91e9bf8458fd1efdc3c5d -> 0b903bf7923606128af8efe9bd9948bba4aec7e3 } is a cherrypick
+{ be54d0f9ca4c6ba15fb8af13b1e5d6ce799d962f -> b9497737357c08ceef1b974f2391e49762341e0f }
+Cherrypick commits SHA are -> 
+0b903bf7923606128af8efe9bd9948bba4aec7e3 - cherrypick - b9497737357c08ceef1b974f2391e49762341e0f
+---> The cherrypicked commit sha is - 0b903bf7923606128af8efe9bd9948bba4aec7e3
+Commit message - New build files.
+---> The original commit sha is - b9497737357c08ceef1b974f2391e49762341e0f
+Commit message - New build files.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 36 is -> 
+{ 22462566b40b0557a6c09d40cf47ee9ea7eadb20 -> bc9e5804b2244f567de91e9bf8458fd1efdc3c5d } is a cherrypick
+{ b4633852caae581f901aeb5e380ca0f14d4a3304 -> be54d0f9ca4c6ba15fb8af13b1e5d6ce799d962f }
+Cherrypick commits SHA are -> 
+bc9e5804b2244f567de91e9bf8458fd1efdc3c5d - cherrypick - be54d0f9ca4c6ba15fb8af13b1e5d6ce799d962f
+---> The cherrypicked commit sha is - bc9e5804b2244f567de91e9bf8458fd1efdc3c5d
+Commit message - Updated docs.
+---> The original commit sha is - be54d0f9ca4c6ba15fb8af13b1e5d6ce799d962f
+Commit message - Updated docs.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 37 is -> 
+{ 79c554486908bf6f55b3c9fc61c55988ec269016 -> 22462566b40b0557a6c09d40cf47ee9ea7eadb20 } is a cherrypick
+{ 84f0d5bfe1b6a6ce98aeb3a5fe5e205479c1ae15 -> b4633852caae581f901aeb5e380ca0f14d4a3304 }
+Cherrypick commits SHA are -> 
+22462566b40b0557a6c09d40cf47ee9ea7eadb20 - cherrypick - b4633852caae581f901aeb5e380ca0f14d4a3304
+---> The cherrypicked commit sha is - 22462566b40b0557a6c09d40cf47ee9ea7eadb20
+Commit message - Restored old Image object.
+---> The original commit sha is - b4633852caae581f901aeb5e380ca0f14d4a3304
+Commit message - Restored old Image object.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 38 is -> 
+{ 0353ee12beb31c4d5e60242b67d16a43980deb76 -> 79c554486908bf6f55b3c9fc61c55988ec269016 } is a cherrypick
+{ 81b88aef27e2845941637de17c32b02045c41542 -> 84f0d5bfe1b6a6ce98aeb3a5fe5e205479c1ae15 }
+Cherrypick commits SHA are -> 
+79c554486908bf6f55b3c9fc61c55988ec269016 - cherrypick - 84f0d5bfe1b6a6ce98aeb3a5fe5e205479c1ae15
+---> The cherrypicked commit sha is - 79c554486908bf6f55b3c9fc61c55988ec269016
+Commit message - Pixi 1.6 patches for RenderTextures and IE9 Float32 calls.
+---> The original commit sha is - 84f0d5bfe1b6a6ce98aeb3a5fe5e205479c1ae15
+Commit message - Pixi 1.6 patches for RenderTextures and IE9 Float32 calls.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 39 is -> 
+{ ed0a228c9082bd0a8ea069277218384eff1c631a -> 0353ee12beb31c4d5e60242b67d16a43980deb76 } is a cherrypick
+{ ef76d9bd6c7f0f76c6ed356bb99d8064fca3572a -> 81b88aef27e2845941637de17c32b02045c41542 }
+Cherrypick commits SHA are -> 
+0353ee12beb31c4d5e60242b67d16a43980deb76 - cherrypick - 81b88aef27e2845941637de17c32b02045c41542
+---> The cherrypicked commit sha is - 0353ee12beb31c4d5e60242b67d16a43980deb76
+Commit message - Reverting to a 2.0.7 release to fix the issues with Image / RetroText / Buttons.
+---> The original commit sha is - 81b88aef27e2845941637de17c32b02045c41542
+Commit message - Reverting to a 2.0.7 release to fix the issues with Image / RetroText / Buttons.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 40 is -> 
+{ 810b397a4662e66356b97a1900b65c794a70006d -> 4b45d488bc533a4a9b6ae726cb74447545472c1c } is a cherrypick
+{ aa62026abc6d3b809f248185bae90cedc7f1f977 -> 2bf1ee305cf5ea6468f10a2c078ca9f048741871 }
+Cherrypick commits SHA are -> 
+4b45d488bc533a4a9b6ae726cb74447545472c1c - cherrypick - 2bf1ee305cf5ea6468f10a2c078ca9f048741871
+---> The cherrypicked commit sha is - 4b45d488bc533a4a9b6ae726cb74447545472c1c
+Commit message - Added game.add.plugin to the definitions file
+---> The original commit sha is - 2bf1ee305cf5ea6468f10a2c078ca9f048741871
+Commit message - Added game.add.plugin to the definitions file
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 41 is -> 
+{ 26fb6cb866ed9927784b9b91fcc76ae067c6a268 -> ed0a228c9082bd0a8ea069277218384eff1c631a } is a cherrypick
+{ aa62026abc6d3b809f248185bae90cedc7f1f977 -> 2bf1ee305cf5ea6468f10a2c078ca9f048741871 }
+Cherrypick commits SHA are -> 
+ed0a228c9082bd0a8ea069277218384eff1c631a - cherrypick - 2bf1ee305cf5ea6468f10a2c078ca9f048741871
+---> The cherrypicked commit sha is - ed0a228c9082bd0a8ea069277218384eff1c631a
+Commit message - Merge pull request #998 from alvinsight/dev
+
+Added game.add.plugin to the definitions file
+---> The original commit sha is - 2bf1ee305cf5ea6468f10a2c078ca9f048741871
+Commit message - Added game.add.plugin to the definitions file
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 42 is -> 
+{ 74679922d167ab646ede67f1ba5025fbd69ed7a6 -> ded5eac8c78c09d762d11a02411e3c21dc460b07 } is a cherrypick
+{ e0dce4902418810c40f02ead67e3237f07b5ddac -> 0d3b80176832ca2d60b9837ac90cfb0453726e95 }
+Cherrypick commits SHA are -> 
+ded5eac8c78c09d762d11a02411e3c21dc460b07 - cherrypick - 0d3b80176832ca2d60b9837ac90cfb0453726e95
+---> The cherrypicked commit sha is - ded5eac8c78c09d762d11a02411e3c21dc460b07
+Commit message - Updated build files with patched Pixi UMD statement.
+---> The original commit sha is - 0d3b80176832ca2d60b9837ac90cfb0453726e95
+Commit message - Updated build files with patched Pixi UMD statement.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 43 is -> 
+{ 8c486f5c1811cc1536437c1499ec60c762296652 -> 74679922d167ab646ede67f1ba5025fbd69ed7a6 } is a cherrypick
+{ 8a1c1db8d999be0ea9622b2789b3e58cebc782fc -> e0dce4902418810c40f02ead67e3237f07b5ddac }
+Cherrypick commits SHA are -> 
+74679922d167ab646ede67f1ba5025fbd69ed7a6 - cherrypick - e0dce4902418810c40f02ead67e3237f07b5ddac
+---> The cherrypicked commit sha is - 74679922d167ab646ede67f1ba5025fbd69ed7a6
+Commit message - Debug.preUpdate was still being called in the Game Loop even if enableDebug was set to false (thanks @qdrj, #995)
+---> The original commit sha is - e0dce4902418810c40f02ead67e3237f07b5ddac
+Commit message - Debug.preUpdate was still being called in the Game Loop even if enableDebug was set to false (thanks @qdrj, #995)
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 44 is -> 
+{ 810b397a4662e66356b97a1900b65c794a70006d -> 4b45d488bc533a4a9b6ae726cb74447545472c1c } is a cherrypick
+{ 26fb6cb866ed9927784b9b91fcc76ae067c6a268 -> ed0a228c9082bd0a8ea069277218384eff1c631a }
+Cherrypick commits SHA are -> 
+4b45d488bc533a4a9b6ae726cb74447545472c1c - cherrypick - ed0a228c9082bd0a8ea069277218384eff1c631a
+---> The cherrypicked commit sha is - 4b45d488bc533a4a9b6ae726cb74447545472c1c
+Commit message - Added game.add.plugin to the definitions file
+---> The original commit sha is - ed0a228c9082bd0a8ea069277218384eff1c631a
+Commit message - Merge pull request #998 from alvinsight/dev
+
+Added game.add.plugin to the definitions file
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 45 is -> 
+{ 8436bfe3e1741535802cf8f5e24de17d41e18e98 -> 187387126d5c179bdd476e4ee3715f74e50d0998 } is a cherrypick
+{ e2578504e586ff7bb5b81e97452de3f74b76e36c -> e74cedf73e8cc78528e791a5a0529a38dd1bf30b }
+Cherrypick commits SHA are -> 
+187387126d5c179bdd476e4ee3715f74e50d0998 - cherrypick - e74cedf73e8cc78528e791a5a0529a38dd1bf30b
+---> The cherrypicked commit sha is - 187387126d5c179bdd476e4ee3715f74e50d0998
+Commit message - Fix checkPointerDown method
+
+checkPointerDown method was a verbatim duplication of checkPointerOver - added pointer.isDown check to passed pointer and altered wording of associated docs to make it clearer what the method is doing.
+---> The original commit sha is - e74cedf73e8cc78528e791a5a0529a38dd1bf30b
+Commit message - Merge pull request #936 from lewster32/patch-2
+
+Fix checkPointerDown method
+-----------------------------------------------------------------
+

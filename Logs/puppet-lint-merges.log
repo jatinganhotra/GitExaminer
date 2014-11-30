@@ -1,0 +1,691 @@
+# of merges = 101
+Merge commit 1 is -> 
+{ e3ddbf27ec1583cdaec5af60ef90297667f99f41 is a merge commit
+---> Commit message - Merge pull request #1 from builddoctor/master
+
+Here, have some Rake support
+-----------------------------------------------------------------
+
+Merge commit 2 is -> 
+{ 3183badd5264d6fb6d3c0bb430375fd0d1224ae9 is a merge commit
+---> Commit message - Merge branch 'lexer-monkey-patch'
+-----------------------------------------------------------------
+
+Merge commit 3 is -> 
+{ 26ed56520314af70097c052a897acb74fb3b1170 is a merge commit
+---> Commit message - Merge branch 'dashvariables' of https://github.com/jamtur01/puppet-lint into jamtur01-dashvariables
+-----------------------------------------------------------------
+
+Merge commit 4 is -> 
+{ 8aa772913965d760786d3cfecb1ebb6d0c0d4604 is a merge commit
+---> Commit message - Merge branch 'feature/pass_filenames' of https://github.com/vStone/puppet-lint into vStone-feature/pass_filenames
+-----------------------------------------------------------------
+
+Merge commit 5 is -> 
+{ b1d0c6943a21f676772a3efc6d8752fd7100f05d is a merge commit
+---> Commit message - Merge branch 'selection' of https://github.com/jamtur01/puppet-lint into jamtur01-selection
+
+Conflicts:
+	bin/puppet-lint
+	lib/puppet-lint.rb
+-----------------------------------------------------------------
+
+Merge commit 6 is -> 
+{ 7336df7e32d34897d684a779a69a703dba9392d5 is a merge commit
+---> Commit message - Merge branch 'options' of https://github.com/jamtur01/puppet-lint into jamtur01-options
+-----------------------------------------------------------------
+
+Merge commit 7 is -> 
+{ a8fafe2bef1cd2884d15391b555503cb7a30b481 is a merge commit
+---> Commit message - Merge pull request #81 from nanliu/tb/directory
+
+Add support run puppet-lint on directory.
+
+Closes #72
+-----------------------------------------------------------------
+
+Merge commit 8 is -> 
+{ 1979a6ccac49eebbea9ff502d0e1be5a21107e46 is a merge commit
+---> Commit message - Merge pull request #80 from nanliu/tb/travis
+
+Update travis support for multiple puppet version.
+-----------------------------------------------------------------
+
+Merge commit 9 is -> 
+{ 6a1ce040d5cda0c148d2ab0984fbdc99ffebb684 is a merge commit
+---> Commit message - Merge pull request #82 from nanliu/tb/variables
+
+Add additional puppet variables.
+-----------------------------------------------------------------
+
+Merge commit 10 is -> 
+{ a40113365fa76a703dccd40b287e4f0168b170e0 is a merge commit
+---> Commit message - Merge pull request #62 from vStone/feature/symbolic_filemodes
+
+Feature/symbolic filemodes (cfr ticket #60)
+
+Closes #60
+-----------------------------------------------------------------
+
+Merge commit 11 is -> 
+{ 495b77b89347da329a4ecc40c49b69c66669f04f is a merge commit
+---> Commit message - Merge pull request #88 from garethr/patch-1
+
+Update readme to reflect the current names of the flags for disabling checks
+-----------------------------------------------------------------
+
+Merge commit 12 is -> 
+{ b07fca3654f20578de88aa98b48c0fffb8954888 is a merge commit
+---> Commit message - Merge pull request #67 from richardc/double_quoted_booleans
+
+Find booleans in double quoted strings
+-----------------------------------------------------------------
+
+Merge commit 13 is -> 
+{ 330218207250c9d8eebe144b1b5900d978c0802f is a merge commit
+---> Commit message - Merge pull request #98 from deizel/master
+
+Fix bug introduced in #81
+-----------------------------------------------------------------
+
+Merge commit 14 is -> 
+{ 7a8a08a5f64d27db5016b3ed22bbd8202885fdaf is a merge commit
+---> Commit message - Merge branch 'variable_enclosed' of https://github.com/richardc/puppet-lint into richardc-variable_enclosed
+-----------------------------------------------------------------
+
+Merge commit 15 is -> 
+{ 956288d4992d93be3d55e8a122b835d0e5c860e1 is a merge commit
+---> Commit message - Merge pull request #106 from wfarr/master
+
+Add support for ignoring certain globs in the rake task
+-----------------------------------------------------------------
+
+Merge commit 16 is -> 
+{ 9b07d7fc351582ac39743b47e0dad08d78476740 is a merge commit
+---> Commit message - Merge pull request #110 from vStone/master
+
+This fixes the build on Travis CI for ruby1.9
+-----------------------------------------------------------------
+
+Merge commit 17 is -> 
+{ 0837f0cb0e9258e04a66646651e49ac2b4f0827c is a merge commit
+---> Commit message - Merge pull request #112 from ghoneycutt/fix_README_typo
+
+fixes spelling and typo errors in README
+-----------------------------------------------------------------
+
+Merge commit 18 is -> 
+{ 50d63a6073fb90f941b9786815972a3e189dcc6c is a merge commit
+---> Commit message - Merge pull request #115 from wfarr/patch-1
+
+Make rake task respect PuppetLint.configuration.fail_on_warnings
+-----------------------------------------------------------------
+
+Merge commit 19 is -> 
+{ 0781e46bdbb43237df162b29b39f750349c8c15b is a merge commit
+---> Commit message - Merge branch 'master' into dust_bunny
+-----------------------------------------------------------------
+
+Merge commit 20 is -> 
+{ bc035a895301bf8bcf31a35ae415a492f78d397e is a merge commit
+---> Commit message - Merge branch 'dust_bunny' into issue-101
+-----------------------------------------------------------------
+
+Merge commit 21 is -> 
+{ c2caaaec7d7a6ee70c53008294045711c8762dcf is a merge commit
+---> Commit message - Merge branch 'dust_bunny' into issue-117
+-----------------------------------------------------------------
+
+Merge commit 22 is -> 
+{ fda167c1f045624814009446cff9b157922debfd is a merge commit
+---> Commit message - Merge pull request #141 from vStone/master
+
+Pass exit value to the shell
+-----------------------------------------------------------------
+
+Merge commit 23 is -> 
+{ 8341110e81a5f3d733aa024486f850e8746786a7 is a merge commit
+---> Commit message - Merge pull request #143 from ghoneycutt/fix_README_typo
+
+use .puppet-lint.rc, as .puppet-lintrc is deprecated
+-----------------------------------------------------------------
+
+Merge commit 24 is -> 
+{ 953e24d0db68cbfe77732c0bb137372dca455bc0 is a merge commit
+---> Commit message - Merge pull request #147 from vStone/feature/145_false_possitives_on_duplicate_params
+
+Fixes #145: False positive on duplicate parameter.
+-----------------------------------------------------------------
+
+Merge commit 25 is -> 
+{ 3e5729c93443485be8b06bbb3c64699efb131734 is a merge commit
+---> Commit message - Merge branch '148-inherits_within_module' of https://github.com/dcarley/puppet-lint into dcarley-148-inherits_within_module
+-----------------------------------------------------------------
+
+Merge commit 26 is -> 
+{ 836a1480c970d8d3fa1f53dd9900c73807db9bae is a merge commit
+---> Commit message - Merge pull request #151 from vStone/feature/150_class_inherits_from_params_class_exception
+
+Fixes #150 class inherits from params class exception
+-----------------------------------------------------------------
+
+Merge commit 27 is -> 
+{ ee8aa02b9c19425ccc3ed9e2334e47b24944ac4a is a merge commit
+---> Commit message - Merge branch 'backslash_crash' of https://github.com/dalen/puppet-lint into dalen-backslash_crash
+-----------------------------------------------------------------
+
+Merge commit 28 is -> 
+{ 017a34b6fd3e8336521e50d0be730f6d602ee3c7 is a merge commit
+---> Commit message - Merge pull request #155 from vStone/feature/154_string_monkeypatch
+
+fixes #154 string monkeypatch failure
+-----------------------------------------------------------------
+
+Merge commit 29 is -> 
+{ 64d9bd7fa79066f3d237053eb42897011f941b91 is a merge commit
+---> Commit message - Merge pull request #168 from levilovelock/patch-1
+
+Update README.md
+-----------------------------------------------------------------
+
+Merge commit 30 is -> 
+{ 439dc7508d176dad8582dda2965883d2a67c292f is a merge commit
+---> Commit message - Merge pull request #169 from gmjosack/master
+
+Fix where . is located in docs
+-----------------------------------------------------------------
+
+Merge commit 31 is -> 
+{ 2ed61af448e5b3930884c19009bc278829d18af7 is a merge commit
+---> Commit message - Merge branch 'master' into fix_stuff
+-----------------------------------------------------------------
+
+Merge commit 32 is -> 
+{ 56ba6b8da3e49e501a4fa7849ee05691947aa5fa is a merge commit
+---> Commit message - Merge pull request #186 from ghoneycutt/master
+
+explains in README that puppet-lint is not for checking syntax
+-----------------------------------------------------------------
+
+Merge commit 33 is -> 
+{ 9b5629355d7abc6cc138bd66a1efc9544de6314c is a merge commit
+---> Commit message - Merge pull request #207 from dalen/modulo
+
+Add Modulo token
+-----------------------------------------------------------------
+
+Merge commit 34 is -> 
+{ decbf4cbb17116df56094fac6af57b38b35c2da5 is a merge commit
+---> Commit message - Merge pull request #175 from vStone/feature/symlinked_module_paths_fix
+
+Use the current workdir as reference to calculate the expanded_path of a filename
+-----------------------------------------------------------------
+
+Merge commit 35 is -> 
+{ d6e290ed36f1b968d7d491630752b19a59168b41 is a merge commit
+---> Commit message - Merge pull request #176 from vStone/feature/check_autoloader_layout_fix
+
+Fix the check_classes check for certain cases.
+-----------------------------------------------------------------
+
+Merge commit 36 is -> 
+{ c9f2b6d40c5529ad645a87763a6945d6898d72c9 is a merge commit
+---> Commit message - Merge branch 'master' into fix_stuff
+-----------------------------------------------------------------
+
+Merge commit 37 is -> 
+{ 6caa032338db190088a71687ba37b113c4322857 is a merge commit
+---> Commit message - Merge branch 'fix_stuff' into fix-181
+-----------------------------------------------------------------
+
+Merge commit 38 is -> 
+{ ec984f527551a6f929ec668f4209b1e91c2daa5c is a merge commit
+---> Commit message - Merge pull request #212 from rodjek/fix-181
+
+Handle variables with array & hash references
+-----------------------------------------------------------------
+
+Merge commit 39 is -> 
+{ c5a7b19458ba7c1f5c7103f56ec40f1517f08050 is a merge commit
+---> Commit message - Merge pull request #180 from Seldaek/failing_test
+
+Lone dollar sign should not be removed
+-----------------------------------------------------------------
+
+Merge commit 40 is -> 
+{ 5efd8e891701d5c008873ab3b559b40be29d2649 is a merge commit
+---> Commit message - Merge pull request #199 from rodjek/issue-199
+
+Don't warn about 'mode' format when it's an 'audit' value
+-----------------------------------------------------------------
+
+Merge commit 41 is -> 
+{ fcfb154ee12bbcfede06c66b765d29e947bb860c is a merge commit
+---> Commit message - Merge pull request #177 from rodjek/issue-177
+
+Warn about unquoted node names
+-----------------------------------------------------------------
+
+Merge commit 42 is -> 
+{ 72a384d93f34cf8604a1605ce23e0b194cf9e1f1 is a merge commit
+---> Commit message - Merge pull request #205 from rodjek/issue-205
+
+incorrect top-scope variable warning for define
+-----------------------------------------------------------------
+
+Merge commit 43 is -> 
+{ c854d53175bd9a66654c5362ff887ffe3ad33f20 is a merge commit
+---> Commit message - Merge pull request #194 from rodjek/issue-194
+
+Doesn't recognize paramater containing default value if value is double quoted.
+-----------------------------------------------------------------
+
+Merge commit 44 is -> 
+{ 8721be8bec67a848b75b6245c830940f36ca9431 is a merge commit
+---> Commit message - Merge pull request #167 from rodjek/issue-167
+
+Invalid warning about mandatory class parameters without defaults
+-----------------------------------------------------------------
+
+Merge commit 45 is -> 
+{ 89fefd45d1867d49a50dba38719f3333e0eb3e46 is a merge commit
+---> Commit message - Merge pull request #166 from rodjek/issue-166
+
+Add check for puppet:/// URIs without modules/
+-----------------------------------------------------------------
+
+Merge commit 46 is -> 
+{ 9f165b6e949e09fffce5cc803920a8f4608557c6 is a merge commit
+---> Commit message - Merge branch 'fix_stuff'
+-----------------------------------------------------------------
+
+Merge commit 47 is -> 
+{ 0dcd36c36ee58b66ffec4d151319c6dfbe1498c6 is a merge commit
+---> Commit message - Merge pull request #183 from rodjek/issue-183
+
+Puppet-lint fails to handle mac line endings
+-----------------------------------------------------------------
+
+Merge commit 48 is -> 
+{ 711dd6933e31931ee9741585f4666b7fe877e368 is a merge commit
+---> Commit message - Merge pull request #184 from rodjek/issue-184
+
+Running with --fix deletes all code for files containing invalid syntax
+-----------------------------------------------------------------
+
+Merge commit 49 is -> 
+{ 79b55809b6a801fa352eee4779202b38d607442e is a merge commit
+---> Commit message - Merge pull request #221 from bdd/patch-1
+
+Add %{column} to help text of --log-format
+-----------------------------------------------------------------
+
+Merge commit 50 is -> 
+{ a9dde39ab4147966d2702e844874d834c75c9282 is a merge commit
+---> Commit message - Merge pull request #217 from rodjek/issue-217
+
+Bad hash indenting with --fix where members declared on a single line
+-----------------------------------------------------------------
+
+Merge commit 51 is -> 
+{ bd0ce1aedab7f5f0b5451d3c271d8cf8a0f6c1d0 is a merge commit
+---> Commit message - Merge pull request #203 from rodjek/issue-203
+
+--fix doesn't modify my file
+-----------------------------------------------------------------
+
+Merge commit 52 is -> 
+{ c9ae57633b26365479495a4aa1ac276372107ba0 is a merge commit
+---> Commit message - Merge pull request #226 from rodjek/fix_refactor
+
+Refactor check plugins to have slightly less awful magic
+-----------------------------------------------------------------
+
+Merge commit 53 is -> 
+{ 1b5e981db5dac39e56bebc67f4be3cf75527bf1b is a merge commit
+---> Commit message - Merge pull request #238 from rodjek/rejig_tests
+
+Rejig tests
+-----------------------------------------------------------------
+
+Merge commit 54 is -> 
+{ effd70e51fb2191d3adc7f75473678882fb86823 is a merge commit
+---> Commit message - Merge pull request #228 from rodjek/only_run_certain_checks
+
+Allow specifying a list of checks that should run
+-----------------------------------------------------------------
+
+Merge commit 55 is -> 
+{ e1657c73f52f71ad01b953ba0ce578d9281bfc67 is a merge commit
+---> Commit message - Merge branch 'master' into move_output_out_of_lib
+
+Conflicts:
+	lib/puppet-lint/checkplugin.rb
+	spec/puppet-lint/plugins/check_classes/autoloader_layout_spec.rb
+	spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Merge commit 56 is -> 
+{ 233a72b9cd35899d9e0601e70b10d94d9fbbcffc is a merge commit
+---> Commit message - Merge pull request #227 from rodjek/move_output_out_of_lib
+
+Split checking and reporting logic
+-----------------------------------------------------------------
+
+Merge commit 57 is -> 
+{ aee2a4aff9e11209f7e19d2b71947c54b14791b4 is a merge commit
+---> Commit message - Merge branch 'master' of https://github.com/xarses/puppet-lint into xarses-master
+
+Conflicts:
+	spec/puppet-lint/plugins/check_strings/double_quoted_strings_spec.rb
+-----------------------------------------------------------------
+
+Merge commit 58 is -> 
+{ d6791f892c4fe4fd656622dbe76c64e8e1f5ba2d is a merge commit
+---> Commit message - Merge pull request #239 from rodjek/support_pipe_char
+
+Support pipe char (used in the "future" parser)
+-----------------------------------------------------------------
+
+Merge commit 59 is -> 
+{ 53058a2265c94b1b1219d08e72a28a5def178854 is a merge commit
+---> Commit message - Merge pull request #240 from rodjek/rake_puppetlintrc
+
+Have the rake task read options from .puppet-lint.rc
+-----------------------------------------------------------------
+
+Merge commit 60 is -> 
+{ 4af95039e6d5319885867dc8c39e7275c93d1c38 is a merge commit
+---> Commit message - Merge pull request #241 from rodjek/ignore_80chars_on_templates
+
+Ignore 80chars on lines that have long template() paths
+-----------------------------------------------------------------
+
+Merge commit 61 is -> 
+{ 066e51b57528a5b63fae0a6a9e197db24eb8bd54 is a merge commit
+---> Commit message - Merge pull request #243 from rodjek/refactor_out_linenumber
+
+Refactor out linenumber in problems
+-----------------------------------------------------------------
+
+Merge commit 62 is -> 
+{ 15edf04bf1b3eab8f26baa33c0b1470ab72cf1ee is a merge commit
+---> Commit message - Merge branch 'master' into refactor_data
+
+Conflicts:
+	lib/puppet-lint/plugins/check_classes.rb
+-----------------------------------------------------------------
+
+Merge commit 63 is -> 
+{ 3b42f9b0a86757a917b8bbeb0553a355c13c104b is a merge commit
+---> Commit message - Merge pull request #244 from rodjek/refactor_data
+
+DRY up the checks
+-----------------------------------------------------------------
+
+Merge commit 64 is -> 
+{ b487c943e4b7c14899bcbecd6ecad50bbf77d81e is a merge commit
+---> Commit message - Merge pull request #252 from ryanuber/relative_option
+
+Add --relative command line argument for autoload structure testing
+-----------------------------------------------------------------
+
+Merge commit 65 is -> 
+{ 5392d6cc0dc36d35051e57c5344382f6cb761d7e is a merge commit
+---> Commit message - Merge pull request #255 from rodjek/abort_rake
+
+Abort rake on lint error
+-----------------------------------------------------------------
+
+Merge commit 66 is -> 
+{ 3d4aeb778e751b94d08b6607f13424e32d9c2419 is a merge commit
+---> Commit message - Merge pull request #266 from rodjek/control_comments
+
+Initial spike of control comment logic
+-----------------------------------------------------------------
+
+Merge commit 67 is -> 
+{ c21afdc8dbe2fc2617c9d52019adae840ac80b3d is a merge commit
+---> Commit message - Merge pull request #273 from rodjek/add_fix_to_optparse
+
+Add --fix back to optionparser
+-----------------------------------------------------------------
+
+Merge commit 68 is -> 
+{ 1d5c937a19dd0369890e9c27a051a32ab209c524 is a merge commit
+---> Commit message - Merge pull request #274 from rodjek/write_file_properly
+
+Use #write instead of #puts when writing fixed manifest
+-----------------------------------------------------------------
+
+Merge commit 69 is -> 
+{ 93abbefd96ff6f5d3f364451757b25c46a7f0fff is a merge commit
+---> Commit message - Merge pull request #275 from rodjek/dont_pad_comments
+
+Don't automatically pad comment content with whitespace
+-----------------------------------------------------------------
+
+Merge commit 70 is -> 
+{ 99101e64859516138592685959e56ce97718e012 is a merge commit
+---> Commit message - Merge pull request #276 from rodjek/handle_array_refs
+
+Make array refs part of the variable name
+-----------------------------------------------------------------
+
+Merge commit 71 is -> 
+{ c0c0e823d4c86ef5a1f930b933f6668a64a3d654 is a merge commit
+---> Commit message - Merge pull request #278 from rodjek/array_ref_variables
+
+Array ref variables
+-----------------------------------------------------------------
+
+Merge commit 72 is -> 
+{ 638fc506d507c80ab61c0f7b48f906ea967dbf65 is a merge commit
+---> Commit message - Merge pull request #279 from rodjek/compressed_arrow_alignment
+
+Compressed arrow_alignment
+-----------------------------------------------------------------
+
+Merge commit 73 is -> 
+{ 076e143889b3e57d513997e9f5b854ec3b899165 is a merge commit
+---> Commit message - Merge pull request #280 from rodjek/variable_string_hash_keys
+
+Allow strings containing only a variable if they're used as hash keys
+-----------------------------------------------------------------
+
+Merge commit 74 is -> 
+{ c3ff8ec7b2ea799589110e4dfe69305ff92aa8ef is a merge commit
+---> Commit message - Merge pull request #284 from rodjek/fix_ensure_not_symlink_target
+
+Automatically fix ensure_not_symlink_target problems
+-----------------------------------------------------------------
+
+Merge commit 75 is -> 
+{ 456f89b504bddbf491fe17220f7aaa418a5cd22d is a merge commit
+---> Commit message - Merge pull request #285 from rodjek/rspec3
+
+Move to rspec3
+-----------------------------------------------------------------
+
+Merge commit 76 is -> 
+{ 234ce9987a450b9a4468ab040a47f8fd71d2eeae is a merge commit
+---> Commit message - Merge pull request #286 from rodjek/fix_multiline_comments
+
+Automatically convert multiline comments into many single line comments
+-----------------------------------------------------------------
+
+Merge commit 77 is -> 
+{ ca9da74eb6def967d7df3284329f7acecb3186dc is a merge commit
+---> Commit message - Merge pull request #287 from rodjek/with_filename_multiple_files
+
+Enable --with-filename by default if checking multiple files
+-----------------------------------------------------------------
+
+Merge commit 78 is -> 
+{ 62594d9986f9ea98321209235a9c904b267a07dc is a merge commit
+---> Commit message - Merge pull request #292 from rodjek/fix_problems_last
+
+Fix problems after all checks have finished
+-----------------------------------------------------------------
+
+Merge commit 79 is -> 
+{ 8f7bbafda9cebbcf1a0ba1ee3275f15569426847 is a merge commit
+---> Commit message - Merge pull request #277 from rrrene/patch-1
+
+Add docs badge to README
+-----------------------------------------------------------------
+
+Merge commit 80 is -> 
+{ efb66a9b3a918273b3f908ad593c21c987cdca0b is a merge commit
+---> Commit message - Merge pull request #293 from rodjek/future_parser_variable_scopes
+
+Support future parser loop local scope variables
+-----------------------------------------------------------------
+
+Merge commit 81 is -> 
+{ 1f38e4ae16dd5620c2ab1b547ae9d50f7f9d90ff is a merge commit
+---> Commit message - Merge pull request #294 from rodjek/gemspec_deps
+
+Move dependency info into gemspec
+-----------------------------------------------------------------
+
+Merge commit 82 is -> 
+{ 7844ad2894e392325329f9011c1736b0338ed3b0 is a merge commit
+---> Commit message - Merge pull request #295 from rodjek/issue-263
+
+Allow single quoted strings in double quoted strings
+-----------------------------------------------------------------
+
+Merge commit 83 is -> 
+{ 486cd05224064eb58f5c8c3acc4ed3a61337a0e2 is a merge commit
+---> Commit message - Merge pull request #296 from rodjek/safe_tokens_in_check
+
+Ensure check methods can't modify tokens array
+-----------------------------------------------------------------
+
+Merge commit 84 is -> 
+{ 5d9f54a5c14941c1a1fdb44e5fed04f805215dc1 is a merge commit
+---> Commit message - Merge pull request #297 from rodjek/option_parser_config_option
+
+Add option to load config from specified file
+-----------------------------------------------------------------
+
+Merge commit 85 is -> 
+{ d475593bcf09e443b3ed1d0fa076a05b2b7c535c is a merge commit
+---> Commit message - Merge pull request #298 from rodjek/docs
+
+Update code documentation
+-----------------------------------------------------------------
+
+Merge commit 86 is -> 
+{ c761a3e7f245ce13260aa0e5bff7861d16634948 is a merge commit
+---> Commit message - Merge pull request #302 from rodjek/issue-301
+
+Handle empty blocks in arrow_alignment
+-----------------------------------------------------------------
+
+Merge commit 87 is -> 
+{ c59625e85ba83fc9dc5b6ef6eb3e3da4e33d160b is a merge commit
+---> Commit message - Merge pull request #303 from dcarley/291-var_scope_array_hash_test
+
+[Fixes #291] Ignore index braces for scope variables
+-----------------------------------------------------------------
+
+Merge commit 88 is -> 
+{ 1c9818267a653c66a15b54a47d3898905a97d252 is a merge commit
+---> Commit message - Merge pull request #317 from rodjek/issue-315
+
+Cache parsing state in Lexer rather than recalculating
+-----------------------------------------------------------------
+
+Merge commit 89 is -> 
+{ 61d4b8e763f8fdbaca91bfe368e44bc798956feb is a merge commit
+---> Commit message - Merge pull request #318 from rodjek/issue-311
+
+Insert :WHITESPACE token between :NAME and :FARROW if needed
+-----------------------------------------------------------------
+
+Merge commit 90 is -> 
+{ d84c3b72e47dee17b64a73a2c6ba69e2df288dd1 is a merge commit
+---> Commit message - Merge pull request #321 from rodjek/issue-310
+
+Support of metaparameter variables in variable_scope check
+-----------------------------------------------------------------
+
+Merge commit 91 is -> 
+{ d6bf89972a4a712db4a294eb8b6a3c38800b3abb is a merge commit
+---> Commit message - Merge pull request #320 from domcleal/319-param-body
+
+Don't parse class body when searching for parameter tokens
+-----------------------------------------------------------------
+
+Merge commit 92 is -> 
+{ 93153dc9369c919a80996af1e6c683179651212d is a merge commit
+---> Commit message - Merge pull request #322 from rodjek/issue-312
+
+Handle multiple parameters on a line when fixing arrow_alignment problems
+-----------------------------------------------------------------
+
+Merge commit 93 is -> 
+{ fe3a7aeb1acc83af349af0722452392cdcd84568 is a merge commit
+---> Commit message - Merge pull request #324 from rodjek/issue-323
+
+Support for multiple node names in unquoted_node_name
+-----------------------------------------------------------------
+
+Merge commit 94 is -> 
+{ 3aa4d6d9fa09d5acda9650fb920ff0609e50c176 is a merge commit
+---> Commit message - Merge pull request #325 from rodjek/issue-314
+
+Support multiple commands in a single control comment
+-----------------------------------------------------------------
+
+Merge commit 95 is -> 
+{ c08bf752c7a939b0f8b5a1fc43696f518bf264d8 is a merge commit
+---> Commit message - Merge pull request #326 from rodjek/issue-305
+
+Extend the rake task to support setting configuration options in the block
+-----------------------------------------------------------------
+
+Merge commit 96 is -> 
+{ 96d9972cbeaa2799d911834cd1a736cf81b1b036 is a merge commit
+---> Commit message - Merge pull request #342 from rodjek/issue-337
+
+Catch Errno::EACCES when reading a puppet-lint.rc out of HOME
+-----------------------------------------------------------------
+
+Merge commit 97 is -> 
+{ 5105a42d9b64575fefd3c4a7f5a40dbc9fd8cc68 is a merge commit
+---> Commit message - Merge pull request #332 from duritong/fix_rake_config
+
+fix #331 - clear any pre-(auto-)existing tasks
+-----------------------------------------------------------------
+
+Merge commit 98 is -> 
+{ e6e0d4fd1ab0fb6415e5ade0958210ad944b0087 is a merge commit
+---> Commit message - Merge pull request #334 from fatmcgav/fix-relative-1.1.0
+
+Add support for '--relative' option in new Rake::Task format.
+-----------------------------------------------------------------
+
+Merge commit 99 is -> 
+{ 6c3bed31f33f793fc441e648fdbfbd330e5946b0 is a merge commit
+---> Commit message - Merge pull request #345 from rodjek/issue-343
+
+Fix bug in unquoted_node_name to support multiple node blocks
+-----------------------------------------------------------------
+
+Merge commit 100 is -> 
+{ 424b18ff341e46cd6c792d5dc7f618d147d026f5 is a merge commit
+---> Commit message - Merge pull request #346 from rodjek/issue-344
+
+Handle case where a colon is the last token in a file
+-----------------------------------------------------------------
+
+Merge commit 101 is -> 
+{ 5a8c4524115485a1f922fa4b9f14257d9be6b7cc is a merge commit
+---> Commit message - Merge pull request #349 from rodjek/issue-347
+
+Don't attempt to fix ignored problems
+-----------------------------------------------------------------
+

@@ -1,0 +1,165 @@
+# of cherry-picks = 11
+Cherry-pick diff pair 1 is -> 
+{ 40ce949a569e34a421234f9c2dbd7f30b7095f47 -> dccfb3c4a13d30330a54290a9c538a2696bba654 } is a cherrypick
+{ 6b84b35ec047d87ec81d9916443756964ce24fcb -> 9e8a11e57cc8923e3edb6cf28875f84914ae0985 }
+Cherrypick commits SHA are -> 
+dccfb3c4a13d30330a54290a9c538a2696bba654 - cherrypick - 9e8a11e57cc8923e3edb6cf28875f84914ae0985
+---> The cherrypicked commit sha is - dccfb3c4a13d30330a54290a9c538a2696bba654
+Commit message - Update ShellCheck.cabal
+
+Fixed License.
+---> The original commit sha is - 9e8a11e57cc8923e3edb6cf28875f84914ae0985
+Commit message - Merge branch 'master' of github.com:koalaman/shellcheck
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ 0a263579e0ec2990254f3710828c85d5c533a0ce -> 423ca82296f0b5149995d4f996784e8f4be0e7db } is a cherrypick
+{ 2c1e414ac595d65560de1db3f4260d453b69f495 -> 5f568dd207ffb4d963d04fb809b9947dabe7e101 }
+Cherrypick commits SHA are -> 
+423ca82296f0b5149995d4f996784e8f4be0e7db - cherrypick - 5f568dd207ffb4d963d04fb809b9947dabe7e101
+---> The cherrypicked commit sha is - 423ca82296f0b5149995d4f996784e8f4be0e7db
+Commit message - Add pandoc to needed dependencies
+
+The pandoc command is needed when compiling with make to run the tests
+---> The original commit sha is - 5f568dd207ffb4d963d04fb809b9947dabe7e101
+Commit message - Merge branch 'master' of github.com:koalaman/shellcheck
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ f01e6e1a99727fd71fba5e9f4614124ba5254910 -> ad08bb64aa4f7d41915116b6c709c07ba28a041d } is a cherrypick
+{ a00a6fb53bbb28f578444ba2e3d7d847252a1598 -> 8bd4365cdb77c408bb7e44cc3892ba1b93307bb8 }
+Cherrypick commits SHA are -> 
+ad08bb64aa4f7d41915116b6c709c07ba28a041d - cherrypick - 8bd4365cdb77c408bb7e44cc3892ba1b93307bb8
+---> The cherrypicked commit sha is - ad08bb64aa4f7d41915116b6c709c07ba28a041d
+Commit message - Add cabal update to install instructions
+
+Before I ran `cabal update` I got this on `cabal install`
+
+```
+Config file path source is default config file.
+Config file ~/.cabal/config not found.
+Writing default configuration to ~/.cabal/config
+Warning: The package list for 'hackage.haskell.org' does not exist. Run 'cabal
+update' to download it.
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+trying: ShellCheck-0.3.2
+```
+---> The original commit sha is - 8bd4365cdb77c408bb7e44cc3892ba1b93307bb8
+Commit message - Merge pull request #122 from guywithnose/master
+
+Add cabal update to install instructions
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ 67f4a0d6eb842829a832580a3b7110f1d6221b67 -> def4551991476d14d9d2e49f4142391e9e61fe87 } is a cherrypick
+{ 2a9c9ae0ad081c8ef8dd0a23bf0609c0de1ee570 -> 503cac3bb363e66998dc985df5a4e210360fc5ce }
+Cherrypick commits SHA are -> 
+def4551991476d14d9d2e49f4142391e9e61fe87 - cherrypick - 503cac3bb363e66998dc985df5a4e210360fc5ce
+---> The cherrypicked commit sha is - def4551991476d14d9d2e49f4142391e9e61fe87
+Commit message - Merge pull request #117 from mcandre/master
+
+readme: markdown for link rendering
+---> The original commit sha is - 503cac3bb363e66998dc985df5a4e210360fc5ce
+Commit message - Merge branch 'master' of github.com:koalaman/shellcheck
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ d07294810b2485e292a2aa8dd0575661418a08d9 -> 00d9ef12e7d4f37a34eba98076e2589ab1dc73f8 } is a cherrypick
+{ 632c1614a1fbb5c2a6ff868f7dbcd04d22710aaa -> 1b806f6c9f9f116913d54b80aab53b7ef3c15938 }
+Cherrypick commits SHA are -> 
+00d9ef12e7d4f37a34eba98076e2589ab1dc73f8 - cherrypick - 1b806f6c9f9f116913d54b80aab53b7ef3c15938
+---> The cherrypicked commit sha is - 00d9ef12e7d4f37a34eba98076e2589ab1dc73f8
+Commit message - Merge pull request #105 from Dridi/dynamic_link
+
+Dynamic linking to libShellCheck
+---> The original commit sha is - 1b806f6c9f9f116913d54b80aab53b7ef3c15938
+Commit message - Merge branch 'master' of github.com:koalaman/shellcheck
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ 4262c4b1bfb28835fc1bf3c2aa2dd9159b827cfe -> 86765172709e53e172c54d63b8d18ee433d9ba85 } is a cherrypick
+{ 82328cd86e4f2dd748c50b275d3d3abd87ec4e5c -> 0ec62390d57480a449afb7d450054a28de63fc8a }
+Cherrypick commits SHA are -> 
+86765172709e53e172c54d63b8d18ee433d9ba85 - cherrypick - 0ec62390d57480a449afb7d450054a28de63fc8a
+---> The cherrypicked commit sha is - 86765172709e53e172c54d63b8d18ee433d9ba85
+Commit message - Macports install info thanks to @myint
+
+Capital P on MacPorts
+---> The original commit sha is - 0ec62390d57480a449afb7d450054a28de63fc8a
+Commit message - Merge branch 'master' of github.com:koalaman/shellcheck
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ d1990e3396dcad6ea867cc353f22fdd5be706e23 -> 8c00850134e10cab953828e881b2044715b68564 } is a cherrypick
+{ 78d9a7ad97d29cda25fbbb8ffbc042771182aff5 -> b936f287632c87f18a92189e4a4ee8d89fe2ecf9 }
+Cherrypick commits SHA are -> 
+8c00850134e10cab953828e881b2044715b68564 - cherrypick - b936f287632c87f18a92189e4a4ee8d89fe2ecf9
+---> The cherrypicked commit sha is - 8c00850134e10cab953828e881b2044715b68564
+Commit message - Minor performance tweaks (~10% improvement)
+---> The original commit sha is - b936f287632c87f18a92189e4a4ee8d89fe2ecf9
+Commit message - Merge branch 'manpage'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ b9f7f82e2966e1569c7ace1574b5be02a0e970aa -> d6b903e6cc007a76a3ecdf124fa1df4203a97dbe } is a cherrypick
+{ 83c3dd341861ac2d3d925e6b83011cd0b67eb0be -> b75fe02aac5afba14214e6645081ea149464d682 }
+Cherrypick commits SHA are -> 
+d6b903e6cc007a76a3ecdf124fa1df4203a97dbe - cherrypick - b75fe02aac5afba14214e6645081ea149464d682
+---> The cherrypicked commit sha is - d6b903e6cc007a76a3ecdf124fa1df4203a97dbe
+Commit message - gitignore and makefile for building with cabal and make
+
+makefile should also delete cabal generated files on cleanup so
+they could be used interchangably.
+
+ensure that all generated files are ignored as recommended by
+bese practices.
+---> The original commit sha is - b75fe02aac5afba14214e6645081ea149464d682
+Commit message - Merge branch 'master' of github.com:koalaman/shellcheck
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ 8d265aa25e13b592ba4d08113286964bb2e8bae2 -> 020850dbbb72f96f4ff4c0100fec867ae03c564c } is a cherrypick
+{ 83c3dd341861ac2d3d925e6b83011cd0b67eb0be -> b75fe02aac5afba14214e6645081ea149464d682 }
+Cherrypick commits SHA are -> 
+020850dbbb72f96f4ff4c0100fec867ae03c564c - cherrypick - b75fe02aac5afba14214e6645081ea149464d682
+---> The cherrypicked commit sha is - 020850dbbb72f96f4ff4c0100fec867ae03c564c
+Commit message - Merge pull request #16 from carenas/master
+
+gitignore and makefile for building with cabal and make
+---> The original commit sha is - b75fe02aac5afba14214e6645081ea149464d682
+Commit message - Merge branch 'master' of github.com:koalaman/shellcheck
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ b9f7f82e2966e1569c7ace1574b5be02a0e970aa -> d6b903e6cc007a76a3ecdf124fa1df4203a97dbe } is a cherrypick
+{ 8d265aa25e13b592ba4d08113286964bb2e8bae2 -> 020850dbbb72f96f4ff4c0100fec867ae03c564c }
+Cherrypick commits SHA are -> 
+d6b903e6cc007a76a3ecdf124fa1df4203a97dbe - cherrypick - 020850dbbb72f96f4ff4c0100fec867ae03c564c
+---> The cherrypicked commit sha is - d6b903e6cc007a76a3ecdf124fa1df4203a97dbe
+Commit message - gitignore and makefile for building with cabal and make
+
+makefile should also delete cabal generated files on cleanup so
+they could be used interchangably.
+
+ensure that all generated files are ignored as recommended by
+bese practices.
+---> The original commit sha is - 020850dbbb72f96f4ff4c0100fec867ae03c564c
+Commit message - Merge pull request #16 from carenas/master
+
+gitignore and makefile for building with cabal and make
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ b1af7bb8f2393b7d8f972bfc1556f983ff9b7f96 -> 389c7b670c42d8b48649e8dd97579c43cb508a86 } is a cherrypick
+{ 206900fb6470f81b704fec0f115432610c21e019 -> a0a58d432adb654e4a660617d135421d81778796 }
+Cherrypick commits SHA are -> 
+389c7b670c42d8b48649e8dd97579c43cb508a86 - cherrypick - a0a58d432adb654e4a660617d135421d81778796
+---> The cherrypicked commit sha is - 389c7b670c42d8b48649e8dd97579c43cb508a86
+Commit message - README: clarify build step
+
+Help those unfamiliar with cabal to install shellcheck.
+---> The original commit sha is - a0a58d432adb654e4a660617d135421d81778796
+Commit message - Merge branch 'master' of github.com:koalaman/shellcheck
+-----------------------------------------------------------------
+

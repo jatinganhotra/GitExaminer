@@ -1,0 +1,297 @@
+# of partial reverts = 21
+Partial Revert diff pair 1 is -> 
+{ a32f81c32309b81b3df42bc2532e95c968a88d42 -> 6af7099757ff576508e97399354298a356190609 } is a revert
+{ 96c93dca343209111522660b317480c70c5101a7 -> d5981719bdf4cce52a711d70157ad4f8b3e8e066 }
+Partial Revert commits SHA are -> 
+6af7099757ff576508e97399354298a356190609 - revert - d5981719bdf4cce52a711d70157ad4f8b3e8e066
+---> The reverted commit sha is - 6af7099757ff576508e97399354298a356190609
+Commit message - Add an HLint3 prototype API
+---> The original commit sha is - d5981719bdf4cce52a711d70157ad4f8b3e8e066
+Commit message - Merge pull request #101 from hamishmack/master
+
+Add autoSettings' to allow a dataDir to be passed
+---> The files with partial_reverts are:-
+src/Language/Haskell/HLint2.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 3e3c237e209303ca5b9c7ed34fcad9cbe4be8ba9 -> 0da6c35cee9411ff973d0e0fee3dc93405728048 } is a revert
+{ bc7ecceaed25f6e76833ee9aa9e8bdaf8b8cbf49 -> 695c6177a9f0c0719b7f006d5b6bf9d8727cf268 }
+Partial Revert commits SHA are -> 
+0da6c35cee9411ff973d0e0fee3dc93405728048 - revert - 695c6177a9f0c0719b7f006d5b6bf9d8727cf268
+---> The reverted commit sha is - 0da6c35cee9411ff973d0e0fee3dc93405728048
+Commit message - Added source spans as keys in json instead of array.
+---> The original commit sha is - 695c6177a9f0c0719b7f006d5b6bf9d8727cf268
+Commit message - Merge pull request #64 from carymrobbins/add-json
+
+Added source spans as keys in json instead of array.
+---> The files with partial_reverts are:-
+CHANGES.txt
+src/Apply.hs
+src/Grep.hs
+src/HLint.hs
+src/Hint/Duplicate.hs
+src/Hint/Type.hs
+src/Main.hs
+src/Report.hs
+src/Settings.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 6f3d8ec9df89c555134187719cb3e357e271879f -> 122c23fae85d3795d544e0af1b86ca0f4b579269 } is a revert
+{ c73b69734b560f10ab19645e82a0c1f3fd95ebc6 -> cc9ebf7257761de68cf0cb5cc254a952fc7ff0f2 }
+Partial Revert commits SHA are -> 
+122c23fae85d3795d544e0af1b86ca0f4b579269 - revert - cc9ebf7257761de68cf0cb5cc254a952fc7ff0f2
+---> The reverted commit sha is - 122c23fae85d3795d544e0af1b86ca0f4b579269
+Commit message - #10, add a suggestion about using unlines
+---> The original commit sha is - cc9ebf7257761de68cf0cb5cc254a952fc7ff0f2
+Commit message - Remove incorrect intercalate hint, spotted by QuickCheck
+---> The files with partial_reverts are:-
+data/Default.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ a3fe6ab470f01fa50afb961720e3b285100064ce -> 4d57a18404ac3d2fe3c4fc50d25a1786ad44cca0 } is a revert
+{ c7977cee4ab4aef742b16c66d4a92f0c2b1e68e4 -> 323f37bb7c8cddd86e994402c46b81fb4bb5b708 }
+Partial Revert commits SHA are -> 
+4d57a18404ac3d2fe3c4fc50d25a1786ad44cca0 - revert - 323f37bb7c8cddd86e994402c46b81fb4bb5b708
+---> The reverted commit sha is - 4d57a18404ac3d2fe3c4fc50d25a1786ad44cca0
+Commit message - Move the cross test into a new test pack
+---> The original commit sha is - 323f37bb7c8cddd86e994402c46b81fb4bb5b708
+Commit message - Merge branch 'master' of https://github.com/ndmitchell/hlint
+---> The files with partial_reverts are:-
+hlint.cabal
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ 10212c3f342295d4cd2550db931420fc83b9d6ce -> 2c5f0c4b8dd8c519d7d7605c1a43d5becbf8f5bc } is a revert
+{ 67431beea815fcb9ca55b6af9517f36ee4f5e962 -> 72cdce92bb951bc59832ee2429c1c2a5890a9262 }
+Partial Revert commits SHA are -> 
+2c5f0c4b8dd8c519d7d7605c1a43d5becbf8f5bc - revert - 72cdce92bb951bc59832ee2429c1c2a5890a9262
+---> The reverted commit sha is - 2c5f0c4b8dd8c519d7d7605c1a43d5becbf8f5bc
+Commit message - add testcase for newtype deriving
+---> The original commit sha is - 72cdce92bb951bc59832ee2429c1c2a5890a9262
+Commit message - Merge branch 'master' of https://github.com/ndmitchell/hlint
+---> The files with partial_reverts are:-
+CHANGES.txt
+hlint.cabal
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ 784526ef4e73b27909794773e16d64a3a4d15e8c -> 57500bcfd25a9e4d5b827c2816c46bf7e496829a } is a revert
+{ f8aa0e6875853b5e33abf86c70cc170c10257a54 -> 7577e4b650b9ddbde10cd17fa4dfe4fc7be274a9 }
+Partial Revert commits SHA are -> 
+57500bcfd25a9e4d5b827c2816c46bf7e496829a - revert - 7577e4b650b9ddbde10cd17fa4dfe4fc7be274a9
+---> The reverted commit sha is - 57500bcfd25a9e4d5b827c2816c46bf7e496829a
+Commit message - Remove 3 redundant language extensions, spotted by HLint
+---> The original commit sha is - 7577e4b650b9ddbde10cd17fa4dfe4fc7be274a9
+Commit message - Add back extension, missed due to CPP
+---> The files with partial_reverts are:-
+src/Util.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ bb73cea71db0feabf0cbfa9a35c3e3bf61f3b02c -> c1810293de21ceeb456329b5ad88eda02bcd75e0 } is a revert
+{ f8aa0e6875853b5e33abf86c70cc170c10257a54 -> 7577e4b650b9ddbde10cd17fa4dfe4fc7be274a9 }
+Partial Revert commits SHA are -> 
+c1810293de21ceeb456329b5ad88eda02bcd75e0 - revert - 7577e4b650b9ddbde10cd17fa4dfe4fc7be274a9
+---> The reverted commit sha is - c1810293de21ceeb456329b5ad88eda02bcd75e0
+Commit message - Fix up a few hlint warnings
+---> The original commit sha is - 7577e4b650b9ddbde10cd17fa4dfe4fc7be274a9
+Commit message - Add back extension, missed due to CPP
+---> The files with partial_reverts are:-
+src/Util.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ 1456f3a0ee8a139211fe4f971620fc0a6b1afd5c -> e12b7d00db3737889ce9fb46a01bb3fb16ebdac0 } is a revert
+{ 5c889ff4bbf69d4a3eeafb9f8272a239c136cfe6 -> 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5 }
+Partial Revert commits SHA are -> 
+e12b7d00db3737889ce9fb46a01bb3fb16ebdac0 - revert - 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5
+---> The reverted commit sha is - e12b7d00db3737889ce9fb46a01bb3fb16ebdac0
+Commit message - Fix up a few conflicts
+---> The original commit sha is - 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5
+Commit message - Remove a redundant language extension, spotted by HLint
+---> The files with partial_reverts are:-
+src/Util.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ 5f6bccaffd595d32cdb16e41ba9861e20b0fce38 -> 014f8276d50ef8872fc4a23a17daa0bb8fc1df9e } is a revert
+{ 014f8276d50ef8872fc4a23a17daa0bb8fc1df9e -> 7eff1725a1221252798a5b0880ca5e25692b6f85 }
+Partial Revert commits SHA are -> 
+014f8276d50ef8872fc4a23a17daa0bb8fc1df9e - revert - 7eff1725a1221252798a5b0880ca5e25692b6f85
+---> The reverted commit sha is - 014f8276d50ef8872fc4a23a17daa0bb8fc1df9e
+Commit message - symmetric case is tested
+
+I am not shure if this is necessary. Please check it before merging (I
+am not able to test it since I am away from home at the moment)
+---> The original commit sha is - 7eff1725a1221252798a5b0880ca5e25692b6f85
+Commit message - Merge pull request #11 from Kaligule/master
+
+symmetric case is tested
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ 562083bf5c30f14132ad377b19b64047c13fb3d3 -> f09bb00e04af29fa7e21385c7bd1aed3c540d99d } is a revert
+{ f09bb00e04af29fa7e21385c7bd1aed3c540d99d -> 3e8cfd55d9a0fc7fbf581fcb8e185110c0a29f4b }
+Partial Revert commits SHA are -> 
+f09bb00e04af29fa7e21385c7bd1aed3c540d99d - revert - 3e8cfd55d9a0fc7fbf581fcb8e185110c0a29f4b
+---> The reverted commit sha is - f09bb00e04af29fa7e21385c7bd1aed3c540d99d
+Commit message - Simplify the Apps view, following review for the Uniplate talk
+---> The original commit sha is - 3e8cfd55d9a0fc7fbf581fcb8e185110c0a29f4b
+Commit message - Merge branch 'master' of https://github.com/ndmitchell/hlint
+---> The files with partial_reverts are:-
+hlint.htm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 22e14647ce730b15ae41b872e3d600b1a6e71d2a -> f81ed39edd55ef6347d08aac547ce7e9624ec2dd } is a revert
+{ 6400194d8cb4928eb2bbceabe8e11ffa56ca339e -> f624c555222668639f49937b5858399e24c7a477 }
+Partial Revert commits SHA are -> 
+f81ed39edd55ef6347d08aac547ce7e9624ec2dd - revert - f624c555222668639f49937b5858399e24c7a477
+---> The reverted commit sha is - f81ed39edd55ef6347d08aac547ce7e9624ec2dd
+Commit message - #617, fix up to take account of template haskell variables
+---> The original commit sha is - f624c555222668639f49937b5858399e24c7a477
+Commit message - Put notIn back to how it used to be, since I am no longer using it, and the Var special case is no longer relevant
+---> The files with partial_reverts are:-
+src/Hint/Match.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ 63b80739d6366d42ac68bc0dc84ba56891f5d8ab -> ae00a6b1802e4ca716f7e6da76c560deea647a69 } is a revert
+{ ae00a6b1802e4ca716f7e6da76c560deea647a69 -> 8a4b4e3083453beeccc33e35cfa34b57c796acf7 }
+Partial Revert commits SHA are -> 
+ae00a6b1802e4ca716f7e6da76c560deea647a69 - revert - 8a4b4e3083453beeccc33e35cfa34b57c796acf7
+---> The reverted commit sha is - ae00a6b1802e4ca716f7e6da76c560deea647a69
+Commit message - Add a concatUnzip utility function
+---> The original commit sha is - 8a4b4e3083453beeccc33e35cfa34b57c796acf7
+Commit message - Merge branch 'master' of https://github.com/ndmitchell/hlint
+---> The files with partial_reverts are:-
+CHANGES.txt
+hlint.cabal
+src/CmdLine.hs
+src/Proof.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ e4ae817cabd11952d32dd51ef1f987870a8bd395 -> f5735fe1c082a1a506b68b1f35fcdb7d6bf594a9 } is a revert
+{ 63b80739d6366d42ac68bc0dc84ba56891f5d8ab -> ae00a6b1802e4ca716f7e6da76c560deea647a69 }
+Partial Revert commits SHA are -> 
+f5735fe1c082a1a506b68b1f35fcdb7d6bf594a9 - revert - ae00a6b1802e4ca716f7e6da76c560deea647a69
+---> The reverted commit sha is - f5735fe1c082a1a506b68b1f35fcdb7d6bf594a9
+Commit message - Upgrade to haskell-src-exts-1.14
+---> The original commit sha is - ae00a6b1802e4ca716f7e6da76c560deea647a69
+Commit message - Add a concatUnzip utility function
+---> The files with partial_reverts are:-
+src/CmdLine.hs
+src/Proof.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ 784526ef4e73b27909794773e16d64a3a4d15e8c -> 57500bcfd25a9e4d5b827c2816c46bf7e496829a } is a revert
+{ 4dc0818ac745bf3f71148e378c45fd3458b109ef -> 405c7faf4ae5114e131afffb20f8535ca636eb6a }
+Partial Revert commits SHA are -> 
+57500bcfd25a9e4d5b827c2816c46bf7e496829a - revert - 405c7faf4ae5114e131afffb20f8535ca636eb6a
+---> The reverted commit sha is - 57500bcfd25a9e4d5b827c2816c46bf7e496829a
+Commit message - Remove 3 redundant language extensions, spotted by HLint
+---> The original commit sha is - 405c7faf4ae5114e131afffb20f8535ca636eb6a
+Commit message - Reinstate the PatternGuards thing, is used in one #ifdef
+---> The files with partial_reverts are:-
+src/Util.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ bb73cea71db0feabf0cbfa9a35c3e3bf61f3b02c -> c1810293de21ceeb456329b5ad88eda02bcd75e0 } is a revert
+{ 4dc0818ac745bf3f71148e378c45fd3458b109ef -> 405c7faf4ae5114e131afffb20f8535ca636eb6a }
+Partial Revert commits SHA are -> 
+c1810293de21ceeb456329b5ad88eda02bcd75e0 - revert - 405c7faf4ae5114e131afffb20f8535ca636eb6a
+---> The reverted commit sha is - c1810293de21ceeb456329b5ad88eda02bcd75e0
+Commit message - Fix up a few hlint warnings
+---> The original commit sha is - 405c7faf4ae5114e131afffb20f8535ca636eb6a
+Commit message - Reinstate the PatternGuards thing, is used in one #ifdef
+---> The files with partial_reverts are:-
+src/Util.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ 784526ef4e73b27909794773e16d64a3a4d15e8c -> 57500bcfd25a9e4d5b827c2816c46bf7e496829a } is a revert
+{ 84cf987bcc1da1ddc364bf8ad53f8e8949e836d9 -> f59e0408ec774420704cdc024904ca7fa04ad7fe }
+Partial Revert commits SHA are -> 
+57500bcfd25a9e4d5b827c2816c46bf7e496829a - revert - f59e0408ec774420704cdc024904ca7fa04ad7fe
+---> The reverted commit sha is - 57500bcfd25a9e4d5b827c2816c46bf7e496829a
+Commit message - Remove 3 redundant language extensions, spotted by HLint
+---> The original commit sha is - f59e0408ec774420704cdc024904ca7fa04ad7fe
+Commit message - Add a missing LANGUAGE pragma
+---> The files with partial_reverts are:-
+src/Util.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ bb73cea71db0feabf0cbfa9a35c3e3bf61f3b02c -> c1810293de21ceeb456329b5ad88eda02bcd75e0 } is a revert
+{ 84cf987bcc1da1ddc364bf8ad53f8e8949e836d9 -> f59e0408ec774420704cdc024904ca7fa04ad7fe }
+Partial Revert commits SHA are -> 
+c1810293de21ceeb456329b5ad88eda02bcd75e0 - revert - f59e0408ec774420704cdc024904ca7fa04ad7fe
+---> The reverted commit sha is - c1810293de21ceeb456329b5ad88eda02bcd75e0
+Commit message - Fix up a few hlint warnings
+---> The original commit sha is - f59e0408ec774420704cdc024904ca7fa04ad7fe
+Commit message - Add a missing LANGUAGE pragma
+---> The files with partial_reverts are:-
+src/Util.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ 784526ef4e73b27909794773e16d64a3a4d15e8c -> 57500bcfd25a9e4d5b827c2816c46bf7e496829a } is a revert
+{ ae280ce5d9e48bf85d2f0c950e6f591375f2c8a8 -> 97eb4b89ad872afd67e7dd4122dc84a078317a55 }
+Partial Revert commits SHA are -> 
+57500bcfd25a9e4d5b827c2816c46bf7e496829a - revert - 97eb4b89ad872afd67e7dd4122dc84a078317a55
+---> The reverted commit sha is - 57500bcfd25a9e4d5b827c2816c46bf7e496829a
+Commit message - Remove 3 redundant language extensions, spotted by HLint
+---> The original commit sha is - 97eb4b89ad872afd67e7dd4122dc84a078317a55
+Commit message - Add back in the PatternGuards to the src\Utils, since it's only used in #ifdef branch (hence why hlint suggested it's removal)
+---> The files with partial_reverts are:-
+src/Util.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 0ecc5e8f2c2963ed4162abdedad3a04bf75ac394 -> f6e842da00a0ecd6ff7f81261f0a2283b529800c } is a revert
+{ 7f4a404d0e62a197ac696e6f3d18608417ba9c90 -> 4bfffe213f231a4cffe4df99a609f7881284a8eb }
+Partial Revert commits SHA are -> 
+f6e842da00a0ecd6ff7f81261f0a2283b529800c - revert - 4bfffe213f231a4cffe4df99a609f7881284a8eb
+---> The reverted commit sha is - f6e842da00a0ecd6ff7f81261f0a2283b529800c
+Commit message - Move the README.txt
+---> The original commit sha is - 4bfffe213f231a4cffe4df99a609f7881284a8eb
+Commit message - Delete the README, was inaccurate
+---> The files with partial_reverts are:-
+README.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ 48b7d5e06609e1dd743367e99f2c0ee4163f351f -> ae346aba9b088c4ad874d6091bf08a955bd4c20e } is a revert
+{ a917c6eeb6d8a5afd81be87add17789d0d659785 -> 6e76adc0b82dbd0e3332fd69fdb731ed6fa9cea5 }
+Partial Revert commits SHA are -> 
+ae346aba9b088c4ad874d6091bf08a955bd4c20e - revert - 6e76adc0b82dbd0e3332fd69fdb731ed6fa9cea5
+---> The reverted commit sha is - ae346aba9b088c4ad874d6091bf08a955bd4c20e
+Commit message - Split eqExpShell out, and optimise it
+---> The original commit sha is - 6e76adc0b82dbd0e3332fd69fdb731ed6fa9cea5
+Commit message - Eliminate the module HSE.Eq, was no longer used
+---> The files with partial_reverts are:-
+hlint.cabal
+src/HSE/All.hs
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ 5c499040671f36dd8598feea45f21180c9621a89 -> 055d5263879a6e8f0d04ec3eea8a8104596638e3 } is a revert
+{ 2cd1fd96e5f26f7aa63fdcd89e8d119e0dba7ea9 -> 86a4fc435a2368872d1d0dcaa5e2447aa372350c }
+Partial Revert commits SHA are -> 
+055d5263879a6e8f0d04ec3eea8a8104596638e3 - revert - 86a4fc435a2368872d1d0dcaa5e2447aa372350c
+---> The reverted commit sha is - 055d5263879a6e8f0d04ec3eea8a8104596638e3
+Commit message - Add a sample hint ignore file
+---> The original commit sha is - 86a4fc435a2368872d1d0dcaa5e2447aa372350c
+Commit message - Delete the old ignore file, no longer applicable
+---> The files with partial_reverts are:-
+data/hlint_ignore.txt
+-----------------------------------------------------------------
+

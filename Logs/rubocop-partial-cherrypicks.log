@@ -1,0 +1,1787 @@
+# of partial cherrypicks = 100
+Partial Cherry-pick diff pair 1 is -> 
+{ e189a2c160a49dc581ebfe4712252cb6bf3022a6 -> 2afaa7d88e09ccb1b35c0479b6de85bd102f3764 } is a cherrypick
+{ 29ec3180c678b8a823df6e7f22a86a60c39e3a22 -> 5a472eaefb3c36b9bd36922fa3aa4ef43950b218 }
+Partial Cherry-pick commits SHA are -> 
+2afaa7d88e09ccb1b35c0479b6de85bd102f3764 - cherrypick - 5a472eaefb3c36b9bd36922fa3aa4ef43950b218
+---> The cherrypicked commit sha is - 2afaa7d88e09ccb1b35c0479b6de85bd102f3764
+Commit message - [Fix #1459] Handle parentheses around condition in NegatedWhile
+
+In autocorrect, not handling the parentheses produced incorrect
+code. Sematically different and/or syntactically wrong.
+---> The original commit sha is - 5a472eaefb3c36b9bd36922fa3aa4ef43950b218
+Commit message - Merge pull request #1464 from jonas054/1459_fix_NegatedWhile
+
+[Fix #1459] Handle parentheses around condition in NegatedWhile
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/style/negated_while.rb
+spec/rubocop/cop/style/negated_while_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ be1f42030fce726da1689335ce3005cd508184f7 -> 8c6a4da8c7b9c3ca53c2ad1c8f9168fdcc83e0db } is a cherrypick
+{ 6f03e16b7307f057dc0d51870b7cd20eb71b816b -> f19c5fc8e8ea78a79258e60403435869d5e67553 }
+Partial Cherry-pick commits SHA are -> 
+8c6a4da8c7b9c3ca53c2ad1c8f9168fdcc83e0db - cherrypick - f19c5fc8e8ea78a79258e60403435869d5e67553
+---> The cherrypicked commit sha is - 8c6a4da8c7b9c3ca53c2ad1c8f9168fdcc83e0db
+Commit message - [Fix #1418] Avoid deprecation warning for hidden directories
+
+Even the recommended pattern style would generate
+"Warning: Deprecated pattern style" before this fix. Hidden
+directories are not matched with the new style of matching,
+but that's intentional. Hidden directories must be
+explicitly added in Include parameters in order to be
+inspected.
+---> The original commit sha is - f19c5fc8e8ea78a79258e60403435869d5e67553
+Commit message - Merge pull request #1424 from jonas054/1418_deprecated_pattern_style_bug
+
+[Fix #1418] Avoid deprecation warning for hidden directories
+---> The files with partial_cherrypicks are:-
+lib/rubocop/path_util.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ c91c6bfe9cafad5fd39b1c8bb14113fc76d11d6f -> b74fe03a46b62a017b34b591da332ccc1261bf36 } is a cherrypick
+{ adf1b18631362adc13b0ea6550600213d0bccf23 -> 88f00951660dc1383de468640bb4d1c717ec4243 }
+Partial Cherry-pick commits SHA are -> 
+b74fe03a46b62a017b34b591da332ccc1261bf36 - cherrypick - 88f00951660dc1383de468640bb4d1c717ec4243
+---> The cherrypicked commit sha is - b74fe03a46b62a017b34b591da332ccc1261bf36
+Commit message - [Fix #1097] Add namespace for cop names in configuration
+
+LineLength becomes Style/LineLength etc.
+---> The original commit sha is - 88f00951660dc1383de468640bb4d1c717ec4243
+Commit message - [Fix #1084] Disable CollectionMethods by default
+
+The cop yields false positives in some scenarios, so it's better
+to have it disabled by default.
+
+This also fixes #1334.
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ 67d836d9d87cffc281f26bf68157d9b4bb3ea541 -> ff4438ac77ab787859102816baf8e6a5f43059d4 } is a cherrypick
+{ 67bff374a8b5c52385c420e32c0bb098cd5ef439 -> e8e1a7fd42385458fd76434947f4376481222abf }
+Partial Cherry-pick commits SHA are -> 
+ff4438ac77ab787859102816baf8e6a5f43059d4 - cherrypick - e8e1a7fd42385458fd76434947f4376481222abf
+---> The cherrypicked commit sha is - ff4438ac77ab787859102816baf8e6a5f43059d4
+Commit message - AllCops:Include are excluded from Style/FileName by default, remove them from default.yml.
+
+Related with commit c2b3fb5e.
+---> The original commit sha is - e8e1a7fd42385458fd76434947f4376481222abf
+Commit message - Merge pull request #1366 from onddo/recognize-some-chef-files
+
+Recognize some Ruby files related with Chef: Berksfile, Cheffile, ...
+---> The files with partial_cherrypicks are:-
+config/default.yml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ ca5bc8db3f47fc4abd9ca6377dad90c2486d56e2 -> 475d652f4e35a6f085d6bd2999b623036155749d } is a cherrypick
+{ fbd9aed3b445f7543ff09f201449fb820b0f0186 -> 67d836d9d87cffc281f26bf68157d9b4bb3ea541 }
+Partial Cherry-pick commits SHA are -> 
+475d652f4e35a6f085d6bd2999b623036155749d - cherrypick - 67d836d9d87cffc281f26bf68157d9b4bb3ea541
+---> The cherrypicked commit sha is - 475d652f4e35a6f085d6bd2999b623036155749d
+Commit message - [Fix #1362] Fix condition for special cases in MultilineOperationIndentation
+
+Some expressions inside parentheses should not be checked by
+this cop, and the logic for finding these cases was faulty.
+---> The original commit sha is - 67d836d9d87cffc281f26bf68157d9b4bb3ea541
+Commit message - Merge pull request #1365 from jonas054/1362_fix_multiline_op_ind
+
+Fix condition for special cases in MultilineOperationIndentation
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/style/multiline_operation_indentation.rb
+spec/rubocop/cop/style/case_indentation_spec.rb
+spec/rubocop/cop/style/multiline_operation_indentation_spec.rb
+spec/rubocop/cop/style/space_before_block_braces_spec.rb
+spec/rubocop/cop/style/space_inside_block_braces_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 5fe1b8e4d321e6817f8890fb1b9f412ec711f76e -> e193b9c092e6e4208ed54da0ba9c8cea437ef1ba } is a cherrypick
+{ 70da152cf5ecd81e95f06df3e6c0697582d39075 -> 33b0fc57867dedfade8c2e7ace39f74ca1959404 }
+Partial Cherry-pick commits SHA are -> 
+e193b9c092e6e4208ed54da0ba9c8cea437ef1ba - cherrypick - 33b0fc57867dedfade8c2e7ace39f74ca1959404
+---> The cherrypicked commit sha is - e193b9c092e6e4208ed54da0ba9c8cea437ef1ba
+Commit message - Merge pull request #1226 from yujinakayama/mention-runrailscop-in-readme
+
+Mention RunRailsCops configuration directive in README
+---> The original commit sha is - 33b0fc57867dedfade8c2e7ace39f74ca1959404
+Commit message - Revert "Don't allow failures on Rubinius"
+
+This reverts commit 70da152cf5ecd81e95f06df3e6c0697582d39075.
+---> The files with partial_cherrypicks are:-
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ bb7d9a058ec940fead2768b672bbd5c3a2371830 -> 5fe1b8e4d321e6817f8890fb1b9f412ec711f76e } is a cherrypick
+{ ed8ba9df7816d5863eb6c8aeeab68f2d65408383 -> 70da152cf5ecd81e95f06df3e6c0697582d39075 }
+Partial Cherry-pick commits SHA are -> 
+5fe1b8e4d321e6817f8890fb1b9f412ec711f76e - cherrypick - 70da152cf5ecd81e95f06df3e6c0697582d39075
+---> The cherrypicked commit sha is - 5fe1b8e4d321e6817f8890fb1b9f412ec711f76e
+Commit message - Mention RunRailsCops directive in README
+---> The original commit sha is - 70da152cf5ecd81e95f06df3e6c0697582d39075
+Commit message - Don't allow failures on Rubinius
+---> The files with partial_cherrypicks are:-
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ 66cf94cd0ebc027b099be746fb2baee2da7059a4 -> e07a5e3ccf1b4fe0bd7237d02b603c6b5346fb8d } is a cherrypick
+{ 6159ce87485fd5585d9005aaee4eba23e74f0c22 -> 7fc3ed6d4eeb8adc9977cf889b4fa9b4d28384c7 }
+Partial Cherry-pick commits SHA are -> 
+e07a5e3ccf1b4fe0bd7237d02b603c6b5346fb8d - cherrypick - 7fc3ed6d4eeb8adc9977cf889b4fa9b4d28384c7
+---> The cherrypicked commit sha is - e07a5e3ccf1b4fe0bd7237d02b603c6b5346fb8d
+Commit message - Keep line length to 80
+
+Using `:vimgrep /.\{81\}/ config/**/* lib/**/* spec/**/*`.
+
+- Enable `LineLength` cop again for such spec files
+---> The original commit sha is - 7fc3ed6d4eeb8adc9977cf889b4fa9b4d28384c7
+Commit message - Merge pull request #1303 from yous/patch-line-length
+
+Keep line length to 80
+---> The files with partial_cherrypicks are:-
+config/default.yml
+spec/rubocop/cop/commissioner_spec.rb
+spec/rubocop/cop/lint/block_alignment_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ 29788c8f54d2bd421489b485ffe030a28f7e6ac5 -> 1fc896fd5f9e2fe79aa71b03feb18f61a1f5ca98 } is a cherrypick
+{ b5a1fd8a7d97d94c51171bfb4e639ad4d51f90ad -> 32139fd6a6485d3311f462f07a3925d6d7eeaf52 }
+Partial Cherry-pick commits SHA are -> 
+1fc896fd5f9e2fe79aa71b03feb18f61a1f5ca98 - cherrypick - 32139fd6a6485d3311f462f07a3925d6d7eeaf52
+---> The cherrypicked commit sha is - 1fc896fd5f9e2fe79aa71b03feb18f61a1f5ca98
+Commit message - Tab cop does auto-correction
+
+Fix #1272
+---> The original commit sha is - 32139fd6a6485d3311f462f07a3925d6d7eeaf52
+Commit message - Merge pull request #1296 from yous/patch-tab-auto-correct
+
+Tab cop does auto-correction
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+lib/rubocop/cop/style/tab.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cop/style/tab_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ abe47b2bddfcbbef4b099a82f4a0ba317051c178 -> fa0fd479ac614d9c1f9cd91a85242ef2b1db8190 } is a cherrypick
+{ f8e0329ddb5f379a81d88ab49707304ee5e12a1d -> 3f7fec39a9a5b0c0e773ed6208064106ed705a7b }
+Partial Cherry-pick commits SHA are -> 
+fa0fd479ac614d9c1f9cd91a85242ef2b1db8190 - cherrypick - 3f7fec39a9a5b0c0e773ed6208064106ed705a7b
+---> The cherrypicked commit sha is - fa0fd479ac614d9c1f9cd91a85242ef2b1db8190
+Commit message - [Fix #1197] Deal with new lambda syntax in SpaceInsideBlockBraces
+---> The original commit sha is - 3f7fec39a9a5b0c0e773ed6208064106ed705a7b
+Commit message - Merge pull request #1198 from jonas054/1197_space_before_pipe
+
+[Fix #1197] Deal with new lambda syntax in SpaceInsideBlockBraces
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+lib/rubocop/cop/style/space_inside_block_braces.rb
+spec/rubocop/cop/style/space_inside_block_braces_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 8d677ee5ae04156590ddd814edf8b333cdc92bd5 -> 1f458bb94b7dba52ae2d90f5f6c21c78d18b7574 } is a cherrypick
+{ 4e22f510638ca8a8ee5548c86cc7d992b8a1f67e -> 8625aae03aacf862d56c0e37a61f0bd527e49692 }
+Partial Cherry-pick commits SHA are -> 
+1f458bb94b7dba52ae2d90f5f6c21c78d18b7574 - cherrypick - 8625aae03aacf862d56c0e37a61f0bd527e49692
+---> The cherrypicked commit sha is - 1f458bb94b7dba52ae2d90f5f6c21c78d18b7574
+Commit message - Fix bug in AutocorrectAlignment#heredoc_ranges
+
+Fixes #1174 and fixes #1176.
+---> The original commit sha is - 8625aae03aacf862d56c0e37a61f0bd527e49692
+Commit message - Merge pull request #1178 from jonas054/fix_heredoc_ranges_crash
+
+Fix bug in AutocorrectAlignment#heredoc_ranges
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+lib/rubocop/cop/mixin/autocorrect_alignment.rb
+spec/rubocop/cop/style/align_parameters_spec.rb
+spec/rubocop/cop/style/indentation_width_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ a8d50670423de133a03151dace9b35b5cf91b56c -> aceeba488613679b7b12bb6c0236ead47d3be73c } is a cherrypick
+{ 40a1c7e44efda1b0d893cb38a9996e0ade333e8e -> 596531b76e7c5977c19e6298c7fad9e763825f82 }
+Partial Cherry-pick commits SHA are -> 
+aceeba488613679b7b12bb6c0236ead47d3be73c - cherrypick - 596531b76e7c5977c19e6298c7fad9e763825f82
+---> The cherrypicked commit sha is - aceeba488613679b7b12bb6c0236ead47d3be73c
+Commit message - Merge pull request #1024 from tamird/delegate-arguments
+
+Fix `Delegate` handling of delegators with arguments
+---> The original commit sha is - 596531b76e7c5977c19e6298c7fad9e763825f82
+Commit message - Merge pull request #1150 from jonas054/1141_clarify_trailing_comma
+
+[Fix #1141] Clarify why trailing comma is not allowed
+---> The files with partial_cherrypicks are:-
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ a8d50670423de133a03151dace9b35b5cf91b56c -> aceeba488613679b7b12bb6c0236ead47d3be73c } is a cherrypick
+{ cfc2a31741b0f32d03907d8d9b5169290f7b8f29 -> 5bbcad5aee6ec621c83638ea714289e2e55f406b }
+Partial Cherry-pick commits SHA are -> 
+aceeba488613679b7b12bb6c0236ead47d3be73c - cherrypick - 5bbcad5aee6ec621c83638ea714289e2e55f406b
+---> The cherrypicked commit sha is - aceeba488613679b7b12bb6c0236ead47d3be73c
+Commit message - Merge pull request #1024 from tamird/delegate-arguments
+
+Fix `Delegate` handling of delegators with arguments
+---> The original commit sha is - 5bbcad5aee6ec621c83638ea714289e2e55f406b
+Commit message - Revert "Revert "Remove Parser fallback code""
+
+This reverts commit fcfcfe178cb7579e3a4ede1523c6ee982efcb928.
+---> The files with partial_cherrypicks are:-
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 6dc9d8051f1a5008748efa80a7a34c74ae7ad881 -> fc5a8a609dce2eb9dd11392952e03987726891cd } is a cherrypick
+{ 696eaaed9fb2ed5030b550dc2d1734f102e40429 -> 9916f0eb4d0245720474786ec64ff436d4681da0 }
+Partial Cherry-pick commits SHA are -> 
+fc5a8a609dce2eb9dd11392952e03987726891cd - cherrypick - 9916f0eb4d0245720474786ec64ff436d4681da0
+---> The cherrypicked commit sha is - fc5a8a609dce2eb9dd11392952e03987726891cd
+Commit message - [Fix #1104] Fix EachWithObject with modifier if
+---> The original commit sha is - 9916f0eb4d0245720474786ec64ff436d4681da0
+Commit message - [Fix #1133] Handle reduce/inject with no arguments in EachWithObject
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ aa0d0b4eef7a958c1b4d880ebec14b51aa0f7a6a -> cce98745901100f30e53cb81d53a981c72e21b50 } is a cherrypick
+{ cbbaae10b1be8055464f4edab2af41b4d040824c -> 282b5f1dd6a71b1385cc1b3c004eec27d5fbaff5 }
+Partial Cherry-pick commits SHA are -> 
+cce98745901100f30e53cb81d53a981c72e21b50 - cherrypick - 282b5f1dd6a71b1385cc1b3c004eec27d5fbaff5
+---> The cherrypicked commit sha is - cce98745901100f30e53cb81d53a981c72e21b50
+Commit message - Auto-correct class-level trivial accessors
+---> The original commit sha is - 282b5f1dd6a71b1385cc1b3c004eec27d5fbaff5
+Commit message - Merge pull request #1124 from ggilder/ggilder/autocorrect-class-accessors
+
+Auto-correct class-level trivial accessors
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/style/trivial_accessors.rb
+spec/rubocop/cop/style/trivial_accessors_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ cce98745901100f30e53cb81d53a981c72e21b50 -> f73800983b7dadcaf4574ee9060eeccc22ea3b4c } is a cherrypick
+{ ff167d8f202baf7a68955db0aaf0dc29afb7e7ee -> b66fb66b6e4682f8492c35e6bc0bdc55738f05b5 }
+Partial Cherry-pick commits SHA are -> 
+f73800983b7dadcaf4574ee9060eeccc22ea3b4c - cherrypick - b66fb66b6e4682f8492c35e6bc0bdc55738f05b5
+---> The cherrypicked commit sha is - f73800983b7dadcaf4574ee9060eeccc22ea3b4c
+Commit message - Fix bug with --auto-gen-config and RegexpLiteral
+
+The `RegexpLiteral` cop stores a running tally of slashes found inside
+regular expressions, which it uses to determine whether the
+auto-generated config should disable the cop completely, or just specify
+the maximum number of slashes to make the cop pass.
+
+Previously this tally was stored in an instance variable. However, this
+doesn't work when run against a project with multiple files, because a
+new instance of the cop is created for each file. Thus, we need to store
+the running tally in a class-level variable.
+---> The original commit sha is - b66fb66b6e4682f8492c35e6bc0bdc55738f05b5
+Commit message - Merge pull request #1126 from ggilder/ggilder/fix-regexp-literal-auto-gen
+
+Fix bug with --auto-gen-config and RegexpLiteral
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/style/regexp_literal.rb
+spec/rubocop/cop/style/regexp_literal_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ 8bb0e1ead43bf0c39955fade4983248cd27b1965 -> 49ab420a919fb6f3baa31123b367ef7d9ba1cea2 } is a cherrypick
+{ 5ae2530d749936e3403638040ce51e32820f2832 -> 395a0f8ff27e4274860d940c107a6724f7d8090f }
+Partial Cherry-pick commits SHA are -> 
+49ab420a919fb6f3baa31123b367ef7d9ba1cea2 - cherrypick - 395a0f8ff27e4274860d940c107a6724f7d8090f
+---> The cherrypicked commit sha is - 49ab420a919fb6f3baa31123b367ef7d9ba1cea2
+Commit message - [Fixes #1094] Fix bug in ClassAndModuleChildren
+
+ClassAndModuleChildren incorrectly flaged class with a single method
+---> The original commit sha is - 395a0f8ff27e4274860d940c107a6724f7d8090f
+Commit message - Merge pull request #1096 from geniou/class_and_module_children_single_method
+
+[Fixes #1094] Fix bug in ClassAndModuleChildren
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+lib/rubocop/cop/style/class_and_module_children.rb
+spec/rubocop/cop/style/class_and_module_children_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 822a1f1fc870a0c6aa6f90d9f6339d07c25504b4 -> ddef20cf62d8d99ffff696ffa6ad7c821969386e } is a cherrypick
+{ 3f155817193a927d1808790b29f7b21e71036b75 -> fcfcfe178cb7579e3a4ede1523c6ee982efcb928 }
+Partial Cherry-pick commits SHA are -> 
+ddef20cf62d8d99ffff696ffa6ad7c821969386e - cherrypick - fcfcfe178cb7579e3a4ede1523c6ee982efcb928
+---> The cherrypicked commit sha is - ddef20cf62d8d99ffff696ffa6ad7c821969386e
+Commit message - Fall back to Ruby 2.1 parser if current Ruby runtime is not supported
+---> The original commit sha is - fcfcfe178cb7579e3a4ede1523c6ee982efcb928
+Commit message - Revert "Remove Parser fallback code"
+
+This reverts commit b05c98968385c433ca2d87683789f1b27798f367.
+---> The files with partial_cherrypicks are:-
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ b05c98968385c433ca2d87683789f1b27798f367 -> a8d50670423de133a03151dace9b35b5cf91b56c } is a cherrypick
+{ 3f155817193a927d1808790b29f7b21e71036b75 -> fcfcfe178cb7579e3a4ede1523c6ee982efcb928 }
+Partial Cherry-pick commits SHA are -> 
+a8d50670423de133a03151dace9b35b5cf91b56c - cherrypick - fcfcfe178cb7579e3a4ede1523c6ee982efcb928
+---> The cherrypicked commit sha is - a8d50670423de133a03151dace9b35b5cf91b56c
+Commit message - Fix `Delegate` handling of delegators with arguments
+---> The original commit sha is - fcfcfe178cb7579e3a4ede1523c6ee982efcb928
+Commit message - Revert "Remove Parser fallback code"
+
+This reverts commit b05c98968385c433ca2d87683789f1b27798f367.
+---> The files with partial_cherrypicks are:-
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ 454c44328b116227bdb6f094d8c335271962e482 -> 0872205506e1bc12388b4ea7791cabb77b7845a2 } is a cherrypick
+{ c300552a21033fbdb7aa2ab06772a20f250afb1e -> ad2fe4864ebd182c51f880dbb531fe825afaa7bf }
+Partial Cherry-pick commits SHA are -> 
+0872205506e1bc12388b4ea7791cabb77b7845a2 - cherrypick - ad2fe4864ebd182c51f880dbb531fe825afaa7bf
+---> The cherrypicked commit sha is - 0872205506e1bc12388b4ea7791cabb77b7845a2
+Commit message - Make `NonNilCheck`'s semantic changes configurable
+---> The original commit sha is - ad2fe4864ebd182c51f880dbb531fe825afaa7bf
+Commit message - Merge pull request #1047 from hannestyden/stabilize-semantics-of-non-nil-check-autocorrect
+
+Stabilize semantics of NonNilCheck autocorrect
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+config/default.yml
+lib/rubocop/cop/style/non_nil_check.rb
+spec/rubocop/cop/style/non_nil_check_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ 9e6d8f955a6bd169f81858ecb5ec3cf6a1ab31e8 -> 7fbf14f83e8631344ce95e1f8d8f7419e2421567 } is a cherrypick
+{ f6b3ba2db70388c6ac1e8fc6a7fc3dacfad82c79 -> 9976114eccc67a9005d8025e89f6d1b6e56e41eb }
+Partial Cherry-pick commits SHA are -> 
+7fbf14f83e8631344ce95e1f8d8f7419e2421567 - cherrypick - 9976114eccc67a9005d8025e89f6d1b6e56e41eb
+---> The cherrypicked commit sha is - 7fbf14f83e8631344ce95e1f8d8f7419e2421567
+Commit message - [Refactor] Move methods from ConfigLoader to Config
+
+Takes care of the code smell "Feature Envy" in ConfigLoader and
+makes it smaller. Two birds with one stone.
+---> The original commit sha is - 9976114eccc67a9005d8025e89f6d1b6e56e41eb
+Commit message - [Refactor] Move methods from ConfigLoader to Config
+
+Takes care of the code smell "Feature Envy" in ConfigLoader and
+makes it smaller. Two birds with one stone.
+---> The files with partial_cherrypicks are:-
+rubocop-todo.yml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ f52aedaa6a6815b9994aaea8089591a9d27fb9ab -> 295d0879ddd43960f77b98506607ea9b343bfd8d } is a cherrypick
+{ 0f3f6cdc8e798b0ff5b8c12bcf31618c98e12844 -> e01dede11a64d64f2ee9435e10ed3ec486c2bcc8 }
+Partial Cherry-pick commits SHA are -> 
+295d0879ddd43960f77b98506607ea9b343bfd8d - cherrypick - e01dede11a64d64f2ee9435e10ed3ec486c2bcc8
+---> The cherrypicked commit sha is - 295d0879ddd43960f77b98506607ea9b343bfd8d
+Commit message - update LineEndConcatenation description
+---> The original commit sha is - e01dede11a64d64f2ee9435e10ed3ec486c2bcc8
+Commit message - Merge pull request #985 from yujinakayama/fix-underscore-prefixed-variable-name-with-zsuper
+
+Fix false positive with zero-arity super in UnderscorePrefixedVariableName
+---> The files with partial_cherrypicks are:-
+config/enabled.yml
+lib/rubocop/cop/style/line_end_concatenation.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ f52aedaa6a6815b9994aaea8089591a9d27fb9ab -> 295d0879ddd43960f77b98506607ea9b343bfd8d } is a cherrypick
+{ c67eae2430216fc94f3285a0db49d49047323ec1 -> 10154f7dc94f47e3850030047be3493b673dd5fa }
+Partial Cherry-pick commits SHA are -> 
+295d0879ddd43960f77b98506607ea9b343bfd8d - cherrypick - 10154f7dc94f47e3850030047be3493b673dd5fa
+---> The cherrypicked commit sha is - 295d0879ddd43960f77b98506607ea9b343bfd8d
+Commit message - update LineEndConcatenation description
+---> The original commit sha is - 10154f7dc94f47e3850030047be3493b673dd5fa
+Commit message - Merge pull request #984 from mockdeep/concat_desc
+
+update LineEndConcatenation description
+---> The files with partial_cherrypicks are:-
+config/enabled.yml
+lib/rubocop/cop/style/line_end_concatenation.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ 6b1047ec963e6efaf837c3588a3150bb2e8c59c1 -> ea5c20d0755a92c5b05d45b105d9475e2bd8cd81 } is a cherrypick
+{ b8286613f3b820aec64b5a78f1cf80480e17686f -> 752d9039a9c072734ee71deec2c4ea6721a114db }
+Partial Cherry-pick commits SHA are -> 
+ea5c20d0755a92c5b05d45b105d9475e2bd8cd81 - cherrypick - 752d9039a9c072734ee71deec2c4ea6721a114db
+---> The cherrypicked commit sha is - ea5c20d0755a92c5b05d45b105d9475e2bd8cd81
+Commit message - [Fix #928] re-word hint on using --config rubocop-todo.yml
+---> The original commit sha is - 752d9039a9c072734ee71deec2c4ea6721a114db
+Commit message - Merge pull request #930 from tmorris-fiksu/rubocop_with_config_reword
+
+[Fix #928] re-word hint on using --config rubocop-todo.yml
+---> The files with partial_cherrypicks are:-
+lib/rubocop/formatter/disabled_config_formatter.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/formatter/disabled_config_formatter_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ 79c9338797f80c5b01d86d272d99ccf688267c6f -> eae27629dc6a5b27c5e90e8b32fd5914c6ae6cc2 } is a cherrypick
+{ d3ace248f06229f0fe9a553cae1d25b4499eecc0 -> 822a1f1fc870a0c6aa6f90d9f6339d07c25504b4 }
+Partial Cherry-pick commits SHA are -> 
+eae27629dc6a5b27c5e90e8b32fd5914c6ae6cc2 - cherrypick - 822a1f1fc870a0c6aa6f90d9f6339d07c25504b4
+---> The cherrypicked commit sha is - eae27629dc6a5b27c5e90e8b32fd5914c6ae6cc2
+Commit message - Add option --force-exclusion to always exclude files specified in config
+
+This closes #893.
+---> The original commit sha is - 822a1f1fc870a0c6aa6f90d9f6339d07c25504b4
+Commit message - Merge pull request #922 from yujinakayama/force-exclusion
+
+Add option --force-exclusion to always exclude files specified in config `Exclude`
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+lib/rubocop/cli.rb
+lib/rubocop/options.rb
+rubocop-todo.yml
+spec/rubocop/cli_spec.rb
+spec/rubocop/options_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 2932db399d0161ab2a935ac66b8e75eec2c7a1d8 -> e60949aae4ffa07b89d29f466a54ddc1a1d1ae63 } is a cherrypick
+{ 22e59ca5b82c2b5948d2e72bb08e8f9aa7c9498a -> d24a1ebbb7352907b0acb27a2e5d9e5c943a42ac }
+Partial Cherry-pick commits SHA are -> 
+e60949aae4ffa07b89d29f466a54ddc1a1d1ae63 - cherrypick - d24a1ebbb7352907b0acb27a2e5d9e5c943a42ac
+---> The cherrypicked commit sha is - e60949aae4ffa07b89d29f466a54ddc1a1d1ae63
+Commit message - [Fix #914] Change a two-line constant that was breaking rdoc's parsing
+---> The original commit sha is - d24a1ebbb7352907b0acb27a2e5d9e5c943a42ac
+Commit message - Merge pull request #913 from tamird/master
+
+`FileName` should accept multiple extensions
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+lib/rubocop/cop/style/single_line_methods.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ 447bfe53f7776f0a8ef85ec2af5453a784d76af9 -> c2b3fb5e073824302e92678c598e43edf11e3d72 } is a cherrypick
+{ f051d5c2340777c24914f91ab08fdbc8c641c9a0 -> 22e164ba953f668416b3f09e4e61b18d8a0e95f4 }
+Partial Cherry-pick commits SHA are -> 
+c2b3fb5e073824302e92678c598e43edf11e3d72 - cherrypick - 22e164ba953f668416b3f09e4e61b18d8a0e95f4
+---> The cherrypicked commit sha is - c2b3fb5e073824302e92678c598e43edf11e3d72
+Commit message - Accept non-rb extensions and file names specified in AllCops/Includes
+
+https://github.com/bbatsov/rubocop/commit/a0064f7ddd46573e8f59deda317403e880239f53#commitcomment-5664681
+---> The original commit sha is - 22e164ba953f668416b3f09e4e61b18d8a0e95f4
+Commit message - Merge pull request #874 from yujinakayama/relax-filename
+
+Relax Filename cop
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/style/file_name.rb
+spec/rubocop/cop/style/file_name_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ c34fd77f03a8d9dd617cf25c659d0f1f3b3fdea4 -> 4db24f0fc42f2b5d25a5af5690be3d9448661be6 } is a cherrypick
+{ 159eb4c30b5db576ec967145f59e1c63939cf641 -> 983bc86eca1bba41352e2e96bbdbf836d24915dc }
+Partial Cherry-pick commits SHA are -> 
+4db24f0fc42f2b5d25a5af5690be3d9448661be6 - cherrypick - 983bc86eca1bba41352e2e96bbdbf836d24915dc
+---> The cherrypicked commit sha is - 4db24f0fc42f2b5d25a5af5690be3d9448661be6
+Commit message - Handle case statements with nothing after the case keyword
+---> The original commit sha is - 983bc86eca1bba41352e2e96bbdbf836d24915dc
+Commit message - Merge pull request #843 from agrimm/handle_case_statement
+
+Handle case statements with nothing after the case keyword
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/lint/literal_in_condition.rb
+spec/rubocop/cop/lint/literal_in_condition_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ 4db24f0fc42f2b5d25a5af5690be3d9448661be6 -> 7afbc1530a4e35a62d1eaaa77ae74ea4c3585733 } is a cherrypick
+{ 0495ecc53dc57381e742185981d138749d89fb0d -> 159eb4c30b5db576ec967145f59e1c63939cf641 }
+Partial Cherry-pick commits SHA are -> 
+7afbc1530a4e35a62d1eaaa77ae74ea4c3585733 - cherrypick - 159eb4c30b5db576ec967145f59e1c63939cf641
+---> The cherrypicked commit sha is - 7afbc1530a4e35a62d1eaaa77ae74ea4c3585733
+Commit message - Rerun auto gen config to change offence to offense
+---> The original commit sha is - 159eb4c30b5db576ec967145f59e1c63939cf641
+Commit message - Merge pull request #845 from jonas054/fix_autocorrect
+
+Fix two bugs in autocorrect
+---> The files with partial_cherrypicks are:-
+rubocop-todo.yml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ 00f6890aae8d87bd7d8cbb4059d2780db9ad073d -> 03b314466c8ecf0ba1a847629d2897741db7edd1 } is a cherrypick
+{ 0495ecc53dc57381e742185981d138749d89fb0d -> 159eb4c30b5db576ec967145f59e1c63939cf641 }
+Partial Cherry-pick commits SHA are -> 
+03b314466c8ecf0ba1a847629d2897741db7edd1 - cherrypick - 159eb4c30b5db576ec967145f59e1c63939cf641
+---> The cherrypicked commit sha is - 03b314466c8ecf0ba1a847629d2897741db7edd1
+Commit message - Merge pull request #844 from agrimm/offense_offensive
+
+Rerun auto gen config to change offence to offense
+---> The original commit sha is - 159eb4c30b5db576ec967145f59e1c63939cf641
+Commit message - Merge pull request #845 from jonas054/fix_autocorrect
+
+Fix two bugs in autocorrect
+---> The files with partial_cherrypicks are:-
+rubocop-todo.yml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ be2232bd8721a8fddd66bb3c042dc645e5b6ef8d -> 76a3d58cc8bbd3f3789f5d4214f258a026b0b1a0 } is a cherrypick
+{ ef04dd621586336506c80fb61f82b768e1f17f39 -> abea551afc84f1063fb231aaecf5667362d84775 }
+Partial Cherry-pick commits SHA are -> 
+76a3d58cc8bbd3f3789f5d4214f258a026b0b1a0 - cherrypick - abea551afc84f1063fb231aaecf5667362d84775
+---> The cherrypicked commit sha is - 76a3d58cc8bbd3f3789f5d4214f258a026b0b1a0
+Commit message - Add rake console task
+---> The original commit sha is - abea551afc84f1063fb231aaecf5667362d84775
+Commit message - Merge pull request #813 from jonas054/new_cop_indent_hash
+
+New cop IndentHash
+---> The files with partial_cherrypicks are:-
+Rakefile
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ 67ee8d35ee390fe940a67ee36ff48655981fd5ba -> bd1fa80895f8ade4bbc87db322016a280a175d22 } is a cherrypick
+{ 358fbf4f3f90aa25eebd684bd38babad757b4dba -> 6bec5153650d602e3390fec3cc5a962b917ad380 }
+Partial Cherry-pick commits SHA are -> 
+bd1fa80895f8ade4bbc87db322016a280a175d22 - cherrypick - 6bec5153650d602e3390fec3cc5a962b917ad380
+---> The cherrypicked commit sha is - bd1fa80895f8ade4bbc87db322016a280a175d22
+Commit message - Introduce Fuubar style formatter
+
+This closes #809.
+---> The original commit sha is - 6bec5153650d602e3390fec3cc5a962b917ad380
+Commit message - Merge pull request #811 from yujinakayama/fuubar-style-formatter
+
+Introduce Fuubar style formatter
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+lib/rubocop.rb
+lib/rubocop/formatter/formatter_set.rb
+lib/rubocop/formatter/fuubar_style_formatter.rb
+lib/rubocop/options.rb
+rubocop-todo.yml
+rubocop.gemspec
+spec/rubocop/formatter/fuubar_style_formatter_spec.rb
+spec/rubocop/options_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ f836eb0d0dfe47538a714e8fb6b715b4ca60789c -> 968cb64582ea3692f563b13827f63e77dbca1eea } is a cherrypick
+{ 3ffcce7f685d6652fec2a901c5b93a303d7fe178 -> 90035294ff5a01da40c400237414a4afd24704da }
+Partial Cherry-pick commits SHA are -> 
+968cb64582ea3692f563b13827f63e77dbca1eea - cherrypick - 90035294ff5a01da40c400237414a4afd24704da
+---> The cherrypicked commit sha is - 968cb64582ea3692f563b13827f63e77dbca1eea
+Commit message - Excludes/includes support globs relative to the project (PWD for now).
+---> The original commit sha is - 90035294ff5a01da40c400237414a4afd24704da
+Commit message - Merge pull request #769 from nevir/relative-globs
+
+Excludes/includes support globs relative to the project (PWD for now).
+---> The files with partial_cherrypicks are:-
+lib/rubocop.rb
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/util.rb
+lib/rubocop/formatter/simple_text_formatter.rb
+lib/rubocop/path_util.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/path_util_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ 8466928ad6793532136ba58324f8a3a21e01cee8 -> 12f5cbbc6c2ec4dce6aa24c808d264f95768b3f0 } is a cherrypick
+{ 668779537725989f5ed89311d7661367e8bc0607 -> bd73fd9612dbc42f6e2afc7c04ee3b814850d85c }
+Partial Cherry-pick commits SHA are -> 
+12f5cbbc6c2ec4dce6aa24c808d264f95768b3f0 - cherrypick - bd73fd9612dbc42f6e2afc7c04ee3b814850d85c
+---> The cherrypicked commit sha is - 12f5cbbc6c2ec4dce6aa24c808d264f95768b3f0
+Commit message - Remove 2 pending from specs and fix lib code to make specs pass.
+---> The original commit sha is - bd73fd9612dbc42f6e2afc7c04ee3b814850d85c
+Commit message - Remove an unneeded pending specification
+---> The files with partial_cherrypicks are:-
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ 70e0310f46be6a138907d2c270b50c491f74d10a -> d5ba54852092ee8819637eb248d9c44220e4a103 } is a cherrypick
+{ 964db8227a99854f1c12bd6b7703e082e59b4454 -> 9defa3034b2b8887477a8a0b56cc6369ae240de8 }
+Partial Cherry-pick commits SHA are -> 
+d5ba54852092ee8819637eb248d9c44220e4a103 - cherrypick - 9defa3034b2b8887477a8a0b56cc6369ae240de8
+---> The cherrypicked commit sha is - d5ba54852092ee8819637eb248d9c44220e4a103
+Commit message - Adding en example on how to specify regular expressions
+---> The original commit sha is - 9defa3034b2b8887477a8a0b56cc6369ae240de8
+Commit message - Merge pull request #711 from AvnerCohen/regexp_exclude
+
+Adding en example on how to specify regular expressions
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ 453e12c2c5e5b71e1cfe529efff61df242d6a960 -> 8a9e5eb389bed99a9fdd881122a69d92f7acf942 } is a cherrypick
+{ c9561037d4de426847d19f8ec086a451a5c331c1 -> 946585f1db67b7c8bf3f69d428d41d406167b7f1 }
+Partial Cherry-pick commits SHA are -> 
+8a9e5eb389bed99a9fdd881122a69d92f7acf942 - cherrypick - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+---> The cherrypicked commit sha is - 8a9e5eb389bed99a9fdd881122a69d92f7acf942
+Commit message - Correct some special cases of block end alignment.
+
+When the method with a block is an operand in a binary operation.
+---> The original commit sha is - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+Commit message - Add changelog entry for #498
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ 5e72bc80160b755675bacb97c2f2e1f52ab18bab -> 040b17a66d89059ab27638d4a0bc0fe1528f4d83 } is a cherrypick
+{ c9561037d4de426847d19f8ec086a451a5c331c1 -> 946585f1db67b7c8bf3f69d428d41d406167b7f1 }
+Partial Cherry-pick commits SHA are -> 
+040b17a66d89059ab27638d4a0bc0fe1528f4d83 - cherrypick - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+---> The cherrypicked commit sha is - 040b17a66d89059ab27638d4a0bc0fe1528f4d83
+Commit message - Fix a false positive in FavorUnlessOverNegatedIf (fixes #427)
+---> The original commit sha is - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+Commit message - Add changelog entry for #498
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ 65b5b5c997d19b0e9227fa0a22731952b19cf349 -> 7385c176a949660128211d32cdfdfa828636c17f } is a cherrypick
+{ c9561037d4de426847d19f8ec086a451a5c331c1 -> 946585f1db67b7c8bf3f69d428d41d406167b7f1 }
+Partial Cherry-pick commits SHA are -> 
+7385c176a949660128211d32cdfdfa828636c17f - cherrypick - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+---> The cherrypicked commit sha is - 7385c176a949660128211d32cdfdfa828636c17f
+Commit message - Remove whitespaces between condition and `do` with WhileUntilDo auto-correction
+
+This fixes #449.
+---> The original commit sha is - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+Commit message - Add changelog entry for #498
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ b50970e1ed900cb946070f99a850601c2f00a120 -> 52a3a0a8901e76450e6183ddc6ea61cfd82cf99a } is a cherrypick
+{ c9561037d4de426847d19f8ec086a451a5c331c1 -> 946585f1db67b7c8bf3f69d428d41d406167b7f1 }
+Partial Cherry-pick commits SHA are -> 
+52a3a0a8901e76450e6183ddc6ea61cfd82cf99a - cherrypick - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+---> The cherrypicked commit sha is - 52a3a0a8901e76450e6183ddc6ea61cfd82cf99a
+Commit message - Fix crash on empty input file in FinalNewline.
+---> The original commit sha is - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+Commit message - Add changelog entry for #498
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ 521cc379b2d0cdd00f9589d89dfb7a035c70c685 -> c35a355deb019739b4e3446cfb35393cf45d342b } is a cherrypick
+{ c9561037d4de426847d19f8ec086a451a5c331c1 -> 946585f1db67b7c8bf3f69d428d41d406167b7f1 }
+Partial Cherry-pick commits SHA are -> 
+c35a355deb019739b4e3446cfb35393cf45d342b - cherrypick - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+---> The cherrypicked commit sha is - c35a355deb019739b4e3446cfb35393cf45d342b
+Commit message - Fix corner case crash in AlignHash cop.
+
+Single key/value pair when configuration is `table` for '=>' and `separator` for `:`.
+
+Fixes #496.
+---> The original commit sha is - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+Commit message - Add changelog entry for #498
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ 3c21b5ff4cf208e404d21e7b60fd6f4f715e3b09 -> e7692d3c46c170058dba4736d751870e12d12a31 } is a cherrypick
+{ c9561037d4de426847d19f8ec086a451a5c331c1 -> 946585f1db67b7c8bf3f69d428d41d406167b7f1 }
+Partial Cherry-pick commits SHA are -> 
+e7692d3c46c170058dba4736d751870e12d12a31 - cherrypick - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+---> The cherrypicked commit sha is - e7692d3c46c170058dba4736d751870e12d12a31
+Commit message - Fix bug concerning table/separator alignment of hash.
+
+Multiple key-value pairs per line in a multi-line hash was not supported correctly. Alignment can only be checked when each key/value is on a separate line, so we ignore these cases.
+---> The original commit sha is - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+Commit message - Add changelog entry for #498
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ 53b5d7a35b887c2bbb85217c7df125299728aa73 -> 6142f6b7966552049b2127045cc0f2b037d7cdc6 } is a cherrypick
+{ c9561037d4de426847d19f8ec086a451a5c331c1 -> 946585f1db67b7c8bf3f69d428d41d406167b7f1 }
+Partial Cherry-pick commits SHA are -> 
+6142f6b7966552049b2127045cc0f2b037d7cdc6 - cherrypick - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+---> The cherrypicked commit sha is - 6142f6b7966552049b2127045cc0f2b037d7cdc6
+Commit message - [Fix #561] Handle properly negative literals in NumericLiterals cop
+---> The original commit sha is - 946585f1db67b7c8bf3f69d428d41d406167b7f1
+Commit message - Add changelog entry for #498
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ 1ea299b9ed010b899b3fc9d2ef407f57764d954a -> d98c188174f936252731d56a700c4c1d02c30616 } is a cherrypick
+{ 671e11b1310aee741d1484d5b72a6a9e2070fc2f -> 9d732a680200bd5bf17bde3422914b6bf96ec708 }
+Partial Cherry-pick commits SHA are -> 
+d98c188174f936252731d56a700c4c1d02c30616 - cherrypick - 9d732a680200bd5bf17bde3422914b6bf96ec708
+---> The cherrypicked commit sha is - d98c188174f936252731d56a700c4c1d02c30616
+Commit message - Merge pull request #676 from jonas054/fix_unrecognized_excludes
+
+[Fix #674] Do not issue warning for Exclude and Include config params.
+---> The original commit sha is - 9d732a680200bd5bf17bde3422914b6bf96ec708
+Commit message - Add failing specs for chaining onto an 'end' with a block
+---> The files with partial_cherrypicks are:-
+spec/rubocop/cop/style/indentation_width_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ d2a00d6d4baf2bb26ed1785716bf0f944cc7cf72 -> c5fe488e85c3d544311ac50cbe0d6565c1525894 } is a cherrypick
+{ a220e6f688700588b52c0331cb4e0780125bdd41 -> 0d7161cdbc7548c790a77a31a4cef4897a10c430 }
+Partial Cherry-pick commits SHA are -> 
+c5fe488e85c3d544311ac50cbe0d6565c1525894 - cherrypick - 0d7161cdbc7548c790a77a31a4cef4897a10c430
+---> The cherrypicked commit sha is - c5fe488e85c3d544311ac50cbe0d6565c1525894
+Commit message - Fix the isolated environment spec on OS X
+
+The reason this spec was failing is that on OS X the temp directory is
+actually something like this:
+
+/var/folders/bg/8sxn6p0j5kv0j1z__3hwz5nm0000gn/T/
+
+However, /var is not an actual folder, but a symlink to /private/var and
+that causes the check for root_level in ConfigLoader.dirs_to_search() to
+fail and the ascend to continue.
+---> The original commit sha is - 0d7161cdbc7548c790a77a31a4cef4897a10c430
+Commit message - Merge pull request #683 from mitio/fix-isolated-environment-spec-on-osx
+
+Fix the isolated environment spec on OS X
+---> The files with partial_cherrypicks are:-
+spec/support/isolated_environment.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ 9de32fa65281b3cd28c512284419ba4f35f17734 -> 0cc14d066d341386805bde21d80871ccfddf0b50 } is a cherrypick
+{ 1ea299b9ed010b899b3fc9d2ef407f57764d954a -> d98c188174f936252731d56a700c4c1d02c30616 }
+Partial Cherry-pick commits SHA are -> 
+0cc14d066d341386805bde21d80871ccfddf0b50 - cherrypick - d98c188174f936252731d56a700c4c1d02c30616
+---> The cherrypicked commit sha is - 0cc14d066d341386805bde21d80871ccfddf0b50
+Commit message - [Fix #670] Extract if/while from method chaining before checking it.
+
+Chose to do a little bit of duplication between the two check_assignment
+methods, since it would be weird for the rhs to not be the entire right
+hand side of the assignment when check_assignment is called from the
+CheckAssignment module.
+---> The original commit sha is - d98c188174f936252731d56a700c4c1d02c30616
+Commit message - Merge pull request #676 from jonas054/fix_unrecognized_excludes
+
+[Fix #674] Do not issue warning for Exclude and Include config params.
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/lint/end_alignment.rb
+lib/rubocop/cop/style/indentation_width.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ 510fe2b5f8c888d5d9834a00c4fc9dcd3cd412db -> 4b6be34b9f451c6509ef389ce420bd346b5b3c10 } is a cherrypick
+{ abf211767cd86007d07d9d1bf3569efadb25294b -> 2de86c0dea471042f36f0ecb627c7149d0f3ad8b }
+Partial Cherry-pick commits SHA are -> 
+4b6be34b9f451c6509ef389ce420bd346b5b3c10 - cherrypick - 2de86c0dea471042f36f0ecb627c7149d0f3ad8b
+---> The cherrypicked commit sha is - 4b6be34b9f451c6509ef389ce420bd346b5b3c10
+Commit message - Handle Excludes with strings when passing config via -c
+---> The original commit sha is - 2de86c0dea471042f36f0ecb627c7149d0f3ad8b
+Commit message - Merge pull request #662 from jonas054/add_config_to_for_cop
+
+[Fix #654] Add config option EnforcedStyle to For cop.
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cli.rb
+lib/rubocop/config_store.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ 344745dca8e395666872b886c7c6a60e2822d81d -> abf211767cd86007d07d9d1bf3569efadb25294b } is a cherrypick
+{ abf211767cd86007d07d9d1bf3569efadb25294b -> 2de86c0dea471042f36f0ecb627c7149d0f3ad8b }
+Partial Cherry-pick commits SHA are -> 
+abf211767cd86007d07d9d1bf3569efadb25294b - cherrypick - 2de86c0dea471042f36f0ecb627c7149d0f3ad8b
+---> The cherrypicked commit sha is - abf211767cd86007d07d9d1bf3569efadb25294b
+Commit message - [Fix #654] Add config option EnforcedStyle to For cop.
+
+Values: each (default) and for.
+---> The original commit sha is - 2de86c0dea471042f36f0ecb627c7149d0f3ad8b
+Commit message - Merge pull request #662 from jonas054/add_config_to_for_cop
+
+[Fix #654] Add config option EnforcedStyle to For cop.
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cli.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ 0d6ea4dc5454062a33511f3dfd3968b397e7a582 -> 128df4c550a4f718472eac9ffd62d511aafc65c9 } is a cherrypick
+{ c68e06ddcebca70e4daa7b11c1d219b2c8933388 -> 510fe2b5f8c888d5d9834a00c4fc9dcd3cd412db }
+Partial Cherry-pick commits SHA are -> 
+128df4c550a4f718472eac9ffd62d511aafc65c9 - cherrypick - 510fe2b5f8c888d5d9834a00c4fc9dcd3cd412db
+---> The cherrypicked commit sha is - 128df4c550a4f718472eac9ffd62d511aafc65c9
+Commit message - Add configuration parameters for CaseIndentation.
+---> The original commit sha is - 510fe2b5f8c888d5d9834a00c4fc9dcd3cd412db
+Commit message - Merge pull request #660 from jonas054/add_case_ind_params
+
+Add configuration parameters for CaseIndentation.
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+config/default.yml
+config/enabled.yml
+lib/rubocop/cop/style/case_indentation.rb
+spec/rubocop/cop/style/case_indentation_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 49 is -> 
+{ 4b217fb9e47065eb039af1a339ad39eb46c1617f -> c9dcf749fac1870222072af0334952bf2a9e8481 } is a cherrypick
+{ 45acf623372ac4f1fbc0e97b1961be6b84f8f978 -> 5578b673d2a06d1bae48e471666f50a7a71e30bc }
+Partial Cherry-pick commits SHA are -> 
+c9dcf749fac1870222072af0334952bf2a9e8481 - cherrypick - 5578b673d2a06d1bae48e471666f50a7a71e30bc
+---> The cherrypicked commit sha is - c9dcf749fac1870222072af0334952bf2a9e8481
+Commit message - Remove printout from isolated environment spec.
+
+The spec printed some unwanted text on stdout:
+Inspecting 1 file
+.
+
+1 file inspected, no offences detected
+---> The original commit sha is - 5578b673d2a06d1bae48e471666f50a7a71e30bc
+Commit message - Merge pull request #658 from jonas054/fix_unwanted_printout
+
+Remove printout from isolated environment spec.
+---> The files with partial_cherrypicks are:-
+spec/isolated_environment_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 50 is -> 
+{ e4b7f673ae1920804b138b171611fa9f15463f1b -> 5e9d6976842f2771914509293de712dad07e5a78 } is a cherrypick
+{ dbd33f3614abcf274fc728d72f2399e90642e02f -> 0172d8b390a860e67d39496248b211d6338f2779 }
+Partial Cherry-pick commits SHA are -> 
+5e9d6976842f2771914509293de712dad07e5a78 - cherrypick - 0172d8b390a860e67d39496248b211d6338f2779
+---> The cherrypicked commit sha is - 5e9d6976842f2771914509293de712dad07e5a78
+Commit message - Allow self.Foo
+
+omitting `self` in `self.Foo` gives uninitialized constant NameError
+---> The original commit sha is - 0172d8b390a860e67d39496248b211d6338f2779
+Commit message - Merge branch 'allow-self' of git://github.com/chulkilee/rubocop into chulkilee-allow-self
+
+Conflicts:
+	CHANGELOG.md
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/style/redundant_self.rb
+spec/rubocop/cop/style/redundant_self_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 51 is -> 
+{ be551aec3607519172a51692095ccd2d4bb9a533 -> 286e947f40a1c4c806dae6cec23ade79a78744bc } is a cherrypick
+{ c0bfc98c34224b7ce21aab7c253aad5d90bf8b2d -> 19f14fd49039785577aa396befbab021692e35c9 }
+Partial Cherry-pick commits SHA are -> 
+286e947f40a1c4c806dae6cec23ade79a78744bc - cherrypick - 19f14fd49039785577aa396befbab021692e35c9
+---> The cherrypicked commit sha is - 286e947f40a1c4c806dae6cec23ade79a78744bc
+Commit message - Fix bug in auto-correct that changes each{ |x| to each d o |x|.
+
+A clash between SpaceAroundBlockBraces and Blocks auto-correction.
+---> The original commit sha is - 19f14fd49039785577aa396befbab021692e35c9
+Commit message - Merge pull request #641 from jonas054/fix_block_autocorrect_clash
+
+Fix block autocorrect clash
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 52 is -> 
+{ f34cf42fc9cee254eedd3430490e7a5e6eb751be -> bf750e0718986365ca51d6be3267e2ef56e5d99a } is a cherrypick
+{ 85f05df695c5099cbe20f4b2bdbd030bcdaf1c2c -> dc7544f825f93fb19b75bcc97b8907afe696c97c }
+Partial Cherry-pick commits SHA are -> 
+bf750e0718986365ca51d6be3267e2ef56e5d99a - cherrypick - dc7544f825f93fb19b75bcc97b8907afe696c97c
+---> The cherrypicked commit sha is - bf750e0718986365ca51d6be3267e2ef56e5d99a
+Commit message - accept dot position on same line for trailing style
+---> The original commit sha is - dc7544f825f93fb19b75bcc97b8907afe696c97c
+Commit message - Add an extra example
+---> The files with partial_cherrypicks are:-
+spec/rubocop/cop/style/dot_position_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 53 is -> 
+{ b1c631a6597d66738f42bf28250d4d629d9237c5 -> b279bbbfc0c0ddc60c9f53872f9f5874732e9067 } is a cherrypick
+{ aab468dec184838f6b389b893411cb03ecae7d13 -> 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420 }
+Partial Cherry-pick commits SHA are -> 
+b279bbbfc0c0ddc60c9f53872f9f5874732e9067 - cherrypick - 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420
+---> The cherrypicked commit sha is - b279bbbfc0c0ddc60c9f53872f9f5874732e9067
+Commit message - Implement lint-only CLI switch
+
+Running `rubocop --lint` will yield results similar to those you'd get
+from running `ruby -wc`.
+---> The original commit sha is - 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420
+Commit message - Add sections for the current master
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 54 is -> 
+{ 6b59a4041d106346559761335b69a9751cc555a2 -> 7c6c4ac88fcc4f6e2b0230e006956df23cc366dc } is a cherrypick
+{ aab468dec184838f6b389b893411cb03ecae7d13 -> 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420 }
+Partial Cherry-pick commits SHA are -> 
+7c6c4ac88fcc4f6e2b0230e006956df23cc366dc - cherrypick - 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420
+---> The cherrypicked commit sha is - 7c6c4ac88fcc4f6e2b0230e006956df23cc366dc
+Commit message - Add AllowAdjacentOneLineDefs config parameter for EmptyLineBetweenDefs.
+---> The original commit sha is - 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420
+Commit message - Add sections for the current master
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 55 is -> 
+{ 4453e570cacef96746f9aa17d6b6ef1e4cbf8500 -> 8a53c47892e7f28196c7c701e2149223c6aae1db } is a cherrypick
+{ aab468dec184838f6b389b893411cb03ecae7d13 -> 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420 }
+Partial Cherry-pick commits SHA are -> 
+8a53c47892e7f28196c7c701e2149223c6aae1db - cherrypick - 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420
+---> The cherrypicked commit sha is - 8a53c47892e7f28196c7c701e2149223c6aae1db
+Commit message - Add auto-correct to HashSyntax
+---> The original commit sha is - 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420
+Commit message - Add sections for the current master
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 56 is -> 
+{ 9a13736df3ce8fc12ee4b6a8bd901b064682961f -> e9d90834cb24bff5b1d241f18603d4da5095a405 } is a cherrypick
+{ aab468dec184838f6b389b893411cb03ecae7d13 -> 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420 }
+Partial Cherry-pick commits SHA are -> 
+e9d90834cb24bff5b1d241f18603d4da5095a405 - cherrypick - 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420
+---> The cherrypicked commit sha is - e9d90834cb24bff5b1d241f18603d4da5095a405
+Commit message - [Fix #491] New cop MethodCalledOnDoEndBlock.
+
+The rule is not really mainstream, so the cop is disabled by default.
+---> The original commit sha is - 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420
+Commit message - Add sections for the current master
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 57 is -> 
+{ fe30bb65c2dfffafc8b5f74eadbbb62ccace340c -> b029a09431b778dbb9251fa8055fcc8555d05acc } is a cherrypick
+{ aab468dec184838f6b389b893411cb03ecae7d13 -> 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420 }
+Partial Cherry-pick commits SHA are -> 
+b029a09431b778dbb9251fa8055fcc8555d05acc - cherrypick - 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420
+---> The cherrypicked commit sha is - b029a09431b778dbb9251fa8055fcc8555d05acc
+Commit message - New cop BracesAroundHashParameters checks for braces in function calls with hash parameters.
+---> The original commit sha is - 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420
+Commit message - Add sections for the current master
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 58 is -> 
+{ a3fc31ea904901604035eba80dd49b951afb9048 -> 7266ee312a40f6a702aca76968b883a2b59e5a6d } is a cherrypick
+{ aab468dec184838f6b389b893411cb03ecae7d13 -> 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420 }
+Partial Cherry-pick commits SHA are -> 
+7266ee312a40f6a702aca76968b883a2b59e5a6d - cherrypick - 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420
+---> The cherrypicked commit sha is - 7266ee312a40f6a702aca76968b883a2b59e5a6d
+Commit message - Merge pull request #549 from seanwalbran/fix-clang-formatter-column-range-error
+
+avoid range error in clang formatter when source spans multiple lines
+---> The original commit sha is - 6bbc1b0824a7ac173e2c64f1f6be5040ae3fa420
+Commit message - Add sections for the current master
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 59 is -> 
+{ fec13684b87e769d2392a830bf9a10c4df5cc15a -> 0a6032b7210be8b62901b0867b6d958194e992d1 } is a cherrypick
+{ 339f50ccf17559ccbf70601b0802cc5d4fec10e9 -> d876c6a99660f227da77961fdc7ff5a3ce577de6 }
+Partial Cherry-pick commits SHA are -> 
+0a6032b7210be8b62901b0867b6d958194e992d1 - cherrypick - d876c6a99660f227da77961fdc7ff5a3ce577de6
+---> The cherrypicked commit sha is - 0a6032b7210be8b62901b0867b6d958194e992d1
+Commit message - Allow WordArray to support a minimum array size
+
+Sometimes it is preferred to use an array for a small number of strings
+and only force the use of %w %W when the item count it large. This
+allows the WordArray style to only complain if the number of string
+elements are over the set minimum.
+---> The original commit sha is - d876c6a99660f227da77961fdc7ff5a3ce577de6
+Commit message - Merge pull request #603 from claco/word-arrsy-max
+
+Allow WordArray to support a minimum array size
+---> The files with partial_cherrypicks are:-
+config/default.yml
+lib/rubocop/cop/style/word_array.rb
+spec/rubocop/cop/style/word_array_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 60 is -> 
+{ ec4bb58a2bfbbd1c4f8004520668cbc9f6be811c -> e4f1d427937a993bf1c894afe0782a4fae785455 } is a cherrypick
+{ 62344d490a6e37c6105df650b41843c1d5ae1e1f -> 336ef9abb40f8293e8993e89826a1de07f589979 }
+Partial Cherry-pick commits SHA are -> 
+e4f1d427937a993bf1c894afe0782a4fae785455 - cherrypick - 336ef9abb40f8293e8993e89826a1de07f589979
+---> The cherrypicked commit sha is - e4f1d427937a993bf1c894afe0782a4fae785455
+Commit message - Make Options class more single responsibility.
+
+Let it deal with option parsing and validation, and then a minimum of other things.
+---> The original commit sha is - 336ef9abb40f8293e8993e89826a1de07f589979
+Commit message - Merge pull request #601 from jonas054/refactor_options
+
+Refactor options
+---> The files with partial_cherrypicks are:-
+.rubocop.yml
+lib/rubocop/cli.rb
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/team.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cop/team_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 61 is -> 
+{ 62bc4f4519f29b8be6302b325c1635368119b74e -> cb24b6d7c4896410b226c58beff81351dcde59be } is a cherrypick
+{ b4e52532e0cd915bbc26c0dc70ca6a70e5632027 -> 503478cf9c07affaebd4c66d04dd4fd7b0449314 }
+Partial Cherry-pick commits SHA are -> 
+cb24b6d7c4896410b226c58beff81351dcde59be - cherrypick - 503478cf9c07affaebd4c66d04dd4fd7b0449314
+---> The cherrypicked commit sha is - cb24b6d7c4896410b226c58beff81351dcde59be
+Commit message - Don't treat splats as trivial writers
+---> The original commit sha is - 503478cf9c07affaebd4c66d04dd4fd7b0449314
+Commit message - Merge pull request #566 from nevir/splat-is-not-trivial
+
+Don't treat splats as trivial writers
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+lib/rubocop/cop/style/trivial_accessors.rb
+spec/rubocop/cop/style/trivial_accessors_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 62 is -> 
+{ 3c89cbd5d3c41ead03f890af0adbeb22cdfbfd7e -> 862a19cf3cbbe59686c7ad79a13a15944a5d13e3 } is a cherrypick
+{ 30885b557f0f2b052377aa355a538c245dfdd618 -> 7825e22670626ebdaaaa9c1d7e3fbb939bc80159 }
+Partial Cherry-pick commits SHA are -> 
+862a19cf3cbbe59686c7ad79a13a15944a5d13e3 - cherrypick - 7825e22670626ebdaaaa9c1d7e3fbb939bc80159
+---> The cherrypicked commit sha is - 862a19cf3cbbe59686c7ad79a13a15944a5d13e3
+Commit message - Add Code Climate badge to README.md
+---> The original commit sha is - 7825e22670626ebdaaaa9c1d7e3fbb939bc80159
+Commit message - Merge pull request #563 from noahd1/master
+
+Add Code Climate badge to README.md
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 63 is -> 
+{ 521cc379b2d0cdd00f9589d89dfb7a035c70c685 -> c35a355deb019739b4e3446cfb35393cf45d342b } is a cherrypick
+{ 3c21b5ff4cf208e404d21e7b60fd6f4f715e3b09 -> e7692d3c46c170058dba4736d751870e12d12a31 }
+Partial Cherry-pick commits SHA are -> 
+c35a355deb019739b4e3446cfb35393cf45d342b - cherrypick - e7692d3c46c170058dba4736d751870e12d12a31
+---> The cherrypicked commit sha is - c35a355deb019739b4e3446cfb35393cf45d342b
+Commit message - Fix corner case crash in AlignHash cop.
+
+Single key/value pair when configuration is `table` for '=>' and `separator` for `:`.
+
+Fixes #496.
+---> The original commit sha is - e7692d3c46c170058dba4736d751870e12d12a31
+Commit message - Fix bug concerning table/separator alignment of hash.
+
+Multiple key-value pairs per line in a multi-line hash was not supported correctly. Alignment can only be checked when each key/value is on a separate line, so we ignore these cases.
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 64 is -> 
+{ 9222bc0dc93975123f3434aa380a2ab8a0ccf2a4 -> a1afa8e1acbab2f966f3134e1c83bd33c168590e } is a cherrypick
+{ 0c2bff5f8d6f5da1b3a9b6b6a52a1efb50c7e4f0 -> c6a23d7633e1b59666aa6b69bd9a56b6d2c1be9c }
+Partial Cherry-pick commits SHA are -> 
+a1afa8e1acbab2f966f3134e1c83bd33c168590e - cherrypick - c6a23d7633e1b59666aa6b69bd9a56b6d2c1be9c
+---> The cherrypicked commit sha is - a1afa8e1acbab2f966f3134e1c83bd33c168590e
+Commit message - Handle multiple-assignment and op-assignment in UselessSetterCall
+
+This fixes #485.
+---> The original commit sha is - c6a23d7633e1b59666aa6b69bd9a56b6d2c1be9c
+Commit message - Remove backported bsearch, since now it's bundled with Parser
+---> The files with partial_cherrypicks are:-
+lib/rubocop/backports/bsearch.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 65 is -> 
+{ 9222bc0dc93975123f3434aa380a2ab8a0ccf2a4 -> a1afa8e1acbab2f966f3134e1c83bd33c168590e } is a cherrypick
+{ 4d47beef2afed629ee17bf9d1f88a7f67d4faf7f -> 643a1d19d0cd16e24c9891b613002f3fb79bb0d8 }
+Partial Cherry-pick commits SHA are -> 
+a1afa8e1acbab2f966f3134e1c83bd33c168590e - cherrypick - 643a1d19d0cd16e24c9891b613002f3fb79bb0d8
+---> The cherrypicked commit sha is - a1afa8e1acbab2f966f3134e1c83bd33c168590e
+Commit message - Handle multiple-assignment and op-assignment in UselessSetterCall
+
+This fixes #485.
+---> The original commit sha is - 643a1d19d0cd16e24c9891b613002f3fb79bb0d8
+Commit message - Merge pull request #495 from yujinakayama/fix-useless-setter-call
+
+Handle multiple-assignment and op-assignment in UselessSetterCall
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/lint/useless_setter_call.rb
+spec/rubocop/cop/lint/useless_setter_call_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 66 is -> 
+{ 11c5eb07c889e3b90899aaac51d9baea63eeaf71 -> 218af638e5fddcd94713b7da08b728977203d722 } is a cherrypick
+{ 8a9db8a0f2fd2ed9c8a122566cf1228202d70bd5 -> 4453e570cacef96746f9aa17d6b6ef1e4cbf8500 }
+Partial Cherry-pick commits SHA are -> 
+218af638e5fddcd94713b7da08b728977203d722 - cherrypick - 4453e570cacef96746f9aa17d6b6ef1e4cbf8500
+---> The cherrypicked commit sha is - 218af638e5fddcd94713b7da08b728977203d722
+Commit message - Fix duplication in align_ array/parameters and string/character _literal.
+
+Extract common code into new modules.
+---> The original commit sha is - 4453e570cacef96746f9aa17d6b6ef1e4cbf8500
+Commit message - Merge pull request #488 from jonas054/remove_duplication
+
+Fix duplication in align_ array/parameters and string/character _literal
+---> The files with partial_cherrypicks are:-
+lib/rubocop.rb
+lib/rubocop/cop/style/align_array.rb
+lib/rubocop/cop/style/align_parameters.rb
+lib/rubocop/cop/style/autocorrect_alignment.rb
+lib/rubocop/cop/style/character_literal.rb
+lib/rubocop/cop/style/string_help.rb
+lib/rubocop/cop/style/string_literals.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 67 is -> 
+{ 6522233f9622fc608c3d7d4e447a01718cfa201d -> 8e9bbab8fa467367b4ddd07f423d37941632299b } is a cherrypick
+{ c73ab98d5b021ced4b1e235e01ef2d49b5404c7c -> a46748e60ce77efeb4edc9fa15375de5c66230a1 }
+Partial Cherry-pick commits SHA are -> 
+8e9bbab8fa467367b4ddd07f423d37941632299b - cherrypick - a46748e60ce77efeb4edc9fa15375de5c66230a1
+---> The cherrypicked commit sha is - 8e9bbab8fa467367b4ddd07f423d37941632299b
+Commit message - Don’t trigger HashSyntax on digit-starting keys.
+---> The original commit sha is - a46748e60ce77efeb4edc9fa15375de5c66230a1
+Commit message - Merge pull request #457 from chastell/hash_syntax_for_numbers
+
+Don’t trigger HashSyntax on digit-starting keys
+---> The files with partial_cherrypicks are:-
+spec/rubocop/cop/style/hash_syntax_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 68 is -> 
+{ 6522233f9622fc608c3d7d4e447a01718cfa201d -> 8e9bbab8fa467367b4ddd07f423d37941632299b } is a cherrypick
+{ bd45d2549511189b5bb4f43d4ab8562b82392420 -> fc575fd7ad011f5050288ee4ff9b6746807f9679 }
+Partial Cherry-pick commits SHA are -> 
+8e9bbab8fa467367b4ddd07f423d37941632299b - cherrypick - fc575fd7ad011f5050288ee4ff9b6746807f9679
+---> The cherrypicked commit sha is - 8e9bbab8fa467367b4ddd07f423d37941632299b
+Commit message - Don’t trigger HashSyntax on digit-starting keys.
+---> The original commit sha is - fc575fd7ad011f5050288ee4ff9b6746807f9679
+Commit message - Fix auto-correction in AlignParameters.
+
+Code was commented out in a previous refactoring. Using an instance
+variable to convey the argument for the auto-correction seems to be
+the best solution for the current implementation of the Cop class.
+---> The files with partial_cherrypicks are:-
+spec/rubocop/cop/style/align_parameters_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 69 is -> 
+{ 66098e186a50fee35c0cb3a3c78997d090e4850f -> 46de4399d099e21fa296f6608011bdd4f5c3e06d } is a cherrypick
+{ 2f3876158a65f5bcbd8bf62e00892bf495ae0356 -> ca37b0add4ef44e859716647710ea2887f1c3e09 }
+Partial Cherry-pick commits SHA are -> 
+46de4399d099e21fa296f6608011bdd4f5c3e06d - cherrypick - ca37b0add4ef44e859716647710ea2887f1c3e09
+---> The cherrypicked commit sha is - 46de4399d099e21fa296f6608011bdd4f5c3e06d
+Commit message - Drop -s/--silent option
+
+Now progress/simple/clang formatters always report summary
+and emacs/files formatters no longer report.
+---> The original commit sha is - ca37b0add4ef44e859716647710ea2887f1c3e09
+Commit message - Merge pull request #446 from yujinakayama/drop-silent-option
+
+Drop -s/--silent option
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+lib/rubocop/formatter/emacs_style_formatter.rb
+lib/rubocop/formatter/file_list_formatter.rb
+lib/rubocop/formatter/formatter_set.rb
+lib/rubocop/formatter/progress_formatter.rb
+lib/rubocop/formatter/simple_text_formatter.rb
+spec/rubocop/formatter/emacs_style_formatter_spec.rb
+spec/rubocop/formatter/file_list_formatter_spec.rb
+spec/rubocop/formatter/progress_formatter_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 70 is -> 
+{ adb584dd0a6eb2523e444aae50fd115b2f4e5d7c -> b88af7255b2559fec9a08b0922623ceeb86afae4 } is a cherrypick
+{ 25bc0f14f24000b7ccfa68d73370de92822a734f -> b89ee35b42c6c4d4829474cbfe53daa098cce421 }
+Partial Cherry-pick commits SHA are -> 
+b88af7255b2559fec9a08b0922623ceeb86afae4 - cherrypick - b89ee35b42c6c4d4829474cbfe53daa098cce421
+---> The cherrypicked commit sha is - b88af7255b2559fec9a08b0922623ceeb86afae4
+Commit message - Extract Token definition into separated file and move to Rubocop namespace
+---> The original commit sha is - b89ee35b42c6c4d4829474cbfe53daa098cce421
+Commit message - Remove duplicated definition of Token
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/cop.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 71 is -> 
+{ 8eecc6bff921af64afe22686e27a193446a32438 -> c590fdb2d5a36fc30f441494b385bb73c668891c } is a cherrypick
+{ b6a46d5272b72a1602e5a0f2132c76e93efc3a39 -> 3acd1be73f5986f74115f603631babc781b977c4 }
+Partial Cherry-pick commits SHA are -> 
+c590fdb2d5a36fc30f441494b385bb73c668891c - cherrypick - 3acd1be73f5986f74115f603631babc781b977c4
+---> The cherrypicked commit sha is - c590fdb2d5a36fc30f441494b385bb73c668891c
+Commit message - Make list of comment annotation keywords configurable.
+---> The original commit sha is - 3acd1be73f5986f74115f603631babc781b977c4
+Commit message - Merge pull request #401 from jonas054/fix_comment_annotation
+
+Fix comment annotation
+---> The files with partial_cherrypicks are:-
+config/default.yml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 72 is -> 
+{ 91c3dfcd16ce43bf882422db09be4f8feaf5deab -> f02e851df7e2252c9ddfa34fc4919e8cb38e6150 } is a cherrypick
+{ 15267ac1c3a504761127be103ee21cf19538f1a7 -> 415c60ab29a2828835b7e9503cbffa8035444778 }
+Partial Cherry-pick commits SHA are -> 
+f02e851df7e2252c9ddfa34fc4919e8cb38e6150 - cherrypick - 415c60ab29a2828835b7e9503cbffa8035444778
+---> The cherrypicked commit sha is - f02e851df7e2252c9ddfa34fc4919e8cb38e6150
+Commit message - Extract source parsing logic to SourceParser
+---> The original commit sha is - 415c60ab29a2828835b7e9503cbffa8035444778
+Commit message - Merge pull request #359 from yujinakayama/source-parser
+
+Extract source parsing logic to SourceParser
+---> The files with partial_cherrypicks are:-
+lib/rubocop.rb
+spec/rubocop/source_parser_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 73 is -> 
+{ db2460c106e9f58c20b92dc3b7383ab5c42f0b42 -> e62075a0d568178a996f45f4f37879da8c8d69ef } is a cherrypick
+{ ac15050422afffe238bfbf9b2c9255c1ffd6d631 -> af4ecce9aa84c1fb73093aaf3431ec538f365308 }
+Partial Cherry-pick commits SHA are -> 
+e62075a0d568178a996f45f4f37879da8c8d69ef - cherrypick - af4ecce9aa84c1fb73093aaf3431ec538f365308
+---> The cherrypicked commit sha is - e62075a0d568178a996f45f4f37879da8c8d69ef
+Commit message - Renamed Indentation cop to CaseIndentation
+---> The original commit sha is - af4ecce9aa84c1fb73093aaf3431ec538f365308
+Commit message - Update changelog
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 74 is -> 
+{ 2f5f14701b37c56474e6b6351c044137b4d5f426 -> 101c461ae55e5862ea76b60c27e2161fd739b72d } is a cherrypick
+{ ac15050422afffe238bfbf9b2c9255c1ffd6d631 -> af4ecce9aa84c1fb73093aaf3431ec538f365308 }
+Partial Cherry-pick commits SHA are -> 
+101c461ae55e5862ea76b60c27e2161fd739b72d - cherrypick - af4ecce9aa84c1fb73093aaf3431ec538f365308
+---> The cherrypicked commit sha is - 101c461ae55e5862ea76b60c27e2161fd739b72d
+Commit message - Add an option AllowCamelCase to SymbolName cop
+
+This is related to #165.
+---> The original commit sha is - af4ecce9aa84c1fb73093aaf3431ec538f365308
+Commit message - Update changelog
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 75 is -> 
+{ 54670f8810a34aac16f689f0388cf1aba7cf41e1 -> 4a0614244a2f0b46e83dcc18c90bead304d40728 } is a cherrypick
+{ ac15050422afffe238bfbf9b2c9255c1ffd6d631 -> af4ecce9aa84c1fb73093aaf3431ec538f365308 }
+Partial Cherry-pick commits SHA are -> 
+4a0614244a2f0b46e83dcc18c90bead304d40728 - cherrypick - af4ecce9aa84c1fb73093aaf3431ec538f365308
+---> The cherrypicked commit sha is - 4a0614244a2f0b46e83dcc18c90bead304d40728
+Commit message - Merge pull request #177 from yujinakayama/symbol-name
+
+Rework SymbolSnakeCase cop into SymbolName
+---> The original commit sha is - af4ecce9aa84c1fb73093aaf3431ec538f365308
+Commit message - Update changelog
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 76 is -> 
+{ 4e4f404269716140fb1f77843ad75e7b97663e61 -> 9c8b32ad0050c20d98e016ce324339909e1a6289 } is a cherrypick
+{ 4eef94d3a73cc044f068bbdf99f94ac226f4edfd -> fcf99e6408b03eacc33d9c7d8b80fc45de8aae76 }
+Partial Cherry-pick commits SHA are -> 
+9c8b32ad0050c20d98e016ce324339909e1a6289 - cherrypick - fcf99e6408b03eacc33d9c7d8b80fc45de8aae76
+---> The cherrypicked commit sha is - 9c8b32ad0050c20d98e016ce324339909e1a6289
+Commit message - Update version number to match CHANGELOG and rubygems.org
+---> The original commit sha is - fcf99e6408b03eacc33d9c7d8b80fc45de8aae76
+Commit message - Merge pull request #280 from lee-dohm/version
+
+Update version number to match CHANGELOG and rubygems.org
+---> The files with partial_cherrypicks are:-
+lib/rubocop/version.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 77 is -> 
+{ de2e1949c196c8c61d9a179cca3e9d4714d6f981 -> 9ad9acb117e30602919fdf45622f2a1d7e98fad2 } is a cherrypick
+{ de0591dea942fe1e32e6185d759f453574c31200 -> 13b2f7bbb85958aa051873d8a1495bfce660e142 }
+Partial Cherry-pick commits SHA are -> 
+9ad9acb117e30602919fdf45622f2a1d7e98fad2 - cherrypick - 13b2f7bbb85958aa051873d8a1495bfce660e142
+---> The cherrypicked commit sha is - 9ad9acb117e30602919fdf45622f2a1d7e98fad2
+Commit message - Make sure even disabled cops get their configuration set.
+
+Other cops may depend on it.
+---> The original commit sha is - 13b2f7bbb85958aa051873d8a1495bfce660e142
+Commit message - Merge pull request #217 from jonas054/fix_config_from_disabled_cop
+
+Make sure even disabled cops get their configuration set.
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cli.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 78 is -> 
+{ 101c461ae55e5862ea76b60c27e2161fd739b72d -> 54670f8810a34aac16f689f0388cf1aba7cf41e1 } is a cherrypick
+{ 4a0614244a2f0b46e83dcc18c90bead304d40728 -> acd4434bf617cc06a10d6a7256870595ad87d943 }
+Partial Cherry-pick commits SHA are -> 
+54670f8810a34aac16f689f0388cf1aba7cf41e1 - cherrypick - acd4434bf617cc06a10d6a7256870595ad87d943
+---> The cherrypicked commit sha is - 54670f8810a34aac16f689f0388cf1aba7cf41e1
+Commit message - Refactor a bit
+---> The original commit sha is - acd4434bf617cc06a10d6a7256870595ad87d943
+Commit message - Merge pull request #178 from yujinakayama/refactor
+
+Refactor a bit
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/method_and_variable_snake_case.rb
+lib/rubocop/cop/rescue_exception.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 79 is -> 
+{ f71a2eedb81488769a1ab100808070d63d32b165 -> 1171c20b70d090e1528e7d64e2dfbb9483d60a85 } is a cherrypick
+{ 86a1f9e8c8775087287e9073c213526d44c308e7 -> 7fd2f96e5192b21713d84160d0a045fbb0ce4c1c }
+Partial Cherry-pick commits SHA are -> 
+1171c20b70d090e1528e7d64e2dfbb9483d60a85 - cherrypick - 7fd2f96e5192b21713d84160d0a045fbb0ce4c1c
+---> The cherrypicked commit sha is - 1171c20b70d090e1528e7d64e2dfbb9483d60a85
+Commit message - Add --only option for running a single cop.
+
+This is very useful for debugging, and probably good for end users
+as well.
+---> The original commit sha is - 7fd2f96e5192b21713d84160d0a045fbb0ce4c1c
+Commit message - Add --only option for running a single cop.
+
+This is very useful for debugging, and probably good for end users
+as well.
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+README.md
+lib/rubocop/cli.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 80 is -> 
+{ 1171c20b70d090e1528e7d64e2dfbb9483d60a85 -> 3851baa0520ee18f5280f363a3ef5f44585496b0 } is a cherrypick
+{ bb2e84356bbe0d2a1d930e3316e2719588f33028 -> 86a1f9e8c8775087287e9073c213526d44c308e7 }
+Partial Cherry-pick commits SHA are -> 
+3851baa0520ee18f5280f363a3ef5f44585496b0 - cherrypick - 86a1f9e8c8775087287e9073c213526d44c308e7
+---> The cherrypicked commit sha is - 3851baa0520ee18f5280f363a3ef5f44585496b0
+Commit message - Merge pull request #142 from jurriaan/small-fixes
+
+replaced if array.find {} with if array.any? {}
+---> The original commit sha is - 86a1f9e8c8775087287e9073c213526d44c308e7
+Commit message - replaced if array.find {} with if array.any? {}
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/hash_syntax.rb
+lib/rubocop/cop/unless_else.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 81 is -> 
+{ 8c4dc1fd0b876c65eaa2b7c364e02b2dc7f4b521 -> c3a843a92ba254b6aa8bd1962b7aadec0df13e0b } is a cherrypick
+{ acfe286ed1d29a15e74ec87b20f2fe45a6a09dc4 -> 3b07b69ec59e508fb24ec334a75b83b77113b68f }
+Partial Cherry-pick commits SHA are -> 
+c3a843a92ba254b6aa8bd1962b7aadec0df13e0b - cherrypick - 3b07b69ec59e508fb24ec334a75b83b77113b68f
+---> The cherrypicked commit sha is - c3a843a92ba254b6aa8bd1962b7aadec0df13e0b
+Commit message - Merge pull request #135 from yujinakayama/refactor-cli-spec
+
+Refactor CLI spec
+---> The original commit sha is - 3b07b69ec59e508fb24ec334a75b83b77113b68f
+Commit message - Change FileHelper#create_file to add line feed to end of file
+---> The files with partial_cherrypicks are:-
+spec/rubocop/configuration_spec.rb
+spec/support/file_helper.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 82 is -> 
+{ f71a2eedb81488769a1ab100808070d63d32b165 -> 1171c20b70d090e1528e7d64e2dfbb9483d60a85 } is a cherrypick
+{ 3851baa0520ee18f5280f363a3ef5f44585496b0 -> b5d8ddea13ba346f13b9c5822170482dec08e2f3 }
+Partial Cherry-pick commits SHA are -> 
+1171c20b70d090e1528e7d64e2dfbb9483d60a85 - cherrypick - b5d8ddea13ba346f13b9c5822170482dec08e2f3
+---> The cherrypicked commit sha is - 1171c20b70d090e1528e7d64e2dfbb9483d60a85
+Commit message - Add --only option for running a single cop.
+
+This is very useful for debugging, and probably good for end users
+as well.
+---> The original commit sha is - b5d8ddea13ba346f13b9c5822170482dec08e2f3
+Commit message - Merge pull request #140 from jonas054/only_option
+
+Add --only option for running a single cop.
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+README.md
+lib/rubocop/cli.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 83 is -> 
+{ 2ded98968ff2e89abf17f06a720d67440b7093f3 -> 1cd2b2aa6eecf301eb98054c98c24dd63220c335 } is a cherrypick
+{ e28ef3f16b99c514edacc49e98bf45052ce8bf6b -> ac1ec1dfba3699a1be105aefab64ffe2838683fa }
+Partial Cherry-pick commits SHA are -> 
+1cd2b2aa6eecf301eb98054c98c24dd63220c335 - cherrypick - ac1ec1dfba3699a1be105aefab64ffe2838683fa
+---> The cherrypicked commit sha is - 1cd2b2aa6eecf301eb98054c98c24dd63220c335
+Commit message - fixing #125
+
+fixing #125
+---> The original commit sha is - ac1ec1dfba3699a1be105aefab64ffe2838683fa
+Commit message - Merge pull request #129 from zeroed/master
+
+fixing #125
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/trivial_accessors.rb
+spec/rubocop/cops/trivial_accessors_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 84 is -> 
+{ 6ae2bf5685aec84aa61ee0244512086e25d064b5 -> 874772c33cb406f783935cfe0ed638c65aa853b2 } is a cherrypick
+{ 0b9333b588825ec831368e0a2346ae2d8c149722 -> d122bce093fc500ebe9fe17f408ad8f920587539 }
+Partial Cherry-pick commits SHA are -> 
+874772c33cb406f783935cfe0ed638c65aa853b2 - cherrypick - d122bce093fc500ebe9fe17f408ad8f920587539
+---> The cherrypicked commit sha is - 874772c33cb406f783935cfe0ed638c65aa853b2
+Commit message - Remove unneeded Report module wrap in CLI spec
+
+Probably remains of copy and paste?
+---> The original commit sha is - d122bce093fc500ebe9fe17f408ad8f920587539
+Commit message - Merge pull request #123 from yujinakayama/remove-unneeded-module-in-cli-spec
+
+Remove unneeded Report module wrap in CLI spec
+---> The files with partial_cherrypicks are:-
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 85 is -> 
+{ a1bfdb53fd49d35183c6e0696eb94d7118780d5b -> cb211e9f2f12847c3894529a967a74abb79b1f82 } is a cherrypick
+{ c7584300f4f2152dcc6d4896ccac4be37469d6bf -> 5bea113a53f205c2ba557cdcc3d700eef8919f3a }
+Partial Cherry-pick commits SHA are -> 
+cb211e9f2f12847c3894529a967a74abb79b1f82 - cherrypick - 5bea113a53f205c2ba557cdcc3d700eef8919f3a
+---> The cherrypicked commit sha is - cb211e9f2f12847c3894529a967a74abb79b1f82
+Commit message - Issue warning when configuration contains an unrecognized name.
+
+Check cop names and parameter names.
+---> The original commit sha is - 5bea113a53f205c2ba557cdcc3d700eef8919f3a
+Commit message - Merge pull request #120 from jonas054/catch_errors_in_config
+
+Issue warning when configuration contains an unrecognized name.
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+lib/rubocop/cli.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 86 is -> 
+{ e80c46c372d8cca62ebb2f77d4e677f43acef570 -> 78a5952a4c847e34e35466f284169f008f7f48cc } is a cherrypick
+{ 4ec7440c4f3682e310af3e73c3dda2577e97725f -> 1aa909d18735b06de60af5620399cc4149be508d }
+Partial Cherry-pick commits SHA are -> 
+78a5952a4c847e34e35466f284169f008f7f48cc - cherrypick - 1aa909d18735b06de60af5620399cc4149be508d
+---> The cherrypicked commit sha is - 78a5952a4c847e34e35466f284169f008f7f48cc
+Commit message - enhance -d
+---> The original commit sha is - 1aa909d18735b06de60af5620399cc4149be508d
+Commit message - Merge pull request #82 from bolandrm/debug_enhancement
+
+enhance debug mode (-d)
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cli.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 87 is -> 
+{ 8e9b408b9ae3d5f877561933bc31452ce63c8886 -> 87e5d90ca528c76e8703ed505d2e724f343c2490 } is a cherrypick
+{ a3f9049e00299a67b8936c27444835ee6a21cfc7 -> c5ec0a67ef4a79021e6a25b93e87270450d3fa6a }
+Partial Cherry-pick commits SHA are -> 
+87e5d90ca528c76e8703ed505d2e724f343c2490 - cherrypick - c5ec0a67ef4a79021e6a25b93e87270450d3fa6a
+---> The cherrypicked commit sha is - 87e5d90ca528c76e8703ed505d2e724f343c2490
+Commit message - Support rubocop:disable and rubocop:enable comments.
+---> The original commit sha is - c5ec0a67ef4a79021e6a25b93e87270450d3fa6a
+Commit message - Merge pull request #68 from jonas054/config
+
+Support rubocop:disable and rubocop:enable comments.
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+README.md
+lib/rubocop/cop/cop.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 88 is -> 
+{ 16a0487aac6de00fb30297fd693e835fab28ccad -> 033dc3521b47498f01a88d2d9a52406625780e6c } is a cherrypick
+{ 5caac70be4ab0dd98e523094d75ddf73cb0c2b3f -> de2fa45227bf1287b1ec4fdb3abeeae07aaebcb5 }
+Partial Cherry-pick commits SHA are -> 
+033dc3521b47498f01a88d2d9a52406625780e6c - cherrypick - de2fa45227bf1287b1ec4fdb3abeeae07aaebcb5
+---> The cherrypicked commit sha is - 033dc3521b47498f01a88d2d9a52406625780e6c
+Commit message - Add finding extensionless Ruby files with shebangs.
+
+By default now finds all Ruby source files under the current directory.
+A Ruby source file is defined as a file with the `.rb` extension or a
+file with no extension that has a ruby shebang line as its first line.
+---> The original commit sha is - de2fa45227bf1287b1ec4fdb3abeeae07aaebcb5
+Commit message - Merge pull request #58 from lee-dohm/default_files
+
+Add extensionless files with shebang lines to the set of default files
+---> The files with partial_cherrypicks are:-
+bin/rubocop
+lib/rubocop/cli.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 89 is -> 
+{ 53c10f972aa292a065621a14eaeb74c95d376a5a -> 87c7d6a2c294463a0f7de356f1f51f3c6541e603 } is a cherrypick
+{ a752005d03fb19783e1cf07879c513345d2dc6f3 -> ebdaf2a36811d23845ae289646d1b3ae3b22b4fd }
+Partial Cherry-pick commits SHA are -> 
+87c7d6a2c294463a0f7de356f1f51f3c6541e603 - cherrypick - ebdaf2a36811d23845ae289646d1b3ae3b22b4fd
+---> The cherrypicked commit sha is - 87c7d6a2c294463a0f7de356f1f51f3c6541e603
+Commit message - Add new cop AvoidFor
+
+It checks for uses of `for` and recommends the use of `each`
+instead.
+---> The original commit sha is - ebdaf2a36811d23845ae289646d1b3ae3b22b4fd
+Commit message - Merge pull request #46 from lloeki/fix_block_parsing
+
+fix parsing of blocks containing interpolations
+---> The files with partial_cherrypicks are:-
+.rubocop.yml
+lib/rubocop.rb
+spec/rubocop/cops/avoid_for_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 90 is -> 
+{ c8f916d38fe124e73e525d00584e3abbeabba131 -> b1b439b5c36692261f638502e892fd9f180a9b2e } is a cherrypick
+{ c2eca33f402b2b0ece141f234fa2f97db5b4da14 -> 2f660bd70aba6ecd24c7a81aad9a2457af48fbee }
+Partial Cherry-pick commits SHA are -> 
+b1b439b5c36692261f638502e892fd9f180a9b2e - cherrypick - 2f660bd70aba6ecd24c7a81aad9a2457af48fbee
+---> The cherrypicked commit sha is - b1b439b5c36692261f638502e892fd9f180a9b2e
+Commit message - Added UnnecessaryThen cop.
+---> The original commit sha is - 2f660bd70aba6ecd24c7a81aad9a2457af48fbee
+Commit message - Merge branch 'master' into more_rules
+---> The files with partial_cherrypicks are:-
+lib/rubocop.rb
+lib/rubocop/cop/def_parentheses.rb
+lib/rubocop/cop/unnecessary_then.rb
+spec/rubocop/cops/def_parentheses_spec.rb
+spec/rubocop/cops/unnecessary_then_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 91 is -> 
+{ e7b45531ae5a6a42f4f233fbe8c7d1963773c691 -> 0b8ed90c5e22409cb536aa39aa3427568783dc9b } is a cherrypick
+{ 0afc026ac63cebe1351b8015bf2204abbfaf3d12 -> 24d8507646312124941ca6dd21121c2c16ef798a }
+Partial Cherry-pick commits SHA are -> 
+0b8ed90c5e22409cb536aa39aa3427568783dc9b - cherrypick - 24d8507646312124941ca6dd21121c2c16ef798a
+---> The cherrypicked commit sha is - 0b8ed90c5e22409cb536aa39aa3427568783dc9b
+Commit message - Added cop for DOS line endings.
+---> The original commit sha is - 24d8507646312124941ca6dd21121c2c16ef798a
+Commit message - Corrected handling of braces.
+---> The files with partial_cherrypicks are:-
+.travis.yml
+README.md
+bin/rubocop
+features/step_definitions/rubocop_steps.rb
+features/support/env.rb
+lib/rubocop.rb
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/end_of_line.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cops/cop_spec.rb
+spec/rubocop/cops/empty_lines_spec.rb
+spec/rubocop/cops/end_of_line_spec.rb
+spec/rubocop/cops/hash_syntax_spec.rb
+spec/rubocop/cops/line_length_spec.rb
+spec/rubocop/cops/offence_spec.rb
+spec/rubocop/cops/space_after_comma_etc_spec.rb
+spec/rubocop/cops/tab_spec.rb
+spec/rubocop/cops/trailing_whitespace_spec.rb
+spec/rubocop/reports/emacs_style_spec.rb
+spec/rubocop/reports/report_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 92 is -> 
+{ c7a9976ab35f2d4acc55ebf842431de0a8a7c928 -> 94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5 } is a cherrypick
+{ 0876241af8f11273f6170b30bc7c7a45e4ba7012 -> 0afc026ac63cebe1351b8015bf2204abbfaf3d12 }
+Partial Cherry-pick commits SHA are -> 
+94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5 - cherrypick - 0afc026ac63cebe1351b8015bf2204abbfaf3d12
+---> The cherrypicked commit sha is - 94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5
+Commit message - Added utf-8 encoding comment.
+---> The original commit sha is - 0afc026ac63cebe1351b8015bf2204abbfaf3d12
+Commit message - added missing utf-8 encoding declarations
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/empty_lines.rb
+lib/rubocop/cop/grammar.rb
+lib/rubocop/cop/indentation.rb
+lib/rubocop/cop/space_after_comma_etc.rb
+lib/rubocop/cop/surrounding_space.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 93 is -> 
+{ 5394ac5900217acc9c0e0e642f3b6b016f1c35a6 -> 6269a8314f288818c0238e0e992528886fb34074 } is a cherrypick
+{ 0876241af8f11273f6170b30bc7c7a45e4ba7012 -> 0afc026ac63cebe1351b8015bf2204abbfaf3d12 }
+Partial Cherry-pick commits SHA are -> 
+6269a8314f288818c0238e0e992528886fb34074 - cherrypick - 0afc026ac63cebe1351b8015bf2204abbfaf3d12
+---> The cherrypicked commit sha is - 6269a8314f288818c0238e0e992528886fb34074
+Commit message - Merge branch 'master' into more_rules
+---> The original commit sha is - 0afc026ac63cebe1351b8015bf2204abbfaf3d12
+Commit message - added missing utf-8 encoding declarations
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/empty_lines.rb
+lib/rubocop/cop/grammar.rb
+lib/rubocop/cop/hash_syntax.rb
+lib/rubocop/cop/indentation.rb
+lib/rubocop/cop/space_after_comma_etc.rb
+lib/rubocop/cop/surrounding_space.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 94 is -> 
+{ e7b45531ae5a6a42f4f233fbe8c7d1963773c691 -> 0b8ed90c5e22409cb536aa39aa3427568783dc9b } is a cherrypick
+{ 0876241af8f11273f6170b30bc7c7a45e4ba7012 -> 0afc026ac63cebe1351b8015bf2204abbfaf3d12 }
+Partial Cherry-pick commits SHA are -> 
+0b8ed90c5e22409cb536aa39aa3427568783dc9b - cherrypick - 0afc026ac63cebe1351b8015bf2204abbfaf3d12
+---> The cherrypicked commit sha is - 0b8ed90c5e22409cb536aa39aa3427568783dc9b
+Commit message - Added cop for DOS line endings.
+---> The original commit sha is - 0afc026ac63cebe1351b8015bf2204abbfaf3d12
+Commit message - added missing utf-8 encoding declarations
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/empty_lines.rb
+lib/rubocop/cop/grammar.rb
+lib/rubocop/cop/hash_syntax.rb
+lib/rubocop/cop/indentation.rb
+lib/rubocop/cop/space_after_comma_etc.rb
+lib/rubocop/cop/surrounding_space.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 95 is -> 
+{ a7253a7193ef16977b52bacfc3846a9cdd953491 -> 5394ac5900217acc9c0e0e642f3b6b016f1c35a6 } is a cherrypick
+{ 6269a8314f288818c0238e0e992528886fb34074 -> ad4767c801af4dcf29d30759ce16692840d53531 }
+Partial Cherry-pick commits SHA are -> 
+5394ac5900217acc9c0e0e642f3b6b016f1c35a6 - cherrypick - ad4767c801af4dcf29d30759ce16692840d53531
+---> The cherrypicked commit sha is - 5394ac5900217acc9c0e0e642f3b6b016f1c35a6
+Commit message - Merge remote branch 'upstream/master'
+---> The original commit sha is - ad4767c801af4dcf29d30759ce16692840d53531
+Commit message - added a script config to .travis.yml
+---> The files with partial_cherrypicks are:-
+features/step_definitions/rubocop_steps.rb
+features/support/env.rb
+lib/rubocop/cop/empty_lines.rb
+lib/rubocop/cop/grammar.rb
+lib/rubocop/cop/hash_syntax.rb
+lib/rubocop/cop/indentation.rb
+lib/rubocop/cop/space_after_comma_etc.rb
+lib/rubocop/cop/surrounding_space.rb
+spec/rubocop/cops/cop_spec.rb
+spec/rubocop/cops/empty_lines_spec.rb
+spec/rubocop/cops/grammar_spec.rb
+spec/rubocop/cops/hash_syntax_spec.rb
+spec/rubocop/cops/indentation_spec.rb
+spec/rubocop/cops/line_length_spec.rb
+spec/rubocop/cops/offence_spec.rb
+spec/rubocop/cops/space_after_comma_etc_spec.rb
+spec/rubocop/cops/surrounding_space_spec.rb
+spec/rubocop/cops/tab_spec.rb
+spec/rubocop/cops/trailing_whitespace_spec.rb
+spec/rubocop/reports/emacs_style_spec.rb
+spec/rubocop/reports/report_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 96 is -> 
+{ c7a9976ab35f2d4acc55ebf842431de0a8a7c928 -> 94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5 } is a cherrypick
+{ 5394ac5900217acc9c0e0e642f3b6b016f1c35a6 -> 6269a8314f288818c0238e0e992528886fb34074 }
+Partial Cherry-pick commits SHA are -> 
+94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5 - cherrypick - 6269a8314f288818c0238e0e992528886fb34074
+---> The cherrypicked commit sha is - 94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5
+Commit message - Added utf-8 encoding comment.
+---> The original commit sha is - 6269a8314f288818c0238e0e992528886fb34074
+Commit message - Merge branch 'master' into more_rules
+---> The files with partial_cherrypicks are:-
+features/step_definitions/rubocop_steps.rb
+features/support/env.rb
+lib/rubocop/cop/empty_lines.rb
+lib/rubocop/cop/grammar.rb
+lib/rubocop/cop/indentation.rb
+lib/rubocop/cop/space_after_comma_etc.rb
+lib/rubocop/cop/surrounding_space.rb
+spec/rubocop/cops/cop_spec.rb
+spec/rubocop/cops/empty_lines_spec.rb
+spec/rubocop/cops/grammar_spec.rb
+spec/rubocop/cops/indentation_spec.rb
+spec/rubocop/cops/line_length_spec.rb
+spec/rubocop/cops/offence_spec.rb
+spec/rubocop/cops/space_after_comma_etc_spec.rb
+spec/rubocop/cops/surrounding_space_spec.rb
+spec/rubocop/cops/tab_spec.rb
+spec/rubocop/cops/trailing_whitespace_spec.rb
+spec/rubocop/reports/emacs_style_spec.rb
+spec/rubocop/reports/report_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 97 is -> 
+{ 4639cef9f6deee66d2088ae48670e37d03999e98 -> bff561533c2c5a0764da250c809075aff76f7280 } is a cherrypick
+{ c5136f91d3ab7fffc2429d6df059eddb108840c7 -> b18d69916426db78ecfd77e440ba025c6fede089 }
+Partial Cherry-pick commits SHA are -> 
+bff561533c2c5a0764da250c809075aff76f7280 - cherrypick - b18d69916426db78ecfd77e440ba025c6fede089
+---> The cherrypicked commit sha is - bff561533c2c5a0764da250c809075aff76f7280
+Commit message - Added HashSyntax cop.
+---> The original commit sha is - b18d69916426db78ecfd77e440ba025c6fede089
+Commit message - Merge branch 'more_rules' of github.com:jonas054/rubocop into more_rules
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/hash_syntax.rb
+spec/rubocop/cops/hash_syntax_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 98 is -> 
+{ 31295af2891fc6dcf30bb7d17117cfa8117fba1f -> bfc2ff5a567d1cb820a6b1de0205cc59c04298b0 } is a cherrypick
+{ 03d188fdf6315d374194de817d5af2fc33e6574d -> 3f717681e143f9dee35bf919cb738c2e0d99d0dc }
+Partial Cherry-pick commits SHA are -> 
+bfc2ff5a567d1cb820a6b1de0205cc59c04298b0 - cherrypick - 3f717681e143f9dee35bf919cb738c2e0d99d0dc
+---> The cherrypicked commit sha is - bfc2ff5a567d1cb820a6b1de0205cc59c04298b0
+Commit message - Updated spec with encoding stuff after merge from upstream.
+---> The original commit sha is - 3f717681e143f9dee35bf919cb738c2e0d99d0dc
+Commit message - Merge remote branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 99 is -> 
+{ d56b051fdd3e429135d71e0e54d677bd327d153e -> 3db8d1a6d0c027d238ee039622506d44aad0dce8 } is a cherrypick
+{ 993a2ea8e15f35c111bbd0b240d2aadd19a97250 -> 03d188fdf6315d374194de817d5af2fc33e6574d }
+Partial Cherry-pick commits SHA are -> 
+3db8d1a6d0c027d238ee039622506d44aad0dce8 - cherrypick - 03d188fdf6315d374194de817d5af2fc33e6574d
+---> The cherrypicked commit sha is - 3db8d1a6d0c027d238ee039622506d44aad0dce8
+Commit message - enforce utf-8 as the source file encoding
+---> The original commit sha is - 03d188fdf6315d374194de817d5af2fc33e6574d
+Commit message - Merge pull request #3 from jonas054/more_rules
+
+More rules
+---> The files with partial_cherrypicks are:-
+lib/rubocop.rb
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/line_length.rb
+lib/rubocop/cop/offence.rb
+lib/rubocop/cop/tab.rb
+lib/rubocop/cop/trailing_whitespace.rb
+lib/rubocop/report/emacs_style.rb
+lib/rubocop/report/plain_text.rb
+lib/rubocop/report/report.rb
+lib/rubocop/version.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 100 is -> 
+{ 31295af2891fc6dcf30bb7d17117cfa8117fba1f -> bfc2ff5a567d1cb820a6b1de0205cc59c04298b0 } is a cherrypick
+{ 993a2ea8e15f35c111bbd0b240d2aadd19a97250 -> 03d188fdf6315d374194de817d5af2fc33e6574d }
+Partial Cherry-pick commits SHA are -> 
+bfc2ff5a567d1cb820a6b1de0205cc59c04298b0 - cherrypick - 03d188fdf6315d374194de817d5af2fc33e6574d
+---> The cherrypicked commit sha is - bfc2ff5a567d1cb820a6b1de0205cc59c04298b0
+Commit message - Updated spec with encoding stuff after merge from upstream.
+---> The original commit sha is - 03d188fdf6315d374194de817d5af2fc33e6574d
+Commit message - Merge pull request #3 from jonas054/more_rules
+
+More rules
+---> The files with partial_cherrypicks are:-
+lib/rubocop/cop/encoding.rb
+lib/rubocop/cop/offence.rb
+lib/rubocop/cop/tab.rb
+lib/rubocop/cop/trailing_whitespace.rb
+lib/rubocop/report/emacs_style.rb
+lib/rubocop/report/plain_text.rb
+lib/rubocop/report/report.rb
+lib/rubocop/version.rb
+-----------------------------------------------------------------
+

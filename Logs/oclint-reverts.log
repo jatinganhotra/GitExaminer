@@ -1,0 +1,27 @@
+# of reverts = 2
+Revert diff pair 1 is -> 
+{ 801808d2468b9ef572af64b4de20cb264440563b -> 43e26f7026527928b23bc2b8b8191265cd26ddd8 } is a revert
+{ 8387c631147f2fb4668fa5a80613310fc4d2f60a -> 2d866b4f417479901ce90a17eeaa80417c970f71 }
+Revert commits SHA are -> 
+43e26f7026527928b23bc2b8b8191265cd26ddd8 - revert - 2d866b4f417479901ce90a17eeaa80417c970f71
+---> The reverted commit sha is - 43e26f7026527928b23bc2b8b8191265cd26ddd8
+Commit message - temporary fix for gmock r477 by updating gtest to the latest r686
+---> The original commit sha is - 2d866b4f417479901ce90a17eeaa80417c970f71
+Commit message - Catch up with the latest google test
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 7e906d5f04b176d872160e527cf4c6b951209153 -> d6b92035fe99fa77253842b45be39546c61ca931 } is a revert
+{ d6b92035fe99fa77253842b45be39546c61ca931 -> 9b3149dbf4127fbf7058ae67fd893dd2bf8607c1 }
+Revert commits SHA are -> 
+d6b92035fe99fa77253842b45be39546c61ca931 - revert - 9b3149dbf4127fbf7058ae67fd893dd2bf8607c1
+---> The reverted commit sha is - d6b92035fe99fa77253842b45be39546c61ca931
+Commit message - Merge pull request #146 from Jarod42/FixBuildForWindows
+
+[Win32] Add missing files for OCLintAbstractRule lib.
+---> The original commit sha is - 9b3149dbf4127fbf7058ae67fd893dd2bf8607c1
+Commit message - Revert "Add missing files for OCLintAbstractRule lib."
+
+This reverts commit db359d3ef2ae1991cc2528a736726ffdccd23f87.
+-----------------------------------------------------------------
+

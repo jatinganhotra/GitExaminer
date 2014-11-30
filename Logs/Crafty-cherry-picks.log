@@ -1,0 +1,916 @@
+# of cherry-picks = 65
+Cherry-pick diff pair 1 is -> 
+{ dac9c04def39525d11af61b18487eea1415afc93 -> bfb7122164774af2e6f1d608c50e2bdbf01217f3 } is a cherrypick
+{ cad8a123d57656cffe43deacf270e7180f65fea9 -> e9a293820afdfb30aa61e13ce77e4919e354bfd2 }
+Cherrypick commits SHA are -> 
+bfb7122164774af2e6f1d608c50e2bdbf01217f3 - cherrypick - e9a293820afdfb30aa61e13ce77e4919e354bfd2
+---> The cherrypicked commit sha is - bfb7122164774af2e6f1d608c50e2bdbf01217f3
+Commit message - Fix bug in _SAT collision test
+
+The test improperly detected min/max values in some cases.  This fixes that issue by comparing to +/- Infinity instead of special casing the initial values.  (It also gets rid of a now needless comparison, which might help performance.)
+
+This also includes a test that catches the issue.
+
+Fixes issue #828
+---> The original commit sha is - e9a293820afdfb30aa61e13ce77e4919e354bfd2
+Commit message - Merge pull request #829 from starwed/sat-fix
+
+Fix bug in _SAT collision test
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ 5746ea32a4b5e3cea1f94cc608164108922452f3 -> b44bae4b15c2b5ed63638c9632d14c0928f580ca } is a cherrypick
+{ 957c4ae9d9683f3476c79c9a7eacfa1de964a622 -> dac9c04def39525d11af61b18487eea1415afc93 }
+Cherrypick commits SHA are -> 
+b44bae4b15c2b5ed63638c9632d14c0928f580ca - cherrypick - dac9c04def39525d11af61b18487eea1415afc93
+---> The cherrypicked commit sha is - b44bae4b15c2b5ed63638c9632d14c0928f580ca
+Commit message - Optimize entity and addComponent function to create fewer objects
+
+We should avoid creating objects that will be garbage collected,
+because this slows downs performances and especially if you
+create a lot of entities.
+---> The original commit sha is - dac9c04def39525d11af61b18487eea1415afc93
+Commit message - Merge pull request #809 from kevinsimper/avoid-creating-objects
+
+Optimize entity and addComponent function to create fewer objects
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ 869e66e85299db3274d60b055a107cc7e1839d4d -> 3d6717542e93fbcc82af2bcfb1d766a39d9e4c4a } is a cherrypick
+{ 2a570bfbcca53c57d9368a3763b16a0c08bcd4bb -> 1e4af41e7f3959160085034ede07f92d58f08355 }
+Cherrypick commits SHA are -> 
+3d6717542e93fbcc82af2bcfb1d766a39d9e4c4a - cherrypick - 1e4af41e7f3959160085034ede07f92d58f08355
+---> The cherrypicked commit sha is - 3d6717542e93fbcc82af2bcfb1d766a39d9e4c4a
+Commit message - Add additional game loop events
+
+Fixes #478 .
+---> The original commit sha is - 1e4af41e7f3959160085034ede07f92d58f08355
+Commit message - Merge pull request #769 from mucaho/more_events
+
+Add additional game loop events
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ 739c967fb40eb45a1f1def615b57281056ff9f6b -> 1f650a3bf39a9211f5d4e24dca6aa435c9d133c1 } is a cherrypick
+{ c1cebcaa14869c626ac770fa51905a82b4a978ea -> 869e66e85299db3274d60b055a107cc7e1839d4d }
+Cherrypick commits SHA are -> 
+1f650a3bf39a9211f5d4e24dca6aa435c9d133c1 - cherrypick - 869e66e85299db3274d60b055a107cc7e1839d4d
+---> The cherrypicked commit sha is - 1f650a3bf39a9211f5d4e24dca6aa435c9d133c1
+Commit message - Improve COllision docs
+
+Adds practical examples to the collision features introduced in #699 .
+---> The original commit sha is - 869e66e85299db3274d60b055a107cc7e1839d4d
+Commit message - Merge pull request #768 from mucaho/collision_docs
+
+Improve Collision docs
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ 632d969629cc4e5c0be3b60cd53adfb732e59490 -> 55c9209f462ca55dcf08fc4de8c2d40b7b22bdc1 } is a cherrypick
+{ 1b0b968d45c533b76630d9e1ac6d2c028510f2a8 -> f55dd16c74e295fc83fe6d7c40dcf4312ddfc9c9 }
+Cherrypick commits SHA are -> 
+55c9209f462ca55dcf08fc4de8c2d40b7b22bdc1 - cherrypick - f55dd16c74e295fc83fe6d7c40dcf4312ddfc9c9
+---> The cherrypicked commit sha is - 55c9209f462ca55dcf08fc4de8c2d40b7b22bdc1
+Commit message - Fix Delay documentation, cancelDelay iteration & add tests.
+---> The original commit sha is - f55dd16c74e295fc83fe6d7c40dcf4312ddfc9c9
+Commit message - Merge pull request #760 from mucaho/time_tests
+
+Improve Delay component
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ 466c324853ed74c7a97b1065b6468734fd01f687 -> 95eb2dd01d93557ae4a1a94c2bfbdf76cd7576af } is a cherrypick
+{ 775a2815e64fbd90020485562ab74dd9a9de8f3b -> aaca28c7a85e096691243796527cf956940727f6 }
+Cherrypick commits SHA are -> 
+95eb2dd01d93557ae4a1a94c2bfbdf76cd7576af - cherrypick - aaca28c7a85e096691243796527cf956940727f6
+---> The cherrypicked commit sha is - 95eb2dd01d93557ae4a1a94c2bfbdf76cd7576af
+Commit message - Improve Collision onHit documentation
+
+This commit fixes #739.
+---> The original commit sha is - aaca28c7a85e096691243796527cf956940727f6
+Commit message - Merge pull request #742 from mucaho/docs_onHit
+
+Improve Collision onHit documentation
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ ef7a03c88a9d08974729fa573e505e1e11d33d7f -> 05131edf0ad05c81f60fd2dfecef8afcec2247c8 } is a cherrypick
+{ 59483f00c2084e0d2f5ea6cb1e7f8f541be78942 -> a40a291ccc322d674c565570466c2fee637686c8 }
+Cherrypick commits SHA are -> 
+05131edf0ad05c81f60fd2dfecef8afcec2247c8 - cherrypick - a40a291ccc322d674c565570466c2fee637686c8
+---> The cherrypicked commit sha is - 05131edf0ad05c81f60fd2dfecef8afcec2247c8
+Commit message - Improve "Color" init/remove routine
+
+- Allows the "Color" component to be properly removed from entities.
+- Properly invalidates the entity when "Color" is added.
+- Adds a test for removal of color
+---> The original commit sha is - a40a291ccc322d674c565570466c2fee637686c8
+Commit message - Merge pull request #733 from starwed/color-fix
+
+Improve "Color" init/remove routine
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ 459d542cb316575f6c407ea580a0f691b0c72052 -> a5108f4effe5877055612b8e48737f720ffc1b47 } is a cherrypick
+{ 0b581df35a51cdb5edf6863b04d84d1c7f1a99af -> 443ff8e6b8e1494ba1cb72215b0a92e0dc3bbfdc }
+Cherrypick commits SHA are -> 
+a5108f4effe5877055612b8e48737f720ffc1b47 - cherrypick - 443ff8e6b8e1494ba1cb72215b0a92e0dc3bbfdc
+---> The cherrypicked commit sha is - a5108f4effe5877055612b8e48737f720ffc1b47
+Commit message - Fix viewport.pan docs
+---> The original commit sha is - 443ff8e6b8e1494ba1cb72215b0a92e0dc3bbfdc
+Commit message - Merge pull request #726 from starwed/pan-fix
+
+Fix viewport.pan docs
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ 6bed2088b9fb8b985c5d9e3d721bbf76b593d8a0 -> 1a87cf75b81a219461f60ff209e61b3a69bfb8b1 } is a cherrypick
+{ dd04b4d3cefe000e73bbdbe19018ad52d4bd5beb -> 8816cb486b1b097b656172224562a594943b588e }
+Cherrypick commits SHA are -> 
+1a87cf75b81a219461f60ff209e61b3a69bfb8b1 - cherrypick - 8816cb486b1b097b656172224562a594943b588e
+---> The cherrypicked commit sha is - 1a87cf75b81a219461f60ff209e61b3a69bfb8b1
+Commit message - Fix DOM coordinates translation on Chrome 32
+
+It happened that on the latest Chrome (32.0.1700.77) both
+document.body.scrollTop and document.documentElement.scrollTop were
+valorized, this caused a wrong computation of translated position of mouse
+pointer with a missing trigger of a `Click` event on a DOM entity.
+
+Note: I setup a separate test page for this test case to be used only with
+*real browsers* as I found really difficult to handle page scrolling with
+phantomjs.
+
+More details about it at https://github.com/ariya/phantomjs/issues/10162
+and https://github.com/gruntjs/grunt-contrib-qunit/issues/34
+---> The original commit sha is - 8816cb486b1b097b656172224562a594943b588e
+Commit message - Merge pull request #707 from potomak/feature/fix-translate-DOM-coordinates
+
+Fix DOM coordinates translation on Chrome 32
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ e76a5a3bfc1d53d483fa9271d47a5c38058d7d9c -> 181e58f04452e102ecb9d7472f6eb368667b608b } is a cherrypick
+{ 4413a858cc9fb0a728e93d389b3c41c30a507bdb -> 6bed2088b9fb8b985c5d9e3d721bbf76b593d8a0 }
+Cherrypick commits SHA are -> 
+181e58f04452e102ecb9d7472f6eb368667b608b - cherrypick - 6bed2088b9fb8b985c5d9e3d721bbf76b593d8a0
+---> The cherrypicked commit sha is - 181e58f04452e102ecb9d7472f6eb368667b608b
+Commit message - Resolved #552
+- Entities stop moving when focus is lost (eg. `CTRL+F`, `CTRL+E`)
+- Blur correctly traps all keys, except `CTRL+H`
+- Various fixes from code-review
+- Tested in IE, Chrome, and FF
+---> The original commit sha is - 6bed2088b9fb8b985c5d9e3d721bbf76b593d8a0
+Commit message - Merge pull request #705 from ashes999/develop
+
+Resolve #552: events stick under certain conditions
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ 56b3f0fb073d19351227031f7c938395961310b1 -> 8c329bdbb3ec0c1c62d092b3c2ed67f71273dbc5 } is a cherrypick
+{ 897e1131aba0b27cee52ce068eadc96a7a3f388f -> 178726feaf01a614f19dc485c237650d8fe65557 }
+Cherrypick commits SHA are -> 
+8c329bdbb3ec0c1c62d092b3c2ed67f71273dbc5 - cherrypick - 178726feaf01a614f19dc485c237650d8fe65557
+---> The cherrypicked commit sha is - 8c329bdbb3ec0c1c62d092b3c2ed67f71273dbc5
+Commit message - Remove unwanted mobile behavior
+
+Removing scroll on viewport is not something you want as it also happens on a iPad for an example.
+The window.scrollTo does not work on iOS7 anymore, so that is also useless now, also because it will not scroll if the viewport height is equal to the document height.
+Setting that the touchmove on is ignored on the Crafty element and not on the whole page, so that the webpage is still functional.
+---> The original commit sha is - 178726feaf01a614f19dc485c237650d8fe65557
+Commit message - Merge pull request #690 from kevinsimper/removeMobileConditions
+
+Remove mobile conditions
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ 5f496d3ca511ce30ec867d3caa34661c9b143798 -> 409ab21f1fa09705c3c6f9c33589b1e36e67bf80 } is a cherrypick
+{ d7309dec1503127746ef12326fd9db56abe21e86 -> 10d970a51f772104cd8d89da20dc81a9fc8d76d4 }
+Cherrypick commits SHA are -> 
+409ab21f1fa09705c3c6f9c33589b1e36e67bf80 - cherrypick - 10d970a51f772104cd8d89da20dc81a9fc8d76d4
+---> The cherrypicked commit sha is - 409ab21f1fa09705c3c6f9c33589b1e36e67bf80
+Commit message - abstracted sprite coord computation
+---> The original commit sha is - 10d970a51f772104cd8d89da20dc81a9fc8d76d4
+Commit message - Merge pull request #681 from starwed/math-test-fix
+
+Fix the matrix inversion test to avoid floating point issues.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ 56a134d0451285b57a05ebf9be71319222e48f28 -> e2db48b255ab2fac92993f32b04f4068b0b926dd } is a cherrypick
+{ 60bbb3a25c3dc0ecb58c62158f75eed18c400f03 -> 58e5a1f47127f6bed1d42d112a8c04d4f67d1194 }
+Cherrypick commits SHA are -> 
+e2db48b255ab2fac92993f32b04f4068b0b926dd - cherrypick - 58e5a1f47127f6bed1d42d112a8c04d4f67d1194
+---> The cherrypicked commit sha is - e2db48b255ab2fac92993f32b04f4068b0b926dd
+Commit message - Edit docs for formatting
+
+There are some formatting issues on several doc pages.  This patch is for cleaning up formatting and (a few) grammar issues.
+
+The various math pages have some pretty big problems, so that's not handled here.
+---> The original commit sha is - 58e5a1f47127f6bed1d42d112a8c04d4f67d1194
+Commit message - Merge pull request #674 from starwed/doc-cleanup
+
+Edit docs for formatting
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 14 is -> 
+{ b0fdcefaf349173f2907f503c5e3d0b152cf6c83 -> 51d76eabd0ca99459f195c93a28cd2a6b3b3436d } is a cherrypick
+{ c11f3b291e8a28c330a9b49a558fae59ba9aa34c -> 9efcd7103efd16c1d0c4248f08054e410935a619 }
+Cherrypick commits SHA are -> 
+51d76eabd0ca99459f195c93a28cd2a6b3b3436d - cherrypick - 9efcd7103efd16c1d0c4248f08054e410935a619
+---> The cherrypicked commit sha is - 51d76eabd0ca99459f195c93a28cd2a6b3b3436d
+Commit message - Removing a component should actually remove the class from DOM
+---> The original commit sha is - 9efcd7103efd16c1d0c4248f08054e410935a619
+Commit message - Merge pull request #635 from dkapadia/remove_component_dom
+
+Removing a component should actually remove the class from DOM
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 15 is -> 
+{ 13918dbcafcfb17d177974baef44b9246200b96d -> 115bc99387354a42114e9123d5250ab1eda8b898 } is a cherrypick
+{ e30b3e7bfa79af4ae3f8e7a92d486a14ab1c9df5 -> c11f3b291e8a28c330a9b49a558fae59ba9aa34c }
+Cherrypick commits SHA are -> 
+115bc99387354a42114e9123d5250ab1eda8b898 - cherrypick - c11f3b291e8a28c330a9b49a558fae59ba9aa34c
+---> The cherrypicked commit sha is - 115bc99387354a42114e9123d5250ab1eda8b898
+Commit message - Allow animation speed to be varied
+
+This adds an `animationSpeed` property to "SpriteAnimation", which controls the rate of playback.  Includes a couple of tests.
+---> The original commit sha is - c11f3b291e8a28c330a9b49a558fae59ba9aa34c
+Commit message - Merge pull request #636 from starwed/animation-speed
+
+Allow animation speed to be varied
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 16 is -> 
+{ c0b44930efbee1542e63d43c6248485c0e00316f -> dffb1b49172bad8b2532a19605e588be7ec30f92 } is a cherrypick
+{ fc93a6a7a6dfa728ee60d0fd411a04b10edb048a -> b0fdcefaf349173f2907f503c5e3d0b152cf6c83 }
+Cherrypick commits SHA are -> 
+dffb1b49172bad8b2532a19605e588be7ec30f92 - cherrypick - b0fdcefaf349173f2907f503c5e3d0b152cf6c83
+---> The cherrypicked commit sha is - dffb1b49172bad8b2532a19605e588be7ec30f92
+Commit message - Fix bug in steptype()
+
+There were two bugs: the function argument shadowed the mode variable, and the semifixed mode would never actually be set.
+---> The original commit sha is - b0fdcefaf349173f2907f503c5e3d0b152cf6c83
+Commit message - Merge pull request #633 from starwed/mode-fix
+
+Fix bug in steptype()
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 17 is -> 
+{ 5780d032f506214ffaf04ca1ee32df2752757a91 -> c4020feecb3f5fe8b9fffda847af441cc35cc3f4 } is a cherrypick
+{ 56ee45448f583dfc849262b0858143a57972ff33 -> adbacb4a45dfab4760f24bb8bc1bb0cf04d0e792 }
+Cherrypick commits SHA are -> 
+c4020feecb3f5fe8b9fffda847af441cc35cc3f4 - cherrypick - adbacb4a45dfab4760f24bb8bc1bb0cf04d0e792
+---> The cherrypicked commit sha is - c4020feecb3f5fe8b9fffda847af441cc35cc3f4
+Commit message - New event on hitbox change; lets debug components auto-match the hitbox
+---> The original commit sha is - adbacb4a45dfab4760f24bb8bc1bb0cf04d0e792
+Commit message - Merge pull request #613 from starwed/newhit
+
+New event on hitbox change; lets debug components auto-match the hitbox
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 18 is -> 
+{ 2925ed8a85cc2ac00383943bd7e8a7d77147bb54 -> b288219b6ecee8a03d14b756890bee07814a32c2 } is a cherrypick
+{ aa1a65cf0882b28370bdb562eb0c639ce18071c0 -> dfc66d328e659ec46a640dc00c1e3abf8e1199a5 }
+Cherrypick commits SHA are -> 
+b288219b6ecee8a03d14b756890bee07814a32c2 - cherrypick - dfc66d328e659ec46a640dc00c1e3abf8e1199a5
+---> The cherrypicked commit sha is - b288219b6ecee8a03d14b756890bee07814a32c2
+Commit message - viewport for IE9/10, let it can init again.
+
+  I need to use Crafty.stop(), and then use init to restart it, actually the point is to init() again. It seems strange, but I encounter a situation that the Crafty appears in one div, then it must appear in another div. When it is in IE10, I can't init for a second time just because configurable default to be false.
+---> The original commit sha is - dfc66d328e659ec46a640dc00c1e3abf8e1199a5
+Commit message - Merge pull request #609 from potomak/feature/optional-css-3d-transform
+
+Add `avoidCss3dTransform` flag
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 19 is -> 
+{ 15599c35dc4fea9e20b30c3750c71a880ba8feb2 -> a1efd01f135321077c333e828bf1e9e742edf0e6 } is a cherrypick
+{ e342b282db82041f82078cbbe09d422386e70cdf -> 36f5f937ee1437bf302d69db48a85cc66b04e525 }
+Cherrypick commits SHA are -> 
+a1efd01f135321077c333e828bf1e9e742edf0e6 - cherrypick - 36f5f937ee1437bf302d69db48a85cc66b04e525
+---> The cherrypicked commit sha is - a1efd01f135321077c333e828bf1e9e742edf0e6
+Commit message - fix recent jshint warnings
+---> The original commit sha is - 36f5f937ee1437bf302d69db48a85cc66b04e525
+Commit message - Merge pull request #604 from starwed/bounds-docs
+
+Improve documentation for Crafty.viewport.bounds
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 20 is -> 
+{ 455b7cb1ded7c51bf1c23a10c1456b31b8d50f37 -> ac26cda8195e01c28e6b6b6d60bd76dd7fccec89 } is a cherrypick
+{ 8c462c0b56cb06db6c649629883b3abbcad4890f -> 92ba780cb7f92818d4d257facc97d2848e0027f4 }
+Cherrypick commits SHA are -> 
+ac26cda8195e01c28e6b6b6d60bd76dd7fccec89 - cherrypick - 92ba780cb7f92818d4d257facc97d2848e0027f4
+---> The cherrypicked commit sha is - ac26cda8195e01c28e6b6b6d60bd76dd7fccec89
+Commit message - Get the version from the package.json and inject it into version.js, when building crafty.js file.
+---> The original commit sha is - 92ba780cb7f92818d4d257facc97d2848e0027f4
+Commit message - Merge pull request #588 from potomak/feature/fix-package
+
+Fix package.json
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 21 is -> 
+{ 3c245adc47b299c34b57b865f3bd004ab1be0978 -> d4b6c0c244d289521f3a673ed29187dc70d75539 } is a cherrypick
+{ 8c462c0b56cb06db6c649629883b3abbcad4890f -> 92ba780cb7f92818d4d257facc97d2848e0027f4 }
+Cherrypick commits SHA are -> 
+d4b6c0c244d289521f3a673ed29187dc70d75539 - cherrypick - 92ba780cb7f92818d4d257facc97d2848e0027f4
+---> The cherrypicked commit sha is - d4b6c0c244d289521f3a673ed29187dc70d75539
+Commit message - Merge pull request #587 from kevinsimper/injectVersion
+
+- Get the version from the package.json and inject it into version.js
+- Use version.js to return version number in core.js
+---> The original commit sha is - 92ba780cb7f92818d4d257facc97d2848e0027f4
+Commit message - Merge pull request #588 from potomak/feature/fix-package
+
+Fix package.json
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 22 is -> 
+{ 455b7cb1ded7c51bf1c23a10c1456b31b8d50f37 -> ac26cda8195e01c28e6b6b6d60bd76dd7fccec89 } is a cherrypick
+{ 3c245adc47b299c34b57b865f3bd004ab1be0978 -> d4b6c0c244d289521f3a673ed29187dc70d75539 }
+Cherrypick commits SHA are -> 
+ac26cda8195e01c28e6b6b6d60bd76dd7fccec89 - cherrypick - d4b6c0c244d289521f3a673ed29187dc70d75539
+---> The cherrypicked commit sha is - ac26cda8195e01c28e6b6b6d60bd76dd7fccec89
+Commit message - Get the version from the package.json and inject it into version.js, when building crafty.js file.
+---> The original commit sha is - d4b6c0c244d289521f3a673ed29187dc70d75539
+Commit message - Merge pull request #587 from kevinsimper/injectVersion
+
+- Get the version from the package.json and inject it into version.js
+- Use version.js to return version number in core.js
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 23 is -> 
+{ 54a55e8bf8b3be302c624678d1a7bf83a4cb24a7 -> 118c933b8f6823b25a31559b58577fae3cfd2411 } is a cherrypick
+{ b175f340dc52cf43579bbe3a76f3e389ab75c861 -> 5fe6c3ea85e12f62fa1451b9d8a92838426d2961 }
+Cherrypick commits SHA are -> 
+118c933b8f6823b25a31559b58577fae3cfd2411 - cherrypick - 5fe6c3ea85e12f62fa1451b9d8a92838426d2961
+---> The cherrypicked commit sha is - 118c933b8f6823b25a31559b58577fae3cfd2411
+Commit message - Typo correction: 'poly' to 'circle'.
+---> The original commit sha is - 5fe6c3ea85e12f62fa1451b9d8a92838426d2961
+Commit message - Merge pull request #585 from starwed/remove-physics
+
+Remove vestigal component 'Physics'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 24 is -> 
+{ c86ac63171fca188e9e9073e2aee48fe5070816d -> d98d5c63249e04fabab0aec6e81b1eb85a8bb52e } is a cherrypick
+{ d802c735bc959c97d2163beeb34ee631528afea9 -> 54a55e8bf8b3be302c624678d1a7bf83a4cb24a7 }
+Cherrypick commits SHA are -> 
+d98d5c63249e04fabab0aec6e81b1eb85a8bb52e - cherrypick - 54a55e8bf8b3be302c624678d1a7bf83a4cb24a7
+---> The cherrypicked commit sha is - d98d5c63249e04fabab0aec6e81b1eb85a8bb52e
+Commit message - delete references to crafty-local.js in tests
+---> The original commit sha is - 54a55e8bf8b3be302c624678d1a7bf83a4cb24a7
+Commit message - Merge pull request #579 from sbyrnes321/develop
+
+delete references to crafty-local.js in tests
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 25 is -> 
+{ b6b03560ac378986327440a4c59890dc162a2d71 -> 477d1a9f7b5c4814bfcb2bee3bad5ca454a0e015 } is a cherrypick
+{ 6888cd07cd3a4f2c8558c0c7f43cb467cb3da3e2 -> 7b6bee5cb2492206eb0fb5a63dc01ae9109df7de }
+Cherrypick commits SHA are -> 
+477d1a9f7b5c4814bfcb2bee3bad5ca454a0e015 - cherrypick - 7b6bee5cb2492206eb0fb5a63dc01ae9109df7de
+---> The cherrypicked commit sha is - 477d1a9f7b5c4814bfcb2bee3bad5ca454a0e015
+Commit message - Update `getVersion` method
+
+Using `require` is possible to dinamically get library version from
+package.json `version` property.
+---> The original commit sha is - 7b6bee5cb2492206eb0fb5a63dc01ae9109df7de
+Commit message - Merge pull request #571 from potomak/feature/fix-version-method
+
+Feature/fix version method
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 26 is -> 
+{ 7f9534ab072c90816e967812d111d58572a051c5 -> 2ad8fb39a14835ed913ab5ca4dbf79967d7c42cd } is a cherrypick
+{ 0f080479350390611d602c1e242fe7414237dfa7 -> ab268c7badb7ab068c439a73994ff7f2251b797b }
+Cherrypick commits SHA are -> 
+2ad8fb39a14835ed913ab5ca4dbf79967d7c42cd - cherrypick - ab268c7badb7ab068c439a73994ff7f2251b797b
+---> The cherrypicked commit sha is - 2ad8fb39a14835ed913ab5ca4dbf79967d7c42cd
+Commit message - Fixes rounding of dirty rects and MBRs
+
+We want the areas of the screen that we clear and clip to have integer coordinates.  Prior to this patch there were some cases that were not caught.  The solution is to do this "rounding up" of regions directly before we use them, rather than as they are created.
+
+Similarly, the MBRs used should have integer coordinates.  This fixes a regression that caused them to be "rounded down" in some cases, and also special cases rotations of 90 degrees.   Previously, taking (say) the cosine of PI/2 resulted in a very small nonzero value, which due to rounding caused some deviations from an ideal 90 degree rotation.
+
+This seems worth special-casing due to the privileged nature of 90 degree rotations.
+---> The original commit sha is - ab268c7badb7ab068c439a73994ff7f2251b797b
+Commit message - Merge pull request #551 from moehabib/spritePadding
+
+corrected formula for calculating x and y in sprite function
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 27 is -> 
+{ 9691572c929239a9c7fee594539f797bd2d74253 -> c4f655e05cffdeca7beaa990826426dd3a487f67 } is a cherrypick
+{ 72a56be0b585f661d9ffe346e8a58720659c8935 -> 8cd3acc7fe7ae7db435826faf0b46eab338d99da }
+Cherrypick commits SHA are -> 
+c4f655e05cffdeca7beaa990826426dd3a487f67 - cherrypick - 8cd3acc7fe7ae7db435826faf0b46eab338d99da
+---> The cherrypicked commit sha is - c4f655e05cffdeca7beaa990826426dd3a487f67
+Commit message - small grunt fixes
+
+The grunt-generated banner makes it unnecessary to include license.txt.
+
+(Before this change, the non-minified file has essentially the same
+banner twice.)
+
+Change craftyengine.com to craftyjs.com, which seems to be the canonical
+address.
+---> The original commit sha is - 8cd3acc7fe7ae7db435826faf0b46eab338d99da
+Commit message - Merge pull request #528 from starwed/step-control
+
+Customizable game loop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 28 is -> 
+{ a2a1828e821af41d4831c58d8dbcaba3e3ff5a3a -> f675668b2d13cc58daa91b5a3e115f59c3a2260f } is a cherrypick
+{ 4d70f6a4a297b13c5b43527d4a60e69c6f8e6e02 -> 31b051a83d508977f1663a7b145abe81062e2ea5 }
+Cherrypick commits SHA are -> 
+f675668b2d13cc58daa91b5a3e115f59c3a2260f - cherrypick - 31b051a83d508977f1663a7b145abe81062e2ea5
+---> The cherrypicked commit sha is - f675668b2d13cc58daa91b5a3e115f59c3a2260f
+Commit message - fix PHP warnings while running build-api.php
+
+this commit fixes #475
+---> The original commit sha is - 31b051a83d508977f1663a7b145abe81062e2ea5
+Commit message - Merge pull request #512 from starwed/grunt
+
+Grunt integration
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 29 is -> 
+{ b6e8c4e281f05c3359c7d6886b9e45599e72f176 -> 39bb342c39a29d977f859427a0049237418bc069 } is a cherrypick
+{ 0889701e7e0712bab83588a4fd6c8cba25155d62 -> 6549630f527785b7f2e90866496ff1004ca710eb }
+Cherrypick commits SHA are -> 
+39bb342c39a29d977f859427a0049237418bc069 - cherrypick - 6549630f527785b7f2e90866496ff1004ca710eb
+---> The cherrypicked commit sha is - 39bb342c39a29d977f859427a0049237418bc069
+Commit message - Fix delay docs
+---> The original commit sha is - 6549630f527785b7f2e90866496ff1004ca710eb
+Commit message - Merge pull request #492 from starwed/2dfix
+
+A few small fixes to 2D functions
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 30 is -> 
+{ dd4ad74a86707135d1bc3d14e2dae5e4ba690dab -> 457a6a311e7ed7c4aa4a7b4251f643f76d05df3f } is a cherrypick
+{ 9646695863dee8bc92caa60752fa5e38964655ea -> c4d953babc1ccc96093f929e8c6d5a69f31e39fc }
+Cherrypick commits SHA are -> 
+457a6a311e7ed7c4aa4a7b4251f643f76d05df3f - cherrypick - c4d953babc1ccc96093f929e8c6d5a69f31e39fc
+---> The cherrypicked commit sha is - 457a6a311e7ed7c4aa4a7b4251f643f76d05df3f
+Commit message - Crafty_Core.getId() - Wrapper for entity[0]
+---> The original commit sha is - c4d953babc1ccc96093f929e8c6d5a69f31e39fc
+Commit message - Merge pull request #437 from mucaho/patch-2
+
+Tiny change to add the ID property to every entity
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 31 is -> 
+{ 137708e8f362214a4f3b912b78d32dd27f2911af -> 62245697fe7eb609276416cbe42a7b9dfb9700b0 } is a cherrypick
+{ c24570ee60399f16b38ba0e6234784a13054620a -> 97f3ff899d864ce2822bc886705622339161fb8c }
+Cherrypick commits SHA are -> 
+62245697fe7eb609276416cbe42a7b9dfb9700b0 - cherrypick - 97f3ff899d864ce2822bc886705622339161fb8c
+---> The cherrypicked commit sha is - 62245697fe7eb609276416cbe42a7b9dfb9700b0
+Commit message - avoid unnecessary function call in _attr
+
+this.pos() is calculated even when it's not used. Actually, it's never
+used (because mbr() already has code to call this.pos() if necessary.)
+So this is a wasteful function call and object creation.
+
+Also, fix typos.
+---> The original commit sha is - 97f3ff899d864ce2822bc886705622339161fb8c
+Commit message - Merge pull request #479 from sbyrnes321/optimize_attr
+
+avoid unnecessary function call in _attr
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 32 is -> 
+{ 88977f05366235a647bc78768fb1d25982b2bf9d -> b64d97f3649e08b78e1e89be7d0584954d614f22 } is a cherrypick
+{ fcb817f35705a8c11e8a413fdd833ded57716398 -> c109bc24b2bda13dbb0a82681239681097c6a525 }
+Cherrypick commits SHA are -> 
+b64d97f3649e08b78e1e89be7d0584954d614f22 - cherrypick - c109bc24b2bda13dbb0a82681239681097c6a525
+---> The cherrypicked commit sha is - b64d97f3649e08b78e1e89be7d0584954d614f22
+Commit message - Use floor/ceiling instead of round when calculating MBR.
+
+To ensure that the rendered entity lies within the MBR, we need to take the floor of the minimum coords, and the ceiling of the maximum.  Consider: if minx = 0.7, and maxx=9.3, then with rounding the calculated width will be 8, which is not large enough to contain the true width of 8.6.
+---> The original commit sha is - c109bc24b2bda13dbb0a82681239681097c6a525
+Commit message - Merge pull request #470 from starwed/master
+
+Use floor/ceiling instead of round when calculating MBR. 
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 33 is -> 
+{ 96e51f95fd56b11e778461d1dac008a15f72a2cf -> 25c5fbfabfacb22be8905cef7b76d0384a0a8a96 } is a cherrypick
+{ 51d7cae8831e66f09255009216d1e8dcf933614a -> 5848664e9894521d28cbc9a5c34165713eb1d884 }
+Cherrypick commits SHA are -> 
+25c5fbfabfacb22be8905cef7b76d0384a0a8a96 - cherrypick - 5848664e9894521d28cbc9a5c34165713eb1d884
+---> The cherrypicked commit sha is - 25c5fbfabfacb22be8905cef7b76d0384a0a8a96
+Commit message - fix - rotating parent should rotate child
+
+Previous behavior: Rotating parent caused child rotation to be undefined
+Now: Rotating parent rotates the child as expected.
+
+Added unit test that failed before, but passes now.
+
+See issue #378.
+
+Unlike the proposal in #378, this change does not have a side-effect
+that messes up collision polygon rotation. (I checked that collision
+polygon rotation was correct both before and after this change.)
+---> The original commit sha is - 5848664e9894521d28cbc9a5c34165713eb1d884
+Commit message - Merge pull request #450 from sbyrnes321/rotation_sign_error_take2
+
+fix - rotating parent should rotate child
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 34 is -> 
+{ b5b30dca1b9ab7d69ba4d9231209ef6039bc5438 -> db55f4ae0f9f1544e117d5a0f19a03ddc444530c } is a cherrypick
+{ d153ceb4feffe23db46491f6817d73568f60bca5 -> b2a294ac2c2c1c90b14e0ee68bad68950e2f3949 }
+Cherrypick commits SHA are -> 
+db55f4ae0f9f1544e117d5a0f19a03ddc444530c - cherrypick - b2a294ac2c2c1c90b14e0ee68bad68950e2f3949
+---> The cherrypicked commit sha is - db55f4ae0f9f1544e117d5a0f19a03ddc444530c
+Commit message - Make default tint color transparent
+---> The original commit sha is - b2a294ac2c2c1c90b14e0ee68bad68950e2f3949
+Commit message - Merge pull request #446 from starwed/sprite-docs
+
+Add note about tileh to docs.  Closes #341
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 35 is -> 
+{ 61b9d1422bda2be3d6ca6f4b835f19a9d648bd93 -> 7c768f22d6ee8016cfb07b8654cdce33d38774aa } is a cherrypick
+{ 07fa31f0ff7ba85c88ca082ff262ff5c968e8f0a -> 9e685a949d6c6cf72b7dc3f9b95ee54d26699543 }
+Cherrypick commits SHA are -> 
+7c768f22d6ee8016cfb07b8654cdce33d38774aa - cherrypick - 9e685a949d6c6cf72b7dc3f9b95ee54d26699543
+---> The cherrypicked commit sha is - 7c768f22d6ee8016cfb07b8654cdce33d38774aa
+Commit message - Reduce Garbage: Refactor Canvas.draw to avoid creation of transient objects.
+---> The original commit sha is - 9e685a949d6c6cf72b7dc3f9b95ee54d26699543
+Commit message - Merge pull request #424 from starwed/drawvars
+
+Reduce Garbage: Refactor Canvas.draw to avoid creation of transient objects
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 36 is -> 
+{ 3c8c876cf38a856b04059994b2de39869156843f -> 98ca4c361149133d0cb338f85424558322528dbd } is a cherrypick
+{ 88dd405229c16e74e37cd6a5445f05a9bffc7660 -> 0e225069aa098551389da1d3d5dd338fb6e56572 }
+Cherrypick commits SHA are -> 
+98ca4c361149133d0cb338f85424558322528dbd - cherrypick - 0e225069aa098551389da1d3d5dd338fb6e56572
+---> The cherrypicked commit sha is - 98ca4c361149133d0cb338f85424558322528dbd
+Commit message - put some examples into sprite documentation 
+---> The original commit sha is - 0e225069aa098551389da1d3d5dd338fb6e56572
+Commit message - Merge pull request #398 from sbyrnes321/develop
+
+put some examples into sprite documentation 
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 37 is -> 
+{ f810c9144f89f0dbe72c9f4081b104d2fc442ff4 -> eefc0cc90906aa13ff89182f932e027fda81d28d } is a cherrypick
+{ e96a37748b43d6ee7e5605bcaf2dc153d8c14195 -> 159072696f3d1c106cf971216a0f5209c3dda43c }
+Cherrypick commits SHA are -> 
+eefc0cc90906aa13ff89182f932e027fda81d28d - cherrypick - 159072696f3d1c106cf971216a0f5209c3dda43c
+---> The cherrypicked commit sha is - eefc0cc90906aa13ff89182f932e027fda81d28d
+Commit message - Use round instead of ceil/floor to correct inconsistencies
+
+Math.cos(90), effectively Math.cos(Math.PI/2), returns
+6.123031769111886e-17 when 0 is the expected result. This value is close
+to zero and it is safer to use the Math#round method which will round it
+to the nearest whole number rather than Math#ceil/Math.floor which are
+affected by the negative numbers.
+
+Math.floor(-6.123031769111886e-17) will resut in -1
+
+while
+
+Math.round(-6.123031769111886e-17) will resut in 0 (expected)
+---> The original commit sha is - 159072696f3d1c106cf971216a0f5209c3dda43c
+Commit message - Merge branch 'develop' of github.com:craftyjs/Crafty into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 38 is -> 
+{ 3d43f5db0cf9e738d0945ca5169700b168e19a1f -> 6fe3e0bece40d0ecb457afe1fa13a8d2307adecd } is a cherrypick
+{ ea6e062b4f529d737877799b37c70ac929c0d600 -> da688f1882d90fb08444fc14583d02d43981e4c8 }
+Cherrypick commits SHA are -> 
+6fe3e0bece40d0ecb457afe1fa13a8d2307adecd - cherrypick - da688f1882d90fb08444fc14583d02d43981e4c8
+---> The cherrypicked commit sha is - 6fe3e0bece40d0ecb457afe1fa13a8d2307adecd
+Commit message - Added variable 'Bounds' to viewport which overrides Crafty.map.boundaries when panning the viewport.
+---> The original commit sha is - da688f1882d90fb08444fc14583d02d43981e4c8
+Commit message - Merge pull request #338 from Skinkworks/develop
+
+Added manual bounds to viewable area
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 39 is -> 
+{ 787fbb7895ed2f6feaa94cc762e02ce55a6f26ec -> 740ef6a3907d186dd0fdcfa931746f896b9ef6e8 } is a cherrypick
+{ 6a8ee5c031345fc030dd3d12fbdb03c63678b78a -> ea6e062b4f529d737877799b37c70ac929c0d600 }
+Cherrypick commits SHA are -> 
+740ef6a3907d186dd0fdcfa931746f896b9ef6e8 - cherrypick - ea6e062b4f529d737877799b37c70ac929c0d600
+---> The cherrypicked commit sha is - 740ef6a3907d186dd0fdcfa931746f896b9ef6e8
+Commit message - fixed html5 doctype
+---> The original commit sha is - ea6e062b4f529d737877799b37c70ac929c0d600
+Commit message - Merge pull request #342 from corellian/demos-html5-patch
+
+fixed html5 doctype
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 40 is -> 
+{ 6fde627bf806434762bb0ede7451c865ca8234b8 -> 275e6165f5b4d42070e569c742fb0af538075ff8 } is a cherrypick
+{ ce2db67750e2bbe33b0e89e124970641dfb899d9 -> 07000c829a6135bed69de6c95a9bb4244fbbfad9 }
+Cherrypick commits SHA are -> 
+275e6165f5b4d42070e569c742fb0af538075ff8 - cherrypick - 07000c829a6135bed69de6c95a9bb4244fbbfad9
+---> The cherrypicked commit sha is - 275e6165f5b4d42070e569c742fb0af538075ff8
+Commit message - Generate list of events
+
+- Generates events.html containing a list of all events triggered by
+Crafty components
+- Create a link to events.html in the index
+---> The original commit sha is - 07000c829a6135bed69de6c95a9bb4244fbbfad9
+Commit message - Merge remote-tracking branch 'origin/develop' into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 41 is -> 
+{ d0d61b4032e2488c45890f6521147df20d1275e1 -> b84a3f2fe37f310fc39cd154cf1758cb860186ba } is a cherrypick
+{ 405cfba6055f19d5896cc6a17eab29c4d1090b91 -> e968eb09f73933b6d22397128e48d6eccfa0f0cf }
+Cherrypick commits SHA are -> 
+b84a3f2fe37f310fc39cd154cf1758cb860186ba - cherrypick - e968eb09f73933b6d22397128e48d6eccfa0f0cf
+---> The cherrypicked commit sha is - b84a3f2fe37f310fc39cd154cf1758cb860186ba
+Commit message - Merge branch 'master' into develop
+---> The original commit sha is - e968eb09f73933b6d22397128e48d6eccfa0f0cf
+Commit message - Merge branch 'develop'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 42 is -> 
+{ 0f923052763703f2ff8da936b6ea48a8b003b9fc -> cec5f81cccfe74aa3797faca6258b23d4ab3aa47 } is a cherrypick
+{ a897ad79968c67345e2957c86ef578465178ee67 -> 0862d83a03d6342d7a9d1b2a7434233e45c1b170 }
+Cherrypick commits SHA are -> 
+cec5f81cccfe74aa3797faca6258b23d4ab3aa47 - cherrypick - 0862d83a03d6342d7a9d1b2a7434233e45c1b170
+---> The cherrypicked commit sha is - cec5f81cccfe74aa3797faca6258b23d4ab3aa47
+Commit message - Update src/loader.js
+---> The original commit sha is - 0862d83a03d6342d7a9d1b2a7434233e45c1b170
+Commit message - Merge pull request #239 from BlackScorp/patch-3
+
+Update src/loader.js
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 43 is -> 
+{ 60a31e4968d64304d6f730b36bb79afdf769def2 -> 2437b9ea8ce2060874b4670237232a9e130e6ba4 } is a cherrypick
+{ 9c458ad2c94285101b8fbedaaff6397b99d50583 -> bc22fb605011acf067b5651f84e4683fec4b3057 }
+Cherrypick commits SHA are -> 
+2437b9ea8ce2060874b4670237232a9e130e6ba4 - cherrypick - bc22fb605011acf067b5651f84e4683fec4b3057
+---> The cherrypicked commit sha is - 2437b9ea8ce2060874b4670237232a9e130e6ba4
+Commit message - build/build.sh does not need to generate crafty.js, so removed it
+---> The original commit sha is - bc22fb605011acf067b5651f84e4683fec4b3057
+Commit message - Merge pull request #234 from pengyu/doc_build
+
+build/build.sh does not need to generate crafty.js, so removed it
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 44 is -> 
+{ e5a19bf3ffb513b6ddf82b2d8c161a2f241093f5 -> a823415b8c742da55c468aba9f2b609bd6d6fbde } is a cherrypick
+{ a3b9a235996d720740dd06221fc9eb334d3c4651 -> cf024626b36fa289184dbe98e79b51763df2525e }
+Cherrypick commits SHA are -> 
+a823415b8c742da55c468aba9f2b609bd6d6fbde - cherrypick - cf024626b36fa289184dbe98e79b51763df2525e
+---> The cherrypicked commit sha is - a823415b8c742da55c468aba9f2b609bd6d6fbde
+Commit message - Added document for crafty-local.js
+---> The original commit sha is - cf024626b36fa289184dbe98e79b51763df2525e
+Commit message - Merge pull request #215 from pengyu/doc_crafty-local
+
+Documented the purpose of crafty-local.js
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 45 is -> 
+{ 8e0e6331495901e53ad715aa131457d145531e97 -> 7e7756faa89288e4c258676f08cbe0706c44cf1e } is a cherrypick
+{ f18d62b8dc7af25baeb36768645662f742474b8f -> 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287 }
+Cherrypick commits SHA are -> 
+7e7756faa89288e4c258676f08cbe0706c44cf1e - cherrypick - 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287
+---> The cherrypicked commit sha is - 7e7756faa89288e4c258676f08cbe0706c44cf1e
+Commit message - Bug fix to allow Tween chaining on same property.
+---> The original commit sha is - 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287
+Commit message - Bug fix to allow Tween chaining on same property.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 46 is -> 
+{ 1d3d09a6f42f5117909fff94e43a990648170b72 -> 4154e082ebc13047c4bfcb1613c7487ef77c4a22 } is a cherrypick
+{ f18d62b8dc7af25baeb36768645662f742474b8f -> 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287 }
+Cherrypick commits SHA are -> 
+4154e082ebc13047c4bfcb1613c7487ef77c4a22 - cherrypick - 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287
+---> The cherrypicked commit sha is - 4154e082ebc13047c4bfcb1613c7487ef77c4a22
+Commit message - Merge branch 'develop' of github.com:craftyjs/Crafty into develop
+---> The original commit sha is - 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287
+Commit message - Bug fix to allow Tween chaining on same property.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 47 is -> 
+{ 8e0e6331495901e53ad715aa131457d145531e97 -> 7e7756faa89288e4c258676f08cbe0706c44cf1e } is a cherrypick
+{ 1d3d09a6f42f5117909fff94e43a990648170b72 -> 4154e082ebc13047c4bfcb1613c7487ef77c4a22 }
+Cherrypick commits SHA are -> 
+7e7756faa89288e4c258676f08cbe0706c44cf1e - cherrypick - 4154e082ebc13047c4bfcb1613c7487ef77c4a22
+---> The cherrypicked commit sha is - 7e7756faa89288e4c258676f08cbe0706c44cf1e
+Commit message - Bug fix to allow Tween chaining on same property.
+---> The original commit sha is - 4154e082ebc13047c4bfcb1613c7487ef77c4a22
+Commit message - Merge branch 'develop' of github.com:craftyjs/Crafty into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 48 is -> 
+{ eaedb9ecb274e0fad8116feb27a656cbdf9d6358 -> 72449196275f7af06d962052b3f624181fb161c0 } is a cherrypick
+{ 8b85db1aa17ebfb965f01599e40c6fe452953a7c -> 05801e87e7ea5cbf2e2620d074f82b1256472ebd }
+Cherrypick commits SHA are -> 
+72449196275f7af06d962052b3f624181fb161c0 - cherrypick - 05801e87e7ea5cbf2e2620d074f82b1256472ebd
+---> The cherrypicked commit sha is - 72449196275f7af06d962052b3f624181fb161c0
+Commit message - Merge pull request #206 from pengyu/keyboard_event_dev
+
+Keyboard event docment added
+---> The original commit sha is - 05801e87e7ea5cbf2e2620d074f82b1256472ebd
+Commit message - Merge branch 'develop' of github.com:louisstow/Crafty into develop
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 49 is -> 
+{ afb2b0b5bc1e00370705e182fc1a64456db3dba9 -> f3a4c2d5d6bba3f7315cac2d992c02c2d656d3f0 } is a cherrypick
+{ 5d7a375fa8658d7d1a6e412a5d3bbaa1a5e53eb1 -> eaedb9ecb274e0fad8116feb27a656cbdf9d6358 }
+Cherrypick commits SHA are -> 
+f3a4c2d5d6bba3f7315cac2d992c02c2d656d3f0 - cherrypick - eaedb9ecb274e0fad8116feb27a656cbdf9d6358
+---> The cherrypicked commit sha is - f3a4c2d5d6bba3f7315cac2d992c02c2d656d3f0
+Commit message - Reveal 2D doc to html
+---> The original commit sha is - eaedb9ecb274e0fad8116feb27a656cbdf9d6358
+Commit message - Merge branch '2D_doc_dev' of https://github.com/pengyu/Crafty into pengyu-2D_doc_dev
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 50 is -> 
+{ c17130dd958f0f569e4b658a2e7d37eae21f14a0 -> ece7f0065ee4f4af168254f64ef51a336d3f2a0e } is a cherrypick
+{ 8a03a4d094da50b7bf65d601c6ec3338ab866c01 -> f9ae50c159017bc2a017c45d4e8115dc9bfcd312 }
+Cherrypick commits SHA are -> 
+ece7f0065ee4f4af168254f64ef51a336d3f2a0e - cherrypick - f9ae50c159017bc2a017c45d4e8115dc9bfcd312
+---> The cherrypicked commit sha is - ece7f0065ee4f4af168254f64ef51a336d3f2a0e
+Commit message - Added two build.sh file to build crafty.js and doc; reformated the document for Gravity
+---> The original commit sha is - f9ae50c159017bc2a017c45d4e8115dc9bfcd312
+Commit message - Merge remote-tracking branch 'upstream/master' into fruitassassin-dev
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 51 is -> 
+{ 059639601f6d94b70d558cbbf4e02daa9024e6e8 -> f1c65ca4e9083c4d36dc4f29d4acaa91dba07732 } is a cherrypick
+{ 1f332c196a5b9d50c8d598408ecc06eb765eac4a -> be623d1abdbe2dacb711acd78696b7658a845f85 }
+Cherrypick commits SHA are -> 
+f1c65ca4e9083c4d36dc4f29d4acaa91dba07732 - cherrypick - be623d1abdbe2dacb711acd78696b7658a845f85
+---> The cherrypicked commit sha is - f1c65ca4e9083c4d36dc4f29d4acaa91dba07732
+Commit message - Syntax Error
+---> The original commit sha is - be623d1abdbe2dacb711acd78696b7658a845f85
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 52 is -> 
+{ d7e837b5ac6e877868be6a0ec38e79b531bd44aa -> 1b8c3ab5c27f56ce242833b8b56f3330b7432da7 } is a cherrypick
+{ a3f5ed64a4b2e2bd014524cbd30f085054b43fae -> dd8bf870c248f79321a693e48c3191808fad554f }
+Cherrypick commits SHA are -> 
+1b8c3ab5c27f56ce242833b8b56f3330b7432da7 - cherrypick - dd8bf870c248f79321a693e48c3191808fad554f
+---> The cherrypicked commit sha is - 1b8c3ab5c27f56ce242833b8b56f3330b7432da7
+Commit message - Edited my Pullrequest:D i dont know how to edit pull request directly
+---> The original commit sha is - dd8bf870c248f79321a693e48c3191808fad554f
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 53 is -> 
+{ 040f7c48ac190a6281ef31fa682e531565c56689 -> 78e62347d503f931039b9db3f8ee1a22bc7b5fc6 } is a cherrypick
+{ 70beecb7b40c4695ec7ef489e07b1a616e31f036 -> 8c5a167d83627e8981cf36cfc3b5f02c11624e13 }
+Cherrypick commits SHA are -> 
+78e62347d503f931039b9db3f8ee1a22bc7b5fc6 - cherrypick - 8c5a167d83627e8981cf36cfc3b5f02c11624e13
+---> The cherrypicked commit sha is - 78e62347d503f931039b9db3f8ee1a22bc7b5fc6
+Commit message - Merge pull request #168 from dubrowgn/master
+
+Matrix2D addition and Vector2D changes
+---> The original commit sha is - 8c5a167d83627e8981cf36cfc3b5f02c11624e13
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 54 is -> 
+{ a2c07d3a834d52204c027453cf4909dc4132648a -> a26e8766f8110f3015c6bf60df0d7570bbeeb7a4 } is a cherrypick
+{ 795c44907ddcaf925b06c8171c2143bf704652dc -> 1e0bdb22548d20f318d1b0d8e32a31b94a669a73 }
+Cherrypick commits SHA are -> 
+a26e8766f8110f3015c6bf60df0d7570bbeeb7a4 - cherrypick - 1e0bdb22548d20f318d1b0d8e32a31b94a669a73
+---> The cherrypicked commit sha is - a26e8766f8110f3015c6bf60df0d7570bbeeb7a4
+Commit message - Changed Crafty._canvas to Crafty.canvas._canvas in Crafty.viewport.init() to match Crafty.canvas.init(). This addresses a bug where the canvas wasn't re-sizing properly in full screen mode.
+---> The original commit sha is - 1e0bdb22548d20f318d1b0d8e32a31b94a669a73
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 55 is -> 
+{ 5d042813bc3e06a5bb5bab6f06270df23cdf2e9b -> e3a2dcfa3fdf1da0a50f9ac0665431cb1bc0f975 } is a cherrypick
+{ 2f1e6ba1d3b27f5d54896088809d3e645b2c1353 -> 43d713e59cc78e23a526b800cbc3698a3a76ec54 }
+Cherrypick commits SHA are -> 
+e3a2dcfa3fdf1da0a50f9ac0665431cb1bc0f975 - cherrypick - 43d713e59cc78e23a526b800cbc3698a3a76ec54
+---> The cherrypicked commit sha is - e3a2dcfa3fdf1da0a50f9ac0665431cb1bc0f975
+Commit message - Enable 4:3 Formats for Isometric
+---> The original commit sha is - 43d713e59cc78e23a526b800cbc3698a3a76ec54
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 56 is -> 
+{ 0f58284db3f2d0e80818ca30019720591b8bcfd8 -> e065c4b35f5642e2a429cd0a29cd9a61494901e3 } is a cherrypick
+{ 47d7cf57f986d9dcf3ce4e5d5647a49c62c94bf6 -> 3931c7347a090e26208f1948d49aded9cad676f3 }
+Cherrypick commits SHA are -> 
+e065c4b35f5642e2a429cd0a29cd9a61494901e3 - cherrypick - 3931c7347a090e26208f1948d49aded9cad676f3
+---> The cherrypicked commit sha is - e065c4b35f5642e2a429cd0a29cd9a61494901e3
+Commit message - * Don't round the scrolling values
+---> The original commit sha is - 3931c7347a090e26208f1948d49aded9cad676f3
+Commit message - Merge pull request #136 from berseker59/master
+
+Small doc fix
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 57 is -> 
+{ 4cb61f41bfd7ee69d363db914111ec0661746fbc -> 4ca1a3c433f8c19c437b0b87269d77e7a4c413d7 } is a cherrypick
+{ 402595a7ee1d1d3905a1266e1e25181a8a3073fa -> 86bbc40bfc8e15c003a5e7f4c11003bf0f1b5831 }
+Cherrypick commits SHA are -> 
+4ca1a3c433f8c19c437b0b87269d77e7a4c413d7 - cherrypick - 86bbc40bfc8e15c003a5e7f4c11003bf0f1b5831
+---> The cherrypicked commit sha is - 4ca1a3c433f8c19c437b0b87269d77e7a4c413d7
+Commit message - fix component name
+---> The original commit sha is - 86bbc40bfc8e15c003a5e7f4c11003bf0f1b5831
+Commit message - Merge my mistake.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 58 is -> 
+{ c8b067f9d0f271c6f991791e7a8ab9989c842c60 -> 2666a56d65c2f76a1400b5fa5d9986885cda8411 } is a cherrypick
+{ 3937f5308d01077d2073d1e381163bea269bd4a7 -> 7d2d20449821399d8153f1f3797dd12e5d2f6eff }
+Cherrypick commits SHA are -> 
+2666a56d65c2f76a1400b5fa5d9986885cda8411 - cherrypick - 7d2d20449821399d8153f1f3797dd12e5d2f6eff
+---> The cherrypicked commit sha is - 2666a56d65c2f76a1400b5fa5d9986885cda8411
+Commit message - Skeleton for storage system.
+---> The original commit sha is - 7d2d20449821399d8153f1f3797dd12e5d2f6eff
+Commit message - Merge branch 'mpetrovic'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 59 is -> 
+{ b6694af580fcae0bf14d2efbfb7c6f14ccb23e66 -> 4f5609b4902e133a45f39fad06561003d40d81bf } is a cherrypick
+{ 0adc576edd3560c4f355d2db7ae96d756d6a921e -> 5e13cd2dabd931afacc55c3ae4593617faf91628 }
+Cherrypick commits SHA are -> 
+4f5609b4902e133a45f39fad06561003d40d81bf - cherrypick - 5e13cd2dabd931afacc55c3ae4593617faf91628
+---> The cherrypicked commit sha is - 4f5609b4902e133a45f39fad06561003d40d81bf
+Commit message - Support IE according to http://www.w3schools.com/jsref/prop_win_pagexoffset.asp
+---> The original commit sha is - 5e13cd2dabd931afacc55c3ae4593617faf91628
+Commit message - Merge branch 'master' of git@github.com:louisstow/Crafty.git
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 60 is -> 
+{ bcb8e2e9e5cd3c3dc63eab9e7ecc80e6b0b5fd9a -> 0228b13b00207a8bc1f145d812b348c377699d92 } is a cherrypick
+{ d4d437e7136d488046a77929ee969829d05e3412 -> 341cd7555de31ee6181f20e6cbfe349985dc6eef }
+Cherrypick commits SHA are -> 
+0228b13b00207a8bc1f145d812b348c377699d92 - cherrypick - 341cd7555de31ee6181f20e6cbfe349985dc6eef
+---> The cherrypicked commit sha is - 0228b13b00207a8bc1f145d812b348c377699d92
+Commit message - remove test for getter as it was removed from Crafty
+---> The original commit sha is - 341cd7555de31ee6181f20e6cbfe349985dc6eef
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 61 is -> 
+{ b1a56ffddc4e7e589f87576910c36320f723f2c7 -> 2270fa3eae83079d1468e473510f85015e467fc4 } is a cherrypick
+{ e1e2068c62f89ecb31de752cd6ef5dab1d9d4e9a -> 542ad1164b198c344f9cfb53b0c5444b3a7ffbc5 }
+Cherrypick commits SHA are -> 
+2270fa3eae83079d1468e473510f85015e467fc4 - cherrypick - 542ad1164b198c344f9cfb53b0c5444b3a7ffbc5
+---> The cherrypicked commit sha is - 2270fa3eae83079d1468e473510f85015e467fc4
+Commit message - Added ext to the top of the function with other defined variables.
+---> The original commit sha is - 542ad1164b198c344f9cfb53b0c5444b3a7ffbc5
+Commit message - Merge pull request #87 from hydroxic-acid/patch-1
+
+Declaring ext as var in crafty loader
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 62 is -> 
+{ 22cdba9db5ca13cc02d7067083a50a2623defc7b -> c94b1d8d660fb9a3c0fb0aab0a6d03668e88d91d } is a cherrypick
+{ dcf34b601e5cf93e08ca92188f83c848a6d6af9a -> 5991b6c5165365e43e3bc6d3d09627f50c06cc1c }
+Cherrypick commits SHA are -> 
+c94b1d8d660fb9a3c0fb0aab0a6d03668e88d91d - cherrypick - 5991b6c5165365e43e3bc6d3d09627f50c06cc1c
+---> The cherrypicked commit sha is - c94b1d8d660fb9a3c0fb0aab0a6d03668e88d91d
+Commit message - Fixes attach.
+---> The original commit sha is - 5991b6c5165365e43e3bc6d3d09627f50c06cc1c
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 63 is -> 
+{ fa9e2e1fc4bcf20ccbf39907b365ea255407a834 -> d35170a13bc094b4ae3d87beac4cd9ae9d82ba0f } is a cherrypick
+{ f904bca042263704c9364e6ea88f3ef2b23c6998 -> 2151ea37f69458ae4d142b272f33dbeb1dcb0cd5 }
+Cherrypick commits SHA are -> 
+d35170a13bc094b4ae3d87beac4cd9ae9d82ba0f - cherrypick - 2151ea37f69458ae4d142b272f33dbeb1dcb0cd5
+---> The cherrypicked commit sha is - d35170a13bc094b4ae3d87beac4cd9ae9d82ba0f
+Commit message - fix reworked setter
+---> The original commit sha is - 2151ea37f69458ae4d142b272f33dbeb1dcb0cd5
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 64 is -> 
+{ 1dde90db76244b68d2e9838779bd8af03be5bc28 -> d30b05020d71d41566e01bae3ba4ae000bb830f5 } is a cherrypick
+{ ab87e0a0eb1b80ba818eb66208dd1afea4620fcd -> 8c05f97808dd1c886975aa1d828d5f106d63b23d }
+Cherrypick commits SHA are -> 
+d30b05020d71d41566e01bae3ba4ae000bb830f5 - cherrypick - 8c05f97808dd1c886975aa1d828d5f106d63b23d
+---> The cherrypicked commit sha is - d30b05020d71d41566e01bae3ba4ae000bb830f5
+Commit message - Merge branch 'upstream/master' into sorenbs
+---> The original commit sha is - 8c05f97808dd1c886975aa1d828d5f106d63b23d
+Commit message - Merge branch 'upstream/master' into sorenbs
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 65 is -> 
+{ 52956e3aeec21df5ac9d3df51aa96cfd83d6adf7 -> a644f363da98310a367073f45e8c466e6fbd2ab6 } is a cherrypick
+{ afd3dc5f3601e070772e95c4888f570f7ba629d0 -> 7c4cf4d240eb439cba00ad645b17efe8b78301a0 }
+Cherrypick commits SHA are -> 
+a644f363da98310a367073f45e8c466e6fbd2ab6 - cherrypick - 7c4cf4d240eb439cba00ad645b17efe8b78301a0
+---> The cherrypicked commit sha is - a644f363da98310a367073f45e8c466e6fbd2ab6
+Commit message - *Mouse: trigger event for custom processing
+*Move disablecontrols
+*Fix within: I think it's more logical that `Entity.within(box)` returns whether the entity is inside the box and not whether the box is inside the rect.
+---> The original commit sha is - 7c4cf4d240eb439cba00ad645b17efe8b78301a0
+Commit message - Merge branch 'upstream/master' into sorenbs
+-----------------------------------------------------------------
+

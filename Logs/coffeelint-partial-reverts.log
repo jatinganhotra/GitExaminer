@@ -1,0 +1,964 @@
+# of partial reverts = 57
+Partial Revert diff pair 1 is -> 
+{ 8230e8f5f16fd22ef1455467865aa30292e067c9 -> bb86a8660b0f9c4bb1b8e2f627cef14f534dad22 } is a revert
+{ bb86a8660b0f9c4bb1b8e2f627cef14f534dad22 -> 77a6e74c3abdbdf74f0be18e092da9a02bf0e956 }
+Partial Revert commits SHA are -> 
+bb86a8660b0f9c4bb1b8e2f627cef14f534dad22 - revert - 77a6e74c3abdbdf74f0be18e092da9a02bf0e956
+---> The reverted commit sha is - bb86a8660b0f9c4bb1b8e2f627cef14f534dad22
+Commit message - Fixes #342: Update .travis.yml
+---> The original commit sha is - 77a6e74c3abdbdf74f0be18e092da9a02bf0e956
+Commit message - Merge pull request #341 from swang/small_indent_refactor
+
+Small indentation refactoring
+---> The files with partial_reverts are:-
+src/rules/indentation.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 0133b189d98aafdd0e9a629913e1bc5e9ef194fd -> 852f57b13208a13c76adc3a9689f92facc2aa585 } is a revert
+{ 5d818a5a4b4310cc147614e54d972b23f47cad88 -> e2eae7e5d06903a87c15c7c1e4af12f0cd2f3fda }
+Partial Revert commits SHA are -> 
+852f57b13208a13c76adc3a9689f92facc2aa585 - revert - e2eae7e5d06903a87c15c7c1e4af12f0cd2f3fda
+---> The reverted commit sha is - 852f57b13208a13c76adc3a9689f92facc2aa585
+Commit message - General cleanup of files
+---> The original commit sha is - e2eae7e5d06903a87c15c7c1e4af12f0cd2f3fda
+Commit message - Merge pull request #340 from swang/286_fix_block_regexp
+
+Fix Block RegExp triggering in no_unnecessary_double_quotes
+---> The files with partial_reverts are:-
+package.json
+src/rules/indentation.coffee
+test/test_indent.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 40d0e52e94b5add153f295e59912d7250d8c92ef -> 8f0e4622f7154d159568714947f58dbfe9c435ee } is a revert
+{ 8f0e4622f7154d159568714947f58dbfe9c435ee -> d028c4e6e4c652d7816e54b1d41849de53481368 }
+Partial Revert commits SHA are -> 
+8f0e4622f7154d159568714947f58dbfe9c435ee - revert - d028c4e6e4c652d7816e54b1d41849de53481368
+---> The reverted commit sha is - 8f0e4622f7154d159568714947f58dbfe9c435ee
+Commit message - Switch prefer_english_operator to use the Lexical Linter
+---> The original commit sha is - d028c4e6e4c652d7816e54b1d41849de53481368
+Commit message - Merge pull request #316 from clutchski/prefer_english_operator
+
+Fixes #311 #106. Copied parakeety/coffeelint-prefer-english-operator
+---> The files with partial_reverts are:-
+.coffeelintignore
+package.json
+src/commandline.coffee
+src/configfinder.coffee
+src/reporters/default.coffee
+src/rules/indentation.coffee
+src/rules/no_trailing_semicolons.coffee
+test/coffeelint.json
+test/fixtures/coffeelint.json
+test/test_commandline.coffee
+test/test_indent.coffee
+test/test_no_unnecessary_fat_arrows.coffee
+test/test_semicolons.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 503dc2c9df7e9537092a21654470572ccfd92e02 -> 9b51fd9f12b4ae48d7f33de16eb2f369ab8f54c8 } is a revert
+{ eddfe0273fd4569b710cfc546467e45be8590672 -> 7382d8d90d47e6381a1de4fb4a9ef9a8c3f6e875 }
+Partial Revert commits SHA are -> 
+9b51fd9f12b4ae48d7f33de16eb2f369ab8f54c8 - revert - 7382d8d90d47e6381a1de4fb4a9ef9a8c3f6e875
+---> The reverted commit sha is - 9b51fd9f12b4ae48d7f33de16eb2f369ab8f54c8
+Commit message - Fixes #319. This only fixes the most common case.
+---> The original commit sha is - 7382d8d90d47e6381a1de4fb4a9ef9a8c3f6e875
+Commit message - Merge pull request #317 from am11/master
+
+Config: Prioritize userprofile for HOME search
+---> The files with partial_reverts are:-
+src/configfinder.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ fa2d294516b727538330ac289ed2cbaf365b7f1e -> 6eba0ab42ac3b41f765e9f338a02d7a2342a7872 } is a revert
+{ 6eba0ab42ac3b41f765e9f338a02d7a2342a7872 -> eddfe0273fd4569b710cfc546467e45be8590672 }
+Partial Revert commits SHA are -> 
+6eba0ab42ac3b41f765e9f338a02d7a2342a7872 - revert - eddfe0273fd4569b710cfc546467e45be8590672
+---> The reverted commit sha is - 6eba0ab42ac3b41f765e9f338a02d7a2342a7872
+Commit message - Remove log message that breaks XML output of checkstyle (and probably JSLint)
+---> The original commit sha is - eddfe0273fd4569b710cfc546467e45be8590672
+Commit message - Merge pull request #320 from swang/no_dots_at_eol
+
+Removes support for '.' chain at end of line
+---> The files with partial_reverts are:-
+src/rules/indentation.coffee
+test/test_indent.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ 461d52d8da71e56c7aeea350d42eea39490a5013 -> 051d2b074f6c5b44b836722bb3e0c4fe0e75055d } is a revert
+{ 50ac18db6a94784699daa0b57bdc87da5ba427e8 -> 4738cc5489d9eda5033ecfba1af66305d94b6257 }
+Partial Revert commits SHA are -> 
+051d2b074f6c5b44b836722bb3e0c4fe0e75055d - revert - 4738cc5489d9eda5033ecfba1af66305d94b6257
+---> The reverted commit sha is - 051d2b074f6c5b44b836722bb3e0c4fe0e75055d
+Commit message - Fix implicit parens edge-case (for last line)
+
+This is an attempt at fixing #302. Basically if you have strict set to
+false as part of the no_implicit_parens config, it should allow implicit
+parens when it's done across multiple lines.
+
+Before the change was done by detecting for a newline. Unfortunately it
+seems that CoffeeScript does not add a newline property so you can have
+implicit parens on the last line of code.
+---> The original commit sha is - 4738cc5489d9eda5033ecfba1af66305d94b6257
+Commit message - Merge pull request #297 from paulcollinsiii/space_operator_fixes
+
+Space_operators missed some cases
+---> The files with partial_reverts are:-
+.gitignore
+src/rules/space_operators.coffee
+test/test_spacing.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ 051d2b074f6c5b44b836722bb3e0c4fe0e75055d -> 9376542b9ebdd115a5ad861e465984017d0c25d2 } is a revert
+{ acddfd573e6767fcbc689241e845813025d1432d -> 869f6acd85ac35b7e252ed876e4d37cc1fe4582c }
+Partial Revert commits SHA are -> 
+9376542b9ebdd115a5ad861e465984017d0c25d2 - revert - 869f6acd85ac35b7e252ed876e4d37cc1fe4582c
+---> The reverted commit sha is - 9376542b9ebdd115a5ad861e465984017d0c25d2
+Commit message - Fixes method chaining looking out of scope
+
+This PR is a rewrite of the original code that was used to generate the
+correct INDENT value for INDENT tokens when a user wrote code that used
+method chaining with each new method on it's own particular line.
+
+There is less redundant code, with a new function called
+`getCorrectIndent` that will return the corrected INDENT value that
+should be there instead of what CoffeeScript original generates.
+
+This also fixes #305 where the original `isChainedCall` function was
+looking out of its scope when checking for proper indenting in the
+current method chain.
+---> The original commit sha is - 869f6acd85ac35b7e252ed876e4d37cc1fe4582c
+Commit message - Merge pull request #303 from swang/fix_edge_case_for_parens
+
+Fix implicit parens edge-case (for last line)
+---> The files with partial_reverts are:-
+src/rules/no_implicit_parens.coffee
+test/test_no_implicit_parens.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ 9db7f16c0cfa2cab07861ebc57dd6e4a30478baa -> 0328cbf249ec8f0185e1f754cf98480f72ec0b06 } is a revert
+{ c493af282615b38897902d6ea4070d2846e7b34d -> 52a980cb3aea3f8c46d80410ee2fe049f8feb550 }
+Partial Revert commits SHA are -> 
+0328cbf249ec8f0185e1f754cf98480f72ec0b06 - revert - 52a980cb3aea3f8c46d80410ee2fe049f8feb550
+---> The reverted commit sha is - 0328cbf249ec8f0185e1f754cf98480f72ec0b06
+Commit message - TravisCI hack that I hope fixes the 0.8 builds
+---> The original commit sha is - 52a980cb3aea3f8c46d80410ee2fe049f8feb550
+Commit message - Merge pull request #267 from tmaier/patch-1
+
+Fix URL in README
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ 54989e34b1522c62b86e569f5865e3c87ca34d2e -> 50c51ef6eb79d103e05f04587ab85e2121273d24 } is a revert
+{ 50c51ef6eb79d103e05f04587ab85e2121273d24 -> afa667519108d6c5eb2756ac9760b87699058961 }
+Partial Revert commits SHA are -> 
+50c51ef6eb79d103e05f04587ab85e2121273d24 - revert - afa667519108d6c5eb2756ac9760b87699058961
+---> The reverted commit sha is - 50c51ef6eb79d103e05f04587ab85e2121273d24
+Commit message - Merge pull request #261 from misterdjules/no_empty_functions_doc
+
+Document no_empty_functions rule more thoroughly.
+---> The original commit sha is - afa667519108d6c5eb2756ac9760b87699058961
+Commit message - Merge pull request #262 from misterdjules/contributing-section-mentions-documentation-generation
+
+Mention documentation generation in README.md's contributing steps.
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ 232d3346737a2e99346dd53d5eb9559d2d4b5791 -> 54989e34b1522c62b86e569f5865e3c87ca34d2e } is a revert
+{ 54989e34b1522c62b86e569f5865e3c87ca34d2e -> 50c51ef6eb79d103e05f04587ab85e2121273d24 }
+Partial Revert commits SHA are -> 
+54989e34b1522c62b86e569f5865e3c87ca34d2e - revert - 50c51ef6eb79d103e05f04587ab85e2121273d24
+---> The reverted commit sha is - 54989e34b1522c62b86e569f5865e3c87ca34d2e
+Commit message - Mention documentation generation in README.md's contributing steps.
+---> The original commit sha is - 50c51ef6eb79d103e05f04587ab85e2121273d24
+Commit message - Merge pull request #261 from misterdjules/no_empty_functions_doc
+
+Document no_empty_functions rule more thoroughly.
+---> The files with partial_reverts are:-
+README.md
+src/rules/no_empty_functions.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 2987e3cdce30206fbfd5509adc3fcf5aa79ea8c0 -> 4e5fab4288b00eda648b7b6dc8f9e7bcffcb13ae } is a revert
+{ 4e5fab4288b00eda648b7b6dc8f9e7bcffcb13ae -> 17b6d97249f36c1b29bb64a6e523b174220b56fc }
+Partial Revert commits SHA are -> 
+4e5fab4288b00eda648b7b6dc8f9e7bcffcb13ae - revert - 17b6d97249f36c1b29bb64a6e523b174220b56fc
+---> The reverted commit sha is - 4e5fab4288b00eda648b7b6dc8f9e7bcffcb13ae
+Commit message - Add fix for line length detection under Windows
+---> The original commit sha is - 17b6d97249f36c1b29bb64a6e523b174220b56fc
+Commit message - Merge branch 'fix/windows-line-length' of github.com:knuton/coffeelint into knuton-fix/windows-line-length
+---> The files with partial_reverts are:-
+src/coffeelint.coffee
+src/rules/no_empty_functions.coffee
+test/test_no_empty_functions.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ 12b7beb1ce749ced5f0111599405c63a4a3ce0c6 -> 36f9fc41d72ce4465029cd6d44412728f6caaf67 } is a revert
+{ 36f9fc41d72ce4465029cd6d44412728f6caaf67 -> 25e1fc8fa9392056402dee17259d3fcf9e41247b }
+Partial Revert commits SHA are -> 
+36f9fc41d72ce4465029cd6d44412728f6caaf67 - revert - 25e1fc8fa9392056402dee17259d3fcf9e41247b
+---> The reverted commit sha is - 36f9fc41d72ce4465029cd6d44412728f6caaf67
+Commit message - Fix tests running in browser version of coffeescript
+
+1. MissingFatArrows
+2. NoUnnecessaryFatArrows
+3. CyclomaticComplexity
+
+In the browser, the node.constructor.name values get minified, and become useless
+---> The original commit sha is - 25e1fc8fa9392056402dee17259d3fcf9e41247b
+Commit message - Merge pull request #255 from zmbush/master
+
+Fix MissingFatArrows, NoUnnecessaryFatArrows, and CyclomaticComplexity
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ d14f944725b5b239f0976fa029aecdf04a76ffb0 -> fe1f08d633982b9c59219b11c6be1fb7838bc336 } is a revert
+{ fe1f08d633982b9c59219b11c6be1fb7838bc336 -> 12b7beb1ce749ced5f0111599405c63a4a3ce0c6 }
+Partial Revert commits SHA are -> 
+fe1f08d633982b9c59219b11c6be1fb7838bc336 - revert - 12b7beb1ce749ced5f0111599405c63a4a3ce0c6
+---> The reverted commit sha is - fe1f08d633982b9c59219b11c6be1fb7838bc336
+Commit message - Add "run npm test" in the "Steps" section of README.md file so that more
+pull requests pass Travis CI's tests suite right after they're submitted.
+---> The original commit sha is - 12b7beb1ce749ced5f0111599405c63a4a3ce0c6
+Commit message - Merge pull request #258 from misterdjules/add-run-npm-test-in-readme
+
+Add "run npm test" in the "Steps" section of README.md.
+---> The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ de982beb26182577a54d8c277efd947bb96eb326 -> e111d0195e29fa78ebfc2a815b16781082739e7a } is a revert
+{ 44d492c82c3cefe59e722b3938c435f1c38430f0 -> 3cce44ebd573c94eaf67b0e71a687680bcbe6941 }
+Partial Revert commits SHA are -> 
+e111d0195e29fa78ebfc2a815b16781082739e7a - revert - 3cce44ebd573c94eaf67b0e71a687680bcbe6941
+---> The reverted commit sha is - e111d0195e29fa78ebfc2a815b16781082739e7a
+Commit message - Add "strict" option to "no_implicit_parens"
+---> The original commit sha is - 3cce44ebd573c94eaf67b0e71a687680bcbe6941
+Commit message - Merge branch 'easytobook-no-interpolation-in-single-quotes'
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 40c5a3b24be8bb87410a83357f93424f4e453a49 -> 44d492c82c3cefe59e722b3938c435f1c38430f0 } is a revert
+{ 44d492c82c3cefe59e722b3938c435f1c38430f0 -> 3cce44ebd573c94eaf67b0e71a687680bcbe6941 }
+Partial Revert commits SHA are -> 
+44d492c82c3cefe59e722b3938c435f1c38430f0 - revert - 3cce44ebd573c94eaf67b0e71a687680bcbe6941
+---> The reverted commit sha is - 44d492c82c3cefe59e722b3938c435f1c38430f0
+Commit message - Merge branch 'no-interpolation-in-single-quotes' of github.com:easytobook/coffeelint into easytobook-no-interpolation-in-single-quotes
+
+Conflicts:
+	src/coffeelint.coffee
+---> The original commit sha is - 3cce44ebd573c94eaf67b0e71a687680bcbe6941
+Commit message - Merge branch 'easytobook-no-interpolation-in-single-quotes'
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ de982beb26182577a54d8c277efd947bb96eb326 -> e111d0195e29fa78ebfc2a815b16781082739e7a } is a revert
+{ 25c2faae1b748aae8fdf48f128b262d4189127ff -> 40c5a3b24be8bb87410a83357f93424f4e453a49 }
+Partial Revert commits SHA are -> 
+e111d0195e29fa78ebfc2a815b16781082739e7a - revert - 40c5a3b24be8bb87410a83357f93424f4e453a49
+---> The reverted commit sha is - e111d0195e29fa78ebfc2a815b16781082739e7a
+Commit message - Add "strict" option to "no_implicit_parens"
+---> The original commit sha is - 40c5a3b24be8bb87410a83357f93424f4e453a49
+Commit message - Merge pull request #244 from plumlee/contributing-readme
+
+Add some notes on how to contribute.
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ 6baf234afdcfa3844815ab181c76c7ecd61e153b -> af4b7ac406d2932542a06b265d64b6c2917895c2 } is a revert
+{ 83a0b899c3000feec77d55d27fcae463c1fa25c0 -> 2410baf0b97e130a892452a4eb47467c82418a24 }
+Partial Revert commits SHA are -> 
+af4b7ac406d2932542a06b265d64b6c2917895c2 - revert - 2410baf0b97e130a892452a4eb47467c82418a24
+---> The reverted commit sha is - af4b7ac406d2932542a06b265d64b6c2917895c2
+Commit message - Syntax error tests look for error on stdout now.
+---> The original commit sha is - 2410baf0b97e130a892452a4eb47467c82418a24
+Commit message - Merge pull request #212 from oliverh855/master
+
+Changes onlySpaces regex to skip empty lines w/o whitespaces
+---> The files with partial_reverts are:-
+src/rules/no_trailing_whitespace.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ d81f4566ef765ffb95b4a313d473ada5bee5d2c4 -> 97113ce414156a573d92bcad9441324a8bdf4e88 } is a revert
+{ a1c20803966ea67da3fd519cb0ae12644d790fae -> 33cd010a92dc14e7da304d43628e31f98eddb6e9 }
+Partial Revert commits SHA are -> 
+97113ce414156a573d92bcad9441324a8bdf4e88 - revert - 33cd010a92dc14e7da304d43628e31f98eddb6e9
+---> The reverted commit sha is - 97113ce414156a573d92bcad9441324a8bdf4e88
+Commit message - Lock down CS version to 1.6.x
+---> The original commit sha is - 33cd010a92dc14e7da304d43628e31f98eddb6e9
+Commit message - Merge branch 'update-module-docs' of github.com:Alaneor/coffeelint into Alaneor-update-module-docs
+---> The files with partial_reverts are:-
+3rd_party_rules.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 6baf234afdcfa3844815ab181c76c7ecd61e153b -> af4b7ac406d2932542a06b265d64b6c2917895c2 } is a revert
+{ af4b7ac406d2932542a06b265d64b6c2917895c2 -> 46b84c1db5877fea7dbdcbe1a594ec67d5a6d1a7 }
+Partial Revert commits SHA are -> 
+af4b7ac406d2932542a06b265d64b6c2917895c2 - revert - 46b84c1db5877fea7dbdcbe1a594ec67d5a6d1a7
+---> The reverted commit sha is - af4b7ac406d2932542a06b265d64b6c2917895c2
+Commit message - Syntax error tests look for error on stdout now.
+---> The original commit sha is - 46b84c1db5877fea7dbdcbe1a594ec67d5a6d1a7
+Commit message - Merge https://github.com/clutchski/coffeelint
+---> The files with partial_reverts are:-
+package.json
+src/commandline.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ b58a0483d1aa027f4ccc2a741abcc50574821a3a -> f6b55492c313f8c24caf92bbf8806911998319b5 } is a revert
+{ f6b55492c313f8c24caf92bbf8806911998319b5 -> 459ef9c0d9c53c4c52215cbbbe41c0cef7e82f92 }
+Partial Revert commits SHA are -> 
+f6b55492c313f8c24caf92bbf8806911998319b5 - revert - 459ef9c0d9c53c4c52215cbbbe41c0cef7e82f92
+---> The reverted commit sha is - f6b55492c313f8c24caf92bbf8806911998319b5
+Commit message - Revert "Add support for NodeJS 0.6"
+
+This reverts commit f875f85e3b75db24a2578baaee941334e5889186.
+
+Conflicts:
+	src/configfinder.coffee
+---> The original commit sha is - 459ef9c0d9c53c4c52215cbbbe41c0cef7e82f92
+Commit message - Support config from package.json and .coffeelintrc (issue #145)
+---> The files with partial_reverts are:-
+3rd_party_rules.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ 42ff3ef23b0ec7258ae2f3d72207deb86ebee405 -> b58a0483d1aa027f4ccc2a741abcc50574821a3a } is a revert
+{ b58a0483d1aa027f4ccc2a741abcc50574821a3a -> f6b55492c313f8c24caf92bbf8806911998319b5 }
+Partial Revert commits SHA are -> 
+b58a0483d1aa027f4ccc2a741abcc50574821a3a - revert - f6b55492c313f8c24caf92bbf8806911998319b5
+---> The reverted commit sha is - b58a0483d1aa027f4ccc2a741abcc50574821a3a
+Commit message - Adding instructions for 3rd party rules
+---> The original commit sha is - f6b55492c313f8c24caf92bbf8806911998319b5
+Commit message - Revert "Add support for NodeJS 0.6"
+
+This reverts commit f875f85e3b75db24a2578baaee941334e5889186.
+
+Conflicts:
+	src/configfinder.coffee
+---> The files with partial_reverts are:-
+3rd_party_rules.md
+src/commandline.coffee
+test/fixtures/findconfigtest/coffeelint.json
+test/fixtures/findconfigtest/package/package.json
+test/fixtures/findconfigtest/package/sixspaces.coffee
+test/fixtures/findconfigtest/sevenspaces.coffee
+test/test_commandline.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ 07072627eb978db28f9c0e179d28b526a85222a1 -> fac8f1dd16ace72768b6ff78d4f548b3b5633de9 } is a revert
+{ fac8f1dd16ace72768b6ff78d4f548b3b5633de9 -> a6bc68476c2420128bd2c435e151b1fac187a55c }
+Partial Revert commits SHA are -> 
+fac8f1dd16ace72768b6ff78d4f548b3b5633de9 - revert - a6bc68476c2420128bd2c435e151b1fac187a55c
+---> The reverted commit sha is - fac8f1dd16ace72768b6ff78d4f548b3b5633de9
+Commit message - Removed some duplicate code and fixed line lengths.
+---> The original commit sha is - a6bc68476c2420128bd2c435e151b1fac187a55c
+Commit message - Merge branch 'checkstyle' Fixes #184
+---> The files with partial_reverts are:-
+generated_coffeelint.json
+src/ast_linter.coffee
+src/coffeelint.coffee
+src/rules/max_line_length.coffee
+src/rules/missing_fat_arrows.coffee
+src/rules/no_implicit_braces.coffee
+src/rules/no_unnecessary_fat_arrows.coffee
+test/test_braces.coffee
+test/test_line_length.coffee
+test/test_missing_fat_arrows.coffee
+test/test_no_unnecessary_fat_arrows.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ 5c4f88fc7618997dde83310254c80d5266b7f384 -> a071fd3c54d38ab95646e7e164d613e4b95fa45a } is a revert
+{ e7579b26cf7dcac103d9a7c314470756187f0ba7 -> ad5ab49d662bd20d6349ea6b07169d9725f1c6fa }
+Partial Revert commits SHA are -> 
+a071fd3c54d38ab95646e7e164d613e4b95fa45a - revert - ad5ab49d662bd20d6349ea6b07169d9725f1c6fa
+---> The reverted commit sha is - a071fd3c54d38ab95646e7e164d613e4b95fa45a
+Commit message - implement --checkstyle by copying jslinreporter
+---> The original commit sha is - ad5ab49d662bd20d6349ea6b07169d9725f1c6fa
+Commit message - Merge branch 'Clever-missing-fat-arrows'
+
+Conflicts:
+	generated_coffeelint.json
+	src/coffeelint.coffee
+---> The files with partial_reverts are:-
+generated_coffeelint.json
+src/coffeelint.coffee
+src/rules/missing_fat_arrows.coffee
+test/test_missing_fat_arrows.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ 56585dbe59b3846bd1e184f27389c616d6cce488 -> b0d2b8632b2d75c4a5d52f3901d0f24eae475099 } is a revert
+{ b0d2b8632b2d75c4a5d52f3901d0f24eae475099 -> f1a1806dffb7e26838fc54d6b9fd0595be9c9a9c }
+Partial Revert commits SHA are -> 
+b0d2b8632b2d75c4a5d52f3901d0f24eae475099 - revert - f1a1806dffb7e26838fc54d6b9fd0595be9c9a9c
+---> The reverted commit sha is - b0d2b8632b2d75c4a5d52f3901d0f24eae475099
+Commit message - Changed no_unnecessary_fat_arrows to warn by default
+---> The original commit sha is - f1a1806dffb7e26838fc54d6b9fd0595be9c9a9c
+Commit message - Merge branch 'Clever-master'
+---> The files with partial_reverts are:-
+src/ast_linter.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ fc32387b1fc214fd267ded62755574e04099553f -> 459009c0d9141f3e8b62358dd79b27b3d4058e55 } is a revert
+{ 4ccf8d71a4c5f838f5e906924c286b2bafceab45 -> 8d46453e6ed3751af6494afd449ae7393b0fb5e7 }
+Partial Revert commits SHA are -> 
+459009c0d9141f3e8b62358dd79b27b3d4058e55 - revert - 8d46453e6ed3751af6494afd449ae7393b0fb5e7
+---> The reverted commit sha is - 459009c0d9141f3e8b62358dd79b27b3d4058e55
+Commit message - Removing npm-shrinkwrap which is incompatible with npm 1.1. Fixes #168
+---> The original commit sha is - 8d46453e6ed3751af6494afd449ae7393b0fb5e7
+Commit message - Merge pull request #140 from imcnally/master
+
+Colon assignment spacing rule
+---> The files with partial_reverts are:-
+src/coffeelint.coffee
+src/rules/colon_assignment_spacing.coffee
+test/test_colon_assignment_spacing.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ b5f9cf878953c49e31018e101b8a497df02f310f -> 135a8fcf22fd73fc64b03a91adbc585bee78d921 } is a revert
+{ 135a8fcf22fd73fc64b03a91adbc585bee78d921 -> d4fe858ce10cc92d599098d8ad811b9e2bac80cd }
+Partial Revert commits SHA are -> 
+135a8fcf22fd73fc64b03a91adbc585bee78d921 - revert - d4fe858ce10cc92d599098d8ad811b9e2bac80cd
+---> The reverted commit sha is - 135a8fcf22fd73fc64b03a91adbc585bee78d921
+Commit message - Drop support for NodeJS 0.6
+
+Coffeeify is a new dependency and for some reason TravisCI shows it
+doesn't install on NodeJS 0.6.
+
+I don't know how long TravisCI keeps these, but the failed built is
+at https://travis-ci.org/clutchski/coffeelint/jobs/12213132
+---> The original commit sha is - d4fe858ce10cc92d599098d8ad811b9e2bac80cd
+Commit message - Merge branch 'master' into custom-rules
+
+Conflicts:
+	src/coffeelint.coffee
+---> The files with partial_reverts are:-
+test/test_semicolons.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ 75efb76ace5b9a578339d693c671f0bce00fff69 -> c495246121cd8142ba80d7f8ec9f027e3f969fff } is a revert
+{ 41a4c45d12acb05515a30bd32eb0ed682d9673fd -> b212eba2facee338e3789560141a3817f225976a }
+Partial Revert commits SHA are -> 
+c495246121cd8142ba80d7f8ec9f027e3f969fff - revert - b212eba2facee338e3789560141a3817f225976a
+---> The reverted commit sha is - c495246121cd8142ba80d7f8ec9f027e3f969fff
+Commit message - Merge pull request #133 from AsaAyers/literate
+
+Add Literate CoffeeScript support fixes clutchski/coffeelint#83
+---> The original commit sha is - b212eba2facee338e3789560141a3817f225976a
+Commit message - Merge pull request #134 from swang/update_cyclomatic_complexity
+
+Update cyclomatic complexity
+---> The files with partial_reverts are:-
+test/test_cyclomatic_complexity.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ a504f88bb3ca1568e81f8d6ce5181935b49be886 -> 70e2ba19e78ff7b982f1648234d0fa986e693420 } is a revert
+{ 3afac4e10e50c63879c376ab62482b43df82f986 -> 41a4c45d12acb05515a30bd32eb0ed682d9673fd }
+Partial Revert commits SHA are -> 
+70e2ba19e78ff7b982f1648234d0fa986e693420 - revert - 41a4c45d12acb05515a30bd32eb0ed682d9673fd
+---> The reverted commit sha is - 70e2ba19e78ff7b982f1648234d0fa986e693420
+Commit message - Fixes issues with arrow operator in clutchski/coffeelint#131
+---> The original commit sha is - 41a4c45d12acb05515a30bd32eb0ed682d9673fd
+Commit message - Merge pull request #130 from fauxparse/master
+
+Fix #129: adds 'RETURN' to the list of tokens that can precede a unary operator.
+---> The files with partial_reverts are:-
+test/test_spacing.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ 0f5ec75e0286a3678adb767f38721298396b3b6a -> afcad2612574e0f9f4184f95b6873cbc4e8d0696 } is a revert
+{ eaf6fe2fc8cdf4032c9cbbb0e9dd325871d9dc62 -> 3afac4e10e50c63879c376ab62482b43df82f986 }
+Partial Revert commits SHA are -> 
+afcad2612574e0f9f4184f95b6873cbc4e8d0696 - revert - 3afac4e10e50c63879c376ab62482b43df82f986
+---> The reverted commit sha is - afcad2612574e0f9f4184f95b6873cbc4e8d0696
+Commit message - Add Literate CoffeeScript support fixes clutchski/coffeelint#83
+---> The original commit sha is - 3afac4e10e50c63879c376ab62482b43df82f986
+Commit message - Merge branch 'literate'
+---> The files with partial_reverts are:-
+test/test_arrows.coffee
+test/test_indent.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ c495246121cd8142ba80d7f8ec9f027e3f969fff -> eaf6fe2fc8cdf4032c9cbbb0e9dd325871d9dc62 } is a revert
+{ eaf6fe2fc8cdf4032c9cbbb0e9dd325871d9dc62 -> 3afac4e10e50c63879c376ab62482b43df82f986 }
+Partial Revert commits SHA are -> 
+eaf6fe2fc8cdf4032c9cbbb0e9dd325871d9dc62 - revert - 3afac4e10e50c63879c376ab62482b43df82f986
+---> The reverted commit sha is - eaf6fe2fc8cdf4032c9cbbb0e9dd325871d9dc62
+Commit message - Optimist boolean() doesn't have 2nd parameter
+---> The original commit sha is - 3afac4e10e50c63879c376ab62482b43df82f986
+Commit message - Merge branch 'literate'
+---> The files with partial_reverts are:-
+src/coffeelint.coffee
+test/test_arrows.coffee
+test/test_indent.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ 2fb8f9fbe2ff25774047b8d98bf14a333092c7cd -> 6f59ff1e9cc3d7eb02f2f9f504d5aad58b95f44b } is a revert
+{ c495246121cd8142ba80d7f8ec9f027e3f969fff -> eaf6fe2fc8cdf4032c9cbbb0e9dd325871d9dc62 }
+Partial Revert commits SHA are -> 
+6f59ff1e9cc3d7eb02f2f9f504d5aad58b95f44b - revert - eaf6fe2fc8cdf4032c9cbbb0e9dd325871d9dc62
+---> The reverted commit sha is - 6f59ff1e9cc3d7eb02f2f9f504d5aad58b95f44b
+Commit message - Modified cyclomatic complexity to display beginning/end line numbers. Modified reporters to handle end line numbers
+---> The original commit sha is - eaf6fe2fc8cdf4032c9cbbb0e9dd325871d9dc62
+Commit message - Optimist boolean() doesn't have 2nd parameter
+---> The files with partial_reverts are:-
+test/test_arrows.coffee
+test/test_indent.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ 2fb8f9fbe2ff25774047b8d98bf14a333092c7cd -> 6f59ff1e9cc3d7eb02f2f9f504d5aad58b95f44b } is a revert
+{ 75efb76ace5b9a578339d693c671f0bce00fff69 -> c495246121cd8142ba80d7f8ec9f027e3f969fff }
+Partial Revert commits SHA are -> 
+6f59ff1e9cc3d7eb02f2f9f504d5aad58b95f44b - revert - c495246121cd8142ba80d7f8ec9f027e3f969fff
+---> The reverted commit sha is - 6f59ff1e9cc3d7eb02f2f9f504d5aad58b95f44b
+Commit message - Modified cyclomatic complexity to display beginning/end line numbers. Modified reporters to handle end line numbers
+---> The original commit sha is - c495246121cd8142ba80d7f8ec9f027e3f969fff
+Commit message - Merge pull request #133 from AsaAyers/literate
+
+Add Literate CoffeeScript support fixes clutchski/coffeelint#83
+---> The files with partial_reverts are:-
+.travis.yml
+package.json
+test/test_commandline.coffee
+test/test_cyclomatic_complexity.coffee
+test/test_literate.litcoffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ 458704be73cde491700abf21f9b72a0d77e7c77e -> 069963584f85c942b0cb1466cb32b2252ea08169 } is a revert
+{ 7d1f50ee6b868c401ee27ed7546bd058638a7dd4 -> bce580af6502730c259e08fd56730be5aab42968 }
+Partial Revert commits SHA are -> 
+069963584f85c942b0cb1466cb32b2252ea08169 - revert - bce580af6502730c259e08fd56730be5aab42968
+---> The reverted commit sha is - 069963584f85c942b0cb1466cb32b2252ea08169
+Commit message - Move rule descriptions into the coffeescript source files
+---> The original commit sha is - bce580af6502730c259e08fd56730be5aab42968
+Commit message - Merge pull request #122 from mhart/add-simple-bin-script
+
+Add simple bin/coffeelint wrapper
+---> The files with partial_reverts are:-
+.gitignore
+bin/coffeelint
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ d944cee960cc2a30101563780ace6d8515237194 -> 7dbac55c5d44b187d512ed24cef5614f4752b51e } is a revert
+{ dd032c770d6ba53d811c8ed491418bafd96f72eb -> a888483a70d8b98e3d1dec75683f1a594f1faf1b }
+Partial Revert commits SHA are -> 
+7dbac55c5d44b187d512ed24cef5614f4752b51e - revert - a888483a70d8b98e3d1dec75683f1a594f1faf1b
+---> The reverted commit sha is - 7dbac55c5d44b187d512ed24cef5614f4752b51e
+Commit message - Modified no_stand_alone_at to allow @::foo but continue to forbid @::
+---> The original commit sha is - a888483a70d8b98e3d1dec75683f1a594f1faf1b
+Commit message - Merge pull request #104 from swang/85_add_compound_assign_to_space_operators
+
+Fixes clutchski/coffeelint#85 
+---> The files with partial_reverts are:-
+test/test_spacing.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ d3fd7d9a4a7e9a37c3446ae71102affefbeac1b9 -> ee8ba3b9ec4443658c85caa11a07810cddbd4ddf } is a revert
+{ ee8ba3b9ec4443658c85caa11a07810cddbd4ddf -> 9ac7dc31dc0c32808c866c81bf6b55e34ca5b99e }
+Partial Revert commits SHA are -> 
+ee8ba3b9ec4443658c85caa11a07810cddbd4ddf - revert - 9ac7dc31dc0c32808c866c81bf6b55e34ca5b99e
+---> The reverted commit sha is - ee8ba3b9ec4443658c85caa11a07810cddbd4ddf
+Commit message - Merge remote-tracking branch 'original/master' into 1.6.2
+
+Conflicts:
+	src/coffeelint.coffee
+---> The original commit sha is - 9ac7dc31dc0c32808c866c81bf6b55e34ca5b99e
+Commit message - Revert "Revert "Coffeescript 1.5.0 reports indentation differently""
+
+This reverts commit 79436620428f2b297b3f88e8fa628701015cd39f.
+---> The files with partial_reverts are:-
+test/test_1.5.0_plus.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ d0a427a3fc2747deaa2381d80aaa992012a86271 -> d3fd7d9a4a7e9a37c3446ae71102affefbeac1b9 } is a revert
+{ d3fd7d9a4a7e9a37c3446ae71102affefbeac1b9 -> ee8ba3b9ec4443658c85caa11a07810cddbd4ddf }
+Partial Revert commits SHA are -> 
+d3fd7d9a4a7e9a37c3446ae71102affefbeac1b9 - revert - ee8ba3b9ec4443658c85caa11a07810cddbd4ddf
+---> The reverted commit sha is - d3fd7d9a4a7e9a37c3446ae71102affefbeac1b9
+Commit message - Merge pull request #98 from zipcodeman/master
+
+Fix line reported for indentation in CoffeeScript 1.5.0+
+---> The original commit sha is - ee8ba3b9ec4443658c85caa11a07810cddbd4ddf
+Commit message - Merge remote-tracking branch 'original/master' into 1.6.2
+
+Conflicts:
+	src/coffeelint.coffee
+---> The files with partial_reverts are:-
+test/test_1.5.0_plus.coffee
+test/test_coffeelint.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ 01f4b3ce218e7447adca2c757faa73cec1e08dd3 -> cddb155d620da5ae55b4bd3100cfb8c13b5f45f7 } is a revert
+{ 1e0a1ce3c01b72ae18acc9951cfe7c96ee85cf5f -> 79436620428f2b297b3f88e8fa628701015cd39f }
+Partial Revert commits SHA are -> 
+cddb155d620da5ae55b4bd3100cfb8c13b5f45f7 - revert - 79436620428f2b297b3f88e8fa628701015cd39f
+---> The reverted commit sha is - cddb155d620da5ae55b4bd3100cfb8c13b5f45f7
+Commit message - Coffeescript 1.5.0 reports indentation differently
+---> The original commit sha is - 79436620428f2b297b3f88e8fa628701015cd39f
+Commit message - Revert "Coffeescript 1.5.0 reports indentation differently"
+
+This reverts commit cddb155d620da5ae55b4bd3100cfb8c13b5f45f7.
+---> The files with partial_reverts are:-
+test/test_1.5.0_plus.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ 9a589ca3a9e6b06ac4f41b8e2f3bbefd763bd341 -> aface1039e480ddb24eece0bdc7f1287fc039a72 } is a revert
+{ 01f4b3ce218e7447adca2c757faa73cec1e08dd3 -> cddb155d620da5ae55b4bd3100cfb8c13b5f45f7 }
+Partial Revert commits SHA are -> 
+aface1039e480ddb24eece0bdc7f1287fc039a72 - revert - cddb155d620da5ae55b4bd3100cfb8c13b5f45f7
+---> The reverted commit sha is - aface1039e480ddb24eece0bdc7f1287fc039a72
+Commit message - Removing examples/coffeelint.json to resolve merge conflict
+---> The original commit sha is - cddb155d620da5ae55b4bd3100cfb8c13b5f45f7
+Commit message - Coffeescript 1.5.0 reports indentation differently
+---> The files with partial_reverts are:-
+test/test_arrows.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ 9a589ca3a9e6b06ac4f41b8e2f3bbefd763bd341 -> aface1039e480ddb24eece0bdc7f1287fc039a72 } is a revert
+{ aface1039e480ddb24eece0bdc7f1287fc039a72 -> 01f4b3ce218e7447adca2c757faa73cec1e08dd3 }
+Partial Revert commits SHA are -> 
+aface1039e480ddb24eece0bdc7f1287fc039a72 - revert - 01f4b3ce218e7447adca2c757faa73cec1e08dd3
+---> The reverted commit sha is - aface1039e480ddb24eece0bdc7f1287fc039a72
+Commit message - Removing examples/coffeelint.json to resolve merge conflict
+---> The original commit sha is - 01f4b3ce218e7447adca2c757faa73cec1e08dd3
+Commit message - Merge pull request #76 from swang/arrows
+
+Adding linting option `arrow_spacing` to require a space around the arrow (=>) operator
+---> The files with partial_reverts are:-
+.gitignore
+Rakefile
+bin/coffeelint
+lib/coffeelint.js
+npm-shrinkwrap.json
+package.json
+src/commandline.coffee
+test/test_1.5.0_plus.coffee
+test/test_coffeelint.coffee
+test/test_commandline.coffee
+test/test_duplicate_key.coffee
+test/test_empty_param_list.coffee
+test/test_indent.coffee
+test/test_line_length.coffee
+test/test_newlines_after_classes.coffee
+test/test_throw.coffee
+test/test_trailing.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ 5c4392755719f93f164c7723042574531b2a8358 -> afa29859187bb72e6253958599db45e311eff95a } is a revert
+{ 026472f376160f7af128f1d5ab36059d126712dd -> 566d5ac944f33ad9370477f1e5fbdf26c3785e8e }
+Partial Revert commits SHA are -> 
+afa29859187bb72e6253958599db45e311eff95a - revert - 566d5ac944f33ad9370477f1e5fbdf26c3785e8e
+---> The reverted commit sha is - afa29859187bb72e6253958599db45e311eff95a
+Commit message - Revert test to simple version
+---> The original commit sha is - 566d5ac944f33ad9370477f1e5fbdf26c3785e8e
+Commit message - Merge pull request #96 from jspiro/non-empty-constructor-needs-parents
+
+Add non_empty_constructor_needs_parens rule (default: IGNORE)
+---> The files with partial_reverts are:-
+test/test_constructor_needs_parens.coffee
+test/test_empty_constructor_needs_parens.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ d082b0d62b61d3f88082e21db212f30135552095 -> 5c4392755719f93f164c7723042574531b2a8358 } is a revert
+{ 5c4392755719f93f164c7723042574531b2a8358 -> afa29859187bb72e6253958599db45e311eff95a }
+Partial Revert commits SHA are -> 
+5c4392755719f93f164c7723042574531b2a8358 - revert - afa29859187bb72e6253958599db45e311eff95a
+---> The reverted commit sha is - 5c4392755719f93f164c7723042574531b2a8358
+Commit message - added non_empty_constructor_needs_parens rule (default: IGNORE)
+---> The original commit sha is - afa29859187bb72e6253958599db45e311eff95a
+Commit message - Revert test to simple version
+---> The files with partial_reverts are:-
+src/coffeelint.coffee
+test/test_coffeelint.coffee
+test/test_constructor_needs_parens.coffee
+test/test_empty_constructor_needs_parens.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ f2dc1f546781379b64dbc3b3b9ffe52b4fa99afe -> 01138f4df81c6d7021e9aa492b680bbef7dc5e7a } is a revert
+{ 2598a89f5d55a1262385c9457f2ac9a6c986104a -> b636708025828a0e94ec8b5c0e5e46c5fa514a78 }
+Partial Revert commits SHA are -> 
+01138f4df81c6d7021e9aa492b680bbef7dc5e7a - revert - b636708025828a0e94ec8b5c0e5e46c5fa514a78
+---> The reverted commit sha is - 01138f4df81c6d7021e9aa492b680bbef7dc5e7a
+Commit message - Added a check to find duplicate keys defined on classes and objects.
+---> The original commit sha is - b636708025828a0e94ec8b5c0e5e46c5fa514a78
+Commit message - Merge pull request #93 from AsaAyers/line-length-exception
+
+Added an exception to exclude errors caused by long URLS in comments.
+---> The files with partial_reverts are:-
+test/test_line_length.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ 01138f4df81c6d7021e9aa492b680bbef7dc5e7a -> 5f614b1601236c6a00e1e774fbd088950d2b4d5b } is a revert
+{ 5f614b1601236c6a00e1e774fbd088950d2b4d5b -> 2598a89f5d55a1262385c9457f2ac9a6c986104a }
+Partial Revert commits SHA are -> 
+5f614b1601236c6a00e1e774fbd088950d2b4d5b - revert - 2598a89f5d55a1262385c9457f2ac9a6c986104a
+---> The reverted commit sha is - 5f614b1601236c6a00e1e774fbd088950d2b4d5b
+Commit message - Merge pull request #91 from AsaAyers/trailing-space-45
+
+Added no_trailing_whitespace.allowed_in_comments rule option. 
+---> The original commit sha is - 2598a89f5d55a1262385c9457f2ac9a6c986104a
+Commit message - Merge pull request #92 from AsaAyers/duplicate-key
+
+Added a check to find duplicate keys defined on classes and objects.
+---> The files with partial_reverts are:-
+test/test_duplicate_key.coffee
+test/test_newlines_after_classes.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ 1b963d31931cd7131d38bc5835aff3f74e976ac5 -> aaf745e69f730ee77e90e305c3ab0e76d431ce30 } is a revert
+{ 04a85563fc2017c56509202585ffc6fed85940a3 -> 0f819703176e1ecd10407b9d321e0bdf5aa36321 }
+Partial Revert commits SHA are -> 
+aaf745e69f730ee77e90e305c3ab0e76d431ce30 - revert - 0f819703176e1ecd10407b9d321e0bdf5aa36321
+---> The reverted commit sha is - aaf745e69f730ee77e90e305c3ab0e76d431ce30
+Commit message - Forgot tests for arrow_spacing
+---> The original commit sha is - 0f819703176e1ecd10407b9d321e0bdf5aa36321
+Commit message - Merge pull request #78 from swang/add_lib_to_gitignore
+
+Add lib/* to .gitignore, removed lib/coffeelint.js from repo
+---> The files with partial_reverts are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ 48da83ed96c5c7bac87025fc71fe4bc3648e00f6 -> 4b405a2198487a115dc1578f76487a9b77614e47 } is a revert
+{ aaf745e69f730ee77e90e305c3ab0e76d431ce30 -> 5a724ebf972ae8c0f04f6c77afd2049ca3128567 }
+Partial Revert commits SHA are -> 
+4b405a2198487a115dc1578f76487a9b77614e47 - revert - 5a724ebf972ae8c0f04f6c77afd2049ca3128567
+---> The reverted commit sha is - 4b405a2198487a115dc1578f76487a9b77614e47
+Commit message - Adding linting option for having a space around the arrow (=>) operator
+---> The original commit sha is - 5a724ebf972ae8c0f04f6c77afd2049ca3128567
+Commit message - Reverted changes to lib/coffeelint.js to avoid merge conflicts with the PR for ignoring lib/coffeelint.js
+---> The files with partial_reverts are:-
+lib/coffeelint.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 46 is -> 
+{ 0abe447a7b5182e6348e9a6e82e6e72d8aeb8c8d -> 48c7664410a12f55d9e7d3691b71d02631d7a790 } is a revert
+{ 07b50d4e513336ce4f42daf8f43092d351770b2b -> c342b185e2e669ac6f91b685707ce286dba975bb }
+Partial Revert commits SHA are -> 
+48c7664410a12f55d9e7d3691b71d02631d7a790 - revert - c342b185e2e669ac6f91b685707ce286dba975bb
+---> The reverted commit sha is - 48c7664410a12f55d9e7d3691b71d02631d7a790
+Commit message - Upgrading to CoffeeScript 1.3.3.
+---> The original commit sha is - c342b185e2e669ac6f91b685707ce286dba975bb
+Commit message - Merge remote-tracking branch 'manuel/newlinesAndClasses'
+
+Conflicts:
+	src/coffeelint.coffee
+---> The files with partial_reverts are:-
+src/coffeelint.coffee
+test/test_newlines_after_classes.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 47 is -> 
+{ 876eaf637ccc31d41dc0329da75c833cd1cbd223 -> 59f3bc2c027c44c58132007997283095745ae680 } is a revert
+{ b94b854dc17237a5132da626cf15ce99b78e19a3 -> f624555d13199e9d0434a490c12e0a48dc0619b6 }
+Partial Revert commits SHA are -> 
+59f3bc2c027c44c58132007997283095745ae680 - revert - f624555d13199e9d0434a490c12e0a48dc0619b6
+---> The reverted commit sha is - 59f3bc2c027c44c58132007997283095745ae680
+Commit message - Update README.md
+---> The original commit sha is - f624555d13199e9d0434a490c12e0a48dc0619b6
+Commit message - Merge pull request #66 from sjz/master
+
+stdout and stderr drain before exit
+---> The files with partial_reverts are:-
+bin/coffeelint
+src/commandline.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ 508600325ee5e5d50f7c5a11158ab0780c70df33 -> e15a4e4345a09ef61e692779a4d22e55c2a60fdb } is a revert
+{ 7698fc4b820df7c5d02db8c3304f066aa72f03a6 -> d12628114ded63f7cba84db687873285b1616c9d }
+Partial Revert commits SHA are -> 
+e15a4e4345a09ef61e692779a4d22e55c2a60fdb - revert - d12628114ded63f7cba84db687873285b1616c9d
+---> The reverted commit sha is - e15a4e4345a09ef61e692779a4d22e55c2a60fdb
+Commit message - Don't use backslashes with the glob library.
+---> The original commit sha is - d12628114ded63f7cba84db687873285b1616c9d
+Commit message - Merging clutchski/coffeelint master
+---> The files with partial_reverts are:-
+test/fixtures/cyclo_fail.coffee
+test/test_commandline.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ 72502a88a8b803d9c7736eeff46ad54076c83546 -> 508600325ee5e5d50f7c5a11158ab0780c70df33 } is a revert
+{ e15a4e4345a09ef61e692779a4d22e55c2a60fdb -> 7698fc4b820df7c5d02db8c3304f066aa72f03a6 }
+Partial Revert commits SHA are -> 
+508600325ee5e5d50f7c5a11158ab0780c70df33 - revert - 7698fc4b820df7c5d02db8c3304f066aa72f03a6
+---> The reverted commit sha is - 508600325ee5e5d50f7c5a11158ab0780c70df33
+Commit message - Fix JSLintReporter handling of cyclomatic complexity errors
+---> The original commit sha is - 7698fc4b820df7c5d02db8c3304f066aa72f03a6
+Commit message - Merge pull request #31 from Socrenchus/suppression
+
+Added inline block toggling of rules
+---> The files with partial_reverts are:-
+src/coffeelint.coffee
+test/test_block_config.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ 72502a88a8b803d9c7736eeff46ad54076c83546 -> 508600325ee5e5d50f7c5a11158ab0780c70df33 } is a revert
+{ 508600325ee5e5d50f7c5a11158ab0780c70df33 -> e15a4e4345a09ef61e692779a4d22e55c2a60fdb }
+Partial Revert commits SHA are -> 
+508600325ee5e5d50f7c5a11158ab0780c70df33 - revert - e15a4e4345a09ef61e692779a4d22e55c2a60fdb
+---> The reverted commit sha is - 508600325ee5e5d50f7c5a11158ab0780c70df33
+Commit message - Fix JSLintReporter handling of cyclomatic complexity errors
+---> The original commit sha is - e15a4e4345a09ef61e692779a4d22e55c2a60fdb
+Commit message - Don't use backslashes with the glob library.
+---> The files with partial_reverts are:-
+test/fixtures/cyclo_fail.coffee
+test/test_commandline.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 51 is -> 
+{ 45c7535f12752af9bb850e5f95b3bc00d4cdddf1 -> f7778613021f11e5e4de03eb84b3ef137ee8b52a } is a revert
+{ f7778613021f11e5e4de03eb84b3ef137ee8b52a -> d3de49487dd7af547feb7f0aaa79b546ac702261 }
+Partial Revert commits SHA are -> 
+f7778613021f11e5e4de03eb84b3ef137ee8b52a - revert - d3de49487dd7af547feb7f0aaa79b546ac702261
+---> The reverted commit sha is - f7778613021f11e5e4de03eb84b3ef137ee8b52a
+Commit message - added suppression system. just use #!SUPPRESS name_of_rule on the line you want suppressed.
+
+Conflicts:
+
+	src/coffeelint.coffee
+---> The original commit sha is - d3de49487dd7af547feb7f0aaa79b546ac702261
+Commit message - commit build products because it seemed like the cool thing to do.
+---> The files with partial_reverts are:-
+bin/coffeelint
+-----------------------------------------------------------------
+
+Partial Revert diff pair 52 is -> 
+{ 5db71feaf52667e2b130a9c9d941e0fa694c4da9 -> 3c00d743679622f923dcaae1e7a0475ce721e9a7 } is a revert
+{ c4cae6ff4275da2253dbb29d01db420198ffc4e1 -> 6e32c34654d0388000f4c684d0e2ea530bed7397 }
+Partial Revert commits SHA are -> 
+3c00d743679622f923dcaae1e7a0475ce721e9a7 - revert - 6e32c34654d0388000f4c684d0e2ea530bed7397
+---> The reverted commit sha is - 3c00d743679622f923dcaae1e7a0475ce721e9a7
+Commit message - Remove cruft.
+---> The original commit sha is - 6e32c34654d0388000f4c684d0e2ea530bed7397
+Commit message - Updating example config.
+---> The files with partial_reverts are:-
+examples/coffeelint.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 53 is -> 
+{ 1e111c76a5c830d5cc824f8b6b782fd8eb0b72ea -> 7cbe3318a3181445c1b33822a78ddfac180373d0 } is a revert
+{ c4cae6ff4275da2253dbb29d01db420198ffc4e1 -> 6e32c34654d0388000f4c684d0e2ea530bed7397 }
+Partial Revert commits SHA are -> 
+7cbe3318a3181445c1b33822a78ddfac180373d0 - revert - 6e32c34654d0388000f4c684d0e2ea530bed7397
+---> The reverted commit sha is - 7cbe3318a3181445c1b33822a78ddfac180373d0
+Commit message - Removing useless line.
+---> The original commit sha is - 6e32c34654d0388000f4c684d0e2ea530bed7397
+Commit message - Updating example config.
+---> The files with partial_reverts are:-
+examples/coffeelint.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 54 is -> 
+{ 1e111c76a5c830d5cc824f8b6b782fd8eb0b72ea -> 7cbe3318a3181445c1b33822a78ddfac180373d0 } is a revert
+{ a2c848a68cb09b93c5c3395f826bb6ad8607ee8a -> 549e9efc0b8f0e5b1fe646ee2c42e06481766809 }
+Partial Revert commits SHA are -> 
+7cbe3318a3181445c1b33822a78ddfac180373d0 - revert - 549e9efc0b8f0e5b1fe646ee2c42e06481766809
+---> The reverted commit sha is - 7cbe3318a3181445c1b33822a78ddfac180373d0
+Commit message - Removing useless line.
+---> The original commit sha is - 549e9efc0b8f0e5b1fe646ee2c42e06481766809
+Commit message - Merge branch 'complexity'
+---> The files with partial_reverts are:-
+Rakefile
+examples/coffeelint.json
+package.json
+test/fixtures/coffeelint.json
+test/test_cyclomatic_complexity.coffee
+test/test_indent.coffee
+test/test_levels.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 55 is -> 
+{ 5db71feaf52667e2b130a9c9d941e0fa694c4da9 -> 3c00d743679622f923dcaae1e7a0475ce721e9a7 } is a revert
+{ dc80907d408ffdf39a21bb81f82409e944d70868 -> 13fa22ec1f037665ba1a1b0d0060e934e4db10c3 }
+Partial Revert commits SHA are -> 
+3c00d743679622f923dcaae1e7a0475ce721e9a7 - revert - 13fa22ec1f037665ba1a1b0d0060e934e4db10c3
+---> The reverted commit sha is - 3c00d743679622f923dcaae1e7a0475ce721e9a7
+Commit message - Remove cruft.
+---> The original commit sha is - 13fa22ec1f037665ba1a1b0d0060e934e4db10c3
+Commit message - Boolean operators add to complexity.
+---> The files with partial_reverts are:-
+Rakefile
+examples/coffeelint.json
+package.json
+test/fixtures/coffeelint.json
+test/test_indent.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 56 is -> 
+{ e09949632b21519e93e6389353079d9d0f087b08 -> e6961165ff1c8e62f5a12d14a0cffb4917174b8e } is a revert
+{ f9d14bd52de11c00b6a64b08f448781273a2d18a -> 041107b6bac579a41c24ed97540fe77b227056b8 }
+Partial Revert commits SHA are -> 
+e6961165ff1c8e62f5a12d14a0cffb4917174b8e - revert - 041107b6bac579a41c24ed97540fe77b227056b8
+---> The reverted commit sha is - e6961165ff1c8e62f5a12d14a0cffb4917174b8e
+Commit message - Removing redundant unary switch case.
+---> The original commit sha is - 041107b6bac579a41c24ed97540fe77b227056b8
+Commit message - Removing broken line.
+---> The files with partial_reverts are:-
+test/test_cyclomatic_complexity.coffee
+test/test_indent.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 57 is -> 
+{ 6056907d52d9838c1a29930ac465abd7b79bc889 -> ac7dbf77d0bd8b8f725da25e0df6d97bd3216adf } is a revert
+{ ac7dbf77d0bd8b8f725da25e0df6d97bd3216adf -> 933bc9ecdc71735b940db48f182c7b8e9950cf77 }
+Partial Revert commits SHA are -> 
+ac7dbf77d0bd8b8f725da25e0df6d97bd3216adf - revert - 933bc9ecdc71735b940db48f182c7b8e9950cf77
+---> The reverted commit sha is - ac7dbf77d0bd8b8f725da25e0df6d97bd3216adf
+Commit message - Markdown.
+---> The original commit sha is - 933bc9ecdc71735b940db48f182c7b8e9950cf77
+Commit message - Fixing code block indentation.
+---> The files with partial_reverts are:-
+README
+-----------------------------------------------------------------
+

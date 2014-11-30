@@ -1,0 +1,2899 @@
+# of partial cherrypicks = 152
+Partial Cherry-pick diff pair 1 is -> 
+{ 8fbc09fb8f2228b92b4e85e8b47321a186720fb0 -> 2936e9964cd6b7d52150b1b4481ee85095ba2424 } is a cherrypick
+{ 80425e4ed3a1ffb6069e3d826c609d93b6bfca78 -> 957c4ae9d9683f3476c79c9a7eacfa1de964a622 }
+Partial Cherry-pick commits SHA are -> 
+2936e9964cd6b7d52150b1b4481ee85095ba2424 - cherrypick - 957c4ae9d9683f3476c79c9a7eacfa1de964a622
+---> The cherrypicked commit sha is - 2936e9964cd6b7d52150b1b4481ee85095ba2424
+Commit message - Remove fileList from package.json
+
+Grunt has a function which can automatically make an array of files from a glob.
+This is preferred over manually updating the file list, which can be forgotten.
+---> The original commit sha is - 957c4ae9d9683f3476c79c9a7eacfa1de964a622
+Commit message - Merge pull request #812 from kevinsimper/grunt-glob
+
+Remove fileList from package.json
+---> The files with partial_cherrypicks are:-
+Gruntfile.js
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ b7797a0edab73ec3a9397088e3cd3c48dec78439 -> 8fbc09fb8f2228b92b4e85e8b47321a186720fb0 } is a cherrypick
+{ 66a93eb048c08998a9ea3c6c52ed7a565629e877 -> a93caa4e953afba1effbf9c9de3a2456d933d82c }
+Partial Cherry-pick commits SHA are -> 
+8fbc09fb8f2228b92b4e85e8b47321a186720fb0 - cherrypick - a93caa4e953afba1effbf9c9de3a2456d933d82c
+---> The cherrypicked commit sha is - 8fbc09fb8f2228b92b4e85e8b47321a186720fb0
+Commit message - Obsolete import function
+
+The file was not part of the api generation and when added gave an error
+because it did not have a category.
+The Crafty builder is not active anymore.
+---> The original commit sha is - a93caa4e953afba1effbf9c9de3a2456d933d82c
+Commit message - Merge pull request #811 from kevinsimper/remove-import
+
+Obsolete import function
+---> The files with partial_cherrypicks are:-
+src/crafty.js
+src/import.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 1079db4b086db33227163c3f6e1e5bc273744b1b -> df32af720c15d4dc9a54199de1532e2f979df920 } is a cherrypick
+{ e7ab075da3460b4d9ebda6004bc44d42d1e9f582 -> da825bd63d12ae6fe576f75d2f1064a9ff5e73e0 }
+Partial Cherry-pick commits SHA are -> 
+df32af720c15d4dc9a54199de1532e2f979df920 - cherrypick - da825bd63d12ae6fe576f75d2f1064a9ff5e73e0
+---> The cherrypicked commit sha is - df32af720c15d4dc9a54199de1532e2f979df920
+Commit message - Make a main file that requires all the files
+
+This makes it possible to require crafty without compiling it first.
+Also by defining main in package.json require can automatically
+pick it up from the root folder if you are using browserify.
+---> The original commit sha is - da825bd63d12ae6fe576f75d2f1064a9ff5e73e0
+Commit message - Merge pull request #798 from kevinsimper/requireMainFile
+
+Make a main file that requires all the files
+---> The files with partial_cherrypicks are:-
+.gitignore
+src/crafty.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ cdade6706b27c109cf051ae539d1a107087e36c9 -> 1079db4b086db33227163c3f6e1e5bc273744b1b } is a cherrypick
+{ ea8fbb17a092f3c1b4e06a9b3fbf7682ce4f8843 -> bdcec096e58d4eec10b84cc445412f3a476461c0 }
+Partial Cherry-pick commits SHA are -> 
+1079db4b086db33227163c3f6e1e5bc273744b1b - cherrypick - bdcec096e58d4eec10b84cc445412f3a476461c0
+---> The cherrypicked commit sha is - 1079db4b086db33227163c3f6e1e5bc273744b1b
+Commit message - Cache travis-ci modules
+---> The original commit sha is - bdcec096e58d4eec10b84cc445412f3a476461c0
+Commit message - Merge pull request #799 from kevinsimper/travisCache
+
+Cache travis-ci modules
+---> The files with partial_cherrypicks are:-
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ 9e15f52e3879f681fbc9c38c85c40417dbfb77ad -> 6b19911bb57e7808f37ce97a45b80431d7299dee } is a cherrypick
+{ b917a2440fd85b3a0269d083970eb82a4979fbef -> ea8fbb17a092f3c1b4e06a9b3fbf7682ce4f8843 }
+Partial Cherry-pick commits SHA are -> 
+6b19911bb57e7808f37ce97a45b80431d7299dee - cherrypick - ea8fbb17a092f3c1b4e06a9b3fbf7682ce4f8843
+---> The cherrypicked commit sha is - 6b19911bb57e7808f37ce97a45b80431d7299dee
+Commit message - Remove craftycomponent.com module loader
+
+The website is not related to crafty.js anymore.
+---> The original commit sha is - ea8fbb17a092f3c1b4e06a9b3fbf7682ce4f8843
+Commit message - Merge pull request #801 from kevinsimper/deleteCraftyComponent
+
+Remove craftycomponent.com module loader
+---> The files with partial_cherrypicks are:-
+src/loader.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ ca6a34169e4fac346dfc10a772999410d7882e00 -> def12cd8a03cc485c341b7970e734508c9990d0f } is a cherrypick
+{ 1e4af41e7f3959160085034ede07f92d58f08355 -> dd28eea94f72ceb1bf5e8a8034f78fa001e35730 }
+Partial Cherry-pick commits SHA are -> 
+def12cd8a03cc485c341b7970e734508c9990d0f - cherrypick - dd28eea94f72ceb1bf5e8a8034f78fa001e35730
+---> The cherrypicked commit sha is - def12cd8a03cc485c341b7970e734508c9990d0f
+Commit message - Refactored loader; created function 'removeAssets'; fixed bug in Crafty.audio.remove
+---> The original commit sha is - dd28eea94f72ceb1bf5e8a8034f78fa001e35730
+Commit message - Merge pull request #777 from heniotierra/loader_refactored
+
+Refactored loader, and created new function 'removeAssets'
+---> The files with partial_cherrypicks are:-
+src/loader.js
+src/sound.js
+tests/loader.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ 072e0c3fb475931fb2571519c101153cf20a4823 -> 15306b90d4a21f43f9e2e5826e8601021391e22b } is a cherrypick
+{ 534f6020d94a3b054d23cd08dce326da8ce5d00d -> fe66b9086d03ffa147e501d1bfdefdb85f8e890e }
+Partial Cherry-pick commits SHA are -> 
+15306b90d4a21f43f9e2e5826e8601021391e22b - cherrypick - fe66b9086d03ffa147e501d1bfdefdb85f8e890e
+---> The cherrypicked commit sha is - 15306b90d4a21f43f9e2e5826e8601021391e22b
+Commit message - Decouple Crafty.pixelart from individual renderers
+
+Currently `Crafty.pixelart()` explicitly alters the canvas and DOM renderers.  This PR has it fire an event instead.
+
+The canvas and DOM contexts now listen for the event, and make the appropriate changes.  This will make it simpler to add new contexts (like webgl) or to introduce multiple renderers of the same type.
+
+This patch also tracks the current pixelart setting, and ensures that, when a canvas context is inited, that it matches that value.  It doesn't do something similar for the DOM element because the stage is created as soon as you init Crafty.
+---> The original commit sha is - fe66b9086d03ffa147e501d1bfdefdb85f8e890e
+Commit message - Merge pull request #763 from grozen/separate-playgrounds
+
+All tests invoked from a single file
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+src/canvas.js
+src/drawing.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ 8048afb3013e65573b6212eee46b2a3c201126a5 -> d2ba01848c2d6921f7ee98cf20ce6a184487e470 } is a cherrypick
+{ f55dd16c74e295fc83fe6d7c40dcf4312ddfc9c9 -> 7ac89daa7ac2bdfca6a695cfdf6724a75da0889b }
+Partial Cherry-pick commits SHA are -> 
+d2ba01848c2d6921f7ee98cf20ce6a184487e470 - cherrypick - 7ac89daa7ac2bdfca6a695cfdf6724a75da0889b
+---> The cherrypicked commit sha is - d2ba01848c2d6921f7ee98cf20ce6a184487e470
+Commit message - Split Vector2D.getNormal into perpendicular & getNormal
+---> The original commit sha is - 7ac89daa7ac2bdfca6a695cfdf6724a75da0889b
+Commit message - Merge pull request #748 from mucaho/vector2d_improve
+
+Split Vector2D.getNormal into perpendicular & getNormal
+---> The files with partial_cherrypicks are:-
+src/math.js
+tests/math.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ a40a291ccc322d674c565570466c2fee637686c8 -> 498d81340b846dbbbdf1f1f1f52025d5a34c8391 } is a cherrypick
+{ 7e8497209df9095c082d68cbbb744bc2904d7a5e -> 775a2815e64fbd90020485562ab74dd9a9de8f3b }
+Partial Cherry-pick commits SHA are -> 
+498d81340b846dbbbdf1f1f1f52025d5a34c8391 - cherrypick - 775a2815e64fbd90020485562ab74dd9a9de8f3b
+---> The cherrypicked commit sha is - 498d81340b846dbbbdf1f1f1f52025d5a34c8391
+Commit message - fixed Vector2D bugs
+---> The original commit sha is - 775a2815e64fbd90020485562ab74dd9a9de8f3b
+Commit message - Merge pull request #734 from mucaho/fix_vector2d
+
+Crafty.math.Vector2D improvements
+---> The files with partial_cherrypicks are:-
+src/math.js
+tests/math.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 79b9149759a68abd67a3d2f8abc5df01b2c59814 -> 94852bdaef24903d5bd9f5a7c052fe39d53e0ba3 } is a cherrypick
+{ 05131edf0ad05c81f60fd2dfecef8afcec2247c8 -> 59483f00c2084e0d2f5ea6cb1e7f8f541be78942 }
+Partial Cherry-pick commits SHA are -> 
+94852bdaef24903d5bd9f5a7c052fe39d53e0ba3 - cherrypick - 59483f00c2084e0d2f5ea6cb1e7f8f541be78942
+---> The cherrypicked commit sha is - 94852bdaef24903d5bd9f5a7c052fe39d53e0ba3
+Commit message - Pause *before* firing "AnimationEnd"
+
+Currently, if you try to play a new animation by binding to "AnimationEnd", it'll be paused right after the event fires.  This just switches the order, and adds a test for animation chaining.
+---> The original commit sha is - 59483f00c2084e0d2f5ea6cb1e7f8f541be78942
+Commit message - Merge pull request #731 from starwed/anim-pause-order
+
+Pause *before* firing "AnimationEnd"
+---> The files with partial_cherrypicks are:-
+src/sprite-animation.js
+tests/animation/sprite-animation.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ d81c44b80f530960ccfdb299e29140a9393748cd -> 79b9149759a68abd67a3d2f8abc5df01b2c59814 } is a cherrypick
+{ 69b2b5aa3da93aa1554911cd02804616d3a64503 -> ef7a03c88a9d08974729fa573e505e1e11d33d7f }
+Partial Cherry-pick commits SHA are -> 
+79b9149759a68abd67a3d2f8abc5df01b2c59814 - cherrypick - ef7a03c88a9d08974729fa573e505e1e11d33d7f
+---> The cherrypicked commit sha is - 79b9149759a68abd67a3d2f8abc5df01b2c59814
+Commit message - Reorganize init/removal of DOM component
+
+DOM wasn't really cleaning up after itself.  This moves all the logic to the special `remove` function, and unbinds all the events properly.  To unbind them, the event handlers are now _methods of the DOM component.
+
+There was an also an issue where undraw would throw when the entity's element wasn't actually attached directly to the stage.  It's now just removed from its parentNode.
+
+Adds tests to cover invalidation and cleanup.
+---> The original commit sha is - ef7a03c88a9d08974729fa573e505e1e11d33d7f
+Commit message - Merge pull request #727 from starwed/dom-removal
+
+Reorganize init/removal of DOM component
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+tests/dom.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 4322a3b365c173ef54cee65a7c887f06a9ffaf57 -> 399806d849841f50323fadc1bb623bf4678d30f9 } is a cherrypick
+{ a5108f4effe5877055612b8e48737f720ffc1b47 -> 0b581df35a51cdb5edf6863b04d84d1c7f1a99af }
+Partial Cherry-pick commits SHA are -> 
+399806d849841f50323fadc1bb623bf4678d30f9 - cherrypick - 0b581df35a51cdb5edf6863b04d84d1c7f1a99af
+---> The cherrypicked commit sha is - 399806d849841f50323fadc1bb623bf4678d30f9
+Commit message - unselectable text should have the default arrow cursor, not text cursor
+---> The original commit sha is - 0b581df35a51cdb5edf6863b04d84d1c7f1a99af
+Commit message - Merge pull request #724 from sbyrnes321/cursor
+
+unselectable text should have the default arrow cursor, not text cursor, on mouse-over
+---> The files with partial_cherrypicks are:-
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ d39cd0c61b08cc2e5ee99fa9d4a4a9a2a732cc0e -> d7502bbf6072dc53cbca217ec038b907257e180e } is a cherrypick
+{ e61377f3b30b7ce7a84f1f26ac0157a876f2981a -> e76a5a3bfc1d53d483fa9271d47a5c38058d7d9c }
+Partial Cherry-pick commits SHA are -> 
+d7502bbf6072dc53cbca217ec038b907257e180e - cherrypick - e76a5a3bfc1d53d483fa9271d47a5c38058d7d9c
+---> The cherrypicked commit sha is - d7502bbf6072dc53cbca217ec038b907257e180e
+Commit message - add test for Crafty.DOM.translate()
+---> The original commit sha is - e76a5a3bfc1d53d483fa9271d47a5c38058d7d9c
+Commit message - Merge pull request #701 from sbyrnes321/zoom_error
+
+fix bug in Crafty.DOM.translate when viewport scaled+zoomed
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 44b788e599cb6b39586b9ad63f496933b288f835 -> d39cd0c61b08cc2e5ee99fa9d4a4a9a2a732cc0e } is a cherrypick
+{ 71684d170fbe25217f43beeb72f3ceec6b5822b1 -> e61377f3b30b7ce7a84f1f26ac0157a876f2981a }
+Partial Cherry-pick commits SHA are -> 
+d39cd0c61b08cc2e5ee99fa9d4a4a9a2a732cc0e - cherrypick - e61377f3b30b7ce7a84f1f26ac0157a876f2981a
+---> The cherrypicked commit sha is - d39cd0c61b08cc2e5ee99fa9d4a4a9a2a732cc0e
+Commit message - viewport improvements
+
+* Get rid of Crafty.viewport._zoom which is synonymous with
+Crafty.viewport._scale. There is no point in having two redundant
+properties.
+
+* Eliminate temporary-object-creation in Crafty.viewport.rect(), by
+making a persistent object. (To avoid unwanted interactions, this object
+should be read-only, which required me to edit diamondiso.js.)
+
+* Improve documentation
+---> The original commit sha is - e61377f3b30b7ce7a84f1f26ac0157a876f2981a
+Commit message - Merge pull request #702 from sbyrnes321/develop
+
+viewport improvements: eliminate redundant _zoom property, improve docs
+---> The files with partial_cherrypicks are:-
+src/diamondiso.js
+src/viewport.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ fadef8896b13abc21352278f6a9fb27dff653e3d -> bdbf1e3d5e34b655d23a1e293a6ecfaf2e71e941 } is a cherrypick
+{ 8e9c6b09a1a5ba989ba0a4c423e8743a367c1b88 -> a82e3880644d3c45e5fdaaff5d39ad990517b4f6 }
+Partial Cherry-pick commits SHA are -> 
+bdbf1e3d5e34b655d23a1e293a6ecfaf2e71e941 - cherrypick - a82e3880644d3c45e5fdaaff5d39ad990517b4f6
+---> The cherrypicked commit sha is - bdbf1e3d5e34b655d23a1e293a6ecfaf2e71e941
+Commit message - Switch redraw event name to "Invalidate"
+
+Currently we use "Change" to indicate both when an attribute has been changed by `attr`, and to indicate when an entity needs to be redrawn.
+This patch switches the name of the latter type of event to "Invalidate".
+
+Since every other instance of "Invalidate" doesn't pass any date, this no longer passes the old coordinates when an entity is invalidated becuase of a move -- the event "Move" already covers that case.
+---> The original commit sha is - a82e3880644d3c45e5fdaaff5d39ad990517b4f6
+Commit message - Merge pull request #694 from starwed/invalidate
+
+Switch redraw event name to "Invalidate"
+---> The files with partial_cherrypicks are:-
+src/2D.js
+src/DOM.js
+src/canvas.js
+src/drawing.js
+src/sprite.js
+src/text.js
+src/viewport.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ dc11c9fa2730d0176c1f5fa5b14ae4105ec2b1a6 -> 15f2970e2a3927a71834d4e123d9c5edc726c889 } is a cherrypick
+{ 12d3f09f7410de407f5c5f4cac3035881324d704 -> a34c4a4ab936d437c53deeb44da7327e7a138aeb }
+Partial Cherry-pick commits SHA are -> 
+15f2970e2a3927a71834d4e123d9c5edc726c889 - cherrypick - a34c4a4ab936d437c53deeb44da7327e7a138aeb
+---> The cherrypicked commit sha is - 15f2970e2a3927a71834d4e123d9c5edc726c889
+Commit message - Abstract viewport resizing
+
+Add setters/getters for the viewport, and trigger a "ViewportResize" event.  Use that event to alter the dimensions of the stage and canvas appropriately.
+---> The original commit sha is - a34c4a4ab936d437c53deeb44da7327e7a138aeb
+Commit message - Merge pull request #691 from starwed/viewport-resize
+
+Abstract viewport resizing
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+src/canvas.js
+src/viewport.js
+tests/stage.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ c02076998ad3d38f57cf75d4ca93edb5d963b73f -> 58773546f657b9df271a75e7b49d2f595680f045 } is a cherrypick
+{ 8c176ec7d4bb1c05b675d82a00e96319b57ab37e -> 6eba0d2569623847fbcf3f16b27e4090f89c49ea }
+Partial Cherry-pick commits SHA are -> 
+58773546f657b9df271a75e7b49d2f595680f045 - cherrypick - 6eba0d2569623847fbcf3f16b27e4090f89c49ea
+---> The cherrypicked commit sha is - 58773546f657b9df271a75e7b49d2f595680f045
+Commit message - Fix problem with DOM sprite animation in webkit browsers
+
+The backgroundPosition CSS attribute isn't always getting set correctly in Safari.  This seems to be some sort of hard to trigger webkit-only bug that occurs when we do sprite animation, but not when setting regular sprite positions.
+
+I was unable to produce a simple test case without using Crafty, so I'm not sure what the exact problem is.  This "fixes" things by setting the background position separately from the rest of the background properties.
+---> The original commit sha is - 6eba0d2569623847fbcf3f16b27e4090f89c49ea
+Commit message - Merge pull request #673 from starwed/pawurb-clean_spaces
+
+Delete trailing spaces.
+---> The files with partial_cherrypicks are:-
+src/sprite.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 81d8403fd54a5cb64431e8ef1776769fc735c472 -> f505850e06eeb5bf13bba7545b6b6123cead76f8 } is a cherrypick
+{ 51e556176e460aed4ff0947f5f86dc1c28f80ec4 -> 8c176ec7d4bb1c05b675d82a00e96319b57ab37e }
+Partial Cherry-pick commits SHA are -> 
+f505850e06eeb5bf13bba7545b6b6123cead76f8 - cherrypick - 8c176ec7d4bb1c05b675d82a00e96319b57ab37e
+---> The cherrypicked commit sha is - f505850e06eeb5bf13bba7545b6b6123cead76f8
+Commit message - Added checking trailing spaces to jshint.
+---> The original commit sha is - 8c176ec7d4bb1c05b675d82a00e96319b57ab37e
+Commit message - Merge branch 'clean_spaces' of https://github.com/pawurb/Crafty into pawurb-clean_spaces
+
+Conflicts:
+	tests/core.html
+	tests/stage.html
+---> The files with partial_cherrypicks are:-
+README.md
+build/api-gen.coffee
+build/template.html
+changelog.txt
+src/collision.js
+src/diamondiso.js
+src/isometric.js
+src/storage.js
+src/text.js
+tests/animation/animation.html
+tests/camera.html
+tests/events.html
+tests/isometric.html
+tests/loader.html
+tests/storage.html
+tests/text.html
+tests/touchevents.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ f6d0a9da8643c380a7140e7f465438067903d22e -> 0a422d629906ff529792c23dec5384a1de29352e } is a cherrypick
+{ 0463651d571a4917941764e75e93f6d60ec4a685 -> c02076998ad3d38f57cf75d4ca93edb5d963b73f }
+Partial Cherry-pick commits SHA are -> 
+0a422d629906ff529792c23dec5384a1de29352e - cherrypick - c02076998ad3d38f57cf75d4ca93edb5d963b73f
+---> The cherrypicked commit sha is - 0a422d629906ff529792c23dec5384a1de29352e
+Commit message - fix jump while falling
+
+fixes #419
+---> The original commit sha is - c02076998ad3d38f57cf75d4ca93edb5d963b73f
+Commit message - Merge pull request #662 from mucaho/fix_jump_falling
+
+fix jump while falling
+---> The files with partial_cherrypicks are:-
+src/controls.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ d6e499461e0b36958ca6a132afafd1de5952bc18 -> f6d0a9da8643c380a7140e7f465438067903d22e } is a cherrypick
+{ 8ab4d6b8c8f91c361966f183fefc91e2ec719ebe -> 0463651d571a4917941764e75e93f6d60ec4a685 }
+Partial Cherry-pick commits SHA are -> 
+f6d0a9da8643c380a7140e7f465438067903d22e - cherrypick - 0463651d571a4917941764e75e93f6d60ec4a685
+---> The cherrypicked commit sha is - f6d0a9da8643c380a7140e7f465438067903d22e
+Commit message - extracted code from extensions.js
+
+moved keys & mouseButtons to keycodes.js
+moved zeroFill to 2D.js (only 2D.js uses zeroFill)
+---> The original commit sha is - 0463651d571a4917941764e75e93f6d60ec4a685
+Commit message - Merge pull request #660 from mucaho/split_files_1
+
+extracted code from extensions.js
+---> The files with partial_cherrypicks are:-
+package.json
+src/extensions.js
+src/keycodes.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ 0ad5c872ba1166533f3e4d17872982a4933c1b5b -> cf09928a34eda07755ee006861cf8a8635e24d05 } is a cherrypick
+{ 2b620dbaaa9b03701f66eb8a0321a1682f884a62 -> 2a066470518eacfe1583daf9fa5ad886d72fdc45 }
+Partial Cherry-pick commits SHA are -> 
+cf09928a34eda07755ee006861cf8a8635e24d05 - cherrypick - 2a066470518eacfe1583daf9fa5ad886d72fdc45
+---> The cherrypicked commit sha is - cf09928a34eda07755ee006861cf8a8635e24d05
+Commit message - Add support for line-height and variant to the Text component
+
+These work using DOM, but not canvas.  The textFont method now covers all the possible parts of the [font declaration.](https://developer.mozilla.org/en-US/docs/Web/CSS/font).
+
+Fixes #494.
+---> The original commit sha is - 2a066470518eacfe1583daf9fa5ad886d72fdc45
+Commit message - Merge pull request #652 from starwed/line-height
+
+Add support for line-height and variant to the Text component
+---> The files with partial_cherrypicks are:-
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ cf09928a34eda07755ee006861cf8a8635e24d05 -> ca1d96d825d4b37013c2b7248eba823bcb0b6d4b } is a cherrypick
+{ 45f881f667fa61a17e1fe9af170942293e39dd08 -> a3276860805ac3385dde59850e2c999c1fae54e8 }
+Partial Cherry-pick commits SHA are -> 
+ca1d96d825d4b37013c2b7248eba823bcb0b6d4b - cherrypick - a3276860805ac3385dde59850e2c999c1fae54e8
+---> The cherrypicked commit sha is - ca1d96d825d4b37013c2b7248eba823bcb0b6d4b
+Commit message - Merge pull request #648 from starwed/viewport-fixes
+
+Rework the viewport animation functions
+---> The original commit sha is - a3276860805ac3385dde59850e2c999c1fae54e8
+Commit message - Merge branch 'heniotierra-develop' into develop
+---> The files with partial_cherrypicks are:-
+src/drawing.js
+src/viewport.js
+tests/stage.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ dbece1c39d70a00c5aa1d8606eea1baa5d828a11 -> 970a4669bcbdb8a0f4eb456dff5f714582ad7884 } is a cherrypick
+{ d30cfc0a5d73dd5408ddd50a1c4abd408d546b31 -> 81d8403fd54a5cb64431e8ef1776769fc735c472 }
+Partial Cherry-pick commits SHA are -> 
+970a4669bcbdb8a0f4eb456dff5f714582ad7884 - cherrypick - 81d8403fd54a5cb64431e8ef1776769fc735c472
+---> The cherrypicked commit sha is - 970a4669bcbdb8a0f4eb456dff5f714582ad7884
+Commit message - Prevent _clamp from altering bounds
+
+It's currently possible to specify the viewport bounds, but the _clamp function will overwrite them.
+
+This simply changes how _clamp compares/adjusts the viewport so that the bounds aren't modified.
+---> The original commit sha is - 81d8403fd54a5cb64431e8ef1776769fc735c472
+Commit message - Merge pull request #647 from starwed/bound-clamp-fix
+
+Prevent _clamp from altering bounds
+---> The files with partial_cherrypicks are:-
+src/viewport.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ cbea3e672a73a74ddecaad9c537819a59c2fb00f -> e36132ef26134bcf9b09e246768eb14d579254f9 } is a cherrypick
+{ a4f5bb9b3b117f1f8f4df39273c852f6c98825a4 -> be3e3449a59ccda51fae3d8bd7140a63074db0b1 }
+Partial Cherry-pick commits SHA are -> 
+e36132ef26134bcf9b09e246768eb14d579254f9 - cherrypick - be3e3449a59ccda51fae3d8bd7140a63074db0b1
+---> The cherrypicked commit sha is - e36132ef26134bcf9b09e246768eb14d579254f9
+Commit message - Fix tweening of same properties by different entities, add tests
+---> The original commit sha is - be3e3449a59ccda51fae3d8bd7140a63074db0b1
+Commit message - Merge branch 'jamespic-chrome-workaround' into develop
+
+Conflicts:
+	Gruntfile.js
+---> The files with partial_cherrypicks are:-
+tests/tween.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ c4020feecb3f5fe8b9fffda847af441cc35cc3f4 -> 119f525fea717609b85bd675f118c862a82be8fa } is a cherrypick
+{ adbacb4a45dfab4760f24bb8bc1bb0cf04d0e792 -> 47e77941c41edd5da1c619c16cc1c3f793b49949 }
+Partial Cherry-pick commits SHA are -> 
+119f525fea717609b85bd675f118c862a82be8fa - cherrypick - 47e77941c41edd5da1c619c16cc1c3f793b49949
+---> The cherrypicked commit sha is - 119f525fea717609b85bd675f118c862a82be8fa
+Commit message - Fix off-by-one error in both animation.js and tests
+---> The original commit sha is - 47e77941c41edd5da1c619c16cc1c3f793b49949
+Commit message - Merge pull request #614 from starwed/anim-fix
+
+Fix off-by-one error in both animation.js and tests
+---> The files with partial_cherrypicks are:-
+src/animation.js
+tests/animation/sprite-animation.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 9c363ef193864cc09c01ff5df484a4298e5f8bab -> e342b282db82041f82078cbbe09d422386e70cdf } is a cherrypick
+{ 8904d36befa0cbb86b8089d6367ac19683338406 -> 2925ed8a85cc2ac00383943bd7e8a7d77147bb54 }
+Partial Cherry-pick commits SHA are -> 
+e342b282db82041f82078cbbe09d422386e70cdf - cherrypick - 2925ed8a85cc2ac00383943bd7e8a7d77147bb54
+---> The cherrypicked commit sha is - e342b282db82041f82078cbbe09d422386e70cdf
+Commit message - Improve documentation for Crafty.viewport.bounds
+---> The original commit sha is - 2925ed8a85cc2ac00383943bd7e8a7d77147bb54
+Commit message - Merge pull request #605 from potomak/feature/remove-new-date-conversion
+
+Use getTime method instead of implicit conversion
+---> The files with partial_cherrypicks are:-
+src/viewport.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ 92ba780cb7f92818d4d257facc97d2848e0027f4 -> cf7094f8bf224a79ace8903b39cb9b2fd76dd162 } is a cherrypick
+{ 3d6dbdf19e6b9dae939d60c2d6ccc8a340e091d0 -> 15599c35dc4fea9e20b30c3750c71a880ba8feb2 }
+Partial Cherry-pick commits SHA are -> 
+cf7094f8bf224a79ace8903b39cb9b2fd76dd162 - cherrypick - 15599c35dc4fea9e20b30c3750c71a880ba8feb2
+---> The cherrypicked commit sha is - cf7094f8bf224a79ace8903b39cb9b2fd76dd162
+Commit message - Change how rotation cascades for 2D entities
+
+Previously when a parent rotated, it changed the origin and rotation of children directly.  This prevented independent rotation of children.
+
+After this patch, children are rotated about their own origin, and shifted to the correct position relative to the parent.
+---> The original commit sha is - 15599c35dc4fea9e20b30c3750c71a880ba8feb2
+Commit message - Merge pull request #594 from starwed/rot
+
+Change how rotation cascades for 2D entities
+---> The files with partial_cherrypicks are:-
+src/2D.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ 580c88e195a904b7a1c759df8d38a1f242c3999d -> b27bbb07f33adaee217cd515079f7329d84942cc } is a cherrypick
+{ 550bb667ebd4d6c4ede75f59e2c5cbdd5eb360a5 -> 3d6dbdf19e6b9dae939d60c2d6ccc8a340e091d0 }
+Partial Cherry-pick commits SHA are -> 
+b27bbb07f33adaee217cd515079f7329d84942cc - cherrypick - 3d6dbdf19e6b9dae939d60c2d6ccc8a340e091d0
+---> The cherrypicked commit sha is - b27bbb07f33adaee217cd515079f7329d84942cc
+Commit message - Trigger event when particle animation finishes
+---> The original commit sha is - 3d6dbdf19e6b9dae939d60c2d6ccc8a340e091d0
+Commit message - Merge pull request #599 from mucaho/particles-patch
+
+Trigger event when particle animation finishes
+---> The files with partial_cherrypicks are:-
+src/particles.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ b27bbb07f33adaee217cd515079f7329d84942cc -> b7112c7d41b8fc07b6e9cf25f092a717a6d0594d } is a cherrypick
+{ 405b702807fd53120f0819b97856c532f3f0c330 -> 550bb667ebd4d6c4ede75f59e2c5cbdd5eb360a5 }
+Partial Cherry-pick commits SHA are -> 
+b7112c7d41b8fc07b6e9cf25f092a717a6d0594d - cherrypick - 550bb667ebd4d6c4ede75f59e2c5cbdd5eb360a5
+---> The cherrypicked commit sha is - b7112c7d41b8fc07b6e9cf25f092a717a6d0594d
+Commit message - Return value when setting crafty.asset(key, value)
+---> The original commit sha is - 550bb667ebd4d6c4ede75f59e2c5cbdd5eb360a5
+Commit message - Merge pull request #600 from mucaho/loader-patch
+
+Return value when setting crafty.asset(key, value)
+---> The files with partial_cherrypicks are:-
+src/loader.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ ac26cda8195e01c28e6b6b6d60bd76dd7fccec89 -> 3c245adc47b299c34b57b865f3bd004ab1be0978 } is a cherrypick
+{ d4b6c0c244d289521f3a673ed29187dc70d75539 -> 8c462c0b56cb06db6c649629883b3abbcad4890f }
+Partial Cherry-pick commits SHA are -> 
+3c245adc47b299c34b57b865f3bd004ab1be0978 - cherrypick - 8c462c0b56cb06db6c649629883b3abbcad4890f
+---> The cherrypicked commit sha is - 3c245adc47b299c34b57b865f3bd004ab1be0978
+Commit message - Add repository field
+
+NPM requires the field or else it gives and error. So to avoid it the field it added.
+---> The original commit sha is - 8c462c0b56cb06db6c649629883b3abbcad4890f
+Commit message - Fix package.json
+
+See https://github.com/craftyjs/Crafty/commit/3c245adc47b299c34b57b865f3bd004ab1be0978#commitcomment-4454656
+---> The files with partial_cherrypicks are:-
+Gruntfile.js
+src/core.js
+src/version.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ d98d5c63249e04fabab0aec6e81b1eb85a8bb52e -> aff50100effb1952aed9d90886398a74de703d4b } is a cherrypick
+{ e53be2cbe0ea17af1025483c2df47571b7dcea0b -> 455b7cb1ded7c51bf1c23a10c1456b31b8d50f37 }
+Partial Cherry-pick commits SHA are -> 
+aff50100effb1952aed9d90886398a74de703d4b - cherrypick - 455b7cb1ded7c51bf1c23a10c1456b31b8d50f37
+---> The cherrypicked commit sha is - aff50100effb1952aed9d90886398a74de703d4b
+Commit message - Remove old PHP API documentation build system
+
+See bc7ce76
+---> The original commit sha is - 455b7cb1ded7c51bf1c23a10c1456b31b8d50f37
+Commit message - Merge pull request #586 from starwed/hint
+
+Fix or suppress warnings produced by jshint
+---> The files with partial_cherrypicks are:-
+build/build-api.php
+build/build-api.sh
+build/footer.php
+build/global.css
+build/header.php
+build/markdown.php
+src/license.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ 66814b8df8db9ae4d863b112077dd75994f8c4b4 -> 25c16a882b9c408e0546fbca97f7e402ef596777 } is a cherrypick
+{ e53be2cbe0ea17af1025483c2df47571b7dcea0b -> 455b7cb1ded7c51bf1c23a10c1456b31b8d50f37 }
+Partial Cherry-pick commits SHA are -> 
+25c16a882b9c408e0546fbca97f7e402ef596777 - cherrypick - 455b7cb1ded7c51bf1c23a10c1456b31b8d50f37
+---> The cherrypicked commit sha is - 25c16a882b9c408e0546fbca97f7e402ef596777
+Commit message - Merge pull request #580 from potomak/feature/remove-old-build-system
+
+Remove old build system
+---> The original commit sha is - 455b7cb1ded7c51bf1c23a10c1456b31b8d50f37
+Commit message - Merge pull request #586 from starwed/hint
+
+Fix or suppress warnings produced by jshint
+---> The files with partial_cherrypicks are:-
+build/build-api.php
+build/build-api.sh
+build/footer.php
+build/global.css
+build/header.php
+build/markdown.php
+src/license.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ 9ef2a4734e2851f8b81230110765591f9f3212f3 -> 4faf5f6a8fa103364247a6f751e4aa52107bceaf } is a cherrypick
+{ 7b6bee5cb2492206eb0fb5a63dc01ae9109df7de -> 4f3a9d0e829c6b7c139a4d67934a8698f0454214 }
+Partial Cherry-pick commits SHA are -> 
+4faf5f6a8fa103364247a6f751e4aa52107bceaf - cherrypick - 4f3a9d0e829c6b7c139a4d67934a8698f0454214
+---> The cherrypicked commit sha is - 4faf5f6a8fa103364247a6f751e4aa52107bceaf
+Commit message - Fix image loader on IE; add loader test
+
+`obj.src = ""` triggers the error event on IE while it doesn't on webkit
+so adding a check for the type of browser fixes the error.
+
+See #549 for more details.
+---> The original commit sha is - 4f3a9d0e829c6b7c139a4d67934a8698f0454214
+Commit message - Merge branch 'feature/fix-IE-assets-loading-error' of git://github.com/potomak/Crafty into potomak-feature/fix-IE-assets-loading-error
+
+Conflicts:
+	Gruntfile.js
+---> The files with partial_cherrypicks are:-
+tests/loader.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ 0f25676be01ef416db7c4b25e7d7740743285a65 -> b50f205bc621e4f53c1408681ea5aae6ced68a45 } is a cherrypick
+{ 70172c0f543bfb588c2c0fd41a94f2e352a0b202 -> 652a251f5a5037f1854fa2f89e6dc1e9e1d91077 }
+Partial Cherry-pick commits SHA are -> 
+b50f205bc621e4f53c1408681ea5aae6ced68a45 - cherrypick - 652a251f5a5037f1854fa2f89e6dc1e9e1d91077
+---> The cherrypicked commit sha is - b50f205bc621e4f53c1408681ea5aae6ced68a45
+Commit message - another url fail
+---> The original commit sha is - 652a251f5a5037f1854fa2f89e6dc1e9e1d91077
+Commit message - Delete empty file
+---> The files with partial_cherrypicks are:-
+src/JavaScript.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ b513cfb306736dab1ed400a140cb4e2d9ea1a9e9 -> 8c58986935f7838a725e8f793d48a402b1287f20 } is a cherrypick
+{ 0fa1ee39b084f9798d957e1d2a643af1e305308f -> 7f9534ab072c90816e967812d111d58572a051c5 }
+Partial Cherry-pick commits SHA are -> 
+8c58986935f7838a725e8f793d48a402b1287f20 - cherrypick - 7f9534ab072c90816e967812d111d58572a051c5
+---> The cherrypicked commit sha is - 8c58986935f7838a725e8f793d48a402b1287f20
+Commit message - Fixing some odd behaviour in isometric, and adding iso tests.
+---> The original commit sha is - 7f9534ab072c90816e967812d111d58572a051c5
+Commit message - Merge branch 'isometric' of https://github.com/ericathegreat/Crafty into ericathegreat-isometric
+
+Conflicts:
+	src/isometric.js
+---> The files with partial_cherrypicks are:-
+Gruntfile.js
+tests/isometric.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ e48a13511a2f1482993a6cd99dc785933fc64c56 -> ba90c55113ed38d11cb02f80c7f50fcc835bb8ea } is a cherrypick
+{ e01c2d7b13079507745b0c04bd40906ef7d36a36 -> e85bbdde4d10a2815d24637481dc7269e2366538 }
+Partial Cherry-pick commits SHA are -> 
+ba90c55113ed38d11cb02f80c7f50fcc835bb8ea - cherrypick - e85bbdde4d10a2815d24637481dc7269e2366538
+---> The cherrypicked commit sha is - ba90c55113ed38d11cb02f80c7f50fcc835bb8ea
+Commit message - sprite components should add 2D automatically
+
+This fixes the gotcha described in the documentation, where
+Crafty.e('flower, 2D, DOM') doesn't work because the 2D component's init
+overwrites the width and height set by the flower (sprite) component.
+---> The original commit sha is - e85bbdde4d10a2815d24637481dc7269e2366538
+Commit message - Merge pull request #546 from sbyrnes321/SpriteRequires2D
+
+sprite components should add 2D automatically
+---> The files with partial_cherrypicks are:-
+src/extensions.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ 7f7565b6e0c923f640081a7aa27a345f1c559835 -> 00f1895124713986ebe8623264e1134188454544 } is a cherrypick
+{ f8591b6d89ebc17138d261d55410bb52064088ea -> 69bfe303472326b99622e135f1df7a7d8c19dbbc }
+Partial Cherry-pick commits SHA are -> 
+00f1895124713986ebe8623264e1134188454544 - cherrypick - 69bfe303472326b99622e135f1df7a7d8c19dbbc
+---> The cherrypicked commit sha is - 00f1895124713986ebe8623264e1134188454544
+Commit message - Fixing timing test based on game loop refactor.
+---> The original commit sha is - 69bfe303472326b99622e135f1df7a7d8c19dbbc
+Commit message - Merge pull request #538 from ericathegreat/stage-testfix
+
+Fixing timing test based on game loop refactor.
+---> The files with partial_cherrypicks are:-
+tests/stage.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ 538259205e496895a645acc43c649369fdb9f65d -> 72a56be0b585f661d9ffe346e8a58720659c8935 } is a cherrypick
+{ eb5169e8a399a15a59c2161938449e30bb7f5a00 -> 6ab237dac5afbd8b4b261a885c340cf7d39573d2 }
+Partial Cherry-pick commits SHA are -> 
+72a56be0b585f661d9ffe346e8a58720659c8935 - cherrypick - 6ab237dac5afbd8b4b261a885c340cf7d39573d2
+---> The cherrypicked commit sha is - 72a56be0b585f661d9ffe346e8a58720659c8935
+Commit message - Customizable game loop
+
+This patch reworks the game loop to allow control over its behavior.  It can now be set to three modes, which control what dt is passed to each frame, as well as how often frames are called.
+
+* "fixed", which is the existing behavior.  Each frame processes the same amount of time, and as many frames as necessary are processed to reach the target rate.
+* "variable", which processes a single frame per render.  This frame is handed the total time since the last frame, up to some maximum value.
+* "semifixed", which takes the total time since the last step, and splits it evenly between as many frames are necessary to avoid exceeding some maximum timestep.
+
+It also cleans up how the game loop and Crafty.timer are actually implemented, moving a bunch of internal variables into the scope of Crafty.timer.
+---> The original commit sha is - 6ab237dac5afbd8b4b261a885c340cf7d39573d2
+Commit message - Merge pull request #533 from sbyrnes321/develop
+
+grunt should create API directory if it doesn't already exist
+---> The files with partial_cherrypicks are:-
+src/core.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ 319f0b811c0cf80e36a72ccb7f70597c2da00153 -> fa4ad572db1448e8fc6e4b340bd7ef4e00ac10b1 } is a cherrypick
+{ 425b11ac5547633174232d672e4d71e1f675fb9e -> b4cd71dd10dcf3cc69593c252ff8c15f08815576 }
+Partial Cherry-pick commits SHA are -> 
+fa4ad572db1448e8fc6e4b340bd7ef4e00ac10b1 - cherrypick - b4cd71dd10dcf3cc69593c252ff8c15f08815576
+---> The cherrypicked commit sha is - fa4ad572db1448e8fc6e4b340bd7ef4e00ac10b1
+Commit message - Fixing a bug in centerOn for non-zero origins
+When the viewport is not already at zero and .centerOn
+is called, it was not correctly centering. The further
+away from the origin the viewport was, the further away
+from the center target it would end up.
+---> The original commit sha is - b4cd71dd10dcf3cc69593c252ff8c15f08815576
+Commit message - Merge pull request #522 from ericathegreat/centerOn-scrolling-bugfix
+
+Fixing a bug in centerOn for non-zero origins
+---> The files with partial_cherrypicks are:-
+src/extensions.js
+tests/stage.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ c31af304da0949f5703fcf9082eee19836978635 -> a1366d9fc6ce8fd2d57fe3cbd9208d43b2812efa } is a cherrypick
+{ b094a7e75c74be7d19a0b7e59bfde45318e142e5 -> edbb5581dac8231fb92bbf1332bf6224b607c2d8 }
+Partial Cherry-pick commits SHA are -> 
+a1366d9fc6ce8fd2d57fe3cbd9208d43b2812efa - cherrypick - edbb5581dac8231fb92bbf1332bf6224b607c2d8
+---> The cherrypicked commit sha is - a1366d9fc6ce8fd2d57fe3cbd9208d43b2812efa
+Commit message - Scale sprites on DOM entities
+
+This patch uses the CSS3 background-size property to scale sprites on DOM entities.  It should work on IE9+, but not IE8 or below.
+---> The original commit sha is - edbb5581dac8231fb92bbf1332bf6224b607c2d8
+Commit message - Merge pull request #507 from starwed/sprite-scale
+
+Scale sprites on DOM entities
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+src/sprite.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ f9a66b047117baa2a9d5167f51a7a7bfdd3562f0 -> a5b5b66051c20d1920d3ab079a38d2c56800d7db } is a cherrypick
+{ ee55dc3b77f0a290057b746d0a0a7e93fc8e46c7 -> 4f3282e0d887d848f17a036db7f1cc62c1c1c7c3 }
+Partial Cherry-pick commits SHA are -> 
+a5b5b66051c20d1920d3ab079a38d2c56800d7db - cherrypick - 4f3282e0d887d848f17a036db7f1cc62c1c1c7c3
+---> The cherrypicked commit sha is - a5b5b66051c20d1920d3ab079a38d2c56800d7db
+Commit message - Make 2d comparison functions consistently use _x style properties
+
+Modifies isAt, contains, and within to accept objects with _x style properties, such as MBRs.  (Fixes #504).  Would break code that passed manually constructed objects with old-style properties.
+
+Adds a couple tests to better catch issues with MBRs and within/contains.
+---> The original commit sha is - 4f3282e0d887d848f17a036db7f1cc62c1c1c7c3
+Commit message - Merge pull request #505 from starwed/fix-2D-MBR
+
+Make 2d comparison functions consistently use _x style properties
+---> The files with partial_cherrypicks are:-
+src/2D.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ 90f664f17eb44c2e49ab07cb4cfa8cc3a508b3f9 -> 9adffadaa030fa4eef1e97189f243ecb7063c9dc } is a cherrypick
+{ 295c7b2b5e3ab07874ca60f8ea53dd32ddc1caef -> e1a69a9ca19f4c9463742ea0aabf70a88669702b }
+Partial Cherry-pick commits SHA are -> 
+9adffadaa030fa4eef1e97189f243ecb7063c9dc - cherrypick - e1a69a9ca19f4c9463742ea0aabf70a88669702b
+---> The cherrypicked commit sha is - 9adffadaa030fa4eef1e97189f243ecb7063c9dc
+Commit message - Add the ability for components to run a special function on removal/destruction
+
+Allows components to define a remove method that work similarly to init.  It will be called when the entity is destroyed or the component is removed.  It's passed a boolean flag that is true on destruction, false on simple removal.
+
+This patch also moves the trigger of "RemoveComponent" so that it occurs before the component is removed, instead of after.
+---> The original commit sha is - e1a69a9ca19f4c9463742ea0aabf70a88669702b
+Commit message - Merge pull request #501 from starwed/destruction
+
+Add the ability for components to run a special function on removal/destruction
+---> The files with partial_cherrypicks are:-
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ 25e385467dd90e23bf2f4bc81c288919b975bbcd -> 336543bd53aa9a75477389522312aa07fa7c8649 } is a cherrypick
+{ 25762bc2f3efaa3abceda2795e06de6ac62efd92 -> 86a16ba187814c9d3f775edbc7be31d16bc2ee4f }
+Partial Cherry-pick commits SHA are -> 
+336543bd53aa9a75477389522312aa07fa7c8649 - cherrypick - 86a16ba187814c9d3f775edbc7be31d16bc2ee4f
+---> The cherrypicked commit sha is - 336543bd53aa9a75477389522312aa07fa7c8649
+Commit message - Timing events
+
+This patch measures the time between each important part of the loop:
+
+* The length of each "EnterFrame" and "RenderScene" event
+* The time Crafty waits from the end of one to the beginning of the next
+
+The time since the last frame is passed to the "EnterFrame" event as the property dt.
+
+I also moved the docs for "EnterFrame" to Crafty.timer, since that's where the events happen.
+---> The original commit sha is - 86a16ba187814c9d3f775edbc7be31d16bc2ee4f
+Commit message - Merge pull request #490 from starwed/timing
+
+Add dt info for "EnterFrame"; trigger timing measurement events
+---> The files with partial_cherrypicks are:-
+src/core.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ bfe4474fd8f4c144f83b7494fa2f2a337d6ee062 -> 25e385467dd90e23bf2f4bc81c288919b975bbcd } is a cherrypick
+{ 28965c1fcde310f1664050e6314c392cb66f315a -> 25762bc2f3efaa3abceda2795e06de6ac62efd92 }
+Partial Cherry-pick commits SHA are -> 
+25e385467dd90e23bf2f4bc81c288919b975bbcd - cherrypick - 25762bc2f3efaa3abceda2795e06de6ac62efd92
+---> The cherrypicked commit sha is - 25e385467dd90e23bf2f4bc81c288919b975bbcd
+Commit message - Reorder scene init function, add new scene event
+
+* Trigger "SceneChange" and set Crafty._current before new scene is initialized
+* Trigger "SceneDestroy" right before a scene is destroyed
+---> The original commit sha is - 25762bc2f3efaa3abceda2795e06de6ac62efd92
+Commit message - Merge pull request #493 from starwed/init-order
+
+Set _current scene before calling init function; add "SceneDestroy" 
+---> The files with partial_cherrypicks are:-
+src/drawing.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ aec6b2d293fe3d77791e85bf9be70342363231b7 -> 20a6c9c41f28b2c9269597fab03419fcd45af97f } is a cherrypick
+{ 5e3207979527141ce5de43c8d7f66c708f73eda1 -> 4403a0fa110a21765e64b4fabb002259efb7481e }
+Partial Cherry-pick commits SHA are -> 
+20a6c9c41f28b2c9269597fab03419fcd45af97f - cherrypick - 4403a0fa110a21765e64b4fabb002259efb7481e
+---> The cherrypicked commit sha is - 20a6c9c41f28b2c9269597fab03419fcd45af97f
+Commit message - Fix follow and timer tests
+---> The original commit sha is - 4403a0fa110a21765e64b4fabb002259efb7481e
+Commit message - Merge pull request #468 from starwed/test-fixes
+
+Fix follow and timer tests
+---> The files with partial_cherrypicks are:-
+tests/stage.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ 9e685a949d6c6cf72b7dc3f9b95ee54d26699543 -> 2137969c317dcd7e1e76c0ad055630fc0bc742da } is a cherrypick
+{ b4469d322320723f0019fd51ae8a47d2ae04c3f2 -> 5e3207979527141ce5de43c8d7f66c708f73eda1 }
+Partial Cherry-pick commits SHA are -> 
+2137969c317dcd7e1e76c0ad055630fc0bc742da - cherrypick - 5e3207979527141ce5de43c8d7f66c708f73eda1
+---> The cherrypicked commit sha is - 2137969c317dcd7e1e76c0ad055630fc0bc742da
+Commit message - Optimize order in which entities are drawn
+---> The original commit sha is - 5e3207979527141ce5de43c8d7f66c708f73eda1
+Commit message - Merge branch 'dirty_develop' of https://github.com/starwed/Crafty into starwed-dirty_develop
+
+Conflicts:
+	src/canvas.js
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ 3b18960fbc0e0ecf6ebd44a762dbf3cd49b568dd -> 01bdd338eece9923536fb89b88af652f3fdb6187 } is a cherrypick
+{ b4469d322320723f0019fd51ae8a47d2ae04c3f2 -> 5e3207979527141ce5de43c8d7f66c708f73eda1 }
+Partial Cherry-pick commits SHA are -> 
+01bdd338eece9923536fb89b88af652f3fdb6187 - cherrypick - 5e3207979527141ce5de43c8d7f66c708f73eda1
+---> The cherrypicked commit sha is - 01bdd338eece9923536fb89b88af652f3fdb6187
+Commit message - Optimize mergeset algo
+---> The original commit sha is - 5e3207979527141ce5de43c8d7f66c708f73eda1
+Commit message - Merge branch 'dirty_develop' of https://github.com/starwed/Crafty into starwed-dirty_develop
+
+Conflicts:
+	src/canvas.js
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ 86bae4921279b53aa6388a63c3724d09652c2664 -> 9963df50dad0c42dfbde811389b610464a86dc30 } is a cherrypick
+{ b4469d322320723f0019fd51ae8a47d2ae04c3f2 -> 5e3207979527141ce5de43c8d7f66c708f73eda1 }
+Partial Cherry-pick commits SHA are -> 
+9963df50dad0c42dfbde811389b610464a86dc30 - cherrypick - 5e3207979527141ce5de43c8d7f66c708f73eda1
+---> The cherrypicked commit sha is - 9963df50dad0c42dfbde811389b610464a86dc30
+Commit message - Remove extraneous flag and console debug
+---> The original commit sha is - 5e3207979527141ce5de43c8d7f66c708f73eda1
+Commit message - Merge branch 'dirty_develop' of https://github.com/starwed/Crafty into starwed-dirty_develop
+
+Conflicts:
+	src/canvas.js
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 49 is -> 
+{ 05a6f72e7bca3cf73a825c3393d1ee2ebc014382 -> 912cfa020faed60c3c5bbf55b03205dce53387dc } is a cherrypick
+{ 6ddc3e1425c2c45331ca07d386dee2069d84a5f7 -> 648b5897e8600441f9c6f18835b11aedcc00cb56 }
+Partial Cherry-pick commits SHA are -> 
+912cfa020faed60c3c5bbf55b03205dce53387dc - cherrypick - 648b5897e8600441f9c6f18835b11aedcc00cb56
+---> The cherrypicked commit sha is - 912cfa020faed60c3c5bbf55b03205dce53387dc
+Commit message - Return early from _attr when there is no change in the value of the attribute.
+
+This prevents any unncessary events from being triggered.
+---> The original commit sha is - 648b5897e8600441f9c6f18835b11aedcc00cb56
+Commit message - Merge pull request #461 from starwed/no-move
+
+Return early from _attr when there is no change in the value of the attribute.
+---> The files with partial_cherrypicks are:-
+src/2D.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 50 is -> 
+{ 5848664e9894521d28cbc9a5c34165713eb1d884 -> 91f6c6c599dd8e9544720b4371556ee18ebd3b9f } is a cherrypick
+{ 2e40d9ec6c8e88a9885a1e32ae58a318747a97ec -> 14049bc5a1b65601f26c74186ba983582ab206c4 }
+Partial Cherry-pick commits SHA are -> 
+91f6c6c599dd8e9544720b4371556ee18ebd3b9f - cherrypick - 14049bc5a1b65601f26c74186ba983582ab206c4
+---> The cherrypicked commit sha is - 91f6c6c599dd8e9544720b4371556ee18ebd3b9f
+Commit message - Make sure api is built for every file in crafty.
+---> The original commit sha is - 14049bc5a1b65601f26c74186ba983582ab206c4
+Commit message - Made the stage element more modular.
+---> The files with partial_cherrypicks are:-
+crafty-local.js
+src/2D.js
+src/drawing.js
+src/hitbox.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 51 is -> 
+{ 42819f704903fe4c2df5a5463985237b951eabb4 -> 50f469d91f4b4b5ddc5740c16b0a215cb9ccf1eb } is a cherrypick
+{ 4e1cc60be1cd863d97d84a9f82115404aa22cae8 -> 51d7cae8831e66f09255009216d1e8dcf933614a }
+Partial Cherry-pick commits SHA are -> 
+50f469d91f4b4b5ddc5740c16b0a215cb9ccf1eb - cherrypick - 51d7cae8831e66f09255009216d1e8dcf933614a
+---> The cherrypicked commit sha is - 50f469d91f4b4b5ddc5740c16b0a215cb9ccf1eb
+Commit message - Unbind event for HitBox (2)
+
+Added a RemoveComponent handler to HitBox. It unbinds its EnterFrame
+event and clear the HitBox canvas
+---> The original commit sha is - 51d7cae8831e66f09255009216d1e8dcf933614a
+Commit message - Merge pull request #454 from sbyrnes321/each_documentation
+
+fix -- .each documentation was not copied to website
+---> The files with partial_cherrypicks are:-
+src/hitbox.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 52 is -> 
+{ 25c5fbfabfacb22be8905cef7b76d0384a0a8a96 -> b931766524d43fcf5b0139bab94853a7526f1ee3 } is a cherrypick
+{ 4e1cc60be1cd863d97d84a9f82115404aa22cae8 -> 51d7cae8831e66f09255009216d1e8dcf933614a }
+Partial Cherry-pick commits SHA are -> 
+b931766524d43fcf5b0139bab94853a7526f1ee3 - cherrypick - 51d7cae8831e66f09255009216d1e8dcf933614a
+---> The cherrypicked commit sha is - b931766524d43fcf5b0139bab94853a7526f1ee3
+Commit message - Merge pull request #410 from jhcp/hitbox
+
+Unbind event for HitBox (2)
+---> The original commit sha is - 51d7cae8831e66f09255009216d1e8dcf933614a
+Commit message - Merge pull request #454 from sbyrnes321/each_documentation
+
+fix -- .each documentation was not copied to website
+---> The files with partial_cherrypicks are:-
+src/hitbox.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 53 is -> 
+{ 50f469d91f4b4b5ddc5740c16b0a215cb9ccf1eb -> 7cdd86c37fa6588a9c9b5279769d5e8adb6bde38 } is a cherrypick
+{ b931766524d43fcf5b0139bab94853a7526f1ee3 -> 4e1cc60be1cd863d97d84a9f82115404aa22cae8 }
+Partial Cherry-pick commits SHA are -> 
+7cdd86c37fa6588a9c9b5279769d5e8adb6bde38 - cherrypick - 4e1cc60be1cd863d97d84a9f82115404aa22cae8
+---> The cherrypicked commit sha is - 7cdd86c37fa6588a9c9b5279769d5e8adb6bde38
+Commit message - Doc -- Warn that text component cannot be used to write text inside an image
+
+On the mailing list, two people in two weeks made the same mistake of
+trying to combine the text component with a sprite component. So it's
+worth clarifying!
+---> The original commit sha is - 4e1cc60be1cd863d97d84a9f82115404aa22cae8
+Commit message - fix -- .each documentation was not copied to website
+
+I don't know exactly how the documentation-generation works, but based
+on the model of other similar functions, I bet that the problem is the
+missing @comp line.
+---> The files with partial_cherrypicks are:-
+src/hitbox.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 54 is -> 
+{ 5c72aa0f83c4179ad1a1f096804bfbd4bb68b2f0 -> 8cd26504535688c43c941f0601291a5850229d54 } is a cherrypick
+{ bdfd65e5ee2e634c7433b3582d034711bb89acbc -> b5b30dca1b9ab7d69ba4d9231209ef6039bc5438 }
+Partial Cherry-pick commits SHA are -> 
+8cd26504535688c43c941f0601291a5850229d54 - cherrypick - b5b30dca1b9ab7d69ba4d9231209ef6039bc5438
+---> The cherrypicked commit sha is - 8cd26504535688c43c941f0601291a5850229d54
+Commit message - Added changes as suggested
+---> The original commit sha is - b5b30dca1b9ab7d69ba4d9231209ef6039bc5438
+Commit message - Merge pull request #435 from mucaho/patch-1
+
+Update time.js to allow repeat; return correct object from delay()
+---> The files with partial_cherrypicks are:-
+src/time.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 55 is -> 
+{ 457a6a311e7ed7c4aa4a7b4251f643f76d05df3f -> 14fb10d0663f2ec8da3ac97f43f6f4640ac676f8 } is a cherrypick
+{ c233fff27323fec235848e952862b701567ea54f -> 5c72aa0f83c4179ad1a1f096804bfbd4bb68b2f0 }
+Partial Cherry-pick commits SHA are -> 
+14fb10d0663f2ec8da3ac97f43f6f4640ac676f8 - cherrypick - 5c72aa0f83c4179ad1a1f096804bfbd4bb68b2f0
+---> The cherrypicked commit sha is - 14fb10d0663f2ec8da3ac97f43f6f4640ac676f8
+Commit message - add to documentation of .z and .rotation
+---> The original commit sha is - 5c72aa0f83c4179ad1a1f096804bfbd4bb68b2f0
+Commit message - Merge pull request #441 from sbyrnes321/rotation_documentation
+
+add to documentation of .z and .rotation
+---> The files with partial_cherrypicks are:-
+src/2D.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 56 is -> 
+{ bb9d9d20ed8a2f7a08bcfd94c3dfd57fc376cfb8 -> d2c74de43854f6caf012d171d13997a5aaffd957 } is a cherrypick
+{ 5e47d8439b99b28cd70e92ed19cf526560633697 -> 36f98fe88a16d1baac78db5df69fcff10f742889 }
+Partial Cherry-pick commits SHA are -> 
+d2c74de43854f6caf012d171d13997a5aaffd957 - cherrypick - 36f98fe88a16d1baac78db5df69fcff10f742889
+---> The cherrypicked commit sha is - d2c74de43854f6caf012d171d13997a5aaffd957
+Commit message - resolves issue 360
+
+See https://github.com/craftyjs/Crafty/issues/360#issuecomment-13108664
+
+Added unit test to confirm all behavior.
+
+Edited documentation of this.attach to be more explicit, and
+particularly to mention that destroying the parent will destroy
+the child.
+---> The original commit sha is - 36f98fe88a16d1baac78db5df69fcff10f742889
+Commit message - Merge pull request #421 from sbyrnes321/origin/destroychildren
+
+bug fix -- destroying parent does not destroy all children
+---> The files with partial_cherrypicks are:-
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 57 is -> 
+{ f4cc5c50b5b78a5951c43f9b5964a6e7f4b3cb9b -> bec17a6ed9acd91bf3bdb4bea3f7db11bdeb4604 } is a cherrypick
+{ 5e47d8439b99b28cd70e92ed19cf526560633697 -> 36f98fe88a16d1baac78db5df69fcff10f742889 }
+Partial Cherry-pick commits SHA are -> 
+bec17a6ed9acd91bf3bdb4bea3f7db11bdeb4604 - cherrypick - 36f98fe88a16d1baac78db5df69fcff10f742889
+---> The cherrypicked commit sha is - bec17a6ed9acd91bf3bdb4bea3f7db11bdeb4604
+Commit message - improve destruction process for entities with attached children
+
+In cases when this._children[i] cannot be destroyed, might as well
+still delete the _parent link. (Might avoids memory leaks in some
+weird cases.) Add code comment saying why the "if" is there.
+---> The original commit sha is - 36f98fe88a16d1baac78db5df69fcff10f742889
+Commit message - Merge pull request #421 from sbyrnes321/origin/destroychildren
+
+bug fix -- destroying parent does not destroy all children
+---> The files with partial_cherrypicks are:-
+src/2D.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 58 is -> 
+{ e03d67b8f7bed81b59a1acf49e274a94b7ca0432 -> 8aeb6a0a406de2b2f0f4ae2fa03c7cbed6e9a73c } is a cherrypick
+{ 2de9c31ef11ec469f17f2f04ec287cf6d5c473c1 -> 5e47d8439b99b28cd70e92ed19cf526560633697 }
+Partial Cherry-pick commits SHA are -> 
+8aeb6a0a406de2b2f0f4ae2fa03c7cbed6e9a73c - cherrypick - 5e47d8439b99b28cd70e92ed19cf526560633697
+---> The cherrypicked commit sha is - 8aeb6a0a406de2b2f0f4ae2fa03c7cbed6e9a73c
+Commit message - Remove entity-factory functionality
+
+The entity-factory functionality is currently broken, and there is
+no point in having it in the first place. (Every javascript programmer
+already knows how to create reusable code: Create a function!)
+
+Deleting the functionality was discussed and endorsed here:
+
+https://groups.google.com/d/topic/craftyjs/1ESEbI09S7s/discussion
+---> The original commit sha is - 5e47d8439b99b28cd70e92ed19cf526560633697
+Commit message - Merge pull request #434 from sbyrnes321/no_factory
+
+Remove entity-factory functionality
+---> The files with partial_cherrypicks are:-
+src/core.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 59 is -> 
+{ 78dd31cd52a51806d1be5b2abbe535a61c44af00 -> 2d5914680e03c82ec8d65aef444d1d8038528c19 } is a cherrypick
+{ e03d67b8f7bed81b59a1acf49e274a94b7ca0432 -> 8aeb6a0a406de2b2f0f4ae2fa03c7cbed6e9a73c }
+Partial Cherry-pick commits SHA are -> 
+2d5914680e03c82ec8d65aef444d1d8038528c19 - cherrypick - 8aeb6a0a406de2b2f0f4ae2fa03c7cbed6e9a73c
+---> The cherrypicked commit sha is - 2d5914680e03c82ec8d65aef444d1d8038528c19
+Commit message - Naive first implementation of new dirty rectangle tracking
+---> The original commit sha is - 8aeb6a0a406de2b2f0f4ae2fa03c7cbed6e9a73c
+Commit message - Remove entity-factory functionality
+
+The entity-factory functionality is currently broken, and there is
+no point in having it in the first place. (Every javascript programmer
+already knows how to create reusable code: Create a function!)
+
+Deleting the functionality was discussed and endorsed here:
+
+https://groups.google.com/d/topic/craftyjs/1ESEbI09S7s/discussion
+---> The files with partial_cherrypicks are:-
+src/animation.js
+tests/animation/animation.html
+tests/animation/sprite-animation.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 60 is -> 
+{ 9e685a949d6c6cf72b7dc3f9b95ee54d26699543 -> 2137969c317dcd7e1e76c0ad055630fc0bc742da } is a cherrypick
+{ 3b18960fbc0e0ecf6ebd44a762dbf3cd49b568dd -> 01bdd338eece9923536fb89b88af652f3fdb6187 }
+Partial Cherry-pick commits SHA are -> 
+2137969c317dcd7e1e76c0ad055630fc0bc742da - cherrypick - 01bdd338eece9923536fb89b88af652f3fdb6187
+---> The cherrypicked commit sha is - 2137969c317dcd7e1e76c0ad055630fc0bc742da
+Commit message - Optimize order in which entities are drawn
+---> The original commit sha is - 01bdd338eece9923536fb89b88af652f3fdb6187
+Commit message - Optimize mergeset algo
+---> The files with partial_cherrypicks are:-
+build/header.php
+src/DOM.js
+src/canvas.js
+src/controls.js
+src/extensions.js
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 61 is -> 
+{ 2ed64e83f1f054e2c609afd41a1e14c3c4ec7bf9 -> 07fa31f0ff7ba85c88ca082ff262ff5c968e8f0a } is a cherrypick
+{ 2137969c317dcd7e1e76c0ad055630fc0bc742da -> 3b18960fbc0e0ecf6ebd44a762dbf3cd49b568dd }
+Partial Cherry-pick commits SHA are -> 
+07fa31f0ff7ba85c88ca082ff262ff5c968e8f0a - cherrypick - 3b18960fbc0e0ecf6ebd44a762dbf3cd49b568dd
+---> The cherrypicked commit sha is - 07fa31f0ff7ba85c88ca082ff262ff5c968e8f0a
+Commit message - Merge pull request #425 from sbyrnes321/global_pollution_comp
+
+fix global namespace pollution from undeclared local variable
+---> The original commit sha is - 3b18960fbc0e0ecf6ebd44a762dbf3cd49b568dd
+Commit message - Component flag is toggled only when component is actually added.  Prevent adding a component twice
+---> The files with partial_cherrypicks are:-
+build/header.php
+src/DOM.js
+src/controls.js
+src/extensions.js
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 62 is -> 
+{ 50f469d91f4b4b5ddc5740c16b0a215cb9ccf1eb -> 7cdd86c37fa6588a9c9b5279769d5e8adb6bde38 } is a cherrypick
+{ 9fa00aec1336a981e42f9103d5c50ecc9fa05355 -> 78dd31cd52a51806d1be5b2abbe535a61c44af00 }
+Partial Cherry-pick commits SHA are -> 
+7cdd86c37fa6588a9c9b5279769d5e8adb6bde38 - cherrypick - 78dd31cd52a51806d1be5b2abbe535a61c44af00
+---> The cherrypicked commit sha is - 7cdd86c37fa6588a9c9b5279769d5e8adb6bde38
+Commit message - Doc -- Warn that text component cannot be used to write text inside an image
+
+On the mailing list, two people in two weeks made the same mistake of
+trying to combine the text component with a sprite component. So it's
+worth clarifying!
+---> The original commit sha is - 78dd31cd52a51806d1be5b2abbe535a61c44af00
+Commit message - Merge branch 'develop' into animation-enhancements
+---> The files with partial_cherrypicks are:-
+src/extensions.js
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 63 is -> 
+{ d07840cc26876d3b6fe7001c235ebce2ae25d946 -> 64951e3734ad7f91c0d997d83d78e1b51e61aeeb } is a cherrypick
+{ 9fa00aec1336a981e42f9103d5c50ecc9fa05355 -> 78dd31cd52a51806d1be5b2abbe535a61c44af00 }
+Partial Cherry-pick commits SHA are -> 
+64951e3734ad7f91c0d997d83d78e1b51e61aeeb - cherrypick - 78dd31cd52a51806d1be5b2abbe535a61c44af00
+---> The cherrypicked commit sha is - 64951e3734ad7f91c0d997d83d78e1b51e61aeeb
+Commit message - Merge pull request #411 from sbyrnes321/develop
+
+Doc -- Warn that text component cannot be used to write text in an img
+---> The original commit sha is - 78dd31cd52a51806d1be5b2abbe535a61c44af00
+Commit message - Merge branch 'develop' into animation-enhancements
+---> The files with partial_cherrypicks are:-
+src/controls.js
+src/core.js
+src/extensions.js
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 64 is -> 
+{ 916a22639bb4d9dac886af5dd4ea81a140980186 -> faf8fd5f59be1369399150bceb6c56e28b1ab9dc } is a cherrypick
+{ 9fa00aec1336a981e42f9103d5c50ecc9fa05355 -> 78dd31cd52a51806d1be5b2abbe535a61c44af00 }
+Partial Cherry-pick commits SHA are -> 
+faf8fd5f59be1369399150bceb6c56e28b1ab9dc - cherrypick - 78dd31cd52a51806d1be5b2abbe535a61c44af00
+---> The cherrypicked commit sha is - faf8fd5f59be1369399150bceb6c56e28b1ab9dc
+Commit message - rewrite Crafty.unbind
+
+see discussion at issue 417 --
+https://github.com/craftyjs/Crafty/issues/417
+---> The original commit sha is - 78dd31cd52a51806d1be5b2abbe535a61c44af00
+Commit message - Merge branch 'develop' into animation-enhancements
+---> The files with partial_cherrypicks are:-
+src/controls.js
+src/extensions.js
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 65 is -> 
+{ bb9d9d20ed8a2f7a08bcfd94c3dfd57fc376cfb8 -> d2c74de43854f6caf012d171d13997a5aaffd957 } is a cherrypick
+{ 9fa00aec1336a981e42f9103d5c50ecc9fa05355 -> 78dd31cd52a51806d1be5b2abbe535a61c44af00 }
+Partial Cherry-pick commits SHA are -> 
+d2c74de43854f6caf012d171d13997a5aaffd957 - cherrypick - 78dd31cd52a51806d1be5b2abbe535a61c44af00
+---> The cherrypicked commit sha is - d2c74de43854f6caf012d171d13997a5aaffd957
+Commit message - resolves issue 360
+
+See https://github.com/craftyjs/Crafty/issues/360#issuecomment-13108664
+
+Added unit test to confirm all behavior.
+
+Edited documentation of this.attach to be more explicit, and
+particularly to mention that destroying the parent will destroy
+the child.
+---> The original commit sha is - 78dd31cd52a51806d1be5b2abbe535a61c44af00
+Commit message - Merge branch 'develop' into animation-enhancements
+---> The files with partial_cherrypicks are:-
+src/controls.js
+src/core.js
+src/extensions.js
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 66 is -> 
+{ f84ad8152d227cd8fbca4cd67901e7a5c53cb8b9 -> b8f7208aa453685d4a6bba483cd4b2445b0d3514 } is a cherrypick
+{ 9fa00aec1336a981e42f9103d5c50ecc9fa05355 -> 78dd31cd52a51806d1be5b2abbe535a61c44af00 }
+Partial Cherry-pick commits SHA are -> 
+b8f7208aa453685d4a6bba483cd4b2445b0d3514 - cherrypick - 78dd31cd52a51806d1be5b2abbe535a61c44af00
+---> The cherrypicked commit sha is - b8f7208aa453685d4a6bba483cd4b2445b0d3514
+Commit message - fix global namespace pollution from undeclared local variable
+---> The original commit sha is - 78dd31cd52a51806d1be5b2abbe535a61c44af00
+Commit message - Merge branch 'develop' into animation-enhancements
+---> The files with partial_cherrypicks are:-
+src/controls.js
+src/extensions.js
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 67 is -> 
+{ f4cc5c50b5b78a5951c43f9b5964a6e7f4b3cb9b -> bec17a6ed9acd91bf3bdb4bea3f7db11bdeb4604 } is a cherrypick
+{ 9fa00aec1336a981e42f9103d5c50ecc9fa05355 -> 78dd31cd52a51806d1be5b2abbe535a61c44af00 }
+Partial Cherry-pick commits SHA are -> 
+bec17a6ed9acd91bf3bdb4bea3f7db11bdeb4604 - cherrypick - 78dd31cd52a51806d1be5b2abbe535a61c44af00
+---> The cherrypicked commit sha is - bec17a6ed9acd91bf3bdb4bea3f7db11bdeb4604
+Commit message - improve destruction process for entities with attached children
+
+In cases when this._children[i] cannot be destroyed, might as well
+still delete the _parent link. (Might avoids memory leaks in some
+weird cases.) Add code comment saying why the "if" is there.
+---> The original commit sha is - 78dd31cd52a51806d1be5b2abbe535a61c44af00
+Commit message - Merge branch 'develop' into animation-enhancements
+---> The files with partial_cherrypicks are:-
+src/controls.js
+src/core.js
+src/extensions.js
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 68 is -> 
+{ d2c74de43854f6caf012d171d13997a5aaffd957 -> f84ad8152d227cd8fbca4cd67901e7a5c53cb8b9 } is a cherrypick
+{ bec17a6ed9acd91bf3bdb4bea3f7db11bdeb4604 -> 0bb0425eaef5dfdb2721876fc15af26f951e559e }
+Partial Cherry-pick commits SHA are -> 
+f84ad8152d227cd8fbca4cd67901e7a5c53cb8b9 - cherrypick - 0bb0425eaef5dfdb2721876fc15af26f951e559e
+---> The cherrypicked commit sha is - f84ad8152d227cd8fbca4cd67901e7a5c53cb8b9
+Commit message - Changed frame-change event name ('Changed' had a special meaning). Added event checks to tests, which currently fail to run in succession.
+---> The original commit sha is - 0bb0425eaef5dfdb2721876fc15af26f951e559e
+Commit message - Added more tests, and properly reset all animations between tests.
+---> The files with partial_cherrypicks are:-
+src/controls.js
+src/core.js
+src/extensions.js
+src/text.js
+tests/animation/animation.html
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 69 is -> 
+{ bb9d9d20ed8a2f7a08bcfd94c3dfd57fc376cfb8 -> d2c74de43854f6caf012d171d13997a5aaffd957 } is a cherrypick
+{ f4cc5c50b5b78a5951c43f9b5964a6e7f4b3cb9b -> bec17a6ed9acd91bf3bdb4bea3f7db11bdeb4604 }
+Partial Cherry-pick commits SHA are -> 
+d2c74de43854f6caf012d171d13997a5aaffd957 - cherrypick - bec17a6ed9acd91bf3bdb4bea3f7db11bdeb4604
+---> The cherrypicked commit sha is - d2c74de43854f6caf012d171d13997a5aaffd957
+Commit message - resolves issue 360
+
+See https://github.com/craftyjs/Crafty/issues/360#issuecomment-13108664
+
+Added unit test to confirm all behavior.
+
+Edited documentation of this.attach to be more explicit, and
+particularly to mention that destroying the parent will destroy
+the child.
+---> The original commit sha is - bec17a6ed9acd91bf3bdb4bea3f7db11bdeb4604
+Commit message - improve destruction process for entities with attached children
+
+In cases when this._children[i] cannot be destroyed, might as well
+still delete the _parent link. (Might avoids memory leaks in some
+weird cases.) Add code comment saying why the "if" is there.
+---> The files with partial_cherrypicks are:-
+src/controls.js
+src/core.js
+src/extensions.js
+src/text.js
+tests/animation/animation.html
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 70 is -> 
+{ d2c74de43854f6caf012d171d13997a5aaffd957 -> f84ad8152d227cd8fbca4cd67901e7a5c53cb8b9 } is a cherrypick
+{ b8f7208aa453685d4a6bba483cd4b2445b0d3514 -> 4391ba503e3e5fbe4b0190b4ed33745a0c29d817 }
+Partial Cherry-pick commits SHA are -> 
+f84ad8152d227cd8fbca4cd67901e7a5c53cb8b9 - cherrypick - 4391ba503e3e5fbe4b0190b4ed33745a0c29d817
+---> The cherrypicked commit sha is - f84ad8152d227cd8fbca4cd67901e7a5c53cb8b9
+Commit message - Changed frame-change event name ('Changed' had a special meaning). Added event checks to tests, which currently fail to run in succession.
+---> The original commit sha is - 4391ba503e3e5fbe4b0190b4ed33745a0c29d817
+Commit message - Resetting the animation between tests
+---> The files with partial_cherrypicks are:-
+src/animation.js
+src/controls.js
+src/extensions.js
+src/text.js
+tests/animation/animation.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 71 is -> 
+{ bb9d9d20ed8a2f7a08bcfd94c3dfd57fc376cfb8 -> d2c74de43854f6caf012d171d13997a5aaffd957 } is a cherrypick
+{ f84ad8152d227cd8fbca4cd67901e7a5c53cb8b9 -> b8f7208aa453685d4a6bba483cd4b2445b0d3514 }
+Partial Cherry-pick commits SHA are -> 
+d2c74de43854f6caf012d171d13997a5aaffd957 - cherrypick - b8f7208aa453685d4a6bba483cd4b2445b0d3514
+---> The cherrypicked commit sha is - d2c74de43854f6caf012d171d13997a5aaffd957
+Commit message - resolves issue 360
+
+See https://github.com/craftyjs/Crafty/issues/360#issuecomment-13108664
+
+Added unit test to confirm all behavior.
+
+Edited documentation of this.attach to be more explicit, and
+particularly to mention that destroying the parent will destroy
+the child.
+---> The original commit sha is - b8f7208aa453685d4a6bba483cd4b2445b0d3514
+Commit message - fix global namespace pollution from undeclared local variable
+---> The files with partial_cherrypicks are:-
+src/controls.js
+src/extensions.js
+src/text.js
+tests/animation/animation.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 72 is -> 
+{ d07840cc26876d3b6fe7001c235ebce2ae25d946 -> 64951e3734ad7f91c0d997d83d78e1b51e61aeeb } is a cherrypick
+{ 916a22639bb4d9dac886af5dd4ea81a140980186 -> faf8fd5f59be1369399150bceb6c56e28b1ab9dc }
+Partial Cherry-pick commits SHA are -> 
+64951e3734ad7f91c0d997d83d78e1b51e61aeeb - cherrypick - faf8fd5f59be1369399150bceb6c56e28b1ab9dc
+---> The cherrypicked commit sha is - 64951e3734ad7f91c0d997d83d78e1b51e61aeeb
+Commit message - Merge pull request #411 from sbyrnes321/develop
+
+Doc -- Warn that text component cannot be used to write text in an img
+---> The original commit sha is - faf8fd5f59be1369399150bceb6c56e28b1ab9dc
+Commit message - rewrite Crafty.unbind
+
+see discussion at issue 417 --
+https://github.com/craftyjs/Crafty/issues/417
+---> The files with partial_cherrypicks are:-
+src/controls.js
+src/extensions.js
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 73 is -> 
+{ e8e53f40d01cffad64b142e3ab122fef51652fdc -> cc03f849cb4d4b99754da3186fe01e4fbf38697d } is a cherrypick
+{ 88dd405229c16e74e37cd6a5445f05a9bffc7660 -> 0e225069aa098551389da1d3d5dd338fb6e56572 }
+Partial Cherry-pick commits SHA are -> 
+cc03f849cb4d4b99754da3186fe01e4fbf38697d - cherrypick - 0e225069aa098551389da1d3d5dd338fb6e56572
+---> The cherrypicked commit sha is - cc03f849cb4d4b99754da3186fe01e4fbf38697d
+Commit message - put some examples into sprite documentation (cont'd)
+
+Edited examples to follow style guide
+---> The original commit sha is - 0e225069aa098551389da1d3d5dd338fb6e56572
+Commit message - Merge pull request #398 from sbyrnes321/develop
+
+put some examples into sprite documentation 
+---> The files with partial_cherrypicks are:-
+src/extensions.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 74 is -> 
+{ 0f32eb4dce56ac4141043640a9fa28dc7b55003f -> b177798fe7f65ac9f0766f4ac3606a5ab777e5e7 } is a cherrypick
+{ 352ab0b9888228ad1b4aecd7d743c459a15f8d69 -> 9d33a07486eb67235275f9465ddc9f7ccf241b24 }
+Partial Cherry-pick commits SHA are -> 
+b177798fe7f65ac9f0766f4ac3606a5ab777e5e7 - cherrypick - 9d33a07486eb67235275f9465ddc9f7ccf241b24
+---> The cherrypicked commit sha is - b177798fe7f65ac9f0766f4ac3606a5ab777e5e7
+Commit message - Fixed documentetation link
+
+The currently link goes to api/api , resulting in a 404
+---> The original commit sha is - 9d33a07486eb67235275f9465ddc9f7ccf241b24
+Commit message - Merge pull request #389 from jhcp/headerfix
+
+Fixed documentation link
+---> The files with partial_cherrypicks are:-
+build/header.php
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 75 is -> 
+{ 4d0d58aeec823f0dda9f29cc7c8e5a7513ba0271 -> bbc9a18b1f5d7d3098f7cb58d8a33ba95ddcd5ee } is a cherrypick
+{ c8da18c9337f2e7c944e5343ddcd1288159db20c -> 0a1d8b9a399714bd86bba5a978366247bfc8baf4 }
+Partial Cherry-pick commits SHA are -> 
+bbc9a18b1f5d7d3098f7cb58d8a33ba95ddcd5ee - cherrypick - 0a1d8b9a399714bd86bba5a978366247bfc8baf4
+---> The cherrypicked commit sha is - bbc9a18b1f5d7d3098f7cb58d8a33ba95ddcd5ee
+Commit message - Merge pull request #377 from mcmarkb/develop
+
+Fix #376 - Delay component had memory leak
+---> The original commit sha is - 0a1d8b9a399714bd86bba5a978366247bfc8baf4
+Commit message - Merge pull request #382 from starwed/master
+
+Workaround webkit bug for image onload event when image is already loaded
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+src/core.js
+src/sound.js
+src/storage.js
+src/time.js
+tests/storage.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 76 is -> 
+{ 616ab36f9a91ab7971b4c46f8f3cb5e244038414 -> 4d0d58aeec823f0dda9f29cc7c8e5a7513ba0271 } is a cherrypick
+{ bbc9a18b1f5d7d3098f7cb58d8a33ba95ddcd5ee -> cf4dc41ecb763e2716dcc29d1e13fd58f738b7d8 }
+Partial Cherry-pick commits SHA are -> 
+4d0d58aeec823f0dda9f29cc7c8e5a7513ba0271 - cherrypick - cf4dc41ecb763e2716dcc29d1e13fd58f738b7d8
+---> The cherrypicked commit sha is - 4d0d58aeec823f0dda9f29cc7c8e5a7513ba0271
+Commit message - Fix for inputs and textareas over the canvas.
+---> The original commit sha is - cf4dc41ecb763e2716dcc29d1e13fd58f738b7d8
+Commit message - Merge pull request #379 from VodkaBears/master
+
+Fix for inputs and textareas over the canvas.
+---> The files with partial_cherrypicks are:-
+build/header.php
+src/controls.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 77 is -> 
+{ a7a7e30135e85a036993bd641943d594ec89e222 -> 659086e36b2e091d4d950eafe7cc7e80c5f97c55 } is a cherrypick
+{ 65af120c51d608c73ff1f694963b05e6261edef5 -> c9645aac95d816e0b3020c1f04a4bbc0dbd862d5 }
+Partial Cherry-pick commits SHA are -> 
+659086e36b2e091d4d950eafe7cc7e80c5f97c55 - cherrypick - c9645aac95d816e0b3020c1f04a4bbc0dbd862d5
+---> The cherrypicked commit sha is - 659086e36b2e091d4d950eafe7cc7e80c5f97c55
+Commit message - Add support for Samsung SmartTV remote control (pult)
+and add ignore for JetBrains ice files (WebStorm)
+---> The original commit sha is - c9645aac95d816e0b3020c1f04a4bbc0dbd862d5
+Commit message - Merge pull request #364 from craftyjs/master
+
+These Pull Requests were sent to the master branch by mistake
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 78 is -> 
+{ 28e46f98195238dc9b8f9da2c4c95858e2a6c8f3 -> 362bc16bba10ba1adf1c141d2abc6d8dc746677a } is a cherrypick
+{ 65af120c51d608c73ff1f694963b05e6261edef5 -> c9645aac95d816e0b3020c1f04a4bbc0dbd862d5 }
+Partial Cherry-pick commits SHA are -> 
+362bc16bba10ba1adf1c141d2abc6d8dc746677a - cherrypick - c9645aac95d816e0b3020c1f04a4bbc0dbd862d5
+---> The cherrypicked commit sha is - 362bc16bba10ba1adf1c141d2abc6d8dc746677a
+Commit message - Merge pull request #361 from shikolay/samsung_remote
+
+Add support for Samsung SmartTV remote control (pult)
+---> The original commit sha is - c9645aac95d816e0b3020c1f04a4bbc0dbd862d5
+Commit message - Merge pull request #364 from craftyjs/master
+
+These Pull Requests were sent to the master branch by mistake
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 79 is -> 
+{ 659086e36b2e091d4d950eafe7cc7e80c5f97c55 -> 60cea6266b5a0713c792c9f22aae031098dd982a } is a cherrypick
+{ 4498cecc291b7354c627e2e3465d14e533efd14d -> 65af120c51d608c73ff1f694963b05e6261edef5 }
+Partial Cherry-pick commits SHA are -> 
+60cea6266b5a0713c792c9f22aae031098dd982a - cherrypick - 65af120c51d608c73ff1f694963b05e6261edef5
+---> The cherrypicked commit sha is - 60cea6266b5a0713c792c9f22aae031098dd982a
+Commit message - Update src/extensions.js
+---> The original commit sha is - 65af120c51d608c73ff1f694963b05e6261edef5
+Commit message - Merge pull request #358 from Skinkworks/develop
+
+Added documentation for Crafty.viewport.bounds
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 80 is -> 
+{ a7a7e30135e85a036993bd641943d594ec89e222 -> 659086e36b2e091d4d950eafe7cc7e80c5f97c55 } is a cherrypick
+{ 28e46f98195238dc9b8f9da2c4c95858e2a6c8f3 -> 362bc16bba10ba1adf1c141d2abc6d8dc746677a }
+Partial Cherry-pick commits SHA are -> 
+659086e36b2e091d4d950eafe7cc7e80c5f97c55 - cherrypick - 362bc16bba10ba1adf1c141d2abc6d8dc746677a
+---> The cherrypicked commit sha is - 659086e36b2e091d4d950eafe7cc7e80c5f97c55
+Commit message - Add support for Samsung SmartTV remote control (pult)
+and add ignore for JetBrains ice files (WebStorm)
+---> The original commit sha is - 362bc16bba10ba1adf1c141d2abc6d8dc746677a
+Commit message - Merge pull request #361 from shikolay/samsung_remote
+
+Add support for Samsung SmartTV remote control (pult)
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 81 is -> 
+{ 221e77f15e2b5c5123ff8745706c983588e31d00 -> 19b3a95081f03ac14bc62aead5b3f4d57f47a3ea } is a cherrypick
+{ e3b177e669b7fba38623265d6d0d403d196d9fa4 -> b29aa99a07c1b9d900a0858dfb95071f0b19d434 }
+Partial Cherry-pick commits SHA are -> 
+19b3a95081f03ac14bc62aead5b3f4d57f47a3ea - cherrypick - b29aa99a07c1b9d900a0858dfb95071f0b19d434
+---> The cherrypicked commit sha is - 19b3a95081f03ac14bc62aead5b3f4d57f47a3ea
+Commit message - Added pause/unPause/togglePause to audio
+---> The original commit sha is - b29aa99a07c1b9d900a0858dfb95071f0b19d434
+Commit message - merge develop
+---> The files with partial_cherrypicks are:-
+build/build-api.php
+build/global.css
+demos/connect4/Connect4.htm
+demos/fruitassassin/fruitassassin.htm
+src/core.js
+src/storage.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 82 is -> 
+{ a087363b8b736ef42b4ba6403236f9a5a397fc68 -> 33b0dfcd89f3924b425f14707f56ef478a7a9919 } is a cherrypick
+{ 64c774c616c7ac213db394c249b7975fbc505ba3 -> 05635d7fa4df0817e45286e7fb3db2a11482a2fb }
+Partial Cherry-pick commits SHA are -> 
+33b0dfcd89f3924b425f14707f56ef478a7a9919 - cherrypick - 05635d7fa4df0817e45286e7fb3db2a11482a2fb
+---> The cherrypicked commit sha is - 33b0dfcd89f3924b425f14707f56ef478a7a9919
+Commit message - Added check in autoPause handling so that if the game is already paused it doesn't unpause
+---> The original commit sha is - 05635d7fa4df0817e45286e7fb3db2a11482a2fb
+Commit message - Merge pull request #356 from notioncollective/autoPause
+
+For autoPause = true, check that game is actually paused on window blur before pausing.
+---> The files with partial_cherrypicks are:-
+src/extensions.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 83 is -> 
+{ f0cad8ad2114200a8665d76530a3ac039912a14a -> 16aed08558e52359156fb7feeecce3537dd97807 } is a cherrypick
+{ 405cfba6055f19d5896cc6a17eab29c4d1090b91 -> e968eb09f73933b6d22397128e48d6eccfa0f0cf }
+Partial Cherry-pick commits SHA are -> 
+16aed08558e52359156fb7feeecce3537dd97807 - cherrypick - e968eb09f73933b6d22397128e48d6eccfa0f0cf
+---> The cherrypicked commit sha is - 16aed08558e52359156fb7feeecce3537dd97807
+Commit message - Merge pull request #324 from BlackScorp/develop
+
+FPS and Diamond ISO
+---> The original commit sha is - e968eb09f73933b6d22397128e48d6eccfa0f0cf
+Commit message - Merge branch 'develop'
+---> The files with partial_cherrypicks are:-
+build/build-crafty.php
+src/diamondiso.js
+src/fps.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 84 is -> 
+{ f0cad8ad2114200a8665d76530a3ac039912a14a -> 16aed08558e52359156fb7feeecce3537dd97807 } is a cherrypick
+{ d0d61b4032e2488c45890f6521147df20d1275e1 -> b84a3f2fe37f310fc39cd154cf1758cb860186ba }
+Partial Cherry-pick commits SHA are -> 
+16aed08558e52359156fb7feeecce3537dd97807 - cherrypick - b84a3f2fe37f310fc39cd154cf1758cb860186ba
+---> The cherrypicked commit sha is - 16aed08558e52359156fb7feeecce3537dd97807
+Commit message - Merge pull request #324 from BlackScorp/develop
+
+FPS and Diamond ISO
+---> The original commit sha is - b84a3f2fe37f310fc39cd154cf1758cb860186ba
+Commit message - Merge branch 'master' into develop
+---> The files with partial_cherrypicks are:-
+build/build-crafty.php
+src/diamondiso.js
+src/fps.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 85 is -> 
+{ a9047fc377c468afe4a2a084b0affe1dc6200cd8 -> 16324cef3793d9ff1f20a0c2612fe070b019feb8 } is a cherrypick
+{ 6f6744b1d89e7fa140063e4ff905922559aadb79 -> 5ff71661b3e0ebc4b5bba4cec0ccd79014b68d4b }
+Partial Cherry-pick commits SHA are -> 
+16324cef3793d9ff1f20a0c2612fe070b019feb8 - cherrypick - 5ff71661b3e0ebc4b5bba4cec0ccd79014b68d4b
+---> The cherrypicked commit sha is - 16324cef3793d9ff1f20a0c2612fe070b019feb8
+Commit message - Fixed typos in docs/comments
+---> The original commit sha is - 5ff71661b3e0ebc4b5bba4cec0ccd79014b68d4b
+Commit message - Merge pull request #316 from DmitryBochkarev/master
+
+typo fix Keyboard example
+---> The files with partial_cherrypicks are:-
+src/2D.js
+src/HashMap.js
+src/canvas.js
+src/drawing.js
+src/extensions.js
+src/isometric.js
+src/loader.js
+src/particles.js
+src/sound.js
+src/storage.js
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 86 is -> 
+{ 0100ae738e30534a6521d1f4ddfd2b67e838c00b -> baf5fd3bcd5ceee23e4a183098a5e230cad7b106 } is a cherrypick
+{ 6f6744b1d89e7fa140063e4ff905922559aadb79 -> 5ff71661b3e0ebc4b5bba4cec0ccd79014b68d4b }
+Partial Cherry-pick commits SHA are -> 
+baf5fd3bcd5ceee23e4a183098a5e230cad7b106 - cherrypick - 5ff71661b3e0ebc4b5bba4cec0ccd79014b68d4b
+---> The cherrypicked commit sha is - baf5fd3bcd5ceee23e4a183098a5e230cad7b106
+Commit message - typo fix
+---> The original commit sha is - 5ff71661b3e0ebc4b5bba4cec0ccd79014b68d4b
+Commit message - Merge pull request #316 from DmitryBochkarev/master
+
+typo fix Keyboard example
+---> The files with partial_cherrypicks are:-
+src/2D.js
+src/HashMap.js
+src/canvas.js
+src/core.js
+src/drawing.js
+src/extensions.js
+src/isometric.js
+src/loader.js
+src/particles.js
+src/sound.js
+src/storage.js
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 87 is -> 
+{ 5168baf44e0e94b551afd3a56381b4bd8f420ba3 -> 5afaa9ff2bc85cb38c744caa01f5b89e6ae7a8f3 } is a cherrypick
+{ baf5fd3bcd5ceee23e4a183098a5e230cad7b106 -> 0f18119e0a9ee3149d932ff9caa239ccc83c7b56 }
+Partial Cherry-pick commits SHA are -> 
+5afaa9ff2bc85cb38c744caa01f5b89e6ae7a8f3 - cherrypick - 0f18119e0a9ee3149d932ff9caa239ccc83c7b56
+---> The cherrypicked commit sha is - 5afaa9ff2bc85cb38c744caa01f5b89e6ae7a8f3
+Commit message - Fix rAF with Firefox on pause within event frame and fix preventDefault and stopPropagation with MSIE.
+---> The original commit sha is - 0f18119e0a9ee3149d932ff9caa239ccc83c7b56
+Commit message - Fix the startDrag function
+---> The files with partial_cherrypicks are:-
+src/2D.js
+src/HashMap.js
+src/canvas.js
+src/core.js
+src/drawing.js
+src/extensions.js
+src/isometric.js
+src/loader.js
+src/particles.js
+src/sound.js
+src/storage.js
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 88 is -> 
+{ a9047fc377c468afe4a2a084b0affe1dc6200cd8 -> 16324cef3793d9ff1f20a0c2612fe070b019feb8 } is a cherrypick
+{ 0100ae738e30534a6521d1f4ddfd2b67e838c00b -> baf5fd3bcd5ceee23e4a183098a5e230cad7b106 }
+Partial Cherry-pick commits SHA are -> 
+16324cef3793d9ff1f20a0c2612fe070b019feb8 - cherrypick - baf5fd3bcd5ceee23e4a183098a5e230cad7b106
+---> The cherrypicked commit sha is - 16324cef3793d9ff1f20a0c2612fe070b019feb8
+Commit message - Fixed typos in docs/comments
+---> The original commit sha is - baf5fd3bcd5ceee23e4a183098a5e230cad7b106
+Commit message - typo fix
+---> The files with partial_cherrypicks are:-
+src/2D.js
+src/HashMap.js
+src/canvas.js
+src/drawing.js
+src/extensions.js
+src/isometric.js
+src/loader.js
+src/particles.js
+src/sound.js
+src/storage.js
+src/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 89 is -> 
+{ a3cef765cd25d4f299440a8bc0919ae5b8b74bc8 -> e9cb714ef85b8df5f9b237edde4f5f276da2bfce } is a cherrypick
+{ 90419d8f689f4e1f67968de3db660d16da2d40af -> a9047fc377c468afe4a2a084b0affe1dc6200cd8 }
+Partial Cherry-pick commits SHA are -> 
+e9cb714ef85b8df5f9b237edde4f5f276da2bfce - cherrypick - a9047fc377c468afe4a2a084b0affe1dc6200cd8
+---> The cherrypicked commit sha is - e9cb714ef85b8df5f9b237edde4f5f276da2bfce
+Commit message - Fix Crafty.timer.curTime not being update in IE. Added test to capture
+this case.
+---> The original commit sha is - a9047fc377c468afe4a2a084b0affe1dc6200cd8
+Commit message - Merge branch 'master' into develop
+---> The files with partial_cherrypicks are:-
+tests/stage.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 90 is -> 
+{ a144d60c562891c864388b551f499029ceeed871 -> 45777054c27b20fdf5388038556e49bb0495dcee } is a cherrypick
+{ 6e260e325f58efe63bbcc5fe3ecb5b6efdef2706 -> 8bca9833c41f3499b2a64d85bc376ed667cbdb70 }
+Partial Cherry-pick commits SHA are -> 
+45777054c27b20fdf5388038556e49bb0495dcee - cherrypick - 8bca9833c41f3499b2a64d85bc376ed667cbdb70
+---> The cherrypicked commit sha is - 45777054c27b20fdf5388038556e49bb0495dcee
+Commit message - fix comments nd allow chaining.
+---> The original commit sha is - 8bca9833c41f3499b2a64d85bc376ed667cbdb70
+Commit message - remove old game saving over ajax files
+---> The files with partial_cherrypicks are:-
+save.php
+srv/db.main.inc
+srv/db.mysql.inc
+srv/save.php
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 91 is -> 
+{ 9d90b8c572f7808119ae07fa90a9c5a81cb3c850 -> 44db7d76360dbc95b409eebcaed05071e675b274 } is a cherrypick
+{ 6e260e325f58efe63bbcc5fe3ecb5b6efdef2706 -> 8bca9833c41f3499b2a64d85bc376ed667cbdb70 }
+Partial Cherry-pick commits SHA are -> 
+44db7d76360dbc95b409eebcaed05071e675b274 - cherrypick - 8bca9833c41f3499b2a64d85bc376ed667cbdb70
+---> The cherrypicked commit sha is - 44db7d76360dbc95b409eebcaed05071e675b274
+Commit message - Fixed bug in Crafty.math.Vector2D.prototype.getAngle()
+---> The original commit sha is - 8bca9833c41f3499b2a64d85bc376ed667cbdb70
+Commit message - remove old game saving over ajax files
+---> The files with partial_cherrypicks are:-
+save.php
+srv/db.main.inc
+srv/db.mysql.inc
+srv/save.php
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 92 is -> 
+{ e5f679f9ce90dd45b4375dd2d110b67782d67822 -> 9a4f59176697b4328f89cdeaf98497275a88da45 } is a cherrypick
+{ ee796c76710f05812a8429954977081c79969371 -> cb43fc1f40bb02e5e7a01fcfd35d3ef97052dba6 }
+Partial Cherry-pick commits SHA are -> 
+9a4f59176697b4328f89cdeaf98497275a88da45 - cherrypick - cb43fc1f40bb02e5e7a01fcfd35d3ef97052dba6
+---> The cherrypicked commit sha is - 9a4f59176697b4328f89cdeaf98497275a88da45
+Commit message - Merge remote-tracking branch 'upstream/develop' into develop
+---> The original commit sha is - cb43fc1f40bb02e5e7a01fcfd35d3ef97052dba6
+Commit message - Merge remote-tracking branch 'upstream/master' into develop
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+src/drawing.js
+src/extensions.js
+src/intro.js
+src/outro.js
+src/sound.js
+tests/camera.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 93 is -> 
+{ ed2cd273eb721386a11a6bf43d853c38ac864a74 -> e5f679f9ce90dd45b4375dd2d110b67782d67822 } is a cherrypick
+{ 76881f36f18aa31b8bbca2923d30db511fc6c1db -> ee796c76710f05812a8429954977081c79969371 }
+Partial Cherry-pick commits SHA are -> 
+e5f679f9ce90dd45b4375dd2d110b67782d67822 - cherrypick - ee796c76710f05812a8429954977081c79969371
+---> The cherrypicked commit sha is - e5f679f9ce90dd45b4375dd2d110b67782d67822
+Commit message - fix click triggering in touch dispatch
+---> The original commit sha is - ee796c76710f05812a8429954977081c79969371
+Commit message - 0.4.9
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+src/drawing.js
+src/extensions.js
+src/intro.js
+src/outro.js
+src/sound.js
+tests/camera.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 94 is -> 
+{ 6515f478cdd1b174d87f06108b586afcf0849472 -> 31530a484fece10162a5e3914f6eb16949866438 } is a cherrypick
+{ c04eb82e1540c8eb412c8f6d811d0adec043fdfb -> e32eb6a6961a7f9ebc0c7d14686cec9041b3893d }
+Partial Cherry-pick commits SHA are -> 
+31530a484fece10162a5e3914f6eb16949866438 - cherrypick - e32eb6a6961a7f9ebc0c7d14686cec9041b3893d
+---> The cherrypicked commit sha is - 31530a484fece10162a5e3914f6eb16949866438
+Commit message - docs for Crafty.mobile - in Crafty.device component
+---> The original commit sha is - e32eb6a6961a7f9ebc0c7d14686cec9041b3893d
+Commit message - move entity polygon initialize to init
+---> The files with partial_cherrypicks are:-
+build.php
+build/build.php
+build/header.php
+package.json
+src/2D.js
+src/DOM.js
+src/animation.js
+src/controls.js
+src/core.js
+src/device.js
+src/drawing.js
+src/extensions.js
+src/loader.js
+src/particles.js
+src/sound.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 95 is -> 
+{ a388ec7f26dd5acf424857a0c90cec02a87e2239 -> d7d3372bc41eb9be585470724fb4d6670b577734 } is a cherrypick
+{ b4daa5ba0efb65fbf5dd21d09e36df59df970eee -> c04eb82e1540c8eb412c8f6d811d0adec043fdfb }
+Partial Cherry-pick commits SHA are -> 
+d7d3372bc41eb9be585470724fb4d6670b577734 - cherrypick - c04eb82e1540c8eb412c8f6d811d0adec043fdfb
+---> The cherrypicked commit sha is - d7d3372bc41eb9be585470724fb4d6670b577734
+Commit message - Improving URI detection for alternative module sources.
+---> The original commit sha is - c04eb82e1540c8eb412c8f6d811d0adec043fdfb
+Commit message - Merge pull request #280 from berdon/berdon
+
+Berdon
+---> The files with partial_cherrypicks are:-
+build.php
+build/build.php
+build/header.php
+package.json
+src/DOM.js
+src/animation.js
+src/collision.js
+src/controls.js
+src/core.js
+src/device.js
+src/drawing.js
+src/loader.js
+src/particles.js
+src/sound.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 96 is -> 
+{ 6e3f2e3c1f24d4116801622eb175d9cc4e756beb -> 8bfd2d92cb5626e08122ab922ab9d0098b29a4bd } is a cherrypick
+{ ad20091b69e49248cb5646ce2e0b4f2722d0c0f0 -> 1ba1d6f3ba46d41b710616971525a8254ac5ffcf }
+Partial Cherry-pick commits SHA are -> 
+8bfd2d92cb5626e08122ab922ab9d0098b29a4bd - cherrypick - 1ba1d6f3ba46d41b710616971525a8254ac5ffcf
+---> The cherrypicked commit sha is - 8bfd2d92cb5626e08122ab922ab9d0098b29a4bd
+Commit message - Update src/sound.js
+---> The original commit sha is - 1ba1d6f3ba46d41b710616971525a8254ac5ffcf
+Commit message - Merge remote-tracking branch 'upstream/master' into mobile_ipad_support
+---> The files with partial_cherrypicks are:-
+src/sound.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 97 is -> 
+{ 8582b68dfbee6380fb18642f89e8e7a4b71bfaed -> 92ce60536aacde0e6cd1d1069e59a8fed865eb5f } is a cherrypick
+{ ad20091b69e49248cb5646ce2e0b4f2722d0c0f0 -> 1ba1d6f3ba46d41b710616971525a8254ac5ffcf }
+Partial Cherry-pick commits SHA are -> 
+92ce60536aacde0e6cd1d1069e59a8fed865eb5f - cherrypick - 1ba1d6f3ba46d41b710616971525a8254ac5ffcf
+---> The cherrypicked commit sha is - 92ce60536aacde0e6cd1d1069e59a8fed865eb5f
+Commit message - Merge pull request #256 from StijnRuts/patch-1
+
+Added support for ZQSD keys in Fourway and Twoway components (for azerty...
+---> The original commit sha is - 1ba1d6f3ba46d41b710616971525a8254ac5ffcf
+Commit message - Merge remote-tracking branch 'upstream/master' into mobile_ipad_support
+---> The files with partial_cherrypicks are:-
+src/sound.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 98 is -> 
+{ 92ce60536aacde0e6cd1d1069e59a8fed865eb5f -> ad2315b6df747d338c36b865adba6ba2b6d8f4f8 } is a cherrypick
+{ ec21b53aa76a7c15b0b0aebddd9e1004c1b40da4 -> e77b59465c9f2a98c733c94e13c276394282edb2 }
+Partial Cherry-pick commits SHA are -> 
+ad2315b6df747d338c36b865adba6ba2b6d8f4f8 - cherrypick - e77b59465c9f2a98c733c94e13c276394282edb2
+---> The cherrypicked commit sha is - ad2315b6df747d338c36b865adba6ba2b6d8f4f8
+Commit message - init debugbar and clean some tabs
+---> The original commit sha is - e77b59465c9f2a98c733c94e13c276394282edb2
+Commit message - Merge branch 'develop' of github.com:craftyjs/Crafty into develop
+---> The files with partial_cherrypicks are:-
+build/build.php
+src/collision.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 99 is -> 
+{ 92ce60536aacde0e6cd1d1069e59a8fed865eb5f -> ad2315b6df747d338c36b865adba6ba2b6d8f4f8 } is a cherrypick
+{ 42c3d86b2789a87b2bbc2d5cbf700202a16ebb77 -> b32bbafefb1520afd485570e693481ac45eeea8c }
+Partial Cherry-pick commits SHA are -> 
+ad2315b6df747d338c36b865adba6ba2b6d8f4f8 - cherrypick - b32bbafefb1520afd485570e693481ac45eeea8c
+---> The cherrypicked commit sha is - ad2315b6df747d338c36b865adba6ba2b6d8f4f8
+Commit message - init debugbar and clean some tabs
+---> The original commit sha is - b32bbafefb1520afd485570e693481ac45eeea8c
+Commit message - Merge branch 'develop' into inspector
+---> The files with partial_cherrypicks are:-
+src/core.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 100 is -> 
+{ 1dbf5a0a4c386794c6766d87ac566fb6b4c32e18 -> a70d4bee342a373f1abf1130e1258853b75b93d0 } is a cherrypick
+{ 7ca1f8a686f96a86d577d04875a0a635e19909f1 -> bb4d0a9f3393fa6d0df645f866ea2f8e7f8e435a }
+Partial Cherry-pick commits SHA are -> 
+a70d4bee342a373f1abf1130e1258853b75b93d0 - cherrypick - bb4d0a9f3393fa6d0df645f866ea2f8e7f8e435a
+---> The cherrypicked commit sha is - a70d4bee342a373f1abf1130e1258853b75b93d0
+Commit message - Updated src/2D.js src/controls.js
+areaMap polygon overrides .collision(polygon)
+
+issue #243
+
+https://github.com/craftyjs/Crafty/issues/243
+
+Added mapMouse as the new variable for isAt and areaMap to read and set values, respectively, making it possible to handle mouse events separate from collisions, defaults to collision .map if .mapMouse not present.
+
+Patch does not work for canvas, it defaults to the collision polygon, as I don't understand how it gets the data.
+---> The original commit sha is - bb4d0a9f3393fa6d0df645f866ea2f8e7f8e435a
+Commit message - Merge pull request #249 from NyanLeek/patch-2
+
+Updated src/2D.js src/controls.js
+---> The files with partial_cherrypicks are:-
+src/2D.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 101 is -> 
+{ cec5f81cccfe74aa3797faca6258b23d4ab3aa47 -> 5b061c38253fa51ffb0f902580549dc182fffc23 } is a cherrypick
+{ 0862d83a03d6342d7a9d1b2a7434233e45c1b170 -> 7ca1f8a686f96a86d577d04875a0a635e19909f1 }
+Partial Cherry-pick commits SHA are -> 
+5b061c38253fa51ffb0f902580549dc182fffc23 - cherrypick - 7ca1f8a686f96a86d577d04875a0a635e19909f1
+---> The cherrypicked commit sha is - 5b061c38253fa51ffb0f902580549dc182fffc23
+Commit message - Update src/sound.js
+---> The original commit sha is - 7ca1f8a686f96a86d577d04875a0a635e19909f1
+Commit message - Merge pull request #240 from BlackScorp/patch-4
+
+Update src/sound.js
+---> The files with partial_cherrypicks are:-
+src/sound.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 102 is -> 
+{ 2437b9ea8ce2060874b4670237232a9e130e6ba4 -> 5ba20d490b624d3df43646e560f593b8857c102f } is a cherrypick
+{ 65c6c8659ac85c68b915c4b0e33740c13b24735a -> 9c458ad2c94285101b8fbedaaff6397b99d50583 }
+Partial Cherry-pick commits SHA are -> 
+5ba20d490b624d3df43646e560f593b8857c102f - cherrypick - 9c458ad2c94285101b8fbedaaff6397b99d50583
+---> The cherrypicked commit sha is - 5ba20d490b624d3df43646e560f593b8857c102f
+Commit message - spriteAnimate and some core document
+---> The original commit sha is - 9c458ad2c94285101b8fbedaaff6397b99d50583
+Commit message - Merge pull request #235 from pengyu/spriteAnimate_doc
+
+Sprite animate doc
+---> The files with partial_cherrypicks are:-
+src/animation.js
+src/core.js
+src/sprite.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 103 is -> 
+{ 90cd131ec4a9c518497920bca759370562760dce -> 0d3626a3f225db0e644bef1726198f9cf8816389 } is a cherrypick
+{ a43833538ba0748f06b6db3870853c050838f3bb -> 5793c6b4722068a791d75b0f785c9d05983dface }
+Partial Cherry-pick commits SHA are -> 
+0d3626a3f225db0e644bef1726198f9cf8816389 - cherrypick - 5793c6b4722068a791d75b0f785c9d05983dface
+---> The cherrypicked commit sha is - 0d3626a3f225db0e644bef1726198f9cf8816389
+Commit message - Fix broken TouchEvents. Tested on iPhone, iPad, iPod and Android.
+---> The original commit sha is - 5793c6b4722068a791d75b0f785c9d05983dface
+Commit message - Merge pull request #223 from smindel/TouchEvents
+
+Touch events
+---> The files with partial_cherrypicks are:-
+tests/touchevents.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 104 is -> 
+{ 4154e082ebc13047c4bfcb1613c7487ef77c4a22 -> 1e984f3840481f5c87824e25c3de7cc352249c6b } is a cherrypick
+{ 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287 -> 42c3d2c4746d284ee35172a50d8cea5483e96f79 }
+Partial Cherry-pick commits SHA are -> 
+1e984f3840481f5c87824e25c3de7cc352249c6b - cherrypick - 42c3d2c4746d284ee35172a50d8cea5483e96f79
+---> The cherrypicked commit sha is - 1e984f3840481f5c87824e25c3de7cc352249c6b
+Commit message - Added document for Crafty.stage and Crafty.init.
+---> The original commit sha is - 42c3d2c4746d284ee35172a50d8cea5483e96f79
+Commit message - Added document for Crafty.stage and Crafty.init.
+---> The files with partial_cherrypicks are:-
+src/extensions.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 105 is -> 
+{ 42c0e780ca53c19a5e4cf743a140dcfbce4781c6 -> db925cc593170d2ab9b81591bf6e9dbc389adaf9 } is a cherrypick
+{ 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287 -> 42c3d2c4746d284ee35172a50d8cea5483e96f79 }
+Partial Cherry-pick commits SHA are -> 
+db925cc593170d2ab9b81591bf6e9dbc389adaf9 - cherrypick - 42c3d2c4746d284ee35172a50d8cea5483e96f79
+---> The cherrypicked commit sha is - db925cc593170d2ab9b81591bf6e9dbc389adaf9
+Commit message - Merge branch 'develop' of https://github.com/craftyjs/Crafty into develop
+---> The original commit sha is - 42c3d2c4746d284ee35172a50d8cea5483e96f79
+Commit message - Added document for Crafty.stage and Crafty.init.
+---> The files with partial_cherrypicks are:-
+src/extensions.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 106 is -> 
+{ 1e984f3840481f5c87824e25c3de7cc352249c6b -> 59edf6189d046de066f81e7571856869a7555259 } is a cherrypick
+{ f18d62b8dc7af25baeb36768645662f742474b8f -> 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287 }
+Partial Cherry-pick commits SHA are -> 
+59edf6189d046de066f81e7571856869a7555259 - cherrypick - 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287
+---> The cherrypicked commit sha is - 59edf6189d046de066f81e7571856869a7555259
+Commit message - Merge pull request #209 from pengyu/cr-stage_doc
+
+Added document for cr-stage and Crafty.init, etc.
+---> The original commit sha is - 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287
+Commit message - Bug fix to allow Tween chaining on same property.
+---> The files with partial_cherrypicks are:-
+src/animation.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 107 is -> 
+{ 42c0e780ca53c19a5e4cf743a140dcfbce4781c6 -> db925cc593170d2ab9b81591bf6e9dbc389adaf9 } is a cherrypick
+{ f18d62b8dc7af25baeb36768645662f742474b8f -> 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287 }
+Partial Cherry-pick commits SHA are -> 
+db925cc593170d2ab9b81591bf6e9dbc389adaf9 - cherrypick - 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287
+---> The cherrypicked commit sha is - db925cc593170d2ab9b81591bf6e9dbc389adaf9
+Commit message - Merge branch 'develop' of https://github.com/craftyjs/Crafty into develop
+---> The original commit sha is - 17abbe101c2a53ce3b4f3b20f0dd0f80b5f19287
+Commit message - Bug fix to allow Tween chaining on same property.
+---> The files with partial_cherrypicks are:-
+src/animation.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 108 is -> 
+{ 7e7756faa89288e4c258676f08cbe0706c44cf1e -> 1d3d09a6f42f5117909fff94e43a990648170b72 } is a cherrypick
+{ 1e984f3840481f5c87824e25c3de7cc352249c6b -> 59edf6189d046de066f81e7571856869a7555259 }
+Partial Cherry-pick commits SHA are -> 
+1d3d09a6f42f5117909fff94e43a990648170b72 - cherrypick - 59edf6189d046de066f81e7571856869a7555259
+---> The cherrypicked commit sha is - 1d3d09a6f42f5117909fff94e43a990648170b72
+Commit message - uninit only allows for one component pr entity. Bind to RemoveComponent instead
+---> The original commit sha is - 59edf6189d046de066f81e7571856869a7555259
+Commit message - Merge pull request #209 from pengyu/cr-stage_doc
+
+Added document for cr-stage and Crafty.init, etc.
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+src/core.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 109 is -> 
+{ c1016d3ffb68b4f5d7ca9ff823b1f305e528fc35 -> 0a5a1a9f56ef5b388871ff60b4b2297ea5dd699d } is a cherrypick
+{ 2f041259505f3be7e55faa8cdd1b2a083300e67f -> 08743cdf132e8458dc01a5fd098a6cfe449393a0 }
+Partial Cherry-pick commits SHA are -> 
+0a5a1a9f56ef5b388871ff60b4b2297ea5dd699d - cherrypick - 08743cdf132e8458dc01a5fd098a6cfe449393a0
+---> The cherrypicked commit sha is - 0a5a1a9f56ef5b388871ff60b4b2297ea5dd699d
+Commit message - add developer workflow
+---> The original commit sha is - 08743cdf132e8458dc01a5fd098a6cfe449393a0
+Commit message - Merge remote-tracking branch 'upstream/master' into develop
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 110 is -> 
+{ 5b20c3306fb67e6424e7e933aabe23263871f121 -> afb2b0b5bc1e00370705e182fc1a64456db3dba9 } is a cherrypick
+{ 0a5a1a9f56ef5b388871ff60b4b2297ea5dd699d -> 5d2fd65fc654eae4c98dafb4045acff223c93fc1 }
+Partial Cherry-pick commits SHA are -> 
+afb2b0b5bc1e00370705e182fc1a64456db3dba9 - cherrypick - 5d2fd65fc654eae4c98dafb4045acff223c93fc1
+---> The cherrypicked commit sha is - afb2b0b5bc1e00370705e182fc1a64456db3dba9
+Commit message - Merge remote-tracking branch 'upstream/develop' into develop
+---> The original commit sha is - 5d2fd65fc654eae4c98dafb4045acff223c93fc1
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+demos/isometric/game.js
+demos/isometric/isometric.htm
+src/DOM.js
+src/controls.js
+testing/Crafty/Input/Draggable/main_dragDirection.html
+testing/Crafty/Input/Draggable/main_dragDirectionCanvas.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 111 is -> 
+{ dba85d323a07a00a6c330097e9cf05c4b6cf7190 -> a164122b986337367c78b4d4958f0df06f1c9fdf } is a cherrypick
+{ 08a91c3c15c99e3d1b7844088b4f21c387c866f0 -> 9a122d80af9ebb8bf1eb13dad3f62210345a896d }
+Partial Cherry-pick commits SHA are -> 
+a164122b986337367c78b4d4958f0df06f1c9fdf - cherrypick - 9a122d80af9ebb8bf1eb13dad3f62210345a896d
+---> The cherrypicked commit sha is - a164122b986337367c78b4d4958f0df06f1c9fdf
+Commit message - change doctype from html5 to html
+---> The original commit sha is - 9a122d80af9ebb8bf1eb13dad3f62210345a896d
+Commit message - Merge branch 'isometric_demo_dev' of https://github.com/pengyu/Crafty into develop
+---> The files with partial_cherrypicks are:-
+demos/isometric/game.js
+demos/isometric/isometric.htm
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 112 is -> 
+{ a164122b986337367c78b4d4958f0df06f1c9fdf -> 42b6a609d6c00d3725bf92a1c0e23c3754724cee } is a cherrypick
+{ a14dec04e84fba3cdb268f5a44bdd6ecd35fb472 -> 08a91c3c15c99e3d1b7844088b4f21c387c866f0 }
+Partial Cherry-pick commits SHA are -> 
+42b6a609d6c00d3725bf92a1c0e23c3754724cee - cherrypick - 08a91c3c15c99e3d1b7844088b4f21c387c866f0
+---> The cherrypicked commit sha is - 42b6a609d6c00d3725bf92a1c0e23c3754724cee
+Commit message - change getId to getDomId
+---> The original commit sha is - 08a91c3c15c99e3d1b7844088b4f21c387c866f0
+Commit message - Merge branch 'getId_dev' of https://github.com/pengyu/Crafty into develop
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 113 is -> 
+{ c17130dd958f0f569e4b658a2e7d37eae21f14a0 -> ece7f0065ee4f4af168254f64ef51a336d3f2a0e } is a cherrypick
+{ a9b3941cb2212e32072299a062baf39e24fd2507 -> dfe1dbcfcb58b4e3bf7ddfbdcd76484c336ed17d }
+Partial Cherry-pick commits SHA are -> 
+ece7f0065ee4f4af168254f64ef51a336d3f2a0e - cherrypick - dfe1dbcfcb58b4e3bf7ddfbdcd76484c336ed17d
+---> The cherrypicked commit sha is - ece7f0065ee4f4af168254f64ef51a336d3f2a0e
+Commit message - Added two build.sh file to build crafty.js and doc; reformated the document for Gravity
+---> The original commit sha is - dfe1dbcfcb58b4e3bf7ddfbdcd76484c336ed17d
+Commit message - Merge remote-tracking branch 'upstream/master' into isometric_demo_dev
+---> The files with partial_cherrypicks are:-
+build.sh
+build/build.sh
+src/2D.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 114 is -> 
+{ 8a03a4d094da50b7bf65d601c6ec3338ab866c01 -> f9ae50c159017bc2a017c45d4e8115dc9bfcd312 } is a cherrypick
+{ a9b3941cb2212e32072299a062baf39e24fd2507 -> dfe1dbcfcb58b4e3bf7ddfbdcd76484c336ed17d }
+Partial Cherry-pick commits SHA are -> 
+f9ae50c159017bc2a017c45d4e8115dc9bfcd312 - cherrypick - dfe1dbcfcb58b4e3bf7ddfbdcd76484c336ed17d
+---> The cherrypicked commit sha is - f9ae50c159017bc2a017c45d4e8115dc9bfcd312
+Commit message - Merge remote-tracking branch 'upstream/master' into fruitassassin-dev
+---> The original commit sha is - dfe1dbcfcb58b4e3bf7ddfbdcd76484c336ed17d
+Commit message - Merge remote-tracking branch 'upstream/master' into isometric_demo_dev
+---> The files with partial_cherrypicks are:-
+build.sh
+build/build.sh
+src/2D.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 115 is -> 
+{ 53292589a936999a381add0c8f1a68daf377b514 -> b50955817a747d22eea29f8976e1d60e1280e8b0 } is a cherrypick
+{ a9b3941cb2212e32072299a062baf39e24fd2507 -> dfe1dbcfcb58b4e3bf7ddfbdcd76484c336ed17d }
+Partial Cherry-pick commits SHA are -> 
+b50955817a747d22eea29f8976e1d60e1280e8b0 - cherrypick - dfe1dbcfcb58b4e3bf7ddfbdcd76484c336ed17d
+---> The cherrypicked commit sha is - b50955817a747d22eea29f8976e1d60e1280e8b0
+Commit message - Merge pull request #190 from pengyu/fruitassassin-dev
+
+fixed the initial speed of fruits, so that they mostly remain in the central screen
+---> The original commit sha is - dfe1dbcfcb58b4e3bf7ddfbdcd76484c336ed17d
+Commit message - Merge remote-tracking branch 'upstream/master' into isometric_demo_dev
+---> The files with partial_cherrypicks are:-
+build.sh
+build/build.sh
+demos/fruitassassin/assassin.js
+src/2D.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 116 is -> 
+{ ece7f0065ee4f4af168254f64ef51a336d3f2a0e -> bef5b1f4776d1d45f0134fed7fb609743aa6696c } is a cherrypick
+{ 371b24f86be22915dbe71bec16a4213476655f59 -> 97ff9e17bbc0af860ac859cf29264833adb91792 }
+Partial Cherry-pick commits SHA are -> 
+bef5b1f4776d1d45f0134fed7fb609743aa6696c - cherrypick - 97ff9e17bbc0af860ac859cf29264833adb91792
+---> The cherrypicked commit sha is - bef5b1f4776d1d45f0134fed7fb609743aa6696c
+Commit message - Merge pull request #189 from BlackScorp/patch-9
+
+New methods for isometric
+---> The original commit sha is - 97ff9e17bbc0af860ac859cf29264833adb91792
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_cherrypicks are:-
+build.sh
+build/build.sh
+src/2D.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 117 is -> 
+{ ece7f0065ee4f4af168254f64ef51a336d3f2a0e -> bef5b1f4776d1d45f0134fed7fb609743aa6696c } is a cherrypick
+{ 8a03a4d094da50b7bf65d601c6ec3338ab866c01 -> f9ae50c159017bc2a017c45d4e8115dc9bfcd312 }
+Partial Cherry-pick commits SHA are -> 
+bef5b1f4776d1d45f0134fed7fb609743aa6696c - cherrypick - f9ae50c159017bc2a017c45d4e8115dc9bfcd312
+---> The cherrypicked commit sha is - bef5b1f4776d1d45f0134fed7fb609743aa6696c
+Commit message - Merge pull request #189 from BlackScorp/patch-9
+
+New methods for isometric
+---> The original commit sha is - f9ae50c159017bc2a017c45d4e8115dc9bfcd312
+Commit message - Merge remote-tracking branch 'upstream/master' into fruitassassin-dev
+---> The files with partial_cherrypicks are:-
+demos/fruitassassin/assassin.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 118 is -> 
+{ b9aa83693472a770259f2a769395cabbbea47c16 -> bf74b7ec5aacb01c9bf48dd16dc203eee78901de } is a cherrypick
+{ 2d1981719ea4aeb74614a5bfcbcf608760e70a16 -> fd4d0f18c9369215b053b48784f765651acc6977 }
+Partial Cherry-pick commits SHA are -> 
+bf74b7ec5aacb01c9bf48dd16dc203eee78901de - cherrypick - fd4d0f18c9369215b053b48784f765651acc6977
+---> The cherrypicked commit sha is - bf74b7ec5aacb01c9bf48dd16dc203eee78901de
+Commit message - remove crafty.js and crafty-min.js
+---> The original commit sha is - fd4d0f18c9369215b053b48784f765651acc6977
+Commit message - https://github.com/louisstow/Crafty/pull/183
+---> The files with partial_cherrypicks are:-
+crafty-min.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 119 is -> 
+{ 4eefbb3f14b55b0cc4f5c5dfcba83e5dceef69c8 -> 920f4c12a8f8e5ac66b3fcc75c4d6046765ed430 } is a cherrypick
+{ a33c7fc33d8d644dbb833a208a9029ad70038387 -> 48afcffca1e764114c057717a341fad465d64d94 }
+Partial Cherry-pick commits SHA are -> 
+920f4c12a8f8e5ac66b3fcc75c4d6046765ed430 - cherrypick - 48afcffca1e764114c057717a341fad465d64d94
+---> The cherrypicked commit sha is - 920f4c12a8f8e5ac66b3fcc75c4d6046765ed430
+Commit message - fixed build/api doesn't exist problem. Fixed build.php format to unix. chmod -x build/*.php build/*.css
+---> The original commit sha is - 48afcffca1e764114c057717a341fad465d64d94
+Commit message - https://github.com/louisstow/Crafty/pull/183
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 120 is -> 
+{ d709e276ba292b975db41e6800fb1e5faf97f14b -> b9aa83693472a770259f2a769395cabbbea47c16 } is a cherrypick
+{ e5b1cdfb8ad64f5052ebcfbbc3c4e411671a4fc1 -> 85faa02aa69f79ac560520a3985a94a6308b9354 }
+Partial Cherry-pick commits SHA are -> 
+b9aa83693472a770259f2a769395cabbbea47c16 - cherrypick - 85faa02aa69f79ac560520a3985a94a6308b9354
+---> The cherrypicked commit sha is - b9aa83693472a770259f2a769395cabbbea47c16
+Commit message - fixed format of license.txt to unix. It was dos.
+---> The original commit sha is - 85faa02aa69f79ac560520a3985a94a6308b9354
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+---> The files with partial_cherrypicks are:-
+package.json
+src/2D.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 121 is -> 
+{ 0f25676be01ef416db7c4b25e7d7740743285a65 -> b50f205bc621e4f53c1408681ea5aae6ced68a45 } is a cherrypick
+{ 8a535e2826c92056b6a8868212b4fce39ef79b6c -> d7e837b5ac6e877868be6a0ec38e79b531bd44aa }
+Partial Cherry-pick commits SHA are -> 
+b50f205bc621e4f53c1408681ea5aae6ced68a45 - cherrypick - d7e837b5ac6e877868be6a0ec38e79b531bd44aa
+---> The cherrypicked commit sha is - b50f205bc621e4f53c1408681ea5aae6ced68a45
+Commit message - another url fail
+---> The original commit sha is - d7e837b5ac6e877868be6a0ec38e79b531bd44aa
+Commit message - Merge pull request #173 from ahilles107/master
+
+fixed url for main repo
+---> The files with partial_cherrypicks are:-
+src/loader.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 122 is -> 
+{ c1f5db56990e961c6e8c1517f1c928adea109999 -> 0dfd5c7968e5b2d3067fb3895c9795bdd1cf9ac6 } is a cherrypick
+{ 70beecb7b40c4695ec7ef489e07b1a616e31f036 -> 8c5a167d83627e8981cf36cfc3b5f02c11624e13 }
+Partial Cherry-pick commits SHA are -> 
+0dfd5c7968e5b2d3067fb3895c9795bdd1cf9ac6 - cherrypick - 8c5a167d83627e8981cf36cfc3b5f02c11624e13
+---> The cherrypicked commit sha is - 0dfd5c7968e5b2d3067fb3895c9795bdd1cf9ac6
+Commit message - * Made a few minor changes to Crafty.math.Matrix2D
+* Made some changes to Vector2D for consistency and clarification
+* Added /tests/math.html which contains 67 unit tests for Matrix2D/Vector2D
+---> The original commit sha is - 8c5a167d83627e8981cf36cfc3b5f02c11624e13
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+---> The files with partial_cherrypicks are:-
+tests/math.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 123 is -> 
+{ c1f5db56990e961c6e8c1517f1c928adea109999 -> 0dfd5c7968e5b2d3067fb3895c9795bdd1cf9ac6 } is a cherrypick
+{ 040f7c48ac190a6281ef31fa682e531565c56689 -> 78e62347d503f931039b9db3f8ee1a22bc7b5fc6 }
+Partial Cherry-pick commits SHA are -> 
+0dfd5c7968e5b2d3067fb3895c9795bdd1cf9ac6 - cherrypick - 78e62347d503f931039b9db3f8ee1a22bc7b5fc6
+---> The cherrypicked commit sha is - 0dfd5c7968e5b2d3067fb3895c9795bdd1cf9ac6
+Commit message - * Made a few minor changes to Crafty.math.Matrix2D
+* Made some changes to Vector2D for consistency and clarification
+* Added /tests/math.html which contains 67 unit tests for Matrix2D/Vector2D
+---> The original commit sha is - 78e62347d503f931039b9db3f8ee1a22bc7b5fc6
+Commit message - Merge pull request #168 from dubrowgn/master
+
+Matrix2D addition and Vector2D changes
+---> The files with partial_cherrypicks are:-
+tests/math.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 124 is -> 
+{ 7db85a109184fc421d13c3e9c58c4a57bf1b7e1d -> b8a1faa375ef79111406fd8e02b2d5b2cffabcd5 } is a cherrypick
+{ 0ef553e61376587a01036415b4c9b7cd6b91e17e -> ab760f6b3f2edcbe4688e140f3c4f83ab23ed66f }
+Partial Cherry-pick commits SHA are -> 
+b8a1faa375ef79111406fd8e02b2d5b2cffabcd5 - cherrypick - ab760f6b3f2edcbe4688e140f3c4f83ab23ed66f
+---> The cherrypicked commit sha is - b8a1faa375ef79111406fd8e02b2d5b2cffabcd5
+Commit message - Use actual entities for boundary.
+---> The original commit sha is - ab760f6b3f2edcbe4688e140f3c4f83ab23ed66f
+Commit message - remove generated api from repo
+---> The files with partial_cherrypicks are:-
+build/api/2D.html
+build/api/Canvas.html
+build/api/Collision.html
+build/api/Color.html
+build/api/Crafty-Circle.html
+build/api/Crafty-Core.html
+build/api/Crafty-DOM.html
+build/api/Crafty-Polygon.html
+build/api/Crafty-addEvent.html
+build/api/Crafty-assets.html
+build/api/Crafty-audio.html
+build/api/Crafty-background.html
+build/api/Crafty-bind.html
+build/api/Crafty-c.html
+build/api/Crafty-canvas.html
+build/api/Crafty-e.html
+build/api/Crafty-extend.html
+build/api/Crafty-frame.html
+build/api/Crafty-init.html
+build/api/Crafty-isometric.html
+build/api/Crafty-keys.html
+build/api/Crafty-loader.html
+build/api/Crafty-randRange.html
+build/api/Crafty-removeEvent.html
+build/api/Crafty-scene.html
+build/api/Crafty-settings.html
+build/api/Crafty-sprite.html
+build/api/Crafty-stop.html
+build/api/Crafty-support.html
+build/api/Crafty-trigger.html
+build/api/Crafty-unbind.html
+build/api/Crafty-viewport.html
+build/api/Crafty.html
+build/api/DOM.html
+build/api/Draggable.html
+build/api/Fourway.html
+build/api/HTML.html
+build/api/Image.html
+build/api/Keyboard.html
+build/api/Mouse.html
+build/api/Multiway.html
+build/api/Sprite.html
+build/api/SpriteAnimation.html
+build/api/Text.html
+build/api/Tint.html
+build/api/Tween.html
+build/api/Twoway.html
+build/api/index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 125 is -> 
+{ 72072361231a418a67a4515c0d104e1b4a8010c2 -> 3f62706daa49894bcbe0392b2befce3598d495c2 } is a cherrypick
+{ 0ef553e61376587a01036415b4c9b7cd6b91e17e -> ab760f6b3f2edcbe4688e140f3c4f83ab23ed66f }
+Partial Cherry-pick commits SHA are -> 
+3f62706daa49894bcbe0392b2befce3598d495c2 - cherrypick - ab760f6b3f2edcbe4688e140f3c4f83ab23ed66f
+---> The cherrypicked commit sha is - 3f62706daa49894bcbe0392b2befce3598d495c2
+Commit message - Server side stuff.
+---> The original commit sha is - ab760f6b3f2edcbe4688e140f3c4f83ab23ed66f
+Commit message - remove generated api from repo
+---> The files with partial_cherrypicks are:-
+build/api/2D.html
+build/api/Canvas.html
+build/api/Collision.html
+build/api/Color.html
+build/api/Crafty-Circle.html
+build/api/Crafty-Core.html
+build/api/Crafty-DOM.html
+build/api/Crafty-Polygon.html
+build/api/Crafty-addEvent.html
+build/api/Crafty-assets.html
+build/api/Crafty-audio.html
+build/api/Crafty-background.html
+build/api/Crafty-bind.html
+build/api/Crafty-c.html
+build/api/Crafty-canvas.html
+build/api/Crafty-e.html
+build/api/Crafty-extend.html
+build/api/Crafty-frame.html
+build/api/Crafty-init.html
+build/api/Crafty-isometric.html
+build/api/Crafty-keys.html
+build/api/Crafty-loader.html
+build/api/Crafty-randRange.html
+build/api/Crafty-removeEvent.html
+build/api/Crafty-scene.html
+build/api/Crafty-settings.html
+build/api/Crafty-sprite.html
+build/api/Crafty-stop.html
+build/api/Crafty-support.html
+build/api/Crafty-trigger.html
+build/api/Crafty-unbind.html
+build/api/Crafty-viewport.html
+build/api/Crafty.html
+build/api/DOM.html
+build/api/Draggable.html
+build/api/Fourway.html
+build/api/HTML.html
+build/api/Image.html
+build/api/Keyboard.html
+build/api/Mouse.html
+build/api/Multiway.html
+build/api/Sprite.html
+build/api/SpriteAnimation.html
+build/api/Text.html
+build/api/Tint.html
+build/api/Tween.html
+build/api/Twoway.html
+build/api/index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 126 is -> 
+{ 171c9a1f47f81618afe8d57d6370319741db5966 -> a144d60c562891c864388b551f499029ceeed871 } is a cherrypick
+{ 0ef553e61376587a01036415b4c9b7cd6b91e17e -> ab760f6b3f2edcbe4688e140f3c4f83ab23ed66f }
+Partial Cherry-pick commits SHA are -> 
+a144d60c562891c864388b551f499029ceeed871 - cherrypick - ab760f6b3f2edcbe4688e140f3c4f83ab23ed66f
+---> The cherrypicked commit sha is - a144d60c562891c864388b551f499029ceeed871
+Commit message - Work on server side of saving game to server.
+---> The original commit sha is - ab760f6b3f2edcbe4688e140f3c4f83ab23ed66f
+Commit message - remove generated api from repo
+---> The files with partial_cherrypicks are:-
+build/api/2D.html
+build/api/Canvas.html
+build/api/Collision.html
+build/api/Color.html
+build/api/Crafty-Circle.html
+build/api/Crafty-Core.html
+build/api/Crafty-DOM.html
+build/api/Crafty-Polygon.html
+build/api/Crafty-addEvent.html
+build/api/Crafty-assets.html
+build/api/Crafty-audio.html
+build/api/Crafty-background.html
+build/api/Crafty-bind.html
+build/api/Crafty-c.html
+build/api/Crafty-canvas.html
+build/api/Crafty-e.html
+build/api/Crafty-extend.html
+build/api/Crafty-frame.html
+build/api/Crafty-init.html
+build/api/Crafty-isometric.html
+build/api/Crafty-keys.html
+build/api/Crafty-loader.html
+build/api/Crafty-randRange.html
+build/api/Crafty-removeEvent.html
+build/api/Crafty-scene.html
+build/api/Crafty-settings.html
+build/api/Crafty-sprite.html
+build/api/Crafty-stop.html
+build/api/Crafty-support.html
+build/api/Crafty-trigger.html
+build/api/Crafty-unbind.html
+build/api/Crafty-viewport.html
+build/api/Crafty.html
+build/api/DOM.html
+build/api/Draggable.html
+build/api/Fourway.html
+build/api/HTML.html
+build/api/Image.html
+build/api/Keyboard.html
+build/api/Mouse.html
+build/api/Multiway.html
+build/api/Sprite.html
+build/api/SpriteAnimation.html
+build/api/Text.html
+build/api/Tint.html
+build/api/Tween.html
+build/api/Twoway.html
+build/api/index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 127 is -> 
+{ c8397cc9e7f229da3c8a8beeb74a696042212342 -> 74f7101d9b97dfca0a23cf39402ff27b35036311 } is a cherrypick
+{ 0ef553e61376587a01036415b4c9b7cd6b91e17e -> ab760f6b3f2edcbe4688e140f3c4f83ab23ed66f }
+Partial Cherry-pick commits SHA are -> 
+74f7101d9b97dfca0a23cf39402ff27b35036311 - cherrypick - ab760f6b3f2edcbe4688e140f3c4f83ab23ed66f
+---> The cherrypicked commit sha is - 74f7101d9b97dfca0a23cf39402ff27b35036311
+Commit message - Prevent external storage until server side is down.
+---> The original commit sha is - ab760f6b3f2edcbe4688e140f3c4f83ab23ed66f
+Commit message - remove generated api from repo
+---> The files with partial_cherrypicks are:-
+build/api/2D.html
+build/api/Canvas.html
+build/api/Collision.html
+build/api/Color.html
+build/api/Crafty-Circle.html
+build/api/Crafty-Core.html
+build/api/Crafty-DOM.html
+build/api/Crafty-Polygon.html
+build/api/Crafty-addEvent.html
+build/api/Crafty-assets.html
+build/api/Crafty-audio.html
+build/api/Crafty-background.html
+build/api/Crafty-bind.html
+build/api/Crafty-c.html
+build/api/Crafty-canvas.html
+build/api/Crafty-e.html
+build/api/Crafty-extend.html
+build/api/Crafty-frame.html
+build/api/Crafty-init.html
+build/api/Crafty-isometric.html
+build/api/Crafty-keys.html
+build/api/Crafty-loader.html
+build/api/Crafty-randRange.html
+build/api/Crafty-removeEvent.html
+build/api/Crafty-scene.html
+build/api/Crafty-settings.html
+build/api/Crafty-sprite.html
+build/api/Crafty-stop.html
+build/api/Crafty-support.html
+build/api/Crafty-trigger.html
+build/api/Crafty-unbind.html
+build/api/Crafty-viewport.html
+build/api/Crafty.html
+build/api/DOM.html
+build/api/Draggable.html
+build/api/Fourway.html
+build/api/HTML.html
+build/api/Image.html
+build/api/Keyboard.html
+build/api/Mouse.html
+build/api/Multiway.html
+build/api/Sprite.html
+build/api/SpriteAnimation.html
+build/api/Text.html
+build/api/Tint.html
+build/api/Tween.html
+build/api/Twoway.html
+build/api/index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 128 is -> 
+{ 9d90b8c572f7808119ae07fa90a9c5a81cb3c850 -> 44db7d76360dbc95b409eebcaed05071e675b274 } is a cherrypick
+{ ad6cfda00c9532e7f77e767e8293c3ee04ef5a29 -> b533a855abe20d3d14e3a4c2a679673d4343018d }
+Partial Cherry-pick commits SHA are -> 
+44db7d76360dbc95b409eebcaed05071e675b274 - cherrypick - b533a855abe20d3d14e3a4c2a679673d4343018d
+---> The cherrypicked commit sha is - 44db7d76360dbc95b409eebcaed05071e675b274
+Commit message - Fixed bug in Crafty.math.Vector2D.prototype.getAngle()
+---> The original commit sha is - b533a855abe20d3d14e3a4c2a679673d4343018d
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+---> The files with partial_cherrypicks are:-
+src/math.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 129 is -> 
+{ 171c9a1f47f81618afe8d57d6370319741db5966 -> a144d60c562891c864388b551f499029ceeed871 } is a cherrypick
+{ 44db7d76360dbc95b409eebcaed05071e675b274 -> 78582b26e9d7cc0deef1b48eb088e9c8833e185a }
+Partial Cherry-pick commits SHA are -> 
+a144d60c562891c864388b551f499029ceeed871 - cherrypick - 78582b26e9d7cc0deef1b48eb088e9c8833e185a
+---> The cherrypicked commit sha is - a144d60c562891c864388b551f499029ceeed871
+Commit message - Work on server side of saving game to server.
+---> The original commit sha is - 78582b26e9d7cc0deef1b48eb088e9c8833e185a
+Commit message - Merge pull request #145 from donaldpipowitch/master
+
+Just a bug fix.
+---> The files with partial_cherrypicks are:-
+save.php
+src/storage.js
+srv/db.main.inc
+srv/db.mysql.inc
+srv/save.php
+tests/playground.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 130 is -> 
+{ 171c9a1f47f81618afe8d57d6370319741db5966 -> a144d60c562891c864388b551f499029ceeed871 } is a cherrypick
+{ 74f7101d9b97dfca0a23cf39402ff27b35036311 -> db5872b37a81818b68128a8dc11b764a2e16a000 }
+Partial Cherry-pick commits SHA are -> 
+a144d60c562891c864388b551f499029ceeed871 - cherrypick - db5872b37a81818b68128a8dc11b764a2e16a000
+---> The cherrypicked commit sha is - a144d60c562891c864388b551f499029ceeed871
+Commit message - Work on server side of saving game to server.
+---> The original commit sha is - db5872b37a81818b68128a8dc11b764a2e16a000
+Commit message - Merge branch 'mpetrovic' of github.com:louisstow/Crafty into mpetrovic
+---> The files with partial_cherrypicks are:-
+srv/db.main.inc
+srv/db.mysql.inc
+srv/save.php
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 131 is -> 
+{ 04bfd135aea79c2b5225b5bd9e5de53b52ff3c7b -> d03eae2097e41f253315ac6ad296119582096fe4 } is a cherrypick
+{ 5f9080e7895d11fb1476d830dc008cd7759732a5 -> 04013ee71076201f708774a65d936b93bb991e3a }
+Partial Cherry-pick commits SHA are -> 
+d03eae2097e41f253315ac6ad296119582096fe4 - cherrypick - 04013ee71076201f708774a65d936b93bb991e3a
+---> The cherrypicked commit sha is - d03eae2097e41f253315ac6ad296119582096fe4
+Commit message - - added math.js, removed "randRange" from extensions.js, added math.js to build.php
+---> The original commit sha is - 04013ee71076201f708774a65d936b93bb991e3a
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+---> The files with partial_cherrypicks are:-
+build/build.php
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 132 is -> 
+{ 614e32a123690451d884d3fc8c7456618e6962ca -> afa06571b304b8906bed181c68ec66c28466bedf } is a cherrypick
+{ e065c4b35f5642e2a429cd0a29cd9a61494901e3 -> 7c11bd780caee6e68a6b816fa469fc796552ac97 }
+Partial Cherry-pick commits SHA are -> 
+afa06571b304b8906bed181c68ec66c28466bedf - cherrypick - 7c11bd780caee6e68a6b816fa469fc796552ac97
+---> The cherrypicked commit sha is - afa06571b304b8906bed181c68ec66c28466bedf
+Commit message - * Previous change was wrong.. oops
+---> The original commit sha is - 7c11bd780caee6e68a6b816fa469fc796552ac97
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+---> The files with partial_cherrypicks are:-
+build/api/Canvas.html
+build/api/Collision.html
+build/api/Color.html
+build/api/Crafty-Circle.html
+build/api/Crafty-Core.html
+build/api/Crafty-DOM.html
+build/api/Crafty-Polygon.html
+build/api/Crafty-addEvent.html
+build/api/Crafty-assets.html
+build/api/Crafty-audio.html
+build/api/Crafty-background.html
+build/api/Crafty-bind.html
+build/api/Crafty-c.html
+build/api/Crafty-canvas.html
+build/api/Crafty-e.html
+build/api/Crafty-extend.html
+build/api/Crafty-frame.html
+build/api/Crafty-init.html
+build/api/Crafty-isometric.html
+build/api/Crafty-keys.html
+build/api/Crafty-loader.html
+build/api/Crafty-randRange.html
+build/api/Crafty-removeEvent.html
+build/api/Crafty-scene.html
+build/api/Crafty-settings.html
+build/api/Crafty-sprite.html
+build/api/Crafty-stop.html
+build/api/Crafty-support.html
+build/api/Crafty-trigger.html
+build/api/Crafty-unbind.html
+build/api/Crafty-viewport.html
+build/api/Crafty.html
+build/api/DOM.html
+build/api/Draggable.html
+build/api/Fourway.html
+build/api/HTML.html
+build/api/Image.html
+build/api/Keyboard.html
+build/api/Mouse.html
+build/api/Multiway.html
+build/api/Sprite.html
+build/api/SpriteAnimation.html
+build/api/Text.html
+build/api/Tint.html
+build/api/Tween.html
+build/api/Twoway.html
+build/api/index.html
+build/build.php
+crafty-min.js
+crafty.js
+src/license.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 133 is -> 
+{ ecb5c8b2a046d0aeab49d0e8fab6c32829c237ac -> 402595a7ee1d1d3905a1266e1e25181a8a3073fa } is a cherrypick
+{ b10354dd6e97011db61d5614bdf04fd35777801b -> c0d8121efac680808091dc2115c34801e15714a5 }
+Partial Cherry-pick commits SHA are -> 
+402595a7ee1d1d3905a1266e1e25181a8a3073fa - cherrypick - c0d8121efac680808091dc2115c34801e15714a5
+---> The cherrypicked commit sha is - 402595a7ee1d1d3905a1266e1e25181a8a3073fa
+Commit message - implementation of mouselook.
+---> The original commit sha is - c0d8121efac680808091dc2115c34801e15714a5
+Commit message - Merge branch 'master' of github.com:louisstow/Crafty
+---> The files with partial_cherrypicks are:-
+src/controls.js
+src/extensions.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 134 is -> 
+{ 57a25bc0eb171af8de9b48b34c7d15eeaa554311 -> 2cf923543c6576338274a1b9b535ad7e55452566 } is a cherrypick
+{ be9cc899ddf860af96a793740e15d41fed47d5b9 -> 21dc92c2e790b900b53d2de034034312b6636a57 }
+Partial Cherry-pick commits SHA are -> 
+2cf923543c6576338274a1b9b535ad7e55452566 - cherrypick - 21dc92c2e790b900b53d2de034034312b6636a57
+---> The cherrypicked commit sha is - 2cf923543c6576338274a1b9b535ad7e55452566
+Commit message - Basic unit test coverage an small fixes for Crafty.circle
+---> The original commit sha is - 21dc92c2e790b900b53d2de034034312b6636a57
+Commit message - Merge pull request #106 from berseker59/master
+
+Adding support for circle collision + unit test coverage
+---> The files with partial_cherrypicks are:-
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 135 is -> 
+{ 0228b13b00207a8bc1f145d812b348c377699d92 -> d4d437e7136d488046a77929ee969829d05e3412 } is a cherrypick
+{ 4efa8ca1e247d628f5cdf4a970a437eafe61c2f9 -> 48ba1ac29df667845aac2e829f6024c0603a4ea6 }
+Partial Cherry-pick commits SHA are -> 
+d4d437e7136d488046a77929ee969829d05e3412 - cherrypick - 48ba1ac29df667845aac2e829f6024c0603a4ea6
+---> The cherrypicked commit sha is - d4d437e7136d488046a77929ee969829d05e3412
+Commit message - temp fix for DOM entities not moving.
+---> The original commit sha is - 48ba1ac29df667845aac2e829f6024c0603a4ea6
+Commit message - Merge branch 'master' of git@github.com:louisstow/Crafty.git
+---> The files with partial_cherrypicks are:-
+src/DOM.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 136 is -> 
+{ 8c05f97808dd1c886975aa1d828d5f106d63b23d -> e49856168b3ba22f5f1261311a968d4def3f9231 } is a cherrypick
+{ b2004b37dde85339ad673a345dbe061da1b7bc65 -> 09dbbe6f2aa1b57ec57a0db108e1d21b18bcb301 }
+Partial Cherry-pick commits SHA are -> 
+e49856168b3ba22f5f1261311a968d4def3f9231 - cherrypick - 09dbbe6f2aa1b57ec57a0db108e1d21b18bcb301
+---> The cherrypicked commit sha is - e49856168b3ba22f5f1261311a968d4def3f9231
+Commit message - * Cant remember sorry
+---> The original commit sha is - 09dbbe6f2aa1b57ec57a0db108e1d21b18bcb301
+Commit message - * For some reason window.blur was calling stop and not pause
+---> The files with partial_cherrypicks are:-
+build.php
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 137 is -> 
+{ 1885b4566d15c0bc072786c38387295be83f2c90 -> 1c3e73cd3c3011306e72b56f136b6b31a62c31a3 } is a cherrypick
+{ b3fbbc6ec444a1cc7cc5def5e2c4acf5329e1a37 -> b2004b37dde85339ad673a345dbe061da1b7bc65 }
+Partial Cherry-pick commits SHA are -> 
+1c3e73cd3c3011306e72b56f136b6b31a62c31a3 - cherrypick - b2004b37dde85339ad673a345dbe061da1b7bc65
+---> The cherrypicked commit sha is - 1c3e73cd3c3011306e72b56f136b6b31a62c31a3
+Commit message - Converting CRLF to LF.
+---> The original commit sha is - b2004b37dde85339ad673a345dbe061da1b7bc65
+Commit message - Readd build.php (or was this on purpose?)
+---> The files with partial_cherrypicks are:-
+build.php
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 138 is -> 
+{ 356ad1044c799954fcb22b0fa8c9c1fe8ace7bd1 -> 221cf0f99b79ee21a9328d43ffdba648b1fe6a73 } is a cherrypick
+{ 2fe00d0e0c452def6bb3a9c5737486502ea4c8ed -> e4cca126ce3df395c845efd25e723800e79430f7 }
+Partial Cherry-pick commits SHA are -> 
+221cf0f99b79ee21a9328d43ffdba648b1fe6a73 - cherrypick - e4cca126ce3df395c845efd25e723800e79430f7
+---> The cherrypicked commit sha is - 221cf0f99b79ee21a9328d43ffdba648b1fe6a73
+Commit message - Merge branch 'upstream/master' into sorenbs
+
+Conflicts:
+	src/core.js
+---> The original commit sha is - e4cca126ce3df395c845efd25e723800e79430f7
+Commit message - Merge branch 'sorenbs' of git@github.com:louisstow/Crafty.git
+
+Conflicts:
+	src/collision.js
+---> The files with partial_cherrypicks are:-
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 139 is -> 
+{ ebae1bb9f59f32e29769e5347dc9168ab36d2b1c -> 29a49845ff59dc4ec75ca4f1f739d468cb56ab49 } is a cherrypick
+{ 2fe00d0e0c452def6bb3a9c5737486502ea4c8ed -> e4cca126ce3df395c845efd25e723800e79430f7 }
+Partial Cherry-pick commits SHA are -> 
+29a49845ff59dc4ec75ca4f1f739d468cb56ab49 - cherrypick - e4cca126ce3df395c845efd25e723800e79430f7
+---> The cherrypicked commit sha is - 29a49845ff59dc4ec75ca4f1f739d468cb56ab49
+Commit message - make .delay() chainable
+---> The original commit sha is - e4cca126ce3df395c845efd25e723800e79430f7
+Commit message - Merge branch 'sorenbs' of git@github.com:louisstow/Crafty.git
+
+Conflicts:
+	src/collision.js
+---> The files with partial_cherrypicks are:-
+src/core.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 140 is -> 
+{ 1dde90db76244b68d2e9838779bd8af03be5bc28 -> d30b05020d71d41566e01bae3ba4ae000bb830f5 } is a cherrypick
+{ 2fe00d0e0c452def6bb3a9c5737486502ea4c8ed -> e4cca126ce3df395c845efd25e723800e79430f7 }
+Partial Cherry-pick commits SHA are -> 
+d30b05020d71d41566e01bae3ba4ae000bb830f5 - cherrypick - e4cca126ce3df395c845efd25e723800e79430f7
+---> The cherrypicked commit sha is - d30b05020d71d41566e01bae3ba4ae000bb830f5
+Commit message - Merge branch 'upstream/master' into sorenbs
+---> The original commit sha is - e4cca126ce3df395c845efd25e723800e79430f7
+Commit message - Merge branch 'sorenbs' of git@github.com:louisstow/Crafty.git
+
+Conflicts:
+	src/collision.js
+---> The files with partial_cherrypicks are:-
+src/core.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 141 is -> 
+{ ab87e0a0eb1b80ba818eb66208dd1afea4620fcd -> 8c05f97808dd1c886975aa1d828d5f106d63b23d } is a cherrypick
+{ 2fe00d0e0c452def6bb3a9c5737486502ea4c8ed -> e4cca126ce3df395c845efd25e723800e79430f7 }
+Partial Cherry-pick commits SHA are -> 
+8c05f97808dd1c886975aa1d828d5f106d63b23d - cherrypick - e4cca126ce3df395c845efd25e723800e79430f7
+---> The cherrypicked commit sha is - 8c05f97808dd1c886975aa1d828d5f106d63b23d
+Commit message - Merge branch 'upstream/master' into sorenbs
+---> The original commit sha is - e4cca126ce3df395c845efd25e723800e79430f7
+Commit message - Merge branch 'sorenbs' of git@github.com:louisstow/Crafty.git
+
+Conflicts:
+	src/collision.js
+---> The files with partial_cherrypicks are:-
+src/core.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 142 is -> 
+{ 356ad1044c799954fcb22b0fa8c9c1fe8ace7bd1 -> 221cf0f99b79ee21a9328d43ffdba648b1fe6a73 } is a cherrypick
+{ ab87e0a0eb1b80ba818eb66208dd1afea4620fcd -> 8c05f97808dd1c886975aa1d828d5f106d63b23d }
+Partial Cherry-pick commits SHA are -> 
+221cf0f99b79ee21a9328d43ffdba648b1fe6a73 - cherrypick - 8c05f97808dd1c886975aa1d828d5f106d63b23d
+---> The cherrypicked commit sha is - 221cf0f99b79ee21a9328d43ffdba648b1fe6a73
+Commit message - Merge branch 'upstream/master' into sorenbs
+
+Conflicts:
+	src/core.js
+---> The original commit sha is - 8c05f97808dd1c886975aa1d828d5f106d63b23d
+Commit message - Merge branch 'upstream/master' into sorenbs
+---> The files with partial_cherrypicks are:-
+src/collision.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 143 is -> 
+{ ebae1bb9f59f32e29769e5347dc9168ab36d2b1c -> 29a49845ff59dc4ec75ca4f1f739d468cb56ab49 } is a cherrypick
+{ ab87e0a0eb1b80ba818eb66208dd1afea4620fcd -> 8c05f97808dd1c886975aa1d828d5f106d63b23d }
+Partial Cherry-pick commits SHA are -> 
+29a49845ff59dc4ec75ca4f1f739d468cb56ab49 - cherrypick - 8c05f97808dd1c886975aa1d828d5f106d63b23d
+---> The cherrypicked commit sha is - 29a49845ff59dc4ec75ca4f1f739d468cb56ab49
+Commit message - make .delay() chainable
+---> The original commit sha is - 8c05f97808dd1c886975aa1d828d5f106d63b23d
+Commit message - Merge branch 'upstream/master' into sorenbs
+---> The files with partial_cherrypicks are:-
+src/collision.js
+src/core.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 144 is -> 
+{ 7c4cf4d240eb439cba00ad645b17efe8b78301a0 -> 207ba91b23b78d4a3c18ebee3f788a77e1e484b9 } is a cherrypick
+{ d30b05020d71d41566e01bae3ba4ae000bb830f5 -> ab87e0a0eb1b80ba818eb66208dd1afea4620fcd }
+Partial Cherry-pick commits SHA are -> 
+207ba91b23b78d4a3c18ebee3f788a77e1e484b9 - cherrypick - ab87e0a0eb1b80ba818eb66208dd1afea4620fcd
+---> The cherrypicked commit sha is - 207ba91b23b78d4a3c18ebee3f788a77e1e484b9
+Commit message - * Comments
+---> The original commit sha is - ab87e0a0eb1b80ba818eb66208dd1afea4620fcd
+Commit message - paused->stopped
+---> The files with partial_cherrypicks are:-
+src/collision.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 145 is -> 
+{ 221cf0f99b79ee21a9328d43ffdba648b1fe6a73 -> ebae1bb9f59f32e29769e5347dc9168ab36d2b1c } is a cherrypick
+{ d30b05020d71d41566e01bae3ba4ae000bb830f5 -> ab87e0a0eb1b80ba818eb66208dd1afea4620fcd }
+Partial Cherry-pick commits SHA are -> 
+ebae1bb9f59f32e29769e5347dc9168ab36d2b1c - cherrypick - ab87e0a0eb1b80ba818eb66208dd1afea4620fcd
+---> The cherrypicked commit sha is - ebae1bb9f59f32e29769e5347dc9168ab36d2b1c
+Commit message - *audio pause: Fix scope errors and other stuff
+---> The original commit sha is - ab87e0a0eb1b80ba818eb66208dd1afea4620fcd
+Commit message - paused->stopped
+---> The files with partial_cherrypicks are:-
+src/collision.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 146 is -> 
+{ a7ade20188f30281c57fe2a77096e9859c6ab073 -> 49cd128db1ab2bc7028e3c85367b452d7bc1cde9 } is a cherrypick
+{ d30b05020d71d41566e01bae3ba4ae000bb830f5 -> ab87e0a0eb1b80ba818eb66208dd1afea4620fcd }
+Partial Cherry-pick commits SHA are -> 
+49cd128db1ab2bc7028e3c85367b452d7bc1cde9 - cherrypick - ab87e0a0eb1b80ba818eb66208dd1afea4620fcd
+---> The cherrypicked commit sha is - 49cd128db1ab2bc7028e3c85367b452d7bc1cde9
+Commit message - Number can be -1
+---> The original commit sha is - ab87e0a0eb1b80ba818eb66208dd1afea4620fcd
+Commit message - paused->stopped
+---> The files with partial_cherrypicks are:-
+src/collision.js
+src/core.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 147 is -> 
+{ 356ad1044c799954fcb22b0fa8c9c1fe8ace7bd1 -> 221cf0f99b79ee21a9328d43ffdba648b1fe6a73 } is a cherrypick
+{ 1dde90db76244b68d2e9838779bd8af03be5bc28 -> d30b05020d71d41566e01bae3ba4ae000bb830f5 }
+Partial Cherry-pick commits SHA are -> 
+221cf0f99b79ee21a9328d43ffdba648b1fe6a73 - cherrypick - d30b05020d71d41566e01bae3ba4ae000bb830f5
+---> The cherrypicked commit sha is - 221cf0f99b79ee21a9328d43ffdba648b1fe6a73
+Commit message - Merge branch 'upstream/master' into sorenbs
+
+Conflicts:
+	src/core.js
+---> The original commit sha is - d30b05020d71d41566e01bae3ba4ae000bb830f5
+Commit message - Merge branch 'upstream/master' into sorenbs
+---> The files with partial_cherrypicks are:-
+src/collision.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 148 is -> 
+{ ebae1bb9f59f32e29769e5347dc9168ab36d2b1c -> 29a49845ff59dc4ec75ca4f1f739d468cb56ab49 } is a cherrypick
+{ 1dde90db76244b68d2e9838779bd8af03be5bc28 -> d30b05020d71d41566e01bae3ba4ae000bb830f5 }
+Partial Cherry-pick commits SHA are -> 
+29a49845ff59dc4ec75ca4f1f739d468cb56ab49 - cherrypick - d30b05020d71d41566e01bae3ba4ae000bb830f5
+---> The cherrypicked commit sha is - 29a49845ff59dc4ec75ca4f1f739d468cb56ab49
+Commit message - make .delay() chainable
+---> The original commit sha is - d30b05020d71d41566e01bae3ba4ae000bb830f5
+Commit message - Merge branch 'upstream/master' into sorenbs
+---> The files with partial_cherrypicks are:-
+src/collision.js
+src/core.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 149 is -> 
+{ 7c4cf4d240eb439cba00ad645b17efe8b78301a0 -> 207ba91b23b78d4a3c18ebee3f788a77e1e484b9 } is a cherrypick
+{ a7ade20188f30281c57fe2a77096e9859c6ab073 -> 49cd128db1ab2bc7028e3c85367b452d7bc1cde9 }
+Partial Cherry-pick commits SHA are -> 
+207ba91b23b78d4a3c18ebee3f788a77e1e484b9 - cherrypick - 49cd128db1ab2bc7028e3c85367b452d7bc1cde9
+---> The cherrypicked commit sha is - 207ba91b23b78d4a3c18ebee3f788a77e1e484b9
+Commit message - * Comments
+---> The original commit sha is - 49cd128db1ab2bc7028e3c85367b452d7bc1cde9
+Commit message - Number can be -1
+---> The files with partial_cherrypicks are:-
+src/collision.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 150 is -> 
+{ 221cf0f99b79ee21a9328d43ffdba648b1fe6a73 -> ebae1bb9f59f32e29769e5347dc9168ab36d2b1c } is a cherrypick
+{ a7ade20188f30281c57fe2a77096e9859c6ab073 -> 49cd128db1ab2bc7028e3c85367b452d7bc1cde9 }
+Partial Cherry-pick commits SHA are -> 
+ebae1bb9f59f32e29769e5347dc9168ab36d2b1c - cherrypick - 49cd128db1ab2bc7028e3c85367b452d7bc1cde9
+---> The cherrypicked commit sha is - ebae1bb9f59f32e29769e5347dc9168ab36d2b1c
+Commit message - *audio pause: Fix scope errors and other stuff
+---> The original commit sha is - 49cd128db1ab2bc7028e3c85367b452d7bc1cde9
+Commit message - Number can be -1
+---> The files with partial_cherrypicks are:-
+src/collision.js
+tests/core.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 151 is -> 
+{ 221cf0f99b79ee21a9328d43ffdba648b1fe6a73 -> ebae1bb9f59f32e29769e5347dc9168ab36d2b1c } is a cherrypick
+{ 29a49845ff59dc4ec75ca4f1f739d468cb56ab49 -> 62a791c27428a88a953189b71f93d597122767fe }
+Partial Cherry-pick commits SHA are -> 
+ebae1bb9f59f32e29769e5347dc9168ab36d2b1c - cherrypick - 62a791c27428a88a953189b71f93d597122767fe
+---> The cherrypicked commit sha is - ebae1bb9f59f32e29769e5347dc9168ab36d2b1c
+Commit message - *audio pause: Fix scope errors and other stuff
+---> The original commit sha is - 62a791c27428a88a953189b71f93d597122767fe
+Commit message - Merge branch 'upstream/master' into sorenbs
+---> The files with partial_cherrypicks are:-
+crafty.js
+src/2D.js
+src/particles.js
+src/sound.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 152 is -> 
+{ 7c4cf4d240eb439cba00ad645b17efe8b78301a0 -> 207ba91b23b78d4a3c18ebee3f788a77e1e484b9 } is a cherrypick
+{ 221cf0f99b79ee21a9328d43ffdba648b1fe6a73 -> ebae1bb9f59f32e29769e5347dc9168ab36d2b1c }
+Partial Cherry-pick commits SHA are -> 
+207ba91b23b78d4a3c18ebee3f788a77e1e484b9 - cherrypick - ebae1bb9f59f32e29769e5347dc9168ab36d2b1c
+---> The cherrypicked commit sha is - 207ba91b23b78d4a3c18ebee3f788a77e1e484b9
+Commit message - * Comments
+---> The original commit sha is - ebae1bb9f59f32e29769e5347dc9168ab36d2b1c
+Commit message - *audio pause: Fix scope errors and other stuff
+---> The files with partial_cherrypicks are:-
+src/collision.js
+tests/core.html
+-----------------------------------------------------------------
+

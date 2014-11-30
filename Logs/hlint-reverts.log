@@ -1,0 +1,150 @@
+# of reverts = 13
+Revert diff pair 1 is -> 
+{ 808b7b00f7cb30a7f68f94cc96a210c4f718d36b -> 3f4fb4f3b715061c602f0ae4fcccded08cea6a87 } is a revert
+{ 08ab7d2f23493281f13227355362eb963221affc -> 1ac0e11ec256391adee9e9a1de00bb8812977441 }
+Revert commits SHA are -> 
+3f4fb4f3b715061c602f0ae4fcccded08cea6a87 - revert - 1ac0e11ec256391adee9e9a1de00bb8812977441
+---> The reverted commit sha is - 3f4fb4f3b715061c602f0ae4fcccded08cea6a87
+Commit message - Merge pull request #89 from fpco/master
+
+Get executable to compile when gpl flag is disabled
+---> The original commit sha is - 1ac0e11ec256391adee9e9a1de00bb8812977441
+Commit message - Merge pull request #90 from fpco/exec-dep-lib
+
+Executable depends on library
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 1569aa50784ef7d88fe6ec57844004dd510a35b5 -> 808b7b00f7cb30a7f68f94cc96a210c4f718d36b } is a revert
+{ 808b7b00f7cb30a7f68f94cc96a210c4f718d36b -> 3f4fb4f3b715061c602f0ae4fcccded08cea6a87 }
+Revert commits SHA are -> 
+808b7b00f7cb30a7f68f94cc96a210c4f718d36b - revert - 3f4fb4f3b715061c602f0ae4fcccded08cea6a87
+---> The reverted commit sha is - 808b7b00f7cb30a7f68f94cc96a210c4f718d36b
+Commit message - Executable depends on library
+---> The original commit sha is - 3f4fb4f3b715061c602f0ae4fcccded08cea6a87
+Commit message - Merge pull request #89 from fpco/master
+
+Get executable to compile when gpl flag is disabled
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 606744a41889f14c11f160e6c3ed67b55d445329 -> 3cc0ce2c9b519a1459c19d1e0efd82cd7f13b6d7 } is a revert
+{ 23058c0b42660142819b5d6984685f86465902f7 -> db9c8a1f83185e960814df78a97b96b2cab6307d }
+Revert commits SHA are -> 
+3cc0ce2c9b519a1459c19d1e0efd82cd7f13b6d7 - revert - db9c8a1f83185e960814df78a97b96b2cab6307d
+---> The reverted commit sha is - 3cc0ce2c9b519a1459c19d1e0efd82cd7f13b6d7
+Commit message - Add an additional test
+---> The original commit sha is - db9c8a1f83185e960814df78a97b96b2cab6307d
+Commit message - Remove a broken test because the hint got removed
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ eebf45fef234426c09a16b0203b3f410bc344d4c -> 1456f3a0ee8a139211fe4f971620fc0a6b1afd5c } is a revert
+{ f8aa0e6875853b5e33abf86c70cc170c10257a54 -> 7577e4b650b9ddbde10cd17fa4dfe4fc7be274a9 }
+Revert commits SHA are -> 
+1456f3a0ee8a139211fe4f971620fc0a6b1afd5c - revert - 7577e4b650b9ddbde10cd17fa4dfe4fc7be274a9
+---> The reverted commit sha is - 1456f3a0ee8a139211fe4f971620fc0a6b1afd5c
+Commit message - Add a PatternGuards language pragma that was accidentally dropped
+---> The original commit sha is - 7577e4b650b9ddbde10cd17fa4dfe4fc7be274a9
+Commit message - Add back extension, missed due to CPP
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ 5c889ff4bbf69d4a3eeafb9f8272a239c136cfe6 -> 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5 } is a revert
+{ f8aa0e6875853b5e33abf86c70cc170c10257a54 -> 7577e4b650b9ddbde10cd17fa4dfe4fc7be274a9 }
+Revert commits SHA are -> 
+40c893d7cc6c662f8b4c8734e0ce7786deb12dc5 - revert - 7577e4b650b9ddbde10cd17fa4dfe4fc7be274a9
+---> The reverted commit sha is - 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5
+Commit message - Remove a redundant language extension, spotted by HLint
+---> The original commit sha is - 7577e4b650b9ddbde10cd17fa4dfe4fc7be274a9
+Commit message - Add back extension, missed due to CPP
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ ae280ce5d9e48bf85d2f0c950e6f591375f2c8a8 -> 97eb4b89ad872afd67e7dd4122dc84a078317a55 } is a revert
+{ 5c889ff4bbf69d4a3eeafb9f8272a239c136cfe6 -> 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5 }
+Revert commits SHA are -> 
+97eb4b89ad872afd67e7dd4122dc84a078317a55 - revert - 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5
+---> The reverted commit sha is - 97eb4b89ad872afd67e7dd4122dc84a078317a55
+Commit message - Add back in the PatternGuards to the src\Utils, since it's only used in #ifdef branch (hence why hlint suggested it's removal)
+---> The original commit sha is - 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5
+Commit message - Remove a redundant language extension, spotted by HLint
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ 84cf987bcc1da1ddc364bf8ad53f8e8949e836d9 -> f59e0408ec774420704cdc024904ca7fa04ad7fe } is a revert
+{ 5c889ff4bbf69d4a3eeafb9f8272a239c136cfe6 -> 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5 }
+Revert commits SHA are -> 
+f59e0408ec774420704cdc024904ca7fa04ad7fe - revert - 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5
+---> The reverted commit sha is - f59e0408ec774420704cdc024904ca7fa04ad7fe
+Commit message - Add a missing LANGUAGE pragma
+---> The original commit sha is - 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5
+Commit message - Remove a redundant language extension, spotted by HLint
+-----------------------------------------------------------------
+
+Revert diff pair 8 is -> 
+{ 4dc0818ac745bf3f71148e378c45fd3458b109ef -> 405c7faf4ae5114e131afffb20f8535ca636eb6a } is a revert
+{ 5c889ff4bbf69d4a3eeafb9f8272a239c136cfe6 -> 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5 }
+Revert commits SHA are -> 
+405c7faf4ae5114e131afffb20f8535ca636eb6a - revert - 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5
+---> The reverted commit sha is - 405c7faf4ae5114e131afffb20f8535ca636eb6a
+Commit message - Reinstate the PatternGuards thing, is used in one #ifdef
+---> The original commit sha is - 40c893d7cc6c662f8b4c8734e0ce7786deb12dc5
+Commit message - Remove a redundant language extension, spotted by HLint
+-----------------------------------------------------------------
+
+Revert diff pair 9 is -> 
+{ eebf45fef234426c09a16b0203b3f410bc344d4c -> 1456f3a0ee8a139211fe4f971620fc0a6b1afd5c } is a revert
+{ 4dc0818ac745bf3f71148e378c45fd3458b109ef -> 405c7faf4ae5114e131afffb20f8535ca636eb6a }
+Revert commits SHA are -> 
+1456f3a0ee8a139211fe4f971620fc0a6b1afd5c - revert - 405c7faf4ae5114e131afffb20f8535ca636eb6a
+---> The reverted commit sha is - 1456f3a0ee8a139211fe4f971620fc0a6b1afd5c
+Commit message - Add a PatternGuards language pragma that was accidentally dropped
+---> The original commit sha is - 405c7faf4ae5114e131afffb20f8535ca636eb6a
+Commit message - Reinstate the PatternGuards thing, is used in one #ifdef
+-----------------------------------------------------------------
+
+Revert diff pair 10 is -> 
+{ ae280ce5d9e48bf85d2f0c950e6f591375f2c8a8 -> 97eb4b89ad872afd67e7dd4122dc84a078317a55 } is a revert
+{ eebf45fef234426c09a16b0203b3f410bc344d4c -> 1456f3a0ee8a139211fe4f971620fc0a6b1afd5c }
+Revert commits SHA are -> 
+97eb4b89ad872afd67e7dd4122dc84a078317a55 - revert - 1456f3a0ee8a139211fe4f971620fc0a6b1afd5c
+---> The reverted commit sha is - 97eb4b89ad872afd67e7dd4122dc84a078317a55
+Commit message - Add back in the PatternGuards to the src\Utils, since it's only used in #ifdef branch (hence why hlint suggested it's removal)
+---> The original commit sha is - 1456f3a0ee8a139211fe4f971620fc0a6b1afd5c
+Commit message - Add a PatternGuards language pragma that was accidentally dropped
+-----------------------------------------------------------------
+
+Revert diff pair 11 is -> 
+{ 84cf987bcc1da1ddc364bf8ad53f8e8949e836d9 -> f59e0408ec774420704cdc024904ca7fa04ad7fe } is a revert
+{ eebf45fef234426c09a16b0203b3f410bc344d4c -> 1456f3a0ee8a139211fe4f971620fc0a6b1afd5c }
+Revert commits SHA are -> 
+f59e0408ec774420704cdc024904ca7fa04ad7fe - revert - 1456f3a0ee8a139211fe4f971620fc0a6b1afd5c
+---> The reverted commit sha is - f59e0408ec774420704cdc024904ca7fa04ad7fe
+Commit message - Add a missing LANGUAGE pragma
+---> The original commit sha is - 1456f3a0ee8a139211fe4f971620fc0a6b1afd5c
+Commit message - Add a PatternGuards language pragma that was accidentally dropped
+-----------------------------------------------------------------
+
+Revert diff pair 12 is -> 
+{ a10e0e8438699d33b3786aa62ad1ed46bea6f75c -> 8ef3c3309d3ce196f958fd27b2e1ed8ab0519905 } is a revert
+{ 133b5107acb6310e445483cc2bfad7dad80cfe08 -> 9fc8a756e93016a4dd70357db7f21b184877ce5e }
+Revert commits SHA are -> 
+8ef3c3309d3ce196f958fd27b2e1ed8ab0519905 - revert - 9fc8a756e93016a4dd70357db7f21b184877ce5e
+---> The reverted commit sha is - 8ef3c3309d3ce196f958fd27b2e1ed8ab0519905
+Commit message - Add a caveat that #include makes line numbers go wrong
+---> The original commit sha is - 9fc8a756e93016a4dd70357db7f21b184877ce5e
+Commit message - No need to warn about #include incorrect line number twice
+-----------------------------------------------------------------
+
+Revert diff pair 13 is -> 
+{ 7756ffbd38c15e5bbb097900c7ada51e185e069b -> 867fd019664c8b3fea9da4e8bc14a9b3467c89df } is a revert
+{ 867512ccc2648c20c04aae30a7b13c760c7e720c -> ccdc53882620f765ae5fc974e446f94aea6854d2 }
+Revert commits SHA are -> 
+867fd019664c8b3fea9da4e8bc14a9b3467c89df - revert - ccdc53882620f765ae5fc974e446f94aea6854d2
+---> The reverted commit sha is - 867fd019664c8b3fea9da4e8bc14a9b3467c89df
+Commit message - Add a push script
+---> The original commit sha is - ccdc53882620f765ae5fc974e446f94aea6854d2
+Commit message - Remove the push.bat, now paper exists
+-----------------------------------------------------------------
+

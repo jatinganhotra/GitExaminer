@@ -1,0 +1,376 @@
+# of reverts = 30
+Revert diff pair 1 is -> 
+{ 9a73c2352c507e4f0022c634a1aa3cbad8141a24 -> 6499f3c877732c69cbb53d85626914f00187b179 } is a revert
+{ a2a65d6c73e9d31b12c394115617f07ca38cd7cf -> 0a44437c6520d91abcd36343b7cb679bf010d411 }
+Revert commits SHA are -> 
+6499f3c877732c69cbb53d85626914f00187b179 - revert - 0a44437c6520d91abcd36343b7cb679bf010d411
+---> The reverted commit sha is - 6499f3c877732c69cbb53d85626914f00187b179
+Commit message - Normalize whitespace.
+---> The original commit sha is - 0a44437c6520d91abcd36343b7cb679bf010d411
+Commit message - merged into master
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ e06698802873c216695472c913f6f2422e5b6c1b -> 5be146b61379f6cacdc335d002a5842503603198 } is a revert
+{ 9a73c2352c507e4f0022c634a1aa3cbad8141a24 -> 6499f3c877732c69cbb53d85626914f00187b179 }
+Revert commits SHA are -> 
+5be146b61379f6cacdc335d002a5842503603198 - revert - 6499f3c877732c69cbb53d85626914f00187b179
+---> The reverted commit sha is - 5be146b61379f6cacdc335d002a5842503603198
+Commit message - merged 2.0.x into master
+---> The original commit sha is - 6499f3c877732c69cbb53d85626914f00187b179
+Commit message - Normalize whitespace.
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 72c874127559c8a9de76eeee9c6d75ab04b0a7ee -> 120b97fdee92a5ef2afa2ce82aa410725718cdad } is a revert
+{ 9a73c2352c507e4f0022c634a1aa3cbad8141a24 -> 6499f3c877732c69cbb53d85626914f00187b179 }
+Revert commits SHA are -> 
+120b97fdee92a5ef2afa2ce82aa410725718cdad - revert - 6499f3c877732c69cbb53d85626914f00187b179
+---> The reverted commit sha is - 120b97fdee92a5ef2afa2ce82aa410725718cdad
+Commit message - Merge remote-tracking branch 'origin/2.0.x'
+---> The original commit sha is - 6499f3c877732c69cbb53d85626914f00187b179
+Commit message - Normalize whitespace.
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ b7fde03ebd1ddc2f328071adff67752822ef66ad -> f414140ded3af01cf73f3e820b80912f83be1b66 } is a revert
+{ 9a73c2352c507e4f0022c634a1aa3cbad8141a24 -> 6499f3c877732c69cbb53d85626914f00187b179 }
+Revert commits SHA are -> 
+f414140ded3af01cf73f3e820b80912f83be1b66 - revert - 6499f3c877732c69cbb53d85626914f00187b179
+---> The reverted commit sha is - f414140ded3af01cf73f3e820b80912f83be1b66
+Commit message - Merge branch '2.0.x'
+---> The original commit sha is - 6499f3c877732c69cbb53d85626914f00187b179
+Commit message - Normalize whitespace.
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ 0ec9ed855ee93eac3d69f9d3b38dad1dfaab87a3 -> 61116a57cb8ee0cce3291a000263a011457c03e4 } is a revert
+{ 9a73c2352c507e4f0022c634a1aa3cbad8141a24 -> 6499f3c877732c69cbb53d85626914f00187b179 }
+Revert commits SHA are -> 
+61116a57cb8ee0cce3291a000263a011457c03e4 - revert - 6499f3c877732c69cbb53d85626914f00187b179
+---> The reverted commit sha is - 61116a57cb8ee0cce3291a000263a011457c03e4
+Commit message - Merge branch '2.0.x'
+---> The original commit sha is - 6499f3c877732c69cbb53d85626914f00187b179
+Commit message - Normalize whitespace.
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ 5abf86b0083a94cedd5ae30989b3d1d0203474eb -> 5b68d1b4c3fabd474b4f99729697b090e551c3f7 } is a revert
+{ 9a73c2352c507e4f0022c634a1aa3cbad8141a24 -> 6499f3c877732c69cbb53d85626914f00187b179 }
+Revert commits SHA are -> 
+5b68d1b4c3fabd474b4f99729697b090e551c3f7 - revert - 6499f3c877732c69cbb53d85626914f00187b179
+---> The reverted commit sha is - 5b68d1b4c3fabd474b4f99729697b090e551c3f7
+Commit message - Merge remote-tracking branch 'origin/2.0.x'
+---> The original commit sha is - 6499f3c877732c69cbb53d85626914f00187b179
+Commit message - Normalize whitespace.
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ 43d2047ca405e16ea7a5a0f6e793db9c225c1965 -> 14d1fae79d1fd447d2ef2610a0dcbe6b8f53c835 } is a revert
+{ 92bfd30bb1e449527e5d151b3c6a6cf4c7c8bff3 -> 45067d5de10ad7600935c80a20ead161ca51a664 }
+Revert commits SHA are -> 
+14d1fae79d1fd447d2ef2610a0dcbe6b8f53c835 - revert - 45067d5de10ad7600935c80a20ead161ca51a664
+---> The reverted commit sha is - 14d1fae79d1fd447d2ef2610a0dcbe6b8f53c835
+Commit message - fixed a small typo in the documentation
+---> The original commit sha is - 45067d5de10ad7600935c80a20ead161ca51a664
+Commit message - Revert "fixed a small typo in the documentation"
+
+This reverts commit 14d1fae79d1fd447d2ef2610a0dcbe6b8f53c835.
+-----------------------------------------------------------------
+
+Revert diff pair 8 is -> 
+{ 46446d0798275a96076fa07a0b14c1e1d00ceb01 -> b9c795be89cc89b8168724835b8da1361dfdbcf4 } is a revert
+{ b9c795be89cc89b8168724835b8da1361dfdbcf4 -> 7e922944ce89ee413b4cfc48cb9cc7b8aea89e6c }
+Revert commits SHA are -> 
+b9c795be89cc89b8168724835b8da1361dfdbcf4 - revert - 7e922944ce89ee413b4cfc48cb9cc7b8aea89e6c
+---> The reverted commit sha is - b9c795be89cc89b8168724835b8da1361dfdbcf4
+Commit message - reverted to canvas for example. for now
+---> The original commit sha is - 7e922944ce89ee413b4cfc48cb9cc7b8aea89e6c
+Commit message - typo corrected
+-----------------------------------------------------------------
+
+Revert diff pair 9 is -> 
+{ 1f87759d3e0fca7cc52d19a2672800eddab12b6a -> 6b83b551fc00f903c15f210879c794ae2d85cfcd } is a revert
+{ 6b83b551fc00f903c15f210879c794ae2d85cfcd -> 6869cc68dbf2ecfd253827a588a051cb709f92eb }
+Revert commits SHA are -> 
+6b83b551fc00f903c15f210879c794ae2d85cfcd - revert - 6869cc68dbf2ecfd253827a588a051cb709f92eb
+---> The reverted commit sha is - 6b83b551fc00f903c15f210879c794ae2d85cfcd
+Commit message - [#544] changed to a ellipse shapes as we are dealing with round emoticons ;P
+---> The original commit sha is - 6869cc68dbf2ecfd253827a588a051cb709f92eb
+Commit message - Revert "[#544] changed to a ellipse shapes as we are dealing with round emoticons ;P"
+
+This reverts commit 6b83b551fc00f903c15f210879c794ae2d85cfcd.
+-----------------------------------------------------------------
+
+Revert diff pair 10 is -> 
+{ e616f55a5a2b66f7273b90cadd92809c568be264 -> b16ef76283b7818989fec8ecf018586b856a569c } is a revert
+{ b16ef76283b7818989fec8ecf018586b856a569c -> d0414d90d60807e67de3edf09885367d78d45140 }
+Revert commits SHA are -> 
+b16ef76283b7818989fec8ecf018586b856a569c - revert - d0414d90d60807e67de3edf09885367d78d45140
+---> The reverted commit sha is - b16ef76283b7818989fec8ecf018586b856a569c
+Commit message - fixed debug panel
+---> The original commit sha is - d0414d90d60807e67de3edf09885367d78d45140
+Commit message - merged in master with debug panel fix.
+-----------------------------------------------------------------
+
+Revert diff pair 11 is -> 
+{ 10e9d122fe4ed3028198a74c538da19f65eb221a -> e616f55a5a2b66f7273b90cadd92809c568be264 } is a revert
+{ e616f55a5a2b66f7273b90cadd92809c568be264 -> b16ef76283b7818989fec8ecf018586b856a569c }
+Revert commits SHA are -> 
+e616f55a5a2b66f7273b90cadd92809c568be264 - revert - b16ef76283b7818989fec8ecf018586b856a569c
+---> The reverted commit sha is - e616f55a5a2b66f7273b90cadd92809c568be264
+Commit message - merged in changes, fixed conflicts
+---> The original commit sha is - b16ef76283b7818989fec8ecf018586b856a569c
+Commit message - fixed debug panel
+-----------------------------------------------------------------
+
+Revert diff pair 12 is -> 
+{ 5e8901a82668fc4526127a73cc83df6bf8a0881a -> 45c2c0635c314439faaed03be41f090c98d95b51 } is a revert
+{ f2a3a951d1abee33369870ed0f119d3cd76a6011 -> 1c17d8cb00e289ccf9bbc77c6947c4151716a542 }
+Revert commits SHA are -> 
+45c2c0635c314439faaed03be41f090c98d95b51 - revert - 1c17d8cb00e289ccf9bbc77c6947c4151716a542
+---> The reverted commit sha is - 45c2c0635c314439faaed03be41f090c98d95b51
+Commit message - Merge branch '1.1.0-dev'
+---> The original commit sha is - 1c17d8cb00e289ccf9bbc77c6947c4151716a542
+Commit message - Remove BitDeli badge, because it's broken and deprecated.
+
+- Giant orange warning message on their website:
+  "Service disruption: GitHub has recently changed the way images are served in readmes. This has seriously limited our traffic analytics features for repositories."
+- They haven't even responded to my support request on Twitter, which seems to be the only way to contact them:
+  https://twitter.com/kodewerx/status/468938537174585345
+-----------------------------------------------------------------
+
+Revert diff pair 13 is -> 
+{ 93d7b16148d17965f08886a0faeb0d0ff179c314 -> b49f91504360e9952b190d84c0d3171436f5eeae } is a revert
+{ bc5733526d743d70977d662cb93d44b5f441e94f -> d531e2a53dcd47dbad1ad2b491fc5ce4f4f58d75 }
+Revert commits SHA are -> 
+b49f91504360e9952b190d84c0d3171436f5eeae - revert - d531e2a53dcd47dbad1ad2b491fc5ce4f4f58d75
+---> The reverted commit sha is - b49f91504360e9952b190d84c0d3171436f5eeae
+Commit message - Redo particle engine changes.
+
+This reverts commit fbbc582cfd698f243db8e241f4ef52ea0fa419d4.
+---> The original commit sha is - d531e2a53dcd47dbad1ad2b491fc5ce4f4f58d75
+Commit message - Merge branch '1.0.x'
+-----------------------------------------------------------------
+
+Revert diff pair 14 is -> 
+{ 93d7b16148d17965f08886a0faeb0d0ff179c314 -> b49f91504360e9952b190d84c0d3171436f5eeae } is a revert
+{ b49f91504360e9952b190d84c0d3171436f5eeae -> e95f7ec1cf419db03d148b542501cf1fcd5c448b }
+Revert commits SHA are -> 
+b49f91504360e9952b190d84c0d3171436f5eeae - revert - e95f7ec1cf419db03d148b542501cf1fcd5c448b
+---> The reverted commit sha is - b49f91504360e9952b190d84c0d3171436f5eeae
+Commit message - Redo particle engine changes.
+
+This reverts commit fbbc582cfd698f243db8e241f4ef52ea0fa419d4.
+---> The original commit sha is - e95f7ec1cf419db03d148b542501cf1fcd5c448b
+Commit message - Merge pull request #505 from aaschmitz/1.0.x
+
+Fixed issue with the drag-points on the particle editor
+-----------------------------------------------------------------
+
+Revert diff pair 15 is -> 
+{ 89ff878fccf7fa252993076bc628425bac49a960 -> e7f43dbdee374c828b41cebfa4494ec10233023d } is a revert
+{ e7f43dbdee374c828b41cebfa4494ec10233023d -> efd6e5a1e5e9322f956e4c1ccf1fd96282db6c98 }
+Revert commits SHA are -> 
+e7f43dbdee374c828b41cebfa4494ec10233023d - revert - efd6e5a1e5e9322f956e4c1ccf1fd96282db6c98
+---> The reverted commit sha is - e7f43dbdee374c828b41cebfa4494ec10233023d
+Commit message - Merge pull request #458 from melonjs/feature/tp-animationsheet
+
+Feature/tp animationsheet
+---> The original commit sha is - efd6e5a1e5e9322f956e4c1ccf1fd96282db6c98
+Commit message - Merge branch 'feature/texturepacker-animationsheet' into 1.1.0-dev
+-----------------------------------------------------------------
+
+Revert diff pair 16 is -> 
+{ 7af27d3287b61a41e1b34ea29537c610e22a839d -> 89ff878fccf7fa252993076bc628425bac49a960 } is a revert
+{ 89ff878fccf7fa252993076bc628425bac49a960 -> e7f43dbdee374c828b41cebfa4494ec10233023d }
+Revert commits SHA are -> 
+89ff878fccf7fa252993076bc628425bac49a960 - revert - e7f43dbdee374c828b41cebfa4494ec10233023d
+---> The reverted commit sha is - 89ff878fccf7fa252993076bc628425bac49a960
+Commit message - updated examples
+---> The original commit sha is - e7f43dbdee374c828b41cebfa4494ec10233023d
+Commit message - Merge pull request #458 from melonjs/feature/tp-animationsheet
+
+Feature/tp animationsheet
+-----------------------------------------------------------------
+
+Revert diff pair 17 is -> 
+{ 7b7342452636077951ab3325a3c3af74b8b4d820 -> d077a1d6c067edfdc9a8c5d7bfdf4fc6b2d3e40c } is a revert
+{ d077a1d6c067edfdc9a8c5d7bfdf4fc6b2d3e40c -> b172c70ce011959fd895f4b2037f0b1b80e0f6a4 }
+Revert commits SHA are -> 
+d077a1d6c067edfdc9a8c5d7bfdf4fc6b2d3e40c - revert - b172c70ce011959fd895f4b2037f0b1b80e0f6a4
+---> The reverted commit sha is - d077a1d6c067edfdc9a8c5d7bfdf4fc6b2d3e40c
+Commit message - [#405] fixed a regression when parsing properties in Tiled Json maps
+---> The original commit sha is - b172c70ce011959fd895f4b2037f0b1b80e0f6a4
+Commit message - fixed ctrl+c not working on source code textarea
+-----------------------------------------------------------------
+
+Revert diff pair 18 is -> 
+{ e5480fdf5719fa2a6829b9be276a6b93919c4475 -> b78062016f51d896ac046e17ccb8169837f400a8 } is a revert
+{ cf93cd1c0f331c6f25e652ede43628eb8c3d4060 -> bfebcdcca5b7f1dc5402324d9623c1d9020bdbd5 }
+Revert commits SHA are -> 
+b78062016f51d896ac046e17ccb8169837f400a8 - revert - bfebcdcca5b7f1dc5402324d9623c1d9020bdbd5
+---> The reverted commit sha is - b78062016f51d896ac046e17ccb8169837f400a8
+Commit message - Forgot this one during final 0.9.7 update
+---> The original commit sha is - bfebcdcca5b7f1dc5402324d9623c1d9020bdbd5
+Commit message - Revert "Forgot this last one during final update !"
+
+This reverts commit 530e9d9468a2c7711cd41cf2537263e23987d3c3.
+-----------------------------------------------------------------
+
+Revert diff pair 19 is -> 
+{ d7dc414b911751f7a2b1d7cabb64a05b7db3768f -> b52ffbb03ac01f6c8be2e516e43ee76be76a08d6 } is a revert
+{ b52ffbb03ac01f6c8be2e516e43ee76be76a08d6 -> 6d14b864ff975b3427297fc940e0d477ce5a5e3a }
+Revert commits SHA are -> 
+b52ffbb03ac01f6c8be2e516e43ee76be76a08d6 - revert - 6d14b864ff975b3427297fc940e0d477ce5a5e3a
+---> The reverted commit sha is - b52ffbb03ac01f6c8be2e516e43ee76be76a08d6
+Commit message - Fixed link to the documentation
+---> The original commit sha is - 6d14b864ff975b3427297fc940e0d477ce5a5e3a
+Commit message - Merge branch 'master' of github.com:agmcleod/melonJS
+-----------------------------------------------------------------
+
+Revert diff pair 20 is -> 
+{ 36dabd29fbe23819686ef0d9bdb4cb58697fdf17 -> 40248f1178ee87072450c5881bd3c4cf31db33c4 } is a revert
+{ cae8affdc9f5ed7467694ececb2eca8e42abb4a6 -> d9c2fb926d07c088995c2bac997fa19ae6e14ff0 }
+Revert commits SHA are -> 
+40248f1178ee87072450c5881bd3c4cf31db33c4 - revert - d9c2fb926d07c088995c2bac997fa19ae6e14ff0
+---> The reverted commit sha is - 40248f1178ee87072450c5881bd3c4cf31db33c4
+Commit message - rewrote these two functions with better self-caching
+---> The original commit sha is - d9c2fb926d07c088995c2bac997fa19ae6e14ff0
+Commit message - Revert "rewrote these two functions with better self-caching"
+
+This reverts commit 40248f1178ee87072450c5881bd3c4cf31db33c4.
+-----------------------------------------------------------------
+
+Revert diff pair 21 is -> 
+{ 2c29743ae6fa417bb20c981f620d949f31c31aa9 -> 8afa20af59318297ba0f8355653257374dcd0bd9 } is a revert
+{ 8afa20af59318297ba0f8355653257374dcd0bd9 -> f28e6e455af199e63b432184a3a9243fbf34f613 }
+Revert commits SHA are -> 
+8afa20af59318297ba0f8355653257374dcd0bd9 - revert - f28e6e455af199e63b432184a3a9243fbf34f613
+---> The reverted commit sha is - 8afa20af59318297ba0f8355653257374dcd0bd9
+Commit message - added in option for volume in playTrack
+---> The original commit sha is - f28e6e455af199e63b432184a3a9243fbf34f613
+Commit message - Merge pull request #156 from agmcleod/master
+
+new `animationspeed` parameter for the `addAnimation()` function, allowing to specify a different animation speed per animation
+-----------------------------------------------------------------
+
+Revert diff pair 22 is -> 
+{ ccfad83b92ada8c42fbc8222897e5bd68c8427cd -> d632dc0b2d31b5c7c86418c215368199247012c0 } is a revert
+{ 3d5963ec230de37472c3576415dfb79d2236856e -> eb7e3372de841bfa32da1212ce00920a0c1c90e2 }
+Revert commits SHA are -> 
+d632dc0b2d31b5c7c86418c215368199247012c0 - revert - eb7e3372de841bfa32da1212ce00920a0c1c90e2
+---> The reverted commit sha is - d632dc0b2d31b5c7c86418c215368199247012c0
+Commit message - Fixed parent container size detection (thanks tokyonono!)
+
+@see
+https://groups.google.com/forum/?fromgroups=#!topic/melonjs/ho7pVFy-bto
+---> The original commit sha is - eb7e3372de841bfa32da1212ce00920a0c1c90e2
+Commit message - revert these changes, as it breaks auto-scaling under certain conditions
+-----------------------------------------------------------------
+
+Revert diff pair 23 is -> 
+{ 83af2d982bd5dc238160ac5d9fab25d8dd717331 -> 80ae7190c72707506db36638c9d98d28dd68b22a } is a revert
+{ 80ae7190c72707506db36638c9d98d28dd68b22a -> d2e3873d5288ea4b1144f305bdcea0c75bbd84cb }
+Revert commits SHA are -> 
+80ae7190c72707506db36638c9d98d28dd68b22a - revert - d2e3873d5288ea4b1144f305bdcea0c75bbd84cb
+---> The reverted commit sha is - 80ae7190c72707506db36638c9d98d28dd68b22a
+Commit message - Updated Changelog
+---> The original commit sha is - d2e3873d5288ea4b1144f305bdcea0c75bbd84cb
+Commit message - Revert "Updated Changelog"
+
+This reverts commit 80ae7190c72707506db36638c9d98d28dd68b22a.
+-----------------------------------------------------------------
+
+Revert diff pair 24 is -> 
+{ 450d9152a975d2ac1e088dcd22426fde561140d8 -> abc73021e27328b99dc8a49f3b670940b9d84b9d } is a revert
+{ abc73021e27328b99dc8a49f3b670940b9d84b9d -> 34b008fbdf1b6c8adcadf97809d3501fb8836bdd }
+Revert commits SHA are -> 
+abc73021e27328b99dc8a49f3b670940b9d84b9d - revert - 34b008fbdf1b6c8adcadf97809d3501fb8836bdd
+---> The reverted commit sha is - abc73021e27328b99dc8a49f3b670940b9d84b9d
+Commit message - Fixed a limitation that was preventing a non visible layer to be set visible later
+
+note that this is not applicable to collision layer, which are force to
+not visible unless the `me.debug.renderCollisionMap` is set.
+---> The original commit sha is - 34b008fbdf1b6c8adcadf97809d3501fb8836bdd
+Commit message - Revert "Fixed a limitation that was preventing a non visible layer to be set visible later"
+
+This reverts commit abc73021e27328b99dc8a49f3b670940b9d84b9d.
+-----------------------------------------------------------------
+
+Revert diff pair 25 is -> 
+{ d9e066ad8b4ca1e61436c3f7130e9b928230df07 -> 0a50d22dc7857e3b42959b6255796aad1784b593 } is a revert
+{ 871f55e0cfbc6cef1d8e29f5e40c763ce0e5c0ac -> 2d09ab9185094cab62597eec84056eb503dba082 }
+Revert commits SHA are -> 
+0a50d22dc7857e3b42959b6255796aad1784b593 - revert - 2d09ab9185094cab62597eec84056eb503dba082
+---> The reverted commit sha is - 0a50d22dc7857e3b42959b6255796aad1784b593
+Commit message - Also cancel event bubbling
+---> The original commit sha is - 2d09ab9185094cab62597eec84056eb503dba082
+Commit message - input: Remove unnecessary semi-colons from function definitions.
+-----------------------------------------------------------------
+
+Revert diff pair 26 is -> 
+{ 9a843dd35ce4fd7cfbeb0bfd55692ea6236ee28b -> d24890db84289399749c1f76ad9aca9c92684154 } is a revert
+{ a83fefadb4565dd1edd62ad5d7b871dac05edd9f -> 49f47dc22cf306dbc1e0a78b3fcf331d34fda9d4 }
+Revert commits SHA are -> 
+d24890db84289399749c1f76ad9aca9c92684154 - revert - 49f47dc22cf306dbc1e0a78b3fcf331d34fda9d4
+---> The reverted commit sha is - d24890db84289399749c1f76ad9aca9c92684154
+Commit message - Revert "Fixed wrong mouse position detection (#Issue 43)"
+
+This reverts commit 9a843dd35ce4fd7cfbeb0bfd55692ea6236ee28b.
+---> The original commit sha is - 49f47dc22cf306dbc1e0a78b3fcf331d34fda9d4
+Commit message - Fixed wrong mouse position detection (Issue #43)
+-----------------------------------------------------------------
+
+Revert diff pair 27 is -> 
+{ fa57b4b83dd80169a1f9d8bfd845181b70d8e613 -> 9a843dd35ce4fd7cfbeb0bfd55692ea6236ee28b } is a revert
+{ 9a843dd35ce4fd7cfbeb0bfd55692ea6236ee28b -> d24890db84289399749c1f76ad9aca9c92684154 }
+Revert commits SHA are -> 
+9a843dd35ce4fd7cfbeb0bfd55692ea6236ee28b - revert - d24890db84289399749c1f76ad9aca9c92684154
+---> The reverted commit sha is - 9a843dd35ce4fd7cfbeb0bfd55692ea6236ee28b
+Commit message - Fixed wrong mouse position detection (#Issue 43)
+---> The original commit sha is - d24890db84289399749c1f76ad9aca9c92684154
+Commit message - Revert "Fixed wrong mouse position detection (#Issue 43)"
+
+This reverts commit 9a843dd35ce4fd7cfbeb0bfd55692ea6236ee28b.
+-----------------------------------------------------------------
+
+Revert diff pair 28 is -> 
+{ fa736558dfea7f0cb9e37b5aa6705152b7dc1ffa -> cd900fc3d80cd294a9aad7b1ebf1187ac15de77c } is a revert
+{ cd900fc3d80cd294a9aad7b1ebf1187ac15de77c -> fa57b4b83dd80169a1f9d8bfd845181b70d8e613 }
+Revert commits SHA are -> 
+cd900fc3d80cd294a9aad7b1ebf1187ac15de77c - revert - fa57b4b83dd80169a1f9d8bfd845181b70d8e613
+---> The reverted commit sha is - cd900fc3d80cd294a9aad7b1ebf1187ac15de77c
+Commit message - Fixed wrong mouse position detection (Issue #43)
+---> The original commit sha is - fa57b4b83dd80169a1f9d8bfd845181b70d8e613
+Commit message - Revert "Fixed wrong mouse position detection (Issue #43)"
+
+This reverts commit cd900fc3d80cd294a9aad7b1ebf1187ac15de77c.
+-----------------------------------------------------------------
+
+Revert diff pair 29 is -> 
+{ 9d46f3d8e547414e0068d4b5dce3b561f205d20a -> f83eb9c1e3d15508d81b7294cddf55d3a5d3abbd } is a revert
+{ 66f7e890064781f1b5274eb3e0aa6306bee31962 -> a156c3e3e29debb989d0f5c4896b74744c4d3c8d }
+Revert commits SHA are -> 
+f83eb9c1e3d15508d81b7294cddf55d3a5d3abbd - revert - a156c3e3e29debb989d0f5c4896b74744c4d3c8d
+---> The reverted commit sha is - f83eb9c1e3d15508d81b7294cddf55d3a5d3abbd
+Commit message - Added missing collision blocks
+---> The original commit sha is - a156c3e3e29debb989d0f5c4896b74744c4d3c8d
+Commit message - Revert "Added missing collision blocks"
+
+This reverts commit f83eb9c1e3d15508d81b7294cddf55d3a5d3abbd.
+-----------------------------------------------------------------
+
+Revert diff pair 30 is -> 
+{ 3cba929b1a1b25189805f2d467cf182e0ad70b3d -> 2154cb5dc5e599c8ceec7b6cd6d6a56fd2addca2 } is a revert
+{ 2154cb5dc5e599c8ceec7b6cd6d6a56fd2addca2 -> 0c61dbde5cc5c29b86f57f4c1627f8fd7f7fcf84 }
+Revert commits SHA are -> 
+2154cb5dc5e599c8ceec7b6cd6d6a56fd2addca2 - revert - 0c61dbde5cc5c29b86f57f4c1627f8fd7f7fcf84
+---> The reverted commit sha is - 2154cb5dc5e599c8ceec7b6cd6d6a56fd2addca2
+Commit message - removed license information, the time to figure out which one to correctly use !
+---> The original commit sha is - 0c61dbde5cc5c29b86f57f4c1627f8fd7f7fcf84
+Commit message - Revert "removed license information, the time to figure out which one to correctly use !"
+
+This reverts commit 2154cb5dc5e599c8ceec7b6cd6d6a56fd2addca2.
+-----------------------------------------------------------------
+

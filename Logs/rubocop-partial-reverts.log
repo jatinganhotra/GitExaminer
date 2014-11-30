@@ -1,0 +1,3674 @@
+# of partial reverts = 188
+Partial Revert diff pair 1 is -> 
+{ 2afaa7d88e09ccb1b35c0479b6de85bd102f3764 -> 29ec3180c678b8a823df6e7f22a86a60c39e3a22 } is a revert
+{ 29ec3180c678b8a823df6e7f22a86a60c39e3a22 -> 5a472eaefb3c36b9bd36922fa3aa4ef43950b218 }
+Partial Revert commits SHA are -> 
+29ec3180c678b8a823df6e7f22a86a60c39e3a22 - revert - 5a472eaefb3c36b9bd36922fa3aa4ef43950b218
+---> The reverted commit sha is - 29ec3180c678b8a823df6e7f22a86a60c39e3a22
+Commit message - Merge pull request #1463 from jcarbo/empty-lines-around-block-body
+
+Add EmptyLinesAroundBlockBody cop
+---> The original commit sha is - 5a472eaefb3c36b9bd36922fa3aa4ef43950b218
+Commit message - Merge pull request #1464 from jonas054/1459_fix_NegatedWhile
+
+[Fix #1459] Handle parentheses around condition in NegatedWhile
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/negated_while.rb
+spec/rubocop/cop/style/negated_while_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 8c6a4da8c7b9c3ca53c2ad1c8f9168fdcc83e0db -> 0dc05754809e1b9e99d6c49e745e2f939928066b } is a revert
+{ 6f03e16b7307f057dc0d51870b7cd20eb71b816b -> f19c5fc8e8ea78a79258e60403435869d5e67553 }
+Partial Revert commits SHA are -> 
+0dc05754809e1b9e99d6c49e745e2f939928066b - revert - f19c5fc8e8ea78a79258e60403435869d5e67553
+---> The reverted commit sha is - 0dc05754809e1b9e99d6c49e745e2f939928066b
+Commit message - [Fix #1416] Handle begin/rescue/else/end in ElseAlignment
+
+A spec example for correctly aligned else in begin/rescue/end
+was missing, so a bug slipped through.
+---> The original commit sha is - f19c5fc8e8ea78a79258e60403435869d5e67553
+Commit message - Merge pull request #1424 from jonas054/1418_deprecated_pattern_style_bug
+
+[Fix #1418] Avoid deprecation warning for hidden directories
+---> The files with partial_reverts are:-
+lib/rubocop/path_util.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 251ef6ed95d3c3ffd599c048e0833ae94a49737b -> d57350f902e438efc0c64ad61bf36e85f52e6303 } is a revert
+{ d57350f902e438efc0c64ad61bf36e85f52e6303 -> 3853c7824cc5488ce64405d53abbc7bd17eca4f8 }
+Partial Revert commits SHA are -> 
+d57350f902e438efc0c64ad61bf36e85f52e6303 - revert - 3853c7824cc5488ce64405d53abbc7bd17eca4f8
+---> The reverted commit sha is - d57350f902e438efc0c64ad61bf36e85f52e6303
+Commit message - [Fix #1401] Enable including hidden directories in config
+
+Hidden directories are now searched but files in them are
+not included by default. It is possible to include them
+through Include parameters in configuration files.
+---> The original commit sha is - 3853c7824cc5488ce64405d53abbc7bd17eca4f8
+Commit message - Merge pull request #1414 from jonas054/1401_dot_dirs
+
+[Fix #1401] Enable including hidden directories in config
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/empty_literal.rb
+spec/rubocop/cop/style/empty_literal_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 8e99f431fd3fb067a347ca38173c940524f8d629 -> e9089a461664d1cf2649baa60d0163fc0d93810d } is a revert
+{ e9089a461664d1cf2649baa60d0163fc0d93810d -> 35d72ad131fbb97256045114814f00d39e99efd9 }
+Partial Revert commits SHA are -> 
+e9089a461664d1cf2649baa60d0163fc0d93810d - revert - 35d72ad131fbb97256045114814f00d39e99efd9
+---> The reverted commit sha is - e9089a461664d1cf2649baa60d0163fc0d93810d
+Commit message - Change name of the module OnMethod to OnMethodDef
+
+To indicate clearly that it's about method definition
+nodes, not method call nodes.
+---> The original commit sha is - 35d72ad131fbb97256045114814f00d39e99efd9
+Commit message - Merge pull request #1394 from jonas054/work_on_non_nil_check
+
+NonNilCheck improvements
+---> The files with partial_reverts are:-
+CHANGELOG.md
+config/disabled.yml
+config/enabled.yml
+lib/rubocop/cop/style/collection_methods.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ e38f5551db287ec3f39bb86b6c3509cc1670229a -> f085e2ac0ebe04d7932e06e61071f553724a909b } is a revert
+{ a28e34e94367ad9dd8b87a1d8c00f60c515dbd6b -> 00e476151a7f3fadae4ec54ee9a8d8d6685c5819 }
+Partial Revert commits SHA are -> 
+f085e2ac0ebe04d7932e06e61071f553724a909b - revert - 00e476151a7f3fadae4ec54ee9a8d8d6685c5819
+---> The reverted commit sha is - f085e2ac0ebe04d7932e06e61071f553724a909b
+Commit message - Make `--out` to create parent directories
+
+Fix #1389.
+---> The original commit sha is - 00e476151a7f3fadae4ec54ee9a8d8d6685c5819
+Commit message - Merge pull request #1392 from jonas054/fix_abc_size_decimal
+
+Show decimals for Metrics/AbcSize:Max if given in config
+---> The files with partial_reverts are:-
+lib/rubocop/cop/metrics/abc_size.rb
+spec/rubocop/cop/metrics/abc_size_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ 4cfa43748eff3416d0b3584b7aafb1aad420be3b -> ecd75e51501b04094dc15a91845542fe8bd25169 } is a revert
+{ ecd75e51501b04094dc15a91845542fe8bd25169 -> f7da5fe01abdda90540dc03b9b7fa9bbdf76e93e }
+Partial Revert commits SHA are -> 
+ecd75e51501b04094dc15a91845542fe8bd25169 - revert - f7da5fe01abdda90540dc03b9b7fa9bbdf76e93e
+---> The reverted commit sha is - ecd75e51501b04094dc15a91845542fe8bd25169
+Commit message - [Fix #1352] Add regexp configuration to WordArray
+
+The Style/WordArray cop can now be configured with the WordCharacters
+option. Its value must be a Regexp character class (as a string).
+---> The original commit sha is - f7da5fe01abdda90540dc03b9b7fa9bbdf76e93e
+Commit message - Merge pull request #1371 from bquorning/wordarray-recognize-email-addresses
+
+WordArray allows all characters except spaces
+---> The files with partial_reverts are:-
+lib/rubocop/cop/team.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ e56ad80bc5a67d37305ed1c43152ce43d7d9a07a -> 4bef312eb305b1244c4649530cde3e6ce708da70 } is a revert
+{ ffbb2f70348103c9fd5f205b6c293df3369d426a -> daf2331f662b0c0e680cd19d2d79a24d815c3ada }
+Partial Revert commits SHA are -> 
+4bef312eb305b1244c4649530cde3e6ce708da70 - revert - daf2331f662b0c0e680cd19d2d79a24d815c3ada
+---> The reverted commit sha is - 4bef312eb305b1244c4649530cde3e6ce708da70
+Commit message - Spec was using Tempfile without requiring it
+---> The original commit sha is - daf2331f662b0c0e680cd19d2d79a24d815c3ada
+Commit message - Merge pull request #1376 from bquorning/string-methods-faster-than-regex
+
+String methods faster than regex
+---> The files with partial_reverts are:-
+lib/rubocop/cop/lint/require_parentheses.rb
+lib/rubocop/cop/style/encoding.rb
+lib/rubocop/cop/style/string_literals.rb
+lib/rubocop/cop/style/unneeded_percent_q.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ 475d652f4e35a6f085d6bd2999b623036155749d -> adcecba65954164f280309d481c4955b74d619b3 } is a revert
+{ fbd9aed3b445f7543ff09f201449fb820b0f0186 -> 67d836d9d87cffc281f26bf68157d9b4bb3ea541 }
+Partial Revert commits SHA are -> 
+adcecba65954164f280309d481c4955b74d619b3 - revert - 67d836d9d87cffc281f26bf68157d9b4bb3ea541
+---> The reverted commit sha is - adcecba65954164f280309d481c4955b74d619b3
+Commit message - Recognize some Ruby files related with Chef: Berksfile, Cheffile, Vaganbondfile
+
+* Berksfile: http://berkshelf.com/#the-berksfile
+* Cheffile: https://github.com/applicationsonline/librarian-chef#the-cheffile
+* Vaganbondfile: https://github.com/chrisroberts/vagabond#how-does-it-work
+---> The original commit sha is - 67d836d9d87cffc281f26bf68157d9b4bb3ea541
+Commit message - Merge pull request #1365 from jonas054/1362_fix_multiline_op_ind
+
+Fix condition for special cases in MultilineOperationIndentation
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/multiline_operation_indentation.rb
+spec/rubocop/cop/style/case_indentation_spec.rb
+spec/rubocop/cop/style/multiline_operation_indentation_spec.rb
+spec/rubocop/cop/style/space_before_block_braces_spec.rb
+spec/rubocop/cop/style/space_inside_block_braces_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ bb7d9a058ec940fead2768b672bbd5c3a2371830 -> 5fe1b8e4d321e6817f8890fb1b9f412ec711f76e } is a revert
+{ 70da152cf5ecd81e95f06df3e6c0697582d39075 -> 33b0fc57867dedfade8c2e7ace39f74ca1959404 }
+Partial Revert commits SHA are -> 
+5fe1b8e4d321e6817f8890fb1b9f412ec711f76e - revert - 33b0fc57867dedfade8c2e7ace39f74ca1959404
+---> The reverted commit sha is - 5fe1b8e4d321e6817f8890fb1b9f412ec711f76e
+Commit message - Mention RunRailsCops directive in README
+---> The original commit sha is - 33b0fc57867dedfade8c2e7ace39f74ca1959404
+Commit message - Revert "Don't allow failures on Rubinius"
+
+This reverts commit 70da152cf5ecd81e95f06df3e6c0697582d39075.
+---> The files with partial_reverts are:-
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ 5fe1b8e4d321e6817f8890fb1b9f412ec711f76e -> e193b9c092e6e4208ed54da0ba9c8cea437ef1ba } is a revert
+{ ed8ba9df7816d5863eb6c8aeeab68f2d65408383 -> 70da152cf5ecd81e95f06df3e6c0697582d39075 }
+Partial Revert commits SHA are -> 
+e193b9c092e6e4208ed54da0ba9c8cea437ef1ba - revert - 70da152cf5ecd81e95f06df3e6c0697582d39075
+---> The reverted commit sha is - e193b9c092e6e4208ed54da0ba9c8cea437ef1ba
+Commit message - Merge pull request #1226 from yujinakayama/mention-runrailscop-in-readme
+
+Mention RunRailsCops configuration directive in README
+---> The original commit sha is - 70da152cf5ecd81e95f06df3e6c0697582d39075
+Commit message - Don't allow failures on Rubinius
+---> The files with partial_reverts are:-
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ b55c2e5c09aa3ca95b74cdb2d044432e6f62210d -> c10771f6ef27e82d759a8f184911df12ad2c005c } is a revert
+{ c10771f6ef27e82d759a8f184911df12ad2c005c -> 4f1ee23c368ed5ef346dbbdd39a747cd2185646b }
+Partial Revert commits SHA are -> 
+c10771f6ef27e82d759a8f184911df12ad2c005c - revert - 4f1ee23c368ed5ef346dbbdd39a747cd2185646b
+---> The reverted commit sha is - c10771f6ef27e82d759a8f184911df12ad2c005c
+Commit message - Use default RSpec pattern
+
+See
+https://github.com/rspec/rspec-core/commit/667a4ca00f50fddb3fca7cdfcaf97633ba267b1f#commitcomment-7725799.
+
+'spec/**/*_spec.rb' is compatible with default value. See
+https://github.com/rspec/rspec-core/blob/v3.1.2/lib/rspec/core/rake_task.rb#L17.
+---> The original commit sha is - 4f1ee23c368ed5ef346dbbdd39a747cd2185646b
+Commit message - Merge pull request #1333 from yous/patch-rspec
+
+Fix spec pattern for RSpec 3.1.0
+---> The files with partial_reverts are:-
+config/enabled.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ 8f429c598d2348e1d3c8297ee9c8ee65e1549ae7 -> 0f11aa8a3aa69fd09965355efeee5b8491fe7148 } is a revert
+{ 0f11aa8a3aa69fd09965355efeee5b8491fe7148 -> ff65412c8ae951eeff7ea367bca0b918e1a3b765 }
+Partial Revert commits SHA are -> 
+0f11aa8a3aa69fd09965355efeee5b8491fe7148 - revert - ff65412c8ae951eeff7ea367bca0b918e1a3b765
+---> The reverted commit sha is - 0f11aa8a3aa69fd09965355efeee5b8491fe7148
+Commit message - Correct whitespace braces around hash parameters
+---> The original commit sha is - ff65412c8ae951eeff7ea367bca0b918e1a3b765
+Commit message - Merge pull request #1315 from CO2Management/fix/correct-whitespace-braces-around-hash-parameters
+
+Correct whitespace braces around hash parameters
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/symbol_proc.rb
+spec/rubocop/cop/style/symbol_proc_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ e07a5e3ccf1b4fe0bd7237d02b603c6b5346fb8d -> d4d5b67222b0e70b5d8d3609a3f65f68b93ed584 } is a revert
+{ 6159ce87485fd5585d9005aaee4eba23e74f0c22 -> 7fc3ed6d4eeb8adc9977cf889b4fa9b4d28384c7 }
+Partial Revert commits SHA are -> 
+d4d5b67222b0e70b5d8d3609a3f65f68b93ed584 - revert - 7fc3ed6d4eeb8adc9977cf889b4fa9b4d28384c7
+---> The reverted commit sha is - d4d5b67222b0e70b5d8d3609a3f65f68b93ed584
+Commit message - Ignore StyleGuide from configuration parameters
+---> The original commit sha is - 7fc3ed6d4eeb8adc9977cf889b4fa9b4d28384c7
+Commit message - Merge pull request #1303 from yous/patch-line-length
+
+Keep line length to 80
+---> The files with partial_reverts are:-
+config/default.yml
+spec/rubocop/cop/commissioner_spec.rb
+spec/rubocop/cop/lint/block_alignment_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ 6f185a0866334f69d2d9d03b5b76dd47db1f58b5 -> 8fd89a1e9f40fb835e8d86e83bbbfbb328b30a41 } is a revert
+{ 3c44b4f16dd7d22f32d9ad48bad3ec608e8df859 -> 20426602bb0abb647b1e021a5c31ab18191c4206 }
+Partial Revert commits SHA are -> 
+8fd89a1e9f40fb835e8d86e83bbbfbb328b30a41 - revert - 20426602bb0abb647b1e021a5c31ab18191c4206
+---> The reverted commit sha is - 8fd89a1e9f40fb835e8d86e83bbbfbb328b30a41
+Commit message - Add auto-correct to InfiniteLoop
+---> The original commit sha is - 20426602bb0abb647b1e021a5c31ab18191c4206
+Commit message - Merge pull request #1302 from yous/patch-new-line
+
+Force to use array join for `\n` in string
+---> The files with partial_reverts are:-
+spec/rubocop/cli_spec.rb
+spec/rubocop/cop/style/braces_around_hash_parameters_spec.rb
+spec/rubocop/cop/style/def_with_parentheses_spec.rb
+spec/rubocop/cop/style/method_def_parentheses_spec.rb
+spec/rubocop/cop/style/multiline_if_then_spec.rb
+spec/rubocop/cop/style/percent_literal_delimiters_spec.rb
+spec/rubocop/cop/style/trailing_whitespace_spec.rb
+spec/rubocop/cop/style/when_then_spec.rb
+spec/rubocop/cop/style/while_until_do_spec.rb
+spec/rubocop/formatter/emacs_style_formatter_spec.rb
+spec/rubocop/formatter/simple_text_formatter_spec.rb
+spec/rubocop/path_util_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 1fc896fd5f9e2fe79aa71b03feb18f61a1f5ca98 -> a78ab6a33222debcfac60cefb9269cc31a7162d3 } is a revert
+{ b5a1fd8a7d97d94c51171bfb4e639ad4d51f90ad -> 32139fd6a6485d3311f462f07a3925d6d7eeaf52 }
+Partial Revert commits SHA are -> 
+a78ab6a33222debcfac60cefb9269cc31a7162d3 - revert - 32139fd6a6485d3311f462f07a3925d6d7eeaf52
+---> The reverted commit sha is - a78ab6a33222debcfac60cefb9269cc31a7162d3
+Commit message - Merge pull request #1297 from yous/patch-line-length
+
+Keep line length to 80
+---> The original commit sha is - 32139fd6a6485d3311f462f07a3925d6d7eeaf52
+Commit message - Merge pull request #1296 from yous/patch-tab-auto-correct
+
+Tab cop does auto-correction
+---> The files with partial_reverts are:-
+CHANGELOG.md
+lib/rubocop/cop/style/tab.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cop/style/tab_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ 5a5215ba005e36101831cb80a0951647b6f7b34b -> 1db0a0ab4be3d74259807e85efb65eb19a659b22 } is a revert
+{ 1db0a0ab4be3d74259807e85efb65eb19a659b22 -> 5d1bf0ff64d8254b33cf0a10ad7a4b19c4de6b1e }
+Partial Revert commits SHA are -> 
+1db0a0ab4be3d74259807e85efb65eb19a659b22 - revert - 5d1bf0ff64d8254b33cf0a10ad7a4b19c4de6b1e
+---> The reverted commit sha is - 1db0a0ab4be3d74259807e85efb65eb19a659b22
+Commit message - Ignore block-pass in `TrailingComma`
+
+Trailing commas after a block-pass are a parse error, so we must
+special-case them.
+---> The original commit sha is - 5d1bf0ff64d8254b33cf0a10ad7a4b19c4de6b1e
+Commit message - Merge pull request #1256 from tamird/trailing-commas-block
+
+Ignore block-pass in `TrailingComma`
+---> The files with partial_reverts are:-
+rubocop.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ 612976a12d513c08ea114bc95fbd3306c604852a -> 4c0c73cc0428d8106b9cc6aabacb9678c13a61b4 } is a revert
+{ 4c0c73cc0428d8106b9cc6aabacb9678c13a61b4 -> 6a473b477799dff15569caeb4b0fa01bf5567958 }
+Partial Revert commits SHA are -> 
+4c0c73cc0428d8106b9cc6aabacb9678c13a61b4 - revert - 6a473b477799dff15569caeb4b0fa01bf5567958
+---> The reverted commit sha is - 4c0c73cc0428d8106b9cc6aabacb9678c13a61b4
+Commit message - Fix problem with Psych::ENGINE for ruby-head
+---> The original commit sha is - 6a473b477799dff15569caeb4b0fa01bf5567958
+Commit message - Merge pull request #1248 from jonas054/fix_yaml_engine_problem
+
+Fix problem with Psych::ENGINE for ruby-head
+---> The files with partial_reverts are:-
+CHANGELOG.md
+config/default.yml
+lib/rubocop/cop/rails/output.rb
+lib/rubocop/cop/style/multiline_block_layout.rb
+lib/rubocop/cop/style/next.rb
+spec/rubocop/cop/rails/output_spec.rb
+spec/rubocop/cop/style/guard_clause_spec.rb
+spec/rubocop/cop/style/multiline_block_layout_spec.rb
+spec/rubocop/cop/style/next_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ 06959abcfd291694f16b305e6b0f74dd6d6f2216 -> 93ea08babb796f96949c7ccab9017f2e9a49835e } is a revert
+{ d12dcd86161d83bfa40712284f9421aa0e2dd2ba -> 1da68775b22d4020534e75571aa8cb6d2075dd1f }
+Partial Revert commits SHA are -> 
+93ea08babb796f96949c7ccab9017f2e9a49835e - revert - 1da68775b22d4020534e75571aa8cb6d2075dd1f
+---> The reverted commit sha is - 93ea08babb796f96949c7ccab9017f2e9a49835e
+Commit message - [Fix #1227] Don't permanently change yamler
+
+It can affect other apps. So we still change it to avoid
+problems with empty yml files, but we change it back.
+---> The original commit sha is - 1da68775b22d4020534e75571aa8cb6d2075dd1f
+Commit message - Merge pull request #1236 from vrthra/fix/1232/configurable_andor
+
+[Fix #1232] make the behavior of AndOr cop configurable
+---> The files with partial_reverts are:-
+config/default.yml
+lib/rubocop/cop/style/and_or.rb
+spec/rubocop/cop/style/and_or_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ fd2c26fbbd1998aee6851e89fc7043056f0fa831 -> 9548befeec193d16d39a576d7744bb3bc3c831ec } is a revert
+{ 9548befeec193d16d39a576d7744bb3bc3c831ec -> 3161d58f03195257f6e409b273cc4180c3ee97c4 }
+Partial Revert commits SHA are -> 
+9548befeec193d16d39a576d7744bb3bc3c831ec - revert - 3161d58f03195257f6e409b273cc4180c3ee97c4
+---> The reverted commit sha is - 9548befeec193d16d39a576d7744bb3bc3c831ec
+Commit message - Mention that the README tracks the master branch
+---> The original commit sha is - 3161d58f03195257f6e409b273cc4180c3ee97c4
+Commit message - Merge pull request #1237 from yous/patch-pry-remote
+
+Make Debugger cop also check for `binding.pry_remote`
+---> The files with partial_reverts are:-
+CHANGELOG.md
+lib/rubocop/cop/lint/debugger.rb
+spec/rubocop/cop/lint/debugger_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ 50ec93b99f6859cdea50594d466fc1307c05b97d -> 447eaa64a594f72ee03e3492b4b706a32528af97 } is a revert
+{ 447eaa64a594f72ee03e3492b4b706a32528af97 -> 3fa85a3c637fc4298205e45e7ab4d543f4bb7de2 }
+Partial Revert commits SHA are -> 
+447eaa64a594f72ee03e3492b4b706a32528af97 - revert - 3fa85a3c637fc4298205e45e7ab4d543f4bb7de2
+---> The reverted commit sha is - 447eaa64a594f72ee03e3492b4b706a32528af97
+Commit message - `Style::EmptyLinesAroundAccessModifier` cop does auto-correction.
+---> The original commit sha is - 3fa85a3c637fc4298205e45e7ab4d543f4bb7de2
+Commit message - Merge pull request #1217 from tamird/trailing-comma-autocorrect
+
+`Style::EmptyLinesAroundAccessModifier` cop does auto-correction.
+---> The files with partial_reverts are:-
+lib/rubocop/cop/ignored_node.rb
+lib/rubocop/cop/mixin/string_help.rb
+lib/rubocop/cop/style/string_literals.rb
+lib/rubocop/cop/style/unneeded_percent_q.rb
+spec/rubocop/cop/style/unneeded_percent_q_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ 8aef42b85c438a2b8d57b7faffb45361f5d266cf -> 81b8f9cc8aca95db2e77d681d0535d00093bc732 } is a revert
+{ 81b8f9cc8aca95db2e77d681d0535d00093bc732 -> 834328c4da6734baca40beff345422eab1d37ae3 }
+Partial Revert commits SHA are -> 
+81b8f9cc8aca95db2e77d681d0535d00093bc732 - revert - 834328c4da6734baca40beff345422eab1d37ae3
+---> The reverted commit sha is - 81b8f9cc8aca95db2e77d681d0535d00093bc732
+Commit message - Fix error at anonymous keyword splat arguments
+
+This fixes #1201.
+---> The original commit sha is - 834328c4da6734baca40beff345422eab1d37ae3
+Commit message - Merge pull request #1206 from yujinakayama/fix-error-at-anonymous-keyword-splat-arg
+
+Fix error at anonymous keyword splat arguments
+---> The files with partial_reverts are:-
+config/default.yml
+config/enabled.yml
+lib/rubocop.rb
+lib/rubocop/cop/mixin/percent_literal.rb
+lib/rubocop/cop/style/percent_literal_delimiters.rb
+lib/rubocop/cop/style/percent_q_literals.rb
+lib/rubocop/cop/style/unneeded_capital_w.rb
+spec/rubocop/cop/style/percent_q_literals_spec.rb
+spec/rubocop/cop/style/unneeded_percent_q_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ fa0fd479ac614d9c1f9cd91a85242ef2b1db8190 -> f8e0329ddb5f379a81d88ab49707304ee5e12a1d } is a revert
+{ f8e0329ddb5f379a81d88ab49707304ee5e12a1d -> 3f7fec39a9a5b0c0e773ed6208064106ed705a7b }
+Partial Revert commits SHA are -> 
+f8e0329ddb5f379a81d88ab49707304ee5e12a1d - revert - 3f7fec39a9a5b0c0e773ed6208064106ed705a7b
+---> The reverted commit sha is - f8e0329ddb5f379a81d88ab49707304ee5e12a1d
+Commit message - Merge pull request #1196 from yous/patch-documentation
+
+Keep line length to 80, fix typo and remove trailing whitespace
+---> The original commit sha is - 3f7fec39a9a5b0c0e773ed6208064106ed705a7b
+Commit message - Merge pull request #1198 from jonas054/1197_space_before_pipe
+
+[Fix #1197] Deal with new lambda syntax in SpaceInsideBlockBraces
+---> The files with partial_reverts are:-
+CHANGELOG.md
+lib/rubocop/cop/style/space_inside_block_braces.rb
+spec/rubocop/cop/style/space_inside_block_braces_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ ccb943d71d0cfded96979fed66118be1b8030030 -> 862a3c9984414b47b9eb73934083eeaafe48f70f } is a revert
+{ 862a3c9984414b47b9eb73934083eeaafe48f70f -> bb0875686a1d61ed075159dd0cac55f8b0dbc2eb }
+Partial Revert commits SHA are -> 
+862a3c9984414b47b9eb73934083eeaafe48f70f - revert - bb0875686a1d61ed075159dd0cac55f8b0dbc2eb
+---> The reverted commit sha is - 862a3c9984414b47b9eb73934083eeaafe48f70f
+Commit message - Minor refactoring in ProcessedSource
+---> The original commit sha is - bb0875686a1d61ed075159dd0cac55f8b0dbc2eb
+Commit message - Merge pull request #1182 from jonas054/1157_only_vs_require
+
+[Fix #1157] Validate --only arguments later
+---> The files with partial_reverts are:-
+CHANGELOG.md
+lib/rubocop/options.rb
+lib/rubocop/runner.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/options_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ 5c0b578a60e73f530a59d8c885ec38c0ab6c86bf -> 4a202398cb5554b41efcd5e2e58aa2856f7de3d5 } is a revert
+{ 4a202398cb5554b41efcd5e2e58aa2856f7de3d5 -> 9ba685411b3429e8aafd2dfc724f9be7c8c4fece }
+Partial Revert commits SHA are -> 
+4a202398cb5554b41efcd5e2e58aa2856f7de3d5 - revert - 9ba685411b3429e8aafd2dfc724f9be7c8c4fece
+---> The reverted commit sha is - 4a202398cb5554b41efcd5e2e58aa2856f7de3d5
+Commit message - Merge pull request #1171 from yujinakayama/allow-uri-in-line-length
+
+Add AllowURI option to LineLength cop
+---> The original commit sha is - 9ba685411b3429e8aafd2dfc724f9be7c8c4fece
+Commit message - Merge pull request #1172 from jonas054/1165_rescue_indentation
+
+Add support for checking rescue indentation
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/indentation_width.rb
+spec/rubocop/cop/style/indentation_width_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ 67a68c498494a6884c4144d622ba3aa10a6756ea -> 32f58361d4adb837e8331a6e1f4261fe2ea3f493 } is a revert
+{ 32f58361d4adb837e8331a6e1f4261fe2ea3f493 -> 6555bfa6da5d72181992dcc8cbcf4cec875d2941 }
+Partial Revert commits SHA are -> 
+32f58361d4adb837e8331a6e1f4261fe2ea3f493 - revert - 6555bfa6da5d72181992dcc8cbcf4cec875d2941
+---> The reverted commit sha is - 32f58361d4adb837e8331a6e1f4261fe2ea3f493
+Commit message - New cops SpaceBeforeComma and SpaceBeforeSemicolon
+---> The original commit sha is - 6555bfa6da5d72181992dcc8cbcf4cec875d2941
+Commit message - Merge pull request #1161 from agrimm/space_before_punctuation
+
+New cops SpaceBeforeComma and SpaceBeforeSemicolon
+---> The files with partial_reverts are:-
+CONTRIBUTING.md
+config/default.yml
+spec/rubocop/cop/style/align_hash_spec.rb
+spec/rubocop/cop/style/align_parameters_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ 822a1f1fc870a0c6aa6f90d9f6339d07c25504b4 -> ddef20cf62d8d99ffff696ffa6ad7c821969386e } is a revert
+{ 40a1c7e44efda1b0d893cb38a9996e0ade333e8e -> 596531b76e7c5977c19e6298c7fad9e763825f82 }
+Partial Revert commits SHA are -> 
+ddef20cf62d8d99ffff696ffa6ad7c821969386e - revert - 596531b76e7c5977c19e6298c7fad9e763825f82
+---> The reverted commit sha is - ddef20cf62d8d99ffff696ffa6ad7c821969386e
+Commit message - Fall back to Ruby 2.1 parser if current Ruby runtime is not supported
+---> The original commit sha is - 596531b76e7c5977c19e6298c7fad9e763825f82
+Commit message - Merge pull request #1150 from jonas054/1141_clarify_trailing_comma
+
+[Fix #1141] Clarify why trailing comma is not allowed
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ b05c98968385c433ca2d87683789f1b27798f367 -> a8d50670423de133a03151dace9b35b5cf91b56c } is a revert
+{ 40a1c7e44efda1b0d893cb38a9996e0ade333e8e -> 596531b76e7c5977c19e6298c7fad9e763825f82 }
+Partial Revert commits SHA are -> 
+a8d50670423de133a03151dace9b35b5cf91b56c - revert - 596531b76e7c5977c19e6298c7fad9e763825f82
+---> The reverted commit sha is - a8d50670423de133a03151dace9b35b5cf91b56c
+Commit message - Fix `Delegate` handling of delegators with arguments
+---> The original commit sha is - 596531b76e7c5977c19e6298c7fad9e763825f82
+Commit message - Merge pull request #1150 from jonas054/1141_clarify_trailing_comma
+
+[Fix #1141] Clarify why trailing comma is not allowed
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ 5bbcad5aee6ec621c83638ea714289e2e55f406b -> 40a1c7e44efda1b0d893cb38a9996e0ade333e8e } is a revert
+{ 40a1c7e44efda1b0d893cb38a9996e0ade333e8e -> 596531b76e7c5977c19e6298c7fad9e763825f82 }
+Partial Revert commits SHA are -> 
+40a1c7e44efda1b0d893cb38a9996e0ade333e8e - revert - 596531b76e7c5977c19e6298c7fad9e763825f82
+---> The reverted commit sha is - 40a1c7e44efda1b0d893cb38a9996e0ade333e8e
+Commit message - [Fix #1141] Clarify why trailing comma is not allowed
+
+For lists where some values share a line it is unclear why a comma
+is not allowed, unless we state it in the message.
+---> The original commit sha is - 596531b76e7c5977c19e6298c7fad9e763825f82
+Commit message - Merge pull request #1150 from jonas054/1141_clarify_trailing_comma
+
+[Fix #1141] Clarify why trailing comma is not allowed
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ 822a1f1fc870a0c6aa6f90d9f6339d07c25504b4 -> ddef20cf62d8d99ffff696ffa6ad7c821969386e } is a revert
+{ cfc2a31741b0f32d03907d8d9b5169290f7b8f29 -> 5bbcad5aee6ec621c83638ea714289e2e55f406b }
+Partial Revert commits SHA are -> 
+ddef20cf62d8d99ffff696ffa6ad7c821969386e - revert - 5bbcad5aee6ec621c83638ea714289e2e55f406b
+---> The reverted commit sha is - ddef20cf62d8d99ffff696ffa6ad7c821969386e
+Commit message - Fall back to Ruby 2.1 parser if current Ruby runtime is not supported
+---> The original commit sha is - 5bbcad5aee6ec621c83638ea714289e2e55f406b
+Commit message - Revert "Revert "Remove Parser fallback code""
+
+This reverts commit fcfcfe178cb7579e3a4ede1523c6ee982efcb928.
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ b05c98968385c433ca2d87683789f1b27798f367 -> a8d50670423de133a03151dace9b35b5cf91b56c } is a revert
+{ cfc2a31741b0f32d03907d8d9b5169290f7b8f29 -> 5bbcad5aee6ec621c83638ea714289e2e55f406b }
+Partial Revert commits SHA are -> 
+a8d50670423de133a03151dace9b35b5cf91b56c - revert - 5bbcad5aee6ec621c83638ea714289e2e55f406b
+---> The reverted commit sha is - a8d50670423de133a03151dace9b35b5cf91b56c
+Commit message - Fix `Delegate` handling of delegators with arguments
+---> The original commit sha is - 5bbcad5aee6ec621c83638ea714289e2e55f406b
+Commit message - Revert "Revert "Remove Parser fallback code""
+
+This reverts commit fcfcfe178cb7579e3a4ede1523c6ee982efcb928.
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ cce98745901100f30e53cb81d53a981c72e21b50 -> f73800983b7dadcaf4574ee9060eeccc22ea3b4c } is a revert
+{ cbbaae10b1be8055464f4edab2af41b4d040824c -> 282b5f1dd6a71b1385cc1b3c004eec27d5fbaff5 }
+Partial Revert commits SHA are -> 
+f73800983b7dadcaf4574ee9060eeccc22ea3b4c - revert - 282b5f1dd6a71b1385cc1b3c004eec27d5fbaff5
+---> The reverted commit sha is - f73800983b7dadcaf4574ee9060eeccc22ea3b4c
+Commit message - Fix bug with --auto-gen-config and RegexpLiteral
+
+The `RegexpLiteral` cop stores a running tally of slashes found inside
+regular expressions, which it uses to determine whether the
+auto-generated config should disable the cop completely, or just specify
+the maximum number of slashes to make the cop pass.
+
+Previously this tally was stored in an instance variable. However, this
+doesn't work when run against a project with multiple files, because a
+new instance of the cop is created for each file. Thus, we need to store
+the running tally in a class-level variable.
+---> The original commit sha is - 282b5f1dd6a71b1385cc1b3c004eec27d5fbaff5
+Commit message - Merge pull request #1124 from ggilder/ggilder/autocorrect-class-accessors
+
+Auto-correct class-level trivial accessors
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/trivial_accessors.rb
+spec/rubocop/cop/style/trivial_accessors_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ f73800983b7dadcaf4574ee9060eeccc22ea3b4c -> 2241b9b12e8d95634a1aadf75261619ebc164bcf } is a revert
+{ ff167d8f202baf7a68955db0aaf0dc29afb7e7ee -> b66fb66b6e4682f8492c35e6bc0bdc55738f05b5 }
+Partial Revert commits SHA are -> 
+2241b9b12e8d95634a1aadf75261619ebc164bcf - revert - b66fb66b6e4682f8492c35e6bc0bdc55738f05b5
+---> The reverted commit sha is - 2241b9b12e8d95634a1aadf75261619ebc164bcf
+Commit message - [Fix #1123] Setter calls in safe assignment
+
+Support if (a.b = x).
+---> The original commit sha is - b66fb66b6e4682f8492c35e6bc0bdc55738f05b5
+Commit message - Merge pull request #1126 from ggilder/ggilder/fix-regexp-literal-auto-gen
+
+Fix bug with --auto-gen-config and RegexpLiteral
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/regexp_literal.rb
+spec/rubocop/cop/style/regexp_literal_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ e0cd9b6d9aa2d9d4eb78bea73e805f111ffa9f54 -> c05c739585a1c1fafc5e4f90662f2800cb665a5a } is a revert
+{ 51f80961d06c6ae1afa24b6806b3b0ebd9992cc9 -> 0fb3e60f595c0489d3db3f701808884e16d8b217 }
+Partial Revert commits SHA are -> 
+c05c739585a1c1fafc5e4f90662f2800cb665a5a - revert - 0fb3e60f595c0489d3db3f701808884e16d8b217
+---> The reverted commit sha is - c05c739585a1c1fafc5e4f90662f2800cb665a5a
+Commit message - [Fix #1106] EachWithObject with method call body
+---> The original commit sha is - 0fb3e60f595c0489d3db3f701808884e16d8b217
+Commit message - Merge pull request #1107 from jonas054/fix_fail_fast
+
+Remove unnecessary hash merge in TargetFinder
+---> The files with partial_reverts are:-
+lib/rubocop/target_finder.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ 49ab420a919fb6f3baa31123b367ef7d9ba1cea2 -> 5ae2530d749936e3403638040ce51e32820f2832 } is a revert
+{ 5ae2530d749936e3403638040ce51e32820f2832 -> 395a0f8ff27e4274860d940c107a6724f7d8090f }
+Partial Revert commits SHA are -> 
+5ae2530d749936e3403638040ce51e32820f2832 - revert - 395a0f8ff27e4274860d940c107a6724f7d8090f
+---> The reverted commit sha is - 5ae2530d749936e3403638040ce51e32820f2832
+Commit message - Merge pull request #1095 from geniou/rspec_cleanup
+
+Cleanup specs
+---> The original commit sha is - 395a0f8ff27e4274860d940c107a6724f7d8090f
+Commit message - Merge pull request #1096 from geniou/class_and_module_children_single_method
+
+[Fixes #1094] Fix bug in ClassAndModuleChildren
+---> The files with partial_reverts are:-
+CHANGELOG.md
+lib/rubocop/cop/style/class_and_module_children.rb
+spec/rubocop/cop/style/class_and_module_children_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ 5a6d08f8a27a69d4fc0beec71b9e47cc1e70f963 -> 840ff7c3ab2d84e8b6b62ffa430b4baa9441cda6 } is a revert
+{ 840ff7c3ab2d84e8b6b62ffa430b4baa9441cda6 -> 8117fa26500fe45721f8d494b63cce808629f2ef }
+Partial Revert commits SHA are -> 
+840ff7c3ab2d84e8b6b62ffa430b4baa9441cda6 - revert - 8117fa26500fe45721f8d494b63cce808629f2ef
+---> The reverted commit sha is - 840ff7c3ab2d84e8b6b62ffa430b4baa9441cda6
+Commit message - Fix Exclude configuration not working on Windows
+
+Check for an absolute in Windows style to avoid prefixing it with the
+current directory.
+---> The original commit sha is - 8117fa26500fe45721f8d494b63cce808629f2ef
+Commit message - Merge pull request #1076 from wndhydrnt/b-windows-exclude
+
+Fix Exclude configuration not working on Windows
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/self_assignment.rb
+spec/rubocop/cop/style/self_assignment_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ c993f98b4ff677f997c0ea062787695865a2499c -> 6d469dba1b4c7c4650973317edfd31550345aca9 } is a revert
+{ fa24e96ee26abdb10911ad419c17a672f5c2e26f -> 6b07fa5fe41e078f206bf3cdf6ab3b963479b826 }
+Partial Revert commits SHA are -> 
+6d469dba1b4c7c4650973317edfd31550345aca9 - revert - 6b07fa5fe41e078f206bf3cdf6ab3b963479b826
+---> The reverted commit sha is - 6d469dba1b4c7c4650973317edfd31550345aca9
+Commit message - Merge pull request #1073 from molawson/multiline-param-alignment
+
+Fix AlignParameters for multi-line method calls
+---> The original commit sha is - 6b07fa5fe41e078f206bf3cdf6ab3b963479b826
+Commit message - Merge pull request #1072 from hannestyden/unused-argument-auto-correct
+
+Add auto-correct to unused argument cops
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+lib/rubocop/cop/lint/unused_block_argument.rb
+lib/rubocop/cop/lint/unused_method_argument.rb
+lib/rubocop/cop/mixin/unused_argument.rb
+spec/rubocop/cop/lint/unused_block_argument_spec.rb
+spec/rubocop/cop/lint/unused_method_argument_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ a8d50670423de133a03151dace9b35b5cf91b56c -> aceeba488613679b7b12bb6c0236ead47d3be73c } is a revert
+{ 3f155817193a927d1808790b29f7b21e71036b75 -> fcfcfe178cb7579e3a4ede1523c6ee982efcb928 }
+Partial Revert commits SHA are -> 
+aceeba488613679b7b12bb6c0236ead47d3be73c - revert - fcfcfe178cb7579e3a4ede1523c6ee982efcb928
+---> The reverted commit sha is - aceeba488613679b7b12bb6c0236ead47d3be73c
+Commit message - Merge pull request #1024 from tamird/delegate-arguments
+
+Fix `Delegate` handling of delegators with arguments
+---> The original commit sha is - fcfcfe178cb7579e3a4ede1523c6ee982efcb928
+Commit message - Revert "Remove Parser fallback code"
+
+This reverts commit b05c98968385c433ca2d87683789f1b27798f367.
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ 0872205506e1bc12388b4ea7791cabb77b7845a2 -> c300552a21033fbdb7aa2ab06772a20f250afb1e } is a revert
+{ c300552a21033fbdb7aa2ab06772a20f250afb1e -> ad2fe4864ebd182c51f880dbb531fe825afaa7bf }
+Partial Revert commits SHA are -> 
+c300552a21033fbdb7aa2ab06772a20f250afb1e - revert - ad2fe4864ebd182c51f880dbb531fe825afaa7bf
+---> The reverted commit sha is - c300552a21033fbdb7aa2ab06772a20f250afb1e
+Commit message - Merge pull request #1048 from geniou/guard_clause
+
+Add check for unless to GuardClause and make one-line body configurable
+---> The original commit sha is - ad2fe4864ebd182c51f880dbb531fe825afaa7bf
+Commit message - Merge pull request #1047 from hannestyden/stabilize-semantics-of-non-nil-check-autocorrect
+
+Stabilize semantics of NonNilCheck autocorrect
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/non_nil_check.rb
+spec/rubocop/cop/style/non_nil_check_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ b05c98968385c433ca2d87683789f1b27798f367 -> a8d50670423de133a03151dace9b35b5cf91b56c } is a revert
+{ a8d50670423de133a03151dace9b35b5cf91b56c -> aceeba488613679b7b12bb6c0236ead47d3be73c }
+Partial Revert commits SHA are -> 
+a8d50670423de133a03151dace9b35b5cf91b56c - revert - aceeba488613679b7b12bb6c0236ead47d3be73c
+---> The reverted commit sha is - a8d50670423de133a03151dace9b35b5cf91b56c
+Commit message - Fix `Delegate` handling of delegators with arguments
+---> The original commit sha is - aceeba488613679b7b12bb6c0236ead47d3be73c
+Commit message - Merge pull request #1024 from tamird/delegate-arguments
+
+Fix `Delegate` handling of delegators with arguments
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+rubocop.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ 822a1f1fc870a0c6aa6f90d9f6339d07c25504b4 -> ddef20cf62d8d99ffff696ffa6ad7c821969386e } is a revert
+{ 88d37dddccb4d46c2ad4578e02dc771e8eaf6735 -> b05c98968385c433ca2d87683789f1b27798f367 }
+Partial Revert commits SHA are -> 
+ddef20cf62d8d99ffff696ffa6ad7c821969386e - revert - b05c98968385c433ca2d87683789f1b27798f367
+---> The reverted commit sha is - ddef20cf62d8d99ffff696ffa6ad7c821969386e
+Commit message - Fall back to Ruby 2.1 parser if current Ruby runtime is not supported
+---> The original commit sha is - b05c98968385c433ca2d87683789f1b27798f367
+Commit message - Remove Parser fallback code
+
+Parser 2.1.9 features similar fallback code, so ours is redundant.
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ 03625b4fa55e83ab9558dcb92f2e16ad0401a589 -> ea0489d6fc18b08ee8b089fb54de45384633eb81 } is a revert
+{ caba99454810108273097e96d6f1b3793671429d -> f8c95a8f6f1938b011450316ea497aa4678bbc40 }
+Partial Revert commits SHA are -> 
+ea0489d6fc18b08ee8b089fb54de45384633eb81 - revert - f8c95a8f6f1938b011450316ea497aa4678bbc40
+---> The reverted commit sha is - ea0489d6fc18b08ee8b089fb54de45384633eb81
+Commit message - New Rails cop `Delegate` - checks for delegations
+
+Prefer delegate method for delegations
+---> The original commit sha is - f8c95a8f6f1938b011450316ea497aa4678bbc40
+Commit message - Merge pull request #1021 from tamird/fix-deprecation-warnings
+
+Use new style globbing in default config
+---> The files with partial_reverts are:-
+config/default.yml
+lib/rubocop/path_util.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/config_spec.rb
+spec/rubocop/cop/cop_spec.rb
+spec/rubocop/cop/lint/invalid_character_literal_spec.rb
+spec/rubocop/cop/lint/useless_assignment_spec.rb
+spec/rubocop/path_util_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ 9e6d8f955a6bd169f81858ecb5ec3cf6a1ab31e8 -> 7fbf14f83e8631344ce95e1f8d8f7419e2421567 } is a revert
+{ ea9314c005f3e740b08d1984e313c8810c217dfd -> f6b3ba2db70388c6ac1e8fc6a7fc3dacfad82c79 }
+Partial Revert commits SHA are -> 
+7fbf14f83e8631344ce95e1f8d8f7419e2421567 - revert - f6b3ba2db70388c6ac1e8fc6a7fc3dacfad82c79
+---> The reverted commit sha is - 7fbf14f83e8631344ce95e1f8d8f7419e2421567
+Commit message - [Refactor] Move methods from ConfigLoader to Config
+
+Takes care of the code smell "Feature Envy" in ConfigLoader and
+makes it smaller. Two birds with one stone.
+---> The original commit sha is - f6b3ba2db70388c6ac1e8fc6a7fc3dacfad82c79
+Commit message - [Refactor] Extract module OptionsHelp from Options
+
+Put all help texts in one place.
+---> The files with partial_reverts are:-
+rubocop-todo.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ f058e5314061dc0c3339d841a9b07c63bdb805a4 -> ba171d315dd8a6b1ce2659e8e52db203b595d671 } is a revert
+{ 4342d30f717422a89faeefb9ed9be6380a95069a -> 8864536ff19a56e4438b895945efb7e8483920ee }
+Partial Revert commits SHA are -> 
+ba171d315dd8a6b1ce2659e8e52db203b595d671 - revert - 8864536ff19a56e4438b895945efb7e8483920ee
+---> The reverted commit sha is - ba171d315dd8a6b1ce2659e8e52db203b595d671
+Commit message - New cop FinalNewline
+---> The original commit sha is - 8864536ff19a56e4438b895945efb7e8483920ee
+Commit message - Remove FinalNewline cop
+
+It is no longer needed. The same check is done by TrailingBlankLines.
+---> The files with partial_reverts are:-
+config/enabled.yml
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ 295d0879ddd43960f77b98506607ea9b343bfd8d -> c67eae2430216fc94f3285a0db49d49047323ec1 } is a revert
+{ 0f3f6cdc8e798b0ff5b8c12bcf31618c98e12844 -> e01dede11a64d64f2ee9435e10ed3ec486c2bcc8 }
+Partial Revert commits SHA are -> 
+c67eae2430216fc94f3285a0db49d49047323ec1 - revert - e01dede11a64d64f2ee9435e10ed3ec486c2bcc8
+---> The reverted commit sha is - c67eae2430216fc94f3285a0db49d49047323ec1
+Commit message - Merge pull request #983 from jonas054/fix_infinite_correction
+
+Fix infinite correction in IndentationWidth
+---> The original commit sha is - e01dede11a64d64f2ee9435e10ed3ec486c2bcc8
+Commit message - Merge pull request #985 from yujinakayama/fix-underscore-prefixed-variable-name-with-zsuper
+
+Fix false positive with zero-arity super in UnderscorePrefixedVariableName
+---> The files with partial_reverts are:-
+config/enabled.yml
+lib/rubocop/cop/style/line_end_concatenation.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ 295d0879ddd43960f77b98506607ea9b343bfd8d -> c67eae2430216fc94f3285a0db49d49047323ec1 } is a revert
+{ c67eae2430216fc94f3285a0db49d49047323ec1 -> 10154f7dc94f47e3850030047be3493b673dd5fa }
+Partial Revert commits SHA are -> 
+c67eae2430216fc94f3285a0db49d49047323ec1 - revert - 10154f7dc94f47e3850030047be3493b673dd5fa
+---> The reverted commit sha is - c67eae2430216fc94f3285a0db49d49047323ec1
+Commit message - Merge pull request #983 from jonas054/fix_infinite_correction
+
+Fix infinite correction in IndentationWidth
+---> The original commit sha is - 10154f7dc94f47e3850030047be3493b673dd5fa
+Commit message - Merge pull request #984 from mockdeep/concat_desc
+
+update LineEndConcatenation description
+---> The files with partial_reverts are:-
+config/enabled.yml
+lib/rubocop/cop/style/line_end_concatenation.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 46 is -> 
+{ b694498528413c79e2a34e36ee671687f0ec559a -> 1152cd097d1b98ef6b839d6e4cfb67c0bb373b30 } is a revert
+{ 1152cd097d1b98ef6b839d6e4cfb67c0bb373b30 -> c80d3f26fe58b05815a88f23bb35b17844250dff }
+Partial Revert commits SHA are -> 
+1152cd097d1b98ef6b839d6e4cfb67c0bb373b30 - revert - c80d3f26fe58b05815a88f23bb35b17844250dff
+---> The reverted commit sha is - 1152cd097d1b98ef6b839d6e4cfb67c0bb373b30
+Commit message - [Fix #926] BlockNesting was not auto-generating correctly.
+---> The original commit sha is - c80d3f26fe58b05815a88f23bb35b17844250dff
+Commit message - Merge pull request #933 from tmorris-fiksu/block_nesting_squash
+
+[Fix #926] BlockNesting was not auto-generating correctly.
+---> The files with partial_reverts are:-
+config/enabled.yml
+lib/rubocop.rb
+lib/rubocop/comment_config.rb
+lib/rubocop/config_loader.rb
+lib/rubocop/cop/lint/assignment_in_condition.rb
+lib/rubocop/cop/lint/condition_position.rb
+lib/rubocop/cop/lint/debugger.rb
+lib/rubocop/cop/lint/deprecated_class_methods.rb
+lib/rubocop/cop/lint/else_layout.rb
+lib/rubocop/cop/lint/empty_ensure.rb
+lib/rubocop/cop/lint/end_in_method.rb
+lib/rubocop/cop/lint/ensure_return.rb
+lib/rubocop/cop/lint/eval.rb
+lib/rubocop/cop/lint/literal_in_condition.rb
+lib/rubocop/cop/lint/loop.rb
+lib/rubocop/cop/lint/rescue_exception.rb
+lib/rubocop/cop/lint/shadowing_outer_local_variable.rb
+lib/rubocop/cop/lint/string_conversion_in_interpolation.rb
+lib/rubocop/cop/lint/void.rb
+lib/rubocop/cop/style/array_join.rb
+lib/rubocop/cop/style/class_methods.rb
+lib/rubocop/cop/style/deprecated_hash_methods.rb
+lib/rubocop/cop/style/format_string.rb
+lib/rubocop/cop/style/hash_methods.rb
+lib/rubocop/cop/style/op_method.rb
+lib/rubocop/cop/style/unless_else.rb
+lib/rubocop/cop/style/variable_interpolation.rb
+lib/rubocop/cop/style/when_then.rb
+lib/rubocop/cop/team.rb
+lib/rubocop/file_inspector.rb
+lib/rubocop/formatter/disabled_config_formatter.rb
+lib/rubocop/formatter/disabled_lines_formatter.rb
+lib/rubocop/formatter/formatter_set.rb
+lib/rubocop/formatter/simple_text_formatter.rb
+lib/rubocop/options.rb
+lib/rubocop/processed_source.rb
+rubocop-todo.yml
+spec/rubocop/cli_spec.rb
+spec/rubocop/cop/lint/deprecated_class_methods_spec.rb
+spec/rubocop/cop/lint/eval_spec.rb
+spec/rubocop/cop/lint/rescue_exception_spec.rb
+spec/rubocop/cop/lint/shadowing_outer_local_variable_spec.rb
+spec/rubocop/cop/style/array_join_spec.rb
+spec/rubocop/cop/style/class_methods_spec.rb
+spec/rubocop/cop/style/deprecated_hash_methods_spec.rb
+spec/rubocop/cop/style/format_string_spec.rb
+spec/rubocop/cop/style/hash_methods_spec.rb
+spec/rubocop/cop/style/op_method_spec.rb
+spec/rubocop/cop/style/unless_else_spec.rb
+spec/rubocop/cop/style/variable_interpolation_spec.rb
+spec/rubocop/cop/style/when_then_spec.rb
+spec/rubocop/cop/team_spec.rb
+spec/rubocop/file_inspector_spec.rb
+spec/rubocop/formatter/disabled_config_formatter_spec.rb
+spec/rubocop/formatter/disabled_lines_formatter_spec.rb
+spec/rubocop/options_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 47 is -> 
+{ ea5c20d0755a92c5b05d45b105d9475e2bd8cd81 -> b8286613f3b820aec64b5a78f1cf80480e17686f } is a revert
+{ b8286613f3b820aec64b5a78f1cf80480e17686f -> 752d9039a9c072734ee71deec2c4ea6721a114db }
+Partial Revert commits SHA are -> 
+b8286613f3b820aec64b5a78f1cf80480e17686f - revert - 752d9039a9c072734ee71deec2c4ea6721a114db
+---> The reverted commit sha is - b8286613f3b820aec64b5a78f1cf80480e17686f
+Commit message - Merge pull request #900 from fshowalter/add_show_cops_disabled_by_comments
+
+add option to show cops disabed by inline comments
+---> The original commit sha is - 752d9039a9c072734ee71deec2c4ea6721a114db
+Commit message - Merge pull request #930 from tmorris-fiksu/rubocop_with_config_reword
+
+[Fix #928] re-word hint on using --config rubocop-todo.yml
+---> The files with partial_reverts are:-
+lib/rubocop/formatter/disabled_config_formatter.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/formatter/disabled_config_formatter_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ 623a886862f15083672057e4fe7a0665a9f7c912 -> 6d51a62017f0f6cb6954ff7276561b9f7ff69a75 } is a revert
+{ 4f7ef166cab6dc98bda8baab8f885e4f83d98efc -> 392f9c67e40ce4f3ca5814276d6fb7be8c86d24e }
+Partial Revert commits SHA are -> 
+6d51a62017f0f6cb6954ff7276561b9f7ff69a75 - revert - 392f9c67e40ce4f3ca5814276d6fb7be8c86d24e
+---> The reverted commit sha is - 6d51a62017f0f6cb6954ff7276561b9f7ff69a75
+Commit message - Remove a couple of redundant spec examples
+---> The original commit sha is - 392f9c67e40ce4f3ca5814276d6fb7be8c86d24e
+Commit message - Merge pull request #920 from jonas054/fix_only_hash_syntax_autocorrect
+
+[Fix #919] Remove auto-correct avoidance in HashSyntax
+---> The files with partial_reverts are:-
+CHANGELOG.md
+lib/rubocop/cop/style/hash_syntax.rb
+lib/rubocop/cop/style/space_around_operators.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cop/style/hash_syntax_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ e60949aae4ffa07b89d29f466a54ddc1a1d1ae63 -> 22e59ca5b82c2b5948d2e72bb08e8f9aa7c9498a } is a revert
+{ 22e59ca5b82c2b5948d2e72bb08e8f9aa7c9498a -> d24a1ebbb7352907b0acb27a2e5d9e5c943a42ac }
+Partial Revert commits SHA are -> 
+22e59ca5b82c2b5948d2e72bb08e8f9aa7c9498a - revert - d24a1ebbb7352907b0acb27a2e5d9e5c943a42ac
+---> The reverted commit sha is - 22e59ca5b82c2b5948d2e72bb08e8f9aa7c9498a
+Commit message - `FileName` accepts multiple extensions.
+---> The original commit sha is - d24a1ebbb7352907b0acb27a2e5d9e5c943a42ac
+Commit message - Merge pull request #913 from tamird/master
+
+`FileName` should accept multiple extensions
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/single_line_methods.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ 30cca761d1f19c0cde12ad4fee6265e63864eb43 -> 36b1176143ca86af28358cc619a7a749ff96b4b8 } is a revert
+{ d95fcf51aa61f107bbf1d5485fb284237f1b13f4 -> d685e267bf61eaaa039ef38d2b9fadd3af85fb39 }
+Partial Revert commits SHA are -> 
+36b1176143ca86af28358cc619a7a749ff96b4b8 - revert - d685e267bf61eaaa039ef38d2b9fadd3af85fb39
+---> The reverted commit sha is - 36b1176143ca86af28358cc619a7a749ff96b4b8
+Commit message - Allow to focus arbitrary spec with :focus metadata or #fit
+---> The original commit sha is - d685e267bf61eaaa039ef38d2b9fadd3af85fb39
+Commit message - Merge pull request #887 from tmorris-fiksu/numeric_literals_auto-gen_config_off_by_one_884
+
+[#884] Fix --auto-gen-config for `NumericLiterals` so MinDigits is correct.
+---> The files with partial_reverts are:-
+CHANGELOG.md
+lib/rubocop/cop/style/numeric_literals.rb
+spec/rubocop/cop/style/numeric_literals_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 51 is -> 
+{ 1f96ade0583b2c5664b11e830f2214b31e0e2032 -> dc841b9d03a43b2b88553f3bde2c99249de5306c } is a revert
+{ af39546186424f55a39a7fb1352d7a5b6e68c108 -> 6af896830edfeda2bc74e26665cba95b55bc90ee }
+Partial Revert commits SHA are -> 
+dc841b9d03a43b2b88553f3bde2c99249de5306c - revert - 6af896830edfeda2bc74e26665cba95b55bc90ee
+---> The reverted commit sha is - dc841b9d03a43b2b88553f3bde2c99249de5306c
+Commit message - remove fancy quote
+---> The original commit sha is - 6af896830edfeda2bc74e26665cba95b55bc90ee
+Commit message - Merge pull request #885 from jonas054/fix_align_indent_hash
+
+[Fix #875] Handle separator style hashes in IndentHash
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/indent_hash.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cop/style/indent_hash_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 52 is -> 
+{ 1f96ade0583b2c5664b11e830f2214b31e0e2032 -> dc841b9d03a43b2b88553f3bde2c99249de5306c } is a revert
+{ dc841b9d03a43b2b88553f3bde2c99249de5306c -> af39546186424f55a39a7fb1352d7a5b6e68c108 }
+Partial Revert commits SHA are -> 
+dc841b9d03a43b2b88553f3bde2c99249de5306c - revert - af39546186424f55a39a7fb1352d7a5b6e68c108
+---> The reverted commit sha is - dc841b9d03a43b2b88553f3bde2c99249de5306c
+Commit message - remove fancy quote
+---> The original commit sha is - af39546186424f55a39a7fb1352d7a5b6e68c108
+Commit message - Merge pull request #886 from tmorris-fiksu/remove-invalid-character-from-changelog
+
+remove fancy quote
+---> The files with partial_reverts are:-
+config/default.yml
+lib/rubocop/cop/style/regexp_literal.rb
+spec/rubocop/cop/style/regexp_literal_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 53 is -> 
+{ c2b3fb5e073824302e92678c598e43edf11e3d72 -> f051d5c2340777c24914f91ab08fdbc8c641c9a0 } is a revert
+{ f051d5c2340777c24914f91ab08fdbc8c641c9a0 -> 22e164ba953f668416b3f09e4e61b18d8a0e95f4 }
+Partial Revert commits SHA are -> 
+f051d5c2340777c24914f91ab08fdbc8c641c9a0 - revert - 22e164ba953f668416b3f09e4e61b18d8a0e95f4
+---> The reverted commit sha is - f051d5c2340777c24914f91ab08fdbc8c641c9a0
+Commit message - Merge pull request #873 from hiroponz/bug-hung-auto-correct
+
+Bug hang auto correct
+---> The original commit sha is - 22e164ba953f668416b3f09e4e61b18d8a0e95f4
+Commit message - Merge pull request #874 from yujinakayama/relax-filename
+
+Relax Filename cop
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/file_name.rb
+spec/rubocop/cop/style/file_name_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 54 is -> 
+{ 447bfe53f7776f0a8ef85ec2af5453a784d76af9 -> c2b3fb5e073824302e92678c598e43edf11e3d72 } is a revert
+{ c2b3fb5e073824302e92678c598e43edf11e3d72 -> f051d5c2340777c24914f91ab08fdbc8c641c9a0 }
+Partial Revert commits SHA are -> 
+c2b3fb5e073824302e92678c598e43edf11e3d72 - revert - f051d5c2340777c24914f91ab08fdbc8c641c9a0
+---> The reverted commit sha is - c2b3fb5e073824302e92678c598e43edf11e3d72
+Commit message - Accept non-rb extensions and file names specified in AllCops/Includes
+
+https://github.com/bbatsov/rubocop/commit/a0064f7ddd46573e8f59deda317403e880239f53#commitcomment-5664681
+---> The original commit sha is - f051d5c2340777c24914f91ab08fdbc8c641c9a0
+Commit message - Merge pull request #873 from hiroponz/bug-hung-auto-correct
+
+Bug hang auto correct
+---> The files with partial_reverts are:-
+lib/rubocop/cop/mixin/space_after_punctuation.rb
+lib/rubocop/cop/style/file_name.rb
+spec/rubocop/cop/style/file_name_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 55 is -> 
+{ 591d45f1fada6df29d77976a735606f7e682d71a -> 82e37174390c0276676e2e9e0b2abcd05c05469a } is a revert
+{ 37b6bce8b23e16e521b9e281b116a25c275b0966 -> 830bd6595af376ebfc234b0a5bded80b59f888ef }
+Partial Revert commits SHA are -> 
+82e37174390c0276676e2e9e0b2abcd05c05469a - revert - 830bd6595af376ebfc234b0a5bded80b59f888ef
+---> The reverted commit sha is - 82e37174390c0276676e2e9e0b2abcd05c05469a
+Commit message - Add ClassAndModuleChildren cop
+
+Checks nested or compact style for children classes and modules.
+---> The original commit sha is - 830bd6595af376ebfc234b0a5bded80b59f888ef
+Commit message - Merge pull request #869 from geniou/nested_style
+
+Add ClassAndModuleChildren cop
+---> The files with partial_reverts are:-
+lib/rubocop/cop/lint/require_parentheses.rb
+lib/rubocop/cop/style/double_negation.rb
+lib/rubocop/cop/style/space_around_operators.rb
+spec/rubocop/cop/style/double_negation_spec.rb
+spec/rubocop/cop/style/not_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 56 is -> 
+{ a17e52b238ecbf79a8d23a59b40c5ca0ee60f484 -> 2c0b48a8a1f54b7052beff24cccc270f132d5544 } is a revert
+{ 2c0b48a8a1f54b7052beff24cccc270f132d5544 -> 65c2390b82bdc8b973fc92963571ee73c43bcb12 }
+Partial Revert commits SHA are -> 
+2c0b48a8a1f54b7052beff24cccc270f132d5544 - revert - 65c2390b82bdc8b973fc92963571ee73c43bcb12
+---> The reverted commit sha is - 2c0b48a8a1f54b7052beff24cccc270f132d5544
+Commit message - Fix a false positive in StringConversionInInterpolation
+
+to_s with arguments should not trigger an offense.
+---> The original commit sha is - 65c2390b82bdc8b973fc92963571ee73c43bcb12
+Commit message - Merge pull request #864 from hannestyden/ignore-last-argument-hash
+
+Add configuration option to AlignHash cop making it ignore last argument hashes
+---> The files with partial_reverts are:-
+CHANGELOG.md
+config/default.yml
+lib/rubocop/cop/style/align_hash.rb
+spec/rubocop/cop/style/align_hash_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 57 is -> 
+{ 5e7d351f5675ec1a7a730c7fa139f69f2d032a70 -> f17ffd52a09daa7d95030d34bd7ad08274a9dec4 } is a revert
+{ f591c0f23a2874331c4a3ccd76e065616c9c874c -> c7fb491f6419ade5ceff0a49f9dcbeb1ecdedfe0 }
+Partial Revert commits SHA are -> 
+f17ffd52a09daa7d95030d34bd7ad08274a9dec4 - revert - c7fb491f6419ade5ceff0a49f9dcbeb1ecdedfe0
+---> The reverted commit sha is - f17ffd52a09daa7d95030d34bd7ad08274a9dec4
+Commit message - [Fix #852] Bump parser dep to 2.1.7
+---> The original commit sha is - c7fb491f6419ade5ceff0a49f9dcbeb1ecdedfe0
+Commit message - Merge pull request #853 from rrrene/patch-1
+
+Add docs badge to README
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 58 is -> 
+{ 4db24f0fc42f2b5d25a5af5690be3d9448661be6 -> 7afbc1530a4e35a62d1eaaa77ae74ea4c3585733 } is a revert
+{ 159eb4c30b5db576ec967145f59e1c63939cf641 -> 983bc86eca1bba41352e2e96bbdbf836d24915dc }
+Partial Revert commits SHA are -> 
+7afbc1530a4e35a62d1eaaa77ae74ea4c3585733 - revert - 983bc86eca1bba41352e2e96bbdbf836d24915dc
+---> The reverted commit sha is - 7afbc1530a4e35a62d1eaaa77ae74ea4c3585733
+Commit message - Rerun auto gen config to change offence to offense
+---> The original commit sha is - 983bc86eca1bba41352e2e96bbdbf836d24915dc
+Commit message - Merge pull request #843 from agrimm/handle_case_statement
+
+Handle case statements with nothing after the case keyword
+---> The files with partial_reverts are:-
+lib/rubocop/cop/lint/literal_in_condition.rb
+spec/rubocop/cop/lint/literal_in_condition_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 59 is -> 
+{ 7afbc1530a4e35a62d1eaaa77ae74ea4c3585733 -> 00f6890aae8d87bd7d8cbb4059d2780db9ad073d } is a revert
+{ 0495ecc53dc57381e742185981d138749d89fb0d -> 159eb4c30b5db576ec967145f59e1c63939cf641 }
+Partial Revert commits SHA are -> 
+00f6890aae8d87bd7d8cbb4059d2780db9ad073d - revert - 159eb4c30b5db576ec967145f59e1c63939cf641
+---> The reverted commit sha is - 00f6890aae8d87bd7d8cbb4059d2780db9ad073d
+Commit message - Only remove space in AutocorrectAlignment#autocorrect
+
+There was a bug that would remove other things than space if one of
+the lines in a node with too much indentation was empty or very short.
+
+Also, adding indentation would add trailing whitespace on emtpy lines.
+---> The original commit sha is - 159eb4c30b5db576ec967145f59e1c63939cf641
+Commit message - Merge pull request #845 from jonas054/fix_autocorrect
+
+Fix two bugs in autocorrect
+---> The files with partial_reverts are:-
+rubocop-todo.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 60 is -> 
+{ 03b314466c8ecf0ba1a847629d2897741db7edd1 -> 0495ecc53dc57381e742185981d138749d89fb0d } is a revert
+{ 0495ecc53dc57381e742185981d138749d89fb0d -> 159eb4c30b5db576ec967145f59e1c63939cf641 }
+Partial Revert commits SHA are -> 
+0495ecc53dc57381e742185981d138749d89fb0d - revert - 159eb4c30b5db576ec967145f59e1c63939cf641
+---> The reverted commit sha is - 0495ecc53dc57381e742185981d138749d89fb0d
+Commit message - Only auto-correct the first expression of a group in IndentationWidth
+
+It's the job of IndentationConsistency to make sure that all the
+statements of a def, for example, are lined up.
+---> The original commit sha is - 159eb4c30b5db576ec967145f59e1c63939cf641
+Commit message - Merge pull request #845 from jonas054/fix_autocorrect
+
+Fix two bugs in autocorrect
+---> The files with partial_reverts are:-
+rubocop-todo.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 61 is -> 
+{ bd1fa80895f8ade4bbc87db322016a280a175d22 -> 358fbf4f3f90aa25eebd684bd38babad757b4dba } is a revert
+{ 358fbf4f3f90aa25eebd684bd38babad757b4dba -> 6bec5153650d602e3390fec3cc5a962b917ad380 }
+Partial Revert commits SHA are -> 
+358fbf4f3f90aa25eebd684bd38babad757b4dba - revert - 6bec5153650d602e3390fec3cc5a962b917ad380
+---> The reverted commit sha is - 358fbf4f3f90aa25eebd684bd38babad757b4dba
+Commit message - Merge pull request #810 from yujinakayama/fix-error-on-setter-with-op-assignment
+
+Fix error on a setter invocation with operator assignment in a loop body
+---> The original commit sha is - 6bec5153650d602e3390fec3cc5a962b917ad380
+Commit message - Merge pull request #811 from yujinakayama/fuubar-style-formatter
+
+Introduce Fuubar style formatter
+---> The files with partial_reverts are:-
+CHANGELOG.md
+README.md
+lib/rubocop.rb
+lib/rubocop/formatter/formatter_set.rb
+lib/rubocop/formatter/fuubar_style_formatter.rb
+lib/rubocop/options.rb
+rubocop-todo.yml
+rubocop.gemspec
+spec/rubocop/formatter/fuubar_style_formatter_spec.rb
+spec/rubocop/options_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 62 is -> 
+{ 2ad1157dfab4dc79030d6ce794a0cd51aa34116f -> 41e197319380618f06f41fce9da6102369ef0341 } is a revert
+{ a0064f7ddd46573e8f59deda317403e880239f53 -> 4d3af31c360f563f6ed245d789fac5e5e4634c61 }
+Partial Revert commits SHA are -> 
+41e197319380618f06f41fce9da6102369ef0341 - revert - 4d3af31c360f563f6ed245d789fac5e5e4634c61
+---> The reverted commit sha is - 41e197319380618f06f41fce9da6102369ef0341
+Commit message - Create Output cop to check for output in Rails
+---> The original commit sha is - 4d3af31c360f563f6ed245d789fac5e5e4634c61
+Commit message - Remove custom file ignore logic from Output cop
+---> The files with partial_reverts are:-
+config/default.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 63 is -> 
+{ 968cb64582ea3692f563b13827f63e77dbca1eea -> aba76441c98a03c9aa677eb01e56a93bb90dff76 } is a revert
+{ 3ffcce7f685d6652fec2a901c5b93a303d7fe178 -> 90035294ff5a01da40c400237414a4afd24704da }
+Partial Revert commits SHA are -> 
+aba76441c98a03c9aa677eb01e56a93bb90dff76 - revert - 90035294ff5a01da40c400237414a4afd24704da
+---> The reverted commit sha is - aba76441c98a03c9aa677eb01e56a93bb90dff76
+Commit message - [Fix #759] New cop EndLineConcatenation
+---> The original commit sha is - 90035294ff5a01da40c400237414a4afd24704da
+Commit message - Merge pull request #769 from nevir/relative-globs
+
+Excludes/includes support globs relative to the project (PWD for now).
+---> The files with partial_reverts are:-
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/util.rb
+lib/rubocop/formatter/simple_text_formatter.rb
+lib/rubocop/path_util.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/path_util_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 64 is -> 
+{ a0b57b00cec7d79e1c21a7bc897f1c5549d1db3e -> d3903022891344cfe2a02d6fbe274a763a32e8e1 } is a revert
+{ d3903022891344cfe2a02d6fbe274a763a32e8e1 -> 4a30ec918b1f6a4707c859a68fcb226956103ae8 }
+Partial Revert commits SHA are -> 
+d3903022891344cfe2a02d6fbe274a763a32e8e1 - revert - 4a30ec918b1f6a4707c859a68fcb226956103ae8
+---> The reverted commit sha is - d3903022891344cfe2a02d6fbe274a763a32e8e1
+Commit message - Merge pull request #767 from nevir/spec-file-helper
+
+Support mocked file paths in the spec helper's parse_source
+---> The original commit sha is - 4a30ec918b1f6a4707c859a68fcb226956103ae8
+Commit message - Merge pull request #768 from nevir/rake-requires
+
+Rake task now supports `requires` and `options`
+---> The files with partial_reverts are:-
+CHANGELOG.md
+lib/rubocop/rake_task.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 65 is -> 
+{ 4ef259967e0b0938ea2732c250c3ee8346f0f4b7 -> 330e02834681572d8d02568db717e23c6f3a0224 } is a revert
+{ 330e02834681572d8d02568db717e23c6f3a0224 -> bfdada4bbb252113a5b9c1a96e1375dbae94ecb9 }
+Partial Revert commits SHA are -> 
+330e02834681572d8d02568db717e23c6f3a0224 - revert - bfdada4bbb252113a5b9c1a96e1375dbae94ecb9
+---> The reverted commit sha is - 330e02834681572d8d02568db717e23c6f3a0224
+Commit message - Fix typo with lowercase v for verbose output
+---> The original commit sha is - bfdada4bbb252113a5b9c1a96e1375dbae94ecb9
+Commit message - Merge pull request #763 from yujinakayama/support-rainbow-2
+
+Support Rainbow gem both 1.99.x and 2.x
+---> The files with partial_reverts are:-
+CHANGELOG.md
+lib/rubocop.rb
+rubocop.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 66 is -> 
+{ 765935314547ff670dc074f34b3e0567da701428 -> dee5d85d2ad0a86189b51e6e0d2632f37c4fd57e } is a revert
+{ dee5d85d2ad0a86189b51e6e0d2632f37c4fd57e -> ee16071ac21f4e1962ca0cb477a2442b1463b429 }
+Partial Revert commits SHA are -> 
+dee5d85d2ad0a86189b51e6e0d2632f37c4fd57e - revert - ee16071ac21f4e1962ca0cb477a2442b1463b429
+---> The reverted commit sha is - dee5d85d2ad0a86189b51e6e0d2632f37c4fd57e
+Commit message - removed duplicated require
+---> The original commit sha is - ee16071ac21f4e1962ca0cb477a2442b1463b429
+Commit message - Merge pull request #750 from pmenglund/rakefile
+
+removed duplicated require
+---> The files with partial_reverts are:-
+CHANGELOG.md
+lib/rubocop/cop/style/parentheses_around_condition.rb
+spec/rubocop/cop/style/parentheses_around_condition_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 67 is -> 
+{ 4b28c6cb659ea81b55e2660af0cb605b056a3d1d -> 6d15d9441e3cdd2315f883756f92e19538f0cdab } is a revert
+{ 6d15d9441e3cdd2315f883756f92e19538f0cdab -> 82743d3dc99b78969ee3782dd6ffa4d58513687c }
+Partial Revert commits SHA are -> 
+6d15d9441e3cdd2315f883756f92e19538f0cdab - revert - 82743d3dc99b78969ee3782dd6ffa4d58513687c
+---> The reverted commit sha is - 6d15d9441e3cdd2315f883756f92e19538f0cdab
+Commit message - [Fix #744] Read, inspect, and write file repeatedly in --auto-correct.
+
+If the file has been auto-corrected, we inspect it again to see if the correction created any new offences. Care is also taken to not report the same offence more than once.
+---> The original commit sha is - 82743d3dc99b78969ee3782dd6ffa4d58513687c
+Commit message - Merge pull request #746 from jonas054/fix_multiple_autocorrect
+
+Read, inspect, and write file repeatedly in --auto-correct.
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 68 is -> 
+{ db3a07ab2314ae055a38ff57df5ed24c5c90fa2b -> 6f328c6d97a36daa729e7e78649d943f18e07747 } is a revert
+{ f3c8cac249a246af03aa502650bb38d9d5d6616c -> d798229c1726ea151f4230659048e057a82df06c }
+Partial Revert commits SHA are -> 
+6f328c6d97a36daa729e7e78649d943f18e07747 - revert - d798229c1726ea151f4230659048e057a82df06c
+---> The reverted commit sha is - 6f328c6d97a36daa729e7e78649d943f18e07747
+Commit message - Support disabling Syntax offences with warning severity
+
+This allows to disable only warning offences.
+fatal/error offences (i.e. invalid syntax) cannot be disabled since
+suppressing them does not make sense.
+
+This fixes #493.
+---> The original commit sha is - d798229c1726ea151f4230659048e057a82df06c
+Commit message - Convert Syntax cop to a module
+
+It no longer interacts with Commissioner, and it reports only
+fatal/error offences that cannot be disabled.
+---> The files with partial_reverts are:-
+config/enabled.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 69 is -> 
+{ 8a09409c796b913b8b941b7a3d0ee1c1572fdf8c -> fc38eb3321da2a66a474d63b03e4b493dae274c8 } is a revert
+{ 668779537725989f5ed89311d7661367e8bc0607 -> bd73fd9612dbc42f6e2afc7c04ee3b814850d85c }
+Partial Revert commits SHA are -> 
+fc38eb3321da2a66a474d63b03e4b493dae274c8 - revert - bd73fd9612dbc42f6e2afc7c04ee3b814850d85c
+---> The reverted commit sha is - fc38eb3321da2a66a474d63b03e4b493dae274c8
+Commit message - Drop ripper
+---> The original commit sha is - bd73fd9612dbc42f6e2afc7c04ee3b814850d85c
+Commit message - Remove an unneeded pending specification
+---> The files with partial_reverts are:-
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 70 is -> 
+{ fc38eb3321da2a66a474d63b03e4b493dae274c8 -> 217480e2b94c6e1eb98f0b4926111f968b2b72b4 } is a revert
+{ 668779537725989f5ed89311d7661367e8bc0607 -> bd73fd9612dbc42f6e2afc7c04ee3b814850d85c }
+Partial Revert commits SHA are -> 
+217480e2b94c6e1eb98f0b4926111f968b2b72b4 - revert - bd73fd9612dbc42f6e2afc7c04ee3b814850d85c
+---> The reverted commit sha is - 217480e2b94c6e1eb98f0b4926111f968b2b72b4
+Commit message - Support JRuby & Rubinius in 1.9 mode
+---> The original commit sha is - bd73fd9612dbc42f6e2afc7c04ee3b814850d85c
+Commit message - Remove an unneeded pending specification
+---> The files with partial_reverts are:-
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 71 is -> 
+{ d5ba54852092ee8819637eb248d9c44220e4a103 -> 964db8227a99854f1c12bd6b7703e082e59b4454 } is a revert
+{ 964db8227a99854f1c12bd6b7703e082e59b4454 -> 9defa3034b2b8887477a8a0b56cc6369ae240de8 }
+Partial Revert commits SHA are -> 
+964db8227a99854f1c12bd6b7703e082e59b4454 - revert - 9defa3034b2b8887477a8a0b56cc6369ae240de8
+---> The reverted commit sha is - 964db8227a99854f1c12bd6b7703e082e59b4454
+Commit message - Merge pull request #710 from jonas054/refactor_duplication
+
+Refactor duplication
+---> The original commit sha is - 9defa3034b2b8887477a8a0b56cc6369ae240de8
+Commit message - Merge pull request #711 from AvnerCohen/regexp_exclude
+
+Adding en example on how to specify regular expressions
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 72 is -> 
+{ 3a782c41848305d67761090cc12d2b20e5d743f8 -> 81740e6bf5ef3c53941abb8883fe732b48ab48cc } is a revert
+{ ee29df38d4a911beee925641d6d30c97dcd65896 -> 9df01044a5b6100b7284e1538c5716b8986fe578 }
+Partial Revert commits SHA are -> 
+81740e6bf5ef3c53941abb8883fe732b48ab48cc - revert - 9df01044a5b6100b7284e1538c5716b8986fe578
+---> The reverted commit sha is - 81740e6bf5ef3c53941abb8883fe732b48ab48cc
+Commit message - Add missing author to some changelog entries
+---> The original commit sha is - 9df01044a5b6100b7284e1538c5716b8986fe578
+Commit message - Merge pull request #704 from yujinakayama/rspec-syntax
+
+Convert specs to the latest RSpec syntax
+---> The files with partial_reverts are:-
+spec/rubocop/cli_spec.rb
+spec/rubocop/config_store_spec.rb
+spec/rubocop/cop/commissioner_spec.rb
+spec/rubocop/cop/cop_spec.rb
+spec/rubocop/cop/lint/parentheses_as_grouped_expression_spec.rb
+spec/rubocop/cop/rails/output_spec.rb
+spec/rubocop/cop/style/align_hash_spec.rb
+spec/rubocop/cop/style/empty_line_between_defs_spec.rb
+spec/rubocop/cop/style/method_called_on_do_end_block_spec.rb
+spec/rubocop/cop/style/method_name_spec.rb
+spec/rubocop/cop/style/multiline_block_chain_spec.rb
+spec/rubocop/cop/style/space_after_method_name_spec.rb
+spec/rubocop/cop/style/variable_name_spec.rb
+spec/rubocop/file_inspector_spec.rb
+spec/rubocop/formatter/base_formatter_spec.rb
+spec/rubocop/formatter/formatter_set_spec.rb
+spec/rubocop/formatter/json_formatter_spec.rb
+spec/rubocop/formatter/progress_formatter_spec.rb
+spec/rubocop/target_finder_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 73 is -> 
+{ c5fe488e85c3d544311ac50cbe0d6565c1525894 -> 09ff40b661488b1da6818ed9030a013063a6359c } is a revert
+{ a220e6f688700588b52c0331cb4e0780125bdd41 -> 0d7161cdbc7548c790a77a31a4cef4897a10c430 }
+Partial Revert commits SHA are -> 
+09ff40b661488b1da6818ed9030a013063a6359c - revert - 0d7161cdbc7548c790a77a31a4cef4897a10c430
+---> The reverted commit sha is - 09ff40b661488b1da6818ed9030a013063a6359c
+Commit message - Fix autocorrect for MethodDefParentheses
+
+Before this change, auto-correcting MethodDefParentheses "fixes" the
+following code:
+
+    def columnsort array, size
+    end
+
+...with:
+
+    def columnsort (array, size)
+    end
+
+This change remove the empty space between the method name and the
+parameter list.
+---> The original commit sha is - 0d7161cdbc7548c790a77a31a4cef4897a10c430
+Commit message - Merge pull request #683 from mitio/fix-isolated-environment-spec-on-osx
+
+Fix the isolated environment spec on OS X
+---> The files with partial_reverts are:-
+spec/support/isolated_environment.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 74 is -> 
+{ 6bc856b443367b26b16ea9fe8f863a7144b1878e -> 1ea299b9ed010b899b3fc9d2ef407f57764d954a } is a revert
+{ d98c188174f936252731d56a700c4c1d02c30616 -> 5fb62c86b622d29c204ae66a33fa7f7abee02263 }
+Partial Revert commits SHA are -> 
+1ea299b9ed010b899b3fc9d2ef407f57764d954a - revert - 5fb62c86b622d29c204ae66a33fa7f7abee02263
+---> The reverted commit sha is - 1ea299b9ed010b899b3fc9d2ef407f57764d954a
+Commit message - [Fix #674] Do not issue warning for Exclude and Include config params.
+
+Correction for an unreleased feature.
+---> The original commit sha is - 5fb62c86b622d29c204ae66a33fa7f7abee02263
+Commit message - Merge pull request #675 from jonas054/fix_inconsistent_ind_when_outdent
+
+[Fix #667] Handle public/protected/private in IndentationWidth.
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/access_modifier_indentation.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 75 is -> 
+{ 6bc856b443367b26b16ea9fe8f863a7144b1878e -> 1ea299b9ed010b899b3fc9d2ef407f57764d954a } is a revert
+{ 1ea299b9ed010b899b3fc9d2ef407f57764d954a -> d98c188174f936252731d56a700c4c1d02c30616 }
+Partial Revert commits SHA are -> 
+1ea299b9ed010b899b3fc9d2ef407f57764d954a - revert - d98c188174f936252731d56a700c4c1d02c30616
+---> The reverted commit sha is - 1ea299b9ed010b899b3fc9d2ef407f57764d954a
+Commit message - [Fix #674] Do not issue warning for Exclude and Include config params.
+
+Correction for an unreleased feature.
+---> The original commit sha is - d98c188174f936252731d56a700c4c1d02c30616
+Commit message - Merge pull request #676 from jonas054/fix_unrecognized_excludes
+
+[Fix #674] Do not issue warning for Exclude and Include config params.
+---> The files with partial_reverts are:-
+lib/rubocop/cop/lint/end_alignment.rb
+spec/rubocop/cop/lint/end_alignment_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 76 is -> 
+{ 510fe2b5f8c888d5d9834a00c4fc9dcd3cd412db -> 4b6be34b9f451c6509ef389ce420bd346b5b3c10 } is a revert
+{ abf211767cd86007d07d9d1bf3569efadb25294b -> 2de86c0dea471042f36f0ecb627c7149d0f3ad8b }
+Partial Revert commits SHA are -> 
+4b6be34b9f451c6509ef389ce420bd346b5b3c10 - revert - 2de86c0dea471042f36f0ecb627c7149d0f3ad8b
+---> The reverted commit sha is - 4b6be34b9f451c6509ef389ce420bd346b5b3c10
+Commit message - Handle Excludes with strings when passing config via -c
+---> The original commit sha is - 2de86c0dea471042f36f0ecb627c7149d0f3ad8b
+Commit message - Merge pull request #662 from jonas054/add_config_to_for_cop
+
+[Fix #654] Add config option EnforcedStyle to For cop.
+---> The files with partial_reverts are:-
+lib/rubocop/cli.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 77 is -> 
+{ 344745dca8e395666872b886c7c6a60e2822d81d -> abf211767cd86007d07d9d1bf3569efadb25294b } is a revert
+{ abf211767cd86007d07d9d1bf3569efadb25294b -> 2de86c0dea471042f36f0ecb627c7149d0f3ad8b }
+Partial Revert commits SHA are -> 
+abf211767cd86007d07d9d1bf3569efadb25294b - revert - 2de86c0dea471042f36f0ecb627c7149d0f3ad8b
+---> The reverted commit sha is - abf211767cd86007d07d9d1bf3569efadb25294b
+Commit message - [Fix #654] Add config option EnforcedStyle to For cop.
+
+Values: each (default) and for.
+---> The original commit sha is - 2de86c0dea471042f36f0ecb627c7149d0f3ad8b
+Commit message - Merge pull request #662 from jonas054/add_config_to_for_cop
+
+[Fix #654] Add config option EnforcedStyle to For cop.
+---> The files with partial_reverts are:-
+lib/rubocop/cli.rb
+lib/rubocop/config_store.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 78 is -> 
+{ 128df4c550a4f718472eac9ffd62d511aafc65c9 -> c68e06ddcebca70e4daa7b11c1d219b2c8933388 } is a revert
+{ c68e06ddcebca70e4daa7b11c1d219b2c8933388 -> 510fe2b5f8c888d5d9834a00c4fc9dcd3cd412db }
+Partial Revert commits SHA are -> 
+c68e06ddcebca70e4daa7b11c1d219b2c8933388 - revert - 510fe2b5f8c888d5d9834a00c4fc9dcd3cd412db
+---> The reverted commit sha is - c68e06ddcebca70e4daa7b11c1d219b2c8933388
+Commit message - Merge pull request #659 from paulczar/patch-1
+
+how to disable specific cop in .config.yaml
+---> The original commit sha is - 510fe2b5f8c888d5d9834a00c4fc9dcd3cd412db
+Commit message - Merge pull request #660 from jonas054/add_case_ind_params
+
+Add configuration parameters for CaseIndentation.
+---> The files with partial_reverts are:-
+CHANGELOG.md
+config/default.yml
+config/enabled.yml
+lib/rubocop/cop/style/case_indentation.rb
+spec/rubocop/cop/style/case_indentation_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 79 is -> 
+{ c9dcf749fac1870222072af0334952bf2a9e8481 -> 91a6385370b0cf09ac1b6d152376752ad5155046 } is a revert
+{ 45acf623372ac4f1fbc0e97b1961be6b84f8f978 -> 5578b673d2a06d1bae48e471666f50a7a71e30bc }
+Partial Revert commits SHA are -> 
+91a6385370b0cf09ac1b6d152376752ad5155046 - revert - 5578b673d2a06d1bae48e471666f50a7a71e30bc
+---> The reverted commit sha is - 91a6385370b0cf09ac1b6d152376752ad5155046
+Commit message - Alias cop does auto-correction.
+---> The original commit sha is - 5578b673d2a06d1bae48e471666f50a7a71e30bc
+Commit message - Merge pull request #658 from jonas054/fix_unwanted_printout
+
+Remove printout from isolated environment spec.
+---> The files with partial_reverts are:-
+spec/isolated_environment_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 80 is -> 
+{ 5e9d6976842f2771914509293de712dad07e5a78 -> cd24640e2adae41a10fea4ea8b4fae86e11bac27 } is a revert
+{ dbd33f3614abcf274fc728d72f2399e90642e02f -> 0172d8b390a860e67d39496248b211d6338f2779 }
+Partial Revert commits SHA are -> 
+cd24640e2adae41a10fea4ea8b4fae86e11bac27 - revert - 0172d8b390a860e67d39496248b211d6338f2779
+---> The reverted commit sha is - cd24640e2adae41a10fea4ea8b4fae86e11bac27
+Commit message - Fix bug in SpaceAroundBlockBraces that desetroys code in -a mode.
+
+Multi-line block braces cause autocorrect to behave badly. The solution is to allow multi-line block braces regardless of configuration.
+
+Fixes #645.
+---> The original commit sha is - 0172d8b390a860e67d39496248b211d6338f2779
+Commit message - Merge branch 'allow-self' of git://github.com/chulkilee/rubocop into chulkilee-allow-self
+
+Conflicts:
+	CHANGELOG.md
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/redundant_self.rb
+spec/rubocop/cop/style/redundant_self_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 81 is -> 
+{ d2c11d8ae8bc7437a528330f85fcade2b7bfbcc6 -> 203a5e4f5e2b10e61f3a03d89cdc6ae49db02903 } is a revert
+{ 203a5e4f5e2b10e61f3a03d89cdc6ae49db02903 -> e4b7f673ae1920804b138b171611fa9f15463f1b }
+Partial Revert commits SHA are -> 
+203a5e4f5e2b10e61f3a03d89cdc6ae49db02903 - revert - e4b7f673ae1920804b138b171611fa9f15463f1b
+---> The reverted commit sha is - 203a5e4f5e2b10e61f3a03d89cdc6ae49db02903
+Commit message - [Fix #643] Update travis config for rbx
+---> The original commit sha is - e4b7f673ae1920804b138b171611fa9f15463f1b
+Commit message - Merge pull request #642 from jonas054/fix_code_climate_complaints
+
+Get rid of some duplication in SpaceAroundBlockBraces.
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/space_around_block_braces.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 82 is -> 
+{ 286e947f40a1c4c806dae6cec23ade79a78744bc -> c0bfc98c34224b7ce21aab7c253aad5d90bf8b2d } is a revert
+{ c0bfc98c34224b7ce21aab7c253aad5d90bf8b2d -> 19f14fd49039785577aa396befbab021692e35c9 }
+Partial Revert commits SHA are -> 
+c0bfc98c34224b7ce21aab7c253aad5d90bf8b2d - revert - 19f14fd49039785577aa396befbab021692e35c9
+---> The reverted commit sha is - c0bfc98c34224b7ce21aab7c253aad5d90bf8b2d
+Commit message - [Fix #640] Remove SymbolNames cop
+
+The cop was generating many false positives, so we're better off
+without it.
+---> The original commit sha is - 19f14fd49039785577aa396befbab021692e35c9
+Commit message - Merge pull request #641 from jonas054/fix_block_autocorrect_clash
+
+Fix block autocorrect clash
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/space_around_block_braces.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cop/style/space_around_block_braces_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 83 is -> 
+{ e4c8a22f637349c1b43f732d6e04ed071075b9fb -> 30fcdb9e9ae2ae5dd2f18ae394580f38fe45a6d0 } is a revert
+{ 30fcdb9e9ae2ae5dd2f18ae394580f38fe45a6d0 -> b62e1866680578254dd5e1bc760ef2b02eb8f6ea }
+Partial Revert commits SHA are -> 
+30fcdb9e9ae2ae5dd2f18ae394580f38fe45a6d0 - revert - b62e1866680578254dd5e1bc760ef2b02eb8f6ea
+---> The reverted commit sha is - 30fcdb9e9ae2ae5dd2f18ae394580f38fe45a6d0
+Commit message - Autocorrect BracesAroundHashParameters cop.
+---> The original commit sha is - b62e1866680578254dd5e1bc760ef2b02eb8f6ea
+Commit message - Merge pull request #612 from dblock/autocorrect-braces-around-hash-parameters
+
+Autocorrect BracesAroundHashParameters cop.
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/empty_lines_around_body.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 84 is -> 
+{ 0a6032b7210be8b62901b0867b6d958194e992d1 -> a9c6d5762df54954606b7c90087ac7a56dc8fba2 } is a revert
+{ 339f50ccf17559ccbf70601b0802cc5d4fec10e9 -> d876c6a99660f227da77961fdc7ff5a3ce577de6 }
+Partial Revert commits SHA are -> 
+a9c6d5762df54954606b7c90087ac7a56dc8fba2 - revert - d876c6a99660f227da77961fdc7ff5a3ce577de6
+---> The reverted commit sha is - a9c6d5762df54954606b7c90087ac7a56dc8fba2
+Commit message - [Fix #600] Handle properly access modifiers at the beginning of a class/module definition
+---> The original commit sha is - d876c6a99660f227da77961fdc7ff5a3ce577de6
+Commit message - Merge pull request #603 from claco/word-arrsy-max
+
+Allow WordArray to support a minimum array size
+---> The files with partial_reverts are:-
+config/default.yml
+lib/rubocop/cop/style/word_array.rb
+spec/rubocop/cop/style/word_array_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 85 is -> 
+{ 336ef9abb40f8293e8993e89826a1de07f589979 -> 6789d52d1ace91c283a25341c82b062664ea4686 } is a revert
+{ 6789d52d1ace91c283a25341c82b062664ea4686 -> e8895b639c299d9afcb997020b367ea2f59478d4 }
+Partial Revert commits SHA are -> 
+6789d52d1ace91c283a25341c82b062664ea4686 - revert - e8895b639c299d9afcb997020b367ea2f59478d4
+---> The reverted commit sha is - 6789d52d1ace91c283a25341c82b062664ea4686
+Commit message - Add pending test about regexp in conditionals
+---> The original commit sha is - e8895b639c299d9afcb997020b367ea2f59478d4
+Commit message - Merge pull request #604 from agrimm/pending_regexp_conditional
+
+Add pending test about regexp in conditionals
+---> The files with partial_reverts are:-
+.rubocop.yml
+CHANGELOG.md
+config/default.yml
+lib/rubocop/cli.rb
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/style/end_of_line.rb
+lib/rubocop/cop/style/space_around_block_braces.rb
+lib/rubocop/cop/style/space_inside_hash_literal_braces.rb
+lib/rubocop/cop/team.rb
+lib/rubocop/options.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cop/offence_spec.rb
+spec/rubocop/cop/style/end_of_line_spec.rb
+spec/rubocop/cop/style/space_around_block_braces_spec.rb
+spec/rubocop/cop/style/space_inside_hash_literal_braces_spec.rb
+spec/rubocop/cop/team_spec.rb
+spec/rubocop/options_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 86 is -> 
+{ 752e5d6ee3319949d07fdc59f0d20394847543e8 -> 6f19d1d125042192c7ca11b42c1b16045c393821 } is a revert
+{ 62344d490a6e37c6105df650b41843c1d5ae1e1f -> 336ef9abb40f8293e8993e89826a1de07f589979 }
+Partial Revert commits SHA are -> 
+6f19d1d125042192c7ca11b42c1b16045c393821 - revert - 336ef9abb40f8293e8993e89826a1de07f589979
+---> The reverted commit sha is - 6f19d1d125042192c7ca11b42c1b16045c393821
+Commit message - Enable coverage builds again.
+---> The original commit sha is - 336ef9abb40f8293e8993e89826a1de07f589979
+Commit message - Merge pull request #601 from jonas054/refactor_options
+
+Refactor options
+---> The files with partial_reverts are:-
+.rubocop.yml
+lib/rubocop/cli.rb
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/team.rb
+lib/rubocop/options.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cop/team_spec.rb
+spec/rubocop/options_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 87 is -> 
+{ 181ce1970baa836b4ec6cac6f32799bc3c720b9e -> c0cbc149f80d502712a584b32c7ee5c2ee3a27bc } is a revert
+{ c0cbc149f80d502712a584b32c7ee5c2ee3a27bc -> fcd35d62a36ba4ae3197d1ed77ee509cefd26e2d }
+Partial Revert commits SHA are -> 
+c0cbc149f80d502712a584b32c7ee5c2ee3a27bc - revert - fcd35d62a36ba4ae3197d1ed77ee509cefd26e2d
+---> The reverted commit sha is - c0cbc149f80d502712a584b32c7ee5c2ee3a27bc
+Commit message - Add CyclomaticComplexity cop.
+---> The original commit sha is - fcd35d62a36ba4ae3197d1ed77ee509cefd26e2d
+Commit message - Merge pull request #590 from jonas054/complexity_cop
+
+Add CyclomaticComplexity cop.
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 88 is -> 
+{ 9a63df6d6d19f9687c823c5abdea256fd38dcb06 -> f3466bf351095ce21a681b7cd2482dccc9beaf20 } is a revert
+{ e167d69b7ec4e752e6803655af1a69ae8c2a3b78 -> fb01a6665e29cbf9184f8d2caeb4a75275f248e9 }
+Partial Revert commits SHA are -> 
+f3466bf351095ce21a681b7cd2482dccc9beaf20 - revert - fb01a6665e29cbf9184f8d2caeb4a75275f248e9
+---> The reverted commit sha is - f3466bf351095ce21a681b7cd2482dccc9beaf20
+Commit message - Run RuboCop over its self for the default rake task
+---> The original commit sha is - fb01a6665e29cbf9184f8d2caeb4a75275f248e9
+Commit message - Merge pull request #571 from nevir/always-check-style
+
+Run RuboCop over its self for the default rake task
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+lib/rubocop/cop/style/special_global_vars.rb
+spec/rubocop/cop/style/special_global_vars_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 89 is -> 
+{ cb24b6d7c4896410b226c58beff81351dcde59be -> b4e52532e0cd915bbc26c0dc70ca6a70e5632027 } is a revert
+{ b4e52532e0cd915bbc26c0dc70ca6a70e5632027 -> 503478cf9c07affaebd4c66d04dd4fd7b0449314 }
+Partial Revert commits SHA are -> 
+b4e52532e0cd915bbc26c0dc70ca6a70e5632027 - revert - 503478cf9c07affaebd4c66d04dd4fd7b0449314
+---> The reverted commit sha is - b4e52532e0cd915bbc26c0dc70ca6a70e5632027
+Commit message - Merge pull request #570 from nevir/style-fix
+
+Fix for the style breakage on master
+---> The original commit sha is - 503478cf9c07affaebd4c66d04dd4fd7b0449314
+Commit message - Merge pull request #566 from nevir/splat-is-not-trivial
+
+Don't treat splats as trivial writers
+---> The files with partial_reverts are:-
+CHANGELOG.md
+lib/rubocop/cop/style/trivial_accessors.rb
+spec/rubocop/cop/style/trivial_accessors_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 90 is -> 
+{ 2ad1157dfab4dc79030d6ce794a0cd51aa34116f -> 41e197319380618f06f41fce9da6102369ef0341 } is a revert
+{ 41e197319380618f06f41fce9da6102369ef0341 -> 4e23a199e315645850f4865782d5ae6b612752db }
+Partial Revert commits SHA are -> 
+41e197319380618f06f41fce9da6102369ef0341 - revert - 4e23a199e315645850f4865782d5ae6b612752db
+---> The reverted commit sha is - 41e197319380618f06f41fce9da6102369ef0341
+Commit message - Create Output cop to check for output in Rails
+---> The original commit sha is - 4e23a199e315645850f4865782d5ae6b612752db
+Commit message - Merge pull request #539 from daviddavis/output-cop
+
+Created Output cop to check for output in Rails
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/align_hash.rb
+lib/rubocop/cop/style/autocorrect_alignment.rb
+lib/rubocop/cop/style/blocks.rb
+lib/rubocop/cop/style/hash_syntax.rb
+lib/rubocop/cop/style/redundant_return.rb
+lib/rubocop/cop/style/redundant_self.rb
+lib/rubocop/cop/style/signal_exception.rb
+lib/rubocop/cop/style/space_after_not.rb
+lib/rubocop/cop/style/string_literals.rb
+spec/rubocop/cop/style/align_array_spec.rb
+spec/rubocop/cop/style/signal_exception_spec.rb
+spec/rubocop/cop/style/string_literals_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 91 is -> 
+{ 862a19cf3cbbe59686c7ad79a13a15944a5d13e3 -> 53b5d7a35b887c2bbb85217c7df125299728aa73 } is a revert
+{ 30885b557f0f2b052377aa355a538c245dfdd618 -> 7825e22670626ebdaaaa9c1d7e3fbb939bc80159 }
+Partial Revert commits SHA are -> 
+53b5d7a35b887c2bbb85217c7df125299728aa73 - revert - 7825e22670626ebdaaaa9c1d7e3fbb939bc80159
+---> The reverted commit sha is - 53b5d7a35b887c2bbb85217c7df125299728aa73
+Commit message - Merge pull request #559 from jonas054/change_exclusion
+
+[Fix #557] Don't load configuration files for excluded files.
+---> The original commit sha is - 7825e22670626ebdaaaa9c1d7e3fbb939bc80159
+Commit message - Merge pull request #563 from noahd1/master
+
+Add Code Climate badge to README.md
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 92 is -> 
+{ 8a53c47892e7f28196c7c701e2149223c6aae1db -> 815b86ff2f8891fbf1cfe63a6777ae6ebb1a68a9 } is a revert
+{ 0c2bff5f8d6f5da1b3a9b6b6a52a1efb50c7e4f0 -> c6a23d7633e1b59666aa6b69bd9a56b6d2c1be9c }
+Partial Revert commits SHA are -> 
+815b86ff2f8891fbf1cfe63a6777ae6ebb1a68a9 - revert - c6a23d7633e1b59666aa6b69bd9a56b6d2c1be9c
+---> The reverted commit sha is - 815b86ff2f8891fbf1cfe63a6777ae6ebb1a68a9
+Commit message - [Fix #492] Vendorize Array#bsearch and drop backports dep
+---> The original commit sha is - c6a23d7633e1b59666aa6b69bd9a56b6d2c1be9c
+Commit message - Remove backported bsearch, since now it's bundled with Parser
+---> The files with partial_reverts are:-
+lib/rubocop/backports/bsearch.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 93 is -> 
+{ a1afa8e1acbab2f966f3134e1c83bd33c168590e -> 4d47beef2afed629ee17bf9d1f88a7f67d4faf7f } is a revert
+{ 0c2bff5f8d6f5da1b3a9b6b6a52a1efb50c7e4f0 -> c6a23d7633e1b59666aa6b69bd9a56b6d2c1be9c }
+Partial Revert commits SHA are -> 
+4d47beef2afed629ee17bf9d1f88a7f67d4faf7f - revert - c6a23d7633e1b59666aa6b69bd9a56b6d2c1be9c
+---> The reverted commit sha is - 4d47beef2afed629ee17bf9d1f88a7f67d4faf7f
+Commit message - Merge pull request #484 from mbj/fix-redundant-self-cop-for-arguments
+
+Fix redundant self cop for arguments
+---> The original commit sha is - c6a23d7633e1b59666aa6b69bd9a56b6d2c1be9c
+Commit message - Remove backported bsearch, since now it's bundled with Parser
+---> The files with partial_reverts are:-
+lib/rubocop/backports/bsearch.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 94 is -> 
+{ 6c0ead108d469fe5b3f244551a526b7dfe8d18c9 -> 4107dcbc8f09afcb1e2e742f5abf748eebff6328 } is a revert
+{ 4107dcbc8f09afcb1e2e742f5abf748eebff6328 -> 63c6e64be986417dd21ec0c23c65953850411188 }
+Partial Revert commits SHA are -> 
+4107dcbc8f09afcb1e2e742f5abf748eebff6328 - revert - 63c6e64be986417dd21ec0c23c65953850411188
+---> The reverted commit sha is - 4107dcbc8f09afcb1e2e742f5abf748eebff6328
+Commit message - Fix alignment of the hashe containing different key lengths
+Conflicts:
+	spec/rubocop/cop/style/align_hash_spec.rb
+---> The original commit sha is - 63c6e64be986417dd21ec0c23c65953850411188
+Commit message - Merge pull request #514 from saks/fix_for_one_line_hash
+
+Fix alignment of the hash in one line
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/tab.rb
+rubocop.gemspec
+spec/rubocop/cli_spec.rb
+spec/rubocop/formatter/clang_style_formatter_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 95 is -> 
+{ c9ba4e6f8bfdd40031d0871dc929a2e0390c2e9d -> 66379270d6015da65beb8b93a8c7a1917e0c34d4 } is a revert
+{ 66379270d6015da65beb8b93a8c7a1917e0c34d4 -> 9d631e3af34daeb3726f36ed1d5435e77f8fad14 }
+Partial Revert commits SHA are -> 
+66379270d6015da65beb8b93a8c7a1917e0c34d4 - revert - 9d631e3af34daeb3726f36ed1d5435e77f8fad14
+---> The reverted commit sha is - 66379270d6015da65beb8b93a8c7a1917e0c34d4
+Commit message - [Fix #538] Fix bug in `Blocks` auto-correction.
+---> The original commit sha is - 9d631e3af34daeb3726f36ed1d5435e77f8fad14
+Commit message - Merge pull request #541 from jonas054/fix_autocorrect_do_end
+
+[Fix #538] Fix bug in `Blocks` auto-correction.
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 96 is -> 
+{ a1afa8e1acbab2f966f3134e1c83bd33c168590e -> 4d47beef2afed629ee17bf9d1f88a7f67d4faf7f } is a revert
+{ 4d47beef2afed629ee17bf9d1f88a7f67d4faf7f -> 643a1d19d0cd16e24c9891b613002f3fb79bb0d8 }
+Partial Revert commits SHA are -> 
+4d47beef2afed629ee17bf9d1f88a7f67d4faf7f - revert - 643a1d19d0cd16e24c9891b613002f3fb79bb0d8
+---> The reverted commit sha is - 4d47beef2afed629ee17bf9d1f88a7f67d4faf7f
+Commit message - Merge pull request #484 from mbj/fix-redundant-self-cop-for-arguments
+
+Fix redundant self cop for arguments
+---> The original commit sha is - 643a1d19d0cd16e24c9891b613002f3fb79bb0d8
+Commit message - Merge pull request #495 from yujinakayama/fix-useless-setter-call
+
+Handle multiple-assignment and op-assignment in UselessSetterCall
+---> The files with partial_reverts are:-
+lib/rubocop/cop/lint/useless_setter_call.rb
+spec/rubocop/cop/lint/useless_setter_call_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 97 is -> 
+{ d9fbc48108cc6adda14e5be8fdc81288a2566a62 -> 8d9e20f88b2f4724fe097f6561c9a88fa54d8a24 } is a revert
+{ 3e816c0ea86a04759eec5c9b30f6e05c11764e13 -> f884d75d54aff8811746655e959c43c19c651a4e }
+Partial Revert commits SHA are -> 
+8d9e20f88b2f4724fe097f6561c9a88fa54d8a24 - revert - f884d75d54aff8811746655e959c43c19c651a4e
+---> The reverted commit sha is - 8d9e20f88b2f4724fe097f6561c9a88fa54d8a24
+Commit message - Extend README a bit
+---> The original commit sha is - f884d75d54aff8811746655e959c43c19c651a4e
+Commit message - Merge pull request #477 from jonas054/align_hash_updates
+
+Align hash updates
+---> The files with partial_reverts are:-
+config/default.yml
+lib/rubocop/cop/style/align_hash.rb
+lib/rubocop/formatter/.rubocop.yml
+lib/rubocop/formatter/formatter_set.rb
+lib/rubocop/formatter/json_formatter.rb
+lib/rubocop/formatter/progress_formatter.rb
+spec/rubocop/cop/style/align_hash_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 98 is -> 
+{ 25aab118937b4ac5995bd215b1ffe498ffc23cac -> 3873d1c40e0e12ddf76d3ce3fc93c190daa5fbb4 } is a revert
+{ 3873d1c40e0e12ddf76d3ce3fc93c190daa5fbb4 -> 281db67e3808e843d9064b31f2cd8fa1d967ab48 }
+Partial Revert commits SHA are -> 
+3873d1c40e0e12ddf76d3ce3fc93c190daa5fbb4 - revert - 281db67e3808e843d9064b31f2cd8fa1d967ab48
+---> The reverted commit sha is - 3873d1c40e0e12ddf76d3ce3fc93c190daa5fbb4
+Commit message - Add auto-correction to Blocks cop
+---> The original commit sha is - 281db67e3808e843d9064b31f2cd8fa1d967ab48
+Commit message - Merge pull request #464 from yujinakayama/cop-team
+
+Refactor cop handling
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+lib/rubocop/cli.rb
+lib/rubocop/cop/commissioner.rb
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/lint/assignment_in_condition.rb
+lib/rubocop/cop/lint/block_alignment.rb
+lib/rubocop/cop/style/block_nesting.rb
+lib/rubocop/cop/style/collection_methods.rb
+lib/rubocop/cop/style/comment_annotation.rb
+lib/rubocop/cop/style/dot_position.rb
+lib/rubocop/cop/style/empty_line_between_defs.rb
+lib/rubocop/cop/style/favor_modifier.rb
+lib/rubocop/cop/style/line_length.rb
+lib/rubocop/cop/style/method_length.rb
+lib/rubocop/cop/style/parameter_lists.rb
+lib/rubocop/cop/style/parentheses_around_condition.rb
+lib/rubocop/cop/style/redundant_self.rb
+lib/rubocop/cop/style/regexp_literal.rb
+lib/rubocop/cop/style/single_line_methods.rb
+lib/rubocop/cop/style/surrounding_space.rb
+lib/rubocop/cop/style/symbol_name.rb
+lib/rubocop/cop/style/trivial_accessors.rb
+lib/rubocop/cop/team.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cop/commissioner_spec.rb
+spec/rubocop/cop/cop_spec.rb
+spec/rubocop/cop/lint/assignment_in_condition_spec.rb
+spec/rubocop/cop/style/block_nesting_spec.rb
+spec/rubocop/cop/style/collection_methods_spec.rb
+spec/rubocop/cop/style/colon_method_call_spec.rb
+spec/rubocop/cop/style/comment_annotation_spec.rb
+spec/rubocop/cop/style/dot_position_spec.rb
+spec/rubocop/cop/style/empty_line_between_defs_spec.rb
+spec/rubocop/cop/style/favor_modifier_spec.rb
+spec/rubocop/cop/style/line_length_spec.rb
+spec/rubocop/cop/style/method_length_spec.rb
+spec/rubocop/cop/style/parameter_lists_spec.rb
+spec/rubocop/cop/style/parentheses_around_condition_spec.rb
+spec/rubocop/cop/style/regexp_literal_spec.rb
+spec/rubocop/cop/style/semicolon_spec.rb
+spec/rubocop/cop/style/single_line_methods_spec.rb
+spec/rubocop/cop/style/space_inside_hash_literal_braces_spec.rb
+spec/rubocop/cop/style/symbol_name_spec.rb
+spec/rubocop/cop/style/trivial_accessors_spec.rb
+spec/rubocop/cop/team_spec.rb
+spec/spec_helper.rb
+spec/support/shared_context.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 99 is -> 
+{ 8e9bbab8fa467367b4ddd07f423d37941632299b -> 747a59f90b7ee10607452de21a0343e5f3066357 } is a revert
+{ c73ab98d5b021ced4b1e235e01ef2d49b5404c7c -> a46748e60ce77efeb4edc9fa15375de5c66230a1 }
+Partial Revert commits SHA are -> 
+747a59f90b7ee10607452de21a0343e5f3066357 - revert - a46748e60ce77efeb4edc9fa15375de5c66230a1
+---> The reverted commit sha is - 747a59f90b7ee10607452de21a0343e5f3066357
+Commit message - Simpler offence message reporting logic
+
+Started phasing out inlined offence message for a more structured
+Cop#message method.
+---> The original commit sha is - a46748e60ce77efeb4edc9fa15375de5c66230a1
+Commit message - Merge pull request #457 from chastell/hash_syntax_for_numbers
+
+Don’t trigger HashSyntax on digit-starting keys
+---> The files with partial_reverts are:-
+spec/rubocop/cop/style/hash_syntax_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 100 is -> 
+{ 60eb44d1cdecd98b46d2a4f72d00b4ab42ad15e8 -> 92e5b5ef5d45fc13655b42604c4d5ee2e170aff3 } is a revert
+{ bd45d2549511189b5bb4f43d4ab8562b82392420 -> fc575fd7ad011f5050288ee4ff9b6746807f9679 }
+Partial Revert commits SHA are -> 
+92e5b5ef5d45fc13655b42604c4d5ee2e170aff3 - revert - fc575fd7ad011f5050288ee4ff9b6746807f9679
+---> The reverted commit sha is - 92e5b5ef5d45fc13655b42604c4d5ee2e170aff3
+Commit message - Refactor add_offence and auto-correct logic
+
+* introduce `convention` and `warning` wrappers around add_offence
+* add node to the offence info
+* call `autocorrect_action` from `add_offence` instead of explicitly
+---> The original commit sha is - fc575fd7ad011f5050288ee4ff9b6746807f9679
+Commit message - Fix auto-correction in AlignParameters.
+
+Code was commented out in a previous refactoring. Using an instance
+variable to convey the argument for the auto-correction seems to be
+the best solution for the current implementation of the Cop class.
+---> The files with partial_reverts are:-
+spec/rubocop/cop/style/align_parameters_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 101 is -> 
+{ 8e9bbab8fa467367b4ddd07f423d37941632299b -> 747a59f90b7ee10607452de21a0343e5f3066357 } is a revert
+{ bd45d2549511189b5bb4f43d4ab8562b82392420 -> fc575fd7ad011f5050288ee4ff9b6746807f9679 }
+Partial Revert commits SHA are -> 
+747a59f90b7ee10607452de21a0343e5f3066357 - revert - fc575fd7ad011f5050288ee4ff9b6746807f9679
+---> The reverted commit sha is - 747a59f90b7ee10607452de21a0343e5f3066357
+Commit message - Simpler offence message reporting logic
+
+Started phasing out inlined offence message for a more structured
+Cop#message method.
+---> The original commit sha is - fc575fd7ad011f5050288ee4ff9b6746807f9679
+Commit message - Fix auto-correction in AlignParameters.
+
+Code was commented out in a previous refactoring. Using an instance
+variable to convey the argument for the auto-correction seems to be
+the best solution for the current implementation of the Cop class.
+---> The files with partial_reverts are:-
+spec/rubocop/cop/style/align_parameters_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 102 is -> 
+{ 60ab1017b14b2771a655b551f39c0968936f2803 -> 2f3876158a65f5bcbd8bf62e00892bf495ae0356 } is a revert
+{ 2f3876158a65f5bcbd8bf62e00892bf495ae0356 -> ca37b0add4ef44e859716647710ea2887f1c3e09 }
+Partial Revert commits SHA are -> 
+2f3876158a65f5bcbd8bf62e00892bf495ae0356 - revert - ca37b0add4ef44e859716647710ea2887f1c3e09
+---> The reverted commit sha is - 2f3876158a65f5bcbd8bf62e00892bf495ae0356
+Commit message - Add auto-correction for DefParentheses
+---> The original commit sha is - ca37b0add4ef44e859716647710ea2887f1c3e09
+Commit message - Merge pull request #446 from yujinakayama/drop-silent-option
+
+Drop -s/--silent option
+---> The files with partial_reverts are:-
+lib/rubocop/cli.rb
+lib/rubocop/formatter/emacs_style_formatter.rb
+lib/rubocop/formatter/file_list_formatter.rb
+lib/rubocop/formatter/formatter_set.rb
+lib/rubocop/formatter/progress_formatter.rb
+lib/rubocop/formatter/simple_text_formatter.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/formatter/emacs_style_formatter_spec.rb
+spec/rubocop/formatter/file_list_formatter_spec.rb
+spec/rubocop/formatter/progress_formatter_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 103 is -> 
+{ ed95b097c9688f0f483db7c757a93c5e40df6cba -> 629eb9a099eba08bf3cccce3dced7adba8887659 } is a revert
+{ b5fafbf65ccb5d31e1e89f1fce743247f7bfaffe -> 77d65f0bc5489db82823561616fb39dcc5d365a5 }
+Partial Revert commits SHA are -> 
+629eb9a099eba08bf3cccce3dced7adba8887659 - revert - 77d65f0bc5489db82823561616fb39dcc5d365a5
+---> The reverted commit sha is - 629eb9a099eba08bf3cccce3dced7adba8887659
+Commit message - Renamed CopCount formatter to OFfenceCount formatter
+---> The original commit sha is - 77d65f0bc5489db82823561616fb39dcc5d365a5
+Commit message - Merge pull request #441 from petehamilton/master
+
+Renamed CopCount formatter to OffenceCount formatter
+---> The files with partial_reverts are:-
+config/enabled.yml
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/lint/parentheses_as_grouped_expression.rb
+lib/rubocop/cop/style/method_and_variable_snake_case.rb
+lib/rubocop/cop/style/space_after_method_name.rb
+spec/rubocop/cop/lint/parentheses_as_grouped_expression_spec.rb
+spec/rubocop/cop/style/space_after_method_name_spec.rb
+spec/rubocop/source_parser_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 104 is -> 
+{ de4710edbe5218ed63f2225495d688795d41b894 -> c42ba2e071bd4e89a8998f35f13e648d59db5dd9 } is a revert
+{ c42ba2e071bd4e89a8998f35f13e648d59db5dd9 -> 569d224817ab1adf3380ec9b19c1cc49f18aa6c9 }
+Partial Revert commits SHA are -> 
+c42ba2e071bd4e89a8998f35f13e648d59db5dd9 - revert - 569d224817ab1adf3380ec9b19c1cc49f18aa6c9
+---> The reverted commit sha is - c42ba2e071bd4e89a8998f35f13e648d59db5dd9
+Commit message - New cop SignalException
+---> The original commit sha is - 569d224817ab1adf3380ec9b19c1cc49f18aa6c9
+Commit message - Merge pull request #422 from markijbema/trivial-accessors-whitelist
+
+Trivial accessors whitelist
+---> The files with partial_reverts are:-
+CONTRIBUTING.md
+config/default.yml
+lib/rubocop/cop/style/trivial_accessors.rb
+spec/rubocop/cops/style/trivial_accessors_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 105 is -> 
+{ ef0e21a4105470836f721fc13c2a3d0f2a29d81c -> 115de6c6f16c9437b1131200cf13bd03a7b4e00c } is a revert
+{ 115de6c6f16c9437b1131200cf13bd03a7b4e00c -> 7e527bfddd84547e5e203b4ce232f1b2554faf80 }
+Partial Revert commits SHA are -> 
+115de6c6f16c9437b1131200cf13bd03a7b4e00c - revert - 7e527bfddd84547e5e203b4ce232f1b2554faf80
+---> The reverted commit sha is - 115de6c6f16c9437b1131200cf13bd03a7b4e00c
+Commit message - Upgrade parser gem dependency to 2.0.0.pre6
+
+* Fix failing specs
+* Fix string literal test to handle a nil begin
+---> The original commit sha is - 7e527bfddd84547e5e203b4ce232f1b2554faf80
+Commit message - Merge pull request #412 from rom-rb/upgrade-parser-dependency
+
+Upgrade parser gem dependency to 2.0.0.pre6
+---> The files with partial_reverts are:-
+CHANGELOG.md
+lib/rubocop/cop/lint/block_alignment.rb
+spec/rubocop/cops/lint/block_alignment_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 106 is -> 
+{ c590fdb2d5a36fc30f441494b385bb73c668891c -> 4db1bb255f8a6e90dae4b633bf01cd7bb40eaa69 } is a revert
+{ b6a46d5272b72a1602e5a0f2132c76e93efc3a39 -> 3acd1be73f5986f74115f603631babc781b977c4 }
+Partial Revert commits SHA are -> 
+4db1bb255f8a6e90dae4b633bf01cd7bb40eaa69 - revert - 3acd1be73f5986f74115f603631babc781b977c4
+---> The reverted commit sha is - 4db1bb255f8a6e90dae4b633bf01cd7bb40eaa69
+Commit message - Remove unneeded alias name for DisabledConfigFormatter
+
+The alias names of builtin formatters are just for users.
+We can specify the class directly because DisabledConfigFormatter is not
+exposed to users.
+---> The original commit sha is - 3acd1be73f5986f74115f603631babc781b977c4
+Commit message - Merge pull request #401 from jonas054/fix_comment_annotation
+
+Fix comment annotation
+---> The files with partial_reverts are:-
+CHANGELOG.md
+config/default.yml
+lib/rubocop/cop/style/comment_annotation.rb
+spec/rubocop/cops/style/comment_annotation_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 107 is -> 
+{ 66afdce5a2f06dddeef56bb0407958d8a227bc68 -> 3193be805464b5e311db893a0d7992dc392e777f } is a revert
+{ 3193be805464b5e311db893a0d7992dc392e777f -> c5bebd4aca686f1467a054e157a96d6cc6008896 }
+Partial Revert commits SHA are -> 
+3193be805464b5e311db893a0d7992dc392e777f - revert - c5bebd4aca686f1467a054e157a96d6cc6008896
+---> The reverted commit sha is - 3193be805464b5e311db893a0d7992dc392e777f
+Commit message - Merge pull request #368 from edzhelyov/restore-autocorrect
+
+Restore autocorrect
+---> The original commit sha is - c5bebd4aca686f1467a054e157a96d6cc6008896
+Commit message - Merge pull request #371 from jawwad/add-validates_uniqueness_of
+
+Also check for usage of 'validates_uniqueness_of' when using '--rails'
+---> The files with partial_reverts are:-
+lib/rubocop/cop/rails/validation.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 108 is -> 
+{ b5953d087a28bb2d30bfb5cfcaa3526bd43e303d -> a2fd7204693383d884759ce59dc2411182126930 } is a revert
+{ c3464ac509fd2ea4178efb51c5d6da392e50b7a9 -> 8551923383585cb8a11f13d2ec0fadba73e8669c }
+Partial Revert commits SHA are -> 
+a2fd7204693383d884759ce59dc2411182126930 - revert - 8551923383585cb8a11f13d2ec0fadba73e8669c
+---> The reverted commit sha is - a2fd7204693383d884759ce59dc2411182126930
+Commit message - Allow safe assignment in ParenthesesAroundCondition (fixes #356)
+---> The original commit sha is - 8551923383585cb8a11f13d2ec0fadba73e8669c
+Commit message - Merge pull request #365 from yujinakayama/additional-parsing-refactoring
+
+Additional parsing refactoring
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+lib/rubocop/cli.rb
+lib/rubocop/cop/commissioner.rb
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/lint/shadowing_outer_local_variable.rb
+lib/rubocop/cop/lint/unused_local_variable.rb
+lib/rubocop/cop/offence.rb
+lib/rubocop/cop/style/access_control.rb
+lib/rubocop/cop/style/ascii_comments.rb
+lib/rubocop/cop/style/ascii_identifiers.rb
+lib/rubocop/cop/style/block_comments.rb
+lib/rubocop/cop/style/block_nesting.rb
+lib/rubocop/cop/style/comment_annotation.rb
+lib/rubocop/cop/style/documentation.rb
+lib/rubocop/cop/style/empty_lines.rb
+lib/rubocop/cop/style/encoding.rb
+lib/rubocop/cop/style/end_of_line.rb
+lib/rubocop/cop/style/favor_modifier.rb
+lib/rubocop/cop/style/leading_comment_space.rb
+lib/rubocop/cop/style/line_continuation.rb
+lib/rubocop/cop/style/line_length.rb
+lib/rubocop/cop/style/method_and_variable_snake_case.rb
+lib/rubocop/cop/style/semicolon.rb
+lib/rubocop/cop/style/space_after_comma_etc.rb
+lib/rubocop/cop/style/surrounding_space.rb
+lib/rubocop/cop/style/tab.rb
+lib/rubocop/cop/style/trailing_whitespace.rb
+lib/rubocop/processed_source.rb
+lib/rubocop/source_parser.rb
+spec/rubocop/cops/commissioner_spec.rb
+spec/rubocop/cops/offence_spec.rb
+spec/rubocop/cops/variable_inspector_spec.rb
+spec/rubocop/processed_source_spec.rb
+spec/rubocop/source_parser_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 109 is -> 
+{ 3b7d7cb16bb98fda62511bb311e65dbe7cc8df4c -> 5dbf8920d870a453c5d884966ff16d54dbd8eb37 } is a revert
+{ 15267ac1c3a504761127be103ee21cf19538f1a7 -> 415c60ab29a2828835b7e9503cbffa8035444778 }
+Partial Revert commits SHA are -> 
+5dbf8920d870a453c5d884966ff16d54dbd8eb37 - revert - 415c60ab29a2828835b7e9503cbffa8035444778
+---> The reverted commit sha is - 5dbf8920d870a453c5d884966ff16d54dbd8eb37
+Commit message - Support method chains for block end alignment checks.
+
+Fixes #346.
+---> The original commit sha is - 415c60ab29a2828835b7e9503cbffa8035444778
+Commit message - Merge pull request #359 from yujinakayama/source-parser
+
+Extract source parsing logic to SourceParser
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+lib/rubocop/cli.rb
+lib/rubocop/source_parser.rb
+spec/rubocop/cops/variable_inspector_spec.rb
+spec/rubocop/source_parser_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 110 is -> 
+{ feeeeb47bb5c9ff0c95f0864f4d755164766fea0 -> 01d9874af551a01faa8888b0838094aee1a7d392 } is a revert
+{ 01d9874af551a01faa8888b0838094aee1a7d392 -> 3827b4aecca855317c0647049866b7264ce23728 }
+Partial Revert commits SHA are -> 
+01d9874af551a01faa8888b0838094aee1a7d392 - revert - 3827b4aecca855317c0647049866b7264ce23728
+---> The reverted commit sha is - 01d9874af551a01faa8888b0838094aee1a7d392
+Commit message - Initial change that introduce the Commissioner class
+---> The original commit sha is - 3827b4aecca855317c0647049866b7264ce23728
+Commit message - Improve commissioner
+
+* Raise exceptions when required. This helps in isolated testing.
+* Only call methods that are defined.
+---> The files with partial_reverts are:-
+spec/rubocop/cops/style/dot_position_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 111 is -> 
+{ 101c461ae55e5862ea76b60c27e2161fd739b72d -> 54670f8810a34aac16f689f0388cf1aba7cf41e1 } is a revert
+{ ac15050422afffe238bfbf9b2c9255c1ffd6d631 -> af4ecce9aa84c1fb73093aaf3431ec538f365308 }
+Partial Revert commits SHA are -> 
+54670f8810a34aac16f689f0388cf1aba7cf41e1 - revert - af4ecce9aa84c1fb73093aaf3431ec538f365308
+---> The reverted commit sha is - 54670f8810a34aac16f689f0388cf1aba7cf41e1
+Commit message - Refactor a bit
+---> The original commit sha is - af4ecce9aa84c1fb73093aaf3431ec538f365308
+Commit message - Update changelog
+---> The files with partial_reverts are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 112 is -> 
+{ 77207efa22701595be84ad34b6a4530a128dfc61 -> 8c292fec79f3a50038b308765af0453311df66f9 } is a revert
+{ 1f12f8d32fbc719dc81fa089971147404280d5e9 -> 646e8e65f80fd18e15551bfaaac567dab2c37135 }
+Partial Revert commits SHA are -> 
+8c292fec79f3a50038b308765af0453311df66f9 - revert - 646e8e65f80fd18e15551bfaaac567dab2c37135
+---> The reverted commit sha is - 8c292fec79f3a50038b308765af0453311df66f9
+Commit message - Remove special handling of class_eval.
+
+It was a mistake to make class_eval blocks a special case. They are
+not special, and can be handled like other code.
+---> The original commit sha is - 646e8e65f80fd18e15551bfaaac567dab2c37135
+Commit message - Merge pull request #342 from yujinakayama/instantiate-config-store
+
+Change ConfigStore state handling from module to instance
+---> The files with partial_reverts are:-
+lib/rubocop/cli.rb
+lib/rubocop/config_store.rb
+spec/rubocop/config_spec.rb
+spec/rubocop/config_store_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 113 is -> 
+{ 5dcddc377910a033f3443d996ddd21d7ed2938d6 -> 6aba3591627295cf27bd74570daab1aaffb3e8b7 } is a revert
+{ 704e51958c67e352c446aefe3eca666db4f8e2bd -> b9e413fd5d7d8cd217bb8e52be8c72a1cb10e69c }
+Partial Revert commits SHA are -> 
+6aba3591627295cf27bd74570daab1aaffb3e8b7 - revert - b9e413fd5d7d8cd217bb8e52be8c72a1cb10e69c
+---> The reverted commit sha is - 6aba3591627295cf27bd74570daab1aaffb3e8b7
+Commit message - Rename DetailsFormatter to ClangStyleFormatter (#274)
+---> The original commit sha is - b9e413fd5d7d8cd217bb8e52be8c72a1cb10e69c
+Commit message - Merge pull request #311 from yujinakayama/fix-json-formatter
+
+Fix exception at location.real_column in the JSON formatter
+---> The files with partial_reverts are:-
+lib/rubocop/formatter/json_formatter.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 114 is -> 
+{ 4cdc500098ba7f1d8fc18d4b5269f2889913654e -> 8124d00fd6e3d07c0b5646f1b8a3cfb4bfd2e032 } is a revert
+{ 8124d00fd6e3d07c0b5646f1b8a3cfb4bfd2e032 -> 6cb1978e9b9f842143438e24849443da28666f07 }
+Partial Revert commits SHA are -> 
+8124d00fd6e3d07c0b5646f1b8a3cfb4bfd2e032 - revert - 6cb1978e9b9f842143438e24849443da28666f07
+---> The reverted commit sha is - 8124d00fd6e3d07c0b5646f1b8a3cfb4bfd2e032
+Commit message - Add new cop CharacterLiteral
+---> The original commit sha is - 6cb1978e9b9f842143438e24849443da28666f07
+Commit message - Merge pull request #301 from jonas054/fix_word_array
+
+Handle arrays with character literals in WordArray.
+---> The files with partial_reverts are:-
+lib/rubocop/cop/style/word_array.rb
+spec/rubocop/cops/style/word_array_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 115 is -> 
+{ 142d60e875cafaf84aa007994be7228fbfa513b8 -> e5513f16da93f9d06aaa2b3053425a3dea5654d1 } is a revert
+{ e5513f16da93f9d06aaa2b3053425a3dea5654d1 -> 4f9e4855d2805790e8e06a16fe3e2326e4083eca }
+Partial Revert commits SHA are -> 
+e5513f16da93f9d06aaa2b3053425a3dea5654d1 - revert - 4f9e4855d2805790e8e06a16fe3e2326e4083eca
+---> The reverted commit sha is - e5513f16da93f9d06aaa2b3053425a3dea5654d1
+Commit message - Update CHANGELOG and README.
+---> The original commit sha is - 4f9e4855d2805790e8e06a16fe3e2326e4083eca
+Commit message - Merge pull request #295 from jonas054/fix_exclude_problem
+
+Get config parameter AllCops/Excludes from highest config file in path.
+---> The files with partial_reverts are:-
+lib/rubocop/cop/lint/unused_local_variable.rb
+spec/rubocop/cops/lint/unused_local_variable_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 116 is -> 
+{ 70da846598f9b2731cad5287b07a67e981a44676 -> ac47fdf72db7635b975df6c15c7b46bed8836e6b } is a revert
+{ b77e699aedb839155ae5a17e73153281f939bbec -> 8f6b8eb9b84d3d492c2319ca7d8212ab90cd6b3b }
+Partial Revert commits SHA are -> 
+ac47fdf72db7635b975df6c15c7b46bed8836e6b - revert - 8f6b8eb9b84d3d492c2319ca7d8212ab90cd6b3b
+---> The reverted commit sha is - ac47fdf72db7635b975df6c15c7b46bed8836e6b
+Commit message - Continue with inspections after syntax errors when possible.
+---> The original commit sha is - 8f6b8eb9b84d3d492c2319ca7d8212ab90cd6b3b
+Commit message - Handle the changed behavior of Parser::Base#tokenize at 2.0.0.beta6
+
+It may return nil for AST even though there are no syntax errors.
+e.g. sources which contain only comments
+
+This change makes RuboCop always abort further inspection
+if there are syntax errors.
+---> The files with partial_reverts are:-
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 117 is -> 
+{ 9c8b32ad0050c20d98e016ce324339909e1a6289 -> 4eef94d3a73cc044f068bbdf99f94ac226f4edfd } is a revert
+{ 4eef94d3a73cc044f068bbdf99f94ac226f4edfd -> fcf99e6408b03eacc33d9c7d8b80fc45de8aae76 }
+Partial Revert commits SHA are -> 
+4eef94d3a73cc044f068bbdf99f94ac226f4edfd - revert - fcf99e6408b03eacc33d9c7d8b80fc45de8aae76
+---> The reverted commit sha is - 4eef94d3a73cc044f068bbdf99f94ac226f4edfd
+Commit message - Merge pull request #279 from yujinakayama/fix-jruby-and-rubinius-build
+
+Fix JRuby and Rubinius build
+---> The original commit sha is - fcf99e6408b03eacc33d9c7d8b80fc45de8aae76
+Commit message - Merge pull request #280 from lee-dohm/version
+
+Update version number to match CHANGELOG and rubygems.org
+---> The files with partial_reverts are:-
+lib/rubocop/version.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 118 is -> 
+{ 2db58c8a209efe7962bcd08c5fc2083c2e1611cd -> 9134725cb29779b3abfec7ae2550431759bdc75b } is a revert
+{ 804a833e4cd64670cc3a06e59815fa16c6df93e6 -> 50363c515622161ac613a553259615e0afcc0d5b }
+Partial Revert commits SHA are -> 
+9134725cb29779b3abfec7ae2550431759bdc75b - revert - 50363c515622161ac613a553259615e0afcc0d5b
+---> The reverted commit sha is - 9134725cb29779b3abfec7ae2550431759bdc75b
+Commit message - Do not check for space around operators called with method syntax.
+---> The original commit sha is - 50363c515622161ac613a553259615e0afcc0d5b
+Commit message - Merge pull request #268 from chulkilee/do-not-read-excluded
+
+Do not read excluded files for ruby shebang lines
+---> The files with partial_reverts are:-
+lib/rubocop/cli.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 119 is -> 
+{ 223a7e21e5e54fe1db6b238d0501664385f534a6 -> 63be1eee5eab6bdd06f1678692141f686323e9a3 } is a revert
+{ 5cf58f1c3cc7948b25362f73a699a321ef9d0e5e -> 8fd30007000906e9a99c1c0185215efa20ad1231 }
+Partial Revert commits SHA are -> 
+63be1eee5eab6bdd06f1678692141f686323e9a3 - revert - 8fd30007000906e9a99c1c0185215efa20ad1231
+---> The reverted commit sha is - 63be1eee5eab6bdd06f1678692141f686323e9a3
+Commit message - Print relative paths if the paths are under the working directory
+
+This affects to the simple/progress formatters.
+---> The original commit sha is - 8fd30007000906e9a99c1c0185215efa20ad1231
+Commit message - Merge pull request #261 from jonas054/fix_location_bug
+
+Fix bugs in calls to add_offence.
+---> The files with partial_reverts are:-
+lib/rubocop/cop/blocks.rb
+lib/rubocop/cop/case_equality.rb
+lib/rubocop/cop/case_indentation.rb
+lib/rubocop/cop/class_and_module_camel_case.rb
+lib/rubocop/cop/class_methods.rb
+lib/rubocop/cop/collection_methods.rb
+lib/rubocop/cop/colon_method_call.rb
+lib/rubocop/cop/offence.rb
+spec/rubocop/cops/offence_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 120 is -> 
+{ 384226e3bec357475732521ca5e0436e006a89cd -> 05c5c4967ea1319d07029adba9b1d870bfb6aba9 } is a revert
+{ 05c5c4967ea1319d07029adba9b1d870bfb6aba9 -> 3bd91cffe40689e02e5814c2f4aedc40f362c35e }
+Partial Revert commits SHA are -> 
+05c5c4967ea1319d07029adba9b1d870bfb6aba9 - revert - 3bd91cffe40689e02e5814c2f4aedc40f362c35e
+---> The reverted commit sha is - 05c5c4967ea1319d07029adba9b1d870bfb6aba9
+Commit message - New cop `EndAlignment`
+---> The original commit sha is - 3bd91cffe40689e02e5814c2f4aedc40f362c35e
+Commit message - Merge pull request #248 from jonas054/fix_double_quoted_unicode
+
+Correct handling of unicode escapes within double quotes.
+---> The files with partial_reverts are:-
+lib/rubocop/cop/string_literals.rb
+spec/rubocop/cops/string_literals_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 121 is -> 
+{ 9ad9acb117e30602919fdf45622f2a1d7e98fad2 -> 281d2f46b30a295a2e2d7d1a26a626d65c42ee13 } is a revert
+{ de0591dea942fe1e32e6185d759f453574c31200 -> 13b2f7bbb85958aa051873d8a1495bfce660e142 }
+Partial Revert commits SHA are -> 
+281d2f46b30a295a2e2d7d1a26a626d65c42ee13 - revert - 13b2f7bbb85958aa051873d8a1495bfce660e142
+---> The reverted commit sha is - 281d2f46b30a295a2e2d7d1a26a626d65c42ee13
+Commit message - Update StringLiterals based on review comments.
+---> The original commit sha is - 13b2f7bbb85958aa051873d8a1495bfce660e142
+Commit message - Merge pull request #217 from jonas054/fix_config_from_disabled_cop
+
+Make sure even disabled cops get their configuration set.
+---> The files with partial_reverts are:-
+lib/rubocop/cli.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 122 is -> 
+{ de2e1949c196c8c61d9a179cca3e9d4714d6f981 -> 9ad9acb117e30602919fdf45622f2a1d7e98fad2 } is a revert
+{ 9ad9acb117e30602919fdf45622f2a1d7e98fad2 -> 281d2f46b30a295a2e2d7d1a26a626d65c42ee13 }
+Partial Revert commits SHA are -> 
+9ad9acb117e30602919fdf45622f2a1d7e98fad2 - revert - 281d2f46b30a295a2e2d7d1a26a626d65c42ee13
+---> The reverted commit sha is - 9ad9acb117e30602919fdf45622f2a1d7e98fad2
+Commit message - Make sure even disabled cops get their configuration set.
+
+Other cops may depend on it.
+---> The original commit sha is - 281d2f46b30a295a2e2d7d1a26a626d65c42ee13
+Commit message - Update StringLiterals based on review comments.
+---> The files with partial_reverts are:-
+lib/rubocop/cli.rb
+lib/rubocop/cop/favor_modifier.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cops/favor_modifier_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 123 is -> 
+{ c9ac34af107db8ab6227fe97ce7d40599b20bfb9 -> 7f29e0f02d665d481456c77ce60737877146ce9e } is a revert
+{ 7f87fa6dbf6abac89c6996443e7be144d7d1f7a0 -> d3e4fcae154ad60672017f3b0334035bae085837 }
+Partial Revert commits SHA are -> 
+7f29e0f02d665d481456c77ce60737877146ce9e - revert - d3e4fcae154ad60672017f3b0334035bae085837
+---> The reverted commit sha is - 7f29e0f02d665d481456c77ce60737877146ce9e
+Commit message - Mark some cops that would be harder to port to Parser as TODO
+---> The original commit sha is - d3e4fcae154ad60672017f3b0334035bae085837
+Commit message - Port AsciiComments and LeadingCommentSpace to Parser.
+---> The files with partial_reverts are:-
+spec/rubocop/cops/ascii_comments_spec.rb
+spec/rubocop/cops/leading_comment_space_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 124 is -> 
+{ 3aa3c2d9dbfd30c20b02065e1796847cb023f05a -> 1cdf6850b0ca0d497d0059cd94e639dda360635b } is a revert
+{ 1cdf6850b0ca0d497d0059cd94e639dda360635b -> 073f86816369c5838b13223bae3bcfa00060edcf }
+Partial Revert commits SHA are -> 
+1cdf6850b0ca0d497d0059cd94e639dda360635b - revert - 073f86816369c5838b13223bae3bcfa00060edcf
+---> The reverted commit sha is - 1cdf6850b0ca0d497d0059cd94e639dda360635b
+Commit message - Fix --only option.
+
+Only the selected cop was set up with configuration, so if one cop
+depended on the configuration of another, it would crash when called
+with --only because LineLength.config (for example) was nil.
+---> The original commit sha is - 073f86816369c5838b13223bae3bcfa00060edcf
+Commit message - Merge pull request #194 from jonas054/fix_only_option
+
+Fix --only option.
+---> The files with partial_reverts are:-
+lib/rubocop/cop/space_after_control_keyword.rb
+spec/rubocop/cops/space_after_control_keyword_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 125 is -> 
+{ 91636917e0135da79856276b509bdbe2906912d0 -> bfa62a099cf2bab60a8eaf7ab1c34933efc9e72d } is a revert
+{ 0676fb8b0311409a19f8019846ff9da73eec6757 -> 156b29190144b308bc2f65469bfff31734874c33 }
+Partial Revert commits SHA are -> 
+bfa62a099cf2bab60a8eaf7ab1c34933efc9e72d - revert - 156b29190144b308bc2f65469bfff31734874c33
+---> The reverted commit sha is - bfa62a099cf2bab60a8eaf7ab1c34933efc9e72d
+Commit message - Merge pull request #189 from jonas054/port_if_then_else
+
+Port if_then_else to Parser.
+---> The original commit sha is - 156b29190144b308bc2f65469bfff31734874c33
+Commit message - Merge pull request #190 from jonas054/port_favor_unless_over_negated_if
+
+Port favor unless over negated if
+---> The files with partial_reverts are:-
+lib/rubocop/cop/favor_unless_over_negated_if.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 126 is -> 
+{ a18d1ef98a2d14b791e1b4e2e526e04bae2f40b8 -> fcc944a94cc9db806055a28aa1930e47fbd6c301 } is a revert
+{ 91636917e0135da79856276b509bdbe2906912d0 -> bfa62a099cf2bab60a8eaf7ab1c34933efc9e72d }
+Partial Revert commits SHA are -> 
+fcc944a94cc9db806055a28aa1930e47fbd6c301 - revert - bfa62a099cf2bab60a8eaf7ab1c34933efc9e72d
+---> The reverted commit sha is - fcc944a94cc9db806055a28aa1930e47fbd6c301
+Commit message - Change favor_unless_over_negated_if according to @whitequark's comment.
+---> The original commit sha is - bfa62a099cf2bab60a8eaf7ab1c34933efc9e72d
+Commit message - Merge pull request #189 from jonas054/port_if_then_else
+
+Port if_then_else to Parser.
+---> The files with partial_reverts are:-
+lib/rubocop/cop/if_then_else.rb
+lib/rubocop/cop/surrounding_space.rb
+spec/rubocop/cops/if_with_semicolon_spec.rb
+spec/rubocop/cops/multiline_if_then_spec.rb
+spec/rubocop/cops/one_line_conditional_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 127 is -> 
+{ b06b2cd9343529f5a6820252310fbbf00891dc98 -> e0a26471f16d4d280aab3e5550cf6e91ee01dd86 } is a revert
+{ a4851ebcaaab4fb304f4c5a67d8fd4c8cbf00ee1 -> 0ac57e8445bf8f65a8d9142581b979d32e958a12 }
+Partial Revert commits SHA are -> 
+e0a26471f16d4d280aab3e5550cf6e91ee01dd86 - revert - 0ac57e8445bf8f65a8d9142581b979d32e958a12
+---> The reverted commit sha is - e0a26471f16d4d280aab3e5550cf6e91ee01dd86
+Commit message - Option --config and file .rubocop.yml added.
+---> The original commit sha is - 0ac57e8445bf8f65a8d9142581b979d32e958a12
+Commit message - Folded the two block cops into one
+---> The files with partial_reverts are:-
+spec/rubocop/cops/multiline_blocks_spec.rb
+spec/rubocop/cops/single_line_blocks_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 128 is -> 
+{ a8dccdf056c95bd68df0b813a49d15030c1be078 -> f6e2ddc443f2d8fd19872706936d311a574591be } is a revert
+{ fb69e3a64dd2b313bc0c53e96815770e4b20e441 -> c077f715b80c0f5b0275bde622c7eb4f0b2b0997 }
+Partial Revert commits SHA are -> 
+f6e2ddc443f2d8fd19872706936d311a574591be - revert - c077f715b80c0f5b0275bde622c7eb4f0b2b0997
+---> The reverted commit sha is - f6e2ddc443f2d8fd19872706936d311a574591be
+Commit message - Add new cop PercentLiterals
+---> The original commit sha is - c077f715b80c0f5b0275bde622c7eb4f0b2b0997
+Commit message - Don't require removed PercentLiterals cop
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 129 is -> 
+{ 87f31e1283f88665eb2ce40d5bbf27c22b899d3d -> e66ee2738291e03b72adec6589496aeb9531aefb } is a revert
+{ 8a774ca2f19d9c1d648fa91eda36382aad01a3ba -> aebfa3a34039a0ac62a58d194e5e33950afc9b86 }
+Partial Revert commits SHA are -> 
+e66ee2738291e03b72adec6589496aeb9531aefb - revert - aebfa3a34039a0ac62a58d194e5e33950afc9b86
+---> The reverted commit sha is - e66ee2738291e03b72adec6589496aeb9531aefb
+Commit message - Mark some stuff for porting down the road
+---> The original commit sha is - aebfa3a34039a0ac62a58d194e5e33950afc9b86
+Commit message - Merge pull request #188 from jonas054/port_favor_unless_over_negated_if
+
+Port FavorUnlessOverNegatedIf and FavorUntilOverNegatedWhile to Parser.
+---> The files with partial_reverts are:-
+spec/rubocop/cops/favor_unless_over_negated_if_spec.rb
+spec/rubocop/cops/favor_until_over_negated_while_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 130 is -> 
+{ 354771f5903409fd34988ac8ddd89b43b6f49a64 -> 41e385d45a3b03cc9f169cf8f04a15547de48c2e } is a revert
+{ 8a774ca2f19d9c1d648fa91eda36382aad01a3ba -> aebfa3a34039a0ac62a58d194e5e33950afc9b86 }
+Partial Revert commits SHA are -> 
+41e385d45a3b03cc9f169cf8f04a15547de48c2e - revert - aebfa3a34039a0ac62a58d194e5e33950afc9b86
+---> The reverted commit sha is - 41e385d45a3b03cc9f169cf8f04a15547de48c2e
+Commit message - Port ClassMethods cop to AST::Processor
+---> The original commit sha is - aebfa3a34039a0ac62a58d194e5e33950afc9b86
+Commit message - Merge pull request #188 from jonas054/port_favor_unless_over_negated_if
+
+Port FavorUnlessOverNegatedIf and FavorUntilOverNegatedWhile to Parser.
+---> The files with partial_reverts are:-
+lib/rubocop/cop/favor_unless_over_negated_if.rb
+spec/rubocop/cops/favor_unless_over_negated_if_spec.rb
+spec/rubocop/cops/favor_until_over_negated_while_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 131 is -> 
+{ 87f31e1283f88665eb2ce40d5bbf27c22b899d3d -> e66ee2738291e03b72adec6589496aeb9531aefb } is a revert
+{ f7ab7c5a91e67a43607a3d00dfc526a0f8002ec2 -> 354771f5903409fd34988ac8ddd89b43b6f49a64 }
+Partial Revert commits SHA are -> 
+e66ee2738291e03b72adec6589496aeb9531aefb - revert - 354771f5903409fd34988ac8ddd89b43b6f49a64
+---> The reverted commit sha is - e66ee2738291e03b72adec6589496aeb9531aefb
+Commit message - Mark some stuff for porting down the road
+---> The original commit sha is - 354771f5903409fd34988ac8ddd89b43b6f49a64
+Commit message - Port FavorUnlessOverNegatedIf and FavorUntilOverNegatedWhile to Parser.
+---> The files with partial_reverts are:-
+spec/rubocop/cops/favor_unless_over_negated_if_spec.rb
+spec/rubocop/cops/favor_until_over_negated_while_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 132 is -> 
+{ e66ee2738291e03b72adec6589496aeb9531aefb -> 8a09409c796b913b8b941b7a3d0ee1c1572fdf8c } is a revert
+{ 8ecf2f6d58f8dc336031b3f4db29102f713c9f47 -> ed6031cc06a29585e03cc3ec7eb863620ba198ca }
+Partial Revert commits SHA are -> 
+8a09409c796b913b8b941b7a3d0ee1c1572fdf8c - revert - ed6031cc06a29585e03cc3ec7eb863620ba198ca
+---> The reverted commit sha is - 8a09409c796b913b8b941b7a3d0ee1c1572fdf8c
+Commit message - Mark some stuff for porting down the road
+---> The original commit sha is - ed6031cc06a29585e03cc3ec7eb863620ba198ca
+Commit message - Port surrounding_space cops to Parser.
+
+Ported cops are SpaceAroundOperators, SpaceAroundBraces,
+SpaceInsideParens, SpaceInsideBrackets, SpaceInsideHashLiteralBraces,
+SpaceAroundEqualsInParameterDefault.
+---> The files with partial_reverts are:-
+spec/rubocop/cli_spec.rb
+spec/rubocop/cops/space_around_equals_in_default_parameter_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 133 is -> 
+{ c9ac34af107db8ab6227fe97ce7d40599b20bfb9 -> 7f29e0f02d665d481456c77ce60737877146ce9e } is a revert
+{ a75c8aa399db93edc1f1c64525866ac102fb8699 -> e881d402b4a7f2962eedb9c2b724cccccddf93a3 }
+Partial Revert commits SHA are -> 
+7f29e0f02d665d481456c77ce60737877146ce9e - revert - e881d402b4a7f2962eedb9c2b724cccccddf93a3
+---> The reverted commit sha is - 7f29e0f02d665d481456c77ce60737877146ce9e
+Commit message - Mark some cops that would be harder to port to Parser as TODO
+---> The original commit sha is - e881d402b4a7f2962eedb9c2b724cccccddf93a3
+Commit message - Port AsciiIdentifiers to Parser's lexer
+---> The files with partial_reverts are:-
+spec/rubocop/cops/ascii_identifiers_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 134 is -> 
+{ 7f025d739a0bf6eaef9978dc5d40587877853121 -> 0eef41420f64e2fb5d13619b0cf438a0d19cd37f } is a revert
+{ 0eef41420f64e2fb5d13619b0cf438a0d19cd37f -> a87ab07f1d41d7c968a8997544cf6cd988eb8a2b }
+Partial Revert commits SHA are -> 
+0eef41420f64e2fb5d13619b0cf438a0d19cd37f - revert - a87ab07f1d41d7c968a8997544cf6cd988eb8a2b
+---> The reverted commit sha is - 0eef41420f64e2fb5d13619b0cf438a0d19cd37f
+Commit message - Get tokens from Parser.
+
+Put the tokens argument back everywhere.
+---> The original commit sha is - a87ab07f1d41d7c968a8997544cf6cd988eb8a2b
+Commit message - Refactor CLI#inspect_file to make it shorter.
+---> The files with partial_reverts are:-
+.rubocop.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 135 is -> 
+{ fa89fafb92a968545bfd2c0c83c64f3826ad35a5 -> 2744698314ec3109413d211918c54df313f22eb2 } is a revert
+{ 63aa7524bed7851de1dcfc1a08e86373de1a680b -> d345c0d5dce9cf752b77a6cf8bdd2fb28515c507 }
+Partial Revert commits SHA are -> 
+2744698314ec3109413d211918c54df313f22eb2 - revert - d345c0d5dce9cf752b77a6cf8bdd2fb28515c507
+---> The reverted commit sha is - 2744698314ec3109413d211918c54df313f22eb2
+Commit message - New cop BraceAfterPercent
+---> The original commit sha is - d345c0d5dce9cf752b77a6cf8bdd2fb28515c507
+Commit message - Fix build
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 136 is -> 
+{ 54670f8810a34aac16f689f0388cf1aba7cf41e1 -> 4a0614244a2f0b46e83dcc18c90bead304d40728 } is a revert
+{ 4a0614244a2f0b46e83dcc18c90bead304d40728 -> acd4434bf617cc06a10d6a7256870595ad87d943 }
+Partial Revert commits SHA are -> 
+4a0614244a2f0b46e83dcc18c90bead304d40728 - revert - acd4434bf617cc06a10d6a7256870595ad87d943
+---> The reverted commit sha is - 4a0614244a2f0b46e83dcc18c90bead304d40728
+Commit message - Merge pull request #177 from yujinakayama/symbol-name
+
+Rework SymbolSnakeCase cop into SymbolName
+---> The original commit sha is - acd4434bf617cc06a10d6a7256870595ad87d943
+Commit message - Merge pull request #178 from yujinakayama/refactor
+
+Refactor a bit
+---> The files with partial_reverts are:-
+lib/rubocop/cop/method_and_variable_snake_case.rb
+lib/rubocop/cop/rescue_exception.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 137 is -> 
+{ 0789d5bfb036bffbab900321b81a36b9d42b190e -> 020be65045f58daaac2aa7b64447d5a94253fe84 } is a revert
+{ 4616ba9bc3027db5f71669f14760e2a8625bdfd1 -> 0a2a50c25c5f2d858c54c0ab0193ebffeea52a62 }
+Partial Revert commits SHA are -> 
+020be65045f58daaac2aa7b64447d5a94253fe84 - revert - 0a2a50c25c5f2d858c54c0ab0193ebffeea52a62
+---> The reverted commit sha is - 020be65045f58daaac2aa7b64447d5a94253fe84
+Commit message - Bail out if we can't find a "when ... ;" due to lack of tokens.
+
+This avoids a crash, but potentially misses a violation.
+---> The original commit sha is - 0a2a50c25c5f2d858c54c0ab0193ebffeea52a62
+Commit message - Port WhenThen to Parser
+---> The files with partial_reverts are:-
+spec/rubocop/cops/when_then_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 138 is -> 
+{ 1d5654c9a78b04e09f89fb79ae573c49c90fc244 -> 995a98d13804ef6b6f01781031b47d3e33f02678 } is a revert
+{ 995a98d13804ef6b6f01781031b47d3e33f02678 -> 1f3585f6cac5423f03c38543329916becbe48f6a }
+Partial Revert commits SHA are -> 
+995a98d13804ef6b6f01781031b47d3e33f02678 - revert - 1f3585f6cac5423f03c38543329916becbe48f6a
+---> The reverted commit sha is - 995a98d13804ef6b6f01781031b47d3e33f02678
+Commit message - Merge pull request #166 from yujinakayama/port-rescue-exception
+
+Port RescueException to Parser
+---> The original commit sha is - 1f3585f6cac5423f03c38543329916becbe48f6a
+Commit message - Merge pull request #167 from yujinakayama/fix-broken-spec
+
+Fix broken spec
+---> The files with partial_reverts are:-
+lib/rubocop/cop/array_literal.rb
+lib/rubocop/cop/hash_literal.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cops/string_literals_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 139 is -> 
+{ a2916085d6d988a5e79f45abea6b8581bf7d7823 -> 4b33e3b1dd2088c39a988e456ab57fa0e60a3c72 } is a revert
+{ 4b33e3b1dd2088c39a988e456ab57fa0e60a3c72 -> 7edf31718bdf041e0da5f63c2d27df0d7bc562de }
+Partial Revert commits SHA are -> 
+4b33e3b1dd2088c39a988e456ab57fa0e60a3c72 - revert - 7edf31718bdf041e0da5f63c2d27df0d7bc562de
+---> The reverted commit sha is - 4b33e3b1dd2088c39a988e456ab57fa0e60a3c72
+Commit message - Simplify spec a bit
+---> The original commit sha is - 7edf31718bdf041e0da5f63c2d27df0d7bc562de
+Commit message - Merge pull request #153 from jonas054/print_unrecognized_cop_once
+
+Do more caching to avoid printing same warning many times.
+---> The files with partial_reverts are:-
+CHANGELOG.md
+lib/rubocop/config.rb
+lib/rubocop/config_store.rb
+spec/rubocop/config_spec.rb
+spec/rubocop/config_store_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 140 is -> 
+{ 0617a5aba97b16f16119bd0d9f9c56ebc287bfd5 -> 6a6263d44b9a0027124ee783070b45f299638c1d } is a revert
+{ 642b4fb61cf32b681eea5b9c5ba3a64968fb3378 -> 3208726b5368f1614405d267c59f55eaa59ac888 }
+Partial Revert commits SHA are -> 
+6a6263d44b9a0027124ee783070b45f299638c1d - revert - 3208726b5368f1614405d267c59f55eaa59ac888
+---> The reverted commit sha is - 6a6263d44b9a0027124ee783070b45f299638c1d
+Commit message - Add possibility to use inherit_from in .rubocop.yml.
+
+This adds functionality for inherit_from and uses it in the new
+config/*.yml files, and also from our own .rubocop.yml.
+
+Default when no .rubocop.yml is found is to use config/default.yml,
+and all configuration files inherit implicitly from config/default.yml.
+
+Default values are not handled in code anymore, since full
+configuration is always present.
+---> The original commit sha is - 3208726b5368f1614405d267c59f55eaa59ac888
+Commit message - Merge pull request #145 from zeroed/master
+
+Fix #136
+---> The files with partial_reverts are:-
+lib/rubocop/cop/trivial_accessors.rb
+spec/rubocop/cops/trivial_accessors_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 141 is -> 
+{ 1171c20b70d090e1528e7d64e2dfbb9483d60a85 -> 3851baa0520ee18f5280f363a3ef5f44585496b0 } is a revert
+{ 86a1f9e8c8775087287e9073c213526d44c308e7 -> 7fd2f96e5192b21713d84160d0a045fbb0ce4c1c }
+Partial Revert commits SHA are -> 
+3851baa0520ee18f5280f363a3ef5f44585496b0 - revert - 7fd2f96e5192b21713d84160d0a045fbb0ce4c1c
+---> The reverted commit sha is - 3851baa0520ee18f5280f363a3ef5f44585496b0
+Commit message - Merge pull request #142 from jurriaan/small-fixes
+
+replaced if array.find {} with if array.any? {}
+---> The original commit sha is - 7fd2f96e5192b21713d84160d0a045fbb0ce4c1c
+Commit message - Add --only option for running a single cop.
+
+This is very useful for debugging, and probably good for end users
+as well.
+---> The files with partial_reverts are:-
+CHANGELOG.md
+README.md
+lib/rubocop/cli.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 142 is -> 
+{ b5d8ddea13ba346f13b9c5822170482dec08e2f3 -> 2136fa429a4021050125faa8fdd39c904274a84b } is a revert
+{ 86a1f9e8c8775087287e9073c213526d44c308e7 -> 7fd2f96e5192b21713d84160d0a045fbb0ce4c1c }
+Partial Revert commits SHA are -> 
+2136fa429a4021050125faa8fdd39c904274a84b - revert - 7fd2f96e5192b21713d84160d0a045fbb0ce4c1c
+---> The reverted commit sha is - 2136fa429a4021050125faa8fdd39c904274a84b
+Commit message - Extract some specs which are related to project rather than CLI
+---> The original commit sha is - 7fd2f96e5192b21713d84160d0a045fbb0ce4c1c
+Commit message - Add --only option for running a single cop.
+
+This is very useful for debugging, and probably good for end users
+as well.
+---> The files with partial_reverts are:-
+README.md
+lib/rubocop/cli.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 143 is -> 
+{ f71a2eedb81488769a1ab100808070d63d32b165 -> 1171c20b70d090e1528e7d64e2dfbb9483d60a85 } is a revert
+{ bb2e84356bbe0d2a1d930e3316e2719588f33028 -> 86a1f9e8c8775087287e9073c213526d44c308e7 }
+Partial Revert commits SHA are -> 
+1171c20b70d090e1528e7d64e2dfbb9483d60a85 - revert - 86a1f9e8c8775087287e9073c213526d44c308e7
+---> The reverted commit sha is - 1171c20b70d090e1528e7d64e2dfbb9483d60a85
+Commit message - Add --only option for running a single cop.
+
+This is very useful for debugging, and probably good for end users
+as well.
+---> The original commit sha is - 86a1f9e8c8775087287e9073c213526d44c308e7
+Commit message - replaced if array.find {} with if array.any? {}
+---> The files with partial_reverts are:-
+lib/rubocop/cop/hash_syntax.rb
+lib/rubocop/cop/unless_else.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 144 is -> 
+{ b5d8ddea13ba346f13b9c5822170482dec08e2f3 -> 2136fa429a4021050125faa8fdd39c904274a84b } is a revert
+{ bb2e84356bbe0d2a1d930e3316e2719588f33028 -> 86a1f9e8c8775087287e9073c213526d44c308e7 }
+Partial Revert commits SHA are -> 
+2136fa429a4021050125faa8fdd39c904274a84b - revert - 86a1f9e8c8775087287e9073c213526d44c308e7
+---> The reverted commit sha is - 2136fa429a4021050125faa8fdd39c904274a84b
+Commit message - Extract some specs which are related to project rather than CLI
+---> The original commit sha is - 86a1f9e8c8775087287e9073c213526d44c308e7
+Commit message - replaced if array.find {} with if array.any? {}
+---> The files with partial_reverts are:-
+lib/rubocop/cop/unless_else.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 145 is -> 
+{ b5d8ddea13ba346f13b9c5822170482dec08e2f3 -> 2136fa429a4021050125faa8fdd39c904274a84b } is a revert
+{ 191566814dc01fa408841a78ac9e337b9d5d0854 -> 1b3e9ce40dd32b9be4daa0973455197e906d40ef }
+Partial Revert commits SHA are -> 
+2136fa429a4021050125faa8fdd39c904274a84b - revert - 1b3e9ce40dd32b9be4daa0973455197e906d40ef
+---> The reverted commit sha is - 2136fa429a4021050125faa8fdd39c904274a84b
+Commit message - Extract some specs which are related to project rather than CLI
+---> The original commit sha is - 1b3e9ce40dd32b9be4daa0973455197e906d40ef
+Commit message - Add new cop Eval
+---> The files with partial_reverts are:-
+lib/rubocop/cop/eval.rb
+spec/rubocop/cops/eval_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 146 is -> 
+{ b5d8ddea13ba346f13b9c5822170482dec08e2f3 -> 2136fa429a4021050125faa8fdd39c904274a84b } is a revert
+{ ebad22cc0620c66f3ec29eac276d355fc1fdf851 -> 191566814dc01fa408841a78ac9e337b9d5d0854 }
+Partial Revert commits SHA are -> 
+2136fa429a4021050125faa8fdd39c904274a84b - revert - 191566814dc01fa408841a78ac9e337b9d5d0854
+---> The reverted commit sha is - 2136fa429a4021050125faa8fdd39c904274a84b
+Commit message - Extract some specs which are related to project rather than CLI
+---> The original commit sha is - 191566814dc01fa408841a78ac9e337b9d5d0854
+Commit message - Simplify a bit the ClassMethods cop
+---> The files with partial_reverts are:-
+lib/rubocop/cop/class_methods.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 147 is -> 
+{ b5d8ddea13ba346f13b9c5822170482dec08e2f3 -> 2136fa429a4021050125faa8fdd39c904274a84b } is a revert
+{ bc296a86a46bea13de4ea8686e5c6449a68c7a6f -> ebad22cc0620c66f3ec29eac276d355fc1fdf851 }
+Partial Revert commits SHA are -> 
+2136fa429a4021050125faa8fdd39c904274a84b - revert - ebad22cc0620c66f3ec29eac276d355fc1fdf851
+---> The reverted commit sha is - 2136fa429a4021050125faa8fdd39c904274a84b
+Commit message - Extract some specs which are related to project rather than CLI
+---> The original commit sha is - ebad22cc0620c66f3ec29eac276d355fc1fdf851
+Commit message - Add new cop Not
+---> The files with partial_reverts are:-
+lib/rubocop/cop/align_parameters.rb
+lib/rubocop/cop/def_parentheses.rb
+lib/rubocop/cop/not.rb
+lib/rubocop/cop/surrounding_space.rb
+spec/rubocop/cops/not_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 148 is -> 
+{ e830a36c5f818155a04e4e0dc4444d455961359d -> e53085d37235d2e70fc2b9fad3ccc00c39ec19a2 } is a revert
+{ acfe286ed1d29a15e74ec87b20f2fe45a6a09dc4 -> 3b07b69ec59e508fb24ec334a75b83b77113b68f }
+Partial Revert commits SHA are -> 
+e53085d37235d2e70fc2b9fad3ccc00c39ec19a2 - revert - 3b07b69ec59e508fb24ec334a75b83b77113b68f
+---> The reverted commit sha is - e53085d37235d2e70fc2b9fad3ccc00c39ec19a2
+Commit message - read_source cleanup
+---> The original commit sha is - 3b07b69ec59e508fb24ec334a75b83b77113b68f
+Commit message - Change FileHelper#create_file to add line feed to end of file
+---> The files with partial_reverts are:-
+spec/rubocop/configuration_spec.rb
+spec/support/file_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 149 is -> 
+{ b5d8ddea13ba346f13b9c5822170482dec08e2f3 -> 2136fa429a4021050125faa8fdd39c904274a84b } is a revert
+{ acfe286ed1d29a15e74ec87b20f2fe45a6a09dc4 -> 3b07b69ec59e508fb24ec334a75b83b77113b68f }
+Partial Revert commits SHA are -> 
+2136fa429a4021050125faa8fdd39c904274a84b - revert - 3b07b69ec59e508fb24ec334a75b83b77113b68f
+---> The reverted commit sha is - 2136fa429a4021050125faa8fdd39c904274a84b
+Commit message - Extract some specs which are related to project rather than CLI
+---> The original commit sha is - 3b07b69ec59e508fb24ec334a75b83b77113b68f
+Commit message - Change FileHelper#create_file to add line feed to end of file
+---> The files with partial_reverts are:-
+spec/support/file_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 150 is -> 
+{ 1171c20b70d090e1528e7d64e2dfbb9483d60a85 -> 3851baa0520ee18f5280f363a3ef5f44585496b0 } is a revert
+{ 3851baa0520ee18f5280f363a3ef5f44585496b0 -> b5d8ddea13ba346f13b9c5822170482dec08e2f3 }
+Partial Revert commits SHA are -> 
+3851baa0520ee18f5280f363a3ef5f44585496b0 - revert - b5d8ddea13ba346f13b9c5822170482dec08e2f3
+---> The reverted commit sha is - 3851baa0520ee18f5280f363a3ef5f44585496b0
+Commit message - Merge pull request #142 from jurriaan/small-fixes
+
+replaced if array.find {} with if array.any? {}
+---> The original commit sha is - b5d8ddea13ba346f13b9c5822170482dec08e2f3
+Commit message - Merge pull request #140 from jonas054/only_option
+
+Add --only option for running a single cop.
+---> The files with partial_reverts are:-
+CHANGELOG.md
+README.md
+lib/rubocop/cli.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 151 is -> 
+{ e830a36c5f818155a04e4e0dc4444d455961359d -> e53085d37235d2e70fc2b9fad3ccc00c39ec19a2 } is a revert
+{ 8c4dc1fd0b876c65eaa2b7c364e02b2dc7f4b521 -> c3a843a92ba254b6aa8bd1962b7aadec0df13e0b }
+Partial Revert commits SHA are -> 
+e53085d37235d2e70fc2b9fad3ccc00c39ec19a2 - revert - c3a843a92ba254b6aa8bd1962b7aadec0df13e0b
+---> The reverted commit sha is - e53085d37235d2e70fc2b9fad3ccc00c39ec19a2
+Commit message - read_source cleanup
+---> The original commit sha is - c3a843a92ba254b6aa8bd1962b7aadec0df13e0b
+Commit message - Merge pull request #135 from yujinakayama/refactor-cli-spec
+
+Refactor CLI spec
+---> The files with partial_reverts are:-
+spec/project_spec.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/configuration_spec.rb
+spec/support/file_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 152 is -> 
+{ 1cd2b2aa6eecf301eb98054c98c24dd63220c335 -> e28ef3f16b99c514edacc49e98bf45052ce8bf6b } is a revert
+{ e28ef3f16b99c514edacc49e98bf45052ce8bf6b -> ac1ec1dfba3699a1be105aefab64ffe2838683fa }
+Partial Revert commits SHA are -> 
+e28ef3f16b99c514edacc49e98bf45052ce8bf6b - revert - ac1ec1dfba3699a1be105aefab64ffe2838683fa
+---> The reverted commit sha is - e28ef3f16b99c514edacc49e98bf45052ce8bf6b
+Commit message - Merge pull request #128 from yujinakayama/refactor-cli
+
+Refactor CLI
+---> The original commit sha is - ac1ec1dfba3699a1be105aefab64ffe2838683fa
+Commit message - Merge pull request #129 from zeroed/master
+
+fixing #125
+---> The files with partial_reverts are:-
+lib/rubocop/cop/trivial_accessors.rb
+spec/rubocop/cops/trivial_accessors_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 153 is -> 
+{ eb72037948c3e48823c512ea80043fae7d9cb88a -> 2e7d2e8f4f969383119de872ac72ea03279b5d2e } is a revert
+{ 2e7d2e8f4f969383119de872ac72ea03279b5d2e -> 66cd4a1bb209ba035e754b11b4efa176dcf42089 }
+Partial Revert commits SHA are -> 
+2e7d2e8f4f969383119de872ac72ea03279b5d2e - revert - 66cd4a1bb209ba035e754b11b4efa176dcf42089
+---> The reverted commit sha is - 2e7d2e8f4f969383119de872ac72ea03279b5d2e
+Commit message - Color error messages
+---> The original commit sha is - 66cd4a1bb209ba035e754b11b4efa176dcf42089
+Commit message - Merge pull request #124 from bolandrm/patch-1
+
+update include/exclude docs
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 154 is -> 
+{ 874772c33cb406f783935cfe0ed638c65aa853b2 -> 0b9333b588825ec831368e0a2346ae2d8c149722 } is a revert
+{ 0b9333b588825ec831368e0a2346ae2d8c149722 -> d122bce093fc500ebe9fe17f408ad8f920587539 }
+Partial Revert commits SHA are -> 
+0b9333b588825ec831368e0a2346ae2d8c149722 - revert - d122bce093fc500ebe9fe17f408ad8f920587539
+---> The reverted commit sha is - 0b9333b588825ec831368e0a2346ae2d8c149722
+Commit message - Merge pull request #122 from zeroed/master
+
+Fixing Nil bug in the TrivialAccessors cop
+---> The original commit sha is - d122bce093fc500ebe9fe17f408ad8f920587539
+Commit message - Merge pull request #123 from yujinakayama/remove-unneeded-module-in-cli-spec
+
+Remove unneeded Report module wrap in CLI spec
+---> The files with partial_reverts are:-
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 155 is -> 
+{ cb211e9f2f12847c3894529a967a74abb79b1f82 -> 10ed0e49d9b235dbf369fa35975dd0d4278cef94 } is a revert
+{ c7584300f4f2152dcc6d4896ccac4be37469d6bf -> 5bea113a53f205c2ba557cdcc3d700eef8919f3a }
+Partial Revert commits SHA are -> 
+10ed0e49d9b235dbf369fa35975dd0d4278cef94 - revert - 5bea113a53f205c2ba557cdcc3d700eef8919f3a
+---> The reverted commit sha is - 10ed0e49d9b235dbf369fa35975dd0d4278cef94
+Commit message - Fix random failure spec
+
+This is about the random failure specs for interruption with Ctrl-C
+https://travis-ci.org/bbatsov/rubocop/jobs/6877252
+
+The specs were testing real behavior by running rubocop
+as a child process. However it seems to be unstable
+and also cannot be measured in coverage report.
+So rewrote them to run in thread with some stubs and mocks.
+---> The original commit sha is - 5bea113a53f205c2ba557cdcc3d700eef8919f3a
+Commit message - Merge pull request #120 from jonas054/catch_errors_in_config
+
+Issue warning when configuration contains an unrecognized name.
+---> The files with partial_reverts are:-
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 156 is -> 
+{ 10ed0e49d9b235dbf369fa35975dd0d4278cef94 -> dc70af2044e8d214bddd38e97e48fb84c64b53cf } is a revert
+{ bd404f5cf26ce110b4531be733e0f3d168d14c06 -> c7584300f4f2152dcc6d4896ccac4be37469d6bf }
+Partial Revert commits SHA are -> 
+dc70af2044e8d214bddd38e97e48fb84c64b53cf - revert - c7584300f4f2152dcc6d4896ccac4be37469d6bf
+---> The reverted commit sha is - dc70af2044e8d214bddd38e97e48fb84c64b53cf
+Commit message - #60 : Use the attr family of functions to define trivial accessors or mutators
+---> The original commit sha is - c7584300f4f2152dcc6d4896ccac4be37469d6bf
+Commit message - Merge pull request #121 from yujinakayama/fix-random-failure-spec
+
+Fix random failure spec
+---> The files with partial_reverts are:-
+lib/rubocop/cli.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 157 is -> 
+{ a1bfdb53fd49d35183c6e0696eb94d7118780d5b -> cb211e9f2f12847c3894529a967a74abb79b1f82 } is a revert
+{ cb211e9f2f12847c3894529a967a74abb79b1f82 -> 10ed0e49d9b235dbf369fa35975dd0d4278cef94 }
+Partial Revert commits SHA are -> 
+cb211e9f2f12847c3894529a967a74abb79b1f82 - revert - 10ed0e49d9b235dbf369fa35975dd0d4278cef94
+---> The reverted commit sha is - cb211e9f2f12847c3894529a967a74abb79b1f82
+Commit message - Issue warning when configuration contains an unrecognized name.
+
+Check cop names and parameter names.
+---> The original commit sha is - 10ed0e49d9b235dbf369fa35975dd0d4278cef94
+Commit message - Fix random failure spec
+
+This is about the random failure specs for interruption with Ctrl-C
+https://travis-ci.org/bbatsov/rubocop/jobs/6877252
+
+The specs were testing real behavior by running rubocop
+as a child process. However it seems to be unstable
+and also cannot be measured in coverage report.
+So rewrote them to run in thread with some stubs and mocks.
+---> The files with partial_reverts are:-
+.rubocop.yml
+CHANGELOG.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 158 is -> 
+{ 190b595d73829a457b5599e855941443785e0b0c -> ec042e3278d029f7f65eb07a258dc22138d963b0 } is a revert
+{ ec042e3278d029f7f65eb07a258dc22138d963b0 -> 8dd999750e3aaf6712c5945746ffe4354c050e5e }
+Partial Revert commits SHA are -> 
+ec042e3278d029f7f65eb07a258dc22138d963b0 - revert - 8dd999750e3aaf6712c5945746ffe4354c050e5e
+---> The reverted commit sha is - ec042e3278d029f7f65eb07a258dc22138d963b0
+Commit message - Allow some semicolons for one line definitions.
+
+Configurable checking of one line methods. Also allowing one line
+classes and modules.
+---> The original commit sha is - 8dd999750e3aaf6712c5945746ffe4354c050e5e
+Commit message - Merge pull request #103 from jonas054/semicolons
+
+Allow some semicolons for one line definitions.
+---> The files with partial_reverts are:-
+CHANGELOG.md
+README.md
+lib/rubocop.rb
+lib/rubocop/cli.rb
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/op_method.rb
+lib/rubocop/cop/symbol_snake_case.rb
+lib/rubocop/report/plain_text.rb
+lib/rubocop/version.rb
+rubocop.gemspec
+spec/rubocop/cli_spec.rb
+spec/rubocop/cops/op_method_spec.rb
+spec/rubocop/cops/symbol_snake_case_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 159 is -> 
+{ 78a5952a4c847e34e35466f284169f008f7f48cc -> 4ec7440c4f3682e310af3e73c3dda2577e97725f } is a revert
+{ 4ec7440c4f3682e310af3e73c3dda2577e97725f -> 1aa909d18735b06de60af5620399cc4149be508d }
+Partial Revert commits SHA are -> 
+4ec7440c4f3682e310af3e73c3dda2577e97725f - revert - 1aa909d18735b06de60af5620399cc4149be508d
+---> The reverted commit sha is - 4ec7440c4f3682e310af3e73c3dda2577e97725f
+Commit message - Merge pull request #81 from bolandrm/refactor_methods_with_many_lines
+
+Method Length Cop - Added option to ingore full line comments
+---> The original commit sha is - 1aa909d18735b06de60af5620399cc4149be508d
+Commit message - Merge pull request #82 from bolandrm/debug_enhancement
+
+enhance debug mode (-d)
+---> The files with partial_reverts are:-
+lib/rubocop/cli.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 160 is -> 
+{ 7def43f70273ecc1b31e19e0ba6add252308ca24 -> 5cb17eb2b2af8e9822aca39b5ac1ef27c8728a98 } is a revert
+{ c78387ccf0514ad224d72b60bbe2d622b73b1814 -> e1f992547dee43176c959b5d4fedd3e359d58482 }
+Partial Revert commits SHA are -> 
+5cb17eb2b2af8e9822aca39b5ac1ef27c8728a98 - revert - e1f992547dee43176c959b5d4fedd3e359d58482
+---> The reverted commit sha is - 5cb17eb2b2af8e9822aca39b5ac1ef27c8728a98
+Commit message - New cop OpMethod
+---> The original commit sha is - e1f992547dee43176c959b5d4fedd3e359d58482
+Commit message - Improve OpMethod cop
+
+Operators [], []= and << are now excluded from the check.
+---> The files with partial_reverts are:-
+lib/rubocop/report/report.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 161 is -> 
+{ 8e9b408b9ae3d5f877561933bc31452ce63c8886 -> 87e5d90ca528c76e8703ed505d2e724f343c2490 } is a revert
+{ 87e5d90ca528c76e8703ed505d2e724f343c2490 -> a3f9049e00299a67b8936c27444835ee6a21cfc7 }
+Partial Revert commits SHA are -> 
+87e5d90ca528c76e8703ed505d2e724f343c2490 - revert - a3f9049e00299a67b8936c27444835ee6a21cfc7
+---> The reverted commit sha is - 87e5d90ca528c76e8703ed505d2e724f343c2490
+Commit message - Support rubocop:disable and rubocop:enable comments.
+---> The original commit sha is - a3f9049e00299a67b8936c27444835ee6a21cfc7
+Commit message - Refactor so rubocop finds no errors on itself
+---> The files with partial_reverts are:-
+CHANGELOG.md
+README.md
+lib/rubocop/cop/cop.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 162 is -> 
+{ 033dc3521b47498f01a88d2d9a52406625780e6c -> e9b65392fda285b8d983e169a5fcbf0397aae012 } is a revert
+{ 5caac70be4ab0dd98e523094d75ddf73cb0c2b3f -> de2fa45227bf1287b1ec4fdb3abeeae07aaebcb5 }
+Partial Revert commits SHA are -> 
+e9b65392fda285b8d983e169a5fcbf0397aae012 - revert - de2fa45227bf1287b1ec4fdb3abeeae07aaebcb5
+---> The reverted commit sha is - e9b65392fda285b8d983e169a5fcbf0397aae012
+Commit message - Mention flycheck integration
+---> The original commit sha is - de2fa45227bf1287b1ec4fdb3abeeae07aaebcb5
+Commit message - Merge pull request #58 from lee-dohm/default_files
+
+Add extensionless files with shebang lines to the set of default files
+---> The files with partial_reverts are:-
+bin/rubocop
+lib/rubocop/cli.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 163 is -> 
+{ 7705ad5aee64d9d941a960cbe6de513e7de01ec8 -> 189dd7b5ba9918f632e08e0ce53fa76a9a8b5b88 } is a revert
+{ 189dd7b5ba9918f632e08e0ce53fa76a9a8b5b88 -> b79ba95787236636e5497dd1968878731babea36 }
+Partial Revert commits SHA are -> 
+189dd7b5ba9918f632e08e0ce53fa76a9a8b5b88 - revert - b79ba95787236636e5497dd1968878731babea36
+---> The reverted commit sha is - 189dd7b5ba9918f632e08e0ce53fa76a9a8b5b88
+Commit message - Deal with syntax errors in inspected files.
+---> The original commit sha is - b79ba95787236636e5497dd1968878731babea36
+Commit message - Merge pull request #56 from jonas054/bugfix1
+
+Deal with syntax errors in inspected files.
+---> The files with partial_reverts are:-
+.rubocop.yml
+VERSION
+lib/rubocop.rb
+lib/rubocop/cop/align_parameters.rb
+lib/rubocop/cop/symbol_snake_case.rb
+rubocop.gemspec
+spec/rubocop/cops/align_parameters_spec.rb
+spec/rubocop/cops/symbol_snake_case_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 164 is -> 
+{ f0f1a27c06e7a15f2950ba4361d1cca9ff6138ee -> b62fbbf60148f481cded3356ed44b2e4f24c6ebb } is a revert
+{ b62fbbf60148f481cded3356ed44b2e4f24c6ebb -> bb76eec3705e96d41a497613725888b05d9f0351 }
+Partial Revert commits SHA are -> 
+b62fbbf60148f481cded3356ed44b2e4f24c6ebb - revert - bb76eec3705e96d41a497613725888b05d9f0351
+---> The reverted commit sha is - b62fbbf60148f481cded3356ed44b2e4f24c6ebb
+Commit message - Change configuration comments to match what is actually checked. Add some that were missing.
+---> The original commit sha is - bb76eec3705e96d41a497613725888b05d9f0351
+Commit message - Merge branch 'master' into bugfix1
+---> The files with partial_reverts are:-
+VERSION
+lib/rubocop.rb
+lib/rubocop/cop/avoid_class_vars.rb
+lib/rubocop/cop/avoid_perl_backrefs.rb
+lib/rubocop/cop/avoid_perlisms.rb
+lib/rubocop/version.rb
+rubocop.gemspec
+spec/rubocop/cops/avoid_class_vars_spec.rb
+spec/rubocop/cops/avoid_perl_backrefs_spec.rb
+spec/rubocop/cops/avoid_perlisms_spec.rb
+spec/rubocop/cops/grammar_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 165 is -> 
+{ 7d1d77dbca72a796beeba8eaacaaca30fe881029 -> c72dd6527a57a8254b5f422df1f8b08c3e235160 } is a revert
+{ 9da5e08fe0974ac597c87075e261b0b63dcf8f94 -> 0921121053c6b52d6c157351d97b36a5cd715ce2 }
+Partial Revert commits SHA are -> 
+c72dd6527a57a8254b5f422df1f8b08c3e235160 - revert - 0921121053c6b52d6c157351d97b36a5cd715ce2
+---> The reverted commit sha is - c72dd6527a57a8254b5f422df1f8b08c3e235160
+Commit message - Fix specs under Ruby 1.9
+---> The original commit sha is - 0921121053c6b52d6c157351d97b36a5cd715ce2
+Commit message - Merge branch 'master' of https://github.com/bbatsov/rubocop
+---> The files with partial_reverts are:-
+lib/rubocop/cop/def_parentheses.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 166 is -> 
+{ df9262b8f10bd76bafe1981a35bd233b3fc3c94f -> c322aa4c78e3f19bf90b05694d6482d84ffdec78 } is a revert
+{ a549b5f2cfe37489baea6af4ed2439e0f3963fff -> 306af7d441cdf3e00b061b2acc2e174dd863cf78 }
+Partial Revert commits SHA are -> 
+c322aa4c78e3f19bf90b05694d6482d84ffdec78 - revert - 306af7d441cdf3e00b061b2acc2e174dd863cf78
+---> The reverted commit sha is - c322aa4c78e3f19bf90b05694d6482d84ffdec78
+Commit message - New rules about favoring keywords unless/until over negations.
+
+Favor unless (or control flow or) over if for negative conditions.
+Favor until over while for negative conditions.
+---> The original commit sha is - 306af7d441cdf3e00b061b2acc2e174dd863cf78
+Commit message - Merge branch 'master' into more_rules
+---> The files with partial_reverts are:-
+VERSION
+rubocop.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 167 is -> 
+{ c28cfea0264059e02d9865e9a0f670737f9b5fa1 -> 76b33fedb8f06a5a4b810c61863700c447822faa } is a revert
+{ 76b33fedb8f06a5a4b810c61863700c447822faa -> 09ced84def96bb865bbc83361b1eed254b149225 }
+Partial Revert commits SHA are -> 
+76b33fedb8f06a5a4b810c61863700c447822faa - revert - 09ced84def96bb865bbc83361b1eed254b149225
+---> The reverted commit sha is - 76b33fedb8f06a5a4b810c61863700c447822faa
+Commit message - New rule: Favor modifier if/unless/while/until usage when you have a single-line body.
+---> The original commit sha is - 09ced84def96bb865bbc83361b1eed254b149225
+Commit message - Merge branch 'master' into more_rules
+---> The files with partial_reverts are:-
+VERSION
+rubocop.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 168 is -> 
+{ f55c818b9312659847fb9ce2ae390b1e87ae5d3e -> bcf4cb186577bd4565d9a76286548030191ed135 } is a revert
+{ 20b949a34c1f966c4e319f87975a241eeef6113e -> 7ba02c06ddb645fd53564b124a09b590406111c0 }
+Partial Revert commits SHA are -> 
+bcf4cb186577bd4565d9a76286548030191ed135 - revert - 7ba02c06ddb645fd53564b124a09b590406111c0
+---> The reverted commit sha is - bcf4cb186577bd4565d9a76286548030191ed135
+Commit message - New rule: Use &&/|| for boolean expressions, and/or for control flow.
+---> The original commit sha is - 7ba02c06ddb645fd53564b124a09b590406111c0
+Commit message - Merge branch 'master' into more_rules
+---> The files with partial_reverts are:-
+lib/rubocop/cli.rb
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 169 is -> 
+{ fbb0b52dc33bb533c8523a7c90b68acb1abd390d -> 97ceac19edaf6b7fef05fcfe2cec937676dbf27c } is a revert
+{ 97ceac19edaf6b7fef05fcfe2cec937676dbf27c -> 76cad836ae5dafd4a2785aac0fbd12b60c3dd668 }
+Partial Revert commits SHA are -> 
+97ceac19edaf6b7fef05fcfe2cec937676dbf27c - revert - 76cad836ae5dafd4a2785aac0fbd12b60c3dd668
+---> The reverted commit sha is - 97ceac19edaf6b7fef05fcfe2cec937676dbf27c
+Commit message - Instantiating only enabled cops.
+---> The original commit sha is - 76cad836ae5dafd4a2785aac0fbd12b60c3dd668
+Commit message - Merge branch 'master' into optimization
+---> The files with partial_reverts are:-
+Rakefile
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 170 is -> 
+{ 131b6f3f0fe85c9f6aec6949ca43a0fab0eef84e -> 0e28748b5faaf12cfd411db8183298c18b8692c6 } is a revert
+{ 29e45fc84aa4fac9ab0b2c7b85524cffcef29b49 -> 5807084f9c482a0b2a9a8e056d1f62d0ba817ef5 }
+Partial Revert commits SHA are -> 
+0e28748b5faaf12cfd411db8183298c18b8692c6 - revert - 5807084f9c482a0b2a9a8e056d1f62d0ba817ef5
+---> The reverted commit sha is - 0e28748b5faaf12cfd411db8183298c18b8692c6
+Commit message - Checking multi-line and single line blocks.
+---> The original commit sha is - 5807084f9c482a0b2a9a8e056d1f62d0ba817ef5
+Commit message - Merge branch 'master' into more_rules
+---> The files with partial_reverts are:-
+CONTRIBUTING.md
+Gemfile
+Gemfile.lock
+README.md
+VERSION
+rubocop.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 171 is -> 
+{ b1b439b5c36692261f638502e892fd9f180a9b2e -> 7535e9f456a5641e8382ccda1ec17dda88d17f76 } is a revert
+{ c2eca33f402b2b0ece141f234fa2f97db5b4da14 -> 2f660bd70aba6ecd24c7a81aad9a2457af48fbee }
+Partial Revert commits SHA are -> 
+7535e9f456a5641e8382ccda1ec17dda88d17f76 - revert - 2f660bd70aba6ecd24c7a81aad9a2457af48fbee
+---> The reverted commit sha is - 7535e9f456a5641e8382ccda1ec17dda88d17f76
+Commit message - Made array access in Position objects impossible.
+---> The original commit sha is - 2f660bd70aba6ecd24c7a81aad9a2457af48fbee
+Commit message - Merge branch 'master' into more_rules
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+lib/rubocop/cop/def_parentheses.rb
+lib/rubocop/cop/unnecessary_then.rb
+spec/rubocop/cops/def_parentheses_spec.rb
+spec/rubocop/cops/unnecessary_then_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 172 is -> 
+{ c8f916d38fe124e73e525d00584e3abbeabba131 -> b1b439b5c36692261f638502e892fd9f180a9b2e } is a revert
+{ b1b439b5c36692261f638502e892fd9f180a9b2e -> 7535e9f456a5641e8382ccda1ec17dda88d17f76 }
+Partial Revert commits SHA are -> 
+b1b439b5c36692261f638502e892fd9f180a9b2e - revert - 7535e9f456a5641e8382ccda1ec17dda88d17f76
+---> The reverted commit sha is - b1b439b5c36692261f638502e892fd9f180a9b2e
+Commit message - Added UnnecessaryThen cop.
+---> The original commit sha is - 7535e9f456a5641e8382ccda1ec17dda88d17f76
+Commit message - Made array access in Position objects impossible.
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+lib/rubocop/cli.rb
+lib/rubocop/cop/align_parameters.rb
+lib/rubocop/cop/def_parentheses.rb
+lib/rubocop/cop/empty_lines.rb
+lib/rubocop/cop/end_of_line.rb
+lib/rubocop/cop/grammar.rb
+lib/rubocop/cop/hash_syntax.rb
+lib/rubocop/cop/indentation.rb
+lib/rubocop/cop/line_length.rb
+lib/rubocop/cop/numeric_literals.rb
+lib/rubocop/cop/space_after_comma_etc.rb
+lib/rubocop/cop/surrounding_space.rb
+lib/rubocop/cop/tab.rb
+lib/rubocop/cop/trailing_whitespace.rb
+lib/rubocop/cop/unnecessary_then.rb
+spec/rubocop/cops/align_parameters_spec.rb
+spec/rubocop/cops/def_parentheses_spec.rb
+spec/rubocop/cops/empty_lines_spec.rb
+spec/rubocop/cops/end_of_line_spec.rb
+spec/rubocop/cops/grammar_spec.rb
+spec/rubocop/cops/hash_syntax_spec.rb
+spec/rubocop/cops/indentation_spec.rb
+spec/rubocop/cops/line_length_spec.rb
+spec/rubocop/cops/numeric_literals_spec.rb
+spec/rubocop/cops/space_after_comma_etc_spec.rb
+spec/rubocop/cops/surrounding_space_spec.rb
+spec/rubocop/cops/tab_spec.rb
+spec/rubocop/cops/trailing_whitespace_spec.rb
+spec/rubocop/cops/unnecessary_then_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 173 is -> 
+{ 8946a274bba0cb3c62829f405fcf231c5df85fca -> 256a54eccad236b06c9eadcbb8c744afa2368074 } is a revert
+{ 256a54eccad236b06c9eadcbb8c744afa2368074 -> 788bce82af6383d02aa1977ce39a6be44bf7b7d5 }
+Partial Revert commits SHA are -> 
+256a54eccad236b06c9eadcbb8c744afa2368074 - revert - 788bce82af6383d02aa1977ce39a6be44bf7b7d5
+---> The reverted commit sha is - 256a54eccad236b06c9eadcbb8c744afa2368074
+Commit message - Merge remote branch 'upstream/master'
+---> The original commit sha is - 788bce82af6383d02aa1977ce39a6be44bf7b7d5
+Commit message - Merge branch 'master' into more_rules
+---> The files with partial_reverts are:-
+features/step_definitions/rubocop_steps.rb
+features/support/env.rb
+lib/rubocop.rb
+lib/rubocop/cop/align_parameters.rb
+lib/rubocop/cop/end_of_line.rb
+lib/rubocop/cop/grammar.rb
+lib/rubocop/cop/indentation.rb
+lib/rubocop/cop/numeric_literals.rb
+lib/rubocop/cop/surrounding_space.rb
+spec/rubocop/cops/align_parameters_spec.rb
+spec/rubocop/cops/cop_spec.rb
+spec/rubocop/cops/empty_lines_spec.rb
+spec/rubocop/cops/end_of_line_spec.rb
+spec/rubocop/cops/grammar_spec.rb
+spec/rubocop/cops/hash_syntax_spec.rb
+spec/rubocop/cops/indentation_spec.rb
+spec/rubocop/cops/line_length_spec.rb
+spec/rubocop/cops/numeric_literals_spec.rb
+spec/rubocop/cops/offence_spec.rb
+spec/rubocop/cops/space_after_comma_etc_spec.rb
+spec/rubocop/cops/surrounding_space_spec.rb
+spec/rubocop/cops/tab_spec.rb
+spec/rubocop/cops/trailing_whitespace_spec.rb
+spec/rubocop/reports/emacs_style_spec.rb
+spec/rubocop/reports/report_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 174 is -> 
+{ e3e145fdc4df655097fc12da26bf0a51882d7aa5 -> 0876241af8f11273f6170b30bc7c7a45e4ba7012 } is a revert
+{ 0afc026ac63cebe1351b8015bf2204abbfaf3d12 -> 24d8507646312124941ca6dd21121c2c16ef798a }
+Partial Revert commits SHA are -> 
+0876241af8f11273f6170b30bc7c7a45e4ba7012 - revert - 24d8507646312124941ca6dd21121c2c16ef798a
+---> The reverted commit sha is - 0876241af8f11273f6170b30bc7c7a45e4ba7012
+Commit message - show a list of registered cops when the verbose flag is present
+---> The original commit sha is - 24d8507646312124941ca6dd21121c2c16ef798a
+Commit message - Corrected handling of braces.
+---> The files with partial_reverts are:-
+.travis.yml
+README.md
+bin/rubocop
+features/step_definitions/rubocop_steps.rb
+features/support/env.rb
+lib/rubocop.rb
+lib/rubocop/cli.rb
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/end_of_line.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cops/cop_spec.rb
+spec/rubocop/cops/empty_lines_spec.rb
+spec/rubocop/cops/end_of_line_spec.rb
+spec/rubocop/cops/grammar_spec.rb
+spec/rubocop/cops/hash_syntax_spec.rb
+spec/rubocop/cops/indentation_spec.rb
+spec/rubocop/cops/line_length_spec.rb
+spec/rubocop/cops/offence_spec.rb
+spec/rubocop/cops/space_after_comma_etc_spec.rb
+spec/rubocop/cops/tab_spec.rb
+spec/rubocop/cops/trailing_whitespace_spec.rb
+spec/rubocop/reports/emacs_style_spec.rb
+spec/rubocop/reports/report_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 175 is -> 
+{ a7253a7193ef16977b52bacfc3846a9cdd953491 -> 5394ac5900217acc9c0e0e642f3b6b016f1c35a6 } is a revert
+{ 0876241af8f11273f6170b30bc7c7a45e4ba7012 -> 0afc026ac63cebe1351b8015bf2204abbfaf3d12 }
+Partial Revert commits SHA are -> 
+5394ac5900217acc9c0e0e642f3b6b016f1c35a6 - revert - 0afc026ac63cebe1351b8015bf2204abbfaf3d12
+---> The reverted commit sha is - 5394ac5900217acc9c0e0e642f3b6b016f1c35a6
+Commit message - Merge remote branch 'upstream/master'
+---> The original commit sha is - 0afc026ac63cebe1351b8015bf2204abbfaf3d12
+Commit message - added missing utf-8 encoding declarations
+---> The files with partial_reverts are:-
+lib/rubocop/cop/empty_lines.rb
+lib/rubocop/cop/grammar.rb
+lib/rubocop/cop/hash_syntax.rb
+lib/rubocop/cop/indentation.rb
+lib/rubocop/cop/space_after_comma_etc.rb
+lib/rubocop/cop/surrounding_space.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 176 is -> 
+{ 6269a8314f288818c0238e0e992528886fb34074 -> ad4767c801af4dcf29d30759ce16692840d53531 } is a revert
+{ 0876241af8f11273f6170b30bc7c7a45e4ba7012 -> 0afc026ac63cebe1351b8015bf2204abbfaf3d12 }
+Partial Revert commits SHA are -> 
+ad4767c801af4dcf29d30759ce16692840d53531 - revert - 0afc026ac63cebe1351b8015bf2204abbfaf3d12
+---> The reverted commit sha is - ad4767c801af4dcf29d30759ce16692840d53531
+Commit message - added a script config to .travis.yml
+---> The original commit sha is - 0afc026ac63cebe1351b8015bf2204abbfaf3d12
+Commit message - added missing utf-8 encoding declarations
+---> The files with partial_reverts are:-
+lib/rubocop/cop/empty_lines.rb
+lib/rubocop/cop/grammar.rb
+lib/rubocop/cop/hash_syntax.rb
+lib/rubocop/cop/indentation.rb
+lib/rubocop/cop/space_after_comma_etc.rb
+lib/rubocop/cop/surrounding_space.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 177 is -> 
+{ e3e145fdc4df655097fc12da26bf0a51882d7aa5 -> 0876241af8f11273f6170b30bc7c7a45e4ba7012 } is a revert
+{ 0876241af8f11273f6170b30bc7c7a45e4ba7012 -> 0afc026ac63cebe1351b8015bf2204abbfaf3d12 }
+Partial Revert commits SHA are -> 
+0876241af8f11273f6170b30bc7c7a45e4ba7012 - revert - 0afc026ac63cebe1351b8015bf2204abbfaf3d12
+---> The reverted commit sha is - 0876241af8f11273f6170b30bc7c7a45e4ba7012
+Commit message - show a list of registered cops when the verbose flag is present
+---> The original commit sha is - 0afc026ac63cebe1351b8015bf2204abbfaf3d12
+Commit message - added missing utf-8 encoding declarations
+---> The files with partial_reverts are:-
+lib/rubocop/cop/empty_lines.rb
+lib/rubocop/cop/hash_syntax.rb
+lib/rubocop/cop/space_after_comma_etc.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 178 is -> 
+{ e7b45531ae5a6a42f4f233fbe8c7d1963773c691 -> 0b8ed90c5e22409cb536aa39aa3427568783dc9b } is a revert
+{ e3e145fdc4df655097fc12da26bf0a51882d7aa5 -> 0876241af8f11273f6170b30bc7c7a45e4ba7012 }
+Partial Revert commits SHA are -> 
+0b8ed90c5e22409cb536aa39aa3427568783dc9b - revert - 0876241af8f11273f6170b30bc7c7a45e4ba7012
+---> The reverted commit sha is - 0b8ed90c5e22409cb536aa39aa3427568783dc9b
+Commit message - Added cop for DOS line endings.
+---> The original commit sha is - 0876241af8f11273f6170b30bc7c7a45e4ba7012
+Commit message - show a list of registered cops when the verbose flag is present
+---> The files with partial_reverts are:-
+.travis.yml
+README.md
+bin/rubocop
+features/step_definitions/rubocop_steps.rb
+features/support/env.rb
+lib/rubocop.rb
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/empty_lines.rb
+lib/rubocop/cop/end_of_line.rb
+lib/rubocop/cop/hash_syntax.rb
+lib/rubocop/cop/space_after_comma_etc.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cops/cop_spec.rb
+spec/rubocop/cops/empty_lines_spec.rb
+spec/rubocop/cops/end_of_line_spec.rb
+spec/rubocop/cops/hash_syntax_spec.rb
+spec/rubocop/cops/line_length_spec.rb
+spec/rubocop/cops/offence_spec.rb
+spec/rubocop/cops/space_after_comma_etc_spec.rb
+spec/rubocop/cops/tab_spec.rb
+spec/rubocop/cops/trailing_whitespace_spec.rb
+spec/rubocop/reports/emacs_style_spec.rb
+spec/rubocop/reports/report_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 179 is -> 
+{ c7a9976ab35f2d4acc55ebf842431de0a8a7c928 -> 94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5 } is a revert
+{ 6269a8314f288818c0238e0e992528886fb34074 -> ad4767c801af4dcf29d30759ce16692840d53531 }
+Partial Revert commits SHA are -> 
+94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5 - revert - ad4767c801af4dcf29d30759ce16692840d53531
+---> The reverted commit sha is - 94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5
+Commit message - Added utf-8 encoding comment.
+---> The original commit sha is - ad4767c801af4dcf29d30759ce16692840d53531
+Commit message - added a script config to .travis.yml
+---> The files with partial_reverts are:-
+features/step_definitions/rubocop_steps.rb
+features/support/env.rb
+lib/rubocop/cop/empty_lines.rb
+lib/rubocop/cop/grammar.rb
+lib/rubocop/cop/indentation.rb
+lib/rubocop/cop/space_after_comma_etc.rb
+lib/rubocop/cop/surrounding_space.rb
+spec/rubocop/cops/cop_spec.rb
+spec/rubocop/cops/empty_lines_spec.rb
+spec/rubocop/cops/grammar_spec.rb
+spec/rubocop/cops/indentation_spec.rb
+spec/rubocop/cops/line_length_spec.rb
+spec/rubocop/cops/offence_spec.rb
+spec/rubocop/cops/space_after_comma_etc_spec.rb
+spec/rubocop/cops/surrounding_space_spec.rb
+spec/rubocop/cops/tab_spec.rb
+spec/rubocop/cops/trailing_whitespace_spec.rb
+spec/rubocop/reports/emacs_style_spec.rb
+spec/rubocop/reports/report_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 180 is -> 
+{ a7253a7193ef16977b52bacfc3846a9cdd953491 -> 5394ac5900217acc9c0e0e642f3b6b016f1c35a6 } is a revert
+{ 5394ac5900217acc9c0e0e642f3b6b016f1c35a6 -> 6269a8314f288818c0238e0e992528886fb34074 }
+Partial Revert commits SHA are -> 
+5394ac5900217acc9c0e0e642f3b6b016f1c35a6 - revert - 6269a8314f288818c0238e0e992528886fb34074
+---> The reverted commit sha is - 5394ac5900217acc9c0e0e642f3b6b016f1c35a6
+Commit message - Merge remote branch 'upstream/master'
+---> The original commit sha is - 6269a8314f288818c0238e0e992528886fb34074
+Commit message - Merge branch 'master' into more_rules
+---> The files with partial_reverts are:-
+features/step_definitions/rubocop_steps.rb
+features/support/env.rb
+lib/rubocop/cop/empty_lines.rb
+lib/rubocop/cop/grammar.rb
+lib/rubocop/cop/hash_syntax.rb
+lib/rubocop/cop/indentation.rb
+lib/rubocop/cop/space_after_comma_etc.rb
+lib/rubocop/cop/surrounding_space.rb
+spec/rubocop/cli_spec.rb
+spec/rubocop/cops/cop_spec.rb
+spec/rubocop/cops/empty_lines_spec.rb
+spec/rubocop/cops/grammar_spec.rb
+spec/rubocop/cops/hash_syntax_spec.rb
+spec/rubocop/cops/indentation_spec.rb
+spec/rubocop/cops/line_length_spec.rb
+spec/rubocop/cops/offence_spec.rb
+spec/rubocop/cops/space_after_comma_etc_spec.rb
+spec/rubocop/cops/surrounding_space_spec.rb
+spec/rubocop/cops/tab_spec.rb
+spec/rubocop/cops/trailing_whitespace_spec.rb
+spec/rubocop/reports/emacs_style_spec.rb
+spec/rubocop/reports/report_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 181 is -> 
+{ c7a9976ab35f2d4acc55ebf842431de0a8a7c928 -> 94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5 } is a revert
+{ a7253a7193ef16977b52bacfc3846a9cdd953491 -> 5394ac5900217acc9c0e0e642f3b6b016f1c35a6 }
+Partial Revert commits SHA are -> 
+94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5 - revert - 5394ac5900217acc9c0e0e642f3b6b016f1c35a6
+---> The reverted commit sha is - 94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5
+Commit message - Added utf-8 encoding comment.
+---> The original commit sha is - 5394ac5900217acc9c0e0e642f3b6b016f1c35a6
+Commit message - Merge remote branch 'upstream/master'
+---> The files with partial_reverts are:-
+.rbenv-version
+.travis.yml
+Gemfile
+README.md
+VERSION
+features/step_definitions/rubocop_steps.rb
+features/support/env.rb
+lib/rubocop/cop/empty_lines.rb
+lib/rubocop/cop/grammar.rb
+lib/rubocop/cop/indentation.rb
+lib/rubocop/cop/space_after_comma_etc.rb
+lib/rubocop/cop/surrounding_space.rb
+rubocop.gemspec
+spec/rubocop/cops/cop_spec.rb
+spec/rubocop/cops/empty_lines_spec.rb
+spec/rubocop/cops/grammar_spec.rb
+spec/rubocop/cops/indentation_spec.rb
+spec/rubocop/cops/line_length_spec.rb
+spec/rubocop/cops/offence_spec.rb
+spec/rubocop/cops/space_after_comma_etc_spec.rb
+spec/rubocop/cops/surrounding_space_spec.rb
+spec/rubocop/cops/tab_spec.rb
+spec/rubocop/cops/trailing_whitespace_spec.rb
+spec/rubocop/reports/emacs_style_spec.rb
+spec/rubocop/reports/report_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 182 is -> 
+{ c7a9976ab35f2d4acc55ebf842431de0a8a7c928 -> 94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5 } is a revert
+{ c5136f91d3ab7fffc2429d6df059eddb108840c7 -> b18d69916426db78ecfd77e440ba025c6fede089 }
+Partial Revert commits SHA are -> 
+94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5 - revert - b18d69916426db78ecfd77e440ba025c6fede089
+---> The reverted commit sha is - 94c03ce225bee7d9dc2441f0cee6a0c7dc6e6bd5
+Commit message - Added utf-8 encoding comment.
+---> The original commit sha is - b18d69916426db78ecfd77e440ba025c6fede089
+Commit message - Merge branch 'more_rules' of github.com:jonas054/rubocop into more_rules
+---> The files with partial_reverts are:-
+lib/rubocop.rb
+lib/rubocop/cli.rb
+lib/rubocop/cop/hash_syntax.rb
+spec/rubocop/cops/hash_syntax_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 183 is -> 
+{ 4639cef9f6deee66d2088ae48670e37d03999e98 -> bff561533c2c5a0764da250c809075aff76f7280 } is a revert
+{ 9e52d907e3c028b62eea8ec2792d6593f5c9e421 -> c7a9976ab35f2d4acc55ebf842431de0a8a7c928 }
+Partial Revert commits SHA are -> 
+bff561533c2c5a0764da250c809075aff76f7280 - revert - c7a9976ab35f2d4acc55ebf842431de0a8a7c928
+---> The reverted commit sha is - bff561533c2c5a0764da250c809075aff76f7280
+Commit message - Added HashSyntax cop.
+---> The original commit sha is - c7a9976ab35f2d4acc55ebf842431de0a8a7c928
+Commit message - Merge pull request #4 from jonas054/more_rules
+
+More rules
+---> The files with partial_reverts are:-
+.rbenv-version
+.travis.yml
+Gemfile
+README.md
+VERSION
+lib/rubocop/cop/cop.rb
+lib/rubocop/cop/encoding.rb
+lib/rubocop/cop/line_length.rb
+lib/rubocop/cop/offence.rb
+lib/rubocop/cop/tab.rb
+lib/rubocop/cop/trailing_whitespace.rb
+lib/rubocop/report/emacs_style.rb
+lib/rubocop/report/plain_text.rb
+lib/rubocop/report/report.rb
+lib/rubocop/version.rb
+rubocop.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 184 is -> 
+{ bfc2ff5a567d1cb820a6b1de0205cc59c04298b0 -> 17c24796efb506c396d681edce41196b600b47f9 } is a revert
+{ 03d188fdf6315d374194de817d5af2fc33e6574d -> 3f717681e143f9dee35bf919cb738c2e0d99d0dc }
+Partial Revert commits SHA are -> 
+17c24796efb506c396d681edce41196b600b47f9 - revert - 3f717681e143f9dee35bf919cb738c2e0d99d0dc
+---> The reverted commit sha is - 17c24796efb506c396d681edce41196b600b47f9
+Commit message - Added space_after_comma_etc.
+---> The original commit sha is - 3f717681e143f9dee35bf919cb738c2e0d99d0dc
+Commit message - Merge remote branch 'upstream/master'
+---> The files with partial_reverts are:-
+spec/rubocop/cli_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 185 is -> 
+{ 3db8d1a6d0c027d238ee039622506d44aad0dce8 -> 3d3e9658bb386e3322cfda4f919e0216045273dc } is a revert
+{ 993a2ea8e15f35c111bbd0b240d2aadd19a97250 -> 03d188fdf6315d374194de817d5af2fc33e6574d }
+Partial Revert commits SHA are -> 
+3d3e9658bb386e3322cfda4f919e0216045273dc - revert - 03d188fdf6315d374194de817d5af2fc33e6574d
+---> The reverted commit sha is - 3d3e9658bb386e3322cfda4f919e0216045273dc
+Commit message - Added Cop#inspect_source for easier testing.
+---> The original commit sha is - 03d188fdf6315d374194de817d5af2fc33e6574d
+Commit message - Merge pull request #3 from jonas054/more_rules
+
+More rules
+---> The files with partial_reverts are:-
+lib/rubocop/cop/encoding.rb
+lib/rubocop/cop/offence.rb
+lib/rubocop/cop/tab.rb
+lib/rubocop/cop/trailing_whitespace.rb
+lib/rubocop/report/emacs_style.rb
+lib/rubocop/report/plain_text.rb
+lib/rubocop/report/report.rb
+lib/rubocop/version.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 186 is -> 
+{ bfc2ff5a567d1cb820a6b1de0205cc59c04298b0 -> 17c24796efb506c396d681edce41196b600b47f9 } is a revert
+{ 993a2ea8e15f35c111bbd0b240d2aadd19a97250 -> 03d188fdf6315d374194de817d5af2fc33e6574d }
+Partial Revert commits SHA are -> 
+17c24796efb506c396d681edce41196b600b47f9 - revert - 03d188fdf6315d374194de817d5af2fc33e6574d
+---> The reverted commit sha is - 17c24796efb506c396d681edce41196b600b47f9
+Commit message - Added space_after_comma_etc.
+---> The original commit sha is - 03d188fdf6315d374194de817d5af2fc33e6574d
+Commit message - Merge pull request #3 from jonas054/more_rules
+
+More rules
+---> The files with partial_reverts are:-
+lib/rubocop/cop/encoding.rb
+lib/rubocop/cop/offence.rb
+lib/rubocop/cop/tab.rb
+lib/rubocop/cop/trailing_whitespace.rb
+lib/rubocop/report/emacs_style.rb
+lib/rubocop/report/plain_text.rb
+lib/rubocop/report/report.rb
+lib/rubocop/version.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 187 is -> 
+{ 675a20e812aefd7f22e24ecb566a8082c372b20d -> 53ea7acd63fa165968b281d56bdd0e3e20629ab3 } is a revert
+{ 3b78c5f07eaae20f3503f347dfbb233f63d8f790 -> 54f4370495e538ad2467bbd7ffd9c4d37ea48b8b }
+Partial Revert commits SHA are -> 
+53ea7acd63fa165968b281d56bdd0e3e20629ab3 - revert - 54f4370495e538ad2467bbd7ffd9c4d37ea48b8b
+---> The reverted commit sha is - 53ea7acd63fa165968b281d56bdd0e3e20629ab3
+Commit message - White space corrections.
+---> The original commit sha is - 54f4370495e538ad2467bbd7ffd9c4d37ea48b8b
+Commit message - Merge branch 'more_rules' of github.com:jonas054/rubocop into more_rules
+---> The files with partial_reverts are:-
+lib/rubocop/cop/surrounding_space.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 188 is -> 
+{ 0e1c401284f93ddbb035cd3326b02c3588da89f2 -> dc2f0303a23394273b0afd72be2e260ccb0c4ac5 } is a revert
+{ 86e641331bf863f5e3507d09e8acc52e973d90dc -> 51906885ac98321eda92ce1d98690c4d95b792d4 }
+Partial Revert commits SHA are -> 
+dc2f0303a23394273b0afd72be2e260ccb0c4ac5 - revert - 51906885ac98321eda92ce1d98690c4d95b792d4
+---> The reverted commit sha is - dc2f0303a23394273b0afd72be2e260ccb0c4ac5
+Commit message - wip
+---> The original commit sha is - 51906885ac98321eda92ce1d98690c4d95b792d4
+Commit message - minor change
+---> The files with partial_reverts are:-
+lib/rubocop/cop.rb
+-----------------------------------------------------------------
+

@@ -1,0 +1,679 @@
+# of merges = 101
+Merge commit 1 is -> 
+{ 6b866e95081fb738ba0356bbd473aea904b0add4 is a merge commit
+---> Commit message - Merge branch 'line-linter'
+
+Conflicts:
+	lib/coffeelint.js
+-----------------------------------------------------------------
+
+Merge commit 2 is -> 
+{ cf6e07ce8f2bbf7966e5ed53ff74b887cd913d34 is a merge commit
+---> Commit message - Merge branch 'master' into complexity
+-----------------------------------------------------------------
+
+Merge commit 3 is -> 
+{ 549e9efc0b8f0e5b1fe646ee2c42e06481766809 is a merge commit
+---> Commit message - Merge branch 'complexity'
+-----------------------------------------------------------------
+
+Merge commit 4 is -> 
+{ 168bfd312dda0f1cece88bd16afa62da79206636 is a merge commit
+---> Commit message - Merge remote-tracking branch 'clutchski/master'
+-----------------------------------------------------------------
+
+Merge commit 5 is -> 
+{ 9c7ee37ca65bd5b50ff6d09dbd39a1095b333dc3 is a merge commit
+---> Commit message - Merge branch 'master' of git://github.com/clutchski/coffeelint
+
+Conflicts:
+	bin/coffeelint
+	test/test_commandline.coffee
+-----------------------------------------------------------------
+
+Merge commit 6 is -> 
+{ 4f4352d258c504ebdbc8616fe77cbac17d4feb05 is a merge commit
+---> Commit message - Merge branch 'master' of git://github.com/clutchski/coffeelint
+-----------------------------------------------------------------
+
+Merge commit 7 is -> 
+{ 00d94696c65ac98b0af3218db8dc5a630888c87e is a merge commit
+---> Commit message - Merge branch 'master' of https://github.com/leostera/coffeelint
+
+Conflicts:
+	bin/coffeelint
+-----------------------------------------------------------------
+
+Merge commit 8 is -> 
+{ f9c73ab0d7abf0fe6008f1a1ce52ac5b9152eb05 is a merge commit
+---> Commit message - Merge branch 'master' of https://github.com/clutchski/coffeelint into suppression
+-----------------------------------------------------------------
+
+Merge commit 9 is -> 
+{ 7698fc4b820df7c5d02db8c3304f066aa72f03a6 is a merge commit
+---> Commit message - Merge pull request #31 from Socrenchus/suppression
+
+Added inline block toggling of rules
+-----------------------------------------------------------------
+
+Merge commit 10 is -> 
+{ d12628114ded63f7cba84db687873285b1616c9d is a merge commit
+---> Commit message - Merging clutchski/coffeelint master
+-----------------------------------------------------------------
+
+Merge commit 11 is -> 
+{ 0cd1055a09834bdbe31e329f50b24233bc67e627 is a merge commit
+---> Commit message - Merge pull request #36 from Mapvine/master
+
+Fix JSLintReporter handling of cyclomatic complexity errors
+-----------------------------------------------------------------
+
+Merge commit 12 is -> 
+{ 7fc8057264162b94fd3494efdba876b40e3c7760 is a merge commit
+---> Commit message - Merge pull request #52 from braddunbar/quiet
+
+Add quiet option that only prints errors.
+-----------------------------------------------------------------
+
+Merge commit 13 is -> 
+{ 84d3a634379e4b0899f439c74b21c313bb420df6 is a merge commit
+---> Commit message - Merge pull request #58 from ruddzw/patch-1
+
+Fix normal reporter output: print the file name
+-----------------------------------------------------------------
+
+Merge commit 14 is -> 
+{ b94b854dc17237a5132da626cf15ce99b78e19a3 is a merge commit
+---> Commit message - Merge pull request #69 from thomasf/coffee-error-lineno
+
+Parse coffeescript AST errors beyond line 10.
+-----------------------------------------------------------------
+
+Merge commit 15 is -> 
+{ f624555d13199e9d0434a490c12e0a48dc0619b6 is a merge commit
+---> Commit message - Merge pull request #66 from sjz/master
+
+stdout and stderr drain before exit
+-----------------------------------------------------------------
+
+Merge commit 16 is -> 
+{ c342b185e2e669ac6f91b685707ce286dba975bb is a merge commit
+---> Commit message - Merge remote-tracking branch 'manuel/newlinesAndClasses'
+
+Conflicts:
+	src/coffeelint.coffee
+-----------------------------------------------------------------
+
+Merge commit 17 is -> 
+{ 04a85563fc2017c56509202585ffc6fed85940a3 is a merge commit
+---> Commit message - Merge pull request #80 from int3/master
+
+Add check for empty parameter lists.
+-----------------------------------------------------------------
+
+Merge commit 18 is -> 
+{ 0f819703176e1ecd10407b9d321e0bdf5aa36321 is a merge commit
+---> Commit message - Merge pull request #78 from swang/add_lib_to_gitignore
+
+Add lib/* to .gitignore, removed lib/coffeelint.js from repo
+-----------------------------------------------------------------
+
+Merge commit 19 is -> 
+{ 5f614b1601236c6a00e1e774fbd088950d2b4d5b is a merge commit
+---> Commit message - Merge pull request #91 from AsaAyers/trailing-space-45
+
+Added no_trailing_whitespace.allowed_in_comments rule option. 
+-----------------------------------------------------------------
+
+Merge commit 20 is -> 
+{ 2598a89f5d55a1262385c9457f2ac9a6c986104a is a merge commit
+---> Commit message - Merge pull request #92 from AsaAyers/duplicate-key
+
+Added a check to find duplicate keys defined on classes and objects.
+-----------------------------------------------------------------
+
+Merge commit 21 is -> 
+{ b636708025828a0e94ec8b5c0e5e46c5fa514a78 is a merge commit
+---> Commit message - Merge pull request #93 from AsaAyers/line-length-exception
+
+Added an exception to exclude errors caused by long URLS in comments.
+-----------------------------------------------------------------
+
+Merge commit 22 is -> 
+{ ac5f66904003146bf57fa1b957684b2afe7430d5 is a merge commit
+---> Commit message - Merge pull request #94 from eventualbuddha/check-parens-after-new
+-----------------------------------------------------------------
+
+Merge commit 23 is -> 
+{ d082b0d62b61d3f88082e21db212f30135552095 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:clutchski/coffeelint
+-----------------------------------------------------------------
+
+Merge commit 24 is -> 
+{ 026472f376160f7af128f1d5ab36059d126712dd is a merge commit
+---> Commit message - Merge pull request #95 from zipcodeman/master
+
+Fix loading lineNumber from coffeescript token (CS 1.5+ compatibility)
+-----------------------------------------------------------------
+
+Merge commit 25 is -> 
+{ 566d5ac944f33ad9370477f1e5fbdf26c3785e8e is a merge commit
+---> Commit message - Merge pull request #96 from jspiro/non-empty-constructor-needs-parents
+
+Add non_empty_constructor_needs_parens rule (default: IGNORE)
+-----------------------------------------------------------------
+
+Merge commit 26 is -> 
+{ 01f4b3ce218e7447adca2c757faa73cec1e08dd3 is a merge commit
+---> Commit message - Merge pull request #76 from swang/arrows
+
+Adding linting option `arrow_spacing` to require a space around the arrow (=>) operator
+-----------------------------------------------------------------
+
+Merge commit 27 is -> 
+{ d3fd7d9a4a7e9a37c3446ae71102affefbeac1b9 is a merge commit
+---> Commit message - Merge pull request #98 from zipcodeman/master
+
+Fix line reported for indentation in CoffeeScript 1.5.0+
+-----------------------------------------------------------------
+
+Merge commit 28 is -> 
+{ ee8ba3b9ec4443658c85caa11a07810cddbd4ddf is a merge commit
+---> Commit message - Merge remote-tracking branch 'original/master' into 1.6.2
+
+Conflicts:
+	src/coffeelint.coffee
+-----------------------------------------------------------------
+
+Merge commit 29 is -> 
+{ 5aae675938e46aaabde2197d0f31617f6c59da13 is a merge commit
+---> Commit message - Merge pull request #100 from zipcodeman/1.6.2
+
+In CoffeeScript 1.6.2 exceptions now contain location information
+-----------------------------------------------------------------
+
+Merge commit 30 is -> 
+{ 47bb012d395fc70eda0d5ba8dfc83b2b54fef2c7 is a merge commit
+---> Commit message - Merge pull request #105 from AsaAyers/no_stand_alone_at
+
+Modified no_stand_alone_at to allow @::foo but continue to forbid @::
+-----------------------------------------------------------------
+
+Merge commit 31 is -> 
+{ dd032c770d6ba53d811c8ed491418bafd96f72eb is a merge commit
+---> Commit message - Merge pull request #113 from adcloud/be-quiet
+
+Be quiet if -q is set an no errors occurred
+-----------------------------------------------------------------
+
+Merge commit 32 is -> 
+{ a888483a70d8b98e3d1dec75683f1a594f1faf1b is a merge commit
+---> Commit message - Merge pull request #104 from swang/85_add_compound_assign_to_space_operators
+
+Fixes clutchski/coffeelint#85 
+-----------------------------------------------------------------
+
+Merge commit 33 is -> 
+{ 1ad25feb2f82b672d333d0b3014c1d412cca714a is a merge commit
+---> Commit message - Merge pull request #103 from swang/increment_version_in_src
+
+increment coffeelint.VERSION to 0.5.5
+-----------------------------------------------------------------
+
+Merge commit 34 is -> 
+{ 1872e43fd5ee578acbd73d0051962d2f54482856 is a merge commit
+---> Commit message - Merge pull request #97 from jspiro/constructor-needs-parens
+
+(non_)empty_constructor_needs_parens rule fails incorrectly when constructing a chained class name
+-----------------------------------------------------------------
+
+Merge commit 35 is -> 
+{ 3da97ab602b1f6eba9b4cb377e392809a8d19518 is a merge commit
+---> Commit message - Merge pull request #121 from mhart/replace-rake-with-npm
+
+Moved all compile targets to package.json and add preinstall fixes #99 #121
+-----------------------------------------------------------------
+
+Merge commit 36 is -> 
+{ bce580af6502730c259e08fd56730be5aab42968 is a merge commit
+---> Commit message - Merge pull request #122 from mhart/add-simple-bin-script
+
+Add simple bin/coffeelint wrapper
+-----------------------------------------------------------------
+
+Merge commit 37 is -> 
+{ c6daad84d292e2c91ea58018df97ee0152c44acd is a merge commit
+---> Commit message - Merge pull request #126 from swang/fix_chain_indents
+
+fixes #107 problem with comments/blank lines
+-----------------------------------------------------------------
+
+Merge commit 38 is -> 
+{ 0f5ec75e0286a3678adb767f38721298396b3b6a is a merge commit
+---> Commit message - Merge pull request #132 from swang/fix_arrow
+
+Closes clutchski/coffeelint#131
+-----------------------------------------------------------------
+
+Merge commit 39 is -> 
+{ c495246121cd8142ba80d7f8ec9f027e3f969fff is a merge commit
+---> Commit message - Merge pull request #133 from AsaAyers/literate
+
+Add Literate CoffeeScript support fixes clutchski/coffeelint#83
+-----------------------------------------------------------------
+
+Merge commit 40 is -> 
+{ 3afac4e10e50c63879c376ab62482b43df82f986 is a merge commit
+---> Commit message - Merge branch 'literate'
+-----------------------------------------------------------------
+
+Merge commit 41 is -> 
+{ 41a4c45d12acb05515a30bd32eb0ed682d9673fd is a merge commit
+---> Commit message - Merge pull request #130 from fauxparse/master
+
+Fix #129: adds 'RETURN' to the list of tokens that can precede a unary operator.
+-----------------------------------------------------------------
+
+Merge commit 42 is -> 
+{ b212eba2facee338e3789560141a3817f225976a is a merge commit
+---> Commit message - Merge pull request #134 from swang/update_cyclomatic_complexity
+
+Update cyclomatic complexity
+-----------------------------------------------------------------
+
+Merge commit 43 is -> 
+{ bc162ad4f92e67d2acab78339bb96e8c392b501a is a merge commit
+---> Commit message - Merge pull request #149 from pathable/arrow-eof
+
+Handle arrows at end of file.
+-----------------------------------------------------------------
+
+Merge commit 44 is -> 
+{ 283d81f372dc08802bd25a4e90903f079373237a is a merge commit
+---> Commit message - Merge pull request #155 from calebegg/unary-spacing-after-by
+
+Fix operator_spacing returning an error when using 'by -1' in a for loop
+-----------------------------------------------------------------
+
+Merge commit 45 is -> 
+{ bd1cde1b1992c1bcb7dcc0bf16de29f74f0a9a99 is a merge commit
+---> Commit message - Merge pull request #164 from nathanpalmer/install-on-windows
+
+Fixing installation the installation error on windows.
+-----------------------------------------------------------------
+
+Merge commit 46 is -> 
+{ b5f9cf878953c49e31018e101b8a497df02f310f is a merge commit
+---> Commit message - Merge pull request #167 from shyiko/master
+
+clutchski/coffeelint#147 - "No trailing semi-colons" rule being applied incorrectly within strings using interpolation
+-----------------------------------------------------------------
+
+Merge commit 47 is -> 
+{ d4fe858ce10cc92d599098d8ad811b9e2bac80cd is a merge commit
+---> Commit message - Merge branch 'master' into custom-rules
+
+Conflicts:
+	src/coffeelint.coffee
+-----------------------------------------------------------------
+
+Merge commit 48 is -> 
+{ 28b9e3f1d1b4d3cdabd2668e2490657fe3cd7292 is a merge commit
+---> Commit message - Merge pull request #165 from clutchski/custom-rules
+
+0.6.0 Custom rules fixes #154
+-----------------------------------------------------------------
+
+Merge commit 49 is -> 
+{ 6f04fac1a9ab68f0eeb8a0263c780fbd23c49348 is a merge commit
+---> Commit message - Merge remote-tracking branch 'upstream/master'
+
+Conflicts:
+	src/coffeelint.coffee
+-----------------------------------------------------------------
+
+Merge commit 50 is -> 
+{ 8d46453e6ed3751af6494afd449ae7393b0fb5e7 is a merge commit
+---> Commit message - Merge pull request #140 from imcnally/master
+
+Colon assignment spacing rule
+-----------------------------------------------------------------
+
+Merge commit 51 is -> 
+{ f1a1806dffb7e26838fc54d6b9fd0595be9c9a9c is a merge commit
+---> Commit message - Merge branch 'Clever-master'
+-----------------------------------------------------------------
+
+Merge commit 52 is -> 
+{ ad5ab49d662bd20d6349ea6b07169d9725f1c6fa is a merge commit
+---> Commit message - Merge branch 'Clever-missing-fat-arrows'
+
+Conflicts:
+	generated_coffeelint.json
+	src/coffeelint.coffee
+-----------------------------------------------------------------
+
+Merge commit 53 is -> 
+{ a6bc68476c2420128bd2c435e151b1fac187a55c is a merge commit
+---> Commit message - Merge branch 'checkstyle' Fixes #184
+-----------------------------------------------------------------
+
+Merge commit 54 is -> 
+{ 459ef9c0d9c53c4c52215cbbbe41c0cef7e82f92 is a merge commit
+---> Commit message - Support config from package.json and .coffeelintrc (issue #145)
+-----------------------------------------------------------------
+
+Merge commit 55 is -> 
+{ 9466a32286e8703067a3622cb1d349c8e268a7e4 is a merge commit
+---> Commit message - Merge pull request #191 from davidchambers/rules-array
+
+allow module to export an array of rules
+-----------------------------------------------------------------
+
+Merge commit 56 is -> 
+{ 9c7d8c4c85c91023a107bfa255ec383ffaee4615 is a merge commit
+---> Commit message - Merge pull request #193 from Clever/parameter-assignment
+
+Check for parameter assignment in fat arrows rules
+-----------------------------------------------------------------
+
+Merge commit 57 is -> 
+{ 97d8118280b65bb505be8d92b9385f8d3120ad9f is a merge commit
+---> Commit message - Merge pull request #199 from aparajita/master
+
+Fixed: checking for the wrong file, so compiled .js was never used.
+-----------------------------------------------------------------
+
+Merge commit 58 is -> 
+{ 26a70d224b9f092184955b5d80aa42a956e6528d is a merge commit
+---> Commit message - Merge pull request #206 from imcnally/master
+
+Refactor colon-assignment-spacing
+-----------------------------------------------------------------
+
+Merge commit 59 is -> 
+{ 46b84c1db5877fea7dbdcbe1a594ec67d5a6d1a7 is a merge commit
+---> Commit message - Merge https://github.com/clutchski/coffeelint
+-----------------------------------------------------------------
+
+Merge commit 60 is -> 
+{ 48f3a917acfe1c47e676183acbc23fdefee8c448 is a merge commit
+---> Commit message - Merge pull request #207 from Satook/master
+
+Fixed bug where syntax errors result in stack dump
+-----------------------------------------------------------------
+
+Merge commit 61 is -> 
+{ bcc56d1bb27437ea5699c40346077bc103d2db3e is a merge commit
+---> Commit message - Merge pull request #223 from mhart/lock-down-cs-version
+
+Lock down CS version to 1.6.x
+-----------------------------------------------------------------
+
+Merge commit 62 is -> 
+{ 33cd010a92dc14e7da304d43628e31f98eddb6e9 is a merge commit
+---> Commit message - Merge branch 'update-module-docs' of github.com:Alaneor/coffeelint into Alaneor-update-module-docs
+-----------------------------------------------------------------
+
+Merge commit 63 is -> 
+{ 83a0b899c3000feec77d55d27fcae463c1fa25c0 is a merge commit
+---> Commit message - Merge pull request #227 from alexgorbatchev/patch-1
+
+Updates browserify dependencies.
+-----------------------------------------------------------------
+
+Merge commit 64 is -> 
+{ 2410baf0b97e130a892452a4eb47467c82418a24 is a merge commit
+---> Commit message - Merge pull request #212 from oliverh855/master
+
+Changes onlySpaces regex to skip empty lines w/o whitespaces
+-----------------------------------------------------------------
+
+Merge commit 65 is -> 
+{ b6bdd49adb684794d70d1e0405b785ba159cb9fc is a merge commit
+---> Commit message - Merge pull request #234 from swang/master
+
+Fixes #194 no_trailing_semicolons problem
+-----------------------------------------------------------------
+
+Merge commit 66 is -> 
+{ 669c2bf8b6d0269751bc0220d28eebc8797716c3 is a merge commit
+---> Commit message - Merge branch 'cs17' (CoffeeScript 1.7 support)
+-----------------------------------------------------------------
+
+Merge commit 67 is -> 
+{ d2bfacc0ee2b23934ff1448f4a4f21ae538c7ba1 is a merge commit
+---> Commit message - Merge pull request #240 from easytobook/no-unnecessary-double-quotes
+
+Correct name for no_unnecessary_double_quotes test
+-----------------------------------------------------------------
+
+Merge commit 68 is -> 
+{ 771deb5b04fe3ef2596245021f89678c633d591c is a merge commit
+---> Commit message - Merge pull request #242 from plumlee/debugger-rule
+
+Add rule to warn about debugger statements.
+-----------------------------------------------------------------
+
+Merge commit 69 is -> 
+{ 25c2faae1b748aae8fdf48f128b262d4189127ff is a merge commit
+---> Commit message - Merge pull request #250 from Sinetheta/no-implicit-parens-strict
+
+Add "strict" option to "no_implicit_parens"
+-----------------------------------------------------------------
+
+Merge commit 70 is -> 
+{ 40c5a3b24be8bb87410a83357f93424f4e453a49 is a merge commit
+---> Commit message - Merge pull request #244 from plumlee/contributing-readme
+
+Add some notes on how to contribute.
+-----------------------------------------------------------------
+
+Merge commit 71 is -> 
+{ 44d492c82c3cefe59e722b3938c435f1c38430f0 is a merge commit
+---> Commit message - Merge branch 'no-interpolation-in-single-quotes' of github.com:easytobook/coffeelint into easytobook-no-interpolation-in-single-quotes
+
+Conflicts:
+	src/coffeelint.coffee
+-----------------------------------------------------------------
+
+Merge commit 72 is -> 
+{ 3cce44ebd573c94eaf67b0e71a687680bcbe6941 is a merge commit
+---> Commit message - Merge branch 'easytobook-no-interpolation-in-single-quotes'
+-----------------------------------------------------------------
+
+Merge commit 73 is -> 
+{ 12b7beb1ce749ced5f0111599405c63a4a3ce0c6 is a merge commit
+---> Commit message - Merge pull request #258 from misterdjules/add-run-npm-test-in-readme
+
+Add "run npm test" in the "Steps" section of README.md.
+-----------------------------------------------------------------
+
+Merge commit 74 is -> 
+{ 25e1fc8fa9392056402dee17259d3fcf9e41247b is a merge commit
+---> Commit message - Merge pull request #255 from zmbush/master
+
+Fix MissingFatArrows, NoUnnecessaryFatArrows, and CyclomaticComplexity
+-----------------------------------------------------------------
+
+Merge commit 75 is -> 
+{ 2987e3cdce30206fbfd5509adc3fcf5aa79ea8c0 is a merge commit
+---> Commit message - Merge pull request #254 from misterdjules/no_empty_functions
+
+Add no_empty_functions rule that triggers if an empty function is defined
+-----------------------------------------------------------------
+
+Merge commit 76 is -> 
+{ 17b6d97249f36c1b29bb64a6e523b174220b56fc is a merge commit
+---> Commit message - Merge branch 'fix/windows-line-length' of github.com:knuton/coffeelint into knuton-fix/windows-line-length
+-----------------------------------------------------------------
+
+Merge commit 77 is -> 
+{ 50c51ef6eb79d103e05f04587ab85e2121273d24 is a merge commit
+---> Commit message - Merge pull request #261 from misterdjules/no_empty_functions_doc
+
+Document no_empty_functions rule more thoroughly.
+-----------------------------------------------------------------
+
+Merge commit 78 is -> 
+{ afa667519108d6c5eb2756ac9760b87699058961 is a merge commit
+---> Commit message - Merge pull request #262 from misterdjules/contributing-section-mentions-documentation-generation
+
+Mention documentation generation in README.md's contributing steps.
+-----------------------------------------------------------------
+
+Merge commit 79 is -> 
+{ 52a980cb3aea3f8c46d80410ee2fe049f8feb550 is a merge commit
+---> Commit message - Merge pull request #267 from tmaier/patch-1
+
+Fix URL in README
+-----------------------------------------------------------------
+
+Merge commit 80 is -> 
+{ 722c9d3883cda814ce20a06f434429a79a2864ed is a merge commit
+---> Commit message - Merge branch 'cache' of github.com:runk/coffeelint into runk-cache
+-----------------------------------------------------------------
+
+Merge commit 81 is -> 
+{ 3fe3aac02c7c3228d2e5a622ca4927cc6b5b81f5 is a merge commit
+---> Commit message - Merge branch 'runk-cache'
+-----------------------------------------------------------------
+
+Merge commit 82 is -> 
+{ d395933fd278953812f1879ea33cdcab25b2e704 is a merge commit
+---> Commit message - Merge pull request #272 from swang/patch_trailing_semicolon
+
+Fixes #271 Trailing semicolon check
+-----------------------------------------------------------------
+
+Merge commit 83 is -> 
+{ 6b743926f4e40fecb0cd6f1ac8a9514bafcf0eca is a merge commit
+---> Commit message - Merge pull request #277 from chrisvdp/master
+
+Fixes #214 check if the child node of type undefined isSuper
+-----------------------------------------------------------------
+
+Merge commit 84 is -> 
+{ 7f5cf0afb80f1a83084efd796dca18b5320fe2da is a merge commit
+---> Commit message - Merge pull request #279 from clutchski/load-rules
+
+Autoload rules from config Fixes grunt-coffeelint#51
+-----------------------------------------------------------------
+
+Merge commit 85 is -> 
+{ 9a7766075ff3d58f18b902ea41a1e618cf431db9 is a merge commit
+---> Commit message - Merge pull request #280 from greenify/master
+
+rerun for #251 (fix for fat arrow positives
+-----------------------------------------------------------------
+
+Merge commit 86 is -> 
+{ 618c9a4347d6829b46d4413e971fd4fc73895f22 is a merge commit
+---> Commit message - Merge pull request #282 from swang/indent_solution
+
+Indent solution
+-----------------------------------------------------------------
+
+Merge commit 87 is -> 
+{ aa129c1d41fc42c312a483eec1f41936187d71a5 is a merge commit
+---> Commit message - Merge pull request #285 from swang/check_indents_on_dots
+
+Actually check indentation for chained calls.
+-----------------------------------------------------------------
+
+Merge commit 88 is -> 
+{ acddfd573e6767fcbc689241e845813025d1432d is a merge commit
+---> Commit message - Merge pull request #306 from swang/fixed_method_chaining_bug
+
+Fixes method chaining looking out of scope
+-----------------------------------------------------------------
+
+Merge commit 89 is -> 
+{ 869f6acd85ac35b7e252ed876e4d37cc1fe4582c is a merge commit
+---> Commit message - Merge pull request #303 from swang/fix_edge_case_for_parens
+
+Fix implicit parens edge-case (for last line)
+-----------------------------------------------------------------
+
+Merge commit 90 is -> 
+{ 21020f10aeba88673cd2c1fc0a9990f8ff08ccfe is a merge commit
+---> Commit message - Merge pull request #307 from swang/lint_the_rules
+
+Add rules folder as part of the linting process
+-----------------------------------------------------------------
+
+Merge commit 91 is -> 
+{ 4738cc5489d9eda5033ecfba1af66305d94b6257 is a merge commit
+---> Commit message - Merge pull request #297 from paulcollinsiii/space_operator_fixes
+
+Space_operators missed some cases
+-----------------------------------------------------------------
+
+Merge commit 92 is -> 
+{ d8c5fbbe58337eeafc801d708a6527e6125bf6d5 is a merge commit
+---> Commit message - Merge pull request #315 from swang/fix_edgecase_for_no_trailing_semicolons
+
+Fix an edgecase bug for no_trailing_semicolons
+-----------------------------------------------------------------
+
+Merge commit 93 is -> 
+{ eddfe0273fd4569b710cfc546467e45be8590672 is a merge commit
+---> Commit message - Merge pull request #320 from swang/no_dots_at_eol
+
+Removes support for '.' chain at end of line
+-----------------------------------------------------------------
+
+Merge commit 94 is -> 
+{ 7382d8d90d47e6381a1de4fb4a9ef9a8c3f6e875 is a merge commit
+---> Commit message - Merge pull request #317 from am11/master
+
+Config: Prioritize userprofile for HOME search
+-----------------------------------------------------------------
+
+Merge commit 95 is -> 
+{ e360479558b2df492f346675c1a689d0a45315eb is a merge commit
+---> Commit message - Merge branch 'mrmr1993-colorize'
+-----------------------------------------------------------------
+
+Merge commit 96 is -> 
+{ 40d0e52e94b5add153f295e59912d7250d8c92ef is a merge commit
+---> Commit message - Merge pull request #329 from clutchski/ignorefile
+
+Add support for .coffeelintignore
+-----------------------------------------------------------------
+
+Merge commit 97 is -> 
+{ d028c4e6e4c652d7816e54b1d41849de53481368 is a merge commit
+---> Commit message - Merge pull request #316 from clutchski/prefer_english_operator
+
+Fixes #311 #106. Copied parakeety/coffeelint-prefer-english-operator
+-----------------------------------------------------------------
+
+Merge commit 98 is -> 
+{ b370d8e14e034fa1080237f2b35b56ec91ea65d5 is a merge commit
+---> Commit message - Merge pull request #330 from clutchski/expose-error-report
+
+Expose ErrorReport so that reporters can actually be used by 3rd party projects.
+-----------------------------------------------------------------
+
+Merge commit 99 is -> 
+{ 25e84dde9e171c4b4f96a17b3b6d619d037102ea is a merge commit
+---> Commit message - Merge pull request #334 from bouzuya/cannot-read-property-0-of-null
+
+TypeError: Cannot read property 0 of null
+-----------------------------------------------------------------
+
+Merge commit 100 is -> 
+{ e2eae7e5d06903a87c15c7c1e4af12f0cd2f3fda is a merge commit
+---> Commit message - Merge pull request #340 from swang/286_fix_block_regexp
+
+Fix Block RegExp triggering in no_unnecessary_double_quotes
+-----------------------------------------------------------------
+
+Merge commit 101 is -> 
+{ 77a6e74c3abdbdf74f0be18e092da9a02bf0e956 is a merge commit
+---> Commit message - Merge pull request #341 from swang/small_indent_refactor
+
+Small indentation refactoring
+-----------------------------------------------------------------
+

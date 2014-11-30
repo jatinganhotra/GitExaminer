@@ -1,0 +1,291 @@
+# of reverts = 23
+Revert diff pair 1 is -> 
+{ 343e8440adb7d00cbdc7399cdfb381d6b6e2fe64 -> 05c612dde0bcd48da3da9a763ccc857904b63c61 } is a revert
+{ 2af637f0f9428685878e85ae95c47059a4b31ba3 -> c82c3d453b5811ed2fc079ff905b665b9c63dd96 }
+Revert commits SHA are -> 
+05c612dde0bcd48da3da9a763ccc857904b63c61 - revert - c82c3d453b5811ed2fc079ff905b665b9c63dd96
+---> The reverted commit sha is - 05c612dde0bcd48da3da9a763ccc857904b63c61
+Commit message - Shadow resolution is now available for all light types
+---> The original commit sha is - c82c3d453b5811ed2fc079ff905b665b9c63dd96
+Commit message - Added filter for shadowResolution to only show up when castShadows is true
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ a9fb1b60859e06eaaecb1de9747687859c102358 -> 6f24b780640c7830175971bbb6c41d2a111f2f15 } is a revert
+{ 9c5e019e055522c2bb366aeac23a475823872f72 -> 6f02c6cd4d7f4bab4d46f67fae881fbca7224bce }
+Revert commits SHA are -> 
+6f24b780640c7830175971bbb6c41d2a111f2f15 - revert - 6f02c6cd4d7f4bab4d46f67fae881fbca7224bce
+---> The reverted commit sha is - 6f24b780640c7830175971bbb6c41d2a111f2f15
+Commit message - Revert to previous version of ammo because ray casting seems to work differently
+---> The original commit sha is - 6f02c6cd4d7f4bab4d46f67fae881fbca7224bce
+Commit message - Fix for new ammo.js
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 95f8d59e79febb0f59ceb9a631cf5e8b5569b9c1 -> 287bb3c32512dbe61160232ab113ce3510d70f39 } is a revert
+{ 287bb3c32512dbe61160232ab113ce3510d70f39 -> 2466d5e743a2ab5a4904b8da7783faf241d30dd5 }
+Revert commits SHA are -> 
+287bb3c32512dbe61160232ab113ce3510d70f39 - revert - 2466d5e743a2ab5a4904b8da7783faf241d30dd5
+---> The reverted commit sha is - 287bb3c32512dbe61160232ab113ce3510d70f39
+Commit message - non-fresnel reflections fixed
+---> The original commit sha is - 2466d5e743a2ab5a4904b8da7783faf241d30dd5
+Commit message - Merge pull request #6 from playcanvas/master
+
+update myself 2
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ 14d62f7a23376a62ba9f3a39c2102365b2c11421 -> 36b295deb4413d45a57e1f79e45fc0548f9e2e26 } is a revert
+{ 36b295deb4413d45a57e1f79e45fc0548f9e2e26 -> bd3c88bfd5fad90d853687fb41ee26ad46fb2ec0 }
+Revert commits SHA are -> 
+36b295deb4413d45a57e1f79e45fc0548f9e2e26 - revert - bd3c88bfd5fad90d853687fb41ee26ad46fb2ec0
+---> The reverted commit sha is - 36b295deb4413d45a57e1f79e45fc0548f9e2e26
+Commit message - some shader system fixes
+---> The original commit sha is - bd3c88bfd5fad90d853687fb41ee26ad46fb2ec0
+Commit message - Merge pull request #5 from playcanvas/master
+
+merge myself
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ e1678fa75892b6d7504ad4bd74af3a5be26ffd28 -> 26d025627f86fab8597cadbb91cb91f5fb18f9f1 } is a revert
+{ 26d025627f86fab8597cadbb91cb91f5fb18f9f1 -> a82d800d2bdef32e65c164a447a1bed737635330 }
+Revert commits SHA are -> 
+26d025627f86fab8597cadbb91cb91f5fb18f9f1 - revert - a82d800d2bdef32e65c164a447a1bed737635330
+---> The reverted commit sha is - 26d025627f86fab8597cadbb91cb91f5fb18f9f1
+Commit message - Revert "Coding Standard changes"
+
+This reverts commit e1678fa75892b6d7504ad4bd74af3a5be26ffd28.
+---> The original commit sha is - a82d800d2bdef32e65c164a447a1bed737635330
+Commit message - Revert "Revert "Coding Standard changes""
+
+This reverts commit 26d025627f86fab8597cadbb91cb91f5fb18f9f1.
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ bcc8c974d119ddc0b0ecfed191265e6723239d58 -> e1678fa75892b6d7504ad4bd74af3a5be26ffd28 } is a revert
+{ e1678fa75892b6d7504ad4bd74af3a5be26ffd28 -> 26d025627f86fab8597cadbb91cb91f5fb18f9f1 }
+Revert commits SHA are -> 
+e1678fa75892b6d7504ad4bd74af3a5be26ffd28 - revert - 26d025627f86fab8597cadbb91cb91f5fb18f9f1
+---> The reverted commit sha is - e1678fa75892b6d7504ad4bd74af3a5be26ffd28
+Commit message - Coding Standard changes
+Updated public properties to match API
+
+graphLocalOffset -> localOffsetGraph
+graphWorldOffset -> offsetGraph
+
+Updated properties to match UI names
+
+deltaRandomness -> speedDiv
+deltaRandomnessStatic -> constantSpeedDiv
+---> The original commit sha is - 26d025627f86fab8597cadbb91cb91f5fb18f9f1
+Commit message - Revert "Coding Standard changes"
+
+This reverts commit e1678fa75892b6d7504ad4bd74af3a5be26ffd28.
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ 1f8fbb3c42500bd452c771ccdf7b602d402cfa3c -> d9458c6844ee4b30ff8b00603d5c7976ab8520c9 } is a revert
+{ 5c277b4ab7d9f744f9bab6492ec3c2bca4c454d6 -> 7e4dbd5e36ffd582c3d3d45b365a936b6fef06fa }
+Revert commits SHA are -> 
+d9458c6844ee4b30ff8b00603d5c7976ab8520c9 - revert - 7e4dbd5e36ffd582c3d3d45b365a936b6fef06fa
+---> The reverted commit sha is - d9458c6844ee4b30ff8b00603d5c7976ab8520c9
+Commit message - Merge pull request #18 from playcanvas/feature/synchronous-clone
+
+Feature/synchronous clone
+---> The original commit sha is - 7e4dbd5e36ffd582c3d3d45b365a936b6fef06fa
+Commit message - Temporarily backing out synchronous-clone until we fix the skybox bug
+-----------------------------------------------------------------
+
+Revert diff pair 8 is -> 
+{ 666b1f5e2087478f63329d01b7feff1e50bc44b1 -> 74deccae24124671314aa846800c0dac1db2080f } is a revert
+{ 5c277b4ab7d9f744f9bab6492ec3c2bca4c454d6 -> 7e4dbd5e36ffd582c3d3d45b365a936b6fef06fa }
+Revert commits SHA are -> 
+74deccae24124671314aa846800c0dac1db2080f - revert - 7e4dbd5e36ffd582c3d3d45b365a936b6fef06fa
+---> The reverted commit sha is - 74deccae24124671314aa846800c0dac1db2080f
+Commit message - Merge branch 'master' of https://github.com/playcanvas/engine
+---> The original commit sha is - 7e4dbd5e36ffd582c3d3d45b365a936b6fef06fa
+Commit message - Temporarily backing out synchronous-clone until we fix the skybox bug
+-----------------------------------------------------------------
+
+Revert diff pair 9 is -> 
+{ db5652844b4e56ac88d48354e50046f00093b18c -> 4bd145d5232494f4eaed829c6670e1f4d2140fa5 } is a revert
+{ a9fb1b60859e06eaaecb1de9747687859c102358 -> 6f24b780640c7830175971bbb6c41d2a111f2f15 }
+Revert commits SHA are -> 
+4bd145d5232494f4eaed829c6670e1f4d2140fa5 - revert - 6f24b780640c7830175971bbb6c41d2a111f2f15
+---> The reverted commit sha is - 4bd145d5232494f4eaed829c6670e1f4d2140fa5
+Commit message - [FIX] Bug with casting collision object to a btRigidBody in raycastFirst
+---> The original commit sha is - 6f24b780640c7830175971bbb6c41d2a111f2f15
+Commit message - Revert to previous version of ammo because ray casting seems to work differently
+-----------------------------------------------------------------
+
+Revert diff pair 10 is -> 
+{ 0877c83b9a9bdb60b6b9e08e1f30c34a8105272a -> 2a1095c99bce5f0f42981438665c403a3283ccfc } is a revert
+{ 2a1095c99bce5f0f42981438665c403a3283ccfc -> 5ba76bb230e2e5c1071bf73a958b2186308bf3b8 }
+Revert commits SHA are -> 
+2a1095c99bce5f0f42981438665c403a3283ccfc - revert - 5ba76bb230e2e5c1071bf73a958b2186308bf3b8
+---> The reverted commit sha is - 2a1095c99bce5f0f42981438665c403a3283ccfc
+Commit message - Moved livelink_update_assetcache_message in the engine so that when the designer's asset cache is updated, then the game's cache will also be updated
+
+--HG--
+branch : feature/update-assetcache-ingame
+---> The original commit sha is - 5ba76bb230e2e5c1071bf73a958b2186308bf3b8
+Commit message - Fix typo in README
+-----------------------------------------------------------------
+
+Revert diff pair 11 is -> 
+{ 428ecb1d3d161d63662cb8d7fb4337658fea7d6a -> 537ecbe11e5cfb4de654d196590b6e9b644b3392 } is a revert
+{ f4129a682071006f4658214317c341590baeaeab -> 919866a23f1a27be6a457c6848520b41ef821799 }
+Revert commits SHA are -> 
+537ecbe11e5cfb4de654d196590b6e9b644b3392 - revert - 919866a23f1a27be6a457c6848520b41ef821799
+---> The reverted commit sha is - 537ecbe11e5cfb4de654d196590b6e9b644b3392
+Commit message - Updated docs
+---> The original commit sha is - 919866a23f1a27be6a457c6848520b41ef821799
+Commit message - Updated script component docs again because @example doesn’t work in this case
+-----------------------------------------------------------------
+
+Revert diff pair 12 is -> 
+{ ba2334b429cdde468fc2c02fe9fd8950e55cc845 -> 353173469c3f644bc70580896575c77a104c51ea } is a revert
+{ 7042ec34fb0374339b95e6de6b179e238063d5f1 -> 28d37c4ca46bcd8a1ea7b2cedb8f10451379ec09 }
+Revert commits SHA are -> 
+353173469c3f644bc70580896575c77a104c51ea - revert - 28d37c4ca46bcd8a1ea7b2cedb8f10451379ec09
+---> The reverted commit sha is - 353173469c3f644bc70580896575c77a104c51ea
+Commit message - [RELEASE] v0.120.1
+
+--HG--
+branch : stable
+---> The original commit sha is - 28d37c4ca46bcd8a1ea7b2cedb8f10451379ec09
+Commit message - [VERSION] v0.121.0-dev
+-----------------------------------------------------------------
+
+Revert diff pair 13 is -> 
+{ f53712c9ef5d9f6501c7b77685ae601d3cb406c6 -> a66837e7a0cefe72cfa701da4c6c4f42b694c98b } is a revert
+{ 0e12e76bd3c78b15ba0e756869cbfbdd71576655 -> 438f8480dda7f802bdda3ad64d064211c33d29fa }
+Revert commits SHA are -> 
+a66837e7a0cefe72cfa701da4c6c4f42b694c98b - revert - 438f8480dda7f802bdda3ad64d064211c33d29fa
+---> The reverted commit sha is - a66837e7a0cefe72cfa701da4c6c4f42b694c98b
+Commit message - [FIX] CameraNode.setOrthoHeight() sets matrix to dirty so that it is updated
+---> The original commit sha is - 438f8480dda7f802bdda3ad64d064211c33d29fa
+Commit message - merge from default
+
+--HG--
+branch : feature/vector-colors
+-----------------------------------------------------------------
+
+Revert diff pair 14 is -> 
+{ 161a3110ef695ee2830eb70f522fd7d945d2fb91 -> c705850a2ceb5d5de042112a958af3241c0e4374 } is a revert
+{ c705850a2ceb5d5de042112a958af3241c0e4374 -> 3a4c42cc2b3af45e191698c211aecac5e20e116d }
+Revert commits SHA are -> 
+c705850a2ceb5d5de042112a958af3241c0e4374 - revert - 3a4c42cc2b3af45e191698c211aecac5e20e116d
+---> The reverted commit sha is - c705850a2ceb5d5de042112a958af3241c0e4374
+Commit message - Call activate in setLinearVelocity() and setAngularVelocity()
+---> The original commit sha is - 3a4c42cc2b3af45e191698c211aecac5e20e116d
+Commit message - Revert previous change, don't activate body when setting velocity
+-----------------------------------------------------------------
+
+Revert diff pair 15 is -> 
+{ 86c33858d91463cb0f106bb4d9add2ea50b32ad2 -> 1a6ec5ae81351600f7f0f14adf14e4aff43792dd } is a revert
+{ 7ac368c33c51934fcba9ddbc284716f5fa508891 -> 7c18bde729e3b7c52eec0ec5a7fec06aa089ad4f }
+Revert commits SHA are -> 
+1a6ec5ae81351600f7f0f14adf14e4aff43792dd - revert - 7c18bde729e3b7c52eec0ec5a7fec06aa089ad4f
+---> The reverted commit sha is - 1a6ec5ae81351600f7f0f14adf14e4aff43792dd
+Commit message - Fixed quaternion to mat function.
+---> The original commit sha is - 7c18bde729e3b7c52eec0ec5a7fec06aa089ad4f
+Commit message - Back out bogus 'fix' for quaternion to mat4 function.
+-----------------------------------------------------------------
+
+Revert diff pair 16 is -> 
+{ 561d5b89d1d77c6168c73da4cd05197533057eec -> f610153678ebb5f1d7a4b954619c93a2395c1f03 } is a revert
+{ 445f558f750b5b0ea0d47de259635333656cbf81 -> 6d02e194d34f6ba63df964c2dbb0fcd5adb44aa2 }
+Revert commits SHA are -> 
+f610153678ebb5f1d7a4b954619c93a2395c1f03 - revert - 6d02e194d34f6ba63df964c2dbb0fcd5adb44aa2
+---> The reverted commit sha is - f610153678ebb5f1d7a4b954619c93a2395c1f03
+Commit message - [RELEASE] v0.64.1
+
+--HG--
+branch : stable
+---> The original commit sha is - 6d02e194d34f6ba63df964c2dbb0fcd5adb44aa2
+Commit message - VERSION v0.65.0dev
+-----------------------------------------------------------------
+
+Revert diff pair 17 is -> 
+{ 67b0f119e299a2443507a765c1d19bb3d3f4b5e4 -> 4adbe414d54a5fdb56139419d30b9580e2be2529 } is a revert
+{ 4adbe414d54a5fdb56139419d30b9580e2be2529 -> 3a48309c03e64ada9b8408c93ace8e5df82937cd }
+Revert commits SHA are -> 
+4adbe414d54a5fdb56139419d30b9580e2be2529 - revert - 3a48309c03e64ada9b8408c93ace8e5df82937cd
+---> The reverted commit sha is - 4adbe414d54a5fdb56139419d30b9580e2be2529
+Commit message - Fix AppData to handle 'fill_window' and 'fillWindow' (from API or from data.js
+---> The original commit sha is - 3a48309c03e64ada9b8408c93ace8e5df82937cd
+Commit message - Unify AppData, attribute is 'fill_window' everywhere
+TO maintain consistency with pack data, The fillWindow property should be fill_window, this is the style that all JSON in the API takes
+-----------------------------------------------------------------
+
+Revert diff pair 18 is -> 
+{ 72da8620213eb8eeae0c3ef2e4387840075c4b28 -> f99109aa603b79484eb4da41e289d7386db8205a } is a revert
+{ b47e3dfcf63a518b61e4a0692f405f9ca41142bd -> 29d232cef2d1c71463dc56c1266273dda9889718 }
+Revert commits SHA are -> 
+f99109aa603b79484eb4da41e289d7386db8205a - revert - 29d232cef2d1c71463dc56c1266273dda9889718
+---> The reverted commit sha is - f99109aa603b79484eb4da41e289d7386db8205a
+Commit message - Hide cast shadows attribute on point light component for now since this functionality is currently unimplemented.
+---> The original commit sha is - 29d232cef2d1c71463dc56c1266273dda9889718
+Commit message - Reexposed cast shadows for point light even though it doesn't function (fixes saving).
+-----------------------------------------------------------------
+
+Revert diff pair 19 is -> 
+{ be8b7031742c7bc5377adbff2f2eb457d28e9d10 -> 3c7aa1d57c149a8062c79a4a2d986acd6ffd76d3 } is a revert
+{ 3c7aa1d57c149a8062c79a4a2d986acd6ffd76d3 -> 17d75f0501eb8d4ae9dc83da4af37da230a176bb }
+Revert commits SHA are -> 
+3c7aa1d57c149a8062c79a4a2d986acd6ffd76d3 - revert - 17d75f0501eb8d4ae9dc83da4af37da230a176bb
+---> The reverted commit sha is - 3c7aa1d57c149a8062c79a4a2d986acd6ffd76d3
+Commit message - Backed out changeset: 433c1eba351a
+---> The original commit sha is - 17d75f0501eb8d4ae9dc83da4af37da230a176bb
+Commit message - Added MeshNode API for setting casting and receiving of shadows.
+-----------------------------------------------------------------
+
+Revert diff pair 20 is -> 
+{ 3c033e2cebcae5d14997007ea9c4a03ad11165f8 -> be8b7031742c7bc5377adbff2f2eb457d28e9d10 } is a revert
+{ be8b7031742c7bc5377adbff2f2eb457d28e9d10 -> 3c7aa1d57c149a8062c79a4a2d986acd6ffd76d3 }
+Revert commits SHA are -> 
+be8b7031742c7bc5377adbff2f2eb457d28e9d10 - revert - 3c7aa1d57c149a8062c79a4a2d986acd6ffd76d3
+---> The reverted commit sha is - be8b7031742c7bc5377adbff2f2eb457d28e9d10
+Commit message - Merge.
+---> The original commit sha is - 3c7aa1d57c149a8062c79a4a2d986acd6ffd76d3
+Commit message - Backed out changeset: 433c1eba351a
+-----------------------------------------------------------------
+
+Revert diff pair 21 is -> 
+{ 27b53cc65914d3fdcef615d8258c2de74be9477e -> c85d4991f0721a5080692f1843b1029dc0673915 } is a revert
+{ 08ea2b51f4363365dfea3d3b50ba76995b01dc4f -> de22e5ac42e38c944227ab5734b7020e6d8d7b6a }
+Revert commits SHA are -> 
+c85d4991f0721a5080692f1843b1029dc0673915 - revert - de22e5ac42e38c944227ab5734b7020e6d8d7b6a
+---> The reverted commit sha is - c85d4991f0721a5080692f1843b1029dc0673915
+Commit message - Merge.
+---> The original commit sha is - de22e5ac42e38c944227ab5734b7020e6d8d7b6a
+Commit message - Backout of merge hell
+-----------------------------------------------------------------
+
+Revert diff pair 22 is -> 
+{ 81d89bb24037bd3bd13d06d4f74f3858112d6313 -> 08ea2b51f4363365dfea3d3b50ba76995b01dc4f } is a revert
+{ 08ea2b51f4363365dfea3d3b50ba76995b01dc4f -> de22e5ac42e38c944227ab5734b7020e6d8d7b6a }
+Revert commits SHA are -> 
+08ea2b51f4363365dfea3d3b50ba76995b01dc4f - revert - de22e5ac42e38c944227ab5734b7020e6d8d7b6a
+---> The reverted commit sha is - 08ea2b51f4363365dfea3d3b50ba76995b01dc4f
+Commit message - merge
+---> The original commit sha is - de22e5ac42e38c944227ab5734b7020e6d8d7b6a
+Commit message - Backout of merge hell
+-----------------------------------------------------------------
+
+Revert diff pair 23 is -> 
+{ faec89ad51fb58f229772eb513f7cae6818efcd6 -> b71d7dcabc70c1065e29dec8ada0112bb9933478 } is a revert
+{ b71d7dcabc70c1065e29dec8ada0112bb9933478 -> b1228db2ff4bc94dd8c561793ba8e04d67578036 }
+Revert commits SHA are -> 
+b71d7dcabc70c1065e29dec8ada0112bb9933478 - revert - b1228db2ff4bc94dd8c561793ba8e04d67578036
+---> The reverted commit sha is - b71d7dcabc70c1065e29dec8ada0112bb9933478
+Commit message - [RELEASE] v0.10.1
+
+--HG--
+branch : stable
+---> The original commit sha is - b1228db2ff4bc94dd8c561793ba8e04d67578036
+Commit message - Merge from stable
+-----------------------------------------------------------------
+

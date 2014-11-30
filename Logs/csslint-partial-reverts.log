@@ -1,0 +1,1050 @@
+# of partial reverts = 62
+Partial Revert diff pair 1 is -> 
+{ fe853bb40ec0784e6faf2d794b3ae3314cac8a92 -> e6c106789bcb6429efa4ea7dfc25093228dc229c } is a revert
+{ f8448025544dc3cb021ed2b713350e86a4175a1d -> 669980708a8e4db78c5efe3b31a8e44cc55075aa }
+Partial Revert commits SHA are -> 
+e6c106789bcb6429efa4ea7dfc25093228dc229c - revert - 669980708a8e4db78c5efe3b31a8e44cc55075aa
+---> The reverted commit sha is - e6c106789bcb6429efa4ea7dfc25093228dc229c
+Commit message - wraping up with cli tests+
+
+CSSLint mix helper from utils to mix up cli and rc options
+---> The original commit sha is - 669980708a8e4db78c5efe3b31a8e44cc55075aa
+Commit message - Merge pull request #504 from dmi3y/wsharraymap
+
+Patch Array.prototype.map polyfil for JScript
+---> The files with partial_reverts are:-
+src/cli/wsh.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 4994199f4503022d397c96e181b3bc529bd98f0c -> fe853bb40ec0784e6faf2d794b3ae3314cac8a92 } is a revert
+{ ea36ad53d65eb359096bb594a07a16c219a6e067 -> f8448025544dc3cb021ed2b713350e86a4175a1d }
+Partial Revert commits SHA are -> 
+fe853bb40ec0784e6faf2d794b3ae3314cac8a92 - revert - f8448025544dc3cb021ed2b713350e86a4175a1d
+---> The reverted commit sha is - fe853bb40ec0784e6faf2d794b3ae3314cac8a92
+Commit message - Array.prototype.map polyfil+
+
+used into cli/common.js:93
+---> The original commit sha is - f8448025544dc3cb021ed2b713350e86a4175a1d
+Commit message - Merge pull request #502 from dmi3y/cliconfig
+
+Allow config file path to be passed through the CLI
+---> The files with partial_reverts are:-
+src/cli/common.js
+tests/cli/assets/apiStub.js
+tests/cli/assets/data.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 0a231821844b3e65fc73e00f3eb0292605fb097d -> a422b004ceb696f4687f17d67381c5c31a55f36e } is a revert
+{ ea36ad53d65eb359096bb594a07a16c219a6e067 -> f8448025544dc3cb021ed2b713350e86a4175a1d }
+Partial Revert commits SHA are -> 
+a422b004ceb696f4687f17d67381c5c31a55f36e - revert - f8448025544dc3cb021ed2b713350e86a4175a1d
+---> The reverted commit sha is - a422b004ceb696f4687f17d67381c5c31a55f36e
+Commit message - Merge pull request #495 from XhmikosR/selector-newline
+
+Try to fix selector-newline rule.
+---> The original commit sha is - f8448025544dc3cb021ed2b713350e86a4175a1d
+Commit message - Merge pull request #502 from dmi3y/cliconfig
+
+Allow config file path to be passed through the CLI
+---> The files with partial_reverts are:-
+src/cli/common.js
+tests/cli/assets/apiStub.js
+tests/cli/assets/data.js
+tests/cli/cli-common.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 4994199f4503022d397c96e181b3bc529bd98f0c -> fe853bb40ec0784e6faf2d794b3ae3314cac8a92 } is a revert
+{ fe853bb40ec0784e6faf2d794b3ae3314cac8a92 -> e6c106789bcb6429efa4ea7dfc25093228dc229c }
+Partial Revert commits SHA are -> 
+fe853bb40ec0784e6faf2d794b3ae3314cac8a92 - revert - e6c106789bcb6429efa4ea7dfc25093228dc229c
+---> The reverted commit sha is - fe853bb40ec0784e6faf2d794b3ae3314cac8a92
+Commit message - Array.prototype.map polyfil+
+
+used into cli/common.js:93
+---> The original commit sha is - e6c106789bcb6429efa4ea7dfc25093228dc229c
+Commit message - wraping up with cli tests+
+
+CSSLint mix helper from utils to mix up cli and rc options
+---> The files with partial_reverts are:-
+src/cli/common.js
+src/cli/wsh.js
+tests/cli/assets/apiStub.js
+tests/cli/assets/data.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ ee0c722819ef6c423a34f01a30e73422cbf72176 -> 8b52eeb179c26f0e4fd0abb28fd3efa0896e61a2 } is a revert
+{ 901566424016ff5c1116d5b827993d945ee79626 -> ce40b60ac434fc47010375980d7044d010c7051c }
+Partial Revert commits SHA are -> 
+8b52eeb179c26f0e4fd0abb28fd3efa0896e61a2 - revert - ce40b60ac434fc47010375980d7044d010c7051c
+---> The reverted commit sha is - 8b52eeb179c26f0e4fd0abb28fd3efa0896e61a2
+Commit message - Merge pull request #485 from XhmikosR/globals
+
+Move global config to JSHint's configuration.
+---> The original commit sha is - ce40b60ac434fc47010375980d7044d010c7051c
+Commit message - Merge pull request #486 from XhmikosR/testrunner-undef
+
+Fix undefined variables and typo
+---> The files with partial_reverts are:-
+tests/testrunner.htm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ d5b1bfd4ee4728326629cf828dd2f478a3765197 -> 1e556bcf6b2e6eba99f95c968aef09a6b65dc469 } is a revert
+{ a275aa6cc58908c570cb9a989620dcf70cec9a68 -> b92b866fa37f874cf0029cff469695d96ff873c5 }
+Partial Revert commits SHA are -> 
+1e556bcf6b2e6eba99f95c968aef09a6b65dc469 - revert - b92b866fa37f874cf0029cff469695d96ff873c5
+---> The reverted commit sha is - 1e556bcf6b2e6eba99f95c968aef09a6b65dc469
+Commit message - Add dependency badges to README.md.
+---> The original commit sha is - b92b866fa37f874cf0029cff469695d96ff873c5
+Commit message - Merge pull request #433 from hsablonniere/add-order-alphabetical
+
+Add alphabetical order rule
+---> The files with partial_reverts are:-
+src/rules/order-alphabetical.js
+tests/rules/order-alphabetical.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ b404a05cb8d2307f5825e32d6c1cc9ab640c5f37 -> 98e27274bd0a5f5754262dc091ae03d463e73791 } is a revert
+{ 086b153adb2e3848f1b658604582358a113d2fc5 -> a275aa6cc58908c570cb9a989620dcf70cec9a68 }
+Partial Revert commits SHA are -> 
+98e27274bd0a5f5754262dc091ae03d463e73791 - revert - a275aa6cc58908c570cb9a989620dcf70cec9a68
+---> The reverted commit sha is - 98e27274bd0a5f5754262dc091ae03d463e73791
+Commit message - Text formatter: fix grammatical error with one problem
+
+The summary was incorrectly pluralized and had the wrong verb form when there
+was only one problem detected.
+---> The original commit sha is - a275aa6cc58908c570cb9a989620dcf70cec9a68
+Commit message - Merge pull request #466 from hartman/test_allrules
+
+When testing all, probably best to actually test all and not 25
+---> The files with partial_reverts are:-
+tests/all-rules.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ 55400326e57316076d97babf1cb23855d27f2de8 -> ebecf2e94f1a56596f95cacb15c46728d4c759fc } is a revert
+{ ebecf2e94f1a56596f95cacb15c46728d4c759fc -> c80c93e2eed4533e1fc20579ffa3e6a48b71a328 }
+Partial Revert commits SHA are -> 
+ebecf2e94f1a56596f95cacb15c46728d4c759fc - revert - c80c93e2eed4533e1fc20579ffa3e6a48b71a328
+---> The reverted commit sha is - ebecf2e94f1a56596f95cacb15c46728d4c759fc
+Commit message - Update testrunner.htm.
+
+Add missing `meta charset` and re-indent.
+---> The original commit sha is - c80c93e2eed4533e1fc20579ffa3e6a48b71a328
+Commit message - Merge pull request #478 from XhmikosR/testrunner
+
+Update testrunner.htm.
+---> The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ 98e27274bd0a5f5754262dc091ae03d463e73791 -> a16436c33268bf263d8fa9f89744a8f463262eac } is a revert
+{ 5563f329d4c62faf64a00df09917b6d869f273b3 -> 34d8c25e576f38615b30479e2ec551aa5ea05b78 }
+Partial Revert commits SHA are -> 
+a16436c33268bf263d8fa9f89744a8f463262eac - revert - 34d8c25e576f38615b30479e2ec551aa5ea05b78
+---> The reverted commit sha is - a16436c33268bf263d8fa9f89744a8f463262eac
+Commit message - Merge pull request #429 from XhmikosR/readme
+
+Update README.md
+---> The original commit sha is - 34d8c25e576f38615b30479e2ec551aa5ea05b78
+Commit message - Merge pull request #468 from malept/singular-problem-grammar
+
+Text formatter: fix grammatical error with one problem detected
+---> The files with partial_reverts are:-
+src/formatters/text.js
+tests/formatters/text.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ 157a95739eb080537edb068907f5081f9917af44 -> 33cb00efe98d74aad1fca8f142a27d3b250d1081 } is a revert
+{ a16436c33268bf263d8fa9f89744a8f463262eac -> 5563f329d4c62faf64a00df09917b6d869f273b3 }
+Partial Revert commits SHA are -> 
+33cb00efe98d74aad1fca8f142a27d3b250d1081 - revert - 5563f329d4c62faf64a00df09917b6d869f273b3
+---> The reverted commit sha is - 33cb00efe98d74aad1fca8f142a27d3b250d1081
+Commit message - Update .gitignore.
+---> The original commit sha is - 5563f329d4c62faf64a00df09917b6d869f273b3
+Commit message - Merge pull request #428 from XhmikosR/demo
+
+Demo formatting
+---> The files with partial_reverts are:-
+demos/CSSLintDemo.htm
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 0059741ec6b0fc6ca090d49b1afde490a386399c -> d5b1bfd4ee4728326629cf828dd2f478a3765197 } is a revert
+{ d5b1bfd4ee4728326629cf828dd2f478a3765197 -> 1e556bcf6b2e6eba99f95c968aef09a6b65dc469 }
+Partial Revert commits SHA are -> 
+d5b1bfd4ee4728326629cf828dd2f478a3765197 - revert - 1e556bcf6b2e6eba99f95c968aef09a6b65dc469
+---> The reverted commit sha is - d5b1bfd4ee4728326629cf828dd2f478a3765197
+Commit message - Add alphabetical order rule
+---> The original commit sha is - 1e556bcf6b2e6eba99f95c968aef09a6b65dc469
+Commit message - Add dependency badges to README.md.
+---> The files with partial_reverts are:-
+src/rules/order-alphabetical.js
+tests/rules/order-alphabetical.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ 08b506f53ab17ba23037fb31ae1b2ee69d7ed079 -> 58c1453aca51188c4e28104e547019bc1a6484bc } is a revert
+{ d4659f2b8d140377737bfcf9a1fe39a2ccb9f91f -> a0bce62dfb3c08ef97c7760859f4275d314df6bb }
+Partial Revert commits SHA are -> 
+58c1453aca51188c4e28104e547019bc1a6484bc - revert - a0bce62dfb3c08ef97c7760859f4275d314df6bb
+---> The reverted commit sha is - 58c1453aca51188c4e28104e547019bc1a6484bc
+Commit message - Add README copy for NPM
+
+Ignored for check-in since it would just be a direct copy
+---> The original commit sha is - a0bce62dfb3c08ef97c7760859f4275d314df6bb
+Commit message - Merge pull request #404 from nschonni/remove-ant-build
+
+Clean out Ant build files
+---> The files with partial_reverts are:-
+build.xml
+lib/jshint.js
+lib/parserlib.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ 58c1453aca51188c4e28104e547019bc1a6484bc -> c7fa61af47b64a4df02e0adcbc181688b91bb535 } is a revert
+{ c7fa61af47b64a4df02e0adcbc181688b91bb535 -> d4659f2b8d140377737bfcf9a1fe39a2ccb9f91f }
+Partial Revert commits SHA are -> 
+c7fa61af47b64a4df02e0adcbc181688b91bb535 - revert - d4659f2b8d140377737bfcf9a1fe39a2ccb9f91f
+---> The reverted commit sha is - c7fa61af47b64a4df02e0adcbc181688b91bb535
+Commit message - Merge pull request #356 from mo/print_rule_id_in_compact_mode
+
+Print rule ID for each error/warning in compact mode
+---> The original commit sha is - d4659f2b8d140377737bfcf9a1fe39a2ccb9f91f
+Commit message - Merge pull request #405 from nschonni/add-readme-to-npm
+
+Add README copy for NPM
+---> The files with partial_reverts are:-
+.gitignore
+Gruntfile.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ 26d5037a1327decd9299299d11ef462bdd64eb49 -> 166859f3c053e26f589de91c0fcbb749df8b3085 } is a revert
+{ 166859f3c053e26f589de91c0fcbb749df8b3085 -> 646d205c742fce526b53e8d778ac8ffc37f67768 }
+Partial Revert commits SHA are -> 
+166859f3c053e26f589de91c0fcbb749df8b3085 - revert - 646d205c742fce526b53e8d778ac8ffc37f67768
+---> The reverted commit sha is - 166859f3c053e26f589de91c0fcbb749df8b3085
+Commit message - Bump minimum Node version to 0.8 and add CI tests
+
+- Removes workaround for node exit not properly flushing on 0.4 and
+lower
+- Add Travis test runs for each of the supported node version
+Fixes #378
+---> The original commit sha is - 646d205c742fce526b53e8d778ac8ffc37f67768
+Commit message - Merge pull request #379 from nschonni/remove-old-node-compat
+
+Bump minimum Node version to 0.8 and add CI tests environments
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 1cb003f38e2a3d32539896444615d1b7e4f5cfd3 -> 1de8af69e388e2893bd6f34b1ed18e5071280d60 } is a revert
+{ c996466c9ae2bc49147e357f6e620c66db33eecd -> 14899c91d0ea69029b355465c758cb6d04be3ef8 }
+Partial Revert commits SHA are -> 
+1de8af69e388e2893bd6f34b1ed18e5071280d60 - revert - 14899c91d0ea69029b355465c758cb6d04be3ef8
+---> The reverted commit sha is - 1de8af69e388e2893bd6f34b1ed18e5071280d60
+Commit message - Move package.json to project root
+---> The original commit sha is - 14899c91d0ea69029b355465c758cb6d04be3ef8
+Commit message - Merge pull request #368 from nschonni/add-grunt-build
+
+First cut of Grunt build
+---> The files with partial_reverts are:-
+src/cli/wsh.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ bff759be5ca4b8cec4dede9b6373ddf55aa6d4c0 -> 606d544de3ee279cf80cc1337f5d84d51168afce } is a revert
+{ c996466c9ae2bc49147e357f6e620c66db33eecd -> 14899c91d0ea69029b355465c758cb6d04be3ef8 }
+Partial Revert commits SHA are -> 
+606d544de3ee279cf80cc1337f5d84d51168afce - revert - 14899c91d0ea69029b355465c758cb6d04be3ef8
+---> The reverted commit sha is - 606d544de3ee279cf80cc1337f5d84d51168afce
+Commit message - Add bug URL to package.json
+
+- Fixed repo and license url as pointed out by @krinkle
+---> The original commit sha is - 14899c91d0ea69029b355465c758cb6d04be3ef8
+Commit message - Merge pull request #368 from nschonni/add-grunt-build
+
+First cut of Grunt build
+---> The files with partial_reverts are:-
+src/cli/wsh.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ b5a8966b97ba919e2676ec654114acd338497e95 -> 64a00e9a830d4f71033f8b57285611306687d498 } is a revert
+{ 64a00e9a830d4f71033f8b57285611306687d498 -> af98b0ec9c4f88b193ce24f1ddd0dde6d208f262 }
+Partial Revert commits SHA are -> 
+64a00e9a830d4f71033f8b57285611306687d498 - revert - af98b0ec9c4f88b193ce24f1ddd0dde6d208f262
+---> The reverted commit sha is - 64a00e9a830d4f71033f8b57285611306687d498
+Commit message - Removing an unneeded line which was causing the CLI option validation to fail
+---> The original commit sha is - af98b0ec9c4f88b193ce24f1ddd0dde6d208f262
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The files with partial_reverts are:-
+npm/package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ 719585004e0a7b3f3fafcfc78c13edef37f71c2b -> fb58a8e66199e9aa26ddadb4727445d2976bc896 } is a revert
+{ d3ece60d4ec3a4cee4de906f093553dc62b278c9 -> 20e0f218ce43bcb6c8407216bb4cc3bc5338cc4c }
+Partial Revert commits SHA are -> 
+fb58a8e66199e9aa26ddadb4727445d2976bc896 - revert - 20e0f218ce43bcb6c8407216bb4cc3bc5338cc4c
+---> The reverted commit sha is - fb58a8e66199e9aa26ddadb4727445d2976bc896
+Commit message - Merge pull request #307 from fracmak/fallback_border_colors
+
+Added borders to fallback-colors rule
+---> The original commit sha is - 20e0f218ce43bcb6c8407216bb4cc3bc5338cc4c
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+lib/parserlib.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 6fd5672e0b4ff09485de9990a127317cdf9a9afd -> 719585004e0a7b3f3fafcfc78c13edef37f71c2b } is a revert
+{ 17cfb2304eef27bc21cd09de34f07ef6ff07c419 -> d3ece60d4ec3a4cee4de906f093553dc62b278c9 }
+Partial Revert commits SHA are -> 
+719585004e0a7b3f3fafcfc78c13edef37f71c2b - revert - d3ece60d4ec3a4cee4de906f093553dc62b278c9
+---> The reverted commit sha is - 719585004e0a7b3f3fafcfc78c13edef37f71c2b
+Commit message - Updated parser to the latest
+---> The original commit sha is - d3ece60d4ec3a4cee4de906f093553dc62b278c9
+Commit message - Merge pull request #339 from zachleat/master
+
+Crusade against -moz-border-radius
+---> The files with partial_reverts are:-
+src/rules/compatible-vendor-prefixes.js
+tests/rules/compatible-vendor-prefixes.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ d70202b7b018f34162e526c5a265abae543fd8ab -> 9c96c5b8694921a9711273d8001aeda618a66f86 } is a revert
+{ fb58a8e66199e9aa26ddadb4727445d2976bc896 -> 17cfb2304eef27bc21cd09de34f07ef6ff07c419 }
+Partial Revert commits SHA are -> 
+9c96c5b8694921a9711273d8001aeda618a66f86 - revert - 17cfb2304eef27bc21cd09de34f07ef6ff07c419
+---> The reverted commit sha is - 9c96c5b8694921a9711273d8001aeda618a66f86
+Commit message - Adding an exclude-files option to the command line interface
+---> The original commit sha is - 17cfb2304eef27bc21cd09de34f07ef6ff07c419
+Commit message - Merge pull request #317 from philipwalton/selector-max
+
+Fixed the selector max and selector max approaching rules
+---> The files with partial_reverts are:-
+README.md
+src/rules/selector-max-approaching.js
+src/rules/selector-max.js
+tests/rules/selector-max-approaching.js
+tests/rules/selector-max.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ 35532301a1c1c880fbecca295dad7f13a17b1360 -> bf46e7d484ab8bd0f968f2f5270bdb818a6c6a80 } is a revert
+{ 719585004e0a7b3f3fafcfc78c13edef37f71c2b -> fb58a8e66199e9aa26ddadb4727445d2976bc896 }
+Partial Revert commits SHA are -> 
+bf46e7d484ab8bd0f968f2f5270bdb818a6c6a80 - revert - fb58a8e66199e9aa26ddadb4727445d2976bc896
+---> The reverted commit sha is - bf46e7d484ab8bd0f968f2f5270bdb818a6c6a80
+Commit message - Try to fix Travis build
+---> The original commit sha is - fb58a8e66199e9aa26ddadb4727445d2976bc896
+Commit message - Merge pull request #307 from fracmak/fallback_border_colors
+
+Added borders to fallback-colors rule
+---> The files with partial_reverts are:-
+src/rules/fallback-colors.js
+tests/rules/fallback-colors.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ c669f6f040bd9c9a01067194ab9ffa3cb474b2d9 -> fa406e8e45ccbd27a5c5644ee041ed609364f67b } is a revert
+{ d89ed1fd0927fddd6ea1f26b8a9f863da8149c0d -> 43cee88800187611c48e9d43a81e8da260636479 }
+Partial Revert commits SHA are -> 
+fa406e8e45ccbd27a5c5644ee041ed609364f67b - revert - 43cee88800187611c48e9d43a81e8da260636479
+---> The reverted commit sha is - fa406e8e45ccbd27a5c5644ee041ed609364f67b
+Commit message - adds all variations of border to the fallback-colors rule
+---> The original commit sha is - 43cee88800187611c48e9d43a81e8da260636479
+Commit message - Merge pull request #304 from beckje01/tooManyRules
+
+Rules and test for the IE max selector count warning. 
+---> The files with partial_reverts are:-
+src/rules/selector-max-approaching.js
+src/rules/selector-max.js
+tests/rules/fallback-colors.js
+tests/rules/selector-max-approaching.js
+tests/rules/selector-max.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ ea7ad0b90a18ef10eb01f114414e876507bf2e84 -> 6468ac9e81853ab06151537032c7d152be7e0702 } is a revert
+{ 1f7d573bc95a17a83daf61a4d654992be68898aa -> 091d862c925569ee1f011dee942ebdd463a30129 }
+Partial Revert commits SHA are -> 
+6468ac9e81853ab06151537032c7d152be7e0702 - revert - 091d862c925569ee1f011dee942ebdd463a30129
+---> The reverted commit sha is - 6468ac9e81853ab06151537032c7d152be7e0702
+Commit message - Added config file capability to CLI (fixes #297)
+---> The original commit sha is - 091d862c925569ee1f011dee942ebdd463a30129
+Commit message - Merge pull request #296 from travis4all/clean
+
+The repo your repo could be like!
+---> The files with partial_reverts are:-
+.travis.yml
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ a123413858cec377d59dbc8a1dc543a221d4c9eb -> 4e60cc93345b67defc2c67e23480157de2e43c43 } is a revert
+{ e14628b270c59aef02de5c0c9d4e67adbc9793ac -> 14033f64bbcdc44557c1906f348c3ccc88d7858f }
+Partial Revert commits SHA are -> 
+4e60cc93345b67defc2c67e23480157de2e43c43 - revert - 14033f64bbcdc44557c1906f348c3ccc88d7858f
+---> The reverted commit sha is - 4e60cc93345b67defc2c67e23480157de2e43c43
+Commit message - Updated parser (fixes #234)
+---> The original commit sha is - 14033f64bbcdc44557c1906f348c3ccc88d7858f
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+src/formatters/junit-xml.js
+tests/formatters/junit-xml.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ b2a684bde6598b9ef2a6f140e605402d26320c02 -> 757301beb9ba2022aa9f140816c38127f9a2ade1 } is a revert
+{ e14628b270c59aef02de5c0c9d4e67adbc9793ac -> 14033f64bbcdc44557c1906f348c3ccc88d7858f }
+Partial Revert commits SHA are -> 
+757301beb9ba2022aa9f140816c38127f9a2ade1 - revert - 14033f64bbcdc44557c1906f348c3ccc88d7858f
+---> The reverted commit sha is - 757301beb9ba2022aa9f140816c38127f9a2ade1
+Commit message - Version 0.9.7
+---> The original commit sha is - 14033f64bbcdc44557c1906f348c3ccc88d7858f
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+src/formatters/junit-xml.js
+tests/formatters/junit-xml.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ e6f90a937935cab25e523669b71e69c8e6a4bade -> e14628b270c59aef02de5c0c9d4e67adbc9793ac } is a revert
+{ e14628b270c59aef02de5c0c9d4e67adbc9793ac -> 14033f64bbcdc44557c1906f348c3ccc88d7858f }
+Partial Revert commits SHA are -> 
+e14628b270c59aef02de5c0c9d4e67adbc9793ac - revert - 14033f64bbcdc44557c1906f348c3ccc88d7858f
+---> The reverted commit sha is - e14628b270c59aef02de5c0c9d4e67adbc9793ac
+Commit message - Fixes to compatible vendor prefixes rule (fixes #285 and fixes #286)
+---> The original commit sha is - 14033f64bbcdc44557c1906f348c3ccc88d7858f
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+src/formatters/junit-xml.js
+tests/formatters/junit-xml.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ 906ab0a1c8fec620eecddea7200b299179f9ebba -> b2a684bde6598b9ef2a6f140e605402d26320c02 } is a revert
+{ e6f90a937935cab25e523669b71e69c8e6a4bade -> e14628b270c59aef02de5c0c9d4e67adbc9793ac }
+Partial Revert commits SHA are -> 
+b2a684bde6598b9ef2a6f140e605402d26320c02 - revert - e14628b270c59aef02de5c0c9d4e67adbc9793ac
+---> The reverted commit sha is - b2a684bde6598b9ef2a6f140e605402d26320c02
+Commit message - Added CDATA wrapper to evidence output for JUNIT formatter
+---> The original commit sha is - e14628b270c59aef02de5c0c9d4e67adbc9793ac
+Commit message - Fixes to compatible vendor prefixes rule (fixes #285 and fixes #286)
+---> The files with partial_reverts are:-
+src/formatters/junit-xml.js
+tests/formatters/junit-xml.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ a123413858cec377d59dbc8a1dc543a221d4c9eb -> 4e60cc93345b67defc2c67e23480157de2e43c43 } is a revert
+{ 176433a9adc240d1c6dc316b21b72145d9f15baf -> e6f90a937935cab25e523669b71e69c8e6a4bade }
+Partial Revert commits SHA are -> 
+4e60cc93345b67defc2c67e23480157de2e43c43 - revert - e6f90a937935cab25e523669b71e69c8e6a4bade
+---> The reverted commit sha is - 4e60cc93345b67defc2c67e23480157de2e43c43
+Commit message - Updated parser (fixes #234)
+---> The original commit sha is - e6f90a937935cab25e523669b71e69c8e6a4bade
+Commit message - Merge pull request #235 from indieisaconcept/junit-formatter
+
+jUNIT Formatter
+---> The files with partial_reverts are:-
+src/formatters/junit-xml.js
+tests/formatters/junit-xml.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ b2a684bde6598b9ef2a6f140e605402d26320c02 -> 757301beb9ba2022aa9f140816c38127f9a2ade1 } is a revert
+{ 176433a9adc240d1c6dc316b21b72145d9f15baf -> e6f90a937935cab25e523669b71e69c8e6a4bade }
+Partial Revert commits SHA are -> 
+757301beb9ba2022aa9f140816c38127f9a2ade1 - revert - e6f90a937935cab25e523669b71e69c8e6a4bade
+---> The reverted commit sha is - 757301beb9ba2022aa9f140816c38127f9a2ade1
+Commit message - Version 0.9.7
+---> The original commit sha is - e6f90a937935cab25e523669b71e69c8e6a4bade
+Commit message - Merge pull request #235 from indieisaconcept/junit-formatter
+
+jUNIT Formatter
+---> The files with partial_reverts are:-
+src/formatters/junit-xml.js
+tests/formatters/junit-xml.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ 554f126223d431c2816d4e6986e682ebc15b6b24 -> 6c47b4976aba32b5f485f83a30778bd42deba91f } is a revert
+{ 6c47b4976aba32b5f485f83a30778bd42deba91f -> ee1af4ecc9c94a35a0b41089669b1ab3f64e83b0 }
+Partial Revert commits SHA are -> 
+6c47b4976aba32b5f485f83a30778bd42deba91f - revert - ee1af4ecc9c94a35a0b41089669b1ab3f64e83b0
+---> The reverted commit sha is - 6c47b4976aba32b5f485f83a30778bd42deba91f
+Commit message - Changed the -98px test to -99px (the exact threshold value). Added -99em and -100em tests in order to increase test coverage and to document the current (actually desired) behavior (see #133).
+---> The original commit sha is - ee1af4ecc9c94a35a0b41089669b1ab3f64e83b0
+Commit message - Merge pull request #272 from mahonnaise/text-indent
+
+improved text-indent's test coverage
+---> The files with partial_reverts are:-
+demos/CSSLintDemo.htm
+lib/parserlib.js
+npm/package.json
+src/cli/common.js
+src/cli/node.js
+src/formatters/checkstyle-xml.js
+src/rules/important.js
+tests/formatters/checkstyle-xml.js
+tests/rules/important.js
+tests/rules/known-properties.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ 6edc79a4f7c720e5a6b46538b6602bbe5a227576 -> f2f3dc0df257f326f92b674c6dad0564b1644635 } is a revert
+{ f2f3dc0df257f326f92b674c6dad0564b1644635 -> 386455730a0f91e10ba6c47a8c81a151ab4b922f }
+Partial Revert commits SHA are -> 
+f2f3dc0df257f326f92b674c6dad0564b1644635 - revert - 386455730a0f91e10ba6c47a8c81a151ab4b922f
+---> The reverted commit sha is - f2f3dc0df257f326f92b674c6dad0564b1644635
+Commit message - Updated parser (fixes #261, fixes #259, fixes #242)
+---> The original commit sha is - 386455730a0f91e10ba6c47a8c81a151ab4b922f
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+demos/CSSLintDemo.htm
+npm/package.json
+src/rules/important.js
+src/rules/star-property-hack.js
+src/rules/underscore-property-hack.js
+tests/rules/important.js
+tests/rules/star-property-hack.js
+tests/rules/underscore-property-hack.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ 4a892955ff5ce6fb769ca1d3844010aacc07b0bd -> 5edc52d3d95552f9ffb0ec02753956b14d3b3d07 } is a revert
+{ f0af9f039d3ccda91a70988aa04b667fd360de59 -> 6edc79a4f7c720e5a6b46538b6602bbe5a227576 }
+Partial Revert commits SHA are -> 
+5edc52d3d95552f9ffb0ec02753956b14d3b3d07 - revert - 6edc79a4f7c720e5a6b46538b6602bbe5a227576
+---> The reverted commit sha is - 5edc52d3d95552f9ffb0ec02753956b14d3b3d07
+Commit message - cannot find csslint.js
+---> The original commit sha is - 6edc79a4f7c720e5a6b46538b6602bbe5a227576
+Commit message - Merge pull request #269 from mahonnaise/master
+
+Disallow star hack rule + disallow underscore hack rule
+---> The files with partial_reverts are:-
+src/rules/star-property-hack.js
+src/rules/underscore-property-hack.js
+tests/rules/star-property-hack.js
+tests/rules/underscore-property-hack.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ d6b0b9751891e9d01b74f7f601011edcd634d576 -> 21d9e94a5be1c0af8f7d649ed70d0e4c8c225cee } is a revert
+{ 9c91c476352f63dcda5acdf98db771d9485a4cf1 -> 888b9d15effca21114bec308d278dc67db90ebbd }
+Partial Revert commits SHA are -> 
+21d9e94a5be1c0af8f7d649ed70d0e4c8c225cee - revert - 888b9d15effca21114bec308d278dc67db90ebbd
+---> The reverted commit sha is - 21d9e94a5be1c0af8f7d649ed70d0e4c8c225cee
+Commit message - updated xml formatters to escape ampersand character, updated tests to check ampersand and fixed other tests to check angled brackets as well
+---> The original commit sha is - 888b9d15effca21114bec308d278dc67db90ebbd
+Commit message - Merge pull request #252 from aaronpowell/master
+
+Adding win32 as an allowed OS
+---> The files with partial_reverts are:-
+npm/package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ 039121817cb64ef771bd962873d5ffa6c550a8bc -> bed3a5b68233ac3bc96e4242678ef451a7140b5b } is a revert
+{ 03942128e0311013e516d2d7371528956ab90de5 -> b2ac3b79f693e29afae9df4a19b8a2669de2effc }
+Partial Revert commits SHA are -> 
+bed3a5b68233ac3bc96e4242678ef451a7140b5b - revert - b2ac3b79f693e29afae9df4a19b8a2669de2effc
+---> The reverted commit sha is - bed3a5b68233ac3bc96e4242678ef451a7140b5b
+Commit message - Updated test for duplicate properties rule
+---> The original commit sha is - b2ac3b79f693e29afae9df4a19b8a2669de2effc
+Commit message - Merge pull request #200 from hpbuniat/duplicate-background-url
+
+Added rule to detect multiple usage of the same background-image
+---> The files with partial_reverts are:-
+src/rules/duplicate-background-url.js
+tests/rules/duplicate-background-url.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ f5423d0a3eef9ca5c9dc36373edf3dea19ebc9cf -> 500fcf8a51bc9932e3fad33173d610261d7d8d39 } is a revert
+{ 9ac0176110ce10d8c67b14a1c45a4ecd2535cf2c -> f38f26b2f7092a912b33aa3da3c8612b4092298f }
+Partial Revert commits SHA are -> 
+500fcf8a51bc9932e3fad33173d610261d7d8d39 - revert - f38f26b2f7092a912b33aa3da3c8612b4092298f
+---> The reverted commit sha is - 500fcf8a51bc9932e3fad33173d610261d7d8d39
+Commit message - Added tests for all rules to check for common problems, fixed Rhino testing issue, updated unit tests
+---> The original commit sha is - f38f26b2f7092a912b33aa3da3c8612b4092298f
+Commit message - Removed extra file
+---> The files with partial_reverts are:-
+output.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ d884494f3076863ab7db80b80a22db6c4316c957 -> 5f3e06e32614e45eadeea96cf205dfb221a129aa } is a revert
+{ 5f3e06e32614e45eadeea96cf205dfb221a129aa -> f5423d0a3eef9ca5c9dc36373edf3dea19ebc9cf }
+Partial Revert commits SHA are -> 
+5f3e06e32614e45eadeea96cf205dfb221a129aa - revert - f5423d0a3eef9ca5c9dc36373edf3dea19ebc9cf
+---> The reverted commit sha is - 5f3e06e32614e45eadeea96cf205dfb221a129aa
+Commit message - Fixed error condition that prevented display from updating (fixes #196)
+---> The original commit sha is - f5423d0a3eef9ca5c9dc36373edf3dea19ebc9cf
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+src/formatters/compact.js
+tests/formatters/compact.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ 68c24a483f025a8c555a1402db3b594d06aedab3 -> d16f031d83d5e220289d8863048ab1c0df708e99 } is a revert
+{ 577835d453d33eaf1553a4e922d6f863bf87feca -> f5b0290d3255ccb649f1a478d230ef0e25e3bcec }
+Partial Revert commits SHA are -> 
+d16f031d83d5e220289d8863048ab1c0df708e99 - revert - f5b0290d3255ccb649f1a478d230ef0e25e3bcec
+---> The reverted commit sha is - d16f031d83d5e220289d8863048ab1c0df708e99
+Commit message - First prototype of new CLI
+---> The original commit sha is - f5b0290d3255ccb649f1a478d230ef0e25e3bcec
+Commit message - Removed unused files
+---> The files with partial_reverts are:-
+src/cli/common-cli.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ c2f290ca43bc4cb235886d555b4445683a2d8382 -> c0f138b12bd330015c3ad6f468dff212a6b10b8a } is a revert
+{ ee8836d88c8d5959040c1e17d5579b6af32dcc6e -> 5095acbbda447a6ea1ad47812b46e7b0f5502016 }
+Partial Revert commits SHA are -> 
+c0f138b12bd330015c3ad6f468dff212a6b10b8a - revert - 5095acbbda447a6ea1ad47812b46e7b0f5502016
+---> The reverted commit sha is - c0f138b12bd330015c3ad6f468dff212a6b10b8a
+Commit message - Refactored docs
+---> The original commit sha is - 5095acbbda447a6ea1ad47812b46e7b0f5502016
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+src/cli/common-cli.js
+src/cli/node-cli.js
+src/cli/node.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ 5868e5571043c73a96b91b14e8de4d1f9b7534b8 -> ee8836d88c8d5959040c1e17d5579b6af32dcc6e } is a revert
+{ ee8836d88c8d5959040c1e17d5579b6af32dcc6e -> 5095acbbda447a6ea1ad47812b46e7b0f5502016 }
+Partial Revert commits SHA are -> 
+ee8836d88c8d5959040c1e17d5579b6af32dcc6e - revert - 5095acbbda447a6ea1ad47812b46e7b0f5502016
+---> The reverted commit sha is - ee8836d88c8d5959040c1e17d5579b6af32dcc6e
+Commit message - Updated CLI documentation
+---> The original commit sha is - 5095acbbda447a6ea1ad47812b46e7b0f5502016
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+src/cli/common-cli.js
+src/cli/node-cli.js
+src/cli/node.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ c2f290ca43bc4cb235886d555b4445683a2d8382 -> c0f138b12bd330015c3ad6f468dff212a6b10b8a } is a revert
+{ 1f07511c1b565e9b0f0de4fe2dc02fa170b7e553 -> 5868e5571043c73a96b91b14e8de4d1f9b7534b8 }
+Partial Revert commits SHA are -> 
+c0f138b12bd330015c3ad6f468dff212a6b10b8a - revert - 5868e5571043c73a96b91b14e8de4d1f9b7534b8
+---> The reverted commit sha is - c0f138b12bd330015c3ad6f468dff212a6b10b8a
+Commit message - Refactored docs
+---> The original commit sha is - 5868e5571043c73a96b91b14e8de4d1f9b7534b8
+Commit message - Merge pull request #167 from cillianderoiste/master
+
+Change path.join to path.resolve so that '..', '/', '~' can be used as the filename successfully, fixes #166
+---> The files with partial_reverts are:-
+src/cli/common-cli.js
+src/cli/node-cli.js
+src/cli/node.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ 47ffbb83f59ff60496fe7bf6ab97ccc3b46f8261 -> 787e22a3efba54a043e025c93738763df6c8701f } is a revert
+{ baf5b03137203afe524232596d527cbf2798e320 -> bd6bfe722a9196feeecda7f87d35dbc5797ed5f2 }
+Partial Revert commits SHA are -> 
+787e22a3efba54a043e025c93738763df6c8701f - revert - bd6bfe722a9196feeecda7f87d35dbc5797ed5f2
+---> The reverted commit sha is - 787e22a3efba54a043e025c93738763df6c8701f
+Commit message - Fixed "the XML output formatter produces '<' and '>' inside attribute's value (XML output)"
+---> The original commit sha is - bd6bfe722a9196feeecda7f87d35dbc5797ed5f2
+Commit message - Merge pull request #161 from eriwen/master
+
+Add CSSLint XML formatter
+---> The files with partial_reverts are:-
+src/formatters/csslint-xml.js
+tests/formatters/csslint-xml.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ 68c24a483f025a8c555a1402db3b594d06aedab3 -> d16f031d83d5e220289d8863048ab1c0df708e99 } is a revert
+{ 34263b1bf9e24eed6dea73afb96317ab92be7772 -> bb3b8bdce2bf9ae5db961683c7471d1d47564004 }
+Partial Revert commits SHA are -> 
+d16f031d83d5e220289d8863048ab1c0df708e99 - revert - bb3b8bdce2bf9ae5db961683c7471d1d47564004
+---> The reverted commit sha is - d16f031d83d5e220289d8863048ab1c0df708e99
+Commit message - First prototype of new CLI
+---> The original commit sha is - bb3b8bdce2bf9ae5db961683c7471d1d47564004
+Commit message - Fixed bad CLI commit
+---> The files with partial_reverts are:-
+src/cli/util.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ bd6494f6c44e72e88b505cd41c60ff56d64497f8 -> 942936e4ad62f3593f256d9fdbacdab1545f4f27 } is a revert
+{ 585588617bd6be9f3394dc4df80467dd4414bc0a -> 68c24a483f025a8c555a1402db3b594d06aedab3 }
+Partial Revert commits SHA are -> 
+942936e4ad62f3593f256d9fdbacdab1545f4f27 - revert - 68c24a483f025a8c555a1402db3b594d06aedab3
+---> The reverted commit sha is - 942936e4ad62f3593f256d9fdbacdab1545f4f27
+Commit message - Updated build script with experimental JSHint support
+---> The original commit sha is - 68c24a483f025a8c555a1402db3b594d06aedab3
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+CHANGELOG
+README.md
+lib/parserlib.js
+src/cli/util.js
+src/formatters/compact.js
+src/formatters/lint-xml.js
+src/rules/text-indent.js
+tests/formatters/compact.js
+tests/rules/text-indent.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ 3406867d30c8da93ac54c3f1c37889a4571d48a8 -> 656d8ae8b2f5e7bdb0bfa7ef00e00232639db181 } is a revert
+{ 62f2d020b68a8bd0c2cd8fffb0cd9124903f8803 -> 585588617bd6be9f3394dc4df80467dd4414bc0a }
+Partial Revert commits SHA are -> 
+656d8ae8b2f5e7bdb0bfa7ef00e00232639db181 - revert - 585588617bd6be9f3394dc4df80467dd4414bc0a
+---> The reverted commit sha is - 656d8ae8b2f5e7bdb0bfa7ef00e00232639db181
+Commit message - Changed too many \!important error to a warning (fixes #105)
+---> The original commit sha is - 585588617bd6be9f3394dc4df80467dd4414bc0a
+Commit message - Removed the build directory again
+---> The files with partial_reverts are:-
+build/npm/cli.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ bd6494f6c44e72e88b505cd41c60ff56d64497f8 -> 942936e4ad62f3593f256d9fdbacdab1545f4f27 } is a revert
+{ 62f2d020b68a8bd0c2cd8fffb0cd9124903f8803 -> 585588617bd6be9f3394dc4df80467dd4414bc0a }
+Partial Revert commits SHA are -> 
+942936e4ad62f3593f256d9fdbacdab1545f4f27 - revert - 585588617bd6be9f3394dc4df80467dd4414bc0a
+---> The reverted commit sha is - 942936e4ad62f3593f256d9fdbacdab1545f4f27
+Commit message - Updated build script with experimental JSHint support
+---> The original commit sha is - 585588617bd6be9f3394dc4df80467dd4414bc0a
+Commit message - Removed the build directory again
+---> The files with partial_reverts are:-
+build/csslint-node.js
+build/csslint-rhino.js
+build/csslint-tests.js
+build/csslint-worker.js
+build/csslint.js
+build/npm/cli.js
+build/npm/lib/csslint-node.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 46 is -> 
+{ e7449d38e623be96d405d083591aea575b540de2 -> 9ccf4fd878ca08ec6a807868157f97a329b9e65c } is a revert
+{ d28268b0baedbd80967c8dac6a52b76cfa2e06c1 -> b7e7ffb96063b00f9cab0b741bf558059aa1b4e1 }
+Partial Revert commits SHA are -> 
+9ccf4fd878ca08ec6a807868157f97a329b9e65c - revert - b7e7ffb96063b00f9cab0b741bf558059aa1b4e1
+---> The reverted commit sha is - 9ccf4fd878ca08ec6a807868157f97a329b9e65c
+Commit message - Added the name and description for the compatible vendor prefixes rule to the README.
+---> The original commit sha is - b7e7ffb96063b00f9cab0b741bf558059aa1b4e1
+Commit message - test file for negative text-indent rule
+---> The files with partial_reverts are:-
+tests/rules/text-indent.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 47 is -> 
+{ 014b5b873661e300df936f9fced73348abe83a52 -> 9868375b60a612815ac0ffa4cc44dddfe0c16ee7 } is a revert
+{ d28268b0baedbd80967c8dac6a52b76cfa2e06c1 -> b7e7ffb96063b00f9cab0b741bf558059aa1b4e1 }
+Partial Revert commits SHA are -> 
+9868375b60a612815ac0ffa4cc44dddfe0c16ee7 - revert - b7e7ffb96063b00f9cab0b741bf558059aa1b4e1
+---> The reverted commit sha is - 9868375b60a612815ac0ffa4cc44dddfe0c16ee7
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The original commit sha is - b7e7ffb96063b00f9cab0b741bf558059aa1b4e1
+Commit message - test file for negative text-indent rule
+---> The files with partial_reverts are:-
+tests/rules/text-indent.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ 3406867d30c8da93ac54c3f1c37889a4571d48a8 -> 656d8ae8b2f5e7bdb0bfa7ef00e00232639db181 } is a revert
+{ 656d8ae8b2f5e7bdb0bfa7ef00e00232639db181 -> cfb1f338a12d96308db36e232a3e5c380542684e }
+Partial Revert commits SHA are -> 
+656d8ae8b2f5e7bdb0bfa7ef00e00232639db181 - revert - cfb1f338a12d96308db36e232a3e5c380542684e
+---> The reverted commit sha is - 656d8ae8b2f5e7bdb0bfa7ef00e00232639db181
+Commit message - Changed too many \!important error to a warning (fixes #105)
+---> The original commit sha is - cfb1f338a12d96308db36e232a3e5c380542684e
+Commit message - Merge fixes
+---> The files with partial_reverts are:-
+.gitignore
+build.xml
+build/npm/package.json
+lib/parserlib.js
+release/csslint-node.js
+release/csslint-rhino.js
+release/csslint-tests.js
+release/csslint-worker.js
+release/csslint.js
+release/npm/cli.js
+release/npm/lib/csslint-node.js
+release/npm/package.json
+src/cli/rhino.js
+src/rules/important.js
+src/rules/vendor-prefix.js
+tests/rules/vendor-prefix.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ 8e4997c82bc25261096c25b70bcae7a9cf4aee95 -> 93541ff25bc8b6449cd4503627c1bed236e05576 } is a revert
+{ 399d45934c6e5c5cfcf258307af81948d0cf796c -> 76d90bb57068e92e6c5c59cfc7e8ec52bf5ba814 }
+Partial Revert commits SHA are -> 
+93541ff25bc8b6449cd4503627c1bed236e05576 - revert - 76d90bb57068e92e6c5c59cfc7e8ec52bf5ba814
+---> The reverted commit sha is - 93541ff25bc8b6449cd4503627c1bed236e05576
+Commit message - test css
+---> The original commit sha is - 76d90bb57068e92e6c5c59cfc7e8ec52bf5ba814
+Commit message - Merge pull request #78 from barberboy/issue-54-compatible-vendor-prefixes
+
+Added rule to remember compatible vendor-prefixed properties
+---> The files with partial_reverts are:-
+tests/rules/compatible-vendor-prefixes.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ 73289ebc2d4a0c530ea5cb00e16f3f6ddf47f6f0 -> 4f03ce1a50c42d256450af4fefb16a6277e68109 } is a revert
+{ 399d45934c6e5c5cfcf258307af81948d0cf796c -> 76d90bb57068e92e6c5c59cfc7e8ec52bf5ba814 }
+Partial Revert commits SHA are -> 
+4f03ce1a50c42d256450af4fefb16a6277e68109 - revert - 76d90bb57068e92e6c5c59cfc7e8ec52bf5ba814
+---> The reverted commit sha is - 4f03ce1a50c42d256450af4fefb16a6277e68109
+Commit message - Cleaned cli files, removed redundant code cleaned error reporting
+---> The original commit sha is - 76d90bb57068e92e6c5c59cfc7e8ec52bf5ba814
+Commit message - Merge pull request #78 from barberboy/issue-54-compatible-vendor-prefixes
+
+Added rule to remember compatible vendor-prefixed properties
+---> The files with partial_reverts are:-
+README.md
+src/rules/compatible-vendor-prefixes.js
+tests/rules/compatible-vendor-prefixes.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 51 is -> 
+{ 5769b42ee1eaeb0d285076e2cf3cf92f5b00f9b9 -> 83ed025170b2f35c833b682089c9e567ae09615d } is a revert
+{ 388ad2d07e60818a7e5f637037d92fccf3a73922 -> 67b9037078463da71fec7bb5fa5acd1d9dab8543 }
+Partial Revert commits SHA are -> 
+83ed025170b2f35c833b682089c9e567ae09615d - revert - 67b9037078463da71fec7bb5fa5acd1d9dab8543
+---> The reverted commit sha is - 83ed025170b2f35c833b682089c9e567ae09615d
+Commit message - Final fixes for 0.3.0
+---> The original commit sha is - 67b9037078463da71fec7bb5fa5acd1d9dab8543
+Commit message - Fixing merge conflict from 0.3.x
+---> The files with partial_reverts are:-
+build/csslint-tests.js
+build/npm/package.json
+src/cli/node.js
+src/cli/rhino.js
+src/core/CSSLint.js
+src/formatters/text.js
+tests/formatters/text.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 52 is -> 
+{ a65231c3f67b7fb9060486a6d334b0973e4d27cb -> ff17048e91ab6c9d61950b31401405028a14c19f } is a revert
+{ 388ad2d07e60818a7e5f637037d92fccf3a73922 -> 67b9037078463da71fec7bb5fa5acd1d9dab8543 }
+Partial Revert commits SHA are -> 
+ff17048e91ab6c9d61950b31401405028a14c19f - revert - 67b9037078463da71fec7bb5fa5acd1d9dab8543
+---> The reverted commit sha is - ff17048e91ab6c9d61950b31401405028a14c19f
+Commit message - Fixed CRLF issue for Node.js
+---> The original commit sha is - 67b9037078463da71fec7bb5fa5acd1d9dab8543
+Commit message - Fixing merge conflict from 0.3.x
+---> The files with partial_reverts are:-
+build/csslint-tests.js
+src/cli/node.js
+src/cli/rhino.js
+src/core/CSSLint.js
+src/formatters/jslint-xml.js
+src/formatters/text.js
+tests/formatters/jslint-xml.js
+tests/formatters/text.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 53 is -> 
+{ 354662e8f72dcf79099331be576cb193304c8eb5 -> ed866534e2729cdcc33a6eba9d411de825066c25 } is a revert
+{ ed866534e2729cdcc33a6eba9d411de825066c25 -> f9d608bc3278109fbf4d0b54c11c143b943571cf }
+Partial Revert commits SHA are -> 
+ed866534e2729cdcc33a6eba9d411de825066c25 - revert - f9d608bc3278109fbf4d0b54c11c143b943571cf
+---> The reverted commit sha is - ed866534e2729cdcc33a6eba9d411de825066c25
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The original commit sha is - f9d608bc3278109fbf4d0b54c11c143b943571cf
+Commit message - Merge branch 'master' of git://github.com/stubbornella/csslint into nzakas-master
+---> The files with partial_reverts are:-
+build.xml
+build/csslint-node.js
+build/csslint-rhino.js
+build/csslint-tests.js
+build/csslint-worker.js
+build/csslint.js
+build/npm/cli.js
+build/npm/lib/csslint-node.js
+build/npm/package.json
+src/cli/util.js
+src/core/CSSLint.js
+src/formatters/text.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 54 is -> 
+{ fd0cfbd5ad7ebbebf539b83ef03a73d2ade4d091 -> 014b5b873661e300df936f9fced73348abe83a52 } is a revert
+{ e70538a3c1ac3ad23936dd4117857016b0162316 -> 331663d146b3240d0ec917167d53822d5772852e }
+Partial Revert commits SHA are -> 
+014b5b873661e300df936f9fced73348abe83a52 - revert - 331663d146b3240d0ec917167d53822d5772852e
+---> The reverted commit sha is - 014b5b873661e300df936f9fced73348abe83a52
+Commit message - width-100 test case
+---> The original commit sha is - 331663d146b3240d0ec917167d53822d5772852e
+Commit message - Revert "tests"
+
+This reverts commit e7449d38e623be96d405d083591aea575b540de2.
+---> The files with partial_reverts are:-
+tests/rules/text-indent.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 55 is -> 
+{ 9868375b60a612815ac0ffa4cc44dddfe0c16ee7 -> e70538a3c1ac3ad23936dd4117857016b0162316 } is a revert
+{ e70538a3c1ac3ad23936dd4117857016b0162316 -> 331663d146b3240d0ec917167d53822d5772852e }
+Partial Revert commits SHA are -> 
+e70538a3c1ac3ad23936dd4117857016b0162316 - revert - 331663d146b3240d0ec917167d53822d5772852e
+---> The reverted commit sha is - e70538a3c1ac3ad23936dd4117857016b0162316
+Commit message - Merge branch 'master' into width-100
+---> The original commit sha is - 331663d146b3240d0ec917167d53822d5772852e
+Commit message - Revert "tests"
+
+This reverts commit e7449d38e623be96d405d083591aea575b540de2.
+---> The files with partial_reverts are:-
+tests/rules/text-indent.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 56 is -> 
+{ 014b5b873661e300df936f9fced73348abe83a52 -> 9868375b60a612815ac0ffa4cc44dddfe0c16ee7 } is a revert
+{ 9868375b60a612815ac0ffa4cc44dddfe0c16ee7 -> e70538a3c1ac3ad23936dd4117857016b0162316 }
+Partial Revert commits SHA are -> 
+9868375b60a612815ac0ffa4cc44dddfe0c16ee7 - revert - e70538a3c1ac3ad23936dd4117857016b0162316
+---> The reverted commit sha is - 9868375b60a612815ac0ffa4cc44dddfe0c16ee7
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The original commit sha is - e70538a3c1ac3ad23936dd4117857016b0162316
+Commit message - Merge branch 'master' into width-100
+---> The files with partial_reverts are:-
+tests/css/width-100.html
+tests/rules/text-indent.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 57 is -> 
+{ fd0cfbd5ad7ebbebf539b83ef03a73d2ade4d091 -> 014b5b873661e300df936f9fced73348abe83a52 } is a revert
+{ 014b5b873661e300df936f9fced73348abe83a52 -> 9868375b60a612815ac0ffa4cc44dddfe0c16ee7 }
+Partial Revert commits SHA are -> 
+014b5b873661e300df936f9fced73348abe83a52 - revert - 9868375b60a612815ac0ffa4cc44dddfe0c16ee7
+---> The reverted commit sha is - 014b5b873661e300df936f9fced73348abe83a52
+Commit message - width-100 test case
+---> The original commit sha is - 9868375b60a612815ac0ffa4cc44dddfe0c16ee7
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+CHANGELOG
+build.xml
+build/csslint-node.js
+build/csslint-rhino.js
+build/csslint-tests.js
+build/csslint-worker.js
+build/csslint.js
+build/npm/cli.js
+build/npm/lib/csslint-node.js
+build/npm/package.json
+lib/parserlib.js
+npm/package.json
+src/cli/node.js
+src/cli/rhino.js
+src/cli/util.js
+src/core/CSSLint.js
+src/node/cli.js
+src/rhino/cli.js
+src/rules/box-model.js
+src/rules/display-property-grouping.js
+src/rules/floats.js
+src/worker/Worker.js
+tests/css/width-100.html
+tests/rules/box-model.js
+tests/rules/display-property-grouping.js
+tests/rules/floats.js
+tests/rules/text-indent.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 58 is -> 
+{ dfa4c21b2a62bc568b242d6728e5faa1b089b9a8 -> 284d3351362155b900c6032468618c1e25c038c8 } is a revert
+{ 284d3351362155b900c6032468618c1e25c038c8 -> ba78ca7e43cda8623757b9966068627ddd59b4c0 }
+Partial Revert commits SHA are -> 
+284d3351362155b900c6032468618c1e25c038c8 - revert - ba78ca7e43cda8623757b9966068627ddd59b4c0
+---> The reverted commit sha is - 284d3351362155b900c6032468618c1e25c038c8
+Commit message - Merge pull request #81 from shinuza/cli
+
+Cleaned cli files, removed redundant code, cleaned error reporting
+---> The original commit sha is - ba78ca7e43cda8623757b9966068627ddd59b4c0
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+src/core/CSSLint.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 59 is -> 
+{ 0d3329e5fe026094bf3b2968df7a64bb19703ad8 -> fb2f3dc3293f8c2618260374d47bae412b2970b4 } is a revert
+{ fb2f3dc3293f8c2618260374d47bae412b2970b4 -> a9540f6f2f06a22b676682d4e9fb2b4fe06d07e8 }
+Partial Revert commits SHA are -> 
+fb2f3dc3293f8c2618260374d47bae412b2970b4 - revert - a9540f6f2f06a22b676682d4e9fb2b4fe06d07e8
+---> The reverted commit sha is - fb2f3dc3293f8c2618260374d47bae412b2970b4
+Commit message - Merge pull request #72 from shinuza/exit_code
+
+Exiting with non-zero exit code when CSSLint reported an error
+---> The original commit sha is - a9540f6f2f06a22b676682d4e9fb2b4fe06d07e8
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 60 is -> 
+{ 8ad7801748e2df30c082b853f65e4bbab9038be5 -> 4bc36398b5055e9dd9ceeaef0b5b3cc8c653c346 } is a revert
+{ 2ea03c15f666169e66ece15b4f37433cd74ab6aa -> 407a0b99795264eae2dd119f27cfe21fe51c7873 }
+Partial Revert commits SHA are -> 
+4bc36398b5055e9dd9ceeaef0b5b3cc8c653c346 - revert - 407a0b99795264eae2dd119f27cfe21fe51c7873
+---> The reverted commit sha is - 4bc36398b5055e9dd9ceeaef0b5b3cc8c653c346
+Commit message - allows multiple files and dirs as arguments
+---> The original commit sha is - 407a0b99795264eae2dd119f27cfe21fe51c7873
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+README.md
+src/rules/important.js
+tests/rules/important.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 61 is -> 
+{ c0dbe3f7db42fc274baa9be56f295b66b8fc2c08 -> 2ea03c15f666169e66ece15b4f37433cd74ab6aa } is a revert
+{ 2ea03c15f666169e66ece15b4f37433cd74ab6aa -> 407a0b99795264eae2dd119f27cfe21fe51c7873 }
+Partial Revert commits SHA are -> 
+2ea03c15f666169e66ece15b4f37433cd74ab6aa - revert - 407a0b99795264eae2dd119f27cfe21fe51c7873
+---> The reverted commit sha is - 2ea03c15f666169e66ece15b4f37433cd74ab6aa
+Commit message - Include build file in Git repo so people can grab directly (fixes #59)
+---> The original commit sha is - 407a0b99795264eae2dd119f27cfe21fe51c7873
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_reverts are:-
+README.md
+src/rules/important.js
+tests/rules/important.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 62 is -> 
+{ 8ad7801748e2df30c082b853f65e4bbab9038be5 -> 4bc36398b5055e9dd9ceeaef0b5b3cc8c653c346 } is a revert
+{ 784717815f102726c5d0c57569f4734d4aca9368 -> 35059818fc35833e0155837bd1e9dbb2aa2a0a52 }
+Partial Revert commits SHA are -> 
+4bc36398b5055e9dd9ceeaef0b5b3cc8c653c346 - revert - 35059818fc35833e0155837bd1e9dbb2aa2a0a52
+---> The reverted commit sha is - 4bc36398b5055e9dd9ceeaef0b5b3cc8c653c346
+Commit message - allows multiple files and dirs as arguments
+---> The original commit sha is - 35059818fc35833e0155837bd1e9dbb2aa2a0a52
+Commit message - removing old named file
+---> The files with partial_reverts are:-
+src/rhino/rhino.js
+-----------------------------------------------------------------
+

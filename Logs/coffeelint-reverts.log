@@ -1,0 +1,90 @@
+# of reverts = 7
+Revert diff pair 1 is -> 
+{ b9399cef47fd779b35f6e9077b092b01113a7941 -> 98c240bf7e17d1bbe9a021da3cfbb3889c9e34a3 } is a revert
+{ 98c240bf7e17d1bbe9a021da3cfbb3889c9e34a3 -> d8c5fbbe58337eeafc801d708a6527e6125bf6d5 }
+Revert commits SHA are -> 
+98c240bf7e17d1bbe9a021da3cfbb3889c9e34a3 - revert - d8c5fbbe58337eeafc801d708a6527e6125bf6d5
+---> The reverted commit sha is - 98c240bf7e17d1bbe9a021da3cfbb3889c9e34a3
+Commit message - Fixes #311 #106. Copied parakeety/coffeelint-prefer-english-operator
+with @parakeety's permission
+---> The original commit sha is - d8c5fbbe58337eeafc801d708a6527e6125bf6d5
+Commit message - Merge pull request #315 from swang/fix_edgecase_for_no_trailing_semicolons
+
+Fix an edgecase bug for no_trailing_semicolons
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ def04b2d3aa78c3b326c20bf548568e72bf2e910 -> 38e2ec4d8f27d481714f645055ebcba943106a47 } is a revert
+{ 74994f76799ce6c0f3cf0f581aab33d9b627a1cf -> 7d1f50ee6b868c401ee27ed7546bd058638a7dd4 }
+Revert commits SHA are -> 
+38e2ec4d8f27d481714f645055ebcba943106a47 - revert - 7d1f50ee6b868c401ee27ed7546bd058638a7dd4
+---> The reverted commit sha is - 38e2ec4d8f27d481714f645055ebcba943106a47
+Commit message - quite long heredocstrings, disabling line length check (for now)
+---> The original commit sha is - 7d1f50ee6b868c401ee27ed7546bd058638a7dd4
+Commit message - reenable max_line_length
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 1e0a1ce3c01b72ae18acc9951cfe7c96ee85cf5f -> 79436620428f2b297b3f88e8fa628701015cd39f } is a revert
+{ ee8ba3b9ec4443658c85caa11a07810cddbd4ddf -> 9ac7dc31dc0c32808c866c81bf6b55e34ca5b99e }
+Revert commits SHA are -> 
+79436620428f2b297b3f88e8fa628701015cd39f - revert - 9ac7dc31dc0c32808c866c81bf6b55e34ca5b99e
+---> The reverted commit sha is - 79436620428f2b297b3f88e8fa628701015cd39f
+Commit message - Revert "Coffeescript 1.5.0 reports indentation differently"
+
+This reverts commit cddb155d620da5ae55b4bd3100cfb8c13b5f45f7.
+---> The original commit sha is - 9ac7dc31dc0c32808c866c81bf6b55e34ca5b99e
+Commit message - Revert "Revert "Coffeescript 1.5.0 reports indentation differently""
+
+This reverts commit 79436620428f2b297b3f88e8fa628701015cd39f.
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ cddb155d620da5ae55b4bd3100cfb8c13b5f45f7 -> 2ecefd03356bd4a23d2b5bb4d12fc76a99fe67bd } is a revert
+{ 2ecefd03356bd4a23d2b5bb4d12fc76a99fe67bd -> 63a9404ecd6f8ee23c4f3e5bc51e28bb649fa8f9 }
+Revert commits SHA are -> 
+2ecefd03356bd4a23d2b5bb4d12fc76a99fe67bd - revert - 63a9404ecd6f8ee23c4f3e5bc51e28bb649fa8f9
+---> The reverted commit sha is - 2ecefd03356bd4a23d2b5bb4d12fc76a99fe67bd
+Commit message - Fix ASTLinter to report lineNumber correctly with 1.6.2+ CoffeeScript
+---> The original commit sha is - 63a9404ecd6f8ee23c4f3e5bc51e28bb649fa8f9
+Commit message - Revert "Fix ASTLinter to report lineNumber correctly with 1.6.2+ CoffeeScript"
+
+This reverts commit 2ecefd03356bd4a23d2b5bb4d12fc76a99fe67bd.
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ 7cf8493b1eb691100c89183eaf2befd7dd77aa9f -> 10b95d73d5a8c1d9a04b92e7b7693115b09d05e8 } is a revert
+{ 141c9babb83418782043d2cea39cd27173e35e76 -> f53db65ece523675998e459e3358d87dbfabc698 }
+Revert commits SHA are -> 
+10b95d73d5a8c1d9a04b92e7b7693115b09d05e8 - revert - f53db65ece523675998e459e3358d87dbfabc698
+---> The reverted commit sha is - 10b95d73d5a8c1d9a04b92e7b7693115b09d05e8
+Commit message - Ensure everything works in the browser.
+---> The original commit sha is - f53db65ece523675998e459e3358d87dbfabc698
+Commit message - Removing useless test file.
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ 884159dc0ea5fb1c8805197aa8264c09f119fa6a -> 20e2a6fb2c184ad634e35fe67f3935f004105b14 } is a revert
+{ 20e2a6fb2c184ad634e35fe67f3935f004105b14 -> 6b866e95081fb738ba0356bbd473aea904b0add4 }
+Revert commits SHA are -> 
+20e2a6fb2c184ad634e35fe67f3935f004105b14 - revert - 6b866e95081fb738ba0356bbd473aea904b0add4
+---> The reverted commit sha is - 20e2a6fb2c184ad634e35fe67f3935f004105b14
+Commit message - Updating JS.
+---> The original commit sha is - 6b866e95081fb738ba0356bbd473aea904b0add4
+Commit message - Merge branch 'line-linter'
+
+Conflicts:
+	lib/coffeelint.js
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ 7d09a985acaf243ab3a071e1c7dab3b72ac40a01 -> 71f7105549b9b13dc798332dd31c6e44c8b35a54 } is a revert
+{ 71f7105549b9b13dc798332dd31c6e44c8b35a54 -> 4ec92ef0d9a48ba0645bf348eca51d4b071cc8dd }
+Revert commits SHA are -> 
+71f7105549b9b13dc798332dd31c6e44c8b35a54 - revert - 4ec92ef0d9a48ba0645bf348eca51d4b071cc8dd
+---> The reverted commit sha is - 71f7105549b9b13dc798332dd31c6e44c8b35a54
+Commit message - Different coffee path.
+---> The original commit sha is - 4ec92ef0d9a48ba0645bf348eca51d4b071cc8dd
+Commit message - The old package works.
+-----------------------------------------------------------------
+

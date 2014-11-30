@@ -1,0 +1,29 @@
+# of reverts = 2
+Revert diff pair 1 is -> 
+{ 6f65c07132c1ee66b82986d6da6b02cb9814a4f7 -> 9a29e8478ff0fbc5655c80dcd7df8127d5ba0361 } is a revert
+{ 9a29e8478ff0fbc5655c80dcd7df8127d5ba0361 -> 0dcd36c36ee58b66ffec4d151319c6dfbe1498c6 }
+Revert commits SHA are -> 
+9a29e8478ff0fbc5655c80dcd7df8127d5ba0361 - revert - 0dcd36c36ee58b66ffec4d151319c6dfbe1498c6
+---> The reverted commit sha is - 9a29e8478ff0fbc5655c80dcd7df8127d5ba0361
+Commit message - Don't rewrite the file if a syntax error has been found
+---> The original commit sha is - 0dcd36c36ee58b66ffec4d151319c6dfbe1498c6
+Commit message - Merge pull request #183 from rodjek/issue-183
+
+Puppet-lint fails to handle mac line endings
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 21d578de5ae28a4d2e51154786fbdfb4ddfe812e -> 40e0ec93462bdf50bdd183ea739bc86a0e1a64c8 } is a revert
+{ 40e0ec93462bdf50bdd183ea739bc86a0e1a64c8 -> a8fafe2bef1cd2884d15391b555503cb7a30b481 }
+Revert commits SHA are -> 
+40e0ec93462bdf50bdd183ea739bc86a0e1a64c8 - revert - a8fafe2bef1cd2884d15391b555503cb7a30b481
+---> The reverted commit sha is - 40e0ec93462bdf50bdd183ea739bc86a0e1a64c8
+Commit message - Update readme to reflect the current names of the flags for disabling checks. The documented options no longer appear to be correct.
+---> The original commit sha is - a8fafe2bef1cd2884d15391b555503cb7a30b481
+Commit message - Merge pull request #81 from nanliu/tb/directory
+
+Add support run puppet-lint on directory.
+
+Closes #72
+-----------------------------------------------------------------
+

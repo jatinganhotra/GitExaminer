@@ -1,0 +1,77 @@
+# of reverts = 6
+Revert diff pair 1 is -> 
+{ 88f0429665b5359b9518068f0b6bfe5c64010c41 -> 635a4bcad2a8f561307538416c5296f8f656c522 } is a revert
+{ 635a4bcad2a8f561307538416c5296f8f656c522 -> da6a6a196d2c633ca4fca7924eff9bf1fac758ee }
+Revert commits SHA are -> 
+635a4bcad2a8f561307538416c5296f8f656c522 - revert - da6a6a196d2c633ca4fca7924eff9bf1fac758ee
+---> The reverted commit sha is - 635a4bcad2a8f561307538416c5296f8f656c522
+Commit message - Add release with Checkstyle XML formatter support
+---> The original commit sha is - da6a6a196d2c633ca4fca7924eff9bf1fac758ee
+Commit message - Revert "Add release with Checkstyle XML formatter support"
+
+This reverts commit 635a4bcad2a8f561307538416c5296f8f656c522.
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ e70538a3c1ac3ad23936dd4117857016b0162316 -> 331663d146b3240d0ec917167d53822d5772852e } is a revert
+{ d28268b0baedbd80967c8dac6a52b76cfa2e06c1 -> b7e7ffb96063b00f9cab0b741bf558059aa1b4e1 }
+Revert commits SHA are -> 
+331663d146b3240d0ec917167d53822d5772852e - revert - b7e7ffb96063b00f9cab0b741bf558059aa1b4e1
+---> The reverted commit sha is - 331663d146b3240d0ec917167d53822d5772852e
+Commit message - Revert "tests"
+
+This reverts commit e7449d38e623be96d405d083591aea575b540de2.
+---> The original commit sha is - b7e7ffb96063b00f9cab0b741bf558059aa1b4e1
+Commit message - test file for negative text-indent rule
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 5769b42ee1eaeb0d285076e2cf3cf92f5b00f9b9 -> 83ed025170b2f35c833b682089c9e567ae09615d } is a revert
+{ 83ed025170b2f35c833b682089c9e567ae09615d -> 25d9ce81dfa39a9fc4d2fd961726cf1a20148576 }
+Revert commits SHA are -> 
+83ed025170b2f35c833b682089c9e567ae09615d - revert - 25d9ce81dfa39a9fc4d2fd961726cf1a20148576
+---> The reverted commit sha is - 83ed025170b2f35c833b682089c9e567ae09615d
+Commit message - Final fixes for 0.3.0
+---> The original commit sha is - 25d9ce81dfa39a9fc4d2fd961726cf1a20148576
+Commit message - JSLint XML should have double-quoted attributes
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ bf9f5b0dd8d7e04b6dd8d73344318ebc5b1635b0 -> e7449d38e623be96d405d083591aea575b540de2 } is a revert
+{ e70538a3c1ac3ad23936dd4117857016b0162316 -> 331663d146b3240d0ec917167d53822d5772852e }
+Revert commits SHA are -> 
+e7449d38e623be96d405d083591aea575b540de2 - revert - 331663d146b3240d0ec917167d53822d5772852e
+---> The reverted commit sha is - e7449d38e623be96d405d083591aea575b540de2
+Commit message - tests
+---> The original commit sha is - 331663d146b3240d0ec917167d53822d5772852e
+Commit message - Revert "tests"
+
+This reverts commit e7449d38e623be96d405d083591aea575b540de2.
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ 68876576a93ed7faf8a3167d3df4a06bd9ba9446 -> dfa4c21b2a62bc568b242d6728e5faa1b089b9a8 } is a revert
+{ dfa4c21b2a62bc568b242d6728e5faa1b089b9a8 -> 284d3351362155b900c6032468618c1e25c038c8 }
+Revert commits SHA are -> 
+dfa4c21b2a62bc568b242d6728e5faa1b089b9a8 - revert - 284d3351362155b900c6032468618c1e25c038c8
+---> The reverted commit sha is - dfa4c21b2a62bc568b242d6728e5faa1b089b9a8
+Commit message - Renamed parameter to ruleset
+---> The original commit sha is - 284d3351362155b900c6032468618c1e25c038c8
+Commit message - Merge pull request #81 from shinuza/cli
+
+Cleaned cli files, removed redundant code, cleaned error reporting
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ f3467561e267df6fa02e31b9d3c87e3a4188f360 -> 0d3329e5fe026094bf3b2968df7a64bb19703ad8 } is a revert
+{ 0d3329e5fe026094bf3b2968df7a64bb19703ad8 -> fb2f3dc3293f8c2618260374d47bae412b2970b4 }
+Revert commits SHA are -> 
+0d3329e5fe026094bf3b2968df7a64bb19703ad8 - revert - fb2f3dc3293f8c2618260374d47bae412b2970b4
+---> The reverted commit sha is - 0d3329e5fe026094bf3b2968df7a64bb19703ad8
+Commit message - Added Eitan's info
+---> The original commit sha is - fb2f3dc3293f8c2618260374d47bae412b2970b4
+Commit message - Merge pull request #72 from shinuza/exit_code
+
+Exiting with non-zero exit code when CSSLint reported an error
+-----------------------------------------------------------------
+

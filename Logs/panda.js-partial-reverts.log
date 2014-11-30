@@ -1,0 +1,460 @@
+# of partial reverts = 31
+Partial Revert diff pair 1 is -> 
+{ b2e07350064f1877553543f3fae2b43252e75844 -> a9abf4d5d32479dd334f4d515261efbfdc56553e } is a revert
+{ 7f22522b2713e86e172eca7fa7237cdf4dae8c02 -> 0d5c26f1e773d14680181343a2b1503e14959e56 }
+Partial Revert commits SHA are -> 
+a9abf4d5d32479dd334f4d515261efbfdc56553e - revert - 0d5c26f1e773d14680181343a2b1503e14959e56
+---> The reverted commit sha is - a9abf4d5d32479dd334f4d515261efbfdc56553e
+Commit message - Moved Scene.stopAudioOnInit attribute to System.stopAudioOnSceneChange
+---> The original commit sha is - 0d5c26f1e773d14680181343a2b1503e14959e56
+Commit message - Removed stopAudioOnSceneChange attribute from System
+---> The files with partial_reverts are:-
+src/engine/system.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 78620267ea2aeed11a2d780a4e2dd3e5c8776a74 -> 8a79c8cec32474ca303e89b33593d4521eb8bf1d } is a revert
+{ 8a79c8cec32474ca303e89b33593d4521eb8bf1d -> 07eb929fbe73e903e6b8f5e6b3139fc76db90a7c }
+Partial Revert commits SHA are -> 
+8a79c8cec32474ca303e89b33593d4521eb8bf1d - revert - 07eb929fbe73e903e6b8f5e6b3139fc76db90a7c
+---> The reverted commit sha is - 8a79c8cec32474ca303e89b33593d4521eb8bf1d
+Commit message - Loader fires the completion code even if nothing was loaded
+---> The original commit sha is - 07eb929fbe73e903e6b8f5e6b3139fc76db90a7c
+Commit message - Merge pull request #102 from sandymacpherson/develop
+
+Loader fires the completion code even if nothing was loaded
+---> The files with partial_reverts are:-
+src/engine/audio.js
+src/engine/camera.js
+src/engine/core.js
+src/engine/particle.js
+src/engine/scene.js
+src/engine/system.js
+src/game/main.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ b9e71bcad7160a21e206c992825edd8b9afd7a14 -> 1159a71085536f5b4b160ae415025fc19b69a5e9 } is a revert
+{ 1159a71085536f5b4b160ae415025fc19b69a5e9 -> f043e8b06cc5de882eeffde336844baf9d353fb7 }
+Partial Revert commits SHA are -> 
+1159a71085536f5b4b160ae415025fc19b69a5e9 - revert - f043e8b06cc5de882eeffde336844baf9d353fb7
+---> The reverted commit sha is - 1159a71085536f5b4b160ae415025fc19b69a5e9
+Commit message - Fixed removeEmitter method on Scene
+---> The original commit sha is - f043e8b06cc5de882eeffde336844baf9d353fb7
+Commit message - Merge pull request #101 from sandymacpherson/develop
+
+Emitter cleans up particles when removed
+---> The files with partial_reverts are:-
+src/engine/particle.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 9bc5e24bb3e573f383dd83f06b9b5dc91f2a6950 -> 00baee33a7733384fc3b9780abd917f0240856b0 } is a revert
+{ 00baee33a7733384fc3b9780abd917f0240856b0 -> b9e71bcad7160a21e206c992825edd8b9afd7a14 }
+Partial Revert commits SHA are -> 
+00baee33a7733384fc3b9780abd917f0240856b0 - revert - b9e71bcad7160a21e206c992825edd8b9afd7a14
+---> The reverted commit sha is - 00baee33a7733384fc3b9780abd917f0240856b0
+Commit message - Fixed Camera, when following flipped sprite
+---> The original commit sha is - b9e71bcad7160a21e206c992825edd8b9afd7a14
+Commit message - No longer setting emitter to inactive when removed
+---> The files with partial_reverts are:-
+src/engine/camera.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ 2147d9fac7e0b6ea88ff5bc998ae05dca65e8a0c -> f129826ebc56e7ecbac7b1e27644d45deba02562 } is a revert
+{ f129826ebc56e7ecbac7b1e27644d45deba02562 -> 04ee35733d4bc21f2fd521e05bf1b78f96145b31 }
+Partial Revert commits SHA are -> 
+f129826ebc56e7ecbac7b1e27644d45deba02562 - revert - 04ee35733d4bc21f2fd521e05bf1b78f96145b31
+---> The reverted commit sha is - f129826ebc56e7ecbac7b1e27644d45deba02562
+Commit message - Added dynamic mode to loader
+---> The original commit sha is - 04ee35733d4bc21f2fd521e05bf1b78f96145b31
+Commit message - Merge branch '1.5.1' into develop
+---> The files with partial_reverts are:-
+src/engine/physics.js
+src/engine/system.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ e5c5725df940c8ed53ace2f3458a2d77a3792952 -> e02747bc7f55aa4f034ea9610883fd7c865526de } is a revert
+{ d4e6ba5ff72f5877eeb14f8e29e3f6d53d2505ac -> 7baea7dafad024bbd35af72fd198e14b00dfa0cc }
+Partial Revert commits SHA are -> 
+e02747bc7f55aa4f034ea9610883fd7c865526de - revert - 7baea7dafad024bbd35af72fd198e14b00dfa0cc
+---> The reverted commit sha is - e02747bc7f55aa4f034ea9610883fd7c865526de
+Commit message - Reorganized core code
+---> The original commit sha is - 7baea7dafad024bbd35af72fd198e14b00dfa0cc
+Commit message - Removed wpApp stuff from core
+---> The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ f053fc8337ebe89e10864518275635ddf5ca6b6f -> edb32235381e2a84c9f0167500507e51c3903eb6 } is a revert
+{ 27c34f487a59bde45f220494ab50c6b88cb85044 -> 8d38b015ec2d99ce69b4f5552aad490166cd8ac2 }
+Partial Revert commits SHA are -> 
+edb32235381e2a84c9f0167500507e51c3903eb6 - revert - 8d38b015ec2d99ce69b4f5552aad490166cd8ac2
+---> The reverted commit sha is - edb32235381e2a84c9f0167500507e51c3903eb6
+Commit message - Added hiresWidth and hiresHeight attributes to System class
+Added experimental aspectRatio attribute to System class
+Renamed resize attribute to scale on System class
+---> The original commit sha is - 8d38b015ec2d99ce69b4f5552aad490166cd8ac2
+Commit message - Merge pull request #71 from justinmccombs/develop
+
+Update tween.js to include onRepeat callback
+---> The files with partial_reverts are:-
+src/engine/tween.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ 1fe02dd0373ae8e87632119e0272f089719cdf82 -> 6127808d14aa13d24f0673ede37f47e7b82ef615 } is a revert
+{ 231c50a9b8223efa16ed3f3d03594c1edfb4d5bd -> ca0a3a859aade1e4e3d035dbd9353a806b7dfa18 }
+Partial Revert commits SHA are -> 
+6127808d14aa13d24f0673ede37f47e7b82ef615 - revert - ca0a3a859aade1e4e3d035dbd9353a806b7dfa18
+---> The reverted commit sha is - 6127808d14aa13d24f0673ede37f47e7b82ef615
+Commit message - Fixed onTouchEnd bug
+---> The original commit sha is - ca0a3a859aade1e4e3d035dbd9353a806b7dfa18
+Commit message - Merge branch 'master' into develop
+---> The files with partial_reverts are:-
+src/engine/system.js
+src/engine/tween.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ 8a31eb120b985909f18ae3e00f63e590c24abac7 -> 9d847b7b426f8a23dec1075812a474230fb472b7 } is a revert
+{ e24ea3b3dad0ede41aa60699d304f0509e5a9439 -> d87b5e7d19ff92d109e5de704e6925b386019adb }
+Partial Revert commits SHA are -> 
+9d847b7b426f8a23dec1075812a474230fb472b7 - revert - d87b5e7d19ff92d109e5de704e6925b386019adb
+---> The reverted commit sha is - 9d847b7b426f8a23dec1075812a474230fb472b7
+Commit message - Moved .jshintrc to root
+---> The original commit sha is - d87b5e7d19ff92d109e5de704e6925b386019adb
+Commit message - Removed jshint config file
+---> The files with partial_reverts are:-
+.jshintrc
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ 881c4f13600fd7ba972fba448477d71b9d878b0f -> 04bb319cffdcd75fcb4e3ab0aaccf0ebc5a0dc96 } is a revert
+{ 49b1b2ffb2518fa38cd7f81f61f6b75ee628d343 -> 1f579d2664d398b53ca9f884afaf354488c5df62 }
+Partial Revert commits SHA are -> 
+04bb319cffdcd75fcb4e3ab0aaccf0ebc5a0dc96 - revert - 1f579d2664d398b53ca9f884afaf354488c5df62
+---> The reverted commit sha is - 04bb319cffdcd75fcb4e3ab0aaccf0ebc5a0dc96
+Commit message - Added debugDraw property to game.Sprite and game.Container
+---> The original commit sha is - 1f579d2664d398b53ca9f884afaf354488c5df62
+Commit message - Merge branch '1.2.1' into develop
+---> The files with partial_reverts are:-
+src/engine/core.js
+src/engine/particle.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 95007419babb201f5fb6ddbbf5b631ce128cae2e -> 4ed7c2cb842c7890bc6840c6e77141aa0cc6b392 } is a revert
+{ c9cf8b4389202c42cd5cc0d25d72099232476f5d -> 56a2c2007e06c87ec1811b805e126c27ffc6c2ff }
+Partial Revert commits SHA are -> 
+4ed7c2cb842c7890bc6840c6e77141aa0cc6b392 - revert - 56a2c2007e06c87ec1811b805e126c27ffc6c2ff
+---> The reverted commit sha is - 4ed7c2cb842c7890bc6840c6e77141aa0cc6b392
+Commit message - Merge branch 'master' into develop
+---> The original commit sha is - 56a2c2007e06c87ec1811b805e126c27ffc6c2ff
+Commit message - Removed offline module
+---> The files with partial_reverts are:-
+src/engine/offline.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ 15222d946faef72c9c4b0f0b59b92fe6d1b81231 -> b3f7c8c40dc195f49adbe6c178177a4ede09e960 } is a revert
+{ c9cf8b4389202c42cd5cc0d25d72099232476f5d -> 56a2c2007e06c87ec1811b805e126c27ffc6c2ff }
+Partial Revert commits SHA are -> 
+b3f7c8c40dc195f49adbe6c178177a4ede09e960 - revert - 56a2c2007e06c87ec1811b805e126c27ffc6c2ff
+---> The reverted commit sha is - b3f7c8c40dc195f49adbe6c178177a4ede09e960
+Commit message - Merge branch 'master' into develop
+---> The original commit sha is - 56a2c2007e06c87ec1811b805e126c27ffc6c2ff
+Commit message - Removed offline module
+---> The files with partial_reverts are:-
+src/engine/offline.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ c7b52c4e608db3c42e74226a42dd4d7d498db540 -> 918affa9baa0c66716bf4327227b4fbc444903ba } is a revert
+{ c9cf8b4389202c42cd5cc0d25d72099232476f5d -> 56a2c2007e06c87ec1811b805e126c27ffc6c2ff }
+Partial Revert commits SHA are -> 
+918affa9baa0c66716bf4327227b4fbc444903ba - revert - 56a2c2007e06c87ec1811b805e126c27ffc6c2ff
+---> The reverted commit sha is - 918affa9baa0c66716bf4327227b4fbc444903ba
+Commit message - Audio module update
+---> The original commit sha is - 56a2c2007e06c87ec1811b805e126c27ffc6c2ff
+Commit message - Removed offline module
+---> The files with partial_reverts are:-
+src/engine/offline.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ 84b89600dfcb918cf5ed2d3eecebb56f84895f76 -> 6b872db5648a1b4b526f0a37fa79da391dfe4fa6 } is a revert
+{ 6b872db5648a1b4b526f0a37fa79da391dfe4fa6 -> 34b515c64304184b9b76fc38cfb37f050db51382 }
+Partial Revert commits SHA are -> 
+6b872db5648a1b4b526f0a37fa79da391dfe4fa6 - revert - 34b515c64304184b9b76fc38cfb37f050db51382
+---> The reverted commit sha is - 6b872db5648a1b4b526f0a37fa79da391dfe4fa6
+Commit message - Update README.md
+---> The original commit sha is - 34b515c64304184b9b76fc38cfb37f050db51382
+Commit message - Cleaned config file
+---> The files with partial_reverts are:-
+index.html
+src/engine/audio.js
+src/engine/core.js
+src/engine/loader.js
+src/engine/renderer.js
+src/engine/scene.js
+src/engine/sprite.js
+src/engine/system.js
+src/engine/timer.js
+src/game/main.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 9956410079096cf2bebe9146905b1a11d3e5a0db -> 31223e881d5108c241261bf2a250130281683fb3 } is a revert
+{ 31223e881d5108c241261bf2a250130281683fb3 -> 6df56edee86f04931de22476d5f5c3dd9735d5d6 }
+Partial Revert commits SHA are -> 
+31223e881d5108c241261bf2a250130281683fb3 - revert - 6df56edee86f04931de22476d5f5c3dd9735d5d6
+---> The reverted commit sha is - 31223e881d5108c241261bf2a250130281683fb3
+Commit message - Fixed version number
+---> The original commit sha is - 6df56edee86f04931de22476d5f5c3dd9735d5d6
+Commit message - Merge branch 'master' into develop
+---> The files with partial_reverts are:-
+index.html
+src/engine/audio.js
+src/engine/scene.js
+src/engine/sprite.js
+src/engine/system.js
+src/game/config.js
+src/game/main.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ 7af22e2cbfdf2c65e196c3bbad76308dbde008af -> 8a0f251f5af70e23290f551e13fdd585ed8d0f6e } is a revert
+{ 1caac147b075e2becd42a5c6d626077f560abc83 -> 7b34ed034951ef84c2f893636a938836364e906a }
+Partial Revert commits SHA are -> 
+8a0f251f5af70e23290f551e13fdd585ed8d0f6e - revert - 7b34ed034951ef84c2f893636a938836364e906a
+---> The reverted commit sha is - 8a0f251f5af70e23290f551e13fdd585ed8d0f6e
+Commit message - Fixed pauseOnHide to use focus/blur
+---> The original commit sha is - 7b34ed034951ef84c2f893636a938836364e906a
+Commit message - Changed pauseOnHide back to visibilityChange
+---> The files with partial_reverts are:-
+src/engine/system.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ 7af22e2cbfdf2c65e196c3bbad76308dbde008af -> 8a0f251f5af70e23290f551e13fdd585ed8d0f6e } is a revert
+{ 29ab464b9075641437a05622c545e98f8e901c2e -> 63ec63b9fa3a0b677c5443fce6604f5955cc0e3a }
+Partial Revert commits SHA are -> 
+8a0f251f5af70e23290f551e13fdd585ed8d0f6e - revert - 63ec63b9fa3a0b677c5443fce6604f5955cc0e3a
+---> The reverted commit sha is - 8a0f251f5af70e23290f551e13fdd585ed8d0f6e
+Commit message - Fixed pauseOnHide to use focus/blur
+---> The original commit sha is - 63ec63b9fa3a0b677c5443fce6604f5955cc0e3a
+Commit message - Merge pull request #44 from blaspix/patch-1
+
+Fixed game.TweenGroup.add() method
+---> The files with partial_reverts are:-
+src/engine/tween.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ 59f83e9b25133f83ef26364e670d7fbfda1baa0c -> 26318585b1d2da2f766bd331f52576871b78238a } is a revert
+{ e82e239bd41bcac0e60eb0e4242d25d94326839a -> fcf9e276edd493602b78d64b6218aa577066e6c1 }
+Partial Revert commits SHA are -> 
+26318585b1d2da2f766bd331f52576871b78238a - revert - fcf9e276edd493602b78d64b6218aa577066e6c1
+---> The reverted commit sha is - 26318585b1d2da2f766bd331f52576871b78238a
+Commit message - Changed super to _super to support Android 2.3
+---> The original commit sha is - fcf9e276edd493602b78d64b6218aa577066e6c1
+Commit message - Merge branch 'master' into develop
+---> The files with partial_reverts are:-
+src/engine/tween.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 2de3747921b2d2338438499763f2ea5af1c1f471 -> 27db86a3587fc617d874f26b64e115cb25d79f20 } is a revert
+{ e82e239bd41bcac0e60eb0e4242d25d94326839a -> fcf9e276edd493602b78d64b6218aa577066e6c1 }
+Partial Revert commits SHA are -> 
+27db86a3587fc617d874f26b64e115cb25d79f20 - revert - fcf9e276edd493602b78d64b6218aa577066e6c1
+---> The reverted commit sha is - 27db86a3587fc617d874f26b64e115cb25d79f20
+Commit message - fnTest fix
+---> The original commit sha is - fcf9e276edd493602b78d64b6218aa577066e6c1
+Commit message - Merge branch 'master' into develop
+---> The files with partial_reverts are:-
+src/engine/tween.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ c13a0e6699e10488a5ced8d3995222f9b1a44544 -> e82e239bd41bcac0e60eb0e4242d25d94326839a } is a revert
+{ e82e239bd41bcac0e60eb0e4242d25d94326839a -> fcf9e276edd493602b78d64b6218aa577066e6c1 }
+Partial Revert commits SHA are -> 
+e82e239bd41bcac0e60eb0e4242d25d94326839a - revert - fcf9e276edd493602b78d64b6218aa577066e6c1
+---> The reverted commit sha is - e82e239bd41bcac0e60eb0e4242d25d94326839a
+Commit message - Fixed core version number
+---> The original commit sha is - fcf9e276edd493602b78d64b6218aa577066e6c1
+Commit message - Merge branch 'master' into develop
+---> The files with partial_reverts are:-
+src/engine/tween.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ 59f83e9b25133f83ef26364e670d7fbfda1baa0c -> 26318585b1d2da2f766bd331f52576871b78238a } is a revert
+{ 27db86a3587fc617d874f26b64e115cb25d79f20 -> c13a0e6699e10488a5ced8d3995222f9b1a44544 }
+Partial Revert commits SHA are -> 
+26318585b1d2da2f766bd331f52576871b78238a - revert - c13a0e6699e10488a5ced8d3995222f9b1a44544
+---> The reverted commit sha is - 26318585b1d2da2f766bd331f52576871b78238a
+Commit message - Changed super to _super to support Android 2.3
+---> The original commit sha is - c13a0e6699e10488a5ced8d3995222f9b1a44544
+Commit message - Merge branch 'master' into develop
+---> The files with partial_reverts are:-
+src/engine/tween.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ 2de3747921b2d2338438499763f2ea5af1c1f471 -> 27db86a3587fc617d874f26b64e115cb25d79f20 } is a revert
+{ 27db86a3587fc617d874f26b64e115cb25d79f20 -> c13a0e6699e10488a5ced8d3995222f9b1a44544 }
+Partial Revert commits SHA are -> 
+27db86a3587fc617d874f26b64e115cb25d79f20 - revert - c13a0e6699e10488a5ced8d3995222f9b1a44544
+---> The reverted commit sha is - 27db86a3587fc617d874f26b64e115cb25d79f20
+Commit message - fnTest fix
+---> The original commit sha is - c13a0e6699e10488a5ced8d3995222f9b1a44544
+Commit message - Merge branch 'master' into develop
+---> The files with partial_reverts are:-
+src/engine/tween.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ 59f83e9b25133f83ef26364e670d7fbfda1baa0c -> 26318585b1d2da2f766bd331f52576871b78238a } is a revert
+{ 26318585b1d2da2f766bd331f52576871b78238a -> 2de3747921b2d2338438499763f2ea5af1c1f471 }
+Partial Revert commits SHA are -> 
+26318585b1d2da2f766bd331f52576871b78238a - revert - 2de3747921b2d2338438499763f2ea5af1c1f471
+---> The reverted commit sha is - 26318585b1d2da2f766bd331f52576871b78238a
+Commit message - Changed super to _super to support Android 2.3
+---> The original commit sha is - 2de3747921b2d2338438499763f2ea5af1c1f471
+Commit message - Merge branch 'master' into develop
+---> The files with partial_reverts are:-
+src/engine/tween.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ 75bea8eff57218dcf46c732515aa1462c7083cca -> cb7c19576d3a145e5695c8eb4415a9745201a85f } is a revert
+{ 91851a2abf5bbfe65b6efc355aa979360929e83b -> 397e5b3a898015e9d2715f3b1e411e63f1f073e3 }
+Partial Revert commits SHA are -> 
+cb7c19576d3a145e5695c8eb4415a9745201a85f - revert - 397e5b3a898015e9d2715f3b1e411e63f1f073e3
+---> The reverted commit sha is - cb7c19576d3a145e5695c8eb4415a9745201a85f
+Commit message - Audio documentation
+---> The original commit sha is - 397e5b3a898015e9d2715f3b1e411e63f1f073e3
+Commit message - Merge branch 'develop' into audio
+
+Conflicts:
+	src/game/scenes.js
+---> The files with partial_reverts are:-
+src/engine/scene.js
+src/engine/timer.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ e8018230d2479606dea21cc0d96661fa6c4767cb -> 777e35d9392e1e850ae7c0b08d1a6b163cf9b82c } is a revert
+{ 91851a2abf5bbfe65b6efc355aa979360929e83b -> 397e5b3a898015e9d2715f3b1e411e63f1f073e3 }
+Partial Revert commits SHA are -> 
+777e35d9392e1e850ae7c0b08d1a6b163cf9b82c - revert - 397e5b3a898015e9d2715f3b1e411e63f1f073e3
+---> The reverted commit sha is - 777e35d9392e1e850ae7c0b08d1a6b163cf9b82c
+Commit message - Fixed loader
+---> The original commit sha is - 397e5b3a898015e9d2715f3b1e411e63f1f073e3
+Commit message - Merge branch 'develop' into audio
+
+Conflicts:
+	src/game/scenes.js
+---> The files with partial_reverts are:-
+src/engine/scene.js
+src/engine/timer.js
+src/engine/tween.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ 2adf62e1b6639abceb3fd751b2213ee9122d5833 -> 5f1854adeacf106e8c34c3c9ef2bbaee8a48bbd2 } is a revert
+{ e8018230d2479606dea21cc0d96661fa6c4767cb -> 777e35d9392e1e850ae7c0b08d1a6b163cf9b82c }
+Partial Revert commits SHA are -> 
+5f1854adeacf106e8c34c3c9ef2bbaee8a48bbd2 - revert - 777e35d9392e1e850ae7c0b08d1a6b163cf9b82c
+---> The reverted commit sha is - 5f1854adeacf106e8c34c3c9ef2bbaee8a48bbd2
+Commit message - Added delayOnStart function
+---> The original commit sha is - 777e35d9392e1e850ae7c0b08d1a6b163cf9b82c
+Commit message - Fixed loader
+---> The files with partial_reverts are:-
+src/engine/loader.js
+src/engine/timer.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ cb7c19576d3a145e5695c8eb4415a9745201a85f -> a2984f0991e6f9ce5050fe7151a0927d7202db4e } is a revert
+{ e8018230d2479606dea21cc0d96661fa6c4767cb -> 777e35d9392e1e850ae7c0b08d1a6b163cf9b82c }
+Partial Revert commits SHA are -> 
+a2984f0991e6f9ce5050fe7151a0927d7202db4e - revert - 777e35d9392e1e850ae7c0b08d1a6b163cf9b82c
+---> The reverted commit sha is - a2984f0991e6f9ce5050fe7151a0927d7202db4e
+Commit message - Adde TweenGroup to new tween module
+---> The original commit sha is - 777e35d9392e1e850ae7c0b08d1a6b163cf9b82c
+Commit message - Fixed loader
+---> The files with partial_reverts are:-
+src/engine/audio.js
+src/engine/loader.js
+src/engine/scene.js
+src/engine/timer.js
+src/engine/tween.js
+src/game/scenes.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ 75bea8eff57218dcf46c732515aa1462c7083cca -> cb7c19576d3a145e5695c8eb4415a9745201a85f } is a revert
+{ cb7c19576d3a145e5695c8eb4415a9745201a85f -> a2984f0991e6f9ce5050fe7151a0927d7202db4e }
+Partial Revert commits SHA are -> 
+cb7c19576d3a145e5695c8eb4415a9745201a85f - revert - a2984f0991e6f9ce5050fe7151a0927d7202db4e
+---> The reverted commit sha is - cb7c19576d3a145e5695c8eb4415a9745201a85f
+Commit message - Audio documentation
+---> The original commit sha is - a2984f0991e6f9ce5050fe7151a0927d7202db4e
+Commit message - Adde TweenGroup to new tween module
+---> The files with partial_reverts are:-
+src/engine/audio.js
+src/engine/core.js
+src/engine/loader.js
+src/engine/scene.js
+src/engine/timer.js
+src/game/scenes.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ 2adf62e1b6639abceb3fd751b2213ee9122d5833 -> 5f1854adeacf106e8c34c3c9ef2bbaee8a48bbd2 } is a revert
+{ 75bea8eff57218dcf46c732515aa1462c7083cca -> cb7c19576d3a145e5695c8eb4415a9745201a85f }
+Partial Revert commits SHA are -> 
+5f1854adeacf106e8c34c3c9ef2bbaee8a48bbd2 - revert - cb7c19576d3a145e5695c8eb4415a9745201a85f
+---> The reverted commit sha is - 5f1854adeacf106e8c34c3c9ef2bbaee8a48bbd2
+Commit message - Added delayOnStart function
+---> The original commit sha is - cb7c19576d3a145e5695c8eb4415a9745201a85f
+Commit message - Audio documentation
+---> The files with partial_reverts are:-
+src/engine/core.js
+src/engine/loader.js
+src/engine/timer.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ c7b52c4e608db3c42e74226a42dd4d7d498db540 -> 918affa9baa0c66716bf4327227b4fbc444903ba } is a revert
+{ ebdfb094784c001371008faf80fdd439940502d2 -> 75bea8eff57218dcf46c732515aa1462c7083cca }
+Partial Revert commits SHA are -> 
+918affa9baa0c66716bf4327227b4fbc444903ba - revert - 75bea8eff57218dcf46c732515aa1462c7083cca
+---> The reverted commit sha is - 918affa9baa0c66716bf4327227b4fbc444903ba
+Commit message - Audio module update
+---> The original commit sha is - 75bea8eff57218dcf46c732515aa1462c7083cca
+Commit message - Merge branch 'tween' into develop
+---> The files with partial_reverts are:-
+src/engine/audio.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ c7b52c4e608db3c42e74226a42dd4d7d498db540 -> 918affa9baa0c66716bf4327227b4fbc444903ba } is a revert
+{ d502385f6e4038a0114ab54529a9745236643ea4 -> 2546cbc55d9c426f2df61fd7510aa16cce8afb75 }
+Partial Revert commits SHA are -> 
+918affa9baa0c66716bf4327227b4fbc444903ba - revert - 2546cbc55d9c426f2df61fd7510aa16cce8afb75
+---> The reverted commit sha is - 918affa9baa0c66716bf4327227b4fbc444903ba
+Commit message - Audio module update
+---> The original commit sha is - 2546cbc55d9c426f2df61fd7510aa16cce8afb75
+Commit message - Merge branch 'master' into develop
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+

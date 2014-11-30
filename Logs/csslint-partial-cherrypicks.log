@@ -1,0 +1,699 @@
+# of partial cherrypicks = 36
+Partial Cherry-pick diff pair 1 is -> 
+{ 4994199f4503022d397c96e181b3bc529bd98f0c -> fe853bb40ec0784e6faf2d794b3ae3314cac8a92 } is a cherrypick
+{ f8448025544dc3cb021ed2b713350e86a4175a1d -> 669980708a8e4db78c5efe3b31a8e44cc55075aa }
+Partial Cherry-pick commits SHA are -> 
+fe853bb40ec0784e6faf2d794b3ae3314cac8a92 - cherrypick - 669980708a8e4db78c5efe3b31a8e44cc55075aa
+---> The cherrypicked commit sha is - fe853bb40ec0784e6faf2d794b3ae3314cac8a92
+Commit message - Array.prototype.map polyfil+
+
+used into cli/common.js:93
+---> The original commit sha is - 669980708a8e4db78c5efe3b31a8e44cc55075aa
+Commit message - Merge pull request #504 from dmi3y/wsharraymap
+
+Patch Array.prototype.map polyfil for JScript
+---> The files with partial_cherrypicks are:-
+src/cli/wsh.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ 517ffe4e17556e1b9d1c3eda0b394a07417ead54 -> 4b19770718fb0af024dd38233176f8a60b3d8d16 } is a cherrypick
+{ ea36ad53d65eb359096bb594a07a16c219a6e067 -> f8448025544dc3cb021ed2b713350e86a4175a1d }
+Partial Cherry-pick commits SHA are -> 
+4b19770718fb0af024dd38233176f8a60b3d8d16 - cherrypick - f8448025544dc3cb021ed2b713350e86a4175a1d
+---> The cherrypicked commit sha is - 4b19770718fb0af024dd38233176f8a60b3d8d16
+Commit message - wraping up with cli tests+
+
+CSSLint mix helper from utils to mix up cli and rc options
+---> The original commit sha is - f8448025544dc3cb021ed2b713350e86a4175a1d
+Commit message - Merge pull request #502 from dmi3y/cliconfig
+
+Allow config file path to be passed through the CLI
+---> The files with partial_cherrypicks are:-
+tests/cli/assets/apiStub.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ fe853bb40ec0784e6faf2d794b3ae3314cac8a92 -> e6c106789bcb6429efa4ea7dfc25093228dc229c } is a cherrypick
+{ ea36ad53d65eb359096bb594a07a16c219a6e067 -> f8448025544dc3cb021ed2b713350e86a4175a1d }
+Partial Cherry-pick commits SHA are -> 
+e6c106789bcb6429efa4ea7dfc25093228dc229c - cherrypick - f8448025544dc3cb021ed2b713350e86a4175a1d
+---> The cherrypicked commit sha is - e6c106789bcb6429efa4ea7dfc25093228dc229c
+Commit message - wraping up with cli tests+
+
+CSSLint mix helper from utils to mix up cli and rc options
+---> The original commit sha is - f8448025544dc3cb021ed2b713350e86a4175a1d
+Commit message - Merge pull request #502 from dmi3y/cliconfig
+
+Allow config file path to be passed through the CLI
+---> The files with partial_cherrypicks are:-
+src/cli/common.js
+tests/cli/assets/apiStub.js
+tests/cli/assets/data.js
+tests/cli/cli-common.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ 15043ef9c69b9d94c8ac99bc4686759a33d3c40c -> 45bf071f7c7e09cc86e48e9a36d2a33754ae4b9f } is a cherrypick
+{ a422b004ceb696f4687f17d67381c5c31a55f36e -> 5d69c5488fc13274fb740df82e6c04c68ae97481 }
+Partial Cherry-pick commits SHA are -> 
+45bf071f7c7e09cc86e48e9a36d2a33754ae4b9f - cherrypick - 5d69c5488fc13274fb740df82e6c04c68ae97481
+---> The cherrypicked commit sha is - 45bf071f7c7e09cc86e48e9a36d2a33754ae4b9f
+Commit message - Enable strict mode.
+---> The original commit sha is - 5d69c5488fc13274fb740df82e6c04c68ae97481
+Commit message - Merge pull request #482 from XhmikosR/jshint
+
+Stricter JSHint rules
+---> The files with partial_cherrypicks are:-
+Gruntfile.js
+src/cli/common.js
+src/cli/rhino.js
+src/core/CSSLint.js
+src/core/Util.js
+src/formatters/checkstyle-xml.js
+src/formatters/compact.js
+src/formatters/csslint-xml.js
+src/formatters/junit-xml.js
+src/formatters/lint-xml.js
+src/rules/bulletproof-font-face.js
+src/rules/empty-rules.js
+src/rules/errors.js
+src/rules/font-faces.js
+src/rules/gradients.js
+src/rules/import.js
+src/rules/important.js
+src/rules/known-properties.js
+src/rules/order-alphabetical.js
+src/rules/rules-count.js
+src/rules/selector-max-approaching.js
+src/rules/selector-max.js
+src/rules/selector-newline.js
+src/worker/Worker.js
+tests/all-rules.js
+tests/core/CSSLint.js
+tests/core/Reporter.js
+tests/formatters/checkstyle-xml.js
+tests/formatters/compact.js
+tests/formatters/csslint-xml.js
+tests/formatters/junit-xml.js
+tests/formatters/lint-xml.js
+tests/formatters/text.js
+tests/rules/adjoining-classes.js
+tests/rules/box-model.js
+tests/rules/box-sizing.js
+tests/rules/bulletproof-font-face.js
+tests/rules/compatible-vendor-prefixes.js
+tests/rules/display-property-grouping.js
+tests/rules/duplicate-background-images.js
+tests/rules/duplicate-properties.js
+tests/rules/empty-rules.js
+tests/rules/errors.js
+tests/rules/fallback-colors.js
+tests/rules/floats.js
+tests/rules/font-faces.js
+tests/rules/font-sizes.js
+tests/rules/gradients.js
+tests/rules/ids.js
+tests/rules/import.js
+tests/rules/important.js
+tests/rules/known-properties.js
+tests/rules/order-alphabetical.js
+tests/rules/outline-none.js
+tests/rules/overqualified-elements.js
+tests/rules/qualified-headings.js
+tests/rules/regex-selectors.js
+tests/rules/selector-max-approaching.js
+tests/rules/selector-max.js
+tests/rules/selector-newline.js
+tests/rules/shorthand.js
+tests/rules/star-property-hack.js
+tests/rules/text-indent.js
+tests/rules/underscore-property-hack.js
+tests/rules/unique-headings.js
+tests/rules/universal-selector.js
+tests/rules/unqualified-attributes.js
+tests/rules/vendor-prefix.js
+tests/rules/zero-units.js
+tests/testrunner.htm
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ 0059741ec6b0fc6ca090d49b1afde490a386399c -> d5b1bfd4ee4728326629cf828dd2f478a3765197 } is a cherrypick
+{ a275aa6cc58908c570cb9a989620dcf70cec9a68 -> b92b866fa37f874cf0029cff469695d96ff873c5 }
+Partial Cherry-pick commits SHA are -> 
+d5b1bfd4ee4728326629cf828dd2f478a3765197 - cherrypick - b92b866fa37f874cf0029cff469695d96ff873c5
+---> The cherrypicked commit sha is - d5b1bfd4ee4728326629cf828dd2f478a3765197
+Commit message - Add alphabetical order rule
+---> The original commit sha is - b92b866fa37f874cf0029cff469695d96ff873c5
+Commit message - Merge pull request #433 from hsablonniere/add-order-alphabetical
+
+Add alphabetical order rule
+---> The files with partial_cherrypicks are:-
+src/rules/order-alphabetical.js
+tests/rules/order-alphabetical.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 157a95739eb080537edb068907f5081f9917af44 -> 33cb00efe98d74aad1fca8f142a27d3b250d1081 } is a cherrypick
+{ 01faea6cf9e1b448031f482e29914aba3367c39f -> 87b9a406b43f60aa35d07cdfaceb7b2f122b4ac5 }
+Partial Cherry-pick commits SHA are -> 
+33cb00efe98d74aad1fca8f142a27d3b250d1081 - cherrypick - 87b9a406b43f60aa35d07cdfaceb7b2f122b4ac5
+---> The cherrypicked commit sha is - 33cb00efe98d74aad1fca8f142a27d3b250d1081
+Commit message - Update .gitignore.
+---> The original commit sha is - 87b9a406b43f60aa35d07cdfaceb7b2f122b4ac5
+Commit message - Merge pull request #430 from XhmikosR/gitignore
+
+Update .gitignore. for NPM debug log
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ 33cb00efe98d74aad1fca8f142a27d3b250d1081 -> 0f43dda129cc967e408ea760f26ab793b2534bfb } is a cherrypick
+{ 34d8c25e576f38615b30479e2ec551aa5ea05b78 -> 01faea6cf9e1b448031f482e29914aba3367c39f }
+Partial Cherry-pick commits SHA are -> 
+0f43dda129cc967e408ea760f26ab793b2534bfb - cherrypick - 01faea6cf9e1b448031f482e29914aba3367c39f
+---> The cherrypicked commit sha is - 0f43dda129cc967e408ea760f26ab793b2534bfb
+Commit message - Whitespace cleanup.
+
+Remove trailing spaces and use 4 spaces consistently for indentation.
+---> The original commit sha is - 01faea6cf9e1b448031f482e29914aba3367c39f
+Commit message - Merge pull request #431 from XhmikosR/whitespace
+
+Whitespace cleanup.
+---> The files with partial_cherrypicks are:-
+Gruntfile.js
+demos/demo.css
+release/csslint-node.js
+release/csslint-rhino.js
+release/csslint-tests.js
+release/csslint-worker.js
+release/csslint-wsh.js
+release/csslint.js
+release/npm/cli.js
+release/npm/lib/csslint-node.js
+src/cli/node.js
+src/cli/rhino.js
+src/core/Reporter.js
+src/formatters/checkstyle-xml.js
+src/formatters/compact.js
+src/formatters/csslint-xml.js
+src/formatters/lint-xml.js
+src/formatters/text.js
+src/rules/box-model.js
+src/rules/box-sizing.js
+src/rules/compatible-vendor-prefixes.js
+src/rules/display-property-grouping.js
+src/rules/duplicate-properties.js
+src/rules/fallback-colors.js
+src/rules/gradients.js
+src/rules/import.js
+src/rules/outline-none.js
+src/rules/overqualified-elements.js
+src/rules/selector-max-approaching.js
+src/rules/selector-max.js
+src/rules/shorthand.js
+src/rules/unique-headings.js
+src/rules/universal-selector.js
+src/rules/unqualified-attributes.js
+src/rules/vendor-prefix.js
+src/rules/zero-units.js
+src/worker/Worker.js
+tests/core/Reporter.js
+tests/css/width-100.html
+tests/formatters/compact.js
+tests/formatters/csslint-xml.js
+tests/formatters/junit-xml.js
+tests/formatters/lint-xml.js
+tests/formatters/text.js
+tests/rules/adjoining-classes.js
+tests/rules/box-model.js
+tests/rules/compatible-vendor-prefixes.js
+tests/rules/display-property-grouping.js
+tests/rules/duplicate-properties.js
+tests/rules/fallback-colors.js
+tests/rules/font-sizes.js
+tests/rules/gradients.js
+tests/rules/import.js
+tests/rules/known-properties.js
+tests/rules/outline-none.js
+tests/rules/overqualified-elements.js
+tests/rules/selector-max-approaching.js
+tests/rules/selector-max.js
+tests/rules/shorthand.js
+tests/rules/unique-headings.js
+tests/rules/universal-selector.js
+tests/rules/unqualified-attributes.js
+tests/rules/vendor-prefix.js
+tests/rules/zero-units.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ b404a05cb8d2307f5825e32d6c1cc9ab640c5f37 -> 98e27274bd0a5f5754262dc091ae03d463e73791 } is a cherrypick
+{ 5563f329d4c62faf64a00df09917b6d869f273b3 -> 34d8c25e576f38615b30479e2ec551aa5ea05b78 }
+Partial Cherry-pick commits SHA are -> 
+98e27274bd0a5f5754262dc091ae03d463e73791 - cherrypick - 34d8c25e576f38615b30479e2ec551aa5ea05b78
+---> The cherrypicked commit sha is - 98e27274bd0a5f5754262dc091ae03d463e73791
+Commit message - Text formatter: fix grammatical error with one problem
+
+The summary was incorrectly pluralized and had the wrong verb form when there
+was only one problem detected.
+---> The original commit sha is - 34d8c25e576f38615b30479e2ec551aa5ea05b78
+Commit message - Merge pull request #468 from malept/singular-problem-grammar
+
+Text formatter: fix grammatical error with one problem detected
+---> The files with partial_cherrypicks are:-
+src/formatters/text.js
+tests/formatters/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ 08b506f53ab17ba23037fb31ae1b2ee69d7ed079 -> 58c1453aca51188c4e28104e547019bc1a6484bc } is a cherrypick
+{ c7fa61af47b64a4df02e0adcbc181688b91bb535 -> d4659f2b8d140377737bfcf9a1fe39a2ccb9f91f }
+Partial Cherry-pick commits SHA are -> 
+58c1453aca51188c4e28104e547019bc1a6484bc - cherrypick - d4659f2b8d140377737bfcf9a1fe39a2ccb9f91f
+---> The cherrypicked commit sha is - 58c1453aca51188c4e28104e547019bc1a6484bc
+Commit message - Add README copy for NPM
+
+Ignored for check-in since it would just be a direct copy
+---> The original commit sha is - d4659f2b8d140377737bfcf9a1fe39a2ccb9f91f
+Commit message - Merge pull request #405 from nschonni/add-readme-to-npm
+
+Add README copy for NPM
+---> The files with partial_cherrypicks are:-
+.gitignore
+Gruntfile.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 60ddf66bb919eb00145226d2723cb4c959978e30 -> 1cb003f38e2a3d32539896444615d1b7e4f5cfd3 } is a cherrypick
+{ c996466c9ae2bc49147e357f6e620c66db33eecd -> 14899c91d0ea69029b355465c758cb6d04be3ef8 }
+Partial Cherry-pick commits SHA are -> 
+1cb003f38e2a3d32539896444615d1b7e4f5cfd3 - cherrypick - 14899c91d0ea69029b355465c758cb6d04be3ef8
+---> The cherrypicked commit sha is - 1cb003f38e2a3d32539896444615d1b7e4f5cfd3
+Commit message - Fix #364. In WSH, return empty string for files not found.
+---> The original commit sha is - 14899c91d0ea69029b355465c758cb6d04be3ef8
+Commit message - Merge pull request #368 from nschonni/add-grunt-build
+
+First cut of Grunt build
+---> The files with partial_cherrypicks are:-
+src/cli/wsh.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 9b5c41bf6c32f0daf4ff5f2862a14623e7f1c08d -> bff759be5ca4b8cec4dede9b6373ddf55aa6d4c0 } is a cherrypick
+{ c996466c9ae2bc49147e357f6e620c66db33eecd -> 14899c91d0ea69029b355465c758cb6d04be3ef8 }
+Partial Cherry-pick commits SHA are -> 
+bff759be5ca4b8cec4dede9b6373ddf55aa6d4c0 - cherrypick - 14899c91d0ea69029b355465c758cb6d04be3ef8
+---> The cherrypicked commit sha is - bff759be5ca4b8cec4dede9b6373ddf55aa6d4c0
+Commit message - Merge pull request #376 from dmethvin/optional-rc
+
+Fix #364. In WSH, return empty string for files not found.
+---> The original commit sha is - 14899c91d0ea69029b355465c758cb6d04be3ef8
+Commit message - Merge pull request #368 from nschonni/add-grunt-build
+
+First cut of Grunt build
+---> The files with partial_cherrypicks are:-
+src/cli/wsh.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 6fd5672e0b4ff09485de9990a127317cdf9a9afd -> 719585004e0a7b3f3fafcfc78c13edef37f71c2b } is a cherrypick
+{ d3ece60d4ec3a4cee4de906f093553dc62b278c9 -> 20e0f218ce43bcb6c8407216bb4cc3bc5338cc4c }
+Partial Cherry-pick commits SHA are -> 
+719585004e0a7b3f3fafcfc78c13edef37f71c2b - cherrypick - 20e0f218ce43bcb6c8407216bb4cc3bc5338cc4c
+---> The cherrypicked commit sha is - 719585004e0a7b3f3fafcfc78c13edef37f71c2b
+Commit message - Updated parser to the latest
+---> The original commit sha is - 20e0f218ce43bcb6c8407216bb4cc3bc5338cc4c
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_cherrypicks are:-
+lib/parserlib.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 6e196255b3e1f92f0b769d69caaba93ac59a6e6a -> 35532301a1c1c880fbecca295dad7f13a17b1360 } is a cherrypick
+{ 719585004e0a7b3f3fafcfc78c13edef37f71c2b -> fb58a8e66199e9aa26ddadb4727445d2976bc896 }
+Partial Cherry-pick commits SHA are -> 
+35532301a1c1c880fbecca295dad7f13a17b1360 - cherrypick - fb58a8e66199e9aa26ddadb4727445d2976bc896
+---> The cherrypicked commit sha is - 35532301a1c1c880fbecca295dad7f13a17b1360
+Commit message - added tests for border-color, border-[top,right,bottom,left], border-[top,right,bottom,left]-color
+---> The original commit sha is - fb58a8e66199e9aa26ddadb4727445d2976bc896
+Commit message - Merge pull request #307 from fracmak/fallback_border_colors
+
+Added borders to fallback-colors rule
+---> The files with partial_cherrypicks are:-
+src/rules/fallback-colors.js
+tests/rules/fallback-colors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 906ab0a1c8fec620eecddea7200b299179f9ebba -> b2a684bde6598b9ef2a6f140e605402d26320c02 } is a cherrypick
+{ e14628b270c59aef02de5c0c9d4e67adbc9793ac -> 14033f64bbcdc44557c1906f348c3ccc88d7858f }
+Partial Cherry-pick commits SHA are -> 
+b2a684bde6598b9ef2a6f140e605402d26320c02 - cherrypick - 14033f64bbcdc44557c1906f348c3ccc88d7858f
+---> The cherrypicked commit sha is - b2a684bde6598b9ef2a6f140e605402d26320c02
+Commit message - Added CDATA wrapper to evidence output for JUNIT formatter
+---> The original commit sha is - 14033f64bbcdc44557c1906f348c3ccc88d7858f
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_cherrypicks are:-
+src/formatters/junit-xml.js
+tests/formatters/junit-xml.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ b2a684bde6598b9ef2a6f140e605402d26320c02 -> 757301beb9ba2022aa9f140816c38127f9a2ade1 } is a cherrypick
+{ e6f90a937935cab25e523669b71e69c8e6a4bade -> e14628b270c59aef02de5c0c9d4e67adbc9793ac }
+Partial Cherry-pick commits SHA are -> 
+757301beb9ba2022aa9f140816c38127f9a2ade1 - cherrypick - e14628b270c59aef02de5c0c9d4e67adbc9793ac
+---> The cherrypicked commit sha is - 757301beb9ba2022aa9f140816c38127f9a2ade1
+Commit message - Version 0.9.7
+---> The original commit sha is - e14628b270c59aef02de5c0c9d4e67adbc9793ac
+Commit message - Fixes to compatible vendor prefixes rule (fixes #285 and fixes #286)
+---> The files with partial_cherrypicks are:-
+src/formatters/junit-xml.js
+tests/formatters/junit-xml.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ 906ab0a1c8fec620eecddea7200b299179f9ebba -> b2a684bde6598b9ef2a6f140e605402d26320c02 } is a cherrypick
+{ 176433a9adc240d1c6dc316b21b72145d9f15baf -> e6f90a937935cab25e523669b71e69c8e6a4bade }
+Partial Cherry-pick commits SHA are -> 
+b2a684bde6598b9ef2a6f140e605402d26320c02 - cherrypick - e6f90a937935cab25e523669b71e69c8e6a4bade
+---> The cherrypicked commit sha is - b2a684bde6598b9ef2a6f140e605402d26320c02
+Commit message - Added CDATA wrapper to evidence output for JUNIT formatter
+---> The original commit sha is - e6f90a937935cab25e523669b71e69c8e6a4bade
+Commit message - Merge pull request #235 from indieisaconcept/junit-formatter
+
+jUNIT Formatter
+---> The files with partial_cherrypicks are:-
+src/formatters/junit-xml.js
+tests/formatters/junit-xml.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ 4a892955ff5ce6fb769ca1d3844010aacc07b0bd -> 5edc52d3d95552f9ffb0ec02753956b14d3b3d07 } is a cherrypick
+{ f2f3dc0df257f326f92b674c6dad0564b1644635 -> 386455730a0f91e10ba6c47a8c81a151ab4b922f }
+Partial Cherry-pick commits SHA are -> 
+5edc52d3d95552f9ffb0ec02753956b14d3b3d07 - cherrypick - 386455730a0f91e10ba6c47a8c81a151ab4b922f
+---> The cherrypicked commit sha is - 5edc52d3d95552f9ffb0ec02753956b14d3b3d07
+Commit message - cannot find csslint.js
+---> The original commit sha is - 386455730a0f91e10ba6c47a8c81a151ab4b922f
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_cherrypicks are:-
+demos/CSSLintDemo.htm
+npm/package.json
+src/rules/important.js
+tests/rules/important.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 467a16102091360188bc8022c63431625082685c -> 4727030d03808c663c6ff9258b3633c1431a9f7f } is a cherrypick
+{ f0af9f039d3ccda91a70988aa04b667fd360de59 -> 6edc79a4f7c720e5a6b46538b6602bbe5a227576 }
+Partial Cherry-pick commits SHA are -> 
+4727030d03808c663c6ff9258b3633c1431a9f7f - cherrypick - 6edc79a4f7c720e5a6b46538b6602bbe5a227576
+---> The cherrypicked commit sha is - 4727030d03808c663c6ff9258b3633c1431a9f7f
+Commit message - +2 rules which detected star (IE6/7) and underscore (IE6) property hacks
+---> The original commit sha is - 6edc79a4f7c720e5a6b46538b6602bbe5a227576
+Commit message - Merge pull request #269 from mahonnaise/master
+
+Disallow star hack rule + disallow underscore hack rule
+---> The files with partial_cherrypicks are:-
+src/rules/star-property-hack.js
+src/rules/underscore-property-hack.js
+tests/rules/star-property-hack.js
+tests/rules/underscore-property-hack.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ d1a4435929d5f819fe9133f889b1149f02588728 -> 20eab4736963ecd9c90119a8bd4dd2eab915795d } is a cherrypick
+{ 03942128e0311013e516d2d7371528956ab90de5 -> b2ac3b79f693e29afae9df4a19b8a2669de2effc }
+Partial Cherry-pick commits SHA are -> 
+20eab4736963ecd9c90119a8bd4dd2eab915795d - cherrypick - b2ac3b79f693e29afae9df4a19b8a2669de2effc
+---> The cherrypicked commit sha is - 20eab4736963ecd9c90119a8bd4dd2eab915795d
+Commit message - added rule to detect multiple usage of the same background-image
+---> The original commit sha is - b2ac3b79f693e29afae9df4a19b8a2669de2effc
+Commit message - Merge pull request #200 from hpbuniat/duplicate-background-url
+
+Added rule to detect multiple usage of the same background-image
+---> The files with partial_cherrypicks are:-
+tests/rules/duplicate-background-url.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ 3475557f42c2d5e0b5a44dd32e744dd2de255a97 -> 65927c30ad80603aa047cec52f1b06e07a9eda38 } is a cherrypick
+{ 30ec9634763130874eb361d246efdbf486048733 -> e2a55bb272ff2e47b0cbe909ccc4ad1664842710 }
+Partial Cherry-pick commits SHA are -> 
+65927c30ad80603aa047cec52f1b06e07a9eda38 - cherrypick - e2a55bb272ff2e47b0cbe909ccc4ad1664842710
+---> The cherrypicked commit sha is - 65927c30ad80603aa047cec52f1b06e07a9eda38
+Commit message - Escape special characters in error message
+---> The original commit sha is - e2a55bb272ff2e47b0cbe909ccc4ad1664842710
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_cherrypicks are:-
+tests/formatters/checkstyle-xml.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ 65927c30ad80603aa047cec52f1b06e07a9eda38 -> 8119034f49ee9a340ae4410d836e01e5c52b4170 } is a cherrypick
+{ 4e6c8e7a7206c887fa40dd5f08379b1772a14ebb -> 30ec9634763130874eb361d246efdbf486048733 }
+Partial Cherry-pick commits SHA are -> 
+8119034f49ee9a340ae4410d836e01e5c52b4170 - cherrypick - 30ec9634763130874eb361d246efdbf486048733
+---> The cherrypicked commit sha is - 8119034f49ee9a340ae4410d836e01e5c52b4170
+Commit message - Updated developer guide documentation
+---> The original commit sha is - 30ec9634763130874eb361d246efdbf486048733
+Commit message - Fixed links in the developer guide documentation
+---> The files with partial_cherrypicks are:-
+src/formatters/checkstyle-xml.js
+tests/formatters/checkstyle-xml.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ 3475557f42c2d5e0b5a44dd32e744dd2de255a97 -> 65927c30ad80603aa047cec52f1b06e07a9eda38 } is a cherrypick
+{ 8119034f49ee9a340ae4410d836e01e5c52b4170 -> 4e6c8e7a7206c887fa40dd5f08379b1772a14ebb }
+Partial Cherry-pick commits SHA are -> 
+65927c30ad80603aa047cec52f1b06e07a9eda38 - cherrypick - 4e6c8e7a7206c887fa40dd5f08379b1772a14ebb
+---> The cherrypicked commit sha is - 65927c30ad80603aa047cec52f1b06e07a9eda38
+Commit message - Escape special characters in error message
+---> The original commit sha is - 4e6c8e7a7206c887fa40dd5f08379b1772a14ebb
+Commit message - Merge pull request #171 from kasperg/checkstyle-escape-chars
+
+Escape special chars in Checkstyle XML output
+---> The files with partial_cherrypicks are:-
+tests/formatters/checkstyle-xml.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ 787e22a3efba54a043e025c93738763df6c8701f -> 45694285dab31988cf9306607ad3f2f34715ead0 } is a cherrypick
+{ 0c34dab8e75a4937e8ccea14b2a0278076981909 -> baf5b03137203afe524232596d527cbf2798e320 }
+Partial Cherry-pick commits SHA are -> 
+45694285dab31988cf9306607ad3f2f34715ead0 - cherrypick - baf5b03137203afe524232596d527cbf2798e320
+---> The cherrypicked commit sha is - 45694285dab31988cf9306607ad3f2f34715ead0
+Commit message - Fixed returning exit_code when errors exist
+---> The original commit sha is - baf5b03137203afe524232596d527cbf2798e320
+Commit message - Merge pull request #163 from tomasz-oponowicz/issue_141
+
+Fixed returning exit_code when errors exist - issue 141
+---> The files with partial_cherrypicks are:-
+src/cli/node-cli.js
+src/cli/util.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ 0ae63a570a52bb07bc17b10e36de9d5022081ad8 -> 6c0c7a944630198c60e4429cc95a9d969b93e633 } is a cherrypick
+{ 62f2d020b68a8bd0c2cd8fffb0cd9124903f8803 -> 585588617bd6be9f3394dc4df80467dd4414bc0a }
+Partial Cherry-pick commits SHA are -> 
+6c0c7a944630198c60e4429cc95a9d969b93e633 - cherrypick - 585588617bd6be9f3394dc4df80467dd4414bc0a
+---> The cherrypicked commit sha is - 6c0c7a944630198c60e4429cc95a9d969b93e633
+Commit message - Final changes for 0.4.0
+---> The original commit sha is - 585588617bd6be9f3394dc4df80467dd4414bc0a
+Commit message - Removed the build directory again
+---> The files with partial_cherrypicks are:-
+build/npm/cli.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ fd0cfbd5ad7ebbebf539b83ef03a73d2ade4d091 -> 014b5b873661e300df936f9fced73348abe83a52 } is a cherrypick
+{ d28268b0baedbd80967c8dac6a52b76cfa2e06c1 -> b7e7ffb96063b00f9cab0b741bf558059aa1b4e1 }
+Partial Cherry-pick commits SHA are -> 
+014b5b873661e300df936f9fced73348abe83a52 - cherrypick - b7e7ffb96063b00f9cab0b741bf558059aa1b4e1
+---> The cherrypicked commit sha is - 014b5b873661e300df936f9fced73348abe83a52
+Commit message - width-100 test case
+---> The original commit sha is - b7e7ffb96063b00f9cab0b741bf558059aa1b4e1
+Commit message - test file for negative text-indent rule
+---> The files with partial_cherrypicks are:-
+tests/rules/text-indent.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 9868375b60a612815ac0ffa4cc44dddfe0c16ee7 -> e70538a3c1ac3ad23936dd4117857016b0162316 } is a cherrypick
+{ d28268b0baedbd80967c8dac6a52b76cfa2e06c1 -> b7e7ffb96063b00f9cab0b741bf558059aa1b4e1 }
+Partial Cherry-pick commits SHA are -> 
+e70538a3c1ac3ad23936dd4117857016b0162316 - cherrypick - b7e7ffb96063b00f9cab0b741bf558059aa1b4e1
+---> The cherrypicked commit sha is - e70538a3c1ac3ad23936dd4117857016b0162316
+Commit message - Merge branch 'master' into width-100
+---> The original commit sha is - b7e7ffb96063b00f9cab0b741bf558059aa1b4e1
+Commit message - test file for negative text-indent rule
+---> The files with partial_cherrypicks are:-
+tests/rules/text-indent.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ e7449d38e623be96d405d083591aea575b540de2 -> 9ccf4fd878ca08ec6a807868157f97a329b9e65c } is a cherrypick
+{ 399d45934c6e5c5cfcf258307af81948d0cf796c -> 76d90bb57068e92e6c5c59cfc7e8ec52bf5ba814 }
+Partial Cherry-pick commits SHA are -> 
+9ccf4fd878ca08ec6a807868157f97a329b9e65c - cherrypick - 76d90bb57068e92e6c5c59cfc7e8ec52bf5ba814
+---> The cherrypicked commit sha is - 9ccf4fd878ca08ec6a807868157f97a329b9e65c
+Commit message - Added the name and description for the compatible vendor prefixes rule to the README.
+---> The original commit sha is - 76d90bb57068e92e6c5c59cfc7e8ec52bf5ba814
+Commit message - Merge pull request #78 from barberboy/issue-54-compatible-vendor-prefixes
+
+Added rule to remember compatible vendor-prefixed properties
+---> The files with partial_cherrypicks are:-
+README.md
+tests/rules/compatible-vendor-prefixes.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ 83ed025170b2f35c833b682089c9e567ae09615d -> 25d9ce81dfa39a9fc4d2fd961726cf1a20148576 } is a cherrypick
+{ 388ad2d07e60818a7e5f637037d92fccf3a73922 -> 67b9037078463da71fec7bb5fa5acd1d9dab8543 }
+Partial Cherry-pick commits SHA are -> 
+25d9ce81dfa39a9fc4d2fd961726cf1a20148576 - cherrypick - 67b9037078463da71fec7bb5fa5acd1d9dab8543
+---> The cherrypicked commit sha is - 25d9ce81dfa39a9fc4d2fd961726cf1a20148576
+Commit message - JSLint XML should have double-quoted attributes
+---> The original commit sha is - 67b9037078463da71fec7bb5fa5acd1d9dab8543
+Commit message - Fixing merge conflict from 0.3.x
+---> The files with partial_cherrypicks are:-
+build/csslint-tests.js
+build/npm/package.json
+src/cli/node.js
+src/cli/rhino.js
+src/core/CSSLint.js
+src/formatters/text.js
+tests/formatters/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ b2e2d0f9bac0b4832157aa17d1758d2545c91cd9 -> 354662e8f72dcf79099331be576cb193304c8eb5 } is a cherrypick
+{ ed866534e2729cdcc33a6eba9d411de825066c25 -> f9d608bc3278109fbf4d0b54c11c143b943571cf }
+Partial Cherry-pick commits SHA are -> 
+354662e8f72dcf79099331be576cb193304c8eb5 - cherrypick - f9d608bc3278109fbf4d0b54c11c143b943571cf
+---> The cherrypicked commit sha is - 354662e8f72dcf79099331be576cb193304c8eb5
+Commit message - Adding base for different formatters
+---> The original commit sha is - f9d608bc3278109fbf4d0b54c11c143b943571cf
+Commit message - Merge branch 'master' of git://github.com/stubbornella/csslint into nzakas-master
+---> The files with partial_cherrypicks are:-
+build.xml
+build/csslint-node.js
+build/csslint-rhino.js
+build/csslint-tests.js
+build/csslint-worker.js
+build/csslint.js
+build/npm/cli.js
+build/npm/lib/csslint-node.js
+build/npm/package.json
+src/cli/util.js
+src/core/CSSLint.js
+src/formatters/text.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ e7449d38e623be96d405d083591aea575b540de2 -> 9ccf4fd878ca08ec6a807868157f97a329b9e65c } is a cherrypick
+{ e70538a3c1ac3ad23936dd4117857016b0162316 -> 331663d146b3240d0ec917167d53822d5772852e }
+Partial Cherry-pick commits SHA are -> 
+9ccf4fd878ca08ec6a807868157f97a329b9e65c - cherrypick - 331663d146b3240d0ec917167d53822d5772852e
+---> The cherrypicked commit sha is - 9ccf4fd878ca08ec6a807868157f97a329b9e65c
+Commit message - Added the name and description for the compatible vendor prefixes rule to the README.
+---> The original commit sha is - 331663d146b3240d0ec917167d53822d5772852e
+Commit message - Revert "tests"
+
+This reverts commit e7449d38e623be96d405d083591aea575b540de2.
+---> The files with partial_cherrypicks are:-
+tests/rules/text-indent.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ 014b5b873661e300df936f9fced73348abe83a52 -> 9868375b60a612815ac0ffa4cc44dddfe0c16ee7 } is a cherrypick
+{ e70538a3c1ac3ad23936dd4117857016b0162316 -> 331663d146b3240d0ec917167d53822d5772852e }
+Partial Cherry-pick commits SHA are -> 
+9868375b60a612815ac0ffa4cc44dddfe0c16ee7 - cherrypick - 331663d146b3240d0ec917167d53822d5772852e
+---> The cherrypicked commit sha is - 9868375b60a612815ac0ffa4cc44dddfe0c16ee7
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The original commit sha is - 331663d146b3240d0ec917167d53822d5772852e
+Commit message - Revert "tests"
+
+This reverts commit e7449d38e623be96d405d083591aea575b540de2.
+---> The files with partial_cherrypicks are:-
+tests/rules/text-indent.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ fd0cfbd5ad7ebbebf539b83ef03a73d2ade4d091 -> 014b5b873661e300df936f9fced73348abe83a52 } is a cherrypick
+{ 9868375b60a612815ac0ffa4cc44dddfe0c16ee7 -> e70538a3c1ac3ad23936dd4117857016b0162316 }
+Partial Cherry-pick commits SHA are -> 
+014b5b873661e300df936f9fced73348abe83a52 - cherrypick - e70538a3c1ac3ad23936dd4117857016b0162316
+---> The cherrypicked commit sha is - 014b5b873661e300df936f9fced73348abe83a52
+Commit message - width-100 test case
+---> The original commit sha is - e70538a3c1ac3ad23936dd4117857016b0162316
+Commit message - Merge branch 'master' into width-100
+---> The files with partial_cherrypicks are:-
+tests/css/width-100.html
+tests/rules/text-indent.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ 68876576a93ed7faf8a3167d3df4a06bd9ba9446 -> dfa4c21b2a62bc568b242d6728e5faa1b089b9a8 } is a cherrypick
+{ 284d3351362155b900c6032468618c1e25c038c8 -> ba78ca7e43cda8623757b9966068627ddd59b4c0 }
+Partial Cherry-pick commits SHA are -> 
+dfa4c21b2a62bc568b242d6728e5faa1b089b9a8 - cherrypick - ba78ca7e43cda8623757b9966068627ddd59b4c0
+---> The cherrypicked commit sha is - dfa4c21b2a62bc568b242d6728e5faa1b089b9a8
+Commit message - Renamed parameter to ruleset
+---> The original commit sha is - ba78ca7e43cda8623757b9966068627ddd59b4c0
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_cherrypicks are:-
+src/core/CSSLint.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ f3467561e267df6fa02e31b9d3c87e3a4188f360 -> 0d3329e5fe026094bf3b2968df7a64bb19703ad8 } is a cherrypick
+{ fb2f3dc3293f8c2618260374d47bae412b2970b4 -> a9540f6f2f06a22b676682d4e9fb2b4fe06d07e8 }
+Partial Cherry-pick commits SHA are -> 
+0d3329e5fe026094bf3b2968df7a64bb19703ad8 - cherrypick - a9540f6f2f06a22b676682d4e9fb2b4fe06d07e8
+---> The cherrypicked commit sha is - 0d3329e5fe026094bf3b2968df7a64bb19703ad8
+Commit message - Added Eitan's info
+---> The original commit sha is - a9540f6f2f06a22b676682d4e9fb2b4fe06d07e8
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ 80ec2edbbea2d038e0045cfd09fb396f5ea1045a -> 8ad7801748e2df30c082b853f65e4bbab9038be5 } is a cherrypick
+{ 2ea03c15f666169e66ece15b4f37433cd74ab6aa -> 407a0b99795264eae2dd119f27cfe21fe51c7873 }
+Partial Cherry-pick commits SHA are -> 
+8ad7801748e2df30c082b853f65e4bbab9038be5 - cherrypick - 407a0b99795264eae2dd119f27cfe21fe51c7873
+---> The cherrypicked commit sha is - 8ad7801748e2df30c082b853f65e4bbab9038be5
+Commit message - Added warning and errors for important declarations
+---> The original commit sha is - 407a0b99795264eae2dd119f27cfe21fe51c7873
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_cherrypicks are:-
+README.md
+src/rules/important.js
+tests/rules/important.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ c85bff39a2a83c8524e6fe828573c6b250333f81 -> c0dbe3f7db42fc274baa9be56f295b66b8fc2c08 } is a cherrypick
+{ 2ea03c15f666169e66ece15b4f37433cd74ab6aa -> 407a0b99795264eae2dd119f27cfe21fe51c7873 }
+Partial Cherry-pick commits SHA are -> 
+c0dbe3f7db42fc274baa9be56f295b66b8fc2c08 - cherrypick - 407a0b99795264eae2dd119f27cfe21fe51c7873
+---> The cherrypicked commit sha is - c0dbe3f7db42fc274baa9be56f295b66b8fc2c08
+Commit message - Merge pull request #50 from shinuza/important
+
+Added warning and errors for important declarations
+---> The original commit sha is - 407a0b99795264eae2dd119f27cfe21fe51c7873
+Commit message - Merge branch 'master' of github.com:stubbornella/csslint
+---> The files with partial_cherrypicks are:-
+README.md
+src/rules/important.js
+tests/rules/important.js
+-----------------------------------------------------------------
+

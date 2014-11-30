@@ -1,0 +1,51 @@
+# of reverts = 4
+Revert diff pair 1 is -> 
+{ a869939bc30a35062bb2d7ab1a14011a9de0f910 -> 94f9c0906fb0c719d4b74016f6d8098e687c514b } is a revert
+{ d72117ab8dfef2cae7ef52cc2ac1d202942741ff -> 3102ad534d106452fcdaae4cc47aadd128ec01ac }
+Revert commits SHA are -> 
+94f9c0906fb0c719d4b74016f6d8098e687c514b - revert - 3102ad534d106452fcdaae4cc47aadd128ec01ac
+---> The reverted commit sha is - 94f9c0906fb0c719d4b74016f6d8098e687c514b
+Commit message - this fixes the camera judders when following with float values.
+---> The original commit sha is - 3102ad534d106452fcdaae4cc47aadd128ec01ac
+Commit message - Swapped the order of the Camera.view floor to avoid the 1px jitter effect on the right of maps.
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 2be45e93ae61b43393b63008e94a98b3f39d8747 -> 4a632ed3a0d18eb7f93ec389928852c8d32161e1 } is a revert
+{ 4a632ed3a0d18eb7f93ec389928852c8d32161e1 -> eba502de4528d13db9234f39c713476326e8cb09 }
+Revert commits SHA are -> 
+4a632ed3a0d18eb7f93ec389928852c8d32161e1 - revert - eba502de4528d13db9234f39c713476326e8cb09
+---> The reverted commit sha is - 4a632ed3a0d18eb7f93ec389928852c8d32161e1
+Commit message - codePaused should be set if manually called
+
+If pause is called manually, codePaused should be set regardless of whether the game is currently paused or not. This would fix issues where a developer might not want the game to automatically resume when the screen regains focus.
+---> The original commit sha is - eba502de4528d13db9234f39c713476326e8cb09
+Commit message - Merge pull request #1018 from devinb83/dev-quadtree
+
+QuadTree leveling Bug
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ ee1df55d84cdea33bf2910050b73532036fa2075 -> 7107d73188c4cfe245cadce808e25f81bfbaa6dc } is a revert
+{ 7107d73188c4cfe245cadce808e25f81bfbaa6dc -> 852054b7725df3ddbb8944450eaff5194dfb0369 }
+Revert commits SHA are -> 
+7107d73188c4cfe245cadce808e25f81bfbaa6dc - revert - 852054b7725df3ddbb8944450eaff5194dfb0369
+---> The reverted commit sha is - 7107d73188c4cfe245cadce808e25f81bfbaa6dc
+Commit message - group create with p2 debug
+---> The original commit sha is - 852054b7725df3ddbb8944450eaff5194dfb0369
+Commit message - Plus validation of non-point objects
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ 7031d9ccc104f73d78c343df4738ef72df1e3309 -> f033f19dbba9fe98216ddec576306ce62a51dc92 } is a revert
+{ f3e61fcff90e68ef9de1903ec6c87b2951c61437 -> 65a7e1b762906ce4bfdfcadf3131766a812a208c }
+Revert commits SHA are -> 
+f033f19dbba9fe98216ddec576306ce62a51dc92 - revert - 65a7e1b762906ce4bfdfcadf3131766a812a208c
+---> The reverted commit sha is - f033f19dbba9fe98216ddec576306ce62a51dc92
+Commit message - Merge branch 'dev' of https://github.com/clark-stevenson/phaser into dev
+---> The original commit sha is - 65a7e1b762906ce4bfdfcadf3131766a812a208c
+Commit message - Merge pull request #978 from alvinsight/dev
+
+Added game.add.plugin
+-----------------------------------------------------------------
+

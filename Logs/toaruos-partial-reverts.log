@@ -1,0 +1,2445 @@
+# of partial reverts = 144
+Partial Revert diff pair 1 is -> 
+{ f9999eb490a454117206fcee8461e2e36579a53a -> 37f2a70ab509eaf77a604f58605b18b25e3e01f0 } is a revert
+{ cd6f175d0202179878ddc1823fa53db0f0bf6ba2 -> 6f1a76a2c4e37fb45ef8635336e557366eb6b683 }
+Partial Revert commits SHA are -> 
+37f2a70ab509eaf77a604f58605b18b25e3e01f0 - revert - 6f1a76a2c4e37fb45ef8635336e557366eb6b683
+---> The reverted commit sha is - 37f2a70ab509eaf77a604f58605b18b25e3e01f0
+Commit message - Add 2048 from mevdschee, with license and README
+---> The original commit sha is - 6f1a76a2c4e37fb45ef8635336e557366eb6b683
+Commit message - Merge 2048 license into the source file
+---> The files with partial_reverts are:-
+userspace/extra/2048/LICENSE
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 935f594cd30339b369e9290262862741df1feae4 -> 18251f66c185a0d8c9ed8cff5dabe754e7b426c9 } is a revert
+{ cd6f175d0202179878ddc1823fa53db0f0bf6ba2 -> 6f1a76a2c4e37fb45ef8635336e557366eb6b683 }
+Partial Revert commits SHA are -> 
+18251f66c185a0d8c9ed8cff5dabe754e7b426c9 - revert - 6f1a76a2c4e37fb45ef8635336e557366eb6b683
+---> The reverted commit sha is - 18251f66c185a0d8c9ed8cff5dabe754e7b426c9
+Commit message - Merge pull request #46 from lioncash/leak
+
+Fix a memory leak within vfs.c in kopen.
+---> The original commit sha is - 6f1a76a2c4e37fb45ef8635336e557366eb6b683
+Commit message - Merge 2048 license into the source file
+---> The files with partial_reverts are:-
+userspace/extra/2048/LICENSE
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ b3ba650ac276b2c17e5f47add84361f6038bddc8 -> ad303097d35eac8afb4e80901c9517551098d621 } is a revert
+{ cd6f175d0202179878ddc1823fa53db0f0bf6ba2 -> 6f1a76a2c4e37fb45ef8635336e557366eb6b683 }
+Partial Revert commits SHA are -> 
+ad303097d35eac8afb4e80901c9517551098d621 - revert - 6f1a76a2c4e37fb45ef8635336e557366eb6b683
+---> The reverted commit sha is - ad303097d35eac8afb4e80901c9517551098d621
+Commit message - Merge pull request #47 from lioncash/dat-overflow-doe
+
+Fix a sprintf size typo which would overwrite the error buffer in bim's open_file func
+---> The original commit sha is - 6f1a76a2c4e37fb45ef8635336e557366eb6b683
+Commit message - Merge 2048 license into the source file
+---> The files with partial_reverts are:-
+userspace/extra/2048/LICENSE
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 6c5a14c83925acc6ef41d9cedf712c5fab797662 -> 40124cac49e5accad51414bfcac1feae00115327 } is a revert
+{ 6300959b12337e31ca169874238c0ac4c255e7cf -> 819dcb0728f667d5a578b8dda5dd5e4970eea5ab }
+Partial Revert commits SHA are -> 
+40124cac49e5accad51414bfcac1feae00115327 - revert - 819dcb0728f667d5a578b8dda5dd5e4970eea5ab
+---> The reverted commit sha is - 40124cac49e5accad51414bfcac1feae00115327
+Commit message - various minor pieces of cleanup
+---> The original commit sha is - 819dcb0728f667d5a578b8dda5dd5e4970eea5ab
+Commit message - revert an accidentally commited makefile change
+---> The files with partial_reverts are:-
+Makefile
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ c08aa780523b5936d8adc05bb8358544ce9e0af5 -> b8551d21745d5a2932d64a3a585067a05c9afca8 } is a revert
+{ d48b00a767df8065dbcb1c1425f2e59ba3ab45bc -> 16d7a9e032c5f85c3956fda69806c9b1ef02d023 }
+Partial Revert commits SHA are -> 
+b8551d21745d5a2932d64a3a585067a05c9afca8 - revert - 16d7a9e032c5f85c3956fda69806c9b1ef02d023
+---> The reverted commit sha is - b8551d21745d5a2932d64a3a585067a05c9afca8
+Commit message - Kill the old compositor
+---> The original commit sha is - 16d7a9e032c5f85c3956fda69806c9b1ef02d023
+Commit message - Make wallpaper icons work again
+---> The files with partial_reverts are:-
+userspace/gui/core/gsession.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ 608b0406e6c9613f1e5356cab51f2df4e4814f5d -> d42617020f85972c658d1debb2ffa38c4275577b } is a revert
+{ 367c31c68712204ec727eedf26579dc07706b828 -> 5a5cb62ce0e56c74c7dd76ba0d90252ec47cd42b }
+Partial Revert commits SHA are -> 
+d42617020f85972c658d1debb2ffa38c4275577b - revert - 5a5cb62ce0e56c74c7dd76ba0d90252ec47cd42b
+---> The reverted commit sha is - d42617020f85972c658d1debb2ffa38c4275577b
+Commit message - random rtl network stuff, not working yet
+---> The original commit sha is - 5a5cb62ce0e56c74c7dd76ba0d90252ec47cd42b
+Commit message - kill sockfs, what even is this
+---> The files with partial_reverts are:-
+kernel/fs/sockfs.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ ae59df25142b26bc09fbd69c0f99f868c625cd62 -> 4c9be9361a89c79cbdb8abe180765c8d13b57b22 } is a revert
+{ f16145cff61f324594e5ede67fc2fbb9f03e5669 -> a8d599b570b150cd211456cbd40e7c2181ad895e }
+Partial Revert commits SHA are -> 
+4c9be9361a89c79cbdb8abe180765c8d13b57b22 - revert - a8d599b570b150cd211456cbd40e7c2181ad895e
+---> The reverted commit sha is - 4c9be9361a89c79cbdb8abe180765c8d13b57b22
+Commit message - Compositor animations - actual
+
+There are both some good changes and some terribly hacky changes in this
+commit.
+
+- Server uses a different struct than client now for windows, so
+  arbitrary compositor things like effect parameters can be added
+  without having to rebuild everything. That's good.
+- Client window structs no longer attempt to track or use window
+  locations. That's good.
+- Windows do not destroy in response to the destory command, but rather,
+  a special animation is triggered; the end state for this animation
+  calls the actually window destruction code. That's a hack.
+- Animations are based on rendered frames, not on time. That's a hack.
+---> The original commit sha is - a8d599b570b150cd211456cbd40e7c2181ad895e
+Commit message - Remove calls to syscall_print
+---> The files with partial_reverts are:-
+userspace/gui/core/glogin.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ 4e0d34346d90306edd1bb88c8b2dfee5edb12519 -> 05728b0e2fe0982cd47ae13cd9821d5e9a7eff22 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+05728b0e2fe0982cd47ae13cd9821d5e9a7eff22 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 05728b0e2fe0982cd47ae13cd9821d5e9a7eff22
+Commit message - Fix large files on modern ext2 configurations
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ fee70e1c67edb7a51b2b7703b4c75e703de4e10f -> 4da4ab63c0ff0b306a625a5cfb7e0814c1e0a717 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+4da4ab63c0ff0b306a625a5cfb7e0814c1e0a717 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 4da4ab63c0ff0b306a625a5cfb7e0814c1e0a717
+Commit message - [debug] warn if vid mem can't be located
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ 0b87a99c003f52527870b32b9dfcc6729f69a8f7 -> 2efc7afc4a9e40be5b322545580fd2d37988c1f0 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+2efc7afc4a9e40be5b322545580fd2d37988c1f0 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 2efc7afc4a9e40be5b322545580fd2d37988c1f0
+Commit message - Add the image builder as a submodule
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 62c5f39feac6b5c9d65c52cc9106c8ec9db608ee -> 9807eaee2419aa70e0d49e2f99d58c50346a5e8d } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+9807eaee2419aa70e0d49e2f99d58c50346a5e8d - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 9807eaee2419aa70e0d49e2f99d58c50346a5e8d
+Commit message - Fix submodule pulling?
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ 2a1a0b477ec3b42a7749f79b9341c2671af1fe82 -> d776f84b7143b38ccfe34d7a86c7a4924756535e } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+d776f84b7143b38ccfe34d7a86c7a4924756535e - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - d776f84b7143b38ccfe34d7a86c7a4924756535e
+Commit message - Update image-builder
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ f7860e400ada0cd118916cc78af7de041711cf5f -> 8e3dc4ada4bc7b409346e3566f70b7cf361fc919 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+8e3dc4ada4bc7b409346e3566f70b7cf361fc919 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 8e3dc4ada4bc7b409346e3566f70b7cf361fc919
+Commit message - Sync
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ 6c27a7fc6bda854593d28b5dd27dd54368eded97 -> 6e909acd07d1973ad88563d48c01780efb5ff213 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+6e909acd07d1973ad88563d48c01780efb5ff213 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 6e909acd07d1973ad88563d48c01780efb5ff213
+Commit message - Save/restore FPU state on task switch
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 59b1e48939b488e4675cb23a2764cf351bf860d5 -> 6d49ba5284090f61d2900ede953f71adedf67ce0 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+6d49ba5284090f61d2900ede953f71adedf67ce0 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 6d49ba5284090f61d2900ede953f71adedf67ce0
+Commit message - Fix julia generator with cairo compositor
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ 261462cfa847c260fa6bd28f9e5c13f84c066e78 -> c6d1c64bfbd3d9bb6ac422ecd424eb080fff55f8 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+c6d1c64bfbd3d9bb6ac422ecd424eb080fff55f8 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - c6d1c64bfbd3d9bb6ac422ecd424eb080fff55f8
+Commit message - Add new compositor to ignore list
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ 38314292a5197af8c33dd1a884ae8098d76babc8 -> 99306240438c8b183e4238e045df188c19376a09 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+99306240438c8b183e4238e045df188c19376a09 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 99306240438c8b183e4238e045df188c19376a09
+Commit message - cleanup some userspace stuff
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ ba1515ac4f036eb96aa868b5fbe61d59594b9f41 -> cb6b3f0c1ce56852f8bbe4ac1d5039faddd17a60 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+cb6b3f0c1ce56852f8bbe4ac1d5039faddd17a60 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - cb6b3f0c1ce56852f8bbe4ac1d5039faddd17a60
+Commit message - Fix panel background
+
+[ci skip]
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 47f0c8c6e2da91156decfd86cffd058e8772143e -> c93b5617e86cd640ff7ef812c744d4d6d647c1a3 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+c93b5617e86cd640ff7ef812c744d4d6d647c1a3 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - c93b5617e86cd640ff7ef812c744d4d6d647c1a3
+Commit message - Support C++ (roughly) in toolchain
+
+* Reenables building of libstdc++
+* Enables building of g++
+* WARNING: The static binary loader does NOT support static
+  initializer functions! You must run them yourself (see
+  userspace/test-cpp.cpp for an example that initializes the standard
+  streams in order to use cout) until this is fixed.
+* C++ stuff is slow to load, try to manually strip, it'll speed things
+  up a bit.
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ f06472c8608529feb555ae4ac04d85b64e0df624 -> b5d88b13fccc3a5319f53afdc5c15060d9b2c15e } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+b5d88b13fccc3a5319f53afdc5c15060d9b2c15e - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - b5d88b13fccc3a5319f53afdc5c15060d9b2c15e
+Commit message - kill a bunch of debug printing
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ dec115981ac382557ed2142b1c952293b0a1389d -> 8f8bd9d5e931557d322744db14a439ff3111b745 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+8f8bd9d5e931557d322744db14a439ff3111b745 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 8f8bd9d5e931557d322744db14a439ff3111b745
+Commit message - Completely redesign login screen
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ ce747a8bd4c24addf426cba29675c4089c309fc9 -> 7ec90ee2ef9b164f7f56f4d8dbcbeaf984486a85 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+7ec90ee2ef9b164f7f56f4d8dbcbeaf984486a85 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 7ec90ee2ef9b164f7f56f4d8dbcbeaf984486a85
+Commit message - Sync old compositor to new compositor
+
+It still looks bad, as I haven't forced alpha blitting for everything,
+but it supports all the new features now.
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ 6cb509abf950cbce665d740252a15ba2cfcaadf3 -> 942c49806ba92109d65e9ef9cd1818c898f69eab } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+942c49806ba92109d65e9ef9cd1818c898f69eab - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 942c49806ba92109d65e9ef9cd1818c898f69eab
+Commit message - retool build utils
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ b956680edc9c2c9ec392dfffd46688b22b15bd42 -> cd929b1ceb15c960770397ea58cb991ab4371a09 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+cd929b1ceb15c960770397ea58cb991ab4371a09 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - cd929b1ceb15c960770397ea58cb991ab4371a09
+Commit message - Fix some minor input issues
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ 6ae0d288a622402fefaa8c2d9d6212b3fc2bb66c -> 960fd2486cf8ef0df4533116e5e3a88cd88be512 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+960fd2486cf8ef0df4533116e5e3a88cd88be512 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 960fd2486cf8ef0df4533116e5e3a88cd88be512
+Commit message - Minor improvements to ls
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ 70a5de56f455e25b09ddf576e7d423e057ebf2ef -> 8fb898be666ea2d301f3cfb669daae0dda3d48aa } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+8fb898be666ea2d301f3cfb669daae0dda3d48aa - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 8fb898be666ea2d301f3cfb669daae0dda3d48aa
+Commit message - Restructure windowed applications for speed
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ 7ea68a6d9229c3871a8da885b24cc0bec36bb158 -> 3a977369afdd4bbacfaa52e34234d0c27bbffe4e } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+3a977369afdd4bbacfaa52e34234d0c27bbffe4e - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 3a977369afdd4bbacfaa52e34234d0c27bbffe4e
+Commit message - Timed process sleeping (and bug fixes)
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ 29e7a15443e7c09e164d621d871758aeed90560f -> 3b06b5c4648c02176bd767c3bf5defffd5e03208 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+3b06b5c4648c02176bd767c3bf5defffd5e03208 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 3b06b5c4648c02176bd767c3bf5defffd5e03208
+Commit message - bump version to 0.4.2
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ 0eefc62a494302b5ca2786a8c380ba6117aa9060 -> a8435f37c068d7efab2ffdb5cb03a13a3e3703bb } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+a8435f37c068d7efab2ffdb5cb03a13a3e3703bb - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - a8435f37c068d7efab2ffdb5cb03a13a3e3703bb
+Commit message - submodule bump
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ aeb45645a5938e26258b3f37f3b3c5304e16edc7 -> e2470044a7fe875803ad057b9ffe1b28447ed4e2 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+e2470044a7fe875803ad057b9ffe1b28447ed4e2 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - e2470044a7fe875803ad057b9ffe1b28447ed4e2
+Commit message - Sync toaru-compositor
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ e04aaa0678bc2b65484d15b5945e8d16e81e3898 -> 176d7a93664349ce189036c7dd856e91faad2612 } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+176d7a93664349ce189036c7dd856e91faad2612 - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 176d7a93664349ce189036c7dd856e91faad2612
+Commit message - sync
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ 1af6e4b81e6f98fdbf40aab227965e147426ca16 -> 3028ed06cb1590f9f90358a8e72b761b0af33dab } is a revert
+{ 7ca44b0755d65daa3474aea47288f71e9f64ba7a -> bcaa93b023e9d92b24c105537f2994e070e5d06e }
+Partial Revert commits SHA are -> 
+3028ed06cb1590f9f90358a8e72b761b0af33dab - revert - bcaa93b023e9d92b24c105537f2994e070e5d06e
+---> The reverted commit sha is - 3028ed06cb1590f9f90358a8e72b761b0af33dab
+Commit message - bump ttk repo
+---> The original commit sha is - bcaa93b023e9d92b24c105537f2994e070e5d06e
+Commit message - more random housecleaning
+---> The files with partial_reverts are:-
+util/grab-binaries.sh
+util/mrboots-installer.c
+util/run-fullscreen.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ 3fd6a447ef42b61e1b6d348fe7f9a62c9702bdcc -> fd676036cc75fdfa75c6af4697dc903cce91204a } is a revert
+{ d42617020f85972c658d1debb2ffa38c4275577b -> ecf124ece47fceb659d2246e78c037ab4ab2a645 }
+Partial Revert commits SHA are -> 
+fd676036cc75fdfa75c6af4697dc903cce91204a - revert - ecf124ece47fceb659d2246e78c037ab4ab2a645
+---> The reverted commit sha is - fd676036cc75fdfa75c6af4697dc903cce91204a
+Commit message - Build cleanup
+---> The original commit sha is - ecf124ece47fceb659d2246e78c037ab4ab2a645
+Commit message - Merge branch 'strawberry-dev' of github.com:klange/toaruos into strawberry-dev
+---> The files with partial_reverts are:-
+userspace/build.py
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ 0eefc62a494302b5ca2786a8c380ba6117aa9060 -> a8435f37c068d7efab2ffdb5cb03a13a3e3703bb } is a revert
+{ 279eca8b174d9e359b6911e6f063d6066ced58cf -> 3ed327f5490fb5a23896a3c9cf3258f7f30d09c8 }
+Partial Revert commits SHA are -> 
+a8435f37c068d7efab2ffdb5cb03a13a3e3703bb - revert - 3ed327f5490fb5a23896a3c9cf3258f7f30d09c8
+---> The reverted commit sha is - a8435f37c068d7efab2ffdb5cb03a13a3e3703bb
+Commit message - submodule bump
+---> The original commit sha is - 3ed327f5490fb5a23896a3c9cf3258f7f30d09c8
+Commit message - Also that
+---> The files with partial_reverts are:-
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ aeb45645a5938e26258b3f37f3b3c5304e16edc7 -> e2470044a7fe875803ad057b9ffe1b28447ed4e2 } is a revert
+{ 279eca8b174d9e359b6911e6f063d6066ced58cf -> 3ed327f5490fb5a23896a3c9cf3258f7f30d09c8 }
+Partial Revert commits SHA are -> 
+e2470044a7fe875803ad057b9ffe1b28447ed4e2 - revert - 3ed327f5490fb5a23896a3c9cf3258f7f30d09c8
+---> The reverted commit sha is - e2470044a7fe875803ad057b9ffe1b28447ed4e2
+Commit message - Sync toaru-compositor
+---> The original commit sha is - 3ed327f5490fb5a23896a3c9cf3258f7f30d09c8
+Commit message - Also that
+---> The files with partial_reverts are:-
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ e04aaa0678bc2b65484d15b5945e8d16e81e3898 -> 176d7a93664349ce189036c7dd856e91faad2612 } is a revert
+{ 279eca8b174d9e359b6911e6f063d6066ced58cf -> 3ed327f5490fb5a23896a3c9cf3258f7f30d09c8 }
+Partial Revert commits SHA are -> 
+176d7a93664349ce189036c7dd856e91faad2612 - revert - 3ed327f5490fb5a23896a3c9cf3258f7f30d09c8
+---> The reverted commit sha is - 176d7a93664349ce189036c7dd856e91faad2612
+Commit message - sync
+---> The original commit sha is - 3ed327f5490fb5a23896a3c9cf3258f7f30d09c8
+Commit message - Also that
+---> The files with partial_reverts are:-
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ 1af6e4b81e6f98fdbf40aab227965e147426ca16 -> 3028ed06cb1590f9f90358a8e72b761b0af33dab } is a revert
+{ 279eca8b174d9e359b6911e6f063d6066ced58cf -> 3ed327f5490fb5a23896a3c9cf3258f7f30d09c8 }
+Partial Revert commits SHA are -> 
+3028ed06cb1590f9f90358a8e72b761b0af33dab - revert - 3ed327f5490fb5a23896a3c9cf3258f7f30d09c8
+---> The reverted commit sha is - 3028ed06cb1590f9f90358a8e72b761b0af33dab
+Commit message - bump ttk repo
+---> The original commit sha is - 3ed327f5490fb5a23896a3c9cf3258f7f30d09c8
+Commit message - Also that
+---> The files with partial_reverts are:-
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ 4e5296ad5ae01a6fe0652a9262a57c5268f4a1b7 -> 8d20462288dd79369a526242ec96bf0789e3c3a5 } is a revert
+{ 7351fa308bb2228bbd6082875d837560ece481f2 -> 1e50d39d676ad921c5f1af1a069827f886d7ecf1 }
+Partial Revert commits SHA are -> 
+8d20462288dd79369a526242ec96bf0789e3c3a5 - revert - 1e50d39d676ad921c5f1af1a069827f886d7ecf1
+---> The reverted commit sha is - 8d20462288dd79369a526242ec96bf0789e3c3a5
+Commit message - work around -onlcr
+---> The original commit sha is - 1e50d39d676ad921c5f1af1a069827f886d7ecf1
+Commit message - kill nlcr/no-nlcr stuff from terminal
+---> The files with partial_reverts are:-
+userspace/core/sh.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ 409052e568ddbc919513090567fbca3bb8d2c1cc -> 716ce11c830dcd04152d7cafe8bec7907358d7e2 } is a revert
+{ ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 -> d21317236885ac1e9e3e46750c3562d1052667cb }
+Partial Revert commits SHA are -> 
+716ce11c830dcd04152d7cafe8bec7907358d7e2 - revert - d21317236885ac1e9e3e46750c3562d1052667cb
+---> The reverted commit sha is - 716ce11c830dcd04152d7cafe8bec7907358d7e2
+Commit message - Move old loader test
+---> The original commit sha is - d21317236885ac1e9e3e46750c3562d1052667cb
+Commit message - woops, kill that
+---> The files with partial_reverts are:-
+userspace/extra/loader-test.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ 4e0d34346d90306edd1bb88c8b2dfee5edb12519 -> 05728b0e2fe0982cd47ae13cd9821d5e9a7eff22 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+05728b0e2fe0982cd47ae13cd9821d5e9a7eff22 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 05728b0e2fe0982cd47ae13cd9821d5e9a7eff22
+Commit message - Fix large files on modern ext2 configurations
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ fee70e1c67edb7a51b2b7703b4c75e703de4e10f -> 4da4ab63c0ff0b306a625a5cfb7e0814c1e0a717 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+4da4ab63c0ff0b306a625a5cfb7e0814c1e0a717 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 4da4ab63c0ff0b306a625a5cfb7e0814c1e0a717
+Commit message - [debug] warn if vid mem can't be located
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ 0b87a99c003f52527870b32b9dfcc6729f69a8f7 -> 2efc7afc4a9e40be5b322545580fd2d37988c1f0 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+2efc7afc4a9e40be5b322545580fd2d37988c1f0 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 2efc7afc4a9e40be5b322545580fd2d37988c1f0
+Commit message - Add the image builder as a submodule
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ 62c5f39feac6b5c9d65c52cc9106c8ec9db608ee -> 9807eaee2419aa70e0d49e2f99d58c50346a5e8d } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+9807eaee2419aa70e0d49e2f99d58c50346a5e8d - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 9807eaee2419aa70e0d49e2f99d58c50346a5e8d
+Commit message - Fix submodule pulling?
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ 2a1a0b477ec3b42a7749f79b9341c2671af1fe82 -> d776f84b7143b38ccfe34d7a86c7a4924756535e } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+d776f84b7143b38ccfe34d7a86c7a4924756535e - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - d776f84b7143b38ccfe34d7a86c7a4924756535e
+Commit message - Update image-builder
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ f7860e400ada0cd118916cc78af7de041711cf5f -> 8e3dc4ada4bc7b409346e3566f70b7cf361fc919 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+8e3dc4ada4bc7b409346e3566f70b7cf361fc919 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 8e3dc4ada4bc7b409346e3566f70b7cf361fc919
+Commit message - Sync
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 46 is -> 
+{ 6c27a7fc6bda854593d28b5dd27dd54368eded97 -> 6e909acd07d1973ad88563d48c01780efb5ff213 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+6e909acd07d1973ad88563d48c01780efb5ff213 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 6e909acd07d1973ad88563d48c01780efb5ff213
+Commit message - Save/restore FPU state on task switch
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 47 is -> 
+{ 59b1e48939b488e4675cb23a2764cf351bf860d5 -> 6d49ba5284090f61d2900ede953f71adedf67ce0 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+6d49ba5284090f61d2900ede953f71adedf67ce0 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 6d49ba5284090f61d2900ede953f71adedf67ce0
+Commit message - Fix julia generator with cairo compositor
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ 261462cfa847c260fa6bd28f9e5c13f84c066e78 -> c6d1c64bfbd3d9bb6ac422ecd424eb080fff55f8 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+c6d1c64bfbd3d9bb6ac422ecd424eb080fff55f8 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - c6d1c64bfbd3d9bb6ac422ecd424eb080fff55f8
+Commit message - Add new compositor to ignore list
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ 38314292a5197af8c33dd1a884ae8098d76babc8 -> 99306240438c8b183e4238e045df188c19376a09 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+99306240438c8b183e4238e045df188c19376a09 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 99306240438c8b183e4238e045df188c19376a09
+Commit message - cleanup some userspace stuff
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ ba1515ac4f036eb96aa868b5fbe61d59594b9f41 -> cb6b3f0c1ce56852f8bbe4ac1d5039faddd17a60 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+cb6b3f0c1ce56852f8bbe4ac1d5039faddd17a60 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - cb6b3f0c1ce56852f8bbe4ac1d5039faddd17a60
+Commit message - Fix panel background
+
+[ci skip]
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 51 is -> 
+{ 47f0c8c6e2da91156decfd86cffd058e8772143e -> c93b5617e86cd640ff7ef812c744d4d6d647c1a3 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+c93b5617e86cd640ff7ef812c744d4d6d647c1a3 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - c93b5617e86cd640ff7ef812c744d4d6d647c1a3
+Commit message - Support C++ (roughly) in toolchain
+
+* Reenables building of libstdc++
+* Enables building of g++
+* WARNING: The static binary loader does NOT support static
+  initializer functions! You must run them yourself (see
+  userspace/test-cpp.cpp for an example that initializes the standard
+  streams in order to use cout) until this is fixed.
+* C++ stuff is slow to load, try to manually strip, it'll speed things
+  up a bit.
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 52 is -> 
+{ f06472c8608529feb555ae4ac04d85b64e0df624 -> b5d88b13fccc3a5319f53afdc5c15060d9b2c15e } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+b5d88b13fccc3a5319f53afdc5c15060d9b2c15e - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - b5d88b13fccc3a5319f53afdc5c15060d9b2c15e
+Commit message - kill a bunch of debug printing
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 53 is -> 
+{ dec115981ac382557ed2142b1c952293b0a1389d -> 8f8bd9d5e931557d322744db14a439ff3111b745 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+8f8bd9d5e931557d322744db14a439ff3111b745 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 8f8bd9d5e931557d322744db14a439ff3111b745
+Commit message - Completely redesign login screen
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 54 is -> 
+{ ce747a8bd4c24addf426cba29675c4089c309fc9 -> 7ec90ee2ef9b164f7f56f4d8dbcbeaf984486a85 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+7ec90ee2ef9b164f7f56f4d8dbcbeaf984486a85 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 7ec90ee2ef9b164f7f56f4d8dbcbeaf984486a85
+Commit message - Sync old compositor to new compositor
+
+It still looks bad, as I haven't forced alpha blitting for everything,
+but it supports all the new features now.
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 55 is -> 
+{ 6cb509abf950cbce665d740252a15ba2cfcaadf3 -> 942c49806ba92109d65e9ef9cd1818c898f69eab } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+942c49806ba92109d65e9ef9cd1818c898f69eab - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 942c49806ba92109d65e9ef9cd1818c898f69eab
+Commit message - retool build utils
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 56 is -> 
+{ b956680edc9c2c9ec392dfffd46688b22b15bd42 -> cd929b1ceb15c960770397ea58cb991ab4371a09 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+cd929b1ceb15c960770397ea58cb991ab4371a09 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - cd929b1ceb15c960770397ea58cb991ab4371a09
+Commit message - Fix some minor input issues
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 57 is -> 
+{ 6ae0d288a622402fefaa8c2d9d6212b3fc2bb66c -> 960fd2486cf8ef0df4533116e5e3a88cd88be512 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+960fd2486cf8ef0df4533116e5e3a88cd88be512 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 960fd2486cf8ef0df4533116e5e3a88cd88be512
+Commit message - Minor improvements to ls
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 58 is -> 
+{ 70a5de56f455e25b09ddf576e7d423e057ebf2ef -> 8fb898be666ea2d301f3cfb669daae0dda3d48aa } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+8fb898be666ea2d301f3cfb669daae0dda3d48aa - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 8fb898be666ea2d301f3cfb669daae0dda3d48aa
+Commit message - Restructure windowed applications for speed
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 59 is -> 
+{ 7ea68a6d9229c3871a8da885b24cc0bec36bb158 -> 3a977369afdd4bbacfaa52e34234d0c27bbffe4e } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+3a977369afdd4bbacfaa52e34234d0c27bbffe4e - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 3a977369afdd4bbacfaa52e34234d0c27bbffe4e
+Commit message - Timed process sleeping (and bug fixes)
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 60 is -> 
+{ 29e7a15443e7c09e164d621d871758aeed90560f -> 3b06b5c4648c02176bd767c3bf5defffd5e03208 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+3b06b5c4648c02176bd767c3bf5defffd5e03208 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 3b06b5c4648c02176bd767c3bf5defffd5e03208
+Commit message - bump version to 0.4.2
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 61 is -> 
+{ 0eefc62a494302b5ca2786a8c380ba6117aa9060 -> a8435f37c068d7efab2ffdb5cb03a13a3e3703bb } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+a8435f37c068d7efab2ffdb5cb03a13a3e3703bb - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - a8435f37c068d7efab2ffdb5cb03a13a3e3703bb
+Commit message - submodule bump
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 62 is -> 
+{ aeb45645a5938e26258b3f37f3b3c5304e16edc7 -> e2470044a7fe875803ad057b9ffe1b28447ed4e2 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+e2470044a7fe875803ad057b9ffe1b28447ed4e2 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - e2470044a7fe875803ad057b9ffe1b28447ed4e2
+Commit message - Sync toaru-compositor
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 63 is -> 
+{ e04aaa0678bc2b65484d15b5945e8d16e81e3898 -> 176d7a93664349ce189036c7dd856e91faad2612 } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+176d7a93664349ce189036c7dd856e91faad2612 - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 176d7a93664349ce189036c7dd856e91faad2612
+Commit message - sync
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 64 is -> 
+{ 1af6e4b81e6f98fdbf40aab227965e147426ca16 -> 3028ed06cb1590f9f90358a8e72b761b0af33dab } is a revert
+{ cf91715ab5bd4d904074063e98ba254c22ece003 -> ea52ca3fb0edc87f0022a9a89ef468f23d6c5711 }
+Partial Revert commits SHA are -> 
+3028ed06cb1590f9f90358a8e72b761b0af33dab - revert - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+---> The reverted commit sha is - 3028ed06cb1590f9f90358a8e72b761b0af33dab
+Commit message - bump ttk repo
+---> The original commit sha is - ea52ca3fb0edc87f0022a9a89ef468f23d6c5711
+Commit message - kill old unused stuff
+---> The files with partial_reverts are:-
+userspace/lib/ldlib.c
+userspace/lib/ldlib.h
+userspace/lib/syscall.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 65 is -> 
+{ ad19c5eb01acc2f8976dc1959c520e3572ae73a8 -> 04200022121cec7dea58e6b4550329fc701868ab } is a revert
+{ 04200022121cec7dea58e6b4550329fc701868ab -> 48fe17ff19201059a7373feee77e5d0e23962890 }
+Partial Revert commits SHA are -> 
+04200022121cec7dea58e6b4550329fc701868ab - revert - 48fe17ff19201059a7373feee77e5d0e23962890
+---> The reverted commit sha is - 04200022121cec7dea58e6b4550329fc701868ab
+Commit message - Quick hack: Animation demo
+---> The original commit sha is - 48fe17ff19201059a7373feee77e5d0e23962890
+Commit message - Merge branch 'strawberry-dev' of github.com:klange/toaruos into strawberry-dev
+---> The files with partial_reverts are:-
+kernel/fs/randomdev.c
+toolchain/cross-gcc.sh
+toolchain/patches/newlib-1.19.0.patch
+userspace/core/sh.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 66 is -> 
+{ 892ae803d3a1dcf8b3640d41468aaa17bc2e7f1e -> 8af7d274451280ed75e3e42c5a32140e0a688be5 } is a revert
+{ 8f3b31466fbe6e1fec0e7dedd2396c70504a2eb2 -> 355d4b4dbe7f1ac913fd28bd2b37cdc7550d73c3 }
+Partial Revert commits SHA are -> 
+8af7d274451280ed75e3e42c5a32140e0a688be5 - revert - 355d4b4dbe7f1ac913fd28bd2b37cdc7550d73c3
+---> The reverted commit sha is - 8af7d274451280ed75e3e42c5a32140e0a688be5
+Commit message - Make terminal darker
+---> The original commit sha is - 355d4b4dbe7f1ac913fd28bd2b37cdc7550d73c3
+Commit message - Merge pull request #35 from srjek/zlib1.2.8
+
+Upgrade zlib from 1.2.7 to 1.2.8, or provide an alt url
+---> The files with partial_reverts are:-
+toolchain/prepare.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 67 is -> 
+{ 4e0d34346d90306edd1bb88c8b2dfee5edb12519 -> 05728b0e2fe0982cd47ae13cd9821d5e9a7eff22 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+05728b0e2fe0982cd47ae13cd9821d5e9a7eff22 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 05728b0e2fe0982cd47ae13cd9821d5e9a7eff22
+Commit message - Fix large files on modern ext2 configurations
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 68 is -> 
+{ fee70e1c67edb7a51b2b7703b4c75e703de4e10f -> 4da4ab63c0ff0b306a625a5cfb7e0814c1e0a717 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+4da4ab63c0ff0b306a625a5cfb7e0814c1e0a717 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 4da4ab63c0ff0b306a625a5cfb7e0814c1e0a717
+Commit message - [debug] warn if vid mem can't be located
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 69 is -> 
+{ 0b87a99c003f52527870b32b9dfcc6729f69a8f7 -> 2efc7afc4a9e40be5b322545580fd2d37988c1f0 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+2efc7afc4a9e40be5b322545580fd2d37988c1f0 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 2efc7afc4a9e40be5b322545580fd2d37988c1f0
+Commit message - Add the image builder as a submodule
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 70 is -> 
+{ 62c5f39feac6b5c9d65c52cc9106c8ec9db608ee -> 9807eaee2419aa70e0d49e2f99d58c50346a5e8d } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+9807eaee2419aa70e0d49e2f99d58c50346a5e8d - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 9807eaee2419aa70e0d49e2f99d58c50346a5e8d
+Commit message - Fix submodule pulling?
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 71 is -> 
+{ 2a1a0b477ec3b42a7749f79b9341c2671af1fe82 -> d776f84b7143b38ccfe34d7a86c7a4924756535e } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+d776f84b7143b38ccfe34d7a86c7a4924756535e - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - d776f84b7143b38ccfe34d7a86c7a4924756535e
+Commit message - Update image-builder
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 72 is -> 
+{ f7860e400ada0cd118916cc78af7de041711cf5f -> 8e3dc4ada4bc7b409346e3566f70b7cf361fc919 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+8e3dc4ada4bc7b409346e3566f70b7cf361fc919 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 8e3dc4ada4bc7b409346e3566f70b7cf361fc919
+Commit message - Sync
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 73 is -> 
+{ 6c27a7fc6bda854593d28b5dd27dd54368eded97 -> 6e909acd07d1973ad88563d48c01780efb5ff213 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+6e909acd07d1973ad88563d48c01780efb5ff213 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 6e909acd07d1973ad88563d48c01780efb5ff213
+Commit message - Save/restore FPU state on task switch
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 74 is -> 
+{ 59b1e48939b488e4675cb23a2764cf351bf860d5 -> 6d49ba5284090f61d2900ede953f71adedf67ce0 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+6d49ba5284090f61d2900ede953f71adedf67ce0 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 6d49ba5284090f61d2900ede953f71adedf67ce0
+Commit message - Fix julia generator with cairo compositor
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 75 is -> 
+{ 261462cfa847c260fa6bd28f9e5c13f84c066e78 -> c6d1c64bfbd3d9bb6ac422ecd424eb080fff55f8 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+c6d1c64bfbd3d9bb6ac422ecd424eb080fff55f8 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - c6d1c64bfbd3d9bb6ac422ecd424eb080fff55f8
+Commit message - Add new compositor to ignore list
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 76 is -> 
+{ 38314292a5197af8c33dd1a884ae8098d76babc8 -> 99306240438c8b183e4238e045df188c19376a09 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+99306240438c8b183e4238e045df188c19376a09 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 99306240438c8b183e4238e045df188c19376a09
+Commit message - cleanup some userspace stuff
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 77 is -> 
+{ ba1515ac4f036eb96aa868b5fbe61d59594b9f41 -> cb6b3f0c1ce56852f8bbe4ac1d5039faddd17a60 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+cb6b3f0c1ce56852f8bbe4ac1d5039faddd17a60 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - cb6b3f0c1ce56852f8bbe4ac1d5039faddd17a60
+Commit message - Fix panel background
+
+[ci skip]
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 78 is -> 
+{ 47f0c8c6e2da91156decfd86cffd058e8772143e -> c93b5617e86cd640ff7ef812c744d4d6d647c1a3 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+c93b5617e86cd640ff7ef812c744d4d6d647c1a3 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - c93b5617e86cd640ff7ef812c744d4d6d647c1a3
+Commit message - Support C++ (roughly) in toolchain
+
+* Reenables building of libstdc++
+* Enables building of g++
+* WARNING: The static binary loader does NOT support static
+  initializer functions! You must run them yourself (see
+  userspace/test-cpp.cpp for an example that initializes the standard
+  streams in order to use cout) until this is fixed.
+* C++ stuff is slow to load, try to manually strip, it'll speed things
+  up a bit.
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 79 is -> 
+{ f06472c8608529feb555ae4ac04d85b64e0df624 -> b5d88b13fccc3a5319f53afdc5c15060d9b2c15e } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+b5d88b13fccc3a5319f53afdc5c15060d9b2c15e - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - b5d88b13fccc3a5319f53afdc5c15060d9b2c15e
+Commit message - kill a bunch of debug printing
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 80 is -> 
+{ dec115981ac382557ed2142b1c952293b0a1389d -> 8f8bd9d5e931557d322744db14a439ff3111b745 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+8f8bd9d5e931557d322744db14a439ff3111b745 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 8f8bd9d5e931557d322744db14a439ff3111b745
+Commit message - Completely redesign login screen
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 81 is -> 
+{ ce747a8bd4c24addf426cba29675c4089c309fc9 -> 7ec90ee2ef9b164f7f56f4d8dbcbeaf984486a85 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+7ec90ee2ef9b164f7f56f4d8dbcbeaf984486a85 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 7ec90ee2ef9b164f7f56f4d8dbcbeaf984486a85
+Commit message - Sync old compositor to new compositor
+
+It still looks bad, as I haven't forced alpha blitting for everything,
+but it supports all the new features now.
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 82 is -> 
+{ 6cb509abf950cbce665d740252a15ba2cfcaadf3 -> 942c49806ba92109d65e9ef9cd1818c898f69eab } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+942c49806ba92109d65e9ef9cd1818c898f69eab - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 942c49806ba92109d65e9ef9cd1818c898f69eab
+Commit message - retool build utils
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 83 is -> 
+{ b956680edc9c2c9ec392dfffd46688b22b15bd42 -> cd929b1ceb15c960770397ea58cb991ab4371a09 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+cd929b1ceb15c960770397ea58cb991ab4371a09 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - cd929b1ceb15c960770397ea58cb991ab4371a09
+Commit message - Fix some minor input issues
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 84 is -> 
+{ 6ae0d288a622402fefaa8c2d9d6212b3fc2bb66c -> 960fd2486cf8ef0df4533116e5e3a88cd88be512 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+960fd2486cf8ef0df4533116e5e3a88cd88be512 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 960fd2486cf8ef0df4533116e5e3a88cd88be512
+Commit message - Minor improvements to ls
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 85 is -> 
+{ 70a5de56f455e25b09ddf576e7d423e057ebf2ef -> 8fb898be666ea2d301f3cfb669daae0dda3d48aa } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+8fb898be666ea2d301f3cfb669daae0dda3d48aa - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 8fb898be666ea2d301f3cfb669daae0dda3d48aa
+Commit message - Restructure windowed applications for speed
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 86 is -> 
+{ 7ea68a6d9229c3871a8da885b24cc0bec36bb158 -> 3a977369afdd4bbacfaa52e34234d0c27bbffe4e } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+3a977369afdd4bbacfaa52e34234d0c27bbffe4e - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 3a977369afdd4bbacfaa52e34234d0c27bbffe4e
+Commit message - Timed process sleeping (and bug fixes)
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 87 is -> 
+{ 29e7a15443e7c09e164d621d871758aeed90560f -> 3b06b5c4648c02176bd767c3bf5defffd5e03208 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+3b06b5c4648c02176bd767c3bf5defffd5e03208 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 3b06b5c4648c02176bd767c3bf5defffd5e03208
+Commit message - bump version to 0.4.2
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 88 is -> 
+{ 0eefc62a494302b5ca2786a8c380ba6117aa9060 -> a8435f37c068d7efab2ffdb5cb03a13a3e3703bb } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+a8435f37c068d7efab2ffdb5cb03a13a3e3703bb - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - a8435f37c068d7efab2ffdb5cb03a13a3e3703bb
+Commit message - submodule bump
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 89 is -> 
+{ aeb45645a5938e26258b3f37f3b3c5304e16edc7 -> e2470044a7fe875803ad057b9ffe1b28447ed4e2 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+e2470044a7fe875803ad057b9ffe1b28447ed4e2 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - e2470044a7fe875803ad057b9ffe1b28447ed4e2
+Commit message - Sync toaru-compositor
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 90 is -> 
+{ e04aaa0678bc2b65484d15b5945e8d16e81e3898 -> 176d7a93664349ce189036c7dd856e91faad2612 } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+176d7a93664349ce189036c7dd856e91faad2612 - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 176d7a93664349ce189036c7dd856e91faad2612
+Commit message - sync
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 91 is -> 
+{ 1af6e4b81e6f98fdbf40aab227965e147426ca16 -> 3028ed06cb1590f9f90358a8e72b761b0af33dab } is a revert
+{ 7e1cec94377ad933d74215d4a23aae0c25324a7c -> a586afb7d15f41b2ea9f0edbbb15d82a1ab42649 }
+Partial Revert commits SHA are -> 
+3028ed06cb1590f9f90358a8e72b761b0af33dab - revert - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+---> The reverted commit sha is - 3028ed06cb1590f9f90358a8e72b761b0af33dab
+Commit message - bump ttk repo
+---> The original commit sha is - a586afb7d15f41b2ea9f0edbbb15d82a1ab42649
+Commit message - Kill loader/ directory
+---> The files with partial_reverts are:-
+loader/crtbegin.s
+loader/link.ld
+loader/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 92 is -> 
+{ 4e0d34346d90306edd1bb88c8b2dfee5edb12519 -> 05728b0e2fe0982cd47ae13cd9821d5e9a7eff22 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+05728b0e2fe0982cd47ae13cd9821d5e9a7eff22 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 05728b0e2fe0982cd47ae13cd9821d5e9a7eff22
+Commit message - Fix large files on modern ext2 configurations
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 93 is -> 
+{ fee70e1c67edb7a51b2b7703b4c75e703de4e10f -> 4da4ab63c0ff0b306a625a5cfb7e0814c1e0a717 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+4da4ab63c0ff0b306a625a5cfb7e0814c1e0a717 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 4da4ab63c0ff0b306a625a5cfb7e0814c1e0a717
+Commit message - [debug] warn if vid mem can't be located
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 94 is -> 
+{ 0b87a99c003f52527870b32b9dfcc6729f69a8f7 -> 2efc7afc4a9e40be5b322545580fd2d37988c1f0 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+2efc7afc4a9e40be5b322545580fd2d37988c1f0 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 2efc7afc4a9e40be5b322545580fd2d37988c1f0
+Commit message - Add the image builder as a submodule
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 95 is -> 
+{ 62c5f39feac6b5c9d65c52cc9106c8ec9db608ee -> 9807eaee2419aa70e0d49e2f99d58c50346a5e8d } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+9807eaee2419aa70e0d49e2f99d58c50346a5e8d - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 9807eaee2419aa70e0d49e2f99d58c50346a5e8d
+Commit message - Fix submodule pulling?
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 96 is -> 
+{ 2a1a0b477ec3b42a7749f79b9341c2671af1fe82 -> d776f84b7143b38ccfe34d7a86c7a4924756535e } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+d776f84b7143b38ccfe34d7a86c7a4924756535e - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - d776f84b7143b38ccfe34d7a86c7a4924756535e
+Commit message - Update image-builder
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 97 is -> 
+{ f7860e400ada0cd118916cc78af7de041711cf5f -> 8e3dc4ada4bc7b409346e3566f70b7cf361fc919 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+8e3dc4ada4bc7b409346e3566f70b7cf361fc919 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 8e3dc4ada4bc7b409346e3566f70b7cf361fc919
+Commit message - Sync
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 98 is -> 
+{ 6c27a7fc6bda854593d28b5dd27dd54368eded97 -> 6e909acd07d1973ad88563d48c01780efb5ff213 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+6e909acd07d1973ad88563d48c01780efb5ff213 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 6e909acd07d1973ad88563d48c01780efb5ff213
+Commit message - Save/restore FPU state on task switch
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 99 is -> 
+{ 59b1e48939b488e4675cb23a2764cf351bf860d5 -> 6d49ba5284090f61d2900ede953f71adedf67ce0 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+6d49ba5284090f61d2900ede953f71adedf67ce0 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 6d49ba5284090f61d2900ede953f71adedf67ce0
+Commit message - Fix julia generator with cairo compositor
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 100 is -> 
+{ 261462cfa847c260fa6bd28f9e5c13f84c066e78 -> c6d1c64bfbd3d9bb6ac422ecd424eb080fff55f8 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+c6d1c64bfbd3d9bb6ac422ecd424eb080fff55f8 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - c6d1c64bfbd3d9bb6ac422ecd424eb080fff55f8
+Commit message - Add new compositor to ignore list
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 101 is -> 
+{ 38314292a5197af8c33dd1a884ae8098d76babc8 -> 99306240438c8b183e4238e045df188c19376a09 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+99306240438c8b183e4238e045df188c19376a09 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 99306240438c8b183e4238e045df188c19376a09
+Commit message - cleanup some userspace stuff
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 102 is -> 
+{ ba1515ac4f036eb96aa868b5fbe61d59594b9f41 -> cb6b3f0c1ce56852f8bbe4ac1d5039faddd17a60 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+cb6b3f0c1ce56852f8bbe4ac1d5039faddd17a60 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - cb6b3f0c1ce56852f8bbe4ac1d5039faddd17a60
+Commit message - Fix panel background
+
+[ci skip]
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 103 is -> 
+{ 47f0c8c6e2da91156decfd86cffd058e8772143e -> c93b5617e86cd640ff7ef812c744d4d6d647c1a3 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+c93b5617e86cd640ff7ef812c744d4d6d647c1a3 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - c93b5617e86cd640ff7ef812c744d4d6d647c1a3
+Commit message - Support C++ (roughly) in toolchain
+
+* Reenables building of libstdc++
+* Enables building of g++
+* WARNING: The static binary loader does NOT support static
+  initializer functions! You must run them yourself (see
+  userspace/test-cpp.cpp for an example that initializes the standard
+  streams in order to use cout) until this is fixed.
+* C++ stuff is slow to load, try to manually strip, it'll speed things
+  up a bit.
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 104 is -> 
+{ f06472c8608529feb555ae4ac04d85b64e0df624 -> b5d88b13fccc3a5319f53afdc5c15060d9b2c15e } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+b5d88b13fccc3a5319f53afdc5c15060d9b2c15e - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - b5d88b13fccc3a5319f53afdc5c15060d9b2c15e
+Commit message - kill a bunch of debug printing
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 105 is -> 
+{ dec115981ac382557ed2142b1c952293b0a1389d -> 8f8bd9d5e931557d322744db14a439ff3111b745 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+8f8bd9d5e931557d322744db14a439ff3111b745 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 8f8bd9d5e931557d322744db14a439ff3111b745
+Commit message - Completely redesign login screen
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 106 is -> 
+{ ce747a8bd4c24addf426cba29675c4089c309fc9 -> 7ec90ee2ef9b164f7f56f4d8dbcbeaf984486a85 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+7ec90ee2ef9b164f7f56f4d8dbcbeaf984486a85 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 7ec90ee2ef9b164f7f56f4d8dbcbeaf984486a85
+Commit message - Sync old compositor to new compositor
+
+It still looks bad, as I haven't forced alpha blitting for everything,
+but it supports all the new features now.
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 107 is -> 
+{ 6cb509abf950cbce665d740252a15ba2cfcaadf3 -> 942c49806ba92109d65e9ef9cd1818c898f69eab } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+942c49806ba92109d65e9ef9cd1818c898f69eab - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 942c49806ba92109d65e9ef9cd1818c898f69eab
+Commit message - retool build utils
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 108 is -> 
+{ b956680edc9c2c9ec392dfffd46688b22b15bd42 -> cd929b1ceb15c960770397ea58cb991ab4371a09 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+cd929b1ceb15c960770397ea58cb991ab4371a09 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - cd929b1ceb15c960770397ea58cb991ab4371a09
+Commit message - Fix some minor input issues
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 109 is -> 
+{ 6ae0d288a622402fefaa8c2d9d6212b3fc2bb66c -> 960fd2486cf8ef0df4533116e5e3a88cd88be512 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+960fd2486cf8ef0df4533116e5e3a88cd88be512 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 960fd2486cf8ef0df4533116e5e3a88cd88be512
+Commit message - Minor improvements to ls
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 110 is -> 
+{ 70a5de56f455e25b09ddf576e7d423e057ebf2ef -> 8fb898be666ea2d301f3cfb669daae0dda3d48aa } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+8fb898be666ea2d301f3cfb669daae0dda3d48aa - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 8fb898be666ea2d301f3cfb669daae0dda3d48aa
+Commit message - Restructure windowed applications for speed
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 111 is -> 
+{ 7ea68a6d9229c3871a8da885b24cc0bec36bb158 -> 3a977369afdd4bbacfaa52e34234d0c27bbffe4e } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+3a977369afdd4bbacfaa52e34234d0c27bbffe4e - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 3a977369afdd4bbacfaa52e34234d0c27bbffe4e
+Commit message - Timed process sleeping (and bug fixes)
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 112 is -> 
+{ 29e7a15443e7c09e164d621d871758aeed90560f -> 3b06b5c4648c02176bd767c3bf5defffd5e03208 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+3b06b5c4648c02176bd767c3bf5defffd5e03208 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 3b06b5c4648c02176bd767c3bf5defffd5e03208
+Commit message - bump version to 0.4.2
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 113 is -> 
+{ 0eefc62a494302b5ca2786a8c380ba6117aa9060 -> a8435f37c068d7efab2ffdb5cb03a13a3e3703bb } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+a8435f37c068d7efab2ffdb5cb03a13a3e3703bb - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - a8435f37c068d7efab2ffdb5cb03a13a3e3703bb
+Commit message - submodule bump
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 114 is -> 
+{ aeb45645a5938e26258b3f37f3b3c5304e16edc7 -> e2470044a7fe875803ad057b9ffe1b28447ed4e2 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+e2470044a7fe875803ad057b9ffe1b28447ed4e2 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - e2470044a7fe875803ad057b9ffe1b28447ed4e2
+Commit message - Sync toaru-compositor
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 115 is -> 
+{ e04aaa0678bc2b65484d15b5945e8d16e81e3898 -> 176d7a93664349ce189036c7dd856e91faad2612 } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+176d7a93664349ce189036c7dd856e91faad2612 - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 176d7a93664349ce189036c7dd856e91faad2612
+Commit message - sync
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 116 is -> 
+{ 1af6e4b81e6f98fdbf40aab227965e147426ca16 -> 3028ed06cb1590f9f90358a8e72b761b0af33dab } is a revert
+{ 038a899b455cc9cd24111235ee17b41fdbc795aa -> a7cd255546782c17f0c32293bb7bf383a45fcb38 }
+Partial Revert commits SHA are -> 
+3028ed06cb1590f9f90358a8e72b761b0af33dab - revert - a7cd255546782c17f0c32293bb7bf383a45fcb38
+---> The reverted commit sha is - 3028ed06cb1590f9f90358a8e72b761b0af33dab
+Commit message - bump ttk repo
+---> The original commit sha is - a7cd255546782c17f0c32293bb7bf383a45fcb38
+Commit message - Various C library adjustments
+
+Fix weird linking issues with newlib:
+- Get rid of dlmalloc
+- Also get rid of klmalloc
+
+Adjust crt0 operation:
+- Kill the dead loop at the end
+- Pass main to pre_main as a function pointer to move `main` reference
+  into crt0.o
+
+- Fix a build script derp with trying to remove build and local
+  directories (gets rid of some warnings)
+---> The files with partial_reverts are:-
+toolchain/patches/newlib/malloc.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 117 is -> 
+{ ccfcd53943be85f8f590b101cbbd3e24692ff35c -> 89fed507b3406d18a90920acf459e37298e4c957 } is a revert
+{ b583e6c60a73ac594e1661c8e48326b3c927c9aa -> 4d9d9b6df7cdda8798154e43326f167111b3e9d0 }
+Partial Revert commits SHA are -> 
+89fed507b3406d18a90920acf459e37298e4c957 - revert - 4d9d9b6df7cdda8798154e43326f167111b3e9d0
+---> The reverted commit sha is - 89fed507b3406d18a90920acf459e37298e4c957
+Commit message - Asynchrous sane window events
+---> The original commit sha is - 4d9d9b6df7cdda8798154e43326f167111b3e9d0
+Commit message - Merge pull request #31 from martica/safe-cp
+
+Let's not overwrite directories
+---> The files with partial_reverts are:-
+userspace/core/cp.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 118 is -> 
+{ ea8feba10940686eebffc722c7e80031207a3456 -> bac4d54bed3ac2f53bbc0e1d51928246c8391c6f } is a revert
+{ a55a652e0e4ce6008bc6ff6082205639418e79dc -> a125d2dbb9260370d2e9f712bd17b067ca97afb5 }
+Partial Revert commits SHA are -> 
+bac4d54bed3ac2f53bbc0e1d51928246c8391c6f - revert - a125d2dbb9260370d2e9f712bd17b067ca97afb5
+---> The reverted commit sha is - bac4d54bed3ac2f53bbc0e1d51928246c8391c6f
+Commit message - Revert version to 0.4.99
+---> The original commit sha is - a125d2dbb9260370d2e9f712bd17b067ca97afb5
+Commit message - Merge branch 'strawberry-dev' of github.com:klange/osdev into strawberry-dev
+---> The files with partial_reverts are:-
+TODO.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 119 is -> 
+{ 14b939832df11dd9294c4e084617fa077481738b -> 78106f17d90a86f29c24c2b776002192b64f5614 } is a revert
+{ b2c3d4da0e7620459996dae64c0e8f96a9cde40c -> e0a8c627fa76cad06da200db0f586fc9f65e9cc1 }
+Partial Revert commits SHA are -> 
+78106f17d90a86f29c24c2b776002192b64f5614 - revert - e0a8c627fa76cad06da200db0f586fc9f65e9cc1
+---> The reverted commit sha is - 78106f17d90a86f29c24c2b776002192b64f5614
+Commit message - Add compositor as a submodule
+---> The original commit sha is - e0a8c627fa76cad06da200db0f586fc9f65e9cc1
+Commit message - derp
+---> The files with partial_reverts are:-
+.gitmodules
+-----------------------------------------------------------------
+
+Partial Revert diff pair 120 is -> 
+{ d19083f2aa7d9ee308b1c962ff534ae26eb204f7 -> 07955c83c61aa412829e4a3a1768bbadd4500996 } is a revert
+{ 07955c83c61aa412829e4a3a1768bbadd4500996 -> ed0b4d2e4be63283156109e4d27fcf69d977144b }
+Partial Revert commits SHA are -> 
+07955c83c61aa412829e4a3a1768bbadd4500996 - revert - ed0b4d2e4be63283156109e4d27fcf69d977144b
+---> The reverted commit sha is - 07955c83c61aa412829e4a3a1768bbadd4500996
+Commit message - Fix dozens of build warnings and other oddities.
+
+* Finally bring syscall.h up to speed and include all syscalls in the
+  syscall module of the C library.
+* Remove the third-party obfuscated C demos (we have nyancat, good
+  enough)
+* Fix userspace apps to build without complaining about undeclared
+  strtok_r by disable __STRICT_ANSI__
+* Fix .eh_frame by including the proper stuff with libgcc.
+---> The original commit sha is - ed0b4d2e4be63283156109e4d27fcf69d977144b
+Commit message - Accidentally moved a cp of a header...
+
+... to a point before its destination existed.
+---> The files with partial_reverts are:-
+toolchain/install.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 121 is -> 
+{ 0270f608e06a38fc3ef835b1b2718c491accc860 -> bba242dd6214862479be57fd78fe72551d02b653 } is a revert
+{ bba242dd6214862479be57fd78fe72551d02b653 -> 2bd3ad40071217a61f46ac621448d021ed2f6fbc }
+Partial Revert commits SHA are -> 
+bba242dd6214862479be57fd78fe72551d02b653 - revert - 2bd3ad40071217a61f46ac621448d021ed2f6fbc
+---> The reverted commit sha is - bba242dd6214862479be57fd78fe72551d02b653
+Commit message - Add a testing framework.
+
+This is an automated system by which we boot qemu headless and use the
+serial line to capture output from a testing application that is started
+on bootup, running with the VGA terminal shell. This might be expanded
+to boot to the graphical display within VNC and perform more advanced
+tests with the Python shim using a VNC module for Python; we'll see.
+---> The original commit sha is - 2bd3ad40071217a61f46ac621448d021ed2f6fbc
+Commit message - Merge branch 'master' of github.com:klange/osdev
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 122 is -> 
+{ ef390568d42f3b80706d4a722dd46bead06b8043 -> 82ca77e8bb6382fafda11f889418f19f0085d458 } is a revert
+{ 18cb8e61836cd8414a554226c154276aefd0e3ca -> 112d61fec6e5e794ed00987871f12e6e83f6a204 }
+Partial Revert commits SHA are -> 
+82ca77e8bb6382fafda11f889418f19f0085d458 - revert - 112d61fec6e5e794ed00987871f12e6e83f6a204
+---> The reverted commit sha is - 82ca77e8bb6382fafda11f889418f19f0085d458
+Commit message - Remove my allocator from newlib patches
+---> The original commit sha is - 112d61fec6e5e794ed00987871f12e6e83f6a204
+Commit message - Revert "Remove my allocator from newlib patches"
+
+This reverts commit 82ca77e8bb6382fafda11f889418f19f0085d458.
+---> The files with partial_reverts are:-
+toolchain/patches/newlib-1.19.0.patch
+-----------------------------------------------------------------
+
+Partial Revert diff pair 123 is -> 
+{ ef390568d42f3b80706d4a722dd46bead06b8043 -> 82ca77e8bb6382fafda11f889418f19f0085d458 } is a revert
+{ 82ca77e8bb6382fafda11f889418f19f0085d458 -> 2c3cb1578e2b31c2fc3ceeb30669a77315d1f3b6 }
+Partial Revert commits SHA are -> 
+82ca77e8bb6382fafda11f889418f19f0085d458 - revert - 2c3cb1578e2b31c2fc3ceeb30669a77315d1f3b6
+---> The reverted commit sha is - 82ca77e8bb6382fafda11f889418f19f0085d458
+Commit message - Remove my allocator from newlib patches
+---> The original commit sha is - 2c3cb1578e2b31c2fc3ceeb30669a77315d1f3b6
+Commit message - Merge branch 'master' of github.com:klange/osdev
+---> The files with partial_reverts are:-
+README.md
+toolchain/install.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 124 is -> 
+{ a95cc178530b740ee5d7e296aa8729eae345443b -> e2dc01bed7096d099aad84698897acdc6686fc90 } is a revert
+{ 76f96a431e708229e6455d42a49831bdb82930a2 -> 650e85598f1b4552e84243b4699a090454202d69 }
+Partial Revert commits SHA are -> 
+e2dc01bed7096d099aad84698897acdc6686fc90 - revert - 650e85598f1b4552e84243b4699a090454202d69
+---> The reverted commit sha is - e2dc01bed7096d099aad84698897acdc6686fc90
+Commit message - donut checker... though it has a segfault
+---> The original commit sha is - 650e85598f1b4552e84243b4699a090454202d69
+Commit message - Remove Andy Sloane's Donut Mark (It didn't work)
+---> The files with partial_reverts are:-
+userspace/donut-checker.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 125 is -> 
+{ aec24c08f14a671f80a1918997522beb0c5e6881 -> a09be369ea692095c86a98fb259f595542e7c5a3 } is a revert
+{ 76f96a431e708229e6455d42a49831bdb82930a2 -> 650e85598f1b4552e84243b4699a090454202d69 }
+Partial Revert commits SHA are -> 
+a09be369ea692095c86a98fb259f595542e7c5a3 - revert - 650e85598f1b4552e84243b4699a090454202d69
+---> The reverted commit sha is - a09be369ea692095c86a98fb259f595542e7c5a3
+Commit message - Merge branch 'master' of git://github.com/klange/osdev
+---> The original commit sha is - 650e85598f1b4552e84243b4699a090454202d69
+Commit message - Remove Andy Sloane's Donut Mark (It didn't work)
+---> The files with partial_reverts are:-
+userspace/donut-checker.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 126 is -> 
+{ db617812e4ed193a654949f99c49cb8b41dec207 -> 1c288e1c8b613830ae5bc17e6579d99e022731ae } is a revert
+{ 1c288e1c8b613830ae5bc17e6579d99e022731ae -> e586a9361d4dab356bfd8edc6b19e78ae1eee184 }
+Partial Revert commits SHA are -> 
+1c288e1c8b613830ae5bc17e6579d99e022731ae - revert - e586a9361d4dab356bfd8edc6b19e78ae1eee184
+---> The reverted commit sha is - 1c288e1c8b613830ae5bc17e6579d99e022731ae
+Commit message - We never freed nodes from the scheduler queue :(
+---> The original commit sha is - e586a9361d4dab356bfd8edc6b19e78ae1eee184
+Commit message - No, I was an idiot.
+---> The files with partial_reverts are:-
+kernel/sys/process.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 127 is -> 
+{ 45903b204b6bf717c96e57e73c6ec5192dfddbc7 -> d28726fae71a8e7fce851ac252ade5b6db673163 } is a revert
+{ 2b0d6f6759ffede98711d2f34fa5e205291ca612 -> 70fa12eaf67ab02c50aac3b73f2ef0d3f30d950a }
+Partial Revert commits SHA are -> 
+d28726fae71a8e7fce851ac252ade5b6db673163 - revert - 70fa12eaf67ab02c50aac3b73f2ef0d3f30d950a
+---> The reverted commit sha is - d28726fae71a8e7fce851ac252ade5b6db673163
+Commit message - [userspace] really simple second compositor built on shm
+---> The original commit sha is - 70fa12eaf67ab02c50aac3b73f2ef0d3f30d950a
+Commit message - remove some old test applications
+---> The files with partial_reverts are:-
+userspace/game2.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 128 is -> 
+{ 71fd14d6f7595530ddd0f6f2011ebece2fa09b8f -> a72f9bc7cf253b3068b7312ea310404b063f61ea } is a revert
+{ de7a98493875db7e92d9f502ed07a188748b6825 -> 2da22312a566483c263b38d48b8fe7d989d0c567 }
+Partial Revert commits SHA are -> 
+a72f9bc7cf253b3068b7312ea310404b063f61ea - revert - 2da22312a566483c263b38d48b8fe7d989d0c567
+---> The reverted commit sha is - a72f9bc7cf253b3068b7312ea310404b063f61ea
+Commit message - Fix stack bug.
+---> The original commit sha is - 2da22312a566483c263b38d48b8fe7d989d0c567
+Commit message - Merge branch 'master' of github.com:klange/osdev
+---> The files with partial_reverts are:-
+kernel/include/shm.h
+userspace/compositor2.c
+userspace/game2.c
+userspace/julia2.c
+userspace/shm_client.c
+userspace/shm_server.c
+userspace/shmcrash.c
+userspace/shmcrash2.c
+userspace/shmtest2.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 129 is -> 
+{ 71fd14d6f7595530ddd0f6f2011ebece2fa09b8f -> a72f9bc7cf253b3068b7312ea310404b063f61ea } is a revert
+{ d048006b9cf76da6280ec591c94a90cf376e4f94 -> a222c3f56a1894ff3496f6cc5387ca599e056154 }
+Partial Revert commits SHA are -> 
+a72f9bc7cf253b3068b7312ea310404b063f61ea - revert - a222c3f56a1894ff3496f6cc5387ca599e056154
+---> The reverted commit sha is - a72f9bc7cf253b3068b7312ea310404b063f61ea
+Commit message - Fix stack bug.
+---> The original commit sha is - a222c3f56a1894ff3496f6cc5387ca599e056154
+Commit message - Various bits of graphical fun stuff
+---> The files with partial_reverts are:-
+userspace/lib/graphics.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 130 is -> 
+{ 71fd14d6f7595530ddd0f6f2011ebece2fa09b8f -> a72f9bc7cf253b3068b7312ea310404b063f61ea } is a revert
+{ e1beca4127ae0ee31c8d1d16338b9826a8035dd9 -> e335a2970a7764c075f9d6d7a1678544df5019d9 }
+Partial Revert commits SHA are -> 
+a72f9bc7cf253b3068b7312ea310404b063f61ea - revert - e335a2970a7764c075f9d6d7a1678544df5019d9
+---> The reverted commit sha is - a72f9bc7cf253b3068b7312ea310404b063f61ea
+Commit message - Fix stack bug.
+---> The original commit sha is - e335a2970a7764c075f9d6d7a1678544df5019d9
+Commit message - [glogin] Working on the graphical login application
+---> The files with partial_reverts are:-
+kernel/fs/vfs.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 131 is -> 
+{ 71fd14d6f7595530ddd0f6f2011ebece2fa09b8f -> a72f9bc7cf253b3068b7312ea310404b063f61ea } is a revert
+{ a97194f0bf883ae02b4b5f115beb7aa62effaf40 -> e1beca4127ae0ee31c8d1d16338b9826a8035dd9 }
+Partial Revert commits SHA are -> 
+a72f9bc7cf253b3068b7312ea310404b063f61ea - revert - e1beca4127ae0ee31c8d1d16338b9826a8035dd9
+---> The reverted commit sha is - a72f9bc7cf253b3068b7312ea310404b063f61ea
+Commit message - Fix stack bug.
+---> The original commit sha is - e1beca4127ae0ee31c8d1d16338b9826a8035dd9
+Commit message - CPU detection moved to userspace app
+---> The files with partial_reverts are:-
+kernel/devices/cpudet.c
+userspace/cpudet.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 132 is -> 
+{ 71fd14d6f7595530ddd0f6f2011ebece2fa09b8f -> a72f9bc7cf253b3068b7312ea310404b063f61ea } is a revert
+{ b30cd508643bd5ecd5dff12c0f7e1b08c9b810dc -> e5ed5cdca0246143815967d7181ca7ec925cf5cf }
+Partial Revert commits SHA are -> 
+a72f9bc7cf253b3068b7312ea310404b063f61ea - revert - e5ed5cdca0246143815967d7181ca7ec925cf5cf
+---> The reverted commit sha is - a72f9bc7cf253b3068b7312ea310404b063f61ea
+Commit message - Fix stack bug.
+---> The original commit sha is - e5ed5cdca0246143815967d7181ca7ec925cf5cf
+Commit message - Disable line buffering in pipes. Totally not our job.
+---> The files with partial_reverts are:-
+kernel/fs/pipe.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 133 is -> 
+{ 79e67dbe1602c73e6f0bb694c34001b6f0d50e08 -> c67d2796ef2f45ce6b2393c29e38c7c2e33cb003 } is a revert
+{ 220e9cbc57c5242b87a730ad9a9dbacce12c91aa -> b8e966ac24b56467254ef7dbbc40651a2e0f56d3 }
+Partial Revert commits SHA are -> 
+c67d2796ef2f45ce6b2393c29e38c7c2e33cb003 - revert - b8e966ac24b56467254ef7dbbc40651a2e0f56d3
+---> The reverted commit sha is - c67d2796ef2f45ce6b2393c29e38c7c2e33cb003
+Commit message - Finish threading (might still be some bugs)
+---> The original commit sha is - b8e966ac24b56467254ef7dbbc40651a2e0f56d3
+Commit message - Merge branch 'master' of github.com:klange/osdev
+---> The files with partial_reverts are:-
+userspace/drawlines.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 134 is -> 
+{ 71fd14d6f7595530ddd0f6f2011ebece2fa09b8f -> a72f9bc7cf253b3068b7312ea310404b063f61ea } is a revert
+{ 531d70f933c03c1c22de6677de258aafb90315fa -> 678ed81c65e5db9bfb08e6724cf2d28274347f71 }
+Partial Revert commits SHA are -> 
+a72f9bc7cf253b3068b7312ea310404b063f61ea - revert - 678ed81c65e5db9bfb08e6724cf2d28274347f71
+---> The reverted commit sha is - a72f9bc7cf253b3068b7312ea310404b063f61ea
+Commit message - Fix stack bug.
+---> The original commit sha is - 678ed81c65e5db9bfb08e6724cf2d28274347f71
+Commit message - Extensive stability fixes. I think I finally squashed those stack bugs.
+---> The files with partial_reverts are:-
+kernel/sys/syscall.c
+userspace/cat.c
+userspace/terminal.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 135 is -> 
+{ 79e67dbe1602c73e6f0bb694c34001b6f0d50e08 -> c67d2796ef2f45ce6b2393c29e38c7c2e33cb003 } is a revert
+{ 8fb69d44cd255bfe47c26f7e82ddb4c185d2d5bc -> 531d70f933c03c1c22de6677de258aafb90315fa }
+Partial Revert commits SHA are -> 
+c67d2796ef2f45ce6b2393c29e38c7c2e33cb003 - revert - 531d70f933c03c1c22de6677de258aafb90315fa
+---> The reverted commit sha is - c67d2796ef2f45ce6b2393c29e38c7c2e33cb003
+Commit message - Finish threading (might still be some bugs)
+---> The original commit sha is - 531d70f933c03c1c22de6677de258aafb90315fa
+Commit message - Ugly fix to bootup stack fault bug
+---> The files with partial_reverts are:-
+kernel/include/system.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 136 is -> 
+{ 71fd14d6f7595530ddd0f6f2011ebece2fa09b8f -> a72f9bc7cf253b3068b7312ea310404b063f61ea } is a revert
+{ 8fb69d44cd255bfe47c26f7e82ddb4c185d2d5bc -> 531d70f933c03c1c22de6677de258aafb90315fa }
+Partial Revert commits SHA are -> 
+a72f9bc7cf253b3068b7312ea310404b063f61ea - revert - 531d70f933c03c1c22de6677de258aafb90315fa
+---> The reverted commit sha is - a72f9bc7cf253b3068b7312ea310404b063f61ea
+Commit message - Fix stack bug.
+---> The original commit sha is - 531d70f933c03c1c22de6677de258aafb90315fa
+Commit message - Ugly fix to bootup stack fault bug
+---> The files with partial_reverts are:-
+kernel/include/system.h
+-----------------------------------------------------------------
+
+Partial Revert diff pair 137 is -> 
+{ adf2b02b4bcc4fe887365d28962951ed94d91176 -> c47e1998028cfee5a354a86c61c5658b306c8219 } is a revert
+{ c47e1998028cfee5a354a86c61c5658b306c8219 -> 0af41a28c10641f6591abe37aa34543425492027 }
+Partial Revert commits SHA are -> 
+c47e1998028cfee5a354a86c61c5658b306c8219 - revert - 0af41a28c10641f6591abe37aa34543425492027
+---> The reverted commit sha is - c47e1998028cfee5a354a86c61c5658b306c8219
+Commit message - Working on window functionality
+---> The original commit sha is - 0af41a28c10641f6591abe37aa34543425492027
+Commit message - Working on window server
+---> The files with partial_reverts are:-
+userspace/lib/syscall.h
+userspace/terminal.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 138 is -> 
+{ 27d0deed5bae65c85c1dd87bc7a3dc6927a4539b -> 79fcaf51365c06cfab72f73acadd318d34322524 } is a revert
+{ 79fcaf51365c06cfab72f73acadd318d34322524 -> 180342822a13f43a201a76e83b284e8bdab46c05 }
+Partial Revert commits SHA are -> 
+79fcaf51365c06cfab72f73acadd318d34322524 - revert - 180342822a13f43a201a76e83b284e8bdab46c05
+---> The reverted commit sha is - 79fcaf51365c06cfab72f73acadd318d34322524
+Commit message - Stability fixes.
+---> The original commit sha is - 180342822a13f43a201a76e83b284e8bdab46c05
+Commit message - Merge branch 'master' of github.com:klange/osdev
+---> The files with partial_reverts are:-
+kernel/mem/shm.c
+kernel/sys/syscall.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 139 is -> 
+{ 4335ade9bcec818297d6326992fe684157a320f8 -> aec24c08f14a671f80a1918997522beb0c5e6881 } is a revert
+{ aec24c08f14a671f80a1918997522beb0c5e6881 -> a09be369ea692095c86a98fb259f595542e7c5a3 }
+Partial Revert commits SHA are -> 
+aec24c08f14a671f80a1918997522beb0c5e6881 - revert - a09be369ea692095c86a98fb259f595542e7c5a3
+---> The reverted commit sha is - aec24c08f14a671f80a1918997522beb0c5e6881
+Commit message - Attaching nearly works!
+---> The original commit sha is - a09be369ea692095c86a98fb259f595542e7c5a3
+Commit message - Merge branch 'master' of git://github.com/klange/osdev
+---> The files with partial_reverts are:-
+userspace/Makefile
+userspace/donut-checker.c
+userspace/donut.c
+userspace/fire.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 140 is -> 
+{ ee1ade379f3e047c0d781a77b0b29d949bdf3749 -> 0b6cc503af1039c803e47207de8b10d7c22876c5 } is a revert
+{ 0b6cc503af1039c803e47207de8b10d7c22876c5 -> c2af881b89318d205a765d60247b118ba792c39e }
+Partial Revert commits SHA are -> 
+0b6cc503af1039c803e47207de8b10d7c22876c5 - revert - c2af881b89318d205a765d60247b118ba792c39e
+---> The reverted commit sha is - 0b6cc503af1039c803e47207de8b10d7c22876c5
+Commit message - [isrs] Increment the IRQ semaphore before...
+
+... handling any interrupt service routines.
+
+This was causing crashes while running /userspace/ apps without any
+syscalls being triggered, presumably due to switching at awkward times.
+---> The original commit sha is - c2af881b89318d205a765d60247b118ba792c39e
+Commit message - Merge branch 'master' of github.com:klange/osdev
+---> The files with partial_reverts are:-
+userspace/cat.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 141 is -> 
+{ 747709752aaaf066767c78cc7f9ff6c0b80292a3 -> eb98180d0ec4bf26893ac10a7281b8a25461f5db } is a revert
+{ eb98180d0ec4bf26893ac10a7281b8a25461f5db -> 65087e8a4e8b12acdbaf89810e52926d66af83bd }
+Partial Revert commits SHA are -> 
+eb98180d0ec4bf26893ac10a7281b8a25461f5db - revert - 65087e8a4e8b12acdbaf89810e52926d66af83bd
+---> The reverted commit sha is - eb98180d0ec4bf26893ac10a7281b8a25461f5db
+Commit message - [pci] Add pci config read/write to system.h
+---> The original commit sha is - 65087e8a4e8b12acdbaf89810e52926d66af83bd
+Commit message - Merge branch 'master' of github.com:klange/osdev
+---> The files with partial_reverts are:-
+README.md
+TODO.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 142 is -> 
+{ a75801f4d200c69c8d3a54e229164123dc974f23 -> 41ae8f1d85985961e29d7373558af846f22921dc } is a revert
+{ 41ae8f1d85985961e29d7373558af846f22921dc -> c509ece1de225c7e7ecb3f016fa97c193b2615f0 }
+Partial Revert commits SHA are -> 
+41ae8f1d85985961e29d7373558af846f22921dc - revert - c509ece1de225c7e7ecb3f016fa97c193b2615f0
+---> The reverted commit sha is - 41ae8f1d85985961e29d7373558af846f22921dc
+Commit message - [game] Minor
+---> The original commit sha is - c509ece1de225c7e7ecb3f016fa97c193b2615f0
+Commit message - Merge branch 'master' of github.com:klange/osdev
+---> The files with partial_reverts are:-
+util/readelf.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 143 is -> 
+{ a2bea1ab484abf18bada475b3d3aca80ef3807f8 -> 58dc0bb92265f93da30736f009aaedd1aec88bfe } is a revert
+{ 58dc0bb92265f93da30736f009aaedd1aec88bfe -> 24ff0b84f2bd729bbfbbf23f3c3b0de5a985dd8a }
+Partial Revert commits SHA are -> 
+58dc0bb92265f93da30736f009aaedd1aec88bfe - revert - 24ff0b84f2bd729bbfbbf23f3c3b0de5a985dd8a
+---> The reverted commit sha is - 58dc0bb92265f93da30736f009aaedd1aec88bfe
+Commit message - [task] Minor stuff
+---> The original commit sha is - 24ff0b84f2bd729bbfbbf23f3c3b0de5a985dd8a
+Commit message - Merge branch 'master' of github.com:klange/osdev
+---> The files with partial_reverts are:-
+kernel/core/fs/ext2_initrd.c
+kernel/core/mem.c
+-----------------------------------------------------------------
+
+Partial Revert diff pair 144 is -> 
+{ 09f530604e10e81b3f859f6d796c738ed6554f15 -> beaa7fda549486ee370ad8049805f1a7af44bf94 } is a revert
+{ 7b6fc96cab99bbc38702d63dea679ba98cd5fbac -> c98dc5b0ecf942cce144303474145073951ccca0 }
+Partial Revert commits SHA are -> 
+beaa7fda549486ee370ad8049805f1a7af44bf94 - revert - c98dc5b0ecf942cce144303474145073951ccca0
+---> The reverted commit sha is - beaa7fda549486ee370ad8049805f1a7af44bf94
+Commit message - [make] Fix core target
+---> The original commit sha is - c98dc5b0ecf942cce144303474145073951ccca0
+Commit message - [git] That's redundant
+---> The files with partial_reverts are:-
+.gitignore
+-----------------------------------------------------------------
+

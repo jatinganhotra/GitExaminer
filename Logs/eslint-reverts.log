@@ -1,0 +1,447 @@
+# of reverts = 33
+Revert diff pair 1 is -> 
+{ 9f54d3741dfb5e2656022fc3debcff27af78a59d -> 082434da0cf72775df675100c5f92427eedb492d } is a revert
+{ 082434da0cf72775df675100c5f92427eedb492d -> 58e41f8dfd3c27f57370b24d8022bb0cfd87461f }
+Revert commits SHA are -> 
+082434da0cf72775df675100c5f92427eedb492d - revert - 58e41f8dfd3c27f57370b24d8022bb0cfd87461f
+---> The reverted commit sha is - 082434da0cf72775df675100c5f92427eedb492d
+Commit message - Docs: alphabetize the "Stylistic Issues" section
+---> The original commit sha is - 58e41f8dfd3c27f57370b24d8022bb0cfd87461f
+Commit message - Merge pull request #1531 from hegemonic/fix-gensite
+
+Build: make the "gensite" target work when DOCS_DIR does not exist (fixes #1530)
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 3b0dfe2725a382f70a7e5b3be61d51786a105b50 -> 049c319535c4d854af0f24cf68252e4ec1ca714f } is a revert
+{ 049c319535c4d854af0f24cf68252e4ec1ca714f -> 3050be8fa4f37fa29e2e6e613fe6ace492f19ee8 }
+Revert commits SHA are -> 
+049c319535c4d854af0f24cf68252e4ec1ca714f - revert - 3050be8fa4f37fa29e2e6e613fe6ace492f19ee8
+---> The reverted commit sha is - 049c319535c4d854af0f24cf68252e4ec1ca714f
+Commit message - Update: Remove shebang workaround in spaced-line-comment (fixes #1433)
+
+Credit to @ilovejary for the original PR (#1435) (https://github.com/ilovejary/eslint/commit/27fc2f617b2ed6b29dba0cb7c8612ec0dd8be8c0).
+---> The original commit sha is - 3050be8fa4f37fa29e2e6e613fe6ace492f19ee8
+Commit message - Merge pull request #1480 from michaelficarra/patch-6
+
+Docs: change 'and' to 'an' in docs/rules/valid-jsdoc.md (fixes #1441)
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 7002ace11b6f836caaf5a96999165966067a8f17 -> 2965c0876f9352d765e6a2a5e728e6a50ced7899 } is a revert
+{ d3b6a61ddb808c8c102b3c85a939b2079aa384ba -> 55d66767e35b45ece9b404e3f82c14c7c5aab63c }
+Revert commits SHA are -> 
+2965c0876f9352d765e6a2a5e728e6a50ced7899 - revert - 55d66767e35b45ece9b404e3f82c14c7c5aab63c
+---> The reverted commit sha is - 2965c0876f9352d765e6a2a5e728e6a50ced7899
+Commit message - Fix: '.md' to '.html' with anchors (fixes #1415)
+
+Markdown documentation can now reference another markdown file with an anchor and it will work for the site along with github.
+ex. `working-with-rules.md#rule-unit-tests`
+---> The original commit sha is - 55d66767e35b45ece9b404e3f82c14c7c5aab63c
+Commit message - Revert "Fix: '.md' to '.html' with anchors (fixes #1415)"
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ b8793d9cdba4b1e77e0e5aaa9e565aa735ac1d42 -> c0a84f30018f21a4dc7a238f03828c8bcfa68ffc } is a revert
+{ c0a84f30018f21a4dc7a238f03828c8bcfa68ffc -> 0395236d7f046422250898ae2ca7997cf582d6b1 }
+Revert commits SHA are -> 
+c0a84f30018f21a4dc7a238f03828c8bcfa68ffc - revert - 0395236d7f046422250898ae2ca7997cf582d6b1
+---> The reverted commit sha is - c0a84f30018f21a4dc7a238f03828c8bcfa68ffc
+Commit message - Build: add version numbers to docs (fixes #1170)
+---> The original commit sha is - 0395236d7f046422250898ae2ca7997cf582d6b1
+Commit message - Merge pull request #1359 from eslint/fix-no-fallthrough
+
+Fix: no-fallthrough incorrectly flagged falls through annotations
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ 4badfb5ade4c3c28c79fecd0f373e74ca3696a5b -> 8ca916902343f6dcae3d5253623f2438bfa85591 } is a revert
+{ 9efa0348638b870738e5367a786a696a9693ce31 -> da6d126b27d90a730dc0741636f5eb405d9bb97e }
+Revert commits SHA are -> 
+8ca916902343f6dcae3d5253623f2438bfa85591 - revert - da6d126b27d90a730dc0741636f5eb405d9bb97e
+---> The reverted commit sha is - 8ca916902343f6dcae3d5253623f2438bfa85591
+Commit message - Fix: Load .eslintrc in directory with $HOME as an ancestor (fixes #1266)
+---> The original commit sha is - da6d126b27d90a730dc0741636f5eb405d9bb97e
+Commit message - Merge pull request #1267 from beaugunderson/master
+
+Fix: Load .eslintrc in directory with $HOME as an ancestor (fixes #1266)
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ 3d0c9b7520b5a42faabbdde8230d1fdf799d164b -> 6b5b6d359476032e5a44996865d62c9e9c43819c } is a revert
+{ 6b5b6d359476032e5a44996865d62c9e9c43819c -> 41f59f4d87aa0c7e03b3b17d86c13c65e6217bf9 }
+Revert commits SHA are -> 
+6b5b6d359476032e5a44996865d62c9e9c43819c - revert - 41f59f4d87aa0c7e03b3b17d86c13c65e6217bf9
+---> The reverted commit sha is - 6b5b6d359476032e5a44996865d62c9e9c43819c
+Commit message - Fix: strict should check function expressions (fixes #1244)
+---> The original commit sha is - 41f59f4d87aa0c7e03b3b17d86c13c65e6217bf9
+Commit message - Merge pull request #1243 from lo1tuma/fix-vars-on-top-documentation
+
+Docs: fix vars-on-top documentation (fixes #1234).
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ c2a229348a90b6e054605fa847fcea39f53175a0 -> 137b4ddcf1592ee5518defb6cc44207c22c51f7d } is a revert
+{ 52e2e97893b55cf224a210e51348427b64ad263d -> 58adc7f9e4c0802642315e86b9674facbac1ca7a }
+Revert commits SHA are -> 
+137b4ddcf1592ee5518defb6cc44207c22c51f7d - revert - 58adc7f9e4c0802642315e86b9674facbac1ca7a
+---> The reverted commit sha is - 137b4ddcf1592ee5518defb6cc44207c22c51f7d
+Commit message - Fix: Speed up tokens API (refs #1212)
+---> The original commit sha is - 58adc7f9e4c0802642315e86b9674facbac1ca7a
+Commit message - Perf-related revert "Fix: Speed up tokens API (refs #1212)"
+
+This reverts commit 137b4ddcf1592ee5518defb6cc44207c22c51f7d.
+-----------------------------------------------------------------
+
+Revert diff pair 8 is -> 
+{ 106ebeff4eb5f625a17d7e05201488abcaff3110 -> f9fee97b3afa41c5f47d5a7b9707c2cd09229c73 } is a revert
+{ 52e2e97893b55cf224a210e51348427b64ad263d -> 58adc7f9e4c0802642315e86b9674facbac1ca7a }
+Revert commits SHA are -> 
+f9fee97b3afa41c5f47d5a7b9707c2cd09229c73 - revert - 58adc7f9e4c0802642315e86b9674facbac1ca7a
+---> The reverted commit sha is - f9fee97b3afa41c5f47d5a7b9707c2cd09229c73
+Commit message - Merge pull request #1208 from gyandeeps/eslint-var-on-top
+
+New:  Adding 'vars-on-top' rule (fixes #1148)
+---> The original commit sha is - 58adc7f9e4c0802642315e86b9674facbac1ca7a
+Commit message - Perf-related revert "Fix: Speed up tokens API (refs #1212)"
+
+This reverts commit 137b4ddcf1592ee5518defb6cc44207c22c51f7d.
+-----------------------------------------------------------------
+
+Revert diff pair 9 is -> 
+{ ea99a14d61b5399991e3701224cfdb70dc8149b7 -> 09c71551e31af5eb4eeb054c6cdd3ada393d32f3 } is a revert
+{ 09c71551e31af5eb4eeb054c6cdd3ada393d32f3 -> 44f0cb96b4d1742a62a0438476edac8fa636541c }
+Revert commits SHA are -> 
+09c71551e31af5eb4eeb054c6cdd3ada393d32f3 - revert - 44f0cb96b4d1742a62a0438476edac8fa636541c
+---> The reverted commit sha is - 09c71551e31af5eb4eeb054c6cdd3ada393d32f3
+Commit message - fixes #655: add IIFE exception to no-extra-parens
+---> The original commit sha is - 44f0cb96b4d1742a62a0438476edac8fa636541c
+Commit message - Merge pull request #845 from wilmoore/add-rule-no-new-require
+
+Rule: no-new-require (fixes #847)
+-----------------------------------------------------------------
+
+Revert diff pair 10 is -> 
+{ 93494b6104f5675ffc46992add854ac8c1c77774 -> de50ad3890625875b5a837937a95ceddf7a027fa } is a revert
+{ de50ad3890625875b5a837937a95ceddf7a027fa -> d61d7ef6e137e859b06834e4d945a3559dc6e518 }
+Revert commits SHA are -> 
+de50ad3890625875b5a837937a95ceddf7a027fa - revert - d61d7ef6e137e859b06834e4d945a3559dc6e518
+---> The reverted commit sha is - de50ad3890625875b5a837937a95ceddf7a027fa
+Commit message - Upgrade: Esprima to 1.2, switch to using Esprima comment attachment (fixes #730)
+---> The original commit sha is - d61d7ef6e137e859b06834e4d945a3559dc6e518
+Commit message - Merge pull request #841 from eslint/issue840
+
+Fix: Semi rule incorrectly flagging extra semicolon (fixes #840)
+-----------------------------------------------------------------
+
+Revert diff pair 11 is -> 
+{ ecfaa5a55af719d453c2c3d91ed84153d9381d3f -> d39acec6b846eb42725317dd3bf0ff75e1aa9ba0 } is a revert
+{ d39acec6b846eb42725317dd3bf0ff75e1aa9ba0 -> 11ec047380aaeb0b463e97416b2d4b65ca6f6eb3 }
+Revert commits SHA are -> 
+d39acec6b846eb42725317dd3bf0ff75e1aa9ba0 - revert - 11ec047380aaeb0b463e97416b2d4b65ca6f6eb3
+---> The reverted commit sha is - d39acec6b846eb42725317dd3bf0ff75e1aa9ba0
+Commit message - Remove warning about ESLint being in Alpha
+---> The original commit sha is - 11ec047380aaeb0b463e97416b2d4b65ca6f6eb3
+Commit message - Merge pull request #808 from spadgos/space-after-keywords
+
+Adds `space-after-keywords` rule, along with associated tests and docs
+-----------------------------------------------------------------
+
+Revert diff pair 12 is -> 
+{ 3706e84cc6a3c332eeb4ecbab58577848a7655e9 -> 6b8f5a33ab5c6211e91c295b8063ab78fe340b1f } is a revert
+{ 6b8f5a33ab5c6211e91c295b8063ab78fe340b1f -> a75a2d3fbd553d4eee3fdb4a85a3cc168c54c465 }
+Revert commits SHA are -> 
+6b8f5a33ab5c6211e91c295b8063ab78fe340b1f - revert - a75a2d3fbd553d4eee3fdb4a85a3cc168c54c465
+---> The reverted commit sha is - 6b8f5a33ab5c6211e91c295b8063ab78fe340b1f
+Commit message - Rule block-scoped-var works correct with object properties (fixes #755)
+---> The original commit sha is - a75a2d3fbd553d4eee3fdb4a85a3cc168c54c465
+Commit message - Merge pull request #763 from roadhump/issue_759_pr
+
+Added env configuration per file (fixed #759)
+-----------------------------------------------------------------
+
+Revert diff pair 13 is -> 
+{ 6b3542996f20d595ff0db15b56dcae38a8e3cfd6 -> 833c8737f6b9e34db29509b2446daa2e1c0563fa } is a revert
+{ 833c8737f6b9e34db29509b2446daa2e1c0563fa -> fcafd814888957d853a7c5043cd3fd0e476433f8 }
+Revert commits SHA are -> 
+833c8737f6b9e34db29509b2446daa2e1c0563fa - revert - fcafd814888957d853a7c5043cd3fd0e476433f8
+---> The reverted commit sha is - 833c8737f6b9e34db29509b2446daa2e1c0563fa
+Commit message - readme: npm i -> npm install
+
+Although `npm i` is shorter to type, having it in the readme adds some unnecessary complexity. I had to stop and think to figure out what the command actually did. As all other projects I've come across uses `npm install`, I think it's better to follow an accepted convention and show the longer command.
+
+For people that copy and pastes it won't make a difference, and people that type it out can still use the sort version.
+---> The original commit sha is - fcafd814888957d853a7c5043cd3fd0e476433f8
+Commit message - Merge pull request #753 from btmills/fix-752
+
+Add env flag to cli options summary (fixes #752)
+-----------------------------------------------------------------
+
+Revert diff pair 14 is -> 
+{ 42ba0b39106e156b0e0e2384b1e45dc17a4cbe5c -> 551335eedf62261299af7aafdfc896b3aef8de67 } is a revert
+{ 551335eedf62261299af7aafdfc896b3aef8de67 -> a3f342383c0b53683ff63742699878c91aeb7274 }
+Revert commits SHA are -> 
+551335eedf62261299af7aafdfc896b3aef8de67 - revert - a3f342383c0b53683ff63742699878c91aeb7274
+---> The reverted commit sha is - 551335eedf62261299af7aafdfc896b3aef8de67
+Commit message - recommend using hasOwnProperty from Object.prototype in guard-for-in docs
+
+This was suggested by @ReneKriest on the mailing list.
+---> The original commit sha is - a3f342383c0b53683ff63742699878c91aeb7274
+Commit message - Merge pull request #705 from michaelficarra/environments-spacing
+
+change conf/environments.json spacing to be simpler and more consistent
+-----------------------------------------------------------------
+
+Revert diff pair 15 is -> 
+{ 22e6cc606913cf4bc873883047ecd9b1274c81c6 -> 0204c8170f5577117b4cda374f31c82880e5ba56 } is a revert
+{ 0204c8170f5577117b4cda374f31c82880e5ba56 -> 8a78e2265b7892a3160e2fe879b82a3a36f7f161 }
+Revert commits SHA are -> 
+0204c8170f5577117b4cda374f31c82880e5ba56 - revert - 8a78e2265b7892a3160e2fe879b82a3a36f7f161
+---> The reverted commit sha is - 0204c8170f5577117b4cda374f31c82880e5ba56
+Commit message - Added .eslintignore to load from parents folders (fixes #681)
+---> The original commit sha is - 8a78e2265b7892a3160e2fe879b82a3a36f7f161
+Commit message - Merge pull request #695 from FredKSchott/patch-1
+
+fix 'node-modules' typo in docs
+-----------------------------------------------------------------
+
+Revert diff pair 16 is -> 
+{ 7e67360afd71cc6302a1670036a2a65a0774dfa4 -> 84de86692a2ac7c359b23325789d8137038e0845 } is a revert
+{ 84de86692a2ac7c359b23325789d8137038e0845 -> b9794ec81296813e564daf9e451553229d6022e5 }
+Revert commits SHA are -> 
+84de86692a2ac7c359b23325789d8137038e0845 - revert - b9794ec81296813e564daf9e451553229d6022e5
+---> The reverted commit sha is - 84de86692a2ac7c359b23325789d8137038e0845
+Commit message - Fixed context.report message parsing
+
+Fixed an issue where, if passed all available options,
+`context.report` would fail to properly parse the violation message
+and would instead display the raw message.
+
+Fixes #642
+---> The original commit sha is - b9794ec81296813e564daf9e451553229d6022e5
+Commit message - Merge pull request #649 from michaelficarra/GH-648
+
+Fix: wrap-iife rule should actually check that IIFEs are wrapped (fixes #648)
+-----------------------------------------------------------------
+
+Revert diff pair 17 is -> 
+{ 56d7a14fc13d72cd02616bf081b9b80f4bf73bf3 -> 4daf928559998d44d80f1532bcb98569ebab89a5 } is a revert
+{ 18f8fa11542d1b57da72dccd321aaf516192f09c -> e06a46e55b9a06e32b41da2f3581494bda5bd314 }
+Revert commits SHA are -> 
+4daf928559998d44d80f1532bcb98569ebab89a5 - revert - e06a46e55b9a06e32b41da2f3581494bda5bd314
+---> The reverted commit sha is - 4daf928559998d44d80f1532bcb98569ebab89a5
+Commit message - #595 fix markdown for js code blocks
+---> The original commit sha is - e06a46e55b9a06e32b41da2f3581494bda5bd314
+Commit message - Merge pull request #601 from ilyavolodin/patch-1
+
+Adding information about Yeomen generator
+-----------------------------------------------------------------
+
+Revert diff pair 18 is -> 
+{ 71bbb04820cd28ed3614102f694f5880d0dd9d89 -> 231488e2c5c38eb4ac692b98f0149239c1bfa287 } is a revert
+{ 231488e2c5c38eb4ac692b98f0149239c1bfa287 -> 0bc84101ab132f422390f1abbd455ba9427c927c }
+Revert commits SHA are -> 
+231488e2c5c38eb4ac692b98f0149239c1bfa287 - revert - 0bc84101ab132f422390f1abbd455ba9427c927c
+---> The reverted commit sha is - 231488e2c5c38eb4ac692b98f0149239c1bfa287
+Commit message - Add ruleId to all formatters output (fixes #472)
+---> The original commit sha is - 0bc84101ab132f422390f1abbd455ba9427c927c
+Commit message - Merge pull request #515 from eslint/noempty
+
+Allow empty catch/finally blocks an update documentation
+-----------------------------------------------------------------
+
+Revert diff pair 19 is -> 
+{ ebcd2a024ee790c139daaf0be8210dc6c6c5c73e -> bcd6ae8d82c83b6eba8a571bc71e0b84e5fb34dd } is a revert
+{ bcd6ae8d82c83b6eba8a571bc71e0b84e5fb34dd -> 59df28044177a24f6e12d6de65c221714599f679 }
+Revert commits SHA are -> 
+bcd6ae8d82c83b6eba8a571bc71e0b84e5fb34dd - revert - 59df28044177a24f6e12d6de65c221714599f679
+---> The reverted commit sha is - bcd6ae8d82c83b6eba8a571bc71e0b84e5fb34dd
+Commit message - update docs: explicit cli args are exempt from eslintignore exclusions
+---> The original commit sha is - 59df28044177a24f6e12d6de65c221714599f679
+Commit message - Merge pull request #506 from michaelficarra/GH-505
+
+fixes #505: no-cond-assign should ignore doubly parenthesised tests
+-----------------------------------------------------------------
+
+Revert diff pair 20 is -> 
+{ 8a93f0630ba3b70e115aa0aef15e769588b703d9 -> 31843583a49b1d16a98344f2da8addae61080865 } is a revert
+{ 31843583a49b1d16a98344f2da8addae61080865 -> eec4b760fb70e04708cde16bc249d7ed4e4b51d8 }
+Revert commits SHA are -> 
+31843583a49b1d16a98344f2da8addae61080865 - revert - eec4b760fb70e04708cde16bc249d7ed4e4b51d8
+---> The reverted commit sha is - 31843583a49b1d16a98344f2da8addae61080865
+Commit message - fixes #346: validate strings passed to the RegExp constructor
+---> The original commit sha is - eec4b760fb70e04708cde16bc249d7ed4e4b51d8
+Commit message - Merge pull request #427 from michaelficarra/docs-extensions
+
+change some documentation extensions from js to md
+-----------------------------------------------------------------
+
+Revert diff pair 21 is -> 
+{ 6a38a4152ab04ba80002dc4833c67173e2f63eae -> a71f7fe35a26cc05ed96f0c4a11a3dcc24936f7b } is a revert
+{ a71f7fe35a26cc05ed96f0c4a11a3dcc24936f7b -> abfea5f2686376b43db008d52d2dfadf80cb7c7a }
+Revert commits SHA are -> 
+a71f7fe35a26cc05ed96f0c4a11a3dcc24936f7b - revert - abfea5f2686376b43db008d52d2dfadf80cb7c7a
+---> The reverted commit sha is - a71f7fe35a26cc05ed96f0c4a11a3dcc24936f7b
+Commit message - Add tests to config load order: base, env, user.
+---> The original commit sha is - abfea5f2686376b43db008d52d2dfadf80cb7c7a
+Commit message - Merge pull request #390 from ilyavolodin/Grunt
+
+Removing jake, adding Grunt, Travis now runs grunt (Closes #389)
+-----------------------------------------------------------------
+
+Revert diff pair 22 is -> 
+{ 7b264f1d11b85c423ef4a4306730e60543fc8bb0 -> 1f17e4b346a3732263b4a0aee62e74f9d547cf25 } is a revert
+{ 1f17e4b346a3732263b4a0aee62e74f9d547cf25 -> df27ed7ffd29496b031e425c5fc100395fe9b58f }
+Revert commits SHA are -> 
+1f17e4b346a3732263b4a0aee62e74f9d547cf25 - revert - df27ed7ffd29496b031e425c5fc100395fe9b58f
+---> The reverted commit sha is - 1f17e4b346a3732263b4a0aee62e74f9d547cf25
+Commit message - Merge smart-eqeqeq into eqeqeq
+---> The original commit sha is - df27ed7ffd29496b031e425c5fc100395fe9b58f
+Commit message - Merge pull request #344 from mduvall/no-spaced-func
+
+rule: no-spaced-func disallow spaces between function identifier and app... (Fixes #334)
+-----------------------------------------------------------------
+
+Revert diff pair 23 is -> 
+{ 6016339b5245c5385ca3485abf3119357b525b3b -> 32f3f624ecdd7e28ca531983cba43338ec0c5e2e } is a revert
+{ 32f3f624ecdd7e28ca531983cba43338ec0c5e2e -> a6d19aa4e401ceef8d2e102d02aead5cf3e5b19d }
+Revert commits SHA are -> 
+32f3f624ecdd7e28ca531983cba43338ec0c5e2e - revert - a6d19aa4e401ceef8d2e102d02aead5cf3e5b19d
+---> The reverted commit sha is - 32f3f624ecdd7e28ca531983cba43338ec0c5e2e
+Commit message - Store FunctionDeclarations in scope as they can be used as literals
+---> The original commit sha is - a6d19aa4e401ceef8d2e102d02aead5cf3e5b19d
+Commit message - Fix linting error
+-----------------------------------------------------------------
+
+Revert diff pair 24 is -> 
+{ 9b10c0e4e60272815c68e6a1ba4f9eff2376401c -> c714944f66af9dcf8ccc8b9dd7e3582c7e9d9a76 } is a revert
+{ c714944f66af9dcf8ccc8b9dd7e3582c7e9d9a76 -> 72488b0d074e994085e0a6d8319e35070a24f52f }
+Revert commits SHA are -> 
+c714944f66af9dcf8ccc8b9dd7e3582c7e9d9a76 - revert - 72488b0d074e994085e0a6d8319e35070a24f52f
+---> The reverted commit sha is - c714944f66af9dcf8ccc8b9dd7e3582c7e9d9a76
+Commit message - Rename test for smartereqeqeq.js to smarter-eqeqeq.js
+
+Keeping test file name inline with rule name and rule filename.
+---> The original commit sha is - 72488b0d074e994085e0a6d8319e35070a24f52f
+Commit message - Merge pull request #315 from malandrew/patch-3
+
+Keep test filename inline with rule name
+-----------------------------------------------------------------
+
+Revert diff pair 25 is -> 
+{ 3dbba9025f33c03a9111240f4478f3e59bb155d3 -> 04785de38db8590cda26b111a0c4c80f126ec798 } is a revert
+{ 04785de38db8590cda26b111a0c4c80f126ec798 -> 7c95d007e571675c8122e17d6b285c71d3db4338 }
+Revert commits SHA are -> 
+04785de38db8590cda26b111a0c4c80f126ec798 - revert - 7c95d007e571675c8122e17d6b285c71d3db4338
+---> The reverted commit sha is - 04785de38db8590cda26b111a0c4c80f126ec798
+Commit message - Adding eslint to jake
+---> The original commit sha is - 7c95d007e571675c8122e17d6b285c71d3db4338
+Commit message - Merge pull request #278 from ilyavolodin/no-redeclare
+
+Rule no redeclare (Closes #277)
+-----------------------------------------------------------------
+
+Revert diff pair 26 is -> 
+{ 4b5a3d4404781d86531547044a7a119feb22e273 -> 7d94f2bde23ac40a7b9b1002ec6a768396ab266c } is a revert
+{ 7d94f2bde23ac40a7b9b1002ec6a768396ab266c -> da2ca963a1b95737f928704dd5c7605607f92745 }
+Revert commits SHA are -> 
+7d94f2bde23ac40a7b9b1002ec6a768396ab266c - revert - da2ca963a1b95737f928704dd5c7605607f92745
+---> The reverted commit sha is - 7d94f2bde23ac40a7b9b1002ec6a768396ab266c
+Commit message - Rule no-mixed-requires (fixes #221)
+---> The original commit sha is - da2ca963a1b95737f928704dd5c7605607f92745
+Commit message - Merge pull request #218 from mduvall/no-cond-assign-for-case
+
+bug: Add ForStatement for no-cond-assign check (fixes #217)
+-----------------------------------------------------------------
+
+Revert diff pair 27 is -> 
+{ bf35a4a594c0323699e863f0782c32eab5fd7102 -> 7dd6bab7474d780302a0c4246914388a5d8f0f07 } is a revert
+{ 7dd6bab7474d780302a0c4246914388a5d8f0f07 -> ae8eaa599a66a5f6dbabd9c205009accf3a0c4af }
+Revert commits SHA are -> 
+7dd6bab7474d780302a0c4246914388a5d8f0f07 - revert - ae8eaa599a66a5f6dbabd9c205009accf3a0c4af
+---> The reverted commit sha is - 7dd6bab7474d780302a0c4246914388a5d8f0f07
+Commit message - add back in ability to load rules from a directory
+---> The original commit sha is - ae8eaa599a66a5f6dbabd9c205009accf3a0c4af
+Commit message - Merge pull request #198 from iancmyers/testing-increase-coverage
+
+Increasing rule test coverage
+-----------------------------------------------------------------
+
+Revert diff pair 28 is -> 
+{ e520b28e02dbb7592df6363618b4fd4666b44e40 -> d7cf07e2ec8f8fd83fcb88ba8581f698f32f74fb } is a revert
+{ d7cf07e2ec8f8fd83fcb88ba8581f698f32f74fb -> a44d1ff19eb8bd940aeaf8709ae29ae84cdf218c }
+Revert commits SHA are -> 
+d7cf07e2ec8f8fd83fcb88ba8581f698f32f74fb - revert - a44d1ff19eb8bd940aeaf8709ae29ae84cdf218c
+---> The reverted commit sha is - d7cf07e2ec8f8fd83fcb88ba8581f698f32f74fb
+Commit message - don't force explicit listing of rules; generate listing for bundle
+---> The original commit sha is - a44d1ff19eb8bd940aeaf8709ae29ae84cdf218c
+Commit message - Merge pull request #195 from iancmyers/rule-no-dupe-keys
+
+Rule: no-dupe-keys (Fixes #40 Fixes #44 Fixes #154 Fixes #155)
+-----------------------------------------------------------------
+
+Revert diff pair 29 is -> 
+{ 11a15686564ae62f803953e3215b67122114b44a -> e138e24c1a2e39ac4b4499aa8e2036a2935bfabf } is a revert
+{ e138e24c1a2e39ac4b4499aa8e2036a2935bfabf -> 86d94136d54ec9982d3399e088e7a35677534991 }
+Revert commits SHA are -> 
+e138e24c1a2e39ac4b4499aa8e2036a2935bfabf - revert - 86d94136d54ec9982d3399e088e7a35677534991
+---> The reverted commit sha is - e138e24c1a2e39ac4b4499aa8e2036a2935bfabf
+Commit message - Rebasing on master
+---> The original commit sha is - 86d94136d54ec9982d3399e088e7a35677534991
+Commit message - Removing merge originals
+-----------------------------------------------------------------
+
+Revert diff pair 30 is -> 
+{ 5654e8eef09fd85d3c7a73b7392f209c50a0b241 -> 8d1629a4d51a2c437241857e0aa87a365cdedbbd } is a revert
+{ 8d1629a4d51a2c437241857e0aa87a365cdedbbd -> be2b25f6ba7b48d77f15dcdd8761d6208f8e75dc }
+Revert commits SHA are -> 
+8d1629a4d51a2c437241857e0aa87a365cdedbbd - revert - be2b25f6ba7b48d77f15dcdd8761d6208f8e75dc
+---> The reverted commit sha is - 8d1629a4d51a2c437241857e0aa87a365cdedbbd
+Commit message - Rule to warn on use of Math and JSON as functions
+---> The original commit sha is - be2b25f6ba7b48d77f15dcdd8761d6208f8e75dc
+Commit message - Merge pull request #118 from iancmyers/formatter-checkstyle
+
+Formatter: Checkstyle (fixes #14)
+-----------------------------------------------------------------
+
+Revert diff pair 31 is -> 
+{ 269e67cc01be8dc7841263b41c10e7bdaa632e33 -> 7870a385df017ee24120dd66dcb5adbf9f956429 } is a revert
+{ 7870a385df017ee24120dd66dcb5adbf9f956429 -> d59868a58404ac29cb74c26c55bea72fbf1ce91d }
+Revert commits SHA are -> 
+7870a385df017ee24120dd66dcb5adbf9f956429 - revert - d59868a58404ac29cb74c26c55bea72fbf1ce91d
+---> The reverted commit sha is - 7870a385df017ee24120dd66dcb5adbf9f956429
+Commit message - Fixed CLI output on serial programatic executions
+
+This commit fixes an issue where calling the `execute` function on the CLI multiple times would produce the incorrect output because the results array was not being cleared out between executions.
+---> The original commit sha is - d59868a58404ac29cb74c26c55bea72fbf1ce91d
+Commit message - Merge pull request #105 from goatslacker/rm-maxlen
+
+Removes line length from code style convention docs
+-----------------------------------------------------------------
+
+Revert diff pair 32 is -> 
+{ 51acb47ad71547fed6ecd7bf02e2e354b1ac402a -> d816b8f3faacf955d94d4e9736674286deecaf2f } is a revert
+{ d816b8f3faacf955d94d4e9736674286deecaf2f -> 3022ce29816cef579fe56ccd89cf20517cc97b88 }
+Revert commits SHA are -> 
+d816b8f3faacf955d94d4e9736674286deecaf2f - revert - 3022ce29816cef579fe56ccd89cf20517cc97b88
+---> The reverted commit sha is - d816b8f3faacf955d94d4e9736674286deecaf2f
+Commit message - Adds test and fix for issue #82
+---> The original commit sha is - 3022ce29816cef579fe56ccd89cf20517cc97b88
+Commit message - Merge pull request #71 from Constellation/estraverse-controller
+
+Don't report no-empty warnings when a parent is FunctionExpression / FunctionDeclaration
+-----------------------------------------------------------------
+
+Revert diff pair 33 is -> 
+{ 787b2642f23aa83e6de564734e23eb891e81d4ee -> d3e63f9bf409a58809615a452ba7469631a0caf6 } is a revert
+{ d3e63f9bf409a58809615a452ba7469631a0caf6 -> 77f5f362e87a98fc813e3975ef1b9fe434fa0898 }
+Revert commits SHA are -> 
+d3e63f9bf409a58809615a452ba7469631a0caf6 - revert - 77f5f362e87a98fc813e3975ef1b9fe434fa0898
+---> The reverted commit sha is - d3e63f9bf409a58809615a452ba7469631a0caf6
+Commit message - Renaming no-new-wrappers rule and adding tests
+---> The original commit sha is - 77f5f362e87a98fc813e3975ef1b9fe434fa0898
+Commit message - Merge pull request #55 from nschonni/add-license-url
+
+Add license URL
+-----------------------------------------------------------------
+

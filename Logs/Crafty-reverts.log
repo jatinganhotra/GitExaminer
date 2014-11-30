@@ -1,0 +1,228 @@
+# of reverts = 17
+Revert diff pair 1 is -> 
+{ 4e99a4e5e4704d975a7c0626d4f561aeaa7a0e10 -> 69f98fdeaddd2cc8bb644aedde0989e908966aed } is a revert
+{ 69f98fdeaddd2cc8bb644aedde0989e908966aed -> 8048afb3013e65573b6212eee46b2a3c201126a5 }
+Revert commits SHA are -> 
+69f98fdeaddd2cc8bb644aedde0989e908966aed - revert - 8048afb3013e65573b6212eee46b2a3c201126a5
+---> The reverted commit sha is - 69f98fdeaddd2cc8bb644aedde0989e908966aed
+Commit message - Add sprite example to Crafty.loader
+---> The original commit sha is - 8048afb3013e65573b6212eee46b2a3c201126a5
+Commit message - Merge pull request #749 from mucaho/viewport_streamline
+
+Streamline viewport scale rendering
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 0ad5c872ba1166533f3e4d17872982a4933c1b5b -> cf09928a34eda07755ee006861cf8a8635e24d05 } is a revert
+{ cf09928a34eda07755ee006861cf8a8635e24d05 -> ca1d96d825d4b37013c2b7248eba823bcb0b6d4b }
+Revert commits SHA are -> 
+cf09928a34eda07755ee006861cf8a8635e24d05 - revert - ca1d96d825d4b37013c2b7248eba823bcb0b6d4b
+---> The reverted commit sha is - cf09928a34eda07755ee006861cf8a8635e24d05
+Commit message - Add support for line-height and variant to the Text component
+
+These work using DOM, but not canvas.  The textFont method now covers all the possible parts of the [font declaration.](https://developer.mozilla.org/en-US/docs/Web/CSS/font).
+
+Fixes #494.
+---> The original commit sha is - ca1d96d825d4b37013c2b7248eba823bcb0b6d4b
+Commit message - Merge pull request #648 from starwed/viewport-fixes
+
+Rework the viewport animation functions
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ e48a13511a2f1482993a6cd99dc785933fc64c56 -> ba90c55113ed38d11cb02f80c7f50fcc835bb8ea } is a revert
+{ ba90c55113ed38d11cb02f80c7f50fcc835bb8ea -> e01c2d7b13079507745b0c04bd40906ef7d36a36 }
+Revert commits SHA are -> 
+ba90c55113ed38d11cb02f80c7f50fcc835bb8ea - revert - e01c2d7b13079507745b0c04bd40906ef7d36a36
+---> The reverted commit sha is - ba90c55113ed38d11cb02f80c7f50fcc835bb8ea
+Commit message - sprite components should add 2D automatically
+
+This fixes the gotcha described in the documentation, where
+Crafty.e('flower, 2D, DOM') doesn't work because the 2D component's init
+overwrites the width and height set by the flower (sprite) component.
+---> The original commit sha is - e01c2d7b13079507745b0c04bd40906ef7d36a36
+Commit message - Merge pull request #545 from sbyrnes321/getter
+
+switch from getter to attribute-lookup when calling _calculateMBR() in _attr()
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ 319f0b811c0cf80e36a72ccb7f70597c2da00153 -> fa4ad572db1448e8fc6e4b340bd7ef4e00ac10b1 } is a revert
+{ fa4ad572db1448e8fc6e4b340bd7ef4e00ac10b1 -> 425b11ac5547633174232d672e4d71e1f675fb9e }
+Revert commits SHA are -> 
+fa4ad572db1448e8fc6e4b340bd7ef4e00ac10b1 - revert - 425b11ac5547633174232d672e4d71e1f675fb9e
+---> The reverted commit sha is - fa4ad572db1448e8fc6e4b340bd7ef4e00ac10b1
+Commit message - Fixing a bug in centerOn for non-zero origins
+When the viewport is not already at zero and .centerOn
+is called, it was not correctly centering. The further
+away from the origin the viewport was, the further away
+from the center target it would end up.
+---> The original commit sha is - 425b11ac5547633174232d672e4d71e1f675fb9e
+Commit message - Merge pull request #523 from ericathegreat/non-running-tests
+
+Making other tests run as part of the Grunt task.
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ adb8afb83c129c9047008bc3c8d3171929fff00a -> 17efdc00cb88dfeba7bd6ded1d5e07c78f6be869 } is a revert
+{ 2de9c31ef11ec469f17f2f04ec287cf6d5c473c1 -> 5e47d8439b99b28cd70e92ed19cf526560633697 }
+Revert commits SHA are -> 
+17efdc00cb88dfeba7bd6ded1d5e07c78f6be869 - revert - 5e47d8439b99b28cd70e92ed19cf526560633697
+---> The reverted commit sha is - 17efdc00cb88dfeba7bd6ded1d5e07c78f6be869
+Commit message - Adding Entity Factories.
+
+An Entity Factory allows for the repeatable creation of an Entity.
+---> The original commit sha is - 5e47d8439b99b28cd70e92ed19cf526560633697
+Commit message - Merge pull request #434 from sbyrnes321/no_factory
+
+Remove entity-factory functionality
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ 12f97c333e0bf52aec59aa62fa9c48b09a382372 -> 1c72cb29bccec87d7ad1f4a4c9179dedea42af68 } is a revert
+{ 1c72cb29bccec87d7ad1f4a4c9179dedea42af68 -> 00f7b90e8a24995e9fd0f555584b8241060a06bc }
+Revert commits SHA are -> 
+1c72cb29bccec87d7ad1f4a4c9179dedea42af68 - revert - 00f7b90e8a24995e9fd0f555584b8241060a06bc
+---> The reverted commit sha is - 1c72cb29bccec87d7ad1f4a4c9179dedea42af68
+Commit message - Slight poking at the documentation. Fixed line endings.
+---> The original commit sha is - 00f7b90e8a24995e9fd0f555584b8241060a06bc
+Commit message - Merge pull request #407 from dobnarr/develop
+
+Fix bug in Twoway jumping
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ 0f32eb4dce56ac4141043640a9fa28dc7b55003f -> b177798fe7f65ac9f0766f4ac3606a5ab777e5e7 } is a revert
+{ b177798fe7f65ac9f0766f4ac3606a5ab777e5e7 -> 352ab0b9888228ad1b4aecd7d743c459a15f8d69 }
+Revert commits SHA are -> 
+b177798fe7f65ac9f0766f4ac3606a5ab777e5e7 - revert - 352ab0b9888228ad1b4aecd7d743c459a15f8d69
+---> The reverted commit sha is - b177798fe7f65ac9f0766f4ac3606a5ab777e5e7
+Commit message - Fixed documentetation link
+
+The currently link goes to api/api , resulting in a 404
+---> The original commit sha is - 352ab0b9888228ad1b4aecd7d743c459a15f8d69
+Commit message - Merge pull request #387 from raohmaru/develop
+
+Bugfix for inputs and textareas over the canvas
+-----------------------------------------------------------------
+
+Revert diff pair 8 is -> 
+{ 56c07e894790c8a529aea602ed57b5d1d69c6480 -> 22c5a97f8f096ef7df15a8fb56ea0a546c2e8851 } is a revert
+{ 22c5a97f8f096ef7df15a8fb56ea0a546c2e8851 -> 83247ecb9c556923090565ed2591897659186d45 }
+Revert commits SHA are -> 
+22c5a97f8f096ef7df15a8fb56ea0a546c2e8851 - revert - 83247ecb9c556923090565ed2591897659186d45
+---> The reverted commit sha is - 22c5a97f8f096ef7df15a8fb56ea0a546c2e8851
+Commit message - #374: Remove error-causing new line.
+---> The original commit sha is - 83247ecb9c556923090565ed2591897659186d45
+Commit message - Revert "#374: Remove error-causing new line."
+
+This reverts commit 22c5a97f8f096ef7df15a8fb56ea0a546c2e8851.
+-----------------------------------------------------------------
+
+Revert diff pair 9 is -> 
+{ a087363b8b736ef42b4ba6403236f9a5a397fc68 -> 33b0dfcd89f3924b425f14707f56ef478a7a9919 } is a revert
+{ 33b0dfcd89f3924b425f14707f56ef478a7a9919 -> 88d1b444f1c05d0da9a70f5c31e8323999e325ea }
+Revert commits SHA are -> 
+33b0dfcd89f3924b425f14707f56ef478a7a9919 - revert - 88d1b444f1c05d0da9a70f5c31e8323999e325ea
+---> The reverted commit sha is - 33b0dfcd89f3924b425f14707f56ef478a7a9919
+Commit message - Added check in autoPause handling so that if the game is already paused it doesn't unpause
+---> The original commit sha is - 88d1b444f1c05d0da9a70f5c31e8323999e325ea
+Commit message - changed unPause to unpause
+-----------------------------------------------------------------
+
+Revert diff pair 10 is -> 
+{ baf5fd3bcd5ceee23e4a183098a5e230cad7b106 -> 0f18119e0a9ee3149d932ff9caa239ccc83c7b56 } is a revert
+{ 6f6744b1d89e7fa140063e4ff905922559aadb79 -> 5ff71661b3e0ebc4b5bba4cec0ccd79014b68d4b }
+Revert commits SHA are -> 
+0f18119e0a9ee3149d932ff9caa239ccc83c7b56 - revert - 5ff71661b3e0ebc4b5bba4cec0ccd79014b68d4b
+---> The reverted commit sha is - 0f18119e0a9ee3149d932ff9caa239ccc83c7b56
+Commit message - Fix the startDrag function
+---> The original commit sha is - 5ff71661b3e0ebc4b5bba4cec0ccd79014b68d4b
+Commit message - Merge pull request #316 from DmitryBochkarev/master
+
+typo fix Keyboard example
+-----------------------------------------------------------------
+
+Revert diff pair 11 is -> 
+{ 76881f36f18aa31b8bbca2923d30db511fc6c1db -> ee796c76710f05812a8429954977081c79969371 } is a revert
+{ ee796c76710f05812a8429954977081c79969371 -> cb43fc1f40bb02e5e7a01fcfd35d3ef97052dba6 }
+Revert commits SHA are -> 
+ee796c76710f05812a8429954977081c79969371 - revert - cb43fc1f40bb02e5e7a01fcfd35d3ef97052dba6
+---> The reverted commit sha is - ee796c76710f05812a8429954977081c79969371
+Commit message - 0.4.9
+---> The original commit sha is - cb43fc1f40bb02e5e7a01fcfd35d3ef97052dba6
+Commit message - Merge remote-tracking branch 'upstream/master' into develop
+-----------------------------------------------------------------
+
+Revert diff pair 12 is -> 
+{ 53ca400813d710a08560e90707b9131b3301d149 -> 2f041259505f3be7e55faa8cdd1b2a083300e67f } is a revert
+{ 8b85db1aa17ebfb965f01599e40c6fe452953a7c -> 05801e87e7ea5cbf2e2620d074f82b1256472ebd }
+Revert commits SHA are -> 
+2f041259505f3be7e55faa8cdd1b2a083300e67f - revert - 05801e87e7ea5cbf2e2620d074f82b1256472ebd
+---> The reverted commit sha is - 2f041259505f3be7e55faa8cdd1b2a083300e67f
+Commit message - Merge remote-tracking branch 'upstream/develop' into develop
+---> The original commit sha is - 05801e87e7ea5cbf2e2620d074f82b1256472ebd
+Commit message - Merge branch 'develop' of github.com:louisstow/Crafty into develop
+-----------------------------------------------------------------
+
+Revert diff pair 13 is -> 
+{ 53ca400813d710a08560e90707b9131b3301d149 -> 2f041259505f3be7e55faa8cdd1b2a083300e67f } is a revert
+{ eaedb9ecb274e0fad8116feb27a656cbdf9d6358 -> 72449196275f7af06d962052b3f624181fb161c0 }
+Revert commits SHA are -> 
+2f041259505f3be7e55faa8cdd1b2a083300e67f - revert - 72449196275f7af06d962052b3f624181fb161c0
+---> The reverted commit sha is - 2f041259505f3be7e55faa8cdd1b2a083300e67f
+Commit message - Merge remote-tracking branch 'upstream/develop' into develop
+---> The original commit sha is - 72449196275f7af06d962052b3f624181fb161c0
+Commit message - Merge pull request #206 from pengyu/keyboard_event_dev
+
+Keyboard event docment added
+-----------------------------------------------------------------
+
+Revert diff pair 14 is -> 
+{ 36c12a667380feae37c5ce41d2b832ef06ce8089 -> 3b745844154bdc586242a096027ab949fd417472 } is a revert
+{ 3b745844154bdc586242a096027ab949fd417472 -> b0bb7c64e27cec6753b87e5a3bfd6f33a6a748e8 }
+Revert commits SHA are -> 
+3b745844154bdc586242a096027ab949fd417472 - revert - b0bb7c64e27cec6753b87e5a3bfd6f33a6a748e8
+---> The reverted commit sha is - 3b745844154bdc586242a096027ab949fd417472
+Commit message - minor cosmetic changes
+---> The original commit sha is - b0bb7c64e27cec6753b87e5a3bfd6f33a6a748e8
+Commit message - Merge remote-tracking branch 'upstream/master'
+-----------------------------------------------------------------
+
+Revert diff pair 15 is -> 
+{ 371b24f86be22915dbe71bec16a4213476655f59 -> 97ff9e17bbc0af860ac859cf29264833adb91792 } is a revert
+{ a9b3941cb2212e32072299a062baf39e24fd2507 -> dfe1dbcfcb58b4e3bf7ddfbdcd76484c336ed17d }
+Revert commits SHA are -> 
+97ff9e17bbc0af860ac859cf29264833adb91792 - revert - dfe1dbcfcb58b4e3bf7ddfbdcd76484c336ed17d
+---> The reverted commit sha is - 97ff9e17bbc0af860ac859cf29264833adb91792
+Commit message - Merge remote-tracking branch 'upstream/master'
+---> The original commit sha is - dfe1dbcfcb58b4e3bf7ddfbdcd76484c336ed17d
+Commit message - Merge remote-tracking branch 'upstream/master' into isometric_demo_dev
+-----------------------------------------------------------------
+
+Revert diff pair 16 is -> 
+{ d828a38fbcca28bb4c7bab40c529e5f0cca11029 -> 9c4afa05dd04891ed74a0228ebe5552122d0c8ce } is a revert
+{ 9c4afa05dd04891ed74a0228ebe5552122d0c8ce -> c17130dd958f0f569e4b658a2e7d37eae21f14a0 }
+Revert commits SHA are -> 
+9c4afa05dd04891ed74a0228ebe5552122d0c8ce - revert - c17130dd958f0f569e4b658a2e7d37eae21f14a0
+---> The reverted commit sha is - 9c4afa05dd04891ed74a0228ebe5552122d0c8ce
+Commit message - Added first isometric helpers, like px2pos, pos2px, area, centerAt
+---> The original commit sha is - c17130dd958f0f569e4b658a2e7d37eae21f14a0
+Commit message - Merge remote-tracking branch 'upstream/master'
+-----------------------------------------------------------------
+
+Revert diff pair 17 is -> 
+{ 2cf923543c6576338274a1b9b535ad7e55452566 -> be9cc899ddf860af96a793740e15d41fed47d5b9 } is a revert
+{ be9cc899ddf860af96a793740e15d41fed47d5b9 -> 21dc92c2e790b900b53d2de034034312b6636a57 }
+Revert commits SHA are -> 
+be9cc899ddf860af96a793740e15d41fed47d5b9 - revert - 21dc92c2e790b900b53d2de034034312b6636a57
+---> The reverted commit sha is - be9cc899ddf860af96a793740e15d41fed47d5b9
+Commit message - Merge pull request #105 from berseker59/master
+
+A small bit of code cleaning.
+---> The original commit sha is - 21dc92c2e790b900b53d2de034034312b6636a57
+Commit message - Merge pull request #106 from berseker59/master
+
+Adding support for circle collision + unit test coverage
+-----------------------------------------------------------------
+

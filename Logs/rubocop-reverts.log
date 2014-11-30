@@ -1,0 +1,392 @@
+# of reverts = 27
+Revert diff pair 1 is -> 
+{ e189a2c160a49dc581ebfe4712252cb6bf3022a6 -> 2afaa7d88e09ccb1b35c0479b6de85bd102f3764 } is a revert
+{ 2afaa7d88e09ccb1b35c0479b6de85bd102f3764 -> 29ec3180c678b8a823df6e7f22a86a60c39e3a22 }
+Revert commits SHA are -> 
+2afaa7d88e09ccb1b35c0479b6de85bd102f3764 - revert - 29ec3180c678b8a823df6e7f22a86a60c39e3a22
+---> The reverted commit sha is - 2afaa7d88e09ccb1b35c0479b6de85bd102f3764
+Commit message - [Fix #1459] Handle parentheses around condition in NegatedWhile
+
+In autocorrect, not handling the parentheses produced incorrect
+code. Sematically different and/or syntactically wrong.
+---> The original commit sha is - 29ec3180c678b8a823df6e7f22a86a60c39e3a22
+Commit message - Merge pull request #1463 from jcarbo/empty-lines-around-block-body
+
+Add EmptyLinesAroundBlockBody cop
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ ed8ba9df7816d5863eb6c8aeeab68f2d65408383 -> 70da152cf5ecd81e95f06df3e6c0697582d39075 } is a revert
+{ 70da152cf5ecd81e95f06df3e6c0697582d39075 -> 33b0fc57867dedfade8c2e7ace39f74ca1959404 }
+Revert commits SHA are -> 
+70da152cf5ecd81e95f06df3e6c0697582d39075 - revert - 33b0fc57867dedfade8c2e7ace39f74ca1959404
+---> The reverted commit sha is - 70da152cf5ecd81e95f06df3e6c0697582d39075
+Commit message - Don't allow failures on Rubinius
+---> The original commit sha is - 33b0fc57867dedfade8c2e7ace39f74ca1959404
+Commit message - Revert "Don't allow failures on Rubinius"
+
+This reverts commit 70da152cf5ecd81e95f06df3e6c0697582d39075.
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 0c06c7194c92ab09bd680ce1610bb5f10c0288a6 -> b6b49842c08e323c4649d0ec53e9e6fbfa83df86 } is a revert
+{ ed8ba9df7816d5863eb6c8aeeab68f2d65408383 -> 70da152cf5ecd81e95f06df3e6c0697582d39075 }
+Revert commits SHA are -> 
+b6b49842c08e323c4649d0ec53e9e6fbfa83df86 - revert - 70da152cf5ecd81e95f06df3e6c0697582d39075
+---> The reverted commit sha is - b6b49842c08e323c4649d0ec53e9e6fbfa83df86
+Commit message - Allow Rubinius build failures
+
+Something seems to be wrong with Rubinius over at TravisCI, so
+let's allow failures there for the time being.
+---> The original commit sha is - 70da152cf5ecd81e95f06df3e6c0697582d39075
+Commit message - Don't allow failures on Rubinius
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ 29788c8f54d2bd421489b485ffe030a28f7e6ac5 -> 1fc896fd5f9e2fe79aa71b03feb18f61a1f5ca98 } is a revert
+{ 1fc896fd5f9e2fe79aa71b03feb18f61a1f5ca98 -> a78ab6a33222debcfac60cefb9269cc31a7162d3 }
+Revert commits SHA are -> 
+1fc896fd5f9e2fe79aa71b03feb18f61a1f5ca98 - revert - a78ab6a33222debcfac60cefb9269cc31a7162d3
+---> The reverted commit sha is - 1fc896fd5f9e2fe79aa71b03feb18f61a1f5ca98
+Commit message - Tab cop does auto-correction
+
+Fix #1272
+---> The original commit sha is - a78ab6a33222debcfac60cefb9269cc31a7162d3
+Commit message - Merge pull request #1297 from yous/patch-line-length
+
+Keep line length to 80
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ 71ad28d77749eccbbe52034c7909bdfd8f266a8f -> 9d90af624c9c45777359124e3bd497f75f84f69e } is a revert
+{ 873b308f135ba33e533c82a95a6681ea19acb49d -> 984cc51698143f9b0eb7f91e45e728baee5d3aa3 }
+Revert commits SHA are -> 
+9d90af624c9c45777359124e3bd497f75f84f69e - revert - 984cc51698143f9b0eb7f91e45e728baee5d3aa3
+---> The reverted commit sha is - 9d90af624c9c45777359124e3bd497f75f84f69e
+Commit message - Test against Ruby 1.9.2 on Travis CI
+---> The original commit sha is - 984cc51698143f9b0eb7f91e45e728baee5d3aa3
+Commit message - Revert "Test against Ruby 1.9.2 on Travis CI"
+
+This reverts commit 9d90af624c9c45777359124e3bd497f75f84f69e.
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ 3f155817193a927d1808790b29f7b21e71036b75 -> fcfcfe178cb7579e3a4ede1523c6ee982efcb928 } is a revert
+{ 40a1c7e44efda1b0d893cb38a9996e0ade333e8e -> 596531b76e7c5977c19e6298c7fad9e763825f82 }
+Revert commits SHA are -> 
+fcfcfe178cb7579e3a4ede1523c6ee982efcb928 - revert - 596531b76e7c5977c19e6298c7fad9e763825f82
+---> The reverted commit sha is - fcfcfe178cb7579e3a4ede1523c6ee982efcb928
+Commit message - Revert "Remove Parser fallback code"
+
+This reverts commit b05c98968385c433ca2d87683789f1b27798f367.
+---> The original commit sha is - 596531b76e7c5977c19e6298c7fad9e763825f82
+Commit message - Merge pull request #1150 from jonas054/1141_clarify_trailing_comma
+
+[Fix #1141] Clarify why trailing comma is not allowed
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ 3f155817193a927d1808790b29f7b21e71036b75 -> fcfcfe178cb7579e3a4ede1523c6ee982efcb928 } is a revert
+{ cfc2a31741b0f32d03907d8d9b5169290f7b8f29 -> 5bbcad5aee6ec621c83638ea714289e2e55f406b }
+Revert commits SHA are -> 
+fcfcfe178cb7579e3a4ede1523c6ee982efcb928 - revert - 5bbcad5aee6ec621c83638ea714289e2e55f406b
+---> The reverted commit sha is - fcfcfe178cb7579e3a4ede1523c6ee982efcb928
+Commit message - Revert "Remove Parser fallback code"
+
+This reverts commit b05c98968385c433ca2d87683789f1b27798f367.
+---> The original commit sha is - 5bbcad5aee6ec621c83638ea714289e2e55f406b
+Commit message - Revert "Revert "Remove Parser fallback code""
+
+This reverts commit fcfcfe178cb7579e3a4ede1523c6ee982efcb928.
+-----------------------------------------------------------------
+
+Revert diff pair 8 is -> 
+{ 8bb0e1ead43bf0c39955fade4983248cd27b1965 -> 49ab420a919fb6f3baa31123b367ef7d9ba1cea2 } is a revert
+{ 49ab420a919fb6f3baa31123b367ef7d9ba1cea2 -> 5ae2530d749936e3403638040ce51e32820f2832 }
+Revert commits SHA are -> 
+49ab420a919fb6f3baa31123b367ef7d9ba1cea2 - revert - 5ae2530d749936e3403638040ce51e32820f2832
+---> The reverted commit sha is - 49ab420a919fb6f3baa31123b367ef7d9ba1cea2
+Commit message - [Fixes #1094] Fix bug in ClassAndModuleChildren
+
+ClassAndModuleChildren incorrectly flaged class with a single method
+---> The original commit sha is - 5ae2530d749936e3403638040ce51e32820f2832
+Commit message - Merge pull request #1095 from geniou/rspec_cleanup
+
+Cleanup specs
+-----------------------------------------------------------------
+
+Revert diff pair 9 is -> 
+{ 88d37dddccb4d46c2ad4578e02dc771e8eaf6735 -> b05c98968385c433ca2d87683789f1b27798f367 } is a revert
+{ 3f155817193a927d1808790b29f7b21e71036b75 -> fcfcfe178cb7579e3a4ede1523c6ee982efcb928 }
+Revert commits SHA are -> 
+b05c98968385c433ca2d87683789f1b27798f367 - revert - fcfcfe178cb7579e3a4ede1523c6ee982efcb928
+---> The reverted commit sha is - b05c98968385c433ca2d87683789f1b27798f367
+Commit message - Remove Parser fallback code
+
+Parser 2.1.9 features similar fallback code, so ours is redundant.
+---> The original commit sha is - fcfcfe178cb7579e3a4ede1523c6ee982efcb928
+Commit message - Revert "Remove Parser fallback code"
+
+This reverts commit b05c98968385c433ca2d87683789f1b27798f367.
+-----------------------------------------------------------------
+
+Revert diff pair 10 is -> 
+{ ea9314c005f3e740b08d1984e313c8810c217dfd -> f6b3ba2db70388c6ac1e8fc6a7fc3dacfad82c79 } is a revert
+{ f6b3ba2db70388c6ac1e8fc6a7fc3dacfad82c79 -> 9976114eccc67a9005d8025e89f6d1b6e56e41eb }
+Revert commits SHA are -> 
+f6b3ba2db70388c6ac1e8fc6a7fc3dacfad82c79 - revert - 9976114eccc67a9005d8025e89f6d1b6e56e41eb
+---> The reverted commit sha is - f6b3ba2db70388c6ac1e8fc6a7fc3dacfad82c79
+Commit message - [Refactor] Extract module OptionsHelp from Options
+
+Put all help texts in one place.
+---> The original commit sha is - 9976114eccc67a9005d8025e89f6d1b6e56e41eb
+Commit message - [Refactor] Move methods from ConfigLoader to Config
+
+Takes care of the code smell "Feature Envy" in ConfigLoader and
+makes it smaller. Two birds with one stone.
+-----------------------------------------------------------------
+
+Revert diff pair 11 is -> 
+{ 6b1047ec963e6efaf837c3588a3150bb2e8c59c1 -> ea5c20d0755a92c5b05d45b105d9475e2bd8cd81 } is a revert
+{ ea5c20d0755a92c5b05d45b105d9475e2bd8cd81 -> b8286613f3b820aec64b5a78f1cf80480e17686f }
+Revert commits SHA are -> 
+ea5c20d0755a92c5b05d45b105d9475e2bd8cd81 - revert - b8286613f3b820aec64b5a78f1cf80480e17686f
+---> The reverted commit sha is - ea5c20d0755a92c5b05d45b105d9475e2bd8cd81
+Commit message - [Fix #928] re-word hint on using --config rubocop-todo.yml
+---> The original commit sha is - b8286613f3b820aec64b5a78f1cf80480e17686f
+Commit message - Merge pull request #900 from fshowalter/add_show_cops_disabled_by_comments
+
+add option to show cops disabed by inline comments
+-----------------------------------------------------------------
+
+Revert diff pair 12 is -> 
+{ 7afbc1530a4e35a62d1eaaa77ae74ea4c3585733 -> 00f6890aae8d87bd7d8cbb4059d2780db9ad073d } is a revert
+{ 00f6890aae8d87bd7d8cbb4059d2780db9ad073d -> 03b314466c8ecf0ba1a847629d2897741db7edd1 }
+Revert commits SHA are -> 
+00f6890aae8d87bd7d8cbb4059d2780db9ad073d - revert - 03b314466c8ecf0ba1a847629d2897741db7edd1
+---> The reverted commit sha is - 00f6890aae8d87bd7d8cbb4059d2780db9ad073d
+Commit message - Only remove space in AutocorrectAlignment#autocorrect
+
+There was a bug that would remove other things than space if one of
+the lines in a node with too much indentation was empty or very short.
+
+Also, adding indentation would add trailing whitespace on emtpy lines.
+---> The original commit sha is - 03b314466c8ecf0ba1a847629d2897741db7edd1
+Commit message - Merge pull request #844 from agrimm/offense_offensive
+
+Rerun auto gen config to change offence to offense
+-----------------------------------------------------------------
+
+Revert diff pair 13 is -> 
+{ 5825607332d3e17ec6f410dd4655fda2a13e7b49 -> 657e91110c29c69b29f0db027289f3091651cfac } is a revert
+{ 29630e19f0cf402cd63c440edc453e548c2525e2 -> cbf6a85cc7e7bc20f0a532c9650472243f61f36a }
+Revert commits SHA are -> 
+657e91110c29c69b29f0db027289f3091651cfac - revert - cbf6a85cc7e7bc20f0a532c9650472243f61f36a
+---> The reverted commit sha is - 657e91110c29c69b29f0db027289f3091651cfac
+Commit message - [Fix #647] Workaround for Ruby 2.1
+
+If Parser does not support the current Ruby version we fallback to parser for
+Ruby 2.0.
+---> The original commit sha is - cbf6a85cc7e7bc20f0a532c9650472243f61f36a
+Commit message - Revert "[Fix #647] Workaround for Ruby 2.1"
+
+This reverts commit 657e91110c29c69b29f0db027289f3091651cfac.
+-----------------------------------------------------------------
+
+Revert diff pair 14 is -> 
+{ 0d6ea4dc5454062a33511f3dfd3968b397e7a582 -> 128df4c550a4f718472eac9ffd62d511aafc65c9 } is a revert
+{ 128df4c550a4f718472eac9ffd62d511aafc65c9 -> c68e06ddcebca70e4daa7b11c1d219b2c8933388 }
+Revert commits SHA are -> 
+128df4c550a4f718472eac9ffd62d511aafc65c9 - revert - c68e06ddcebca70e4daa7b11c1d219b2c8933388
+---> The reverted commit sha is - 128df4c550a4f718472eac9ffd62d511aafc65c9
+Commit message - Add configuration parameters for CaseIndentation.
+---> The original commit sha is - c68e06ddcebca70e4daa7b11c1d219b2c8933388
+Commit message - Merge pull request #659 from paulczar/patch-1
+
+how to disable specific cop in .config.yaml
+-----------------------------------------------------------------
+
+Revert diff pair 15 is -> 
+{ 62bc4f4519f29b8be6302b325c1635368119b74e -> cb24b6d7c4896410b226c58beff81351dcde59be } is a revert
+{ cb24b6d7c4896410b226c58beff81351dcde59be -> b4e52532e0cd915bbc26c0dc70ca6a70e5632027 }
+Revert commits SHA are -> 
+cb24b6d7c4896410b226c58beff81351dcde59be - revert - b4e52532e0cd915bbc26c0dc70ca6a70e5632027
+---> The reverted commit sha is - cb24b6d7c4896410b226c58beff81351dcde59be
+Commit message - Don't treat splats as trivial writers
+---> The original commit sha is - b4e52532e0cd915bbc26c0dc70ca6a70e5632027
+Commit message - Merge pull request #570 from nevir/style-fix
+
+Fix for the style breakage on master
+-----------------------------------------------------------------
+
+Revert diff pair 16 is -> 
+{ 3c89cbd5d3c41ead03f890af0adbeb22cdfbfd7e -> 862a19cf3cbbe59686c7ad79a13a15944a5d13e3 } is a revert
+{ 862a19cf3cbbe59686c7ad79a13a15944a5d13e3 -> 53b5d7a35b887c2bbb85217c7df125299728aa73 }
+Revert commits SHA are -> 
+862a19cf3cbbe59686c7ad79a13a15944a5d13e3 - revert - 53b5d7a35b887c2bbb85217c7df125299728aa73
+---> The reverted commit sha is - 862a19cf3cbbe59686c7ad79a13a15944a5d13e3
+Commit message - Add Code Climate badge to README.md
+---> The original commit sha is - 53b5d7a35b887c2bbb85217c7df125299728aa73
+Commit message - Merge pull request #559 from jonas054/change_exclusion
+
+[Fix #557] Don't load configuration files for excluded files.
+-----------------------------------------------------------------
+
+Revert diff pair 17 is -> 
+{ 92a613484ef2e38e10f5636d465e4ac1e431d26f -> 71e4067214f60f917509cd0362d1d60dce37e91e } is a revert
+{ 5c8c6bad3ce625259574d94d96519a16fb83e1e6 -> f7296437ebe9a993de30ceea9e4570dd4eb3d3b0 }
+Revert commits SHA are -> 
+71e4067214f60f917509cd0362d1d60dce37e91e - revert - f7296437ebe9a993de30ceea9e4570dd4eb3d3b0
+---> The reverted commit sha is - 71e4067214f60f917509cd0362d1d60dce37e91e
+Commit message - Mark a spec as broken with Parser 2.0.0.beta6
+
+The spec is broken with Parser 2.0.0.beta6, would be fixed with beta7.
+https://github.com/whitequark/parser/commit/8b066bf
+---> The original commit sha is - f7296437ebe9a993de30ceea9e4570dd4eb3d3b0
+Commit message - Revert "Mark a spec as broken with Parser 2.0.0.beta6"
+
+This reverts commit 71e4067214f60f917509cd0362d1d60dce37e91e.
+-----------------------------------------------------------------
+
+Revert diff pair 18 is -> 
+{ 5e29a4127b477a9179055236e2eaf1922d4b7b9d -> 69ef6d7b3c5a13989db8f05a1e2e0a83714ec80b } is a revert
+{ acd4434bf617cc06a10d6a7256870595ad87d943 -> 58c6415bd392bc4859d18f04a8639799b4e65040 }
+Revert commits SHA are -> 
+69ef6d7b3c5a13989db8f05a1e2e0a83714ec80b - revert - 58c6415bd392bc4859d18f04a8639799b4e65040
+---> The reverted commit sha is - 69ef6d7b3c5a13989db8f05a1e2e0a83714ec80b
+Commit message - Improve performance in StringLiterals.
+---> The original commit sha is - 58c6415bd392bc4859d18f04a8639799b4e65040
+Commit message - Reverting "Improve performance in StringLiterals."
+Revert "Improve performance in StringLiterals."
+
+This reverts commit 69ef6d7b3c5a13989db8f05a1e2e0a83714ec80b.
+-----------------------------------------------------------------
+
+Revert diff pair 19 is -> 
+{ 1ea02be2b23ba57f8dddd4f66b74f992534d8127 -> 25398336579b48c17cd8e812cacf71f7461b668c } is a revert
+{ 1b3e9ce40dd32b9be4daa0973455197e906d40ef -> 46827ae3b0f452c96a8296174746f5cf832e69b8 }
+Revert commits SHA are -> 
+25398336579b48c17cd8e812cacf71f7461b668c - revert - 46827ae3b0f452c96a8296174746f5cf832e69b8
+---> The reverted commit sha is - 25398336579b48c17cd8e812cacf71f7461b668c
+Commit message - Use sensible default configuration
+
+If there is no file/dir specific configuration file present fallback to
+the one bundled with RuboCop. This fixes #126.
+---> The original commit sha is - 46827ae3b0f452c96a8296174746f5cf832e69b8
+Commit message - Revert "Use sensible default configuration"
+
+This reverts commit 25398336579b48c17cd8e812cacf71f7461b668c.
+-----------------------------------------------------------------
+
+Revert diff pair 20 is -> 
+{ f71a2eedb81488769a1ab100808070d63d32b165 -> 1171c20b70d090e1528e7d64e2dfbb9483d60a85 } is a revert
+{ 1171c20b70d090e1528e7d64e2dfbb9483d60a85 -> 3851baa0520ee18f5280f363a3ef5f44585496b0 }
+Revert commits SHA are -> 
+1171c20b70d090e1528e7d64e2dfbb9483d60a85 - revert - 3851baa0520ee18f5280f363a3ef5f44585496b0
+---> The reverted commit sha is - 1171c20b70d090e1528e7d64e2dfbb9483d60a85
+Commit message - Add --only option for running a single cop.
+
+This is very useful for debugging, and probably good for end users
+as well.
+---> The original commit sha is - 3851baa0520ee18f5280f363a3ef5f44585496b0
+Commit message - Merge pull request #142 from jurriaan/small-fixes
+
+replaced if array.find {} with if array.any? {}
+-----------------------------------------------------------------
+
+Revert diff pair 21 is -> 
+{ 1ea02be2b23ba57f8dddd4f66b74f992534d8127 -> 25398336579b48c17cd8e812cacf71f7461b668c } is a revert
+{ 7a27b9ffa32b2aafc403ff75282d714508d240c1 -> 5103c98fb27736d880a5df9b529ac84eac19599a }
+Revert commits SHA are -> 
+25398336579b48c17cd8e812cacf71f7461b668c - revert - 5103c98fb27736d880a5df9b529ac84eac19599a
+---> The reverted commit sha is - 25398336579b48c17cd8e812cacf71f7461b668c
+Commit message - Use sensible default configuration
+
+If there is no file/dir specific configuration file present fallback to
+the one bundled with RuboCop. This fixes #126.
+---> The original commit sha is - 5103c98fb27736d880a5df9b529ac84eac19599a
+Commit message - Revert "Use sensible default configuration"
+
+This reverts commit 25398336579b48c17cd8e812cacf71f7461b668c.
+-----------------------------------------------------------------
+
+Revert diff pair 22 is -> 
+{ 2ded98968ff2e89abf17f06a720d67440b7093f3 -> 1cd2b2aa6eecf301eb98054c98c24dd63220c335 } is a revert
+{ 1cd2b2aa6eecf301eb98054c98c24dd63220c335 -> e28ef3f16b99c514edacc49e98bf45052ce8bf6b }
+Revert commits SHA are -> 
+1cd2b2aa6eecf301eb98054c98c24dd63220c335 - revert - e28ef3f16b99c514edacc49e98bf45052ce8bf6b
+---> The reverted commit sha is - 1cd2b2aa6eecf301eb98054c98c24dd63220c335
+Commit message - fixing #125
+
+fixing #125
+---> The original commit sha is - e28ef3f16b99c514edacc49e98bf45052ce8bf6b
+Commit message - Merge pull request #128 from yujinakayama/refactor-cli
+
+Refactor CLI
+-----------------------------------------------------------------
+
+Revert diff pair 23 is -> 
+{ 6ae2bf5685aec84aa61ee0244512086e25d064b5 -> 874772c33cb406f783935cfe0ed638c65aa853b2 } is a revert
+{ 874772c33cb406f783935cfe0ed638c65aa853b2 -> 0b9333b588825ec831368e0a2346ae2d8c149722 }
+Revert commits SHA are -> 
+874772c33cb406f783935cfe0ed638c65aa853b2 - revert - 0b9333b588825ec831368e0a2346ae2d8c149722
+---> The reverted commit sha is - 874772c33cb406f783935cfe0ed638c65aa853b2
+Commit message - Remove unneeded Report module wrap in CLI spec
+
+Probably remains of copy and paste?
+---> The original commit sha is - 0b9333b588825ec831368e0a2346ae2d8c149722
+Commit message - Merge pull request #122 from zeroed/master
+
+Fixing Nil bug in the TrivialAccessors cop
+-----------------------------------------------------------------
+
+Revert diff pair 24 is -> 
+{ e80c46c372d8cca62ebb2f77d4e677f43acef570 -> 78a5952a4c847e34e35466f284169f008f7f48cc } is a revert
+{ 78a5952a4c847e34e35466f284169f008f7f48cc -> 4ec7440c4f3682e310af3e73c3dda2577e97725f }
+Revert commits SHA are -> 
+78a5952a4c847e34e35466f284169f008f7f48cc - revert - 4ec7440c4f3682e310af3e73c3dda2577e97725f
+---> The reverted commit sha is - 78a5952a4c847e34e35466f284169f008f7f48cc
+Commit message - enhance -d
+---> The original commit sha is - 4ec7440c4f3682e310af3e73c3dda2577e97725f
+Commit message - Merge pull request #81 from bolandrm/refactor_methods_with_many_lines
+
+Method Length Cop - Added option to ingore full line comments
+-----------------------------------------------------------------
+
+Revert diff pair 25 is -> 
+{ 87e5d90ca528c76e8703ed505d2e724f343c2490 -> a3f9049e00299a67b8936c27444835ee6a21cfc7 } is a revert
+{ a3f9049e00299a67b8936c27444835ee6a21cfc7 -> c5ec0a67ef4a79021e6a25b93e87270450d3fa6a }
+Revert commits SHA are -> 
+a3f9049e00299a67b8936c27444835ee6a21cfc7 - revert - c5ec0a67ef4a79021e6a25b93e87270450d3fa6a
+---> The reverted commit sha is - a3f9049e00299a67b8936c27444835ee6a21cfc7
+Commit message - Refactor so rubocop finds no errors on itself
+---> The original commit sha is - c5ec0a67ef4a79021e6a25b93e87270450d3fa6a
+Commit message - Merge pull request #68 from jonas054/config
+
+Support rubocop:disable and rubocop:enable comments.
+-----------------------------------------------------------------
+
+Revert diff pair 26 is -> 
+{ fdb12d93241e47403f275e0ba857224812d220b5 -> 7f6cb3962f0b08a245c96d38475f4aa18ba745ab } is a revert
+{ 7f6cb3962f0b08a245c96d38475f4aa18ba745ab -> 9c252dabdb14855f07b0122f4106c8b715eacd3b }
+Revert commits SHA are -> 
+7f6cb3962f0b08a245c96d38475f4aa18ba745ab - revert - 9c252dabdb14855f07b0122f4106c8b715eacd3b
+---> The reverted commit sha is - 7f6cb3962f0b08a245c96d38475f4aa18ba745ab
+Commit message - Add comments about passing empty array to CLI object in spec examples
+---> The original commit sha is - 9c252dabdb14855f07b0122f4106c8b715eacd3b
+Commit message - Merge pull request #62 from yujinakayama/fix-config-in-ancestor-not-used
+
+Fix config files in ancestor dirs are ignored if another exists in home
+-----------------------------------------------------------------
+
+Revert diff pair 27 is -> 
+{ e43201556560aef25530e3fb263bad2196909f9c -> 6664e0e7f7b8b929b759e5a2ce3ce45f9702767b } is a revert
+{ cc4b0f03551b31bfa18c6439bf217f8fac2c6dbb -> b366e5af1e145966b87d3781192f1271bc99766f }
+Revert commits SHA are -> 
+6664e0e7f7b8b929b759e5a2ce3ce45f9702767b - revert - b366e5af1e145966b87d3781192f1271bc99766f
+---> The reverted commit sha is - 6664e0e7f7b8b929b759e5a2ce3ce45f9702767b
+Commit message - tagged grammar_spec
+---> The original commit sha is - b366e5af1e145966b87d3781192f1271bc99766f
+Commit message - Run an example for all supported Rubies
+-----------------------------------------------------------------
+

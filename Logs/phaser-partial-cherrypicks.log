@@ -1,0 +1,839 @@
+# of partial cherrypicks = 48
+Partial Cherry-pick diff pair 1 is -> 
+{ ac27f12c958699d206032e4e0e0a0826f9b89892 -> 0482684dc864869397031994f7ba7d9f81721763 } is a cherrypick
+{ c0b752e0a67ccfb2e021c6d25aac2e8adddf85f8 -> 7a79a68050fa83755ea01bfa937d4f9b39432491 }
+Partial Cherry-pick commits SHA are -> 
+0482684dc864869397031994f7ba7d9f81721763 - cherrypick - 7a79a68050fa83755ea01bfa937d4f9b39432491
+---> The cherrypicked commit sha is - 0482684dc864869397031994f7ba7d9f81721763
+Commit message - changed all typeof comparisons from == to ===
+---> The original commit sha is - 7a79a68050fa83755ea01bfa937d4f9b39432491
+Commit message - Merge pull request #1230 from bobbywilson0/dev
+
+Changed all typeof comparisons from == to ===
+---> The files with partial_cherrypicks are:-
+src/animation/AnimationManager.js
+src/input/InputHandler.js
+src/sound/Sound.js
+src/utils/Utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ e6812cffa66c838c0b99805a5c9ed58a7841f58d -> c21c0d5515d9df3eb8337f31174b0a2e88d62c46 } is a cherrypick
+{ bc16c7876fb3177f03db61e10f8c73ccce6b2358 -> e6754b0a870b24f95b1eb487d34afc1dc9a0eee6 }
+Partial Cherry-pick commits SHA are -> 
+c21c0d5515d9df3eb8337f31174b0a2e88d62c46 - cherrypick - e6754b0a870b24f95b1eb487d34afc1dc9a0eee6
+---> The cherrypicked commit sha is - c21c0d5515d9df3eb8337f31174b0a2e88d62c46
+Commit message - add url properties to destroy
+---> The original commit sha is - e6754b0a870b24f95b1eb487d34afc1dc9a0eee6
+Commit message - Merge pull request #1221 from englercj/url-cache-map
+
+Add ability to get a cached resource by url
+---> The files with partial_cherrypicks are:-
+src/loader/Cache.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 90c8ec4edf33e90ce45def463a4b13ea14673f99 -> 4d2e60348ffcb70a926c2090a8046e46d3d0bdb4 } is a cherrypick
+{ b00866cee9a33fd4e30f3a7f799eda1139a86ad4 -> 9546fc29593fea20172a9aeb534c663ad3abe993 }
+Partial Cherry-pick commits SHA are -> 
+4d2e60348ffcb70a926c2090a8046e46d3d0bdb4 - cherrypick - 9546fc29593fea20172a9aeb534c663ad3abe993
+---> The cherrypicked commit sha is - 4d2e60348ffcb70a926c2090a8046e46d3d0bdb4
+Commit message - fix camera follow when in a scaled parent
+---> The original commit sha is - 9546fc29593fea20172a9aeb534c663ad3abe993
+Commit message - Merge pull request #1222 from englercj/camera-follow-fix
+
+Fix camera follow when in a scaled parent
+---> The files with partial_cherrypicks are:-
+src/core/Camera.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ 81c0a53ef214a4a8c84093e8b51fe0af92a08121 -> 90c8ec4edf33e90ce45def463a4b13ea14673f99 } is a cherrypick
+{ 498b564f05421d1fe6da40f1cd1edd5f6f53942c -> 108a2a34e3e6bcb94974de6ccb3826559c337780 }
+Partial Cherry-pick commits SHA are -> 
+90c8ec4edf33e90ce45def463a4b13ea14673f99 - cherrypick - 108a2a34e3e6bcb94974de6ccb3826559c337780
+---> The cherrypicked commit sha is - 90c8ec4edf33e90ce45def463a4b13ea14673f99
+Commit message - Minor Typescript Updates
+---> The original commit sha is - 108a2a34e3e6bcb94974de6ccb3826559c337780
+Commit message - Merge pull request #1219 from clark-stevenson/patch-2
+
+Minor Typescript Updates
+---> The files with partial_cherrypicks are:-
+build/phaser.d.ts
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ ec9a8b69034e1cbe5739e5037722460206244425 -> 449e0a130b6d605b651c41c56dc6610f11527531 } is a cherrypick
+{ d72117ab8dfef2cae7ef52cc2ac1d202942741ff -> 3102ad534d106452fcdaae4cc47aadd128ec01ac }
+Partial Cherry-pick commits SHA are -> 
+449e0a130b6d605b651c41c56dc6610f11527531 - cherrypick - 3102ad534d106452fcdaae4cc47aadd128ec01ac
+---> The cherrypicked commit sha is - 449e0a130b6d605b651c41c56dc6610f11527531
+Commit message - implement resize callback
+---> The original commit sha is - 3102ad534d106452fcdaae4cc47aadd128ec01ac
+Commit message - Swapped the order of the Camera.view floor to avoid the 1px jitter effect on the right of maps.
+---> The files with partial_cherrypicks are:-
+src/core/Camera.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 58b14094141689ac2b0e4861052ff7af09f15701 -> 895ab12262e5e68b7607f7d938bf1cc7f5c9eb71 } is a cherrypick
+{ d72117ab8dfef2cae7ef52cc2ac1d202942741ff -> 3102ad534d106452fcdaae4cc47aadd128ec01ac }
+Partial Cherry-pick commits SHA are -> 
+895ab12262e5e68b7607f7d938bf1cc7f5c9eb71 - cherrypick - 3102ad534d106452fcdaae4cc47aadd128ec01ac
+---> The cherrypicked commit sha is - 895ab12262e5e68b7607f7d938bf1cc7f5c9eb71
+Commit message - Merge pull request #1158 from ctmartinez1992/dev
+
+Added support to pass 2 array in Arcade collide and overlap
+---> The original commit sha is - 3102ad534d106452fcdaae4cc47aadd128ec01ac
+Commit message - Swapped the order of the Camera.view floor to avoid the 1px jitter effect on the right of maps.
+---> The files with partial_cherrypicks are:-
+src/core/Camera.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ fdf00b1b4939d0b944f72fa40e7fe4892767c59a -> 06c6b23454a969a7aa3060cc1d29af2b51e78b78 } is a cherrypick
+{ 199016b0a8c66767551604d8123f0dd8a2660bba -> d72117ab8dfef2cae7ef52cc2ac1d202942741ff }
+Partial Cherry-pick commits SHA are -> 
+06c6b23454a969a7aa3060cc1d29af2b51e78b78 - cherrypick - d72117ab8dfef2cae7ef52cc2ac1d202942741ff
+---> The cherrypicked commit sha is - 06c6b23454a969a7aa3060cc1d29af2b51e78b78
+Commit message - moved: Utils.range to Math.numberArray
+---> The original commit sha is - d72117ab8dfef2cae7ef52cc2ac1d202942741ff
+Commit message - Merge pull request #1170 from codevinsky/feature/utils
+
+Phaser.Utils.range: easily create an array that contains a range of numbers.
+---> The files with partial_cherrypicks are:-
+src/math/Math.js
+src/utils/Utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ e6f3bd5da69e2c462aee3fe989a9db976b12086d -> 7af05ca7f362c5ece95197678349d4f86bf56d04 } is a cherrypick
+{ 37ddbf86124b48fccc37a3e6c941f82c4f0c841a -> 62eb127f6ae96d5a46cd8badc8ddf032c4ebf2c0 }
+Partial Cherry-pick commits SHA are -> 
+7af05ca7f362c5ece95197678349d4f86bf56d04 - cherrypick - 62eb127f6ae96d5a46cd8badc8ddf032c4ebf2c0
+---> The cherrypicked commit sha is - 7af05ca7f362c5ece95197678349d4f86bf56d04
+Commit message - Remove space between 'grunt' and '-cli'
+
+The command should be grunt-cli but not grunt -cli.
+---> The original commit sha is - 62eb127f6ae96d5a46cd8badc8ddf032c4ebf2c0
+Commit message - Merge pull request #1156 from darfux/dev
+
+Remove space between 'grunt' and '-cli' in CONTRIBUTING.md#making-changes
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ cccaa304594965c899d6231768ce5e228c470f3a -> fe94d7f00290e7bbc64ec2a5886452f481527fa6 } is a cherrypick
+{ 258e9d264697f1ad8c54fba1bc96138e9ee01f86 -> e5cfa8202acfc555b4900228ac38d45e12791b59 }
+Partial Cherry-pick commits SHA are -> 
+fe94d7f00290e7bbc64ec2a5886452f481527fa6 - cherrypick - e5cfa8202acfc555b4900228ac38d45e12791b59
+---> The cherrypicked commit sha is - fe94d7f00290e7bbc64ec2a5886452f481527fa6
+Commit message - Fixes #1153
+
+Previously the `Phaser.Keyboard` module's `lastKey` property was of type
+`string` in the TypeScript definition file, but it is actually a
+`Phaser.Key` object, so `build/phaser.d.ts` has been updated to reflect
+that.
+---> The original commit sha is - e5cfa8202acfc555b4900228ac38d45e12791b59
+Commit message - Merge pull request #1154 from saikobee/issues/1153
+
+Fixes #1153
+---> The files with partial_cherrypicks are:-
+build/phaser.d.ts
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 46c8fe3a09524b0d3faa099d6993f74a60f8f0f5 -> cccaa304594965c899d6231768ce5e228c470f3a } is a cherrypick
+{ bc71d61734cbfefb8e18c1fa6ce71f4fa372f1bf -> 258e9d264697f1ad8c54fba1bc96138e9ee01f86 }
+Partial Cherry-pick commits SHA are -> 
+cccaa304594965c899d6231768ce5e228c470f3a - cherrypick - 258e9d264697f1ad8c54fba1bc96138e9ee01f86
+---> The cherrypicked commit sha is - cccaa304594965c899d6231768ce5e228c470f3a
+Commit message - CocoonJSApp 'onSuspended' and 'onActivated' events
+
+This PR depends on [#1150] (https://github.com/photonstorm/phaser/pull/1150)!
+
+(I apologize for all the different pull requests in a short time period. I finally got some time to do some development tonight and have been making my way through many of my TODO items.)
+
+This adds support for CocoonJS.App's 'onSuspended' and 'onActivated' events, making it so that the timers and sounds are stopped/started and muted/unmuted when the user swaps an app from the background to the fore or the reverse.
+
+Because neither ['onActivated'] (http://doc.ludei.com/2.0.2/CocoonJS_App/symbols/CocoonJS.App.html#.event:onActivated) nor ['onSuspended'] (http://doc.ludei.com/2.0.2/CocoonJS_App/symbols/CocoonJS.App.html#.event:onSuspended) send an Event object themselves, this patch fakes sending an object by creating one during the function call and giving it a 'type' property for visibilityChange() to check against.
+---> The original commit sha is - 258e9d264697f1ad8c54fba1bc96138e9ee01f86
+Commit message - Merge pull request #1152 from videlais/patch-5
+
+CocoonJSApp 'onSuspended' and 'onActivated' events
+---> The files with partial_cherrypicks are:-
+src/core/Stage.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 3f7f6fac2c65afd997dce506341684e7e2de0864 -> 46c8fe3a09524b0d3faa099d6993f74a60f8f0f5 } is a cherrypick
+{ 5cfb51b656e07930615ec6c6a929ddc306e554d9 -> bc71d61734cbfefb8e18c1fa6ce71f4fa372f1bf }
+Partial Cherry-pick commits SHA are -> 
+46c8fe3a09524b0d3faa099d6993f74a60f8f0f5 - cherrypick - bc71d61734cbfefb8e18c1fa6ce71f4fa372f1bf
+---> The cherrypicked commit sha is - 46c8fe3a09524b0d3faa099d6993f74a60f8f0f5
+Commit message - CocoonJS doesn't support mouse wheel
+
+CocoonJS hasn't implemented the "DOMMouseScroll" and "mousewheel" events.
+---> The original commit sha is - bc71d61734cbfefb8e18c1fa6ce71f4fa372f1bf
+Commit message - Merge pull request #1151 from videlais/patch-4
+
+CocoonJS doesn't support mouse wheel
+---> The files with partial_cherrypicks are:-
+src/input/Mouse.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 4efac73ec6b45634074f1973796b850c37229652 -> c1872356fe42bd7f2c06cbf889245f857d9c97e3 } is a cherrypick
+{ daf7902aa9227ab5f2332d34651c76b314ada913 -> 5cfb51b656e07930615ec6c6a929ddc306e554d9 }
+Partial Cherry-pick commits SHA are -> 
+c1872356fe42bd7f2c06cbf889245f857d9c97e3 - cherrypick - 5cfb51b656e07930615ec6c6a929ddc306e554d9
+---> The cherrypicked commit sha is - c1872356fe42bd7f2c06cbf889245f857d9c97e3
+Commit message - Detect CocoonJS.App
+
+There's a bit of a story behind this, but I'll try to keep it short.
+
+While I've been working on a patch to detect Cordova's 'pause' and 'resume' events for Phaser.Stage's checkVisibilityChange(), I came across this [thread] (http://www.html5gamedevs.com/topic/8834-cocoonjs-pause-game-on-app-switch/) over on the forum. My hope, at the time, was that someone else would come along and write this patch and I could use their work to finish my own code. But, since that hasn't happened yet (and might never), I'm sending in this PR first for the check that establishes a 'game.device.cocoonJSApp' boolean that I plan to use later.
+---> The original commit sha is - 5cfb51b656e07930615ec6c6a929ddc306e554d9
+Commit message - Merge pull request #1150 from videlais/patch-3
+
+Detect CocoonJS.App
+---> The files with partial_cherrypicks are:-
+src/system/Device.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 8ef5c5e0de2e7c95bb7be4f163179904d60833ac -> ffa3f0defff3439564a205e5690a284ea75dec44 } is a cherrypick
+{ 50179d76fb9fe15e7a5c9b14d4dbac83f1107c43 -> 5f675a0902d655fbc6aff0945c13959d765cb6a5 }
+Partial Cherry-pick commits SHA are -> 
+ffa3f0defff3439564a205e5690a284ea75dec44 - cherrypick - 5f675a0902d655fbc6aff0945c13959d765cb6a5
+---> The cherrypicked commit sha is - ffa3f0defff3439564a205e5690a284ea75dec44
+Commit message - change install of grunt-cli to install script
+---> The original commit sha is - 5f675a0902d655fbc6aff0945c13959d765cb6a5
+Commit message - Merge pull request #1132 from englercj/feature-npm-publish
+
+Prepare package for npm publish
+---> The files with partial_cherrypicks are:-
+.npmignore
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 011c0380b7f1ed491f79b5687e05e606f517735c -> 64ae6c6ba7d1c92374483d2b58ad1c2962a6230a } is a cherrypick
+{ ee579c2b0d6cf9fe78c00c334eed02091d1b54e2 -> 50179d76fb9fe15e7a5c9b14d4dbac83f1107c43 }
+Partial Cherry-pick commits SHA are -> 
+64ae6c6ba7d1c92374483d2b58ad1c2962a6230a - cherrypick - 50179d76fb9fe15e7a5c9b14d4dbac83f1107c43
+---> The cherrypicked commit sha is - 64ae6c6ba7d1c92374483d2b58ad1c2962a6230a
+Commit message - "Reuse a single Point object rather than creating a new one each time"
+---> The original commit sha is - 50179d76fb9fe15e7a5c9b14d4dbac83f1107c43
+Commit message - Merge pull request #1015 from Zielak/dev
+
+Phaser.Camera.position for quick access
+---> The files with partial_cherrypicks are:-
+src/core/Camera.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ a7124cb44cd79eb332aaf9f66abc8ee1913d79d5 -> 4183237fb31162842f2ac122a324d0113b8363fc } is a cherrypick
+{ 31f450dd42729b1dfa834a49acf417e226f66769 -> ee579c2b0d6cf9fe78c00c334eed02091d1b54e2 }
+Partial Cherry-pick commits SHA are -> 
+4183237fb31162842f2ac122a324d0113b8363fc - cherrypick - ee579c2b0d6cf9fe78c00c334eed02091d1b54e2
+---> The cherrypicked commit sha is - 4183237fb31162842f2ac122a324d0113b8363fc
+Commit message - Android stock browser check
+
+This is a class-static function of Phaser.Device to check wether we’re
+running on an Android Stock browser. Autors might want to scale down on
+effects and switch to the CANVAS rendering method on those devices.
+Usage: var defaultRenderingMode = Phaser.Device.isAndroidStockBrowser()
+? Phaser.CANVAS : Phaser.AUTO;
+---> The original commit sha is - ee579c2b0d6cf9fe78c00c334eed02091d1b54e2
+Commit message - Merge pull request #989 from lucbloom/android-stock-browser
+
+Android stock browser check
+---> The files with partial_cherrypicks are:-
+src/system/Device.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ 097b35bbc08c4c2b73393035d9b699b169127cc6 -> abdf54858c89a15fbf987b6970252f6217974fe2 } is a cherrypick
+{ f076edcf2eaf5234179b6af770158d73131812cc -> 6a314a60d156fb589e7221fa7f17f1d7b0990af5 }
+Partial Cherry-pick commits SHA are -> 
+abdf54858c89a15fbf987b6970252f6217974fe2 - cherrypick - 6a314a60d156fb589e7221fa7f17f1d7b0990af5
+---> The cherrypicked commit sha is - abdf54858c89a15fbf987b6970252f6217974fe2
+Commit message - Fixed Group.removeBetween's default endIndex bug
+---> The original commit sha is - 6a314a60d156fb589e7221fa7f17f1d7b0990af5
+Commit message - Merge pull request #1142 from darfux/dev
+
+Fixed Group.removeBetween's default endIndex bug
+---> The files with partial_cherrypicks are:-
+src/core/Group.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ be4662815c40d6029573264216fbf9ef259aa637 -> 8ef5c5e0de2e7c95bb7be4f163179904d60833ac } is a cherrypick
+{ cc69a4bf2ce1237dde007f6b39cd659b3b119970 -> e8ca3a8d7b713bed72c2fbdc2f5a7ac3004c101b }
+Partial Cherry-pick commits SHA are -> 
+8ef5c5e0de2e7c95bb7be4f163179904d60833ac - cherrypick - e8ca3a8d7b713bed72c2fbdc2f5a7ac3004c101b
+---> The cherrypicked commit sha is - 8ef5c5e0de2e7c95bb7be4f163179904d60833ac
+Commit message - fixed arguments
+---> The original commit sha is - e8ca3a8d7b713bed72c2fbdc2f5a7ac3004c101b
+Commit message - Merge pull request #1130 from beeglebug/feature/clone-consistency
+
+Improved consistency of clone methods on geometry classes
+---> The files with partial_cherrypicks are:-
+src/geom/Circle.js
+src/geom/Ellipse.js
+src/geom/Line.js
+src/geom/Polygon.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 23f077a4e8f8cce89ab29aa3199144d8a4956c26 -> 14028cafbc658dd9c9d6c4b895f313c79d1c2900 } is a cherrypick
+{ afb094a6eba9d750d1ccaddd71745dde0fa004d6 -> cc69a4bf2ce1237dde007f6b39cd659b3b119970 }
+Partial Cherry-pick commits SHA are -> 
+14028cafbc658dd9c9d6c4b895f313c79d1c2900 - cherrypick - cc69a4bf2ce1237dde007f6b39cd659b3b119970
+---> The cherrypicked commit sha is - 14028cafbc658dd9c9d6c4b895f313c79d1c2900
+Commit message - Game configuration object "renderer" property wrongly assigned to Game.renderer
+---> The original commit sha is - cc69a4bf2ce1237dde007f6b39cd659b3b119970
+Commit message - Merge pull request #1127 from FedeOmoto/dev
+
+Game configuration object "renderer" property wrongly assigned to Game.r...
+---> The files with partial_cherrypicks are:-
+src/core/Game.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ a435191fd0fd1bcfbf427cdd5df9b56dd1b05c6e -> 23f077a4e8f8cce89ab29aa3199144d8a4956c26 } is a cherrypick
+{ cc1c7948f34a3f6ca44f79d4b00943ea4101298d -> afb094a6eba9d750d1ccaddd71745dde0fa004d6 }
+Partial Cherry-pick commits SHA are -> 
+23f077a4e8f8cce89ab29aa3199144d8a4956c26 - cherrypick - afb094a6eba9d750d1ccaddd71745dde0fa004d6
+---> The cherrypicked commit sha is - 23f077a4e8f8cce89ab29aa3199144d8a4956c26
+Commit message - copy tile properties to tiles when parsing map
+---> The original commit sha is - afb094a6eba9d750d1ccaddd71745dde0fa004d6
+Commit message - Merge pull request #1126 from beeglebug/feature/tile-properties
+
+copy tile properties to tiles when parsing map
+---> The files with partial_cherrypicks are:-
+src/tilemap/TilemapParser.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ b25e2bd782e3de887a975b6714ac8a88cef07a81 -> 5e76eb483449831245cc2bb74ec4a47d8d909cfb } is a cherrypick
+{ ccc8369f437ba91e92ec0f0ef1ef60ec338c71f3 -> ec6259558ec26f9fd88ac149b08ab24ec688b95c }
+Partial Cherry-pick commits SHA are -> 
+5e76eb483449831245cc2bb74ec4a47d8d909cfb - cherrypick - ec6259558ec26f9fd88ac149b08ab24ec688b95c
+---> The cherrypicked commit sha is - 5e76eb483449831245cc2bb74ec4a47d8d909cfb
+Commit message - Added support for Tiled object's type field
+---> The original commit sha is - ec6259558ec26f9fd88ac149b08ab24ec688b95c
+Commit message - Merge pull request #1111 from rex64/dev
+
+Added support for Tiled object's type field
+---> The files with partial_cherrypicks are:-
+src/tilemap/TilemapParser.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ 3b69c7ede12fab2486354d1b6c1ee5c908bfc78d -> 79166bb26814e7863083a2679b3ce8ad138fb8e9 } is a cherrypick
+{ b3d08ea53511036680e8ae7e27551180b24930be -> 15378e1d09d7bd62b4160096acecf06f9cdc3a2e }
+Partial Cherry-pick commits SHA are -> 
+79166bb26814e7863083a2679b3ce8ad138fb8e9 - cherrypick - 15378e1d09d7bd62b4160096acecf06f9cdc3a2e
+---> The cherrypicked commit sha is - 79166bb26814e7863083a2679b3ce8ad138fb8e9
+Commit message - Fixed #1078 chromeOS no belongs to desktops
+---> The original commit sha is - 15378e1d09d7bd62b4160096acecf06f9cdc3a2e
+Commit message - Merge pull request #1091 from photonstorm/alvin/dev
+
+Fixed #1078 chromeOS no belongs to desktops
+---> The files with partial_cherrypicks are:-
+src/system/Device.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ b952884d9d13763dc608feb052c62bc3597aeb32 -> a90ab2e59b2e3b2e7cb1dfaff60c5eaf84a4316d } is a cherrypick
+{ 9bbc8ecce3376bd7cafb10a4c31c6c4cd56c8d9a -> acceb692c390822f56da180cbe7a1ddc06e18428 }
+Partial Cherry-pick commits SHA are -> 
+a90ab2e59b2e3b2e7cb1dfaff60c5eaf84a4316d - cherrypick - acceb692c390822f56da180cbe7a1ddc06e18428
+---> The cherrypicked commit sha is - a90ab2e59b2e3b2e7cb1dfaff60c5eaf84a4316d
+Commit message - P2 bounds now collides with everything by default
+---> The original commit sha is - acceb692c390822f56da180cbe7a1ddc06e18428
+Commit message - Merge pull request #1071 from Dumtard/dev
+
+Fix for previous PR #1028
+---> The files with partial_cherrypicks are:-
+src/physics/Physics.js
+src/physics/arcade/World.js
+src/physics/ninja/World.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ ccd4b502d792f592724d4a165b57f6caae50d583 -> 643a46a57fbca7f4f858444eef272f052d3e4a45 } is a cherrypick
+{ a6bc859246ca6cab7cd9fd06a8055a99fb6ab8e0 -> 769822e6da3ce1403e2f8e6a9af7dc888ccef3db }
+Partial Cherry-pick commits SHA are -> 
+643a46a57fbca7f4f858444eef272f052d3e4a45 - cherrypick - 769822e6da3ce1403e2f8e6a9af7dc888ccef3db
+---> The cherrypicked commit sha is - 643a46a57fbca7f4f858444eef272f052d3e4a45
+Commit message - Update phaser.d.ts
+---> The original commit sha is - 769822e6da3ce1403e2f8e6a9af7dc888ccef3db
+Commit message - Merge branch 'dev' of https://github.com/photonstorm/phaser into dev
+---> The files with partial_cherrypicks are:-
+build/phaser.d.ts
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ 2be45e93ae61b43393b63008e94a98b3f39d8747 -> 4a632ed3a0d18eb7f93ec389928852c8d32161e1 } is a cherrypick
+{ 94978a62d85de87181137a42a7c323ed3a3a8bee -> d8c755a5444cf4ce09e743703f2746a163dfb85e }
+Partial Cherry-pick commits SHA are -> 
+4a632ed3a0d18eb7f93ec389928852c8d32161e1 - cherrypick - d8c755a5444cf4ce09e743703f2746a163dfb85e
+---> The cherrypicked commit sha is - 4a632ed3a0d18eb7f93ec389928852c8d32161e1
+Commit message - codePaused should be set if manually called
+
+If pause is called manually, codePaused should be set regardless of whether the game is currently paused or not. This would fix issues where a developer might not want the game to automatically resume when the screen regains focus.
+---> The original commit sha is - d8c755a5444cf4ce09e743703f2746a163dfb85e
+Commit message - Merge pull request #1017 from devinb83/dev-codepaused
+
+codePaused should be set if manually called
+---> The files with partial_cherrypicks are:-
+src/core/Game.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ 643a46a57fbca7f4f858444eef272f052d3e4a45 -> ba62326ce749a1a351d4c6a414fc3ebfcd25f579 } is a cherrypick
+{ f9a6d1f376a03eb5c592b10870c8f189de36cf94 -> 491d7c2eecb67a9b5e946545bed8ac05d3e9e298 }
+Partial Cherry-pick commits SHA are -> 
+ba62326ce749a1a351d4c6a414fc3ebfcd25f579 - cherrypick - 491d7c2eecb67a9b5e946545bed8ac05d3e9e298
+---> The cherrypicked commit sha is - ba62326ce749a1a351d4c6a414fc3ebfcd25f579
+Commit message - OritentationSprite fix, not using PIXI.TextureCache anymore
+---> The original commit sha is - 491d7c2eecb67a9b5e946545bed8ac05d3e9e298
+Commit message - Merge pull request #1036 from DarkDev-/dev
+
+OritentationSprite fix, not using PIXI.TextureCache anymore
+---> The files with partial_cherrypicks are:-
+src/core/ScaleManager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 64000dfcb62eabee1a9cf4df2ac47762c0c7a42c -> f1cb146c10283c48493394768653828b638c94c4 } is a cherrypick
+{ 74ee0548c42f97bf3715d8469d7a173b94c85ffb -> 011c0380b7f1ed491f79b5687e05e606f517735c }
+Partial Cherry-pick commits SHA are -> 
+f1cb146c10283c48493394768653828b638c94c4 - cherrypick - 011c0380b7f1ed491f79b5687e05e606f517735c
+---> The cherrypicked commit sha is - f1cb146c10283c48493394768653828b638c94c4
+Commit message - Add a check around an optional function
+
+My game crashes here if I update phaser.js to a new version. It happens
+when my game switches to another State object.
+---> The original commit sha is - 011c0380b7f1ed491f79b5687e05e606f517735c
+Commit message - Merge pull request #1027 from codevinsky/editor-config
+
+added: .editorconfig file to help with jshint issues
+---> The files with partial_cherrypicks are:-
+src/core/StateManager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ 64000dfcb62eabee1a9cf4df2ac47762c0c7a42c -> f1cb146c10283c48493394768653828b638c94c4 } is a cherrypick
+{ 615d1b65261733d0c75909f89325adb33459397d -> afb379f2dddb9d73a5c7daa5842c0539be4d180d }
+Partial Cherry-pick commits SHA are -> 
+f1cb146c10283c48493394768653828b638c94c4 - cherrypick - afb379f2dddb9d73a5c7daa5842c0539be4d180d
+---> The cherrypicked commit sha is - f1cb146c10283c48493394768653828b638c94c4
+Commit message - Add a check around an optional function
+
+My game crashes here if I update phaser.js to a new version. It happens
+when my game switches to another State object.
+---> The original commit sha is - afb379f2dddb9d73a5c7daa5842c0539be4d180d
+Commit message - Merge pull request #1024 from lucbloom/if-onShutDownCallback
+
+Add a check around this optional function
+---> The files with partial_cherrypicks are:-
+src/core/StateManager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ f1cb146c10283c48493394768653828b638c94c4 -> 5328069329585ab2f5fa70c5f6a2c3067029fa55 } is a cherrypick
+{ 538425193aed3b00203754848d2f221bae6fdd68 -> 053f862b6bc842ed6b166bb8b44ea2e604f2a993 }
+Partial Cherry-pick commits SHA are -> 
+5328069329585ab2f5fa70c5f6a2c3067029fa55 - cherrypick - 053f862b6bc842ed6b166bb8b44ea2e604f2a993
+---> The cherrypicked commit sha is - 5328069329585ab2f5fa70c5f6a2c3067029fa55
+Commit message - Removed obsolete code in setTexture
+
+This code has no side-effects besides assigning “textureChange”, which
+is used nor reset anywhere else.
+---> The original commit sha is - 053f862b6bc842ed6b166bb8b44ea2e604f2a993
+Commit message - Merge pull request #1023 from lucbloom/sprite-textureChange-obsolete
+
+Removed obsolete code in setTexture
+---> The files with partial_cherrypicks are:-
+src/pixi/display/Sprite.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ aad74ff4d599ece461cefc689bcdee20a490ecd9 -> ee1df55d84cdea33bf2910050b73532036fa2075 } is a cherrypick
+{ 7107d73188c4cfe245cadce808e25f81bfbaa6dc -> 852054b7725df3ddbb8944450eaff5194dfb0369 }
+Partial Cherry-pick commits SHA are -> 
+ee1df55d84cdea33bf2910050b73532036fa2075 - cherrypick - 852054b7725df3ddbb8944450eaff5194dfb0369
+---> The cherrypicked commit sha is - ee1df55d84cdea33bf2910050b73532036fa2075
+Commit message - Added position Point object for quick x/y coordinates access.
+---> The original commit sha is - 852054b7725df3ddbb8944450eaff5194dfb0369
+Commit message - Plus validation of non-point objects
+---> The files with partial_cherrypicks are:-
+src/core/Camera.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ 78771d875b60ea72e90b5c0bc3ae05fab97f8fca -> fcc23ef5d29e2cea6b061afc9b7d72f6ce299fca } is a cherrypick
+{ fe960b79d7b28c2311eb3eb10899cddb42d24c9a -> 92815d89652eade08c5eeac8e752faf84db0006c }
+Partial Cherry-pick commits SHA are -> 
+fcc23ef5d29e2cea6b061afc9b7d72f6ce299fca - cherrypick - 92815d89652eade08c5eeac8e752faf84db0006c
+---> The cherrypicked commit sha is - fcc23ef5d29e2cea6b061afc9b7d72f6ce299fca
+Commit message - fixed onPackComplete Signal
+---> The original commit sha is - 92815d89652eade08c5eeac8e752faf84db0006c
+Commit message - Merge pull request #1007 from mjeffery/dev
+
+Added missing onPackComplete Signal
+---> The files with partial_cherrypicks are:-
+src/loader/Loader.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ 4b45d488bc533a4a9b6ae726cb74447545472c1c -> 26fb6cb866ed9927784b9b91fcc76ae067c6a268 } is a cherrypick
+{ 9e9cf1ab23d15df830fc7c42aa87f1de165b343b -> aa8384a7385c7c95178543c1a91b73b2073a47fd }
+Partial Cherry-pick commits SHA are -> 
+26fb6cb866ed9927784b9b91fcc76ae067c6a268 - cherrypick - aa8384a7385c7c95178543c1a91b73b2073a47fd
+---> The cherrypicked commit sha is - 26fb6cb866ed9927784b9b91fcc76ae067c6a268
+Commit message - Temporary fix for #997
+---> The original commit sha is - aa8384a7385c7c95178543c1a91b73b2073a47fd
+Commit message - Temporary fix for #997
+---> The files with partial_cherrypicks are:-
+src/gameobjects/Button.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ 4b45d488bc533a4a9b6ae726cb74447545472c1c -> 26fb6cb866ed9927784b9b91fcc76ae067c6a268 } is a cherrypick
+{ 2bf1ee305cf5ea6468f10a2c078ca9f048741871 -> ef76d9bd6c7f0f76c6ed356bb99d8064fca3572a }
+Partial Cherry-pick commits SHA are -> 
+26fb6cb866ed9927784b9b91fcc76ae067c6a268 - cherrypick - ef76d9bd6c7f0f76c6ed356bb99d8064fca3572a
+---> The cherrypicked commit sha is - 26fb6cb866ed9927784b9b91fcc76ae067c6a268
+Commit message - Temporary fix for #997
+---> The original commit sha is - ef76d9bd6c7f0f76c6ed356bb99d8064fca3572a
+Commit message - Temporary fix for #997
+---> The files with partial_cherrypicks are:-
+src/gameobjects/Button.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ 4183237fb31162842f2ac122a324d0113b8363fc -> 3f5bde89fcd8bcf31f22ec96cb3d08f96705fb1f } is a cherrypick
+{ 0d0a16ee2cb457066ebcd2bac36e88f7a492afd1 -> 435fab5205a1aa9fdf23118c0f5c0e494f0ba008 }
+Partial Cherry-pick commits SHA are -> 
+3f5bde89fcd8bcf31f22ec96cb3d08f96705fb1f - cherrypick - 435fab5205a1aa9fdf23118c0f5c0e494f0ba008
+---> The cherrypicked commit sha is - 3f5bde89fcd8bcf31f22ec96cb3d08f96705fb1f
+Commit message - Warn about missing textures
+
+And show the key that the author was trying to use. It can be very
+helpful for debugging which image a sprite was trying to load exactly.
+---> The original commit sha is - 435fab5205a1aa9fdf23118c0f5c0e494f0ba008
+Commit message - Merge pull request #990 from lucbloom/warn-texture-not-found
+
+Warn about missing textures and show the key that the author was trying to use.
+---> The files with partial_cherrypicks are:-
+src/gameobjects/Image.js
+src/gameobjects/Sprite.js
+src/gameobjects/TileSprite.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ f6f70d35a4a06bff31f9a834056f7b53ef75243a -> 7031d9ccc104f73d78c343df4738ef72df1e3309 } is a cherrypick
+{ f3e61fcff90e68ef9de1903ec6c87b2951c61437 -> 65a7e1b762906ce4bfdfcadf3131766a812a208c }
+Partial Cherry-pick commits SHA are -> 
+7031d9ccc104f73d78c343df4738ef72df1e3309 - cherrypick - 65a7e1b762906ce4bfdfcadf3131766a812a208c
+---> The cherrypicked commit sha is - 7031d9ccc104f73d78c343df4738ef72df1e3309
+Commit message - Fixed typo
+---> The original commit sha is - 65a7e1b762906ce4bfdfcadf3131766a812a208c
+Commit message - Merge pull request #978 from alvinsight/dev
+
+Added game.add.plugin
+---> The files with partial_cherrypicks are:-
+src/core/PluginManager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ 0694dab909069be4df999c66de6265834031f7d7 -> 79f550bc893b8b3c73871c50f8ad28af01fbad17 } is a cherrypick
+{ d0b756b0db211c713b7cbf9f2d6b4560680f5008 -> 6ce183189f2674afdf2c48321a76f00fef3f8ae4 }
+Partial Cherry-pick commits SHA are -> 
+79f550bc893b8b3c73871c50f8ad28af01fbad17 - cherrypick - 6ce183189f2674afdf2c48321a76f00fef3f8ae4
+---> The cherrypicked commit sha is - 79f550bc893b8b3c73871c50f8ad28af01fbad17
+Commit message - updating comments: default color and method name
+---> The original commit sha is - 6ce183189f2674afdf2c48321a76f00fef3f8ae4
+Commit message - Merge pull request #971 from psalaets/issue-970
+
+reorder param list of Phaser.Physics.Arcade.Body.render
+---> The files with partial_cherrypicks are:-
+src/utils/Debug.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ cbf0a9011a6aa5114a22d5970401a232f689897f -> d14cd0bbbbd3eaca79afa39e16bb60865535ab23 } is a cherrypick
+{ e9886ad84d0becaefbc7035cda76e6f3c64cb059 -> d0b756b0db211c713b7cbf9f2d6b4560680f5008 }
+Partial Cherry-pick commits SHA are -> 
+d14cd0bbbbd3eaca79afa39e16bb60865535ab23 - cherrypick - d0b756b0db211c713b7cbf9f2d6b4560680f5008
+---> The cherrypicked commit sha is - d14cd0bbbbd3eaca79afa39e16bb60865535ab23
+Commit message - link to phaser forum at first mention
+---> The original commit sha is - d0b756b0db211c713b7cbf9f2d6b4560680f5008
+Commit message - Merge pull request #973 from psalaets/contributing-tweak
+
+link to phaser forum at first mention
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ b9791cea93f711122be9a0c20c36e4a19286a1db -> 05ce6f60a1f1a8d949103d63a151be337d33d35a } is a cherrypick
+{ d00a298908e4cedf6e2571221551d976bc9d8d90 -> a12708079462a66bcb3e6e3d6d885fb773bffc41 }
+Partial Cherry-pick commits SHA are -> 
+05ce6f60a1f1a8d949103d63a151be337d33d35a - cherrypick - a12708079462a66bcb3e6e3d6d885fb773bffc41
+---> The cherrypicked commit sha is - 05ce6f60a1f1a8d949103d63a151be337d33d35a
+Commit message - TileMap update performance
+
+
+
+Discussion: http://www.html5gamedevs.com/topic/7409-tilemaps-changing/
+
+It should remove the problem of updating stuff in a 100x100 tilemap making the engine recalculate every single update.(390 tiles changed in that map makes it a 100x100x390 loop.
+Whould make the recalculate parameter in the setCollision functions unnecessary as well.
+---> The original commit sha is - a12708079462a66bcb3e6e3d6d885fb773bffc41
+Commit message - Merge pull request #951 from sivael/dev
+
+TileMap update performance
+---> The files with partial_cherrypicks are:-
+src/tilemap/Tilemap.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ 3ebb13c4b0ef32d5367f56b2f228bf8dc6712ec8 -> 5c1a6958b500bf066d9df4cf9ac17dfa8e82ba10 } is a cherrypick
+{ dd11e2a5a915b585d9e67228f1e302048f0e261b -> d00a298908e4cedf6e2571221551d976bc9d8d90 }
+Partial Cherry-pick commits SHA are -> 
+5c1a6958b500bf066d9df4cf9ac17dfa8e82ba10 - cherrypick - d00a298908e4cedf6e2571221551d976bc9d8d90
+---> The cherrypicked commit sha is - 5c1a6958b500bf066d9df4cf9ac17dfa8e82ba10
+Commit message - Adding a Phaser version of the PixelateFilter
+
+A Phaser version of the PixelateFilter contained in the Pixi repository.
+---> The original commit sha is - d00a298908e4cedf6e2571221551d976bc9d8d90
+Commit message - Merge pull request #939 from paperkettle/master
+
+Adding a Phaser version of the PixelateFilter
+---> The files with partial_cherrypicks are:-
+filters/Pixelate.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ 3a70e76e235c0b808084f9712559eb778c7121b2 -> 149016093c7a2fd5a99d2c93615ee600c3e72786 } is a cherrypick
+{ a425470f41f4eb6c98bf5cda929c1dc57a98bcc7 -> de270908de0184fbd0b100121bff1853e6d451da }
+Partial Cherry-pick commits SHA are -> 
+149016093c7a2fd5a99d2c93615ee600c3e72786 - cherrypick - de270908de0184fbd0b100121bff1853e6d451da
+---> The cherrypicked commit sha is - 149016093c7a2fd5a99d2c93615ee600c3e72786
+Commit message - Fix rawpad button array to support win and linux
+
+On Linux, rawpad button array doesn't get populated with GamepadButton objects, so I made a check to verify if it is an object or a number, then pass the correct value to appropriate function.
+
+Also, uncommented the axischange lines.
+---> The original commit sha is - de270908de0184fbd0b100121bff1853e6d451da
+Commit message - Merge pull request #958 from renatodarrigo/patch-2
+
+Fix rawpad button array to support win and linux
+---> The files with partial_cherrypicks are:-
+src/input/SinglePad.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ e74cedf73e8cc78528e791a5a0529a38dd1bf30b -> 5ef814332254bbdb9c4b278d2f857d282e5a8b6b } is a cherrypick
+{ ba29d5bd4b325b432637877ce0f08925ea1bc2ad -> e1bc2b7bd61754e816e33659c3943030e6ddb2ed }
+Partial Cherry-pick commits SHA are -> 
+5ef814332254bbdb9c4b278d2f857d282e5a8b6b - cherrypick - e1bc2b7bd61754e816e33659c3943030e6ddb2ed
+---> The cherrypicked commit sha is - 5ef814332254bbdb9c4b278d2f857d282e5a8b6b
+Commit message - Fixes bug #906
+---> The original commit sha is - e1bc2b7bd61754e816e33659c3943030e6ddb2ed
+Commit message - Merge pull request #912 from j0hnskot/onDecoded-patch
+
+Fix for bug #906
+---> The files with partial_cherrypicks are:-
+src/sound/Sound.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ cb0d9c5a69d9e737ca2eeff94d25b7287a167eb0 -> 50f91eae54d34b71e435b855fddfba371ad0b9ef } is a cherrypick
+{ 117aef650b0aae76059d8296070c6ceeda5eca15 -> ba29d5bd4b325b432637877ce0f08925ea1bc2ad }
+Partial Cherry-pick commits SHA are -> 
+50f91eae54d34b71e435b855fddfba371ad0b9ef - cherrypick - ba29d5bd4b325b432637877ce0f08925ea1bc2ad
+---> The cherrypicked commit sha is - 50f91eae54d34b71e435b855fddfba371ad0b9ef
+Commit message - Shape changed not called on removeShape
+
+It looks like a bunch of these methods that modify the body don't call shapeChanged(). If you want I can add them all and resubmit.
+---> The original commit sha is - ba29d5bd4b325b432637877ce0f08925ea1bc2ad
+Commit message - Merge pull request #910 from TatumCreative/dev
+
+Fix null returns for play()
+---> The files with partial_cherrypicks are:-
+src/animation/AnimationManager.js
+src/physics/p2/Body.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ a0a7c02da3bb219edaa1901fbac3cf84d23e3c2e -> 961d25cadc0d0d4bc439ab5ae8c2bf2b0f1736c4 } is a cherrypick
+{ 2fb92177766bd355628eae5c178c7da7b1739344 -> 117aef650b0aae76059d8296070c6ceeda5eca15 }
+Partial Cherry-pick commits SHA are -> 
+961d25cadc0d0d4bc439ab5ae8c2bf2b0f1736c4 - cherrypick - 117aef650b0aae76059d8296070c6ceeda5eca15
+---> The cherrypicked commit sha is - 961d25cadc0d0d4bc439ab5ae8c2bf2b0f1736c4
+Commit message - createCollisionGroup -> public, included in .d.ts file
+---> The original commit sha is - 117aef650b0aae76059d8296070c6ceeda5eca15
+Commit message - Merge pull request #956 from Phaiax/phaserdts-createcollisiongroup
+
+createCollisionGroup -> public, included in .d.ts file
+---> The files with partial_cherrypicks are:-
+src/physics/p2/World.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ 394e70db060b12d5c5bcb3e91ab6ef0a86855195 -> e940f81b85d2afe4fbdd32d48e133da54373ab67 } is a cherrypick
+{ 2fb92177766bd355628eae5c178c7da7b1739344 -> 117aef650b0aae76059d8296070c6ceeda5eca15 }
+Partial Cherry-pick commits SHA are -> 
+e940f81b85d2afe4fbdd32d48e133da54373ab67 - cherrypick - 117aef650b0aae76059d8296070c6ceeda5eca15
+---> The cherrypicked commit sha is - e940f81b85d2afe4fbdd32d48e133da54373ab67
+Commit message - Update phaser.d.ts: fix my fix: createCollisionGroup
+---> The original commit sha is - 117aef650b0aae76059d8296070c6ceeda5eca15
+Commit message - Merge pull request #956 from Phaiax/phaserdts-createcollisiongroup
+
+createCollisionGroup -> public, included in .d.ts file
+---> The files with partial_cherrypicks are:-
+src/physics/p2/World.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ b14aff5844e7aec0cb83527026c6a06d4b6926b9 -> 18229d16733cdaa73f1d6656b2af596a4cd8b1d7 } is a cherrypick
+{ 3c191e4ceac858dd7fdf9576f1490f37ce62edcc -> 1a0ebe6d26796bf88dd43c2aef690b086e31fff3 }
+Partial Cherry-pick commits SHA are -> 
+18229d16733cdaa73f1d6656b2af596a4cd8b1d7 - cherrypick - 1a0ebe6d26796bf88dd43c2aef690b086e31fff3
+---> The cherrypicked commit sha is - 18229d16733cdaa73f1d6656b2af596a4cd8b1d7
+Commit message - fix jshint warning
+---> The original commit sha is - 1a0ebe6d26796bf88dd43c2aef690b086e31fff3
+Commit message - Merge pull request #954 from Phaiax/issue953-bodydebug
+
+inverting debug getter result
+---> The files with partial_cherrypicks are:-
+src/physics/p2/Body.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ a863482439ac40384a67dad53e73b0d4f9f908d2 -> b14aff5844e7aec0cb83527026c6a06d4b6926b9 } is a cherrypick
+{ 7fa3110c0693aef36d23cab1a25e851ef52c2081 -> 3cbda52ca5f22d0bc2ba02e61149767a4db23af6 }
+Partial Cherry-pick commits SHA are -> 
+b14aff5844e7aec0cb83527026c6a06d4b6926b9 - cherrypick - 3cbda52ca5f22d0bc2ba02e61149767a4db23af6
+---> The cherrypicked commit sha is - b14aff5844e7aec0cb83527026c6a06d4b6926b9
+Commit message - Return type of Phaser.Color.packPixel changed
+---> The original commit sha is - 3cbda52ca5f22d0bc2ba02e61149767a4db23af6
+Commit message - Merge pull request #960 from Phaiax/replaceRGBissue
+
+replaceColor fix
+---> The files with partial_cherrypicks are:-
+src/utils/Color.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ 3d80568e4c276e6d5e6a51d8e84660fae7fc9ff6 -> 00bf349ff5a5181add4ebb4b37731dc62895f668 } is a cherrypick
+{ 8c11ec1037ade44b7f263862926d2b6362f0aa32 -> 7fa3110c0693aef36d23cab1a25e851ef52c2081 }
+Partial Cherry-pick commits SHA are -> 
+00bf349ff5a5181add4ebb4b37731dc62895f668 - cherrypick - 7fa3110c0693aef36d23cab1a25e851ef52c2081
+---> The cherrypicked commit sha is - 00bf349ff5a5181add4ebb4b37731dc62895f668
+Commit message - Body.enable only exists in Arcade physics, so move conditions concerning this into arcarde
+---> The original commit sha is - 7fa3110c0693aef36d23cab1a25e851ef52c2081
+Commit message - Merge pull request #961 from Phaiax/issue-bodyEnable
+
+Body.enable only exists in Arcade physics, so move conditions concerning...
+---> The files with partial_cherrypicks are:-
+src/gameobjects/Sprite.js
+src/gameobjects/TileSprite.js
+src/physics/arcade/Body.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ 5c1a6958b500bf066d9df4cf9ac17dfa8e82ba10 -> 9e2ca08722ed3ddfc719ffa9732d9ca0612b0d81 } is a cherrypick
+{ 4b7698d3e10e31507b7c0841102544495be57a29 -> 56d1cef1c8ba5e616d6b798da5112bbdcd9ccad3 }
+Partial Cherry-pick commits SHA are -> 
+9e2ca08722ed3ddfc719ffa9732d9ca0612b0d81 - cherrypick - 56d1cef1c8ba5e616d6b798da5112bbdcd9ccad3
+---> The cherrypicked commit sha is - 9e2ca08722ed3ddfc719ffa9732d9ca0612b0d81
+Commit message - Added factorial and changed interpolation docs
+---> The original commit sha is - 56d1cef1c8ba5e616d6b798da5112bbdcd9ccad3
+Commit message - Merge pull request #941 from kay-is/master
+
+Changed a @method string
+---> The files with partial_cherrypicks are:-
+CHANGELOG.md
+README.md
+bower.json
+build/custom/ninja.min.js
+build/custom/p2.min.js
+build/custom/phaser-arcade-physics.js
+build/custom/phaser-arcade-physics.min.js
+build/custom/phaser-no-libs.js
+build/custom/phaser-no-libs.min.js
+build/custom/pixi.min.js
+build/phaser.d.ts
+build/phaser.js
+build/phaser.map
+build/phaser.min.js
+docgen/gen.php
+package.json
+src/Phaser.js
+src/animation/Animation.js
+src/animation/AnimationManager.js
+src/animation/AnimationParser.js
+src/animation/Frame.js
+src/core/Game.js
+src/core/Group.js
+src/core/ScaleManager.js
+src/core/Stage.js
+src/core/StateManager.js
+src/gameobjects/BitmapData.js
+src/gameobjects/Image.js
+src/gameobjects/RenderTexture.js
+src/gameobjects/RetroFont.js
+src/gameobjects/Sprite.js
+src/gameobjects/TileSprite.js
+src/geom/Line.js
+src/input/Gamepad.js
+src/input/GamepadButton.js
+src/input/Input.js
+src/input/InputHandler.js
+src/input/Keyboard.js
+src/input/Mouse.js
+src/input/SinglePad.js
+src/input/Touch.js
+src/loader/Cache.js
+src/loader/Loader.js
+src/math/RandomDataGenerator.js
+src/particles/arcade/Emitter.js
+src/physics/arcade/Body.js
+src/physics/arcade/World.js
+src/physics/p2/Body.js
+src/physics/p2/World.js
+src/sound/Sound.js
+src/sound/SoundManager.js
+src/system/Canvas.js
+src/tilemap/Tilemap.js
+src/tilemap/TilemapLayer.js
+src/time/Time.js
+src/time/Timer.js
+src/tween/Tween.js
+src/utils/Color.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ 187387126d5c179bdd476e4ee3715f74e50d0998 -> 37dcfce628ca70d01fa937a449e3d7ca231a1c89 } is a cherrypick
+{ cd60554c788e8d3c235b4755d02b3aab72e84d13 -> e2578504e586ff7bb5b81e97452de3f74b76e36c }
+Partial Cherry-pick commits SHA are -> 
+37dcfce628ca70d01fa937a449e3d7ca231a1c89 - cherrypick - e2578504e586ff7bb5b81e97452de3f74b76e36c
+---> The cherrypicked commit sha is - 37dcfce628ca70d01fa937a449e3d7ca231a1c89
+Commit message - fix checking of segment intersection no more rounding needed.
+---> The original commit sha is - e2578504e586ff7bb5b81e97452de3f74b76e36c
+Commit message - Merge pull request #937 from woutercommandeur/dev
+
+fix checking of segment intersection no more rounding needed.
+---> The files with partial_cherrypicks are:-
+src/geom/Line.js
+-----------------------------------------------------------------
+

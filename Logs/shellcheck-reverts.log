@@ -1,0 +1,43 @@
+# of reverts = 3
+Revert diff pair 1 is -> 
+{ 7c411b39acc464a213399857836d63f9a3ce53de -> 34e69556b1c9c6f79488059f7c020f449e4cdb1f } is a revert
+{ 702d57b655c27070a8c4e6ab9c25175d06d63ab4 -> 710a28c5724ebfef349d2c89911e448b358c7f12 }
+Revert commits SHA are -> 
+34e69556b1c9c6f79488059f7c020f449e4cdb1f - revert - 710a28c5724ebfef349d2c89911e448b358c7f12
+---> The reverted commit sha is - 34e69556b1c9c6f79488059f7c020f449e4cdb1f
+Commit message - Fixed parsing for 'eval var=(values)'
+---> The original commit sha is - 710a28c5724ebfef349d2c89911e448b358c7f12
+Commit message - Revert "Fixed parsing for 'eval var=(values)'", because it fails for 'eval $x=foo'
+
+This reverts commit 34e69556b1c9c6f79488059f7c020f449e4cdb1f.
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ f7be39cb5f6ad0141fa5d12a7bca7b069ac46091 -> ea4176691d476573cf6eac168312dfa89b8525bb } is a revert
+{ ea4176691d476573cf6eac168312dfa89b8525bb -> 24f91ae711fb382b012d7b2837ea6b9c55a6bca6 }
+Revert commits SHA are -> 
+ea4176691d476573cf6eac168312dfa89b8525bb - revert - 24f91ae711fb382b012d7b2837ea6b9c55a6bca6
+---> The reverted commit sha is - ea4176691d476573cf6eac168312dfa89b8525bb
+Commit message - Added warning for fi }, and not for ) }
+---> The original commit sha is - 24f91ae711fb382b012d7b2837ea6b9c55a6bca6
+Commit message - Revert "Added warning for fi }, and not for ) }"
+
+This reverts commit ea4176691d476573cf6eac168312dfa89b8525bb.
+
+I must have had some crack for breakfast.
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 0fda08b36ea6080a99185d4eef5e41d9fc877ed3 -> d2b258434d89fa6280005d9630ee2ea52915642a } is a revert
+{ da8ab3322c22464f4b3ab385643a1f78389a3e1b -> c3f62aaad6cbef830f6764bf561b6e8a8583ce31 }
+Revert commits SHA are -> 
+d2b258434d89fa6280005d9630ee2ea52915642a - revert - c3f62aaad6cbef830f6764bf561b6e8a8583ce31
+---> The reverted commit sha is - d2b258434d89fa6280005d9630ee2ea52915642a
+Commit message - "modified" -> "set" for subshell var messages
+---> The original commit sha is - c3f62aaad6cbef830f6764bf561b6e8a8583ce31
+Commit message - Revert ""modified" -> "set" for subshell var messages"
+
+Yeah no it was better before
+This reverts commit d2b258434d89fa6280005d9630ee2ea52915642a.
+-----------------------------------------------------------------
+

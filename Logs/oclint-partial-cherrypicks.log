@@ -1,0 +1,3014 @@
+# of partial cherrypicks = 86
+Partial Cherry-pick diff pair 1 is -> 
+{ 8c6d7767bde0124b542e0f4f4b9e791e9774677b -> bb3adadceea318bbcc8422378e5f9c70529ecc00 } is a cherrypick
+{ 77da2b89ef31dfc0189185d59dcc1c7f1921b80b -> 525ebe0d61b5dcf47c237be83860cebd7b5d568d }
+Partial Cherry-pick commits SHA are -> 
+bb3adadceea318bbcc8422378e5f9c70529ecc00 - cherrypick - 525ebe0d61b5dcf47c237be83860cebd7b5d568d
+---> The cherrypicked commit sha is - bb3adadceea318bbcc8422378e5f9c70529ecc00
+Commit message - Use std::unique_ptr to replace llvm::OwningPtr
+---> The original commit sha is - 525ebe0d61b5dcf47c237be83860cebd7b5d568d
+Commit message - Merge branch 'Jarod42-BaseClassDestructorShouldBeVirtualOrProtectedRule'
+---> The files with partial_cherrypicks are:-
+oclint-driver/include/oclint/ConfigFile.h
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ 714322cbfe01968990401b8772a18cb4a8b94c26 -> 2db5a4cde940f339ef4564215b99ed0cb5d89f24 } is a cherrypick
+{ 368788699db1ffcc8a702239c8f1d4ea8cb58dfd -> 8c6d7767bde0124b542e0f4f4b9e791e9774677b }
+Partial Cherry-pick commits SHA are -> 
+2db5a4cde940f339ef4564215b99ed0cb5d89f24 - cherrypick - 8c6d7767bde0124b542e0f4f4b9e791e9774677b
+---> The cherrypicked commit sha is - 2db5a4cde940f339ef4564215b99ed0cb5d89f24
+Commit message - - Fix protected inheritance.
+- Fix violation for AbstractASTVisitorRule.
+---> The original commit sha is - 8c6d7767bde0124b542e0f4f4b9e791e9774677b
+Commit message - Merge branch 'BaseClassDestructorShouldBeVirtualOrProtectedRule' of https://github.com/Jarod42/oclint into Jarod42-BaseClassDestructorShouldBeVirtualOrProtectedRule
+---> The files with partial_cherrypicks are:-
+oclint-rules/include/oclint/AbstractASTVisitorRule.h
+oclint-rules/rules/convention/BaseClassDestructorShouldBeVirtualOrProtectedRule.cpp
+oclint-rules/rules/convention/CMakeLists.txt
+oclint-rules/test/convention/BaseClassDestructorShouldBeVirtualOrProtectedRuleTest.cpp
+oclint-rules/test/convention/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 66b4f92c464de81aa442eb5e769f16d2035eeecc -> 7fa79eed9381717dd2e1ec1444a6fb1c8237c031 } is a cherrypick
+{ 4e5c074fa30fab42e2bb299eb11efc243bc3dcb8 -> 24ae82b3ce5083c81bd1e6c485dc2367ad07a8b2 }
+Partial Cherry-pick commits SHA are -> 
+7fa79eed9381717dd2e1ec1444a6fb1c8237c031 - cherrypick - 24ae82b3ce5083c81bd1e6c485dc2367ad07a8b2
+---> The cherrypicked commit sha is - 7fa79eed9381717dd2e1ec1444a6fb1c8237c031
+Commit message - Add basic oclint version to -version option
+---> The original commit sha is - 24ae82b3ce5083c81bd1e6c485dc2367ad07a8b2
+Commit message - Merge pull request #179 from lqi/add-oclint-version
+
+Add basic oclint version to -version option
+---> The files with partial_cherrypicks are:-
+oclint-driver/main.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ e6015511c47858e6ba4ad18a7d234fec97a062bd -> ae00127e05da052801e7b14cdfe72430f7929039 } is a cherrypick
+{ 66b4f92c464de81aa442eb5e769f16d2035eeecc -> 7fa79eed9381717dd2e1ec1444a6fb1c8237c031 }
+Partial Cherry-pick commits SHA are -> 
+ae00127e05da052801e7b14cdfe72430f7929039 - cherrypick - 7fa79eed9381717dd2e1ec1444a6fb1c8237c031
+---> The cherrypicked commit sha is - ae00127e05da052801e7b14cdfe72430f7929039
+Commit message - Migrating to C++11 - run clang-modernize.
+---> The original commit sha is - 7fa79eed9381717dd2e1ec1444a6fb1c8237c031
+Commit message - Add basic oclint version to -version option
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/design/AvoidPrivateStaticMembersRule.cpp
+oclint-rules/rules/design/CMakeLists.txt
+oclint-rules/test/design/AvoidPrivateStaticMembersRuleTest.cpp
+oclint-rules/test/design/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ 7399e0de2cb452f907d7dcfb12ee36058fe0616a -> ce7c705ce1bb3ab2c8287aa2746ce7e1c97837c5 } is a cherrypick
+{ 867a4dcba56daad5b4cdb1b298f11750a431799a -> 66b4f92c464de81aa442eb5e769f16d2035eeecc }
+Partial Cherry-pick commits SHA are -> 
+ce7c705ce1bb3ab2c8287aa2746ce7e1c97837c5 - cherrypick - 66b4f92c464de81aa442eb5e769f16d2035eeecc
+---> The cherrypicked commit sha is - ce7c705ce1bb3ab2c8287aa2746ce7e1c97837c5
+Commit message - Add rule to avoid private static members
+---> The original commit sha is - 66b4f92c464de81aa442eb5e769f16d2035eeecc
+Commit message - Merge from yachoor/AvoidPrivateStaticMembers
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/design/AvoidPrivateStaticMembersRule.cpp
+oclint-rules/test/design/AvoidPrivateStaticMembersRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 352053976fce75e8ffb33fa1e4c91569f12420f2 -> fe0bb791e839254367644b76e8ad089abd7ab2ea } is a cherrypick
+{ 867a4dcba56daad5b4cdb1b298f11750a431799a -> 66b4f92c464de81aa442eb5e769f16d2035eeecc }
+Partial Cherry-pick commits SHA are -> 
+fe0bb791e839254367644b76e8ad089abd7ab2ea - cherrypick - 66b4f92c464de81aa442eb5e769f16d2035eeecc
+---> The cherrypicked commit sha is - fe0bb791e839254367644b76e8ad089abd7ab2ea
+Commit message - Fix file order
+---> The original commit sha is - 66b4f92c464de81aa442eb5e769f16d2035eeecc
+Commit message - Merge from yachoor/AvoidPrivateStaticMembers
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/design/AvoidPrivateStaticMembersRule.cpp
+oclint-rules/rules/design/CMakeLists.txt
+oclint-rules/test/design/AvoidPrivateStaticMembersRuleTest.cpp
+oclint-rules/test/design/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ a662d650b350e665c6a253d50494450c6be88316 -> e6015511c47858e6ba4ad18a7d234fec97a062bd } is a cherrypick
+{ 867a4dcba56daad5b4cdb1b298f11750a431799a -> 66b4f92c464de81aa442eb5e769f16d2035eeecc }
+Partial Cherry-pick commits SHA are -> 
+e6015511c47858e6ba4ad18a7d234fec97a062bd - cherrypick - 66b4f92c464de81aa442eb5e769f16d2035eeecc
+---> The cherrypicked commit sha is - e6015511c47858e6ba4ad18a7d234fec97a062bd
+Commit message - Merge branch 'master' into AvoidPrivateStaticMembers
+---> The original commit sha is - 66b4f92c464de81aa442eb5e769f16d2035eeecc
+Commit message - Merge from yachoor/AvoidPrivateStaticMembers
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/design/AvoidPrivateStaticMembersRule.cpp
+oclint-rules/test/design/AvoidPrivateStaticMembersRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ b804a0d1ad1b431bdcdefb4c844fd963f5ca2078 -> 2032322f672fa69bbe67594c37025ce9dd1b054a } is a cherrypick
+{ 867a4dcba56daad5b4cdb1b298f11750a431799a -> 66b4f92c464de81aa442eb5e769f16d2035eeecc }
+Partial Cherry-pick commits SHA are -> 
+2032322f672fa69bbe67594c37025ce9dd1b054a - cherrypick - 66b4f92c464de81aa442eb5e769f16d2035eeecc
+---> The cherrypicked commit sha is - 2032322f672fa69bbe67594c37025ce9dd1b054a
+Commit message - Add C++11 override keyword on overriding methods.
+---> The original commit sha is - 66b4f92c464de81aa442eb5e769f16d2035eeecc
+Commit message - Merge from yachoor/AvoidPrivateStaticMembers
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/design/AvoidPrivateStaticMembersRule.cpp
+oclint-rules/test/design/AvoidPrivateStaticMembersRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ e6015511c47858e6ba4ad18a7d234fec97a062bd -> ae00127e05da052801e7b14cdfe72430f7929039 } is a cherrypick
+{ cccf486ab283d12742bfaee54c933b8d57383673 -> 855a4148af2e33926def782eac9fbb6d25f378e5 }
+Partial Cherry-pick commits SHA are -> 
+ae00127e05da052801e7b14cdfe72430f7929039 - cherrypick - 855a4148af2e33926def782eac9fbb6d25f378e5
+---> The cherrypicked commit sha is - ae00127e05da052801e7b14cdfe72430f7929039
+Commit message - Migrating to C++11 - run clang-modernize.
+---> The original commit sha is - 855a4148af2e33926def782eac9fbb6d25f378e5
+Commit message - Merge pull request #173 from yachoor/modernize
+
+Migrating to C++11 - run clang-modernize.
+---> The files with partial_cherrypicks are:-
+oclint-core/include/oclint/RuleConfiguration.h
+oclint-core/include/oclint/RuleSet.h
+oclint-core/include/oclint/Violation.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleConfiguration.cpp
+oclint-core/lib/RuleSet.cpp
+oclint-core/lib/Violation.cpp
+oclint-driver/include/oclint/DiagnosticDispatcher.h
+oclint-driver/include/oclint/GenericException.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/lib/DiagnosticDispatcher.cpp
+oclint-driver/lib/Driver.cpp
+oclint-driver/lib/GenericException.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-driver/main.cpp
+oclint-driver/reporters_dlfcn_port.cpp
+oclint-driver/rules_dlfcn_port.cpp
+oclint-reporters/reporters/HTMLReporter.cpp
+oclint-reporters/reporters/JSONReporter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-reporters/template/Reporter.tmpl
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/lib/AbstractASTMatcherRule.cpp
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/basic/BitwiseOperatorInConditionalRule.cpp
+oclint-rules/rules/basic/BrokenNullCheckRule.cpp
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/ConstantConditionalOperatorRule.cpp
+oclint-rules/rules/basic/ConstantIfExpressionRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/ForLoopShouldBeWhileLoopRule.cpp
+oclint-rules/rules/basic/GotoStatementRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MisplacedNullCheckRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/cocoa/ObjCVerifyIsEqualHashRule.cpp
+oclint-rules/rules/cocoa/ObjCVerifyMustCallSuperRule.cpp
+oclint-rules/rules/cocoa/ObjCVerifyProtectedMethodRule.cpp
+oclint-rules/rules/cocoa/ObjCVerifySubclassMustImplementRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/CoveredSwitchStatementsDontNeedDefaultRule.cpp
+oclint-rules/rules/convention/DefaultLabelNotLastInSwitchStatementRule.cpp
+oclint-rules/rules/convention/DestructorOfVirtualClassRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ObjCAssignIvarOutsideAccessorsRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/convention/PreferEarlyExitRule.cpp
+oclint-rules/rules/convention/SwitchStatementsShouldHaveDefaultRule.cpp
+oclint-rules/rules/convention/TooFewBranchesInSwitchStatementRule.cpp
+oclint-rules/rules/design/FeatureEnvyRule.cpp
+oclint-rules/rules/empty/EmptyCatchStatementRule.cpp
+oclint-rules/rules/empty/EmptyDoWhileStatementRule.cpp
+oclint-rules/rules/empty/EmptyElseBlockRule.cpp
+oclint-rules/rules/empty/EmptyFinallyStatementRule.cpp
+oclint-rules/rules/empty/EmptyForStatementRule.cpp
+oclint-rules/rules/empty/EmptyIfStatementRule.cpp
+oclint-rules/rules/empty/EmptySwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyTryStatementRule.cpp
+oclint-rules/rules/empty/EmptyWhileStatementRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCContainerLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCObjectSubscriptingRule.cpp
+oclint-rules/rules/naming/LongVariableNameRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/redundant/UnnecessaryNullCheckForCXXDeallocRule.cpp
+oclint-rules/rules/redundant/UselessParenthesesRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/LongClassRule.cpp
+oclint-rules/rules/size/LongLineRule.cpp
+oclint-rules/rules/size/LongMethodRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/NestedBlockDepthRule.cpp
+oclint-rules/rules/size/TooManyFieldsRule.cpp
+oclint-rules/rules/size/TooManyMethodsRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/template/ASTMatcherRule.tmpl
+oclint-rules/template/ASTVisitorRule.tmpl
+oclint-rules/template/GenericRule.tmpl
+oclint-rules/template/SourceCodeReaderRule.tmpl
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 5b5a7a6947c5f4a13beb1999ec22906695caea71 -> 714322cbfe01968990401b8772a18cb4a8b94c26 } is a cherrypick
+{ 509618a46d21a0ae92bc8cf5c99ce788a31ae694 -> cccf486ab283d12742bfaee54c933b8d57383673 }
+Partial Cherry-pick commits SHA are -> 
+714322cbfe01968990401b8772a18cb4a8b94c26 - cherrypick - cccf486ab283d12742bfaee54c933b8d57383673
+---> The cherrypicked commit sha is - 714322cbfe01968990401b8772a18cb4a8b94c26
+Commit message - Prohibited method checker
+---> The original commit sha is - cccf486ab283d12742bfaee54c933b8d57383673
+Commit message - Merge pull request #165 from aleffert/prohibited-method
+
+Prohibited method checker
+---> The files with partial_cherrypicks are:-
+oclint-rules/include/oclint/helper/AttributeHelper.h
+oclint-rules/include/oclint/helper/EnforceHelper.h
+oclint-rules/lib/helper/EnforceHelper.cpp
+oclint-rules/rules/cocoa/CMakeLists.txt
+oclint-rules/rules/cocoa/ObjCVerifyProhibitedCallRule.cpp
+oclint-rules/test/cocoa/CMakeLists.txt
+oclint-rules/test/cocoa/ObjCVerifyProhibitedCallRuleTest.cpp
+oclint-rules/test/helper/AttributeHelperTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 8ed993d7f15e9a4ce0f6ee4db1271449eda481a1 -> 7d49b4c7b39eebee2d0b7b878e281f9df36dfcd6 } is a cherrypick
+{ 509618a46d21a0ae92bc8cf5c99ce788a31ae694 -> cccf486ab283d12742bfaee54c933b8d57383673 }
+Partial Cherry-pick commits SHA are -> 
+7d49b4c7b39eebee2d0b7b878e281f9df36dfcd6 - cherrypick - cccf486ab283d12742bfaee54c933b8d57383673
+---> The cherrypicked commit sha is - 7d49b4c7b39eebee2d0b7b878e281f9df36dfcd6
+Commit message - Remove extra header
+---> The original commit sha is - cccf486ab283d12742bfaee54c933b8d57383673
+Commit message - Merge pull request #165 from aleffert/prohibited-method
+
+Prohibited method checker
+---> The files with partial_cherrypicks are:-
+oclint-rules/include/oclint/helper/AttributeHelper.h
+oclint-rules/include/oclint/helper/EnforceHelper.h
+oclint-rules/lib/helper/EnforceHelper.cpp
+oclint-rules/rules/cocoa/CMakeLists.txt
+oclint-rules/rules/cocoa/ObjCVerifyProhibitedCallRule.cpp
+oclint-rules/test/cocoa/CMakeLists.txt
+oclint-rules/test/cocoa/ObjCVerifyProhibitedCallRuleTest.cpp
+oclint-rules/test/helper/AttributeHelperTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ b0a905143a8ce90f5b6b5fcf58239d41ee658d4e -> 7399e0de2cb452f907d7dcfb12ee36058fe0616a } is a cherrypick
+{ 6364ff2da343f84a4c2b3846e17f77ca204f58fc -> 509618a46d21a0ae92bc8cf5c99ce788a31ae694 }
+Partial Cherry-pick commits SHA are -> 
+7399e0de2cb452f907d7dcfb12ee36058fe0616a - cherrypick - 509618a46d21a0ae92bc8cf5c99ce788a31ae694
+---> The cherrypicked commit sha is - 7399e0de2cb452f907d7dcfb12ee36058fe0616a
+Commit message - Add new rule to avoid default arguments on virtual methods
+---> The original commit sha is - 509618a46d21a0ae92bc8cf5c99ce788a31ae694
+Commit message - Merge pull request #171 from yachoor/NoDefaultArgumentsOnVirtualFunctions
+
+New rule to avoid default arguments on virtual functions
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/design/AvoidDefaultArgumentsOnVirtualMethodsRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 4afd02d8e240fe2ece40a8352874a93bdd259a7b -> bfb90a6a0608c1349772143b5e0f65083cf0861d } is a cherrypick
+{ 6364ff2da343f84a4c2b3846e17f77ca204f58fc -> 509618a46d21a0ae92bc8cf5c99ce788a31ae694 }
+Partial Cherry-pick commits SHA are -> 
+bfb90a6a0608c1349772143b5e0f65083cf0861d - cherrypick - 509618a46d21a0ae92bc8cf5c99ce788a31ae694
+---> The cherrypicked commit sha is - bfb90a6a0608c1349772143b5e0f65083cf0861d
+Commit message - Fix scaffolded cmake files
+---> The original commit sha is - 509618a46d21a0ae92bc8cf5c99ce788a31ae694
+Commit message - Merge pull request #171 from yachoor/NoDefaultArgumentsOnVirtualFunctions
+
+New rule to avoid default arguments on virtual functions
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/design/AvoidDefaultArgumentsOnVirtualMethodsRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ fe0bb791e839254367644b76e8ad089abd7ab2ea -> b4bfbd44fa8f004e85b3b68cecfe402ab7e6d214 } is a cherrypick
+{ 6364ff2da343f84a4c2b3846e17f77ca204f58fc -> 509618a46d21a0ae92bc8cf5c99ce788a31ae694 }
+Partial Cherry-pick commits SHA are -> 
+b4bfbd44fa8f004e85b3b68cecfe402ab7e6d214 - cherrypick - 509618a46d21a0ae92bc8cf5c99ce788a31ae694
+---> The cherrypicked commit sha is - b4bfbd44fa8f004e85b3b68cecfe402ab7e6d214
+Commit message - Fix file order
+---> The original commit sha is - 509618a46d21a0ae92bc8cf5c99ce788a31ae694
+Commit message - Merge pull request #171 from yachoor/NoDefaultArgumentsOnVirtualFunctions
+
+New rule to avoid default arguments on virtual functions
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/design/AvoidDefaultArgumentsOnVirtualMethodsRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ 3f9355e03bfb439e31a202ddb3a4f061b9fd539d -> f6ccbf5e67b8d36ac9ebf9493e2d2828be77cc19 } is a cherrypick
+{ 6364ff2da343f84a4c2b3846e17f77ca204f58fc -> 509618a46d21a0ae92bc8cf5c99ce788a31ae694 }
+Partial Cherry-pick commits SHA are -> 
+f6ccbf5e67b8d36ac9ebf9493e2d2828be77cc19 - cherrypick - 509618a46d21a0ae92bc8cf5c99ce788a31ae694
+---> The cherrypicked commit sha is - f6ccbf5e67b8d36ac9ebf9493e2d2828be77cc19
+Commit message - Merge branch 'master' into NoDefaultArgumentsOnVirtualFunctions
+---> The original commit sha is - 509618a46d21a0ae92bc8cf5c99ce788a31ae694
+Commit message - Merge pull request #171 from yachoor/NoDefaultArgumentsOnVirtualFunctions
+
+New rule to avoid default arguments on virtual functions
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/design/CMakeLists.txt
+oclint-rules/test/design/AvoidDefaultArgumentsOnVirtualMethodsRuleTest.cpp
+oclint-rules/test/design/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ ae00127e05da052801e7b14cdfe72430f7929039 -> b804a0d1ad1b431bdcdefb4c844fd963f5ca2078 } is a cherrypick
+{ 6364ff2da343f84a4c2b3846e17f77ca204f58fc -> 509618a46d21a0ae92bc8cf5c99ce788a31ae694 }
+Partial Cherry-pick commits SHA are -> 
+b804a0d1ad1b431bdcdefb4c844fd963f5ca2078 - cherrypick - 509618a46d21a0ae92bc8cf5c99ce788a31ae694
+---> The cherrypicked commit sha is - b804a0d1ad1b431bdcdefb4c844fd963f5ca2078
+Commit message - Add C++11 override keyword on overriding methods.
+---> The original commit sha is - 509618a46d21a0ae92bc8cf5c99ce788a31ae694
+Commit message - Merge pull request #171 from yachoor/NoDefaultArgumentsOnVirtualFunctions
+
+New rule to avoid default arguments on virtual functions
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/design/AvoidDefaultArgumentsOnVirtualMethodsRule.cpp
+oclint-rules/rules/design/CMakeLists.txt
+oclint-rules/test/design/AvoidDefaultArgumentsOnVirtualMethodsRuleTest.cpp
+oclint-rules/test/design/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ 7399e0de2cb452f907d7dcfb12ee36058fe0616a -> ce7c705ce1bb3ab2c8287aa2746ce7e1c97837c5 } is a cherrypick
+{ b804a0d1ad1b431bdcdefb4c844fd963f5ca2078 -> 2032322f672fa69bbe67594c37025ce9dd1b054a }
+Partial Cherry-pick commits SHA are -> 
+ce7c705ce1bb3ab2c8287aa2746ce7e1c97837c5 - cherrypick - 2032322f672fa69bbe67594c37025ce9dd1b054a
+---> The cherrypicked commit sha is - ce7c705ce1bb3ab2c8287aa2746ce7e1c97837c5
+Commit message - Add rule to avoid private static members
+---> The original commit sha is - 2032322f672fa69bbe67594c37025ce9dd1b054a
+Commit message - Add C++11 override keyword on overriding methods.
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/design/AvoidPrivateStaticMembersRule.cpp
+oclint-rules/test/design/AvoidDefaultArgumentsOnVirtualMethodsRuleTest.cpp
+oclint-rules/test/design/AvoidPrivateStaticMembersRuleTest.cpp
+oclint-rules/test/design/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 7399e0de2cb452f907d7dcfb12ee36058fe0616a -> ce7c705ce1bb3ab2c8287aa2746ce7e1c97837c5 } is a cherrypick
+{ a662d650b350e665c6a253d50494450c6be88316 -> e6015511c47858e6ba4ad18a7d234fec97a062bd }
+Partial Cherry-pick commits SHA are -> 
+ce7c705ce1bb3ab2c8287aa2746ce7e1c97837c5 - cherrypick - e6015511c47858e6ba4ad18a7d234fec97a062bd
+---> The cherrypicked commit sha is - ce7c705ce1bb3ab2c8287aa2746ce7e1c97837c5
+Commit message - Add rule to avoid private static members
+---> The original commit sha is - e6015511c47858e6ba4ad18a7d234fec97a062bd
+Commit message - Merge branch 'master' into AvoidPrivateStaticMembers
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/design/AvoidPrivateStaticMembersRule.cpp
+oclint-rules/test/design/AvoidDefaultArgumentsOnVirtualMethodsRuleTest.cpp
+oclint-rules/test/design/AvoidPrivateStaticMembersRuleTest.cpp
+oclint-rules/test/design/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ b0a905143a8ce90f5b6b5fcf58239d41ee658d4e -> 7399e0de2cb452f907d7dcfb12ee36058fe0616a } is a cherrypick
+{ 3f9355e03bfb439e31a202ddb3a4f061b9fd539d -> f6ccbf5e67b8d36ac9ebf9493e2d2828be77cc19 }
+Partial Cherry-pick commits SHA are -> 
+7399e0de2cb452f907d7dcfb12ee36058fe0616a - cherrypick - f6ccbf5e67b8d36ac9ebf9493e2d2828be77cc19
+---> The cherrypicked commit sha is - 7399e0de2cb452f907d7dcfb12ee36058fe0616a
+Commit message - Add new rule to avoid default arguments on virtual methods
+---> The original commit sha is - f6ccbf5e67b8d36ac9ebf9493e2d2828be77cc19
+Commit message - Merge branch 'master' into NoDefaultArgumentsOnVirtualFunctions
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/design/AvoidDefaultArgumentsOnVirtualMethodsRule.cpp
+oclint-rules/test/design/AvoidDefaultArgumentsOnVirtualMethodsRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ 4afd02d8e240fe2ece40a8352874a93bdd259a7b -> bfb90a6a0608c1349772143b5e0f65083cf0861d } is a cherrypick
+{ 3f9355e03bfb439e31a202ddb3a4f061b9fd539d -> f6ccbf5e67b8d36ac9ebf9493e2d2828be77cc19 }
+Partial Cherry-pick commits SHA are -> 
+bfb90a6a0608c1349772143b5e0f65083cf0861d - cherrypick - f6ccbf5e67b8d36ac9ebf9493e2d2828be77cc19
+---> The cherrypicked commit sha is - bfb90a6a0608c1349772143b5e0f65083cf0861d
+Commit message - Fix scaffolded cmake files
+---> The original commit sha is - f6ccbf5e67b8d36ac9ebf9493e2d2828be77cc19
+Commit message - Merge branch 'master' into NoDefaultArgumentsOnVirtualFunctions
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/design/AvoidDefaultArgumentsOnVirtualMethodsRule.cpp
+oclint-rules/test/design/AvoidDefaultArgumentsOnVirtualMethodsRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ fe0bb791e839254367644b76e8ad089abd7ab2ea -> b4bfbd44fa8f004e85b3b68cecfe402ab7e6d214 } is a cherrypick
+{ 3f9355e03bfb439e31a202ddb3a4f061b9fd539d -> f6ccbf5e67b8d36ac9ebf9493e2d2828be77cc19 }
+Partial Cherry-pick commits SHA are -> 
+b4bfbd44fa8f004e85b3b68cecfe402ab7e6d214 - cherrypick - f6ccbf5e67b8d36ac9ebf9493e2d2828be77cc19
+---> The cherrypicked commit sha is - b4bfbd44fa8f004e85b3b68cecfe402ab7e6d214
+Commit message - Fix file order
+---> The original commit sha is - f6ccbf5e67b8d36ac9ebf9493e2d2828be77cc19
+Commit message - Merge branch 'master' into NoDefaultArgumentsOnVirtualFunctions
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/design/AvoidDefaultArgumentsOnVirtualMethodsRule.cpp
+oclint-rules/test/design/AvoidDefaultArgumentsOnVirtualMethodsRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ 5c2d3d612d97b6d912f6b7ddef96e1dbb62e9c0d -> d237923ca4dd6f715873ad7901a8b3a6a844e8f3 } is a cherrypick
+{ 82a5136d7d1cc5826f568755f4d450c1fc4c377c -> 3f9355e03bfb439e31a202ddb3a4f061b9fd539d }
+Partial Cherry-pick commits SHA are -> 
+d237923ca4dd6f715873ad7901a8b3a6a844e8f3 - cherrypick - 3f9355e03bfb439e31a202ddb3a4f061b9fd539d
+---> The cherrypicked commit sha is - d237923ca4dd6f715873ad7901a8b3a6a844e8f3
+Commit message - Enable building and bundling with an external llvm/clang build
+---> The original commit sha is - 3f9355e03bfb439e31a202ddb3a4f061b9fd539d
+Commit message - Merge pull request #166 from lqi/use-out-of-tree-llvm
+
+Enable building and bundling with an external llvm/clang build
+---> The files with partial_cherrypicks are:-
+oclint-scripts/build
+oclint-scripts/bundle
+oclint-scripts/makeWithExternClang
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ 5c2d3d612d97b6d912f6b7ddef96e1dbb62e9c0d -> d237923ca4dd6f715873ad7901a8b3a6a844e8f3 } is a cherrypick
+{ d6b92035fe99fa77253842b45be39546c61ca931 -> 9b3149dbf4127fbf7058ae67fd893dd2bf8607c1 }
+Partial Cherry-pick commits SHA are -> 
+d237923ca4dd6f715873ad7901a8b3a6a844e8f3 - cherrypick - 9b3149dbf4127fbf7058ae67fd893dd2bf8607c1
+---> The cherrypicked commit sha is - d237923ca4dd6f715873ad7901a8b3a6a844e8f3
+Commit message - Enable building and bundling with an external llvm/clang build
+---> The original commit sha is - 9b3149dbf4127fbf7058ae67fd893dd2bf8607c1
+Commit message - Revert "Add missing files for OCLintAbstractRule lib."
+
+This reverts commit db359d3ef2ae1991cc2528a736726ffdccd23f87.
+---> The files with partial_cherrypicks are:-
+oclint-rules/lib/CMakeLists.txt
+oclint-rules/lib/helper/CMakeLists.txt
+oclint-rules/lib/util/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ fb0e023d9055f8244dd4cddc9d0c614529efb252 -> db359d3ef2ae1991cc2528a736726ffdccd23f87 } is a cherrypick
+{ 7e906d5f04b176d872160e527cf4c6b951209153 -> d6b92035fe99fa77253842b45be39546c61ca931 }
+Partial Cherry-pick commits SHA are -> 
+db359d3ef2ae1991cc2528a736726ffdccd23f87 - cherrypick - d6b92035fe99fa77253842b45be39546c61ca931
+---> The cherrypicked commit sha is - db359d3ef2ae1991cc2528a736726ffdccd23f87
+Commit message - Add missing files for OCLintAbstractRule lib.
+---> The original commit sha is - d6b92035fe99fa77253842b45be39546c61ca931
+Commit message - Merge pull request #146 from Jarod42/FixBuildForWindows
+
+[Win32] Add missing files for OCLintAbstractRule lib.
+---> The files with partial_cherrypicks are:-
+oclint-rules/lib/helper/CMakeLists.txt
+oclint-rules/lib/util/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ da383ab85fd23d51a26d9aefbaee2e2fd1f5ad66 -> 5c2d3d612d97b6d912f6b7ddef96e1dbb62e9c0d } is a cherrypick
+{ 7e906d5f04b176d872160e527cf4c6b951209153 -> d6b92035fe99fa77253842b45be39546c61ca931 }
+Partial Cherry-pick commits SHA are -> 
+5c2d3d612d97b6d912f6b7ddef96e1dbb62e9c0d - cherrypick - d6b92035fe99fa77253842b45be39546c61ca931
+---> The cherrypicked commit sha is - 5c2d3d612d97b6d912f6b7ddef96e1dbb62e9c0d
+Commit message - Remove useless change.
+---> The original commit sha is - d6b92035fe99fa77253842b45be39546c61ca931
+Commit message - Merge pull request #146 from Jarod42/FixBuildForWindows
+
+[Win32] Add missing files for OCLintAbstractRule lib.
+---> The files with partial_cherrypicks are:-
+oclint-rules/lib/CMakeLists.txt
+oclint-rules/lib/helper/CMakeLists.txt
+oclint-rules/lib/util/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 3e3b13a28e7eaa6d4ce912c775cbe24e32e95ce3 -> a51c67638c61f5bfccc28b74aa01f578eb352a69 } is a cherrypick
+{ 5d08210658bdc8498c4912c791d478c76abab838 -> 463ecb670bc171b37732da703f67c285256d4c6a }
+Partial Cherry-pick commits SHA are -> 
+a51c67638c61f5bfccc28b74aa01f578eb352a69 - cherrypick - 463ecb670bc171b37732da703f67c285256d4c6a
+---> The cherrypicked commit sha is - a51c67638c61f5bfccc28b74aa01f578eb352a69
+Commit message - Added reporting of *which* parameter / variable is unused.
+---> The original commit sha is - 463ecb670bc171b37732da703f67c285256d4c6a
+Commit message - Merge branch 'EmitUnusedParam' of https://github.com/maplesteve/oclint into maplesteve-EmitUnusedParam
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/test/unused/UnusedLocalVariableRuleTest.cpp
+oclint-rules/test/unused/UnusedMethodParameterRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ f75f1fd5ffe340d5a5d1435d0de520bc1bfc1e87 -> f344f06145ad5045413eca3b4a838333ea579315 } is a cherrypick
+{ 43e56aa1631a027732c6c9a35677b74d681337a1 -> 46cfc3772e22c8401ed1b42304809af2bd29ad79 }
+Partial Cherry-pick commits SHA are -> 
+f344f06145ad5045413eca3b4a838333ea579315 - cherrypick - 46cfc3772e22c8401ed1b42304809af2bd29ad79
+---> The cherrypicked commit sha is - f344f06145ad5045413eca3b4a838333ea579315
+Commit message - Prevent reporting of unused method parameter for IBActions
+---> The original commit sha is - 46cfc3772e22c8401ed1b42304809af2bd29ad79
+Commit message - Merge branch 'FixUnusedParameters' of https://github.com/maplesteve/oclint into maplesteve-FixUnusedParameters
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/unused/UnusedMethodParameterRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ f450a86f3bb4a862a0593f4fa0744dd39c7caf34 -> f47458a70e197d330be29004c3d3e86dece11ff4 } is a cherrypick
+{ 43e56aa1631a027732c6c9a35677b74d681337a1 -> 46cfc3772e22c8401ed1b42304809af2bd29ad79 }
+Partial Cherry-pick commits SHA are -> 
+f47458a70e197d330be29004c3d3e86dece11ff4 - cherrypick - 46cfc3772e22c8401ed1b42304809af2bd29ad79
+---> The cherrypicked commit sha is - f47458a70e197d330be29004c3d3e86dece11ff4
+Commit message - Added nullPtr check
+---> The original commit sha is - 46cfc3772e22c8401ed1b42304809af2bd29ad79
+Commit message - Merge branch 'FixUnusedParameters' of https://github.com/maplesteve/oclint into maplesteve-FixUnusedParameters
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/test/unused/UnusedMethodParameterRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ fe997fbc575511424a2e646cdc1a369eb6b65b90 -> 70d566d6c3a7fc2bdfdd2ffe8f102963dad2f87f } is a cherrypick
+{ e659b8969e649cee496a42d7aeefbeacb40a1f57 -> a6810d3c077a4f12845c2bf977f372eb26404a6b }
+Partial Cherry-pick commits SHA are -> 
+70d566d6c3a7fc2bdfdd2ffe8f102963dad2f87f - cherrypick - a6810d3c077a4f12845c2bf977f372eb26404a6b
+---> The cherrypicked commit sha is - 70d566d6c3a7fc2bdfdd2ffe8f102963dad2f87f
+Commit message - Fix crash when #number of violations is incorrect.
+---> The original commit sha is - a6810d3c077a4f12845c2bf977f372eb26404a6b
+Commit message - Merge branch 'TestWithTagLocation' of https://github.com/Jarod42/oclint into Jarod42-TestWithTagLocation
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/redundant/RedundantConditionalOperatorRuleTest.cpp
+oclint-rules/test/redundant/RedundantIfStatementRuleTest.cpp
+oclint-rules/test/redundant/RedundantLocalVariableRuleTest.cpp
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+oclint-rules/test/redundant/UnnecessaryNullCheckForCXXDeallocRuleTest.cpp
+oclint-rules/test/redundant/UselessParenthesesRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ 8dd3bea2fcbd08ca0951eb32b77f26cf122b70b3 -> d2e9f3b0168703b010446095be31135b37308072 } is a cherrypick
+{ e659b8969e649cee496a42d7aeefbeacb40a1f57 -> a6810d3c077a4f12845c2bf977f372eb26404a6b }
+Partial Cherry-pick commits SHA are -> 
+d2e9f3b0168703b010446095be31135b37308072 - cherrypick - a6810d3c077a4f12845c2bf977f372eb26404a6b
+---> The cherrypicked commit sha is - d2e9f3b0168703b010446095be31135b37308072
+Commit message - - Add aliases for VIOLATION_START/END
+- sort violations and expected location with the same order.
+---> The original commit sha is - a6810d3c077a4f12845c2bf977f372eb26404a6b
+Commit message - Merge branch 'TestWithTagLocation' of https://github.com/Jarod42/oclint into Jarod42-TestWithTagLocation
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/headers/TestRuleOnCode.h
+oclint-rules/test/redundant/RedundantConditionalOperatorRuleTest.cpp
+oclint-rules/test/redundant/RedundantIfStatementRuleTest.cpp
+oclint-rules/test/redundant/RedundantLocalVariableRuleTest.cpp
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+oclint-rules/test/redundant/UnnecessaryElseStatementRuleTest.cpp
+oclint-rules/test/redundant/UnnecessaryNullCheckForCXXDeallocRuleTest.cpp
+oclint-rules/test/redundant/UselessParenthesesRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ 262de1ad265d85435012f848cd6305e92b921bb1 -> 966a8cba8cc17dc3f798167c179ddccd4541d44b } is a cherrypick
+{ 1c419baff613830f4f2fd243f6268e43a9f55770 -> fb0e023d9055f8244dd4cddc9d0c614529efb252 }
+Partial Cherry-pick commits SHA are -> 
+966a8cba8cc17dc3f798167c179ddccd4541d44b - cherrypick - fb0e023d9055f8244dd4cddc9d0c614529efb252
+---> The cherrypicked commit sha is - 966a8cba8cc17dc3f798167c179ddccd4541d44b
+Commit message - Remove library cases from must call super rule.
+
+I figured out that I could use objc categories to annotate existing
+library methods, so we don't need to hard code them into the rule after
+all. We didn't *need* to get rid of them here, but it seems like good hygiene.
+---> The original commit sha is - fb0e023d9055f8244dd4cddc9d0c614529efb252
+Commit message - Merge branch 'must-call-super-cleanup' of https://github.com/aleffert/oclint
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/cocoa/ObjCVerifyMustCallSuperRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ fe5ca678610fd23b343bbddf00c31b6dfc84d0e7 -> 8c42760458854164df407251148f2e0036f1c918 } is a cherrypick
+{ 0094a004638d80090f7956fb4cd6dcb61bcaf849 -> d1446eb60db5071672a9580463e15365fc7aac01 }
+Partial Cherry-pick commits SHA are -> 
+8c42760458854164df407251148f2e0036f1c918 - cherrypick - d1446eb60db5071672a9580463e15365fc7aac01
+---> The cherrypicked commit sha is - 8c42760458854164df407251148f2e0036f1c918
+Commit message - Rule to enforce methods that subclasses must implement i.e. abstract methods
+---> The original commit sha is - d1446eb60db5071672a9580463e15365fc7aac01
+Commit message - Merge branch 'subclass-must-implement' of https://github.com/aleffert/oclint into aleffert-subclass-must-implement
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/cocoa/CMakeLists.txt
+oclint-rules/test/cocoa/CMakeLists.txt
+oclint-rules/test/cocoa/ObjCVerifySubclassMustImplementRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ 8f8f70eeba1d63be5db83756bb0cdcbe6fc6a0bd -> f9a75c50a3db729682e0adfa1bc1d457b9ee4192 } is a cherrypick
+{ 0094a004638d80090f7956fb4cd6dcb61bcaf849 -> d1446eb60db5071672a9580463e15365fc7aac01 }
+Partial Cherry-pick commits SHA are -> 
+f9a75c50a3db729682e0adfa1bc1d457b9ee4192 - cherrypick - d1446eb60db5071672a9580463e15365fc7aac01
+---> The cherrypicked commit sha is - f9a75c50a3db729682e0adfa1bc1d457b9ee4192
+Commit message - Minor tweaks from review of subclass must implement rule
+---> The original commit sha is - d1446eb60db5071672a9580463e15365fc7aac01
+Commit message - Merge branch 'subclass-must-implement' of https://github.com/aleffert/oclint into aleffert-subclass-must-implement
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/cocoa/CMakeLists.txt
+oclint-rules/rules/cocoa/ObjCVerifySubclassMustImplementRule.cpp
+oclint-rules/test/cocoa/CMakeLists.txt
+oclint-rules/test/cocoa/ObjCVerifySubclassMustImplementRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ d861c4c7b1217ba98d2ce66012281580be074231 -> 8f8f70eeba1d63be5db83756bb0cdcbe6fc6a0bd } is a cherrypick
+{ 5cb3917a9d389a29543223efa143ca34ab4b5f0a -> b0a905143a8ce90f5b6b5fcf58239d41ee658d4e }
+Partial Cherry-pick commits SHA are -> 
+8f8f70eeba1d63be5db83756bb0cdcbe6fc6a0bd - cherrypick - b0a905143a8ce90f5b6b5fcf58239d41ee658d4e
+---> The cherrypicked commit sha is - 8f8f70eeba1d63be5db83756bb0cdcbe6fc6a0bd
+Commit message - ForEach loop and multiple init var decl are suppressed for short variable name rule
+---> The original commit sha is - b0a905143a8ce90f5b6b5fcf58239d41ee658d4e
+Commit message - Merge branch 'improvement-to-short-variable-name-rule' of https://github.com/lqi/oclint into lqi-improvement-to-short-variable-name-rule
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ 8d00dc652c2e63b78521e3e6d6e119897eebaae9 -> fe997fbc575511424a2e646cdc1a369eb6b65b90 } is a cherrypick
+{ 5cb3917a9d389a29543223efa143ca34ab4b5f0a -> b0a905143a8ce90f5b6b5fcf58239d41ee658d4e }
+Partial Cherry-pick commits SHA are -> 
+fe997fbc575511424a2e646cdc1a369eb6b65b90 - cherrypick - b0a905143a8ce90f5b6b5fcf58239d41ee658d4e
+---> The cherrypicked commit sha is - fe997fbc575511424a2e646cdc1a369eb6b65b90
+Commit message - Test cases cover the nested for loop
+---> The original commit sha is - b0a905143a8ce90f5b6b5fcf58239d41ee658d4e
+Commit message - Merge branch 'improvement-to-short-variable-name-rule' of https://github.com/lqi/oclint into lqi-improvement-to-short-variable-name-rule
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/test/naming/ShortVariableNameRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ 6e620f7ec26829ea99c75de172fb605ed638b6a5 -> f3ba4d824092a49700377eab9899f1447fc073e4 } is a cherrypick
+{ 05a3caabb0bc4ce42e0f40159e269aaf909a23a2 -> fe5ca678610fd23b343bbddf00c31b6dfc84d0e7 }
+Partial Cherry-pick commits SHA are -> 
+f3ba4d824092a49700377eab9899f1447fc073e4 - cherrypick - fe5ca678610fd23b343bbddf00c31b6dfc84d0e7
+---> The cherrypicked commit sha is - f3ba4d824092a49700377eab9899f1447fc073e4
+Commit message - Remove moved declaration from header
+---> The original commit sha is - fe5ca678610fd23b343bbddf00c31b6dfc84d0e7
+Commit message - Merge pull request #127 from aleffert/attribute-factor
+
+Factor attribute checking code and add a new attributeName property to RuleBase
+---> The files with partial_cherrypicks are:-
+oclint-core/include/oclint/RuleBase.h
+oclint-rules/include/oclint/helper/AttributeHelper.h
+oclint-rules/include/oclint/helper/EnforceHelper.h
+oclint-rules/lib/helper/AttributeHelper.cpp
+oclint-rules/lib/helper/CMakeLists.txt
+oclint-rules/lib/helper/EnforceHelper.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ 0170b66e567d1c92594865bff6653cdfcac5fcdd -> dd6819a0fe1d629e5ec55efc61af91d5a0470893 } is a cherrypick
+{ fbafc7c11320fb30d6bdef6ec355c55ef37c1f49 -> 05a3caabb0bc4ce42e0f40159e269aaf909a23a2 }
+Partial Cherry-pick commits SHA are -> 
+dd6819a0fe1d629e5ec55efc61af91d5a0470893 - cherrypick - 05a3caabb0bc4ce42e0f40159e269aaf909a23a2
+---> The cherrypicked commit sha is - dd6819a0fe1d629e5ec55efc61af91d5a0470893
+Commit message - Remove extra comma in CMakeLists for cocoa preventing rules from building
+---> The original commit sha is - 05a3caabb0bc4ce42e0f40159e269aaf909a23a2
+Commit message - Merge branch 'fix-cocoa-make' of https://github.com/aleffert/oclint into aleffert-fix-cocoa-make
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/cocoa/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ 93be970879fed602b2eb16b6e23d0e3a95bbc8f5 -> 4eae3b6ff5545761aa8a2719a95d14d67fa1aad5 } is a cherrypick
+{ dd6819a0fe1d629e5ec55efc61af91d5a0470893 -> fbafc7c11320fb30d6bdef6ec355c55ef37c1f49 }
+Partial Cherry-pick commits SHA are -> 
+4eae3b6ff5545761aa8a2719a95d14d67fa1aad5 - cherrypick - fbafc7c11320fb30d6bdef6ec355c55ef37c1f49
+---> The cherrypicked commit sha is - 4eae3b6ff5545761aa8a2719a95d14d67fa1aad5
+Commit message - Move ObjCAssignIvarOutsideAccessorsRuleTest from migration to convention
+---> The original commit sha is - fbafc7c11320fb30d6bdef6ec355c55ef37c1f49
+Commit message - Update parameter name after dogfooding
+---> The files with partial_cherrypicks are:-
+oclint-rules/lib/util/CMakeLists.txt
+oclint-rules/lib/util/StdUtil.cpp
+oclint-rules/rules/convention/ObjCAssignIvarOutsideAccessorsRule.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ 9139622c0408c23fc3fe9dc29040c87219284bb1 -> 5b180a072a71ab9fb497ab8a49f884999019ed6a } is a cherrypick
+{ dd6819a0fe1d629e5ec55efc61af91d5a0470893 -> fbafc7c11320fb30d6bdef6ec355c55ef37c1f49 }
+Partial Cherry-pick commits SHA are -> 
+5b180a072a71ab9fb497ab8a49f884999019ed6a - cherrypick - fbafc7c11320fb30d6bdef6ec355c55ef37c1f49
+---> The cherrypicked commit sha is - 5b180a072a71ab9fb497ab8a49f884999019ed6a
+Commit message - Merge branch 'assign-ivars' of https://github.com/aleffert/oclint into aleffert-assign-ivars
+---> The original commit sha is - fbafc7c11320fb30d6bdef6ec355c55ef37c1f49
+Commit message - Update parameter name after dogfooding
+---> The files with partial_cherrypicks are:-
+oclint-rules/lib/util/CMakeLists.txt
+oclint-rules/lib/util/StdUtil.cpp
+oclint-rules/rules/convention/CMakeLists.txt
+oclint-rules/rules/convention/ObjCAssignIvarOutsideAccessorsRule.cpp
+oclint-rules/test/convention/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ 4eae3b6ff5545761aa8a2719a95d14d67fa1aad5 -> bca4b73412dbfdc6fb9e8abcbd10e1331ffc6d18 } is a cherrypick
+{ 0170b66e567d1c92594865bff6653cdfcac5fcdd -> dd6819a0fe1d629e5ec55efc61af91d5a0470893 }
+Partial Cherry-pick commits SHA are -> 
+bca4b73412dbfdc6fb9e8abcbd10e1331ffc6d18 - cherrypick - dd6819a0fe1d629e5ec55efc61af91d5a0470893
+---> The cherrypicked commit sha is - bca4b73412dbfdc6fb9e8abcbd10e1331ffc6d18
+Commit message - Add attributeName method to RuleBase
+---> The original commit sha is - dd6819a0fe1d629e5ec55efc61af91d5a0470893
+Commit message - Remove extra comma in CMakeLists for cocoa preventing rules from building
+---> The files with partial_cherrypicks are:-
+oclint-rules/include/oclint/util/StdUtil.h
+oclint-rules/lib/util/CMakeLists.txt
+oclint-rules/lib/util/StdUtil.cpp
+oclint-rules/rules/convention/ObjCAssignIvarOutsideAccessorsRule.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ 4eae3b6ff5545761aa8a2719a95d14d67fa1aad5 -> bca4b73412dbfdc6fb9e8abcbd10e1331ffc6d18 } is a cherrypick
+{ 5b180a072a71ab9fb497ab8a49f884999019ed6a -> 5c3c562e6aa7d666b313997d4472ebb1cb526043 }
+Partial Cherry-pick commits SHA are -> 
+bca4b73412dbfdc6fb9e8abcbd10e1331ffc6d18 - cherrypick - 5c3c562e6aa7d666b313997d4472ebb1cb526043
+---> The cherrypicked commit sha is - bca4b73412dbfdc6fb9e8abcbd10e1331ffc6d18
+Commit message - Add attributeName method to RuleBase
+---> The original commit sha is - 5c3c562e6aa7d666b313997d4472ebb1cb526043
+Commit message - Minor changes from review
+---> The files with partial_cherrypicks are:-
+oclint-core/include/oclint/RuleBase.h
+oclint-rules/include/oclint/util/StdUtil.h
+oclint-rules/lib/helper/CMakeLists.txt
+oclint-rules/lib/util/CMakeLists.txt
+oclint-rules/lib/util/StdUtil.cpp
+oclint-rules/rules/convention/ObjCAssignIvarOutsideAccessorsRule.cpp
+oclint-rules/test/convention/ObjCAssignIvarOutsideAccessorsRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ c5b24639b45e2c3a2f6e396eb978aa58b69eac62 -> 5040438b1a1545876c7bcae959c6946b4ccd5dab } is a cherrypick
+{ 3f06d357ca79a0b87e884a1f8f91ea3a2ed446fe -> 8ef11c452e77ef6317c653a9dffed51c0a7189e6 }
+Partial Cherry-pick commits SHA are -> 
+5040438b1a1545876c7bcae959c6946b4ccd5dab - cherrypick - 8ef11c452e77ef6317c653a9dffed51c0a7189e6
+---> The cherrypicked commit sha is - 5040438b1a1545876c7bcae959c6946b4ccd5dab
+Commit message - FeatureEnvy: custom -> design
+---> The original commit sha is - 8ef11c452e77ef6317c653a9dffed51c0a7189e6
+Commit message - Merge branch 'FeatureEnvy2' of https://github.com/joekain/oclint into joekain-FeatureEnvy2
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/design/CMakeLists.txt
+oclint-rules/test/design/CMakeLists.txt
+oclint-rules/test/design/FeatureEnvyRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ 9e272880ebcb18b106839b93a8f3bc3359853f35 -> 3cab1b71ba682f95e33387de575e5cd55773ba38 } is a cherrypick
+{ 3f06d357ca79a0b87e884a1f8f91ea3a2ed446fe -> 8ef11c452e77ef6317c653a9dffed51c0a7189e6 }
+Partial Cherry-pick commits SHA are -> 
+3cab1b71ba682f95e33387de575e5cd55773ba38 - cherrypick - 8ef11c452e77ef6317c653a9dffed51c0a7189e6
+---> The cherrypicked commit sha is - 3cab1b71ba682f95e33387de575e5cd55773ba38
+Commit message - FeatureEnvy: Comment out all C++ analysis
+---> The original commit sha is - 8ef11c452e77ef6317c653a9dffed51c0a7189e6
+Commit message - Merge branch 'FeatureEnvy2' of https://github.com/joekain/oclint into joekain-FeatureEnvy2
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/CMakeLists.txt
+oclint-rules/rules/design/CMakeLists.txt
+oclint-rules/test/design/CMakeLists.txt
+oclint-rules/test/design/FeatureEnvyRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ 070b0a6ea25ba8a3a70840a3ce55e01e54a27e72 -> 8f52c85bd9eb133664401d1b8f5cb0ea849288c5 } is a cherrypick
+{ 85a27d52e6d14af9b34739eea3ba3a7349302d3b -> 3f06d357ca79a0b87e884a1f8f91ea3a2ed446fe }
+Partial Cherry-pick commits SHA are -> 
+8f52c85bd9eb133664401d1b8f5cb0ea849288c5 - cherrypick - 3f06d357ca79a0b87e884a1f8f91ea3a2ed446fe
+---> The cherrypicked commit sha is - 8f52c85bd9eb133664401d1b8f5cb0ea849288c5
+Commit message - Show verbose message for broken build due to number of violations exceeding threshold
+---> The original commit sha is - 3f06d357ca79a0b87e884a1f8f91ea3a2ed446fe
+Commit message - Merge pull request #119 from lqi/verbose-message-for-broken-execution
+
+Show verbose message for broken build
+---> The files with partial_cherrypicks are:-
+oclint-driver/main.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ 73c624524b23e4d465991f3b9fd04daeb5e100cc -> 6739bc02be292f46d6886e9edcb04593fe8098b6 } is a cherrypick
+{ 7aa7b109462e5bb2e1bc6b0fbf835cf23d78c212 -> 8380b24d63b217196575eefc02a8a5e9b66d6197 }
+Partial Cherry-pick commits SHA are -> 
+6739bc02be292f46d6886e9edcb04593fe8098b6 - cherrypick - 8380b24d63b217196575eefc02a8a5e9b66d6197
+---> The cherrypicked commit sha is - 6739bc02be292f46d6886e9edcb04593fe8098b6
+Commit message - Change style : use `!` instead of `== false`.
+---> The original commit sha is - 8380b24d63b217196575eefc02a8a5e9b66d6197
+Commit message - Merge pull request #102 from Jarod42/WarningFix
+
+Fix some warnings
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/test/headers/TestRuleOnCode.h
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ 7268b06704233070aa181f929afa5c4bc7bcf8a3 -> e3e2e2accf55bc7954a0c9008efeb7848933b6e4 } is a cherrypick
+{ c728dafe63a4a127218b1a916841c6b38cd94485 -> 7aa7b109462e5bb2e1bc6b0fbf835cf23d78c212 }
+Partial Cherry-pick commits SHA are -> 
+e3e2e2accf55bc7954a0c9008efeb7848933b6e4 - cherrypick - 7aa7b109462e5bb2e1bc6b0fbf835cf23d78c212
+---> The cherrypicked commit sha is - e3e2e2accf55bc7954a0c9008efeb7848933b6e4
+Commit message - Add new rule DeleteNullptrIsSafeRule.
+Add testRuleOnCXX11Code to test c++11 code.
+---> The original commit sha is - 7aa7b109462e5bb2e1bc6b0fbf835cf23d78c212
+Commit message - Merge pull request #105 from Jarod42/TestC++11
+
+Add testRuleOnCXX11Code to be able to test c++11 code.
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/headers/TestRuleOnCode.h
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ 3d8e826795d67de50ca3e98f6866271acc8baed1 -> 66bdf061fe8418a861af1f10dabf57d6fd483eb6 } is a cherrypick
+{ c728dafe63a4a127218b1a916841c6b38cd94485 -> 7aa7b109462e5bb2e1bc6b0fbf835cf23d78c212 }
+Partial Cherry-pick commits SHA are -> 
+66bdf061fe8418a861af1f10dabf57d6fd483eb6 - cherrypick - 7aa7b109462e5bb2e1bc6b0fbf835cf23d78c212
+---> The cherrypicked commit sha is - 66bdf061fe8418a861af1f10dabf57d6fd483eb6
+Commit message - Fix oclint violations.
+---> The original commit sha is - 7aa7b109462e5bb2e1bc6b0fbf835cf23d78c212
+Commit message - Merge pull request #105 from Jarod42/TestC++11
+
+Add testRuleOnCXX11Code to be able to test c++11 code.
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/headers/TestRuleOnCode.h
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ 552b170df9289ade5aeea4ae64bdc484727a5d66 -> 3d8e826795d67de50ca3e98f6866271acc8baed1 } is a cherrypick
+{ e02d35f0a8e3ceed89738c6613982bb85b0141c8 -> b6221a263353b5220530680fa307864db71f7287 }
+Partial Cherry-pick commits SHA are -> 
+3d8e826795d67de50ca3e98f6866271acc8baed1 - cherrypick - b6221a263353b5220530680fa307864db71f7287
+---> The cherrypicked commit sha is - 3d8e826795d67de50ca3e98f6866271acc8baed1
+Commit message - Fix according to latest RowComment API changes
+---> The original commit sha is - b6221a263353b5220530680fa307864db71f7287
+Commit message - Merge pull request #101 from Jarod42/GccWarningFix
+
+Fix some gcc warnings.
+---> The files with partial_cherrypicks are:-
+oclint-rules/lib/helper/SuppressHelper.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 49 is -> 
+{ 66dc9fb8e0f54c4a6c7e4db8636d06ae29d0f504 -> a32f6dffe161faca7b3926ba74a90cca27172518 } is a cherrypick
+{ 4eec2c8c3068635242993f7884dc519b1dc83609 -> e10080d7a0026e33d8d0fc3a4df16b016b37d30e }
+Partial Cherry-pick commits SHA are -> 
+a32f6dffe161faca7b3926ba74a90cca27172518 - cherrypick - e10080d7a0026e33d8d0fc3a4df16b016b37d30e
+---> The cherrypicked commit sha is - a32f6dffe161faca7b3926ba74a90cca27172518
+Commit message - Fix test script for python 3.X
+---> The original commit sha is - e10080d7a0026e33d8d0fc3a4df16b016b37d30e
+Commit message - Merge branch 'Fix_for_python_3.X' of https://github.com/Jarod42/oclint into Jarod42-Fix_for_python_3.X
+---> The files with partial_cherrypicks are:-
+oclint-scripts/test
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 50 is -> 
+{ 62ed2ba750c8a140be0a6120d5782bae114708dd -> 3c4b2386f82382ea6f077e24ce94f27a0a8b2ed5 } is a cherrypick
+{ 13ec39b8e60336b253d7ba987b53a1405bea1a2f -> 7a4e29536e112b56940312475c919abbfb551823 }
+Partial Cherry-pick commits SHA are -> 
+3c4b2386f82382ea6f077e24ce94f27a0a8b2ed5 - cherrypick - 7a4e29536e112b56940312475c919abbfb551823
+---> The cherrypicked commit sha is - 3c4b2386f82382ea6f077e24ce94f27a0a8b2ed5
+Commit message - Generate test in scaffoldReporter.py
+
+Adds a new --test command line argument that controlls generating
+tests.  Includes validation to protect against overwriting existing
+tests.
+---> The original commit sha is - 7a4e29536e112b56940312475c919abbfb551823
+Commit message - Merge branch 'scaffold-tests' of https://github.com/joekain/oclint into joekain-scaffold-tests
+---> The files with partial_cherrypicks are:-
+oclint-reporters/template/ReporterTest.tmpl
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 51 is -> 
+{ 3ac3fae49b595844134e2de2eb76fab94dc2040b -> 87122beea00f9b61936531a754eafd569f389dbd } is a cherrypick
+{ fa74bb1785f89587d075fca569b4f612a09c3be5 -> ec9a67a44c669ca944637c9e6581939d5fe23da6 }
+Partial Cherry-pick commits SHA are -> 
+87122beea00f9b61936531a754eafd569f389dbd - cherrypick - ec9a67a44c669ca944637c9e6581939d5fe23da6
+---> The cherrypicked commit sha is - 87122beea00f9b61936531a754eafd569f389dbd
+Commit message - Add line break after output.
+---> The original commit sha is - ec9a67a44c669ca944637c9e6581939d5fe23da6
+Commit message - Merge pull request #78 from nschum/config
+
+Configuration persistence
+---> The files with partial_cherrypicks are:-
+.gitignore
+oclint-core/lib/CMakeLists.txt
+oclint-core/test/CMakeLists.txt
+oclint-driver/include/oclint/ConfigFile.h
+oclint-driver/include/oclint/Options.h
+oclint-driver/include/oclint/RulesetFilter.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/ConfigFile.cpp
+oclint-driver/lib/RulesetFilter.cpp
+oclint-driver/main.cpp
+oclint-reporters/reporters/CMakeLists.txt
+oclint-reporters/reporters/HTMLReporter.cpp
+oclint-reporters/reporters/JSONReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-rules/rules/CMakeLists.txt
+oclint-rules/test/CMakeLists.txt
+oclint-scripts/build
+oclint-scripts/buildAll.sh
+oclint-scripts/buildClang.sh
+oclint-scripts/buildCore.sh
+oclint-scripts/buildDriver.sh
+oclint-scripts/buildGoogleTest.sh
+oclint-scripts/buildMetrics.sh
+oclint-scripts/buildRelease.sh
+oclint-scripts/buildReporters.sh
+oclint-scripts/buildRules.sh
+oclint-scripts/bundle
+oclint-scripts/champagneDrinking
+oclint-scripts/checkoutGoogleTest.sh
+oclint-scripts/checkoutLLVMClang.sh
+oclint-scripts/clang
+oclint-scripts/dogFooding.sh
+oclint-scripts/googleTest
+oclint-scripts/oclintscripts/environment.py
+oclint-scripts/oclintscripts/path.py
+oclint-scripts/oclintscripts/version.py
+oclint-scripts/scaffoldReporter
+oclint-scripts/scaffoldReporter.py
+oclint-scripts/scaffoldRule
+oclint-scripts/scaffoldRule.py
+oclint-scripts/showTestResults.sh
+oclint-scripts/test
+oclint-scripts/testAll.sh
+oclint-scripts/testCore.sh
+oclint-scripts/testMetrics.sh
+oclint-scripts/testReporters.sh
+oclint-scripts/testRules.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 52 is -> 
+{ a1e9728520ef6b72d35f624110a612a8543252a1 -> 063269f09dcc0578f2a32a1f6c78a5801e44e052 } is a cherrypick
+{ b65f1860ea49d5234e0ff208a2b0c588d9d317c7 -> a9c05f05de4f244508fd9ac83ceb8338b8d28605 }
+Partial Cherry-pick commits SHA are -> 
+063269f09dcc0578f2a32a1f6c78a5801e44e052 - cherrypick - a9c05f05de4f244508fd9ac83ceb8338b8d28605
+---> The cherrypicked commit sha is - 063269f09dcc0578f2a32a1f6c78a5801e44e052
+Commit message - Merge with recent c++11 changes
+---> The original commit sha is - a9c05f05de4f244508fd9ac83ceb8338b8d28605
+Commit message - Fix the linking error
+---> The files with partial_cherrypicks are:-
+oclint-driver/include/oclint/RulesetFilter.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/RulesetFilter.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 53 is -> 
+{ a8a728f5f7a6384ee55ac601809b4a43ab991208 -> 3b7cd88c37df1296ffc68e518dcc09a297a91449 } is a cherrypick
+{ b65f1860ea49d5234e0ff208a2b0c588d9d317c7 -> a9c05f05de4f244508fd9ac83ceb8338b8d28605 }
+Partial Cherry-pick commits SHA are -> 
+3b7cd88c37df1296ffc68e518dcc09a297a91449 - cherrypick - a9c05f05de4f244508fd9ac83ceb8338b8d28605
+---> The cherrypicked commit sha is - 3b7cd88c37df1296ffc68e518dcc09a297a91449
+Commit message - Use _WIN32 instead of WIN32
+---> The original commit sha is - a9c05f05de4f244508fd9ac83ceb8338b8d28605
+Commit message - Fix the linking error
+---> The files with partial_cherrypicks are:-
+oclint-driver/include/oclint/ConfigFile.h
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 54 is -> 
+{ f7bc056fdfd31de1651a6052ec77e0c182249e6b -> 39739b49832562f5815000d100ba15992cdb5ad1 } is a cherrypick
+{ 116c7b9ca97eebc374936e5fd84f49eecb54677c -> edcc4c95310d23a91f18862ca6130b3fd07bec41 }
+Partial Cherry-pick commits SHA are -> 
+39739b49832562f5815000d100ba15992cdb5ad1 - cherrypick - edcc4c95310d23a91f18862ca6130b3fd07bec41
+---> The cherrypicked commit sha is - 39739b49832562f5815000d100ba15992cdb5ad1
+Commit message - Add config file struct and yaml mapping.
+---> The original commit sha is - edcc4c95310d23a91f18862ca6130b3fd07bec41
+Commit message - Merge branch 'master' of https://github.com/Jarod42/oclint into windows
+---> The files with partial_cherrypicks are:-
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-driver/include/oclint/Options.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/include/oclint/RulesetFilter.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/Driver.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-driver/lib/RulesetFilter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/headers/TestRuleOnCode.h
+oclint-rules/test/helper/CMakeLists.txt
+oclint-rules/test/helper/SuppressHelperTest.cpp
+oclint-rules/test/unused/UnusedMethodParameterRuleTest.cpp
+oclint-scripts/dogFooding.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 55 is -> 
+{ 3b7cd88c37df1296ffc68e518dcc09a297a91449 -> 5f6f4d0a39348764fa7bfc6c43d03b79d32894ff } is a cherrypick
+{ 116c7b9ca97eebc374936e5fd84f49eecb54677c -> edcc4c95310d23a91f18862ca6130b3fd07bec41 }
+Partial Cherry-pick commits SHA are -> 
+5f6f4d0a39348764fa7bfc6c43d03b79d32894ff - cherrypick - edcc4c95310d23a91f18862ca6130b3fd07bec41
+---> The cherrypicked commit sha is - 5f6f4d0a39348764fa7bfc6c43d03b79d32894ff
+Commit message - Merge from Jarod42/master
+---> The original commit sha is - edcc4c95310d23a91f18862ca6130b3fd07bec41
+Commit message - Merge branch 'master' of https://github.com/Jarod42/oclint into windows
+---> The files with partial_cherrypicks are:-
+oclint-core/cmake/OCLintConfig.cmake
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-driver/include/oclint/Options.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/include/oclint/RulesetFilter.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/Driver.cpp
+oclint-driver/lib/Options.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-driver/lib/RulesetFilter.cpp
+oclint-driver/main.cpp
+oclint-reporters/reporters/HTMLReporter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/test/CMakeLists.txt
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/headers/TestRuleOnCode.h
+oclint-rules/test/helper/CMakeLists.txt
+oclint-rules/test/helper/SuppressHelperTest.cpp
+oclint-rules/test/unused/UnusedMethodParameterRuleTest.cpp
+oclint-scripts/buildClang.sh
+oclint-scripts/buildGoogleTest.sh
+oclint-scripts/dogFooding.sh
+oclint-scripts/testCore.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 56 is -> 
+{ 6a7cc07fc21e1516c930c04964294384410b3b20 -> f7bc056fdfd31de1651a6052ec77e0c182249e6b } is a cherrypick
+{ 473136b3ec1316b99eef3b34838e1605d362a842 -> cb78571d62825a9ce6ad09757278daba094f164f }
+Partial Cherry-pick commits SHA are -> 
+f7bc056fdfd31de1651a6052ec77e0c182249e6b - cherrypick - cb78571d62825a9ce6ad09757278daba094f164f
+---> The cherrypicked commit sha is - f7bc056fdfd31de1651a6052ec77e0c182249e6b
+Commit message - Add missing $EXTRA to exclude compiler-rt from the build with mingw
+---> The original commit sha is - cb78571d62825a9ce6ad09757278daba094f164f
+Commit message - Replace $<TARGET_FILE:OCLintRuleSet> by "${OCLINT_BUILD_DIR}/bin/libOCLintRuleSet.dll"
+since $<TARGET_FILE:OCLintRuleSet> is undefined in CMakeLists.txt of rules.
+---> The files with partial_cherrypicks are:-
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-driver/include/oclint/Options.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/include/oclint/RulesetFilter.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/Driver.cpp
+oclint-driver/lib/Options.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-driver/lib/RulesetFilter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/headers/TestRuleOnCode.h
+oclint-rules/test/helper/CMakeLists.txt
+oclint-rules/test/helper/SuppressHelperTest.cpp
+oclint-rules/test/unused/UnusedMethodParameterRuleTest.cpp
+oclint-scripts/dogFooding.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 57 is -> 
+{ a8a728f5f7a6384ee55ac601809b4a43ab991208 -> 3b7cd88c37df1296ffc68e518dcc09a297a91449 } is a cherrypick
+{ 473136b3ec1316b99eef3b34838e1605d362a842 -> cb78571d62825a9ce6ad09757278daba094f164f }
+Partial Cherry-pick commits SHA are -> 
+3b7cd88c37df1296ffc68e518dcc09a297a91449 - cherrypick - cb78571d62825a9ce6ad09757278daba094f164f
+---> The cherrypicked commit sha is - 3b7cd88c37df1296ffc68e518dcc09a297a91449
+Commit message - Use _WIN32 instead of WIN32
+---> The original commit sha is - cb78571d62825a9ce6ad09757278daba094f164f
+Commit message - Replace $<TARGET_FILE:OCLintRuleSet> by "${OCLINT_BUILD_DIR}/bin/libOCLintRuleSet.dll"
+since $<TARGET_FILE:OCLintRuleSet> is undefined in CMakeLists.txt of rules.
+---> The files with partial_cherrypicks are:-
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/Driver.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/headers/TestRuleOnCode.h
+oclint-rules/test/helper/CMakeLists.txt
+oclint-rules/test/helper/SuppressHelperTest.cpp
+oclint-rules/test/unused/UnusedMethodParameterRuleTest.cpp
+oclint-scripts/dogFooding.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 58 is -> 
+{ f7bc056fdfd31de1651a6052ec77e0c182249e6b -> 39739b49832562f5815000d100ba15992cdb5ad1 } is a cherrypick
+{ 3b7cd88c37df1296ffc68e518dcc09a297a91449 -> 5f6f4d0a39348764fa7bfc6c43d03b79d32894ff }
+Partial Cherry-pick commits SHA are -> 
+39739b49832562f5815000d100ba15992cdb5ad1 - cherrypick - 5f6f4d0a39348764fa7bfc6c43d03b79d32894ff
+---> The cherrypicked commit sha is - 39739b49832562f5815000d100ba15992cdb5ad1
+Commit message - Add config file struct and yaml mapping.
+---> The original commit sha is - 5f6f4d0a39348764fa7bfc6c43d03b79d32894ff
+Commit message - Merge from Jarod42/master
+---> The files with partial_cherrypicks are:-
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-driver/include/oclint/Options.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/include/oclint/RulesetFilter.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/Driver.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-driver/lib/RulesetFilter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/headers/TestRuleOnCode.h
+oclint-rules/test/helper/CMakeLists.txt
+oclint-rules/test/helper/SuppressHelperTest.cpp
+oclint-rules/test/unused/UnusedMethodParameterRuleTest.cpp
+oclint-scripts/dogFooding.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 59 is -> 
+{ e8cf53be2ab23a49d40406f0dfdac814c389b320 -> a63b4b56e214556706889a9b027a0da87dfd2eae } is a cherrypick
+{ d6bfa7cbfeb971a6c1fc3e818cfffff7f561076d -> fa0a8cbed2a495d515030b8b885f696691ab57f1 }
+Partial Cherry-pick commits SHA are -> 
+a63b4b56e214556706889a9b027a0da87dfd2eae - cherrypick - fa0a8cbed2a495d515030b8b885f696691ab57f1
+---> The cherrypicked commit sha is - a63b4b56e214556706889a9b027a0da87dfd2eae
+Commit message - Save the suppression against ast context
+---> The original commit sha is - fa0a8cbed2a495d515030b8b885f696691ab57f1
+Commit message - Merge branch 'master' of https://github.com/oclint/oclint into better-suppress
+---> The files with partial_cherrypicks are:-
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/test/helper/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 60 is -> 
+{ a4b378c097a83b157a56a96787214783b5e97d3f -> 234e9a0d21b3f53abedba6a2eb83496c1caabb68 } is a cherrypick
+{ d6bfa7cbfeb971a6c1fc3e818cfffff7f561076d -> fa0a8cbed2a495d515030b8b885f696691ab57f1 }
+Partial Cherry-pick commits SHA are -> 
+234e9a0d21b3f53abedba6a2eb83496c1caabb68 - cherrypick - fa0a8cbed2a495d515030b8b885f696691ab57f1
+---> The cherrypicked commit sha is - 234e9a0d21b3f53abedba6a2eb83496c1caabb68
+Commit message - Merge from upstream/master
+---> The original commit sha is - fa0a8cbed2a495d515030b8b885f696691ab57f1
+Commit message - Merge branch 'master' of https://github.com/oclint/oclint into better-suppress
+---> The files with partial_cherrypicks are:-
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/test/helper/CMakeLists.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 61 is -> 
+{ e8cf53be2ab23a49d40406f0dfdac814c389b320 -> a63b4b56e214556706889a9b027a0da87dfd2eae } is a cherrypick
+{ a4b378c097a83b157a56a96787214783b5e97d3f -> 234e9a0d21b3f53abedba6a2eb83496c1caabb68 }
+Partial Cherry-pick commits SHA are -> 
+a63b4b56e214556706889a9b027a0da87dfd2eae - cherrypick - 234e9a0d21b3f53abedba6a2eb83496c1caabb68
+---> The cherrypicked commit sha is - a63b4b56e214556706889a9b027a0da87dfd2eae
+Commit message - Save the suppression against ast context
+---> The original commit sha is - 234e9a0d21b3f53abedba6a2eb83496c1caabb68
+Commit message - Merge from upstream/master
+---> The files with partial_cherrypicks are:-
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/test/CMakeLists.txt
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/headers/TestRuleOnCode.h
+oclint-rules/test/helper/CMakeLists.txt
+oclint-rules/test/helper/SuppressHelperTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 62 is -> 
+{ 4901fa2e143e48387d13769fb4a785a7b2c9ca33 -> 3e21209b8dd92fa78406883d8505355633ee9379 } is a cherrypick
+{ a1191c225fc3f7b6c693df62e8200fad7219878a -> 8652da46c906c9adda3a71385967649297383715 }
+Partial Cherry-pick commits SHA are -> 
+3e21209b8dd92fa78406883d8505355633ee9379 - cherrypick - 8652da46c906c9adda3a71385967649297383715
+---> The cherrypicked commit sha is - 3e21209b8dd92fa78406883d8505355633ee9379
+Commit message - Make global analysis optional
+---> The original commit sha is - 8652da46c906c9adda3a71385967649297383715
+Commit message - Merge pull request #70 from lqi/isa-dyn_cast-null-check
+
+Use dyn_cast_or_null API, and complement null check for isa<> and dyn_cast<>
+---> The files with partial_cherrypicks are:-
+oclint-driver/include/oclint/RulesetFilter.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/RulesetFilter.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 63 is -> 
+{ e594825857d17b8de246c535ef60cad46d4dd54b -> da733bc76616a079a3f22e6c6655a124f611423e } is a cherrypick
+{ a1191c225fc3f7b6c693df62e8200fad7219878a -> 8652da46c906c9adda3a71385967649297383715 }
+Partial Cherry-pick commits SHA are -> 
+da733bc76616a079a3f22e6c6655a124f611423e - cherrypick - 8652da46c906c9adda3a71385967649297383715
+---> The cherrypicked commit sha is - da733bc76616a079a3f22e6c6655a124f611423e
+Commit message - Fix long line code
+---> The original commit sha is - 8652da46c906c9adda3a71385967649297383715
+Commit message - Merge pull request #70 from lqi/isa-dyn_cast-null-check
+
+Use dyn_cast_or_null API, and complement null check for isa<> and dyn_cast<>
+---> The files with partial_cherrypicks are:-
+oclint-driver/include/oclint/Options.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/include/oclint/RulesetFilter.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/Options.cpp
+oclint-driver/lib/RulesetFilter.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 64 is -> 
+{ 3e21209b8dd92fa78406883d8505355633ee9379 -> e594825857d17b8de246c535ef60cad46d4dd54b } is a cherrypick
+{ 553e6e879e046bc9bcb100ce2a86d41eb2667d02 -> e8cf53be2ab23a49d40406f0dfdac814c389b320 }
+Partial Cherry-pick commits SHA are -> 
+e594825857d17b8de246c535ef60cad46d4dd54b - cherrypick - e8cf53be2ab23a49d40406f0dfdac814c389b320
+---> The cherrypicked commit sha is - e594825857d17b8de246c535ef60cad46d4dd54b
+Commit message - Fix scripts to work with minGW.
+---> The original commit sha is - e8cf53be2ab23a49d40406f0dfdac814c389b320
+Commit message - Fix test build (coverage issue) with mingw.
+---> The files with partial_cherrypicks are:-
+oclint-core/lib/Results.cpp
+oclint-driver/include/oclint/RulesetFilter.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/RulesetFilter.cpp
+oclint-driver/main.cpp
+oclint-reporters/reporters/JSONReporter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/rules/CMakeLists.txt
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-scripts/buildClang.sh
+oclint-scripts/buildCore.sh
+oclint-scripts/buildDriver.sh
+oclint-scripts/buildGoogleTest.sh
+oclint-scripts/buildMetrics.sh
+oclint-scripts/buildReporters.sh
+oclint-scripts/buildRules.sh
+oclint-scripts/dogFooding.sh
+oclint-scripts/testMetrics.sh
+oclint-scripts/testReporters.sh
+oclint-scripts/testRules.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 65 is -> 
+{ 14b8364f1bb1a097f93a3d45dd3be8d4d09e82e6 -> f3dc8b1cad0fde3be4e9cd5aa4af88640006024b } is a cherrypick
+{ 0878101e87d7dc1bad5649e192efc3ae71ed1334 -> 62693b66037f3fb7f809fa5bfd9a56deb45b2bf1 }
+Partial Cherry-pick commits SHA are -> 
+f3dc8b1cad0fde3be4e9cd5aa4af88640006024b - cherrypick - 62693b66037f3fb7f809fa5bfd9a56deb45b2bf1
+---> The cherrypicked commit sha is - f3dc8b1cad0fde3be4e9cd5aa4af88640006024b
+Commit message - Use range-for
+---> The original commit sha is - 62693b66037f3fb7f809fa5bfd9a56deb45b2bf1
+Commit message - Merge latest master changes to c++11-migrate
+---> The files with partial_cherrypicks are:-
+oclint-core/cmake/OCLintConfig.cmake
+oclint-core/lib/Results.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-reporters/reporters/HTMLReporter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 66 is -> 
+{ 67b0bdf6f62b6b60a56da13a1a67216e903d6700 -> 237b178e2e7341493a92e8ed0a6b182594a4fb0d } is a cherrypick
+{ c321d931d389dbf9f0a083bbd65b613b619f2005 -> d09e807eb880fcfe1072f7e8ce1c80846536ff25 }
+Partial Cherry-pick commits SHA are -> 
+237b178e2e7341493a92e8ed0a6b182594a4fb0d - cherrypick - d09e807eb880fcfe1072f7e8ce1c80846536ff25
+---> The cherrypicked commit sha is - 237b178e2e7341493a92e8ed0a6b182594a4fb0d
+Commit message - Fix the duplicated matchers issue
+---> The original commit sha is - d09e807eb880fcfe1072f7e8ce1c80846536ff25
+Commit message - Merge pull request #69 from lqi/duplicated-matchers-patch
+
+Fix the duplicated matchers issue
+---> The files with partial_cherrypicks are:-
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 67 is -> 
+{ dd72fa24c4e3a99a72d15ac4e793340c05f2b225 -> f792dc0813b4898a9844df6db261802449f461c9 } is a cherrypick
+{ e216f7dd6020a02e212fadabc579d1cd002c71bb -> 53b2395f58f278e4b1acac159eb108954d3d9c18 }
+Partial Cherry-pick commits SHA are -> 
+f792dc0813b4898a9844df6db261802449f461c9 - cherrypick - 53b2395f58f278e4b1acac159eb108954d3d9c18
+---> The cherrypicked commit sha is - f792dc0813b4898a9844df6db261802449f461c9
+Commit message - Add datetime to XML reporter
+---> The original commit sha is - 53b2395f58f278e4b1acac159eb108954d3d9c18
+Commit message - Remove buildClangTooling.sh, it is no long used
+---> The files with partial_cherrypicks are:-
+oclint-scripts/buildClangTooling.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 68 is -> 
+{ e802b6c6f259f8ae5cabde0727d9834c6eb63494 -> 720228b63fe610a725a570f56a5fadeeb0686ccc } is a cherrypick
+{ fe3739727daddb7d28e511da3f3ea845a14e0280 -> e216f7dd6020a02e212fadabc579d1cd002c71bb }
+Partial Cherry-pick commits SHA are -> 
+720228b63fe610a725a570f56a5fadeeb0686ccc - cherrypick - e216f7dd6020a02e212fadabc579d1cd002c71bb
+---> The cherrypicked commit sha is - 720228b63fe610a725a570f56a5fadeeb0686ccc
+Commit message - Fix the false positive for redundant nil check
+---> The original commit sha is - e216f7dd6020a02e212fadabc579d1cd002c71bb
+Commit message - Merge from lqi/driver_module
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 69 is -> 
+{ 3d0cb8899b17bbf5f34a3600d808b13bc6d19d28 -> cecc877bc260874436a247ef794879238a0dcd00 } is a cherrypick
+{ fe3739727daddb7d28e511da3f3ea845a14e0280 -> e216f7dd6020a02e212fadabc579d1cd002c71bb }
+Partial Cherry-pick commits SHA are -> 
+cecc877bc260874436a247ef794879238a0dcd00 - cherrypick - e216f7dd6020a02e212fadabc579d1cd002c71bb
+---> The cherrypicked commit sha is - cecc877bc260874436a247ef794879238a0dcd00
+Commit message - Added setUp and tearDown in ASTVisitor rule template
+---> The original commit sha is - e216f7dd6020a02e212fadabc579d1cd002c71bb
+Commit message - Merge from lqi/driver_module
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 70 is -> 
+{ d450fbc34ad2bc0611928692ae672ae2ebc627cd -> 3008b96b7bf690ae24fe3f546a061c70c6c41345 } is a cherrypick
+{ fe3739727daddb7d28e511da3f3ea845a14e0280 -> e216f7dd6020a02e212fadabc579d1cd002c71bb }
+Partial Cherry-pick commits SHA are -> 
+3008b96b7bf690ae24fe3f546a061c70c6c41345 - cherrypick - e216f7dd6020a02e212fadabc579d1cd002c71bb
+---> The cherrypicked commit sha is - 3008b96b7bf690ae24fe3f546a061c70c6c41345
+Commit message - Updates according to llvm changes
+---> The original commit sha is - e216f7dd6020a02e212fadabc579d1cd002c71bb
+Commit message - Merge from lqi/driver_module
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 71 is -> 
+{ 87a5c210768573c32fd6053880b23649e0b9aa28 -> 6c04284c59b94273a866ef0fd11585b7dcab34da } is a cherrypick
+{ fe3739727daddb7d28e511da3f3ea845a14e0280 -> e216f7dd6020a02e212fadabc579d1cd002c71bb }
+Partial Cherry-pick commits SHA are -> 
+6c04284c59b94273a866ef0fd11585b7dcab34da - cherrypick - e216f7dd6020a02e212fadabc579d1cd002c71bb
+---> The cherrypicked commit sha is - 6c04284c59b94273a866ef0fd11585b7dcab34da
+Commit message - Update driver code to use LLVM's Option library
+---> The original commit sha is - e216f7dd6020a02e212fadabc579d1cd002c71bb
+Commit message - Merge from lqi/driver_module
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 72 is -> 
+{ 196ed81f3a7f0290da05c9d02092537eadc63701 -> 3d0cb8899b17bbf5f34a3600d808b13bc6d19d28 } is a cherrypick
+{ 6c04284c59b94273a866ef0fd11585b7dcab34da -> de669598a4e5abf9861af9d4f978e0debd0f37f3 }
+Partial Cherry-pick commits SHA are -> 
+3d0cb8899b17bbf5f34a3600d808b13bc6d19d28 - cherrypick - de669598a4e5abf9861af9d4f978e0debd0f37f3
+---> The cherrypicked commit sha is - 3d0cb8899b17bbf5f34a3600d808b13bc6d19d28
+Commit message - Remove Program::
+---> The original commit sha is - de669598a4e5abf9861af9d4f978e0debd0f37f3
+Commit message - Update driver code to use LLVM's Option library
+---> The files with partial_cherrypicks are:-
+oclint-clang-tooling/CMakeLists.txt
+oclint-core/include/oclint/Reporter.h
+oclint-core/include/oclint/Results.h
+oclint-core/include/oclint/RuleBase.h
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/include/oclint/RuleConfiguration.h
+oclint-core/include/oclint/RuleSet.h
+oclint-core/include/oclint/Version.h
+oclint-core/include/oclint/Violation.h
+oclint-core/include/oclint/ViolationSet.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-core/lib/RuleConfiguration.cpp
+oclint-core/lib/RuleSet.cpp
+oclint-core/lib/Version.cpp
+oclint-core/lib/Violation.cpp
+oclint-core/lib/ViolationSet.cpp
+oclint-core/test/ResultsTest.cpp
+oclint-core/test/RuleCarrierTest.cpp
+oclint-core/test/RuleConfigurationTest.cpp
+oclint-core/test/RuleSetTest.cpp
+oclint-core/test/VersionTest.cpp
+oclint-core/test/ViolationSetTest.cpp
+oclint-core/test/ViolationTest.cpp
+oclint-driver/CMakeLists.txt
+oclint-driver/LICENSE
+oclint-driver/include/oclint/Analyzer.h
+oclint-driver/include/oclint/CompilerInstance.h
+oclint-driver/include/oclint/Driver.h
+oclint-driver/include/oclint/GenericException.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/GenericException.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-metrics/include/oclint/metric/CyclomaticComplexityMetric.h
+oclint-metrics/include/oclint/metric/NPathComplexityMetric.h
+oclint-metrics/include/oclint/metric/NcssMetric.h
+oclint-metrics/include/oclint/metric/StmtDepthMetric.h
+oclint-metrics/lib/CyclomaticComplexityMetric.cpp
+oclint-metrics/lib/NPathComplexityMetric.cpp
+oclint-metrics/lib/NcssMetric.cpp
+oclint-metrics/lib/StmtDepthMetric.cpp
+oclint-metrics/test/CyclomaticComplexityMetricTest.cpp
+oclint-metrics/test/NPathComplexityMetricTest.cpp
+oclint-metrics/test/NcssMetricTest.cpp
+oclint-metrics/test/StmtDepthMetricTest.cpp
+oclint-reporters/reporters/HTMLReporter.cpp
+oclint-reporters/reporters/JSONReporter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-reporters/template/Reporter.tmpl
+oclint-reporters/test/HTMLReporterTest.cpp
+oclint-reporters/test/JSONReporterTest.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-reporters/test/TextReporterTest.cpp
+oclint-reporters/test/XMLReporterTest.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractASTVisitorRule.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/include/oclint/util/ASTUtil.h
+oclint-rules/include/oclint/util/StdUtil.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BitwiseOperatorInConditionalRule.cpp
+oclint-rules/rules/basic/BrokenNullCheckRule.cpp
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/ConstantConditionalOperatorRule.cpp
+oclint-rules/rules/basic/ConstantIfExpressionRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/ForLoopShouldBeWhileLoopRule.cpp
+oclint-rules/rules/basic/GotoStatementRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MisplacedNullCheckRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/DefaultLabelNotLastInSwitchStatementRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/convention/SwitchStatementsShouldHaveDefaultRule.cpp
+oclint-rules/rules/convention/TooFewBranchesInSwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyCatchStatementRule.cpp
+oclint-rules/rules/empty/EmptyDoWhileStatementRule.cpp
+oclint-rules/rules/empty/EmptyElseBlockRule.cpp
+oclint-rules/rules/empty/EmptyFinallyStatementRule.cpp
+oclint-rules/rules/empty/EmptyForStatementRule.cpp
+oclint-rules/rules/empty/EmptyIfStatementRule.cpp
+oclint-rules/rules/empty/EmptySwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyTryStatementRule.cpp
+oclint-rules/rules/empty/EmptyWhileStatementRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCContainerLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCObjectSubscriptingRule.cpp
+oclint-rules/rules/naming/LongVariableNameRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/redundant/UselessParenthesesRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/LongClassRule.cpp
+oclint-rules/rules/size/LongLineRule.cpp
+oclint-rules/rules/size/LongMethodRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/NestedBlockDepthRule.cpp
+oclint-rules/rules/size/TooManyFieldsRule.cpp
+oclint-rules/rules/size/TooManyMethodsRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/template/ASTMatcherRule.tmpl
+oclint-rules/template/GenericRule.tmpl
+oclint-rules/template/SourceCodeReaderRule.tmpl
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+oclint-scripts/buildAll.sh
+oclint-scripts/buildDriver.sh
+oclint-scripts/buildRelease.sh
+oclint-scripts/ci.sh
+oclint-scripts/dogFooding.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 73 is -> 
+{ cecc877bc260874436a247ef794879238a0dcd00 -> bcf6a574a41cc969c59eac789fd6e61315e17866 } is a cherrypick
+{ 6c04284c59b94273a866ef0fd11585b7dcab34da -> de669598a4e5abf9861af9d4f978e0debd0f37f3 }
+Partial Cherry-pick commits SHA are -> 
+bcf6a574a41cc969c59eac789fd6e61315e17866 - cherrypick - de669598a4e5abf9861af9d4f978e0debd0f37f3
+---> The cherrypicked commit sha is - bcf6a574a41cc969c59eac789fd6e61315e17866
+Commit message - Remove Program::
+---> The original commit sha is - de669598a4e5abf9861af9d4f978e0debd0f37f3
+Commit message - Update driver code to use LLVM's Option library
+---> The files with partial_cherrypicks are:-
+oclint-clang-tooling/CMakeLists.txt
+oclint-core/include/oclint/Reporter.h
+oclint-core/include/oclint/Results.h
+oclint-core/include/oclint/RuleBase.h
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/include/oclint/RuleConfiguration.h
+oclint-core/include/oclint/RuleSet.h
+oclint-core/include/oclint/Version.h
+oclint-core/include/oclint/Violation.h
+oclint-core/include/oclint/ViolationSet.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-core/lib/RuleConfiguration.cpp
+oclint-core/lib/RuleSet.cpp
+oclint-core/lib/Version.cpp
+oclint-core/lib/Violation.cpp
+oclint-core/lib/ViolationSet.cpp
+oclint-core/test/ResultsTest.cpp
+oclint-core/test/RuleCarrierTest.cpp
+oclint-core/test/RuleConfigurationTest.cpp
+oclint-core/test/RuleSetTest.cpp
+oclint-core/test/VersionTest.cpp
+oclint-core/test/ViolationSetTest.cpp
+oclint-core/test/ViolationTest.cpp
+oclint-driver/CMakeLists.txt
+oclint-driver/LICENSE
+oclint-driver/include/oclint/Analyzer.h
+oclint-driver/include/oclint/CompilerInstance.h
+oclint-driver/include/oclint/Driver.h
+oclint-driver/include/oclint/GenericException.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/GenericException.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-metrics/include/oclint/metric/CyclomaticComplexityMetric.h
+oclint-metrics/include/oclint/metric/NPathComplexityMetric.h
+oclint-metrics/include/oclint/metric/NcssMetric.h
+oclint-metrics/include/oclint/metric/StmtDepthMetric.h
+oclint-metrics/lib/CyclomaticComplexityMetric.cpp
+oclint-metrics/lib/NPathComplexityMetric.cpp
+oclint-metrics/lib/NcssMetric.cpp
+oclint-metrics/lib/StmtDepthMetric.cpp
+oclint-metrics/test/CyclomaticComplexityMetricTest.cpp
+oclint-metrics/test/NPathComplexityMetricTest.cpp
+oclint-metrics/test/NcssMetricTest.cpp
+oclint-metrics/test/StmtDepthMetricTest.cpp
+oclint-reporters/reporters/HTMLReporter.cpp
+oclint-reporters/reporters/JSONReporter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-reporters/template/Reporter.tmpl
+oclint-reporters/test/HTMLReporterTest.cpp
+oclint-reporters/test/JSONReporterTest.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-reporters/test/TextReporterTest.cpp
+oclint-reporters/test/XMLReporterTest.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractASTVisitorRule.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/include/oclint/util/ASTUtil.h
+oclint-rules/include/oclint/util/StdUtil.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BitwiseOperatorInConditionalRule.cpp
+oclint-rules/rules/basic/BrokenNullCheckRule.cpp
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/ConstantConditionalOperatorRule.cpp
+oclint-rules/rules/basic/ConstantIfExpressionRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/ForLoopShouldBeWhileLoopRule.cpp
+oclint-rules/rules/basic/GotoStatementRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MisplacedNullCheckRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/DefaultLabelNotLastInSwitchStatementRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/convention/SwitchStatementsShouldHaveDefaultRule.cpp
+oclint-rules/rules/convention/TooFewBranchesInSwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyCatchStatementRule.cpp
+oclint-rules/rules/empty/EmptyDoWhileStatementRule.cpp
+oclint-rules/rules/empty/EmptyElseBlockRule.cpp
+oclint-rules/rules/empty/EmptyFinallyStatementRule.cpp
+oclint-rules/rules/empty/EmptyForStatementRule.cpp
+oclint-rules/rules/empty/EmptyIfStatementRule.cpp
+oclint-rules/rules/empty/EmptySwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyTryStatementRule.cpp
+oclint-rules/rules/empty/EmptyWhileStatementRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCContainerLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCObjectSubscriptingRule.cpp
+oclint-rules/rules/naming/LongVariableNameRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/redundant/UselessParenthesesRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/LongClassRule.cpp
+oclint-rules/rules/size/LongLineRule.cpp
+oclint-rules/rules/size/LongMethodRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/NestedBlockDepthRule.cpp
+oclint-rules/rules/size/TooManyFieldsRule.cpp
+oclint-rules/rules/size/TooManyMethodsRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/template/ASTMatcherRule.tmpl
+oclint-rules/template/ASTVisitorRule.tmpl
+oclint-rules/template/GenericRule.tmpl
+oclint-rules/template/SourceCodeReaderRule.tmpl
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+oclint-scripts/buildAll.sh
+oclint-scripts/buildDriver.sh
+oclint-scripts/buildRelease.sh
+oclint-scripts/ci.sh
+oclint-scripts/dogFooding.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 74 is -> 
+{ 3008b96b7bf690ae24fe3f546a061c70c6c41345 -> 87a5c210768573c32fd6053880b23649e0b9aa28 } is a cherrypick
+{ 6c04284c59b94273a866ef0fd11585b7dcab34da -> de669598a4e5abf9861af9d4f978e0debd0f37f3 }
+Partial Cherry-pick commits SHA are -> 
+87a5c210768573c32fd6053880b23649e0b9aa28 - cherrypick - de669598a4e5abf9861af9d4f978e0debd0f37f3
+---> The cherrypicked commit sha is - 87a5c210768573c32fd6053880b23649e0b9aa28
+Commit message - Updates according to llvm changes
+---> The original commit sha is - de669598a4e5abf9861af9d4f978e0debd0f37f3
+Commit message - Update driver code to use LLVM's Option library
+---> The files with partial_cherrypicks are:-
+oclint-clang-tooling/CMakeLists.txt
+oclint-core/include/oclint/Reporter.h
+oclint-core/include/oclint/Results.h
+oclint-core/include/oclint/RuleBase.h
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/include/oclint/RuleConfiguration.h
+oclint-core/include/oclint/RuleSet.h
+oclint-core/include/oclint/Version.h
+oclint-core/include/oclint/Violation.h
+oclint-core/include/oclint/ViolationSet.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-core/lib/RuleConfiguration.cpp
+oclint-core/lib/RuleSet.cpp
+oclint-core/lib/Version.cpp
+oclint-core/lib/Violation.cpp
+oclint-core/lib/ViolationSet.cpp
+oclint-core/test/ResultsTest.cpp
+oclint-core/test/RuleCarrierTest.cpp
+oclint-core/test/RuleConfigurationTest.cpp
+oclint-core/test/RuleSetTest.cpp
+oclint-core/test/VersionTest.cpp
+oclint-core/test/ViolationSetTest.cpp
+oclint-core/test/ViolationTest.cpp
+oclint-driver/CMakeLists.txt
+oclint-driver/LICENSE
+oclint-driver/include/oclint/Analyzer.h
+oclint-driver/include/oclint/CompilerInstance.h
+oclint-driver/include/oclint/Driver.h
+oclint-driver/include/oclint/GenericException.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/GenericException.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-metrics/include/oclint/metric/CyclomaticComplexityMetric.h
+oclint-metrics/include/oclint/metric/NPathComplexityMetric.h
+oclint-metrics/include/oclint/metric/NcssMetric.h
+oclint-metrics/include/oclint/metric/StmtDepthMetric.h
+oclint-metrics/lib/CyclomaticComplexityMetric.cpp
+oclint-metrics/lib/NPathComplexityMetric.cpp
+oclint-metrics/lib/NcssMetric.cpp
+oclint-metrics/lib/StmtDepthMetric.cpp
+oclint-metrics/test/CyclomaticComplexityMetricTest.cpp
+oclint-metrics/test/NPathComplexityMetricTest.cpp
+oclint-metrics/test/NcssMetricTest.cpp
+oclint-metrics/test/StmtDepthMetricTest.cpp
+oclint-reporters/reporters/HTMLReporter.cpp
+oclint-reporters/reporters/JSONReporter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-reporters/template/Reporter.tmpl
+oclint-reporters/test/HTMLReporterTest.cpp
+oclint-reporters/test/JSONReporterTest.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-reporters/test/TextReporterTest.cpp
+oclint-reporters/test/XMLReporterTest.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractASTVisitorRule.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/include/oclint/util/ASTUtil.h
+oclint-rules/include/oclint/util/StdUtil.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BitwiseOperatorInConditionalRule.cpp
+oclint-rules/rules/basic/BrokenNullCheckRule.cpp
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/ConstantConditionalOperatorRule.cpp
+oclint-rules/rules/basic/ConstantIfExpressionRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/ForLoopShouldBeWhileLoopRule.cpp
+oclint-rules/rules/basic/GotoStatementRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MisplacedNullCheckRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/DefaultLabelNotLastInSwitchStatementRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/convention/SwitchStatementsShouldHaveDefaultRule.cpp
+oclint-rules/rules/convention/TooFewBranchesInSwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyCatchStatementRule.cpp
+oclint-rules/rules/empty/EmptyDoWhileStatementRule.cpp
+oclint-rules/rules/empty/EmptyElseBlockRule.cpp
+oclint-rules/rules/empty/EmptyFinallyStatementRule.cpp
+oclint-rules/rules/empty/EmptyForStatementRule.cpp
+oclint-rules/rules/empty/EmptyIfStatementRule.cpp
+oclint-rules/rules/empty/EmptySwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyTryStatementRule.cpp
+oclint-rules/rules/empty/EmptyWhileStatementRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCContainerLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCObjectSubscriptingRule.cpp
+oclint-rules/rules/naming/LongVariableNameRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/redundant/UselessParenthesesRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/LongClassRule.cpp
+oclint-rules/rules/size/LongLineRule.cpp
+oclint-rules/rules/size/LongMethodRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/NestedBlockDepthRule.cpp
+oclint-rules/rules/size/TooManyFieldsRule.cpp
+oclint-rules/rules/size/TooManyMethodsRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/template/ASTMatcherRule.tmpl
+oclint-rules/template/ASTVisitorRule.tmpl
+oclint-rules/template/GenericRule.tmpl
+oclint-rules/template/SourceCodeReaderRule.tmpl
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+oclint-scripts/buildAll.sh
+oclint-scripts/buildDriver.sh
+oclint-scripts/buildRelease.sh
+oclint-scripts/ci.sh
+oclint-scripts/dogFooding.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 75 is -> 
+{ 196ed81f3a7f0290da05c9d02092537eadc63701 -> 3d0cb8899b17bbf5f34a3600d808b13bc6d19d28 } is a cherrypick
+{ 3008b96b7bf690ae24fe3f546a061c70c6c41345 -> 87a5c210768573c32fd6053880b23649e0b9aa28 }
+Partial Cherry-pick commits SHA are -> 
+3d0cb8899b17bbf5f34a3600d808b13bc6d19d28 - cherrypick - 87a5c210768573c32fd6053880b23649e0b9aa28
+---> The cherrypicked commit sha is - 3d0cb8899b17bbf5f34a3600d808b13bc6d19d28
+Commit message - Remove Program::
+---> The original commit sha is - 87a5c210768573c32fd6053880b23649e0b9aa28
+Commit message - Updates according to llvm changes
+---> The files with partial_cherrypicks are:-
+oclint-clang-tooling/CMakeLists.txt
+oclint-core/include/oclint/Reporter.h
+oclint-core/include/oclint/Results.h
+oclint-core/include/oclint/RuleBase.h
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/include/oclint/RuleConfiguration.h
+oclint-core/include/oclint/RuleSet.h
+oclint-core/include/oclint/Version.h
+oclint-core/include/oclint/Violation.h
+oclint-core/include/oclint/ViolationSet.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-core/lib/RuleConfiguration.cpp
+oclint-core/lib/RuleSet.cpp
+oclint-core/lib/Version.cpp
+oclint-core/lib/Violation.cpp
+oclint-core/lib/ViolationSet.cpp
+oclint-core/test/ResultsTest.cpp
+oclint-core/test/RuleCarrierTest.cpp
+oclint-core/test/RuleConfigurationTest.cpp
+oclint-core/test/RuleSetTest.cpp
+oclint-core/test/VersionTest.cpp
+oclint-core/test/ViolationSetTest.cpp
+oclint-core/test/ViolationTest.cpp
+oclint-driver/CMakeLists.txt
+oclint-driver/LICENSE
+oclint-driver/include/oclint/Analyzer.h
+oclint-driver/include/oclint/CompilerInstance.h
+oclint-driver/include/oclint/Driver.h
+oclint-driver/include/oclint/GenericException.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/GenericException.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-driver/main.cpp
+oclint-metrics/include/oclint/metric/CyclomaticComplexityMetric.h
+oclint-metrics/include/oclint/metric/NPathComplexityMetric.h
+oclint-metrics/include/oclint/metric/NcssMetric.h
+oclint-metrics/include/oclint/metric/StmtDepthMetric.h
+oclint-metrics/lib/CyclomaticComplexityMetric.cpp
+oclint-metrics/lib/NPathComplexityMetric.cpp
+oclint-metrics/lib/NcssMetric.cpp
+oclint-metrics/lib/StmtDepthMetric.cpp
+oclint-metrics/test/CyclomaticComplexityMetricTest.cpp
+oclint-metrics/test/NPathComplexityMetricTest.cpp
+oclint-metrics/test/NcssMetricTest.cpp
+oclint-metrics/test/StmtDepthMetricTest.cpp
+oclint-reporters/reporters/HTMLReporter.cpp
+oclint-reporters/reporters/JSONReporter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-reporters/template/Reporter.tmpl
+oclint-reporters/test/HTMLReporterTest.cpp
+oclint-reporters/test/JSONReporterTest.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-reporters/test/TextReporterTest.cpp
+oclint-reporters/test/XMLReporterTest.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractASTVisitorRule.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/include/oclint/util/ASTUtil.h
+oclint-rules/include/oclint/util/StdUtil.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BitwiseOperatorInConditionalRule.cpp
+oclint-rules/rules/basic/BrokenNullCheckRule.cpp
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/ConstantConditionalOperatorRule.cpp
+oclint-rules/rules/basic/ConstantIfExpressionRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/ForLoopShouldBeWhileLoopRule.cpp
+oclint-rules/rules/basic/GotoStatementRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MisplacedNullCheckRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/DefaultLabelNotLastInSwitchStatementRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/convention/SwitchStatementsShouldHaveDefaultRule.cpp
+oclint-rules/rules/convention/TooFewBranchesInSwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyCatchStatementRule.cpp
+oclint-rules/rules/empty/EmptyDoWhileStatementRule.cpp
+oclint-rules/rules/empty/EmptyElseBlockRule.cpp
+oclint-rules/rules/empty/EmptyFinallyStatementRule.cpp
+oclint-rules/rules/empty/EmptyForStatementRule.cpp
+oclint-rules/rules/empty/EmptyIfStatementRule.cpp
+oclint-rules/rules/empty/EmptySwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyTryStatementRule.cpp
+oclint-rules/rules/empty/EmptyWhileStatementRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCContainerLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCObjectSubscriptingRule.cpp
+oclint-rules/rules/naming/LongVariableNameRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/redundant/UselessParenthesesRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/LongClassRule.cpp
+oclint-rules/rules/size/LongLineRule.cpp
+oclint-rules/rules/size/LongMethodRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/NestedBlockDepthRule.cpp
+oclint-rules/rules/size/TooManyFieldsRule.cpp
+oclint-rules/rules/size/TooManyMethodsRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/template/ASTMatcherRule.tmpl
+oclint-rules/template/GenericRule.tmpl
+oclint-rules/template/SourceCodeReaderRule.tmpl
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+oclint-scripts/buildAll.sh
+oclint-scripts/buildDriver.sh
+oclint-scripts/buildRelease.sh
+oclint-scripts/ci.sh
+oclint-scripts/dogFooding.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 76 is -> 
+{ cecc877bc260874436a247ef794879238a0dcd00 -> bcf6a574a41cc969c59eac789fd6e61315e17866 } is a cherrypick
+{ 3008b96b7bf690ae24fe3f546a061c70c6c41345 -> 87a5c210768573c32fd6053880b23649e0b9aa28 }
+Partial Cherry-pick commits SHA are -> 
+bcf6a574a41cc969c59eac789fd6e61315e17866 - cherrypick - 87a5c210768573c32fd6053880b23649e0b9aa28
+---> The cherrypicked commit sha is - bcf6a574a41cc969c59eac789fd6e61315e17866
+Commit message - Remove Program::
+---> The original commit sha is - 87a5c210768573c32fd6053880b23649e0b9aa28
+Commit message - Updates according to llvm changes
+---> The files with partial_cherrypicks are:-
+oclint-clang-tooling/CMakeLists.txt
+oclint-core/include/oclint/Reporter.h
+oclint-core/include/oclint/Results.h
+oclint-core/include/oclint/RuleBase.h
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/include/oclint/RuleConfiguration.h
+oclint-core/include/oclint/RuleSet.h
+oclint-core/include/oclint/Version.h
+oclint-core/include/oclint/Violation.h
+oclint-core/include/oclint/ViolationSet.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-core/lib/RuleConfiguration.cpp
+oclint-core/lib/RuleSet.cpp
+oclint-core/lib/Version.cpp
+oclint-core/lib/Violation.cpp
+oclint-core/lib/ViolationSet.cpp
+oclint-core/test/ResultsTest.cpp
+oclint-core/test/RuleCarrierTest.cpp
+oclint-core/test/RuleConfigurationTest.cpp
+oclint-core/test/RuleSetTest.cpp
+oclint-core/test/VersionTest.cpp
+oclint-core/test/ViolationSetTest.cpp
+oclint-core/test/ViolationTest.cpp
+oclint-driver/CMakeLists.txt
+oclint-driver/LICENSE
+oclint-driver/include/oclint/Analyzer.h
+oclint-driver/include/oclint/CompilerInstance.h
+oclint-driver/include/oclint/Driver.h
+oclint-driver/include/oclint/GenericException.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/Driver.cpp
+oclint-driver/lib/GenericException.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-driver/main.cpp
+oclint-metrics/include/oclint/metric/CyclomaticComplexityMetric.h
+oclint-metrics/include/oclint/metric/NPathComplexityMetric.h
+oclint-metrics/include/oclint/metric/NcssMetric.h
+oclint-metrics/include/oclint/metric/StmtDepthMetric.h
+oclint-metrics/lib/CyclomaticComplexityMetric.cpp
+oclint-metrics/lib/NPathComplexityMetric.cpp
+oclint-metrics/lib/NcssMetric.cpp
+oclint-metrics/lib/StmtDepthMetric.cpp
+oclint-metrics/test/CyclomaticComplexityMetricTest.cpp
+oclint-metrics/test/NPathComplexityMetricTest.cpp
+oclint-metrics/test/NcssMetricTest.cpp
+oclint-metrics/test/StmtDepthMetricTest.cpp
+oclint-reporters/reporters/HTMLReporter.cpp
+oclint-reporters/reporters/JSONReporter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-reporters/template/Reporter.tmpl
+oclint-reporters/test/HTMLReporterTest.cpp
+oclint-reporters/test/JSONReporterTest.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-reporters/test/TextReporterTest.cpp
+oclint-reporters/test/XMLReporterTest.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractASTVisitorRule.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/include/oclint/util/ASTUtil.h
+oclint-rules/include/oclint/util/StdUtil.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BitwiseOperatorInConditionalRule.cpp
+oclint-rules/rules/basic/BrokenNullCheckRule.cpp
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/ConstantConditionalOperatorRule.cpp
+oclint-rules/rules/basic/ConstantIfExpressionRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/ForLoopShouldBeWhileLoopRule.cpp
+oclint-rules/rules/basic/GotoStatementRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MisplacedNullCheckRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/DefaultLabelNotLastInSwitchStatementRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/convention/SwitchStatementsShouldHaveDefaultRule.cpp
+oclint-rules/rules/convention/TooFewBranchesInSwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyCatchStatementRule.cpp
+oclint-rules/rules/empty/EmptyDoWhileStatementRule.cpp
+oclint-rules/rules/empty/EmptyElseBlockRule.cpp
+oclint-rules/rules/empty/EmptyFinallyStatementRule.cpp
+oclint-rules/rules/empty/EmptyForStatementRule.cpp
+oclint-rules/rules/empty/EmptyIfStatementRule.cpp
+oclint-rules/rules/empty/EmptySwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyTryStatementRule.cpp
+oclint-rules/rules/empty/EmptyWhileStatementRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCContainerLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCObjectSubscriptingRule.cpp
+oclint-rules/rules/naming/LongVariableNameRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/redundant/UselessParenthesesRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/LongClassRule.cpp
+oclint-rules/rules/size/LongLineRule.cpp
+oclint-rules/rules/size/LongMethodRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/NestedBlockDepthRule.cpp
+oclint-rules/rules/size/TooManyFieldsRule.cpp
+oclint-rules/rules/size/TooManyMethodsRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/template/ASTMatcherRule.tmpl
+oclint-rules/template/ASTVisitorRule.tmpl
+oclint-rules/template/GenericRule.tmpl
+oclint-rules/template/SourceCodeReaderRule.tmpl
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+oclint-scripts/buildAll.sh
+oclint-scripts/buildDriver.sh
+oclint-scripts/buildRelease.sh
+oclint-scripts/ci.sh
+oclint-scripts/dogFooding.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 77 is -> 
+{ e802b6c6f259f8ae5cabde0727d9834c6eb63494 -> 720228b63fe610a725a570f56a5fadeeb0686ccc } is a cherrypick
+{ d450fbc34ad2bc0611928692ae672ae2ebc627cd -> 3008b96b7bf690ae24fe3f546a061c70c6c41345 }
+Partial Cherry-pick commits SHA are -> 
+720228b63fe610a725a570f56a5fadeeb0686ccc - cherrypick - 3008b96b7bf690ae24fe3f546a061c70c6c41345
+---> The cherrypicked commit sha is - 720228b63fe610a725a570f56a5fadeeb0686ccc
+Commit message - Fix the false positive for redundant nil check
+---> The original commit sha is - 3008b96b7bf690ae24fe3f546a061c70c6c41345
+Commit message - Updates according to llvm changes
+---> The files with partial_cherrypicks are:-
+oclint-clang-tooling/CMakeLists.txt
+oclint-core/include/oclint/Reporter.h
+oclint-core/include/oclint/Results.h
+oclint-core/include/oclint/RuleBase.h
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/include/oclint/RuleConfiguration.h
+oclint-core/include/oclint/RuleSet.h
+oclint-core/include/oclint/Version.h
+oclint-core/include/oclint/Violation.h
+oclint-core/include/oclint/ViolationSet.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-core/lib/RuleConfiguration.cpp
+oclint-core/lib/RuleSet.cpp
+oclint-core/lib/Version.cpp
+oclint-core/lib/Violation.cpp
+oclint-core/lib/ViolationSet.cpp
+oclint-core/test/ResultsTest.cpp
+oclint-core/test/RuleCarrierTest.cpp
+oclint-core/test/RuleConfigurationTest.cpp
+oclint-core/test/RuleSetTest.cpp
+oclint-core/test/VersionTest.cpp
+oclint-core/test/ViolationSetTest.cpp
+oclint-core/test/ViolationTest.cpp
+oclint-driver/CMakeLists.txt
+oclint-driver/LICENSE
+oclint-driver/include/oclint/Analyzer.h
+oclint-driver/include/oclint/CompilerInstance.h
+oclint-driver/include/oclint/Driver.h
+oclint-driver/include/oclint/GenericException.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/GenericException.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-driver/main.cpp
+oclint-metrics/include/oclint/metric/CyclomaticComplexityMetric.h
+oclint-metrics/include/oclint/metric/NPathComplexityMetric.h
+oclint-metrics/include/oclint/metric/NcssMetric.h
+oclint-metrics/include/oclint/metric/StmtDepthMetric.h
+oclint-metrics/lib/CyclomaticComplexityMetric.cpp
+oclint-metrics/lib/NPathComplexityMetric.cpp
+oclint-metrics/lib/NcssMetric.cpp
+oclint-metrics/lib/StmtDepthMetric.cpp
+oclint-metrics/test/CyclomaticComplexityMetricTest.cpp
+oclint-metrics/test/NPathComplexityMetricTest.cpp
+oclint-metrics/test/NcssMetricTest.cpp
+oclint-metrics/test/StmtDepthMetricTest.cpp
+oclint-reporters/reporters/HTMLReporter.cpp
+oclint-reporters/reporters/JSONReporter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-reporters/template/Reporter.tmpl
+oclint-reporters/test/HTMLReporterTest.cpp
+oclint-reporters/test/JSONReporterTest.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-reporters/test/TextReporterTest.cpp
+oclint-reporters/test/XMLReporterTest.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractASTVisitorRule.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/include/oclint/util/ASTUtil.h
+oclint-rules/include/oclint/util/StdUtil.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BitwiseOperatorInConditionalRule.cpp
+oclint-rules/rules/basic/BrokenNullCheckRule.cpp
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/ConstantConditionalOperatorRule.cpp
+oclint-rules/rules/basic/ConstantIfExpressionRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/ForLoopShouldBeWhileLoopRule.cpp
+oclint-rules/rules/basic/GotoStatementRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MisplacedNullCheckRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/DefaultLabelNotLastInSwitchStatementRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/convention/SwitchStatementsShouldHaveDefaultRule.cpp
+oclint-rules/rules/convention/TooFewBranchesInSwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyCatchStatementRule.cpp
+oclint-rules/rules/empty/EmptyDoWhileStatementRule.cpp
+oclint-rules/rules/empty/EmptyElseBlockRule.cpp
+oclint-rules/rules/empty/EmptyFinallyStatementRule.cpp
+oclint-rules/rules/empty/EmptyForStatementRule.cpp
+oclint-rules/rules/empty/EmptyIfStatementRule.cpp
+oclint-rules/rules/empty/EmptySwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyTryStatementRule.cpp
+oclint-rules/rules/empty/EmptyWhileStatementRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCContainerLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCObjectSubscriptingRule.cpp
+oclint-rules/rules/naming/LongVariableNameRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/redundant/UselessParenthesesRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/LongClassRule.cpp
+oclint-rules/rules/size/LongLineRule.cpp
+oclint-rules/rules/size/LongMethodRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/NestedBlockDepthRule.cpp
+oclint-rules/rules/size/TooManyFieldsRule.cpp
+oclint-rules/rules/size/TooManyMethodsRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/template/ASTMatcherRule.tmpl
+oclint-rules/template/GenericRule.tmpl
+oclint-rules/template/SourceCodeReaderRule.tmpl
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+oclint-scripts/buildAll.sh
+oclint-scripts/buildDriver.sh
+oclint-scripts/buildRelease.sh
+oclint-scripts/ci.sh
+oclint-scripts/dogFooding.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 78 is -> 
+{ 3d0cb8899b17bbf5f34a3600d808b13bc6d19d28 -> cecc877bc260874436a247ef794879238a0dcd00 } is a cherrypick
+{ d450fbc34ad2bc0611928692ae672ae2ebc627cd -> 3008b96b7bf690ae24fe3f546a061c70c6c41345 }
+Partial Cherry-pick commits SHA are -> 
+cecc877bc260874436a247ef794879238a0dcd00 - cherrypick - 3008b96b7bf690ae24fe3f546a061c70c6c41345
+---> The cherrypicked commit sha is - cecc877bc260874436a247ef794879238a0dcd00
+Commit message - Added setUp and tearDown in ASTVisitor rule template
+---> The original commit sha is - 3008b96b7bf690ae24fe3f546a061c70c6c41345
+Commit message - Updates according to llvm changes
+---> The files with partial_cherrypicks are:-
+oclint-clang-tooling/CMakeLists.txt
+oclint-core/include/oclint/Reporter.h
+oclint-core/include/oclint/Results.h
+oclint-core/include/oclint/RuleBase.h
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/include/oclint/RuleConfiguration.h
+oclint-core/include/oclint/RuleSet.h
+oclint-core/include/oclint/Version.h
+oclint-core/include/oclint/Violation.h
+oclint-core/include/oclint/ViolationSet.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-core/lib/RuleConfiguration.cpp
+oclint-core/lib/RuleSet.cpp
+oclint-core/lib/Version.cpp
+oclint-core/lib/Violation.cpp
+oclint-core/lib/ViolationSet.cpp
+oclint-core/test/ResultsTest.cpp
+oclint-core/test/RuleCarrierTest.cpp
+oclint-core/test/RuleConfigurationTest.cpp
+oclint-core/test/RuleSetTest.cpp
+oclint-core/test/VersionTest.cpp
+oclint-core/test/ViolationSetTest.cpp
+oclint-core/test/ViolationTest.cpp
+oclint-driver/CMakeLists.txt
+oclint-driver/LICENSE
+oclint-driver/include/oclint/Analyzer.h
+oclint-driver/include/oclint/CompilerInstance.h
+oclint-driver/include/oclint/Driver.h
+oclint-driver/include/oclint/GenericException.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/GenericException.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-driver/main.cpp
+oclint-metrics/include/oclint/metric/CyclomaticComplexityMetric.h
+oclint-metrics/include/oclint/metric/NPathComplexityMetric.h
+oclint-metrics/include/oclint/metric/NcssMetric.h
+oclint-metrics/include/oclint/metric/StmtDepthMetric.h
+oclint-metrics/lib/CyclomaticComplexityMetric.cpp
+oclint-metrics/lib/NPathComplexityMetric.cpp
+oclint-metrics/lib/NcssMetric.cpp
+oclint-metrics/lib/StmtDepthMetric.cpp
+oclint-metrics/test/CyclomaticComplexityMetricTest.cpp
+oclint-metrics/test/NPathComplexityMetricTest.cpp
+oclint-metrics/test/NcssMetricTest.cpp
+oclint-metrics/test/StmtDepthMetricTest.cpp
+oclint-reporters/reporters/HTMLReporter.cpp
+oclint-reporters/reporters/JSONReporter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-reporters/template/Reporter.tmpl
+oclint-reporters/test/HTMLReporterTest.cpp
+oclint-reporters/test/JSONReporterTest.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-reporters/test/TextReporterTest.cpp
+oclint-reporters/test/XMLReporterTest.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractASTVisitorRule.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/include/oclint/util/ASTUtil.h
+oclint-rules/include/oclint/util/StdUtil.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BitwiseOperatorInConditionalRule.cpp
+oclint-rules/rules/basic/BrokenNullCheckRule.cpp
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/ConstantConditionalOperatorRule.cpp
+oclint-rules/rules/basic/ConstantIfExpressionRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/ForLoopShouldBeWhileLoopRule.cpp
+oclint-rules/rules/basic/GotoStatementRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MisplacedNullCheckRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/DefaultLabelNotLastInSwitchStatementRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/convention/SwitchStatementsShouldHaveDefaultRule.cpp
+oclint-rules/rules/convention/TooFewBranchesInSwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyCatchStatementRule.cpp
+oclint-rules/rules/empty/EmptyDoWhileStatementRule.cpp
+oclint-rules/rules/empty/EmptyElseBlockRule.cpp
+oclint-rules/rules/empty/EmptyFinallyStatementRule.cpp
+oclint-rules/rules/empty/EmptyForStatementRule.cpp
+oclint-rules/rules/empty/EmptyIfStatementRule.cpp
+oclint-rules/rules/empty/EmptySwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyTryStatementRule.cpp
+oclint-rules/rules/empty/EmptyWhileStatementRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCContainerLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCObjectSubscriptingRule.cpp
+oclint-rules/rules/naming/LongVariableNameRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/redundant/UselessParenthesesRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/LongClassRule.cpp
+oclint-rules/rules/size/LongLineRule.cpp
+oclint-rules/rules/size/LongMethodRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/NestedBlockDepthRule.cpp
+oclint-rules/rules/size/TooManyFieldsRule.cpp
+oclint-rules/rules/size/TooManyMethodsRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/template/ASTMatcherRule.tmpl
+oclint-rules/template/ASTVisitorRule.tmpl
+oclint-rules/template/GenericRule.tmpl
+oclint-rules/template/SourceCodeReaderRule.tmpl
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+oclint-scripts/buildAll.sh
+oclint-scripts/buildDriver.sh
+oclint-scripts/buildRelease.sh
+oclint-scripts/ci.sh
+oclint-scripts/dogFooding.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 79 is -> 
+{ 196ed81f3a7f0290da05c9d02092537eadc63701 -> 3d0cb8899b17bbf5f34a3600d808b13bc6d19d28 } is a cherrypick
+{ cecc877bc260874436a247ef794879238a0dcd00 -> bcf6a574a41cc969c59eac789fd6e61315e17866 }
+Partial Cherry-pick commits SHA are -> 
+3d0cb8899b17bbf5f34a3600d808b13bc6d19d28 - cherrypick - bcf6a574a41cc969c59eac789fd6e61315e17866
+---> The cherrypicked commit sha is - 3d0cb8899b17bbf5f34a3600d808b13bc6d19d28
+Commit message - Remove Program::
+---> The original commit sha is - bcf6a574a41cc969c59eac789fd6e61315e17866
+Commit message - Remove Program::
+---> The files with partial_cherrypicks are:-
+oclint-clang-tooling/CMakeLists.txt
+oclint-clang-tooling/main.cpp
+oclint-core/include/oclint/Reporter.h
+oclint-core/include/oclint/Results.h
+oclint-core/include/oclint/RuleBase.h
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/include/oclint/RuleConfiguration.h
+oclint-core/include/oclint/RuleSet.h
+oclint-core/include/oclint/Version.h
+oclint-core/include/oclint/Violation.h
+oclint-core/include/oclint/ViolationSet.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-core/lib/RuleConfiguration.cpp
+oclint-core/lib/RuleSet.cpp
+oclint-core/lib/Version.cpp
+oclint-core/lib/Violation.cpp
+oclint-core/lib/ViolationSet.cpp
+oclint-core/test/ResultsTest.cpp
+oclint-core/test/RuleCarrierTest.cpp
+oclint-core/test/RuleConfigurationTest.cpp
+oclint-core/test/RuleSetTest.cpp
+oclint-core/test/VersionTest.cpp
+oclint-core/test/ViolationSetTest.cpp
+oclint-core/test/ViolationTest.cpp
+oclint-driver/CMakeLists.txt
+oclint-driver/LICENSE
+oclint-driver/include/oclint/Analyzer.h
+oclint-driver/include/oclint/CompilerInstance.h
+oclint-driver/include/oclint/Driver.h
+oclint-driver/include/oclint/GenericException.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/GenericException.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-driver/main.cpp
+oclint-metrics/include/oclint/metric/CyclomaticComplexityMetric.h
+oclint-metrics/include/oclint/metric/NPathComplexityMetric.h
+oclint-metrics/include/oclint/metric/NcssMetric.h
+oclint-metrics/include/oclint/metric/StmtDepthMetric.h
+oclint-metrics/lib/CyclomaticComplexityMetric.cpp
+oclint-metrics/lib/NPathComplexityMetric.cpp
+oclint-metrics/lib/NcssMetric.cpp
+oclint-metrics/lib/StmtDepthMetric.cpp
+oclint-metrics/test/CyclomaticComplexityMetricTest.cpp
+oclint-metrics/test/NPathComplexityMetricTest.cpp
+oclint-metrics/test/NcssMetricTest.cpp
+oclint-metrics/test/StmtDepthMetricTest.cpp
+oclint-reporters/reporters/HTMLReporter.cpp
+oclint-reporters/reporters/JSONReporter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-reporters/template/Reporter.tmpl
+oclint-reporters/test/HTMLReporterTest.cpp
+oclint-reporters/test/JSONReporterTest.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-reporters/test/TextReporterTest.cpp
+oclint-reporters/test/XMLReporterTest.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractASTVisitorRule.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/include/oclint/util/ASTUtil.h
+oclint-rules/include/oclint/util/StdUtil.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BitwiseOperatorInConditionalRule.cpp
+oclint-rules/rules/basic/BrokenNullCheckRule.cpp
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/ConstantConditionalOperatorRule.cpp
+oclint-rules/rules/basic/ConstantIfExpressionRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/ForLoopShouldBeWhileLoopRule.cpp
+oclint-rules/rules/basic/GotoStatementRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MisplacedNullCheckRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/DefaultLabelNotLastInSwitchStatementRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/convention/SwitchStatementsShouldHaveDefaultRule.cpp
+oclint-rules/rules/convention/TooFewBranchesInSwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyCatchStatementRule.cpp
+oclint-rules/rules/empty/EmptyDoWhileStatementRule.cpp
+oclint-rules/rules/empty/EmptyElseBlockRule.cpp
+oclint-rules/rules/empty/EmptyFinallyStatementRule.cpp
+oclint-rules/rules/empty/EmptyForStatementRule.cpp
+oclint-rules/rules/empty/EmptyIfStatementRule.cpp
+oclint-rules/rules/empty/EmptySwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyTryStatementRule.cpp
+oclint-rules/rules/empty/EmptyWhileStatementRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCContainerLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCObjectSubscriptingRule.cpp
+oclint-rules/rules/naming/LongVariableNameRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/redundant/UselessParenthesesRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/LongClassRule.cpp
+oclint-rules/rules/size/LongLineRule.cpp
+oclint-rules/rules/size/LongMethodRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/NestedBlockDepthRule.cpp
+oclint-rules/rules/size/TooManyFieldsRule.cpp
+oclint-rules/rules/size/TooManyMethodsRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/template/ASTMatcherRule.tmpl
+oclint-rules/template/GenericRule.tmpl
+oclint-rules/template/SourceCodeReaderRule.tmpl
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+oclint-scripts/buildAll.sh
+oclint-scripts/buildDriver.sh
+oclint-scripts/buildRelease.sh
+oclint-scripts/ci.sh
+oclint-scripts/dogFooding.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 80 is -> 
+{ e802b6c6f259f8ae5cabde0727d9834c6eb63494 -> 720228b63fe610a725a570f56a5fadeeb0686ccc } is a cherrypick
+{ 3d0cb8899b17bbf5f34a3600d808b13bc6d19d28 -> cecc877bc260874436a247ef794879238a0dcd00 }
+Partial Cherry-pick commits SHA are -> 
+720228b63fe610a725a570f56a5fadeeb0686ccc - cherrypick - cecc877bc260874436a247ef794879238a0dcd00
+---> The cherrypicked commit sha is - 720228b63fe610a725a570f56a5fadeeb0686ccc
+Commit message - Fix the false positive for redundant nil check
+---> The original commit sha is - cecc877bc260874436a247ef794879238a0dcd00
+Commit message - Added setUp and tearDown in ASTVisitor rule template
+---> The files with partial_cherrypicks are:-
+oclint-clang-tooling/CMakeLists.txt
+oclint-clang-tooling/main.cpp
+oclint-core/include/oclint/Reporter.h
+oclint-core/include/oclint/Results.h
+oclint-core/include/oclint/RuleBase.h
+oclint-core/include/oclint/RuleCarrier.h
+oclint-core/include/oclint/RuleConfiguration.h
+oclint-core/include/oclint/RuleSet.h
+oclint-core/include/oclint/Version.h
+oclint-core/include/oclint/Violation.h
+oclint-core/include/oclint/ViolationSet.h
+oclint-core/lib/Results.cpp
+oclint-core/lib/RuleCarrier.cpp
+oclint-core/lib/RuleConfiguration.cpp
+oclint-core/lib/RuleSet.cpp
+oclint-core/lib/Version.cpp
+oclint-core/lib/Violation.cpp
+oclint-core/lib/ViolationSet.cpp
+oclint-core/test/ResultsTest.cpp
+oclint-core/test/RuleCarrierTest.cpp
+oclint-core/test/RuleConfigurationTest.cpp
+oclint-core/test/RuleSetTest.cpp
+oclint-core/test/VersionTest.cpp
+oclint-core/test/ViolationSetTest.cpp
+oclint-core/test/ViolationTest.cpp
+oclint-driver/CMakeLists.txt
+oclint-driver/LICENSE
+oclint-driver/include/oclint/Analyzer.h
+oclint-driver/include/oclint/CompilerInstance.h
+oclint-driver/include/oclint/Driver.h
+oclint-driver/include/oclint/GenericException.h
+oclint-driver/include/oclint/RulesetBasedAnalyzer.h
+oclint-driver/lib/CMakeLists.txt
+oclint-driver/lib/CompilerInstance.cpp
+oclint-driver/lib/Driver.cpp
+oclint-driver/lib/GenericException.cpp
+oclint-driver/lib/RulesetBasedAnalyzer.cpp
+oclint-driver/main.cpp
+oclint-metrics/include/oclint/metric/CyclomaticComplexityMetric.h
+oclint-metrics/include/oclint/metric/NPathComplexityMetric.h
+oclint-metrics/include/oclint/metric/NcssMetric.h
+oclint-metrics/include/oclint/metric/StmtDepthMetric.h
+oclint-metrics/lib/CyclomaticComplexityMetric.cpp
+oclint-metrics/lib/NPathComplexityMetric.cpp
+oclint-metrics/lib/NcssMetric.cpp
+oclint-metrics/lib/StmtDepthMetric.cpp
+oclint-metrics/test/CyclomaticComplexityMetricTest.cpp
+oclint-metrics/test/NPathComplexityMetricTest.cpp
+oclint-metrics/test/NcssMetricTest.cpp
+oclint-metrics/test/StmtDepthMetricTest.cpp
+oclint-reporters/reporters/HTMLReporter.cpp
+oclint-reporters/reporters/JSONReporter.cpp
+oclint-reporters/reporters/PMDReporter.cpp
+oclint-reporters/reporters/TextReporter.cpp
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-reporters/template/Reporter.tmpl
+oclint-reporters/test/HTMLReporterTest.cpp
+oclint-reporters/test/JSONReporterTest.cpp
+oclint-reporters/test/PMDReporterTest.cpp
+oclint-reporters/test/TextReporterTest.cpp
+oclint-reporters/test/XMLReporterTest.cpp
+oclint-rules/include/oclint/AbstractASTMatcherRule.h
+oclint-rules/include/oclint/AbstractASTRuleBase.h
+oclint-rules/include/oclint/AbstractASTVisitorRule.h
+oclint-rules/include/oclint/AbstractSourceCodeReaderRule.h
+oclint-rules/include/oclint/helper/SuppressHelper.h
+oclint-rules/include/oclint/util/ASTUtil.h
+oclint-rules/include/oclint/util/StdUtil.h
+oclint-rules/lib/helper/SuppressHelper.cpp
+oclint-rules/lib/util/ASTUtil.cpp
+oclint-rules/rules/abstract/AbstractEmptyBlockStmtRule.h
+oclint-rules/rules/abstract/AbstractNullCheckRule.h
+oclint-rules/rules/basic/BitwiseOperatorInConditionalRule.cpp
+oclint-rules/rules/basic/BrokenNullCheckRule.cpp
+oclint-rules/rules/basic/BrokenOddnessCheckRule.cpp
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/rules/basic/ConstantConditionalOperatorRule.cpp
+oclint-rules/rules/basic/ConstantIfExpressionRule.cpp
+oclint-rules/rules/basic/DeadCodeRule.cpp
+oclint-rules/rules/basic/DoubleNegativeRule.cpp
+oclint-rules/rules/basic/ForLoopShouldBeWhileLoopRule.cpp
+oclint-rules/rules/basic/GotoStatementRule.cpp
+oclint-rules/rules/basic/JumbledIncrementerRule.cpp
+oclint-rules/rules/basic/MisplacedNullCheckRule.cpp
+oclint-rules/rules/basic/MultipleUnaryOperatorRule.cpp
+oclint-rules/rules/basic/ReturnFromFinallyBlockRule.cpp
+oclint-rules/rules/basic/ThrowExceptionFromFinallyBlockRule.cpp
+oclint-rules/rules/convention/AvoidBranchingStatementAsLastInLoopRule.cpp
+oclint-rules/rules/convention/DefaultLabelNotLastInSwitchStatementRule.cpp
+oclint-rules/rules/convention/InvertedLogicRule.cpp
+oclint-rules/rules/convention/MissingBreakInSwitchStatementRule.cpp
+oclint-rules/rules/convention/NonCaseLabelInSwitchStatementRule.cpp
+oclint-rules/rules/convention/ParameterReassignmentRule.cpp
+oclint-rules/rules/convention/SwitchStatementsShouldHaveDefaultRule.cpp
+oclint-rules/rules/convention/TooFewBranchesInSwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyCatchStatementRule.cpp
+oclint-rules/rules/empty/EmptyDoWhileStatementRule.cpp
+oclint-rules/rules/empty/EmptyElseBlockRule.cpp
+oclint-rules/rules/empty/EmptyFinallyStatementRule.cpp
+oclint-rules/rules/empty/EmptyForStatementRule.cpp
+oclint-rules/rules/empty/EmptyIfStatementRule.cpp
+oclint-rules/rules/empty/EmptySwitchStatementRule.cpp
+oclint-rules/rules/empty/EmptyTryStatementRule.cpp
+oclint-rules/rules/empty/EmptyWhileStatementRule.cpp
+oclint-rules/rules/migration/ObjCBoxedExpressionsRule.cpp
+oclint-rules/rules/migration/ObjCContainerLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCNSNumberLiteralsRule.cpp
+oclint-rules/rules/migration/ObjCObjectSubscriptingRule.cpp
+oclint-rules/rules/naming/LongVariableNameRule.cpp
+oclint-rules/rules/naming/ShortVariableNameRule.cpp
+oclint-rules/rules/redundant/RedundantConditionalOperatorRule.cpp
+oclint-rules/rules/redundant/RedundantIfStatementRule.cpp
+oclint-rules/rules/redundant/RedundantLocalVariableRule.cpp
+oclint-rules/rules/redundant/RedundantNilCheckRule.cpp
+oclint-rules/rules/redundant/UnnecessaryElseStatementRule.cpp
+oclint-rules/rules/redundant/UselessParenthesesRule.cpp
+oclint-rules/rules/size/CyclomaticComplexityRule.cpp
+oclint-rules/rules/size/LongClassRule.cpp
+oclint-rules/rules/size/LongLineRule.cpp
+oclint-rules/rules/size/LongMethodRule.cpp
+oclint-rules/rules/size/NPathComplexityRule.cpp
+oclint-rules/rules/size/NcssMethodCountRule.cpp
+oclint-rules/rules/size/NestedBlockDepthRule.cpp
+oclint-rules/rules/size/TooManyFieldsRule.cpp
+oclint-rules/rules/size/TooManyMethodsRule.cpp
+oclint-rules/rules/size/TooManyParametersRule.cpp
+oclint-rules/rules/unused/UnusedLocalVariableRule.cpp
+oclint-rules/rules/unused/UnusedMethodParameterRule.cpp
+oclint-rules/template/ASTMatcherRule.tmpl
+oclint-rules/template/GenericRule.tmpl
+oclint-rules/template/SourceCodeReaderRule.tmpl
+oclint-rules/test/headers/TestHeaders.h
+oclint-rules/test/redundant/RedundantNilCheckRuleTest.cpp
+oclint-scripts/buildAll.sh
+oclint-scripts/buildDriver.sh
+oclint-scripts/buildRelease.sh
+oclint-scripts/ci.sh
+oclint-scripts/dogFooding.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 81 is -> 
+{ bd037dfd3002e88d19024b69700ac2fb36bad719 -> 618f141cfa5d38e6277afee552b0167ec466b8b5 } is a cherrypick
+{ 8746b5c2867302e9cd3048c8c1209c4cc724c1f6 -> 0d00f7ad6c3c7fa71e77cd15b88c0f33a6bbd62b }
+Partial Cherry-pick commits SHA are -> 
+618f141cfa5d38e6277afee552b0167ec466b8b5 - cherrypick - 0d00f7ad6c3c7fa71e77cd15b88c0f33a6bbd62b
+---> The cherrypicked commit sha is - 618f141cfa5d38e6277afee552b0167ec466b8b5
+Commit message - Local variables in template function should be skipped
+---> The original commit sha is - 0d00f7ad6c3c7fa71e77cd15b88c0f33a6bbd62b
+Commit message - Ignore unused local variables without names
+---> The files with partial_cherrypicks are:-
+oclint-rules/test/unused/UnusedLocalVariableRuleTest.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 82 is -> 
+{ f50bdea6fea66a90aa4d316447cdce8e607bb769 -> 2c97ec1c2d8d57456c9cccba774daad077c41020 } is a cherrypick
+{ 4e2eef81556ec1ab14bc1b7cc289ae4e89ad52b5 -> cc4407f8e95f7cf36272f6dd66cfa02bd9bf1f2a }
+Partial Cherry-pick commits SHA are -> 
+2c97ec1c2d8d57456c9cccba774daad077c41020 - cherrypick - cc4407f8e95f7cf36272f6dd66cfa02bd9bf1f2a
+---> The cherrypicked commit sha is - 2c97ec1c2d8d57456c9cccba774daad077c41020
+Commit message - Added LLVM/Clang 3.3 release to checkout script
+---> The original commit sha is - cc4407f8e95f7cf36272f6dd66cfa02bd9bf1f2a
+Commit message - Merge pull request #31 from lqi/master
+
+Feature Sets for 0.7 RC
+---> The files with partial_cherrypicks are:-
+oclint-scripts/checkoutLLVMClang.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 83 is -> 
+{ e60702c9b8c44dd689eea966500a13a1d4b0f029 -> a6405f42fa1af5a976ff75e22da8633e8785b3ba } is a cherrypick
+{ c5ea7d9c2d1c6bdabb4d7e71af60d7c4cd677e54 -> a43f66498fb029dae75d50d5b1c6acfd2648c2c6 }
+Partial Cherry-pick commits SHA are -> 
+a6405f42fa1af5a976ff75e22da8633e8785b3ba - cherrypick - a43f66498fb029dae75d50d5b1c6acfd2648c2c6
+---> The cherrypicked commit sha is - a6405f42fa1af5a976ff75e22da8633e8785b3ba
+Commit message - Add category to rules CMakeLists.txt when scaffolding
+---> The original commit sha is - a43f66498fb029dae75d50d5b1c6acfd2648c2c6
+Commit message - Merge pull request #22 from lqi/scaffold
+
+Rule Scaffolding
+---> The files with partial_cherrypicks are:-
+oclint-reporters/reporters/XMLReporter.cpp
+oclint-rules/rules/CMakeLists.txt
+oclint-rules/template/ASTMatcherRule.tmpl
+oclint-rules/template/ASTVisitorRule.tmpl
+oclint-rules/template/GenericRule.tmpl
+oclint-rules/template/SourceCodeReaderRule.tmpl
+oclint-scripts/scaffoldRule.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 84 is -> 
+{ 95145be261971377a076035e4fa8531ab84ab67b -> e60702c9b8c44dd689eea966500a13a1d4b0f029 } is a cherrypick
+{ 79e61b3bd44b0c87a8cbab2574745d813ab9cc7e -> c5ea7d9c2d1c6bdabb4d7e71af60d7c4cd677e54 }
+Partial Cherry-pick commits SHA are -> 
+e60702c9b8c44dd689eea966500a13a1d4b0f029 - cherrypick - c5ea7d9c2d1c6bdabb4d7e71af60d7c4cd677e54
+---> The cherrypicked commit sha is - e60702c9b8c44dd689eea966500a13a1d4b0f029
+Commit message - Use std::map in RuleConfiguration
+---> The original commit sha is - c5ea7d9c2d1c6bdabb4d7e71af60d7c4cd677e54
+Commit message - Merge pull request #23 from lqi/master
+
+Use std::map in RuleConfiguration
+---> The files with partial_cherrypicks are:-
+oclint-core/include/oclint/RuleConfiguration.h
+oclint-core/lib/RuleConfiguration.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 85 is -> 
+{ 1fa5ca99bdaa20a015b6007002bf613f39adf06a -> 12ffc78fff34e7e96c3bb31b5b7b4f5ac1de6122 } is a cherrypick
+{ 5af94fac7382c51b2d18a86bc718aade1e2afd55 -> c14cbe754898766972f650230e4f537bf9c15a5b }
+Partial Cherry-pick commits SHA are -> 
+12ffc78fff34e7e96c3bb31b5b7b4f5ac1de6122 - cherrypick - c14cbe754898766972f650230e4f537bf9c15a5b
+---> The cherrypicked commit sha is - 12ffc78fff34e7e96c3bb31b5b7b4f5ac1de6122
+Commit message - Fixed the false positive mentioned in #10
+---> The original commit sha is - c14cbe754898766972f650230e4f537bf9c15a5b
+Commit message - Merge pull request #13 from lqi/master
+
+Fix CollapsableIfStatements False Positive
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 86 is -> 
+{ fc029430dd95262fd761089ec01d2b2d61885ecb -> 8dfd4b36945d9e45f148e1dd328e1a5a40718a57 } is a cherrypick
+{ 5af94fac7382c51b2d18a86bc718aade1e2afd55 -> c14cbe754898766972f650230e4f537bf9c15a5b }
+Partial Cherry-pick commits SHA are -> 
+8dfd4b36945d9e45f148e1dd328e1a5a40718a57 - cherrypick - c14cbe754898766972f650230e4f537bf9c15a5b
+---> The cherrypicked commit sha is - 8dfd4b36945d9e45f148e1dd328e1a5a40718a57
+Commit message - Fixed the false positive when outer if statement has else branch
+---> The original commit sha is - c14cbe754898766972f650230e4f537bf9c15a5b
+Commit message - Merge pull request #13 from lqi/master
+
+Fix CollapsableIfStatements False Positive
+---> The files with partial_cherrypicks are:-
+oclint-rules/rules/basic/CollapsibleIfStatementsRule.cpp
+oclint-rules/test/basic/CollapsibleIfStatementsRuleTest.cpp
+-----------------------------------------------------------------
+

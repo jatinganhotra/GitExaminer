@@ -1,0 +1,919 @@
+# of partial reverts = 45
+Partial Revert diff pair 1 is -> 
+{ 817abfd9819429cbc1d72be4c4a90add29827b55 -> d6bcfed84f35a361e05d57d93169cbc78694028d } is a revert
+{ d84c3b72e47dee17b64a73a2c6ba69e2df288dd1 -> d6bf89972a4a712db4a294eb8b6a3c38800b3abb }
+Partial Revert commits SHA are -> 
+d6bcfed84f35a361e05d57d93169cbc78694028d - revert - d6bf89972a4a712db4a294eb8b6a3c38800b3abb
+---> The reverted commit sha is - d6bcfed84f35a361e05d57d93169cbc78694028d
+Commit message - Add specs for metaparams in variable_scope
+---> The original commit sha is - d6bf89972a4a712db4a294eb8b6a3c38800b3abb
+Commit message - Merge pull request #320 from domcleal/319-param-body
+
+Don't parse class body when searching for parameter tokens
+---> The files with partial_reverts are:-
+lib/puppet-lint/data.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ f8c58798dfcdf2435e03a63ca2dce665fde375be -> 7844ad2894e392325329f9011c1736b0338ed3b0 } is a revert
+{ 7844ad2894e392325329f9011c1736b0338ed3b0 -> 486cd05224064eb58f5c8c3acc4ed3a61337a0e2 }
+Partial Revert commits SHA are -> 
+7844ad2894e392325329f9011c1736b0338ed3b0 - revert - 486cd05224064eb58f5c8c3acc4ed3a61337a0e2
+---> The reverted commit sha is - 7844ad2894e392325329f9011c1736b0338ed3b0
+Commit message - Merge pull request #295 from rodjek/issue-263
+
+Allow single quoted strings in double quoted strings
+---> The original commit sha is - 486cd05224064eb58f5c8c3acc4ed3a61337a0e2
+Commit message - Merge pull request #296 from rodjek/safe_tokens_in_check
+
+Ensure check methods can't modify tokens array
+---> The files with partial_reverts are:-
+lib/puppet-lint/data.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 9fd167c6951cb802c3d48fd5533183fa7bd3822d -> 13d00dc9e291a99d30543efcea95e32f586e2921 } is a revert
+{ 16ebdea0218d6a407b14eb2294c67fc0e2f60318 -> efb66a9b3a918273b3f908ad593c21c987cdca0b }
+Partial Revert commits SHA are -> 
+13d00dc9e291a99d30543efcea95e32f586e2921 - revert - efb66a9b3a918273b3f908ad593c21c987cdca0b
+---> The reverted commit sha is - 13d00dc9e291a99d30543efcea95e32f586e2921
+Commit message - Ensure that only matched pairs of [] are part of the variable
+---> The original commit sha is - efb66a9b3a918273b3f908ad593c21c987cdca0b
+Commit message - Merge pull request #293 from rodjek/future_parser_variable_scopes
+
+Support future parser loop local scope variables
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 8f7bbafda9cebbcf1a0ba1ee3275f15569426847 -> 16ebdea0218d6a407b14eb2294c67fc0e2f60318 } is a revert
+{ 16ebdea0218d6a407b14eb2294c67fc0e2f60318 -> efb66a9b3a918273b3f908ad593c21c987cdca0b }
+Partial Revert commits SHA are -> 
+16ebdea0218d6a407b14eb2294c67fc0e2f60318 - revert - efb66a9b3a918273b3f908ad593c21c987cdca0b
+---> The reverted commit sha is - 16ebdea0218d6a407b14eb2294c67fc0e2f60318
+Commit message - Support future parser loop local scope variables
+
+Adds support for future parser loop local scope blocks that define variables
+to the variable_scope check.
+
+Closes #264
+Closes #258
+Closes #249
+
+/cc #271
+---> The original commit sha is - efb66a9b3a918273b3f908ad593c21c987cdca0b
+Commit message - Merge pull request #293 from rodjek/future_parser_variable_scopes
+
+Support future parser loop local scope variables
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ 9fd167c6951cb802c3d48fd5533183fa7bd3822d -> 13d00dc9e291a99d30543efcea95e32f586e2921 } is a revert
+{ 62594d9986f9ea98321209235a9c904b267a07dc -> 8f7bbafda9cebbcf1a0ba1ee3275f15569426847 }
+Partial Revert commits SHA are -> 
+13d00dc9e291a99d30543efcea95e32f586e2921 - revert - 8f7bbafda9cebbcf1a0ba1ee3275f15569426847
+---> The reverted commit sha is - 13d00dc9e291a99d30543efcea95e32f586e2921
+Commit message - Ensure that only matched pairs of [] are part of the variable
+---> The original commit sha is - 8f7bbafda9cebbcf1a0ba1ee3275f15569426847
+Commit message - Merge pull request #277 from rrrene/patch-1
+
+Add docs badge to README
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ ca9da74eb6def967d7df3284329f7acecb3186dc -> e322f5385ebf2700fef9bc8e37518f96fcacd017 } is a revert
+{ e322f5385ebf2700fef9bc8e37518f96fcacd017 -> 62594d9986f9ea98321209235a9c904b267a07dc }
+Partial Revert commits SHA are -> 
+e322f5385ebf2700fef9bc8e37518f96fcacd017 - revert - 62594d9986f9ea98321209235a9c904b267a07dc
+---> The reverted commit sha is - e322f5385ebf2700fef9bc8e37518f96fcacd017
+Commit message - Fix problems after all checks have finished
+---> The original commit sha is - 62594d9986f9ea98321209235a9c904b267a07dc
+Commit message - Merge pull request #292 from rodjek/fix_problems_last
+
+Fix problems after all checks have finished
+---> The files with partial_reverts are:-
+lib/puppet-lint/bin.rb
+lib/puppet-lint/plugins/check_comments.rb
+spec/puppet-lint/bin_spec.rb
+spec/puppet-lint/plugins/check_comments/star_comments_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ 234ce9987a450b9a4468ab040a47f8fd71d2eeae -> 4078aeea5b3ce3a3cd46407b51fc6d4e79431e2a } is a revert
+{ 261331d30ba84296de32a4d44467876df45982c8 -> ca9da74eb6def967d7df3284329f7acecb3186dc }
+Partial Revert commits SHA are -> 
+4078aeea5b3ce3a3cd46407b51fc6d4e79431e2a - revert - ca9da74eb6def967d7df3284329f7acecb3186dc
+---> The reverted commit sha is - 4078aeea5b3ce3a3cd46407b51fc6d4e79431e2a
+Commit message - Enable --with-filename by default if checking multiple files
+---> The original commit sha is - ca9da74eb6def967d7df3284329f7acecb3186dc
+Commit message - Merge pull request #287 from rodjek/with_filename_multiple_files
+
+Enable --with-filename by default if checking multiple files
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins/check_comments.rb
+spec/puppet-lint/plugins/check_comments/star_comments_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ 93abbefd96ff6f5d3f364451757b25c46a7f0fff -> 56ca9f0f144068e71db51991273f9616f03d230c } is a revert
+{ 56ca9f0f144068e71db51991273f9616f03d230c -> 99101e64859516138592685959e56ce97718e012 }
+Partial Revert commits SHA are -> 
+56ca9f0f144068e71db51991273f9616f03d230c - revert - 99101e64859516138592685959e56ce97718e012
+---> The reverted commit sha is - 56ca9f0f144068e71db51991273f9616f03d230c
+Commit message - Make array refs part of the variable name
+---> The original commit sha is - 99101e64859516138592685959e56ce97718e012
+Commit message - Merge pull request #276 from rodjek/handle_array_refs
+
+Make array refs part of the variable name
+---> The files with partial_reverts are:-
+lib/puppet-lint/data.rb
+lib/puppet-lint/lexer/token.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ 1d5c937a19dd0369890e9c27a051a32ab209c524 -> 47efccd500530348c9819411ce5d0565cba98268 } is a revert
+{ 93abbefd96ff6f5d3f364451757b25c46a7f0fff -> 56ca9f0f144068e71db51991273f9616f03d230c }
+Partial Revert commits SHA are -> 
+47efccd500530348c9819411ce5d0565cba98268 - revert - 56ca9f0f144068e71db51991273f9616f03d230c
+---> The reverted commit sha is - 47efccd500530348c9819411ce5d0565cba98268
+Commit message - Don't automatically pad comment content with whitespace
+---> The original commit sha is - 56ca9f0f144068e71db51991273f9616f03d230c
+Commit message - Make array refs part of the variable name
+---> The files with partial_reverts are:-
+lib/puppet-lint/data.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ 066e51b57528a5b63fae0a6a9e197db24eb8bd54 -> 0c7b0d88919c7c89bbc6fee0b4fd66c58496bbbf } is a revert
+{ c89ef2d5f1c8815fdca5ecccbe63301e891664e4 -> 15edf04bf1b3eab8f26baa33c0b1470ab72cf1ee }
+Partial Revert commits SHA are -> 
+0c7b0d88919c7c89bbc6fee0b4fd66c58496bbbf - revert - 15edf04bf1b3eab8f26baa33c0b1470ab72cf1ee
+---> The reverted commit sha is - 0c7b0d88919c7c89bbc6fee0b4fd66c58496bbbf
+Commit message - When creating index hashes, pass the tokens too
+---> The original commit sha is - 15edf04bf1b3eab8f26baa33c0b1470ab72cf1ee
+Commit message - Merge branch 'master' into refactor_data
+
+Conflicts:
+	lib/puppet-lint/plugins/check_classes.rb
+---> The files with partial_reverts are:-
+lib/puppet-lint.rb
+lib/puppet-lint/checkplugin.rb
+lib/puppet-lint/checks.rb
+lib/puppet-lint/optparser.rb
+lib/puppet-lint/plugins/check_classes.rb
+lib/puppet-lint/plugins/check_comments.rb
+lib/puppet-lint/plugins/check_conditionals.rb
+lib/puppet-lint/plugins/check_documentation.rb
+lib/puppet-lint/plugins/check_nodes.rb
+lib/puppet-lint/plugins/check_resources.rb
+lib/puppet-lint/plugins/check_strings.rb
+lib/puppet-lint/plugins/check_variables.rb
+lib/puppet-lint/plugins/check_whitespace.rb
+spec/puppet-lint/bin_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ d8015cfeed8052dddd05fb85ca0edbfcab85823d -> f59498d5bac48c3ec7cfae10366b4f2369a64f2d } is a revert
+{ 211b2a0a8cf94aeec4062f044f1f6a0a75457455 -> aee2a4aff9e11209f7e19d2b71947c54b14791b4 }
+Partial Revert commits SHA are -> 
+f59498d5bac48c3ec7cfae10366b4f2369a64f2d - revert - aee2a4aff9e11209f7e19d2b71947c54b14791b4
+---> The reverted commit sha is - f59498d5bac48c3ec7cfae10366b4f2369a64f2d
+Commit message - Add a load_spec_helper convenience method for testing external plugins
+---> The original commit sha is - aee2a4aff9e11209f7e19d2b71947c54b14791b4
+Commit message - Merge branch 'master' of https://github.com/xarses/puppet-lint into xarses-master
+
+Conflicts:
+	spec/puppet-lint/plugins/check_strings/double_quoted_strings_spec.rb
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins/check_strings.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ cfad326259c92cd528c6f7369c3fe127af96a609 -> d73cc2a0010df3557ea9b7fccfbf7141435a6201 } is a revert
+{ 76254af0c64fc685c4ccb997d267b264f9f05f81 -> e1657c73f52f71ad01b953ba0ce578d9281bfc67 }
+Partial Revert commits SHA are -> 
+d73cc2a0010df3557ea9b7fccfbf7141435a6201 - revert - e1657c73f52f71ad01b953ba0ce578d9281bfc67
+---> The reverted commit sha is - d73cc2a0010df3557ea9b7fccfbf7141435a6201
+Commit message - fix copy paste error
+---> The original commit sha is - e1657c73f52f71ad01b953ba0ce578d9281bfc67
+Commit message - Merge branch 'master' into move_output_out_of_lib
+
+Conflicts:
+	lib/puppet-lint/checkplugin.rb
+	spec/puppet-lint/plugins/check_classes/autoloader_layout_spec.rb
+	spec/spec_helper.rb
+---> The files with partial_reverts are:-
+lib/puppet-lint.rb
+lib/puppet-lint/checkplugin.rb
+lib/puppet-lint/checks.rb
+lib/puppet-lint/data.rb
+lib/puppet-lint/plugins/check_classes.rb
+lib/puppet-lint/tasks/puppet-lint.rb
+spec/puppet-lint/plugins/check_classes/autoloader_layout_spec.rb
+spec/puppet-lint/plugins/check_classes/names_containing_dash_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ d34ac3c31616342eaea2218f796bfca468c729e4 -> d8015cfeed8052dddd05fb85ca0edbfcab85823d } is a revert
+{ 1b5e981db5dac39e56bebc67f4be3cf75527bf1b -> effd70e51fb2191d3adc7f75473678882fb86823 }
+Partial Revert commits SHA are -> 
+d8015cfeed8052dddd05fb85ca0edbfcab85823d - revert - effd70e51fb2191d3adc7f75473678882fb86823
+---> The reverted commit sha is - d8015cfeed8052dddd05fb85ca0edbfcab85823d
+Commit message - Allow double quotes for puppet supported escape sequences
+
+add support for \$ \" \' \r (\t \n already supported) escape
+sequences.
+
+This is to follow:
+ http://docs.puppetlabs.com/puppet/2.7/reference/lang_datatypes.html#double-quoted-strings
+
+While puppet supports \\ and \s, both are replaced with normal characters
+that lint otherwise should look for.
+
+These are necessary to support confusing escape sequens that end up being
+passed to downstream commands and the like. Making propper use double
+quotes but preventing lint from generating false warnings.
+
+Signed-off-by: Andrew Woodward <awoodward@mirantis.com>
+---> The original commit sha is - effd70e51fb2191d3adc7f75473678882fb86823
+Commit message - Merge pull request #228 from rodjek/only_run_certain_checks
+
+Allow specifying a list of checks that should run
+---> The files with partial_reverts are:-
+lib/puppet-lint/bin.rb
+spec/puppet-lint/bin_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ c9ae57633b26365479495a4aa1ac276372107ba0 -> 99775cac2dfcccb6b8b84e99fc4b712470452c4b } is a revert
+{ 99775cac2dfcccb6b8b84e99fc4b712470452c4b -> 7db959a0541d3b48953805535035bff9cd7a901a }
+Partial Revert commits SHA are -> 
+99775cac2dfcccb6b8b84e99fc4b712470452c4b - revert - 7db959a0541d3b48953805535035bff9cd7a901a
+---> The reverted commit sha is - 99775cac2dfcccb6b8b84e99fc4b712470452c4b
+Commit message - Split checking and reporting logic
+---> The original commit sha is - 7db959a0541d3b48953805535035bff9cd7a901a
+Commit message - Allow specifying a list of checks that should run.
+
+This reverses the default assumption of "everything enabled"
+---> The files with partial_reverts are:-
+lib/puppet-lint.rb
+lib/puppet-lint/checkplugin.rb
+lib/puppet-lint/checks.rb
+lib/puppet-lint/data.rb
+lib/puppet-lint/tasks/puppet-lint.rb
+spec/puppet-lint/plugins/check_classes/autoloader_layout_spec.rb
+spec/puppet-lint/plugins/check_classes/names_containing_dash_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 6e521f09980d23c718c9765473198bbd0a6a97c8 -> ae194434b2d81a38401c556ec92a6eb2fdfd1517 } is a revert
+{ d533c7ca1ef21b4a2147354868679af3438db509 -> c9ae57633b26365479495a4aa1ac276372107ba0 }
+Partial Revert commits SHA are -> 
+ae194434b2d81a38401c556ec92a6eb2fdfd1517 - revert - c9ae57633b26365479495a4aa1ac276372107ba0
+---> The reverted commit sha is - ae194434b2d81a38401c556ec92a6eb2fdfd1517
+Commit message - Refactor checks into their own classes
+---> The original commit sha is - c9ae57633b26365479495a4aa1ac276372107ba0
+Commit message - Merge pull request #226 from rodjek/fix_refactor
+
+Refactor check plugins to have slightly less awful magic
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ bd0ce1aedab7f5f0b5451d3c271d8cf8a0f6c1d0 -> d05720b157a7ea60211be28d7280fb585f192182 } is a revert
+{ d533c7ca1ef21b4a2147354868679af3438db509 -> c9ae57633b26365479495a4aa1ac276372107ba0 }
+Partial Revert commits SHA are -> 
+d05720b157a7ea60211be28d7280fb585f192182 - revert - c9ae57633b26365479495a4aa1ac276372107ba0
+---> The reverted commit sha is - d05720b157a7ea60211be28d7280fb585f192182
+Commit message - Convert only_variable_string to new fix method
+---> The original commit sha is - c9ae57633b26365479495a4aa1ac276372107ba0
+Commit message - Merge pull request #226 from rodjek/fix_refactor
+
+Refactor check plugins to have slightly less awful magic
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ 5b0145768cf054a341635e190add7a131beb50c1 -> bd0ce1aedab7f5f0b5451d3c271d8cf8a0f6c1d0 } is a revert
+{ bd0ce1aedab7f5f0b5451d3c271d8cf8a0f6c1d0 -> d05720b157a7ea60211be28d7280fb585f192182 }
+Partial Revert commits SHA are -> 
+bd0ce1aedab7f5f0b5451d3c271d8cf8a0f6c1d0 - revert - d05720b157a7ea60211be28d7280fb585f192182
+---> The reverted commit sha is - bd0ce1aedab7f5f0b5451d3c271d8cf8a0f6c1d0
+Commit message - Merge pull request #203 from rodjek/issue-203
+
+--fix doesn't modify my file
+---> The original commit sha is - d05720b157a7ea60211be28d7280fb585f192182
+Commit message - Convert only_variable_string to new fix method
+---> The files with partial_reverts are:-
+lib/puppet-lint.rb
+lib/puppet-lint/checkplugin.rb
+lib/puppet-lint/checks.rb
+lib/puppet-lint/configuration.rb
+lib/puppet-lint/data.rb
+lib/puppet-lint/plugins.rb
+lib/puppet-lint/plugins/check_classes.rb
+lib/puppet-lint/plugins/check_comments.rb
+lib/puppet-lint/plugins/check_conditionals.rb
+lib/puppet-lint/plugins/check_documentation.rb
+lib/puppet-lint/plugins/check_nodes.rb
+lib/puppet-lint/plugins/check_resources.rb
+lib/puppet-lint/plugins/check_variables.rb
+lib/puppet-lint/plugins/check_whitespace.rb
+spec/puppet-lint/configuration_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ 6e521f09980d23c718c9765473198bbd0a6a97c8 -> ae194434b2d81a38401c556ec92a6eb2fdfd1517 } is a revert
+{ 5b0145768cf054a341635e190add7a131beb50c1 -> bd0ce1aedab7f5f0b5451d3c271d8cf8a0f6c1d0 }
+Partial Revert commits SHA are -> 
+ae194434b2d81a38401c556ec92a6eb2fdfd1517 - revert - bd0ce1aedab7f5f0b5451d3c271d8cf8a0f6c1d0
+---> The reverted commit sha is - ae194434b2d81a38401c556ec92a6eb2fdfd1517
+Commit message - Refactor checks into their own classes
+---> The original commit sha is - bd0ce1aedab7f5f0b5451d3c271d8cf8a0f6c1d0
+Commit message - Merge pull request #203 from rodjek/issue-203
+
+--fix doesn't modify my file
+---> The files with partial_reverts are:-
+lib/puppet-lint/checks.rb
+lib/puppet-lint/configuration.rb
+lib/puppet-lint/data.rb
+lib/puppet-lint/plugins.rb
+lib/puppet-lint/plugins/check_classes.rb
+lib/puppet-lint/plugins/check_conditionals.rb
+lib/puppet-lint/plugins/check_documentation.rb
+lib/puppet-lint/plugins/check_nodes.rb
+lib/puppet-lint/plugins/check_variables.rb
+lib/puppet-lint/plugins/check_whitespace.rb
+spec/puppet-lint/configuration_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 4d9043d3098737b936c6f6191b2edf2013e2db9f -> 21042415be83a358fc7ce3421f6815faa04327c7 } is a revert
+{ 0fa8959d7981ee13b0a4030cb189703e9898cf56 -> 7b566b9fedfa636f0310fe66b83c673ff959a138 }
+Partial Revert commits SHA are -> 
+21042415be83a358fc7ce3421f6815faa04327c7 - revert - 7b566b9fedfa636f0310fe66b83c673ff959a138
+---> The reverted commit sha is - 21042415be83a358fc7ce3421f6815faa04327c7
+Commit message - fix support for double_quoted_strings
+---> The original commit sha is - 7b566b9fedfa636f0310fe66b83c673ff959a138
+Commit message - Convert double_quoted_strings to new fix method
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins/check_strings.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ 9e6ed953fb0c87385a263fb22386bcb9e6b2c66a -> 2d4fae2295d75a74a5afa7998d292e9e99a27786 } is a revert
+{ 0fa8959d7981ee13b0a4030cb189703e9898cf56 -> 7b566b9fedfa636f0310fe66b83c673ff959a138 }
+Partial Revert commits SHA are -> 
+2d4fae2295d75a74a5afa7998d292e9e99a27786 - revert - 7b566b9fedfa636f0310fe66b83c673ff959a138
+---> The reverted commit sha is - 2d4fae2295d75a74a5afa7998d292e9e99a27786
+Commit message - fix support for variables_not_enclosed
+---> The original commit sha is - 7b566b9fedfa636f0310fe66b83c673ff959a138
+Commit message - Convert double_quoted_strings to new fix method
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins/check_strings.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ 2d4fae2295d75a74a5afa7998d292e9e99a27786 -> 7a943345cecc6b75e9b7be66b709765c96ba2ad2 } is a revert
+{ 0fa8959d7981ee13b0a4030cb189703e9898cf56 -> 7b566b9fedfa636f0310fe66b83c673ff959a138 }
+Partial Revert commits SHA are -> 
+7a943345cecc6b75e9b7be66b709765c96ba2ad2 - revert - 7b566b9fedfa636f0310fe66b83c673ff959a138
+---> The reverted commit sha is - 7a943345cecc6b75e9b7be66b709765c96ba2ad2
+Commit message - fix support for quoted_booleans
+---> The original commit sha is - 7b566b9fedfa636f0310fe66b83c673ff959a138
+Commit message - Convert double_quoted_strings to new fix method
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins/check_strings.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ 9a29e8478ff0fbc5655c80dcd7df8127d5ba0361 -> 0dcd36c36ee58b66ffec4d151319c6dfbe1498c6 } is a revert
+{ 0dcd36c36ee58b66ffec4d151319c6dfbe1498c6 -> 711dd6933e31931ee9741585f4666b7fe877e368 }
+Partial Revert commits SHA are -> 
+0dcd36c36ee58b66ffec4d151319c6dfbe1498c6 - revert - 711dd6933e31931ee9741585f4666b7fe877e368
+---> The reverted commit sha is - 0dcd36c36ee58b66ffec4d151319c6dfbe1498c6
+Commit message - Merge pull request #183 from rodjek/issue-183
+
+Puppet-lint fails to handle mac line endings
+---> The original commit sha is - 711dd6933e31931ee9741585f4666b7fe877e368
+Commit message - Merge pull request #184 from rodjek/issue-184
+
+Running with --fix deletes all code for files containing invalid syntax
+---> The files with partial_reverts are:-
+lib/puppet-lint/bin.rb
+lib/puppet-lint/checks.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ 1dd4e9979fc4d5b64d72c077b732b1f1a1b21b47 -> 3bff125e1557a6de9b9629536b75f049722fb308 } is a revert
+{ d11041cb269924d7a67bc10f5bffd448b72246dc -> ebe81d6dfa38b49c8b1734f50122ae06877b1299 }
+Partial Revert commits SHA are -> 
+3bff125e1557a6de9b9629536b75f049722fb308 - revert - ebe81d6dfa38b49c8b1734f50122ae06877b1299
+---> The reverted commit sha is - 3bff125e1557a6de9b9629536b75f049722fb308
+Commit message - Build everything
+---> The original commit sha is - ebe81d6dfa38b49c8b1734f50122ae06877b1299
+Commit message - Gemfile to use https source
+---> The files with partial_reverts are:-
+Gemfile
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ 7dd5fddd1f0c6bd4f824b870f185bdb5ffda8860 -> 312bdf264a9811390205fdd851596163f0208a2c } is a revert
+{ d11041cb269924d7a67bc10f5bffd448b72246dc -> ebe81d6dfa38b49c8b1734f50122ae06877b1299 }
+Partial Revert commits SHA are -> 
+312bdf264a9811390205fdd851596163f0208a2c - revert - ebe81d6dfa38b49c8b1734f50122ae06877b1299
+---> The reverted commit sha is - 312bdf264a9811390205fdd851596163f0208a2c
+Commit message - Prevent nil offset failures
+---> The original commit sha is - ebe81d6dfa38b49c8b1734f50122ae06877b1299
+Commit message - Gemfile to use https source
+---> The files with partial_reverts are:-
+Gemfile
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ b91d0058da6265ade231bfcd5516bb0050ecc3d5 -> ddaa1058f1c27bb3f683c049c2f1463fbdf48cea } is a revert
+{ decbf4cbb17116df56094fac6af57b38b35c2da5 -> d6e290ed36f1b968d7d491630752b19a59168b41 }
+Partial Revert commits SHA are -> 
+ddaa1058f1c27bb3f683c049c2f1463fbdf48cea - revert - d6e290ed36f1b968d7d491630752b19a59168b41
+---> The reverted commit sha is - ddaa1058f1c27bb3f683c049c2f1463fbdf48cea
+Commit message - WIP
+---> The original commit sha is - d6e290ed36f1b968d7d491630752b19a59168b41
+Commit message - Merge pull request #176 from vStone/feature/check_autoloader_layout_fix
+
+Fix the check_classes check for certain cases.
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins/check_classes.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ 59c0adf2852dba30647ea0cc03dd085291b50941 -> b91d0058da6265ade231bfcd5516bb0050ecc3d5 } is a revert
+{ 9b5629355d7abc6cc138bd66a1efc9544de6314c -> decbf4cbb17116df56094fac6af57b38b35c2da5 }
+Partial Revert commits SHA are -> 
+b91d0058da6265ade231bfcd5516bb0050ecc3d5 - revert - decbf4cbb17116df56094fac6af57b38b35c2da5
+---> The reverted commit sha is - b91d0058da6265ade231bfcd5516bb0050ecc3d5
+Commit message - Fix the check_classes check for certain cases.
+
+Examples:
+
+File: modules/foobar/manifests/init.pp
+Content: 'class bar { }'
+
+File: modules/foobar/manifests/fail.pp
+Content: 'class bar::fail {}'
+
+These 2 examples do not throw the autoloader error while they really should.
+---> The original commit sha is - decbf4cbb17116df56094fac6af57b38b35c2da5
+Commit message - Merge pull request #175 from vStone/feature/symlinked_module_paths_fix
+
+Use the current workdir as reference to calculate the expanded_path of a filename
+---> The files with partial_reverts are:-
+lib/puppet-lint.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ db6cde35998350663d24f5c50cc866c7d890e663 -> 2a7ead378694c97c18df03e52ccf4d7cfb647a15 } is a revert
+{ 2a7ead378694c97c18df03e52ccf4d7cfb647a15 -> ee8aa02b9c19425ccc3ed9e2334e47b24944ac4a }
+Partial Revert commits SHA are -> 
+2a7ead378694c97c18df03e52ccf4d7cfb647a15 - revert - ee8aa02b9c19425ccc3ed9e2334e47b24944ac4a
+---> The reverted commit sha is - 2a7ead378694c97c18df03e52ccf4d7cfb647a15
+Commit message - Add test case for #152
+---> The original commit sha is - ee8aa02b9c19425ccc3ed9e2334e47b24944ac4a
+Commit message - Merge branch 'backslash_crash' of https://github.com/dalen/puppet-lint into dalen-backslash_crash
+---> The files with partial_reverts are:-
+lib/puppet-lint/lexer.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ 33c70c8cde7a155bba4e433d5bd318a55d059432 -> 19c9a80340979b14210dcc0f696a38ef4c9a5e9b } is a revert
+{ 19c9a80340979b14210dcc0f696a38ef4c9a5e9b -> 3e5729c93443485be8b06bbb3c64699efb131734 }
+Partial Revert commits SHA are -> 
+19c9a80340979b14210dcc0f696a38ef4c9a5e9b - revert - 3e5729c93443485be8b06bbb3c64699efb131734
+---> The reverted commit sha is - 19c9a80340979b14210dcc0f696a38ef4c9a5e9b
+Commit message - Optionally provide context for reported problems
+
+Closes #130
+---> The original commit sha is - 3e5729c93443485be8b06bbb3c64699efb131734
+Commit message - Merge branch '148-inherits_within_module' of https://github.com/dcarley/puppet-lint into dcarley-148-inherits_within_module
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins/check_classes.rb
+spec/puppet-lint/plugins/check_classes/inherits_across_namespaces_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ 418f986dc1e550a2b184b97ea7c3c515bffee431 -> 8341110e81a5f3d733aa024486f850e8746786a7 } is a revert
+{ 8341110e81a5f3d733aa024486f850e8746786a7 -> 953e24d0db68cbfe77732c0bb137372dca455bc0 }
+Partial Revert commits SHA are -> 
+8341110e81a5f3d733aa024486f850e8746786a7 - revert - 953e24d0db68cbfe77732c0bb137372dca455bc0
+---> The reverted commit sha is - 8341110e81a5f3d733aa024486f850e8746786a7
+Commit message - Merge pull request #143 from ghoneycutt/fix_README_typo
+
+use .puppet-lint.rc, as .puppet-lintrc is deprecated
+---> The original commit sha is - 953e24d0db68cbfe77732c0bb137372dca455bc0
+Commit message - Merge pull request #147 from vStone/feature/145_false_possitives_on_duplicate_params
+
+Fixes #145: False positive on duplicate parameter.
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins/check_resources.rb
+spec/puppet-lint/plugins/check_resources/duplicate_params_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ fda167c1f045624814009446cff9b157922debfd -> 1537456fc0e7962f1f6f6d3f2bf0549eaaf1d7bf } is a revert
+{ 1537456fc0e7962f1f6f6d3f2bf0549eaaf1d7bf -> 418f986dc1e550a2b184b97ea7c3c515bffee431 }
+Partial Revert commits SHA are -> 
+1537456fc0e7962f1f6f6d3f2bf0549eaaf1d7bf - revert - 418f986dc1e550a2b184b97ea7c3c515bffee431
+---> The reverted commit sha is - 1537456fc0e7962f1f6f6d3f2bf0549eaaf1d7bf
+Commit message - use .puppet-lint.rc, as .puppet-lintrc is deprecated
+---> The original commit sha is - 418f986dc1e550a2b184b97ea7c3c515bffee431
+Commit message - Fixes #145: False positive on duplicate parameter.
+
+- Take care of nesting resources and hashes in the check by adding
+a dimension to the seen_param hash.
+- Added tests to cover several cases that could break it.
+---> The files with partial_reverts are:-
+.gitignore
+.travis.yml
+Gemfile
+README.md
+Rakefile
+bin/puppet-lint
+lib/puppet-lint.rb
+lib/puppet-lint/bin.rb
+lib/puppet-lint/configuration.rb
+lib/puppet-lint/lexer.rb
+lib/puppet-lint/lexer/token.rb
+lib/puppet-lint/plugin.rb
+lib/puppet-lint/plugins.rb
+lib/puppet-lint/plugins/check_classes.rb
+lib/puppet-lint/plugins/check_comments.rb
+lib/puppet-lint/plugins/check_conditionals.rb
+lib/puppet-lint/plugins/check_documentation.rb
+lib/puppet-lint/plugins/check_strings.rb
+lib/puppet-lint/plugins/check_variables.rb
+lib/puppet-lint/plugins/check_whitespace.rb
+lib/puppet-lint/tasks/puppet-lint.rb
+lib/puppet-lint/version.rb
+puppet-lint.gemspec
+spec/fixtures/test/manifests/fail.pp
+spec/fixtures/test/manifests/init.pp
+spec/fixtures/test/manifests/warning.pp
+spec/puppet-lint/bin_spec.rb
+spec/puppet-lint/check_classes_spec.rb
+spec/puppet-lint/check_conditionals_spec.rb
+spec/puppet-lint/check_resources_spec.rb
+spec/puppet-lint/check_strings_spec.rb
+spec/puppet-lint/check_variables_spec.rb
+spec/puppet-lint/check_whitespace_spec.rb
+spec/puppet-lint/configuration_spec.rb
+spec/puppet-lint/lexer/token_spec.rb
+spec/puppet-lint/lexer_spec.rb
+spec/puppet-lint/plugins/check_classes/autoloader_layout_spec.rb
+spec/puppet-lint/plugins/check_classes/inherits_across_namespaces_spec.rb
+spec/puppet-lint/plugins/check_classes/names_containing_dash_spec.rb
+spec/puppet-lint/plugins/check_classes/nested_classes_or_defines_spec.rb
+spec/puppet-lint/plugins/check_classes/parameter_order_spec.rb
+spec/puppet-lint/plugins/check_classes/parameterised_classes_spec.rb
+spec/puppet-lint/plugins/check_classes/right_to_left_relationship_spec.rb
+spec/puppet-lint/plugins/check_classes/variable_scope_spec.rb
+spec/puppet-lint/plugins/check_comments/slash_comments_spec.rb
+spec/puppet-lint/plugins/check_comments/star_comments_spec.rb
+spec/puppet-lint/plugins/check_conditionals/case_without_default_spec.rb
+spec/puppet-lint/plugins/check_conditionals/selector_inside_resource_spec.rb
+spec/puppet-lint/plugins/check_documentation/documentation_spec.rb
+spec/puppet-lint/plugins/check_resources/ensure_first_param_spec.rb
+spec/puppet-lint/plugins/check_resources/ensure_not_symlink_target_spec.rb
+spec/puppet-lint/plugins/check_resources/file_mode_spec.rb
+spec/puppet-lint/plugins/check_resources/unquoted_file_mode_spec.rb
+spec/puppet-lint/plugins/check_resources/unquoted_resource_title_spec.rb
+spec/puppet-lint/plugins/check_strings/double_quoted_strings_spec.rb
+spec/puppet-lint/plugins/check_strings/only_variable_string_spec.rb
+spec/puppet-lint/plugins/check_strings/quoted_booleans_spec.rb
+spec/puppet-lint/plugins/check_strings/single_quote_string_with_variables_spec.rb
+spec/puppet-lint/plugins/check_strings/variables_not_enclosed_spec.rb
+spec/puppet-lint/plugins/check_variables/variable_contains_dash_spec.rb
+spec/puppet-lint/plugins/check_whitespace/2sp_soft_tabs_spec.rb
+spec/puppet-lint/plugins/check_whitespace/80chars_spec.rb
+spec/puppet-lint/plugins/check_whitespace/arrow_alignment_spec.rb
+spec/puppet-lint/plugins/check_whitespace/hard_tabs_spec.rb
+spec/puppet-lint/plugins/check_whitespace/trailing_whitespace_spec.rb
+spec/puppet-lint_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ c14bc757af48b0b36ee181f65294efba32c67799 -> 0837f0cb0e9258e04a66646651e49ac2b4f0827c } is a revert
+{ 50d63a6073fb90f941b9786815972a3e189dcc6c -> 0781e46bdbb43237df162b29b39f750349c8c15b }
+Partial Revert commits SHA are -> 
+0837f0cb0e9258e04a66646651e49ac2b4f0827c - revert - 0781e46bdbb43237df162b29b39f750349c8c15b
+---> The reverted commit sha is - 0837f0cb0e9258e04a66646651e49ac2b4f0827c
+Commit message - Merge pull request #112 from ghoneycutt/fix_README_typo
+
+fixes spelling and typo errors in README
+---> The original commit sha is - 0781e46bdbb43237df162b29b39f750349c8c15b
+Commit message - Merge branch 'master' into dust_bunny
+---> The files with partial_reverts are:-
+.gitignore
+lib/puppet-lint.rb
+lib/puppet-lint/lexer.rb
+lib/puppet-lint/plugin.rb
+lib/puppet-lint/plugins/check_classes.rb
+lib/puppet-lint/plugins/check_conditionals.rb
+lib/puppet-lint/plugins/check_resources.rb
+lib/puppet-lint/plugins/check_strings.rb
+lib/puppet-lint/plugins/check_variables.rb
+lib/puppet-lint/plugins/check_whitespace.rb
+lib/puppet-lint/version.rb
+puppet-lint.gemspec
+spec/puppet-lint/check_classes_spec.rb
+spec/puppet-lint/check_conditionals_spec.rb
+spec/puppet-lint/check_resources_spec.rb
+spec/puppet-lint/check_strings_spec.rb
+spec/puppet-lint/check_variables_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ 28bed9fc28e0b9333e19ebb60fa969b539721e6e -> 2d00feff79d8dbdbc4f060ca5ced666853920abc } is a revert
+{ 0837f0cb0e9258e04a66646651e49ac2b4f0827c -> 50d63a6073fb90f941b9786815972a3e189dcc6c }
+Partial Revert commits SHA are -> 
+2d00feff79d8dbdbc4f060ca5ced666853920abc - revert - 50d63a6073fb90f941b9786815972a3e189dcc6c
+---> The reverted commit sha is - 2d00feff79d8dbdbc4f060ca5ced666853920abc
+Commit message - Kill filter_tokens with fire
+---> The original commit sha is - 50d63a6073fb90f941b9786815972a3e189dcc6c
+Commit message - Merge pull request #115 from wfarr/patch-1
+
+Make rake task respect PuppetLint.configuration.fail_on_warnings
+---> The files with partial_reverts are:-
+lib/puppet-lint/tasks/puppet-lint.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ 4afcee33fbee12d00d3e4509ac111d50bc59e33c -> 28bed9fc28e0b9333e19ebb60fa969b539721e6e } is a revert
+{ 28bed9fc28e0b9333e19ebb60fa969b539721e6e -> 2d00feff79d8dbdbc4f060ca5ced666853920abc }
+Partial Revert commits SHA are -> 
+28bed9fc28e0b9333e19ebb60fa969b539721e6e - revert - 2d00feff79d8dbdbc4f060ca5ced666853920abc
+---> The reverted commit sha is - 28bed9fc28e0b9333e19ebb60fa969b539721e6e
+Commit message - Make rake task respect PuppetLint.configuration.fail_on_warnings
+---> The original commit sha is - 2d00feff79d8dbdbc4f060ca5ced666853920abc
+Commit message - Kill filter_tokens with fire
+---> The files with partial_reverts are:-
+.gitignore
+lib/puppet-lint.rb
+lib/puppet-lint/lexer.rb
+lib/puppet-lint/plugins/check_classes.rb
+lib/puppet-lint/plugins/check_conditionals.rb
+lib/puppet-lint/plugins/check_resources.rb
+lib/puppet-lint/plugins/check_strings.rb
+lib/puppet-lint/plugins/check_variables.rb
+lib/puppet-lint/tasks/puppet-lint.rb
+puppet-lint.gemspec
+spec/puppet-lint/check_classes_spec.rb
+spec/puppet-lint/check_conditionals_spec.rb
+spec/puppet-lint/check_resources_spec.rb
+spec/puppet-lint/check_variables_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ ad801fc22cfb6dff592f6a5a2df7b19dd13a4c76 -> 956288d4992d93be3d55e8a122b835d0e5c860e1 } is a revert
+{ 956288d4992d93be3d55e8a122b835d0e5c860e1 -> 9b07d7fc351582ac39743b47e0dad08d78476740 }
+Partial Revert commits SHA are -> 
+956288d4992d93be3d55e8a122b835d0e5c860e1 - revert - 9b07d7fc351582ac39743b47e0dad08d78476740
+---> The reverted commit sha is - 956288d4992d93be3d55e8a122b835d0e5c860e1
+Commit message - Merge pull request #106 from wfarr/master
+
+Add support for ignoring certain globs in the rake task
+---> The original commit sha is - 9b07d7fc351582ac39743b47e0dad08d78476740
+Commit message - Merge pull request #110 from vStone/master
+
+This fixes the build on Travis CI for ruby1.9
+---> The files with partial_reverts are:-
+spec/puppet-lint/check_whitespace_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ 40e0ec93462bdf50bdd183ea739bc86a0e1a64c8 -> a8fafe2bef1cd2884d15391b555503cb7a30b481 } is a revert
+{ 345a78aba16186245630f03bbce227be3133d634 -> 495b77b89347da329a4ecc40c49b69c66669f04f }
+Partial Revert commits SHA are -> 
+a8fafe2bef1cd2884d15391b555503cb7a30b481 - revert - 495b77b89347da329a4ecc40c49b69c66669f04f
+---> The reverted commit sha is - a8fafe2bef1cd2884d15391b555503cb7a30b481
+Commit message - Merge pull request #81 from nanliu/tb/directory
+
+Add support run puppet-lint on directory.
+
+Closes #72
+---> The original commit sha is - 495b77b89347da329a4ecc40c49b69c66669f04f
+Commit message - Merge pull request #88 from garethr/patch-1
+
+Update readme to reflect the current names of the flags for disabling checks
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ 7293e5dc1f76a9a8bccb54103489322aac6ba956 -> 2eecf766f4be12ca286508c14146d133252f3604 } is a revert
+{ 6a1ce040d5cda0c148d2ab0984fbdc99ffebb684 -> a40113365fa76a703dccd40b287e4f0168b170e0 }
+Partial Revert commits SHA are -> 
+2eecf766f4be12ca286508c14146d133252f3604 - revert - a40113365fa76a703dccd40b287e4f0168b170e0
+---> The reverted commit sha is - 2eecf766f4be12ca286508c14146d133252f3604
+Commit message - Fixup the variable not enclosed in {} test
+
+In the simple test case already in play, the index offsets would
+all wind up tiny and land you on the correct codepath accidentally.
+
+This adds a test case which deliberately buries the bad line some
+20 lines down, so it's not in the first few tokens parsed.
+---> The original commit sha is - a40113365fa76a703dccd40b287e4f0168b170e0
+Commit message - Merge pull request #62 from vStone/feature/symbolic_filemodes
+
+Feature/symbolic filemodes (cfr ticket #60)
+
+Closes #60
+---> The files with partial_reverts are:-
+README.md
+lib/puppet-lint/plugins/check_resources.rb
+spec/puppet-lint/check_resources_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ 67912b3b3a27b6675e1dfe70eabeec83cf5bb77c -> 21d578de5ae28a4d2e51154786fbdfb4ddfe812e } is a revert
+{ 1979a6ccac49eebbea9ff502d0e1be5a21107e46 -> 6a1ce040d5cda0c148d2ab0984fbdc99ffebb684 }
+Partial Revert commits SHA are -> 
+21d578de5ae28a4d2e51154786fbdfb4ddfe812e - revert - 6a1ce040d5cda0c148d2ab0984fbdc99ffebb684
+---> The reverted commit sha is - 21d578de5ae28a4d2e51154786fbdfb4ddfe812e
+Commit message - Add support run puppet-lint on directory.
+
+The patch adds the ability to run puppet-lint on an entire directory by
+globbing **/*.pp.
+---> The original commit sha is - 6a1ce040d5cda0c148d2ab0984fbdc99ffebb684
+Commit message - Merge pull request #82 from nanliu/tb/variables
+
+Add additional puppet variables.
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins/check_classes.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ f9e5552315aba1f528e7e48e037377887c08a945 -> 67912b3b3a27b6675e1dfe70eabeec83cf5bb77c } is a revert
+{ a8fafe2bef1cd2884d15391b555503cb7a30b481 -> 1979a6ccac49eebbea9ff502d0e1be5a21107e46 }
+Partial Revert commits SHA are -> 
+67912b3b3a27b6675e1dfe70eabeec83cf5bb77c - revert - 1979a6ccac49eebbea9ff502d0e1be5a21107e46
+---> The reverted commit sha is - 67912b3b3a27b6675e1dfe70eabeec83cf5bb77c
+Commit message - Add additional puppet variables.
+---> The original commit sha is - 1979a6ccac49eebbea9ff502d0e1be5a21107e46
+Commit message - Merge pull request #80 from nanliu/tb/travis
+
+Update travis support for multiple puppet version.
+---> The files with partial_reverts are:-
+.travis.yml
+Gemfile
+gemfiles/Gemfile.puppet-2.6
+gemfiles/Gemfile.puppet-2.7
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ 1cecfb0b178580733c95a83a94a5c85feda7ae58 -> 3fb0889333ea7504516e480be8d2f286e07c7394 } is a revert
+{ 3fb0889333ea7504516e480be8d2f286e07c7394 -> 7336df7e32d34897d684a779a69a703dba9392d5 }
+Partial Revert commits SHA are -> 
+3fb0889333ea7504516e480be8d2f286e07c7394 - revert - 7336df7e32d34897d684a779a69a703dba9392d5
+---> The reverted commit sha is - 3fb0889333ea7504516e480be8d2f286e07c7394
+Commit message - Pass the full path through to the check plugins
+---> The original commit sha is - 7336df7e32d34897d684a779a69a703dba9392d5
+Commit message - Merge branch 'options' of https://github.com/jamtur01/puppet-lint into jamtur01-options
+---> The files with partial_reverts are:-
+bin/puppet-lint
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ a7fce7c93cc2764351941934851d85418b259df9 -> 1cecfb0b178580733c95a83a94a5c85feda7ae58 } is a revert
+{ 1cecfb0b178580733c95a83a94a5c85feda7ae58 -> 3fb0889333ea7504516e480be8d2f286e07c7394 }
+Partial Revert commits SHA are -> 
+1cecfb0b178580733c95a83a94a5c85feda7ae58 - revert - 3fb0889333ea7504516e480be8d2f286e07c7394
+---> The reverted commit sha is - 1cecfb0b178580733c95a83a94a5c85feda7ae58
+Commit message - Consolidated option checking logic
+---> The original commit sha is - 3fb0889333ea7504516e480be8d2f286e07c7394
+Commit message - Pass the full path through to the check plugins
+---> The files with partial_reverts are:-
+bin/puppet-lint
+puppet-lint.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ 9081e90e32065d8895e72ce13de0072a4daffd44 -> 25bf61fd5220abda7cbec865e5124e706385875a } is a revert
+{ 25bf61fd5220abda7cbec865e5124e706385875a -> b1d0c6943a21f676772a3efc6d8752fd7100f05d }
+Partial Revert commits SHA are -> 
+25bf61fd5220abda7cbec865e5124e706385875a - revert - b1d0c6943a21f676772a3efc6d8752fd7100f05d
+---> The reverted commit sha is - 25bf61fd5220abda7cbec865e5124e706385875a
+Commit message - Fixed #45 - Added selective error level reporting
+
+Added a new command-line option `--error-level` with
+values of:
+
+* warning - only return warning messages
+* error - only return error messages
+* all - the default return all messages
+---> The original commit sha is - b1d0c6943a21f676772a3efc6d8752fd7100f05d
+Commit message - Merge branch 'selection' of https://github.com/jamtur01/puppet-lint into jamtur01-selection
+
+Conflicts:
+	bin/puppet-lint
+	lib/puppet-lint.rb
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugin.rb
+lib/puppet-lint/plugins/check_classes.rb
+lib/puppet-lint/plugins/check_conditionals.rb
+lib/puppet-lint/plugins/check_resources.rb
+lib/puppet-lint/plugins/check_strings.rb
+lib/puppet-lint/plugins/check_variables.rb
+lib/puppet-lint/plugins/check_whitespace.rb
+spec/puppet-lint/check_classes_spec.rb
+spec/puppet-lint/check_conditionals_spec.rb
+spec/puppet-lint/check_resources_spec.rb
+spec/puppet-lint/check_strings_spec.rb
+spec/puppet-lint/check_variables_spec.rb
+spec/puppet-lint/check_whitespace_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ 4bf8198bf98ccba23e8710fa5dda016698bae873 -> ce8412a61db00ed1c40d099b7d70fb82e2799da2 } is a revert
+{ 851750bace9d3cc913baabf8a76001218a7fb1e8 -> 8aa772913965d760786d3cfecb1ebb6d0c0d4604 }
+Partial Revert commits SHA are -> 
+ce8412a61db00ed1c40d099b7d70fb82e2799da2 - revert - 8aa772913965d760786d3cfecb1ebb6d0c0d4604
+---> The reverted commit sha is - ce8412a61db00ed1c40d099b7d70fb82e2799da2
+Commit message - Added check for dashes in variables
+---> The original commit sha is - 8aa772913965d760786d3cfecb1ebb6d0c0d4604
+Commit message - Merge branch 'feature/pass_filenames' of https://github.com/vStone/puppet-lint into vStone-feature/pass_filenames
+---> The files with partial_reverts are:-
+lib/puppet-lint.rb
+lib/puppet-lint/plugin.rb
+lib/puppet-lint/plugins/check_classes.rb
+lib/puppet-lint/plugins/check_conditionals.rb
+lib/puppet-lint/plugins/check_resources.rb
+lib/puppet-lint/plugins/check_whitespace.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ ce8412a61db00ed1c40d099b7d70fb82e2799da2 -> cd5041ce695f1430d4bd5315a20534018f858df4 } is a revert
+{ e2409878fbdaf0fbaca4a9f5c2b74b95cf6d839b -> 26ed56520314af70097c052a897acb74fb3b1170 }
+Partial Revert commits SHA are -> 
+cd5041ce695f1430d4bd5315a20534018f858df4 - revert - 26ed56520314af70097c052a897acb74fb3b1170
+---> The reverted commit sha is - cd5041ce695f1430d4bd5315a20534018f858df4
+Commit message - Detect quoted boolean values
+
+http://projects.puppetlabs.com/issues/5648
+
+Closes #43
+---> The original commit sha is - 26ed56520314af70097c052a897acb74fb3b1170
+Commit message - Merge branch 'dashvariables' of https://github.com/jamtur01/puppet-lint into jamtur01-dashvariables
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins.rb
+lib/puppet-lint/plugins/check_variables.rb
+puppet-lint.gemspec
+spec/puppet-lint/check_variables_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ 4bf8198bf98ccba23e8710fa5dda016698bae873 -> ce8412a61db00ed1c40d099b7d70fb82e2799da2 } is a revert
+{ ce8412a61db00ed1c40d099b7d70fb82e2799da2 -> cd5041ce695f1430d4bd5315a20534018f858df4 }
+Partial Revert commits SHA are -> 
+ce8412a61db00ed1c40d099b7d70fb82e2799da2 - revert - cd5041ce695f1430d4bd5315a20534018f858df4
+---> The reverted commit sha is - ce8412a61db00ed1c40d099b7d70fb82e2799da2
+Commit message - Added check for dashes in variables
+---> The original commit sha is - cd5041ce695f1430d4bd5315a20534018f858df4
+Commit message - Detect quoted boolean values
+
+http://projects.puppetlabs.com/issues/5648
+
+Closes #43
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins.rb
+lib/puppet-lint/plugins/check_variables.rb
+puppet-lint.gemspec
+spec/puppet-lint/check_variables_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ 3f51da6e06a0b78bde9c43a5bb422a3aaa2e2e1d -> a27948ed0b5b7f58a6c39f74793cb89ed37a7c65 } is a revert
+{ c530353b1b3846c927e3b802d1d6c360e3ce78b6 -> 0ced27205b46561b9b6d47e242d8519294c8a30f }
+Partial Revert commits SHA are -> 
+a27948ed0b5b7f58a6c39f74793cb89ed37a7c65 - revert - 0ced27205b46561b9b6d47e242d8519294c8a30f
+---> The reverted commit sha is - a27948ed0b5b7f58a6c39f74793cb89ed37a7c65
+Commit message - Check that selectors aren't used in resource declarations
+---> The original commit sha is - 0ced27205b46561b9b6d47e242d8519294c8a30f
+Commit message - Duplicate check
+---> The files with partial_reverts are:-
+lib/puppet-lint/plugins/check_resources.rb
+-----------------------------------------------------------------
+

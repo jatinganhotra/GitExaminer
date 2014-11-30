@@ -1,0 +1,433 @@
+# of partial cherrypicks = 22
+Partial Cherry-pick diff pair 1 is -> 
+{ 0f2e2db90d5a14382eafbdfebff74048a487372f -> c033c3739599161b8164e6d9738d0e0b3c8f1d72 } is a cherrypick
+{ 5105a42d9b64575fefd3c4a7f5a40dbc9fd8cc68 -> e6e0d4fd1ab0fb6415e5ade0958210ad944b0087 }
+Partial Cherry-pick commits SHA are -> 
+c033c3739599161b8164e6d9738d0e0b3c8f1d72 - cherrypick - e6e0d4fd1ab0fb6415e5ade0958210ad944b0087
+---> The cherrypicked commit sha is - c033c3739599161b8164e6d9738d0e0b3c8f1d72
+Commit message - Add support for '--relative' in new Rake::Task format.
+Update README to show usage.
+---> The original commit sha is - e6e0d4fd1ab0fb6415e5ade0958210ad944b0087
+Commit message - Merge pull request #334 from fatmcgav/fix-relative-1.1.0
+
+Add support for '--relative' option in new Rake::Task format.
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ af3bf4efe71e0b41ffeffa02f1d6185605ba98e8 -> d7edd29150daf11febbe7f449368426619ab1628 } is a cherrypick
+{ 1c9818267a653c66a15b54a47d3898905a97d252 -> 61d4b8e763f8fdbaca91bfe368e44bc798956feb }
+Partial Cherry-pick commits SHA are -> 
+d7edd29150daf11febbe7f449368426619ab1628 - cherrypick - 61d4b8e763f8fdbaca91bfe368e44bc798956feb
+---> The cherrypicked commit sha is - d7edd29150daf11febbe7f449368426619ab1628
+Commit message - Insert :WHITESPACE token between :NAME and :FARROW if needed
+
+When fixing arrow alignment, ensure that we insert a new :WHITESPACE token
+if there isn't one there or we'll end up wiping out the parameter name when
+fixing the arrow alignment.
+---> The original commit sha is - 61d4b8e763f8fdbaca91bfe368e44bc798956feb
+Commit message - Merge pull request #318 from rodjek/issue-311
+
+Insert :WHITESPACE token between :NAME and :FARROW if needed
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/plugins/check_whitespace.rb
+spec/puppet-lint/plugins/check_whitespace/arrow_alignment_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ e695290ca14bb15cf7c6847e30ad4034f59c0b36 -> f8c58798dfcdf2435e03a63ca2dce665fde375be } is a cherrypick
+{ 7844ad2894e392325329f9011c1736b0338ed3b0 -> 486cd05224064eb58f5c8c3acc4ed3a61337a0e2 }
+Partial Cherry-pick commits SHA are -> 
+f8c58798dfcdf2435e03a63ca2dce665fde375be - cherrypick - 486cd05224064eb58f5c8c3acc4ed3a61337a0e2
+---> The cherrypicked commit sha is - f8c58798dfcdf2435e03a63ca2dce665fde375be
+Commit message - Ensure check methods can't modify tokens array
+
+Duplicate tokens if being called from a check method.
+---> The original commit sha is - 486cd05224064eb58f5c8c3acc4ed3a61337a0e2
+Commit message - Merge pull request #296 from rodjek/safe_tokens_in_check
+
+Ensure check methods can't modify tokens array
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/data.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ 1d5c937a19dd0369890e9c27a051a32ab209c524 -> 47efccd500530348c9819411ce5d0565cba98268 } is a cherrypick
+{ 56ca9f0f144068e71db51991273f9616f03d230c -> 99101e64859516138592685959e56ce97718e012 }
+Partial Cherry-pick commits SHA are -> 
+47efccd500530348c9819411ce5d0565cba98268 - cherrypick - 99101e64859516138592685959e56ce97718e012
+---> The cherrypicked commit sha is - 47efccd500530348c9819411ce5d0565cba98268
+Commit message - Don't automatically pad comment content with whitespace
+---> The original commit sha is - 99101e64859516138592685959e56ce97718e012
+Commit message - Merge pull request #276 from rodjek/handle_array_refs
+
+Make array refs part of the variable name
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/data.rb
+lib/puppet-lint/lexer.rb
+spec/puppet-lint/lexer_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ 4d5316c3ad289261c45fbe679ff363da0d61c734 -> b2f74fe486f6fda6d2a1a51f893e7846dadb34bf } is a cherrypick
+{ c89ef2d5f1c8815fdca5ecccbe63301e891664e4 -> 15edf04bf1b3eab8f26baa33c0b1470ab72cf1ee }
+Partial Cherry-pick commits SHA are -> 
+b2f74fe486f6fda6d2a1a51f893e7846dadb34bf - cherrypick - 15edf04bf1b3eab8f26baa33c0b1470ab72cf1ee
+---> The cherrypicked commit sha is - b2f74fe486f6fda6d2a1a51f893e7846dadb34bf
+Commit message - Notify with line instead of linenumber
+
+The difference between linenumber (instead of line) and column has
+annoyed me for a while.
+---> The original commit sha is - 15edf04bf1b3eab8f26baa33c0b1470ab72cf1ee
+Commit message - Merge branch 'master' into refactor_data
+
+Conflicts:
+	lib/puppet-lint/plugins/check_classes.rb
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/checkplugin.rb
+lib/puppet-lint/checks.rb
+lib/puppet-lint/plugins/check_classes.rb
+lib/puppet-lint/plugins/check_comments.rb
+lib/puppet-lint/plugins/check_conditionals.rb
+lib/puppet-lint/plugins/check_documentation.rb
+lib/puppet-lint/plugins/check_nodes.rb
+lib/puppet-lint/plugins/check_resources.rb
+lib/puppet-lint/plugins/check_strings.rb
+lib/puppet-lint/plugins/check_variables.rb
+lib/puppet-lint/plugins/check_whitespace.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ d34ac3c31616342eaea2218f796bfca468c729e4 -> d8015cfeed8052dddd05fb85ca0edbfcab85823d } is a cherrypick
+{ 211b2a0a8cf94aeec4062f044f1f6a0a75457455 -> aee2a4aff9e11209f7e19d2b71947c54b14791b4 }
+Partial Cherry-pick commits SHA are -> 
+d8015cfeed8052dddd05fb85ca0edbfcab85823d - cherrypick - aee2a4aff9e11209f7e19d2b71947c54b14791b4
+---> The cherrypicked commit sha is - d8015cfeed8052dddd05fb85ca0edbfcab85823d
+Commit message - Allow double quotes for puppet supported escape sequences
+
+add support for \$ \" \' \r (\t \n already supported) escape
+sequences.
+
+This is to follow:
+ http://docs.puppetlabs.com/puppet/2.7/reference/lang_datatypes.html#double-quoted-strings
+
+While puppet supports \\ and \s, both are replaced with normal characters
+that lint otherwise should look for.
+
+These are necessary to support confusing escape sequens that end up being
+passed to downstream commands and the like. Making propper use double
+quotes but preventing lint from generating false warnings.
+
+Signed-off-by: Andrew Woodward <awoodward@mirantis.com>
+---> The original commit sha is - aee2a4aff9e11209f7e19d2b71947c54b14791b4
+Commit message - Merge branch 'master' of https://github.com/xarses/puppet-lint into xarses-master
+
+Conflicts:
+	spec/puppet-lint/plugins/check_strings/double_quoted_strings_spec.rb
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/plugins/check_strings.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ 5b0145768cf054a341635e190add7a131beb50c1 -> bd0ce1aedab7f5f0b5451d3c271d8cf8a0f6c1d0 } is a cherrypick
+{ d533c7ca1ef21b4a2147354868679af3438db509 -> c9ae57633b26365479495a4aa1ac276372107ba0 }
+Partial Cherry-pick commits SHA are -> 
+bd0ce1aedab7f5f0b5451d3c271d8cf8a0f6c1d0 - cherrypick - c9ae57633b26365479495a4aa1ac276372107ba0
+---> The cherrypicked commit sha is - bd0ce1aedab7f5f0b5451d3c271d8cf8a0f6c1d0
+Commit message - Merge pull request #203 from rodjek/issue-203
+
+--fix doesn't modify my file
+---> The original commit sha is - c9ae57633b26365479495a4aa1ac276372107ba0
+Commit message - Merge pull request #226 from rodjek/fix_refactor
+
+Refactor check plugins to have slightly less awful magic
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/plugins.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ 6e521f09980d23c718c9765473198bbd0a6a97c8 -> ae194434b2d81a38401c556ec92a6eb2fdfd1517 } is a cherrypick
+{ bd0ce1aedab7f5f0b5451d3c271d8cf8a0f6c1d0 -> d05720b157a7ea60211be28d7280fb585f192182 }
+Partial Cherry-pick commits SHA are -> 
+ae194434b2d81a38401c556ec92a6eb2fdfd1517 - cherrypick - d05720b157a7ea60211be28d7280fb585f192182
+---> The cherrypicked commit sha is - ae194434b2d81a38401c556ec92a6eb2fdfd1517
+Commit message - Refactor checks into their own classes
+---> The original commit sha is - d05720b157a7ea60211be28d7280fb585f192182
+Commit message - Convert only_variable_string to new fix method
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/checks.rb
+lib/puppet-lint/configuration.rb
+lib/puppet-lint/data.rb
+lib/puppet-lint/plugins.rb
+lib/puppet-lint/plugins/check_classes.rb
+lib/puppet-lint/plugins/check_conditionals.rb
+lib/puppet-lint/plugins/check_documentation.rb
+lib/puppet-lint/plugins/check_nodes.rb
+lib/puppet-lint/plugins/check_variables.rb
+lib/puppet-lint/plugins/check_whitespace.rb
+spec/puppet-lint/configuration_spec.rb
+spec/spec_helper.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ 6f65c07132c1ee66b82986d6da6b02cb9814a4f7 -> 9a29e8478ff0fbc5655c80dcd7df8127d5ba0361 } is a cherrypick
+{ 0dcd36c36ee58b66ffec4d151319c6dfbe1498c6 -> 711dd6933e31931ee9741585f4666b7fe877e368 }
+Partial Cherry-pick commits SHA are -> 
+9a29e8478ff0fbc5655c80dcd7df8127d5ba0361 - cherrypick - 711dd6933e31931ee9741585f4666b7fe877e368
+---> The cherrypicked commit sha is - 9a29e8478ff0fbc5655c80dcd7df8127d5ba0361
+Commit message - Don't rewrite the file if a syntax error has been found
+---> The original commit sha is - 711dd6933e31931ee9741585f4666b7fe877e368
+Commit message - Merge pull request #184 from rodjek/issue-184
+
+Running with --fix deletes all code for files containing invalid syntax
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/bin.rb
+lib/puppet-lint/checks.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 3bff125e1557a6de9b9629536b75f049722fb308 -> c9f2b6d40c5529ad645a87763a6945d6898d72c9 } is a cherrypick
+{ e4baf1db9a434adbfd20d9e4ab89cda6f9c73752 -> 9f165b6e949e09fffce5cc803920a8f4608557c6 }
+Partial Cherry-pick commits SHA are -> 
+c9f2b6d40c5529ad645a87763a6945d6898d72c9 - cherrypick - 9f165b6e949e09fffce5cc803920a8f4608557c6
+---> The cherrypicked commit sha is - c9f2b6d40c5529ad645a87763a6945d6898d72c9
+Commit message - Merge branch 'master' into fix_stuff
+---> The original commit sha is - 9f165b6e949e09fffce5cc803920a8f4608557c6
+Commit message - Merge branch 'fix_stuff'
+---> The files with partial_cherrypicks are:-
+.gitignore
+lib/puppet-lint/checks.rb
+lib/puppet-lint/configuration.rb
+lib/puppet-lint/lexer/token.rb
+lib/puppet-lint/plugins/check_comments.rb
+lib/puppet-lint/plugins/check_resources.rb
+lib/puppet-lint/plugins/check_whitespace.rb
+lib/puppet-lint/version.rb
+spec/puppet-lint/configuration_spec.rb
+spec/puppet-lint/lexer_spec.rb
+spec/puppet-lint/plugins/check_comments/slash_comments_spec.rb
+spec/puppet-lint/plugins/check_resources/file_mode_spec.rb
+spec/puppet-lint/plugins/check_resources/unquoted_file_mode_spec.rb
+spec/puppet-lint/plugins/check_resources/unquoted_resource_title_spec.rb
+spec/puppet-lint/plugins/check_strings/quoted_booleans_spec.rb
+spec/puppet-lint/plugins/check_strings/variables_not_enclosed_spec.rb
+spec/puppet-lint/plugins/check_whitespace/arrow_alignment_spec.rb
+spec/puppet-lint/plugins/check_whitespace/hard_tabs_spec.rb
+spec/puppet-lint/plugins/check_whitespace/trailing_whitespace_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ d6e290ed36f1b968d7d491630752b19a59168b41 -> 9855f14e603ae13457501fff09e3c20489e3dc93 } is a cherrypick
+{ d11041cb269924d7a67bc10f5bffd448b72246dc -> ebe81d6dfa38b49c8b1734f50122ae06877b1299 }
+Partial Cherry-pick commits SHA are -> 
+9855f14e603ae13457501fff09e3c20489e3dc93 - cherrypick - ebe81d6dfa38b49c8b1734f50122ae06877b1299
+---> The cherrypicked commit sha is - 9855f14e603ae13457501fff09e3c20489e3dc93
+Commit message - Use https rubygems source for bundler
+---> The original commit sha is - ebe81d6dfa38b49c8b1734f50122ae06877b1299
+Commit message - Gemfile to use https source
+---> The files with partial_cherrypicks are:-
+Gemfile
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 3bff125e1557a6de9b9629536b75f049722fb308 -> c9f2b6d40c5529ad645a87763a6945d6898d72c9 } is a cherrypick
+{ d11041cb269924d7a67bc10f5bffd448b72246dc -> ebe81d6dfa38b49c8b1734f50122ae06877b1299 }
+Partial Cherry-pick commits SHA are -> 
+c9f2b6d40c5529ad645a87763a6945d6898d72c9 - cherrypick - ebe81d6dfa38b49c8b1734f50122ae06877b1299
+---> The cherrypicked commit sha is - c9f2b6d40c5529ad645a87763a6945d6898d72c9
+Commit message - Merge branch 'master' into fix_stuff
+---> The original commit sha is - ebe81d6dfa38b49c8b1734f50122ae06877b1299
+Commit message - Gemfile to use https source
+---> The files with partial_cherrypicks are:-
+Gemfile
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 1dd4e9979fc4d5b64d72c077b732b1f1a1b21b47 -> 3bff125e1557a6de9b9629536b75f049722fb308 } is a cherrypick
+{ 7dd5fddd1f0c6bd4f824b870f185bdb5ffda8860 -> 312bdf264a9811390205fdd851596163f0208a2c }
+Partial Cherry-pick commits SHA are -> 
+3bff125e1557a6de9b9629536b75f049722fb308 - cherrypick - 312bdf264a9811390205fdd851596163f0208a2c
+---> The cherrypicked commit sha is - 3bff125e1557a6de9b9629536b75f049722fb308
+Commit message - Build everything
+---> The original commit sha is - 312bdf264a9811390205fdd851596163f0208a2c
+Commit message - Prevent nil offset failures
+---> The files with partial_cherrypicks are:-
+.gitignore
+Gemfile
+lib/puppet-lint/bin.rb
+lib/puppet-lint/checks.rb
+lib/puppet-lint/configuration.rb
+lib/puppet-lint/lexer/token.rb
+lib/puppet-lint/plugins/check_comments.rb
+lib/puppet-lint/plugins/check_resources.rb
+lib/puppet-lint/plugins/check_strings.rb
+lib/puppet-lint/plugins/check_whitespace.rb
+lib/puppet-lint/version.rb
+spec/puppet-lint/configuration_spec.rb
+spec/puppet-lint/plugins/check_comments/slash_comments_spec.rb
+spec/puppet-lint/plugins/check_resources/file_mode_spec.rb
+spec/puppet-lint/plugins/check_resources/unquoted_file_mode_spec.rb
+spec/puppet-lint/plugins/check_resources/unquoted_resource_title_spec.rb
+spec/puppet-lint/plugins/check_strings/only_variable_string_spec.rb
+spec/puppet-lint/plugins/check_strings/quoted_booleans_spec.rb
+spec/puppet-lint/plugins/check_strings/variables_not_enclosed_spec.rb
+spec/puppet-lint/plugins/check_whitespace/arrow_alignment_spec.rb
+spec/puppet-lint/plugins/check_whitespace/hard_tabs_spec.rb
+spec/puppet-lint/plugins/check_whitespace/trailing_whitespace_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 59c0adf2852dba30647ea0cc03dd085291b50941 -> b91d0058da6265ade231bfcd5516bb0050ecc3d5 } is a cherrypick
+{ decbf4cbb17116df56094fac6af57b38b35c2da5 -> d6e290ed36f1b968d7d491630752b19a59168b41 }
+Partial Cherry-pick commits SHA are -> 
+b91d0058da6265ade231bfcd5516bb0050ecc3d5 - cherrypick - d6e290ed36f1b968d7d491630752b19a59168b41
+---> The cherrypicked commit sha is - b91d0058da6265ade231bfcd5516bb0050ecc3d5
+Commit message - Fix the check_classes check for certain cases.
+
+Examples:
+
+File: modules/foobar/manifests/init.pp
+Content: 'class bar { }'
+
+File: modules/foobar/manifests/fail.pp
+Content: 'class bar::fail {}'
+
+These 2 examples do not throw the autoloader error while they really should.
+---> The original commit sha is - d6e290ed36f1b968d7d491630752b19a59168b41
+Commit message - Merge pull request #176 from vStone/feature/check_autoloader_layout_fix
+
+Fix the check_classes check for certain cases.
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/plugins/check_classes.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ b91d0058da6265ade231bfcd5516bb0050ecc3d5 -> ddaa1058f1c27bb3f683c049c2f1463fbdf48cea } is a cherrypick
+{ 5c64722be0c82aeff07ec9f7060c705191c9af5b -> 2ed61af448e5b3930884c19009bc278829d18af7 }
+Partial Cherry-pick commits SHA are -> 
+ddaa1058f1c27bb3f683c049c2f1463fbdf48cea - cherrypick - 2ed61af448e5b3930884c19009bc278829d18af7
+---> The cherrypicked commit sha is - ddaa1058f1c27bb3f683c049c2f1463fbdf48cea
+Commit message - WIP
+---> The original commit sha is - 2ed61af448e5b3930884c19009bc278829d18af7
+Commit message - Merge branch 'master' into fix_stuff
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint.rb
+lib/puppet-lint/bin.rb
+lib/puppet-lint/checks.rb
+lib/puppet-lint/configuration.rb
+lib/puppet-lint/lexer/token.rb
+lib/puppet-lint/plugins/check_resources.rb
+lib/puppet-lint/plugins/check_strings.rb
+spec/puppet-lint/configuration_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ ecc7dc0d41544ca4a87416b82962eead6bd8e743 -> db6cde35998350663d24f5c50cc866c7d890e663 } is a cherrypick
+{ 2a7ead378694c97c18df03e52ccf4d7cfb647a15 -> ee8aa02b9c19425ccc3ed9e2334e47b24944ac4a }
+Partial Cherry-pick commits SHA are -> 
+db6cde35998350663d24f5c50cc866c7d890e663 - cherrypick - ee8aa02b9c19425ccc3ed9e2334e47b24944ac4a
+---> The cherrypicked commit sha is - db6cde35998350663d24f5c50cc866c7d890e663
+Commit message - (#152) Fix crash on string with \\ and variable
+---> The original commit sha is - ee8aa02b9c19425ccc3ed9e2334e47b24944ac4a
+Commit message - Merge branch 'backslash_crash' of https://github.com/dalen/puppet-lint into dalen-backslash_crash
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/lexer.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ 4afcee33fbee12d00d3e4509ac111d50bc59e33c -> 28bed9fc28e0b9333e19ebb60fa969b539721e6e } is a cherrypick
+{ 0837f0cb0e9258e04a66646651e49ac2b4f0827c -> 50d63a6073fb90f941b9786815972a3e189dcc6c }
+Partial Cherry-pick commits SHA are -> 
+28bed9fc28e0b9333e19ebb60fa969b539721e6e - cherrypick - 50d63a6073fb90f941b9786815972a3e189dcc6c
+---> The cherrypicked commit sha is - 28bed9fc28e0b9333e19ebb60fa969b539721e6e
+Commit message - Make rake task respect PuppetLint.configuration.fail_on_warnings
+---> The original commit sha is - 50d63a6073fb90f941b9786815972a3e189dcc6c
+Commit message - Merge pull request #115 from wfarr/patch-1
+
+Make rake task respect PuppetLint.configuration.fail_on_warnings
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/tasks/puppet-lint.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 7293e5dc1f76a9a8bccb54103489322aac6ba956 -> 2eecf766f4be12ca286508c14146d133252f3604 } is a cherrypick
+{ 330218207250c9d8eebe144b1b5900d978c0802f -> 7a8a08a5f64d27db5016b3ed22bbd8202885fdaf }
+Partial Cherry-pick commits SHA are -> 
+2eecf766f4be12ca286508c14146d133252f3604 - cherrypick - 7a8a08a5f64d27db5016b3ed22bbd8202885fdaf
+---> The cherrypicked commit sha is - 2eecf766f4be12ca286508c14146d133252f3604
+Commit message - Fixup the variable not enclosed in {} test
+
+In the simple test case already in play, the index offsets would
+all wind up tiny and land you on the correct codepath accidentally.
+
+This adds a test case which deliberately buries the bad line some
+20 lines down, so it's not in the first few tokens parsed.
+---> The original commit sha is - 7a8a08a5f64d27db5016b3ed22bbd8202885fdaf
+Commit message - Merge branch 'variable_enclosed' of https://github.com/richardc/puppet-lint into richardc-variable_enclosed
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/plugins/check_strings.rb
+spec/puppet-lint/check_strings_spec.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ 21d578de5ae28a4d2e51154786fbdfb4ddfe812e -> 40e0ec93462bdf50bdd183ea739bc86a0e1a64c8 } is a cherrypick
+{ 345a78aba16186245630f03bbce227be3133d634 -> 495b77b89347da329a4ecc40c49b69c66669f04f }
+Partial Cherry-pick commits SHA are -> 
+40e0ec93462bdf50bdd183ea739bc86a0e1a64c8 - cherrypick - 495b77b89347da329a4ecc40c49b69c66669f04f
+---> The cherrypicked commit sha is - 40e0ec93462bdf50bdd183ea739bc86a0e1a64c8
+Commit message - Update readme to reflect the current names of the flags for disabling checks. The documented options no longer appear to be correct.
+---> The original commit sha is - 495b77b89347da329a4ecc40c49b69c66669f04f
+Commit message - Merge pull request #88 from garethr/patch-1
+
+Update readme to reflect the current names of the flags for disabling checks
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ f9e5552315aba1f528e7e48e037377887c08a945 -> 67912b3b3a27b6675e1dfe70eabeec83cf5bb77c } is a cherrypick
+{ 1979a6ccac49eebbea9ff502d0e1be5a21107e46 -> 6a1ce040d5cda0c148d2ab0984fbdc99ffebb684 }
+Partial Cherry-pick commits SHA are -> 
+67912b3b3a27b6675e1dfe70eabeec83cf5bb77c - cherrypick - 6a1ce040d5cda0c148d2ab0984fbdc99ffebb684
+---> The cherrypicked commit sha is - 67912b3b3a27b6675e1dfe70eabeec83cf5bb77c
+Commit message - Add additional puppet variables.
+---> The original commit sha is - 6a1ce040d5cda0c148d2ab0984fbdc99ffebb684
+Commit message - Merge pull request #82 from nanliu/tb/variables
+
+Add additional puppet variables.
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/plugins/check_classes.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ a7fce7c93cc2764351941934851d85418b259df9 -> 1cecfb0b178580733c95a83a94a5c85feda7ae58 } is a cherrypick
+{ 3fb0889333ea7504516e480be8d2f286e07c7394 -> 7336df7e32d34897d684a779a69a703dba9392d5 }
+Partial Cherry-pick commits SHA are -> 
+1cecfb0b178580733c95a83a94a5c85feda7ae58 - cherrypick - 7336df7e32d34897d684a779a69a703dba9392d5
+---> The cherrypicked commit sha is - 1cecfb0b178580733c95a83a94a5c85feda7ae58
+Commit message - Consolidated option checking logic
+---> The original commit sha is - 7336df7e32d34897d684a779a69a703dba9392d5
+Commit message - Merge branch 'options' of https://github.com/jamtur01/puppet-lint into jamtur01-options
+---> The files with partial_cherrypicks are:-
+bin/puppet-lint
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ 4bf8198bf98ccba23e8710fa5dda016698bae873 -> ce8412a61db00ed1c40d099b7d70fb82e2799da2 } is a cherrypick
+{ e2409878fbdaf0fbaca4a9f5c2b74b95cf6d839b -> 26ed56520314af70097c052a897acb74fb3b1170 }
+Partial Cherry-pick commits SHA are -> 
+ce8412a61db00ed1c40d099b7d70fb82e2799da2 - cherrypick - 26ed56520314af70097c052a897acb74fb3b1170
+---> The cherrypicked commit sha is - ce8412a61db00ed1c40d099b7d70fb82e2799da2
+Commit message - Added check for dashes in variables
+---> The original commit sha is - 26ed56520314af70097c052a897acb74fb3b1170
+Commit message - Merge branch 'dashvariables' of https://github.com/jamtur01/puppet-lint into jamtur01-dashvariables
+---> The files with partial_cherrypicks are:-
+lib/puppet-lint/plugins.rb
+lib/puppet-lint/plugins/check_variables.rb
+puppet-lint.gemspec
+spec/puppet-lint/check_strings_spec.rb
+spec/puppet-lint/check_variables_spec.rb
+-----------------------------------------------------------------
+
