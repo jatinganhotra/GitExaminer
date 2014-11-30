@@ -12,9 +12,10 @@ How often do people revert/merge/cherry-pick?
 
 <p> As developers, we come across different situations, such as:
     <ul>
-    * when we realise a previous change was incorrect
-    * when we need to cherry-pick a commit from one branch and apply it on another.
-    * or, merge changes from one branch to another
+    * when we realise a previous change was incorrect, or
+    * when we need to cherry-pick a commit from one branch and apply it on another, or
+    * merge changes from one branch to another
+
 
   Thanks to modern version control systems, such as <a href="http://git-scm.com">Git</a>,
   reverting the previous change, cherry-picking and merging are just one-command away.
@@ -22,7 +23,7 @@ How often do people revert/merge/cherry-pick?
   essential.
 </p>
 <p>
-  Git-Examiner reports the # of reverts, # of merges and # of cherry-picks performed in a given project, given it's commit history.
+  <strong>Git-Examiner</strong> reports the # of reverts, # of merges and # of cherry-picks performed in a given project, given it's commit history.<br/>
   In addition, Git-Examiner also inspects the commit history and also reports partial reverts and partial cherry-picks in the project.
 </p>
 
@@ -67,7 +68,7 @@ How often do people revert/merge/cherry-pick?
 
   The results for some of the open-sourced projects are provided at: <br/>
   <a href="https://github.com/silverSpoon/RevertFinder/blob/master/results.txt">
-    Results on 23 open-source projects
+    Results on 54 open-source projects
   </a>
   The results are also provided below for a quick look.
 
