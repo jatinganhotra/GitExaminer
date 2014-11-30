@@ -1,0 +1,3647 @@
+# of partial reverts = 196
+Partial Revert diff pair 1 is -> 
+{ b86b76a2aa670e712a287599a9c2094963b95ad1 -> 6261a5c6836d93ca1d0e4cf6de90bd8545d73f2f } is a revert
+{ 6261a5c6836d93ca1d0e4cf6de90bd8545d73f2f -> f9011adc0007f64eec1db6e9174ee6d6ab8bf4ce }
+Partial Revert commits SHA are -> 
+6261a5c6836d93ca1d0e4cf6de90bd8545d73f2f - revert - f9011adc0007f64eec1db6e9174ee6d6ab8bf4ce
+---> The reverted commit sha is - 6261a5c6836d93ca1d0e4cf6de90bd8545d73f2f
+Commit message - Merge pull request #578 from presidentbeef/fix_self_assignment_explosion
+
+Fix self assignment branch explosion
+---> The original commit sha is - f9011adc0007f64eec1db6e9174ee6d6ab8bf4ce
+Commit message - Merge branch 'master' into handle_multiple_assignment
+
+Conflicts:
+	test/tests/alias_processor.rb
+---> The files with partial_reverts are:-
+lib/ruby_parser/bm_sexp.rb
+test/tests/sexp.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ ed11c3da63c5cd4efa80aba2a0453a3fea3b9c4c -> b9cf4362042e82fcf0ae6d3a3aaa3f4cf6d519ba } is a revert
+{ b9cf4362042e82fcf0ae6d3a3aaa3f4cf6d519ba -> 532d2b4ed2dc96b9693b7fbf77f12f368df78438 }
+Partial Revert commits SHA are -> 
+b9cf4362042e82fcf0ae6d3a3aaa3f4cf6d519ba - revert - 532d2b4ed2dc96b9693b7fbf77f12f368df78438
+---> The reverted commit sha is - b9cf4362042e82fcf0ae6d3a3aaa3f4cf6d519ba
+Commit message - Merge pull request #570 from presidentbeef/symbol_dos_is_optional
+
+Make CheckSymbolDoS an optional check
+---> The original commit sha is - 532d2b4ed2dc96b9693b7fbf77f12f368df78438
+Commit message - Merge pull request #571 from presidentbeef/index_libs_too
+
+Index calls in libraries too
+---> The files with partial_reverts are:-
+lib/brakeman.rb
+lib/brakeman/options.rb
+lib/brakeman/tracker.rb
+test/apps/rails4/lib/sweet_lib.rb
+test/tests/rails4.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 6f7f56da138b5596410318b37750ac037589860e -> dcc6060206b9a534b87e0cec60657b839287f73b } is a revert
+{ dcc6060206b9a534b87e0cec60657b839287f73b -> 9587fdb880837bfce4659ca5e241626469123aa7 }
+Partial Revert commits SHA are -> 
+dcc6060206b9a534b87e0cec60657b839287f73b - revert - 9587fdb880837bfce4659ca5e241626469123aa7
+---> The reverted commit sha is - dcc6060206b9a534b87e0cec60657b839287f73b
+Commit message - Merge pull request #568 from presidentbeef/make_separate_models_default
+
+Make --separate-models the default
+---> The original commit sha is - 9587fdb880837bfce4659ca5e241626469123aa7
+Commit message - Merge pull request #569 from presidentbeef/more_line_numbers_for_gems
+
+More line numbers for CVEs
+---> The files with partial_reverts are:-
+lib/brakeman/checks/base_check.rb
+lib/brakeman/checks/check_create_with.rb
+lib/brakeman/checks/check_digest_dos.rb
+lib/brakeman/checks/check_escape_function.rb
+lib/brakeman/checks/check_filter_skipping.rb
+lib/brakeman/checks/check_forgery_setting.rb
+lib/brakeman/checks/check_header_dos.rb
+lib/brakeman/checks/check_i18n_xss.rb
+lib/brakeman/checks/check_jruby_xml.rb
+lib/brakeman/checks/check_json_parsing.rb
+lib/brakeman/checks/check_mail_to.rb
+lib/brakeman/checks/check_nested_attributes.rb
+lib/brakeman/checks/check_number_to_currency.rb
+lib/brakeman/checks/check_quote_table_name.rb
+lib/brakeman/checks/check_render_dos.rb
+lib/brakeman/checks/check_response_splitting.rb
+lib/brakeman/checks/check_safe_buffer_manipulation.rb
+lib/brakeman/checks/check_simple_format.rb
+lib/brakeman/checks/check_single_quotes.rb
+lib/brakeman/checks/check_sql_cves.rb
+lib/brakeman/checks/check_strip_tags.rb
+lib/brakeman/checks/check_symbol_dos.rb
+lib/brakeman/checks/check_translate_bug.rb
+lib/brakeman/checks/check_yaml_parsing.rb
+lib/brakeman/warning.rb
+test/tests/only_files_option.rb
+test/tests/rails31.rb
+test/tests/rails32.rb
+test/tests/rails4.rb
+test/tests/rails4_with_engines.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ adb283e87d77c512b657bb6937436e87d99e2745 -> d4c6cda8de2ed6467e6cb7430641884475ef5d48 } is a revert
+{ c41283733210615086133661d1dfc833b24f80a3 -> 81ab498080bded3741705bc895ce7cb80d84a67f }
+Partial Revert commits SHA are -> 
+d4c6cda8de2ed6467e6cb7430641884475ef5d48 - revert - 81ab498080bded3741705bc895ce7cb80d84a67f
+---> The reverted commit sha is - d4c6cda8de2ed6467e6cb7430641884475ef5d48
+Commit message - Fix how immediate model attributes are detected
+
+in particular, don't try to retroactively build call chain.
+Fixes #385
+---> The original commit sha is - 81ab498080bded3741705bc895ce7cb80d84a67f
+Commit message - Update CHANGES
+
+* Avoid warning about Symbol DoS on safe parameters as method targets
+* Fix stack overflow in ProcessHelper#class_name
+* Add optional check for unscoped find queries (Ben Toews)
+* Add framework for optional checks
+* Fix stack overflow for cycles in class ancestors (JR Richardson)
+---> The files with partial_reverts are:-
+CHANGES
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ 0a4b26f0c4a3297c018b372b1e214783244ee6d8 -> ad1c7ad719baff71eed65463b7f1f22ee85dee28 } is a revert
+{ c41283733210615086133661d1dfc833b24f80a3 -> 81ab498080bded3741705bc895ce7cb80d84a67f }
+Partial Revert commits SHA are -> 
+ad1c7ad719baff71eed65463b7f1f22ee85dee28 - revert - 81ab498080bded3741705bc895ce7cb80d84a67f
+---> The reverted commit sha is - ad1c7ad719baff71eed65463b7f1f22ee85dee28
+Commit message - Make ModelAttrAccessible check consistent in 1.8
+---> The original commit sha is - 81ab498080bded3741705bc895ce7cb80d84a67f
+Commit message - Update CHANGES
+
+* Avoid warning about Symbol DoS on safe parameters as method targets
+* Fix stack overflow in ProcessHelper#class_name
+* Add optional check for unscoped find queries (Ben Toews)
+* Add framework for optional checks
+* Fix stack overflow for cycles in class ancestors (JR Richardson)
+---> The files with partial_reverts are:-
+CHANGES
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ 7941d519b955d22a9c8a8d2c983f3845a3e45c43 -> 6f823d135cdb0929a57974c7d35db8b35190d6a3 } is a revert
+{ 92b97e9810a70b64c9de6126620c314f2a8e85cc -> c41283733210615086133661d1dfc833b24f80a3 }
+Partial Revert commits SHA are -> 
+6f823d135cdb0929a57974c7d35db8b35190d6a3 - revert - c41283733210615086133661d1dfc833b24f80a3
+---> The reverted commit sha is - 6f823d135cdb0929a57974c7d35db8b35190d6a3
+Commit message - Merge pull request #563 from presidentbeef/add_optional_checks_list
+
+Add option to list optional checks
+---> The original commit sha is - c41283733210615086133661d1dfc833b24f80a3
+Commit message - Merge pull request #564 from presidentbeef/moar_safe_params_to_symbols
+
+Avoid warning about Symbol DoS on safe params
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_symbol_dos.rb
+test/apps/rails4/app/controllers/users_controller.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ 281d07cebe4f4fa97683cf9988f7d1bb6a00ec59 -> c9a4784a94750aeb3db66f4da424588309efa817 } is a revert
+{ 6f823d135cdb0929a57974c7d35db8b35190d6a3 -> 92b97e9810a70b64c9de6126620c314f2a8e85cc }
+Partial Revert commits SHA are -> 
+c9a4784a94750aeb3db66f4da424588309efa817 - revert - 92b97e9810a70b64c9de6126620c314f2a8e85cc
+---> The reverted commit sha is - c9a4784a94750aeb3db66f4da424588309efa817
+Commit message - Merge pull request #469 from github/unscoped_find
+
+Check for unscoped model finds
+---> The original commit sha is - 92b97e9810a70b64c9de6126620c314f2a8e85cc
+Commit message - Merge pull request #560 from presidentbeef/dont_process_in_class_name_util
+
+Don't process in class_name util
+---> The files with partial_reverts are:-
+lib/brakeman/processors/lib/processor_helper.rb
+test/apps/rails4/app/controllers/another_controller.rb
+test/apps/rails4/app/views/another/overflow.html.erb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ eea08cc968cfab26b4bf293fa547d27ae86def68 -> 2af5230fe69b64042e541be2602a4a6b5d9532a4 } is a revert
+{ c9d5b55b4f6e1236430d7cbb72cfe2afc0efc32e -> 048b1c1704dc1985b8e959be231b9c9863adab57 }
+Partial Revert commits SHA are -> 
+2af5230fe69b64042e541be2602a4a6b5d9532a4 - revert - 048b1c1704dc1985b8e959be231b9c9863adab57
+---> The reverted commit sha is - 2af5230fe69b64042e541be2602a4a6b5d9532a4
+Commit message - Fix CVE-2014-3514 test names
+---> The original commit sha is - 048b1c1704dc1985b8e959be231b9c9863adab57
+Commit message - Merge pull request #555 from presidentbeef/optional_checks
+
+Optional checks
+---> The files with partial_reverts are:-
+test/apps/rails4/app/models/recursive/stack_level.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ d8f65dcbcf5b301b9a998464d54367abbf995d8b -> d75d53d62677acda968e37d2490816beb2bafffb } is a revert
+{ c9d5b55b4f6e1236430d7cbb72cfe2afc0efc32e -> 048b1c1704dc1985b8e959be231b9c9863adab57 }
+Partial Revert commits SHA are -> 
+d75d53d62677acda968e37d2490816beb2bafffb - revert - 048b1c1704dc1985b8e959be231b9c9863adab57
+---> The reverted commit sha is - d75d53d62677acda968e37d2490816beb2bafffb
+Commit message - Make TemplateAliasProcessor work with top-level partials
+---> The original commit sha is - 048b1c1704dc1985b8e959be231b9c9863adab57
+Commit message - Merge pull request #555 from presidentbeef/optional_checks
+
+Optional checks
+---> The files with partial_reverts are:-
+lib/brakeman/checks/base_check.rb
+test/apps/rails4/app/models/recursive/stack_level.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ 4162480706a0831f836644d00e5e85a8a4e98df2 -> 1e1520f35ff051d4676f2b58a79a4f8884f9399d } is a revert
+{ c9d5b55b4f6e1236430d7cbb72cfe2afc0efc32e -> 048b1c1704dc1985b8e959be231b9c9863adab57 }
+Partial Revert commits SHA are -> 
+1e1520f35ff051d4676f2b58a79a4f8884f9399d - revert - 048b1c1704dc1985b8e959be231b9c9863adab57
+---> The reverted commit sha is - 1e1520f35ff051d4676f2b58a79a4f8884f9399d
+Commit message - Add framework for optional checks
+---> The original commit sha is - 048b1c1704dc1985b8e959be231b9c9863adab57
+Commit message - Merge pull request #555 from presidentbeef/optional_checks
+
+Optional checks
+---> The files with partial_reverts are:-
+lib/brakeman/checks/base_check.rb
+test/apps/rails4/app/models/recursive/stack_level.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ eea08cc968cfab26b4bf293fa547d27ae86def68 -> 2af5230fe69b64042e541be2602a4a6b5d9532a4 } is a revert
+{ d75d53d62677acda968e37d2490816beb2bafffb -> 4162480706a0831f836644d00e5e85a8a4e98df2 }
+Partial Revert commits SHA are -> 
+2af5230fe69b64042e541be2602a4a6b5d9532a4 - revert - 4162480706a0831f836644d00e5e85a8a4e98df2
+---> The reverted commit sha is - 2af5230fe69b64042e541be2602a4a6b5d9532a4
+Commit message - Fix CVE-2014-3514 test names
+---> The original commit sha is - 4162480706a0831f836644d00e5e85a8a4e98df2
+Commit message - Merge pull request #550 from cschramm/master
+
+Make TemplateAliasProcessor work with top-level partials
+---> The files with partial_reverts are:-
+test/apps/rails4/app/models/recursive/stack_level.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ d8f65dcbcf5b301b9a998464d54367abbf995d8b -> d75d53d62677acda968e37d2490816beb2bafffb } is a revert
+{ d75d53d62677acda968e37d2490816beb2bafffb -> 4162480706a0831f836644d00e5e85a8a4e98df2 }
+Partial Revert commits SHA are -> 
+d75d53d62677acda968e37d2490816beb2bafffb - revert - 4162480706a0831f836644d00e5e85a8a4e98df2
+---> The reverted commit sha is - d75d53d62677acda968e37d2490816beb2bafffb
+Commit message - Make TemplateAliasProcessor work with top-level partials
+---> The original commit sha is - 4162480706a0831f836644d00e5e85a8a4e98df2
+Commit message - Merge pull request #550 from cschramm/master
+
+Make TemplateAliasProcessor work with top-level partials
+---> The files with partial_reverts are:-
+lib/brakeman/checks/base_check.rb
+test/apps/rails4/app/models/recursive/stack_level.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ eea08cc968cfab26b4bf293fa547d27ae86def68 -> 2af5230fe69b64042e541be2602a4a6b5d9532a4 } is a revert
+{ 2af5230fe69b64042e541be2602a4a6b5d9532a4 -> d8f65dcbcf5b301b9a998464d54367abbf995d8b }
+Partial Revert commits SHA are -> 
+2af5230fe69b64042e541be2602a4a6b5d9532a4 - revert - d8f65dcbcf5b301b9a998464d54367abbf995d8b
+---> The reverted commit sha is - 2af5230fe69b64042e541be2602a4a6b5d9532a4
+Commit message - Fix CVE-2014-3514 test names
+---> The original commit sha is - d8f65dcbcf5b301b9a998464d54367abbf995d8b
+Commit message - Merge pull request #543 from codeclimate/stack-level-too-deep
+
+Prevent SystemStackError when there are loops in class ancestors
+---> The files with partial_reverts are:-
+test/apps/rails4/app/models/recursive/stack_level.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ df7d1a2cf647f59c33cbcf08457a2cc345c8a444 -> d82b1b37fcd24a659208db32e971f75516ad5beb } is a revert
+{ a2829681ea7f63cd5c37120d86c35d665deac4f1 -> 4fb72d1b587a27ccb9d1240d26b8f529fbc7cc8c }
+Partial Revert commits SHA are -> 
+d82b1b37fcd24a659208db32e971f75516ad5beb - revert - 4fb72d1b587a27ccb9d1240d26b8f529fbc7cc8c
+---> The reverted commit sha is - d82b1b37fcd24a659208db32e971f75516ad5beb
+Commit message - Update ruby2ruby
+---> The original commit sha is - 4fb72d1b587a27ccb9d1240d26b8f529fbc7cc8c
+Commit message - Merge pull request #537 from presidentbeef/update_ruby2ruby
+
+Update ruby2ruby
+---> The files with partial_reverts are:-
+lib/brakeman/checks/base_check.rb
+lib/brakeman/checks/check_i18n_xss.rb
+lib/brakeman/checks/check_json_parsing.rb
+lib/brakeman/checks/check_redirect.rb
+lib/brakeman/checks/check_sql_cves.rb
+lib/brakeman/tracker.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 264891de80e4678f17be9f5397de005a4b95767f -> 706246ad0d3cb9d4f37b3d370cff4413a1a7e867 } is a revert
+{ 5ee87b6714300640a0b3efbc297e0510d9047cfb -> a2829681ea7f63cd5c37120d86c35d665deac4f1 }
+Partial Revert commits SHA are -> 
+706246ad0d3cb9d4f37b3d370cff4413a1a7e867 - revert - a2829681ea7f63cd5c37120d86c35d665deac4f1
+---> The reverted commit sha is - 706246ad0d3cb9d4f37b3d370cff4413a1a7e867
+Commit message - Temporary fix for seattlerb/ruby_parser#154
+---> The original commit sha is - a2829681ea7f63cd5c37120d86c35d665deac4f1
+Commit message - Remove hacky Ruby2Ruby Regexp fix
+---> The files with partial_reverts are:-
+lib/brakeman/processors/output_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ c355ab3fba30c5260438fcc2882cb7293b2cf7ef -> 67f3381b51ed3d6c7ccd0e233ed3f192031bd871 } is a revert
+{ 5ee87b6714300640a0b3efbc297e0510d9047cfb -> a2829681ea7f63cd5c37120d86c35d665deac4f1 }
+Partial Revert commits SHA are -> 
+67f3381b51ed3d6c7ccd0e233ed3f192031bd871 - revert - a2829681ea7f63cd5c37120d86c35d665deac4f1
+---> The reverted commit sha is - 67f3381b51ed3d6c7ccd0e233ed3f192031bd871
+Commit message - Merge branch 'master' into temp_fix_for_ruby2ruby_regexp
+---> The original commit sha is - a2829681ea7f63cd5c37120d86c35d665deac4f1
+Commit message - Remove hacky Ruby2Ruby Regexp fix
+---> The files with partial_reverts are:-
+lib/brakeman/processors/output_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ 0551fef7c9b332316bbfcabdebf8f4aa487646bf -> a4ee53d5fe40de8423d04bf925ecbdb294e0f059 } is a revert
+{ 5ee87b6714300640a0b3efbc297e0510d9047cfb -> a2829681ea7f63cd5c37120d86c35d665deac4f1 }
+Partial Revert commits SHA are -> 
+a4ee53d5fe40de8423d04bf925ecbdb294e0f059 - revert - a2829681ea7f63cd5c37120d86c35d665deac4f1
+---> The reverted commit sha is - a4ee53d5fe40de8423d04bf925ecbdb294e0f059
+Commit message - Merge pull request #454 from mastahyeti/regex_dos
+
+Add check for regex DoS
+---> The original commit sha is - a2829681ea7f63cd5c37120d86c35d665deac4f1
+Commit message - Remove hacky Ruby2Ruby Regexp fix
+---> The files with partial_reverts are:-
+lib/brakeman/processors/output_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ 0ff973e9a698c77642b41aa9fbf5c9f2c8615c37 -> 3b1335740f20d66e5df062fd55a828cc21876336 } is a revert
+{ 3b1335740f20d66e5df062fd55a828cc21876336 -> 30dcde63bdeb2187fdd246830c25f6c89c8c488d }
+Partial Revert commits SHA are -> 
+3b1335740f20d66e5df062fd55a828cc21876336 - revert - 30dcde63bdeb2187fdd246830c25f6c89c8c488d
+---> The reverted commit sha is - 3b1335740f20d66e5df062fd55a828cc21876336
+Commit message - Use https in the Gemfile
+---> The original commit sha is - 30dcde63bdeb2187fdd246830c25f6c89c8c488d
+Commit message - Merge pull request #533 from codeclimate/gemfile-https
+
+Use https in the Gemfile
+---> The files with partial_reverts are:-
+.travis.yml
+bin/brakeman
+lib/brakeman.rb
+lib/brakeman/checks.rb
+lib/brakeman/options.rb
+lib/brakeman/report/report_hash.rb
+test/apps/rails4/external_checks/check_external_check_test.rb
+test/tests/rails4.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ abd86537b8f0b47689df72e7a8211f65c23b2cb8 -> 670de386a54779e988761d9408b26b8c45682a4f } is a revert
+{ 670de386a54779e988761d9408b26b8c45682a4f -> 2808c45ce3724a05070cf175048789b638ff0630 }
+Partial Revert commits SHA are -> 
+670de386a54779e988761d9408b26b8c45682a4f - revert - 2808c45ce3724a05070cf175048789b638ff0630
+---> The reverted commit sha is - 670de386a54779e988761d9408b26b8c45682a4f
+Commit message - Allow checks outside the brakeman source tree
+---> The original commit sha is - 2808c45ce3724a05070cf175048789b638ff0630
+Commit message - Merge branch 'master' into feature/out-of-tree-checks_new
+---> The files with partial_reverts are:-
+test/tests/report_generation.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ 4f6251db58901bac90b51d191f850dfab2929604 -> a5c337d1f872ae56cf96f796c10bf45c517069d9 } is a revert
+{ a5c337d1f872ae56cf96f796c10bf45c517069d9 -> 468376e346fa7e2a404cd952f50c74c9e17126ee }
+Partial Revert commits SHA are -> 
+a5c337d1f872ae56cf96f796c10bf45c517069d9 - revert - 468376e346fa7e2a404cd952f50c74c9e17126ee
+---> The reverted commit sha is - a5c337d1f872ae56cf96f796c10bf45c517069d9
+Commit message - Merge pull request #517 from JasonBarnabe/path_in_process_controller
+
+Fix undefined variable in Scanner.process_controller error handler
+---> The original commit sha is - 468376e346fa7e2a404cd952f50c74c9e17126ee
+Commit message - Merge pull request #520 from presidentbeef/fix_erubis_add_stmt
+
+Fix block statement endings in erubis
+---> The files with partial_reverts are:-
+lib/brakeman/parsers/rails3_erubis.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ fb71b213be565af6335eae182981ba6c32fc29c3 -> 200f2fa7b5de3e63707bc997dc8a628eeea8a7b3 } is a revert
+{ da0d956a1986416d2ffe4e95d9aa699ac50b8a5a -> 199e96ef897316df19321eaf594d10ee62dafb1a }
+Partial Revert commits SHA are -> 
+200f2fa7b5de3e63707bc997dc8a628eeea8a7b3 - revert - 199e96ef897316df19321eaf594d10ee62dafb1a
+---> The reverted commit sha is - 200f2fa7b5de3e63707bc997dc8a628eeea8a7b3
+Commit message - Fixed treatment of protected_attributes gem for Rails 4
+---> The original commit sha is - 199e96ef897316df19321eaf594d10ee62dafb1a
+Commit message - Merge pull request #490 from presidentbeef/option_documentation_updates
+
+Option documentation updates
+---> The files with partial_reverts are:-
+OPTIONS.md
+README.md
+lib/brakeman/options.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ 8a780e1c3ebdae2c4765214e763ee5c695f1968b -> 5ca5e2d72449377be502587824fcf1924b1272df } is a revert
+{ 5ca5e2d72449377be502587824fcf1924b1272df -> 3603bae063b87d46eeb438dbd88f4388beb78d96 }
+Partial Revert commits SHA are -> 
+5ca5e2d72449377be502587824fcf1924b1272df - revert - 3603bae063b87d46eeb438dbd88f4388beb78d96
+---> The reverted commit sha is - 5ca5e2d72449377be502587824fcf1924b1272df
+Commit message - Move SQL CVEs to their own check
+---> The original commit sha is - 3603bae063b87d46eeb438dbd88f4388beb78d96
+Commit message - Merge pull request #478 from presidentbeef/move_sql_cves
+
+Move SQL CVEs to their own check
+---> The files with partial_reverts are:-
+lib/brakeman/checks/base_check.rb
+test/tests/mass_assign_disable.rb
+test/tests/rails2.rb
+test/tests/rails32.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ 3e967a2d099b4b4b88ac62afc39c490db5d196bd -> 9c94fcf469bacdf74e729209fcc27c756cc9d8c8 } is a revert
+{ 9c94fcf469bacdf74e729209fcc27c756cc9d8c8 -> 8a780e1c3ebdae2c4765214e763ee5c695f1968b }
+Partial Revert commits SHA are -> 
+9c94fcf469bacdf74e729209fcc27c756cc9d8c8 - revert - 8a780e1c3ebdae2c4765214e763ee5c695f1968b
+---> The reverted commit sha is - 9c94fcf469bacdf74e729209fcc27c756cc9d8c8
+Commit message - Check for protected_attributes gem in Rails 4 apps
+
+and treat mass assignment as if it is allowed instead
+of using strong parameters.
+
+Fixes #475
+---> The original commit sha is - 8a780e1c3ebdae2c4765214e763ee5c695f1968b
+Commit message - Merge pull request #477 from presidentbeef/check_for_protected_parameters_gem
+
+Check for protected_attributes gem in Rails 4 apps
+---> The files with partial_reverts are:-
+test/tests/rails2.rb
+test/tests/rails32.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ 5cd6a56ee721ec39f3d4fa476a690635bacb215a -> a9cee7de8c02a97d5e627b14019ce21b358b2f3e } is a revert
+{ 19a61c7efcbbc369717bb114dda87750e46b2a39 -> cd90e3783d5d157e11efec9fb508a7271f9d9114 }
+Partial Revert commits SHA are -> 
+a9cee7de8c02a97d5e627b14019ce21b358b2f3e - revert - cd90e3783d5d157e11efec9fb508a7271f9d9114
+---> The reverted commit sha is - a9cee7de8c02a97d5e627b14019ce21b358b2f3e
+Commit message - check for unscoped calls to find
+---> The original commit sha is - cd90e3783d5d157e11efec9fb508a7271f9d9114
+Commit message - Merge pull request #468 from presidentbeef/fix_sqli_check_in_select
+
+Check all arguments in Model.select for SQLi
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_sql.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ 23ac208e98b91db32829d6d9fa877e30aceb4221 -> f5021c8c2fe75bc4f80101ccc5b26bc18dbb4c73 } is a revert
+{ f5021c8c2fe75bc4f80101ccc5b26bc18dbb4c73 -> 2380940197fc7eac6aa708ded8b4e43deb1134c0 }
+Partial Revert commits SHA are -> 
+f5021c8c2fe75bc4f80101ccc5b26bc18dbb4c73 - revert - 2380940197fc7eac6aa708ded8b4e43deb1134c0
+---> The reverted commit sha is - f5021c8c2fe75bc4f80101ccc5b26bc18dbb4c73
+Commit message - Avoid warning on redirects when :host is specified
+
+unless that host is a param in which case still warn.
+
+Fixes #464
+---> The original commit sha is - 2380940197fc7eac6aa708ded8b4e43deb1134c0
+Commit message - Merge pull request #465 from presidentbeef/fix_false_positive_on_redict_with_explicit_host
+
+Avoid warning on redirects when :host is specified
+---> The files with partial_reverts are:-
+lib/brakeman/processors/lib/rails3_route_processor.rb
+test/apps/rails4/config/routes.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ 2b5e521f147131be3c3ea00b65f6b2de9bd32e07 -> 93d35d48c3d6bee21d4e6756e5aae0099ff020e1 } is a revert
+{ a41b8fb38849b3dcd159eb1ee1c4e73194b46b3c -> b6e2dfad3901802170bee276b627059f2770b40b }
+Partial Revert commits SHA are -> 
+93d35d48c3d6bee21d4e6756e5aae0099ff020e1 - revert - b6e2dfad3901802170bee276b627059f2770b40b
+---> The reverted commit sha is - 93d35d48c3d6bee21d4e6756e5aae0099ff020e1
+Commit message - Add check for CVE-2014-0080
+---> The original commit sha is - b6e2dfad3901802170bee276b627059f2770b40b
+Commit message - Merge pull request #446 from presidentbeef/remove_rescue_exception
+
+Remove `rescue Exception` instances
+---> The files with partial_reverts are:-
+lib/brakeman/checks.rb
+lib/brakeman/processors/alias_processor.rb
+lib/brakeman/processors/erb_template_processor.rb
+lib/brakeman/processors/output_processor.rb
+lib/brakeman/scanner.rb
+lib/ruby_parser/bm_sexp_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ b3b15be73bcbf13fa3ad5911976ae2ca192b1cf3 -> 94d3e5c25b213711a783686372fee29f66493ee9 } is a revert
+{ 94d3e5c25b213711a783686372fee29f66493ee9 -> 18c84428271204da5899e571cfad5724e1da5e43 }
+Partial Revert commits SHA are -> 
+94d3e5c25b213711a783686372fee29f66493ee9 - revert - 18c84428271204da5899e571cfad5724e1da5e43
+---> The reverted commit sha is - 94d3e5c25b213711a783686372fee29f66493ee9
+Commit message - Fix duplicate warnings about sanitize CVE
+---> The original commit sha is - 18c84428271204da5899e571cfad5724e1da5e43
+Commit message - Merge pull request #445 from presidentbeef/skip_duplicate_sanitize_warnings
+
+Skip duplicate sanitize CVE warnings
+---> The files with partial_reverts are:-
+CHANGES
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ 48cc5b419f9c16f97cacbb42c6f8282bdd883190 -> fe38b2577c41c5333daeb39e64b9eaf691413c5e } is a revert
+{ 04cd0958d86847db3b6a59c0d51d08abba793432 -> 45f93861b3b5402a1eabd3082c28093348619c58 }
+Partial Revert commits SHA are -> 
+fe38b2577c41c5333daeb39e64b9eaf691413c5e - revert - 45f93861b3b5402a1eabd3082c28093348619c58
+---> The reverted commit sha is - fe38b2577c41c5333daeb39e64b9eaf691413c5e
+Commit message - Fix HAML processing
+---> The original commit sha is - 45f93861b3b5402a1eabd3082c28093348619c58
+Commit message - Merge pull request #444 from presidentbeef/call_location_reuse
+
+Reuse call locations in CallIndex
+---> The files with partial_reverts are:-
+lib/brakeman/processors/lib/find_all_calls.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ 2540d5cb72ec8fda8802136ad1e3ff49193a8fa5 -> 49fd86c0eebac4363eb104efd2700837bc9e8620 } is a revert
+{ 6b14a5218caa80aea77ebc22ece33ea4b62088d3 -> 04cd0958d86847db3b6a59c0d51d08abba793432 }
+Partial Revert commits SHA are -> 
+49fd86c0eebac4363eb104efd2700837bc9e8620 - revert - 04cd0958d86847db3b6a59c0d51d08abba793432
+---> The reverted commit sha is - 49fd86c0eebac4363eb104efd2700837bc9e8620
+Commit message - Merge pull request #441 from presidentbeef/fix_haml_template_processing
+
+Fix HAML template processing
+---> The original commit sha is - 04cd0958d86847db3b6a59c0d51d08abba793432
+Commit message - Merge pull request #443 from presidentbeef/only_original_outputs
+
+Only store original template outputs
+---> The files with partial_reverts are:-
+lib/brakeman/processors/template_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ 9fedae27d786cf57f3cce36eb42d8f5c031b80d4 -> 2540d5cb72ec8fda8802136ad1e3ff49193a8fa5 } is a revert
+{ 49fd86c0eebac4363eb104efd2700837bc9e8620 -> 6b14a5218caa80aea77ebc22ece33ea4b62088d3 }
+Partial Revert commits SHA are -> 
+2540d5cb72ec8fda8802136ad1e3ff49193a8fa5 - revert - 6b14a5218caa80aea77ebc22ece33ea4b62088d3
+---> The reverted commit sha is - 2540d5cb72ec8fda8802136ad1e3ff49193a8fa5
+Commit message - Only store original template outputs
+---> The original commit sha is - 6b14a5218caa80aea77ebc22ece33ea4b62088d3
+Commit message - Merge pull request #442 from presidentbeef/ignore_duplicate_renders
+
+Ignore identically rendered templates
+---> The files with partial_reverts are:-
+lib/brakeman/processors/lib/render_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ b090a75f3735be7a1897b55079b84e141f826aa8 -> 70fa71694eec3ffb56534351993111a40df97eb9 } is a revert
+{ 5cd84bb1f13aa550c722ca10e0fcf4920225288b -> 177c2fb531f7cb45f4412232843894aff6f865e7 }
+Partial Revert commits SHA are -> 
+70fa71694eec3ffb56534351993111a40df97eb9 - revert - 177c2fb531f7cb45f4412232843894aff6f865e7
+---> The reverted commit sha is - 70fa71694eec3ffb56534351993111a40df97eb9
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The original commit sha is - 177c2fb531f7cb45f4412232843894aff6f865e7
+Commit message - Merge pull request #429 from presidentbeef/ignore_non_string_gem_names_in_gemfile
+
+Ignore non-string gem names in Gemfile
+---> The files with partial_reverts are:-
+lib/brakeman/processors/gem_processor.rb
+test/apps/rails4/Gemfile
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ e15cda54cac7ac129b586217cdbd7e44845fdb5b -> 8d456d075a2343bf70e2b5e9b4ec81b66d409e46 } is a revert
+{ 8d456d075a2343bf70e2b5e9b4ec81b66d409e46 -> 20537f6a69a5dfde5d1961a724ff55ba991d5f24 }
+Partial Revert commits SHA are -> 
+8d456d075a2343bf70e2b5e9b4ec81b66d409e46 - revert - 20537f6a69a5dfde5d1961a724ff55ba991d5f24
+---> The reverted commit sha is - 8d456d075a2343bf70e2b5e9b4ec81b66d409e46
+Commit message - Fix link to Brakeman Users in README
+---> The original commit sha is - 20537f6a69a5dfde5d1961a724ff55ba991d5f24
+Commit message - Merge pull request #427 from presidentbeef/ignore_generators
+
+Ignore generators
+---> The files with partial_reverts are:-
+lib/brakeman/app_tree.rb
+test/apps/rails2/lib/generators/test_generator/templates/model.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ 172468fb3917f511ab3b353e8aa0b29feebc8923 -> 71f5d18dd17b90513a5482399a1081608ed39829 } is a revert
+{ 71f5d18dd17b90513a5482399a1081608ed39829 -> ba2b06616bc7eb44b28a9369a6342426ea9b3a61 }
+Partial Revert commits SHA are -> 
+71f5d18dd17b90513a5482399a1081608ed39829 - revert - ba2b06616bc7eb44b28a9369a6342426ea9b3a61
+---> The reverted commit sha is - 71f5d18dd17b90513a5482399a1081608ed39829
+Commit message - Merge pull request #410 from noahd1/reduce_slim_false_positives
+
+Reduce Slim-template XSS false positives
+---> The original commit sha is - ba2b06616bc7eb44b28a9369a6342426ea9b3a61
+Commit message - Merge pull request #411 from presidentbeef/reflection_capitalization
+
+Lowercase "reflection" in unsafe reflection warning
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_unsafe_reflection.rb
+test/tests/rails2.rb
+test/tests/rails31.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ 1ff4f810d21b0bb280f18509e7edbffe0aa9c2df -> 9c89cd03ce2b30f0a19bb53ed2613b6dc21acd68 } is a revert
+{ 75440c351fd37972e6f0fc4c9e301e54c944a4d0 -> 402609ec33be2d5724e7971dcbdb9eba41991f05 }
+Partial Revert commits SHA are -> 
+9c89cd03ce2b30f0a19bb53ed2613b6dc21acd68 - revert - 402609ec33be2d5724e7971dcbdb9eba41991f05
+---> The reverted commit sha is - 9c89cd03ce2b30f0a19bb53ed2613b6dc21acd68
+Commit message - Do not warn on redirects to Model#create/create!
+---> The original commit sha is - 402609ec33be2d5724e7971dcbdb9eba41991f05
+Commit message - Merge pull request #407 from presidentbeef/fix_multiple_block_related_issues
+
+Fix multiple block related issues
+---> The files with partial_reverts are:-
+lib/brakeman/processors/alias_processor.rb
+lib/brakeman/processors/controller_alias_processor.rb
+test/apps/rails4/app/controllers/friendly_controller.rb
+test/tests/alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ bdcd6ae7c4add13abff190996f3853b1de46717e -> 6bbe03cd1abdf24d4ec78760ae67fde237e308fc } is a revert
+{ 0ed4d2a7f08cca1e0dd1ba07f5ea4b0f16c1e6be -> 25a41dfcd9171695e731533c50de573c71c63deb }
+Partial Revert commits SHA are -> 
+6bbe03cd1abdf24d4ec78760ae67fde237e308fc - revert - 25a41dfcd9171695e731533c50de573c71c63deb
+---> The reverted commit sha is - 6bbe03cd1abdf24d4ec78760ae67fde237e308fc
+Commit message - Add coveralls
+---> The original commit sha is - 25a41dfcd9171695e731533c50de573c71c63deb
+Commit message - Remove coveralls
+---> The files with partial_reverts are:-
+Gemfile
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ 0e617f958c5b167dcab4c86ea4d35d9078d21a37 -> 9681905e01aded831b5ace1571d62b54da6aa10f } is a revert
+{ 0ed4d2a7f08cca1e0dd1ba07f5ea4b0f16c1e6be -> 25a41dfcd9171695e731533c50de573c71c63deb }
+Partial Revert commits SHA are -> 
+9681905e01aded831b5ace1571d62b54da6aa10f - revert - 25a41dfcd9171695e731533c50de573c71c63deb
+---> The reverted commit sha is - 9681905e01aded831b5ace1571d62b54da6aa10f
+Commit message - Merge branch 'master' of https://github.com/presidentbeef/brakeman into check_model_attr_accessible
+---> The original commit sha is - 25a41dfcd9171695e731533c50de573c71c63deb
+Commit message - Remove coveralls
+---> The files with partial_reverts are:-
+Gemfile
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ 0f44dd818671d87d01965b214209b2bce0d40d20 -> cde97fd47788a3f9cbdc88936ee2706f6ea183d8 } is a revert
+{ 910a37d843b0a971998ead61150686e782fe3b57 -> e8f2624f248ce13fa02e0de2bdf8ccc86c3e2d6f }
+Partial Revert commits SHA are -> 
+cde97fd47788a3f9cbdc88936ee2706f6ea183d8 - revert - e8f2624f248ce13fa02e0de2bdf8ccc86c3e2d6f
+---> The reverted commit sha is - cde97fd47788a3f9cbdc88936ee2706f6ea183d8
+Commit message - Report file for detailed exception warning
+
+especially since JSON report requires file name
+---> The original commit sha is - e8f2624f248ce13fa02e0de2bdf8ccc86c3e2d6f
+Commit message - Merge pull request #400 from aj0strow/rails4-friendlyid
+
+rails 4 no warning for friendly model in redirect_to (friendly_id gem compatibility)
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_redirect.rb
+test/apps/rails4/app/controllers/friendly_controller.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ 949b51048e9e7559f1abdb4bd93b0f12afffae70 -> 6a0218cddfdc287da13b5f86b59c7bce8274018f } is a revert
+{ 6a0218cddfdc287da13b5f86b59c7bce8274018f -> 684a4190117d16bf278818ba66f6fd42efb91b80 }
+Partial Revert commits SHA are -> 
+6a0218cddfdc287da13b5f86b59c7bce8274018f - revert - 684a4190117d16bf278818ba66f6fd42efb91b80
+---> The reverted commit sha is - 6a0218cddfdc287da13b5f86b59c7bce8274018f
+Commit message - Merge branch 'fix_how_immediate_model_attributes_detected'
+
+Conflicts:
+	test/tests/rails31.rb
+---> The original commit sha is - 684a4190117d16bf278818ba66f6fd42efb91b80
+Commit message - Merge branch 'attr_accessible_fixes'
+
+Conflicts:
+	lib/brakeman/checks/check_model_attr_accessible.rb
+---> The files with partial_reverts are:-
+lib/brakeman/warning_codes.rb
+test/tests/rails32.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ 3d21512772edd3e8366241b57b1a9386d70bdc46 -> e8fbca25d9b84e0aa2748b433320a0b18439f723 } is a revert
+{ 7c32b02b832b6e00afabcf22636d0699c3c4ce03 -> 4b8faa142e99a44f04793dbbfacc30e4ce9dac23 }
+Partial Revert commits SHA are -> 
+e8fbca25d9b84e0aa2748b433320a0b18439f723 - revert - 4b8faa142e99a44f04793dbbfacc30e4ce9dac23
+---> The reverted commit sha is - e8fbca25d9b84e0aa2748b433320a0b18439f723
+Commit message - Changed all instances of the load_dependency method to load_brakeman_dependency.
+
+Fixes #373
+---> The original commit sha is - 4b8faa142e99a44f04793dbbfacc30e4ce9dac23
+Commit message - Merge pull request #374 from presidentbeef/ignore_warnings_in_tab_output
+
+Ignore warnings in tabs output if configured to do so
+---> The files with partial_reverts are:-
+lib/brakeman/report/report_tabs.rb
+test/tests/tabs_output.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ 29a7c3ad48c74860b88583b33b87eea442f3cc2c -> a9028899d3ed47cfaddf0cae4ddd35b6476bd2fd } is a revert
+{ cf2735cfa42cfccb85880c3770ab486f732dba20 -> af38ae7b2e62ccf45688f7fcc27956922638994b }
+Partial Revert commits SHA are -> 
+a9028899d3ed47cfaddf0cae4ddd35b6476bd2fd - revert - af38ae7b2e62ccf45688f7fcc27956922638994b
+---> The reverted commit sha is - a9028899d3ed47cfaddf0cae4ddd35b6476bd2fd
+Commit message - add rule for attribute banned and organize tests
+---> The original commit sha is - af38ae7b2e62ccf45688f7fcc27956922638994b
+Commit message - Merge pull request #368 from presidentbeef/support_ignoring_warnings
+
+Add support for ignoring warnings
+---> The files with partial_reverts are:-
+lib/brakeman/report.rb
+lib/brakeman/report/ignore/config.rb
+lib/brakeman/report/ignore/interactive.rb
+lib/brakeman/report/report_hash.rb
+lib/brakeman/report/report_html.rb
+lib/brakeman/report/templates/ignored_warnings.html.erb
+lib/brakeman/report/templates/overview.html.erb
+test/apps/rails2/app/views/other/ignore_me.html.erb
+test/apps/rails2/config/brakeman.ignore
+test/test.rb
+test/tests/json_output.rb
+test/tests/only_files_option.rb
+test/tests/rails2.rb
+test/tests/rails3.rb
+test/tests/rails4.rb
+test/tests/rails_with_xss_plugin.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ 57f6f4f2078c010a04f7041d7cfd4e4faa324389 -> f72cf6cec601830a0529f3c364aa28bd5a18e413 } is a revert
+{ 72abb24bf7df98901bba2e174079e3ebded818f9 -> 37dfabdd0d2010b4fa5abba66be3c9fcd5c9b7a2 }
+Partial Revert commits SHA are -> 
+f72cf6cec601830a0529f3c364aa28bd5a18e413 - revert - 37dfabdd0d2010b4fa5abba66be3c9fcd5c9b7a2
+---> The reverted commit sha is - f72cf6cec601830a0529f3c364aa28bd5a18e413
+Commit message - Load dependencies on demand instead of at start
+
+to make it easier to create a minimal gem
+---> The original commit sha is - 37dfabdd0d2010b4fa5abba66be3c9fcd5c9b7a2
+Commit message - Merge pull request #365 from presidentbeef/add_tracker_warnings
+
+Add Tracker#warnings to simplify warning access
+---> The files with partial_reverts are:-
+bin/brakeman
+lib/brakeman/tracker.rb
+test/tests/differ.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ 80a9f13612d81c48545d912d565be5819475d784 -> 80002f80c41492bb54a8238abf3d80d3ea6216da } is a revert
+{ 47fa69abb430bf8b1eec387834567a1786ea0546 -> 7b37f84a9587e33ca123a8dadba4889e6bad5751 }
+Partial Revert commits SHA are -> 
+80002f80c41492bb54a8238abf3d80d3ea6216da - revert - 7b37f84a9587e33ca123a8dadba4889e6bad5751
+---> The reverted commit sha is - 80002f80c41492bb54a8238abf3d80d3ea6216da
+Commit message - Merge branch 'add_another_basic_auth_check'
+
+Add check for authenticate_or_request_with_http_basic
+---> The original commit sha is - 7b37f84a9587e33ca123a8dadba4889e6bad5751
+Commit message - Merge branch 'load_dependencies_on_demand'
+
+Load dependencies on demand, add brakeman-min gemspec
+---> The files with partial_reverts are:-
+Gemfile
+brakeman-min.gemspec
+lib/brakeman/parsers/rails2_erubis.rb
+lib/brakeman/parsers/rails2_xss_plugin_erubis.rb
+lib/brakeman/parsers/rails3_erubis.rb
+lib/brakeman/report/renderer.rb
+lib/brakeman/report/report_base.rb
+lib/brakeman/report/report_csv.rb
+lib/brakeman/report/report_json.rb
+lib/brakeman/report/report_table.rb
+lib/brakeman/util.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ 808f414e5eb3a94c49b2a963b0d2e5266c6f095b -> 57f6f4f2078c010a04f7041d7cfd4e4faa324389 } is a revert
+{ 80002f80c41492bb54a8238abf3d80d3ea6216da -> 47fa69abb430bf8b1eec387834567a1786ea0546 }
+Partial Revert commits SHA are -> 
+57f6f4f2078c010a04f7041d7cfd4e4faa324389 - revert - 47fa69abb430bf8b1eec387834567a1786ea0546
+---> The reverted commit sha is - 57f6f4f2078c010a04f7041d7cfd4e4faa324389
+Commit message - Add Tracker#warnings to simplify warning access
+---> The original commit sha is - 47fa69abb430bf8b1eec387834567a1786ea0546
+Commit message - Merge branch 'dupe_mixins_before_processing'
+---> The files with partial_reverts are:-
+lib/brakeman/processors/controller_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ 0752854d7b1353a07a2149cd8754b19ee9618ff2 -> 9814b329f9a127b54d8db7a69b42bcd7879b19d9 } is a revert
+{ 20ac9c448d8b761f4856449e7087cf3e40496ea4 -> 38e626d30763a37597a88f10908211008c0c12ca }
+Partial Revert commits SHA are -> 
+9814b329f9a127b54d8db7a69b42bcd7879b19d9 - revert - 38e626d30763a37597a88f10908211008c0c12ca
+---> The reverted commit sha is - 9814b329f9a127b54d8db7a69b42bcd7879b19d9
+Commit message - Move NoApplication exception to Brakeman::
+
+because it is masking some errors when the scanner has
+not been loaded yet and bin/brakeman tries to rescue an
+exception that has not been defined
+---> The original commit sha is - 38e626d30763a37597a88f10908211008c0c12ca
+Commit message - Track calls with blocks in CallIndex
+---> The files with partial_reverts are:-
+bin/brakeman
+lib/brakeman.rb
+lib/brakeman/scanner.rb
+test/tests/brakeman.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ 6607a32e481eb54b097f30d2665595f6b84b1a67 -> 77f12cf335d3eacd908853280210f0ff3f94d609 } is a revert
+{ 855069bf329327da96310fb47d952c81a5ac3690 -> 4c28b3e5ba4eff059a340779ae941d5261670ba9 }
+Partial Revert commits SHA are -> 
+77f12cf335d3eacd908853280210f0ff3f94d609 - revert - 4c28b3e5ba4eff059a340779ae941d5261670ba9
+---> The reverted commit sha is - 77f12cf335d3eacd908853280210f0ff3f94d609
+Commit message - Refactor ignored output in XSS check
+---> The original commit sha is - 4c28b3e5ba4eff059a340779ae941d5261670ba9
+Commit message - Merge branch 'more_command_injection_methods'
+
+Add more methods to check for command injection
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_execute.rb
+test/apps/rails3/app/controllers/home_controller.rb
+test/tests/rails3.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 46 is -> 
+{ 068511682724af23f8d473a80d06a0b0ad5710da -> 674c25639627b845ec801803fb5cd26d79aa3e94 } is a revert
+{ d4e60b6d96c617bfb081b183362dc1d9ec585f89 -> 3c29d287ac0394cf6c25491bf39ddb274167b9a2 }
+Partial Revert commits SHA are -> 
+674c25639627b845ec801803fb5cd26d79aa3e94 - revert - 3c29d287ac0394cf6c25491bf39ddb274167b9a2
+---> The reverted commit sha is - 674c25639627b845ec801803fb5cd26d79aa3e94
+Commit message - Update to Ruby2Ruby 2.0.5 and override process_defn
+---> The original commit sha is - 3c29d287ac0394cf6c25491bf39ddb274167b9a2
+Commit message - Merge branch 'rename_test_files'
+---> The files with partial_reverts are:-
+test/tests/alias_processor.rb
+test/tests/brakeman.rb
+test/tests/differ.rb
+test/tests/find_return_value.rb
+test/tests/json_compare.rb
+test/tests/json_output.rb
+test/tests/mass_assign_disable.rb
+test/tests/only_files_option.rb
+test/tests/output_processor.rb
+test/tests/rails2.rb
+test/tests/rails3.rb
+test/tests/rails31.rb
+test/tests/rails32.rb
+test/tests/rails4.rb
+test/tests/rails_with_xss_plugin.rb
+test/tests/rake_task.rb
+test/tests/report_generation.rb
+test/tests/rescanner.rb
+test/tests/sexp.rb
+test/tests/test_alias_processor.rb
+test/tests/test_brakeman.rb
+test/tests/test_differ.rb
+test/tests/test_find_return_value.rb
+test/tests/test_json_compare.rb
+test/tests/test_json_output.rb
+test/tests/test_mass_assign_disable.rb
+test/tests/test_only_files_option.rb
+test/tests/test_rails2.rb
+test/tests/test_rails3.rb
+test/tests/test_rails31.rb
+test/tests/test_rails32.rb
+test/tests/test_rails4.rb
+test/tests/test_rails_with_xss_plugin.rb
+test/tests/test_rake_task.rb
+test/tests/test_report_generation.rb
+test/tests/test_rescanner.rb
+test/tests/test_sexp.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 47 is -> 
+{ 532675071f8ff523ca134ef70b92b74ccaa918e1 -> 0faded5b8c4a7b360b18648c601aaed888e4ef00 } is a revert
+{ ae8a5be81bf735cf313234b37ebb2eb66a86d71f -> a1ed019be406b48a55f357c1490539dfa3785bd1 }
+Partial Revert commits SHA are -> 
+0faded5b8c4a7b360b18648c601aaed888e4ef00 - revert - a1ed019be406b48a55f357c1490539dfa3785bd1
+---> The reverted commit sha is - 0faded5b8c4a7b360b18648c601aaed888e4ef00
+Commit message - Update CHANGES
+
+Use exceptions instead of abort in brakeman lib
+---> The original commit sha is - a1ed019be406b48a55f357c1490539dfa3785bd1
+Commit message - Merge branch 'fix_jruby_output'
+
+Fix text report console output on JRuby
+---> The files with partial_reverts are:-
+brakeman.gemspec
+lib/brakeman/report.rb
+lib/brakeman/util.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ ed7184d09fafd296288851a2aaa5a39cab83d2e6 -> b0daabcd4ff4453c7e69614a483b700193856a97 } is a revert
+{ b0daabcd4ff4453c7e69614a483b700193856a97 -> 78beb115d7cd2c9119e8acffedee66f51af40fd6 }
+Partial Revert commits SHA are -> 
+b0daabcd4ff4453c7e69614a483b700193856a97 - revert - 78beb115d7cd2c9119e8acffedee66f51af40fd6
+---> The reverted commit sha is - b0daabcd4ff4453c7e69614a483b700193856a97
+Commit message - Merge pull request #335 from presidentbeef/use_exceptions_instead_of_abort
+
+Use exceptions instead of abort in brakeman.rb
+---> The original commit sha is - 78beb115d7cd2c9119e8acffedee66f51af40fd6
+Commit message - Merge branch 'medium_conf_on_att_protected_mass_assign'
+
+Make mass assignment to attr_protected model medium confidence
+
+Conflicts:
+	CHANGES
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_mass_assignment.rb
+test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ ffcaf6146487d3f44a19be611f103b146b51f7e1 -> b904ee56cb983c05e0257525ee6b4df1885e9b3d } is a revert
+{ ef71ac497e46c68fce34b9c9d068dd78f2cbfc97 -> d7f00569024a7132e650656a702a2e8a0e4db1a7 }
+Partial Revert commits SHA are -> 
+b904ee56cb983c05e0257525ee6b4df1885e9b3d - revert - d7f00569024a7132e650656a702a2e8a0e4db1a7
+---> The reverted commit sha is - b904ee56cb983c05e0257525ee6b4df1885e9b3d
+Commit message - Merge branch 'clearer_handling_of_quiet_default'
+---> The original commit sha is - d7f00569024a7132e650656a702a2e8a0e4db1a7
+Commit message - Merge branch 'cleanup_sqli_cves'
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_sql.rb
+test/tests/test_rails2.rb
+test/tests/test_rails3.rb
+test/tests/test_rails31.rb
+test/tests/test_rails32.rb
+test/tests/test_rails_with_xss_plugin.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ 9c3854b357a3e69e9f223a4011525815ea38edfc -> d953e82c6db779994a0389d77b5afc0949ecfbca } is a revert
+{ 96c5bd185eb85bdbbf0f3fe567bf7568807cf29b -> ef71ac497e46c68fce34b9c9d068dd78f2cbfc97 }
+Partial Revert commits SHA are -> 
+d953e82c6db779994a0389d77b5afc0949ecfbca - revert - ef71ac497e46c68fce34b9c9d068dd78f2cbfc97
+---> The reverted commit sha is - d953e82c6db779994a0389d77b5afc0949ecfbca
+Commit message - Handle stabby lambdas with no arguments
+
+should fix #331
+---> The original commit sha is - ef71ac497e46c68fce34b9c9d068dd78f2cbfc97
+Commit message - Merge branch 'remove_timestamp_from_json'
+---> The files with partial_reverts are:-
+lib/brakeman/report.rb
+test/tests/test_json_output.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 51 is -> 
+{ d953e82c6db779994a0389d77b5afc0949ecfbca -> ffcaf6146487d3f44a19be611f103b146b51f7e1 } is a revert
+{ d8bb81105e1b669999bd44a0cb1096417bed1715 -> 96c5bd185eb85bdbbf0f3fe567bf7568807cf29b }
+Partial Revert commits SHA are -> 
+ffcaf6146487d3f44a19be611f103b146b51f7e1 - revert - 96c5bd185eb85bdbbf0f3fe567bf7568807cf29b
+---> The reverted commit sha is - ffcaf6146487d3f44a19be611f103b146b51f7e1
+Commit message - Clean up CVE checks/messages in CheckSQL
+---> The original commit sha is - 96c5bd185eb85bdbbf0f3fe567bf7568807cf29b
+Commit message - Merge branch 'block_args_for_stabby_lambdas'
+---> The files with partial_reverts are:-
+lib/ruby_parser/bm_sexp.rb
+test/tests/test_sexp.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 52 is -> 
+{ 24ed73a80bc95b005e16e253696ba7635078300e -> 388aefaa36509c337ebb4683d249ccd640eb7d6b } is a revert
+{ 6e9554cff32e5c628d29c2f4125056e1e6c7abcb -> d60d5d86d293a7f03c51318693d0c09a94d3df3d }
+Partial Revert commits SHA are -> 
+388aefaa36509c337ebb4683d249ccd640eb7d6b - revert - d60d5d86d293a7f03c51318693d0c09a94d3df3d
+---> The reverted commit sha is - 388aefaa36509c337ebb4683d249ccd640eb7d6b
+Commit message - Merge branch 'fix_warning_relative_path_assignment'
+---> The original commit sha is - d60d5d86d293a7f03c51318693d0c09a94d3df3d
+Commit message - Merge remote-tracking branch 'zlx/zlx/refactor_brakeman'
+---> The files with partial_reverts are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Revert diff pair 53 is -> 
+{ 2170e57ebb88853b01c5b0307c683411fad53b80 -> f953e086800e9a8de29cf517735429933ed1509f } is a revert
+{ 708fec135c8746f886efee5c0b5b47ceddda5ea1 -> aa1ec3e7e3208536eb123baa0ac38e33844f27a8 }
+Partial Revert commits SHA are -> 
+f953e086800e9a8de29cf517735429933ed1509f - revert - aa1ec3e7e3208536eb123baa0ac38e33844f27a8
+---> The reverted commit sha is - f953e086800e9a8de29cf517735429933ed1509f
+Commit message - Tests for setting Rails config on existing objects
+---> The original commit sha is - aa1ec3e7e3208536eb123baa0ac38e33844f27a8
+Commit message - Merge branch 'better_handling_of_nested_classes'
+---> The files with partial_reverts are:-
+lib/brakeman/processors/controller_alias_processor.rb
+lib/brakeman/processors/controller_processor.rb
+lib/brakeman/processors/lib/processor_helper.rb
+test/apps/rails3/app/controllers/application_controller.rb
+test/apps/rails3/app/controllers/base_thing.rb
+test/apps/rails3/app/controllers/child_controller.rb
+test/apps/rails3/app/views/child/action_in_child.html.erb
+test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 54 is -> 
+{ 90ce517e75d3ad16a0f7fdf3b7546141bbda350c -> b2ff5d26bdf24cbd59dd0ed28353f69ce20a1918 } is a revert
+{ 26ea28f62301dd5d4ac6d127b4734bccd865748b -> a71b47deb61b23abae97b2e6ee2c6bb45117f01b }
+Partial Revert commits SHA are -> 
+b2ff5d26bdf24cbd59dd0ed28353f69ce20a1918 - revert - a71b47deb61b23abae97b2e6ee2c6bb45117f01b
+---> The reverted commit sha is - b2ff5d26bdf24cbd59dd0ed28353f69ce20a1918
+Commit message - Use options for FindAllCalls#process_source
+---> The original commit sha is - a71b47deb61b23abae97b2e6ee2c6bb45117f01b
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_reverts are:-
+lib/brakeman/options.rb
+test/tests/test_only_files_option.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 55 is -> 
+{ cd485d801f4033a46962b190b2dc3b65d64cd9bb -> 44283ebc1e4c3dfbc92beb69eb0603087d78c683 } is a revert
+{ 26ea28f62301dd5d4ac6d127b4734bccd865748b -> a71b47deb61b23abae97b2e6ee2c6bb45117f01b }
+Partial Revert commits SHA are -> 
+44283ebc1e4c3dfbc92beb69eb0603087d78c683 - revert - a71b47deb61b23abae97b2e6ee2c6bb45117f01b
+---> The reverted commit sha is - 44283ebc1e4c3dfbc92beb69eb0603087d78c683
+Commit message - Use hash for call locations instead of array
+---> The original commit sha is - a71b47deb61b23abae97b2e6ee2c6bb45117f01b
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_reverts are:-
+lib/brakeman/app_tree.rb
+lib/brakeman/options.rb
+test/tests/test_only_files_option.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 56 is -> 
+{ c76a2f1505281719d79a2e43a6b1f23d77fdb119 -> 14344309f0dec47287ad903b78e49f475e364009 } is a revert
+{ 26ea28f62301dd5d4ac6d127b4734bccd865748b -> a71b47deb61b23abae97b2e6ee2c6bb45117f01b }
+Partial Revert commits SHA are -> 
+14344309f0dec47287ad903b78e49f475e364009 - revert - a71b47deb61b23abae97b2e6ee2c6bb45117f01b
+---> The reverted commit sha is - 14344309f0dec47287ad903b78e49f475e364009
+Commit message - use check.name replace check.checker_name and support to_xxx and format method
+---> The original commit sha is - a71b47deb61b23abae97b2e6ee2c6bb45117f01b
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_reverts are:-
+lib/brakeman/app_tree.rb
+lib/brakeman/options.rb
+test/tests/test_only_files_option.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 57 is -> 
+{ c76a2f1505281719d79a2e43a6b1f23d77fdb119 -> 14344309f0dec47287ad903b78e49f475e364009 } is a revert
+{ d81082773f70f55b0088b24be446e0d5a86f18df -> 24ed73a80bc95b005e16e253696ba7635078300e }
+Partial Revert commits SHA are -> 
+14344309f0dec47287ad903b78e49f475e364009 - revert - 24ed73a80bc95b005e16e253696ba7635078300e
+---> The reverted commit sha is - 14344309f0dec47287ad903b78e49f475e364009
+Commit message - use check.name replace check.checker_name and support to_xxx and format method
+---> The original commit sha is - 24ed73a80bc95b005e16e253696ba7635078300e
+Commit message - remove reduplicate test and remove useless variable
+---> The files with partial_reverts are:-
+lib/brakeman/tracker.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 58 is -> 
+{ 1f3a5d2a95f022cabcb85ab03b5015791e302fc5 -> 020708ff7ddd0e91cb82d5b39054e430cc16b0bd } is a revert
+{ d9269963ae3955b274c88cf360aa2ab9d99cc2d4 -> b18c5b2758fd512c45c21f81e4c2d1210079ff35 }
+Partial Revert commits SHA are -> 
+020708ff7ddd0e91cb82d5b39054e430cc16b0bd - revert - b18c5b2758fd512c45c21f81e4c2d1210079ff35
+---> The reverted commit sha is - 020708ff7ddd0e91cb82d5b39054e430cc16b0bd
+Commit message - Merge pull request #309 from presidentbeef/to_json_false_positives
+
+Fix `to_json` false positives
+---> The original commit sha is - b18c5b2758fd512c45c21f81e4c2d1210079ff35
+Commit message - Merge pull request #312 from presidentbeef/dont_warn_on_id
+
+Don't warn on id calls
+---> The files with partial_reverts are:-
+lib/brakeman.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 59 is -> 
+{ 1f3a5d2a95f022cabcb85ab03b5015791e302fc5 -> 020708ff7ddd0e91cb82d5b39054e430cc16b0bd } is a revert
+{ 020708ff7ddd0e91cb82d5b39054e430cc16b0bd -> eeceb9d764f13456ac3f350c32d759e5826ad3c9 }
+Partial Revert commits SHA are -> 
+020708ff7ddd0e91cb82d5b39054e430cc16b0bd - revert - eeceb9d764f13456ac3f350c32d759e5826ad3c9
+---> The reverted commit sha is - 020708ff7ddd0e91cb82d5b39054e430cc16b0bd
+Commit message - Merge pull request #309 from presidentbeef/to_json_false_positives
+
+Fix `to_json` false positives
+---> The original commit sha is - eeceb9d764f13456ac3f350c32d759e5826ad3c9
+Commit message - Merge pull request #310 from presidentbeef/remove_deprecated_config_locations
+
+Remove deprecated config locations
+---> The files with partial_reverts are:-
+lib/brakeman.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 60 is -> 
+{ 4a37b22511f95ec1d88649ea8cb5744e8746260e -> 13361642968fcb590662fd1ae7f8026573e3e3ac } is a revert
+{ 398807888be9e0d8d1c8941d521cedf541dce9e7 -> cc6a55dbfb67add23535bd3637fc744031c95c92 }
+Partial Revert commits SHA are -> 
+13361642968fcb590662fd1ae7f8026573e3e3ac - revert - cc6a55dbfb67add23535bd3637fc744031c95c92
+---> The reverted commit sha is - 13361642968fcb590662fd1ae7f8026573e3e3ac
+Commit message - Merge branch 'master' into gitignore_secret_token
+---> The original commit sha is - cc6a55dbfb67add23535bd3637fc744031c95c92
+Commit message - Merge branch 'allow_slice_or_only_in_mass_assign'
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_mass_assignment.rb
+test/apps/rails3/app/controllers/home_controller.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 61 is -> 
+{ 8633f99575b305d37a36da4e3856d70125ce3acf -> 7ba6511d827a6c5c99bfdf821666a0884a528545 } is a revert
+{ 371ac1b8de421459a27c7d16ec40e49958e5b9a9 -> 398807888be9e0d8d1c8941d521cedf541dce9e7 }
+Partial Revert commits SHA are -> 
+7ba6511d827a6c5c99bfdf821666a0884a528545 - revert - 398807888be9e0d8d1c8941d521cedf541dce9e7
+---> The reverted commit sha is - 7ba6511d827a6c5c99bfdf821666a0884a528545
+Commit message - Lock to ruby2ruby 2.0.3 to avoid errors in 2.0.4
+
+at least for Travis satisfaction
+---> The original commit sha is - 398807888be9e0d8d1c8941d521cedf541dce9e7
+Commit message - Merge branch 'gitignore_secret_token'
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_session_settings.rb
+lib/brakeman/scanner.rb
+test/apps/rails3/.gitignore
+test/apps/rails4/.gitignore
+test/apps/rails4/Gemfile
+test/apps/rails4/README.rdoc
+test/apps/rails4/Rakefile
+test/apps/rails4/app/assets/javascripts/application.js
+test/apps/rails4/app/assets/stylesheets/application.css
+test/apps/rails4/app/controllers/application_controller.rb
+test/apps/rails4/app/helpers/application_helper.rb
+test/apps/rails4/app/views/layouts/application.html.erb
+test/apps/rails4/bin/bundle
+test/apps/rails4/bin/rails
+test/apps/rails4/bin/rake
+test/apps/rails4/config.ru
+test/apps/rails4/config/application.rb
+test/apps/rails4/config/boot.rb
+test/apps/rails4/config/database.yml
+test/apps/rails4/config/environment.rb
+test/apps/rails4/config/environments/development.rb
+test/apps/rails4/config/environments/production.rb
+test/apps/rails4/config/environments/test.rb
+test/apps/rails4/config/initializers/backtrace_silencers.rb
+test/apps/rails4/config/initializers/filter_parameter_logging.rb
+test/apps/rails4/config/initializers/inflections.rb
+test/apps/rails4/config/initializers/mime_types.rb
+test/apps/rails4/config/initializers/secret_token.rb
+test/apps/rails4/config/initializers/session_store.rb
+test/apps/rails4/config/initializers/wrap_parameters.rb
+test/apps/rails4/config/locales/en.yml
+test/apps/rails4/config/routes.rb
+test/apps/rails4/db/seeds.rb
+test/apps/rails4/public/404.html
+test/apps/rails4/public/422.html
+test/apps/rails4/public/500.html
+test/apps/rails4/public/robots.txt
+test/apps/rails4/test/test_helper.rb
+test/tests/test_rails3.rb
+test/tests/test_rails32.rb
+test/tests/test_rails4.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 62 is -> 
+{ 13361642968fcb590662fd1ae7f8026573e3e3ac -> 5379d85c613c7d9009755543c14cf391c7df189c } is a revert
+{ 371ac1b8de421459a27c7d16ec40e49958e5b9a9 -> 398807888be9e0d8d1c8941d521cedf541dce9e7 }
+Partial Revert commits SHA are -> 
+5379d85c613c7d9009755543c14cf391c7df189c - revert - 398807888be9e0d8d1c8941d521cedf541dce9e7
+---> The reverted commit sha is - 5379d85c613c7d9009755543c14cf391c7df189c
+Commit message - Add test for weird block issue in output values
+---> The original commit sha is - 398807888be9e0d8d1c8941d521cedf541dce9e7
+Commit message - Merge branch 'gitignore_secret_token'
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_session_settings.rb
+lib/brakeman/scanner.rb
+test/apps/rails3/.gitignore
+test/apps/rails4/.gitignore
+test/apps/rails4/Gemfile
+test/apps/rails4/README.rdoc
+test/apps/rails4/Rakefile
+test/apps/rails4/app/assets/javascripts/application.js
+test/apps/rails4/app/assets/stylesheets/application.css
+test/apps/rails4/app/controllers/application_controller.rb
+test/apps/rails4/app/helpers/application_helper.rb
+test/apps/rails4/app/views/layouts/application.html.erb
+test/apps/rails4/bin/bundle
+test/apps/rails4/bin/rails
+test/apps/rails4/bin/rake
+test/apps/rails4/config.ru
+test/apps/rails4/config/application.rb
+test/apps/rails4/config/boot.rb
+test/apps/rails4/config/database.yml
+test/apps/rails4/config/environment.rb
+test/apps/rails4/config/environments/development.rb
+test/apps/rails4/config/environments/production.rb
+test/apps/rails4/config/environments/test.rb
+test/apps/rails4/config/initializers/backtrace_silencers.rb
+test/apps/rails4/config/initializers/filter_parameter_logging.rb
+test/apps/rails4/config/initializers/inflections.rb
+test/apps/rails4/config/initializers/mime_types.rb
+test/apps/rails4/config/initializers/secret_token.rb
+test/apps/rails4/config/initializers/session_store.rb
+test/apps/rails4/config/initializers/wrap_parameters.rb
+test/apps/rails4/config/locales/en.yml
+test/apps/rails4/config/routes.rb
+test/apps/rails4/db/seeds.rb
+test/apps/rails4/public/404.html
+test/apps/rails4/public/422.html
+test/apps/rails4/public/500.html
+test/apps/rails4/public/robots.txt
+test/apps/rails4/test/test_helper.rb
+test/tests/test_rails3.rb
+test/tests/test_rails32.rb
+test/tests/test_rails4.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 63 is -> 
+{ e5682d3219dc22ab521d9e1bd5cab3170609eb80 -> c064686ed483701490707f9598984eb51507c8c9 } is a revert
+{ 8b4480bdc6b96851302f7dc2fcc6e8d818a9e61e -> 371ac1b8de421459a27c7d16ec40e49958e5b9a9 }
+Partial Revert commits SHA are -> 
+c064686ed483701490707f9598984eb51507c8c9 - revert - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+---> The reverted commit sha is - c064686ed483701490707f9598984eb51507c8c9
+Commit message - Merge pull request #295 from presidentbeef/assignment_of_if_results
+
+Convert simple `if` to `or` on assignment
+---> The original commit sha is - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+Commit message - Merge branch 'assignments_in_else_branch'
+---> The files with partial_reverts are:-
+test/tests/test_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 64 is -> 
+{ 68e409028f29481bc4f87211f6708b3f109be301 -> 5a650b275e1ca5f3d89958605b9e6f73dcdea604 } is a revert
+{ 8b4480bdc6b96851302f7dc2fcc6e8d818a9e61e -> 371ac1b8de421459a27c7d16ec40e49958e5b9a9 }
+Partial Revert commits SHA are -> 
+5a650b275e1ca5f3d89958605b9e6f73dcdea604 - revert - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+---> The reverted commit sha is - 5a650b275e1ca5f3d89958605b9e6f73dcdea604
+Commit message - Moved initialisers to separate initialiser directory
+---> The original commit sha is - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+Commit message - Merge branch 'assignments_in_else_branch'
+---> The files with partial_reverts are:-
+test/tests/test_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 65 is -> 
+{ 7652eba81f1a0bdc0171c0c4b105ea0a34ed035f -> ce24625bbc2274bbccf8f1c6d7b2e032b211b57c } is a revert
+{ 8b4480bdc6b96851302f7dc2fcc6e8d818a9e61e -> 371ac1b8de421459a27c7d16ec40e49958e5b9a9 }
+Partial Revert commits SHA are -> 
+ce24625bbc2274bbccf8f1c6d7b2e032b211b57c - revert - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+---> The reverted commit sha is - ce24625bbc2274bbccf8f1c6d7b2e032b211b57c
+Commit message - Fix requiring of report initializers
+---> The original commit sha is - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+Commit message - Merge branch 'assignments_in_else_branch'
+---> The files with partial_reverts are:-
+lib/brakeman/processors/alias_processor.rb
+test/tests/test_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 66 is -> 
+{ 620e1a7bd6057f400bfe254fb8ddea76eee7ee24 -> d4cc8c4f75a863c7f0168210d43d9727a2d3003d } is a revert
+{ 8b4480bdc6b96851302f7dc2fcc6e8d818a9e61e -> 371ac1b8de421459a27c7d16ec40e49958e5b9a9 }
+Partial Revert commits SHA are -> 
+d4cc8c4f75a863c7f0168210d43d9727a2d3003d - revert - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+---> The reverted commit sha is - d4cc8c4f75a863c7f0168210d43d9727a2d3003d
+Commit message - Merge branch 'skip_fake_filter_outside_controller'
+---> The original commit sha is - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+Commit message - Merge branch 'assignments_in_else_branch'
+---> The files with partial_reverts are:-
+lib/brakeman/processors/alias_processor.rb
+test/tests/test_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 67 is -> 
+{ f7f4707862660ef48f2eeaa650793678a09918fd -> ceaccd739e2448dfb746e9dd0ea9e74dd2f52c90 } is a revert
+{ ceaccd739e2448dfb746e9dd0ea9e74dd2f52c90 -> 4a37b22511f95ec1d88649ea8cb5744e8746260e }
+Partial Revert commits SHA are -> 
+ceaccd739e2448dfb746e9dd0ea9e74dd2f52c90 - revert - 4a37b22511f95ec1d88649ea8cb5744e8746260e
+---> The reverted commit sha is - ceaccd739e2448dfb746e9dd0ea9e74dd2f52c90
+Commit message - Oops, test case
+---> The original commit sha is - 4a37b22511f95ec1d88649ea8cb5744e8746260e
+Commit message - Merge branch 'master' into allow_slice_or_only_in_mass_assign
+---> The files with partial_reverts are:-
+brakeman.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 68 is -> 
+{ e5682d3219dc22ab521d9e1bd5cab3170609eb80 -> c064686ed483701490707f9598984eb51507c8c9 } is a revert
+{ c064686ed483701490707f9598984eb51507c8c9 -> 68e409028f29481bc4f87211f6708b3f109be301 }
+Partial Revert commits SHA are -> 
+c064686ed483701490707f9598984eb51507c8c9 - revert - 68e409028f29481bc4f87211f6708b3f109be301
+---> The reverted commit sha is - c064686ed483701490707f9598984eb51507c8c9
+Commit message - Merge pull request #295 from presidentbeef/assignment_of_if_results
+
+Convert simple `if` to `or` on assignment
+---> The original commit sha is - 68e409028f29481bc4f87211f6708b3f109be301
+Commit message - Remove unused "line" argument from set_value
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_link_to.rb
+test/tests/test_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 69 is -> 
+{ 6a96c55003404575c8098eaa2a3b41af8b472770 -> 258a80624b7e6d07e8028a5424998960cb3b4682 } is a revert
+{ 258a80624b7e6d07e8028a5424998960cb3b4682 -> 150db9cb6dd6927812a303ad11b83074bf6faca2 }
+Partial Revert commits SHA are -> 
+258a80624b7e6d07e8028a5424998960cb3b4682 - revert - 150db9cb6dd6927812a303ad11b83074bf6faca2
+---> The reverted commit sha is - 258a80624b7e6d07e8028a5424998960cb3b4682
+Commit message - Tests for better branch handling
+---> The original commit sha is - 150db9cb6dd6927812a303ad11b83074bf6faca2
+Commit message - Merge branch 'assignment_of_if_results' into assignments_in_else_branch
+---> The files with partial_reverts are:-
+lib/brakeman/processors/alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 70 is -> 
+{ 63a7151017d66dd6113d19a7dc13cbcb4ba7fcf5 -> 6a96c55003404575c8098eaa2a3b41af8b472770 } is a revert
+{ 6a96c55003404575c8098eaa2a3b41af8b472770 -> 258a80624b7e6d07e8028a5424998960cb3b4682 }
+Partial Revert commits SHA are -> 
+6a96c55003404575c8098eaa2a3b41af8b472770 - revert - 258a80624b7e6d07e8028a5424998960cb3b4682
+---> The reverted commit sha is - 6a96c55003404575c8098eaa2a3b41af8b472770
+Commit message - Convert simple `if` to `or` on assignment
+---> The original commit sha is - 258a80624b7e6d07e8028a5424998960cb3b4682
+Commit message - Tests for better branch handling
+---> The files with partial_reverts are:-
+lib/brakeman/processors/alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 71 is -> 
+{ 82a33091bb52de94bfc4398683361ab815b0cbcb -> 3403a9bfc4b69bb86762e4c8f0eec1d51fdd080b } is a revert
+{ 3403a9bfc4b69bb86762e4c8f0eec1d51fdd080b -> e290177727294e64785647a9b57589ba38d01b8f }
+Partial Revert commits SHA are -> 
+3403a9bfc4b69bb86762e4c8f0eec1d51fdd080b - revert - e290177727294e64785647a9b57589ba38d01b8f
+---> The reverted commit sha is - 3403a9bfc4b69bb86762e4c8f0eec1d51fdd080b
+Commit message - Fixed html report to match default report
+---> The original commit sha is - e290177727294e64785647a9b57589ba38d01b8f
+Commit message - Merge pull request #282 from obduk/tidy_output
+
+Don't show warnings and errors tables if empty
+---> The files with partial_reverts are:-
+lib/brakeman/processors/slim_template_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 72 is -> 
+{ afc6c0182bfdd5dad3c141b8683e0b170337e174 -> 548da712b75d6ba6260860e688a7a8c89f063ba4 } is a revert
+{ 770ad73f515ddbb13eb61bd1685ed878de7b012d -> 9b95be38b32e0ca38098d3c8b56723e85d820376 }
+Partial Revert commits SHA are -> 
+548da712b75d6ba6260860e688a7a8c89f063ba4 - revert - 9b95be38b32e0ca38098d3c8b56723e85d820376
+---> The reverted commit sha is - 548da712b75d6ba6260860e688a7a8c89f063ba4
+Commit message - More fixes for operations on or expressions
+---> The original commit sha is - 9b95be38b32e0ca38098d3c8b56723e85d820376
+Commit message - Merge pull request #269 from presidentbeef/support_haml_4
+
+Expand Haml dependency to 4.x
+---> The files with partial_reverts are:-
+brakeman.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 73 is -> 
+{ 474b80d1f53ce220554a44f9a9e7c428511b42b6 -> afc6c0182bfdd5dad3c141b8683e0b170337e174 } is a revert
+{ d80eae743d924ee820c17d87c793ab53a26b5a86 -> 770ad73f515ddbb13eb61bd1685ed878de7b012d }
+Partial Revert commits SHA are -> 
+afc6c0182bfdd5dad3c141b8683e0b170337e174 - revert - 770ad73f515ddbb13eb61bd1685ed878de7b012d
+---> The reverted commit sha is - afc6c0182bfdd5dad3c141b8683e0b170337e174
+Commit message - Expand Haml dependency to 4.x
+
+closes #263
+---> The original commit sha is - 770ad73f515ddbb13eb61bd1685ed878de7b012d
+Commit message - Merge pull request #268 from presidentbeef/more_skip_filters
+
+Check for more important filters skipped with blacklist
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_skip_before_filter.rb
+test/apps/rails3.1/app/controllers/admin_controller.rb
+test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 74 is -> 
+{ 2397f3b16f62f23f6790a5295ee3e0ce5fed7483 -> 41726c99b087fc8beb6e0a206dfc2ae5ad8948dd } is a revert
+{ 50e4ec56642b8e31692cd57c937763579ac74c3f -> d80eae743d924ee820c17d87c793ab53a26b5a86 }
+Partial Revert commits SHA are -> 
+41726c99b087fc8beb6e0a206dfc2ae5ad8948dd - revert - d80eae743d924ee820c17d87c793ab53a26b5a86
+---> The reverted commit sha is - 41726c99b087fc8beb6e0a206dfc2ae5ad8948dd
+Commit message - Add tests for more skip_before_filters
+---> The original commit sha is - d80eae743d924ee820c17d87c793ab53a26b5a86
+Commit message - Merge pull request #267 from presidentbeef/jump_to_errors
+
+Scroll errors into view when showing/hiding
+---> The files with partial_reverts are:-
+lib/brakeman/templates/error_overview.html.erb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 75 is -> 
+{ eaf654f41304aa78b157a9ac0c2a7f0fb881b99b -> 7604cde588469906b530270c8fc91bc94b25825a } is a revert
+{ e4b6bc941a1dce374c271e9152356e7377908b6a -> 0f6bac36290db0041e3a99ce1feaa63e5fa1c6d3 }
+Partial Revert commits SHA are -> 
+7604cde588469906b530270c8fc91bc94b25825a - revert - 0f6bac36290db0041e3a99ce1feaa63e5fa1c6d3
+---> The reverted commit sha is - 7604cde588469906b530270c8fc91bc94b25825a
+Commit message - Start on Slim template support
+---> The original commit sha is - 0f6bac36290db0041e3a99ce1feaa63e5fa1c6d3
+Commit message - Merge branch 'check_for_sqli_in_pluck'
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_sql.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 76 is -> 
+{ 1434d9aab253b59f5d101c44e5a4be33cb20e76c -> e1ced0fa28efb4b351decf4a514a8b2042371f5c } is a revert
+{ 72fd7af0539bc1e6c17dad5e91720c32c9dbe920 -> f87f8735c094a7d60e12a0cf51e9d69476d54256 }
+Partial Revert commits SHA are -> 
+e1ced0fa28efb4b351decf4a514a8b2042371f5c - revert - f87f8735c094a7d60e12a0cf51e9d69476d54256
+---> The reverted commit sha is - e1ced0fa28efb4b351decf4a514a8b2042371f5c
+Commit message - Add tests for more YAML methods
+---> The original commit sha is - f87f8735c094a7d60e12a0cf51e9d69476d54256
+Commit message - Merge pull request #248 from presidentbeef/support_older_multi_json
+
+Support MultiJson 1.2 for Rails 3.0 and 3.1
+---> The files with partial_reverts are:-
+brakeman.gemspec
+lib/brakeman/report.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 77 is -> 
+{ 1870cfe1bc6dabe46aca6813beabeba31fdbc915 -> 620b1c5d460867cea0cb4b68c7df7547cd4ccbec } is a revert
+{ 620b1c5d460867cea0cb4b68c7df7547cd4ccbec -> f9eda42235d0c8d7d5b746ed476a44c255834477 }
+Partial Revert commits SHA are -> 
+620b1c5d460867cea0cb4b68c7df7547cd4ccbec - revert - f9eda42235d0c8d7d5b746ed476a44c255834477
+---> The reverted commit sha is - 620b1c5d460867cea0cb4b68c7df7547cd4ccbec
+Commit message - Merge pull request #240 from presidentbeef/add_check_for_yaml_load
+
+Add check for YAML.load
+---> The original commit sha is - f9eda42235d0c8d7d5b746ed476a44c255834477
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_reverts are:-
+brakeman.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 78 is -> 
+{ aa9a8e6d20e1b8294d4ab79ebee381bd4db46231 -> b2b583cb117ed929a420b1d506fd9846109b6dce } is a revert
+{ 036fa7d3f21f694135ed097af11022e85f1b95d9 -> 249e4618655882bef6f492d49163d07b16ca667f }
+Partial Revert commits SHA are -> 
+b2b583cb117ed929a420b1d506fd9846109b6dce - revert - 249e4618655882bef6f492d49163d07b16ca667f
+---> The reverted commit sha is - b2b583cb117ed929a420b1d506fd9846109b6dce
+Commit message - Add tests for secret_tokens
+---> The original commit sha is - 249e4618655882bef6f492d49163d07b16ca667f
+Commit message - Merge remote-tracking branch 'neersighted/patch-1'
+
+Update to RubyParser 3.1.1
+---> The files with partial_reverts are:-
+brakeman.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 79 is -> 
+{ 4fc9af50c47af384abdd834c0df57f01c4f23a84 -> 4f8abe179c96f2ec300ecb90582f447eff35664a } is a revert
+{ 2e07a196ed59793155ef41877276112dd3e6ee1b -> 036fa7d3f21f694135ed097af11022e85f1b95d9 }
+Partial Revert commits SHA are -> 
+4f8abe179c96f2ec300ecb90582f447eff35664a - revert - 036fa7d3f21f694135ed097af11022e85f1b95d9
+---> The reverted commit sha is - 4f8abe179c96f2ec300ecb90582f447eff35664a
+Commit message - presidentbeef/brakeman#210 Add hilarious pluralize method to remove activesupport
+---> The original commit sha is - 036fa7d3f21f694135ed097af11022e85f1b95d9
+Commit message - Merge remote-tracking branch 'oreoshake/gh210_remove_active_support'
+
+Remove active_support dependency, fixes #210
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_mass_assignment.rb
+test/apps/rails3/app/controllers/home_controller.rb
+test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 80 is -> 
+{ a5552bf4fffe674b8512d7f96e0d7394736625e2 -> e199c84475945b7a26f4baf378da9873db9688d1 } is a revert
+{ e199c84475945b7a26f4baf378da9873db9688d1 -> e996bf53dbe8ee17696837772718496b4302f332 }
+Partial Revert commits SHA are -> 
+e199c84475945b7a26f4baf378da9873db9688d1 - revert - e996bf53dbe8ee17696837772718496b4302f332
+---> The reverted commit sha is - e199c84475945b7a26f4baf378da9873db9688d1
+Commit message - Update expected warnings for Rails 3 tests
+---> The original commit sha is - e996bf53dbe8ee17696837772718496b4302f332
+Commit message - Merge branch 'pass_ivars_between_before_filters' into only_do_one_pass_of_alias_processing
+
+Should really be one branch
+
+Conflicts:
+	test/tests/test_rails3.rb
+---> The files with partial_reverts are:-
+lib/brakeman.rb
+lib/brakeman/checks/check_session_settings.rb
+lib/brakeman/options.rb
+lib/brakeman/processors/alias_processor.rb
+lib/brakeman/processors/lib/find_return_value.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/apps/rails3.1/app/views/users/test_assign_twice.html.erb
+test/apps/rails3.1/app/views/users/test_less_simple_helpers.html.erb
+test/apps/rails3.1/app/views/users/test_simple_helper.html.erb
+test/apps/rails3.1/config/routes.rb
+test/apps/rails3/config/initializers/session_store.rb
+test/tests/test_find_return_value.rb
+test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 81 is -> 
+{ 3e13a3ce960a4b75934031fd95fbae37e63ece6b -> 2ce173a4e16c8184ead875cb5445779d4abcdda2 } is a revert
+{ b6b36d646007e117c522c3379acec93dd89681cd -> dff031c72382837ce1ea0b547414511c90a08202 }
+Partial Revert commits SHA are -> 
+2ce173a4e16c8184ead875cb5445779d4abcdda2 - revert - dff031c72382837ce1ea0b547414511c90a08202
+---> The reverted commit sha is - 2ce173a4e16c8184ead875cb5445779d4abcdda2
+Commit message - Add test for before_filter ivar usage
+
+when one before_filter depends on ivars from another
+---> The original commit sha is - dff031c72382837ce1ea0b547414511c90a08202
+Commit message - Merge pull request #220 from presidentbeef/fix_session_settings_check_for_rails3
+
+Fix CheckSessionSettings for Rails 3
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_session_settings.rb
+test/apps/rails3/config/initializers/session_store.rb
+test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 82 is -> 
+{ be0ca4b2e71d88a1d972ad132d6581baf23ad890 -> b81ffdad323ee8b3ae39f2a39b0ebe3fb03a3e85 } is a revert
+{ 8efef83d661961d0db098dc4205d2efe82fb31c4 -> b524f11e1e847ab5d26e0d5b8cf84d564dcab8ab }
+Partial Revert commits SHA are -> 
+b81ffdad323ee8b3ae39f2a39b0ebe3fb03a3e85 - revert - b524f11e1e847ab5d26e0d5b8cf84d564dcab8ab
+---> The reverted commit sha is - b81ffdad323ee8b3ae39f2a39b0ebe3fb03a3e85
+Commit message - Forget checking for public methods
+
+it messes up mixed-in methods and such
+---> The original commit sha is - b524f11e1e847ab5d26e0d5b8cf84d564dcab8ab
+Commit message - Fix CheckSessionSettings for Rails 3
+
+because I was dumb and hard-coded the name
+of the app (i.e., MyApp::Application.config)
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_session_settings.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 83 is -> 
+{ b6801ebf33755a182382ee5d9e8ab4be57bbc20a -> 386b46f2afd3bf6b9d66a948e8731f1eeb71469d } is a revert
+{ ab0f5a3a57d0047a3a9a7a7cdf48e15a0e831d39 -> b141fe23ea420adc0e1a292e63e89aba4de622d7 }
+Partial Revert commits SHA are -> 
+386b46f2afd3bf6b9d66a948e8731f1eeb71469d - revert - b141fe23ea420adc0e1a292e63e89aba4de622d7
+---> The reverted commit sha is - 386b46f2afd3bf6b9d66a948e8731f1eeb71469d
+Commit message - Set `-a` to be default
+---> The original commit sha is - b141fe23ea420adc0e1a292e63e89aba4de622d7
+Commit message - Merge branch 'master' into simple_helper_scanning
+---> The files with partial_reverts are:-
+lib/brakeman/processors/controller_alias_processor.rb
+lib/brakeman/processors/lib/find_return_value.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/apps/rails3.1/app/views/users/test_assign_twice.html.erb
+test/apps/rails3.1/app/views/users/test_less_simple_helpers.html.erb
+test/apps/rails3.1/app/views/users/test_simple_helper.html.erb
+test/apps/rails3.1/config/routes.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 84 is -> 
+{ 0339f56cbc551bf8e27b22ae9bc98d9cc2e72461 -> ab0f5a3a57d0047a3a9a7a7cdf48e15a0e831d39 } is a revert
+{ ab0f5a3a57d0047a3a9a7a7cdf48e15a0e831d39 -> b141fe23ea420adc0e1a292e63e89aba4de622d7 }
+Partial Revert commits SHA are -> 
+ab0f5a3a57d0047a3a9a7a7cdf48e15a0e831d39 - revert - b141fe23ea420adc0e1a292e63e89aba4de622d7
+---> The reverted commit sha is - ab0f5a3a57d0047a3a9a7a7cdf48e15a0e831d39
+Commit message - Merge pull request #219 from presidentbeef/ignore_route_information_by_default
+
+Ignore route information by default
+---> The original commit sha is - b141fe23ea420adc0e1a292e63e89aba4de622d7
+Commit message - Merge branch 'master' into simple_helper_scanning
+---> The files with partial_reverts are:-
+lib/brakeman/processors/alias_processor.rb
+lib/brakeman/processors/lib/find_return_value.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/apps/rails3.1/app/views/users/test_assign_twice.html.erb
+test/apps/rails3.1/app/views/users/test_less_simple_helpers.html.erb
+test/apps/rails3.1/app/views/users/test_simple_helper.html.erb
+test/apps/rails3.1/config/routes.rb
+test/tests/test_find_return_value.rb
+test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 85 is -> 
+{ 2684b1581b1bab45a09ad6e9c7b8ec1cd3048910 -> edcd9908ee7df0a9b6b35f269e00bd23ed45863a } is a revert
+{ 0339f56cbc551bf8e27b22ae9bc98d9cc2e72461 -> ab0f5a3a57d0047a3a9a7a7cdf48e15a0e831d39 }
+Partial Revert commits SHA are -> 
+edcd9908ee7df0a9b6b35f269e00bd23ed45863a - revert - ab0f5a3a57d0047a3a9a7a7cdf48e15a0e831d39
+---> The reverted commit sha is - edcd9908ee7df0a9b6b35f269e00bd23ed45863a
+Commit message - Add test for modifying existing ivar
+
+in FindReturnValue
+---> The original commit sha is - ab0f5a3a57d0047a3a9a7a7cdf48e15a0e831d39
+Commit message - Merge pull request #219 from presidentbeef/ignore_route_information_by_default
+
+Ignore route information by default
+---> The files with partial_reverts are:-
+lib/brakeman.rb
+lib/brakeman/options.rb
+lib/brakeman/processors/controller_alias_processor.rb
+lib/brakeman/processors/lib/find_return_value.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/apps/rails3.1/app/views/users/test_assign_twice.html.erb
+test/apps/rails3.1/app/views/users/test_less_simple_helpers.html.erb
+test/apps/rails3.1/app/views/users/test_simple_helper.html.erb
+test/apps/rails3.1/config/routes.rb
+test/test.rb
+test/tests/test_find_return_value.rb
+test/tests/test_rescanner.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 86 is -> 
+{ a8993e8e1cfe1b5d633850d89ab0aa8fb1faa512 -> be0ca4b2e71d88a1d972ad132d6581baf23ad890 } is a revert
+{ be0ca4b2e71d88a1d972ad132d6581baf23ad890 -> b81ffdad323ee8b3ae39f2a39b0ebe3fb03a3e85 }
+Partial Revert commits SHA are -> 
+be0ca4b2e71d88a1d972ad132d6581baf23ad890 - revert - b81ffdad323ee8b3ae39f2a39b0ebe3fb03a3e85
+---> The reverted commit sha is - be0ca4b2e71d88a1d972ad132d6581baf23ad890
+Commit message - Fix CheckSessionSettings for Rails 3
+
+because I was dumb and hard-coded the name
+of the app (i.e., MyApp::Application.config)
+---> The original commit sha is - b81ffdad323ee8b3ae39f2a39b0ebe3fb03a3e85
+Commit message - Forget checking for public methods
+
+it messes up mixed-in methods and such
+---> The files with partial_reverts are:-
+lib/brakeman.rb
+lib/brakeman/checks/check_session_settings.rb
+lib/brakeman/options.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 87 is -> 
+{ 6605d1bed8408caae1628b7ac7389f33c2a95562 -> c0b871521ab886f2fa10d115e59673229dfffa4a } is a revert
+{ ef39a8d87aa1ffc4f537ad4c57cf0237da938e6d -> 4f70e6a5843df638d98dece1729b88fc30c47393 }
+Partial Revert commits SHA are -> 
+c0b871521ab886f2fa10d115e59673229dfffa4a - revert - 4f70e6a5843df638d98dece1729b88fc30c47393
+---> The reverted commit sha is - c0b871521ab886f2fa10d115e59673229dfffa4a
+Commit message - Merge pull request #194 from presidentbeef/fix_to_sql_false_positive
+
+Fix `to_sql` false positive
+---> The original commit sha is - 4f70e6a5843df638d98dece1729b88fc30c47393
+Commit message - Merge branch 'support_newer_validates_format'
+
+Support newer validates format
+
+Conflicts:
+	test/tests/test_rails31.rb
+---> The files with partial_reverts are:-
+test/apps/rails3.1/app/models/account.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 88 is -> 
+{ efbd8bd1e4fc3c85e2c296d754ff376c128a9723 -> 480d55c9d573f006f86ac0890a9a5a044baf397a } is a revert
+{ ef39a8d87aa1ffc4f537ad4c57cf0237da938e6d -> 4f70e6a5843df638d98dece1729b88fc30c47393 }
+Partial Revert commits SHA are -> 
+480d55c9d573f006f86ac0890a9a5a044baf397a - revert - 4f70e6a5843df638d98dece1729b88fc30c47393
+---> The reverted commit sha is - 480d55c9d573f006f86ac0890a9a5a044baf397a
+Commit message - Add tests for command injection via locals
+
+which should be medium confidence warnings
+---> The original commit sha is - 4f70e6a5843df638d98dece1729b88fc30c47393
+Commit message - Merge branch 'support_newer_validates_format'
+
+Support newer validates format
+
+Conflicts:
+	test/tests/test_rails31.rb
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_validation_regex.rb
+test/apps/rails3.1/app/models/account.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 89 is -> 
+{ 294d4bed94b2b8d9f300a0efed789c2207a7d958 -> b1f7ec5958349c19214ae8abfd0fb1ae50a2292f } is a revert
+{ eb08c600c995428f58b2b750d3686f9c701c90f6 -> 37447ba496ab14abd41ff21eb6963f62cbd014cc }
+Partial Revert commits SHA are -> 
+b1f7ec5958349c19214ae8abfd0fb1ae50a2292f - revert - 37447ba496ab14abd41ff21eb6963f62cbd014cc
+---> The reverted commit sha is - b1f7ec5958349c19214ae8abfd0fb1ae50a2292f
+Commit message - [Remove this] Track Sexp creation
+
+Conflicts:
+	lib/ruby_parser/bm_sexp.rb
+---> The original commit sha is - 37447ba496ab14abd41ff21eb6963f62cbd014cc
+Commit message - Final removal of Sexp#args?
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_sql.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 90 is -> 
+{ 294d4bed94b2b8d9f300a0efed789c2207a7d958 -> b1f7ec5958349c19214ae8abfd0fb1ae50a2292f } is a revert
+{ 4ef580b956a442e6befff929d9a4743ae167d1f2 -> eb08c600c995428f58b2b750d3686f9c701c90f6 }
+Partial Revert commits SHA are -> 
+b1f7ec5958349c19214ae8abfd0fb1ae50a2292f - revert - eb08c600c995428f58b2b750d3686f9c701c90f6
+---> The reverted commit sha is - b1f7ec5958349c19214ae8abfd0fb1ae50a2292f
+Commit message - [Remove this] Track Sexp creation
+
+Conflicts:
+	lib/ruby_parser/bm_sexp.rb
+---> The original commit sha is - eb08c600c995428f58b2b750d3686f9c701c90f6
+Commit message - Use process_call_args and Sexp#each_arg
+---> The files with partial_reverts are:-
+lib/brakeman/checks/base_check.rb
+lib/brakeman/checks/check_cross_site_scripting.rb
+lib/brakeman/checks/check_mail_to.rb
+lib/brakeman/checks/check_mass_assignment.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 91 is -> 
+{ 294d4bed94b2b8d9f300a0efed789c2207a7d958 -> b1f7ec5958349c19214ae8abfd0fb1ae50a2292f } is a revert
+{ 0cc78c56e83c53a4c7e19c8a7168209b9bd82b88 -> 4ef580b956a442e6befff929d9a4743ae167d1f2 }
+Partial Revert commits SHA are -> 
+b1f7ec5958349c19214ae8abfd0fb1ae50a2292f - revert - 4ef580b956a442e6befff929d9a4743ae167d1f2
+---> The reverted commit sha is - b1f7ec5958349c19214ae8abfd0fb1ae50a2292f
+Commit message - [Remove this] Track Sexp creation
+
+Conflicts:
+	lib/ruby_parser/bm_sexp.rb
+---> The original commit sha is - 4ef580b956a442e6befff929d9a4743ae167d1f2
+Commit message - Avoid using Sexp#args for call arg access
+
+This should not change much timewise!
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_link_to.rb
+lib/brakeman/checks/check_link_to_href.rb
+lib/brakeman/checks/check_select_tag.rb
+lib/brakeman/checks/check_select_vulnerability.rb
+lib/brakeman/checks/check_session_settings.rb
+lib/brakeman/checks/check_skip_before_filter.rb
+lib/brakeman/checks/check_without_protection.rb
+lib/brakeman/processors/gem_processor.rb
+lib/brakeman/processors/lib/rails2_route_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 92 is -> 
+{ 294d4bed94b2b8d9f300a0efed789c2207a7d958 -> b1f7ec5958349c19214ae8abfd0fb1ae50a2292f } is a revert
+{ dcf1320510ca38f0125b63f5a61a5c74ffb8e69e -> 0cc78c56e83c53a4c7e19c8a7168209b9bd82b88 }
+Partial Revert commits SHA are -> 
+b1f7ec5958349c19214ae8abfd0fb1ae50a2292f - revert - 0cc78c56e83c53a4c7e19c8a7168209b9bd82b88
+---> The reverted commit sha is - b1f7ec5958349c19214ae8abfd0fb1ae50a2292f
+Commit message - [Remove this] Track Sexp creation
+
+Conflicts:
+	lib/ruby_parser/bm_sexp.rb
+---> The original commit sha is - 0cc78c56e83c53a4c7e19c8a7168209b9bd82b88
+Commit message - Add methods to Sexp to avoid Sexp creation
+---> The files with partial_reverts are:-
+lib/ruby_parser/bm_sexp.rb
+test/tests/test_sexp.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 93 is -> 
+{ 294d4bed94b2b8d9f300a0efed789c2207a7d958 -> b1f7ec5958349c19214ae8abfd0fb1ae50a2292f } is a revert
+{ b1f7ec5958349c19214ae8abfd0fb1ae50a2292f -> dcf1320510ca38f0125b63f5a61a5c74ffb8e69e }
+Partial Revert commits SHA are -> 
+b1f7ec5958349c19214ae8abfd0fb1ae50a2292f - revert - dcf1320510ca38f0125b63f5a61a5c74ffb8e69e
+---> The reverted commit sha is - b1f7ec5958349c19214ae8abfd0fb1ae50a2292f
+Commit message - [Remove this] Track Sexp creation
+
+Conflicts:
+	lib/ruby_parser/bm_sexp.rb
+---> The original commit sha is - dcf1320510ca38f0125b63f5a61a5c74ffb8e69e
+Commit message - Merge commit '90e7b63c4dcd38f6c3c297381bdfb8c7fc76ab83' into reduce_sexps_created2
+---> The files with partial_reverts are:-
+lib/brakeman/processors/template_alias_processor.rb
+lib/brakeman/util.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 94 is -> 
+{ d6e01317cfa942a0bb91078ecd346f10bf5b10eb -> 7f145c315c9bd1af561d8cc54fdd3f4b3bdb1475 } is a revert
+{ 89b67145deb6684ac55c0583d7cb98eff1e7478d -> 85a2e95b4dfc34953c4f75a36c38d671a0aad61d }
+Partial Revert commits SHA are -> 
+7f145c315c9bd1af561d8cc54fdd3f4b3bdb1475 - revert - 85a2e95b4dfc34953c4f75a36c38d671a0aad61d
+---> The reverted commit sha is - 7f145c315c9bd1af561d8cc54fdd3f4b3bdb1475
+Commit message - Probably fix mass assign disabled detection
+---> The original commit sha is - 85a2e95b4dfc34953c4f75a36c38d671a0aad61d
+Commit message - Merge branch 'master' into update_ruby_parser
+
+Conflicts:
+	lib/brakeman/processors/controller_processor.rb
+	lib/brakeman/scanner.rb
+---> The files with partial_reverts are:-
+lib/brakeman/app_tree.rb
+lib/brakeman/checks.rb
+lib/brakeman/rescanner.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 95 is -> 
+{ a78720caf8dea82de6d6a4e980317e1a1705c21f -> f3afc9d578a3b011611abf03aa85182d60187e61 } is a revert
+{ 89b67145deb6684ac55c0583d7cb98eff1e7478d -> 85a2e95b4dfc34953c4f75a36c38d671a0aad61d }
+Partial Revert commits SHA are -> 
+f3afc9d578a3b011611abf03aa85182d60187e61 - revert - 85a2e95b4dfc34953c4f75a36c38d671a0aad61d
+---> The reverted commit sha is - f3afc9d578a3b011611abf03aa85182d60187e61
+Commit message - Merge branch 'master' into update_ruby_parser
+---> The original commit sha is - 85a2e95b4dfc34953c4f75a36c38d671a0aad61d
+Commit message - Merge branch 'master' into update_ruby_parser
+
+Conflicts:
+	lib/brakeman/processors/controller_processor.rb
+	lib/brakeman/scanner.rb
+---> The files with partial_reverts are:-
+lib/brakeman/app_tree.rb
+lib/brakeman/checks.rb
+lib/brakeman/report.rb
+lib/brakeman/rescanner.rb
+lib/brakeman/tracker.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 96 is -> 
+{ b33934a62ebdd21c5ff1c20a02f3c897d828f8d8 -> b3a112acb4f787e30c3dd8138610d6c376be07fb } is a revert
+{ b3a112acb4f787e30c3dd8138610d6c376be07fb -> e74d1aaa7ce523de1a39eb7ca41fe634a182d6fb }
+Partial Revert commits SHA are -> 
+b3a112acb4f787e30c3dd8138610d6c376be07fb - revert - e74d1aaa7ce523de1a39eb7ca41fe634a182d6fb
+---> The reverted commit sha is - b3a112acb4f787e30c3dd8138610d6c376be07fb
+Commit message - Add Brakeman version to text and HTML reports
+---> The original commit sha is - e74d1aaa7ce523de1a39eb7ca41fe634a182d6fb
+Commit message - Merge pull request #192 from presidentbeef/output_brakeman_version
+
+Add Brakeman version to text and HTML reports
+---> The files with partial_reverts are:-
+lib/brakeman/warning.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 97 is -> 
+{ eb5f79ad5cf014ed1725c4305e2a847f03e8dd1c -> e591e7d279b8cfb409f3ebdc077eff53a8fe939e } is a revert
+{ e591e7d279b8cfb409f3ebdc077eff53a8fe939e -> 8fb32e286b816dcba6a5cba46be7fd35d16da283 }
+Partial Revert commits SHA are -> 
+e591e7d279b8cfb409f3ebdc077eff53a8fe939e - revert - 8fb32e286b816dcba6a5cba46be7fd35d16da283
+---> The reverted commit sha is - e591e7d279b8cfb409f3ebdc077eff53a8fe939e
+Commit message - Merge pull request #183 from grosser/rake
+
+make bundle && bundle exec rake work so we do not need an explanation of...
+---> The original commit sha is - 8fb32e286b816dcba6a5cba46be7fd35d16da283
+Commit message - Merge pull request #187 from grosser/lock
+
+ignore lock
+---> The files with partial_reverts are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Revert diff pair 98 is -> 
+{ 36349c22133ee7885c5ce0cd2416854288b8d3b7 -> 120fc3af4ddae3de606d658edd93b2f998539781 } is a revert
+{ 9d02a4b549b6a16c4061d1452707b6f3fc556ac7 -> ac5e41859d1a02cd632aa1644b240b229fd0a5d4 }
+Partial Revert commits SHA are -> 
+120fc3af4ddae3de606d658edd93b2f998539781 - revert - ac5e41859d1a02cd632aa1644b240b229fd0a5d4
+---> The reverted commit sha is - 120fc3af4ddae3de606d658edd93b2f998539781
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The original commit sha is - ac5e41859d1a02cd632aa1644b240b229fd0a5d4
+Commit message - Merge pull request #180 from presidentbeef/call_index_fixes
+
+Call indexing performance improvement
+---> The files with partial_reverts are:-
+lib/brakeman/call_index.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 99 is -> 
+{ 4fc89dec2bdc8e5c70b9df15ff5302886d3db7ce -> 79710f0819f9f9eb75cf43d46d8a9956130540b6 } is a revert
+{ b8dc5554442d53ddde454bb619191ab13587ba0a -> 6bed8510f95bcd6a2f8ac3069da66078db592d28 }
+Partial Revert commits SHA are -> 
+79710f0819f9f9eb75cf43d46d8a9956130540b6 - revert - 6bed8510f95bcd6a2f8ac3069da66078db592d28
+---> The reverted commit sha is - 79710f0819f9f9eb75cf43d46d8a9956130540b6
+Commit message - Update gemspec to latest ruby_parser stuff
+---> The original commit sha is - 6bed8510f95bcd6a2f8ac3069da66078db592d28
+Commit message - Merge pull request #170 from presidentbeef/avoid_appending_to_template_variable
+
+Do not process appending to HAML template variable
+---> The files with partial_reverts are:-
+lib/brakeman/processors/haml_template_processor.rb
+lib/brakeman/processors/template_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 100 is -> 
+{ d57bbd9ef910b67bcc03565193d569252dd2ff21 -> d972a19ad71826dddf02f2b788518719a8ab117a } is a revert
+{ 79710f0819f9f9eb75cf43d46d8a9956130540b6 -> 3f1486b3b09e97ac40a41090e47486abb9408098 }
+Partial Revert commits SHA are -> 
+d972a19ad71826dddf02f2b788518719a8ab117a - revert - 3f1486b3b09e97ac40a41090e47486abb9408098
+---> The reverted commit sha is - d972a19ad71826dddf02f2b788518719a8ab117a
+Commit message - CheckSQL: Add test for safe "or" interpolation
+---> The original commit sha is - 3f1486b3b09e97ac40a41090e47486abb9408098
+Commit message - Merge branch 'master' into simple_helper_scanning
+
+Conflicts:
+	test/apps/rails3.1/app/controllers/users_controller.rb
+---> The files with partial_reverts are:-
+lib/brakeman/processors/lib/find_return_value.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 101 is -> 
+{ f7d5243b1c2e1d6f4b4047aabf7893d42874eb02 -> 4fc89dec2bdc8e5c70b9df15ff5302886d3db7ce } is a revert
+{ 4fc89dec2bdc8e5c70b9df15ff5302886d3db7ce -> 79710f0819f9f9eb75cf43d46d8a9956130540b6 }
+Partial Revert commits SHA are -> 
+4fc89dec2bdc8e5c70b9df15ff5302886d3db7ce - revert - 79710f0819f9f9eb75cf43d46d8a9956130540b6
+---> The reverted commit sha is - 4fc89dec2bdc8e5c70b9df15ff5302886d3db7ce
+Commit message - Do not process appending to HAML template variable
+
+in the alias processor. Should fix #168
+---> The original commit sha is - 79710f0819f9f9eb75cf43d46d8a9956130540b6
+Commit message - Update gemspec to latest ruby_parser stuff
+---> The files with partial_reverts are:-
+lib/brakeman/processors/haml_template_processor.rb
+lib/brakeman/processors/template_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 102 is -> 
+{ 04e4789bb0e9f17c66ac71b39bc5cffff2fa8cb6 -> 25b5e693dbe5cd717925ea4895ce4e7217bbeed1 } is a revert
+{ 25b5e693dbe5cd717925ea4895ce4e7217bbeed1 -> 80dfc86b00067733f495a77f0fb877a474d5e1f6 }
+Partial Revert commits SHA are -> 
+25b5e693dbe5cd717925ea4895ce4e7217bbeed1 - revert - 80dfc86b00067733f495a77f0fb877a474d5e1f6
+---> The reverted commit sha is - 25b5e693dbe5cd717925ea4895ce4e7217bbeed1
+Commit message - Merge pull request #165 from presidentbeef/update_rescanner2
+
+Fix rescanner and add tests
+---> The original commit sha is - 80dfc86b00067733f495a77f0fb877a474d5e1f6
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_reverts are:-
+CHANGES
+-----------------------------------------------------------------
+
+Partial Revert diff pair 103 is -> 
+{ 0de5e9c51edcd592e43ce450f2999f706cb108b4 -> 9845e74a8d3c51838fc01b831e4a2d37bf72bfd5 } is a revert
+{ 4b48bf15a91bffc09a2c61c8fcc886c6b487182b -> c3c4d4abca902b5261c8f94a54811ce7acc42f7f }
+Partial Revert commits SHA are -> 
+9845e74a8d3c51838fc01b831e4a2d37bf72bfd5 - revert - c3c4d4abca902b5261c8f94a54811ce7acc42f7f
+---> The reverted commit sha is - 9845e74a8d3c51838fc01b831e4a2d37bf72bfd5
+Commit message - Check for overridden initializer values
+---> The original commit sha is - c3c4d4abca902b5261c8f94a54811ce7acc42f7f
+Commit message - Merge branch 'update_scanner' into improve_test_coverage
+
+Conflicts:
+	test/test.rb
+---> The files with partial_reverts are:-
+test/apps/rails3.2/app/controllers/account_controller.rb
+test/tests/test_rescanner.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 104 is -> 
+{ 811c2778e5194bd729211b85e0dc16535feca9fa -> 16dd831330ec0cc8e0106f7e1031bbad10b7b899 } is a revert
+{ b4ea8490316f884c23b100646c4884150d2c0ceb -> d373c27b18d332210954d80375a4c0c5920e5465 }
+Partial Revert commits SHA are -> 
+16dd831330ec0cc8e0106f7e1031bbad10b7b899 - revert - d373c27b18d332210954d80375a4c0c5920e5465
+---> The reverted commit sha is - 16dd831330ec0cc8e0106f7e1031bbad10b7b899
+Commit message - Ignore RubyParser in test coverage
+
+Don't worry about test coverage on code that is essentially external
+---> The original commit sha is - d373c27b18d332210954d80375a4c0c5920e5465
+Commit message - Add basic JSON compare test
+---> The files with partial_reverts are:-
+test/tests/test_json_compare.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 105 is -> 
+{ f0bdba2388b9f212a9e5c780bb7bd44eee25916c -> 44369a9d390586b71f4b95445890f36503792113 } is a revert
+{ b4ea8490316f884c23b100646c4884150d2c0ceb -> d373c27b18d332210954d80375a4c0c5920e5465 }
+Partial Revert commits SHA are -> 
+44369a9d390586b71f4b95445890f36503792113 - revert - d373c27b18d332210954d80375a4c0c5920e5465
+---> The reverted commit sha is - 44369a9d390586b71f4b95445890f36503792113
+Commit message - Move diff test helpers to module
+---> The original commit sha is - d373c27b18d332210954d80375a4c0c5920e5465
+Commit message - Add basic JSON compare test
+---> The files with partial_reverts are:-
+test/tests/test_json_compare.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 106 is -> 
+{ d5b149dc0058b3171b642836b0c6fad59b17acae -> b4ea8490316f884c23b100646c4884150d2c0ceb } is a revert
+{ b4ea8490316f884c23b100646c4884150d2c0ceb -> d373c27b18d332210954d80375a4c0c5920e5465 }
+Partial Revert commits SHA are -> 
+b4ea8490316f884c23b100646c4884150d2c0ceb - revert - d373c27b18d332210954d80375a4c0c5920e5465
+---> The reverted commit sha is - b4ea8490316f884c23b100646c4884150d2c0ceb
+Commit message - Move diff test helpers to module
+---> The original commit sha is - d373c27b18d332210954d80375a4c0c5920e5465
+Commit message - Add basic JSON compare test
+---> The files with partial_reverts are:-
+test/tests/test_json_compare.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 107 is -> 
+{ 16dd831330ec0cc8e0106f7e1031bbad10b7b899 -> f0bdba2388b9f212a9e5c780bb7bd44eee25916c } is a revert
+{ d5b149dc0058b3171b642836b0c6fad59b17acae -> b4ea8490316f884c23b100646c4884150d2c0ceb }
+Partial Revert commits SHA are -> 
+f0bdba2388b9f212a9e5c780bb7bd44eee25916c - revert - b4ea8490316f884c23b100646c4884150d2c0ceb
+---> The reverted commit sha is - f0bdba2388b9f212a9e5c780bb7bd44eee25916c
+Commit message - Add Rails 3.2 test app
+---> The original commit sha is - b4ea8490316f884c23b100646c4884150d2c0ceb
+Commit message - Move diff test helpers to module
+---> The files with partial_reverts are:-
+test/apps/rails3.2/Gemfile
+test/apps/rails3.2/README.rdoc
+test/apps/rails3.2/Rakefile
+test/apps/rails3.2/app/assets/javascripts/application.js
+test/apps/rails3.2/app/assets/javascripts/users.js.coffee
+test/apps/rails3.2/app/assets/stylesheets/application.css
+test/apps/rails3.2/app/assets/stylesheets/scaffolds.css.scss
+test/apps/rails3.2/app/assets/stylesheets/users.css.scss
+test/apps/rails3.2/app/controllers/application_controller.rb
+test/apps/rails3.2/app/controllers/removal_controller.rb
+test/apps/rails3.2/app/controllers/users_controller.rb
+test/apps/rails3.2/app/helpers/application_helper.rb
+test/apps/rails3.2/app/helpers/users_helper.rb
+test/apps/rails3.2/app/models/account.rb
+test/apps/rails3.2/app/models/user.rb
+test/apps/rails3.2/app/views/layouts/application.html.erb
+test/apps/rails3.2/app/views/removal/_partial.html.erb
+test/apps/rails3.2/app/views/removal/controller_removed.html.erb
+test/apps/rails3.2/app/views/users/_form.html.erb
+test/apps/rails3.2/app/views/users/edit.html.erb
+test/apps/rails3.2/app/views/users/index.html.erb
+test/apps/rails3.2/app/views/users/new.html.erb
+test/apps/rails3.2/app/views/users/show.html.erb
+test/apps/rails3.2/config.ru
+test/apps/rails3.2/config/application.rb
+test/apps/rails3.2/config/boot.rb
+test/apps/rails3.2/config/database.yml
+test/apps/rails3.2/config/environment.rb
+test/apps/rails3.2/config/environments/development.rb
+test/apps/rails3.2/config/environments/production.rb
+test/apps/rails3.2/config/environments/test.rb
+test/apps/rails3.2/config/initializers/backtrace_silencers.rb
+test/apps/rails3.2/config/initializers/inflections.rb
+test/apps/rails3.2/config/initializers/mime_types.rb
+test/apps/rails3.2/config/initializers/secret_token.rb
+test/apps/rails3.2/config/initializers/session_store.rb
+test/apps/rails3.2/config/initializers/wrap_parameters.rb
+test/apps/rails3.2/config/locales/en.yml
+test/apps/rails3.2/config/routes.rb
+test/apps/rails3.2/script/rails
+test/tests/test_json_compare.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 108 is -> 
+{ 44369a9d390586b71f4b95445890f36503792113 -> d5b149dc0058b3171b642836b0c6fad59b17acae } is a revert
+{ d5b149dc0058b3171b642836b0c6fad59b17acae -> b4ea8490316f884c23b100646c4884150d2c0ceb }
+Partial Revert commits SHA are -> 
+d5b149dc0058b3171b642836b0c6fad59b17acae - revert - b4ea8490316f884c23b100646c4884150d2c0ceb
+---> The reverted commit sha is - d5b149dc0058b3171b642836b0c6fad59b17acae
+Commit message - Merge branch 'improve_test_coverage' of github.com:presidentbeef/brakeman into improve_test_coverage
+
+Conflicts:
+	test/tests/test_differ.rb
+---> The original commit sha is - b4ea8490316f884c23b100646c4884150d2c0ceb
+Commit message - Move diff test helpers to module
+---> The files with partial_reverts are:-
+test/apps/rails3.2/Gemfile
+test/apps/rails3.2/README.rdoc
+test/apps/rails3.2/Rakefile
+test/apps/rails3.2/app/assets/javascripts/application.js
+test/apps/rails3.2/app/assets/javascripts/users.js.coffee
+test/apps/rails3.2/app/assets/stylesheets/application.css
+test/apps/rails3.2/app/assets/stylesheets/scaffolds.css.scss
+test/apps/rails3.2/app/assets/stylesheets/users.css.scss
+test/apps/rails3.2/app/controllers/application_controller.rb
+test/apps/rails3.2/app/controllers/removal_controller.rb
+test/apps/rails3.2/app/controllers/users_controller.rb
+test/apps/rails3.2/app/helpers/application_helper.rb
+test/apps/rails3.2/app/helpers/users_helper.rb
+test/apps/rails3.2/app/models/account.rb
+test/apps/rails3.2/app/models/user.rb
+test/apps/rails3.2/app/views/layouts/application.html.erb
+test/apps/rails3.2/app/views/removal/_partial.html.erb
+test/apps/rails3.2/app/views/removal/controller_removed.html.erb
+test/apps/rails3.2/app/views/users/_form.html.erb
+test/apps/rails3.2/app/views/users/edit.html.erb
+test/apps/rails3.2/app/views/users/index.html.erb
+test/apps/rails3.2/app/views/users/new.html.erb
+test/apps/rails3.2/app/views/users/show.html.erb
+test/apps/rails3.2/config.ru
+test/apps/rails3.2/config/application.rb
+test/apps/rails3.2/config/boot.rb
+test/apps/rails3.2/config/database.yml
+test/apps/rails3.2/config/environment.rb
+test/apps/rails3.2/config/environments/development.rb
+test/apps/rails3.2/config/environments/production.rb
+test/apps/rails3.2/config/environments/test.rb
+test/apps/rails3.2/config/initializers/backtrace_silencers.rb
+test/apps/rails3.2/config/initializers/inflections.rb
+test/apps/rails3.2/config/initializers/mime_types.rb
+test/apps/rails3.2/config/initializers/secret_token.rb
+test/apps/rails3.2/config/initializers/session_store.rb
+test/apps/rails3.2/config/initializers/wrap_parameters.rb
+test/apps/rails3.2/config/locales/en.yml
+test/apps/rails3.2/config/routes.rb
+test/apps/rails3.2/script/rails
+test/test.rb
+test/tests/test_json_compare.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 109 is -> 
+{ 16dd831330ec0cc8e0106f7e1031bbad10b7b899 -> f0bdba2388b9f212a9e5c780bb7bd44eee25916c } is a revert
+{ f0bdba2388b9f212a9e5c780bb7bd44eee25916c -> 44369a9d390586b71f4b95445890f36503792113 }
+Partial Revert commits SHA are -> 
+f0bdba2388b9f212a9e5c780bb7bd44eee25916c - revert - 44369a9d390586b71f4b95445890f36503792113
+---> The reverted commit sha is - f0bdba2388b9f212a9e5c780bb7bd44eee25916c
+Commit message - Add Rails 3.2 test app
+---> The original commit sha is - 44369a9d390586b71f4b95445890f36503792113
+Commit message - Move diff test helpers to module
+---> The files with partial_reverts are:-
+test/apps/rails3.2/Gemfile
+test/apps/rails3.2/README.rdoc
+test/apps/rails3.2/Rakefile
+test/apps/rails3.2/app/assets/javascripts/application.js
+test/apps/rails3.2/app/assets/javascripts/users.js.coffee
+test/apps/rails3.2/app/assets/stylesheets/application.css
+test/apps/rails3.2/app/assets/stylesheets/scaffolds.css.scss
+test/apps/rails3.2/app/assets/stylesheets/users.css.scss
+test/apps/rails3.2/app/controllers/application_controller.rb
+test/apps/rails3.2/app/controllers/removal_controller.rb
+test/apps/rails3.2/app/controllers/users_controller.rb
+test/apps/rails3.2/app/helpers/application_helper.rb
+test/apps/rails3.2/app/helpers/users_helper.rb
+test/apps/rails3.2/app/models/account.rb
+test/apps/rails3.2/app/models/user.rb
+test/apps/rails3.2/app/views/layouts/application.html.erb
+test/apps/rails3.2/app/views/removal/_partial.html.erb
+test/apps/rails3.2/app/views/removal/controller_removed.html.erb
+test/apps/rails3.2/app/views/users/_form.html.erb
+test/apps/rails3.2/app/views/users/edit.html.erb
+test/apps/rails3.2/app/views/users/index.html.erb
+test/apps/rails3.2/app/views/users/new.html.erb
+test/apps/rails3.2/app/views/users/show.html.erb
+test/apps/rails3.2/config.ru
+test/apps/rails3.2/config/application.rb
+test/apps/rails3.2/config/boot.rb
+test/apps/rails3.2/config/database.yml
+test/apps/rails3.2/config/environment.rb
+test/apps/rails3.2/config/environments/development.rb
+test/apps/rails3.2/config/environments/production.rb
+test/apps/rails3.2/config/environments/test.rb
+test/apps/rails3.2/config/initializers/backtrace_silencers.rb
+test/apps/rails3.2/config/initializers/inflections.rb
+test/apps/rails3.2/config/initializers/mime_types.rb
+test/apps/rails3.2/config/initializers/secret_token.rb
+test/apps/rails3.2/config/initializers/session_store.rb
+test/apps/rails3.2/config/initializers/wrap_parameters.rb
+test/apps/rails3.2/config/locales/en.yml
+test/apps/rails3.2/config/routes.rb
+test/apps/rails3.2/script/rails
+test/tests/test_json_compare.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 110 is -> 
+{ 79feac734150b081f31078157eb97267feeff701 -> 811c2778e5194bd729211b85e0dc16535feca9fa } is a revert
+{ 811c2778e5194bd729211b85e0dc16535feca9fa -> 16dd831330ec0cc8e0106f7e1031bbad10b7b899 }
+Partial Revert commits SHA are -> 
+811c2778e5194bd729211b85e0dc16535feca9fa - revert - 16dd831330ec0cc8e0106f7e1031bbad10b7b899
+---> The reverted commit sha is - 811c2778e5194bd729211b85e0dc16535feca9fa
+Commit message - Add basic JSON compare test
+---> The original commit sha is - 16dd831330ec0cc8e0106f7e1031bbad10b7b899
+Commit message - Ignore RubyParser in test coverage
+
+Don't worry about test coverage on code that is essentially external
+---> The files with partial_reverts are:-
+test/tests/test_differ.rb
+test/tests/test_json_compare.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 111 is -> 
+{ cb3f637e825d98f19735c49d2903f36197677152 -> b58081c495447c76ac028bce46c34f0ddbc885fa } is a revert
+{ b58081c495447c76ac028bce46c34f0ddbc885fa -> 79feac734150b081f31078157eb97267feeff701 }
+Partial Revert commits SHA are -> 
+b58081c495447c76ac028bce46c34f0ddbc885fa - revert - 79feac734150b081f31078157eb97267feeff701
+---> The reverted commit sha is - b58081c495447c76ac028bce46c34f0ddbc885fa
+Commit message - Add helpers for rescan testing
+---> The original commit sha is - 79feac734150b081f31078157eb97267feeff701
+Commit message - Add tests for Brakeman::Differ
+---> The files with partial_reverts are:-
+test/test.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 112 is -> 
+{ 817aa9b1bcaa85c9ce2c01c29e0d3acfb580b2ed -> 717a375922495fa8bff88b606b45c1695ed1b4b4 } is a revert
+{ 5004d3ad27ebeec907ce408847c4d69327451ec9 -> cb3f637e825d98f19735c49d2903f36197677152 }
+Partial Revert commits SHA are -> 
+717a375922495fa8bff88b606b45c1695ed1b4b4 - revert - cb3f637e825d98f19735c49d2903f36197677152
+---> The reverted commit sha is - 717a375922495fa8bff88b606b45c1695ed1b4b4
+Commit message - Generalize version number in test
+---> The original commit sha is - cb3f637e825d98f19735c49d2903f36197677152
+Commit message - Run Rails 3.1 tests sequentially
+
+for test coverage
+---> The files with partial_reverts are:-
+test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 113 is -> 
+{ 193e4665c2508e28124d3897ab467665acd72a26 -> c0cedbd129776157a20cd8b78a08e28b94a1cb3f } is a revert
+{ bb913d0d23e3f622dff563d1ccd9614cb03ca5af -> f44af3341759180cdf47488977d76ea71057b4a5 }
+Partial Revert commits SHA are -> 
+c0cedbd129776157a20cd8b78a08e28b94a1cb3f - revert - f44af3341759180cdf47488977d76ea71057b4a5
+---> The reverted commit sha is - c0cedbd129776157a20cd8b78a08e28b94a1cb3f
+Commit message - Remove special cased OutputProcessor#process_call
+
+There should never be the case where the target of a :call Sexp is a
+symbol, it should always be either `nil` or a Sexp. Brakeman should not
+be building invalid Sexps.
+---> The original commit sha is - f44af3341759180cdf47488977d76ea71057b4a5
+Commit message - Merge branch 'output_processor_resilience'
+---> The files with partial_reverts are:-
+test/tests/test_output_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 114 is -> 
+{ 7c60a0116032375916e94f6d82623155226353ac -> a422284209265c0b098423710b323524f1524226 } is a revert
+{ bb913d0d23e3f622dff563d1ccd9614cb03ca5af -> f44af3341759180cdf47488977d76ea71057b4a5 }
+Partial Revert commits SHA are -> 
+a422284209265c0b098423710b323524f1524226 - revert - f44af3341759180cdf47488977d76ea71057b4a5
+---> The reverted commit sha is - a422284209265c0b098423710b323524f1524226
+Commit message - This code is unnecessary and is already handled
+---> The original commit sha is - f44af3341759180cdf47488977d76ea71057b4a5
+Commit message - Merge branch 'output_processor_resilience'
+---> The files with partial_reverts are:-
+lib/brakeman/processors/output_processor.rb
+test/tests/test_output_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 115 is -> 
+{ c0cedbd129776157a20cd8b78a08e28b94a1cb3f -> 7f26b0571a0f66573c1e239353fbbc5821d4e89f } is a revert
+{ a422284209265c0b098423710b323524f1524226 -> 0ed0cd12562fb83697c41764a76e1e8d875a4bf8 }
+Partial Revert commits SHA are -> 
+7f26b0571a0f66573c1e239353fbbc5821d4e89f - revert - 0ed0cd12562fb83697c41764a76e1e8d875a4bf8
+---> The reverted commit sha is - 7f26b0571a0f66573c1e239353fbbc5821d4e89f
+Commit message - #143 Treat models and arrays of models as safe input to redirect_to
+
+This is an enhancement and and a bug fix.  Models use polymorphic routes and should be considered safe as do arrays.  Treat arrays containing things other than models as unsafe as well.
+---> The original commit sha is - 0ed0cd12562fb83697c41764a76e1e8d875a4bf8
+Commit message - Removed is_immediate_model? - not used, not completely accurate
+---> The files with partial_reverts are:-
+lib/brakeman/checks/base_check.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 116 is -> 
+{ 59aaaabe494ce098dec2876a8525505fa8ca918f -> bd3b8d885123c874b28b6de4a37190c16066699a } is a revert
+{ a422284209265c0b098423710b323524f1524226 -> 0ed0cd12562fb83697c41764a76e1e8d875a4bf8 }
+Partial Revert commits SHA are -> 
+bd3b8d885123c874b28b6de4a37190c16066699a - revert - 0ed0cd12562fb83697c41764a76e1e8d875a4bf8
+---> The reverted commit sha is - bd3b8d885123c874b28b6de4a37190c16066699a
+Commit message - Always treat an array as safe from off-host redirects
+---> The original commit sha is - 0ed0cd12562fb83697c41764a76e1e8d875a4bf8
+Commit message - Removed is_immediate_model? - not used, not completely accurate
+---> The files with partial_reverts are:-
+lib/brakeman/checks/base_check.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 117 is -> 
+{ 7c60a0116032375916e94f6d82623155226353ac -> a422284209265c0b098423710b323524f1524226 } is a revert
+{ a422284209265c0b098423710b323524f1524226 -> 0ed0cd12562fb83697c41764a76e1e8d875a4bf8 }
+Partial Revert commits SHA are -> 
+a422284209265c0b098423710b323524f1524226 - revert - 0ed0cd12562fb83697c41764a76e1e8d875a4bf8
+---> The reverted commit sha is - a422284209265c0b098423710b323524f1524226
+Commit message - This code is unnecessary and is already handled
+---> The original commit sha is - 0ed0cd12562fb83697c41764a76e1e8d875a4bf8
+Commit message - Removed is_immediate_model? - not used, not completely accurate
+---> The files with partial_reverts are:-
+lib/brakeman/checks/base_check.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 118 is -> 
+{ c0cedbd129776157a20cd8b78a08e28b94a1cb3f -> 7f26b0571a0f66573c1e239353fbbc5821d4e89f } is a revert
+{ 4d603423248ca6e920865d4d1ff08b79fade3968 -> 59aaaabe494ce098dec2876a8525505fa8ca918f }
+Partial Revert commits SHA are -> 
+7f26b0571a0f66573c1e239353fbbc5821d4e89f - revert - 59aaaabe494ce098dec2876a8525505fa8ca918f
+---> The reverted commit sha is - 7f26b0571a0f66573c1e239353fbbc5821d4e89f
+Commit message - #143 Treat models and arrays of models as safe input to redirect_to
+
+This is an enhancement and and a bug fix.  Models use polymorphic routes and should be considered safe as do arrays.  Treat arrays containing things other than models as unsafe as well.
+---> The original commit sha is - 59aaaabe494ce098dec2876a8525505fa8ca918f
+Commit message - Merge pull request #149 from presidentbeef/no_special_case_for_hamlout
+
+Remove special Sexp nodes from HAML processor
+---> The files with partial_reverts are:-
+lib/brakeman/processors/haml_template_processor.rb
+lib/brakeman/processors/output_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 119 is -> 
+{ fdceaac8929f1a63c2a7de5158cca710b0224cd1 -> fa9da064d7e5e639e51e97c550e41b4353cff4b0 } is a revert
+{ c6d0962c8ca692cd64c42bb3229c0949a487d75d -> ee7d87e681b16cc4bd33d34fd2691641c8fd04ee }
+Partial Revert commits SHA are -> 
+fa9da064d7e5e639e51e97c550e41b4353cff4b0 - revert - ee7d87e681b16cc4bd33d34fd2691641c8fd04ee
+---> The reverted commit sha is - fa9da064d7e5e639e51e97c550e41b4353cff4b0
+Commit message - Treat `super` like a method call
+---> The original commit sha is - ee7d87e681b16cc4bd33d34fd2691641c8fd04ee
+Commit message - Merge branch 'fix_array_indexing_AGAIN'
+---> The files with partial_reverts are:-
+lib/brakeman/processors/alias_processor.rb
+test/tests/test_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 120 is -> 
+{ a4216449d48c802b58f5af1070399de37ea994f5 -> b26c59d2b8ed63521c4d7a2bd9bf537df5229b18 } is a revert
+{ a0a7d97829da7b30f79772ec6c78589b21b7274d -> 5d4c1f19519a70e599f6861a26aea55fdfa1a5f3 }
+Partial Revert commits SHA are -> 
+b26c59d2b8ed63521c4d7a2bd9bf537df5229b18 - revert - 5d4c1f19519a70e599f6861a26aea55fdfa1a5f3
+---> The reverted commit sha is - b26c59d2b8ed63521c4d7a2bd9bf537df5229b18
+Commit message - Add test for XSS in `content_tag` tag name
+
+Also commit Rails 3 test file which I forgot, oops
+---> The original commit sha is - 5d4c1f19519a70e599f6861a26aea55fdfa1a5f3
+Commit message - Merge branch 'add_content_tag_check'
+
+Conflicts:
+	test/apps/rails3/app/controllers/home_controller.rb
+	test/tests/test_rails3.rb
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_redirect.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 121 is -> 
+{ 6d082467d2352eb1f729b80045f4cd7911e905b2 -> a0a7d97829da7b30f79772ec6c78589b21b7274d } is a revert
+{ a0a7d97829da7b30f79772ec6c78589b21b7274d -> 5d4c1f19519a70e599f6861a26aea55fdfa1a5f3 }
+Partial Revert commits SHA are -> 
+a0a7d97829da7b30f79772ec6c78589b21b7274d - revert - 5d4c1f19519a70e599f6861a26aea55fdfa1a5f3
+---> The reverted commit sha is - a0a7d97829da7b30f79772ec6c78589b21b7274d
+Commit message - Merge branch 'master' into add_content_tag_check
+
+Conflicts:
+	test/apps/rails2/app/controllers/home_controller.rb
+	test/tests/test_rails2.rb
+---> The original commit sha is - 5d4c1f19519a70e599f6861a26aea55fdfa1a5f3
+Commit message - Merge branch 'add_content_tag_check'
+
+Conflicts:
+	test/apps/rails3/app/controllers/home_controller.rb
+	test/tests/test_rails3.rb
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_redirect.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 122 is -> 
+{ b26c59d2b8ed63521c4d7a2bd9bf537df5229b18 -> 6d082467d2352eb1f729b80045f4cd7911e905b2 } is a revert
+{ 6d082467d2352eb1f729b80045f4cd7911e905b2 -> a0a7d97829da7b30f79772ec6c78589b21b7274d }
+Partial Revert commits SHA are -> 
+6d082467d2352eb1f729b80045f4cd7911e905b2 - revert - a0a7d97829da7b30f79772ec6c78589b21b7274d
+---> The reverted commit sha is - 6d082467d2352eb1f729b80045f4cd7911e905b2
+Commit message - Merge pull request #139 from presidentbeef/fix_redirect_false_negative
+
+Fix `redirect_to` false negative with only_path
+---> The original commit sha is - a0a7d97829da7b30f79772ec6c78589b21b7274d
+Commit message - Merge branch 'master' into add_content_tag_check
+
+Conflicts:
+	test/apps/rails2/app/controllers/home_controller.rb
+	test/tests/test_rails2.rb
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_content_tag.rb
+lib/brakeman/checks/check_redirect.rb
+test/apps/rails2/app/views/home/test_content_tag.html.erb
+test/apps/rails3/app/controllers/home_controller.rb
+test/apps/rails3/app/views/home/test_content_tag.html.erb
+test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 123 is -> 
+{ 2fd19759092d8589f6028c33b1f9d39fdcd737e4 -> 3259ef1b744e547d9e6c262043c245902408aba3 } is a revert
+{ 119a5864488013b8937865d0ffee17ba33ce095f -> 5a0eb5281248cf140177af3605f029958ce55d76 }
+Partial Revert commits SHA are -> 
+3259ef1b744e547d9e6c262043c245902408aba3 - revert - 5a0eb5281248cf140177af3605f029958ce55d76
+---> The reverted commit sha is - 3259ef1b744e547d9e6c262043c245902408aba3
+Commit message - Code quality cleanup
+---> The original commit sha is - 5a0eb5281248cf140177af3605f029958ce55d76
+Commit message - Merge pull request #137 from presidentbeef/relative_paths_for_reports
+
+Relative paths for reports
+---> The files with partial_reverts are:-
+lib/brakeman.rb
+lib/brakeman/options.rb
+lib/brakeman/report.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 124 is -> 
+{ 902f27d689ee673354c90804232392d4f0b8a0e3 -> 8bcd124044d472347b3e4dc15633b00f7ad8519d } is a revert
+{ 3259ef1b744e547d9e6c262043c245902408aba3 -> 119a5864488013b8937865d0ffee17ba33ce095f }
+Partial Revert commits SHA are -> 
+8bcd124044d472347b3e4dc15633b00f7ad8519d - revert - 119a5864488013b8937865d0ffee17ba33ce095f
+---> The reverted commit sha is - 8bcd124044d472347b3e4dc15633b00f7ad8519d
+Commit message - Add warnings to unescaped use of to_json
+
+Set ActiveSupport.escape_html_entities_in_json=true in versions >= 2.1.0 for autoescaping on a to_json call.
+---> The original commit sha is - 119a5864488013b8937865d0ffee17ba33ce095f
+Commit message - Merge pull request #136 from oreoshake/warn_on_to_json
+
+High confidence warnings on `to_json`
+---> The files with partial_reverts are:-
+bin/brakeman
+-----------------------------------------------------------------
+
+Partial Revert diff pair 125 is -> 
+{ 2fd19759092d8589f6028c33b1f9d39fdcd737e4 -> 3259ef1b744e547d9e6c262043c245902408aba3 } is a revert
+{ 3259ef1b744e547d9e6c262043c245902408aba3 -> 119a5864488013b8937865d0ffee17ba33ce095f }
+Partial Revert commits SHA are -> 
+3259ef1b744e547d9e6c262043c245902408aba3 - revert - 119a5864488013b8937865d0ffee17ba33ce095f
+---> The reverted commit sha is - 3259ef1b744e547d9e6c262043c245902408aba3
+Commit message - Code quality cleanup
+---> The original commit sha is - 119a5864488013b8937865d0ffee17ba33ce095f
+Commit message - Merge pull request #136 from oreoshake/warn_on_to_json
+
+High confidence warnings on `to_json`
+---> The files with partial_reverts are:-
+bin/brakeman
+-----------------------------------------------------------------
+
+Partial Revert diff pair 126 is -> 
+{ 902f27d689ee673354c90804232392d4f0b8a0e3 -> 8bcd124044d472347b3e4dc15633b00f7ad8519d } is a revert
+{ a4fc0bbd7bd7293317be860371979426bbf3eae1 -> 5650aae1ecee62a6953456b3c5a655703c9380fb }
+Partial Revert commits SHA are -> 
+8bcd124044d472347b3e4dc15633b00f7ad8519d - revert - 5650aae1ecee62a6953456b3c5a655703c9380fb
+---> The reverted commit sha is - 8bcd124044d472347b3e4dc15633b00f7ad8519d
+Commit message - Add warnings to unescaped use of to_json
+
+Set ActiveSupport.escape_html_entities_in_json=true in versions >= 2.1.0 for autoescaping on a to_json call.
+---> The original commit sha is - 5650aae1ecee62a6953456b3c5a655703c9380fb
+Commit message - Merge remote-tracking branch 'fsword/master' into relative_paths_for_reports
+---> The files with partial_reverts are:-
+lib/brakeman.rb
+lib/brakeman/options.rb
+lib/brakeman/report.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 127 is -> 
+{ 7504b9533c7771db834c34b9e1cc4fabe5767da4 -> 5f07167fbbec2b039b2e075bfce2e322c86392aa } is a revert
+{ b83b30ac8e9760ec14ae4cf8aa28ae2dfbbf212c -> eea49009f0fc4084f7f22b14c75537e8d7c342bc }
+Partial Revert commits SHA are -> 
+5f07167fbbec2b039b2e075bfce2e322c86392aa - revert - eea49009f0fc4084f7f22b14c75537e8d7c342bc
+---> The reverted commit sha is - 5f07167fbbec2b039b2e075bfce2e322c86392aa
+Commit message - Add Sexp#resbody for RubyParser
+---> The original commit sha is - eea49009f0fc4084f7f22b14c75537e8d7c342bc
+Commit message - Merge pull request #127 from presidentbeef/better_error_visibility
+
+A little bit better error visibility
+---> The files with partial_reverts are:-
+lib/brakeman/templates/error_overview.html.erb
+lib/brakeman/tracker.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 128 is -> 
+{ 5aba3b967270db6d132e59ef31f5e7c4514a4c3f -> e24d3ddcf24ea9a8a18e2b5fac7ec5f9a0b72ce8 } is a revert
+{ faa2a946b983500be3c7d4e5d2c49ee12c176522 -> 94580decc87ca5255ab22d5a3a397f1c22ac6d9f }
+Partial Revert commits SHA are -> 
+e24d3ddcf24ea9a8a18e2b5fac7ec5f9a0b72ce8 - revert - 94580decc87ca5255ab22d5a3a397f1c22ac6d9f
+---> The reverted commit sha is - e24d3ddcf24ea9a8a18e2b5fac7ec5f9a0b72ce8
+Commit message - Add tests for CVE_2012_3464 (strip_tags)
+---> The original commit sha is - 94580decc87ca5255ab22d5a3a397f1c22ac6d9f
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 129 is -> 
+{ 98150f4888f2d27271e1d7000ad904c30b655e45 -> a2fdd0fcc14688e02198e6a015169f0225490a11 } is a revert
+{ cc66c44c44818b5cc503c8b2c98fed7f904f59a8 -> faa2a946b983500be3c7d4e5d2c49ee12c176522 }
+Partial Revert commits SHA are -> 
+a2fdd0fcc14688e02198e6a015169f0225490a11 - revert - faa2a946b983500be3c7d4e5d2c49ee12c176522
+---> The reverted commit sha is - a2fdd0fcc14688e02198e6a015169f0225490a11
+Commit message - Merge branch 'strip_tags_CVE_2012_3465'
+
+Add check for CVE-2012-3465
+
+Conflicts:
+	test/tests/test_rails3.rb
+---> The original commit sha is - faa2a946b983500be3c7d4e5d2c49ee12c176522
+Commit message - Merge branch 'single_quotes_cve_2012_3464'
+
+Conflicts:
+	test/tests/test_rails2.rb
+	test/tests/test_rails3.rb
+	test/tests/test_rails31.rb
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_single_quotes.rb
+test/apps/rails_with_xss_plugin/config/initializers/single_quote_workaround.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 130 is -> 
+{ cb5af89cf98f68799512fc61623e069696ae4de4 -> 6a5f9cb0362e8eb823e909e90f71768081ee2b77 } is a revert
+{ cf908be317a29a52ce9f870eccf5b1a0adc16a0f -> 57c2672c4a09c1ecdc92f519722be41e25de53bc }
+Partial Revert commits SHA are -> 
+6a5f9cb0362e8eb823e909e90f71768081ee2b77 - revert - 57c2672c4a09c1ecdc92f519722be41e25de53bc
+---> The reverted commit sha is - 6a5f9cb0362e8eb823e909e90f71768081ee2b77
+Commit message - Continue processing class when error on parent
+
+Don't bail out on processing a class if an error is raised when
+determining the parent class name.
+---> The original commit sha is - 57c2672c4a09c1ecdc92f519722be41e25de53bc
+Commit message - Merge pull request #116 from presidentbeef/improve_rails3_route_processing
+
+Improve Rails 3 route processing
+---> The files with partial_reverts are:-
+lib/brakeman/processors/lib/rails3_route_processor.rb
+lib/brakeman/processors/lib/route_helper.rb
+test/apps/rails3.1/app/controllers/other_controller.rb
+test/apps/rails3.1/app/views/other/a.html.erb
+test/apps/rails3.1/app/views/other/b.html.erb
+test/apps/rails3.1/app/views/other/c.html.erb
+test/apps/rails3.1/app/views/other/d.html.erb
+test/apps/rails3.1/app/views/other/e.html.erb
+test/apps/rails3.1/app/views/other/f.html.erb
+test/apps/rails3.1/app/views/other/g.html.erb
+test/apps/rails3.1/config/routes.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 131 is -> 
+{ 29a135f8e938f4976894114b1001dfdc36e131fb -> 2d89fc350f1aa5f254461bcb6dbbe050f548f97f } is a revert
+{ 4c417196d3235ca012d10cf5087f7e4ca7490168 -> 8f712e95a8fa92d3f1d6059dfe4b702f384d43b1 }
+Partial Revert commits SHA are -> 
+2d89fc350f1aa5f254461bcb6dbbe050f548f97f - revert - 8f712e95a8fa92d3f1d6059dfe4b702f384d43b1
+---> The reverted commit sha is - 2d89fc350f1aa5f254461bcb6dbbe050f548f97f
+Commit message - Report warnings raised while running checks
+---> The original commit sha is - 8f712e95a8fa92d3f1d6059dfe4b702f384d43b1
+Commit message - Merge branch 'fix_empty_char_class_error'
+---> The files with partial_reverts are:-
+lib/brakeman/processors/lib/render_helper.rb
+test/apps/rails3/app/controllers/home_controller.rb
+test/apps/rails3/app/views/home/test_render.html.erb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 132 is -> 
+{ cac6ae2cffd625aa4974c493ce6358e45f3c0cfb -> ae0c51ed2b3508b496f6494e15dcbb8041dd484b } is a revert
+{ 2d89fc350f1aa5f254461bcb6dbbe050f548f97f -> 29f22580cbf9da0ff44b73d4e76d206c01fefe8f }
+Partial Revert commits SHA are -> 
+ae0c51ed2b3508b496f6494e15dcbb8041dd484b - revert - 29f22580cbf9da0ff44b73d4e76d206c01fefe8f
+---> The reverted commit sha is - ae0c51ed2b3508b496f6494e15dcbb8041dd484b
+Commit message - Add test for "empty char-class" error
+
+This error sometimes comes up when processsing a render
+in a template, because the "name" of the template to render
+is interpolated into a regex. If the "name" is actually a
+method call or other code, then the regex comes out strange.
+---> The original commit sha is - 29f22580cbf9da0ff44b73d4e76d206c01fefe8f
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_file_access.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 133 is -> 
+{ 80769a50b297bd8e74f55d7f73dbee03da470e40 -> 197d90c96784c8347899fa4b826d1fbac0b1144a } is a revert
+{ 852bc7b2cbb34c0b9ac7bc276bbb0d0d91fb15d8 -> 7374d66a6b3942f438ed818d1206f9b02498d263 }
+Partial Revert commits SHA are -> 
+197d90c96784c8347899fa4b826d1fbac0b1144a - revert - 7374d66a6b3942f438ed818d1206f9b02498d263
+---> The reverted commit sha is - 197d90c96784c8347899fa4b826d1fbac0b1144a
+Commit message - Remove ParamsProcessor - never used it
+
+I think we can remove a file marked as "unused" since 2010.
+---> The original commit sha is - 7374d66a6b3942f438ed818d1206f9b02498d263
+Commit message - Merge 'do_not_warn_on_redirects_to_model_instances'
+
+Conflicts:
+	test/tests/test_rails3.rb
+---> The files with partial_reverts are:-
+test/tests/test_rails3.rb
+test/tests/test_rails_with_xss_plugin.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 134 is -> 
+{ 5bbe6c8582d91d3b8cf35103ed2890d8415ebff8 -> 1f58c53942dee08370dfd220ab6827a1c3eb2b22 } is a revert
+{ 852bc7b2cbb34c0b9ac7bc276bbb0d0d91fb15d8 -> 7374d66a6b3942f438ed818d1206f9b02498d263 }
+Partial Revert commits SHA are -> 
+1f58c53942dee08370dfd220ab6827a1c3eb2b22 - revert - 7374d66a6b3942f438ed818d1206f9b02498d263
+---> The reverted commit sha is - 1f58c53942dee08370dfd220ab6827a1c3eb2b22
+Commit message - Added check to address CVE-2012-2661
+---> The original commit sha is - 7374d66a6b3942f438ed818d1206f9b02498d263
+Commit message - Merge 'do_not_warn_on_redirects_to_model_instances'
+
+Conflicts:
+	test/tests/test_rails3.rb
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_redirect.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/tests/test_rails_with_xss_plugin.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 135 is -> 
+{ 80769a50b297bd8e74f55d7f73dbee03da470e40 -> 197d90c96784c8347899fa4b826d1fbac0b1144a } is a revert
+{ 197d90c96784c8347899fa4b826d1fbac0b1144a -> 076c2821dfdd5d25875d62c22da8f51320133c6a }
+Partial Revert commits SHA are -> 
+197d90c96784c8347899fa4b826d1fbac0b1144a - revert - 076c2821dfdd5d25875d62c22da8f51320133c6a
+---> The reverted commit sha is - 197d90c96784c8347899fa4b826d1fbac0b1144a
+Commit message - Remove ParamsProcessor - never used it
+
+I think we can remove a file marked as "unused" since 2010.
+---> The original commit sha is - 076c2821dfdd5d25875d62c22da8f51320133c6a
+Commit message - Add test for redirecting to Model.find_by_*
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_redirect.rb
+lib/brakeman/processors/params_processor.rb
+test/tests/test_rails3.rb
+test/tests/test_rails_with_xss_plugin.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 136 is -> 
+{ bd1d9250166ef8854c5234b7ad4efd39fcf7d5e9 -> d57bbd9ef910b67bcc03565193d569252dd2ff21 } is a revert
+{ 27afa22ef0f8174407e56b35011b8c147add96e0 -> 1b5562a4d8633d0e742899dd0f9f9b618ad0f6ef }
+Partial Revert commits SHA are -> 
+d57bbd9ef910b67bcc03565193d569252dd2ff21 - revert - 1b5562a4d8633d0e742899dd0f9f9b618ad0f6ef
+---> The reverted commit sha is - d57bbd9ef910b67bcc03565193d569252dd2ff21
+Commit message - Merge branch 'master' into simple_helper_scanning
+
+Conflicts:
+	test/apps/rails3.1/app/controllers/users_controller.rb
+	test/apps/rails3.1/config/routes.rb
+---> The original commit sha is - 1b5562a4d8633d0e742899dd0f9f9b618ad0f6ef
+Commit message - Merge branch 'prefer_user_input_line'
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_basic_auth.rb
+lib/brakeman/checks/check_cross_site_scripting.rb
+lib/brakeman/checks/check_execute.rb
+lib/brakeman/checks/check_file_access.rb
+lib/brakeman/checks/check_mass_assignment.rb
+lib/brakeman/checks/check_redirect.rb
+lib/brakeman/checks/check_skip_before_filter.rb
+lib/brakeman/checks/check_without_protection.rb
+lib/brakeman/warning.rb
+test/tests/test_rails2.rb
+test/tests/test_rails3.rb
+test/tests/test_rails_with_xss_plugin.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 137 is -> 
+{ f115334cdff6cc817504e0aa16ab8724b0f3b05a -> 27afa22ef0f8174407e56b35011b8c147add96e0 } is a revert
+{ 27afa22ef0f8174407e56b35011b8c147add96e0 -> 1b5562a4d8633d0e742899dd0f9f9b618ad0f6ef }
+Partial Revert commits SHA are -> 
+27afa22ef0f8174407e56b35011b8c147add96e0 - revert - 1b5562a4d8633d0e742899dd0f9f9b618ad0f6ef
+---> The reverted commit sha is - 27afa22ef0f8174407e56b35011b8c147add96e0
+Commit message - Merge branch 'improve_sql_injection_check'
+---> The original commit sha is - 1b5562a4d8633d0e742899dd0f9f9b618ad0f6ef
+Commit message - Merge branch 'prefer_user_input_line'
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_basic_auth.rb
+lib/brakeman/checks/check_cross_site_scripting.rb
+lib/brakeman/checks/check_execute.rb
+lib/brakeman/checks/check_file_access.rb
+lib/brakeman/checks/check_mass_assignment.rb
+lib/brakeman/checks/check_redirect.rb
+lib/brakeman/checks/check_skip_before_filter.rb
+lib/brakeman/checks/check_without_protection.rb
+lib/brakeman/warning.rb
+test/tests/test_rails3.rb
+test/tests/test_rails_with_xss_plugin.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 138 is -> 
+{ e72b68cbf2b5d3d883b89b4e4ab5ddde1993855d -> d0fbd7918f8c0cb9087c46a99b0d92dd0d899771 } is a revert
+{ b334d35f8c06882776c2e25171d77e63e39544eb -> a2b5e339cc742eeec0d1698cb1c2387a84de277d }
+Partial Revert commits SHA are -> 
+d0fbd7918f8c0cb9087c46a99b0d92dd0d899771 - revert - a2b5e339cc742eeec0d1698cb1c2387a84de277d
+---> The reverted commit sha is - d0fbd7918f8c0cb9087c46a99b0d92dd0d899771
+Commit message - Improved CheckSQL - passing all tests
+
+but still a little ways to go
+---> The original commit sha is - a2b5e339cc742eeec0d1698cb1c2387a84de277d
+Commit message - Merge branch 'process_controller_mixins'
+---> The files with partial_reverts are:-
+lib/brakeman/processor.rb
+lib/brakeman/processors/controller_alias_processor.rb
+lib/brakeman/util.rb
+test/apps/rails3.1/app/controllers/mixins/user_mixin.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/apps/rails3.1/app/views/users/mixin_default.html.erb
+test/apps/rails3.1/app/views/users/mixin_template.html.erb
+test/apps/rails3.1/config/routes.rb
+test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 139 is -> 
+{ c2b1a9279728767c85fac5a669ab0b412169ee18 -> 6653d0d6dd3b16e8743fbe1a755d8635ecac866b } is a revert
+{ 6653d0d6dd3b16e8743fbe1a755d8635ecac866b -> 7da754639efb151b441d20669a2d1b5c8ec42b74 }
+Partial Revert commits SHA are -> 
+6653d0d6dd3b16e8743fbe1a755d8635ecac866b - revert - 7da754639efb151b441d20669a2d1b5c8ec42b74
+---> The reverted commit sha is - 6653d0d6dd3b16e8743fbe1a755d8635ecac866b
+Commit message - Merge pull request #77 from oreoshake/update_json_output
+
+Update json output and add comparison feature for json
+---> The original commit sha is - 7da754639efb151b441d20669a2d1b5c8ec42b74
+Commit message - Merge pull request #84 from oreoshake/fix_gemspec
+
+Include all of lib in the gem
+---> The files with partial_reverts are:-
+brakeman.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 140 is -> 
+{ 6ac8c7cbe2652925a8bbaf63d5907b4c5a4a06e8 -> cd22bb3b051b7bab67a3ccac39a4225e72e001a8 } is a revert
+{ 1d93763cc2ad5b984eb8c633f8e7bb5bb78db853 -> 0ead3e3f71a67481dca7b8f76df58992aa92af4f }
+Partial Revert commits SHA are -> 
+cd22bb3b051b7bab67a3ccac39a4225e72e001a8 - revert - 0ead3e3f71a67481dca7b8f76df58992aa92af4f
+---> The reverted commit sha is - cd22bb3b051b7bab67a3ccac39a4225e72e001a8
+Commit message - Nicer error message on option parsing failures
+---> The original commit sha is - 0ead3e3f71a67481dca7b8f76df58992aa92af4f
+Commit message - Merge pull request #76 from presidentbeef/fix_rescanning_of_deleted_files
+
+Fix rescanning of deleted files
+---> The files with partial_reverts are:-
+lib/brakeman/rescanner.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 141 is -> 
+{ 85e521698022194fd6b64519e2c4d65aaf1169f4 -> 8955d597a90d894d0fc6b7cfc3ddcf8679085962 } is a revert
+{ 73b9d2bb92264c599ada680553ce47506ab366ba -> 1d93763cc2ad5b984eb8c633f8e7bb5bb78db853 }
+Partial Revert commits SHA are -> 
+8955d597a90d894d0fc6b7cfc3ddcf8679085962 - revert - 1d93763cc2ad5b984eb8c633f8e7bb5bb78db853
+---> The reverted commit sha is - 8955d597a90d894d0fc6b7cfc3ddcf8679085962
+Commit message - Only change Sexp#hash on Sexp#line when line given
+
+Sexp#line can be used to retrieve or set the line number. No need to
+invalidate the hash cache if line is not being set.
+---> The original commit sha is - 1d93763cc2ad5b984eb8c633f8e7bb5bb78db853
+Commit message - Merge pull request #83 from daveworth/nowarn_update_attributes
+
+Stop alerting for Mass Assignment on `#update_attribute`
+---> The files with partial_reverts are:-
+lib/brakeman/processors/erb_template_processor.rb
+lib/brakeman/processors/erubis_template_processor.rb
+lib/brakeman/processors/haml_template_processor.rb
+lib/brakeman/processors/lib/render_helper.rb
+test/tests/test_rails_with_xss_plugin.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 142 is -> 
+{ 2f37934b734b7313e01e71e1e89129210808f0f5 -> de26af6f175a6514d0ca92e8313eb8cd746b2284 } is a revert
+{ c6136f1078fe7becf928a1503938a885f0c09c7b -> 25e05d22bab26a244eb3f72fde162ee83459266d }
+Partial Revert commits SHA are -> 
+de26af6f175a6514d0ca92e8313eb8cd746b2284 - revert - 25e05d22bab26a244eb3f72fde162ee83459266d
+---> The reverted commit sha is - de26af6f175a6514d0ca92e8313eb8cd746b2284
+Commit message - Use Util#hash_access instead of Util#hash_iterate
+
+where it makes sense
+---> The original commit sha is - 25e05d22bab26a244eb3f72fde162ee83459266d
+Commit message - Mass assignments were being clobbered, make api use consistent
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_mass_assignment.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 143 is -> 
+{ 5c0d1a94b05ea641992554249302b7408b0c0d3f -> cfee33916deb22f2f8a0b45d3505c142e25d305d } is a revert
+{ 940cb65c166a83010b7cd17cb17815c0aaaf25c5 -> 4e1084ba71b6e14d6f2239583a28390109929e6e }
+Partial Revert commits SHA are -> 
+cfee33916deb22f2f8a0b45d3505c142e25d305d - revert - 4e1084ba71b6e14d6f2239583a28390109929e6e
+---> The reverted commit sha is - cfee33916deb22f2f8a0b45d3505c142e25d305d
+Commit message - Mass assignments were being clobbered, make api use consistent
+---> The original commit sha is - 4e1084ba71b6e14d6f2239583a28390109929e6e
+Commit message - Improve Util#hash_access
+---> The files with partial_reverts are:-
+lib/brakeman/util.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 144 is -> 
+{ 85e521698022194fd6b64519e2c4d65aaf1169f4 -> 8955d597a90d894d0fc6b7cfc3ddcf8679085962 } is a revert
+{ 940cb65c166a83010b7cd17cb17815c0aaaf25c5 -> 4e1084ba71b6e14d6f2239583a28390109929e6e }
+Partial Revert commits SHA are -> 
+8955d597a90d894d0fc6b7cfc3ddcf8679085962 - revert - 4e1084ba71b6e14d6f2239583a28390109929e6e
+---> The reverted commit sha is - 8955d597a90d894d0fc6b7cfc3ddcf8679085962
+Commit message - Only change Sexp#hash on Sexp#line when line given
+
+Sexp#line can be used to retrieve or set the line number. No need to
+invalidate the hash cache if line is not being set.
+---> The original commit sha is - 4e1084ba71b6e14d6f2239583a28390109929e6e
+Commit message - Improve Util#hash_access
+---> The files with partial_reverts are:-
+lib/brakeman/util.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 145 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ a9f85aca54201cdc9798ac15cc6223f4a1c6ede0 -> ceab657be5739c826d092e59dc11021fb3112aaa }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - ceab657be5739c826d092e59dc11021fb3112aaa
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - ceab657be5739c826d092e59dc11021fb3112aaa
+Commit message - Only check Model#find and #find_by_sql, not find.*
+
+fixes #78
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_sql.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 146 is -> 
+{ 4b935a7a0f711003bd787c902ad29302d51af0bb -> d89ba93b925f909b0aef96ea6f69ca68e7ac1676 } is a revert
+{ a9f85aca54201cdc9798ac15cc6223f4a1c6ede0 -> ceab657be5739c826d092e59dc11021fb3112aaa }
+Partial Revert commits SHA are -> 
+d89ba93b925f909b0aef96ea6f69ca68e7ac1676 - revert - ceab657be5739c826d092e59dc11021fb3112aaa
+---> The reverted commit sha is - d89ba93b925f909b0aef96ea6f69ca68e7ac1676
+Commit message - Add test for redirect_to :only_path => true
+
+check already exists, but no tests for it
+---> The original commit sha is - ceab657be5739c826d092e59dc11021fb3112aaa
+Commit message - Only check Model#find and #find_by_sql, not find.*
+
+fixes #78
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_sql.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 147 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ 8955d597a90d894d0fc6b7cfc3ddcf8679085962 -> a9f85aca54201cdc9798ac15cc6223f4a1c6ede0 }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+Commit message - Add test for Model#find_by_*
+---> The files with partial_reverts are:-
+test/apps/rails2/app/controllers/home_controller.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 148 is -> 
+{ 4b935a7a0f711003bd787c902ad29302d51af0bb -> d89ba93b925f909b0aef96ea6f69ca68e7ac1676 } is a revert
+{ 8955d597a90d894d0fc6b7cfc3ddcf8679085962 -> a9f85aca54201cdc9798ac15cc6223f4a1c6ede0 }
+Partial Revert commits SHA are -> 
+d89ba93b925f909b0aef96ea6f69ca68e7ac1676 - revert - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+---> The reverted commit sha is - d89ba93b925f909b0aef96ea6f69ca68e7ac1676
+Commit message - Add test for redirect_to :only_path => true
+
+check already exists, but no tests for it
+---> The original commit sha is - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+Commit message - Add test for Model#find_by_*
+---> The files with partial_reverts are:-
+test/apps/rails2/app/controllers/home_controller.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 149 is -> 
+{ 2f37934b734b7313e01e71e1e89129210808f0f5 -> de26af6f175a6514d0ca92e8313eb8cd746b2284 } is a revert
+{ 8955d597a90d894d0fc6b7cfc3ddcf8679085962 -> a9f85aca54201cdc9798ac15cc6223f4a1c6ede0 }
+Partial Revert commits SHA are -> 
+de26af6f175a6514d0ca92e8313eb8cd746b2284 - revert - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+---> The reverted commit sha is - de26af6f175a6514d0ca92e8313eb8cd746b2284
+Commit message - Use Util#hash_access instead of Util#hash_iterate
+
+where it makes sense
+---> The original commit sha is - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+Commit message - Add test for Model#find_by_*
+---> The files with partial_reverts are:-
+test/apps/rails2/app/controllers/home_controller.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 150 is -> 
+{ 85e521698022194fd6b64519e2c4d65aaf1169f4 -> 8955d597a90d894d0fc6b7cfc3ddcf8679085962 } is a revert
+{ 8955d597a90d894d0fc6b7cfc3ddcf8679085962 -> a9f85aca54201cdc9798ac15cc6223f4a1c6ede0 }
+Partial Revert commits SHA are -> 
+8955d597a90d894d0fc6b7cfc3ddcf8679085962 - revert - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+---> The reverted commit sha is - 8955d597a90d894d0fc6b7cfc3ddcf8679085962
+Commit message - Only change Sexp#hash on Sexp#line when line given
+
+Sexp#line can be used to retrieve or set the line number. No need to
+invalidate the hash cache if line is not being set.
+---> The original commit sha is - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+Commit message - Add test for Model#find_by_*
+---> The files with partial_reverts are:-
+test/apps/rails2/app/controllers/home_controller.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 151 is -> 
+{ 2f37934b734b7313e01e71e1e89129210808f0f5 -> de26af6f175a6514d0ca92e8313eb8cd746b2284 } is a revert
+{ de26af6f175a6514d0ca92e8313eb8cd746b2284 -> d08250b009f58933667d3c72465a66979e2396d1 }
+Partial Revert commits SHA are -> 
+de26af6f175a6514d0ca92e8313eb8cd746b2284 - revert - d08250b009f58933667d3c72465a66979e2396d1
+---> The reverted commit sha is - de26af6f175a6514d0ca92e8313eb8cd746b2284
+Commit message - Use Util#hash_access instead of Util#hash_iterate
+
+where it makes sense
+---> The original commit sha is - d08250b009f58933667d3c72465a66979e2396d1
+Commit message - Merge remote-tracking branch 'oreoshake/mass_ass_clobbering' into fix_mass_assignment_dupes_in_views
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_mass_assignment.rb
+test/apps/rails2/app/controllers/home_controller.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 152 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ 41d15a26af002d7a7477c1844796e445a6b4335d -> 4b935a7a0f711003bd787c902ad29302d51af0bb }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - 4b935a7a0f711003bd787c902ad29302d51af0bb
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - 4b935a7a0f711003bd787c902ad29302d51af0bb
+Commit message - Merge pull request #79 from presidentbeef/dont_check_find_by_methods_for_sql
+
+Don't check find_by_* methods for sql
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_sql.rb
+test/apps/rails2/app/controllers/home_controller.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 153 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ a09ff2552529c8e235bce92d734cb782adac767d -> 8cf76a23f40a274a4d9b4e8ad5274297e2043994 }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - 8cf76a23f40a274a4d9b4e8ad5274297e2043994
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - 8cf76a23f40a274a4d9b4e8ad5274297e2043994
+Commit message - Store whole methods from libraries, not just bodies
+---> The files with partial_reverts are:-
+lib/brakeman/processors/library_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 154 is -> 
+{ 71468ce5d00b5138c95d023de3684eb058f258ea -> caa335ef346449e80b0d0b723c125a74ff32ee36 } is a revert
+{ 85f73d45062ef75f691f6aced40ac99bf62d5c46 -> 6db0ee9046c3af684de0715629a744c5c44717fa }
+Partial Revert commits SHA are -> 
+caa335ef346449e80b0d0b723c125a74ff32ee36 - revert - 6db0ee9046c3af684de0715629a744c5c44717fa
+---> The reverted commit sha is - caa335ef346449e80b0d0b723c125a74ff32ee36
+Commit message - Add tests for scanning helper methods
+---> The original commit sha is - 6db0ee9046c3af684de0715629a744c5c44717fa
+Commit message - Set dependency on RubyParser 2.3.1
+
+because the next RubyParser release is going to break a LOT of stuff.
+---> The files with partial_reverts are:-
+brakeman.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 155 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ 85f73d45062ef75f691f6aced40ac99bf62d5c46 -> 6db0ee9046c3af684de0715629a744c5c44717fa }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - 6db0ee9046c3af684de0715629a744c5c44717fa
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - 6db0ee9046c3af684de0715629a744c5c44717fa
+Commit message - Set dependency on RubyParser 2.3.1
+
+because the next RubyParser release is going to break a LOT of stuff.
+---> The files with partial_reverts are:-
+brakeman.gemspec
+-----------------------------------------------------------------
+
+Partial Revert diff pair 156 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ 044e4c8bea50f1efd0c56ab861a5302ac5aba7ce -> a96f67728817873934725bd7645b0585abe17d18 }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - a96f67728817873934725bd7645b0585abe17d18
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - a96f67728817873934725bd7645b0585abe17d18
+Commit message - Nicer error message on option parsing failures
+---> The files with partial_reverts are:-
+bin/brakeman
+-----------------------------------------------------------------
+
+Partial Revert diff pair 157 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184 -> 044e4c8bea50f1efd0c56ab861a5302ac5aba7ce }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - 044e4c8bea50f1efd0c56ab861a5302ac5aba7ce
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - 044e4c8bea50f1efd0c56ab861a5302ac5aba7ce
+Commit message - Call Processor#process_controller_alias properly
+---> The files with partial_reverts are:-
+lib/brakeman/rescanner.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 158 is -> 
+{ 6bf54b47cb0ef106a9b8d808557b621c946f7757 -> 658ddf4cc9836b182fd166f4a9dcb72d274a92e5 } is a revert
+{ 29dfb5f87d1671afa6ab9fc350a93008bbf7420b -> d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184 }
+Partial Revert commits SHA are -> 
+658ddf4cc9836b182fd166f4a9dcb72d274a92e5 - revert - d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184
+---> The reverted commit sha is - 658ddf4cc9836b182fd166f4a9dcb72d274a92e5
+Commit message - Call Processor#process_controller_alias properly
+---> The original commit sha is - d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184
+Commit message - Add line number to warning.to_hash
+---> The files with partial_reverts are:-
+lib/brakeman/warning.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 159 is -> 
+{ 5c0e33e6d277356a155631aace4c74db87074f8a -> 6ac8c7cbe2652925a8bbaf63d5907b4c5a4a06e8 } is a revert
+{ 29dfb5f87d1671afa6ab9fc350a93008bbf7420b -> d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184 }
+Partial Revert commits SHA are -> 
+6ac8c7cbe2652925a8bbaf63d5907b4c5a4a06e8 - revert - d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184
+---> The reverted commit sha is - 6ac8c7cbe2652925a8bbaf63d5907b4c5a4a06e8
+Commit message - Fix rescanning of deleted files
+---> The original commit sha is - d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184
+Commit message - Add line number to warning.to_hash
+---> The files with partial_reverts are:-
+lib/brakeman/warning.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 160 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ 29dfb5f87d1671afa6ab9fc350a93008bbf7420b -> d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184 }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184
+Commit message - Add line number to warning.to_hash
+---> The files with partial_reverts are:-
+lib/brakeman/warning.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 161 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ c165dbc2f8e7eab162eba7e04ff8f23f3887f931 -> 29dfb5f87d1671afa6ab9fc350a93008bbf7420b }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - 29dfb5f87d1671afa6ab9fc350a93008bbf7420b
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - 29dfb5f87d1671afa6ab9fc350a93008bbf7420b
+Commit message - Bump to 1.5.3
+---> The files with partial_reverts are:-
+CHANGES
+lib/brakeman/version.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 162 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ 426f303a82f5e856ea816bc82eb98ecb020d10e1 -> c165dbc2f8e7eab162eba7e04ff8f23f3887f931 }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - c165dbc2f8e7eab162eba7e04ff8f23f3887f931
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - c165dbc2f8e7eab162eba7e04ff8f23f3887f931
+Commit message - Update -o docs in README
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 163 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ 4d18180eca2fc2b2b44f334a3c33f52c97b58cae -> 426f303a82f5e856ea816bc82eb98ecb020d10e1 }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - 426f303a82f5e856ea816bc82eb98ecb020d10e1
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - 426f303a82f5e856ea816bc82eb98ecb020d10e1
+Commit message - Adjust line number on CSRF test for Rails 3.1 app
+---> The files with partial_reverts are:-
+test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 164 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ 6b805d6c8e5e577c7a13840c91f41c4a2a09e602 -> 4d18180eca2fc2b2b44f334a3c33f52c97b58cae }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - 4d18180eca2fc2b2b44f334a3c33f52c97b58cae
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - 4d18180eca2fc2b2b44f334a3c33f52c97b58cae
+Commit message - Prevent loops from mutually recursive rendering
+---> The files with partial_reverts are:-
+lib/brakeman/processors/template_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 165 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ 1811df9e339af0b3d70772117802661c18488f26 -> 6b805d6c8e5e577c7a13840c91f41c4a2a09e602 }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - 6b805d6c8e5e577c7a13840c91f41c4a2a09e602
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - 6b805d6c8e5e577c7a13840c91f41c4a2a09e602
+Commit message - Add test for mutually recursive rendering
+---> The files with partial_reverts are:-
+test/apps/rails3.1/app/views/users/_circular.html.erb
+test/apps/rails3.1/app/views/users/_circular_too.html.erb
+test/apps/rails3.1/app/views/users/circular_render.html.erb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 166 is -> 
+{ 28d37998852c5aa18b74c46ac8409c3a9a5b2697 -> 2ea3ffa04a6c2bbf7ccb5b0ea4992a9dc8542a57 } is a revert
+{ 688b9d60139299fa8f0bd42fb69a36e3030e78be -> 1811df9e339af0b3d70772117802661c18488f26 }
+Partial Revert commits SHA are -> 
+2ea3ffa04a6c2bbf7ccb5b0ea4992a9dc8542a57 - revert - 1811df9e339af0b3d70772117802661c18488f26
+---> The reverted commit sha is - 2ea3ffa04a6c2bbf7ccb5b0ea4992a9dc8542a57
+Commit message - Merge branch 'master' into handle_layout_in_views
+---> The original commit sha is - 1811df9e339af0b3d70772117802661c18488f26
+Commit message - Only check eval args for user input
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_evaluation.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 167 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ 688b9d60139299fa8f0bd42fb69a36e3030e78be -> 1811df9e339af0b3d70772117802661c18488f26 }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - 1811df9e339af0b3d70772117802661c18488f26
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - 1811df9e339af0b3d70772117802661c18488f26
+Commit message - Only check eval args for user input
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_evaluation.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 168 is -> 
+{ 21573a7970d86d47bbbfaa59bb7490536a340054 -> eef618e082505d0a70387a9d8adf67f4716b379f } is a revert
+{ 8af649e9e63998ef6c16850732a172c6572f65bc -> d8cf24e4f7a049bf8d02bf72f21a424e44039264 }
+Partial Revert commits SHA are -> 
+eef618e082505d0a70387a9d8adf67f4716b379f - revert - d8cf24e4f7a049bf8d02bf72f21a424e44039264
+---> The reverted commit sha is - eef618e082505d0a70387a9d8adf67f4716b379f
+Commit message - Merge pull request #66 from tw-ngreen/multiple_output_formats
+
+Support multiple output files with different formats
+---> The original commit sha is - d8cf24e4f7a049bf8d02bf72f21a424e44039264
+Commit message - Add request variables to environment of views
+
+when rendering and when dealing with filters
+---> The files with partial_reverts are:-
+lib/brakeman/processors/alias_processor.rb
+lib/brakeman/processors/controller_alias_processor.rb
+lib/brakeman/processors/lib/render_helper.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 169 is -> 
+{ 21573a7970d86d47bbbfaa59bb7490536a340054 -> eef618e082505d0a70387a9d8adf67f4716b379f } is a revert
+{ 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 -> 8af649e9e63998ef6c16850732a172c6572f65bc }
+Partial Revert commits SHA are -> 
+eef618e082505d0a70387a9d8adf67f4716b379f - revert - 8af649e9e63998ef6c16850732a172c6572f65bc
+---> The reverted commit sha is - eef618e082505d0a70387a9d8adf67f4716b379f
+Commit message - Merge pull request #66 from tw-ngreen/multiple_output_formats
+
+Support multiple output files with different formats
+---> The original commit sha is - 8af649e9e63998ef6c16850732a172c6572f65bc
+Commit message - Add Util#request_value?
+---> The files with partial_reverts are:-
+lib/brakeman/util.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 170 is -> 
+{ e223562618f3a203039a0391fefa9c1854d95437 -> 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 } is a revert
+{ 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 -> 8af649e9e63998ef6c16850732a172c6572f65bc }
+Partial Revert commits SHA are -> 
+90f5e656baa4713e05c7820bd2f16b4bf8b3e870 - revert - 8af649e9e63998ef6c16850732a172c6572f65bc
+---> The reverted commit sha is - 90f5e656baa4713e05c7820bd2f16b4bf8b3e870
+Commit message - Add test for param sanitized in controller
+---> The original commit sha is - 8af649e9e63998ef6c16850732a172c6572f65bc
+Commit message - Add Util#request_value?
+---> The files with partial_reverts are:-
+lib/brakeman/util.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 171 is -> 
+{ 7f36ea3d4c60a643c24a255698949bc3f565d681 -> b50a482c2d2e4f1da87456fcda052c4b499b8d74 } is a revert
+{ a651424aa920639ce25f44282aa1eaa0a66d0489 -> f1b1b0dd6696eceddca50830999408a9dc9e79be }
+Partial Revert commits SHA are -> 
+b50a482c2d2e4f1da87456fcda052c4b499b8d74 - revert - f1b1b0dd6696eceddca50830999408a9dc9e79be
+---> The reverted commit sha is - b50a482c2d2e4f1da87456fcda052c4b499b8d74
+Commit message - Check for duplicates in CheckRedirect
+---> The original commit sha is - f1b1b0dd6696eceddca50830999408a9dc9e79be
+Commit message - Merge branch 'master' into simple_helper_scanning
+
+Conflicts:
+	test/apps/rails3.1/app/controllers/users_controller.rb
+---> The files with partial_reverts are:-
+lib/brakeman/processors/lib/find_return_value.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/apps/rails3.1/config/routes.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 172 is -> 
+{ 6bf54b47cb0ef106a9b8d808557b621c946f7757 -> 658ddf4cc9836b182fd166f4a9dcb72d274a92e5 } is a revert
+{ 658ddf4cc9836b182fd166f4a9dcb72d274a92e5 -> 5c0e33e6d277356a155631aace4c74db87074f8a }
+Partial Revert commits SHA are -> 
+658ddf4cc9836b182fd166f4a9dcb72d274a92e5 - revert - 5c0e33e6d277356a155631aace4c74db87074f8a
+---> The reverted commit sha is - 658ddf4cc9836b182fd166f4a9dcb72d274a92e5
+Commit message - Call Processor#process_controller_alias properly
+---> The original commit sha is - 5c0e33e6d277356a155631aace4c74db87074f8a
+Commit message - Merge pull request #75 from presidentbeef/fix_controller_rescanning
+
+Call Processor#process_controller_alias properly
+---> The files with partial_reverts are:-
+lib/brakeman/warning.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 173 is -> 
+{ 21573a7970d86d47bbbfaa59bb7490536a340054 -> eef618e082505d0a70387a9d8adf67f4716b379f } is a revert
+{ 142d624272e241e2865f7a89d8811b94a585d834 -> 6bbd119f748bcd9cb5fc95768222e2fb7158b7ae }
+Partial Revert commits SHA are -> 
+eef618e082505d0a70387a9d8adf67f4716b379f - revert - 6bbd119f748bcd9cb5fc95768222e2fb7158b7ae
+---> The reverted commit sha is - eef618e082505d0a70387a9d8adf67f4716b379f
+Commit message - Merge pull request #66 from tw-ngreen/multiple_output_formats
+
+Support multiple output files with different formats
+---> The original commit sha is - 6bbd119f748bcd9cb5fc95768222e2fb7158b7ae
+Commit message - Merge pull request #68 from presidentbeef/propagate_request_values_to_views
+
+Propagate request values to views
+
+such that `params[:x] = blah` will be reflect in the views
+---> The files with partial_reverts are:-
+lib/brakeman/processors/alias_processor.rb
+lib/brakeman/processors/controller_alias_processor.rb
+lib/brakeman/processors/lib/render_helper.rb
+lib/brakeman/util.rb
+test/apps/rails2/app/controllers/home_controller.rb
+test/apps/rails2/app/views/home/test_sanitized_param.html.erb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 174 is -> 
+{ d55f4fd86cae49e4ca1555e44b94ca4d15abb184 -> 577b15977ecbbcef29e265250b5cde7bd5566fcd } is a revert
+{ 577b15977ecbbcef29e265250b5cde7bd5566fcd -> 500e3f8f8b355929d3b865fce67d989e105b1e22 }
+Partial Revert commits SHA are -> 
+577b15977ecbbcef29e265250b5cde7bd5566fcd - revert - 500e3f8f8b355929d3b865fce67d989e105b1e22
+---> The reverted commit sha is - 577b15977ecbbcef29e265250b5cde7bd5566fcd
+Commit message - Rescanning of templates doesn't pass through the same "filter" as the initial scan
+
+/Users/neilm/workspace/brakeman/lib/brakeman/scanner.rb:302:in `process_template': undefined method `[]' for nil:NilClass (NoMethodError)
+
+Debated between filtering this in the process_template method, decided to filter BEFORE calling process_template, decided to leave it here to bypass the other login in rescan_template
+---> The original commit sha is - 500e3f8f8b355929d3b865fce67d989e105b1e22
+Commit message - Merge pull request #63 from oreoshake/rescanning_unknown_templates
+
+Rescanning of templates doesn't pass through the same "filter" as the in...
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_send.rb
+lib/brakeman/parsers/rails2_erubis.rb
+lib/brakeman/parsers/rails2_xss_plugin_erubis.rb
+lib/brakeman/parsers/rails3_erubis.rb
+lib/brakeman/processor.rb
+lib/brakeman/processors/base_processor.rb
+lib/brakeman/processors/controller_alias_processor.rb
+lib/brakeman/processors/lib/processor_helper.rb
+lib/brakeman/util.rb
+test/apps/rails2/app/controllers/home_controller.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 175 is -> 
+{ ee457796f6c0801995875f80c4b71ed664dc8eab -> deb091f46fd82bfad493863ee721f8f55a7360ef } is a revert
+{ efc5071b6283d72566db32b12a24ea726aa880ce -> d55f4fd86cae49e4ca1555e44b94ca4d15abb184 }
+Partial Revert commits SHA are -> 
+deb091f46fd82bfad493863ee721f8f55a7360ef - revert - d55f4fd86cae49e4ca1555e44b94ca4d15abb184
+---> The reverted commit sha is - deb091f46fd82bfad493863ee721f8f55a7360ef
+Commit message - Move parsers out of scanner.rb into lib/parsers/
+---> The original commit sha is - d55f4fd86cae49e4ca1555e44b94ca4d15abb184
+Commit message - Merge remote-tracking branch 'oreoshake/check_send'
+
+Add check for Object#send with user input.
+---> The files with partial_reverts are:-
+test/apps/rails2/app/controllers/home_controller.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 176 is -> 
+{ 7efa9856e8d5233e623652919f2d6dea607ebd58 -> f6810850cbe1b6bcbf01efed63d656c9e0df57ef } is a revert
+{ f6810850cbe1b6bcbf01efed63d656c9e0df57ef -> 5cba274f286ca8b71473c099ce8642893c7d9802 }
+Partial Revert commits SHA are -> 
+f6810850cbe1b6bcbf01efed63d656c9e0df57ef - revert - 5cba274f286ca8b71473c099ce8642893c7d9802
+---> The reverted commit sha is - f6810850cbe1b6bcbf01efed63d656c9e0df57ef
+Commit message - Don't double the number of controllers reported
+
+during progress. I don't really know why this was there...
+---> The original commit sha is - 5cba274f286ca8b71473c099ce8642893c7d9802
+Commit message - Merge branch 'fix_bug_with_controllers_inside_modules'
+---> The files with partial_reverts are:-
+lib/brakeman/processor.rb
+lib/brakeman/processors/controller_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 177 is -> 
+{ 6ea35519cdf536eb2ae2c3a77523168a40c573c1 -> 7efa9856e8d5233e623652919f2d6dea607ebd58 } is a revert
+{ 7efa9856e8d5233e623652919f2d6dea607ebd58 -> f6810850cbe1b6bcbf01efed63d656c9e0df57ef }
+Partial Revert commits SHA are -> 
+7efa9856e8d5233e623652919f2d6dea607ebd58 - revert - f6810850cbe1b6bcbf01efed63d656c9e0df57ef
+---> The reverted commit sha is - 7efa9856e8d5233e623652919f2d6dea607ebd58
+Commit message - Track module names for controllers
+
+because when the get re-processed the module information
+is lost (just class code is stored)
+---> The original commit sha is - f6810850cbe1b6bcbf01efed63d656c9e0df57ef
+Commit message - Don't double the number of controllers reported
+
+during progress. I don't really know why this was there...
+---> The files with partial_reverts are:-
+lib/brakeman/processor.rb
+lib/brakeman/processors/controller_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 178 is -> 
+{ f85779d2018d6443e2aa4b091b4056967e6e7e9f -> 9e96ad6746d73f09e25fbd71f0399e5c2ce54f7f } is a revert
+{ 9e96ad6746d73f09e25fbd71f0399e5c2ce54f7f -> 1ee831a8a4ef62e555e84ab78b3b217b1b927e47 }
+Partial Revert commits SHA are -> 
+9e96ad6746d73f09e25fbd71f0399e5c2ce54f7f - revert - 1ee831a8a4ef62e555e84ab78b3b217b1b927e47
+---> The reverted commit sha is - 9e96ad6746d73f09e25fbd71f0399e5c2ce54f7f
+Commit message - Merge pull request #58 from presidentbeef/improved_dynamic_render_check
+
+Improved dynamic render check, ignore condition in if statements when looking for user input.
+---> The original commit sha is - 1ee831a8a4ef62e555e84ab78b3b217b1b927e47
+Commit message - Merge pull request #59 from presidentbeef/fix_rails_xss_views
+
+Fix handling of Erubis templates with xss escaping via rails_xss or Rails 3 (but Rails 3 should not really be affected)
+---> The files with partial_reverts are:-
+lib/brakeman/processors/erubis_template_processor.rb
+test/apps/rails_with_xss_plugin/Gemfile
+test/apps/rails_with_xss_plugin/README
+test/apps/rails_with_xss_plugin/Rakefile
+test/apps/rails_with_xss_plugin/app/controllers/application_controller.rb
+test/apps/rails_with_xss_plugin/app/controllers/posts_controller.rb
+test/apps/rails_with_xss_plugin/app/controllers/users_controller.rb
+test/apps/rails_with_xss_plugin/app/helpers/application_helper.rb
+test/apps/rails_with_xss_plugin/app/helpers/posts_helper.rb
+test/apps/rails_with_xss_plugin/app/helpers/users_helper.rb
+test/apps/rails_with_xss_plugin/app/models/post.rb
+test/apps/rails_with_xss_plugin/app/models/user.rb
+test/apps/rails_with_xss_plugin/app/views/layouts/posts.html.erb
+test/apps/rails_with_xss_plugin/app/views/layouts/users.html.erb
+test/apps/rails_with_xss_plugin/app/views/posts/_show.html.erb
+test/apps/rails_with_xss_plugin/app/views/posts/edit.html.erb
+test/apps/rails_with_xss_plugin/app/views/posts/index.html.erb
+test/apps/rails_with_xss_plugin/app/views/posts/new.html.erb
+test/apps/rails_with_xss_plugin/app/views/posts/show.html.erb
+test/apps/rails_with_xss_plugin/app/views/posts/show_topic.html.erb
+test/apps/rails_with_xss_plugin/app/views/users/_user.html.erb
+test/apps/rails_with_xss_plugin/app/views/users/edit.html.erb
+test/apps/rails_with_xss_plugin/app/views/users/index.html.erb
+test/apps/rails_with_xss_plugin/app/views/users/login.html.erb
+test/apps/rails_with_xss_plugin/app/views/users/new.html.erb
+test/apps/rails_with_xss_plugin/app/views/users/results.html.erb
+test/apps/rails_with_xss_plugin/app/views/users/search.html.erb
+test/apps/rails_with_xss_plugin/app/views/users/show.html.erb
+test/apps/rails_with_xss_plugin/config/boot.rb
+test/apps/rails_with_xss_plugin/config/database.yml
+test/apps/rails_with_xss_plugin/config/environment.rb
+test/apps/rails_with_xss_plugin/config/environments/development.rb
+test/apps/rails_with_xss_plugin/config/environments/production.rb
+test/apps/rails_with_xss_plugin/config/environments/test.rb
+test/apps/rails_with_xss_plugin/config/initializers/backtrace_silencers.rb
+test/apps/rails_with_xss_plugin/config/initializers/cookie_verification_secret.rb
+test/apps/rails_with_xss_plugin/config/initializers/inflections.rb
+test/apps/rails_with_xss_plugin/config/initializers/mime_types.rb
+test/apps/rails_with_xss_plugin/config/initializers/new_rails_defaults.rb
+test/apps/rails_with_xss_plugin/config/initializers/session_store.rb
+test/apps/rails_with_xss_plugin/config/locales/en.yml
+test/apps/rails_with_xss_plugin/config/routes.rb
+test/apps/rails_with_xss_plugin/db/migrate/20120312064721_create_users.rb
+test/apps/rails_with_xss_plugin/db/migrate/20120312065023_create_posts.rb
+test/apps/rails_with_xss_plugin/db/schema.rb
+test/apps/rails_with_xss_plugin/db/seeds.rb
+test/apps/rails_with_xss_plugin/doc/README_FOR_APP
+test/apps/rails_with_xss_plugin/public/404.html
+test/apps/rails_with_xss_plugin/public/422.html
+test/apps/rails_with_xss_plugin/public/500.html
+test/apps/rails_with_xss_plugin/public/javascripts/application.js
+test/apps/rails_with_xss_plugin/public/javascripts/controls.js
+test/apps/rails_with_xss_plugin/public/javascripts/dragdrop.js
+test/apps/rails_with_xss_plugin/public/javascripts/effects.js
+test/apps/rails_with_xss_plugin/public/javascripts/prototype.js
+test/apps/rails_with_xss_plugin/public/robots.txt
+test/apps/rails_with_xss_plugin/public/stylesheets/scaffold.css
+test/apps/rails_with_xss_plugin/script/about
+test/apps/rails_with_xss_plugin/script/console
+test/apps/rails_with_xss_plugin/script/dbconsole
+test/apps/rails_with_xss_plugin/script/destroy
+test/apps/rails_with_xss_plugin/script/generate
+test/apps/rails_with_xss_plugin/script/performance/benchmarker
+test/apps/rails_with_xss_plugin/script/performance/profiler
+test/apps/rails_with_xss_plugin/script/plugin
+test/apps/rails_with_xss_plugin/script/runner
+test/apps/rails_with_xss_plugin/script/server
+test/apps/rails_with_xss_plugin/test/fixtures/posts.yml
+test/apps/rails_with_xss_plugin/test/fixtures/users.yml
+test/apps/rails_with_xss_plugin/test/functional/posts_controller_test.rb
+test/apps/rails_with_xss_plugin/test/functional/users_controller_test.rb
+test/apps/rails_with_xss_plugin/test/performance/browsing_test.rb
+test/apps/rails_with_xss_plugin/test/test_helper.rb
+test/apps/rails_with_xss_plugin/test/unit/helpers/posts_helper_test.rb
+test/apps/rails_with_xss_plugin/test/unit/helpers/users_helper_test.rb
+test/apps/rails_with_xss_plugin/test/unit/post_test.rb
+test/apps/rails_with_xss_plugin/test/unit/user_test.rb
+test/tests/test_rails_with_xss_plugin.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 179 is -> 
+{ 4ffff0fcfbbf0970d9e93de1a176b1f00bc40646 -> dd2ce5792a36242faf1a7e6ea9d45f4437bb72e7 } is a revert
+{ 4276e0a016566658478482ccc09fe66c67e6c227 -> 0afd27772c299ab815270e0219ee8b3e1ed67ca9 }
+Partial Revert commits SHA are -> 
+dd2ce5792a36242faf1a7e6ea9d45f4437bb72e7 - revert - 0afd27772c299ab815270e0219ee8b3e1ed67ca9
+---> The reverted commit sha is - dd2ce5792a36242faf1a7e6ea9d45f4437bb72e7
+Commit message - Ignore user input in condition of if statements
+---> The original commit sha is - 0afd27772c299ab815270e0219ee8b3e1ed67ca9
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_reverts are:-
+bin/brakeman
+lib/brakeman/rescanner.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 180 is -> 
+{ dc076ccec58eec4de8924b09590b41b6993ad8e6 -> a30cf9629c9d020f4b9d5f4d765e3d6141aad9fd } is a revert
+{ bd05d2d67393ae00de45be17df54a0ab2cb8cbb6 -> 4ffff0fcfbbf0970d9e93de1a176b1f00bc40646 }
+Partial Revert commits SHA are -> 
+a30cf9629c9d020f4b9d5f4d765e3d6141aad9fd - revert - 4ffff0fcfbbf0970d9e93de1a176b1f00bc40646
+---> The reverted commit sha is - a30cf9629c9d020f4b9d5f4d765e3d6141aad9fd
+Commit message - [WIP] render :layout in views
+---> The original commit sha is - 4ffff0fcfbbf0970d9e93de1a176b1f00bc40646
+Commit message - Merge pull request #56 from presidentbeef/output_stack_trace_in_187
+
+Standardize output of stack trace in 1.8 and 1.9
+but only when using debug option
+---> The files with partial_reverts are:-
+lib/brakeman/rescanner.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 181 is -> 
+{ d13323576691a7f9af82ec5e42e2107a984f0f87 -> 77a35aedac6a0993ac227e68fa459304d9e580ad } is a revert
+{ 77a35aedac6a0993ac227e68fa459304d9e580ad -> dc076ccec58eec4de8924b09590b41b6993ad8e6 }
+Partial Revert commits SHA are -> 
+77a35aedac6a0993ac227e68fa459304d9e580ad - revert - dc076ccec58eec4de8924b09590b41b6993ad8e6
+---> The reverted commit sha is - 77a35aedac6a0993ac227e68fa459304d9e580ad
+Commit message -  I was getting a NoMethodError when rescanning a file in the lib directory.
+
+    NoMethodError: undefined method `process_library' for #<Brakeman::Rescanner:0x10a8f5380>
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:77:in `rescan_file'
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:50:in `rescan'
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:47:in `each'
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:47:in `rescan'
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:46:in `each'
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:46:in `rescan'
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:22:in `recheck'
+    /Users/neilm/workspace/brakeman/lib/brakeman.rb:291:in `rescan'
+    /usr/local/rvm/gems/ree-1.8.7-2011.12/gems/guard-brakeman-0.3.1/lib/guard/brakeman.rb:73:in `run_on_change'
+---> The original commit sha is - dc076ccec58eec4de8924b09590b41b6993ad8e6
+Commit message - Merge pull request #54 from oreoshake/process_lib_fix
+
+ I was getting a NoMethodError when rescanning a file in the lib directo...
+---> The files with partial_reverts are:-
+lib/brakeman/checks/check_link_to.rb
+test/apps/rails2/app/views/home/test_link_to.html.erb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 182 is -> 
+{ 31bb46b6642791c6efdeef2880e0d634631410f1 -> 7edfbf259b0dd267328990f26003be199b494878 } is a revert
+{ cf9c7fddecb4d3c580a1e429c9097d44e8e42a06 -> d13323576691a7f9af82ec5e42e2107a984f0f87 }
+Partial Revert commits SHA are -> 
+7edfbf259b0dd267328990f26003be199b494878 - revert - d13323576691a7f9af82ec5e42e2107a984f0f87
+---> The reverted commit sha is - 7edfbf259b0dd267328990f26003be199b494878
+Commit message - Fixes to CheckLinkTo for Rails 2.0 and 2.3
+
+and link_to with a block
+---> The original commit sha is - d13323576691a7f9af82ec5e42e2107a984f0f87
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_reverts are:-
+lib/brakeman/version.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 183 is -> 
+{ 95d841369b812e5fad3bf44d2713b9cec9223d21 -> 382ad3d93cadcae31c3273da0255ddc16216e553 } is a revert
+{ 28f3cae8cd4d9b1fb94e6c8ff7ae40ba3573817d -> 17322b06e6a64696190f25f9528d4eb4bc29be7a }
+Partial Revert commits SHA are -> 
+382ad3d93cadcae31c3273da0255ddc16216e553 - revert - 17322b06e6a64696190f25f9528d4eb4bc29be7a
+---> The reverted commit sha is - 382ad3d93cadcae31c3273da0255ddc16216e553
+Commit message - Fix typo in README
+---> The original commit sha is - 17322b06e6a64696190f25f9528d4eb4bc29be7a
+Commit message - Merge pull request #33 from daveworth/prettify_reports
+
+Add slightly prettier reports for rescanning
+---> The files with partial_reverts are:-
+lib/brakeman/rescanner.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 184 is -> 
+{ a49cfbd9fdf9700a1669eec60ee5b95e12004b4c -> 28f3cae8cd4d9b1fb94e6c8ff7ae40ba3573817d } is a revert
+{ 28f3cae8cd4d9b1fb94e6c8ff7ae40ba3573817d -> 17322b06e6a64696190f25f9528d4eb4bc29be7a }
+Partial Revert commits SHA are -> 
+28f3cae8cd4d9b1fb94e6c8ff7ae40ba3573817d - revert - 17322b06e6a64696190f25f9528d4eb4bc29be7a
+---> The reverted commit sha is - 28f3cae8cd4d9b1fb94e6c8ff7ae40ba3573817d
+Commit message - Update Twitter address
+---> The original commit sha is - 17322b06e6a64696190f25f9528d4eb4bc29be7a
+Commit message - Merge pull request #33 from daveworth/prettify_reports
+
+Add slightly prettier reports for rescanning
+---> The files with partial_reverts are:-
+lib/brakeman/rescanner.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 185 is -> 
+{ 95d841369b812e5fad3bf44d2713b9cec9223d21 -> 382ad3d93cadcae31c3273da0255ddc16216e553 } is a revert
+{ 382ad3d93cadcae31c3273da0255ddc16216e553 -> 2bbfb921b77a4661669fcf09d0881b2b4b15ca72 }
+Partial Revert commits SHA are -> 
+382ad3d93cadcae31c3273da0255ddc16216e553 - revert - 2bbfb921b77a4661669fcf09d0881b2b4b15ca72
+---> The reverted commit sha is - 382ad3d93cadcae31c3273da0255ddc16216e553
+Commit message - Fix typo in README
+---> The original commit sha is - 2bbfb921b77a4661669fcf09d0881b2b4b15ca72
+Commit message - Add slightly prettier reports for rescanning
+---> The files with partial_reverts are:-
+lib/brakeman/rescanner.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 186 is -> 
+{ 7b456368971f444c727d211faef301e0cee3882a -> cfaa5bd9a8f8d8fd6e4a3e6774d6d1bcce466883 } is a revert
+{ f08dae2b0e5a84df25f6394ac3c6d6acc7c0dd1f -> 1d7d6e8f1b72b5481ddec07064b7d0de6c8d51f2 }
+Partial Revert commits SHA are -> 
+cfaa5bd9a8f8d8fd6e4a3e6774d6d1bcce466883 - revert - 1d7d6e8f1b72b5481ddec07064b7d0de6c8d51f2
+---> The reverted commit sha is - cfaa5bd9a8f8d8fd6e4a3e6774d6d1bcce466883
+Commit message - member_path/nested_member_path as resource option
+---> The original commit sha is - 1d7d6e8f1b72b5481ddec07064b7d0de6c8d51f2
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_reverts are:-
+lib/brakeman.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 187 is -> 
+{ 38c663d1effd8f3980701de8cc5c3e961655ade4 -> f15024d73e70d18d934d15018b320f2b853a94f7 } is a revert
+{ 03ca71bde7357705647b3fe94684b8ffb7f8152c -> 8e04ccb318fffe0ec0e6da65bbb526b71fe36498 }
+Partial Revert commits SHA are -> 
+f15024d73e70d18d934d15018b320f2b853a94f7 - revert - 8e04ccb318fffe0ec0e6da65bbb526b71fe36498
+---> The reverted commit sha is - f15024d73e70d18d934d15018b320f2b853a94f7
+Commit message - Add more debug messages to checks
+---> The original commit sha is - 8e04ccb318fffe0ec0e6da65bbb526b71fe36498
+Commit message - Remove BaseCheck#debug_info
+---> The files with partial_reverts are:-
+lib/brakeman/checks/base_check.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 188 is -> 
+{ 8a31492e0e6f348146574038d3e21e573e41a6cc -> 04fa1f4b626c18a36b63c6588428edb2de19bf6b } is a revert
+{ 04fa1f4b626c18a36b63c6588428edb2de19bf6b -> be151a3023dbf5d85f7f9c92df6b963e3c1f2bdc }
+Partial Revert commits SHA are -> 
+04fa1f4b626c18a36b63c6588428edb2de19bf6b - revert - be151a3023dbf5d85f7f9c92df6b963e3c1f2bdc
+---> The reverted commit sha is - 04fa1f4b626c18a36b63c6588428edb2de19bf6b
+Commit message - Support `get '/:blah' => 'la#la', :as => 'blah'`
+
+fixes #23
+---> The original commit sha is - be151a3023dbf5d85f7f9c92df6b963e3c1f2bdc
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_reverts are:-
+bin/brakeman
+lib/brakeman.rb
+lib/brakeman/brakeman.rake
+lib/brakeman/options.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 189 is -> 
+{ 7849667d9a5efa4fd40bf18cdddb643f7f1847af -> 485299638133326c47da50e5e1af170c59cdc352 } is a revert
+{ 485299638133326c47da50e5e1af170c59cdc352 -> e69f18c7824e6d1cd16d569a64b344ef8240e751 }
+Partial Revert commits SHA are -> 
+485299638133326c47da50e5e1af170c59cdc352 - revert - e69f18c7824e6d1cd16d569a64b344ef8240e751
+---> The reverted commit sha is - 485299638133326c47da50e5e1af170c59cdc352
+Commit message - Add --rake option to install rake task
+---> The original commit sha is - e69f18c7824e6d1cd16d569a64b344ef8240e751
+Commit message - -k should not show "Brakeman::"
+---> The files with partial_reverts are:-
+bin/brakeman
+lib/brakeman/options.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 190 is -> 
+{ 1b0ac0ebb3443def0014132d69e0b94326bb9209 -> a3885d0472564e6548b0d8db619d994f2d22ffdf } is a revert
+{ 70919bb508ebb4a0744a2448b1680d995d30fb2f -> a0e5f7e15924199f3ca1801d76bae3965ad8c327 }
+Partial Revert commits SHA are -> 
+a3885d0472564e6548b0d8db619d994f2d22ffdf - revert - a0e5f7e15924199f3ca1801d76bae3965ad8c327
+---> The reverted commit sha is - a3885d0472564e6548b0d8db619d994f2d22ffdf
+Commit message - Namespace all the things
+---> The original commit sha is - a0e5f7e15924199f3ca1801d76bae3965ad8c327
+Commit message - Remove FindModelCall
+---> The files with partial_reverts are:-
+lib/brakeman/processors/lib/find_model_call.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 191 is -> 
+{ f63f5301d45d145ba80cd81bf565afc8ff146c8c -> 4b41b1ae5a7f7ca51d53141993dfb4b06aaf8139 } is a revert
+{ 4b41b1ae5a7f7ca51d53141993dfb4b06aaf8139 -> 6687214e27cb077b08e6ad9b62a951f0f0effd1e }
+Partial Revert commits SHA are -> 
+4b41b1ae5a7f7ca51d53141993dfb4b06aaf8139 - revert - 6687214e27cb077b08e6ad9b62a951f0f0effd1e
+---> The reverted commit sha is - 4b41b1ae5a7f7ca51d53141993dfb4b06aaf8139
+Commit message - Add test for SQL Injection in longer call chains
+
+like User.active.awesome.find(...)
+---> The original commit sha is - 6687214e27cb077b08e6ad9b62a951f0f0effd1e
+Commit message - Merge branch 'master' into use_call_indexing
+---> The files with partial_reverts are:-
+lib/brakeman/call_index.rb
+lib/brakeman/checks/base_check.rb
+lib/brakeman/checks/check_cross_site_scripting.rb
+lib/brakeman/checks/check_evaluation.rb
+lib/brakeman/checks/check_execute.rb
+lib/brakeman/checks/check_file_access.rb
+lib/brakeman/checks/check_mail_to.rb
+lib/brakeman/checks/check_mass_assignment.rb
+lib/brakeman/checks/check_quote_table_name.rb
+lib/brakeman/checks/check_redirect.rb
+lib/brakeman/checks/check_send_file.rb
+lib/brakeman/checks/check_sql.rb
+lib/brakeman/checks/check_strip_tags.rb
+lib/brakeman/checks/check_translate_bug.rb
+lib/brakeman/checks/check_without_protection.rb
+lib/brakeman/processors/lib/find_all_calls.rb
+lib/brakeman/scanner.rb
+lib/brakeman/tracker.rb
+lib/brakeman/warning.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 192 is -> 
+{ 85898944003051083741cd9b7f5d0f5d243bce09 -> 51bf67a7e69a59d719784a2de17c46a17272245b } is a revert
+{ b82c65ccbc22bf8da97074567128fab50cbd9d27 -> 625f655f02695995060c93dfe736b0e9ff3beb36 }
+Partial Revert commits SHA are -> 
+51bf67a7e69a59d719784a2de17c46a17272245b - revert - 625f655f02695995060c93dfe736b0e9ff3beb36
+---> The reverted commit sha is - 51bf67a7e69a59d719784a2de17c46a17272245b
+Commit message - Merge branch 'master' into add_option_to_exit_with_nonzero_exit_code_when_warnings_found
+---> The original commit sha is - 625f655f02695995060c93dfe736b0e9ff3beb36
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_reverts are:-
+lib/brakeman/report.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 193 is -> 
+{ 41ba6ed11ae53cf103e88a42d0e5c76afdce2bdf -> 83e6f3af2a13deade55ef4b70702b4cafef4d45e } is a revert
+{ 002edc934bfce9f2d044e12ae78365e8d934654e -> 01db5c35a5f4ebf6b43ea3d163f518e969409007 }
+Partial Revert commits SHA are -> 
+83e6f3af2a13deade55ef4b70702b4cafef4d45e - revert - 01db5c35a5f4ebf6b43ea3d163f518e969409007
+---> The reverted commit sha is - 83e6f3af2a13deade55ef4b70702b4cafef4d45e
+Commit message - Add tests for Rails 2.x
+---> The original commit sha is - 01db5c35a5f4ebf6b43ea3d163f518e969409007
+Commit message - Remove extraneous file
+---> The files with partial_reverts are:-
+test/rails2/report.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 194 is -> 
+{ 51647f931c6cea2d498f250a36642c2102c8e53a -> 1223663836d63db0e45b8dd1028560f6475b6883 } is a revert
+{ 1223663836d63db0e45b8dd1028560f6475b6883 -> 05b2a725f93dd281466c16e591f109be62914c44 }
+Partial Revert commits SHA are -> 
+1223663836d63db0e45b8dd1028560f6475b6883 - revert - 05b2a725f93dd281466c16e591f109be62914c44
+---> The reverted commit sha is - 1223663836d63db0e45b8dd1028560f6475b6883
+Commit message - Fix small issue with 'has_one =>' in routes
+---> The original commit sha is - 05b2a725f93dd281466c16e591f109be62914c44
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 195 is -> 
+{ 2539a78f50f122a39925ce3b491f6ac17ce4772e -> ded1d0d4667b6917c6e92c72b3849f9018c32150 } is a revert
+{ 1744257e5da1c8f348d0e61bd2fbe621435c6f22 -> f410d10b5f51eec1b72837b0d4a2b186ad378437 }
+Partial Revert commits SHA are -> 
+ded1d0d4667b6917c6e92c72b3849f9018c32150 - revert - f410d10b5f51eec1b72837b0d4a2b186ad378437
+---> The reverted commit sha is - ded1d0d4667b6917c6e92c72b3849f9018c32150
+Commit message - Load libraries last for faster option failure
+---> The original commit sha is - f410d10b5f51eec1b72837b0d4a2b186ad378437
+Commit message - Merge branch 'master' into rails3
+
+Conflicts:
+	bin/brakeman
+---> The files with partial_reverts are:-
+bin/brakeman
+lib/processors/lib/rails2_route_processor.rb
+lib/processors/lib/route_helper.rb
+lib/processors/route_processor.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 196 is -> 
+{ e488017604e923f998d3c76a39e1166f875111e9 -> 1744257e5da1c8f348d0e61bd2fbe621435c6f22 } is a revert
+{ 1744257e5da1c8f348d0e61bd2fbe621435c6f22 -> f410d10b5f51eec1b72837b0d4a2b186ad378437 }
+Partial Revert commits SHA are -> 
+1744257e5da1c8f348d0e61bd2fbe621435c6f22 - revert - f410d10b5f51eec1b72837b0d4a2b186ad378437
+---> The reverted commit sha is - 1744257e5da1c8f348d0e61bd2fbe621435c6f22
+Commit message - Report correct version
+---> The original commit sha is - f410d10b5f51eec1b72837b0d4a2b186ad378437
+Commit message - Merge branch 'master' into rails3
+
+Conflicts:
+	bin/brakeman
+---> The files with partial_reverts are:-
+lib/processors/lib/rails2_route_processor.rb
+lib/processors/lib/rails3_route_processor.rb
+lib/processors/lib/route_helper.rb
+lib/processors/route_processor.rb
+-----------------------------------------------------------------
+

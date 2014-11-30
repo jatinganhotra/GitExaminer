@@ -1,0 +1,39 @@
+# of reverts = 3
+Revert diff pair 1 is -> 
+{ 7a3c077b5ba887c637cca54f0ca7ced06adea1ee -> 13a8c21f27401a50d627904756eb8d020b1cb58b } is a revert
+{ 1e335839219831a46d605fd9cc4459218cde6a20 -> dc58954dc52bcf1201f587487737bab450b12a67 }
+Revert commits SHA are -> 
+13a8c21f27401a50d627904756eb8d020b1cb58b - revert - dc58954dc52bcf1201f587487737bab450b12a67
+---> The reverted commit sha is - 13a8c21f27401a50d627904756eb8d020b1cb58b
+Commit message - [minor/bug/voodoo] roundtrip through json marshaller on console signature
+
+fixes a bug where the signature can't be verified by the API, probably because
+marshal/unmarshal align the byte array in a specific way
+---> The original commit sha is - dc58954dc52bcf1201f587487737bab450b12a67
+Commit message - [minor] remove ugly signing hack in console action launcher
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 3b7394833b000a47eccec5b1606577595f5aca70 -> 242b92a81a1c1add7976a748689317c7b167e3fa } is a revert
+{ aebf61e90347e912459e6ed5a991f5c1293711b0 -> 798c0bdee80c9680a505a79defde0c2a8408029e }
+Revert commits SHA are -> 
+242b92a81a1c1add7976a748689317c7b167e3fa - revert - 798c0bdee80c9680a505a79defde0c2a8408029e
+---> The reverted commit sha is - 242b92a81a1c1add7976a748689317c7b167e3fa
+Commit message - [minor] use more GOMAXPROC in scheduler
+---> The original commit sha is - 798c0bdee80c9680a505a79defde0c2a8408029e
+Commit message - [minor] scheduler should use exactly the number of cpus
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 82f08ab07c4e2fa40db768265ad9e841567c2287 -> caf473ef051921dca1f3e2bb185f833b3d08c19b } is a revert
+{ 000c8a0b1638ccd7776c7ec376d817ab8cb64d3e -> 045c5a16d628c1a2d387d0ebe96b1a4c71150cc4 }
+Revert commits SHA are -> 
+caf473ef051921dca1f3e2bb185f833b3d08c19b - revert - 045c5a16d628c1a2d387d0ebe96b1a4c71150cc4
+---> The reverted commit sha is - caf473ef051921dca1f3e2bb185f833b3d08c19b
+Commit message - [minor] filechecker: append trailing slash if missing when no pattern is used
+---> The original commit sha is - 045c5a16d628c1a2d387d0ebe96b1a4c71150cc4
+Commit message - Revert "[minor] filechecker: append trailing slash if missing when no pattern is used"
+
+This reverts commit caf473ef051921dca1f3e2bb185f833b3d08c19b.
+-----------------------------------------------------------------
+

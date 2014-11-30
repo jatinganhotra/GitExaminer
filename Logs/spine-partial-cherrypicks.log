@@ -1,0 +1,564 @@
+# of partial cherrypicks = 36
+Partial Cherry-pick diff pair 1 is -> 
+{ 5b10cb3571db9f07c331fae54998ac5aaa8e9b41 -> cb7f062cdbef4566d58536347e8363a83020b7fb } is a cherrypick
+{ 140addd43c0763c652c1df02379ebfc986246027 -> 659c3d4eedc82acf4b93e930134162bbaf4dbd03 }
+Partial Cherry-pick commits SHA are -> 
+cb7f062cdbef4566d58536347e8363a83020b7fb - cherrypick - 659c3d4eedc82acf4b93e930134162bbaf4dbd03
+---> The cherrypicked commit sha is - cb7f062cdbef4566d58536347e8363a83020b7fb
+Commit message - ie9-tests-fix > Use Object.getPrototypeOf instead of __proto__ to fix breaking tests on IE9 and use toMatch for Controller element attributes test to account for IE appending a semicolon to returned style declarations.
+---> The original commit sha is - 659c3d4eedc82acf4b93e930134162bbaf4dbd03
+Commit message - Merge pull request #549 from arrmatyi/ie9-tests-fix
+
+ie9-tests-fix > Fix tests on IE9.
+---> The files with partial_cherrypicks are:-
+test/specs/controller.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ 35303d3c7bd7f7f6598eb6b984f69785027a2997 -> 6d6ab450e9fe89933d78fd3f6b6f04c01afdaff8 } is a cherrypick
+{ 48abe4cbef8c7996d56e04237d6bcfaaf4289041 -> 4f8c1ab7e178ac5bc8fc8347b59ddf8500604067 }
+Partial Cherry-pick commits SHA are -> 
+6d6ab450e9fe89933d78fd3f6b6f04c01afdaff8 - cherrypick - 4f8c1ab7e178ac5bc8fc8347b59ddf8500604067
+---> The cherrypicked commit sha is - 6d6ab450e9fe89933d78fd3f6b6f04c01afdaff8
+Commit message - Use truly global require(), allow passing model class directly in
+---> The original commit sha is - 4f8c1ab7e178ac5bc8fc8347b59ddf8500604067
+Commit message - Merge pull request #533 from navitmccaffery/require_scope
+
+Use runtime value of require() in relations
+---> The files with partial_cherrypicks are:-
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ d2aa67a4a43aacb6e63898cdd050cba9248122e2 -> 8a532c377edbc7c88c05a6a9858ed15d2762d865 } is a cherrypick
+{ 1b1cfa2fbce1f0692a30971a896e5b0201244fcb -> 34f887a54f614f361bb718148d877369e69cbde4 }
+Partial Cherry-pick commits SHA are -> 
+8a532c377edbc7c88c05a6a9858ed15d2762d865 - cherrypick - 34f887a54f614f361bb718148d877369e69cbde4
+---> The cherrypicked commit sha is - 8a532c377edbc7c88c05a6a9858ed15d2762d865
+Commit message - Unbind single callback with stopListening() instead of all callbacks for that event.
+---> The original commit sha is - 34f887a54f614f361bb718148d877369e69cbde4
+Commit message - Merge pull request #520 from navitmccaffery/stoplistening_callback
+
+Unbind single callback with stopListening()
+---> The files with partial_cherrypicks are:-
+test/specs/events.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ c95c7345fc5b655933a7d4c72ae4d22e81da406d -> 98579027886450e1fa395100d297f90ab3b00136 } is a cherrypick
+{ e8f7b44dce7b27dd0af55fcfc9c7e54503a36e50 -> 62c0de19f75e29c1751668f218791fa4eb872962 }
+Partial Cherry-pick commits SHA are -> 
+98579027886450e1fa395100d297f90ab3b00136 - cherrypick - 62c0de19f75e29c1751668f218791fa4eb872962
+---> The cherrypicked commit sha is - 98579027886450e1fa395100d297f90ab3b00136
+Commit message - move the doc content from github wiki to files in src 
+---> The original commit sha is - 62c0de19f75e29c1751668f218791fa4eb872962
+Commit message - Merge pull request #519 from spine/findOrElse
+
+change find() to not throw error and accept optional fallback function
+---> The files with partial_cherrypicks are:-
+History.md
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ d2aa67a4a43aacb6e63898cdd050cba9248122e2 -> 8a532c377edbc7c88c05a6a9858ed15d2762d865 } is a cherrypick
+{ e8f7b44dce7b27dd0af55fcfc9c7e54503a36e50 -> 62c0de19f75e29c1751668f218791fa4eb872962 }
+Partial Cherry-pick commits SHA are -> 
+8a532c377edbc7c88c05a6a9858ed15d2762d865 - cherrypick - 62c0de19f75e29c1751668f218791fa4eb872962
+---> The cherrypicked commit sha is - 8a532c377edbc7c88c05a6a9858ed15d2762d865
+Commit message - Unbind single callback with stopListening() instead of all callbacks for that event.
+---> The original commit sha is - 62c0de19f75e29c1751668f218791fa4eb872962
+Commit message - Merge pull request #519 from spine/findOrElse
+
+change find() to not throw error and accept optional fallback function
+---> The files with partial_cherrypicks are:-
+History.md
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 584d4d8fd774985e7f4e86a6f660f661c0e814cf -> c38a83e2e0522f88483b3eebd5c2e8cbaac73baf } is a cherrypick
+{ 65aeea144c9a127905e15d69c56ce0a2f390668a -> f104167c8ff8f309ac7e6246ee607bb173d7b6b9 }
+Partial Cherry-pick commits SHA are -> 
+c38a83e2e0522f88483b3eebd5c2e8cbaac73baf - cherrypick - f104167c8ff8f309ac7e6246ee607bb173d7b6b9
+---> The cherrypicked commit sha is - c38a83e2e0522f88483b3eebd5c2e8cbaac73baf
+Commit message - Return `this` instead of `root`, per comments in #486
+---> The original commit sha is - f104167c8ff8f309ac7e6246ee607bb173d7b6b9
+Commit message - Bring attributes branch up to speed with dev
+---> The files with partial_cherrypicks are:-
+src/spine.coffee
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ bbc08b049622f9eb0496140e2fd7f190880b8ae2 -> 676efd225003bed7ba98fdb06cea629372459207 } is a cherrypick
+{ 3652632da95d05adc61131aea278debba75215fd -> e7b97f9eda06f48236f7f6e235207730cd60fea2 }
+Partial Cherry-pick commits SHA are -> 
+676efd225003bed7ba98fdb06cea629372459207 - cherrypick - e7b97f9eda06f48236f7f6e235207730cd60fea2
+---> The cherrypicked commit sha is - 676efd225003bed7ba98fdb06cea629372459207
+Commit message - removing @crecords and using @irecords for both cid/id
+---> The original commit sha is - e7b97f9eda06f48236f7f6e235207730cd60fea2
+Commit message - handle merge conflicts from master
+---> The files with partial_cherrypicks are:-
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ 4c6ce075a834ea82f413f01f9305e6092719f478 -> 7d6272c0e23288fac88aae6aa31bd13cb778451d } is a cherrypick
+{ 05e39b1cda238a386d209b53f2f344c4a4576a72 -> 2f7a8d0053f14b4a52c0340d4bf77a3af5644c60 }
+Partial Cherry-pick commits SHA are -> 
+7d6272c0e23288fac88aae6aa31bd13cb778451d - cherrypick - 2f7a8d0053f14b4a52c0340d4bf77a3af5644c60
+---> The cherrypicked commit sha is - 7d6272c0e23288fac88aae6aa31bd13cb778451d
+Commit message - Performing new spine.js build, closes #455
+---> The original commit sha is - 2f7a8d0053f14b4a52c0340d4bf77a3af5644c60
+Commit message - I need to be more careful merging from pull requests started from master branch, accidentally re-added source maps to dev branch, but they should be gone again.
+---> The files with partial_cherrypicks are:-
+lib/spine.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ a52036c8f8b6a7e25e226749658791565c2c0316 -> f2d63296f5b50684c1eeaf1619684c549acfa577 } is a cherrypick
+{ c6dedb359c0c7a028c48243254397240eeba7351 -> 05e39b1cda238a386d209b53f2f344c4a4576a72 }
+Partial Cherry-pick commits SHA are -> 
+f2d63296f5b50684c1eeaf1619684c549acfa577 - cherrypick - 05e39b1cda238a386d209b53f2f344c4a4576a72
+---> The cherrypicked commit sha is - f2d63296f5b50684c1eeaf1619684c549acfa577
+Commit message - Let spine be strict-mode compatible
+---> The original commit sha is - 05e39b1cda238a386d209b53f2f344c4a4576a72
+Commit message - Let spine be strict-mode compatible
+---> The files with partial_cherrypicks are:-
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ c03c8e5a2eb03edc8d27cc5b105f82636d1fa853 -> a52036c8f8b6a7e25e226749658791565c2c0316 } is a cherrypick
+{ f2d63296f5b50684c1eeaf1619684c549acfa577 -> 4c6ce075a834ea82f413f01f9305e6092719f478 }
+Partial Cherry-pick commits SHA are -> 
+a52036c8f8b6a7e25e226749658791565c2c0316 - cherrypick - 4c6ce075a834ea82f413f01f9305e6092719f478
+---> The cherrypicked commit sha is - a52036c8f8b6a7e25e226749658791565c2c0316
+Commit message - cleanup some test naming 
+---> The original commit sha is - 4c6ce075a834ea82f413f01f9305e6092719f478
+Commit message - Merge branch 'SpeCT-master' into dev
+---> The files with partial_cherrypicks are:-
+test/specs/ajax.js
+test/specs/class.js
+test/specs/controller.js
+test/specs/manager.js
+test/specs/model.js
+test/specs/model.relation.js
+test/specs/route.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 2738ecbafac1c466778ed1aa6ff5faa1941291f8 -> 8f7dd29bacbd9e6ac561aac61fe1a3eaef797665 } is a cherrypick
+{ a385c23de67e5a7a8b718d5148c40e2f9a321ec2 -> e59306ce17afafc1ad81ed7d3f3d21ecf02a9baa }
+Partial Cherry-pick commits SHA are -> 
+8f7dd29bacbd9e6ac561aac61fe1a3eaef797665 - cherrypick - e59306ce17afafc1ad81ed7d3f3d21ecf02a9baa
+---> The cherrypicked commit sha is - 8f7dd29bacbd9e6ac561aac61fe1a3eaef797665
+Commit message - Fix model instance Events wrapper
+
+Take in implement of Events (#447 / #450)
+---> The original commit sha is - e59306ce17afafc1ad81ed7d3f3d21ecf02a9baa
+Commit message - Merge pull request #452 from yaakaito/fix/event-fixes-for-model
+
+Fix model instance Events wrapper
+---> The files with partial_cherrypicks are:-
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 35508fd18328389d6fae72fbed4599456c87a0c1 -> 88ac575e978a4a05edb96b8b6dff33139515c700 } is a cherrypick
+{ e38841a5173330e97e9c6c78cc3464e34c0e0834 -> e93fd2c7485edea815e850d8b04596f693c4b8d2 }
+Partial Cherry-pick commits SHA are -> 
+88ac575e978a4a05edb96b8b6dff33139515c700 - cherrypick - e93fd2c7485edea815e850d8b04596f693c4b8d2
+---> The cherrypicked commit sha is - 88ac575e978a4a05edb96b8b6dff33139515c700
+Commit message - cake build no source maps!
+---> The original commit sha is - e93fd2c7485edea815e850d8b04596f693c4b8d2
+Commit message - compile without source maps in branches that aren't master
+---> The files with partial_cherrypicks are:-
+lib/ajax.js
+lib/list.js
+lib/local.js
+lib/manager.js
+lib/route.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 36da3b77f0d496039b3999960886db59130e7fd5 -> 91c6d3d263be90a9303a3306e10f4928f9b45efe } is a cherrypick
+{ a4bb8c38559beae255a7ac65ab74c84de1aa4bdb -> 0c11e5860f6bf746fa0ecd07eb29168fb3be5d8f }
+Partial Cherry-pick commits SHA are -> 
+91c6d3d263be90a9303a3306e10f4928f9b45efe - cherrypick - 0c11e5860f6bf746fa0ecd07eb29168fb3be5d8f
+---> The cherrypicked commit sha is - 91c6d3d263be90a9303a3306e10f4928f9b45efe
+Commit message - Collection::add() and Collection::remove() methods
+---> The original commit sha is - 0c11e5860f6bf746fa0ecd07eb29168fb3be5d8f
+Commit message - Merge pull request #441 from adambiggs/add-remove-relations
+
+Collection::add() and Collection::remove() methods
+---> The files with partial_cherrypicks are:-
+lib/relation.js
+lib/relation.map
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 9e6093f283912da37280665ad1a3f47da0fe28b3 -> 71c108790e2252257a75a508aa17e65e3a032ba5 } is a cherrypick
+{ 957dc6f0db7a023fbe284d9d07dff1e68dda8b03 -> e99ad89b559aee1cf7880827e02a219093dbd101 }
+Partial Cherry-pick commits SHA are -> 
+71c108790e2252257a75a508aa17e65e3a032ba5 - cherrypick - e99ad89b559aee1cf7880827e02a219093dbd101
+---> The cherrypicked commit sha is - 71c108790e2252257a75a508aa17e65e3a032ba5
+Commit message - try adding the listen methods to model instances 
+---> The original commit sha is - e99ad89b559aee1cf7880827e02a219093dbd101
+Commit message - Merge branch 'master' into listenEvents
+---> The files with partial_cherrypicks are:-
+test/specs/events.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ f990b8319fbd121b0a0a23c36d57cf88b0b1ff38 -> 29c4b7de285f789619bf5c316fb3d394161ea7a6 } is a cherrypick
+{ d895d8f37c594245509d785585f0facc47d4cc8b -> 3149076ecc94dc2e8676b922d221aa4a17d32353 }
+Partial Cherry-pick commits SHA are -> 
+29c4b7de285f789619bf5c316fb3d394161ea7a6 - cherrypick - 3149076ecc94dc2e8676b922d221aa4a17d32353
+---> The cherrypicked commit sha is - 29c4b7de285f789619bf5c316fb3d394161ea7a6
+Commit message - up the version numbers!
+---> The original commit sha is - 3149076ecc94dc2e8676b922d221aa4a17d32353
+Commit message - Merge pull request #413 from adambiggs/protect-manager-methods
+
+Prevent overwriting existing methods in Spine.Stack constructor (Fixes #386)
+---> The files with partial_cherrypicks are:-
+lib/spine.js
+package.json
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ 37bdb685c6b8244de2c873d03da7072138089c8d -> 1106c3b4b9e2e5b903b7c9f72ae79d283a754d46 } is a cherrypick
+{ 28a0fe672eed6c58694403f6ed433ea5094fed7f -> 8904207f6e3822c602867c3eea9cffc4501ff11b }
+Partial Cherry-pick commits SHA are -> 
+1106c3b4b9e2e5b903b7c9f72ae79d283a754d46 - cherrypick - 8904207f6e3822c602867c3eea9cffc4501ff11b
+---> The cherrypicked commit sha is - 1106c3b4b9e2e5b903b7c9f72ae79d283a754d46
+Commit message - Test case for #219.
+---> The original commit sha is - 8904207f6e3822c602867c3eea9cffc4501ff11b
+Commit message - Merge pull request #355 from pyykkis/test-case-for-219
+
+Test case for #219.
+---> The files with partial_cherrypicks are:-
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ 74862a7e036d0bf0c3a9313dfd56d7ab4c92d3cf -> a89d630e42fe1a656ed98bf26336d5b10dc8e0dc } is a cherrypick
+{ 6807f4e61b37b0f2ccf3b2c6c0600fcad8109018 -> 28a0fe672eed6c58694403f6ed433ea5094fed7f }
+Partial Cherry-pick commits SHA are -> 
+a89d630e42fe1a656ed98bf26336d5b10dc8e0dc - cherrypick - 28a0fe672eed6c58694403f6ed433ea5094fed7f
+---> The cherrypicked commit sha is - a89d630e42fe1a656ed98bf26336d5b10dc8e0dc
+Commit message - Return the clone
+---> The original commit sha is - 28a0fe672eed6c58694403f6ed433ea5094fed7f
+Commit message - Merge pull request #351 from adambiggs/clone-attributes-fix
+
+Fix for #219
+---> The files with partial_cherrypicks are:-
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ ce5ddde9d4fc5d15fbff308d602a2bd5611baeeb -> 493475f462f96fab58aa5e965a1d57b925bf5f07 } is a cherrypick
+{ d691e7f3cbaba68fa551f346e8042f3a9ffa9901 -> 4f8b247eb04c491432644969019c8ca566bf28fd }
+Partial Cherry-pick commits SHA are -> 
+493475f462f96fab58aa5e965a1d57b925bf5f07 - cherrypick - 4f8b247eb04c491432644969019c8ca566bf28fd
+---> The cherrypicked commit sha is - 493475f462f96fab58aa5e965a1d57b925bf5f07
+Commit message - More descriptive 'unknown record' errors
+---> The original commit sha is - 4f8b247eb04c491432644969019c8ca566bf28fd
+Commit message - Merge pull request #383 from adambiggs/descriptive-record-errors
+
+More descriptive "unknown record" errors
+---> The files with partial_cherrypicks are:-
+lib/relation.js
+lib/spine.js
+src/relation.coffee
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ 493475f462f96fab58aa5e965a1d57b925bf5f07 -> fb53b6b189d77dbf5a7b2b2aa0ac6c3aa1dca549 } is a cherrypick
+{ 3e90bf73c773ed92be77866753be337c2af51f28 -> d691e7f3cbaba68fa551f346e8042f3a9ffa9901 }
+Partial Cherry-pick commits SHA are -> 
+fb53b6b189d77dbf5a7b2b2aa0ac6c3aa1dca549 - cherrypick - d691e7f3cbaba68fa551f346e8042f3a9ffa9901
+---> The cherrypicked commit sha is - fb53b6b189d77dbf5a7b2b2aa0ac6c3aa1dca549
+Commit message - Fix spine.coffee to pass CoffeeLint class name rule
+---> The original commit sha is - d691e7f3cbaba68fa551f346e8042f3a9ffa9901
+Commit message - Revert "More descriptive 'unknown record' errors"
+
+This reverts commit 3e90bf73c773ed92be77866753be337c2af51f28.
+---> The files with partial_cherrypicks are:-
+lib/relation.js
+lib/spine.js
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ ce5ddde9d4fc5d15fbff308d602a2bd5611baeeb -> 493475f462f96fab58aa5e965a1d57b925bf5f07 } is a cherrypick
+{ df65f1550825dc2a15126a073bf72b139f09eff4 -> 3e90bf73c773ed92be77866753be337c2af51f28 }
+Partial Cherry-pick commits SHA are -> 
+493475f462f96fab58aa5e965a1d57b925bf5f07 - cherrypick - 3e90bf73c773ed92be77866753be337c2af51f28
+---> The cherrypicked commit sha is - 493475f462f96fab58aa5e965a1d57b925bf5f07
+Commit message - More descriptive 'unknown record' errors
+---> The original commit sha is - 3e90bf73c773ed92be77866753be337c2af51f28
+Commit message - More descriptive 'unknown record' errors
+---> The files with partial_cherrypicks are:-
+lib/relation.js
+lib/spine.js
+src/relation.coffee
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ 37bdb685c6b8244de2c873d03da7072138089c8d -> 1106c3b4b9e2e5b903b7c9f72ae79d283a754d46 } is a cherrypick
+{ 0ec6fcd367b673fd4a41ec1a46a17d9b39a0a772 -> cc8c2b7e1095cdba86a43c6edc37ae717fc3abe5 }
+Partial Cherry-pick commits SHA are -> 
+1106c3b4b9e2e5b903b7c9f72ae79d283a754d46 - cherrypick - cc8c2b7e1095cdba86a43c6edc37ae717fc3abe5
+---> The cherrypicked commit sha is - 1106c3b4b9e2e5b903b7c9f72ae79d283a754d46
+Commit message - Test case for #219.
+---> The original commit sha is - cc8c2b7e1095cdba86a43c6edc37ae717fc3abe5
+Commit message - Test case for #219.
+---> The files with partial_cherrypicks are:-
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ fbc76feb68092906fa5d20ee1912a0c765fff4ad -> 31993b06391f560a3eddb7fb609b8a0a4a42ddea } is a cherrypick
+{ f8bc4575e04aeba372a671fccbfa846e9619f23b -> 3c67d54c9d501df0e30f5c5ecc6b51aa5211a48b }
+Partial Cherry-pick commits SHA are -> 
+31993b06391f560a3eddb7fb609b8a0a4a42ddea - cherrypick - 3c67d54c9d501df0e30f5c5ecc6b51aa5211a48b
+---> The cherrypicked commit sha is - 31993b06391f560a3eddb7fb609b8a0a4a42ddea
+Commit message - Upgrading from jasmine 1.0.2 to 1.2.0
+---> The original commit sha is - 3c67d54c9d501df0e30f5c5ecc6b51aa5211a48b
+Commit message - Merge pull request #340 from abernier/patch-18
+
+Upgrading from jasmine 1.0.2 to 1.2.0
+---> The files with partial_cherrypicks are:-
+test/ajax.html
+test/index.html
+test/lib/MIT.LICENSE
+test/lib/jasmine-html.js
+test/lib/jasmine.css
+test/lib/jasmine.html.js
+test/lib/jasmine.js
+test/manager.html
+test/route.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ 5be065196136db11019b0fc8b67a72e5226ba7f1 -> af1ea1ad1d9c238cc2ff8a4bfd7c593910c24a24 } is a cherrypick
+{ ae2d0b5d69833e6e11db3d70aed6f0b349c905c2 -> 586c1f951bcd208a4b0dde72d8181b831ea94482 }
+Partial Cherry-pick commits SHA are -> 
+af1ea1ad1d9c238cc2ff8a4bfd7c593910c24a24 - cherrypick - 586c1f951bcd208a4b0dde72d8181b831ea94482
+---> The cherrypicked commit sha is - af1ea1ad1d9c238cc2ff8a4bfd7c593910c24a24
+Commit message - Wrong title
+---> The original commit sha is - 586c1f951bcd208a4b0dde72d8181b831ea94482
+Commit message - Merge pull request #338 from abernier/patch-16
+
+Wrong Manager suite title
+---> The files with partial_cherrypicks are:-
+test/specs/manager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ 8c560f6496373ff2cec46d5663b48ec62478e7f3 -> 5c58b585b38678fcc8d4fb5dac9eb128b0886aa3 } is a cherrypick
+{ 43195d43c374482454c4b4702e5fa69276d728a7 -> 0befd716260a1cfa8a70a50324cec83b315b84b3 }
+Partial Cherry-pick commits SHA are -> 
+5c58b585b38678fcc8d4fb5dac9eb128b0886aa3 - cherrypick - 0befd716260a1cfa8a70a50324cec83b315b84b3
+---> The cherrypicked commit sha is - 5c58b585b38678fcc8d4fb5dac9eb128b0886aa3
+Commit message - Writing test for generating unique id's
+---> The original commit sha is - 0befd716260a1cfa8a70a50324cec83b315b84b3
+Commit message - Revert "Merge pull request #301 from sishen/dirty_plugin"
+
+This reverts commit 43195d43c374482454c4b4702e5fa69276d728a7, reversing
+changes made to ef55f075a2387bf496a21248b32b9e82fe5b8f92.
+---> The files with partial_cherrypicks are:-
+lib/dirty.js
+src/dirty.coffee
+test/index.html
+test/specs/model.dirty.js
+test/specs/model.local.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ 791df1e40549f1b927e4f6ba9d53703260d906b1 -> 54b58c4519e7e4e5b4ffe08d3f50b609337bee36 } is a cherrypick
+{ a6d42f7c2256c00bde7359ade93ad2500f99c2a9 -> 124ff578b113024fc55d96adee1422dd356657e9 }
+Partial Cherry-pick commits SHA are -> 
+54b58c4519e7e4e5b4ffe08d3f50b609337bee36 - cherrypick - 124ff578b113024fc55d96adee1422dd356657e9
+---> The cherrypicked commit sha is - 54b58c4519e7e4e5b4ffe08d3f50b609337bee36
+Commit message - In case item is not a record (and thus has no .reload method), return it at least.
+---> The original commit sha is - 124ff578b113024fc55d96adee1422dd356657e9
+Commit message - Merge branch 'master' of github.com:maccman/spine
+---> The files with partial_cherrypicks are:-
+lib/tmpl.js
+src/tmpl.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 54b58c4519e7e4e5b4ffe08d3f50b609337bee36 -> 7b4035758ff1acd70bfed831b7ede4120446405a } is a cherrypick
+{ d7496e25cc8809a9cb21a36e303707ef5f3add71 -> a6d42f7c2256c00bde7359ade93ad2500f99c2a9 }
+Partial Cherry-pick commits SHA are -> 
+7b4035758ff1acd70bfed831b7ede4120446405a - cherrypick - a6d42f7c2256c00bde7359ade93ad2500f99c2a9
+---> The cherrypicked commit sha is - 7b4035758ff1acd70bfed831b7ede4120446405a
+Commit message - pass cloned array to refresh event
+---> The original commit sha is - a6d42f7c2256c00bde7359ade93ad2500f99c2a9
+Commit message - only do a regex match when needed, not on every find() call
+---> The files with partial_cherrypicks are:-
+lib/tmpl.js
+src/tmpl.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ 791df1e40549f1b927e4f6ba9d53703260d906b1 -> 54b58c4519e7e4e5b4ffe08d3f50b609337bee36 } is a cherrypick
+{ 7b4035758ff1acd70bfed831b7ede4120446405a -> 0a9b734ffb56da24bcdcd4f6ffed953d822ceb7f }
+Partial Cherry-pick commits SHA are -> 
+54b58c4519e7e4e5b4ffe08d3f50b609337bee36 - cherrypick - 0a9b734ffb56da24bcdcd4f6ffed953d822ceb7f
+---> The cherrypicked commit sha is - 54b58c4519e7e4e5b4ffe08d3f50b609337bee36
+Commit message - In case item is not a record (and thus has no .reload method), return it at least.
+---> The original commit sha is - 0a9b734ffb56da24bcdcd4f6ffed953d822ceb7f
+Commit message - Merge pull request #182 from abernier/master
+
+Little issue with $.fn.item and the returning value when item is not a record
+---> The files with partial_cherrypicks are:-
+lib/tmpl.js
+src/tmpl.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ 1d8f5e63ada40db20f1ee856e16421b5e9edc4ef -> e682dd1f0f78b730fe71a996a08e710d8a418b8d } is a cherrypick
+{ 116b722dd8ea9912b9906db6b70da7948c16948a -> 01dd8b0823a4579f9162ba666914e921c7f97e2b }
+Partial Cherry-pick commits SHA are -> 
+e682dd1f0f78b730fe71a996a08e710d8a418b8d - cherrypick - 01dd8b0823a4579f9162ba666914e921c7f97e2b
+---> The cherrypicked commit sha is - e682dd1f0f78b730fe71a996a08e710d8a418b8d
+Commit message - Passing along records as 'refresh' event's arguments when refreshing a relation (hasMany).
+---> The original commit sha is - 01dd8b0823a4579f9162ba666914e921c7f97e2b
+Commit message - Merge pull request #162 from abernier/master
+
+Little modification on relation.coffee in order to pass records along when refreshing a (hasMany) relation
+---> The files with partial_cherrypicks are:-
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ 1e2fe5b4c6481d28efb1d64039478a5b0886e3ce -> 6511db28200e365cce536b18be725e872121fd54 } is a cherrypick
+{ 116b722dd8ea9912b9906db6b70da7948c16948a -> 01dd8b0823a4579f9162ba666914e921c7f97e2b }
+Partial Cherry-pick commits SHA are -> 
+6511db28200e365cce536b18be725e872121fd54 - cherrypick - 01dd8b0823a4579f9162ba666914e921c7f97e2b
+---> The cherrypicked commit sha is - 6511db28200e365cce536b18be725e872121fd54
+Commit message - Merge branch 'master' of git://github.com/maccman/spine
+
+Conflicts:
+	lib/relation.js
+---> The original commit sha is - 01dd8b0823a4579f9162ba666914e921c7f97e2b
+Commit message - Merge pull request #162 from abernier/master
+
+Little modification on relation.coffee in order to pass records along when refreshing a (hasMany) relation
+---> The files with partial_cherrypicks are:-
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ 1d8f5e63ada40db20f1ee856e16421b5e9edc4ef -> e682dd1f0f78b730fe71a996a08e710d8a418b8d } is a cherrypick
+{ 1e2fe5b4c6481d28efb1d64039478a5b0886e3ce -> 6511db28200e365cce536b18be725e872121fd54 }
+Partial Cherry-pick commits SHA are -> 
+e682dd1f0f78b730fe71a996a08e710d8a418b8d - cherrypick - 6511db28200e365cce536b18be725e872121fd54
+---> The cherrypicked commit sha is - e682dd1f0f78b730fe71a996a08e710d8a418b8d
+Commit message - Passing along records as 'refresh' event's arguments when refreshing a relation (hasMany).
+---> The original commit sha is - 6511db28200e365cce536b18be725e872121fd54
+Commit message - Merge branch 'master' of git://github.com/maccman/spine
+
+Conflicts:
+	lib/relation.js
+---> The files with partial_cherrypicks are:-
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ c0812f95d45ca8e7f2231f27a3d6511605fb1586 -> fd852e46817e07dcb250ce1168243e548caa4c3a } is a cherrypick
+{ e682dd1f0f78b730fe71a996a08e710d8a418b8d -> 39b464bb8db4d2cb8cdf93c25f1dd27cf36b569c }
+Partial Cherry-pick commits SHA are -> 
+fd852e46817e07dcb250ce1168243e548caa4c3a - cherrypick - 39b464bb8db4d2cb8cdf93c25f1dd27cf36b569c
+---> The cherrypicked commit sha is - fd852e46817e07dcb250ce1168243e548caa4c3a
+Commit message - recompile with CS version 1.1.3
+---> The original commit sha is - 39b464bb8db4d2cb8cdf93c25f1dd27cf36b569c
+Commit message - Compiling with CS@1.1.3
+---> The files with partial_cherrypicks are:-
+lib/ajax.js
+lib/local.js
+lib/manager.js
+lib/route.js
+lib/spine.js
+lib/tabs.js
+lib/tmpl.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ 562ed3ba291f64d63e9494603c1f70150aec4e86 -> 9b3ed491d4e995590acf9a7474b0fefda2d68feb } is a cherrypick
+{ 24e89647c44095714403465c66a66b910e288852 -> 71515a561e769e96db6d27f2bc6e5f396c9dcd44 }
+Partial Cherry-pick commits SHA are -> 
+9b3ed491d4e995590acf9a7474b0fefda2d68feb - cherrypick - 71515a561e769e96db6d27f2bc6e5f396c9dcd44
+---> The cherrypicked commit sha is - 9b3ed491d4e995590acf9a7474b0fefda2d68feb
+Commit message - bring back item parameter because it's missing from the coffeescript version and throwing an exception
+---> The original commit sha is - 71515a561e769e96db6d27f2bc6e5f396c9dcd44
+Commit message - Merge branch 'master' of github.com:maccman/spine
+---> The files with partial_cherrypicks are:-
+src/tmpl.coffee
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ f312eb356423106f248a7f498cb1aa88b09a5d15 -> 3d3b323196d652c0fd3d6d2c9318c2b9966e489f } is a cherrypick
+{ 8a3b79abf8a20c19735ee91fd2274e0b1d9a6cc5 -> b093c4fb737bf6dfec0fba7e7c6b3dae763559e3 }
+Partial Cherry-pick commits SHA are -> 
+3d3b323196d652c0fd3d6d2c9318c2b9966e489f - cherrypick - b093c4fb737bf6dfec0fba7e7c6b3dae763559e3
+---> The cherrypicked commit sha is - 3d3b323196d652c0fd3d6d2c9318c2b9966e489f
+Commit message - Removing lies from doc comments
+---> The original commit sha is - b093c4fb737bf6dfec0fba7e7c6b3dae763559e3
+Commit message - Merge branch 'gh-pages'
+---> The files with partial_cherrypicks are:-
+lib/spine.manager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ 2d853407df2865d508690413905632caef78147a -> 9e5076805a7cffe4dd85f1d7a5b0930fd1893ae7 } is a cherrypick
+{ 8a3b79abf8a20c19735ee91fd2274e0b1d9a6cc5 -> b093c4fb737bf6dfec0fba7e7c6b3dae763559e3 }
+Partial Cherry-pick commits SHA are -> 
+9e5076805a7cffe4dd85f1d7a5b0930fd1893ae7 - cherrypick - b093c4fb737bf6dfec0fba7e7c6b3dae763559e3
+---> The cherrypicked commit sha is - 9e5076805a7cffe4dd85f1d7a5b0930fd1893ae7
+Commit message - Merge pull request #34 from KevBurnsJr/no-deactive-class
+
+Removing lies from doc comments
+---> The original commit sha is - b093c4fb737bf6dfec0fba7e7c6b3dae763559e3
+Commit message - Merge branch 'gh-pages'
+---> The files with partial_cherrypicks are:-
+lib/spine.manager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ 3d3b323196d652c0fd3d6d2c9318c2b9966e489f -> c2df0c509888c746154c229b000a3dfe1c233b6b } is a cherrypick
+{ c8cb6d6dd716771b47c100cc5ef283e669b35184 -> 8a3b79abf8a20c19735ee91fd2274e0b1d9a6cc5 }
+Partial Cherry-pick commits SHA are -> 
+c2df0c509888c746154c229b000a3dfe1c233b6b - cherrypick - 8a3b79abf8a20c19735ee91fd2274e0b1d9a6cc5
+---> The cherrypicked commit sha is - c2df0c509888c746154c229b000a3dfe1c233b6b
+Commit message - Fixing line breaks in site.md changelog
+---> The original commit sha is - 8a3b79abf8a20c19735ee91fd2274e0b1d9a6cc5
+Commit message - Merge branch 'gh-pages' of github.com:maccman/spine into gh-pages
+---> The files with partial_cherrypicks are:-
+lib/spine.manager.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ f4b204b62a82264bcddcd07c9178c62b8928cbcf -> ed27c0f2bb3de537d9483f7f41d465d09267e438 } is a cherrypick
+{ c2df0c509888c746154c229b000a3dfe1c233b6b -> 2d853407df2865d508690413905632caef78147a }
+Partial Cherry-pick commits SHA are -> 
+ed27c0f2bb3de537d9483f7f41d465d09267e438 - cherrypick - 2d853407df2865d508690413905632caef78147a
+---> The cherrypicked commit sha is - ed27c0f2bb3de537d9483f7f41d465d09267e438
+Commit message - Fixing minor typo in docs.
+---> The original commit sha is - 2d853407df2865d508690413905632caef78147a
+Commit message - Merge pull request #35 from KevBurnsJr/change-log-line-breaks
+
+Change log line breaks
+---> The files with partial_cherrypicks are:-
+site/site.md
+-----------------------------------------------------------------
+

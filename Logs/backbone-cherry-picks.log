@@ -1,0 +1,2271 @@
+# of cherry-picks = 177
+Cherry-pick diff pair 1 is -> 
+{ 743ebb788d8909b277ca459c6c9159f9528b6f87 -> dd00fd45a7f6432bd4193e7277d1982f49c4f421 } is a cherrypick
+{ 0a51e22c05b75f0b8fe3cf712e4b2ecb14e0a2c4 -> ace13558acf446a2cf7cb491b87ea21b96bea6c0 }
+Cherrypick commits SHA are -> 
+dd00fd45a7f6432bd4193e7277d1982f49c4f421 - cherrypick - ace13558acf446a2cf7cb491b87ea21b96bea6c0
+---> The cherrypicked commit sha is - dd00fd45a7f6432bd4193e7277d1982f49c4f421
+Commit message - Update backbone.js comment for clarity
+
+Fixed comment in backbone.js
+---> The original commit sha is - ace13558acf446a2cf7cb491b87ea21b96bea6c0
+Commit message - Merge pull request #3326 from biversen21/master
+
+Update backbone.js comment for clarity
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ bc59f5338c563d5ad808d29e71a5acf1ded96bab -> 028a06678057df6f78c920a47bf0e170e02a1082 } is a cherrypick
+{ f7cc792bdc17ee23e298d1d3b83a8560b02374ad -> f2612a92df606d93e41c39caa4d33b2dedce3a2e }
+Cherrypick commits SHA are -> 
+028a06678057df6f78c920a47bf0e170e02a1082 - cherrypick - f2612a92df606d93e41c39caa4d33b2dedce3a2e
+---> The cherrypicked commit sha is - 028a06678057df6f78c920a47bf0e170e02a1082
+Commit message - Cleanup event listeners on destroy
+
+When a Model is destroyed, it may still be listening to events.
+We should `stopListening` to those events to prevent memory leaks.
+---> The original commit sha is - f2612a92df606d93e41c39caa4d33b2dedce3a2e
+Commit message - Merge pull request #3222 from emorikawa/master
+
+Prevent memory leak by `stopListening` on Backbone.Model `destroy`
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ 8761f25c7da553028da6a56cf225f69ee07e4602 -> 4807136e34cec19cade47d6d8f3f81eb723c0dac } is a cherrypick
+{ 7afdc65e044ee0c23a33b0176649508ba5b23e49 -> 3b34bf7558919d5bfb982b8d5d94f54587c9710d }
+Cherrypick commits SHA are -> 
+4807136e34cec19cade47d6d8f3f81eb723c0dac - cherrypick - 3b34bf7558919d5bfb982b8d5d94f54587c9710d
+---> The cherrypicked commit sha is - 4807136e34cec19cade47d6d8f3f81eb723c0dac
+Commit message - Switch from double to single quotes
+
+Switch from double to single quotes for consistency with rest of file
+---> The original commit sha is - 3b34bf7558919d5bfb982b8d5d94f54587c9710d
+Commit message - Merge pull request #3214 from austentalbot/patch-1
+
+Switch from double to single quotes
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ fa041b4c109dc6487257b06d2ae2c8b943fcf755 -> b28c1460db599b42f3e51a182d07c64ce190c21e } is a cherrypick
+{ 11f0fd2fd6f27e997b07c84565a669d1eb52193e -> 33fba0ac258dfec90d5ceedc08488eb41a8a3fcf }
+Cherrypick commits SHA are -> 
+b28c1460db599b42f3e51a182d07c64ce190c21e - cherrypick - 33fba0ac258dfec90d5ceedc08488eb41a8a3fcf
+---> The cherrypicked commit sha is - b28c1460db599b42f3e51a182d07c64ce190c21e
+Commit message - Fix #1987 - Mention the removal of `options.index` in the changelog
+---> The original commit sha is - 33fba0ac258dfec90d5ceedc08488eb41a8a3fcf
+Commit message - Include query string parsing in the changelog.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ c33dcdeffd85a5b749100249b8b9de7be44a0594 -> f210ef68f3d8cfc0676577fe347ababf0aab4497 } is a cherrypick
+{ 78fad228adb2a0273da033d86adf5d078d1a09b2 -> a32e1ff1a1975f600d83ef57f99dafc3fde8ff01 }
+Cherrypick commits SHA are -> 
+f210ef68f3d8cfc0676577fe347ababf0aab4497 - cherrypick - a32e1ff1a1975f600d83ef57f99dafc3fde8ff01
+---> The cherrypicked commit sha is - f210ef68f3d8cfc0676577fe347ababf0aab4497
+Commit message - Removing the IE8 PATCH requests fix
+---> The original commit sha is - a32e1ff1a1975f600d83ef57f99dafc3fde8ff01
+Commit message - Merge pull request #3172 from gmajoulet/master
+
+Removing the IE8 PATCH requests fix
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ 00b2551e66a750a9c2680d78af91b52d65237a92 -> ac580caffa214602552194ed57198eb3db5dda81 } is a cherrypick
+{ 5dc2d093fb43fd1b76f134470f5fa3e1052731d6 -> 3edf74c37bad199d81add5152207e20ed7c4e7d0 }
+Cherrypick commits SHA are -> 
+ac580caffa214602552194ed57198eb3db5dda81 - cherrypick - 3edf74c37bad199d81add5152207e20ed7c4e7d0
+---> The cherrypicked commit sha is - ac580caffa214602552194ed57198eb3db5dda81
+Commit message - Fixes #892 ... make .route() chainable.
+---> The original commit sha is - 3edf74c37bad199d81add5152207e20ed7c4e7d0
+Commit message - return `this` from `delegate`
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ e572881fff4ecc1f2ad1d5ff86eb5d3484772d94 -> bbee6f17ce416afdfa7c1cbdc5a429c01c081a84 } is a cherrypick
+{ 5dc2d093fb43fd1b76f134470f5fa3e1052731d6 -> 3edf74c37bad199d81add5152207e20ed7c4e7d0 }
+Cherrypick commits SHA are -> 
+bbee6f17ce416afdfa7c1cbdc5a429c01c081a84 - cherrypick - 3edf74c37bad199d81add5152207e20ed7c4e7d0
+---> The cherrypicked commit sha is - bbee6f17ce416afdfa7c1cbdc5a429c01c081a84
+Commit message - Merge pull request #909 from josscrowcroft/master
+
+Return `this` from View.setElement()
+---> The original commit sha is - 3edf74c37bad199d81add5152207e20ed7c4e7d0
+Commit message - return `this` from `delegate`
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ 9ba384627c29ac72e5f443443032e01afd3d5c27 -> 57e1e7d0834655bb8e1957781131185176e09b1e } is a cherrypick
+{ 5dc2d093fb43fd1b76f134470f5fa3e1052731d6 -> 3edf74c37bad199d81add5152207e20ed7c4e7d0 }
+Cherrypick commits SHA are -> 
+57e1e7d0834655bb8e1957781131185176e09b1e - cherrypick - 3edf74c37bad199d81add5152207e20ed7c4e7d0
+---> The cherrypicked commit sha is - 57e1e7d0834655bb8e1957781131185176e09b1e
+Commit message - Merge pull request #1612 from joshvermaire/chain_navigation
+
+allow for chaining of router navigation
+---> The original commit sha is - 3edf74c37bad199d81add5152207e20ed7c4e7d0
+Commit message - return `this` from `delegate`
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ d6046cfb5e2d9955e9c8c4a8a97acc0e9ec532c0 -> d02415fb4b668e64cb2f0fa492ba6712dca99347 } is a cherrypick
+{ 5dc2d093fb43fd1b76f134470f5fa3e1052731d6 -> 3edf74c37bad199d81add5152207e20ed7c4e7d0 }
+Cherrypick commits SHA are -> 
+d02415fb4b668e64cb2f0fa492ba6712dca99347 - cherrypick - 3edf74c37bad199d81add5152207e20ed7c4e7d0
+---> The cherrypicked commit sha is - d02415fb4b668e64cb2f0fa492ba6712dca99347
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+---> The original commit sha is - 3edf74c37bad199d81add5152207e20ed7c4e7d0
+Commit message - return `this` from `delegate`
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ c80be41dac21828a29fa08aaf64ca38e2a6d3bc7 -> 557edc7fc00c83b12c0c45bebbcc41e2c7b46314 } is a cherrypick
+{ 5dc2d093fb43fd1b76f134470f5fa3e1052731d6 -> 3edf74c37bad199d81add5152207e20ed7c4e7d0 }
+Cherrypick commits SHA are -> 
+557edc7fc00c83b12c0c45bebbcc41e2c7b46314 - cherrypick - 3edf74c37bad199d81add5152207e20ed7c4e7d0
+---> The cherrypicked commit sha is - 557edc7fc00c83b12c0c45bebbcc41e2c7b46314
+Commit message - return `this` from `delegate`
+---> The original commit sha is - 3edf74c37bad199d81add5152207e20ed7c4e7d0
+Commit message - return `this` from `delegate`
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ fc95eaefd2ebe2d953fdb213c358996a47a6ee6d -> 3cef7fa7b6aac645aa7cd81dc81a54333938fdd7 } is a cherrypick
+{ 72b88b5835ce27ad7dc9ad901d3dae844157c3c2 -> 20935c85eee0defaa528bf19f76008b185b3ef8f }
+Cherrypick commits SHA are -> 
+3cef7fa7b6aac645aa7cd81dc81a54333938fdd7 - cherrypick - 20935c85eee0defaa528bf19f76008b185b3ef8f
+---> The cherrypicked commit sha is - 3cef7fa7b6aac645aa7cd81dc81a54333938fdd7
+Commit message - Fix test for fc95eae
+---> The original commit sha is - 20935c85eee0defaa528bf19f76008b185b3ef8f
+Commit message - Fix test for fc95eae
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ bde634fd6dd0d0382c13aca618869c0172fc4dde -> fc95eaefd2ebe2d953fdb213c358996a47a6ee6d } is a cherrypick
+{ 12abe8eef60e8611859c856308d671c24a5b1a24 -> 72b88b5835ce27ad7dc9ad901d3dae844157c3c2 }
+Cherrypick commits SHA are -> 
+fc95eaefd2ebe2d953fdb213c358996a47a6ee6d - cherrypick - 72b88b5835ce27ad7dc9ad901d3dae844157c3c2
+---> The cherrypicked commit sha is - fc95eaefd2ebe2d953fdb213c358996a47a6ee6d
+Commit message - Revert "Speed up method calls in delegateEvents and delegate"
+
+This reverts commit 846de91c88e04c90e2805f7fdea18e4012c94afc.
+
+Conflicts:
+	backbone.js
+---> The original commit sha is - 72b88b5835ce27ad7dc9ad901d3dae844157c3c2
+Commit message - Revert "Speed up method calls in delegateEvents and delegate"
+
+This reverts commit 846de91c88e04c90e2805f7fdea18e4012c94afc.
+
+Conflicts:
+	backbone.js
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ e14a903020d8a10a8b98ff687eb6afc9dc79b89f -> be3a35428a0ebad1902cd1d987f7fe70e39beccb } is a cherrypick
+{ 25c0beed0f698d97d4857d479e470e26d23f2cfb -> 12abe8eef60e8611859c856308d671c24a5b1a24 }
+Cherrypick commits SHA are -> 
+be3a35428a0ebad1902cd1d987f7fe70e39beccb - cherrypick - 12abe8eef60e8611859c856308d671c24a5b1a24
+---> The cherrypicked commit sha is - be3a35428a0ebad1902cd1d987f7fe70e39beccb
+Commit message - Comment for 2 arg form inside _delegate
+---> The original commit sha is - 12abe8eef60e8611859c856308d671c24a5b1a24
+Commit message - Comment for 2 arg form inside _delegate
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 14 is -> 
+{ aca58b7659f4771d3aa74f9289b885723877be49 -> e14a903020d8a10a8b98ff687eb6afc9dc79b89f } is a cherrypick
+{ 9868bfb86263da9fa17ae306af0f0b56e7e30fdf -> 25c0beed0f698d97d4857d479e470e26d23f2cfb }
+Cherrypick commits SHA are -> 
+e14a903020d8a10a8b98ff687eb6afc9dc79b89f - cherrypick - 25c0beed0f698d97d4857d479e470e26d23f2cfb
+---> The cherrypicked commit sha is - e14a903020d8a10a8b98ff687eb6afc9dc79b89f
+Commit message - Fix typo
+---> The original commit sha is - 25c0beed0f698d97d4857d479e470e26d23f2cfb
+Commit message - Fix typo
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 15 is -> 
+{ 7c468561580993a287d3b1205ec97553cd006d23 -> aca58b7659f4771d3aa74f9289b885723877be49 } is a cherrypick
+{ 390275b82f23de2ce8ab40a0827fd1e425c261c8 -> 9868bfb86263da9fa17ae306af0f0b56e7e30fdf }
+Cherrypick commits SHA are -> 
+aca58b7659f4771d3aa74f9289b885723877be49 - cherrypick - 9868bfb86263da9fa17ae306af0f0b56e7e30fdf
+---> The cherrypicked commit sha is - aca58b7659f4771d3aa74f9289b885723877be49
+Commit message - No reason jQuery can't be a little faster too
+---> The original commit sha is - 9868bfb86263da9fa17ae306af0f0b56e7e30fdf
+Commit message - No reason jQuery can't be a little faster too
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 16 is -> 
+{ 09d376237be4036ae59a054030a2cd4bf926cea3 -> f872032b52afbba6e183922286ed3fed126367c3 } is a cherrypick
+{ 6ebb6e1752e6dac63042b4f060d1660f4a203b96 -> 18d17db5545b01f9210204d7b4ce9253f304a42e }
+Cherrypick commits SHA are -> 
+f872032b52afbba6e183922286ed3fed126367c3 - cherrypick - 18d17db5545b01f9210204d7b4ce9253f304a42e
+---> The cherrypicked commit sha is - f872032b52afbba6e183922286ed3fed126367c3
+Commit message - Disallow chaining in hook calls
+---> The original commit sha is - 18d17db5545b01f9210204d7b4ce9253f304a42e
+Commit message - Disallow chaining in hook calls
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 17 is -> 
+{ 15cb64ec8ba9fcf85bb5d861606cdee286c552e8 -> 09d376237be4036ae59a054030a2cd4bf926cea3 } is a cherrypick
+{ 9028e338c3b39252bcb8df94ec341bdf9467540d -> 6ebb6e1752e6dac63042b4f060d1660f4a203b96 }
+Cherrypick commits SHA are -> 
+09d376237be4036ae59a054030a2cd4bf926cea3 - cherrypick - 6ebb6e1752e6dac63042b4f060d1660f4a203b96
+---> The cherrypicked commit sha is - 09d376237be4036ae59a054030a2cd4bf926cea3
+Commit message - _createContext is side-effect only
+---> The original commit sha is - 6ebb6e1752e6dac63042b4f060d1660f4a203b96
+Commit message - _createContext is side-effect only
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 18 is -> 
+{ 8ab8646361fb71fcea659ab0d0b88968227e869d -> 31bb4289b059d0c23527e175165a09cd7b1fc0f2 } is a cherrypick
+{ d78fb34aff53430cbac0ee151bac6d8a0bddf885 -> 1e9cd4a35055b70e6c98034e3f882368ce6fd1db }
+Cherrypick commits SHA are -> 
+31bb4289b059d0c23527e175165a09cd7b1fc0f2 - cherrypick - 1e9cd4a35055b70e6c98034e3f882368ce6fd1db
+---> The cherrypicked commit sha is - 31bb4289b059d0c23527e175165a09cd7b1fc0f2
+Commit message - Revert introduction of _undelegate
+---> The original commit sha is - 1e9cd4a35055b70e6c98034e3f882368ce6fd1db
+Commit message - Revert introduction of _undelegate
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 19 is -> 
+{ 33e23df577a48d2b06eda91d5c289fe9bd7c997e -> 8ab8646361fb71fcea659ab0d0b88968227e869d } is a cherrypick
+{ 5f66f9af18d6ef460c69ee31d46b60b487a99a0f -> d78fb34aff53430cbac0ee151bac6d8a0bddf885 }
+Cherrypick commits SHA are -> 
+8ab8646361fb71fcea659ab0d0b88968227e869d - cherrypick - d78fb34aff53430cbac0ee151bac6d8a0bddf885
+---> The cherrypicked commit sha is - 8ab8646361fb71fcea659ab0d0b88968227e869d
+Commit message - Prefix all hooks with _ and introduce _undelegate
+---> The original commit sha is - d78fb34aff53430cbac0ee151bac6d8a0bddf885
+Commit message - Prefix all hooks with _ and introduce _undelegate
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 20 is -> 
+{ 54252e618eac184c0f733e17fabb301408ce6f40 -> 33e23df577a48d2b06eda91d5c289fe9bd7c997e } is a cherrypick
+{ ad44cb41b6b1d3fa72efbf5931623cfd09d96405 -> 5f66f9af18d6ef460c69ee31d46b60b487a99a0f }
+Cherrypick commits SHA are -> 
+33e23df577a48d2b06eda91d5c289fe9bd7c997e - cherrypick - 5f66f9af18d6ef460c69ee31d46b60b487a99a0f
+---> The cherrypicked commit sha is - 33e23df577a48d2b06eda91d5c289fe9bd7c997e
+Commit message - Rename make to _createContext and have _ensureElement and setElement delegate to it
+---> The original commit sha is - 5f66f9af18d6ef460c69ee31d46b60b487a99a0f
+Commit message - Rename make to _createContext and have _ensureElement and setElement delegate to it
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 21 is -> 
+{ 846de91c88e04c90e2805f7fdea18e4012c94afc -> 54252e618eac184c0f733e17fabb301408ce6f40 } is a cherrypick
+{ 3369bf486b1bcb46bd6fb4b34b37145219cc2937 -> ad44cb41b6b1d3fa72efbf5931623cfd09d96405 }
+Cherrypick commits SHA are -> 
+54252e618eac184c0f733e17fabb301408ce6f40 - cherrypick - ad44cb41b6b1d3fa72efbf5931623cfd09d96405
+---> The cherrypicked commit sha is - 54252e618eac184c0f733e17fabb301408ce6f40
+Commit message - Further isolate $.remove by exposing removeElement in case subclasses forgot to clean up
+---> The original commit sha is - ad44cb41b6b1d3fa72efbf5931623cfd09d96405
+Commit message - Further isolate $.remove by exposing removeElement in case subclasses forgot to clean up
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 22 is -> 
+{ 19d82b83385582ceeb9ae2a299e5b9a2ccf4aea5 -> 846de91c88e04c90e2805f7fdea18e4012c94afc } is a cherrypick
+{ be1cba33314ab5d6997a7c660478e808d8494d9a -> 3369bf486b1bcb46bd6fb4b34b37145219cc2937 }
+Cherrypick commits SHA are -> 
+846de91c88e04c90e2805f7fdea18e4012c94afc - cherrypick - 3369bf486b1bcb46bd6fb4b34b37145219cc2937
+---> The cherrypicked commit sha is - 846de91c88e04c90e2805f7fdea18e4012c94afc
+Commit message - Speed up method calls in delegateEvents and delegate
+---> The original commit sha is - 3369bf486b1bcb46bd6fb4b34b37145219cc2937
+Commit message - Speed up method calls in delegateEvents and delegate
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 23 is -> 
+{ 02d270f4550dcfc60e03699f3528fc36c3d3ecc2 -> e9543ee59192a9ac42435345605e77571f17f4ed } is a cherrypick
+{ 0cdb38b03f603a81fa5174ff30a8c81d019ba5b7 -> 90c36cadacacee7f54a750725ff777b5ee7f1a6b }
+Cherrypick commits SHA are -> 
+e9543ee59192a9ac42435345605e77571f17f4ed - cherrypick - 90c36cadacacee7f54a750725ff777b5ee7f1a6b
+---> The cherrypicked commit sha is - e9543ee59192a9ac42435345605e77571f17f4ed
+Commit message - add `View#delegate` as a single event listener version of delegateEvents for easier overriding
+---> The original commit sha is - 90c36cadacacee7f54a750725ff777b5ee7f1a6b
+Commit message - add `View#delegate` as a single event listener version of delegateEvents for easier overriding
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 24 is -> 
+{ 00b2551e66a750a9c2680d78af91b52d65237a92 -> ac580caffa214602552194ed57198eb3db5dda81 } is a cherrypick
+{ c80be41dac21828a29fa08aaf64ca38e2a6d3bc7 -> 557edc7fc00c83b12c0c45bebbcc41e2c7b46314 }
+Cherrypick commits SHA are -> 
+ac580caffa214602552194ed57198eb3db5dda81 - cherrypick - 557edc7fc00c83b12c0c45bebbcc41e2c7b46314
+---> The cherrypicked commit sha is - ac580caffa214602552194ed57198eb3db5dda81
+Commit message - Fixes #892 ... make .route() chainable.
+---> The original commit sha is - 557edc7fc00c83b12c0c45bebbcc41e2c7b46314
+Commit message - return `this` from `delegate`
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 25 is -> 
+{ e572881fff4ecc1f2ad1d5ff86eb5d3484772d94 -> bbee6f17ce416afdfa7c1cbdc5a429c01c081a84 } is a cherrypick
+{ c80be41dac21828a29fa08aaf64ca38e2a6d3bc7 -> 557edc7fc00c83b12c0c45bebbcc41e2c7b46314 }
+Cherrypick commits SHA are -> 
+bbee6f17ce416afdfa7c1cbdc5a429c01c081a84 - cherrypick - 557edc7fc00c83b12c0c45bebbcc41e2c7b46314
+---> The cherrypicked commit sha is - bbee6f17ce416afdfa7c1cbdc5a429c01c081a84
+Commit message - Merge pull request #909 from josscrowcroft/master
+
+Return `this` from View.setElement()
+---> The original commit sha is - 557edc7fc00c83b12c0c45bebbcc41e2c7b46314
+Commit message - return `this` from `delegate`
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 26 is -> 
+{ 9ba384627c29ac72e5f443443032e01afd3d5c27 -> 57e1e7d0834655bb8e1957781131185176e09b1e } is a cherrypick
+{ c80be41dac21828a29fa08aaf64ca38e2a6d3bc7 -> 557edc7fc00c83b12c0c45bebbcc41e2c7b46314 }
+Cherrypick commits SHA are -> 
+57e1e7d0834655bb8e1957781131185176e09b1e - cherrypick - 557edc7fc00c83b12c0c45bebbcc41e2c7b46314
+---> The cherrypicked commit sha is - 57e1e7d0834655bb8e1957781131185176e09b1e
+Commit message - Merge pull request #1612 from joshvermaire/chain_navigation
+
+allow for chaining of router navigation
+---> The original commit sha is - 557edc7fc00c83b12c0c45bebbcc41e2c7b46314
+Commit message - return `this` from `delegate`
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 27 is -> 
+{ d6046cfb5e2d9955e9c8c4a8a97acc0e9ec532c0 -> d02415fb4b668e64cb2f0fa492ba6712dca99347 } is a cherrypick
+{ c80be41dac21828a29fa08aaf64ca38e2a6d3bc7 -> 557edc7fc00c83b12c0c45bebbcc41e2c7b46314 }
+Cherrypick commits SHA are -> 
+d02415fb4b668e64cb2f0fa492ba6712dca99347 - cherrypick - 557edc7fc00c83b12c0c45bebbcc41e2c7b46314
+---> The cherrypicked commit sha is - d02415fb4b668e64cb2f0fa492ba6712dca99347
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+---> The original commit sha is - 557edc7fc00c83b12c0c45bebbcc41e2c7b46314
+Commit message - return `this` from `delegate`
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 28 is -> 
+{ 5b49aae75f79c08be057ac0d961cfe00da660219 -> b1bcf0a9c06e8df538b9b6ce7e77508404bcb015 } is a cherrypick
+{ 07f60793c6cc0e3edb1c8c7554eeaa40aff3b879 -> a91f6ac900e366496ade7c4fa0ef0abd43699e5a }
+Cherrypick commits SHA are -> 
+b1bcf0a9c06e8df538b9b6ce7e77508404bcb015 - cherrypick - a91f6ac900e366496ade7c4fa0ef0abd43699e5a
+---> The cherrypicked commit sha is - b1bcf0a9c06e8df538b9b6ce7e77508404bcb015
+Commit message - Remove `onpopstate` check.
+---> The original commit sha is - a91f6ac900e366496ade7c4fa0ef0abd43699e5a
+Commit message - Merge pull request #6 from braddunbar/history
+
+Remove `onpopstate` check.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 29 is -> 
+{ e5eeea4a0c583b6ead8a5e7b92bed7f38ad6e0c7 -> 2c50dc52e825a01ee6785b3cb8ff740af590b3eb } is a cherrypick
+{ 91ef885137414dd6f297dc0222e8dbff2194d58f -> feeab3faa6cf29e2f8688977a257eb4ad24d4e42 }
+Cherrypick commits SHA are -> 
+2c50dc52e825a01ee6785b3cb8ff740af590b3eb - cherrypick - feeab3faa6cf29e2f8688977a257eb4ad24d4e42
+---> The cherrypicked commit sha is - 2c50dc52e825a01ee6785b3cb8ff740af590b3eb
+Commit message - Check `documentMode` and combine checks.
+---> The original commit sha is - feeab3faa6cf29e2f8688977a257eb4ad24d4e42
+Commit message - Merge pull request #4 from braddunbar/history
+
+Check `documentMode` and combine checks.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 30 is -> 
+{ d13208afe44fe31cfc38242641e8000f95cbd253 -> 9c29a867cf6d9b9d8dfde5ef1196afbce2fb87c1 } is a cherrypick
+{ 56e3221325bd3361368fed0f360eec84736c1a3c -> 4146db08afda7298b8c2397db0b3009c2c2143f1 }
+Cherrypick commits SHA are -> 
+9c29a867cf6d9b9d8dfde5ef1196afbce2fb87c1 - cherrypick - 4146db08afda7298b8c2397db0b3009c2c2143f1
+---> The cherrypicked commit sha is - 9c29a867cf6d9b9d8dfde5ef1196afbce2fb87c1
+Commit message - Fix «request», «sync» and «error» events documentation.
+
+* signatures had wrong number of parameters;
+* it was not documented that «error» is fired by fetch, sync and destroy methods.
+---> The original commit sha is - 4146db08afda7298b8c2397db0b3009c2c2143f1
+Commit message - Merge pull request #2875 from kmike/events-doc-fix
+
+Fix «request», «sync» and «error» events documentation
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 31 is -> 
+{ ab5d2eb4c657ed81e80ac815f687e94a2cb55fef -> 1a2d3f277d243f1c069a20f7b1e3ac1fc2165b67 } is a cherrypick
+{ 28d345a231cfae6b4fcc6a0e394a3534269cd168 -> e4e349f7f01797ba6641d5684495ec01772fbc1e }
+Cherrypick commits SHA are -> 
+1a2d3f277d243f1c069a20f7b1e3ac1fc2165b67 - cherrypick - e4e349f7f01797ba6641d5684495ec01772fbc1e
+---> The cherrypicked commit sha is - 1a2d3f277d243f1c069a20f7b1e3ac1fc2165b67
+Commit message - Improve events performance in some cases by 20x.
+
+Things like [Chaplin](http://chaplinjs.org) are using advanced memory management heavily. This includes unbinding of all events too.
+
+Events are getting unbound all the time. When other objects may still try to trigger events, this will increase performance by 20x.
+
+Initially taken from [my Backbone optional-dependencies fork](http://exosjs.com).
+
+Proof of 20x speed: http://jsperf.com/exoskeleton-events-vs-backbone-events
+---> The original commit sha is - e4e349f7f01797ba6641d5684495ec01772fbc1e
+Commit message - Merge pull request #2858 from paulmillr/patch-1
+
+Improve events performance in some cases by 20x.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 32 is -> 
+{ 01d9f0f9b1e85cb21a2940902bc8ba4280c8bca9 -> c6908e6edf14496cd98495cb42b09274f86e8e2f } is a cherrypick
+{ a5e6326f46b2db8d268e2fc9f9b7f26db87a014a -> 00d27824ad001db02bb1310664210918a45be353 }
+Cherrypick commits SHA are -> 
+c6908e6edf14496cd98495cb42b09274f86e8e2f - cherrypick - 00d27824ad001db02bb1310664210918a45be353
+---> The cherrypicked commit sha is - c6908e6edf14496cd98495cb42b09274f86e8e2f
+Commit message - Fix #2850 - Use `hashChange: false` where appropriate.
+---> The original commit sha is - 00d27824ad001db02bb1310664210918a45be353
+Commit message - Merge pull request #2854 from akre54/bindall-docs
+
+Clarify bindAll and events hash `this` binding in FAQ section
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 33 is -> 
+{ 260aba7ebf14490cff4db3bc85a43c1e37949f6d -> bd662597ca0a6796708c9de02b5bc0b28fa3bf9c } is a cherrypick
+{ a5e6326f46b2db8d268e2fc9f9b7f26db87a014a -> 00d27824ad001db02bb1310664210918a45be353 }
+Cherrypick commits SHA are -> 
+bd662597ca0a6796708c9de02b5bc0b28fa3bf9c - cherrypick - 00d27824ad001db02bb1310664210918a45be353
+---> The cherrypicked commit sha is - bd662597ca0a6796708c9de02b5bc0b28fa3bf9c
+Commit message - Merge pull request #2851 from braddunbar/old-ie-tests
+
+Fix #2850 - Use `hashChange: false` where appropriate.
+---> The original commit sha is - 00d27824ad001db02bb1310664210918a45be353
+Commit message - Merge pull request #2854 from akre54/bindall-docs
+
+Clarify bindAll and events hash `this` binding in FAQ section
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 34 is -> 
+{ 01d9f0f9b1e85cb21a2940902bc8ba4280c8bca9 -> c6908e6edf14496cd98495cb42b09274f86e8e2f } is a cherrypick
+{ 260aba7ebf14490cff4db3bc85a43c1e37949f6d -> bd662597ca0a6796708c9de02b5bc0b28fa3bf9c }
+Cherrypick commits SHA are -> 
+c6908e6edf14496cd98495cb42b09274f86e8e2f - cherrypick - bd662597ca0a6796708c9de02b5bc0b28fa3bf9c
+---> The cherrypicked commit sha is - c6908e6edf14496cd98495cb42b09274f86e8e2f
+Commit message - Fix #2850 - Use `hashChange: false` where appropriate.
+---> The original commit sha is - bd662597ca0a6796708c9de02b5bc0b28fa3bf9c
+Commit message - Merge pull request #2851 from braddunbar/old-ie-tests
+
+Fix #2850 - Use `hashChange: false` where appropriate.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 35 is -> 
+{ 4cb0a7ef13fd26a9d065303eb8df62ca8c5d94ae -> 2d52d8f79564151dea341908ebd1e20987072e98 } is a cherrypick
+{ 1187102d411a9e27407b1da8fd94abc8f641ffde -> dba0ec83a3d085252674327949d2dc51cb6cd368 }
+Cherrypick commits SHA are -> 
+2d52d8f79564151dea341908ebd1e20987072e98 - cherrypick - dba0ec83a3d085252674327949d2dc51cb6cd368
+---> The cherrypicked commit sha is - 2d52d8f79564151dea341908ebd1e20987072e98
+Commit message - Add new methods from underscore 1.5.2.
+---> The original commit sha is - dba0ec83a3d085252674327949d2dc51cb6cd368
+Commit message - Merge pull request #2829 from braddunbar/new-methods
+
+Add new methods from underscore 1.5.2.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 36 is -> 
+{ 34f2f0d33e4b49a0fc1e0fd5653b383faf66e9c3 -> 541c3e677fc08c2b010b8778d7ea3713a4827461 } is a cherrypick
+{ a653dfe34fd40b163ff69a1ac637612bb3517f92 -> 11c908a685c8c3f43419c2328de081cba94b123d }
+Cherrypick commits SHA are -> 
+541c3e677fc08c2b010b8778d7ea3713a4827461 - cherrypick - 11c908a685c8c3f43419c2328de081cba94b123d
+---> The cherrypicked commit sha is - 541c3e677fc08c2b010b8778d7ea3713a4827461
+Commit message - Adding the new new Delicious as an example app.
+---> The original commit sha is - 11c908a685c8c3f43419c2328de081cba94b123d
+Commit message - Upgrading to 1.1, for the docs.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 37 is -> 
+{ c530b49370ca25ba2b36b84de65882ff37abec3c -> 81f6a16c2908917ba33cdc014586cb2793cb3cb8 } is a cherrypick
+{ f6278551492d00a1e912b7ce4cfa06e4f2fb8828 -> ce69368fcc11501a7f941cae88da342c2386df9d }
+Cherrypick commits SHA are -> 
+81f6a16c2908917ba33cdc014586cb2793cb3cb8 - cherrypick - ce69368fcc11501a7f941cae88da342c2386df9d
+---> The cherrypicked commit sha is - 81f6a16c2908917ba33cdc014586cb2793cb3cb8
+Commit message - Fix #2269 - clone options before modifying
+---> The original commit sha is - ce69368fcc11501a7f941cae88da342c2386df9d
+Commit message - Merge pull request #2783 from caseywebdev/gh-2470
+
+Fix #2470 Do not mutate options in _prepareModel
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 38 is -> 
+{ dc0f4cdf42b0daa71b99ad17a70f741f52696d26 -> 51365d90e9ab5c903a07fc4d5754ed47c7ff6dd6 } is a cherrypick
+{ eca5a968036fdb79ea7918b909d7efb6be4825e0 -> 72df4a9d4f3584a76958e26a18e41caa1907e431 }
+Cherrypick commits SHA are -> 
+51365d90e9ab5c903a07fc4d5754ed47c7ff6dd6 - cherrypick - 72df4a9d4f3584a76958e26a18e41caa1907e431
+---> The cherrypicked commit sha is - 51365d90e9ab5c903a07fc4d5754ed47c7ff6dd6
+Commit message - Fixing travis-ci badge after repo move
+---> The original commit sha is - 72df4a9d4f3584a76958e26a18e41caa1907e431
+Commit message - (2x) new Collection -> new Backbone.Collection
+
+Apologies in advance if I've misunderstood this.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 39 is -> 
+{ f305ebae690cff1a0c5da9f387aa6dd55db5873f -> 7b7dd1b07e372f6fcd05cfdd27bf8037c66ba6e7 } is a cherrypick
+{ 37b5abc4162ee7f8e008c4a202955811df598e5e -> 8afd14322685e4107079faed7a074b8eb495110c }
+Cherrypick commits SHA are -> 
+7b7dd1b07e372f6fcd05cfdd27bf8037c66ba6e7 - cherrypick - 8afd14322685e4107079faed7a074b8eb495110c
+---> The cherrypicked commit sha is - 7b7dd1b07e372f6fcd05cfdd27bf8037c66ba6e7
+Commit message - remove null options guard
+
+no need to check for null options here as the first line of the
+function already assumes an options object.
+---> The original commit sha is - 8afd14322685e4107079faed7a074b8eb495110c
+Commit message - Merge branch 'master' of https://github.com/jashkenas/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 40 is -> 
+{ f9e34da0da41bf2d04e03dc4172425ae16f2ddd9 -> d651f833e81f5c93fa7b128dfa7b08a6eb8c7170 } is a cherrypick
+{ 0ec1c7e2f174e5b64bc3c2738f269d7f8e084cea -> dd92f4d88727ce1150bd44d0fa0c0879e6092ebc }
+Cherrypick commits SHA are -> 
+d651f833e81f5c93fa7b128dfa7b08a6eb8c7170 - cherrypick - dd92f4d88727ce1150bd44d0fa0c0879e6092ebc
+---> The cherrypicked commit sha is - d651f833e81f5c93fa7b128dfa7b08a6eb8c7170
+Commit message - Fixed typo: missing s in "asynchronous"
+---> The original commit sha is - dd92f4d88727ce1150bd44d0fa0c0879e6092ebc
+Commit message - Fixed typo: missing s in "asynchronous"
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 41 is -> 
+{ b8d8db1249cf28e0afeaf3bdb5bd390a504fa4dc -> 5f93ba79fa3467cc1dd77cd95f21a589a8922315 } is a cherrypick
+{ 744dbafaf8699050d43f53376dfd555d30794010 -> e589f924d81a185b9aaf0a890e751c2c4b48a7d4 }
+Cherrypick commits SHA are -> 
+5f93ba79fa3467cc1dd77cd95f21a589a8922315 - cherrypick - e589f924d81a185b9aaf0a890e751c2c4b48a7d4
+---> The cherrypicked commit sha is - 5f93ba79fa3467cc1dd77cd95f21a589a8922315
+Commit message - Do not load the hash as a fallback.
+---> The original commit sha is - e589f924d81a185b9aaf0a890e751c2c4b48a7d4
+Commit message - Merge pull request #2572 from braddunbar/no-hash-fallback
+
+Do not load the hash as a fallback.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 42 is -> 
+{ 61987e8debca6a80b5ac07eef8a0d774a150cda2 -> 12c6595b03a299f79f016960f78f56990ff7cf89 } is a cherrypick
+{ 6ac7704c3059c0341894b912619c6fe29b5c1f9a -> f69f1e6d7eea90b61cc739b632c434632383fa55 }
+Cherrypick commits SHA are -> 
+12c6595b03a299f79f016960f78f56990ff7cf89 - cherrypick - f69f1e6d7eea90b61cc739b632c434632383fa55
+---> The cherrypicked commit sha is - 12c6595b03a299f79f016960f78f56990ff7cf89
+Commit message - Added missing word to emulateHTTP comment
+---> The original commit sha is - f69f1e6d7eea90b61cc739b632c434632383fa55
+Commit message - Merge pull request #2539 from fixe/patch-1
+
+Added missing word to emulateHTTP comment
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 43 is -> 
+{ 3853b318f91fb0f4f32727f071fbc876d614182d -> 22305a473b84093faba307fe471ba292a5082b89 } is a cherrypick
+{ 0b27f871b57222de09e6148e70d773b8d510c6ab -> 3a94f4e830c3eb23ca457e01e5914425e3af5fab }
+Cherrypick commits SHA are -> 
+22305a473b84093faba307fe471ba292a5082b89 - cherrypick - 3a94f4e830c3eb23ca457e01e5914425e3af5fab
+---> The cherrypicked commit sha is - 22305a473b84093faba307fe471ba292a5082b89
+Commit message - Removing invalid 'set' option in 'Collection#fetch' docs
+---> The original commit sha is - 3a94f4e830c3eb23ca457e01e5914425e3af5fab
+Commit message - Merge pull request #2412 from philfreo/another-typo
+
+Minor typo fixes to docs.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 44 is -> 
+{ 5c183b2cadf660888478799d3d80b1d56eb64390 -> 495eaae4aa11d71599749734141281492c83773a } is a cherrypick
+{ 0b27f871b57222de09e6148e70d773b8d510c6ab -> 3a94f4e830c3eb23ca457e01e5914425e3af5fab }
+Cherrypick commits SHA are -> 
+495eaae4aa11d71599749734141281492c83773a - cherrypick - 3a94f4e830c3eb23ca457e01e5914425e3af5fab
+---> The cherrypicked commit sha is - 495eaae4aa11d71599749734141281492c83773a
+Commit message - Merge pull request #2410 from philfreo/master
+
+Removing invalid 'set' option in 'Collection#fetch' docs
+---> The original commit sha is - 3a94f4e830c3eb23ca457e01e5914425e3af5fab
+Commit message - Merge pull request #2412 from philfreo/another-typo
+
+Minor typo fixes to docs.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 45 is -> 
+{ 3853b318f91fb0f4f32727f071fbc876d614182d -> 22305a473b84093faba307fe471ba292a5082b89 } is a cherrypick
+{ 5c183b2cadf660888478799d3d80b1d56eb64390 -> 495eaae4aa11d71599749734141281492c83773a }
+Cherrypick commits SHA are -> 
+22305a473b84093faba307fe471ba292a5082b89 - cherrypick - 495eaae4aa11d71599749734141281492c83773a
+---> The cherrypicked commit sha is - 22305a473b84093faba307fe471ba292a5082b89
+Commit message - Removing invalid 'set' option in 'Collection#fetch' docs
+---> The original commit sha is - 495eaae4aa11d71599749734141281492c83773a
+Commit message - Merge pull request #2410 from philfreo/master
+
+Removing invalid 'set' option in 'Collection#fetch' docs
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 46 is -> 
+{ 953df7d26aac18182b154c62a0f677fdcabdc71c -> 9710d0e481a66bca16fb2fba9b435ea981d39e33 } is a cherrypick
+{ 69707fea59b205737311417daf122865120b328f -> b3caaba99d953b0755fa8e97711d9a77408535f7 }
+Cherrypick commits SHA are -> 
+9710d0e481a66bca16fb2fba9b435ea981d39e33 - cherrypick - b3caaba99d953b0755fa8e97711d9a77408535f7
+---> The cherrypicked commit sha is - 9710d0e481a66bca16fb2fba9b435ea981d39e33
+Commit message - Merge pull request #2397 from wyuenho/collection-fetch-doc-fix
+
+Update Collection#fetch's doc to refer to Collection#set
+---> The original commit sha is - b3caaba99d953b0755fa8e97711d9a77408535f7
+Commit message - Merge branch 'master' of git://github.com/documentcloud/backbone into error-callback-doc-fix
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 47 is -> 
+{ 7edfcf8426ea7e659253a29dfc21d91e88831445 -> b490e477f795ed7c3f2dae19b19124f3deda43dc } is a cherrypick
+{ f495c3615b5484ed7647cfc4f4ad3e276327e136 -> 4ab7d055c0e7be06184d8e4cd71747939ba99156 }
+Cherrypick commits SHA are -> 
+b490e477f795ed7c3f2dae19b19124f3deda43dc - cherrypick - 4ab7d055c0e7be06184d8e4cd71747939ba99156
+---> The cherrypicked commit sha is - b490e477f795ed7c3f2dae19b19124f3deda43dc
+Commit message - attaching url and urlRoot on the model if passed
+---> The original commit sha is - 4ab7d055c0e7be06184d8e4cd71747939ba99156
+Commit message - Merge pull request #2391 from tgriesser/model-options
+
+Attaching url and urlRoot on the model if passed
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 48 is -> 
+{ 83eb26f971e36e7e90e23a7f3bafc0a38b8bfdf1 -> 8b0973c48efa9bd0063b7a2286c66c4ef4a5cf79 } is a cherrypick
+{ 429277bf90204785c5ec3af6fa6e22a48db3db2f -> 7edfcf8426ea7e659253a29dfc21d91e88831445 }
+Cherrypick commits SHA are -> 
+8b0973c48efa9bd0063b7a2286c66c4ef4a5cf79 - cherrypick - 7edfcf8426ea7e659253a29dfc21d91e88831445
+---> The cherrypicked commit sha is - 8b0973c48efa9bd0063b7a2286c66c4ef4a5cf79
+Commit message - adding validationError as options property
+---> The original commit sha is - 7edfcf8426ea7e659253a29dfc21d91e88831445
+Commit message - Merge pull request #2389 from tgriesser/localstorage-fix
+
+Removing duplicate error and more version checks for localstorage
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 49 is -> 
+{ 4be1288923d3c73c1d540c02ab238dfc56266e2b -> 108e114bd1282f5de8438ca2095888c157959605 } is a cherrypick
+{ 8bf56c6676274c3d717b71b480ce7f6d1811fa89 -> 2b42cc069cc7c6db5d877d486ef33abca1842cf5 }
+Cherrypick commits SHA are -> 
+108e114bd1282f5de8438ca2095888c157959605 - cherrypick - 2b42cc069cc7c6db5d877d486ef33abca1842cf5
+---> The cherrypicked commit sha is - 108e114bd1282f5de8438ca2095888c157959605
+Commit message - Improve consistency: get rid of a zealous early error breaking apps in inconvenient ways
+
+Since jQuery.on() and Backbone.Events.on are silently ignoring invalid callbacks,
+Backbone.View.delegateEvents should too.
+
+See #2184 for previous discussion about how Backbone is supposed to behave on obvious developer errors
+---> The original commit sha is - 2b42cc069cc7c6db5d877d486ef33abca1842cf5
+Commit message - Merge pull request #2191 from byroot/feature-ignore-undefined-methods-in-views-events
+
+Improve consistency: get rid of "a zealous early error breaking apps in inconvenient ways"
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 50 is -> 
+{ af674c98c51c40cc8f65ee54a5446dae02e7ba4b -> 8f07f966edde1dc5d1ca7ec530d9525389d02b39 } is a cherrypick
+{ df569f4268e6226322834bda3ee0342148cb9c66 -> a0363e40d4057831aa8239396fcd1e4c1eef00e2 }
+Cherrypick commits SHA are -> 
+8f07f966edde1dc5d1ca7ec530d9525389d02b39 - cherrypick - a0363e40d4057831aa8239396fcd1e4c1eef00e2
+---> The cherrypicked commit sha is - 8f07f966edde1dc5d1ca7ec530d9525389d02b39
+Commit message - link to association extensions.
+---> The original commit sha is - a0363e40d4057831aa8239396fcd1e4c1eef00e2
+Commit message - Merge pull request #2283 from stevecraig/options-parse-docs
+
+add options.parse to the model constructor documentation
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 51 is -> 
+{ da97490f0be46afe221443343b7c7bc261a3a186 -> fad38af936f6553ddaf4efbd1470ca1c60dd470b } is a cherrypick
+{ df569f4268e6226322834bda3ee0342148cb9c66 -> a0363e40d4057831aa8239396fcd1e4c1eef00e2 }
+Cherrypick commits SHA are -> 
+fad38af936f6553ddaf4efbd1470ca1c60dd470b - cherrypick - a0363e40d4057831aa8239396fcd1e4c1eef00e2
+---> The cherrypicked commit sha is - fad38af936f6553ddaf4efbd1470ca1c60dd470b
+Commit message - Merge pull request #1163 from aterris/model-collection-docs
+
+Fix #1161: Documentation for model.collection property 
+---> The original commit sha is - a0363e40d4057831aa8239396fcd1e4c1eef00e2
+Commit message - Merge pull request #2283 from stevecraig/options-parse-docs
+
+add options.parse to the model constructor documentation
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 52 is -> 
+{ 6d63109934ad670488ce730b1b2364827fb0fcee -> da1536e5c9093f9f4ddbc8e31d8e3c3bd7bf04ad } is a cherrypick
+{ 3a36dae29281c8dd90c267ff607aa836e2b37d68 -> ec974e7526302db1ba320b53188c2003fbb73a4d }
+Cherrypick commits SHA are -> 
+da1536e5c9093f9f4ddbc8e31d8e3c3bd7bf04ad - cherrypick - ec974e7526302db1ba320b53188c2003fbb73a4d
+---> The cherrypicked commit sha is - da1536e5c9093f9f4ddbc8e31d8e3c3bd7bf04ad
+Commit message - adding a class to the travis badge
+---> The original commit sha is - ec974e7526302db1ba320b53188c2003fbb73a4d
+Commit message - adding a class to the travis badge
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 53 is -> 
+{ 0631d158ed1dbea006d30e2681fcdefb78858e78 -> 05339d7a13326c10af924299b7c4ef83948a3972 } is a cherrypick
+{ b05df0ffb22a088a0c059bea3128e38fa95a2890 -> b085103a1b2a52b15b5ecac503ec0046644b350e }
+Cherrypick commits SHA are -> 
+05339d7a13326c10af924299b7c4ef83948a3972 - cherrypick - b085103a1b2a52b15b5ecac503ec0046644b350e
+---> The cherrypicked commit sha is - 05339d7a13326c10af924299b7c4ef83948a3972
+Commit message - Bugfix to tests for Backbone.Collection underscore methods.
+`_.include` was not being called correctly.
+---> The original commit sha is - b085103a1b2a52b15b5ecac503ec0046644b350e
+Commit message - Merge branch 'document_collection_slice' of git://github.com/lukeasrodgers/backbone
+
+Documentation for Collection#slice
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 54 is -> 
+{ 5cef5703aca278e93bdc2257d655beb68a65ddb1 -> fbcfea4c5f9c8fba9907a6b9974df9ea3c8e40b3 } is a cherrypick
+{ 9def62d2def93ce200226f7a3877a8f14d6f9708 -> 9f546ec8a7f6524bbd27f0698c2fda205c789337 }
+Cherrypick commits SHA are -> 
+fbcfea4c5f9c8fba9907a6b9974df9ea3c8e40b3 - cherrypick - 9f546ec8a7f6524bbd27f0698c2fda205c789337
+---> The cherrypicked commit sha is - fbcfea4c5f9c8fba9907a6b9974df9ea3c8e40b3
+Commit message - Refactor var name `list` -> `events` for clarity, uniformity
+---> The original commit sha is - 9f546ec8a7f6524bbd27f0698c2fda205c789337
+Commit message - Merge pull request #2178 from diegotres/master
+
+Changed the year from 2012 to 2013.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 55 is -> 
+{ 56d363c886469eedec237e040e02bb33feb7c2e6 -> b890e3e2f2e3b31987a7822724b1123f0e03bd17 } is a cherrypick
+{ 9901e69bf5722645891c0d51b255520e64b4dc56 -> 289d76d352798d0b8125816e349289a7dc635e23 }
+Cherrypick commits SHA are -> 
+b890e3e2f2e3b31987a7822724b1123f0e03bd17 - cherrypick - 289d76d352798d0b8125816e349289a7dc635e23
+---> The cherrypicked commit sha is - b890e3e2f2e3b31987a7822724b1123f0e03bd17
+Commit message - Issue number in comments.
+---> The original commit sha is - 289d76d352798d0b8125816e349289a7dc635e23
+Commit message - Merge pull request #2112 from braddunbar/issue-comments
+
+Issue number in comments.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 56 is -> 
+{ ab4a7945fa767a440a3222122ff0488f0c6f3b2d -> a74dd744e9d20b4ffbdd00055493c2f1439686b4 } is a cherrypick
+{ 3817742f0fed8de1722a9f7c06e8e6e3d3dbba32 -> af2db21f52c977922944015c810d6a6c380d52e1 }
+Cherrypick commits SHA are -> 
+a74dd744e9d20b4ffbdd00055493c2f1439686b4 - cherrypick - af2db21f52c977922944015c810d6a6c380d52e1
+---> The cherrypicked commit sha is - a74dd744e9d20b4ffbdd00055493c2f1439686b4
+Commit message - Update test-zepto.html to match the newer test html for jquery.
+
+Changes:
+* use a newer zepto version (fixes some failing tests)
+* remove jslitmus
+
+Still some failing tests but brings things a lot closer to working.
+---> The original commit sha is - af2db21f52c977922944015c810d6a6c380d52e1
+Commit message - Merge pull request #2081 from af/zepto-tests
+
+Update test-zepto.html to match the newer test html for jquery.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 57 is -> 
+{ 10cf99a7e608552dd970f42e301b99c4aa07b7de -> faa776a67cdaa674fd8da596f62e8028f371e2c9 } is a cherrypick
+{ 6e3e1370196a7ab7b892bbb52be8897e795a0965 -> 87536496528233a2f04ddb4549bea875bc48e701 }
+Cherrypick commits SHA are -> 
+faa776a67cdaa674fd8da596f62e8028f371e2c9 - cherrypick - 87536496528233a2f04ddb4549bea875bc48e701
+---> The cherrypicked commit sha is - faa776a67cdaa674fd8da596f62e8028f371e2c9
+Commit message - Add keys, values, pairs, invert, pick, omit, each, and other
+underscore methods to models
+---> The original commit sha is - 87536496528233a2f04ddb4549bea875bc48e701
+Commit message - Add keys, values, pairs, invert, pick, omit, each, and other
+underscore methods to models
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 58 is -> 
+{ a24544bdc4fed7510e2ae0312164f9a8a89b9ee6 -> 4b2ce42180d73206ff77775b8dd80c7f189f3559 } is a cherrypick
+{ 678bdd0c85f3ebe2d8e0c14b21760243643908f2 -> d63fe9e61fa7602ffe5033ad4bd4cbdfdcb0744c }
+Cherrypick commits SHA are -> 
+4b2ce42180d73206ff77775b8dd80c7f189f3559 - cherrypick - d63fe9e61fa7602ffe5033ad4bd4cbdfdcb0744c
+---> The cherrypicked commit sha is - 4b2ce42180d73206ff77775b8dd80c7f189f3559
+Commit message - removing context from listenTo/stoplistening
+---> The original commit sha is - d63fe9e61fa7602ffe5033ad4bd4cbdfdcb0744c
+Commit message - Merge pull request #2019 from tgriesser/nocontext
+
+Removing context from listenTo/stoplistening
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 59 is -> 
+{ b6ca71c594956ffa625e10eaeab547cb520dc3fc -> ef0db237ca92d050ee71ad8d9fd35e3b2b898967 } is a cherrypick
+{ 0aff3f2b6264b06045cdf17e5a1cb858af817124 -> 320347d94a10c61b03d791dcebdc8e18c9a37541 }
+Cherrypick commits SHA are -> 
+ef0db237ca92d050ee71ad8d9fd35e3b2b898967 - cherrypick - 320347d94a10c61b03d791dcebdc8e18c9a37541
+---> The cherrypicked commit sha is - ef0db237ca92d050ee71ad8d9fd35e3b2b898967
+Commit message - Revert set/save argument juggling
+---> The original commit sha is - 320347d94a10c61b03d791dcebdc8e18c9a37541
+Commit message - Merge pull request #2005 from braddunbar/success-args
+
+Fix #2003 - success callback arguments.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 60 is -> 
+{ 4089bf0e4269d7ad7d4e905dc66562cc2bcff68f -> 5350dc9deaef3bd73430dba0ec0a5f52aec18192 } is a cherrypick
+{ 5ac783bd2d8c2afc07a611704af5b880c360181e -> 45b3870136c685383949115f995a9c3152c0ce77 }
+Cherrypick commits SHA are -> 
+5350dc9deaef3bd73430dba0ec0a5f52aec18192 - cherrypick - 45b3870136c685383949115f995a9c3152c0ce77
+---> The cherrypicked commit sha is - 5350dc9deaef3bd73430dba0ec0a5f52aec18192
+Commit message - Ensure toJSON receives the correct attributes.
+---> The original commit sha is - 45b3870136c685383949115f995a9c3152c0ce77
+Commit message - Merge branch 'simple' of github.com:documentcloud/backbone into simple
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 61 is -> 
+{ 2eab0fe3b81f8edeac19226251b7941ffe0e178c -> b3c06874ae0a5890312b57d31ceec952d5037ef7 } is a cherrypick
+{ 5ac783bd2d8c2afc07a611704af5b880c360181e -> 45b3870136c685383949115f995a9c3152c0ce77 }
+Cherrypick commits SHA are -> 
+b3c06874ae0a5890312b57d31ceec952d5037ef7 - cherrypick - 45b3870136c685383949115f995a9c3152c0ce77
+---> The cherrypicked commit sha is - b3c06874ae0a5890312b57d31ceec952d5037ef7
+Commit message - Merge pull request #2001 from braddunbar/simple
+
+Ensure toJSON receives the correct attributes.
+---> The original commit sha is - 45b3870136c685383949115f995a9c3152c0ce77
+Commit message - Merge branch 'simple' of github.com:documentcloud/backbone into simple
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 62 is -> 
+{ 4089bf0e4269d7ad7d4e905dc66562cc2bcff68f -> 5350dc9deaef3bd73430dba0ec0a5f52aec18192 } is a cherrypick
+{ 2eab0fe3b81f8edeac19226251b7941ffe0e178c -> b3c06874ae0a5890312b57d31ceec952d5037ef7 }
+Cherrypick commits SHA are -> 
+5350dc9deaef3bd73430dba0ec0a5f52aec18192 - cherrypick - b3c06874ae0a5890312b57d31ceec952d5037ef7
+---> The cherrypicked commit sha is - 5350dc9deaef3bd73430dba0ec0a5f52aec18192
+Commit message - Ensure toJSON receives the correct attributes.
+---> The original commit sha is - b3c06874ae0a5890312b57d31ceec952d5037ef7
+Commit message - Merge pull request #2001 from braddunbar/simple
+
+Ensure toJSON receives the correct attributes.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 63 is -> 
+{ 23a06733211934569295953fa553e95e9bd08ec9 -> 0de1512fff09190d2e27ed5dc316f16151ed726b } is a cherrypick
+{ d7179e553d3104cfaf182c4c45d17e79c03d182c -> ddefc0a5f56032d20a85f7568eccad287b8d365d }
+Cherrypick commits SHA are -> 
+0de1512fff09190d2e27ed5dc316f16151ed726b - cherrypick - ddefc0a5f56032d20a85f7568eccad287b8d365d
+---> The cherrypicked commit sha is - 0de1512fff09190d2e27ed5dc316f16151ed726b
+Commit message - Use boolean for `nested`.
+---> The original commit sha is - ddefc0a5f56032d20a85f7568eccad287b8d365d
+Commit message - Merge pull request #1995 from braddunbar/simple
+
+Use boolean for `nested`.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 64 is -> 
+{ b76ca8338bf4d962e18aa951380084e0d529caad -> 5f9380e6fbc15ad348e5f12bf7a1b104edcfc57d } is a cherrypick
+{ 1ec82512aa93708fc82ab8e8c706aaaa7c0a8341 -> d55ab70babe3e9c102deba68585065faa2eb85a9 }
+Cherrypick commits SHA are -> 
+5f9380e6fbc15ad348e5f12bf7a1b104edcfc57d - cherrypick - d55ab70babe3e9c102deba68585065faa2eb85a9
+---> The cherrypicked commit sha is - 5f9380e6fbc15ad348e5f12bf7a1b104edcfc57d
+Commit message - #1977 update test to fail
+---> The original commit sha is - d55ab70babe3e9c102deba68585065faa2eb85a9
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 65 is -> 
+{ 3dbf6dbf391c82555416081913257a2b8250eb75 -> 6946d5ff61c6f669c4cd99ba4a20fc465d952218 } is a cherrypick
+{ 485be3f684579d5c910c17be94372e785f025724 -> b646ceaf312f882cd6e82cdab014ec35193b0059 }
+Cherrypick commits SHA are -> 
+6946d5ff61c6f669c4cd99ba4a20fc465d952218 - cherrypick - b646ceaf312f882cd6e82cdab014ec35193b0059
+---> The cherrypicked commit sha is - 6946d5ff61c6f669c4cd99ba4a20fc465d952218
+Commit message - added a note about the removal of Backbone.wrapError to the 0.9.9 changelog. closes #1966
+---> The original commit sha is - b646ceaf312f882cd6e82cdab014ec35193b0059
+Commit message - Merge pull request #1971 from wookiehangover/issue1966
+
+added a note about Backbone.wrapError to the 0.9.9 changelog
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 66 is -> 
+{ 6f0e4cc8ae76ea3226d381c78ed760039e1e0706 -> b6566ef2d971396568beea9ccb42473b98d263e5 } is a cherrypick
+{ 828f121c6e73f8ffc24aa381093c5dd22c81f913 -> 7237ff9be22c02f4ec56f05e12f65279504d88f9 }
+Cherrypick commits SHA are -> 
+b6566ef2d971396568beea9ccb42473b98d263e5 - cherrypick - 7237ff9be22c02f4ec56f05e12f65279504d88f9
+---> The cherrypicked commit sha is - b6566ef2d971396568beea9ccb42473b98d263e5
+Commit message - Merge pull request #1954 from derickbailey/listenTo_stopListening_context
+
+add context as 4th parameter to listenTo and stopListening methods on Backbone.Events
+---> The original commit sha is - 7237ff9be22c02f4ec56f05e12f65279504d88f9
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 67 is -> 
+{ 366661302094d6d287ff5e3aa2300940bd3ac219 -> 5f7240844c58350e07504464902be66f37b20f5e } is a cherrypick
+{ 75a52dbc329360378772429f652e32fe3a64f35c -> 1cc5ede86d7d0eb2ba68afe4ece2956165f3eec7 }
+Cherrypick commits SHA are -> 
+5f7240844c58350e07504464902be66f37b20f5e - cherrypick - 1cc5ede86d7d0eb2ba68afe4ece2956165f3eec7
+---> The cherrypicked commit sha is - 5f7240844c58350e07504464902be66f37b20f5e
+Commit message - Fix #1939 - `parse` receives `options`
+---> The original commit sha is - 1cc5ede86d7d0eb2ba68afe4ece2956165f3eec7
+Commit message - Merge pull request #1956 from wyuenho/master
+
+Fix #1925, Document for {sort:false}
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 68 is -> 
+{ 523fb81779b6bd4c270cd8a50efa75bf88ed5f36 -> 366661302094d6d287ff5e3aa2300940bd3ac219 } is a cherrypick
+{ 25505d67008aa35a516d566a17ae205df73bf30e -> c13005a84aa298863610c22737f6d955a236383d }
+Cherrypick commits SHA are -> 
+366661302094d6d287ff5e3aa2300940bd3ac219 - cherrypick - c13005a84aa298863610c22737f6d955a236383d
+---> The cherrypicked commit sha is - 366661302094d6d287ff5e3aa2300940bd3ac219
+Commit message - default constructor should return parent value
+
+I came across this issue with a class that caches instances when
+they are firste created. Subsequent calls to the constructor will
+return the cached instance if available. This relies on a feature
+of JavaScript described here:
+
+http://bclary.com/2004/11/07/#a-13.2.2
+
+Note Step 7 in the reference document. By not returning the value
+from the default constructor, subclasses of Backbone classes that
+rely on this feature will break.
+---> The original commit sha is - c13005a84aa298863610c22737f6d955a236383d
+Commit message - Merge pull request #1947 from cdavaz/master
+
+default constructor should return parent value
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 69 is -> 
+{ 8d243b5e783a722fa6c98d657eed7aa14d81f3b5 -> 6aaec10a3d75f9e826fab0f1f0d3ce9b6ef69b86 } is a cherrypick
+{ ff5876add235c5a22000636fae742c0a6c576449 -> 523fb81779b6bd4c270cd8a50efa75bf88ed5f36 }
+Cherrypick commits SHA are -> 
+6aaec10a3d75f9e826fab0f1f0d3ce9b6ef69b86 - cherrypick - 523fb81779b6bd4c270cd8a50efa75bf88ed5f36
+---> The cherrypicked commit sha is - 6aaec10a3d75f9e826fab0f1f0d3ce9b6ef69b86
+Commit message - Document View#id and View#className as functions
+---> The original commit sha is - 523fb81779b6bd4c270cd8a50efa75bf88ed5f36
+Commit message - Merge pull request #1940 from gsamokovarov/document-id-classname
+
+Document View#id and View#className as functions
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 70 is -> 
+{ d14e8cf0d9d50db446fb814eda7f737e67eb2697 -> 99072115aca42a3f5912123347a66186a428391c } is a cherrypick
+{ abd938f3cd30a7e3e2ccdc66a617aeff036065cd -> bc8b829225d1685621019faad85be5ee7c8adc7d }
+Cherrypick commits SHA are -> 
+99072115aca42a3f5912123347a66186a428391c - cherrypick - bc8b829225d1685621019faad85be5ee7c8adc7d
+---> The cherrypicked commit sha is - 99072115aca42a3f5912123347a66186a428391c
+Commit message - documenting model.clear's new behavior in the 0.9.0 changelog
+---> The original commit sha is - bc8b829225d1685621019faad85be5ee7c8adc7d
+Commit message - Merge pull request #1926 from nervetattoo/patch-1
+
+Add changelog note about deprecated setDomLibrary
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 71 is -> 
+{ 0085732068556667fa8cf3fee473c709fcd407ec -> cd9a90af085dfc06366dd63d880562bc6945cd89 } is a cherrypick
+{ abd938f3cd30a7e3e2ccdc66a617aeff036065cd -> bc8b829225d1685621019faad85be5ee7c8adc7d }
+Cherrypick commits SHA are -> 
+cd9a90af085dfc06366dd63d880562bc6945cd89 - cherrypick - bc8b829225d1685621019faad85be5ee7c8adc7d
+---> The cherrypicked commit sha is - cd9a90af085dfc06366dd63d880562bc6945cd89
+Commit message - Add changelog note about deprecated setDomLibrary
+---> The original commit sha is - bc8b829225d1685621019faad85be5ee7c8adc7d
+Commit message - Merge pull request #1926 from nervetattoo/patch-1
+
+Add changelog note about deprecated setDomLibrary
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 72 is -> 
+{ d14e8cf0d9d50db446fb814eda7f737e67eb2697 -> 99072115aca42a3f5912123347a66186a428391c } is a cherrypick
+{ 0085732068556667fa8cf3fee473c709fcd407ec -> cd9a90af085dfc06366dd63d880562bc6945cd89 }
+Cherrypick commits SHA are -> 
+99072115aca42a3f5912123347a66186a428391c - cherrypick - cd9a90af085dfc06366dd63d880562bc6945cd89
+---> The cherrypicked commit sha is - 99072115aca42a3f5912123347a66186a428391c
+Commit message - documenting model.clear's new behavior in the 0.9.0 changelog
+---> The original commit sha is - cd9a90af085dfc06366dd63d880562bc6945cd89
+Commit message - Add changelog note about deprecated setDomLibrary
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 73 is -> 
+{ daf6892d22d26148aacf00b103d6c308abef8e4d -> 1806a8d3684a5db363aedcb0a7d727476fa9afe6 } is a cherrypick
+{ abd96d6d7aadf5863dd80ae46124a5defb6ba13b -> 50c41d3e88bf1237ee08ab33f6cc169d0270d3a2 }
+Cherrypick commits SHA are -> 
+1806a8d3684a5db363aedcb0a7d727476fa9afe6 - cherrypick - 50c41d3e88bf1237ee08ab33f6cc169d0270d3a2
+---> The cherrypicked commit sha is - 1806a8d3684a5db363aedcb0a7d727476fa9afe6
+Commit message - Cache context, avoid switch in loop, profit
+---> The original commit sha is - 50c41d3e88bf1237ee08ab33f6cc169d0270d3a2
+Commit message - Merge pull request #1916 from caseywebdev/events
+
+Cache context, avoid switch in loop, profit
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 74 is -> 
+{ d0bed60f840e624fb6a4857936211fd05aebefcb -> e5a3b0bba0f1616c5a71e74d87f3b0036b4767dc } is a cherrypick
+{ f918d9d015e544c98fb8982e2144fc1ac698174d -> a7be84ef377e2224eb3d6e28e7252bf635cbb8d4 }
+Cherrypick commits SHA are -> 
+e5a3b0bba0f1616c5a71e74d87f3b0036b4767dc - cherrypick - a7be84ef377e2224eb3d6e28e7252bf635cbb8d4
+---> The cherrypicked commit sha is - e5a3b0bba0f1616c5a71e74d87f3b0036b4767dc
+Commit message - consistent 'parse' option on collection constructor & reset
+---> The original commit sha is - a7be84ef377e2224eb3d6e28e7252bf635cbb8d4
+Commit message - merged.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 75 is -> 
+{ 6fd32ea7b73d4bd179dc2ada84ef494c3652e677 -> a96fe08f925221f1c1ee89b9cee6c2e83416e45b } is a cherrypick
+{ e1a29bd5ff8d5c075ad97427aa5e2e31dde8a36f -> dd59ae6185f93f443216cf18516a504dbd0f34e1 }
+Cherrypick commits SHA are -> 
+a96fe08f925221f1c1ee89b9cee6c2e83416e45b - cherrypick - dd59ae6185f93f443216cf18516a504dbd0f34e1
+---> The cherrypicked commit sha is - a96fe08f925221f1c1ee89b9cee6c2e83416e45b
+Commit message - allowing events to be passed in view's options
+---> The original commit sha is - dd59ae6185f93f443216cf18516a504dbd0f34e1
+Commit message - Merge pull request #1826 from tgriesser/events-options
+
+Allowing events to be passed in view's options
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 76 is -> 
+{ 35054dada664bcbeb13b382780ed550c3e7ed205 -> 783ecf70db30f0cc80299e917a3261cebb961b10 } is a cherrypick
+{ bf82159ad785b3a6b4028b7aa32a0bac28eb02a5 -> 626f3d7f0e8a2abfc48b5523d9c48a36740b186e }
+Cherrypick commits SHA are -> 
+783ecf70db30f0cc80299e917a3261cebb961b10 - cherrypick - 626f3d7f0e8a2abfc48b5523d9c48a36740b186e
+---> The cherrypicked commit sha is - 783ecf70db30f0cc80299e917a3261cebb961b10
+Commit message - Fix #1801 - Add documentation for disabling hash based routing.
+---> The original commit sha is - 626f3d7f0e8a2abfc48b5523d9c48a36740b186e
+Commit message - Merge pull request #1803 from braddunbar/hashchange-false
+
+Fix #1801 - Add documentation for disabling hash based routing.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 77 is -> 
+{ 9df2b8d33c1a2571532f3a061810796c3892397e -> 8638bfef0aa10b7d16a81d33c72cde023bf3078d } is a cherrypick
+{ dd68a3187c87ebc9793fe184514831880f3014b3 -> be0f44dbd07cf72154dee3805049ba00a2f702c9 }
+Cherrypick commits SHA are -> 
+8638bfef0aa10b7d16a81d33c72cde023bf3078d - cherrypick - be0f44dbd07cf72154dee3805049ba00a2f702c9
+---> The cherrypicked commit sha is - 8638bfef0aa10b7d16a81d33c72cde023bf3078d
+Commit message - Add `extend` to Backbone.History.
+---> The original commit sha is - be0f44dbd07cf72154dee3805049ba00a2f702c9
+Commit message - Merge pull request #1741 from braddunbar/history-extend
+
+Add `extend` to Backbone.History.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 78 is -> 
+{ 5e103f7aaa34b40fcda1d52d69c2d64be8ecacb6 -> 47a47b2fe60f1859a4f297aeca5c110220869c47 } is a cherrypick
+{ ed95008a349f199af72f15a57e9e5659df9cf1cc -> d484423e11a861bfc57af9fafd64840baf744c83 }
+Cherrypick commits SHA are -> 
+47a47b2fe60f1859a4f297aeca5c110220869c47 - cherrypick - d484423e11a861bfc57af9fafd64840baf744c83
+---> The cherrypicked commit sha is - 47a47b2fe60f1859a4f297aeca5c110220869c47
+Commit message - Fix #1729 - Clarify expected arguments for get/getByCid.
+---> The original commit sha is - d484423e11a861bfc57af9fafd64840baf744c83
+Commit message - Merge pull request #1730 from braddunbar/get-docs
+
+Fix #1729 - Clarify expected arguments for get/getByCid.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 79 is -> 
+{ cb988aade3aa5909120f5afba4c4ae424f3e8a3f -> 71b6404d73f506627f0cc516177e39cc8c9947d7 } is a cherrypick
+{ 205307a8569f93c3da7f5e1902943d36752d1efc -> bdefd3cce159b12fbad2e7f831d8daac144973e0 }
+Cherrypick commits SHA are -> 
+71b6404d73f506627f0cc516177e39cc8c9947d7 - cherrypick - bdefd3cce159b12fbad2e7f831d8daac144973e0
+---> The cherrypicked commit sha is - 71b6404d73f506627f0cc516177e39cc8c9947d7
+Commit message - refactor change/set, fixing #1478 and #1664
+---> The original commit sha is - bdefd3cce159b12fbad2e7f831d8daac144973e0
+Commit message - Merge branch 'change-bug' of https://github.com/tgriesser/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 80 is -> 
+{ 9a12b7640f07839134e979b66df658b70e6e4fe9 -> 005173434e345a88f8f4201c8c9b76e67f9dba9e } is a cherrypick
+{ 804bb551cbf3deaadd067063803a5a1f4fb89ce4 -> 06c764c5e895442a929414178e8a5c453c816bb3 }
+Cherrypick commits SHA are -> 
+005173434e345a88f8f4201c8c9b76e67f9dba9e - cherrypick - 06c764c5e895442a929414178e8a5c453c816bb3
+---> The cherrypicked commit sha is - 005173434e345a88f8f4201c8c9b76e67f9dba9e
+Commit message - Fix #1377 - Saving without attrs triggers "error".
+---> The original commit sha is - 06c764c5e895442a929414178e8a5c453c816bb3
+Commit message - merge conflict resolved
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 81 is -> 
+{ 00b2551e66a750a9c2680d78af91b52d65237a92 -> ac580caffa214602552194ed57198eb3db5dda81 } is a cherrypick
+{ d6046cfb5e2d9955e9c8c4a8a97acc0e9ec532c0 -> d02415fb4b668e64cb2f0fa492ba6712dca99347 }
+Cherrypick commits SHA are -> 
+ac580caffa214602552194ed57198eb3db5dda81 - cherrypick - d02415fb4b668e64cb2f0fa492ba6712dca99347
+---> The cherrypicked commit sha is - ac580caffa214602552194ed57198eb3db5dda81
+Commit message - Fixes #892 ... make .route() chainable.
+---> The original commit sha is - d02415fb4b668e64cb2f0fa492ba6712dca99347
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 82 is -> 
+{ e572881fff4ecc1f2ad1d5ff86eb5d3484772d94 -> bbee6f17ce416afdfa7c1cbdc5a429c01c081a84 } is a cherrypick
+{ d6046cfb5e2d9955e9c8c4a8a97acc0e9ec532c0 -> d02415fb4b668e64cb2f0fa492ba6712dca99347 }
+Cherrypick commits SHA are -> 
+bbee6f17ce416afdfa7c1cbdc5a429c01c081a84 - cherrypick - d02415fb4b668e64cb2f0fa492ba6712dca99347
+---> The cherrypicked commit sha is - bbee6f17ce416afdfa7c1cbdc5a429c01c081a84
+Commit message - Merge pull request #909 from josscrowcroft/master
+
+Return `this` from View.setElement()
+---> The original commit sha is - d02415fb4b668e64cb2f0fa492ba6712dca99347
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 83 is -> 
+{ 9ba384627c29ac72e5f443443032e01afd3d5c27 -> 57e1e7d0834655bb8e1957781131185176e09b1e } is a cherrypick
+{ d6046cfb5e2d9955e9c8c4a8a97acc0e9ec532c0 -> d02415fb4b668e64cb2f0fa492ba6712dca99347 }
+Cherrypick commits SHA are -> 
+57e1e7d0834655bb8e1957781131185176e09b1e - cherrypick - d02415fb4b668e64cb2f0fa492ba6712dca99347
+---> The cherrypicked commit sha is - 57e1e7d0834655bb8e1957781131185176e09b1e
+Commit message - Merge pull request #1612 from joshvermaire/chain_navigation
+
+allow for chaining of router navigation
+---> The original commit sha is - d02415fb4b668e64cb2f0fa492ba6712dca99347
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 84 is -> 
+{ 00b2551e66a750a9c2680d78af91b52d65237a92 -> ac580caffa214602552194ed57198eb3db5dda81 } is a cherrypick
+{ 9ba384627c29ac72e5f443443032e01afd3d5c27 -> 57e1e7d0834655bb8e1957781131185176e09b1e }
+Cherrypick commits SHA are -> 
+ac580caffa214602552194ed57198eb3db5dda81 - cherrypick - 57e1e7d0834655bb8e1957781131185176e09b1e
+---> The cherrypicked commit sha is - ac580caffa214602552194ed57198eb3db5dda81
+Commit message - Fixes #892 ... make .route() chainable.
+---> The original commit sha is - 57e1e7d0834655bb8e1957781131185176e09b1e
+Commit message - Merge pull request #1612 from joshvermaire/chain_navigation
+
+allow for chaining of router navigation
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 85 is -> 
+{ e572881fff4ecc1f2ad1d5ff86eb5d3484772d94 -> bbee6f17ce416afdfa7c1cbdc5a429c01c081a84 } is a cherrypick
+{ 9ba384627c29ac72e5f443443032e01afd3d5c27 -> 57e1e7d0834655bb8e1957781131185176e09b1e }
+Cherrypick commits SHA are -> 
+bbee6f17ce416afdfa7c1cbdc5a429c01c081a84 - cherrypick - 57e1e7d0834655bb8e1957781131185176e09b1e
+---> The cherrypicked commit sha is - bbee6f17ce416afdfa7c1cbdc5a429c01c081a84
+Commit message - Merge pull request #909 from josscrowcroft/master
+
+Return `this` from View.setElement()
+---> The original commit sha is - 57e1e7d0834655bb8e1957781131185176e09b1e
+Commit message - Merge pull request #1612 from joshvermaire/chain_navigation
+
+allow for chaining of router navigation
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 86 is -> 
+{ 07b88efaddd3232c521caa2cdc798d9e63494fc9 -> ff0ddbcee20f5049067ac75035e35f71d0451b9c } is a cherrypick
+{ c344201f6e7c92b80792b4f78a284c55dad90125 -> 161c3a21d7c3d43445478cee8f64f6ddb996822e }
+Cherrypick commits SHA are -> 
+ff0ddbcee20f5049067ac75035e35f71d0451b9c - cherrypick - 161c3a21d7c3d43445478cee8f64f6ddb996822e
+---> The cherrypicked commit sha is - ff0ddbcee20f5049067ac75035e35f71d0451b9c
+Commit message - Merge pull request #1650 from braddunbar/#
+
+Fix #1649 - Set location.hash with a leading #.
+---> The original commit sha is - 161c3a21d7c3d43445478cee8f64f6ddb996822e
+Commit message - Merge pull request #1656 from braddunbar/sortby-groupby
+
+Fix #1655 - sortBy & groupBy use attributes.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 87 is -> 
+{ 36a733a8bce3d097bfbb7c982fa45138de503c16 -> 85fca58bb99305edd0b300d213fc9428cda46dbd } is a cherrypick
+{ 5b19d8acced7c4435534999eb27568fe2cf3fd5a -> 8ea7d9a01db0cce31d6e52b415105b2de0df28e9 }
+Cherrypick commits SHA are -> 
+85fca58bb99305edd0b300d213fc9428cda46dbd - cherrypick - 8ea7d9a01db0cce31d6e52b415105b2de0df28e9
+---> The cherrypicked commit sha is - 85fca58bb99305edd0b300d213fc9428cda46dbd
+Commit message - Refactor reset/sort.
+
+* Avoid creating unnecessary objects/arrays.
+* Add test for sort-style comparator context.
+---> The original commit sha is - 8ea7d9a01db0cce31d6e52b415105b2de0df28e9
+Commit message - Merge pull request #1644 from braddunbar/default-options
+
+Refactor reset/sort.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 88 is -> 
+{ 75216c068ebe7f0ceb761c75e626faa41f764d2c -> f8b5f7fad09d23662b5514723f4b5802107445b0 } is a cherrypick
+{ 4beaf2fdf0526db0dfd60766d392cb80cbae43ed -> d52c612b07d120bcdd47f21f0c6ff740b41e8af3 }
+Cherrypick commits SHA are -> 
+f8b5f7fad09d23662b5514723f4b5802107445b0 - cherrypick - d52c612b07d120bcdd47f21f0c6ff740b41e8af3
+---> The cherrypicked commit sha is - f8b5f7fad09d23662b5514723f4b5802107445b0
+Commit message - Avoid creation of extra array in collection proxy.
+---> The original commit sha is - d52c612b07d120bcdd47f21f0c6ff740b41e8af3
+Commit message - Merge pull request #1611 from braddunbar/collection-proxy
+
+Avoid creation of extra array in collection proxy.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 89 is -> 
+{ 9747d235a3f19428f09d59a1bbe1500ac0e16144 -> e70a38ef15819cc02633c9e218ef9ded8d4e43d1 } is a cherrypick
+{ f36f11e5e39f0a69a51da4bd28a11c310889187d -> 355c48011a68284b69754aa5a4e0ddabb789b20d }
+Cherrypick commits SHA are -> 
+e70a38ef15819cc02633c9e218ef9ded8d4e43d1 - cherrypick - 355c48011a68284b69754aa5a4e0ddabb789b20d
+---> The cherrypicked commit sha is - e70a38ef15819cc02633c9e218ef9ded8d4e43d1
+Commit message - Fix #1584 - Create default Backbone.history.
+---> The original commit sha is - 355c48011a68284b69754aa5a4e0ddabb789b20d
+Commit message - Merge pull request #1590 from braddunbar/extend
+
+Refactor extend.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 90 is -> 
+{ 2f0447365735d864d1035b589db407623b409aa0 -> d8d94f1391b3c8007a200c1e7cdc3625cf5ad300 } is a cherrypick
+{ ec061250319671685ecb5766d6301f213642673a -> e23c8714b640569b7da4f1af2b6315a80f1b684f }
+Cherrypick commits SHA are -> 
+d8d94f1391b3c8007a200c1e7cdc3625cf5ad300 - cherrypick - e23c8714b640569b7da4f1af2b6315a80f1b684f
+---> The cherrypicked commit sha is - d8d94f1391b3c8007a200c1e7cdc3625cf5ad300
+Commit message - add a warning about pass by reference. Issue #356
+---> The original commit sha is - e23c8714b640569b7da4f1af2b6315a80f1b684f
+Commit message - Fix #1455 - Warn that attribute names should not contain spaces.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 91 is -> 
+{ 3ae1af6df1b542bfb3e38f2fdfe7a471f2b830a0 -> 330f2ba182fa28e52492144ac0576d19e1f0c792 } is a cherrypick
+{ 6782ba2f8e0eb09baff3737adaec44d4b52a3ae2 -> cee30cf48cecb11c6bc09f237c48229e8335d6f6 }
+Cherrypick commits SHA are -> 
+330f2ba182fa28e52492144ac0576d19e1f0c792 - cherrypick - cee30cf48cecb11c6bc09f237c48229e8335d6f6
+---> The cherrypicked commit sha is - 330f2ba182fa28e52492144ac0576d19e1f0c792
+Commit message - adding model parsing for collections on initialization of a collection from raw data
+---> The original commit sha is - cee30cf48cecb11c6bc09f237c48229e8335d6f6
+Commit message - Merge pull request #1557 from iros/collection.parse
+
+Initializing collection from raw data doesn't pass it through parse method
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 92 is -> 
+{ 0b15e163ac804d80d0c8f204263ab0e2483eb823 -> 27e9e4743c716433af4b1d75fcaddaba535b5295 } is a cherrypick
+{ 966bb3dbdb7ed1732ba6bb091ea82be03d16f0d3 -> 76de397c645dad5aff84a4dfb0ccd044a9bff9e2 }
+Cherrypick commits SHA are -> 
+27e9e4743c716433af4b1d75fcaddaba535b5295 - cherrypick - 76de397c645dad5aff84a4dfb0ccd044a9bff9e2
+---> The cherrypicked commit sha is - 27e9e4743c716433af4b1d75fcaddaba535b5295
+Commit message - Fix #1387 - getFragment trims trailing slash before removing root.
+
+* The root should not be stripped when dealing with hashes.
+* The trailing slash can be removed since the fragment is
+  stripped anyway.  This could probably be done only once
+  in `start`, but is saved for a later patch.
+* The mock pathname needs to prepend a slash in IE since
+  anchor.pathname does not contain it.
+---> The original commit sha is - 76de397c645dad5aff84a4dfb0ccd044a9bff9e2
+Commit message - Merge pull request #1414 from braddunbar/root-trailing-slash
+
+Fix #1387 - getFragment trims trailing slash before removing root.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 93 is -> 
+{ 2cd5818fa26c3ab2d0ca7107598b39750a6f46e5 -> 6a39bfd8f32cfa84da2855e1e16fb015669f9cef } is a cherrypick
+{ d4d7fb97a5e0392578481212f93c371470e70898 -> db6514b637b4f5845c0ad582d61e751a4a048be9 }
+Cherrypick commits SHA are -> 
+6a39bfd8f32cfa84da2855e1e16fb015669f9cef - cherrypick - db6514b637b4f5845c0ad582d61e751a4a048be9
+---> The cherrypicked commit sha is - 6a39bfd8f32cfa84da2855e1e16fb015669f9cef
+Commit message - Move collection assignment a few lines up so this.collection is available in Model.parse
+---> The original commit sha is - db6514b637b4f5845c0ad582d61e751a4a048be9
+Commit message - Merge pull request #1408 from davidmarble/master
+
+Move this.collection assignment up a few lines so it's available in Model.parse
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 94 is -> 
+{ 7bcd6ad514f9d5682a2a5d5e892fc820d8ad1cce -> f133f0d5dc22a83f8c09fc62d49167e33159828d } is a cherrypick
+{ 2e2e9f7e96fa56d3f1a7211a777e90cb52f782ba -> fd178e829f7db5430a79565551a3a1ec47aaf795 }
+Cherrypick commits SHA are -> 
+f133f0d5dc22a83f8c09fc62d49167e33159828d - cherrypick - fd178e829f7db5430a79565551a3a1ec47aaf795
+---> The cherrypicked commit sha is - f133f0d5dc22a83f8c09fc62d49167e33159828d
+Commit message - Ensure tests run in IE7.
+---> The original commit sha is - fd178e829f7db5430a79565551a3a1ec47aaf795
+Commit message - Merge pull request #1400 from braddunbar/mock-location
+
+Use mock location to test Backbone.history.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 95 is -> 
+{ 85bd0b5132e0da853eda114bd761d7961b80a146 -> d7e77b1af8cee046222288203cc2096faa95522c } is a cherrypick
+{ 6454074dcd408aedc118f343b6500fe1e513fad7 -> a8553e17745d2d1820cd97e0afc1090f28f9c042 }
+Cherrypick commits SHA are -> 
+d7e77b1af8cee046222288203cc2096faa95522c - cherrypick - a8553e17745d2d1820cd97e0afc1090f28f9c042
+---> The cherrypicked commit sha is - d7e77b1af8cee046222288203cc2096faa95522c
+Commit message - Merge pull request #1327 from TheBits/silent-merge
+
+Merge model with silent flag
+---> The original commit sha is - a8553e17745d2d1820cd97e0afc1090f28f9c042
+Commit message - Merge pull request #1380 from DjebbZ/master
+
+Small typo in comment
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 96 is -> 
+{ 97379d66941c9a259eb179ae3a474e269bc74209 -> ceb68d731447321c7d9b30583052f27b1f365499 } is a cherrypick
+{ 2939a2a4123d59b3ad0d2db84992c3916efaa412 -> 85bd0b5132e0da853eda114bd761d7961b80a146 }
+Cherrypick commits SHA are -> 
+ceb68d731447321c7d9b30583052f27b1f365499 - cherrypick - 85bd0b5132e0da853eda114bd761d7961b80a146
+---> The cherrypicked commit sha is - ceb68d731447321c7d9b30583052f27b1f365499
+Commit message - Revert "Fix #1366 - Do not prepend root to history.fragment."
+
+This reverts commit 2b0ad77f3be07f91438f1f7e17d7c5eff5b2523b.
+---> The original commit sha is - 85bd0b5132e0da853eda114bd761d7961b80a146
+Commit message - Revert "Revert "Revert "Fix #1366 - Do not prepend root to history.fragment."""
+
+This reverts commit ba980801ce45609212e5fffbbc013ddf2dc3695c.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 97 is -> 
+{ c924e05bffc33044808973eaa8a70e506ae5fc66 -> 2b0ad77f3be07f91438f1f7e17d7c5eff5b2523b } is a cherrypick
+{ ceb68d731447321c7d9b30583052f27b1f365499 -> ba980801ce45609212e5fffbbc013ddf2dc3695c }
+Cherrypick commits SHA are -> 
+2b0ad77f3be07f91438f1f7e17d7c5eff5b2523b - cherrypick - ba980801ce45609212e5fffbbc013ddf2dc3695c
+---> The cherrypicked commit sha is - 2b0ad77f3be07f91438f1f7e17d7c5eff5b2523b
+Commit message - Fix #1366 - Do not prepend root to history.fragment.
+---> The original commit sha is - ba980801ce45609212e5fffbbc013ddf2dc3695c
+Commit message - Revert "Revert "Fix #1366 - Do not prepend root to history.fragment.""
+
+This reverts commit ceb68d731447321c7d9b30583052f27b1f365499.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 98 is -> 
+{ 7054ca4a2a2ed0a684edea42909c13a081e27901 -> 97379d66941c9a259eb179ae3a474e269bc74209 } is a cherrypick
+{ ceb68d731447321c7d9b30583052f27b1f365499 -> ba980801ce45609212e5fffbbc013ddf2dc3695c }
+Cherrypick commits SHA are -> 
+97379d66941c9a259eb179ae3a474e269bc74209 - cherrypick - ba980801ce45609212e5fffbbc013ddf2dc3695c
+---> The cherrypicked commit sha is - 97379d66941c9a259eb179ae3a474e269bc74209
+Commit message - Merge pull request #1372 from braddunbar/fragment
+
+Fix #1366 - Do not prepend root to history.fragment.
+---> The original commit sha is - ba980801ce45609212e5fffbbc013ddf2dc3695c
+Commit message - Revert "Revert "Fix #1366 - Do not prepend root to history.fragment.""
+
+This reverts commit ceb68d731447321c7d9b30583052f27b1f365499.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 99 is -> 
+{ c924e05bffc33044808973eaa8a70e506ae5fc66 -> 2b0ad77f3be07f91438f1f7e17d7c5eff5b2523b } is a cherrypick
+{ 7054ca4a2a2ed0a684edea42909c13a081e27901 -> 97379d66941c9a259eb179ae3a474e269bc74209 }
+Cherrypick commits SHA are -> 
+2b0ad77f3be07f91438f1f7e17d7c5eff5b2523b - cherrypick - 97379d66941c9a259eb179ae3a474e269bc74209
+---> The cherrypicked commit sha is - 2b0ad77f3be07f91438f1f7e17d7c5eff5b2523b
+Commit message - Fix #1366 - Do not prepend root to history.fragment.
+---> The original commit sha is - 97379d66941c9a259eb179ae3a474e269bc74209
+Commit message - Merge pull request #1372 from braddunbar/fragment
+
+Fix #1366 - Do not prepend root to history.fragment.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 100 is -> 
+{ fdb3451cbf56e206cc4bb0c744608ca22822edf9 -> 6f3328f23970d6939cbfa1e6c5fce0218121e5d9 } is a cherrypick
+{ f86674d6a70e6e1cda80bc82c57a918bb619e95e -> 3c7c8d2f1af5ded3067324579ca6ff0f5dcb2893 }
+Cherrypick commits SHA are -> 
+6f3328f23970d6939cbfa1e6c5fce0218121e5d9 - cherrypick - 3c7c8d2f1af5ded3067324579ca6ff0f5dcb2893
+---> The cherrypicked commit sha is - 6f3328f23970d6939cbfa1e6c5fce0218121e5d9
+Commit message - Updated `Collection.sort()` doc to clarify priority maintenance
+---> The original commit sha is - 3c7c8d2f1af5ded3067324579ca6ff0f5dcb2893
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 101 is -> 
+{ a88efef3cd1fa98f33bd1856064ee94ef3df2592 -> 7dbab65bce1af4af5780accd037c44efed939d21 } is a cherrypick
+{ 04a778c7472fd3a1bafcb341d1533056480ca810 -> 9ee0358cd66001b7140fa89208f441635a0c19bf }
+Cherrypick commits SHA are -> 
+7dbab65bce1af4af5780accd037c44efed939d21 - cherrypick - 9ee0358cd66001b7140fa89208f441635a0c19bf
+---> The cherrypicked commit sha is - 7dbab65bce1af4af5780accd037c44efed939d21
+Commit message - Support merging of updated object state on collection add.
+---> The original commit sha is - 9ee0358cd66001b7140fa89208f441635a0c19bf
+Commit message - Merge pull request #1220 from folded/master
+
+Optionally merging updated model state on collection add.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 102 is -> 
+{ 091b3e5a806fe9c34df859045fedf066ddbc4a8b -> 7596947b06e9585a3d7ad335826f8aacc50ced4f } is a cherrypick
+{ f60e4854e03e0b25e4b639d48c59eb1ab6688f5a -> fb49233436fdfb5838af41d5d2b8df2354a30cd4 }
+Cherrypick commits SHA are -> 
+7596947b06e9585a3d7ad335826f8aacc50ced4f - cherrypick - fb49233436fdfb5838af41d5d2b8df2354a30cd4
+---> The cherrypicked commit sha is - 7596947b06e9585a3d7ad335826f8aacc50ced4f
+Commit message - use pathname as fragment when hashChange: false
+---> The original commit sha is - fb49233436fdfb5838af41d5d2b8df2354a30cd4
+Commit message - Merge pull request #1185 from aterris/fragment
+
+Use window.location.pathname as the fragment when _wantsHashChange == false
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 103 is -> 
+{ a2ed079af8f58b8b718369752286216c8e186e6c -> 137b7fd670ae25141c6f5865797a0902476add6f } is a cherrypick
+{ af30bcf3ca60c4234df099762344ff4b479260e7 -> 091b3e5a806fe9c34df859045fedf066ddbc4a8b }
+Cherrypick commits SHA are -> 
+137b7fd670ae25141c6f5865797a0902476add6f - cherrypick - 091b3e5a806fe9c34df859045fedf066ddbc4a8b
+---> The cherrypicked commit sha is - 137b7fd670ae25141c6f5865797a0902476add6f
+Commit message - Fix #1179 - isValid returns true in the absence of validate.
+---> The original commit sha is - 091b3e5a806fe9c34df859045fedf066ddbc4a8b
+Commit message - Merge pull request #1181 from braddunbar/isvalid
+
+Fix #1179 - isValid returns true in the absence of validate.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 104 is -> 
+{ fd4df5a810f3c755a6eea9aa1bfc3ada3c30c06e -> 59b39c43a301e856988995aca1f9b8ecf1e4f9f7 } is a cherrypick
+{ 34c058e7566e8bfe311329784fb4695bef02d8f2 -> e5aabc600385134f7e947bd12bc007fa58a627bc }
+Cherrypick commits SHA are -> 
+59b39c43a301e856988995aca1f9b8ecf1e4f9f7 - cherrypick - e5aabc600385134f7e947bd12bc007fa58a627bc
+---> The cherrypicked commit sha is - 59b39c43a301e856988995aca1f9b8ecf1e4f9f7
+Commit message - Add router test for urls with encoded characters
+---> The original commit sha is - e5aabc600385134f7e947bd12bc007fa58a627bc
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 105 is -> 
+{ d7b8c8cdc443b476a624d718909c867abdcff5e8 -> 948d41c290a8692119bcace3a50cb6be935c6178 } is a cherrypick
+{ 34c058e7566e8bfe311329784fb4695bef02d8f2 -> e5aabc600385134f7e947bd12bc007fa58a627bc }
+Cherrypick commits SHA are -> 
+948d41c290a8692119bcace3a50cb6be935c6178 - cherrypick - e5aabc600385134f7e947bd12bc007fa58a627bc
+---> The cherrypicked commit sha is - 948d41c290a8692119bcace3a50cb6be935c6178
+Commit message - Merge pull request #1156 from VIISON/master
+
+Router test for urls with encoded characters
+---> The original commit sha is - e5aabc600385134f7e947bd12bc007fa58a627bc
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 106 is -> 
+{ fd4df5a810f3c755a6eea9aa1bfc3ada3c30c06e -> 59b39c43a301e856988995aca1f9b8ecf1e4f9f7 } is a cherrypick
+{ d7b8c8cdc443b476a624d718909c867abdcff5e8 -> 948d41c290a8692119bcace3a50cb6be935c6178 }
+Cherrypick commits SHA are -> 
+59b39c43a301e856988995aca1f9b8ecf1e4f9f7 - cherrypick - 948d41c290a8692119bcace3a50cb6be935c6178
+---> The cherrypicked commit sha is - 59b39c43a301e856988995aca1f9b8ecf1e4f9f7
+Commit message - Add router test for urls with encoded characters
+---> The original commit sha is - 948d41c290a8692119bcace3a50cb6be935c6178
+Commit message - Merge pull request #1156 from VIISON/master
+
+Router test for urls with encoded characters
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 107 is -> 
+{ af674c98c51c40cc8f65ee54a5446dae02e7ba4b -> 8f07f966edde1dc5d1ca7ec530d9525389d02b39 } is a cherrypick
+{ da97490f0be46afe221443343b7c7bc261a3a186 -> fad38af936f6553ddaf4efbd1470ca1c60dd470b }
+Cherrypick commits SHA are -> 
+8f07f966edde1dc5d1ca7ec530d9525389d02b39 - cherrypick - fad38af936f6553ddaf4efbd1470ca1c60dd470b
+---> The cherrypicked commit sha is - 8f07f966edde1dc5d1ca7ec530d9525389d02b39
+Commit message - link to association extensions.
+---> The original commit sha is - fad38af936f6553ddaf4efbd1470ca1c60dd470b
+Commit message - Merge pull request #1163 from aterris/model-collection-docs
+
+Fix #1161: Documentation for model.collection property 
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 108 is -> 
+{ 01adb382fee739e31d671ebd9b4a2ea130160371 -> 5d04588ae719b2337300dd381911e18fd7b59e3c } is a cherrypick
+{ dbdd49d27d9b586d6290cb1d7f8382993de2e52b -> fd4df5a810f3c755a6eea9aa1bfc3ada3c30c06e }
+Cherrypick commits SHA are -> 
+5d04588ae719b2337300dd381911e18fd7b59e3c - cherrypick - fd4df5a810f3c755a6eea9aa1bfc3ada3c30c06e
+---> The cherrypicked commit sha is - 5d04588ae719b2337300dd381911e18fd7b59e3c
+Commit message - toJSON is called implicitly.
+---> The original commit sha is - fd4df5a810f3c755a6eea9aa1bfc3ada3c30c06e
+Commit message - Merge pull request #1152 from braddunbar/implicit-tojson
+
+toJSON is called implicitly.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 109 is -> 
+{ 4d0051de76d0aa6b3238edc48bcd51c303359708 -> 2d9d77cf2f07dc652f3ae39ba8d00f136295b66f } is a cherrypick
+{ a1dea84b34edfef022d42ed1ab4b25c5210ea0fc -> d8de1cac4de0fbe75cc2480f9f1e267384bc8a64 }
+Cherrypick commits SHA are -> 
+2d9d77cf2f07dc652f3ae39ba8d00f136295b66f - cherrypick - d8de1cac4de0fbe75cc2480f9f1e267384bc8a64
+---> The cherrypicked commit sha is - 2d9d77cf2f07dc652f3ae39ba8d00f136295b66f
+Commit message - Corrected link to address issue #1132 (Broken link in annotated source)
+---> The original commit sha is - d8de1cac4de0fbe75cc2480f9f1e267384bc8a64
+Commit message - Merge pull request #1141 from colevscode/master
+
+Corrected link to address issue #1132 (Broken link in annotated source)
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 110 is -> 
+{ 9587a1f2921e02d6eedb7352367bfa284b1619e9 -> 79045c11cbbf055f51ee23d3b8685723f156d59f } is a cherrypick
+{ de599c169d853ec1d79076c0e9b98dc4ae612a0b -> 7b6dbc8dcd518bf6b87c09b50f7d9b0fb0010649 }
+Cherrypick commits SHA are -> 
+79045c11cbbf055f51ee23d3b8685723f156d59f - cherrypick - 7b6dbc8dcd518bf6b87c09b50f7d9b0fb0010649
+---> The cherrypicked commit sha is - 79045c11cbbf055f51ee23d3b8685723f156d59f
+Commit message - small patch to allow passing options through reset to model initializer
+---> The original commit sha is - 7b6dbc8dcd518bf6b87c09b50f7d9b0fb0010649
+Commit message - Merge pull request #1021 from ahamid/reset_passes_options
+
+small patch to allow passing options through reset to model initializer
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 111 is -> 
+{ 01fb4149e10b244715bc79a946f7c1ef9a2e9d7f -> fb27097835f280692fe9c185790e1692bf13a79d } is a cherrypick
+{ e2e0a0982b6478af7f98000d97b2b146e663d194 -> 5f41b88764060c9996ebdc0b3560e984d11c17ca }
+Cherrypick commits SHA are -> 
+fb27097835f280692fe9c185790e1692bf13a79d - cherrypick - 5f41b88764060c9996ebdc0b3560e984d11c17ca
+---> The cherrypicked commit sha is - fb27097835f280692fe9c185790e1692bf13a79d
+Commit message - Fix #1105 - Add convenience overloads for `off`.
+---> The original commit sha is - 5f41b88764060c9996ebdc0b3560e984d11c17ca
+Commit message - Merge pull request #1110 from braddunbar/off
+
+Fix #1105 - Add convenience overloads for `off`.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 112 is -> 
+{ 1f40de75394baed985a958d77e770dfaa5c7c71d -> c473066c9d074f2a932168855982f5316e3bba51 } is a cherrypick
+{ 58b5a22b6edecb0a2decab739169a974fc7d259f -> 2b849a9be447fce42d4e274b65456a43343e3390 }
+Cherrypick commits SHA are -> 
+c473066c9d074f2a932168855982f5316e3bba51 - cherrypick - 2b849a9be447fce42d4e274b65456a43343e3390
+---> The cherrypicked commit sha is - c473066c9d074f2a932168855982f5316e3bba51
+Commit message - Updated documentation for validate #1063
+---> The original commit sha is - 2b849a9be447fce42d4e274b65456a43343e3390
+Commit message - Merge pull request #1070 from dira/patch-1
+
+Updated documentation for validate - #1063
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 113 is -> 
+{ ee215be027417a18d89346514ef59bc850fda92c -> f44cfeeb36d2435d59f198872606ae04ac4c6e40 } is a cherrypick
+{ b59fa6f72b7663f52011237a80b56546aad5a12f -> 58b5a22b6edecb0a2decab739169a974fc7d259f }
+Cherrypick commits SHA are -> 
+f44cfeeb36d2435d59f198872606ae04ac4c6e40 - cherrypick - 58b5a22b6edecb0a2decab739169a974fc7d259f
+---> The cherrypicked commit sha is - f44cfeeb36d2435d59f198872606ae04ac4c6e40
+Commit message - Adding in a note about passing in an object literal or a model to Collection.create. Thanks to MattJ for the recommendation.
+---> The original commit sha is - 58b5a22b6edecb0a2decab739169a974fc7d259f
+Commit message - fixes #1073 -- document that sync can be overridden at the collection or model level.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 114 is -> 
+{ f44cfeeb36d2435d59f198872606ae04ac4c6e40 -> a00b7983186c51f31cb105e0ca9b1d4bc25607ea } is a cherrypick
+{ b59fa6f72b7663f52011237a80b56546aad5a12f -> 58b5a22b6edecb0a2decab739169a974fc7d259f }
+Cherrypick commits SHA are -> 
+a00b7983186c51f31cb105e0ca9b1d4bc25607ea - cherrypick - 58b5a22b6edecb0a2decab739169a974fc7d259f
+---> The cherrypicked commit sha is - a00b7983186c51f31cb105e0ca9b1d4bc25607ea
+Commit message - Adding in a note about Backbone.history.start() returning a boolean for whether or not a match has been found in the current URL fragment. Thanks to XiXora for the recommendation.
+---> The original commit sha is - 58b5a22b6edecb0a2decab739169a974fc7d259f
+Commit message - fixes #1073 -- document that sync can be overridden at the collection or model level.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 115 is -> 
+{ 2b1eae4d9c50a77a252fdcfbaa4e8aefa66df8fc -> 9503627e08f2fa784e503c6da00c943331ae107b } is a cherrypick
+{ b59fa6f72b7663f52011237a80b56546aad5a12f -> 58b5a22b6edecb0a2decab739169a974fc7d259f }
+Cherrypick commits SHA are -> 
+9503627e08f2fa784e503c6da00c943331ae107b - cherrypick - 58b5a22b6edecb0a2decab739169a974fc7d259f
+---> The cherrypicked commit sha is - 9503627e08f2fa784e503c6da00c943331ae107b
+Commit message - documenting that fetch options can also be jquery options.
+---> The original commit sha is - 58b5a22b6edecb0a2decab739169a974fc7d259f
+Commit message - fixes #1073 -- document that sync can be overridden at the collection or model level.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 116 is -> 
+{ e8519f7a8e2c25760cd8904247e705619caf8984 -> 6ed5e45a2b5b1e0d55c2c3b2ff65c4b6d4d7942e } is a cherrypick
+{ b59fa6f72b7663f52011237a80b56546aad5a12f -> 58b5a22b6edecb0a2decab739169a974fc7d259f }
+Cherrypick commits SHA are -> 
+6ed5e45a2b5b1e0d55c2c3b2ff65c4b6d4d7942e - cherrypick - 58b5a22b6edecb0a2decab739169a974fc7d259f
+---> The cherrypicked commit sha is - 6ed5e45a2b5b1e0d55c2c3b2ff65c4b6d4d7942e
+Commit message - Issue #613 .. only call history.start() on domready.
+---> The original commit sha is - 58b5a22b6edecb0a2decab739169a974fc7d259f
+Commit message - fixes #1073 -- document that sync can be overridden at the collection or model level.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 117 is -> 
+{ b9c6ee91cbbcb7c5cd438cc8aa15e5925fc4c148 -> 5d43483a10572b6db06de5566edcc281b4b99570 } is a cherrypick
+{ 6d85811d68a00c355c44c69ad588bf8ecf716557 -> b59fa6f72b7663f52011237a80b56546aad5a12f }
+Cherrypick commits SHA are -> 
+5d43483a10572b6db06de5566edcc281b4b99570 - cherrypick - b59fa6f72b7663f52011237a80b56546aad5a12f
+---> The cherrypicked commit sha is - 5d43483a10572b6db06de5566edcc281b4b99570
+Commit message - Added a note to javascript injection attacks when bootstrapping data #1034
+---> The original commit sha is - b59fa6f72b7663f52011237a80b56546aad5a12f
+Commit message - Merge pull request #1084 from dira/patch-3
+
+Prevent javascript injection attacks when bootstrapping data #1034
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 118 is -> 
+{ 673d07beaf28d33a6139bceaf2e76b561252a0e1 -> f422291547ad3762bf2295ae16c4ec8d3e6c2910 } is a cherrypick
+{ fdfe0105af1b8ebd685196fcd83d9deb02327c8b -> 5db14ff4de9f1afc5ef352bc214501f4a87588cb }
+Cherrypick commits SHA are -> 
+f422291547ad3762bf2295ae16c4ec8d3e6c2910 - cherrypick - 5db14ff4de9f1afc5ef352bc214501f4a87588cb
+---> The cherrypicked commit sha is - f422291547ad3762bf2295ae16c4ec8d3e6c2910
+Commit message - fix typo in index.html
+---> The original commit sha is - 5db14ff4de9f1afc5ef352bc214501f4a87588cb
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 119 is -> 
+{ e5db1c93d084b74a9cc3fe2dae4798372eee6ff1 -> 5071967e32756597353d72776227570537e0d142 } is a cherrypick
+{ 5f129678eb4e2d78b4f65eacf8e383606606f968 -> c6b28149fa5984be61f193ca7c703523e8e13499 }
+Cherrypick commits SHA are -> 
+5071967e32756597353d72776227570537e0d142 - cherrypick - c6b28149fa5984be61f193ca7c703523e8e13499
+---> The cherrypicked commit sha is - 5071967e32756597353d72776227570537e0d142
+Commit message - fix error message on missing event callback
+---> The original commit sha is - c6b28149fa5984be61f193ca7c703523e8e13499
+Commit message - Merge pull request #982 from braddunbar/change
+
+Fixes #959 - Silent changes fire `'change:attr'`.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 120 is -> 
+{ 2eb9c5054c9752898071beef8a91ee993895c4ae -> b86cfebdb1dae9f4fe2db5597caafa2aca9041e6 } is a cherrypick
+{ 522e090831984804c322abccaf7baaf63ef0a1fd -> 501799e3b69959649a0c12e106e11d710c820d62 }
+Cherrypick commits SHA are -> 
+b86cfebdb1dae9f4fe2db5597caafa2aca9041e6 - cherrypick - 501799e3b69959649a0c12e106e11d710c820d62
+---> The cherrypicked commit sha is - b86cfebdb1dae9f4fe2db5597caafa2aca9041e6
+Commit message - more documentation on upgrading and change events.
+---> The original commit sha is - 501799e3b69959649a0c12e106e11d710c820d62
+Commit message - Merge pull request #965 from braddunbar/collection-get
+
+fixes #964 - collection.get has consistent return
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 121 is -> 
+{ ec7e422d5e144e5916d7cbe007788cb8477c672f -> 954da679edf79098b897f4fc4b5e92902a3b96fb } is a cherrypick
+{ dfeea846323536059763d12bf3db0a13c1895202 -> b8001f9b8994dc258b4f42f7e2e082b07e6c8403 }
+Cherrypick commits SHA are -> 
+954da679edf79098b897f4fc4b5e92902a3b96fb - cherrypick - b8001f9b8994dc258b4f42f7e2e082b07e6c8403
+---> The cherrypicked commit sha is - 954da679edf79098b897f4fc4b5e92902a3b96fb
+Commit message - Refactor some tests.
+
+* Use object for lastRequest to prevent errors.
+* Ensure setDOMLibrary tests are cleaned up.
+---> The original commit sha is - b8001f9b8994dc258b4f42f7e2e082b07e6c8403
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 122 is -> 
+{ 843eacfcd37510775db072183e51e4dc8e8885bf -> bb1a7d77926b0de45042a071a1e95311b9e37160 } is a cherrypick
+{ eb4753862e989e91d526ca4b012e6a891c22c7ad -> d187f7f989861aa15fcb90f8b3ff17966aeef679 }
+Cherrypick commits SHA are -> 
+bb1a7d77926b0de45042a071a1e95311b9e37160 - cherrypick - d187f7f989861aa15fcb90f8b3ff17966aeef679
+---> The cherrypicked commit sha is - bb1a7d77926b0de45042a071a1e95311b9e37160
+Commit message - Fixes issue #904
+---> The original commit sha is - d187f7f989861aa15fcb90f8b3ff17966aeef679
+Commit message - Merge pull request #906 from tomasztunik/master
+
+Fixes issue #904
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 123 is -> 
+{ ad870b256caead95a6d3fd367f791b740b15149b -> fc2c4ded7cbab1b2a413318fbf82c022a7cc290a } is a cherrypick
+{ aafbcb05e5f8fcda3c4952cd9228e8947902af13 -> 0e709e456f55e32184829ee0d9db184cb3da1d84 }
+Cherrypick commits SHA are -> 
+fc2c4ded7cbab1b2a413318fbf82c022a7cc290a - cherrypick - 0e709e456f55e32184829ee0d9db184cb3da1d84
+---> The cherrypicked commit sha is - fc2c4ded7cbab1b2a413318fbf82c022a7cc290a
+Commit message - Merge pull request #920 from braddunbar/$
+
+use `$` as DOM abstraction library
+---> The original commit sha is - 0e709e456f55e32184829ee0d9db184cb3da1d84
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 124 is -> 
+{ 00b2551e66a750a9c2680d78af91b52d65237a92 -> ac580caffa214602552194ed57198eb3db5dda81 } is a cherrypick
+{ e572881fff4ecc1f2ad1d5ff86eb5d3484772d94 -> bbee6f17ce416afdfa7c1cbdc5a429c01c081a84 }
+Cherrypick commits SHA are -> 
+ac580caffa214602552194ed57198eb3db5dda81 - cherrypick - bbee6f17ce416afdfa7c1cbdc5a429c01c081a84
+---> The cherrypicked commit sha is - ac580caffa214602552194ed57198eb3db5dda81
+Commit message - Fixes #892 ... make .route() chainable.
+---> The original commit sha is - bbee6f17ce416afdfa7c1cbdc5a429c01c081a84
+Commit message - Merge pull request #909 from josscrowcroft/master
+
+Return `this` from View.setElement()
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 125 is -> 
+{ b05deb5fb5f34fb33e020c6487d3d935eaa38f90 -> c7c7b3c1a144c8b7b747aaa6dca02aaa6f4d0a61 } is a cherrypick
+{ a9a3499af18f4c88de2b8c80e86eed7fd1cd07d8 -> 36fde545f9672e095f47fe3b77cbd497c645c658 }
+Cherrypick commits SHA are -> 
+c7c7b3c1a144c8b7b747aaa6dca02aaa6f4d0a61 - cherrypick - 36fde545f9672e095f47fe3b77cbd497c645c658
+---> The cherrypicked commit sha is - c7c7b3c1a144c8b7b747aaa6dca02aaa6f4d0a61
+Commit message - fixed typo in test for (presumably) equality
+---> The original commit sha is - 36fde545f9672e095f47fe3b77cbd497c645c658
+Commit message - Merge pull request #872 from vovik/master
+
+fixed typo in test for (presumably) equality
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 126 is -> 
+{ cdce2ec30f93e85c2c48cfa0bd93b85ee8769254 -> 29c512c47c3218ec6647e205f8263701ec4e9e2b } is a cherrypick
+{ cea56e523a3042e280ae81118657542c6b85c8e9 -> 252919f841349d6a472e7fb5acc80011a2ab1661 }
+Cherrypick commits SHA are -> 
+29c512c47c3218ec6647e205f8263701ec4e9e2b - cherrypick - 252919f841349d6a472e7fb5acc80011a2ab1661
+---> The cherrypicked commit sha is - 29c512c47c3218ec6647e205f8263701ec4e9e2b
+Commit message - docs for #862
+---> The original commit sha is - 252919f841349d6a472e7fb5acc80011a2ab1661
+Commit message - Merge pull request #863 from braddunbar/route-docs
+
+docs for #862
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 127 is -> 
+{ 34e0f7fb26c3c2a13e7dfdc072b33fd7b971c72b -> 920d0471455808e1ef5f4a490465052fbfb3bceb } is a cherrypick
+{ 2dce41324775f2ad897693471748edcf03db7c8d -> 9c0e7f00ea2cfe3ecc92c9b64c38e47aa8e3c516 }
+Cherrypick commits SHA are -> 
+920d0471455808e1ef5f4a490465052fbfb3bceb - cherrypick - 9c0e7f00ea2cfe3ecc92c9b64c38e47aa8e3c516
+---> The cherrypicked commit sha is - 920d0471455808e1ef5f4a490465052fbfb3bceb
+Commit message - Documentation for Backbone.Events
+---> The original commit sha is - 9c0e7f00ea2cfe3ecc92c9b64c38e47aa8e3c516
+Commit message - Merge pull request #857 from braddunbar/events-documentation
+
+Documentation for Backbone.Events
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 128 is -> 
+{ 5a32ececc72ee2feeaeab4717c11ca34fea0c358 -> 6eb90e3e1877fad428baa8479a386d6792da6e41 } is a cherrypick
+{ 32e5ab7ae9997ac8d4a98ff7edb8a53d14d6aa57 -> 9c62b26ef0fe742fab3622ba7948a7b4bb234973 }
+Cherrypick commits SHA are -> 
+6eb90e3e1877fad428baa8479a386d6792da6e41 - cherrypick - 9c62b26ef0fe742fab3622ba7948a7b4bb234973
+---> The cherrypicked commit sha is - 6eb90e3e1877fad428baa8479a386d6792da6e41
+Commit message - more mentions of history.start()
+---> The original commit sha is - 9c62b26ef0fe742fab3622ba7948a7b4bb234973
+Commit message - Fixes #629, documents how easy it is to make event dispatching objects.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 129 is -> 
+{ d8d94f1391b3c8007a200c1e7cdc3625cf5ad300 -> 5f7b01d94c4b687d8d5056ce8a21146cb5907bcd } is a cherrypick
+{ 32e5ab7ae9997ac8d4a98ff7edb8a53d14d6aa57 -> 9c62b26ef0fe742fab3622ba7948a7b4bb234973 }
+Cherrypick commits SHA are -> 
+5f7b01d94c4b687d8d5056ce8a21146cb5907bcd - cherrypick - 9c62b26ef0fe742fab3622ba7948a7b4bb234973
+---> The cherrypicked commit sha is - 5f7b01d94c4b687d8d5056ce8a21146cb5907bcd
+Commit message - document collection.reset() with no args.
+---> The original commit sha is - 9c62b26ef0fe742fab3622ba7948a7b4bb234973
+Commit message - Fixes #629, documents how easy it is to make event dispatching objects.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 130 is -> 
+{ d5ff5e32f6a6f6ea643ff5e5a1172778f56f0b83 -> 47e1f7e6c838a95e562dba9eafd39573b2dc9e04 } is a cherrypick
+{ 8c03df50c354b694b45ce266e84ed7fc749ce01b -> 159e51e860a6a0eea46091c91bd2752fa14e8e76 }
+Cherrypick commits SHA are -> 
+47e1f7e6c838a95e562dba9eafd39573b2dc9e04 - cherrypick - 159e51e860a6a0eea46091c91bd2752fa14e8e76
+---> The cherrypicked commit sha is - 47e1f7e6c838a95e562dba9eafd39573b2dc9e04
+Commit message - (un)bind does not alter callback list during trigger
+---> The original commit sha is - 159e51e860a6a0eea46091c91bd2752fa14e8e76
+Commit message - Merge pull request #723 from braddunbar/bind-during-trigger
+
+(un)bind does not alter callback list during trigger
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 131 is -> 
+{ 780ddd393c87aecd69b83ddf49bd73e0c76dd844 -> 478aaf3d000ff8d4b7f9d6c78d657f4e9904df65 } is a cherrypick
+{ 1675e76cb77a461cf1a609e83349385f4cf5af8a -> 933469a2bdc0df454edd858e66cadfab7ff93811 }
+Cherrypick commits SHA are -> 
+478aaf3d000ff8d4b7f9d6c78d657f4e9904df65 - cherrypick - 933469a2bdc0df454edd858e66cadfab7ff93811
+---> The cherrypicked commit sha is - 478aaf3d000ff8d4b7f9d6c78d657f4e9904df65
+Commit message - Switched order of delegateEvents and initialize in Backbone.View constructor in order to allow for explicit setting of this.el in initialize (and ensure that events are bound correctly).
+---> The original commit sha is - 933469a2bdc0df454edd858e66cadfab7ff93811
+Commit message - Merge pull request #851 from mickeyreiss/master
+
+Switch order of delegateEvents and initialize in View constructor
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 132 is -> 
+{ 8adac9136ca8b194304f6b3d6d690a42c33fab6c -> fd78dbf14eeacd69836ed4f681192ab91ee2a361 } is a cherrypick
+{ dcc041ab4a8a1274f4f307a731bdd942ca70dfdf -> e10525d4d4286ca03b33913f1b967f62ce5bc49e }
+Cherrypick commits SHA are -> 
+fd78dbf14eeacd69836ed4f681192ab91ee2a361 - cherrypick - e10525d4d4286ca03b33913f1b967f62ce5bc49e
+---> The cherrypicked commit sha is - fd78dbf14eeacd69836ed4f681192ab91ee2a361
+Commit message - Only remove single '#' when getting URL fragment.
+
+Firefox has a bug that auto-decodes the hash fragment
+(https://bugzilla.mozilla.org/show_bug.cgi?id=483304), which makes
+it impossible to have a hash like '#%23backbone.js'.
+---> The original commit sha is - e10525d4d4286ca03b33913f1b967f62ce5bc49e
+Commit message - Merge pull request #772 from rgieseke/master
+
+Fixes issue 498.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 133 is -> 
+{ 7070c27d1c47f1bf64c2dc797b0fcf14ec182d48 -> da51087dbf7b8a27b39776e695bc285bc87ba127 } is a cherrypick
+{ 20a2e3408a9f8a09c8db6fa3ffb05b47766f5112 -> 478ef5c4b4edbfd4868c3acf4a262d109cedea46 }
+Cherrypick commits SHA are -> 
+da51087dbf7b8a27b39776e695bc285bc87ba127 - cherrypick - 478ef5c4b4edbfd4868c3acf4a262d109cedea46
+---> The cherrypicked commit sha is - da51087dbf7b8a27b39776e695bc285bc87ba127
+Commit message - Trigger error on originalModel not model
+
+The original model that the 'sync' request was called in should be the
+object that is taking the 'error' trigger.
+
+After a 'fetch' request on a collection, 'model' is the jQuery xhr
+object, which does not have a 'trigger' method.
+---> The original commit sha is - 478ef5c4b4edbfd4868c3acf4a262d109cedea46
+Commit message - Merge pull request #736 from braddunbar/nested-set
+
+Multiple nested calls to set
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 134 is -> 
+{ f9ae1a16868a44e1d48a51cc8238894d070ad79c -> d9f44798457e0efb3e7f45970f18639d651965b6 } is a cherrypick
+{ 20a2e3408a9f8a09c8db6fa3ffb05b47766f5112 -> 478ef5c4b4edbfd4868c3acf4a262d109cedea46 }
+Cherrypick commits SHA are -> 
+d9f44798457e0efb3e7f45970f18639d651965b6 - cherrypick - 478ef5c4b4edbfd4868c3acf4a262d109cedea46
+---> The cherrypicked commit sha is - d9f44798457e0efb3e7f45970f18639d651965b6
+Commit message - Merge pull request #721 from TrisMcC/fix-model-trigger
+
+Trigger error on originalModel not model
+---> The original commit sha is - 478ef5c4b4edbfd4868c3acf4a262d109cedea46
+Commit message - Merge pull request #736 from braddunbar/nested-set
+
+Multiple nested calls to set
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 135 is -> 
+{ 7070c27d1c47f1bf64c2dc797b0fcf14ec182d48 -> da51087dbf7b8a27b39776e695bc285bc87ba127 } is a cherrypick
+{ f9ae1a16868a44e1d48a51cc8238894d070ad79c -> d9f44798457e0efb3e7f45970f18639d651965b6 }
+Cherrypick commits SHA are -> 
+da51087dbf7b8a27b39776e695bc285bc87ba127 - cherrypick - d9f44798457e0efb3e7f45970f18639d651965b6
+---> The cherrypicked commit sha is - da51087dbf7b8a27b39776e695bc285bc87ba127
+Commit message - Trigger error on originalModel not model
+
+The original model that the 'sync' request was called in should be the
+object that is taking the 'error' trigger.
+
+After a 'fetch' request on a collection, 'model' is the jQuery xhr
+object, which does not have a 'trigger' method.
+---> The original commit sha is - d9f44798457e0efb3e7f45970f18639d651965b6
+Commit message - Merge pull request #721 from TrisMcC/fix-model-trigger
+
+Trigger error on originalModel not model
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 136 is -> 
+{ 16f4857f023fdd3f5e32c2ce5f69f2468908809d -> b20f54f24550ace1998e41184fa503bba856533b } is a cherrypick
+{ 6ed5e45a2b5b1e0d55c2c3b2ff65c4b6d4d7942e -> 291863df556d4a84cf5b9056f1d8f55c48441084 }
+Cherrypick commits SHA are -> 
+b20f54f24550ace1998e41184fa503bba856533b - cherrypick - 291863df556d4a84cf5b9056f1d8f55c48441084
+---> The cherrypicked commit sha is - b20f54f24550ace1998e41184fa503bba856533b
+Commit message - Fix root prefix handling in navigate.
+
+Fixes prefix removal when the root prefix is included as part of the navigate route parameter. 
+---> The original commit sha is - 291863df556d4a84cf5b9056f1d8f55c48441084
+Commit message - Merge pull request #599 from walmartlabs/root-handling
+
+Fix root prefix handling in navigate.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 137 is -> 
+{ ee215be027417a18d89346514ef59bc850fda92c -> f44cfeeb36d2435d59f198872606ae04ac4c6e40 } is a cherrypick
+{ e8519f7a8e2c25760cd8904247e705619caf8984 -> 6ed5e45a2b5b1e0d55c2c3b2ff65c4b6d4d7942e }
+Cherrypick commits SHA are -> 
+f44cfeeb36d2435d59f198872606ae04ac4c6e40 - cherrypick - 6ed5e45a2b5b1e0d55c2c3b2ff65c4b6d4d7942e
+---> The cherrypicked commit sha is - f44cfeeb36d2435d59f198872606ae04ac4c6e40
+Commit message - Adding in a note about passing in an object literal or a model to Collection.create. Thanks to MattJ for the recommendation.
+---> The original commit sha is - 6ed5e45a2b5b1e0d55c2c3b2ff65c4b6d4d7942e
+Commit message - Issue #613 .. only call history.start() on domready.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 138 is -> 
+{ f44cfeeb36d2435d59f198872606ae04ac4c6e40 -> a00b7983186c51f31cb105e0ca9b1d4bc25607ea } is a cherrypick
+{ e8519f7a8e2c25760cd8904247e705619caf8984 -> 6ed5e45a2b5b1e0d55c2c3b2ff65c4b6d4d7942e }
+Cherrypick commits SHA are -> 
+a00b7983186c51f31cb105e0ca9b1d4bc25607ea - cherrypick - 6ed5e45a2b5b1e0d55c2c3b2ff65c4b6d4d7942e
+---> The cherrypicked commit sha is - a00b7983186c51f31cb105e0ca9b1d4bc25607ea
+Commit message - Adding in a note about Backbone.history.start() returning a boolean for whether or not a match has been found in the current URL fragment. Thanks to XiXora for the recommendation.
+---> The original commit sha is - 6ed5e45a2b5b1e0d55c2c3b2ff65c4b6d4d7942e
+Commit message - Issue #613 .. only call history.start() on domready.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 139 is -> 
+{ 2b1eae4d9c50a77a252fdcfbaa4e8aefa66df8fc -> 9503627e08f2fa784e503c6da00c943331ae107b } is a cherrypick
+{ e8519f7a8e2c25760cd8904247e705619caf8984 -> 6ed5e45a2b5b1e0d55c2c3b2ff65c4b6d4d7942e }
+Cherrypick commits SHA are -> 
+9503627e08f2fa784e503c6da00c943331ae107b - cherrypick - 6ed5e45a2b5b1e0d55c2c3b2ff65c4b6d4d7942e
+---> The cherrypicked commit sha is - 9503627e08f2fa784e503c6da00c943331ae107b
+Commit message - documenting that fetch options can also be jquery options.
+---> The original commit sha is - 6ed5e45a2b5b1e0d55c2c3b2ff65c4b6d4d7942e
+Commit message - Issue #613 .. only call history.start() on domready.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 140 is -> 
+{ 9de6c3ea1d396a61f4b8a62fc32a9eff9e1219b2 -> 084e0288e75af984e5462829266749857918d58e } is a cherrypick
+{ cfc98b0f180f9d872ccbb82c240e27df9df4d20d -> ce397350bf1725a74f3adc78fd3d235cfde58467 }
+Cherrypick commits SHA are -> 
+084e0288e75af984e5462829266749857918d58e - cherrypick - ce397350bf1725a74f3adc78fd3d235cfde58467
+---> The cherrypicked commit sha is - 084e0288e75af984e5462829266749857918d58e
+Commit message - add support and tests for ender jeesh
+---> The original commit sha is - ce397350bf1725a74f3adc78fd3d235cfde58467
+Commit message - Merge pull request #572 from fat/ender
+
+Add support for Ender
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 141 is -> 
+{ 467dd146ce741616d44f0bc23a8a1649898a0984 -> 49645de27c8ef9732a42da245d6b1418589b2780 } is a cherrypick
+{ b2051a8a732fe23a48fb06df7f558ca9c94fb513 -> 9de6c3ea1d396a61f4b8a62fc32a9eff9e1219b2 }
+Cherrypick commits SHA are -> 
+49645de27c8ef9732a42da245d6b1418589b2780 - cherrypick - 9de6c3ea1d396a61f4b8a62fc32a9eff9e1219b2
+---> The cherrypicked commit sha is - 49645de27c8ef9732a42da245d6b1418589b2780
+Commit message - Fixed misspelled word in comments for _ensureElement.
+---> The original commit sha is - 9de6c3ea1d396a61f4b8a62fc32a9eff9e1219b2
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 142 is -> 
+{ ebf9dd9bb988eab8bd27fa644e5bdfe4cabf1c09 -> 960a1c844b851d6e1ec02fc5e7cf9957f7c26dce } is a cherrypick
+{ c7e195b4e57bd5dba638e386ca3f500944c7b3c6 -> 541f0fad4f0000f3f19edb5ddf8950034fec5102 }
+Cherrypick commits SHA are -> 
+960a1c844b851d6e1ec02fc5e7cf9957f7c26dce - cherrypick - 541f0fad4f0000f3f19edb5ddf8950034fec5102
+---> The cherrypicked commit sha is - 960a1c844b851d6e1ec02fc5e7cf9957f7c26dce
+Commit message - Edited comment
+---> The original commit sha is - 541f0fad4f0000f3f19edb5ddf8950034fec5102
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 143 is -> 
+{ 89bdddde9c45a8efb2f12b5ef02a2c720b2d6d20 -> b4f0afcbc17dfcb882552006d056eeca19da6940 } is a cherrypick
+{ c7e195b4e57bd5dba638e386ca3f500944c7b3c6 -> 541f0fad4f0000f3f19edb5ddf8950034fec5102 }
+Cherrypick commits SHA are -> 
+b4f0afcbc17dfcb882552006d056eeca19da6940 - cherrypick - 541f0fad4f0000f3f19edb5ddf8950034fec5102
+---> The cherrypicked commit sha is - b4f0afcbc17dfcb882552006d056eeca19da6940
+Commit message - Merge pull request #512 from neerajdotname/master
+
+Just a minor edit in comment
+---> The original commit sha is - 541f0fad4f0000f3f19edb5ddf8950034fec5102
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 144 is -> 
+{ ebf9dd9bb988eab8bd27fa644e5bdfe4cabf1c09 -> 960a1c844b851d6e1ec02fc5e7cf9957f7c26dce } is a cherrypick
+{ 89bdddde9c45a8efb2f12b5ef02a2c720b2d6d20 -> b4f0afcbc17dfcb882552006d056eeca19da6940 }
+Cherrypick commits SHA are -> 
+960a1c844b851d6e1ec02fc5e7cf9957f7c26dce - cherrypick - b4f0afcbc17dfcb882552006d056eeca19da6940
+---> The cherrypicked commit sha is - 960a1c844b851d6e1ec02fc5e7cf9957f7c26dce
+Commit message - Edited comment
+---> The original commit sha is - b4f0afcbc17dfcb882552006d056eeca19da6940
+Commit message - Merge pull request #512 from neerajdotname/master
+
+Just a minor edit in comment
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 145 is -> 
+{ 22456de20753f68732f5e7b09a6c01f31d40e010 -> b85c116caf65a654ff2626841262b2a005edd092 } is a cherrypick
+{ aa0eff941705e9a6cf8a9d77e2620242c47d5836 -> 41a6a0f7292c24f7b3ab42cb15e7004b92806e79 }
+Cherrypick commits SHA are -> 
+b85c116caf65a654ff2626841262b2a005edd092 - cherrypick - 41a6a0f7292c24f7b3ab42cb15e7004b92806e79
+---> The cherrypicked commit sha is - b85c116caf65a654ff2626841262b2a005edd092
+Commit message - Ajax.processData is left as the default if emulateJSON is set to true
+---> The original commit sha is - 41a6a0f7292c24f7b3ab42cb15e7004b92806e79
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 146 is -> 
+{ f7c23e494e7914e30a165c0fc48abf343813dd6b -> ebf9dd9bb988eab8bd27fa644e5bdfe4cabf1c09 } is a cherrypick
+{ aa0eff941705e9a6cf8a9d77e2620242c47d5836 -> 41a6a0f7292c24f7b3ab42cb15e7004b92806e79 }
+Cherrypick commits SHA are -> 
+ebf9dd9bb988eab8bd27fa644e5bdfe4cabf1c09 - cherrypick - 41a6a0f7292c24f7b3ab42cb15e7004b92806e79
+---> The cherrypicked commit sha is - ebf9dd9bb988eab8bd27fa644e5bdfe4cabf1c09
+Commit message - Merge pull request #509 from devinhunt/master
+
+Patch for emulateJSON sync. Forced processData setting breaks Backbone.emaulteJSON mode.
+---> The original commit sha is - 41a6a0f7292c24f7b3ab42cb15e7004b92806e79
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 147 is -> 
+{ 22456de20753f68732f5e7b09a6c01f31d40e010 -> b85c116caf65a654ff2626841262b2a005edd092 } is a cherrypick
+{ f7c23e494e7914e30a165c0fc48abf343813dd6b -> ebf9dd9bb988eab8bd27fa644e5bdfe4cabf1c09 }
+Cherrypick commits SHA are -> 
+b85c116caf65a654ff2626841262b2a005edd092 - cherrypick - ebf9dd9bb988eab8bd27fa644e5bdfe4cabf1c09
+---> The cherrypicked commit sha is - b85c116caf65a654ff2626841262b2a005edd092
+Commit message - Ajax.processData is left as the default if emulateJSON is set to true
+---> The original commit sha is - ebf9dd9bb988eab8bd27fa644e5bdfe4cabf1c09
+Commit message - Merge pull request #509 from devinhunt/master
+
+Patch for emulateJSON sync. Forced processData setting breaks Backbone.emaulteJSON mode.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 148 is -> 
+{ 77239753e1b947c0813421218ba702b9c316b46c -> 6ef6f759b62bb4cda46151b345dbec9ff1ac4a1f } is a cherrypick
+{ d8ef258d8bbde1daabf0bed28fa7d9c2d8e1b2f2 -> 49a16bdd328a5d1433d87ce94feeec9856de8b8d }
+Cherrypick commits SHA are -> 
+6ef6f759b62bb4cda46151b345dbec9ff1ac4a1f - cherrypick - 49a16bdd328a5d1433d87ce94feeec9856de8b8d
+---> The cherrypicked commit sha is - 6ef6f759b62bb4cda46151b345dbec9ff1ac4a1f
+Commit message - Add a third "context" argument to Backbone.Event.Bind which, when passed, will bind the callback to the provided context.
+
+Example:
+
+	Backbone.Event.Bind('event', this.event, this);
+
+Before this commit the way to do this was as follows:
+
+	Backbone.Event.Bind('event', _.bind(this.event, this));
+---> The original commit sha is - 49a16bdd328a5d1433d87ce94feeec9856de8b8d
+Commit message - Merge pull request #500 from keithcirkel/master
+
+Issue #482
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 149 is -> 
+{ 6d07d2f0e2a1e93c4c79bf50e0ca5e627f0ffd87 -> 7816861673119d2b30a2f9ae9b9bd34f13a96c9f } is a cherrypick
+{ 8b3ca51e08e56aef7f5db3f147f4c6ad5360799d -> bc964ac33afb6e2040f6a57c62181297dc7e4e35 }
+Cherrypick commits SHA are -> 
+7816861673119d2b30a2f9ae9b9bd34f13a96c9f - cherrypick - bc964ac33afb6e2040f6a57c62181297dc7e4e35
+---> The cherrypicked commit sha is - 7816861673119d2b30a2f9ae9b9bd34f13a96c9f
+Commit message - processData should use ajax default (true), and only be set to false when doing a non-GET request
+---> The original commit sha is - bc964ac33afb6e2040f6a57c62181297dc7e4e35
+Commit message - Merge pull request #469 from afeld/patch-1
+
+processData should default to true
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 150 is -> 
+{ cbefdb8a555efdcec6302d5998a9db17ec2e165b -> c87460ebf3e0d237bc7cb5b7d0cfd1b46a1891ff } is a cherrypick
+{ 961d59973385a3f0ee5296e2181c994125763370 -> 69e63b186073afcb2cb9605a9113c3e87afb9838 }
+Cherrypick commits SHA are -> 
+c87460ebf3e0d237bc7cb5b7d0cfd1b46a1891ff - cherrypick - 69e63b186073afcb2cb9605a9113c3e87afb9838
+---> The cherrypicked commit sha is - c87460ebf3e0d237bc7cb5b7d0cfd1b46a1891ff
+Commit message - Fixed back button issue then open pushState link in browser without pushState support
+---> The original commit sha is - 69e63b186073afcb2cb9605a9113c3e87afb9838
+Commit message - Merge pull request #457 from asan/master
+
+Fix back button problem in old browsers.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 151 is -> 
+{ b5112b40a3047aeb43ef52aae0ae149b0474e319 -> c4872c433bf72cb3998692592af64cec9d3a6296 } is a cherrypick
+{ 10230e4d76e21f08a1dee1fe5d28994e2cf5f11d -> 961d59973385a3f0ee5296e2181c994125763370 }
+Cherrypick commits SHA are -> 
+c4872c433bf72cb3998692592af64cec9d3a6296 - cherrypick - 961d59973385a3f0ee5296e2181c994125763370
+---> The cherrypicked commit sha is - c4872c433bf72cb3998692592af64cec9d3a6296
+Commit message - add 'contains' alias for 'include'
+---> The original commit sha is - 961d59973385a3f0ee5296e2181c994125763370
+Commit message - Merge pull request #448 from braddunbar/contains
+
+add 'contains' alias for 'include'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 152 is -> 
+{ 7ed20d79062c656fe1027b51941e2ae7f6c1509c -> 3eb075a2405524c993db159db9d546ef55799c4b } is a cherrypick
+{ fa6092be79223ee2297b1a9046d0d0319fa470a2 -> 07f753be2fde2cf1a334246ad89ee5bd5651fce1 }
+Cherrypick commits SHA are -> 
+3eb075a2405524c993db159db9d546ef55799c4b - cherrypick - 07f753be2fde2cf1a334246ad89ee5bd5651fce1
+---> The cherrypicked commit sha is - 3eb075a2405524c993db159db9d546ef55799c4b
+Commit message - Allow initialize on any class to pass on original arguments.
+---> The original commit sha is - 07f753be2fde2cf1a334246ad89ee5bd5651fce1
+Commit message - Merge pull request #435 from threepointone/patch-1
+
+Allow initialize on any class to pass on original arguments.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 153 is -> 
+{ 40575910a5432d110bcf5297716ea39ed5e3c6be -> 9bdbdd8e590818408a0ce4344e1f5617cc00f916 } is a cherrypick
+{ 61c48748c4d246d36215d1a95ee904bef6be15f2 -> d2a73099157bbfd2dd3f60914790c0d7c7bfa80a }
+Cherrypick commits SHA are -> 
+9bdbdd8e590818408a0ce4344e1f5617cc00f916 - cherrypick - d2a73099157bbfd2dd3f60914790c0d7c7bfa80a
+---> The cherrypicked commit sha is - 9bdbdd8e590818408a0ce4344e1f5617cc00f916
+Commit message - merged in gh-pages
+---> The original commit sha is - d2a73099157bbfd2dd3f60914790c0d7c7bfa80a
+Commit message - Merge branch 'gh-pages'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 154 is -> 
+{ 6ca2dc614b1d030e3e59b3b05a5bd787f4009619 -> 32deec57836db7eae032b5a7c0277005786b0c71 } is a cherrypick
+{ 61c48748c4d246d36215d1a95ee904bef6be15f2 -> d2a73099157bbfd2dd3f60914790c0d7c7bfa80a }
+Cherrypick commits SHA are -> 
+32deec57836db7eae032b5a7c0277005786b0c71 - cherrypick - d2a73099157bbfd2dd3f60914790c0d7c7bfa80a
+---> The cherrypicked commit sha is - 32deec57836db7eae032b5a7c0277005786b0c71
+Commit message - Merge branch 'gh-pages'
+---> The original commit sha is - d2a73099157bbfd2dd3f60914790c0d7c7bfa80a
+Commit message - Merge branch 'gh-pages'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 155 is -> 
+{ 40575910a5432d110bcf5297716ea39ed5e3c6be -> 9bdbdd8e590818408a0ce4344e1f5617cc00f916 } is a cherrypick
+{ 6ca2dc614b1d030e3e59b3b05a5bd787f4009619 -> 32deec57836db7eae032b5a7c0277005786b0c71 }
+Cherrypick commits SHA are -> 
+9bdbdd8e590818408a0ce4344e1f5617cc00f916 - cherrypick - 32deec57836db7eae032b5a7c0277005786b0c71
+---> The cherrypicked commit sha is - 9bdbdd8e590818408a0ce4344e1f5617cc00f916
+Commit message - merged in gh-pages
+---> The original commit sha is - 32deec57836db7eae032b5a7c0277005786b0c71
+Commit message - Merge branch 'gh-pages'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 156 is -> 
+{ 82e0b34adabde249d6eb2359ffe7d0abb739ef18 -> 9d5308b1ab76f8cce34d945a9afb255e720da977 } is a cherrypick
+{ 082cb28b29b8b8aff35ce46ccb0b176b1933e3f5 -> c66650ab9065ca0ce520c1839c7184cb1bd4041f }
+Cherrypick commits SHA are -> 
+9d5308b1ab76f8cce34d945a9afb255e720da977 - cherrypick - c66650ab9065ca0ce520c1839c7184cb1bd4041f
+---> The cherrypicked commit sha is - 9d5308b1ab76f8cce34d945a9afb255e720da977
+Commit message - Pass options to the coll.add call in Collection::create so that it can work silently.
+---> The original commit sha is - c66650ab9065ca0ce520c1839c7184cb1bd4041f
+Commit message - Merge branch 'master' of https://github.com/corbanbrook/backbone into 0.5.0
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 157 is -> 
+{ 5a32ececc72ee2feeaeab4717c11ca34fea0c358 -> 6eb90e3e1877fad428baa8479a386d6792da6e41 } is a cherrypick
+{ d8d94f1391b3c8007a200c1e7cdc3625cf5ad300 -> 5f7b01d94c4b687d8d5056ce8a21146cb5907bcd }
+Cherrypick commits SHA are -> 
+6eb90e3e1877fad428baa8479a386d6792da6e41 - cherrypick - 5f7b01d94c4b687d8d5056ce8a21146cb5907bcd
+---> The cherrypicked commit sha is - 6eb90e3e1877fad428baa8479a386d6792da6e41
+Commit message - more mentions of history.start()
+---> The original commit sha is - 5f7b01d94c4b687d8d5056ce8a21146cb5907bcd
+Commit message - document collection.reset() with no args.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 158 is -> 
+{ ee215be027417a18d89346514ef59bc850fda92c -> f44cfeeb36d2435d59f198872606ae04ac4c6e40 } is a cherrypick
+{ 2b1eae4d9c50a77a252fdcfbaa4e8aefa66df8fc -> 9503627e08f2fa784e503c6da00c943331ae107b }
+Cherrypick commits SHA are -> 
+f44cfeeb36d2435d59f198872606ae04ac4c6e40 - cherrypick - 9503627e08f2fa784e503c6da00c943331ae107b
+---> The cherrypicked commit sha is - f44cfeeb36d2435d59f198872606ae04ac4c6e40
+Commit message - Adding in a note about passing in an object literal or a model to Collection.create. Thanks to MattJ for the recommendation.
+---> The original commit sha is - 9503627e08f2fa784e503c6da00c943331ae107b
+Commit message - documenting that fetch options can also be jquery options.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 159 is -> 
+{ f44cfeeb36d2435d59f198872606ae04ac4c6e40 -> a00b7983186c51f31cb105e0ca9b1d4bc25607ea } is a cherrypick
+{ 2b1eae4d9c50a77a252fdcfbaa4e8aefa66df8fc -> 9503627e08f2fa784e503c6da00c943331ae107b }
+Cherrypick commits SHA are -> 
+a00b7983186c51f31cb105e0ca9b1d4bc25607ea - cherrypick - 9503627e08f2fa784e503c6da00c943331ae107b
+---> The cherrypicked commit sha is - a00b7983186c51f31cb105e0ca9b1d4bc25607ea
+Commit message - Adding in a note about Backbone.history.start() returning a boolean for whether or not a match has been found in the current URL fragment. Thanks to XiXora for the recommendation.
+---> The original commit sha is - 9503627e08f2fa784e503c6da00c943331ae107b
+Commit message - documenting that fetch options can also be jquery options.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 160 is -> 
+{ d8edb5d02577a89bbb7aa1bace6cc9cbc6685d02 -> 82e0b34adabde249d6eb2359ffe7d0abb739ef18 } is a cherrypick
+{ a5d01f91fe7d3f438fba7fe1334732f8bea88526 -> a2518103de01a5ea7b3963f4181ed2fdf1c5de6f }
+Cherrypick commits SHA are -> 
+82e0b34adabde249d6eb2359ffe7d0abb739ef18 - cherrypick - a2518103de01a5ea7b3963f4181ed2fdf1c5de6f
+---> The cherrypicked commit sha is - 82e0b34adabde249d6eb2359ffe7d0abb739ef18
+Commit message - Merge pull request #267 from jasondavies/master.
+
+Don't set content type header for GET requests
+---> The original commit sha is - a2518103de01a5ea7b3963f4181ed2fdf1c5de6f
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 161 is -> 
+{ bbce120bf0961f5b1f49678179770b945c5aeca6 -> 7489bf039510f02f22f480f74a81dd918e4fb99b } is a cherrypick
+{ bbf28b82a2de0112c9dfa0f1d20202a70c78f9a1 -> d8edb5d02577a89bbb7aa1bace6cc9cbc6685d02 }
+Cherrypick commits SHA are -> 
+7489bf039510f02f22f480f74a81dd918e4fb99b - cherrypick - d8edb5d02577a89bbb7aa1bace6cc9cbc6685d02
+---> The cherrypicked commit sha is - 7489bf039510f02f22f480f74a81dd918e4fb99b
+Commit message - Merge branch 'gh-pages'
+---> The original commit sha is - d8edb5d02577a89bbb7aa1bace6cc9cbc6685d02
+Commit message - Merge branch 'gh-pages'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 162 is -> 
+{ ee215be027417a18d89346514ef59bc850fda92c -> f44cfeeb36d2435d59f198872606ae04ac4c6e40 } is a cherrypick
+{ f44cfeeb36d2435d59f198872606ae04ac4c6e40 -> a00b7983186c51f31cb105e0ca9b1d4bc25607ea }
+Cherrypick commits SHA are -> 
+f44cfeeb36d2435d59f198872606ae04ac4c6e40 - cherrypick - a00b7983186c51f31cb105e0ca9b1d4bc25607ea
+---> The cherrypicked commit sha is - f44cfeeb36d2435d59f198872606ae04ac4c6e40
+Commit message - Adding in a note about passing in an object literal or a model to Collection.create. Thanks to MattJ for the recommendation.
+---> The original commit sha is - a00b7983186c51f31cb105e0ca9b1d4bc25607ea
+Commit message - Adding in a note about Backbone.history.start() returning a boolean for whether or not a match has been found in the current URL fragment. Thanks to XiXora for the recommendation.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 163 is -> 
+{ 440d1415fb8f9152af8c19bcec3b2433979a1624 -> c3da552f3b13957a22908abddeddb04f884c04a0 } is a cherrypick
+{ 4489d7f5f123f7541995d188aaf99a350845fd70 -> 512ff7e728e9250e707487c5e80bb8ee3b024a35 }
+Cherrypick commits SHA are -> 
+c3da552f3b13957a22908abddeddb04f884c04a0 - cherrypick - 512ff7e728e9250e707487c5e80bb8ee3b024a35
+---> The cherrypicked commit sha is - c3da552f3b13957a22908abddeddb04f884c04a0
+Commit message - Add attributes parameter to Backbone.View. All attributes are being applied to view's this.el during element creation.
+---> The original commit sha is - 512ff7e728e9250e707487c5e80bb8ee3b024a35
+Commit message - Merge branch 'master' of https://github.com/hippich/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 164 is -> 
+{ 39cabb8ac85de49cb7a3c4c9925e8cca11693f79 -> ece686de1a92acc91171373d7d54ff250578823f } is a cherrypick
+{ 4489d7f5f123f7541995d188aaf99a350845fd70 -> 512ff7e728e9250e707487c5e80bb8ee3b024a35 }
+Cherrypick commits SHA are -> 
+ece686de1a92acc91171373d7d54ff250578823f - cherrypick - 512ff7e728e9250e707487c5e80bb8ee3b024a35
+---> The cherrypicked commit sha is - ece686de1a92acc91171373d7d54ff250578823f
+Commit message - Merge branch 'master' of https://github.com/documentcloud/backbone
+---> The original commit sha is - 512ff7e728e9250e707487c5e80bb8ee3b024a35
+Commit message - Merge branch 'master' of https://github.com/hippich/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 165 is -> 
+{ c93326255598d1108b6609ea95f07d9991c13dc1 -> 2fd11a8f780c6d3f22926bf2e194c85b6636b258 } is a cherrypick
+{ 7d4d527c8c0ac609fdf2d48b6418cd628e758371 -> 0383ef78c6c86a05be230c59ecc2630ba74bcff5 }
+Cherrypick commits SHA are -> 
+2fd11a8f780c6d3f22926bf2e194c85b6636b258 - cherrypick - 0383ef78c6c86a05be230c59ecc2630ba74bcff5
+---> The cherrypicked commit sha is - 2fd11a8f780c6d3f22926bf2e194c85b6636b258
+Commit message - delete this.id when unsetting the id attribute
+---> The original commit sha is - 0383ef78c6c86a05be230c59ecc2630ba74bcff5
+Commit message - Merge branch 'unset_id' of https://github.com/reverie/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 166 is -> 
+{ 79b33ae78ef723a176a5f3fc503f2e59b686d72a -> e398583d3813f7d04fd9c308d4d75b317cf78641 } is a cherrypick
+{ 51f9ce6b26ccfb999ff94a6ff1b7626c3a881ea8 -> 1944234c74cee4d9e06079321b7d36a76c43b0e6 }
+Cherrypick commits SHA are -> 
+e398583d3813f7d04fd9c308d4d75b317cf78641 - cherrypick - 1944234c74cee4d9e06079321b7d36a76c43b0e6
+---> The cherrypicked commit sha is - e398583d3813f7d04fd9c308d4d75b317cf78641
+Commit message - keep custom `sync` methods for a given model/collection scoped to `this`.
+---> The original commit sha is - 1944234c74cee4d9e06079321b7d36a76c43b0e6
+Commit message - Merge branch 'master' of https://github.com/jed/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 167 is -> 
+{ 440d1415fb8f9152af8c19bcec3b2433979a1624 -> c3da552f3b13957a22908abddeddb04f884c04a0 } is a cherrypick
+{ 39cabb8ac85de49cb7a3c4c9925e8cca11693f79 -> ece686de1a92acc91171373d7d54ff250578823f }
+Cherrypick commits SHA are -> 
+c3da552f3b13957a22908abddeddb04f884c04a0 - cherrypick - ece686de1a92acc91171373d7d54ff250578823f
+---> The cherrypicked commit sha is - c3da552f3b13957a22908abddeddb04f884c04a0
+Commit message - Add attributes parameter to Backbone.View. All attributes are being applied to view's this.el during element creation.
+---> The original commit sha is - ece686de1a92acc91171373d7d54ff250578823f
+Commit message - Merge branch 'master' of https://github.com/documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 168 is -> 
+{ 12f7ae91370dc4247e0abb3771bf80049835e4a2 -> 714a5212ec9d3a94034e0e50b499ccfa9b4f339a } is a cherrypick
+{ 8c5cd172dd09758a3a1df58e58156dc03e8ecd9a -> c644866b4fe6586503f382a4b3d08007548e75e2 }
+Cherrypick commits SHA are -> 
+714a5212ec9d3a94034e0e50b499ccfa9b4f339a - cherrypick - c644866b4fe6586503f382a4b3d08007548e75e2
+---> The cherrypicked commit sha is - 714a5212ec9d3a94034e0e50b499ccfa9b4f339a
+Commit message - Merge branch 'closure-scope' of https://github.com/sstephenson/backbone
+---> The original commit sha is - c644866b4fe6586503f382a4b3d08007548e75e2
+Commit message - Merge branch 'zepto' of https://github.com/sstephenson/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 169 is -> 
+{ 53ae5b5cdfaae0dc8ccfd6cf60d477cfb0561bbc -> 34d1d0ac936b23a04f921abc70f71ddcb90ca7d3 } is a cherrypick
+{ 5886fe4051df366e1e15971fc8df817c57014926 -> aec3f47b5e5c5d7b68af27bd62d2c2529d712c2a }
+Cherrypick commits SHA are -> 
+34d1d0ac936b23a04f921abc70f71ddcb90ca7d3 - cherrypick - aec3f47b5e5c5d7b68af27bd62d2c2529d712c2a
+---> The cherrypicked commit sha is - 34d1d0ac936b23a04f921abc70f71ddcb90ca7d3
+Commit message - Multiple views may listen for events on the same element
+---> The original commit sha is - aec3f47b5e5c5d7b68af27bd62d2c2529d712c2a
+Commit message - Merge branch 'multiple-views-per-element' of https://github.com/sstephenson/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 170 is -> 
+{ b085fa0099d75cf112e07ac580f282fb22afa7b9 -> 524901083e9cb8e20aa7db844c117c9998f55e5a } is a cherrypick
+{ 17602c39278810c46a265631935c69b5ab059de7 -> 03aa12a683049fc04a2c3a722487645286887895 }
+Cherrypick commits SHA are -> 
+524901083e9cb8e20aa7db844c117c9998f55e5a - cherrypick - 03aa12a683049fc04a2c3a722487645286887895
+---> The cherrypicked commit sha is - 524901083e9cb8e20aa7db844c117c9998f55e5a
+Commit message - Add urlBase option to model to allow specifying restful url without using a collection
+---> The original commit sha is - 03aa12a683049fc04a2c3a722487645286887895
+Commit message - Merge branch 'master' of https://github.com/mkelly12/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 171 is -> 
+{ f194f2d53c0fd362b872573a922b1833c9f287cf -> 21a3675db926831999096c3e368e1be5a78738a4 } is a cherrypick
+{ 06a150627d98de9f7c75a80be41ae3a2928c2f21 -> b73fc46437e1e8b1d27d6c8a904f93a7e396fc78 }
+Cherrypick commits SHA are -> 
+21a3675db926831999096c3e368e1be5a78738a4 - cherrypick - b73fc46437e1e8b1d27d6c8a904f93a7e396fc78
+---> The cherrypicked commit sha is - 21a3675db926831999096c3e368e1be5a78738a4
+Commit message - Implement model.is() for attr test, with docs, tests
+---> The original commit sha is - b73fc46437e1e8b1d27d6c8a904f93a7e396fc78
+Commit message - Merge branch 'Model-is' of https://github.com/mtodd/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 172 is -> 
+{ 3246463d3bbafda57e6b0bcdc3d8ac652354bab9 -> f194f2d53c0fd362b872573a922b1833c9f287cf } is a cherrypick
+{ 9f842bda94e31c06520696ead6add8441da65611 -> 06a150627d98de9f7c75a80be41ae3a2928c2f21 }
+Cherrypick commits SHA are -> 
+f194f2d53c0fd362b872573a922b1833c9f287cf - cherrypick - 06a150627d98de9f7c75a80be41ae3a2928c2f21
+---> The cherrypicked commit sha is - f194f2d53c0fd362b872573a922b1833c9f287cf
+Commit message - adding an FAQ section.
+---> The original commit sha is - 06a150627d98de9f7c75a80be41ae3a2928c2f21
+Commit message - Adding FAQ section for bootstrapping
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 173 is -> 
+{ 11dcf246c70e5a53b6c6789b310875482e0f4645 -> 52c460bc12d2127f1c76d6052b71f7f272acbc82 } is a cherrypick
+{ 327ba8c54d09595cf424979333763e43d6993e9a -> f63c99511efa1875394a7aa60e9d7682f1f1bcbd }
+Cherrypick commits SHA are -> 
+52c460bc12d2127f1c76d6052b71f7f272acbc82 - cherrypick - f63c99511efa1875394a7aa60e9d7682f1f1bcbd
+---> The cherrypicked commit sha is - 52c460bc12d2127f1c76d6052b71f7f272acbc82
+Commit message - Allowing collections to remove models by either Cid or Id (prefering cid).
+---> The original commit sha is - f63c99511efa1875394a7aa60e9d7682f1f1bcbd
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 174 is -> 
+{ 542f085074bc1b2553ac84d6d19b6d9c2ef6124d -> 2748c43fa7f8c12506d2789ed85ea58ba74349cf } is a cherrypick
+{ ff65c0a41b683d78388c3c88554337b486693c16 -> 544a7e7d9b4fd8dae1903c5a69a28ffc55323975 }
+Cherrypick commits SHA are -> 
+2748c43fa7f8c12506d2789ed85ea58ba74349cf - cherrypick - 544a7e7d9b4fd8dae1903c5a69a28ffc55323975
+---> The cherrypicked commit sha is - 2748c43fa7f8c12506d2789ed85ea58ba74349cf
+Commit message - $ doesn't always belong to jQuery
+---> The original commit sha is - 544a7e7d9b4fd8dae1903c5a69a28ffc55323975
+Commit message - Merge branch 'grayrest' of http://github.com/grayrest/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 175 is -> 
+{ accebff4b5f357bc4d8ee426fb4825a954649ca3 -> c01f699203cef4cccb208415917523067daddc6f } is a cherrypick
+{ 5c16f7164c94a3caafbf9f5fe4c6f670c998f459 -> c983a05976e2c27fc012f7e68d072dff34eeec46 }
+Cherrypick commits SHA are -> 
+c01f699203cef4cccb208415917523067daddc6f - cherrypick - c983a05976e2c27fc012f7e68d072dff34eeec46
+---> The cherrypicked commit sha is - c01f699203cef4cccb208415917523067daddc6f
+Commit message - removing extra 's'
+---> The original commit sha is - c983a05976e2c27fc012f7e68d072dff34eeec46
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 176 is -> 
+{ ad73393f400577467960e95db414b305c66f8432 -> a15abd8fa471e016478c2cf3fb5c221f016b643e } is a cherrypick
+{ db2610e77c3dadb74d80f86efa3b685e3a8f0a8c -> 4929b19f63e352550e742ee8f9531c44f989a4e8 }
+Cherrypick commits SHA are -> 
+a15abd8fa471e016478c2cf3fb5c221f016b643e - cherrypick - 4929b19f63e352550e742ee8f9531c44f989a4e8
+---> The cherrypicked commit sha is - a15abd8fa471e016478c2cf3fb5c221f016b643e
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+---> The original commit sha is - 4929b19f63e352550e742ee8f9531c44f989a4e8
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 177 is -> 
+{ 6c993eb1be1c1a550bab22b876025205f8b0549e -> 8b233a01516ba43060ae822e91b35f7751a54118 } is a cherrypick
+{ a7b43b91be99bebba52eec1ee1fca36f1c1a8f2b -> cdf5cc5cfa208009b01b773a9a918aa005e52ce4 }
+Cherrypick commits SHA are -> 
+8b233a01516ba43060ae822e91b35f7751a54118 - cherrypick - cdf5cc5cfa208009b01b773a9a918aa005e52ce4
+---> The cherrypicked commit sha is - 8b233a01516ba43060ae822e91b35f7751a54118
+Commit message - fixed typo
+---> The original commit sha is - cdf5cc5cfa208009b01b773a9a918aa005e52ce4
+Commit message - Merge branch 'master' of github.com:documentcloud/backbone
+-----------------------------------------------------------------
+

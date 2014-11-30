@@ -1,0 +1,2924 @@
+# of partial reverts = 166
+Partial Revert diff pair 1 is -> 
+{ 46e5e6fad5932a8b5bdc9d25384c5650155cf3b5 -> d7d6e7658656d32d9f9ebbc28c6365a94a2e4f9d } is a revert
+{ d0e0d9ae87126ce4c5545c974b415c348b980884 -> 624ddacd5a879ef5bf555d89e648f982a6bd6a4e }
+Partial Revert commits SHA are -> 
+d7d6e7658656d32d9f9ebbc28c6365a94a2e4f9d - revert - 624ddacd5a879ef5bf555d89e648f982a6bd6a4e
+---> The reverted commit sha is - d7d6e7658656d32d9f9ebbc28c6365a94a2e4f9d
+Commit message - Release arrayItemContext
+
+arrayItemContext was cached between two closures. Hence initiated by the first, but not released by the latter.
+---> The original commit sha is - 624ddacd5a879ef5bf555d89e648f982a6bd6a4e
+Commit message - Merge pull request #1505 from Ken123777/master
+
+A missing semicolon
+---> The files with partial_reverts are:-
+src/utils.domNodeDisposal.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 9cc7c7e26892edf700599d13ac60b4ea98369cc8 -> 718ced2bda312a13e58b09f237d4e3b267597765 } is a revert
+{ 5158a9aaf1d8ba44c37037065d8980fcaea628ab -> 1499ce55dba03b19e60990292dc41f68eaa20391 }
+Partial Revert commits SHA are -> 
+718ced2bda312a13e58b09f237d4e3b267597765 - revert - 1499ce55dba03b19e60990292dc41f68eaa20391
+---> The reverted commit sha is - 718ced2bda312a13e58b09f237d4e3b267597765
+Commit message - Fix svg w/o classList test for some browsers
+---> The original commit sha is - 1499ce55dba03b19e60990292dc41f68eaa20391
+Commit message - Merge pull request #1434 from knockout/1434-binding-parser-update
+
+Binding parser skips all colons between the name and value
+---> The files with partial_reverts are:-
+spec/blank.html
+spec/crossWindowBehaviors.js
+spec/defaultBindings/ifBehaviors.js
+spec/defaultBindings/ifnotBehaviors.js
+spec/expressionRewritingBehaviors.js
+spec/lib/loadDependencies.js
+spec/nativeTemplateEngineBehaviors.js
+spec/runner.html
+spec/templatingBehaviors.js
+src/binding/expressionRewriting.js
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+src/templating/native/nativeTemplateEngine.js
+src/templating/templateEngine.js
+src/templating/templating.js
+src/utils.domManipulation.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 7bc1c27c077ed7ad2b93d953650691edd7a19507 -> 0d5caa50841d2461ad7df8c2fc3ab1123fe41529 } is a revert
+{ 0d5caa50841d2461ad7df8c2fc3ab1123fe41529 -> b6b3a1132fa142539279bcaa698fcc90c6bafdd6 }
+Partial Revert commits SHA are -> 
+0d5caa50841d2461ad7df8c2fc3ab1123fe41529 - revert - b6b3a1132fa142539279bcaa698fcc90c6bafdd6
+---> The reverted commit sha is - 0d5caa50841d2461ad7df8c2fc3ab1123fe41529
+Commit message - When running tests, allow dependencies to be included or not based on query string values
+---> The original commit sha is - b6b3a1132fa142539279bcaa698fcc90c6bafdd6
+Commit message - Merge pull request #1321 from knockout/1321-ie-multi-window
+
+Multi-window situation crashed in IE10 due to not being able to call the appendChild method with argument being an element from a different window.
+---> The files with partial_reverts are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 810e4ffa14268762278d907f0020fdbbfb670483 -> 2d05afe2e39ae6709efce3c45bcfe8e50d2e0464 } is a revert
+{ ff6b8582c6ac9e13677968ba6b4be454a70e4fd1 -> 864e19cb19baa90d9da4f7dc45fd8cff68c826e0 }
+Partial Revert commits SHA are -> 
+2d05afe2e39ae6709efce3c45bcfe8e50d2e0464 - revert - 864e19cb19baa90d9da4f7dc45fd8cff68c826e0
+---> The reverted commit sha is - 2d05afe2e39ae6709efce3c45bcfe8e50d2e0464
+Commit message - Add writable expression test for component binding that matches (mostly) the test for custom elements.
+---> The original commit sha is - 864e19cb19baa90d9da4f7dc45fd8cff68c826e0
+Commit message - Merge remote-tracking branch 'upstream/master' into fix-svg-css-binding
+
+Conflicts:
+	spec/defaultBindings/cssBehaviors.js
+---> The files with partial_reverts are:-
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ c7f970c66925686af4fc25e2c11c2a8729bd1d35 -> 58dec530bdc27942c80f531700e611edfb9706fd } is a revert
+{ c92b82a1f71d9ff7a44b24c36f5ece37ab0a878e -> 05f4cdcbd2ba653f06ec19240fc100056c5e006b }
+Partial Revert commits SHA are -> 
+58dec530bdc27942c80f531700e611edfb9706fd - revert - 05f4cdcbd2ba653f06ec19240fc100056c5e006b
+---> The reverted commit sha is - 58dec530bdc27942c80f531700e611edfb9706fd
+Commit message - Support $componentTemplateNodes as per Ryan's suggestion
+---> The original commit sha is - 05f4cdcbd2ba653f06ec19240fc100056c5e006b
+Commit message - Merge pull request #1576 from knockout/1511-computed-stateChange-notifications
+
+computed observables notify "awake" and "asleep" events
+---> The files with partial_reverts are:-
+spec/dependentObservableBehaviors.js
+spec/subscribableBehaviors.js
+src/subscribables/subscribable.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ df9256123b7c96dddfacb1af70cb5f4e43061517 -> 22c7821eab1bae5afecff7e5bd3f6e6b889e710d } is a revert
+{ 348f9eab6cab5e253d1d663c7b9ed1dcb692206d -> 226464ec2a892db9c954c1056ecb871c722d58ed }
+Partial Revert commits SHA are -> 
+22c7821eab1bae5afecff7e5bd3f6e6b889e710d - revert - 226464ec2a892db9c954c1056ecb871c722d58ed
+---> The reverted commit sha is - 22c7821eab1bae5afecff7e5bd3f6e6b889e710d
+Commit message - Add check that optionsAfterRender binding was provided a function before attempting to use it.
+---> The original commit sha is - 226464ec2a892db9c954c1056ecb871c722d58ed
+Commit message - Merge pull request #1530 from AdeeLNX/cssbinding_issue_1468
+
+Fix for Cssbinding issue 1468
+---> The files with partial_reverts are:-
+spec/defaultBindings/cssBehaviors.js
+src/binding/defaultBindings/css.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ 2efa58bf5b7ab2a7094faf010391b2c3fe020a35 -> 5e9c42f0270b5169019a96eb1027564fd3e329b9 } is a revert
+{ 8c1936a2c6720034515e5ff050094de5791ecf06 -> 928ae1d2b8c374eb027eb66c45f785aad2b480ca }
+Partial Revert commits SHA are -> 
+5e9c42f0270b5169019a96eb1027564fd3e329b9 - revert - 928ae1d2b8c374eb027eb66c45f785aad2b480ca
+---> The reverted commit sha is - 5e9c42f0270b5169019a96eb1027564fd3e329b9
+Commit message - Merge pull request #1507 from faktumsoftware/1506-release-arrayItemContext
+
+Release cached arrayItemContext after it has been used
+---> The original commit sha is - 928ae1d2b8c374eb027eb66c45f785aad2b480ca
+Commit message - Merge pull request #1515 from faktumsoftware/1515-update-debug-latestvalue-on-awake
+
+Add missing update of exposed dependendObservable._latestValue (DEBUG only)
+---> The files with partial_reverts are:-
+src/subscribables/dependentObservable.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ 91a1cd4eb55359d6fca91c36f5f330f0d9f40227 -> 74018d02f6586f3562c11fa54202819c34513f53 } is a revert
+{ f3c0ac38ccb3862db60d447b62b9c3bc7208f701 -> f424bd85a698e77013737ce8b31c0689916ebe08 }
+Partial Revert commits SHA are -> 
+74018d02f6586f3562c11fa54202819c34513f53 - revert - f424bd85a698e77013737ce8b31c0689916ebe08
+---> The reverted commit sha is - 74018d02f6586f3562c11fa54202819c34513f53
+Commit message - Testing in early Safari showed that textInput isn't good enough for textarea elements. Switch to using keydown, cut, and paste events.
+---> The original commit sha is - f424bd85a698e77013737ce8b31c0689916ebe08
+Commit message - Merge pull request #1443 from haru01/master
+
+replace tab to space
+---> The files with partial_reverts are:-
+spec/jsonPostingBehaviors.js
+src/binding/defaultBindings/text.js
+src/google-closure-compiler-utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ ce93fe89e46a9e9ce42f3cbcc3bfa41228062ede -> 175f02d7c56ace39ac7b10aaa17948afe51e9668 } is a revert
+{ 5b18955da8e336ace014ee7a1af4cac3cbce85d8 -> f3c0ac38ccb3862db60d447b62b9c3bc7208f701 }
+Partial Revert commits SHA are -> 
+175f02d7c56ace39ac7b10aaa17948afe51e9668 - revert - f3c0ac38ccb3862db60d447b62b9c3bc7208f701
+---> The reverted commit sha is - 175f02d7c56ace39ac7b10aaa17948afe51e9668
+Commit message - Merge pull request #1160 from knockout/1160-input-binding
+
+Add 'input' binding for real-time updates from text fields
+---> The original commit sha is - f3c0ac38ccb3862db60d447b62b9c3bc7208f701
+Commit message - Merge pull request #1454 from knockout/components-special-element-sources
+
+Component templates handle <script>, <template>, and <textarea> sources
+---> The files with partial_reverts are:-
+spec/components/defaultLoaderBehaviors.js
+src/components/defaultLoader.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ 48195a9097b68d488876bb7275e338463f83af1e -> ff669d4e0d3c18228b6355ea5675d61456ccf1f7 } is a revert
+{ 175f02d7c56ace39ac7b10aaa17948afe51e9668 -> 5b18955da8e336ace014ee7a1af4cac3cbce85d8 }
+Partial Revert commits SHA are -> 
+ff669d4e0d3c18228b6355ea5675d61456ccf1f7 - revert - 5b18955da8e336ace014ee7a1af4cac3cbce85d8
+---> The reverted commit sha is - ff669d4e0d3c18228b6355ea5675d61456ccf1f7
+Commit message - Add bower.json and Grunt task to prepare Bower release
+---> The original commit sha is - 5b18955da8e336ace014ee7a1af4cac3cbce85d8
+Commit message - Merge pull request #1412 from surgeforward/remove-stringTokenize-1357
+
+removed stringTokenize
+---> The files with partial_reverts are:-
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 4f0b5f5f5844708d27777726d93229784a1c151e -> 5c932e2d92ca32ce5ee72aec7b63d92dd6ed7452 } is a revert
+{ 22836914dc0290b6aa7c1fd5ecac5cdd7b25a806 -> 7ae71944a5ece90aff6ca39bc6a98300e7ea1010 }
+Partial Revert commits SHA are -> 
+5c932e2d92ca32ce5ee72aec7b63d92dd6ed7452 - revert - 7ae71944a5ece90aff6ca39bc6a98300e7ea1010
+---> The reverted commit sha is - 5c932e2d92ca32ce5ee72aec7b63d92dd6ed7452
+Commit message - Add textInput binding.
+---> The original commit sha is - 7ae71944a5ece90aff6ca39bc6a98300e7ea1010
+Commit message - Merge pull request #1433 from knockout/template-name-observable
+
+Add spec to demonstrate #1371, and a fix
+---> The files with partial_reverts are:-
+spec/templatingBehaviors.js
+src/templating/templating.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ b7fe352f20ac354802d4597beaab16da311f54cb -> e2db8d8279ca123cfd87e89b77d779806a696b69 } is a revert
+{ d12f3299cfaf5aa16eb4a681b1139f571ddd8a52 -> 6ecec353edcae739abc3ab0fe0997b4ec529f868 }
+Partial Revert commits SHA are -> 
+e2db8d8279ca123cfd87e89b77d779806a696b69 - revert - 6ecec353edcae739abc3ab0fe0997b4ec529f868
+---> The reverted commit sha is - e2db8d8279ca123cfd87e89b77d779806a696b69
+Commit message - Merge pull request #1252 from knockout/1252-postjson-truncated
+
+ko.utils.postJson is truncating large values in Google Chrome
+---> The original commit sha is - 6ecec353edcae739abc3ab0fe0997b4ec529f868
+Commit message - Merge pull request #1385 from knockout/1385-custom-elems-no-params
+
+Custom elements
+---> The files with partial_reverts are:-
+spec/components/customElementBehaviors.js
+src/components/customElements.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ 263fad35eff3bfacde4fc2f6b30b4537500b1798 -> d55a49d086bbf5ce973842d5ee5185bb009f17fa } is a revert
+{ 245168377e7713cc86a7e6c17003879b83088d17 -> 80120969d8cb5341325f76ec1e74dde6e2af00fc }
+Partial Revert commits SHA are -> 
+d55a49d086bbf5ce973842d5ee5185bb009f17fa - revert - 80120969d8cb5341325f76ec1e74dde6e2af00fc
+---> The reverted commit sha is - d55a49d086bbf5ce973842d5ee5185bb009f17fa
+Commit message - Minor spec fixes
+---> The original commit sha is - 80120969d8cb5341325f76ec1e74dde6e2af00fc
+Commit message - Merge branch 'components'
+---> The files with partial_reverts are:-
+Gruntfile.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ 9b849ee159b4d7798ef95ec78ab4caa66a6e784a -> 7d2adb28b9b5d5caf9df5daa153941f6b833fe0f } is a revert
+{ 245168377e7713cc86a7e6c17003879b83088d17 -> 80120969d8cb5341325f76ec1e74dde6e2af00fc }
+Partial Revert commits SHA are -> 
+7d2adb28b9b5d5caf9df5daa153941f6b833fe0f - revert - 80120969d8cb5341325f76ec1e74dde6e2af00fc
+---> The reverted commit sha is - 7d2adb28b9b5d5caf9df5daa153941f6b833fe0f
+Commit message - Revert to using array-of-nodes as the template format; fix minification issue; unregister already calls clearCachedDefinition, so no need to call it again.
+---> The original commit sha is - 80120969d8cb5341325f76ec1e74dde6e2af00fc
+Commit message - Merge branch 'components'
+---> The files with partial_reverts are:-
+Gruntfile.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 6053599a0960d2f9bf0b01d99c34fa665b97461a -> 9b849ee159b4d7798ef95ec78ab4caa66a6e784a } is a revert
+{ 9b849ee159b4d7798ef95ec78ab4caa66a6e784a -> 7d2adb28b9b5d5caf9df5daa153941f6b833fe0f }
+Partial Revert commits SHA are -> 
+9b849ee159b4d7798ef95ec78ab4caa66a6e784a - revert - 7d2adb28b9b5d5caf9df5daa153941f6b833fe0f
+---> The reverted commit sha is - 9b849ee159b4d7798ef95ec78ab4caa66a6e784a
+Commit message - Merge pull request #1374 from knockout/uglify-friendly-license-header
+
+Use /*! … */ comment format for banner so that external minifiers know to preserve it
+---> The original commit sha is - 7d2adb28b9b5d5caf9df5daa153941f6b833fe0f
+Commit message - Revert to using array-of-nodes as the template format; fix minification issue; unregister already calls clearCachedDefinition, so no need to call it again.
+---> The files with partial_reverts are:-
+Gruntfile.js
+build/fragments/amd-pre.js
+build/fragments/source-references.js
+build/knockout-raw.js
+spec/components/loaderRegistryBehaviors.js
+spec/lib/jasmine-1.2.0/jasmine.js
+spec/runner.html
+src/components/componentBinding.js
+src/components/loaderRegistry.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ 847e1f199eb2057b40a2c7938b4df332450302f9 -> 263fad35eff3bfacde4fc2f6b30b4537500b1798 } is a revert
+{ 263fad35eff3bfacde4fc2f6b30b4537500b1798 -> d55a49d086bbf5ce973842d5ee5185bb009f17fa }
+Partial Revert commits SHA are -> 
+263fad35eff3bfacde4fc2f6b30b4537500b1798 - revert - d55a49d086bbf5ce973842d5ee5185bb009f17fa
+---> The reverted commit sha is - 263fad35eff3bfacde4fc2f6b30b4537500b1798
+Commit message - Use /*! … */ comment format for banner so that external minifiers know to preserve it
+---> The original commit sha is - d55a49d086bbf5ce973842d5ee5185bb009f17fa
+Commit message - Minor spec fixes
+---> The files with partial_reverts are:-
+Gruntfile.js
+build/fragments/amd-pre.js
+build/fragments/source-references.js
+build/knockout-raw.js
+spec/components/componentBindingBehaviors.js
+spec/components/loaderRegistryBehaviors.js
+spec/runner.html
+src/components/componentBinding.js
+src/components/defaultLoader.js
+src/components/loaderRegistry.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ 5fdff3c568007b873d65859c08e2c644d015ebe2 -> e395dbeb73e0d2632a430e1516a8496061feb7b1 } is a revert
+{ d800fda641224e4af30d815f74b8ce0c7c5a9d5a -> 31b9df3a05326de1c46e8ac326f02016e6ce2d29 }
+Partial Revert commits SHA are -> 
+e395dbeb73e0d2632a430e1516a8496061feb7b1 - revert - 31b9df3a05326de1c46e8ac326f02016e6ce2d29
+---> The reverted commit sha is - e395dbeb73e0d2632a430e1516a8496061feb7b1
+Commit message - Merge pull request #1003 from knockout/1003-fix-observable-template-name
+
+Templates: template-name evaluation could set observable
+---> The original commit sha is - 31b9df3a05326de1c46e8ac326f02016e6ce2d29
+Commit message - Merge pull request #627 from knockout/627-computed-context
+
+Provide access to dependency count within computed function
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/checked.js
+src/binding/defaultBindings/ifIfnotWith.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ 61aa990a7a38262b9fc7a61ad6abcece2264f72c -> d800fda641224e4af30d815f74b8ce0c7c5a9d5a } is a revert
+{ d800fda641224e4af30d815f74b8ce0c7c5a9d5a -> 31b9df3a05326de1c46e8ac326f02016e6ce2d29 }
+Partial Revert commits SHA are -> 
+d800fda641224e4af30d815f74b8ce0c7c5a9d5a - revert - 31b9df3a05326de1c46e8ac326f02016e6ce2d29
+---> The reverted commit sha is - d800fda641224e4af30d815f74b8ce0c7c5a9d5a
+Commit message - Check that disposeWhenNodeIsRemoved is a node before added dispose callback.
+---> The original commit sha is - 31b9df3a05326de1c46e8ac326f02016e6ce2d29
+Commit message - Merge pull request #627 from knockout/627-computed-context
+
+Provide access to dependency count within computed function
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/checked.js
+src/binding/defaultBindings/ifIfnotWith.js
+src/subscribables/dependencyDetection.js
+src/subscribables/dependentObservable.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ e6e94df25ec88bca2b4d7ddb141d02a9e5db1981 -> 3b8370d96d0f8dea4093af42215a93d9ef42debe } is a revert
+{ d8f1dd52bf404c11463656d570e931062e5cd75e -> 1671f749022dca85706700279952f96e5cc18cea }
+Partial Revert commits SHA are -> 
+3b8370d96d0f8dea4093af42215a93d9ef42debe - revert - 1671f749022dca85706700279952f96e5cc18cea
+---> The reverted commit sha is - 3b8370d96d0f8dea4093af42215a93d9ef42debe
+Commit message - Add "valueAllowUnset" option that sets the value and options bindings so that a value that is not in the list of options is allowed and is displayed accordingly with no item selected.
+---> The original commit sha is - 1671f749022dca85706700279952f96e5cc18cea
+Commit message - Merge pull request #1255 from knockout/1255-track-observables-in-getBindingAccessors
+
+Track observables accessed in getBindingAccessors
+---> The files with partial_reverts are:-
+spec/bindingDependencyBehaviors.js
+src/binding/bindingAttributeSyntax.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ 4c58eb816a9f60a836e0846e98fef080397d8da5 -> ea06bddf26b2b571baab80820e1be1bc9e9ad152 } is a revert
+{ ea06bddf26b2b571baab80820e1be1bc9e9ad152 -> d8f1dd52bf404c11463656d570e931062e5cd75e }
+Partial Revert commits SHA are -> 
+ea06bddf26b2b571baab80820e1be1bc9e9ad152 - revert - d8f1dd52bf404c11463656d570e931062e5cd75e
+---> The reverted commit sha is - ea06bddf26b2b571baab80820e1be1bc9e9ad152
+Commit message - Treat functions and observables differently in ko.bindingContext. If a function is provided, the return value of the function becomes $rawData, and if an observable, will be unwrapped.
+---> The original commit sha is - d8f1dd52bf404c11463656d570e931062e5cd75e
+Commit message - Merge pull request #647 from knockout/647-allow-unselected-value
+
+Support select value not in options list, optionally
+---> The files with partial_reverts are:-
+spec/bindingDependencyBehaviors.js
+spec/defaultBindings/valueBehaviors.js
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings/options.js
+src/binding/defaultBindings/value.js
+src/binding/selectExtensions.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ 3b8370d96d0f8dea4093af42215a93d9ef42debe -> 65d6906961fc5e43ab48ceaabc6716e75ac4ccee } is a revert
+{ 65d6906961fc5e43ab48ceaabc6716e75ac4ccee -> 18891668381e5080a64c99f04dc8be8b76e0095f }
+Partial Revert commits SHA are -> 
+65d6906961fc5e43ab48ceaabc6716e75ac4ccee - revert - 18891668381e5080a64c99f04dc8be8b76e0095f
+---> The reverted commit sha is - 65d6906961fc5e43ab48ceaabc6716e75ac4ccee
+Commit message - Merge pull request #1272 from knockout/855-subscribe-to-deferred-computed
+
+Evaluate deferred computed on subscribe
+---> The original commit sha is - 18891668381e5080a64c99f04dc8be8b76e0095f
+Commit message - Update code to set the value to the current UI selection when the value is rejected. Update test to check this.
+---> The files with partial_reverts are:-
+spec/dependentObservableBehaviors.js
+src/binding/defaultBindings/options.js
+src/binding/defaultBindings/value.js
+src/subscribables/subscribable.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ 9c1856f9e8d95afe0e1641e21da08c95d52e7c44 -> c12c5ad323a7cfa835e49e81fd4db3d30906669a } is a revert
+{ c5e0c58d24b42d2e111d8a72e0cb101fa1b414fe -> 40577f138d21769f91b1e23ce797f7537be8dc8d }
+Partial Revert commits SHA are -> 
+c12c5ad323a7cfa835e49e81fd4db3d30906669a - revert - 40577f138d21769f91b1e23ce797f7537be8dc8d
+---> The reverted commit sha is - c12c5ad323a7cfa835e49e81fd4db3d30906669a
+Commit message - Merge pull request #844 from knockout/844-ie8-popup-window-bindings
+
+IE7/8 issue with knockout 'text' binding in popup window
+---> The original commit sha is - 40577f138d21769f91b1e23ce797f7537be8dc8d
+Commit message - Merge pull request #1234 from pimterry/GroupTemplateTests
+
+Tidied up the different sets of native template tests into proper Jasmine groupings by template type
+---> The files with partial_reverts are:-
+spec/nativeTemplateEngineBehaviors.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ 7c4aa0784fc2c1362e4229de787f2a833329a20a -> 9c1856f9e8d95afe0e1641e21da08c95d52e7c44 } is a revert
+{ 34c1ab8b1b175a791d02ddcca11cc5871ea48d1b -> c5e0c58d24b42d2e111d8a72e0cb101fa1b414fe }
+Partial Revert commits SHA are -> 
+9c1856f9e8d95afe0e1641e21da08c95d52e7c44 - revert - c5e0c58d24b42d2e111d8a72e0cb101fa1b414fe
+---> The reverted commit sha is - 9c1856f9e8d95afe0e1641e21da08c95d52e7c44
+Commit message - Organised the different sets of native template tests into groups
+---> The original commit sha is - c5e0c58d24b42d2e111d8a72e0cb101fa1b414fe
+Commit message - Merge pull request #1237 from pimterry/betterThrowsContainingMessage
+
+Improve '.toThrowContaining' matcher error message
+---> The files with partial_reverts are:-
+spec/lib/jasmine.extensions.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ 0e0559bdfb67e707a45afe7707fc8a228aab56de -> 4c432bbe82f99e1db3b938f679220d77d0ed8b97 } is a revert
+{ f2d4cdd9e9b04a3fb8ce4b9491126b093c24a7e1 -> ea8d9dc269311e27aecc3e23b973de6c26751128 }
+Partial Revert commits SHA are -> 
+4c432bbe82f99e1db3b938f679220d77d0ed8b97 - revert - ea8d9dc269311e27aecc3e23b973de6c26751128
+---> The reverted commit sha is - 4c432bbe82f99e1db3b938f679220d77d0ed8b97
+Commit message - Use jQuery if it's loaded once ko.applyBindings is called. Update checks for jQuery to use truthiness instead of "typeof".
+---> The original commit sha is - ea8d9dc269311e27aecc3e23b973de6c26751128
+Commit message - Merge pull request #1207 from knockout/1207-arrayChange-splice-tracks-moves
+
+"arrayChange" event for splice assumes all added items are new
+---> The files with partial_reverts are:-
+spec/observableArrayChangeTrackingBehaviors.js
+src/binding/editDetection/compareArrays.js
+src/subscribables/observableArray.changeTracking.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ 5efcd94a63771e04dca3348c08ca1a1b1a74464e -> ae6856189bb558d5d4b1f4867602045784f5aad5 } is a revert
+{ 262d8cc5c4882f0cf6f3bdcf189540bc002c80bf -> 63914ad5d39a3dd065164e28ec15769c5edd6112 }
+Partial Revert commits SHA are -> 
+ae6856189bb558d5d4b1f4867602045784f5aad5 - revert - 63914ad5d39a3dd065164e28ec15769c5edd6112
+---> The reverted commit sha is - ae6856189bb558d5d4b1f4867602045784f5aad5
+Commit message - Make jQuery.cleanData optional by adding an extensibility point for cleaning external data that can be overridden.
+---> The original commit sha is - 63914ad5d39a3dd065164e28ec15769c5edd6112
+Commit message - Merge pull request #1208 from knockout/1208-ie8-options-selection-bug
+
+KO 3.0.0 bug in IE8 - options/optionsCaption
+---> The files with partial_reverts are:-
+spec/defaultBindings/optionsBehaviors.js
+src/binding/defaultBindings/options.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ eb671bc781f251624468e3850fa9b78f0a50bbb8 -> e6085544298e4dd991f5ecd6b04f10f6b4f27394 } is a revert
+{ c12c5ad323a7cfa835e49e81fd4db3d30906669a -> 262d8cc5c4882f0cf6f3bdcf189540bc002c80bf }
+Partial Revert commits SHA are -> 
+e6085544298e4dd991f5ecd6b04f10f6b4f27394 - revert - 262d8cc5c4882f0cf6f3bdcf189540bc002c80bf
+---> The reverted commit sha is - e6085544298e4dd991f5ecd6b04f10f6b4f27394
+Commit message - Fixes the problem that IE<=8 throws "Unspecified error" when text or options binding is used in a pop-up window.
+---> The original commit sha is - 262d8cc5c4882f0cf6f3bdcf189540bc002c80bf
+Commit message - Merge pull request #1191 from knockout/1191-better-checkbox-click-fix
+
+Remove jQuery workaround that's no longer needed
+---> The files with partial_reverts are:-
+spec/defaultBindings/checkedBehaviors.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ 4c432bbe82f99e1db3b938f679220d77d0ed8b97 -> d9e6db2d12288f59c71605dce631e8221c67bc55 } is a revert
+{ d9e6db2d12288f59c71605dce631e8221c67bc55 -> 511d0828d4e0c13644adcd0251dcdb957681c1dd }
+Partial Revert commits SHA are -> 
+d9e6db2d12288f59c71605dce631e8221c67bc55 - revert - 511d0828d4e0c13644adcd0251dcdb957681c1dd
+---> The reverted commit sha is - d9e6db2d12288f59c71605dce631e8221c67bc55
+Commit message - Fix minor error in build script.
+---> The original commit sha is - 511d0828d4e0c13644adcd0251dcdb957681c1dd
+Commit message - Merge pull request #1193 from knockout/1193-jQuery-access
+
+jQuery in sources
+---> The files with partial_reverts are:-
+build/knockout-raw.js
+spec/runner.html
+src/binding/bindingAttributeSyntax.js
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+src/utils.domManipulation.js
+src/utils.domNodeDisposal.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582 -> 6779cb9dd6765110035e2664270b988b7419a495 } is a revert
+{ a8b686f1f72eba7f530c663fa008f38b89a2a109 -> 34d46fc31ca42d07e96103e49d71a0386b6ef3c8 }
+Partial Revert commits SHA are -> 
+6779cb9dd6765110035e2664270b988b7419a495 - revert - 34d46fc31ca42d07e96103e49d71a0386b6ef3c8
+---> The reverted commit sha is - 6779cb9dd6765110035e2664270b988b7419a495
+Commit message - Fix "Skips the diff algorithm when the array mutation is a known operation"
+---> The original commit sha is - 34d46fc31ca42d07e96103e49d71a0386b6ef3c8
+Commit message - Merge pull request #1122 from knockout/1122-fix-tests
+
+Fix tests failing on certain browsers
+---> The files with partial_reverts are:-
+src/subscribables/observableArray.changeTracking.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ 5c5664a8d63f362b905d30cccc8762da00d4af40 -> 345ca51255cda9826206d528a24f2dc161e55b46 } is a revert
+{ 7b01dcdce386d982705e870f5247cdb17f6f817c -> ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582 }
+Partial Revert commits SHA are -> 
+345ca51255cda9826206d528a24f2dc161e55b46 - revert - ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582
+---> The reverted commit sha is - 345ca51255cda9826206d528a24f2dc161e55b46
+Commit message - Add Grunt build file. Update package.json to use Grunt.
+---> The original commit sha is - ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582
+Commit message - Merge pull request #1121 from knockout/1121-deferred-update-arrayChange
+
+arrayChange optimizations should not apply when multiple changes result in a notification
+---> The files with partial_reverts are:-
+spec/dependentObservableDomBehaviors.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ 857cd38e90b3fde0d2c3c9d9b92083cb4bfe4f73 -> 4156b8c39e311f7e04fb81f0f43dca368cff0f8a } is a revert
+{ 7b01dcdce386d982705e870f5247cdb17f6f817c -> ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582 }
+Partial Revert commits SHA are -> 
+4156b8c39e311f7e04fb81f0f43dca368cff0f8a - revert - ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582
+---> The reverted commit sha is - 4156b8c39e311f7e04fb81f0f43dca368cff0f8a
+Commit message - Use compareArrays instead of the optimized diff when multiple changes result in a notification.
+This is for compatibility with https://github.com/mbest/knockout-deferred-updates
+---> The original commit sha is - ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582
+Commit message - Merge pull request #1121 from knockout/1121-deferred-update-arrayChange
+
+arrayChange optimizations should not apply when multiple changes result in a notification
+---> The files with partial_reverts are:-
+spec/dependentObservableDomBehaviors.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ 2beb27697b9d22273b9a7bfc5727a98e019d663e -> 7b01dcdce386d982705e870f5247cdb17f6f817c } is a revert
+{ 7b01dcdce386d982705e870f5247cdb17f6f817c -> ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582 }
+Partial Revert commits SHA are -> 
+7b01dcdce386d982705e870f5247cdb17f6f817c - revert - ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582
+---> The reverted commit sha is - 7b01dcdce386d982705e870f5247cdb17f6f817c
+Commit message - Tweaks to array change deferred handling
+---> The original commit sha is - ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582
+Commit message - Merge pull request #1121 from knockout/1121-deferred-update-arrayChange
+
+arrayChange optimizations should not apply when multiple changes result in a notification
+---> The files with partial_reverts are:-
+spec/bindingDependencyBehaviors.js
+spec/dependentObservableBehaviors.js
+spec/dependentObservableDomBehaviors.js
+src/binding/bindingAttributeSyntax.js
+src/subscribables/dependentObservable.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ bc1b7a3810abc582803defa00be5acb38bc612f3 -> 5c5664a8d63f362b905d30cccc8762da00d4af40 } is a revert
+{ 2beb27697b9d22273b9a7bfc5727a98e019d663e -> 7b01dcdce386d982705e870f5247cdb17f6f817c }
+Partial Revert commits SHA are -> 
+5c5664a8d63f362b905d30cccc8762da00d4af40 - revert - 7b01dcdce386d982705e870f5247cdb17f6f817c
+---> The reverted commit sha is - 5c5664a8d63f362b905d30cccc8762da00d4af40
+Commit message - Use documentElement instead of body in domNodeIsAttachedToDocument.
+---> The original commit sha is - 7b01dcdce386d982705e870f5247cdb17f6f817c
+Commit message - Tweaks to array change deferred handling
+---> The files with partial_reverts are:-
+spec/dependentObservableDomBehaviors.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ 2848bcdc1fa260a93fee835de48af4a3a133f39f -> 857cd38e90b3fde0d2c3c9d9b92083cb4bfe4f73 } is a revert
+{ 2beb27697b9d22273b9a7bfc5727a98e019d663e -> 7b01dcdce386d982705e870f5247cdb17f6f817c }
+Partial Revert commits SHA are -> 
+857cd38e90b3fde0d2c3c9d9b92083cb4bfe4f73 - revert - 7b01dcdce386d982705e870f5247cdb17f6f817c
+---> The reverted commit sha is - 857cd38e90b3fde0d2c3c9d9b92083cb4bfe4f73
+Commit message - Refine disposal rule so that we can dispose immediately if we're not watching for any DOM node removal
+---> The original commit sha is - 7b01dcdce386d982705e870f5247cdb17f6f817c
+Commit message - Tweaks to array change deferred handling
+---> The files with partial_reverts are:-
+spec/dependentObservableDomBehaviors.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ 4156b8c39e311f7e04fb81f0f43dca368cff0f8a -> 2beb27697b9d22273b9a7bfc5727a98e019d663e } is a revert
+{ 2beb27697b9d22273b9a7bfc5727a98e019d663e -> 7b01dcdce386d982705e870f5247cdb17f6f817c }
+Partial Revert commits SHA are -> 
+2beb27697b9d22273b9a7bfc5727a98e019d663e - revert - 7b01dcdce386d982705e870f5247cdb17f6f817c
+---> The reverted commit sha is - 2beb27697b9d22273b9a7bfc5727a98e019d663e
+Commit message - Merge pull request #657 from knockout/657-bind-detached-nodes
+
+Make behaviour when binding to detached DOM elements consistent
+---> The original commit sha is - 7b01dcdce386d982705e870f5247cdb17f6f817c
+Commit message - Tweaks to array change deferred handling
+---> The files with partial_reverts are:-
+spec/bindingDependencyBehaviors.js
+spec/dependentObservableBehaviors.js
+spec/dependentObservableDomBehaviors.js
+src/binding/bindingAttributeSyntax.js
+src/subscribables/dependentObservable.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ 5c5664a8d63f362b905d30cccc8762da00d4af40 -> 345ca51255cda9826206d528a24f2dc161e55b46 } is a revert
+{ 4156b8c39e311f7e04fb81f0f43dca368cff0f8a -> 2beb27697b9d22273b9a7bfc5727a98e019d663e }
+Partial Revert commits SHA are -> 
+345ca51255cda9826206d528a24f2dc161e55b46 - revert - 2beb27697b9d22273b9a7bfc5727a98e019d663e
+---> The reverted commit sha is - 345ca51255cda9826206d528a24f2dc161e55b46
+Commit message - Add Grunt build file. Update package.json to use Grunt.
+---> The original commit sha is - 2beb27697b9d22273b9a7bfc5727a98e019d663e
+Commit message - Merge pull request #657 from knockout/657-bind-detached-nodes
+
+Make behaviour when binding to detached DOM elements consistent
+---> The files with partial_reverts are:-
+spec/dependentObservableDomBehaviors.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ 857cd38e90b3fde0d2c3c9d9b92083cb4bfe4f73 -> 4156b8c39e311f7e04fb81f0f43dca368cff0f8a } is a revert
+{ 4156b8c39e311f7e04fb81f0f43dca368cff0f8a -> 2beb27697b9d22273b9a7bfc5727a98e019d663e }
+Partial Revert commits SHA are -> 
+4156b8c39e311f7e04fb81f0f43dca368cff0f8a - revert - 2beb27697b9d22273b9a7bfc5727a98e019d663e
+---> The reverted commit sha is - 4156b8c39e311f7e04fb81f0f43dca368cff0f8a
+Commit message - Use compareArrays instead of the optimized diff when multiple changes result in a notification.
+This is for compatibility with https://github.com/mbest/knockout-deferred-updates
+---> The original commit sha is - 2beb27697b9d22273b9a7bfc5727a98e019d663e
+Commit message - Merge pull request #657 from knockout/657-bind-detached-nodes
+
+Make behaviour when binding to detached DOM elements consistent
+---> The files with partial_reverts are:-
+spec/dependentObservableDomBehaviors.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ 552e3d8e930857ae2803f6e3644da0839c9a59e8 -> a84cb7f1927710ab4fc87c83efd4657119cddf14 } is a revert
+{ 952f89e898ad5f968afe6a5f9172510b673b8096 -> c62974814c44d9d3586bc180cd0de1cbf8c76c31 }
+Partial Revert commits SHA are -> 
+a84cb7f1927710ab4fc87c83efd4657119cddf14 - revert - c62974814c44d9d3586bc180cd0de1cbf8c76c31
+---> The reverted commit sha is - a84cb7f1927710ab4fc87c83efd4657119cddf14
+Commit message - Remove whitespace line typo and add a comment
+---> The original commit sha is - c62974814c44d9d3586bc180cd0de1cbf8c76c31
+Commit message - Merge pull request #1096 from knockout/gruntjs
+
+Add Grunt build script
+---> The files with partial_reverts are:-
+spec/templatingBehaviors.js
+src/binding/defaultBindings/options.js
+src/templating/templating.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ 5df3fb5427a3632e56dc1ac4e4466a87c3416031 -> e1b8b0854ba8242e54e4a3a564c4d2c15755ea56 } is a revert
+{ 952f89e898ad5f968afe6a5f9172510b673b8096 -> c62974814c44d9d3586bc180cd0de1cbf8c76c31 }
+Partial Revert commits SHA are -> 
+e1b8b0854ba8242e54e4a3a564c4d2c15755ea56 - revert - c62974814c44d9d3586bc180cd0de1cbf8c76c31
+---> The reverted commit sha is - e1b8b0854ba8242e54e4a3a564c4d2c15755ea56
+Commit message - Add trailing spaces check to Grunt build script. Only output tests using TapReporter when running through Testling.
+---> The original commit sha is - c62974814c44d9d3586bc180cd0de1cbf8c76c31
+Commit message - Merge pull request #1096 from knockout/gruntjs
+
+Add Grunt build script
+---> The files with partial_reverts are:-
+spec/templatingBehaviors.js
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings/options.js
+src/templating/templating.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ 253c74d8d076e6d9d46ac839fe958c2060f4dc62 -> db727a9aca04deb4e89122dfe66cbe242220ef5c } is a revert
+{ 3429f9d90e312f147af854e223a4af5de53426ed -> 952f89e898ad5f968afe6a5f9172510b673b8096 }
+Partial Revert commits SHA are -> 
+db727a9aca04deb4e89122dfe66cbe242220ef5c - revert - 952f89e898ad5f968afe6a5f9172510b673b8096
+---> The reverted commit sha is - db727a9aca04deb4e89122dfe66cbe242220ef5c
+Commit message - Remove Windows build files. Rename linux files from -linux to .sh; the .sh extension means that Windows users can still run the build just by double-clicking the build script.
+---> The original commit sha is - 952f89e898ad5f968afe6a5f9172510b673b8096
+Commit message - Remove another obsolete file
+---> The files with partial_reverts are:-
+build/tools/check-trailing-space.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ e79376677dc6d6b9298cb9ea7d1eae79f8643a92 -> 77a5517b0616003e487a306a4547c9ee0bc85560 } is a revert
+{ 3429f9d90e312f147af854e223a4af5de53426ed -> 952f89e898ad5f968afe6a5f9172510b673b8096 }
+Partial Revert commits SHA are -> 
+77a5517b0616003e487a306a4547c9ee0bc85560 - revert - 952f89e898ad5f968afe6a5f9172510b673b8096
+---> The reverted commit sha is - 77a5517b0616003e487a306a4547c9ee0bc85560
+Commit message - Add test runner for out of browser testing in Node
+---> The original commit sha is - 952f89e898ad5f968afe6a5f9172510b673b8096
+Commit message - Remove another obsolete file
+---> The files with partial_reverts are:-
+build/tools/check-trailing-space.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ dc4250ba1c89a06667f483bd85015e39dcc4176e -> 596db323f2a6e7a4c3cdc723fd1d7e6a5e2f6c85 } is a revert
+{ 3429f9d90e312f147af854e223a4af5de53426ed -> 952f89e898ad5f968afe6a5f9172510b673b8096 }
+Partial Revert commits SHA are -> 
+596db323f2a6e7a4c3cdc723fd1d7e6a5e2f6c85 - revert - 952f89e898ad5f968afe6a5f9172510b673b8096
+---> The reverted commit sha is - 596db323f2a6e7a4c3cdc723fd1d7e6a5e2f6c85
+Commit message - Update build instructions in readme
+---> The original commit sha is - 952f89e898ad5f968afe6a5f9172510b673b8096
+Commit message - Remove another obsolete file
+---> The files with partial_reverts are:-
+build/tools/check-trailing-space.sh
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ 0fc629d8af11c6381eb8aa74144035a38c1d8c8b -> 29189fc00a35ad62c697e3e43e543d74c0e02255 } is a revert
+{ a84cb7f1927710ab4fc87c83efd4657119cddf14 -> 5df3fb5427a3632e56dc1ac4e4466a87c3416031 }
+Partial Revert commits SHA are -> 
+29189fc00a35ad62c697e3e43e543d74c0e02255 - revert - 5df3fb5427a3632e56dc1ac4e4466a87c3416031
+---> The reverted commit sha is - 29189fc00a35ad62c697e3e43e543d74c0e02255
+Commit message - add extra test to confirm that existing content is removed when using template binding (without foreach, which was always working properly) in case there is refactoring in the future
+---> The original commit sha is - 5df3fb5427a3632e56dc1ac4e4466a87c3416031
+Commit message - Merge branch '1040-fewer-binding-computeds'
+---> The files with partial_reverts are:-
+package.json
+src/binding/defaultBindings/options.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ 552e3d8e930857ae2803f6e3644da0839c9a59e8 -> a84cb7f1927710ab4fc87c83efd4657119cddf14 } is a revert
+{ a84cb7f1927710ab4fc87c83efd4657119cddf14 -> 5df3fb5427a3632e56dc1ac4e4466a87c3416031 }
+Partial Revert commits SHA are -> 
+a84cb7f1927710ab4fc87c83efd4657119cddf14 - revert - 5df3fb5427a3632e56dc1ac4e4466a87c3416031
+---> The reverted commit sha is - a84cb7f1927710ab4fc87c83efd4657119cddf14
+Commit message - Remove whitespace line typo and add a comment
+---> The original commit sha is - 5df3fb5427a3632e56dc1ac4e4466a87c3416031
+Commit message - Merge branch '1040-fewer-binding-computeds'
+---> The files with partial_reverts are:-
+package.json
+spec/templatingBehaviors.js
+src/binding/defaultBindings/options.js
+src/templating/templating.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ 0fc629d8af11c6381eb8aa74144035a38c1d8c8b -> 29189fc00a35ad62c697e3e43e543d74c0e02255 } is a revert
+{ 29189fc00a35ad62c697e3e43e543d74c0e02255 -> 552e3d8e930857ae2803f6e3644da0839c9a59e8 }
+Partial Revert commits SHA are -> 
+29189fc00a35ad62c697e3e43e543d74c0e02255 - revert - 552e3d8e930857ae2803f6e3644da0839c9a59e8
+---> The reverted commit sha is - 29189fc00a35ad62c697e3e43e543d74c0e02255
+Commit message - add extra test to confirm that existing content is removed when using template binding (without foreach, which was always working properly) in case there is refactoring in the future
+---> The original commit sha is - 552e3d8e930857ae2803f6e3644da0839c9a59e8
+Commit message - Merge pull request #716 from knockout/716-template-remove-existing-content
+
+FIx - Template binding does not remove existing content
+---> The files with partial_reverts are:-
+package.json
+src/binding/defaultBindings/options.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ 42449c516daddbf62638bd94779ae4cdbd9285b0 -> 6eb0da8af266176165502af798bcd1691aa1656c } is a revert
+{ 6eb0da8af266176165502af798bcd1691aa1656c -> 0fc629d8af11c6381eb8aa74144035a38c1d8c8b }
+Partial Revert commits SHA are -> 
+6eb0da8af266176165502af798bcd1691aa1656c - revert - 0fc629d8af11c6381eb8aa74144035a38c1d8c8b
+---> The reverted commit sha is - 6eb0da8af266176165502af798bcd1691aa1656c
+Commit message - Merge pull request #1086 from pscheit/patch-1
+
+package.json: change url into homepage
+---> The original commit sha is - 0fc629d8af11c6381eb8aa74144035a38c1d8c8b
+Commit message - Merge pull request #653 from knockout/653-optionsCaption-text
+
+optionsCaption using setHtml() instead of setTextContent()
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/options.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 46 is -> 
+{ 7d334c1f0d64a356bfcd96341e0d68316c525c26 -> 688a5678f960a63984c8c02830d6918259a8e995 } is a revert
+{ da39a30b90d39e9a66f351a94a9a508f7372e749 -> bc1b7a3810abc582803defa00be5acb38bc612f3 }
+Partial Revert commits SHA are -> 
+688a5678f960a63984c8c02830d6918259a8e995 - revert - bc1b7a3810abc582803defa00be5acb38bc612f3
+---> The reverted commit sha is - 688a5678f960a63984c8c02830d6918259a8e995
+Commit message - Reduce the stack overhead of observable notifications by eliminating four function call levels. Also reduce stack overhead by not using "call" in computed unless needed.
+---> The original commit sha is - bc1b7a3810abc582803defa00be5acb38bc612f3
+Commit message - Merge branch 'master' of https://github.com/knockout/knockout
+---> The files with partial_reverts are:-
+src/binding/bindingProvider.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 47 is -> 
+{ 357da61ab4c812b139167a05ff6cd42b66b33a7b -> da39a30b90d39e9a66f351a94a9a508f7372e749 } is a revert
+{ da39a30b90d39e9a66f351a94a9a508f7372e749 -> bc1b7a3810abc582803defa00be5acb38bc612f3 }
+Partial Revert commits SHA are -> 
+da39a30b90d39e9a66f351a94a9a508f7372e749 - revert - bc1b7a3810abc582803defa00be5acb38bc612f3
+---> The reverted commit sha is - da39a30b90d39e9a66f351a94a9a508f7372e749
+Commit message - Merge branch longer-subscriber-chains into master
+
+Conflicts:
+	spec/dependentObservableBehaviors.js
+---> The original commit sha is - bc1b7a3810abc582803defa00be5acb38bc612f3
+Commit message - Merge branch 'master' of https://github.com/knockout/knockout
+---> The files with partial_reverts are:-
+spec/bindingAttributeBehaviors.js
+src/binding/bindingProvider.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ 7d334c1f0d64a356bfcd96341e0d68316c525c26 -> 688a5678f960a63984c8c02830d6918259a8e995 } is a revert
+{ 8dab4bf47d608df9dc75359f66848fc41e3d469d -> 357da61ab4c812b139167a05ff6cd42b66b33a7b }
+Partial Revert commits SHA are -> 
+688a5678f960a63984c8c02830d6918259a8e995 - revert - 357da61ab4c812b139167a05ff6cd42b66b33a7b
+---> The reverted commit sha is - 688a5678f960a63984c8c02830d6918259a8e995
+Commit message - Reduce the stack overhead of observable notifications by eliminating four function call levels. Also reduce stack overhead by not using "call" in computed unless needed.
+---> The original commit sha is - 357da61ab4c812b139167a05ff6cd42b66b33a7b
+Commit message - Merge pull request #1037 from knockout/virtual-element-with-valueless-binding
+
+make virtualElements support binding without a colon
+---> The files with partial_reverts are:-
+src/binding/bindingProvider.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ ac1dd0f27113b40d6346116606acb19ac2f7c63c -> 7d039e8c3c86240b137eb36e8201bf23c6b149ae } is a revert
+{ 588dc391a1a3bdeb2736c5ed9ed802af75c9b98b -> 44fd8a0b7e3787d02c3bd2f34b008af1678ec7c9 }
+Partial Revert commits SHA are -> 
+7d039e8c3c86240b137eb36e8201bf23c6b149ae - revert - 44fd8a0b7e3787d02c3bd2f34b008af1678ec7c9
+---> The reverted commit sha is - 7d039e8c3c86240b137eb36e8201bf23c6b149ae
+Commit message - Merge pull request #695 from knockout/695-array-change-tracking
+
+Add support of filters/projections for observableArrays
+---> The original commit sha is - 44fd8a0b7e3787d02c3bd2f34b008af1678ec7c9
+Commit message - Merge pull request #1058 from knockout/1058-binding-errors
+
+Binding errors in 3.0 are less informative
+---> The files with partial_reverts are:-
+spec/bindingAttributeBehaviors.js
+spec/bindingDependencyBehaviors.js
+spec/dependentObservableBehaviors.js
+spec/lib/jasmine.extensions.js
+spec/mappingHelperBehaviors.js
+spec/observableArrayBehaviors.js
+spec/templatingBehaviors.js
+src/binding/bindingAttributeSyntax.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ 4c330a017238501a869150b7f3a6d32792943315 -> 2273c72e83dfb2023046f38cfaa68fd6aea45f10 } is a revert
+{ 3b1b704705bd852c0146468285174bf88cd921c7 -> dd53ef1955341fc17b2a78e6a77484104b8e0edf }
+Partial Revert commits SHA are -> 
+2273c72e83dfb2023046f38cfaa68fd6aea45f10 - revert - dd53ef1955341fc17b2a78e6a77484104b8e0edf
+---> The reverted commit sha is - 2273c72e83dfb2023046f38cfaa68fd6aea45f10
+Commit message - Support top-level observable view models using notification from the binding context
+---> The original commit sha is - dd53ef1955341fc17b2a78e6a77484104b8e0edf
+Commit message - Merge pull request #935 from knockout/935-fix-options-notify-value
+
+Observable not getting updated when select options changed
+---> The files with partial_reverts are:-
+spec/defaultBindings/optionsBehaviors.js
+src/binding/defaultBindings/options.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 51 is -> 
+{ 3ff265ca823037c704ad305def7906c0e5b49113 -> c182b07da5cc00f0aec8c20f0babadcdf68d42e8 } is a revert
+{ d386f1460e2d420ff5999a1ac2b456b37aca6aa6 -> 15da1515b114ffe7b04ef026ab2d6e88a397be6d }
+Partial Revert commits SHA are -> 
+c182b07da5cc00f0aec8c20f0babadcdf68d42e8 - revert - 15da1515b114ffe7b04ef026ab2d6e88a397be6d
+---> The reverted commit sha is - c182b07da5cc00f0aec8c20f0babadcdf68d42e8
+Commit message - Allow optionsAfterRender callback to apply bindings to option.
+---> The original commit sha is - 15da1515b114ffe7b04ef026ab2d6e88a397be6d
+Commit message - Merge pull request #486 from SteveSanderson/486-fix-compiler-warnings
+
+fix google compiler warnings
+---> The files with partial_reverts are:-
+build/fragments/amd-post.js
+build/fragments/amd-pre.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 52 is -> 
+{ a7b9dcf49bfb4a40c303997e8713ea857afb6475 -> 6ccad62fa05ad27d0f869acac6e932b53e23cdea } is a revert
+{ 17731c6e4d26eb1124bee5e4a9a57cb6480f2a74 -> f50012d0c93cd7c0711bd39fe67ebaae39439e84 }
+Partial Revert commits SHA are -> 
+6ccad62fa05ad27d0f869acac6e932b53e23cdea - revert - f50012d0c93cd7c0711bd39fe67ebaae39439e84
+---> The reverted commit sha is - 6ccad62fa05ad27d0f869acac6e932b53e23cdea
+Commit message - Partially merge '833-paglias-toJS-fixes'
+---> The original commit sha is - f50012d0c93cd7c0711bd39fe67ebaae39439e84
+Commit message - Merge pull request #909 from SteveSanderson/indi-binding-support-preProcessBindings
+
+Independent binding support: preProcessBindings updates
+---> The files with partial_reverts are:-
+spec/bindingPreprocessingBehaviors.js
+spec/runner.html
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings/checked.js
+src/binding/defaultBindings/hasfocus.js
+src/binding/defaultBindings/selectedOptions.js
+src/binding/defaultBindings/value.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 53 is -> 
+{ 46f7e5a0cbf9362ffd6d01b864b5c88306252dca -> 17731c6e4d26eb1124bee5e4a9a57cb6480f2a74 } is a revert
+{ 17731c6e4d26eb1124bee5e4a9a57cb6480f2a74 -> f50012d0c93cd7c0711bd39fe67ebaae39439e84 }
+Partial Revert commits SHA are -> 
+17731c6e4d26eb1124bee5e4a9a57cb6480f2a74 - revert - f50012d0c93cd7c0711bd39fe67ebaae39439e84
+---> The reverted commit sha is - 17731c6e4d26eb1124bee5e4a9a57cb6480f2a74
+Commit message - Merge branch 'version-3.0.0-development' of github.com:SteveSanderson/knockout into version-3.0.0-development
+---> The original commit sha is - f50012d0c93cd7c0711bd39fe67ebaae39439e84
+Commit message - Merge pull request #909 from SteveSanderson/indi-binding-support-preProcessBindings
+
+Independent binding support: preProcessBindings updates
+---> The files with partial_reverts are:-
+spec/bindingPreprocessingBehaviors.js
+spec/expressionRewritingBehaviors.js
+spec/runner.html
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings/checked.js
+src/binding/defaultBindings/hasfocus.js
+src/binding/defaultBindings/selectedOptions.js
+src/binding/defaultBindings/value.js
+src/binding/expressionRewriting.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 54 is -> 
+{ 6f4fa61e49f5a3850522a600d41886ccb55505f3 -> 4005466c2a83b2cc96adb227c989cfb825437b2d } is a revert
+{ 46f7e5a0cbf9362ffd6d01b864b5c88306252dca -> 17731c6e4d26eb1124bee5e4a9a57cb6480f2a74 }
+Partial Revert commits SHA are -> 
+4005466c2a83b2cc96adb227c989cfb825437b2d - revert - 17731c6e4d26eb1124bee5e4a9a57cb6480f2a74
+---> The reverted commit sha is - 4005466c2a83b2cc96adb227c989cfb825437b2d
+Commit message - Updated parseObjectLiteral to parse a slash as either division or regex.
+Remove unneeded parentheses in the regex.
+---> The original commit sha is - 17731c6e4d26eb1124bee5e4a9a57cb6480f2a74
+Commit message - Merge branch 'version-3.0.0-development' of github.com:SteveSanderson/knockout into version-3.0.0-development
+---> The files with partial_reverts are:-
+spec/bindingPreprocessingBehaviors.js
+spec/runner.html
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings/checked.js
+src/binding/defaultBindings/hasfocus.js
+src/binding/defaultBindings/selectedOptions.js
+src/binding/defaultBindings/value.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 55 is -> 
+{ a7b9dcf49bfb4a40c303997e8713ea857afb6475 -> 6ccad62fa05ad27d0f869acac6e932b53e23cdea } is a revert
+{ 6f4fa61e49f5a3850522a600d41886ccb55505f3 -> 4005466c2a83b2cc96adb227c989cfb825437b2d }
+Partial Revert commits SHA are -> 
+6ccad62fa05ad27d0f869acac6e932b53e23cdea - revert - 4005466c2a83b2cc96adb227c989cfb825437b2d
+---> The reverted commit sha is - 6ccad62fa05ad27d0f869acac6e932b53e23cdea
+Commit message - Partially merge '833-paglias-toJS-fixes'
+---> The original commit sha is - 4005466c2a83b2cc96adb227c989cfb825437b2d
+Commit message - Updated parseObjectLiteral to parse a slash as either division or regex.
+Remove unneeded parentheses in the regex.
+---> The files with partial_reverts are:-
+spec/bindingPreprocessingBehaviors.js
+spec/runner.html
+spec/templatingBehaviors.js
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings/checked.js
+src/binding/defaultBindings/hasfocus.js
+src/binding/defaultBindings/selectedOptions.js
+src/binding/defaultBindings/value.js
+src/subscribables/mappingHelpers.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 56 is -> 
+{ 873dcc8b1c272d3d1b30f7d3149f9a7a4b7d5f03 -> 60d692b10ad1c3dab90bff0342ab644e1567fe83 } is a revert
+{ cdf47e6df64fe64b7ac06cc4077b87aee53ce6c8 -> 6f4fa61e49f5a3850522a600d41886ccb55505f3 }
+Partial Revert commits SHA are -> 
+60d692b10ad1c3dab90bff0342ab644e1567fe83 - revert - 6f4fa61e49f5a3850522a600d41886ccb55505f3
+---> The reverted commit sha is - 60d692b10ad1c3dab90bff0342ab644e1567fe83
+Commit message - ko.toJS should not serialize functions, fixes #251
+
+Conflicts:
+	src/subscribables/mappingHelpers.js
+---> The original commit sha is - 6f4fa61e49f5a3850522a600d41886ccb55505f3
+Commit message - Remove console.log that was messing up testling ci.
+---> The files with partial_reverts are:-
+src/subscribables/mappingHelpers.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 57 is -> 
+{ 6ccad62fa05ad27d0f869acac6e932b53e23cdea -> cdf47e6df64fe64b7ac06cc4077b87aee53ce6c8 } is a revert
+{ cdf47e6df64fe64b7ac06cc4077b87aee53ce6c8 -> 6f4fa61e49f5a3850522a600d41886ccb55505f3 }
+Partial Revert commits SHA are -> 
+cdf47e6df64fe64b7ac06cc4077b87aee53ce6c8 - revert - 6f4fa61e49f5a3850522a600d41886ccb55505f3
+---> The reverted commit sha is - cdf47e6df64fe64b7ac06cc4077b87aee53ce6c8
+Commit message - Partially merge '833-paglias-toJS-fixes'
+---> The original commit sha is - 6f4fa61e49f5a3850522a600d41886ccb55505f3
+Commit message - Remove console.log that was messing up testling ci.
+---> The files with partial_reverts are:-
+src/subscribables/mappingHelpers.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 58 is -> 
+{ a974825934be37bfb3d18ce4536e03c45402968a -> c9b525157c38aa348ce52dade236b470546322d2 } is a revert
+{ 90ad463233c89c5e65036ff8521e454e126bfa68 -> 7fbb70caa997ca050fc488e0d053421e55de7de3 }
+Partial Revert commits SHA are -> 
+c9b525157c38aa348ce52dade236b470546322d2 - revert - 7fbb70caa997ca050fc488e0d053421e55de7de3
+---> The reverted commit sha is - c9b525157c38aa348ce52dade236b470546322d2
+Commit message - Make specs emit TAP ("Test Anything Protocol") output to console
+---> The original commit sha is - 7fbb70caa997ca050fc488e0d053421e55de7de3
+Commit message - Merge branch '839-fix-ie-select-width'
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/options.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 59 is -> 
+{ 72ea11d1c9c9f02496d78c5c3e02f120efdf4f02 -> 30a68e40168e8d60a05dcfb795bccb4f5e7f3ad5 } is a revert
+{ 30a68e40168e8d60a05dcfb795bccb4f5e7f3ad5 -> e530b98dfbb630cb453285ef7d4ccd1fa5f3358c }
+Partial Revert commits SHA are -> 
+30a68e40168e8d60a05dcfb795bccb4f5e7f3ad5 - revert - e530b98dfbb630cb453285ef7d4ccd1fa5f3358c
+---> The reverted commit sha is - 30a68e40168e8d60a05dcfb795bccb4f5e7f3ad5
+Commit message - Merge pull request #784 from SteveSanderson/784-enable-testling-ci
+
+Look into using testling-ci
+---> The original commit sha is - e530b98dfbb630cb453285ef7d4ccd1fa5f3358c
+Commit message - Merge pull request #899 from SteveSanderson/fix-818-specs
+
+Fix specs that were failing in IE6-8 when innerText was blank
+---> The files with partial_reverts are:-
+spec/defaultBindings/optionsBehaviors.js
+spec/lib/jasmine.extensions.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 60 is -> 
+{ eeda8c0adfe2fc5c63136a0df4debc3e13bdd817 -> a70397464031a08526dd507836a7aacd07344f2f } is a revert
+{ f8a740ac934d721f13d67062427b3ba691db3513 -> 4f69e92e0428ebff69c9828725ebc1488382bffc }
+Partial Revert commits SHA are -> 
+a70397464031a08526dd507836a7aacd07344f2f - revert - 4f69e92e0428ebff69c9828725ebc1488382bffc
+---> The reverted commit sha is - a70397464031a08526dd507836a7aacd07344f2f
+Commit message - Merge pull request #814 from SteveSanderson/814-prevent-invalid-binding
+
+Prevent invalid binding in re-written templates
+---> The original commit sha is - 4f69e92e0428ebff69c9828725ebc1488382bffc
+Commit message - Merge pull request #834 from SteveSanderson/834-unwrap-alias
+
+Short name for ko.utils.unwrapObservable
+---> The files with partial_reverts are:-
+spec/runner.html
+spec/utilsBehaviors.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 61 is -> 
+{ 1dfd516e9cab7d3afdcdf692d4ee7f5689b32010 -> 3b630f8abf3d4f2f40d7e4ce87a695fffd328bf9 } is a revert
+{ 7c7fee6c0027821a0cca24e3f0d1b5374306620a -> f8a740ac934d721f13d67062427b3ba691db3513 }
+Partial Revert commits SHA are -> 
+3b630f8abf3d4f2f40d7e4ce87a695fffd328bf9 - revert - f8a740ac934d721f13d67062427b3ba691db3513
+---> The reverted commit sha is - 3b630f8abf3d4f2f40d7e4ce87a695fffd328bf9
+Commit message - Merge pull request #704 from SteveSanderson/704-expand-css-class-names
+
+css binding doesn't work with class names with slashes, etc. in 2.2
+---> The original commit sha is - f8a740ac934d721f13d67062427b3ba691db3513
+Commit message - Merge pull request #893 from SteveSanderson/paglias-703-ie9-frame-hasfocus
+
+Paglias 703 ie9 frame hasfocus
+---> The files with partial_reverts are:-
+src/templating/templateRewriting.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 62 is -> 
+{ a70397464031a08526dd507836a7aacd07344f2f -> 67087c9ff13e11538e2decb38767ff0cc612c0b2 } is a revert
+{ 7c7fee6c0027821a0cca24e3f0d1b5374306620a -> f8a740ac934d721f13d67062427b3ba691db3513 }
+Partial Revert commits SHA are -> 
+67087c9ff13e11538e2decb38767ff0cc612c0b2 - revert - f8a740ac934d721f13d67062427b3ba691db3513
+---> The reverted commit sha is - 67087c9ff13e11538e2decb38767ff0cc612c0b2
+Commit message - Merge branch '703-ie9-frame-hasfocus' of https://github.com/paglias/knockout into paglias-703-ie9-frame-hasfocus
+---> The original commit sha is - f8a740ac934d721f13d67062427b3ba691db3513
+Commit message - Merge pull request #893 from SteveSanderson/paglias-703-ie9-frame-hasfocus
+
+Paglias 703 ie9 frame hasfocus
+---> The files with partial_reverts are:-
+src/templating/templateRewriting.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 63 is -> 
+{ f06c653b9cf929b2552002c5831ed586bd2c4d2a -> ec53ae3d42aebdf70474b29a5064d1d4762c7436 } is a revert
+{ 94fb086f6b0db9c1a2b8ff376f1ad54f137ee5ec -> f039fbb5edc61c5da765a20caa5543d20dd370b8 }
+Partial Revert commits SHA are -> 
+ec53ae3d42aebdf70474b29a5064d1d4762c7436 - revert - f039fbb5edc61c5da765a20caa5543d20dd370b8
+---> The reverted commit sha is - ec53ae3d42aebdf70474b29a5064d1d4762c7436
+Commit message - Add spec about behavior of radio buttons with an observable checkedValue, even though I think that the behavior should be different.
+---> The original commit sha is - f039fbb5edc61c5da765a20caa5543d20dd370b8
+Commit message - Merge commit 'f06c653b9cf929b2552002c5831ed586bd2c4d2a'
+---> The files with partial_reverts are:-
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 64 is -> 
+{ 43ab750d0001d28cd61d913566f1aecf14631865 -> 3f37062a55885bf49991a97d18fe7893020d9341 } is a revert
+{ 788f66df0a7481cb5c076e74e1d6a2ae023dae17 -> f1c8a2d0f85a5c8fd50b534e2934402b29e9e853 }
+Partial Revert commits SHA are -> 
+3f37062a55885bf49991a97d18fe7893020d9341 - revert - f1c8a2d0f85a5c8fd50b534e2934402b29e9e853
+---> The reverted commit sha is - 3f37062a55885bf49991a97d18fe7893020d9341
+Commit message - add bugs field in package.json
+---> The original commit sha is - f1c8a2d0f85a5c8fd50b534e2934402b29e9e853
+Commit message - Merge pull request #827 from paglias/733-observableArray-non-array-value
+
+fixes #733
+---> The files with partial_reverts are:-
+src/subscribables/observableArray.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 65 is -> 
+{ e2dcbc44788725f70aa6cbae95ab484bd01ae483 -> 412fbf8976f93b8622314c7351c072c8ca0dd681 } is a revert
+{ 412fbf8976f93b8622314c7351c072c8ca0dd681 -> 1a0843314ea18f4ffe829e595aabc96f3f41fdf4 }
+Partial Revert commits SHA are -> 
+412fbf8976f93b8622314c7351c072c8ca0dd681 - revert - 1a0843314ea18f4ffe829e595aabc96f3f41fdf4
+---> The reverted commit sha is - 412fbf8976f93b8622314c7351c072c8ca0dd681
+Commit message - Use strict equality when determining whether to update the value binding.
+---> The original commit sha is - 1a0843314ea18f4ffe829e595aabc96f3f41fdf4
+Commit message - Group together value binding tests for 'select' elements.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/value.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 66 is -> 
+{ 4db92498ff293d57b2626254b9c33d580f098bea -> 01924920f2421847b586025a06f075df567a42f0 } is a revert
+{ b97962dd78695283abfca4ab45cb6e58c493fb75 -> 628816fab343c8c88935ac6e763f8bd3d7612e3a }
+Partial Revert commits SHA are -> 
+01924920f2421847b586025a06f075df567a42f0 - revert - 628816fab343c8c88935ac6e763f8bd3d7612e3a
+---> The reverted commit sha is - 01924920f2421847b586025a06f075df567a42f0
+Commit message - Merge pull request #829 from paglias/691-remove-duplicate-specs
+
+fixes #691
+---> The original commit sha is - 628816fab343c8c88935ac6e763f8bd3d7612e3a
+Commit message - Merge branch '875-add-checkedValue'
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/checked.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 67 is -> 
+{ 8795d847b608bd413e670569672636678d88d0c5 -> bf0c91e727537a4c0f14d7b8aa09dd93d514da47 } is a revert
+{ bf0c91e727537a4c0f14d7b8aa09dd93d514da47 -> b97962dd78695283abfca4ab45cb6e58c493fb75 }
+Partial Revert commits SHA are -> 
+bf0c91e727537a4c0f14d7b8aa09dd93d514da47 - revert - b97962dd78695283abfca4ab45cb6e58c493fb75
+---> The reverted commit sha is - bf0c91e727537a4c0f14d7b8aa09dd93d514da47
+Commit message - Tweak package.json version as per mbest's suggestion
+---> The original commit sha is - b97962dd78695283abfca4ab45cb6e58c493fb75
+Commit message - Merge remote-tracking branch 'origin/master'
+---> The files with partial_reverts are:-
+spec/bindingAttributeBehaviors.js
+spec/subscribableBehaviors.js
+src/binding/expressionRewriting.js
+src/subscribables/subscribable.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 68 is -> 
+{ 46840340068ef470c4d4b5c194c32ba5feaf24c7 -> 4db92498ff293d57b2626254b9c33d580f098bea } is a revert
+{ 4db92498ff293d57b2626254b9c33d580f098bea -> 01924920f2421847b586025a06f075df567a42f0 }
+Partial Revert commits SHA are -> 
+4db92498ff293d57b2626254b9c33d580f098bea - revert - 01924920f2421847b586025a06f075df567a42f0
+---> The reverted commit sha is - 4db92498ff293d57b2626254b9c33d580f098bea
+Commit message - Add checkedValue binding that works with the checked binding to allow for arbitrary values for checkboxes and radio buttons.
+---> The original commit sha is - 01924920f2421847b586025a06f075df567a42f0
+Commit message - Merge pull request #829 from paglias/691-remove-duplicate-specs
+
+fixes #691
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/checked.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 69 is -> 
+{ e168d8322c106e9c1af43e2771f8dd31fbb15ab1 -> 27593166980ba8c7ba90b0ae4c4ae4526ed211da } is a revert
+{ 27593166980ba8c7ba90b0ae4c4ae4526ed211da -> 2a7e108b8d2bd5fdec974412947aa15ba143bf39 }
+Partial Revert commits SHA are -> 
+27593166980ba8c7ba90b0ae4c4ae4526ed211da - revert - 2a7e108b8d2bd5fdec974412947aa15ba143bf39
+---> The reverted commit sha is - 27593166980ba8c7ba90b0ae4c4ae4526ed211da
+Commit message - add null and undefined to js reserved words, fixes #762
+---> The original commit sha is - 2a7e108b8d2bd5fdec974412947aa15ba143bf39
+Commit message - Merge branch '762-reserved-words' of https://github.com/paglias/knockout into paglias-871-js-reserved-words
+---> The files with partial_reverts are:-
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 70 is -> 
+{ 254cf61ee2fad76ef9dc37e6cba0e3a896618a5d -> 5af83afd689ce5f45516ae47d5caa1373dd89840 } is a revert
+{ 2d8ded3b509009af63e15c62edb334c94d3f4468 -> 8d17bbf3ce8772ef665997940c9a054503c1ae42 }
+Partial Revert commits SHA are -> 
+5af83afd689ce5f45516ae47d5caa1373dd89840 - revert - 8d17bbf3ce8772ef665997940c9a054503c1ae42
+---> The reverted commit sha is - 5af83afd689ce5f45516ae47d5caa1373dd89840
+Commit message - Merge branch '751-node-support'
+---> The original commit sha is - 8d17bbf3ce8772ef665997940c9a054503c1ae42
+Commit message - Merge branch 'master' of github.com:SteveSanderson/knockout
+---> The files with partial_reverts are:-
+spec/templatingBehaviors.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 71 is -> 
+{ aa8cfce23d7abb0da5489e370340a7676fc58572 -> fce6eb66402fb2deaa0f05d762813d21a9e3b5a0 } is a revert
+{ 2d8ded3b509009af63e15c62edb334c94d3f4468 -> 8d17bbf3ce8772ef665997940c9a054503c1ae42 }
+Partial Revert commits SHA are -> 
+fce6eb66402fb2deaa0f05d762813d21a9e3b5a0 - revert - 8d17bbf3ce8772ef665997940c9a054503c1ae42
+---> The reverted commit sha is - fce6eb66402fb2deaa0f05d762813d21a9e3b5a0
+Commit message - Merge branch 'patch-2' of https://github.com/dotnetwise/knockout into dotnetwise-patch-2
+---> The original commit sha is - 8d17bbf3ce8772ef665997940c9a054503c1ae42
+Commit message - Merge branch 'master' of github.com:SteveSanderson/knockout
+---> The files with partial_reverts are:-
+spec/templatingBehaviors.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 72 is -> 
+{ 254cf61ee2fad76ef9dc37e6cba0e3a896618a5d -> 5af83afd689ce5f45516ae47d5caa1373dd89840 } is a revert
+{ 6f560075e97208500e907a845a0bbb1e3410477f -> aa8cfce23d7abb0da5489e370340a7676fc58572 }
+Partial Revert commits SHA are -> 
+5af83afd689ce5f45516ae47d5caa1373dd89840 - revert - aa8cfce23d7abb0da5489e370340a7676fc58572
+---> The reverted commit sha is - 5af83afd689ce5f45516ae47d5caa1373dd89840
+Commit message - Merge branch '751-node-support'
+---> The original commit sha is - aa8cfce23d7abb0da5489e370340a7676fc58572
+Commit message - Merge pull request #862 from bionicbrian/master
+
+Correct minor spelling error of 'callback'
+---> The files with partial_reverts are:-
+spec/templatingBehaviors.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 73 is -> 
+{ e02b63c942011847e2714edd7c44646aebd23ff0 -> e3fce055af2ee01f9f6691a76a8bc2d93109422d } is a revert
+{ 0894bd35134d14e9fa386505a9c3d8de4a5de291 -> b9598eeb7906b06b722c154392906ebf6cbfea05 }
+Partial Revert commits SHA are -> 
+e3fce055af2ee01f9f6691a76a8bc2d93109422d - revert - b9598eeb7906b06b722c154392906ebf6cbfea05
+---> The reverted commit sha is - e3fce055af2ee01f9f6691a76a8bc2d93109422d
+Commit message - fixes #733
+---> The original commit sha is - b9598eeb7906b06b722c154392906ebf6cbfea05
+Commit message - Merge branch '687-add-objectForEach' of github.com:SteveSanderson/knockout into 687-add-objectForEach
+---> The files with partial_reverts are:-
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings/attr.js
+src/binding/defaultBindings/css.js
+src/binding/defaultBindings/event.js
+src/binding/defaultBindings/style.js
+src/subscribables/extenders.js
+src/subscribables/mappingHelpers.js
+src/subscribables/subscribable.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 74 is -> 
+{ a82659273fd91ee5f42f8272ff37fa274c16ca4a -> 6205bf5ea766342a3697143ed8c9035efbb53181 } is a revert
+{ 3b630f8abf3d4f2f40d7e4ce87a695fffd328bf9 -> 68a708f9bc945dd4ac6cad526d75fa19c40e62a0 }
+Partial Revert commits SHA are -> 
+6205bf5ea766342a3697143ed8c9035efbb53181 - revert - 68a708f9bc945dd4ac6cad526d75fa19c40e62a0
+---> The reverted commit sha is - 6205bf5ea766342a3697143ed8c9035efbb53181
+Commit message - Streamline logic in anyDomNodeIsAttachedToDocument
+---> The original commit sha is - 68a708f9bc945dd4ac6cad526d75fa19c40e62a0
+Commit message - Merge pull request #743 from angelyordanov/master
+
+SelectedOptions binding not updating non-observable properties
+---> The files with partial_reverts are:-
+spec/defaultBindings/selectedOptionsBehaviors.js
+src/binding/defaultBindings/selectedOptions.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 75 is -> 
+{ 32bf9dbdc4e03ca2ae83763668f434536e064285 -> 94bf1fa0cd29b83462805a278a3e1f459bf4d1c6 } is a revert
+{ 6506cb594cbbbf766d5dea4d7a19325a5a40c6ea -> 08514f03cfa2b2e7b04c7fdb4eed48edc3d68989 }
+Partial Revert commits SHA are -> 
+94bf1fa0cd29b83462805a278a3e1f459bf4d1c6 - revert - 08514f03cfa2b2e7b04c7fdb4eed48edc3d68989
+---> The reverted commit sha is - 94bf1fa0cd29b83462805a278a3e1f459bf4d1c6
+Commit message - Merge pull request #781 from paglias/master
+
+set prototype.constructor when overwriting prototype
+---> The original commit sha is - 08514f03cfa2b2e7b04c7fdb4eed48edc3d68989
+Commit message - Merge pull request #801 from SteveSanderson/801-empty-template-and-jquery-parseHTML
+
+Empty template throws error in 2.2.1
+---> The files with partial_reverts are:-
+spec/templatingBehaviors.js
+src/utils.domManipulation.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 76 is -> 
+{ c9a759253b8b1b55441252398b966522a96d6edf -> e79376677dc6d6b9298cb9ea7d1eae79f8643a92 } is a revert
+{ 94bf1fa0cd29b83462805a278a3e1f459bf4d1c6 -> 6506cb594cbbbf766d5dea4d7a19325a5a40c6ea }
+Partial Revert commits SHA are -> 
+e79376677dc6d6b9298cb9ea7d1eae79f8643a92 - revert - 6506cb594cbbbf766d5dea4d7a19325a5a40c6ea
+---> The reverted commit sha is - e79376677dc6d6b9298cb9ea7d1eae79f8643a92
+Commit message - Change error message for applying bindings multiple times.
+---> The original commit sha is - 6506cb594cbbbf766d5dea4d7a19325a5a40c6ea
+Commit message - Merge pull request #639 from SteveSanderson/639-prevent-computed-overwrite
+
+Knockout overwrites computed observable
+---> The files with partial_reverts are:-
+src/binding/expressionRewriting.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 77 is -> 
+{ e010ecde2840b14e46f8efa5a13d1f27f383111d -> f79b40c6e65995f0e85a6ac100df9523a8f4a739 } is a revert
+{ b22cd768725faa1a7bcd00f78b453f7a0bf53a57 -> 8935de40f080dce52314aa4e207fbfd2578dfc24 }
+Partial Revert commits SHA are -> 
+f79b40c6e65995f0e85a6ac100df9523a8f4a739 - revert - 8935de40f080dce52314aa4e207fbfd2578dfc24
+---> The reverted commit sha is - f79b40c6e65995f0e85a6ac100df9523a8f4a739
+Commit message - port to jasmine
+---> The original commit sha is - 8935de40f080dce52314aa4e207fbfd2578dfc24
+Commit message - Merge branch '698-hasfocus-focus-getting-set-back'
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/hasfocus.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 78 is -> 
+{ 069a1e46486175dcf443c0b1c0ddf1dba9cdecac -> cb0bb29297528efcee836fb5f85be45ad8dafc59 } is a revert
+{ 6205bf5ea766342a3697143ed8c9035efbb53181 -> b22cd768725faa1a7bcd00f78b453f7a0bf53a57 }
+Partial Revert commits SHA are -> 
+cb0bb29297528efcee836fb5f85be45ad8dafc59 - revert - b22cd768725faa1a7bcd00f78b453f7a0bf53a57
+---> The reverted commit sha is - cb0bb29297528efcee836fb5f85be45ad8dafc59
+Commit message - Merge pull request #728 from SteveSanderson/728-hasFocus-alias
+
+hasfocus should be hasFocus
+---> The original commit sha is - b22cd768725faa1a7bcd00f78b453f7a0bf53a57
+Commit message - Merge pull request #739 from SteveSanderson/739-foreach-with-template-rewriting-bugfix
+
+jquery.tmpl interpolation of observables are not updated when inside data-bind'ed elements
+---> The files with partial_reverts are:-
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 79 is -> 
+{ 069a1e46486175dcf443c0b1c0ddf1dba9cdecac -> cb0bb29297528efcee836fb5f85be45ad8dafc59 } is a revert
+{ cb0bb29297528efcee836fb5f85be45ad8dafc59 -> b1076c40b0064a42b2971bbe41d5fcb73be0dbd5 }
+Partial Revert commits SHA are -> 
+cb0bb29297528efcee836fb5f85be45ad8dafc59 - revert - b1076c40b0064a42b2971bbe41d5fcb73be0dbd5
+---> The reverted commit sha is - cb0bb29297528efcee836fb5f85be45ad8dafc59
+Commit message - Merge pull request #728 from SteveSanderson/728-hasFocus-alias
+
+hasfocus should be hasFocus
+---> The original commit sha is - b1076c40b0064a42b2971bbe41d5fcb73be0dbd5
+Commit message - Merge pull request #732 from jamesjwood/master
+
+Fixes error in chrome when you try to inline knockout in your page
+---> The files with partial_reverts are:-
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 80 is -> 
+{ 5e12b9e6f5e0e40721a131fe9838563d5321a057 -> 5242fe376a574f33a1eb4854685d7a796ed31047 } is a revert
+{ 5242fe376a574f33a1eb4854685d7a796ed31047 -> c4207887c6606c551ad631ef0367d729039bc7ea }
+Partial Revert commits SHA are -> 
+5242fe376a574f33a1eb4854685d7a796ed31047 - revert - c4207887c6606c551ad631ef0367d729039bc7ea
+---> The reverted commit sha is - 5242fe376a574f33a1eb4854685d7a796ed31047
+Commit message - Update specs to more accurately simulate malformed DOM scenarios (fixes false negative on IE < 9)
+---> The original commit sha is - c4207887c6606c551ad631ef0367d729039bc7ea
+Commit message - Merge branch 'master' into 660-handle-malformed-template-markup
+---> The files with partial_reverts are:-
+build/fragments/version.txt
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+spec/defaultBindings/attrBehaviors.js
+spec/defaultBindings/valueBehaviors.js
+spec/domNodeDisposalBehaviors.js
+spec/editDetectionBehaviors.js
+spec/lib/JSSpec.extensions.js
+spec/mappingHelperBehaviors.js
+src/binding/defaultBindings/value.js
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 81 is -> 
+{ e8b666340b342b3dd32f839e16daedfc6c66effc -> 3e55701eaec732277036a8055ec898eaffc06c57 } is a revert
+{ 3e55701eaec732277036a8055ec898eaffc06c57 -> 5e12b9e6f5e0e40721a131fe9838563d5321a057 }
+Partial Revert commits SHA are -> 
+3e55701eaec732277036a8055ec898eaffc06c57 - revert - 5e12b9e6f5e0e40721a131fe9838563d5321a057
+---> The reverted commit sha is - 3e55701eaec732277036a8055ec898eaffc06c57
+Commit message - Merge pull request #660 from SteveSanderson/660-handle-malformed-template-markup
+
+HIERARCHY_REQUEST_ERR: DOM Exception 3
+---> The original commit sha is - 5e12b9e6f5e0e40721a131fe9838563d5321a057
+Commit message - Merge branch '665-fix-foreach-remove-after-add'
+---> The files with partial_reverts are:-
+src/binding/editDetection/arrayToDomNodeChildren.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 82 is -> 
+{ 3ab0d9ba5007f52169ff24b416e7040cc874ae32 -> a48f3d6478c37b1272a13da77d1ff64710b26ecf } is a revert
+{ 112b3dd491e9f96c7f795fd5c1a18764c6af5f14 -> ec9c4d9a8278cb5a47ebc8165b2ac59a2dde24a2 }
+Partial Revert commits SHA are -> 
+a48f3d6478c37b1272a13da77d1ff64710b26ecf - revert - ec9c4d9a8278cb5a47ebc8165b2ac59a2dde24a2
+---> The reverted commit sha is - a48f3d6478c37b1272a13da77d1ff64710b26ecf
+Commit message - Optimize template binding to only re-render template if 'data' or 'if/ifnot' values have changed.
+---> The original commit sha is - ec9c4d9a8278cb5a47ebc8165b2ac59a2dde24a2
+Commit message - Merge pull request #476 from SteveSanderson/476-lightweight-with-if
+
+make lightweight version of 'with'
+---> The files with partial_reverts are:-
+spec/bindingAttributeBehaviors.js
+spec/defaultBindings/foreachBehaviors.js
+spec/defaultBindings/valueBehaviors.js
+spec/domNodeDisposalBehaviors.js
+spec/editDetectionBehaviors.js
+spec/templatingBehaviors.js
+src/binding/bindingAttributeSyntax.js
+src/binding/bindingProvider.js
+src/binding/defaultBindings/checked.js
+src/binding/defaultBindings/foreach.js
+src/binding/defaultBindings/hasfocus.js
+src/binding/defaultBindings/options.js
+src/binding/defaultBindings/value.js
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/binding/expressionRewriting.js
+src/subscribables/dependencyDetection.js
+src/templating/templateRewriting.js
+src/utils.domData.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 83 is -> 
+{ 5d5839b5dd37380f33770f983a96cad2dcfcb394 -> 1841cdb202207259cdee0dfef8af29d806bfbf63 } is a revert
+{ ee9ea432f035cbff88865001bdcf7067e29fa026 -> 3ab0d9ba5007f52169ff24b416e7040cc874ae32 }
+Partial Revert commits SHA are -> 
+1841cdb202207259cdee0dfef8af29d806bfbf63 - revert - 3ab0d9ba5007f52169ff24b416e7040cc874ae32
+---> The reverted commit sha is - 1841cdb202207259cdee0dfef8af29d806bfbf63
+Commit message - Add specs for each of the foreach callbacks (afterRender, afterAdd, beforeRemove, beforeMove, and afterMove) and fix some problems related to those callbacks that were introduced in #259.
+---> The original commit sha is - 3ab0d9ba5007f52169ff24b416e7040cc874ae32
+Commit message - Merge branch '474-element-in-binding'
+
+Conflicts:
+	src/templating/templateRewriting.js
+---> The files with partial_reverts are:-
+src/binding/bindingProvider.js
+src/templating/templateRewriting.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 84 is -> 
+{ 912557091c724a84a4590b70407c763eabcf85b6 -> f48c7081eb2cd0733e55ea52654101fdc1a0f9a4 } is a revert
+{ 7d1c73020254572cea41ab093dce63d1aab741e0 -> d8135283868f52ca2d95de12b9af9e78d5c5377b }
+Partial Revert commits SHA are -> 
+f48c7081eb2cd0733e55ea52654101fdc1a0f9a4 - revert - d8135283868f52ca2d95de12b9af9e78d5c5377b
+---> The reverted commit sha is - f48c7081eb2cd0733e55ea52654101fdc1a0f9a4
+Commit message - Ensure binding attributes that end with a '}' character don't cause syntax errors
+---> The original commit sha is - d8135283868f52ca2d95de12b9af9e78d5c5377b
+Commit message - Merge pull request #562 from SteveSanderson/562-value-should-not-prevent-write
+
+Bug (?) in documentation on computed observables - writeable computeds don't have a chance to react to a change that is the same as current value
+---> The files with partial_reverts are:-
+spec/defaultBindings/valueBehaviors.js
+src/binding/defaultBindings/value.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 85 is -> 
+{ f48c7081eb2cd0733e55ea52654101fdc1a0f9a4 -> 41813424d1f8b4acdd292622bd47cf809c9adbfc } is a revert
+{ 7a1c251e096e41180f2e8e04dbd806b6b025077a -> 7d1c73020254572cea41ab093dce63d1aab741e0 }
+Partial Revert commits SHA are -> 
+41813424d1f8b4acdd292622bd47cf809c9adbfc - revert - 7d1c73020254572cea41ab093dce63d1aab741e0
+---> The reverted commit sha is - 41813424d1f8b4acdd292622bd47cf809c9adbfc
+Commit message - Make DOM data logic able to cope with cloned nodes on IE < 9
+---> The original commit sha is - 7d1c73020254572cea41ab093dce63d1aab741e0
+Commit message - Merge pull request #615 from SteveSanderson/615-jquery-templates-braces-regression-fix
+
+Regression with jquery.tmpl
+---> The files with partial_reverts are:-
+src/templating/templateRewriting.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 86 is -> 
+{ ce18b1cd2b7f42889acc73d6100347f05a212698 -> ed25dc687ff25b9a0912351769d37d7b7bded316 } is a revert
+{ cdd585c7025637e209ccd63317338074706f04b1 -> cb594d0a1d159cc06570be9e73f07e3fd63ee38f }
+Partial Revert commits SHA are -> 
+ed25dc687ff25b9a0912351769d37d7b7bded316 - revert - cb594d0a1d159cc06570be9e73f07e3fd63ee38f
+---> The reverted commit sha is - ed25dc687ff25b9a0912351769d37d7b7bded316
+Commit message - Make build fail if we reference a non-existent file
+---> The original commit sha is - cb594d0a1d159cc06570be9e73f07e3fd63ee38f
+Commit message - Merge branch '483-dispose-if-no-dependencies'
+---> The files with partial_reverts are:-
+spec/dependentObservableBehaviors.js
+src/binding/bindingAttributeSyntax.js
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/subscribables/dependentObservable.js
+src/templating/templating.js
+src/utils.domData.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 87 is -> 
+{ 39ddae8524c79ec12fe2cd01c13f9a24a3463df8 -> 23f627122e080051463b1739b4a462a0c682623f } is a revert
+{ ee10e4ff7de5354f80acaa1a148db8ae36fa7d53 -> 3daa496a800208d2d90e1f79d0777bcb0216ac02 }
+Partial Revert commits SHA are -> 
+23f627122e080051463b1739b4a462a0c682623f - revert - 3daa496a800208d2d90e1f79d0777bcb0216ac02
+---> The reverted commit sha is - 23f627122e080051463b1739b4a462a0c682623f
+Commit message - move default bindings to separate folder
+---> The original commit sha is - 3daa496a800208d2d90e1f79d0777bcb0216ac02
+Commit message - Merge branch 'master' into 564-split-bindings-into-own-files
+---> The files with partial_reverts are:-
+README.md
+spec/editDetectionBehaviors.js
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/binding/editDetection/compareArrays.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 88 is -> 
+{ 3cb02a068568a0ec9b56bdd400b6feea9c38310b -> a9778c445a5d448e2c29bc3c47d9bd85dbcb7130 } is a revert
+{ a9778c445a5d448e2c29bc3c47d9bd85dbcb7130 -> 13f31dfeeeb9739e8d29b85c2b2693df20d24145 }
+Partial Revert commits SHA are -> 
+a9778c445a5d448e2c29bc3c47d9bd85dbcb7130 - revert - 13f31dfeeeb9739e8d29b85c2b2693df20d24145
+---> The reverted commit sha is - a9778c445a5d448e2c29bc3c47d9bd85dbcb7130
+Commit message - copy defaultBindings.js to eventBinding.js
+---> The original commit sha is - 13f31dfeeeb9739e8d29b85c2b2693df20d24145
+Commit message - Split event binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+src/binding/defaultBindings/hasfocusBinding.js
+src/binding/defaultBindings/htmlBinding.js
+src/binding/defaultBindings/ifBinding.js
+src/binding/defaultBindings/ifnotBinding.js
+src/binding/defaultBindings/optionsBinding.js
+src/binding/defaultBindings/selectedOptionsBinding.js
+src/binding/defaultBindings/styleBinding.js
+src/binding/defaultBindings/submitBinding.js
+src/binding/defaultBindings/textBinding.js
+src/binding/defaultBindings/uniqueNameBinding.js
+src/binding/defaultBindings/valueBinding.js
+src/binding/defaultBindings/visibleBinding.js
+src/binding/defaultBindings/withBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 89 is -> 
+{ a7eb4251c5284242e1af25754362c07342c3c4ea -> dd51dd0dd2b0ec0fdcba3bb836b301cbb8dc1ac8 } is a revert
+{ dd51dd0dd2b0ec0fdcba3bb836b301cbb8dc1ac8 -> 3cb02a068568a0ec9b56bdd400b6feea9c38310b }
+Partial Revert commits SHA are -> 
+dd51dd0dd2b0ec0fdcba3bb836b301cbb8dc1ac8 - revert - 3cb02a068568a0ec9b56bdd400b6feea9c38310b
+---> The reverted commit sha is - dd51dd0dd2b0ec0fdcba3bb836b301cbb8dc1ac8
+Commit message - copy defaultBindings.js to withBinding.js
+---> The original commit sha is - 3cb02a068568a0ec9b56bdd400b6feea9c38310b
+Commit message - Split with binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+src/binding/defaultBindings/hasfocusBinding.js
+src/binding/defaultBindings/htmlBinding.js
+src/binding/defaultBindings/ifBinding.js
+src/binding/defaultBindings/ifnotBinding.js
+src/binding/defaultBindings/optionsBinding.js
+src/binding/defaultBindings/selectedOptionsBinding.js
+src/binding/defaultBindings/styleBinding.js
+src/binding/defaultBindings/submitBinding.js
+src/binding/defaultBindings/textBinding.js
+src/binding/defaultBindings/uniqueNameBinding.js
+src/binding/defaultBindings/valueBinding.js
+src/binding/defaultBindings/visibleBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 90 is -> 
+{ 355301ffe1deaf561d19878fc8dbe233289a6ffd -> 3661fd3a05f9253509c9214ab5c4d3b47849fd6a } is a revert
+{ 3661fd3a05f9253509c9214ab5c4d3b47849fd6a -> a7eb4251c5284242e1af25754362c07342c3c4ea }
+Partial Revert commits SHA are -> 
+3661fd3a05f9253509c9214ab5c4d3b47849fd6a - revert - a7eb4251c5284242e1af25754362c07342c3c4ea
+---> The reverted commit sha is - 3661fd3a05f9253509c9214ab5c4d3b47849fd6a
+Commit message - copy defaultBindings.js to visibleBinding.js
+---> The original commit sha is - a7eb4251c5284242e1af25754362c07342c3c4ea
+Commit message - Split visible binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+src/binding/defaultBindings/hasfocusBinding.js
+src/binding/defaultBindings/htmlBinding.js
+src/binding/defaultBindings/ifBinding.js
+src/binding/defaultBindings/ifnotBinding.js
+src/binding/defaultBindings/optionsBinding.js
+src/binding/defaultBindings/selectedOptionsBinding.js
+src/binding/defaultBindings/styleBinding.js
+src/binding/defaultBindings/submitBinding.js
+src/binding/defaultBindings/textBinding.js
+src/binding/defaultBindings/uniqueNameBinding.js
+src/binding/defaultBindings/valueBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 91 is -> 
+{ e9fae62e0edaf31b1168290b7fec75a74ffaf420 -> 5655047d45b60f8595a36b71789391d7e815c199 } is a revert
+{ 5655047d45b60f8595a36b71789391d7e815c199 -> 355301ffe1deaf561d19878fc8dbe233289a6ffd }
+Partial Revert commits SHA are -> 
+5655047d45b60f8595a36b71789391d7e815c199 - revert - 355301ffe1deaf561d19878fc8dbe233289a6ffd
+---> The reverted commit sha is - 5655047d45b60f8595a36b71789391d7e815c199
+Commit message - copy defaultBindings.js to valueBinding.js
+---> The original commit sha is - 355301ffe1deaf561d19878fc8dbe233289a6ffd
+Commit message - Split value binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+src/binding/defaultBindings/hasfocusBinding.js
+src/binding/defaultBindings/htmlBinding.js
+src/binding/defaultBindings/ifBinding.js
+src/binding/defaultBindings/ifnotBinding.js
+src/binding/defaultBindings/optionsBinding.js
+src/binding/defaultBindings/selectedOptionsBinding.js
+src/binding/defaultBindings/styleBinding.js
+src/binding/defaultBindings/submitBinding.js
+src/binding/defaultBindings/textBinding.js
+src/binding/defaultBindings/uniqueNameBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 92 is -> 
+{ 48b76a1797a40428b42f8bf0ff3014b108e4fc40 -> 335e62e04af40a2d43bd78100e3bb1c9f1fdfd1d } is a revert
+{ 335e62e04af40a2d43bd78100e3bb1c9f1fdfd1d -> e9fae62e0edaf31b1168290b7fec75a74ffaf420 }
+Partial Revert commits SHA are -> 
+335e62e04af40a2d43bd78100e3bb1c9f1fdfd1d - revert - e9fae62e0edaf31b1168290b7fec75a74ffaf420
+---> The reverted commit sha is - 335e62e04af40a2d43bd78100e3bb1c9f1fdfd1d
+Commit message - copy defaultBindings.js to uniqueNameBinding.js
+---> The original commit sha is - e9fae62e0edaf31b1168290b7fec75a74ffaf420
+Commit message - Split uniqueName binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+src/binding/defaultBindings/hasfocusBinding.js
+src/binding/defaultBindings/htmlBinding.js
+src/binding/defaultBindings/ifBinding.js
+src/binding/defaultBindings/ifnotBinding.js
+src/binding/defaultBindings/optionsBinding.js
+src/binding/defaultBindings/selectedOptionsBinding.js
+src/binding/defaultBindings/styleBinding.js
+src/binding/defaultBindings/submitBinding.js
+src/binding/defaultBindings/textBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 93 is -> 
+{ 12cc43b505383f829701f6f4a11e5a2ccf43e028 -> ee881a6f3e52082ad0ebdc58c80ea2656d9fcd71 } is a revert
+{ ee881a6f3e52082ad0ebdc58c80ea2656d9fcd71 -> 48b76a1797a40428b42f8bf0ff3014b108e4fc40 }
+Partial Revert commits SHA are -> 
+ee881a6f3e52082ad0ebdc58c80ea2656d9fcd71 - revert - 48b76a1797a40428b42f8bf0ff3014b108e4fc40
+---> The reverted commit sha is - ee881a6f3e52082ad0ebdc58c80ea2656d9fcd71
+Commit message - copy defaultBindings.js to textBinding.js
+---> The original commit sha is - 48b76a1797a40428b42f8bf0ff3014b108e4fc40
+Commit message - Split text binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+src/binding/defaultBindings/hasfocusBinding.js
+src/binding/defaultBindings/htmlBinding.js
+src/binding/defaultBindings/ifBinding.js
+src/binding/defaultBindings/ifnotBinding.js
+src/binding/defaultBindings/optionsBinding.js
+src/binding/defaultBindings/selectedOptionsBinding.js
+src/binding/defaultBindings/styleBinding.js
+src/binding/defaultBindings/submitBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 94 is -> 
+{ 90304c4d3bd47e0a02b8885c4e4e653b55a647b7 -> 6db29e89d9126ec419186e2ee715fe4623240b32 } is a revert
+{ 6db29e89d9126ec419186e2ee715fe4623240b32 -> 12cc43b505383f829701f6f4a11e5a2ccf43e028 }
+Partial Revert commits SHA are -> 
+6db29e89d9126ec419186e2ee715fe4623240b32 - revert - 12cc43b505383f829701f6f4a11e5a2ccf43e028
+---> The reverted commit sha is - 6db29e89d9126ec419186e2ee715fe4623240b32
+Commit message - copy defaultBindings.js to submitBinding.js
+---> The original commit sha is - 12cc43b505383f829701f6f4a11e5a2ccf43e028
+Commit message - Split submit binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+src/binding/defaultBindings/hasfocusBinding.js
+src/binding/defaultBindings/htmlBinding.js
+src/binding/defaultBindings/ifBinding.js
+src/binding/defaultBindings/ifnotBinding.js
+src/binding/defaultBindings/optionsBinding.js
+src/binding/defaultBindings/selectedOptionsBinding.js
+src/binding/defaultBindings/styleBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 95 is -> 
+{ fd6fdf884fb79772a53bccc7b4dfb2be711fdb79 -> b39d5c5a05bf83d0f838a7f8e2acda9250875279 } is a revert
+{ b39d5c5a05bf83d0f838a7f8e2acda9250875279 -> 90304c4d3bd47e0a02b8885c4e4e653b55a647b7 }
+Partial Revert commits SHA are -> 
+b39d5c5a05bf83d0f838a7f8e2acda9250875279 - revert - 90304c4d3bd47e0a02b8885c4e4e653b55a647b7
+---> The reverted commit sha is - b39d5c5a05bf83d0f838a7f8e2acda9250875279
+Commit message - copy defaultBindings.js to styleBinding.js
+---> The original commit sha is - 90304c4d3bd47e0a02b8885c4e4e653b55a647b7
+Commit message - Split style binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+src/binding/defaultBindings/hasfocusBinding.js
+src/binding/defaultBindings/htmlBinding.js
+src/binding/defaultBindings/ifBinding.js
+src/binding/defaultBindings/ifnotBinding.js
+src/binding/defaultBindings/optionsBinding.js
+src/binding/defaultBindings/selectedOptionsBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 96 is -> 
+{ ec62292d2cd69fa32fa6b99c3cb31576fd1c1584 -> 8181ee568874631f521459dfea04a74031316473 } is a revert
+{ 8181ee568874631f521459dfea04a74031316473 -> fd6fdf884fb79772a53bccc7b4dfb2be711fdb79 }
+Partial Revert commits SHA are -> 
+8181ee568874631f521459dfea04a74031316473 - revert - fd6fdf884fb79772a53bccc7b4dfb2be711fdb79
+---> The reverted commit sha is - 8181ee568874631f521459dfea04a74031316473
+Commit message - copy defaultBindings.js to selectedOptionsBinding.js
+---> The original commit sha is - fd6fdf884fb79772a53bccc7b4dfb2be711fdb79
+Commit message - Split selectedOptions binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+src/binding/defaultBindings/hasfocusBinding.js
+src/binding/defaultBindings/htmlBinding.js
+src/binding/defaultBindings/ifBinding.js
+src/binding/defaultBindings/ifnotBinding.js
+src/binding/defaultBindings/optionsBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 97 is -> 
+{ 0015936e7769975f5d990ad7fed90868d5bd36a4 -> f512661cc58737161d4a218e46a9d2712d488f7e } is a revert
+{ f512661cc58737161d4a218e46a9d2712d488f7e -> ec62292d2cd69fa32fa6b99c3cb31576fd1c1584 }
+Partial Revert commits SHA are -> 
+f512661cc58737161d4a218e46a9d2712d488f7e - revert - ec62292d2cd69fa32fa6b99c3cb31576fd1c1584
+---> The reverted commit sha is - f512661cc58737161d4a218e46a9d2712d488f7e
+Commit message - copy defaultBindings.js to optionsBinding.js
+---> The original commit sha is - ec62292d2cd69fa32fa6b99c3cb31576fd1c1584
+Commit message - Split options binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+src/binding/defaultBindings/hasfocusBinding.js
+src/binding/defaultBindings/htmlBinding.js
+src/binding/defaultBindings/ifBinding.js
+src/binding/defaultBindings/ifnotBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 98 is -> 
+{ a296bab18d0d4eee8685bcd02342d2496a6eed6c -> e9ce1bea8dd06419864c9eabafa1827ef395afca } is a revert
+{ e9ce1bea8dd06419864c9eabafa1827ef395afca -> 0015936e7769975f5d990ad7fed90868d5bd36a4 }
+Partial Revert commits SHA are -> 
+e9ce1bea8dd06419864c9eabafa1827ef395afca - revert - 0015936e7769975f5d990ad7fed90868d5bd36a4
+---> The reverted commit sha is - e9ce1bea8dd06419864c9eabafa1827ef395afca
+Commit message - copy defaultBindings.js to ifnotBinding.js
+---> The original commit sha is - 0015936e7769975f5d990ad7fed90868d5bd36a4
+Commit message - Split ifnot binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+src/binding/defaultBindings/hasfocusBinding.js
+src/binding/defaultBindings/htmlBinding.js
+src/binding/defaultBindings/ifBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 99 is -> 
+{ 6b220bcf80b78ee975f34cef6c1c9bbb0b62aff1 -> f4ba1e82b3de1b1772b458dcdaea82fccbcd0e97 } is a revert
+{ f4ba1e82b3de1b1772b458dcdaea82fccbcd0e97 -> a296bab18d0d4eee8685bcd02342d2496a6eed6c }
+Partial Revert commits SHA are -> 
+f4ba1e82b3de1b1772b458dcdaea82fccbcd0e97 - revert - a296bab18d0d4eee8685bcd02342d2496a6eed6c
+---> The reverted commit sha is - f4ba1e82b3de1b1772b458dcdaea82fccbcd0e97
+Commit message - copy defaultBindings.js to ifBinding.js
+---> The original commit sha is - a296bab18d0d4eee8685bcd02342d2496a6eed6c
+Commit message - Split if binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+src/binding/defaultBindings/hasfocusBinding.js
+src/binding/defaultBindings/htmlBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 100 is -> 
+{ 5900182e26361f0e1de9f5e3c19466579ea94009 -> 3d87b969bf8c0a0af67d9ea4aacdc2c688e99490 } is a revert
+{ 3d87b969bf8c0a0af67d9ea4aacdc2c688e99490 -> 6b220bcf80b78ee975f34cef6c1c9bbb0b62aff1 }
+Partial Revert commits SHA are -> 
+3d87b969bf8c0a0af67d9ea4aacdc2c688e99490 - revert - 6b220bcf80b78ee975f34cef6c1c9bbb0b62aff1
+---> The reverted commit sha is - 3d87b969bf8c0a0af67d9ea4aacdc2c688e99490
+Commit message - copy defaultBindings.js to htmlBinding.js
+---> The original commit sha is - 6b220bcf80b78ee975f34cef6c1c9bbb0b62aff1
+Commit message - Split html binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+src/binding/defaultBindings/hasfocusBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 101 is -> 
+{ 055c8fc95375f287c19a724cad617c9532f07eb5 -> 93e668196a4dff0c3ba66f2354b0e4376ab4cf63 } is a revert
+{ 93e668196a4dff0c3ba66f2354b0e4376ab4cf63 -> 5900182e26361f0e1de9f5e3c19466579ea94009 }
+Partial Revert commits SHA are -> 
+93e668196a4dff0c3ba66f2354b0e4376ab4cf63 - revert - 5900182e26361f0e1de9f5e3c19466579ea94009
+---> The reverted commit sha is - 93e668196a4dff0c3ba66f2354b0e4376ab4cf63
+Commit message - copy defaultBindings.js to hasfocusBinding.js
+---> The original commit sha is - 5900182e26361f0e1de9f5e3c19466579ea94009
+Commit message - Split hasfocus binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+src/binding/defaultBindings/foreachBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 102 is -> 
+{ 3257e6790a25671fc391393ed62cc255c1ee0fa6 -> 88d4fe2a48daae8d4e80b6267c372dff121e9b62 } is a revert
+{ 88d4fe2a48daae8d4e80b6267c372dff121e9b62 -> 055c8fc95375f287c19a724cad617c9532f07eb5 }
+Partial Revert commits SHA are -> 
+88d4fe2a48daae8d4e80b6267c372dff121e9b62 - revert - 055c8fc95375f287c19a724cad617c9532f07eb5
+---> The reverted commit sha is - 88d4fe2a48daae8d4e80b6267c372dff121e9b62
+Commit message - copy defaultBindings.js to foreachBinding.js
+---> The original commit sha is - 055c8fc95375f287c19a724cad617c9532f07eb5
+Commit message - Split foreach binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+src/binding/defaultBindings/enableBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 103 is -> 
+{ bbe866dfbc36f335984674b2ab5ae8b5171aea7e -> fe64f35f555ab63977c9aa889f2232b7cccf1827 } is a revert
+{ fe64f35f555ab63977c9aa889f2232b7cccf1827 -> 3257e6790a25671fc391393ed62cc255c1ee0fa6 }
+Partial Revert commits SHA are -> 
+fe64f35f555ab63977c9aa889f2232b7cccf1827 - revert - 3257e6790a25671fc391393ed62cc255c1ee0fa6
+---> The reverted commit sha is - fe64f35f555ab63977c9aa889f2232b7cccf1827
+Commit message - copy defaultBindings.js to enableBinding.js
+---> The original commit sha is - 3257e6790a25671fc391393ed62cc255c1ee0fa6
+Commit message - Split enable/disable bindings.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+src/binding/defaultBindings/cssBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 104 is -> 
+{ 932e922468f085a0b8895b824c9ca2253fecd721 -> b5528f81752eb79bc3e93392f9b7040ce0ae5f36 } is a revert
+{ b5528f81752eb79bc3e93392f9b7040ce0ae5f36 -> bbe866dfbc36f335984674b2ab5ae8b5171aea7e }
+Partial Revert commits SHA are -> 
+b5528f81752eb79bc3e93392f9b7040ce0ae5f36 - revert - bbe866dfbc36f335984674b2ab5ae8b5171aea7e
+---> The reverted commit sha is - b5528f81752eb79bc3e93392f9b7040ce0ae5f36
+Commit message - copy defaultBindings.js to cssBinding.js
+---> The original commit sha is - bbe866dfbc36f335984674b2ab5ae8b5171aea7e
+Commit message - Split css binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+src/binding/defaultBindings/clickBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 105 is -> 
+{ c943739c9949a60a71c364583f268f910f180dc8 -> 4b957f363a7530313154b2dbc1d10618b228346c } is a revert
+{ 4b957f363a7530313154b2dbc1d10618b228346c -> 932e922468f085a0b8895b824c9ca2253fecd721 }
+Partial Revert commits SHA are -> 
+4b957f363a7530313154b2dbc1d10618b228346c - revert - 932e922468f085a0b8895b824c9ca2253fecd721
+---> The reverted commit sha is - 4b957f363a7530313154b2dbc1d10618b228346c
+Commit message - copy defaultBindings.js to clickBinding.js
+---> The original commit sha is - 932e922468f085a0b8895b824c9ca2253fecd721
+Commit message - Split click binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+src/binding/defaultBindings/checkedBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 106 is -> 
+{ 857ca29de9bbf3a71de6425a4cf3e2a7bb83a569 -> 45695562c5c3eccd7a4f94db2fd3645f354455ea } is a revert
+{ 45695562c5c3eccd7a4f94db2fd3645f354455ea -> c943739c9949a60a71c364583f268f910f180dc8 }
+Partial Revert commits SHA are -> 
+45695562c5c3eccd7a4f94db2fd3645f354455ea - revert - c943739c9949a60a71c364583f268f910f180dc8
+---> The reverted commit sha is - 45695562c5c3eccd7a4f94db2fd3645f354455ea
+Commit message - copy defaultBindings.js to checkedBinding.js
+---> The original commit sha is - c943739c9949a60a71c364583f268f910f180dc8
+Commit message - Split checked binding.
+---> The files with partial_reverts are:-
+src/binding/defaultBindings/attrBinding.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 107 is -> 
+{ 33cecba029cbcfbc8b79d6f9e4f90dbcefc3eeb4 -> 8f250b6c4cada61f08eab9dfbcd5c54438b5c2a4 } is a revert
+{ 12ef8ab985705fedf01b0c65a1d466cc9b16660e -> 39ddae8524c79ec12fe2cd01c13f9a24a3463df8 }
+Partial Revert commits SHA are -> 
+8f250b6c4cada61f08eab9dfbcd5c54438b5c2a4 - revert - 39ddae8524c79ec12fe2cd01c13f9a24a3463df8
+---> The reverted commit sha is - 8f250b6c4cada61f08eab9dfbcd5c54438b5c2a4
+Commit message - Template binding will also use 'as' option if 'data' is given; move data model alias logic to bindingContext.
+---> The original commit sha is - 39ddae8524c79ec12fe2cd01c13f9a24a3463df8
+Commit message - Merge pull request #593 from SteveSanderson/593-linux-build-instructions
+
+Update build instructions.
+---> The files with partial_reverts are:-
+spec/editDetectionBehaviors.js
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/binding/editDetection/compareArrays.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 108 is -> 
+{ fbd1ca93e491bfd044f68f3cc61e17c5f8108c3d -> 12ef8ab985705fedf01b0c65a1d466cc9b16660e } is a revert
+{ 12ef8ab985705fedf01b0c65a1d466cc9b16660e -> 39ddae8524c79ec12fe2cd01c13f9a24a3463df8 }
+Partial Revert commits SHA are -> 
+12ef8ab985705fedf01b0c65a1d466cc9b16660e - revert - 39ddae8524c79ec12fe2cd01c13f9a24a3463df8
+---> The reverted commit sha is - 12ef8ab985705fedf01b0c65a1d466cc9b16660e
+Commit message - Fix Linux/Mac build instructions
+---> The original commit sha is - 39ddae8524c79ec12fe2cd01c13f9a24a3463df8
+Commit message - Merge pull request #593 from SteveSanderson/593-linux-build-instructions
+
+Update build instructions.
+---> The files with partial_reverts are:-
+spec/defaultBindingsBehaviors.js
+spec/editDetectionBehaviors.js
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/binding/editDetection/compareArrays.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 109 is -> 
+{ ec3da459769d1c67ff4e9d0e815750085af5efaa -> 2ffcb2c89a92e4f0ec708ee8456b26934447da84 } is a revert
+{ ad8821462d9913f74d938ec1466d4de330b9459d -> 8a81a3867e01523544b1a969aec2f10ae47eeff2 }
+Partial Revert commits SHA are -> 
+2ffcb2c89a92e4f0ec708ee8456b26934447da84 - revert - 8a81a3867e01523544b1a969aec2f10ae47eeff2
+---> The reverted commit sha is - 2ffcb2c89a92e4f0ec708ee8456b26934447da84
+Commit message - Comment to record reason for try-catch
+---> The original commit sha is - 8a81a3867e01523544b1a969aec2f10ae47eeff2
+Commit message - Merge pull request #403 from SteveSanderson/403-observable-array-mutation-without-subscription
+
+observableArray mutation functions shouldn't create subscription
+---> The files with partial_reverts are:-
+src/binding/bindingAttributeSyntax.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 110 is -> 
+{ e5c4892ae5f355a35abe0671dd6eb6b50c84f02a -> ad8821462d9913f74d938ec1466d4de330b9459d } is a revert
+{ ad8821462d9913f74d938ec1466d4de330b9459d -> 8a81a3867e01523544b1a969aec2f10ae47eeff2 }
+Partial Revert commits SHA are -> 
+ad8821462d9913f74d938ec1466d4de330b9459d - revert - 8a81a3867e01523544b1a969aec2f10ae47eeff2
+---> The reverted commit sha is - ad8821462d9913f74d938ec1466d4de330b9459d
+Commit message - Array mutations no longer cause subscriptions when used from within a ko.computed
+---> The original commit sha is - 8a81a3867e01523544b1a969aec2f10ae47eeff2
+Commit message - Merge pull request #403 from SteveSanderson/403-observable-array-mutation-without-subscription
+
+observableArray mutation functions shouldn't create subscription
+---> The files with partial_reverts are:-
+src/binding/bindingAttributeSyntax.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 111 is -> 
+{ ec3da459769d1c67ff4e9d0e815750085af5efaa -> 2ffcb2c89a92e4f0ec708ee8456b26934447da84 } is a revert
+{ 9a237663d549216be50bde072a50c9697082fca7 -> e5c4892ae5f355a35abe0671dd6eb6b50c84f02a }
+Partial Revert commits SHA are -> 
+2ffcb2c89a92e4f0ec708ee8456b26934447da84 - revert - e5c4892ae5f355a35abe0671dd6eb6b50c84f02a
+---> The reverted commit sha is - 2ffcb2c89a92e4f0ec708ee8456b26934447da84
+Commit message - Comment to record reason for try-catch
+---> The original commit sha is - e5c4892ae5f355a35abe0671dd6eb6b50c84f02a
+Commit message - Merge pull request #490 from SteveSanderson/490-make-ko-available-in-bindings
+
+Text-based template support breaks when an AMD loader is present
+---> The files with partial_reverts are:-
+src/binding/bindingAttributeSyntax.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 112 is -> 
+{ a02e32546682a9e2c4bf09b9b8d8e4e1f0abfb3c -> 86e7a023341208059dafca1c1e98e268c49da00a } is a revert
+{ 2ffcb2c89a92e4f0ec708ee8456b26934447da84 -> 9a237663d549216be50bde072a50c9697082fca7 }
+Partial Revert commits SHA are -> 
+86e7a023341208059dafca1c1e98e268c49da00a - revert - 9a237663d549216be50bde072a50c9697082fca7
+---> The reverted commit sha is - 86e7a023341208059dafca1c1e98e268c49da00a
+Commit message - Spec to show we can set name property using attr binding
+---> The original commit sha is - 9a237663d549216be50bde072a50c9697082fca7
+Commit message - Merge branch '333-name-attribute-in-old-ie'
+---> The files with partial_reverts are:-
+src/binding/defaultBindings.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 113 is -> 
+{ f2d175dc103ed458638f0bf5b0809cbf2e2e502b -> c0aa9b3d3f73021b578ff11986fb465a825bfe74 } is a revert
+{ c0aa9b3d3f73021b578ff11986fb465a825bfe74 -> aa266f95c4eb762f9d1d706de03f8e1dc7962f93 }
+Partial Revert commits SHA are -> 
+c0aa9b3d3f73021b578ff11986fb465a825bfe74 - revert - aa266f95c4eb762f9d1d706de03f8e1dc7962f93
+---> The reverted commit sha is - c0aa9b3d3f73021b578ff11986fb465a825bfe74
+Commit message - Merge remote-tracking branch 'remotes/origin/setOptionNodeSelectionState-browser-detection'
+---> The original commit sha is - aa266f95c4eb762f9d1d706de03f8e1dc7962f93
+Commit message - Merge remote-tracking branch 'remotes/origin/template-name-as-function-of-binding-context'
+---> The files with partial_reverts are:-
+spec/templatingBehaviors.js
+src/templating/templating.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 114 is -> 
+{ 9a32104878b7b78bb476ce467c50c5346e80dfa7 -> 0d797c03ac8a4e5f3a7109e0ab9a965301fbf754 } is a revert
+{ b90db49f991277d136a3fbddf82cc2404f80b5d6 -> 42da2d84d481ae41d01f90bd0283daa444098f14 }
+Partial Revert commits SHA are -> 
+0d797c03ac8a4e5f3a7109e0ab9a965301fbf754 - revert - 42da2d84d481ae41d01f90bd0283daa444098f14
+---> The reverted commit sha is - 0d797c03ac8a4e5f3a7109e0ab9a965301fbf754
+Commit message - Merge branch '427-remove-rewrite-cache'
+---> The original commit sha is - 42da2d84d481ae41d01f90bd0283daa444098f14
+Commit message - Merge branch 'selectOptions-consistent-readwrite'
+---> The files with partial_reverts are:-
+src/binding/defaultBindings.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 115 is -> 
+{ 559b6f4983138db975cf5abeca88ada3f7625940 -> c558d081be103fc9ab84f7ed8a8fa95d9bc4727f } is a revert
+{ c558d081be103fc9ab84f7ed8a8fa95d9bc4727f -> 9a32104878b7b78bb476ce467c50c5346e80dfa7 }
+Partial Revert commits SHA are -> 
+c558d081be103fc9ab84f7ed8a8fa95d9bc4727f - revert - 9a32104878b7b78bb476ce467c50c5346e80dfa7
+---> The reverted commit sha is - c558d081be103fc9ab84f7ed8a8fa95d9bc4727f
+Commit message - Rename fixUpVirtualElements to fixUpNodesToBeRemoved and amend comments, since the function now has a different role
+---> The original commit sha is - 9a32104878b7b78bb476ce467c50c5346e80dfa7
+Commit message - use getElementsByTagName in selectOptions
+---> The files with partial_reverts are:-
+spec/templatingBehaviors.js
+src/binding/editDetection/arrayToDomNodeChildren.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 116 is -> 
+{ 3ec00596c6200d17003a14865dd3fd2da87bf7cd -> a13d012045260a741ef03eebc81620842f4be7e8 } is a revert
+{ 559b6f4983138db975cf5abeca88ada3f7625940 -> c558d081be103fc9ab84f7ed8a8fa95d9bc4727f }
+Partial Revert commits SHA are -> 
+a13d012045260a741ef03eebc81620842f4be7e8 - revert - c558d081be103fc9ab84f7ed8a8fa95d9bc4727f
+---> The reverted commit sha is - a13d012045260a741ef03eebc81620842f4be7e8
+Commit message - selectedOptions should also update options inside optgroup
+---> The original commit sha is - c558d081be103fc9ab84f7ed8a8fa95d9bc4727f
+Commit message - Rename fixUpVirtualElements to fixUpNodesToBeRemoved and amend comments, since the function now has a different role
+---> The files with partial_reverts are:-
+spec/templatingBehaviors.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 117 is -> 
+{ 0977fc0b4278b8b187c794886581c87548554314 -> c666cb5fd82aaafcc6f63719b951b0cb4caa2985 } is a revert
+{ c666cb5fd82aaafcc6f63719b951b0cb4caa2985 -> a3afdeb0027cfa032631dccdb64ca294870c2ca8 }
+Partial Revert commits SHA are -> 
+c666cb5fd82aaafcc6f63719b951b0cb4caa2985 - revert - a3afdeb0027cfa032631dccdb64ca294870c2ca8
+---> The reverted commit sha is - c666cb5fd82aaafcc6f63719b951b0cb4caa2985
+Commit message - Fix spec failure that occurred only when *all* specs are run (not when just running template specs).
+Really, we should stop using `testNode` as a global variable, as it introduces order dependencies between specs.
+---> The original commit sha is - a3afdeb0027cfa032631dccdb64ca294870c2ca8
+Commit message - Merge branch 'master' into 144-fix-template-spec
+---> The files with partial_reverts are:-
+.travis.yml
+build/build-linux
+build/build-windows.bat
+build/fragments/extern-post.js
+build/fragments/extern-pre.js
+spec/defaultBindingsBehaviors.js
+spec/lib/JSSpec.extensions.js
+spec/lib/JSSpec.js
+spec/runner.html
+spec/runner.phantom.js
+src/binding/defaultBindings.js
+src/binding/selectExtensions.js
+src/templating/templateRewriting.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 118 is -> 
+{ a634f0cdec3d6fd6434bf8404f30b7be1d6ca11e -> fb0e4c43e370f3d37855d2d9a641f099a98ec893 } is a revert
+{ e10a189cfa0a1d06f589dc094aeb97876152f0e7 -> 0977fc0b4278b8b187c794886581c87548554314 }
+Partial Revert commits SHA are -> 
+fb0e4c43e370f3d37855d2d9a641f099a98ec893 - revert - 0977fc0b4278b8b187c794886581c87548554314
+---> The reverted commit sha is - fb0e4c43e370f3d37855d2d9a641f099a98ec893
+Commit message - #460 - Always use value attribute, if specified, even if blank.
+
+Add spec to show that a blank value will be used instead of the option text. Modern browsers automatically set element.value to the text if the value attribute is missing. IE<=7 doesn't and also makes it kind of hard to tell of the value attribute is set or not.
+---> The original commit sha is - 0977fc0b4278b8b187c794886581c87548554314
+Commit message - Merge pull request #459 from SteveSanderson/459-compress-apply-memoized-bindings
+
+Minify could be stronger on literals
+---> The files with partial_reverts are:-
+src/templating/templateRewriting.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 119 is -> 
+{ f0edc52d2ca9b5253deb13af19e326b083057e8d -> cb9ac57d1830f6ee25dc80a4f4822b98a1b8f0ff } is a revert
+{ cfd5a8d46825db70bdc9d12cd62603abef802c09 -> 1e67e8bd1b38ba945a5835e769415b6c77f5ac83 }
+Partial Revert commits SHA are -> 
+cb9ac57d1830f6ee25dc80a4f4822b98a1b8f0ff - revert - 1e67e8bd1b38ba945a5835e769415b6c77f5ac83
+---> The reverted commit sha is - cb9ac57d1830f6ee25dc80a4f4822b98a1b8f0ff
+Commit message - Simplify CSS class name regex slightly by removing \d, and amend spec to show it still works
+---> The original commit sha is - 1e67e8bd1b38ba945a5835e769415b6c77f5ac83
+Commit message - Merge branch 'master' into 115-expand-css-binding
+---> The files with partial_reverts are:-
+.travis.yml
+build/build-linux
+build/build-windows.bat
+build/fragments/extern-post.js
+build/fragments/extern-pre.js
+spec/lib/JSSpec.extensions.js
+spec/lib/JSSpec.js
+spec/runner.html
+spec/runner.phantom.js
+src/binding/selectExtensions.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 120 is -> 
+{ d48ce75b53fb8ed006a42963c5af8c181a52d6c6 -> d1487f85fd3aa8dddce047dc35d8fd4b84ba31f6 } is a revert
+{ 365bfee3e7031bca11a6c2b23210bfbc75e21903 -> f0edc52d2ca9b5253deb13af19e326b083057e8d }
+Partial Revert commits SHA are -> 
+d1487f85fd3aa8dddce047dc35d8fd4b84ba31f6 - revert - f0edc52d2ca9b5253deb13af19e326b083057e8d
+---> The reverted commit sha is - d1487f85fd3aa8dddce047dc35d8fd4b84ba31f6
+Commit message - #115 - Modify 'css' binding to support multiple classes in a string, and to support setting a class (or classes) dynamically (similar to https://github.com/SteveSanderson/knockout/wiki/Bindings---class)
+---> The original commit sha is - f0edc52d2ca9b5253deb13af19e326b083057e8d
+Commit message - Merge branch '138-jQuery-extern'
+---> The files with partial_reverts are:-
+build/build-linux
+build/build-windows.bat
+build/fragments/extern-post.js
+build/fragments/extern-pre.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 121 is -> 
+{ fb0e4c43e370f3d37855d2d9a641f099a98ec893 -> 29d853d26a8d0bbd0f3927519bfb0421804851b4 } is a revert
+{ 6e74c015b260a336de82a033982de2b73792e2e6 -> 365bfee3e7031bca11a6c2b23210bfbc75e21903 }
+Partial Revert commits SHA are -> 
+29d853d26a8d0bbd0f3927519bfb0421804851b4 - revert - 365bfee3e7031bca11a6c2b23210bfbc75e21903
+---> The reverted commit sha is - 29d853d26a8d0bbd0f3927519bfb0421804851b4
+Commit message - Patch JsSpec so it logs to the console (for use in CI)
+---> The original commit sha is - 365bfee3e7031bca11a6c2b23210bfbc75e21903
+Commit message - Merge pull request #488 from knockout-travis/travis_ci
+
+Continuous integration via Travis CI
+---> The files with partial_reverts are:-
+spec/defaultBindingsBehaviors.js
+src/binding/selectExtensions.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 122 is -> 
+{ c9f49db7ed203f0bdc3041d5e13db548bc1a12f5 -> 587fa014317d20fa09a371ed58762daa38e6649e } is a revert
+{ 587fa014317d20fa09a371ed58762daa38e6649e -> 76bb0b11ae2fffccf36123bf6921063e93990833 }
+Partial Revert commits SHA are -> 
+587fa014317d20fa09a371ed58762daa38e6649e - revert - 76bb0b11ae2fffccf36123bf6921063e93990833
+---> The reverted commit sha is - 587fa014317d20fa09a371ed58762daa38e6649e
+Commit message - #440 - fix problem in 2.1 that foreach doesn't update correctly if first item in rewritten template has a binding
+
+This doesn't fix the core problem that the comment left over from memoization stays in the list of nodes that foreach tracks. But since this change makes 2.1 behave more like 2.0, it's probably sufficient.
+---> The original commit sha is - 76bb0b11ae2fffccf36123bf6921063e93990833
+Commit message - Merge branch 'master' of github.com:SteveSanderson/knockout
+---> The files with partial_reverts are:-
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 123 is -> 
+{ 36225f9100b1ee954f7043cc4ff21fe60720994d -> b88a69a5eea939a4ce18ec1a17bb024b6a36cfe8 } is a revert
+{ d7c269bc5f6f6d3cc583c20ec99430f24f0c424e -> 35c6384078200bd60bc57b8b1898b703eb0097af }
+Partial Revert commits SHA are -> 
+b88a69a5eea939a4ce18ec1a17bb024b6a36cfe8 - revert - 35c6384078200bd60bc57b8b1898b703eb0097af
+---> The reverted commit sha is - b88a69a5eea939a4ce18ec1a17bb024b6a36cfe8
+Commit message - Fix #413 (tolerate certain kinds of manual DOM edits while using setDomNodeChildrenFromArrayMapping). Thanks to mbest for the solution.
+---> The original commit sha is - 35c6384078200bd60bc57b8b1898b703eb0097af
+Commit message - Merge branch 'master' of github.com:SteveSanderson/knockout
+---> The files with partial_reverts are:-
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 124 is -> 
+{ 36225f9100b1ee954f7043cc4ff21fe60720994d -> b88a69a5eea939a4ce18ec1a17bb024b6a36cfe8 } is a revert
+{ b76809810674c4558a4afd224eecd71163fdb7ad -> 4ab69a9ed95a94cc46b7a12be78ac15f8e6a099a }
+Partial Revert commits SHA are -> 
+b88a69a5eea939a4ce18ec1a17bb024b6a36cfe8 - revert - 4ab69a9ed95a94cc46b7a12be78ac15f8e6a099a
+---> The reverted commit sha is - b88a69a5eea939a4ce18ec1a17bb024b6a36cfe8
+Commit message - Fix #413 (tolerate certain kinds of manual DOM edits while using setDomNodeChildrenFromArrayMapping). Thanks to mbest for the solution.
+---> The original commit sha is - 4ab69a9ed95a94cc46b7a12be78ac15f8e6a099a
+Commit message - Merge pull request #423 from SteveSanderson/411-tagnamelower-check
+
+Make tagNameLower resilient against unexpected inputs
+---> The files with partial_reverts are:-
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 125 is -> 
+{ 440a93301173f58c588b0ed4ac2d99400bf27bfd -> e89e12a3a9ba087f6872612fe8a0b558637391b7 } is a revert
+{ e89e12a3a9ba087f6872612fe8a0b558637391b7 -> 5d9c406c6dcaa0e37787e95697034daf83236d24 }
+Partial Revert commits SHA are -> 
+e89e12a3a9ba087f6872612fe8a0b558637391b7 - revert - 5d9c406c6dcaa0e37787e95697034daf83236d24
+---> The reverted commit sha is - e89e12a3a9ba087f6872612fe8a0b558637391b7
+Commit message - Added comment to help keep a record of why inner evaluation is skipped
+---> The original commit sha is - 5d9c406c6dcaa0e37787e95697034daf83236d24
+Commit message - Merge branch '387-recursive-computed-eval'
+---> The files with partial_reverts are:-
+spec/bindingAttributeBehaviors.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 126 is -> 
+{ c0a320006694f044251a598733b798df174c019a -> 440a93301173f58c588b0ed4ac2d99400bf27bfd } is a revert
+{ 440a93301173f58c588b0ed4ac2d99400bf27bfd -> e89e12a3a9ba087f6872612fe8a0b558637391b7 }
+Partial Revert commits SHA are -> 
+440a93301173f58c588b0ed4ac2d99400bf27bfd - revert - e89e12a3a9ba087f6872612fe8a0b558637391b7
+---> The reverted commit sha is - 440a93301173f58c588b0ed4ac2d99400bf27bfd
+Commit message - Merge pull request #384 from GilesBradshaw/MissingKo
+
+Ko missing in spec
+---> The original commit sha is - e89e12a3a9ba087f6872612fe8a0b558637391b7
+Commit message - Added comment to help keep a record of why inner evaluation is skipped
+---> The files with partial_reverts are:-
+spec/bindingAttributeBehaviors.js
+spec/dependentObservableBehaviors.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 127 is -> 
+{ 26c9303396f364eed4089fa87ff2e3f75b4957b6 -> cb6d2c3cacf5a3a88c4255fcef31c394a91d4bd3 } is a revert
+{ 38c978467b968c80f373e28c3023ada5eb962164 -> da28f76ce149bcbab2359b5e0572aaa31fbf76d8 }
+Partial Revert commits SHA are -> 
+cb6d2c3cacf5a3a88c4255fcef31c394a91d4bd3 - revert - da28f76ce149bcbab2359b5e0572aaa31fbf76d8
+---> The reverted commit sha is - cb6d2c3cacf5a3a88c4255fcef31c394a91d4bd3
+Commit message - Merge remote-tracking branch 'remotes/origin/consistent-builds'
+
+Conflicts:
+	build/build-windows.bat
+---> The original commit sha is - da28f76ce149bcbab2359b5e0572aaa31fbf76d8
+Commit message - Merge pull request #122 from SteveSanderson/122-IE-autocomplete
+
+Internet Explorer and AutoComplete
+---> The files with partial_reverts are:-
+src/binding/jsonExpressionRewriting.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 128 is -> 
+{ e5e7dbd1349fd9069a3369006b774309feb62025 -> 38c978467b968c80f373e28c3023ada5eb962164 } is a revert
+{ 38c978467b968c80f373e28c3023ada5eb962164 -> da28f76ce149bcbab2359b5e0572aaa31fbf76d8 }
+Partial Revert commits SHA are -> 
+38c978467b968c80f373e28c3023ada5eb962164 - revert - da28f76ce149bcbab2359b5e0572aaa31fbf76d8
+---> The reverted commit sha is - 38c978467b968c80f373e28c3023ada5eb962164
+Commit message - Merge commit '3734c4fbb1f8dca964755546b204c9609ccc60f2'
+---> The original commit sha is - da28f76ce149bcbab2359b5e0572aaa31fbf76d8
+Commit message - Merge pull request #122 from SteveSanderson/122-IE-autocomplete
+
+Internet Explorer and AutoComplete
+---> The files with partial_reverts are:-
+src/binding/jsonExpressionRewriting.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 129 is -> 
+{ dd179adc4ecc77dd0d2cbeb5122268c9332730bf -> 08448b74e6f9a2344321e9a87f5d1593cfbcdc72 } is a revert
+{ 08448b74e6f9a2344321e9a87f5d1593cfbcdc72 -> 1f334da7a105ca029084cb43c2848c2258661910 }
+Partial Revert commits SHA are -> 
+08448b74e6f9a2344321e9a87f5d1593cfbcdc72 - revert - 1f334da7a105ca029084cb43c2848c2258661910
+---> The reverted commit sha is - 08448b74e6f9a2344321e9a87f5d1593cfbcdc72
+Commit message - Merge pull request #216 from SteveSanderson/216-template-in-textarea
+
+Support named templates in textarea tags
+---> The original commit sha is - 1f334da7a105ca029084cb43c2848c2258661910
+Commit message - Merge branch 'master' into 54-support-xhtml
+---> The files with partial_reverts are:-
+src/binding/selectExtensions.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 130 is -> 
+{ 1f93a58f831d24c6d976872323f1a736558d5923 -> a2744a0fc29b2d7723a837520e6d68d1d6f26ca3 } is a revert
+{ ba7d91e307f4a6608240d591acec011823e8d2cc -> 768248b4d78e4af6108877fc8cebbd5554ac6ac8 }
+Partial Revert commits SHA are -> 
+a2744a0fc29b2d7723a837520e6d68d1d6f26ca3 - revert - 768248b4d78e4af6108877fc8cebbd5554ac6ac8
+---> The reverted commit sha is - a2744a0fc29b2d7723a837520e6d68d1d6f26ca3
+Commit message - Merge pull request #334 from rniemeyer/css-binding-prevent-leading-space
+
+Avoid adding a leading space in css binding.
+---> The original commit sha is - 768248b4d78e4af6108877fc8cebbd5554ac6ac8
+Commit message - Merge branch '323-IE-class-attr'
+---> The files with partial_reverts are:-
+src/binding/defaultBindings.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 131 is -> 
+{ 269911080862028cbe1b7270ca6b9319c2e565eb -> 2051074c4df1cf583d32792769af86db432d7f11 } is a revert
+{ 98c60643b6843a60a42d7983a2e3672260186c35 -> 0c9418c883b0473e24185196d55445cb3e49f335 }
+Partial Revert commits SHA are -> 
+2051074c4df1cf583d32792769af86db432d7f11 - revert - 0c9418c883b0473e24185196d55445cb3e49f335
+---> The reverted commit sha is - 2051074c4df1cf583d32792769af86db432d7f11
+Commit message - Fix related bug that affects IE8 (maybe other versions):
+Selecting second item in a size>1 select will move scroll down one item.
+---> The original commit sha is - 0c9418c883b0473e24185196d55445cb3e49f335
+Commit message - Merge branch '139-expose-JSON-stringify-args'
+---> The files with partial_reverts are:-
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 132 is -> 
+{ b4b50e8d7233b0cdd4287f7b22bc8aac8afdf743 -> 3146a3a456ae427070bfced62ea2f9ddb433af9a } is a revert
+{ 98c60643b6843a60a42d7983a2e3672260186c35 -> 0c9418c883b0473e24185196d55445cb3e49f335 }
+Partial Revert commits SHA are -> 
+3146a3a456ae427070bfced62ea2f9ddb433af9a - revert - 0c9418c883b0473e24185196d55445cb3e49f335
+---> The reverted commit sha is - 3146a3a456ae427070bfced62ea2f9ddb433af9a
+Commit message - foreach $index: fix spec that failed in IE; help performance a bit
+
+renderTemplateForEach now assumes that setDomNodeChildrenFromArrayMapping will call the mapping callback and then the afterAdding callback once for each new or changed item. Modify specs to verify this behavior.
+---> The original commit sha is - 0c9418c883b0473e24185196d55445cb3e49f335
+Commit message - Merge branch '139-expose-JSON-stringify-args'
+---> The files with partial_reverts are:-
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 133 is -> 
+{ 82e9ecc86b7c7ee84600787602735fb58ba6251a -> bb05d63ae4e155e75f179e1cd78b3b1a5a233082 } is a revert
+{ 248e0636faf5b40be6d0e585847aeb16b1d28513 -> 7de57bfd7e3dc4f4dd6c4c588f693e764f0d8d53 }
+Partial Revert commits SHA are -> 
+bb05d63ae4e155e75f179e1cd78b3b1a5a233082 - revert - 7de57bfd7e3dc4f4dd6c4c588f693e764f0d8d53
+---> The reverted commit sha is - bb05d63ae4e155e75f179e1cd78b3b1a5a233082
+Commit message - Avoid adding a leading space to a single class added by css binding.  Avoid splitting classes into an array twice when removing a class.
+---> The original commit sha is - 7de57bfd7e3dc4f4dd6c4c588f693e764f0d8d53
+Commit message - Fix for #273: select box will flicker in IE
+---> The files with partial_reverts are:-
+spec/defaultBindingsBehaviors.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 134 is -> 
+{ bc739b69a87e5e3ae10cf01fdd46b120031d8382 -> 0985be05067a8b622830a7a44b218272f8e25baa } is a revert
+{ c8123920defe50309d749e72f8a8c0051688903f -> 23893cfaddfefb47caf55715058b36f70cc210cf }
+Partial Revert commits SHA are -> 
+0985be05067a8b622830a7a44b218272f8e25baa - revert - 23893cfaddfefb47caf55715058b36f70cc210cf
+---> The reverted commit sha is - 0985be05067a8b622830a7a44b218272f8e25baa
+Commit message - Reverting the change to invokeForEachNodeOrCommentInParent (until I understand what it was for)
+---> The original commit sha is - 23893cfaddfefb47caf55715058b36f70cc210cf
+Commit message - Merge branch 'mbest-external-containerless-bindings'
+---> The files with partial_reverts are:-
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+spec/defaultBindingsBehaviors.js
+spec/mappingHelperBehaviors.js
+src/subscribables/dependencyDetection.js
+src/subscribables/dependentObservable.js
+src/subscribables/mappingHelpers.js
+src/subscribables/observableArray.js
+src/templating/templateEngine.js
+src/templating/templating.js
+src/utils.domNodeDisposal.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 135 is -> 
+{ 0b39c9d6d438885acc681a11400d8831582389fc -> 30d05769ff0d56a735ec4d075dcf2e83f5f705f6 } is a revert
+{ 0985be05067a8b622830a7a44b218272f8e25baa -> 8df78693ff727d2bfcecd5844d2eb2722bfec07e }
+Partial Revert commits SHA are -> 
+30d05769ff0d56a735ec4d075dcf2e83f5f705f6 - revert - 8df78693ff727d2bfcecd5844d2eb2722bfec07e
+---> The reverted commit sha is - 30d05769ff0d56a735ec4d075dcf2e83f5f705f6
+Commit message - adding the other core changes from #286 :
+* Chrome sometimes appends a newline to innerText but not to textContent; so textContent is better in Chrome
+* Calling the init and update function on the object means we can use 'this' in the functions.
+---> The original commit sha is - 8df78693ff727d2bfcecd5844d2eb2722bfec07e
+Commit message - Reverting the way binding handlers' "init" and "update" functions are invoked until the use case is clear.
+(Note that, in the future, the custom bindings API may change to become more object oriented, so each binding would
+become an object instance that can hold its own data. In case we proceed in that direction, it may be preferable
+not to be changing the "init" and "update" semantics in the meantime)
+---> The files with partial_reverts are:-
+src/binding/bindingAttributeSyntax.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 136 is -> 
+{ 44742950171ae7ce33fc808b779bcc230329e9b1 -> 981929e6622eb3599c9cb52d8ae4f9b9adfe265b } is a revert
+{ a1bb34b3ec32f02c7c30c064bdcbb08170df2ead -> 5d4ea3485ff36c13610bd3a3d7e186c0897dc4c5 }
+Partial Revert commits SHA are -> 
+981929e6622eb3599c9cb52d8ae4f9b9adfe265b - revert - 5d4ea3485ff36c13610bd3a3d7e186c0897dc4c5
+---> The reverted commit sha is - 981929e6622eb3599c9cb52d8ae4f9b9adfe265b
+Commit message - use DocumentFragment to improve template performance, especially for inline templates
+---> The original commit sha is - 5d4ea3485ff36c13610bd3a3d7e186c0897dc4c5
+Commit message - Setting template engines back to output DOM node arrays (even when working from templates stored as document fragments) for simplicitly, as the perf appears indistinguishable
+---> The files with partial_reverts are:-
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/templating/templateEngine.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 137 is -> 
+{ 1e2d27168f83337839f5987fea7bb8e8c7b25571 -> 5ecbc93a76e215643206f60f450a9408e2e0ccdf } is a revert
+{ a1bb34b3ec32f02c7c30c064bdcbb08170df2ead -> 5d4ea3485ff36c13610bd3a3d7e186c0897dc4c5 }
+Partial Revert commits SHA are -> 
+5ecbc93a76e215643206f60f450a9408e2e0ccdf - revert - 5d4ea3485ff36c13610bd3a3d7e186c0897dc4c5
+---> The reverted commit sha is - 5ecbc93a76e215643206f60f450a9408e2e0ccdf
+Commit message - Revert "add a cache for inline templates that are given a template id (not element id)"
+---> The original commit sha is - 5d4ea3485ff36c13610bd3a3d7e186c0897dc4c5
+Commit message - Setting template engines back to output DOM node arrays (even when working from templates stored as document fragments) for simplicitly, as the perf appears indistinguishable
+---> The files with partial_reverts are:-
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/templating/templateEngine.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 138 is -> 
+{ 10c99b8c6c57854dffb03f5c7105c47aebf574dc -> 3e2b5a0cf8aa158bc2924c901d87fb1599f813bc } is a revert
+{ 3e2b5a0cf8aa158bc2924c901d87fb1599f813bc -> 6d0d4bb70b82bdd30de7fe0cad7da16af8d9cd36 }
+Partial Revert commits SHA are -> 
+3e2b5a0cf8aa158bc2924c901d87fb1599f813bc - revert - 6d0d4bb70b82bdd30de7fe0cad7da16af8d9cd36
+---> The reverted commit sha is - 3e2b5a0cf8aa158bc2924c901d87fb1599f813bc
+Commit message - use DocumentFragment to improve template performance, especially for inline templates
+---> The original commit sha is - 6d0d4bb70b82bdd30de7fe0cad7da16af8d9cd36
+Commit message - don't use cloneNode for IE<9
+---> The files with partial_reverts are:-
+spec/defaultBindingsBehaviors.js
+spec/templatingBehaviors.js
+src/templating/native/nativeTemplateEngine.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 139 is -> 
+{ 981929e6622eb3599c9cb52d8ae4f9b9adfe265b -> cdbce8e2762af3633a0988fa03591bc127e1883a } is a revert
+{ 1e2d27168f83337839f5987fea7bb8e8c7b25571 -> 5ecbc93a76e215643206f60f450a9408e2e0ccdf }
+Partial Revert commits SHA are -> 
+cdbce8e2762af3633a0988fa03591bc127e1883a - revert - 5ecbc93a76e215643206f60f450a9408e2e0ccdf
+---> The reverted commit sha is - cdbce8e2762af3633a0988fa03591bc127e1883a
+Commit message - Merge branch 'computed_optimize' of https://github.com/mbest/knockout into mbest-computed_optimize
+---> The original commit sha is - 5ecbc93a76e215643206f60f450a9408e2e0ccdf
+Commit message - Revert "add a cache for inline templates that are given a template id (not element id)"
+---> The files with partial_reverts are:-
+spec/templatingBehaviors.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 140 is -> 
+{ a9b316a99cfa2f6fffa5204478bc3e13781a1da9 -> 02cecde2f8596131d02714beb0c3183a6ab91107 } is a revert
+{ 273219674330d2324a3c8db32c8bc967bd5619ef -> 8f4a72614de6b5c079f229327f495a65ccd98505 }
+Partial Revert commits SHA are -> 
+02cecde2f8596131d02714beb0c3183a6ab91107 - revert - 8f4a72614de6b5c079f229327f495a65ccd98505
+---> The reverted commit sha is - 02cecde2f8596131d02714beb0c3183a6ab91107
+Commit message - optimize dispose loop
+---> The original commit sha is - 8f4a72614de6b5c079f229327f495a65ccd98505
+Commit message - Merge branch 'mbest-computed_optimize'
+---> The files with partial_reverts are:-
+.gitignore
+build/build-linux
+build/build-windows.bat
+build/fragments/amd-post.js
+build/fragments/amd-pre.js
+build/fragments/source-references.js
+build/fragments/version-header.js
+build/fragments/version.txt
+build/knockout-raw.js
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+build/source-references.js
+build/tools/searchReplace.js
+build/version-header.js
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings.js
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/binding/editDetection/compareArrays.js
+src/binding/jsonExpressionRewriting.js
+src/binding/selectExtensions.js
+src/google-closure-compiler-utils.js
+src/memoization.js
+src/namespace.js
+src/subscribables/extenders.js
+src/subscribables/mappingHelpers.js
+src/subscribables/observable.js
+src/subscribables/observableArray.js
+src/subscribables/subscribable.js
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+src/templating/native/nativeTemplateEngine.js
+src/templating/templateEngine.js
+src/templating/templateRewriting.js
+src/templating/templateSources.js
+src/templating/templating.js
+src/utils.domData.js
+src/utils.domManipulation.js
+src/utils.domNodeDisposal.js
+src/version.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 141 is -> 
+{ 981929e6622eb3599c9cb52d8ae4f9b9adfe265b -> cdbce8e2762af3633a0988fa03591bc127e1883a } is a revert
+{ 273219674330d2324a3c8db32c8bc967bd5619ef -> 8f4a72614de6b5c079f229327f495a65ccd98505 }
+Partial Revert commits SHA are -> 
+cdbce8e2762af3633a0988fa03591bc127e1883a - revert - 8f4a72614de6b5c079f229327f495a65ccd98505
+---> The reverted commit sha is - cdbce8e2762af3633a0988fa03591bc127e1883a
+Commit message - Merge branch 'computed_optimize' of https://github.com/mbest/knockout into mbest-computed_optimize
+---> The original commit sha is - 8f4a72614de6b5c079f229327f495a65ccd98505
+Commit message - Merge branch 'mbest-computed_optimize'
+---> The files with partial_reverts are:-
+.gitignore
+build/build-linux
+build/build-windows.bat
+build/fragments/amd-post.js
+build/fragments/amd-pre.js
+build/fragments/source-references.js
+build/fragments/version-header.js
+build/fragments/version.txt
+build/knockout-raw.js
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+build/source-references.js
+build/tools/searchReplace.js
+build/version-header.js
+src/binding/bindingProvider.js
+src/binding/editDetection/compareArrays.js
+src/binding/jsonExpressionRewriting.js
+src/binding/selectExtensions.js
+src/google-closure-compiler-utils.js
+src/memoization.js
+src/namespace.js
+src/subscribables/extenders.js
+src/subscribables/mappingHelpers.js
+src/subscribables/observable.js
+src/subscribables/observableArray.js
+src/subscribables/subscribable.js
+src/templating/templateRewriting.js
+src/utils.domData.js
+src/utils.domManipulation.js
+src/utils.domNodeDisposal.js
+src/version.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 142 is -> 
+{ eee91a1a7402a47da14f5ab2385273f9288c42a5 -> b9ffa7672a8637f91a847536027d30363b80d497 } is a revert
+{ 3f8ed1ebddf988797bee3e56b4cbeff5125a498c -> bdf5c4d494536f92d1a5165527d3571ead35c4e6 }
+Partial Revert commits SHA are -> 
+b9ffa7672a8637f91a847536027d30363b80d497 - revert - bdf5c4d494536f92d1a5165527d3571ead35c4e6
+---> The reverted commit sha is - b9ffa7672a8637f91a847536027d30363b80d497
+Commit message - Eliminate evalWithinScope as it is no longer required (buildEvalWithinScopeFunction has replaced it), plus factor out a couple of minor functions for readability
+---> The original commit sha is - bdf5c4d494536f92d1a5165527d3571ead35c4e6
+Commit message - Merge branch 'computed_optimize' of https://github.com/mbest/knockout
+---> The files with partial_reverts are:-
+src/subscribables/dependentObservable.js
+src/subscribables/subscribable.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 143 is -> 
+{ b6f22ed24c807a4a41ddfb646ca70dfad629a7a0 -> 4f7098592ccb927b36d8fde6703d05dd64b4edc4 } is a revert
+{ 3f8ed1ebddf988797bee3e56b4cbeff5125a498c -> bdf5c4d494536f92d1a5165527d3571ead35c4e6 }
+Partial Revert commits SHA are -> 
+4f7098592ccb927b36d8fde6703d05dd64b4edc4 - revert - bdf5c4d494536f92d1a5165527d3571ead35c4e6
+---> The reverted commit sha is - 4f7098592ccb927b36d8fde6703d05dd64b4edc4
+Commit message - Make setTextContent massively faster on IE
+---> The original commit sha is - bdf5c4d494536f92d1a5165527d3571ead35c4e6
+Commit message - Merge branch 'computed_optimize' of https://github.com/mbest/knockout
+---> The files with partial_reverts are:-
+src/subscribables/dependentObservable.js
+src/subscribables/subscribable.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 144 is -> 
+{ 791be9eb14f007d562d820aedbfb1c5fe44bde08 -> d190e5145ee9977fe82a7394321a46ccc3426b92 } is a revert
+{ 4bf90c5e5877d4a4b55339061c46199138f774bb -> 87af741cd421f4a75cbe5dbce0188993fcc796bf }
+Partial Revert commits SHA are -> 
+d190e5145ee9977fe82a7394321a46ccc3426b92 - revert - 87af741cd421f4a75cbe5dbce0188993fcc796bf
+---> The reverted commit sha is - d190e5145ee9977fe82a7394321a46ccc3426b92
+Commit message - Merge branch 'master' into foreach-context-index
+
+* master:
+  More indentation tweaks for tidiness
+  Update the build
+  Minor indentation tweaks
+  Stylistic tweaks to previous commit
+  Eliminate redundant IE6/7 workarounds for radio/checkbox issues. These problems no longer apply now that bindings are always applied to elements after they've been put into the DOM. Fixes issue #169
+  Refactor bad code
+  minor fix
+  Fix render array with \"undefined\" and \"null\" items in \"foreach\"  template
+  Updated remove and removeAll to modify their underlying arrays rather than creating new arrays. This makes them consistent with the rest of the array write functions. Added tests to verify original array is modified. Also added test to verify there is no notification when nothing is removed.
+  changing IE detection to not rely on user agents
+  Fixed a variable which should not have been global.
+---> The original commit sha is - 87af741cd421f4a75cbe5dbce0188993fcc796bf
+Commit message - Merge branch 'patch-1' of https://github.com/b-dur/knockout into b-dur-patch-1
+---> The files with partial_reverts are:-
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 145 is -> 
+{ 39caa75bbcf86ae87bbee129e80e53a008abb270 -> 327f87b0a2d634ff3c473db1e6c249a098f80b92 } is a revert
+{ fae11847317f823c9e1be0d351f63aae9f7fc064 -> 7e3c6c5eba7d38b8eeceb0ab1e218dfc408ba724 }
+Partial Revert commits SHA are -> 
+327f87b0a2d634ff3c473db1e6c249a098f80b92 - revert - 7e3c6c5eba7d38b8eeceb0ab1e218dfc408ba724
+---> The reverted commit sha is - 327f87b0a2d634ff3c473db1e6c249a098f80b92
+Commit message - Added a build for a NodeJs module, also included document and navigator to the build wrapper function.
+---> The original commit sha is - 7e3c6c5eba7d38b8eeceb0ab1e218dfc408ba724
+Commit message - Remove Node build in favor of recommendation to create a separate repository that does this independently.
+---> The files with partial_reverts are:-
+build/build-npm-linux
+build/node-npm-header.js
+build/npm/package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 146 is -> 
+{ f5c070dccc0b4d0ecc92a5854a5ff43c0c6624be -> fae11847317f823c9e1be0d351f63aae9f7fc064 } is a revert
+{ fae11847317f823c9e1be0d351f63aae9f7fc064 -> 7e3c6c5eba7d38b8eeceb0ab1e218dfc408ba724 }
+Partial Revert commits SHA are -> 
+fae11847317f823c9e1be0d351f63aae9f7fc064 - revert - 7e3c6c5eba7d38b8eeceb0ab1e218dfc408ba724
+---> The reverted commit sha is - fae11847317f823c9e1be0d351f63aae9f7fc064
+Commit message - Changed '>>' to '>' as per Steve Sandersons recommendations
+---> The original commit sha is - 7e3c6c5eba7d38b8eeceb0ab1e218dfc408ba724
+Commit message - Remove Node build in favor of recommendation to create a separate repository that does this independently.
+---> The files with partial_reverts are:-
+build/build-npm-linux
+build/node-npm-header.js
+build/npm/lib/knockout.js
+build/npm/package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 147 is -> 
+{ 76339022be150213d13b0c2a611b970a66a54184 -> 4ae3405cd6d65dcd39a924457e0f87449ce7a1d4 } is a revert
+{ b6f22ed24c807a4a41ddfb646ca70dfad629a7a0 -> 4f7098592ccb927b36d8fde6703d05dd64b4edc4 }
+Partial Revert commits SHA are -> 
+4ae3405cd6d65dcd39a924457e0f87449ce7a1d4 - revert - 4f7098592ccb927b36d8fde6703d05dd64b4edc4
+---> The reverted commit sha is - 4ae3405cd6d65dcd39a924457e0f87449ce7a1d4
+Commit message - optimize dependency tracking within computed observables; some minor reorganization
+---> The original commit sha is - 4f7098592ccb927b36d8fde6703d05dd64b4edc4
+Commit message - Make setTextContent massively faster on IE
+---> The files with partial_reverts are:-
+src/subscribables/subscribable.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 148 is -> 
+{ eee91a1a7402a47da14f5ab2385273f9288c42a5 -> b9ffa7672a8637f91a847536027d30363b80d497 } is a revert
+{ b9ffa7672a8637f91a847536027d30363b80d497 -> b6f22ed24c807a4a41ddfb646ca70dfad629a7a0 }
+Partial Revert commits SHA are -> 
+b9ffa7672a8637f91a847536027d30363b80d497 - revert - b6f22ed24c807a4a41ddfb646ca70dfad629a7a0
+---> The reverted commit sha is - b9ffa7672a8637f91a847536027d30363b80d497
+Commit message - Eliminate evalWithinScope as it is no longer required (buildEvalWithinScopeFunction has replaced it), plus factor out a couple of minor functions for readability
+---> The original commit sha is - b6f22ed24c807a4a41ddfb646ca70dfad629a7a0
+Commit message - Merge branch 'computed_optimize' of https://github.com/mbest/knockout into mbest-computed_optimize
+---> The files with partial_reverts are:-
+src/subscribables/dependentObservable.js
+src/subscribables/subscribable.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 149 is -> 
+{ 76339022be150213d13b0c2a611b970a66a54184 -> 4ae3405cd6d65dcd39a924457e0f87449ce7a1d4 } is a revert
+{ eee91a1a7402a47da14f5ab2385273f9288c42a5 -> b9ffa7672a8637f91a847536027d30363b80d497 }
+Partial Revert commits SHA are -> 
+4ae3405cd6d65dcd39a924457e0f87449ce7a1d4 - revert - b9ffa7672a8637f91a847536027d30363b80d497
+---> The reverted commit sha is - 4ae3405cd6d65dcd39a924457e0f87449ce7a1d4
+Commit message - optimize dependency tracking within computed observables; some minor reorganization
+---> The original commit sha is - b9ffa7672a8637f91a847536027d30363b80d497
+Commit message - Eliminate evalWithinScope as it is no longer required (buildEvalWithinScopeFunction has replaced it), plus factor out a couple of minor functions for readability
+---> The files with partial_reverts are:-
+src/subscribables/subscribable.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 150 is -> 
+{ 28169e7294fd1055007fa8461d13eed5f9d43942 -> 0535189e9b6c3416bad43b1c512a5c814c23536e } is a revert
+{ 0535189e9b6c3416bad43b1c512a5c814c23536e -> 9e91edb3d9f22e29f8ea4f9f45e1dc03fb353129 }
+Partial Revert commits SHA are -> 
+0535189e9b6c3416bad43b1c512a5c814c23536e - revert - 9e91edb3d9f22e29f8ea4f9f45e1dc03fb353129
+---> The reverted commit sha is - 0535189e9b6c3416bad43b1c512a5c814c23536e
+Commit message - Merge branch 'master' into foreach-context-index
+
+Conflicts:
+	spec/templatingBehaviors.js
+	src/binding/editDetection/arrayToDomNodeChildren.js
+	src/templating/templating.js
+---> The original commit sha is - 9e91edb3d9f22e29f8ea4f9f45e1dc03fb353129
+Commit message - Merge branch 'master' into foreach-context-index
+---> The files with partial_reverts are:-
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+build/version-header.js
+spec/defaultBindingsBehaviors.js
+spec/dependentObservableBehaviors.js
+spec/lib/innershiv.js
+spec/mappingHelperBehaviors.js
+spec/observableArrayBehaviors.js
+spec/observableBehaviors.js
+spec/runner.html
+spec/subscribableBehaviors.js
+src/binding/defaultBindings.js
+src/binding/selectExtensions.js
+src/subscribables/dependentObservable.js
+src/subscribables/extenders.js
+src/subscribables/mappingHelpers.js
+src/subscribables/observable.js
+src/subscribables/observableArray.js
+src/subscribables/subscribable.js
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+src/templating/templateEngine.js
+src/templating/templateSources.js
+src/utils.domManipulation.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 151 is -> 
+{ c1d4d08018a71a9a3e3cd851ba300517e9aa2946 -> 2be4d35d5b263dcc24d5d5d19f28bb9b3a1529a0 } is a revert
+{ 2be4d35d5b263dcc24d5d5d19f28bb9b3a1529a0 -> e20cc9ea62710aec53e4a177defe589c01ea90f1 }
+Partial Revert commits SHA are -> 
+2be4d35d5b263dcc24d5d5d19f28bb9b3a1529a0 - revert - e20cc9ea62710aec53e4a177defe589c01ea90f1
+---> The reverted commit sha is - 2be4d35d5b263dcc24d5d5d19f28bb9b3a1529a0
+Commit message - Merge branch 'toJS' of https://github.com/neonstalwart/knockout into neonstalwart-toJS
+---> The original commit sha is - e20cc9ea62710aec53e4a177defe589c01ea90f1
+Commit message - Updated the build
+---> The files with partial_reverts are:-
+build/output/knockout-latest.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 152 is -> 
+{ e92bf66abcee0fbfcef14cf60cdb18c2b03690bc -> 2e85f367fa57cdf94aca34cc40442afd71de25ff } is a revert
+{ 70fe9fbdf3dce17ed65cdc7d90fe66d88a7ba72d -> fa48e02074afa50d936e1e195d0c7f6c9faa8afc }
+Partial Revert commits SHA are -> 
+2e85f367fa57cdf94aca34cc40442afd71de25ff - revert - fa48e02074afa50d936e1e195d0c7f6c9faa8afc
+---> The reverted commit sha is - 2e85f367fa57cdf94aca34cc40442afd71de25ff
+Commit message - Fix for issue #170 (thanks, bmac!)
+---> The original commit sha is - fa48e02074afa50d936e1e195d0c7f6c9faa8afc
+Commit message - Merge branch 'fix-remove' of https://github.com/studgeek/knockout into studgeek-fix-remove
+---> The files with partial_reverts are:-
+build/output/knockout-latest.debug.js
+spec/observableArrayBehaviors.js
+src/subscribables/observableArray.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 153 is -> 
+{ eb51695b15c0c691b28c0ddf1f3ce89d6dbd8471 -> 3fdfa96fc8d6795d6e3c6c56d2cdcc18aa5db614 } is a revert
+{ b2c5443b74e4a0c7e331b28c91626aabb2213349 -> 94098b437e970af555a2f5b70125d026c3439bcf }
+Partial Revert commits SHA are -> 
+3fdfa96fc8d6795d6e3c6c56d2cdcc18aa5db614 - revert - 94098b437e970af555a2f5b70125d026c3439bcf
+---> The reverted commit sha is - 3fdfa96fc8d6795d6e3c6c56d2cdcc18aa5db614
+Commit message - Fix for issue #155 (IE < 9 doesn't handle comment tags directly inside UL/OL tags)
+---> The original commit sha is - 94098b437e970af555a2f5b70125d026c3439bcf
+Commit message - Merge branch 'master' of https://github.com/aaronpowell/knockout into aaronpowell-master
+---> The files with partial_reverts are:-
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 154 is -> 
+{ a25a914e694d6d27fd79305b47f83d1f83c1bbd5 -> ccbaf97c39ce037e1e466aafbb2fa7daf327ecf4 } is a revert
+{ b901bfecd7da325d675e1e9af0cd1e8b4e55dbc4 -> 66a22eeef97ca26e8b0d879d613088560ccf3c58 }
+Partial Revert commits SHA are -> 
+ccbaf97c39ce037e1e466aafbb2fa7daf327ecf4 - revert - 66a22eeef97ca26e8b0d879d613088560ccf3c58
+---> The reverted commit sha is - ccbaf97c39ce037e1e466aafbb2fa7daf327ecf4
+Commit message - "if", "ifnot", and "with" binding no longer tear down existing descendants until the bound value changes (so as to preserve any event handlers, etc.)
+---> The original commit sha is - 66a22eeef97ca26e8b0d879d613088560ccf3c58
+Commit message - Revert: ""if", "ifnot", and "with" binding no longer tear down existing descendants until the bound value changes (so as to preserve any event handlers, etc.)"
+
+This reverts commit ccbaf97c39ce037e1e466aafbb2fa7daf327ecf4.
+---> The files with partial_reverts are:-
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings.js
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/templating/templating.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 155 is -> 
+{ 9ca55d42daaeae2295eed634f5f0ad688e7054db -> 541ec9a2e16f520e98c26ce4250ec550a349a9f2 } is a revert
+{ 9e8e5d05850b7451245278e92f4c9d3025f3e692 -> d1accedaeff99d37d492fb9a6869bd0bd2649d1d }
+Partial Revert commits SHA are -> 
+541ec9a2e16f520e98c26ce4250ec550a349a9f2 - revert - d1accedaeff99d37d492fb9a6869bd0bd2649d1d
+---> The reverted commit sha is - 541ec9a2e16f520e98c26ce4250ec550a349a9f2
+Commit message - Update version header
+---> The original commit sha is - d1accedaeff99d37d492fb9a6869bd0bd2649d1d
+Commit message - Merge pull request #95 from joeldart/dataAttributesFix
+
+fixed regex to allow data-* attributes besides data-bind (Thanks, JoelDart!)
+---> The files with partial_reverts are:-
+src/templating/templateRewriting.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 156 is -> 
+{ 666c3969ad3dfb4b1ecd44b8001253ff13b14c33 -> 4cddab7db65760cf460461e88c346595c13f9060 } is a revert
+{ 17c290848e00898e73f56ffa76f580dc618079ae -> 0b0594f142c0b47848f69661ede86211d2e8a17d }
+Partial Revert commits SHA are -> 
+4cddab7db65760cf460461e88c346595c13f9060 - revert - 0b0594f142c0b47848f69661ede86211d2e8a17d
+---> The reverted commit sha is - 4cddab7db65760cf460461e88c346595c13f9060
+Commit message - Dependency detection now builds up subscribers in order of when dependencies were referenced
+---> The original commit sha is - 0b0594f142c0b47848f69661ede86211d2e8a17d
+Commit message - Merge branch 'master' of git@github.com:SteveSanderson/knockout.git
+---> The files with partial_reverts are:-
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 157 is -> 
+{ 666c3969ad3dfb4b1ecd44b8001253ff13b14c33 -> 4cddab7db65760cf460461e88c346595c13f9060 } is a revert
+{ 30ff2b2773a4657cc0df4a9e850d58097fcffe12 -> f0160e452c790c17fcab4d7a94bd696df528f2cc }
+Partial Revert commits SHA are -> 
+4cddab7db65760cf460461e88c346595c13f9060 - revert - f0160e452c790c17fcab4d7a94bd696df528f2cc
+---> The reverted commit sha is - 4cddab7db65760cf460461e88c346595c13f9060
+Commit message - Dependency detection now builds up subscribers in order of when dependencies were referenced
+---> The original commit sha is - f0160e452c790c17fcab4d7a94bd696df528f2cc
+Commit message - Merge branch 'master' of git@github.com:SteveSanderson/knockout.git into 1.3
+---> The files with partial_reverts are:-
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 158 is -> 
+{ 57a8279dfa582ae225c299c3a41c234a15f29a4b -> 62e86062dd3cfa9b28f3212ecbd8fe464e7dd385 } is a revert
+{ 291a92cc57e098b7f7fa2cb8730128de44028a19 -> 29cc47d58efc77ec946effec6d34627003190ab1 }
+Partial Revert commits SHA are -> 
+62e86062dd3cfa9b28f3212ecbd8fe464e7dd385 - revert - 29cc47d58efc77ec946effec6d34627003190ab1
+---> The reverted commit sha is - 62e86062dd3cfa9b28f3212ecbd8fe464e7dd385
+Commit message - Updates for Google Closure Compiler script to enclose Knockout with a function wrapper.  Also passes in global window object via wrapper
+---> The original commit sha is - 29cc47d58efc77ec946effec6d34627003190ab1
+Commit message - Merge branch 'master' of https://github.com/greenlaw110/knockout into greenlaw110-master
+
+Conflicts:
+	build/output/knockout-latest.js
+---> The files with partial_reverts are:-
+spec/templatingBehaviors.js
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+src/templating/templating.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 159 is -> 
+{ deeb2e6bd350cee97d1087bfbf5b62e06c0a6a8c -> ec966f8434706466d27a634c533a0d3e8055e7e3 } is a revert
+{ e1eed45609a866a04446c9c4872978334b5d451a -> 0f30933cf03fd162fd19682b2ea2788913c0c4b3 }
+Partial Revert commits SHA are -> 
+ec966f8434706466d27a634c533a0d3e8055e7e3 - revert - 0f30933cf03fd162fd19682b2ea2788913c0c4b3
+---> The reverted commit sha is - ec966f8434706466d27a634c533a0d3e8055e7e3
+Commit message - Allow observableArray.removeAll(undefined) to clear entire array
+---> The original commit sha is - 0f30933cf03fd162fd19682b2ea2788913c0c4b3
+Commit message - Merge branch 'optionsText' of https://github.com/mattwright/knockout into mattwright-optionsText
+---> The files with partial_reverts are:-
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+spec/defaultBindingsBehaviors.js
+src/binding/defaultBindings.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 160 is -> 
+{ 636a0e719a9657fc70ee2cb5b34ffde25e5868ed -> c535afc24a8dece94d02dbca557fca584e28aa83 } is a revert
+{ c535afc24a8dece94d02dbca557fca584e28aa83 -> 418470166e04cf9d8b1e0fe474844515d844b1c8 }
+Partial Revert commits SHA are -> 
+c535afc24a8dece94d02dbca557fca584e28aa83 - revert - 418470166e04cf9d8b1e0fe474844515d844b1c8
+---> The reverted commit sha is - c535afc24a8dece94d02dbca557fca584e28aa83
+Commit message - add test case for polymorphism template name binding and options in template binding
+---> The original commit sha is - 418470166e04cf9d8b1e0fe474844515d844b1c8
+Commit message - Allow optionsText parameter in options binding to accept a function
+to which each value is passed to determine the text
+(cherry picked from commit 392445d2d31e85b7436b5e734a753f09750518f5)
+---> The files with partial_reverts are:-
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+build/version-header.js
+spec/defaultBindingsBehaviors.js
+spec/templatingBehaviors.js
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+src/templating/templating.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 161 is -> 
+{ 5a35753be7486967038febd12dafeef08b8bea4b -> 920c3f8a41637cc7d553ed9794ce84181429be7f } is a revert
+{ 920c3f8a41637cc7d553ed9794ce84181429be7f -> 0a3720720cad73b6f70ec43edc1fbd1750f51899 }
+Partial Revert commits SHA are -> 
+920c3f8a41637cc7d553ed9794ce84181429be7f - revert - 0a3720720cad73b6f70ec43edc1fbd1750f51899
+---> The reverted commit sha is - 920c3f8a41637cc7d553ed9794ce84181429be7f
+Commit message - Ensure that text/value bindings treat "null" and "undefined" graciously (display in UI as empty string)
+---> The original commit sha is - 0a3720720cad73b6f70ec43edc1fbd1750f51899
+Commit message - Merge branch 'master' of git@github.com:SteveSanderson/knockout.git
+---> The files with partial_reverts are:-
+spec/dependentObservableBehaviors.js
+spec/templatingBehaviors.js
+src/binding/jsonExpressionRewriting.js
+src/subscribables/dependentObservable.js
+src/subscribables/observable.js
+src/templating/templateRewriting.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 162 is -> 
+{ 2f081003b69d19bf1f762d9cac07423038480ee2 -> c648d34e80f895c41b72150161ea97a4e2c5d84c } is a revert
+{ c648d34e80f895c41b72150161ea97a4e2c5d84c -> ca16d293fba19cf9813b0fbbb4166990b3452ded }
+Partial Revert commits SHA are -> 
+c648d34e80f895c41b72150161ea97a4e2c5d84c - revert - ca16d293fba19cf9813b0fbbb4166990b3452ded
+---> The reverted commit sha is - c648d34e80f895c41b72150161ea97a4e2c5d84c
+Commit message - Allow deferred dependency detection for dependentObservables (as per Github issue #15)
+---> The original commit sha is - ca16d293fba19cf9813b0fbbb4166990b3452ded
+Commit message - Merge branch 'master' of https://github.com/aaronblohowiak/knockout into aaronblohowiak-master
+---> The files with partial_reverts are:-
+src/templating/templateRewriting.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 163 is -> 
+{ 3f5e77ef889da556d5294dd0e47ce30fcb56a8a3 -> 2e9044c17118222b8f2fb6f215e156e545cea6ad } is a revert
+{ e815d4f0c21eddaf55aea74b0810bd9f710445ae -> 5c1340be7639bea9fd3f71bbe1d839fea0b23d00 }
+Partial Revert commits SHA are -> 
+2e9044c17118222b8f2fb6f215e156e545cea6ad - revert - 5c1340be7639bea9fd3f71bbe1d839fea0b23d00
+---> The reverted commit sha is - 2e9044c17118222b8f2fb6f215e156e545cea6ad
+Commit message - JSON posting now respects both Rails and ASP.NET MVC-style authentication tokens by default (others are configurable)
+---> The original commit sha is - 5c1340be7639bea9fd3f71bbe1d839fea0b23d00
+Commit message - Enhanced select box handling and added cart editor example
+
+Signed-off-by: Steve Sanderson <steve@codeville.net>
+---> The files with partial_reverts are:-
+spec/lib/json2.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 164 is -> 
+{ 899cc7598b658fce60bdbe49fa56da208813d35c -> 194341f5ed3790cd9984235d48ad697d3e2b6452 } is a revert
+{ 8117236a4511e1e6e15b783bbee1acd47e77ffd4 -> 79804905428e2c2830702ed14535ce142426b1c2 }
+Partial Revert commits SHA are -> 
+194341f5ed3790cd9984235d48ad697d3e2b6452 - revert - 79804905428e2c2830702ed14535ce142426b1c2
+---> The reverted commit sha is - 194341f5ed3790cd9984235d48ad697d3e2b6452
+Commit message - Shelving work on gridEditor example
+---> The original commit sha is - 79804905428e2c2830702ed14535ce142426b1c2
+Commit message - Remove unwanted file
+---> The files with partial_reverts are:-
+examples/nodeChat.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 165 is -> 
+{ a48fa72c473c4ed0a19fb4a6def66c578c0f5f09 -> 9b8d0aef3e284fa8b2b556507c9ddf641d0bc018 } is a revert
+{ 8117236a4511e1e6e15b783bbee1acd47e77ffd4 -> 79804905428e2c2830702ed14535ce142426b1c2 }
+Partial Revert commits SHA are -> 
+9b8d0aef3e284fa8b2b556507c9ddf641d0bc018 - revert - 79804905428e2c2830702ed14535ce142426b1c2
+---> The reverted commit sha is - 9b8d0aef3e284fa8b2b556507c9ddf641d0bc018
+Commit message - Merge branch 'gridEditorExample'
+---> The original commit sha is - 79804905428e2c2830702ed14535ce142426b1c2
+Commit message - Remove unwanted file
+---> The files with partial_reverts are:-
+examples/nodeChat.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 166 is -> 
+{ 194341f5ed3790cd9984235d48ad697d3e2b6452 -> 58acd66e9b1ce5234b075210ef1f4333ed45bd48 } is a revert
+{ a48fa72c473c4ed0a19fb4a6def66c578c0f5f09 -> 9b8d0aef3e284fa8b2b556507c9ddf641d0bc018 }
+Partial Revert commits SHA are -> 
+58acd66e9b1ce5234b075210ef1f4333ed45bd48 - revert - 9b8d0aef3e284fa8b2b556507c9ddf641d0bc018
+---> The reverted commit sha is - 58acd66e9b1ce5234b075210ef1f4333ed45bd48
+Commit message - Added "minimum edit script" algorithm
+---> The original commit sha is - 9b8d0aef3e284fa8b2b556507c9ddf641d0bc018
+Commit message - Merge branch 'gridEditorExample'
+---> The files with partial_reverts are:-
+examples/gridEditor.html
+examples/nodeChat.html
+spec/defaultBindingsBehaviors.js
+src/binding/defaultBindings.js
+-----------------------------------------------------------------
+

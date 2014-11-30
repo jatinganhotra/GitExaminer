@@ -1,0 +1,4561 @@
+# of partial cherrypicks = 118
+Partial Cherry-pick diff pair 1 is -> 
+{ 7cd76e6041ac44b3937cf38f8308f94e9e4332a9 -> f706d5becaf1cf897c82fe77e403d19d92745bc2 } is a cherrypick
+{ 09807ace8328476d965d178e6c6852569ba26584 -> 579541bb3e771a8b5668b7bc161d8c8e202894c1 }
+Partial Cherry-pick commits SHA are -> 
+f706d5becaf1cf897c82fe77e403d19d92745bc2 - cherrypick - 579541bb3e771a8b5668b7bc161d8c8e202894c1
+---> The cherrypicked commit sha is - f706d5becaf1cf897c82fe77e403d19d92745bc2
+Commit message - Add a few more methods on PolymerElement
+---> The original commit sha is - 579541bb3e771a8b5668b7bc161d8c8e202894c1
+Commit message - Add a license and an extern for the fire method
+
+This change is by jlklein@google.com
+---> The files with partial_cherrypicks are:-
+.bowerrc
+.gitignore
+README.md
+banner.txt
+bower.json
+build.bat
+build.json
+build.log
+build/polymer.html
+codereview.settings
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+index.html
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/mdv.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/polymer.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/queue.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/auto-binding.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/import.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/loader.js
+src/lib/styleloader.js
+src/lib/super.js
+src/lib/url.js
+src/polymer.js
+src/system/compat.js
+src/system/microtask.js
+src/system/module.js
+src/system/patches-mdv.js
+src/system/unresolved.js
+test/html/async.html
+test/html/attr-mustache.html
+test/html/auto-binding.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/bindProperties.html
+test/html/callbacks.html
+test/html/computedProperties.html
+test/html/ctor.html
+test/html/domready.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-instanceOfType.html
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers-host.html
+test/html/event-handlers-light.html
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/forceReady.html
+test/html/import-element-nopolymer.html
+test/html/import-infer-name.html
+test/html/import-warning.html
+test/html/infer-name-script.js
+test/html/infer-name.html
+test/html/layout.html
+test/html/loader-deduplicate.html
+test/html/mdv-shadow.html
+test/html/mdv-syntax.html
+test/html/mdv-tests/polymer-expressions-tests.js
+test/html/mdv-tests/template-binding-tests.js
+test/html/platform-less-import.html
+test/html/platform-less.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/resolve/x-resolve-import.html
+test/html/resolvePath.html
+test/html/shadowroots.html
+test/html/styling/recursive-style-import.html
+test/html/styling/rules/ce-style-import.html
+test/html/styling/rules/coloring/border.css
+test/html/styling/rules/coloring/colors.css
+test/html/styling/rules/coloring/foreground.css
+test/html/styling/rules/colors.css
+test/html/styling/rules/sizing.css
+test/html/styling/rules/sizing/height.css
+test/html/styling/rules/sizing/hw.css
+test/html/styling/rules/sizing/width.css
+test/html/styling/rules/translation.css
+test/html/styling/rules/translations/2d.css
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/unresolved.html
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-attr-template-import.html
+test/html/template-attr-template.html
+test/html/template-distribute-dynamic.html
+test/html/template-repeat-wrappers.html
+test/html/unbind.html
+test/html/url.html
+test/index.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/events.js
+test/js/marshall.js
+test/js/oop.js
+test/js/paths.js
+test/js/register.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ 6dd5ffb6d1f83e82044aea7d45cf5f53c6493500 -> a23ea1e683c346805b679f3fe04f7bb671321ed4 } is a cherrypick
+{ 32a871f66b8b2e757c6970e45da26ee59477d61b -> 0d8e4cb1b0c0c0ea46d688c16a003ee956e1310b }
+Partial Cherry-pick commits SHA are -> 
+a23ea1e683c346805b679f3fe04f7bb671321ed4 - cherrypick - 0d8e4cb1b0c0c0ea46d688c16a003ee956e1310b
+---> The cherrypicked commit sha is - a23ea1e683c346805b679f3fe04f7bb671321ed4
+Commit message - Merge pull request #105 from Polymer/platform_88_take2
+
+blacklist problematic DOM property names
+---> The original commit sha is - 0d8e4cb1b0c0c0ea46d688c16a003ee956e1310b
+Commit message - Prevent rewriting # with document query params
+
+All urls will use baseUrl to setup a "clean" URL object
+Fixes #110 Don't bleed document search param into hash-only links
+---> The files with partial_cherrypicks are:-
+.bowerrc
+.gitignore
+banner.txt
+bower.json
+build.bat
+build.json
+build.log
+build/polymer.html
+codereview.settings
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+index.html
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/mdv.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/polymer.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/queue.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/auto-binding.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/import.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/loader.js
+src/lib/styleloader.js
+src/lib/super.js
+src/polymer.js
+src/system/compat.js
+src/system/microtask.js
+src/system/module.js
+src/system/patches-mdv.js
+src/system/unresolved.js
+test/html/async.html
+test/html/attr-mustache.html
+test/html/auto-binding.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/bindProperties.html
+test/html/callbacks.html
+test/html/computedProperties.html
+test/html/ctor.html
+test/html/domready.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-instanceOfType.html
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers-host.html
+test/html/event-handlers-light.html
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/forceReady.html
+test/html/import-element-nopolymer.html
+test/html/import-infer-name.html
+test/html/import-warning.html
+test/html/infer-name-script.js
+test/html/infer-name.html
+test/html/layout.html
+test/html/loader-deduplicate.html
+test/html/mdv-shadow.html
+test/html/mdv-syntax.html
+test/html/mdv-tests/polymer-expressions-tests.js
+test/html/mdv-tests/template-binding-tests.js
+test/html/platform-less-import.html
+test/html/platform-less.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/resolve/x-resolve-import.html
+test/html/resolvePath.html
+test/html/shadowroots.html
+test/html/styling/recursive-style-import.html
+test/html/styling/rules/ce-style-import.html
+test/html/styling/rules/coloring/border.css
+test/html/styling/rules/coloring/colors.css
+test/html/styling/rules/coloring/foreground.css
+test/html/styling/rules/colors.css
+test/html/styling/rules/sizing.css
+test/html/styling/rules/sizing/height.css
+test/html/styling/rules/sizing/hw.css
+test/html/styling/rules/sizing/width.css
+test/html/styling/rules/translation.css
+test/html/styling/rules/translations/2d.css
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/unresolved.html
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-attr-template-import.html
+test/html/template-attr-template.html
+test/html/template-distribute-dynamic.html
+test/html/template-repeat-wrappers.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/paths.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/js/utils.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 254e77a62480fd6b77946e62945b79506e934beb -> 6dd5ffb6d1f83e82044aea7d45cf5f53c6493500 } is a cherrypick
+{ fc3b80ad33ba2e0471c23840d724dc7e2f502812 -> 32a871f66b8b2e757c6970e45da26ee59477d61b }
+Partial Cherry-pick commits SHA are -> 
+6dd5ffb6d1f83e82044aea7d45cf5f53c6493500 - cherrypick - 32a871f66b8b2e757c6970e45da26ee59477d61b
+---> The cherrypicked commit sha is - 6dd5ffb6d1f83e82044aea7d45cf5f53c6493500
+Commit message - update build for release
+---> The original commit sha is - 32a871f66b8b2e757c6970e45da26ee59477d61b
+Commit message - Merge pull request #778 from jodytate/patch-1
+
+add space between "go" and "to"
+---> The files with partial_cherrypicks are:-
+.bowerrc
+.gitignore
+banner.txt
+bower.json
+build.bat
+build.json
+build.log
+build/polymer.html
+codereview.settings
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+index.html
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/mdv.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/polymer.js
+src/declaration/prototype.js
+src/declaration/queue.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/auto-binding.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/import.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/loader.js
+src/lib/styleloader.js
+src/lib/super.js
+src/polymer.js
+src/system/compat.js
+src/system/microtask.js
+src/system/module.js
+src/system/patches-mdv.js
+src/system/unresolved.js
+test/html/async.html
+test/html/attr-mustache.html
+test/html/auto-binding.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/bindProperties.html
+test/html/callbacks.html
+test/html/computedProperties.html
+test/html/ctor.html
+test/html/domready.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-instanceOfType.html
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers-host.html
+test/html/event-handlers-light.html
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/forceReady.html
+test/html/import-element-nopolymer.html
+test/html/import-infer-name.html
+test/html/import-warning.html
+test/html/infer-name-script.js
+test/html/infer-name.html
+test/html/layout.html
+test/html/loader-deduplicate.html
+test/html/mdv-shadow.html
+test/html/mdv-syntax.html
+test/html/mdv-tests/polymer-expressions-tests.js
+test/html/mdv-tests/template-binding-tests.js
+test/html/platform-less-import.html
+test/html/platform-less.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/resolve/x-resolve-import.html
+test/html/resolvePath.html
+test/html/shadowroots.html
+test/html/styling/recursive-style-import.html
+test/html/styling/rules/ce-style-import.html
+test/html/styling/rules/coloring/border.css
+test/html/styling/rules/coloring/colors.css
+test/html/styling/rules/coloring/foreground.css
+test/html/styling/rules/colors.css
+test/html/styling/rules/sizing.css
+test/html/styling/rules/sizing/height.css
+test/html/styling/rules/sizing/hw.css
+test/html/styling/rules/sizing/width.css
+test/html/styling/rules/translation.css
+test/html/styling/rules/translations/2d.css
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/unresolved.html
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-attr-template-import.html
+test/html/template-attr-template.html
+test/html/template-distribute-dynamic.html
+test/html/template-repeat-wrappers.html
+test/html/unbind.html
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/paths.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/js/utils.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ a5cac52ddc43ab36d6d005899ebe6280469fc2d1 -> 2f656f32eae5e71d74d549efdcf96969778c134c } is a cherrypick
+{ b663d866f8ee51cac8ae0d4d8842abdee03ff206 -> 3ccc2add98f5c55c4de6e584e5e5f4238c9eff94 }
+Partial Cherry-pick commits SHA are -> 
+2f656f32eae5e71d74d549efdcf96969778c134c - cherrypick - 3ccc2add98f5c55c4de6e584e5e5f4238c9eff94
+---> The cherrypicked commit sha is - 2f656f32eae5e71d74d549efdcf96969778c134c
+Commit message - update build for release
+---> The original commit sha is - 3ccc2add98f5c55c4de6e584e5e5f4238c9eff94
+Commit message - Update layout.html to dev version.
+---> The files with partial_cherrypicks are:-
+.gitignore
+README.md
+banner.txt
+bower.json
+build.bat
+build.json
+build.log
+build/polymer.html
+codereview.settings
+docs.json
+gruntfile.js
+index.html
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/mdv.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/polymer.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/queue.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/auto-binding.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/import.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/loader.js
+src/lib/styleloader.js
+src/lib/super.js
+src/lib/url.js
+src/polymer.js
+src/system/compat.js
+src/system/microtask.js
+src/system/module.js
+src/system/patches-mdv.js
+src/system/unresolved.js
+test/html/async.html
+test/html/attr-mustache.html
+test/html/auto-binding.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/bindProperties.html
+test/html/callbacks.html
+test/html/computedProperties.html
+test/html/ctor.html
+test/html/domready.html
+test/html/element-import.html
+test/html/element-registration.html
+test/html/element-script.html
+test/html/event-handlers-host.html
+test/html/event-handlers-light.html
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/infer-name.html
+test/html/loader-deduplicate.html
+test/html/mdv-shadow.html
+test/html/mdv-syntax.html
+test/html/mdv-tests/polymer-expressions-tests.js
+test/html/mdv-tests/template-binding-tests.js
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/resolvePath.html
+test/html/shadowroots.html
+test/html/styling/recursive-style-import.html
+test/html/styling/rules/ce-style-import.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/unresolved.html
+test/html/take-attributes.html
+test/html/template-attr-template.html
+test/html/template-distribute-dynamic.html
+test/html/template-repeat-wrappers.html
+test/html/unbind.html
+test/html/url.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/paths.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/js/utils.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/styling/host.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ e7f367abbd98e473b6621ff775b1baed542439bc -> fb896140ed9b3b886e602c7902c944afa5c937fe } is a cherrypick
+{ 584d899dadc2f12af97b1dd60953924b848ebcf8 -> 946032d3c9b6b33325020efd1d47fa2492c6cddd }
+Partial Cherry-pick commits SHA are -> 
+fb896140ed9b3b886e602c7902c944afa5c937fe - cherrypick - 946032d3c9b6b33325020efd1d47fa2492c6cddd
+---> The cherrypicked commit sha is - fb896140ed9b3b886e602c7902c944afa5c937fe
+Commit message - port tests from platform repo
+---> The original commit sha is - 946032d3c9b6b33325020efd1d47fa2492c6cddd
+Commit message - Merge branch 'master' into platform-less
+---> The files with partial_cherrypicks are:-
+src/system/compat.js
+src/system/loader.js
+src/system/microtask.js
+src/system/module.js
+src/system/patches-mdv.js
+src/system/platform-begin-if.js
+src/system/platform-end-if.js
+src/system/styleloader.js
+src/system/unresolved.js
+src/system/url.js
+test/html/loader-deduplicate.html
+test/html/styling/recursive-style-import.html
+test/html/styling/rules/ce-style-import.html
+test/html/styling/rules/coloring/border.css
+test/html/styling/rules/coloring/colors.css
+test/html/styling/rules/coloring/foreground.css
+test/html/styling/rules/colors.css
+test/html/styling/rules/sizing.css
+test/html/styling/rules/sizing/height.css
+test/html/styling/rules/sizing/hw.css
+test/html/styling/rules/sizing/width.css
+test/html/styling/rules/translation.css
+test/html/styling/rules/translations/2d.css
+test/html/url.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ b4187089f8225362f47b4e5eed595b5ebb4dc276 -> a14c2eff6ec222755a3b4d7a84ab940a3ae0b979 } is a cherrypick
+{ 5199f21c336701491b5cd752b6da1b009ad4caf7 -> 3f132ef5d1d84cdddce0690af6085f32414ceb54 }
+Partial Cherry-pick commits SHA are -> 
+a14c2eff6ec222755a3b4d7a84ab940a3ae0b979 - cherrypick - 3f132ef5d1d84cdddce0690af6085f32414ceb54
+---> The cherrypicked commit sha is - a14c2eff6ec222755a3b4d7a84ab940a3ae0b979
+Commit message - remove out of date comments
+---> The original commit sha is - 3f132ef5d1d84cdddce0690af6085f32414ceb54
+Commit message - Use the new per-element gesture registration
+---> The files with partial_cherrypicks are:-
+.gitignore
+README.md
+banner.txt
+bower.json
+build.bat
+build.json
+build.log
+build/polymer.html
+codereview.settings
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+index.html
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/import.js
+src/declaration/mdv.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/polymer.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/queue.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/auto-binding.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/async.html
+test/html/attr-mustache.html
+test/html/auto-binding.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/bindProperties.html
+test/html/callbacks.html
+test/html/computedProperties.html
+test/html/ctor.html
+test/html/domready.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers-host.html
+test/html/event-handlers-light.html
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/import-infer-name.html
+test/html/infer-name.html
+test/html/mdv-shadow.html
+test/html/mdv-syntax.html
+test/html/mdv-tests/polymer-expressions-tests.js
+test/html/mdv-tests/template-binding-tests.js
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/resolve/x-resolve-import.html
+test/html/resolvePath.html
+test/html/shadowroots.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/unresolved.html
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/template-repeat-wrappers.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/paths.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/js/utils.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ 6ad2d610287352433baa407b04cc174631ccb5b5 -> b4187089f8225362f47b4e5eed595b5ebb4dc276 } is a cherrypick
+{ a14c2eff6ec222755a3b4d7a84ab940a3ae0b979 -> 5199f21c336701491b5cd752b6da1b009ad4caf7 }
+Partial Cherry-pick commits SHA are -> 
+b4187089f8225362f47b4e5eed595b5ebb4dc276 - cherrypick - 5199f21c336701491b5cd752b6da1b009ad4caf7
+---> The cherrypicked commit sha is - b4187089f8225362f47b4e5eed595b5ebb4dc276
+Commit message - update build for release
+---> The original commit sha is - 5199f21c336701491b5cd752b6da1b009ad4caf7
+Commit message - update layout.html
+---> The files with partial_cherrypicks are:-
+.gitignore
+README.md
+banner.txt
+bower.json
+build.bat
+build.json
+build.log
+build/polymer.html
+codereview.settings
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+index.html
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/import.js
+src/declaration/mdv.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/polymer.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/queue.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/auto-binding.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/async.html
+test/html/attr-mustache.html
+test/html/auto-binding.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/bindProperties.html
+test/html/callbacks.html
+test/html/computedProperties.html
+test/html/ctor.html
+test/html/domready.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers-host.html
+test/html/event-handlers-light.html
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/import-infer-name.html
+test/html/infer-name.html
+test/html/mdv-shadow.html
+test/html/mdv-syntax.html
+test/html/mdv-tests/polymer-expressions-tests.js
+test/html/mdv-tests/template-binding-tests.js
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/resolve/x-resolve-import.html
+test/html/resolvePath.html
+test/html/shadowroots.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/unresolved.html
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/template-repeat-wrappers.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/paths.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/js/utils.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ 8c5eb579a00998803310bdabba852e931a76b4d7 -> 8dc4d308889d4dd11528fd285549fa303d6e0025 } is a cherrypick
+{ 505ebb217b27f1d4e57dd1ecf5960ce169a3b804 -> 39bb5ffbc978f574111db7c863de3f68a915d777 }
+Partial Cherry-pick commits SHA are -> 
+8dc4d308889d4dd11528fd285549fa303d6e0025 - cherrypick - 39bb5ffbc978f574111db7c863de3f68a915d777
+---> The cherrypicked commit sha is - 8dc4d308889d4dd11528fd285549fa303d6e0025
+Commit message - update build for release
+---> The original commit sha is - 39bb5ffbc978f574111db7c863de3f68a915d777
+Commit message - update build for release
+---> The files with partial_cherrypicks are:-
+.gitignore
+README.md
+banner.txt
+bower.json
+build.bat
+build.json
+build.log
+build/polymer.html
+codereview.settings
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/import.js
+src/declaration/mdv.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/polymer.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/queue.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/auto-binding.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/async.html
+test/html/attr-mustache.html
+test/html/auto-binding.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/computedProperties.html
+test/html/ctor.html
+test/html/domready.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers-host.html
+test/html/event-handlers-light.html
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/import-infer-name.html
+test/html/infer-name.html
+test/html/mdv-shadow.html
+test/html/mdv-syntax.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/resolve/x-resolve-import.html
+test/html/resolvePath.html
+test/html/shadowroots.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/unresolved.html
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/template-repeat-wrappers.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/paths.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/js/utils.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ becc67c115dd63764193c3474c31e2a322d19f73 -> bea0c3995fd3013b2262067d1fd6ada4995f0c5a } is a cherrypick
+{ 26f6a1e5ec59c7b4eb23e7d1869a3e3443714dac -> 32cc3e470e8ed760a9e596a24fe9b3ac2a87737c }
+Partial Cherry-pick commits SHA are -> 
+bea0c3995fd3013b2262067d1fd6ada4995f0c5a - cherrypick - 32cc3e470e8ed760a9e596a24fe9b3ac2a87737c
+---> The cherrypicked commit sha is - bea0c3995fd3013b2262067d1fd6ada4995f0c5a
+Commit message - Allow stamping after 'polymer-ready' by using Polymer.whenPolymerReady instead.
+---> The original commit sha is - 32cc3e470e8ed760a9e596a24fe9b3ac2a87737c
+Commit message - update version for release
+---> The files with partial_cherrypicks are:-
+.gitignore
+README.md
+banner.txt
+bower.json
+build.bat
+build.json
+build.log
+build/polymer.html
+codereview.settings
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/import.js
+src/declaration/mdv.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/polymer.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/queue.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/auto-binding.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/async.html
+test/html/attr-mustache.html
+test/html/auto-binding.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/ctor.html
+test/html/domready.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers-host.html
+test/html/event-handlers-light.html
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/import-infer-name.html
+test/html/infer-name.html
+test/html/mdv-shadow.html
+test/html/mdv-syntax.html
+test/html/mdv-tests/polymer-expressions-tests.js
+test/html/mdv-tests/template-binding-tests.js
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/resolve/x-resolve-import.html
+test/html/resolvePath.html
+test/html/shadowroots.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/unresolved.html
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/template-repeat-wrappers.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/paths.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/js/utils.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 84ff914834cc59bb8398d85d5c84f603555fb3ad -> becc67c115dd63764193c3474c31e2a322d19f73 } is a cherrypick
+{ 5ad7a1a1c8a2aa05a6b26ea1bea9078232805700 -> 26f6a1e5ec59c7b4eb23e7d1869a3e3443714dac }
+Partial Cherry-pick commits SHA are -> 
+becc67c115dd63764193c3474c31e2a322d19f73 - cherrypick - 26f6a1e5ec59c7b4eb23e7d1869a3e3443714dac
+---> The cherrypicked commit sha is - becc67c115dd63764193c3474c31e2a322d19f73
+Commit message - update build for release
+---> The original commit sha is - 26f6a1e5ec59c7b4eb23e7d1869a3e3443714dac
+Commit message - Add fit and fullbleed layout helpers
+---> The files with partial_cherrypicks are:-
+.gitignore
+README.md
+banner.txt
+bower.json
+build.bat
+build.json
+build.log
+build/polymer.html
+codereview.settings
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/import.js
+src/declaration/mdv.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/polymer.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/queue.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/auto-binding.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/async.html
+test/html/attr-mustache.html
+test/html/auto-binding.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/ctor.html
+test/html/domready.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers-host.html
+test/html/event-handlers-light.html
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/import-infer-name.html
+test/html/infer-name.html
+test/html/mdv-shadow.html
+test/html/mdv-syntax.html
+test/html/mdv-tests/polymer-expressions-tests.js
+test/html/mdv-tests/template-binding-tests.js
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/resolve/x-resolve-import.html
+test/html/resolvePath.html
+test/html/shadowroots.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/unresolved.html
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/template-repeat-wrappers.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/paths.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/js/utils.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 1c59018de28902909a957b21847bd5893a8253e7 -> 002393c6cc9683d3a95e0dc3445d348a3c6a49a0 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+002393c6cc9683d3a95e0dc3445d348a3c6a49a0 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 002393c6cc9683d3a95e0dc3445d348a3c6a49a0
+Commit message - freshen build.
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ b740a4288c77d23ed04f41eaab2fd6bcb4ffb104 -> 596025e4dfa2ef4d06e3e3c4622e3ee4af705f6a } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+596025e4dfa2ef4d06e3e3c4622e3ee4af705f6a - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 596025e4dfa2ef4d06e3e3c4622e3ee4af705f6a
+Commit message - README: add ga beacon
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 25e4df27a424ab6eacc12378c1b577e16902d910 -> bb4169c1fdcd5ef57385b3d5d3c1dde78b9b5db1 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+bb4169c1fdcd5ef57385b3d5d3c1dde78b9b5db1 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - bb4169c1fdcd5ef57385b3d5d3c1dde78b9b5db1
+Commit message - freshen builds
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 9607167e2652f3cedf891f6f3af506fd0ea15ad3 -> 70d4b7a89954ad281d4339f80986096de7613d5f } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+70d4b7a89954ad281d4339f80986096de7613d5f - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 70d4b7a89954ad281d4339f80986096de7613d5f
+Commit message - bump version for release
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ 37eea00e13b9f86ab21c85a955585e8e4237e3d2 -> 969fec8bd4dc79fbb57a588ebe3f10b104b5e956 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+969fec8bd4dc79fbb57a588ebe3f10b104b5e956 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 969fec8bd4dc79fbb57a588ebe3f10b104b5e956
+Commit message - 0.1.3 build
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ b1a4e7df0d3f285f4b8116fa92f3d0f1f7528a1b -> a1ff92544542fe3cd3acd07a707f4f45c34003c1 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+a1ff92544542fe3cd3acd07a707f4f45c34003c1 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - a1ff92544542fe3cd3acd07a707f4f45c34003c1
+Commit message - build polymer
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ 75f6ab2396d92d16cc81a4cc7adda51963a75f5f -> 28bb49700744ec8803f2f74f0a4a5f3a44d81e7d } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+28bb49700744ec8803f2f74f0a4a5f3a44d81e7d - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 28bb49700744ec8803f2f74f0a4a5f3a44d81e7d
+Commit message - freshen build
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ a83d5225119082a5ac959f1545a22335c7380e67 -> 72940eb295835ccadf96b9386f791723aa820c42 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+72940eb295835ccadf96b9386f791723aa820c42 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 72940eb295835ccadf96b9386f791723aa820c42
+Commit message - update build for release
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ 6c8b0b948efa33e8756a808775b2f5c6d3101758 -> 02d033d75018eb3d4f30845c38bc57e0741d1099 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+02d033d75018eb3d4f30845c38bc57e0741d1099 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 02d033d75018eb3d4f30845c38bc57e0741d1099
+Commit message - update build.
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ 65c22c34e81b3194bf95479187a0e1c3d34c1b5a -> 2e5e0e5cabca13b595d9da54ea7da27eb9295bc3 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+2e5e0e5cabca13b595d9da54ea7da27eb9295bc3 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 2e5e0e5cabca13b595d9da54ea7da27eb9295bc3
+Commit message - update copyright year
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ 7aaf3624c1659d5227b76f57aa946dcbc4a3ed3f -> 93c7969dd2172680400a67119e0e88dd0886c851 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+93c7969dd2172680400a67119e0e88dd0886c851 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 93c7969dd2172680400a67119e0e88dd0886c851
+Commit message - update builds
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ 965639a159ae89ba4e23beafe70ff5747041e480 -> 8a53defceeffe754e9a7ad41d5a19559f62a272f } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+8a53defceeffe754e9a7ad41d5a19559f62a272f - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 8a53defceeffe754e9a7ad41d5a19559f62a272f
+Commit message - Merge pull request #412 from gdi2290/patch-1
+
+update copyright year
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ c8d852ad4d6f9eac329acc3a68f987ad138d6e97 -> 1552ab6a843d77787f28d19ac3502e3a8a85afd6 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+1552ab6a843d77787f28d19ac3502e3a8a85afd6 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 1552ab6a843d77787f28d19ac3502e3a8a85afd6
+Commit message - fresh build (temporarily include polymer-body.html directly)
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ 3f5380bdd7816a438303fc4136827ba6faa2aacb -> 5d3109d49344acca46d70212760e60f78194186d } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+5d3109d49344acca46d70212760e60f78194186d - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 5d3109d49344acca46d70212760e60f78194186d
+Commit message - freshen build.
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ 83edc6480bd00ec329f0faecc281bb04c67ddd7d -> 9c8a64bf03d2543c6d9d73c3c5eea8e18c2e79e2 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+9c8a64bf03d2543c6d9d73c3c5eea8e18c2e79e2 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 9c8a64bf03d2543c6d9d73c3c5eea8e18c2e79e2
+Commit message - freshen polymer-body.html
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ cc80e6d0d84c268cf0df1d1b981e8e7ab8abf8be -> 84c53d13287fcc0add143bc190ec2c7880082fc3 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+84c53d13287fcc0add143bc190ec2c7880082fc3 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 84c53d13287fcc0add143bc190ec2c7880082fc3
+Commit message - update build for release
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ fd17162990aac1845ba61495d47fb1611cdf5291 -> dc95ed4d1f1f48e82fa73f1b5bdc0b560e9dad85 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+dc95ed4d1f1f48e82fa73f1b5bdc0b560e9dad85 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - dc95ed4d1f1f48e82fa73f1b5bdc0b560e9dad85
+Commit message - freshen
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ 41717280d65c2e6393f7176d2636c302d8d8b8b3 -> 0b7ae8f10fa77bbf08c0ecb926b6b47e3eac232f } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+0b7ae8f10fa77bbf08c0ecb926b6b47e3eac232f - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 0b7ae8f10fa77bbf08c0ecb926b6b47e3eac232f
+Commit message - freshen build.
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ f00f96b52a19bb6841448248e8d45cecc7ffea5e -> 0099639759d5d199b4d0d7d84fee6c74ac6848e4 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+0099639759d5d199b4d0d7d84fee6c74ac6848e4 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 0099639759d5d199b4d0d7d84fee6c74ac6848e4
+Commit message - Update README.md
+
+fixing broken link
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ 8be93c301aa9ebe36723311f65f0d6cb91f2d8f0 -> d2fe5569db47e667603691ee9692e6cc65c0a02a } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+d2fe5569db47e667603691ee9692e6cc65c0a02a - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - d2fe5569db47e667603691ee9692e6cc65c0a02a
+Commit message - Update build for release
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ 62829cb2c9a64463466e217b416a20b96c75ba39 -> 33d04ea9f92a78905ca0acf7057fffddca8cf04c } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+33d04ea9f92a78905ca0acf7057fffddca8cf04c - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 33d04ea9f92a78905ca0acf7057fffddca8cf04c
+Commit message - build
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ c69063271215beec8b84482b5f4d6f8dc726667e -> 23044b02e049d7dc28913a1666342cdbf5868ec8 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+23044b02e049d7dc28913a1666342cdbf5868ec8 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 23044b02e049d7dc28913a1666342cdbf5868ec8
+Commit message - update build.
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ 93a61290e68d000bb768a4085a9c5d59428e716a -> 1da29fa282e9448c2598f6aa8668c1e11558e573 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+1da29fa282e9448c2598f6aa8668c1e11558e573 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 1da29fa282e9448c2598f6aa8668c1e11558e573
+Commit message - rebuild
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ 6aa3be522bcd718a8dc1c4c8e81bb5b82571a60c -> e6dbcef995c4c57915e03d214496ec52974b0162 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+e6dbcef995c4c57915e03d214496ec52974b0162 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - e6dbcef995c4c57915e03d214496ec52974b0162
+Commit message - rebuild
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ 64ec77b2325722b2f921e3c4b50c3e78b4578549 -> 444c16217aee4ea01d528dbc59a69a841f1b1612 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+444c16217aee4ea01d528dbc59a69a841f1b1612 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 444c16217aee4ea01d528dbc59a69a841f1b1612
+Commit message - update build for release
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ efadd4d8307d849055706f0ad5021c009f867857 -> ebae29364a9462c5ba5f89a1a689c9c280d54904 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+ebae29364a9462c5ba5f89a1a689c9c280d54904 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - ebae29364a9462c5ba5f89a1a689c9c280d54904
+Commit message - simplifications
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ e0cf310371b05436ed0704d4b8f98f5c64ee7b46 -> 79929c0f731a11eb3fa2401de400f262764835b1 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+79929c0f731a11eb3fa2401de400f262764835b1 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 79929c0f731a11eb3fa2401de400f262764835b1
+Commit message - update build.
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ 8e8b87ac7bdc7a2de76b55536a5b964d8184f9fa -> f4f72a95bcf9e4e98455632e9bbe8fd88a1eed11 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+f4f72a95bcf9e4e98455632e9bbe8fd88a1eed11 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - f4f72a95bcf9e4e98455632e9bbe8fd88a1eed11
+Commit message - update polymer build with polymer-gestures
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ f245e838bcc6d23d42c79ff7fa9035bbdf6388ec -> c0701d7e63a84a41ff752848abd136b7f779304e } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+c0701d7e63a84a41ff752848abd136b7f779304e - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - c0701d7e63a84a41ff752848abd136b7f779304e
+Commit message - update build
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ 24c48ff7ae443e69dd2ee60b0f23d55753ae96cd -> 66a5113bb9ade8281a2a90291833ec6031b858a6 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+66a5113bb9ade8281a2a90291833ec6031b858a6 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 66a5113bb9ade8281a2a90291833ec6031b858a6
+Commit message - update for 0.2.3 release
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ 8755f9b8e69564936b09d8355cdd7a4e5ecc7077 -> 5ad4e37c70b3c2ad337e1c24a87159f6cd5c636a } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+5ad4e37c70b3c2ad337e1c24a87159f6cd5c636a - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 5ad4e37c70b3c2ad337e1c24a87159f6cd5c636a
+Commit message - update polymer build
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ 65924e792da7d5302aba4b6f26e33c6644bf1ca5 -> e8aa149d824910afe78157f3652533a6111fb7a8 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+e8aa149d824910afe78157f3652533a6111fb7a8 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - e8aa149d824910afe78157f3652533a6111fb7a8
+Commit message - freshen build.
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ 34d96dc75e9ebfd7d6dbf6110ce2de77290c5def -> 9af0d95e01a2ae840cc734f99d747928f03cf440 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+9af0d95e01a2ae840cc734f99d747928f03cf440 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 9af0d95e01a2ae840cc734f99d747928f03cf440
+Commit message - update build
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ dc9cc9e6a7e636a54205afa2d6120e6ae0324fe7 -> 8d1a2c6180abeceff70dac8e96431a1c5f3f0d4c } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+8d1a2c6180abeceff70dac8e96431a1c5f3f0d4c - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 8d1a2c6180abeceff70dac8e96431a1c5f3f0d4c
+Commit message - refresh build
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ a2744fff186950ae1c81ffdbcc4a530043908a13 -> 31f2d533e6089e508cd9db4a88e94fb544c54c01 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+31f2d533e6089e508cd9db4a88e94fb544c54c01 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 31f2d533e6089e508cd9db4a88e94fb544c54c01
+Commit message - Place development comment in better spot.
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ 633a9bbfbdf57b9c78ee6a056eef4831d10b47d6 -> 67bcc6c2be8fe2d12af591f931da8079baddc2c0 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+67bcc6c2be8fe2d12af591f931da8079baddc2c0 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 67bcc6c2be8fe2d12af591f931da8079baddc2c0
+Commit message - update build for release
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ 37aa6de5129fd32a708e2ee53ea431979441364b -> 6c3d920ef566339b1906d6e36484d69272bb3fa5 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+6c3d920ef566339b1906d6e36484d69272bb3fa5 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 6c3d920ef566339b1906d6e36484d69272bb3fa5
+Commit message - update build
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ 7a54a26fe9d3a8f38e137ee1d0ba075bbf483869 -> 9a3955897ae8569adf4c8f339b8248b1a7769594 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+9a3955897ae8569adf4c8f339b8248b1a7769594 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 9a3955897ae8569adf4c8f339b8248b1a7769594
+Commit message - update build
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 49 is -> 
+{ 7fb98dd46146d52cea65f80106a40e5a9dec8b2e -> 8129d08ffe8634584e9a6868f2426d3fecc5f8e5 } is a cherrypick
+{ 19b15de5cba2532a2ccde362757ce5868f90b5f6 -> 5d175407c142f1eff6e1300242370975a940a282 }
+Partial Cherry-pick commits SHA are -> 
+8129d08ffe8634584e9a6868f2426d3fecc5f8e5 - cherrypick - 5d175407c142f1eff6e1300242370975a940a282
+---> The cherrypicked commit sha is - 8129d08ffe8634584e9a6868f2426d3fecc5f8e5
+Commit message - update build
+---> The original commit sha is - 5d175407c142f1eff6e1300242370975a940a282
+Commit message - remove index
+---> The files with partial_cherrypicks are:-
+index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 50 is -> 
+{ a13b13cb029bc9c17f70d0dbb67ff52755697583 -> bb29671d6696da84881d2b307cf20a6643b81f5b } is a cherrypick
+{ 80350b4f272fc2ffa84f93d84c25b14822c93d97 -> 81dc906980b7ad1e81721a948054ae4f4991a1e9 }
+Partial Cherry-pick commits SHA are -> 
+bb29671d6696da84881d2b307cf20a6643b81f5b - cherrypick - 81dc906980b7ad1e81721a948054ae4f4991a1e9
+---> The cherrypicked commit sha is - bb29671d6696da84881d2b307cf20a6643b81f5b
+Commit message - Add layout css to polymer.
+---> The original commit sha is - 81dc906980b7ad1e81721a948054ae4f4991a1e9
+Commit message - Replace layout.html
+---> The files with partial_cherrypicks are:-
+polymer.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 51 is -> 
+{ ebae29364a9462c5ba5f89a1a689c9c280d54904 -> 4815d1632589ecd6c19d8174a001d983f08c9d8d } is a cherrypick
+{ 6c3d920ef566339b1906d6e36484d69272bb3fa5 -> acedc65a3e67cd2a6cb53d18ce90a84b4b215404 }
+Partial Cherry-pick commits SHA are -> 
+4815d1632589ecd6c19d8174a001d983f08c9d8d - cherrypick - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+---> The cherrypicked commit sha is - 4815d1632589ecd6c19d8174a001d983f08c9d8d
+Commit message - when binding reflections are enabled, reflect properly camelCased binding name.
+---> The original commit sha is - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+Commit message - Remove polymer-body
+---> The files with partial_cherrypicks are:-
+polymer-body.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 52 is -> 
+{ 79929c0f731a11eb3fa2401de400f262764835b1 -> 40936c9a81ca293d0424e698094aa7875a3d4169 } is a cherrypick
+{ 6c3d920ef566339b1906d6e36484d69272bb3fa5 -> acedc65a3e67cd2a6cb53d18ce90a84b4b215404 }
+Partial Cherry-pick commits SHA are -> 
+40936c9a81ca293d0424e698094aa7875a3d4169 - cherrypick - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+---> The cherrypicked commit sha is - 40936c9a81ca293d0424e698094aa7875a3d4169
+Commit message - Use Observer.bindToInstance's callback to resolve binding's initial value.
+---> The original commit sha is - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+Commit message - Remove polymer-body
+---> The files with partial_cherrypicks are:-
+polymer-body.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 53 is -> 
+{ f4f72a95bcf9e4e98455632e9bbe8fd88a1eed11 -> 327aa5b91eed10935cfb29eac11428855141d33a } is a cherrypick
+{ 6c3d920ef566339b1906d6e36484d69272bb3fa5 -> acedc65a3e67cd2a6cb53d18ce90a84b4b215404 }
+Partial Cherry-pick commits SHA are -> 
+327aa5b91eed10935cfb29eac11428855141d33a - cherrypick - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+---> The cherrypicked commit sha is - 327aa5b91eed10935cfb29eac11428855141d33a
+Commit message - Correct test to work with native HTMLImports.
+---> The original commit sha is - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+Commit message - Remove polymer-body
+---> The files with partial_cherrypicks are:-
+polymer-body.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 54 is -> 
+{ c0701d7e63a84a41ff752848abd136b7f779304e -> edf3c71957f26a59afcb23419adb7aceca478352 } is a cherrypick
+{ 6c3d920ef566339b1906d6e36484d69272bb3fa5 -> acedc65a3e67cd2a6cb53d18ce90a84b4b215404 }
+Partial Cherry-pick commits SHA are -> 
+edf3c71957f26a59afcb23419adb7aceca478352 - cherrypick - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+---> The cherrypicked commit sha is - edf3c71957f26a59afcb23419adb7aceca478352
+Commit message - Wait on bind/shadowRoot reordering until https://github.com/Polymer/ShadowDOM/issues/420 is fixed.
+---> The original commit sha is - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+Commit message - Remove polymer-body
+---> The files with partial_cherrypicks are:-
+polymer-body.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 55 is -> 
+{ 66a5113bb9ade8281a2a90291833ec6031b858a6 -> ebcdc0a41d559290a8688e1c05bdd6e187332ad3 } is a cherrypick
+{ 6c3d920ef566339b1906d6e36484d69272bb3fa5 -> acedc65a3e67cd2a6cb53d18ce90a84b4b215404 }
+Partial Cherry-pick commits SHA are -> 
+ebcdc0a41d559290a8688e1c05bdd6e187332ad3 - cherrypick - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+---> The cherrypicked commit sha is - ebcdc0a41d559290a8688e1c05bdd6e187332ad3
+Commit message - Fixes an issue with removing elements without property observers from dom; close property observers only if any exist
+---> The original commit sha is - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+Commit message - Remove polymer-body
+---> The files with partial_cherrypicks are:-
+polymer-body.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 56 is -> 
+{ 5ad4e37c70b3c2ad337e1c24a87159f6cd5c636a -> 75434eecd2de9b6d2a920e753b80540cec877380 } is a cherrypick
+{ 6c3d920ef566339b1906d6e36484d69272bb3fa5 -> acedc65a3e67cd2a6cb53d18ce90a84b4b215404 }
+Partial Cherry-pick commits SHA are -> 
+75434eecd2de9b6d2a920e753b80540cec877380 - cherrypick - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+---> The cherrypicked commit sha is - 75434eecd2de9b6d2a920e753b80540cec877380
+Commit message - remove dead tests.
+---> The original commit sha is - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+Commit message - Remove polymer-body
+---> The files with partial_cherrypicks are:-
+polymer-body.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 57 is -> 
+{ e8aa149d824910afe78157f3652533a6111fb7a8 -> f5d5ee20a788a986ff167fead004e3c363b66562 } is a cherrypick
+{ 6c3d920ef566339b1906d6e36484d69272bb3fa5 -> acedc65a3e67cd2a6cb53d18ce90a84b4b215404 }
+Partial Cherry-pick commits SHA are -> 
+f5d5ee20a788a986ff167fead004e3c363b66562 - cherrypick - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+---> The cherrypicked commit sha is - f5d5ee20a788a986ff167fead004e3c363b66562
+Commit message - Move declarative event handling into polymer-dev
+
+R=sorvell
+BUG=
+
+Review URL: https://codereview.appspot.com/95740044
+---> The original commit sha is - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+Commit message - Remove polymer-body
+---> The files with partial_cherrypicks are:-
+polymer-body.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 58 is -> 
+{ 9af0d95e01a2ae840cc734f99d747928f03cf440 -> 8143f0d91c5e62edd2ecfffe9b2bfe61d7b3ade6 } is a cherrypick
+{ 6c3d920ef566339b1906d6e36484d69272bb3fa5 -> acedc65a3e67cd2a6cb53d18ce90a84b4b215404 }
+Partial Cherry-pick commits SHA are -> 
+8143f0d91c5e62edd2ecfffe9b2bfe61d7b3ade6 - cherrypick - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+---> The cherrypicked commit sha is - 8143f0d91c5e62edd2ecfffe9b2bfe61d7b3ade6
+Commit message - add polymer-expressions and polymer-gestures as bower dependencies
+---> The original commit sha is - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+Commit message - Remove polymer-body
+---> The files with partial_cherrypicks are:-
+polymer-body.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 59 is -> 
+{ 8d1a2c6180abeceff70dac8e96431a1c5f3f0d4c -> 437dfd120e82367d1fd59039f7ee04a5aa0d228b } is a cherrypick
+{ 6c3d920ef566339b1906d6e36484d69272bb3fa5 -> acedc65a3e67cd2a6cb53d18ce90a84b4b215404 }
+Partial Cherry-pick commits SHA are -> 
+437dfd120e82367d1fd59039f7ee04a5aa0d228b - cherrypick - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+---> The cherrypicked commit sha is - 437dfd120e82367d1fd59039f7ee04a5aa0d228b
+Commit message - Fork TemplateBinding tests with SD polyfill wrapped window
+---> The original commit sha is - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+Commit message - Remove polymer-body
+---> The files with partial_cherrypicks are:-
+polymer-body.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 60 is -> 
+{ 8f1034169095ad1530c798bc38a5c6b330d51dc8 -> 08a5ba2962c7fb65ddc9f70dd250f7cca46b74aa } is a cherrypick
+{ 6c3d920ef566339b1906d6e36484d69272bb3fa5 -> acedc65a3e67cd2a6cb53d18ce90a84b4b215404 }
+Partial Cherry-pick commits SHA are -> 
+08a5ba2962c7fb65ddc9f70dd250f7cca46b74aa - cherrypick - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+---> The cherrypicked commit sha is - 08a5ba2962c7fb65ddc9f70dd250f7cca46b74aa
+Commit message - Output ascii safe builds for non unicode environments
+
+Fixes #495
+---> The original commit sha is - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+Commit message - Remove polymer-body
+---> The files with partial_cherrypicks are:-
+polymer-body.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 61 is -> 
+{ 67bcc6c2be8fe2d12af591f931da8079baddc2c0 -> 98aefa22035aa75db49a5ee7e588c314545914cf } is a cherrypick
+{ 6c3d920ef566339b1906d6e36484d69272bb3fa5 -> acedc65a3e67cd2a6cb53d18ce90a84b4b215404 }
+Partial Cherry-pick commits SHA are -> 
+98aefa22035aa75db49a5ee7e588c314545914cf - cherrypick - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+---> The cherrypicked commit sha is - 98aefa22035aa75db49a5ee7e588c314545914cf
+Commit message - delegate publish-default value selection to publishProperties by supplying an empty 'descriptor'
+---> The original commit sha is - acedc65a3e67cd2a6cb53d18ce90a84b4b215404
+Commit message - Remove polymer-body
+---> The files with partial_cherrypicks are:-
+polymer-body.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 62 is -> 
+{ 34d96dc75e9ebfd7d6dbf6110ce2de77290c5def -> 9af0d95e01a2ae840cc734f99d747928f03cf440 } is a cherrypick
+{ dc9cc9e6a7e636a54205afa2d6120e6ae0324fe7 -> 8d1a2c6180abeceff70dac8e96431a1c5f3f0d4c }
+Partial Cherry-pick commits SHA are -> 
+9af0d95e01a2ae840cc734f99d747928f03cf440 - cherrypick - 8d1a2c6180abeceff70dac8e96431a1c5f3f0d4c
+---> The cherrypicked commit sha is - 9af0d95e01a2ae840cc734f99d747928f03cf440
+Commit message - update build
+---> The original commit sha is - 8d1a2c6180abeceff70dac8e96431a1c5f3f0d4c
+Commit message - refresh build
+---> The files with partial_cherrypicks are:-
+.gitignore
+AUTHORS
+CONTRIBUTING.md
+LICENSE
+PATENTS
+README.md
+banner.txt
+build.bat
+build.json
+build.log
+build/polymer.html
+codereview.settings
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+index.html
+package.json
+polymer-body.html
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/import.js
+src/declaration/mdv.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/polymer.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/queue.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer-body.html
+src/polymer.js
+test/html/async.html
+test/html/attr-mustache.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/ctor.html
+test/html/domready.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers-host.html
+test/html/event-handlers-light.html
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/import-infer-name.html
+test/html/infer-name.html
+test/html/mdv-shadow.html
+test/html/mdv-syntax.html
+test/html/polymer-body.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/resolve/x-resolve-import.html
+test/html/resolvePath.html
+test/html/shadowroots.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/unresolved.html
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/template-repeat-wrappers.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/paths.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/js/utils.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 63 is -> 
+{ 5d3109d49344acca46d70212760e60f78194186d -> 83edc6480bd00ec329f0faecc281bb04c67ddd7d } is a cherrypick
+{ 9c8a64bf03d2543c6d9d73c3c5eea8e18c2e79e2 -> 2731859b14b2708e029213a4be59fef8089723dd }
+Partial Cherry-pick commits SHA are -> 
+83edc6480bd00ec329f0faecc281bb04c67ddd7d - cherrypick - 2731859b14b2708e029213a4be59fef8089723dd
+---> The cherrypicked commit sha is - 83edc6480bd00ec329f0faecc281bb04c67ddd7d
+Commit message - polymer-body must be registered last so it can use other elements
+mixin user provided data directly into polymer-body's prototype.
+---> The original commit sha is - 2731859b14b2708e029213a4be59fef8089723dd
+Commit message - fix usage of URL object.
+---> The files with partial_cherrypicks are:-
+.gitignore
+LICENSE
+README.md
+bower.json
+build.bat
+build.json
+build.log
+build/polymer.html
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+index.html
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/import.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/polymer.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/queue.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer-body.html
+src/polymer.js
+test/html/async.html
+test/html/attr-mustache.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers-host.html
+test/html/event-handlers-light.html
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/mdv-syntax.html
+test/html/parser-rules-import.html
+test/html/parser-rules.html
+test/html/polymer-body.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/resolve/x-resolve-import.html
+test/html/resolvePath.html
+test/html/shadowroots.html
+test/html/styling/apply-reset-styles.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/unresolved.html
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/paths.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/js/utils.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 64 is -> 
+{ 3f5380bdd7816a438303fc4136827ba6faa2aacb -> 5d3109d49344acca46d70212760e60f78194186d } is a cherrypick
+{ 83edc6480bd00ec329f0faecc281bb04c67ddd7d -> 9c8a64bf03d2543c6d9d73c3c5eea8e18c2e79e2 }
+Partial Cherry-pick commits SHA are -> 
+5d3109d49344acca46d70212760e60f78194186d - cherrypick - 9c8a64bf03d2543c6d9d73c3c5eea8e18c2e79e2
+---> The cherrypicked commit sha is - 5d3109d49344acca46d70212760e60f78194186d
+Commit message - freshen build.
+---> The original commit sha is - 9c8a64bf03d2543c6d9d73c3c5eea8e18c2e79e2
+Commit message - freshen polymer-body.html
+---> The files with partial_cherrypicks are:-
+.gitignore
+LICENSE
+README.md
+bower.json
+build.bat
+build.json
+build.log
+build/polymer.html
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+index.html
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/import.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/polymer.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/queue.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/async.html
+test/html/attr-mustache.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers-host.html
+test/html/event-handlers-light.html
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/mdv-syntax.html
+test/html/parser-rules-import.html
+test/html/parser-rules.html
+test/html/polymer-body.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/resolve/x-resolve-import.html
+test/html/resolvePath.html
+test/html/shadowroots.html
+test/html/styling/apply-reset-styles.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/unresolved.html
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/paths.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/js/utils.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 65 is -> 
+{ 75f6ab2396d92d16cc81a4cc7adda51963a75f5f -> 28bb49700744ec8803f2f74f0a4a5f3a44d81e7d } is a cherrypick
+{ 27b9c53590ac06cc692b412464b2d81563ccb075 -> d9a57d267dc8d0d780a46ecf922312cb70940700 }
+Partial Cherry-pick commits SHA are -> 
+28bb49700744ec8803f2f74f0a4a5f3a44d81e7d - cherrypick - d9a57d267dc8d0d780a46ecf922312cb70940700
+---> The cherrypicked commit sha is - 28bb49700744ec8803f2f74f0a4a5f3a44d81e7d
+Commit message - freshen build
+---> The original commit sha is - d9a57d267dc8d0d780a46ecf922312cb70940700
+Commit message - fix typo and update tests.
+---> The files with partial_cherrypicks are:-
+test/html/path-resolver.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 66 is -> 
+{ a83d5225119082a5ac959f1545a22335c7380e67 -> 72940eb295835ccadf96b9386f791723aa820c42 } is a cherrypick
+{ 27b9c53590ac06cc692b412464b2d81563ccb075 -> d9a57d267dc8d0d780a46ecf922312cb70940700 }
+Partial Cherry-pick commits SHA are -> 
+72940eb295835ccadf96b9386f791723aa820c42 - cherrypick - d9a57d267dc8d0d780a46ecf922312cb70940700
+---> The cherrypicked commit sha is - 72940eb295835ccadf96b9386f791723aa820c42
+Commit message - update build for release
+---> The original commit sha is - d9a57d267dc8d0d780a46ecf922312cb70940700
+Commit message - fix typo and update tests.
+---> The files with partial_cherrypicks are:-
+test/html/path-resolver.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 67 is -> 
+{ 6c8b0b948efa33e8756a808775b2f5c6d3101758 -> 02d033d75018eb3d4f30845c38bc57e0741d1099 } is a cherrypick
+{ 27b9c53590ac06cc692b412464b2d81563ccb075 -> d9a57d267dc8d0d780a46ecf922312cb70940700 }
+Partial Cherry-pick commits SHA are -> 
+02d033d75018eb3d4f30845c38bc57e0741d1099 - cherrypick - d9a57d267dc8d0d780a46ecf922312cb70940700
+---> The cherrypicked commit sha is - 02d033d75018eb3d4f30845c38bc57e0741d1099
+Commit message - update build.
+---> The original commit sha is - d9a57d267dc8d0d780a46ecf922312cb70940700
+Commit message - fix typo and update tests.
+---> The files with partial_cherrypicks are:-
+test/html/path-resolver.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 68 is -> 
+{ 634303c3bb5ced9e0e959fdd3e6147f6a4e8afbe -> b1a4e7df0d3f285f4b8116fa92f3d0f1f7528a1b } is a cherrypick
+{ abf17dcaf1d640a0e734cbcef236f526574ebca9 -> 75f6ab2396d92d16cc81a4cc7adda51963a75f5f }
+Partial Cherry-pick commits SHA are -> 
+b1a4e7df0d3f285f4b8116fa92f3d0f1f7528a1b - cherrypick - 75f6ab2396d92d16cc81a4cc7adda51963a75f5f
+---> The cherrypicked commit sha is - b1a4e7df0d3f285f4b8116fa92f3d0f1f7528a1b
+Commit message - `mixinMethod` now installs ‘mixinSuper’ instead of ‘super’ as the special implementation for servicing super-calls from mixin functions, avoiding problems when nested method calls try to invoke `super` … our one mixed-in method that cares (`bind`) now uses `mixinSuper` instead of base `super`
+---> The original commit sha is - 75f6ab2396d92d16cc81a4cc7adda51963a75f5f
+Commit message - Merge branch 'master' into real-imports
+---> The files with partial_cherrypicks are:-
+src/instance/mdv.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 69 is -> 
+{ fbb29e16a1d55ce5dcdaa399dbba6937f394b968 -> 2e875a073887a5f32dc5b434c1ec871e13c8cbee } is a cherrypick
+{ f0ae7b8da99ab94bc92f4a62329c67387da7d4c0 -> 9284f432df6577a1ba92eb3be4220e6d2a281ef7 }
+Partial Cherry-pick commits SHA are -> 
+2e875a073887a5f32dc5b434c1ec871e13c8cbee - cherrypick - 9284f432df6577a1ba92eb3be4220e6d2a281ef7
+---> The cherrypicked commit sha is - 2e875a073887a5f32dc5b434c1ec871e13c8cbee
+Commit message - wip: four prevention strategy; polymer-element can wait to register until resources are loaded.
+---> The original commit sha is - 9284f432df6577a1ba92eb3be4220e6d2a281ef7
+Commit message - Merge branch 'master' into real-imports
+---> The files with partial_cherrypicks are:-
+src/declaration/path.js
+src/declaration/prototype.js
+src/declaration/styles.js
+src/lib/dom.js
+src/lib/job.js
+test/html/element-registration.html
+test/html/styling/sheet-order.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 70 is -> 
+{ bb4169c1fdcd5ef57385b3d5d3c1dde78b9b5db1 -> 0b2b40c58bee9e7bec1b1087d58d4a864bf80d64 } is a cherrypick
+{ 70d4b7a89954ad281d4339f80986096de7613d5f -> 0c9e446bc7133986268ee5903d142801e46a39d5 }
+Partial Cherry-pick commits SHA are -> 
+0b2b40c58bee9e7bec1b1087d58d4a864bf80d64 - cherrypick - 0c9e446bc7133986268ee5903d142801e46a39d5
+---> The cherrypicked commit sha is - 0b2b40c58bee9e7bec1b1087d58d4a864bf80d64
+Commit message - run audit log not by default
+---> The original commit sha is - 0c9e446bc7133986268ee5903d142801e46a39d5
+Commit message - Disable failing mdv-syntax test
+
+Re-enable when Polymer/polymer-expressions#19 is resolved.
+---> The files with partial_cherrypicks are:-
+.gitignore
+README.md
+bower.json
+build.bat
+build.json
+build.log
+build/polymer.html
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+index.html
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/attr-mustache.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/mdv-syntax.html
+test/html/parser-rules-import.html
+test/html/parser-rules.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/styling/apply-reset-styles.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/oop.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 71 is -> 
+{ 25e4df27a424ab6eacc12378c1b577e16902d910 -> bb4169c1fdcd5ef57385b3d5d3c1dde78b9b5db1 } is a cherrypick
+{ 9607167e2652f3cedf891f6f3af506fd0ea15ad3 -> 70d4b7a89954ad281d4339f80986096de7613d5f }
+Partial Cherry-pick commits SHA are -> 
+bb4169c1fdcd5ef57385b3d5d3c1dde78b9b5db1 - cherrypick - 70d4b7a89954ad281d4339f80986096de7613d5f
+---> The cherrypicked commit sha is - bb4169c1fdcd5ef57385b3d5d3c1dde78b9b5db1
+Commit message - freshen builds
+---> The original commit sha is - 70d4b7a89954ad281d4339f80986096de7613d5f
+Commit message - bump version for release
+---> The files with partial_cherrypicks are:-
+.gitignore
+README.md
+bower.json
+build.bat
+build.json
+build.log
+build/polymer.html
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+index.html
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/attr-mustache.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/mdv-syntax.html
+test/html/parser-rules-import.html
+test/html/parser-rules.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/styling/apply-reset-styles.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/lib/htmltest.js
+test/lib/karma-include-polymer.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 72 is -> 
+{ fd3b5c25e912540b2a9dbae30c032c5a5e651535 -> e0e49e83670c6e2c6517450dc01a00c1312da5cc } is a cherrypick
+{ 882fd64220d3b1653f81983f53e9b52ed85e75c7 -> c94c8723767b8f173bde0efe22d57781d42decd6 }
+Partial Cherry-pick commits SHA are -> 
+e0e49e83670c6e2c6517450dc01a00c1312da5cc - cherrypick - c94c8723767b8f173bde0efe22d57781d42decd6
+---> The cherrypicked commit sha is - e0e49e83670c6e2c6517450dc01a00c1312da5cc
+Commit message - bump package.json for version
+---> The original commit sha is - c94c8723767b8f173bde0efe22d57781d42decd6
+Commit message - update to reflect changes to observe-js/Node.bind
+ - bind changed to take an observable
+ - CompoundPathObserver changed to CompoundObserver.
+---> The files with partial_cherrypicks are:-
+.gitignore
+bower.json
+build.bat
+build.json
+build.log
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+package.json
+polymer.html
+polymer.js.map
+smoke.html
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/parser-rules-import.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/lib/htmltest.js
+test/lib/mocha-htmltest.js
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 73 is -> 
+{ b1dfe717eef1d7282faa7786d29cee6f332e0135 -> fd3b5c25e912540b2a9dbae30c032c5a5e651535 } is a cherrypick
+{ 9245e2d4f3065d76c1bdfc84e6c63a7d6a8757ff -> 882fd64220d3b1653f81983f53e9b52ed85e75c7 }
+Partial Cherry-pick commits SHA are -> 
+fd3b5c25e912540b2a9dbae30c032c5a5e651535 - cherrypick - 882fd64220d3b1653f81983f53e9b52ed85e75c7
+---> The cherrypicked commit sha is - fd3b5c25e912540b2a9dbae30c032c5a5e651535
+Commit message - tap build for release
+---> The original commit sha is - 882fd64220d3b1653f81983f53e9b52ed85e75c7
+Commit message - freshen build.
+---> The files with partial_cherrypicks are:-
+.gitignore
+bower.json
+build.bat
+build.json
+build.log
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+package.json
+polymer.html
+polymer.js.map
+smoke.html
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/parser-rules-import.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/lib/htmltest.js
+test/lib/mocha-htmltest.js
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 74 is -> 
+{ d7b9007249e3074a5bb03ee7d49f980239bf7ce1 -> d4096e96c8e95ebeb13fbfa2a6cc6c74d6fa8d93 } is a cherrypick
+{ 2eed39027d5f585211dc1a266406a5feed6e1eb4 -> 387325c6f1cf5d8d3b94e82c6778f856d050d7ee }
+Partial Cherry-pick commits SHA are -> 
+d4096e96c8e95ebeb13fbfa2a6cc6c74d6fa8d93 - cherrypick - 387325c6f1cf5d8d3b94e82c6778f856d050d7ee
+---> The cherrypicked commit sha is - d4096e96c8e95ebeb13fbfa2a6cc6c74d6fa8d93
+Commit message - Remove polymer veiled elements system. Deprecated in favor of using ‘unresolved’ attribute, which is supported via platform.
+---> The original commit sha is - 387325c6f1cf5d8d3b94e82c6778f856d050d7ee
+Commit message - Correct expressions test so it properly uses tokenList filter.
+---> The files with partial_cherrypicks are:-
+.gitignore
+build.bat
+build.json
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+smoke.html
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/attr-mustache.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/mdv-syntax.html
+test/html/parser-rules-import.html
+test/html/parser-rules.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/styling/apply-reset-styles.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/lib/htmltest.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 75 is -> 
+{ 0dfada5fce6e245b11559e0dea94e058f2a8c693 -> d6f839ded8ef7485b5e00b134151140b8791a00e } is a cherrypick
+{ 2eed39027d5f585211dc1a266406a5feed6e1eb4 -> 387325c6f1cf5d8d3b94e82c6778f856d050d7ee }
+Partial Cherry-pick commits SHA are -> 
+d6f839ded8ef7485b5e00b134151140b8791a00e - cherrypick - 387325c6f1cf5d8d3b94e82c6778f856d050d7ee
+---> The cherrypicked commit sha is - d6f839ded8ef7485b5e00b134151140b8791a00e
+Commit message - Add bower.json
+---> The original commit sha is - 387325c6f1cf5d8d3b94e82c6778f856d050d7ee
+Commit message - Correct expressions test so it properly uses tokenList filter.
+---> The files with partial_cherrypicks are:-
+.gitignore
+build.bat
+build.json
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+smoke.html
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/attr-mustache.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/mdv-syntax.html
+test/html/parser-rules-import.html
+test/html/parser-rules.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/styling/apply-reset-styles.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/lib/htmltest.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 76 is -> 
+{ d29e4e59ec1a20070f9344dfda07f649f5bf64a0 -> d7b9007249e3074a5bb03ee7d49f980239bf7ce1 } is a cherrypick
+{ d6f839ded8ef7485b5e00b134151140b8791a00e -> 2eed39027d5f585211dc1a266406a5feed6e1eb4 }
+Partial Cherry-pick commits SHA are -> 
+d7b9007249e3074a5bb03ee7d49f980239bf7ce1 - cherrypick - 2eed39027d5f585211dc1a266406a5feed6e1eb4
+---> The cherrypicked commit sha is - d7b9007249e3074a5bb03ee7d49f980239bf7ce1
+Commit message - freshen (adapt to changes in expression delegate)
+---> The original commit sha is - 2eed39027d5f585211dc1a266406a5feed6e1eb4
+Commit message - remove version from master branch bower.json
+---> The files with partial_cherrypicks are:-
+.gitignore
+build.bat
+build.json
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+smoke.html
+src/api.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/attr-mustache.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/mdv-syntax.html
+test/html/parser-rules-import.html
+test/html/parser-rules.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/styling/apply-reset-styles.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/lib/htmltest.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 77 is -> 
+{ d4096e96c8e95ebeb13fbfa2a6cc6c74d6fa8d93 -> 0dfada5fce6e245b11559e0dea94e058f2a8c693 } is a cherrypick
+{ d6f839ded8ef7485b5e00b134151140b8791a00e -> 2eed39027d5f585211dc1a266406a5feed6e1eb4 }
+Partial Cherry-pick commits SHA are -> 
+0dfada5fce6e245b11559e0dea94e058f2a8c693 - cherrypick - 2eed39027d5f585211dc1a266406a5feed6e1eb4
+---> The cherrypicked commit sha is - 0dfada5fce6e245b11559e0dea94e058f2a8c693
+Commit message - update bower.json to point to platform#master
+---> The original commit sha is - 2eed39027d5f585211dc1a266406a5feed6e1eb4
+Commit message - remove version from master branch bower.json
+---> The files with partial_cherrypicks are:-
+.gitignore
+build.bat
+build.json
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+smoke.html
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/attr-mustache.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/mdv-syntax.html
+test/html/parser-rules-import.html
+test/html/parser-rules.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/styling/apply-reset-styles.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/lib/htmltest.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 78 is -> 
+{ d7b9007249e3074a5bb03ee7d49f980239bf7ce1 -> d4096e96c8e95ebeb13fbfa2a6cc6c74d6fa8d93 } is a cherrypick
+{ 0dfada5fce6e245b11559e0dea94e058f2a8c693 -> d6f839ded8ef7485b5e00b134151140b8791a00e }
+Partial Cherry-pick commits SHA are -> 
+d4096e96c8e95ebeb13fbfa2a6cc6c74d6fa8d93 - cherrypick - d6f839ded8ef7485b5e00b134151140b8791a00e
+---> The cherrypicked commit sha is - d4096e96c8e95ebeb13fbfa2a6cc6c74d6fa8d93
+Commit message - Remove polymer veiled elements system. Deprecated in favor of using ‘unresolved’ attribute, which is supported via platform.
+---> The original commit sha is - d6f839ded8ef7485b5e00b134151140b8791a00e
+Commit message - Add bower.json
+---> The files with partial_cherrypicks are:-
+.gitignore
+build.bat
+build.json
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+smoke.html
+src/api.js
+src/boot.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/attr-mustache.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/mdv-syntax.html
+test/html/parser-rules-import.html
+test/html/parser-rules.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/styling/apply-reset-styles.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/js/styling.js
+test/lib/htmltest.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 79 is -> 
+{ d29e4e59ec1a20070f9344dfda07f649f5bf64a0 -> d7b9007249e3074a5bb03ee7d49f980239bf7ce1 } is a cherrypick
+{ d4096e96c8e95ebeb13fbfa2a6cc6c74d6fa8d93 -> 0dfada5fce6e245b11559e0dea94e058f2a8c693 }
+Partial Cherry-pick commits SHA are -> 
+d7b9007249e3074a5bb03ee7d49f980239bf7ce1 - cherrypick - 0dfada5fce6e245b11559e0dea94e058f2a8c693
+---> The cherrypicked commit sha is - d7b9007249e3074a5bb03ee7d49f980239bf7ce1
+Commit message - freshen (adapt to changes in expression delegate)
+---> The original commit sha is - 0dfada5fce6e245b11559e0dea94e058f2a8c693
+Commit message - update bower.json to point to platform#master
+---> The files with partial_cherrypicks are:-
+.gitignore
+bower.json
+build.bat
+build.json
+conf/karma.conf.js
+conf/mocha.conf.js
+docs.json
+gruntfile.js
+package.json
+polymer.html
+polymer.js
+polymer.js.map
+smoke.html
+src/api.js
+src/declaration/attributes.js
+src/declaration/events.js
+src/declaration/path.js
+src/declaration/polymer-element.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/declaration/styles.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/events.js
+src/instance/mdv.js
+src/instance/properties.js
+src/instance/styles.js
+src/instance/utils.js
+src/lib/deserialize.js
+src/lib/dom.js
+src/lib/job.js
+src/lib/lang.js
+src/lib/super.js
+src/polymer.js
+test/html/attr-mustache.html
+test/html/bind-object-repeat.html
+test/html/bind.html
+test/html/callbacks.html
+test/html/element-import.html
+test/html/element-import/elements.js
+test/html/element-import/import.html
+test/html/element-import/x-quux.js
+test/html/element-registration.html
+test/html/element-script.html
+test/html/element-script/elements.js
+test/html/element-script/x-quux.js
+test/html/event-handlers.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/mdv-syntax.html
+test/html/parser-rules-import.html
+test/html/parser-rules.html
+test/html/prepare.html
+test/html/prop-attr-bind-reflection.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/property-array-changes.html
+test/html/property-changes.html
+test/html/property-observe.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/styling/apply-reset-styles.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/styling/sheet1.css
+test/html/styling/sheet2.css
+test/html/styling/x-sheet-main-doc.html
+test/html/styling/x-sheets.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/unbind.html
+test/js/attrs.js
+test/js/bindMDV.js
+test/js/bindProperties.js
+test/js/events.js
+test/js/marshall.js
+test/js/mdv-syntax.js
+test/js/oop.js
+test/js/prepare.js
+test/js/properties.js
+test/js/register.js
+test/lib/htmltest.js
+test/lib/mocha-htmltest.js
+test/runner.html
+workbench/events/index.html
+workbench/images/star_full.svg
+workbench/mdv/memory-compound.html
+workbench/mdv/memory-manual.html
+workbench/mdv/memory-no-insert.html
+workbench/mdv/memory.html
+workbench/moreSmoke/index.html
+workbench/moreSmoke/x-foo.css
+workbench/null/index.html
+workbench/oldSmoke/index.html
+workbench/oldSmoke/x-bar.html
+workbench/oldSmoke/x-foo.html
+workbench/oldSmoke/x-zot.html
+workbench/oop/class.html
+workbench/oop/extend.html
+workbench/oop/node-class.html
+workbench/oop/plain.html
+workbench/oop/super.html
+workbench/register/register.html
+workbench/register/register_1.html
+workbench/smoke/elements.js
+workbench/smoke/index.html
+workbench/smoke/x-quux.js
+workbench/styling/host.css
+workbench/styling/host.html
+workbench/styling/zim.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 80 is -> 
+{ 78d613311b80f9f90b0b122160223ffdcf88ea47 -> 7863c4f3e4e18827bf983fcd72a7ade5d7b0628d } is a cherrypick
+{ 5388406dd48093e749fa70cb5cc2516488dddb5b -> 93765e63174db0a5657ae2b26d5b8f21aed28d4e }
+Partial Cherry-pick commits SHA are -> 
+7863c4f3e4e18827bf983fcd72a7ade5d7b0628d - cherrypick - 93765e63174db0a5657ae2b26d5b8f21aed28d4e
+---> The cherrypicked commit sha is - 7863c4f3e4e18827bf983fcd72a7ade5d7b0628d
+Commit message - remove extra argument to unbindProperty that was ignored
+---> The original commit sha is - 93765e63174db0a5657ae2b26d5b8f21aed28d4e
+Commit message - Merge pull request #286 from jmesserly/rm_unused_arg
+
+remove extra argument to unbindProperty that was ignored
+---> The files with partial_cherrypicks are:-
+src/instance/properties.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 81 is -> 
+{ 4945dbf6b4dad361abbf5c9148bb02e3a4072b16 -> 247dbb8a4194c07ea1796f79bb2baf81e417f68b } is a cherrypick
+{ 9ff1a0490ac6de2a566385db08b9984500265229 -> 6180e9a247f3cea7fbc4e5bb91be13938bcf798a }
+Partial Cherry-pick commits SHA are -> 
+247dbb8a4194c07ea1796f79bb2baf81e417f68b - cherrypick - 6180e9a247f3cea7fbc4e5bb91be13938bcf798a
+---> The cherrypicked commit sha is - 247dbb8a4194c07ea1796f79bb2baf81e417f68b
+Commit message - enhance bind and callback tests.
+---> The original commit sha is - 6180e9a247f3cea7fbc4e5bb91be13938bcf798a
+Commit message - Merge branch 'master' into ready-if-defaultView
+---> The files with partial_cherrypicks are:-
+test/html/bind.html
+test/html/prepare.html
+test/js/bindMDV.js
+test/js/oop.js
+test/js/prepare.js
+test/js/register.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 82 is -> 
+{ 247dbb8a4194c07ea1796f79bb2baf81e417f68b -> b80495d0586b6cd439f7604adf875fe434daa70f } is a cherrypick
+{ 46904e75b84c1923a0087c0b83e6abdecbec31ab -> 336f635c264b837f133e752e6dd45a23273f69c3 }
+Partial Cherry-pick commits SHA are -> 
+b80495d0586b6cd439f7604adf875fe434daa70f - cherrypick - 336f635c264b837f133e752e6dd45a23273f69c3
+---> The cherrypicked commit sha is - b80495d0586b6cd439f7604adf875fe434daa70f
+Commit message - Merge branch 'master' into optimize-reflection
+
+Conflicts:
+	src/declaration/polymer-element.js
+	test/html/attr-mustache.html
+	test/html/bind-object-repeat.html
+	test/html/callbacks.html
+	test/html/element-import.html
+	test/html/element-registration.html
+	test/html/element-script.html
+	test/html/event-path-declarative.html
+	test/html/event-path.html
+	test/html/mdv-syntax.html
+	test/html/parser-rules-import.html
+	test/html/parser-rules.html
+	test/html/prop-attr-reflection.html
+	test/html/prop-bind-oo.html
+	test/html/publish-attributes.html
+	test/html/styling/apply-reset-styles.html
+	test/html/styling/sheet-main-doc.html
+	test/html/styling/sheet-order.html
+	test/html/styling/sheet-scope.html
+	test/html/take-attributes.html
+	test/html/template-distribute-dynamic.html
+	test/html/unbind.html
+	test/runner.html
+---> The original commit sha is - 336f635c264b837f133e752e6dd45a23273f69c3
+Commit message - Merge branch 'optimize-reflection' of https://github.com/Polymer/polymer into optimize-reflection
+---> The files with partial_cherrypicks are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 83 is -> 
+{ 9a55a75974219aafc289513d83866505026cd509 -> 40e603ff1f5168eece54af13525aefae29fcda1b } is a cherrypick
+{ 8fedd56eb9cb96acb606d24d6064359ddf63fd29 -> 4945dbf6b4dad361abbf5c9148bb02e3a4072b16 }
+Partial Cherry-pick commits SHA are -> 
+40e603ff1f5168eece54af13525aefae29fcda1b - cherrypick - 4945dbf6b4dad361abbf5c9148bb02e3a4072b16
+---> The cherrypicked commit sha is - 40e603ff1f5168eece54af13525aefae29fcda1b
+Commit message - micro-optimizations and code reductions
+---> The original commit sha is - 4945dbf6b4dad361abbf5c9148bb02e3a4072b16
+Commit message - tweak comment
+---> The files with partial_cherrypicks are:-
+.gitmodules
+CONTRIBUTING.md
+conf/karma.conf.js
+gruntfile.js
+polymer.js
+src/declaration/attributes.js
+src/declaration/polymer-element.js
+src/declaration/properties.js
+src/declaration/prototype.js
+src/instance/attributes.js
+src/instance/base.js
+src/instance/mdv.js
+src/instance/properties.js
+src/lib/lang.js
+src/lib/super.js
+test/html/attr-mustache.html
+test/html/bind-object-repeat.html
+test/html/element-import.html
+test/html/element-registration.html
+test/html/element-script.html
+test/html/event-path-declarative.html
+test/html/event-path.html
+test/html/mdv-syntax.html
+test/html/parser-rules-import.html
+test/html/parser-rules.html
+test/html/prepare.html
+test/html/prop-attr-reflection.html
+test/html/prop-bind-oo.html
+test/html/publish-attributes.html
+test/html/reflection.html
+test/html/styling/apply-reset-styles.html
+test/html/styling/sheet-main-doc.html
+test/html/styling/sheet-order.html
+test/html/styling/sheet-scope.html
+test/html/take-attributes.html
+test/html/template-distribute-dynamic.html
+test/html/unbind.html
+test/js/oop.js
+test/js/prepare.js
+test/js/register.js
+test/runner.html
+tools
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 84 is -> 
+{ 161d99f4941b247833226248383b48515ad91569 -> 37e4ff9d15ea229e10c468bb9aeeeb820233024a } is a cherrypick
+{ dd1c789c0b0f47e24393c6d3fa06d576589ce047 -> 7bd94488802437f75ce170d90680156b3f538277 }
+Partial Cherry-pick commits SHA are -> 
+37e4ff9d15ea229e10c468bb9aeeeb820233024a - cherrypick - 7bd94488802437f75ce170d90680156b3f538277
+---> The cherrypicked commit sha is - 37e4ff9d15ea229e10c468bb9aeeeb820233024a
+Commit message - test: refactor config, add safari
+---> The original commit sha is - 7bd94488802437f75ce170d90680156b3f538277
+Commit message - use customPropertyNames property directly instead of get* function
+---> The files with partial_cherrypicks are:-
+src/instance/base.js
+test/html/unbind.html
+test/js/register.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 85 is -> 
+{ c3b59225087d0ab37d06e6e5bface4d4ec1ceb2b -> bdb873abdacdc448acf48414468f7b1e70ca796a } is a cherrypick
+{ dd1c789c0b0f47e24393c6d3fa06d576589ce047 -> 7bd94488802437f75ce170d90680156b3f538277 }
+Partial Cherry-pick commits SHA are -> 
+bdb873abdacdc448acf48414468f7b1e70ca796a - cherrypick - 7bd94488802437f75ce170d90680156b3f538277
+---> The cherrypicked commit sha is - bdb873abdacdc448acf48414468f7b1e70ca796a
+Commit message - slight factoring
+---> The original commit sha is - 7bd94488802437f75ce170d90680156b3f538277
+Commit message - use customPropertyNames property directly instead of get* function
+---> The files with partial_cherrypicks are:-
+src/instance/base.js
+test/html/unbind.html
+test/js/register.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 86 is -> 
+{ b415332c9d96634e4e53be36e5a2c825b114e27d -> 06dd147af5c8472c960d6e05e8cf311c51cf192f } is a cherrypick
+{ dd1c789c0b0f47e24393c6d3fa06d576589ce047 -> 7bd94488802437f75ce170d90680156b3f538277 }
+Partial Cherry-pick commits SHA are -> 
+06dd147af5c8472c960d6e05e8cf311c51cf192f - cherrypick - 7bd94488802437f75ce170d90680156b3f538277
+---> The cherrypicked commit sha is - 06dd147af5c8472c960d6e05e8cf311c51cf192f
+Commit message - shouldObserveProperty should check for property value !== undefined
+---> The original commit sha is - 7bd94488802437f75ce170d90680156b3f538277
+Commit message - use customPropertyNames property directly instead of get* function
+---> The files with partial_cherrypicks are:-
+src/instance/base.js
+test/html/unbind.html
+test/js/register.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 87 is -> 
+{ 161d99f4941b247833226248383b48515ad91569 -> 37e4ff9d15ea229e10c468bb9aeeeb820233024a } is a cherrypick
+{ b415332c9d96634e4e53be36e5a2c825b114e27d -> 06dd147af5c8472c960d6e05e8cf311c51cf192f }
+Partial Cherry-pick commits SHA are -> 
+37e4ff9d15ea229e10c468bb9aeeeb820233024a - cherrypick - 06dd147af5c8472c960d6e05e8cf311c51cf192f
+---> The cherrypicked commit sha is - 37e4ff9d15ea229e10c468bb9aeeeb820233024a
+Commit message - test: refactor config, add safari
+---> The original commit sha is - 06dd147af5c8472c960d6e05e8cf311c51cf192f
+Commit message - shouldObserveProperty should check for property value !== undefined
+---> The files with partial_cherrypicks are:-
+src/instance/base.js
+test/html/unbind.html
+test/js/register.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 88 is -> 
+{ c3b59225087d0ab37d06e6e5bface4d4ec1ceb2b -> bdb873abdacdc448acf48414468f7b1e70ca796a } is a cherrypick
+{ b415332c9d96634e4e53be36e5a2c825b114e27d -> 06dd147af5c8472c960d6e05e8cf311c51cf192f }
+Partial Cherry-pick commits SHA are -> 
+bdb873abdacdc448acf48414468f7b1e70ca796a - cherrypick - 06dd147af5c8472c960d6e05e8cf311c51cf192f
+---> The cherrypicked commit sha is - bdb873abdacdc448acf48414468f7b1e70ca796a
+Commit message - slight factoring
+---> The original commit sha is - 06dd147af5c8472c960d6e05e8cf311c51cf192f
+Commit message - shouldObserveProperty should check for property value !== undefined
+---> The files with partial_cherrypicks are:-
+src/instance/base.js
+test/html/unbind.html
+test/js/register.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 89 is -> 
+{ cfeb27282001870ec7b472201d52430935262d6d -> 48c0f097ccb6f4f179774ef465214aa8d6167912 } is a cherrypick
+{ 411d53c34c9121952f0be66f761a1a1a13f8c78e -> df788c33c9d27f5ecef64d54ce47225ee8ad7033 }
+Partial Cherry-pick commits SHA are -> 
+48c0f097ccb6f4f179774ef465214aa8d6167912 - cherrypick - df788c33c9d27f5ecef64d54ce47225ee8ad7033
+---> The cherrypicked commit sha is - 48c0f097ccb6f4f179774ef465214aa8d6167912
+Commit message - Correct test to check global div
+---> The original commit sha is - df788c33c9d27f5ecef64d54ce47225ee8ad7033
+Commit message - Merge pull request #201 from ebidel/fixtest
+
+Correct test to check global div
+---> The files with partial_cherrypicks are:-
+test/html/styling/sheet-main-doc.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 90 is -> 
+{ 48c0f097ccb6f4f179774ef465214aa8d6167912 -> 11acb3a64cd97c8216e534b7c998a7e286d6ce85 } is a cherrypick
+{ e9ef557efd38c5360550e5487b93ee274dd6a2c7 -> 411d53c34c9121952f0be66f761a1a1a13f8c78e }
+Partial Cherry-pick commits SHA are -> 
+11acb3a64cd97c8216e534b7c998a7e286d6ce85 - cherrypick - 411d53c34c9121952f0be66f761a1a1a13f8c78e
+---> The cherrypicked commit sha is - 11acb3a64cd97c8216e534b7c998a7e286d6ce85
+Commit message - Adding test for applyAuthorStyles/resetStyleInheirtance
+---> The original commit sha is - 411d53c34c9121952f0be66f761a1a1a13f8c78e
+Commit message - Merge pull request #200 from ebidel/resetStyleInheritance-feature
+
+Fixes issue #199 - adds support for resetStyleInheritance on prototype
+---> The files with partial_cherrypicks are:-
+src/instance/base.js
+test/js/styling.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 91 is -> 
+{ 35e59abf3b806fb58a15d2f50a57ecd50918ec6b -> 960b6b1fc010e8e0273971a297eccd028d93d786 } is a cherrypick
+{ 2c8c03c185ce52f7682b3a440dc96b432b2064eb -> b7c582015ee2c24871f588f04084dbb123a2a384 }
+Partial Cherry-pick commits SHA are -> 
+960b6b1fc010e8e0273971a297eccd028d93d786 - cherrypick - b7c582015ee2c24871f588f04084dbb123a2a384
+---> The cherrypicked commit sha is - 960b6b1fc010e8e0273971a297eccd028d93d786
+Commit message - update tools repo
+---> The original commit sha is - b7c582015ee2c24871f588f04084dbb123a2a384
+Commit message - add fouc prevention
+---> The files with partial_cherrypicks are:-
+src/boot.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 92 is -> 
+{ bdc06388bc7d45fc69e8ee104bc78ea84d712d7b -> e9e4532596e2c0ad0bd0d08edc0bb0a1dc768bdd } is a cherrypick
+{ 2c8c03c185ce52f7682b3a440dc96b432b2064eb -> b7c582015ee2c24871f588f04084dbb123a2a384 }
+Partial Cherry-pick commits SHA are -> 
+e9e4532596e2c0ad0bd0d08edc0bb0a1dc768bdd - cherrypick - b7c582015ee2c24871f588f04084dbb123a2a384
+---> The cherrypicked commit sha is - e9e4532596e2c0ad0bd0d08edc0bb0a1dc768bdd
+Commit message - remove browserstack test config
+---> The original commit sha is - b7c582015ee2c24871f588f04084dbb123a2a384
+Commit message - add fouc prevention
+---> The files with partial_cherrypicks are:-
+src/boot.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 93 is -> 
+{ 15443743a9d4e1e8db9f94e1d2a38b9c7ac094a1 -> c7458673e4676ada4f2c8530a4f24c7a25476e21 } is a cherrypick
+{ 7c794216559263926663f82d409876d46cb7e62d -> b5cb903a41dc65e8092f92e1cc642dfee93aacbf }
+Partial Cherry-pick commits SHA are -> 
+c7458673e4676ada4f2c8530a4f24c7a25476e21 - cherrypick - b5cb903a41dc65e8092f92e1cc642dfee93aacbf
+---> The cherrypicked commit sha is - c7458673e4676ada4f2c8530a4f24c7a25476e21
+Commit message - buildbot.git no longer required
+---> The original commit sha is - b5cb903a41dc65e8092f92e1cc642dfee93aacbf
+Commit message - Merge branch 'polymer-element' of https://github.com/Polymer/polymer into polymer-element
+---> The files with partial_cherrypicks are:-
+buildbot
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 94 is -> 
+{ 15443743a9d4e1e8db9f94e1d2a38b9c7ac094a1 -> c7458673e4676ada4f2c8530a4f24c7a25476e21 } is a cherrypick
+{ fbae382197772afc123207ab8fc9379583ae50b0 -> 35e59abf3b806fb58a15d2f50a57ecd50918ec6b }
+Partial Cherry-pick commits SHA are -> 
+c7458673e4676ada4f2c8530a4f24c7a25476e21 - cherrypick - 35e59abf3b806fb58a15d2f50a57ecd50918ec6b
+---> The cherrypicked commit sha is - c7458673e4676ada4f2c8530a4f24c7a25476e21
+Commit message - buildbot.git no longer required
+---> The original commit sha is - 35e59abf3b806fb58a15d2f50a57ecd50918ec6b
+Commit message - remove broken submodule
+---> The files with partial_cherrypicks are:-
+buildbot
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 95 is -> 
+{ 96284ae10cc492a899d2154a3c09101c1868452e -> cc1a5c3d9c3c8ff6f0f552a730f61c4d4c852ec9 } is a cherrypick
+{ 4192a6005da721b697294580ba7e5a7c7b8f54bd -> 0d9d3cba972de7b4291cf5344e432355b6c051cc }
+Partial Cherry-pick commits SHA are -> 
+cc1a5c3d9c3c8ff6f0f552a730f61c4d4c852ec9 - cherrypick - 0d9d3cba972de7b4291cf5344e432355b6c051cc
+---> The cherrypicked commit sha is - cc1a5c3d9c3c8ff6f0f552a730f61c4d4c852ec9
+Commit message - slight refactoring
+---> The original commit sha is - 0d9d3cba972de7b4291cf5344e432355b6c051cc
+Commit message - Merge branch 'master' of https://github.com/Polymer/polymer
+
+Conflicts:
+	src/register.js
+---> The files with partial_cherrypicks are:-
+src/attrs.js
+src/oop.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 96 is -> 
+{ f8b5e66c40b1095faa3d59751549aa4faef0a9f9 -> dff8b03f5dc180f1322e9ff47bc31d8ef2461912 } is a cherrypick
+{ 4192a6005da721b697294580ba7e5a7c7b8f54bd -> 0d9d3cba972de7b4291cf5344e432355b6c051cc }
+Partial Cherry-pick commits SHA are -> 
+dff8b03f5dc180f1322e9ff47bc31d8ef2461912 - cherrypick - 0d9d3cba972de7b4291cf5344e432355b6c051cc
+---> The cherrypicked commit sha is - dff8b03f5dc180f1322e9ff47bc31d8ef2461912
+Commit message - Merge branch 'master' of https://github.com/Polymer/polymer
+---> The original commit sha is - 0d9d3cba972de7b4291cf5344e432355b6c051cc
+Commit message - Merge branch 'master' of https://github.com/Polymer/polymer
+
+Conflicts:
+	src/register.js
+---> The files with partial_cherrypicks are:-
+src/attrs.js
+src/oop.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 97 is -> 
+{ 0cb6295b3bbbe943467dd368ee6e45e5ee030a88 -> b5762cd826b2c06150498512fa55c297831a9302 } is a cherrypick
+{ 4512913d5b8266bf801e700df86cbaa3ef173a80 -> 26e8b147f4da40a31811d627ffdc4e302493a9dd }
+Partial Cherry-pick commits SHA are -> 
+b5762cd826b2c06150498512fa55c297831a9302 - cherrypick - 26e8b147f4da40a31811d627ffdc4e302493a9dd
+---> The cherrypicked commit sha is - b5762cd826b2c06150498512fa55c297831a9302
+Commit message - remove all but 'super' implementation from oop.js, change 'super' to use name-of-method (.nom) hinting support from CustomElements
+---> The original commit sha is - 26e8b147f4da40a31811d627ffdc4e302493a9dd
+Commit message - Merge branch 'parser'
+---> The files with partial_cherrypicks are:-
+src/base.js
+src/oop.js
+test/js/oop.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 98 is -> 
+{ acd1af8207128dfe088b06f1424f69439c112c29 -> 07d73bfe94b0062e0ba7534b5fef6cf60ce04151 } is a cherrypick
+{ 4512913d5b8266bf801e700df86cbaa3ef173a80 -> 26e8b147f4da40a31811d627ffdc4e302493a9dd }
+Partial Cherry-pick commits SHA are -> 
+07d73bfe94b0062e0ba7534b5fef6cf60ce04151 - cherrypick - 26e8b147f4da40a31811d627ffdc4e302493a9dd
+---> The cherrypicked commit sha is - 07d73bfe94b0062e0ba7534b5fef6cf60ce04151
+Commit message - Merge branch 'master' into parser
+
+# By Steve Orvell (19) and others
+# Via Daniel Freedman (1) and others
+* master: (27 commits)
+  test: fix for flattened repo
+  buildbot.git no longer required
+  use mdv provided syntax, remove polymer syntax
+  add tests to runner, add license
+  add tests for MDV syntax
+  re-use regex
+  warn on missing files for uglify
+  freshen
+  add more tests + make tests more x-browser
+  make pseudos polyfill compatible with browsers that don't parse the pseudo css correctly.
+  use full LICENSE in builds
+  - ensure controller styles are added only 1x per controller  - add 1 style element for stylesheets  - slight refactoring
+  - only fix content property if it is set  - correctly scope [is=name] .foo
+  element stylesheet refactoring (wip)
+  support [is=name] syntax for @host styles; minor factoring
+  add test for host styles for type extension elements
+  - @polyfill can contain @host  - some refactoring of scope application
+  test for @polyfill
+  fix content property so it round-trips correctly (https://code.google.com/p/chromium/issues/detail?id=247231)
+  support [is=name] syntax.
+  ...
+---> The original commit sha is - 26e8b147f4da40a31811d627ffdc4e302493a9dd
+Commit message - Merge branch 'parser'
+---> The files with partial_cherrypicks are:-
+src/base.js
+src/oop.js
+test/js/oop.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 99 is -> 
+{ 0cb6295b3bbbe943467dd368ee6e45e5ee030a88 -> b5762cd826b2c06150498512fa55c297831a9302 } is a cherrypick
+{ acd1af8207128dfe088b06f1424f69439c112c29 -> 07d73bfe94b0062e0ba7534b5fef6cf60ce04151 }
+Partial Cherry-pick commits SHA are -> 
+b5762cd826b2c06150498512fa55c297831a9302 - cherrypick - 07d73bfe94b0062e0ba7534b5fef6cf60ce04151
+---> The cherrypicked commit sha is - b5762cd826b2c06150498512fa55c297831a9302
+Commit message - remove all but 'super' implementation from oop.js, change 'super' to use name-of-method (.nom) hinting support from CustomElements
+---> The original commit sha is - 07d73bfe94b0062e0ba7534b5fef6cf60ce04151
+Commit message - Merge branch 'master' into parser
+
+# By Steve Orvell (19) and others
+# Via Daniel Freedman (1) and others
+* master: (27 commits)
+  test: fix for flattened repo
+  buildbot.git no longer required
+  use mdv provided syntax, remove polymer syntax
+  add tests to runner, add license
+  add tests for MDV syntax
+  re-use regex
+  warn on missing files for uglify
+  freshen
+  add more tests + make tests more x-browser
+  make pseudos polyfill compatible with browsers that don't parse the pseudo css correctly.
+  use full LICENSE in builds
+  - ensure controller styles are added only 1x per controller  - add 1 style element for stylesheets  - slight refactoring
+  - only fix content property if it is set  - correctly scope [is=name] .foo
+  element stylesheet refactoring (wip)
+  support [is=name] syntax for @host styles; minor factoring
+  add test for host styles for type extension elements
+  - @polyfill can contain @host  - some refactoring of scope application
+  test for @polyfill
+  fix content property so it round-trips correctly (https://code.google.com/p/chromium/issues/detail?id=247231)
+  support [is=name] syntax.
+  ...
+---> The files with partial_cherrypicks are:-
+src/base.js
+src/oop.js
+src/register.js
+test/js/oop.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 100 is -> 
+{ bd55fdc52b51d125868ee2bbd50cf8d60f17ce52 -> e5254506ab75df4d1296ad79c6ccfce8df8fa255 } is a cherrypick
+{ 77daa918b405d0c280cdece67056cc3695a0f870 -> afc2511182aa5a5b50004d19227d9393ae5d1010 }
+Partial Cherry-pick commits SHA are -> 
+e5254506ab75df4d1296ad79c6ccfce8df8fa255 - cherrypick - afc2511182aa5a5b50004d19227d9393ae5d1010
+---> The cherrypicked commit sha is - e5254506ab75df4d1296ad79c6ccfce8df8fa255
+Commit message - fix submodule path
+---> The original commit sha is - afc2511182aa5a5b50004d19227d9393ae5d1010
+Commit message - fix path to polymer-project
+---> The files with partial_cherrypicks are:-
+.gitmodules
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 101 is -> 
+{ 4c9d41e1260ed1d682a884976179d38625fdffac -> 2c1fdf5066b24c6276e7552b6cbd73ab40b96c05 } is a cherrypick
+{ 77daa918b405d0c280cdece67056cc3695a0f870 -> afc2511182aa5a5b50004d19227d9393ae5d1010 }
+Partial Cherry-pick commits SHA are -> 
+2c1fdf5066b24c6276e7552b6cbd73ab40b96c05 - cherrypick - afc2511182aa5a5b50004d19227d9393ae5d1010
+---> The cherrypicked commit sha is - 2c1fdf5066b24c6276e7552b6cbd73ab40b96c05
+Commit message - Update README.md
+---> The original commit sha is - afc2511182aa5a5b50004d19227d9393ae5d1010
+Commit message - fix path to polymer-project
+---> The files with partial_cherrypicks are:-
+.gitmodules
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 102 is -> 
+{ bd55fdc52b51d125868ee2bbd50cf8d60f17ce52 -> e5254506ab75df4d1296ad79c6ccfce8df8fa255 } is a cherrypick
+{ 4c9d41e1260ed1d682a884976179d38625fdffac -> 2c1fdf5066b24c6276e7552b6cbd73ab40b96c05 }
+Partial Cherry-pick commits SHA are -> 
+e5254506ab75df4d1296ad79c6ccfce8df8fa255 - cherrypick - 2c1fdf5066b24c6276e7552b6cbd73ab40b96c05
+---> The cherrypicked commit sha is - e5254506ab75df4d1296ad79c6ccfce8df8fa255
+Commit message - fix submodule path
+---> The original commit sha is - 2c1fdf5066b24c6276e7552b6cbd73ab40b96c05
+Commit message - Update README.md
+---> The files with partial_cherrypicks are:-
+.gitmodules
+conf/karma.conf.js
+platform
+src/base.js
+src/bindMDV.js
+toolkit.min.js
+toolkit.min.js.map
+toolkit.native.min.js
+toolkit.native.min.js.map
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 103 is -> 
+{ df57c0f2e0090e948c0c08f50c36f1087c446985 -> 56de7ffb5a64241951eda2bd8323f42825b5acf6 } is a cherrypick
+{ aad5c14ec4cbae142c05762bea894615a409416a -> 89ee0dfcb6e28571198e714eb912e8242d3bd139 }
+Partial Cherry-pick commits SHA are -> 
+56de7ffb5a64241951eda2bd8323f42825b5acf6 - cherrypick - 89ee0dfcb6e28571198e714eb912e8242d3bd139
+---> The cherrypicked commit sha is - 56de7ffb5a64241951eda2bd8323f42825b5acf6
+Commit message - whitespace
+---> The original commit sha is - 89ee0dfcb6e28571198e714eb912e8242d3bd139
+Commit message - Merge branch 'master' of https://github.com/toolkitchen/toolkit
+---> The files with partial_cherrypicks are:-
+src/bindMDV.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 104 is -> 
+{ 4516edcf1f3639b0a1bb70d39a088c8f51fea1b5 -> 107e97e463183ca1213e5217a4a6af801f0db161 } is a cherrypick
+{ 9a974714bef80a869335c36554535f02cbe4e293 -> df57c0f2e0090e948c0c08f50c36f1087c446985 }
+Partial Cherry-pick commits SHA are -> 
+107e97e463183ca1213e5217a4a6af801f0db161 - cherrypick - df57c0f2e0090e948c0c08f50c36f1087c446985
+---> The cherrypicked commit sha is - 107e97e463183ca1213e5217a4a6af801f0db161
+Commit message - change default response from null to ''
+---> The original commit sha is - df57c0f2e0090e948c0c08f50c36f1087c446985
+Commit message - remove karma-browserstack-launcher
+---> The files with partial_cherrypicks are:-
+conf/karma.conf.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 105 is -> 
+{ 6390a29c8b08f7cb807375fbe550f3a4ef04a75d -> 45a57c90f0414a157c6d654e6f46ffa06146caee } is a cherrypick
+{ 9a974714bef80a869335c36554535f02cbe4e293 -> df57c0f2e0090e948c0c08f50c36f1087c446985 }
+Partial Cherry-pick commits SHA are -> 
+45a57c90f0414a157c6d654e6f46ffa06146caee - cherrypick - df57c0f2e0090e948c0c08f50c36f1087c446985
+---> The cherrypicked commit sha is - 45a57c90f0414a157c6d654e6f46ffa06146caee
+Commit message - modernize platform
+---> The original commit sha is - df57c0f2e0090e948c0c08f50c36f1087c446985
+Commit message - remove karma-browserstack-launcher
+---> The files with partial_cherrypicks are:-
+conf/karma.conf.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 106 is -> 
+{ 4516edcf1f3639b0a1bb70d39a088c8f51fea1b5 -> 107e97e463183ca1213e5217a4a6af801f0db161 } is a cherrypick
+{ 1dbe29812eebcf5f0777e64d2f3e78841c0eb7d8 -> 3a3477324e151f9e1f898f470630a94b1d9f94dc }
+Partial Cherry-pick commits SHA are -> 
+107e97e463183ca1213e5217a4a6af801f0db161 - cherrypick - 3a3477324e151f9e1f898f470630a94b1d9f94dc
+---> The cherrypicked commit sha is - 107e97e463183ca1213e5217a4a6af801f0db161
+Commit message - change default response from null to ''
+---> The original commit sha is - 3a3477324e151f9e1f898f470630a94b1d9f94dc
+Commit message - remove karma-browserstack-launcher from package.json
+---> The files with partial_cherrypicks are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 107 is -> 
+{ 6390a29c8b08f7cb807375fbe550f3a4ef04a75d -> 45a57c90f0414a157c6d654e6f46ffa06146caee } is a cherrypick
+{ 1dbe29812eebcf5f0777e64d2f3e78841c0eb7d8 -> 3a3477324e151f9e1f898f470630a94b1d9f94dc }
+Partial Cherry-pick commits SHA are -> 
+45a57c90f0414a157c6d654e6f46ffa06146caee - cherrypick - 3a3477324e151f9e1f898f470630a94b1d9f94dc
+---> The cherrypicked commit sha is - 45a57c90f0414a157c6d654e6f46ffa06146caee
+Commit message - modernize platform
+---> The original commit sha is - 3a3477324e151f9e1f898f470630a94b1d9f94dc
+Commit message - remove karma-browserstack-launcher from package.json
+---> The files with partial_cherrypicks are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 108 is -> 
+{ b2722519a383b174efdd5e0bb97712f2f644c390 -> f81d71cd080d9deb4e002f4873a6481b07ec3f37 } is a cherrypick
+{ 986a171f1ace1a70ce5cb8847653248fe2d71fbb -> 64f7e64e4356e13fee19b89cef0bda185ebbe920 }
+Partial Cherry-pick commits SHA are -> 
+f81d71cd080d9deb4e002f4873a6481b07ec3f37 - cherrypick - 64f7e64e4356e13fee19b89cef0bda185ebbe920
+---> The cherrypicked commit sha is - f81d71cd080d9deb4e002f4873a6481b07ec3f37
+Commit message - register:
+ - automatically install stylesheets loaded in the < element > tag into the element template
+ - automate fuoc prevention
+---> The original commit sha is - 64f7e64e4356e13fee19b89cef0bda185ebbe920
+Commit message - put a reference to <element> on prototype
+---> The files with partial_cherrypicks are:-
+src/register.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 109 is -> 
+{ cdc742f591bcd7f0feeb603724993216ad3921f2 -> e14514d547bbbb8e9140b200824029ea608cf815 } is a cherrypick
+{ ee789e5c0cf3e4156107946e7a7497264b2fa52f -> 5b5a79d1c7219eed760ce2e936bbf83b49f3b016 }
+Partial Cherry-pick commits SHA are -> 
+e14514d547bbbb8e9140b200824029ea608cf815 - cherrypick - 5b5a79d1c7219eed760ce2e936bbf83b49f3b016
+---> The cherrypicked commit sha is - e14514d547bbbb8e9140b200824029ea608cf815
+Commit message - test: use toolkitchen/test submodule
+---> The original commit sha is - 5b5a79d1c7219eed760ce2e936bbf83b49f3b016
+Commit message - restore submodule reference
+---> The files with partial_cherrypicks are:-
+.gitmodules
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 110 is -> 
+{ 68dd6db64185d67d36f1852ac9db8f948410e2b7 -> ed2ee1cc207c2dcf7e3026346a35337213c686a5 } is a cherrypick
+{ ee789e5c0cf3e4156107946e7a7497264b2fa52f -> 5b5a79d1c7219eed760ce2e936bbf83b49f3b016 }
+Partial Cherry-pick commits SHA are -> 
+ed2ee1cc207c2dcf7e3026346a35337213c686a5 - cherrypick - 5b5a79d1c7219eed760ce2e936bbf83b49f3b016
+---> The cherrypicked commit sha is - ed2ee1cc207c2dcf7e3026346a35337213c686a5
+Commit message - fix submodule
+---> The original commit sha is - 5b5a79d1c7219eed760ce2e936bbf83b49f3b016
+Commit message - restore submodule reference
+---> The files with partial_cherrypicks are:-
+.gitmodules
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 111 is -> 
+{ cdc742f591bcd7f0feeb603724993216ad3921f2 -> e14514d547bbbb8e9140b200824029ea608cf815 } is a cherrypick
+{ 68dd6db64185d67d36f1852ac9db8f948410e2b7 -> ed2ee1cc207c2dcf7e3026346a35337213c686a5 }
+Partial Cherry-pick commits SHA are -> 
+e14514d547bbbb8e9140b200824029ea608cf815 - cherrypick - ed2ee1cc207c2dcf7e3026346a35337213c686a5
+---> The cherrypicked commit sha is - e14514d547bbbb8e9140b200824029ea608cf815
+Commit message - test: use toolkitchen/test submodule
+---> The original commit sha is - ed2ee1cc207c2dcf7e3026346a35337213c686a5
+Commit message - fix submodule
+---> The files with partial_cherrypicks are:-
+.gitmodules
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 112 is -> 
+{ 12350f089ef53869a3531a37405a297b44bda9e8 -> 9a61ff73ecdc8bc1eab40126738ab4756e393f7a } is a cherrypick
+{ d9c2fb5db4d8e40960016143a096a9a339afe0f3 -> 2ebc5e4bbbbcfc30f616a6dc96d1219123dfdfca }
+Partial Cherry-pick commits SHA are -> 
+9a61ff73ecdc8bc1eab40126738ab4756e393f7a - cherrypick - 2ebc5e4bbbbcfc30f616a6dc96d1219123dfdfca
+---> The cherrypicked commit sha is - 9a61ff73ecdc8bc1eab40126738ab4756e393f7a
+Commit message - Stop using __{lookup,define}{G,S}etter__
+
+This changes copyProperties to use ES5 instead of the proprietary SpiderMonkey
+APIs.
+---> The original commit sha is - 2ebc5e4bbbbcfc30f616a6dc96d1219123dfdfca
+Commit message - Merge pull request #76 from arv/fix-copy-property
+
+Stop using __{lookup,define}{G,S}etter__
+---> The files with partial_cherrypicks are:-
+components/g-component.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 113 is -> 
+{ be4ead1d4a4ffa8c7b2a3503586f1d2da75f0103 -> 21fe1d4948f1759fb254a7032ee85dd00a23a3f6 } is a cherrypick
+{ 82c1a6c16b00cd3f111c80656ad42f9a60f41237 -> 80e8f1abb82cdf4cf2c4b343739311412a385632 }
+Partial Cherry-pick commits SHA are -> 
+21fe1d4948f1759fb254a7032ee85dd00a23a3f6 - cherrypick - 80e8f1abb82cdf4cf2c4b343739311412a385632
+---> The cherrypicked commit sha is - 21fe1d4948f1759fb254a7032ee85dd00a23a3f6
+Commit message - adding CF
+---> The original commit sha is - 80e8f1abb82cdf4cf2c4b343739311412a385632
+Commit message - Merge pull request #61 from ebidel/dev
+
+Updating meta tag
+---> The files with partial_cherrypicks are:-
+getting_started/index.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 114 is -> 
+{ acf5ac11e4fd1653b6daa5aa9ef7c929c486492a -> 8f60519b92cc640973bdf1edfb0727f16163ba4f } is a cherrypick
+{ 170504b2a2c67736db6cd473f34ae8b212f8baa8 -> 5a3427187c4957d6d6c437abb2e19996bfd5ed89 }
+Partial Cherry-pick commits SHA are -> 
+8f60519b92cc640973bdf1edfb0727f16163ba4f - cherrypick - 5a3427187c4957d6d6c437abb2e19996bfd5ed89
+---> The cherrypicked commit sha is - 8f60519b92cc640973bdf1edfb0727f16163ba4f
+Commit message - Merge pull request #53 from sjmiles/master
+
+g-component tweaks to improve data-binding
+---> The original commit sha is - 5a3427187c4957d6d6c437abb2e19996bfd5ed89
+Commit message - updated icon to be 32x32 to align with pica design
+---> The files with partial_cherrypicks are:-
+src/g-icon-button.html
+src/g-icon.html
+src/g-menu-item.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 115 is -> 
+{ acf5ac11e4fd1653b6daa5aa9ef7c929c486492a -> 8f60519b92cc640973bdf1edfb0727f16163ba4f } is a cherrypick
+{ e70df3ce6456542aaba7735ff697c3b70fc23338 -> 170504b2a2c67736db6cd473f34ae8b212f8baa8 }
+Partial Cherry-pick commits SHA are -> 
+8f60519b92cc640973bdf1edfb0727f16163ba4f - cherrypick - 170504b2a2c67736db6cd473f34ae8b212f8baa8
+---> The cherrypicked commit sha is - 8f60519b92cc640973bdf1edfb0727f16163ba4f
+Commit message - Merge pull request #53 from sjmiles/master
+
+g-component tweaks to improve data-binding
+---> The original commit sha is - 170504b2a2c67736db6cd473f34ae8b212f8baa8
+Commit message - updated components for the new changes in g-component
+---> The files with partial_cherrypicks are:-
+src/g-menu-button.html
+src/g-panels.html
+src/g-ratings.html
+src/g-tabs.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 116 is -> 
+{ 8e6334d6e19a33c24461008c4274f1c44c25ea24 -> 38e41a6a08f8fabb465f09d1c8a046d786e70413 } is a cherrypick
+{ c0fe862ed8da70e645e0f2f0dab4150a99394e4f -> 2ec853933477d254333d292c728d08901e7b9f3c }
+Partial Cherry-pick commits SHA are -> 
+38e41a6a08f8fabb465f09d1c8a046d786e70413 - cherrypick - 2ec853933477d254333d292c728d08901e7b9f3c
+---> The cherrypicked commit sha is - 38e41a6a08f8fabb465f09d1c8a046d786e70413
+Commit message - update some logging
+---> The original commit sha is - 2ec853933477d254333d292c728d08901e7b9f3c
+Commit message - Merge branch 'master' of github.com:toolkitchen/toolkit
+---> The files with partial_cherrypicks are:-
+src/g-component.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 117 is -> 
+{ a8310922e5583d89efb1e0a4fa3166e96272983a -> 40f45ed9618164c8a41c311178eb3a10a68b7012 } is a cherrypick
+{ 3a36f630c1a17a4d3428ccd0d2e9dfec7ed2d7c6 -> f6e8800bacd5525440c342fc00a1b8847feea470 }
+Partial Cherry-pick commits SHA are -> 
+40f45ed9618164c8a41c311178eb3a10a68b7012 - cherrypick - f6e8800bacd5525440c342fc00a1b8847feea470
+---> The cherrypicked commit sha is - 40f45ed9618164c8a41c311178eb3a10a68b7012
+Commit message - basic component unit tests
+---> The original commit sha is - f6e8800bacd5525440c342fc00a1b8847feea470
+Commit message - basic component unit tests
+---> The files with partial_cherrypicks are:-
+test/component.js
+test/g-foo.html
+test/icon.js
+test/test.html
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 118 is -> 
+{ 1e2fb1591e108ac0d0d99d6b577faf7012d8a457 -> 1780b045832d6d083e25f675d099895041eb58e1 } is a cherrypick
+{ 5dff0fdfcaa748cf51e900c80278da4b902696f4 -> 64a8d370eceeaf8bde6e8a1ea85a30564e91bf39 }
+Partial Cherry-pick commits SHA are -> 
+1780b045832d6d083e25f675d099895041eb58e1 - cherrypick - 64a8d370eceeaf8bde6e8a1ea85a30564e91bf39
+---> The cherrypicked commit sha is - 1780b045832d6d083e25f675d099895041eb58e1
+Commit message - Merge pull request #8 from frankiefu/master
+
+add ajax and togglebutton components
+---> The original commit sha is - 64a8d370eceeaf8bde6e8a1ea85a30564e91bf39
+Commit message - update based on pull request comments:
+- separate g-xhr to a component (component-as-module-pattern)
+- dispatch Events instead
+- add jsdoc to public methods
+- update comment
+- use classList.enable
+- use handlers="click: clickHandler" instead of experimental event
+binding
+---> The files with partial_cherrypicks are:-
+src/g-xhr.html
+-----------------------------------------------------------------
+

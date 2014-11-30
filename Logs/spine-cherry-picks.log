@@ -1,0 +1,406 @@
+# of cherry-picks = 30
+Cherry-pick diff pair 1 is -> 
+{ 706641ca3fc9c5c024ca70fd96cf1416ca8cccda -> 48d8c86cf6c9659143f759e41e5de0d4e46ea2e7 } is a cherrypick
+{ d24b089f82bc8e142db05f1efe92024eff8f8a73 -> 4f90709ebc950a5d64d9b70376c79c681700a8c2 }
+Cherrypick commits SHA are -> 
+48d8c86cf6c9659143f759e41e5de0d4e46ea2e7 - cherrypick - 4f90709ebc950a5d64d9b70376c79c681700a8c2
+---> The cherrypicked commit sha is - 48d8c86cf6c9659143f759e41e5de0d4e46ea2e7
+Commit message - Add support for redirecting unmatched routes
+
+For applications transitioning to an all-client Spine implementation,
+enabling `redirect` in the Spine router will allow unmatched routes to
+escape to the browser and are handled by a simple `window.location=`.
+
+For example, suppose I have finished implementing the new List Projects
+screen in Spine, but I have not yet implemented the New Project screen
+(it is still plain-old HTML/HTTP request/response).
+
+The List Projects controller shouldn't care whether a New Project
+controller has been implemented in Spine or if that navigation needs to
+be a hard page refresh. By enabling redirects, the List Projects
+controller can handle navigational duties using a consistent API.
+
+This is a much bigger issue when HTML5 history support is enabled, as
+you can't `pushState` with a plain-old <a> tag the same way you can
+change the current hash.
+
+To enable this feature, pass `redirect: true` as an option to the Spine
+router during setup, such as:
+
+`Spine.Route.setup(history: true, redirect: true)`
+---> The original commit sha is - 4f90709ebc950a5d64d9b70376c79c681700a8c2
+Commit message - Merge pull request #482 from jcarlson/redirect
+
+Add support for redirecting unmatched routes
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ ac61d121162725e70113b6aa401a4e2f45743001 -> 92be97c73840254ed58ec96796c1e30ef0498e95 } is a cherrypick
+{ 8e25e9b09f67dfea1213d8ff4ee4a45324996684 -> bd1e44590a99abc85831d32d82fe48224b4009ac }
+Cherrypick commits SHA are -> 
+92be97c73840254ed58ec96796c1e30ef0498e95 - cherrypick - bd1e44590a99abc85831d32d82fe48224b4009ac
+---> The cherrypicked commit sha is - 92be97c73840254ed58ec96796c1e30ef0498e95
+Commit message - resolved #461. The collection url should compute from the model instance first.
+
+When you try to create multiple models at the same time, the scope maybe change
+depending on the particular record being created, so the URLs should reflect
+the scope of the model instance, instead of the global class scope.
+---> The original commit sha is - bd1e44590a99abc85831d32d82fe48224b4009ac
+Commit message - Merge branch '461_scope_with_multiple_create' of git://github.com/sishen/spine into sishen-461_scope_with_multiple_create
+
+Conflicts:
+	test/specs/ajax.js
+
+Closes #461
+Closes #463
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ e31c3b16e1783e0307ae5f2f6038bf9e3bfe24df -> b931c92605f89d45aa0271803b6f3656f9bcfa98 } is a cherrypick
+{ 68f19ec53a999a3d14d3b8697822b8f956bd59fb -> 791cc18e2443a8f032b0d3c30f066bfd96bf67ec }
+Cherrypick commits SHA are -> 
+b931c92605f89d45aa0271803b6f3656f9bcfa98 - cherrypick - 791cc18e2443a8f032b0d3c30f066bfd96bf67ec
+---> The cherrypicked commit sha is - b931c92605f89d45aa0271803b6f3656f9bcfa98
+Commit message - map files are back in master, YEAH!
+---> The original commit sha is - 791cc18e2443a8f032b0d3c30f066bfd96bf67ec
+Commit message - Merge branch 'dev'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ c980f2b976eeddd1a6e5008b44a7ea9cdffc2451 -> 7ba8916786dbdb1dfc2171ec4813c107d84872ca } is a cherrypick
+{ da736e36780e3588598c55b9de81f6b66b45bb9f -> 390939e51b83841dc417e5d552f9cd5da8e07bae }
+Cherrypick commits SHA are -> 
+7ba8916786dbdb1dfc2171ec4813c107d84872ca - cherrypick - 390939e51b83841dc417e5d552f9cd5da8e07bae
+---> The cherrypicked commit sha is - 7ba8916786dbdb1dfc2171ec4813c107d84872ca
+Commit message - Fixed multilevel inheritance for controller elements and events
+---> The original commit sha is - 390939e51b83841dc417e5d552f9cd5da8e07bae
+Commit message - Merge pull request #438 from umate/controller-inheritance-fix
+
+Fixed multilevel inheritance for controller elements and events
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ cf89b07f4a7187cafee4a637a434bc3709445179 -> 863f316336dae0af7b418d30b40959b5fdd9dcba } is a cherrypick
+{ af5554afc591d3bbb96eeb1b17f7459c083b0f47 -> 957dc6f0db7a023fbe284d9d07dff1e68dda8b03 }
+Cherrypick commits SHA are -> 
+863f316336dae0af7b418d30b40959b5fdd9dcba - cherrypick - 957dc6f0db7a023fbe284d9d07dff1e68dda8b03
+---> The cherrypicked commit sha is - 863f316336dae0af7b418d30b40959b5fdd9dcba
+Commit message - wild stab at a test for instance individual events unbinding 
+---> The original commit sha is - 957dc6f0db7a023fbe284d9d07dff1e68dda8b03
+Commit message - Merge branch 'master' of github.com:spine/spine
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ 8f96a73efaad27043293c5f816f6acbc8c7eaa21 -> 0968b36c3332b250a95138aadd23ed5f83fa552b } is a cherrypick
+{ af5554afc591d3bbb96eeb1b17f7459c083b0f47 -> 957dc6f0db7a023fbe284d9d07dff1e68dda8b03 }
+Cherrypick commits SHA are -> 
+0968b36c3332b250a95138aadd23ed5f83fa552b - cherrypick - 957dc6f0db7a023fbe284d9d07dff1e68dda8b03
+---> The cherrypicked commit sha is - 0968b36c3332b250a95138aadd23ed5f83fa552b
+Commit message - wild stab at a test for instance individual events unbinding 
+---> The original commit sha is - 957dc6f0db7a023fbe284d9d07dff1e68dda8b03
+Commit message - Merge branch 'master' of github.com:spine/spine
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ 28053c4d1d1fe9b78ad9c17b00e12a060e582e72 -> 7af20a9099b39d5f7cad2530eaa6e9709613eb77 } is a cherrypick
+{ 72ba480d0d0e8570044d3d1710e6ee7c5f486895 -> fe96cb4ebd41e49e9e050f58d3f58602d72de5be }
+Cherrypick commits SHA are -> 
+7af20a9099b39d5f7cad2530eaa6e9709613eb77 - cherrypick - fe96cb4ebd41e49e9e050f58d3f58602d72de5be
+---> The cherrypicked commit sha is - 7af20a9099b39d5f7cad2530eaa6e9709613eb77
+Commit message - forgot to define spy2 for test
+---> The original commit sha is - fe96cb4ebd41e49e9e050f58d3f58602d72de5be
+Commit message - forgot to define spy2 for test
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ 863f316336dae0af7b418d30b40959b5fdd9dcba -> 28053c4d1d1fe9b78ad9c17b00e12a060e582e72 } is a cherrypick
+{ 0968b36c3332b250a95138aadd23ed5f83fa552b -> 72ba480d0d0e8570044d3d1710e6ee7c5f486895 }
+Cherrypick commits SHA are -> 
+28053c4d1d1fe9b78ad9c17b00e12a060e582e72 - cherrypick - 72ba480d0d0e8570044d3d1710e6ee7c5f486895
+---> The cherrypicked commit sha is - 28053c4d1d1fe9b78ad9c17b00e12a060e582e72
+Commit message - more better tests that fail for the model instance unbinder
+---> The original commit sha is - 72ba480d0d0e8570044d3d1710e6ee7c5f486895
+Commit message - more better tests that fail for the model instance unbinder
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ cf89b07f4a7187cafee4a637a434bc3709445179 -> 863f316336dae0af7b418d30b40959b5fdd9dcba } is a cherrypick
+{ 8f96a73efaad27043293c5f816f6acbc8c7eaa21 -> 0968b36c3332b250a95138aadd23ed5f83fa552b }
+Cherrypick commits SHA are -> 
+863f316336dae0af7b418d30b40959b5fdd9dcba - cherrypick - 0968b36c3332b250a95138aadd23ed5f83fa552b
+---> The cherrypicked commit sha is - 863f316336dae0af7b418d30b40959b5fdd9dcba
+Commit message - wild stab at a test for instance individual events unbinding 
+---> The original commit sha is - 0968b36c3332b250a95138aadd23ed5f83fa552b
+Commit message - wild stab at a test for instance individual events unbinding 
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ a493b2c10b2aabc97ba1a80501c4794d564ef2e9 -> 0e98b77f63e9fe46da1001534580fe9b63985681 } is a cherrypick
+{ e13a190ef9d0af1b12c835c02e30591dafbd1b8c -> bf781e25210fd0765e1d426e771ed3d6070ea8c7 }
+Cherrypick commits SHA are -> 
+0e98b77f63e9fe46da1001534580fe9b63985681 - cherrypick - bf781e25210fd0765e1d426e771ed3d6070ea8c7
+---> The cherrypicked commit sha is - 0e98b77f63e9fe46da1001534580fe9b63985681
+Commit message - destroyAll can accept options to pass to destroy
+---> The original commit sha is - bf781e25210fd0765e1d426e771ed3d6070ea8c7
+Commit message - Merge pull request #411 from sishen/destroy_all_with_options
+
+destroyAll can accept options to pass to destroy
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ 68f3ff646137181dab562795c3d13f935665df5a -> 49bcdb71fb2222b37f935a2796818941d27787e3 } is a cherrypick
+{ e2ad0d5d729b393c4e8a94a33139ede717dc3456 -> 20628f2987a9c76832bd43aff5c0817c1d8f32a0 }
+Cherrypick commits SHA are -> 
+49bcdb71fb2222b37f935a2796818941d27787e3 - cherrypick - 20628f2987a9c76832bd43aff5c0817c1d8f32a0
+---> The cherrypicked commit sha is - 49bcdb71fb2222b37f935a2796818941d27787e3
+Commit message - on/off events aliases
+---> The original commit sha is - 20628f2987a9c76832bd43aff5c0817c1d8f32a0
+Commit message - Merge branch 'master' into testUpdates
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ 8904207f6e3822c602867c3eea9cffc4501ff11b -> e9fd6eddc10c20ada4fa2d14bffd186c9259507b } is a cherrypick
+{ 9f7401612ab43e89b919bc4b154ae38e3967f421 -> d05729233ffe7720326f3427ac7e0471a6b70ae7 }
+Cherrypick commits SHA are -> 
+e9fd6eddc10c20ada4fa2d14bffd186c9259507b - cherrypick - d05729233ffe7720326f3427ac7e0471a6b70ae7
+---> The cherrypicked commit sha is - e9fd6eddc10c20ada4fa2d14bffd186c9259507b
+Commit message - working on updating Jasmine libs
+---> The original commit sha is - d05729233ffe7720326f3427ac7e0471a6b70ae7
+Commit message - Merge branch 'master' of github.com:spine/spine
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ 0ec6fcd367b673fd4a41ec1a46a17d9b39a0a772 -> cc8c2b7e1095cdba86a43c6edc37ae717fc3abe5 } is a cherrypick
+{ 28a0fe672eed6c58694403f6ed433ea5094fed7f -> 8904207f6e3822c602867c3eea9cffc4501ff11b }
+Cherrypick commits SHA are -> 
+cc8c2b7e1095cdba86a43c6edc37ae717fc3abe5 - cherrypick - 8904207f6e3822c602867c3eea9cffc4501ff11b
+---> The cherrypicked commit sha is - cc8c2b7e1095cdba86a43c6edc37ae717fc3abe5
+Commit message - Test case for #219.
+---> The original commit sha is - 8904207f6e3822c602867c3eea9cffc4501ff11b
+Commit message - Merge pull request #355 from pyykkis/test-case-for-219
+
+Test case for #219.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 14 is -> 
+{ df65f1550825dc2a15126a073bf72b139f09eff4 -> 3e90bf73c773ed92be77866753be337c2af51f28 } is a cherrypick
+{ d691e7f3cbaba68fa551f346e8042f3a9ffa9901 -> 4f8b247eb04c491432644969019c8ca566bf28fd }
+Cherrypick commits SHA are -> 
+3e90bf73c773ed92be77866753be337c2af51f28 - cherrypick - 4f8b247eb04c491432644969019c8ca566bf28fd
+---> The cherrypicked commit sha is - 3e90bf73c773ed92be77866753be337c2af51f28
+Commit message - More descriptive 'unknown record' errors
+---> The original commit sha is - 4f8b247eb04c491432644969019c8ca566bf28fd
+Commit message - Merge pull request #383 from adambiggs/descriptive-record-errors
+
+More descriptive "unknown record" errors
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 15 is -> 
+{ 6a6804054009e72500aeff20c75c8c6df9fa9f80 -> c1624c002bad4f9a61300beb4bf032e231540a52 } is a cherrypick
+{ cc8c2b7e1095cdba86a43c6edc37ae717fc3abe5 -> ba80bc8d3f4bba584706ea87ffeb80732f8c3f5b }
+Cherrypick commits SHA are -> 
+c1624c002bad4f9a61300beb4bf032e231540a52 - cherrypick - ba80bc8d3f4bba584706ea87ffeb80732f8c3f5b
+---> The cherrypicked commit sha is - c1624c002bad4f9a61300beb4bf032e231540a52
+Commit message - a few of the better bits (IMO) from pull request #346
+---> The original commit sha is - ba80bc8d3f4bba584706ea87ffeb80732f8c3f5b
+Commit message - Merge branch 'master' of github.com:spine/spine
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 16 is -> 
+{ 72c8b40a67e6ed9eacaf1283d449274b178f808e -> b8949e41dde15a144f076a502022df8d53f395aa } is a cherrypick
+{ d034f9555e34235d9bffa6a0c3d4fd6f9780c904 -> 0ec6fcd367b673fd4a41ec1a46a17d9b39a0a772 }
+Cherrypick commits SHA are -> 
+b8949e41dde15a144f076a502022df8d53f395aa - cherrypick - 0ec6fcd367b673fd4a41ec1a46a17d9b39a0a772
+---> The cherrypicked commit sha is - b8949e41dde15a144f076a502022df8d53f395aa
+Commit message - A more robust way to check if the model attribute exists
+
+previously the clone attribute wouldn't get removed if set to `null` or
+`undefined`.
+---> The original commit sha is - 0ec6fcd367b673fd4a41ec1a46a17d9b39a0a772
+Commit message - A more robust way to check if the model attribute exists
+
+previously the clone attribute wouldn't get removed if set to `null` or
+`undefined`.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 17 is -> 
+{ a89d630e42fe1a656ed98bf26336d5b10dc8e0dc -> b49fe7f1b86b9881fc3238f21ecc1c6c845d2130 } is a cherrypick
+{ eee6981c8dd5bf5483bc127283f785efefd40f16 -> d034f9555e34235d9bffa6a0c3d4fd6f9780c904 }
+Cherrypick commits SHA are -> 
+b49fe7f1b86b9881fc3238f21ecc1c6c845d2130 - cherrypick - d034f9555e34235d9bffa6a0c3d4fd6f9780c904
+---> The cherrypicked commit sha is - b49fe7f1b86b9881fc3238f21ecc1c6c845d2130
+Commit message - Built CS file
+---> The original commit sha is - d034f9555e34235d9bffa6a0c3d4fd6f9780c904
+Commit message - Built CS file
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 18 is -> 
+{ ec29744d1e85f94fbd3c2ee75f8d0366831fb62c -> 37bdb685c6b8244de2c873d03da7072138089c8d } is a cherrypick
+{ 4bbf07f864e590ab41cfc4c0cae46b654fc84fa9 -> 8d13f95a78b2ff4865fd06d063d219f5b827a79e }
+Cherrypick commits SHA are -> 
+37bdb685c6b8244de2c873d03da7072138089c8d - cherrypick - 8d13f95a78b2ff4865fd06d063d219f5b827a79e
+---> The cherrypicked commit sha is - 37bdb685c6b8244de2c873d03da7072138089c8d
+Commit message - Fixed false-negative attribute check bug.
+
+The check now allows for "false" boolean attributes.
+---> The original commit sha is - 8d13f95a78b2ff4865fd06d063d219f5b827a79e
+Commit message - Fixed false-negative attribute check bug.
+
+The check now allows for "false" boolean attributes.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 19 is -> 
+{ 38b810160819ad19bc450ec5b1caf4d9d930b84e -> ec29744d1e85f94fbd3c2ee75f8d0366831fb62c } is a cherrypick
+{ a67dc2f15dda2308217d6e79921d1f0b77aa616d -> 4bbf07f864e590ab41cfc4c0cae46b654fc84fa9 }
+Cherrypick commits SHA are -> 
+ec29744d1e85f94fbd3c2ee75f8d0366831fb62c - cherrypick - 4bbf07f864e590ab41cfc4c0cae46b654fc84fa9
+---> The cherrypicked commit sha is - ec29744d1e85f94fbd3c2ee75f8d0366831fb62c
+Commit message - Renamed method to stripCloneAttrs()
+---> The original commit sha is - 4bbf07f864e590ab41cfc4c0cae46b654fc84fa9
+Commit message - Renamed method to stripCloneAttrs()
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 20 is -> 
+{ 3c67d54c9d501df0e30f5c5ecc6b51aa5211a48b -> a69d8087fe23f61b8b77fd64382e695169004f24 } is a cherrypick
+{ cd271d9e582a4d1812b7267adfbb801cfc3dae1b -> f5ddb702fdd5b85157f5af8c746514365419c60a }
+Cherrypick commits SHA are -> 
+a69d8087fe23f61b8b77fd64382e695169004f24 - cherrypick - f5ddb702fdd5b85157f5af8c746514365419c60a
+---> The cherrypicked commit sha is - a69d8087fe23f61b8b77fd64382e695169004f24
+Commit message - Fix routing bug with fragments
+---> The original commit sha is - f5ddb702fdd5b85157f5af8c746514365419c60a
+Commit message - Merge branch 'master' of github.com:maccman/spine
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 21 is -> 
+{ 6717a95bbfb028093b76c961bf5c48e09b2bc3d5 -> 8c560f6496373ff2cec46d5663b48ec62478e7f3 } is a cherrypick
+{ ef55f075a2387bf496a21248b32b9e82fe5b8f92 -> 43195d43c374482454c4b4702e5fa69276d728a7 }
+Cherrypick commits SHA are -> 
+8c560f6496373ff2cec46d5663b48ec62478e7f3 - cherrypick - 43195d43c374482454c4b4702e5fa69276d728a7
+---> The cherrypicked commit sha is - 8c560f6496373ff2cec46d5663b48ec62478e7f3
+Commit message - Dirty plugin for SpineJS. So the model object can bind the event
+"change:#{field} to trigger event when the field value is changed.
+
+By default it's off and if need this feature, the model should
+extend Spine.Model.Dirty
+---> The original commit sha is - 43195d43c374482454c4b4702e5fa69276d728a7
+Commit message - Merge pull request #301 from sishen/dirty_plugin
+
+Dirty plugin for SpineJS. 
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 22 is -> 
+{ 3bbb454e3ccd95cc440cdbf7df82c1d4e89beb70 -> 5d6874dd35bea843c919f010e1b1175c9760dea6 } is a cherrypick
+{ 5f311d35e44e7105721b3b0f829944b0412ebfae -> 700a7341d9a48611b2d9da7ca191b56afc40918b }
+Cherrypick commits SHA are -> 
+5d6874dd35bea843c919f010e1b1175c9760dea6 - cherrypick - 700a7341d9a48611b2d9da7ca191b56afc40918b
+---> The cherrypicked commit sha is - 5d6874dd35bea843c919f010e1b1175c9760dea6
+Commit message - Add try/catch block around Ajax.disable callback so that it doesn't leave ajax disabled if errors occur in the callback
+---> The original commit sha is - 700a7341d9a48611b2d9da7ca191b56afc40918b
+Commit message - Merge pull request #240 from jeremyhaile/try-catch-ajax-disable
+
+Try/catch around Ajax.disable callback
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 23 is -> 
+{ 648bdbd1e8e34bf55a2b765c064f7037aef8e597 -> e258b37832a1bfb28c774d1d264fb5495f4349f2 } is a cherrypick
+{ 58c7f4a6308b7997472c329b66475e63a4723ea6 -> 700559889e86ce2abc7f5416344b0004cc11d1c2 }
+Cherrypick commits SHA are -> 
+e258b37832a1bfb28c774d1d264fb5495f4349f2 - cherrypick - 700559889e86ce2abc7f5416344b0004cc11d1c2
+---> The cherrypicked commit sha is - e258b37832a1bfb28c774d1d264fb5495f4349f2
+Commit message - IE has a bug in  regex.exec where it doesn't reset the internal
+reference to regex.lastIndex when it begins a new cycle in the
+construction "while (match = namedParam.exec(path))". This was causing
+the params of the second route I registered to start at the index
+that my first route left off.
+
+Adding a line above the loop in route.coffee reseting
+namedParam.lastIndex to 0 corrects this behavior and matches the
+behavior of chrome. You can see it in my commit on line 108 of
+routes.coffee.
+
+Thank you for the amazing project!
+---> The original commit sha is - 700559889e86ce2abc7f5416344b0004cc11d1c2
+Commit message - Merge branch 'master' of github.com:maccman/spine
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 24 is -> 
+{ afc85a6578307c272f3f2a0838aea556c3beb0cd -> 6a0283a6c68ede08dcdf384afa318305d7e53489 } is a cherrypick
+{ 440a56a6cf21bc898fea971a2832d2097a29dd2a -> 82057e3a73583340254f10afa0e5de67868cfae3 }
+Cherrypick commits SHA are -> 
+6a0283a6c68ede08dcdf384afa318305d7e53489 - cherrypick - 82057e3a73583340254f10afa0e5de67868cfae3
+---> The cherrypicked commit sha is - 6a0283a6c68ede08dcdf384afa318305d7e53489
+Commit message - fix jslint warnings
+---> The original commit sha is - 82057e3a73583340254f10afa0e5de67868cfae3
+Commit message - Merge branch 'master' of github.com:maccman/spine
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 25 is -> 
+{ 3408cf4b470c56ac60423fee795c3871fba2daea -> 2460e369755335afc0a7076cd698a85b4c487524 } is a cherrypick
+{ 53ce9fb73f040414288552b3f445bef1f73b53a3 -> e092456819c17d3eb5632e9e6a2f1ed789847b6d }
+Cherrypick commits SHA are -> 
+2460e369755335afc0a7076cd698a85b4c487524 - cherrypick - e092456819c17d3eb5632e9e6a2f1ed789847b6d
+---> The cherrypicked commit sha is - 2460e369755335afc0a7076cd698a85b4c487524
+Commit message - Edited site/site.md via GitHub
+---> The original commit sha is - e092456819c17d3eb5632e9e6a2f1ed789847b6d
+Commit message - Merge branch 'master' of github.com:maccman/spine
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 26 is -> 
+{ 539323853b6245e15fad9490ce1a4e5484458796 -> 3aa5043225fe2d80f8bd611a4ed6f8d103e61074 } is a cherrypick
+{ 0cd413b940aac4cd4e84a49d72f6a3620b3b669d -> af64ba8f20353b86295fbf786587d684b0392fa6 }
+Cherrypick commits SHA are -> 
+3aa5043225fe2d80f8bd611a4ed6f8d103e61074 - cherrypick - af64ba8f20353b86295fbf786587d684b0392fa6
+---> The cherrypicked commit sha is - 3aa5043225fe2d80f8bd611a4ed6f8d103e61074
+Commit message - @each() should return clones
+---> The original commit sha is - af64ba8f20353b86295fbf786587d684b0392fa6
+Commit message - Merge pull request #84 from chetan51/cs
+
+Added dataType (json) to Ajax Base class to fix issues with Rails
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 27 is -> 
+{ f544ab76b044da561b6b15b0c6ac4042a8db8b15 -> 8065c77ecdec19bd387336d34f1c6d79846429ab } is a cherrypick
+{ 599be140baa9fc19c4cfc6ecec6dd254de48fcd7 -> fe514ee5cba53e8ebb816c06cdc0e37bd22bcf34 }
+Cherrypick commits SHA are -> 
+8065c77ecdec19bd387336d34f1c6d79846429ab - cherrypick - fe514ee5cba53e8ebb816c06cdc0e37bd22bcf34
+---> The cherrypicked commit sha is - 8065c77ecdec19bd387336d34f1c6d79846429ab
+Commit message - @ajax is a function not a value.
+---> The original commit sha is - fe514ee5cba53e8ebb816c06cdc0e37bd22bcf34
+Commit message - Merge branch 'cs' of github.com:maccman/spine into cs
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 28 is -> 
+{ c3f5726e7aeeddd7a2654856c14fa87082916f3e -> d2c2a329434a64fb9abe7f34de821c6d94fe4fd1 } is a cherrypick
+{ 024ce6df21aa5e6b814a63409735f39e291ef614 -> 38fc35c28f4998b05b9298a32b098de7c97a3d24 }
+Cherrypick commits SHA are -> 
+d2c2a329434a64fb9abe7f34de821c6d94fe4fd1 - cherrypick - 38fc35c28f4998b05b9298a32b098de7c97a3d24
+---> The cherrypicked commit sha is - d2c2a329434a64fb9abe7f34de821c6d94fe4fd1
+Commit message - Edited bind example to show that multiple arguments can be passed.
+---> The original commit sha is - 38fc35c28f4998b05b9298a32b098de7c97a3d24
+Commit message - Merge branch 'master' of github.com:maccman/spine
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 29 is -> 
+{ 3d4f97cb76fec6221640c748f6128f756ee0908e -> f69fd70cc86b3c498cc264dcfa7a1fc6633b023b } is a cherrypick
+{ d32043d08ab45aa995e12f3fe965373509c7e80c -> fbf27d5753f7edb4bf0798dc5d745b0051564e1f }
+Cherrypick commits SHA are -> 
+f69fd70cc86b3c498cc264dcfa7a1fc6633b023b - cherrypick - fbf27d5753f7edb4bf0798dc5d745b0051564e1f
+---> The cherrypicked commit sha is - f69fd70cc86b3c498cc264dcfa7a1fc6633b023b
+Commit message - make ajax prefix customizable per model
+---> The original commit sha is - fbf27d5753f7edb4bf0798dc5d745b0051564e1f
+Commit message - Merge branch 'master' into gh-pages
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 30 is -> 
+{ f9f6ad13fa054a4b643db9035823bd2d41321533 -> a494a1f5ba150089693d079f070944139ebd0e47 } is a cherrypick
+{ 97dcd35c5b2d308572bfeafa029719725eb0fc27 -> bc7a65cefc6bfaf15f97551e88c0c1e296d13c37 }
+Cherrypick commits SHA are -> 
+a494a1f5ba150089693d079f070944139ebd0e47 - cherrypick - bc7a65cefc6bfaf15f97551e88c0c1e296d13c37
+---> The cherrypicked commit sha is - a494a1f5ba150089693d079f070944139ebd0e47
+Commit message - Allow to pass params to Fetch ajax requests
+---> The original commit sha is - bc7a65cefc6bfaf15f97551e88c0c1e296d13c37
+Commit message - Merge pull request #16 from jaysalvat/master
+
+Parameters to Model.fetch() ajax requests
+-----------------------------------------------------------------
+

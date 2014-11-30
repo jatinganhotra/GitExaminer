@@ -1,0 +1,1605 @@
+# of reverts = 103
+Revert diff pair 1 is -> 
+{ ef98e5b91e7bd48b95d800072a0df37ecab9ff01 -> 43b98a75b0c47b6a5bc9a7018d62d27e2ba75227 } is a revert
+{ 43b98a75b0c47b6a5bc9a7018d62d27e2ba75227 -> 51688d2563c1ed2ff40e998913543091e0cf7b41 }
+Revert commits SHA are -> 
+43b98a75b0c47b6a5bc9a7018d62d27e2ba75227 - revert - 51688d2563c1ed2ff40e998913543091e0cf7b41
+---> The reverted commit sha is - 43b98a75b0c47b6a5bc9a7018d62d27e2ba75227
+Commit message - Set Stream._label in constructor.
+---> The original commit sha is - 51688d2563c1ed2ff40e998913543091e0cf7b41
+Commit message - Merge pull request #9756 from rwjblue/update-compat-make-bound-helper-to-stream-label
+
+Use Stream.prototype._label for Handlebars compat makeBoundHelper.
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ fae537d0a5ab4a95d49c3f7071d989ce93616d0f -> 8f24736e87c94e29f6d174b31c90988ce092f28a } is a revert
+{ 8f24736e87c94e29f6d174b31c90988ce092f28a -> 6a396c0a97bec0e54b66d76547a780bc519f0aba }
+Revert commits SHA are -> 
+8f24736e87c94e29f6d174b31c90988ce092f28a - revert - 6a396c0a97bec0e54b66d76547a780bc519f0aba
+---> The reverted commit sha is - 8f24736e87c94e29f6d174b31c90988ce092f28a
+Commit message - Use ember-htmlbars/system/compile
+---> The original commit sha is - 6a396c0a97bec0e54b66d76547a780bc519f0aba
+Commit message - Merge pull request #9728 from twokul/each-tests
+
+Moves `{{each}}` tests
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 4c8afc3e5f097e893f6db65b9c0d9f17d45656bd -> aea5c4c60aa6017ada33d6940bd8b0c623376106 } is a revert
+{ cb461a5e91d19c5fd214d37e2a23e2de25576e3b -> 0b42417c0ba80dbbcc6e171e51e20bf8ceb9a112 }
+Revert commits SHA are -> 
+aea5c4c60aa6017ada33d6940bd8b0c623376106 - revert - 0b42417c0ba80dbbcc6e171e51e20bf8ceb9a112
+---> The reverted commit sha is - aea5c4c60aa6017ada33d6940bd8b0c623376106
+Commit message - Removes CodeClimate badge
+
+CodeClimate doesn't support ES6 modules so the score
+doesn't reflect the actual quality of the code.
+---> The original commit sha is - 0b42417c0ba80dbbcc6e171e51e20bf8ceb9a112
+Commit message - Merge pull request #9680 from JacobNinja/master
+
+Add Code Climate badge
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ 30f554a966e936a8fad9663197bb8d4d74a2dbba -> cb59f0631a9d65be902e4d5e957a324290b38368 } is a revert
+{ cb59f0631a9d65be902e4d5e957a324290b38368 -> 145cce31851f974989d6159ea580d3eb44a26d22 }
+Revert commits SHA are -> 
+cb59f0631a9d65be902e4d5e957a324290b38368 - revert - 145cce31851f974989d6159ea580d3eb44a26d22
+---> The reverted commit sha is - cb59f0631a9d65be902e4d5e957a324290b38368
+Commit message - Renaming test module
+---> The original commit sha is - 145cce31851f974989d6159ea580d3eb44a26d22
+Commit message - Merge pull request #9658 from rwjblue/htmlbars-enable-compat
+
+Enable Handlebars compat mode when HTMLBars is enabled.
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ 923f41ac950acc5f4cbdf61416f36ffc4f627932 -> 0f3abdd25f04c459c2d6ef4015251a49a3e38a8d } is a revert
+{ 0f3abdd25f04c459c2d6ef4015251a49a3e38a8d -> be36bd27764544d5eec3f484a8d984ffed74ed0d }
+Revert commits SHA are -> 
+0f3abdd25f04c459c2d6ef4015251a49a3e38a8d - revert - be36bd27764544d5eec3f484a8d984ffed74ed0d
+---> The reverted commit sha is - 0f3abdd25f04c459c2d6ef4015251a49a3e38a8d
+Commit message - [DOC release] Fix doc bug where forEach parameter order is wrong
+
+Seems the code was updated to match ES6 but not the docs.
+---> The original commit sha is - be36bd27764544d5eec3f484a8d984ffed74ed0d
+Commit message - Merge pull request #9631 from rwjblue/htmlbars-handlebars-compat
+
+Add HTMLBars `makeHandlebarsCompatibleHelper` function.
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ a14b313dc6f180dab402ceb07abdc2db1a3ed673 -> 1e2a8fdbec4cb2a916c6536626f5c91da2735105 } is a revert
+{ 1e2a8fdbec4cb2a916c6536626f5c91da2735105 -> d93a6cccd4c3c82d168a547fc9f90fca06ce0f3e }
+Revert commits SHA are -> 
+1e2a8fdbec4cb2a916c6536626f5c91da2735105 - revert - d93a6cccd4c3c82d168a547fc9f90fca06ce0f3e
+---> The reverted commit sha is - 1e2a8fdbec4cb2a916c6536626f5c91da2735105
+Commit message - cleanup core object init argument passing
+
+- don't allocate new array if no arguments exist
+- don't do costly apply, if there are not multiple (or any) arguments to apply to
+
+test run stats:
+
+1 arguments 10153
+2 arguments   490
+3 arguments     0
+4 arguments     5
+
+(yes apps may use this differently, but ultimately the 1 argument case is the most common, and most hot-paths are in ember-corec)
+---> The original commit sha is - d93a6cccd4c3c82d168a547fc9f90fca06ce0f3e
+Commit message - Merge pull request #9558 from adamesque/patch-1
+
+Clarify that SHIM_ES5 only adds Array methods
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ eb0860a0f1bd4b367c6303abd200962a1ccae474 -> 67a4cc1bcb14efc38085d7a9acbd91bd4dd9a6b8 } is a revert
+{ 67a4cc1bcb14efc38085d7a9acbd91bd4dd9a6b8 -> 8567683c6d1af9d43c5c5c1a9bb338deedac01e3 }
+Revert commits SHA are -> 
+67a4cc1bcb14efc38085d7a9acbd91bd4dd9a6b8 - revert - 8567683c6d1af9d43c5c5c1a9bb338deedac01e3
+---> The reverted commit sha is - 67a4cc1bcb14efc38085d7a9acbd91bd4dd9a6b8
+Commit message - [BUGFIX beta] Assert existence of `name` property for registered initializers
+---> The original commit sha is - 8567683c6d1af9d43c5c5c1a9bb338deedac01e3
+Commit message - Merge pull request #9513 from knownasilya/patch-2
+
+[DOC release] Cleanup application api code examples
+-----------------------------------------------------------------
+
+Revert diff pair 8 is -> 
+{ c0ace516376c3bef8c7187af8677cb859ca73e95 -> 34730392ab2493fbbb9d10a38f14c23078c930da } is a revert
+{ 34730392ab2493fbbb9d10a38f14c23078c930da -> 694dfbcfc278c22e60b1dba16ae882cb18967b54 }
+Revert commits SHA are -> 
+34730392ab2493fbbb9d10a38f14c23078c930da - revert - 694dfbcfc278c22e60b1dba16ae882cb18967b54
+---> The reverted commit sha is - 34730392ab2493fbbb9d10a38f14c23078c930da
+Commit message - Make the action helper examples syntax hilight correctly.
+---> The original commit sha is - 694dfbcfc278c22e60b1dba16ae882cb18967b54
+Commit message - Merge pull request #9502 from rwjblue/fix-defeatureify-nesting
+
+[BUGFIX beta] Remove stripped statement nesting.
+-----------------------------------------------------------------
+
+Revert diff pair 9 is -> 
+{ 3c7f1986ce2e38b74cf9ab9eccd04da84b7ef706 -> cdfc3519d0e4be30ee6e5ef40aaa078f26f2f603 } is a revert
+{ cdfc3519d0e4be30ee6e5ef40aaa078f26f2f603 -> acd90344a3e2fdc7d5eb98084e4666230f5e9673 }
+Revert commits SHA are -> 
+cdfc3519d0e4be30ee6e5ef40aaa078f26f2f603 - revert - acd90344a3e2fdc7d5eb98084e4666230f5e9673
+---> The reverted commit sha is - cdfc3519d0e4be30ee6e5ef40aaa078f26f2f603
+Commit message - Fix old comments
+---> The original commit sha is - acd90344a3e2fdc7d5eb98084e4666230f5e9673
+Commit message - Merge pull request #9452 from cibernox/master
+
+Fix path of data.json
+-----------------------------------------------------------------
+
+Revert diff pair 10 is -> 
+{ 3846a10a9a443cbd03dfac385531a52f179be3b9 -> ccc53a30999ad66413fcdfa8be8311d6b6b90555 } is a revert
+{ ccc53a30999ad66413fcdfa8be8311d6b6b90555 -> 02048b6b9ee3a6cd3418ebeed429996ba168637b }
+Revert commits SHA are -> 
+ccc53a30999ad66413fcdfa8be8311d6b6b90555 - revert - 02048b6b9ee3a6cd3418ebeed429996ba168637b
+---> The reverted commit sha is - ccc53a30999ad66413fcdfa8be8311d6b6b90555
+Commit message - [Bugfix Beta] Improve Ember.Map
+
+* [Perf + ES6] no longer clone array before enumeration (dramatically reduce allocations)
+* [Perf] Don’t rebind the callback of forEach if not needed
+* [Perf + ES6] no longer allow Map#length to be bindable
+* [Perf] don’t double guid keys, as they are passed from map to ordered set (add/remove)
+* [ES6] deprecate Map#remove in-favor of the es6 Map#delete
+* [ES6] error if callback is not a function
+* [ES6] Map#set should return the map. This enables chaining map.`map.set(‘foo’,1).set(‘bar’,3);` etc
+* [ES6] remove length in-favor of size.
+* [ES6] throw if constructor is invoked without new
+* [ES6] Make inheritance work correctly
+---> The original commit sha is - 02048b6b9ee3a6cd3418ebeed429996ba168637b
+Commit message - Merge pull request #5532 from rwjblue/allow-production-only-feature-flags
+
+Allow development only feature flags.
+-----------------------------------------------------------------
+
+Revert diff pair 11 is -> 
+{ 2873ea530e4a6e7184af5b0ae3d51e1e6b942470 -> 714fa89b9e4adbd1f1681fe29a519fe363179689 } is a revert
+{ 32766c8ad1ad15cbb05cbf3aca39f2d55d29286e -> fdc817c657bddf35f1944f30c239d96864ec2c9a }
+Revert commits SHA are -> 
+714fa89b9e4adbd1f1681fe29a519fe363179689 - revert - fdc817c657bddf35f1944f30c239d96864ec2c9a
+---> The reverted commit sha is - 714fa89b9e4adbd1f1681fe29a519fe363179689
+Commit message - Merge pull request #5443 from stefanpenner/micro-perf
+
+micro-perf: out of 1650/1800 calls superMethod is undefined.
+---> The original commit sha is - fdc817c657bddf35f1944f30c239d96864ec2c9a
+Commit message - Merge pull request #5467 from rwjblue/remove-ast-precompile-feature
+
+[FEATURE ember-handlebars-compiler-ast-to-precompile] Revert.
+-----------------------------------------------------------------
+
+Revert diff pair 12 is -> 
+{ 2873ea530e4a6e7184af5b0ae3d51e1e6b942470 -> 714fa89b9e4adbd1f1681fe29a519fe363179689 } is a revert
+{ 6943ac5dad3923bcdffcdaa0f4d04ba3876d1215 -> 803fdc9180a5cb660e679d365081a1d181890205 }
+Revert commits SHA are -> 
+714fa89b9e4adbd1f1681fe29a519fe363179689 - revert - 803fdc9180a5cb660e679d365081a1d181890205
+---> The reverted commit sha is - 714fa89b9e4adbd1f1681fe29a519fe363179689
+Commit message - Merge pull request #5443 from stefanpenner/micro-perf
+
+micro-perf: out of 1650/1800 calls superMethod is undefined.
+---> The original commit sha is - 803fdc9180a5cb660e679d365081a1d181890205
+Commit message - Merge pull request #5444 from stefanpenner/detect-super
+
+perf: only wrap methods that container _super in the function body
+-----------------------------------------------------------------
+
+Revert diff pair 13 is -> 
+{ e32556257fab7cdf24dadf26fe2ffed9c8eb5493 -> 2873ea530e4a6e7184af5b0ae3d51e1e6b942470 } is a revert
+{ 2873ea530e4a6e7184af5b0ae3d51e1e6b942470 -> 714fa89b9e4adbd1f1681fe29a519fe363179689 }
+Revert commits SHA are -> 
+2873ea530e4a6e7184af5b0ae3d51e1e6b942470 - revert - 714fa89b9e4adbd1f1681fe29a519fe363179689
+---> The reverted commit sha is - 2873ea530e4a6e7184af5b0ae3d51e1e6b942470
+Commit message - perf: only wrap methods that container _super in the function body
+
+Some statistics:
+
+50 / 122 only 40% of methods currently being superWrapped need to be.
+
+stress app boot: superWrapper calls before: 48746 after: 21094
+
+This seems to reduce the cost of total consumed superWrapper time by the same ratio (about 40%) but also has have a net positive impact on all functions that now don't need go through the wrapper. This allows those traces to be optimized and further inlined.
+
+Another nice bonus, is that methods not needing to be wrapped are also now much more debuggable.
+---> The original commit sha is - 714fa89b9e4adbd1f1681fe29a519fe363179689
+Commit message - Merge pull request #5443 from stefanpenner/micro-perf
+
+micro-perf: out of 1650/1800 calls superMethod is undefined.
+-----------------------------------------------------------------
+
+Revert diff pair 14 is -> 
+{ 679c2b88d8fbc121615b6170616fc357d411b27f -> 52464793dcde392a796ba2bee2118e6f25ec1acd } is a revert
+{ 52464793dcde392a796ba2bee2118e6f25ec1acd -> 094b0bf2f1b99cfb4ba191551174dbd9dc0d84fd }
+Revert commits SHA are -> 
+52464793dcde392a796ba2bee2118e6f25ec1acd - revert - 094b0bf2f1b99cfb4ba191551174dbd9dc0d84fd
+---> The reverted commit sha is - 52464793dcde392a796ba2bee2118e6f25ec1acd
+Commit message - Ensure defineProperties shim has a defineProperty to use.
+
+The Object.create shim uses a `defineProperty` local function, but
+in the case of IE8 we nullify the `defineProperty` local function
+and never reset it to what we use for `platform.defineProperty`.
+---> The original commit sha is - 094b0bf2f1b99cfb4ba191551174dbd9dc0d84fd
+Commit message - Merge pull request #5420 from rwjblue/tagnames-are-all-caps-on-ie8
+
+Tags are all caps under IE8. Fix test assuming lower.
+-----------------------------------------------------------------
+
+Revert diff pair 15 is -> 
+{ 06cf7668275fd02ead71590825868a514ceff64d -> 05461817869a0b004d1bf1ab288d2b2b398e03dd } is a revert
+{ 05461817869a0b004d1bf1ab288d2b2b398e03dd -> 4d5cd7fb88a4c3ff9461c67b8c3345ab32ea6c13 }
+Revert commits SHA are -> 
+05461817869a0b004d1bf1ab288d2b2b398e03dd - revert - 4d5cd7fb88a4c3ff9461c67b8c3345ab32ea6c13
+---> The reverted commit sha is - 05461817869a0b004d1bf1ab288d2b2b398e03dd
+Commit message - Add controller model property to documentation.
+---> The original commit sha is - 4d5cd7fb88a4c3ff9461c67b8c3345ab32ea6c13
+Commit message - Merge pull request #5377 from Myztiq/link-to-tabindex
+
+[FEATURE ember-routing-linkto-tabindex-attribute]
+-----------------------------------------------------------------
+
+Revert diff pair 16 is -> 
+{ 94ad2f4d20b09aefe0e1698601124cda3c04a86f -> c6f8bb1798946ae1278b7f4101fccca8ea02c30c } is a revert
+{ c6f8bb1798946ae1278b7f4101fccca8ea02c30c -> 8a28c621f87a33ffc2a63cb5722a8eea7951ac28 }
+Revert commits SHA are -> 
+c6f8bb1798946ae1278b7f4101fccca8ea02c30c - revert - 8a28c621f87a33ffc2a63cb5722a8eea7951ac28
+---> The reverted commit sha is - c6f8bb1798946ae1278b7f4101fccca8ea02c30c
+Commit message - [Bugfix beta] passing the arguments to any function other then Function.prototype.apply makes v8 very unhappy. This now prevents Class + reopen/extend etc from deopting.
+---> The original commit sha is - 8a28c621f87a33ffc2a63cb5722a8eea7951ac28
+Commit message - Merge pull request #5222 from rondale-sc/router_to_bower_component
+
+Reference and build from router/router.js and remove amd
+-----------------------------------------------------------------
+
+Revert diff pair 17 is -> 
+{ e0d185778e296df6256dd42c444a79e4f5ab7712 -> 1ff5df4b65d268e346195b2749a76419649bf6f4 } is a revert
+{ 1ff5df4b65d268e346195b2749a76419649bf6f4 -> 8c285decbcd5669fca772d1f80c5a16d683c2946 }
+Revert commits SHA are -> 
+1ff5df4b65d268e346195b2749a76419649bf6f4 - revert - 8c285decbcd5669fca772d1f80c5a16d683c2946
+---> The reverted commit sha is - 1ff5df4b65d268e346195b2749a76419649bf6f4
+Commit message - Relocate RSVP configuration.
+
+Ember.DeferredMixin will ultimately be deprecated and removed, but this
+configuration (that allows test friendly promises) is not related to
+Ember.DeferredMixin anyways.
+
+This just moves that code out of the DeferredMixin.
+---> The original commit sha is - 8c285decbcd5669fca772d1f80c5a16d683c2946
+Commit message - Merge pull request #5205 from dschmidt/master
+
+[BUGFIX] Don't pass function UNDEFINED as oldValue to computed properties
+-----------------------------------------------------------------
+
+Revert diff pair 18 is -> 
+{ c9d6a6095f16f736ddec83412212930eaeabdc13 -> 33cdd0f57b7c25e436955c960218d6c5767875a0 } is a revert
+{ 33cdd0f57b7c25e436955c960218d6c5767875a0 -> b22130b63434438395b0327566431bfd5d3faeba }
+Revert commits SHA are -> 
+33cdd0f57b7c25e436955c960218d6c5767875a0 - revert - b22130b63434438395b0327566431bfd5d3faeba
+---> The reverted commit sha is - 33cdd0f57b7c25e436955c960218d6c5767875a0
+Commit message - [DOC release] clarify when didInsertElement is called
+---> The original commit sha is - b22130b63434438395b0327566431bfd5d3faeba
+Commit message - Merge pull request #5005 from sandstrom/patch-1
+
+Minor adjustment to guid prefix
+-----------------------------------------------------------------
+
+Revert diff pair 19 is -> 
+{ fb098d761137744add367bb53a1c279a4a09ffb9 -> a2f948c629be1694ee4e2f5f6399a14ae1cef481 } is a revert
+{ a2f948c629be1694ee4e2f5f6399a14ae1cef481 -> 0b7e83b9f0eabe082837b63b6307c8e1096126be }
+Revert commits SHA are -> 
+a2f948c629be1694ee4e2f5f6399a14ae1cef481 - revert - 0b7e83b9f0eabe082837b63b6307c8e1096126be
+---> The reverted commit sha is - a2f948c629be1694ee4e2f5f6399a14ae1cef481
+Commit message - Cleanup non-stripped feature flag.
+
+Unfortunately, we can't do actual logic in our feature flags (or they
+don't get stripped out). This is somewhat important when we enable a
+feature by default, as the `FEATURE.isEnabled` check does not get
+stripped, but the `ENV` var is also likely not present, massive trolling
+ensues.
+---> The original commit sha is - 0b7e83b9f0eabe082837b63b6307c8e1096126be
+Commit message - Fix JSHint issue with _renderToBuffer refactor.
+
+This was introduced with fb098d761137744add367bb53a1c279a4a09ffb9.
+-----------------------------------------------------------------
+
+Revert diff pair 20 is -> 
+{ c974f6e84a583b2dce61800efe9f6b606d92c685 -> c1309a20290254d315b248723d883c95db9f17e5 } is a revert
+{ 012e32985bd8640b7a9e191ed36856c1e6f2019e -> dd4ff05856a4e010f19bcc891737e2cd0180e1ac }
+Revert commits SHA are -> 
+c1309a20290254d315b248723d883c95db9f17e5 - revert - dd4ff05856a4e010f19bcc891737e2cd0180e1ac
+---> The reverted commit sha is - c1309a20290254d315b248723d883c95db9f17e5
+Commit message - [BUGFIX beta] Total invalidation of arrayComputed by non-array dependencies should be synchronous
+---> The original commit sha is - dd4ff05856a4e010f19bcc891737e2cd0180e1ac
+Commit message - Revert "[BUGFIX beta] Total invalidation of arrayComputed by non-array dependencies should be synchronous"
+
+This reverts commit 7af8beb0bb9e484ab7427b447f6b6dbb76b4aad8 which attempted to
+bring the semantics of ReduceComputedProperty closer to those of ComputedProperty
+but inadvertently introduced a performance regression in some cases.
+
+ComputedProperty guarantees that any `set` calls that occur before a `get` call
+will be run before the `get` call is triggered. For example
+
+```javascript
+var obj = Ember.Object.extend({
+  foo: Ember.computed.alias('bar')
+}).create();
+
+obj.set('foo', 1);
+obj.get('foo'); // returns 1
+```
+
+For technical reasons ReduceComputedProperty does not offer the same
+guarantees.
+
+```javascript
+var obj = Ember.Object.extend({
+  filtered: Ember.computed.filter('things', function(n) {
+    return n % 2 === this.get('parity');
+  }).property('things', 'parity')
+}).create({
+  things: [0, 1, 2, 3, 4, 5]
+});
+
+o.set('parity', 0);
+o.get('filtered'); // returns [0, 2, 4]
+
+o.set('parity', 1);
+o.get('filtered'); // returns [0, 2, 4], but we expected [1, 3, 5]
+
+Ember.run.next(function() {
+  o.get('filtered'); // returns [1, 3, 5]
+});
+```
+
+The commit fixed this issue but introduced a performance regression. Every call
+to `set` would eagerly force a recomputation of the reduced computed value,
+instead of deferring the work until a subsequent `get` call. This was seen
+most prominently in Ember.computed.sort with sortProperties that changed
+quickly. You can find more details about the regression at:
+
+https://github.com/emberjs/ember.js/issues/4712
+https://github.com/emberjs/ember.js/issues/4740
+
+Conflicts:
+	packages_es6/ember-runtime/tests/computed/reduce_computed_test.js
+-----------------------------------------------------------------
+
+Revert diff pair 21 is -> 
+{ ee38707be9d58d4b974127715a917d715109647f -> ae9cb0cbefeefdee8d026d30f305eb9119e638a3 } is a revert
+{ ae9cb0cbefeefdee8d026d30f305eb9119e638a3 -> ff53f8fcf09092b939ad4f3f9d288f384e0b4f03 }
+Revert commits SHA are -> 
+ae9cb0cbefeefdee8d026d30f305eb9119e638a3 - revert - ff53f8fcf09092b939ad4f3f9d288f384e0b4f03
+---> The reverted commit sha is - ae9cb0cbefeefdee8d026d30f305eb9119e638a3
+Commit message - [DOC beta] Update the FEATURES.isEnabled docs so it doesn't look like a method on the Ember object.
+---> The original commit sha is - ff53f8fcf09092b939ad4f3f9d288f384e0b4f03
+Commit message - Merge pull request #4703 from bmac/cleanup-yuidoc-warnings
+
+[DOC beta] Fix warnings generated by yuidoc.
+-----------------------------------------------------------------
+
+Revert diff pair 22 is -> 
+{ 85e6b6f31ec9af8b750d1f8578ebb57febcc6687 -> 8bbcbed46aa807f52040c5bb185b6d64807fc363 } is a revert
+{ 8bbcbed46aa807f52040c5bb185b6d64807fc363 -> efd5e0121fa6c98cd32c6402ea7803517fed8296 }
+Revert commits SHA are -> 
+8bbcbed46aa807f52040c5bb185b6d64807fc363 - revert - efd5e0121fa6c98cd32c6402ea7803517fed8296
+---> The reverted commit sha is - 8bbcbed46aa807f52040c5bb185b6d64807fc363
+Commit message - fix readme inconsistencies
+---> The original commit sha is - efd5e0121fa6c98cd32c6402ea7803517fed8296
+Commit message - Merge pull request #4693 from bmac/fix-doc-build
+
+[BUGFIX beta] Update the yuidoc paths to the new packages_es6 directory.
+-----------------------------------------------------------------
+
+Revert diff pair 23 is -> 
+{ 33f1689bb24505f69757de03ca1d0263b2c2177e -> d3caa20ac3c16b4e547b9461fa90416e3bb9d9c4 } is a revert
+{ d3caa20ac3c16b4e547b9461fa90416e3bb9d9c4 -> cc3ba79387ee04865087c59f5fa066d3f68f2d54 }
+Revert commits SHA are -> 
+d3caa20ac3c16b4e547b9461fa90416e3bb9d9c4 - revert - cc3ba79387ee04865087c59f5fa066d3f68f2d54
+---> The reverted commit sha is - d3caa20ac3c16b4e547b9461fa90416e3bb9d9c4
+Commit message - license type
+---> The original commit sha is - cc3ba79387ee04865087c59f5fa066d3f68f2d54
+Commit message - Merge pull request #4677 from rjackson/update-backburner
+
+[BUGFIX beta] Upgrade Backburner, Switch Ember.onerror to Backburner's handler
+-----------------------------------------------------------------
+
+Revert diff pair 24 is -> 
+{ 51540c2bb045b4aa7dba9caf0d7be1627e021b0a -> f4fe8bc137b53a312dd2aa11f65682e47e561141 } is a revert
+{ 0325b26b56899fc01681508aa5e434047f5678f7 -> 33f1689bb24505f69757de03ca1d0263b2c2177e }
+Revert commits SHA are -> 
+f4fe8bc137b53a312dd2aa11f65682e47e561141 - revert - 33f1689bb24505f69757de03ca1d0263b2c2177e
+---> The reverted commit sha is - f4fe8bc137b53a312dd2aa11f65682e47e561141
+Commit message - Revert "[BUGFIX beta] Ember.onerror now uses Backburner's error handler - #3401"
+
+This reverts commit 022c1f624e1a8e010f7134378f991f90c23ac523.
+---> The original commit sha is - 33f1689bb24505f69757de03ca1d0263b2c2177e
+Commit message - [BUGFIX beta] Ember.onerror now uses Backburner's error handler - #3401
+-----------------------------------------------------------------
+
+Revert diff pair 25 is -> 
+{ 13ed43fecc14d86c659d38a35dcab787d1fdff54 -> acefb532e2e5f51f32f593e3038e0ad20b91d913 } is a revert
+{ acefb532e2e5f51f32f593e3038e0ad20b91d913 -> 520567e55411b3f27b7842b0284cb84916cb96b5 }
+Revert commits SHA are -> 
+acefb532e2e5f51f32f593e3038e0ad20b91d913 - revert - 520567e55411b3f27b7842b0284cb84916cb96b5
+---> The reverted commit sha is - acefb532e2e5f51f32f593e3038e0ad20b91d913
+Commit message - Add count to array computed meta
+---> The original commit sha is - 520567e55411b3f27b7842b0284cb84916cb96b5
+Commit message - Merge pull request #4626 from mixonic/star
+
+[BUGFIX beta] Drop dead code for * in paths
+-----------------------------------------------------------------
+
+Revert diff pair 26 is -> 
+{ 736effe8343d9fc76447a6584895520e663bb97d -> 022c1f624e1a8e010f7134378f991f90c23ac523 } is a revert
+{ 51540c2bb045b4aa7dba9caf0d7be1627e021b0a -> f4fe8bc137b53a312dd2aa11f65682e47e561141 }
+Revert commits SHA are -> 
+022c1f624e1a8e010f7134378f991f90c23ac523 - revert - f4fe8bc137b53a312dd2aa11f65682e47e561141
+---> The reverted commit sha is - 022c1f624e1a8e010f7134378f991f90c23ac523
+Commit message - [BUGFIX beta] Ember.onerror now uses Backburner's error handler - #3401
+---> The original commit sha is - f4fe8bc137b53a312dd2aa11f65682e47e561141
+Commit message - Revert "[BUGFIX beta] Ember.onerror now uses Backburner's error handler - #3401"
+
+This reverts commit 022c1f624e1a8e010f7134378f991f90c23ac523.
+-----------------------------------------------------------------
+
+Revert diff pair 27 is -> 
+{ 3cb25dd92a601776b1eb3ac907856c9c6bbab091 -> ed4dbe13fb6a8eb7fbddfcb83957838ac33871b3 } is a revert
+{ ed4dbe13fb6a8eb7fbddfcb83957838ac33871b3 -> ee6b130c0f2e370d3daaac49c0dd9fea46662867 }
+Revert commits SHA are -> 
+ed4dbe13fb6a8eb7fbddfcb83957838ac33871b3 - revert - ee6b130c0f2e370d3daaac49c0dd9fea46662867
+---> The reverted commit sha is - ed4dbe13fb6a8eb7fbddfcb83957838ac33871b3
+Commit message - directly return default value on get
+---> The original commit sha is - ee6b130c0f2e370d3daaac49c0dd9fea46662867
+Commit message - Merge pull request #4377 from twokul/minor-fixes
+
+minor doc fixes
+-----------------------------------------------------------------
+
+Revert diff pair 28 is -> 
+{ 46f88347445ce7148cc028f537eb2be7f234aad6 -> c5c0fc1fc59bd8fdaf3a06240d1d836453f2c7d4 } is a revert
+{ c5c0fc1fc59bd8fdaf3a06240d1d836453f2c7d4 -> f8cd7e8ba89217e70908fa0eaf0da1569f3bbe88 }
+Revert commits SHA are -> 
+c5c0fc1fc59bd8fdaf3a06240d1d836453f2c7d4 - revert - f8cd7e8ba89217e70908fa0eaf0da1569f3bbe88
+---> The reverted commit sha is - c5c0fc1fc59bd8fdaf3a06240d1d836453f2c7d4
+Commit message - [FEATURE string-humanize] Revert feature.
+---> The original commit sha is - f8cd7e8ba89217e70908fa0eaf0da1569f3bbe88
+Commit message - Merge pull request #4348 from rjackson/fix-ember-testing-async-test
+
+[BUGFIX beta] Do not rely on ember-testing-routing-helpers for async tests.
+-----------------------------------------------------------------
+
+Revert diff pair 29 is -> 
+{ d45ad5a3dd5cce1b6bdcf9cca863f95bbed17c4e -> 3dbf2e46d97d71d39cdbda20e19096e7f214fcc4 } is a revert
+{ 3dbf2e46d97d71d39cdbda20e19096e7f214fcc4 -> 201d103f3721b59894f17f7a99936ce49eae374d }
+Revert commits SHA are -> 
+3dbf2e46d97d71d39cdbda20e19096e7f214fcc4 - revert - 201d103f3721b59894f17f7a99936ce49eae374d
+---> The reverted commit sha is - 3dbf2e46d97d71d39cdbda20e19096e7f214fcc4
+Commit message - Add automated testing for prod/min builds.
+---> The original commit sha is - 201d103f3721b59894f17f7a99936ce49eae374d
+Commit message - Merge pull request #4269 from marcioj/old_control_helper_stuff
+
+Remove controlID inclusion from mustache
+-----------------------------------------------------------------
+
+Revert diff pair 30 is -> 
+{ d1e07d57ad1bd42d28eeb37b2499b15f4f6eb737 -> 66036d7e94567a0746c83e6c1fcec6646a6ad09f } is a revert
+{ 66036d7e94567a0746c83e6c1fcec6646a6ad09f -> 6e0c43323ea8a775aa752e5f6f9019c446e9f491 }
+Revert commits SHA are -> 
+66036d7e94567a0746c83e6c1fcec6646a6ad09f - revert - 6e0c43323ea8a775aa752e5f6f9019c446e9f491
+---> The reverted commit sha is - 66036d7e94567a0746c83e6c1fcec6646a6ad09f
+Commit message - Component sendAction code sample
+
+I think that the API evolved and the code sample wasn't adapted, right?
+---> The original commit sha is - 6e0c43323ea8a775aa752e5f6f9019c446e9f491
+Commit message - Merge pull request #4213 from rjackson/bring-back-array-filter-polyfil
+
+Add Array.prototype.filter polyfill.
+-----------------------------------------------------------------
+
+Revert diff pair 31 is -> 
+{ 23b0fd52145acb6d64482aa8f51c754a86b06c70 -> c707bdc6db2e179d0eaaa0b8c1645f4944461398 } is a revert
+{ c707bdc6db2e179d0eaaa0b8c1645f4944461398 -> 77d058c66a77967d20f19242ee2d88bbd74d82a4 }
+Revert commits SHA are -> 
+c707bdc6db2e179d0eaaa0b8c1645f4944461398 - revert - 77d058c66a77967d20f19242ee2d88bbd74d82a4
+---> The reverted commit sha is - c707bdc6db2e179d0eaaa0b8c1645f4944461398
+Commit message - [DOC release] Show RSVP.Promise preamble.
+---> The original commit sha is - 77d058c66a77967d20f19242ee2d88bbd74d82a4
+Commit message - Merge pull request #4068 from bcardarella/bc-flag-for-deprecating-actions-behavior
+
+[FEATURE ember-routing-drop-deprecated-action-style] Enhanced actions
+-----------------------------------------------------------------
+
+Revert diff pair 32 is -> 
+{ 4b3a39bbc5446bb7af40ae46f8416c0074274a0c -> 78fdc79b54dc168f33a186f8bfc05e23a320a8a4 } is a revert
+{ 78fdc79b54dc168f33a186f8bfc05e23a320a8a4 -> bb21b144dfbbb43eeb713b0d27e92ad759365bf5 }
+Revert commits SHA are -> 
+78fdc79b54dc168f33a186f8bfc05e23a320a8a4 - revert - bb21b144dfbbb43eeb713b0d27e92ad759365bf5
+---> The reverted commit sha is - 78fdc79b54dc168f33a186f8bfc05e23a320a8a4
+Commit message - [BUGFIX beta] Allow Component to lookup a templateName if specified.
+
+Prior to this change, specifying `templateName` to a component would not
+cause that template to be used (since we were overriding the
+`Ember.View.template` function with `null`).
+
+This change uses the logic from `Ember.View.template`, which is not
+ideal, but I think that these custom docs are pretty important to have.
+(They help instruct users that the block passed to a component is
+interpreted as its template.)
+---> The original commit sha is - bb21b144dfbbb43eeb713b0d27e92ad759365bf5
+Commit message - Merge pull request #4081 from alexspeller/improve-notempty-docs
+
+Improve Em.computed.notEmpty docs to note using array syntax for arrays
+-----------------------------------------------------------------
+
+Revert diff pair 33 is -> 
+{ 4e86370ebe1e05e7053699363d3645af5a643e7f -> 63969338e3dcf213b152d0a2fd3e712f817ad2ec } is a revert
+{ 63969338e3dcf213b152d0a2fd3e712f817ad2ec -> 27187be6e3e3efd4a28a0a9b594b0b2b504a3011 }
+Revert commits SHA are -> 
+63969338e3dcf213b152d0a2fd3e712f817ad2ec - revert - 27187be6e3e3efd4a28a0a9b594b0b2b504a3011
+---> The reverted commit sha is - 63969338e3dcf213b152d0a2fd3e712f817ad2ec
+Commit message - [DOC beta] Fix code highlight and add missing YUIDoc markup
+---> The original commit sha is - 27187be6e3e3efd4a28a0a9b594b0b2b504a3011
+Commit message - Merge pull request #3979 from tricknotes/cleanup-tests
+
+Cleanup test using Ember.$.trim
+-----------------------------------------------------------------
+
+Revert diff pair 34 is -> 
+{ b1e3c37a41fafa1d6447dec2050eebc8f724a0f9 -> 9ee33eaf77dd2dd6d82c804600be079f00c77d6c } is a revert
+{ 9ee33eaf77dd2dd6d82c804600be079f00c77d6c -> 9d891e6b1b9aa707b0add1dfc1caaaf96e30a097 }
+Revert commits SHA are -> 
+9ee33eaf77dd2dd6d82c804600be079f00c77d6c - revert - 9d891e6b1b9aa707b0add1dfc1caaaf96e30a097
+---> The reverted commit sha is - 9ee33eaf77dd2dd6d82c804600be079f00c77d6c
+Commit message - [DOC beta] Fix Ember.Checkbox document markup
+---> The original commit sha is - 9d891e6b1b9aa707b0add1dfc1caaaf96e30a097
+Commit message - Merge pull request #3961 from tricknotes/fix-document-markup
+
+Add newline to fix document markup
+-----------------------------------------------------------------
+
+Revert diff pair 35 is -> 
+{ ddef9c960a943f3ac81481caf45595a2977f331a -> c2615a5cda87c4fe5265a8ea53c97014084555df } is a revert
+{ c2615a5cda87c4fe5265a8ea53c97014084555df -> fd49b93810eff580b0d0e78bdd0fd51e8b46816e }
+Revert commits SHA are -> 
+c2615a5cda87c4fe5265a8ea53c97014084555df - revert - fd49b93810eff580b0d0e78bdd0fd51e8b46816e
+---> The reverted commit sha is - c2615a5cda87c4fe5265a8ea53c97014084555df
+Commit message - [BUGFIX beta] Ensure {{link-to}} path observers are reregistered after render.
+
+Prior to this change we called `registerObserver` on `init` so that `this.rerender` was triggered
+when the link text changes (see [here](https://github.com/emberjs/ember.js/blob/3a7f4ae7c0be07f064f31e1df3f06d38ff866f4c/packages/ember-routing/lib/helpers/link_to.js#L192-L196)).
+
+This worked properly to trigger the first `rerender`, but since `registerObserver` tears down the observer on `willClearRender`
+(see [here](https://github.com/emberjs/ember.js/blob/3a7f4ae7c0be07f064f31e1df3f06d38ff866f4c/packages/ember-views/lib/views/view.js#L2273-2275)) and the observers
+were not set back up, we would only handle a single change.
+
+This change ensures that the observers are setup after each time the view is rerendered.
+---> The original commit sha is - fd49b93810eff580b0d0e78bdd0fd51e8b46816e
+Commit message - Merge pull request #3930 from CodingFu/patch-1
+
+Fix typo in `unordered list`
+-----------------------------------------------------------------
+
+Revert diff pair 36 is -> 
+{ e9a4087b02991b57bb1c991709d553281c3f865c -> 1dc3b3c72fd6a73eb2d78cd655347094d3732324 } is a revert
+{ 1dc3b3c72fd6a73eb2d78cd655347094d3732324 -> 08bef9a7a05aeda5cae35a5e876e09d7460ef88c }
+Revert commits SHA are -> 
+1dc3b3c72fd6a73eb2d78cd655347094d3732324 - revert - 08bef9a7a05aeda5cae35a5e876e09d7460ef88c
+---> The reverted commit sha is - 1dc3b3c72fd6a73eb2d78cd655347094d3732324
+Commit message - Inspect `content` in assertion message of '#each' helper
+
+I improved assetion message to inspect `content` of `#each` helper.
+
+before:
+> You passed [object Object] (wrapped in (generated ontology.index controller))
+
+after:
+> You passed '{}' (wrapped in (generated ontology.index controller))
+
+"[object Object]" should be inspected for kindness of debugging.
+---> The original commit sha is - 08bef9a7a05aeda5cae35a5e876e09d7460ef88c
+Commit message - Merge pull request #3865 from tricknotes/update-header-comment-format
+
+Update header comment format to keep it on minify
+-----------------------------------------------------------------
+
+Revert diff pair 37 is -> 
+{ 0169d9503931a421d177c0e5deadb8dd02eaaa23 -> c9be7cf1b968286dd507736076ff70219ad7ddee } is a revert
+{ 0e562087faf0c93c7f7d685e5149b86d271fed34 -> 81ba3bf583a81a788af0eb58278c08da17514604 }
+Revert commits SHA are -> 
+c9be7cf1b968286dd507736076ff70219ad7ddee - revert - 81ba3bf583a81a788af0eb58278c08da17514604
+---> The reverted commit sha is - c9be7cf1b968286dd507736076ff70219ad7ddee
+Commit message - Docs: Fix link in handlebars text field API
+
+Currently, this link was returning a 404 response. It should be
+relative to the /api/classes path. This change fixes the link.
+---> The original commit sha is - 81ba3bf583a81a788af0eb58278c08da17514604
+Commit message - Revert "Docs: Fix link in handlebars text field API"
+
+This reverts commit c9be7cf1b968286dd507736076ff70219ad7ddee.
+-----------------------------------------------------------------
+
+Revert diff pair 38 is -> 
+{ a95925841df0a699b23fc0a810e0e916f36952b7 -> 74b7210f5c9284125a155f7f0e83f10eb3f0cb98 } is a revert
+{ 0e562087faf0c93c7f7d685e5149b86d271fed34 -> 81ba3bf583a81a788af0eb58278c08da17514604 }
+Revert commits SHA are -> 
+74b7210f5c9284125a155f7f0e83f10eb3f0cb98 - revert - 81ba3bf583a81a788af0eb58278c08da17514604
+---> The reverted commit sha is - 74b7210f5c9284125a155f7f0e83f10eb3f0cb98
+Commit message - Merge pull request #3735 from thenickcox/fix_handlebars_link
+
+Docs: Fix link in handlebars text field API
+---> The original commit sha is - 81ba3bf583a81a788af0eb58278c08da17514604
+Commit message - Revert "Docs: Fix link in handlebars text field API"
+
+This reverts commit c9be7cf1b968286dd507736076ff70219ad7ddee.
+-----------------------------------------------------------------
+
+Revert diff pair 39 is -> 
+{ 24f57e34106a44f8c8a484489d287e9aacf6989c -> 686c759e9bad3c338d58db2fa1f846a4e072fd91 } is a revert
+{ 686c759e9bad3c338d58db2fa1f846a4e072fd91 -> bea0c8b5d9f6b1b4c51e41376bc9ba2643fed27c }
+Revert commits SHA are -> 
+686c759e9bad3c338d58db2fa1f846a4e072fd91 - revert - bea0c8b5d9f6b1b4c51e41376bc9ba2643fed27c
+---> The reverted commit sha is - 686c759e9bad3c338d58db2fa1f846a4e072fd91
+Commit message - Revert "[BUGFIX beta] Correct type of variable initialization"
+
+oops should actually only be [BUGFIX] - @stefanpenner
+
+This reverts commit 34eed4362088978b4558b856cb1136181d085640.
+---> The original commit sha is - bea0c8b5d9f6b1b4c51e41376bc9ba2643fed27c
+Commit message - [BUGFIX] Correct type of variable initialization
+
+`allowedKeys` should be a string value because it will be passed from template.
+
+Such as:
+``` handlebars
+<a href="#" {{action "edit" allowedKeys="alt"}}>click me</a>
+```
+
+If it is treated as an array, [`allowedKeys.indexOf`][] doesn't work on old IE.
+Because `Array#indexOf` is not defined in old IE.
+
+[`allowedKeys.indexOf`]: https://github.com/emberjs/ember.js/blob/a51806a2cdc2fc93f8ed3fe6d0d53ab229c455d3/packages/ember-routing/lib/helpers/action.js#L48
+-----------------------------------------------------------------
+
+Revert diff pair 40 is -> 
+{ 8a6d958f7e7f3c9fb0d7b28bfce490e1a8116e02 -> a53ce2de125f07d7a1c71857ee320c4a449dd39b } is a revert
+{ a53ce2de125f07d7a1c71857ee320c4a449dd39b -> 8491e11eadeae5ec42b8bec65a1cae6fb604df95 }
+Revert commits SHA are -> 
+a53ce2de125f07d7a1c71857ee320c4a449dd39b - revert - 8491e11eadeae5ec42b8bec65a1cae6fb604df95
+---> The reverted commit sha is - a53ce2de125f07d7a1c71857ee320c4a449dd39b
+Commit message - [BUGFIX beta] Added assert mismatched template compiler version.
+
+See #3728. Using an old version of Ember to precompile templates
+can result in an unusual error when trying to render a component
+in block form, e.g.
+
+```
+  {{#my-component}}Hello{{/my-component}}
+```
+
+This commit adds an assert to give the user more information
+as to what's going on.
+---> The original commit sha is - 8491e11eadeae5ec42b8bec65a1cae6fb604df95
+Commit message - Merge pull request #3724 from hjdivad/fix-3720
+
+[BUGFIX beta]  sort guid fallback unconfused by ObjectProxy.
+-----------------------------------------------------------------
+
+Revert diff pair 41 is -> 
+{ fc99a8034c49e5fc16ba054aef3c2092bcf85db4 -> bbc4a1154d2dfd5d7caccea7af41e835c4e40107 } is a revert
+{ bbc4a1154d2dfd5d7caccea7af41e835c4e40107 -> 01d181067f20f7e9afba94eaa0aff7ec401ba7e0 }
+Revert commits SHA are -> 
+bbc4a1154d2dfd5d7caccea7af41e835c4e40107 - revert - 01d181067f20f7e9afba94eaa0aff7ec401ba7e0
+---> The reverted commit sha is - bbc4a1154d2dfd5d7caccea7af41e835c4e40107
+Commit message - [FEATURE ember-testing-lazy-routing]
+
+* `setupForTesting` sets the application into testing mode (which is
+  used to defer readiness.
+* Adds an initializer that defers readiness if the application is in
+  testing mode.
+* `visit` helper has been updated to advance readiness upon first call.
+* `App.reset()` now behaves the same after `setupForTesting` (in a
+  deferred state).
+---> The original commit sha is - 01d181067f20f7e9afba94eaa0aff7ec401ba7e0
+Commit message - Merge pull request #3692 from rjackson/add_test_helpers_docs
+
+[DOC release] Add Ember.Application.testHelper documentation.
+-----------------------------------------------------------------
+
+Revert diff pair 42 is -> 
+{ 859d0f5a0ba62ff1b00c494649802418ce1a036d -> 1605026a6ae05e36f6ae2e289270b3d648ddbbb3 } is a revert
+{ 1605026a6ae05e36f6ae2e289270b3d648ddbbb3 -> 846256860b8b3ddcac93aef8900a2cad97d87d80 }
+Revert commits SHA are -> 
+1605026a6ae05e36f6ae2e289270b3d648ddbbb3 - revert - 846256860b8b3ddcac93aef8900a2cad97d87d80
+---> The reverted commit sha is - 1605026a6ae05e36f6ae2e289270b3d648ddbbb3
+Commit message - [BUGFIX beta] reduceComputed handle out-of-range index.
+
+f3aa4a2d0854395e1f8158a74d1810c290a75139 added support for `replace`s on
+dependent arrays with out of range indexes, similar to what `[].splice`
+supports.  However, it had two errors that are corrected in this commit.
+
+1.  An off by one error when determining the normalized index for removal
+2.  It did not limit the removed count by the number of items that could possibly
+    be removed.
+
+Change `normalizeIndex` to the more natural signature of `index, length, count`.
+This has no effect on any public API.
+
+Big thanks to @Cyril-sf for pairing on this fix.
+
+Fix #3586 (again).
+---> The original commit sha is - 846256860b8b3ddcac93aef8900a2cad97d87d80
+Commit message - Merge pull request #3625 from Evster88/master
+
+Fix a simple documentation typo
+-----------------------------------------------------------------
+
+Revert diff pair 43 is -> 
+{ b188e1616d3a5f2d2dc30f9db0bc14acb589ceb8 -> b9efdeb2df76ea88bf5c7bfa3d4756125a680a89 } is a revert
+{ b9efdeb2df76ea88bf5c7bfa3d4756125a680a89 -> 9cc50d562b2c50c0e9c8ce0c67426c944c66828c }
+Revert commits SHA are -> 
+b9efdeb2df76ea88bf5c7bfa3d4756125a680a89 - revert - 9cc50d562b2c50c0e9c8ce0c67426c944c66828c
+---> The reverted commit sha is - b9efdeb2df76ea88bf5c7bfa3d4756125a680a89
+Commit message - Simplify rubygems version string.
+
+Rubygems only supports letters, numbers, and period as part of the
+version string. This uses the new structure implemented in
+https://github.com/emberjs/ember.js/commit/3d8d23af6d9f1387ee37d9588bd567704730ee21
+and simplifies the generated rubygems_version_string for non-published
+versions.
+---> The original commit sha is - 9cc50d562b2c50c0e9c8ce0c67426c944c66828c
+Commit message - Merge pull request #3604 from kamal/patch-1
+
+Fix typo in FEATURES.md
+-----------------------------------------------------------------
+
+Revert diff pair 44 is -> 
+{ 23729d6175a2d4692b0d709133f879b9d96797d9 -> 85cda0a016dbb9af5dceb5c891e673f06b3a0735 } is a revert
+{ 85cda0a016dbb9af5dceb5c891e673f06b3a0735 -> 23004062cfddd71f1d758ba9988c05c74ab042d7 }
+Revert commits SHA are -> 
+85cda0a016dbb9af5dceb5c891e673f06b3a0735 - revert - 23004062cfddd71f1d758ba9988c05c74ab042d7
+---> The reverted commit sha is - 85cda0a016dbb9af5dceb5c891e673f06b3a0735
+Commit message - [BUGFIX beta] Give precedence to routes with more static segments. Fixes #3573
+---> The original commit sha is - 23004062cfddd71f1d758ba9988c05c74ab042d7
+Commit message - Merge pull request #3570 from rjackson/use_ember_error
+
+Use Ember.Error consistently.
+-----------------------------------------------------------------
+
+Revert diff pair 45 is -> 
+{ 9a6c4adad35153110a4e5a031899c00d654770b6 -> f1d9620f84a5744dc6a56286f1b1160c05c5eac4 } is a revert
+{ f1d9620f84a5744dc6a56286f1b1160c05c5eac4 -> 0abc55053a7ec350063235e38ac078e61b5c998e }
+Revert commits SHA are -> 
+f1d9620f84a5744dc6a56286f1b1160c05c5eac4 - revert - 0abc55053a7ec350063235e38ac078e61b5c998e
+---> The reverted commit sha is - f1d9620f84a5744dc6a56286f1b1160c05c5eac4
+Commit message - [BUGFIX beta] Don't use incompatible array methods
+
+The old IE doesn't have some `Array` methods.
+---> The original commit sha is - 0abc55053a7ec350063235e38ac078e61b5c998e
+Commit message - Merge pull request #3511 from kanongil/patch-1
+
+Update documentation for "customEvents"
+-----------------------------------------------------------------
+
+Revert diff pair 46 is -> 
+{ 7d1d6a0c8d876f8899250ec5c8f7f2c27c1f7a58 -> 89c7c80084ab7722b71d964e4edb6707a389a2c1 } is a revert
+{ 89c7c80084ab7722b71d964e4edb6707a389a2c1 -> 52b1860761150c4f21c197884b34c82a297c4c47 }
+Revert commits SHA are -> 
+89c7c80084ab7722b71d964e4edb6707a389a2c1 - revert - 52b1860761150c4f21c197884b34c82a297c4c47
+---> The reverted commit sha is - 89c7c80084ab7722b71d964e4edb6707a389a2c1
+Commit message - Removed ridiculously dated idiom from container views docs
+
+Mmm, binding current view to the singleton `App.appController`.
+---> The original commit sha is - 52b1860761150c4f21c197884b34c82a297c4c47
+Commit message - Merge pull request #3497 from rjackson/fix_action_docs
+
+Fix examples in action helper docs.
+-----------------------------------------------------------------
+
+Revert diff pair 47 is -> 
+{ cb122863cd8665f85c21497de8e41c0fc0d3d202 -> 6efcfbec0d304580b4f5a70cfccd4e80bdb2d379 } is a revert
+{ 6efcfbec0d304580b4f5a70cfccd4e80bdb2d379 -> 8945e1e59baf22bfa0b6c7c4dd1b44962eb02a58 }
+Revert commits SHA are -> 
+6efcfbec0d304580b4f5a70cfccd4e80bdb2d379 - revert - 8945e1e59baf22bfa0b6c7c4dd1b44962eb02a58
+---> The reverted commit sha is - 6efcfbec0d304580b4f5a70cfccd4e80bdb2d379
+Commit message - [Improved assert for #3457] provide helpful assertion if needs is specified but no container is present.
+---> The original commit sha is - 8945e1e59baf22bfa0b6c7c4dd1b44962eb02a58
+Commit message - Merge pull request #3456 from kingpin2k/replaceDocumentation
+
+replaceWith/replaceRoute documentation
+-----------------------------------------------------------------
+
+Revert diff pair 48 is -> 
+{ 4806fcee0112634436ba322ea4104fbae6088e6c -> 1dbf1d8e148aefeefe18ac5bd1f1a982d007434e } is a revert
+{ 1dbf1d8e148aefeefe18ac5bd1f1a982d007434e -> 32f9d6bcc760907a901549e1e3a0791d971600e8 }
+Revert commits SHA are -> 
+1dbf1d8e148aefeefe18ac5bd1f1a982d007434e - revert - 32f9d6bcc760907a901549e1e3a0791d971600e8
+---> The reverted commit sha is - 1dbf1d8e148aefeefe18ac5bd1f1a982d007434e
+Commit message - Updated test code to avoid deprecation warning during tests
+---> The original commit sha is - 32f9d6bcc760907a901549e1e3a0791d971600e8
+Commit message - Merge pull request #3441 from Nopik/patch-1
+
+Fixing a typo
+-----------------------------------------------------------------
+
+Revert diff pair 49 is -> 
+{ 7735f16728eddf3ff2a6d7c08ebd069313be2218 -> 668ca22f1100c74b77fbf8097769f4e6fafaba00 } is a revert
+{ 668ca22f1100c74b77fbf8097769f4e6fafaba00 -> 8686df49ec1549a5141990ed76fba32afc33b51e }
+Revert commits SHA are -> 
+668ca22f1100c74b77fbf8097769f4e6fafaba00 - revert - 8686df49ec1549a5141990ed76fba32afc33b51e
+---> The reverted commit sha is - 668ca22f1100c74b77fbf8097769f4e6fafaba00
+Commit message - Allow apps with custom jquery builds to exclude the event-alias module
+---> The original commit sha is - 8686df49ec1549a5141990ed76fba32afc33b51e
+Commit message - Merge pull request #3383 from alexspeller/query-params-adjust-param-order
+
+Adjust query params param order
+-----------------------------------------------------------------
+
+Revert diff pair 50 is -> 
+{ 91d8cdcb8e8967eeee2a60039d383a12cc67d575 -> 546d1938ec27ccc2f98a047e37f5c9a537f2832f } is a revert
+{ 546d1938ec27ccc2f98a047e37f5c9a537f2832f -> a29f6a3e5d77f8b58eb140b58b73395977a6d64c }
+Revert commits SHA are -> 
+546d1938ec27ccc2f98a047e37f5c9a537f2832f - revert - a29f6a3e5d77f8b58eb140b58b73395977a6d64c
+---> The reverted commit sha is - 546d1938ec27ccc2f98a047e37f5c9a537f2832f
+Commit message - fix missing backquotes on link-to docs
+---> The original commit sha is - a29f6a3e5d77f8b58eb140b58b73395977a6d64c
+Commit message - Merge pull request #3357 from ghedamat/fix-typo-on-routing-controller
+
+fix typo
+-----------------------------------------------------------------
+
+Revert diff pair 51 is -> 
+{ 17f7674dfc4f9f3c23520a6b2d72ded98036fc07 -> f4897d73bb65c789a08d73cabd9d882e48a68332 } is a revert
+{ f4897d73bb65c789a08d73cabd9d882e48a68332 -> 97334781a79760b50052740b449c2786df7c8719 }
+Revert commits SHA are -> 
+f4897d73bb65c789a08d73cabd9d882e48a68332 - revert - 97334781a79760b50052740b449c2786df7c8719
+---> The reverted commit sha is - f4897d73bb65c789a08d73cabd9d882e48a68332
+Commit message - Remove the .VERSION from library version logging.
+---> The original commit sha is - 97334781a79760b50052740b449c2786df7c8719
+Commit message - Merge pull request #3347 from jedhunsaker/app-register-docs
+
+Update docs for App.register
+-----------------------------------------------------------------
+
+Revert diff pair 52 is -> 
+{ 87e1287a54cc132afd77e5b2d1a1770b775141e4 -> d63bd44471f8e9a5329f7781d6bf798671249cad } is a revert
+{ d63bd44471f8e9a5329f7781d6bf798671249cad -> fcf0057be7be96da9fba35d1b1337fcda2ec9491 }
+Revert commits SHA are -> 
+d63bd44471f8e9a5329f7781d6bf798671249cad - revert - fcf0057be7be96da9fba35d1b1337fcda2ec9491
+---> The reverted commit sha is - d63bd44471f8e9a5329f7781d6bf798671249cad
+Commit message - Merge pull request #3097 from tricknotes/remove-enumerable-context
+
+Remove unused and complex feature for `Ember.Enumerable#nextObject`
+---> The original commit sha is - fcf0057be7be96da9fba35d1b1337fcda2ec9491
+Commit message - Revert "Merge pull request #3097 from tricknotes/remove-enumerable-context"
+
+This reverts commit d63bd44471f8e9a5329f7781d6bf798671249cad, reversing
+changes made to 87e1287a54cc132afd77e5b2d1a1770b775141e4.
+
+Custom enumerables require at least one of a context object or a
+previousObject reference.
+-----------------------------------------------------------------
+
+Revert diff pair 53 is -> 
+{ 2cb3f3fed24ba32e906a54568ecd7f9bedafadf5 -> 2860f852af2f0cebccccc8b7d3ca8ada53419ad3 } is a revert
+{ 2860f852af2f0cebccccc8b7d3ca8ada53419ad3 -> b6508a460d131358e8d3bfc76d09e434fececf1e }
+Revert commits SHA are -> 
+2860f852af2f0cebccccc8b7d3ca8ada53419ad3 - revert - b6508a460d131358e8d3bfc76d09e434fececf1e
+---> The reverted commit sha is - 2860f852af2f0cebccccc8b7d3ca8ada53419ad3
+Commit message - Remove `previousObject` argument from `Ember.Enumerable#nextObject`
+---> The original commit sha is - b6508a460d131358e8d3bfc76d09e434fececf1e
+Commit message - Merge pull request #3096 from tricknotes/remove-is-instance
+
+Remove unused property
+-----------------------------------------------------------------
+
+Revert diff pair 54 is -> 
+{ 532458e4e3f3a971372d4fe8b510c64ca9bb6253 -> 96e11b3cd22f2bcaa7d8c99c120d3227cfed1c22 } is a revert
+{ 96e11b3cd22f2bcaa7d8c99c120d3227cfed1c22 -> 6101c048aa9fceb6012ed0a5e559e85a9552cdc9 }
+Revert commits SHA are -> 
+96e11b3cd22f2bcaa7d8c99c120d3227cfed1c22 - revert - 6101c048aa9fceb6012ed0a5e559e85a9552cdc9
+---> The reverted commit sha is - 96e11b3cd22f2bcaa7d8c99c120d3227cfed1c22
+Commit message - ignore deprecation warnings, for testing known deprecated functionality.
+---> The original commit sha is - 6101c048aa9fceb6012ed0a5e559e85a9552cdc9
+Commit message - Revert "ignore deprecation warnings, for testing known deprecated functionality."
+
+I fixed this 8 minutes earlier :)
+
+This reverts commit 96e11b3cd22f2bcaa7d8c99c120d3227cfed1c22.
+-----------------------------------------------------------------
+
+Revert diff pair 55 is -> 
+{ b26f1f0e8464899f7cea76c11e3ddb79263e0b56 -> 9f7c26bfe61bf2ad6d3dc3444f2abe3922fce705 } is a revert
+{ 531dc05a4c97bec6b4760ebc9227887833140913 -> 72d76929d418f095b7a3fa73939e187933930ce4 }
+Revert commits SHA are -> 
+9f7c26bfe61bf2ad6d3dc3444f2abe3922fce705 - revert - 72d76929d418f095b7a3fa73939e187933930ce4
+---> The reverted commit sha is - 9f7c26bfe61bf2ad6d3dc3444f2abe3922fce705
+Commit message - document the create method in for subclasses of Ember.Object
+---> The original commit sha is - 72d76929d418f095b7a3fa73939e187933930ce4
+Commit message - Revert "document the create method in for subclasses of Ember.Object"
+
+The docs here were not correct and no docs are better than wrong docs.
+
+This reverts commit 9f7c26bfe61bf2ad6d3dc3444f2abe3922fce705.
+
+Conflicts:
+	packages/ember-metal/lib/mixin.js
+-----------------------------------------------------------------
+
+Revert diff pair 56 is -> 
+{ 3fa81f7c2b1aa05dcd69113629d926b660d5110a -> 33275869c381c8257fc98d887b1eca1bd0ee2cbe } is a revert
+{ 33275869c381c8257fc98d887b1eca1bd0ee2cbe -> 1c1d79c8fe30f1e07b85559a60b75dc9dc725219 }
+Revert commits SHA are -> 
+33275869c381c8257fc98d887b1eca1bd0ee2cbe - revert - 1c1d79c8fe30f1e07b85559a60b75dc9dc725219
+---> The reverted commit sha is - 33275869c381c8257fc98d887b1eca1bd0ee2cbe
+Commit message - {{linkTo}} bound contexts, loading class
+
+Merge of work between @drogus and @machty.
+
+Replaces and Closes #2181
+Replaces and Closes #2252
+
+{{linkTo}} contexts are now bound. e.g.:
+
+    {{linkTo 'foo' pathToObj}}
+
+will generate a linkTo that updates its
+href if the resolved value of `pathToObj`
+changes.
+
+Also, if ANY of the linkTo params yield
+null/undefined, including the first route name
+param (if it is unquoted), href will be '#',
+a new `loadingClass` class will be applied to
+the linkTo element, and clicking/invoking
+the loading linkTo will no-op and produce
+an Ember.Logger.warn message that the linkTo
+isn't loaded yet.
+
+Note: due to overlap in loading logic and the recently
+added stringified linkTo route behavior, the loading
+logic is hidden behind the ENV.HELPER_PARAM_LOOKUPS
+flag for now.
+---> The original commit sha is - 1c1d79c8fe30f1e07b85559a60b75dc9dc725219
+Commit message - Merge pull request #2941 from tricknotes/use-released-handlebars
+
+Use released handlebars
+-----------------------------------------------------------------
+
+Revert diff pair 57 is -> 
+{ 8cd914db758235966728f2b0878bf3ddf4dbd599 -> 693119d65bada2fe16bba90c2bafacf9db8e470e } is a revert
+{ 7f3b9726754e97081e1e7dd0b9f32096dd86ff68 -> 6cac51f7aa1a7e216117d622e467d3fe1cb744e5 }
+Revert commits SHA are -> 
+693119d65bada2fe16bba90c2bafacf9db8e470e - revert - 6cac51f7aa1a7e216117d622e467d3fe1cb744e5
+---> The reverted commit sha is - 693119d65bada2fe16bba90c2bafacf9db8e470e
+Commit message - Use Ember setter to set Ember.Route controller.
+---> The original commit sha is - 6cac51f7aa1a7e216117d622e467d3fe1cb744e5
+Commit message - Merge pull request #2892 from igorT/router_append
+
+Calling router.map now appends the routes instead of replacing them
+-----------------------------------------------------------------
+
+Revert diff pair 58 is -> 
+{ a24529e4742d45ffee624f2b6ddf2937c512b228 -> 344390e20e1133c7726f20f71fb0b7854b82f153 } is a revert
+{ 344390e20e1133c7726f20f71fb0b7854b82f153 -> 5a2396c3a478c699095176c353092b9f8018d932 }
+Revert commits SHA are -> 
+344390e20e1133c7726f20f71fb0b7854b82f153 - revert - 5a2396c3a478c699095176c353092b9f8018d932
+---> The reverted commit sha is - 344390e20e1133c7726f20f71fb0b7854b82f153
+Commit message - Add code comment
+---> The original commit sha is - 5a2396c3a478c699095176c353092b9f8018d932
+Commit message - Merge pull request #2867 from tricknotes/remove-unnecessary-check
+
+Remove unnecessary existing check for `Ember`
+-----------------------------------------------------------------
+
+Revert diff pair 59 is -> 
+{ d7c3a58cfa3e854ad3aeb2c51e2feedaf439c7cd -> d198b4051f749c0fc73f1be8525c62301c884a15 } is a revert
+{ d198b4051f749c0fc73f1be8525c62301c884a15 -> 5167cff388db859b99d3f2476d85965e072dacdc }
+Revert commits SHA are -> 
+d198b4051f749c0fc73f1be8525c62301c884a15 - revert - 5167cff388db859b99d3f2476d85965e072dacdc
+---> The reverted commit sha is - d198b4051f749c0fc73f1be8525c62301c884a15
+Commit message - Cleaned up a bad check inside of `Ember.View._hasEquivalentView` that was causing routes with the same template and controller, but different view classes, not to render.
+---> The original commit sha is - 5167cff388db859b99d3f2476d85965e072dacdc
+Commit message - Merge pull request #2789 from jgwhite/master
+
+Add documentation and test for Ember.Handlebars.helper
+-----------------------------------------------------------------
+
+Revert diff pair 60 is -> 
+{ b882b398dca0b56042892d011f061edbcfc2ce30 -> 835b8e514595d683b2d9fbb35bc585ce87c2516d } is a revert
+{ bd0d483f1e28d74eede171e76a7ea7e99930eb72 -> eae802e85d0015f1a0483e09c6e056e86b6742e6 }
+Revert commits SHA are -> 
+835b8e514595d683b2d9fbb35bc585ce87c2516d - revert - eae802e85d0015f1a0483e09c6e056e86b6742e6
+---> The reverted commit sha is - 835b8e514595d683b2d9fbb35bc585ce87c2516d
+Commit message - Rake task: ensure clean before dist
+---> The original commit sha is - eae802e85d0015f1a0483e09c6e056e86b6742e6
+Commit message - Revert "Rake task: ensure clean before dist"
+
+This reverts commit 835b8e514595d683b2d9fbb35bc585ce87c2516d.
+-----------------------------------------------------------------
+
+Revert diff pair 61 is -> 
+{ b7a4be1b903cfd6a84d37b2e02df16b4eefb6714 -> beb4267bdabab179f3a360541c3b614012261bc9 } is a revert
+{ beb4267bdabab179f3a360541c3b614012261bc9 -> d21cc139e3cc9bf65b8d1ab37c2cd6fe84e9e16d }
+Revert commits SHA are -> 
+beb4267bdabab179f3a360541c3b614012261bc9 - revert - d21cc139e3cc9bf65b8d1ab37c2cd6fe84e9e16d
+---> The reverted commit sha is - beb4267bdabab179f3a360541c3b614012261bc9
+Commit message - add Ember.shallowSet which avoids unknownProperty
+thus it doesn't proxy
+---> The original commit sha is - d21cc139e3cc9bf65b8d1ab37c2cd6fe84e9e16d
+Commit message - Revert "add Ember.shallowSet which avoids unknownProperty"
+
+"It seems bad for people to have a convenient way to express such complicated semantics" @wycats
+
+Instead will inline the semantics for setting currentPath on applicationController
+
+This reverts commit beb4267bdabab179f3a360541c3b614012261bc9.
+-----------------------------------------------------------------
+
+Revert diff pair 62 is -> 
+{ 4a48656fbf11b985ae8943ce75c631413cb23485 -> ebf0b906089ddfa60b6c400ac5dcea89ed1ceb87 } is a revert
+{ ebf0b906089ddfa60b6c400ac5dcea89ed1ceb87 -> 064dbb5dfdeb9fb932a223b6badf14fa126573d2 }
+Revert commits SHA are -> 
+ebf0b906089ddfa60b6c400ac5dcea89ed1ceb87 - revert - 064dbb5dfdeb9fb932a223b6badf14fa126573d2
+---> The reverted commit sha is - ebf0b906089ddfa60b6c400ac5dcea89ed1ceb87
+Commit message - Guard from non-native `Object.keys` for `Ember.keys`
+
+To ignore non-enamarable properties, `Ember.keys` should be defined as
+Ember own method when `Ember.create` is simulated.
+---> The original commit sha is - 064dbb5dfdeb9fb932a223b6badf14fa126573d2
+Commit message - Merge pull request #2734 from tricknotes/fix-failing-test-in-ie8
+
+Fix failing test in older IE
+-----------------------------------------------------------------
+
+Revert diff pair 63 is -> 
+{ ecbd0bfdb5b2bcc7feb7e6a9e1e0bdce14d8ad4f -> 7e9c60d90962675a98841408f3a25f79cf79f8c2 } is a revert
+{ 8b01872400814ddd0b59a52e08793d16f6d88a11 -> bb4b5e1a4beea15041ced18480de1ffe46f4f68e }
+Revert commits SHA are -> 
+7e9c60d90962675a98841408f3a25f79cf79f8c2 - revert - bb4b5e1a4beea15041ced18480de1ffe46f4f68e
+---> The reverted commit sha is - 7e9c60d90962675a98841408f3a25f79cf79f8c2
+Commit message - default input helper to type="text" if no type given
+---> The original commit sha is - bb4b5e1a4beea15041ced18480de1ffe46f4f68e
+Commit message - Revert "Merge pull request #2598 from fivetanley/default-input-type-is-text"
+
+This reverts commit b3e845ed27d7b7a673bbd5eaef9396aac7ccf18e, reversing
+changes made to ecbd0bfdb5b2bcc7feb7e6a9e1e0bdce14d8ad4f.
+
+I may have merged this one too quickly, we should likely aim to be as
+close to the html5 spec as possible.
+-----------------------------------------------------------------
+
+Revert diff pair 64 is -> 
+{ ea7e746d13f7c9173d2b3f3a4b66d1228aeb60c2 -> 3173a49a82a7d80d189c03a257196c834959d0e5 } is a revert
+{ 3173a49a82a7d80d189c03a257196c834959d0e5 -> 4954a68beee403dc707a29f04d285590e61a4018 }
+Revert commits SHA are -> 
+3173a49a82a7d80d189c03a257196c834959d0e5 - revert - 4954a68beee403dc707a29f04d285590e61a4018
+---> The reverted commit sha is - 3173a49a82a7d80d189c03a257196c834959d0e5
+Commit message - Remove unnecessary yuidoc markup
+
+The comments begining with `/**` is parsed as yuidoc.
+These comments has no yuidoc markup.
+---> The original commit sha is - 4954a68beee403dc707a29f04d285590e61a4018
+Commit message - Merge pull request #2661 from tricknotes/remove-unnecessary-reference
+
+Remove unnecessary reference
+-----------------------------------------------------------------
+
+Revert diff pair 65 is -> 
+{ 9d5d5dcd26451fa194f4559b0cf645583bd7329c -> a8b6e3042244af1dd315e94c9349722450bca301 } is a revert
+{ a8b6e3042244af1dd315e94c9349722450bca301 -> 43e25d03fb02313c990326408286e58ceced3443 }
+Revert commits SHA are -> 
+a8b6e3042244af1dd315e94c9349722450bca301 - revert - 43e25d03fb02313c990326408286e58ceced3443
+---> The reverted commit sha is - a8b6e3042244af1dd315e94c9349722450bca301
+Commit message - Replace Ember.RunLoop with Backburner.js
+---> The original commit sha is - 43e25d03fb02313c990326408286e58ceced3443
+Commit message - Revert "Replace Ember.RunLoop with Backburner.js"
+
+This reverts commit a8b6e3042244af1dd315e94c9349722450bca301.
+-----------------------------------------------------------------
+
+Revert diff pair 66 is -> 
+{ b14bd1f256ad084d2e1b9b30dbaaad9fde6b3f41 -> 10a19d990cba59e1226a0e0ae67d287b097ca1cf } is a revert
+{ 10a19d990cba59e1226a0e0ae67d287b097ca1cf -> f405ce8f5818a92249eebce646453c587444a7f3 }
+Revert commits SHA are -> 
+10a19d990cba59e1226a0e0ae67d287b097ca1cf - revert - f405ce8f5818a92249eebce646453c587444a7f3
+---> The reverted commit sha is - 10a19d990cba59e1226a0e0ae67d287b097ca1cf
+Commit message - Fixed small typo
+---> The original commit sha is - f405ce8f5818a92249eebce646453c587444a7f3
+Commit message - Merge pull request #2639 from machty/revert-controller-bubbling-actions
+
+Revert "Merge pull request #2577 from machty/bubbling-controller-events"
+-----------------------------------------------------------------
+
+Revert diff pair 67 is -> 
+{ 045690299130104558216e24fbf0c15df9237fd8 -> 2a8cafada2d0ce4c31cb7f0cea3a002481029b62 } is a revert
+{ 25f038cadc0c371cdd5ee7173a02c0535b1cc9bc -> 5c5b9415f5053f00f44763cfbe988687e071f56b }
+Revert commits SHA are -> 
+2a8cafada2d0ce4c31cb7f0cea3a002481029b62 - revert - 5c5b9415f5053f00f44763cfbe988687e071f56b
+---> The reverted commit sha is - 2a8cafada2d0ce4c31cb7f0cea3a002481029b62
+Commit message - Merge pull request #2450 from tricknotes/use-isNone
+
+Use isNone to check tag name
+---> The original commit sha is - 5c5b9415f5053f00f44763cfbe988687e071f56b
+Commit message - Revert "Use isNone to check tag name"
+
+This reverts commit 6c446205090966f6838cdd1576e677aadf64411f.
+
+I was to hasty in merging this, we should likely be ultra careful about
+extra functions invocations in coreView especially since not all the js
+runtimes will these simple functions.
+-----------------------------------------------------------------
+
+Revert diff pair 68 is -> 
+{ 41f5a382e6aad5c04cabe712d6a4178450a9eb92 -> 1aeacf6285090771e3ee725637ae6b0c291e04f1 } is a revert
+{ 1aeacf6285090771e3ee725637ae6b0c291e04f1 -> ea7153e75dd21a747865cb2f8ca17d3f9b20bc08 }
+Revert commits SHA are -> 
+1aeacf6285090771e3ee725637ae6b0c291e04f1 - revert - ea7153e75dd21a747865cb2f8ca17d3f9b20bc08
+---> The reverted commit sha is - 1aeacf6285090771e3ee725637ae6b0c291e04f1
+Commit message - make use of Ember.isNone explicit in Ember.isEmpty
+---> The original commit sha is - ea7153e75dd21a747865cb2f8ca17d3f9b20bc08
+Commit message - Merge pull request #2504 from trek/additional-docs-for-routing-controller-ext
+
+Additional docs for ember-routing's Ember.ControllerMixin
+-----------------------------------------------------------------
+
+Revert diff pair 69 is -> 
+{ 4b977a9f281d4832e810ea03920aaa11339b6d37 -> b62150c760aa6ce44f73c639fa5c7d25f71647b3 } is a revert
+{ b62150c760aa6ce44f73c639fa5c7d25f71647b3 -> 460651e14cbb06eadf2c63d126dd40b36275fe79 }
+Revert commits SHA are -> 
+b62150c760aa6ce44f73c639fa5c7d25f71647b3 - revert - 460651e14cbb06eadf2c63d126dd40b36275fe79
+---> The reverted commit sha is - b62150c760aa6ce44f73c639fa5c7d25f71647b3
+Commit message - Use `jQuery.is(':disabled')` instead of `jQuery(':disbled').length` for Opera
+---> The original commit sha is - 460651e14cbb06eadf2c63d126dd40b36275fe79
+Commit message - Merge pull request #2501 from tricknotes/remove-unused
+
+Remove assigned but unused variable
+-----------------------------------------------------------------
+
+Revert diff pair 70 is -> 
+{ 89db6e32f599edb835b4426b25c6ae969c8e762e -> 9d33dfe86293c82db51aa280cc042f8393e6986f } is a revert
+{ 9d33dfe86293c82db51aa280cc042f8393e6986f -> 5e42013a64d7a7b0d9790993ffd8e0fb2a334a00 }
+Revert commits SHA are -> 
+9d33dfe86293c82db51aa280cc042f8393e6986f - revert - 5e42013a64d7a7b0d9790993ffd8e0fb2a334a00
+---> The reverted commit sha is - 9d33dfe86293c82db51aa280cc042f8393e6986f
+Commit message - Remove unused variable
+---> The original commit sha is - 5e42013a64d7a7b0d9790993ffd8e0fb2a334a00
+Commit message - Merge pull request #2292 from tricknotes/use-call-instead-of-apply
+
+Use `function.call` instead of `function.apply`
+-----------------------------------------------------------------
+
+Revert diff pair 71 is -> 
+{ 1d99128736da7a0781de86b3465136afc46e555d -> 8b6a5df5cef40231bf2a786eb82530706873a520 } is a revert
+{ c1a2e0f25639d8870e7c744d916ee65d7513e690 -> 0a7b3f3c7ea8eaf75a57be565f61efc87ba549db }
+Revert commits SHA are -> 
+8b6a5df5cef40231bf2a786eb82530706873a520 - revert - 0a7b3f3c7ea8eaf75a57be565f61efc87ba549db
+---> The reverted commit sha is - 8b6a5df5cef40231bf2a786eb82530706873a520
+Commit message - remove Ember.metaPath
+
+This seems to be an orphan from the listener refactor in 66bfb53
+---> The original commit sha is - 0a7b3f3c7ea8eaf75a57be565f61efc87ba549db
+Commit message - Revert "remove Ember.metaPath" still used by Ember Data
+
+This reverts commit 8b6a5df5cef40231bf2a786eb82530706873a520.
+-----------------------------------------------------------------
+
+Revert diff pair 72 is -> 
+{ 300195b7f0841874022955211c24313e4fb85797 -> c1a2e0f25639d8870e7c744d916ee65d7513e690 } is a revert
+{ c1a2e0f25639d8870e7c744d916ee65d7513e690 -> 0a7b3f3c7ea8eaf75a57be565f61efc87ba549db }
+Revert commits SHA are -> 
+c1a2e0f25639d8870e7c744d916ee65d7513e690 - revert - 0a7b3f3c7ea8eaf75a57be565f61efc87ba549db
+---> The reverted commit sha is - c1a2e0f25639d8870e7c744d916ee65d7513e690
+Commit message - Merge pull request #2260 from igorbernstein/remove-orphaned-code
+
+remove Ember.metaPath
+---> The original commit sha is - 0a7b3f3c7ea8eaf75a57be565f61efc87ba549db
+Commit message - Revert "remove Ember.metaPath" still used by Ember Data
+
+This reverts commit 8b6a5df5cef40231bf2a786eb82530706873a520.
+-----------------------------------------------------------------
+
+Revert diff pair 73 is -> 
+{ c8526d0b5a141ee173243af4e3c345d9ebe335d6 -> abe53f7c3f75de67358566722fbef42df51741f4 } is a revert
+{ abe53f7c3f75de67358566722fbef42df51741f4 -> a41e086f1cfd172fbe9242d842bb2d558e12b208 }
+Revert commits SHA are -> 
+abe53f7c3f75de67358566722fbef42df51741f4 - revert - a41e086f1cfd172fbe9242d842bb2d558e12b208
+---> The reverted commit sha is - abe53f7c3f75de67358566722fbef42df51741f4
+Commit message - Better warning for missing initializers - Fixes #1906
+---> The original commit sha is - a41e086f1cfd172fbe9242d842bb2d558e12b208
+Commit message - semicolons
+-----------------------------------------------------------------
+
+Revert diff pair 74 is -> 
+{ 1474971e771fcf11eaef66cf2e9f36a6487a84d5 -> 532dec210363bc7f412eb2ac5bef9e8a9adc52fd } is a revert
+{ 532dec210363bc7f412eb2ac5bef9e8a9adc52fd -> 7837eba32f63836742a95deb2184b84fee26cb63 }
+Revert commits SHA are -> 
+532dec210363bc7f412eb2ac5bef9e8a9adc52fd - revert - 7837eba32f63836742a95deb2184b84fee26cb63
+---> The reverted commit sha is - 532dec210363bc7f412eb2ac5bef9e8a9adc52fd
+Commit message - Normalize controller lookup, fix #2025
+---> The original commit sha is - 7837eba32f63836742a95deb2184b84fee26cb63
+Commit message - Merge pull request #2145 from craigteegarden/ie9-linkTo-test-fix
+
+Fix two linkTo unit tests that fail in IE9.  Tests used an <a> tag insid...
+-----------------------------------------------------------------
+
+Revert diff pair 75 is -> 
+{ cac70a47dbf3e8b22b18af5940b63d16302cae31 -> e142d7f522d4cfbf443102d0147da5cd41d4e957 } is a revert
+{ e142d7f522d4cfbf443102d0147da5cd41d4e957 -> ebe535687b44116a73c81513b39de4dca7461d8a }
+Revert commits SHA are -> 
+e142d7f522d4cfbf443102d0147da5cd41d4e957 - revert - ebe535687b44116a73c81513b39de4dca7461d8a
+---> The reverted commit sha is - e142d7f522d4cfbf443102d0147da5cd41d4e957
+Commit message - Update documentation on router logging
+---> The original commit sha is - ebe535687b44116a73c81513b39de4dca7461d8a
+Commit message - Merge pull request #1987 from bartsqueezy/master
+
+Minor content update:  fixed incorrect description of view lifecycle tests
+-----------------------------------------------------------------
+
+Revert diff pair 76 is -> 
+{ 854b0f0fea346034149a87bb8eb6d0e42dbc2fd6 -> ebb743409af760f95cc392f4ffb6566538ca7663 } is a revert
+{ 497ff18374fc00a4e1ae8a3c43e85929e573a27b -> 44cbb475ca3409b99e4b319d12e69af77a1e3d71 }
+Revert commits SHA are -> 
+ebb743409af760f95cc392f4ffb6566538ca7663 - revert - 44cbb475ca3409b99e4b319d12e69af77a1e3d71
+---> The reverted commit sha is - ebb743409af760f95cc392f4ffb6566538ca7663
+Commit message - Don't wrap methods when _super is Ember.K
+---> The original commit sha is - 44cbb475ca3409b99e4b319d12e69af77a1e3d71
+Commit message - Revert "Don't wrap methods when _super is Ember.K"
+
+This reverts commit ebb743409af760f95cc392f4ffb6566538ca7663.
+-----------------------------------------------------------------
+
+Revert diff pair 77 is -> 
+{ 13ddf2065bdc6da1539536a1d0e35079e3042254 -> 25c958b9bf8e88da5d8305467ad0e0e136719e6e } is a revert
+{ c9dd00f4d2f4eb90f69898f6efad7ca2b6162a88 -> dbb0aab75b6edb7697beb01f1a6932a6881fb925 }
+Revert commits SHA are -> 
+25c958b9bf8e88da5d8305467ad0e0e136719e6e - revert - dbb0aab75b6edb7697beb01f1a6932a6881fb925
+---> The reverted commit sha is - 25c958b9bf8e88da5d8305467ad0e0e136719e6e
+Commit message - Don't remove and reinsert items when their sort order doesn't change.
+---> The original commit sha is - dbb0aab75b6edb7697beb01f1a6932a6881fb925
+Commit message - Revert "Don't remove and reinsert items when their sort order doesn't change."
+
+This reverts commit 25c958b9bf8e88da5d8305467ad0e0e136719e6e.
+-----------------------------------------------------------------
+
+Revert diff pair 78 is -> 
+{ 25c958b9bf8e88da5d8305467ad0e0e136719e6e -> 109da39c9b645b7232988bd7def912d6fc48ddb3 } is a revert
+{ b4ad9b1a49b1ccac673dd4f4192143b5c645f461 -> c9dd00f4d2f4eb90f69898f6efad7ca2b6162a88 }
+Revert commits SHA are -> 
+109da39c9b645b7232988bd7def912d6fc48ddb3 - revert - c9dd00f4d2f4eb90f69898f6efad7ca2b6162a88
+---> The reverted commit sha is - 109da39c9b645b7232988bd7def912d6fc48ddb3
+Commit message - Fix jshint failure
+---> The original commit sha is - c9dd00f4d2f4eb90f69898f6efad7ca2b6162a88
+Commit message - Revert "Fix jshint failure"
+
+This reverts commit 109da39c9b645b7232988bd7def912d6fc48ddb3.
+-----------------------------------------------------------------
+
+Revert diff pair 79 is -> 
+{ 109da39c9b645b7232988bd7def912d6fc48ddb3 -> d34adc23849f95ae49d976f9692fef4c047b30c7 } is a revert
+{ f600bb1c712ad529da4667bf622b8dd6b3f731c3 -> b4ad9b1a49b1ccac673dd4f4192143b5c645f461 }
+Revert commits SHA are -> 
+d34adc23849f95ae49d976f9692fef4c047b30c7 - revert - b4ad9b1a49b1ccac673dd4f4192143b5c645f461
+---> The reverted commit sha is - d34adc23849f95ae49d976f9692fef4c047b30c7
+Commit message - Can't use jQuery inside of the runtime tests
+---> The original commit sha is - b4ad9b1a49b1ccac673dd4f4192143b5c645f461
+Commit message - Revert "Can't use jQuery inside of the runtime tests"
+
+This reverts commit d34adc23849f95ae49d976f9692fef4c047b30c7.
+-----------------------------------------------------------------
+
+Revert diff pair 80 is -> 
+{ 908c58944f4e281c5e80f5eb781d698feaba70e9 -> 2f8d5e6e538fc12dea4eb61e0847d213a703d573 } is a revert
+{ 2f8d5e6e538fc12dea4eb61e0847d213a703d573 -> 24b147074ed82aae780aecfc18a56db1aae630e5 }
+Revert commits SHA are -> 
+2f8d5e6e538fc12dea4eb61e0847d213a703d573 - revert - 24b147074ed82aae780aecfc18a56db1aae630e5
+---> The reverted commit sha is - 2f8d5e6e538fc12dea4eb61e0847d213a703d573
+Commit message - Add Ember.Deferred mixin which implements Promises/A spec
+---> The original commit sha is - 24b147074ed82aae780aecfc18a56db1aae630e5
+Commit message - Merge pull request #1427 from joliss/doc
+
+Use connectOutlet in {{outlet}} documentation
+-----------------------------------------------------------------
+
+Revert diff pair 81 is -> 
+{ 0a4ece16f52453678171d04141419540a151abcd -> f5fe9143d48f8086825c8401a063fafa5c3d61c5 } is a revert
+{ f5fe9143d48f8086825c8401a063fafa5c3d61c5 -> 620e78b29dee7cce63be8f7165d3914ef57055d3 }
+Revert commits SHA are -> 
+f5fe9143d48f8086825c8401a063fafa5c3d61c5 - revert - 620e78b29dee7cce63be8f7165d3914ef57055d3
+---> The reverted commit sha is - f5fe9143d48f8086825c8401a063fafa5c3d61c5
+Commit message - Changed tryInvoke syntax to be more consistent with other methods
+---> The original commit sha is - 620e78b29dee7cce63be8f7165d3914ef57055d3
+Commit message - Revert "Changed tryInvoke syntax to be more consistent with other methods"
+
+Pending further discussion on the topic.
+
+This reverts commit f5fe9143d48f8086825c8401a063fafa5c3d61c5.
+-----------------------------------------------------------------
+
+Revert diff pair 82 is -> 
+{ 51f7e5d38bf39f8b108df8f3dd47be5dccb9d8fd -> 1c6d434493d566f02cd89c871dd6b3ba3789ffde } is a revert
+{ 1c6d434493d566f02cd89c871dd6b3ba3789ffde -> f5e6ed998984b42c42a97509cfb31d28300c5c98 }
+Revert commits SHA are -> 
+1c6d434493d566f02cd89c871dd6b3ba3789ffde - revert - f5e6ed998984b42c42a97509cfb31d28300c5c98
+---> The reverted commit sha is - 1c6d434493d566f02cd89c871dd6b3ba3789ffde
+Commit message - Add README for how to run benchmarks
+---> The original commit sha is - f5e6ed998984b42c42a97509cfb31d28300c5c98
+Commit message - Merge pull request #1116 from joliss/assert
+
+Provide useful error message when {{action}} target is missing
+-----------------------------------------------------------------
+
+Revert diff pair 83 is -> 
+{ 8fd57b354c0e46f2f732a1ff1d75a078200a6fb1 -> 9b5f342bcba5f754536c6331bc1294a00bced6cf } is a revert
+{ 9b5f342bcba5f754536c6331bc1294a00bced6cf -> 50ee26d68dc43dcc5d4eeb44d8477b2f932593de }
+Revert commits SHA are -> 
+9b5f342bcba5f754536c6331bc1294a00bced6cf - revert - 50ee26d68dc43dcc5d4eeb44d8477b2f932593de
+---> The reverted commit sha is - 9b5f342bcba5f754536c6331bc1294a00bced6cf
+Commit message - Merge branch 'master' into simplify-properties
+
+Conflicts:
+	packages/ember-runtime/lib/mixins/evented.js
+---> The original commit sha is - 50ee26d68dc43dcc5d4eeb44d8477b2f932593de
+Commit message - Merge pull request #1079 from wagenet/states-in-routes
+
+Support basic States inside of Routes
+-----------------------------------------------------------------
+
+Revert diff pair 84 is -> 
+{ fd2e1bd8b26446c7849bfcef77404c0add4a48a6 -> 2b388bc8ac9266e0f0d557e0224b3134f77bd09a } is a revert
+{ e18d446c132efe2e8bac992f53614cce19bfa557 -> 9657583725fcbb5e7b385214ac6f5e9af0e3d1a0 }
+Revert commits SHA are -> 
+2b388bc8ac9266e0f0d557e0224b3134f77bd09a - revert - 9657583725fcbb5e7b385214ac6f5e9af0e3d1a0
+---> The reverted commit sha is - 2b388bc8ac9266e0f0d557e0224b3134f77bd09a
+Commit message - Give Ember.Select prompt an empty value
+---> The original commit sha is - 9657583725fcbb5e7b385214ac6f5e9af0e3d1a0
+Commit message - Revert "Merge pull request #984 from bradleypriest/select-prompt"
+
+This reverts commit e18d446c132efe2e8bac992f53614cce19bfa557, reversing
+changes made to 3bf240d73862dd19a493b1cb48302f2d2aae1bff.
+-----------------------------------------------------------------
+
+Revert diff pair 85 is -> 
+{ 3bf240d73862dd19a493b1cb48302f2d2aae1bff -> e18d446c132efe2e8bac992f53614cce19bfa557 } is a revert
+{ e18d446c132efe2e8bac992f53614cce19bfa557 -> 9657583725fcbb5e7b385214ac6f5e9af0e3d1a0 }
+Revert commits SHA are -> 
+e18d446c132efe2e8bac992f53614cce19bfa557 - revert - 9657583725fcbb5e7b385214ac6f5e9af0e3d1a0
+---> The reverted commit sha is - e18d446c132efe2e8bac992f53614cce19bfa557
+Commit message - Merge pull request #984 from bradleypriest/select-prompt
+
+Give Ember.Select prompt an empty value
+---> The original commit sha is - 9657583725fcbb5e7b385214ac6f5e9af0e3d1a0
+Commit message - Revert "Merge pull request #984 from bradleypriest/select-prompt"
+
+This reverts commit e18d446c132efe2e8bac992f53614cce19bfa557, reversing
+changes made to 3bf240d73862dd19a493b1cb48302f2d2aae1bff.
+-----------------------------------------------------------------
+
+Revert diff pair 86 is -> 
+{ ec0b8c07f8c583bcd623ccd88c775f14493ac6e4 -> 1ef408c1039fb492aab0acccb889824e027eb1bb } is a revert
+{ f2a3bd739e9e9ab9ef118599a9a215f766e0882b -> db8ec625b23b697e5a08b3cc6df2e50cbc21a9b4 }
+Revert commits SHA are -> 
+1ef408c1039fb492aab0acccb889824e027eb1bb - revert - db8ec625b23b697e5a08b3cc6df2e50cbc21a9b4
+---> The reverted commit sha is - 1ef408c1039fb492aab0acccb889824e027eb1bb
+Commit message - Fix failing ObjectProxy spec in Chrome
+---> The original commit sha is - db8ec625b23b697e5a08b3cc6df2e50cbc21a9b4
+Commit message - Revert "Fix failing ObjectProxy spec in Chrome"
+
+This reverts commit 1ef408c1039fb492aab0acccb889824e027eb1bb.
+-----------------------------------------------------------------
+
+Revert diff pair 87 is -> 
+{ eb62b083150d3777ba11c0efbbacc64052d98457 -> 9222e0f3435d4b3e94904dc031e6e05d88706223 } is a revert
+{ 9222e0f3435d4b3e94904dc031e6e05d88706223 -> 5dc446ee11446e6b949c32b132e9de5b226dbe91 }
+Revert commits SHA are -> 
+9222e0f3435d4b3e94904dc031e6e05d88706223 - revert - 5dc446ee11446e6b949c32b132e9de5b226dbe91
+---> The reverted commit sha is - 9222e0f3435d4b3e94904dc031e6e05d88706223
+Commit message - Transition to root to enable the back-button
+---> The original commit sha is - 5dc446ee11446e6b949c32b132e9de5b226dbe91
+Commit message - Wait. no.
+-----------------------------------------------------------------
+
+Revert diff pair 88 is -> 
+{ 5a3067b54c4c6b3bf3f583e1162fedba203abaeb -> ee1d2d55bb66cc8bb82c8ca1e535995c37221a53 } is a revert
+{ ee1d2d55bb66cc8bb82c8ca1e535995c37221a53 -> 69417c8d26f75e70ef1694da4e5982ae39f36691 }
+Revert commits SHA are -> 
+ee1d2d55bb66cc8bb82c8ca1e535995c37221a53 - revert - 69417c8d26f75e70ef1694da4e5982ae39f36691
+---> The reverted commit sha is - ee1d2d55bb66cc8bb82c8ca1e535995c37221a53
+Commit message - make transitionEvent on state manager configurable
+---> The original commit sha is - 69417c8d26f75e70ef1694da4e5982ae39f36691
+Commit message - Merge pull request #857 from tchak/location-changes-cleanup
+
+Cleanup after location style/implementation changes
+-----------------------------------------------------------------
+
+Revert diff pair 89 is -> 
+{ 6c21bd367a58f216666aebbb2420054116d91049 -> 449b78e37d31c142a14363fb70ee5343ab20b356 } is a revert
+{ dac2bdf353b448848b75074801ad33a374fe7f1b -> fb2b669c324c47db179cdf3db4b56d5683ee683a }
+Revert commits SHA are -> 
+449b78e37d31c142a14363fb70ee5343ab20b356 - revert - fb2b669c324c47db179cdf3db4b56d5683ee683a
+---> The reverted commit sha is - 449b78e37d31c142a14363fb70ee5343ab20b356
+Commit message - bindAttr should work with global paths
+---> The original commit sha is - fb2b669c324c47db179cdf3db4b56d5683ee683a
+Commit message - Merge pull request #854 from tchak/fix-non-routable-states-master
+
+Fix initialization with non routable stateManager
+-----------------------------------------------------------------
+
+Revert diff pair 90 is -> 
+{ 2d876a6d1b4309a004246d7ec616a5faf93cfb05 -> 640f00cacabddcbc6881ed4770fa500534ecbf70 } is a revert
+{ dac2bdf353b448848b75074801ad33a374fe7f1b -> fb2b669c324c47db179cdf3db4b56d5683ee683a }
+Revert commits SHA are -> 
+640f00cacabddcbc6881ed4770fa500534ecbf70 - revert - fb2b669c324c47db179cdf3db4b56d5683ee683a
+---> The reverted commit sha is - 640f00cacabddcbc6881ed4770fa500534ecbf70
+Commit message - Fix initialization with non routable stateManager
+---> The original commit sha is - fb2b669c324c47db179cdf3db4b56d5683ee683a
+Commit message - Merge pull request #854 from tchak/fix-non-routable-states-master
+
+Fix initialization with non routable stateManager
+-----------------------------------------------------------------
+
+Revert diff pair 91 is -> 
+{ ba8f5e6f799ddd9ae9eee90ee696e8c5dae5ec9d -> 9735ae3b20429a8766fcb34a63d6c9a4d241fcc5 } is a revert
+{ 9735ae3b20429a8766fcb34a63d6c9a4d241fcc5 -> ecbc2b6aac085dcc95bb47b80323f903dad3c643 }
+Revert commits SHA are -> 
+9735ae3b20429a8766fcb34a63d6c9a4d241fcc5 - revert - ecbc2b6aac085dcc95bb47b80323f903dad3c643
+---> The reverted commit sha is - 9735ae3b20429a8766fcb34a63d6c9a4d241fcc5
+Commit message - update project comment for runtime array_controller.js
+---> The original commit sha is - ecbc2b6aac085dcc95bb47b80323f903dad3c643
+Commit message - Merge pull request #639 from trevor/jq172
+
+jQuery 1.7.2
+-----------------------------------------------------------------
+
+Revert diff pair 92 is -> 
+{ c671e7074a9acb44dd42bd0caecc70871b18e29c -> 6e4e07bd3bb554f3c8e2f88841df8e0be28e75d8 } is a revert
+{ 6e4e07bd3bb554f3c8e2f88841df8e0be28e75d8 -> dda40affc3f67179025603c20937af9e3df6d713 }
+Revert commits SHA are -> 
+6e4e07bd3bb554f3c8e2f88841df8e0be28e75d8 - revert - dda40affc3f67179025603c20937af9e3df6d713
+---> The reverted commit sha is - 6e4e07bd3bb554f3c8e2f88841df8e0be28e75d8
+Commit message - Add examples to API Docs. Hat tip @pangratz for his blog post on these functions.
+---> The original commit sha is - dda40affc3f67179025603c20937af9e3df6d713
+Commit message - Merge pull request #604 from frodsan/minor_fixes
+
+Deleting unused variables
+-----------------------------------------------------------------
+
+Revert diff pair 93 is -> 
+{ ab9ee08244fdb3f877a3c5e61666218c1c7d0c9d -> 183692a00be10db20a3c61b8a38c4f46bd3fbebf } is a revert
+{ 68c0f8177d9fb5ca7ef068df291e3d40163e1a56 -> e35332611f8bedbb3ab2ce51c8f8969fa6547072 }
+Revert commits SHA are -> 
+183692a00be10db20a3c61b8a38c4f46bd3fbebf - revert - e35332611f8bedbb3ab2ce51c8f8969fa6547072
+---> The reverted commit sha is - 183692a00be10db20a3c61b8a38c4f46bd3fbebf
+Commit message - Removed stray console.log
+---> The original commit sha is - e35332611f8bedbb3ab2ce51c8f8969fa6547072
+Commit message - Fix merge error
+-----------------------------------------------------------------
+
+Revert diff pair 94 is -> 
+{ 01211a6623cd2cdee0e44291f307f999d11578bf -> 3ebcd99e5a8910c5ecb5ecb1cdfff362873b3054 } is a revert
+{ 3ebcd99e5a8910c5ecb5ecb1cdfff362873b3054 -> 83109b8c91a4b9406fa51af947905edd890bd9a4 }
+Revert commits SHA are -> 
+3ebcd99e5a8910c5ecb5ecb1cdfff362873b3054 - revert - 83109b8c91a4b9406fa51af947905edd890bd9a4
+---> The reverted commit sha is - 3ebcd99e5a8910c5ecb5ecb1cdfff362873b3054
+Commit message - Add underscore and camelize to string prototype extensions.
+---> The original commit sha is - 83109b8c91a4b9406fa51af947905edd890bd9a4
+Commit message - Merge pull request #323 from dudleyf/update-assetfile
+
+Update assetfile and remove relative requires
+-----------------------------------------------------------------
+
+Revert diff pair 95 is -> 
+{ 31800d450a141f21aa00e0d02a53ae275009f4fa -> 162e444b4643fb06076e3e0da22dfaf73be2880d } is a revert
+{ 162e444b4643fb06076e3e0da22dfaf73be2880d -> 04aa67e16c34f9cd3ea9bd551892d1a576336bc3 }
+Revert commits SHA are -> 
+162e444b4643fb06076e3e0da22dfaf73be2880d - revert - 04aa67e16c34f9cd3ea9bd551892d1a576336bc3
+---> The reverted commit sha is - 162e444b4643fb06076e3e0da22dfaf73be2880d
+Commit message - Add camelize and underscored functions to Ember.String for completeness.
+---> The original commit sha is - 04aa67e16c34f9cd3ea9bd551892d1a576336bc3
+Commit message - Merge pull request #300 from edtsech/test-string
+
+Add tests for dasherize and decamelize in Ember.String.
+-----------------------------------------------------------------
+
+Revert diff pair 96 is -> 
+{ d859e6a3936b24f69198bf3114d51d44c8e8b07b -> 98234b8e4c27e3e1b8275d79ca16d5823b3f81c0 } is a revert
+{ 98234b8e4c27e3e1b8275d79ca16d5823b3f81c0 -> 6f7efbe362a16f3475cfba92484afc11c08f8895 }
+Revert commits SHA are -> 
+98234b8e4c27e3e1b8275d79ca16d5823b3f81c0 - revert - 6f7efbe362a16f3475cfba92484afc11c08f8895
+---> The reverted commit sha is - 98234b8e4c27e3e1b8275d79ca16d5823b3f81c0
+Commit message - SC.Button should do the lookup for the target globally, not relative to itself
+---> The original commit sha is - 6f7efbe362a16f3475cfba92484afc11c08f8895
+Commit message - Revert "SC.Button should do the lookup for the target globally, not relative to itself"
+
+This reverts commit 98234b8e4c27e3e1b8275d79ca16d5823b3f81c0.
+-----------------------------------------------------------------
+
+Revert diff pair 97 is -> 
+{ bd6a508692a8f08f35084c3a4bda4716bb963785 -> ea917fa07b9cbdc964a6b7f45b496d638d115797 } is a revert
+{ ea917fa07b9cbdc964a6b7f45b496d638d115797 -> 3ea709e3460a55cddbe6856188c9386be43e1191 }
+Revert commits SHA are -> 
+ea917fa07b9cbdc964a6b7f45b496d638d115797 - revert - 3ea709e3460a55cddbe6856188c9386be43e1191
+---> The reverted commit sha is - ea917fa07b9cbdc964a6b7f45b496d638d115797
+Commit message - Fix some busted package definitions and add support for handlebars format.
+---> The original commit sha is - 3ea709e3460a55cddbe6856188c9386be43e1191
+Commit message - Merge remote-tracking branch 'origin' into issue97
+-----------------------------------------------------------------
+
+Revert diff pair 98 is -> 
+{ 7e07f49637323180f8896a6480aa449ebe48faf3 -> 13936194cd8382d923be8b1bb52045144a09819f } is a revert
+{ 13936194cd8382d923be8b1bb52045144a09819f -> d07e38f55261439ca637344176a513f0eb693c9f }
+Revert commits SHA are -> 
+13936194cd8382d923be8b1bb52045144a09819f - revert - d07e38f55261439ca637344176a513f0eb693c9f
+---> The reverted commit sha is - 13936194cd8382d923be8b1bb52045144a09819f
+Commit message - Merge branch 'master' into gestures
+---> The original commit sha is - d07e38f55261439ca637344176a513f0eb693c9f
+Commit message - Merge pull request #82 from ebryn/remove-unused-code
+
+Remove unused _valueDidChange function in SC.TextField
+-----------------------------------------------------------------
+
+Revert diff pair 99 is -> 
+{ fe9f6b6585b701d00ac2c1bddf400224be5c1070 -> faa11a81cd9fcc8f80d122da7c4f444c866d3449 } is a revert
+{ 88196c2992476e96e8e8df781a613d2b4cb1f292 -> 618965869898349976cf4f5ebae5206f25154d81 }
+Revert commits SHA are -> 
+faa11a81cd9fcc8f80d122da7c4f444c866d3449 - revert - 618965869898349976cf4f5ebae5206f25154d81
+---> The reverted commit sha is - faa11a81cd9fcc8f80d122da7c4f444c866d3449
+Commit message - undo collections change; it's in a branch
+---> The original commit sha is - 618965869898349976cf4f5ebae5206f25154d81
+Commit message - Merge pull request #35 from dmarcotte/index-in-collection-view
+
+Expose index in CollectionView
+-----------------------------------------------------------------
+
+Revert diff pair 100 is -> 
+{ e2a194002f20191c257d4b7b99c55bbc7e734080 -> d615a05457175f889fda773d6eb4cf580b81124e } is a revert
+{ d615a05457175f889fda773d6eb4cf580b81124e -> 3753a7a7471605818f1f0d03025c0dfdb4ccc8c4 }
+Revert commits SHA are -> 
+d615a05457175f889fda773d6eb4cf580b81124e - revert - 3753a7a7471605818f1f0d03025c0dfdb4ccc8c4
+---> The reverted commit sha is - d615a05457175f889fda773d6eb4cf580b81124e
+Commit message - Removes duplicate SC.isArray implementation from sproutcore-runtime.
+
+runtime depends on metal, where SC.isArray is also defined. Higher level libraries in the framework also
+require metal.
+---> The original commit sha is - 3753a7a7471605818f1f0d03025c0dfdb4ccc8c4
+Commit message - Merge pull request #47 from trek/CorrectApplicationCallbackDocumentation
+
+Small documentation fix for SC.Application
+-----------------------------------------------------------------
+
+Revert diff pair 101 is -> 
+{ 55aeb9767f9dd1a4a8958d6190258772c3c7d239 -> 5130f26e5d6ed01ce2f6305649d1b7c24f5c6e13 } is a revert
+{ 5130f26e5d6ed01ce2f6305649d1b7c24f5c6e13 -> 52c1bf60dfaacbaa0ac4f19ecd21bdb927027e47 }
+Revert commits SHA are -> 
+5130f26e5d6ed01ce2f6305649d1b7c24f5c6e13 - revert - 52c1bf60dfaacbaa0ac4f19ecd21bdb927027e47
+---> The reverted commit sha is - 5130f26e5d6ed01ce2f6305649d1b7c24f5c6e13
+Commit message - First shot at adding a SC.TextArea control
+---> The original commit sha is - 52c1bf60dfaacbaa0ac4f19ecd21bdb927027e47
+Commit message - Merge branch 'master' of https://github.com/sproutcore/sproutcore20
+-----------------------------------------------------------------
+
+Revert diff pair 102 is -> 
+{ 8b7b718e48a481bdfcceec609ae023c6cffac2ff -> 3fc030e3cb5a7f796a898649dd9645bf21acfc44 } is a revert
+{ 3fc030e3cb5a7f796a898649dd9645bf21acfc44 -> 3813472ba2698174d56c141d0f1995ead671729d }
+Revert commits SHA are -> 
+3fc030e3cb5a7f796a898649dd9645bf21acfc44 - revert - 3813472ba2698174d56c141d0f1995ead671729d
+---> The reverted commit sha is - 3fc030e3cb5a7f796a898649dd9645bf21acfc44
+Commit message - Merge branch 'master' of git://github.com/sproutcore/sproutcore20 into addSelectToMappedCollectionViewChildren
+---> The original commit sha is - 3813472ba2698174d56c141d0f1995ead671729d
+Commit message - Update test on select/option mapping to reflect changes in f62a9f1cd98
+-----------------------------------------------------------------
+
+Revert diff pair 103 is -> 
+{ 18761cc3d1b65152083a80e7fb6b3f00fb8e2b56 -> 231f4b16378c9315e9eb8e560a48dc1a2972a553 } is a revert
+{ 231f4b16378c9315e9eb8e560a48dc1a2972a553 -> d99c5bb0a2aa603bf2250d5866342ddb71338d4c }
+Revert commits SHA are -> 
+231f4b16378c9315e9eb8e560a48dc1a2972a553 - revert - d99c5bb0a2aa603bf2250d5866342ddb71338d4c
+---> The reverted commit sha is - 231f4b16378c9315e9eb8e560a48dc1a2972a553
+Commit message - Fix the 'How to Run Unit Tests' part in the README.md file. Fix issue #4.
+---> The original commit sha is - d99c5bb0a2aa603bf2250d5866342ddb71338d4c
+Commit message - Merge pull request #9 from mgood/master
+
+Fix spelling of META_DESC.configurable
+-----------------------------------------------------------------
+

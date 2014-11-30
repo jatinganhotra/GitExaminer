@@ -1,0 +1,328 @@
+# of partial reverts = 21
+Partial Revert diff pair 1 is -> 
+{ 98baf706fcf4436c276b7221335c35de942e9190 -> f864a9ea9275e840b6c77986acd3839c01337be1 } is a revert
+{ f864a9ea9275e840b6c77986acd3839c01337be1 -> 4eca3ec1b5a40d4e7191ba55deb40b0d93fb1c89 }
+Partial Revert commits SHA are -> 
+f864a9ea9275e840b6c77986acd3839c01337be1 - revert - 4eca3ec1b5a40d4e7191ba55deb40b0d93fb1c89
+---> The reverted commit sha is - f864a9ea9275e840b6c77986acd3839c01337be1
+Commit message - [minor] write action to tempfile prior to signing it
+---> The original commit sha is - 4eca3ec1b5a40d4e7191ba55deb40b0d93fb1c89
+Commit message - [minor] move tempfile action signing into mig package
+---> The files with partial_reverts are:-
+src/mig/client/client.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 061840d03353be5f11710e5fd06a642de0f64304 -> 55b5fdcc98c1901cd959521265c8e3c1d7713037 } is a revert
+{ 3faab0396801d4296538b2d24effe097f0b71eb8 -> 3b3356fa071c2391c46121175b2007e8c36a2bb2 }
+Partial Revert commits SHA are -> 
+55b5fdcc98c1901cd959521265c8e3c1d7713037 - revert - 3b3356fa071c2391c46121175b2007e8c36a2bb2
+---> The reverted commit sha is - 55b5fdcc98c1901cd959521265c8e3c1d7713037
+Commit message - [medium/bug] fix premature exit of heartbeat goroutine in sheduler
+---> The original commit sha is - 3b3356fa071c2391c46121175b2007e8c36a2bb2
+Commit message - Merge branch 'master' of github.com:mozilla/mig
+---> The files with partial_reverts are:-
+doc/configuration.rst
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 8cd323c5f987b7c00fb929fdb04b1bdec1255af1 -> 72a9676dcb9e48245d04ebfb68366dcd3f7d0685 } is a revert
+{ 2a3bb391f5cec9c45e6243518dc986ea700b3644 -> 0ebb2e2393425e77daeaebbeb14ebbd96509d5e2 }
+Partial Revert commits SHA are -> 
+72a9676dcb9e48245d04ebfb68366dcd3f7d0685 - revert - 0ebb2e2393425e77daeaebbeb14ebbd96509d5e2
+---> The reverted commit sha is - 72a9676dcb9e48245d04ebfb68366dcd3f7d0685
+Commit message - [minor] use i386 instead of i686 in makefile packaging
+---> The original commit sha is - 0ebb2e2393425e77daeaebbeb14ebbd96509d5e2
+Commit message - Merge pull request #21 from dajohi/master
+
+Better database query error handling.
+---> The files with partial_reverts are:-
+src/mig/database/queries.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 8cd323c5f987b7c00fb929fdb04b1bdec1255af1 -> 72a9676dcb9e48245d04ebfb68366dcd3f7d0685 } is a revert
+{ aebf61e90347e912459e6ed5a991f5c1293711b0 -> 798c0bdee80c9680a505a79defde0c2a8408029e }
+Partial Revert commits SHA are -> 
+72a9676dcb9e48245d04ebfb68366dcd3f7d0685 - revert - 798c0bdee80c9680a505a79defde0c2a8408029e
+---> The reverted commit sha is - 72a9676dcb9e48245d04ebfb68366dcd3f7d0685
+Commit message - [minor] use i386 instead of i686 in makefile packaging
+---> The original commit sha is - 798c0bdee80c9680a505a79defde0c2a8408029e
+Commit message - [minor] scheduler should use exactly the number of cpus
+---> The files with partial_reverts are:-
+src/mig/scheduler/scheduler.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ 5dea039ede6680c8fcab1f637c98479fd5b5014e -> 3a9c058ce9b91265a990c9a3955ac39759bb0592 } is a revert
+{ 3a9c058ce9b91265a990c9a3955ac39759bb0592 -> aebf61e90347e912459e6ed5a991f5c1293711b0 }
+Partial Revert commits SHA are -> 
+3a9c058ce9b91265a990c9a3955ac39759bb0592 - revert - aebf61e90347e912459e6ed5a991f5c1293711b0
+---> The reverted commit sha is - 3a9c058ce9b91265a990c9a3955ac39759bb0592
+Commit message - [doc] complete rewrite of module documentation, with full example module
+---> The original commit sha is - aebf61e90347e912459e6ed5a991f5c1293711b0
+Commit message - Merge pull request #22 from mozilla/modregister
+
+Module registration
+---> The files with partial_reverts are:-
+src/mig/agent/config.go
+src/mig/agent/env.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ 585806e4c1f1b944250bb5fc41e0d5da976b08c4 -> ea21d60034e277b492a2288cccf95f0beb6c3eae } is a revert
+{ 969e6c5fbf2f0a8084cae42e7f6a872b34477144 -> 68245f0ad2f60c0dc2a3db4367ef1984cda41ec2 }
+Partial Revert commits SHA are -> 
+ea21d60034e277b492a2288cccf95f0beb6c3eae - revert - 68245f0ad2f60c0dc2a3db4367ef1984cda41ec2
+---> The reverted commit sha is - ea21d60034e277b492a2288cccf95f0beb6c3eae
+Commit message - [minor] install agent monitoring cron job if IMMORTAL is set
+---> The original commit sha is - 68245f0ad2f60c0dc2a3db4367ef1984cda41ec2
+Commit message - [minor] install monitoring cron on sysvinit only
+---> The files with partial_reverts are:-
+src/mig/agent/context.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ 69c5c2f5cea54757d4206f87f45d79782c901599 -> 65ca27b5bafba49bae36a7e550f0bb5be40418a4 } is a revert
+{ b4ab3dda520e52e12e12ba2b8492e7e0fefd30b3 -> 2632acc4b55d9c8cc4650feec42eaa141bf98109 }
+Partial Revert commits SHA are -> 
+65ca27b5bafba49bae36a7e550f0bb5be40418a4 - revert - 2632acc4b55d9c8cc4650feec42eaa141bf98109
+---> The reverted commit sha is - 65ca27b5bafba49bae36a7e550f0bb5be40418a4
+Commit message - [minor] better agent logging
+---> The original commit sha is - 2632acc4b55d9c8cc4650feec42eaa141bf98109
+Commit message - Merge branch 'master' of github.com:mozilla/mig
+---> The files with partial_reverts are:-
+doc/concepts.rst
+doc/modules.rst
+examples/actions/terminate.json
+src/mig/action.go
+src/mig/api/compliance.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ 9ab8b331ab51171bed4d40df461a2610f0d7d658 -> b4ab3dda520e52e12e12ba2b8492e7e0fefd30b3 } is a revert
+{ b4ab3dda520e52e12e12ba2b8492e7e0fefd30b3 -> 2632acc4b55d9c8cc4650feec42eaa141bf98109 }
+Partial Revert commits SHA are -> 
+b4ab3dda520e52e12e12ba2b8492e7e0fefd30b3 - revert - 2632acc4b55d9c8cc4650feec42eaa141bf98109
+---> The reverted commit sha is - b4ab3dda520e52e12e12ba2b8492e7e0fefd30b3
+Commit message - [minor] set permissions of mig-agent to 500 during upgrades
+---> The original commit sha is - 2632acc4b55d9c8cc4650feec42eaa141bf98109
+Commit message - Merge branch 'master' of github.com:mozilla/mig
+---> The files with partial_reverts are:-
+doc/concepts.rst
+doc/modules.rst
+examples/actions/terminate.json
+src/mig/action.go
+src/mig/api/compliance.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ 69c5c2f5cea54757d4206f87f45d79782c901599 -> 65ca27b5bafba49bae36a7e550f0bb5be40418a4 } is a revert
+{ 65ca27b5bafba49bae36a7e550f0bb5be40418a4 -> 9ab8b331ab51171bed4d40df461a2610f0d7d658 }
+Partial Revert commits SHA are -> 
+65ca27b5bafba49bae36a7e550f0bb5be40418a4 - revert - 9ab8b331ab51171bed4d40df461a2610f0d7d658
+---> The reverted commit sha is - 65ca27b5bafba49bae36a7e550f0bb5be40418a4
+Commit message - [minor] better agent logging
+---> The original commit sha is - 9ab8b331ab51171bed4d40df461a2610f0d7d658
+Commit message - Merge pull request #18 from netantho/averez-threat-ref
+
+[minor] add check reference
+---> The files with partial_reverts are:-
+doc/concepts.rst
+doc/modules.rst
+examples/actions/terminate.json
+src/mig/action.go
+src/mig/api/compliance.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ 6d73583a30617faf86213b38b45b210d8ef8a1d5 -> 879a5ac63691afa8673306bf43b9c49a636a7403 } is a revert
+{ 4874477595bde87bc6c565e4539508d2ca95c2c6 -> 2dbf887a22baff200df31f3b0ba891bbcf93bc6d }
+Partial Revert commits SHA are -> 
+879a5ac63691afa8673306bf43b9c49a636a7403 - revert - 2dbf887a22baff200df31f3b0ba891bbcf93bc6d
+---> The reverted commit sha is - 879a5ac63691afa8673306bf43b9c49a636a7403
+Commit message - [medium] run scheduler in background (daemonize)
+---> The original commit sha is - 2dbf887a22baff200df31f3b0ba891bbcf93bc6d
+Commit message - [minor] remove dependency to godaemon in scheduler
+---> The files with partial_reverts are:-
+src/mig/scheduler/context.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ a6a05f8831e0e8b9b355a95566b8202b800528a8 -> f3f41f7c752656a4d7ac5828b864eb36532e818a } is a revert
+{ 50d8f251b49c621facbef40a783a89b42a805639 -> 71b6e5742c32713812b02d60b75f7982a7f3efcd }
+Partial Revert commits SHA are -> 
+f3f41f7c752656a4d7ac5828b864eb36532e818a - revert - 71b6e5742c32713812b02d60b75f7982a7f3efcd
+---> The reverted commit sha is - f3f41f7c752656a4d7ac5828b864eb36532e818a
+Commit message - [medium] add API endpoint to perform searches, for now only positive results
+---> The original commit sha is - 71b6e5742c32713812b02d60b75f7982a7f3efcd
+Commit message - [minor] remove `positiveresult` api search, we will do something better later
+---> The files with partial_reverts are:-
+src/mig/api/searches.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ 18c1c6cc78a24f6b929075961405bd17c2a0d49a -> 6d73583a30617faf86213b38b45b210d8ef8a1d5 } is a revert
+{ 7a7d8e1eb1df914c67a0bb9439184f2a9d52e10e -> 250e85b33c5358a201554248f040e858a4b385a0 }
+Partial Revert commits SHA are -> 
+6d73583a30617faf86213b38b45b210d8ef8a1d5 - revert - 250e85b33c5358a201554248f040e858a4b385a0
+---> The reverted commit sha is - 6d73583a30617faf86213b38b45b210d8ef8a1d5
+Commit message - [medium] run agent in background (daemonize)
+---> The original commit sha is - 250e85b33c5358a201554248f040e858a4b385a0
+Commit message - [minor] when daemonizing the agent, just create a new instance and exit. no more godaemon magic.
+---> The files with partial_reverts are:-
+Makefile
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ 82060ee0349352063ba26d74918910462c9fdfc2 -> 9378846a2d9d3a165c139a79c0be7a3a95ef8df8 } is a revert
+{ f4e2e31f4862600098f7beaa1535a36472864c10 -> 284d773a7c12e6f0cef419fe3ad24b5b58909399 }
+Partial Revert commits SHA are -> 
+9378846a2d9d3a165c139a79c0be7a3a95ef8df8 - revert - 284d773a7c12e6f0cef419fe3ad24b5b58909399
+---> The reverted commit sha is - 9378846a2d9d3a165c139a79c0be7a3a95ef8df8
+Commit message - [medium] base API structure and endpoint for creating actions
+---> The original commit sha is - 284d773a7c12e6f0cef419fe3ad24b5b58909399
+Commit message - [minor] clean up unused source file
+---> The files with partial_reverts are:-
+src/mig/clients/fetcher/fetcher.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ 026f32c7f9ba660d40229724774cfef4b97b0e86 -> 259845a4d338fdcb3f6fbf11096ae46c20c3391b } is a revert
+{ f4e2e31f4862600098f7beaa1535a36472864c10 -> 284d773a7c12e6f0cef419fe3ad24b5b58909399 }
+Partial Revert commits SHA are -> 
+259845a4d338fdcb3f6fbf11096ae46c20c3391b - revert - 284d773a7c12e6f0cef419fe3ad24b5b58909399
+---> The reverted commit sha is - 259845a4d338fdcb3f6fbf11096ae46c20c3391b
+Commit message - [medium] API support for action create via POST values
+---> The original commit sha is - 284d773a7c12e6f0cef419fe3ad24b5b58909399
+Commit message - [minor] clean up unused source file
+---> The files with partial_reverts are:-
+src/mig/clients/fetcher/fetcher.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 01a5e8857bb08e5a115a8d007855069251faac49 -> 203dc2dbd63965460baa09d238b19668ad029fe6 } is a revert
+{ 42a03583184141b4d1be3b2dd97196b2296a483c -> a588f134d7e8b1367edfc5d6a4902396a5b6f294 }
+Partial Revert commits SHA are -> 
+203dc2dbd63965460baa09d238b19668ad029fe6 - revert - a588f134d7e8b1367edfc5d6a4902396a5b6f294
+---> The reverted commit sha is - 203dc2dbd63965460baa09d238b19668ad029fe6
+Commit message - [minor] API resources cleanup
+---> The original commit sha is - a588f134d7e8b1367edfc5d6a4902396a5b6f294
+Commit message - Merge pull request #7 from mozilla/collector
+
+Collector routine in Scheduler.
+---> The files with partial_reverts are:-
+conf/mig-scheduler.cfg.inc
+doc/api.rst
+doc/concepts.rst
+doc/configuration.rst
+doc/data.rst
+doc/modules.rst
+inotify_make.sh
+src/mig/scheduler/collector.go
+src/mig/scheduler/context.go
+src/mig/scheduler/scheduler.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ 9c6d02c59db27366bba6840a7618196573540fde -> 166985d4d58725adafbdf5e4cbc5e12628607ff1 } is a revert
+{ 166985d4d58725adafbdf5e4cbc5e12628607ff1 -> 42a03583184141b4d1be3b2dd97196b2296a483c }
+Partial Revert commits SHA are -> 
+166985d4d58725adafbdf5e4cbc5e12628607ff1 - revert - 42a03583184141b4d1be3b2dd97196b2296a483c
+---> The reverted commit sha is - 166985d4d58725adafbdf5e4cbc5e12628607ff1
+Commit message - [minor] reinstall amqp timeout configuration
+
+Thanks to @streadway for the conf example from https://github.com/streadway/amqp/commit/42d5ce38ee9f85bdf12ab267d384f6a5fdf02d07#commitcomment-5793943
+---> The original commit sha is - 42a03583184141b4d1be3b2dd97196b2296a483c
+Commit message - Merge branch 'master' of github.com:mozilla/mig
+---> The files with partial_reverts are:-
+src/mig/api/api.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ a6a05f8831e0e8b9b355a95566b8202b800528a8 -> f3f41f7c752656a4d7ac5828b864eb36532e818a } is a revert
+{ f3f41f7c752656a4d7ac5828b864eb36532e818a -> 13e4609f90844cf3ee75b694d47fb788987ce949 }
+Partial Revert commits SHA are -> 
+f3f41f7c752656a4d7ac5828b864eb36532e818a - revert - 13e4609f90844cf3ee75b694d47fb788987ce949
+---> The reverted commit sha is - f3f41f7c752656a4d7ac5828b864eb36532e818a
+Commit message - [medium] add API endpoint to perform searches, for now only positive results
+---> The original commit sha is - 13e4609f90844cf3ee75b694d47fb788987ce949
+Commit message - Merge branch 'master' of github.com:mozilla/mig
+---> The files with partial_reverts are:-
+src/mig/agent/agent.go
+src/mig/modules/connected/connected.go
+src/mig/modules/filechecker/filechecker.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ 026f32c7f9ba660d40229724774cfef4b97b0e86 -> 259845a4d338fdcb3f6fbf11096ae46c20c3391b } is a revert
+{ 3e8bd2f641122e4a95b3fa63d16ba5366422d49a -> e7517910d064f77b8b6486488fa29937aa9ea068 }
+Partial Revert commits SHA are -> 
+259845a4d338fdcb3f6fbf11096ae46c20c3391b - revert - e7517910d064f77b8b6486488fa29937aa9ea068
+---> The reverted commit sha is - 259845a4d338fdcb3f6fbf11096ae46c20c3391b
+Commit message - [medium] API support for action create via POST values
+---> The original commit sha is - e7517910d064f77b8b6486488fa29937aa9ea068
+Commit message - Merge branch 'api'
+---> The files with partial_reverts are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 5644dbe48fec76ee89f9cd723753b1dbb8e27826 -> 026f32c7f9ba660d40229724774cfef4b97b0e86 } is a revert
+{ 026f32c7f9ba660d40229724774cfef4b97b0e86 -> 259845a4d338fdcb3f6fbf11096ae46c20c3391b }
+Partial Revert commits SHA are -> 
+026f32c7f9ba660d40229724774cfef4b97b0e86 - revert - 259845a4d338fdcb3f6fbf11096ae46c20c3391b
+---> The reverted commit sha is - 026f32c7f9ba660d40229724774cfef4b97b0e86
+Commit message - [doc] update youtube presentation
+---> The original commit sha is - 259845a4d338fdcb3f6fbf11096ae46c20c3391b
+Commit message - [medium] API support for action create via POST values
+---> The files with partial_reverts are:-
+.gitignore
+Makefile
+README.md
+conf/mig-api.cfg.inc
+doc/api.rst
+doc/concepts.rst
+examples/actions/example_v1.json
+examples/actions/sshd_backdoor.json
+src/mig/action.go
+src/mig/api/context.go
+src/mig/api/convert.go
+src/mig/client/mig-action-generator.go
+src/mig/clients/fetcher/fetcher.go
+src/mig/clients/generator/generator.go
+src/mig/command.go
+src/mig/modules/filechecker/filechecker.go
+src/mig/scheduler/flow.go
+src/mig/scheduler/scheduler.go
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ 4b026a3bcc7749162665dbd5d4dc1cbdd2a42840 -> 706b3773e497556045dd669afd63624ea65eec53 } is a revert
+{ 3b20d67fa2100434145a75f40073fbd62a0743d3 -> 947b1a3419ce03de296e08a46332bec64fca680e }
+Partial Revert commits SHA are -> 
+706b3773e497556045dd669afd63624ea65eec53 - revert - 947b1a3419ce03de296e08a46332bec64fca680e
+---> The reverted commit sha is - 706b3773e497556045dd669afd63624ea65eec53
+Commit message - [minor] add rabbitmq vhost support in scheduler
+---> The original commit sha is - 947b1a3419ce03de296e08a46332bec64fca680e
+Commit message - Merge pull request #2 from gdestuynder/master
+
+[medium] add support to automatically start mig_agent after rpm install
+---> The files with partial_reverts are:-
+Makefile
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ 46316892ac32ab7f56defef8173151223aadd8b8 -> d78ca3e9c84a5e021b43915b2e5f6e1aafb89dd4 } is a revert
+{ d78ca3e9c84a5e021b43915b2e5f6e1aafb89dd4 -> 6af329b44d38daf33f60ed94f5155188507cfa87 }
+Partial Revert commits SHA are -> 
+d78ca3e9c84a5e021b43915b2e5f6e1aafb89dd4 - revert - 6af329b44d38daf33f60ed94f5155188507cfa87
+---> The reverted commit sha is - d78ca3e9c84a5e021b43915b2e5f6e1aafb89dd4
+Commit message - PGP: Extract signature and verification into separate package
+---> The original commit sha is - 6af329b44d38daf33f60ed94f5155188507cfa87
+Commit message - Merge branch 'pgp'
+---> The files with partial_reverts are:-
+checks/policy_system_auditd_exec.json
+checks/policy_system_rootpasswd_hash.json
+-----------------------------------------------------------------
+

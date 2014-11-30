@@ -1,0 +1,2605 @@
+# of merges = 385
+Merge commit 1 is -> 
+{ 604709bb1902ffcc899ab09ae1bebf66a09136c3 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 2 is -> 
+{ f410d10b5f51eec1b72837b0d4a2b186ad378437 is a merge commit
+---> Commit message - Merge branch 'master' into rails3
+
+Conflicts:
+	bin/brakeman
+-----------------------------------------------------------------
+
+Merge commit 3 is -> 
+{ f746d34b14133278eab5a75d1cf3bb73915bd335 is a merge commit
+---> Commit message - Merge branch 'rails3'
+
+-Add experimental support for Rails 3
+-----------------------------------------------------------------
+
+Merge commit 4 is -> 
+{ 05b2a725f93dd281466c16e591f109be62914c44 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 5 is -> 
+{ 542c064bf7cc2a437b02d642558f40e0f898707a is a merge commit
+---> Commit message - Merge pull request #12 from tw-ngreen/master
+
+Respect -w flag when outputting to .tabs format
+-----------------------------------------------------------------
+
+Merge commit 6 is -> 
+{ 51bf67a7e69a59d719784a2de17c46a17272245b is a merge commit
+---> Commit message - Merge branch 'master' into add_option_to_exit_with_nonzero_exit_code_when_warnings_found
+-----------------------------------------------------------------
+
+Merge commit 7 is -> 
+{ b82c65ccbc22bf8da97074567128fab50cbd9d27 is a merge commit
+---> Commit message - Merge pull request #18 from tw-ngreen/add_option_to_exit_with_nonzero_exit_code_when_warnings_found
+
+Add option to exit with nonzero exit code when warnings found
+-----------------------------------------------------------------
+
+Merge commit 8 is -> 
+{ 625f655f02695995060c93dfe736b0e9ff3beb36 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 9 is -> 
+{ 6687214e27cb077b08e6ad9b62a951f0f0effd1e is a merge commit
+---> Commit message - Merge branch 'master' into use_call_indexing
+-----------------------------------------------------------------
+
+Merge commit 10 is -> 
+{ 8a31492e0e6f348146574038d3e21e573e41a6cc is a merge commit
+---> Commit message - Merge pull request #28 from presidentbeef/add_rake_task
+
+Add --rake option to install rake task
+which closes #26
+-----------------------------------------------------------------
+
+Merge commit 11 is -> 
+{ be151a3023dbf5d85f7f9c92df6b963e3c1f2bdc is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 12 is -> 
+{ d7bcf404f888e2c3d1468c39b56290aaa25bccdd is a merge commit
+---> Commit message - Merge branch 'scan_diff'
+-----------------------------------------------------------------
+
+Merge commit 13 is -> 
+{ 1d7d6e8f1b72b5481ddec07064b7d0de6c8d51f2 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 14 is -> 
+{ a49cfbd9fdf9700a1669eec60ee5b95e12004b4c is a merge commit
+---> Commit message - Merge branch 'prettify_reports' of github.com:daveworth/brakeman into prettify_reports
+-----------------------------------------------------------------
+
+Merge commit 15 is -> 
+{ 17322b06e6a64696190f25f9528d4eb4bc29be7a is a merge commit
+---> Commit message - Merge pull request #33 from daveworth/prettify_reports
+
+Add slightly prettier reports for rescanning
+-----------------------------------------------------------------
+
+Merge commit 16 is -> 
+{ 96ad5fbeb8221ad9e9638c3f6073180df8268246 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 17 is -> 
+{ c94b99a2f5dde93555989dcd217be6b1d592670f is a merge commit
+---> Commit message - Merge pull request #46 from oreoshake/perf_boost_question_mark
+
+Avoid some processing by checking for duplicates first
+-----------------------------------------------------------------
+
+Merge commit 18 is -> 
+{ a31a1bd29561d377d6ae0b4b807e770cc88ed55f is a merge commit
+---> Commit message - Merge pull request #45 from oreoshake/link_to_href_check
+
+Catch raw hrefs as bad, warn unless wrapped in a "safe" method
+-----------------------------------------------------------------
+
+Merge commit 19 is -> 
+{ d13323576691a7f9af82ec5e42e2107a984f0f87 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 20 is -> 
+{ dc076ccec58eec4de8924b09590b41b6993ad8e6 is a merge commit
+---> Commit message - Merge pull request #54 from oreoshake/process_lib_fix
+
+ I was getting a NoMethodError when rescanning a file in the lib directo...
+-----------------------------------------------------------------
+
+Merge commit 21 is -> 
+{ 4ffff0fcfbbf0970d9e93de1a176b1f00bc40646 is a merge commit
+---> Commit message - Merge pull request #56 from presidentbeef/output_stack_trace_in_187
+
+Standardize output of stack trace in 1.8 and 1.9
+but only when using debug option
+-----------------------------------------------------------------
+
+Merge commit 22 is -> 
+{ 0afd27772c299ab815270e0219ee8b3e1ed67ca9 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 23 is -> 
+{ 9e96ad6746d73f09e25fbd71f0399e5c2ce54f7f is a merge commit
+---> Commit message - Merge pull request #58 from presidentbeef/improved_dynamic_render_check
+
+Improved dynamic render check, ignore condition in if statements when looking for user input.
+-----------------------------------------------------------------
+
+Merge commit 24 is -> 
+{ 1ee831a8a4ef62e555e84ab78b3b217b1b927e47 is a merge commit
+---> Commit message - Merge pull request #59 from presidentbeef/fix_rails_xss_views
+
+Fix handling of Erubis templates with xss escaping via rails_xss or Rails 3 (but Rails 3 should not really be affected)
+-----------------------------------------------------------------
+
+Merge commit 25 is -> 
+{ 3c8cf3cda7b8c124b2646f6ba1edc1bbdf8d604c is a merge commit
+---> Commit message - Merge pull request #60 from presidentbeef/use_old_ruby_parser_for_18
+
+Use old ruby_parser (2.3.1) for Ruby 1.8 parsing
+-----------------------------------------------------------------
+
+Merge commit 26 is -> 
+{ 5cba274f286ca8b71473c099ce8642893c7d9802 is a merge commit
+---> Commit message - Merge branch 'fix_bug_with_controllers_inside_modules'
+-----------------------------------------------------------------
+
+Merge commit 27 is -> 
+{ d55f4fd86cae49e4ca1555e44b94ca4d15abb184 is a merge commit
+---> Commit message - Merge remote-tracking branch 'oreoshake/check_send'
+
+Add check for Object#send with user input.
+-----------------------------------------------------------------
+
+Merge commit 28 is -> 
+{ 500e3f8f8b355929d3b865fce67d989e105b1e22 is a merge commit
+---> Commit message - Merge pull request #63 from oreoshake/rescanning_unknown_templates
+
+Rescanning of templates doesn't pass through the same "filter" as the in...
+-----------------------------------------------------------------
+
+Merge commit 29 is -> 
+{ eef618e082505d0a70387a9d8adf67f4716b379f is a merge commit
+---> Commit message - Merge pull request #66 from tw-ngreen/multiple_output_formats
+
+Support multiple output files with different formats
+-----------------------------------------------------------------
+
+Merge commit 30 is -> 
+{ 2ea3ffa04a6c2bbf7ccb5b0ea4992a9dc8542a57 is a merge commit
+---> Commit message - Merge branch 'master' into handle_layout_in_views
+-----------------------------------------------------------------
+
+Merge commit 31 is -> 
+{ 3498a29d79fd6e504f2b2fe6b98511153d2addf5 is a merge commit
+---> Commit message - Merge pull request #71 from presidentbeef/handle_layout_in_views
+
+Treat render :layout in views like partials
+-----------------------------------------------------------------
+
+Merge commit 32 is -> 
+{ 6bbd119f748bcd9cb5fc95768222e2fb7158b7ae is a merge commit
+---> Commit message - Merge pull request #68 from presidentbeef/propagate_request_values_to_views
+
+Propagate request values to views
+
+such that `params[:x] = blah` will be reflect in the views
+-----------------------------------------------------------------
+
+Merge commit 33 is -> 
+{ 67f289809f934540f085d4cc77ff524bfcb88397 is a merge commit
+---> Commit message - Merge pull request #70 from presidentbeef/only_check_eval_args_for_user_input
+
+Only check eval args for user input
+-----------------------------------------------------------------
+
+Merge commit 34 is -> 
+{ 5c0e33e6d277356a155631aace4c74db87074f8a is a merge commit
+---> Commit message - Merge pull request #75 from presidentbeef/fix_controller_rescanning
+
+Call Processor#process_controller_alias properly
+-----------------------------------------------------------------
+
+Merge commit 35 is -> 
+{ f1b1b0dd6696eceddca50830999408a9dc9e79be is a merge commit
+---> Commit message - Merge branch 'master' into simple_helper_scanning
+
+Conflicts:
+	test/apps/rails3.1/app/controllers/users_controller.rb
+-----------------------------------------------------------------
+
+Merge commit 36 is -> 
+{ 4b935a7a0f711003bd787c902ad29302d51af0bb is a merge commit
+---> Commit message - Merge pull request #79 from presidentbeef/dont_check_find_by_methods_for_sql
+
+Don't check find_by_* methods for sql
+-----------------------------------------------------------------
+
+Merge commit 37 is -> 
+{ 2f37934b734b7313e01e71e1e89129210808f0f5 is a merge commit
+---> Commit message - Merge pull request #81 from oreoshake/mass_ass_clobbering
+
+Mass assignments were being clobbered, make api use consistent
+-----------------------------------------------------------------
+
+Merge commit 38 is -> 
+{ d08250b009f58933667d3c72465a66979e2396d1 is a merge commit
+---> Commit message - Merge remote-tracking branch 'oreoshake/mass_ass_clobbering' into fix_mass_assignment_dupes_in_views
+-----------------------------------------------------------------
+
+Merge commit 39 is -> 
+{ a39d5d4ddfe0fc15639402782e60f44f612f397e is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 40 is -> 
+{ 85e521698022194fd6b64519e2c4d65aaf1169f4 is a merge commit
+---> Commit message - Merge branch 'fix_mass_assignment_dupes_in_views'
+-----------------------------------------------------------------
+
+Merge commit 41 is -> 
+{ c04f7645fa6123ae6d4b1116c2d898fe426ae183 is a merge commit
+---> Commit message - Merge remote-tracking branch 'upstream/master'
+-----------------------------------------------------------------
+
+Merge commit 42 is -> 
+{ 1d93763cc2ad5b984eb8c633f8e7bb5bb78db853 is a merge commit
+---> Commit message - Merge pull request #83 from daveworth/nowarn_update_attributes
+
+Stop alerting for Mass Assignment on `#update_attribute`
+-----------------------------------------------------------------
+
+Merge commit 43 is -> 
+{ 0ead3e3f71a67481dca7b8f76df58992aa92af4f is a merge commit
+---> Commit message - Merge pull request #76 from presidentbeef/fix_rescanning_of_deleted_files
+
+Fix rescanning of deleted files
+-----------------------------------------------------------------
+
+Merge commit 44 is -> 
+{ 8d6cfc7218bb4b76f67d561ffdc37fca4ac402b3 is a merge commit
+---> Commit message - Merge pull request #49 from presidentbeef/fix_rails_xss_gem_check
+
+Properly check for use of rails_xss gem
+
+even if it's still a little broken in rescanning,
+but how often will people be adding/removing rails_xss from their
+Gemfile while rescanning?
+-----------------------------------------------------------------
+
+Merge commit 45 is -> 
+{ 6c746aac090cd83e2cac8f13fa086594fa3e6e78 is a merge commit
+---> Commit message - Merge pull request #74 from oreoshake/bye_bye_ruport2
+
+Bye bye ruport - 10 fewer dependencies (-13 + 3)
+
+hooray!
+-----------------------------------------------------------------
+
+Merge commit 46 is -> 
+{ 6653d0d6dd3b16e8743fbe1a755d8635ecac866b is a merge commit
+---> Commit message - Merge pull request #77 from oreoshake/update_json_output
+
+Update json output and add comparison feature for json
+-----------------------------------------------------------------
+
+Merge commit 47 is -> 
+{ 7da754639efb151b441d20669a2d1b5c8ec42b74 is a merge commit
+---> Commit message - Merge pull request #84 from oreoshake/fix_gemspec
+
+Include all of lib in the gem
+-----------------------------------------------------------------
+
+Merge commit 48 is -> 
+{ 837e215beea10ef5d1ea71534fcb329ad0ee1caa is a merge commit
+---> Commit message - Merge pull request #85 from presidentbeef/include_detected_value_in_warning
+
+Include detected user input value in warnings and highlight in reports
+-----------------------------------------------------------------
+
+Merge commit 49 is -> 
+{ 0fdf138207ec372a9aa0e946530953d2a09eff27 is a merge commit
+---> Commit message - Merge pull request #86 from flyerhzm/master
+
+Test with 1.9.3 on travis-ci
+-----------------------------------------------------------------
+
+Merge commit 50 is -> 
+{ 69ddd66d9c74f44298375d161cc922845e2f032d is a merge commit
+---> Commit message - Merge branch 'more_fix_rescanning_of_deleted_files'
+-----------------------------------------------------------------
+
+Merge commit 51 is -> 
+{ b334d35f8c06882776c2e25171d77e63e39544eb is a merge commit
+---> Commit message - Merge branch 'handle_render_template'
+-----------------------------------------------------------------
+
+Merge commit 52 is -> 
+{ a2b5e339cc742eeec0d1698cb1c2387a84de277d is a merge commit
+---> Commit message - Merge branch 'process_controller_mixins'
+-----------------------------------------------------------------
+
+Merge commit 53 is -> 
+{ ed06593cc959fdaafc3e47dc5e3ffaeb58a8e977 is a merge commit
+---> Commit message - Merge pull request #91 from oreoshake/parent_is_protected
+
+attr_accessible is inheritable, don't warn if a parent is protected
+-----------------------------------------------------------------
+
+Merge commit 54 is -> 
+{ d57bbd9ef910b67bcc03565193d569252dd2ff21 is a merge commit
+---> Commit message - Merge branch 'master' into simple_helper_scanning
+
+Conflicts:
+	test/apps/rails3.1/app/controllers/users_controller.rb
+	test/apps/rails3.1/config/routes.rb
+-----------------------------------------------------------------
+
+Merge commit 55 is -> 
+{ 27afa22ef0f8174407e56b35011b8c147add96e0 is a merge commit
+---> Commit message - Merge branch 'improve_sql_injection_check'
+-----------------------------------------------------------------
+
+Merge commit 56 is -> 
+{ 1b5562a4d8633d0e742899dd0f9f9b618ad0f6ef is a merge commit
+---> Commit message - Merge branch 'prefer_user_input_line'
+-----------------------------------------------------------------
+
+Merge commit 57 is -> 
+{ e01b6279d15bcf2d147c9ed6dfb3978eddb2d153 is a merge commit
+---> Commit message - Merge remote-tracking branch 'oreoshake/prefer_user_input_line'
+-----------------------------------------------------------------
+
+Merge commit 58 is -> 
+{ 7374d66a6b3942f438ed818d1206f9b02498d263 is a merge commit
+---> Commit message - Merge 'do_not_warn_on_redirects_to_model_instances'
+
+Conflicts:
+	test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Merge commit 59 is -> 
+{ e807ed13e9c93ace608219115566c99dd6ad7e07 is a merge commit
+---> Commit message - Merge remote-tracking branch 'daveworth/rails_sqli_check'
+
+Conflicts:
+	test/tests/test_rails3.rb
+	test/tests/test_rails_with_xss_plugin.rb
+-----------------------------------------------------------------
+
+Merge commit 60 is -> 
+{ 45ce18c9141d0ec974fdc14d13ba0204027c93b3 is a merge commit
+---> Commit message - Merge pull request #104 from grstearns/master
+
+Inconsistent warning type
+-----------------------------------------------------------------
+
+Merge commit 61 is -> 
+{ a5ba2816be64648ecf1b14b4b7c2149b4298e326 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 62 is -> 
+{ be83bf83941361219bea7e86ab46fce75306591f is a merge commit
+---> Commit message - Merge branch 'avoid_warning_on_non_activerecord_models'
+-----------------------------------------------------------------
+
+Merge commit 63 is -> 
+{ cac6ae2cffd625aa4974c493ce6358e45f3c0cfb is a merge commit
+---> Commit message - Merge pull request #113 from presidentbeef/improve_file_access_check
+
+Improve file access check with better confidence levels
+-----------------------------------------------------------------
+
+Merge commit 64 is -> 
+{ 29f22580cbf9da0ff44b73d4e76d206c01fefe8f is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 65 is -> 
+{ 4c417196d3235ca012d10cf5087f7e4ca7490168 is a merge commit
+---> Commit message - Merge branch 'link_report_types_to_website'
+-----------------------------------------------------------------
+
+Merge commit 66 is -> 
+{ 8f712e95a8fa92d3f1d6059dfe4b702f384d43b1 is a merge commit
+---> Commit message - Merge branch 'fix_empty_char_class_error'
+-----------------------------------------------------------------
+
+Merge commit 67 is -> 
+{ 03be9d0bea846a9a6016f92a21d640656e62bf04 is a merge commit
+---> Commit message - Merge branch 'user_input_in_or_is_immediate'
+-----------------------------------------------------------------
+
+Merge commit 68 is -> 
+{ 1a7f3ea396b28ded55888e2b23ed00b845e4e058 is a merge commit
+---> Commit message - Merge branch 'fix_negative_array_indexing'
+-----------------------------------------------------------------
+
+Merge commit 69 is -> 
+{ cf908be317a29a52ce9f870eccf5b1a0adc16a0f is a merge commit
+---> Commit message - Merge pull request #115 from presidentbeef/fix_negative_array_indexing
+
+Fix negative array indexing
+-----------------------------------------------------------------
+
+Merge commit 70 is -> 
+{ 57c2672c4a09c1ecdc92f519722be41e25de53bc is a merge commit
+---> Commit message - Merge pull request #116 from presidentbeef/improve_rails3_route_processing
+
+Improve Rails 3 route processing
+-----------------------------------------------------------------
+
+Merge commit 71 is -> 
+{ 430747d0f6faa64ae406981b1c2ee1553801a1da is a merge commit
+---> Commit message - Merge pull request #118 from presidentbeef/add_check_for_CVE-2012-3424
+
+Add check for CVE-2012-3424
+-----------------------------------------------------------------
+
+Merge commit 72 is -> 
+{ 4454e68cb2f3446e903bf2f374f3ca9426ac3b23 is a merge commit
+---> Commit message - Merge pull request #119 from hooopo/master
+
+Add charset for html template in order to correctly display the unicode characters
+-----------------------------------------------------------------
+
+Merge commit 73 is -> 
+{ 8ac95a64d6b5b9c362ccc13e5fa6573a4e0aafb7 is a merge commit
+---> Commit message - Merge branch 'master' into convenience_methods_for_sexp
+
+Conflicts:
+	lib/brakeman/checks/base_check.rb
+	lib/brakeman/processors/controller_processor.rb
+	lib/brakeman/processors/lib/rails3_route_processor.rb
+	lib/brakeman/processors/library_processor.rb
+	lib/brakeman/processors/model_processor.rb
+-----------------------------------------------------------------
+
+Merge commit 74 is -> 
+{ 5aba3b967270db6d132e59ef31f5e7c4514a4c3f is a merge commit
+---> Commit message - Merge pull request #123 from caniszczyk/master
+
+Add Code Climate badge to README
+-----------------------------------------------------------------
+
+Merge commit 75 is -> 
+{ a2fdd0fcc14688e02198e6a015169f0225490a11 is a merge commit
+---> Commit message - Merge branch 'strip_tags_CVE_2012_3465'
+
+Add check for CVE-2012-3465
+
+Conflicts:
+	test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Merge commit 76 is -> 
+{ cc66c44c44818b5cc503c8b2c98fed7f904f59a8 is a merge commit
+---> Commit message - Merge branch 'select_warning_in_rails2'
+
+Conflicts:
+	lib/brakeman/checks/check_cross_site_scripting.rb
+-----------------------------------------------------------------
+
+Merge commit 77 is -> 
+{ faa2a946b983500be3c7d4e5d2c49ee12c176522 is a merge commit
+---> Commit message - Merge branch 'single_quotes_cve_2012_3464'
+
+Conflicts:
+	test/tests/test_rails2.rb
+	test/tests/test_rails3.rb
+	test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Merge commit 78 is -> 
+{ 94580decc87ca5255ab22d5a3a397f1c22ac6d9f is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 79 is -> 
+{ 1b47cffb693ad060e922f89a335c1ce882b0793a is a merge commit
+---> Commit message - Merge branch 'master' into convenience_methods_for_sexp
+-----------------------------------------------------------------
+
+Merge commit 80 is -> 
+{ d2e1ac87e4651d21259c8583facf2d4495164882 is a merge commit
+---> Commit message - Merge pull request #122 from presidentbeef/convenience_methods_for_sexp
+
+Add convenience methods for Sexp nodes
+
+instead of having to use array-like indexing which is
+hard to read and hard to remember
+-----------------------------------------------------------------
+
+Merge commit 81 is -> 
+{ dbad4ed31917432834cc136b6f80f4a7313045bc is a merge commit
+---> Commit message - Merge branch 'remove_method_missing_from_sexp'
+
+Remove method_missing behavior from Sexp
+
+Conflicts:
+	lib/ruby_parser/bm_sexp.rb
+-----------------------------------------------------------------
+
+Merge commit 82 is -> 
+{ b83b30ac8e9760ec14ae4cf8aa28ae2dfbbf212c is a merge commit
+---> Commit message - Merge branch 'immediate_model_attribute_in_or'
+
+Treat model attribute as immediate value in `or` expressions
+
+Conflicts:
+	lib/brakeman/checks/base_check.rb
+-----------------------------------------------------------------
+
+Merge commit 83 is -> 
+{ eea49009f0fc4084f7f22b14c75537e8d7c342bc is a merge commit
+---> Commit message - Merge pull request #127 from presidentbeef/better_error_visibility
+
+A little bit better error visibility
+-----------------------------------------------------------------
+
+Merge commit 84 is -> 
+{ 927af46a4c4bdbc602c014d53fc96c75d664684a is a merge commit
+---> Commit message - Merge pull request #131 from deepakinseattle/master
+
+Fix --rake when output to file(s)
+
+fixes #130
+-----------------------------------------------------------------
+
+Merge commit 85 is -> 
+{ 74f6f28e034ee4567e71c7d33c97e40185fa8283 is a merge commit
+---> Commit message - Merge pull request #132 from fsword/master
+
+Allow Brakeman to be run without tty
+-----------------------------------------------------------------
+
+Merge commit 86 is -> 
+{ df685c28ec5bbccfbaa913cac20bf9124cf334d2 is a merge commit
+---> Commit message - Merge pull request #133 from presidentbeef/show_render_chain_for_templates
+
+Track render chain for templates
+-----------------------------------------------------------------
+
+Merge commit 87 is -> 
+{ 5650aae1ecee62a6953456b3c5a655703c9380fb is a merge commit
+---> Commit message - Merge remote-tracking branch 'fsword/master' into relative_paths_for_reports
+-----------------------------------------------------------------
+
+Merge commit 88 is -> 
+{ 119a5864488013b8937865d0ffee17ba33ce095f is a merge commit
+---> Commit message - Merge pull request #136 from oreoshake/warn_on_to_json
+
+High confidence warnings on `to_json`
+-----------------------------------------------------------------
+
+Merge commit 89 is -> 
+{ 5a0eb5281248cf140177af3605f029958ce55d76 is a merge commit
+---> Commit message - Merge pull request #137 from presidentbeef/relative_paths_for_reports
+
+Relative paths for reports
+-----------------------------------------------------------------
+
+Merge commit 90 is -> 
+{ 6d082467d2352eb1f729b80045f4cd7911e905b2 is a merge commit
+---> Commit message - Merge pull request #139 from presidentbeef/fix_redirect_false_negative
+
+Fix `redirect_to` false negative with only_path
+-----------------------------------------------------------------
+
+Merge commit 91 is -> 
+{ a0a7d97829da7b30f79772ec6c78589b21b7274d is a merge commit
+---> Commit message - Merge branch 'master' into add_content_tag_check
+
+Conflicts:
+	test/apps/rails2/app/controllers/home_controller.rb
+	test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Merge commit 92 is -> 
+{ 5d4c1f19519a70e599f6861a26aea55fdfa1a5f3 is a merge commit
+---> Commit message - Merge branch 'add_content_tag_check'
+
+Conflicts:
+	test/apps/rails3/app/controllers/home_controller.rb
+	test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Merge commit 93 is -> 
+{ a725e5345520f14596ec896b451ea7849ccaa2c4 is a merge commit
+---> Commit message - Merge pull request #144 from presidentbeef/fix_version_comparison
+
+Allow comparison of versions of unequal length
+-----------------------------------------------------------------
+
+Merge commit 94 is -> 
+{ c6d0962c8ca692cd64c42bb3229c0949a487d75d is a merge commit
+---> Commit message - Merge branch 'fix_rescanning_when_only_controller_changes'
+-----------------------------------------------------------------
+
+Merge commit 95 is -> 
+{ ee7d87e681b16cc4bd33d34fd2691641c8fd04ee is a merge commit
+---> Commit message - Merge branch 'fix_array_indexing_AGAIN'
+-----------------------------------------------------------------
+
+Merge commit 96 is -> 
+{ 83dc2d9befd10200bfa510ca2f418a541a407066 is a merge commit
+---> Commit message - Merge branch 'treat_super_as_method_call'
+
+Conflicts:
+	test/tests/test_brakeman.rb
+-----------------------------------------------------------------
+
+Merge commit 97 is -> 
+{ 6b3991dd77451e39ef68b08ac63bc3c9d1ac818c is a merge commit
+---> Commit message - Merge branch 'fix_mail_to_vuln_check'
+-----------------------------------------------------------------
+
+Merge commit 98 is -> 
+{ 4d603423248ca6e920865d4d1ff08b79fade3968 is a merge commit
+---> Commit message - Merge pull request #150 from presidentbeef/more_method_missing_sexp
+
+Fix uses of `method_missing` for Sexp
+-----------------------------------------------------------------
+
+Merge commit 99 is -> 
+{ 59aaaabe494ce098dec2876a8525505fa8ca918f is a merge commit
+---> Commit message - Merge pull request #149 from presidentbeef/no_special_case_for_hamlout
+
+Remove special Sexp nodes from HAML processor
+-----------------------------------------------------------------
+
+Merge commit 100 is -> 
+{ 3c0e12fa4d6f46b3d8c941fb8058f6029e2fcd4a is a merge commit
+---> Commit message - Merge pull request #152 from oreoshake/gh143_polymorphic_routes
+
+Treat models and arrays of models as safe input to redirect_to
+
+fixes #143
+-----------------------------------------------------------------
+
+Merge commit 101 is -> 
+{ f44af3341759180cdf47488977d76ea71057b4a5 is a merge commit
+---> Commit message - Merge branch 'output_processor_resilience'
+-----------------------------------------------------------------
+
+Merge commit 102 is -> 
+{ 0adf88bca219f294a7629b256be39dc4815795f3 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 103 is -> 
+{ d5b149dc0058b3171b642836b0c6fad59b17acae is a merge commit
+---> Commit message - Merge branch 'improve_test_coverage' of github.com:presidentbeef/brakeman into improve_test_coverage
+
+Conflicts:
+	test/tests/test_differ.rb
+-----------------------------------------------------------------
+
+Merge commit 104 is -> 
+{ 94fd4fb6f385fccef1793129fd0eef13e5fab778 is a merge commit
+---> Commit message - Merge pull request #154 from oreoshake/check_for_overwritten_initializer
+
+Check for overridden initializer values
+-----------------------------------------------------------------
+
+Merge commit 105 is -> 
+{ 412ec873d10140d37bbf214af47dfe7bc6bd5847 is a merge commit
+---> Commit message - Merge pull request #155 from presidentbeef/use_specific_model_in_collections
+
+Report specific model when rendering collections
+-----------------------------------------------------------------
+
+Merge commit 106 is -> 
+{ 54a1b0a7a3f15922f29dc163497b9062b16a5827 is a merge commit
+---> Commit message - Merge pull request #157 from presidentbeef/fix_single_arg_scopes
+
+Fix scope calls with single arguments
+-----------------------------------------------------------------
+
+Merge commit 107 is -> 
+{ fe6e81327d6ece35a4dfcbc810a4cf0f67149d1e is a merge commit
+---> Commit message - Merge branch 'improve_test_coverage' of github.com:presidentbeef/brakeman into improve_test_coverage
+-----------------------------------------------------------------
+
+Merge commit 108 is -> 
+{ 4b48bf15a91bffc09a2c61c8fcc886c6b487182b is a merge commit
+---> Commit message - Merge branch 'master' into improve_test_coverage
+-----------------------------------------------------------------
+
+Merge commit 109 is -> 
+{ c3c4d4abca902b5261c8f94a54811ce7acc42f7f is a merge commit
+---> Commit message - Merge branch 'update_scanner' into improve_test_coverage
+
+Conflicts:
+	test/test.rb
+-----------------------------------------------------------------
+
+Merge commit 110 is -> 
+{ 4824c03b26795a32bea0603e313abcf771336056 is a merge commit
+---> Commit message - Merge pull request #163 from oreoshake/quick_fix_for_init_checker
+
+Quick fix for flapping behavior on 1.8
+-----------------------------------------------------------------
+
+Merge commit 111 is -> 
+{ 473429871d00da0e4c27a83675076eb42a5d528d is a merge commit
+---> Commit message - Merge pull request #162 from presidentbeef/improve_test_coverage
+
+Improve test coverage
+-----------------------------------------------------------------
+
+Merge commit 112 is -> 
+{ f2555592e6e14c5576758c76a17576c0aea653c9 is a merge commit
+---> Commit message - Merge branch 'master' into update_rescanner2
+
+Conflicts:
+	test/tests/test_rescanner.rb
+-----------------------------------------------------------------
+
+Merge commit 113 is -> 
+{ 25b5e693dbe5cd717925ea4895ce4e7217bbeed1 is a merge commit
+---> Commit message - Merge pull request #165 from presidentbeef/update_rescanner2
+
+Fix rescanner and add tests
+-----------------------------------------------------------------
+
+Merge commit 114 is -> 
+{ 80dfc86b00067733f495a77f0fb877a474d5e1f6 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 115 is -> 
+{ 3f1486b3b09e97ac40a41090e47486abb9408098 is a merge commit
+---> Commit message - Merge branch 'master' into simple_helper_scanning
+
+Conflicts:
+	test/apps/rails3.1/app/controllers/users_controller.rb
+-----------------------------------------------------------------
+
+Merge commit 116 is -> 
+{ bd76d18c7146e9acdf4f2b1d961cbd78f4584295 is a merge commit
+---> Commit message - Merge pull request #175 from presidentbeef/ignore_arel_table_calls_in_SQL
+
+Ignore Model.arel_table calls in SQL
+-----------------------------------------------------------------
+
+Merge commit 117 is -> 
+{ 3439fd14e68c77ba678f515b31af5d556114d908 is a merge commit
+---> Commit message - Merge pull request #176 from presidentbeef/allow_non_production_versions_in_gemfile
+
+Allow pre-release versions in Gemfile
+-----------------------------------------------------------------
+
+Merge commit 118 is -> 
+{ aa2b59218e5f82080154bc871a60ac29aec554b0 is a merge commit
+---> Commit message - Merge branch 'master' into simple_helper_scanning
+-----------------------------------------------------------------
+
+Merge commit 119 is -> 
+{ c2ecd068aab3386cf50eaa448638d809ea802500 is a merge commit
+---> Commit message - Merge pull request #178 from presidentbeef/fix_yaml_load_false_positive
+
+Fix YAML.load false positive
+-----------------------------------------------------------------
+
+Merge commit 120 is -> 
+{ babd9a65f442d87c62fb803df194f054056b6ac4 is a merge commit
+---> Commit message - Merge pull request #179 from presidentbeef/ignore_to_i
+
+Don't report calls to `to_i` on user input as XSS
+-----------------------------------------------------------------
+
+Merge commit 121 is -> 
+{ 262dcbc7e47247effbd5afa2002cb7aecda638cf is a merge commit
+---> Commit message - Merge branch 'master' into update_ruby_parser
+-----------------------------------------------------------------
+
+Merge commit 122 is -> 
+{ b8dc5554442d53ddde454bb619191ab13587ba0a is a merge commit
+---> Commit message - Merge pull request #166 from presidentbeef/use_multi_json_gem
+
+Use multi_json instead of json_pure gem
+-----------------------------------------------------------------
+
+Merge commit 123 is -> 
+{ 6bed8510f95bcd6a2f8ac3069da66078db592d28 is a merge commit
+---> Commit message - Merge pull request #170 from presidentbeef/avoid_appending_to_template_variable
+
+Do not process appending to HAML template variable
+-----------------------------------------------------------------
+
+Merge commit 124 is -> 
+{ 94b7b62918d494280e4d1589b78c03e3e95cb07b is a merge commit
+---> Commit message - Merge pull request #177 from presidentbeef/fix_false_positive_redirect_to_decorated_models
+
+Several false positive fixes for redirect check
+-----------------------------------------------------------------
+
+Merge commit 125 is -> 
+{ 120fc3af4ddae3de606d658edd93b2f998539781 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 126 is -> 
+{ 9d02a4b549b6a16c4061d1452707b6f3fc556ac7 is a merge commit
+---> Commit message - Merge pull request #181 from presidentbeef/ignore_more_route_options
+
+Ignore more Rails 2 route options
+-----------------------------------------------------------------
+
+Merge commit 127 is -> 
+{ ac5e41859d1a02cd632aa1644b240b229fd0a5d4 is a merge commit
+---> Commit message - Merge pull request #180 from presidentbeef/call_index_fixes
+
+Call indexing performance improvement
+-----------------------------------------------------------------
+
+Merge commit 128 is -> 
+{ 5af6d517cc4d348ac47655f79b7cc6bd385791af is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 129 is -> 
+{ 7fa742f4bca2dcb227a396c99135ba35d5699f78 is a merge commit
+---> Commit message - Merge branch 'master' into update_ruby_parser
+
+Conflicts:
+	lib/brakeman/checks/base_check.rb
+	lib/brakeman/processors/model_processor.rb
+-----------------------------------------------------------------
+
+Merge commit 130 is -> 
+{ a2e541b97efb25e2f472077005b7e60a4c517962 is a merge commit
+---> Commit message - Merge pull request #186 from grosser/license
+
+make license easier to discover + visible on rubygems.org/automated tool...
+-----------------------------------------------------------------
+
+Merge commit 131 is -> 
+{ e591e7d279b8cfb409f3ebdc077eff53a8fe939e is a merge commit
+---> Commit message - Merge pull request #183 from grosser/rake
+
+make bundle && bundle exec rake work so we do not need an explanation of...
+-----------------------------------------------------------------
+
+Merge commit 132 is -> 
+{ 8fb32e286b816dcba6a5cba46be7fd35d16da283 is a merge commit
+---> Commit message - Merge pull request #187 from grosser/lock
+
+ignore lock
+-----------------------------------------------------------------
+
+Merge commit 133 is -> 
+{ c4fde94fec9218d0f23786485e8462dd7cf10d1d is a merge commit
+---> Commit message - Merge remote-tracking branch 'grosser/configs'
+
+Better config locations, warn on old deprecated ones
+-----------------------------------------------------------------
+
+Merge commit 134 is -> 
+{ 54cabde7cb267f294637a2b656c313212fc29c0e is a merge commit
+---> Commit message - Merge pull request #189 from presidentbeef/remove_call_index_regex
+
+Remove "find by regex" CallIndex feature
+-----------------------------------------------------------------
+
+Merge commit 135 is -> 
+{ b33934a62ebdd21c5ff1c20a02f3c897d828f8d8 is a merge commit
+---> Commit message - Merge pull request #191 from presidentbeef/no_formatting_in_warning_hash
+
+Keep whitespace format in Warning#to_hash/#to_json
+-----------------------------------------------------------------
+
+Merge commit 136 is -> 
+{ e74d1aaa7ce523de1a39eb7ca41fe634a182d6fb is a merge commit
+---> Commit message - Merge pull request #192 from presidentbeef/output_brakeman_version
+
+Add Brakeman version to text and HTML reports
+-----------------------------------------------------------------
+
+Merge commit 137 is -> 
+{ 1f83da7847886b85a58768fff6565fc0c9b33f05 is a merge commit
+---> Commit message - Merge pull request #193 from presidentbeef/output_scan_time
+
+Output scan time in reports
+-----------------------------------------------------------------
+
+Merge commit 138 is -> 
+{ ef27b7ab75c812e5d6674845a66f0c862cc394e0 is a merge commit
+---> Commit message - Merge pull request #196 from grosser/translate-html
+
+more details on xss warning
+-----------------------------------------------------------------
+
+Merge commit 139 is -> 
+{ a78720caf8dea82de6d6a4e980317e1a1705c21f is a merge commit
+---> Commit message - Merge pull request #197 from brynary/app-tree
+
+Refactor: Introduce AppTree as facade for filesystem
+-----------------------------------------------------------------
+
+Merge commit 140 is -> 
+{ f3afc9d578a3b011611abf03aa85182d60187e61 is a merge commit
+---> Commit message - Merge branch 'master' into update_ruby_parser
+-----------------------------------------------------------------
+
+Merge commit 141 is -> 
+{ 85a2e95b4dfc34953c4f75a36c38d671a0aad61d is a merge commit
+---> Commit message - Merge branch 'master' into update_ruby_parser
+
+Conflicts:
+	lib/brakeman/processors/controller_processor.rb
+	lib/brakeman/scanner.rb
+-----------------------------------------------------------------
+
+Merge commit 142 is -> 
+{ f232f9b4f52bae2d192b82b4753598fa184ee3cd is a merge commit
+---> Commit message - Merge pull request #190 from presidentbeef/update_ruby_parser
+
+Update to use RubyParser 3.x
+-----------------------------------------------------------------
+
+Merge commit 143 is -> 
+{ dcf1320510ca38f0125b63f5a61a5c74ffb8e69e is a merge commit
+---> Commit message - Merge commit '90e7b63c4dcd38f6c3c297381bdfb8c7fc76ab83' into reduce_sexps_created2
+-----------------------------------------------------------------
+
+Merge commit 144 is -> 
+{ 0cc78c56e83c53a4c7e19c8a7168209b9bd82b88 is a merge commit
+---> Commit message - Add methods to Sexp to avoid Sexp creation
+-----------------------------------------------------------------
+
+Merge commit 145 is -> 
+{ c0b871521ab886f2fa10d115e59673229dfffa4a is a merge commit
+---> Commit message - Merge pull request #194 from presidentbeef/fix_to_sql_false_positive
+
+Fix `to_sql` false positive
+-----------------------------------------------------------------
+
+Merge commit 146 is -> 
+{ 5b2f41b42c442a7420840e9ac538b0cf38b29179 is a merge commit
+---> Commit message - Merge branch 'master' into simple_helper_scanning
+
+Conflicts:
+	test/apps/rails3.1/app/controllers/users_controller.rb
+-----------------------------------------------------------------
+
+Merge commit 147 is -> 
+{ e8a787cfe4b63e01498790cd1abf7ea3d1340e0c is a merge commit
+---> Commit message - Merge branch 'reduce_sexps_created'
+-----------------------------------------------------------------
+
+Merge commit 148 is -> 
+{ ef39a8d87aa1ffc4f537ad4c57cf0237da938e6d is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 149 is -> 
+{ 4f70e6a5843df638d98dece1729b88fc30c47393 is a merge commit
+---> Commit message - Merge branch 'support_newer_validates_format'
+
+Support newer validates format
+
+Conflicts:
+	test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Merge commit 150 is -> 
+{ f3d91abd665ac33d4e93373253ca1282c315504f is a merge commit
+---> Commit message - Merge pull request #216 from presidentbeef/fix_check_execute
+
+Fix command injection test to warn on any interpolation
+-----------------------------------------------------------------
+
+Merge commit 151 is -> 
+{ bdddc3eef8afab1f511ab08ca48eb00ec15d96d9 is a merge commit
+---> Commit message - Merge branch 'support_strong_parameters2'
+
+Conflicts:
+	test/apps/rails3/app/controllers/other_controller.rb
+-----------------------------------------------------------------
+
+Merge commit 152 is -> 
+{ 0339f56cbc551bf8e27b22ae9bc98d9cc2e72461 is a merge commit
+---> Commit message - Merge branch 'master' into simple_helper_scanning
+
+Conflicts:
+	test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Merge commit 153 is -> 
+{ ab0f5a3a57d0047a3a9a7a7cdf48e15a0e831d39 is a merge commit
+---> Commit message - Merge pull request #219 from presidentbeef/ignore_route_information_by_default
+
+Ignore route information by default
+-----------------------------------------------------------------
+
+Merge commit 154 is -> 
+{ b141fe23ea420adc0e1a292e63e89aba4de622d7 is a merge commit
+---> Commit message - Merge branch 'master' into simple_helper_scanning
+-----------------------------------------------------------------
+
+Merge commit 155 is -> 
+{ 8efef83d661961d0db098dc4205d2efe82fb31c4 is a merge commit
+---> Commit message - Merge pull request #222 from presidentbeef/fix_execute_check_logic_error
+
+Fix CheckExecute treating all string interps same
+-----------------------------------------------------------------
+
+Merge commit 156 is -> 
+{ 3e13a3ce960a4b75934031fd95fbae37e63ece6b is a merge commit
+---> Commit message - Merge branch 'fix_session_settings_check_for_rails3' of github.com:presidentbeef/brakeman into fix_session_settings_check_for_rails3
+
+Conflicts:
+	lib/brakeman/checks/check_session_settings.rb
+-----------------------------------------------------------------
+
+Merge commit 157 is -> 
+{ b6b36d646007e117c522c3379acec93dd89681cd is a merge commit
+---> Commit message - Merge pull request #218 from presidentbeef/simple_helper_scanning
+
+Add optional simple helper method scanning for controllers
+-----------------------------------------------------------------
+
+Merge commit 158 is -> 
+{ dff031c72382837ce1ea0b547414511c90a08202 is a merge commit
+---> Commit message - Merge pull request #220 from presidentbeef/fix_session_settings_check_for_rails3
+
+Fix CheckSessionSettings for Rails 3
+-----------------------------------------------------------------
+
+Merge commit 159 is -> 
+{ e996bf53dbe8ee17696837772718496b4302f332 is a merge commit
+---> Commit message - Merge branch 'pass_ivars_between_before_filters' into only_do_one_pass_of_alias_processing
+
+Should really be one branch
+
+Conflicts:
+	test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Merge commit 160 is -> 
+{ 4bab35e76d4892fc60b952c7807ad0655990d640 is a merge commit
+---> Commit message - Merge pull request #224 from presidentbeef/only_do_one_pass_of_alias_processing
+
+Only do one pass of alias processing + Pass instance variables through before_filters
+-----------------------------------------------------------------
+
+Merge commit 161 is -> 
+{ 1b3621f76c4422487327c13ecef00d8e2a42e95c is a merge commit
+---> Commit message - Merge pull request #227 from presidentbeef/check_for_secret_token
+
+Check for secret_token
+-----------------------------------------------------------------
+
+Merge commit 162 is -> 
+{ 6025691b8d3aceca5cf48f98f89924f60142cd22 is a merge commit
+---> Commit message - Merge pull request #228 from presidentbeef/CVE-2012-5664
+
+Version check for CVE-2012-5664
+-----------------------------------------------------------------
+
+Merge commit 163 is -> 
+{ d8976b2aa83ba63bdddebe74c02d584bac238cda is a merge commit
+---> Commit message - Merge pull request #231 from dwbutler/rubies
+
+Test more rubies
+-----------------------------------------------------------------
+
+Merge commit 164 is -> 
+{ 9367b8d7ffd6e023789eb137881ba1110c9e9068 is a merge commit
+---> Commit message - Merge pull request #233 from oreoshake/poly_arrays_for_href
+
+Fixes #232 treat arrays as models -> polymorphic_url/path
+-----------------------------------------------------------------
+
+Merge commit 165 is -> 
+{ 4fc9af50c47af384abdd834c0df57f01c4f23a84 is a merge commit
+---> Commit message - Merge branch 'master' into more_mass_assignment_methods
+
+Conflicts:
+	test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Merge commit 166 is -> 
+{ 036fa7d3f21f694135ed097af11022e85f1b95d9 is a merge commit
+---> Commit message - Merge remote-tracking branch 'oreoshake/gh210_remove_active_support'
+
+Remove active_support dependency, fixes #210
+-----------------------------------------------------------------
+
+Merge commit 167 is -> 
+{ 249e4618655882bef6f492d49163d07b16ca667f is a merge commit
+---> Commit message - Merge remote-tracking branch 'neersighted/patch-1'
+
+Update to RubyParser 3.1.1
+-----------------------------------------------------------------
+
+Merge commit 168 is -> 
+{ a3fc170ba6b425b3723ab0a1ce9a59a30608f93c is a merge commit
+---> Commit message - Merge pull request #239 from presidentbeef/add_even_more_CVEs
+
+Add checks for CVE-2013-0155 and CVE-2013-0156
+-----------------------------------------------------------------
+
+Merge commit 169 is -> 
+{ 620b1c5d460867cea0cb4b68c7df7547cd4ccbec is a merge commit
+---> Commit message - Merge pull request #240 from presidentbeef/add_check_for_yaml_load
+
+Add check for YAML.load
+-----------------------------------------------------------------
+
+Merge commit 170 is -> 
+{ f9eda42235d0c8d7d5b746ed476a44c255834477 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 171 is -> 
+{ 72fd7af0539bc1e6c17dad5e91720c32c9dbe920 is a merge commit
+---> Commit message - Merge pull request #249 from presidentbeef/add_more_yaml_methods
+
+Check for more YAML methods parsing user input
+-----------------------------------------------------------------
+
+Merge commit 172 is -> 
+{ f87f8735c094a7d60e12a0cf51e9d69476d54256 is a merge commit
+---> Commit message - Merge pull request #248 from presidentbeef/support_older_multi_json
+
+Support MultiJson 1.2 for Rails 3.0 and 3.1
+-----------------------------------------------------------------
+
+Merge commit 173 is -> 
+{ 6bf687b08985644d4a9af307a4485cccf2cf4508 is a merge commit
+---> Commit message - Merge pull request #253 from presidentbeef/check_for_update_all
+
+Check for ActiveRecord::Relation#update all
+-----------------------------------------------------------------
+
+Merge commit 174 is -> 
+{ e4b6bc941a1dce374c271e9152356e7377908b6a is a merge commit
+---> Commit message - Merge branch 'clarify_CVE_2013_0155_message'
+-----------------------------------------------------------------
+
+Merge commit 175 is -> 
+{ 0f6bac36290db0041e3a99ce1feaa63e5fa1c6d3 is a merge commit
+---> Commit message - Merge branch 'check_for_sqli_in_pluck'
+-----------------------------------------------------------------
+
+Merge commit 176 is -> 
+{ 3064e44ffa0e304140047acd7b202ce5073ef839 is a merge commit
+---> Commit message - Merge branch 'master' into CVE-2013-0276_and_0277
+
+Conflicts:
+	test/tests/test_rails2.rb
+	test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Merge commit 177 is -> 
+{ fed31f50d4f1738efacec9505c2ae87eb7898876 is a merge commit
+---> Commit message - Merge pull request #262 from presidentbeef/CVE-2013-0276_and_0277
+
+Checks for CVE-2013-02{69, 76, 77}
+-----------------------------------------------------------------
+
+Merge commit 178 is -> 
+{ 2a11574d1bbf6e2f401e39c9588cd85bda9c246b is a merge commit
+---> Commit message - Merge pull request #265 from presidentbeef/fix_processing_production_rb
+
+Fix processing of production.rb in Rails 3
+-----------------------------------------------------------------
+
+Merge commit 179 is -> 
+{ 12cc02a3d000390deb712347059aff9490568315 is a merge commit
+---> Commit message - Merge branch 'master' into fix_multiple_assignments_in_if_statements
+-----------------------------------------------------------------
+
+Merge commit 180 is -> 
+{ 91ca2405230cc248df7dcab242db9ef21724198b is a merge commit
+---> Commit message - Merge branch 'master' into slim_support
+
+Conflicts:
+	test/tests/test_rails32.rb
+-----------------------------------------------------------------
+
+Merge commit 181 is -> 
+{ 50e4ec56642b8e31692cd57c937763579ac74c3f is a merge commit
+---> Commit message - Merge pull request #266 from presidentbeef/more_filters
+
+Handle prepend/append_before_filter
+-----------------------------------------------------------------
+
+Merge commit 182 is -> 
+{ d80eae743d924ee820c17d87c793ab53a26b5a86 is a merge commit
+---> Commit message - Merge pull request #267 from presidentbeef/jump_to_errors
+
+Scroll errors into view when showing/hiding
+-----------------------------------------------------------------
+
+Merge commit 183 is -> 
+{ 770ad73f515ddbb13eb61bd1685ed878de7b012d is a merge commit
+---> Commit message - Merge pull request #268 from presidentbeef/more_skip_filters
+
+Check for more important filters skipped with blacklist
+-----------------------------------------------------------------
+
+Merge commit 184 is -> 
+{ 9b95be38b32e0ca38098d3c8b56723e85d820376 is a merge commit
+---> Commit message - Merge pull request #269 from presidentbeef/support_haml_4
+
+Expand Haml dependency to 4.x
+-----------------------------------------------------------------
+
+Merge commit 185 is -> 
+{ cfbe0009bc50f3759e65cfa0ea06e6bc0fbf3083 is a merge commit
+---> Commit message - Merge pull request #270 from presidentbeef/fix_multiple_assignments_in_if_statements
+
+Fix multiple assignments in if statements
+-----------------------------------------------------------------
+
+Merge commit 186 is -> 
+{ 59107dfdd09d45e8edbabb191a23583f8a9c948b is a merge commit
+---> Commit message - Merge pull request #271 from presidentbeef/slim_support
+
+Support for Slim templates
+-----------------------------------------------------------------
+
+Merge commit 187 is -> 
+{ 3dc564a277f8d4888abfe19da6b9c023f029a8be is a merge commit
+---> Commit message - Merge branch 'master' into ruby_2_0_support
+
+Conflicts:
+	lib/brakeman/scanner.rb
+-----------------------------------------------------------------
+
+Merge commit 188 is -> 
+{ 5e231709b603edd299c0bed4e42fe2d724d7b738 is a merge commit
+---> Commit message - Merge pull request #277 from presidentbeef/ruby_2_0_support
+
+Add Ruby 2.0 support
+-----------------------------------------------------------------
+
+Merge commit 189 is -> 
+{ 8edaba37e8e22288ac3e2a97620e5073a400d8ed is a merge commit
+---> Commit message - Merge branch 'warning_identifiers'
+
+Conflicts:
+	lib/brakeman/warning.rb
+-----------------------------------------------------------------
+
+Merge commit 190 is -> 
+{ 82a33091bb52de94bfc4398683361ab815b0cbcb is a merge commit
+---> Commit message - Merge pull request #283 from tubaxenor/patch-1
+
+uninitialized constant Brakeman::RenderHelper
+-----------------------------------------------------------------
+
+Merge commit 191 is -> 
+{ e290177727294e64785647a9b57589ba38d01b8f is a merge commit
+---> Commit message - Merge pull request #282 from obduk/tidy_output
+
+Don't show warnings and errors tables if empty
+-----------------------------------------------------------------
+
+Merge commit 192 is -> 
+{ 8313a32fc94e40561788499b0dbccce371e8f4e0 is a merge commit
+---> Commit message - Merge pull request #284 from presidentbeef/make_differ_work_with_old_output
+
+Make --compare work on output from older versions
+-----------------------------------------------------------------
+
+Merge commit 193 is -> 
+{ 3638736d22a280529aa903961bca0b8f57075ee4 is a merge commit
+---> Commit message - Merge pull request #287 from presidentbeef/faster_sexp_cloning
+
+Use custom deep_clone for Sexp
+-----------------------------------------------------------------
+
+Merge commit 194 is -> 
+{ 8cb0ed609cea743baf8ca83e6a7be8a0189086a5 is a merge commit
+---> Commit message - Merge pull request #285 from presidentbeef/no_warn_on_dangerous_send_to_user_input
+
+Don't warn when calling send on user input
+-----------------------------------------------------------------
+
+Merge commit 195 is -> 
+{ 5af115b78325afa8209ae08a5be99818dabfee30 is a merge commit
+---> Commit message - Merge pull request #286 from presidentbeef/add_no_referrer_to_report_links
+
+Add rel="no-referrer" to report links
+-----------------------------------------------------------------
+
+Merge commit 196 is -> 
+{ b32c0e4c409e0b654380dea48fe81e27d9b615db is a merge commit
+---> Commit message - Merge remote-tracking branch 'origin/another_strong_params_init'
+-----------------------------------------------------------------
+
+Merge commit 197 is -> 
+{ 4d512825eea82a58d92d6d28307398b6fdf23c5b is a merge commit
+---> Commit message - Merge remote-tracking branch 'origin/CVE_monday'
+-----------------------------------------------------------------
+
+Merge commit 198 is -> 
+{ b292681925ead0e8b34c9f2e0372a9f3b34726e5 is a merge commit
+---> Commit message - Merge remote-tracking branch 'barttenbrinke/master'
+-----------------------------------------------------------------
+
+Merge commit 199 is -> 
+{ 150db9cb6dd6927812a303ad11b83074bf6faca2 is a merge commit
+---> Commit message - Merge branch 'assignment_of_if_results' into assignments_in_else_branch
+-----------------------------------------------------------------
+
+Merge commit 200 is -> 
+{ c064686ed483701490707f9598984eb51507c8c9 is a merge commit
+---> Commit message - Merge pull request #295 from presidentbeef/assignment_of_if_results
+
+Convert simple `if` to `or` on assignment
+-----------------------------------------------------------------
+
+Merge commit 201 is -> 
+{ d42af6cbafdbf4ac1df2bf31308ea7beacd3df29 is a merge commit
+---> Commit message - Merge pull request #298 from barttenbrinke/master
+
+Refactor of Brakeman::Report class
+-----------------------------------------------------------------
+
+Merge commit 202 is -> 
+{ 7495a44f89491ca0936cf5c9a7106f9778b73187 is a merge commit
+---> Commit message - Merge pull request #296 from HonoreDB/master
+
+Add check for unsafe symbol creation
+-----------------------------------------------------------------
+
+Merge commit 203 is -> 
+{ 7652eba81f1a0bdc0171c0c4b105ea0a34ed035f is a merge commit
+---> Commit message - Merge branch 'master' into assignments_in_else_branch
+-----------------------------------------------------------------
+
+Merge commit 204 is -> 
+{ 4a37b22511f95ec1d88649ea8cb5744e8746260e is a merge commit
+---> Commit message - Merge branch 'master' into allow_slice_or_only_in_mass_assign
+-----------------------------------------------------------------
+
+Merge commit 205 is -> 
+{ 13361642968fcb590662fd1ae7f8026573e3e3ac is a merge commit
+---> Commit message - Merge branch 'master' into gitignore_secret_token
+-----------------------------------------------------------------
+
+Merge commit 206 is -> 
+{ 620e1a7bd6057f400bfe254fb8ddea76eee7ee24 is a merge commit
+---> Commit message - Merge branch 'master' into assignments_in_else_branch
+-----------------------------------------------------------------
+
+Merge commit 207 is -> 
+{ d4cc8c4f75a863c7f0168210d43d9727a2d3003d is a merge commit
+---> Commit message - Merge branch 'skip_fake_filter_outside_controller'
+-----------------------------------------------------------------
+
+Merge commit 208 is -> 
+{ 8b4480bdc6b96851302f7dc2fcc6e8d818a9e61e is a merge commit
+---> Commit message - Merge branch 'fix_sexp_hash_cache_invalidation'
+-----------------------------------------------------------------
+
+Merge commit 209 is -> 
+{ 371ac1b8de421459a27c7d16ec40e49958e5b9a9 is a merge commit
+---> Commit message - Merge branch 'assignments_in_else_branch'
+-----------------------------------------------------------------
+
+Merge commit 210 is -> 
+{ 398807888be9e0d8d1c8941d521cedf541dce9e7 is a merge commit
+---> Commit message - Merge branch 'gitignore_secret_token'
+-----------------------------------------------------------------
+
+Merge commit 211 is -> 
+{ cc6a55dbfb67add23535bd3637fc744031c95c92 is a merge commit
+---> Commit message - Merge branch 'allow_slice_or_only_in_mass_assign'
+-----------------------------------------------------------------
+
+Merge commit 212 is -> 
+{ c3c0f1db178b777dcd09d271515ae4bb881eef6e is a merge commit
+---> Commit message - Merge pull request #304 from presidentbeef/fix_block_weirdness
+
+Fix block weirdness
+-----------------------------------------------------------------
+
+Merge commit 213 is -> 
+{ 8e1a224ddc2305870b1fea7f9dc860971eef087f is a merge commit
+---> Commit message - Merge pull request #305 from presidentbeef/add_scope_for_blocks
+
+Handle block arguments as locals in a new scope
+-----------------------------------------------------------------
+
+Merge commit 214 is -> 
+{ 0cc380de2eca50ce31cc5b869209e39064155b0a is a merge commit
+---> Commit message - Merge remote-tracking branch 'origin/respect_quiet_option_from_config_file'
+-----------------------------------------------------------------
+
+Merge commit 215 is -> 
+{ 82dfddcaffc49265b9a6beef5b9582785005d9ae is a merge commit
+---> Commit message - Merge branch 'handle_block_arg_destructuring'
+-----------------------------------------------------------------
+
+Merge commit 216 is -> 
+{ 8ddf21c9597d0e307c969ac4d0d455393f317a1e is a merge commit
+---> Commit message - Merge branch 'fix_symbol_dos_check'
+-----------------------------------------------------------------
+
+Merge commit 217 is -> 
+{ 020708ff7ddd0e91cb82d5b39054e430cc16b0bd is a merge commit
+---> Commit message - Merge pull request #309 from presidentbeef/to_json_false_positives
+
+Fix `to_json` false positives
+-----------------------------------------------------------------
+
+Merge commit 218 is -> 
+{ eeceb9d764f13456ac3f350c32d759e5826ad3c9 is a merge commit
+---> Commit message - Merge pull request #310 from presidentbeef/remove_deprecated_config_locations
+
+Remove deprecated config locations
+-----------------------------------------------------------------
+
+Merge commit 219 is -> 
+{ b18c5b2758fd512c45c21f81e4c2d1210079ff35 is a merge commit
+---> Commit message - Merge pull request #312 from presidentbeef/dont_warn_on_id
+
+Don't warn on id calls
+-----------------------------------------------------------------
+
+Merge commit 220 is -> 
+{ e11665691289cdad5c8378773ade43e99d813cd7 is a merge commit
+---> Commit message - Merge pull request #313 from noahd1/missing_warning_code
+
+Fix errors raised on reports which use --separate-models option
+-----------------------------------------------------------------
+
+Merge commit 221 is -> 
+{ 1fe36bc4c67953c2de24edf9d7a0103526baa23d is a merge commit
+---> Commit message - Merge pull request #315 from presidentbeef/deal_with_controller_inside_class
+
+Only treat controllers like controllers
+-----------------------------------------------------------------
+
+Merge commit 222 is -> 
+{ 0064a27a736943be270e0d80e7f363c908d16d7c is a merge commit
+---> Commit message - Merge pull request #319 from zlx/zlx/use_codeclimate_statue_image
+
+Use codeclimate status image to replace codeclimate logo
+-----------------------------------------------------------------
+
+Merge commit 223 is -> 
+{ fc626c7761b160d82b1444f8025f08acb928a956 is a merge commit
+---> Commit message - Merge branch 'master' into better_file_name_handling_for_warnings
+
+Conflicts:
+	test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Merge commit 224 is -> 
+{ c76a2f1505281719d79a2e43a6b1f23d77fdb119 is a merge commit
+---> Commit message - Merge pull request #316 from ehlertij/only_files_option
+
+Added --only-files option to specify specific paths to scan
+-----------------------------------------------------------------
+
+Merge commit 225 is -> 
+{ 388aefaa36509c337ebb4683d249ccd640eb7d6b is a merge commit
+---> Commit message - Merge branch 'fix_warning_relative_path_assignment'
+-----------------------------------------------------------------
+
+Merge commit 226 is -> 
+{ a71b47deb61b23abae97b2e6ee2c6bb45117f01b is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 227 is -> 
+{ 4ea0bc15fac9ad6ecc2a57d8d24fe02da18ef3b2 is a merge commit
+---> Commit message - Merge pull request #322 from presidentbeef/avoid_reporting_duplicate_symbol_conversion
+
+Avoid reporting duplicate symbol conversion warnings
+-----------------------------------------------------------------
+
+Merge commit 228 is -> 
+{ 5bcf247df354ba28a5f68ff50845098e46f07c27 is a merge commit
+---> Commit message - Merge pull request #323 from presidentbeef/always_have_rails_config
+
+Always have tracker.config[:rails] by default
+-----------------------------------------------------------------
+
+Merge commit 229 is -> 
+{ aa1ec3e7e3208536eb123baa0ac38e33844f27a8 is a merge commit
+---> Commit message - Merge branch 'better_handling_of_nested_classes'
+-----------------------------------------------------------------
+
+Merge commit 230 is -> 
+{ 6e9554cff32e5c628d29c2f4125056e1e6c7abcb is a merge commit
+---> Commit message - Merge branch 'skip_unknown_configs_rails_3'
+-----------------------------------------------------------------
+
+Merge commit 231 is -> 
+{ d60d5d86d293a7f03c51318693d0c09a94d3df3d is a merge commit
+---> Commit message - Merge remote-tracking branch 'zlx/zlx/refactor_brakeman'
+-----------------------------------------------------------------
+
+Merge commit 232 is -> 
+{ e62cf7e871f297e852eb66e0c4d0e97775b2cd06 is a merge commit
+---> Commit message - Merge pull request #327 from presidentbeef/add_method_for_input_type_output
+
+Factor out dangerous input type in messages and normalize
+-----------------------------------------------------------------
+
+Merge commit 233 is -> 
+{ b904ee56cb983c05e0257525ee6b4df1885e9b3d is a merge commit
+---> Commit message - Merge branch 'clearer_handling_of_quiet_default'
+-----------------------------------------------------------------
+
+Merge commit 234 is -> 
+{ 8e8e6072c831516f489d29dbfaf5edac22aff764 is a merge commit
+---> Commit message - Merge branch 'combine_deserialize_checks'
+-----------------------------------------------------------------
+
+Merge commit 235 is -> 
+{ d8bb81105e1b669999bd44a0cb1096417bed1715 is a merge commit
+---> Commit message - Merge remote-tracking branch 'origin/relative_paths_by_default'
+
+Conflicts:
+	lib/brakeman.rb
+-----------------------------------------------------------------
+
+Merge commit 236 is -> 
+{ 96c5bd185eb85bdbbf0f3fe567bf7568807cf29b is a merge commit
+---> Commit message - Merge branch 'block_args_for_stabby_lambdas'
+-----------------------------------------------------------------
+
+Merge commit 237 is -> 
+{ ef71ac497e46c68fce34b9c9d068dd78f2cbfc97 is a merge commit
+---> Commit message - Merge branch 'remove_timestamp_from_json'
+-----------------------------------------------------------------
+
+Merge commit 238 is -> 
+{ d7f00569024a7132e650656a702a2e8a0e4db1a7 is a merge commit
+---> Commit message - Merge branch 'cleanup_sqli_cves'
+-----------------------------------------------------------------
+
+Merge commit 239 is -> 
+{ b0daabcd4ff4453c7e69614a483b700193856a97 is a merge commit
+---> Commit message - Merge pull request #335 from presidentbeef/use_exceptions_instead_of_abort
+
+Use exceptions instead of abort in brakeman.rb
+-----------------------------------------------------------------
+
+Merge commit 240 is -> 
+{ 78beb115d7cd2c9119e8acffedee66f51af40fd6 is a merge commit
+---> Commit message - Merge branch 'medium_conf_on_att_protected_mass_assign'
+
+Make mass assignment to attr_protected model medium confidence
+
+Conflicts:
+	CHANGES
+-----------------------------------------------------------------
+
+Merge commit 241 is -> 
+{ ae8a5be81bf735cf313234b37ebb2eb66a86d71f is a merge commit
+---> Commit message - Merge branch 'avoid_duplicate_send_constantize_warnings'
+
+Avoid duplicate "Dangerous Send" and "Unsafe Reflection" warnings
+-----------------------------------------------------------------
+
+Merge commit 242 is -> 
+{ a1ed019be406b48a55f357c1490539dfa3785bd1 is a merge commit
+---> Commit message - Merge branch 'fix_jruby_output'
+
+Fix text report console output on JRuby
+-----------------------------------------------------------------
+
+Merge commit 243 is -> 
+{ 3c29d287ac0394cf6c25491bf39ddb274167b9a2 is a merge commit
+---> Commit message - Merge branch 'rename_test_files'
+-----------------------------------------------------------------
+
+Merge commit 244 is -> 
+{ 45f563e99e5f320b0b423056239ee4c8a528cff9 is a merge commit
+---> Commit message - Merge branch 'fix_process_defn_in_ruby2ruby'
+-----------------------------------------------------------------
+
+Merge commit 245 is -> 
+{ 37f1559325a851df1cd69bbb60c85feb2b1e3031 is a merge commit
+---> Commit message - Merge pull request #344 from presidentbeef/allow_empty_config_file
+
+Allow empty Brakeman config file
+-----------------------------------------------------------------
+
+Merge commit 246 is -> 
+{ c99208a35bffc115cb122e2c127dcfe089f9f715 is a merge commit
+---> Commit message - Merge pull request #346 from presidentbeef/stricter_extension_format
+
+Fix output format detection to be more strict again
+-----------------------------------------------------------------
+
+Merge commit 247 is -> 
+{ 4c28b3e5ba4eff059a340779ae941d5261670ba9 is a merge commit
+---> Commit message - Merge branch 'more_command_injection_methods'
+
+Add more methods to check for command injection
+-----------------------------------------------------------------
+
+Merge commit 248 is -> 
+{ 1ee4070361a6e635c915cda4494340f6724f583c is a merge commit
+---> Commit message - Merge branch 'limit_branched_value_depth'
+
+Limit branched value depth, add --branch-limit option
+-----------------------------------------------------------------
+
+Merge commit 249 is -> 
+{ e34ae004bcba5c619fd1abe821aa690a13ad3c04 is a merge commit
+---> Commit message - Merge pull request #350 from presidentbeef/return_non_zero_exit_code_on_bad_path
+
+User exit code of "1" when path is not a Rails app
+-----------------------------------------------------------------
+
+Merge commit 250 is -> 
+{ 1f673943397e0e27b7950b844a4c71c8300fcc04 is a merge commit
+---> Commit message - Merge pull request #353 from iwz/master
+
+Relax slim dependency for Slim 2.0.0
+-----------------------------------------------------------------
+
+Merge commit 251 is -> 
+{ e326a6aedf72bc8a8a82e0398b3779c4c9dd798e is a merge commit
+---> Commit message - Merge pull request #354 from presidentbeef/probably_fix_failing_187_tests
+
+Add right value to results in XSS check
+-----------------------------------------------------------------
+
+Merge commit 252 is -> 
+{ 83cc84b146883230977f811dfb400d8e909317f0 is a merge commit
+---> Commit message - Merge pull request #352 from presidentbeef/refactor_report_generation
+
+Refactor report generation code into separate classes for different formats
+-----------------------------------------------------------------
+
+Merge commit 253 is -> 
+{ fdc90e78aa2d29856ae3c9676868783b6853c47d is a merge commit
+---> Commit message - Merge pull request #355 from presidentbeef/fix_immediate_xss_dupe_issue_again
+
+Don't report immediate XSS dupes as weak warnings
+-----------------------------------------------------------------
+
+Merge commit 254 is -> 
+{ 92265cd4fc068b2f1e6b00a526a5372da3f56c7c is a merge commit
+---> Commit message - Merge pull request #357 from presidentbeef/report_controllers_again_oops
+
+Report controllers again for -m and -d
+-----------------------------------------------------------------
+
+Merge commit 255 is -> 
+{ 739677efc95ce1adb8327975bf3e105e2f18c185 is a merge commit
+---> Commit message - Merge pull request #356 from barttenbrinke/check_sql_refactor
+
+Cleanup of CheckSQL because of the F rating in code climate
+-----------------------------------------------------------------
+
+Merge commit 256 is -> 
+{ 5c67671c9322edcf2595f3fa9870591c71493eae is a merge commit
+---> Commit message - Merge pull request #358 from presidentbeef/no_default_hash_values_in_call_index
+
+No default hash values in CallIndex
+-----------------------------------------------------------------
+
+Merge commit 257 is -> 
+{ 9681905e01aded831b5ace1571d62b54da6aa10f is a merge commit
+---> Commit message - Merge branch 'master' of https://github.com/presidentbeef/brakeman into check_model_attr_accessible
+-----------------------------------------------------------------
+
+Merge commit 258 is -> 
+{ 80002f80c41492bb54a8238abf3d80d3ea6216da is a merge commit
+---> Commit message - Merge branch 'add_another_basic_auth_check'
+
+Add check for authenticate_or_request_with_http_basic
+-----------------------------------------------------------------
+
+Merge commit 259 is -> 
+{ 47fa69abb430bf8b1eec387834567a1786ea0546 is a merge commit
+---> Commit message - Merge branch 'dupe_mixins_before_processing'
+-----------------------------------------------------------------
+
+Merge commit 260 is -> 
+{ 7b37f84a9587e33ca123a8dadba4889e6bad5751 is a merge commit
+---> Commit message - Merge branch 'load_dependencies_on_demand'
+
+Load dependencies on demand, add brakeman-min gemspec
+-----------------------------------------------------------------
+
+Merge commit 261 is -> 
+{ 72abb24bf7df98901bba2e174079e3ebded818f9 is a merge commit
+---> Commit message - Merge pull request #363 from presidentbeef/json_diff_output
+
+Output JSON diff to file if -o option is used
+-----------------------------------------------------------------
+
+Merge commit 262 is -> 
+{ 37dfabdd0d2010b4fa5abba66be3c9fcd5c9b7a2 is a merge commit
+---> Commit message - Merge pull request #365 from presidentbeef/add_tracker_warnings
+
+Add Tracker#warnings to simplify warning access
+-----------------------------------------------------------------
+
+Merge commit 263 is -> 
+{ cf2735cfa42cfccb85880c3770ab486f732dba20 is a merge commit
+---> Commit message - Merge remote-tracking branch 'themetric/check_model_attr_accessible'
+
+Add check for potentially dangerous attributes in attr_accessible
+-----------------------------------------------------------------
+
+Merge commit 264 is -> 
+{ af38ae7b2e62ccf45688f7fcc27956922638994b is a merge commit
+---> Commit message - Merge pull request #368 from presidentbeef/support_ignoring_warnings
+
+Add support for ignoring warnings
+-----------------------------------------------------------------
+
+Merge commit 265 is -> 
+{ b378274bdbfa5ba8a81fbaf9f7ff2c10f4024d2b is a merge commit
+---> Commit message - Merge pull request #370 from themetric/fix_get_version_gemfile
+
+Fix get version gemfile regexp and add tests
+-----------------------------------------------------------------
+
+Merge commit 266 is -> 
+{ d9210690aa08e201b065e57ad9025bc045dd9301 is a merge commit
+---> Commit message - Merge pull request #371 from phildionne/patch-1
+
+Update guard-brakeman link
+-----------------------------------------------------------------
+
+Merge commit 267 is -> 
+{ 37f9efb941242e1e53b2428394d00485694e205e is a merge commit
+---> Commit message - Merge pull request #375 from arkadyan/master
+
+Changed all instances of the load_dependency method
+-----------------------------------------------------------------
+
+Merge commit 268 is -> 
+{ 7c32b02b832b6e00afabcf22636d0699c3c4ce03 is a merge commit
+---> Commit message - Merge pull request #379 from presidentbeef/avoid_failing_on_variable_controller_names
+
+Don't abort route processing on variable controller names
+-----------------------------------------------------------------
+
+Merge commit 269 is -> 
+{ 4b8faa142e99a44f04793dbbfacc30e4ce9dac23 is a merge commit
+---> Commit message - Merge pull request #374 from presidentbeef/ignore_warnings_in_tab_output
+
+Ignore warnings in tabs output if configured to do so
+-----------------------------------------------------------------
+
+Merge commit 270 is -> 
+{ 6bd236d660aee72ceeab2e9c2edeeade31fe4bc1 is a merge commit
+---> Commit message - Merge pull request #383 from presidentbeef/ignore_warnings_in_rescans_and_hardcore_mode
+
+Ignore warnings in rescans and hardcore mode
+-----------------------------------------------------------------
+
+Merge commit 271 is -> 
+{ c0d46bb228c638a22102cedf2b7c08c8534fca31 is a merge commit
+---> Commit message - Merge pull request #384 from presidentbeef/no_warning_on_attr_accessible_with_as
+
+Do not warn on "dangerous" attributes using roles
+-----------------------------------------------------------------
+
+Merge commit 272 is -> 
+{ 6a0218cddfdc287da13b5f86b59c7bce8274018f is a merge commit
+---> Commit message - Merge branch 'fix_how_immediate_model_attributes_detected'
+
+Conflicts:
+	test/tests/rails31.rb
+-----------------------------------------------------------------
+
+Merge commit 273 is -> 
+{ 684a4190117d16bf278818ba66f6fd42efb91b80 is a merge commit
+---> Commit message - Merge branch 'attr_accessible_fixes'
+
+Conflicts:
+	lib/brakeman/checks/check_model_attr_accessible.rb
+-----------------------------------------------------------------
+
+Merge commit 274 is -> 
+{ 70c102cde25526da1627b1892cbd9c2144475364 is a merge commit
+---> Commit message - Merge pull request #390 from presidentbeef/tighten_dangerous_attributes
+
+Remove fuzzy matching for attr_accessible attributes
+-----------------------------------------------------------------
+
+Merge commit 275 is -> 
+{ 915dfaeda85aec68cddee8724c716c7fed552838 is a merge commit
+---> Commit message - Merge pull request #387 from ssendev/patch-1
+
+Add option to set table width limit in text output
+-----------------------------------------------------------------
+
+Merge commit 276 is -> 
+{ ee5583348a61a15f83c38d6f7774c81768d61fac is a merge commit
+---> Commit message - Merge pull request #392 from presidentbeef/to_json_escaped_in_rails4
+
+Do not warn about XSS with `to_json` in Rails 4
+-----------------------------------------------------------------
+
+Merge commit 277 is -> 
+{ 910a37d843b0a971998ead61150686e782fe3b57 is a merge commit
+---> Commit message - Merge pull request #396 from presidentbeef/info_disclosure_in_errors
+
+Add check for detailed exceptions
+-----------------------------------------------------------------
+
+Merge commit 278 is -> 
+{ e8f2624f248ce13fa02e0de2bdf8ccc86c3e2d6f is a merge commit
+---> Commit message - Merge pull request #400 from aj0strow/rails4-friendlyid
+
+rails 4 no warning for friendly model in redirect_to (friendly_id gem compatibility)
+-----------------------------------------------------------------
+
+Merge commit 279 is -> 
+{ b9d1f9eadadbf480d8296e1bbd49ab1d3967e2e5 is a merge commit
+---> Commit message - Merge pull request #397 from socialcast/engines-support
+
+Add Support For Rails Engines
+-----------------------------------------------------------------
+
+Merge commit 280 is -> 
+{ d1e5c5f3450df6ef3a168547f3d22112fa21342f is a merge commit
+---> Commit message - Merge pull request #402 from presidentbeef/use_gem_version_of_rails
+
+If Rails version is in Gemfile, use it
+-----------------------------------------------------------------
+
+Merge commit 281 is -> 
+{ 6acda2762aee5f33b1b2b127d962fbb86f06c488 is a merge commit
+---> Commit message - Merge pull request #403 from presidentbeef/redirect_in_route
+
+Only add routes that are actual names
+-----------------------------------------------------------------
+
+Merge commit 282 is -> 
+{ c84fc70b3a722ffa2cfd6bfe906adf565e5557fb is a merge commit
+---> Commit message - Merge pull request #404 from presidentbeef/reduce_command_injection_fps
+
+Reduce command injection false positives
+-----------------------------------------------------------------
+
+Merge commit 283 is -> 
+{ 75440c351fd37972e6f0fc4c9e301e54c944a4d0 is a merge commit
+---> Commit message - Merge pull request #408 from presidentbeef/add_create_to_model_methods_for_redirect
+
+Do not warn on redirects to Model#create/create!
+-----------------------------------------------------------------
+
+Merge commit 284 is -> 
+{ 402609ec33be2d5724e7971dcbdb9eba41991f05 is a merge commit
+---> Commit message - Merge pull request #407 from presidentbeef/fix_multiple_block_related_issues
+
+Fix multiple block related issues
+-----------------------------------------------------------------
+
+Merge commit 285 is -> 
+{ 71f5d18dd17b90513a5482399a1081608ed39829 is a merge commit
+---> Commit message - Merge pull request #410 from noahd1/reduce_slim_false_positives
+
+Reduce Slim-template XSS false positives
+-----------------------------------------------------------------
+
+Merge commit 286 is -> 
+{ ba2b06616bc7eb44b28a9369a6342426ea9b3a61 is a merge commit
+---> Commit message - Merge pull request #411 from presidentbeef/reflection_capitalization
+
+Lowercase "reflection" in unsafe reflection warning
+-----------------------------------------------------------------
+
+Merge commit 287 is -> 
+{ 599e10556d0d02b6c2a3cf1f6c70c1db0fa02fc5 is a merge commit
+---> Commit message - Merge pull request #412 from presidentbeef/collapse_send_and_try_calls
+
+Collapse send/try calls
+-----------------------------------------------------------------
+
+Merge commit 288 is -> 
+{ 1c90ad0e9a0b67b13e1901187fdb3e265f91924f is a merge commit
+---> Commit message - Merge pull request #413 from presidentbeef/december_CVEs
+
+Add checks for five latest CVEs
+
+CVE-2013-4491
+CVE-2013-6414
+CVE-2013-6415
+CVE-2013-6416
+CVE-2013-6417
+-----------------------------------------------------------------
+
+Merge commit 289 is -> 
+{ cecd587763dad26922de61706f77455e4695f0ff is a merge commit
+---> Commit message - Merge pull request #414 from presidentbeef/check_for_permit_bang
+
+Check for uses of Parameters#permit!
+-----------------------------------------------------------------
+
+Merge commit 290 is -> 
+{ a562c1f84a3e4926c50d8a261eb1a558ed0b9c52 is a merge commit
+---> Commit message - Merge pull request #415 from presidentbeef/fix_CVEs_ugh
+
+Fix issues with CVE-2013-4491 and CVE-2013-6415 checks
+-----------------------------------------------------------------
+
+Merge commit 291 is -> 
+{ 5a8aab7587285767c9d974578609cafc2d4ba5f2 is a merge commit
+---> Commit message - Merge branch 'ctaintor/improve_fingerprint'
+
+Make the attr_accessible check warning fingerprint include the method name
+-----------------------------------------------------------------
+
+Merge commit 292 is -> 
+{ 046f5afbf38f1c8f0ae7c4150754638f16de6aa8 is a merge commit
+---> Commit message - Merge pull request #418 from abedra/gitignore
+
+add .bundle to .gitignore
+-----------------------------------------------------------------
+
+Merge commit 293 is -> 
+{ caa2a3094c749ce15ab25e7f86d5492dc7405c8a is a merge commit
+---> Commit message - Merge pull request #417 from presidentbeef/stop_raising_exceptions_in_class_name
+
+Stop raising exception in ProcessorHelper#class_name
+-----------------------------------------------------------------
+
+Merge commit 294 is -> 
+{ d7217a2908c1d350d3a68a1911f2d72596ca934c is a merge commit
+---> Commit message - Merge pull request #419 from abedra/ssl_bypass_check
+
+Adds a check for OpenSSL::SSL::VERIFY_NONE.
+-----------------------------------------------------------------
+
+Merge commit 295 is -> 
+{ 105be8576a4ec900dee2908c8c1d0e1e0ee70acd is a merge commit
+---> Commit message - Merge pull request #421 from abedra/travis
+
+Use an older version of RubyGems on Travis to fix 1.8.x issue
+-----------------------------------------------------------------
+
+Merge commit 296 is -> 
+{ 01900ab82d94c73eafec189f931f37fd93a9445b is a merge commit
+---> Commit message - Merge pull request #426 from abedra/sqli_fixes
+
+Don't warn on #from when not in an AR object. Fixes #423
+-----------------------------------------------------------------
+
+Merge commit 297 is -> 
+{ 20537f6a69a5dfde5d1961a724ff55ba991d5f24 is a merge commit
+---> Commit message - Merge pull request #427 from presidentbeef/ignore_generators
+
+Ignore generators
+-----------------------------------------------------------------
+
+Merge commit 298 is -> 
+{ 70fa71694eec3ffb56534351993111a40df97eb9 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+-----------------------------------------------------------------
+
+Merge commit 299 is -> 
+{ 177c2fb531f7cb45f4412232843894aff6f865e7 is a merge commit
+---> Commit message - Merge pull request #429 from presidentbeef/ignore_non_string_gem_names_in_gemfile
+
+Ignore non-string gem names in Gemfile
+-----------------------------------------------------------------
+
+Merge commit 300 is -> 
+{ 9405040194df898588e69713b3f5b5c3a917461f is a merge commit
+---> Commit message - Merge pull request #432 from presidentbeef/parse_all_of_gemfile_lock
+
+Get all gem versions from Gemfile.lock
+-----------------------------------------------------------------
+
+Merge commit 301 is -> 
+{ 21201d49f782c5ee2800228fd118792b2fb05a66 is a merge commit
+---> Commit message - Merge pull request #438 from presidentbeef/check_db_connection_for_sqli
+
+Expand methods checked for SQLi significantly
+-----------------------------------------------------------------
+
+Merge commit 302 is -> 
+{ 0c37f7de127f214bad2ceed89ac19794b635aa8d is a merge commit
+---> Commit message - Merge pull request #439 from presidentbeef/active_record_base_connect_sqli
+
+Also catch #connection calls on ActiveRecord::Base
+-----------------------------------------------------------------
+
+Merge commit 303 is -> 
+{ 51a2a469b7b0fe059e51cd3d8ff650fb6e819ee1 is a merge commit
+---> Commit message - Merge branch 'master' into support_lts_versions
+
+Conflicts:
+	lib/brakeman/checks/check_sql.rb
+-----------------------------------------------------------------
+
+Merge commit 304 is -> 
+{ add9e26a0401bfcb5b8821e751bebc53d8118b50 is a merge commit
+---> Commit message - Merge pull request #437 from presidentbeef/support_lts_versions
+
+Add support for RailsLTS versions
+-----------------------------------------------------------------
+
+Merge commit 305 is -> 
+{ 5279dd6ad0495103897933e4ebe6eaf47339b425 is a merge commit
+---> Commit message - Merge pull request #440 from presidentbeef/better_handling_of_sql_strings
+
+Better handling of SQL strings and fewer false positives
+-----------------------------------------------------------------
+
+Merge commit 306 is -> 
+{ 49fd86c0eebac4363eb104efd2700837bc9e8620 is a merge commit
+---> Commit message - Merge pull request #441 from presidentbeef/fix_haml_template_processing
+
+Fix HAML template processing
+-----------------------------------------------------------------
+
+Merge commit 307 is -> 
+{ 6b14a5218caa80aea77ebc22ece33ea4b62088d3 is a merge commit
+---> Commit message - Merge pull request #442 from presidentbeef/ignore_duplicate_renders
+
+Ignore identically rendered templates
+-----------------------------------------------------------------
+
+Merge commit 308 is -> 
+{ 04cd0958d86847db3b6a59c0d51d08abba793432 is a merge commit
+---> Commit message - Merge pull request #443 from presidentbeef/only_original_outputs
+
+Only store original template outputs
+-----------------------------------------------------------------
+
+Merge commit 309 is -> 
+{ 45f93861b3b5402a1eabd3082c28093348619c58 is a merge commit
+---> Commit message - Merge pull request #444 from presidentbeef/call_location_reuse
+
+Reuse call locations in CallIndex
+-----------------------------------------------------------------
+
+Merge commit 310 is -> 
+{ 18c84428271204da5899e571cfad5724e1da5e43 is a merge commit
+---> Commit message - Merge pull request #445 from presidentbeef/skip_duplicate_sanitize_warnings
+
+Skip duplicate sanitize CVE warnings
+-----------------------------------------------------------------
+
+Merge commit 311 is -> 
+{ 0733340b6c9f8271b7c5ab700d3efc3ac8c095a4 is a merge commit
+---> Commit message - Merge branch 'CVE_2014_0080' into Feb_18_CVEs
+-----------------------------------------------------------------
+
+Merge commit 312 is -> 
+{ 1fda1a66f13de410d1284115e5fccef8e12c4049 is a merge commit
+---> Commit message - Merge pull request #447 from presidentbeef/CVE_2014_0080
+
+Add check for CVE-2014-0080
+-----------------------------------------------------------------
+
+Merge commit 313 is -> 
+{ 3401276af99a3da3791234ce9dbf6c9da4f310b1 is a merge commit
+---> Commit message - Merge pull request #448 from presidentbeef/CVE_2014_0081
+
+Add check for CVE-2014-0081
+-----------------------------------------------------------------
+
+Merge commit 314 is -> 
+{ 98ec52048b318dc3934d7b18a338922fb52f3034 is a merge commit
+---> Commit message - Merge pull request #449 from presidentbeef/CVE_2014_0082
+
+Add check for CVE-2014-0082
+-----------------------------------------------------------------
+
+Merge commit 315 is -> 
+{ a41b8fb38849b3dcd159eb1ee1c4e73194b46b3c is a merge commit
+---> Commit message - Merge remote-tracking branch 'origin/Feb_18_CVEs'
+
+Conflicts:
+	CHANGES
+-----------------------------------------------------------------
+
+Merge commit 316 is -> 
+{ b6e2dfad3901802170bee276b627059f2770b40b is a merge commit
+---> Commit message - Merge pull request #446 from presidentbeef/remove_rescue_exception
+
+Remove `rescue Exception` instances
+-----------------------------------------------------------------
+
+Merge commit 317 is -> 
+{ 67f3381b51ed3d6c7ccd0e233ed3f192031bd871 is a merge commit
+---> Commit message - Merge branch 'master' into temp_fix_for_ruby2ruby_regexp
+-----------------------------------------------------------------
+
+Merge commit 318 is -> 
+{ 1e38923813364ae525acb119218f4a0ee94784f3 is a merge commit
+---> Commit message - Merge pull request #458 from presidentbeef/temp_fix_for_ruby2ruby_regexp
+
+Temporary fix for seattlerb/ruby_parser#154
+-----------------------------------------------------------------
+
+Merge commit 319 is -> 
+{ a4ee53d5fe40de8423d04bf925ecbdb294e0f059 is a merge commit
+---> Commit message - Merge pull request #454 from mastahyeti/regex_dos
+
+Add check for regex DoS
+-----------------------------------------------------------------
+
+Merge commit 320 is -> 
+{ d08514b50e8c32643d78010a6b0451c4f3b6f153 is a merge commit
+---> Commit message - Merge pull request #460 from presidentbeef/allow_output_processor_to_be_loaded_without_ruby_parser
+
+Allow OutputProcessor to load before ruby_parser
+-----------------------------------------------------------------
+
+Merge commit 321 is -> 
+{ 23ac208e98b91db32829d6d9fa877e30aceb4221 is a merge commit
+---> Commit message - Merge pull request #462 from presidentbeef/fix_more_routes_without_literals
+
+Handle more cases of non-literals in routes
+-----------------------------------------------------------------
+
+Merge commit 322 is -> 
+{ 2380940197fc7eac6aa708ded8b4e43deb1134c0 is a merge commit
+---> Commit message - Merge pull request #465 from presidentbeef/fix_false_positive_on_redict_with_explicit_host
+
+Avoid warning on redirects when :host is specified
+-----------------------------------------------------------------
+
+Merge commit 323 is -> 
+{ 19a61c7efcbbc369717bb114dda87750e46b2a39 is a merge commit
+---> Commit message - Merge pull request #470 from jrusnack/add_intern_dos_check
+
+Add String#intern and Hash#symbolize_keys DoS check
+-----------------------------------------------------------------
+
+Merge commit 324 is -> 
+{ cd90e3783d5d157e11efec9fb508a7271f9d9114 is a merge commit
+---> Commit message - Merge pull request #468 from presidentbeef/fix_sqli_check_in_select
+
+Check all arguments in Model.select for SQLi
+-----------------------------------------------------------------
+
+Merge commit 325 is -> 
+{ cd9093d890b7a16f117d11a0ae6af281ecbb648d is a merge commit
+---> Commit message - Merge branch 'treat_sanitize_as_safe_in_sql'
+-----------------------------------------------------------------
+
+Merge commit 326 is -> 
+{ fdfdd8065e0d9cbf0c6d29f8685b3e03590ef14c is a merge commit
+---> Commit message - Merge remote-tracking branch 'github/gfm-output-upstream'
+
+GitHub flavored markdown output
+-----------------------------------------------------------------
+
+Merge commit 327 is -> 
+{ 63a42f1be5866527540d2b75d8795268f08314aa is a merge commit
+---> Commit message - Merge pull request #472 from presidentbeef/fix_chained_calls_in_single_line_scopes
+
+Fix checking chained SQL calls in scopes
+-----------------------------------------------------------------
+
+Merge commit 328 is -> 
+{ 8a780e1c3ebdae2c4765214e763ee5c695f1968b is a merge commit
+---> Commit message - Merge pull request #477 from presidentbeef/check_for_protected_parameters_gem
+
+Check for protected_attributes gem in Rails 4 apps
+-----------------------------------------------------------------
+
+Merge commit 329 is -> 
+{ 3603bae063b87d46eeb438dbd88f4388beb78d96 is a merge commit
+---> Commit message - Merge pull request #478 from presidentbeef/move_sql_cves
+
+Move SQL CVEs to their own check
+-----------------------------------------------------------------
+
+Merge commit 330 is -> 
+{ 8f6a692a7d39722a1e790b385b08a5f85eae1dc6 is a merge commit
+---> Commit message - Merge pull request #480 from presidentbeef/support_rails4_before_actions
+
+Support before_action family of aliases in Rails 4
+-----------------------------------------------------------------
+
+Merge commit 331 is -> 
+{ 52c8b1448cda7b5d0cf3c826b088f3ff0ae48e63 is a merge commit
+---> Commit message - Merge pull request #481 from presidentbeef/support_latest_rails_lts
+
+Add support for Rails LTS 2.3.17 and 2.3.18
+-----------------------------------------------------------------
+
+Merge commit 332 is -> 
+{ 6f11f825c00387543fddd1bf08a46aeae8fd62a3 is a merge commit
+---> Commit message - Merge pull request #485 from presidentbeef/fix_process_render_error
+
+Fix CheckRender error with nested render calls
+-----------------------------------------------------------------
+
+Merge commit 333 is -> 
+{ 97aea76dd8e831c6702ae90b9c8d6c949fbf5613 is a merge commit
+---> Commit message - Merge pull request #491 from phene/fix-rails4-mass-assignment-detection
+
+Fixed treatment of protected_attributes gem for Rails 4
+-----------------------------------------------------------------
+
+Merge commit 334 is -> 
+{ da0d956a1986416d2ffe4e95d9aa699ac50b8a5a is a merge commit
+---> Commit message - Merge pull request #489 from presidentbeef/add_more_rails_4_model_methods_in_redirect_check
+
+Add more Rails 4 model methods in redirect check
+-----------------------------------------------------------------
+
+Merge commit 335 is -> 
+{ 199e96ef897316df19321eaf594d10ee62dafb1a is a merge commit
+---> Commit message - Merge pull request #490 from presidentbeef/option_documentation_updates
+
+Option documentation updates
+-----------------------------------------------------------------
+
+Merge commit 336 is -> 
+{ 228a0f1a7e76c056bc7ab032a7313f479e416020 is a merge commit
+---> Commit message - Merge branch 'fix-one-to-one-assumption'
+
+Process controllers defined in multiple files
+-----------------------------------------------------------------
+
+Merge commit 337 is -> 
+{ 986402d5030a25dbcccbb02cf1fdf3d803477f31 is a merge commit
+---> Commit message - Merge pull request #497 from github/bump-ruby_parser
+
+bump ruby_parser to 3.5.0 to support ruby 2.1 syntax
+-----------------------------------------------------------------
+
+Merge commit 338 is -> 
+{ 9a94823d9c13d275850d9564b813de00af278f76 is a merge commit
+---> Commit message - Merge pull request #493 from jjarmoc
+
+Improve route checking for HTTP verb routes.
+-----------------------------------------------------------------
+
+Merge commit 339 is -> 
+{ 911105618061433b5f9c9693eeb5112cb48c1898 is a merge commit
+---> Commit message - Merge branch 'ptoomey3_multi-file-model'
+
+Merge pull request #492
+-----------------------------------------------------------------
+
+Merge commit 340 is -> 
+{ 1e7a616ee2f733a7750ebc85428cdea247813202 is a merge commit
+---> Commit message - Merge pull request #499 from presidentbeef/no_branching_for_plus_equals
+
+Ignore branches when assigning via +=
+-----------------------------------------------------------------
+
+Merge commit 341 is -> 
+{ eeb5a6fe7d27eb404471289934cd538bb4e2c083 is a merge commit
+---> Commit message - Merge pull request #501 from presidentbeef/parse_files_upfront_instead_of_on_demand
+
+Read/parse files up front
+-----------------------------------------------------------------
+
+Merge commit 342 is -> 
+{ 22b0c47ca41d879376c32e7f5824edead8ec65bb is a merge commit
+---> Commit message - Merge pull request #502 from presidentbeef/add_check_for_cve_2014_0130
+
+Add check for CVE-2014-0130
+-----------------------------------------------------------------
+
+Merge commit 343 is -> 
+{ 197428dfe4235d1d6d978d84974b8d7bbb792bb2 is a merge commit
+---> Commit message - Merge branch 'add_find_by_methods_to_sqli_for_rails4'
+
+Conflicts:
+	test/tests/rails4.rb
+-----------------------------------------------------------------
+
+Merge commit 344 is -> 
+{ c6fdbdb9d58d20cfe3b325782d5fd3431380b8b1 is a merge commit
+---> Commit message - Merge pull request #507 from presidentbeef/fix_redirect_false_positive_except
+
+Fix redirect false positive with chained call
+-----------------------------------------------------------------
+
+Merge commit 345 is -> 
+{ 047a0cf2e3f5e982db964ad806438753d2e02d28 is a merge commit
+---> Commit message - Merge pull request #510 from bfish510/patch-1
+
+Nonexistent CVE
+-----------------------------------------------------------------
+
+Merge commit 346 is -> 
+{ 0e3379b75b1dd3fdd699286ac362da7212eb50ad is a merge commit
+---> Commit message - Merge pull request #513 from presidentbeef/keyword_arguments_in_block
+
+Support keyword arguments in blocks
+-----------------------------------------------------------------
+
+Merge commit 347 is -> 
+{ 55dfa87269a3b281933344539f645e5d66c48174 is a merge commit
+---> Commit message - Merge pull request #514 from bfish510/patch-2
+
+CVE_2013_6415 and CVE_2013_6415_call commented out
+-----------------------------------------------------------------
+
+Merge commit 348 is -> 
+{ 7ae59692b5962070832c73ffb04606a29241f03c is a merge commit
+---> Commit message - Merge pull request #515 from presidentbeef/postgres_cves
+
+Add check for CVE-2014-3482 and CVE-2014-3483
+-----------------------------------------------------------------
+
+Merge commit 349 is -> 
+{ a5c337d1f872ae56cf96f796c10bf45c517069d9 is a merge commit
+---> Commit message - Merge pull request #517 from JasonBarnabe/path_in_process_controller
+
+Fix undefined variable in Scanner.process_controller error handler
+-----------------------------------------------------------------
+
+Merge commit 350 is -> 
+{ 468376e346fa7e2a404cd952f50c74c9e17126ee is a merge commit
+---> Commit message - Merge pull request #520 from presidentbeef/fix_erubis_add_stmt
+
+Fix block statement endings in erubis
+-----------------------------------------------------------------
+
+Merge commit 351 is -> 
+{ fbf7172ff2611878237086086073f35220ddc06d is a merge commit
+---> Commit message - Merge pull request #521 from presidentbeef/search_sub_dirs_for_gitignore
+
+Check for .gitignore secrets in subdirectories
+-----------------------------------------------------------------
+
+Merge commit 352 is -> 
+{ cf5b837cc5a4cfa0e6d85e8e76de03f98e70760e is a merge commit
+---> Commit message - Merge pull request #524 from presidentbeef/check_nested_sends
+
+Check entire call for send()
+-----------------------------------------------------------------
+
+Merge commit 353 is -> 
+{ ac2e6f06ca58127fc4d6baeefcc2f81d0ee5328a is a merge commit
+---> Commit message - Merge pull request #527 from presidentbeef/add_rails4_option
+
+Add -4 option to force Rails 4
+-----------------------------------------------------------------
+
+Merge commit 354 is -> 
+{ b490eca4948b50db108813bf2cd90025a7fb42ef is a merge commit
+---> Commit message - Merge pull request #528 from presidentbeef/fix_sqli_detection_in_nested_string_building
+
+Fix SQLi detection in deeply nested string building
+-----------------------------------------------------------------
+
+Merge commit 355 is -> 
+{ abd86537b8f0b47689df72e7a8211f65c23b2cb8 is a merge commit
+---> Commit message - Merge pull request #531 from presidentbeef/more_sanity_tests_for_csv
+
+Check that CSV reports actually parse as CSV
+-----------------------------------------------------------------
+
+Merge commit 356 is -> 
+{ 2808c45ce3724a05070cf175048789b638ff0630 is a merge commit
+---> Commit message - Merge branch 'master' into feature/out-of-tree-checks_new
+-----------------------------------------------------------------
+
+Merge commit 357 is -> 
+{ 0ff973e9a698c77642b41aa9fbf5c9f2c8615c37 is a merge commit
+---> Commit message - Merge pull request #532 from clintgibler/feature/out-of-tree-checks_new
+
+feature/out of tree checks
+-----------------------------------------------------------------
+
+Merge commit 358 is -> 
+{ 30dcde63bdeb2187fdd246830c25f6c89c8c488d is a merge commit
+---> Commit message - Merge pull request #533 from codeclimate/gemfile-https
+
+Use https in the Gemfile
+-----------------------------------------------------------------
+
+Merge commit 359 is -> 
+{ ffc00b273b2da562ebf2d830f4c286fb795f502b is a merge commit
+---> Commit message - Merge pull request #534 from codeclimate/extract-app-path
+
+Localize path expansions to helper method
+-----------------------------------------------------------------
+
+Merge commit 360 is -> 
+{ df7d1a2cf647f59c33cbcf08457a2cc345c8a444 is a merge commit
+---> Commit message - Merge pull request #535 from presidentbeef/add_gems_to_config_by_default
+
+Set tracker.config[:gems] by default
+-----------------------------------------------------------------
+
+Merge commit 361 is -> 
+{ 4fb72d1b587a27ccb9d1240d26b8f529fbc7cc8c is a merge commit
+---> Commit message - Merge pull request #537 from presidentbeef/update_ruby2ruby
+
+Update ruby2ruby
+-----------------------------------------------------------------
+
+Merge commit 362 is -> 
+{ fbee24314f03b68d49c8bafb21f3eaf6bb1353da is a merge commit
+---> Commit message - Merge pull request #538 from presidentbeef/avoid_warning_about_symbol_creation_on_safe_params
+
+Avoid warning about symbolizing safe parameters
+-----------------------------------------------------------------
+
+Merge commit 363 is -> 
+{ 61775277ebc44d20dad38c53a0a7934e16e79913 is a merge commit
+---> Commit message - Merge pull request #539 from presidentbeef/ensure_app_path_is_absolute_in_app_tree
+
+Make sure file paths are absolute in AppTree
+-----------------------------------------------------------------
+
+Merge commit 364 is -> 
+{ 4927b7e589f0e3ea84ed2ece0f367d328143000c is a merge commit
+---> Commit message - Merge pull request #540 from presidentbeef/add_check_for_CVE-2014-3415
+
+Add check for CVE-2014-3415
+-----------------------------------------------------------------
+
+Merge commit 365 is -> 
+{ 52a02371c0ef0dfcc42381e4ef3f2367cffee391 is a merge commit
+---> Commit message - Merge pull request #542 from bfish510/patch-3
+
+Added warning types to WARNING_TYPES and ordered alphabetically.
+-----------------------------------------------------------------
+
+Merge commit 366 is -> 
+{ d8f65dcbcf5b301b9a998464d54367abbf995d8b is a merge commit
+---> Commit message - Merge pull request #543 from codeclimate/stack-level-too-deep
+
+Prevent SystemStackError when there are loops in class ancestors
+-----------------------------------------------------------------
+
+Merge commit 367 is -> 
+{ 4162480706a0831f836644d00e5e85a8a4e98df2 is a merge commit
+---> Commit message - Merge pull request #550 from cschramm/master
+
+Make TemplateAliasProcessor work with top-level partials
+-----------------------------------------------------------------
+
+Merge commit 368 is -> 
+{ 048b1c1704dc1985b8e959be231b9c9863adab57 is a merge commit
+---> Commit message - Merge pull request #555 from presidentbeef/optional_checks
+
+Optional checks
+-----------------------------------------------------------------
+
+Merge commit 369 is -> 
+{ df911f3af9ad729f3be39593ee5dd1448572dff6 is a merge commit
+---> Commit message - Merge branch 'master' into unscoped_find
+
+Conflicts:
+	lib/brakeman/warning_codes.rb
+	test/tests/rails2.rb
+	test/tests/rails31.rb
+	test/tests/rails_with_xss_plugin.rb
+	test/tests/tabs_output.rb
+-----------------------------------------------------------------
+
+Merge commit 370 is -> 
+{ c9a4784a94750aeb3db66f4da424588309efa817 is a merge commit
+---> Commit message - Merge pull request #469 from github/unscoped_find
+
+Check for unscoped model finds
+-----------------------------------------------------------------
+
+Merge commit 371 is -> 
+{ 6f823d135cdb0929a57974c7d35db8b35190d6a3 is a merge commit
+---> Commit message - Merge pull request #563 from presidentbeef/add_optional_checks_list
+
+Add option to list optional checks
+-----------------------------------------------------------------
+
+Merge commit 372 is -> 
+{ 92b97e9810a70b64c9de6126620c314f2a8e85cc is a merge commit
+---> Commit message - Merge pull request #560 from presidentbeef/dont_process_in_class_name_util
+
+Don't process in class_name util
+-----------------------------------------------------------------
+
+Merge commit 373 is -> 
+{ c41283733210615086133661d1dfc833b24f80a3 is a merge commit
+---> Commit message - Merge pull request #564 from presidentbeef/moar_safe_params_to_symbols
+
+Avoid warning about Symbol DoS on safe params
+-----------------------------------------------------------------
+
+Merge commit 374 is -> 
+{ cc4d1bc1f03aeede2317bd5f76d7281638089fa3 is a merge commit
+---> Commit message - Merge pull request #566 from presidentbeef/whitelist_exists_for_arel
+
+Whitelist `exists` arel method from sqli
+-----------------------------------------------------------------
+
+Merge commit 375 is -> 
+{ 8a448fa581f3a8150ba77dcd4fcf467be7339bda is a merge commit
+---> Commit message - Merge pull request #567 from presidentbeef/add_find_by_id_bang_unscoped_finds
+
+Add find_by_id! to unscoped find check
+-----------------------------------------------------------------
+
+Merge commit 376 is -> 
+{ e128a69281c4751436fb48cacd3186b2b450626c is a merge commit
+---> Commit message - Merge commit 'pull/origin/557'
+-----------------------------------------------------------------
+
+Merge commit 377 is -> 
+{ dcc6060206b9a534b87e0cec60657b839287f73b is a merge commit
+---> Commit message - Merge pull request #568 from presidentbeef/make_separate_models_default
+
+Make --separate-models the default
+-----------------------------------------------------------------
+
+Merge commit 378 is -> 
+{ 9587fdb880837bfce4659ca5e241626469123aa7 is a merge commit
+---> Commit message - Merge pull request #569 from presidentbeef/more_line_numbers_for_gems
+
+More line numbers for CVEs
+-----------------------------------------------------------------
+
+Merge commit 379 is -> 
+{ b9cf4362042e82fcf0ae6d3a3aaa3f4cf6d519ba is a merge commit
+---> Commit message - Merge pull request #570 from presidentbeef/symbol_dos_is_optional
+
+Make CheckSymbolDoS an optional check
+-----------------------------------------------------------------
+
+Merge commit 380 is -> 
+{ 532d2b4ed2dc96b9693b7fbf77f12f368df78438 is a merge commit
+---> Commit message - Merge pull request #571 from presidentbeef/index_libs_too
+
+Index calls in libraries too
+-----------------------------------------------------------------
+
+Merge commit 381 is -> 
+{ 3828738deedcd05bc022a89ccb511a2765590050 is a merge commit
+---> Commit message - Merge pull request #572 from presidentbeef/no_fake_filters_in_fingerprints
+
+No fake filters in fingerprints
+-----------------------------------------------------------------
+
+Merge commit 382 is -> 
+{ 754be79339092455e9ed475525181dbbfde4d1df is a merge commit
+---> Commit message - Merge pull request #575 from presidentbeef/add_cve_2011_2932
+
+Fix CVE for CVE-2011-2932
+-----------------------------------------------------------------
+
+Merge commit 383 is -> 
+{ 6261a5c6836d93ca1d0e4cf6de90bd8545d73f2f is a merge commit
+---> Commit message - Merge pull request #578 from presidentbeef/fix_self_assignment_explosion
+
+Fix self assignment branch explosion
+-----------------------------------------------------------------
+
+Merge commit 384 is -> 
+{ f9011adc0007f64eec1db6e9174ee6d6ab8bf4ce is a merge commit
+---> Commit message - Merge branch 'master' into handle_multiple_assignment
+
+Conflicts:
+	test/tests/alias_processor.rb
+-----------------------------------------------------------------
+
+Merge commit 385 is -> 
+{ 36cdce51d31f89d137bd891f4f082d8abeebded5 is a merge commit
+---> Commit message - Merge pull request #577 from presidentbeef/handle_multiple_assignment
+
+Handle multiple assignment
+-----------------------------------------------------------------
+

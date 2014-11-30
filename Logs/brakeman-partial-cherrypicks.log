@@ -1,0 +1,2723 @@
+# of partial cherrypicks = 139
+Partial Cherry-pick diff pair 1 is -> 
+{ ab6320def60c57fa61b666bba4d260377fdbe14b -> 5d76a93568e8e4d2b85f50353acf6dd798bc150f } is a cherrypick
+{ d34f0c7b9deb34aa499f8036717c3eae1864e9ef -> 754be79339092455e9ed475525181dbbfde4d1df }
+Partial Cherry-pick commits SHA are -> 
+5d76a93568e8e4d2b85f50353acf6dd798bc150f - cherrypick - 754be79339092455e9ed475525181dbbfde4d1df
+---> The cherrypicked commit sha is - 5d76a93568e8e4d2b85f50353acf6dd798bc150f
+Commit message - Remove file from to_test.rb
+---> The original commit sha is - 754be79339092455e9ed475525181dbbfde4d1df
+Commit message - Merge pull request #575 from presidentbeef/add_cve_2011_2932
+
+Fix CVE for CVE-2011-2932
+---> The files with partial_cherrypicks are:-
+test/to_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ f2941e4502580266b7ed336c9e1a0d833d7635c2 -> 4b1a49a14163b5c3d21ef0c1f73566e4d3aaf3a7 } is a cherrypick
+{ 57d4611dd86d77166a3bbe692f2654bbbbbdfb0a -> e128a69281c4751436fb48cacd3186b2b450626c }
+Partial Cherry-pick commits SHA are -> 
+4b1a49a14163b5c3d21ef0c1f73566e4d3aaf3a7 - cherrypick - e128a69281c4751436fb48cacd3186b2b450626c
+---> The cherrypicked commit sha is - 4b1a49a14163b5c3d21ef0c1f73566e4d3aaf3a7
+Commit message - For warnings on Libraries (Gemfile, Gemfile.lock) add :file and :line descriptor to warning hash
+---> The original commit sha is - e128a69281c4751436fb48cacd3186b2b450626c
+Commit message - Merge commit 'pull/origin/557'
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/base_check.rb
+lib/brakeman/checks/check_i18n_xss.rb
+lib/brakeman/checks/check_json_parsing.rb
+lib/brakeman/checks/check_sql_cves.rb
+lib/brakeman/processors/gem_processor.rb
+test/tests/brakeman.rb
+test/tests/only_files_option.rb
+test/tests/rails3.rb
+test/tests/rails31.rb
+test/tests/rails32.rb
+test/tests/rails4_with_engines.rb
+test/to_test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 2d2a97720927000a7b7715e0116f0c12a105e4e5 -> adb283e87d77c512b657bb6937436e87d99e2745 } is a cherrypick
+{ c41283733210615086133661d1dfc833b24f80a3 -> 81ab498080bded3741705bc895ce7cb80d84a67f }
+Partial Cherry-pick commits SHA are -> 
+adb283e87d77c512b657bb6937436e87d99e2745 - cherrypick - 81ab498080bded3741705bc895ce7cb80d84a67f
+---> The cherrypicked commit sha is - adb283e87d77c512b657bb6937436e87d99e2745
+Commit message - Update CHANGES
+---> The original commit sha is - 81ab498080bded3741705bc895ce7cb80d84a67f
+Commit message - Update CHANGES
+
+* Avoid warning about Symbol DoS on safe parameters as method targets
+* Fix stack overflow in ProcessHelper#class_name
+* Add optional check for unscoped find queries (Ben Toews)
+* Add framework for optional checks
+* Fix stack overflow for cycles in class ancestors (JR Richardson)
+---> The files with partial_cherrypicks are:-
+CHANGES
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ d4c6cda8de2ed6467e6cb7430641884475ef5d48 -> c0d46bb228c638a22102cedf2b7c08c8534fca31 } is a cherrypick
+{ c41283733210615086133661d1dfc833b24f80a3 -> 81ab498080bded3741705bc895ce7cb80d84a67f }
+Partial Cherry-pick commits SHA are -> 
+c0d46bb228c638a22102cedf2b7c08c8534fca31 - cherrypick - 81ab498080bded3741705bc895ce7cb80d84a67f
+---> The cherrypicked commit sha is - c0d46bb228c638a22102cedf2b7c08c8534fca31
+Commit message - Merge pull request #384 from presidentbeef/no_warning_on_attr_accessible_with_as
+
+Do not warn on "dangerous" attributes using roles
+---> The original commit sha is - 81ab498080bded3741705bc895ce7cb80d84a67f
+Commit message - Update CHANGES
+
+* Avoid warning about Symbol DoS on safe parameters as method targets
+* Fix stack overflow in ProcessHelper#class_name
+* Add optional check for unscoped find queries (Ben Toews)
+* Add framework for optional checks
+* Fix stack overflow for cycles in class ancestors (JR Richardson)
+---> The files with partial_cherrypicks are:-
+CHANGES
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ 949b51048e9e7559f1abdb4bd93b0f12afffae70 -> 6a0218cddfdc287da13b5f86b59c7bce8274018f } is a cherrypick
+{ c41283733210615086133661d1dfc833b24f80a3 -> 81ab498080bded3741705bc895ce7cb80d84a67f }
+Partial Cherry-pick commits SHA are -> 
+6a0218cddfdc287da13b5f86b59c7bce8274018f - cherrypick - 81ab498080bded3741705bc895ce7cb80d84a67f
+---> The cherrypicked commit sha is - 6a0218cddfdc287da13b5f86b59c7bce8274018f
+Commit message - Merge branch 'fix_how_immediate_model_attributes_detected'
+
+Conflicts:
+	test/tests/rails31.rb
+---> The original commit sha is - 81ab498080bded3741705bc895ce7cb80d84a67f
+Commit message - Update CHANGES
+
+* Avoid warning about Symbol DoS on safe parameters as method targets
+* Fix stack overflow in ProcessHelper#class_name
+* Add optional check for unscoped find queries (Ben Toews)
+* Add framework for optional checks
+* Fix stack overflow for cycles in class ancestors (JR Richardson)
+---> The files with partial_cherrypicks are:-
+CHANGES
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 52a02371c0ef0dfcc42381e4ef3f2367cffee391 -> 297a735bdf106e5fd4e3e22ea9e81b5deb12c0c5 } is a cherrypick
+{ c9d5b55b4f6e1236430d7cbb72cfe2afc0efc32e -> 048b1c1704dc1985b8e959be231b9c9863adab57 }
+Partial Cherry-pick commits SHA are -> 
+297a735bdf106e5fd4e3e22ea9e81b5deb12c0c5 - cherrypick - 048b1c1704dc1985b8e959be231b9c9863adab57
+---> The cherrypicked commit sha is - 297a735bdf106e5fd4e3e22ea9e81b5deb12c0c5
+Commit message - Create a test around preventing SystemStackError
+---> The original commit sha is - 048b1c1704dc1985b8e959be231b9c9863adab57
+Commit message - Merge pull request #555 from presidentbeef/optional_checks
+
+Optional checks
+---> The files with partial_cherrypicks are:-
+test/apps/rails4/app/models/recursive/stack_level.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ 52a02371c0ef0dfcc42381e4ef3f2367cffee391 -> 297a735bdf106e5fd4e3e22ea9e81b5deb12c0c5 } is a cherrypick
+{ d75d53d62677acda968e37d2490816beb2bafffb -> 4162480706a0831f836644d00e5e85a8a4e98df2 }
+Partial Cherry-pick commits SHA are -> 
+297a735bdf106e5fd4e3e22ea9e81b5deb12c0c5 - cherrypick - 4162480706a0831f836644d00e5e85a8a4e98df2
+---> The cherrypicked commit sha is - 297a735bdf106e5fd4e3e22ea9e81b5deb12c0c5
+Commit message - Create a test around preventing SystemStackError
+---> The original commit sha is - 4162480706a0831f836644d00e5e85a8a4e98df2
+Commit message - Merge pull request #550 from cschramm/master
+
+Make TemplateAliasProcessor work with top-level partials
+---> The files with partial_cherrypicks are:-
+test/apps/rails4/app/models/recursive/stack_level.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ 52a02371c0ef0dfcc42381e4ef3f2367cffee391 -> 297a735bdf106e5fd4e3e22ea9e81b5deb12c0c5 } is a cherrypick
+{ 2af5230fe69b64042e541be2602a4a6b5d9532a4 -> d8f65dcbcf5b301b9a998464d54367abbf995d8b }
+Partial Cherry-pick commits SHA are -> 
+297a735bdf106e5fd4e3e22ea9e81b5deb12c0c5 - cherrypick - d8f65dcbcf5b301b9a998464d54367abbf995d8b
+---> The cherrypicked commit sha is - 297a735bdf106e5fd4e3e22ea9e81b5deb12c0c5
+Commit message - Create a test around preventing SystemStackError
+---> The original commit sha is - d8f65dcbcf5b301b9a998464d54367abbf995d8b
+Commit message - Merge pull request #543 from codeclimate/stack-level-too-deep
+
+Prevent SystemStackError when there are loops in class ancestors
+---> The files with partial_cherrypicks are:-
+test/apps/rails4/app/models/recursive/stack_level.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ 94088928c1eb0c8c85488ced1de237bc7c0b2333 -> bc5a7485fe8e1f8869a518494a86ef0e01207c9d } is a cherrypick
+{ fbee24314f03b68d49c8bafb21f3eaf6bb1353da -> 61775277ebc44d20dad38c53a0a7934e16e79913 }
+Partial Cherry-pick commits SHA are -> 
+bc5a7485fe8e1f8869a518494a86ef0e01207c9d - cherrypick - 61775277ebc44d20dad38c53a0a7934e16e79913
+---> The cherrypicked commit sha is - bc5a7485fe8e1f8869a518494a86ef0e01207c9d
+Commit message - Make sure file paths are absolute in AppTree
+---> The original commit sha is - 61775277ebc44d20dad38c53a0a7934e16e79913
+Commit message - Merge pull request #539 from presidentbeef/ensure_app_path_is_absolute_in_app_tree
+
+Make sure file paths are absolute in AppTree
+---> The files with partial_cherrypicks are:-
+lib/brakeman/app_tree.rb
+test/tests/brakeman.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 5fb3cff8d6eca66eb5e37fa7ab4cf627aed0057c -> c355ab3fba30c5260438fcc2882cb7293b2cf7ef } is a cherrypick
+{ 5ee87b6714300640a0b3efbc297e0510d9047cfb -> a2829681ea7f63cd5c37120d86c35d665deac4f1 }
+Partial Cherry-pick commits SHA are -> 
+c355ab3fba30c5260438fcc2882cb7293b2cf7ef - cherrypick - a2829681ea7f63cd5c37120d86c35d665deac4f1
+---> The cherrypicked commit sha is - c355ab3fba30c5260438fcc2882cb7293b2cf7ef
+Commit message - Limit rake to 1.8 compatible versions
+---> The original commit sha is - a2829681ea7f63cd5c37120d86c35d665deac4f1
+Commit message - Remove hacky Ruby2Ruby Regexp fix
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/output_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 1e38923813364ae525acb119218f4a0ee94784f3 -> 0d9d9eb5db4f114bf7ba12fd6dff2fa9f2fb34df } is a cherrypick
+{ 5ee87b6714300640a0b3efbc297e0510d9047cfb -> a2829681ea7f63cd5c37120d86c35d665deac4f1 }
+Partial Cherry-pick commits SHA are -> 
+0d9d9eb5db4f114bf7ba12fd6dff2fa9f2fb34df - cherrypick - a2829681ea7f63cd5c37120d86c35d665deac4f1
+---> The cherrypicked commit sha is - 0d9d9eb5db4f114bf7ba12fd6dff2fa9f2fb34df
+Commit message - s/Regex/Regexp/
+---> The original commit sha is - a2829681ea7f63cd5c37120d86c35d665deac4f1
+Commit message - Remove hacky Ruby2Ruby Regexp fix
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/output_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ 14c02113ee7d4cdbc29db2bf6baf18d74c6df1db -> 4f6251db58901bac90b51d191f850dfab2929604 } is a cherrypick
+{ a5c337d1f872ae56cf96f796c10bf45c517069d9 -> 468376e346fa7e2a404cd952f50c74c9e17126ee }
+Partial Cherry-pick commits SHA are -> 
+4f6251db58901bac90b51d191f850dfab2929604 - cherrypick - 468376e346fa7e2a404cd952f50c74c9e17126ee
+---> The cherrypicked commit sha is - 4f6251db58901bac90b51d191f850dfab2929604
+Commit message - Fix block statement endings in erubis
+
+Partial fix for #518
+---> The original commit sha is - 468376e346fa7e2a404cd952f50c74c9e17126ee
+Commit message - Merge pull request #520 from presidentbeef/fix_erubis_add_stmt
+
+Fix block statement endings in erubis
+---> The files with partial_cherrypicks are:-
+lib/brakeman/parsers/rails3_erubis.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ bba91a010c1b91be5f9ef79a9dc18e5cc6b6b2d4 -> 560619b619d44095b2129f4c716c9477f8c41ec9 } is a cherrypick
+{ 197428dfe4235d1d6d978d84974b8d7bbb792bb2 -> c6fdbdb9d58d20cfe3b325782d5fd3431380b8b1 }
+Partial Cherry-pick commits SHA are -> 
+560619b619d44095b2129f4c716c9477f8c41ec9 - cherrypick - c6fdbdb9d58d20cfe3b325782d5fd3431380b8b1
+---> The cherrypicked commit sha is - 560619b619d44095b2129f4c716c9477f8c41ec9
+Commit message - Fix redirect false positive with chained call
+---> The original commit sha is - c6fdbdb9d58d20cfe3b325782d5fd3431380b8b1
+Commit message - Merge pull request #507 from presidentbeef/fix_redirect_false_positive_except
+
+Fix redirect false positive with chained call
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_redirect.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/tests/rails31.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 57fff7ad2e060378f1c82fd0929547ac3e10b66c -> 982c91073b86ce8c0ea847b90d46d083268ad669 } is a cherrypick
+{ da0d956a1986416d2ffe4e95d9aa699ac50b8a5a -> 199e96ef897316df19321eaf594d10ee62dafb1a }
+Partial Cherry-pick commits SHA are -> 
+982c91073b86ce8c0ea847b90d46d083268ad669 - cherrypick - 199e96ef897316df19321eaf594d10ee62dafb1a
+---> The cherrypicked commit sha is - 982c91073b86ce8c0ea847b90d46d083268ad669
+Commit message - Update and clarify option documentation
+---> The original commit sha is - 199e96ef897316df19321eaf594d10ee62dafb1a
+Commit message - Merge pull request #490 from presidentbeef/option_documentation_updates
+
+Option documentation updates
+---> The files with partial_cherrypicks are:-
+OPTIONS.md
+lib/brakeman/options.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ 21b00ce2ea12bb31d20eddd16406ccd5df6126de -> 57fff7ad2e060378f1c82fd0929547ac3e10b66c } is a cherrypick
+{ 97aea76dd8e831c6702ae90b9c8d6c949fbf5613 -> da0d956a1986416d2ffe4e95d9aa699ac50b8a5a }
+Partial Cherry-pick commits SHA are -> 
+57fff7ad2e060378f1c82fd0929547ac3e10b66c - cherrypick - da0d956a1986416d2ffe4e95d9aa699ac50b8a5a
+---> The cherrypicked commit sha is - 57fff7ad2e060378f1c82fd0929547ac3e10b66c
+Commit message - Support Rails 4 model queries in CheckRedirect
+
+as mentioned in #486
+---> The original commit sha is - da0d956a1986416d2ffe4e95d9aa699ac50b8a5a
+Commit message - Merge pull request #489 from presidentbeef/add_more_rails_4_model_methods_in_redirect_check
+
+Add more Rails 4 model methods in redirect check
+---> The files with partial_cherrypicks are:-
+test/apps/rails4/app/controllers/users_controller.rb
+test/tests/rails4.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ f0ba29275975e8c20b52151fbe080eea65d43eff -> 42f2f3cbb2060f3fa5dbb0b84c9400d331a6a2e1 } is a cherrypick
+{ 8f6a692a7d39722a1e790b385b08a5f85eae1dc6 -> 52c8b1448cda7b5d0cf3c826b088f3ff0ae48e63 }
+Partial Cherry-pick commits SHA are -> 
+42f2f3cbb2060f3fa5dbb0b84c9400d331a6a2e1 - cherrypick - 52c8b1448cda7b5d0cf3c826b088f3ff0ae48e63
+---> The cherrypicked commit sha is - 42f2f3cbb2060f3fa5dbb0b84c9400d331a6a2e1
+Commit message - Add support for Rails LTS 2.3.17 and 2.3.18
+---> The original commit sha is - 52c8b1448cda7b5d0cf3c826b088f3ff0ae48e63
+Commit message - Merge pull request #481 from presidentbeef/support_latest_rails_lts
+
+Add support for Rails LTS 2.3.17 and 2.3.18
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_number_to_currency.rb
+lib/brakeman/checks/check_select_vulnerability.rb
+test/apps/rails_with_xss_plugin/app/views/users/index.html.erb
+test/tests/rails_lts.rb
+test/tests/rails_with_xss_plugin.rb
+test/tests/rescanner.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ 3e967a2d099b4b4b88ac62afc39c490db5d196bd -> 9c94fcf469bacdf74e729209fcc27c756cc9d8c8 } is a cherrypick
+{ 5ca5e2d72449377be502587824fcf1924b1272df -> 3603bae063b87d46eeb438dbd88f4388beb78d96 }
+Partial Cherry-pick commits SHA are -> 
+9c94fcf469bacdf74e729209fcc27c756cc9d8c8 - cherrypick - 3603bae063b87d46eeb438dbd88f4388beb78d96
+---> The cherrypicked commit sha is - 9c94fcf469bacdf74e729209fcc27c756cc9d8c8
+Commit message - Check for protected_attributes gem in Rails 4 apps
+
+and treat mass assignment as if it is allowed instead
+of using strong parameters.
+
+Fixes #475
+---> The original commit sha is - 3603bae063b87d46eeb438dbd88f4388beb78d96
+Commit message - Merge pull request #478 from presidentbeef/move_sql_cves
+
+Move SQL CVEs to their own check
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/base_check.rb
+test/tests/mass_assign_disable.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 18c84428271204da5899e571cfad5724e1da5e43 -> 2b5e521f147131be3c3ea00b65f6b2de9bd32e07 } is a cherrypick
+{ a41b8fb38849b3dcd159eb1ee1c4e73194b46b3c -> b6e2dfad3901802170bee276b627059f2770b40b }
+Partial Cherry-pick commits SHA are -> 
+2b5e521f147131be3c3ea00b65f6b2de9bd32e07 - cherrypick - b6e2dfad3901802170bee276b627059f2770b40b
+---> The cherrypicked commit sha is - 2b5e521f147131be3c3ea00b65f6b2de9bd32e07
+Commit message - Remove `rescue Exception` instances
+
+closes #428
+---> The original commit sha is - b6e2dfad3901802170bee276b627059f2770b40b
+Commit message - Merge pull request #446 from presidentbeef/remove_rescue_exception
+
+Remove `rescue Exception` instances
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks.rb
+lib/brakeman/processors/alias_processor.rb
+lib/brakeman/processors/erb_template_processor.rb
+lib/brakeman/processors/haml_template_processor.rb
+lib/brakeman/processors/output_processor.rb
+lib/brakeman/processors/template_processor.rb
+lib/brakeman/scanner.rb
+lib/ruby_parser/bm_sexp_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ 5e8dd159743aeaa5812fad0aeb580e6b2d4c54bc -> b3b15be73bcbf13fa3ad5911976ae2ca192b1cf3 } is a cherrypick
+{ 94d3e5c25b213711a783686372fee29f66493ee9 -> 18c84428271204da5899e571cfad5724e1da5e43 }
+Partial Cherry-pick commits SHA are -> 
+b3b15be73bcbf13fa3ad5911976ae2ca192b1cf3 - cherrypick - 18c84428271204da5899e571cfad5724e1da5e43
+---> The cherrypicked commit sha is - b3b15be73bcbf13fa3ad5911976ae2ca192b1cf3
+Commit message - Update CHANGES
+
+ * Reuse duplicate call location information
+ * Only track original template output locations
+ * Skip identically rendered templates
+ * Fix HAML template processing
+---> The original commit sha is - 18c84428271204da5899e571cfad5724e1da5e43
+Commit message - Merge pull request #445 from presidentbeef/skip_duplicate_sanitize_warnings
+
+Skip duplicate sanitize CVE warnings
+---> The files with partial_cherrypicks are:-
+CHANGES
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ 9fedae27d786cf57f3cce36eb42d8f5c031b80d4 -> 2540d5cb72ec8fda8802136ad1e3ff49193a8fa5 } is a cherrypick
+{ 6b14a5218caa80aea77ebc22ece33ea4b62088d3 -> 04cd0958d86847db3b6a59c0d51d08abba793432 }
+Partial Cherry-pick commits SHA are -> 
+2540d5cb72ec8fda8802136ad1e3ff49193a8fa5 - cherrypick - 04cd0958d86847db3b6a59c0d51d08abba793432
+---> The cherrypicked commit sha is - 2540d5cb72ec8fda8802136ad1e3ff49193a8fa5
+Commit message - Only store original template outputs
+---> The original commit sha is - 04cd0958d86847db3b6a59c0d51d08abba793432
+Commit message - Merge pull request #443 from presidentbeef/only_original_outputs
+
+Only store original template outputs
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/template_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ 750ea2da99c2b0674f184db6ef2a2c1747552779 -> 9fedae27d786cf57f3cce36eb42d8f5c031b80d4 } is a cherrypick
+{ 49fd86c0eebac4363eb104efd2700837bc9e8620 -> 6b14a5218caa80aea77ebc22ece33ea4b62088d3 }
+Partial Cherry-pick commits SHA are -> 
+9fedae27d786cf57f3cce36eb42d8f5c031b80d4 - cherrypick - 6b14a5218caa80aea77ebc22ece33ea4b62088d3
+---> The cherrypicked commit sha is - 9fedae27d786cf57f3cce36eb42d8f5c031b80d4
+Commit message - Ignore identically rendered templates
+---> The original commit sha is - 6b14a5218caa80aea77ebc22ece33ea4b62088d3
+Commit message - Merge pull request #442 from presidentbeef/ignore_duplicate_renders
+
+Ignore identically rendered templates
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/lib/render_helper.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ 20537f6a69a5dfde5d1961a724ff55ba991d5f24 -> b090a75f3735be7a1897b55079b84e141f826aa8 } is a cherrypick
+{ 5cd84bb1f13aa550c722ca10e0fcf4920225288b -> 177c2fb531f7cb45f4412232843894aff6f865e7 }
+Partial Cherry-pick commits SHA are -> 
+b090a75f3735be7a1897b55079b84e141f826aa8 - cherrypick - 177c2fb531f7cb45f4412232843894aff6f865e7
+---> The cherrypicked commit sha is - b090a75f3735be7a1897b55079b84e141f826aa8
+Commit message - Ignore non-string gem names in Gemfile
+---> The original commit sha is - 177c2fb531f7cb45f4412232843894aff6f865e7
+Commit message - Merge pull request #429 from presidentbeef/ignore_non_string_gem_names_in_gemfile
+
+Ignore non-string gem names in Gemfile
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/gem_processor.rb
+test/apps/rails4/Gemfile
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ b8f8a3ae570c516eddaf8f0b71571f17c2fcc36b -> e15cda54cac7ac129b586217cdbd7e44845fdb5b } is a cherrypick
+{ 8d456d075a2343bf70e2b5e9b4ec81b66d409e46 -> 20537f6a69a5dfde5d1961a724ff55ba991d5f24 }
+Partial Cherry-pick commits SHA are -> 
+e15cda54cac7ac129b586217cdbd7e44845fdb5b - cherrypick - 20537f6a69a5dfde5d1961a724ff55ba991d5f24
+---> The cherrypicked commit sha is - e15cda54cac7ac129b586217cdbd7e44845fdb5b
+Commit message - Ignore generators
+
+especially since they are often ERB, not Ruby files even though they have
+an .rb extension.
+---> The original commit sha is - 20537f6a69a5dfde5d1961a724ff55ba991d5f24
+Commit message - Merge pull request #427 from presidentbeef/ignore_generators
+
+Ignore generators
+---> The files with partial_cherrypicks are:-
+lib/brakeman/app_tree.rb
+test/apps/rails2/lib/generators/test_generator/templates/model.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ 988f908ab29123f5dca93c18df4bd4634ce41bd4 -> 172468fb3917f511ab3b353e8aa0b29feebc8923 } is a cherrypick
+{ 71f5d18dd17b90513a5482399a1081608ed39829 -> ba2b06616bc7eb44b28a9369a6342426ea9b3a61 }
+Partial Cherry-pick commits SHA are -> 
+172468fb3917f511ab3b353e8aa0b29feebc8923 - cherrypick - ba2b06616bc7eb44b28a9369a6342426ea9b3a61
+---> The cherrypicked commit sha is - 172468fb3917f511ab3b353e8aa0b29feebc8923
+Commit message - Lowercase "reflection" in unsafe reflection warning
+---> The original commit sha is - ba2b06616bc7eb44b28a9369a6342426ea9b3a61
+Commit message - Merge pull request #411 from presidentbeef/reflection_capitalization
+
+Lowercase "reflection" in unsafe reflection warning
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_unsafe_reflection.rb
+test/tests/rails2.rb
+test/tests/rails31.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ 5c67671c9322edcf2595f3fa9870591c71493eae -> 0e617f958c5b167dcab4c86ea4d35d9078d21a37 } is a cherrypick
+{ 0ed4d2a7f08cca1e0dd1ba07f5ea4b0f16c1e6be -> 25a41dfcd9171695e731533c50de573c71c63deb }
+Partial Cherry-pick commits SHA are -> 
+0e617f958c5b167dcab4c86ea4d35d9078d21a37 - cherrypick - 25a41dfcd9171695e731533c50de573c71c63deb
+---> The cherrypicked commit sha is - 0e617f958c5b167dcab4c86ea4d35d9078d21a37
+Commit message - add check for dangerous attributes defined in attr_accessible
+---> The original commit sha is - 25a41dfcd9171695e731533c50de573c71c63deb
+Commit message - Remove coveralls
+---> The files with partial_cherrypicks are:-
+Gemfile
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 66fb4de1012a3aefd54baec4bbaaccb1d259cec9 -> 9a6a2098a32de28a3eb4d192fad1ee39383fed5e } is a cherrypick
+{ d1e5c5f3450df6ef3a168547f3d22112fa21342f -> 6acda2762aee5f33b1b2b127d962fbb86f06c488 }
+Partial Cherry-pick commits SHA are -> 
+9a6a2098a32de28a3eb4d192fad1ee39383fed5e - cherrypick - 6acda2762aee5f33b1b2b127d962fbb86f06c488
+---> The cherrypicked commit sha is - 9a6a2098a32de28a3eb4d192fad1ee39383fed5e
+Commit message - Only add routes that are actual names
+
+not redirects or other calls.
+
+Fixes #395
+---> The original commit sha is - 6acda2762aee5f33b1b2b127d962fbb86f06c488
+Commit message - Merge pull request #403 from presidentbeef/redirect_in_route
+
+Only add routes that are actual names
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/lib/route_helper.rb
+test/apps/rails3.2/config/routes.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ e0ad9abaa8c163b30e072bd01432ccad41a1a8e8 -> 0f44dd818671d87d01965b214209b2bce0d40d20 } is a cherrypick
+{ 910a37d843b0a971998ead61150686e782fe3b57 -> e8f2624f248ce13fa02e0de2bdf8ccc86c3e2d6f }
+Partial Cherry-pick commits SHA are -> 
+0f44dd818671d87d01965b214209b2bce0d40d20 - cherrypick - e8f2624f248ce13fa02e0de2bdf8ccc86c3e2d6f
+---> The cherrypicked commit sha is - 0f44dd818671d87d01965b214209b2bce0d40d20
+Commit message - rails 4 no warning for friendly model in redirect_to (friendly_id gem compatibility)
+---> The original commit sha is - e8f2624f248ce13fa02e0de2bdf8ccc86c3e2d6f
+Commit message - Merge pull request #400 from aj0strow/rails4-friendlyid
+
+rails 4 no warning for friendly model in redirect_to (friendly_id gem compatibility)
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_redirect.rb
+test/apps/rails4/app/controllers/friendly_controller.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ 05e68fd9025e0a0c729fb1b580866150f214cf24 -> ae77652320abf4a365e0108ed16f0430e2b0bbff } is a cherrypick
+{ b028fade7093213994cd305c253a208696fb463a -> 915dfaeda85aec68cddee8724c716c7fed552838 }
+Partial Cherry-pick commits SHA are -> 
+ae77652320abf4a365e0108ed16f0430e2b0bbff - cherrypick - 915dfaeda85aec68cddee8724c716c7fed552838
+---> The cherrypicked commit sha is - ae77652320abf4a365e0108ed16f0430e2b0bbff
+Commit message - Remove fuzzy matching for CheckModelAttrAccessible
+
+in practice, this ends up with annoying false positives
+---> The original commit sha is - 915dfaeda85aec68cddee8724c716c7fed552838
+Commit message - Merge pull request #387 from ssendev/patch-1
+
+Add option to set table width limit in text output
+---> The files with partial_cherrypicks are:-
+CHANGES
+lib/brakeman/checks/base_check.rb
+lib/brakeman/checks/check_content_tag.rb
+lib/brakeman/checks/check_cross_site_scripting.rb
+lib/brakeman/checks/check_link_to.rb
+lib/brakeman/checks/check_model_attr_accessible.rb
+lib/brakeman/version.rb
+lib/brakeman/warning_codes.rb
+test/apps/rails3.1/app/controllers/other_controller.rb
+test/apps/rails3.1/app/models/account.rb
+test/apps/rails3.1/app/views/other/test_model_in_haml.html.haml
+test/tests/rails31.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ ad1c7ad719baff71eed65463b7f1f22ee85dee28 -> 949b51048e9e7559f1abdb4bd93b0f12afffae70 } is a cherrypick
+{ 6a0218cddfdc287da13b5f86b59c7bce8274018f -> 684a4190117d16bf278818ba66f6fd42efb91b80 }
+Partial Cherry-pick commits SHA are -> 
+949b51048e9e7559f1abdb4bd93b0f12afffae70 - cherrypick - 684a4190117d16bf278818ba66f6fd42efb91b80
+---> The cherrypicked commit sha is - 949b51048e9e7559f1abdb4bd93b0f12afffae70
+Commit message - Use different warning code for ModelAttrAccessible
+---> The original commit sha is - 684a4190117d16bf278818ba66f6fd42efb91b80
+Commit message - Merge branch 'attr_accessible_fixes'
+
+Conflicts:
+	lib/brakeman/checks/check_model_attr_accessible.rb
+---> The files with partial_cherrypicks are:-
+lib/brakeman/warning_codes.rb
+test/tests/rails32.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ d9210690aa08e201b065e57ad9025bc045dd9301 -> 3d21512772edd3e8366241b57b1a9386d70bdc46 } is a cherrypick
+{ 7c32b02b832b6e00afabcf22636d0699c3c4ce03 -> 4b8faa142e99a44f04793dbbfacc30e4ce9dac23 }
+Partial Cherry-pick commits SHA are -> 
+3d21512772edd3e8366241b57b1a9386d70bdc46 - cherrypick - 4b8faa142e99a44f04793dbbfacc30e4ce9dac23
+---> The cherrypicked commit sha is - 3d21512772edd3e8366241b57b1a9386d70bdc46
+Commit message - Also ignore warnings in tabs output
+---> The original commit sha is - 4b8faa142e99a44f04793dbbfacc30e4ce9dac23
+Commit message - Merge pull request #374 from presidentbeef/ignore_warnings_in_tab_output
+
+Ignore warnings in tabs output if configured to do so
+---> The files with partial_cherrypicks are:-
+lib/brakeman/report/report_tabs.rb
+test/tests/tabs_output.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ 808f414e5eb3a94c49b2a963b0d2e5266c6f095b -> 57f6f4f2078c010a04f7041d7cfd4e4faa324389 } is a cherrypick
+{ 72abb24bf7df98901bba2e174079e3ebded818f9 -> 37dfabdd0d2010b4fa5abba66be3c9fcd5c9b7a2 }
+Partial Cherry-pick commits SHA are -> 
+57f6f4f2078c010a04f7041d7cfd4e4faa324389 - cherrypick - 37dfabdd0d2010b4fa5abba66be3c9fcd5c9b7a2
+---> The cherrypicked commit sha is - 57f6f4f2078c010a04f7041d7cfd4e4faa324389
+Commit message - Add Tracker#warnings to simplify warning access
+---> The original commit sha is - 37dfabdd0d2010b4fa5abba66be3c9fcd5c9b7a2
+Commit message - Merge pull request #365 from presidentbeef/add_tracker_warnings
+
+Add Tracker#warnings to simplify warning access
+---> The files with partial_cherrypicks are:-
+bin/brakeman
+lib/brakeman/report/report_base.rb
+lib/brakeman/tracker.rb
+test/tests/differ.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ 78806ba73b87ace62947c50b4a65f8f94f20db33 -> 0f1ad30236168ba3566f76548dc42274393e5b4c } is a cherrypick
+{ 7b88d896dcbea674adca1872d2868f49fb70b3c5 -> 72abb24bf7df98901bba2e174079e3ebded818f9 }
+Partial Cherry-pick commits SHA are -> 
+0f1ad30236168ba3566f76548dc42274393e5b4c - cherrypick - 72abb24bf7df98901bba2e174079e3ebded818f9
+---> The cherrypicked commit sha is - 0f1ad30236168ba3566f76548dc42274393e5b4c
+Commit message - Output JSON diff to file if -o option is used
+
+and also output regular reports for other -o options
+---> The original commit sha is - 72abb24bf7df98901bba2e174079e3ebded818f9
+Commit message - Merge pull request #363 from presidentbeef/json_diff_output
+
+Output JSON diff to file if -o option is used
+---> The files with partial_cherrypicks are:-
+bin/brakeman
+lib/brakeman/options.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ 0f1ad30236168ba3566f76548dc42274393e5b4c -> 808f414e5eb3a94c49b2a963b0d2e5266c6f095b } is a cherrypick
+{ 80002f80c41492bb54a8238abf3d80d3ea6216da -> 47fa69abb430bf8b1eec387834567a1786ea0546 }
+Partial Cherry-pick commits SHA are -> 
+808f414e5eb3a94c49b2a963b0d2e5266c6f095b - cherrypick - 47fa69abb430bf8b1eec387834567a1786ea0546
+---> The cherrypicked commit sha is - 808f414e5eb3a94c49b2a963b0d2e5266c6f095b
+Commit message - Clone mixin methods before processing
+
+in case they are mixed into multiple controllers
+---> The original commit sha is - 47fa69abb430bf8b1eec387834567a1786ea0546
+Commit message - Merge branch 'dupe_mixins_before_processing'
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/controller_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ d7400d01da1eaacd56ccbf2ca595503f6b3ed4b4 -> 329afa1a2cb74ea9ffb5360f33401e746f60da21 } is a cherrypick
+{ 92265cd4fc068b2f1e6b00a526a5372da3f56c7c -> 739677efc95ce1adb8327975bf3e105e2f18c185 }
+Partial Cherry-pick commits SHA are -> 
+329afa1a2cb74ea9ffb5360f33401e746f60da21 - cherrypick - 739677efc95ce1adb8327975bf3e105e2f18c185
+---> The cherrypicked commit sha is - 329afa1a2cb74ea9ffb5360f33401e746f60da21
+Commit message - Code cleanup
+ - Removed brackets where possible.
+ - No more assignments in if-statements
+ - Refactored out unsafe argument array checking
+---> The original commit sha is - 739677efc95ce1adb8327975bf3e105e2f18c185
+Commit message - Merge pull request #356 from barttenbrinke/check_sql_refactor
+
+Cleanup of CheckSQL because of the F rating in code climate
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_sql.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ e3dbbbcdfc0cab97176ca9d779a2d56d021ab2df -> 369e8ce0b06cd156769fe301760ff753188cc84b } is a cherrypick
+{ 37f1559325a851df1cd69bbb60c85feb2b1e3031 -> c99208a35bffc115cb122e2c127dcfe089f9f715 }
+Partial Cherry-pick commits SHA are -> 
+369e8ce0b06cd156769fe301760ff753188cc84b - cherrypick - c99208a35bffc115cb122e2c127dcfe089f9f715
+---> The cherrypicked commit sha is - 369e8ce0b06cd156769fe301760ff753188cc84b
+Commit message - Fix output format detection to be more strict again
+
+and also -f should override detection
+---> The original commit sha is - c99208a35bffc115cb122e2c127dcfe089f9f715
+Commit message - Merge pull request #346 from presidentbeef/stricter_extension_format
+
+Fix output format detection to be more strict again
+---> The files with partial_cherrypicks are:-
+lib/brakeman.rb
+lib/brakeman/report.rb
+test/tests/report_generation.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ 068511682724af23f8d473a80d06a0b0ad5710da -> 674c25639627b845ec801803fb5cd26d79aa3e94 } is a cherrypick
+{ 3c29d287ac0394cf6c25491bf39ddb274167b9a2 -> 45f563e99e5f320b0b423056239ee4c8a528cff9 }
+Partial Cherry-pick commits SHA are -> 
+674c25639627b845ec801803fb5cd26d79aa3e94 - cherrypick - 45f563e99e5f320b0b423056239ee4c8a528cff9
+---> The cherrypicked commit sha is - 674c25639627b845ec801803fb5cd26d79aa3e94
+Commit message - Update to Ruby2Ruby 2.0.5 and override process_defn
+---> The original commit sha is - 45f563e99e5f320b0b423056239ee4c8a528cff9
+Commit message - Merge branch 'fix_process_defn_in_ruby2ruby'
+---> The files with partial_cherrypicks are:-
+brakeman.gemspec
+lib/brakeman/processors/output_processor.rb
+test/test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ 0faded5b8c4a7b360b18648c601aaed888e4ef00 -> ed7184d09fafd296288851a2aaa5a39cab83d2e6 } is a cherrypick
+{ b0daabcd4ff4453c7e69614a483b700193856a97 -> 78beb115d7cd2c9119e8acffedee66f51af40fd6 }
+Partial Cherry-pick commits SHA are -> 
+ed7184d09fafd296288851a2aaa5a39cab83d2e6 - cherrypick - 78beb115d7cd2c9119e8acffedee66f51af40fd6
+---> The cherrypicked commit sha is - ed7184d09fafd296288851a2aaa5a39cab83d2e6
+Commit message - Update CHANGES
+
+Medium confidence for mass assignment to attr_protected models
+---> The original commit sha is - 78beb115d7cd2c9119e8acffedee66f51af40fd6
+Commit message - Merge branch 'medium_conf_on_att_protected_mass_assign'
+
+Make mass assignment to attr_protected model medium confidence
+
+Conflicts:
+	CHANGES
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_mass_assignment.rb
+test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ d953e82c6db779994a0389d77b5afc0949ecfbca -> ffcaf6146487d3f44a19be611f103b146b51f7e1 } is a cherrypick
+{ ef71ac497e46c68fce34b9c9d068dd78f2cbfc97 -> d7f00569024a7132e650656a702a2e8a0e4db1a7 }
+Partial Cherry-pick commits SHA are -> 
+ffcaf6146487d3f44a19be611f103b146b51f7e1 - cherrypick - d7f00569024a7132e650656a702a2e8a0e4db1a7
+---> The cherrypicked commit sha is - ffcaf6146487d3f44a19be611f103b146b51f7e1
+Commit message - Clean up CVE checks/messages in CheckSQL
+---> The original commit sha is - d7f00569024a7132e650656a702a2e8a0e4db1a7
+Commit message - Merge branch 'cleanup_sqli_cves'
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_sql.rb
+test/tests/test_rails2.rb
+test/tests/test_rails3.rb
+test/tests/test_rails31.rb
+test/tests/test_rails32.rb
+test/tests/test_rails_with_xss_plugin.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ 9c3854b357a3e69e9f223a4011525815ea38edfc -> d953e82c6db779994a0389d77b5afc0949ecfbca } is a cherrypick
+{ d8bb81105e1b669999bd44a0cb1096417bed1715 -> 96c5bd185eb85bdbbf0f3fe567bf7568807cf29b }
+Partial Cherry-pick commits SHA are -> 
+d953e82c6db779994a0389d77b5afc0949ecfbca - cherrypick - 96c5bd185eb85bdbbf0f3fe567bf7568807cf29b
+---> The cherrypicked commit sha is - d953e82c6db779994a0389d77b5afc0949ecfbca
+Commit message - Handle stabby lambdas with no arguments
+
+should fix #331
+---> The original commit sha is - 96c5bd185eb85bdbbf0f3fe567bf7568807cf29b
+Commit message - Merge branch 'block_args_for_stabby_lambdas'
+---> The files with partial_cherrypicks are:-
+lib/ruby_parser/bm_sexp.rb
+test/tests/test_sexp.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ b50cd3d1345360d2fbb1882c1a187ae0346ab290 -> 5fb2d315ae267e4a4613d3456b421f82994955c8 } is a cherrypick
+{ 6e9554cff32e5c628d29c2f4125056e1e6c7abcb -> d60d5d86d293a7f03c51318693d0c09a94d3df3d }
+Partial Cherry-pick commits SHA are -> 
+5fb2d315ae267e4a4613d3456b421f82994955c8 - cherrypick - d60d5d86d293a7f03c51318693d0c09a94d3df3d
+---> The cherrypicked commit sha is - 5fb2d315ae267e4a4613d3456b421f82994955c8
+Commit message - add test to reproduce #300 and fixed with change load_config method
+---> The original commit sha is - d60d5d86d293a7f03c51318693d0c09a94d3df3d
+Commit message - Merge remote-tracking branch 'zlx/zlx/refactor_brakeman'
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ 1fe36bc4c67953c2de24edf9d7a0103526baa23d -> 90ce517e75d3ad16a0f7fdf3b7546141bbda350c } is a cherrypick
+{ 26ea28f62301dd5d4ac6d127b4734bccd865748b -> a71b47deb61b23abae97b2e6ee2c6bb45117f01b }
+Partial Cherry-pick commits SHA are -> 
+90ce517e75d3ad16a0f7fdf3b7546141bbda350c - cherrypick - a71b47deb61b23abae97b2e6ee2c6bb45117f01b
+---> The cherrypicked commit sha is - 90ce517e75d3ad16a0f7fdf3b7546141bbda350c
+Commit message - added test for --only-files and --skip-files options
+---> The original commit sha is - a71b47deb61b23abae97b2e6ee2c6bb45117f01b
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_cherrypicks are:-
+lib/brakeman/options.rb
+test/tests/test_only_files_option.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ b2ff5d26bdf24cbd59dd0ed28353f69ce20a1918 -> cd485d801f4033a46962b190b2dc3b65d64cd9bb } is a cherrypick
+{ 26ea28f62301dd5d4ac6d127b4734bccd865748b -> a71b47deb61b23abae97b2e6ee2c6bb45117f01b }
+Partial Cherry-pick commits SHA are -> 
+cd485d801f4033a46962b190b2dc3b65d64cd9bb - cherrypick - a71b47deb61b23abae97b2e6ee2c6bb45117f01b
+---> The cherrypicked commit sha is - cd485d801f4033a46962b190b2dc3b65d64cd9bb
+Commit message - refactor selecting paths so it works in 1.8.7
+---> The original commit sha is - a71b47deb61b23abae97b2e6ee2c6bb45117f01b
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_cherrypicks are:-
+lib/brakeman/app_tree.rb
+lib/brakeman/options.rb
+test/tests/test_only_files_option.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ fc626c7761b160d82b1444f8025f08acb928a956 -> c76a2f1505281719d79a2e43a6b1f23d77fdb119 } is a cherrypick
+{ 26ea28f62301dd5d4ac6d127b4734bccd865748b -> a71b47deb61b23abae97b2e6ee2c6bb45117f01b }
+Partial Cherry-pick commits SHA are -> 
+c76a2f1505281719d79a2e43a6b1f23d77fdb119 - cherrypick - a71b47deb61b23abae97b2e6ee2c6bb45117f01b
+---> The cherrypicked commit sha is - c76a2f1505281719d79a2e43a6b1f23d77fdb119
+Commit message - Merge pull request #316 from ehlertij/only_files_option
+
+Added --only-files option to specify specific paths to scan
+---> The original commit sha is - a71b47deb61b23abae97b2e6ee2c6bb45117f01b
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_cherrypicks are:-
+lib/brakeman/app_tree.rb
+lib/brakeman/options.rb
+test/tests/test_only_files_option.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ f79762ee9ba62c74da3fc973ce935ff1a5838c07 -> 4b70b06a0f1ec2ee44a80f4b88564aa32a070732 } is a cherrypick
+{ 51890407ac2a3fb45f904663afd242b7fbd5c66d -> fc626c7761b160d82b1444f8025f08acb928a956 }
+Partial Cherry-pick commits SHA are -> 
+4b70b06a0f1ec2ee44a80f4b88564aa32a070732 - cherrypick - fc626c7761b160d82b1444f8025f08acb928a956
+---> The cherrypicked commit sha is - 4b70b06a0f1ec2ee44a80f4b88564aa32a070732
+Commit message - use codeclimate status image replace codeclimate logo
+---> The original commit sha is - fc626c7761b160d82b1444f8025f08acb928a956
+Commit message - Merge branch 'master' into better_file_name_handling_for_warnings
+
+Conflicts:
+	test/tests/test_rails3.rb
+---> The files with partial_cherrypicks are:-
+README.md
+lib/brakeman.rb
+lib/brakeman/checks/check_cross_site_scripting.rb
+lib/brakeman/checks/check_model_attributes.rb
+lib/brakeman/processors/controller_processor.rb
+test/apps/rails2/app/views/home/_models.html.erb
+test/apps/rails2/app/views/home/test_model.html.erb
+test/apps/rails3.2/app/views/users/show.html.erb
+test/apps/rails3/app/controllers/nested_controller.rb
+test/apps/rails3/app/views/whatever/wherever/nested/so_nested.html.erb
+test/tests/test_rails2.rb
+test/tests/test_rails3.rb
+test/tests/test_rails32.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ 1f3a5d2a95f022cabcb85ab03b5015791e302fc5 -> 020708ff7ddd0e91cb82d5b39054e430cc16b0bd } is a cherrypick
+{ d9269963ae3955b274c88cf360aa2ab9d99cc2d4 -> b18c5b2758fd512c45c21f81e4c2d1210079ff35 }
+Partial Cherry-pick commits SHA are -> 
+020708ff7ddd0e91cb82d5b39054e430cc16b0bd - cherrypick - b18c5b2758fd512c45c21f81e4c2d1210079ff35
+---> The cherrypicked commit sha is - 020708ff7ddd0e91cb82d5b39054e430cc16b0bd
+Commit message - Merge pull request #309 from presidentbeef/to_json_false_positives
+
+Fix `to_json` false positives
+---> The original commit sha is - b18c5b2758fd512c45c21f81e4c2d1210079ff35
+Commit message - Merge pull request #312 from presidentbeef/dont_warn_on_id
+
+Don't warn on id calls
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_cross_site_scripting.rb
+test/apps/rails3.2/app/views/users/show.html.erb
+test/tests/test_rails32.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ f7f4707862660ef48f2eeaa650793678a09918fd -> ceaccd739e2448dfb746e9dd0ea9e74dd2f52c90 } is a cherrypick
+{ 398807888be9e0d8d1c8941d521cedf541dce9e7 -> cc6a55dbfb67add23535bd3637fc744031c95c92 }
+Partial Cherry-pick commits SHA are -> 
+ceaccd739e2448dfb746e9dd0ea9e74dd2f52c90 - cherrypick - cc6a55dbfb67add23535bd3637fc744031c95c92
+---> The cherrypicked commit sha is - ceaccd739e2448dfb746e9dd0ea9e74dd2f52c90
+Commit message - Oops, test case
+---> The original commit sha is - cc6a55dbfb67add23535bd3637fc744031c95c92
+Commit message - Merge branch 'allow_slice_or_only_in_mass_assign'
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_mass_assignment.rb
+test/apps/rails3/app/controllers/home_controller.rb
+test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ 4a37b22511f95ec1d88649ea8cb5744e8746260e -> 13361642968fcb590662fd1ae7f8026573e3e3ac } is a cherrypick
+{ 371ac1b8de421459a27c7d16ec40e49958e5b9a9 -> 398807888be9e0d8d1c8941d521cedf541dce9e7 }
+Partial Cherry-pick commits SHA are -> 
+13361642968fcb590662fd1ae7f8026573e3e3ac - cherrypick - 398807888be9e0d8d1c8941d521cedf541dce9e7
+---> The cherrypicked commit sha is - 13361642968fcb590662fd1ae7f8026573e3e3ac
+Commit message - Merge branch 'master' into gitignore_secret_token
+---> The original commit sha is - 398807888be9e0d8d1c8941d521cedf541dce9e7
+Commit message - Merge branch 'gitignore_secret_token'
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_session_settings.rb
+lib/brakeman/scanner.rb
+test/apps/rails3/.gitignore
+test/apps/rails4/.gitignore
+test/apps/rails4/Gemfile
+test/apps/rails4/README.rdoc
+test/apps/rails4/Rakefile
+test/apps/rails4/app/assets/javascripts/application.js
+test/apps/rails4/app/assets/stylesheets/application.css
+test/apps/rails4/app/controllers/application_controller.rb
+test/apps/rails4/app/helpers/application_helper.rb
+test/apps/rails4/app/views/layouts/application.html.erb
+test/apps/rails4/bin/bundle
+test/apps/rails4/bin/rails
+test/apps/rails4/bin/rake
+test/apps/rails4/config.ru
+test/apps/rails4/config/application.rb
+test/apps/rails4/config/boot.rb
+test/apps/rails4/config/database.yml
+test/apps/rails4/config/environment.rb
+test/apps/rails4/config/environments/development.rb
+test/apps/rails4/config/environments/production.rb
+test/apps/rails4/config/environments/test.rb
+test/apps/rails4/config/initializers/backtrace_silencers.rb
+test/apps/rails4/config/initializers/filter_parameter_logging.rb
+test/apps/rails4/config/initializers/inflections.rb
+test/apps/rails4/config/initializers/mime_types.rb
+test/apps/rails4/config/initializers/secret_token.rb
+test/apps/rails4/config/initializers/session_store.rb
+test/apps/rails4/config/initializers/wrap_parameters.rb
+test/apps/rails4/config/locales/en.yml
+test/apps/rails4/config/routes.rb
+test/apps/rails4/db/seeds.rb
+test/apps/rails4/public/404.html
+test/apps/rails4/public/422.html
+test/apps/rails4/public/500.html
+test/apps/rails4/public/robots.txt
+test/apps/rails4/test/test_helper.rb
+test/tests/test_rails32.rb
+test/tests/test_rails4.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ c064686ed483701490707f9598984eb51507c8c9 -> 68e409028f29481bc4f87211f6708b3f109be301 } is a cherrypick
+{ 8b4480bdc6b96851302f7dc2fcc6e8d818a9e61e -> 371ac1b8de421459a27c7d16ec40e49958e5b9a9 }
+Partial Cherry-pick commits SHA are -> 
+68e409028f29481bc4f87211f6708b3f109be301 - cherrypick - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+---> The cherrypicked commit sha is - 68e409028f29481bc4f87211f6708b3f109be301
+Commit message - Remove unused "line" argument from set_value
+---> The original commit sha is - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+Commit message - Merge branch 'assignments_in_else_branch'
+---> The files with partial_cherrypicks are:-
+test/tests/test_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 49 is -> 
+{ 7495a44f89491ca0936cf5c9a7106f9778b73187 -> 73ae21db9b5b5bfe0f67de601e741855c3eedb0e } is a cherrypick
+{ 8b4480bdc6b96851302f7dc2fcc6e8d818a9e61e -> 371ac1b8de421459a27c7d16ec40e49958e5b9a9 }
+Partial Cherry-pick commits SHA are -> 
+73ae21db9b5b5bfe0f67de601e741855c3eedb0e - cherrypick - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+---> The cherrypicked commit sha is - 73ae21db9b5b5bfe0f67de601e741855c3eedb0e
+Commit message - Clarify magic number for if branches
+---> The original commit sha is - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+Commit message - Merge branch 'assignments_in_else_branch'
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/alias_processor.rb
+test/tests/test_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 50 is -> 
+{ ef57245fb65c05256205bac667bb61e8b7ed1ee2 -> 620e1a7bd6057f400bfe254fb8ddea76eee7ee24 } is a cherrypick
+{ 8b4480bdc6b96851302f7dc2fcc6e8d818a9e61e -> 371ac1b8de421459a27c7d16ec40e49958e5b9a9 }
+Partial Cherry-pick commits SHA are -> 
+620e1a7bd6057f400bfe254fb8ddea76eee7ee24 - cherrypick - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+---> The cherrypicked commit sha is - 620e1a7bd6057f400bfe254fb8ddea76eee7ee24
+Commit message - Merge branch 'master' into assignments_in_else_branch
+---> The original commit sha is - 371ac1b8de421459a27c7d16ec40e49958e5b9a9
+Commit message - Merge branch 'assignments_in_else_branch'
+---> The files with partial_cherrypicks are:-
+test/tests/test_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 51 is -> 
+{ 40564f18242032a397c9988b723d83419241f820 -> f7f4707862660ef48f2eeaa650793678a09918fd } is a cherrypick
+{ ceaccd739e2448dfb746e9dd0ea9e74dd2f52c90 -> 4a37b22511f95ec1d88649ea8cb5744e8746260e }
+Partial Cherry-pick commits SHA are -> 
+f7f4707862660ef48f2eeaa650793678a09918fd - cherrypick - 4a37b22511f95ec1d88649ea8cb5744e8746260e
+---> The cherrypicked commit sha is - f7f4707862660ef48f2eeaa650793678a09918fd
+Commit message - Fix gemspec
+---> The original commit sha is - 4a37b22511f95ec1d88649ea8cb5744e8746260e
+Commit message - Merge branch 'master' into allow_slice_or_only_in_mass_assign
+---> The files with partial_cherrypicks are:-
+brakeman.gemspec
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 52 is -> 
+{ 15b2374170d74a900d83fc418b403520dccdd3bb -> df9c7c9e49545ddb7dc410bad09281fabb8238c7 } is a cherrypick
+{ d42af6cbafdbf4ac1df2bf31308ea7beacd3df29 -> 7495a44f89491ca0936cf5c9a7106f9778b73187 }
+Partial Cherry-pick commits SHA are -> 
+df9c7c9e49545ddb7dc410bad09281fabb8238c7 - cherrypick - 7495a44f89491ca0936cf5c9a7106f9778b73187
+---> The cherrypicked commit sha is - df9c7c9e49545ddb7dc410bad09281fabb8238c7
+Commit message - Add check for unsafe symbol creation
+---> The original commit sha is - 7495a44f89491ca0936cf5c9a7106f9778b73187
+Commit message - Merge pull request #296 from HonoreDB/master
+
+Add check for unsafe symbol creation
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_symbol_dos.rb
+lib/brakeman/processors/lib/find_all_calls.rb
+lib/brakeman/warning_codes.rb
+test/apps/rails2/app/controllers/application_controller.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 53 is -> 
+{ 63a7151017d66dd6113d19a7dc13cbcb4ba7fcf5 -> 6a96c55003404575c8098eaa2a3b41af8b472770 } is a cherrypick
+{ 258a80624b7e6d07e8028a5424998960cb3b4682 -> 150db9cb6dd6927812a303ad11b83074bf6faca2 }
+Partial Cherry-pick commits SHA are -> 
+6a96c55003404575c8098eaa2a3b41af8b472770 - cherrypick - 150db9cb6dd6927812a303ad11b83074bf6faca2
+---> The cherrypicked commit sha is - 6a96c55003404575c8098eaa2a3b41af8b472770
+Commit message - Convert simple `if` to `or` on assignment
+---> The original commit sha is - 150db9cb6dd6927812a303ad11b83074bf6faca2
+Commit message - Merge branch 'assignment_of_if_results' into assignments_in_else_branch
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/alias_processor.rb
+test/tests/test_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 54 is -> 
+{ 1de83e937821eaf7050ebf0c688d638785f5c14d -> c3329e7c5a50be8d5625060ca5132a85882324b4 } is a cherrypick
+{ 3638736d22a280529aa903961bca0b8f57075ee4 -> 8cb0ed609cea743baf8ca83e6a7be8a0189086a5 }
+Partial Cherry-pick commits SHA are -> 
+c3329e7c5a50be8d5625060ca5132a85882324b4 - cherrypick - 8cb0ed609cea743baf8ca83e6a7be8a0189086a5
+---> The cherrypicked commit sha is - c3329e7c5a50be8d5625060ca5132a85882324b4
+Commit message - Don't warn when calling send on user input
+
+We have warnings for use of constantize and for using
+send/try/etc with user input for the method name.
+---> The original commit sha is - 8cb0ed609cea743baf8ca83e6a7be8a0189086a5
+Commit message - Merge pull request #285 from presidentbeef/no_warn_on_dangerous_send_to_user_input
+
+Don't warn when calling send on user input
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_send.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 55 is -> 
+{ 3308b117f77406ddd9b9aa93b93f12f3d2c34d3e -> 3177630f84a2fdcb52aa4e84dc1c7e5f72834de6 } is a cherrypick
+{ 3403a9bfc4b69bb86762e4c8f0eec1d51fdd080b -> e290177727294e64785647a9b57589ba38d01b8f }
+Partial Cherry-pick commits SHA are -> 
+3177630f84a2fdcb52aa4e84dc1c7e5f72834de6 - cherrypick - e290177727294e64785647a9b57589ba38d01b8f
+---> The cherrypicked commit sha is - 3177630f84a2fdcb52aa4e84dc1c7e5f72834de6
+Commit message - prevent require sequence error
+---> The original commit sha is - e290177727294e64785647a9b57589ba38d01b8f
+Commit message - Merge pull request #282 from obduk/tidy_output
+
+Don't show warnings and errors tables if empty
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/slim_template_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 56 is -> 
+{ afc6c0182bfdd5dad3c141b8683e0b170337e174 -> 548da712b75d6ba6260860e688a7a8c89f063ba4 } is a cherrypick
+{ 9b95be38b32e0ca38098d3c8b56723e85d820376 -> cfbe0009bc50f3759e65cfa0ea06e6bc0fbf3083 }
+Partial Cherry-pick commits SHA are -> 
+548da712b75d6ba6260860e688a7a8c89f063ba4 - cherrypick - cfbe0009bc50f3759e65cfa0ea06e6bc0fbf3083
+---> The cherrypicked commit sha is - 548da712b75d6ba6260860e688a7a8c89f063ba4
+Commit message - More fixes for operations on or expressions
+---> The original commit sha is - cfbe0009bc50f3759e65cfa0ea06e6bc0fbf3083
+Commit message - Merge pull request #270 from presidentbeef/fix_multiple_assignments_in_if_statements
+
+Fix multiple assignments in if statements
+---> The files with partial_cherrypicks are:-
+test/tests/test_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 57 is -> 
+{ 474b80d1f53ce220554a44f9a9e7c428511b42b6 -> afc6c0182bfdd5dad3c141b8683e0b170337e174 } is a cherrypick
+{ 770ad73f515ddbb13eb61bd1685ed878de7b012d -> 9b95be38b32e0ca38098d3c8b56723e85d820376 }
+Partial Cherry-pick commits SHA are -> 
+afc6c0182bfdd5dad3c141b8683e0b170337e174 - cherrypick - 9b95be38b32e0ca38098d3c8b56723e85d820376
+---> The cherrypicked commit sha is - afc6c0182bfdd5dad3c141b8683e0b170337e174
+Commit message - Expand Haml dependency to 4.x
+
+closes #263
+---> The original commit sha is - 9b95be38b32e0ca38098d3c8b56723e85d820376
+Commit message - Merge pull request #269 from presidentbeef/support_haml_4
+
+Expand Haml dependency to 4.x
+---> The files with partial_cherrypicks are:-
+brakeman.gemspec
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 58 is -> 
+{ 9c0241ea768a67ae1107d488f401c64915b98263 -> 2397f3b16f62f23f6790a5295ee3e0ce5fed7483 } is a cherrypick
+{ 50e4ec56642b8e31692cd57c937763579ac74c3f -> d80eae743d924ee820c17d87c793ab53a26b5a86 }
+Partial Cherry-pick commits SHA are -> 
+2397f3b16f62f23f6790a5295ee3e0ce5fed7483 - cherrypick - d80eae743d924ee820c17d87c793ab53a26b5a86
+---> The cherrypicked commit sha is - 2397f3b16f62f23f6790a5295ee3e0ce5fed7483
+Commit message - Scroll errors into view when showing/hiding
+---> The original commit sha is - d80eae743d924ee820c17d87c793ab53a26b5a86
+Commit message - Merge pull request #267 from presidentbeef/jump_to_errors
+
+Scroll errors into view when showing/hiding
+---> The files with partial_cherrypicks are:-
+lib/brakeman/templates/error_overview.html.erb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 59 is -> 
+{ a3fc170ba6b425b3723ab0a1ce9a59a30608f93c -> 1870cfe1bc6dabe46aca6813beabeba31fdbc915 } is a cherrypick
+{ 620b1c5d460867cea0cb4b68c7df7547cd4ccbec -> f9eda42235d0c8d7d5b746ed476a44c255834477 }
+Partial Cherry-pick commits SHA are -> 
+1870cfe1bc6dabe46aca6813beabeba31fdbc915 - cherrypick - f9eda42235d0c8d7d5b746ed476a44c255834477
+---> The cherrypicked commit sha is - 1870cfe1bc6dabe46aca6813beabeba31fdbc915
+Commit message - Remove i18n dependency
+
+it was for ActiveRecord
+---> The original commit sha is - f9eda42235d0c8d7d5b746ed476a44c255834477
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_cherrypicks are:-
+brakeman.gemspec
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 60 is -> 
+{ a8993e8e1cfe1b5d633850d89ab0aa8fb1faa512 -> be0ca4b2e71d88a1d972ad132d6581baf23ad890 } is a cherrypick
+{ 8efef83d661961d0db098dc4205d2efe82fb31c4 -> b524f11e1e847ab5d26e0d5b8cf84d564dcab8ab }
+Partial Cherry-pick commits SHA are -> 
+be0ca4b2e71d88a1d972ad132d6581baf23ad890 - cherrypick - b524f11e1e847ab5d26e0d5b8cf84d564dcab8ab
+---> The cherrypicked commit sha is - be0ca4b2e71d88a1d972ad132d6581baf23ad890
+Commit message - Fix CheckSessionSettings for Rails 3
+
+because I was dumb and hard-coded the name
+of the app (i.e., MyApp::Application.config)
+---> The original commit sha is - b524f11e1e847ab5d26e0d5b8cf84d564dcab8ab
+Commit message - Fix CheckSessionSettings for Rails 3
+
+because I was dumb and hard-coded the name
+of the app (i.e., MyApp::Application.config)
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_session_settings.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 61 is -> 
+{ 2684b1581b1bab45a09ad6e9c7b8ec1cd3048910 -> edcd9908ee7df0a9b6b35f269e00bd23ed45863a } is a cherrypick
+{ ab0f5a3a57d0047a3a9a7a7cdf48e15a0e831d39 -> b141fe23ea420adc0e1a292e63e89aba4de622d7 }
+Partial Cherry-pick commits SHA are -> 
+edcd9908ee7df0a9b6b35f269e00bd23ed45863a - cherrypick - b141fe23ea420adc0e1a292e63e89aba4de622d7
+---> The cherrypicked commit sha is - edcd9908ee7df0a9b6b35f269e00bd23ed45863a
+Commit message - Add test for modifying existing ivar
+
+in FindReturnValue
+---> The original commit sha is - b141fe23ea420adc0e1a292e63e89aba4de622d7
+Commit message - Merge branch 'master' into simple_helper_scanning
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/lib/find_return_value.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/apps/rails3.1/app/views/users/test_assign_twice.html.erb
+test/apps/rails3.1/app/views/users/test_less_simple_helpers.html.erb
+test/apps/rails3.1/app/views/users/test_simple_helper.html.erb
+test/apps/rails3.1/config/routes.rb
+test/tests/test_find_return_value.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 62 is -> 
+{ b6801ebf33755a182382ee5d9e8ab4be57bbc20a -> 386b46f2afd3bf6b9d66a948e8731f1eeb71469d } is a cherrypick
+{ edcd9908ee7df0a9b6b35f269e00bd23ed45863a -> 0339f56cbc551bf8e27b22ae9bc98d9cc2e72461 }
+Partial Cherry-pick commits SHA are -> 
+386b46f2afd3bf6b9d66a948e8731f1eeb71469d - cherrypick - 0339f56cbc551bf8e27b22ae9bc98d9cc2e72461
+---> The cherrypicked commit sha is - 386b46f2afd3bf6b9d66a948e8731f1eeb71469d
+Commit message - Set `-a` to be default
+---> The original commit sha is - 0339f56cbc551bf8e27b22ae9bc98d9cc2e72461
+Commit message - Merge branch 'master' into simple_helper_scanning
+
+Conflicts:
+	test/tests/test_rails31.rb
+---> The files with partial_cherrypicks are:-
+README.md
+lib/brakeman/checks/base_check.rb
+lib/brakeman/checks/check_cross_site_scripting.rb
+lib/brakeman/checks/check_link_to.rb
+lib/brakeman/checks/check_link_to_href.rb
+lib/brakeman/checks/check_mail_to.rb
+lib/brakeman/checks/check_mass_assignment.rb
+lib/brakeman/checks/check_select_tag.rb
+lib/brakeman/checks/check_select_vulnerability.rb
+lib/brakeman/checks/check_send.rb
+lib/brakeman/checks/check_session_settings.rb
+lib/brakeman/checks/check_skip_before_filter.rb
+lib/brakeman/checks/check_sql.rb
+lib/brakeman/checks/check_validation_regex.rb
+lib/brakeman/checks/check_without_protection.rb
+lib/brakeman/processors/base_processor.rb
+lib/brakeman/processors/controller_processor.rb
+lib/brakeman/processors/erb_template_processor.rb
+lib/brakeman/processors/gem_processor.rb
+lib/brakeman/processors/haml_template_processor.rb
+lib/brakeman/processors/lib/find_all_calls.rb
+lib/brakeman/processors/lib/find_call.rb
+lib/brakeman/processors/lib/processor_helper.rb
+lib/brakeman/processors/lib/rails2_route_processor.rb
+lib/brakeman/processors/lib/rails3_route_processor.rb
+lib/brakeman/processors/model_processor.rb
+lib/brakeman/processors/template_alias_processor.rb
+lib/brakeman/util.rb
+lib/ruby_parser/bm_sexp.rb
+test/apps/rails3.1/app/models/account.rb
+test/apps/rails3/app/controllers/other_controller.rb
+test/apps/rails3/app/models/bill.rb
+test/tests/test_mass_assign_disable.rb
+test/tests/test_rails3.rb
+test/tests/test_sexp.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 63 is -> 
+{ 19d08d8a859ca1308972e993704780dfb7682a9f -> efbd8bd1e4fc3c85e2c296d754ff376c128a9723 } is a cherrypick
+{ ef39a8d87aa1ffc4f537ad4c57cf0237da938e6d -> 4f70e6a5843df638d98dece1729b88fc30c47393 }
+Partial Cherry-pick commits SHA are -> 
+efbd8bd1e4fc3c85e2c296d754ff376c128a9723 - cherrypick - 4f70e6a5843df638d98dece1729b88fc30c47393
+---> The cherrypicked commit sha is - efbd8bd1e4fc3c85e2c296d754ff376c128a9723
+Commit message - Simpler regex for validator checking
+---> The original commit sha is - 4f70e6a5843df638d98dece1729b88fc30c47393
+Commit message - Merge branch 'support_newer_validates_format'
+
+Support newer validates format
+
+Conflicts:
+	test/tests/test_rails31.rb
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_validation_regex.rb
+test/apps/rails3.1/app/models/account.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 64 is -> 
+{ 5aff26e4a08bb42fa52a9d03cd444e421bd2f96a -> 4047fb08aae9b27f2ff2ab050a969ecfe496cc16 } is a cherrypick
+{ e8a787cfe4b63e01498790cd1abf7ea3d1340e0c -> ef39a8d87aa1ffc4f537ad4c57cf0237da938e6d }
+Partial Cherry-pick commits SHA are -> 
+4047fb08aae9b27f2ff2ab050a969ecfe496cc16 - cherrypick - ef39a8d87aa1ffc4f537ad4c57cf0237da938e6d
+---> The cherrypicked commit sha is - 4047fb08aae9b27f2ff2ab050a969ecfe496cc16
+Commit message - Actually link README to Travis page
+---> The original commit sha is - ef39a8d87aa1ffc4f537ad4c57cf0237da938e6d
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 65 is -> 
+{ ef27b7ab75c812e5d6674845a66f0c862cc394e0 -> d6e01317cfa942a0bb91078ecd346f10bf5b10eb } is a cherrypick
+{ 89b67145deb6684ac55c0583d7cb98eff1e7478d -> 85a2e95b4dfc34953c4f75a36c38d671a0aad61d }
+Partial Cherry-pick commits SHA are -> 
+d6e01317cfa942a0bb91078ecd346f10bf5b10eb - cherrypick - 85a2e95b4dfc34953c4f75a36c38d671a0aad61d
+---> The cherrypicked commit sha is - d6e01317cfa942a0bb91078ecd346f10bf5b10eb
+Commit message - Refactor: Introduce AppTree as facade for filesystem
+
+* Cleans up duplicated logic for skipping files
+* This is not being used for the install_rake_task behavior
+---> The original commit sha is - 85a2e95b4dfc34953c4f75a36c38d671a0aad61d
+Commit message - Merge branch 'master' into update_ruby_parser
+
+Conflicts:
+	lib/brakeman/processors/controller_processor.rb
+	lib/brakeman/scanner.rb
+---> The files with partial_cherrypicks are:-
+lib/brakeman.rb
+lib/brakeman/app_tree.rb
+lib/brakeman/checks.rb
+lib/brakeman/checks/base_check.rb
+lib/brakeman/processor.rb
+lib/brakeman/processors/controller_alias_processor.rb
+lib/brakeman/report.rb
+lib/brakeman/rescanner.rb
+lib/brakeman/tracker.rb
+lib/brakeman/util.rb
+test/tests/test_brakeman.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 66 is -> 
+{ 7f145c315c9bd1af561d8cc54fdd3f4b3bdb1475 -> a78720caf8dea82de6d6a4e980317e1a1705c21f } is a cherrypick
+{ 89b67145deb6684ac55c0583d7cb98eff1e7478d -> 85a2e95b4dfc34953c4f75a36c38d671a0aad61d }
+Partial Cherry-pick commits SHA are -> 
+a78720caf8dea82de6d6a4e980317e1a1705c21f - cherrypick - 85a2e95b4dfc34953c4f75a36c38d671a0aad61d
+---> The cherrypicked commit sha is - a78720caf8dea82de6d6a4e980317e1a1705c21f
+Commit message - Merge pull request #197 from brynary/app-tree
+
+Refactor: Introduce AppTree as facade for filesystem
+---> The original commit sha is - 85a2e95b4dfc34953c4f75a36c38d671a0aad61d
+Commit message - Merge branch 'master' into update_ruby_parser
+
+Conflicts:
+	lib/brakeman/processors/controller_processor.rb
+	lib/brakeman/scanner.rb
+---> The files with partial_cherrypicks are:-
+lib/brakeman/app_tree.rb
+lib/brakeman/checks.rb
+lib/brakeman/rescanner.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 67 is -> 
+{ d6e01317cfa942a0bb91078ecd346f10bf5b10eb -> 7f145c315c9bd1af561d8cc54fdd3f4b3bdb1475 } is a cherrypick
+{ a78720caf8dea82de6d6a4e980317e1a1705c21f -> f3afc9d578a3b011611abf03aa85182d60187e61 }
+Partial Cherry-pick commits SHA are -> 
+7f145c315c9bd1af561d8cc54fdd3f4b3bdb1475 - cherrypick - f3afc9d578a3b011611abf03aa85182d60187e61
+---> The cherrypicked commit sha is - 7f145c315c9bd1af561d8cc54fdd3f4b3bdb1475
+Commit message - Probably fix mass assign disabled detection
+---> The original commit sha is - f3afc9d578a3b011611abf03aa85182d60187e61
+Commit message - Merge branch 'master' into update_ruby_parser
+---> The files with partial_cherrypicks are:-
+lib/brakeman/app_tree.rb
+lib/brakeman/checks.rb
+lib/brakeman/checks/base_check.rb
+lib/brakeman/checks/check_cross_site_scripting.rb
+lib/brakeman/checks/check_evaluation.rb
+lib/brakeman/checks/check_execute.rb
+lib/brakeman/checks/check_link_to.rb
+lib/brakeman/checks/check_mass_assignment.rb
+lib/brakeman/checks/check_send.rb
+lib/brakeman/checks/check_session_settings.rb
+lib/brakeman/checks/check_single_quotes.rb
+lib/brakeman/checks/check_sql.rb
+lib/brakeman/checks/check_validation_regex.rb
+lib/brakeman/processor.rb
+lib/brakeman/processors/alias_processor.rb
+lib/brakeman/processors/base_processor.rb
+lib/brakeman/processors/controller_alias_processor.rb
+lib/brakeman/processors/controller_processor.rb
+lib/brakeman/processors/erb_template_processor.rb
+lib/brakeman/processors/erubis_template_processor.rb
+lib/brakeman/processors/haml_template_processor.rb
+lib/brakeman/processors/lib/find_all_calls.rb
+lib/brakeman/processors/lib/find_call.rb
+lib/brakeman/processors/lib/processor_helper.rb
+lib/brakeman/processors/lib/rails2_config_processor.rb
+lib/brakeman/processors/lib/rails2_route_processor.rb
+lib/brakeman/processors/lib/rails3_config_processor.rb
+lib/brakeman/processors/lib/rails3_route_processor.rb
+lib/brakeman/processors/lib/render_helper.rb
+lib/brakeman/processors/library_processor.rb
+lib/brakeman/processors/model_processor.rb
+lib/brakeman/processors/output_processor.rb
+lib/brakeman/processors/template_alias_processor.rb
+lib/brakeman/rescanner.rb
+lib/brakeman/scanner.rb
+lib/brakeman/util.rb
+lib/ruby_parser/bm_sexp.rb
+lib/ruby_parser/bm_sexp_processor.rb
+lib/ruby_parser/ruby18_parser.rb
+lib/ruby_parser/ruby19_parser.rb
+lib/ruby_parser/ruby_lexer.rb
+lib/ruby_parser/ruby_parser.rb
+lib/ruby_parser/ruby_parser_extras.rb
+test/apps/rails2/config/routes.rb
+test/test.rb
+test/tests/test_alias_processor.rb
+test/tests/test_brakeman.rb
+test/tests/test_output_processor.rb
+test/tests/test_rails2.rb
+test/tests/test_rails3.rb
+test/tests/test_rails31.rb
+test/tests/test_rails32.rb
+test/tests/test_sexp.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 68 is -> 
+{ 4b71c9dc799c0b1eed3e751a72419f47f68d9add -> 9b94cafeed8d03ff21912ed41d384668584d5dee } is a cherrypick
+{ b3a112acb4f787e30c3dd8138610d6c376be07fb -> e74d1aaa7ce523de1a39eb7ca41fe634a182d6fb }
+Partial Cherry-pick commits SHA are -> 
+9b94cafeed8d03ff21912ed41d384668584d5dee - cherrypick - e74d1aaa7ce523de1a39eb7ca41fe634a182d6fb
+---> The cherrypicked commit sha is - 9b94cafeed8d03ff21912ed41d384668584d5dee
+Commit message - Keep whitespace format in Warning#to_hash/#to_json
+---> The original commit sha is - e74d1aaa7ce523de1a39eb7ca41fe634a182d6fb
+Commit message - Merge pull request #192 from presidentbeef/output_brakeman_version
+
+Add Brakeman version to text and HTML reports
+---> The files with partial_cherrypicks are:-
+lib/brakeman/warning.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 69 is -> 
+{ 76352b28ba599fa5cb4a958384f9f0aa42273741 -> eb5f79ad5cf014ed1725c4305e2a847f03e8dd1c } is a cherrypick
+{ e591e7d279b8cfb409f3ebdc077eff53a8fe939e -> 8fb32e286b816dcba6a5cba46be7fd35d16da283 }
+Partial Cherry-pick commits SHA are -> 
+eb5f79ad5cf014ed1725c4305e2a847f03e8dd1c - cherrypick - 8fb32e286b816dcba6a5cba46be7fd35d16da283
+---> The cherrypicked commit sha is - eb5f79ad5cf014ed1725c4305e2a847f03e8dd1c
+Commit message - ignore lock
+---> The original commit sha is - 8fb32e286b816dcba6a5cba46be7fd35d16da283
+Commit message - Merge pull request #187 from grosser/lock
+
+ignore lock
+---> The files with partial_cherrypicks are:-
+.gitignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 70 is -> 
+{ 262dcbc7e47247effbd5afa2002cb7aecda638cf -> 14e1d2d755517b162663186ea6fb671f2ac7e40b } is a cherrypick
+{ 6bed8510f95bcd6a2f8ac3069da66078db592d28 -> 94b7b62918d494280e4d1589b78c03e3e95cb07b }
+Partial Cherry-pick commits SHA are -> 
+14e1d2d755517b162663186ea6fb671f2ac7e40b - cherrypick - 94b7b62918d494280e4d1589b78c03e3e95cb07b
+---> The cherrypicked commit sha is - 14e1d2d755517b162663186ea6fb671f2ac7e40b
+Commit message - Regex line ending adjustment
+
+gotta keep @tw-ngreen happy
+---> The original commit sha is - 94b7b62918d494280e4d1589b78c03e3e95cb07b
+Commit message - Merge pull request #177 from presidentbeef/fix_false_positive_redirect_to_decorated_models
+
+Several false positive fixes for redirect check
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_redirect.rb
+test/apps/rails3.1/Gemfile
+test/apps/rails3.1/app/controllers/other_controller.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/apps/rails3.1/app/models/user.rb
+test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 71 is -> 
+{ f7d5243b1c2e1d6f4b4047aabf7893d42874eb02 -> 4fc89dec2bdc8e5c70b9df15ff5302886d3db7ce } is a cherrypick
+{ b8dc5554442d53ddde454bb619191ab13587ba0a -> 6bed8510f95bcd6a2f8ac3069da66078db592d28 }
+Partial Cherry-pick commits SHA are -> 
+4fc89dec2bdc8e5c70b9df15ff5302886d3db7ce - cherrypick - 6bed8510f95bcd6a2f8ac3069da66078db592d28
+---> The cherrypicked commit sha is - 4fc89dec2bdc8e5c70b9df15ff5302886d3db7ce
+Commit message - Do not process appending to HAML template variable
+
+in the alias processor. Should fix #168
+---> The original commit sha is - 6bed8510f95bcd6a2f8ac3069da66078db592d28
+Commit message - Merge pull request #170 from presidentbeef/avoid_appending_to_template_variable
+
+Do not process appending to HAML template variable
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/haml_template_processor.rb
+lib/brakeman/processors/template_alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 72 is -> 
+{ ebba5cd2db83433b2c9771c2450e764d01d265d9 -> 04e4789bb0e9f17c66ac71b39bc5cffff2fa8cb6 } is a cherrypick
+{ 25b5e693dbe5cd717925ea4895ce4e7217bbeed1 -> 80dfc86b00067733f495a77f0fb877a474d5e1f6 }
+Partial Cherry-pick commits SHA are -> 
+04e4789bb0e9f17c66ac71b39bc5cffff2fa8cb6 - cherrypick - 80dfc86b00067733f495a77f0fb877a474d5e1f6
+---> The cherrypicked commit sha is - 04e4789bb0e9f17c66ac71b39bc5cffff2fa8cb6
+Commit message - Update CHANGES
+---> The original commit sha is - 80dfc86b00067733f495a77f0fb877a474d5e1f6
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_cherrypicks are:-
+CHANGES
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 73 is -> 
+{ 2753115e65216acb5088fc331b5da9be92a88365 -> 473429871d00da0e4c27a83675076eb42a5d528d } is a cherrypick
+{ 9560050de463356aef6f00a74158e11d6c28b498 -> f2555592e6e14c5576758c76a17576c0aea653c9 }
+Partial Cherry-pick commits SHA are -> 
+473429871d00da0e4c27a83675076eb42a5d528d - cherrypick - f2555592e6e14c5576758c76a17576c0aea653c9
+---> The cherrypicked commit sha is - 473429871d00da0e4c27a83675076eb42a5d528d
+Commit message - Merge pull request #162 from presidentbeef/improve_test_coverage
+
+Improve test coverage
+---> The original commit sha is - f2555592e6e14c5576758c76a17576c0aea653c9
+Commit message - Merge branch 'master' into update_rescanner2
+
+Conflicts:
+	test/tests/test_rescanner.rb
+---> The files with partial_cherrypicks are:-
+README.md
+lib/brakeman/checks/check_cross_site_scripting.rb
+lib/brakeman/checks/check_sql.rb
+lib/brakeman/processors/lib/render_helper.rb
+test/apps/rails2/app/models/account.rb
+test/apps/rails3.1/app/models/user.rb
+test/apps/rails3.1/app/views/users/_bio.html.erb
+test/apps/rails3.1/app/views/users/_user.html.erb
+test/apps/rails3.1/app/views/users/index.html.erb
+test/apps/rails3.1/app/views/users/json_test.html.erb
+test/apps/rails3.1/config/initializers/set_escape_json.rb
+test/apps/rails3.1/config/initializers/unset_escape_json.rb
+test/apps/rails3.2/app/controllers/account_controller.rb
+test/tests/test_differ.rb
+test/tests/test_json_compare.rb
+test/tests/test_rails3.rb
+test/tests/test_rails31.rb
+test/tests/test_rake_task.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 74 is -> 
+{ 0de5e9c51edcd592e43ce450f2999f706cb108b4 -> 9845e74a8d3c51838fc01b831e4a2d37bf72bfd5 } is a cherrypick
+{ c3c4d4abca902b5261c8f94a54811ce7acc42f7f -> 0a2e1902cb168995f38c3eee8a2305125ace73cc }
+Partial Cherry-pick commits SHA are -> 
+9845e74a8d3c51838fc01b831e4a2d37bf72bfd5 - cherrypick - 0a2e1902cb168995f38c3eee8a2305125ace73cc
+---> The cherrypicked commit sha is - 9845e74a8d3c51838fc01b831e4a2d37bf72bfd5
+Commit message - Check for overridden initializer values
+---> The original commit sha is - 0a2e1902cb168995f38c3eee8a2305125ace73cc
+Commit message - Revert "Merge branch 'update_scanner' into improve_test_coverage"
+
+This reverts commit c3c4d4abca902b5261c8f94a54811ce7acc42f7f, reversing
+changes made to 4b48bf15a91bffc09a2c61c8fcc886c6b487182b.
+---> The files with partial_cherrypicks are:-
+test/apps/rails3.2/app/controllers/account_controller.rb
+test/tests/test_rescanner.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 75 is -> 
+{ 79feac734150b081f31078157eb97267feeff701 -> 811c2778e5194bd729211b85e0dc16535feca9fa } is a cherrypick
+{ b4ea8490316f884c23b100646c4884150d2c0ceb -> d373c27b18d332210954d80375a4c0c5920e5465 }
+Partial Cherry-pick commits SHA are -> 
+811c2778e5194bd729211b85e0dc16535feca9fa - cherrypick - d373c27b18d332210954d80375a4c0c5920e5465
+---> The cherrypicked commit sha is - 811c2778e5194bd729211b85e0dc16535feca9fa
+Commit message - Add basic JSON compare test
+---> The original commit sha is - d373c27b18d332210954d80375a4c0c5920e5465
+Commit message - Add basic JSON compare test
+---> The files with partial_cherrypicks are:-
+test/tests/test_json_compare.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 76 is -> 
+{ 16dd831330ec0cc8e0106f7e1031bbad10b7b899 -> f0bdba2388b9f212a9e5c780bb7bd44eee25916c } is a cherrypick
+{ b4ea8490316f884c23b100646c4884150d2c0ceb -> d373c27b18d332210954d80375a4c0c5920e5465 }
+Partial Cherry-pick commits SHA are -> 
+f0bdba2388b9f212a9e5c780bb7bd44eee25916c - cherrypick - d373c27b18d332210954d80375a4c0c5920e5465
+---> The cherrypicked commit sha is - f0bdba2388b9f212a9e5c780bb7bd44eee25916c
+Commit message - Add Rails 3.2 test app
+---> The original commit sha is - d373c27b18d332210954d80375a4c0c5920e5465
+Commit message - Add basic JSON compare test
+---> The files with partial_cherrypicks are:-
+test/tests/test_json_compare.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 77 is -> 
+{ 44369a9d390586b71f4b95445890f36503792113 -> d5b149dc0058b3171b642836b0c6fad59b17acae } is a cherrypick
+{ b4ea8490316f884c23b100646c4884150d2c0ceb -> d373c27b18d332210954d80375a4c0c5920e5465 }
+Partial Cherry-pick commits SHA are -> 
+d5b149dc0058b3171b642836b0c6fad59b17acae - cherrypick - d373c27b18d332210954d80375a4c0c5920e5465
+---> The cherrypicked commit sha is - d5b149dc0058b3171b642836b0c6fad59b17acae
+Commit message - Merge branch 'improve_test_coverage' of github.com:presidentbeef/brakeman into improve_test_coverage
+
+Conflicts:
+	test/tests/test_differ.rb
+---> The original commit sha is - d373c27b18d332210954d80375a4c0c5920e5465
+Commit message - Add basic JSON compare test
+---> The files with partial_cherrypicks are:-
+test/tests/test_json_compare.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 78 is -> 
+{ f0bdba2388b9f212a9e5c780bb7bd44eee25916c -> 44369a9d390586b71f4b95445890f36503792113 } is a cherrypick
+{ d5b149dc0058b3171b642836b0c6fad59b17acae -> b4ea8490316f884c23b100646c4884150d2c0ceb }
+Partial Cherry-pick commits SHA are -> 
+44369a9d390586b71f4b95445890f36503792113 - cherrypick - b4ea8490316f884c23b100646c4884150d2c0ceb
+---> The cherrypicked commit sha is - 44369a9d390586b71f4b95445890f36503792113
+Commit message - Move diff test helpers to module
+---> The original commit sha is - b4ea8490316f884c23b100646c4884150d2c0ceb
+Commit message - Move diff test helpers to module
+---> The files with partial_cherrypicks are:-
+test/apps/rails3.2/Gemfile
+test/apps/rails3.2/README.rdoc
+test/apps/rails3.2/Rakefile
+test/apps/rails3.2/app/assets/javascripts/application.js
+test/apps/rails3.2/app/assets/javascripts/users.js.coffee
+test/apps/rails3.2/app/assets/stylesheets/application.css
+test/apps/rails3.2/app/assets/stylesheets/scaffolds.css.scss
+test/apps/rails3.2/app/assets/stylesheets/users.css.scss
+test/apps/rails3.2/app/controllers/application_controller.rb
+test/apps/rails3.2/app/controllers/removal_controller.rb
+test/apps/rails3.2/app/controllers/users_controller.rb
+test/apps/rails3.2/app/helpers/application_helper.rb
+test/apps/rails3.2/app/helpers/users_helper.rb
+test/apps/rails3.2/app/models/account.rb
+test/apps/rails3.2/app/models/user.rb
+test/apps/rails3.2/app/views/layouts/application.html.erb
+test/apps/rails3.2/app/views/removal/_partial.html.erb
+test/apps/rails3.2/app/views/removal/controller_removed.html.erb
+test/apps/rails3.2/app/views/users/_form.html.erb
+test/apps/rails3.2/app/views/users/edit.html.erb
+test/apps/rails3.2/app/views/users/index.html.erb
+test/apps/rails3.2/app/views/users/new.html.erb
+test/apps/rails3.2/app/views/users/show.html.erb
+test/apps/rails3.2/config.ru
+test/apps/rails3.2/config/application.rb
+test/apps/rails3.2/config/boot.rb
+test/apps/rails3.2/config/database.yml
+test/apps/rails3.2/config/environment.rb
+test/apps/rails3.2/config/environments/development.rb
+test/apps/rails3.2/config/environments/production.rb
+test/apps/rails3.2/config/environments/test.rb
+test/apps/rails3.2/config/initializers/backtrace_silencers.rb
+test/apps/rails3.2/config/initializers/inflections.rb
+test/apps/rails3.2/config/initializers/mime_types.rb
+test/apps/rails3.2/config/initializers/secret_token.rb
+test/apps/rails3.2/config/initializers/session_store.rb
+test/apps/rails3.2/config/initializers/wrap_parameters.rb
+test/apps/rails3.2/config/locales/en.yml
+test/apps/rails3.2/config/routes.rb
+test/apps/rails3.2/script/rails
+test/test.rb
+test/tests/test_json_compare.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 79 is -> 
+{ 16dd831330ec0cc8e0106f7e1031bbad10b7b899 -> f0bdba2388b9f212a9e5c780bb7bd44eee25916c } is a cherrypick
+{ 44369a9d390586b71f4b95445890f36503792113 -> d5b149dc0058b3171b642836b0c6fad59b17acae }
+Partial Cherry-pick commits SHA are -> 
+f0bdba2388b9f212a9e5c780bb7bd44eee25916c - cherrypick - d5b149dc0058b3171b642836b0c6fad59b17acae
+---> The cherrypicked commit sha is - f0bdba2388b9f212a9e5c780bb7bd44eee25916c
+Commit message - Add Rails 3.2 test app
+---> The original commit sha is - d5b149dc0058b3171b642836b0c6fad59b17acae
+Commit message - Merge branch 'improve_test_coverage' of github.com:presidentbeef/brakeman into improve_test_coverage
+
+Conflicts:
+	test/tests/test_differ.rb
+---> The files with partial_cherrypicks are:-
+test/apps/rails3.2/Gemfile
+test/apps/rails3.2/README.rdoc
+test/apps/rails3.2/Rakefile
+test/apps/rails3.2/app/assets/javascripts/application.js
+test/apps/rails3.2/app/assets/javascripts/users.js.coffee
+test/apps/rails3.2/app/assets/stylesheets/application.css
+test/apps/rails3.2/app/assets/stylesheets/scaffolds.css.scss
+test/apps/rails3.2/app/assets/stylesheets/users.css.scss
+test/apps/rails3.2/app/controllers/application_controller.rb
+test/apps/rails3.2/app/controllers/removal_controller.rb
+test/apps/rails3.2/app/controllers/users_controller.rb
+test/apps/rails3.2/app/helpers/application_helper.rb
+test/apps/rails3.2/app/helpers/users_helper.rb
+test/apps/rails3.2/app/models/account.rb
+test/apps/rails3.2/app/models/user.rb
+test/apps/rails3.2/app/views/layouts/application.html.erb
+test/apps/rails3.2/app/views/removal/_partial.html.erb
+test/apps/rails3.2/app/views/removal/controller_removed.html.erb
+test/apps/rails3.2/app/views/users/_form.html.erb
+test/apps/rails3.2/app/views/users/edit.html.erb
+test/apps/rails3.2/app/views/users/index.html.erb
+test/apps/rails3.2/app/views/users/new.html.erb
+test/apps/rails3.2/app/views/users/show.html.erb
+test/apps/rails3.2/config.ru
+test/apps/rails3.2/config/application.rb
+test/apps/rails3.2/config/boot.rb
+test/apps/rails3.2/config/database.yml
+test/apps/rails3.2/config/environment.rb
+test/apps/rails3.2/config/environments/development.rb
+test/apps/rails3.2/config/environments/production.rb
+test/apps/rails3.2/config/environments/test.rb
+test/apps/rails3.2/config/initializers/backtrace_silencers.rb
+test/apps/rails3.2/config/initializers/inflections.rb
+test/apps/rails3.2/config/initializers/mime_types.rb
+test/apps/rails3.2/config/initializers/secret_token.rb
+test/apps/rails3.2/config/initializers/session_store.rb
+test/apps/rails3.2/config/initializers/wrap_parameters.rb
+test/apps/rails3.2/config/locales/en.yml
+test/apps/rails3.2/config/routes.rb
+test/apps/rails3.2/script/rails
+test/tests/test_json_compare.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 80 is -> 
+{ 7e0708349c8523314a1e64631bd480747c3633ce -> 06abf0bf750ea103fe1b202761e269a0883a2bec } is a cherrypick
+{ 5004d3ad27ebeec907ce408847c4d69327451ec9 -> cb3f637e825d98f19735c49d2903f36197677152 }
+Partial Cherry-pick commits SHA are -> 
+06abf0bf750ea103fe1b202761e269a0883a2bec - cherrypick - cb3f637e825d98f19735c49d2903f36197677152
+---> The cherrypicked commit sha is - 06abf0bf750ea103fe1b202761e269a0883a2bec
+Commit message - Run Rails 3.1 tests sequentially
+
+for test coverage
+---> The original commit sha is - cb3f637e825d98f19735c49d2903f36197677152
+Commit message - Run Rails 3.1 tests sequentially
+
+for test coverage
+---> The files with partial_cherrypicks are:-
+test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 81 is -> 
+{ 7c60a0116032375916e94f6d82623155226353ac -> a422284209265c0b098423710b323524f1524226 } is a cherrypick
+{ f44af3341759180cdf47488977d76ea71057b4a5 -> 0adf88bca219f294a7629b256be39dc4815795f3 }
+Partial Cherry-pick commits SHA are -> 
+a422284209265c0b098423710b323524f1524226 - cherrypick - 0adf88bca219f294a7629b256be39dc4815795f3
+---> The cherrypicked commit sha is - a422284209265c0b098423710b323524f1524226
+Commit message - This code is unnecessary and is already handled
+---> The original commit sha is - 0adf88bca219f294a7629b256be39dc4815795f3
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_redirect.rb
+test/apps/rails2/app/controllers/home_controller.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 82 is -> 
+{ fd30ae71b8702b0fd6dc5062d6439660fd59833d -> 7c60a0116032375916e94f6d82623155226353ac } is a cherrypick
+{ bb913d0d23e3f622dff563d1ccd9614cb03ca5af -> f44af3341759180cdf47488977d76ea71057b4a5 }
+Partial Cherry-pick commits SHA are -> 
+7c60a0116032375916e94f6d82623155226353ac - cherrypick - f44af3341759180cdf47488977d76ea71057b4a5
+---> The cherrypicked commit sha is - 7c60a0116032375916e94f6d82623155226353ac
+Commit message - Output message for OutputProcessor errors
+
+instead of just an empty string. This should happen almost never, but
+hopefully this will prompt people to report bugs if it does happen
+instead of hiding them.
+---> The original commit sha is - f44af3341759180cdf47488977d76ea71057b4a5
+Commit message - Merge branch 'output_processor_resilience'
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/output_processor.rb
+test/tests/test_output_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 83 is -> 
+{ 7f26b0571a0f66573c1e239353fbbc5821d4e89f -> 4d603423248ca6e920865d4d1ff08b79fade3968 } is a cherrypick
+{ a422284209265c0b098423710b323524f1524226 -> 0ed0cd12562fb83697c41764a76e1e8d875a4bf8 }
+Partial Cherry-pick commits SHA are -> 
+4d603423248ca6e920865d4d1ff08b79fade3968 - cherrypick - 0ed0cd12562fb83697c41764a76e1e8d875a4bf8
+---> The cherrypicked commit sha is - 4d603423248ca6e920865d4d1ff08b79fade3968
+Commit message - Merge pull request #150 from presidentbeef/more_method_missing_sexp
+
+Fix uses of `method_missing` for Sexp
+---> The original commit sha is - 0ed0cd12562fb83697c41764a76e1e8d875a4bf8
+Commit message - Removed is_immediate_model? - not used, not completely accurate
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/base_check.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 84 is -> 
+{ fd30ae71b8702b0fd6dc5062d6439660fd59833d -> 7c60a0116032375916e94f6d82623155226353ac } is a cherrypick
+{ a422284209265c0b098423710b323524f1524226 -> 0ed0cd12562fb83697c41764a76e1e8d875a4bf8 }
+Partial Cherry-pick commits SHA are -> 
+7c60a0116032375916e94f6d82623155226353ac - cherrypick - 0ed0cd12562fb83697c41764a76e1e8d875a4bf8
+---> The cherrypicked commit sha is - 7c60a0116032375916e94f6d82623155226353ac
+Commit message - Output message for OutputProcessor errors
+
+instead of just an empty string. This should happen almost never, but
+hopefully this will prompt people to report bugs if it does happen
+instead of hiding them.
+---> The original commit sha is - 0ed0cd12562fb83697c41764a76e1e8d875a4bf8
+Commit message - Removed is_immediate_model? - not used, not completely accurate
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/base_check.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 85 is -> 
+{ 193e4665c2508e28124d3897ab467665acd72a26 -> c0cedbd129776157a20cd8b78a08e28b94a1cb3f } is a cherrypick
+{ 4d603423248ca6e920865d4d1ff08b79fade3968 -> 59aaaabe494ce098dec2876a8525505fa8ca918f }
+Partial Cherry-pick commits SHA are -> 
+c0cedbd129776157a20cd8b78a08e28b94a1cb3f - cherrypick - 59aaaabe494ce098dec2876a8525505fa8ca918f
+---> The cherrypicked commit sha is - c0cedbd129776157a20cd8b78a08e28b94a1cb3f
+Commit message - Remove special cased OutputProcessor#process_call
+
+There should never be the case where the target of a :call Sexp is a
+symbol, it should always be either `nil` or a Sexp. Brakeman should not
+be building invalid Sexps.
+---> The original commit sha is - 59aaaabe494ce098dec2876a8525505fa8ca918f
+Commit message - Merge pull request #149 from presidentbeef/no_special_case_for_hamlout
+
+Remove special Sexp nodes from HAML processor
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/haml_template_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 86 is -> 
+{ 3e367bbeef8446a6fa35abb28ffd2fb34ad82eae -> 0750e9fbcfbca97f5f1e78bc491263d0c114270c } is a cherrypick
+{ 193e4665c2508e28124d3897ab467665acd72a26 -> c0cedbd129776157a20cd8b78a08e28b94a1cb3f }
+Partial Cherry-pick commits SHA are -> 
+0750e9fbcfbca97f5f1e78bc491263d0c114270c - cherrypick - c0cedbd129776157a20cd8b78a08e28b94a1cb3f
+---> The cherrypicked commit sha is - 0750e9fbcfbca97f5f1e78bc491263d0c114270c
+Commit message - No special Sexps for options/buffer calls in HAML
+
+Brakeman was generating invalid call Sexps with `:_hamlout`
+as the target for `_hamlout.options` and `hamlout.buffer`.
+However, these special Sexps were not really be handled in Brakeman
+anywhere, and there was no real reason to make special Sexps for them.
+---> The original commit sha is - c0cedbd129776157a20cd8b78a08e28b94a1cb3f
+Commit message - Remove special cased OutputProcessor#process_call
+
+There should never be the case where the target of a :call Sexp is a
+symbol, it should always be either `nil` or a Sexp. Brakeman should not
+be building invalid Sexps.
+---> The files with partial_cherrypicks are:-
+test/tests/test_output_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 87 is -> 
+{ 817aa9b1bcaa85c9ce2c01c29e0d3acfb580b2ed -> 717a375922495fa8bff88b606b45c1695ed1b4b4 } is a cherrypick
+{ 83dc2d9befd10200bfa510ca2f418a541a407066 -> 6b3991dd77451e39ef68b08ac63bc3c9d1ac818c }
+Partial Cherry-pick commits SHA are -> 
+717a375922495fa8bff88b606b45c1695ed1b4b4 - cherrypick - 6b3991dd77451e39ef68b08ac63bc3c9d1ac818c
+---> The cherrypicked commit sha is - 717a375922495fa8bff88b606b45c1695ed1b4b4
+Commit message - Generalize version number in test
+---> The original commit sha is - 6b3991dd77451e39ef68b08ac63bc3c9d1ac818c
+Commit message - Merge branch 'fix_mail_to_vuln_check'
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_mail_to.rb
+test/apps/rails3/Gemfile
+test/apps/rails3/Gemfile.lock
+test/apps/rails3/app/controllers/other_controller.rb
+test/apps/rails3/app/views/other/test_mail_to.html.erb
+test/apps/rails3/config/routes.rb
+test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 88 is -> 
+{ b26c59d2b8ed63521c4d7a2bd9bf537df5229b18 -> 6d082467d2352eb1f729b80045f4cd7911e905b2 } is a cherrypick
+{ a0a7d97829da7b30f79772ec6c78589b21b7274d -> 5d4c1f19519a70e599f6861a26aea55fdfa1a5f3 }
+Partial Cherry-pick commits SHA are -> 
+6d082467d2352eb1f729b80045f4cd7911e905b2 - cherrypick - 5d4c1f19519a70e599f6861a26aea55fdfa1a5f3
+---> The cherrypicked commit sha is - 6d082467d2352eb1f729b80045f4cd7911e905b2
+Commit message - Merge pull request #139 from presidentbeef/fix_redirect_false_negative
+
+Fix `redirect_to` false negative with only_path
+---> The original commit sha is - 5d4c1f19519a70e599f6861a26aea55fdfa1a5f3
+Commit message - Merge branch 'add_content_tag_check'
+
+Conflicts:
+	test/apps/rails3/app/controllers/home_controller.rb
+	test/tests/test_rails3.rb
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_redirect.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 89 is -> 
+{ a4216449d48c802b58f5af1070399de37ea994f5 -> b26c59d2b8ed63521c4d7a2bd9bf537df5229b18 } is a cherrypick
+{ 6d082467d2352eb1f729b80045f4cd7911e905b2 -> a0a7d97829da7b30f79772ec6c78589b21b7274d }
+Partial Cherry-pick commits SHA are -> 
+b26c59d2b8ed63521c4d7a2bd9bf537df5229b18 - cherrypick - a0a7d97829da7b30f79772ec6c78589b21b7274d
+---> The cherrypicked commit sha is - b26c59d2b8ed63521c4d7a2bd9bf537df5229b18
+Commit message - Add test for XSS in `content_tag` tag name
+
+Also commit Rails 3 test file which I forgot, oops
+---> The original commit sha is - a0a7d97829da7b30f79772ec6c78589b21b7274d
+Commit message - Merge branch 'master' into add_content_tag_check
+
+Conflicts:
+	test/apps/rails2/app/controllers/home_controller.rb
+	test/tests/test_rails2.rb
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_content_tag.rb
+lib/brakeman/checks/check_redirect.rb
+test/apps/rails2/app/views/home/test_content_tag.html.erb
+test/apps/rails3/app/controllers/home_controller.rb
+test/apps/rails3/app/views/home/test_content_tag.html.erb
+test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 90 is -> 
+{ 2be9d050af358c9bbd4919a68b7c31af7af6f165 -> a4fc0bbd7bd7293317be860371979426bbf3eae1 } is a cherrypick
+{ 3259ef1b744e547d9e6c262043c245902408aba3 -> 119a5864488013b8937865d0ffee17ba33ce095f }
+Partial Cherry-pick commits SHA are -> 
+a4fc0bbd7bd7293317be860371979426bbf3eae1 - cherrypick - 119a5864488013b8937865d0ffee17ba33ce095f
+---> The cherrypicked commit sha is - a4fc0bbd7bd7293317be860371979426bbf3eae1
+Commit message - Set exit code when difference is found (compare mode)
+---> The original commit sha is - 119a5864488013b8937865d0ffee17ba33ce095f
+Commit message - Merge pull request #136 from oreoshake/warn_on_to_json
+
+High confidence warnings on `to_json`
+---> The files with partial_cherrypicks are:-
+bin/brakeman
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 91 is -> 
+{ bbbf28bf8c30cc94bedb413b624b63ab48261b65 -> 7956fa06012a4f69514674c4d07418ed32af8cc9 } is a cherrypick
+{ dbad4ed31917432834cc136b6f80f4a7313045bc -> b83b30ac8e9760ec14ae4cf8aa28ae2dfbbf212c }
+Partial Cherry-pick commits SHA are -> 
+7956fa06012a4f69514674c4d07418ed32af8cc9 - cherrypick - b83b30ac8e9760ec14ae4cf8aa28ae2dfbbf212c
+---> The cherrypicked commit sha is - 7956fa06012a4f69514674c4d07418ed32af8cc9
+Commit message - Add test for model attribute in `or` expression
+---> The original commit sha is - b83b30ac8e9760ec14ae4cf8aa28ae2dfbbf212c
+Commit message - Merge branch 'immediate_model_attribute_in_or'
+
+Treat model attribute as immediate value in `or` expressions
+
+Conflicts:
+	lib/brakeman/checks/base_check.rb
+---> The files with partial_cherrypicks are:-
+test/apps/rails2/app/controllers/home_controller.rb
+test/apps/rails2/app/views/home/test_xss_with_or.html.erb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 92 is -> 
+{ 7504b9533c7771db834c34b9e1cc4fabe5767da4 -> 5f07167fbbec2b039b2e075bfce2e322c86392aa } is a cherrypick
+{ d2e1ac87e4651d21259c8583facf2d4495164882 -> dbad4ed31917432834cc136b6f80f4a7313045bc }
+Partial Cherry-pick commits SHA are -> 
+5f07167fbbec2b039b2e075bfce2e322c86392aa - cherrypick - dbad4ed31917432834cc136b6f80f4a7313045bc
+---> The cherrypicked commit sha is - 5f07167fbbec2b039b2e075bfce2e322c86392aa
+Commit message - Add Sexp#resbody for RubyParser
+---> The original commit sha is - dbad4ed31917432834cc136b6f80f4a7313045bc
+Commit message - Merge branch 'remove_method_missing_from_sexp'
+
+Remove method_missing behavior from Sexp
+
+Conflicts:
+	lib/ruby_parser/bm_sexp.rb
+---> The files with partial_cherrypicks are:-
+lib/ruby_parser/bm_sexp.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 93 is -> 
+{ b9bc807f49ca1c036d0d56ea74745c4814c90af9 -> 649ea7eeec2bb72a2e52d5b78d500b8e037002f4 } is a cherrypick
+{ 2f57faedc49b323f674dc559b1c5c271e535e047 -> 1b47cffb693ad060e922f89a335c1ce882b0793a }
+Partial Cherry-pick commits SHA are -> 
+649ea7eeec2bb72a2e52d5b78d500b8e037002f4 - cherrypick - 1b47cffb693ad060e922f89a335c1ce882b0793a
+---> The cherrypicked commit sha is - 649ea7eeec2bb72a2e52d5b78d500b8e037002f4
+Commit message - [CSC] Update Sexp docs with new methods
+---> The original commit sha is - 1b47cffb693ad060e922f89a335c1ce882b0793a
+Commit message - Merge branch 'master' into convenience_methods_for_sexp
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/base_check.rb
+lib/brakeman/checks/check_basic_auth.rb
+lib/brakeman/checks/check_execute.rb
+lib/brakeman/checks/check_file_access.rb
+lib/brakeman/checks/check_link_to.rb
+lib/brakeman/checks/check_link_to_href.rb
+lib/brakeman/checks/check_mail_to.rb
+lib/brakeman/checks/check_mass_assignment.rb
+lib/brakeman/checks/check_redirect.rb
+lib/brakeman/checks/check_render.rb
+lib/brakeman/checks/check_send.rb
+lib/brakeman/checks/check_session_settings.rb
+lib/brakeman/checks/check_skip_before_filter.rb
+lib/brakeman/checks/check_sql.rb
+lib/brakeman/checks/check_validation_regex.rb
+lib/brakeman/checks/check_without_protection.rb
+lib/brakeman/format/twitter.css
+lib/brakeman/processors/alias_processor.rb
+lib/brakeman/processors/base_processor.rb
+lib/brakeman/processors/controller_alias_processor.rb
+lib/brakeman/processors/controller_processor.rb
+lib/brakeman/processors/erb_template_processor.rb
+lib/brakeman/processors/erubis_template_processor.rb
+lib/brakeman/processors/gem_processor.rb
+lib/brakeman/processors/haml_template_processor.rb
+lib/brakeman/processors/lib/find_all_calls.rb
+lib/brakeman/processors/lib/find_call.rb
+lib/brakeman/processors/lib/processor_helper.rb
+lib/brakeman/processors/lib/rails2_config_processor.rb
+lib/brakeman/processors/lib/rails2_route_processor.rb
+lib/brakeman/processors/lib/rails3_config_processor.rb
+lib/brakeman/processors/lib/rails3_route_processor.rb
+lib/brakeman/processors/lib/render_helper.rb
+lib/brakeman/processors/lib/route_helper.rb
+lib/brakeman/processors/library_processor.rb
+lib/brakeman/processors/model_processor.rb
+lib/brakeman/processors/template_alias_processor.rb
+lib/brakeman/processors/template_processor.rb
+lib/ruby_parser/bm_sexp.rb
+test/apps/rails2/app/controllers/other_controller.rb
+test/apps/rails2/app/views/home/index.html.erb
+test/apps/rails2/config/routes.rb
+test/apps/rails3/app/controllers/home_controller.rb
+test/apps/rails3/app/controllers/other_controller.rb
+test/tests/test_brakeman.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 94 is -> 
+{ 649ea7eeec2bb72a2e52d5b78d500b8e037002f4 -> 8643f4d60efe471fcf9a666e15526582421b809e } is a cherrypick
+{ faa2a946b983500be3c7d4e5d2c49ee12c176522 -> 94580decc87ca5255ab22d5a3a397f1c22ac6d9f }
+Partial Cherry-pick commits SHA are -> 
+8643f4d60efe471fcf9a666e15526582421b809e - cherrypick - 94580decc87ca5255ab22d5a3a397f1c22ac6d9f
+---> The cherrypicked commit sha is - 8643f4d60efe471fcf9a666e15526582421b809e
+Commit message - Add Code Climate badge to README
+
+Signed-off-by: Chris Aniszczyk <zx@twitter.com>
+---> The original commit sha is - 94580decc87ca5255ab22d5a3a397f1c22ac6d9f
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 95 is -> 
+{ d7245019ada3d82739b1cbb0c6baf10771b196a6 -> 3046bf44d25a082cb3b8e50cb3a8bad54169b96d } is a cherrypick
+{ 03be9d0bea846a9a6016f92a21d640656e62bf04 -> 1a7f3ea396b28ded55888e2b23ed00b845e4e058 }
+Partial Cherry-pick commits SHA are -> 
+3046bf44d25a082cb3b8e50cb3a8bad54169b96d - cherrypick - 1a7f3ea396b28ded55888e2b23ed00b845e4e058
+---> The cherrypicked commit sha is - 3046bf44d25a082cb3b8e50cb3a8bad54169b96d
+Commit message - Add another test for negative array index
+---> The original commit sha is - 1a7f3ea396b28ded55888e2b23ed00b845e4e058
+Commit message - Merge branch 'fix_negative_array_indexing'
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/alias_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 96 is -> 
+{ cb5af89cf98f68799512fc61623e069696ae4de4 -> 6a5f9cb0362e8eb823e909e90f71768081ee2b77 } is a cherrypick
+{ 6ecdcef8beea6009394bfe598f67e09789e65280 -> 03be9d0bea846a9a6016f92a21d640656e62bf04 }
+Partial Cherry-pick commits SHA are -> 
+6a5f9cb0362e8eb823e909e90f71768081ee2b77 - cherrypick - 03be9d0bea846a9a6016f92a21d640656e62bf04
+---> The cherrypicked commit sha is - 6a5f9cb0362e8eb823e909e90f71768081ee2b77
+Commit message - Continue processing class when error on parent
+
+Don't bail out on processing a class if an error is raised when
+determining the parent class name.
+---> The original commit sha is - 03be9d0bea846a9a6016f92a21d640656e62bf04
+Commit message - Merge branch 'user_input_in_or_is_immediate'
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/base_check.rb
+lib/brakeman/checks/check_forgery_setting.rb
+lib/brakeman/checks/check_sql.rb
+lib/brakeman/processors/controller_processor.rb
+lib/brakeman/processors/library_processor.rb
+lib/brakeman/processors/model_processor.rb
+test/apps/rails3.1/app/models/product.rb
+test/apps/rails3.1/app/models/some_model.rb
+test/apps/rails3.1/lib/alib.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 97 is -> 
+{ 197d90c96784c8347899fa4b826d1fbac0b1144a -> 076c2821dfdd5d25875d62c22da8f51320133c6a } is a cherrypick
+{ 852bc7b2cbb34c0b9ac7bc276bbb0d0d91fb15d8 -> 7374d66a6b3942f438ed818d1206f9b02498d263 }
+Partial Cherry-pick commits SHA are -> 
+076c2821dfdd5d25875d62c22da8f51320133c6a - cherrypick - 7374d66a6b3942f438ed818d1206f9b02498d263
+---> The cherrypicked commit sha is - 076c2821dfdd5d25875d62c22da8f51320133c6a
+Commit message - Add test for redirecting to Model.find_by_*
+---> The original commit sha is - 7374d66a6b3942f438ed818d1206f9b02498d263
+Commit message - Merge 'do_not_warn_on_redirects_to_model_instances'
+
+Conflicts:
+	test/tests/test_rails3.rb
+---> The files with partial_cherrypicks are:-
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/tests/test_rails3.rb
+test/tests/test_rails31.rb
+test/tests/test_rails_with_xss_plugin.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 98 is -> 
+{ f115334cdff6cc817504e0aa16ab8724b0f3b05a -> 27afa22ef0f8174407e56b35011b8c147add96e0 } is a cherrypick
+{ 010ce1933ee61516c0536ef74de3e11ee6778c75 -> e01b6279d15bcf2d147c9ed6dfb3978eddb2d153 }
+Partial Cherry-pick commits SHA are -> 
+27afa22ef0f8174407e56b35011b8c147add96e0 - cherrypick - e01b6279d15bcf2d147c9ed6dfb3978eddb2d153
+---> The cherrypicked commit sha is - 27afa22ef0f8174407e56b35011b8c147add96e0
+Commit message - Merge branch 'improve_sql_injection_check'
+---> The original commit sha is - e01b6279d15bcf2d147c9ed6dfb3978eddb2d153
+Commit message - Merge remote-tracking branch 'oreoshake/prefer_user_input_line'
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_sql.rb
+test/apps/rails2/app/models/user.rb
+test/apps/rails3.1/app/models/product.rb
+test/apps/rails3.1/app/models/user.rb
+test/tests/test_rails31.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 99 is -> 
+{ 9ae37c1eaa7f9676d01065d0a19430b9c01a4595 -> f115334cdff6cc817504e0aa16ab8724b0f3b05a } is a cherrypick
+{ 27afa22ef0f8174407e56b35011b8c147add96e0 -> 1b5562a4d8633d0e742899dd0f9f9b618ad0f6ef }
+Partial Cherry-pick commits SHA are -> 
+f115334cdff6cc817504e0aa16ab8724b0f3b05a - cherrypick - 1b5562a4d8633d0e742899dd0f9f9b618ad0f6ef
+---> The cherrypicked commit sha is - f115334cdff6cc817504e0aa16ab8724b0f3b05a
+Commit message - Remove duplicate check for @line in Warning
+---> The original commit sha is - 1b5562a4d8633d0e742899dd0f9f9b618ad0f6ef
+Commit message - Merge branch 'prefer_user_input_line'
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_basic_auth.rb
+lib/brakeman/checks/check_cross_site_scripting.rb
+lib/brakeman/checks/check_execute.rb
+lib/brakeman/checks/check_file_access.rb
+lib/brakeman/checks/check_redirect.rb
+lib/brakeman/checks/check_skip_before_filter.rb
+lib/brakeman/warning.rb
+test/tests/test_rails3.rb
+test/tests/test_rails_with_xss_plugin.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 100 is -> 
+{ 8b4e7fb1d1304733c2f55d1ced1b9d593cded707 -> 30c10bc283d0f0f9626aa454e2417379c23b3f93 } is a cherrypick
+{ 0ae0cdd73fa6ee97d1dbc0ce15ca3475b5165d16 -> 7d20655c0583aa82bcb5341a9dfbe48b04713f06 }
+Partial Cherry-pick commits SHA are -> 
+30c10bc283d0f0f9626aa454e2417379c23b3f93 - cherrypick - 7d20655c0583aa82bcb5341a9dfbe48b04713f06
+---> The cherrypicked commit sha is - 30c10bc283d0f0f9626aa454e2417379c23b3f93
+Commit message - CheckSQL: handle if expressions better
+---> The original commit sha is - 7d20655c0583aa82bcb5341a9dfbe48b04713f06
+Commit message - CheckSQL: Add check for Model#select
+---> The files with partial_cherrypicks are:-
+.travis.yml
+README.md
+brakeman.gemspec
+lib/brakeman/checks/check_mass_assignment.rb
+lib/brakeman/checks/check_model_attributes.rb
+lib/brakeman/processor.rb
+lib/brakeman/processors/base_processor.rb
+lib/brakeman/processors/controller_alias_processor.rb
+lib/brakeman/processors/lib/render_helper.rb
+lib/brakeman/rescanner.rb
+lib/brakeman/util.rb
+test/apps/rails2/app/controllers/other_controller.rb
+test/apps/rails2/app/models/protected.rb
+test/apps/rails2/app/models/unprotected.rb
+test/apps/rails2/app/views/home/test_render_template.html.haml
+test/apps/rails3.1/app/controllers/mixins/user_mixin.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/apps/rails3.1/app/models/user.rb
+test/apps/rails3.1/app/views/users/mixin_default.html.erb
+test/apps/rails3.1/app/views/users/mixin_template.html.erb
+test/apps/rails3.1/config/routes.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 101 is -> 
+{ 98ee310421387f0d0c3242d66704c5d8360162f6 -> 8b4e7fb1d1304733c2f55d1ced1b9d593cded707 } is a cherrypick
+{ f494d0fd44ce8a2d5ad32af859eeae02ffbbe4ac -> 0ae0cdd73fa6ee97d1dbc0ce15ca3475b5165d16 }
+Partial Cherry-pick commits SHA are -> 
+8b4e7fb1d1304733c2f55d1ced1b9d593cded707 - cherrypick - 0ae0cdd73fa6ee97d1dbc0ce15ca3475b5165d16
+---> The cherrypicked commit sha is - 8b4e7fb1d1304733c2f55d1ced1b9d593cded707
+Commit message - attr_accessible is inheritable, don't warn if a parent is protected
+
+class Protected < ActiveRecord::Base
+	attr_accessible :column
+end
+
+class Unprotected < Protected
+      # can only assign column here
+end
+---> The original commit sha is - 0ae0cdd73fa6ee97d1dbc0ce15ca3475b5165d16
+Commit message - Use simpler method to find parent
+---> The files with partial_cherrypicks are:-
+.travis.yml
+README.md
+brakeman.gemspec
+lib/brakeman/checks/check_mass_assignment.rb
+lib/brakeman/checks/check_model_attributes.rb
+lib/brakeman/processor.rb
+lib/brakeman/processors/base_processor.rb
+lib/brakeman/processors/controller_alias_processor.rb
+lib/brakeman/processors/lib/render_helper.rb
+lib/brakeman/rescanner.rb
+lib/brakeman/util.rb
+test/apps/rails2/app/controllers/other_controller.rb
+test/apps/rails2/app/models/protected.rb
+test/apps/rails2/app/models/unprotected.rb
+test/apps/rails2/app/views/home/test_render_template.html.haml
+test/apps/rails3.1/app/controllers/mixins/user_mixin.rb
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/apps/rails3.1/app/models/user.rb
+test/apps/rails3.1/app/views/users/mixin_default.html.erb
+test/apps/rails3.1/app/views/users/mixin_template.html.erb
+test/apps/rails3.1/config/routes.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 102 is -> 
+{ 37f0f15aeef33183354f0568b9c61ac40d695b78 -> c2b1a9279728767c85fac5a669ab0b412169ee18 } is a cherrypick
+{ 6653d0d6dd3b16e8743fbe1a755d8635ecac866b -> 7da754639efb151b441d20669a2d1b5c8ec42b74 }
+Partial Cherry-pick commits SHA are -> 
+c2b1a9279728767c85fac5a669ab0b412169ee18 - cherrypick - 7da754639efb151b441d20669a2d1b5c8ec42b74
+---> The cherrypicked commit sha is - c2b1a9279728767c85fac5a669ab0b412169ee18
+Commit message - Include all of lib in the gem
+---> The original commit sha is - 7da754639efb151b441d20669a2d1b5c8ec42b74
+Commit message - Merge pull request #84 from oreoshake/fix_gemspec
+
+Include all of lib in the gem
+---> The files with partial_cherrypicks are:-
+brakeman.gemspec
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 103 is -> 
+{ 5c0e33e6d277356a155631aace4c74db87074f8a -> 6ac8c7cbe2652925a8bbaf63d5907b4c5a4a06e8 } is a cherrypick
+{ 1d93763cc2ad5b984eb8c633f8e7bb5bb78db853 -> 0ead3e3f71a67481dca7b8f76df58992aa92af4f }
+Partial Cherry-pick commits SHA are -> 
+6ac8c7cbe2652925a8bbaf63d5907b4c5a4a06e8 - cherrypick - 0ead3e3f71a67481dca7b8f76df58992aa92af4f
+---> The cherrypicked commit sha is - 6ac8c7cbe2652925a8bbaf63d5907b4c5a4a06e8
+Commit message - Fix rescanning of deleted files
+---> The original commit sha is - 0ead3e3f71a67481dca7b8f76df58992aa92af4f
+Commit message - Merge pull request #76 from presidentbeef/fix_rescanning_of_deleted_files
+
+Fix rescanning of deleted files
+---> The files with partial_cherrypicks are:-
+lib/brakeman/rescanner.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 104 is -> 
+{ 2f37934b734b7313e01e71e1e89129210808f0f5 -> de26af6f175a6514d0ca92e8313eb8cd746b2284 } is a cherrypick
+{ 25e05d22bab26a244eb3f72fde162ee83459266d -> 4517e3d6f93ee778e4d079890dac8e166dc47e81 }
+Partial Cherry-pick commits SHA are -> 
+de26af6f175a6514d0ca92e8313eb8cd746b2284 - cherrypick - 4517e3d6f93ee778e4d079890dac8e166dc47e81
+---> The cherrypicked commit sha is - de26af6f175a6514d0ca92e8313eb8cd746b2284
+Commit message - Use Util#hash_access instead of Util#hash_iterate
+
+where it makes sense
+---> The original commit sha is - 4517e3d6f93ee778e4d079890dac8e166dc47e81
+Commit message - Use Util#hash_access instead of Util#hash_iterate
+
+where it makes sense
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_basic_auth.rb
+lib/brakeman/checks/check_mail_to.rb
+lib/brakeman/checks/check_redirect.rb
+lib/brakeman/checks/check_session_settings.rb
+lib/brakeman/checks/check_skip_before_filter.rb
+lib/brakeman/checks/check_validation_regex.rb
+lib/brakeman/processors/alias_processor.rb
+lib/brakeman/processors/lib/rails2_route_processor.rb
+lib/brakeman/processors/lib/rails3_route_processor.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 105 is -> 
+{ 5c0d1a94b05ea641992554249302b7408b0c0d3f -> cfee33916deb22f2f8a0b45d3505c142e25d305d } is a cherrypick
+{ c6136f1078fe7becf928a1503938a885f0c09c7b -> 25e05d22bab26a244eb3f72fde162ee83459266d }
+Partial Cherry-pick commits SHA are -> 
+cfee33916deb22f2f8a0b45d3505c142e25d305d - cherrypick - 25e05d22bab26a244eb3f72fde162ee83459266d
+---> The cherrypicked commit sha is - cfee33916deb22f2f8a0b45d3505c142e25d305d
+Commit message - Mass assignments were being clobbered, make api use consistent
+---> The original commit sha is - 25e05d22bab26a244eb3f72fde162ee83459266d
+Commit message - Mass assignments were being clobbered, make api use consistent
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_mass_assignment.rb
+lib/brakeman/checks/check_without_protection.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 106 is -> 
+{ de26af6f175a6514d0ca92e8313eb8cd746b2284 -> d08250b009f58933667d3c72465a66979e2396d1 } is a cherrypick
+{ c6136f1078fe7becf928a1503938a885f0c09c7b -> 25e05d22bab26a244eb3f72fde162ee83459266d }
+Partial Cherry-pick commits SHA are -> 
+d08250b009f58933667d3c72465a66979e2396d1 - cherrypick - 25e05d22bab26a244eb3f72fde162ee83459266d
+---> The cherrypicked commit sha is - d08250b009f58933667d3c72465a66979e2396d1
+Commit message - Merge remote-tracking branch 'oreoshake/mass_ass_clobbering' into fix_mass_assignment_dupes_in_views
+---> The original commit sha is - 25e05d22bab26a244eb3f72fde162ee83459266d
+Commit message - Mass assignments were being clobbered, make api use consistent
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_mass_assignment.rb
+lib/brakeman/checks/check_without_protection.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 107 is -> 
+{ 2f37934b734b7313e01e71e1e89129210808f0f5 -> de26af6f175a6514d0ca92e8313eb8cd746b2284 } is a cherrypick
+{ 940cb65c166a83010b7cd17cb17815c0aaaf25c5 -> 4e1084ba71b6e14d6f2239583a28390109929e6e }
+Partial Cherry-pick commits SHA are -> 
+de26af6f175a6514d0ca92e8313eb8cd746b2284 - cherrypick - 4e1084ba71b6e14d6f2239583a28390109929e6e
+---> The cherrypicked commit sha is - de26af6f175a6514d0ca92e8313eb8cd746b2284
+Commit message - Use Util#hash_access instead of Util#hash_iterate
+
+where it makes sense
+---> The original commit sha is - 4e1084ba71b6e14d6f2239583a28390109929e6e
+Commit message - Improve Util#hash_access
+---> The files with partial_cherrypicks are:-
+lib/brakeman/util.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 108 is -> 
+{ 4b935a7a0f711003bd787c902ad29302d51af0bb -> d89ba93b925f909b0aef96ea6f69ca68e7ac1676 } is a cherrypick
+{ ceab657be5739c826d092e59dc11021fb3112aaa -> 940cb65c166a83010b7cd17cb17815c0aaaf25c5 }
+Partial Cherry-pick commits SHA are -> 
+d89ba93b925f909b0aef96ea6f69ca68e7ac1676 - cherrypick - 940cb65c166a83010b7cd17cb17815c0aaaf25c5
+---> The cherrypicked commit sha is - d89ba93b925f909b0aef96ea6f69ca68e7ac1676
+Commit message - Add test for redirect_to :only_path => true
+
+check already exists, but no tests for it
+---> The original commit sha is - 940cb65c166a83010b7cd17cb17815c0aaaf25c5
+Commit message - Add test for redirect_to :only_path => true
+
+check already exists, but no tests for it
+---> The files with partial_cherrypicks are:-
+test/apps/rails3/app/controllers/home_controller.rb
+test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 109 is -> 
+{ 41d15a26af002d7a7477c1844796e445a6b4335d -> 4b935a7a0f711003bd787c902ad29302d51af0bb } is a cherrypick
+{ a9f85aca54201cdc9798ac15cc6223f4a1c6ede0 -> ceab657be5739c826d092e59dc11021fb3112aaa }
+Partial Cherry-pick commits SHA are -> 
+4b935a7a0f711003bd787c902ad29302d51af0bb - cherrypick - ceab657be5739c826d092e59dc11021fb3112aaa
+---> The cherrypicked commit sha is - 4b935a7a0f711003bd787c902ad29302d51af0bb
+Commit message - Merge pull request #79 from presidentbeef/dont_check_find_by_methods_for_sql
+
+Don't check find_by_* methods for sql
+---> The original commit sha is - ceab657be5739c826d092e59dc11021fb3112aaa
+Commit message - Only check Model#find and #find_by_sql, not find.*
+
+fixes #78
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_sql.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 110 is -> 
+{ 5c0d1a94b05ea641992554249302b7408b0c0d3f -> cfee33916deb22f2f8a0b45d3505c142e25d305d } is a cherrypick
+{ a9f85aca54201cdc9798ac15cc6223f4a1c6ede0 -> ceab657be5739c826d092e59dc11021fb3112aaa }
+Partial Cherry-pick commits SHA are -> 
+cfee33916deb22f2f8a0b45d3505c142e25d305d - cherrypick - ceab657be5739c826d092e59dc11021fb3112aaa
+---> The cherrypicked commit sha is - cfee33916deb22f2f8a0b45d3505c142e25d305d
+Commit message - Mass assignments were being clobbered, make api use consistent
+---> The original commit sha is - ceab657be5739c826d092e59dc11021fb3112aaa
+Commit message - Only check Model#find and #find_by_sql, not find.*
+
+fixes #78
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_sql.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 111 is -> 
+{ de26af6f175a6514d0ca92e8313eb8cd746b2284 -> d08250b009f58933667d3c72465a66979e2396d1 } is a cherrypick
+{ a9f85aca54201cdc9798ac15cc6223f4a1c6ede0 -> ceab657be5739c826d092e59dc11021fb3112aaa }
+Partial Cherry-pick commits SHA are -> 
+d08250b009f58933667d3c72465a66979e2396d1 - cherrypick - ceab657be5739c826d092e59dc11021fb3112aaa
+---> The cherrypicked commit sha is - d08250b009f58933667d3c72465a66979e2396d1
+Commit message - Merge remote-tracking branch 'oreoshake/mass_ass_clobbering' into fix_mass_assignment_dupes_in_views
+---> The original commit sha is - ceab657be5739c826d092e59dc11021fb3112aaa
+Commit message - Only check Model#find and #find_by_sql, not find.*
+
+fixes #78
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_sql.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 112 is -> 
+{ 45b67e0d30e1264d3a0ba1c0d06183f31157e94a -> bea017247beed38aff3ea35514524f4f45dd8071 } is a cherrypick
+{ 8955d597a90d894d0fc6b7cfc3ddcf8679085962 -> a9f85aca54201cdc9798ac15cc6223f4a1c6ede0 }
+Partial Cherry-pick commits SHA are -> 
+bea017247beed38aff3ea35514524f4f45dd8071 - cherrypick - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+---> The cherrypicked commit sha is - bea017247beed38aff3ea35514524f4f45dd8071
+Commit message - Add test for Model#find_by_*
+---> The original commit sha is - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+Commit message - Add test for Model#find_by_*
+---> The files with partial_cherrypicks are:-
+test/apps/rails2/app/controllers/home_controller.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 113 is -> 
+{ 41d15a26af002d7a7477c1844796e445a6b4335d -> 4b935a7a0f711003bd787c902ad29302d51af0bb } is a cherrypick
+{ 8955d597a90d894d0fc6b7cfc3ddcf8679085962 -> a9f85aca54201cdc9798ac15cc6223f4a1c6ede0 }
+Partial Cherry-pick commits SHA are -> 
+4b935a7a0f711003bd787c902ad29302d51af0bb - cherrypick - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+---> The cherrypicked commit sha is - 4b935a7a0f711003bd787c902ad29302d51af0bb
+Commit message - Merge pull request #79 from presidentbeef/dont_check_find_by_methods_for_sql
+
+Don't check find_by_* methods for sql
+---> The original commit sha is - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+Commit message - Add test for Model#find_by_*
+---> The files with partial_cherrypicks are:-
+test/apps/rails2/app/controllers/home_controller.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 114 is -> 
+{ 5c0d1a94b05ea641992554249302b7408b0c0d3f -> cfee33916deb22f2f8a0b45d3505c142e25d305d } is a cherrypick
+{ 8955d597a90d894d0fc6b7cfc3ddcf8679085962 -> a9f85aca54201cdc9798ac15cc6223f4a1c6ede0 }
+Partial Cherry-pick commits SHA are -> 
+cfee33916deb22f2f8a0b45d3505c142e25d305d - cherrypick - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+---> The cherrypicked commit sha is - cfee33916deb22f2f8a0b45d3505c142e25d305d
+Commit message - Mass assignments were being clobbered, make api use consistent
+---> The original commit sha is - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+Commit message - Add test for Model#find_by_*
+---> The files with partial_cherrypicks are:-
+test/apps/rails2/app/controllers/home_controller.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 115 is -> 
+{ de26af6f175a6514d0ca92e8313eb8cd746b2284 -> d08250b009f58933667d3c72465a66979e2396d1 } is a cherrypick
+{ 8955d597a90d894d0fc6b7cfc3ddcf8679085962 -> a9f85aca54201cdc9798ac15cc6223f4a1c6ede0 }
+Partial Cherry-pick commits SHA are -> 
+d08250b009f58933667d3c72465a66979e2396d1 - cherrypick - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+---> The cherrypicked commit sha is - d08250b009f58933667d3c72465a66979e2396d1
+Commit message - Merge remote-tracking branch 'oreoshake/mass_ass_clobbering' into fix_mass_assignment_dupes_in_views
+---> The original commit sha is - a9f85aca54201cdc9798ac15cc6223f4a1c6ede0
+Commit message - Add test for Model#find_by_*
+---> The files with partial_cherrypicks are:-
+test/apps/rails2/app/controllers/home_controller.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 116 is -> 
+{ 5c0d1a94b05ea641992554249302b7408b0c0d3f -> cfee33916deb22f2f8a0b45d3505c142e25d305d } is a cherrypick
+{ de26af6f175a6514d0ca92e8313eb8cd746b2284 -> d08250b009f58933667d3c72465a66979e2396d1 }
+Partial Cherry-pick commits SHA are -> 
+cfee33916deb22f2f8a0b45d3505c142e25d305d - cherrypick - d08250b009f58933667d3c72465a66979e2396d1
+---> The cherrypicked commit sha is - cfee33916deb22f2f8a0b45d3505c142e25d305d
+Commit message - Mass assignments were being clobbered, make api use consistent
+---> The original commit sha is - d08250b009f58933667d3c72465a66979e2396d1
+Commit message - Merge remote-tracking branch 'oreoshake/mass_ass_clobbering' into fix_mass_assignment_dupes_in_views
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_mass_assignment.rb
+lib/brakeman/checks/check_sql.rb
+lib/brakeman/checks/check_without_protection.rb
+test/apps/rails2/app/controllers/home_controller.rb
+test/tests/test_rails2.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 117 is -> 
+{ 8b56161c003017cf295c92fa98bec88bf02c6ca5 -> 47f91cd7597635ba2bd30c95bc58e9de9437717d } is a cherrypick
+{ e7b56bda4f23cde1515ee34d9bcd26c0e5c9088d -> 99669706a9ce0b7f997553e7ee5096b24b73c3fc }
+Partial Cherry-pick commits SHA are -> 
+47f91cd7597635ba2bd30c95bc58e9de9437717d - cherrypick - 99669706a9ce0b7f997553e7ee5096b24b73c3fc
+---> The cherrypicked commit sha is - 47f91cd7597635ba2bd30c95bc58e9de9437717d
+Commit message - Avoid overriding Sexp#initialize
+
+and get a free performance boost, yay!
+---> The original commit sha is - 99669706a9ce0b7f997553e7ee5096b24b73c3fc
+Commit message - Avoid overriding Sexp#initialize
+
+and get a free performance boost, yay!
+---> The files with partial_cherrypicks are:-
+lib/ruby_parser/bm_sexp.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 118 is -> 
+{ 7f36ea3d4c60a643c24a255698949bc3f565d681 -> b50a482c2d2e4f1da87456fcda052c4b499b8d74 } is a cherrypick
+{ 6db0ee9046c3af684de0715629a744c5c44717fa -> faeb2c0a09e8849f31758772f686059b9aa3b991 }
+Partial Cherry-pick commits SHA are -> 
+b50a482c2d2e4f1da87456fcda052c4b499b8d74 - cherrypick - faeb2c0a09e8849f31758772f686059b9aa3b991
+---> The cherrypicked commit sha is - b50a482c2d2e4f1da87456fcda052c4b499b8d74
+Commit message - Check for duplicates in CheckRedirect
+---> The original commit sha is - faeb2c0a09e8849f31758772f686059b9aa3b991
+Commit message - Check for duplicates in CheckRedirect
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_redirect.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 119 is -> 
+{ 7f36ea3d4c60a643c24a255698949bc3f565d681 -> b50a482c2d2e4f1da87456fcda052c4b499b8d74 } is a cherrypick
+{ 85f73d45062ef75f691f6aced40ac99bf62d5c46 -> 6db0ee9046c3af684de0715629a744c5c44717fa }
+Partial Cherry-pick commits SHA are -> 
+b50a482c2d2e4f1da87456fcda052c4b499b8d74 - cherrypick - 6db0ee9046c3af684de0715629a744c5c44717fa
+---> The cherrypicked commit sha is - b50a482c2d2e4f1da87456fcda052c4b499b8d74
+Commit message - Check for duplicates in CheckRedirect
+---> The original commit sha is - 6db0ee9046c3af684de0715629a744c5c44717fa
+Commit message - Set dependency on RubyParser 2.3.1
+
+because the next RubyParser release is going to break a LOT of stuff.
+---> The files with partial_cherrypicks are:-
+brakeman.gemspec
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 120 is -> 
+{ 81905f4f44fe5d3da4cecb2e06cc284848ae800d -> 4f396b391adb3f3dbc1065fb4cb660aa73f9cdf9 } is a cherrypick
+{ 07df94a7082e5ff6adfb067cd34d0b3bf5e22b21 -> 85f73d45062ef75f691f6aced40ac99bf62d5c46 }
+Partial Cherry-pick commits SHA are -> 
+4f396b391adb3f3dbc1065fb4cb660aa73f9cdf9 - cherrypick - 85f73d45062ef75f691f6aced40ac99bf62d5c46
+---> The cherrypicked commit sha is - 4f396b391adb3f3dbc1065fb4cb660aa73f9cdf9
+Commit message - Remove superfluous method in test controller
+---> The original commit sha is - 85f73d45062ef75f691f6aced40ac99bf62d5c46
+Commit message - Remove superfluous method in test controller
+---> The files with partial_cherrypicks are:-
+test/apps/rails3.1/app/controllers/users_controller.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 121 is -> 
+{ 6ac8c7cbe2652925a8bbaf63d5907b4c5a4a06e8 -> cd22bb3b051b7bab67a3ccac39a4225e72e001a8 } is a cherrypick
+{ 044e4c8bea50f1efd0c56ab861a5302ac5aba7ce -> a96f67728817873934725bd7645b0585abe17d18 }
+Partial Cherry-pick commits SHA are -> 
+cd22bb3b051b7bab67a3ccac39a4225e72e001a8 - cherrypick - a96f67728817873934725bd7645b0585abe17d18
+---> The cherrypicked commit sha is - cd22bb3b051b7bab67a3ccac39a4225e72e001a8
+Commit message - Nicer error message on option parsing failures
+---> The original commit sha is - a96f67728817873934725bd7645b0585abe17d18
+Commit message - Nicer error message on option parsing failures
+---> The files with partial_cherrypicks are:-
+bin/brakeman
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 122 is -> 
+{ 6bf54b47cb0ef106a9b8d808557b621c946f7757 -> 658ddf4cc9836b182fd166f4a9dcb72d274a92e5 } is a cherrypick
+{ d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184 -> 044e4c8bea50f1efd0c56ab861a5302ac5aba7ce }
+Partial Cherry-pick commits SHA are -> 
+658ddf4cc9836b182fd166f4a9dcb72d274a92e5 - cherrypick - 044e4c8bea50f1efd0c56ab861a5302ac5aba7ce
+---> The cherrypicked commit sha is - 658ddf4cc9836b182fd166f4a9dcb72d274a92e5
+Commit message - Call Processor#process_controller_alias properly
+---> The original commit sha is - 044e4c8bea50f1efd0c56ab861a5302ac5aba7ce
+Commit message - Call Processor#process_controller_alias properly
+---> The files with partial_cherrypicks are:-
+lib/brakeman/rescanner.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 123 is -> 
+{ 6ac8c7cbe2652925a8bbaf63d5907b4c5a4a06e8 -> cd22bb3b051b7bab67a3ccac39a4225e72e001a8 } is a cherrypick
+{ 29dfb5f87d1671afa6ab9fc350a93008bbf7420b -> d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184 }
+Partial Cherry-pick commits SHA are -> 
+cd22bb3b051b7bab67a3ccac39a4225e72e001a8 - cherrypick - d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184
+---> The cherrypicked commit sha is - cd22bb3b051b7bab67a3ccac39a4225e72e001a8
+Commit message - Nicer error message on option parsing failures
+---> The original commit sha is - d1b2ac07ccbc537cd0fb0c71f601d3c766b8b184
+Commit message - Add line number to warning.to_hash
+---> The files with partial_cherrypicks are:-
+lib/brakeman/warning.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 124 is -> 
+{ 6bbd119f748bcd9cb5fc95768222e2fb7158b7ae -> 67f289809f934540f085d4cc77ff524bfcb88397 } is a cherrypick
+{ 688b9d60139299fa8f0bd42fb69a36e3030e78be -> 1811df9e339af0b3d70772117802661c18488f26 }
+Partial Cherry-pick commits SHA are -> 
+67f289809f934540f085d4cc77ff524bfcb88397 - cherrypick - 1811df9e339af0b3d70772117802661c18488f26
+---> The cherrypicked commit sha is - 67f289809f934540f085d4cc77ff524bfcb88397
+Commit message - Merge pull request #70 from presidentbeef/only_check_eval_args_for_user_input
+
+Only check eval args for user input
+---> The original commit sha is - 1811df9e339af0b3d70772117802661c18488f26
+Commit message - Only check eval args for user input
+---> The files with partial_cherrypicks are:-
+lib/brakeman/checks/check_evaluation.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 125 is -> 
+{ 6bbd119f748bcd9cb5fc95768222e2fb7158b7ae -> 67f289809f934540f085d4cc77ff524bfcb88397 } is a cherrypick
+{ 0cf9416d394a816bd7eeddd602b1da34bbd46897 -> 688b9d60139299fa8f0bd42fb69a36e3030e78be }
+Partial Cherry-pick commits SHA are -> 
+67f289809f934540f085d4cc77ff524bfcb88397 - cherrypick - 688b9d60139299fa8f0bd42fb69a36e3030e78be
+---> The cherrypicked commit sha is - 67f289809f934540f085d4cc77ff524bfcb88397
+Commit message - Merge pull request #70 from presidentbeef/only_check_eval_args_for_user_input
+
+Only check eval args for user input
+---> The original commit sha is - 688b9d60139299fa8f0bd42fb69a36e3030e78be
+Commit message - Add test for class_eval false positive
+
+when target is a model
+---> The files with partial_cherrypicks are:-
+test/apps/rails3/app/models/account.rb
+test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 126 is -> 
+{ 142d624272e241e2865f7a89d8811b94a585d834 -> 6bbd119f748bcd9cb5fc95768222e2fb7158b7ae } is a cherrypick
+{ 8af649e9e63998ef6c16850732a172c6572f65bc -> d8cf24e4f7a049bf8d02bf72f21a424e44039264 }
+Partial Cherry-pick commits SHA are -> 
+6bbd119f748bcd9cb5fc95768222e2fb7158b7ae - cherrypick - d8cf24e4f7a049bf8d02bf72f21a424e44039264
+---> The cherrypicked commit sha is - 6bbd119f748bcd9cb5fc95768222e2fb7158b7ae
+Commit message - Merge pull request #68 from presidentbeef/propagate_request_values_to_views
+
+Propagate request values to views
+
+such that `params[:x] = blah` will be reflect in the views
+---> The original commit sha is - d8cf24e4f7a049bf8d02bf72f21a424e44039264
+Commit message - Add request variables to environment of views
+
+when rendering and when dealing with filters
+---> The files with partial_cherrypicks are:-
+lib/brakeman/processors/alias_processor.rb
+lib/brakeman/processors/controller_alias_processor.rb
+lib/brakeman/processors/lib/render_helper.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 127 is -> 
+{ 142d624272e241e2865f7a89d8811b94a585d834 -> 6bbd119f748bcd9cb5fc95768222e2fb7158b7ae } is a cherrypick
+{ 90f5e656baa4713e05c7820bd2f16b4bf8b3e870 -> 8af649e9e63998ef6c16850732a172c6572f65bc }
+Partial Cherry-pick commits SHA are -> 
+6bbd119f748bcd9cb5fc95768222e2fb7158b7ae - cherrypick - 8af649e9e63998ef6c16850732a172c6572f65bc
+---> The cherrypicked commit sha is - 6bbd119f748bcd9cb5fc95768222e2fb7158b7ae
+Commit message - Merge pull request #68 from presidentbeef/propagate_request_values_to_views
+
+Propagate request values to views
+
+such that `params[:x] = blah` will be reflect in the views
+---> The original commit sha is - 8af649e9e63998ef6c16850732a172c6572f65bc
+Commit message - Add Util#request_value?
+---> The files with partial_cherrypicks are:-
+lib/brakeman/util.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 128 is -> 
+{ 71468ce5d00b5138c95d023de3684eb058f258ea -> caa335ef346449e80b0d0b723c125a74ff32ee36 } is a cherrypick
+{ a651424aa920639ce25f44282aa1eaa0a66d0489 -> f1b1b0dd6696eceddca50830999408a9dc9e79be }
+Partial Cherry-pick commits SHA are -> 
+caa335ef346449e80b0d0b723c125a74ff32ee36 - cherrypick - f1b1b0dd6696eceddca50830999408a9dc9e79be
+---> The cherrypicked commit sha is - caa335ef346449e80b0d0b723c125a74ff32ee36
+Commit message - Add tests for scanning helper methods
+---> The original commit sha is - f1b1b0dd6696eceddca50830999408a9dc9e79be
+Commit message - Merge branch 'master' into simple_helper_scanning
+
+Conflicts:
+	test/apps/rails3.1/app/controllers/users_controller.rb
+---> The files with partial_cherrypicks are:-
+test/apps/rails3.1/app/controllers/users_controller.rb
+test/apps/rails3.1/config/routes.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 129 is -> 
+{ 6bf54b47cb0ef106a9b8d808557b621c946f7757 -> 658ddf4cc9836b182fd166f4a9dcb72d274a92e5 } is a cherrypick
+{ 5c0e33e6d277356a155631aace4c74db87074f8a -> 6ac8c7cbe2652925a8bbaf63d5907b4c5a4a06e8 }
+Partial Cherry-pick commits SHA are -> 
+658ddf4cc9836b182fd166f4a9dcb72d274a92e5 - cherrypick - 6ac8c7cbe2652925a8bbaf63d5907b4c5a4a06e8
+---> The cherrypicked commit sha is - 658ddf4cc9836b182fd166f4a9dcb72d274a92e5
+Commit message - Call Processor#process_controller_alias properly
+---> The original commit sha is - 6ac8c7cbe2652925a8bbaf63d5907b4c5a4a06e8
+Commit message - Fix rescanning of deleted files
+---> The files with partial_cherrypicks are:-
+lib/brakeman/warning.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 130 is -> 
+{ 2ea3ffa04a6c2bbf7ccb5b0ea4992a9dc8542a57 -> 26c6ecb2510d35333496ff71a0cc7e2e52e5a21f } is a cherrypick
+{ 8b3714e2384f1c1864007a6f5464df7c96036328 -> 3498a29d79fd6e504f2b2fe6b98511153d2addf5 }
+Partial Cherry-pick commits SHA are -> 
+26c6ecb2510d35333496ff71a0cc7e2e52e5a21f - cherrypick - 3498a29d79fd6e504f2b2fe6b98511153d2addf5
+---> The cherrypicked commit sha is - 26c6ecb2510d35333496ff71a0cc7e2e52e5a21f
+Commit message - Make sure test apps report no errors
+---> The original commit sha is - 3498a29d79fd6e504f2b2fe6b98511153d2addf5
+Commit message - Merge pull request #71 from presidentbeef/handle_layout_in_views
+
+Treat render :layout in views like partials
+---> The files with partial_cherrypicks are:-
+test/test.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 131 is -> 
+{ d13323576691a7f9af82ec5e42e2107a984f0f87 -> 77a35aedac6a0993ac227e68fa459304d9e580ad } is a cherrypick
+{ bd05d2d67393ae00de45be17df54a0ab2cb8cbb6 -> 4ffff0fcfbbf0970d9e93de1a176b1f00bc40646 }
+Partial Cherry-pick commits SHA are -> 
+77a35aedac6a0993ac227e68fa459304d9e580ad - cherrypick - 4ffff0fcfbbf0970d9e93de1a176b1f00bc40646
+---> The cherrypicked commit sha is - 77a35aedac6a0993ac227e68fa459304d9e580ad
+Commit message -  I was getting a NoMethodError when rescanning a file in the lib directory.
+
+    NoMethodError: undefined method `process_library' for #<Brakeman::Rescanner:0x10a8f5380>
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:77:in `rescan_file'
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:50:in `rescan'
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:47:in `each'
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:47:in `rescan'
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:46:in `each'
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:46:in `rescan'
+    /Users/neilm/workspace/brakeman/lib/brakeman/rescanner.rb:22:in `recheck'
+    /Users/neilm/workspace/brakeman/lib/brakeman.rb:291:in `rescan'
+    /usr/local/rvm/gems/ree-1.8.7-2011.12/gems/guard-brakeman-0.3.1/lib/guard/brakeman.rb:73:in `run_on_change'
+---> The original commit sha is - 4ffff0fcfbbf0970d9e93de1a176b1f00bc40646
+Commit message - Merge pull request #56 from presidentbeef/output_stack_trace_in_187
+
+Standardize output of stack trace in 1.8 and 1.9
+but only when using debug option
+---> The files with partial_cherrypicks are:-
+lib/brakeman/rescanner.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 132 is -> 
+{ edaa05d02b7f8f2c72f249e5a3e1b66cf5fb3d70 -> 3dc688eef8264241fe4a9b5e7089f5035e8ef7b1 } is a cherrypick
+{ c94b99a2f5dde93555989dcd217be6b1d592670f -> a31a1bd29561d377d6ae0b4b807e770cc88ed55f }
+Partial Cherry-pick commits SHA are -> 
+3dc688eef8264241fe4a9b5e7089f5035e8ef7b1 - cherrypick - a31a1bd29561d377d6ae0b4b807e770cc88ed55f
+---> The cherrypicked commit sha is - 3dc688eef8264241fe4a9b5e7089f5035e8ef7b1
+Commit message - Catch raw hrefs as bad, warn unless wrapped in a "safe" method
+
+Add concept of a safe-ening method to mark hrefs as safe
+
+Feature:
+Warn when using unsafe hrefs.  This is a very specific case that as of now produces a ton of noise.  This came out of an xss vuln where the value was escaped but still vulnerable.
+
+    link_to 'asdf', h(@scary)
+
+where
+
+    @scary = 'javascript:alert(1)'
+
+or
+
+    @scary = 'data:  # http://palpapers.plynt.com/issues/2010Oct/bypass-xss-filters/
+
+This branch accomplishes slightly intelligent warnings by adding a new command line option to declare methods that make a string URL safe (unless there is already a standard one out there).  e.g.:
+
+    $ brakeman . --url-safe-methods ensure_valid_protocol!
+
+    link_to 'asdf', ensure_valid_protocol!(@scary, :javascript)
+---> The original commit sha is - a31a1bd29561d377d6ae0b4b807e770cc88ed55f
+Commit message - Merge pull request #45 from oreoshake/link_to_href_check
+
+Catch raw hrefs as bad, warn unless wrapped in a "safe" method
+---> The files with partial_cherrypicks are:-
+lib/brakeman/options.rb
+test/apps/rails2/app/views/home/test_params.html.erb
+test/apps/rails3/app/views/home/test_params.html.erb
+test/test.rb
+test/tests/test_rails2.rb
+test/tests/test_rails3.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 133 is -> 
+{ e69f18c7824e6d1cd16d569a64b344ef8240e751 -> 493e5d1120c3a2dca1db026ae845dbb898199597 } is a cherrypick
+{ 04fa1f4b626c18a36b63c6588428edb2de19bf6b -> be151a3023dbf5d85f7f9c92df6b963e3c1f2bdc }
+Partial Cherry-pick commits SHA are -> 
+493e5d1120c3a2dca1db026ae845dbb898199597 - cherrypick - be151a3023dbf5d85f7f9c92df6b963e3c1f2bdc
+---> The cherrypicked commit sha is - 493e5d1120c3a2dca1db026ae845dbb898199597
+Commit message - Oops, add rake file
+---> The original commit sha is - be151a3023dbf5d85f7f9c92df6b963e3c1f2bdc
+Commit message - Merge branch 'master' of github.com:presidentbeef/brakeman
+---> The files with partial_cherrypicks are:-
+bin/brakeman
+lib/brakeman/brakeman.rake
+lib/brakeman/options.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 134 is -> 
+{ 0fce9f8d0738ee1cec35c05bbf4f2f0338a54fc5 -> 28ea36e1be6035311b35a99fd4604a30dc80c75c } is a cherrypick
+{ b2eb4a25c778acfafad890ca3c4ff3601b112cda -> 7849667d9a5efa4fd40bf18cdddb643f7f1847af }
+Partial Cherry-pick commits SHA are -> 
+28ea36e1be6035311b35a99fd4604a30dc80c75c - cherrypick - 7849667d9a5efa4fd40bf18cdddb643f7f1847af
+---> The cherrypicked commit sha is - 28ea36e1be6035311b35a99fd4604a30dc80c75c
+Commit message - Add Brakeman#rescan
+---> The original commit sha is - 7849667d9a5efa4fd40bf18cdddb643f7f1847af
+Commit message - Fix test for cookies from controller
+---> The files with partial_cherrypicks are:-
+lib/brakeman.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 135 is -> 
+{ 71b92a62c952078b07897731add2208c2640d4eb -> 84137bff3a042570d47723fa6740214e8b78ee6d } is a cherrypick
+{ 11428fa27678e0d1afba224babc133b43f4023b4 -> f746d34b14133278eab5a75d1cf3bb73915bd335 }
+Partial Cherry-pick commits SHA are -> 
+84137bff3a042570d47723fa6740214e8b78ee6d - cherrypick - f746d34b14133278eab5a75d1cf3bb73915bd335
+---> The cherrypicked commit sha is - 84137bff3a042570d47723fa6740214e8b78ee6d
+Commit message - Add option to search method targets for targets
+
+when finding calls.
+---> The original commit sha is - f746d34b14133278eab5a75d1cf3bb73915bd335
+Commit message - Merge branch 'rails3'
+
+-Add experimental support for Rails 3
+---> The files with partial_cherrypicks are:-
+CHANGES
+brakeman.gemspec
+lib/checks/base_check.rb
+lib/checks/check_cross_site_scripting.rb
+lib/checks/check_forgery_setting.rb
+lib/checks/check_mail_to.rb
+lib/checks/check_nested_attributes.rb
+lib/checks/check_sql.rb
+lib/report.rb
+lib/version.rb
+lib/warning.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 136 is -> 
+{ 8be19a8083a6a4482f6546eaf56983dfde8aef3a -> 7ab13735f555ee7552b5b7d31903211693c933de } is a cherrypick
+{ 11428fa27678e0d1afba224babc133b43f4023b4 -> f746d34b14133278eab5a75d1cf3bb73915bd335 }
+Partial Cherry-pick commits SHA are -> 
+7ab13735f555ee7552b5b7d31903211693c933de - cherrypick - f746d34b14133278eab5a75d1cf3bb73915bd335
+---> The cherrypicked commit sha is - 7ab13735f555ee7552b5b7d31903211693c933de
+Commit message - Require Sass
+---> The original commit sha is - f746d34b14133278eab5a75d1cf3bb73915bd335
+Commit message - Merge branch 'rails3'
+
+-Add experimental support for Rails 3
+---> The files with partial_cherrypicks are:-
+CHANGES
+brakeman.gemspec
+lib/checks/base_check.rb
+lib/checks/check_cross_site_scripting.rb
+lib/checks/check_forgery_setting.rb
+lib/checks/check_mail_to.rb
+lib/checks/check_nested_attributes.rb
+lib/checks/check_sql.rb
+lib/report.rb
+lib/version.rb
+lib/warning.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 137 is -> 
+{ fa09d4378057d99bb62d759e0b9e612b69136aad -> fe4d5d1dac23ebec52e88fb66af945c110b81a97 } is a cherrypick
+{ 7ab13735f555ee7552b5b7d31903211693c933de -> bf6bbe2b7bffc93a7d927f0236638e74ba751b85 }
+Partial Cherry-pick commits SHA are -> 
+fe4d5d1dac23ebec52e88fb66af945c110b81a97 - cherrypick - bf6bbe2b7bffc93a7d927f0236638e74ba751b85
+---> The cherrypicked commit sha is - fe4d5d1dac23ebec52e88fb66af945c110b81a97
+Commit message - [Rails 3] Handle bare get('controller/action')
+---> The original commit sha is - bf6bbe2b7bffc93a7d927f0236638e74ba751b85
+Commit message - [Rails3] Better support for match() in routes
+---> The files with partial_cherrypicks are:-
+CHANGES
+bin/brakeman
+brakeman.gemspec
+lib/checks/base_check.rb
+lib/checks/check_cross_site_scripting.rb
+lib/checks/check_forgery_setting.rb
+lib/checks/check_mail_to.rb
+lib/checks/check_nested_attributes.rb
+lib/checks/check_sql.rb
+lib/processors/lib/rails2_route_processor.rb
+lib/processors/lib/route_helper.rb
+lib/processors/route_processor.rb
+lib/report.rb
+lib/version.rb
+lib/warning.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 138 is -> 
+{ 2cb5a28531f405536d30813dbf5f23fd8848d67d -> 366184fb59f3b9fde211fb4380e6ac80530132ea } is a cherrypick
+{ 7ab13735f555ee7552b5b7d31903211693c933de -> bf6bbe2b7bffc93a7d927f0236638e74ba751b85 }
+Partial Cherry-pick commits SHA are -> 
+366184fb59f3b9fde211fb4380e6ac80530132ea - cherrypick - bf6bbe2b7bffc93a7d927f0236638e74ba751b85
+---> The cherrypicked commit sha is - 366184fb59f3b9fde211fb4380e6ac80530132ea
+Commit message - Require Sass
+---> The original commit sha is - bf6bbe2b7bffc93a7d927f0236638e74ba751b85
+Commit message - [Rails3] Better support for match() in routes
+---> The files with partial_cherrypicks are:-
+CHANGES
+bin/brakeman
+brakeman.gemspec
+lib/checks/base_check.rb
+lib/checks/check_cross_site_scripting.rb
+lib/checks/check_forgery_setting.rb
+lib/checks/check_mail_to.rb
+lib/checks/check_nested_attributes.rb
+lib/checks/check_sql.rb
+lib/processors/lib/find_model_call.rb
+lib/processors/lib/rails2_route_processor.rb
+lib/processors/lib/route_helper.rb
+lib/processors/route_processor.rb
+lib/report.rb
+lib/version.rb
+lib/warning.rb
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 139 is -> 
+{ 6fe2f19f422449aa928452086e0917dda5fa59fd -> bfe8820c8b1c73d7d95bd9755f21c12ad8bc828d } is a cherrypick
+{ 1744257e5da1c8f348d0e61bd2fbe621435c6f22 -> f410d10b5f51eec1b72837b0d4a2b186ad378437 }
+Partial Cherry-pick commits SHA are -> 
+bfe8820c8b1c73d7d95bd9755f21c12ad8bc828d - cherrypick - f410d10b5f51eec1b72837b0d4a2b186ad378437
+---> The cherrypicked commit sha is - bfe8820c8b1c73d7d95bd9755f21c12ad8bc828d
+Commit message - Include RouteHelper in Rails3 route processor
+---> The original commit sha is - f410d10b5f51eec1b72837b0d4a2b186ad378437
+Commit message - Merge branch 'master' into rails3
+
+Conflicts:
+	bin/brakeman
+---> The files with partial_cherrypicks are:-
+lib/processors/lib/rails2_route_processor.rb
+lib/processors/lib/route_helper.rb
+lib/processors/route_processor.rb
+-----------------------------------------------------------------
+

@@ -1,0 +1,411 @@
+# of cherry-picks = 34
+Cherry-pick diff pair 1 is -> 
+{ ad2c3764764bbeeb0346924a2894f7f86e01e796 -> 46e5e6fad5932a8b5bdc9d25384c5650155cf3b5 } is a cherrypick
+{ d0e0d9ae87126ce4c5545c974b415c348b980884 -> 624ddacd5a879ef5bf555d89e648f982a6bd6a4e }
+Cherrypick commits SHA are -> 
+46e5e6fad5932a8b5bdc9d25384c5650155cf3b5 - cherrypick - 624ddacd5a879ef5bf555d89e648f982a6bd6a4e
+---> The cherrypicked commit sha is - 46e5e6fad5932a8b5bdc9d25384c5650155cf3b5
+Commit message - Minor fix for a missing semicolon
+---> The original commit sha is - 624ddacd5a879ef5bf555d89e648f982a6bd6a4e
+Commit message - Merge pull request #1505 from Ken123777/master
+
+A missing semicolon
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ b6b3a1132fa142539279bcaa698fcc90c6bafdd6 -> 05e6a6e9bbea9739ac3b896e30296ff4faa32495 } is a cherrypick
+{ 1499ce55dba03b19e60990292dc41f68eaa20391 -> 62dd0f68a25156a8364b74fbd05834b27c258db5 }
+Cherrypick commits SHA are -> 
+05e6a6e9bbea9739ac3b896e30296ff4faa32495 - cherrypick - 62dd0f68a25156a8364b74fbd05834b27c258db5
+---> The cherrypicked commit sha is - 05e6a6e9bbea9739ac3b896e30296ff4faa32495
+Commit message - Fix for valueAllowUnset - null selection not maintained when option items update
+---> The original commit sha is - 62dd0f68a25156a8364b74fbd05834b27c258db5
+Commit message - Merge pull request #1623 from knockout/1623-valueAllowUnset-selection-bug
+
+valueAllowUnset - null selection not maintained when option items update
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ 224f8e94095dd9ba7dd5623391f7a9220f704f45 -> 48195a9097b68d488876bb7275e338463f83af1e } is a cherrypick
+{ 175f02d7c56ace39ac7b10aaa17948afe51e9668 -> 5b18955da8e336ace014ee7a1af4cac3cbce85d8 }
+Cherrypick commits SHA are -> 
+48195a9097b68d488876bb7275e338463f83af1e - cherrypick - 5b18955da8e336ace014ee7a1af4cac3cbce85d8
+---> The cherrypicked commit sha is - 48195a9097b68d488876bb7275e338463f83af1e
+Commit message - removed stringTokenize per issue 1357
+---> The original commit sha is - 5b18955da8e336ace014ee7a1af4cac3cbce85d8
+Commit message - Merge pull request #1412 from surgeforward/remove-stringTokenize-1357
+
+removed stringTokenize
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ 511d0828d4e0c13644adcd0251dcdb957681c1dd -> 5efcd94a63771e04dca3348c08ca1a1b1a74464e } is a cherrypick
+{ 262d8cc5c4882f0cf6f3bdcf189540bc002c80bf -> 63914ad5d39a3dd065164e28ec15769c5edd6112 }
+Cherrypick commits SHA are -> 
+5efcd94a63771e04dca3348c08ca1a1b1a74464e - cherrypick - 63914ad5d39a3dd065164e28ec15769c5edd6112
+---> The cherrypicked commit sha is - 5efcd94a63771e04dca3348c08ca1a1b1a74464e
+Commit message - In IE<=8, delay deletion of options until after new items are added to fix a selection bug.
+---> The original commit sha is - 63914ad5d39a3dd065164e28ec15769c5edd6112
+Commit message - Merge pull request #1208 from knockout/1208-ie8-options-selection-bug
+
+KO 3.0.0 bug in IE8 - options/optionsCaption
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ 8dab4bf47d608df9dc75359f66848fc41e3d469d -> 357da61ab4c812b139167a05ff6cd42b66b33a7b } is a cherrypick
+{ da39a30b90d39e9a66f351a94a9a508f7372e749 -> bc1b7a3810abc582803defa00be5acb38bc612f3 }
+Cherrypick commits SHA are -> 
+357da61ab4c812b139167a05ff6cd42b66b33a7b - cherrypick - bc1b7a3810abc582803defa00be5acb38bc612f3
+---> The cherrypicked commit sha is - 357da61ab4c812b139167a05ff6cd42b66b33a7b
+Commit message - Merge pull request #1037 from knockout/virtual-element-with-valueless-binding
+
+make virtualElements support binding without a colon
+---> The original commit sha is - bc1b7a3810abc582803defa00be5acb38bc612f3
+Commit message - Merge branch 'master' of https://github.com/knockout/knockout
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ 33b929048ef134af734634c654defef1041c4f8e -> 4c330a017238501a869150b7f3a6d32792943315 } is a cherrypick
+{ 3b1b704705bd852c0146468285174bf88cd921c7 -> dd53ef1955341fc17b2a78e6a77484104b8e0edf }
+Cherrypick commits SHA are -> 
+4c330a017238501a869150b7f3a6d32792943315 - cherrypick - dd53ef1955341fc17b2a78e6a77484104b8e0edf
+---> The cherrypicked commit sha is - 4c330a017238501a869150b7f3a6d32792943315
+Commit message - Update options binding to trigger a change event if the selection changes as a result of updating the options or by changing the value of an observable item.
+---> The original commit sha is - dd53ef1955341fc17b2a78e6a77484104b8e0edf
+Commit message - Merge pull request #935 from knockout/935-fix-options-notify-value
+
+Observable not getting updated when select options changed
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ 873dcc8b1c272d3d1b30f7d3149f9a7a4b7d5f03 -> 60d692b10ad1c3dab90bff0342ab644e1567fe83 } is a cherrypick
+{ 6ccad62fa05ad27d0f869acac6e932b53e23cdea -> cdf47e6df64fe64b7ac06cc4077b87aee53ce6c8 }
+Cherrypick commits SHA are -> 
+60d692b10ad1c3dab90bff0342ab644e1567fe83 - cherrypick - cdf47e6df64fe64b7ac06cc4077b87aee53ce6c8
+---> The cherrypicked commit sha is - 60d692b10ad1c3dab90bff0342ab644e1567fe83
+Commit message - ko.toJS should not serialize functions, fixes #251
+
+Conflicts:
+	src/subscribables/mappingHelpers.js
+---> The original commit sha is - cdf47e6df64fe64b7ac06cc4077b87aee53ce6c8
+Commit message - Partially merge '833-paglias-toJS-fixes'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ 1a76f5ec38ac273b4b62d4222693bffae5ec510d -> a974825934be37bfb3d18ce4536e03c45402968a } is a cherrypick
+{ 90ad463233c89c5e65036ff8521e454e126bfa68 -> 7fbb70caa997ca050fc488e0d053421e55de7de3 }
+Cherrypick commits SHA are -> 
+a974825934be37bfb3d18ce4536e03c45402968a - cherrypick - 7fbb70caa997ca050fc488e0d053421e55de7de3
+---> The cherrypicked commit sha is - a974825934be37bfb3d18ce4536e03c45402968a
+Commit message - Update IE9 `select` fix to include all versions.
+---> The original commit sha is - 7fbb70caa997ca050fc488e0d053421e55de7de3
+Commit message - Merge branch '839-fix-ie-select-width'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ bb46e0383223d3607085c47a1bf0da755b2c23a5 -> eeda8c0adfe2fc5c63136a0df4debc3e13bdd817 } is a cherrypick
+{ f8a740ac934d721f13d67062427b3ba691db3513 -> 4f69e92e0428ebff69c9828725ebc1488382bffc }
+Cherrypick commits SHA are -> 
+eeda8c0adfe2fc5c63136a0df4debc3e13bdd817 - cherrypick - 4f69e92e0428ebff69c9828725ebc1488382bffc
+---> The cherrypicked commit sha is - eeda8c0adfe2fc5c63136a0df4debc3e13bdd817
+Commit message - Alias ko.utils.unwrapObservable as ko.unwrap, and improve spec coverage
+---> The original commit sha is - 4f69e92e0428ebff69c9828725ebc1488382bffc
+Commit message - Merge pull request #834 from SteveSanderson/834-unwrap-alias
+
+Short name for ko.utils.unwrapObservable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ 08514f03cfa2b2e7b04c7fdb4eed48edc3d68989 -> 1dfd516e9cab7d3afdcdf692d4ee7f5689b32010 } is a cherrypick
+{ 7c7fee6c0027821a0cca24e3f0d1b5374306620a -> f8a740ac934d721f13d67062427b3ba691db3513 }
+Cherrypick commits SHA are -> 
+1dfd516e9cab7d3afdcdf692d4ee7f5689b32010 - cherrypick - f8a740ac934d721f13d67062427b3ba691db3513
+---> The cherrypicked commit sha is - 1dfd516e9cab7d3afdcdf692d4ee7f5689b32010
+Commit message - Prevent binding to missing nodes in case of malformed template (#814)
+Reverts change from 8bb9b39626f that worked around a specific instance of this problem.
+---> The original commit sha is - f8a740ac934d721f13d67062427b3ba691db3513
+Commit message - Merge pull request #893 from SteveSanderson/paglias-703-ie9-frame-hasfocus
+
+Paglias 703 ie9 frame hasfocus
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ b9598eeb7906b06b722c154392906ebf6cbfea05 -> 254cf61ee2fad76ef9dc37e6cba0e3a896618a5d } is a cherrypick
+{ 2d8ded3b509009af63e15c62edb334c94d3f4468 -> 8d17bbf3ce8772ef665997940c9a054503c1ae42 }
+Cherrypick commits SHA are -> 
+254cf61ee2fad76ef9dc37e6cba0e3a896618a5d - cherrypick - 8d17bbf3ce8772ef665997940c9a054503c1ae42
+---> The cherrypicked commit sha is - 254cf61ee2fad76ef9dc37e6cba0e3a896618a5d
+Commit message - Fix minor spelling error of 'callback'
+---> The original commit sha is - 8d17bbf3ce8772ef665997940c9a054503c1ae42
+Commit message - Merge branch 'master' of github.com:SteveSanderson/knockout
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ 6f560075e97208500e907a845a0bbb1e3410477f -> aa8cfce23d7abb0da5489e370340a7676fc58572 } is a cherrypick
+{ 2d8ded3b509009af63e15c62edb334c94d3f4468 -> 8d17bbf3ce8772ef665997940c9a054503c1ae42 }
+Cherrypick commits SHA are -> 
+aa8cfce23d7abb0da5489e370340a7676fc58572 - cherrypick - 8d17bbf3ce8772ef665997940c9a054503c1ae42
+---> The cherrypicked commit sha is - aa8cfce23d7abb0da5489e370340a7676fc58572
+Commit message - Merge pull request #862 from bionicbrian/master
+
+Correct minor spelling error of 'callback'
+---> The original commit sha is - 8d17bbf3ce8772ef665997940c9a054503c1ae42
+Commit message - Merge branch 'master' of github.com:SteveSanderson/knockout
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ b9598eeb7906b06b722c154392906ebf6cbfea05 -> 254cf61ee2fad76ef9dc37e6cba0e3a896618a5d } is a cherrypick
+{ 6f560075e97208500e907a845a0bbb1e3410477f -> aa8cfce23d7abb0da5489e370340a7676fc58572 }
+Cherrypick commits SHA are -> 
+254cf61ee2fad76ef9dc37e6cba0e3a896618a5d - cherrypick - aa8cfce23d7abb0da5489e370340a7676fc58572
+---> The cherrypicked commit sha is - 254cf61ee2fad76ef9dc37e6cba0e3a896618a5d
+Commit message - Fix minor spelling error of 'callback'
+---> The original commit sha is - aa8cfce23d7abb0da5489e370340a7676fc58572
+Commit message - Merge pull request #862 from bionicbrian/master
+
+Correct minor spelling error of 'callback'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 14 is -> 
+{ 259125182e4a85736e603fb07b6870b8a2687ca4 -> e010ecde2840b14e46f8efa5a13d1f27f383111d } is a cherrypick
+{ b22cd768725faa1a7bcd00f78b453f7a0bf53a57 -> 8935de40f080dce52314aa4e207fbfd2578dfc24 }
+Cherrypick commits SHA are -> 
+e010ecde2840b14e46f8efa5a13d1f27f383111d - cherrypick - 8935de40f080dce52314aa4e207fbfd2578dfc24
+---> The cherrypicked commit sha is - e010ecde2840b14e46f8efa5a13d1f27f383111d
+Commit message - Fix for #698. Keep track of latest focus value, so we don't unnecessarily call focus/blur in the update function.
+---> The original commit sha is - 8935de40f080dce52314aa4e207fbfd2578dfc24
+Commit message - Merge branch '698-hasfocus-focus-getting-set-back'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 15 is -> 
+{ c96b99e3dcec040f2fba56ff41ee12aff60a36ed -> e8b666340b342b3dd32f839e16daedfc6c66effc } is a cherrypick
+{ 3e55701eaec732277036a8055ec898eaffc06c57 -> 5e12b9e6f5e0e40721a131fe9838563d5321a057 }
+Cherrypick commits SHA are -> 
+e8b666340b342b3dd32f839e16daedfc6c66effc - cherrypick - 5e12b9e6f5e0e40721a131fe9838563d5321a057
+---> The cherrypicked commit sha is - e8b666340b342b3dd32f839e16daedfc6c66effc
+Commit message - Change setDomNodeChildrenFromArrayMapping to remove nodes before doing add/reorder to match 2.1.0 behavior.
+---> The original commit sha is - 5e12b9e6f5e0e40721a131fe9838563d5321a057
+Commit message - Merge branch '665-fix-foreach-remove-after-add'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 16 is -> 
+{ 9a237663d549216be50bde072a50c9697082fca7 -> e5c4892ae5f355a35abe0671dd6eb6b50c84f02a } is a cherrypick
+{ ad8821462d9913f74d938ec1466d4de330b9459d -> 8a81a3867e01523544b1a969aec2f10ae47eeff2 }
+Cherrypick commits SHA are -> 
+e5c4892ae5f355a35abe0671dd6eb6b50c84f02a - cherrypick - 8a81a3867e01523544b1a969aec2f10ae47eeff2
+---> The cherrypicked commit sha is - e5c4892ae5f355a35abe0671dd6eb6b50c84f02a
+Commit message - Merge pull request #490 from SteveSanderson/490-make-ko-available-in-bindings
+
+Text-based template support breaks when an AMD loader is present
+---> The original commit sha is - 8a81a3867e01523544b1a969aec2f10ae47eeff2
+Commit message - Merge pull request #403 from SteveSanderson/403-observable-array-mutation-without-subscription
+
+observableArray mutation functions shouldn't create subscription
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 17 is -> 
+{ aa266f95c4eb762f9d1d706de03f8e1dc7962f93 -> 0b49457f6d1d419c8931319476eb33ca152252d9 } is a cherrypick
+{ 2ffcb2c89a92e4f0ec708ee8456b26934447da84 -> 9a237663d549216be50bde072a50c9697082fca7 }
+Cherrypick commits SHA are -> 
+0b49457f6d1d419c8931319476eb33ca152252d9 - cherrypick - 9a237663d549216be50bde072a50c9697082fca7
+---> The cherrypicked commit sha is - 0b49457f6d1d419c8931319476eb33ca152252d9
+Commit message - Respect _destroy flag when producing list of options
+---> The original commit sha is - 9a237663d549216be50bde072a50c9697082fca7
+Commit message - Merge branch '333-name-attribute-in-old-ie'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 18 is -> 
+{ 203e2f35596ce75ee37868c4779c631cc16e6e2c -> d48ce75b53fb8ed006a42963c5af8c181a52d6c6 } is a cherrypick
+{ 365bfee3e7031bca11a6c2b23210bfbc75e21903 -> f0edc52d2ca9b5253deb13af19e326b083057e8d }
+Cherrypick commits SHA are -> 
+d48ce75b53fb8ed006a42963c5af8c181a52d6c6 - cherrypick - f0edc52d2ca9b5253deb13af19e326b083057e8d
+---> The cherrypicked commit sha is - d48ce75b53fb8ed006a42963c5af8c181a52d6c6
+Commit message - #138 - save local copy of jQuery object; minify extern names for smaller size (about 300 bytes)
+---> The original commit sha is - f0edc52d2ca9b5253deb13af19e326b083057e8d
+Commit message - Merge branch '138-jQuery-extern'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 19 is -> 
+{ f4a861a9d65db0eedb0f0cd9e6b2d182fdf7d4a6 -> c9f49db7ed203f0bdc3041d5e13db548bc1a12f5 } is a cherrypick
+{ 587fa014317d20fa09a371ed58762daa38e6649e -> 76bb0b11ae2fffccf36123bf6921063e93990833 }
+Cherrypick commits SHA are -> 
+c9f49db7ed203f0bdc3041d5e13db548bc1a12f5 - cherrypick - 76bb0b11ae2fffccf36123bf6921063e93990833
+---> The cherrypicked commit sha is - c9f49db7ed203f0bdc3041d5e13db548bc1a12f5
+Commit message - Force use of attachEvent when registering "propertychange" events (bypassing jQuery too, as that doesn't support "propertychange" at all)
+---> The original commit sha is - 76bb0b11ae2fffccf36123bf6921063e93990833
+Commit message - Merge branch 'master' of github.com:SteveSanderson/knockout
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 20 is -> 
+{ 68c356f1065e275b2582690b8c1fbd27f88af7ad -> 36225f9100b1ee954f7043cc4ff21fe60720994d } is a cherrypick
+{ b76809810674c4558a4afd224eecd71163fdb7ad -> 4ab69a9ed95a94cc46b7a12be78ac15f8e6a099a }
+Cherrypick commits SHA are -> 
+36225f9100b1ee954f7043cc4ff21fe60720994d - cherrypick - 4ab69a9ed95a94cc46b7a12be78ac15f8e6a099a
+---> The cherrypicked commit sha is - 36225f9100b1ee954f7043cc4ff21fe60720994d
+Commit message - Make tagNameLower resilient against unexpected inputs
+---> The original commit sha is - 4ab69a9ed95a94cc46b7a12be78ac15f8e6a099a
+Commit message - Merge pull request #423 from SteveSanderson/411-tagnamelower-check
+
+Make tagNameLower resilient against unexpected inputs
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 21 is -> 
+{ 5ecbc93a76e215643206f60f450a9408e2e0ccdf -> 10c99b8c6c57854dffb03f5c7105c47aebf574dc } is a cherrypick
+{ 3e2b5a0cf8aa158bc2924c901d87fb1599f813bc -> 6d0d4bb70b82bdd30de7fe0cad7da16af8d9cd36 }
+Cherrypick commits SHA are -> 
+10c99b8c6c57854dffb03f5c7105c47aebf574dc - cherrypick - 6d0d4bb70b82bdd30de7fe0cad7da16af8d9cd36
+---> The cherrypicked commit sha is - 10c99b8c6c57854dffb03f5c7105c47aebf574dc
+Commit message - don't use cloneNode for IE<9
+---> The original commit sha is - 6d0d4bb70b82bdd30de7fe0cad7da16af8d9cd36
+Commit message - don't use cloneNode for IE<9
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 22 is -> 
+{ b9ffa7672a8637f91a847536027d30363b80d497 -> b6f22ed24c807a4a41ddfb646ca70dfad629a7a0 } is a cherrypick
+{ 3f8ed1ebddf988797bee3e56b4cbeff5125a498c -> bdf5c4d494536f92d1a5165527d3571ead35c4e6 }
+Cherrypick commits SHA are -> 
+b6f22ed24c807a4a41ddfb646ca70dfad629a7a0 - cherrypick - bdf5c4d494536f92d1a5165527d3571ead35c4e6
+---> The cherrypicked commit sha is - b6f22ed24c807a4a41ddfb646ca70dfad629a7a0
+Commit message - Merge branch 'computed_optimize' of https://github.com/mbest/knockout into mbest-computed_optimize
+---> The original commit sha is - bdf5c4d494536f92d1a5165527d3571ead35c4e6
+Commit message - Merge branch 'computed_optimize' of https://github.com/mbest/knockout
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 23 is -> 
+{ 1f77faaefb27588bdd658e5f6c70428beb658684 -> 791be9eb14f007d562d820aedbfb1c5fe44bde08 } is a cherrypick
+{ 4bf90c5e5877d4a4b55339061c46199138f774bb -> 87af741cd421f4a75cbe5dbce0188993fcc796bf }
+Cherrypick commits SHA are -> 
+791be9eb14f007d562d820aedbfb1c5fe44bde08 - cherrypick - 87af741cd421f4a75cbe5dbce0188993fcc796bf
+---> The cherrypicked commit sha is - 791be9eb14f007d562d820aedbfb1c5fe44bde08
+Commit message - arrayPushAll function is modified.
+Check if valuesToPush parameter is an Array. If so, then push whole content to array.
+
+Advantage: Subscribers are only called once and not [valuesToPush.length] times.
+---> The original commit sha is - 87af741cd421f4a75cbe5dbce0188993fcc796bf
+Commit message - Merge branch 'patch-1' of https://github.com/b-dur/knockout into b-dur-patch-1
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 24 is -> 
+{ 0cbcbad2467f8b7ebffae0fb3d2e1bca2c630238 -> e92bf66abcee0fbfcef14cf60cdb18c2b03690bc } is a cherrypick
+{ 70fe9fbdf3dce17ed65cdc7d90fe66d88a7ba72d -> fa48e02074afa50d936e1e195d0c7f6c9faa8afc }
+Cherrypick commits SHA are -> 
+e92bf66abcee0fbfcef14cf60cdb18c2b03690bc - cherrypick - fa48e02074afa50d936e1e195d0c7f6c9faa8afc
+---> The cherrypicked commit sha is - e92bf66abcee0fbfcef14cf60cdb18c2b03690bc
+Commit message - Updated remove and removeAll to modify their underlying arrays rather than creating new arrays.
+This makes them consistent with the rest of the array write functions.
+Added tests to verify original array is modified.
+Also added test to verify there is no notification when nothing is removed.
+---> The original commit sha is - fa48e02074afa50d936e1e195d0c7f6c9faa8afc
+Commit message - Merge branch 'fix-remove' of https://github.com/studgeek/knockout into studgeek-fix-remove
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 25 is -> 
+{ aa748e8ae3a926c1c5677ca8b6c54f0302d1516e -> eb51695b15c0c691b28c0ddf1f3ce89d6dbd8471 } is a cherrypick
+{ b2c5443b74e4a0c7e331b28c91626aabb2213349 -> 94098b437e970af555a2f5b70125d026c3439bcf }
+Cherrypick commits SHA are -> 
+eb51695b15c0c691b28c0ddf1f3ce89d6dbd8471 - cherrypick - 94098b437e970af555a2f5b70125d026c3439bcf
+---> The cherrypicked commit sha is - eb51695b15c0c691b28c0ddf1f3ce89d6dbd8471
+Commit message - changing IE detection to not rely on user agents
+---> The original commit sha is - 94098b437e970af555a2f5b70125d026c3439bcf
+Commit message - Merge branch 'master' of https://github.com/aaronpowell/knockout into aaronpowell-master
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 26 is -> 
+{ 78295236fd4ad65d270153eb116d46d88d88b224 -> a56a731e914d2a10840b0478a2257c080d26aec4 } is a cherrypick
+{ d3c1c8c59e68fc104e850431ebd4cc67e7589d10 -> ce09803101754323eb0a54a28ea7d5dad9ec07e7 }
+Cherrypick commits SHA are -> 
+a56a731e914d2a10840b0478a2257c080d26aec4 - cherrypick - ce09803101754323eb0a54a28ea7d5dad9ec07e7
+---> The cherrypicked commit sha is - a56a731e914d2a10840b0478a2257c080d26aec4
+Commit message - Fix triggering of keyboard events on Firefox 2
+---> The original commit sha is - ce09803101754323eb0a54a28ea7d5dad9ec07e7
+Commit message - Fix triggering of keyboard events on Firefox 2
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 27 is -> 
+{ a64b88a58a52e3ce44b8b7250778e4d3d15ed657 -> f2ee36d2c8917823b843522fd74e62a0fbc5f7b0 } is a cherrypick
+{ bfb350e332a9e299d2b2e88645d64bcf57c5c55c -> 02350577d72b897591d5e8c0ac8e5aeb106b7d2c }
+Cherrypick commits SHA are -> 
+f2ee36d2c8917823b843522fd74e62a0fbc5f7b0 - cherrypick - 02350577d72b897591d5e8c0ac8e5aeb106b7d2c
+---> The cherrypicked commit sha is - f2ee36d2c8917823b843522fd74e62a0fbc5f7b0
+Commit message - Fix issue #88 - optionsText should HTML-encode text content of <OPTION> nodes
+---> The original commit sha is - 02350577d72b897591d5e8c0ac8e5aeb106b7d2c
+Commit message - Fix issue #88 - optionsText should HTML-encode text content of <OPTION> nodes
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 28 is -> 
+{ 2e85f367fa57cdf94aca34cc40442afd71de25ff -> 31b3152f847feafd908e23497a0f7a0ef2f3d39d } is a cherrypick
+{ 843420a6f801b17dd357880b359a67fa53647999 -> bfb350e332a9e299d2b2e88645d64bcf57c5c55c }
+Cherrypick commits SHA are -> 
+31b3152f847feafd908e23497a0f7a0ef2f3d39d - cherrypick - bfb350e332a9e299d2b2e88645d64bcf57c5c55c
+---> The cherrypicked commit sha is - 31b3152f847feafd908e23497a0f7a0ef2f3d39d
+Commit message - Test uses textContent if innerText undefined. (fix for Firefox)
+---> The original commit sha is - bfb350e332a9e299d2b2e88645d64bcf57c5c55c
+Commit message - Merge commit '843420a'
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 29 is -> 
+{ 50ef0bd0b7c3d02aedcceb3ea693a7ff503d9d1b -> 666c3969ad3dfb4b1ecd44b8001253ff13b14c33 } is a cherrypick
+{ 17c290848e00898e73f56ffa76f580dc618079ae -> 0b0594f142c0b47848f69661ede86211d2e8a17d }
+Cherrypick commits SHA are -> 
+666c3969ad3dfb4b1ecd44b8001253ff13b14c33 - cherrypick - 0b0594f142c0b47848f69661ede86211d2e8a17d
+---> The cherrypicked commit sha is - 666c3969ad3dfb4b1ecd44b8001253ff13b14c33
+Commit message - Fix issue #71 (minified version behaves differently from unminified version)
+---> The original commit sha is - 0b0594f142c0b47848f69661ede86211d2e8a17d
+Commit message - Merge branch 'master' of git@github.com:SteveSanderson/knockout.git
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 30 is -> 
+{ 30ff2b2773a4657cc0df4a9e850d58097fcffe12 -> f0160e452c790c17fcab4d7a94bd696df528f2cc } is a cherrypick
+{ 17c290848e00898e73f56ffa76f580dc618079ae -> 0b0594f142c0b47848f69661ede86211d2e8a17d }
+Cherrypick commits SHA are -> 
+f0160e452c790c17fcab4d7a94bd696df528f2cc - cherrypick - 0b0594f142c0b47848f69661ede86211d2e8a17d
+---> The cherrypicked commit sha is - f0160e452c790c17fcab4d7a94bd696df528f2cc
+Commit message - Merge branch 'master' of git@github.com:SteveSanderson/knockout.git into 1.3
+---> The original commit sha is - 0b0594f142c0b47848f69661ede86211d2e8a17d
+Commit message - Merge branch 'master' of git@github.com:SteveSanderson/knockout.git
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 31 is -> 
+{ 50ef0bd0b7c3d02aedcceb3ea693a7ff503d9d1b -> 666c3969ad3dfb4b1ecd44b8001253ff13b14c33 } is a cherrypick
+{ 30ff2b2773a4657cc0df4a9e850d58097fcffe12 -> f0160e452c790c17fcab4d7a94bd696df528f2cc }
+Cherrypick commits SHA are -> 
+666c3969ad3dfb4b1ecd44b8001253ff13b14c33 - cherrypick - f0160e452c790c17fcab4d7a94bd696df528f2cc
+---> The cherrypicked commit sha is - 666c3969ad3dfb4b1ecd44b8001253ff13b14c33
+Commit message - Fix issue #71 (minified version behaves differently from unminified version)
+---> The original commit sha is - f0160e452c790c17fcab4d7a94bd696df528f2cc
+Commit message - Merge branch 'master' of git@github.com:SteveSanderson/knockout.git into 1.3
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 32 is -> 
+{ 000cee3899c96e1483b641ea0da3786f4571fdaf -> 2f081003b69d19bf1f762d9cac07423038480ee2 } is a cherrypick
+{ c648d34e80f895c41b72150161ea97a4e2c5d84c -> ca16d293fba19cf9813b0fbbb4166990b3452ded }
+Cherrypick commits SHA are -> 
+2f081003b69d19bf1f762d9cac07423038480ee2 - cherrypick - ca16d293fba19cf9813b0fbbb4166990b3452ded
+---> The cherrypicked commit sha is - 2f081003b69d19bf1f762d9cac07423038480ee2
+Commit message - fixed rewriting regex
+---> The original commit sha is - ca16d293fba19cf9813b0fbbb4166990b3452ded
+Commit message - Merge branch 'master' of https://github.com/aaronblohowiak/knockout into aaronblohowiak-master
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 33 is -> 
+{ a2e4c7c0f4d5b549b55495e4806a92cc607f87b8 -> cfd8c57ba7a41c9263c3d6981f5d28bf5c25b3f1 } is a cherrypick
+{ 141f3d7ae01dad9bdc1391c463a9b846bbc28996 -> 62d4ad7253966880628c54ad3c59ffc7eb62085e }
+Cherrypick commits SHA are -> 
+cfd8c57ba7a41c9263c3d6981f5d28bf5c25b3f1 - cherrypick - 62d4ad7253966880628c54ad3c59ffc7eb62085e
+---> The cherrypicked commit sha is - cfd8c57ba7a41c9263c3d6981f5d28bf5c25b3f1
+Commit message - Extended AfterAdd/BeforeRemove callbacks to pass on more information
+---> The original commit sha is - 62d4ad7253966880628c54ad3c59ffc7eb62085e
+Commit message - Merge branch 'foreach_tweaks' of http://github.com/royjacobs/knockout into royjacobs-foreach_tweaks
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 34 is -> 
+{ 899cc7598b658fce60bdbe49fa56da208813d35c -> 194341f5ed3790cd9984235d48ad697d3e2b6452 } is a cherrypick
+{ a48fa72c473c4ed0a19fb4a6def66c578c0f5f09 -> 9b8d0aef3e284fa8b2b556507c9ddf641d0bc018 }
+Cherrypick commits SHA are -> 
+194341f5ed3790cd9984235d48ad697d3e2b6452 - cherrypick - 9b8d0aef3e284fa8b2b556507c9ddf641d0bc018
+---> The cherrypicked commit sha is - 194341f5ed3790cd9984235d48ad697d3e2b6452
+Commit message - Shelving work on gridEditor example
+---> The original commit sha is - 9b8d0aef3e284fa8b2b556507c9ddf641d0bc018
+Commit message - Merge branch 'gridEditorExample'
+-----------------------------------------------------------------
+

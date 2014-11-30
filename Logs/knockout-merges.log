@@ -1,0 +1,1597 @@
+# of merges = 251
+Merge commit 1 is -> 
+{ 9b8d0aef3e284fa8b2b556507c9ddf641d0bc018 is a merge commit
+---> Commit message - Merge branch 'gridEditorExample'
+-----------------------------------------------------------------
+
+Merge commit 2 is -> 
+{ 62d4ad7253966880628c54ad3c59ffc7eb62085e is a merge commit
+---> Commit message - Merge branch 'foreach_tweaks' of http://github.com/royjacobs/knockout into royjacobs-foreach_tweaks
+-----------------------------------------------------------------
+
+Merge commit 3 is -> 
+{ ca16d293fba19cf9813b0fbbb4166990b3452ded is a merge commit
+---> Commit message - Merge branch 'master' of https://github.com/aaronblohowiak/knockout into aaronblohowiak-master
+-----------------------------------------------------------------
+
+Merge commit 4 is -> 
+{ 0a3720720cad73b6f70ec43edc1fbd1750f51899 is a merge commit
+---> Commit message - Merge branch 'master' of git@github.com:SteveSanderson/knockout.git
+-----------------------------------------------------------------
+
+Merge commit 5 is -> 
+{ 0f30933cf03fd162fd19682b2ea2788913c0c4b3 is a merge commit
+---> Commit message - Merge branch 'optionsText' of https://github.com/mattwright/knockout into mattwright-optionsText
+-----------------------------------------------------------------
+
+Merge commit 6 is -> 
+{ 29cc47d58efc77ec946effec6d34627003190ab1 is a merge commit
+---> Commit message - Merge branch 'master' of https://github.com/greenlaw110/knockout into greenlaw110-master
+
+Conflicts:
+	build/output/knockout-latest.js
+-----------------------------------------------------------------
+
+Merge commit 7 is -> 
+{ f0160e452c790c17fcab4d7a94bd696df528f2cc is a merge commit
+---> Commit message - Merge branch 'master' of git@github.com:SteveSanderson/knockout.git into 1.3
+-----------------------------------------------------------------
+
+Merge commit 8 is -> 
+{ 0b0594f142c0b47848f69661ede86211d2e8a17d is a merge commit
+---> Commit message - Merge branch 'master' of git@github.com:SteveSanderson/knockout.git
+-----------------------------------------------------------------
+
+Merge commit 9 is -> 
+{ fa81a12e0ae446f4b23a43a85224c689e73a9e89 is a merge commit
+---> Commit message - Merge branch 'master' into 1.3
+-----------------------------------------------------------------
+
+Merge commit 10 is -> 
+{ 9e8e5d05850b7451245278e92f4c9d3025f3e692 is a merge commit
+---> Commit message - Merge pull request #99 from GLuKKi/patch-1
+
+Fixed lost Error object (Thanks, GLuKKi!)
+-----------------------------------------------------------------
+
+Merge commit 11 is -> 
+{ d1accedaeff99d37d492fb9a6869bd0bd2649d1d is a merge commit
+---> Commit message - Merge pull request #95 from joeldart/dataAttributesFix
+
+fixed regex to allow data-* attributes besides data-bind (Thanks, JoelDart!)
+-----------------------------------------------------------------
+
+Merge commit 12 is -> 
+{ bfe304d5c63af6fe70f44a77df6255e68b5ea5b0 is a merge commit
+---> Commit message - Merge branch 'master' into 1.3
+-----------------------------------------------------------------
+
+Merge commit 13 is -> 
+{ 011b36ffd81a35a9a63b3f5e9316fce4ddee23c5 is a merge commit
+---> Commit message - Merge pull request #100 from antis/master
+
+Update spec to account for FireFox syntax - thanks Antis!
+-----------------------------------------------------------------
+
+Merge commit 14 is -> 
+{ e356a1f2fdc09bfcbe159490ac9e6875fada6193 is a merge commit
+---> Commit message - Merge branch '1.3' of git@github.com:SteveSanderson/knockout.git into 1.3
+-----------------------------------------------------------------
+
+Merge commit 15 is -> 
+{ c4e931c85f870b68240b2c097c67f9fba5ddbbbb is a merge commit
+---> Commit message - Merge branch 'master' into 1.3
+-----------------------------------------------------------------
+
+Merge commit 16 is -> 
+{ bfb350e332a9e299d2b2e88645d64bcf57c5c55c is a merge commit
+---> Commit message - Merge commit '843420a'
+-----------------------------------------------------------------
+
+Merge commit 17 is -> 
+{ 94098b437e970af555a2f5b70125d026c3439bcf is a merge commit
+---> Commit message - Merge branch 'master' of https://github.com/aaronpowell/knockout into aaronpowell-master
+-----------------------------------------------------------------
+
+Merge commit 18 is -> 
+{ 70fe9fbdf3dce17ed65cdc7d90fe66d88a7ba72d is a merge commit
+---> Commit message - Merge pull request #131 from SimonBartlett/master
+
+Fixed a variable which should not have been global.
+-----------------------------------------------------------------
+
+Merge commit 19 is -> 
+{ fa48e02074afa50d936e1e195d0c7f6c9faa8afc is a merge commit
+---> Commit message - Merge branch 'fix-remove' of https://github.com/studgeek/knockout into studgeek-fix-remove
+-----------------------------------------------------------------
+
+Merge commit 20 is -> 
+{ d190e5145ee9977fe82a7394321a46ccc3426b92 is a merge commit
+---> Commit message - Merge branch 'master' into foreach-context-index
+
+* master:
+  More indentation tweaks for tidiness
+  Update the build
+  Minor indentation tweaks
+  Stylistic tweaks to previous commit
+  Eliminate redundant IE6/7 workarounds for radio/checkbox issues. These problems no longer apply now that bindings are always applied to elements after they've been put into the DOM. Fixes issue #169
+  Refactor bad code
+  minor fix
+  Fix render array with \"undefined\" and \"null\" items in \"foreach\"  template
+  Updated remove and removeAll to modify their underlying arrays rather than creating new arrays. This makes them consistent with the rest of the array write functions. Added tests to verify original array is modified. Also added test to verify there is no notification when nothing is removed.
+  changing IE detection to not rely on user agents
+  Fixed a variable which should not have been global.
+-----------------------------------------------------------------
+
+Merge commit 21 is -> 
+{ 2be4d35d5b263dcc24d5d5d19f28bb9b3a1529a0 is a merge commit
+---> Commit message - Merge branch 'toJS' of https://github.com/neonstalwart/knockout into neonstalwart-toJS
+-----------------------------------------------------------------
+
+Merge commit 22 is -> 
+{ 0535189e9b6c3416bad43b1c512a5c814c23536e is a merge commit
+---> Commit message - Merge branch 'master' into foreach-context-index
+
+Conflicts:
+	spec/templatingBehaviors.js
+	src/binding/editDetection/arrayToDomNodeChildren.js
+	src/templating/templating.js
+-----------------------------------------------------------------
+
+Merge commit 23 is -> 
+{ 9e91edb3d9f22e29f8ea4f9f45e1dc03fb353129 is a merge commit
+---> Commit message - Merge branch 'master' into foreach-context-index
+-----------------------------------------------------------------
+
+Merge commit 24 is -> 
+{ b6f22ed24c807a4a41ddfb646ca70dfad629a7a0 is a merge commit
+---> Commit message - Merge branch 'computed_optimize' of https://github.com/mbest/knockout into mbest-computed_optimize
+-----------------------------------------------------------------
+
+Merge commit 25 is -> 
+{ 395b32b884095806d37db52ce0bd2b1d384e3533 is a merge commit
+---> Commit message - Merge branch 'mtscout6-nodeNpmBuild'
+-----------------------------------------------------------------
+
+Merge commit 26 is -> 
+{ 87af741cd421f4a75cbe5dbce0188993fcc796bf is a merge commit
+---> Commit message - Merge branch 'patch-1' of https://github.com/b-dur/knockout into b-dur-patch-1
+-----------------------------------------------------------------
+
+Merge commit 27 is -> 
+{ bdf5c4d494536f92d1a5165527d3571ead35c4e6 is a merge commit
+---> Commit message - Merge branch 'computed_optimize' of https://github.com/mbest/knockout
+-----------------------------------------------------------------
+
+Merge commit 28 is -> 
+{ cdbce8e2762af3633a0988fa03591bc127e1883a is a merge commit
+---> Commit message - Merge branch 'computed_optimize' of https://github.com/mbest/knockout into mbest-computed_optimize
+-----------------------------------------------------------------
+
+Merge commit 29 is -> 
+{ 8f4a72614de6b5c079f229327f495a65ccd98505 is a merge commit
+---> Commit message - Merge branch 'mbest-computed_optimize'
+-----------------------------------------------------------------
+
+Merge commit 30 is -> 
+{ 185b9c7d652ce83ee46e916dd3ec1425457f14a6 is a merge commit
+---> Commit message - Merge 'remotes/upstream/mbest-named_inline_templates' into named_inline_templates
+-----------------------------------------------------------------
+
+Merge commit 31 is -> 
+{ 23893cfaddfefb47caf55715058b36f70cc210cf is a merge commit
+---> Commit message - Merge branch 'mbest-external-containerless-bindings'
+-----------------------------------------------------------------
+
+Merge commit 32 is -> 
+{ 37ffbac82e20deaa0a316db2b81b44c698c7f941 is a merge commit
+---> Commit message - Merge barkmadley:foreach-context-index into 182-foreach-index
+
+Conflicts:
+	spec/templatingBehaviors.js
+	src/templating/templating.js
+-----------------------------------------------------------------
+
+Merge commit 33 is -> 
+{ a2744a0fc29b2d7723a837520e6d68d1d6f26ca3 is a merge commit
+---> Commit message - Merge pull request #334 from rniemeyer/css-binding-prevent-leading-space
+
+Avoid adding a leading space in css binding.
+-----------------------------------------------------------------
+
+Merge commit 34 is -> 
+{ b4b50e8d7233b0cdd4287f7b22bc8aac8afdf743 is a merge commit
+---> Commit message - Merge pull request #268 from SteveSanderson/268-isComputed
+
+add a 'ko.isComputed' function
+-----------------------------------------------------------------
+
+Merge commit 35 is -> 
+{ 0c9418c883b0473e24185196d55445cb3e49f335 is a merge commit
+---> Commit message - Merge branch '139-expose-JSON-stringify-args'
+-----------------------------------------------------------------
+
+Merge commit 36 is -> 
+{ ba7d91e307f4a6608240d591acec011823e8d2cc is a merge commit
+---> Commit message - Merge remote-tracking branch 'GitHub/master'
+-----------------------------------------------------------------
+
+Merge commit 37 is -> 
+{ 768248b4d78e4af6108877fc8cebbd5554ac6ac8 is a merge commit
+---> Commit message - Merge branch '323-IE-class-attr'
+-----------------------------------------------------------------
+
+Merge commit 38 is -> 
+{ 72ed31e5600f2612b2e377dc8f36ff669f33a8cb is a merge commit
+---> Commit message - Merge pull request #273 from SteveSanderson/273-select-flicker
+
+select box will flicker in IE
+-----------------------------------------------------------------
+
+Merge commit 39 is -> 
+{ 08448b74e6f9a2344321e9a87f5d1593cfbcdc72 is a merge commit
+---> Commit message - Merge pull request #216 from SteveSanderson/216-template-in-textarea
+
+Support named templates in textarea tags
+-----------------------------------------------------------------
+
+Merge commit 40 is -> 
+{ 1f334da7a105ca029084cb43c2848c2258661910 is a merge commit
+---> Commit message - Merge branch 'master' into 54-support-xhtml
+-----------------------------------------------------------------
+
+Merge commit 41 is -> 
+{ f8061da176aacbe26fead7c496e4f441b9fd6f3d is a merge commit
+---> Commit message - Merge pull request #225 from SteveSanderson/225-observable-value-in-debugger
+
+view value of observable in debugger
+-----------------------------------------------------------------
+
+Merge commit 42 is -> 
+{ cb6d2c3cacf5a3a88c4255fcef31c394a91d4bd3 is a merge commit
+---> Commit message - Merge remote-tracking branch 'remotes/origin/consistent-builds'
+
+Conflicts:
+	build/build-windows.bat
+-----------------------------------------------------------------
+
+Merge commit 43 is -> 
+{ 38c978467b968c80f373e28c3023ada5eb962164 is a merge commit
+---> Commit message - Merge commit '3734c4fbb1f8dca964755546b204c9609ccc60f2'
+-----------------------------------------------------------------
+
+Merge commit 44 is -> 
+{ da28f76ce149bcbab2359b5e0572aaa31fbf76d8 is a merge commit
+---> Commit message - Merge pull request #122 from SteveSanderson/122-IE-autocomplete
+
+Internet Explorer and AutoComplete
+-----------------------------------------------------------------
+
+Merge commit 45 is -> 
+{ bc98894c71b4e7a55998a43dca5aaf8a3dbf95fe is a merge commit
+---> Commit message - Merge pull request #386 from GilesBradshaw/MinorSpecFix
+
+applyBindingsToDescendants called with extra parameter in spec
+-----------------------------------------------------------------
+
+Merge commit 46 is -> 
+{ 440a93301173f58c588b0ed4ac2d99400bf27bfd is a merge commit
+---> Commit message - Merge pull request #384 from GilesBradshaw/MissingKo
+
+Ko missing in spec
+-----------------------------------------------------------------
+
+Merge commit 47 is -> 
+{ 5d9c406c6dcaa0e37787e95697034daf83236d24 is a merge commit
+---> Commit message - Merge branch '387-recursive-computed-eval'
+-----------------------------------------------------------------
+
+Merge commit 48 is -> 
+{ f9db93008cbb64084052a74e6d9fd1f57f7dee9c is a merge commit
+---> Commit message - Merge pull request #182 from SteveSanderson/182-foreach-index
+
+added $index value in the binding context of foreach templates.
+-----------------------------------------------------------------
+
+Merge commit 49 is -> 
+{ b76809810674c4558a4afd224eecd71163fdb7ad is a merge commit
+---> Commit message - Merge pull request #424 from SteveSanderson/413-arraymapping-tolerate-manual-edits
+
+Fix #413 (tolerate certain kinds of manual DOM edits while using setDomN...
+-----------------------------------------------------------------
+
+Merge commit 50 is -> 
+{ 4ab69a9ed95a94cc46b7a12be78ac15f8e6a099a is a merge commit
+---> Commit message - Merge pull request #423 from SteveSanderson/411-tagnamelower-check
+
+Make tagNameLower resilient against unexpected inputs
+-----------------------------------------------------------------
+
+Merge commit 51 is -> 
+{ d7c269bc5f6f6d3cc583c20ec99430f24f0c424e is a merge commit
+---> Commit message - Merge branch '153-cross-frame-disposal-with-named-templates'
+-----------------------------------------------------------------
+
+Merge commit 52 is -> 
+{ 35c6384078200bd60bc57b8b1898b703eb0097af is a merge commit
+---> Commit message - Merge branch 'master' of github.com:SteveSanderson/knockout
+-----------------------------------------------------------------
+
+Merge commit 53 is -> 
+{ 5c6d813a93c0dbed5a467eadfb0ee021e6b27f9b is a merge commit
+---> Commit message - Merge remote-tracking branch 'remotes/origin/260-trailing-white-space'
+-----------------------------------------------------------------
+
+Merge commit 54 is -> 
+{ 4ecb57b92a4b815c2456643f27b2df35943dd04c is a merge commit
+---> Commit message - Merge pull request #436 from SteveSanderson/436_spec_fix_ie7_jquery
+
+HTML5 elems + containerless templates + jQuery spec fails on IE7/8
+-----------------------------------------------------------------
+
+Merge commit 55 is -> 
+{ 76bb0b11ae2fffccf36123bf6921063e93990833 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:SteveSanderson/knockout
+-----------------------------------------------------------------
+
+Merge commit 56 is -> 
+{ 365bfee3e7031bca11a6c2b23210bfbc75e21903 is a merge commit
+---> Commit message - Merge pull request #488 from knockout-travis/travis_ci
+
+Continuous integration via Travis CI
+-----------------------------------------------------------------
+
+Merge commit 57 is -> 
+{ f0edc52d2ca9b5253deb13af19e326b083057e8d is a merge commit
+---> Commit message - Merge branch '138-jQuery-extern'
+-----------------------------------------------------------------
+
+Merge commit 58 is -> 
+{ 1e67e8bd1b38ba945a5835e769415b6c77f5ac83 is a merge commit
+---> Commit message - Merge branch 'master' into 115-expand-css-binding
+-----------------------------------------------------------------
+
+Merge commit 59 is -> 
+{ e10a189cfa0a1d06f589dc094aeb97876152f0e7 is a merge commit
+---> Commit message - Merge pull request #115 from SteveSanderson/115-expand-css-binding
+
+CSS binding multiple classes in one string not fully supported
+-----------------------------------------------------------------
+
+Merge commit 60 is -> 
+{ 0977fc0b4278b8b187c794886581c87548554314 is a merge commit
+---> Commit message - Merge pull request #459 from SteveSanderson/459-compress-apply-memoized-bindings
+
+Minify could be stronger on literals
+-----------------------------------------------------------------
+
+Merge commit 61 is -> 
+{ a3afdeb0027cfa032631dccdb64ca294870c2ca8 is a merge commit
+---> Commit message - Merge branch 'master' into 144-fix-template-spec
+-----------------------------------------------------------------
+
+Merge commit 62 is -> 
+{ 0d797c03ac8a4e5f3a7109e0ab9a965301fbf754 is a merge commit
+---> Commit message - Merge branch '427-remove-rewrite-cache'
+-----------------------------------------------------------------
+
+Merge commit 63 is -> 
+{ c7a4ba6b26d5ed55cf5866cf18fdc8a10f81f780 is a merge commit
+---> Commit message - Merge branch '326-access-observable-without-subscribing'
+-----------------------------------------------------------------
+
+Merge commit 64 is -> 
+{ b90db49f991277d136a3fbddf82cc2404f80b5d6 is a merge commit
+---> Commit message - Merge pull request #527 from SteveSanderson/282-containerless-text-binding
+
+Implement containerless text binding
+-----------------------------------------------------------------
+
+Merge commit 65 is -> 
+{ 42da2d84d481ae41d01f90bd0283daa444098f14 is a merge commit
+---> Commit message - Merge branch 'selectOptions-consistent-readwrite'
+-----------------------------------------------------------------
+
+Merge commit 66 is -> 
+{ c0aa9b3d3f73021b578ff11986fb465a825bfe74 is a merge commit
+---> Commit message - Merge remote-tracking branch 'remotes/origin/setOptionNodeSelectionState-browser-detection'
+-----------------------------------------------------------------
+
+Merge commit 67 is -> 
+{ aa266f95c4eb762f9d1d706de03f8e1dc7962f93 is a merge commit
+---> Commit message - Merge remote-tracking branch 'remotes/origin/template-name-as-function-of-binding-context'
+-----------------------------------------------------------------
+
+Merge commit 68 is -> 
+{ 5d724a46a40eca250da65918c4450cf4079303b7 is a merge commit
+---> Commit message - Merge pull request #116 from SteveSanderson/116-options-binding-respect-destroy
+
+'Options' binding doesn't respect _destroy setting
+-----------------------------------------------------------------
+
+Merge commit 69 is -> 
+{ 9a237663d549216be50bde072a50c9697082fca7 is a merge commit
+---> Commit message - Merge branch '333-name-attribute-in-old-ie'
+-----------------------------------------------------------------
+
+Merge commit 70 is -> 
+{ e5c4892ae5f355a35abe0671dd6eb6b50c84f02a is a merge commit
+---> Commit message - Merge pull request #490 from SteveSanderson/490-make-ko-available-in-bindings
+
+Text-based template support breaks when an AMD loader is present
+-----------------------------------------------------------------
+
+Merge commit 71 is -> 
+{ 8a81a3867e01523544b1a969aec2f10ae47eeff2 is a merge commit
+---> Commit message - Merge pull request #403 from SteveSanderson/403-observable-array-mutation-without-subscription
+
+observableArray mutation functions shouldn't create subscription
+-----------------------------------------------------------------
+
+Merge commit 72 is -> 
+{ 21001a745543d31ec12d5464f65c0eec972f390c is a merge commit
+---> Commit message - Merge pull request #537 from SteveSanderson/rename-jsonExpressionRewriting
+
+Rename json expression rewriting
+-----------------------------------------------------------------
+
+Merge commit 73 is -> 
+{ f2468a2e2a5d92795f918e44ed46690341636f76 is a merge commit
+---> Commit message - Merge pull request #563 from SteveSanderson/341-ignore-dependencies-from-callbacks
+
+341 ignore dependencies from callbacks
+-----------------------------------------------------------------
+
+Merge commit 74 is -> 
+{ d4bda57fb46bf8ba1ecb0d0875e5beeca178bfbd is a merge commit
+---> Commit message - Merge branch '352-hasfocus-keeps-focus'
+-----------------------------------------------------------------
+
+Merge commit 75 is -> 
+{ 59cea3b740bd58f8d3ed4f8ad84f4a59c22ff90e is a merge commit
+---> Commit message - Merge pull request #606 from SteveSanderson/465-foreach-named-iteration-variable-alternative-impl
+
+"foreach" and "template" bindings accept "as" option to define alias for...
+-----------------------------------------------------------------
+
+Merge commit 76 is -> 
+{ 48c911be2a25b2e00dcda1d272816e76adde09bb is a merge commit
+---> Commit message - Merge pull request #279 from SteveSanderson/279-newlines-in-virtual-elements
+
+Containerless control comments with line-breaks are not recognized.
+-----------------------------------------------------------------
+
+Merge commit 77 is -> 
+{ fbd1ca93e491bfd044f68f3cc61e17c5f8108c3d is a merge commit
+---> Commit message - Merge branch '259-foreach-handle-moves'
+-----------------------------------------------------------------
+
+Merge commit 78 is -> 
+{ 39ddae8524c79ec12fe2cd01c13f9a24a3463df8 is a merge commit
+---> Commit message - Merge pull request #593 from SteveSanderson/593-linux-build-instructions
+
+Update build instructions.
+-----------------------------------------------------------------
+
+Merge commit 79 is -> 
+{ 857ca29de9bbf3a71de6425a4cf3e2a7bb83a569 is a merge commit
+---> Commit message - Merge branch '564-inter' into 564-split-bindings-into-own-files
+-----------------------------------------------------------------
+
+Merge commit 80 is -> 
+{ c943739c9949a60a71c364583f268f910f180dc8 is a merge commit
+---> Commit message - Split checked binding.
+-----------------------------------------------------------------
+
+Merge commit 81 is -> 
+{ 932e922468f085a0b8895b824c9ca2253fecd721 is a merge commit
+---> Commit message - Split click binding.
+-----------------------------------------------------------------
+
+Merge commit 82 is -> 
+{ bbe866dfbc36f335984674b2ab5ae8b5171aea7e is a merge commit
+---> Commit message - Split css binding.
+-----------------------------------------------------------------
+
+Merge commit 83 is -> 
+{ 3257e6790a25671fc391393ed62cc255c1ee0fa6 is a merge commit
+---> Commit message - Split enable/disable bindings.
+-----------------------------------------------------------------
+
+Merge commit 84 is -> 
+{ 055c8fc95375f287c19a724cad617c9532f07eb5 is a merge commit
+---> Commit message - Split foreach binding.
+-----------------------------------------------------------------
+
+Merge commit 85 is -> 
+{ 5900182e26361f0e1de9f5e3c19466579ea94009 is a merge commit
+---> Commit message - Split hasfocus binding.
+-----------------------------------------------------------------
+
+Merge commit 86 is -> 
+{ 6b220bcf80b78ee975f34cef6c1c9bbb0b62aff1 is a merge commit
+---> Commit message - Split html binding.
+-----------------------------------------------------------------
+
+Merge commit 87 is -> 
+{ a296bab18d0d4eee8685bcd02342d2496a6eed6c is a merge commit
+---> Commit message - Split if binding.
+-----------------------------------------------------------------
+
+Merge commit 88 is -> 
+{ 0015936e7769975f5d990ad7fed90868d5bd36a4 is a merge commit
+---> Commit message - Split ifnot binding.
+-----------------------------------------------------------------
+
+Merge commit 89 is -> 
+{ ec62292d2cd69fa32fa6b99c3cb31576fd1c1584 is a merge commit
+---> Commit message - Split options binding.
+-----------------------------------------------------------------
+
+Merge commit 90 is -> 
+{ fd6fdf884fb79772a53bccc7b4dfb2be711fdb79 is a merge commit
+---> Commit message - Split selectedOptions binding.
+-----------------------------------------------------------------
+
+Merge commit 91 is -> 
+{ 90304c4d3bd47e0a02b8885c4e4e653b55a647b7 is a merge commit
+---> Commit message - Split style binding.
+-----------------------------------------------------------------
+
+Merge commit 92 is -> 
+{ 12cc43b505383f829701f6f4a11e5a2ccf43e028 is a merge commit
+---> Commit message - Split submit binding.
+-----------------------------------------------------------------
+
+Merge commit 93 is -> 
+{ 48b76a1797a40428b42f8bf0ff3014b108e4fc40 is a merge commit
+---> Commit message - Split text binding.
+-----------------------------------------------------------------
+
+Merge commit 94 is -> 
+{ e9fae62e0edaf31b1168290b7fec75a74ffaf420 is a merge commit
+---> Commit message - Split uniqueName binding.
+-----------------------------------------------------------------
+
+Merge commit 95 is -> 
+{ 355301ffe1deaf561d19878fc8dbe233289a6ffd is a merge commit
+---> Commit message - Split value binding.
+-----------------------------------------------------------------
+
+Merge commit 96 is -> 
+{ a7eb4251c5284242e1af25754362c07342c3c4ea is a merge commit
+---> Commit message - Split visible binding.
+-----------------------------------------------------------------
+
+Merge commit 97 is -> 
+{ 3cb02a068568a0ec9b56bdd400b6feea9c38310b is a merge commit
+---> Commit message - Split with binding.
+-----------------------------------------------------------------
+
+Merge commit 98 is -> 
+{ 13f31dfeeeb9739e8d29b85c2b2693df20d24145 is a merge commit
+---> Commit message - Split event binding.
+-----------------------------------------------------------------
+
+Merge commit 99 is -> 
+{ 3daa496a800208d2d90e1f79d0777bcb0216ac02 is a merge commit
+---> Commit message - Merge branch 'master' into 564-split-bindings-into-own-files
+-----------------------------------------------------------------
+
+Merge commit 100 is -> 
+{ cdd585c7025637e209ccd63317338074706f04b1 is a merge commit
+---> Commit message - Merge pull request #630 from SteveSanderson/630-build-script-detect-missing-files
+
+Build script references non-existent file "common.js"
+-----------------------------------------------------------------
+
+Merge commit 101 is -> 
+{ cb594d0a1d159cc06570be9e73f07e3fd63ee38f is a merge commit
+---> Commit message - Merge branch '483-dispose-if-no-dependencies'
+-----------------------------------------------------------------
+
+Merge commit 102 is -> 
+{ 7a1c251e096e41180f2e8e04dbd806b6b025077a is a merge commit
+---> Commit message - Merge pull request #324 from SteveSanderson/324-domdata-on-cloned-nodes
+
+Problem setting domnode value in IE 9
+-----------------------------------------------------------------
+
+Merge commit 103 is -> 
+{ 7d1c73020254572cea41ab093dce63d1aab741e0 is a merge commit
+---> Commit message - Merge pull request #615 from SteveSanderson/615-jquery-templates-braces-regression-fix
+
+Regression with jquery.tmpl
+-----------------------------------------------------------------
+
+Merge commit 104 is -> 
+{ d8135283868f52ca2d95de12b9af9e78d5c5377b is a merge commit
+---> Commit message - Merge pull request #562 from SteveSanderson/562-value-should-not-prevent-write
+
+Bug (?) in documentation on computed observables - writeable computeds don't have a chance to react to a change that is the same as current value
+-----------------------------------------------------------------
+
+Merge commit 105 is -> 
+{ ee9ea432f035cbff88865001bdcf7067e29fa026 is a merge commit
+---> Commit message - Merge pull request #652 from SteveSanderson/601-fix-binding-dependencies-2
+
+fix binding dependencies
+-----------------------------------------------------------------
+
+Merge commit 106 is -> 
+{ 3ab0d9ba5007f52169ff24b416e7040cc874ae32 is a merge commit
+---> Commit message - Merge branch '474-element-in-binding'
+
+Conflicts:
+	src/templating/templateRewriting.js
+-----------------------------------------------------------------
+
+Merge commit 107 is -> 
+{ ec9c4d9a8278cb5a47ebc8165b2ac59a2dde24a2 is a merge commit
+---> Commit message - Merge pull request #476 from SteveSanderson/476-lightweight-with-if
+
+make lightweight version of 'with'
+-----------------------------------------------------------------
+
+Merge commit 108 is -> 
+{ 2dc327b48b790c88ebc16474c5e41ffda30aaa9b is a merge commit
+---> Commit message - Merge pull request #661 from SteveSanderson/661-ie10-spec-fix
+
+KO 2.2.0rc spec failure on IE10
+-----------------------------------------------------------------
+
+Merge commit 109 is -> 
+{ c96b99e3dcec040f2fba56ff41ee12aff60a36ed is a merge commit
+---> Commit message - Merge pull request #664 from SteveSanderson/664-further-spec-fixes
+
+Further 2.2.0rc spec failures
+-----------------------------------------------------------------
+
+Merge commit 110 is -> 
+{ 3e55701eaec732277036a8055ec898eaffc06c57 is a merge commit
+---> Commit message - Merge pull request #660 from SteveSanderson/660-handle-malformed-template-markup
+
+HIERARCHY_REQUEST_ERR: DOM Exception 3
+-----------------------------------------------------------------
+
+Merge commit 111 is -> 
+{ 5e12b9e6f5e0e40721a131fe9838563d5321a057 is a merge commit
+---> Commit message - Merge branch '665-fix-foreach-remove-after-add'
+-----------------------------------------------------------------
+
+Merge commit 112 is -> 
+{ c4207887c6606c551ad631ef0367d729039bc7ea is a merge commit
+---> Commit message - Merge branch 'master' into 660-handle-malformed-template-markup
+-----------------------------------------------------------------
+
+Merge commit 113 is -> 
+{ 46c1487f337f6bf4ebb37a706b0dafaa4ba2234c is a merge commit
+---> Commit message - Merge pull request #672 from SteveSanderson/672-hasfocus-lost-dependency
+
+hasfocus: current master breaks hasfocus example (click to focus)
+-----------------------------------------------------------------
+
+Merge commit 114 is -> 
+{ cb0bb29297528efcee836fb5f85be45ad8dafc59 is a merge commit
+---> Commit message - Merge pull request #728 from SteveSanderson/728-hasFocus-alias
+
+hasfocus should be hasFocus
+-----------------------------------------------------------------
+
+Merge commit 115 is -> 
+{ b1076c40b0064a42b2971bbe41d5fcb73be0dbd5 is a merge commit
+---> Commit message - Merge pull request #732 from jamesjwood/master
+
+Fixes error in chrome when you try to inline knockout in your page
+-----------------------------------------------------------------
+
+Merge commit 116 is -> 
+{ b22cd768725faa1a7bcd00f78b453f7a0bf53a57 is a merge commit
+---> Commit message - Merge pull request #739 from SteveSanderson/739-foreach-with-template-rewriting-bugfix
+
+jquery.tmpl interpolation of observables are not updated when inside data-bind'ed elements
+-----------------------------------------------------------------
+
+Merge commit 117 is -> 
+{ 8935de40f080dce52314aa4e207fbfd2578dfc24 is a merge commit
+---> Commit message - Merge branch '698-hasfocus-focus-getting-set-back'
+-----------------------------------------------------------------
+
+Merge commit 118 is -> 
+{ 474d304b9093294cb95edb59e5da86f08841e085 is a merge commit
+---> Commit message - Merge pull request #736 from SteveSanderson/fix-specs-fail-in-IE
+
+fix specs that fail in IE because of sync issues
+-----------------------------------------------------------------
+
+Merge commit 119 is -> 
+{ ae23e566eb5534f2d1783e148f861b9a61a586cf is a merge commit
+---> Commit message - Merge branch '761-build-improvements'
+-----------------------------------------------------------------
+
+Merge commit 120 is -> 
+{ a4874bb5803bf7d49bd46afeb50fff702cbda180 is a merge commit
+---> Commit message - Merge branch 'master' into 751-node-support
+-----------------------------------------------------------------
+
+Merge commit 121 is -> 
+{ d7562597c94093cc97399bb3ebca44b9acd85341 is a merge commit
+---> Commit message - Merge pull request #796 from SteveSanderson/796-support-jquery-1-9
+
+Support for jQuery 1.9 
+-----------------------------------------------------------------
+
+Merge commit 122 is -> 
+{ 94bf1fa0cd29b83462805a278a3e1f459bf4d1c6 is a merge commit
+---> Commit message - Merge pull request #781 from paglias/master
+
+set prototype.constructor when overwriting prototype
+-----------------------------------------------------------------
+
+Merge commit 123 is -> 
+{ 6506cb594cbbbf766d5dea4d7a19325a5a40c6ea is a merge commit
+---> Commit message - Merge pull request #639 from SteveSanderson/639-prevent-computed-overwrite
+
+Knockout overwrites computed observable
+-----------------------------------------------------------------
+
+Merge commit 124 is -> 
+{ 08514f03cfa2b2e7b04c7fdb4eed48edc3d68989 is a merge commit
+---> Commit message - Merge pull request #801 from SteveSanderson/801-empty-template-and-jquery-parseHTML
+
+Empty template throws error in 2.2.1
+-----------------------------------------------------------------
+
+Merge commit 125 is -> 
+{ 3b630f8abf3d4f2f40d7e4ce87a695fffd328bf9 is a merge commit
+---> Commit message - Merge pull request #704 from SteveSanderson/704-expand-css-class-names
+
+css binding doesn't work with class names with slashes, etc. in 2.2
+-----------------------------------------------------------------
+
+Merge commit 126 is -> 
+{ 68a708f9bc945dd4ac6cad526d75fa19c40e62a0 is a merge commit
+---> Commit message - Merge pull request #743 from angelyordanov/master
+
+SelectedOptions binding not updating non-observable properties
+-----------------------------------------------------------------
+
+Merge commit 127 is -> 
+{ ff425c03aaa99b6390f275f1628045bb190bb64c is a merge commit
+---> Commit message - Merge branch 'master' of https://github.com/mattcookh/knockout into mattcookh-pass-template-name-as-observable
+-----------------------------------------------------------------
+
+Merge commit 128 is -> 
+{ b9598eeb7906b06b722c154392906ebf6cbfea05 is a merge commit
+---> Commit message - Merge branch '687-add-objectForEach' of github.com:SteveSanderson/knockout into 687-add-objectForEach
+-----------------------------------------------------------------
+
+Merge commit 129 is -> 
+{ 5af83afd689ce5f45516ae47d5caa1373dd89840 is a merge commit
+---> Commit message - Merge branch '751-node-support'
+-----------------------------------------------------------------
+
+Merge commit 130 is -> 
+{ aa8cfce23d7abb0da5489e370340a7676fc58572 is a merge commit
+---> Commit message - Merge pull request #862 from bionicbrian/master
+
+Correct minor spelling error of 'callback'
+-----------------------------------------------------------------
+
+Merge commit 131 is -> 
+{ fce6eb66402fb2deaa0f05d762813d21a9e3b5a0 is a merge commit
+---> Commit message - Merge branch 'patch-2' of https://github.com/dotnetwise/knockout into dotnetwise-patch-2
+-----------------------------------------------------------------
+
+Merge commit 132 is -> 
+{ 8d17bbf3ce8772ef665997940c9a054503c1ae42 is a merge commit
+---> Commit message - Merge branch 'master' of github.com:SteveSanderson/knockout
+-----------------------------------------------------------------
+
+Merge commit 133 is -> 
+{ 543646e64c281fe8dfce8cb7d0ac6c22e4945b5b is a merge commit
+---> Commit message - Merge pull request #863 from zerko/master
+
+Missing ko. in addOrRemoveItem
+-----------------------------------------------------------------
+
+Merge commit 134 is -> 
+{ 35400632e1f77790c19fab121ff84802d9806465 is a merge commit
+---> Commit message - Merge pull request #861 from bman654/isSubscribable-does-not-crash-on-null-or-undefined
+
+ko.isSubscribable(null) and ko.isSubscribable(undefined) causes an error
+-----------------------------------------------------------------
+
+Merge commit 135 is -> 
+{ e168d8322c106e9c1af43e2771f8dd31fbb15ab1 is a merge commit
+---> Commit message - Merge pull request #869 from paglias/export-utils
+
+export addOrRemoveItem and objectForEach
+-----------------------------------------------------------------
+
+Merge commit 136 is -> 
+{ 2a7e108b8d2bd5fdec974412947aa15ba143bf39 is a merge commit
+---> Commit message - Merge branch '762-reserved-words' of https://github.com/paglias/knockout into paglias-871-js-reserved-words
+-----------------------------------------------------------------
+
+Merge commit 137 is -> 
+{ 01924920f2421847b586025a06f075df567a42f0 is a merge commit
+---> Commit message - Merge pull request #829 from paglias/691-remove-duplicate-specs
+
+fixes #691
+-----------------------------------------------------------------
+
+Merge commit 138 is -> 
+{ b97962dd78695283abfca4ab45cb6e58c493fb75 is a merge commit
+---> Commit message - Merge remote-tracking branch 'origin/master'
+-----------------------------------------------------------------
+
+Merge commit 139 is -> 
+{ 628816fab343c8c88935ac6e763f8bd3d7612e3a is a merge commit
+---> Commit message - Merge branch '875-add-checkedValue'
+-----------------------------------------------------------------
+
+Merge commit 140 is -> 
+{ e2dcbc44788725f70aa6cbae95ab484bd01ae483 is a merge commit
+---> Commit message - Merge pull request #856 from SteveSanderson/856-ie-attachEvent-memory-leak
+
+Memory leak in IE 7, 8 and 9 
+-----------------------------------------------------------------
+
+Merge commit 141 is -> 
+{ 788f66df0a7481cb5c076e74e1d6a2ae023dae17 is a merge commit
+---> Commit message - Merge pull request #826 from SteveSanderson/826-ie-getattributenode-error
+
+IE7 element.getAttributeNode('value').specified == null
+-----------------------------------------------------------------
+
+Merge commit 142 is -> 
+{ f1c8a2d0f85a5c8fd50b534e2934402b29e9e853 is a merge commit
+---> Commit message - Merge pull request #827 from paglias/733-observableArray-non-array-value
+
+fixes #733
+-----------------------------------------------------------------
+
+Merge commit 143 is -> 
+{ f039fbb5edc61c5da765a20caa5543d20dd370b8 is a merge commit
+---> Commit message - Merge commit 'f06c653b9cf929b2552002c5831ed586bd2c4d2a'
+-----------------------------------------------------------------
+
+Merge commit 144 is -> 
+{ bb46e0383223d3607085c47a1bf0da755b2c23a5 is a merge commit
+---> Commit message - Merge branch '493-select-value-supports-null'
+-----------------------------------------------------------------
+
+Merge commit 145 is -> 
+{ a70397464031a08526dd507836a7aacd07344f2f is a merge commit
+---> Commit message - Merge pull request #814 from SteveSanderson/814-prevent-invalid-binding
+
+Prevent invalid binding in re-written templates
+-----------------------------------------------------------------
+
+Merge commit 146 is -> 
+{ 67087c9ff13e11538e2decb38767ff0cc612c0b2 is a merge commit
+---> Commit message - Merge branch '703-ie9-frame-hasfocus' of https://github.com/paglias/knockout into paglias-703-ie9-frame-hasfocus
+-----------------------------------------------------------------
+
+Merge commit 147 is -> 
+{ f8a740ac934d721f13d67062427b3ba691db3513 is a merge commit
+---> Commit message - Merge pull request #893 from SteveSanderson/paglias-703-ie9-frame-hasfocus
+
+Paglias 703 ie9 frame hasfocus
+-----------------------------------------------------------------
+
+Merge commit 148 is -> 
+{ 4f69e92e0428ebff69c9828725ebc1488382bffc is a merge commit
+---> Commit message - Merge pull request #834 from SteveSanderson/834-unwrap-alias
+
+Short name for ko.utils.unwrapObservable
+-----------------------------------------------------------------
+
+Merge commit 149 is -> 
+{ 1a76f5ec38ac273b4b62d4222693bffae5ec510d is a merge commit
+---> Commit message - Merge pull request #818 from SteveSanderson/818-options-using-editDetection
+
+options bindingHandler rebuilds the entire select-element when changing one array element
+-----------------------------------------------------------------
+
+Merge commit 150 is -> 
+{ 30a68e40168e8d60a05dcfb795bccb4f5e7f3ad5 is a merge commit
+---> Commit message - Merge pull request #784 from SteveSanderson/784-enable-testling-ci
+
+Look into using testling-ci
+-----------------------------------------------------------------
+
+Merge commit 151 is -> 
+{ e530b98dfbb630cb453285ef7d4ccd1fa5f3358c is a merge commit
+---> Commit message - Merge pull request #899 from SteveSanderson/fix-818-specs
+
+Fix specs that were failing in IE6-8 when innerText was blank
+-----------------------------------------------------------------
+
+Merge commit 152 is -> 
+{ 90ad463233c89c5e65036ff8521e454e126bfa68 is a merge commit
+---> Commit message - Merge pull request #902 from SteveSanderson/fix-tesling-failing-specs
+
+Fix specs that fail in testling-ci:
+-----------------------------------------------------------------
+
+Merge commit 153 is -> 
+{ 7fbb70caa997ca050fc488e0d053421e55de7de3 is a merge commit
+---> Commit message - Merge branch '839-fix-ie-select-width'
+-----------------------------------------------------------------
+
+Merge commit 154 is -> 
+{ 6ccad62fa05ad27d0f869acac6e932b53e23cdea is a merge commit
+---> Commit message - Partially merge '833-paglias-toJS-fixes'
+-----------------------------------------------------------------
+
+Merge commit 155 is -> 
+{ cdf47e6df64fe64b7ac06cc4077b87aee53ce6c8 is a merge commit
+---> Commit message - Partially merge '833-paglias-toJS-fixes'
+-----------------------------------------------------------------
+
+Merge commit 156 is -> 
+{ 17731c6e4d26eb1124bee5e4a9a57cb6480f2a74 is a merge commit
+---> Commit message - Merge branch 'version-3.0.0-development' of github.com:SteveSanderson/knockout into version-3.0.0-development
+-----------------------------------------------------------------
+
+Merge commit 157 is -> 
+{ f50012d0c93cd7c0711bd39fe67ebaae39439e84 is a merge commit
+---> Commit message - Merge pull request #909 from SteveSanderson/indi-binding-support-preProcessBindings
+
+Independent binding support: preProcessBindings updates
+-----------------------------------------------------------------
+
+Merge commit 158 is -> 
+{ 56c04365a0827b3fe1921d6f998508a2793cb70f is a merge commit
+---> Commit message - Merge pull request #462 from SteveSanderson/462-value-binding-uses-strict-equality
+
+bindingHandler.value's valueHasChanged field is 'false' but maybe should be 'true'  
+-----------------------------------------------------------------
+
+Merge commit 159 is -> 
+{ 92a58931dac1b966245a786d0462a5a16cc61aa5 is a merge commit
+---> Commit message - Merge pull request #933 from SteveSanderson/indi-binding-support-bindingAttributeSyntax
+
+Independent binding support: function-wrapped binding values
+-----------------------------------------------------------------
+
+Merge commit 160 is -> 
+{ ba781ace6da721a70f46b50ed12961de3847596a is a merge commit
+---> Commit message - Merge pull request #932 from SteveSanderson/indi-binding-support-allBindingsAccessor
+
+Independent binding support: accessing sibling bindings (allBindingsAccessor)
+-----------------------------------------------------------------
+
+Merge commit 161 is -> 
+{ 2f98e715d612d8b5ca04e9b51414f25bedb54363 is a merge commit
+---> Commit message - Merge pull request #946 from SteveSanderson/independent-bindings
+
+Independent binding support: separate computed observables
+-----------------------------------------------------------------
+
+Merge commit 162 is -> 
+{ d386f1460e2d420ff5999a1ac2b456b37aca6aa6 is a merge commit
+---> Commit message - Merge pull request #929 from SteveSanderson/382-optionsAfterRender
+
+add optionsAfterRender binding parameter for the options binding
+-----------------------------------------------------------------
+
+Merge commit 163 is -> 
+{ 15da1515b114ffe7b04ef026ab2d6e88a397be6d is a merge commit
+---> Commit message - Merge pull request #486 from SteveSanderson/486-fix-compiler-warnings
+
+fix google compiler warnings
+-----------------------------------------------------------------
+
+Merge commit 164 is -> 
+{ 1cd5924535a4e8f19f97cb6510aa3fc618df4e83 is a merge commit
+---> Commit message - Merge pull request #970 from SteveSanderson/970-clear-flag-on-computed-exception
+
+exception in ko.computed read function kills the computed
+-----------------------------------------------------------------
+
+Merge commit 165 is -> 
+{ c03c5eed46e32fe4e33929e4746c3acb6a459951 is a merge commit
+---> Commit message - Merge pull request #375 from SteveSanderson/375-data-bind-attribute-spaces
+
+(jQuery template foreach) + (spaces around = in data-bind attribute) = exception
+-----------------------------------------------------------------
+
+Merge commit 166 is -> 
+{ d17b1f34f4cdc2ce310605dcd93ea7c135698cd4 is a merge commit
+---> Commit message - Merge pull request #950 from SteveSanderson/ordered-bindings
+
+Enable bindings to declare order dependencies
+-----------------------------------------------------------------
+
+Merge commit 167 is -> 
+{ 81b6e04e87ed98b810544e9660a0d575e8ab86a4 is a merge commit
+---> Commit message - Merge pull request #964 from steveluscher/query_scrolltop_only_when_needed
+
+Prevent triggering browser reflow needlessly from options binding
+-----------------------------------------------------------------
+
+Merge commit 168 is -> 
+{ d70dea9fe44ef4a98bc8cf15e8a2e7f71f102e17 is a merge commit
+---> Commit message - Merge pull request #973 from knockout/954-remove-2.3.0-checkedValue
+
+Revert "Add checkedValue binding"
+-----------------------------------------------------------------
+
+Merge commit 169 is -> 
+{ f3b0932fb5c8aa8bd82eb3211e5e62cfcfb7f087 is a merge commit
+---> Commit message - Merge pull request #954 from knockout/954-checkedValue-update
+
+Change checkedValue/checked bindings to update value of selection instead of selection
+-----------------------------------------------------------------
+
+Merge commit 170 is -> 
+{ db6eae55e9d2ef1c708b208ef3924d981d2e6a39 is a merge commit
+---> Commit message - Merge pull request #967 from knockout/967-fix-tests-failing-in-ff
+
+/spec/runner.html failure
+-----------------------------------------------------------------
+
+Merge commit 171 is -> 
+{ 05241a0d23e6ec8cfca7935c6cfd629d92882a64 is a merge commit
+---> Commit message - Merge pull requests #462, #929, #486, #970, #375, #964 from version 2.3.0 branch to version 3.0.0 branch
+
+Conflicts:
+	src/binding/defaultBindings/options.js
+-----------------------------------------------------------------
+
+Merge commit 172 is -> 
+{ 974d7dd9824b7eab33d30d36bda3a13284fdb00b is a merge commit
+---> Commit message - Merge pull request #997 from knockout/997-deactivate-caption
+
+Computed optionsCaption not disappearing fully in latest build
+-----------------------------------------------------------------
+
+Merge commit 173 is -> 
+{ 33b929048ef134af734634c654defef1041c4f8e is a merge commit
+---> Commit message - Merge pull request #976 from knockout/976-merge-2.3.0-changes
+
+Merge 2.3.0 changes
+-----------------------------------------------------------------
+
+Merge commit 174 is -> 
+{ fb579af58c0131e4fdab8dee10780cbc5e706523 is a merge commit
+---> Commit message - Merge pull request #485 from knockout/485-observable-view-model
+
+support observable view models at both the root and child context level
+-----------------------------------------------------------------
+
+Merge commit 175 is -> 
+{ 25b83881382b9def346d0a15f2de114f2ac0bdb1 is a merge commit
+---> Commit message - Merge branch 'version-3.0.0-development' into merge-2.3.0-updates
+
+Conflicts:
+	src/binding/defaultBindings/options.js
+-----------------------------------------------------------------
+
+Merge commit 176 is -> 
+{ 3b1b704705bd852c0146468285174bf88cd921c7 is a merge commit
+---> Commit message - Merge pull request #1025 from knockout/merge-2.3.0-updates
+
+Merge 2.3.0 updates
+-----------------------------------------------------------------
+
+Merge commit 177 is -> 
+{ dd53ef1955341fc17b2a78e6a77484104b8e0edf is a merge commit
+---> Commit message - Merge pull request #935 from knockout/935-fix-options-notify-value
+
+Observable not getting updated when select options changed
+-----------------------------------------------------------------
+
+Merge commit 178 is -> 
+{ 2478aefb1848304b34611c5c368ff0b73e3f014b is a merge commit
+---> Commit message - Merge remote-tracking branch 'origin/version-3.0.0-development'
+-----------------------------------------------------------------
+
+Merge commit 179 is -> 
+{ 73f2f157948cca3c533ac80ebb559fb43197a1a0 is a merge commit
+---> Commit message - Merge pull request #1071 from knockout/1071-not-respecting-toJSON
+
+ko.toJS() in 3.0.0beta omit toJSON function from output
+-----------------------------------------------------------------
+
+Merge commit 180 is -> 
+{ 7d039e8c3c86240b137eb36e8201bf23c6b149ae is a merge commit
+---> Commit message - Merge pull request #695 from knockout/695-array-change-tracking
+
+Add support of filters/projections for observableArrays
+-----------------------------------------------------------------
+
+Merge commit 181 is -> 
+{ 588dc391a1a3bdeb2736c5ed9ed802af75c9b98b is a merge commit
+---> Commit message - Merge pull request #1082 from knockout/1082-cleanup-after-tests
+
+Ensure tests don't break subsequent tests
+-----------------------------------------------------------------
+
+Merge commit 182 is -> 
+{ 44fd8a0b7e3787d02c3bd2f34b008af1678ec7c9 is a merge commit
+---> Commit message - Merge pull request #1058 from knockout/1058-binding-errors
+
+Binding errors in 3.0 are less informative
+-----------------------------------------------------------------
+
+Merge commit 183 is -> 
+{ f80f37800045edd2bbdb2b3510d9dda9822dfe11 is a merge commit
+---> Commit message - Merge pull request #394 from knockout/394-computed-equalityComparer
+
+Extend equalityComparer to dependentObservable
+-----------------------------------------------------------------
+
+Merge commit 184 is -> 
+{ 8dab4bf47d608df9dc75359f66848fc41e3d469d is a merge commit
+---> Commit message - Merge pull request #1089 from knockout/domData-name-optimization
+
+Reduce code size by 350+ bytes
+-----------------------------------------------------------------
+
+Merge commit 185 is -> 
+{ 357da61ab4c812b139167a05ff6cd42b66b33a7b is a merge commit
+---> Commit message - Merge pull request #1037 from knockout/virtual-element-with-valueless-binding
+
+make virtualElements support binding without a colon
+-----------------------------------------------------------------
+
+Merge commit 186 is -> 
+{ da39a30b90d39e9a66f351a94a9a508f7372e749 is a merge commit
+---> Commit message - Merge branch longer-subscriber-chains into master
+
+Conflicts:
+	spec/dependentObservableBehaviors.js
+-----------------------------------------------------------------
+
+Merge commit 187 is -> 
+{ bc1b7a3810abc582803defa00be5acb38bc612f3 is a merge commit
+---> Commit message - Merge branch 'master' of https://github.com/knockout/knockout
+-----------------------------------------------------------------
+
+Merge commit 188 is -> 
+{ 6eb0da8af266176165502af798bcd1691aa1656c is a merge commit
+---> Commit message - Merge pull request #1086 from pscheit/patch-1
+
+package.json: change url into homepage
+-----------------------------------------------------------------
+
+Merge commit 189 is -> 
+{ 0fc629d8af11c6381eb8aa74144035a38c1d8c8b is a merge commit
+---> Commit message - Merge pull request #653 from knockout/653-optionsCaption-text
+
+optionsCaption using setHtml() instead of setTextContent()
+-----------------------------------------------------------------
+
+Merge commit 190 is -> 
+{ 552e3d8e930857ae2803f6e3644da0839c9a59e8 is a merge commit
+---> Commit message - Merge pull request #716 from knockout/716-template-remove-existing-content
+
+FIx - Template binding does not remove existing content
+-----------------------------------------------------------------
+
+Merge commit 191 is -> 
+{ 5df3fb5427a3632e56dc1ac4e4466a87c3416031 is a merge commit
+---> Commit message - Merge branch '1040-fewer-binding-computeds'
+-----------------------------------------------------------------
+
+Merge commit 192 is -> 
+{ c62974814c44d9d3586bc180cd0de1cbf8c76c31 is a merge commit
+---> Commit message - Merge pull request #1096 from knockout/gruntjs
+
+Add Grunt build script
+-----------------------------------------------------------------
+
+Merge commit 193 is -> 
+{ 2848bcdc1fa260a93fee835de48af4a3a133f39f is a merge commit
+---> Commit message - Merge pull request #482 from knockout/482-arrays-of-observables
+
+Knockout should better handle arrays of observables
+-----------------------------------------------------------------
+
+Merge commit 194 is -> 
+{ 2beb27697b9d22273b9a7bfc5727a98e019d663e is a merge commit
+---> Commit message - Merge pull request #657 from knockout/657-bind-detached-nodes
+
+Make behaviour when binding to detached DOM elements consistent
+-----------------------------------------------------------------
+
+Merge commit 195 is -> 
+{ ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582 is a merge commit
+---> Commit message - Merge pull request #1121 from knockout/1121-deferred-update-arrayChange
+
+arrayChange optimizations should not apply when multiple changes result in a notification
+-----------------------------------------------------------------
+
+Merge commit 196 is -> 
+{ 34d46fc31ca42d07e96103e49d71a0386b6ef3c8 is a merge commit
+---> Commit message - Merge pull request #1122 from knockout/1122-fix-tests
+
+Fix tests failing on certain browsers
+-----------------------------------------------------------------
+
+Merge commit 197 is -> 
+{ 8ed5f131653b6ad264c326a7460e318efbb7911c is a merge commit
+---> Commit message - Merge pull request #1127 from knockout/1127-fix-empty-arrayChange
+
+arrayChange can notify with empty change list
+-----------------------------------------------------------------
+
+Merge commit 198 is -> 
+{ c59104cde3eaeb2120203a17a19d2fd620df1055 is a merge commit
+---> Commit message - Merge pull request #1079 from knockout/1079-revert-ko.toJS-behavior
+
+Backwards compatibility of 3.0.0beta with ko.toJSON
+-----------------------------------------------------------------
+
+Merge commit 199 is -> 
+{ 1f0e337f84f694d4f7eb17c8b90bee06064f4645 is a merge commit
+---> Commit message - Merge pull request #1162 from knockout/1162-render-template-to-doc-frag
+
+ko.renderTemplate doesn't work with documentFragments in ko 3.0.0rc in IE8 anymore, throws 'SCRIPT16386 no such interface supported' in new version of domNodeIsContainedBy method
+-----------------------------------------------------------------
+
+Merge commit 200 is -> 
+{ 511d0828d4e0c13644adcd0251dcdb957681c1dd is a merge commit
+---> Commit message - Merge pull request #1193 from knockout/1193-jQuery-access
+
+jQuery in sources
+-----------------------------------------------------------------
+
+Merge commit 201 is -> 
+{ 2d6cf41e58ffe9a2d7fa4605be3d0fc0da8d0a47 is a merge commit
+---> Commit message - Merge pull request #1214 from knockout/1214-value-binding-jquery-tmpl
+
+KO 3.0.0 error with jquery templates containing any 'value' bindings
+-----------------------------------------------------------------
+
+Merge commit 202 is -> 
+{ c12c5ad323a7cfa835e49e81fd4db3d30906669a is a merge commit
+---> Commit message - Merge pull request #844 from knockout/844-ie8-popup-window-bindings
+
+IE7/8 issue with knockout 'text' binding in popup window
+-----------------------------------------------------------------
+
+Merge commit 203 is -> 
+{ 262d8cc5c4882f0cf6f3bdcf189540bc002c80bf is a merge commit
+---> Commit message - Merge pull request #1191 from knockout/1191-better-checkbox-click-fix
+
+Remove jQuery workaround that's no longer needed
+-----------------------------------------------------------------
+
+Merge commit 204 is -> 
+{ 63914ad5d39a3dd065164e28ec15769c5edd6112 is a merge commit
+---> Commit message - Merge pull request #1208 from knockout/1208-ie8-options-selection-bug
+
+KO 3.0.0 bug in IE8 - options/optionsCaption
+-----------------------------------------------------------------
+
+Merge commit 205 is -> 
+{ f2d4cdd9e9b04a3fb8ce4b9491126b093c24a7e1 is a merge commit
+---> Commit message - Merge branch '775-proto-for-observables'
+-----------------------------------------------------------------
+
+Merge commit 206 is -> 
+{ ea8d9dc269311e27aecc3e23b973de6c26751128 is a merge commit
+---> Commit message - Merge pull request #1207 from knockout/1207-arrayChange-splice-tracks-moves
+
+"arrayChange" event for splice assumes all added items are new
+-----------------------------------------------------------------
+
+Merge commit 207 is -> 
+{ 0aa35d2a561e542d2e1d05f8771de26e90b3d346 is a merge commit
+---> Commit message - Merge pull request #865 from knockout/865-optional-jQuery-cleanData
+
+Make cleanData triggering optional
+-----------------------------------------------------------------
+
+Merge commit 208 is -> 
+{ 41d5ab73429cb5793a2e170b10af67e903d94bb3 is a merge commit
+---> Commit message - Merge pull request #1221 from knockout/dependency-tracking-using-ids
+
+Use objects instead of arrays to track computed dependencies.
+-----------------------------------------------------------------
+
+Merge commit 209 is -> 
+{ 3353afdef92794a7c238adcd01fe220f0b9cda45 is a merge commit
+---> Commit message - Merge pull request #1190 from mbest/newthrottle
+
+New throttle implementation that limits notifications
+-----------------------------------------------------------------
+
+Merge commit 210 is -> 
+{ e395dbeb73e0d2632a430e1516a8496061feb7b1 is a merge commit
+---> Commit message - Merge pull request #1003 from knockout/1003-fix-observable-template-name
+
+Templates: template-name evaluation could set observable
+-----------------------------------------------------------------
+
+Merge commit 211 is -> 
+{ c5e0c58d24b42d2e111d8a72e0cb101fa1b414fe is a merge commit
+---> Commit message - Merge pull request #1237 from pimterry/betterThrowsContainingMessage
+
+Improve '.toThrowContaining' matcher error message
+-----------------------------------------------------------------
+
+Merge commit 212 is -> 
+{ 40577f138d21769f91b1e23ce797f7537be8dc8d is a merge commit
+---> Commit message - Merge pull request #1234 from pimterry/GroupTemplateTests
+
+Tidied up the different sets of native template tests into proper Jasmine groupings by template type
+-----------------------------------------------------------------
+
+Merge commit 213 is -> 
+{ 109988ad59db1be50725ecd8cbbc3d0863e0aa0e is a merge commit
+---> Commit message - Merge pull request #1081 from knockout/1081-retain-options-caption
+
+options placeholder always re-added when update binding fires
+-----------------------------------------------------------------
+
+Merge commit 214 is -> 
+{ 65d6906961fc5e43ab48ceaabc6716e75ac4ccee is a merge commit
+---> Commit message - Merge pull request #1272 from knockout/855-subscribe-to-deferred-computed
+
+Evaluate deferred computed on subscribe
+-----------------------------------------------------------------
+
+Merge commit 215 is -> 
+{ d8f1dd52bf404c11463656d570e931062e5cd75e is a merge commit
+---> Commit message - Merge pull request #647 from knockout/647-allow-unselected-value
+
+Support select value not in options list, optionally
+-----------------------------------------------------------------
+
+Merge commit 216 is -> 
+{ 1671f749022dca85706700279952f96e5cc18cea is a merge commit
+---> Commit message - Merge pull request #1255 from knockout/1255-track-observables-in-getBindingAccessors
+
+Track observables accessed in getBindingAccessors
+-----------------------------------------------------------------
+
+Merge commit 217 is -> 
+{ 31b9df3a05326de1c46e8ac326f02016e6ce2d29 is a merge commit
+---> Commit message - Merge pull request #627 from knockout/627-computed-context
+
+Provide access to dependency count within computed function
+-----------------------------------------------------------------
+
+Merge commit 218 is -> 
+{ 5aa556c97b80dfc9bfa5fa46cfc7e2c3d00e6f30 is a merge commit
+---> Commit message - Merge pull request #1209 from knockout/1209-prevent-disposed-computed-from-taking-dependencies
+
+evaluating a disposed deferred dependentObservable causes it to take dependencies
+-----------------------------------------------------------------
+
+Merge commit 219 is -> 
+{ c03c2bb6f75a1ebce0c4261e0b189b1543449ba9 is a merge commit
+---> Commit message - Merge pull request #1289 from knockout/1289-computed-test-disposalnode
+
+addDisposeCallback to "not nodes"
+-----------------------------------------------------------------
+
+Merge commit 220 is -> 
+{ 706251e045d6f2e3a24d57df0f5a403b6cc5a5d3 is a merge commit
+---> Commit message - Merge pull request #1306 from knockout/1247-propertychangefired-bug
+
+1247 propertychangefired bug
+-----------------------------------------------------------------
+
+Merge commit 221 is -> 
+{ 613c3d14c69a6a8ff6379bc1a5468b88d80bf561 is a merge commit
+---> Commit message - Merge pull request #1206 from knockout/1206-fix-rawData
+
+For observable view models, $rawData should be the observable
+-----------------------------------------------------------------
+
+Merge commit 222 is -> 
+{ aa3713efe49e162e4be31f8efc86b6919c1258cb is a merge commit
+---> Commit message - Merge pull request #1309 from knockout/v3.1-fix-spec-failures
+
+V3.1 fix spec failures
+-----------------------------------------------------------------
+
+Merge commit 223 is -> 
+{ 9b849ee159b4d7798ef95ec78ab4caa66a6e784a is a merge commit
+---> Commit message - Merge pull request #1374 from knockout/uglify-friendly-license-header
+
+Use /*! … */ comment format for banner so that external minifiers know to preserve it
+-----------------------------------------------------------------
+
+Merge commit 224 is -> 
+{ 80120969d8cb5341325f76ec1e74dde6e2af00fc is a merge commit
+---> Commit message - Merge branch 'components'
+-----------------------------------------------------------------
+
+Merge commit 225 is -> 
+{ 224f8e94095dd9ba7dd5623391f7a9220f704f45 is a merge commit
+---> Commit message - Merge pull request #1359 from knockout/1359-pure-computed
+
+Proposal: new computed variant that's "active" only when observed
+-----------------------------------------------------------------
+
+Merge commit 226 is -> 
+{ e0b4a985101283d9a95141e3e56a1b05316e03df is a merge commit
+---> Commit message - Merge pull request #1413 from knockout/1039-bower
+
+Add bower.json and Grunt task to prepare Bower release
+-----------------------------------------------------------------
+
+Merge commit 227 is -> 
+{ e2db8d8279ca123cfd87e89b77d779806a696b69 is a merge commit
+---> Commit message - Merge pull request #1252 from knockout/1252-postjson-truncated
+
+ko.utils.postJson is truncating large values in Google Chrome
+-----------------------------------------------------------------
+
+Merge commit 228 is -> 
+{ d12f3299cfaf5aa16eb4a681b1139f571ddd8a52 is a merge commit
+---> Commit message - Merge pull request #972 from knockout/972-style-value-zero
+
+bug in 'style'-binding
+-----------------------------------------------------------------
+
+Merge commit 229 is -> 
+{ 6ecec353edcae739abc3ab0fe0997b4ec529f868 is a merge commit
+---> Commit message - Merge pull request #1385 from knockout/1385-custom-elems-no-params
+
+Custom elements
+-----------------------------------------------------------------
+
+Merge commit 230 is -> 
+{ 22836914dc0290b6aa7c1fd5ecac5cdd7b25a806 is a merge commit
+---> Commit message - Merge pull request #1146 from knockout/1146-value-alias-checkedValue
+
+Make value binding on checkbox or radio input work like checkedValue
+-----------------------------------------------------------------
+
+Merge commit 231 is -> 
+{ 7ae71944a5ece90aff6ca39bc6a98300e7ea1010 is a merge commit
+---> Commit message - Merge pull request #1433 from knockout/template-name-observable
+
+Add spec to demonstrate #1371, and a fix
+-----------------------------------------------------------------
+
+Merge commit 232 is -> 
+{ 175f02d7c56ace39ac7b10aaa17948afe51e9668 is a merge commit
+---> Commit message - Merge pull request #1160 from knockout/1160-input-binding
+
+Add 'input' binding for real-time updates from text fields
+-----------------------------------------------------------------
+
+Merge commit 233 is -> 
+{ 5b18955da8e336ace014ee7a1af4cac3cbce85d8 is a merge commit
+---> Commit message - Merge pull request #1412 from surgeforward/remove-stringTokenize-1357
+
+removed stringTokenize
+-----------------------------------------------------------------
+
+Merge commit 234 is -> 
+{ f3c0ac38ccb3862db60d447b62b9c3bc7208f701 is a merge commit
+---> Commit message - Merge pull request #1454 from knockout/components-special-element-sources
+
+Component templates handle <script>, <template>, and <textarea> sources
+-----------------------------------------------------------------
+
+Merge commit 235 is -> 
+{ f424bd85a698e77013737ce8b31c0689916ebe08 is a merge commit
+---> Commit message - Merge pull request #1443 from haru01/master
+
+replace tab to space
+-----------------------------------------------------------------
+
+Merge commit 236 is -> 
+{ 5e9c42f0270b5169019a96eb1027564fd3e329b9 is a merge commit
+---> Commit message - Merge pull request #1507 from faktumsoftware/1506-release-arrayItemContext
+
+Release cached arrayItemContext after it has been used
+-----------------------------------------------------------------
+
+Merge commit 237 is -> 
+{ a6e95b1076eca40ee81fbdef8fdc4e5dab85c75e is a merge commit
+---> Commit message - Merge pull request #1556 from xdumaine/OptionsAfterRender-Not-A-Function
+
+Add check that optionsAfterRender binding was provided a function
+-----------------------------------------------------------------
+
+Merge commit 238 is -> 
+{ 8c1936a2c6720034515e5ff050094de5791ecf06 is a merge commit
+---> Commit message - Merge pull request #1504 from knockout/1504-synchronous-components
+
+Components should render synchronously when possible
+-----------------------------------------------------------------
+
+Merge commit 239 is -> 
+{ 928ae1d2b8c374eb027eb66c45f785aad2b480ca is a merge commit
+---> Commit message - Merge pull request #1515 from faktumsoftware/1515-update-debug-latestvalue-on-awake
+
+Add missing update of exposed dependendObservable._latestValue (DEBUG only)
+-----------------------------------------------------------------
+
+Merge commit 240 is -> 
+{ c6cdb3ead3221cf1bb4de7da2a5ed3c4e1f60162 is a merge commit
+---> Commit message - Merge pull request #1513 from softek/jquery-tmpl-array-fix
+
+Fix error in fixUpContinuousNodeArray when using jquery.tmpl
+-----------------------------------------------------------------
+
+Merge commit 241 is -> 
+{ 96aa912b5f20c43157f6a097c0087d3be7751918 is a merge commit
+---> Commit message - Merge pull request #1463 from knockout/1463-templated-components
+
+Request feature: runtime composition of ko 3.2 component
+-----------------------------------------------------------------
+
+Merge commit 242 is -> 
+{ 06c5e56c7322f7e22b8991522cee7447dbd07946 is a merge commit
+---> Commit message - Merge pull request #1449 from knockout/1449-component-bindingcontext-property
+
+knockout 3.2 component binding context $root
+-----------------------------------------------------------------
+
+Merge commit 243 is -> 
+{ 348f9eab6cab5e253d1d663c7b9ed1dcb692206d is a merge commit
+---> Commit message - Merge pull request #1596 from knockout/1596-writable-computed-in-component
+
+Create writable computed within custom-element component
+-----------------------------------------------------------------
+
+Merge commit 244 is -> 
+{ 226464ec2a892db9c954c1056ecb871c722d58ed is a merge commit
+---> Commit message - Merge pull request #1530 from AdeeLNX/cssbinding_issue_1468
+
+Fix for Cssbinding issue 1468
+-----------------------------------------------------------------
+
+Merge commit 245 is -> 
+{ 05f4cdcbd2ba653f06ec19240fc100056c5e006b is a merge commit
+---> Commit message - Merge pull request #1576 from knockout/1511-computed-stateChange-notifications
+
+computed observables notify "awake" and "asleep" events
+-----------------------------------------------------------------
+
+Merge commit 246 is -> 
+{ 864e19cb19baa90d9da4f7dc45fd8cff68c826e0 is a merge commit
+---> Commit message - Merge remote-tracking branch 'upstream/master' into fix-svg-css-binding
+
+Conflicts:
+	spec/defaultBindings/cssBehaviors.js
+-----------------------------------------------------------------
+
+Merge commit 247 is -> 
+{ b6b3a1132fa142539279bcaa698fcc90c6bafdd6 is a merge commit
+---> Commit message - Merge pull request #1321 from knockout/1321-ie-multi-window
+
+Multi-window situation crashed in IE10 due to not being able to call the appendChild method with argument being an element from a different window.
+-----------------------------------------------------------------
+
+Merge commit 248 is -> 
+{ 1499ce55dba03b19e60990292dc41f68eaa20391 is a merge commit
+---> Commit message - Merge pull request #1434 from knockout/1434-binding-parser-update
+
+Binding parser skips all colons between the name and value
+-----------------------------------------------------------------
+
+Merge commit 249 is -> 
+{ 62dd0f68a25156a8364b74fbd05834b27c258db5 is a merge commit
+---> Commit message - Merge pull request #1623 from knockout/1623-valueAllowUnset-selection-bug
+
+valueAllowUnset - null selection not maintained when option items update
+-----------------------------------------------------------------
+
+Merge commit 250 is -> 
+{ d0e0d9ae87126ce4c5545c974b415c348b980884 is a merge commit
+---> Commit message - Merge pull request #1597 from brianmhunt/fix-svg-css-binding
+
+Fix svg css binding
+-----------------------------------------------------------------
+
+Merge commit 251 is -> 
+{ 624ddacd5a879ef5bf555d89e648f982a6bd6a4e is a merge commit
+---> Commit message - Merge pull request #1505 from Ken123777/master
+
+A missing semicolon
+-----------------------------------------------------------------
+

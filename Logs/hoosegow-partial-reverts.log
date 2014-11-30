@@ -1,0 +1,360 @@
+# of partial reverts = 19
+Partial Revert diff pair 1 is -> 
+{ d30873b8c23f770f894641728e090d30baf3103a -> ffa3502b406115464b8aa471349aeef609608e7a } is a revert
+{ 2c1ac580fa17988486c94a5eab81dcd37fec1b18 -> 0f4a67b1dadeb619827d3041992d11a553b98c79 }
+Partial Revert commits SHA are -> 
+ffa3502b406115464b8aa471349aeef609608e7a - revert - 0f4a67b1dadeb619827d3041992d11a553b98c79
+---> The reverted commit sha is - ffa3502b406115464b8aa471349aeef609608e7a
+Commit message - Create cla.md
+---> The original commit sha is - 0f4a67b1dadeb619827d3041992d11a553b98c79
+Commit message - Merge pull request #40 from github/faster_build
+
+Build Ruby without docs
+---> The files with partial_reverts are:-
+Dockerfile
+lib/hoosegow/docker.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 5c0cb4ed46fea7eb6aef7010f99c7075dbe7828b -> 74d40aa6e295c2f17ef34e9265ac2ea3f2bdc84a } is a revert
+{ c7c5197963a2e00f5d6bcd85c2638cdaaf833415 -> 5754d80e22aa19bcfa618b5a296b732371f0377b }
+Partial Revert commits SHA are -> 
+74d40aa6e295c2f17ef34e9265ac2ea3f2bdc84a - revert - 5754d80e22aa19bcfa618b5a296b732371f0377b
+---> The reverted commit sha is - 74d40aa6e295c2f17ef34e9265ac2ea3f2bdc84a
+Commit message - Update README.md
+---> The original commit sha is - 5754d80e22aa19bcfa618b5a296b732371f0377b
+Commit message - Merge pull request #38 from github/ruby_version
+
+Allow container Ruby version to be specified
+---> The files with partial_reverts are:-
+.ruby-version
+Dockerfile
+Gemfile.lock
+lib/hoosegow/image_bundle.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 5c0cb4ed46fea7eb6aef7010f99c7075dbe7828b -> 74d40aa6e295c2f17ef34e9265ac2ea3f2bdc84a } is a revert
+{ 74d40aa6e295c2f17ef34e9265ac2ea3f2bdc84a -> c7c5197963a2e00f5d6bcd85c2638cdaaf833415 }
+Partial Revert commits SHA are -> 
+74d40aa6e295c2f17ef34e9265ac2ea3f2bdc84a - revert - c7c5197963a2e00f5d6bcd85c2638cdaaf833415
+---> The reverted commit sha is - 74d40aa6e295c2f17ef34e9265ac2ea3f2bdc84a
+Commit message - Update README.md
+---> The original commit sha is - c7c5197963a2e00f5d6bcd85c2638cdaaf833415
+Commit message - Merge pull request #36 from github/security
+
+Add blurb about security
+---> The files with partial_reverts are:-
+docs/dispatch-seq.txt
+docs/dispatch.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ 5d335e91e1f0323a41132112b4e506fa09bb98f3 -> 500c631c2734eb9b3e4763c2c5259b20e2b6601a } is a revert
+{ 081fcc2642001f94ce1d3822b944ea84a4867c18 -> 4bbdbd06d4a8e9c0b947fc118ed60893e1a7b35b }
+Partial Revert commits SHA are -> 
+500c631c2734eb9b3e4763c2c5259b20e2b6601a - revert - 4bbdbd06d4a8e9c0b947fc118ed60893e1a7b35b
+---> The reverted commit sha is - 500c631c2734eb9b3e4763c2c5259b20e2b6601a
+Commit message - Merge pull request #33 from github/license
+
+Add MIT license
+---> The original commit sha is - 4bbdbd06d4a8e9c0b947fc118ed60893e1a7b35b
+Commit message - Merge branch 'master' into use_docker_lib
+
+Conflicts:
+	Gemfile.lock
+	hoosegow.gemspec
+---> The files with partial_reverts are:-
+.ruby-version
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ f4b74fa5979042063e8e172ca7097f5f8bfeaf75 -> bdba9ff814eb4919ffae8a24df82af8e78595508 } is a revert
+{ 081fcc2642001f94ce1d3822b944ea84a4867c18 -> 4bbdbd06d4a8e9c0b947fc118ed60893e1a7b35b }
+Partial Revert commits SHA are -> 
+bdba9ff814eb4919ffae8a24df82af8e78595508 - revert - 4bbdbd06d4a8e9c0b947fc118ed60893e1a7b35b
+---> The reverted commit sha is - bdba9ff814eb4919ffae8a24df82af8e78595508
+Commit message - bump docker-api version with excon warning fix
+---> The original commit sha is - 4bbdbd06d4a8e9c0b947fc118ed60893e1a7b35b
+Commit message - Merge branch 'master' into use_docker_lib
+
+Conflicts:
+	Gemfile.lock
+	hoosegow.gemspec
+---> The files with partial_reverts are:-
+.ruby-version
+LICENSE
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ 5c1090a090e92bb2cd1ca790eea8ce6337efcbdd -> dc229034080a346cc1d4ad2d38c54609faba7df4 } is a revert
+{ 686c5c6ff89fccb4f1fb3c1e36bcd52146344b47 -> f4b74fa5979042063e8e172ca7097f5f8bfeaf75 }
+Partial Revert commits SHA are -> 
+dc229034080a346cc1d4ad2d38c54609faba7df4 - revert - f4b74fa5979042063e8e172ca7097f5f8bfeaf75
+---> The reverted commit sha is - dc229034080a346cc1d4ad2d38c54609faba7df4
+Commit message - Require yajl-ruby >= 1.1.0
+
+Test script, run like `bundle exec test.rb`
+
+    require 'yajl'
+
+    puts "Yajl::VERSION = #{Yajl::VERSION rescue "?"}"
+
+    puts Yajl.dump "a" => ["b", 1]
+    p Yajl.load %Q[ {"a": ["b", 1]} ]
+    begin
+      Yajl.load "le-boom"
+    rescue Yajl::ParseError => e
+      puts e
+    end
+
+    parser = Yajl::Parser.new
+    parser.on_parse_complete = Proc.new do |obj|
+      p obj
+    end
+    parser << %Q[ {"a" ]
+    parser << %Q[ : ["b", 1]}{ ]
+    parser << %Q[ "ok": true} ]
+---> The original commit sha is - f4b74fa5979042063e8e172ca7097f5f8bfeaf75
+Commit message - Merge pull request #34 from github/clean-up-gem-build-warnings
+
+Clean up gem build warnings
+---> The files with partial_reverts are:-
+LICENSE
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ 500c631c2734eb9b3e4763c2c5259b20e2b6601a -> 686c5c6ff89fccb4f1fb3c1e36bcd52146344b47 } is a revert
+{ 686c5c6ff89fccb4f1fb3c1e36bcd52146344b47 -> f4b74fa5979042063e8e172ca7097f5f8bfeaf75 }
+Partial Revert commits SHA are -> 
+686c5c6ff89fccb4f1fb3c1e36bcd52146344b47 - revert - f4b74fa5979042063e8e172ca7097f5f8bfeaf75
+---> The reverted commit sha is - 686c5c6ff89fccb4f1fb3c1e36bcd52146344b47
+Commit message - add myself.
+---> The original commit sha is - f4b74fa5979042063e8e172ca7097f5f8bfeaf75
+Commit message - Merge pull request #34 from github/clean-up-gem-build-warnings
+
+Clean up gem build warnings
+---> The files with partial_reverts are:-
+LICENSE
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ 5d335e91e1f0323a41132112b4e506fa09bb98f3 -> 500c631c2734eb9b3e4763c2c5259b20e2b6601a } is a revert
+{ 500c631c2734eb9b3e4763c2c5259b20e2b6601a -> 686c5c6ff89fccb4f1fb3c1e36bcd52146344b47 }
+Partial Revert commits SHA are -> 
+500c631c2734eb9b3e4763c2c5259b20e2b6601a - revert - 686c5c6ff89fccb4f1fb3c1e36bcd52146344b47
+---> The reverted commit sha is - 500c631c2734eb9b3e4763c2c5259b20e2b6601a
+Commit message - Merge pull request #33 from github/license
+
+Add MIT license
+---> The original commit sha is - 686c5c6ff89fccb4f1fb3c1e36bcd52146344b47
+Commit message - add myself.
+---> The files with partial_reverts are:-
+.ruby-version
+Gemfile.lock
+LICENSE
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ 87cb44c567d0a50a90a585ddfa421cc02edc70ab -> 44e8c5e2027eca9e0578d5e102dceea8afac7d24 } is a revert
+{ 5c1090a090e92bb2cd1ca790eea8ce6337efcbdd -> dc229034080a346cc1d4ad2d38c54609faba7df4 }
+Partial Revert commits SHA are -> 
+44e8c5e2027eca9e0578d5e102dceea8afac7d24 - revert - dc229034080a346cc1d4ad2d38c54609faba7df4
+---> The reverted commit sha is - 44e8c5e2027eca9e0578d5e102dceea8afac7d24
+Commit message - Add MIT license
+---> The original commit sha is - dc229034080a346cc1d4ad2d38c54609faba7df4
+Commit message - Require yajl-ruby >= 1.1.0
+
+Test script, run like `bundle exec test.rb`
+
+    require 'yajl'
+
+    puts "Yajl::VERSION = #{Yajl::VERSION rescue "?"}"
+
+    puts Yajl.dump "a" => ["b", 1]
+    p Yajl.load %Q[ {"a": ["b", 1]} ]
+    begin
+      Yajl.load "le-boom"
+    rescue Yajl::ParseError => e
+      puts e
+    end
+
+    parser = Yajl::Parser.new
+    parser.on_parse_complete = Proc.new do |obj|
+      p obj
+    end
+    parser << %Q[ {"a" ]
+    parser << %Q[ : ["b", 1]}{ ]
+    parser << %Q[ "ok": true} ]
+---> The files with partial_reverts are:-
+LICENSE
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ f7068fb5b79edc0846817253a1143e02a2524e53 -> a7e9d856b911354b04cc1e81afb2a2d805c047f4 } is a revert
+{ a7e9d856b911354b04cc1e81afb2a2d805c047f4 -> 04c3ce6bda16723dda388421b5ad6016041f422e }
+Partial Revert commits SHA are -> 
+a7e9d856b911354b04cc1e81afb2a2d805c047f4 - revert - 04c3ce6bda16723dda388421b5ad6016041f422e
+---> The reverted commit sha is - a7e9d856b911354b04cc1e81afb2a2d805c047f4
+Commit message - try using their client
+---> The original commit sha is - 04c3ce6bda16723dda388421b5ad6016041f422e
+Commit message - leave old ruby version
+---> The files with partial_reverts are:-
+.ruby-version
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 72c30a7cea3f886a7dfe6096a7b9baabc8975c5e -> 7f04ea8fa5975e7d287f34dfa60115288d7b3c89 } is a revert
+{ ea8de062ca80a054df95ad7f91add3a3bce64702 -> d0c1d2934bb10dd1bab8f60e6f8be55a0d65acbb }
+Partial Revert commits SHA are -> 
+7f04ea8fa5975e7d287f34dfa60115288d7b3c89 - revert - d0c1d2934bb10dd1bab8f60e6f8be55a0d65acbb
+---> The reverted commit sha is - 7f04ea8fa5975e7d287f34dfa60115288d7b3c89
+Commit message - Stream image build messages back to the caller.
+---> The original commit sha is - d0c1d2934bb10dd1bab8f60e6f8be55a0d65acbb
+Commit message - Merge remote-tracking branch 'origin/master' into flexible-images
+
+Conflicts:
+	lib/hoosegow.rb
+---> The files with partial_reverts are:-
+lib/hoosegow/image_bundle.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ 28fc2789ebf7966c58f84eae9e4da2765824080e -> af5ce4e1793910ffc253cc2c91f091cfb4aa63d9 } is a revert
+{ ea8de062ca80a054df95ad7f91add3a3bce64702 -> d0c1d2934bb10dd1bab8f60e6f8be55a0d65acbb }
+Partial Revert commits SHA are -> 
+af5ce4e1793910ffc253cc2c91f091cfb4aa63d9 - revert - d0c1d2934bb10dd1bab8f60e6f8be55a0d65acbb
+---> The reverted commit sha is - af5ce4e1793910ffc253cc2c91f091cfb4aa63d9
+Commit message - Disassembly the docker error hash.
+
+This makes the exception object map to the root of the hash. The hash
+has two elements: "error" (the message) and "errorDetail" (a status code
+and the message).
+---> The original commit sha is - d0c1d2934bb10dd1bab8f60e6f8be55a0d65acbb
+Commit message - Merge remote-tracking branch 'origin/master' into flexible-images
+
+Conflicts:
+	lib/hoosegow.rb
+---> The files with partial_reverts are:-
+lib/hoosegow/image_bundle.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ 5c5958dff2d4fdfdcf17fb9d99217ccfcfb6802c -> 3e78296ab3428de63452fe89c5a14183e833b0fb } is a revert
+{ af5ce4e1793910ffc253cc2c91f091cfb4aa63d9 -> ea8de062ca80a054df95ad7f91add3a3bce64702 }
+Partial Revert commits SHA are -> 
+3e78296ab3428de63452fe89c5a14183e833b0fb - revert - ea8de062ca80a054df95ad7f91add3a3bce64702
+---> The reverted commit sha is - 3e78296ab3428de63452fe89c5a14183e833b0fb
+Commit message - Merge pull request #12 from github/basics
+
+Make Hoosegow#build_image happy
+---> The original commit sha is - ea8de062ca80a054df95ad7f91add3a3bce64702
+Commit message - Merge pull request #13 from github/build-status
+
+Build status
+---> The files with partial_reverts are:-
+lib/hoosegow/docker.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ a84172cde030ed8671cee558ee1d88e87d701002 -> 28fc2789ebf7966c58f84eae9e4da2765824080e } is a revert
+{ 28fc2789ebf7966c58f84eae9e4da2765824080e -> af5ce4e1793910ffc253cc2c91f091cfb4aa63d9 }
+Partial Revert commits SHA are -> 
+28fc2789ebf7966c58f84eae9e4da2765824080e - revert - af5ce4e1793910ffc253cc2c91f091cfb4aa63d9
+---> The reverted commit sha is - 28fc2789ebf7966c58f84eae9e4da2765824080e
+Commit message - Merge remote-tracking branch 'origin/master' into flexible-images
+
+Conflicts:
+	lib/hoosegow.rb
+---> The original commit sha is - af5ce4e1793910ffc253cc2c91f091cfb4aa63d9
+Commit message - Disassembly the docker error hash.
+
+This makes the exception object map to the root of the hash. The hash
+has two elements: "error" (the message) and "errorDetail" (a status code
+and the message).
+---> The files with partial_reverts are:-
+lib/hoosegow.rb
+lib/hoosegow/docker.rb
+lib/hoosegow/image_bundle.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 5c5958dff2d4fdfdcf17fb9d99217ccfcfb6802c -> 3e78296ab3428de63452fe89c5a14183e833b0fb } is a revert
+{ 3e78296ab3428de63452fe89c5a14183e833b0fb -> fd250aabbd64c44320680abd09ea1435987a8a88 }
+Partial Revert commits SHA are -> 
+3e78296ab3428de63452fe89c5a14183e833b0fb - revert - fd250aabbd64c44320680abd09ea1435987a8a88
+---> The reverted commit sha is - 3e78296ab3428de63452fe89c5a14183e833b0fb
+Commit message - Merge pull request #12 from github/basics
+
+Make Hoosegow#build_image happy
+---> The original commit sha is - fd250aabbd64c44320680abd09ea1435987a8a88
+Commit message - Merge pull request #15 from github/prestart
+
+Pull `prestart` up so it can be passed by the calling code.
+---> The files with partial_reverts are:-
+lib/hoosegow/docker.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ 578e614123bd68376440b5353aad3cbd9ba21c2a -> 6b31c3da2e8d96046ec4edd8171ea330a2df7d01 } is a revert
+{ ef7bdfbd5e2b0e531039703593034579ef5561f7 -> 4d0d45ec610543b304bffc212092d7f78ccd2453 }
+Partial Revert commits SHA are -> 
+6b31c3da2e8d96046ec4edd8171ea330a2df7d01 - revert - 4d0d45ec610543b304bffc212092d7f78ccd2453
+---> The reverted commit sha is - 6b31c3da2e8d96046ec4edd8171ea330a2df7d01
+Commit message - make everything less shitty
+---> The original commit sha is - 4d0d45ec610543b304bffc212092d7f78ccd2453
+Commit message - use the image name/tag for versioning
+---> The files with partial_reverts are:-
+Gemfile.lock
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ 215c0338df405b39a761f1925c858128cc958f8c -> 8fc4c04966d2887f01f770feb3d9eb4022d05ca5 } is a revert
+{ 8fc4c04966d2887f01f770feb3d9eb4022d05ca5 -> 59e3f878956f8505fe8552dfa7f58b3c7720704b }
+Partial Revert commits SHA are -> 
+8fc4c04966d2887f01f770feb3d9eb4022d05ca5 - revert - 59e3f878956f8505fe8552dfa7f58b3c7720704b
+---> The reverted commit sha is - 8fc4c04966d2887f01f770feb3d9eb4022d05ca5
+Commit message - don't timeout on socket read
+---> The original commit sha is - 59e3f878956f8505fe8552dfa7f58b3c7720704b
+Commit message - Merge branch 'master' into generalize
+---> The files with partial_reverts are:-
+Rakefile
+lib/hoosegow.rb
+lib/hoosegow/render.rb
+lib/hoosegow/render/reverse.rb
+spec/hoosegow_deps/reverse.rb
+spec/hoosegow_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ 425928858864ed7d776d8589581a4efb009c8020 -> 9d12a8c834ffa171473fd6e7f6d80f6480593d99 } is a revert
+{ 22293806cddbb1a435bb9fb9cfc32834fabc5780 -> 3b29ee331f3a7d58337d4ec0111639e9308e2574 }
+Partial Revert commits SHA are -> 
+9d12a8c834ffa171473fd6e7f6d80f6480593d99 - revert - 3b29ee331f3a7d58337d4ec0111639e9308e2574
+---> The reverted commit sha is - 9d12a8c834ffa171473fd6e7f6d80f6480593d99
+Commit message - prepare containers and leave sockets open
+---> The original commit sha is - 3b29ee331f3a7d58337d4ec0111639e9308e2574
+Commit message - Merge branch 'master' into serialize
+
+Conflicts:
+	lib/hoosegow.rb
+	spec/hoosegow_spec.rb
+---> The files with partial_reverts are:-
+bin/hoosegow
+lib/hoosegow/serialize.rb
+spec/serialize_spec.rb
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 856f3ba48631f6c9af18bd6484dbc98193808160 -> a0e18ae1d3af270abcfa5eceb5c2d7b43dd6a96b } is a revert
+{ cacb75841d5d4dc071ab432692088d5277f349db -> 7202632a1d7444c3f075fe62736b4bd85dabee9a }
+Partial Revert commits SHA are -> 
+a0e18ae1d3af270abcfa5eceb5c2d7b43dd6a96b - revert - 7202632a1d7444c3f075fe62736b4bd85dabee9a
+---> The reverted commit sha is - a0e18ae1d3af270abcfa5eceb5c2d7b43dd6a96b
+Commit message - move Net::HTTP hacks to core_ext
+---> The original commit sha is - 7202632a1d7444c3f075fe62736b4bd85dabee9a
+Commit message - get rid of net:http hacking
+---> The files with partial_reverts are:-
+lib/hoosegow/core_ext/net_http_response.rb
+-----------------------------------------------------------------
+

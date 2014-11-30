@@ -1,0 +1,49 @@
+# of reverts = 4
+Revert diff pair 1 is -> 
+{ 9be781e636c2084414eac0b186d93953dfe33cdc -> eef0da53f66ebe8446b9f9b8b3cd3a903bf1f92d } is a revert
+{ eef0da53f66ebe8446b9f9b8b3cd3a903bf1f92d -> 27124c930bca2c1c94c7947934d1ab3b5fdcc8e1 }
+Revert commits SHA are -> 
+eef0da53f66ebe8446b9f9b8b3cd3a903bf1f92d - revert - 27124c930bca2c1c94c7947934d1ab3b5fdcc8e1
+---> The reverted commit sha is - eef0da53f66ebe8446b9f9b8b3cd3a903bf1f92d
+Commit message - makeArray as wrapper for arrayPushAll
+---> The original commit sha is - 27124c930bca2c1c94c7947934d1ab3b5fdcc8e1
+Commit message - Revert to original behavior for makeArray (moved to its own pull request)
+
+Separated out the changes to makeArray into #1235
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 7f0d4b6e32b88fc80e6004cbab4ebab90c53c016 -> 72ea11d1c9c9f02496d78c5c3e02f120efdf4f02 } is a revert
+{ 72ea11d1c9c9f02496d78c5c3e02f120efdf4f02 -> 30a68e40168e8d60a05dcfb795bccb4f5e7f3ad5 }
+Revert commits SHA are -> 
+72ea11d1c9c9f02496d78c5c3e02f120efdf4f02 - revert - 30a68e40168e8d60a05dcfb795bccb4f5e7f3ad5
+---> The reverted commit sha is - 72ea11d1c9c9f02496d78c5c3e02f120efdf4f02
+Commit message - Fix specs that were failing in IE6-8 when innerText was blank.
+---> The original commit sha is - 30a68e40168e8d60a05dcfb795bccb4f5e7f3ad5
+Commit message - Merge pull request #784 from SteveSanderson/784-enable-testling-ci
+
+Look into using testling-ci
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 0b21a261d1006c5fcd60198c17437287df96adce -> ec3da459769d1c67ff4e9d0e815750085af5efaa } is a revert
+{ ec3da459769d1c67ff4e9d0e815750085af5efaa -> 2ffcb2c89a92e4f0ec708ee8456b26934447da84 }
+Revert commits SHA are -> 
+ec3da459769d1c67ff4e9d0e815750085af5efaa - revert - 2ffcb2c89a92e4f0ec708ee8456b26934447da84
+---> The reverted commit sha is - ec3da459769d1c67ff4e9d0e815750085af5efaa
+Commit message - #490 - Export 'ko' in the binding context so it will be available in bindings and templates even if 'ko' isn't exported as a global, such as when using an AMD loader.
+---> The original commit sha is - 2ffcb2c89a92e4f0ec708ee8456b26934447da84
+Commit message - Comment to record reason for try-catch
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ f878a09c6e5d657ea04eb9878cb014dab09fd68e -> 347fdb396d20b5b96f0b8472294347ebf7e6acfd } is a revert
+{ 347fdb396d20b5b96f0b8472294347ebf7e6acfd -> 43eea24932bf7a0140e9ccf5d60b7dcb4f6f7134 }
+Revert commits SHA are -> 
+347fdb396d20b5b96f0b8472294347ebf7e6acfd - revert - 43eea24932bf7a0140e9ccf5d60b7dcb4f6f7134
+---> The reverted commit sha is - 347fdb396d20b5b96f0b8472294347ebf7e6acfd
+Commit message - Rebuild
+---> The original commit sha is - 43eea24932bf7a0140e9ccf5d60b7dcb4f6f7134
+Commit message - Temporarily revert build for fix
+-----------------------------------------------------------------
+

@@ -1,0 +1,508 @@
+# of reverts = 35
+Revert diff pair 1 is -> 
+{ a01aa0d2f8d43a1888d24bff2cee18ee877b3df6 -> df10c3022275f107aaacab45a935eda301efeb01 } is a revert
+{ df10c3022275f107aaacab45a935eda301efeb01 -> 0fe8f0cf6ff7b80b42b0cff4f9f2f9bafd66b978 }
+Revert commits SHA are -> 
+df10c3022275f107aaacab45a935eda301efeb01 - revert - 0fe8f0cf6ff7b80b42b0cff4f9f2f9bafd66b978
+---> The reverted commit sha is - df10c3022275f107aaacab45a935eda301efeb01
+Commit message - Fix include order warnings when compiling win32
+
+Let shared.h include handle the inclusion of all the necessary Windows
+libraries. This is similar to 1e2406f4. Fixes the following warning:
+
+from shared/randombytes.c:10:
+	warning: #warning Please include winsock2.h before windows.h
+---> The original commit sha is - 0fe8f0cf6ff7b80b42b0cff4f9f2f9bafd66b978
+Commit message - Merge pull request #448 from awiddersheim/fix_manage_agents_warning
+
+Fix manage agents error messaage compile warning
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 7644ec3d87918762add853522d47e298bd739208 -> dec3691c3fb5cdf86486392dda1b604dca1fb482 } is a revert
+{ dec3691c3fb5cdf86486392dda1b604dca1fb482 -> 399359fb46947c6c5f130b139328fb29d4001291 }
+Revert commits SHA are -> 
+dec3691c3fb5cdf86486392dda1b604dca1fb482 - revert - 399359fb46947c6c5f130b139328fb29d4001291
+---> The reverted commit sha is - dec3691c3fb5cdf86486392dda1b604dca1fb482
+Commit message - randombytes.c: seed doesn't seem to be used on OpenBSD, so don't
+define it when using -Werror.
+run_realtime.c: the static is also causing a "defined but not used
+error." This is probably the wrong fix, but I'm a newbie. :)
+---> The original commit sha is - 399359fb46947c6c5f130b139328fb29d4001291
+Commit message - Merge pull request #426 from jrossi/manage_agents-425
+
+fixes #425 moves srandom before chroot
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ 9c52c7c1e2e659aa319455472eeb38fe10138ddd -> 16ee6d487805d70d7d10a2eecc5ab9f77fa3bf08 } is a revert
+{ 5555a4d36cc4f4b3ee8a6b7e102a02e3312e69b7 -> 49f966cdd55c1df96cbeb58aea607341ab6ad0c1 }
+Revert commits SHA are -> 
+16ee6d487805d70d7d10a2eecc5ab9f77fa3bf08 - revert - 49f966cdd55c1df96cbeb58aea607341ab6ad0c1
+---> The reverted commit sha is - 16ee6d487805d70d7d10a2eecc5ab9f77fa3bf08
+Commit message - Unused variable.
+---> The original commit sha is - 49f966cdd55c1df96cbeb58aea607341ab6ad0c1
+Commit message - builds are failing, toss this back in
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ a28cb16bf0e31ffdf878f31b95bf75f4dabcf00a -> 9eb9fc555a1dab9020eb8d74ecfc826e2cf75b41 } is a revert
+{ 9eb9fc555a1dab9020eb8d74ecfc826e2cf75b41 -> ed089752cd00efca525c41375f798df381e0f224 }
+Revert commits SHA are -> 
+9eb9fc555a1dab9020eb8d74ecfc826e2cf75b41 - revert - ed089752cd00efca525c41375f798df381e0f224
+---> The reverted commit sha is - 9eb9fc555a1dab9020eb8d74ecfc826e2cf75b41
+Commit message - standalone script for firewalld on Linux (tested on CentOS 7)
+---> The original commit sha is - ed089752cd00efca525c41375f798df381e0f224
+Commit message - Merge pull request #413 from ChristianBeer/apache24-info
+
+Decoder fix for Apache 2.4
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ 486bf7a3258e39fd5679f2b6c02fc32e58a835dc -> 7f7c2129b7c139b59b2cfc64c3202c9168a452ca } is a revert
+{ 7f7c2129b7c139b59b2cfc64c3202c9168a452ca -> 45dda706a9888d3dea56abc8c97676e207f01cd3 }
+Revert commits SHA are -> 
+7f7c2129b7c139b59b2cfc64c3202c9168a452ca - revert - 45dda706a9888d3dea56abc8c97676e207f01cd3
+---> The reverted commit sha is - 7f7c2129b7c139b59b2cfc64c3202c9168a452ca
+Commit message - Revert "fix remaining -Wextra issues"
+
+This reverts commit 486bf7a3258e39fd5679f2b6c02fc32e58a835dc.
+---> The original commit sha is - 45dda706a9888d3dea56abc8c97676e207f01cd3
+Commit message - fix remaining -Wextra issues
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ 50f65c07ba6cb812bb66c314c858366b8bab83d6 -> 486bf7a3258e39fd5679f2b6c02fc32e58a835dc } is a revert
+{ 486bf7a3258e39fd5679f2b6c02fc32e58a835dc -> 7f7c2129b7c139b59b2cfc64c3202c9168a452ca }
+Revert commits SHA are -> 
+486bf7a3258e39fd5679f2b6c02fc32e58a835dc - revert - 7f7c2129b7c139b59b2cfc64c3202c9168a452ca
+---> The reverted commit sha is - 486bf7a3258e39fd5679f2b6c02fc32e58a835dc
+Commit message - fix remaining -Wextra issues
+---> The original commit sha is - 7f7c2129b7c139b59b2cfc64c3202c9168a452ca
+Commit message - Revert "fix remaining -Wextra issues"
+
+This reverts commit 486bf7a3258e39fd5679f2b6c02fc32e58a835dc.
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ a649518759705cb862213e7f2279f40796ed401e -> 83460087172468d627e923e63957494e51f7c255 } is a revert
+{ 83460087172468d627e923e63957494e51f7c255 -> d208c8cee1404fb0383913e4d7bb6e5be27b5afb }
+Revert commits SHA are -> 
+83460087172468d627e923e63957494e51f7c255 - revert - d208c8cee1404fb0383913e4d7bb6e5be27b5afb
+---> The reverted commit sha is - 83460087172468d627e923e63957494e51f7c255
+Commit message - better file handling on update:
+
+always overwrite internal_options.conf
+only write local_internal_options.conf if it not exists
+only write client.keys if it not exists
+---> The original commit sha is - d208c8cee1404fb0383913e4d7bb6e5be27b5afb
+Commit message - Merge pull request #363 from cgzones/unit_test_timeout
+
+[tests] set timeout for OS_GetHost() tests to 10 seconds
+-----------------------------------------------------------------
+
+Revert diff pair 8 is -> 
+{ be5bec04f8126797b94eaaff14a20c424160bcfe -> 5e80a1bd9223f0e53a68be5fb1a647e0b7e7e1f6 } is a revert
+{ bb4ccab03384373c201272912c6f9bbc3ca02558 -> 00423d34324ddaeaf6ad68a09feee483475abfaf }
+Revert commits SHA are -> 
+5e80a1bd9223f0e53a68be5fb1a647e0b7e7e1f6 - revert - 00423d34324ddaeaf6ad68a09feee483475abfaf
+---> The reverted commit sha is - 5e80a1bd9223f0e53a68be5fb1a647e0b7e7e1f6
+Commit message - Minor fix: added declaration of OS_Match3 to header file.
+---> The original commit sha is - 00423d34324ddaeaf6ad68a09feee483475abfaf
+Commit message - Merge pull request #288 from cgzones/remove_declaration
+
+[os_regex] remove unimplemented declaration of 'OS_Match3'
+-----------------------------------------------------------------
+
+Revert diff pair 9 is -> 
+{ 0c60491e824d3e6bb0868879577dbfe4304ad607 -> 6781a32e58bb226fd598dec0fda2a9fb211470a0 } is a revert
+{ 6781a32e58bb226fd598dec0fda2a9fb211470a0 -> dcf65e21a298c68576fc9f6a9fc61ac456a34b82 }
+Revert commits SHA are -> 
+6781a32e58bb226fd598dec0fda2a9fb211470a0 - revert - dcf65e21a298c68576fc9f6a9fc61ac456a34b82
+---> The reverted commit sha is - 6781a32e58bb226fd598dec0fda2a9fb211470a0
+Commit message - Remove syscheck-baseline.c
+
+This doesn't seem to be used anymore and I'm not sure what it's purpose
+is or was. My guess is it was some type of testing or stand alone
+tool. The building of this application was removed in d88cf1c9. The
+commit doesn't really explain why unfortunately.
+---> The original commit sha is - dcf65e21a298c68576fc9f6a9fc61ac456a34b82
+Commit message - Merge pull request #277 from awiddersheim/add_help_defaults
+
+Add defaults to help output
+-----------------------------------------------------------------
+
+Revert diff pair 10 is -> 
+{ 7151b3daa8a5b129c94c7f861602b7162f4bd12e -> f9dffa8b5deb5442b14e745562293e8103cecfad } is a revert
+{ 3e0d571e253deaacb29541cb804b1ab0c9f5a3db -> 349b27755d92afc52aa9b6334ea3eb030048875e }
+Revert commits SHA are -> 
+f9dffa8b5deb5442b14e745562293e8103cecfad - revert - 349b27755d92afc52aa9b6334ea3eb030048875e
+---> The reverted commit sha is - f9dffa8b5deb5442b14e745562293e8103cecfad
+Commit message - Merge pull request #264 from ddpbsd/README.md
+
+Update version in README.md from 2.7.1 to 2.8
+---> The original commit sha is - 349b27755d92afc52aa9b6334ea3eb030048875e
+Commit message - Merge branch 'master' of https://github.com/ossec/ossec-hids
+-----------------------------------------------------------------
+
+Revert diff pair 11 is -> 
+{ 7151b3daa8a5b129c94c7f861602b7162f4bd12e -> f9dffa8b5deb5442b14e745562293e8103cecfad } is a revert
+{ 82b26a167c46ec49b2692aef5e8918da64c4242f -> 9f818c6b10988c7fd8dc6b7ef3aa54cd39897776 }
+Revert commits SHA are -> 
+f9dffa8b5deb5442b14e745562293e8103cecfad - revert - 9f818c6b10988c7fd8dc6b7ef3aa54cd39897776
+---> The reverted commit sha is - f9dffa8b5deb5442b14e745562293e8103cecfad
+Commit message - Merge pull request #264 from ddpbsd/README.md
+
+Update version in README.md from 2.7.1 to 2.8
+---> The original commit sha is - 9f818c6b10988c7fd8dc6b7ef3aa54cd39897776
+Commit message - Merge branch 'master' of https://github.com/ossec/ossec-hids
+-----------------------------------------------------------------
+
+Revert diff pair 12 is -> 
+{ e3037af67706a2cd34c6d7ae098a695f7104a10a -> d08b92e7cefdeb6fe22fef1d93655838780eb381 } is a revert
+{ 6dea529c662e39771c04696f623eb3d7064afb1b -> b213ae1eff986c7f573f207bf93c7bfc9a9149c5 }
+Revert commits SHA are -> 
+d08b92e7cefdeb6fe22fef1d93655838780eb381 - revert - b213ae1eff986c7f573f207bf93c7bfc9a9149c5
+---> The reverted commit sha is - d08b92e7cefdeb6fe22fef1d93655838780eb381
+Commit message - Oops, wrong branch.
+---> The original commit sha is - b213ae1eff986c7f573f207bf93c7bfc9a9149c5
+Commit message - Merge branch 'master' of https://github.com/ossec/ossec-hids into misc-rules
+-----------------------------------------------------------------
+
+Revert diff pair 13 is -> 
+{ c1d57cebe4f5f969c1661930e29b29c0dfd87dee -> 901093f6e9a1a015b805b52f473c4ee175e05f63 } is a revert
+{ 901093f6e9a1a015b805b52f473c4ee175e05f63 -> 1c256507bcf3a709655aaee7e94ef2a20b771f9c }
+Revert commits SHA are -> 
+901093f6e9a1a015b805b52f473c4ee175e05f63 - revert - 1c256507bcf3a709655aaee7e94ef2a20b771f9c
+---> The reverted commit sha is - 901093f6e9a1a015b805b52f473c4ee175e05f63
+Commit message - Merge branch 'master' of https://github.com/ossec/ossec-hids
+---> The original commit sha is - 1c256507bcf3a709655aaee7e94ef2a20b771f9c
+Commit message - Merge pull request #255 from ddpbsd/more_pam
+
+More Pam match and unittests
+-----------------------------------------------------------------
+
+Revert diff pair 14 is -> 
+{ 566e24757f2fc825e2fbb1b6708063049ca7a36e -> 88b6b379b4bf322c888ae1c4c49a09a0f746fa23 } is a revert
+{ 88b6b379b4bf322c888ae1c4c49a09a0f746fa23 -> 93c92e54871120feb6f8d098ddb45be1b16d7a49 }
+Revert commits SHA are -> 
+88b6b379b4bf322c888ae1c4c49a09a0f746fa23 - revert - 93c92e54871120feb6f8d098ddb45be1b16d7a49
+---> The reverted commit sha is - 88b6b379b4bf322c888ae1c4c49a09a0f746fa23
+Commit message - Merge branch 'master' of github.com:ossec/ossec-hids
+---> The original commit sha is - 93c92e54871120feb6f8d098ddb45be1b16d7a49
+Commit message - Merge pull request #232 from navtej/master
+
+fix crash in is_simple_http_request
+
+Under some conditions is_simple_http_request access lf->url unchecked. If lf->url is null, it will segfault.
+-----------------------------------------------------------------
+
+Revert diff pair 15 is -> 
+{ 18572616ff50217c55530466c7cf9001c10d6f4e -> 90723e841a324eeb9c8de280edf0665564d69263 } is a revert
+{ 90723e841a324eeb9c8de280edf0665564d69263 -> cdeb6347de2ea69d5a66d6fe121b45e4c9799fbb }
+Revert commits SHA are -> 
+90723e841a324eeb9c8de280edf0665564d69263 - revert - cdeb6347de2ea69d5a66d6fe121b45e4c9799fbb
+---> The reverted commit sha is - 90723e841a324eeb9c8de280edf0665564d69263
+Commit message - Fix Windows Installed Date
+
+Fixes #225. The installed date was only ever gathered at compile time
+and not each and every time the ossec-installer was run on each system.
+This would result in the installed date being the same on all systems
+and equal to the time when the installer was compiled.
+
+This makes me wonder if installed date was actually supposed to be
+something like 'compiled date'. I'm going to go with it being a bug
+though just because of the naming of everything.
+
+This bug has likely existed for quite some time but was only recently
+discovered becuase I moved the installed date into the win32ui making it
+more visible to end users.
+
+The current time should now be gathered on every run of the installer
+and updating VERSION.txt with the information. Also, the issue of the
+seconds being cut off should hopefully no longer be an issue as well
+since the new method of getting the time shortens the string due to the
+difference in the way the time is formatted.
+---> The original commit sha is - cdeb6347de2ea69d5a66d6fe121b45e4c9799fbb
+Commit message - Merge pull request #226 from awiddersheim/fix_win_build
+
+Fixes to make.sh for Windows
+-----------------------------------------------------------------
+
+Revert diff pair 16 is -> 
+{ 16c579389975e1b33bbeb5f66d16deb20342b93f -> 332607b3de522b00270fe242d1d17d2b1342e411 } is a revert
+{ 332607b3de522b00270fe242d1d17d2b1342e411 -> 8e5efa34bc5a7b1ecf82bfd9dc4f19c9872b0aff }
+Revert commits SHA are -> 
+332607b3de522b00270fe242d1d17d2b1342e411 - revert - 8e5efa34bc5a7b1ecf82bfd9dc4f19c9872b0aff
+---> The reverted commit sha is - 332607b3de522b00270fe242d1d17d2b1342e411
+Commit message - [os_regex] set \W as the inverse of \w
+---> The original commit sha is - 8e5efa34bc5a7b1ecf82bfd9dc4f19c9872b0aff
+Commit message - Merge pull request #220 from cgzones/fix_209
+
+restoring old behavior: handle '$' as variable begin only, when a xml variable was previously defined in the same file
+-----------------------------------------------------------------
+
+Revert diff pair 17 is -> 
+{ 8d93a44dda20d43e7a91e014f1f8162313bd4490 -> 7f6f8d1cee95f322cab8492e9b54132209d97e3e } is a revert
+{ 1947253f8262bb49b4196645acc005e1e6e5e8dd -> 1c0e7e31a416b3bf97312b385de333a27d13448f }
+Revert commits SHA are -> 
+7f6f8d1cee95f322cab8492e9b54132209d97e3e - revert - 1c0e7e31a416b3bf97312b385de333a27d13448f
+---> The reverted commit sha is - 7f6f8d1cee95f322cab8492e9b54132209d97e3e
+Commit message - Added Vista+ corollary for event ID 529
+---> The original commit sha is - 1c0e7e31a416b3bf97312b385de333a27d13448f
+Commit message - Revert "Added Vista+ corollary for event ID 529"
+
+This reverts commit 7f6f8d1cee95f322cab8492e9b54132209d97e3e.
+-----------------------------------------------------------------
+
+Revert diff pair 18 is -> 
+{ 7f6f8d1cee95f322cab8492e9b54132209d97e3e -> c7cb1c0eed56a4b02a6563c7734bfe8e44e29e44 } is a revert
+{ c7cb1c0eed56a4b02a6563c7734bfe8e44e29e44 -> 1947253f8262bb49b4196645acc005e1e6e5e8dd }
+Revert commits SHA are -> 
+c7cb1c0eed56a4b02a6563c7734bfe8e44e29e44 - revert - 1947253f8262bb49b4196645acc005e1e6e5e8dd
+---> The reverted commit sha is - c7cb1c0eed56a4b02a6563c7734bfe8e44e29e44
+Commit message - Added Vista+ corollary for event ID 530
+---> The original commit sha is - 1947253f8262bb49b4196645acc005e1e6e5e8dd
+Commit message - Revert "Added Vista+ corollary for event ID 530"
+
+This reverts commit c7cb1c0eed56a4b02a6563c7734bfe8e44e29e44.
+-----------------------------------------------------------------
+
+Revert diff pair 19 is -> 
+{ e383903e337ecd299e7d0464c1c79331a07a81e2 -> 1e94f634f35ceb54abb4d8941eb48bc80caf1793 } is a revert
+{ 600c9117bfa92b04b1621fed24732bc072a1bda5 -> 464289043bd8e4310093327c842cfe5ab5f7e7ed }
+Revert commits SHA are -> 
+1e94f634f35ceb54abb4d8941eb48bc80caf1793 - revert - 464289043bd8e4310093327c842cfe5ab5f7e7ed
+---> The reverted commit sha is - 1e94f634f35ceb54abb4d8941eb48bc80caf1793
+Commit message - [os_xml] astyle format
+
+formatting with
+astyle --indent=spaces=4 --indent-switches --lineend=linux --style=stroustrup --pad-oper --add-brackets --align-pointer=name os_xml/*.c
+astyle --indent=spaces=4 --indent-switches --lineend=linux --style=stroustrup --pad-oper --add-brackets --align-pointer=name os_xml/*.h
+
+see https://github.com/ossec/ossec-docs/blob/fae75e0beb6201d7edec5d65d30d657c565cfedc/docs/oRFC/orfc-2.rst
+---> The original commit sha is - 464289043bd8e4310093327c842cfe5ab5f7e7ed
+Commit message - Revert "[os_xml] astyle format"
+
+This reverts commit 1e94f634f35ceb54abb4d8941eb48bc80caf1793.
+-----------------------------------------------------------------
+
+Revert diff pair 20 is -> 
+{ c73a5dba23db4075f28e3cbc1a1f9d86bca9cd9d -> b44fc836c979542604f86fa8f1eaabc4f5167051 } is a revert
+{ b44fc836c979542604f86fa8f1eaabc4f5167051 -> 889fc726b2075c2d83885b5a690d35d2a7689db5 }
+Revert commits SHA are -> 
+b44fc836c979542604f86fa8f1eaabc4f5167051 - revert - 889fc726b2075c2d83885b5a690d35d2a7689db5
+---> The reverted commit sha is - b44fc836c979542604f86fa8f1eaabc4f5167051
+Commit message - fix clang -Wall warnings
+---> The original commit sha is - 889fc726b2075c2d83885b5a690d35d2a7689db5
+Commit message - Merge pull request #110 from cgzones/cjson-makefile
+
+simplify cJSON makefile
+-----------------------------------------------------------------
+
+Revert diff pair 21 is -> 
+{ 5c62679386d444e18372ff3b12c48458d5fcdd17 -> 0812717cb3b40bd05f268b9df5cd27a7c03d4991 } is a revert
+{ 3df36841c8b216dfce775ad0f91b1b0d37145874 -> cf1d61bb7ae7eb3ba522eb614171bac514e70c44 }
+Revert commits SHA are -> 
+0812717cb3b40bd05f268b9df5cd27a7c03d4991 - revert - cf1d61bb7ae7eb3ba522eb614171bac514e70c44
+---> The reverted commit sha is - 0812717cb3b40bd05f268b9df5cd27a7c03d4991
+Commit message - Merge pull request #1 from ossec/master
+
+Pull in changes
+---> The original commit sha is - cf1d61bb7ae7eb3ba522eb614171bac514e70c44
+Commit message - Merge pull request #104 from awiddersheim/fix_win32_messages
+
+Fix win32ui messages
+-----------------------------------------------------------------
+
+Revert diff pair 22 is -> 
+{ daf620e483f178cf5523e48a5d840cdbaf9fade4 -> 52b5129e003c090158445efd49b627f276ca54c2 } is a revert
+{ 52b5129e003c090158445efd49b627f276ca54c2 -> de9a21a7587ac07500f58f08116322c5c3852ea5 }
+Revert commits SHA are -> 
+52b5129e003c090158445efd49b627f276ca54c2 - revert - de9a21a7587ac07500f58f08116322c5c3852ea5
+---> The reverted commit sha is - 52b5129e003c090158445efd49b627f276ca54c2
+Commit message - fix more ressource and memory leaks (not reported by cppcheck)
+---> The original commit sha is - de9a21a7587ac07500f58f08116322c5c3852ea5
+Commit message - Merge pull request #40 from SekoiaLab/eventapi
+
+eventchannel: fix bug with bookmarks
+-----------------------------------------------------------------
+
+Revert diff pair 23 is -> 
+{ f81a28642783d51815a516eec0b4ae5bd36b139f -> ec36adddc4a4682dd58b04ec39d47a218b539989 } is a revert
+{ ec36adddc4a4682dd58b04ec39d47a218b539989 -> 75b8dc8ff8f3788aaa5d4caa99f0d5def7f71973 }
+Revert commits SHA are -> 
+ec36adddc4a4682dd58b04ec39d47a218b539989 - revert - 75b8dc8ff8f3788aaa5d4caa99f0d5def7f71973
+---> The reverted commit sha is - ec36adddc4a4682dd58b04ec39d47a218b539989
+Commit message - fix ressource and memory leaks (reported by cppcheck)
+---> The original commit sha is - 75b8dc8ff8f3788aaa5d4caa99f0d5def7f71973
+Commit message - Merge pull request #35 from awiddersheim/remove_excessive_ka_logging_win
+
+Removed keepalive message from win_agent.c when not in debug
+-----------------------------------------------------------------
+
+Revert diff pair 24 is -> 
+{ c63fe2decaf7c2e01d92b581ab3132b664de0f3f -> 2440125acf838937d0bc9eae2004d088b57468cd } is a revert
+{ 2440125acf838937d0bc9eae2004d088b57468cd -> b95a7d2d2166dadd28c28d02d90dbaf5866bfee6 }
+Revert commits SHA are -> 
+2440125acf838937d0bc9eae2004d088b57468cd - revert - b95a7d2d2166dadd28c28d02d90dbaf5866bfee6
+---> The reverted commit sha is - 2440125acf838937d0bc9eae2004d088b57468cd
+Commit message - Add pid files for ossec-remoted children so they get cleaned up
+on restart or stop
+---> The original commit sha is - b95a7d2d2166dadd28c28d02d90dbaf5866bfee6
+Commit message - HandleClient should try to open the m_queue in WRITE mode instead of
+READ
+
+HandleClient does not ever exit after ossec is stopped or restarted
+because the call to StartMQ on line 146 is for READ mode instead of
+WRITE. When changed to WRITE, the StartMQ call fails and ossec-remoted
+exits.
+-----------------------------------------------------------------
+
+Revert diff pair 25 is -> 
+{ b97011bdc290bfd5d45a97c905d4c04187851c35 -> 7bdfaa1c1fc9a8925fd9d242b25f55d9cbf551ff } is a revert
+{ d5b7637a3b9a910e4f4f4d935734b405a0073aae -> 995b285efd83b70a3acf3328e9cf99996e0891b7 }
+Revert commits SHA are -> 
+7bdfaa1c1fc9a8925fd9d242b25f55d9cbf551ff - revert - 995b285efd83b70a3acf3328e9cf99996e0891b7
+---> The reverted commit sha is - 7bdfaa1c1fc9a8925fd9d242b25f55d9cbf551ff
+Commit message - [2.7-csyslogd] fix csyslogd again for ubuntu, merror() crash
+---> The original commit sha is - 995b285efd83b70a3acf3328e9cf99996e0891b7
+Commit message - [2.7.1-beta1-csyslogd] revert 60fa0f8, it is not the root cause of crash
+-----------------------------------------------------------------
+
+Revert diff pair 26 is -> 
+{ 7be62c226315c866b4cf1c5e2163725842e511de -> 532d795da49554255ad6b70dbd6bf3f927e47086 } is a revert
+{ fce16911940698068c6a2f9ee551eb10c110f79d -> 038fe6af9bcdc1492a0cd27d6d7a569e76f7cafb }
+Revert commits SHA are -> 
+532d795da49554255ad6b70dbd6bf3f927e47086 - revert - 038fe6af9bcdc1492a0cd27d6d7a569e76f7cafb
+---> The reverted commit sha is - 532d795da49554255ad6b70dbd6bf3f927e47086
+Commit message - sgros: add logcollector new files: read_linux_audit.c read_modsec_audit.c read_regex.c
+---> The original commit sha is - 038fe6af9bcdc1492a0cd27d6d7a569e76f7cafb
+Commit message - backout 148d16a315d2 log collector new files: read_linux_audit.c read_modsec_audit.c read_regex.c
+-----------------------------------------------------------------
+
+Revert diff pair 27 is -> 
+{ 042b137480daea0b717f3f3bf18e8ae2efd2c88f -> 7fe9d9e881e1ba8059edc2862044c681f5a0aee9 } is a revert
+{ 7fe9d9e881e1ba8059edc2862044c681f5a0aee9 -> a85b1c64f0ba505eb9002b6bc39ec459a57be053 }
+Revert commits SHA are -> 
+7fe9d9e881e1ba8059edc2862044c681f5a0aee9 - revert - a85b1c64f0ba505eb9002b6bc39ec459a57be053
+---> The reverted commit sha is - 7fe9d9e881e1ba8059edc2862044c681f5a0aee9
+Commit message - [2.7-beta0-win32] use DOS line ending for .cmd file and .txt file
+---> The original commit sha is - a85b1c64f0ba505eb9002b6bc39ec459a57be053
+Commit message - Backed out changeset 7651ae5544a8 - DOS line ending
+-----------------------------------------------------------------
+
+Revert diff pair 28 is -> 
+{ fa64c61877cf22b13b1641172dee6ac16664560f -> 025e3efa12329ae2311f42128dcfb97bfaeb7bee } is a revert
+{ 0ae22d74c37f5a0e2b0b82cc4b394ade7ccf0574 -> f97d820dd218f6ef7bbfd3e2c77322cf87a2ce83 }
+Revert commits SHA are -> 
+025e3efa12329ae2311f42128dcfb97bfaeb7bee - revert - f97d820dd218f6ef7bbfd3e2c77322cf87a2ce83
+---> The reverted commit sha is - 025e3efa12329ae2311f42128dcfb97bfaeb7bee
+Commit message - Expanding Windows variable on the command monitoring.
+---> The original commit sha is - f97d820dd218f6ef7bbfd3e2c77322cf87a2ce83
+Commit message - Reverting previous change.
+-----------------------------------------------------------------
+
+Revert diff pair 29 is -> 
+{ 9a2b2a7c3c1bc49540b72e2cffd2db4e79bee331 -> 9060d7f17defb34c1379665c9566dd50dccaeca5 } is a revert
+{ 9060d7f17defb34c1379665c9566dd50dccaeca5 -> 784c2ae11160334e51b3630c70397942fbfe017e }
+Revert commits SHA are -> 
+9060d7f17defb34c1379665c9566dd50dccaeca5 - revert - 784c2ae11160334e51b3630c70397942fbfe017e
+---> The reverted commit sha is - 9060d7f17defb34c1379665c9566dd50dccaeca5
+Commit message - Description: Testing e-mail 2.
+Reviewed by: dcid
+Bug:
+---> The original commit sha is - 784c2ae11160334e51b3630c70397942fbfe017e
+Commit message - Description: Deleting test file.
+Reviewed by: dcid
+Bug:
+-----------------------------------------------------------------
+
+Revert diff pair 30 is -> 
+{ 563e59c0bade15330149ad65e25722023652b8e5 -> ca168aa8abcc5ce4ca361b3d891f90bda72b2eb6 } is a revert
+{ ca168aa8abcc5ce4ca361b3d891f90bda72b2eb6 -> 5d113b5c8ce6fd1f419bfd9518a77c92ee723800 }
+Revert commits SHA are -> 
+ca168aa8abcc5ce4ca361b3d891f90bda72b2eb6 - revert - 5d113b5c8ce6fd1f419bfd9518a77c92ee723800
+---> The reverted commit sha is - ca168aa8abcc5ce4ca361b3d891f90bda72b2eb6
+Commit message - Description: test 2
+Reviewed by: dcid
+Bug:
+---> The original commit sha is - 5d113b5c8ce6fd1f419bfd9518a77c92ee723800
+Commit message - Description: Test 2
+Reviewed by:
+Bug:
+-----------------------------------------------------------------
+
+Revert diff pair 31 is -> 
+{ 98f304c69617121b8ece4dd5acb48304e45a9345 -> 563e59c0bade15330149ad65e25722023652b8e5 } is a revert
+{ 563e59c0bade15330149ad65e25722023652b8e5 -> ca168aa8abcc5ce4ca361b3d891f90bda72b2eb6 }
+Revert commits SHA are -> 
+563e59c0bade15330149ad65e25722023652b8e5 - revert - ca168aa8abcc5ce4ca361b3d891f90bda72b2eb6
+---> The reverted commit sha is - 563e59c0bade15330149ad65e25722023652b8e5
+Commit message - Description: testing cvs.
+Reviewed by: dcid
+Bug:
+---> The original commit sha is - ca168aa8abcc5ce4ca361b3d891f90bda72b2eb6
+Commit message - Description: test 2
+Reviewed by: dcid
+Bug:
+-----------------------------------------------------------------
+
+Revert diff pair 32 is -> 
+{ 94d2e5a52e9822c456b56a3734e0ea661dd57e71 -> a4c15a057730439bab035360a98a17d00d316fa3 } is a revert
+{ a4c15a057730439bab035360a98a17d00d316fa3 -> 1d3f03d618ebda2b7d3e0321232a57e37d132093 }
+Revert commits SHA are -> 
+a4c15a057730439bab035360a98a17d00d316fa3 - revert - 1d3f03d618ebda2b7d3e0321232a57e37d132093
+---> The reverted commit sha is - a4c15a057730439bab035360a98a17d00d316fa3
+Commit message - Description:
+Reviewed by:
+Bug:
+---> The original commit sha is - 1d3f03d618ebda2b7d3e0321232a57e37d132093
+Commit message - Description:
+Reviewed by:
+Bug:
+-----------------------------------------------------------------
+
+Revert diff pair 33 is -> 
+{ 44f5a308311333ed2cc02a8520c5c9ab97e7720d -> 94d2e5a52e9822c456b56a3734e0ea661dd57e71 } is a revert
+{ 94d2e5a52e9822c456b56a3734e0ea661dd57e71 -> a4c15a057730439bab035360a98a17d00d316fa3 }
+Revert commits SHA are -> 
+94d2e5a52e9822c456b56a3734e0ea661dd57e71 - revert - a4c15a057730439bab035360a98a17d00d316fa3
+---> The reverted commit sha is - 94d2e5a52e9822c456b56a3734e0ea661dd57e71
+Commit message - Description:
+Reviewed by:
+Bug:
+---> The original commit sha is - a4c15a057730439bab035360a98a17d00d316fa3
+Commit message - Description:
+Reviewed by:
+Bug:
+-----------------------------------------------------------------
+
+Revert diff pair 34 is -> 
+{ 5d5b03aa9b4b53c968267ac47d5af67791db1c26 -> 19e4ea0268d7fcce56f5caa2b7b4215a698aa07f } is a revert
+{ 19e4ea0268d7fcce56f5caa2b7b4215a698aa07f -> 3ef99e12e26d5bcfd5fddf76a776846f10004a48 }
+Revert commits SHA are -> 
+19e4ea0268d7fcce56f5caa2b7b4215a698aa07f - revert - 3ef99e12e26d5bcfd5fddf76a776846f10004a48
+---> The reverted commit sha is - 19e4ea0268d7fcce56f5caa2b7b4215a698aa07f
+Commit message - Description: test
+Reviewed by: none
+Bug: none
+---> The original commit sha is - 3ef99e12e26d5bcfd5fddf76a776846f10004a48
+Commit message - Description: Removing test
+Reviewed by: none
+Bug: none
+-----------------------------------------------------------------
+
+Revert diff pair 35 is -> 
+{ 83e1b794529c6749203da09292d56752720bb530 -> 444658d65f84504eee49bd4b1d53ef5c1b1f6207 } is a revert
+{ 03a5aa38d9a6de03d963b3ab7315d45f86438008 -> f4592dc1134939ca633654d9c1c4ee72aa540066 }
+Revert commits SHA are -> 
+444658d65f84504eee49bd4b1d53ef5c1b1f6207 - revert - f4592dc1134939ca633654d9c1c4ee72aa540066
+---> The reverted commit sha is - 444658d65f84504eee49bd4b1d53ef5c1b1f6207
+Commit message - Description: Adding syscheck template.
+Reviewed by: dcid
+Bug:
+---> The original commit sha is - f4592dc1134939ca633654d9c1c4ee72aa540066
+Commit message - Removing template..
+-----------------------------------------------------------------
+

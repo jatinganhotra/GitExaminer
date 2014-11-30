@@ -1,0 +1,1503 @@
+# of partial reverts = 92
+Partial Revert diff pair 1 is -> 
+{ f85efbfd04d94a813c2425cd04a3edf853fbdbf8 -> 140addd43c0763c652c1df02379ebfc986246027 } is a revert
+{ 659c3d4eedc82acf4b93e930134162bbaf4dbd03 -> aca001b1c6546f95e7c9e8167ad7f5639c6d5dfa }
+Partial Revert commits SHA are -> 
+140addd43c0763c652c1df02379ebfc986246027 - revert - aca001b1c6546f95e7c9e8167ad7f5639c6d5dfa
+---> The reverted commit sha is - 140addd43c0763c652c1df02379ebfc986246027
+Commit message - Merge pull request #538 from richard-flosi/Model-findAll
+
+Adding Model.findAll(id, notFound) 
+---> The original commit sha is - aca001b1c6546f95e7c9e8167ad7f5639c6d5dfa
+Commit message - Merge pull request #551 from navitmccaffery/fix_route_unbind
+
+Fix Route.unbind() when trying to unlisten to an event
+---> The files with partial_reverts are:-
+src/route.coffee
+test/specs/route.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ cb7f062cdbef4566d58536347e8363a83020b7fb -> 6bdfc92375ca51dced0abc2361c2543211513cc4 } is a revert
+{ 140addd43c0763c652c1df02379ebfc986246027 -> 659c3d4eedc82acf4b93e930134162bbaf4dbd03 }
+Partial Revert commits SHA are -> 
+6bdfc92375ca51dced0abc2361c2543211513cc4 - revert - 659c3d4eedc82acf4b93e930134162bbaf4dbd03
+---> The reverted commit sha is - 6bdfc92375ca51dced0abc2361c2543211513cc4
+Commit message - Forward Route.unbind() to Events version if given arguments
+---> The original commit sha is - 659c3d4eedc82acf4b93e930134162bbaf4dbd03
+Commit message - Merge pull request #549 from arrmatyi/ie9-tests-fix
+
+ie9-tests-fix > Fix tests on IE9.
+---> The files with partial_reverts are:-
+test/specs/controller.js
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 3 is -> 
+{ 6d6ab450e9fe89933d78fd3f6b6f04c01afdaff8 -> 74e0466fecb5532d90c205126631a6f13c389f1b } is a revert
+{ 48abe4cbef8c7996d56e04237d6bcfaaf4289041 -> 4f8c1ab7e178ac5bc8fc8347b59ddf8500604067 }
+Partial Revert commits SHA are -> 
+74e0466fecb5532d90c205126631a6f13c389f1b - revert - 4f8c1ab7e178ac5bc8fc8347b59ddf8500604067
+---> The reverted commit sha is - 74e0466fecb5532d90c205126631a6f13c389f1b
+Commit message - Merge branch 'dev' of github.com:spine/spine into route-navigate-trigger-false
+---> The original commit sha is - 4f8c1ab7e178ac5bc8fc8347b59ddf8500604067
+Commit message - Merge pull request #533 from navitmccaffery/require_scope
+
+Use runtime value of require() in relations
+---> The files with partial_reverts are:-
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 4 is -> 
+{ db84f996f1447971e647cb96c0275eac25e2622e -> 8fdb1fcc9d98db5c0991e694cef9a753fffbd4e9 } is a revert
+{ e930ced1b55c4e50ed869b6ff9949e35577dc045 -> 48abe4cbef8c7996d56e04237d6bcfaaf4289041 }
+Partial Revert commits SHA are -> 
+8fdb1fcc9d98db5c0991e694cef9a753fffbd4e9 - revert - 48abe4cbef8c7996d56e04237d6bcfaaf4289041
+---> The reverted commit sha is - 8fdb1fcc9d98db5c0991e694cef9a753fffbd4e9
+Commit message - Removed an unnecessary use of !!
+
+The statement will be cast to a boolean by using `and` or `or`, so no extra casting is required.
+---> The original commit sha is - 48abe4cbef8c7996d56e04237d6bcfaaf4289041
+Commit message - Merge pull request #535 from richard-flosi/route-navigate-trigger-false
+
+Fixed TypeError when trigger is false which results in routes being undefined
+---> The files with partial_reverts are:-
+lib/route.js
+src/route.coffee
+test/specs/route.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 5 is -> 
+{ 77cf7f6e09011a21a711f1513676ebd15a6e87ef -> 7754747c5104abc267892e299e7bc5e76718a1c5 } is a revert
+{ b52d4b1a1b6545bac0e12d16c90b02e807d063e0 -> 35303d3c7bd7f7f6598eb6b984f69785027a2997 }
+Partial Revert commits SHA are -> 
+7754747c5104abc267892e299e7bc5e76718a1c5 - revert - 35303d3c7bd7f7f6598eb6b984f69785027a2997
+---> The reverted commit sha is - 7754747c5104abc267892e299e7bc5e76718a1c5
+Commit message - Code cleanup
+
+return statements like these are not required in CoffeeScript
+---> The original commit sha is - 35303d3c7bd7f7f6598eb6b984f69785027a2997
+Commit message - made the if options.shim return part of the ending return block
+---> The files with partial_reverts are:-
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 6 is -> 
+{ 8a532c377edbc7c88c05a6a9858ed15d2762d865 -> e8f7b44dce7b27dd0af55fcfc9c7e54503a36e50 } is a revert
+{ 1b1cfa2fbce1f0692a30971a896e5b0201244fcb -> 34f887a54f614f361bb718148d877369e69cbde4 }
+Partial Revert commits SHA are -> 
+e8f7b44dce7b27dd0af55fcfc9c7e54503a36e50 - revert - 34f887a54f614f361bb718148d877369e69cbde4
+---> The reverted commit sha is - e8f7b44dce7b27dd0af55fcfc9c7e54503a36e50
+Commit message - fixing relation modules belongsTo for new find api in core
+---> The original commit sha is - 34f887a54f614f361bb718148d877369e69cbde4
+Commit message - Merge pull request #520 from navitmccaffery/stoplistening_callback
+
+Unbind single callback with stopListening()
+---> The files with partial_reverts are:-
+test/specs/events.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 7 is -> 
+{ dd75d991ad54948bdb1cbfd4a38ddecb178406d1 -> f99134f7276d577cdcafe281fddb14eeb7e29f36 } is a revert
+{ b67407e8a221a0191ecbb175390c9931c1422730 -> a76ee8a1264e16410c76edca21d6b75edb500808 }
+Partial Revert commits SHA are -> 
+f99134f7276d577cdcafe281fddb14eeb7e29f36 - revert - a76ee8a1264e16410c76edca21d6b75edb500808
+---> The reverted commit sha is - f99134f7276d577cdcafe281fddb14eeb7e29f36
+Commit message - Don't delete reference to cID when changing ID of a new record
+---> The original commit sha is - a76ee8a1264e16410c76edca21d6b75edb500808
+Commit message - Merge pull request #451 from adambiggs/client-side-uuids
+
+Option to use client-side generated UUIDs
+---> The files with partial_reverts are:-
+lib/spine.js
+test/specs/model.relation.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 8 is -> 
+{ c6bea8fdb6d259fd74df443a8e9e0d2491b50a08 -> 57a42408a365fa33fb0b57d74fcbd1c7a347fa23 } is a revert
+{ 5e18f019e8afd34c11293d2ab1fef635d9b2f5ce -> a23955a90d51d7eb6dbd60ebe6758867bbf54da3 }
+Partial Revert commits SHA are -> 
+57a42408a365fa33fb0b57d74fcbd1c7a347fa23 - revert - a23955a90d51d7eb6dbd60ebe6758867bbf54da3
+---> The reverted commit sha is - 57a42408a365fa33fb0b57d74fcbd1c7a347fa23
+Commit message - tests for ajax - processData, request type, and stringify scenarios
+---> The original commit sha is - a23955a90d51d7eb6dbd60ebe6758867bbf54da3
+Commit message - merge from dev
+---> The files with partial_reverts are:-
+src/spine.coffee
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 9 is -> 
+{ 1cdef7917eba54f64992755bd194efd0b01e6226 -> bfed3e71ce2467cafee629d5f68df3e9151e8464 } is a revert
+{ 65aeea144c9a127905e15d69c56ce0a2f390668a -> f104167c8ff8f309ac7e6246ee607bb173d7b6b9 }
+Partial Revert commits SHA are -> 
+bfed3e71ce2467cafee629d5f68df3e9151e8464 - revert - f104167c8ff8f309ac7e6246ee607bb173d7b6b9
+---> The reverted commit sha is - bfed3e71ce2467cafee629d5f68df3e9151e8464
+Commit message - spec for updating id for model in already queued ajax request
+---> The original commit sha is - f104167c8ff8f309ac7e6246ee607bb173d7b6b9
+Commit message - Bring attributes branch up to speed with dev
+---> The files with partial_reverts are:-
+src/ajax.coffee
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 10 is -> 
+{ c38a83e2e0522f88483b3eebd5c2e8cbaac73baf -> 412bb79ad86c799832310ec77b52eb65b5049694 } is a revert
+{ 65aeea144c9a127905e15d69c56ce0a2f390668a -> f104167c8ff8f309ac7e6246ee607bb173d7b6b9 }
+Partial Revert commits SHA are -> 
+412bb79ad86c799832310ec77b52eb65b5049694 - revert - f104167c8ff8f309ac7e6246ee607bb173d7b6b9
+---> The reverted commit sha is - 412bb79ad86c799832310ec77b52eb65b5049694
+Commit message - Merge pull request #485 from spine/redirFn
+
+allow redirect to be a function
+---> The original commit sha is - f104167c8ff8f309ac7e6246ee607bb173d7b6b9
+Commit message - Bring attributes branch up to speed with dev
+---> The files with partial_reverts are:-
+src/ajax.coffee
+src/spine.coffee
+test/specs/ajax.js
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 11 is -> 
+{ 1cdef7917eba54f64992755bd194efd0b01e6226 -> bfed3e71ce2467cafee629d5f68df3e9151e8464 } is a revert
+{ 584d4d8fd774985e7f4e86a6f660f661c0e814cf -> c38a83e2e0522f88483b3eebd5c2e8cbaac73baf }
+Partial Revert commits SHA are -> 
+bfed3e71ce2467cafee629d5f68df3e9151e8464 - revert - c38a83e2e0522f88483b3eebd5c2e8cbaac73baf
+---> The reverted commit sha is - bfed3e71ce2467cafee629d5f68df3e9151e8464
+Commit message - spec for updating id for model in already queued ajax request
+---> The original commit sha is - c38a83e2e0522f88483b3eebd5c2e8cbaac73baf
+Commit message - Return `this` instead of `root`, per comments in #486
+---> The files with partial_reverts are:-
+src/spine.coffee
+test/specs/ajax.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 12 is -> 
+{ 48d8c86cf6c9659143f759e41e5de0d4e46ea2e7 -> 3652632da95d05adc61131aea278debba75215fd } is a revert
+{ d24b089f82bc8e142db05f1efe92024eff8f8a73 -> 4f90709ebc950a5d64d9b70376c79c681700a8c2 }
+Partial Revert commits SHA are -> 
+3652632da95d05adc61131aea278debba75215fd - revert - 4f90709ebc950a5d64d9b70376c79c681700a8c2
+---> The reverted commit sha is - 3652632da95d05adc61131aea278debba75215fd
+Commit message - Merge pull request #467 from adambiggs/ajax-url-options
+
+Set ajax URLs in method options
+---> The original commit sha is - 4f90709ebc950a5d64d9b70376c79c681700a8c2
+Commit message - Merge pull request #482 from jcarlson/redirect
+
+Add support for redirecting unmatched routes
+---> The files with partial_reverts are:-
+lib/route.js
+src/route.coffee
+test/specs/route.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 13 is -> 
+{ b75517c848d5ca75857e2d28d557ff11bb05f5b7 -> 846a0ecf76858c0d6240ed7e8f05d3bd3a1e5891 } is a revert
+{ 3652632da95d05adc61131aea278debba75215fd -> e7b97f9eda06f48236f7f6e235207730cd60fea2 }
+Partial Revert commits SHA are -> 
+846a0ecf76858c0d6240ed7e8f05d3bd3a1e5891 - revert - e7b97f9eda06f48236f7f6e235207730cd60fea2
+---> The reverted commit sha is - 846a0ecf76858c0d6240ed7e8f05d3bd3a1e5891
+Commit message - Controller::replace should accept jQuery object or DOM Element as an argument
+---> The original commit sha is - e7b97f9eda06f48236f7f6e235207730cd60fea2
+Commit message - handle merge conflicts from master
+---> The files with partial_reverts are:-
+lib/spine.js
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 14 is -> 
+{ bbc08b049622f9eb0496140e2fd7f190880b8ae2 -> 676efd225003bed7ba98fdb06cea629372459207 } is a revert
+{ b75517c848d5ca75857e2d28d557ff11bb05f5b7 -> 846a0ecf76858c0d6240ed7e8f05d3bd3a1e5891 }
+Partial Revert commits SHA are -> 
+676efd225003bed7ba98fdb06cea629372459207 - revert - 846a0ecf76858c0d6240ed7e8f05d3bd3a1e5891
+---> The reverted commit sha is - 676efd225003bed7ba98fdb06cea629372459207
+Commit message - removing @crecords and using @irecords for both cid/id
+---> The original commit sha is - 846a0ecf76858c0d6240ed7e8f05d3bd3a1e5891
+Commit message - Controller::replace should accept jQuery object or DOM Element as an argument
+---> The files with partial_reverts are:-
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 15 is -> 
+{ 7d6272c0e23288fac88aae6aa31bd13cb778451d -> c6dedb359c0c7a028c48243254397240eeba7351 } is a revert
+{ c6dedb359c0c7a028c48243254397240eeba7351 -> 05e39b1cda238a386d209b53f2f344c4a4576a72 }
+Partial Revert commits SHA are -> 
+c6dedb359c0c7a028c48243254397240eeba7351 - revert - 05e39b1cda238a386d209b53f2f344c4a4576a72
+---> The reverted commit sha is - c6dedb359c0c7a028c48243254397240eeba7351
+Commit message - Revert "Let spine be strict-mode compatible"
+
+This reverts commit f2d63296f5b50684c1eeaf1619684c549acfa577.
+---> The original commit sha is - 05e39b1cda238a386d209b53f2f344c4a4576a72
+Commit message - Let spine be strict-mode compatible
+---> The files with partial_reverts are:-
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 16 is -> 
+{ a52036c8f8b6a7e25e226749658791565c2c0316 -> f2d63296f5b50684c1eeaf1619684c549acfa577 } is a revert
+{ f2d63296f5b50684c1eeaf1619684c549acfa577 -> 4c6ce075a834ea82f413f01f9305e6092719f478 }
+Partial Revert commits SHA are -> 
+f2d63296f5b50684c1eeaf1619684c549acfa577 - revert - 4c6ce075a834ea82f413f01f9305e6092719f478
+---> The reverted commit sha is - f2d63296f5b50684c1eeaf1619684c549acfa577
+Commit message - Let spine be strict-mode compatible
+---> The original commit sha is - 4c6ce075a834ea82f413f01f9305e6092719f478
+Commit message - Merge branch 'SpeCT-master' into dev
+---> The files with partial_reverts are:-
+test/specs/ajax.js
+test/specs/class.js
+test/specs/controller.js
+test/specs/manager.js
+test/specs/model.js
+test/specs/model.relation.js
+test/specs/route.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 17 is -> 
+{ 5c204f05b421ca34ab99f5c1b2b21ad3e27c44c7 -> e31c3b16e1783e0307ae5f2f6038bf9e3bfe24df } is a revert
+{ 68f19ec53a999a3d14d3b8697822b8f956bd59fb -> 791cc18e2443a8f032b0d3c30f066bfd96bf67ec }
+Partial Revert commits SHA are -> 
+e31c3b16e1783e0307ae5f2f6038bf9e3bfe24df - revert - 791cc18e2443a8f032b0d3c30f066bfd96bf67ec
+---> The reverted commit sha is - e31c3b16e1783e0307ae5f2f6038bf9e3bfe24df
+Commit message - none of this coffescript map biz in the dev branch
+---> The original commit sha is - 791cc18e2443a8f032b0d3c30f066bfd96bf67ec
+Commit message - Merge branch 'dev'
+---> The files with partial_reverts are:-
+lib/ajax.map
+lib/list.map
+lib/local.map
+lib/manager.map
+lib/relation.map
+lib/route.map
+lib/spine.map
+-----------------------------------------------------------------
+
+Partial Revert diff pair 18 is -> 
+{ b931c92605f89d45aa0271803b6f3656f9bcfa98 -> 35508fd18328389d6fae72fbed4599456c87a0c1 } is a revert
+{ 68f19ec53a999a3d14d3b8697822b8f956bd59fb -> 791cc18e2443a8f032b0d3c30f066bfd96bf67ec }
+Partial Revert commits SHA are -> 
+35508fd18328389d6fae72fbed4599456c87a0c1 - revert - 791cc18e2443a8f032b0d3c30f066bfd96bf67ec
+---> The reverted commit sha is - 35508fd18328389d6fae72fbed4599456c87a0c1
+Commit message - attempt resolve merge conflicts of dev to chrome_order_fix
+---> The original commit sha is - 791cc18e2443a8f032b0d3c30f066bfd96bf67ec
+Commit message - Merge branch 'dev'
+---> The files with partial_reverts are:-
+Cakefile
+lib/ajax.map
+lib/list.map
+lib/local.map
+lib/manager.map
+lib/relation.map
+lib/route.map
+lib/spine.map
+-----------------------------------------------------------------
+
+Partial Revert diff pair 19 is -> 
+{ 2738ecbafac1c466778ed1aa6ff5faa1941291f8 -> 8f7dd29bacbd9e6ac561aac61fe1a3eaef797665 } is a revert
+{ 8f7dd29bacbd9e6ac561aac61fe1a3eaef797665 -> a385c23de67e5a7a8b718d5148c40e2f9a321ec2 }
+Partial Revert commits SHA are -> 
+8f7dd29bacbd9e6ac561aac61fe1a3eaef797665 - revert - a385c23de67e5a7a8b718d5148c40e2f9a321ec2
+---> The reverted commit sha is - 8f7dd29bacbd9e6ac561aac61fe1a3eaef797665
+Commit message - Fix model instance Events wrapper
+
+Take in implement of Events (#447 / #450)
+---> The original commit sha is - a385c23de67e5a7a8b718d5148c40e2f9a321ec2
+Commit message - Delete not necessary `if` on controllers release
+---> The files with partial_reverts are:-
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 20 is -> 
+{ 5c204f05b421ca34ab99f5c1b2b21ad3e27c44c7 -> e31c3b16e1783e0307ae5f2f6038bf9e3bfe24df } is a revert
+{ e31c3b16e1783e0307ae5f2f6038bf9e3bfe24df -> b931c92605f89d45aa0271803b6f3656f9bcfa98 }
+Partial Revert commits SHA are -> 
+e31c3b16e1783e0307ae5f2f6038bf9e3bfe24df - revert - b931c92605f89d45aa0271803b6f3656f9bcfa98
+---> The reverted commit sha is - e31c3b16e1783e0307ae5f2f6038bf9e3bfe24df
+Commit message - none of this coffescript map biz in the dev branch
+---> The original commit sha is - b931c92605f89d45aa0271803b6f3656f9bcfa98
+Commit message - map files are back in master, YEAH!
+---> The files with partial_reverts are:-
+lib/ajax.map
+lib/list.map
+lib/local.map
+lib/manager.map
+lib/relation.map
+lib/route.map
+lib/spine.map
+-----------------------------------------------------------------
+
+Partial Revert diff pair 21 is -> 
+{ 91c6d3d263be90a9303a3306e10f4928f9b45efe -> c7f6c5a0852afe3798b9a1b6c9996df1f76d35b7 } is a revert
+{ a4bb8c38559beae255a7ac65ab74c84de1aa4bdb -> 0c11e5860f6bf746fa0ecd07eb29168fb3be5d8f }
+Partial Revert commits SHA are -> 
+c7f6c5a0852afe3798b9a1b6c9996df1f76d35b7 - revert - 0c11e5860f6bf746fa0ecd07eb29168fb3be5d8f
+---> The reverted commit sha is - c7f6c5a0852afe3798b9a1b6c9996df1f76d35b7
+Commit message - Added a test for #226
+---> The original commit sha is - 0c11e5860f6bf746fa0ecd07eb29168fb3be5d8f
+Commit message - Merge pull request #441 from adambiggs/add-remove-relations
+
+Collection::add() and Collection::remove() methods
+---> The files with partial_reverts are:-
+lib/relation.js
+lib/relation.map
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 22 is -> 
+{ 36da3b77f0d496039b3999960886db59130e7fd5 -> 91c6d3d263be90a9303a3306e10f4928f9b45efe } is a revert
+{ c7f6c5a0852afe3798b9a1b6c9996df1f76d35b7 -> a4bb8c38559beae255a7ac65ab74c84de1aa4bdb }
+Partial Revert commits SHA are -> 
+91c6d3d263be90a9303a3306e10f4928f9b45efe - revert - a4bb8c38559beae255a7ac65ab74c84de1aa4bdb
+---> The reverted commit sha is - 91c6d3d263be90a9303a3306e10f4928f9b45efe
+Commit message - Collection::add() and Collection::remove() methods
+---> The original commit sha is - a4bb8c38559beae255a7ac65ab74c84de1aa4bdb
+Commit message - Merge pull request #440 from adambiggs/relation-load-bug
+
+Found a bug when passing record clones into Spine.Model::load()
+---> The files with partial_reverts are:-
+lib/spine.js
+lib/spine.map
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 23 is -> 
+{ 36da3b77f0d496039b3999960886db59130e7fd5 -> 91c6d3d263be90a9303a3306e10f4928f9b45efe } is a revert
+{ 91c6d3d263be90a9303a3306e10f4928f9b45efe -> c7f6c5a0852afe3798b9a1b6c9996df1f76d35b7 }
+Partial Revert commits SHA are -> 
+91c6d3d263be90a9303a3306e10f4928f9b45efe - revert - c7f6c5a0852afe3798b9a1b6c9996df1f76d35b7
+---> The reverted commit sha is - 91c6d3d263be90a9303a3306e10f4928f9b45efe
+Commit message - Collection::add() and Collection::remove() methods
+---> The original commit sha is - c7f6c5a0852afe3798b9a1b6c9996df1f76d35b7
+Commit message - Added a test for #226
+---> The files with partial_reverts are:-
+lib/relation.js
+lib/relation.map
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 24 is -> 
+{ 7ba8916786dbdb1dfc2171ec4813c107d84872ca -> da736e36780e3588598c55b9de81f6b66b45bb9f } is a revert
+{ da736e36780e3588598c55b9de81f6b66b45bb9f -> 390939e51b83841dc417e5d552f9cd5da8e07bae }
+Partial Revert commits SHA are -> 
+da736e36780e3588598c55b9de81f6b66b45bb9f - revert - 390939e51b83841dc417e5d552f9cd5da8e07bae
+---> The reverted commit sha is - da736e36780e3588598c55b9de81f6b66b45bb9f
+Commit message - clean up of jasmine runner test, was duplicating test/specs descriptions of specs > 1 deep. Fixes #437
+---> The original commit sha is - 390939e51b83841dc417e5d552f9cd5da8e07bae
+Commit message - Merge pull request #438 from umate/controller-inheritance-fix
+
+Fixed multilevel inheritance for controller elements and events
+---> The files with partial_reverts are:-
+src/spine.coffee
+test/specs/controller.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 25 is -> 
+{ a7f2b156ead7d31370337e2ec8e93242658e7a64 -> e2b6b13478f7c5a09724762229459c69df3ac0e8 } is a revert
+{ e2b6b13478f7c5a09724762229459c69df3ac0e8 -> 5c81bb4747ee45b061df945ba555c599fc88217b }
+Partial Revert commits SHA are -> 
+e2b6b13478f7c5a09724762229459c69df3ac0e8 - revert - 5c81bb4747ee45b061df945ba555c599fc88217b
+---> The reverted commit sha is - e2b6b13478f7c5a09724762229459c69df3ac0e8
+Commit message - Fixed issue with __super__. Covered with specs.
+---> The original commit sha is - 5c81bb4747ee45b061df945ba555c599fc88217b
+Commit message - going back to exist returning clone of the record. all relation tests passing again
+---> The files with partial_reverts are:-
+Cakefile
+README.md
+lib/ajax.js
+lib/ajax.map
+lib/list.js
+lib/list.map
+lib/local.js
+lib/local.map
+lib/manager.js
+lib/manager.map
+lib/relation.map
+lib/route.js
+lib/route.map
+lib/spine.map
+package.json
+src/spine.coffee
+test/specs/controller.js
+test/specs/events.js
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 26 is -> 
+{ 73f54b5c29996f4b9fa3b8a1ef344ce20d1da84b -> 256b38db25a91bc230d738c369196b5d4f016f77 } is a revert
+{ f1e1e06c1a7e6ff5235993d54ec23d49508126d4 -> 56a70ece0aed479bb9ffdab857082580d339dcaa }
+Partial Revert commits SHA are -> 
+256b38db25a91bc230d738c369196b5d4f016f77 - revert - 56a70ece0aed479bb9ffdab857082580d339dcaa
+---> The reverted commit sha is - 256b38db25a91bc230d738c369196b5d4f016f77
+Commit message - Assign record ID before other values to ensure that related models are populated correctly.
+---> The original commit sha is - 56a70ece0aed479bb9ffdab857082580d339dcaa
+Commit message - Merge pull request #432 from adambiggs/failing-test-for-428
+
+Added a failing assertion for #428
+---> The files with partial_reverts are:-
+test/specs/model.relation.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 27 is -> 
+{ a042a3f9fa7cc5c230ab672c9b34f36cd0d03945 -> 9ee7217f4ef3abd988ef3009ac2924a6405df3ff } is a revert
+{ 9ee7217f4ef3abd988ef3009ac2924a6405df3ff -> db46b5e640c4493875376bbc410374bf06fc5337 }
+Partial Revert commits SHA are -> 
+9ee7217f4ef3abd988ef3009ac2924a6405df3ff - revert - db46b5e640c4493875376bbc410374bf06fc5337
+---> The reverted commit sha is - 9ee7217f4ef3abd988ef3009ac2924a6405df3ff
+Commit message - Added "elements" and "events" attributes inheritance
+---> The original commit sha is - db46b5e640c4493875376bbc410374bf06fc5337
+Commit message - Added a failing assertion for #428
+---> The files with partial_reverts are:-
+README.md
+lib/ajax.js
+lib/list.js
+lib/local.js
+lib/manager.js
+lib/relation.js
+lib/route.js
+lib/spine.js
+src/relation.coffee
+src/spine.coffee
+test/specs/controller.js
+test/specs/events.js
+test/specs/model.js
+test/specs/model.local.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 28 is -> 
+{ 88cabcc340128518c16cd6d717d34e77c823a2d4 -> 44ea787b6d8644a775d9de2e9f640828314ddb4f } is a revert
+{ b8038f34f4cd91b27af26e94361e88ca49f3066c -> a042a3f9fa7cc5c230ab672c9b34f36cd0d03945 }
+Partial Revert commits SHA are -> 
+44ea787b6d8644a775d9de2e9f640828314ddb4f - revert - a042a3f9fa7cc5c230ab672c9b34f36cd0d03945
+---> The reverted commit sha is - 44ea787b6d8644a775d9de2e9f640828314ddb4f
+Commit message - Merge branch 'unbinder' into listenEvents
+---> The original commit sha is - a042a3f9fa7cc5c230ab672c9b34f36cd0d03945
+Commit message - Merge pull request #428 from dnalot/patch-2
+
+Fix #427
+---> The files with partial_reverts are:-
+src/relation.coffee
+test/specs/model.local.js
+test/specs/model.relation.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 29 is -> 
+{ 0cc5274856da3c5e5139b123ac91338fc556a270 -> afe2011276377a56d4584d1fd3f1294ae2f6cd48 } is a revert
+{ 5fcc89bbcdbaffeb085bd95030186868dafbe6c6 -> dbb63e701b3e036ee9c7371cd20b0e959a1e5e89 }
+Partial Revert commits SHA are -> 
+afe2011276377a56d4584d1fd3f1294ae2f6cd48 - revert - dbb63e701b3e036ee9c7371cd20b0e959a1e5e89
+---> The reverted commit sha is - afe2011276377a56d4584d1fd3f1294ae2f6cd48
+Commit message - add failing test for accidentally unbinded class-level callbacks.
+---> The original commit sha is - dbb63e701b3e036ee9c7371cd20b0e959a1e5e89
+Commit message - Finishes #409
+
+Mirror Event aliases for Model instances
+---> The files with partial_reverts are:-
+src/ajax.coffee
+src/relation.coffee
+test/specs/ajax.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 30 is -> 
+{ 1fe22daa3a29e3d840c7848f9434711f76f81b42 -> 6ac88a0be377cbee6920dfeda7bab41fa4e516a4 } is a revert
+{ 957dc6f0db7a023fbe284d9d07dff1e68dda8b03 -> e99ad89b559aee1cf7880827e02a219093dbd101 }
+Partial Revert commits SHA are -> 
+6ac88a0be377cbee6920dfeda7bab41fa4e516a4 - revert - e99ad89b559aee1cf7880827e02a219093dbd101
+---> The reverted commit sha is - 6ac88a0be377cbee6920dfeda7bab41fa4e516a4
+Commit message - bringing over some code from edge that keeps the records in the same order they were added and adds an optional sort() function to control the order.
+---> The original commit sha is - e99ad89b559aee1cf7880827e02a219093dbd101
+Commit message - Merge branch 'master' into listenEvents
+---> The files with partial_reverts are:-
+test/specs/events.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 31 is -> 
+{ c956b81231f060a6fac7542c760a52ebc9193e6a -> 84defa2c838e55a273ce8efd52de5a2d536d4284 } is a revert
+{ 957dc6f0db7a023fbe284d9d07dff1e68dda8b03 -> e99ad89b559aee1cf7880827e02a219093dbd101 }
+Partial Revert commits SHA are -> 
+84defa2c838e55a273ce8efd52de5a2d536d4284 - revert - e99ad89b559aee1cf7880827e02a219093dbd101
+---> The reverted commit sha is - 84defa2c838e55a273ce8efd52de5a2d536d4284
+Commit message - Merge branch 'master' of github.com:spine/spine
+---> The original commit sha is - e99ad89b559aee1cf7880827e02a219093dbd101
+Commit message - Merge branch 'master' into listenEvents
+---> The files with partial_reverts are:-
+lib/spine.js
+src/spine.coffee
+test/specs/controller.js
+test/specs/events.js
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 32 is -> 
+{ 84defa2c838e55a273ce8efd52de5a2d536d4284 -> a22018ce6cfd1c8a54fb634b0e54422151584787 } is a revert
+{ af5554afc591d3bbb96eeb1b17f7459c083b0f47 -> 957dc6f0db7a023fbe284d9d07dff1e68dda8b03 }
+Partial Revert commits SHA are -> 
+a22018ce6cfd1c8a54fb634b0e54422151584787 - revert - 957dc6f0db7a023fbe284d9d07dff1e68dda8b03
+---> The reverted commit sha is - a22018ce6cfd1c8a54fb634b0e54422151584787
+Commit message - only set the content type header on POST and PUT, otherwise leave empty or allow user to override. Deals with some servers treating an empty body as invalid json when parsing requests.
+---> The original commit sha is - 957dc6f0db7a023fbe284d9d07dff1e68dda8b03
+Commit message - Merge branch 'master' of github.com:spine/spine
+---> The files with partial_reverts are:-
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 33 is -> 
+{ 9e6093f283912da37280665ad1a3f47da0fe28b3 -> 71c108790e2252257a75a508aa17e65e3a032ba5 } is a revert
+{ c956b81231f060a6fac7542c760a52ebc9193e6a -> 84defa2c838e55a273ce8efd52de5a2d536d4284 }
+Partial Revert commits SHA are -> 
+71c108790e2252257a75a508aa17e65e3a032ba5 - revert - 84defa2c838e55a273ce8efd52de5a2d536d4284
+---> The reverted commit sha is - 71c108790e2252257a75a508aa17e65e3a032ba5
+Commit message - try adding the listen methods to model instances 
+---> The original commit sha is - 84defa2c838e55a273ce8efd52de5a2d536d4284
+Commit message - Merge branch 'master' of github.com:spine/spine
+---> The files with partial_reverts are:-
+test/specs/events.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 34 is -> 
+{ b1fe152d21816c7296bf0b242a71666624696bed -> 7b42a4d5d926a0a15c4e8f59cac409089098a3ab } is a revert
+{ 7b42a4d5d926a0a15c4e8f59cac409089098a3ab -> 80e7a3fc26a462b6909befa46ab1196f412751db }
+Partial Revert commits SHA are -> 
+7b42a4d5d926a0a15c4e8f59cac409089098a3ab - revert - 80e7a3fc26a462b6909befa46ab1196f412751db
+---> The reverted commit sha is - 7b42a4d5d926a0a15c4e8f59cac409089098a3ab
+Commit message - Merge pull request #416 from adambiggs/collection-create-options
+
+Allow options to be passed into Collection.create()
+---> The original commit sha is - 80e7a3fc26a462b6909befa46ab1196f412751db
+Commit message - better variable name
+---> The files with partial_reverts are:-
+lib/relation.js
+lib/spine.js
+src/relation.coffee
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 35 is -> 
+{ 29c4b7de285f789619bf5c316fb3d394161ea7a6 -> d895d8f37c594245509d785585f0facc47d4cc8b } is a revert
+{ d895d8f37c594245509d785585f0facc47d4cc8b -> 3149076ecc94dc2e8676b922d221aa4a17d32353 }
+Partial Revert commits SHA are -> 
+d895d8f37c594245509d785585f0facc47d4cc8b - revert - 3149076ecc94dc2e8676b922d221aa4a17d32353
+---> The reverted commit sha is - d895d8f37c594245509d785585f0facc47d4cc8b
+Commit message - Added test for #413
+---> The original commit sha is - 3149076ecc94dc2e8676b922d221aa4a17d32353
+Commit message - Merge pull request #413 from adambiggs/protect-manager-methods
+
+Prevent overwriting existing methods in Spine.Stack constructor (Fixes #386)
+---> The files with partial_reverts are:-
+lib/spine.js
+package.json
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 36 is -> 
+{ 0e98b77f63e9fe46da1001534580fe9b63985681 -> e13a190ef9d0af1b12c835c02e30591dafbd1b8c } is a revert
+{ e13a190ef9d0af1b12c835c02e30591dafbd1b8c -> bf781e25210fd0765e1d426e771ed3d6070ea8c7 }
+Partial Revert commits SHA are -> 
+e13a190ef9d0af1b12c835c02e30591dafbd1b8c - revert - bf781e25210fd0765e1d426e771ed3d6070ea8c7
+---> The reverted commit sha is - e13a190ef9d0af1b12c835c02e30591dafbd1b8c
+Commit message - refactoring updateAttribute so it reuses code/logic from updateAttributes
+---> The original commit sha is - bf781e25210fd0765e1d426e771ed3d6070ea8c7
+Commit message - Merge pull request #411 from sishen/destroy_all_with_options
+
+destroyAll can accept options to pass to destroy
+---> The files with partial_reverts are:-
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 37 is -> 
+{ a493b2c10b2aabc97ba1a80501c4794d564ef2e9 -> 0e98b77f63e9fe46da1001534580fe9b63985681 } is a revert
+{ 0e98b77f63e9fe46da1001534580fe9b63985681 -> e13a190ef9d0af1b12c835c02e30591dafbd1b8c }
+Partial Revert commits SHA are -> 
+0e98b77f63e9fe46da1001534580fe9b63985681 - revert - e13a190ef9d0af1b12c835c02e30591dafbd1b8c
+---> The reverted commit sha is - 0e98b77f63e9fe46da1001534580fe9b63985681
+Commit message - destroyAll can accept options to pass to destroy
+---> The original commit sha is - e13a190ef9d0af1b12c835c02e30591dafbd1b8c
+Commit message - refactoring updateAttribute so it reuses code/logic from updateAttributes
+---> The files with partial_reverts are:-
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 38 is -> 
+{ 5054f3fa37697f54d1a03aab712d62649791cb7c -> fbc87432b4440afb527d66f425d9753a070085d8 } is a revert
+{ be486e3be3b5fb867177db58befd41e8f07cbec8 -> 583879479fcc823f5c96ac7efdf0fdf6550e9c3f }
+Partial Revert commits SHA are -> 
+fbc87432b4440afb527d66f425d9753a070085d8 - revert - 583879479fcc823f5c96ac7efdf0fdf6550e9c3f
+---> The reverted commit sha is - fbc87432b4440afb527d66f425d9753a070085d8
+Commit message - Added option to use history.replaceState()
+---> The original commit sha is - 583879479fcc823f5c96ac7efdf0fdf6550e9c3f
+Commit message - Merge branch 'testUpdates'
+---> The files with partial_reverts are:-
+lib/ajax.js
+lib/list.js
+lib/local.js
+lib/manager.js
+lib/relation.js
+lib/spine.js
+test/ajax.html
+test/index.html
+test/lib/dynamicLoader.js
+test/lib/jasmine-html.js
+test/lib/jasmine.css
+test/lib/jasmine.js
+test/lib/jquery.js
+test/lib/spineTest.css
+test/manager.html
+test/route.html
+test/specs/route.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 39 is -> 
+{ 17be212c72e26238fc02cb47c3bd48b8cf6a44ba -> f359731ee730077b8affdde1e4fa81d03d4c4594 } is a revert
+{ e2ad0d5d729b393c4e8a94a33139ede717dc3456 -> 20628f2987a9c76832bd43aff5c0817c1d8f32a0 }
+Partial Revert commits SHA are -> 
+f359731ee730077b8affdde1e4fa81d03d4c4594 - revert - 20628f2987a9c76832bd43aff5c0817c1d8f32a0
+---> The reverted commit sha is - f359731ee730077b8affdde1e4fa81d03d4c4594
+Commit message - Merge branch 'master' into testUpdates
+---> The original commit sha is - 20628f2987a9c76832bd43aff5c0817c1d8f32a0
+Commit message - Merge branch 'master' into testUpdates
+---> The files with partial_reverts are:-
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 40 is -> 
+{ c8ede0060d46901ecd5cee4fb192d85e4dd10c11 -> 68f3ff646137181dab562795c3d13f935665df5a } is a revert
+{ 17be212c72e26238fc02cb47c3bd48b8cf6a44ba -> f359731ee730077b8affdde1e4fa81d03d4c4594 }
+Partial Revert commits SHA are -> 
+68f3ff646137181dab562795c3d13f935665df5a - revert - f359731ee730077b8affdde1e4fa81d03d4c4594
+---> The reverted commit sha is - 68f3ff646137181dab562795c3d13f935665df5a
+Commit message - Merge pull request #402 from sishen/multiple_unbinding
+
+Can unbind to multiple events at once. For example,
+---> The original commit sha is - f359731ee730077b8affdde1e4fa81d03d4c4594
+Commit message - Merge branch 'master' into testUpdates
+---> The files with partial_reverts are:-
+lib/ajax.js
+lib/list.js
+lib/local.js
+lib/manager.js
+lib/relation.js
+test/ajax.html
+test/index.html
+test/lib/jasmine-html.js
+test/lib/jasmine.css
+test/lib/jasmine.js
+test/lib/jquery.js
+test/manager.html
+test/route.html
+test/specs/route.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 41 is -> 
+{ e9fd6eddc10c20ada4fa2d14bffd186c9259507b -> 9f7401612ab43e89b919bc4b154ae38e3967f421 } is a revert
+{ 9f7401612ab43e89b919bc4b154ae38e3967f421 -> d05729233ffe7720326f3427ac7e0471a6b70ae7 }
+Partial Revert commits SHA are -> 
+9f7401612ab43e89b919bc4b154ae38e3967f421 - revert - d05729233ffe7720326f3427ac7e0471a6b70ae7
+---> The reverted commit sha is - 9f7401612ab43e89b919bc4b154ae38e3967f421
+Commit message - Merge pull request #403 from martydill/master
+
+Expose the classes in relation.coffee so that they can be extended
+---> The original commit sha is - d05729233ffe7720326f3427ac7e0471a6b70ae7
+Commit message - Merge branch 'master' of github.com:spine/spine
+---> The files with partial_reverts are:-
+test/ajax.html
+test/index.html
+test/lib/jasmine-html.js
+test/lib/jasmine.css
+test/lib/jasmine.js
+test/manager.html
+test/route.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 42 is -> 
+{ 1106c3b4b9e2e5b903b7c9f72ae79d283a754d46 -> 9c6c06b22cd6e3d258a4e1297743d6cb4aa03442 } is a revert
+{ 28a0fe672eed6c58694403f6ed433ea5094fed7f -> 8904207f6e3822c602867c3eea9cffc4501ff11b }
+Partial Revert commits SHA are -> 
+9c6c06b22cd6e3d258a4e1297743d6cb4aa03442 - revert - 8904207f6e3822c602867c3eea9cffc4501ff11b
+---> The reverted commit sha is - 9c6c06b22cd6e3d258a4e1297743d6cb4aa03442
+Commit message - Correct a issue using jQuery 1.8.0 queue
+---> The original commit sha is - 8904207f6e3822c602867c3eea9cffc4501ff11b
+Commit message - Merge pull request #355 from pyykkis/test-case-for-219
+
+Test case for #219.
+---> The files with partial_reverts are:-
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 43 is -> 
+{ 4f8b247eb04c491432644969019c8ca566bf28fd -> 6807f4e61b37b0f2ccf3b2c6c0600fcad8109018 } is a revert
+{ 28a0fe672eed6c58694403f6ed433ea5094fed7f -> 8904207f6e3822c602867c3eea9cffc4501ff11b }
+Partial Revert commits SHA are -> 
+6807f4e61b37b0f2ccf3b2c6c0600fcad8109018 - revert - 8904207f6e3822c602867c3eea9cffc4501ff11b
+---> The reverted commit sha is - 6807f4e61b37b0f2ccf3b2c6c0600fcad8109018
+Commit message - Revert "Added stripCloneAtts() method.", I should have used the merge pull request instead of applying a patch.
+
+This reverts commit a67dc2f15dda2308217d6e79921d1f0b77aa616d.
+---> The original commit sha is - 8904207f6e3822c602867c3eea9cffc4501ff11b
+Commit message - Merge pull request #355 from pyykkis/test-case-for-219
+
+Test case for #219.
+---> The files with partial_reverts are:-
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 44 is -> 
+{ b8949e41dde15a144f076a502022df8d53f395aa -> ff340ea154f90d836401f83972e9691fce4305cf } is a revert
+{ 6807f4e61b37b0f2ccf3b2c6c0600fcad8109018 -> 28a0fe672eed6c58694403f6ed433ea5094fed7f }
+Partial Revert commits SHA are -> 
+ff340ea154f90d836401f83972e9691fce4305cf - revert - 28a0fe672eed6c58694403f6ed433ea5094fed7f
+---> The reverted commit sha is - ff340ea154f90d836401f83972e9691fce4305cf
+Commit message - Fixes record re-creation on DELETE that returns non-empty response.
+---> The original commit sha is - 28a0fe672eed6c58694403f6ed433ea5094fed7f
+Commit message - Merge pull request #351 from adambiggs/clone-attributes-fix
+
+Fix for #219
+---> The files with partial_reverts are:-
+lib/spine.js
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 45 is -> 
+{ 4f8b247eb04c491432644969019c8ca566bf28fd -> 6807f4e61b37b0f2ccf3b2c6c0600fcad8109018 } is a revert
+{ 6807f4e61b37b0f2ccf3b2c6c0600fcad8109018 -> 28a0fe672eed6c58694403f6ed433ea5094fed7f }
+Partial Revert commits SHA are -> 
+6807f4e61b37b0f2ccf3b2c6c0600fcad8109018 - revert - 28a0fe672eed6c58694403f6ed433ea5094fed7f
+---> The reverted commit sha is - 6807f4e61b37b0f2ccf3b2c6c0600fcad8109018
+Commit message - Revert "Added stripCloneAtts() method.", I should have used the merge pull request instead of applying a patch.
+
+This reverts commit a67dc2f15dda2308217d6e79921d1f0b77aa616d.
+---> The original commit sha is - 28a0fe672eed6c58694403f6ed433ea5094fed7f
+Commit message - Merge pull request #351 from adambiggs/clone-attributes-fix
+
+Fix for #219
+---> The files with partial_reverts are:-
+lib/spine.js
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 46 is -> 
+{ 37bdb685c6b8244de2c873d03da7072138089c8d -> 1106c3b4b9e2e5b903b7c9f72ae79d283a754d46 } is a revert
+{ 4f8b247eb04c491432644969019c8ca566bf28fd -> 6807f4e61b37b0f2ccf3b2c6c0600fcad8109018 }
+Partial Revert commits SHA are -> 
+1106c3b4b9e2e5b903b7c9f72ae79d283a754d46 - revert - 6807f4e61b37b0f2ccf3b2c6c0600fcad8109018
+---> The reverted commit sha is - 1106c3b4b9e2e5b903b7c9f72ae79d283a754d46
+Commit message - Test case for #219.
+---> The original commit sha is - 6807f4e61b37b0f2ccf3b2c6c0600fcad8109018
+Commit message - Revert "Added stripCloneAtts() method.", I should have used the merge pull request instead of applying a patch.
+
+This reverts commit a67dc2f15dda2308217d6e79921d1f0b77aa616d.
+---> The files with partial_reverts are:-
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 47 is -> 
+{ 493475f462f96fab58aa5e965a1d57b925bf5f07 -> fb53b6b189d77dbf5a7b2b2aa0ac6c3aa1dca549 } is a revert
+{ d691e7f3cbaba68fa551f346e8042f3a9ffa9901 -> 4f8b247eb04c491432644969019c8ca566bf28fd }
+Partial Revert commits SHA are -> 
+fb53b6b189d77dbf5a7b2b2aa0ac6c3aa1dca549 - revert - 4f8b247eb04c491432644969019c8ca566bf28fd
+---> The reverted commit sha is - fb53b6b189d77dbf5a7b2b2aa0ac6c3aa1dca549
+Commit message - Fix spine.coffee to pass CoffeeLint class name rule
+---> The original commit sha is - 4f8b247eb04c491432644969019c8ca566bf28fd
+Commit message - Merge pull request #383 from adambiggs/descriptive-record-errors
+
+More descriptive "unknown record" errors
+---> The files with partial_reverts are:-
+lib/relation.js
+lib/spine.js
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 48 is -> 
+{ ce5ddde9d4fc5d15fbff308d602a2bd5611baeeb -> 493475f462f96fab58aa5e965a1d57b925bf5f07 } is a revert
+{ 3e90bf73c773ed92be77866753be337c2af51f28 -> d691e7f3cbaba68fa551f346e8042f3a9ffa9901 }
+Partial Revert commits SHA are -> 
+493475f462f96fab58aa5e965a1d57b925bf5f07 - revert - d691e7f3cbaba68fa551f346e8042f3a9ffa9901
+---> The reverted commit sha is - 493475f462f96fab58aa5e965a1d57b925bf5f07
+Commit message - More descriptive 'unknown record' errors
+---> The original commit sha is - d691e7f3cbaba68fa551f346e8042f3a9ffa9901
+Commit message - Revert "More descriptive 'unknown record' errors"
+
+This reverts commit 3e90bf73c773ed92be77866753be337c2af51f28.
+---> The files with partial_reverts are:-
+lib/relation.js
+lib/spine.js
+src/relation.coffee
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 49 is -> 
+{ 493475f462f96fab58aa5e965a1d57b925bf5f07 -> fb53b6b189d77dbf5a7b2b2aa0ac6c3aa1dca549 } is a revert
+{ df65f1550825dc2a15126a073bf72b139f09eff4 -> 3e90bf73c773ed92be77866753be337c2af51f28 }
+Partial Revert commits SHA are -> 
+fb53b6b189d77dbf5a7b2b2aa0ac6c3aa1dca549 - revert - 3e90bf73c773ed92be77866753be337c2af51f28
+---> The reverted commit sha is - fb53b6b189d77dbf5a7b2b2aa0ac6c3aa1dca549
+Commit message - Fix spine.coffee to pass CoffeeLint class name rule
+---> The original commit sha is - 3e90bf73c773ed92be77866753be337c2af51f28
+Commit message - More descriptive 'unknown record' errors
+---> The files with partial_reverts are:-
+lib/relation.js
+lib/spine.js
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 50 is -> 
+{ c78296c52b2bf53d59d04cd1134b8d27c1e9c782 -> 4a60e04c7da4571d4cdef586c82d5fa6872d8aac } is a revert
+{ ba80bc8d3f4bba584706ea87ffeb80732f8c3f5b -> df65f1550825dc2a15126a073bf72b139f09eff4 }
+Partial Revert commits SHA are -> 
+4a60e04c7da4571d4cdef586c82d5fa6872d8aac - revert - df65f1550825dc2a15126a073bf72b139f09eff4
+---> The reverted commit sha is - 4a60e04c7da4571d4cdef586c82d5fa6872d8aac
+Commit message - Merge pull request #396 from jeremyhaile/improve_find_errors
+
+Improve error log message when a model record isn't found
+---> The original commit sha is - df65f1550825dc2a15126a073bf72b139f09eff4
+Commit message - Revert "Merge pull request #396 from jeremyhaile/improve_find_errors"
+
+This reverts commit 4a60e04c7da4571d4cdef586c82d5fa6872d8aac, reversing
+changes made to 457c763dd6606f0f1e2cc206bc685bac25c262cc.
+---> The files with partial_reverts are:-
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 51 is -> 
+{ c1624c002bad4f9a61300beb4bf032e231540a52 -> a67dc2f15dda2308217d6e79921d1f0b77aa616d } is a revert
+{ cc8c2b7e1095cdba86a43c6edc37ae717fc3abe5 -> ba80bc8d3f4bba584706ea87ffeb80732f8c3f5b }
+Partial Revert commits SHA are -> 
+a67dc2f15dda2308217d6e79921d1f0b77aa616d - revert - ba80bc8d3f4bba584706ea87ffeb80732f8c3f5b
+---> The reverted commit sha is - a67dc2f15dda2308217d6e79921d1f0b77aa616d
+Commit message - Added stripCloneAtts() method.
+---> The original commit sha is - ba80bc8d3f4bba584706ea87ffeb80732f8c3f5b
+Commit message - Merge branch 'master' of github.com:spine/spine
+---> The files with partial_reverts are:-
+src/route.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 52 is -> 
+{ 1106c3b4b9e2e5b903b7c9f72ae79d283a754d46 -> 9c6c06b22cd6e3d258a4e1297743d6cb4aa03442 } is a revert
+{ 0ec6fcd367b673fd4a41ec1a46a17d9b39a0a772 -> cc8c2b7e1095cdba86a43c6edc37ae717fc3abe5 }
+Partial Revert commits SHA are -> 
+9c6c06b22cd6e3d258a4e1297743d6cb4aa03442 - revert - cc8c2b7e1095cdba86a43c6edc37ae717fc3abe5
+---> The reverted commit sha is - 9c6c06b22cd6e3d258a4e1297743d6cb4aa03442
+Commit message - Correct a issue using jQuery 1.8.0 queue
+---> The original commit sha is - cc8c2b7e1095cdba86a43c6edc37ae717fc3abe5
+Commit message - Test case for #219.
+---> The files with partial_reverts are:-
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 53 is -> 
+{ ce5ddde9d4fc5d15fbff308d602a2bd5611baeeb -> 493475f462f96fab58aa5e965a1d57b925bf5f07 } is a revert
+{ 4a60e04c7da4571d4cdef586c82d5fa6872d8aac -> 16a176cef1b0c3ff9771877bf65e8026b4b5d936 }
+Partial Revert commits SHA are -> 
+493475f462f96fab58aa5e965a1d57b925bf5f07 - revert - 16a176cef1b0c3ff9771877bf65e8026b4b5d936
+---> The reverted commit sha is - 493475f462f96fab58aa5e965a1d57b925bf5f07
+Commit message - More descriptive 'unknown record' errors
+---> The original commit sha is - 16a176cef1b0c3ff9771877bf65e8026b4b5d936
+Commit message - Merge pull request #376 from mbleigh/ajax-delete-recreation
+
+Records are re-created on DELETE that returns non-empty response.
+---> The files with partial_reverts are:-
+lib/ajax.js
+src/ajax.coffee
+test/specs/ajax.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 54 is -> 
+{ 6592b6e05f800ab2d61bd2400e3c598f07729be9 -> c78296c52b2bf53d59d04cd1134b8d27c1e9c782 } is a revert
+{ c78296c52b2bf53d59d04cd1134b8d27c1e9c782 -> 4a60e04c7da4571d4cdef586c82d5fa6872d8aac }
+Partial Revert commits SHA are -> 
+c78296c52b2bf53d59d04cd1134b8d27c1e9c782 - revert - 4a60e04c7da4571d4cdef586c82d5fa6872d8aac
+---> The reverted commit sha is - c78296c52b2bf53d59d04cd1134b8d27c1e9c782
+Commit message - Expose the classes in relation.coffee so that they can be extended.
+---> The original commit sha is - 4a60e04c7da4571d4cdef586c82d5fa6872d8aac
+Commit message - Merge pull request #396 from jeremyhaile/improve_find_errors
+
+Improve error log message when a model record isn't found
+---> The files with partial_reverts are:-
+lib/relation.js
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 55 is -> 
+{ ce5ddde9d4fc5d15fbff308d602a2bd5611baeeb -> 493475f462f96fab58aa5e965a1d57b925bf5f07 } is a revert
+{ 493475f462f96fab58aa5e965a1d57b925bf5f07 -> fb53b6b189d77dbf5a7b2b2aa0ac6c3aa1dca549 }
+Partial Revert commits SHA are -> 
+493475f462f96fab58aa5e965a1d57b925bf5f07 - revert - fb53b6b189d77dbf5a7b2b2aa0ac6c3aa1dca549
+---> The reverted commit sha is - 493475f462f96fab58aa5e965a1d57b925bf5f07
+Commit message - More descriptive 'unknown record' errors
+---> The original commit sha is - fb53b6b189d77dbf5a7b2b2aa0ac6c3aa1dca549
+Commit message - Fix spine.coffee to pass CoffeeLint class name rule
+---> The files with partial_reverts are:-
+lib/relation.js
+lib/spine.js
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 56 is -> 
+{ 74862a7e036d0bf0c3a9313dfd56d7ab4c92d3cf -> a89d630e42fe1a656ed98bf26336d5b10dc8e0dc } is a revert
+{ b49fe7f1b86b9881fc3238f21ecc1c6c845d2130 -> 72c8b40a67e6ed9eacaf1283d449274b178f808e }
+Partial Revert commits SHA are -> 
+a89d630e42fe1a656ed98bf26336d5b10dc8e0dc - revert - 72c8b40a67e6ed9eacaf1283d449274b178f808e
+---> The reverted commit sha is - a89d630e42fe1a656ed98bf26336d5b10dc8e0dc
+Commit message - Return the clone
+---> The original commit sha is - 72c8b40a67e6ed9eacaf1283d449274b178f808e
+Commit message - Merge branch 'master' into clone-attributes-fix
+---> The files with partial_reverts are:-
+lib/ajax.js
+src/ajax.coffee
+test/specs/ajax.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 57 is -> 
+{ a69d8087fe23f61b8b77fd64382e695169004f24 -> cd271d9e582a4d1812b7267adfbb801cfc3dae1b } is a revert
+{ cd271d9e582a4d1812b7267adfbb801cfc3dae1b -> f5ddb702fdd5b85157f5af8c746514365419c60a }
+Partial Revert commits SHA are -> 
+cd271d9e582a4d1812b7267adfbb801cfc3dae1b - revert - f5ddb702fdd5b85157f5af8c746514365419c60a
+---> The reverted commit sha is - cd271d9e582a4d1812b7267adfbb801cfc3dae1b
+Commit message - Merge pull request #328 from metaskills/ajax-promise-queue
+
+Update Spine.Ajax's Queue To Return Promise Objects.
+---> The original commit sha is - f5ddb702fdd5b85157f5af8c746514365419c60a
+Commit message - Merge branch 'master' of github.com:maccman/spine
+---> The files with partial_reverts are:-
+lib/route.js
+src/route.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 58 is -> 
+{ af1ea1ad1d9c238cc2ff8a4bfd7c593910c24a24 -> ae2d0b5d69833e6e11db3d70aed6f0b349c905c2 } is a revert
+{ ae2d0b5d69833e6e11db3d70aed6f0b349c905c2 -> 586c1f951bcd208a4b0dde72d8181b831ea94482 }
+Partial Revert commits SHA are -> 
+ae2d0b5d69833e6e11db3d70aed6f0b349c905c2 - revert - 586c1f951bcd208a4b0dde72d8181b831ea94482
+---> The reverted commit sha is - ae2d0b5d69833e6e11db3d70aed6f0b349c905c2
+Commit message - Merge pull request #337 from abernier/patch-15
+
+[✓] Phantom runner now logs Jasmine's results.
+---> The original commit sha is - 586c1f951bcd208a4b0dde72d8181b831ea94482
+Commit message - Merge pull request #338 from abernier/patch-16
+
+Wrong Manager suite title
+---> The files with partial_reverts are:-
+test/specs/manager.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 59 is -> 
+{ 8c560f6496373ff2cec46d5663b48ec62478e7f3 -> 5c58b585b38678fcc8d4fb5dac9eb128b0886aa3 } is a revert
+{ ef55f075a2387bf496a21248b32b9e82fe5b8f92 -> 43195d43c374482454c4b4702e5fa69276d728a7 }
+Partial Revert commits SHA are -> 
+5c58b585b38678fcc8d4fb5dac9eb128b0886aa3 - revert - 43195d43c374482454c4b4702e5fa69276d728a7
+---> The reverted commit sha is - 5c58b585b38678fcc8d4fb5dac9eb128b0886aa3
+Commit message - Writing test for generating unique id's
+---> The original commit sha is - 43195d43c374482454c4b4702e5fa69276d728a7
+Commit message - Merge pull request #301 from sishen/dirty_plugin
+
+Dirty plugin for SpineJS. 
+---> The files with partial_reverts are:-
+lib/dirty.js
+src/dirty.coffee
+test/index.html
+test/specs/model.dirty.js
+test/specs/model.local.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 60 is -> 
+{ 5d6874dd35bea843c919f010e1b1175c9760dea6 -> d8543e7099046ad09ab140fa43864fa08eb8f2fc } is a revert
+{ 5f311d35e44e7105721b3b0f829944b0412ebfae -> 700a7341d9a48611b2d9da7ca191b56afc40918b }
+Partial Revert commits SHA are -> 
+d8543e7099046ad09ab140fa43864fa08eb8f2fc - revert - 700a7341d9a48611b2d9da7ca191b56afc40918b
+---> The reverted commit sha is - d8543e7099046ad09ab140fa43864fa08eb8f2fc
+Commit message - fix issue with local storage and the idCounter. Remove tabs, tmpl and any reliance on jQuery.tmpl.
+---> The original commit sha is - 700a7341d9a48611b2d9da7ca191b56afc40918b
+Commit message - Merge pull request #240 from jeremyhaile/try-catch-ajax-disable
+
+Try/catch around Ajax.disable callback
+---> The files with partial_reverts are:-
+lib/ajax.js
+src/ajax.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 61 is -> 
+{ 54b58c4519e7e4e5b4ffe08d3f50b609337bee36 -> 7b4035758ff1acd70bfed831b7ede4120446405a } is a revert
+{ a6d42f7c2256c00bde7359ade93ad2500f99c2a9 -> 124ff578b113024fc55d96adee1422dd356657e9 }
+Partial Revert commits SHA are -> 
+7b4035758ff1acd70bfed831b7ede4120446405a - revert - 124ff578b113024fc55d96adee1422dd356657e9
+---> The reverted commit sha is - 7b4035758ff1acd70bfed831b7ede4120446405a
+Commit message - pass cloned array to refresh event
+---> The original commit sha is - 124ff578b113024fc55d96adee1422dd356657e9
+Commit message - Merge branch 'master' of github.com:maccman/spine
+---> The files with partial_reverts are:-
+lib/tmpl.js
+src/tmpl.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 62 is -> 
+{ d7496e25cc8809a9cb21a36e303707ef5f3add71 -> a6d42f7c2256c00bde7359ade93ad2500f99c2a9 } is a revert
+{ a6d42f7c2256c00bde7359ade93ad2500f99c2a9 -> 124ff578b113024fc55d96adee1422dd356657e9 }
+Partial Revert commits SHA are -> 
+a6d42f7c2256c00bde7359ade93ad2500f99c2a9 - revert - 124ff578b113024fc55d96adee1422dd356657e9
+---> The reverted commit sha is - a6d42f7c2256c00bde7359ade93ad2500f99c2a9
+Commit message - only do a regex match when needed, not on every find() call
+---> The original commit sha is - 124ff578b113024fc55d96adee1422dd356657e9
+Commit message - Merge branch 'master' of github.com:maccman/spine
+---> The files with partial_reverts are:-
+lib/tmpl.js
+src/tmpl.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 63 is -> 
+{ 791df1e40549f1b927e4f6ba9d53703260d906b1 -> 54b58c4519e7e4e5b4ffe08d3f50b609337bee36 } is a revert
+{ d7496e25cc8809a9cb21a36e303707ef5f3add71 -> a6d42f7c2256c00bde7359ade93ad2500f99c2a9 }
+Partial Revert commits SHA are -> 
+54b58c4519e7e4e5b4ffe08d3f50b609337bee36 - revert - a6d42f7c2256c00bde7359ade93ad2500f99c2a9
+---> The reverted commit sha is - 54b58c4519e7e4e5b4ffe08d3f50b609337bee36
+Commit message - In case item is not a record (and thus has no .reload method), return it at least.
+---> The original commit sha is - a6d42f7c2256c00bde7359ade93ad2500f99c2a9
+Commit message - only do a regex match when needed, not on every find() call
+---> The files with partial_reverts are:-
+lib/tmpl.js
+src/tmpl.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 64 is -> 
+{ 54b58c4519e7e4e5b4ffe08d3f50b609337bee36 -> 7b4035758ff1acd70bfed831b7ede4120446405a } is a revert
+{ 7b4035758ff1acd70bfed831b7ede4120446405a -> 0a9b734ffb56da24bcdcd4f6ffed953d822ceb7f }
+Partial Revert commits SHA are -> 
+7b4035758ff1acd70bfed831b7ede4120446405a - revert - 0a9b734ffb56da24bcdcd4f6ffed953d822ceb7f
+---> The reverted commit sha is - 7b4035758ff1acd70bfed831b7ede4120446405a
+Commit message - pass cloned array to refresh event
+---> The original commit sha is - 0a9b734ffb56da24bcdcd4f6ffed953d822ceb7f
+Commit message - Merge pull request #182 from abernier/master
+
+Little issue with $.fn.item and the returning value when item is not a record
+---> The files with partial_reverts are:-
+lib/tmpl.js
+src/tmpl.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 65 is -> 
+{ e760c8726f2423172a42b73bbdd5913efd1b669d -> 58c7f4a6308b7997472c329b66475e63a4723ea6 } is a revert
+{ 58c7f4a6308b7997472c329b66475e63a4723ea6 -> 700559889e86ce2abc7f5416344b0004cc11d1c2 }
+Partial Revert commits SHA are -> 
+58c7f4a6308b7997472c329b66475e63a4723ea6 - revert - 700559889e86ce2abc7f5416344b0004cc11d1c2
+---> The reverted commit sha is - 58c7f4a6308b7997472c329b66475e63a4723ea6
+Commit message - wrap replaced element in a jQuery instance
+---> The original commit sha is - 700559889e86ce2abc7f5416344b0004cc11d1c2
+Commit message - Merge branch 'master' of github.com:maccman/spine
+---> The files with partial_reverts are:-
+src/route.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 66 is -> 
+{ 1d8f5e63ada40db20f1ee856e16421b5e9edc4ef -> e682dd1f0f78b730fe71a996a08e710d8a418b8d } is a revert
+{ 01dd8b0823a4579f9162ba666914e921c7f97e2b -> 648bdbd1e8e34bf55a2b765c064f7037aef8e597 }
+Partial Revert commits SHA are -> 
+e682dd1f0f78b730fe71a996a08e710d8a418b8d - revert - 648bdbd1e8e34bf55a2b765c064f7037aef8e597
+---> The reverted commit sha is - e682dd1f0f78b730fe71a996a08e710d8a418b8d
+Commit message - Passing along records as 'refresh' event's arguments when refreshing a relation (hasMany).
+---> The original commit sha is - 648bdbd1e8e34bf55a2b765c064f7037aef8e597
+Commit message - Merge pull request #161 from ewoutkleinsmann/master
+
+I made some fixes to route.coffee. I'd love to see them back in the master branch.
+---> The files with partial_reverts are:-
+src/route.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 67 is -> 
+{ 39b464bb8db4d2cb8cdf93c25f1dd27cf36b569c -> b064d40a2e8ed3bbb49384bf555d43425463957d } is a revert
+{ 116b722dd8ea9912b9906db6b70da7948c16948a -> 01dd8b0823a4579f9162ba666914e921c7f97e2b }
+Partial Revert commits SHA are -> 
+b064d40a2e8ed3bbb49384bf555d43425463957d - revert - 01dd8b0823a4579f9162ba666914e921c7f97e2b
+---> The reverted commit sha is - b064d40a2e8ed3bbb49384bf555d43425463957d
+Commit message - recompile with latest CoffeeScript
+---> The original commit sha is - 01dd8b0823a4579f9162ba666914e921c7f97e2b
+Commit message - Merge pull request #162 from abernier/master
+
+Little modification on relation.coffee in order to pass records along when refreshing a (hasMany) relation
+---> The files with partial_reverts are:-
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 68 is -> 
+{ b92af275c08d997050cb85a31ba7e86ffeb026eb -> 5f92e72512af8ce7e4f8da49ba7336af37f72209 } is a revert
+{ 116b722dd8ea9912b9906db6b70da7948c16948a -> 01dd8b0823a4579f9162ba666914e921c7f97e2b }
+Partial Revert commits SHA are -> 
+5f92e72512af8ce7e4f8da49ba7336af37f72209 - revert - 01dd8b0823a4579f9162ba666914e921c7f97e2b
+---> The reverted commit sha is - 5f92e72512af8ce7e4f8da49ba7336af37f72209
+Commit message - allow custom urls
+---> The original commit sha is - 01dd8b0823a4579f9162ba666914e921c7f97e2b
+Commit message - Merge pull request #162 from abernier/master
+
+Little modification on relation.coffee in order to pass records along when refreshing a (hasMany) relation
+---> The files with partial_reverts are:-
+lib/relation.js
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 69 is -> 
+{ 39b464bb8db4d2cb8cdf93c25f1dd27cf36b569c -> b064d40a2e8ed3bbb49384bf555d43425463957d } is a revert
+{ 1e2fe5b4c6481d28efb1d64039478a5b0886e3ce -> 6511db28200e365cce536b18be725e872121fd54 }
+Partial Revert commits SHA are -> 
+b064d40a2e8ed3bbb49384bf555d43425463957d - revert - 6511db28200e365cce536b18be725e872121fd54
+---> The reverted commit sha is - b064d40a2e8ed3bbb49384bf555d43425463957d
+Commit message - recompile with latest CoffeeScript
+---> The original commit sha is - 6511db28200e365cce536b18be725e872121fd54
+Commit message - Merge branch 'master' of git://github.com/maccman/spine
+
+Conflicts:
+	lib/relation.js
+---> The files with partial_reverts are:-
+src/relation.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 70 is -> 
+{ 39b464bb8db4d2cb8cdf93c25f1dd27cf36b569c -> b064d40a2e8ed3bbb49384bf555d43425463957d } is a revert
+{ b064d40a2e8ed3bbb49384bf555d43425463957d -> 1e2fe5b4c6481d28efb1d64039478a5b0886e3ce }
+Partial Revert commits SHA are -> 
+b064d40a2e8ed3bbb49384bf555d43425463957d - revert - 1e2fe5b4c6481d28efb1d64039478a5b0886e3ce
+---> The reverted commit sha is - b064d40a2e8ed3bbb49384bf555d43425463957d
+Commit message - recompile with latest CoffeeScript
+---> The original commit sha is - 1e2fe5b4c6481d28efb1d64039478a5b0886e3ce
+Commit message - Merge branch 'master' of github.com:maccman/spine
+---> The files with partial_reverts are:-
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 71 is -> 
+{ 68d2d8ea1b5762d701ca50d09c6fc69e63faafa1 -> 440a56a6cf21bc898fea971a2832d2097a29dd2a } is a revert
+{ 440a56a6cf21bc898fea971a2832d2097a29dd2a -> 82057e3a73583340254f10afa0e5de67868cfae3 }
+Partial Revert commits SHA are -> 
+440a56a6cf21bc898fea971a2832d2097a29dd2a - revert - 82057e3a73583340254f10afa0e5de67868cfae3
+---> The reverted commit sha is - 440a56a6cf21bc898fea971a2832d2097a29dd2a
+Commit message - some simple CoffeeScript refactoring
+---> The original commit sha is - 82057e3a73583340254f10afa0e5de67868cfae3
+Commit message - Merge branch 'master' of github.com:maccman/spine
+---> The files with partial_reverts are:-
+test/specs/class.js
+test/specs/controller.js
+test/specs/events.js
+test/specs/manager.js
+test/specs/route.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 72 is -> 
+{ 8e3a802e94ade300d81f2292dcd303a163de3603 -> abf10fb741f0e11332973fb3fcef6dd0e558dd99 } is a revert
+{ abf10fb741f0e11332973fb3fcef6dd0e558dd99 -> ae713b6f1768e8eb9d5cc00e914ffe349cf9f85c }
+Partial Revert commits SHA are -> 
+abf10fb741f0e11332973fb3fcef6dd0e558dd99 - revert - ae713b6f1768e8eb9d5cc00e914ffe349cf9f85c
+---> The reverted commit sha is - abf10fb741f0e11332973fb3fcef6dd0e558dd99
+Commit message - add a single record to the collection when @refresh() is called with something other than an array
+---> The original commit sha is - ae713b6f1768e8eb9d5cc00e914ffe349cf9f85c
+Commit message - Merge pull request #116 from scottburton11/refresh-fix
+
+Fix @refresh() when it's called with something other than an array
+---> The files with partial_reverts are:-
+lib/spine.js
+package.json
+-----------------------------------------------------------------
+
+Partial Revert diff pair 73 is -> 
+{ ff9eb91ba53a8dd3ab47a4b94531a52385e0123a -> 13b383a2f95ec1c127e780317c2ee90f7ed03563 } is a revert
+{ fe3973d3c951668665883d54bbd4ad677af4aa2e -> ed09d699587927210b624e912cfcf59309cf528c }
+Partial Revert commits SHA are -> 
+13b383a2f95ec1c127e780317c2ee90f7ed03563 - revert - ed09d699587927210b624e912cfcf59309cf528c
+---> The reverted commit sha is - 13b383a2f95ec1c127e780317c2ee90f7ed03563
+Commit message - add Spine.App for backwards compat
+---> The original commit sha is - ed09d699587927210b624e912cfcf59309cf528c
+Commit message - The deprecated Spine.App is no longer needed
+---> The files with partial_reverts are:-
+lib/spine.js
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 74 is -> 
+{ 84acbcdb5c8c4cce00a00dc76aca8143660bb26c -> 80c7ac5bfcd1fa90e1f2cd58ea77550b3789caef } is a revert
+{ 88e205023a48ef3f24aacf8d622da395882d61e6 -> ca358299ed135480179f439b04018198727a1127 }
+Partial Revert commits SHA are -> 
+80c7ac5bfcd1fa90e1f2cd58ea77550b3789caef - revert - ca358299ed135480179f439b04018198727a1127
+---> The reverted commit sha is - 80c7ac5bfcd1fa90e1f2cd58ea77550b3789caef
+Commit message - add unbind option
+---> The original commit sha is - ca358299ed135480179f439b04018198727a1127
+Commit message - combine tests
+---> The files with partial_reverts are:-
+test/persistance.html
+-----------------------------------------------------------------
+
+Partial Revert diff pair 75 is -> 
+{ ff9eb91ba53a8dd3ab47a4b94531a52385e0123a -> 13b383a2f95ec1c127e780317c2ee90f7ed03563 } is a revert
+{ f4874f24e5f5d6cc2301d0654be432f75e87feaa -> 62969b864a684f7f4f22b3af9a2810656fdb0efd }
+Partial Revert commits SHA are -> 
+13b383a2f95ec1c127e780317c2ee90f7ed03563 - revert - 62969b864a684f7f4f22b3af9a2810656fdb0efd
+---> The reverted commit sha is - 13b383a2f95ec1c127e780317c2ee90f7ed03563
+Commit message - add Spine.App for backwards compat
+---> The original commit sha is - 62969b864a684f7f4f22b3af9a2810656fdb0efd
+Commit message - Merge branch 'master' of github.com:maccman/spine
+---> The files with partial_reverts are:-
+lib/ajax.js
+src/ajax.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 76 is -> 
+{ d73462a69eaeb936ab8bd1a10bb89f1cf33ccd0b -> 2b779a7bb6f37c0c2aa73714a3d16dbbfa022274 } is a revert
+{ 2b779a7bb6f37c0c2aa73714a3d16dbbfa022274 -> ff9eb91ba53a8dd3ab47a4b94531a52385e0123a }
+Partial Revert commits SHA are -> 
+2b779a7bb6f37c0c2aa73714a3d16dbbfa022274 - revert - ff9eb91ba53a8dd3ab47a4b94531a52385e0123a
+---> The reverted commit sha is - 2b779a7bb6f37c0c2aa73714a3d16dbbfa022274
+Commit message - Passing parameters through in Collection.fetch
+
+It looks like this had been added in the js version, but may have been
+overlooked in the cs port.  Just allows jquery ajax parameters to be
+passed into fetch() which can be useful for paging, etc.
+---> The original commit sha is - ff9eb91ba53a8dd3ab47a4b94531a52385e0123a
+Commit message - Merge pull request #110 from jtharris/master
+
+Pass params in Collection.fetch
+---> The files with partial_reverts are:-
+lib/spine.js
+src/spine.coffee
+test/specs/model.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 77 is -> 
+{ 83989ae76e3f7f187fa8012f310edc93b41ff8d2 -> 53ce9fb73f040414288552b3f445bef1f73b53a3 } is a revert
+{ 53ce9fb73f040414288552b3f445bef1f73b53a3 -> e092456819c17d3eb5632e9e6a2f1ed789847b6d }
+Partial Revert commits SHA are -> 
+53ce9fb73f040414288552b3f445bef1f73b53a3 - revert - e092456819c17d3eb5632e9e6a2f1ed789847b6d
+---> The reverted commit sha is - 53ce9fb73f040414288552b3f445bef1f73b53a3
+Commit message - fix tmpl
+---> The original commit sha is - e092456819c17d3eb5632e9e6a2f1ed789847b6d
+Commit message - Merge branch 'master' of github.com:maccman/spine
+---> The files with partial_reverts are:-
+site/site.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 78 is -> 
+{ f281296053ca0d413bf4ddde9fbccbe6918b7a75 -> 288978f87a22c1aa18489a54f4a1764ac62a7af0 } is a revert
+{ 288978f87a22c1aa18489a54f4a1764ac62a7af0 -> d68f681b621014ce75b25f3d70e2d8707b6dd099 }
+Partial Revert commits SHA are -> 
+288978f87a22c1aa18489a54f4a1764ac62a7af0 - revert - d68f681b621014ce75b25f3d70e2d8707b6dd099
+---> The reverted commit sha is - 288978f87a22c1aa18489a54f4a1764ac62a7af0
+Commit message - add init callback to compat layer
+---> The original commit sha is - d68f681b621014ce75b25f3d70e2d8707b6dd099
+Commit message - Merge branch 'master' of github.com:maccman/spine
+---> The files with partial_reverts are:-
+src/ajax.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 79 is -> 
+{ 4af38ab2a661962b4900dba01631a886d8ccc3d4 -> 3b335ef56694f62d8a77655dd9e502c226d2dd6c } is a revert
+{ 256b08110b63917f9c7c92390f5de0c1b21ee75b -> 15de721549cc55528a76e9236f135ccdb61d4c4a }
+Partial Revert commits SHA are -> 
+3b335ef56694f62d8a77655dd9e502c226d2dd6c - revert - 15de721549cc55528a76e9236f135ccdb61d4c4a
+---> The reverted commit sha is - 3b335ef56694f62d8a77655dd9e502c226d2dd6c
+Commit message - error handling for Spine.Ajax
+---> The original commit sha is - 15de721549cc55528a76e9236f135ccdb61d4c4a
+Commit message - Merge branch 'cs'
+---> The files with partial_reverts are:-
+lib/spine.ajax.js
+lib/spine.list.js
+lib/spine.local.js
+lib/spine.manager.js
+lib/spine.relation.js
+lib/spine.route.js
+lib/spine.tabs.js
+lib/spine.tmpl.js
+package.json
+site/site.md
+src/spine.list.coffee
+src/spine.local.coffee
+src/spine.manager.coffee
+src/spine.relation.coffee
+src/spine.route.coffee
+src/spine.tabs.coffee
+src/spine.tmpl.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 80 is -> 
+{ 3aa5043225fe2d80f8bd611a4ed6f8d103e61074 -> 0cd413b940aac4cd4e84a49d72f6a3620b3b669d } is a revert
+{ 0cd413b940aac4cd4e84a49d72f6a3620b3b669d -> af64ba8f20353b86295fbf786587d684b0392fa6 }
+Partial Revert commits SHA are -> 
+0cd413b940aac4cd4e84a49d72f6a3620b3b669d - revert - af64ba8f20353b86295fbf786587d684b0392fa6
+---> The reverted commit sha is - 0cd413b940aac4cd4e84a49d72f6a3620b3b669d
+Commit message - Added dataType (json) to Ajax Base class to fix issues with Rails
+---> The original commit sha is - af64ba8f20353b86295fbf786587d684b0392fa6
+Commit message - Merge pull request #84 from chetan51/cs
+
+Added dataType (json) to Ajax Base class to fix issues with Rails
+---> The files with partial_reverts are:-
+lib/spine.js
+package.json
+src/spine.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 81 is -> 
+{ e21980b5bd7fcfd52e6b1c47f6e5138a244ac662 -> 701853e9e642897b20ce8572eee2de2603a25564 } is a revert
+{ 701853e9e642897b20ce8572eee2de2603a25564 -> 85da60e5eff3dbc689379426726ba89c93a50208 }
+Partial Revert commits SHA are -> 
+701853e9e642897b20ce8572eee2de2603a25564 - revert - 85da60e5eff3dbc689379426726ba89c93a50208
+---> The reverted commit sha is - 701853e9e642897b20ce8572eee2de2603a25564
+Commit message - Fix typo.
+---> The original commit sha is - 85da60e5eff3dbc689379426726ba89c93a50208
+Commit message - Merge branch 'cs' of git://github.com/maccman/spine into cs
+---> The files with partial_reverts are:-
+lib/spine.js
+lib/spine.manager.js
+src/spine.ajax.coffee
+src/spine.coffee
+src/spine.manager.coffee
+-----------------------------------------------------------------
+
+Partial Revert diff pair 82 is -> 
+{ 9f025023ce78842cda963c94ba1a229f0257a72b -> 024ce6df21aa5e6b814a63409735f39e291ef614 } is a revert
+{ 024ce6df21aa5e6b814a63409735f39e291ef614 -> 38fc35c28f4998b05b9298a32b098de7c97a3d24 }
+Partial Revert commits SHA are -> 
+024ce6df21aa5e6b814a63409735f39e291ef614 - revert - 38fc35c28f4998b05b9298a32b098de7c97a3d24
+---> The reverted commit sha is - 024ce6df21aa5e6b814a63409735f39e291ef614
+Commit message - make module.dup() work more obviously - thanks @bmidgley and @csaunders
+---> The original commit sha is - 38fc35c28f4998b05b9298a32b098de7c97a3d24
+Commit message - Merge branch 'master' of github.com:maccman/spine
+---> The files with partial_reverts are:-
+site/site.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 83 is -> 
+{ f69fd70cc86b3c498cc264dcfa7a1fc6633b023b -> d32043d08ab45aa995e12f3fe965373509c7e80c } is a revert
+{ d32043d08ab45aa995e12f3fe965373509c7e80c -> fbf27d5753f7edb4bf0798dc5d745b0051564e1f }
+Partial Revert commits SHA are -> 
+d32043d08ab45aa995e12f3fe965373509c7e80c - revert - fbf27d5753f7edb4bf0798dc5d745b0051564e1f
+---> The reverted commit sha is - d32043d08ab45aa995e12f3fe965373509c7e80c
+Commit message - build min version
+---> The original commit sha is - fbf27d5753f7edb4bf0798dc5d745b0051564e1f
+Commit message - Merge branch 'master' into gh-pages
+---> The files with partial_reverts are:-
+lib/spine.ajax.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 84 is -> 
+{ 3d3b323196d652c0fd3d6d2c9318c2b9966e489f -> c2df0c509888c746154c229b000a3dfe1c233b6b } is a revert
+{ 8a3b79abf8a20c19735ee91fd2274e0b1d9a6cc5 -> b093c4fb737bf6dfec0fba7e7c6b3dae763559e3 }
+Partial Revert commits SHA are -> 
+c2df0c509888c746154c229b000a3dfe1c233b6b - revert - b093c4fb737bf6dfec0fba7e7c6b3dae763559e3
+---> The reverted commit sha is - c2df0c509888c746154c229b000a3dfe1c233b6b
+Commit message - Fixing line breaks in site.md changelog
+---> The original commit sha is - b093c4fb737bf6dfec0fba7e7c6b3dae763559e3
+Commit message - Merge branch 'gh-pages'
+---> The files with partial_reverts are:-
+lib/spine.manager.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 85 is -> 
+{ c8cb6d6dd716771b47c100cc5ef283e669b35184 -> 8a3b79abf8a20c19735ee91fd2274e0b1d9a6cc5 } is a revert
+{ 8a3b79abf8a20c19735ee91fd2274e0b1d9a6cc5 -> b093c4fb737bf6dfec0fba7e7c6b3dae763559e3 }
+Partial Revert commits SHA are -> 
+8a3b79abf8a20c19735ee91fd2274e0b1d9a6cc5 - revert - b093c4fb737bf6dfec0fba7e7c6b3dae763559e3
+---> The reverted commit sha is - 8a3b79abf8a20c19735ee91fd2274e0b1d9a6cc5
+Commit message - Merge branch 'gh-pages' of github.com:maccman/spine into gh-pages
+---> The original commit sha is - b093c4fb737bf6dfec0fba7e7c6b3dae763559e3
+Commit message - Merge branch 'gh-pages'
+---> The files with partial_reverts are:-
+lib/spine.manager.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 86 is -> 
+{ 2d853407df2865d508690413905632caef78147a -> 9e5076805a7cffe4dd85f1d7a5b0930fd1893ae7 } is a revert
+{ c8cb6d6dd716771b47c100cc5ef283e669b35184 -> 8a3b79abf8a20c19735ee91fd2274e0b1d9a6cc5 }
+Partial Revert commits SHA are -> 
+9e5076805a7cffe4dd85f1d7a5b0930fd1893ae7 - revert - 8a3b79abf8a20c19735ee91fd2274e0b1d9a6cc5
+---> The reverted commit sha is - 9e5076805a7cffe4dd85f1d7a5b0930fd1893ae7
+Commit message - Merge pull request #34 from KevBurnsJr/no-deactive-class
+
+Removing lies from doc comments
+---> The original commit sha is - 8a3b79abf8a20c19735ee91fd2274e0b1d9a6cc5
+Commit message - Merge branch 'gh-pages' of github.com:maccman/spine into gh-pages
+---> The files with partial_reverts are:-
+lib/spine.manager.js
+site/site.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 87 is -> 
+{ f312eb356423106f248a7f498cb1aa88b09a5d15 -> 3d3b323196d652c0fd3d6d2c9318c2b9966e489f } is a revert
+{ 9e5076805a7cffe4dd85f1d7a5b0930fd1893ae7 -> c8cb6d6dd716771b47c100cc5ef283e669b35184 }
+Partial Revert commits SHA are -> 
+3d3b323196d652c0fd3d6d2c9318c2b9966e489f - revert - c8cb6d6dd716771b47c100cc5ef283e669b35184
+---> The reverted commit sha is - 3d3b323196d652c0fd3d6d2c9318c2b9966e489f
+Commit message - Removing lies from doc comments
+---> The original commit sha is - c8cb6d6dd716771b47c100cc5ef283e669b35184
+Commit message - Merge branch 'master' of github.com:maccman/spine
+---> The files with partial_reverts are:-
+spine.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 88 is -> 
+{ 3d3b323196d652c0fd3d6d2c9318c2b9966e489f -> c2df0c509888c746154c229b000a3dfe1c233b6b } is a revert
+{ 2d853407df2865d508690413905632caef78147a -> 9e5076805a7cffe4dd85f1d7a5b0930fd1893ae7 }
+Partial Revert commits SHA are -> 
+c2df0c509888c746154c229b000a3dfe1c233b6b - revert - 9e5076805a7cffe4dd85f1d7a5b0930fd1893ae7
+---> The reverted commit sha is - c2df0c509888c746154c229b000a3dfe1c233b6b
+Commit message - Fixing line breaks in site.md changelog
+---> The original commit sha is - 9e5076805a7cffe4dd85f1d7a5b0930fd1893ae7
+Commit message - Merge pull request #34 from KevBurnsJr/no-deactive-class
+
+Removing lies from doc comments
+---> The files with partial_reverts are:-
+lib/spine.manager.js
+lib/spine.model.ajax.js
+spine.js
+test/specs/route.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 89 is -> 
+{ b8e388d58189c38fb197237ff57f33c0cd79c764 -> f312eb356423106f248a7f498cb1aa88b09a5d15 } is a revert
+{ c2df0c509888c746154c229b000a3dfe1c233b6b -> 2d853407df2865d508690413905632caef78147a }
+Partial Revert commits SHA are -> 
+f312eb356423106f248a7f498cb1aa88b09a5d15 - revert - 2d853407df2865d508690413905632caef78147a
+---> The reverted commit sha is - f312eb356423106f248a7f498cb1aa88b09a5d15
+Commit message - add missing semicolons (thanks vinniefranco)
+---> The original commit sha is - 2d853407df2865d508690413905632caef78147a
+Commit message - Merge pull request #35 from KevBurnsJr/change-log-line-breaks
+
+Change log line breaks
+---> The files with partial_reverts are:-
+site/site.md
+-----------------------------------------------------------------
+
+Partial Revert diff pair 90 is -> 
+{ f4b204b62a82264bcddcd07c9178c62b8928cbcf -> ed27c0f2bb3de537d9483f7f41d465d09267e438 } is a revert
+{ b8e388d58189c38fb197237ff57f33c0cd79c764 -> f312eb356423106f248a7f498cb1aa88b09a5d15 }
+Partial Revert commits SHA are -> 
+ed27c0f2bb3de537d9483f7f41d465d09267e438 - revert - f312eb356423106f248a7f498cb1aa88b09a5d15
+---> The reverted commit sha is - ed27c0f2bb3de537d9483f7f41d465d09267e438
+Commit message - Fixing minor typo in docs.
+---> The original commit sha is - f312eb356423106f248a7f498cb1aa88b09a5d15
+Commit message - add missing semicolons (thanks vinniefranco)
+---> The files with partial_reverts are:-
+lib/spine.model.ajax.js
+site/site.md
+test/specs/route.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 91 is -> 
+{ a494a1f5ba150089693d079f070944139ebd0e47 -> 479e0dd1d8cd45b75868581b5f5d09dddde8ae9e } is a revert
+{ 97dcd35c5b2d308572bfeafa029719725eb0fc27 -> bc7a65cefc6bfaf15f97551e88c0c1e296d13c37 }
+Partial Revert commits SHA are -> 
+479e0dd1d8cd45b75868581b5f5d09dddde8ae9e - revert - bc7a65cefc6bfaf15f97551e88c0c1e296d13c37
+---> The reverted commit sha is - 479e0dd1d8cd45b75868581b5f5d09dddde8ae9e
+Commit message - add docs for manager, add a basic tabs impl
+---> The original commit sha is - bc7a65cefc6bfaf15f97551e88c0c1e296d13c37
+Commit message - Merge pull request #16 from jaysalvat/master
+
+Parameters to Model.fetch() ajax requests
+---> The files with partial_reverts are:-
+lib/spine.model.ajax.js
+spine.js
+-----------------------------------------------------------------
+
+Partial Revert diff pair 92 is -> 
+{ 9e959ee845f895ad5d7ce1cfbbf153a21bf9f880 -> d377d4639905818d294e6cb9da45199a2f3b76a6 } is a revert
+{ d377d4639905818d294e6cb9da45199a2f3b76a6 -> a2d1d3a66ad6eda3f23b2a6a38b315d897e14c3e }
+Partial Revert commits SHA are -> 
+d377d4639905818d294e6cb9da45199a2f3b76a6 - revert - a2d1d3a66ad6eda3f23b2a6a38b315d897e14c3e
+---> The reverted commit sha is - d377d4639905818d294e6cb9da45199a2f3b76a6
+Commit message - add docs
+---> The original commit sha is - a2d1d3a66ad6eda3f23b2a6a38b315d897e14c3e
+Commit message - finish docs
+---> The files with partial_reverts are:-
+site/site_old.md
+-----------------------------------------------------------------
+

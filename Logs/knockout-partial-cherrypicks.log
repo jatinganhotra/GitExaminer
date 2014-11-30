@@ -1,0 +1,1961 @@
+# of partial cherrypicks = 112
+Partial Cherry-pick diff pair 1 is -> 
+{ 1d82caef396480f620020578a286f771b54be29d -> 9cc7c7e26892edf700599d13ac60b4ea98369cc8 } is a cherrypick
+{ 5158a9aaf1d8ba44c37037065d8980fcaea628ab -> 1499ce55dba03b19e60990292dc41f68eaa20391 }
+Partial Cherry-pick commits SHA are -> 
+9cc7c7e26892edf700599d13ac60b4ea98369cc8 - cherrypick - 1499ce55dba03b19e60990292dc41f68eaa20391
+---> The cherrypicked commit sha is - 9cc7c7e26892edf700599d13ac60b4ea98369cc8
+Commit message - When parsing bindings, only treat the first colon as the key/value separator. Support returning any "malformed" binding (more closely matches pre-3.0 result).
+---> The original commit sha is - 1499ce55dba03b19e60990292dc41f68eaa20391
+Commit message - Merge pull request #1434 from knockout/1434-binding-parser-update
+
+Binding parser skips all colons between the name and value
+---> The files with partial_cherrypicks are:-
+spec/blank.html
+spec/crossWindowBehaviors.js
+spec/defaultBindings/ifBehaviors.js
+spec/defaultBindings/ifnotBehaviors.js
+spec/expressionRewritingBehaviors.js
+spec/lib/loadDependencies.js
+spec/nativeTemplateEngineBehaviors.js
+spec/runner.html
+spec/templatingBehaviors.js
+src/binding/expressionRewriting.js
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+src/templating/native/nativeTemplateEngine.js
+src/templating/templateEngine.js
+src/templating/templating.js
+src/utils.domManipulation.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ a14020833192ced610785830070b6647c50c36f2 -> ff6b8582c6ac9e13677968ba6b4be454a70e4fd1 } is a cherrypick
+{ 0d5caa50841d2461ad7df8c2fc3ab1123fe41529 -> b6b3a1132fa142539279bcaa698fcc90c6bafdd6 }
+Partial Cherry-pick commits SHA are -> 
+ff6b8582c6ac9e13677968ba6b4be454a70e4fd1 - cherrypick - b6b3a1132fa142539279bcaa698fcc90c6bafdd6
+---> The cherrypicked commit sha is - ff6b8582c6ac9e13677968ba6b4be454a70e4fd1
+Commit message - Mark version as 3.3.0-alpha
+
+It’s too early to publicise this particularly, but as part of the run
+up to a 3.3.0 release I’m updating some dependent packages to the
+latest bits, and this works cleanest if there is some named version
+they can identify as a dependency.
+---> The original commit sha is - b6b3a1132fa142539279bcaa698fcc90c6bafdd6
+Commit message - Merge pull request #1321 from knockout/1321-ie-multi-window
+
+Multi-window situation crashed in IE10 due to not being able to call the appendChild method with argument being an element from a different window.
+---> The files with partial_cherrypicks are:-
+package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 2870548fc92fd3962bc69735d3573f8bb7e610c6 -> dba6b1993cf1f23c850630e3f2c68d4555e3d407 } is a cherrypick
+{ ff6b8582c6ac9e13677968ba6b4be454a70e4fd1 -> 864e19cb19baa90d9da4f7dc45fd8cff68c826e0 }
+Partial Cherry-pick commits SHA are -> 
+dba6b1993cf1f23c850630e3f2c68d4555e3d407 - cherrypick - 864e19cb19baa90d9da4f7dc45fd8cff68c826e0
+---> The cherrypicked commit sha is - dba6b1993cf1f23c850630e3f2c68d4555e3d407
+Commit message - Revert the tests for CSS/classList
+
+Also, add test when the browser supports SVG
+---> The original commit sha is - 864e19cb19baa90d9da4f7dc45fd8cff68c826e0
+Commit message - Merge remote-tracking branch 'upstream/master' into fix-svg-css-binding
+
+Conflicts:
+	spec/defaultBindings/cssBehaviors.js
+---> The files with partial_cherrypicks are:-
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ c6cdb3ead3221cf1bb4de7da2a5ed3c4e1f60162 -> c7f970c66925686af4fc25e2c11c2a8729bd1d35 } is a cherrypick
+{ c92b82a1f71d9ff7a44b24c36f5ece37ab0a878e -> 05f4cdcbd2ba653f06ec19240fc100056c5e006b }
+Partial Cherry-pick commits SHA are -> 
+c7f970c66925686af4fc25e2c11c2a8729bd1d35 - cherrypick - 05f4cdcbd2ba653f06ec19240fc100056c5e006b
+---> The cherrypicked commit sha is - c7f970c66925686af4fc25e2c11c2a8729bd1d35
+Commit message - Expand getSubscriptionsCount to accept an event parameter
+---> The original commit sha is - 05f4cdcbd2ba653f06ec19240fc100056c5e006b
+Commit message - Merge pull request #1576 from knockout/1511-computed-stateChange-notifications
+
+computed observables notify "awake" and "asleep" events
+---> The files with partial_cherrypicks are:-
+spec/dependentObservableBehaviors.js
+spec/pureComputedBehaviors.js
+spec/subscribableBehaviors.js
+src/subscribables/dependentObservable.js
+src/subscribables/subscribable.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ 7647e0d658c605c4c9c68190b93c24e93c6984cd -> b4a730c4458efc98dfeac600c489981c4b8c4d16 } is a cherrypick
+{ 348f9eab6cab5e253d1d663c7b9ed1dcb692206d -> 226464ec2a892db9c954c1056ecb871c722d58ed }
+Partial Cherry-pick commits SHA are -> 
+b4a730c4458efc98dfeac600c489981c4b8c4d16 - cherrypick - 226464ec2a892db9c954c1056ecb871c722d58ed
+---> The cherrypicked commit sha is - b4a730c4458efc98dfeac600c489981c4b8c4d16
+Commit message - fix that css binding does not update the GUI when observable set to null
+---> The original commit sha is - 226464ec2a892db9c954c1056ecb871c722d58ed
+Commit message - Merge pull request #1530 from AdeeLNX/cssbinding_issue_1468
+
+Fix for Cssbinding issue 1468
+---> The files with partial_cherrypicks are:-
+src/binding/defaultBindings/css.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ d6f981370f617376b51f29b6c7de824e42df8f54 -> 2870548fc92fd3962bc69735d3573f8bb7e610c6 } is a cherrypick
+{ 810e4ffa14268762278d907f0020fdbbfb670483 -> 2d05afe2e39ae6709efce3c45bcfe8e50d2e0464 }
+Partial Cherry-pick commits SHA are -> 
+2870548fc92fd3962bc69735d3573f8bb7e610c6 - cherrypick - 2d05afe2e39ae6709efce3c45bcfe8e50d2e0464
+---> The cherrypicked commit sha is - 2870548fc92fd3962bc69735d3573f8bb7e610c6
+Commit message - In custom elements, create a writable computed if an expression that can vary observably evaluates to a writable observable.
+---> The original commit sha is - 2d05afe2e39ae6709efce3c45bcfe8e50d2e0464
+Commit message - Add writable expression test for component binding that matches (mostly) the test for custom elements.
+---> The files with partial_cherrypicks are:-
+src/components/customElements.js
+src/components/loaderRegistry.js
+src/subscribables/dependentObservable.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ 8b3c40210f3e6ba8c786c6ebe6b3cb9788765ec6 -> 2efa58bf5b7ab2a7094faf010391b2c3fe020a35 } is a cherrypick
+{ 8c1936a2c6720034515e5ff050094de5791ecf06 -> 928ae1d2b8c374eb027eb66c45f785aad2b480ca }
+Partial Cherry-pick commits SHA are -> 
+2efa58bf5b7ab2a7094faf010391b2c3fe020a35 - cherrypick - 928ae1d2b8c374eb027eb66c45f785aad2b480ca
+---> The cherrypicked commit sha is - 2efa58bf5b7ab2a7094faf010391b2c3fe020a35
+Commit message - Also update dependentObservable._latestValue when updating _latestValue on awake of a pure computed
+---> The original commit sha is - 928ae1d2b8c374eb027eb66c45f785aad2b480ca
+Commit message - Merge pull request #1515 from faktumsoftware/1515-update-debug-latestvalue-on-awake
+
+Add missing update of exposed dependendObservable._latestValue (DEBUG only)
+---> The files with partial_cherrypicks are:-
+src/subscribables/dependentObservable.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ ee6df1398e08e9cc85a7a90497b6d043562d0ed0 -> a32060fb1d2985dcdd26c6778a68a88c9bf755b3 } is a cherrypick
+{ 4c4d953ed2b15308857d64e249b1397e444e3040 -> 8c1936a2c6720034515e5ff050094de5791ecf06 }
+Partial Cherry-pick commits SHA are -> 
+a32060fb1d2985dcdd26c6778a68a88c9bf755b3 - cherrypick - 8c1936a2c6720034515e5ff050094de5791ecf06
+---> The cherrypicked commit sha is - a32060fb1d2985dcdd26c6778a68a88c9bf755b3
+Commit message - Enhance template binding to accept a "nodes" array
+
+When injecting supplied nodes into a component output, it’s useful to
+be able to pass the node array directly from the component viewmodel
+and bind to those nodes in the view. If we didn’t have this feature,
+you’d have to dynamically create a named template or something, which
+would be awful.
+---> The original commit sha is - 8c1936a2c6720034515e5ff050094de5791ecf06
+Commit message - Merge pull request #1504 from knockout/1504-synchronous-components
+
+Components should render synchronously when possible
+---> The files with partial_cherrypicks are:-
+spec/defaultBindings/optionsBehaviors.js
+src/binding/defaultBindings/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ 3a46bf47890059a6727ac036e615ee34ed21e8dc -> 91a1cd4eb55359d6fca91c36f5f330f0d9f40227 } is a cherrypick
+{ f3c0ac38ccb3862db60d447b62b9c3bc7208f701 -> f424bd85a698e77013737ce8b31c0689916ebe08 }
+Partial Cherry-pick commits SHA are -> 
+91a1cd4eb55359d6fca91c36f5f330f0d9f40227 - cherrypick - f424bd85a698e77013737ce8b31c0689916ebe08
+---> The cherrypicked commit sha is - 91a1cd4eb55359d6fca91c36f5f330f0d9f40227
+Commit message - replace tab to space
+---> The original commit sha is - f424bd85a698e77013737ce8b31c0689916ebe08
+Commit message - Merge pull request #1443 from haru01/master
+
+replace tab to space
+---> The files with partial_cherrypicks are:-
+spec/jsonPostingBehaviors.js
+src/binding/defaultBindings/text.js
+src/google-closure-compiler-utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 6ecec353edcae739abc3ab0fe0997b4ec529f868 -> a6d12e79e72344bc3e32cf6b6fead019f5b4572d } is a cherrypick
+{ 22836914dc0290b6aa7c1fd5ecac5cdd7b25a806 -> 7ae71944a5ece90aff6ca39bc6a98300e7ea1010 }
+Partial Cherry-pick commits SHA are -> 
+a6d12e79e72344bc3e32cf6b6fead019f5b4572d - cherrypick - 7ae71944a5ece90aff6ca39bc6a98300e7ea1010
+---> The cherrypicked commit sha is - a6d12e79e72344bc3e32cf6b6fead019f5b4572d
+Commit message - Add spec to demonstrate #1371, and a fix
+---> The original commit sha is - 7ae71944a5ece90aff6ca39bc6a98300e7ea1010
+Commit message - Merge pull request #1433 from knockout/template-name-observable
+
+Add spec to demonstrate #1371, and a fix
+---> The files with partial_cherrypicks are:-
+spec/templatingBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 3ca82bc416c5342ca55d1f4142a9c2c460f0b06c -> 9d230788cd1ebdb8cbc0e1210163b53c24e1e1ea } is a cherrypick
+{ acc268fb0df1bb07e05930ab153b66cb80b38a09 -> 22836914dc0290b6aa7c1fd5ecac5cdd7b25a806 }
+Partial Cherry-pick commits SHA are -> 
+9d230788cd1ebdb8cbc0e1210163b53c24e1e1ea - cherrypick - 22836914dc0290b6aa7c1fd5ecac5cdd7b25a806
+---> The cherrypicked commit sha is - 9d230788cd1ebdb8cbc0e1210163b53c24e1e1ea
+Commit message - Make "value" binding act like "checkedValue" when on a checkbox or radio
+---> The original commit sha is - 22836914dc0290b6aa7c1fd5ecac5cdd7b25a806
+Commit message - Merge pull request #1146 from knockout/1146-value-alias-checkedValue
+
+Make value binding on checkbox or radio input work like checkedValue
+---> The files with partial_cherrypicks are:-
+.gitignore
+build/fragments/source-references.js
+spec/defaultBindings/textInputBehaviors.js
+spec/defaultBindings/valueBehaviors.js
+spec/runner.html
+src/binding/defaultBindings/checked.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ af42454ab3240879b5fa6cab36a36b9465a63fc8 -> b7fe352f20ac354802d4597beaab16da311f54cb } is a cherrypick
+{ d12f3299cfaf5aa16eb4a681b1139f571ddd8a52 -> 6ecec353edcae739abc3ab0fe0997b4ec529f868 }
+Partial Cherry-pick commits SHA are -> 
+b7fe352f20ac354802d4597beaab16da311f54cb - cherrypick - 6ecec353edcae739abc3ab0fe0997b4ec529f868
+---> The cherrypicked commit sha is - b7fe352f20ac354802d4597beaab16da311f54cb
+Commit message - Let component viewmodels be simpler by not having to check whether 'params' is null
+---> The original commit sha is - 6ecec353edcae739abc3ab0fe0997b4ec529f868
+Commit message - Merge pull request #1385 from knockout/1385-custom-elems-no-params
+
+Custom elements
+---> The files with partial_cherrypicks are:-
+spec/components/customElementBehaviors.js
+src/components/customElements.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ a99e54a89fb84af31a9dbd248656f4b9e1bee3f0 -> af42454ab3240879b5fa6cab36a36b9465a63fc8 } is a cherrypick
+{ e2db8d8279ca123cfd87e89b77d779806a696b69 -> d12f3299cfaf5aa16eb4a681b1139f571ddd8a52 }
+Partial Cherry-pick commits SHA are -> 
+af42454ab3240879b5fa6cab36a36b9465a63fc8 - cherrypick - d12f3299cfaf5aa16eb4a681b1139f571ddd8a52
+---> The cherrypicked commit sha is - af42454ab3240879b5fa6cab36a36b9465a63fc8
+Commit message - Test and fix for #972
+---> The original commit sha is - d12f3299cfaf5aa16eb4a681b1139f571ddd8a52
+Commit message - Merge pull request #972 from knockout/972-style-value-zero
+
+bug in 'style'-binding
+---> The files with partial_cherrypicks are:-
+spec/defaultBindings/styleBehaviors.js
+src/binding/defaultBindings/style.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 847e1f199eb2057b40a2c7938b4df332450302f9 -> 263fad35eff3bfacde4fc2f6b30b4537500b1798 } is a cherrypick
+{ 245168377e7713cc86a7e6c17003879b83088d17 -> 80120969d8cb5341325f76ec1e74dde6e2af00fc }
+Partial Cherry-pick commits SHA are -> 
+263fad35eff3bfacde4fc2f6b30b4537500b1798 - cherrypick - 80120969d8cb5341325f76ec1e74dde6e2af00fc
+---> The cherrypicked commit sha is - 263fad35eff3bfacde4fc2f6b30b4537500b1798
+Commit message - Use /*! … */ comment format for banner so that external minifiers know to preserve it
+---> The original commit sha is - 80120969d8cb5341325f76ec1e74dde6e2af00fc
+Commit message - Merge branch 'components'
+---> The files with partial_cherrypicks are:-
+Gruntfile.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ 6053599a0960d2f9bf0b01d99c34fa665b97461a -> 9b849ee159b4d7798ef95ec78ab4caa66a6e784a } is a cherrypick
+{ 245168377e7713cc86a7e6c17003879b83088d17 -> 80120969d8cb5341325f76ec1e74dde6e2af00fc }
+Partial Cherry-pick commits SHA are -> 
+9b849ee159b4d7798ef95ec78ab4caa66a6e784a - cherrypick - 80120969d8cb5341325f76ec1e74dde6e2af00fc
+---> The cherrypicked commit sha is - 9b849ee159b4d7798ef95ec78ab4caa66a6e784a
+Commit message - Merge pull request #1374 from knockout/uglify-friendly-license-header
+
+Use /*! … */ comment format for banner so that external minifiers know to preserve it
+---> The original commit sha is - 80120969d8cb5341325f76ec1e74dde6e2af00fc
+Commit message - Merge branch 'components'
+---> The files with partial_cherrypicks are:-
+Gruntfile.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ 1671f749022dca85706700279952f96e5cc18cea -> 61aa990a7a38262b9fc7a61ad6abcece2264f72c } is a cherrypick
+{ d800fda641224e4af30d815f74b8ce0c7c5a9d5a -> 31b9df3a05326de1c46e8ac326f02016e6ce2d29 }
+Partial Cherry-pick commits SHA are -> 
+61aa990a7a38262b9fc7a61ad6abcece2264f72c - cherrypick - 31b9df3a05326de1c46e8ac326f02016e6ce2d29
+---> The cherrypicked commit sha is - 61aa990a7a38262b9fc7a61ad6abcece2264f72c
+Commit message - Don't export computed object in ko.computedContext.
+---> The original commit sha is - 31b9df3a05326de1c46e8ac326f02016e6ce2d29
+Commit message - Merge pull request #627 from knockout/627-computed-context
+
+Provide access to dependency count within computed function
+---> The files with partial_cherrypicks are:-
+src/binding/defaultBindings/checked.js
+src/binding/defaultBindings/ifIfnotWith.js
+src/subscribables/dependencyDetection.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ 109988ad59db1be50725ecd8cbbc3d0863e0aa0e -> e6e94df25ec88bca2b4d7ddb141d02a9e5db1981 } is a cherrypick
+{ d8f1dd52bf404c11463656d570e931062e5cd75e -> 1671f749022dca85706700279952f96e5cc18cea }
+Partial Cherry-pick commits SHA are -> 
+e6e94df25ec88bca2b4d7ddb141d02a9e5db1981 - cherrypick - 1671f749022dca85706700279952f96e5cc18cea
+---> The cherrypicked commit sha is - e6e94df25ec88bca2b4d7ddb141d02a9e5db1981
+Commit message - Make tracking observables accessed from getBindingAccessors the default behavior.
+---> The original commit sha is - 1671f749022dca85706700279952f96e5cc18cea
+Commit message - Merge pull request #1255 from knockout/1255-track-observables-in-getBindingAccessors
+
+Track observables accessed in getBindingAccessors
+---> The files with partial_cherrypicks are:-
+spec/bindingDependencyBehaviors.js
+src/binding/bindingAttributeSyntax.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ e6e94df25ec88bca2b4d7ddb141d02a9e5db1981 -> 3b8370d96d0f8dea4093af42215a93d9ef42debe } is a cherrypick
+{ ea06bddf26b2b571baab80820e1be1bc9e9ad152 -> d8f1dd52bf404c11463656d570e931062e5cd75e }
+Partial Cherry-pick commits SHA are -> 
+3b8370d96d0f8dea4093af42215a93d9ef42debe - cherrypick - d8f1dd52bf404c11463656d570e931062e5cd75e
+---> The cherrypicked commit sha is - 3b8370d96d0f8dea4093af42215a93d9ef42debe
+Commit message - Add "valueAllowUnset" option that sets the value and options bindings so that a value that is not in the list of options is allowed and is displayed accordingly with no item selected.
+---> The original commit sha is - d8f1dd52bf404c11463656d570e931062e5cd75e
+Commit message - Merge pull request #647 from knockout/647-allow-unselected-value
+
+Support select value not in options list, optionally
+---> The files with partial_cherrypicks are:-
+src/binding/defaultBindings/value.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ 62b431060cc85d34a1699392c656ed032304ee91 -> 7082763d92b42b9b4ed5f53fb8094f95ba908c13 } is a cherrypick
+{ 40577f138d21769f91b1e23ce797f7537be8dc8d -> 109988ad59db1be50725ecd8cbbc3d0863e0aa0e }
+Partial Cherry-pick commits SHA are -> 
+7082763d92b42b9b4ed5f53fb8094f95ba908c13 - cherrypick - 109988ad59db1be50725ecd8cbbc3d0863e0aa0e
+---> The cherrypicked commit sha is - 7082763d92b42b9b4ed5f53fb8094f95ba908c13
+Commit message - The options caption element is retained when the caption hasn't changed (fixes #1081). Also remove unneeded assignment (fixes #1120)
+---> The original commit sha is - 109988ad59db1be50725ecd8cbbc3d0863e0aa0e
+Commit message - Merge pull request #1081 from knockout/1081-retain-options-caption
+
+options placeholder always re-added when update binding fires
+---> The files with partial_cherrypicks are:-
+spec/defaultBindings/optionsBehaviors.js
+src/binding/defaultBindings/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ 7c4aa0784fc2c1362e4229de787f2a833329a20a -> 9c1856f9e8d95afe0e1641e21da08c95d52e7c44 } is a cherrypick
+{ c5e0c58d24b42d2e111d8a72e0cb101fa1b414fe -> 40577f138d21769f91b1e23ce797f7537be8dc8d }
+Partial Cherry-pick commits SHA are -> 
+9c1856f9e8d95afe0e1641e21da08c95d52e7c44 - cherrypick - 40577f138d21769f91b1e23ce797f7537be8dc8d
+---> The cherrypicked commit sha is - 9c1856f9e8d95afe0e1641e21da08c95d52e7c44
+Commit message - Organised the different sets of native template tests into groups
+---> The original commit sha is - 40577f138d21769f91b1e23ce797f7537be8dc8d
+Commit message - Merge pull request #1234 from pimterry/GroupTemplateTests
+
+Tidied up the different sets of native template tests into proper Jasmine groupings by template type
+---> The files with partial_cherrypicks are:-
+spec/nativeTemplateEngineBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ e6085544298e4dd991f5ecd6b04f10f6b4f27394 -> 7c4aa0784fc2c1362e4229de787f2a833329a20a } is a cherrypick
+{ 34c1ab8b1b175a791d02ddcca11cc5871ea48d1b -> c5e0c58d24b42d2e111d8a72e0cb101fa1b414fe }
+Partial Cherry-pick commits SHA are -> 
+7c4aa0784fc2c1362e4229de787f2a833329a20a - cherrypick - c5e0c58d24b42d2e111d8a72e0cb101fa1b414fe
+---> The cherrypicked commit sha is - 7c4aa0784fc2c1362e4229de787f2a833329a20a
+Commit message - Improve '.throwsContaining' error message
+---> The original commit sha is - c5e0c58d24b42d2e111d8a72e0cb101fa1b414fe
+Commit message - Merge pull request #1237 from pimterry/betterThrowsContainingMessage
+
+Improve '.toThrowContaining' matcher error message
+---> The files with partial_cherrypicks are:-
+spec/lib/jasmine.extensions.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ 840da886d1670978df802d478f884e4b14416d50 -> 0e0559bdfb67e707a45afe7707fc8a228aab56de } is a cherrypick
+{ f2d4cdd9e9b04a3fb8ce4b9491126b093c24a7e1 -> ea8d9dc269311e27aecc3e23b973de6c26751128 }
+Partial Cherry-pick commits SHA are -> 
+0e0559bdfb67e707a45afe7707fc8a228aab56de - cherrypick - ea8d9dc269311e27aecc3e23b973de6c26751128
+---> The cherrypicked commit sha is - 0e0559bdfb67e707a45afe7707fc8a228aab56de
+Commit message - Find moved items when using observableArray#splice with arrayChange notifications.
+---> The original commit sha is - ea8d9dc269311e27aecc3e23b973de6c26751128
+Commit message - Merge pull request #1207 from knockout/1207-arrayChange-splice-tracks-moves
+
+"arrayChange" event for splice assumes all added items are new
+---> The files with partial_cherrypicks are:-
+spec/observableArrayChangeTrackingBehaviors.js
+src/binding/editDetection/compareArrays.js
+src/subscribables/observableArray.changeTracking.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ b9d736327fff3a2e9029182a5516f23ef804174b -> eb671bc781f251624468e3850fa9b78f0a50bbb8 } is a cherrypick
+{ c12c5ad323a7cfa835e49e81fd4db3d30906669a -> 262d8cc5c4882f0cf6f3bdcf189540bc002c80bf }
+Partial Cherry-pick commits SHA are -> 
+eb671bc781f251624468e3850fa9b78f0a50bbb8 - cherrypick - 262d8cc5c4882f0cf6f3bdcf189540bc002c80bf
+---> The cherrypicked commit sha is - eb671bc781f251624468e3850fa9b78f0a50bbb8
+Commit message - Instead of using special workaround code to handle click weirdness in IE<9 and jQuery, use the element.click method. This is the same fix that jQuery added in 1.9 for checkboxes (but not for radio buttons).
+---> The original commit sha is - 262d8cc5c4882f0cf6f3bdcf189540bc002c80bf
+Commit message - Merge pull request #1191 from knockout/1191-better-checkbox-click-fix
+
+Remove jQuery workaround that's no longer needed
+---> The files with partial_cherrypicks are:-
+spec/defaultBindings/checkedBehaviors.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ 0e0559bdfb67e707a45afe7707fc8a228aab56de -> 4c432bbe82f99e1db3b938f679220d77d0ed8b97 } is a cherrypick
+{ d9e6db2d12288f59c71605dce631e8221c67bc55 -> 511d0828d4e0c13644adcd0251dcdb957681c1dd }
+Partial Cherry-pick commits SHA are -> 
+4c432bbe82f99e1db3b938f679220d77d0ed8b97 - cherrypick - 511d0828d4e0c13644adcd0251dcdb957681c1dd
+---> The cherrypicked commit sha is - 4c432bbe82f99e1db3b938f679220d77d0ed8b97
+Commit message - Use jQuery if it's loaded once ko.applyBindings is called. Update checks for jQuery to use truthiness instead of "typeof".
+---> The original commit sha is - 511d0828d4e0c13644adcd0251dcdb957681c1dd
+Commit message - Merge pull request #1193 from knockout/1193-jQuery-access
+
+jQuery in sources
+---> The files with partial_cherrypicks are:-
+build/knockout-raw.js
+spec/runner.html
+src/binding/bindingAttributeSyntax.js
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+src/utils.domManipulation.js
+src/utils.domNodeDisposal.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ 2beb27697b9d22273b9a7bfc5727a98e019d663e -> 7b01dcdce386d982705e870f5247cdb17f6f817c } is a cherrypick
+{ a8b686f1f72eba7f530c663fa008f38b89a2a109 -> 34d46fc31ca42d07e96103e49d71a0386b6ef3c8 }
+Partial Cherry-pick commits SHA are -> 
+7b01dcdce386d982705e870f5247cdb17f6f817c - cherrypick - 34d46fc31ca42d07e96103e49d71a0386b6ef3c8
+---> The cherrypicked commit sha is - 7b01dcdce386d982705e870f5247cdb17f6f817c
+Commit message - Tweaks to array change deferred handling
+---> The original commit sha is - 34d46fc31ca42d07e96103e49d71a0386b6ef3c8
+Commit message - Merge pull request #1122 from knockout/1122-fix-tests
+
+Fix tests failing on certain browsers
+---> The files with partial_cherrypicks are:-
+src/subscribables/observableArray.changeTracking.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ bc1b7a3810abc582803defa00be5acb38bc612f3 -> 5c5664a8d63f362b905d30cccc8762da00d4af40 } is a cherrypick
+{ 7b01dcdce386d982705e870f5247cdb17f6f817c -> ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582 }
+Partial Cherry-pick commits SHA are -> 
+5c5664a8d63f362b905d30cccc8762da00d4af40 - cherrypick - ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582
+---> The cherrypicked commit sha is - 5c5664a8d63f362b905d30cccc8762da00d4af40
+Commit message - Use documentElement instead of body in domNodeIsAttachedToDocument.
+---> The original commit sha is - ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582
+Commit message - Merge pull request #1121 from knockout/1121-deferred-update-arrayChange
+
+arrayChange optimizations should not apply when multiple changes result in a notification
+---> The files with partial_cherrypicks are:-
+spec/dependentObservableDomBehaviors.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ 2848bcdc1fa260a93fee835de48af4a3a133f39f -> 857cd38e90b3fde0d2c3c9d9b92083cb4bfe4f73 } is a cherrypick
+{ 7b01dcdce386d982705e870f5247cdb17f6f817c -> ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582 }
+Partial Cherry-pick commits SHA are -> 
+857cd38e90b3fde0d2c3c9d9b92083cb4bfe4f73 - cherrypick - ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582
+---> The cherrypicked commit sha is - 857cd38e90b3fde0d2c3c9d9b92083cb4bfe4f73
+Commit message - Refine disposal rule so that we can dispose immediately if we're not watching for any DOM node removal
+---> The original commit sha is - ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582
+Commit message - Merge pull request #1121 from knockout/1121-deferred-update-arrayChange
+
+arrayChange optimizations should not apply when multiple changes result in a notification
+---> The files with partial_cherrypicks are:-
+spec/dependentObservableDomBehaviors.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ 4156b8c39e311f7e04fb81f0f43dca368cff0f8a -> 2beb27697b9d22273b9a7bfc5727a98e019d663e } is a cherrypick
+{ 7b01dcdce386d982705e870f5247cdb17f6f817c -> ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582 }
+Partial Cherry-pick commits SHA are -> 
+2beb27697b9d22273b9a7bfc5727a98e019d663e - cherrypick - ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582
+---> The cherrypicked commit sha is - 2beb27697b9d22273b9a7bfc5727a98e019d663e
+Commit message - Merge pull request #657 from knockout/657-bind-detached-nodes
+
+Make behaviour when binding to detached DOM elements consistent
+---> The original commit sha is - ab53b78aeefb22a3e3ceb6ffa19834d25e2f2582
+Commit message - Merge pull request #1121 from knockout/1121-deferred-update-arrayChange
+
+arrayChange optimizations should not apply when multiple changes result in a notification
+---> The files with partial_cherrypicks are:-
+spec/bindingDependencyBehaviors.js
+spec/dependentObservableBehaviors.js
+spec/dependentObservableDomBehaviors.js
+src/binding/bindingAttributeSyntax.js
+src/subscribables/dependentObservable.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ 5c5664a8d63f362b905d30cccc8762da00d4af40 -> 345ca51255cda9826206d528a24f2dc161e55b46 } is a cherrypick
+{ 2beb27697b9d22273b9a7bfc5727a98e019d663e -> 7b01dcdce386d982705e870f5247cdb17f6f817c }
+Partial Cherry-pick commits SHA are -> 
+345ca51255cda9826206d528a24f2dc161e55b46 - cherrypick - 7b01dcdce386d982705e870f5247cdb17f6f817c
+---> The cherrypicked commit sha is - 345ca51255cda9826206d528a24f2dc161e55b46
+Commit message - Add Grunt build file. Update package.json to use Grunt.
+---> The original commit sha is - 7b01dcdce386d982705e870f5247cdb17f6f817c
+Commit message - Tweaks to array change deferred handling
+---> The files with partial_cherrypicks are:-
+spec/dependentObservableDomBehaviors.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ 857cd38e90b3fde0d2c3c9d9b92083cb4bfe4f73 -> 4156b8c39e311f7e04fb81f0f43dca368cff0f8a } is a cherrypick
+{ 2beb27697b9d22273b9a7bfc5727a98e019d663e -> 7b01dcdce386d982705e870f5247cdb17f6f817c }
+Partial Cherry-pick commits SHA are -> 
+4156b8c39e311f7e04fb81f0f43dca368cff0f8a - cherrypick - 7b01dcdce386d982705e870f5247cdb17f6f817c
+---> The cherrypicked commit sha is - 4156b8c39e311f7e04fb81f0f43dca368cff0f8a
+Commit message - Use compareArrays instead of the optimized diff when multiple changes result in a notification.
+This is for compatibility with https://github.com/mbest/knockout-deferred-updates
+---> The original commit sha is - 7b01dcdce386d982705e870f5247cdb17f6f817c
+Commit message - Tweaks to array change deferred handling
+---> The files with partial_cherrypicks are:-
+spec/dependentObservableDomBehaviors.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ bc1b7a3810abc582803defa00be5acb38bc612f3 -> 5c5664a8d63f362b905d30cccc8762da00d4af40 } is a cherrypick
+{ 4156b8c39e311f7e04fb81f0f43dca368cff0f8a -> 2beb27697b9d22273b9a7bfc5727a98e019d663e }
+Partial Cherry-pick commits SHA are -> 
+5c5664a8d63f362b905d30cccc8762da00d4af40 - cherrypick - 2beb27697b9d22273b9a7bfc5727a98e019d663e
+---> The cherrypicked commit sha is - 5c5664a8d63f362b905d30cccc8762da00d4af40
+Commit message - Use documentElement instead of body in domNodeIsAttachedToDocument.
+---> The original commit sha is - 2beb27697b9d22273b9a7bfc5727a98e019d663e
+Commit message - Merge pull request #657 from knockout/657-bind-detached-nodes
+
+Make behaviour when binding to detached DOM elements consistent
+---> The files with partial_cherrypicks are:-
+spec/dependentObservableDomBehaviors.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ 2848bcdc1fa260a93fee835de48af4a3a133f39f -> 857cd38e90b3fde0d2c3c9d9b92083cb4bfe4f73 } is a cherrypick
+{ 4156b8c39e311f7e04fb81f0f43dca368cff0f8a -> 2beb27697b9d22273b9a7bfc5727a98e019d663e }
+Partial Cherry-pick commits SHA are -> 
+857cd38e90b3fde0d2c3c9d9b92083cb4bfe4f73 - cherrypick - 2beb27697b9d22273b9a7bfc5727a98e019d663e
+---> The cherrypicked commit sha is - 857cd38e90b3fde0d2c3c9d9b92083cb4bfe4f73
+Commit message - Refine disposal rule so that we can dispose immediately if we're not watching for any DOM node removal
+---> The original commit sha is - 2beb27697b9d22273b9a7bfc5727a98e019d663e
+Commit message - Merge pull request #657 from knockout/657-bind-detached-nodes
+
+Make behaviour when binding to detached DOM elements consistent
+---> The files with partial_cherrypicks are:-
+spec/dependentObservableDomBehaviors.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ e249dedef087e265b16195c967b0a6fad5a6ae37 -> 6d962f903c560a0252a08758c21b34ad630b7ead } is a cherrypick
+{ c62974814c44d9d3586bc180cd0de1cbf8c76c31 -> 2848bcdc1fa260a93fee835de48af4a3a133f39f }
+Partial Cherry-pick commits SHA are -> 
+6d962f903c560a0252a08758c21b34ad630b7ead - cherrypick - 2848bcdc1fa260a93fee835de48af4a3a133f39f
+---> The cherrypicked commit sha is - 6d962f903c560a0252a08758c21b34ad630b7ead
+Commit message - Use $rawData in place of $item for referencing an observable view model. $rawData will work for any observable view model, not just for ones in an array.
+---> The original commit sha is - 2848bcdc1fa260a93fee835de48af4a3a133f39f
+Commit message - Merge pull request #482 from knockout/482-arrays-of-observables
+
+Knockout should better handle arrays of observables
+---> The files with partial_cherrypicks are:-
+spec/defaultBindings/foreachBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ 8f608ad9554a1a430a029a8630a60629b1bfff1a -> 3fc1789a2274bb54d02d1519cb53f2243de4bed9 } is a cherrypick
+{ 3429f9d90e312f147af854e223a4af5de53426ed -> 952f89e898ad5f968afe6a5f9172510b673b8096 }
+Partial Cherry-pick commits SHA are -> 
+3fc1789a2274bb54d02d1519cb53f2243de4bed9 - cherrypick - 952f89e898ad5f968afe6a5f9172510b673b8096
+---> The cherrypicked commit sha is - 3fc1789a2274bb54d02d1519cb53f2243de4bed9
+Commit message - Make css binding accept any class name (matches 2.1.0 behavior).
+---> The original commit sha is - 952f89e898ad5f968afe6a5f9172510b673b8096
+Commit message - Remove another obsolete file
+---> The files with partial_cherrypicks are:-
+build/tools/check-trailing-space.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ 23073cb0a71afe3f76eba402c557f58cf9c7bc87 -> dc4250ba1c89a06667f483bd85015e39dcc4176e } is a cherrypick
+{ 3429f9d90e312f147af854e223a4af5de53426ed -> 952f89e898ad5f968afe6a5f9172510b673b8096 }
+Partial Cherry-pick commits SHA are -> 
+dc4250ba1c89a06667f483bd85015e39dcc4176e - cherrypick - 952f89e898ad5f968afe6a5f9172510b673b8096
+---> The cherrypicked commit sha is - dc4250ba1c89a06667f483bd85015e39dcc4176e
+Commit message - Support jQuery 1.9+ by using 'parseHTML' instead of 'clean' where available
+---> The original commit sha is - 952f89e898ad5f968afe6a5f9172510b673b8096
+Commit message - Remove another obsolete file
+---> The files with partial_cherrypicks are:-
+build/tools/check-trailing-space.sh
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ bf667a7bea75cb08b561da057993532e2b62caec -> 42449c516daddbf62638bd94779ae4cdbd9285b0 } is a cherrypick
+{ 6eb0da8af266176165502af798bcd1691aa1656c -> 0fc629d8af11c6381eb8aa74144035a38c1d8c8b }
+Partial Cherry-pick commits SHA are -> 
+42449c516daddbf62638bd94779ae4cdbd9285b0 - cherrypick - 0fc629d8af11c6381eb8aa74144035a38c1d8c8b
+---> The cherrypicked commit sha is - 42449c516daddbf62638bd94779ae4cdbd9285b0
+Commit message - Set options caption as text instead of html.
+---> The original commit sha is - 0fc629d8af11c6381eb8aa74144035a38c1d8c8b
+Commit message - Merge pull request #653 from knockout/653-optionsCaption-text
+
+optionsCaption using setHtml() instead of setTextContent()
+---> The files with partial_cherrypicks are:-
+src/binding/defaultBindings/options.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ b09c09318614fb9e81eaf9a1ae1807e8ba44342a -> 7d334c1f0d64a356bfcd96341e0d68316c525c26 } is a cherrypick
+{ da39a30b90d39e9a66f351a94a9a508f7372e749 -> bc1b7a3810abc582803defa00be5acb38bc612f3 }
+Partial Cherry-pick commits SHA are -> 
+7d334c1f0d64a356bfcd96341e0d68316c525c26 - cherrypick - bc1b7a3810abc582803defa00be5acb38bc612f3
+---> The cherrypicked commit sha is - 7d334c1f0d64a356bfcd96341e0d68316c525c26
+Commit message - Simplify virtual element regex and use "test" instead of "match"
+---> The original commit sha is - bc1b7a3810abc582803defa00be5acb38bc612f3
+Commit message - Merge branch 'master' of https://github.com/knockout/knockout
+---> The files with partial_cherrypicks are:-
+src/binding/bindingProvider.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ 7d334c1f0d64a356bfcd96341e0d68316c525c26 -> 688a5678f960a63984c8c02830d6918259a8e995 } is a cherrypick
+{ 357da61ab4c812b139167a05ff6cd42b66b33a7b -> da39a30b90d39e9a66f351a94a9a508f7372e749 }
+Partial Cherry-pick commits SHA are -> 
+688a5678f960a63984c8c02830d6918259a8e995 - cherrypick - da39a30b90d39e9a66f351a94a9a508f7372e749
+---> The cherrypicked commit sha is - 688a5678f960a63984c8c02830d6918259a8e995
+Commit message - Reduce the stack overhead of observable notifications by eliminating four function call levels. Also reduce stack overhead by not using "call" in computed unless needed.
+---> The original commit sha is - da39a30b90d39e9a66f351a94a9a508f7372e749
+Commit message - Merge branch longer-subscriber-chains into master
+
+Conflicts:
+	spec/dependentObservableBehaviors.js
+---> The files with partial_cherrypicks are:-
+src/binding/bindingProvider.js
+src/subscribables/dependencyDetection.js
+src/subscribables/dependentObservable.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ b09c09318614fb9e81eaf9a1ae1807e8ba44342a -> 7d334c1f0d64a356bfcd96341e0d68316c525c26 } is a cherrypick
+{ 8dab4bf47d608df9dc75359f66848fc41e3d469d -> 357da61ab4c812b139167a05ff6cd42b66b33a7b }
+Partial Cherry-pick commits SHA are -> 
+7d334c1f0d64a356bfcd96341e0d68316c525c26 - cherrypick - 357da61ab4c812b139167a05ff6cd42b66b33a7b
+---> The cherrypicked commit sha is - 7d334c1f0d64a356bfcd96341e0d68316c525c26
+Commit message - Simplify virtual element regex and use "test" instead of "match"
+---> The original commit sha is - 357da61ab4c812b139167a05ff6cd42b66b33a7b
+Commit message - Merge pull request #1037 from knockout/virtual-element-with-valueless-binding
+
+make virtualElements support binding without a colon
+---> The files with partial_cherrypicks are:-
+src/binding/bindingProvider.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ 688a5678f960a63984c8c02830d6918259a8e995 -> 5c8858046f836b81ba14a285bac394002442e489 } is a cherrypick
+{ f80f37800045edd2bbdb2b3510d9dda9822dfe11 -> 8dab4bf47d608df9dc75359f66848fc41e3d469d }
+Partial Cherry-pick commits SHA are -> 
+5c8858046f836b81ba14a285bac394002442e489 - cherrypick - 8dab4bf47d608df9dc75359f66848fc41e3d469d
+---> The cherrypicked commit sha is - 5c8858046f836b81ba14a285bac394002442e489
+Commit message - Replace the static "key" strings used for ko.utils.domData with dynamically generated strings. This saves 385 bytes (83 gzipped).
+---> The original commit sha is - 8dab4bf47d608df9dc75359f66848fc41e3d469d
+Commit message - Merge pull request #1089 from knockout/domData-name-optimization
+
+Reduce code size by 350+ bytes
+---> The files with partial_cherrypicks are:-
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings/ifIfnotWith.js
+src/binding/defaultBindings/options.js
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/templating/templateSources.js
+src/templating/templating.js
+src/utils.domData.js
+src/utils.domNodeDisposal.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ 5cf5e95e44c9bb7c47ed8a84a0977f05d4be4016 -> ac1dd0f27113b40d6346116606acb19ac2f7c63c } is a cherrypick
+{ 588dc391a1a3bdeb2736c5ed9ed802af75c9b98b -> 44fd8a0b7e3787d02c3bd2f34b008af1678ec7c9 }
+Partial Cherry-pick commits SHA are -> 
+ac1dd0f27113b40d6346116606acb19ac2f7c63c - cherrypick - 44fd8a0b7e3787d02c3bd2f34b008af1678ec7c9
+---> The cherrypicked commit sha is - ac1dd0f27113b40d6346116606acb19ac2f7c63c
+Commit message - Provide more informative info for binding errors
+Use "toThrow" syntax to check for errors.
+---> The original commit sha is - 44fd8a0b7e3787d02c3bd2f34b008af1678ec7c9
+Commit message - Merge pull request #1058 from knockout/1058-binding-errors
+
+Binding errors in 3.0 are less informative
+---> The files with partial_cherrypicks are:-
+spec/bindingDependencyBehaviors.js
+spec/dependentObservableBehaviors.js
+spec/mappingHelperBehaviors.js
+spec/observableArrayBehaviors.js
+src/binding/bindingAttributeSyntax.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ 8cf3125fd4ee7bee3581d80173bf2440db7e99ac -> 5cf5e95e44c9bb7c47ed8a84a0977f05d4be4016 } is a cherrypick
+{ 7d039e8c3c86240b137eb36e8201bf23c6b149ae -> 588dc391a1a3bdeb2736c5ed9ed802af75c9b98b }
+Partial Cherry-pick commits SHA are -> 
+5cf5e95e44c9bb7c47ed8a84a0977f05d4be4016 - cherrypick - 588dc391a1a3bdeb2736c5ed9ed802af75c9b98b
+---> The cherrypicked commit sha is - 5cf5e95e44c9bb7c47ed8a84a0977f05d4be4016
+Commit message - Use Jasmine's 'after' and custom 'restoreAfter' methods to clean up after tests that modify Knockout internals.
+---> The original commit sha is - 588dc391a1a3bdeb2736c5ed9ed802af75c9b98b
+Commit message - Merge pull request #1082 from knockout/1082-cleanup-after-tests
+
+Ensure tests don't break subsequent tests
+---> The files with partial_cherrypicks are:-
+spec/bindingAttributeBehaviors.js
+spec/bindingPreprocessingBehaviors.js
+spec/defaultBindings/textBehaviors.js
+spec/lib/jasmine.extensions.js
+spec/nodePreprocessingBehaviors.js
+spec/templatingBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ f3b0932fb5c8aa8bd82eb3211e5e62cfcfb7f087 -> 43ea41d5806d8c397cdf9f719c4ac0a0e2d27752 } is a cherrypick
+{ 05241a0d23e6ec8cfca7935c6cfd629d92882a64 -> 7941d32daeca36711277a989e222a0d24606b160 }
+Partial Cherry-pick commits SHA are -> 
+43ea41d5806d8c397cdf9f719c4ac0a0e2d27752 - cherrypick - 7941d32daeca36711277a989e222a0d24606b160
+---> The cherrypicked commit sha is - 43ea41d5806d8c397cdf9f719c4ac0a0e2d27752
+Commit message - Increase timeouts in tests so that they pass in Firefox.
+---> The original commit sha is - 7941d32daeca36711277a989e222a0d24606b160
+Commit message - If the optionsCaption value is null or undefined, don't show the caption.
+---> The files with partial_cherrypicks are:-
+spec/asyncBehaviors.js
+spec/bindingAttributeBehaviors.js
+spec/bindingDependencyBehaviors.js
+spec/bindingPreprocessingBehaviors.js
+spec/defaultBindings/checkedBehaviors.js
+spec/expressionRewritingBehaviors.js
+spec/mappingHelperBehaviors.js
+spec/runner.html
+src/binding/bindingAttributeSyntax.js
+src/binding/bindingProvider.js
+src/binding/defaultBindings/attr.js
+src/binding/defaultBindings/checked.js
+src/binding/defaultBindings/event.js
+src/binding/defaultBindings/foreach.js
+src/binding/defaultBindings/hasfocus.js
+src/binding/defaultBindings/ifIfnotWith.js
+src/binding/defaultBindings/selectedOptions.js
+src/binding/defaultBindings/submit.js
+src/binding/expressionRewriting.js
+src/subscribables/mappingHelpers.js
+src/templating/templating.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ c03c5eed46e32fe4e33929e4746c3acb6a459951 -> 26ed3ffe6280cb3bbd5602a2f8e422b0ce007213 } is a cherrypick
+{ d70dea9fe44ef4a98bc8cf15e8a2e7f71f102e17 -> 9eacf842543b8e035ac907f0f437f730a1d11a8e }
+Partial Cherry-pick commits SHA are -> 
+26ed3ffe6280cb3bbd5602a2f8e422b0ce007213 - cherrypick - 9eacf842543b8e035ac907f0f437f730a1d11a8e
+---> The cherrypicked commit sha is - 26ed3ffe6280cb3bbd5602a2f8e422b0ce007213
+Commit message - Simplify binding sort function to use cyclicDependencyStack for cycle detection instead of a temporary mark in bindingsConsidered. Rename variable in inner loop so it's different from outer loop (to avoid confusion).
+---> The original commit sha is - 9eacf842543b8e035ac907f0f437f730a1d11a8e
+Commit message - Non-behavior-altering refactoring to help clarify how this works
+---> The files with partial_cherrypicks are:-
+build/fragments/amd-post.js
+build/fragments/amd-pre.js
+spec/bindingAttributeBehaviors.js
+spec/bindingDependencyBehaviors.js
+spec/bindingPreprocessingBehaviors.js
+spec/defaultBindings/optionsBehaviors.js
+spec/defaultBindings/valueBehaviors.js
+spec/dependentObservableBehaviors.js
+spec/expressionRewritingBehaviors.js
+spec/mappingHelperBehaviors.js
+spec/runner.html
+spec/templatingBehaviors.js
+src/binding/bindingAttributeSyntax.js
+src/binding/bindingProvider.js
+src/binding/defaultBindings/attr.js
+src/binding/defaultBindings/event.js
+src/binding/defaultBindings/foreach.js
+src/binding/defaultBindings/hasfocus.js
+src/binding/defaultBindings/ifIfnotWith.js
+src/binding/defaultBindings/selectedOptions.js
+src/binding/defaultBindings/submit.js
+src/binding/defaultBindings/value.js
+src/binding/expressionRewriting.js
+src/subscribables/dependentObservable.js
+src/subscribables/mappingHelpers.js
+src/templating/templateRewriting.js
+src/templating/templating.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ 8795d847b608bd413e670569672636678d88d0c5 -> bf0c91e727537a4c0f14d7b8aa09dd93d514da47 } is a cherrypick
+{ 81b6e04e87ed98b810544e9660a0d575e8ab86a4 -> d70dea9fe44ef4a98bc8cf15e8a2e7f71f102e17 }
+Partial Cherry-pick commits SHA are -> 
+bf0c91e727537a4c0f14d7b8aa09dd93d514da47 - cherrypick - d70dea9fe44ef4a98bc8cf15e8a2e7f71f102e17
+---> The cherrypicked commit sha is - bf0c91e727537a4c0f14d7b8aa09dd93d514da47
+Commit message - Tweak package.json version as per mbest's suggestion
+---> The original commit sha is - d70dea9fe44ef4a98bc8cf15e8a2e7f71f102e17
+Commit message - Merge pull request #973 from knockout/954-remove-2.3.0-checkedValue
+
+Revert "Add checkedValue binding"
+---> The files with partial_cherrypicks are:-
+spec/defaultBindings/checkedBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ 50f0be8fc7e42a412722c6d0b13d38dc719b2618 -> 1cd5924535a4e8f19f97cb6510aa3fc618df4e83 } is a cherrypick
+{ 50829280154d37c2a58aef682dc91af6b88bc07d -> fac900a973bcac3fa58d2d24299d9c31987e5a39 }
+Partial Cherry-pick commits SHA are -> 
+1cd5924535a4e8f19f97cb6510aa3fc618df4e83 - cherrypick - fac900a973bcac3fa58d2d24299d9c31987e5a39
+---> The cherrypicked commit sha is - 1cd5924535a4e8f19f97cb6510aa3fc618df4e83
+Commit message - Merge pull request #970 from SteveSanderson/970-clear-flag-on-computed-exception
+
+exception in ko.computed read function kills the computed
+---> The original commit sha is - fac900a973bcac3fa58d2d24299d9c31987e5a39
+Commit message - Revert "Add checkedValue binding that works with the checked binding to allow for arbitrary values for checkboxes and radio buttons."
+
+This reverts commit 4db92498ff293d57b2626254b9c33d580f098bea.
+---> The files with partial_cherrypicks are:-
+build/fragments/amd-post.js
+build/fragments/amd-pre.js
+spec/bindingAttributeBehaviors.js
+spec/bindingDependencyBehaviors.js
+spec/bindingPreprocessingBehaviors.js
+spec/defaultBindings/optionsBehaviors.js
+spec/defaultBindings/valueBehaviors.js
+spec/dependentObservableBehaviors.js
+spec/expressionRewritingBehaviors.js
+spec/mappingHelperBehaviors.js
+spec/runner.html
+src/binding/bindingProvider.js
+src/binding/defaultBindings/attr.js
+src/binding/defaultBindings/event.js
+src/binding/defaultBindings/foreach.js
+src/binding/defaultBindings/hasfocus.js
+src/binding/defaultBindings/ifIfnotWith.js
+src/binding/defaultBindings/options.js
+src/binding/defaultBindings/selectedOptions.js
+src/binding/defaultBindings/submit.js
+src/binding/defaultBindings/value.js
+src/binding/expressionRewriting.js
+src/subscribables/dependentObservable.js
+src/subscribables/mappingHelpers.js
+src/templating/templating.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ 3734b93b996d7a81f7c53337e05f5a3d152e6322 -> 86a62bd0bf1553f9dc06956d116eabe024b645a0 } is a cherrypick
+{ 1cd5924535a4e8f19f97cb6510aa3fc618df4e83 -> c03c5eed46e32fe4e33929e4746c3acb6a459951 }
+Partial Cherry-pick commits SHA are -> 
+86a62bd0bf1553f9dc06956d116eabe024b645a0 - cherrypick - c03c5eed46e32fe4e33929e4746c3acb6a459951
+---> The cherrypicked commit sha is - 86a62bd0bf1553f9dc06956d116eabe024b645a0
+Commit message - See #375. Allow spaces around "=" in data-bind attribute
+---> The original commit sha is - c03c5eed46e32fe4e33929e4746c3acb6a459951
+Commit message - Merge pull request #375 from SteveSanderson/375-data-bind-attribute-spaces
+
+(jQuery template foreach) + (spaces around = in data-bind attribute) = exception
+---> The files with partial_cherrypicks are:-
+spec/templatingBehaviors.js
+src/templating/templateRewriting.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ b2ee31a295a126b7dee24718acfac9228d0cd6f8 -> 3ff265ca823037c704ad305def7906c0e5b49113 } is a cherrypick
+{ d386f1460e2d420ff5999a1ac2b456b37aca6aa6 -> 15da1515b114ffe7b04ef026ab2d6e88a397be6d }
+Partial Cherry-pick commits SHA are -> 
+3ff265ca823037c704ad305def7906c0e5b49113 - cherrypick - 15da1515b114ffe7b04ef026ab2d6e88a397be6d
+---> The cherrypicked commit sha is - 3ff265ca823037c704ad305def7906c0e5b49113
+Commit message - Fix Google closure compiler warnings, #486.
+---> The original commit sha is - 15da1515b114ffe7b04ef026ab2d6e88a397be6d
+Commit message - Merge pull request #486 from SteveSanderson/486-fix-compiler-warnings
+
+fix google compiler warnings
+---> The files with partial_cherrypicks are:-
+build/fragments/amd-post.js
+build/fragments/amd-pre.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 49 is -> 
+{ 56c04365a0827b3fe1921d6f998508a2793cb70f -> b2ee31a295a126b7dee24718acfac9228d0cd6f8 } is a cherrypick
+{ 6e5158f66862abe6aceefd33aa139c5fb42018c8 -> d386f1460e2d420ff5999a1ac2b456b37aca6aa6 }
+Partial Cherry-pick commits SHA are -> 
+b2ee31a295a126b7dee24718acfac9228d0cd6f8 - cherrypick - d386f1460e2d420ff5999a1ac2b456b37aca6aa6
+---> The cherrypicked commit sha is - b2ee31a295a126b7dee24718acfac9228d0cd6f8
+Commit message - add optionsAfterRender binding parameter for the options binding. This works similarly to the afterRender option for foreach, except that the first parameter is the option DOM element, instead of an array of elements. The second parameter is the corresponding array item, or `undefined` for the caption option.
+---> The original commit sha is - d386f1460e2d420ff5999a1ac2b456b37aca6aa6
+Commit message - Merge pull request #929 from SteveSanderson/382-optionsAfterRender
+
+add optionsAfterRender binding parameter for the options binding
+---> The files with partial_cherrypicks are:-
+spec/defaultBindings/optionsBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 50 is -> 
+{ 3ff265ca823037c704ad305def7906c0e5b49113 -> c182b07da5cc00f0aec8c20f0babadcdf68d42e8 } is a cherrypick
+{ 6e5158f66862abe6aceefd33aa139c5fb42018c8 -> d386f1460e2d420ff5999a1ac2b456b37aca6aa6 }
+Partial Cherry-pick commits SHA are -> 
+c182b07da5cc00f0aec8c20f0babadcdf68d42e8 - cherrypick - d386f1460e2d420ff5999a1ac2b456b37aca6aa6
+---> The cherrypicked commit sha is - c182b07da5cc00f0aec8c20f0babadcdf68d42e8
+Commit message - Allow optionsAfterRender callback to apply bindings to option.
+---> The original commit sha is - d386f1460e2d420ff5999a1ac2b456b37aca6aa6
+Commit message - Merge pull request #929 from SteveSanderson/382-optionsAfterRender
+
+add optionsAfterRender binding parameter for the options binding
+---> The files with partial_cherrypicks are:-
+spec/defaultBindings/optionsBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 51 is -> 
+{ 992478ae0b5bcefca423f1c01c39c0f21b01b432 -> 770e57443ff674db6d192f7655213b888d829317 } is a cherrypick
+{ 17731c6e4d26eb1124bee5e4a9a57cb6480f2a74 -> f50012d0c93cd7c0711bd39fe67ebaae39439e84 }
+Partial Cherry-pick commits SHA are -> 
+770e57443ff674db6d192f7655213b888d829317 - cherrypick - f50012d0c93cd7c0711bd39fe67ebaae39439e84
+---> The cherrypicked commit sha is - 770e57443ff674db6d192f7655213b888d829317
+Commit message - Update ko.expressionRewriting.preProcessBindings:
+Add support for function-wrapped binding values (based on option).
+Add support for dynamically created binding handlers (like my key.subkey plugin) using ko.getBindingsHandlers.
+Add support for preprocessing bindings using <handler>.preprocess.
+Add specs for binding preprocessing.
+---> The original commit sha is - f50012d0c93cd7c0711bd39fe67ebaae39439e84
+Commit message - Merge pull request #909 from SteveSanderson/indi-binding-support-preProcessBindings
+
+Independent binding support: preProcessBindings updates
+---> The files with partial_cherrypicks are:-
+spec/bindingPreprocessingBehaviors.js
+spec/runner.html
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings/checked.js
+src/binding/defaultBindings/hasfocus.js
+src/binding/defaultBindings/selectedOptions.js
+src/binding/defaultBindings/value.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 52 is -> 
+{ 6f4fa61e49f5a3850522a600d41886ccb55505f3 -> 4005466c2a83b2cc96adb227c989cfb825437b2d } is a cherrypick
+{ 17731c6e4d26eb1124bee5e4a9a57cb6480f2a74 -> f50012d0c93cd7c0711bd39fe67ebaae39439e84 }
+Partial Cherry-pick commits SHA are -> 
+4005466c2a83b2cc96adb227c989cfb825437b2d - cherrypick - f50012d0c93cd7c0711bd39fe67ebaae39439e84
+---> The cherrypicked commit sha is - 4005466c2a83b2cc96adb227c989cfb825437b2d
+Commit message - Updated parseObjectLiteral to parse a slash as either division or regex.
+Remove unneeded parentheses in the regex.
+---> The original commit sha is - f50012d0c93cd7c0711bd39fe67ebaae39439e84
+Commit message - Merge pull request #909 from SteveSanderson/indi-binding-support-preProcessBindings
+
+Independent binding support: preProcessBindings updates
+---> The files with partial_cherrypicks are:-
+spec/bindingPreprocessingBehaviors.js
+spec/runner.html
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings/checked.js
+src/binding/defaultBindings/hasfocus.js
+src/binding/defaultBindings/selectedOptions.js
+src/binding/defaultBindings/value.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 53 is -> 
+{ a7b9dcf49bfb4a40c303997e8713ea857afb6475 -> 6ccad62fa05ad27d0f869acac6e932b53e23cdea } is a cherrypick
+{ 46f7e5a0cbf9362ffd6d01b864b5c88306252dca -> 17731c6e4d26eb1124bee5e4a9a57cb6480f2a74 }
+Partial Cherry-pick commits SHA are -> 
+6ccad62fa05ad27d0f869acac6e932b53e23cdea - cherrypick - 17731c6e4d26eb1124bee5e4a9a57cb6480f2a74
+---> The cherrypicked commit sha is - 6ccad62fa05ad27d0f869acac6e932b53e23cdea
+Commit message - Partially merge '833-paglias-toJS-fixes'
+---> The original commit sha is - 17731c6e4d26eb1124bee5e4a9a57cb6480f2a74
+Commit message - Merge branch 'version-3.0.0-development' of github.com:SteveSanderson/knockout into version-3.0.0-development
+---> The files with partial_cherrypicks are:-
+spec/bindingPreprocessingBehaviors.js
+spec/runner.html
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings/checked.js
+src/binding/defaultBindings/hasfocus.js
+src/binding/defaultBindings/selectedOptions.js
+src/binding/defaultBindings/value.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 54 is -> 
+{ 7f0d4b6e32b88fc80e6004cbab4ebab90c53c016 -> 72ea11d1c9c9f02496d78c5c3e02f120efdf4f02 } is a cherrypick
+{ 30a68e40168e8d60a05dcfb795bccb4f5e7f3ad5 -> e530b98dfbb630cb453285ef7d4ccd1fa5f3358c }
+Partial Cherry-pick commits SHA are -> 
+72ea11d1c9c9f02496d78c5c3e02f120efdf4f02 - cherrypick - e530b98dfbb630cb453285ef7d4ccd1fa5f3358c
+---> The cherrypicked commit sha is - 72ea11d1c9c9f02496d78c5c3e02f120efdf4f02
+Commit message - Fix specs that were failing in IE6-8 when innerText was blank.
+---> The original commit sha is - e530b98dfbb630cb453285ef7d4ccd1fa5f3358c
+Commit message - Merge pull request #899 from SteveSanderson/fix-818-specs
+
+Fix specs that were failing in IE6-8 when innerText was blank
+---> The files with partial_cherrypicks are:-
+spec/defaultBindings/optionsBehaviors.js
+spec/lib/jasmine.extensions.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 55 is -> 
+{ eeda8c0adfe2fc5c63136a0df4debc3e13bdd817 -> a70397464031a08526dd507836a7aacd07344f2f } is a cherrypick
+{ 7c7fee6c0027821a0cca24e3f0d1b5374306620a -> f8a740ac934d721f13d67062427b3ba691db3513 }
+Partial Cherry-pick commits SHA are -> 
+a70397464031a08526dd507836a7aacd07344f2f - cherrypick - f8a740ac934d721f13d67062427b3ba691db3513
+---> The cherrypicked commit sha is - a70397464031a08526dd507836a7aacd07344f2f
+Commit message - Merge pull request #814 from SteveSanderson/814-prevent-invalid-binding
+
+Prevent invalid binding in re-written templates
+---> The original commit sha is - f8a740ac934d721f13d67062427b3ba691db3513
+Commit message - Merge pull request #893 from SteveSanderson/paglias-703-ie9-frame-hasfocus
+
+Paglias 703 ie9 frame hasfocus
+---> The files with partial_cherrypicks are:-
+src/templating/templateRewriting.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 56 is -> 
+{ 1a0843314ea18f4ffe829e595aabc96f3f41fdf4 -> 5a3e9beaaac823d8a2b44f39034cd7aa4d3d4778 } is a cherrypick
+{ f039fbb5edc61c5da765a20caa5543d20dd370b8 -> bb46e0383223d3607085c47a1bf0da755b2c23a5 }
+Partial Cherry-pick commits SHA are -> 
+5a3e9beaaac823d8a2b44f39034cd7aa4d3d4778 - cherrypick - bb46e0383223d3607085c47a1bf0da755b2c23a5
+---> The cherrypicked commit sha is - 5a3e9beaaac823d8a2b44f39034cd7aa4d3d4778
+Commit message - Treat undefined, null, and "" as the same when updating the value of a 'select' element.
+---> The original commit sha is - bb46e0383223d3607085c47a1bf0da755b2c23a5
+Commit message - Merge branch '493-select-value-supports-null'
+---> The files with partial_cherrypicks are:-
+src/binding/selectExtensions.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 57 is -> 
+{ 6033d93807088e6c9d68f2c9b1ebf2c772fb3c74 -> 43ab750d0001d28cd61d913566f1aecf14631865 } is a cherrypick
+{ 788f66df0a7481cb5c076e74e1d6a2ae023dae17 -> f1c8a2d0f85a5c8fd50b534e2934402b29e9e853 }
+Partial Cherry-pick commits SHA are -> 
+43ab750d0001d28cd61d913566f1aecf14631865 - cherrypick - f1c8a2d0f85a5c8fd50b534e2934402b29e9e853
+---> The cherrypicked commit sha is - 43ab750d0001d28cd61d913566f1aecf14631865
+Commit message - better handling of some cases
+---> The original commit sha is - f1c8a2d0f85a5c8fd50b534e2934402b29e9e853
+Commit message - Merge pull request #827 from paglias/733-observableArray-non-array-value
+
+fixes #733
+---> The files with partial_cherrypicks are:-
+src/subscribables/observableArray.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 58 is -> 
+{ 46840340068ef470c4d4b5c194c32ba5feaf24c7 -> 4db92498ff293d57b2626254b9c33d580f098bea } is a cherrypick
+{ b97962dd78695283abfca4ab45cb6e58c493fb75 -> 628816fab343c8c88935ac6e763f8bd3d7612e3a }
+Partial Cherry-pick commits SHA are -> 
+4db92498ff293d57b2626254b9c33d580f098bea - cherrypick - 628816fab343c8c88935ac6e763f8bd3d7612e3a
+---> The cherrypicked commit sha is - 4db92498ff293d57b2626254b9c33d580f098bea
+Commit message - Add checkedValue binding that works with the checked binding to allow for arbitrary values for checkboxes and radio buttons.
+---> The original commit sha is - 628816fab343c8c88935ac6e763f8bd3d7612e3a
+Commit message - Merge branch '875-add-checkedValue'
+---> The files with partial_cherrypicks are:-
+src/binding/defaultBindings/checked.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 59 is -> 
+{ f06c653b9cf929b2552002c5831ed586bd2c4d2a -> ec53ae3d42aebdf70474b29a5064d1d4762c7436 } is a cherrypick
+{ b97962dd78695283abfca4ab45cb6e58c493fb75 -> 628816fab343c8c88935ac6e763f8bd3d7612e3a }
+Partial Cherry-pick commits SHA are -> 
+ec53ae3d42aebdf70474b29a5064d1d4762c7436 - cherrypick - 628816fab343c8c88935ac6e763f8bd3d7612e3a
+---> The cherrypicked commit sha is - ec53ae3d42aebdf70474b29a5064d1d4762c7436
+Commit message - Add spec about behavior of radio buttons with an observable checkedValue, even though I think that the behavior should be different.
+---> The original commit sha is - 628816fab343c8c88935ac6e763f8bd3d7612e3a
+Commit message - Merge branch '875-add-checkedValue'
+---> The files with partial_cherrypicks are:-
+src/binding/defaultBindings/checked.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 60 is -> 
+{ 6033d93807088e6c9d68f2c9b1ebf2c772fb3c74 -> 43ab750d0001d28cd61d913566f1aecf14631865 } is a cherrypick
+{ 3823fc0358c5b2b0cc691565a8c12c4ec680f6b8 -> 27aa4bbd68dd21fdc057b00cb0ee4211b113d66e }
+Partial Cherry-pick commits SHA are -> 
+43ab750d0001d28cd61d913566f1aecf14631865 - cherrypick - 27aa4bbd68dd21fdc057b00cb0ee4211b113d66e
+---> The cherrypicked commit sha is - 43ab750d0001d28cd61d913566f1aecf14631865
+Commit message - better handling of some cases
+---> The original commit sha is - 27aa4bbd68dd21fdc057b00cb0ee4211b113d66e
+Commit message - Stop using npm's "scripts" feature because it doesn't seem to work on Windows (tries to run the scripts in a regular cmd session instead of Git Bash)
+---> The files with partial_cherrypicks are:-
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 61 is -> 
+{ 3f37062a55885bf49991a97d18fe7893020d9341 -> 543646e64c281fe8dfce8cb7d0ac6c22e4945b5b } is a cherrypick
+{ 3823fc0358c5b2b0cc691565a8c12c4ec680f6b8 -> 27aa4bbd68dd21fdc057b00cb0ee4211b113d66e }
+Partial Cherry-pick commits SHA are -> 
+543646e64c281fe8dfce8cb7d0ac6c22e4945b5b - cherrypick - 27aa4bbd68dd21fdc057b00cb0ee4211b113d66e
+---> The cherrypicked commit sha is - 543646e64c281fe8dfce8cb7d0ac6c22e4945b5b
+Commit message - Merge pull request #863 from zerko/master
+
+Missing ko. in addOrRemoveItem
+---> The original commit sha is - 27aa4bbd68dd21fdc057b00cb0ee4211b113d66e
+Commit message - Stop using npm's "scripts" feature because it doesn't seem to work on Windows (tries to run the scripts in a regular cmd session instead of Git Bash)
+---> The files with partial_cherrypicks are:-
+.travis.yml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 62 is -> 
+{ 6033d93807088e6c9d68f2c9b1ebf2c772fb3c74 -> 43ab750d0001d28cd61d913566f1aecf14631865 } is a cherrypick
+{ 3f37062a55885bf49991a97d18fe7893020d9341 -> 543646e64c281fe8dfce8cb7d0ac6c22e4945b5b }
+Partial Cherry-pick commits SHA are -> 
+43ab750d0001d28cd61d913566f1aecf14631865 - cherrypick - 543646e64c281fe8dfce8cb7d0ac6c22e4945b5b
+---> The cherrypicked commit sha is - 43ab750d0001d28cd61d913566f1aecf14631865
+Commit message - better handling of some cases
+---> The original commit sha is - 543646e64c281fe8dfce8cb7d0ac6c22e4945b5b
+Commit message - Merge pull request #863 from zerko/master
+
+Missing ko. in addOrRemoveItem
+---> The files with partial_cherrypicks are:-
+.gitignore
+.npmignore
+.travis.yml
+README.md
+build/fragments/version.txt
+build/output/.npmignore
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 63 is -> 
+{ 68a708f9bc945dd4ac6cad526d75fa19c40e62a0 -> 781f2b5a6fe9917f981c222a04a3cf5d2994a9c7 } is a cherrypick
+{ 0894bd35134d14e9fa386505a9c3d8de4a5de291 -> b9598eeb7906b06b722c154392906ebf6cbfea05 }
+Partial Cherry-pick commits SHA are -> 
+781f2b5a6fe9917f981c222a04a3cf5d2994a9c7 - cherrypick - b9598eeb7906b06b722c154392906ebf6cbfea05
+---> The cherrypicked commit sha is - 781f2b5a6fe9917f981c222a04a3cf5d2994a9c7
+Commit message - Swap order of key/value params in objectForEach for consistency with $.each
+---> The original commit sha is - b9598eeb7906b06b722c154392906ebf6cbfea05
+Commit message - Merge branch '687-add-objectForEach' of github.com:SteveSanderson/knockout into 687-add-objectForEach
+---> The files with partial_cherrypicks are:-
+src/binding/bindingAttributeSyntax.js
+src/binding/defaultBindings/attr.js
+src/binding/defaultBindings/css.js
+src/binding/defaultBindings/event.js
+src/binding/defaultBindings/style.js
+src/subscribables/extenders.js
+src/subscribables/mappingHelpers.js
+src/subscribables/subscribable.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 64 is -> 
+{ 026cf044c7811caed62a170e835775d1ecde6efa -> a82659273fd91ee5f42f8272ff37fa274c16ca4a } is a cherrypick
+{ 3b630f8abf3d4f2f40d7e4ce87a695fffd328bf9 -> 68a708f9bc945dd4ac6cad526d75fa19c40e62a0 }
+Partial Cherry-pick commits SHA are -> 
+a82659273fd91ee5f42f8272ff37fa274c16ca4a - cherrypick - 68a708f9bc945dd4ac6cad526d75fa19c40e62a0
+---> The cherrypicked commit sha is - a82659273fd91ee5f42f8272ff37fa274c16ca4a
+Commit message - Fix "selectedOptions" binding bug
+
+Fixes an error where the binding does not update non-observable property
+values.
+---> The original commit sha is - 68a708f9bc945dd4ac6cad526d75fa19c40e62a0
+Commit message - Merge pull request #743 from angelyordanov/master
+
+SelectedOptions binding not updating non-observable properties
+---> The files with partial_cherrypicks are:-
+spec/defaultBindings/selectedOptionsBehaviors.js
+src/binding/defaultBindings/selectedOptions.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 65 is -> 
+{ 51758a6873339d3e3ceb38235e32f494a73c8fde -> 37d78f8654abf4a6e4fbb21cf0f41d9b6f61fde4 } is a cherrypick
+{ 6506cb594cbbbf766d5dea4d7a19325a5a40c6ea -> 08514f03cfa2b2e7b04c7fdb4eed48edc3d68989 }
+Partial Cherry-pick commits SHA are -> 
+37d78f8654abf4a6e4fbb21cf0f41d9b6f61fde4 - cherrypick - 08514f03cfa2b2e7b04c7fdb4eed48edc3d68989
+---> The cherrypicked commit sha is - 37d78f8654abf4a6e4fbb21cf0f41d9b6f61fde4
+Commit message - Add spec that fails if jQuery 1.8+ is referenced
+---> The original commit sha is - 08514f03cfa2b2e7b04c7fdb4eed48edc3d68989
+Commit message - Merge pull request #801 from SteveSanderson/801-empty-template-and-jquery-parseHTML
+
+Empty template throws error in 2.2.1
+---> The files with partial_cherrypicks are:-
+spec/templatingBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 66 is -> 
+{ 17508a1772892c319506f908d1d98d3e22119904 -> c9a759253b8b1b55441252398b966522a96d6edf } is a cherrypick
+{ 94bf1fa0cd29b83462805a278a3e1f459bf4d1c6 -> 6506cb594cbbbf766d5dea4d7a19325a5a40c6ea }
+Partial Cherry-pick commits SHA are -> 
+c9a759253b8b1b55441252398b966522a96d6edf - cherrypick - 6506cb594cbbbf766d5dea4d7a19325a5a40c6ea
+---> The cherrypicked commit sha is - c9a759253b8b1b55441252398b966522a96d6edf
+Commit message - prevent overwriting computed observable properties from two-way bindings
+---> The original commit sha is - 6506cb594cbbbf766d5dea4d7a19325a5a40c6ea
+Commit message - Merge pull request #639 from SteveSanderson/639-prevent-computed-overwrite
+
+Knockout overwrites computed observable
+---> The files with partial_cherrypicks are:-
+src/binding/expressionRewriting.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 67 is -> 
+{ 23073cb0a71afe3f76eba402c557f58cf9c7bc87 -> dc4250ba1c89a06667f483bd85015e39dcc4176e } is a cherrypick
+{ 51758a6873339d3e3ceb38235e32f494a73c8fde -> 37d78f8654abf4a6e4fbb21cf0f41d9b6f61fde4 }
+Partial Cherry-pick commits SHA are -> 
+dc4250ba1c89a06667f483bd85015e39dcc4176e - cherrypick - 37d78f8654abf4a6e4fbb21cf0f41d9b6f61fde4
+---> The cherrypicked commit sha is - dc4250ba1c89a06667f483bd85015e39dcc4176e
+Commit message - Support jQuery 1.9+ by using 'parseHTML' instead of 'clean' where available
+---> The original commit sha is - 37d78f8654abf4a6e4fbb21cf0f41d9b6f61fde4
+Commit message - Add spec that fails if jQuery 1.8+ is referenced
+---> The files with partial_cherrypicks are:-
+build/fragments/extern-post.js
+build/fragments/extern-pre.js
+spec/arrayEditDetectionBehaviors.js
+spec/arrayToDomEditDetectionBehaviors.js
+spec/dependentObservableBehaviors.js
+spec/dependentObservableDomBehaviors.js
+spec/editDetectionBehaviors.js
+spec/lib/jasmine.extensions.js
+spec/runner.html
+spec/runner.phantom.js
+src/subscribables/dependentObservable.js
+src/utils.domManipulation.js
+src/utils.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 68 is -> 
+{ 23073cb0a71afe3f76eba402c557f58cf9c7bc87 -> dc4250ba1c89a06667f483bd85015e39dcc4176e } is a cherrypick
+{ a4874bb5803bf7d49bd46afeb50fff702cbda180 -> d7562597c94093cc97399bb3ebca44b9acd85341 }
+Partial Cherry-pick commits SHA are -> 
+dc4250ba1c89a06667f483bd85015e39dcc4176e - cherrypick - d7562597c94093cc97399bb3ebca44b9acd85341
+---> The cherrypicked commit sha is - dc4250ba1c89a06667f483bd85015e39dcc4176e
+Commit message - Support jQuery 1.9+ by using 'parseHTML' instead of 'clean' where available
+---> The original commit sha is - d7562597c94093cc97399bb3ebca44b9acd85341
+Commit message - Merge pull request #796 from SteveSanderson/796-support-jquery-1-9
+
+Support for jQuery 1.9 
+---> The files with partial_cherrypicks are:-
+build/fragments/extern-post.js
+build/fragments/extern-pre.js
+spec/arrayEditDetectionBehaviors.js
+spec/arrayToDomEditDetectionBehaviors.js
+spec/dependentObservableBehaviors.js
+spec/dependentObservableDomBehaviors.js
+spec/editDetectionBehaviors.js
+spec/lib/jasmine.extensions.js
+spec/runner.html
+spec/runner.node.js
+spec/runner.phantom.js
+src/subscribables/dependentObservable.js
+src/utils.domManipulation.js
+src/utils.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 69 is -> 
+{ 3fc1789a2274bb54d02d1519cb53f2243de4bed9 -> 17508a1772892c319506f908d1d98d3e22119904 } is a cherrypick
+{ 6f6888bc54088d19798ffd47d53f40b320dd06a2 -> ae23e566eb5534f2d1783e148f861b9a61a586cf }
+Partial Cherry-pick commits SHA are -> 
+17508a1772892c319506f908d1d98d3e22119904 - cherrypick - ae23e566eb5534f2d1783e148f861b9a61a586cf
+---> The cherrypicked commit sha is - 17508a1772892c319506f908d1d98d3e22119904
+Commit message - prevent applying bindings more than once to the same node
+---> The original commit sha is - ae23e566eb5534f2d1783e148f861b9a61a586cf
+Commit message - Merge branch '761-build-improvements'
+---> The files with partial_cherrypicks are:-
+spec/bindingAttributeBehaviors.js
+spec/defaultBindings/valueBehaviors.js
+spec/templatingBehaviors.js
+src/binding/bindingAttributeSyntax.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 70 is -> 
+{ c9a759253b8b1b55441252398b966522a96d6edf -> e79376677dc6d6b9298cb9ea7d1eae79f8643a92 } is a cherrypick
+{ 6f6888bc54088d19798ffd47d53f40b320dd06a2 -> ae23e566eb5534f2d1783e148f861b9a61a586cf }
+Partial Cherry-pick commits SHA are -> 
+e79376677dc6d6b9298cb9ea7d1eae79f8643a92 - cherrypick - ae23e566eb5534f2d1783e148f861b9a61a586cf
+---> The cherrypicked commit sha is - e79376677dc6d6b9298cb9ea7d1eae79f8643a92
+Commit message - Change error message for applying bindings multiple times.
+---> The original commit sha is - ae23e566eb5534f2d1783e148f861b9a61a586cf
+Commit message - Merge branch '761-build-improvements'
+---> The files with partial_cherrypicks are:-
+spec/bindingAttributeBehaviors.js
+spec/templatingBehaviors.js
+src/binding/bindingAttributeSyntax.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 71 is -> 
+{ 23073cb0a71afe3f76eba402c557f58cf9c7bc87 -> dc4250ba1c89a06667f483bd85015e39dcc4176e } is a cherrypick
+{ 6f6888bc54088d19798ffd47d53f40b320dd06a2 -> ae23e566eb5534f2d1783e148f861b9a61a586cf }
+Partial Cherry-pick commits SHA are -> 
+dc4250ba1c89a06667f483bd85015e39dcc4176e - cherrypick - ae23e566eb5534f2d1783e148f861b9a61a586cf
+---> The cherrypicked commit sha is - dc4250ba1c89a06667f483bd85015e39dcc4176e
+Commit message - Support jQuery 1.9+ by using 'parseHTML' instead of 'clean' where available
+---> The original commit sha is - ae23e566eb5534f2d1783e148f861b9a61a586cf
+Commit message - Merge branch '761-build-improvements'
+---> The files with partial_cherrypicks are:-
+spec/bindingAttributeBehaviors.js
+spec/defaultBindings/valueBehaviors.js
+spec/templatingBehaviors.js
+src/binding/bindingAttributeSyntax.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 72 is -> 
+{ 4ebed1157ce42e19069c9741617aea321cec3fa9 -> 069a1e46486175dcf443c0b1c0ddf1dba9cdecac } is a cherrypick
+{ 6205bf5ea766342a3697143ed8c9035efbb53181 -> b22cd768725faa1a7bcd00f78b453f7a0bf53a57 }
+Partial Cherry-pick commits SHA are -> 
+069a1e46486175dcf443c0b1c0ddf1dba9cdecac - cherrypick - b22cd768725faa1a7bcd00f78b453f7a0bf53a57
+---> The cherrypicked commit sha is - 069a1e46486175dcf443c0b1c0ddf1dba9cdecac
+Commit message - Fixes error in chrome when you try to inline knockout in your page
+
+Error: Uncaught SyntaxError: Unexpected token ILLEGAL
+Reproduce by just pasting knockout into a script tag in a page and
+viewing
+Caused by "</script>"
+Changed to "<" + "/script>"
+---> The original commit sha is - b22cd768725faa1a7bcd00f78b453f7a0bf53a57
+Commit message - Merge pull request #739 from SteveSanderson/739-foreach-with-template-rewriting-bugfix
+
+jquery.tmpl interpolation of observables are not updated when inside data-bind'ed elements
+---> The files with partial_cherrypicks are:-
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 73 is -> 
+{ 026cf044c7811caed62a170e835775d1ecde6efa -> a82659273fd91ee5f42f8272ff37fa274c16ca4a } is a cherrypick
+{ 6205bf5ea766342a3697143ed8c9035efbb53181 -> b22cd768725faa1a7bcd00f78b453f7a0bf53a57 }
+Partial Cherry-pick commits SHA are -> 
+a82659273fd91ee5f42f8272ff37fa274c16ca4a - cherrypick - b22cd768725faa1a7bcd00f78b453f7a0bf53a57
+---> The cherrypicked commit sha is - a82659273fd91ee5f42f8272ff37fa274c16ca4a
+Commit message - Fix "selectedOptions" binding bug
+
+Fixes an error where the binding does not update non-observable property
+values.
+---> The original commit sha is - b22cd768725faa1a7bcd00f78b453f7a0bf53a57
+Commit message - Merge pull request #739 from SteveSanderson/739-foreach-with-template-rewriting-bugfix
+
+jquery.tmpl interpolation of observables are not updated when inside data-bind'ed elements
+---> The files with partial_cherrypicks are:-
+spec/defaultBindings/hasfocusBehaviors.js
+src/binding/defaultBindings/hasfocus.js
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 74 is -> 
+{ 4ebed1157ce42e19069c9741617aea321cec3fa9 -> 069a1e46486175dcf443c0b1c0ddf1dba9cdecac } is a cherrypick
+{ cb0bb29297528efcee836fb5f85be45ad8dafc59 -> b1076c40b0064a42b2971bbe41d5fcb73be0dbd5 }
+Partial Cherry-pick commits SHA are -> 
+069a1e46486175dcf443c0b1c0ddf1dba9cdecac - cherrypick - b1076c40b0064a42b2971bbe41d5fcb73be0dbd5
+---> The cherrypicked commit sha is - 069a1e46486175dcf443c0b1c0ddf1dba9cdecac
+Commit message - Fixes error in chrome when you try to inline knockout in your page
+
+Error: Uncaught SyntaxError: Unexpected token ILLEGAL
+Reproduce by just pasting knockout into a script tag in a page and
+viewing
+Caused by "</script>"
+Changed to "<" + "/script>"
+---> The original commit sha is - b1076c40b0064a42b2971bbe41d5fcb73be0dbd5
+Commit message - Merge pull request #732 from jamesjwood/master
+
+Fixes error in chrome when you try to inline knockout in your page
+---> The files with partial_cherrypicks are:-
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 75 is -> 
+{ d8135283868f52ca2d95de12b9af9e78d5c5377b -> 5d5839b5dd37380f33770f983a96cad2dcfcb394 } is a cherrypick
+{ ee9ea432f035cbff88865001bdcf7067e29fa026 -> 3ab0d9ba5007f52169ff24b416e7040cc874ae32 }
+Partial Cherry-pick commits SHA are -> 
+5d5839b5dd37380f33770f983a96cad2dcfcb394 - cherrypick - 3ab0d9ba5007f52169ff24b416e7040cc874ae32
+---> The cherrypicked commit sha is - 5d5839b5dd37380f33770f983a96cad2dcfcb394
+Commit message - Add specs for $context binding property
+---> The original commit sha is - 3ab0d9ba5007f52169ff24b416e7040cc874ae32
+Commit message - Merge branch '474-element-in-binding'
+
+Conflicts:
+	src/templating/templateRewriting.js
+---> The files with partial_cherrypicks are:-
+src/binding/bindingProvider.js
+src/templating/templateRewriting.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 76 is -> 
+{ 12e1cafa2613c3774e5bf61fe11fcf8f94eda6cc -> 4fe4f0fc1313e82cf84e031e2e8412631d51a256 } is a cherrypick
+{ 7d1c73020254572cea41ab093dce63d1aab741e0 -> d8135283868f52ca2d95de12b9af9e78d5c5377b }
+Partial Cherry-pick commits SHA are -> 
+4fe4f0fc1313e82cf84e031e2e8412631d51a256 - cherrypick - d8135283868f52ca2d95de12b9af9e78d5c5377b
+---> The cherrypicked commit sha is - 4fe4f0fc1313e82cf84e031e2e8412631d51a256
+Commit message - Fix for #562, value binding should always write when triggered.
+---> The original commit sha is - d8135283868f52ca2d95de12b9af9e78d5c5377b
+Commit message - Merge pull request #562 from SteveSanderson/562-value-should-not-prevent-write
+
+Bug (?) in documentation on computed observables - writeable computeds don't have a chance to react to a change that is the same as current value
+---> The files with partial_cherrypicks are:-
+spec/defaultBindings/valueBehaviors.js
+src/binding/defaultBindings/value.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 77 is -> 
+{ 912557091c724a84a4590b70407c763eabcf85b6 -> f48c7081eb2cd0733e55ea52654101fdc1a0f9a4 } is a cherrypick
+{ 7a1c251e096e41180f2e8e04dbd806b6b025077a -> 7d1c73020254572cea41ab093dce63d1aab741e0 }
+Partial Cherry-pick commits SHA are -> 
+f48c7081eb2cd0733e55ea52654101fdc1a0f9a4 - cherrypick - 7d1c73020254572cea41ab093dce63d1aab741e0
+---> The cherrypicked commit sha is - f48c7081eb2cd0733e55ea52654101fdc1a0f9a4
+Commit message - Ensure binding attributes that end with a '}' character don't cause syntax errors
+---> The original commit sha is - 7d1c73020254572cea41ab093dce63d1aab741e0
+Commit message - Merge pull request #615 from SteveSanderson/615-jquery-templates-braces-regression-fix
+
+Regression with jquery.tmpl
+---> The files with partial_cherrypicks are:-
+src/templating/templateRewriting.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 78 is -> 
+{ eb6a4bd243a98b339346f6b6a661d592ecc41c18 -> 9a11a4734aedab28c3abbfd6696a276f61c1d776 } is a cherrypick
+{ 12ef8ab985705fedf01b0c65a1d466cc9b16660e -> 39ddae8524c79ec12fe2cd01c13f9a24a3463df8 }
+Partial Cherry-pick commits SHA are -> 
+9a11a4734aedab28c3abbfd6696a276f61c1d776 - cherrypick - 39ddae8524c79ec12fe2cd01c13f9a24a3463df8
+---> The cherrypicked commit sha is - 9a11a4734aedab28c3abbfd6696a276f61c1d776
+Commit message - support beforeMove and afterMove callbacks in setDomNodeChildrenFromArrayMapping
+---> The original commit sha is - 39ddae8524c79ec12fe2cd01c13f9a24a3463df8
+Commit message - Merge pull request #593 from SteveSanderson/593-linux-build-instructions
+
+Update build instructions.
+---> The files with partial_cherrypicks are:-
+spec/editDetectionBehaviors.js
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/binding/editDetection/compareArrays.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 79 is -> 
+{ 8664530e92ba2487f123d43ceefdb34bbf5674a4 -> fbd1ca93e491bfd044f68f3cc61e17c5f8108c3d } is a cherrypick
+{ 12ef8ab985705fedf01b0c65a1d466cc9b16660e -> 39ddae8524c79ec12fe2cd01c13f9a24a3463df8 }
+Partial Cherry-pick commits SHA are -> 
+fbd1ca93e491bfd044f68f3cc61e17c5f8108c3d - cherrypick - 39ddae8524c79ec12fe2cd01c13f9a24a3463df8
+---> The cherrypicked commit sha is - fbd1ca93e491bfd044f68f3cc61e17c5f8108c3d
+Commit message - Merge branch '259-foreach-handle-moves'
+---> The original commit sha is - 39ddae8524c79ec12fe2cd01c13f9a24a3463df8
+Commit message - Merge pull request #593 from SteveSanderson/593-linux-build-instructions
+
+Update build instructions.
+---> The files with partial_cherrypicks are:-
+spec/editDetectionBehaviors.js
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/binding/editDetection/compareArrays.js
+src/virtualElements.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 80 is -> 
+{ 0b21a261d1006c5fcd60198c17437287df96adce -> ec3da459769d1c67ff4e9d0e815750085af5efaa } is a cherrypick
+{ ad8821462d9913f74d938ec1466d4de330b9459d -> 8a81a3867e01523544b1a969aec2f10ae47eeff2 }
+Partial Cherry-pick commits SHA are -> 
+ec3da459769d1c67ff4e9d0e815750085af5efaa - cherrypick - 8a81a3867e01523544b1a969aec2f10ae47eeff2
+---> The cherrypicked commit sha is - ec3da459769d1c67ff4e9d0e815750085af5efaa
+Commit message - #490 - Export 'ko' in the binding context so it will be available in bindings and templates even if 'ko' isn't exported as a global, such as when using an AMD loader.
+---> The original commit sha is - 8a81a3867e01523544b1a969aec2f10ae47eeff2
+Commit message - Merge pull request #403 from SteveSanderson/403-observable-array-mutation-without-subscription
+
+observableArray mutation functions shouldn't create subscription
+---> The files with partial_cherrypicks are:-
+src/binding/bindingAttributeSyntax.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 81 is -> 
+{ 0b21a261d1006c5fcd60198c17437287df96adce -> ec3da459769d1c67ff4e9d0e815750085af5efaa } is a cherrypick
+{ 9a237663d549216be50bde072a50c9697082fca7 -> e5c4892ae5f355a35abe0671dd6eb6b50c84f02a }
+Partial Cherry-pick commits SHA are -> 
+ec3da459769d1c67ff4e9d0e815750085af5efaa - cherrypick - e5c4892ae5f355a35abe0671dd6eb6b50c84f02a
+---> The cherrypicked commit sha is - ec3da459769d1c67ff4e9d0e815750085af5efaa
+Commit message - #490 - Export 'ko' in the binding context so it will be available in bindings and templates even if 'ko' isn't exported as a global, such as when using an AMD loader.
+---> The original commit sha is - e5c4892ae5f355a35abe0671dd6eb6b50c84f02a
+Commit message - Merge pull request #490 from SteveSanderson/490-make-ko-available-in-bindings
+
+Text-based template support breaks when an AMD loader is present
+---> The files with partial_cherrypicks are:-
+src/binding/bindingAttributeSyntax.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 82 is -> 
+{ ec98f933b11ec4f1e65fb1b5a63afb6af4a49993 -> f2d175dc103ed458638f0bf5b0809cbf2e2e502b } is a cherrypick
+{ c0aa9b3d3f73021b578ff11986fb465a825bfe74 -> aa266f95c4eb762f9d1d706de03f8e1dc7962f93 }
+Partial Cherry-pick commits SHA are -> 
+f2d175dc103ed458638f0bf5b0809cbf2e2e502b - cherrypick - aa266f95c4eb762f9d1d706de03f8e1dc7962f93
+---> The cherrypicked commit sha is - f2d175dc103ed458638f0bf5b0809cbf2e2e502b
+Commit message - Allow template names to be selected as a function of the entire binding context
+---> The original commit sha is - aa266f95c4eb762f9d1d706de03f8e1dc7962f93
+Commit message - Merge remote-tracking branch 'remotes/origin/template-name-as-function-of-binding-context'
+---> The files with partial_cherrypicks are:-
+spec/templatingBehaviors.js
+src/templating/templating.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 83 is -> 
+{ c558d081be103fc9ab84f7ed8a8fa95d9bc4727f -> 9a32104878b7b78bb476ce467c50c5346e80dfa7 } is a cherrypick
+{ b90db49f991277d136a3fbddf82cc2404f80b5d6 -> 42da2d84d481ae41d01f90bd0283daa444098f14 }
+Partial Cherry-pick commits SHA are -> 
+9a32104878b7b78bb476ce467c50c5346e80dfa7 - cherrypick - 42da2d84d481ae41d01f90bd0283daa444098f14
+---> The cherrypicked commit sha is - 9a32104878b7b78bb476ce467c50c5346e80dfa7
+Commit message - use getElementsByTagName in selectOptions
+---> The original commit sha is - 42da2d84d481ae41d01f90bd0283daa444098f14
+Commit message - Merge branch 'selectOptions-consistent-readwrite'
+---> The files with partial_cherrypicks are:-
+src/binding/defaultBindings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 84 is -> 
+{ 3ec00596c6200d17003a14865dd3fd2da87bf7cd -> a13d012045260a741ef03eebc81620842f4be7e8 } is a cherrypick
+{ c558d081be103fc9ab84f7ed8a8fa95d9bc4727f -> 9a32104878b7b78bb476ce467c50c5346e80dfa7 }
+Partial Cherry-pick commits SHA are -> 
+a13d012045260a741ef03eebc81620842f4be7e8 - cherrypick - 9a32104878b7b78bb476ce467c50c5346e80dfa7
+---> The cherrypicked commit sha is - a13d012045260a741ef03eebc81620842f4be7e8
+Commit message - selectedOptions should also update options inside optgroup
+---> The original commit sha is - 9a32104878b7b78bb476ce467c50c5346e80dfa7
+Commit message - use getElementsByTagName in selectOptions
+---> The files with partial_cherrypicks are:-
+spec/defaultBindingsBehaviors.js
+spec/templatingBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 85 is -> 
+{ 2acc4a237fe80419f693303c04dc21f1962afc93 -> a634f0cdec3d6fd6434bf8404f30b7be1d6ca11e } is a cherrypick
+{ e10a189cfa0a1d06f589dc094aeb97876152f0e7 -> 0977fc0b4278b8b187c794886581c87548554314 }
+Partial Cherry-pick commits SHA are -> 
+a634f0cdec3d6fd6434bf8404f30b7be1d6ca11e - cherrypick - 0977fc0b4278b8b187c794886581c87548554314
+---> The cherrypicked commit sha is - a634f0cdec3d6fd6434bf8404f30b7be1d6ca11e
+Commit message - #459 - compress string literal used by template rewriting (saves 140 bytes)
+---> The original commit sha is - 0977fc0b4278b8b187c794886581c87548554314
+Commit message - Merge pull request #459 from SteveSanderson/459-compress-apply-memoized-bindings
+
+Minify could be stronger on literals
+---> The files with partial_cherrypicks are:-
+src/templating/templateRewriting.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 86 is -> 
+{ a634f0cdec3d6fd6434bf8404f30b7be1d6ca11e -> fb0e4c43e370f3d37855d2d9a641f099a98ec893 } is a cherrypick
+{ 6e74c015b260a336de82a033982de2b73792e2e6 -> 365bfee3e7031bca11a6c2b23210bfbc75e21903 }
+Partial Cherry-pick commits SHA are -> 
+fb0e4c43e370f3d37855d2d9a641f099a98ec893 - cherrypick - 365bfee3e7031bca11a6c2b23210bfbc75e21903
+---> The cherrypicked commit sha is - fb0e4c43e370f3d37855d2d9a641f099a98ec893
+Commit message - #460 - Always use value attribute, if specified, even if blank.
+
+Add spec to show that a blank value will be used instead of the option text. Modern browsers automatically set element.value to the text if the value attribute is missing. IE<=7 doesn't and also makes it kind of hard to tell of the value attribute is set or not.
+---> The original commit sha is - 365bfee3e7031bca11a6c2b23210bfbc75e21903
+Commit message - Merge pull request #488 from knockout-travis/travis_ci
+
+Continuous integration via Travis CI
+---> The files with partial_cherrypicks are:-
+spec/defaultBindingsBehaviors.js
+src/binding/selectExtensions.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 87 is -> 
+{ da28f76ce149bcbab2359b5e0572aaa31fbf76d8 -> 868477fe54b5379ef4098f2895528e0ed0695ec8 } is a cherrypick
+{ e89e12a3a9ba087f6872612fe8a0b558637391b7 -> 5d9c406c6dcaa0e37787e95697034daf83236d24 }
+Partial Cherry-pick commits SHA are -> 
+868477fe54b5379ef4098f2895528e0ed0695ec8 - cherrypick - 5d9c406c6dcaa0e37787e95697034daf83236d24
+---> The cherrypicked commit sha is - 868477fe54b5379ef4098f2895528e0ed0695ec8
+Commit message - Ko missing in spec
+---> The original commit sha is - 5d9c406c6dcaa0e37787e95697034daf83236d24
+Commit message - Merge branch '387-recursive-computed-eval'
+---> The files with partial_cherrypicks are:-
+spec/bindingAttributeBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 88 is -> 
+{ c0a320006694f044251a598733b798df174c019a -> 440a93301173f58c588b0ed4ac2d99400bf27bfd } is a cherrypick
+{ e89e12a3a9ba087f6872612fe8a0b558637391b7 -> 5d9c406c6dcaa0e37787e95697034daf83236d24 }
+Partial Cherry-pick commits SHA are -> 
+440a93301173f58c588b0ed4ac2d99400bf27bfd - cherrypick - 5d9c406c6dcaa0e37787e95697034daf83236d24
+---> The cherrypicked commit sha is - 440a93301173f58c588b0ed4ac2d99400bf27bfd
+Commit message - Merge pull request #384 from GilesBradshaw/MissingKo
+
+Ko missing in spec
+---> The original commit sha is - 5d9c406c6dcaa0e37787e95697034daf83236d24
+Commit message - Merge branch '387-recursive-computed-eval'
+---> The files with partial_cherrypicks are:-
+spec/bindingAttributeBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 89 is -> 
+{ 15045391c23e1067a09dda8ec4898ab85afebdbf -> e5e7dbd1349fd9069a3369006b774309feb62025 } is a cherrypick
+{ 38c978467b968c80f373e28c3023ada5eb962164 -> da28f76ce149bcbab2359b5e0572aaa31fbf76d8 }
+Partial Cherry-pick commits SHA are -> 
+e5e7dbd1349fd9069a3369006b774309feb62025 - cherrypick - da28f76ce149bcbab2359b5e0572aaa31fbf76d8
+---> The cherrypicked commit sha is - e5e7dbd1349fd9069a3369006b774309feb62025
+Commit message - Continuation of #122 - now ensure observables are only written once (previously, IE would update the observable twice)
+---> The original commit sha is - da28f76ce149bcbab2359b5e0572aaa31fbf76d8
+Commit message - Merge pull request #122 from SteveSanderson/122-IE-autocomplete
+
+Internet Explorer and AutoComplete
+---> The files with partial_cherrypicks are:-
+src/binding/jsonExpressionRewriting.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 90 is -> 
+{ 72ed31e5600f2612b2e377dc8f36ff669f33a8cb -> dd179adc4ecc77dd0d2cbeb5122268c9332730bf } is a cherrypick
+{ 08448b74e6f9a2344321e9a87f5d1593cfbcdc72 -> 1f334da7a105ca029084cb43c2848c2258661910 }
+Partial Cherry-pick commits SHA are -> 
+dd179adc4ecc77dd0d2cbeb5122268c9332730bf - cherrypick - 1f334da7a105ca029084cb43c2848c2258661910
+---> The cherrypicked commit sha is - dd179adc4ecc77dd0d2cbeb5122268c9332730bf
+Commit message - Factor out the tag name case conversions into a single function to reduce minified code size and clarify usage
+---> The original commit sha is - 1f334da7a105ca029084cb43c2848c2258661910
+Commit message - Merge branch 'master' into 54-support-xhtml
+---> The files with partial_cherrypicks are:-
+src/binding/selectExtensions.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 91 is -> 
+{ 2c3b91843b7ffa4d3c11b59c06e8ba3b5e5c9e2f -> 7845ad5c654942d0eedccd2c98845b01b6cd40e4 } is a cherrypick
+{ 768248b4d78e4af6108877fc8cebbd5554ac6ac8 -> 72ed31e5600f2612b2e377dc8f36ff669f33a8cb }
+Partial Cherry-pick commits SHA are -> 
+7845ad5c654942d0eedccd2c98845b01b6cd40e4 - cherrypick - 72ed31e5600f2612b2e377dc8f36ff669f33a8cb
+---> The cherrypicked commit sha is - 7845ad5c654942d0eedccd2c98845b01b6cd40e4
+Commit message - Eliminate no-longer-needed Chrome/IE bug fix (#273)
+---> The original commit sha is - 72ed31e5600f2612b2e377dc8f36ff669f33a8cb
+Commit message - Merge pull request #273 from SteveSanderson/273-select-flicker
+
+select box will flicker in IE
+---> The files with partial_cherrypicks are:-
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 92 is -> 
+{ 269911080862028cbe1b7270ca6b9319c2e565eb -> 2051074c4df1cf583d32792769af86db432d7f11 } is a cherrypick
+{ 768248b4d78e4af6108877fc8cebbd5554ac6ac8 -> 72ed31e5600f2612b2e377dc8f36ff669f33a8cb }
+Partial Cherry-pick commits SHA are -> 
+2051074c4df1cf583d32792769af86db432d7f11 - cherrypick - 72ed31e5600f2612b2e377dc8f36ff669f33a8cb
+---> The cherrypicked commit sha is - 2051074c4df1cf583d32792769af86db432d7f11
+Commit message - Fix related bug that affects IE8 (maybe other versions):
+Selecting second item in a size>1 select will move scroll down one item.
+---> The original commit sha is - 72ed31e5600f2612b2e377dc8f36ff669f33a8cb
+Commit message - Merge pull request #273 from SteveSanderson/273-select-flicker
+
+select box will flicker in IE
+---> The files with partial_cherrypicks are:-
+src/binding/defaultBindings.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 93 is -> 
+{ 2051074c4df1cf583d32792769af86db432d7f11 -> 1f93a58f831d24c6d976872323f1a736558d5923 } is a cherrypick
+{ ba7d91e307f4a6608240d591acec011823e8d2cc -> 768248b4d78e4af6108877fc8cebbd5554ac6ac8 }
+Partial Cherry-pick commits SHA are -> 
+1f93a58f831d24c6d976872323f1a736558d5923 - cherrypick - 768248b4d78e4af6108877fc8cebbd5554ac6ac8
+---> The cherrypicked commit sha is - 1f93a58f831d24c6d976872323f1a736558d5923
+Commit message - #323 - set/unset 'class' (and 'for') attributes correctly in IE <= 8
+---> The original commit sha is - 768248b4d78e4af6108877fc8cebbd5554ac6ac8
+Commit message - Merge branch '323-IE-class-attr'
+---> The files with partial_cherrypicks are:-
+spec/defaultBindingsBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 94 is -> 
+{ 7c1ca71d1b0866db8e98d69c6e1e2bfb991eba28 -> 5aaca60bd38baa8cb7fa1ace04a6c55e23afcd46 } is a cherrypick
+{ 98c60643b6843a60a42d7983a2e3672260186c35 -> 0c9418c883b0473e24185196d55445cb3e49f335 }
+Partial Cherry-pick commits SHA are -> 
+5aaca60bd38baa8cb7fa1ace04a6c55e23afcd46 - cherrypick - 0c9418c883b0473e24185196d55445cb3e49f335
+---> The cherrypicked commit sha is - 5aaca60bd38baa8cb7fa1ace04a6c55e23afcd46
+Commit message - Rebuild
+---> The original commit sha is - 0c9418c883b0473e24185196d55445cb3e49f335
+Commit message - Merge branch '139-expose-JSON-stringify-args'
+---> The files with partial_cherrypicks are:-
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 95 is -> 
+{ 1f93a58f831d24c6d976872323f1a736558d5923 -> a2744a0fc29b2d7723a837520e6d68d1d6f26ca3 } is a cherrypick
+{ 98c60643b6843a60a42d7983a2e3672260186c35 -> 0c9418c883b0473e24185196d55445cb3e49f335 }
+Partial Cherry-pick commits SHA are -> 
+a2744a0fc29b2d7723a837520e6d68d1d6f26ca3 - cherrypick - 0c9418c883b0473e24185196d55445cb3e49f335
+---> The cherrypicked commit sha is - a2744a0fc29b2d7723a837520e6d68d1d6f26ca3
+Commit message - Merge pull request #334 from rniemeyer/css-binding-prevent-leading-space
+
+Avoid adding a leading space in css binding.
+---> The original commit sha is - 0c9418c883b0473e24185196d55445cb3e49f335
+Commit message - Merge branch '139-expose-JSON-stringify-args'
+---> The files with partial_cherrypicks are:-
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 96 is -> 
+{ 7845ad5c654942d0eedccd2c98845b01b6cd40e4 -> 7c1ca71d1b0866db8e98d69c6e1e2bfb991eba28 } is a cherrypick
+{ a2744a0fc29b2d7723a837520e6d68d1d6f26ca3 -> b4b50e8d7233b0cdd4287f7b22bc8aac8afdf743 }
+Partial Cherry-pick commits SHA are -> 
+7c1ca71d1b0866db8e98d69c6e1e2bfb991eba28 - cherrypick - b4b50e8d7233b0cdd4287f7b22bc8aac8afdf743
+---> The cherrypicked commit sha is - 7c1ca71d1b0866db8e98d69c6e1e2bfb991eba28
+Commit message - Add ko.isComputed function
+---> The original commit sha is - b4b50e8d7233b0cdd4287f7b22bc8aac8afdf743
+Commit message - Merge pull request #268 from SteveSanderson/268-isComputed
+
+add a 'ko.isComputed' function
+---> The files with partial_cherrypicks are:-
+spec/dependentObservableBehaviors.js
+src/subscribables/dependentObservable.js
+src/subscribables/observable.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 97 is -> 
+{ 28169e7294fd1055007fa8461d13eed5f9d43942 -> 0535189e9b6c3416bad43b1c512a5c814c23536e } is a cherrypick
+{ 7c62b802aec3bfe23daad65243072a92a6127926 -> 37ffbac82e20deaa0a316db2b81b44c698c7f941 }
+Partial Cherry-pick commits SHA are -> 
+0535189e9b6c3416bad43b1c512a5c814c23536e - cherrypick - 37ffbac82e20deaa0a316db2b81b44c698c7f941
+---> The cherrypicked commit sha is - 0535189e9b6c3416bad43b1c512a5c814c23536e
+Commit message - Merge branch 'master' into foreach-context-index
+
+Conflicts:
+	spec/templatingBehaviors.js
+	src/binding/editDetection/arrayToDomNodeChildren.js
+	src/templating/templating.js
+---> The original commit sha is - 37ffbac82e20deaa0a316db2b81b44c698c7f941
+Commit message - Merge barkmadley:foreach-context-index into 182-foreach-index
+
+Conflicts:
+	spec/templatingBehaviors.js
+	src/templating/templating.js
+---> The files with partial_cherrypicks are:-
+src/binding/editDetection/arrayToDomNodeChildren.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 98 is -> 
+{ 525f424f8a063d33e18fdf7fd43ec0f79b022b13 -> b0bb095455ed6fee6b681e3a8da1c48015135333 } is a cherrypick
+{ 723de752d739db921d8135b7fedb7875c02eae0b -> 6f29dc354cfc31beaec31723ba5230e5ef1849be }
+Partial Cherry-pick commits SHA are -> 
+b0bb095455ed6fee6b681e3a8da1c48015135333 - cherrypick - 6f29dc354cfc31beaec31723ba5230e5ef1849be
+---> The cherrypicked commit sha is - b0bb095455ed6fee6b681e3a8da1c48015135333
+Commit message - Ensure SELECT nodes' selection always corresponds to the model value (by changing the model value if necessary) - fixes issue #16
+---> The original commit sha is - 6f29dc354cfc31beaec31723ba5230e5ef1849be
+Commit message - Fixing defect 300
+- Added a check for optgroup and if found it'll reuse the method passing in the optgroup
+- Added a test to validate
+---> The files with partial_cherrypicks are:-
+spec/defaultBindingsBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 99 is -> 
+{ 02cecde2f8596131d02714beb0c3183a6ab91107 -> 44742950171ae7ce33fc808b779bcc230329e9b1 } is a cherrypick
+{ 273219674330d2324a3c8db32c8bc967bd5619ef -> 8f4a72614de6b5c079f229327f495a65ccd98505 }
+Partial Cherry-pick commits SHA are -> 
+44742950171ae7ce33fc808b779bcc230329e9b1 - cherrypick - 8f4a72614de6b5c079f229327f495a65ccd98505
+---> The cherrypicked commit sha is - 44742950171ae7ce33fc808b779bcc230329e9b1
+Commit message - add a cache for inline templates that are given a template id (not element id)
+---> The original commit sha is - 8f4a72614de6b5c079f229327f495a65ccd98505
+Commit message - Merge branch 'mbest-computed_optimize'
+---> The files with partial_cherrypicks are:-
+.gitignore
+build/build-linux
+build/build-windows.bat
+build/fragments/amd-post.js
+build/fragments/amd-pre.js
+build/fragments/source-references.js
+build/fragments/version-header.js
+build/fragments/version.txt
+build/knockout-raw.js
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+build/source-references.js
+build/tools/searchReplace.js
+build/version-header.js
+src/binding/editDetection/arrayToDomNodeChildren.js
+src/binding/editDetection/compareArrays.js
+src/binding/jsonExpressionRewriting.js
+src/binding/selectExtensions.js
+src/google-closure-compiler-utils.js
+src/memoization.js
+src/namespace.js
+src/subscribables/extenders.js
+src/subscribables/mappingHelpers.js
+src/subscribables/observable.js
+src/subscribables/observableArray.js
+src/subscribables/subscribable.js
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+src/templating/native/nativeTemplateEngine.js
+src/templating/templateRewriting.js
+src/utils.domData.js
+src/utils.domManipulation.js
+src/utils.domNodeDisposal.js
+src/version.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 100 is -> 
+{ 76339022be150213d13b0c2a611b970a66a54184 -> 4ae3405cd6d65dcd39a924457e0f87449ce7a1d4 } is a cherrypick
+{ 3f8ed1ebddf988797bee3e56b4cbeff5125a498c -> bdf5c4d494536f92d1a5165527d3571ead35c4e6 }
+Partial Cherry-pick commits SHA are -> 
+4ae3405cd6d65dcd39a924457e0f87449ce7a1d4 - cherrypick - bdf5c4d494536f92d1a5165527d3571ead35c4e6
+---> The cherrypicked commit sha is - 4ae3405cd6d65dcd39a924457e0f87449ce7a1d4
+Commit message - optimize dependency tracking within computed observables; some minor reorganization
+---> The original commit sha is - bdf5c4d494536f92d1a5165527d3571ead35c4e6
+Commit message - Merge branch 'computed_optimize' of https://github.com/mbest/knockout
+---> The files with partial_cherrypicks are:-
+src/subscribables/subscribable.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 101 is -> 
+{ 42937beb02e744a1245ab643db712591416a751b -> f5c070dccc0b4d0ecc92a5854a5ff43c0c6624be } is a cherrypick
+{ fae11847317f823c9e1be0d351f63aae9f7fc064 -> 7e3c6c5eba7d38b8eeceb0ab1e218dfc408ba724 }
+Partial Cherry-pick commits SHA are -> 
+f5c070dccc0b4d0ecc92a5854a5ff43c0c6624be - cherrypick - 7e3c6c5eba7d38b8eeceb0ab1e218dfc408ba724
+---> The cherrypicked commit sha is - f5c070dccc0b4d0ecc92a5854a5ff43c0c6624be
+Commit message - Update parseBindingsString logic to be consistent with KO 2.0.0 regarding treatment of non-object viewmodel values (thanks, mbest!)
+---> The original commit sha is - 7e3c6c5eba7d38b8eeceb0ab1e218dfc408ba724
+Commit message - Remove Node build in favor of recommendation to create a separate repository that does this independently.
+---> The files with partial_cherrypicks are:-
+build/build-npm-linux
+build/node-npm-header.js
+build/npm/lib/knockout.js
+build/npm/package.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 102 is -> 
+{ eee91a1a7402a47da14f5ab2385273f9288c42a5 -> b9ffa7672a8637f91a847536027d30363b80d497 } is a cherrypick
+{ b6f22ed24c807a4a41ddfb646ca70dfad629a7a0 -> 4f7098592ccb927b36d8fde6703d05dd64b4edc4 }
+Partial Cherry-pick commits SHA are -> 
+b9ffa7672a8637f91a847536027d30363b80d497 - cherrypick - 4f7098592ccb927b36d8fde6703d05dd64b4edc4
+---> The cherrypicked commit sha is - b9ffa7672a8637f91a847536027d30363b80d497
+Commit message - Eliminate evalWithinScope as it is no longer required (buildEvalWithinScopeFunction has replaced it), plus factor out a couple of minor functions for readability
+---> The original commit sha is - 4f7098592ccb927b36d8fde6703d05dd64b4edc4
+Commit message - Make setTextContent massively faster on IE
+---> The files with partial_cherrypicks are:-
+src/subscribables/dependentObservable.js
+src/subscribables/subscribable.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 103 is -> 
+{ 76339022be150213d13b0c2a611b970a66a54184 -> 4ae3405cd6d65dcd39a924457e0f87449ce7a1d4 } is a cherrypick
+{ b9ffa7672a8637f91a847536027d30363b80d497 -> b6f22ed24c807a4a41ddfb646ca70dfad629a7a0 }
+Partial Cherry-pick commits SHA are -> 
+4ae3405cd6d65dcd39a924457e0f87449ce7a1d4 - cherrypick - b6f22ed24c807a4a41ddfb646ca70dfad629a7a0
+---> The cherrypicked commit sha is - 4ae3405cd6d65dcd39a924457e0f87449ce7a1d4
+Commit message - optimize dependency tracking within computed observables; some minor reorganization
+---> The original commit sha is - b6f22ed24c807a4a41ddfb646ca70dfad629a7a0
+Commit message - Merge branch 'computed_optimize' of https://github.com/mbest/knockout into mbest-computed_optimize
+---> The files with partial_cherrypicks are:-
+src/subscribables/subscribable.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 104 is -> 
+{ b3c5e577746954eead83d72fe6ec723c256864dd -> 7c374018ec2f81567592b1da955c045b560e0e8a } is a cherrypick
+{ ce09803101754323eb0a54a28ea7d5dad9ec07e7 -> eb0b9cc54b17cecc9a8ed19b9d9f5e2c636b3799 }
+Partial Cherry-pick commits SHA are -> 
+7c374018ec2f81567592b1da955c045b560e0e8a - cherrypick - eb0b9cc54b17cecc9a8ed19b9d9f5e2c636b3799
+---> The cherrypicked commit sha is - 7c374018ec2f81567592b1da955c045b560e0e8a
+Commit message - Fix last-minute Opera issue detected by spec. This should be the final 1.2.1 build!
+---> The original commit sha is - eb0b9cc54b17cecc9a8ed19b9d9f5e2c636b3799
+Commit message - [Reapply 7c3740] Fix last-minute Opera issue detected by spec.
+---> The files with partial_cherrypicks are:-
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 105 is -> 
+{ f2ee36d2c8917823b843522fd74e62a0fbc5f7b0 -> 66d60ba7628ec8407901d465db3c86cd7cd0000f } is a cherrypick
+{ 02350577d72b897591d5e8c0ac8e5aeb106b7d2c -> 6f57afe4fb269204c45e732b80c5751e9e3b97d3 }
+Partial Cherry-pick commits SHA are -> 
+66d60ba7628ec8407901d465db3c86cd7cd0000f - cherrypick - 6f57afe4fb269204c45e732b80c5751e9e3b97d3
+---> The cherrypicked commit sha is - 66d60ba7628ec8407901d465db3c86cd7cd0000f
+Commit message - Fix for issue #73 - "event" binding should cope with being given "null" for a handler function (in this case, it should do nothing)
+---> The original commit sha is - 6f57afe4fb269204c45e732b80c5751e9e3b97d3
+Commit message - Fix for issue #73 - "event" binding should cope with being given "null" for a handler function (in this case, it should do nothing)
+---> The files with partial_cherrypicks are:-
+spec/defaultBindingsBehaviors.js
+src/binding/defaultBindings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 106 is -> 
+{ bfe304d5c63af6fe70f44a77df6255e68b5ea5b0 -> 9c87aa859eb321b490a40a72a4fbf68596aafc9f } is a cherrypick
+{ 843420a6f801b17dd357880b359a67fa53647999 -> bfb350e332a9e299d2b2e88645d64bcf57c5c55c }
+Partial Cherry-pick commits SHA are -> 
+9c87aa859eb321b490a40a72a4fbf68596aafc9f - cherrypick - bfb350e332a9e299d2b2e88645d64bcf57c5c55c
+---> The cherrypicked commit sha is - 9c87aa859eb321b490a40a72a4fbf68596aafc9f
+Commit message - Test uses textContent if innerText undefined. (fix for Firefox)
+---> The original commit sha is - bfb350e332a9e299d2b2e88645d64bcf57c5c55c
+Commit message - Merge commit '843420a'
+---> The files with partial_cherrypicks are:-
+spec/defaultBindingsBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 107 is -> 
+{ bfe304d5c63af6fe70f44a77df6255e68b5ea5b0 -> 9c87aa859eb321b490a40a72a4fbf68596aafc9f } is a cherrypick
+{ 2e85f367fa57cdf94aca34cc40442afd71de25ff -> 31b3152f847feafd908e23497a0f7a0ef2f3d39d }
+Partial Cherry-pick commits SHA are -> 
+9c87aa859eb321b490a40a72a4fbf68596aafc9f - cherrypick - 31b3152f847feafd908e23497a0f7a0ef2f3d39d
+---> The cherrypicked commit sha is - 9c87aa859eb321b490a40a72a4fbf68596aafc9f
+Commit message - Test uses textContent if innerText undefined. (fix for Firefox)
+---> The original commit sha is - 31b3152f847feafd908e23497a0f7a0ef2f3d39d
+Commit message - Test uses textContent if innerText undefined. (fix for Firefox)
+---> The files with partial_cherrypicks are:-
+spec/defaultBindingsBehaviors.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 108 is -> 
+{ 7c374018ec2f81567592b1da955c045b560e0e8a -> 8d0b2b3399abe91886eb3fd5e0a0b386afea9849 } is a cherrypick
+{ e375c5e3adc5dc6fcfd41f8383bd60e09b8143dc -> c4e931c85f870b68240b2c097c67f9fba5ddbbbb }
+Partial Cherry-pick commits SHA are -> 
+8d0b2b3399abe91886eb3fd5e0a0b386afea9849 - cherrypick - c4e931c85f870b68240b2c097c67f9fba5ddbbbb
+---> The cherrypicked commit sha is - 8d0b2b3399abe91886eb3fd5e0a0b386afea9849
+Commit message - Going back to using $data to reference the current item in foreach, as "this" clashes in too many circumstances
+---> The original commit sha is - c4e931c85f870b68240b2c097c67f9fba5ddbbbb
+Commit message - Merge branch 'master' into 1.3
+---> The files with partial_cherrypicks are:-
+build/output/knockout-latest.debug.js
+build/output/knockout-latest.js
+build/source-references.js
+build/version-header.js
+spec/bindingAttributeBehaviors.js
+spec/defaultBindingsBehaviors.js
+spec/extenderBehaviors.js
+spec/runner.html
+src/binding/bindingAttributeSyntax.js
+src/subscribables/dependencyDetection.js
+src/subscribables/dependentObservable.js
+src/subscribables/extenders.js
+src/subscribables/subscribable.js
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 109 is -> 
+{ 9ca55d42daaeae2295eed634f5f0ad688e7054db -> 541ec9a2e16f520e98c26ce4250ec550a349a9f2 } is a cherrypick
+{ 910ae4052a10569164662795d780b15b4485e267 -> bfe304d5c63af6fe70f44a77df6255e68b5ea5b0 }
+Partial Cherry-pick commits SHA are -> 
+541ec9a2e16f520e98c26ce4250ec550a349a9f2 - cherrypick - bfe304d5c63af6fe70f44a77df6255e68b5ea5b0
+---> The cherrypicked commit sha is - 541ec9a2e16f520e98c26ce4250ec550a349a9f2
+Commit message - Update version header
+---> The original commit sha is - bfe304d5c63af6fe70f44a77df6255e68b5ea5b0
+Commit message - Merge branch 'master' into 1.3
+---> The files with partial_cherrypicks are:-
+build/source-references.js
+build/version-header.js
+spec/bindingAttributeBehaviors.js
+spec/extenderBehaviors.js
+spec/runner.html
+src/binding/bindingAttributeSyntax.js
+src/subscribables/dependencyDetection.js
+src/subscribables/dependentObservable.js
+src/subscribables/extenders.js
+src/subscribables/subscribable.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 110 is -> 
+{ fa81a12e0ae446f4b23a43a85224c689e73a9e89 -> 9ca55d42daaeae2295eed634f5f0ad688e7054db } is a cherrypick
+{ 9e8e5d05850b7451245278e92f4c9d3025f3e692 -> d1accedaeff99d37d492fb9a6869bd0bd2649d1d }
+Partial Cherry-pick commits SHA are -> 
+9ca55d42daaeae2295eed634f5f0ad688e7054db - cherrypick - d1accedaeff99d37d492fb9a6869bd0bd2649d1d
+---> The cherrypicked commit sha is - 9ca55d42daaeae2295eed634f5f0ad688e7054db
+Commit message - fixed regex to allow data-* attributes besides data-bind to fix http://jsfiddle.net/PeyNN/1/
+---> The original commit sha is - d1accedaeff99d37d492fb9a6869bd0bd2649d1d
+Commit message - Merge pull request #95 from joeldart/dataAttributesFix
+
+fixed regex to allow data-* attributes besides data-bind (Thanks, JoelDart!)
+---> The files with partial_cherrypicks are:-
+src/templating/templateRewriting.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 111 is -> 
+{ 339aa4dc8ca280a634af04854c3124b2ddd66082 -> 57a8279dfa582ae225c299c3a41c234a15f29a4b } is a cherrypick
+{ 291a92cc57e098b7f7fa2cb8730128de44028a19 -> 29cc47d58efc77ec946effec6d34627003190ab1 }
+Partial Cherry-pick commits SHA are -> 
+57a8279dfa582ae225c299c3a41c234a15f29a4b - cherrypick - 29cc47d58efc77ec946effec6d34627003190ab1
+---> The cherrypicked commit sha is - 57a8279dfa582ae225c299c3a41c234a15f29a4b
+Commit message - export ko.utils.registerEventHandler and ko.utils.toggleDomNodeCssClass
+---> The original commit sha is - 29cc47d58efc77ec946effec6d34627003190ab1
+Commit message - Merge branch 'master' of https://github.com/greenlaw110/knockout into greenlaw110-master
+
+Conflicts:
+	build/output/knockout-latest.js
+---> The files with partial_cherrypicks are:-
+spec/templatingBehaviors.js
+src/templating/jquery.tmpl/jqueryTmplTemplateEngine.js
+src/templating/templating.js
+src/utils.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 112 is -> 
+{ 194341f5ed3790cd9984235d48ad697d3e2b6452 -> 58acd66e9b1ce5234b075210ef1f4333ed45bd48 } is a cherrypick
+{ 8117236a4511e1e6e15b783bbee1acd47e77ffd4 -> 79804905428e2c2830702ed14535ce142426b1c2 }
+Partial Cherry-pick commits SHA are -> 
+58acd66e9b1ce5234b075210ef1f4333ed45bd48 - cherrypick - 79804905428e2c2830702ed14535ce142426b1c2
+---> The cherrypicked commit sha is - 58acd66e9b1ce5234b075210ef1f4333ed45bd48
+Commit message - Added "minimum edit script" algorithm
+---> The original commit sha is - 79804905428e2c2830702ed14535ce142426b1c2
+Commit message - Remove unwanted file
+---> The files with partial_cherrypicks are:-
+examples/nodeChat.html
+-----------------------------------------------------------------
+

@@ -1,0 +1,90 @@
+# of reverts = 7
+Revert diff pair 1 is -> 
+{ ed2ee1cc207c2dcf7e3026346a35337213c686a5 -> ee789e5c0cf3e4156107946e7a7497264b2fa52f } is a revert
+{ ee789e5c0cf3e4156107946e7a7497264b2fa52f -> 5b5a79d1c7219eed760ce2e936bbf83b49f3b016 }
+Revert commits SHA are -> 
+ee789e5c0cf3e4156107946e7a7497264b2fa52f - revert - 5b5a79d1c7219eed760ce2e936bbf83b49f3b016
+---> The reverted commit sha is - ee789e5c0cf3e4156107946e7a7497264b2fa52f
+Commit message - Merge branch 'stable' of https://github.com/toolkitchen/toolkit into stable
+---> The original commit sha is - 5b5a79d1c7219eed760ce2e936bbf83b49f3b016
+Commit message - restore submodule reference
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 1b7734239f45ef115ca5251efdb4bec4d9213d94 -> 13281e3a5f1eff476602ea7fa914178896deee91 } is a revert
+{ 69ad26bde6340bb9fd082ce8fb29a675a8b7356b -> e3ae17e50aba821cd3847085f4273c7e03843d88 }
+Revert commits SHA are -> 
+13281e3a5f1eff476602ea7fa914178896deee91 - revert - e3ae17e50aba821cd3847085f4273c7e03843d88
+---> The reverted commit sha is - 13281e3a5f1eff476602ea7fa914178896deee91
+Commit message - toolkit.js  loads platform if it's not already loaded, shhhh.
+---> The original commit sha is - e3ae17e50aba821cd3847085f4273c7e03843d88
+Commit message - undo auto platform loading for now, caused problems with builds.
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ e0bb7b37961eaba2bf01c53605ffa986f8a8eb1e -> 0be49456b5f20559bb689447e93ebe71aff6c2b6 } is a revert
+{ 473d317edbe23277754f0f8715022c0e5a104665 -> aec3e065eb0ad54ac3bf5b62a64971603ed93356 }
+Revert commits SHA are -> 
+0be49456b5f20559bb689447e93ebe71aff6c2b6 - revert - aec3e065eb0ad54ac3bf5b62a64971603ed93356
+---> The reverted commit sha is - 0be49456b5f20559bb689447e93ebe71aff6c2b6
+Commit message - test: small change to avoid injecting code into iframe
+---> The original commit sha is - aec3e065eb0ad54ac3bf5b62a64971603ed93356
+Commit message - Revert "test: small change to avoid injecting code into iframe"
+
+This reverts commit 0be49456b5f20559bb689447e93ebe71aff6c2b6.
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ 2f922c87933d7c5ecc517f7b247cb56473b4b90f -> 9352f345d5eacbd0ff9732aa8f5c5f53c16c80d7 } is a revert
+{ 9352f345d5eacbd0ff9732aa8f5c5f53c16c80d7 -> 63686a3711111c098eea1bee39014f1a1228adb3 }
+Revert commits SHA are -> 
+9352f345d5eacbd0ff9732aa8f5c5f53c16c80d7 - revert - 63686a3711111c098eea1bee39014f1a1228adb3
+---> The reverted commit sha is - 9352f345d5eacbd0ff9732aa8f5c5f53c16c80d7
+Commit message - tweaks
+---> The original commit sha is - 63686a3711111c098eea1bee39014f1a1228adb3
+Commit message - Revert "tweaks"
+
+This reverts commit 9352f345d5eacbd0ff9732aa8f5c5f53c16c80d7.
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ a809d8d7bb52acf3ec82b859f1f14e0b8e94e198 -> 691047f28d923d6866e6a8f3e84984732439107d } is a revert
+{ 691047f28d923d6866e6a8f3e84984732439107d -> ef88076f14eb1850ea053c4df0a1269491c73967 }
+Revert commits SHA are -> 
+691047f28d923d6866e6a8f3e84984732439107d - revert - ef88076f14eb1850ea053c4df0a1269491c73967
+---> The reverted commit sha is - 691047f28d923d6866e6a8f3e84984732439107d
+Commit message - make Pointer{Events,Gestures} build list more concise
+---> The original commit sha is - ef88076f14eb1850ea053c4df0a1269491c73967
+Commit message - Revert "make Pointer{Events,Gestures} build list more concise"
+
+List needs to be in proper order, not just a glob
+
+This reverts commit 691047f28d923d6866e6a8f3e84984732439107d.
+-----------------------------------------------------------------
+
+Revert diff pair 6 is -> 
+{ d1af5a61dd00a30b8898555d86d05c5e6765bf41 -> c073e71e35d1374aa0db74969c600109fe5adba3 } is a revert
+{ c073e71e35d1374aa0db74969c600109fe5adba3 -> 952630e6bc7858f6146a45597ca1a3eae0de33dd }
+Revert commits SHA are -> 
+c073e71e35d1374aa0db74969c600109fe5adba3 - revert - 952630e6bc7858f6146a45597ca1a3eae0de33dd
+---> The reverted commit sha is - c073e71e35d1374aa0db74969c600109fe5adba3
+Commit message - Merge pull request #20 from sjmiles/e334f1293f394165dd1e53e7527bc624f99ec4f7
+
+use MutationObserver to maintain custom event bindings, bug fixes
+---> The original commit sha is - 952630e6bc7858f6146a45597ca1a3eae0de33dd
+Commit message - Merge branch 'master' of https://github.com/toolkitchen/toolkit
+-----------------------------------------------------------------
+
+Revert diff pair 7 is -> 
+{ 6f1eb45cbd50f0f916cac608710932cda292cdfe -> d1af5a61dd00a30b8898555d86d05c5e6765bf41 } is a revert
+{ d1af5a61dd00a30b8898555d86d05c5e6765bf41 -> c073e71e35d1374aa0db74969c600109fe5adba3 }
+Revert commits SHA are -> 
+d1af5a61dd00a30b8898555d86d05c5e6765bf41 - revert - c073e71e35d1374aa0db74969c600109fe5adba3
+---> The reverted commit sha is - d1af5a61dd00a30b8898555d86d05c5e6765bf41
+Commit message - DOMTokenList.enable was renamed to toggle at platform
+---> The original commit sha is - c073e71e35d1374aa0db74969c600109fe5adba3
+Commit message - Merge pull request #20 from sjmiles/e334f1293f394165dd1e53e7527bc624f99ec4f7
+
+use MutationObserver to maintain custom event bindings, bug fixes
+-----------------------------------------------------------------
+

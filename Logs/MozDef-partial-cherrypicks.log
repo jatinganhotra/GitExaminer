@@ -1,0 +1,1069 @@
+# of partial cherrypicks = 59
+Partial Cherry-pick diff pair 1 is -> 
+{ 7aa3f1e0cb3d0fd40f72d8e64b3f0f8d76392a24 -> 67e5f9e963bb070bb684b193037618378c3a9551 } is a cherrypick
+{ 43d22324a8e546d1549a696a32f5441adf01224c -> 003a2f3bfc07fc222ca57f369ac9a4f9e33d9154 }
+Partial Cherry-pick commits SHA are -> 
+67e5f9e963bb070bb684b193037618378c3a9551 - cherrypick - 003a2f3bfc07fc222ca57f369ac9a4f9e33d9154
+---> The cherrypicked commit sha is - 67e5f9e963bb070bb684b193037618378c3a9551
+Commit message - Replace client cert with PGP token in mig2mozdef.py
+
+This will require provisioning changes to replace the existing client cert with a
+gnupg keyring in puppet.
+---> The original commit sha is - 003a2f3bfc07fc222ca57f369ac9a4f9e33d9154
+Commit message - Merge pull request #203 from jvehent/migpgpauth
+
+Replace client cert with PGP token in mig2mozdef.py
+---> The files with partial_cherrypicks are:-
+cron/mig2mozdef.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ eb48be81962814fdd4301f5ecd462c7362b8fcae -> 9fb9e9130d0f2cd47c251c9d7096bf7b24934cb0 } is a cherrypick
+{ c7c1d20d226c9918fe7f5abc1a5c36a8b071c3ef -> 8c678b2431b502a120e149bc7fbd5867e121e397 }
+Partial Cherry-pick commits SHA are -> 
+9fb9e9130d0f2cd47c251c9d7096bf7b24934cb0 - cherrypick - 8c678b2431b502a120e149bc7fbd5867e121e397
+---> The cherrypicked commit sha is - 9fb9e9130d0f2cd47c251c9d7096bf7b24934cb0
+Commit message - Add dependencies required by mozdefbot.py
+---> The original commit sha is - 8c678b2431b502a120e149bc7fbd5867e121e397
+Commit message - remove regex examples since heka deprecated regex
+---> The files with partial_cherrypicks are:-
+examples/heka-regex-syslog/README.md
+examples/heka-regex-syslog/heka.toml
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ d8ab423c193761020b472b28421dc95ac4e8b41e -> ff5ea1ee519cddcade083ed8a069f3e66ce4c368 } is a cherrypick
+{ dc10161bda705df0a960d38eb7bc70f83729313e -> 9f372cdef41cae263c7fb9ea620ec3ecd58e4819 }
+Partial Cherry-pick commits SHA are -> 
+ff5ea1ee519cddcade083ed8a069f3e66ce4c368 - cherrypick - 9f372cdef41cae263c7fb9ea620ec3ecd58e4819
+---> The cherrypicked commit sha is - ff5ea1ee519cddcade083ed8a069f3e66ce4c368
+Commit message - Missing a ">" at the end of the nxlog.conf file
+---> The original commit sha is - 9f372cdef41cae263c7fb9ea620ec3ecd58e4819
+Commit message - Merge pull request #189 from mseguin/master
+
+Missing a ">" at the end of the nxlog.conf file
+---> The files with partial_cherrypicks are:-
+examples/nxlog-syslog/nxlog.conf
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ d8ab423c193761020b472b28421dc95ac4e8b41e -> ff5ea1ee519cddcade083ed8a069f3e66ce4c368 } is a cherrypick
+{ b2806374eacab8f3a4132f9cd9e9015fda1642c5 -> dc10161bda705df0a960d38eb7bc70f83729313e }
+Partial Cherry-pick commits SHA are -> 
+ff5ea1ee519cddcade083ed8a069f3e66ce4c368 - cherrypick - dc10161bda705df0a960d38eb7bc70f83729313e
+---> The cherrypicked commit sha is - ff5ea1ee519cddcade083ed8a069f3e66ce4c368
+Commit message - Missing a ">" at the end of the nxlog.conf file
+---> The original commit sha is - dc10161bda705df0a960d38eb7bc70f83729313e
+Commit message - internz mix they tabs and spaces
+---> The files with partial_cherrypicks are:-
+alerts/bro_intel.py
+alerts/bro_notice.py
+alerts/bruteforce_ssh.py
+alerts/bruteforce_ssh_pyes.py
+alerts/cloudtrail.py
+alerts/cloudtrail_pyes.py
+alerts/fail2ban.py
+alerts/fail2ban_pyes.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ d8ab423c193761020b472b28421dc95ac4e8b41e -> ff5ea1ee519cddcade083ed8a069f3e66ce4c368 } is a cherrypick
+{ 111a4e26985b59d414c939dda63799c2cb3ca48a -> b2806374eacab8f3a4132f9cd9e9015fda1642c5 }
+Partial Cherry-pick commits SHA are -> 
+ff5ea1ee519cddcade083ed8a069f3e66ce4c368 - cherrypick - b2806374eacab8f3a4132f9cd9e9015fda1642c5
+---> The cherrypicked commit sha is - ff5ea1ee519cddcade083ed8a069f3e66ce4c368
+Commit message - Missing a ">" at the end of the nxlog.conf file
+---> The original commit sha is - b2806374eacab8f3a4132f9cd9e9015fda1642c5
+Commit message - explicitly set the timezone to get actual iso format and allow folks to run in whatever timezone
+---> The files with partial_cherrypicks are:-
+alerts/lib/alerttask.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ d8ab423c193761020b472b28421dc95ac4e8b41e -> ff5ea1ee519cddcade083ed8a069f3e66ce4c368 } is a cherrypick
+{ 00d18b40a28e8a3adb63e111280f6932075b3e6e -> 517301d1fa184ca032b3a23890ab02d0636d6864 }
+Partial Cherry-pick commits SHA are -> 
+ff5ea1ee519cddcade083ed8a069f3e66ce4c368 - cherrypick - 517301d1fa184ca032b3a23890ab02d0636d6864
+---> The cherrypicked commit sha is - ff5ea1ee519cddcade083ed8a069f3e66ce4c368
+Commit message - Missing a ">" at the end of the nxlog.conf file
+---> The original commit sha is - 517301d1fa184ca032b3a23890ab02d0636d6864
+Commit message - use json instead of pickle for default celery serialization
+---> The files with partial_cherrypicks are:-
+alerts/celeryconfig.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ 092b62fdd91b37aa6e8cfb926dd6cc7bd2e952bd -> 0890fa12d1f129930ef0139347b3d94c26078e1d } is a cherrypick
+{ b06479a15466fe8f7c9aa891c911135bd3b0bf24 -> f167251c642e1124eb182b51b958de4ce8df3577 }
+Partial Cherry-pick commits SHA are -> 
+0890fa12d1f129930ef0139347b3d94c26078e1d - cherrypick - f167251c642e1124eb182b51b958de4ce8df3577
+---> The cherrypicked commit sha is - 0890fa12d1f129930ef0139347b3d94c26078e1d
+Commit message - reorg js files, closes 154
+---> The original commit sha is - f167251c642e1124eb182b51b958de4ce8df3577
+Commit message - merge upstream changes
+---> The files with partial_cherrypicks are:-
+docker/settings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 8 is -> 
+{ 9bbb514616c9c2d802e29ac18c0b1ab95ca6367e -> 9578b319ff10754d788d904e6bfabcb5212523ff } is a cherrypick
+{ b06479a15466fe8f7c9aa891c911135bd3b0bf24 -> f167251c642e1124eb182b51b958de4ce8df3577 }
+Partial Cherry-pick commits SHA are -> 
+9578b319ff10754d788d904e6bfabcb5212523ff - cherrypick - f167251c642e1124eb182b51b958de4ce8df3577
+---> The cherrypicked commit sha is - 9578b319ff10754d788d904e6bfabcb5212523ff
+Commit message - averez-147-celery-alerts: add the lib
+---> The original commit sha is - f167251c642e1124eb182b51b958de4ce8df3577
+Commit message - merge upstream changes
+---> The files with partial_cherrypicks are:-
+docker/settings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 9 is -> 
+{ dc012f6e031beb453d6afca5e1eff79933cbeaff -> 0636fe04664aa851432763b71943ff2ac2185a99 } is a cherrypick
+{ b06479a15466fe8f7c9aa891c911135bd3b0bf24 -> f167251c642e1124eb182b51b958de4ce8df3577 }
+Partial Cherry-pick commits SHA are -> 
+0636fe04664aa851432763b71943ff2ac2185a99 - cherrypick - f167251c642e1124eb182b51b958de4ce8df3577
+---> The cherrypicked commit sha is - 0636fe04664aa851432763b71943ff2ac2185a99
+Commit message - averez-147-celery-alerts: add some documentation
+---> The original commit sha is - f167251c642e1124eb182b51b958de4ce8df3577
+Commit message - merge upstream changes
+---> The files with partial_cherrypicks are:-
+docker/settings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 10 is -> 
+{ 548f7c81b04cb1df973c51a9d19ccd1fe27cb0fe -> 6440917ebeaf5d8d78559376b66907d2e76a180f } is a cherrypick
+{ b06479a15466fe8f7c9aa891c911135bd3b0bf24 -> f167251c642e1124eb182b51b958de4ce8df3577 }
+Partial Cherry-pick commits SHA are -> 
+6440917ebeaf5d8d78559376b66907d2e76a180f - cherrypick - f167251c642e1124eb182b51b958de4ce8df3577
+---> The cherrypicked commit sha is - 6440917ebeaf5d8d78559376b66907d2e76a180f
+Commit message - averez-147-celery-alerts: fix copy paste bug in the docker config
+---> The original commit sha is - f167251c642e1124eb182b51b958de4ce8df3577
+Commit message - merge upstream changes
+---> The files with partial_cherrypicks are:-
+docker/settings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 11 is -> 
+{ 5ece6b25262582d28284c9b33db1a0fadc63e928 -> 96316bf54b735f3ccefe3d9a9049bd80ba0e1cd7 } is a cherrypick
+{ b06479a15466fe8f7c9aa891c911135bd3b0bf24 -> f167251c642e1124eb182b51b958de4ce8df3577 }
+Partial Cherry-pick commits SHA are -> 
+96316bf54b735f3ccefe3d9a9049bd80ba0e1cd7 - cherrypick - f167251c642e1124eb182b51b958de4ce8df3577
+---> The cherrypicked commit sha is - 96316bf54b735f3ccefe3d9a9049bd80ba0e1cd7
+Commit message - averez-147-celery-alerts: fix dashboard paths
+---> The original commit sha is - f167251c642e1124eb182b51b958de4ce8df3577
+Commit message - merge upstream changes
+---> The files with partial_cherrypicks are:-
+docker/settings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 12 is -> 
+{ f96e4848b20ed149e1a5fcc774a891806a8ac533 -> cadcc5b15378a9e506f49588166a80f64f32f3c6 } is a cherrypick
+{ 9e9f40baf34e79d7bbfca501d7d6caa6546379d2 -> b06479a15466fe8f7c9aa891c911135bd3b0bf24 }
+Partial Cherry-pick commits SHA are -> 
+cadcc5b15378a9e506f49588166a80f64f32f3c6 - cherrypick - b06479a15466fe8f7c9aa891c911135bd3b0bf24
+---> The cherrypicked commit sha is - cadcc5b15378a9e506f49588166a80f64f32f3c6
+Commit message - add dshield IP lookup, zindex the ip menus
+---> The original commit sha is - b06479a15466fe8f7c9aa891c911135bd3b0bf24
+Commit message - correct docker settings inside docker/conf
+---> The files with partial_cherrypicks are:-
+docker/settings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 13 is -> 
+{ 6440917ebeaf5d8d78559376b66907d2e76a180f -> 5ece6b25262582d28284c9b33db1a0fadc63e928 } is a cherrypick
+{ 9e9f40baf34e79d7bbfca501d7d6caa6546379d2 -> b06479a15466fe8f7c9aa891c911135bd3b0bf24 }
+Partial Cherry-pick commits SHA are -> 
+5ece6b25262582d28284c9b33db1a0fadc63e928 - cherrypick - b06479a15466fe8f7c9aa891c911135bd3b0bf24
+---> The cherrypicked commit sha is - 5ece6b25262582d28284c9b33db1a0fadc63e928
+Commit message - allow alert to pick an irc channel, closes 150
+---> The original commit sha is - b06479a15466fe8f7c9aa891c911135bd3b0bf24
+Commit message - correct docker settings inside docker/conf
+---> The files with partial_cherrypicks are:-
+docker/settings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 14 is -> 
+{ 96316bf54b735f3ccefe3d9a9049bd80ba0e1cd7 -> 0d1b28848816d820ff7c522533f9fcf890f482fc } is a cherrypick
+{ 9e9f40baf34e79d7bbfca501d7d6caa6546379d2 -> b06479a15466fe8f7c9aa891c911135bd3b0bf24 }
+Partial Cherry-pick commits SHA are -> 
+0d1b28848816d820ff7c522533f9fcf890f482fc - cherrypick - b06479a15466fe8f7c9aa891c911135bd3b0bf24
+---> The cherrypicked commit sha is - 0d1b28848816d820ff7c522533f9fcf890f482fc
+Commit message - no clicks for EPS/load average charts, closes 168
+---> The original commit sha is - b06479a15466fe8f7c9aa891c911135bd3b0bf24
+Commit message - correct docker settings inside docker/conf
+---> The files with partial_cherrypicks are:-
+docker/settings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 15 is -> 
+{ 092b62fdd91b37aa6e8cfb926dd6cc7bd2e952bd -> 0890fa12d1f129930ef0139347b3d94c26078e1d } is a cherrypick
+{ c8aca1c1c27f55ca7ae4bb73434ab9906f356be1 -> ba69c2ce1d4237a4759e2bebe12a736161405fc1 }
+Partial Cherry-pick commits SHA are -> 
+0890fa12d1f129930ef0139347b3d94c26078e1d - cherrypick - ba69c2ce1d4237a4759e2bebe12a736161405fc1
+---> The cherrypicked commit sha is - 0890fa12d1f129930ef0139347b3d94c26078e1d
+Commit message - reorg js files, closes 154
+---> The original commit sha is - ba69c2ce1d4237a4759e2bebe12a736161405fc1
+Commit message - docker cleanup settings.js
+---> The files with partial_cherrypicks are:-
+docker/settings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 16 is -> 
+{ 9bbb514616c9c2d802e29ac18c0b1ab95ca6367e -> 9578b319ff10754d788d904e6bfabcb5212523ff } is a cherrypick
+{ c8aca1c1c27f55ca7ae4bb73434ab9906f356be1 -> ba69c2ce1d4237a4759e2bebe12a736161405fc1 }
+Partial Cherry-pick commits SHA are -> 
+9578b319ff10754d788d904e6bfabcb5212523ff - cherrypick - ba69c2ce1d4237a4759e2bebe12a736161405fc1
+---> The cherrypicked commit sha is - 9578b319ff10754d788d904e6bfabcb5212523ff
+Commit message - averez-147-celery-alerts: add the lib
+---> The original commit sha is - ba69c2ce1d4237a4759e2bebe12a736161405fc1
+Commit message - docker cleanup settings.js
+---> The files with partial_cherrypicks are:-
+docker/settings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 17 is -> 
+{ dc012f6e031beb453d6afca5e1eff79933cbeaff -> 0636fe04664aa851432763b71943ff2ac2185a99 } is a cherrypick
+{ c8aca1c1c27f55ca7ae4bb73434ab9906f356be1 -> ba69c2ce1d4237a4759e2bebe12a736161405fc1 }
+Partial Cherry-pick commits SHA are -> 
+0636fe04664aa851432763b71943ff2ac2185a99 - cherrypick - ba69c2ce1d4237a4759e2bebe12a736161405fc1
+---> The cherrypicked commit sha is - 0636fe04664aa851432763b71943ff2ac2185a99
+Commit message - averez-147-celery-alerts: add some documentation
+---> The original commit sha is - ba69c2ce1d4237a4759e2bebe12a736161405fc1
+Commit message - docker cleanup settings.js
+---> The files with partial_cherrypicks are:-
+docker/settings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 18 is -> 
+{ 548f7c81b04cb1df973c51a9d19ccd1fe27cb0fe -> 6440917ebeaf5d8d78559376b66907d2e76a180f } is a cherrypick
+{ c8aca1c1c27f55ca7ae4bb73434ab9906f356be1 -> ba69c2ce1d4237a4759e2bebe12a736161405fc1 }
+Partial Cherry-pick commits SHA are -> 
+6440917ebeaf5d8d78559376b66907d2e76a180f - cherrypick - ba69c2ce1d4237a4759e2bebe12a736161405fc1
+---> The cherrypicked commit sha is - 6440917ebeaf5d8d78559376b66907d2e76a180f
+Commit message - averez-147-celery-alerts: fix copy paste bug in the docker config
+---> The original commit sha is - ba69c2ce1d4237a4759e2bebe12a736161405fc1
+Commit message - docker cleanup settings.js
+---> The files with partial_cherrypicks are:-
+docker/settings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 19 is -> 
+{ 5ece6b25262582d28284c9b33db1a0fadc63e928 -> 96316bf54b735f3ccefe3d9a9049bd80ba0e1cd7 } is a cherrypick
+{ c8aca1c1c27f55ca7ae4bb73434ab9906f356be1 -> ba69c2ce1d4237a4759e2bebe12a736161405fc1 }
+Partial Cherry-pick commits SHA are -> 
+96316bf54b735f3ccefe3d9a9049bd80ba0e1cd7 - cherrypick - ba69c2ce1d4237a4759e2bebe12a736161405fc1
+---> The cherrypicked commit sha is - 96316bf54b735f3ccefe3d9a9049bd80ba0e1cd7
+Commit message - averez-147-celery-alerts: fix dashboard paths
+---> The original commit sha is - ba69c2ce1d4237a4759e2bebe12a736161405fc1
+Commit message - docker cleanup settings.js
+---> The files with partial_cherrypicks are:-
+docker/settings.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 20 is -> 
+{ 548f7c81b04cb1df973c51a9d19ccd1fe27cb0fe -> 6440917ebeaf5d8d78559376b66907d2e76a180f } is a cherrypick
+{ 1c8e9bf55b726d9f0be002e8e5c2d7a2b16ce9e3 -> 9fff6bfbe7b68c1fa307a25c9c4176e9838af4f0 }
+Partial Cherry-pick commits SHA are -> 
+6440917ebeaf5d8d78559376b66907d2e76a180f - cherrypick - 9fff6bfbe7b68c1fa307a25c9c4176e9838af4f0
+---> The cherrypicked commit sha is - 6440917ebeaf5d8d78559376b66907d2e76a180f
+Commit message - averez-147-celery-alerts: fix copy paste bug in the docker config
+---> The original commit sha is - 9fff6bfbe7b68c1fa307a25c9c4176e9838af4f0
+Commit message - Merge branch 'master' into averez-147-celery-alerts
+
+Conflicts:
+	docker/Dockerfile
+---> The files with partial_cherrypicks are:-
+.gitignore
+alerts/bro_intel.py
+alerts/bro_intel_dashboard.json
+alerts/bro_intel_pyes.py
+alerts/bro_notice.py
+alerts/bro_notice_dashboard.json
+alerts/bruteforce_ssh.py
+alerts/bruteforce_ssh_dashboard.json
+alerts/bruteforce_ssh_pyes.py
+alerts/celeryconfig.py
+alerts/cloudtrail.py
+alerts/cloudtrail_dashboard.json
+alerts/cloudtrail_pyes.py
+alerts/fail2ban.py
+alerts/fail2ban_dashboard.json
+alerts/fail2ban_pyes.py
+alerts/lib/alerttask.py
+alerts/lib/config.py
+docker/Dockerfile
+docker/conf/config.py
+docker/conf/settings.js
+docker/conf/supervisor.conf
+docs/source/index.rst
+docs/source/usage.rst
+examples/es-docs/alerts.json
+examples/es-docs/bro_intel.json
+examples/es-docs/bro_notice.json
+examples/es-docs/bruteforce_ssh.json
+examples/es-docs/fail2ban.json
+examples/es-docs/inject.py
+utils/es.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 21 is -> 
+{ 5ece6b25262582d28284c9b33db1a0fadc63e928 -> 96316bf54b735f3ccefe3d9a9049bd80ba0e1cd7 } is a cherrypick
+{ 1c8e9bf55b726d9f0be002e8e5c2d7a2b16ce9e3 -> 9fff6bfbe7b68c1fa307a25c9c4176e9838af4f0 }
+Partial Cherry-pick commits SHA are -> 
+96316bf54b735f3ccefe3d9a9049bd80ba0e1cd7 - cherrypick - 9fff6bfbe7b68c1fa307a25c9c4176e9838af4f0
+---> The cherrypicked commit sha is - 96316bf54b735f3ccefe3d9a9049bd80ba0e1cd7
+Commit message - averez-147-celery-alerts: fix dashboard paths
+---> The original commit sha is - 9fff6bfbe7b68c1fa307a25c9c4176e9838af4f0
+Commit message - Merge branch 'master' into averez-147-celery-alerts
+
+Conflicts:
+	docker/Dockerfile
+---> The files with partial_cherrypicks are:-
+.gitignore
+alerts/bro_intel.py
+alerts/bro_intel_dashboard.json
+alerts/bro_intel_pyes.py
+alerts/bro_notice.py
+alerts/bro_notice_dashboard.json
+alerts/bruteforce_ssh.py
+alerts/bruteforce_ssh_dashboard.json
+alerts/bruteforce_ssh_pyes.py
+alerts/celeryconfig.py
+alerts/cloudtrail.py
+alerts/cloudtrail_dashboard.json
+alerts/cloudtrail_pyes.py
+alerts/fail2ban.py
+alerts/fail2ban_dashboard.json
+alerts/fail2ban_pyes.py
+alerts/lib/alerttask.py
+alerts/lib/config.py
+docker/Dockerfile
+docker/conf/config.py
+docker/conf/settings.js
+docker/conf/supervisor.conf
+docs/source/index.rst
+docs/source/usage.rst
+examples/es-docs/alerts.json
+examples/es-docs/bro_intel.json
+examples/es-docs/bro_notice.json
+examples/es-docs/bruteforce_ssh.json
+examples/es-docs/fail2ban.json
+examples/es-docs/inject.py
+utils/es.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 22 is -> 
+{ 6440917ebeaf5d8d78559376b66907d2e76a180f -> 5ece6b25262582d28284c9b33db1a0fadc63e928 } is a cherrypick
+{ 96316bf54b735f3ccefe3d9a9049bd80ba0e1cd7 -> 0d1b28848816d820ff7c522533f9fcf890f482fc }
+Partial Cherry-pick commits SHA are -> 
+5ece6b25262582d28284c9b33db1a0fadc63e928 - cherrypick - 0d1b28848816d820ff7c522533f9fcf890f482fc
+---> The cherrypicked commit sha is - 5ece6b25262582d28284c9b33db1a0fadc63e928
+Commit message - allow alert to pick an irc channel, closes 150
+---> The original commit sha is - 0d1b28848816d820ff7c522533f9fcf890f482fc
+Commit message - no clicks for EPS/load average charts, closes 168
+---> The files with partial_cherrypicks are:-
+.gitignore
+alerts/bro_intel.py
+alerts/bro_intel_dashboard.json
+alerts/bro_intel_pyes.py
+alerts/bro_notice.py
+alerts/bro_notice_dashboard.json
+alerts/bruteforce_ssh.py
+alerts/bruteforce_ssh_dashboard.json
+alerts/bruteforce_ssh_pyes.py
+alerts/celeryconfig.py
+alerts/cloudtrail.py
+alerts/cloudtrail_dashboard.json
+alerts/cloudtrail_pyes.py
+alerts/fail2ban.py
+alerts/fail2ban_dashboard.json
+alerts/fail2ban_pyes.py
+alerts/lib/alerttask.py
+alerts/lib/config.py
+bot/mozdefbot.py
+cron/collectAttackers.py
+cron/mig2mozdef.py
+cron/syncAlertsToMongo.py
+docker/Dockerfile
+docker/conf/config.py
+docker/conf/settings.js
+docker/conf/supervisor.conf
+docker/settings.js
+docs/source/index.rst
+docs/source/installation.rst
+docs/source/usage.rst
+examples/es-docs/alerts.json
+examples/es-docs/bro_intel.json
+examples/es-docs/bro_notice.json
+examples/es-docs/bruteforce_ssh.json
+examples/es-docs/fail2ban.json
+examples/es-docs/inject.py
+meteor/app/client/alert.html
+meteor/app/client/alertdetail.js
+meteor/app/client/alertssummary.html
+meteor/app/client/alertsummary.js
+meteor/app/client/attackers.html
+meteor/app/client/attackers.js
+meteor/app/client/banhammer.html
+meteor/app/client/blockIP.html
+meteor/app/client/blockIP.js
+meteor/app/client/incidents.js
+meteor/app/client/ipdshield.html
+meteor/app/client/ipdshield.js
+meteor/app/client/ipwhois.html
+meteor/app/client/ipwhois.js
+meteor/app/client/js/jquery.highlight.js
+meteor/app/client/js/zTrackballControls.js
+meteor/app/client/logincounts.js
+meteor/app/client/menu.html
+meteor/app/client/mozdef.js
+meteor/app/lib/collections.js
+meteor/app/lib/settings.js
+meteor/app/router/router.js
+meteor/app/server/methods.js
+meteor/app/server/mozdef.js
+meteor/mozdef.html
+meteor/public/css/dropdowns.css
+meteor/public/css/mozdef.css
+requirements.txt
+rest/index.py
+utils/es.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 23 is -> 
+{ 470b3face48dced1553f0b04ad3bb36f7c55c751 -> 730715e858b4dea23f5e1383e21cc307c9e3eabc } is a cherrypick
+{ 0890fa12d1f129930ef0139347b3d94c26078e1d -> 8e92d0c6b2081cf64c049a343cf5776963acaf3e }
+Partial Cherry-pick commits SHA are -> 
+730715e858b4dea23f5e1383e21cc307c9e3eabc - cherrypick - 8e92d0c6b2081cf64c049a343cf5776963acaf3e
+---> The cherrypicked commit sha is - 730715e858b4dea23f5e1383e21cc307c9e3eabc
+Commit message - averez-docker-settings: add settings.js in conf/ to be able to adapt it and fix ipwhois crazy dep bug
+---> The original commit sha is - 8e92d0c6b2081cf64c049a343cf5776963acaf3e
+Commit message - upstream merge
+---> The files with partial_cherrypicks are:-
+docker/Dockerfile
+docker/settings.js
+requirements.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 24 is -> 
+{ 9e1c83946e200b7703854a7638f7cab724422336 -> a719869b050729e41504428ec89ca26df65b6155 } is a cherrypick
+{ a751660876300bc1dd3db24a1113eb91329f6472 -> 9aa7fce80ecf05e24f18b73b1c79cee688a4ba3e }
+Partial Cherry-pick commits SHA are -> 
+a719869b050729e41504428ec89ca26df65b6155 - cherrypick - 9aa7fce80ecf05e24f18b73b1c79cee688a4ba3e
+---> The cherrypicked commit sha is - a719869b050729e41504428ec89ca26df65b6155
+Commit message - Merge pull request #128 from netantho/averez-95-meteor-update
+
+Meteor update + mysqldb dep fix
+---> The original commit sha is - 9aa7fce80ecf05e24f18b73b1c79cee688a4ba3e
+Commit message - Merge pull request #129 from netantho/averez-66-unique-alert-url
+
+Unique URL per alert
+---> The files with partial_cherrypicks are:-
+docker/Dockerfile
+docs/source/installation.rst
+meteor/.meteor/release
+requirements.txt
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 25 is -> 
+{ ae11b8ba661234dac415667b0916ccb0fad2a27e -> fabc2f2fb8273773ae37080bb043d24aefda4192 } is a cherrypick
+{ 8d8c82a7f2260c968b9ba3c68f6527edb1dc058e -> 81f3b450b3ac40f886e2454fc10902786fbd1c53 }
+Partial Cherry-pick commits SHA are -> 
+fabc2f2fb8273773ae37080bb043d24aefda4192 - cherrypick - 81f3b450b3ac40f886e2454fc10902786fbd1c53
+---> The cherrypicked commit sha is - fabc2f2fb8273773ae37080bb043d24aefda4192
+Commit message - averez-scripted-dashboards: event and alert sciripted kibana dashboards
+---> The original commit sha is - 81f3b450b3ac40f886e2454fc10902786fbd1c53
+Commit message - Merge pull request #122 from netantho/averez-scripted-dashboards
+
+event and alert scripted kibana dashboards
+---> The files with partial_cherrypicks are:-
+examples/kibana/dashboards/alert.js
+examples/kibana/dashboards/event.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 26 is -> 
+{ 860e29f15cc63a61c13a51c334fc295310966741 -> f83fde156233d8472cde8ba21887bdc5960e2b8d } is a cherrypick
+{ 6f5e8ca23b5888083e03b689f2569179988f73ba -> 506b035b463e3af83a622905a32b3378916bb593 }
+Partial Cherry-pick commits SHA are -> 
+f83fde156233d8472cde8ba21887bdc5960e2b8d - cherrypick - 506b035b463e3af83a622905a32b3378916bb593
+---> The cherrypicked commit sha is - f83fde156233d8472cde8ba21887bdc5960e2b8d
+Commit message - averez-snmptt-plugin: snmptt parsing
+---> The original commit sha is - 506b035b463e3af83a622905a32b3378916bb593
+Commit message - Merge pull request #118 from netantho/averez-snmptt-plugin
+
+snmptt plugin
+---> The files with partial_cherrypicks are:-
+mq/plugins/snmptt.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 27 is -> 
+{ fabc2f2fb8273773ae37080bb043d24aefda4192 -> 7341ecfce431dc01493622700a366fdecde2e766 } is a cherrypick
+{ e386385f7ec709116b5c1a2f6b0180c17fddfabd -> 6f5e8ca23b5888083e03b689f2569179988f73ba }
+Partial Cherry-pick commits SHA are -> 
+7341ecfce431dc01493622700a366fdecde2e766 - cherrypick - 6f5e8ca23b5888083e03b689f2569179988f73ba
+---> The cherrypicked commit sha is - 7341ecfce431dc01493622700a366fdecde2e766
+Commit message - averez-rtflow-plugin: add action field
+---> The original commit sha is - 6f5e8ca23b5888083e03b689f2569179988f73ba
+Commit message - Merge pull request #117 from netantho/averez-rtflow-plugin
+
+RT_FLOW plugin
+---> The files with partial_cherrypicks are:-
+mq/plugins/rt_flow.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 28 is -> 
+{ fa5b5cff5faca7e9b0ed0bcd51ddeb0d0b954b51 -> 305fa4f5b02cf6e07d9ba11dc61a53404723294b } is a cherrypick
+{ d62655861d5e8c5ae347df63c2264281f009a492 -> 7cf0538e42a2db3a3238bc06ac320f4331212e36 }
+Partial Cherry-pick commits SHA are -> 
+305fa4f5b02cf6e07d9ba11dc61a53404723294b - cherrypick - 7cf0538e42a2db3a3238bc06ac320f4331212e36
+---> The cherrypicked commit sha is - 305fa4f5b02cf6e07d9ba11dc61a53404723294b
+Commit message - add dc/crossfilter/d3 driven charts to about/health screen
+---> The original commit sha is - 7cf0538e42a2db3a3238bc06ac320f4331212e36
+Commit message - Merge pull request #119 from netantho/averez-mig
+
+Add mig2mozdef cron script
+---> The files with partial_cherrypicks are:-
+bot/mozdefbot.py
+cron/broAlerts.py
+cron/cloudTrailAlerts.py
+cron/cloudtrail2mozdef.py
+cron/healthAndStatus.py
+cron/healthToMongo.py
+docs/source/installation.rst
+examples/es-docs/events_template.json
+examples/es-docs/vulnsnitch_template.json
+loginput/index.py
+meteor/app/client/attackers.html
+meteor/app/client/js/crossfilter.js
+meteor/app/client/js/dc.css
+meteor/app/client/js/dc.js
+meteor/app/client/js/three.js
+meteor/app/client/js/zCSS3DRenderer.js
+meteor/app/client/js/zTrackballControls.js
+meteor/app/client/mozdefhealth.html
+meteor/app/lib/collections.js
+meteor/public/css/mozdef.css
+meteor/public/other/ogro/Ogro.txt
+meteor/public/other/ogro/ogro-light.js
+meteor/public/other/ogro/weapon-light.js
+mq/esworker.py
+mq/plugins/dropMessage.py
+mq/plugins/geoip.py
+mq/plugins/ipFixup.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 29 is -> 
+{ c01f30e2815f7f0fe22f78f3069237ad9a707eba -> ba5dfda492fb29b5a612b607ddca6c083a247934 } is a cherrypick
+{ b071078e6858b3e6346f69b94d61aaab673a989f -> b47ecfab406ce4b34fb9efc2026ae9ef42a35202 }
+Partial Cherry-pick commits SHA are -> 
+ba5dfda492fb29b5a612b607ddca6c083a247934 - cherrypick - b47ecfab406ce4b34fb9efc2026ae9ef42a35202
+---> The cherrypicked commit sha is - ba5dfda492fb29b5a612b607ddca6c083a247934
+Commit message - averez-vulnsnitch: mapping for vulnsnitch
+---> The original commit sha is - b47ecfab406ce4b34fb9efc2026ae9ef42a35202
+Commit message - Merge pull request #112 from netantho/averez-vulnsnitch
+
+averez-vulnsnitch: mapping for vulnsnitch
+---> The files with partial_cherrypicks are:-
+examples/es-docs/vulnsnitch_template.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 30 is -> 
+{ ba5dfda492fb29b5a612b607ddca6c083a247934 -> a163836a72871a55bd806ebf483f62d75ef593a6 } is a cherrypick
+{ 250920215db4724bcf48e24c3bbb9c82db4cb3a0 -> b071078e6858b3e6346f69b94d61aaab673a989f }
+Partial Cherry-pick commits SHA are -> 
+a163836a72871a55bd806ebf483f62d75ef593a6 - cherrypick - b071078e6858b3e6346f69b94d61aaab673a989f
+---> The cherrypicked commit sha is - a163836a72871a55bd806ebf483f62d75ef593a6
+Commit message - averez-mig: add mappings for complianceitems index
+---> The original commit sha is - b071078e6858b3e6346f69b94d61aaab673a989f
+Commit message - Merge pull request #111 from netantho/averez-mig
+
+averez-mig: add mappings for complianceitems index
+---> The files with partial_cherrypicks are:-
+examples/es-docs/complianceitems_template.json
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 31 is -> 
+{ c01f30e2815f7f0fe22f78f3069237ad9a707eba -> ba5dfda492fb29b5a612b607ddca6c083a247934 } is a cherrypick
+{ 1ae617f14dea96b62abaaa74a7becac737a24b65 -> 7e982d5f5ee34a1b5bd3fc53b0e805f3a1a9e5e6 }
+Partial Cherry-pick commits SHA are -> 
+ba5dfda492fb29b5a612b607ddca6c083a247934 - cherrypick - 7e982d5f5ee34a1b5bd3fc53b0e805f3a1a9e5e6
+---> The cherrypicked commit sha is - ba5dfda492fb29b5a612b607ddca6c083a247934
+Commit message - averez-vulnsnitch: mapping for vulnsnitch
+---> The original commit sha is - 7e982d5f5ee34a1b5bd3fc53b0e805f3a1a9e5e6
+Commit message - Merge pull request #110 from BjornArnelid/master
+
+Closes #81
+---> The files with partial_cherrypicks are:-
+.gitignore
+bot/mozdefbot.py
+cron/healthAndStatus.py
+cron/healthToMongo.py
+cron/setupIndexTemplates.py
+docker/Dockerfile
+docker/conf/supervisor.conf
+docs/source/overview.rst
+examples/es-docs/events-auditd.json
+examples/es-docs/events_template.json
+examples/es-docs/inject.py
+initscripts/mozdefbot
+lib/cefFifo2MQ.py
+loginput/index.py
+meteor/app/client/about.html
+meteor/app/client/eshealthTable.html
+meteor/app/client/mozdef.js
+meteor/app/client/mozdefhealth.html
+meteor/app/lib/collections.js
+meteor/app/server/methods.js
+meteor/app/server/mozdef.js
+meteor/mozdef.html
+mq/esworker.py
+mq/plugins/dropMessage.py
+mq/plugins/geoip.py
+requirements.txt
+utils/es.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 32 is -> 
+{ fe5cb60c6ceb777fb397b6ec871ff92992eb5df1 -> 10af27e0b7fa0ad21f14b0af772435581fa276ba } is a cherrypick
+{ 1afb6f5b4b04c92ae1f3b499d4e906d931bcf303 -> 43c552e0d2dab406b3267874816c7190f95f2c83 }
+Partial Cherry-pick commits SHA are -> 
+10af27e0b7fa0ad21f14b0af772435581fa276ba - cherrypick - 43c552e0d2dab406b3267874816c7190f95f2c83
+---> The cherrypicked commit sha is - 10af27e0b7fa0ad21f14b0af772435581fa276ba
+Commit message - Instructions for installing nginx on apt-get based system.
+---> The original commit sha is - 43c552e0d2dab406b3267874816c7190f95f2c83
+Commit message - netantho-105-ttl: delete the initial ttl plugin
+---> The files with partial_cherrypicks are:-
+mq/plugins/ttl.json
+mq/plugins/ttl.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 33 is -> 
+{ a99d5ba1359bbff7c16f5ef3a07486bed35a3486 -> 9ca37cd0f3429171525697494e648d998bd20a0d } is a cherrypick
+{ eb3e6202f45a84669cd8ac9640f055690b9852eb -> c48b560d159884f83fab0729e59ba538fce4afde }
+Partial Cherry-pick commits SHA are -> 
+9ca37cd0f3429171525697494e648d998bd20a0d - cherrypick - c48b560d159884f83fab0729e59ba538fce4afde
+---> The cherrypicked commit sha is - 9ca37cd0f3429171525697494e648d998bd20a0d
+Commit message - averez-6-incident-dragdrop: fix tags saving
+---> The original commit sha is - c48b560d159884f83fab0729e59ba538fce4afde
+Commit message - Merge pull request #85 from netantho/averez-6-incident-dragdrop
+
+Fix tags saving
+---> The files with partial_cherrypicks are:-
+meteor/app/client/mozdef.js
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 34 is -> 
+{ 80f940d7f628e2dd3f5eebd20cc26a8b72e15497 -> 1b3c605cd03d9f412c42d9eb07197efccd436b9d } is a cherrypick
+{ d4dae314ca56e8fc9eb38a988cbcc0b9f8b80ee4 -> e0e2b3464949aa2efb66e8b2ccf8fbcde0b08dcc }
+Partial Cherry-pick commits SHA are -> 
+1b3c605cd03d9f412c42d9eb07197efccd436b9d - cherrypick - e0e2b3464949aa2efb66e8b2ccf8fbcde0b08dcc
+---> The cherrypicked commit sha is - 1b3c605cd03d9f412c42d9eb07197efccd436b9d
+Commit message - averez-19-samples: Have samples data injected in the docker config
+---> The original commit sha is - e0e2b3464949aa2efb66e8b2ccf8fbcde0b08dcc
+Commit message - Merge pull request #78 from netantho/averez-19-samples
+
+[WIP] averez-19-samples: Add samples Closes #19
+---> The files with partial_cherrypicks are:-
+benchmarking/workers/json2Mozdef.py
+docker/Dockerfile
+docker/conf/supervisor.conf
+docs/source/installation.rst
+examples/es-docs/alerts-kibana.json
+examples/es-docs/alerts.json
+examples/es-docs/alerts_template.json
+examples/es-docs/events-auditd.json
+examples/es-docs/events-cloudtrail.json
+examples/es-docs/events-event.json
+examples/es-docs/events-kibana.json
+examples/es-docs/events_template.json
+examples/es-docs/inject.py
+test/json2Mozdef.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 35 is -> 
+{ 856bdae3bf58d2bc6b13add624b3d5b26322d09d -> ec57fb23b41001eabfb55f391c46c62aa31d79ec } is a cherrypick
+{ 47ad44a3324d807df1c74bc5f559b86b5ffe0170 -> 29c482aa4ce53e7f6a232c9289b204c2465a7145 }
+Partial Cherry-pick commits SHA are -> 
+ec57fb23b41001eabfb55f391c46c62aa31d79ec - cherrypick - 29c482aa4ce53e7f6a232c9289b204c2465a7145
+---> The cherrypicked commit sha is - ec57fb23b41001eabfb55f391c46c62aa31d79ec
+Commit message - averez-issue-23-contributing: add CONTRIBUTING.md
+---> The original commit sha is - 29c482aa4ce53e7f6a232c9289b204c2465a7145
+Commit message - Merge pull request #37 from netantho/averez-issue-23-contributing
+
+averez-issue-23-contributing: add CONTRIBUTING.md
+---> The files with partial_cherrypicks are:-
+CONTRIBUTING.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 36 is -> 
+{ c3338d5578659c110dd426b14312c40ca7106719 -> c613ad062f875f22985d6541e231819a09bc8fa2 } is a cherrypick
+{ 6698c89e16960b59ca7341cc17827f28fe488c47 -> 47ad44a3324d807df1c74bc5f559b86b5ffe0170 }
+Partial Cherry-pick commits SHA are -> 
+c613ad062f875f22985d6541e231819a09bc8fa2 - cherrypick - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+---> The cherrypicked commit sha is - c613ad062f875f22985d6541e231819a09bc8fa2
+Commit message - add bulk processing timeout for posting to ES when workers local pyes queue not full
+---> The original commit sha is - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+Commit message - Merge pull request #39 from trink/master
+
+Feedback
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 37 is -> 
+{ 4cf18e499e7bfd345d119f09097f30d164e94439 -> 119bbe066091372016cecc2d25cd61e093286bf2 } is a cherrypick
+{ 6698c89e16960b59ca7341cc17827f28fe488c47 -> 47ad44a3324d807df1c74bc5f559b86b5ffe0170 }
+Partial Cherry-pick commits SHA are -> 
+119bbe066091372016cecc2d25cd61e093286bf2 - cherrypick - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+---> The cherrypicked commit sha is - 119bbe066091372016cecc2d25cd61e093286bf2
+Commit message - 100% less regex for speed, async http posting improved
+---> The original commit sha is - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+Commit message - Merge pull request #39 from trink/master
+
+Feedback
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 38 is -> 
+{ c5dd612c1355826f0e1c676304c7455b82c5e599 -> 715ea0d8ab1fc0f7ec86a18466dbdd33c8a682c2 } is a cherrypick
+{ 6698c89e16960b59ca7341cc17827f28fe488c47 -> 47ad44a3324d807df1c74bc5f559b86b5ffe0170 }
+Partial Cherry-pick commits SHA are -> 
+715ea0d8ab1fc0f7ec86a18466dbdd33c8a682c2 - cherrypick - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+---> The cherrypicked commit sha is - 715ea0d8ab1fc0f7ec86a18466dbdd33c8a682c2
+Commit message - Added Shell script to run static code analyzis for python code.
+---> The original commit sha is - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+Commit message - Merge pull request #39 from trink/master
+
+Feedback
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 39 is -> 
+{ ebeb8d532ffee7e14a9361e1e0c2f5bcffcc9c9c -> 2b3ee9fc73e9525df9f626c03231a69bff622058 } is a cherrypick
+{ 6698c89e16960b59ca7341cc17827f28fe488c47 -> 47ad44a3324d807df1c74bc5f559b86b5ffe0170 }
+Partial Cherry-pick commits SHA are -> 
+2b3ee9fc73e9525df9f626c03231a69bff622058 - cherrypick - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+---> The cherrypicked commit sha is - 2b3ee9fc73e9525df9f626c03231a69bff622058
+Commit message -  utility script to non-blocking tail a file with CEF messages (and only cef messages, no date/time/etc) and send to mozdef
+---> The original commit sha is - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+Commit message - Merge pull request #39 from trink/master
+
+Feedback
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 40 is -> 
+{ e50f4fc85e0d42c627bd8e90c383b25dc2c74369 -> be859fe8557867be87ff0defdb4edc3ccd411d35 } is a cherrypick
+{ 6698c89e16960b59ca7341cc17827f28fe488c47 -> 47ad44a3324d807df1c74bc5f559b86b5ffe0170 }
+Partial Cherry-pick commits SHA are -> 
+be859fe8557867be87ff0defdb4edc3ccd411d35 - cherrypick - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+---> The cherrypicked commit sha is - be859fe8557867be87ff0defdb4edc3ccd411d35
+Commit message - docs: add json example
+---> The original commit sha is - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+Commit message - Merge pull request #39 from trink/master
+
+Feedback
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 41 is -> 
+{ 884c7dfe989ce42fe0c41d93d35cef54933edc9c -> d97d15ddf2d3234a226e57f4057e306d1fc0bf26 } is a cherrypick
+{ 6698c89e16960b59ca7341cc17827f28fe488c47 -> 47ad44a3324d807df1c74bc5f559b86b5ffe0170 }
+Partial Cherry-pick commits SHA are -> 
+d97d15ddf2d3234a226e57f4057e306d1fc0bf26 - cherrypick - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+---> The cherrypicked commit sha is - d97d15ddf2d3234a226e57f4057e306d1fc0bf26
+Commit message - averez-doc: document JSON structure
+---> The original commit sha is - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+Commit message - Merge pull request #39 from trink/master
+
+Feedback
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 42 is -> 
+{ 57aa8ab6e0b5d66fc6f934b41da39c7d0f7ed84e -> 3c263b261c549ea540dca71f9bbc6d1a21c27aca } is a cherrypick
+{ 6698c89e16960b59ca7341cc17827f28fe488c47 -> 47ad44a3324d807df1c74bc5f559b86b5ffe0170 }
+Partial Cherry-pick commits SHA are -> 
+3c263b261c549ea540dca71f9bbc6d1a21c27aca - cherrypick - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+---> The cherrypicked commit sha is - 3c263b261c549ea540dca71f9bbc6d1a21c27aca
+Commit message - averez-doc: fix links
+---> The original commit sha is - 47ad44a3324d807df1c74bc5f559b86b5ffe0170
+Commit message - Merge pull request #39 from trink/master
+
+Feedback
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 43 is -> 
+{ c3338d5578659c110dd426b14312c40ca7106719 -> c613ad062f875f22985d6541e231819a09bc8fa2 } is a cherrypick
+{ c6a2deabeae774e6aa97f90f98888452ab2cf82a -> 856bdae3bf58d2bc6b13add624b3d5b26322d09d }
+Partial Cherry-pick commits SHA are -> 
+c613ad062f875f22985d6541e231819a09bc8fa2 - cherrypick - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+---> The cherrypicked commit sha is - c613ad062f875f22985d6541e231819a09bc8fa2
+Commit message - add bulk processing timeout for posting to ES when workers local pyes queue not full
+---> The original commit sha is - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+Commit message - Merge pull request #35 from netantho/averez-issue-31
+
+averez-issue-31: Fix docker config for docker 0.10 (Issue #31)
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 44 is -> 
+{ 4cf18e499e7bfd345d119f09097f30d164e94439 -> 119bbe066091372016cecc2d25cd61e093286bf2 } is a cherrypick
+{ c6a2deabeae774e6aa97f90f98888452ab2cf82a -> 856bdae3bf58d2bc6b13add624b3d5b26322d09d }
+Partial Cherry-pick commits SHA are -> 
+119bbe066091372016cecc2d25cd61e093286bf2 - cherrypick - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+---> The cherrypicked commit sha is - 119bbe066091372016cecc2d25cd61e093286bf2
+Commit message - 100% less regex for speed, async http posting improved
+---> The original commit sha is - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+Commit message - Merge pull request #35 from netantho/averez-issue-31
+
+averez-issue-31: Fix docker config for docker 0.10 (Issue #31)
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 45 is -> 
+{ c5dd612c1355826f0e1c676304c7455b82c5e599 -> 715ea0d8ab1fc0f7ec86a18466dbdd33c8a682c2 } is a cherrypick
+{ c6a2deabeae774e6aa97f90f98888452ab2cf82a -> 856bdae3bf58d2bc6b13add624b3d5b26322d09d }
+Partial Cherry-pick commits SHA are -> 
+715ea0d8ab1fc0f7ec86a18466dbdd33c8a682c2 - cherrypick - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+---> The cherrypicked commit sha is - 715ea0d8ab1fc0f7ec86a18466dbdd33c8a682c2
+Commit message - Added Shell script to run static code analyzis for python code.
+---> The original commit sha is - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+Commit message - Merge pull request #35 from netantho/averez-issue-31
+
+averez-issue-31: Fix docker config for docker 0.10 (Issue #31)
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 46 is -> 
+{ ebeb8d532ffee7e14a9361e1e0c2f5bcffcc9c9c -> 2b3ee9fc73e9525df9f626c03231a69bff622058 } is a cherrypick
+{ c6a2deabeae774e6aa97f90f98888452ab2cf82a -> 856bdae3bf58d2bc6b13add624b3d5b26322d09d }
+Partial Cherry-pick commits SHA are -> 
+2b3ee9fc73e9525df9f626c03231a69bff622058 - cherrypick - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+---> The cherrypicked commit sha is - 2b3ee9fc73e9525df9f626c03231a69bff622058
+Commit message -  utility script to non-blocking tail a file with CEF messages (and only cef messages, no date/time/etc) and send to mozdef
+---> The original commit sha is - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+Commit message - Merge pull request #35 from netantho/averez-issue-31
+
+averez-issue-31: Fix docker config for docker 0.10 (Issue #31)
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 47 is -> 
+{ e50f4fc85e0d42c627bd8e90c383b25dc2c74369 -> be859fe8557867be87ff0defdb4edc3ccd411d35 } is a cherrypick
+{ c6a2deabeae774e6aa97f90f98888452ab2cf82a -> 856bdae3bf58d2bc6b13add624b3d5b26322d09d }
+Partial Cherry-pick commits SHA are -> 
+be859fe8557867be87ff0defdb4edc3ccd411d35 - cherrypick - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+---> The cherrypicked commit sha is - be859fe8557867be87ff0defdb4edc3ccd411d35
+Commit message - docs: add json example
+---> The original commit sha is - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+Commit message - Merge pull request #35 from netantho/averez-issue-31
+
+averez-issue-31: Fix docker config for docker 0.10 (Issue #31)
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 48 is -> 
+{ 884c7dfe989ce42fe0c41d93d35cef54933edc9c -> d97d15ddf2d3234a226e57f4057e306d1fc0bf26 } is a cherrypick
+{ c6a2deabeae774e6aa97f90f98888452ab2cf82a -> 856bdae3bf58d2bc6b13add624b3d5b26322d09d }
+Partial Cherry-pick commits SHA are -> 
+d97d15ddf2d3234a226e57f4057e306d1fc0bf26 - cherrypick - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+---> The cherrypicked commit sha is - d97d15ddf2d3234a226e57f4057e306d1fc0bf26
+Commit message - averez-doc: document JSON structure
+---> The original commit sha is - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+Commit message - Merge pull request #35 from netantho/averez-issue-31
+
+averez-issue-31: Fix docker config for docker 0.10 (Issue #31)
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 49 is -> 
+{ 57aa8ab6e0b5d66fc6f934b41da39c7d0f7ed84e -> 3c263b261c549ea540dca71f9bbc6d1a21c27aca } is a cherrypick
+{ c6a2deabeae774e6aa97f90f98888452ab2cf82a -> 856bdae3bf58d2bc6b13add624b3d5b26322d09d }
+Partial Cherry-pick commits SHA are -> 
+3c263b261c549ea540dca71f9bbc6d1a21c27aca - cherrypick - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+---> The cherrypicked commit sha is - 3c263b261c549ea540dca71f9bbc6d1a21c27aca
+Commit message - averez-doc: fix links
+---> The original commit sha is - 856bdae3bf58d2bc6b13add624b3d5b26322d09d
+Commit message - Merge pull request #35 from netantho/averez-issue-31
+
+averez-issue-31: Fix docker config for docker 0.10 (Issue #31)
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 50 is -> 
+{ c3338d5578659c110dd426b14312c40ca7106719 -> c613ad062f875f22985d6541e231819a09bc8fa2 } is a cherrypick
+{ 8cf32cd6e7ca91c0b3fdeda3802c7d8b1a16c7cd -> 46f665491dfc09fec4955ba2b2f9382eb96b12ec }
+Partial Cherry-pick commits SHA are -> 
+c613ad062f875f22985d6541e231819a09bc8fa2 - cherrypick - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+---> The cherrypicked commit sha is - c613ad062f875f22985d6541e231819a09bc8fa2
+Commit message - add bulk processing timeout for posting to ES when workers local pyes queue not full
+---> The original commit sha is - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+Commit message - averez-issue-31: Fix docker config for docker 0.10
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 51 is -> 
+{ 4cf18e499e7bfd345d119f09097f30d164e94439 -> 119bbe066091372016cecc2d25cd61e093286bf2 } is a cherrypick
+{ 8cf32cd6e7ca91c0b3fdeda3802c7d8b1a16c7cd -> 46f665491dfc09fec4955ba2b2f9382eb96b12ec }
+Partial Cherry-pick commits SHA are -> 
+119bbe066091372016cecc2d25cd61e093286bf2 - cherrypick - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+---> The cherrypicked commit sha is - 119bbe066091372016cecc2d25cd61e093286bf2
+Commit message - 100% less regex for speed, async http posting improved
+---> The original commit sha is - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+Commit message - averez-issue-31: Fix docker config for docker 0.10
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 52 is -> 
+{ c5dd612c1355826f0e1c676304c7455b82c5e599 -> 715ea0d8ab1fc0f7ec86a18466dbdd33c8a682c2 } is a cherrypick
+{ 8cf32cd6e7ca91c0b3fdeda3802c7d8b1a16c7cd -> 46f665491dfc09fec4955ba2b2f9382eb96b12ec }
+Partial Cherry-pick commits SHA are -> 
+715ea0d8ab1fc0f7ec86a18466dbdd33c8a682c2 - cherrypick - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+---> The cherrypicked commit sha is - 715ea0d8ab1fc0f7ec86a18466dbdd33c8a682c2
+Commit message - Added Shell script to run static code analyzis for python code.
+---> The original commit sha is - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+Commit message - averez-issue-31: Fix docker config for docker 0.10
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 53 is -> 
+{ ebeb8d532ffee7e14a9361e1e0c2f5bcffcc9c9c -> 2b3ee9fc73e9525df9f626c03231a69bff622058 } is a cherrypick
+{ 8cf32cd6e7ca91c0b3fdeda3802c7d8b1a16c7cd -> 46f665491dfc09fec4955ba2b2f9382eb96b12ec }
+Partial Cherry-pick commits SHA are -> 
+2b3ee9fc73e9525df9f626c03231a69bff622058 - cherrypick - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+---> The cherrypicked commit sha is - 2b3ee9fc73e9525df9f626c03231a69bff622058
+Commit message -  utility script to non-blocking tail a file with CEF messages (and only cef messages, no date/time/etc) and send to mozdef
+---> The original commit sha is - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+Commit message - averez-issue-31: Fix docker config for docker 0.10
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 54 is -> 
+{ e50f4fc85e0d42c627bd8e90c383b25dc2c74369 -> be859fe8557867be87ff0defdb4edc3ccd411d35 } is a cherrypick
+{ 8cf32cd6e7ca91c0b3fdeda3802c7d8b1a16c7cd -> 46f665491dfc09fec4955ba2b2f9382eb96b12ec }
+Partial Cherry-pick commits SHA are -> 
+be859fe8557867be87ff0defdb4edc3ccd411d35 - cherrypick - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+---> The cherrypicked commit sha is - be859fe8557867be87ff0defdb4edc3ccd411d35
+Commit message - docs: add json example
+---> The original commit sha is - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+Commit message - averez-issue-31: Fix docker config for docker 0.10
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 55 is -> 
+{ 884c7dfe989ce42fe0c41d93d35cef54933edc9c -> d97d15ddf2d3234a226e57f4057e306d1fc0bf26 } is a cherrypick
+{ 8cf32cd6e7ca91c0b3fdeda3802c7d8b1a16c7cd -> 46f665491dfc09fec4955ba2b2f9382eb96b12ec }
+Partial Cherry-pick commits SHA are -> 
+d97d15ddf2d3234a226e57f4057e306d1fc0bf26 - cherrypick - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+---> The cherrypicked commit sha is - d97d15ddf2d3234a226e57f4057e306d1fc0bf26
+Commit message - averez-doc: document JSON structure
+---> The original commit sha is - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+Commit message - averez-issue-31: Fix docker config for docker 0.10
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 56 is -> 
+{ 57aa8ab6e0b5d66fc6f934b41da39c7d0f7ed84e -> 3c263b261c549ea540dca71f9bbc6d1a21c27aca } is a cherrypick
+{ 8cf32cd6e7ca91c0b3fdeda3802c7d8b1a16c7cd -> 46f665491dfc09fec4955ba2b2f9382eb96b12ec }
+Partial Cherry-pick commits SHA are -> 
+3c263b261c549ea540dca71f9bbc6d1a21c27aca - cherrypick - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+---> The cherrypicked commit sha is - 3c263b261c549ea540dca71f9bbc6d1a21c27aca
+Commit message - averez-doc: fix links
+---> The original commit sha is - 46f665491dfc09fec4955ba2b2f9382eb96b12ec
+Commit message - averez-issue-31: Fix docker config for docker 0.10
+---> The files with partial_cherrypicks are:-
+docker/README.md
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 57 is -> 
+{ 1fbfd2db7bf9740f98f8d732693cf0d7fa14b843 -> 57aa8ab6e0b5d66fc6f934b41da39c7d0f7ed84e } is a cherrypick
+{ 558dbafe56a223a2010d8353e43a4a8e09a34e86 -> c274341bdc09d76b2b3b75bec1f13016644dbdee }
+Partial Cherry-pick commits SHA are -> 
+57aa8ab6e0b5d66fc6f934b41da39c7d0f7ed84e - cherrypick - c274341bdc09d76b2b3b75bec1f13016644dbdee
+---> The cherrypicked commit sha is - 57aa8ab6e0b5d66fc6f934b41da39c7d0f7ed84e
+Commit message - allow alertworker to monitor MQ on one server and send alerts to another MQ server
+---> The original commit sha is - c274341bdc09d76b2b3b75bec1f13016644dbdee
+Commit message - Merge remote-tracking branch 'upstream/master' into averez-doc
+
+Conflicts:
+	docs/source/usage.rst
+---> The files with partial_cherrypicks are:-
+analyze_code.sh
+bot/mozdefbot.py
+cron/broAlerts.sh
+docker/Dockerfile
+docker/Makefile
+docker/README.md
+docker/conf/elasticsearch.yml
+docker/conf/locale.gen
+docker/conf/nginx.conf
+docker/conf/supervisor.conf
+docs/source/contributors.rst
+docs/source/index.rst
+docs/source/installation.rst
+lib/cefFifo2MQ.py
+lib/cefFile2Mozdef.py
+lib/cefTail2Mozdef.py
+mq/alertWorker.conf
+mq/alertWorker.py
+mq/esworker.py
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 58 is -> 
+{ f14e2a0b2ad118ec3448fec7ac3dc622a79a827c -> 4af296ad97ea0e5841f5d6bff7a8b128db848717 } is a cherrypick
+{ 2b3ee9fc73e9525df9f626c03231a69bff622058 -> e50f4fc85e0d42c627bd8e90c383b25dc2c74369 }
+Partial Cherry-pick commits SHA are -> 
+4af296ad97ea0e5841f5d6bff7a8b128db848717 - cherrypick - e50f4fc85e0d42c627bd8e90c383b25dc2c74369
+---> The cherrypicked commit sha is - 4af296ad97ea0e5841f5d6bff7a8b128db848717
+Commit message - Added Shell script to run static code analyzis for python code.
+---> The original commit sha is - e50f4fc85e0d42c627bd8e90c383b25dc2c74369
+Commit message - merging upstream changes
+---> The files with partial_cherrypicks are:-
+docker/Dockerfile
+docker/Makefile
+docker/README.md
+docker/conf/elasticsearch.yml
+docker/conf/locale.gen
+docker/conf/nginx.conf
+docker/conf/supervisor.conf
+docs/source/contributors.rst
+docs/source/index.rst
+docs/source/installation.rst
+docs/source/usage.rst
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 59 is -> 
+{ b6a585d75818495534885ec90f000890cbfc8078 -> 2c078fc512890438a64bbe8748384bb04fe5d47c } is a cherrypick
+{ de9844ddc7cd964cbeac98c0008fa01e0dacd430 -> 7a8dd64198e1940b9f1cb46a5c0870a09861d8de }
+Partial Cherry-pick commits SHA are -> 
+2c078fc512890438a64bbe8748384bb04fe5d47c - cherrypick - 7a8dd64198e1940b9f1cb46a5c0870a09861d8de
+---> The cherrypicked commit sha is - 2c078fc512890438a64bbe8748384bb04fe5d47c
+Commit message - default kibana config file
+---> The original commit sha is - 7a8dd64198e1940b9f1cb46a5c0870a09861d8de
+Commit message - default kibana config file
+---> The files with partial_cherrypicks are:-
+kibana/app/dashboards/default.json
+-----------------------------------------------------------------
+

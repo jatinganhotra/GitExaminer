@@ -1,0 +1,938 @@
+# of cherry-picks = 80
+Cherry-pick diff pair 1 is -> 
+{ 63b252cbdb154db27356210fcc918b03506a8bed -> cb24fce580de73d21973b139946485d325ea4249 } is a cherrypick
+{ 31e60656d05e4bb2bd1ae756a054e64b9bc3f471 -> f98f0d837ace61c40ba5b2c17ae480237b6a9253 }
+Cherrypick commits SHA are -> 
+cb24fce580de73d21973b139946485d325ea4249 - cherrypick - f98f0d837ace61c40ba5b2c17ae480237b6a9253
+---> The cherrypicked commit sha is - cb24fce580de73d21973b139946485d325ea4249
+Commit message - limit number of concurrently executing machines
+---> The original commit sha is - f98f0d837ace61c40ba5b2c17ae480237b6a9253
+Commit message - Merge pull request #352 from unixfreak0037/max_vms_2
+
+limit number of concurrently executing machines
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 2 is -> 
+{ d52771979d624a225f29d5d3c1fae1769a2cf61b -> 94fd66324ff19580900090d15c742a660ab67370 } is a cherrypick
+{ 9c205c887a63185a59f8094eb8f60d9c34356838 -> e9c6ce42889ee0b26c813ec2b00c637a97aa1013 }
+Cherrypick commits SHA are -> 
+94fd66324ff19580900090d15c742a660ab67370 - cherrypick - e9c6ce42889ee0b26c813ec2b00c637a97aa1013
+---> The cherrypicked commit sha is - 94fd66324ff19580900090d15c742a660ab67370
+Commit message - Update resultserver.py
+
+try catch on chunk handler read, otherwise fails without exiting the loop when reading fails.
+---> The original commit sha is - e9c6ce42889ee0b26c813ec2b00c637a97aa1013
+Commit message - Merge pull request #346 from spark2k06/patch-2
+
+Update resultserver.py
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 3 is -> 
+{ 93492a15410969584022b6a11c88b9c403f4036f -> e2cf43590e81bbd8d02ddd783a43a6a61c0b5e05 } is a cherrypick
+{ 7b99fdbfd5eb3eea6f95a54785ebc49675882b5a -> c33a15245bd9e3f3464318941102832f98f52367 }
+Cherrypick commits SHA are -> 
+e2cf43590e81bbd8d02ddd783a43a6a61c0b5e05 - cherrypick - c33a15245bd9e3f3464318941102832f98f52367
+---> The cherrypicked commit sha is - e2cf43590e81bbd8d02ddd783a43a6a61c0b5e05
+Commit message - Updated changelog
+---> The original commit sha is - c33a15245bd9e3f3464318941102832f98f52367
+Commit message - Merge branch 'master' of https://github.com/cuckoobox/cuckoo
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 4 is -> 
+{ 5fdee7a95cf1777ee7bd0287269777bf69a2b234 -> 377041d31be3dcc366c6ff1698794df5b183202d } is a cherrypick
+{ 52c4de82ebac7afda5f630f92ba06607c65c5aba -> 93492a15410969584022b6a11c88b9c403f4036f }
+Cherrypick commits SHA are -> 
+377041d31be3dcc366c6ff1698794df5b183202d - cherrypick - 93492a15410969584022b6a11c88b9c403f4036f
+---> The cherrypicked commit sha is - 377041d31be3dcc366c6ff1698794df5b183202d
+Commit message - Specify proper content-type for pcap downloads.
+---> The original commit sha is - 93492a15410969584022b6a11c88b9c403f4036f
+Commit message - Merge pull request #312 from jahrome/pcap_content_type
+
+Specify proper content-type for pcap downloads.
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 5 is -> 
+{ 22ed674dfa967ef193938b234569bb48e1425213 -> b828c267790285e24d45b77d235624b4d81b8900 } is a cherrypick
+{ bad6a9ae269d2f4bcaa718ea35ddffbcdeb686c2 -> b5333803deb7a6200b4b39e5e80a96673559e56c }
+Cherrypick commits SHA are -> 
+b828c267790285e24d45b77d235624b4d81b8900 - cherrypick - b5333803deb7a6200b4b39e5e80a96673559e56c
+---> The cherrypicked commit sha is - b828c267790285e24d45b77d235624b4d81b8900
+Commit message - Add a more accurate BPF so we don't miss port 8000 traffic. Make results BPF tighter as well although probably needed in practice.
+---> The original commit sha is - b5333803deb7a6200b4b39e5e80a96673559e56c
+Commit message - Merge branch 'fixbpf' of https://github.com/wmetcalf/cuckoo into wmetcalf-fixbpf
+
+Conflicts:
+	modules/auxiliary/sniffer.py
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 6 is -> 
+{ 63ec0f6aeb5356b6c249b87550e495afb2ea5450 -> 805a579b747cb309fb1e2118e372c24a137ee56b } is a cherrypick
+{ 030c23507d913e880a0120df14d0403a2daac894 -> bca26ac86c640eedb6346bbcf081ba34394c1891 }
+Cherrypick commits SHA are -> 
+805a579b747cb309fb1e2118e372c24a137ee56b - cherrypick - bca26ac86c640eedb6346bbcf081ba34394c1891
+---> The cherrypicked commit sha is - 805a579b747cb309fb1e2118e372c24a137ee56b
+Commit message - - Modified the REST API to allow querying of the screenshots and to retrieve a screenshot associated with a task
+---> The original commit sha is - bca26ac86c640eedb6346bbcf081ba34394c1891
+Commit message - Merge branch 'development' of https://github.com/woanware/cuckoo into woanware-development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 7 is -> 
+{ 1dd835185ccf92426ceddacb89213d1bb8fcd054 -> 9113a83a47d2b95d7254cb8dd0ebe265bfd9f381 } is a cherrypick
+{ 216f1fc7094aad4327f736c36e3d08acca643310 -> 1fc3ca11dea67f4de2922f8b87f2d9d7886f246f }
+Cherrypick commits SHA are -> 
+9113a83a47d2b95d7254cb8dd0ebe265bfd9f381 - cherrypick - 1fc3ca11dea67f4de2922f8b87f2d9d7886f246f
+---> The cherrypicked commit sha is - 9113a83a47d2b95d7254cb8dd0ebe265bfd9f381
+Commit message - Fixed traceback on missing abort state var
+---> The original commit sha is - 1fc3ca11dea67f4de2922f8b87f2d9d7886f246f
+Commit message - Merge branch 'development' of github.com:cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 8 is -> 
+{ 2a9c87fd908e0d5ce36ef009c7a9462baf004ff0 -> 15560b1b59940cc94cc11c8f05c4f06b2cd2106b } is a cherrypick
+{ ca14c5bbb22bb9992d3a8deb96e556657a2c2adf -> 3e3bb429e590cacb1f26520593d1423c5e6f8798 }
+Cherrypick commits SHA are -> 
+15560b1b59940cc94cc11c8f05c4f06b2cd2106b - cherrypick - 3e3bb429e590cacb1f26520593d1423c5e6f8798
+---> The cherrypicked commit sha is - 15560b1b59940cc94cc11c8f05c4f06b2cd2106b
+Commit message - Corrected typo which set insensitive case search in sig descr
+---> The original commit sha is - 3e3bb429e590cacb1f26520593d1423c5e6f8798
+Commit message - Merge pull request #256 from dmaciejak/patch-6
+
+Corrected typo which set insensitive case search in sig descr
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 9 is -> 
+{ 29cc2aec8c620ff33eba062545a6d1b732102591 -> 538a6f68671c163ac0543f3b375815b7d0f46fbd } is a cherrypick
+{ 077282eb74f034ca499ca10783b333dfe00ca3da -> 0f3c5768888354f6f55a24da0b7adc0c264b015a }
+Cherrypick commits SHA are -> 
+538a6f68671c163ac0543f3b375815b7d0f46fbd - cherrypick - 0f3c5768888354f6f55a24da0b7adc0c264b015a
+---> The cherrypicked commit sha is - 538a6f68671c163ac0543f3b375815b7d0f46fbd
+Commit message - Choosing the right package for CPL samples
+---> The original commit sha is - 0f3c5768888354f6f55a24da0b7adc0c264b015a
+Commit message - Merge pull request #240 from neriberto/development
+
+Choosing the right package for CPL samples
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 10 is -> 
+{ 33d249e3269112ddde20f4cf79785e07d8ff49a8 -> c9fc5e8574bd7704d73936554d1cf4705d3091c4 } is a cherrypick
+{ e54bd15d53cffa4bfb77c4ea463c31aeb4465b80 -> 8f925474360ce36e805085c106ca4bfe7e5a0674 }
+Cherrypick commits SHA are -> 
+c9fc5e8574bd7704d73936554d1cf4705d3091c4 - cherrypick - 8f925474360ce36e805085c106ca4bfe7e5a0674
+---> The cherrypicked commit sha is - c9fc5e8574bd7704d73936554d1cf4705d3091c4
+Commit message - Update packages.py
+
+prevents wrong detection of office files (before: some xls were detected as composite file and cuckoo tried to start them with ms word)
+---> The original commit sha is - 8f925474360ce36e805085c106ca4bfe7e5a0674
+Commit message - Merge pull request #234 from Crashman1983/patch-1
+
+Update packages.py
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 11 is -> 
+{ ccb7199bee9a2b051a81d0410d40c8a72ed86152 -> ec8ed0ca50a50f9636db34aac8393c7a0fc6e29b } is a cherrypick
+{ d68dabee14af107518e9233cbeaedbdc331563f1 -> ddf8145fad33e8278acc168ddc4788dd73bb0d91 }
+Cherrypick commits SHA are -> 
+ec8ed0ca50a50f9636db34aac8393c7a0fc6e29b - cherrypick - ddf8145fad33e8278acc168ddc4788dd73bb0d91
+---> The cherrypicked commit sha is - ec8ed0ca50a50f9636db34aac8393c7a0fc6e29b
+Commit message - Loads signature data from a json db file. This reduces maintainance with very large signature sets
+---> The original commit sha is - ddf8145fad33e8278acc168ddc4788dd73bb0d91
+Commit message - Merge branch 'overlay_for_signatures' of git://github.com/Thorsten-Sick/cuckoo into Thorsten-Sick-overlay_for_signatures
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 12 is -> 
+{ 05f6d3fdcf104f851bb1ca91da4dabaa2b1fca1e -> 11937f240ce1974ffae42711a3c976f6a1de15b7 } is a cherrypick
+{ 859c968a67891c4e069eace29e458e939766d8f7 -> 888f593e0e34a046adaec806b33c41e845e221fc }
+Cherrypick commits SHA are -> 
+11937f240ce1974ffae42711a3c976f6a1de15b7 - cherrypick - 888f593e0e34a046adaec806b33c41e845e221fc
+---> The cherrypicked commit sha is - 11937f240ce1974ffae42711a3c976f6a1de15b7
+Commit message - Merged from upstream/development
+---> The original commit sha is - 888f593e0e34a046adaec806b33c41e845e221fc
+Commit message - Merge remote-tracking branch 'upstream/development' into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 13 is -> 
+{ c24587348e77d0ef5c60b52621990416a8eaa019 -> 1c203809476bf30f8e79fcc2a5d824139fd9d248 } is a cherrypick
+{ 36d75969e0d42ce6327cc6286b6c270768adfb2f -> 5921304bfabb0fac12c5c58446cb39c162ce391a }
+Cherrypick commits SHA are -> 
+1c203809476bf30f8e79fcc2a5d824139fd9d248 - cherrypick - 5921304bfabb0fac12c5c58446cb39c162ce391a
+---> The cherrypicked commit sha is - 1c203809476bf30f8e79fcc2a5d824139fd9d248
+Commit message - Added analysis for control panel applets (cpl)
+---> The original commit sha is - 5921304bfabb0fac12c5c58446cb39c162ce391a
+Commit message - Merge pull request #191 from Thorsten-Sick/cpl
+
+Added analysis for control panel applets (cpl)
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 14 is -> 
+{ f80acbdd9bdaf9f991b7a1985eedeb84e72c6158 -> ca599b5e061894a3f3bf5a49325a33885eca5529 } is a cherrypick
+{ eb2c6925f71f8b71a4ad49cceb97512961761f50 -> 4d87a105defc65396d64ac53154442bbe8dd43b6 }
+Cherrypick commits SHA are -> 
+ca599b5e061894a3f3bf5a49325a33885eca5529 - cherrypick - 4d87a105defc65396d64ac53154442bbe8dd43b6
+---> The cherrypicked commit sha is - ca599b5e061894a3f3bf5a49325a33885eca5529
+Commit message - Added virustotal url scanner result in static report
+---> The original commit sha is - 4d87a105defc65396d64ac53154442bbe8dd43b6
+Commit message - Merge pull request #181 from dmaciejak/upstream
+
+Added virustotal URL scanner results in static report templates
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 15 is -> 
+{ a2a1f8492f558aef00dfa83d57fafb4e67d0281b -> eb09152cc7a7962cfe2e6b71ffff6918e10dbc92 } is a cherrypick
+{ 4af7c8a5e2369c65c05243d1aefe179536ef27ab -> 95c7c5aeef2025c71658d6b84e0442d68c10aa96 }
+Cherrypick commits SHA are -> 
+eb09152cc7a7962cfe2e6b71ffff6918e10dbc92 - cherrypick - 95c7c5aeef2025c71658d6b84e0442d68c10aa96
+---> The cherrypicked commit sha is - eb09152cc7a7962cfe2e6b71ffff6918e10dbc92
+Commit message - Added custom field to report
+---> The original commit sha is - 95c7c5aeef2025c71658d6b84e0442d68c10aa96
+Commit message - Merge pull request #170 from Thorsten-Sick/custom
+
+Added custom field to report
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 16 is -> 
+{ 9301a31954be082e6142529c316a34af83d3bfbf -> 8131748489a01e4af37ca0ec7143d82b4069efb4 } is a cherrypick
+{ 9c73429fea0136b573f2fa3798e4e9d4abb2da1d -> 646772b665f4dbee0af0b1db1f09a806e26f75be }
+Cherrypick commits SHA are -> 
+8131748489a01e4af37ca0ec7143d82b4069efb4 - cherrypick - 646772b665f4dbee0af0b1db1f09a806e26f75be
+---> The cherrypicked commit sha is - 8131748489a01e4af37ca0ec7143d82b4069efb4
+Commit message - Add network stats in parenthesis
+---> The original commit sha is - 646772b665f4dbee0af0b1db1f09a806e26f75be
+Commit message - Merge pull request #168 from dmaciejak/development
+
+Add network stats in parenthesis
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 17 is -> 
+{ 45d5c34d01b2eaed1cc65cefb01febdb4506aee8 -> 3d724dc01f4730dfd7d719d27f5f610f14515da2 } is a cherrypick
+{ 84fd7ac9db7026276912d6d3858ca41fbbc158e5 -> 7f99b5b79c91522189ce076dd21cca1d161f4d25 }
+Cherrypick commits SHA are -> 
+3d724dc01f4730dfd7d719d27f5f610f14515da2 - cherrypick - 7f99b5b79c91522189ce076dd21cca1d161f4d25
+---> The cherrypicked commit sha is - 3d724dc01f4730dfd7d719d27f5f610f14515da2
+Commit message - Better check antivirus sig available
+---> The original commit sha is - 7f99b5b79c91522189ce076dd21cca1d161f4d25
+Commit message - Merge branch 'development' of github.com:cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 18 is -> 
+{ b9d1c10b8ff6b48769ad848404e7c13fcf3a7ab7 -> 76b5f04734c8eb88f01b2cb9e5ccc4708cebeead } is a cherrypick
+{ 84fd7ac9db7026276912d6d3858ca41fbbc158e5 -> 7f99b5b79c91522189ce076dd21cca1d161f4d25 }
+Cherrypick commits SHA are -> 
+76b5f04734c8eb88f01b2cb9e5ccc4708cebeead - cherrypick - 7f99b5b79c91522189ce076dd21cca1d161f4d25
+---> The cherrypicked commit sha is - 76b5f04734c8eb88f01b2cb9e5ccc4708cebeead
+Commit message - Merge pull request #167 from dmaciejak/development
+
+Better check antivirus sig available
+---> The original commit sha is - 7f99b5b79c91522189ce076dd21cca1d161f4d25
+Commit message - Merge branch 'development' of github.com:cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 19 is -> 
+{ 45d5c34d01b2eaed1cc65cefb01febdb4506aee8 -> 3d724dc01f4730dfd7d719d27f5f610f14515da2 } is a cherrypick
+{ b9d1c10b8ff6b48769ad848404e7c13fcf3a7ab7 -> 76b5f04734c8eb88f01b2cb9e5ccc4708cebeead }
+Cherrypick commits SHA are -> 
+3d724dc01f4730dfd7d719d27f5f610f14515da2 - cherrypick - 76b5f04734c8eb88f01b2cb9e5ccc4708cebeead
+---> The cherrypicked commit sha is - 3d724dc01f4730dfd7d719d27f5f610f14515da2
+Commit message - Better check antivirus sig available
+---> The original commit sha is - 76b5f04734c8eb88f01b2cb9e5ccc4708cebeead
+Commit message - Merge pull request #167 from dmaciejak/development
+
+Better check antivirus sig available
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 20 is -> 
+{ 2ef28647a8e69a2ceb3d930515b48d4cc358ee29 -> e26a1ceec372f7277c7db450122dd508e8564f7a } is a cherrypick
+{ 98febc4543ea68246e69da06eee68d4914613187 -> 65cf005f77112e5a716211161523620c939453fb }
+Cherrypick commits SHA are -> 
+e26a1ceec372f7277c7db450122dd508e8564f7a - cherrypick - 65cf005f77112e5a716211161523620c939453fb
+---> The cherrypicked commit sha is - e26a1ceec372f7277c7db450122dd508e8564f7a
+Commit message - Some style fixes
+---> The original commit sha is - 65cf005f77112e5a716211161523620c939453fb
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 21 is -> 
+{ b1dac62223135b2c47c6484276fd809e7ea73ecf -> 80134203cf86ca788f1637a7f342e5a96fdb2201 } is a cherrypick
+{ cc717cc131423aae2b8577bf73ac486af3093312 -> 2ef28647a8e69a2ceb3d930515b48d4cc358ee29 }
+Cherrypick commits SHA are -> 
+80134203cf86ca788f1637a7f342e5a96fdb2201 - cherrypick - 2ef28647a8e69a2ceb3d930515b48d4cc358ee29
+---> The cherrypicked commit sha is - 80134203cf86ca788f1637a7f342e5a96fdb2201
+Commit message - Fixing reference before assignment error
+---> The original commit sha is - 2ef28647a8e69a2ceb3d930515b48d4cc358ee29
+Commit message - Merge pull request #163 from Thorsten-Sick/small_db_fix
+
+Fixing reference before assignment error
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 22 is -> 
+{ 7302910822fca5d7a5f80c886c824968407bf689 -> 4c5664f94f9f8b075b498cf432aa3224739fe320 } is a cherrypick
+{ 96003502841dcf7e852eb81502a4735973be7682 -> 5b9159f3dc935d7c4d298087c432c47c0db4a637 }
+Cherrypick commits SHA are -> 
+4c5664f94f9f8b075b498cf432aa3224739fe320 - cherrypick - 5b9159f3dc935d7c4d298087c432c47c0db4a637
+---> The cherrypicked commit sha is - 4c5664f94f9f8b075b498cf432aa3224739fe320
+Commit message - Added logging on database errors
+---> The original commit sha is - 5b9159f3dc935d7c4d298087c432c47c0db4a637
+Commit message - Merge branch 'development' of github.com:cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 23 is -> 
+{ 5c4660eaaaa83cf5d68b03c51111b309ce310ae8 -> 56d88c513c8d13c56b3c66a242ef483063e48f4b } is a cherrypick
+{ fc8268873a9ba34d71dd29626ecc037e33d7444e -> 5ee2cb8291dcb05de50195c39f9bc64c3a49e74c }
+Cherrypick commits SHA are -> 
+56d88c513c8d13c56b3c66a242ef483063e48f4b - cherrypick - 5ee2cb8291dcb05de50195c39f9bc64c3a49e74c
+---> The cherrypicked commit sha is - 56d88c513c8d13c56b3c66a242ef483063e48f4b
+Commit message - not enough freespace error message
+---> The original commit sha is - 5ee2cb8291dcb05de50195c39f9bc64c3a49e74c
+Commit message - Merge pull request #154 from jbremer/development
+
+not enough freespace error message
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 24 is -> 
+{ 71dc0d27c0b4a1e9c31484f2bfe60cbcd3448c9e -> 5c4660eaaaa83cf5d68b03c51111b309ce310ae8 } is a cherrypick
+{ bc410bd9208cbf6ef5138cb9ac9c40e47d18a7a0 -> dbf384044291ba06807cbc579771c4b7bd0f686b }
+Cherrypick commits SHA are -> 
+5c4660eaaaa83cf5d68b03c51111b309ce310ae8 - cherrypick - dbf384044291ba06807cbc579771c4b7bd0f686b
+---> The cherrypicked commit sha is - 5c4660eaaaa83cf5d68b03c51111b309ce310ae8
+Commit message - Going for yes/no
+---> The original commit sha is - dbf384044291ba06807cbc579771c4b7bd0f686b
+Commit message - Merge branch 'development' of github.com:cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 25 is -> 
+{ e82bb490a3d3334754c867c4e38c7385c1086e71 -> 939c10a0dcc47fd80dea907008f1f453865d8dec } is a cherrypick
+{ 8b32c06bdb61b0d94f3d4c3a159558cefc59f3f0 -> d8d9bada46f5617f4a3f531840689f9da9ac8575 }
+Cherrypick commits SHA are -> 
+939c10a0dcc47fd80dea907008f1f453865d8dec - cherrypick - d8d9bada46f5617f4a3f531840689f9da9ac8575
+---> The cherrypicked commit sha is - 939c10a0dcc47fd80dea907008f1f453865d8dec
+Commit message - simplifys getting a specific argument from a call
+---> The original commit sha is - d8d9bada46f5617f4a3f531840689f9da9ac8575
+Commit message - Merge pull request #134 from Thorsten-Sick/signature_improvements
+
+simplifys getting a specific argument from a call
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 26 is -> 
+{ 0582a70fc8c059b748d60576d99e60981e4d34d5 -> 9b166984f2d49804017e483c2015b6b1098f5b0e } is a cherrypick
+{ 7f0dd62f82d5b0595f52088dcb18ee7c3d4e53c1 -> baf65d5c7c2f1043e90f74b7eef8c582aba51f4a }
+Cherrypick commits SHA are -> 
+9b166984f2d49804017e483c2015b6b1098f5b0e - cherrypick - baf65d5c7c2f1043e90f74b7eef8c582aba51f4a
+---> The cherrypicked commit sha is - 9b166984f2d49804017e483c2015b6b1098f5b0e
+Commit message - added enhanced behavior processing
+---> The original commit sha is - baf65d5c7c2f1043e90f74b7eef8c582aba51f4a
+Commit message - Merge pull request #90 from Thorsten-Sick/development
+
+added enhanced behaviour processing
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 27 is -> 
+{ ad4fcc4dd550c182c1e3cf15c3590478544ca9f4 -> 26668bba60ed93852162ad0889ed0a36847c6c1c } is a cherrypick
+{ 7f0dd62f82d5b0595f52088dcb18ee7c3d4e53c1 -> baf65d5c7c2f1043e90f74b7eef8c582aba51f4a }
+Cherrypick commits SHA are -> 
+26668bba60ed93852162ad0889ed0a36847c6c1c - cherrypick - baf65d5c7c2f1043e90f74b7eef8c582aba51f4a
+---> The cherrypicked commit sha is - 26668bba60ed93852162ad0889ed0a36847c6c1c
+Commit message - added enhanced behavior processing
+---> The original commit sha is - baf65d5c7c2f1043e90f74b7eef8c582aba51f4a
+Commit message - Merge pull request #90 from Thorsten-Sick/development
+
+added enhanced behaviour processing
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 28 is -> 
+{ 6b86cf4cb9baee0f6a87654ffa1d589adc4ec905 -> 34b86031cd8fd711152fc3dbcef2f85462044a1c } is a cherrypick
+{ 314ce947d4aac46da34b9c8729c006d029618347 -> f7f624bf8fbf5c886ee93fd8625a6a8573495577 }
+Cherrypick commits SHA are -> 
+34b86031cd8fd711152fc3dbcef2f85462044a1c - cherrypick - f7f624bf8fbf5c886ee93fd8625a6a8573495577
+---> The cherrypicked commit sha is - 34b86031cd8fd711152fc3dbcef2f85462044a1c
+Commit message - setting sparse fixes problems with missing indexes
+---> The original commit sha is - f7f624bf8fbf5c886ee93fd8625a6a8573495577
+Commit message - Merge pull request #123 from Thorsten-Sick/sparse_mongo
+
+setting sparse fixes problems with missing indexes
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 29 is -> 
+{ 68802184d192cadf0900f0024530451d150475e3 -> 3d1598825cb7d6256f4e20ec9c0e8d0655c1ed3c } is a cherrypick
+{ 46df97366b9a9e234222333557f9a8fbb1c23658 -> e898028b6de72f1b611a3e5a999d104f38ba837b }
+Cherrypick commits SHA are -> 
+3d1598825cb7d6256f4e20ec9c0e8d0655c1ed3c - cherrypick - e898028b6de72f1b611a3e5a999d104f38ba837b
+---> The cherrypicked commit sha is - 3d1598825cb7d6256f4e20ec9c0e8d0655c1ed3c
+Commit message - Typos and style
+---> The original commit sha is - e898028b6de72f1b611a3e5a999d104f38ba837b
+Commit message - Merge branch 'development' of github.com:cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 30 is -> 
+{ 3189c1c4e4f0b4e3b9ab3d4fbfa820be5da4ee5d -> f20fbab3c37c393c23e0416d7b7d3752bd0570cf } is a cherrypick
+{ 0c48eb9c7727f1fed91bb06593019a1f88d7ae3e -> 13b15c33b29e98596049d584ee24835334d156c2 }
+Cherrypick commits SHA are -> 
+f20fbab3c37c393c23e0416d7b7d3752bd0570cf - cherrypick - 13b15c33b29e98596049d584ee24835334d156c2
+---> The cherrypicked commit sha is - f20fbab3c37c393c23e0416d7b7d3752bd0570cf
+Commit message - Added volatility to processing.conf
+---> The original commit sha is - 13b15c33b29e98596049d584ee24835334d156c2
+Commit message - Disabled by default volatility processing module
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 31 is -> 
+{ 2ba5dcad48d3151215f1d2763b4db4738d84b872 -> f4d4af2bf04a4618fc55a06de5c4157f7f2c6a4a } is a cherrypick
+{ ea5809b9f5237ad759aff89ea33b3f1b67e7a664 -> e36dcb963766e7ba81be82c833ed3755683c1ccc }
+Cherrypick commits SHA are -> 
+f4d4af2bf04a4618fc55a06de5c4157f7f2c6a4a - cherrypick - e36dcb963766e7ba81be82c833ed3755683c1ccc
+---> The cherrypicked commit sha is - f4d4af2bf04a4618fc55a06de5c4157f7f2c6a4a
+Commit message - Minor style fix (Refs: #116)
+---> The original commit sha is - e36dcb963766e7ba81be82c833ed3755683c1ccc
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 32 is -> 
+{ cbbe592ce6a73cf4f4ec479c36caad497ee5221e -> a4c4793b03687e22f63b9c39db3e7c781729bec5 } is a cherrypick
+{ 89604de808ff16692ea4f5f540ac7ecfcb4ef37a -> 3c5cb888c41167640a307da1ad8636a7eff8f2f6 }
+Cherrypick commits SHA are -> 
+a4c4793b03687e22f63b9c39db3e7c781729bec5 - cherrypick - 3c5cb888c41167640a307da1ad8636a7eff8f2f6
+---> The cherrypicked commit sha is - a4c4793b03687e22f63b9c39db3e7c781729bec5
+Commit message - Fixing bug with wrong variable name
+---> The original commit sha is - 3c5cb888c41167640a307da1ad8636a7eff8f2f6
+Commit message - Merge pull request #109 from pdelsante/fix-resultserver
+
+Fixing bug with wrong variable name
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 33 is -> 
+{ 0582a70fc8c059b748d60576d99e60981e4d34d5 -> 9b166984f2d49804017e483c2015b6b1098f5b0e } is a cherrypick
+{ ad4fcc4dd550c182c1e3cf15c3590478544ca9f4 -> 26668bba60ed93852162ad0889ed0a36847c6c1c }
+Cherrypick commits SHA are -> 
+9b166984f2d49804017e483c2015b6b1098f5b0e - cherrypick - 26668bba60ed93852162ad0889ed0a36847c6c1c
+---> The cherrypicked commit sha is - 9b166984f2d49804017e483c2015b6b1098f5b0e
+Commit message - added enhanced behavior processing
+---> The original commit sha is - 26668bba60ed93852162ad0889ed0a36847c6c1c
+Commit message - added enhanced behavior processing
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 34 is -> 
+{ 71756b79344c680008ac9bf289bfc8877894a335 -> e776c52d96c1038d7cfa5f06443f840c794dbac6 } is a cherrypick
+{ 3b6fc4d1868daa4775a613b409aa668dea382566 -> 5700a9b0e78de3b918c436d305ff46ff6738bf71 }
+Cherrypick commits SHA are -> 
+e776c52d96c1038d7cfa5f06443f840c794dbac6 - cherrypick - 5700a9b0e78de3b918c436d305ff46ff6738bf71
+---> The cherrypicked commit sha is - e776c52d96c1038d7cfa5f06443f840c794dbac6
+Commit message - Adding pagination to web.py
+---> The original commit sha is - 5700a9b0e78de3b918c436d305ff46ff6738bf71
+Commit message - Merge pull request #100 from pdelsante/web-pagination
+
+Adding pagination to web.py and api.py
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 35 is -> 
+{ 100bc91583b799803c19c9a47b344276c92df60d -> abc418ca075028f53c9ee1cff1ccacbad2261d36 } is a cherrypick
+{ 64cdf65516219885468a3c37c69d93ea7b82a72b -> 330334834edfd52d0ba916efa99f54d56a74a988 }
+Cherrypick commits SHA are -> 
+abc418ca075028f53c9ee1cff1ccacbad2261d36 - cherrypick - 330334834edfd52d0ba916efa99f54d56a74a988
+---> The cherrypicked commit sha is - abc418ca075028f53c9ee1cff1ccacbad2261d36
+Commit message - Release day
+---> The original commit sha is - 330334834edfd52d0ba916efa99f54d56a74a988
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 36 is -> 
+{ bbc09da0798fc41b653b3a5e8b631e3857fbe4f3 -> 9ad82e0a5f24a8751d97dd55443cb997d34ceb9c } is a cherrypick
+{ 66344e33ef0e5bef3c965b9f76e72c261236a28c -> 807f2a35a47b4eea9df2025c5110850304ef39eb }
+Cherrypick commits SHA are -> 
+9ad82e0a5f24a8751d97dd55443cb997d34ceb9c - cherrypick - 807f2a35a47b4eea9df2025c5110850304ef39eb
+---> The cherrypicked commit sha is - 9ad82e0a5f24a8751d97dd55443cb997d34ceb9c
+Commit message - add methods to process api for closing handles and getting the file path
+---> The original commit sha is - 807f2a35a47b4eea9df2025c5110850304ef39eb
+Commit message - Merge branch 'development' of github.com:cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 37 is -> 
+{ 100236687141adbc748e51f8ceefd8f0be1b9ef4 -> e4fcb880d960f57a27b0acd5b32f4f09a82aac34 } is a cherrypick
+{ a9f35ffad975c9c426ea2b33f6ae5e616ae5ac94 -> f79dd53a741b01fa2cc8bd48e490afa763a6f80f }
+Cherrypick commits SHA are -> 
+e4fcb880d960f57a27b0acd5b32f4f09a82aac34 - cherrypick - f79dd53a741b01fa2cc8bd48e490afa763a6f80f
+---> The cherrypicked commit sha is - e4fcb880d960f57a27b0acd5b32f4f09a82aac34
+Commit message - Colored behavioral logs
+---> The original commit sha is - f79dd53a741b01fa2cc8bd48e490afa763a6f80f
+Commit message - Merge branch 'development' of github.com:cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 38 is -> 
+{ 85dbcc225cab34608cf49433bfe0ec0b73fd84b0 -> 449bf2bd312c979c6e2685b47018feacb7b4d997 } is a cherrypick
+{ d72aacf8dd3e6cc7c1f267d51864477dff0a84f1 -> ea5763999f85292f514b582028fcda323adaba8f }
+Cherrypick commits SHA are -> 
+449bf2bd312c979c6e2685b47018feacb7b4d997 - cherrypick - ea5763999f85292f514b582028fcda323adaba8f
+---> The cherrypicked commit sha is - 449bf2bd312c979c6e2685b47018feacb7b4d997
+Commit message - Update zip package doc with password option
+---> The original commit sha is - ea5763999f85292f514b582028fcda323adaba8f
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 39 is -> 
+{ f91327817f9b347f107757448f2cf3de4093aa92 -> 0a3ac7d36c0c02b39037861030d77e8e29af57fe } is a cherrypick
+{ b63da157a5b8f2ba4ac1356e99698e09bb255ee0 -> 8de47b7044a1602f645c81d4f1606c52c11a03db }
+Cherrypick commits SHA are -> 
+0a3ac7d36c0c02b39037861030d77e8e29af57fe - cherrypick - 8de47b7044a1602f645c81d4f1606c52c11a03db
+---> The cherrypicked commit sha is - 0a3ac7d36c0c02b39037861030d77e8e29af57fe
+Commit message - Update screenshot.py
+
+Changed how the difference between two screenshots is determined. It uses root mean square (code copied from: http://code.activestate.com/recipes/577630-comparing-two-images/) to determine how much it has changed. This overcomes the problem of a blinking network activity icon or blinking cursor from generating multiple screenshots.
+---> The original commit sha is - 8de47b7044a1602f645c81d4f1606c52c11a03db
+Commit message - Merge pull request #78 from carbito/patch-2
+
+Changed how the difference between screenshots is determined
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 40 is -> 
+{ 9e822508134d882e27c0bb531c34c55ad7451ecd -> ff6b230a286fbef6958ffd6d8ea8cd1b24808db6 } is a cherrypick
+{ 566c06185e654b2a82389b15f08521686ec52f88 -> 484bcd50bc15c1a666f3bee8af878e0c65f68d64 }
+Cherrypick commits SHA are -> 
+ff6b230a286fbef6958ffd6d8ea8cd1b24808db6 - cherrypick - 484bcd50bc15c1a666f3bee8af878e0c65f68d64
+---> The cherrypicked commit sha is - ff6b230a286fbef6958ffd6d8ea8cd1b24808db6
+Commit message - Fix #84
+---> The original commit sha is - 484bcd50bc15c1a666f3bee8af878e0c65f68d64
+Commit message - Merge pull request #73 from jvoisin/fix_84
+
+Fix #84
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 41 is -> 
+{ 2d39b81e75da76a05911dbf09707f9b8557fa7f0 -> d6127c325c0f587b65a45af6bd33de6090f6b648 } is a cherrypick
+{ d6127c325c0f587b65a45af6bd33de6090f6b648 -> fcbcffe550829e72715600341113512de4edb802 }
+Cherrypick commits SHA are -> 
+d6127c325c0f587b65a45af6bd33de6090f6b648 - cherrypick - fcbcffe550829e72715600341113512de4edb802
+---> The cherrypicked commit sha is - d6127c325c0f587b65a45af6bd33de6090f6b648
+Commit message - missed the update
+---> The original commit sha is - fcbcffe550829e72715600341113512de4edb802
+Commit message - update LocalList as well
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 42 is -> 
+{ 758fff53a4872bc4a78f1affd2d1ef990e8a1378 -> c7c6565f69faca819268533775299ee6e38b3ad1 } is a cherrypick
+{ 51f50ab7f1f787d62a65a898737785dcc8e11765 -> 6853fcf72a8ae910e3fe2fdfd534e70650286592 }
+Cherrypick commits SHA are -> 
+c7c6565f69faca819268533775299ee6e38b3ad1 - cherrypick - 6853fcf72a8ae910e3fe2fdfd534e70650286592
+---> The cherrypicked commit sha is - c7c6565f69faca819268533775299ee6e38b3ad1
+Commit message - Loading resultserver options from config file
+---> The original commit sha is - 6853fcf72a8ae910e3fe2fdfd534e70650286592
+Commit message - Merge branch 'development' of github.com:cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 43 is -> 
+{ fe6298b9a807e52a08d0f062a2004005517140b3 -> 4991c6fc330151c68f23a93ca1dbdbd58094a8fb } is a cherrypick
+{ a57f1df4298b0d44216c06cb96b96704d8d7e3fa -> 87c5ba60bec7e92b3edbd656cf61e719a8c38d80 }
+Cherrypick commits SHA are -> 
+4991c6fc330151c68f23a93ca1dbdbd58094a8fb - cherrypick - 87c5ba60bec7e92b3edbd656cf61e719a8c38d80
+---> The cherrypicked commit sha is - 4991c6fc330151c68f23a93ca1dbdbd58094a8fb
+Commit message - Added test to reproduce LocalDict list bug
+---> The original commit sha is - 87c5ba60bec7e92b3edbd656cf61e719a8c38d80
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 44 is -> 
+{ 643560f6b333b3683b8b19d72c3180fd98207c30 -> 5d0649e51830e5cb74ad83b9532989ebde74dd39 } is a cherrypick
+{ 8abf14ddb350c1983f436a544aa97ddf108a654b -> d696548ffb4e146b62e0ec05ab0d7f8282771280 }
+Cherrypick commits SHA are -> 
+5d0649e51830e5cb74ad83b9532989ebde74dd39 - cherrypick - d696548ffb4e146b62e0ec05ab0d7f8282771280
+---> The cherrypicked commit sha is - 5d0649e51830e5cb74ad83b9532989ebde74dd39
+Commit message - correctly initialize the pipe filename
+---> The original commit sha is - d696548ffb4e146b62e0ec05ab0d7f8282771280
+Commit message - Merge branch 'dev_123' of https://github.com/cuckoobox/cuckoo into dev_123
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 45 is -> 
+{ f4cd4a0e896c69bf21fede3bf41b004ef7f58adb -> 6c97527a1bcc7dd7f740552368ac2da1e013516d } is a cherrypick
+{ 704c5aa7197e9b23badf7cee4e7734df539ffa9e -> 506f947d15253393ca32268086b08e9ab5a8278a }
+Cherrypick commits SHA are -> 
+6c97527a1bcc7dd7f740552368ac2da1e013516d - cherrypick - 506f947d15253393ca32268086b08e9ab5a8278a
+---> The cherrypicked commit sha is - 6c97527a1bcc7dd7f740552368ac2da1e013516d
+Commit message - Prevent error when the attribute is not available (eg while waiting for the socket) on Python 2.6
+---> The original commit sha is - 506f947d15253393ca32268086b08e9ab5a8278a
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 46 is -> 
+{ 02065278448a2e3ad7bc14d0a5787219dbf30e7b -> efba1ba5909a4988a6dc08a1716e81e911ff44d0 } is a cherrypick
+{ 5bf278125f7c87a6c1edc7640267cff9c76512a9 -> e3dc849fb7d37f7df4f558a0ba7e6643ea22c2c4 }
+Cherrypick commits SHA are -> 
+efba1ba5909a4988a6dc08a1716e81e911ff44d0 - cherrypick - e3dc849fb7d37f7df4f558a0ba7e6643ea22c2c4
+---> The cherrypicked commit sha is - efba1ba5909a4988a6dc08a1716e81e911ff44d0
+Commit message - Documentation improvment
+---> The original commit sha is - e3dc849fb7d37f7df4f558a0ba7e6643ea22c2c4
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 47 is -> 
+{ d8178fc3f81540a78d1f34ddc5af3142345c197b -> d038de2314e51b52dc5d85c560b52b710098a603 } is a cherrypick
+{ fc0ece3ec122db2eb5c0219a9d4f5eeb2b33fcfc -> 8a9c2a4446807dd709e435fc6448063a4bcd8c78 }
+Cherrypick commits SHA are -> 
+d038de2314e51b52dc5d85c560b52b710098a603 - cherrypick - 8a9c2a4446807dd709e435fc6448063a4bcd8c78
+---> The cherrypicked commit sha is - d038de2314e51b52dc5d85c560b52b710098a603
+Commit message - less code = less bugs
+---> The original commit sha is - 8a9c2a4446807dd709e435fc6448063a4bcd8c78
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 48 is -> 
+{ 3c38b71041d1aebd9998e74252c360e1d2d88796 -> fbb76ac7d262a154cecc7f37f8d1540e4894bdec } is a cherrypick
+{ 10b5124ae39a00174f15fe822051479d1677c626 -> ea1cd06144fb44a1de74cadff760a5437ca63738 }
+Cherrypick commits SHA are -> 
+fbb76ac7d262a154cecc7f37f8d1540e4894bdec - cherrypick - ea1cd06144fb44a1de74cadff760a5437ca63738
+---> The cherrypicked commit sha is - fbb76ac7d262a154cecc7f37f8d1540e4894bdec
+Commit message - delete file from files_list when it is deleted
+---> The original commit sha is - ea1cd06144fb44a1de74cadff760a5437ca63738
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 49 is -> 
+{ c7d25637569bd5eca0ba14bf4877ff9d69c62bcd -> 8099919439ab76d91d4641370ecb34f0db2e4357 } is a cherrypick
+{ 3b0a678fa3b0314b7427e41f39d809ea428bc68e -> dd2681a22c833b81cea2ca758c5063a779623c90 }
+Cherrypick commits SHA are -> 
+8099919439ab76d91d4641370ecb34f0db2e4357 - cherrypick - dd2681a22c833b81cea2ca758c5063a779623c90
+---> The cherrypicked commit sha is - 8099919439ab76d91d4641370ecb34f0db2e4357
+Commit message - Introduced helper functions for easier signature creation
+---> The original commit sha is - dd2681a22c833b81cea2ca758c5063a779623c90
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 50 is -> 
+{ 571d5d9f229f4d752c5f7d29357d975f4e51244a -> 577c2794ea47d730df039449f037be972d1d65b9 } is a cherrypick
+{ 8c90a2a43e65ddc6f4245b2b0c9ae960791de818 -> e2301288c779ad7986d70bfdfd5c614c737197bc }
+Cherrypick commits SHA are -> 
+577c2794ea47d730df039449f037be972d1d65b9 - cherrypick - e2301288c779ad7986d70bfdfd5c614c737197bc
+---> The cherrypicked commit sha is - 577c2794ea47d730df039449f037be972d1d65b9
+Commit message - Fixed filename
+---> The original commit sha is - e2301288c779ad7986d70bfdfd5c614c737197bc
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 51 is -> 
+{ 4ff89a8bcef20fa3b73faf8b1b0ee351c477f0e0 -> b44be857fd263f3fa01ea5b38fb778cf4be1cdcd } is a cherrypick
+{ 811e5e6b8d28e9df872f1e3199d925f1b0aecacc -> 60cc9f4e7c11fc05d809811802ee096934565934 }
+Cherrypick commits SHA are -> 
+b44be857fd263f3fa01ea5b38fb778cf4be1cdcd - cherrypick - 60cc9f4e7c11fc05d809811802ee096934565934
+---> The cherrypicked commit sha is - b44be857fd263f3fa01ea5b38fb778cf4be1cdcd
+Commit message - No girls in here, gtfo
+---> The original commit sha is - 60cc9f4e7c11fc05d809811802ee096934565934
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 52 is -> 
+{ 9a338a397394418e639aac626d392cc974e2ac13 -> b715e019006fc6c6b6a7b34483e4cb7db2b08208 } is a cherrypick
+{ 43906cb720c63bce6843bfa2861c6e387118a80b -> 35f3799cb739f0810100849a5aa9b00f68f9f07e }
+Cherrypick commits SHA are -> 
+b715e019006fc6c6b6a7b34483e4cb7db2b08208 - cherrypick - 35f3799cb739f0810100849a5aa9b00f68f9f07e
+---> The cherrypicked commit sha is - b715e019006fc6c6b6a7b34483e4cb7db2b08208
+Commit message - Added file extension check for csv files
+---> The original commit sha is - 35f3799cb739f0810100849a5aa9b00f68f9f07e
+Commit message - Merge pull request #49 from Thorsten-Sick/csv_filename_check
+
+Added file extension check for csv files
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 53 is -> 
+{ 23836e5581b9d3293847c6eed4c2d46959798401 -> 2db93858e86b72136e3a786b7417c38497fd7391 } is a cherrypick
+{ 01af46b311a00f276cf046743eba8edcf64f7665 -> fb767175b1179334602af2d0dad112fde61f02de }
+Cherrypick commits SHA are -> 
+2db93858e86b72136e3a786b7417c38497fd7391 - cherrypick - fb767175b1179334602af2d0dad112fde61f02de
+---> The cherrypicked commit sha is - 2db93858e86b72136e3a786b7417c38497fd7391
+Commit message - Fixed typo
+---> The original commit sha is - fb767175b1179334602af2d0dad112fde61f02de
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 54 is -> 
+{ 4f717a5688deaf7377041ffbd47f8e9a927e64a2 -> dd154e3bf3df719811f1f75a7bc044a0bba688ca } is a cherrypick
+{ 3d76dd6b5c03124acf23ae9367058961219a6a56 -> 1cc739617ee811ef647c6a00a5d46929b2b7a746 }
+Cherrypick commits SHA are -> 
+dd154e3bf3df719811f1f75a7bc044a0bba688ca - cherrypick - 1cc739617ee811ef647c6a00a5d46929b2b7a746
+---> The cherrypicked commit sha is - dd154e3bf3df719811f1f75a7bc044a0bba688ca
+Commit message - one more esthetic - start raises, so let stop raise as well
+---> The original commit sha is - 1cc739617ee811ef647c6a00a5d46929b2b7a746
+Commit message - Merge branch 'development' of github.com:rep/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 55 is -> 
+{ 1679c25a5ac8e576b244c49d7f8804fbc1da4e7f -> 7c7cfe98f69baa6a783475895713dbf12aff3cb5 } is a cherrypick
+{ 5d8f9ffa9d306b30f22a514b4b3356c62aafa2d3 -> 4f717a5688deaf7377041ffbd47f8e9a927e64a2 }
+Cherrypick commits SHA are -> 
+7c7cfe98f69baa6a783475895713dbf12aff3cb5 - cherrypick - 4f717a5688deaf7377041ffbd47f8e9a927e64a2
+---> The cherrypicked commit sha is - 7c7cfe98f69baa6a783475895713dbf12aff3cb5
+Commit message - Implemented native suport for URL in the core
+---> The original commit sha is - 4f717a5688deaf7377041ffbd47f8e9a927e64a2
+Commit message - Merge branch 'development' of github.com:cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 56 is -> 
+{ f38e9280e3f0b4b213c4807ff76b06a70b8db2ab -> 4306fa3c283e68e98ad0f2a11563b9b145d9e802 } is a cherrypick
+{ 80527132017a6191a528ddb85b9f9cf3edb48ee5 -> 31cd879568ce715b0b494c3711471a70b4732600 }
+Cherrypick commits SHA are -> 
+4306fa3c283e68e98ad0f2a11563b9b145d9e802 - cherrypick - 31cd879568ce715b0b494c3711471a70b4732600
+---> The cherrypicked commit sha is - 4306fa3c283e68e98ad0f2a11563b9b145d9e802
+Commit message - Added task search API
+---> The original commit sha is - 31cd879568ce715b0b494c3711471a70b4732600
+Commit message - Merge remote-tracking branch 'origin/development' into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 57 is -> 
+{ 11ce69401dee8cb80522b8e77cff6241207a4f32 -> 02b38c45f1bd35b87714c4393b6163542941a657 } is a cherrypick
+{ 044747071a0e262451bfa55557e91f6d99a70100 -> f08cc0947e21762e9d6ff8fe476f8b3c3c6cd0e4 }
+Cherrypick commits SHA are -> 
+02b38c45f1bd35b87714c4393b6163542941a657 - cherrypick - f08cc0947e21762e9d6ff8fe476f8b3c3c6cd0e4
+---> The cherrypicked commit sha is - 02b38c45f1bd35b87714c4393b6163542941a657
+Commit message - Added task list api
+---> The original commit sha is - f08cc0947e21762e9d6ff8fe476f8b3c3c6cd0e4
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 58 is -> 
+{ 51c0c83c43c9d345f0edff7245490edd0b9ff093 -> a9c6e59f58df33b357b4966106aa1786083af7a7 } is a cherrypick
+{ 2c62d92d8798dbef948228c186e7c8cfcdc14fdd -> 6a321b13c1e0a6de742e7596b7eba03ef530d859 }
+Cherrypick commits SHA are -> 
+a9c6e59f58df33b357b4966106aa1786083af7a7 - cherrypick - 6a321b13c1e0a6de742e7596b7eba03ef530d859
+---> The cherrypicked commit sha is - a9c6e59f58df33b357b4966106aa1786083af7a7
+Commit message - Changing paths for Windows support
+---> The original commit sha is - 6a321b13c1e0a6de742e7596b7eba03ef530d859
+Commit message - Moved malware path to temp
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 59 is -> 
+{ 3e8a67dfe363b6f6703db90a6344dff902760fb0 -> 98bf8ad1d40ab0687606e583aafd532297be4d0d } is a cherrypick
+{ e016a6aa550fa8af7ee107b86a237e9130c0c8ff -> 2c62d92d8798dbef948228c186e7c8cfcdc14fdd }
+Cherrypick commits SHA are -> 
+98bf8ad1d40ab0687606e583aafd532297be4d0d - cherrypick - 2c62d92d8798dbef948228c186e7c8cfcdc14fdd
+---> The cherrypicked commit sha is - 98bf8ad1d40ab0687606e583aafd532297be4d0d
+Commit message - Fixed typo and added note about dhcp addresses
+---> The original commit sha is - 2c62d92d8798dbef948228c186e7c8cfcdc14fdd
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 60 is -> 
+{ de86ff6b77e1f1e69c4fef83e63de5fd0221e0e3 -> 616f515896a982b0557a255aa27dfce223eea8d5 } is a cherrypick
+{ 73f600682a404102b5fbde9b5c8ff4bd6a3d1d9b -> b6921ce8814a4bc3fad0a70b4470ad280fd32efd }
+Cherrypick commits SHA are -> 
+616f515896a982b0557a255aa27dfce223eea8d5 - cherrypick - b6921ce8814a4bc3fad0a70b4470ad280fd32efd
+---> The cherrypicked commit sha is - 616f515896a982b0557a255aa27dfce223eea8d5
+Commit message - Bumped to 0.4.2-beta
+---> The original commit sha is - b6921ce8814a4bc3fad0a70b4470ad280fd32efd
+Commit message - Merge branch 'development' into testing
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 61 is -> 
+{ b548976422443f55f4a47b9b2217d5cc369a66f2 -> 51c0c83c43c9d345f0edff7245490edd0b9ff093 } is a cherrypick
+{ 65c1e60c1ef4cbcd3148e0ca8ec16df0c16691bd -> 33dc13cf5f1f2673a3c9a2be70113bab728006c0 }
+Cherrypick commits SHA are -> 
+51c0c83c43c9d345f0edff7245490edd0b9ff093 - cherrypick - 33dc13cf5f1f2673a3c9a2be70113bab728006c0
+---> The cherrypicked commit sha is - 51c0c83c43c9d345f0edff7245490edd0b9ff093
+Commit message - Minor fix
+---> The original commit sha is - 33dc13cf5f1f2673a3c9a2be70113bab728006c0
+Commit message - Minor fix
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 62 is -> 
+{ 12d07fa03fa432989852fba63887ded3ac4c6548 -> a411710d63f1e5c2be4679ef65437162cc5571b3 } is a cherrypick
+{ 948993a95191065bb3a6ced4409e49bd6ed76714 -> 3d26f401bae79acec419a4cc75306dd0ea770af0 }
+Cherrypick commits SHA are -> 
+a411710d63f1e5c2be4679ef65437162cc5571b3 - cherrypick - 3d26f401bae79acec419a4cc75306dd0ea770af0
+---> The cherrypicked commit sha is - a411710d63f1e5c2be4679ef65437162cc5571b3
+Commit message - Introduced ordering of processing modules' execution
+---> The original commit sha is - 3d26f401bae79acec419a4cc75306dd0ea770af0
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 63 is -> 
+{ ea49ed6c0f81089bb2bf6c5a0cd3d9031a0aa0f2 -> 75f4af54f145284f4b0995c4e1c7311a5c82994d } is a cherrypick
+{ 4ba661853e9969ed33d629c02c8ff7b6999b6005 -> 9deb1f558ac5780ab3182513851eb3c49bda2976 }
+Cherrypick commits SHA are -> 
+75f4af54f145284f4b0995c4e1c7311a5c82994d - cherrypick - 9deb1f558ac5780ab3182513851eb3c49bda2976
+---> The cherrypicked commit sha is - 75f4af54f145284f4b0995c4e1c7311a5c82994d
+Commit message - Changed version
+---> The original commit sha is - 9deb1f558ac5780ab3182513851eb3c49bda2976
+Commit message - Merge branch 'development' into testing
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 64 is -> 
+{ 4d4ca6dcb695f32f1b43f28bd252d2db82becb8b -> 55eede8b7bf2c2f3e9be92dad486186fecf7bde7 } is a cherrypick
+{ 4ba661853e9969ed33d629c02c8ff7b6999b6005 -> 9deb1f558ac5780ab3182513851eb3c49bda2976 }
+Cherrypick commits SHA are -> 
+55eede8b7bf2c2f3e9be92dad486186fecf7bde7 - cherrypick - 9deb1f558ac5780ab3182513851eb3c49bda2976
+---> The cherrypicked commit sha is - 55eede8b7bf2c2f3e9be92dad486186fecf7bde7
+Commit message - Merge branches 'testing' and 'development' into testing
+---> The original commit sha is - 9deb1f558ac5780ab3182513851eb3c49bda2976
+Commit message - Merge branch 'development' into testing
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 65 is -> 
+{ 09d4dcaf0744adf2e777354d3a00da49a957414a -> f891e4fb42c1b397f2a059c8d4d036edbb834f07 } is a cherrypick
+{ 7bafe8f89f25a073d753fec1327c2d7ecf53c12c -> 009c5f82587be0b174707c5589871127fe0172f1 }
+Cherrypick commits SHA are -> 
+f891e4fb42c1b397f2a059c8d4d036edbb834f07 - cherrypick - 009c5f82587be0b174707c5589871127fe0172f1
+---> The cherrypicked commit sha is - f891e4fb42c1b397f2a059c8d4d036edbb834f07
+Commit message - Fixed ordering of screenshots
+---> The original commit sha is - 009c5f82587be0b174707c5589871127fe0172f1
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 66 is -> 
+{ ea49ed6c0f81089bb2bf6c5a0cd3d9031a0aa0f2 -> 75f4af54f145284f4b0995c4e1c7311a5c82994d } is a cherrypick
+{ 4d4ca6dcb695f32f1b43f28bd252d2db82becb8b -> 55eede8b7bf2c2f3e9be92dad486186fecf7bde7 }
+Cherrypick commits SHA are -> 
+75f4af54f145284f4b0995c4e1c7311a5c82994d - cherrypick - 55eede8b7bf2c2f3e9be92dad486186fecf7bde7
+---> The cherrypicked commit sha is - 75f4af54f145284f4b0995c4e1c7311a5c82994d
+Commit message - Changed version
+---> The original commit sha is - 55eede8b7bf2c2f3e9be92dad486186fecf7bde7
+Commit message - Merge branches 'testing' and 'development' into testing
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 67 is -> 
+{ 9d625387a4ea60c88507234515ec2ecbb75acb1c -> db8cb78d2d08f116c82fcc63f8efb13db3129b08 } is a cherrypick
+{ e93036d64e068188833fe8a9cdb4358fd17dd8aa -> 23c52a727c963dcb1900c65423d5e29ff79b4a96 }
+Cherrypick commits SHA are -> 
+db8cb78d2d08f116c82fcc63f8efb13db3129b08 - cherrypick - 23c52a727c963dcb1900c65423d5e29ff79b4a96
+---> The cherrypicked commit sha is - db8cb78d2d08f116c82fcc63f8efb13db3129b08
+Commit message - Fixed another path concatenation bug
+---> The original commit sha is - 23c52a727c963dcb1900c65423d5e29ff79b4a96
+Commit message - Merge pull request #34 from apridgen/fixlog_issues
+
+Fix log path generation
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 68 is -> 
+{ 1092c0d626a56a89689975a3efa82ba19b404946 -> f774e75b389f8c82599f1a00d904b6bc655bad6c } is a cherrypick
+{ a931f39803bae7531af43d63430716d7eaec4d09 -> 45cf3aa4d5992df0324afb9ac18d618d7b52835f }
+Cherrypick commits SHA are -> 
+f774e75b389f8c82599f1a00d904b6bc655bad6c - cherrypick - 45cf3aa4d5992df0324afb9ac18d618d7b52835f
+---> The cherrypicked commit sha is - f774e75b389f8c82599f1a00d904b6bc655bad6c
+Commit message - Fixed contributors list
+---> The original commit sha is - 45cf3aa4d5992df0324afb9ac18d618d7b52835f
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 69 is -> 
+{ fde453ab34c1eae0e9497e07c4c8cb272178260c -> 328a260f6f9e283d5ab8153a31e2939384879095 } is a cherrypick
+{ 51ff9dc859dac598ad193157b325fa782447a11a -> 6e12fdbfd666905e003cfb57e8081d4b6248c742 }
+Cherrypick commits SHA are -> 
+328a260f6f9e283d5ab8153a31e2939384879095 - cherrypick - 6e12fdbfd666905e003cfb57e8081d4b6248c742
+---> The cherrypicked commit sha is - 328a260f6f9e283d5ab8153a31e2939384879095
+Commit message - Added data directory
+---> The original commit sha is - 6e12fdbfd666905e003cfb57e8081d4b6248c742
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 70 is -> 
+{ eb2cca4d3464237c0b52ab4cf87d68dfe42e55a5 -> ec5d5875ffe1d782d7649254e3a936a6150b9b66 } is a cherrypick
+{ f665e99ecb7a12f83ec73167bfc400f663b4d026 -> d2df8e73a3bfa8e074501b5f65be2eb0c69a33fa }
+Cherrypick commits SHA are -> 
+ec5d5875ffe1d782d7649254e3a936a6150b9b66 - cherrypick - d2df8e73a3bfa8e074501b5f65be2eb0c69a33fa
+---> The cherrypicked commit sha is - ec5d5875ffe1d782d7649254e3a936a6150b9b66
+Commit message - Added time conversion utility
+---> The original commit sha is - d2df8e73a3bfa8e074501b5f65be2eb0c69a33fa
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 71 is -> 
+{ 31b5312387abfeca77f3c39f058318919109156b -> 1ab56edf32ab32f07b1c42375cfc5ff45999c6d9 } is a cherrypick
+{ abe0932cd6ee521e691ec609df6a003e027057f1 -> 8b38142042c6dbbae13d5204c9d95a54b6d8be40 }
+Cherrypick commits SHA are -> 
+1ab56edf32ab32f07b1c42375cfc5ff45999c6d9 - cherrypick - 8b38142042c6dbbae13d5204c9d95a54b6d8be40
+---> The cherrypicked commit sha is - 1ab56edf32ab32f07b1c42375cfc5ff45999c6d9
+Commit message - Added initial MongoDB reporting module
+---> The original commit sha is - 8b38142042c6dbbae13d5204c9d95a54b6d8be40
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 72 is -> 
+{ 364a49277e8f98a44d5e40a0556fa7b513d27413 -> 35a32fe92241d67aa2562f27d267f3b9696a2291 } is a cherrypick
+{ 01959a2f79e4b78761fd20dbc80176a5ca6a0307 -> 37f4ee98c3aa46e83a5ead435484fbf83cb32df3 }
+Cherrypick commits SHA are -> 
+35a32fe92241d67aa2562f27d267f3b9696a2291 - cherrypick - 37f4ee98c3aa46e83a5ead435484fbf83cb32df3
+---> The cherrypicked commit sha is - 35a32fe92241d67aa2562f27d267f3b9696a2291
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+---> The original commit sha is - 37f4ee98c3aa46e83a5ead435484fbf83cb32df3
+Commit message - Restored VirtualBox handler
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 73 is -> 
+{ 96b237299070d22165cdd054836efdf76a88e8c6 -> 016085ac33de69bb22dde136116d5876f66cbd93 } is a cherrypick
+{ 01959a2f79e4b78761fd20dbc80176a5ca6a0307 -> 37f4ee98c3aa46e83a5ead435484fbf83cb32df3 }
+Cherrypick commits SHA are -> 
+016085ac33de69bb22dde136116d5876f66cbd93 - cherrypick - 37f4ee98c3aa46e83a5ead435484fbf83cb32df3
+---> The cherrypicked commit sha is - 016085ac33de69bb22dde136116d5876f66cbd93
+Commit message - Merge branch 'development' of github.com:cuckoobox/cuckoo into development
+---> The original commit sha is - 37f4ee98c3aa46e83a5ead435484fbf83cb32df3
+Commit message - Restored VirtualBox handler
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 74 is -> 
+{ 364a49277e8f98a44d5e40a0556fa7b513d27413 -> 35a32fe92241d67aa2562f27d267f3b9696a2291 } is a cherrypick
+{ 96b237299070d22165cdd054836efdf76a88e8c6 -> 016085ac33de69bb22dde136116d5876f66cbd93 }
+Cherrypick commits SHA are -> 
+35a32fe92241d67aa2562f27d267f3b9696a2291 - cherrypick - 016085ac33de69bb22dde136116d5876f66cbd93
+---> The cherrypicked commit sha is - 35a32fe92241d67aa2562f27d267f3b9696a2291
+Commit message - Merge branch 'development' of https://github.com/cuckoobox/cuckoo into development
+---> The original commit sha is - 016085ac33de69bb22dde136116d5876f66cbd93
+Commit message - Merge branch 'development' of github.com:cuckoobox/cuckoo into development
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 75 is -> 
+{ 8c1d88e8c63294d717d3dd69455a97b079c392a4 -> 708ad3f972d148d0bda5b2d08b575de004ecf5b2 } is a cherrypick
+{ 7f85262e0a7b49bd9630bfc2246c5e528818ecfa -> 4b83554b2b61de0e809861103e582e917c0fc56c }
+Cherrypick commits SHA are -> 
+708ad3f972d148d0bda5b2d08b575de004ecf5b2 - cherrypick - 4b83554b2b61de0e809861103e582e917c0fc56c
+---> The cherrypicked commit sha is - 708ad3f972d148d0bda5b2d08b575de004ecf5b2
+Commit message - Fixed antani worm
+---> The original commit sha is - 4b83554b2b61de0e809861103e582e917c0fc56c
+Commit message - Merge branch 'unstable' of github.com:cuckoobox/cuckoo into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 76 is -> 
+{ 346c3d1b8a4e82ec472361d3509ac3d88c3f77a9 -> d8c75f8c73bd474a42a0d0ccf449c3c1ff475619 } is a cherrypick
+{ 7f0b100f27c53bb00b0fde350c3d83d58d7433b6 -> 393e5ccd282dd7af6ef3a847fb678812eede71f2 }
+Cherrypick commits SHA are -> 
+d8c75f8c73bd474a42a0d0ccf449c3c1ff475619 - cherrypick - 393e5ccd282dd7af6ef3a847fb678812eede71f2
+---> The cherrypicked commit sha is - d8c75f8c73bd474a42a0d0ccf449c3c1ff475619
+Commit message - Minor fix
+---> The original commit sha is - 393e5ccd282dd7af6ef3a847fb678812eede71f2
+Commit message - Merge branch 'unstable' of github.com:cuckoobox/cuckoo into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 77 is -> 
+{ 87722d1f5c50aeb422ef33907c554958574839c6 -> ed1f268d8a336d1cdb8e525b0e54487c60713ec2 } is a cherrypick
+{ e77dcbd5253749d3c9eed61931328dc77b5d8753 -> 5fcf2574c6a510e28120e569e56de1d8021d2e09 }
+Cherrypick commits SHA are -> 
+ed1f268d8a336d1cdb8e525b0e54487c60713ec2 - cherrypick - 5fcf2574c6a510e28120e569e56de1d8021d2e09
+---> The cherrypicked commit sha is - ed1f268d8a336d1cdb8e525b0e54487c60713ec2
+Commit message - Removed unused interpreter header
+---> The original commit sha is - 5fcf2574c6a510e28120e569e56de1d8021d2e09
+Commit message - Merge branch 'unstable' of https://github.com/cuckoobox/cuckoo into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 78 is -> 
+{ 47aa0a9bc321b95f8f5ab46f3f8d324a40b6215c -> ec509bff4141a53b553e5b256017f7477328a891 } is a cherrypick
+{ 1cfcc607b2c6acd3bbc2a1dbbd9aecaafeecf293 -> 4cd95dc7f9f7c638e0853b0bf6bb134f4ec6cdfc }
+Cherrypick commits SHA are -> 
+ec509bff4141a53b553e5b256017f7477328a891 - cherrypick - 4cd95dc7f9f7c638e0853b0bf6bb134f4ec6cdfc
+---> The cherrypicked commit sha is - ec509bff4141a53b553e5b256017f7477328a891
+Commit message - Removed debug print
+---> The original commit sha is - 4cd95dc7f9f7c638e0853b0bf6bb134f4ec6cdfc
+Commit message - Merge branch 'unstable' of https://github.com/cuckoobox/cuckoo into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 79 is -> 
+{ e134d650f62d59ad1b64c25af0c049d7ea939cb4 -> ecd3a178b53fc8f2e9264b4f9489162fde2eba15 } is a cherrypick
+{ 8c3acce519ee2be15a49b363d5ae562153984187 -> e047adda9c5a349abd0312d3766091c0bc89d6d1 }
+Cherrypick commits SHA are -> 
+ecd3a178b53fc8f2e9264b4f9489162fde2eba15 - cherrypick - e047adda9c5a349abd0312d3766091c0bc89d6d1
+---> The cherrypicked commit sha is - ecd3a178b53fc8f2e9264b4f9489162fde2eba15
+Commit message - Fixed typo
+---> The original commit sha is - e047adda9c5a349abd0312d3766091c0bc89d6d1
+Commit message - Merge branch 'unstable' of https://github.com/cuckoobox/cuckoo into unstable
+-----------------------------------------------------------------
+
+Cherry-pick diff pair 80 is -> 
+{ 992849b955e7fdb7195552c937a82ec065ce5791 -> a13aed74ba44c4ab7cedce01a8e808243c7c7c95 } is a cherrypick
+{ 59fb3d3ad512f6f8d8b250291286a92e52612345 -> e134d650f62d59ad1b64c25af0c049d7ea939cb4 }
+Cherrypick commits SHA are -> 
+a13aed74ba44c4ab7cedce01a8e808243c7c7c95 - cherrypick - e134d650f62d59ad1b64c25af0c049d7ea939cb4
+---> The cherrypicked commit sha is - a13aed74ba44c4ab7cedce01a8e808243c7c7c95
+Commit message - Added reporting configuration file
+---> The original commit sha is - e134d650f62d59ad1b64c25af0c049d7ea939cb4
+Commit message - Merge branch 'unstable' of github.com:cuckoobox/cuckoo into unstable
+-----------------------------------------------------------------
+

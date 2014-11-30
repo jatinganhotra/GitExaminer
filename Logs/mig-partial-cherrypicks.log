@@ -1,0 +1,131 @@
+# of partial cherrypicks = 7
+Partial Cherry-pick diff pair 1 is -> 
+{ 242b92a81a1c1add7976a748689317c7b167e3fa -> 8cd323c5f987b7c00fb929fdb04b1bdec1255af1 } is a cherrypick
+{ 2a3bb391f5cec9c45e6243518dc986ea700b3644 -> 0ebb2e2393425e77daeaebbeb14ebbd96509d5e2 }
+Partial Cherry-pick commits SHA are -> 
+8cd323c5f987b7c00fb929fdb04b1bdec1255af1 - cherrypick - 0ebb2e2393425e77daeaebbeb14ebbd96509d5e2
+---> The cherrypicked commit sha is - 8cd323c5f987b7c00fb929fdb04b1bdec1255af1
+Commit message - Better database query error handling.
+
+When returning due to an error, close the rows object.  Additionally,
+when rows.Next returns false, check if it was caused by an error.
+---> The original commit sha is - 0ebb2e2393425e77daeaebbeb14ebbd96509d5e2
+Commit message - Merge pull request #21 from dajohi/master
+
+Better database query error handling.
+---> The files with partial_cherrypicks are:-
+src/mig/database/queries.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ 242b92a81a1c1add7976a748689317c7b167e3fa -> 8cd323c5f987b7c00fb929fdb04b1bdec1255af1 } is a cherrypick
+{ aebf61e90347e912459e6ed5a991f5c1293711b0 -> 798c0bdee80c9680a505a79defde0c2a8408029e }
+Partial Cherry-pick commits SHA are -> 
+8cd323c5f987b7c00fb929fdb04b1bdec1255af1 - cherrypick - 798c0bdee80c9680a505a79defde0c2a8408029e
+---> The cherrypicked commit sha is - 8cd323c5f987b7c00fb929fdb04b1bdec1255af1
+Commit message - Better database query error handling.
+
+When returning due to an error, close the rows object.  Additionally,
+when rows.Next returns false, check if it was caused by an error.
+---> The original commit sha is - 798c0bdee80c9680a505a79defde0c2a8408029e
+Commit message - [minor] scheduler should use exactly the number of cpus
+---> The files with partial_cherrypicks are:-
+src/mig/scheduler/scheduler.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 3 is -> 
+{ 2632acc4b55d9c8cc4650feec42eaa141bf98109 -> d2f302cbd0eb8369786d041bf99293698d7a549a } is a cherrypick
+{ ae349030903a4f48f3802fc23a08283137a4587f -> 1877a60b1c28effc5f788a980b62e02f6fc683f6 }
+Partial Cherry-pick commits SHA are -> 
+d2f302cbd0eb8369786d041bf99293698d7a549a - cherrypick - 1877a60b1c28effc5f788a980b62e02f6fc683f6
+---> The cherrypicked commit sha is - d2f302cbd0eb8369786d041bf99293698d7a549a
+Commit message - [major] f*** gpgme, use Go's own openpgp and Camlistore's gpgagent/pinentry instead
+---> The original commit sha is - 1877a60b1c28effc5f788a980b62e02f6fc683f6
+Commit message - Merge pull request #19 from mozilla/nomoargpgme
+
+[major] f*** gpgme, use Go's own openpgp and Camlistore's gpgagent/pinentry instead
+---> The files with partial_cherrypicks are:-
+Makefile
+conf/mig-api.cfg.inc
+conf/mig-scheduler.cfg.inc
+doc/configuration.rst
+src/mig/api/api.go
+src/mig/api/context.go
+src/mig/pgp/sign/Makefile
+src/mig/pgp/sign/libmig_gpgme.c
+src/mig/pgp/sign/libmig_gpgme.h
+src/mig/pgp/sign/sign.go
+src/mig/pgp/verify/verify.go
+src/mig/scheduler/context.go
+src/mig/scheduler/scheduler.go
+src/mig/scheduler/upgradeagent.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 4 is -> 
+{ 13db4221d1ff25692e729306399625cc8920e4f7 -> c3288169536e8058412a838d0b236c4b9752ce98 } is a cherrypick
+{ ae349030903a4f48f3802fc23a08283137a4587f -> 1877a60b1c28effc5f788a980b62e02f6fc683f6 }
+Partial Cherry-pick commits SHA are -> 
+c3288169536e8058412a838d0b236c4b9752ce98 - cherrypick - 1877a60b1c28effc5f788a980b62e02f6fc683f6
+---> The cherrypicked commit sha is - c3288169536e8058412a838d0b236c4b9752ce98
+Commit message - [minor] fix homedir detection on darwin
+---> The original commit sha is - 1877a60b1c28effc5f788a980b62e02f6fc683f6
+Commit message - Merge pull request #19 from mozilla/nomoargpgme
+
+[major] f*** gpgme, use Go's own openpgp and Camlistore's gpgagent/pinentry instead
+---> The files with partial_cherrypicks are:-
+Makefile
+conf/mig-api.cfg.inc
+conf/mig-scheduler.cfg.inc
+doc/configuration.rst
+src/mig/api/api.go
+src/mig/api/context.go
+src/mig/clients/generator/generator.go
+src/mig/pgp/sign/Makefile
+src/mig/pgp/sign/libmig_gpgme.c
+src/mig/pgp/sign/libmig_gpgme.h
+src/mig/pgp/sign/sign.go
+src/mig/pgp/verify/verify.go
+src/mig/scheduler/context.go
+src/mig/scheduler/scheduler.go
+src/mig/scheduler/upgradeagent.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 5 is -> 
+{ 5644dbe48fec76ee89f9cd723753b1dbb8e27826 -> 026f32c7f9ba660d40229724774cfef4b97b0e86 } is a cherrypick
+{ f4e2e31f4862600098f7beaa1535a36472864c10 -> 284d773a7c12e6f0cef419fe3ad24b5b58909399 }
+Partial Cherry-pick commits SHA are -> 
+026f32c7f9ba660d40229724774cfef4b97b0e86 - cherrypick - 284d773a7c12e6f0cef419fe3ad24b5b58909399
+---> The cherrypicked commit sha is - 026f32c7f9ba660d40229724774cfef4b97b0e86
+Commit message - [doc] update youtube presentation
+---> The original commit sha is - 284d773a7c12e6f0cef419fe3ad24b5b58909399
+Commit message - [minor] clean up unused source file
+---> The files with partial_cherrypicks are:-
+src/mig/clients/fetcher/fetcher.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 6 is -> 
+{ 01a5e8857bb08e5a115a8d007855069251faac49 -> 203dc2dbd63965460baa09d238b19668ad029fe6 } is a cherrypick
+{ 166985d4d58725adafbdf5e4cbc5e12628607ff1 -> 42a03583184141b4d1be3b2dd97196b2296a483c }
+Partial Cherry-pick commits SHA are -> 
+203dc2dbd63965460baa09d238b19668ad029fe6 - cherrypick - 42a03583184141b4d1be3b2dd97196b2296a483c
+---> The cherrypicked commit sha is - 203dc2dbd63965460baa09d238b19668ad029fe6
+Commit message - [minor] API resources cleanup
+---> The original commit sha is - 42a03583184141b4d1be3b2dd97196b2296a483c
+Commit message - Merge branch 'master' of github.com:mozilla/mig
+---> The files with partial_cherrypicks are:-
+src/mig/api/api.go
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 7 is -> 
+{ 5644dbe48fec76ee89f9cd723753b1dbb8e27826 -> 026f32c7f9ba660d40229724774cfef4b97b0e86 } is a cherrypick
+{ 3e8bd2f641122e4a95b3fa63d16ba5366422d49a -> e7517910d064f77b8b6486488fa29937aa9ea068 }
+Partial Cherry-pick commits SHA are -> 
+026f32c7f9ba660d40229724774cfef4b97b0e86 - cherrypick - e7517910d064f77b8b6486488fa29937aa9ea068
+---> The cherrypicked commit sha is - 026f32c7f9ba660d40229724774cfef4b97b0e86
+Commit message - [doc] update youtube presentation
+---> The original commit sha is - e7517910d064f77b8b6486488fa29937aa9ea068
+Commit message - Merge branch 'api'
+---> The files with partial_cherrypicks are:-
+README.md
+-----------------------------------------------------------------
+

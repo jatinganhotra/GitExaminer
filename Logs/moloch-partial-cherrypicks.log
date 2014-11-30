@@ -1,0 +1,36 @@
+# of partial cherrypicks = 2
+Partial Cherry-pick diff pair 1 is -> 
+{ 9eb4a93defeaf9a0fc52c97b2296ad955fc53e3b -> 6cd06ce20f528711191ef7ef670bb6c2f009e95e } is a cherrypick
+{ 0a4ce71fa8f8ebda17b1be6e6db9dc2f996ef443 -> 2eb133b77e58366f66616f2460e84913a30921d4 }
+Partial Cherry-pick commits SHA are -> 
+6cd06ce20f528711191ef7ef670bb6c2f009e95e - cherrypick - 2eb133b77e58366f66616f2460e84913a30921d4
+---> The cherrypicked commit sha is - 6cd06ce20f528711191ef7ef670bb6c2f009e95e
+Commit message - Testing for libGeoIP was linking with libyara
+---> The original commit sha is - 2eb133b77e58366f66616f2460e84913a30921d4
+Commit message - Merge pull request #45 from jpvlsmv/master
+
+libGeoIP detection not working
+---> The files with partial_cherrypicks are:-
+configure.ac
+-----------------------------------------------------------------
+
+Partial Cherry-pick diff pair 2 is -> 
+{ 199b40f41d250335958517d3c1b84ac3ac2f363a -> 4fe3997d9840d6c8e40c91ea5e487119e36ee60b } is a cherrypick
+{ 70ab5ccbd389920e11ddfd7290363cdcd752e7e0 -> 87be7b753108b760ac273ac17832674c42c131f8 }
+Partial Cherry-pick commits SHA are -> 
+4fe3997d9840d6c8e40c91ea5e487119e36ee60b - cherrypick - 87be7b753108b760ac273ac17832674c42c131f8
+---> The cherrypicked commit sha is - 4fe3997d9840d6c8e40c91ea5e487119e36ee60b
+Commit message - Improved easybutton-singlehost to create fake cert, init db and start everything
+---> The original commit sha is - 87be7b753108b760ac273ac17832674c42c131f8
+Commit message - Merge branch 'master' of github.com:aol/moloch
+---> The files with partial_cherrypicks are:-
+db/init.sh
+db/sessions.json
+easybutton-config.sh
+single-host/bin/run_capture.sh
+single-host/bin/run_es.sh
+single-host/bin/run_viewer.sh
+single-host/etc/config.ini.template
+single-host/etc/elasticsearch.yml
+-----------------------------------------------------------------
+
