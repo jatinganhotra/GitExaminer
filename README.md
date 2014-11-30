@@ -1,24 +1,35 @@
-RevertFinder
+GitExaminer
 ============
 
 <strong>
-How often do people revert code?
+How often do people revert/merge/cherry-pick?
 
 <a name="jatin-ganhotra--ganhotr2illinoisedu--jatinganhotragmailcom" class="anchor" href="http://jatinganhotra.com"><span class="octicon octicon-link"></span>Jatin Ganhotra</a> | <a href="mailto:ganhotr2@illinois.edu">ganhotr2@illinois.edu</a> | <a href="mailto:jatin.ganhotra@gmail.com">jatin.ganhotra@gmail.com</a>
 </strong>
 
 
-<h6> Motivation: </h6>
+<h5> Motivation: </h5>
 
-<p> As developers, we always end up in situations when we realise a previous change was incorrect.
+<p> As developers, we come across different situations, such as:
+    <ul>
+    * when we realise a previous change was incorrect
+    * when we need to cherry-pick a commit from one branch and apply it on another.
+    * or, merge changes from one branch to another
+
   Thanks to modern version control systems, such as <a href="http://git-scm.com">Git</a>,
-  reverting the previous change is just one-command away.
-  This project aims to find the # of reverts performed in a given project, given it's commit history.
+  reverting the previous change, cherry-picking and merging are just one-command away.
+  For any collaborative project, <i>revert</i>, <i>cherry-pick</i> and <i>merge</i> are
+  essential.
+</p>
+<p>
+  Git-Examiner reports the # of reverts, # of merges and # of cherry-picks performed in a given project, given it's commit history.
+  In addition, Git-Examiner also inspects the commit history and also reports partial reverts and partial cherry-picks in the project.
 </p>
 
-<h6> Introduction: </h6>
+<h5> Introduction: </h5>
 
-<p>When a programmer/developer performs a <a href="http://git-scm.com/docs/git-revert">git-revert</a>
+<h6> Reverts & Partial Reverts </h6>
+<p>A developer performs a <a href="http://git-scm.com/docs/git-revert">git-revert</a>
   by <code>git revert CommitID</code></p>
 
 <p> Using the <code>git revert CommitID</code> command, the changes made for the <i>CommitID</i>
@@ -26,20 +37,33 @@ How often do people revert code?
 </p>
 <p>
   However, it's also possible that updates to only a subset of the files are reversed.
-  It's hard to identify such cases with precision, but a study of how frequently such cases occur sounds
-  interesting.
+  We refer to such cases as <u>Partial reverts</u>, as only a subset of files were reverted.
+  Git-Examiner reports all partial reverts along with the file names.
 </p>
 
-<p> We name such cases as <u><strong>Partial reverts</strong></u>, as only a subset of files were reverted.
 
-<h6> How to identify full reverts and partial reverts? </h6>
+<h6> Cherry-picks & Partial Cherry-picks </h6>
+<p>A developer performs a <a href="http://git-scm.com/docs/git-cherry-pick">git-cherry-pick</a>
+  by <code>git cherry-pick CommitID</code></p>
+
+<p> Using the <code>git cherry-pick CommitID</code> command, the changes introduced by the <i>CommitID</i>
+  are applied and a new commit is created with these changes. Note that the <i>CommitID</i> refers to a
+  change introduced on a different branch.
+</p>
+<p>
+  However, it's also possible that the same updates are applied but to only a subset of the files.
+  We refer to such cases as <u>Partial Cherry-picks</u>, as only a subset of files had the same changes introduced.
+  Git-Examiner reports all partial cherry-picks along with the file names.
+</p>
+
+<h5> How to identify Reverts/ Partial reverts/ Cherry-picks/ Partial cherry-picks & Merges? </h5>
 
 <p>There is a diff associated with every commit. The diff contains a lot of information such as # of files
   changed, statistics such as # of additions/deletions for each file and actual changes to every file.<br></p>
 
 <p> We mine this information and then identify reverts using an efficient search and comparison algorithm.</p>
 
-<h6> Results: </h6>
+<h5> Results: </h5>
 
   The results for some of the open-sourced projects are provided at: <br/>
   <a href="https://github.com/silverSpoon/RevertFinder/blob/master/results.txt">
@@ -47,7 +71,7 @@ How often do people revert code?
   </a>
   The results are also provided below for a quick look.
 
-<h6> Credits: </h6>
+<h5> Credits: </h5>
 
 <p> This project was developed for CS 527 - Fall 2014 - University of Illinois at Urbana Champaign.
   Thanks to
