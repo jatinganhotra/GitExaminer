@@ -94,6 +94,69 @@ echo ======================================================
 echo Running couchdb
 ruby script.rb https://github.com/apache/couchdb.git
 
+echo ======================================================
+echo ===== Running all Security repos now =================
+echo ======================================================
+echo Running moloch
+ruby script.rb https://github.com/aol/moloch.git
+
+echo ======================================================
+echo Running ossec-hids
+ruby script.rb https://github.com/ossec/ossec-hids.git
+
+echo ======================================================
+echo Running cuckoo
+ruby script.rb https://github.com/cuckoobox/cuckoo.git
+
+echo ======================================================
+echo Running brakeman
+ruby script.rb https://github.com/presidentbeef/brakeman.git
+
+echo ======================================================
+echo Running sleuthkit
+ruby script.rb https://github.com/sleuthkit/sleuthkit.git
+
+echo ======================================================
+echo Running mig
+ruby script.rb https://github.com/mozilla/mig.git
+
+echo ======================================================
+echo Running MozDef
+ruby script.rb https://github.com/jeffbryner/MozDef.git
+
+echo ======================================================
+echo Running hoosegow
+ruby script.rb https://github.com/github/hoosegow.git
+
+echo ======================================================
+echo === Running Front-end Javascript frameworks =========
+echo ======================================================
+echo Running backbone
+ruby script.rb https://github.com/jashkenas/backbone.git
+
+echo ======================================================
+echo Running ember.js
+ruby script.rb https://github.com/emberjs/ember.js.git
+
+echo ======================================================
+echo Running knockout
+ruby script.rb https://github.com/knockout/knockout.git
+
+echo ======================================================
+echo Running todomvc
+ruby script.rb https://github.com/tastejs/todomvc.git
+
+echo ======================================================
+echo Running spine
+ruby script.rb https://github.com/spine/spine.git
+
+echo ======================================================
+echo Running polymer
+ruby script.rb https://github.com/Polymer/polymer.git
+
+echo ======================================================
+echo Running brick
+ruby script.rb https://github.com/mozbrick/brick.git
 
 # ======================================================
 # ======================================================

@@ -77,7 +77,7 @@ num = 0
 
 # Compiling results in a specific order to easily identify any changes
 #Dir.foreach("Logs")  do |file|
-projects = ["backbone-fundamentals", "catalyst-runtime", "jshint", "MLPNeuralNet", "mojo", "ninja", "sails", "sinatra", "stylus", "MapDB", "codebox", "flockdb", "lime", "neovim", "pouchdb", "redis", "sharelatex", "slap", "textmate", "zed", "couchdb", "orientdb", "vim.js"]
+projects = ["backbone-fundamentals", "catalyst-runtime", "jshint", "MLPNeuralNet", "mojo", "ninja", "sails", "sinatra", "stylus", "MapDB", "codebox", "flockdb", "lime", "neovim", "pouchdb", "redis", "sharelatex", "slap", "textmate", "zed", "couchdb", "orientdb", "vim.js", "moloch", "ossec-hids", "cuckoo", "brakeman", "sleuthkit", "mig", "MozDef", "hoosegow", "backbone", "ember.js", "knockout", "todomvc", "spine", "polymer", "brick" ]
 projects.each do |file|
   file = file + "-results.txt"
   next if file.match(/.*-results.txt$/).nil?
