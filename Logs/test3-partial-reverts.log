@@ -1,0 +1,31 @@
+# of partial reverts = 2
+Partial Revert diff pair 1 is -> 
+{ 9fc9f095293fa135ebdaa2983601b373e415bbf7 -> e45d35e74b1553a700765bd176539d4d988a62ce } is a revert
+{ 60034c758c2397edafbc35b32a41e2b8d8f9be5e -> 4cfde1063b9374db7e458dfe4db943fa34a25d86 }
+Partial Revert commits SHA are -> 
+e45d35e74b1553a700765bd176539d4d988a62ce - revert - 4cfde1063b9374db7e458dfe4db943fa34a25d86
+---> The reverted commit sha is - e45d35e74b1553a700765bd176539d4d988a62ce
+Commit message - Adding alphanumric chars
+---> The original commit sha is - 4cfde1063b9374db7e458dfe4db943fa34a25d86
+Commit message - Revert "Adding alphanumric chars"
+
+This reverts commit e45d35e74b1553a700765bd176539d4d988a62ce.
+Now, this revert works as the above commit is before the current node
+---> The files with partial_reverts are:-
+file.txt
+-----------------------------------------------------------------
+
+Partial Revert diff pair 2 is -> 
+{ 9fc9f095293fa135ebdaa2983601b373e415bbf7 -> e45d35e74b1553a700765bd176539d4d988a62ce } is a revert
+{ e45d35e74b1553a700765bd176539d4d988a62ce -> 60034c758c2397edafbc35b32a41e2b8d8f9be5e }
+Partial Revert commits SHA are -> 
+e45d35e74b1553a700765bd176539d4d988a62ce - revert - 60034c758c2397edafbc35b32a41e2b8d8f9be5e
+---> The reverted commit sha is - e45d35e74b1553a700765bd176539d4d988a62ce
+Commit message - Adding alphanumric chars
+---> The original commit sha is - 60034c758c2397edafbc35b32a41e2b8d8f9be5e
+Commit message - Merge branch 'extra'
+Merging the branch 'extra' here
+---> The files with partial_reverts are:-
+file2.txt
+-----------------------------------------------------------------
+

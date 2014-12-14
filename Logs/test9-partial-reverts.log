@@ -1,0 +1,14 @@
+# of partial reverts = 1
+Partial Revert diff pair 1 is -> 
+{ e32e9addd0b364de658cf6260a9ef7fcf70f3eed -> 61cbe297fc7f758ad17804ee0005c8aef76a6b8d } is a revert
+{ 61cbe297fc7f758ad17804ee0005c8aef76a6b8d -> 83326f2b99b6e50ef0dbb549932824bfa6ab6389 }
+Partial Revert commits SHA are -> 
+61cbe297fc7f758ad17804ee0005c8aef76a6b8d - revert - 83326f2b99b6e50ef0dbb549932824bfa6ab6389
+---> The reverted commit sha is - 61cbe297fc7f758ad17804ee0005c8aef76a6b8d
+Commit message - Changed both files
+---> The original commit sha is - 83326f2b99b6e50ef0dbb549932824bfa6ab6389
+Commit message - Manually reversed the changes in file2.txt
+---> The files with partial_reverts are:-
+file2.txt
+-----------------------------------------------------------------
+

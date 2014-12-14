@@ -1,0 +1,25 @@
+# of reverts = 2
+Revert diff pair 1 is -> 
+{ 92078c629056c11f006fddc316eac6512cd369a3 -> 1ecff820756da76add82c59344c997042696b2f0 } is a revert
+{ 5687cbd20cd266ffd8f6ece73ed8b88afba01f4b -> ca225bd27541dcafe2341ab0a3657c12483e9f98 }
+Revert commits SHA are -> 
+1ecff820756da76add82c59344c997042696b2f0 - revert - ca225bd27541dcafe2341ab0a3657c12483e9f98
+---> The reverted commit sha is - 1ecff820756da76add82c59344c997042696b2f0
+Commit message - Changed one sentence
+---> The original commit sha is - ca225bd27541dcafe2341ab0a3657c12483e9f98
+Commit message - Manually removed the fyi. This is a formal doc, fyi is not allowed
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ a3a3ca73d18f3bbecd665dd99117c3ffb63672bc -> 3e2ed4e2a527e2206364e01dce5195ed1348bf02 } is a revert
+{ 3e2ed4e2a527e2206364e01dce5195ed1348bf02 -> 76bb3d6780c270181c137b723dc7384cd0611303 }
+Revert commits SHA are -> 
+3e2ed4e2a527e2206364e01dce5195ed1348bf02 - revert - 76bb3d6780c270181c137b723dc7384cd0611303
+---> The reverted commit sha is - 3e2ed4e2a527e2206364e01dce5195ed1348bf02
+Commit message - Commit #2 - Changed the file contents
+---> The original commit sha is - 76bb3d6780c270181c137b723dc7384cd0611303
+Commit message - Revert "Commit #2 - Changed the file contents"
+Going back to the previous state
+This reverts commit 3e2ed4e2a527e2206364e01dce5195ed1348bf02.
+-----------------------------------------------------------------
+

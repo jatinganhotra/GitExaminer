@@ -1,0 +1,17 @@
+# of partial cherrypicks = 1
+Partial Cherry-pick diff pair 1 is -> 
+{ 1f7c979f19b71b84325988d43671eb0e7c24acb5 -> 4c3f5276f11f7fa683340cd8a9fe48c0a9e9a3e0 } is a cherrypick
+{ a991bd9933d1a13cb7a97190f79b58b26df905cf -> d15ec20b5882fbe1bf7d05249203cda996203142 }
+Partial Cherry-pick commits SHA are -> 
+4c3f5276f11f7fa683340cd8a9fe48c0a9e9a3e0 - cherrypick - d15ec20b5882fbe1bf7d05249203cda996203142
+---> The cherrypicked commit sha is - 4c3f5276f11f7fa683340cd8a9fe48c0a9e9a3e0
+Commit message - Changed 1 to 0 on master branch
+---> The original commit sha is - d15ec20b5882fbe1bf7d05249203cda996203142
+Commit message - Revert "Changed both files on branch2. Added new file file2.txt and added 7 to file.txt"
+This will delete file2.txt and remove 7 from file.txt
+
+This reverts commit 1f7c979f19b71b84325988d43671eb0e7c24acb5.
+---> The files with partial_cherrypicks are:-
+file2.txt
+-----------------------------------------------------------------
+

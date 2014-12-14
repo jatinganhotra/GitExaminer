@@ -1,0 +1,43 @@
+# of reverts = 3
+Revert diff pair 1 is -> 
+{ 7bd252aedfb842f3ad39facc439da43c6eaaf98f -> 57a0e6030e06a6ee5893a3b9b0d75a351ad93691 } is a revert
+{ 57a0e6030e06a6ee5893a3b9b0d75a351ad93691 -> 9fc9f095293fa135ebdaa2983601b373e415bbf7 }
+Revert commits SHA are -> 
+57a0e6030e06a6ee5893a3b9b0d75a351ad93691 - revert - 9fc9f095293fa135ebdaa2983601b373e415bbf7
+---> The reverted commit sha is - 57a0e6030e06a6ee5893a3b9b0d75a351ad93691
+Commit message - Ading c and 3
+---> The original commit sha is - 9fc9f095293fa135ebdaa2983601b373e415bbf7
+Commit message - Revert "Ading c and 3"
+
+This reverts commit 57a0e6030e06a6ee5893a3b9b0d75a351ad93691.
+ Going back
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ b89e58a6f256058bc5fdcc06c4b73572e09345f7 -> 5ea22deae91fe86f1a1e5f6260bcc41475634e1a } is a revert
+{ 18498808423a24d62acda7b132acf9d772c2d73c -> 7bd252aedfb842f3ad39facc439da43c6eaaf98f }
+Revert commits SHA are -> 
+5ea22deae91fe86f1a1e5f6260bcc41475634e1a - revert - 7bd252aedfb842f3ad39facc439da43c6eaaf98f
+---> The reverted commit sha is - 5ea22deae91fe86f1a1e5f6260bcc41475634e1a
+Commit message - Revert "Added 2"
+
+This reverts commit b89e58a6f256058bc5fdcc06c4b73572e09345f7.
+Removing 2
+---> The original commit sha is - 7bd252aedfb842f3ad39facc439da43c6eaaf98f
+Commit message - Added 2 to file.txt
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ fbfe5980897c25560fe4af89f20a13c713ff1d3f -> b89e58a6f256058bc5fdcc06c4b73572e09345f7 } is a revert
+{ b89e58a6f256058bc5fdcc06c4b73572e09345f7 -> 5ea22deae91fe86f1a1e5f6260bcc41475634e1a }
+Revert commits SHA are -> 
+b89e58a6f256058bc5fdcc06c4b73572e09345f7 - revert - 5ea22deae91fe86f1a1e5f6260bcc41475634e1a
+---> The reverted commit sha is - b89e58a6f256058bc5fdcc06c4b73572e09345f7
+Commit message - Added 2
+---> The original commit sha is - 5ea22deae91fe86f1a1e5f6260bcc41475634e1a
+Commit message - Revert "Added 2"
+
+This reverts commit b89e58a6f256058bc5fdcc06c4b73572e09345f7.
+Removing 2
+-----------------------------------------------------------------
+

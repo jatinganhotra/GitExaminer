@@ -1,0 +1,58 @@
+# of reverts = 5
+Revert diff pair 1 is -> 
+{ 6641871520789d70966644d2c77c24da2a86eaa8 -> b0fdca14b0df8d2ea5fdce8d7c97f5871fdaabe2 } is a revert
+{ 9add743156f9d0b0f1e698e846e41a64dc91e383 -> 7a7e849f6d9d0977d8a93223fb6b8c8cfdc2e2e8 }
+Revert commits SHA are -> 
+b0fdca14b0df8d2ea5fdce8d7c97f5871fdaabe2 - revert - 7a7e849f6d9d0977d8a93223fb6b8c8cfdc2e2e8
+---> The reverted commit sha is - b0fdca14b0df8d2ea5fdce8d7c97f5871fdaabe2
+Commit message - Added 4
+---> The original commit sha is - 7a7e849f6d9d0977d8a93223fb6b8c8cfdc2e2e8
+Commit message - Realized the adding 4 was incorrect
+-----------------------------------------------------------------
+
+Revert diff pair 2 is -> 
+{ 81ee60fca1d7523d37c57248845a3079a70ab07d -> c07f690fefbb17eb6d4d46e19ef4700fdc27aab5 } is a revert
+{ 9add743156f9d0b0f1e698e846e41a64dc91e383 -> 7a7e849f6d9d0977d8a93223fb6b8c8cfdc2e2e8 }
+Revert commits SHA are -> 
+c07f690fefbb17eb6d4d46e19ef4700fdc27aab5 - revert - 7a7e849f6d9d0977d8a93223fb6b8c8cfdc2e2e8
+---> The reverted commit sha is - c07f690fefbb17eb6d4d46e19ef4700fdc27aab5
+Commit message - Re-Added 4 manually again
+---> The original commit sha is - 7a7e849f6d9d0977d8a93223fb6b8c8cfdc2e2e8
+Commit message - Realized the adding 4 was incorrect
+-----------------------------------------------------------------
+
+Revert diff pair 3 is -> 
+{ b80962847d6f1fe2ba1405adb41e6f543018f28c -> 812598f3a1221413297a5daaf1644e874a342ddb } is a revert
+{ 812598f3a1221413297a5daaf1644e874a342ddb -> 4f41484162be1fb03ae0c9ea8e5180a6d6e601f2 }
+Revert commits SHA are -> 
+812598f3a1221413297a5daaf1644e874a342ddb - revert - 4f41484162be1fb03ae0c9ea8e5180a6d6e601f2
+---> The reverted commit sha is - 812598f3a1221413297a5daaf1644e874a342ddb
+Commit message - Added d to state.txt
+---> The original commit sha is - 4f41484162be1fb03ae0c9ea8e5180a6d6e601f2
+Commit message - Revert "Added d to state.txt"
+Using the git revert command
+This reverts commit 812598f3a1221413297a5daaf1644e874a342ddb.
+-----------------------------------------------------------------
+
+Revert diff pair 4 is -> 
+{ 7ad2a659689043508bd4c41edfa3088ffc17e49c -> 81ee60fca1d7523d37c57248845a3079a70ab07d } is a revert
+{ 81ee60fca1d7523d37c57248845a3079a70ab07d -> c07f690fefbb17eb6d4d46e19ef4700fdc27aab5 }
+Revert commits SHA are -> 
+81ee60fca1d7523d37c57248845a3079a70ab07d - revert - c07f690fefbb17eb6d4d46e19ef4700fdc27aab5
+---> The reverted commit sha is - 81ee60fca1d7523d37c57248845a3079a70ab07d
+Commit message - Removed 4, but not using git revert
+---> The original commit sha is - c07f690fefbb17eb6d4d46e19ef4700fdc27aab5
+Commit message - Re-Added 4 manually again
+-----------------------------------------------------------------
+
+Revert diff pair 5 is -> 
+{ 6641871520789d70966644d2c77c24da2a86eaa8 -> b0fdca14b0df8d2ea5fdce8d7c97f5871fdaabe2 } is a revert
+{ 7ad2a659689043508bd4c41edfa3088ffc17e49c -> 81ee60fca1d7523d37c57248845a3079a70ab07d }
+Revert commits SHA are -> 
+b0fdca14b0df8d2ea5fdce8d7c97f5871fdaabe2 - revert - 81ee60fca1d7523d37c57248845a3079a70ab07d
+---> The reverted commit sha is - b0fdca14b0df8d2ea5fdce8d7c97f5871fdaabe2
+Commit message - Added 4
+---> The original commit sha is - 81ee60fca1d7523d37c57248845a3079a70ab07d
+Commit message - Removed 4, but not using git revert
+-----------------------------------------------------------------
+
