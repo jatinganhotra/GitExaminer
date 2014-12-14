@@ -1,0 +1,143 @@
+num_tests=0
+failed_tests=0
+echo ============== Running Tests ========================
+echo Running test1
+((num_tests++))
+ruby script.rb tests/test1 
+a=`diff Logs/test1-results.txt Logs/golden-test1-results.txt`
+b=`diff Logs/test1-reverts.log Logs/golden-test1-reverts.log`
+if [[  "$b" != "" || "$a" != "" ]] ; then
+    echo "Test 1 failed"
+    ((failed_tests++))
+fi
+
+echo ======================================================
+echo Running test2
+((num_tests++))
+ruby script.rb tests/test2
+a=`diff Logs/test2-results.txt Logs/golden-test2-results.txt`
+b=`diff Logs/test2-reverts.log Logs/golden-test2-reverts.log`
+c=`diff Logs/test2-cherry-picks.log Logs/golden-test2-cherry-picks.log`
+if [[  "$b" != "" || "$a" != "" || "$c" != "" ]] ; then
+    echo "Test 2 failed"
+    ((failed_tests++))
+fi
+
+echo ======================================================
+echo Running test3
+((num_tests++))
+ruby script.rb tests/test3
+a=`diff Logs/test3-results.txt Logs/golden-test3-results.txt`
+b=`diff Logs/test3-reverts.log Logs/golden-test3-reverts.log`
+c=`diff Logs/test3-merges.log Logs/golden-test3-merges.log`
+d=`diff Logs/test3-partial-reverts.log Logs/golden-test3-partial-reverts.log`
+e=`diff Logs/test3-cherry-picks.log Logs/golden-test3-cherry-picks.log`
+if [[  "$a" != "" || "$b" != "" || "$c" != "" || "$d" != "" || "$e" != "" ]] ; then
+    echo "Test 3 failed"
+    ((failed_tests++))
+fi
+
+echo ======================================================
+echo Running test4
+((num_tests++))
+ruby script.rb tests/test4
+a=`diff Logs/test4-results.txt Logs/golden-test4-results.txt`
+b=`diff Logs/test4-reverts.log Logs/golden-test4-reverts.log`
+c=`diff Logs/test4-merges.log Logs/golden-test4-merges.log`
+d=`diff Logs/test4-partial-reverts.log Logs/golden-test4-partial-reverts.log`
+e=`diff Logs/test4-cherry-picks.log Logs/golden-test4-cherry-picks.log`
+f=`diff Logs/test4-partial-cherrypicks.log Logs/golden-test4-partial-cherrypicks.log`
+if [[  "$a" != "" || "$b" != "" || "$c" != "" || "$d" != "" || "$e" != "" || "$f" != "" ]] ; then
+    echo "Test 4 failed"
+    ((failed_tests++))
+fi
+
+echo ======================================================
+echo Running test5
+((num_tests++))
+ruby script.rb tests/test5
+a=`diff Logs/test5-results.txt Logs/golden-test5-results.txt`
+b=`diff Logs/test5-reverts.log Logs/golden-test5-reverts.log`
+if [[  "$a" != "" || "$b" != "" ]] ; then
+    echo "Test 5 failed"
+    ((failed_tests++))
+fi
+
+echo ======================================================
+echo Running test6
+((num_tests++))
+ruby script.rb tests/test6
+a=`diff Logs/test6-results.txt Logs/golden-test6-results.txt`
+b=`diff Logs/test6-reverts.log Logs/golden-test6-reverts.log`
+if [[  "$a" != "" || "$b" != "" ]] ; then
+    echo "Test 6 failed"
+    ((failed_tests++))
+fi
+
+echo ======================================================
+echo Running test7
+((num_tests++))
+ruby script.rb tests/test7
+a=`diff Logs/test7-results.txt Logs/golden-test7-results.txt`
+d=`diff Logs/test7-partial-reverts.log Logs/golden-test7-partial-reverts.log`
+if [[  "$a" != "" || "$d" != "" ]] ; then
+    echo "Test 7 failed"
+    ((failed_tests++))
+fi
+
+echo ======================================================
+echo Running test8
+((num_tests++))
+ruby script.rb tests/test8
+a=`diff Logs/test8-results.txt Logs/golden-test8-results.txt`
+if [[ "$a" != "" ]] ; then
+    echo "Test 8 failed"
+    ((failed_tests++))
+fi
+
+echo ======================================================
+echo Running test9
+((num_tests++))
+ruby script.rb tests/test9
+a=`diff Logs/test9-results.txt Logs/golden-test9-results.txt`
+d=`diff Logs/test9-partial-reverts.log Logs/golden-test9-partial-reverts.log`
+if [[  "$a" != "" || "$d" != "" ]] ; then
+    echo "Test 9 failed"
+    ((failed_tests++))
+fi
+
+echo ======================================================
+echo Running test10
+((num_tests++))
+ruby script.rb tests/test10
+a=`diff Logs/test10-results.txt Logs/golden-test10-results.txt`
+if [[  "$a" != "" ]] ; then
+    echo "Test 10 failed"
+    ((failed_tests++))
+fi
+
+echo ======================================================
+echo Running test11
+((num_tests++))
+ruby script.rb tests/test11
+a=`diff Logs/test11-results.txt Logs/golden-test11-results.txt`
+c=`diff Logs/test11-merges.log Logs/golden-test11-merges.log`
+e=`diff Logs/test11-cherry-picks.log Logs/golden-test11-cherry-picks.log`
+if [[  "$a" != "" || "$c" != "" || "$e" != "" ]] ; then
+    echo "Test 11 failed"
+    ((failed_tests++))
+fi
+
+echo ======================================================
+echo Running test12
+((num_tests++))
+ruby script.rb tests/test12
+a=`diff Logs/test12-results.txt Logs/golden-test12-results.txt`
+b=`diff Logs/test12-reverts.log Logs/golden-test12-reverts.log`
+c=`diff Logs/test12-merges.log Logs/golden-test12-merges.log`
+if [[  "$a" != "" || "$b" != "" || "$c" != "" ]] ; then
+    echo "Test 12 failed"
+    ((failed_tests++))
+fi
+
+echo Run completed. Total tests - $num_tests, failed - $failed_tests
