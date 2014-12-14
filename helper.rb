@@ -127,15 +127,7 @@ def CompareDiffPatch(a, b, options)
   a_numfiles = a.num_difffiles
   b_numfiles = b.num_difffiles
 
-  # TODO - Enhancement for partial reverts.
-  # The below condition will be false when you are looking for partial reverts
-  # unless a_numfiles == b_numfiles
-  #   raise "Both stats must have the same number of files, \
-  #       as we reached here only after checking stats and num_difffiles"
-  # end
-
   num_diffs_correct = 0
-  # FIXME: Investigate when would the next line be true
   return false if a_numfiles == 0 || b_numfiles == 0
   raise "The difffiles array can't be nil" if a.difffiles.nil? || b.difffiles.nil?
 
@@ -149,7 +141,7 @@ def CompareDiffPatch(a, b, options)
 
     return false if is_present == false
 
-    # TODO - Enhancement for partial reverts. Check if stats match for the given difffile
+    # Enhancement for partial reverts/cherrypicks. Check if stats match for the given difffile
     b_difffile_file_name = b_difffile.file_name
     diff_stats_match = CompareDiffStatsFor2Difffiles(a,b, a_difffile_file_name, b_difffile_file_name, options)
     next if diff_stats_match == false
@@ -167,7 +159,7 @@ def CompareDiffPatch(a, b, options)
   end
 
   return true if ( num_diffs_correct == a_numfiles && num_diffs_correct == b_numfiles )
-  # TODO - Enhancement for partial reverts
+  # Enhancement for partial reverts/cherrypicks
   if num_diffs_correct > 0
     return true, partial_diff_files
   end

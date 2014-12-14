@@ -24,8 +24,8 @@ class Diff
   end
 
   def initialize(prev_commit_sha, next_commit_sha, diff)
-    # Input argument is diff obtained as:
-    #     # diff = g.diff('7bd252aedfb842f3ad39facc439da43c6eaaf98f', '57a0e6030e06a6ee5893a3b9b0d75a351ad93691')
+    # Input argument is diff obtained by:
+    # git_object.diff('7bd252aedfb842f3ad39facc439da43c6eaaf98f', '57a0e6030e06a6ee5893a3b9b0d75a351ad93691')
     @diff = diff
     @prev_commit_sha = prev_commit_sha
     @next_commit_sha = next_commit_sha
@@ -33,13 +33,6 @@ class Diff
 
   def generate_stats
     num_files = @stats[:total][:files]
-    #puts "The files in @stats[:total] are - "
-    #@stats[:files].each do |file_name, file_stats|
-    #  puts file_name
-    #end
-    #puts " The size of @stats[:files] is = " + @stats[:files].size.to_s
-    #puts "num_files are = " + num_files.to_s
-    #puts "@num_difffiles = " + @num_difffiles.to_s
     raise "Num_files in stats != number of diffiles" unless num_files == @num_difffiles
   end
 
